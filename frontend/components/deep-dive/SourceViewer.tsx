@@ -1,6 +1,11 @@
 import React from 'react';
 import { SearchResult } from '@/types/api';
 
+function suttaCentralUrl(id: string): string {
+  const suttaRef = id.split(':')[0].replace(/\s+/g, '').toLowerCase();
+  return `https://suttacentral.net/${suttaRef}`;
+}
+
 interface SourceViewerProps {
   context: SearchResult[];
   activeRef?: string;
@@ -23,8 +28,15 @@ export function SourceViewer({ context, activeRef }: SourceViewerProps) {
                 : 'bg-white border-transparent shadow-sm'
             }`}
           >
-            <div className="text-xs font-bold text-gray-400 mb-2 uppercase tracking-wider">
-              {verse.id}
+            <div className="text-xs font-bold mb-2 uppercase tracking-wider">
+              <a
+                href={suttaCentralUrl(verse.id)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                {verse.id}
+              </a>
             </div>
             <div className="mb-3 text-lg leading-relaxed italic text-gray-800">
               {verse.pali}

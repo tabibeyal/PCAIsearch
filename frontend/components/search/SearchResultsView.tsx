@@ -1,6 +1,11 @@
 import React from 'react';
 import { SearchResult } from '@/types/api';
 
+function suttaCentralUrl(id: string): string {
+  const suttaRef = id.split(':')[0].replace(/\s+/g, '').toLowerCase();
+  return `https://suttacentral.net/${suttaRef}`;
+}
+
 interface SearchResultsViewProps {
   results: SearchResult[];
   query: string;
@@ -26,9 +31,14 @@ export function SearchResultsView({ results, query }: SearchResultsViewProps) {
               className="p-4 rounded-lg border border-gray-200 bg-white hover:border-blue-300 transition-colors shadow-sm"
             >
               <div className="flex justify-between items-start mb-2">
-                <span className="text-xs font-medium text-gray-400 bg-gray-100 px-2 py-1 rounded">
-                  Result #{index + 1}
-                </span>
+                <a
+                  href={suttaCentralUrl(result.id)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs font-medium text-blue-600 hover:underline bg-blue-50 px-2 py-1 rounded"
+                >
+                  {result.id}
+                </a>
                 <span className="text-xs text-gray-400">
                   Score: {result.score.toFixed(4)}
                 </span>
