@@ -1,6 +1,6 @@
 import re
 from typing import List
-from sentence_transformers import SentenceTransformer
+from fastembed import TextEmbedding
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
 
@@ -32,24 +32,19 @@ class SuttaParser:
 class EmbeddingManager:
     """
     Handles the multilingual embedding model and Qdrant collection setup.
+    Uses fastembed (ONNX Runtime) for compatibility with older CPUs.
     """
-    def __init__(self, model_name: str = 'paraphrase-multilingual-MiniLM-L12-v2'):
-        # Load model once to be reused
-        self.model = SentenceTransformer(model_name)
-        self.dimension = self.model.get_embedding_dimension()
+    def __init__(self, model_name: str = 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'):
+        self._model = TextEmbedding(model_name)
+        self.dimension = 384  # paraphrase-multilingual-MiniLM-L12-v2 output dim
 
     def encode(self, text: str) -> list:
-        """
-        Encodes text into a vector.
-        """
-        embedding = self.model.encode(text)
-        return embedding.tolist()
+        return next(iter(self._model.embed([text]))).tolist()
+
+    def encode_batch(self, texts: List[str]) -> List[list]:
+        return [v.tolist() for v in self._model.embed(texts)]
 
     def setup_collection(self, client: QdrantClient, collection_name: str, recreate: bool = False):
-        """
-        Creates a Qdrant collection if it does not exist.
-        Pass recreate=True only for a full re-index — this drops all existing data.
-        """
         if client.collection_exists(collection_name):
             if not recreate:
                 print(f"Collection {collection_name} already exists, skipping creation.")

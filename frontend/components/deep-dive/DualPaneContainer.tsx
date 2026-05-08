@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { SynthesisView } from './SynthesisView';
 import { SourceViewer } from './SourceViewer';

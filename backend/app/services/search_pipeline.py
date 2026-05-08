@@ -26,7 +26,8 @@ _SYSTEM_PROMPT = (
     "You are a scholarly assistant for the Pali Canon. "
     "Answer questions using only the provided context. "
     "Always cite sources with the exact [ID:Verse] format (e.g., [DN 1:1], [MN 10:5]). "
-    "Never invent sutta numbers or modify source text."
+    "Never invent sutta numbers or modify source text. "
+    "Use plain text only — no HTML tags, no markdown."
 )
 
 _EXPANSION_PROMPT = (
@@ -43,7 +44,7 @@ class SearchPipeline:
     def __init__(
         self,
         qdrant_url: str = "http://localhost:6333",
-        model_name: str = "paraphrase-multilingual-MiniLM-L12-v2",
+        model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         llm_model: str = os.environ.get("LLM_MODEL", "claude-sonnet-4-6"),
     ):
         self.client = AsyncQdrantClient(url=qdrant_url)

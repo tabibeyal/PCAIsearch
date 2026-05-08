@@ -4,22 +4,29 @@ import { DualPaneContainer } from '@/components/deep-dive/DualPaneContainer';
 import { SynthesisResponse, SearchResponse } from '@/types/api';
 import { SearchResultsView } from '@/components/search/SearchResultsView';
 
-async function SearchPage({ params, searchParams }: { params: { query: string }, searchParams: { [key: string]: string | string[] | undefined } }) {
-  const query = decodeURIComponent(params.query);
+async function SearchPage({ params, searchParams }: { params: Promise<{ query: string }>, searchParams: Promise<{ [key: string]: string | string[] | undefined }> }) {
+  const { query: rawQuery } = await params;
+  const { view: viewParam } = await searchParams;
+  const query = decodeURIComponent(rawQuery);
   const encodedQuery = encodeURIComponent(query);
-  const view = searchParams.view === 'results' ? 'results' : 'synthesis';
+  const view = viewParam === 'results' ? 'results' : 'synthesis';
 
   const tabClass = (active: boolean) =>
     `px-4 py-2 rounded-full text-sm font-medium transition-colors ${active ? 'bg-blue-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`;
 
   const nav = (
-    <nav className="flex items-center justify-center p-4 bg-white border-b sticky top-0 z-10 gap-4">
-      <a href={`/search/${encodedQuery}?view=synthesis`} className={tabClass(view === 'synthesis')}>
-        AI Synthesis
+    <nav className="flex items-center p-4 bg-white border-b sticky top-0 z-10 gap-4">
+      <a href="/" className="px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">
+        ← New Search
       </a>
-      <a href={`/search/${encodedQuery}?view=results`} className={tabClass(view === 'results')}>
-        All Verses
-      </a>
+      <div className="flex-1 flex justify-center gap-4">
+        <a href={`/search/${encodedQuery}?view=synthesis`} className={tabClass(view === 'synthesis')}>
+          AI Synthesis
+        </a>
+        <a href={`/search/${encodedQuery}?view=results`} className={tabClass(view === 'results')}>
+          All Verses
+        </a>
+      </div>
     </nav>
   );
 
