@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { SupportBanner } from '@/components/SupportBanner'
 
 export const metadata: Metadata = {
   title: 'Pali Canon AI Search',
@@ -13,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased flex flex-col min-h-screen">
+        <main className="flex-1">{children}</main>
+        <SupportBanner />
+      </body>
     </html>
   )
 }
