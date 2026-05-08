@@ -39,11 +39,15 @@ async def test_expand_query_calls_llm_once(pipeline):
 
 @pytest.mark.asyncio
 async def test_expand_query_parses_llm_lines_as_variants(pipeline):
+    # We now cap at 3 variants. Original query + 2 variants.
+    # The LLM output provides 3 variants. The final list will be [original, v1, v2]
     _mock_llm(pipeline, "sati awareness\nright mindfulness eightfold path\nkāyagatāsati body mindfulness")
     variants = await pipeline.expand_query("mindfulness")
+    assert len(variants) == 3
     assert any("sati" in v for v in variants)
     assert any("eightfold" in v for v in variants)
-    assert any("kāyagatāsati" in v for v in variants)
+    # kāyagatāsati is the 3rd variant, and should be truncated.
+    assert not any("kāyagatāsati" in v for v in variants)
 
 
 @pytest.mark.asyncio
@@ -60,7 +64,12 @@ async def test_expand_query_returns_at_least_two_variants(pipeline):
     assert len(variants) >= 2
 
 
-# --- search integration: uses expanded queries ---
+@pytest.mark.asyncio
+async def test_expand_query_strictly_limits_to_three_variants(pipeline):
+    # LLM returns 5 variants
+    _mock_llm(pipeline, "v1\nv2\nv3\nv4\nv5")
+    variants = await pipeline.expand_query("mindfulness")
+    assert len(variants) <= 3, "Query expansion must be capped at 3 variants"
 
 @pytest.fixture
 def in_memory_pipeline():

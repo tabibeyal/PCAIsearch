@@ -129,7 +129,7 @@ async def test_e2e_guardrail_catches_hallucinated_citation(live_pipeline):
 # API endpoint e2e tests
 # ---------------------------------------------------------------------------
 
-@pytest.fixture
+@pytest.fixture(scope="module")
 def api_client(live_pipeline):
     from backend.app.main import app
     with patch("backend.app.main.SearchPipeline", return_value=live_pipeline):

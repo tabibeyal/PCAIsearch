@@ -8,17 +8,15 @@ from slowapi.errors import RateLimitExceeded
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
 
-pipeline: SearchPipeline
-guardrail: CitationGuardrail
-
 limiter = Limiter(key_func=get_remote_address)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    global pipeline, guardrail
-    pipeline = SearchPipeline()
-    guardrail = CitationGuardrail()
+    app.state.pipeline = SearchPipeline()
+    app.state.guardrail = CitationGuardrail()
     yield
+    if pipeline := getattr(app.state, "pipeline", None):
+        pipeline.shutdown()
 
 app = FastAPI(title="Pali Canon AI Search API", lifespan=lifespan)
 app.state.limiter = limiter
@@ -37,9 +35,9 @@ app.add_middleware(
 async def search(
     request: Request,
     q: str = Query(..., min_length=1, max_length=500, description="The search query in English or Pali"),
-    top_k: int = Query(default=10, ge=1, le=50, description="Number of results to return"),
+    top_k: int = Query(default=10, ge=1, le=20, description="Number of results to return"),
 ):
-    results = await pipeline.search(q, top_k=top_k)
+    results = await request.app.state.pipeline.search(q, top_k=top_k)
     return {"query": q, "results": results}
 
 @app.get("/synthesize")
@@ -47,16 +45,16 @@ async def search(
 async def synthesize(
     request: Request,
     q: str = Query(..., min_length=1, max_length=500, description="The question to answer"),
-    top_k: int = Query(default=10, ge=1, le=50, description="Number of context chunks to retrieve"),
+    top_k: int = Query(default=10, ge=1, le=20, description="Number of context chunks to retrieve"),
 ):
     # 1. Retrieve relevant context
-    context = await pipeline.search(q, top_k=top_k)
+    context = await request.app.state.pipeline.search(q, top_k=top_k)
 
     # 2. Synthesize answer
-    answer = await pipeline.synthesize(q, context)
+    answer = await request.app.state.pipeline.synthesize(q, context)
 
     # 3. Verify citations using the guardrail
-    verification = guardrail.process_response(answer, context)
+    verification = request.app.state.guardrail.process_response(answer, context)
 
     return {
         "query": q,

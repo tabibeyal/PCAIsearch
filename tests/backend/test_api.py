@@ -14,7 +14,7 @@ def test_search_returns_results(client):
     mock_results = [
         {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Thus have I heard", "score": 0.99}
     ]
-    with patch("backend.app.main.pipeline.search", new=AsyncMock(return_value=mock_results)):
+    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
         response = client.get("/search?q=Thus+have+I+heard")
 
     assert response.status_code == 200
@@ -38,8 +38,8 @@ def test_synthesize_returns_structured_response(client):
     mock_results = [{"id": "MN 10:1", "pali": "...", "english": "Mindfulness", "score": 0.95}]
     mock_answer = "The teaching on mindfulness is found in [MN 10:1]."
 
-    with patch("backend.app.main.pipeline.search", new=AsyncMock(return_value=mock_results)), \
-         patch("backend.app.main.pipeline.synthesize", new=AsyncMock(return_value=mock_answer)):
+    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)), \
+         patch.object(app.state.pipeline, "synthesize", new=AsyncMock(return_value=mock_answer)):
         response = client.get("/synthesize?q=mindfulness")
 
     assert response.status_code == 200
@@ -58,8 +58,8 @@ def test_synthesize_guardrail_flags_hallucinations(client):
     # LLM cites DN 5:10 which was not in the retrieved context
     mock_answer = "See [MN 10:1] and [DN 5:10] for details."
 
-    with patch("backend.app.main.pipeline.search", new=AsyncMock(return_value=mock_results)), \
-         patch("backend.app.main.pipeline.synthesize", new=AsyncMock(return_value=mock_answer)):
+    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)), \
+         patch.object(app.state.pipeline, "synthesize", new=AsyncMock(return_value=mock_answer)):
         response = client.get("/synthesize?q=mindfulness")
 
     assert response.status_code == 200

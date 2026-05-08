@@ -2,14 +2,20 @@ import { SearchResponse, SynthesisResponse } from '@/types/api';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8000';
 
-export async function searchVerses(query: string): Promise<SearchResponse> {
-  const res = await fetch(`${API_BASE}/search?q=${encodeURIComponent(query)}`);
-  if (!res.ok) throw new Error('Search request failed');
+function apiError(message: string, status: number): Error {
+  const err = new Error(message) as Error & { status: number };
+  err.status = status;
+  return err;
+}
+
+export async function searchVerses(query: string, topK = 20): Promise<SearchResponse> {
+  const res = await fetch(`${API_BASE}/search?q=${encodeURIComponent(query)}&top_k=${topK}`);
+  if (!res.ok) throw apiError('Search request failed', res.status);
   return res.json();
 }
 
 export async function getSynthesis(query: string): Promise<SynthesisResponse> {
   const res = await fetch(`${API_BASE}/synthesize?q=${encodeURIComponent(query)}`);
-  if (!res.ok) throw new Error('Synthesis request failed');
+  if (!res.ok) throw apiError('Synthesis request failed', res.status);
   return res.json();
 }

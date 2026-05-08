@@ -1,6 +1,7 @@
 from typing import List, Dict, Any
 import asyncio
 import os
+from concurrent.futures import ThreadPoolExecutor
 import anthropic
 import numpy as np
 from sentence_transformers import CrossEncoder
@@ -51,6 +52,10 @@ class SearchPipeline:
         self.llm_model = llm_model
         self.llm = anthropic.AsyncAnthropic()
         self.reranker = Reranker()
+        self._executor = ThreadPoolExecutor(max_workers=4)
+
+    def shutdown(self):
+        self._executor.shutdown(wait=True)
 
     async def expand_query(self, query: str) -> List[str]:
         message = await self.llm.messages.create(
@@ -67,11 +72,11 @@ class SearchPipeline:
             if v not in seen:
                 seen.add(v)
                 variants.append(v)
-        return variants
+        return variants[:3]
 
     async def _retrieve_one(self, q: str, top_k: int) -> List[Dict[str, Any]]:
         loop = asyncio.get_event_loop()
-        query_vector = await loop.run_in_executor(None, self.embedding_mgr.encode, q)
+        query_vector = await loop.run_in_executor(self._executor, self.embedding_mgr.encode, q)
         response = await self.client.query_points(
             collection_name=self.collection_name,
             query=query_vector,
