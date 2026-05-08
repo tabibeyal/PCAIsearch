@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pytest *)",
+      "Bash(python3 *)",
+      "Bash(python -m pytest tests/ -v)",
+      "Bash(pip3 show *)",
+      "Bash(git -C /home/eyal/PCAIsearch log --oneline -10)",
+      "Bash(xargs ls)",
+      "Bash(pip show *)",
+      "Bash(npx tsc *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)"
+    ]
+  }
+}
