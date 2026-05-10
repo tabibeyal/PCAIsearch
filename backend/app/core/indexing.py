@@ -12,8 +12,8 @@ class SuttaParser:
     def parse(self, data: dict) -> list:
         sutta_id = data.get("sutta_id", "Unknown")
 
-        # Clean sutta_id for canonical format (e.g., "DN1" -> "DN 1")
-        match = re.match(r"([a-zA-Z]+)(\d+)", sutta_id)
+        # Clean sutta_id for canonical format (e.g., "DN1" -> "DN 1", "AN1.1" -> "AN 1.1")
+        match = re.match(r"([a-zA-Z]+)([\d.]+)", sutta_id)
         if match:
             formatted_id = f"{match.group(1)} {match.group(2)}"
         else:

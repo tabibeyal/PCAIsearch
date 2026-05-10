@@ -39,3 +39,14 @@ def test_ingestion_pipeline_full_flow():
     assert len(results[0]) == 2
     assert results[0][0].payload['id'] == "DN 1:1"
     assert results[0][0].payload['pali'] == "evam me sutaṃ"
+
+def test_parser_formats_dotted_sutta_id():
+    parser = SuttaParser()
+    data = {
+        "sutta_id": "AN1.1",
+        "verses": [
+            {"number": 1, "pali": "Evaṁ me sutaṁ", "english": "Thus have I heard"}
+        ]
+    }
+    chunks = parser.parse(data)
+    assert chunks[0]["id"] == "AN 1.1:1"
