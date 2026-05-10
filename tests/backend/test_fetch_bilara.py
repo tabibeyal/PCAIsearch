@@ -101,6 +101,24 @@ def test_convert_kn_dhp_splits_verses(tmp_path):
     assert len(out["verses"]) == 2
 
 
+def test_convert_kn_iti_single_sutta(tmp_path):
+    """ITI-style: one sutta per file, in a vagga subdirectory."""
+    clone_dir = _make_bilara_fixture(
+        tmp_path, "kn/iti", "vagga1",
+        "iti1",
+        pali_segs={"iti1:1.1": "ITI1 pali.", "iti1:1.2": "ITI1 pali cont."},
+        en_segs={"iti1:1.1": "ITI1 english.", "iti1:1.2": "ITI1 english cont."},
+    )
+    dump_dir = tmp_path / "dumps"
+    dump_dir.mkdir()
+    count = _run_convert(clone_dir, "kn/iti", dump_dir)
+    assert count == 1
+    out = json.loads((dump_dir / "iti1.json").read_text())
+    assert out["sutta_id"] == "ITI1"
+    assert len(out["verses"]) == 2
+    assert out["verses"][0]["pali"] == "ITI1 pali."
+
+
 def test_convert_skips_missing_en_file(tmp_path):
     """Files with no EN counterpart are skipped."""
     pali_dir = tmp_path / PALI_PREFIX / "sn" / "sn99"
