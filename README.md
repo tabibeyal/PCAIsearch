@@ -5,9 +5,9 @@ Semantic search and AI-synthesized answers over the Pali Canon (Digha Nikaya + M
 ## Features
 
 - **Semantic search** — multilingual embeddings (paraphrase-multilingual-MiniLM-L12-v2) retrieve relevant verses in English or Pali
-- **Query expansion** — Claude generates alternative phrasings to improve recall
+- **Query expansion** — LLM generates alternative phrasings to improve recall
 - **Cross-encoder reranking** — results reordered by relevance before display
-- **AI Synthesis** — Claude answers your question using only retrieved context, with inline citations (`[DN 1:1]`)
+- **AI Synthesis** — LLM answers your question using only retrieved context, with inline citations (`[DN 1:1]`)
 - **Citation guardrail** — hallucinated sutta references are flagged automatically
 - **Resume-capable indexing** — indexing can be interrupted and resumed without re-embedding
 
@@ -29,14 +29,14 @@ data/
 tests/backend/     pytest suite
 ```
 
-**Stack:** FastAPI · Qdrant · fastembed (ONNX Runtime) · cross-encoder/ms-marco-MiniLM-L-6-v2 · Claude (Anthropic) · Next.js · Tailwind CSS
+**Stack:** FastAPI · Qdrant · fastembed (ONNX Runtime) · cross-encoder/ms-marco-MiniLM-L-6-v2 · Gemma 3N (NVIDIA API) · Next.js · Tailwind CSS
 
 ## Prerequisites
 
 - Docker (for Qdrant)
 - Python 3.10+
 - Node.js 20+
-- An [Anthropic API key](https://console.anthropic.com/settings/keys)
+- An [NVIDIA API key](https://build.nvidia.com/)
 
 ## Setup
 
@@ -81,7 +81,7 @@ cp frontend/.env.local.example frontend/.env.local
 
 **Terminal 1 — Backend:**
 ```bash
-ANTHROPIC_API_KEY=your_key uvicorn backend.app.main:app --reload
+PYTHONPATH=. NVIDIA_API_KEY=your_key uvicorn backend.app.main:app --reload
 ```
 
 **Terminal 2 — Frontend:**

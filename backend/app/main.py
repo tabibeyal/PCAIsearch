@@ -1,7 +1,9 @@
+import json
 import os
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
@@ -63,6 +65,24 @@ async def synthesize(
         "is_faithful": verification["is_faithful"],
         "context": context
     }
+
+@app.get("/stream")
+@limiter.limit("10/minute")
+async def stream(
+    request: Request,
+    q: str = Query(..., min_length=1, max_length=500, description="The question to answer"),
+    top_k: int = Query(default=10, ge=1, le=20, description="Number of context chunks to retrieve"),
+):
+    async def event_stream():
+        context = await request.app.state.pipeline.search(q, top_k=top_k)
+        async for event in request.app.state.pipeline.stream_synthesize(q, context):
+            if event["type"] == "chunk":
+                yield f"data: {json.dumps(event)}\n\n"
+            else:
+                verification = request.app.state.guardrail.process_response(event["text"], context)
+                yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'is_faithful': verification['is_faithful'], 'context': context})}\n\n"
+
+    return StreamingResponse(event_stream(), media_type="text/event-stream")
 
 if __name__ == "__main__":
     import uvicorn

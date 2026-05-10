@@ -1,13 +1,20 @@
 from typing import List, Dict, Any
 import asyncio
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor
-import anthropic
+from openai import AsyncOpenAI
 import numpy as np
 from sentence_transformers import CrossEncoder
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
 from backend.app.core.indexing import EmbeddingManager
+
+
+_THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL | re.IGNORECASE)
+
+def _strip_thinking(text: str) -> str:
+    return _THINK_RE.sub("", text).strip()
 
 
 class Reranker:
@@ -27,7 +34,16 @@ _SYSTEM_PROMPT = (
     "Answer questions using only the provided context. "
     "Always cite sources with the exact [ID:Verse] format (e.g., [DN 1:1], [MN 10:5]). "
     "Never invent sutta numbers or modify source text. "
-    "Use plain text only — no HTML tags, no markdown."
+    "No HTML tags. "
+    "\n\n"
+    "Format your response as follows:\n"
+    "- Write a full introductory paragraph that situates the topic in its doctrinal context.\n"
+    "- Follow with a bullet-point section that breaks down the key teachings, one idea per bullet. "
+    "Each bullet should be a complete sentence or two — not a single word or embedded list.\n"
+    "- End with a closing paragraph that draws the threads together and notes any nuance or limitation in the retrieved texts.\n"
+    "\n"
+    "Aim for a thorough, well-developed answer — roughly three times longer than a minimal response would be. "
+    "Let there be visual breathing room between sections."
 )
 
 _EXPANSION_PROMPT = (
@@ -45,13 +61,17 @@ class SearchPipeline:
         self,
         qdrant_url: str = "http://localhost:6333",
         model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-        llm_model: str = os.environ.get("LLM_MODEL", "claude-sonnet-4-6"),
+        llm_model: str = os.environ.get("LLM_MODEL", "google/gemma-3n-e4b-it"),
     ):
         self.client = AsyncQdrantClient(url=qdrant_url)
         self.embedding_mgr = EmbeddingManager(model_name=model_name)
         self.collection_name = "pali_canon"
         self.llm_model = llm_model
-        self.llm = anthropic.AsyncAnthropic()
+        self.llm = AsyncOpenAI(
+            base_url="https://integrate.api.nvidia.com/v1",
+            api_key=os.environ.get("NVIDIA_API_KEY"),
+            timeout=30.0,
+        )
         self.reranker = Reranker()
         self._executor = ThreadPoolExecutor(max_workers=4)
 
@@ -59,13 +79,15 @@ class SearchPipeline:
         self._executor.shutdown(wait=True)
 
     async def expand_query(self, query: str) -> List[str]:
-        message = await self.llm.messages.create(
+        message = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=256,
-            system=_EXPANSION_PROMPT,
-            messages=[{"role": "user", "content": query}],
+            messages=[
+                {"role": "system", "content": _EXPANSION_PROMPT},
+                {"role": "user", "content": query},
+            ],
         )
-        raw = message.content[0].text
+        raw = _strip_thinking(message.choices[0].message.content)
         extras = [line.strip() for line in raw.splitlines() if line.strip()]
         seen: set = {query}
         variants = [query]
@@ -114,21 +136,36 @@ class SearchPipeline:
             f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
             for c in context_chunks
         )
-        message = await self.llm.messages.create(
+        message = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=1024,
-            system=[
-                {
-                    "type": "text",
-                    "text": _SYSTEM_PROMPT,
-                    "cache_control": {"type": "ephemeral"},
-                }
-            ],
+            timeout=120.0,
             messages=[
-                {
-                    "role": "user",
-                    "content": f"Context:\n{context_text}\n\nQuestion: {query}",
-                }
+                {"role": "system", "content": _SYSTEM_PROMPT},
+                {"role": "user", "content": f"Context:\n{context_text}\n\nQuestion: {query}"},
             ],
         )
-        return message.content[0].text
+        return _strip_thinking(message.choices[0].message.content)
+
+    async def stream_synthesize(self, query: str, context_chunks: List[Dict[str, Any]]):
+        context_text = "\n\n".join(
+            f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
+            for c in context_chunks
+        )
+        stream = await self.llm.chat.completions.create(
+            model=self.llm_model,
+            max_tokens=1024,
+            timeout=120.0,
+            stream=True,
+            messages=[
+                {"role": "system", "content": _SYSTEM_PROMPT},
+                {"role": "user", "content": f"Context:\n{context_text}\n\nQuestion: {query}"},
+            ],
+        )
+        full_text = ""
+        async for chunk in stream:
+            delta = chunk.choices[0].delta.content or ""
+            if delta:
+                full_text += delta
+                yield {"type": "chunk", "text": delta}
+        yield {"type": "full", "text": _strip_thinking(full_text)}

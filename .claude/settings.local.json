@@ -12,7 +12,19 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(Read *)",
+      "Bash(python -m pytest tests/backend/ -q)",
+      "Bash(git push *)",
+      "Bash(PYTHONPATH=/home/eyal/PCAIsearch python3 *)",
+      "Bash(uv tool *)",
+      "Read(//proc/**)",
+      "Bash(git -C /home/eyal/PCAIsearch status)",
+      "Bash(git -C /home/eyal/PCAIsearch diff)",
+      "Bash(git *)",
+      "Bash(grep -E '\\\\.\\(html|js|py|ts|tsx|jsx\\)$')",
+      "Bash(curl -s \"http://localhost:8000/synthesize?q=nirvana\")",
+      "Bash(curl *)"
     ]
   }
 }

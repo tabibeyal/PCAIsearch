@@ -11,30 +11,33 @@ interface SynthesisViewProps {
 export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClick }: SynthesisViewProps) {
   const { answer, is_faithful } = data;
 
-  // Regex to find [ID:Verse]
-  const citationRegex = /\[([A-Z\s\d:]+)\]/g;
+  const citationRegex = /\[([A-Z\s\d:,]+)\]/g;
+
+  const renderCitation = (ref: string, key: React.Key) => {
+    const isUnverified = ref.toLowerCase().includes('unverified');
+    return (
+      <button
+        key={key}
+        onClick={() => onCitationClick(ref)}
+        className={`mx-1 px-1.5 py-0.5 rounded text-xs font-medium transition-colors ${
+          isUnverified
+            ? 'bg-red-100 text-red-600 hover:bg-red-200 cursor-not-allowed'
+            : 'bg-blue-100 text-blue-700 hover:bg-blue-200 underline decoration-blue-300'
+        }`}
+      >
+        [{ref}]
+      </button>
+    );
+  };
 
   const renderText = (text: string) => {
     const parts = text.split(citationRegex);
     return parts.map((part, index) => {
-      // Every odd index in the split array is a captured group (the citation ID)
       if (index % 2 !== 0) {
-        const ref = part;
-        const isUnverified = ref.toLowerCase().includes('unverified');
-
-        return (
-          <button
-            key={index}
-            onClick={() => onCitationClick(ref)}
-            className={`mx-1 px-1.5 py-0.5 rounded text-xs font-medium transition-colors ${
-              isUnverified
-                ? 'bg-red-100 text-red-600 hover:bg-red-200 cursor-not-allowed'
-                : 'bg-blue-100 text-blue-700 hover:bg-blue-200 underline decoration-blue-300'
-            }`}
-          >
-            [{ref}]
-          </button>
-        );
+        const refs = part.split(',').map(r => r.trim()).filter(Boolean);
+        return refs.length === 1
+          ? renderCitation(refs[0], index)
+          : <span key={index}>{refs.map((r, i) => renderCitation(r, i))}</span>;
       }
       return <span key={index}>{part}</span>;
     });
