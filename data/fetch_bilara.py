@@ -24,8 +24,9 @@ def sparse_clone():
         paths += [f"{PALI_PREFIX}/{col}", f"{EN_PREFIX}/{col}"]
 
     if CLONE_DIR.exists():
-        print("bilara-data already cloned, pulling latest...")
-        subprocess.run(["git", "-C", str(CLONE_DIR), "pull", "--depth=1"], check=True)
+        print("bilara-data already cloned, fetching latest...")
+        subprocess.run(["git", "-C", str(CLONE_DIR), "fetch", "--depth=1"], check=True)
+        subprocess.run(["git", "-C", str(CLONE_DIR), "reset", "--hard", "FETCH_HEAD"], check=True)
         subprocess.run(
             ["git", "-C", str(CLONE_DIR), "sparse-checkout", "set"] + paths,
             check=True
