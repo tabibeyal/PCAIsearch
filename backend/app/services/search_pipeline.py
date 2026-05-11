@@ -106,14 +106,20 @@ class SearchPipeline:
                 variants.append(v)
         return variants[:3]
 
-    async def _retrieve_one(self, q: str, top_k: int) -> List[Dict[str, Any]]:
+    async def _retrieve_one(self, q: str, top_k: int, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         loop = asyncio.get_event_loop()
         query_vector = await loop.run_in_executor(self._executor, self.embedding_mgr.encode, q)
+        qdrant_filter = None
+        if nikayas:
+            qdrant_filter = models.Filter(
+                must=[models.FieldCondition(key="nikaya", match=models.MatchAny(any=nikayas))]
+            )
         response = await self.client.query_points(
             collection_name=self.collection_name,
             query=query_vector,
             limit=top_k,
             with_payload=True,
+            query_filter=qdrant_filter,
         )
         return [
             {
@@ -125,10 +131,10 @@ class SearchPipeline:
             for r in response.points
         ]
 
-    async def search(self, query: str, top_k: int = 10) -> List[Dict[str, Any]]:
+    async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         queries = await self.expand_query(query)
 
-        per_query = await asyncio.gather(*[self._retrieve_one(q, top_k) for q in queries])
+        per_query = await asyncio.gather(*[self._retrieve_one(q, top_k, nikayas) for q in queries])
 
         seen_ids: set = set()
         all_results: List[Dict[str, Any]] = []

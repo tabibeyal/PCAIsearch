@@ -2,6 +2,7 @@ import json
 import os
 from contextlib import asynccontextmanager
 from pathlib import Path
+from typing import List, Optional
 from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -43,9 +44,10 @@ async def search(
     request: Request,
     q: str = Query(..., min_length=1, max_length=500, description="The search query in English or Pali"),
     top_k: int = Query(default=10, ge=1, le=20, description="Number of results to return"),
+    nikayas: Optional[List[str]] = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
 ):
     pipeline = request.app.state.pipeline
-    results = await pipeline.search(q, top_k=top_k)
+    results = await pipeline.search(q, top_k=top_k, nikayas=nikayas or None)
     related_suttas = pipeline.get_related_suttas(results)
     return {"query": q, "results": results, "related_suttas": related_suttas}
 
@@ -80,9 +82,10 @@ async def stream(
     request: Request,
     q: str = Query(..., min_length=1, max_length=500, description="The question to answer"),
     top_k: int = Query(default=10, ge=1, le=20, description="Number of context chunks to retrieve"),
+    nikayas: Optional[List[str]] = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
 ):
     async def event_stream():
-        context = await request.app.state.pipeline.search(q, top_k=top_k)
+        context = await request.app.state.pipeline.search(q, top_k=top_k, nikayas=nikayas or None)
         async for event in request.app.state.pipeline.stream_synthesize(q, context):
             if event["type"] == "chunk":
                 yield f"data: {json.dumps(event)}\n\n"

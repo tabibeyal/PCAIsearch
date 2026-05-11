@@ -19,11 +19,14 @@ class SuttaParser:
         else:
             formatted_id = sutta_id
 
+        nikaya = formatted_id.split()[0].upper() if " " in formatted_id else formatted_id.upper()
+
         chunks = []
         for verse in data.get("verses", []):
             verse_num = verse.get("number")
             chunks.append({
                 "id": f"{formatted_id}:{verse_num}",
+                "nikaya": nikaya,
                 "pali": verse.get("pali", ""),
                 "english": verse.get("english", "")
             })

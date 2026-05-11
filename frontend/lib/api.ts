@@ -8,8 +8,10 @@ function apiError(message: string, status: number): Error {
   return err;
 }
 
-export async function searchVerses(query: string, topK = 20): Promise<SearchResponse> {
-  const res = await fetch(`${API_BASE}/search?q=${encodeURIComponent(query)}&top_k=${topK}`);
+export async function searchVerses(query: string, topK = 20, nikayas?: string[]): Promise<SearchResponse> {
+  const params = new URLSearchParams({ q: query, top_k: String(topK) });
+  nikayas?.forEach(n => params.append('nikayas', n));
+  const res = await fetch(`${API_BASE}/search?${params}`);
   if (!res.ok) throw apiError('Search request failed', res.status);
   return res.json();
 }
@@ -20,8 +22,10 @@ export async function getSynthesis(query: string): Promise<SynthesisResponse> {
   return res.json();
 }
 
-export async function* streamSynthesis(query: string) {
-  const res = await fetch(`${API_BASE}/stream?q=${encodeURIComponent(query)}`);
+export async function* streamSynthesis(query: string, nikayas?: string[]) {
+  const params = new URLSearchParams({ q: query });
+  nikayas?.forEach(n => params.append('nikayas', n));
+  const res = await fetch(`${API_BASE}/stream?${params}`);
   if (!res.ok) throw apiError('Stream request failed', res.status);
 
   const reader = res.body!.getReader();

@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import { searchVerses } from '@/lib/api';
 import { SynthesisLoader } from '@/components/deep-dive/SynthesisLoader';
 import { SearchResultsView } from '@/components/search/SearchResultsView';
+import { NikayaFilter } from '@/components/search/NikayaFilter';
 
 function LoadingState() {
   return (
@@ -14,9 +15,9 @@ function LoadingState() {
   );
 }
 
-async function SearchContent({ query }: { query: string }) {
+async function SearchContent({ query, nikayas }: { query: string; nikayas: string[] }) {
   try {
-    const data = await searchVerses(query);
+    const data = await searchVerses(query, 20, nikayas.length ? nikayas : undefined);
     return <SearchResultsView results={data.results} query={query} />;
   } catch (error: any) {
     const isRateLimit = error.status === 429;
@@ -40,10 +41,15 @@ async function SearchPage({
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
   const { query: rawQuery } = await params;
-  const { view: viewParam } = await searchParams;
+  const { view: viewParam, nikayas: nikayasParam } = await searchParams;
   const query = decodeURIComponent(rawQuery);
   const encodedQuery = encodeURIComponent(query);
   const view = viewParam === 'results' ? 'results' : 'synthesis';
+  const nikayas = Array.isArray(nikayasParam)
+    ? nikayasParam
+    : nikayasParam
+    ? [nikayasParam]
+    : [];
 
   const tabClass = (active: boolean) =>
     `px-4 py-2 rounded-full text-sm font-medium transition-colors ${active ? 'bg-blue-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`;
@@ -51,25 +57,27 @@ async function SearchPage({
   return (
     <main className="h-screen w-full">
       <div className="flex flex-col h-full">
-        <nav className="flex items-center p-4 bg-white border-b sticky top-0 z-10 gap-4">
+        <nav className="flex items-center p-4 bg-white border-b sticky top-0 z-10 gap-4 flex-wrap">
           <a href="/" className="px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">
             ← New Search
           </a>
-          <div className="flex-1 flex justify-center gap-4">
-            <a href={`/search/${encodedQuery}?view=synthesis`} className={tabClass(view === 'synthesis')}>
+          <div className="flex gap-4">
+            <a href={`/search/${encodedQuery}?view=synthesis${nikayas.map(n => `&nikayas=${n}`).join('')}`} className={tabClass(view === 'synthesis')}>
               AI Synthesis
             </a>
-            <a href={`/search/${encodedQuery}?view=results`} className={tabClass(view === 'results')}>
+            <a href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`} className={tabClass(view === 'results')}>
               All Verses
             </a>
           </div>
+          <div className="w-px h-6 bg-gray-200" />
+          <NikayaFilter encodedQuery={encodedQuery} view={view} selected={nikayas} />
         </nav>
         <div className="flex-1 overflow-auto">
           {view === 'synthesis'
-            ? <SynthesisLoader query={query} />
+            ? <SynthesisLoader query={query} nikayas={nikayas} />
             : (
               <Suspense fallback={<LoadingState />}>
-                <SearchContent query={query} />
+                <SearchContent query={query} nikayas={nikayas} />
               </Suspense>
             )}
         </div>

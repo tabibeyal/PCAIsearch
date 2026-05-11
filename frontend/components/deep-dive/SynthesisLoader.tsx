@@ -36,16 +36,19 @@ function ErrorMessage({ isRateLimit }: { isRateLimit: boolean }) {
   );
 }
 
-export function SynthesisLoader({ query }: { query: string }) {
+export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: string[] }) {
   const [streamText, setStreamText] = React.useState('');
   const [data, setData] = React.useState<SynthesisResponse | null>(null);
   const [error, setError] = React.useState<{ status?: number } | null>(null);
 
   React.useEffect(() => {
+    setStreamText('');
+    setData(null);
+    setError(null);
     let cancelled = false;
     (async () => {
       try {
-        for await (const event of streamSynthesis(query)) {
+        for await (const event of streamSynthesis(query, nikayas)) {
           if (cancelled) break;
           if (event.type === 'chunk') setStreamText(t => t + event.text);
           else if (event.type === 'done') setData(event as SynthesisResponse);
@@ -55,7 +58,7 @@ export function SynthesisLoader({ query }: { query: string }) {
       }
     })();
     return () => { cancelled = true; };
-  }, [query]);
+  }, [query, nikayas?.join(',')]);
 
   if (error) return <ErrorMessage isRateLimit={error.status === 429} />;
 
