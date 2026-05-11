@@ -31,18 +31,36 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
     );
   };
 
-  const renderText = (text: string) => {
+  const renderInline = (text: string, pIdx: number) => {
     const parts = text.split(citationRegex);
     return parts.map((part, index) => {
       if (index % 2 !== 0) {
         const refs = part.split(',').map(r => r.trim()).filter(Boolean);
         return refs.length === 1
-          ? renderCitation(refs[0], index)
-          : <span key={index}>{refs.map((r, i) => renderCitation(r, i))}</span>;
+          ? renderCitation(refs[0], `${pIdx}-${index}`)
+          : <span key={`${pIdx}-${index}`}>{refs.map((r, i) => renderCitation(r, `${pIdx}-${index}-${i}`))}</span>;
       }
-      return <span key={index}>{part}</span>;
+      return <span key={`${pIdx}-${index}`}>{part}</span>;
     });
   };
+
+  const renderBlock = (block: string, pIdx: number) => {
+    const lines = block.split('\n');
+    const bulletLines = lines.filter(l => /^[\*\-]\s/.test(l));
+    if (bulletLines.length > 0 && bulletLines.length === lines.filter(l => l.trim()).length) {
+      return (
+        <ul key={pIdx} className="list-disc list-outside ml-5 mb-3 space-y-1">
+          {bulletLines.map((line, i) => (
+            <li key={i}>{renderInline(line.replace(/^[\*\-]\s+/, ''), pIdx * 1000 + i)}</li>
+          ))}
+        </ul>
+      );
+    }
+    return <p key={pIdx} className="mb-3">{renderInline(block, pIdx)}</p>;
+  };
+
+  const renderText = (text: string) =>
+    text.split(/\n\n+/).map((block, pIdx) => renderBlock(block, pIdx));
 
   return (
     <div className="h-full overflow-y-auto p-6 bg-white text-black">
@@ -68,7 +86,7 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
           </div>
         </div>
 
-        <div className="text-lg leading-relaxed whitespace-pre-wrap text-gray-800">
+        <div className="text-lg leading-relaxed text-gray-800">
           {renderText(answer)}
         </div>
       </div>
