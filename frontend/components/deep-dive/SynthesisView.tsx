@@ -11,10 +11,11 @@ interface SynthesisViewProps {
 export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClick }: SynthesisViewProps) {
   const { answer, is_faithful } = data;
 
-  const citationRegex = /\[([A-Z\s\d:,]+)\]/g;
+  const citationRegex = /\[([A-Z\s\d:.,]+)\]/g;
 
   const renderCitation = (ref: string, key: React.Key) => {
-    const isUnverified = ref.toLowerCase().includes('unverified');
+    const lower = ref.toLowerCase();
+    const isUnverified = lower.includes('unverified') || lower.includes('hallucinated');
     return (
       <button
         key={key}

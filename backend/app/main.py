@@ -1,6 +1,7 @@
 import json
 import os
 from contextlib import asynccontextmanager
+from pathlib import Path
 from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -9,13 +10,17 @@ from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
+from backend.app.services.canon_graph import CanonGraph
 
 limiter = Limiter(key_func=get_remote_address)
 
+_DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    app.state.pipeline = SearchPipeline()
-    app.state.guardrail = CitationGuardrail()
+    canon_graph = CanonGraph(_DUMPS_DIR)
+    app.state.pipeline = SearchPipeline(canon_graph=canon_graph)
+    app.state.guardrail = CitationGuardrail(canon_graph=canon_graph)
     yield
     if pipeline := getattr(app.state, "pipeline", None):
         pipeline.shutdown()
@@ -39,8 +44,10 @@ async def search(
     q: str = Query(..., min_length=1, max_length=500, description="The search query in English or Pali"),
     top_k: int = Query(default=10, ge=1, le=20, description="Number of results to return"),
 ):
-    results = await request.app.state.pipeline.search(q, top_k=top_k)
-    return {"query": q, "results": results}
+    pipeline = request.app.state.pipeline
+    results = await pipeline.search(q, top_k=top_k)
+    related_suttas = pipeline.get_related_suttas(results)
+    return {"query": q, "results": results, "related_suttas": related_suttas}
 
 @app.get("/synthesize")
 @limiter.limit("10/minute")
@@ -62,6 +69,7 @@ async def synthesize(
         "query": q,
         "answer": verification["text"],
         "hallucinations": verification["hallucinations"],
+        "canonical_misses": verification["canonical_misses"],
         "is_faithful": verification["is_faithful"],
         "context": context
     }
@@ -80,7 +88,7 @@ async def stream(
                 yield f"data: {json.dumps(event)}\n\n"
             else:
                 verification = request.app.state.guardrail.process_response(event["text"], context)
-                yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'is_faithful': verification['is_faithful'], 'context': context})}\n\n"
+                yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'canonical_misses': verification['canonical_misses'], 'is_faithful': verification['is_faithful'], 'context': context})}\n\n"
 
     return StreamingResponse(event_stream(), media_type="text/event-stream")
 

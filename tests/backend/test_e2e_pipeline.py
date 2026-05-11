@@ -5,6 +5,7 @@ Real components: embedding model, cross-encoder reranker, in-memory Qdrant, Cita
 Mocked: LLM (expand_query + synthesize) — tested in isolation elsewhere.
 """
 import asyncio
+import re
 import pytest
 from unittest.mock import AsyncMock, MagicMock, patch
 from fastapi.testclient import TestClient
@@ -56,8 +57,9 @@ def live_pipeline():
 
 def _mock_synthesis(pipeline, text: str) -> None:
     resp = MagicMock()
-    resp.content = [MagicMock(text=text)]
-    pipeline.llm.messages.create = AsyncMock(return_value=resp)
+    resp.choices = [MagicMock()]
+    resp.choices[0].message.content = text
+    pipeline.llm.chat.completions.create = AsyncMock(return_value=resp)
 
 
 # ---------------------------------------------------------------------------
@@ -86,16 +88,17 @@ async def test_e2e_rerank_scores_are_descending(live_pipeline):
 
 @pytest.mark.asyncio
 async def test_e2e_synthesis_receives_retrieved_context(live_pipeline):
-    """The chunk IDs from search appear in the prompt sent to the LLM."""
+    """The chunk IDs from search appear in the user message sent to the LLM."""
     context = await live_pipeline.search("mindfulness", top_k=3)
     context_ids = {c["id"] for c in context}
 
     _mock_synthesis(live_pipeline, f"See [{context[0]['id']}] for details.")
     await live_pipeline.synthesize("mindfulness", context)
 
-    call_content = live_pipeline.llm.messages.create.call_args.kwargs["messages"][0]["content"]
+    messages = live_pipeline.llm.chat.completions.create.call_args.kwargs["messages"]
+    user_content = next(m["content"] for m in messages if m["role"] == "user")
     for cid in context_ids:
-        assert cid in call_content, f"Context ID {cid!r} missing from LLM prompt"
+        assert cid in user_content, f"Context ID {cid!r} missing from LLM prompt"
 
 
 @pytest.mark.asyncio
@@ -118,11 +121,12 @@ async def test_e2e_guardrail_catches_hallucinated_citation(live_pipeline):
     _mock_synthesis(live_pipeline, "See [MN 10:1] and also [DN 99:99].")
     answer = await live_pipeline.synthesize("mindfulness", context)
 
+    # DN 99:99 does not exist — without a canon_graph this is a hallucination.
     result = CitationGuardrail().process_response(answer, context)
     assert result["is_faithful"] is False
     assert "DN 99:99" in result["hallucinations"]
     assert "[DN 99:99]" not in result["text"]
-    assert "[Unverified]" in result["text"]
+    assert "[Hallucinated]" in result["text"]
 
 
 # ---------------------------------------------------------------------------
@@ -162,6 +166,7 @@ def test_e2e_api_synthesize_faithful_answer(api_client, live_pipeline):
 
 
 def test_e2e_api_synthesize_hallucination_flagged(api_client, live_pipeline):
+    # DN 99:99 doesn't exist in the canon — the canon-aware guardrail flags it as hallucinated.
     _mock_synthesis(live_pipeline, "See [MN 10:1] and [DN 99:99].")
     response = api_client.get("/synthesize?q=mindfulness")
     assert response.status_code == 200
@@ -169,11 +174,11 @@ def test_e2e_api_synthesize_hallucination_flagged(api_client, live_pipeline):
     assert body["is_faithful"] is False
     assert "DN 99:99" in body["hallucinations"]
     assert "[DN 99:99]" not in body["answer"]
-    assert "[Unverified]" in body["answer"]
+    assert "[Hallucinated]" in body["answer"]
 
 
 # ---------------------------------------------------------------------------
-# top_k parameter — not yet exposed on the API
+# top_k parameter tests
 # ---------------------------------------------------------------------------
 
 def test_e2e_api_search_top_k_limits_results(api_client):
@@ -195,8 +200,7 @@ def test_e2e_api_synthesize_top_k_limits_context(api_client, live_pipeline):
     _mock_synthesis(live_pipeline, "Answer.")
     api_client.get("/synthesize?q=mindfulness&top_k=1")
 
-    call_content = live_pipeline.llm.messages.create.call_args.kwargs["messages"][0]["content"]
-    # Only one [ID:Verse] block should appear in the context section
-    import re
-    ids_in_prompt = re.findall(r"\[([A-Z\s]+\d+:\d+)\]", call_content)
+    messages = live_pipeline.llm.chat.completions.create.call_args.kwargs["messages"]
+    user_content = next(m["content"] for m in messages if m["role"] == "user")
+    ids_in_prompt = re.findall(r"\[([A-Z\s]+\d+:\d+)\]", user_content)
     assert len(ids_in_prompt) == 1

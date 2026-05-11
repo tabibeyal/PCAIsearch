@@ -1,14 +1,15 @@
 # Pali Canon AI Search
 
-Semantic search and AI-synthesized answers over the Pali Canon (Digha Nikaya + Majjhima Nikaya), grounded in the original bilingual texts from SuttaCentral.
+Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, Dhammapada, Itivuttaka), grounded in the original bilingual texts from SuttaCentral.
 
 ## Features
 
 - **Semantic search** — multilingual embeddings (paraphrase-multilingual-MiniLM-L12-v2) retrieve relevant verses in English or Pali
 - **Query expansion** — LLM generates alternative phrasings to improve recall
 - **Cross-encoder reranking** — results reordered by relevance before display
-- **AI Synthesis** — LLM answers your question using only retrieved context, with inline citations (`[DN 1:1]`)
-- **Citation guardrail** — hallucinated sutta references are flagged automatically
+- **AI Synthesis** — LLM answers your question using only retrieved context, with inline citations (`[DN 1:1]`, `[SN 46.20:14]`)
+- **Citation guardrail** — distinguishes true hallucinations (non-existent sutta) from canonical misses (real sutta not in retrieved context)
+- **Canon cross-references** — `/search` returns `related_suttas`: doctrinally paired suttas and structural neighbors from the canon index
 - **Resume-capable indexing** — indexing can be interrupted and resumed without re-embedding
 
 ## Architecture
@@ -21,10 +22,11 @@ backend/           FastAPI + asyncio
     core/
       indexing.py  SuttaParser, EmbeddingManager (fastembed / ONNX Runtime)
     services/
-      search_pipeline.py  Query expansion → retrieval → reranking
-      guardrail.py        Citation verification
+      search_pipeline.py  Query expansion → retrieval → reranking → related suttas
+      guardrail.py        Citation verification (hallucination vs canonical miss)
+      canon_graph.py      Canon index: citation oracle + doctrinal cross-references
 data/
-  fetch_bilara.py  Sparse-clone SuttaCentral bilara-data → local JSON
+  fetch_bilara.py  Sparse-clone SuttaCentral bilara-data → local JSON (DN/MN/AN/SN/DHP/ITI)
   process_dumps.py Embed & upsert into Qdrant
 tests/backend/     pytest suite
 ```
@@ -55,10 +57,10 @@ pip install -r backend/requirements.txt
 ### 3. Index the Pali Canon
 
 ```bash
-# Download DN + MN from SuttaCentral (sparse git clone, ~30 MB)
+# Download DN, MN, AN, SN, Dhammapada, Itivuttaka from SuttaCentral (sparse git clone, ~80 MB)
 python3 data/fetch_bilara.py
 
-# Embed and index into Qdrant (~186 suttas, takes several minutes)
+# Embed and index into Qdrant (DN/MN/AN/SN/DHP/ITI, takes several minutes)
 PYTHONPATH=. python3 data/process_dumps.py
 ```
 
@@ -95,8 +97,8 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Endpoint | Description |
 |---|---|
-| `GET /search?q=…&top_k=10` | Semantic search, returns ranked verses |
-| `GET /synthesize?q=…&top_k=10` | AI answer with citations and faithfulness flag |
+| `GET /search?q=…&top_k=10` | Semantic search; returns ranked verses + `related_suttas` |
+| `GET /synthesize?q=…&top_k=10` | AI answer with citations, `hallucinations`, `canonical_misses`, and `is_faithful` flag |
 
 Rate limits: 30 req/min for search, 10 req/min for synthesis.
 

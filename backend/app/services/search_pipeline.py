@@ -1,4 +1,4 @@
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional, Set
 import asyncio
 import os
 import re
@@ -9,6 +9,13 @@ from sentence_transformers import CrossEncoder
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
 from backend.app.core.indexing import EmbeddingManager
+from backend.app.services.canon_graph import CanonGraph
+
+
+def _extract_sutta_id(chunk_id: str) -> Optional[str]:
+    """Extract 'DN 15' from a chunk ID like 'DN 15:3'."""
+    parts = chunk_id.rsplit(":", 1)
+    return parts[0].strip() if len(parts) == 2 else None
 
 
 _THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL | re.IGNORECASE)
@@ -62,6 +69,7 @@ class SearchPipeline:
         qdrant_url: str = "http://localhost:6333",
         model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         llm_model: str = os.environ.get("LLM_MODEL", "google/gemma-3n-e4b-it"),
+        canon_graph: Optional[CanonGraph] = None,
     ):
         self.client = AsyncQdrantClient(url=qdrant_url)
         self.embedding_mgr = EmbeddingManager(model_name=model_name)
@@ -74,6 +82,7 @@ class SearchPipeline:
         )
         self.reranker = Reranker()
         self._executor = ThreadPoolExecutor(max_workers=4)
+        self.canon_graph = canon_graph
 
     def shutdown(self):
         self._executor.shutdown(wait=True)
@@ -130,6 +139,25 @@ class SearchPipeline:
                     all_results.append(result)
 
         return self.reranker.rerank(query, all_results)[:top_k]
+
+    def get_related_suttas(self, results: List[Dict[str, Any]], top_n: int = 5) -> List[str]:
+        """
+        Return canonically related sutta IDs not already in the top results.
+        Uses the CanonGraph's doctrinal pairs and structural adjacency.
+        """
+        if self.canon_graph is None:
+            return []
+        retrieved_suttas: Set[str] = set()
+        for r in results[:top_n]:
+            sid = _extract_sutta_id(r.get("id", ""))
+            if sid:
+                retrieved_suttas.add(sid)
+        related: Set[str] = set()
+        for sutta_id in retrieved_suttas:
+            for ref in self.canon_graph.get_related(sutta_id):
+                if ref not in retrieved_suttas:
+                    related.add(ref)
+        return sorted(related)
 
     async def synthesize(self, query: str, context_chunks: List[Dict[str, Any]]) -> str:
         context_text = "\n\n".join(

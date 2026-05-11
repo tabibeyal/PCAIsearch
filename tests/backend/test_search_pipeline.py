@@ -1,5 +1,5 @@
 import pytest
-from unittest.mock import AsyncMock
+from unittest.mock import AsyncMock, patch
 from backend.app.services.search_pipeline import SearchPipeline
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
@@ -7,7 +7,8 @@ from qdrant_client.http import models
 
 async def _make_pipeline_with_client(chunks: list) -> tuple:
     client = AsyncQdrantClient(":memory:")
-    pipeline = SearchPipeline()
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline()
     pipeline.client = client
     pipeline.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
 

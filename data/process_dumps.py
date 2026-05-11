@@ -1,6 +1,10 @@
 import json
 import os
+import sys
 import uuid
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
 from backend.app.core.indexing import SuttaParser, EmbeddingManager

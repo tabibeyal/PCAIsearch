@@ -1,10 +1,11 @@
 import pytest
-from unittest.mock import MagicMock, AsyncMock, patch, call
+from unittest.mock import MagicMock, AsyncMock, patch
 
 
 @pytest.fixture
 def pipeline():
-    with patch("backend.app.services.search_pipeline.AsyncQdrantClient"):
+    with patch("backend.app.services.search_pipeline.AsyncQdrantClient"), \
+         patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         from backend.app.services.search_pipeline import SearchPipeline
         return SearchPipeline()
 
@@ -19,20 +20,21 @@ def sample_context():
 
 def _mock_llm(pipeline, reply: str) -> AsyncMock:
     mock_response = MagicMock()
-    mock_response.content = [MagicMock(text=reply)]
+    mock_response.choices = [MagicMock()]
+    mock_response.choices[0].message.content = reply
     mock_client = AsyncMock()
-    mock_client.messages.create = AsyncMock(return_value=mock_response)
+    mock_client.chat.completions.create = AsyncMock(return_value=mock_response)
     pipeline.llm = mock_client
     return mock_client
 
 
 @pytest.mark.asyncio
-async def test_synthesize_calls_claude_api(pipeline, sample_context):
+async def test_synthesize_calls_llm(pipeline, sample_context):
     mock_client = _mock_llm(pipeline, "The opening verse is in [DN 1:1].")
 
     result = await pipeline.synthesize("What is the opening verse?", sample_context)
 
-    mock_client.messages.create.assert_called_once()
+    mock_client.chat.completions.create.assert_called_once()
     assert result == "The opening verse is in [DN 1:1]."
 
 
@@ -42,11 +44,10 @@ async def test_synthesize_system_prompt_instructs_citation_format(pipeline, samp
 
     await pipeline.synthesize("query", sample_context)
 
-    kwargs = mock_client.messages.create.call_args.kwargs
-    system = kwargs.get("system", "")
-    system_text = (
-        " ".join(b["text"] for b in system if isinstance(b, dict) and "text" in b)
-        if isinstance(system, list) else system
+    kwargs = mock_client.chat.completions.create.call_args.kwargs
+    messages = kwargs.get("messages", [])
+    system_text = next(
+        (m["content"] for m in messages if m.get("role") == "system"), ""
     )
     assert "[" in system_text and ":" in system_text, \
         "System prompt must describe the [ID:Verse] citation format"
@@ -58,37 +59,32 @@ async def test_synthesize_includes_all_context_ids_in_message(pipeline, sample_c
 
     await pipeline.synthesize("query", sample_context)
 
-    kwargs = mock_client.messages.create.call_args.kwargs
+    kwargs = mock_client.chat.completions.create.call_args.kwargs
     messages = kwargs.get("messages", [])
-    user_text = " ".join(
-        block["text"] if isinstance(block, dict) else block
-        for msg in messages if msg["role"] == "user"
-        for block in (msg["content"] if isinstance(msg["content"], list) else [msg["content"]])
+    user_text = next(
+        (m["content"] for m in messages if m.get("role") == "user"), ""
     )
     assert "DN 1:1" in user_text
     assert "MN 10:5" in user_text
 
 
 @pytest.mark.asyncio
-async def test_synthesize_uses_claude_model(pipeline, sample_context):
+async def test_synthesize_specifies_a_model(pipeline, sample_context):
     mock_client = _mock_llm(pipeline, "Answer")
 
     await pipeline.synthesize("query", sample_context)
 
-    model = mock_client.messages.create.call_args.kwargs.get("model", "")
-    assert model.startswith("claude-"), f"Expected a Claude model, got: {model!r}"
+    model = mock_client.chat.completions.create.call_args.kwargs.get("model", "")
+    assert model, "synthesize must pass a non-empty model name to the LLM"
 
 
 @pytest.mark.asyncio
-async def test_synthesize_uses_prompt_caching_on_system(pipeline, sample_context):
+async def test_synthesize_sends_system_and_user_messages(pipeline, sample_context):
     mock_client = _mock_llm(pipeline, "Answer")
 
     await pipeline.synthesize("query", sample_context)
 
-    system = mock_client.messages.create.call_args.kwargs.get("system", "")
-    assert isinstance(system, list), "system must be a list of blocks to support cache_control"
-    has_cache = any(
-        isinstance(b, dict) and b.get("cache_control", {}).get("type") == "ephemeral"
-        for b in system
-    )
-    assert has_cache, "At least one system block must have cache_control ephemeral"
+    messages = mock_client.chat.completions.create.call_args.kwargs.get("messages", [])
+    roles = [m["role"] for m in messages]
+    assert "system" in roles, "Must include a system message"
+    assert "user" in roles, "Must include a user message"

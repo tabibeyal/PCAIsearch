@@ -89,8 +89,9 @@ def test_reranker_real_model_orders_by_relevance():
 
 @pytest.fixture
 def in_memory_pipeline():
-    from backend.app.services.search_pipeline import SearchPipeline
-    p = SearchPipeline()
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        from backend.app.services.search_pipeline import SearchPipeline
+        p = SearchPipeline()
     client = AsyncQdrantClient(":memory:")
     p.client = client
     p.expand_query = AsyncMock(side_effect=lambda q, **_: [q])

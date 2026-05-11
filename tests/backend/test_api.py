@@ -55,8 +55,8 @@ def test_synthesize_returns_structured_response(client):
 
 def test_synthesize_guardrail_flags_hallucinations(client):
     mock_results = [{"id": "MN 10:1", "pali": "...", "english": "Mindfulness", "score": 0.95}]
-    # LLM cites DN 5:10 which was not in the retrieved context
-    mock_answer = "See [MN 10:1] and [DN 5:10] for details."
+    # LLM cites DN 999:1 — a sutta that doesn't exist in the canon at all.
+    mock_answer = "See [MN 10:1] and [DN 999:1] for details."
 
     with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)), \
          patch.object(app.state.pipeline, "synthesize", new=AsyncMock(return_value=mock_answer)):
@@ -65,9 +65,9 @@ def test_synthesize_guardrail_flags_hallucinations(client):
     assert response.status_code == 200
     body = response.json()
     assert body["is_faithful"] is False
-    assert "DN 5:10" in body["hallucinations"]
-    assert "[DN 5:10]" not in body["answer"]
-    assert "[Unverified]" in body["answer"]
+    assert "DN 999:1" in body["hallucinations"]
+    assert "[DN 999:1]" not in body["answer"]
+    assert "[Hallucinated]" in body["answer"]
 
 
 def test_synthesize_requires_q_param(client):
