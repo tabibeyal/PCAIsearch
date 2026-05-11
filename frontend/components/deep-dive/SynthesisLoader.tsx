@@ -68,7 +68,13 @@ export function SynthesisLoader({ query }: { query: string }) {
         <div className="max-w-2xl mx-auto">
           <h2 className="text-xl font-semibold mb-6">Synthesized Answer</h2>
           <div className="text-lg leading-relaxed whitespace-pre-wrap text-gray-800">
-            {visible}
+            {visible.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((seg, i) =>
+              seg.startsWith('**') && seg.endsWith('**')
+                ? <strong key={i}>{seg.slice(2, -2)}</strong>
+                : seg.startsWith('*') && seg.endsWith('*')
+                  ? <em key={i}>{seg.slice(1, -1)}</em>
+                  : seg
+            )}
             <span className="inline-block w-0.5 h-5 bg-blue-500 animate-pulse ml-0.5 align-middle" />
           </div>
         </div>

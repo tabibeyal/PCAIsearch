@@ -11,8 +11,6 @@ interface SynthesisViewProps {
 export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClick }: SynthesisViewProps) {
   const { answer, is_faithful } = data;
 
-  const citationRegex = /\[([A-Z\s\d:.,]+)\]/g;
-
   const renderCitation = (ref: string, key: React.Key) => {
     const lower = ref.toLowerCase();
     const isUnverified = lower.includes('unverified') || lower.includes('hallucinated');
@@ -31,17 +29,30 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
     );
   };
 
-  const renderInline = (text: string, pIdx: number) => {
-    const parts = text.split(citationRegex);
-    return parts.map((part, index) => {
-      if (index % 2 !== 0) {
-        const refs = part.split(',').map(r => r.trim()).filter(Boolean);
-        return refs.length === 1
-          ? renderCitation(refs[0], `${pIdx}-${index}`)
-          : <span key={`${pIdx}-${index}`}>{refs.map((r, i) => renderCitation(r, `${pIdx}-${index}-${i}`))}</span>;
+  const renderInline = (text: string, pIdx: number): React.ReactNode[] => {
+    const result: React.ReactNode[] = [];
+    const re = /\*\*([^*]+)\*\*|\*([^*]+)\*|\[([A-Z\s\d:.,]+)\]/g;
+    let last = 0;
+    let seg = 0;
+    let match;
+    while ((match = re.exec(text)) !== null) {
+      if (match.index > last) result.push(<span key={`${pIdx}-t${seg++}`}>{text.slice(last, match.index)}</span>);
+      if (match[1] !== undefined) {
+        result.push(<strong key={`${pIdx}-b${seg++}`}>{match[1]}</strong>);
+      } else if (match[2] !== undefined) {
+        result.push(<em key={`${pIdx}-i${seg++}`}>{match[2]}</em>);
+      } else {
+        const refs = match[3].split(',').map(r => r.trim()).filter(Boolean);
+        result.push(
+          refs.length === 1
+            ? renderCitation(refs[0], `${pIdx}-c${seg++}`)
+            : <span key={`${pIdx}-c${seg++}`}>{refs.map((r, i) => renderCitation(r, `${pIdx}-c${seg}-${i}`))}</span>
+        );
       }
-      return <span key={`${pIdx}-${index}`}>{part}</span>;
-    });
+      last = match.index + match[0].length;
+    }
+    if (last < text.length) result.push(<span key={`${pIdx}-t${seg}`}>{text.slice(last)}</span>);
+    return result;
   };
 
   const renderBlock = (block: string, pIdx: number) => {
