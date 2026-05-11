@@ -57,20 +57,22 @@ async function SearchPage({
   return (
     <main className="h-screen w-full">
       <div className="flex flex-col h-full">
-        <nav className="flex items-center p-4 bg-white border-b sticky top-0 z-10 gap-4 flex-wrap">
-          <a href="/" className="px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors">
-            ← New Search
-          </a>
-          <div className="flex gap-4">
-            <a href={`/search/${encodedQuery}?view=synthesis${nikayas.map(n => `&nikayas=${n}`).join('')}`} className={tabClass(view === 'synthesis')}>
-              AI Synthesis
+        <nav className="p-3 sm:p-4 bg-white border-b sticky top-0 z-10">
+          <div className="flex items-center gap-2 sm:gap-4 flex-wrap">
+            <a href="/" className="px-3 sm:px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors whitespace-nowrap">
+              ← New Search
             </a>
-            <a href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`} className={tabClass(view === 'results')}>
-              All Verses
-            </a>
+            <div className="flex gap-2 sm:gap-4">
+              <a href={`/search/${encodedQuery}?view=synthesis${nikayas.map(n => `&nikayas=${n}`).join('')}`} className={tabClass(view === 'synthesis')}>
+                AI Synthesis
+              </a>
+              <a href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`} className={tabClass(view === 'results')}>
+                All Verses
+              </a>
+            </div>
+            <div className="hidden sm:block w-px h-6 bg-gray-200" />
+            <NikayaFilter encodedQuery={encodedQuery} view={view} selected={nikayas} />
           </div>
-          <div className="w-px h-6 bg-gray-200" />
-          <NikayaFilter encodedQuery={encodedQuery} view={view} selected={nikayas} />
         </nav>
         <div className="flex-1 overflow-auto">
           {view === 'synthesis'

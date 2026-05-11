@@ -76,9 +76,9 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
   return (
     <div className="h-full overflow-y-auto scroll-smooth p-6 bg-white text-black">
       <div className="max-w-2xl mx-auto">
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-start justify-between gap-3 mb-6 flex-wrap">
           <h2 className="text-xl font-semibold">Synthesized Answer</h2>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
             {!is_faithful && (
               <span className="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded font-medium">
                 ⚠️ Potential Hallucinations Flagged

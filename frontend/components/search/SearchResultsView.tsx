@@ -13,7 +13,7 @@ interface SearchResultsViewProps {
 
 export function SearchResultsView({ results, query }: SearchResultsViewProps) {
   return (
-    <div className="max-w-4xl mx-auto p-6 space-y-8">
+    <div className="max-w-4xl mx-auto p-4 sm:p-6 space-y-8">
       <header className="border-b pb-4">
         <h1 className="text-2xl font-semibold text-gray-800">Search Results</h1>
         <p className="text-gray-500">Found {results.length} relevant verses for "{query}"</p>
@@ -30,7 +30,7 @@ export function SearchResultsView({ results, query }: SearchResultsViewProps) {
               key={result.id}
               className="p-4 rounded-lg border border-gray-200 bg-white hover:border-blue-300 transition-colors shadow-sm"
             >
-              <div className="flex justify-between items-start mb-2">
+              <div className="flex justify-between items-start gap-2 flex-wrap mb-2">
                 <a
                   href={suttaCentralUrl(result.id)}
                   target="_blank"
