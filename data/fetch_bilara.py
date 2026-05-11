@@ -81,7 +81,7 @@ def convert(collection: str, *, clone_dir: Path = CLONE_DIR, dump_dir: Path = DU
             verses = []
             for i, (key, pali_text) in enumerate(pali_verses.items(), start=1):
                 en_text = en_segs.get(key, "")
-                if not pali_text.strip() and not en_text.strip():
+                if not pali_text.strip() or not en_text.strip():
                     continue
                 verses.append({"number": i, "pali": pali_text, "english": en_text})
 

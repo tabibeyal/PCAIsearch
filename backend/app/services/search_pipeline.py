@@ -129,6 +129,7 @@ class SearchPipeline:
                 "score": r.score,
             }
             for r in response.points
+            if r.payload.get("english", "").strip()
         ]
 
     async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
