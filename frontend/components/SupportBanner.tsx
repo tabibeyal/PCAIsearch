@@ -5,7 +5,7 @@ export function SupportBanner() {
     <footer className="w-full border-t border-gray-200 bg-white py-4 px-6">
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-gray-500">
         <p className="text-center sm:text-left">
-          Each search runs several LLM API calls — a real cost per query.
+          This tool runs on a free AI model, but hosting and infrastructure still cost money.
           If this tool is useful to you, consider supporting it.
         </p>
         <a
