@@ -9,6 +9,7 @@ Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, 
 - **Cross-encoder reranking** — results reordered by relevance before display
 - **AI Synthesis** — LLM answers your question using only retrieved context, with inline citations (`[DN 1:1]`, `[SN 46.20:14]`)
 - **Citation guardrail** — distinguishes true hallucinations (non-existent sutta) from canonical misses (real sutta not in retrieved context)
+- **Nikaya filter** — filter search and synthesis by collection (DN, MN, SN, AN, DHP, ITI); click to switch, ⌘/Ctrl-click to combine
 - **Canon cross-references** — `/search` returns `related_suttas`: doctrinally paired suttas and structural neighbors from the canon index
 - **Resume-capable indexing** — indexing can be interrupted and resumed without re-embedding
 
@@ -97,8 +98,9 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Endpoint | Description |
 |---|---|
-| `GET /search?q=…&top_k=10` | Semantic search; returns ranked verses + `related_suttas` |
+| `GET /search?q=…&top_k=10&nikayas=MN&nikayas=SN` | Semantic search; returns ranked verses + `related_suttas`. `nikayas` is optional, repeatable. |
 | `GET /synthesize?q=…&top_k=10` | AI answer with citations, `hallucinations`, `canonical_misses`, and `is_faithful` flag |
+| `GET /stream?q=…&top_k=10&nikayas=DN` | Streaming synthesis (SSE); same `nikayas` filter supported |
 
 Rate limits: 30 req/min for search, 10 req/min for synthesis.
 
