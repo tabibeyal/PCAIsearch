@@ -63,7 +63,7 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
     text.split(/\n\n+/).map((block, pIdx) => renderBlock(block, pIdx));
 
   return (
-    <div className="h-full overflow-y-auto p-6 bg-white text-black">
+    <div className="h-full overflow-y-auto scroll-smooth p-6 bg-white text-black">
       <div className="max-w-2xl mx-auto">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-xl font-semibold">Synthesized Answer</h2>

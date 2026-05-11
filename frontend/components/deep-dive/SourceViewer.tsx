@@ -14,7 +14,7 @@ interface SourceViewerProps {
 
 export function SourceViewer({ context, activeRef }: SourceViewerProps) {
   return (
-    <div className="h-full overflow-y-auto p-6 space-y-8 font-serif text-black bg-gray-50">
+    <div className="h-full overflow-y-auto scroll-smooth p-6 space-y-8 font-serif text-black bg-gray-50">
       {context.length === 0 ? (
         <div className="text-gray-500 italic">No source verses found.</div>
       ) : (

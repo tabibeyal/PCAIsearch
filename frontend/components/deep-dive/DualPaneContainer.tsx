@@ -23,8 +23,8 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
   };
 
   return (
-    <div className="flex h-screen w-full overflow-hidden bg-gray-200">
-      <div className={`h-full border-r border-gray-300 shadow-xl overflow-hidden transition-all duration-300 ${deepDive ? 'w-1/2' : 'w-full'}`}>
+    <div className="flex h-full w-full overflow-hidden bg-gray-200">
+      <div className={`h-full border-r border-gray-300 shadow-xl overflow-hidden transition-[width] duration-300 ${deepDive ? 'w-1/2' : 'w-full'}`}>
         <SynthesisView
           data={data}
           deepDive={deepDive}
