@@ -10,8 +10,8 @@ class CitationOracle:
     in the local SuttaCentral dump index.
     """
 
-    _ID_PARSE_RE = re.compile(r"^([A-Z]+)\s+(\d+):(\d+)$")
-    _SUTTA_PARSE_RE = re.compile(r"^([A-Za-z]+)(\d+)$")
+    _ID_PARSE_RE = re.compile(r"^([A-Z]+)\s+([\d.]+):(\d+)$")
+    _SUTTA_PARSE_RE = re.compile(r"^([A-Za-z]+)([\d.]+)$")
 
     def __init__(self, dumps_dir: Path):
         # registry["DN 15"] = {1, 2, 3, ...}
