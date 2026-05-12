@@ -91,8 +91,6 @@ class SearchPipeline:
         embedding_mgr = EmbeddingManager(model_name=model_name)
         self.collection_name = "pali_canon"
         self.retriever = Retriever(client, embedding_mgr, self.collection_name, self._executor)
-        self.embedding_mgr = embedding_mgr  # kept for test compatibility
-        self.client = client                 # kept for test compatibility
         self.llm_model = llm_model
         self.llm = AsyncOpenAI(
             base_url="https://integrate.api.nvidia.com/v1",

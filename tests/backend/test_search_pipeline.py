@@ -9,7 +9,6 @@ async def _make_pipeline_with_client(chunks: list) -> tuple:
     client = AsyncQdrantClient(":memory:")
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
-    pipeline.client = client
     pipeline.retriever.client = client
     pipeline.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
 
@@ -17,7 +16,7 @@ async def _make_pipeline_with_client(chunks: list) -> tuple:
     await client.create_collection(
         collection_name=collection_name,
         vectors_config=models.VectorParams(
-            size=pipeline.embedding_mgr.dimension,
+            size=pipeline.retriever.embedding_mgr.dimension,
             distance=models.Distance.COSINE,
         ),
     )
@@ -26,7 +25,7 @@ async def _make_pipeline_with_client(chunks: list) -> tuple:
         points = [
             models.PointStruct(
                 id=idx,
-                vector=pipeline.embedding_mgr.encode(f"{c['pali']} {c['english']}"),
+                vector=pipeline.retriever.embedding_mgr.encode(f"{c['pali']} {c['english']}"),
                 payload=c,
             )
             for idx, c in enumerate(chunks)

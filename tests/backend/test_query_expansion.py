@@ -78,14 +78,13 @@ def in_memory_pipeline():
         from backend.app.services.search_pipeline import SearchPipeline
         p = SearchPipeline()
     client = AsyncQdrantClient(":memory:")
-    p.client = client
     p.retriever.client = client
 
     async def _setup():
         await client.create_collection(
             collection_name=p.collection_name,
             vectors_config=models.VectorParams(
-                size=p.embedding_mgr.dimension,
+                size=p.retriever.embedding_mgr.dimension,
                 distance=models.Distance.COSINE,
             ),
         )
@@ -107,8 +106,8 @@ async def test_search_deduplicates_results_across_variants(in_memory_pipeline):
     p = in_memory_pipeline
 
     text = "sammā-sati right mindfulness"
-    vector = p.embedding_mgr.encode(text)
-    await p.client.upsert(
+    vector = p.retriever.embedding_mgr.encode(text)
+    await p.retriever.client.upsert(
         collection_name=p.collection_name,
         points=[models.PointStruct(id=0, vector=vector, payload={
             "id": "MN 10:1", "pali": "sammā-sati", "english": "Right Mindfulness"

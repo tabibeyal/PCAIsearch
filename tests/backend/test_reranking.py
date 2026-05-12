@@ -93,14 +93,14 @@ def in_memory_pipeline():
         from backend.app.services.search_pipeline import SearchPipeline
         p = SearchPipeline()
     client = AsyncQdrantClient(":memory:")
-    p.client = client
+    p.retriever.client = client
     p.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
 
     async def _setup():
         await client.create_collection(
             collection_name=p.collection_name,
             vectors_config=models.VectorParams(
-                size=p.embedding_mgr.dimension,
+                size=p.retriever.embedding_mgr.dimension,
                 distance=models.Distance.COSINE,
             ),
         )
@@ -132,8 +132,8 @@ async def test_search_result_order_follows_reranker(in_memory_pipeline):
         {"id": "MN 10:1", "pali": "sammā-sati", "english": "Right Mindfulness"},
     ]
     for idx, c in enumerate(chunks):
-        vector = p.embedding_mgr.encode(f"{c['pali']} {c['english']}")
-        await p.client.upsert(
+        vector = p.retriever.embedding_mgr.encode(f"{c['pali']} {c['english']}")
+        await p.retriever.client.upsert(
             collection_name=p.collection_name,
             points=[models.PointStruct(id=idx, vector=vector, payload=c)],
         )

@@ -33,18 +33,18 @@ def live_pipeline():
     from backend.app.services.search_pipeline import SearchPipeline
     p = SearchPipeline()
     client = AsyncQdrantClient(":memory:")
-    p.client = client
+    p.retriever.client = client
 
     async def _setup():
         await client.create_collection(
             collection_name=p.collection_name,
             vectors_config=qmodels.VectorParams(
-                size=p.embedding_mgr.dimension,
+                size=p.retriever.embedding_mgr.dimension,
                 distance=qmodels.Distance.COSINE,
             ),
         )
         for idx, chunk in enumerate(CORPUS):
-            vector = p.embedding_mgr.encode(f"{chunk['pali']} {chunk['english']}")
+            vector = p.retriever.embedding_mgr.encode(f"{chunk['pali']} {chunk['english']}")
             await client.upsert(
                 collection_name=p.collection_name,
                 points=[qmodels.PointStruct(id=idx, vector=vector, payload=chunk)],
