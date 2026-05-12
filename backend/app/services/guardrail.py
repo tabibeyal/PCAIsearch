@@ -1,24 +1,24 @@
 import re
 from typing import Any, Dict, List, Optional, Tuple
 
-from backend.app.services.canon_graph import CanonGraph
+from backend.app.services.citation_oracle import CitationOracle
 
 
 class CitationGuardrail:
     """
     Deterministic verification layer to prevent citation hallucinations.
 
-    With a CanonGraph, distinguishes two failure modes:
+    With a CitationOracle, distinguishes two failure modes:
     - hallucinations: citations to sutta IDs that don't exist in the canon
     - canonical_misses: citations to real suttas that weren't in the retrieved context
 
-    Without a CanonGraph (legacy mode), any citation not in retrieved chunks
-    is treated as a hallucination, preserving the original behavior.
+    Without a CitationOracle, any citation not in retrieved chunks
+    is treated as a hallucination.
     """
 
-    def __init__(self, canon_graph: Optional[CanonGraph] = None):
+    def __init__(self, oracle: Optional[CitationOracle] = None):
         self.citation_pattern = re.compile(r"\[([A-Z\s]+ \d+:\d+)\]")
-        self.canon_graph = canon_graph
+        self.oracle = oracle
 
     def verify_citations(
         self, generated_text: str, retrieved_ids: List[str]
@@ -39,7 +39,7 @@ class CitationGuardrail:
         for citation in found:
             if citation in retrieved_set:
                 continue
-            if self.canon_graph and self.canon_graph.citation_in_canon(citation):
+            if self.oracle and self.oracle.citation_in_canon(citation):
                 canonical_misses.append(citation)
             else:
                 hallucinations.append(citation)

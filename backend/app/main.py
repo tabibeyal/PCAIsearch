@@ -11,7 +11,8 @@ from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
-from backend.app.services.canon_graph import CanonGraph
+from backend.app.services.citation_oracle import CitationOracle
+from backend.app.services.sutta_relations import SuttaRelations
 
 limiter = Limiter(key_func=get_remote_address)
 
@@ -19,9 +20,10 @@ _DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    canon_graph = CanonGraph(_DUMPS_DIR)
-    app.state.pipeline = SearchPipeline(canon_graph=canon_graph)
-    app.state.guardrail = CitationGuardrail(canon_graph=canon_graph)
+    oracle = CitationOracle(_DUMPS_DIR)
+    relations = SuttaRelations(oracle.known_suttas)
+    app.state.pipeline = SearchPipeline(sutta_relations=relations)
+    app.state.guardrail = CitationGuardrail(oracle=oracle)
     yield
     if pipeline := getattr(app.state, "pipeline", None):
         pipeline.shutdown()

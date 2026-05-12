@@ -121,7 +121,7 @@ async def test_e2e_guardrail_catches_hallucinated_citation(live_pipeline):
     _mock_synthesis(live_pipeline, "See [MN 10:1] and also [DN 99:99].")
     answer = await live_pipeline.synthesize("mindfulness", context)
 
-    # DN 99:99 does not exist — without a canon_graph this is a hallucination.
+    # DN 99:99 does not exist — without a CitationOracle this is a hallucination.
     result = CitationGuardrail().process_response(answer, context)
     assert result["is_faithful"] is False
     assert "DN 99:99" in result["hallucinations"]

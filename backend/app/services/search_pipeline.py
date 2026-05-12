@@ -9,7 +9,7 @@ from sentence_transformers import CrossEncoder
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
 from backend.app.core.indexing import EmbeddingManager
-from backend.app.services.canon_graph import CanonGraph
+from backend.app.services.sutta_relations import SuttaRelations
 
 
 def _extract_sutta_id(chunk_id: str) -> Optional[str]:
@@ -74,7 +74,7 @@ class SearchPipeline:
         qdrant_url: str = "http://localhost:6333",
         model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         llm_model: str = os.environ.get("LLM_MODEL", "google/gemma-3n-e4b-it"),
-        canon_graph: Optional[CanonGraph] = None,
+        sutta_relations: Optional[SuttaRelations] = None,
     ):
         self.client = AsyncQdrantClient(url=qdrant_url)
         self.embedding_mgr = EmbeddingManager(model_name=model_name)
@@ -87,7 +87,7 @@ class SearchPipeline:
         )
         self.reranker = Reranker()
         self._executor = ThreadPoolExecutor(max_workers=4)
-        self.canon_graph = canon_graph
+        self.sutta_relations = sutta_relations
 
     def shutdown(self):
         self._executor.shutdown(wait=True)
@@ -155,9 +155,8 @@ class SearchPipeline:
     def get_related_suttas(self, results: List[Dict[str, Any]], top_n: int = 5) -> List[str]:
         """
         Return canonically related sutta IDs not already in the top results.
-        Uses the CanonGraph's doctrinal pairs and structural adjacency.
         """
-        if self.canon_graph is None:
+        if self.sutta_relations is None:
             return []
         retrieved_suttas: Set[str] = set()
         for r in results[:top_n]:
@@ -166,7 +165,7 @@ class SearchPipeline:
                 retrieved_suttas.add(sid)
         related: Set[str] = set()
         for sutta_id in retrieved_suttas:
-            for ref in self.canon_graph.get_related(sutta_id):
+            for ref in self.sutta_relations.get_related(sutta_id):
                 if ref not in retrieved_suttas:
                     related.add(ref)
         return sorted(related)
