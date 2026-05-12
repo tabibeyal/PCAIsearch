@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pali Canon AI Search",
-  description: "Search the Pali Canon with AI",
+  title: "Ask the Pali Canon",
+  description: "Type a question or topic — find the suttas that answer it.",
 };
 
 export default function RootLayout({

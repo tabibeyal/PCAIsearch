@@ -65,10 +65,10 @@ export default function Home() {
       <main className="max-w-2xl mx-auto px-4 py-16 flex flex-col gap-8">
         <div className="flex flex-col gap-2">
           <h1 className="text-3xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
-            Pali Canon Search
+            Ask the Pali Canon
           </h1>
           <p className="text-zinc-500 dark:text-zinc-400 text-sm">
-            Search the Pali Canon by meaning. Ask a question or enter a topic.
+            Type a question or topic — find the suttas that answer it.
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-# Pali Canon AI Search
+# Ask the Pali Canon
 
 Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, Dhammapada, Itivuttaka), grounded in the original bilingual texts from SuttaCentral.
 

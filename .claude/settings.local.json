@@ -29,7 +29,9 @@
       "Bash(NVIDIA_API_KEY=test python3 *)",
       "Bash(gh pr *)",
       "Bash(node *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Skill(commit-commands:commit)",
+      "Skill(claude-md-management:revise-claude-md)"
     ]
   }
 }
