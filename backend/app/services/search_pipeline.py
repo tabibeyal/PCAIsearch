@@ -4,11 +4,10 @@ import os
 import re
 from concurrent.futures import ThreadPoolExecutor
 from openai import AsyncOpenAI
-import numpy as np
 from sentence_transformers import CrossEncoder
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
-from qdrant_client.http import models
 from backend.app.core.indexing import EmbeddingManager
+from backend.app.services.retriever import Retriever
 from backend.app.services.sutta_relations import SuttaRelations
 
 
@@ -87,9 +86,13 @@ class SearchPipeline:
         llm_model: str = os.environ.get("LLM_MODEL", "google/gemma-3n-e4b-it"),
         sutta_relations: Optional[SuttaRelations] = None,
     ):
-        self.client = AsyncQdrantClient(url=qdrant_url)
-        self.embedding_mgr = EmbeddingManager(model_name=model_name)
+        self._executor = ThreadPoolExecutor(max_workers=4)
+        client = AsyncQdrantClient(url=qdrant_url)
+        embedding_mgr = EmbeddingManager(model_name=model_name)
         self.collection_name = "pali_canon"
+        self.retriever = Retriever(client, embedding_mgr, self.collection_name, self._executor)
+        self.embedding_mgr = embedding_mgr  # kept for test compatibility
+        self.client = client                 # kept for test compatibility
         self.llm_model = llm_model
         self.llm = AsyncOpenAI(
             base_url="https://integrate.api.nvidia.com/v1",
@@ -97,7 +100,6 @@ class SearchPipeline:
             timeout=30.0,
         )
         self.reranker = Reranker()
-        self._executor = ThreadPoolExecutor(max_workers=4)
         self.sutta_relations = sutta_relations
 
     def shutdown(self):
@@ -122,36 +124,10 @@ class SearchPipeline:
                 variants.append(v)
         return variants[:3]
 
-    async def _retrieve_one(self, q: str, top_k: int, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
-        loop = asyncio.get_event_loop()
-        query_vector = await loop.run_in_executor(self._executor, self.embedding_mgr.encode, q)
-        qdrant_filter = None
-        if nikayas:
-            qdrant_filter = models.Filter(
-                must=[models.FieldCondition(key="nikaya", match=models.MatchAny(any=nikayas))]
-            )
-        response = await self.client.query_points(
-            collection_name=self.collection_name,
-            query=query_vector,
-            limit=top_k,
-            with_payload=True,
-            query_filter=qdrant_filter,
-        )
-        return [
-            {
-                "id": r.payload.get("id"),
-                "pali": r.payload.get("pali"),
-                "english": r.payload.get("english"),
-                "score": r.score,
-            }
-            for r in response.points
-            if r.payload.get("english", "").strip()
-        ]
-
     async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         queries = await self.expand_query(query)
 
-        per_query = await asyncio.gather(*[self._retrieve_one(q, top_k, nikayas) for q in queries])
+        per_query = await asyncio.gather(*[self.retriever.retrieve(q, top_k, nikayas) for q in queries])
 
         seen_ids: set = set()
         all_results: List[Dict[str, Any]] = []

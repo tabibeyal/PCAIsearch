@@ -1,0 +1,57 @@
+from typing import Any, Dict, List, Optional
+import asyncio
+from concurrent.futures import Executor
+
+from qdrant_client.async_qdrant_client import AsyncQdrantClient
+from qdrant_client.http import models
+from backend.app.core.indexing import EmbeddingManager
+
+
+class Retriever:
+    """
+    Vector retrieval against a single Qdrant collection.
+    Decoupled from query expansion and reranking.
+    """
+
+    def __init__(
+        self,
+        client: AsyncQdrantClient,
+        embedding_mgr: EmbeddingManager,
+        collection_name: str,
+        executor: Executor,
+    ):
+        self.client = client
+        self.embedding_mgr = embedding_mgr
+        self.collection_name = collection_name
+        self.executor = executor
+
+    async def retrieve(
+        self,
+        query: str,
+        top_k: int,
+        nikayas: Optional[List[str]] = None,
+    ) -> List[Dict[str, Any]]:
+        loop = asyncio.get_event_loop()
+        query_vector = await loop.run_in_executor(self.executor, self.embedding_mgr.encode, query)
+        qdrant_filter = None
+        if nikayas:
+            qdrant_filter = models.Filter(
+                must=[models.FieldCondition(key="nikaya", match=models.MatchAny(any=nikayas))]
+            )
+        response = await self.client.query_points(
+            collection_name=self.collection_name,
+            query=query_vector,
+            limit=top_k,
+            with_payload=True,
+            query_filter=qdrant_filter,
+        )
+        return [
+            {
+                "id": r.payload.get("id"),
+                "pali": r.payload.get("pali"),
+                "english": r.payload.get("english"),
+                "score": r.score,
+            }
+            for r in response.points
+            if r.payload.get("english", "").strip()
+        ]

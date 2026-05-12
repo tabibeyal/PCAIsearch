@@ -79,6 +79,7 @@ def in_memory_pipeline():
         p = SearchPipeline()
     client = AsyncQdrantClient(":memory:")
     p.client = client
+    p.retriever.client = client
 
     async def _setup():
         await client.create_collection(

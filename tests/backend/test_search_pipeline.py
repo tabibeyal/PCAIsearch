@@ -10,6 +10,7 @@ async def _make_pipeline_with_client(chunks: list) -> tuple:
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
     pipeline.client = client
+    pipeline.retriever.client = client
     pipeline.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
 
     collection_name = "pali_canon"
