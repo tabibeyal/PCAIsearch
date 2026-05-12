@@ -58,6 +58,17 @@ _SYSTEM_PROMPT = (
     "Let there be visual breathing room between sections."
 )
 
+
+def _build_messages(query: str, chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    context_text = "\n\n".join(
+        f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
+        for c in chunks
+    )
+    return [
+        {"role": "system", "content": _SYSTEM_PROMPT},
+        {"role": "user", "content": f"Context:\n{context_text}\n\nQuestion: {query}"},
+    ]
+
 _EXPANSION_PROMPT = (
     "You are a search query expander for a Pali Canon database. "
     "Given a user query, output up to 3 alternative phrasings that will improve "
@@ -171,35 +182,21 @@ class SearchPipeline:
         return sorted(related)
 
     async def synthesize(self, query: str, context_chunks: List[Dict[str, Any]]) -> str:
-        context_text = "\n\n".join(
-            f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
-            for c in context_chunks
-        )
         message = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=1024,
             timeout=120.0,
-            messages=[
-                {"role": "system", "content": _SYSTEM_PROMPT},
-                {"role": "user", "content": f"Context:\n{context_text}\n\nQuestion: {query}"},
-            ],
+            messages=_build_messages(query, context_chunks),
         )
         return _strip_thinking(message.choices[0].message.content)
 
     async def stream_synthesize(self, query: str, context_chunks: List[Dict[str, Any]]):
-        context_text = "\n\n".join(
-            f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
-            for c in context_chunks
-        )
         stream = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=1024,
             timeout=120.0,
             stream=True,
-            messages=[
-                {"role": "system", "content": _SYSTEM_PROMPT},
-                {"role": "user", "content": f"Context:\n{context_text}\n\nQuestion: {query}"},
-            ],
+            messages=_build_messages(query, context_chunks),
         )
         full_text = ""
         async for chunk in stream:

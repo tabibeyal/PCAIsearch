@@ -4,8 +4,7 @@ import React from 'react';
 import { streamSynthesis } from '@/lib/api';
 import { DualPaneContainer } from './DualPaneContainer';
 import { SynthesisResponse } from '@/types/api';
-
-const THINK_RE = /<think>[\s\S]*?<\/think>/gi;
+import { stripThinking } from '@/lib/utils';
 
 function LoadingState() {
   return (
@@ -65,7 +64,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
   if (data) return <DualPaneContainer data={data} />;
 
   if (streamText) {
-    const visible = streamText.replace(THINK_RE, '').trim();
+    const visible = stripThinking(streamText);
     return (
       <div className="h-full overflow-y-auto p-6 bg-white">
         <div className="max-w-2xl mx-auto">
