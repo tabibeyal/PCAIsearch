@@ -17,7 +17,7 @@ export function SearchBar() {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search the Pali Canon (English or Pali)..."
+        placeholder="What is the one precept you should never break?"
         className="flex-1 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
       />
       <button
