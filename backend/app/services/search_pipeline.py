@@ -70,9 +70,11 @@ def _build_messages(query: str, chunks: List[Dict[str, Any]]) -> List[Dict[str, 
 
 _EXPANSION_PROMPT = (
     "You are a search query expander for a Pali Canon database. "
-    "Given a user query, output up to 3 alternative phrasings that will improve "
-    "semantic retrieval — include Pali terms, synonyms, and related concepts where relevant. "
-    "Output one query per line, no numbering, no explanation."
+    "Given a user query, output 2 keyword-focused search strings that will improve retrieval. "
+    "Rules: (1) include relevant Pali terms (e.g. musavada, anicca, dukkha, sila, samadhi); "
+    "(2) include concrete English keywords that would appear in the passage itself, not in the question; "
+    "(3) do NOT output sutta names or sutta numbers. "
+    "Output one string per line, no numbering, no explanation."
 )
 
 class SearchPipeline:
@@ -125,7 +127,8 @@ class SearchPipeline:
     async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         queries = await self.expand_query(query)
 
-        per_query = await asyncio.gather(*[self.retriever.retrieve(q, top_k, nikayas) for q in queries])
+        retrieval_k = max(top_k * 3, 30)
+        per_query = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in queries])
 
         seen_ids: set = set()
         all_results: List[Dict[str, Any]] = []
