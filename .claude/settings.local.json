@@ -31,7 +31,9 @@
       "Bash(node *)",
       "Bash(npm run *)",
       "Skill(commit-commands:commit)",
-      "Skill(claude-md-management:revise-claude-md)"
+      "Skill(claude-md-management:revise-claude-md)",
+      "Bash(pkill -f \"next dev\")",
+      "Skill(commit-commands:commit-push-pr)"
     ]
   }
 }

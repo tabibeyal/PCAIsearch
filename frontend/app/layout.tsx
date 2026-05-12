@@ -3,8 +3,8 @@ import './globals.css'
 import { SupportBanner } from '@/components/SupportBanner'
 
 export const metadata: Metadata = {
-  title: 'Pali Canon AI Search',
-  description: 'High-fidelity semantic search for the Pali Canon',
+  title: 'Ask the Pali Canon',
+  description: 'Type a question or topic — find the suttas that answer it.',
 }
 
 export default function RootLayout({
