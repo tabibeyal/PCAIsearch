@@ -40,6 +40,28 @@ async def test_expand_query_calls_llm_once(pipeline):
 
 
 @pytest.mark.asyncio
+async def test_expand_query_uses_expansion_model_not_llm_model(pipeline):
+    """expand_query must use expansion_model, not llm_model."""
+    mock_client = _mock_llm(pipeline, "sati awareness")
+    pipeline.expansion_model = "google/gemma-3n-e4b-it"
+    pipeline.llm_model = "meta/llama-3.3-70b-instruct"
+    await pipeline.expand_query("mindfulness")
+    call_kwargs = mock_client.chat.completions.create.call_args
+    assert call_kwargs.kwargs["model"] == "google/gemma-3n-e4b-it"
+
+
+@pytest.mark.asyncio
+async def test_synthesize_uses_llm_model_not_expansion_model(pipeline):
+    """synthesize must use llm_model, not expansion_model."""
+    mock_client = _mock_llm(pipeline, "The answer is impermanence.")
+    pipeline.expansion_model = "google/gemma-3n-e4b-it"
+    pipeline.llm_model = "meta/llama-3.3-70b-instruct"
+    await pipeline.synthesize("what is anicca?", [{"id": "SN1:1", "pali": "anicca", "english": "impermanence"}])
+    call_kwargs = mock_client.chat.completions.create.call_args
+    assert call_kwargs.kwargs["model"] == "meta/llama-3.3-70b-instruct"
+
+
+@pytest.mark.asyncio
 async def test_expand_query_parses_llm_lines_as_variants(pipeline):
     # Original query + 2 variants = 3 total (capped at 3)
     _mock_llm(pipeline, "sati awareness\nright mindfulness eightfold path\nkāyagatāsati body mindfulness")

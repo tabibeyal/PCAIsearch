@@ -136,8 +136,12 @@ async def run_benchmark(top_k: int = 10, with_expansion: bool = False) -> list[d
     executor = ThreadPoolExecutor(max_workers=2)
 
     if with_expansion:
+        from pathlib import Path
         from backend.app.services.search_pipeline import SearchPipeline
-        pipeline = SearchPipeline()
+        from backend.app.services.sutta_title_index import SuttaTitleIndex
+        _dumps_dir = Path(__file__).parent.parent.parent / "data" / "dumps"
+        title_index = SuttaTitleIndex.from_directory(_dumps_dir)
+        pipeline = SearchPipeline(title_index=title_index)
         async def retrieve(query):
             return await pipeline.search(query, top_k=top_k)
     else:
