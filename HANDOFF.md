@@ -1,132 +1,128 @@
-# Handoff — Session 2026-05-13 (easy-tier specificity + model split)
+# Handoff — Session 2026-05-13 (Path A: SuttaTitleIndex body verses)
 
 ## What happened this session
 
-Attacked the easy-tier recall failure (0/5), shipped `SuttaTitleIndex` (BM25 over sutta titles), split expansion and synthesis into separate LLM models, and diagnosed two blocking issues that prevent the easy tier from improving.
+Implemented Path A: extended `SuttaTitleIndex` to index English body text from verses 3–15 per sutta, not just the title verse (v2). This fixes the SN/AN title-extraction bug where v2 is a section header (e.g. "6. Involvement") rather than the actual sutta title.
 
 ---
 
 ## What was done
 
-### Commit: `9898ff5` — `feat: add sutta title BM25 boost to improve easy-tier recall`
+### Commit `d6c1f15` — `feat: split expansion/synthesis models + update HANDOFF`
 
-**Files changed / created:**
-- `backend/app/services/sutta_title_index.py` (new)
-- `backend/app/services/search_pipeline.py`
-- `backend/app/main.py`
-- `tests/backend/test_sutta_title_index.py` (new)
-- `tests/backend/test_title_boost_integration.py` (new)
+(Carried forward from previous session — model split shipped and stable.)
 
-### Uncommitted changes (staged-but-not-committed, branch `master`)
+### Commit `4befa46` — `feat: extend SuttaTitleIndex to include body verses 3-15 in BM25`
 
-- `backend/app/services/search_pipeline.py` — `expansion_model` param (Gemma for expand, Llama for synthesize)
-- `tests/backend/test_query_expansion.py` — 2 tests asserting model routing
-- `tests/backend/retrieval_benchmark.py` — benchmark now wires `SuttaTitleIndex.from_directory` when `--with-expansion`
+**Files changed:**
+- `backend/app/services/sutta_title_index.py`
+- `tests/backend/test_sutta_title_index.py`
+
+**Changes in `sutta_title_index.py`:**
+
+1. `__init__` — BM25 corpus now includes `body_text` field (optional, defaults to `""`):
+   ```python
+   corpus = [
+       _tokenize(f"{e['title_pali']} {e['title_english']} {e.get('body_text', '')}")
+       for e in entries
+   ]
+   ```
+
+2. `from_directory` — collects English text from verses 3–15 as `body_text`:
+   ```python
+   body_text = " ".join(
+       v.get("english", "")
+       for v in verses
+       if 3 <= v.get("number", 0) <= 15
+   )
+   ```
+
+**Two new tests added** (`test_sutta_title_index.py`):
+- `test_finds_sutta_by_body_text_when_not_in_title` — tracer bullet: body-text-only match works
+- `test_from_directory_includes_body_verses_in_search` — end-to-end: `from_directory` picks up v3-v15 content
+
+All 15 title-index / title-boost tests pass.
 
 ---
 
-## SuttaTitleIndex
+## SuttaTitleIndex (updated)
 
 `backend/app/services/sutta_title_index.py`
 
-BM25 index (`rank_bm25.BM25Okapi`) over all 4691 sutta dump files. Each entry = verse 2 (the title verse) pali + english text. At query time, if the top BM25 hit scores > 0, its sutta's title text is appended as an extra retrieval query so the reranker sees its verses.
+BM25 index over all ~4456 suttas. Each document = `title_pali + title_english + body_text` where `body_text` = English text of verses 3–15.
 
-```python
-# Construction (at app startup)
-title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
+**Why verses 3–15:**
+- MN/DN: v2 = title, v3 = "So I have heard." (body starts at v4)
+- SN/AN: v2 = section/chapter header, v3 = actual sutta title, v4+ = body
 
-# Usage (inside SearchPipeline.search)
-title_hits = self.title_index.search(query, top_n=1)
-title_text = self.title_index.get_title_text(top_sutta_id)
-queries = list(queries) + [title_text]   # extra retrieval query
-```
+Including v3 in the index fixes SN/AN suttas whose real title was invisible (e.g. SN22.59 v2 = "6. Involvement", v3 = "The Characteristic of Not-Self").
 
-Injected as optional seam: `SearchPipeline(title_index=title_index)`. No-op when `None`.
+Including v4–v15 catches thesis content not encoded in titles (e.g. SN56.11 v6–v8 = "these two extremes / self-indulgence / self-mortification" now matches "path between self-indulgence and harsh self-denial").
+
+**Note:** `get_title_text()` still returns only v2 title text (used as extra retrieval query in pipeline). This is a remaining gap for SN/AN suttas — see open issues below.
 
 ---
 
-## Model split
-
-Default models (both overridable via env):
+## Model split (stable from previous session)
 
 | Task | Env var | Default |
 |------|---------|---------|
 | Query expansion | `EXPANSION_MODEL` | `google/gemma-3n-e4b-it` |
 | Synthesis | `LLM_MODEL` | `meta/llama-3.3-70b-instruct` |
 
-Llama 3.3-70b produces cleaner synthesis (better citation formatting, stays on-topic). Gemma is kept for expansion because it generates short keyword strings which is what the retrieval step needs.
+---
 
-Side-by-side synthesis test run this session: Llama stays on-topic and cites sources; Gemma wanders to unrelated passages. Verdict: Llama is better for synthesis, the split is correct.
+## BM25 title boost spot-check (current session)
+
+Against the real 4456-sutta index, querying `SuttaTitleIndex.search(query, top_n=3)`:
+
+| Query | Expected | Top-3 | Hit |
+|---|---|---|---|
+| what is the path between self-indulgence… | SN56.11 | SN56.11, SN35.85, SN35.142 | ✓ |
+| what are the four foundations of mindfulness | MN10 | AN4.154, AN5.15, SN48.8 | ✗ |
+| components of noble eightfold path | MN117 | SN45.33, SN45.20, SN45.162 | ✗ |
+| five aggregates permanent or lack a self | SN22.59 | SN22.123, SN22.122, SN18.10 | ✗ |
+| how does ignorance cause suffering step by step | SN12.1 | AN6.87, AN6.86, AN5.151 | ✗ |
+
+Body text helps SN56.11 (thesis vocab in v6–v8). Does not fix easy-tier 0/5 — see diagnosis below.
 
 ---
 
-## Benchmark results this session
+## Easy-tier diagnosis (current understanding)
 
-```
-Raw vector (no expansion):      4/15  (26%)   — unchanged baseline
-With expansion + title boost:   4/15  (26%)   — no improvement yet
-```
+Easy tier is 0/5 in BM25 lookup for all benchmark queries. Root causes:
 
-The 7/15 (46%) from the previous session was not reproduced. See diagnosis below.
+1. **Chapter density beats canonical suttas**: "four foundations of mindfulness" → SN47.x and AN4.x (short, dense, purpose-built chapter suttas) outscore MN10 (long, broad). BM25 scores by term frequency — short suttas win on density.
 
----
-
-## Blocking issues diagnosed this session
-
-### Issue 1 — Benchmark non-reproducibility: Gemma expansion is unreliable
-
-The previous session's 7/15 was likely a lucky run. Gemma 3n is too small for consistent Pali term generation:
-
-- Generates Thai script: `kāmaภりたい ภวังคะ` — complete hallucination
-- Repeats `musavada` (false speech) across unrelated queries
-- Misses the correct Pali term for the query's topic (e.g. `kalyanamitta` should appear for the spiritual-friend query but doesn't reliably)
-
-The benchmark is measuring a non-deterministic system. A single run is not a reliable signal.
-
-**Implication**: any recall improvement we measure may wash out on re-run. Need either a deterministic retrieval augmentation or to average over multiple runs.
+2. **`get_title_text()` returns v2 for SN/AN**: even when BM25 correctly finds SN22.59 via body text, the pipeline injects "6. Involvement" as the extra retrieval query (v2 title), not "The Characteristic of Not-Self" (v3). The retrieval gain is lost.
 
 ---
 
-### Issue 2 — Title boost misfires for easy-tier queries
+## Open issues / next steps
 
-Root cause traced for `MN 10` ("what are the four foundations of mindfulness"):
+### Fix `get_title_text()` for SN/AN suttas (quick win)
 
-```
-BM25 title match → MN119 ("Mindfulness of the Body"), score 7.84
-                   MN118 ("Mindfulness of Breathing"), score 7.20
-                   NOT MN10 ("Mindfulness Meditation"), which scores lower
+For SN/AN the actual sutta title is in v3, not v2. `get_title_text()` should return v3 if v2 looks like a section header (number + dot pattern: `"6. Involvement"`), or simply return v2 + v3.
 
-Reason: query token "foundations" does not appear in any sutta title.
-MN10 title = "Satipaṭṭhānasutta Mindfulness Meditation" — no match on "foundations".
-```
+Estimated impact: fixes cases where BM25 finds the right sutta but the pipeline injects the wrong retrieval query.
 
-The title-only BM25 has too little text to distinguish definitional suttas from incidental mentions. The title text "Mindfulness Meditation" loses to "Mindfulness of the Body" because the latter shares more tokens with a generic mindfulness query.
+### Easy tier: 0/5 (deep fix needed)
 
----
+The BM25 title boost is not sufficient for easy-tier improvement. The vector search itself is missing these suttas at recall@10. Two options:
 
-## Remaining known issues
+**A — Wider retrieval_k** (already tried; 46% at k=30 vs 26% at k=10)
 
-### Easy tier: 0/5 (unchanged)
+**B — Full-corpus BM25 hybrid**
 
-The specificity problem is not yet fixed. Two paths forward:
+Add a sparse BM25 pass over all 134k verses, RRF-fuse with dense results before reranking. Qdrant supports sparse vectors natively. This is the most direct fix for vocabulary-mismatch failures across all tiers.
 
-**A — Extend `SuttaTitleIndex` with opening thesis verses (next recommended step)**
+### MN 21, SN 45.2 (hard tier)
 
-Currently `from_directory` indexes only verse 2 (the title). The thesis verse (typically verse 9–12) contains the sutta's defining statement. For MN 10, verse 9: *"the four kinds of mindfulness meditation are the path to convergence"* — the word `path` and `four` and `mindfulness` would correctly score MN 10 above MN 119/118 for the failing query.
+Still missing at recall@10. Vocabulary-mismatch cases the current expansion doesn't reliably bridge.
 
-Change: `SuttaTitleIndex.from_directory` should concatenate verses 2–15 per sutta (not just verse 2) as the BM25 document.
+### SN 56.11 ×2, SN 12.1, AN 3.65 (medium tier)
 
-**B — Full-corpus BM25 hybrid (more powerful, more work)**
-
-Add a sparse BM25 pass over all 134k verses, RRF-fuse with dense results before reranking. Qdrant supports sparse vectors natively. Addresses easy tier AND the medium/hard vocabulary-mismatch cases more broadly.
-
-### MN 21 and SN 45.2 (hard tier)
-
-Still missing at recall@10. Both are vocabulary-mismatch cases the current expansion doesn't reliably bridge.
-
-### SN 56.11 (medium, ×2), SN 12.1 (medium), AN 3.65 (medium)
-
-Expansion sometimes generates the right Pali terms (avijjā, paṭicca-samuppāda, kalyānamitta) but is non-deterministic. These would likely improve with path A or B above.
+Non-deterministic: depends on whether Gemma generates the right Pali term on a given run.
 
 ---
 
@@ -135,7 +131,7 @@ Expansion sometimes generates the right Pali terms (avijjā, paṭicca-samuppād
 - **Pipeline** — RAG orchestrator: expand → retrieve → rerank → synthesize (`SearchPipeline`)
 - **Retriever** — vector retrieval against Qdrant; injectable seam (`Retriever`)
 - **Reranker** — CrossEncoder (`ms-marco-MiniLM-L-6-v2`) reranks expanded candidate pool before returning `top_k`
-- **SuttaTitleIndex** — BM25 over sutta titles (+ soon: thesis verses); injectable seam; loaded from `data/dumps/` at startup
+- **SuttaTitleIndex** — BM25 over sutta titles + body verses 3–15; injectable seam; loaded from `data/dumps/` at startup
 - **ExpansionPrompt** — versioned prompt class; injectable in `SearchPipeline`; currently v1 only
 - **Guardrail** — post-generation citation verifier/redactor (`CitationGuardrail`)
 - **CitationOracle** — answers "does `[ID:Verse]` exist?" (`citation_oracle.py`)
