@@ -22,7 +22,7 @@ class SuttaTitleIndex:
             for e in entries
         }
         corpus = [
-            _tokenize(f"{e['title_pali']} {e['title_english']}")
+            _tokenize(f"{e['title_pali']} {e['title_english']} {e.get('body_text', '')}")
             for e in entries
         ]
         self._bm25 = BM25Okapi(corpus)
@@ -49,10 +49,16 @@ class SuttaTitleIndex:
                 verses = data.get("verses", [])
                 title_verse = next((v for v in verses if v.get("number") == 2), None)
                 if title_verse:
+                    body_text = " ".join(
+                        v.get("english", "")
+                        for v in verses
+                        if 3 <= v.get("number", 0) <= 15
+                    )
                     entries.append({
                         "sutta_id": data["sutta_id"],
                         "title_pali": title_verse.get("pali", ""),
                         "title_english": title_verse.get("english", ""),
+                        "body_text": body_text,
                     })
             except Exception:
                 continue
