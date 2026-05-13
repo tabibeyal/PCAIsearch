@@ -13,6 +13,7 @@ from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.citation_oracle import CitationOracle
 from backend.app.services.sutta_relations import SuttaRelations
+from backend.app.services.sutta_title_index import SuttaTitleIndex
 
 limiter = Limiter(key_func=get_remote_address)
 
@@ -22,7 +23,8 @@ _DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
 async def lifespan(app: FastAPI):
     oracle = CitationOracle(_DUMPS_DIR)
     relations = SuttaRelations(oracle.known_suttas)
-    app.state.pipeline = SearchPipeline(sutta_relations=relations)
+    title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
+    app.state.pipeline = SearchPipeline(sutta_relations=relations, title_index=title_index)
     app.state.guardrail = CitationGuardrail(oracle=oracle)
     yield
     if pipeline := getattr(app.state, "pipeline", None):

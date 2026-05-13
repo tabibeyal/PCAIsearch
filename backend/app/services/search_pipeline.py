@@ -9,6 +9,34 @@ from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from backend.app.core.indexing import EmbeddingManager
 from backend.app.services.retriever import Retriever
 from backend.app.services.sutta_relations import SuttaRelations
+from backend.app.services.sutta_title_index import SuttaTitleIndex
+
+
+class ExpansionPrompt:
+    """Manages different versions of the query expansion prompt."""
+
+    VERSIONS = {
+        "v1": (
+            "You are a search query expander for a Pali Canon database. "
+            "Given a user query, output 2 keyword-focused search strings that will improve retrieval. "
+            "Rules: (1) include relevant Pali terms (e.g. musavada, anicca, dukkha, sila, samadhi); "
+            "(2) include concrete English keywords that would appear in the passage itself, not in the question; "
+            "(3) do NOT output sutta names or sutta numbers. "
+            "Output one string per line, no numbering, no explanation."
+        ),
+    }
+
+    def __init__(self, version: str = "v1"):
+        self.version = version
+
+    def get_prompt(self) -> str:
+        """Get the prompt for the selected version."""
+        return self.VERSIONS.get(self.version, self.VERSIONS["v1"])
+
+    @classmethod
+    def list_versions(cls) -> list[str]:
+        """List available prompt versions."""
+        return list(cls.VERSIONS.keys())
 
 
 def _extract_sutta_id(chunk_id: str) -> Optional[str]:
@@ -18,6 +46,7 @@ def _extract_sutta_id(chunk_id: str) -> Optional[str]:
 
 
 _THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL | re.IGNORECASE)
+
 
 def _strip_thinking(text: str) -> str:
     return _THINK_RE.sub("", text).strip()
@@ -34,6 +63,7 @@ class Reranker:
         scores = self.model.predict(pairs)
         ranked = sorted(zip(chunks, scores.tolist()), key=lambda x: x[1], reverse=True)
         return [{**chunk, "rerank_score": score} for chunk, score in ranked]
+
 
 _SYSTEM_PROMPT = (
     "You are a scholarly assistant for the Pali Canon. "
@@ -68,14 +98,6 @@ def _build_messages(query: str, chunks: List[Dict[str, Any]]) -> List[Dict[str, 
         {"role": "user", "content": f"Context:\n{context_text}\n\nQuestion: {query}"},
     ]
 
-_EXPANSION_PROMPT = (
-    "You are a search query expander for a Pali Canon database. "
-    "Given a user query, output 2 keyword-focused search strings that will improve retrieval. "
-    "Rules: (1) include relevant Pali terms (e.g. musavada, anicca, dukkha, sila, samadhi); "
-    "(2) include concrete English keywords that would appear in the passage itself, not in the question; "
-    "(3) do NOT output sutta names or sutta numbers. "
-    "Output one string per line, no numbering, no explanation."
-)
 
 class SearchPipeline:
     """
@@ -85,8 +107,10 @@ class SearchPipeline:
         self,
         qdrant_url: str = "http://localhost:6333",
         model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-        llm_model: str = os.environ.get("LLM_MODEL", "google/gemma-3n-e4b-it"),
+        llm_model: str = os.environ.get("LLM_MODEL", "meta/llama-3.3-70b-instruct"),
         sutta_relations: Optional[SuttaRelations] = None,
+        expansion_prompt: Optional[ExpansionPrompt] = None,
+        title_index: Optional[SuttaTitleIndex] = None,
     ):
         self._executor = ThreadPoolExecutor(max_workers=4)
         client = AsyncQdrantClient(url=qdrant_url)
@@ -101,16 +125,19 @@ class SearchPipeline:
         )
         self.reranker = Reranker()
         self.sutta_relations = sutta_relations
+        self.expansion_prompt = expansion_prompt or ExpansionPrompt()
+        self.title_index = title_index
 
     def shutdown(self):
         self._executor.shutdown(wait=True)
 
     async def expand_query(self, query: str) -> List[str]:
+        prompt = self.expansion_prompt.get_prompt()
         message = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=256,
             messages=[
-                {"role": "system", "content": _EXPANSION_PROMPT},
+                {"role": "system", "content": prompt},
                 {"role": "user", "content": query},
             ],
         )
@@ -126,6 +153,16 @@ class SearchPipeline:
 
     async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         queries = await self.expand_query(query)
+
+        # Title boost: if a canonical sutta title matches the query, add its
+        # title text as an extra retrieval query so the reranker sees its verses.
+        if self.title_index:
+            title_hits = self.title_index.search(query, top_n=1)
+            if title_hits:
+                top_sutta_id, _ = title_hits[0]
+                title_text = self.title_index.get_title_text(top_sutta_id)
+                if title_text and title_text not in queries:
+                    queries = list(queries) + [title_text]
 
         retrieval_k = max(top_k * 3, 30)
         per_query = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in queries])

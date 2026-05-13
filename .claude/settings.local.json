@@ -33,7 +33,13 @@
       "Skill(commit-commands:commit)",
       "Skill(claude-md-management:revise-claude-md)",
       "Bash(pkill -f \"next dev\")",
-      "Skill(commit-commands:commit-push-pr)"
+      "Skill(commit-commands:commit-push-pr)",
+      "Bash(PYTHONPATH=. python *)",
+      "Bash(PYTHONPATH=. python3 *)",
+      "Bash(PYTHONPATH=/home/eyal/PCAIsearch python -m pytest /home/eyal/PCAIsearch/tests/backend/ -q --tb=no)",
+      "Bash(pip list *)",
+      "Bash(pip install *)",
+      "Bash(env)"
     ]
   }
 }
