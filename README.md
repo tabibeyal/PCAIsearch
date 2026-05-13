@@ -5,6 +5,7 @@ Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, 
 ## Features
 
 - **Semantic search** — multilingual embeddings (paraphrase-multilingual-MiniLM-L12-v2) retrieve relevant verses in English or Pali
+- **Sutta title BM25 boost** — canonical suttas matched by name (incl. body verses 3–15) are surfaced even when vector search misses
 - **Query expansion** — LLM generates alternative phrasings to improve recall
 - **Cross-encoder reranking** — results reordered by relevance before display
 - **AI Synthesis** — LLM answers your question using only retrieved context, with inline citations (`[DN 1:1]`, `[SN 46.20:14]`)
@@ -32,7 +33,7 @@ data/
 tests/backend/     pytest suite
 ```
 
-**Stack:** FastAPI · Qdrant · fastembed (ONNX Runtime) · cross-encoder/ms-marco-MiniLM-L-6-v2 · Gemma 3N (NVIDIA API) · Next.js · Tailwind CSS
+**Stack:** FastAPI · Qdrant · fastembed (ONNX Runtime) · cross-encoder/ms-marco-MiniLM-L-6-v2 · Gemma 3N for query expansion · Llama 3.3 70B Instruct for synthesis (both via NVIDIA API) · Next.js · Tailwind CSS
 
 ## Prerequisites
 
