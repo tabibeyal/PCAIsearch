@@ -105,6 +105,51 @@ def test_from_directory_includes_body_verses_in_search(tmp_path):
     assert results[0][0] == "SN56.11"
 
 
+def test_get_title_text_uses_v3_when_v2_is_chapter_header():
+    entries = [
+        {
+            "sutta_id": "SN22.59",
+            "title_pali": "Anattalakkhaṇasutta",
+            "title_english": "6. Involvement",
+            "v3_english": "The Characteristic of Not-Self",
+        }
+    ]
+    index = SuttaTitleIndex(entries)
+    text = index.get_title_text("SN22.59")
+    assert "The Characteristic of Not-Self" in text
+    assert "6. Involvement" not in text
+
+
+def test_get_title_text_keeps_v2_when_not_chapter_header():
+    entries = [
+        {
+            "sutta_id": "MN10",
+            "title_pali": "Satipaṭṭhānasutta",
+            "title_english": "Mindfulness Meditation",
+            "v3_english": "So I have heard",
+        }
+    ]
+    index = SuttaTitleIndex(entries)
+    text = index.get_title_text("MN10")
+    assert "Mindfulness Meditation" in text
+    assert "So I have heard" not in text
+
+
+def test_from_directory_get_title_text_uses_v3_for_sn(tmp_path):
+    import json
+    verses = [
+        {"number": 1, "pali": "Saṃyutta Nikāya", "english": "Linked Discourses"},
+        {"number": 2, "pali": "Khandhavagga", "english": "6. Involvement"},
+        {"number": 3, "pali": "Anattalakkhaṇasutta", "english": "The Characteristic of Not-Self"},
+        {"number": 4, "pali": "", "english": "Form is not-self mendicants"},
+    ]
+    (tmp_path / "sn2259.json").write_text(json.dumps({"sutta_id": "SN22.59", "verses": verses}))
+    index = SuttaTitleIndex.from_directory(tmp_path)
+    text = index.get_title_text("SN22.59")
+    assert "The Characteristic of Not-Self" in text
+    assert "6. Involvement" not in text
+
+
 def test_loads_from_dumps_directory(tmp_path):
     import json
     suttas = [
