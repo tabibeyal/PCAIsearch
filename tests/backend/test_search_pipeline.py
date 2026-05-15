@@ -1,6 +1,7 @@
 import pytest
 from unittest.mock import AsyncMock, patch
 from backend.app.services.search_pipeline import SearchPipeline
+from backend.app.services.bm25_retriever import BM25Retriever
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
 
@@ -59,9 +60,6 @@ async def test_search_pipeline_empty_results():
     assert len(results) == 0
 
 
-from backend.app.services.bm25_retriever import BM25Retriever
-
-
 @pytest.mark.asyncio
 async def test_search_with_bm25_surfaces_exact_match():
     """BM25 path surfaces a passage whose exact words match the query."""
@@ -76,3 +74,11 @@ async def test_search_with_bm25_surfaces_exact_match():
     results = await pipeline.search("noble eightfold path", top_k=3)
     ids = [r["id"] for r in results]
     assert "SN 56.11:1" in ids
+
+
+def test_search_pipeline_constructor_accepts_bm25_retriever():
+    verses = [{"id": "MN 1:1", "pali": "", "english": "test verse"}]
+    bm25 = BM25Retriever(verses)
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline(bm25_retriever=bm25)
+    assert pipeline.bm25_retriever is bm25
