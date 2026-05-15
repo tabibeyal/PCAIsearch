@@ -10,6 +10,8 @@ from backend.app.core.indexing import EmbeddingManager
 from backend.app.services.retriever import Retriever
 from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
+from backend.app.services.bm25_retriever import BM25Retriever
+from backend.app.services.fusion import rrf_fuse
 
 
 class ExpansionPrompt:
@@ -117,6 +119,7 @@ class SearchPipeline:
         sutta_relations: Optional[SuttaRelations] = None,
         expansion_prompt: Optional[ExpansionPrompt] = None,
         title_index: Optional[SuttaTitleIndex] = None,
+        bm25_retriever: Optional[BM25Retriever] = None,
     ):
         self._executor = ThreadPoolExecutor(max_workers=4)
         client = AsyncQdrantClient(url=qdrant_url)
@@ -134,6 +137,7 @@ class SearchPipeline:
         self.expansion_prompt = expansion_prompt or ExpansionPrompt()
         self.title_index = title_index
         self.expansion_model = expansion_model
+        self.bm25_retriever = bm25_retriever
 
     def shutdown(self):
         self._executor.shutdown(wait=True)
@@ -175,12 +179,18 @@ class SearchPipeline:
         per_query = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in queries])
 
         seen_ids: set = set()
-        all_results: List[Dict[str, Any]] = []
+        dense_deduped: List[Dict[str, Any]] = []
         for batch in per_query:
             for result in batch:
                 if result["id"] not in seen_ids:
                     seen_ids.add(result["id"])
-                    all_results.append(result)
+                    dense_deduped.append(result)
+
+        if self.bm25_retriever:
+            bm25_results = self.bm25_retriever.retrieve(query, retrieval_k)
+            all_results = rrf_fuse(dense_deduped, bm25_results)
+        else:
+            all_results = dense_deduped
 
         return self.reranker.rerank(query, all_results)[:top_k]
 

@@ -57,3 +57,22 @@ async def test_search_pipeline_empty_results():
 
     results = await pipeline.search("something that doesn't exist", top_k=5)
     assert len(results) == 0
+
+
+from backend.app.services.bm25_retriever import BM25Retriever
+
+
+@pytest.mark.asyncio
+async def test_search_with_bm25_surfaces_exact_match():
+    """BM25 path surfaces a passage whose exact words match the query."""
+    chunks = [
+        {"id": "SN 56.11:1", "pali": "", "english": "noble eightfold path right view intention speech"},
+        {"id": "DN 1:1", "pali": "evam", "english": "Thus have I heard at one time"},
+        {"id": "MN 10:1", "pali": "citta", "english": "mindfulness contemplating body feelings mind"},
+    ]
+    pipeline, _ = await _make_pipeline_with_client(chunks)
+    pipeline.bm25_retriever = BM25Retriever(chunks)
+
+    results = await pipeline.search("noble eightfold path", top_k=3)
+    ids = [r["id"] for r in results]
+    assert "SN 56.11:1" in ids
