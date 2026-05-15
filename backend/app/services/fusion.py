@@ -12,11 +12,15 @@ def rrf_fuse(
 
     for rank, item in enumerate(dense):
         item_id = item["id"]
+        if item_id is None:
+            continue
         scores[item_id] = scores.get(item_id, 0.0) + 1.0 / (k + rank + 1)
         sources[item_id] = item
 
     for rank, item in enumerate(sparse):
         item_id = item["id"]
+        if item_id is None:
+            continue
         scores[item_id] = scores.get(item_id, 0.0) + 1.0 / (k + rank + 1)
         if item_id not in sources:
             sources[item_id] = item

@@ -72,3 +72,14 @@ def test_dense_payload_used_for_shared_ids():
     sparse = [{"id": "X", "english": "from sparse", "bm25_score": 5.0}]
     result = rrf_fuse(dense, sparse)
     assert result[0]["english"] == "from dense"
+
+
+def test_fusion_score_correct_value():
+    # A at rank 0 in dense, rank 2 in sparse with k=60:
+    # score = 1/(60+0+1) + 1/(60+2+1) = 1/61 + 1/63
+    dense = [{"id": "A", "english": "alpha"}]
+    sparse = [{"id": "B", "english": "beta"}, {"id": "C", "english": "gamma"}, {"id": "A", "english": "alpha"}]
+    result = rrf_fuse(dense, sparse, k=60)
+    score_a = next(x["fusion_score"] for x in result if x["id"] == "A")
+    expected = 1/61 + 1/63
+    assert abs(score_a - expected) < 1e-9
