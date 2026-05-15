@@ -18,6 +18,7 @@ build/
 
 # Data
 data/dumps/
+data/parallels*.sqlite
 /tmp/bilara-data/
 
 # Node / Next.js
