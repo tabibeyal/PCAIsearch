@@ -14,6 +14,7 @@ from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.citation_oracle import CitationOracle
 from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
+from backend.app.services.bm25_retriever import BM25Retriever
 
 limiter = Limiter(key_func=get_remote_address)
 
@@ -24,7 +25,12 @@ async def lifespan(app: FastAPI):
     oracle = CitationOracle(_DUMPS_DIR)
     relations = SuttaRelations(oracle.known_suttas)
     title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
-    app.state.pipeline = SearchPipeline(sutta_relations=relations, title_index=title_index)
+    bm25_retriever = BM25Retriever.from_directory(_DUMPS_DIR)
+    app.state.pipeline = SearchPipeline(
+        sutta_relations=relations,
+        title_index=title_index,
+        bm25_retriever=bm25_retriever,
+    )
     app.state.guardrail = CitationGuardrail(oracle=oracle)
     yield
     if pipeline := getattr(app.state, "pipeline", None):
