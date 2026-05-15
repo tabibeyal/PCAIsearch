@@ -16,8 +16,10 @@ class BM25Retriever:
     """In-memory BM25 index over English verse text for exact-match retrieval."""
 
     def __init__(self, verses: List[Dict[str, Any]]):
+        if not verses:
+            raise ValueError("BM25Retriever requires at least one verse")
         self._verses = verses
-        corpus = [_tokenize(v["english"]) for v in verses]
+        corpus = [_tokenize(v.get("english", "")) for v in verses]
         self._bm25 = BM25Okapi(corpus)
 
     def retrieve(self, query: str, top_k: int) -> List[Dict[str, Any]]:

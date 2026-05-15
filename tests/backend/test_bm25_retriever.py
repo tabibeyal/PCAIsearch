@@ -72,3 +72,8 @@ def test_from_directory(tmp_path):
 def test_from_directory_raises_on_empty_dir(tmp_path):
     with pytest.raises(ValueError, match="No verses found"):
         BM25Retriever.from_directory(tmp_path)
+
+
+def test_empty_verses_raises_value_error():
+    with pytest.raises(ValueError, match="requires at least one verse"):
+        BM25Retriever([])
