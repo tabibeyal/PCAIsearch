@@ -1,128 +1,117 @@
-# Handoff — Session 2026-05-13 (Path A: SuttaTitleIndex body verses)
+# Handoff — Session 2026-05-15 (Pāḷi parallel-passage detector)
 
 ## What happened this session
 
-Implemented Path A: extended `SuttaTitleIndex` to index English body text from verses 3–15 per sutta, not just the title verse (v2). This fixes the SN/AN title-extraction bug where v2 is a section header (e.g. "6. Involvement") rather than the actual sutta title.
+Built the Phase 1 philological cross-referencing feature: an offline parallel-passage detector over the full Sutta corpus.
+
+**Commits this session:**
+- `729b55b` — `feat: add Pāḷi parallel-passage detector (Phase 1)`
+- `e351ded` — `docs: update README with parallel-passage detector`
+- `bc1865c` — `docs: add CLI quick-reference COMMANDS.md for parallels tool`
 
 ---
 
-## What was done
+## What was built
 
-### Commit `d6c1f15` — `feat: split expansion/synthesis models + update HANDOFF`
+### `analysis/parallels/` — new top-level package
 
-(Carried forward from previous session — model split shipped and stable.)
+| File | Purpose |
+|------|---------|
+| `normalise.py` | Light Pāḷi normalisation: NFC, lower-case, strip punctuation, collapse whitespace, ṁ→ṃ |
+| `tokenise.py` | Per-sutta tokenisation; returns `(tokens, offsets)` where each offset is `(verse_number, char_offset_in_raw_pali)` |
+| `schema.py` | `open_db()` + `create_tables()`; WAL mode, foreign keys on |
+| `detector.py` | k-shingle (default k=7) seed + maximal left/right extension; content-addressed span IDs (SHA-256 → 12 hex); `DETECTOR_VERSION = "v1-k7-light"` |
+| `reconstruct.py` | `reconstruct_raw(sutta_data, verse_number, char_offset, char_length)` → raw Pāḷi slice |
+| `queries.py` | `list_spans`, `show_span`, `spans_in_sutta`, `top_formulas`, `stats` |
+| `cli.py` | argparse wrapper; every command supports `--json` |
+| `__main__.py` | Entry point for `python3 -m analysis.parallels` |
+| `COMMANDS.md` | CLI quick-reference |
 
-### Commit `4befa46` — `feat: extend SuttaTitleIndex to include body verses 3-15 in BM25`
+### `tests/analysis/` — 38 new tests
 
-**Files changed:**
-- `backend/app/services/sutta_title_index.py`
-- `tests/backend/test_sutta_title_index.py`
+`test_normalise.py`, `test_tokenise.py`, `test_detector.py`, `test_reconstruct.py`, `test_queries.py`
 
-**Changes in `sutta_title_index.py`:**
+### `docs/adr/`
 
-1. `__init__` — BM25 corpus now includes `body_text` field (optional, defaults to `""`):
-   ```python
-   corpus = [
-       _tokenize(f"{e['title_pali']} {e['title_english']} {e.get('body_text', '')}")
-       for e in entries
-   ]
-   ```
+- `0001-philological-cross-referencing-as-goal.md` — philological features first; corpus expansion (Vinaya, Aṭṭhakathā) is downstream
+- `0002-parallel-passage-design.md` — span node, per-sutta tokenisation, light normalisation only
 
-2. `from_directory` — collects English text from verses 3–15 as `body_text`:
-   ```python
-   body_text = " ".join(
-       v.get("english", "")
-       for v in verses
-       if 3 <= v.get("number", 0) <= 15
-   )
-   ```
+### `CONTEXT.md`
 
-**Two new tests added** (`test_sutta_title_index.py`):
-- `test_finds_sutta_by_body_text_when_not_in_title` — tracer bullet: body-text-only match works
-- `test_from_directory_includes_body_verses_in_search` — end-to-end: `from_directory` picks up v3-v15 content
-
-All 15 title-index / title-boost tests pass.
+Domain vocabulary: corpus phases, retrieval pipeline terms, philological cross-referencing terms (span, occurrence, shingle, detector, light normalisation).
 
 ---
 
-## SuttaTitleIndex (updated)
+## Full-corpus build results
 
-`backend/app/services/sutta_title_index.py`
+```
+Suttas:      4,691
+Spans:       31,711
+Occurrences: 153,119
+Artifact:    data/parallels.sqlite (18 MB, gitignored)
+Build time:  ~20 seconds
+Version:     v1-k7-light
+```
 
-BM25 index over all ~4456 suttas. Each document = `title_pali + title_english + body_text` where `body_text` = English text of verses 3–15.
-
-**Why verses 3–15:**
-- MN/DN: v2 = title, v3 = "So I have heard." (body starts at v4)
-- SN/AN: v2 = section/chapter header, v3 = actual sutta title, v4+ = body
-
-Including v3 in the index fixes SN/AN suttas whose real title was invisible (e.g. SN22.59 v2 = "6. Involvement", v3 = "The Characteristic of Not-Self").
-
-Including v4–v15 catches thesis content not encoded in titles (e.g. SN56.11 v6–v8 = "these two extremes / self-indulgence / self-mortification" now matches "path between self-indulgence and harsh self-denial").
-
-**Note:** `get_title_text()` still returns only v2 title text (used as extra retrieval query in pipeline). This is a remaining gap for SN/AN suttas — see open issues below.
-
----
-
-## Model split (stable from previous session)
-
-| Task | Env var | Default |
-|------|---------|---------|
-| Query expansion | `EXPANSION_MODEL` | `google/gemma-3n-e4b-it` |
-| Synthesis | `LLM_MODEL` | `meta/llama-3.3-70b-instruct` |
+Notable formulas found:
+- `vivicceva kāmehi…paṭhamaṃ jhānaṃ upasampajja` — 93 occurrences (1st jhāna formula)
+- `khīṇā jāti vusitaṃ brahmacariyaṃ…` — 188 occurrences (knowledge-of-destruction)
+- `yena bhagavā tenupasaṅkami…` — 340 occurrences (visitor-approaches formula)
 
 ---
 
-## BM25 title boost spot-check (current session)
+## SQLite schema
 
-Against the real 4456-sutta index, querying `SuttaTitleIndex.search(query, top_n=3)`:
+```sql
+span(id TEXT PK, normalised_pali TEXT, token_count INT, occurrence_count INT, detector_version TEXT)
+occurrence(id INT PK, span_id TEXT FK, sutta_id TEXT, verse_number INT, char_offset INT, char_length INT)
+```
 
-| Query | Expected | Top-3 | Hit |
-|---|---|---|---|
-| what is the path between self-indulgence… | SN56.11 | SN56.11, SN35.85, SN35.142 | ✓ |
-| what are the four foundations of mindfulness | MN10 | AN4.154, AN5.15, SN48.8 | ✗ |
-| components of noble eightfold path | MN117 | SN45.33, SN45.20, SN45.162 | ✗ |
-| five aggregates permanent or lack a self | SN22.59 | SN22.123, SN22.122, SN18.10 | ✗ |
-| how does ignorance cause suffering step by step | SN12.1 | AN6.87, AN6.86, AN5.151 | ✗ |
-
-Body text helps SN56.11 (thesis vocab in v6–v8). Does not fix easy-tier 0/5 — see diagnosis below.
+`span.id` = first 12 hex chars of SHA-256 of `normalised_pali`. Content-addressed: same formula gets the same ID across corpus rebuilds.
 
 ---
 
-## Easy-tier diagnosis (current understanding)
+## CLI (package installed)
 
-Easy tier is 0/5 in BM25 lookup for all benchmark queries. Root causes:
+```bash
+python3 -m analysis.parallels build
+python3 -m analysis.parallels top-formulas --limit 20
+python3 -m analysis.parallels spans-in-sutta MN36
+python3 -m analysis.parallels show-span <span_id>
+python3 -m analysis.parallels stats
+```
 
-1. **Chapter density beats canonical suttas**: "four foundations of mindfulness" → SN47.x and AN4.x (short, dense, purpose-built chapter suttas) outscore MN10 (long, broad). BM25 scores by term frequency — short suttas win on density.
+See `analysis/parallels/COMMANDS.md` for full reference.
 
-2. **`get_title_text()` returns v2 for SN/AN**: even when BM25 correctly finds SN22.59 via body text, the pipeline injects "6. Involvement" as the extra retrieval query (v2 title), not "The Characteristic of Not-Self" (v3). The retrieval gain is lost.
+---
+
+## Design decisions (locked)
+
+All three are ADR'd. Changing any requires rebuilding the artifact and updating downstream consumers.
+
+1. **Span node** (not verse-pair, not sutta-pair) — exact recurring text as first-class entity; verse/sutta views are trivial `GROUP BY`s over it.
+2. **Per-sutta tokenisation** — Bilara segments are fine-grained; long formulas (jhāna, paticcasamuppāda) span multiple segments; per-verse tokenisation would fragment them.
+3. **Light normalisation only** — catches exact oral-tradition repetition without importing morphological analyser error rate; heavier fuzzy matching is a future "Pass 2" edge type.
 
 ---
 
 ## Open issues / next steps
 
-### Fix `get_title_text()` for SN/AN suttas (quick win)
+### Phase 1.5 — Pāḷi word clusters
 
-For SN/AN the actual sutta title is in v3, not v2. `get_title_text()` should return v3 if v2 looks like a section header (number + dot pattern: `"6. Involvement"`), or simply return v2 + v3.
+Inverted index: doctrinal term → all occurrences. Fits same `analysis/` directory and SQLite file (new tables). Can reuse the normalised token stream already produced by the detector.
 
-Estimated impact: fixes cases where BM25 finds the right sutta but the pipeline injects the wrong retrieval query.
+### Phase 2 — Vinaya ingestion (re-planned)
 
-### Easy tier: 0/5 (deep fix needed)
+Deferred. When scheduled: re-plan from scratch under the philological lens (Brahmali footnotes as structural signal). Existing parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match Vinaya IDs like `pli-tv-bu-vb-pj1` — needs extension.
 
-The BM25 title boost is not sufficient for easy-tier improvement. The vector search itself is missing these suttas at recall@10. Two options:
+### Phase 2.5 — Public read-only API + explorer UI
 
-**A — Wider retrieval_k** (already tried; 46% at k=30 vs 26% at k=10)
+`/parallels` route in frontend backed by 4–5 read-only endpoints over `data/parallels.sqlite`. Schema already shaped for this; ~20 LOC HTTP layer.
 
-**B — Full-corpus BM25 hybrid**
+### Full-corpus BM25 hybrid (retrieval, from previous session)
 
-Add a sparse BM25 pass over all 134k verses, RRF-fuse with dense results before reranking. Qdrant supports sparse vectors natively. This is the most direct fix for vocabulary-mismatch failures across all tiers.
-
-### MN 21, SN 45.2 (hard tier)
-
-Still missing at recall@10. Vocabulary-mismatch cases the current expansion doesn't reliably bridge.
-
-### SN 56.11 ×2, SN 12.1, AN 3.65 (medium tier)
-
-Non-deterministic: depends on whether Gemma generates the right Pali term on a given run.
+Add sparse BM25 pass over all 134k verses, RRF-fuse with dense results before reranking. Most direct fix for vocabulary-mismatch failures.
 
 ---
 
@@ -130,12 +119,16 @@ Non-deterministic: depends on whether Gemma generates the right Pali term on a g
 
 - **Pipeline** — RAG orchestrator: expand → retrieve → rerank → synthesize (`SearchPipeline`)
 - **Retriever** — vector retrieval against Qdrant; injectable seam (`Retriever`)
-- **Reranker** — CrossEncoder (`ms-marco-MiniLM-L-6-v2`) reranks expanded candidate pool before returning `top_k`
-- **SuttaTitleIndex** — BM25 over sutta titles + body verses 3–15; injectable seam; loaded from `data/dumps/` at startup
+- **Reranker** — CrossEncoder (`ms-marco-MiniLM-L-6-v2`) reranks expanded candidate pool
+- **SuttaTitleIndex** — BM25 over sutta titles + body verses 3–15; `get_title_text()` returns v3 for SN/AN chapter-header suttas
 - **ExpansionPrompt** — versioned prompt class; injectable in `SearchPipeline`; currently v1 only
 - **Guardrail** — post-generation citation verifier/redactor (`CitationGuardrail`)
-- **CitationOracle** — answers "does `[ID:Verse]` exist?" (`citation_oracle.py`)
-- **SuttaRelations** — answers "what is related to sutta X?" (`sutta_relations.py`)
-- **Registry** — `Dict[str, Set[int]]` sutta ID → verse numbers, loaded from local dumps
-- **retrieval_k** — internal candidate pool size = `max(top_k * 3, 30)`; decoupled from `top_k`
-- **expansion_model** — model used for `expand_query`; separate from `llm_model` (synthesis)
+- **CitationOracle** — answers "does `[ID:Verse]` exist?"
+- **SuttaRelations** — answers "what is related to sutta X?"
+- **Span** — maximal recurring Pāḷi token sequence; content-addressed by SHA-256 of normalised text
+- **Occurrence** — `(span_id, sutta_id, verse_number, char_offset, char_length)`; char offsets index raw pali field
+- **Detector** — offline batch tool producing `data/parallels.sqlite`; versioned (`v1-k7-light`)
+- **Light normalisation** — NFC + lower + strip punctuation + collapse whitespace + ṁ→ṃ
+- **Shingle** — k=7 consecutive normalised tokens; used to seed span detection
+- **retrieval_k** — internal candidate pool = `max(top_k * 3, 30)`
+- **expansion_model** — model for `expand_query`; separate from `llm_model` (synthesis)
