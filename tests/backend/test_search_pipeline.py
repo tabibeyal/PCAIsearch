@@ -119,3 +119,21 @@ def test_search_pipeline_constructor_accepts_bm25_retriever():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline(bm25_retriever=bm25)
     assert pipeline.bm25_retriever is bm25
+
+
+@pytest.mark.asyncio
+async def test_dense_results_use_rrf_fuse_multi_not_first_seen():
+    """Pipeline must call rrf_fuse_multi on per-query dense results, not first-seen dedup."""
+    from unittest.mock import patch as _patch
+    chunks = [{"id": "MN 10:1", "pali": "", "english": "mindfulness body"}]
+    pipeline, _ = await _make_pipeline_with_client(chunks)
+    pipeline.expand_query = AsyncMock(return_value=["query one", "query two"])
+
+    with _patch("backend.app.services.search_pipeline.rrf_fuse_multi") as mock_multi:
+        mock_multi.return_value = []
+        await pipeline.search("mindfulness", top_k=5)
+
+    mock_multi.assert_called_once()
+    call_arg = mock_multi.call_args[0][0]
+    assert isinstance(call_arg, list), "rrf_fuse_multi must receive a list of lists"
+    assert len(call_arg) == 2, f"Expected 2 per-query result lists, got {len(call_arg)}"

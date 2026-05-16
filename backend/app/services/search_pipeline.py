@@ -11,7 +11,7 @@ from backend.app.services.retriever import Retriever
 from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
-from backend.app.services.fusion import rrf_fuse
+from backend.app.services.fusion import rrf_fuse, rrf_fuse_multi
 
 
 class ExpansionPrompt:
@@ -178,13 +178,7 @@ class SearchPipeline:
         retrieval_k = max(top_k * 3, 30)
         per_query = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in queries])
 
-        seen_ids: set = set()
-        dense_deduped: List[Dict[str, Any]] = []
-        for batch in per_query:
-            for result in batch:
-                if result["id"] not in seen_ids:
-                    seen_ids.add(result["id"])
-                    dense_deduped.append(result)
+        dense_fused = rrf_fuse_multi(list(per_query))
 
         if self.bm25_retriever:
             seen_bm25: dict = {}
@@ -194,9 +188,9 @@ class SearchPipeline:
                     if item_id not in seen_bm25 or item["bm25_score"] > seen_bm25[item_id]["bm25_score"]:
                         seen_bm25[item_id] = item
             bm25_results = sorted(seen_bm25.values(), key=lambda x: x["bm25_score"], reverse=True)
-            all_results = rrf_fuse(dense_deduped, bm25_results)
+            all_results = rrf_fuse(dense_fused, bm25_results)
         else:
-            all_results = dense_deduped
+            all_results = dense_fused
 
         return self.reranker.rerank(query, all_results)[:top_k]
 
