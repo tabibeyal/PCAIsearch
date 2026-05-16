@@ -83,7 +83,8 @@ def test_lookup_english_five_aggregates():
 def test_lookup_english_lying_precept():
     result = lookup_english("what is the one precept you should never break")
     assert result is not None
-    assert "not ashamed to lie" in result
+    assert "not ashamed to tell a deliberate lie" in result
+    assert "bad deed" in result
 
 
 def test_lookup_english_dependent_origination():

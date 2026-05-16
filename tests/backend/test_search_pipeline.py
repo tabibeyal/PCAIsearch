@@ -253,11 +253,11 @@ async def test_expand_query_appends_english_hint():
     pipeline.llm.chat.completions.create = fake_create
 
     with patch("backend.app.services.search_pipeline.lookup", return_value="musāvādā sacca"), \
-         patch("backend.app.services.search_pipeline.lookup_english", return_value="not ashamed to lie no evil deed") as mock_en:
+         patch("backend.app.services.search_pipeline.lookup_english", return_value="not ashamed to tell a deliberate lie no bad deed") as mock_en:
         result = await pipeline.expand_query("one precept never break")
 
     mock_en.assert_called_once_with("one precept never break")
-    assert "not ashamed to lie no evil deed" in result
+    assert "not ashamed to tell a deliberate lie no bad deed" in result
     assert len(result) == 5  # original + 2 LLM lines + pali + english hint
 
 

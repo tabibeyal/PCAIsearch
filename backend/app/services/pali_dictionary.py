@@ -95,7 +95,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "honesty", "avoid lying", "speak truth",
         ],
         pali="musāvādā sacca ambalatthika-rāhulovāda sīla sammā-vācā",
-        english_hint="not ashamed to lie there is no evil deed they would not do Rahula mirror reflect before during after acting",
+        english_hint="not ashamed to tell a deliberate lie there is no bad deed they would not do",
     ),
     DictionaryEntry(
         label="Precept of non-killing",
