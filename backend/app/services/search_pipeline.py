@@ -39,9 +39,38 @@ class ExpansionPrompt:
             "Output exactly two lines, no numbering, no explanation. "
             "The two lines must be maximally distinct from each other and from the original query."
         ),
+        "v3": (
+            "You are a search query expander for a Pali Canon database. "
+            "Given a user query, output exactly 2 search strings on separate lines.\n"
+            "Line 1 — English passage vocabulary: concrete words likely to appear verbatim in a sutta "
+            "verse. Do NOT rephrase the question. Think: what exact words would a monk say in this passage?\n"
+            "Line 2 — Pali doctrinal term cluster: the canonical Pali terminology for the concept, "
+            "space-separated and transliterated (e.g. avijja sankharā viññāna paticca-samuppāda). "
+            "Proper names of communities or persons are allowed (e.g. kālāmā). "
+            "Do NOT include sutta numbers.\n"
+            "Output exactly two lines, no numbering, no explanation. "
+            "The two lines must be maximally distinct from each other and from the original query.\n\n"
+            "Pāḷi reference (use for Line 2):\n"
+            "- dependent origination / ignorance: paṭicca-samuppāda avijjā saṅkhārā viññāṇa taṇhā\n"
+            "- five aggregates / not-self: khandha rūpa vedanā saññā saṅkhārā viññāṇa anattā anicca\n"
+            "- Kālāma sutta / testing teachings: kālāmā anussava parampara itikirā takkahetu\n"
+            "- saw simile / patience under attack: kakacūpama khanti abyāpajjha mettā\n"
+            "- householder ethics / parents & family: sigālovāda mātāpitaro disa ācariya mitta\n"
+            "- four noble truths: cattāri ariyasaccāni dukkha samudaya nirodha magga\n"
+            "- noble eightfold path: sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta "
+            "sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi\n"
+            "- mindfulness / breath: satipaṭṭhāna kāyānupassanā ānāpānasati\n"
+            "- jhāna / absorption: jhāna samādhi vitakka vicāra pīti sukha ekaggatā\n"
+            "- nibbāna / liberation: nibbāna vimutti asaṅkhata vimokkha\n"
+            "- brahmavihārās / loving-kindness: mettā karuṇā muditā upekkhā brahmavihāra\n"
+            "- precepts / ethics: sīla pāṇātipātā musāvādā adinnādānā\n"
+            "- three marks of existence: tilakkhaṇa anicca dukkha anattā\n"
+            "- kamma / intention / rebirth: kamma cetanā vipāka punabbhava saṃsāra\n"
+            "- middle way: majjhimā paṭipadā atitta atilīna"
+        ),
     }
 
-    def __init__(self, version: str = "v2"):
+    def __init__(self, version: str = "v3"):
         self.version = version
 
     def get_prompt(self) -> str:
@@ -149,7 +178,7 @@ class SearchPipeline:
         )
         self.reranker = Reranker()
         self.sutta_relations = sutta_relations
-        self.expansion_prompt = expansion_prompt or ExpansionPrompt("v2")
+        self.expansion_prompt = expansion_prompt or ExpansionPrompt("v3")
         self.title_index = title_index
         self.expansion_model = expansion_model
         self.bm25_retriever = bm25_retriever

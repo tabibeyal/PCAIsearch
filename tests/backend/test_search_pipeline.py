@@ -160,10 +160,10 @@ def test_expansion_prompt_v2_forbids_sutta_numbers():
     assert "sutta number" in prompt.lower() or "sutta numbers" in prompt.lower()
 
 
-def test_search_pipeline_default_uses_v2():
+def test_search_pipeline_default_uses_v3():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
-    assert pipeline.expansion_prompt.version == "v2"
+    assert pipeline.expansion_prompt.version == "v3"
 
 
 def test_expansion_prompt_raises_on_unknown_version():
@@ -211,3 +211,16 @@ async def test_expand_query_no_dictionary_hit_unchanged():
         result = await pipeline.expand_query("what is a good recipe for bread")
 
     assert len(result) == 3  # original + 2 LLM lines, no dict hit
+
+
+def test_expansion_prompt_v3_contains_reference_block():
+    prompt = ExpansionPrompt("v3").get_prompt()
+    assert "paṭicca-samuppāda" in prompt
+    assert "kakacūpama" in prompt
+    assert "sigālovāda" in prompt
+
+
+def test_search_pipeline_uses_v3_by_default():
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline()
+    assert pipeline.expansion_prompt.version == "v3"
