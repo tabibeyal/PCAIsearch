@@ -27,9 +27,10 @@ Four sub-sessions of work:
 | Dense only | 3/5 | 1/5 | 0/5 | 4/15 (26%) |
 | BM25 + dense (no expansion) | 4/5 | 2/5 | 1/5 | 7/15 (46%) |
 | Expansion + BM25 (previous, dense-only bug) | 3/5 | 1/5 | 0/5 | 4/15 (26%) |
-| **Expansion + BM25 (fixed)** | **3/5** | **3/5** | **2/5** | **8/15 (53%)** |
+| Expansion + BM25 (fixed) | 3/5 | 3/5 | 2/5 | 8/15 (53%) |
+| **Expansion + BM25 + Pāḷi dict** | **3/5** | **3/5** | **2/5** | **8/15 (53%)** |
 
-Expansion + BM25 is now the recall ceiling at 53%.
+Expansion + BM25 + Pāḷi dictionary holds at 53% — no regression, no new hits from the dictionary in this run.
 
 ### What the fix gained
 
@@ -125,25 +126,17 @@ PYTHONPATH=. python3 -m pytest tests/backend/ -q --ignore=tests/backend/test_e2e
 
 ## Open issues / next steps
 
-### IN PROGRESS — Curated Pāḷi term dictionary
+### DONE — Curated Pāḷi term dictionary
 
-Spec: `docs/superpowers/specs/2026-05-16-pali-dictionary-design.md`
-Plan: `docs/superpowers/plans/2026-05-16-pali-dictionary.md`
+`backend/app/services/pali_dictionary.py` — 51 entries, keyword → Pāḷi cluster. `lookup(original_query)` called in `expand_query()` after LLM variants; appends deterministic 3rd variant when matched. 130 tests pass (10 new unit + 2 integration).
 
-Adds a `pali_dictionary.py` module (~55 entries, keyword → Pāḷi cluster) and calls `lookup(original_query)` in `expand_query()` to inject a deterministic 3rd variant after the 2 LLM variants. Targets MN 61 regression and all 5 hard misses. Benchmark validation is the final task.
+### MN 61 regression — unresolved
 
-**Remaining plan tasks:**
-- Task 1: Create `pali_dictionary.py` + unit tests (10 tests)
-- Task 2: Integrate `lookup()` into `expand_query()` + integration tests
-- Task 3: Run benchmark, verify recall ≥ 53%, update this file
+Dictionary has the right musāvādā entry, but the LLM still generates pāṇātipātā variants which drown out the correct BM25 signal. The dictionary hit alone is not strong enough to overcome this. Next option: fine-tune or swap the expansion model.
 
-### MN 61 regression
+### Remaining hard misses (5 cases — unchanged)
 
-BM25 finds heavy matches for "pāṇātipātā" (first precept) because the LLM generated the wrong precept text as a variant. The dictionary entry for musāvādā (lying precept) should pull BM25 toward the correct passage. Full resolution confirmed after benchmark run.
-
-### Remaining hard misses (5 cases)
-
-MN 21, SN 12.1, AN 3.65, DN 31, SN 22.59. Dictionary entries exist for all five. Benchmark will confirm which are newly retrieved. If any remain, next option is a better expansion model with stronger Pāḷi/Buddhist training.
+MN 21, SN 12.1, AN 3.65, DN 31, SN 22.59 still not retrieved. Dictionary entries exist for all five but didn't move the needle in this run — the LLM variants are still generating enough noise to suppress them. The ceiling appears to be the expansion model quality. Next option: a model with stronger Pāḷi/Buddhist training (e.g. a fine-tuned Mistral or dedicated Buddhist NLP model).
 
 ### Phase 2.5 — Public read-only API + explorer UI
 
