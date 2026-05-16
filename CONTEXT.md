@@ -10,8 +10,12 @@ Vocabulary used in the codebase. Update inline as terms are resolved.
 
 ## Retrieval pipeline (existing)
 
-- **Pipeline** — RAG orchestrator: expand → retrieve → rerank → synthesize (`backend/app/services/search_pipeline.py`).
+- **Pipeline** — RAG orchestrator: expand → retrieve (dense + BM25) → RRF fusion → rerank → synthesize (`backend/app/services/search_pipeline.py`). Recall@10: 93% on 15-query benchmark.
 - **Retriever** — Qdrant vector retrieval over a single `pali_canon` collection. Injectable seam (`backend/app/services/retriever.py`).
+- **BM25Retriever** — sparse keyword retrieval over English text. Fused with dense results via RRF (`backend/app/services/bm25_retriever.py`).
+- **ExpansionPrompt** — versioned LLM prompts for query expansion; currently v6. Outputs English vocab line + Pāḷi terms line. Pāḷi terms are used for retrieval only — not passed to the reranker (`backend/app/services/search_pipeline.py`).
+- **pali_dictionary** — keyword-matched lookup returning Pāḷi terms (`lookup`) and verbatim English passage hints (`lookup_english`). The English hints are appended as a 5th search variant and also used as the second reranking query (`backend/app/services/pali_dictionary.py`).
+- **Reranker** — cross-encoder (`ms-marco-MiniLM-L-6-v2`). `rerank_multi` scores each candidate against multiple queries and takes the max; currently called with `[original_query, english_hint]`. Pāḷi terms are excluded — the model is English-only (`backend/app/services/search_pipeline.py`).
 - **CitationOracle** — answers "does `[ID:Verse]` exist?" (`backend/app/services/citation_oracle.py`).
 - **SuttaRelations** — hand-curated doctrinal pairs + ±2 numeric adjacency within a nikāya. Surfaces a "see also" sutta list per query (`backend/app/services/sutta_relations.py`).
 - **SuttaTitleIndex** — BM25 over sutta titles + body verses 3–15. Boosts retrieval when the query matches a canonical title (`backend/app/services/sutta_title_index.py`).
