@@ -93,6 +93,26 @@ async def test_nikaya_filter_excludes_other_nikayas_from_final_results():
     assert not non_mn, f"Non-MN results leaked through: {non_mn}"
 
 
+@pytest.mark.asyncio
+async def test_bm25_runs_on_all_expanded_queries():
+    """BM25 must be called for every expanded query variant, not just the original."""
+    from unittest.mock import MagicMock
+    chunks = [{"id": "MN 10:1", "pali": "", "english": "foundations of mindfulness"}]
+    pipeline, _ = await _make_pipeline_with_client(chunks)
+
+    mock_bm25 = MagicMock()
+    mock_bm25.retrieve.return_value = []
+    pipeline.bm25_retriever = mock_bm25
+    pipeline.expand_query = AsyncMock(return_value=["original query", "satipatthana meditation"])
+
+    await pipeline.search("original query", top_k=5)
+
+    called_queries = [call.args[0] for call in mock_bm25.retrieve.call_args_list]
+    assert "satipatthana meditation" in called_queries, (
+        f"BM25 must be called with expanded variant; got calls: {called_queries}"
+    )
+
+
 def test_search_pipeline_constructor_accepts_bm25_retriever():
     verses = [{"id": "MN 1:1", "pali": "", "english": "test verse"}]
     bm25 = BM25Retriever(verses)

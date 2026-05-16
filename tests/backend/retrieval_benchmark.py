@@ -152,7 +152,7 @@ def _sutta_of(chunk_id: str) -> str:
     return chunk_id.rsplit(":", 1)[0].strip()
 
 
-async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25: bool = False) -> list[dict]:
+async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25: bool = False, no_rerank: bool = False) -> list[dict]:
     client = AsyncQdrantClient(url="http://localhost:6333")
     executor = ThreadPoolExecutor(max_workers=2)
 
@@ -161,6 +161,8 @@ async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25
         from backend.app.services.sutta_title_index import SuttaTitleIndex
         title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
         pipeline = SearchPipeline(title_index=title_index)
+        if no_rerank:
+            pipeline.reranker.rerank = lambda query, chunks: chunks
         async def retrieve(query):
             return await pipeline.search(query, top_k=top_k)
     elif with_bm25:
@@ -235,20 +237,24 @@ async def _main():
                         help="run vector + BM25 + RRF fusion (no API key needed)")
     parser.add_argument("--with-expansion", action="store_true",
                         help="run full pipeline with LLM expansion (requires NVIDIA_API_KEY)")
+    parser.add_argument("--no-rerank", action="store_true",
+                        help="skip CrossEncoder reranking (only meaningful with --with-expansion)")
     args = parser.parse_args()
 
     if args.with_expansion and not os.environ.get("NVIDIA_API_KEY"):
         print("ERROR: --with-expansion requires NVIDIA_API_KEY to be set.")
         return
 
-    if args.with_expansion:
+    if args.with_expansion and args.no_rerank:
+        mode = "with LLM expansion, no rerank"
+    elif args.with_expansion:
         mode = "with LLM expansion"
     elif args.with_bm25:
         mode = "vector + BM25 + RRF, no expansion"
     else:
         mode = "raw vector, no expansion"
 
-    results = await run_benchmark(top_k=args.k, with_expansion=args.with_expansion, with_bm25=args.with_bm25)
+    results = await run_benchmark(top_k=args.k, with_expansion=args.with_expansion, with_bm25=args.with_bm25, no_rerank=args.no_rerank)
     _print_report(results, top_k=args.k, mode=mode)
 
 

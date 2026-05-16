@@ -187,7 +187,13 @@ class SearchPipeline:
                     dense_deduped.append(result)
 
         if self.bm25_retriever:
-            bm25_results = self.bm25_retriever.retrieve(query, retrieval_k, nikayas)
+            seen_bm25: dict = {}
+            for q in queries:
+                for item in self.bm25_retriever.retrieve(q, retrieval_k, nikayas):
+                    item_id = item["id"]
+                    if item_id not in seen_bm25 or item["bm25_score"] > seen_bm25[item_id]["bm25_score"]:
+                        seen_bm25[item_id] = item
+            bm25_results = sorted(seen_bm25.values(), key=lambda x: x["bm25_score"], reverse=True)
             all_results = rrf_fuse(dense_deduped, bm25_results)
         else:
             all_results = dense_deduped
