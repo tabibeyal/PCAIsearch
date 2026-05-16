@@ -26,6 +26,18 @@ class ExpansionPrompt:
             "(3) do NOT output sutta names or sutta numbers. "
             "Output one string per line, no numbering, no explanation."
         ),
+        "v2": (
+            "You are a search query expander for a Pali Canon database. "
+            "Given a user query, output exactly 2 search strings on separate lines.\n"
+            "Line 1 — English passage vocabulary: concrete words likely to appear verbatim in a sutta "
+            "verse. Do NOT rephrase the question. Think: what exact words would a monk say in this passage?\n"
+            "Line 2 — Pali doctrinal term cluster: the canonical Pali terminology for the concept, "
+            "space-separated and transliterated (e.g. avijja sankharā viññāna paticca-samuppāda). "
+            "Proper names of communities or persons are allowed (e.g. kālāmā). "
+            "Do NOT include sutta numbers.\n"
+            "Output exactly two lines, no numbering, no explanation. "
+            "The two lines must be maximally distinct from each other and from the original query."
+        ),
     }
 
     def __init__(self, version: str = "v1"):
@@ -134,7 +146,7 @@ class SearchPipeline:
         )
         self.reranker = Reranker()
         self.sutta_relations = sutta_relations
-        self.expansion_prompt = expansion_prompt or ExpansionPrompt()
+        self.expansion_prompt = expansion_prompt or ExpansionPrompt("v2")
         self.title_index = title_index
         self.expansion_model = expansion_model
         self.bm25_retriever = bm25_retriever

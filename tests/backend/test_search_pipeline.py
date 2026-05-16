@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import AsyncMock, patch
-from backend.app.services.search_pipeline import SearchPipeline
+from backend.app.services.search_pipeline import SearchPipeline, ExpansionPrompt
 from backend.app.services.bm25_retriever import BM25Retriever
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
@@ -136,3 +136,31 @@ async def test_dense_results_use_rrf_fuse_multi_not_first_seen():
     call_arg = mock_multi.call_args[0][0]
     assert isinstance(call_arg, list), "rrf_fuse_multi must receive a list of lists"
     assert len(call_arg) == 2, f"Expected 2 per-query result lists, got {len(call_arg)}"
+
+
+def test_expansion_prompt_v2_exists():
+    prompt = ExpansionPrompt("v2").get_prompt()
+    assert isinstance(prompt, str)
+    assert len(prompt) > 50
+
+
+def test_expansion_prompt_v2_has_two_line_structure():
+    prompt = ExpansionPrompt("v2").get_prompt()
+    assert "Line 1" in prompt
+    assert "Line 2" in prompt
+
+
+def test_expansion_prompt_v2_mentions_pali_terms():
+    prompt = ExpansionPrompt("v2").get_prompt()
+    assert "Pali" in prompt or "Pāli" in prompt or "Pāḷi" in prompt
+
+
+def test_expansion_prompt_v2_forbids_sutta_numbers():
+    prompt = ExpansionPrompt("v2").get_prompt()
+    assert "sutta number" in prompt.lower() or "sutta numbers" in prompt.lower()
+
+
+def test_search_pipeline_default_uses_v2():
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline()
+    assert pipeline.expansion_prompt.version == "v2"
