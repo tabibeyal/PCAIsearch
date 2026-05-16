@@ -130,9 +130,45 @@ class ExpansionPrompt:
             "- kamma / intention / rebirth: intention action result rebirth wandering → kamma cetanā vipāka punabbhava saṃsāra\n"
             "- middle way: avoid extremes pleasure pain indulgence asceticism moderation → majjhimā paṭipadā atitta atilīna"
         ),
+        "v6": (
+            "You are a search query expander for a Pali Canon database. "
+            "Given a user query, output exactly 2 lines. "
+            "Do NOT write 'Line 1:' or 'Line 2:' or any label — output only the 2 lines of search terms.\n\n"
+            "Line 1: Concrete English words that would appear verbatim in the sutta passage. "
+            "IMPORTANT: if the topic matches a reference entry, use the English hint words from that entry for Line 1 — "
+            "even if they seem unrelated to the question surface. The hint words come from the actual sutta text.\n"
+            "Line 2: Canonical Pali terminology. Use the reference table below. Do NOT include sutta numbers.\n\n"
+            "Examples:\n"
+            "Query: what is the middle way\n"
+            "Output:\n"
+            "avoid extremes pleasure pain indulgence asceticism moderation\n"
+            "majjhimā paṭipadā atitta atilīna\n\n"
+            "Query: should a monk feel anger even if attacked with a saw\n"
+            "Output:\n"
+            "two-handed saw bandits cut limbs loving-kindness\n"
+            "kakacūpama khanti abyāpajjha mettā\n\n"
+            "Reference table (English passage hint → Pāḷi terms):\n"
+            "- dependent origination / ignorance: with ignorance as condition formations arise consciousness name-form → paṭicca-samuppāda avijjā saṅkhārā viññāṇa taṇhā\n"
+            "- five aggregates / not-self: form feeling perception formation consciousness impermanent not-self → khandha rūpa vedanā saññā saṅkhārā viññāṇa anattā anicca\n"
+            "- Kālāma sutta / testing teachings: tradition hearsay scripture reasoning teacher [these words appear in text as what NOT to rely on] → kālāmā anussava parampara itikirā takkahetu\n"
+            "- saw simile / patience under attack: two-handed saw bandits cut limbs loving-kindness → kakacūpama khanti abyāpajjha mettā\n"
+            "- truthfulness / lying / one precept Rahula: speak false untruth Rahula mirror reflect → musāvādā sacca sammā-vācā\n"
+            "- householder ethics / parents & family: six directions parents teacher friend servant ascetic → sigālovāda mātāpitaro disa ācariya mitta\n"
+            "- four noble truths: suffering origin cessation path → cattāri ariyasaccāni dukkha samudaya nirodha magga\n"
+            "- noble eightfold path: right view intention speech action livelihood effort mindfulness concentration → sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta "
+            "sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi\n"
+            "- mindfulness / breath: body feelings mind phenomena → satipaṭṭhāna kāyānupassanā ānāpānasati\n"
+            "- jhāna / absorption: first second third fourth seclusion rapture pleasure equanimity → jhāna samādhi vitakka vicāra pīti sukha ekaggatā\n"
+            "- nibbāna / liberation: unborn unconditioned deathless → nibbāna vimutti asaṅkhata vimokkha\n"
+            "- brahmavihārās / loving-kindness: loving-kindness compassion sympathetic joy equanimity → mettā karuṇā muditā upekkhā brahmavihāra\n"
+            "- precepts / ethics: abstain killing stealing lying intoxicants → sīla pāṇātipātā musāvādā adinnādānā\n"
+            "- three marks of existence: impermanent suffering not-self → tilakkhaṇa anicca dukkha anattā\n"
+            "- kamma / intention / rebirth: intention action result rebirth wandering → kamma cetanā vipāka punabbhava saṃsāra\n"
+            "- middle way: avoid extremes pleasure pain indulgence asceticism moderation → majjhimā paṭipadā atitta atilīna"
+        ),
     }
 
-    def __init__(self, version: str = "v5"):
+    def __init__(self, version: str = "v6"):
         self.version = version
 
     def get_prompt(self) -> str:
@@ -240,7 +276,7 @@ class SearchPipeline:
         )
         self.reranker = Reranker()
         self.sutta_relations = sutta_relations
-        self.expansion_prompt = expansion_prompt or ExpansionPrompt("v5")
+        self.expansion_prompt = expansion_prompt or ExpansionPrompt("v6")
         self.title_index = title_index
         self.expansion_model = expansion_model
         self.bm25_retriever = bm25_retriever
