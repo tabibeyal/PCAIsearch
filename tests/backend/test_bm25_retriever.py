@@ -77,3 +77,30 @@ def test_from_directory_raises_on_empty_dir(tmp_path):
 def test_empty_verses_raises_value_error():
     with pytest.raises(ValueError, match="requires at least one verse"):
         BM25Retriever([])
+
+
+SAMPLE_VERSES_WITH_NIKAYA = [
+    {"id": "DN 1:1", "nikaya": "DN", "pali": "evam me sutam", "english": "Thus have I heard"},
+    {"id": "MN 10:1", "nikaya": "MN", "pali": "sammaditthi", "english": "right view right intention"},
+    {"id": "SN 22.59:1", "nikaya": "SN", "pali": "rupam aniccam", "english": "form is impermanent"},
+    {"id": "AN 1.1:1", "nikaya": "AN", "pali": "cittam dantam", "english": "mind brings happiness"},
+]
+
+
+def test_nikaya_filter_restricts_to_requested_nikaya():
+    r = BM25Retriever(SAMPLE_VERSES_WITH_NIKAYA)
+    results = r.retrieve("right view", top_k=10, nikayas=["MN"])
+    assert results and all(v["nikaya"] == "MN" for v in results)
+
+
+def test_nikaya_filter_multiple_nikayas():
+    r = BM25Retriever(SAMPLE_VERSES_WITH_NIKAYA)
+    results = r.retrieve("right view impermanent", top_k=10, nikayas=["MN", "SN"])
+    assert {v["nikaya"] for v in results} <= {"MN", "SN"}
+
+
+def test_nikaya_filter_none_is_unfiltered():
+    r = BM25Retriever(SAMPLE_VERSES_WITH_NIKAYA)
+    unfiltered = r.retrieve("right view impermanent happiness", top_k=10)
+    with_none = r.retrieve("right view impermanent happiness", top_k=10, nikayas=None)
+    assert len(unfiltered) == len(with_none)

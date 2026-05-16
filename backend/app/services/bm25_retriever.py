@@ -1,7 +1,7 @@
 import json
 import re
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from rank_bm25 import BM25Okapi
 
@@ -22,14 +22,14 @@ class BM25Retriever:
         corpus = [_tokenize(v.get("english", "")) for v in verses]
         self._bm25 = BM25Okapi(corpus)
 
-    def retrieve(self, query: str, top_k: int) -> List[Dict[str, Any]]:
+    def retrieve(self, query: str, top_k: int, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         tokens = _tokenize(query)
         scores = self._bm25.get_scores(tokens)
-        ranked = sorted(
-            zip(self._verses, scores.tolist()),
-            key=lambda x: x[1],
-            reverse=True,
-        )
+        pairs = zip(self._verses, scores.tolist())
+        if nikayas:
+            allowed = set(nikayas)
+            pairs = ((v, s) for v, s in pairs if v.get("nikaya") in allowed)
+        ranked = sorted(pairs, key=lambda x: x[1], reverse=True)
         return [
             {**verse, "bm25_score": score}
             for verse, score in ranked[:top_k]

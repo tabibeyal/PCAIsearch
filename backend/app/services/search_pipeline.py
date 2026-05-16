@@ -187,8 +187,7 @@ class SearchPipeline:
                     dense_deduped.append(result)
 
         if self.bm25_retriever:
-            # TODO: BM25 does not yet apply the nikayas filter; add a nikayas param to BM25Retriever.retrieve() to match dense retrieval behaviour
-            bm25_results = self.bm25_retriever.retrieve(query, retrieval_k)
+            bm25_results = self.bm25_retriever.retrieve(query, retrieval_k, nikayas)
             all_results = rrf_fuse(dense_deduped, bm25_results)
         else:
             all_results = dense_deduped

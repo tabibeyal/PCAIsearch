@@ -76,6 +76,23 @@ async def test_search_with_bm25_surfaces_exact_match():
     assert "SN 56.11:1" in ids
 
 
+@pytest.mark.asyncio
+async def test_nikaya_filter_excludes_other_nikayas_from_final_results():
+    """nikayas=["MN"] must exclude non-MN verses even after BM25+RRF fusion."""
+    chunks = [
+        {"id": "MN 10:1", "nikaya": "MN", "pali": "citta", "english": "right mindfulness body"},
+        {"id": "MN 10:2", "nikaya": "MN", "pali": "vedana", "english": "right mindfulness feelings"},
+        {"id": "DN 1:1", "nikaya": "DN", "pali": "evam", "english": "right view thus heard"},
+        {"id": "SN 22.59:1", "nikaya": "SN", "pali": "rupam", "english": "right mindfulness impermanent form"},
+    ]
+    pipeline, _ = await _make_pipeline_with_client(chunks)
+    pipeline.bm25_retriever = BM25Retriever(chunks)
+
+    results = await pipeline.search("right mindfulness", top_k=5, nikayas=["MN"])
+    non_mn = [r for r in results if not r["id"].startswith("MN ")]
+    assert not non_mn, f"Non-MN results leaked through: {non_mn}"
+
+
 def test_search_pipeline_constructor_accepts_bm25_retriever():
     verses = [{"id": "MN 1:1", "pali": "", "english": "test verse"}]
     bm25 = BM25Retriever(verses)
