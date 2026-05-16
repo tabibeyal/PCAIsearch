@@ -152,7 +152,7 @@ def _sutta_of(chunk_id: str) -> str:
     return chunk_id.rsplit(":", 1)[0].strip()
 
 
-async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25: bool = False, no_rerank: bool = False) -> list[dict]:
+async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25: bool = False, no_rerank: bool = False, log_variants: bool = False) -> list[dict]:
     client = AsyncQdrantClient(url="http://localhost:6333")
     executor = ThreadPoolExecutor(max_workers=2)
 
@@ -163,8 +163,20 @@ async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25
         pipeline = SearchPipeline(title_index=title_index)
         if no_rerank:
             pipeline.reranker.rerank = lambda query, chunks: chunks
+
+        _variant_sink: list[list[str]] = [[]]
+        if log_variants:
+            _orig_expand = pipeline.expand_query
+            async def _expand_and_capture(query):
+                variants = await _orig_expand(query)
+                _variant_sink[0] = list(variants)
+                return variants
+            pipeline.expand_query = _expand_and_capture
+
         async def retrieve(query):
-            return await pipeline.search(query, top_k=top_k)
+            _variant_sink[0] = []
+            chunks = await pipeline.search(query, top_k=top_k)
+            return chunks, list(_variant_sink[0])
     elif with_bm25:
         from backend.app.services.bm25_retriever import BM25Retriever
         from backend.app.services.fusion import rrf_fuse
@@ -174,15 +186,15 @@ async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25
         async def retrieve(query):
             dense = await retriever.retrieve(query, retrieval_k)
             sparse = bm25_retriever.retrieve(query, retrieval_k)
-            return rrf_fuse(dense, sparse)[:top_k]
+            return rrf_fuse(dense, sparse)[:top_k], []
     else:
         retriever = Retriever(client, EmbeddingManager(), COLLECTION, executor)
         async def retrieve(query):
-            return await retriever.retrieve(query, top_k=top_k)
+            return await retriever.retrieve(query, top_k=top_k), []
 
     results = []
     for query, expected_suttas, difficulty, note in BENCHMARK_CASES:
-        chunks = await retrieve(query)
+        chunks, variants = await retrieve(query)
         retrieved_suttas = {_sutta_of(c["id"]) for c in chunks}
         hit = any(_matches(s, expected_suttas) for s in retrieved_suttas)
         best_score = chunks[0].get("score") or chunks[0].get("fusion_score") or 0.0 if chunks else 0.0
@@ -193,6 +205,7 @@ async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25
             "note": note,
             "hit": hit,
             "best_score": best_score,
+            "variants": variants,
         })
 
     executor.shutdown()
@@ -216,6 +229,9 @@ def _print_report(results: list[dict], top_k: int, mode: str = "raw vector, no e
             mark = "✓" if r["hit"] else "✗"
             q = r["query"][:W]
             print(f"  {q:<{W}} {r['expected']:<22} {r['difficulty']:<8} {mark}     {r['best_score']:.3f}")
+            if r.get("variants"):
+                for i, v in enumerate(r["variants"]):
+                    print(f"    variant {i}: {v}")
 
     print()
     total = len(results)
@@ -239,6 +255,8 @@ async def _main():
                         help="run full pipeline with LLM expansion (requires NVIDIA_API_KEY)")
     parser.add_argument("--no-rerank", action="store_true",
                         help="skip CrossEncoder reranking (only meaningful with --with-expansion)")
+    parser.add_argument("--log-variants", action="store_true",
+                        help="print generated query variants per case (only with --with-expansion)")
     args = parser.parse_args()
 
     if args.with_expansion and not os.environ.get("NVIDIA_API_KEY"):
@@ -254,7 +272,7 @@ async def _main():
     else:
         mode = "raw vector, no expansion"
 
-    results = await run_benchmark(top_k=args.k, with_expansion=args.with_expansion, with_bm25=args.with_bm25, no_rerank=args.no_rerank)
+    results = await run_benchmark(top_k=args.k, with_expansion=args.with_expansion, with_bm25=args.with_bm25, no_rerank=args.no_rerank, log_variants=args.log_variants)
     _print_report(results, top_k=args.k, mode=mode)
 
 
