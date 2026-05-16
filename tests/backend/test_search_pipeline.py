@@ -138,6 +138,55 @@ async def test_dense_results_use_rrf_fuse_multi_not_first_seen():
     assert len(call_arg) == 2, f"Expected 2 per-query result lists, got {len(call_arg)}"
 
 
+def test_reranker_multi_uses_max_score_across_queries():
+    """rerank_multi must return max score across all queries, not just the first."""
+    from unittest.mock import MagicMock, patch
+    import numpy as np
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline()
+
+    chunks = [
+        {"id": "A", "pali": "", "english": "one"},
+        {"id": "B", "pali": "", "english": "two"},
+    ]
+    call_count = [0]
+
+    def fake_predict(pairs):
+        call_count[0] += 1
+        if call_count[0] == 1:
+            return np.array([-10.0, 5.0])
+        return np.array([9.0, -10.0])
+
+    pipeline.reranker.model.predict = fake_predict
+
+    result = pipeline.reranker.rerank_multi(["q1", "q2"], chunks)
+    assert result[0]["id"] == "A", "A scores 9.0 on q2, should rank first"
+    assert result[0]["rerank_score"] == 9.0
+    assert result[1]["id"] == "B"
+    assert result[1]["rerank_score"] == 5.0
+
+
+@pytest.mark.asyncio
+async def test_search_passes_all_queries_to_reranker():
+    """search must call rerank_multi with all expanded variants."""
+    from unittest.mock import MagicMock
+    chunks = [{"id": "MN 61:36", "pali": "", "english": "deliberate lie bad deed"}]
+    pipeline, _ = await _make_pipeline_with_client(chunks)
+    pipeline.expand_query = AsyncMock(return_value=["original", "variant one", "variant two"])
+
+    captured = {}
+
+    def fake_rerank_multi(queries, chunk_list):
+        captured["queries"] = queries
+        return chunk_list
+
+    pipeline.reranker.rerank_multi = fake_rerank_multi
+
+    await pipeline.search("original", top_k=5)
+    assert len(captured["queries"]) == 3, f"Expected 3 queries, got {captured['queries']}"
+    assert "variant two" in captured["queries"]
+
+
 def test_expansion_prompt_v2_exists():
     prompt = ExpansionPrompt("v2").get_prompt()
     assert isinstance(prompt, str)

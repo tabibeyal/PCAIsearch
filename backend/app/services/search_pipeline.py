@@ -198,11 +198,19 @@ class Reranker:
         self.model = CrossEncoder(model_name)
 
     def rerank(self, query: str, chunks: List[dict]) -> List[dict]:
+        return self.rerank_multi([query], chunks)
+
+    def rerank_multi(self, queries: List[str], chunks: List[dict]) -> List[dict]:
         if not chunks:
             return []
-        pairs = [(query, f"{c.get('pali', '')} {c.get('english', '')}") for c in chunks]
-        scores = self.model.predict(pairs)
-        ranked = sorted(zip(chunks, scores.tolist()), key=lambda x: x[1], reverse=True)
+        best = [float("-inf")] * len(chunks)
+        texts = [f"{c.get('pali', '')} {c.get('english', '')}" for c in chunks]
+        for q in queries:
+            scores = self.model.predict([(q, t) for t in texts])
+            for i, s in enumerate(scores.tolist()):
+                if s > best[i]:
+                    best[i] = s
+        ranked = sorted(zip(chunks, best), key=lambda x: x[1], reverse=True)
         return [{**chunk, "rerank_score": score} for chunk, score in ranked]
 
 
@@ -338,7 +346,7 @@ class SearchPipeline:
         else:
             all_results = dense_fused
 
-        return self.reranker.rerank(query, all_results)[:top_k]
+        return self.reranker.rerank_multi(queries, all_results)[:top_k]
 
     def get_related_suttas(self, results: List[Dict[str, Any]], top_n: int = 5) -> List[str]:
         """
