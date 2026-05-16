@@ -28,9 +28,10 @@ Four sub-sessions of work:
 | BM25 + dense (no expansion) | 4/5 | 2/5 | 1/5 | 7/15 (46%) |
 | Expansion + BM25 (previous, dense-only bug) | 3/5 | 1/5 | 0/5 | 4/15 (26%) |
 | Expansion + BM25 (fixed) | 3/5 | 3/5 | 2/5 | 8/15 (53%) |
-| **Expansion + BM25 + Pāḷi dict** | **3/5** | **3/5** | **2/5** | **8/15 (53%)** |
+| Expansion + BM25 + Pāḷi dict | 3/5 | 3/5 | 2/5 | 8/15 (53%) |
+| **Expansion + BM25 + dict + v3 prompt** | **3/5** | **3/5** | **3/5** | **9/15 (60%)** |
 
-Expansion + BM25 + Pāḷi dictionary holds at 53% — no regression, no new hits from the dictionary in this run.
+v3 prompt (Pāḷi reference table in system prompt) pushed recall from 53% → 60%. New hit: DN 31 (parents/family — sigālovāda terms now correctly retrieved).
 
 ### What the fix gained
 
@@ -38,14 +39,13 @@ New hits: SN 45.2 (spiritual friend), SN 56.11 ×2 (middle way, deepest origin o
 
 One regression: MN 61 dropped out — the LLM generated the first precept text (pāṇātipātā) instead of the lying precept text, flooding BM25 with irrelevant matches.
 
-### Five persistent misses
+### Four persistent misses
 
-None reachable by tuning alone — absent from both dense and BM25 top 50:
-- **MN 21** — "should a monk feel anger if attacked with a saw" (saw simile; too idiomatic)
-- **SN 12.1** — "how does ignorance cause suffering step by step" (LLM generates garbled paṭicca-samuppāda terms)
-- **AN 3.65** — "how do you know whether a religious teaching is worth following" (LLM generates wrong Pāḷi cluster; should be kālāmā / anussava)
-- **DN 31** — "how should one treat parents family and friends" (garbled Pāḷi)
-- **SN 22.59** — "are the five aggregates permanent or do they lack a self" (dense cannot locate it)
+DN 31 resolved by v3 prompt. Four remain:
+- **MN 21** — "should a monk feel anger if attacked with a saw" (saw simile; kakacūpama in prompt but still not retrieved)
+- **SN 12.1** — "how does ignorance cause suffering step by step" (paṭicca-samuppāda in prompt but LLM still generates noisy variants)
+- **AN 3.65** — "how do you know whether a religious teaching is worth following" (kālāmā/anussava in prompt but still not retrieved)
+- **SN 22.59** — "are the five aggregates permanent or do they lack a self" (dense cannot locate it; khandha/anattā in prompt but no improvement)
 
 ### LLM expansion quality
 
