@@ -124,12 +124,11 @@ def test_search_pipeline_constructor_accepts_bm25_retriever():
 @pytest.mark.asyncio
 async def test_dense_results_use_rrf_fuse_multi_not_first_seen():
     """Pipeline must call rrf_fuse_multi on per-query dense results, not first-seen dedup."""
-    from unittest.mock import patch as _patch
     chunks = [{"id": "MN 10:1", "pali": "", "english": "mindfulness body"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.expand_query = AsyncMock(return_value=["query one", "query two"])
 
-    with _patch("backend.app.services.search_pipeline.rrf_fuse_multi") as mock_multi:
+    with patch("backend.app.services.search_pipeline.rrf_fuse_multi") as mock_multi:
         mock_multi.return_value = []
         await pipeline.search("mindfulness", top_k=5)
 
