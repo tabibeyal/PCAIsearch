@@ -159,3 +159,17 @@ def test_rrf_fuse_multi_empty_lists():
     assert rrf_fuse_multi([]) == []
     assert rrf_fuse_multi([[]]) == []
     assert rrf_fuse_multi([[], []]) == []
+
+
+def test_rrf_fuse_multi_first_occurrence_payload_wins():
+    """When the same ID appears in multiple lists, payload from first list is used."""
+    list1 = [{"id": "X", "english": "from list1"}]
+    list2 = [{"id": "X", "english": "from list2"}]
+    result = rrf_fuse_multi([list1, list2])
+    assert result[0]["english"] == "from list1"
+
+
+def test_rrf_fuse_multi_custom_k_changes_scores():
+    scores_k60 = {x["id"]: x["fusion_score"] for x in rrf_fuse_multi([LIST_A, LIST_B], k=60)}
+    scores_k1 = {x["id"]: x["fusion_score"] for x in rrf_fuse_multi([LIST_A, LIST_B], k=1)}
+    assert scores_k60 != scores_k1

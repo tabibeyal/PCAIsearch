@@ -35,7 +35,11 @@ def rrf_fuse_multi(
     lists: List[List[Dict[str, Any]]],
     k: int = 60,
 ) -> List[Dict[str, Any]]:
-    """Reciprocal Rank Fusion over N ranked result lists keyed by 'id'."""
+    """Reciprocal Rank Fusion over N ranked result lists keyed by 'id'.
+
+    When the same ID appears in multiple lists, the payload from its first
+    occurrence (across all lists in order) is used.
+    """
     scores: Dict[str, float] = {}
     sources: Dict[str, Dict[str, Any]] = {}
 
