@@ -183,6 +183,9 @@ async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25
         retriever = Retriever(client, EmbeddingManager(), COLLECTION, executor)
         bm25_retriever = BM25Retriever.from_directory(_DUMPS_DIR)
         retrieval_k = max(top_k * 3, 30)
+        # Single-query mode: no LLM expansion, one dense + one BM25 query fused.
+        # Recall numbers are not directly comparable to --with-expansion, which
+        # uses rrf_fuse_multi across all expanded query variants.
         async def retrieve(query):
             dense = await retriever.retrieve(query, retrieval_k)
             sparse = bm25_retriever.retrieve(query, retrieval_k)
