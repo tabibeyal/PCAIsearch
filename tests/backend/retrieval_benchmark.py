@@ -159,8 +159,10 @@ async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25
     if with_expansion:
         from backend.app.services.search_pipeline import SearchPipeline
         from backend.app.services.sutta_title_index import SuttaTitleIndex
+        from backend.app.services.bm25_retriever import BM25Retriever
         title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
-        pipeline = SearchPipeline(title_index=title_index)
+        bm25_retriever = BM25Retriever.from_directory(_DUMPS_DIR)
+        pipeline = SearchPipeline(title_index=title_index, bm25_retriever=bm25_retriever)
         if no_rerank:
             pipeline.reranker.rerank = lambda query, chunks: chunks
 
