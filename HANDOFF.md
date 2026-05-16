@@ -125,17 +125,25 @@ PYTHONPATH=. python3 -m pytest tests/backend/ -q --ignore=tests/backend/test_e2e
 
 ## Open issues / next steps
 
+### IN PROGRESS — Curated Pāḷi term dictionary
+
+Spec: `docs/superpowers/specs/2026-05-16-pali-dictionary-design.md`
+Plan: `docs/superpowers/plans/2026-05-16-pali-dictionary.md`
+
+Adds a `pali_dictionary.py` module (~55 entries, keyword → Pāḷi cluster) and calls `lookup(original_query)` in `expand_query()` to inject a deterministic 3rd variant after the 2 LLM variants. Targets MN 61 regression and all 5 hard misses. Benchmark validation is the final task.
+
+**Remaining plan tasks:**
+- Task 1: Create `pali_dictionary.py` + unit tests (10 tests)
+- Task 2: Integrate `lookup()` into `expand_query()` + integration tests
+- Task 3: Run benchmark, verify recall ≥ 53%, update this file
+
 ### MN 61 regression
 
-BM25 finds heavy matches for "pāṇātipātā" (first precept) because the LLM generated the wrong precept text as a variant. The original query ("what is the one precept you should never break") correctly retrieved MN 61 via dense at score 0.437 — but BM25 flooding from the wrong variant dropped it out. Approaches:
-- Constrain the LLM to generate vocabulary closer to the original query's topic
-- Reduce BM25 pool size relative to dense when expansion is active
+BM25 finds heavy matches for "pāṇātipātā" (first precept) because the LLM generated the wrong precept text as a variant. The dictionary entry for musāvādā (lying precept) should pull BM25 toward the correct passage. Full resolution confirmed after benchmark run.
 
 ### Remaining hard misses (5 cases)
 
-MN 21, SN 12.1, AN 3.65, DN 31, SN 22.59. The LLM cannot reliably generate the right Pāḷi for these. Candidate approaches:
-- **Curated Pāḷi term dictionary** — hand-map English doctrinal concepts to canonical Pāḷi clusters; inject as a deterministic third expansion variant. Would directly fix SN 12.1 (paṭicca-samuppāda) and AN 3.65 (kālāmā).
-- **Better base model for expansion** — Gemma generates hallucinated Pāḷi; a model with stronger Pāḷi/Buddhist training would help.
+MN 21, SN 12.1, AN 3.65, DN 31, SN 22.59. Dictionary entries exist for all five. Benchmark will confirm which are newly retrieved. If any remain, next option is a better expansion model with stronger Pāḷi/Buddhist training.
 
 ### Phase 2.5 — Public read-only API + explorer UI
 
@@ -166,4 +174,5 @@ Parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match `pli-tv-bu-vb-pj1` IDs — nee
 - **Light normalisation** — NFC + lower + strip punctuation + collapse whitespace + ṁ→ṃ
 - **Shingle** — k=7 consecutive normalised tokens; used to seed span detection
 - **retrieval_k** — internal candidate pool = `max(top_k * 3, 30)`; used for dense and BM25 per query
+- **PaliDictionary / lookup** — `pali_dictionary.py`; ~55 `DictionaryEntry` objects (label, keywords, pali); `lookup(query)` lowercases and keyword-matches, returns Pāḷi cluster string or `None`; called in `expand_query()` to append a deterministic 3rd variant
 - **expansion_model** — model for `expand_query`; separate from `llm_model` (synthesis)
