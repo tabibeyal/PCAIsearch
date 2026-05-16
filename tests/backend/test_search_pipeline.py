@@ -160,10 +160,10 @@ def test_expansion_prompt_v2_forbids_sutta_numbers():
     assert "sutta number" in prompt.lower() or "sutta numbers" in prompt.lower()
 
 
-def test_search_pipeline_default_uses_v3():
+def test_search_pipeline_default_uses_v4():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
-    assert pipeline.expansion_prompt.version == "v3"
+    assert pipeline.expansion_prompt.version == "v4"
 
 
 def test_expansion_prompt_raises_on_unknown_version():
@@ -220,7 +220,15 @@ def test_expansion_prompt_v3_contains_reference_block():
     assert "sigālovāda" in prompt
 
 
-def test_search_pipeline_uses_v3_by_default():
+def test_expansion_prompt_v4_contains_example_and_reference_block():
+    prompt = ExpansionPrompt("v4").get_prompt()
+    assert "avoid extremes" in prompt
+    assert "paṭicca-samuppāda" in prompt
+    assert "kakacūpama" in prompt
+    assert "No labels" in prompt or "no labels" in prompt.lower()
+
+
+def test_search_pipeline_uses_v4_by_default():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
-    assert pipeline.expansion_prompt.version == "v3"
+    assert pipeline.expansion_prompt.version == "v4"
