@@ -194,6 +194,28 @@ async def test_expand_query_appends_dictionary_hit():
 
 
 @pytest.mark.asyncio
+async def test_expand_query_strips_line_labels():
+    """expand_query must strip 'Line 1:' / 'Line 2:' prefixes the model may emit."""
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline()
+
+    async def fake_create(**kwargs):
+        from types import SimpleNamespace
+        msg = SimpleNamespace(content="Line 1: speak false untruth Rahula\nLine 2: musāvādā sacca")
+        choice = SimpleNamespace(message=msg)
+        return SimpleNamespace(choices=[choice])
+
+    pipeline.llm.chat.completions.create = fake_create
+
+    with patch("backend.app.services.search_pipeline.lookup", return_value=None):
+        result = await pipeline.expand_query("what is the one precept")
+
+    assert "speak false untruth Rahula" in result
+    assert "musāvādā sacca" in result
+    assert not any(v.startswith("Line") for v in result)
+
+
+@pytest.mark.asyncio
 async def test_expand_query_no_dictionary_hit_unchanged():
     """When lookup() returns None, expand_query returns the normal 3 variants."""
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):

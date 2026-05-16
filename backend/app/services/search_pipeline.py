@@ -138,11 +138,7 @@ class ExpansionPrompt:
             "IMPORTANT: if the topic matches a reference entry, use the English hint words from that entry for Line 1 — "
             "even if they seem unrelated to the question surface. The hint words come from the actual sutta text.\n"
             "Line 2: Canonical Pali terminology. Use the reference table below. Do NOT include sutta numbers.\n\n"
-            "Examples:\n"
-            "Query: what is the middle way\n"
-            "Output:\n"
-            "avoid extremes pleasure pain indulgence asceticism moderation\n"
-            "majjhimā paṭipadā atitta atilīna\n\n"
+            "Example:\n"
             "Query: should a monk feel anger even if attacked with a saw\n"
             "Output:\n"
             "two-handed saw bandits cut limbs loving-kindness\n"
@@ -190,6 +186,7 @@ def _extract_sutta_id(chunk_id: str) -> Optional[str]:
 
 
 _THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL | re.IGNORECASE)
+_LABEL_RE = re.compile(r"^(?:Line\s*\d+\s*[-:—]+\s*|Line\s*\d+:\s*)", re.IGNORECASE)
 
 
 def _strip_thinking(text: str) -> str:
@@ -295,7 +292,7 @@ class SearchPipeline:
             ],
         )
         raw = _strip_thinking(message.choices[0].message.content)
-        extras = [line.strip() for line in raw.splitlines() if line.strip()]
+        extras = [_LABEL_RE.sub("", line).strip() for line in raw.splitlines() if line.strip()]
         seen: set = {query}
         variants = [query]
         for v in extras:
