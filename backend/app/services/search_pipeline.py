@@ -346,13 +346,12 @@ class SearchPipeline:
         else:
             all_results = dense_fused
 
-        # Rerank against original + curated dictionary hints only — LLM variants
-        # are already used for retrieval; letting the cross-encoder score against
-        # them introduces noise and demotes correct results for well-behaved queries.
+        # Rerank against original + English passage hint only. The cross-encoder
+        # is trained on English text and doesn't understand Pāḷi — adding the pali_hit
+        # introduces noise. The english_hint (verbatim passage text) bridges vocabulary
+        # gaps the cross-encoder can actually exploit (e.g. MN 61: 'deliberate lie' ≠
+        # 'precept'). Pāḷi terms have already done their job during retrieval.
         rerank_queries: List[str] = [query]
-        pali_hit = lookup(query)
-        if pali_hit:
-            rerank_queries.append(pali_hit)
         english_hit_str = lookup_english(query)
         if english_hit_str:
             rerank_queries.append(english_hit_str)

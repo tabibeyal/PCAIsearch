@@ -188,8 +188,8 @@ async def test_search_reranks_with_original_plus_dict_hints():
         await pipeline.search("original", top_k=5)
 
     assert "original" in captured["queries"]
-    assert "musāvādā sacca" in captured["queries"]
     assert "not ashamed to tell a deliberate lie" in captured["queries"]
+    assert "musāvādā sacca" not in captured["queries"], "Pāḷi terms must not reach the reranker (cross-encoder is English-only)"
     assert "llm variant 1" not in captured["queries"], "LLM variants must not reach the reranker"
     assert "llm variant 2" not in captured["queries"]
 
