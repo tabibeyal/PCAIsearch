@@ -263,6 +263,9 @@ async def _main():
         print("ERROR: --with-expansion requires NVIDIA_API_KEY to be set.")
         return
 
+    if args.log_variants and not args.with_expansion:
+        print("WARNING: --log-variants has no effect without --with-expansion.")
+
     if args.with_expansion and args.no_rerank:
         mode = "with LLM expansion, no rerank"
     elif args.with_expansion:
