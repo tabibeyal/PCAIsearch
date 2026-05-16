@@ -185,11 +185,12 @@ async def test_expand_query_appends_dictionary_hit():
 
     pipeline.llm.chat.completions.create = fake_create
 
-    with patch("backend.app.services.search_pipeline.lookup", return_value="avijjā paṭicca-samuppāda") as mock_lookup:
+    with patch("backend.app.services.search_pipeline.lookup", return_value="avijjā paṭicca-samuppāda") as mock_lookup, \
+         patch("backend.app.services.search_pipeline.lookup_english", return_value=None):
         result = await pipeline.expand_query("how does ignorance cause suffering")
 
     mock_lookup.assert_called_once_with("how does ignorance cause suffering")
-    assert result[-1] == "avijjā paṭicca-samuppāda"
+    assert "avijjā paṭicca-samuppāda" in result
     assert len(result) == 4  # original + 2 LLM lines + 1 dict hit
 
 
@@ -207,7 +208,8 @@ async def test_expand_query_strips_line_labels():
 
     pipeline.llm.chat.completions.create = fake_create
 
-    with patch("backend.app.services.search_pipeline.lookup", return_value=None):
+    with patch("backend.app.services.search_pipeline.lookup", return_value=None), \
+         patch("backend.app.services.search_pipeline.lookup_english", return_value=None):
         result = await pipeline.expand_query("what is the one precept")
 
     assert "speak false untruth Rahula" in result
@@ -229,10 +231,34 @@ async def test_expand_query_no_dictionary_hit_unchanged():
 
     pipeline.llm.chat.completions.create = fake_create
 
-    with patch("backend.app.services.search_pipeline.lookup", return_value=None):
+    with patch("backend.app.services.search_pipeline.lookup", return_value=None), \
+         patch("backend.app.services.search_pipeline.lookup_english", return_value=None):
         result = await pipeline.expand_query("what is a good recipe for bread")
 
     assert len(result) == 3  # original + 2 LLM lines, no dict hit
+
+
+@pytest.mark.asyncio
+async def test_expand_query_appends_english_hint():
+    """When lookup_english() matches, expand_query appends the English hint after the Pāḷi hit."""
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline()
+
+    async def fake_create(**kwargs):
+        from types import SimpleNamespace
+        msg = SimpleNamespace(content="english vocab line\npali line from llm")
+        choice = SimpleNamespace(message=msg)
+        return SimpleNamespace(choices=[choice])
+
+    pipeline.llm.chat.completions.create = fake_create
+
+    with patch("backend.app.services.search_pipeline.lookup", return_value="musāvādā sacca"), \
+         patch("backend.app.services.search_pipeline.lookup_english", return_value="not ashamed to lie no evil deed") as mock_en:
+        result = await pipeline.expand_query("one precept never break")
+
+    mock_en.assert_called_once_with("one precept never break")
+    assert "not ashamed to lie no evil deed" in result
+    assert len(result) == 5  # original + 2 LLM lines + pali + english hint
 
 
 def test_expansion_prompt_v3_contains_reference_block():

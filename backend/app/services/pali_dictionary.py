@@ -7,6 +7,7 @@ class DictionaryEntry:
     label: str
     keywords: List[str]
     pali: str
+    english_hint: Optional[str] = None
 
 
 _ENTRIES: List[DictionaryEntry] = [
@@ -20,6 +21,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "deepest origin", "root cause of suffering", "fundamental cause",
         ],
         pali="paṭicca-samuppāda avijjā saṅkhārā viññāṇa nāmarūpa salāyatana phassa vedanā taṇhā upādāna bhava jāti jarāmaraṇa",
+        english_hint="with ignorance as condition volitional formations arise with formations as condition consciousness with consciousness name-and-form",
     ),
     DictionaryEntry(
         label="Kālāma Sutta / epistemology",
@@ -30,6 +32,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "how do you judge", "criteria for truth", "verify teaching",
         ],
         pali="kālāmā anussava parampara itikirā piṭakasampadā takkahetu nayahetu",
+        english_hint="do not go by oral tradition lineage of teaching hearsay collection of texts logic inferential reasoning acceptance of a view pondering teacher",
     ),
     DictionaryEntry(
         label="Four Noble Truths",
@@ -65,6 +68,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "are the aggregates",
         ],
         pali="khandha rūpa vedanā saññā saṅkhārā viññāṇa anicca dukkha anattā",
+        english_hint="form is not-self if form were self form would not lead to affliction feeling perception formations consciousness not-self",
     ),
     DictionaryEntry(
         label="Three Marks of Existence",
@@ -91,6 +95,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "honesty", "avoid lying", "speak truth",
         ],
         pali="musāvādā sacca ambalatthika-rāhulovāda sīla sammā-vācā",
+        english_hint="not ashamed to lie there is no evil deed they would not do Rahula mirror reflect before during after acting",
     ),
     DictionaryEntry(
         label="Precept of non-killing",
@@ -237,6 +242,17 @@ _ENTRIES: List[DictionaryEntry] = [
             "contemplation of death",
         ],
         pali="maraṇa jarā jāti maraṇānussati anicca",
+    ),
+    DictionaryEntry(
+        label="Buddha's hesitation to teach / decision to teach",
+        keywords=[
+            "after enlightenment", "decide to teach", "hesitation to teach",
+            "before deciding to teach", "consider after enlightenment",
+            "who would understand", "reluctant to teach", "brahma asked buddha",
+            "deep dhamma hard to teach",
+        ],
+        pali="nibbāna vimutti asaṅkhata gambhīra paṭicca-samuppāda",
+        english_hint="deep hard to see hard to realize peaceful subtle against the stream this generation delights in attachment Brahma Sahampati teach",
     ),
     DictionaryEntry(
         label="Nibbāna / liberation",
@@ -449,4 +465,12 @@ def lookup(query: str) -> Optional[str]:
     for entry in _ENTRIES:
         if any(kw in q for kw in entry.keywords):
             return entry.pali
+    return None
+
+
+def lookup_english(query: str) -> Optional[str]:
+    q = query.lower()
+    for entry in _ENTRIES:
+        if any(kw in q for kw in entry.keywords):
+            return entry.english_hint
     return None

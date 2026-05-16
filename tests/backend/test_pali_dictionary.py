@@ -1,4 +1,4 @@
-from backend.app.services.pali_dictionary import lookup
+from backend.app.services.pali_dictionary import lookup, lookup_english
 
 
 def test_lookup_dependent_origination():
@@ -65,3 +65,44 @@ def test_lookup_returns_string():
     result = lookup("four noble truths")
     assert isinstance(result, str)
     assert len(result) > 0
+
+
+def test_lookup_english_kalama_sutta():
+    result = lookup_english("how do you know whether a religious teaching is worth following")
+    assert result is not None
+    assert "oral tradition" in result
+    assert "hearsay" in result
+
+
+def test_lookup_english_five_aggregates():
+    result = lookup_english("are the five aggregates permanent or do they lack a self")
+    assert result is not None
+    assert "form is not-self" in result
+
+
+def test_lookup_english_lying_precept():
+    result = lookup_english("what is the one precept you should never break")
+    assert result is not None
+    assert "not ashamed to lie" in result
+
+
+def test_lookup_english_dependent_origination():
+    result = lookup_english("how does ignorance cause suffering step by step")
+    assert result is not None
+    assert "with ignorance as condition" in result
+
+
+def test_lookup_english_no_hint_returns_none():
+    result = lookup_english("four noble truths")
+    assert result is None
+
+
+def test_lookup_english_unknown_returns_none():
+    assert lookup_english("what is a good recipe for bread") is None
+
+
+def test_lookup_english_buddha_decision_to_teach():
+    result = lookup_english("what did the buddha consider after enlightenment before deciding to teach")
+    assert result is not None
+    assert "deep" in result
+    assert "Brahma" in result

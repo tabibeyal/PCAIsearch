@@ -12,7 +12,7 @@ from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.fusion import rrf_fuse, rrf_fuse_multi
-from backend.app.services.pali_dictionary import lookup
+from backend.app.services.pali_dictionary import lookup, lookup_english
 
 
 class ExpansionPrompt:
@@ -303,6 +303,9 @@ class SearchPipeline:
         pali_hit = lookup(query)
         if pali_hit:
             variants.append(pali_hit)
+        english_hit = lookup_english(query)
+        if english_hit and english_hit not in seen:
+            variants.append(english_hit)
         return variants
 
     async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
