@@ -1,97 +1,75 @@
-# Handoff — Session 2026-05-15 (Pāḷi parallel-passage detector)
+# Handoff — Session 2026-05-16 (BM25 hybrid retrieval)
 
 ## What happened this session
 
-Built the Phase 1 philological cross-referencing feature: an offline parallel-passage detector over the full Sutta corpus.
+Built the BM25 hybrid retrieval feature: a second retrieval path over all 116k English verses fused with dense vector results via Reciprocal Rank Fusion, fixing vocabulary-mismatch failures (easy-tier 0/5).
 
 **Commits this session:**
-- `729b55b` — `feat: add Pāḷi parallel-passage detector (Phase 1)`
-- `e351ded` — `docs: update README with parallel-passage detector`
-- `bc1865c` — `docs: add CLI quick-reference COMMANDS.md for parallels tool`
+- `f23a9e9` — `feat: add BM25Retriever for exact-match verse retrieval`
+- `be6101a` — `fix: guard against empty verses and missing english key in BM25Retriever`
+- `07e0462` — `feat: add rrf_fuse for Reciprocal Rank Fusion`
+- `39e6d03` — `fix: add None id guard in rrf_fuse and add score regression test`
+- `516a21a` — `feat: integrate BM25Retriever into SearchPipeline with RRF fusion`
+- `dd300eb` — `fix: add nikayas TODO, fix import placement, add constructor test`
+- `631ce29` — `feat: wire BM25Retriever into app startup`
 
 ---
 
 ## What was built
 
-### `analysis/parallels/` — new top-level package
+### New files
 
 | File | Purpose |
 |------|---------|
-| `normalise.py` | Light Pāḷi normalisation: NFC, lower-case, strip punctuation, collapse whitespace, ṁ→ṃ |
-| `tokenise.py` | Per-sutta tokenisation; returns `(tokens, offsets)` where each offset is `(verse_number, char_offset_in_raw_pali)` |
-| `schema.py` | `open_db()` + `create_tables()`; WAL mode, foreign keys on |
-| `detector.py` | k-shingle (default k=7) seed + maximal left/right extension; content-addressed span IDs (SHA-256 → 12 hex); `DETECTOR_VERSION = "v1-k7-light"` |
-| `reconstruct.py` | `reconstruct_raw(sutta_data, verse_number, char_offset, char_length)` → raw Pāḷi slice |
-| `queries.py` | `list_spans`, `show_span`, `spans_in_sutta`, `top_formulas`, `stats` |
-| `cli.py` | argparse wrapper; every command supports `--json` |
-| `__main__.py` | Entry point for `python3 -m analysis.parallels` |
-| `COMMANDS.md` | CLI quick-reference |
+| `backend/app/services/bm25_retriever.py` | `BM25Retriever` — in-memory BM25Okapi index over English verses; `retrieve(query, top_k)` returns dicts with `bm25_score`; `from_directory(dumps_dir)` loads via `SuttaParser` |
+| `backend/app/services/fusion.py` | `rrf_fuse(dense, sparse, k=60)` — pure Reciprocal Rank Fusion; dense payload wins for shared IDs; `None` ids skipped |
+| `tests/backend/test_bm25_retriever.py` | 10 unit tests |
+| `tests/backend/test_fusion.py` | 11 unit tests including concrete score regression |
+| `docs/superpowers/specs/2026-05-15-bm25-hybrid-design.md` | Design spec |
+| `docs/superpowers/plans/2026-05-15-bm25-hybrid.md` | Implementation plan |
 
-### `tests/analysis/` — 38 new tests
+### Modified files
 
-`test_normalise.py`, `test_tokenise.py`, `test_detector.py`, `test_reconstruct.py`, `test_queries.py`
-
-### `docs/adr/`
-
-- `0001-philological-cross-referencing-as-goal.md` — philological features first; corpus expansion (Vinaya, Aṭṭhakathā) is downstream
-- `0002-parallel-passage-design.md` — span node, per-sutta tokenisation, light normalisation only
-
-### `CONTEXT.md`
-
-Domain vocabulary: corpus phases, retrieval pipeline terms, philological cross-referencing terms (span, occurrence, shingle, detector, light normalisation).
+| File | Change |
+|------|--------|
+| `backend/app/services/search_pipeline.py` | `SearchPipeline` accepts `bm25_retriever: Optional[BM25Retriever] = None`; `search()` runs BM25 retrieve + `rrf_fuse` when present, falls back to dense-only |
+| `backend/app/main.py` | `lifespan` builds `BM25Retriever.from_directory(_DUMPS_DIR)` and injects into `SearchPipeline` |
+| `tests/backend/test_search_pipeline.py` | Added integration test + constructor test; 4 tests total |
 
 ---
 
-## Full-corpus build results
+## New search flow
 
 ```
-Suttas:      4,691
-Spans:       31,711
-Occurrences: 153,119
-Artifact:    data/parallels.sqlite (18 MB, gitignored)
-Build time:  ~20 seconds
-Version:     v1-k7-light
+query
+  └─► expand_query → [q1, q2, q3]
+        ├─► dense retrieve (Qdrant) × 3 queries  ─┐
+        └─► BM25 retrieve (rank_bm25) × 1 query  ─┤
+                                                   ▼
+                                            rrf_fuse(dense_deduped, bm25_results)
+                                                   ▼
+                                            CrossEncoder rerank
+                                                   ▼
+                                            top_k results
 ```
 
-Notable formulas found:
-- `vivicceva kāmehi…paṭhamaṃ jhānaṃ upasampajja` — 93 occurrences (1st jhāna formula)
-- `khīṇā jāti vusitaṃ brahmacariyaṃ…` — 188 occurrences (knowledge-of-destruction)
-- `yena bhagavā tenupasaṅkami…` — 340 occurrences (visitor-approaches formula)
+BM25 runs once against the original query (not the expanded variants). Dense dedup happens before fusion.
 
 ---
 
-## SQLite schema
+## Test suite
 
-```sql
-span(id TEXT PK, normalised_pali TEXT, token_count INT, occurrence_count INT, detector_version TEXT)
-occurrence(id INT PK, span_id TEXT FK, sutta_id TEXT, verse_number INT, char_offset INT, char_length INT)
-```
-
-`span.id` = first 12 hex chars of SHA-256 of `normalised_pali`. Content-addressed: same formula gets the same ID across corpus rebuilds.
-
----
-
-## CLI (package installed)
+**95 passed**, 21 new tests. 6 pre-existing errors in `test_api.py` (missing `NVIDIA_API_KEY` in test env — unchanged).
 
 ```bash
-python3 -m analysis.parallels build
-python3 -m analysis.parallels top-formulas --limit 20
-python3 -m analysis.parallels spans-in-sutta MN36
-python3 -m analysis.parallels show-span <span_id>
-python3 -m analysis.parallels stats
+PYTHONPATH=. python3 -m pytest tests/backend/ -q --ignore=tests/backend/test_e2e_pipeline.py
 ```
-
-See `analysis/parallels/COMMANDS.md` for full reference.
 
 ---
 
-## Design decisions (locked)
+## Known gap / TODOd in code
 
-All three are ADR'd. Changing any requires rebuilding the artifact and updating downstream consumers.
-
-1. **Span node** (not verse-pair, not sutta-pair) — exact recurring text as first-class entity; verse/sutta views are trivial `GROUP BY`s over it.
-2. **Per-sutta tokenisation** — Bilara segments are fine-grained; long formulas (jhāna, paticcasamuppāda) span multiple segments; per-verse tokenisation would fragment them.
-3. **Light normalisation only** — catches exact oral-tradition repetition without importing morphological analyser error rate; heavier fuzzy matching is a future "Pass 2" edge type.
+**BM25 does not apply the `nikayas` filter.** `BM25Retriever.retrieve()` has no `nikayas` parameter — if a caller restricts to `nikayas=["MN"]`, dense results are filtered but BM25 results are not. This is TODOd in `search_pipeline.py:190`. Fix: add `nikayas: Optional[List[str]] = None` to `BM25Retriever.retrieve()` and filter the pre-built verse list.
 
 ---
 
@@ -99,27 +77,29 @@ All three are ADR'd. Changing any requires rebuilding the artifact and updating 
 
 ### Phase 1.5 — Pāḷi word clusters
 
-Inverted index: doctrinal term → all occurrences. Fits same `analysis/` directory and SQLite file (new tables). Can reuse the normalised token stream already produced by the detector.
-
-### Phase 2 — Vinaya ingestion (re-planned)
-
-Deferred. When scheduled: re-plan from scratch under the philological lens (Brahmali footnotes as structural signal). Existing parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match Vinaya IDs like `pli-tv-bu-vb-pj1` — needs extension.
+Inverted index: doctrinal term → all occurrences. Fits `analysis/` + same SQLite file (new tables). Reuses normalised token stream from the parallel-passage detector.
 
 ### Phase 2.5 — Public read-only API + explorer UI
 
-`/parallels` route in frontend backed by 4–5 read-only endpoints over `data/parallels.sqlite`. Schema already shaped for this; ~20 LOC HTTP layer.
+`/parallels` route backed by 4–5 read-only endpoints over `data/parallels.sqlite`. Schema already shaped for this; ~20 LOC HTTP layer.
 
-### Full-corpus BM25 hybrid (retrieval, from previous session)
+### Phase 2 — Vinaya ingestion (deferred)
 
-Add sparse BM25 pass over all 134k verses, RRF-fuse with dense results before reranking. Most direct fix for vocabulary-mismatch failures.
+Parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match `pli-tv-bu-vb-pj1` IDs — needs extension before Vinaya can be ingested.
+
+### BM25 nikayas filter
+
+See TODOd gap above. Small, self-contained fix.
 
 ---
 
 ## Architecture vocabulary (cumulative)
 
 - **Pipeline** — RAG orchestrator: expand → retrieve → rerank → synthesize (`SearchPipeline`)
-- **Retriever** — vector retrieval against Qdrant; injectable seam (`Retriever`)
-- **Reranker** — CrossEncoder (`ms-marco-MiniLM-L-6-v2`) reranks expanded candidate pool
+- **Retriever** — dense vector retrieval against Qdrant; injectable seam (`Retriever`)
+- **BM25Retriever** — in-memory BM25 over English verses; loaded from `data/dumps/` at startup; injected into `SearchPipeline`
+- **rrf_fuse** — Reciprocal Rank Fusion of dense + BM25 results; pure function in `fusion.py`; `k=60` default
+- **Reranker** — CrossEncoder (`ms-marco-MiniLM-L-6-v2`) reranks fused candidate pool
 - **SuttaTitleIndex** — BM25 over sutta titles + body verses 3–15; `get_title_text()` returns v3 for SN/AN chapter-header suttas
 - **ExpansionPrompt** — versioned prompt class; injectable in `SearchPipeline`; currently v1 only
 - **Guardrail** — post-generation citation verifier/redactor (`CitationGuardrail`)
@@ -130,5 +110,5 @@ Add sparse BM25 pass over all 134k verses, RRF-fuse with dense results before re
 - **Detector** — offline batch tool producing `data/parallels.sqlite`; versioned (`v1-k7-light`)
 - **Light normalisation** — NFC + lower + strip punctuation + collapse whitespace + ṁ→ṃ
 - **Shingle** — k=7 consecutive normalised tokens; used to seed span detection
-- **retrieval_k** — internal candidate pool = `max(top_k * 3, 30)`
+- **retrieval_k** — internal candidate pool = `max(top_k * 3, 30)`; used for both dense and BM25 retrieval
 - **expansion_model** — model for `expand_query`; separate from `llm_model` (synthesis)
