@@ -1,74 +1,99 @@
-# Handoff — Session 2026-05-16 (BM25 nikayas filter)
+# Handoff — Session 2026-05-16 (retrieval benchmark investigation)
 
 ## What happened this session
 
-Two features landed across two sub-sessions:
+Three sub-sessions of work:
 
-**Sub-session 1 — BM25 hybrid retrieval (previous):** Built the BM25 hybrid retrieval feature: a second retrieval path over all 116k English verses fused with dense vector results via Reciprocal Rank Fusion, fixing vocabulary-mismatch failures (easy-tier 0/5).
+**Sub-session 1 — BM25 hybrid retrieval (previous):** Built BM25 retrieval fused with dense results via RRF.
 
-**Sub-session 2 — nikayas filter parity (this session):** Fixed the known gap where `BM25Retriever.retrieve()` ignored the `nikayas` restriction, allowing non-matching verses to leak through RRF fusion into filtered searches.
+**Sub-session 2 — nikayas filter parity:** Fixed `BM25Retriever.retrieve()` ignoring the `nikayas` restriction.
 
-**Commits this session (sub-session 1):**
-- `f23a9e9` — `feat: add BM25Retriever for exact-match verse retrieval`
-- `be6101a` — `fix: guard against empty verses and missing english key in BM25Retriever`
-- `07e0462` — `feat: add rrf_fuse for Reciprocal Rank Fusion`
-- `39e6d03` — `fix: add None id guard in rrf_fuse and add score regression test`
-- `516a21a` — `feat: integrate BM25Retriever into SearchPipeline with RRF fusion`
-- `dd300eb` — `fix: add nikayas TODO, fix import placement, add constructor test`
-- `631ce29` — `feat: wire BM25Retriever into app startup`
-
-**Commits this session (sub-session 2):**
-- `7aee672` — `fix: apply nikayas filter to BM25Retriever to match dense retrieval`
+**Sub-session 3 — benchmark investigation (this session):**
+- Loosened the benchmark gold standard to accept multiple valid suttas per query (many doctrinal topics live in several suttas simultaneously).
+- Diagnosed why the expansion pipeline underperforms BM25+dense.
+- Fixed BM25 to run on all expanded query variants (not just original).
+- Measured all pipeline modes end-to-end.
 
 ---
 
-## What was built
+## Recall@10 scoreboard
 
-### New files
+| Mode | Hard | Medium | Easy | Total |
+|------|------|--------|------|-------|
+| Dense only | 3/5 | 1/5 | 0/5 | 4/15 (26%) |
+| **BM25 + dense** | **4/5** | **2/5** | **1/5** | **7/15 (46%)** |
+| Expansion + rerank | 3/5 | 1/5 | 0/5 | 4/15 (26%) |
+| Expansion + no rerank | 3/5 | 1/5 | 0/5 | 4/15 (26%) |
+
+BM25+dense (no expansion) is the current recall ceiling.
+
+### Why expansion hurts recall
+
+Expansion generates 3 query variants → 3 × 30 = 90 dense candidates before dedup. BM25 contributes ~30 candidates. Dense dominates the RRF pool 3:1. BM25 hits that rank well (e.g. SN 45.2 at BM25 rank 1) get buried by dense cluster accumulation.
+
+The reranker (CrossEncoder) has **zero effect** on recall@10 — it reorders within the pool but doesn't recover missed items.
+
+### Three queries both retrievers miss entirely (top 50)
+
+These cannot be fixed by fusion tuning:
+- **MN 21** — "should a monk feel anger if attacked with a saw" (saw simile)
+- **SN 12.1** — "how does ignorance cause suffering step by step"
+- **AN 3.65** — "how do you know whether a religious teaching is worth following" (Kālāma)
+
+They need either better embeddings or a domain-specific term index (Pāḷi doctrinal cluster lookup).
+
+---
+
+## Commits this session
+
+- `7aee672` — `fix: apply nikayas filter to BM25Retriever to match dense retrieval`
+- `90498e1` — `test: loosen benchmark gold standard to accept multiple valid suttas`
+- `8bf88e2` — `feat: run BM25 on all expanded query variants, add --no-rerank benchmark flag`
+
+---
+
+## What was built (cumulative)
+
+### Files
 
 | File | Purpose |
 |------|---------|
-| `backend/app/services/bm25_retriever.py` | `BM25Retriever` — in-memory BM25Okapi index over English verses; `retrieve(query, top_k, nikayas=None)` returns dicts with `bm25_score`; `from_directory(dumps_dir)` loads via `SuttaParser` |
-| `backend/app/services/fusion.py` | `rrf_fuse(dense, sparse, k=60)` — pure Reciprocal Rank Fusion; dense payload wins for shared IDs; `None` ids skipped |
-| `tests/backend/test_bm25_retriever.py` | 13 unit tests (10 original + 3 nikaya filter tests) |
-| `tests/backend/test_fusion.py` | 11 unit tests including concrete score regression |
-| `docs/superpowers/specs/2026-05-15-bm25-hybrid-design.md` | Design spec |
-| `docs/superpowers/plans/2026-05-15-bm25-hybrid.md` | Implementation plan |
+| `backend/app/services/bm25_retriever.py` | `BM25Retriever` — BM25Okapi over English verses; `retrieve(query, top_k, nikayas=None)`; `from_directory(dumps_dir)` |
+| `backend/app/services/fusion.py` | `rrf_fuse(dense, sparse, k=60)` — Reciprocal Rank Fusion |
+| `tests/backend/test_bm25_retriever.py` | 13 unit tests |
+| `tests/backend/test_fusion.py` | 11 unit tests |
+| `tests/backend/retrieval_benchmark.py` | Recall@10 benchmark; `--with-bm25`, `--with-expansion`, `--no-rerank`, `--k` flags |
 
 ### Modified files
 
 | File | Change |
 |------|--------|
-| `backend/app/services/search_pipeline.py` | `SearchPipeline` accepts `bm25_retriever: Optional[BM25Retriever] = None`; `search()` runs BM25 retrieve + `rrf_fuse` when present, passing `nikayas` through to both retrievers |
-| `backend/app/main.py` | `lifespan` builds `BM25Retriever.from_directory(_DUMPS_DIR)` and injects into `SearchPipeline` |
-| `tests/backend/test_search_pipeline.py` | 5 tests total; includes end-to-end nikaya filter regression test |
+| `backend/app/services/search_pipeline.py` | BM25 injected + fused; nikayas passed through; BM25 now runs on all expanded variants (best score per verse kept) |
+| `backend/app/main.py` | Builds `BM25Retriever` at startup and injects into `SearchPipeline` |
+| `tests/backend/test_search_pipeline.py` | 6 tests total including nikaya filter E2E and BM25-on-variants test |
 
 ---
 
-## Search flow
+## Search flow (current)
 
 ```
 query
   └─► expand_query → [q1, q2, q3]
         ├─► dense retrieve (Qdrant, nikayas filter) × 3 queries  ─┐
-        └─► BM25 retrieve (rank_bm25, nikayas filter) × 1 query  ─┤
-                                                                   ▼
-                                                    rrf_fuse(dense_deduped, bm25_results)
+        └─► BM25 retrieve (nikayas filter) × 3 queries            ─┤
+            (best bm25_score per verse kept across variants)       ▼
+                                                    rrf_fuse(dense_deduped, bm25_merged)
                                                                    ▼
                                                     CrossEncoder rerank
                                                                    ▼
                                                     top_k results
 ```
 
-BM25 runs once against the original query (not expanded variants). Both retrievers apply the nikaya filter before returning results. Dense dedup happens before fusion.
-
-**Nikaya filter design decision:** BM25 filters post-scoring (full-corpus IDF preserved), consistent with how Qdrant's embedding space is corpus-wide. The filter is applied inside `BM25Retriever.retrieve()` — same call-site shape as `Retriever.retrieve()`.
-
 ---
 
 ## Test suite
 
-**99 passed**, 25 new tests total across both sub-sessions. 6 pre-existing errors in `test_api.py` (missing `NVIDIA_API_KEY` in test env — unchanged).
+**100 passed**, 6 pre-existing errors in `test_api.py` (missing `NVIDIA_API_KEY` in test env — unchanged).
 
 ```bash
 PYTHONPATH=. python3 -m pytest tests/backend/ -q --ignore=tests/backend/test_e2e_pipeline.py
@@ -78,13 +103,19 @@ PYTHONPATH=. python3 -m pytest tests/backend/ -q --ignore=tests/backend/test_e2e
 
 ## Open issues / next steps
 
-### Phase 1.5 — Pāḷi word clusters
+### Retrieval ceiling — the 3 hard misses
 
-Inverted index: doctrinal term → all occurrences. Fits `analysis/` + same SQLite file (new tables). Reuses normalised token stream from the parallel-passage detector.
+MN 21, SN 12.1, AN 3.65 are absent from both dense and BM25 top 50. Candidate approaches:
+- **Pāḷi doctrinal term clusters** (Phase 1.5) — inverted index of key terms (e.g. "kālāma", "dependent origination") → sutta occurrences. Would directly fix the Kālāma and dependent-origination cases.
+- **Better expansion prompting** — steer the LLM to generate Pāḷi transliteration or canonical term variants.
+
+### Expansion pipeline recall gap
+
+Expansion + rerank = 26% vs BM25+dense = 46%. Expansion is designed for answer quality, not recall — but the gap is large enough to investigate. Next lever: log what query variants the LLM generates for the failing cases and evaluate whether they are steering retrieval correctly.
 
 ### Phase 2.5 — Public read-only API + explorer UI
 
-`/parallels` route backed by 4–5 read-only endpoints over `data/parallels.sqlite`. Schema already shaped for this; ~20 LOC HTTP layer.
+`/parallels` route backed by 4–5 read-only endpoints over `data/parallels.sqlite`. Schema already shaped; ~20 LOC HTTP layer.
 
 ### Phase 2 — Vinaya ingestion (deferred)
 
@@ -96,9 +127,9 @@ Parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match `pli-tv-bu-vb-pj1` IDs — nee
 
 - **Pipeline** — RAG orchestrator: expand → retrieve → rerank → synthesize (`SearchPipeline`)
 - **Retriever** — dense vector retrieval against Qdrant; injectable seam (`Retriever`)
-- **BM25Retriever** — in-memory BM25 over English verses; loaded from `data/dumps/` at startup; injected into `SearchPipeline`; accepts optional `nikayas` filter (post-score, full-corpus IDF)
+- **BM25Retriever** — in-memory BM25 over English verses; loaded from `data/dumps/` at startup; injected into `SearchPipeline`; accepts optional `nikayas` filter (post-score, full-corpus IDF); runs on all expanded query variants
 - **rrf_fuse** — Reciprocal Rank Fusion of dense + BM25 results; pure function in `fusion.py`; `k=60` default
-- **Reranker** — CrossEncoder (`ms-marco-MiniLM-L-6-v2`) reranks fused candidate pool
+- **Reranker** — CrossEncoder (`ms-marco-MiniLM-L-6-v2`) reranks fused candidate pool; has zero effect on recall@10 (reorders, doesn't recover)
 - **SuttaTitleIndex** — BM25 over sutta titles + body verses 3–15; `get_title_text()` returns v3 for SN/AN chapter-header suttas
 - **ExpansionPrompt** — versioned prompt class; injectable in `SearchPipeline`; currently v1 only
 - **Guardrail** — post-generation citation verifier/redactor (`CitationGuardrail`)
@@ -109,5 +140,5 @@ Parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match `pli-tv-bu-vb-pj1` IDs — nee
 - **Detector** — offline batch tool producing `data/parallels.sqlite`; versioned (`v1-k7-light`)
 - **Light normalisation** — NFC + lower + strip punctuation + collapse whitespace + ṁ→ṃ
 - **Shingle** — k=7 consecutive normalised tokens; used to seed span detection
-- **retrieval_k** — internal candidate pool = `max(top_k * 3, 30)`; used for both dense and BM25 retrieval
+- **retrieval_k** — internal candidate pool = `max(top_k * 3, 30)`; used for dense and BM25 per query
 - **expansion_model** — model for `expand_query`; separate from `llm_model` (synthesis)
