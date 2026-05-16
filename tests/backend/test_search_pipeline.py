@@ -167,12 +167,13 @@ def test_reranker_multi_uses_max_score_across_queries():
 
 
 @pytest.mark.asyncio
-async def test_search_passes_all_queries_to_reranker():
-    """search must call rerank_multi with all expanded variants."""
-    from unittest.mock import MagicMock
+async def test_search_reranks_with_original_plus_dict_hints():
+    """search must call rerank_multi with the original query and curated
+    dictionary hints only — NOT the LLM-expanded variants."""
     chunks = [{"id": "MN 61:36", "pali": "", "english": "deliberate lie bad deed"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
-    pipeline.expand_query = AsyncMock(return_value=["original", "variant one", "variant two"])
+    pipeline.expand_query = AsyncMock(return_value=["original", "llm variant 1", "llm variant 2",
+                                                    "pali terms from dict", "english hint from dict"])
 
     captured = {}
 
@@ -182,9 +183,15 @@ async def test_search_passes_all_queries_to_reranker():
 
     pipeline.reranker.rerank_multi = fake_rerank_multi
 
-    await pipeline.search("original", top_k=5)
-    assert len(captured["queries"]) == 3, f"Expected 3 queries, got {captured['queries']}"
-    assert "variant two" in captured["queries"]
+    with patch("backend.app.services.search_pipeline.lookup", return_value="musāvādā sacca"), \
+         patch("backend.app.services.search_pipeline.lookup_english", return_value="not ashamed to tell a deliberate lie"):
+        await pipeline.search("original", top_k=5)
+
+    assert "original" in captured["queries"]
+    assert "musāvādā sacca" in captured["queries"]
+    assert "not ashamed to tell a deliberate lie" in captured["queries"]
+    assert "llm variant 1" not in captured["queries"], "LLM variants must not reach the reranker"
+    assert "llm variant 2" not in captured["queries"]
 
 
 def test_expansion_prompt_v2_exists():

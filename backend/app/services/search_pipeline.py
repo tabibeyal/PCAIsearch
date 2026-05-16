@@ -346,7 +346,17 @@ class SearchPipeline:
         else:
             all_results = dense_fused
 
-        return self.reranker.rerank_multi(queries, all_results)[:top_k]
+        # Rerank against original + curated dictionary hints only — LLM variants
+        # are already used for retrieval; letting the cross-encoder score against
+        # them introduces noise and demotes correct results for well-behaved queries.
+        rerank_queries: List[str] = [query]
+        pali_hit = lookup(query)
+        if pali_hit:
+            rerank_queries.append(pali_hit)
+        english_hit_str = lookup_english(query)
+        if english_hit_str:
+            rerank_queries.append(english_hit_str)
+        return self.reranker.rerank_multi(rerank_queries, all_results)[:top_k]
 
     def get_related_suttas(self, results: List[Dict[str, Any]], top_n: int = 5) -> List[str]:
         """
