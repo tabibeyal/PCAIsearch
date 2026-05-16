@@ -99,9 +99,40 @@ class ExpansionPrompt:
             "- kamma / intention / rebirth: kamma cetanā vipāka punabbhava saṃsāra\n"
             "- middle way: majjhimā paṭipadā atitta atilīna"
         ),
+        "v5": (
+            "You are a search query expander for a Pali Canon database. "
+            "Given a user query, output exactly 2 lines. "
+            "No labels, no headings, no numbering, no explanation — output only the 2 lines.\n\n"
+            "Line 1: Concrete English words that would appear verbatim in the sutta passage. "
+            "Not a rephrasing of the question — think what exact words a monk would say.\n"
+            "Line 2: Canonical Pali terminology for the concept, space-separated. "
+            "Use the reference table below. Do NOT include sutta numbers.\n\n"
+            "Example:\n"
+            "Query: what is the middle way\n"
+            "Output:\n"
+            "avoid extremes pleasure pain indulgence asceticism moderation\n"
+            "majjhimā paṭipadā atitta atilīna\n\n"
+            "Pāḷi reference (English passage hints → Pāḷi terms):\n"
+            "- dependent origination / ignorance: with ignorance as condition formations arise consciousness → paṭicca-samuppāda avijjā saṅkhārā viññāṇa taṇhā\n"
+            "- five aggregates / not-self: form impermanent suffering not-self clinging → khandha rūpa vedanā saññā saṅkhārā viññāṇa anattā anicca\n"
+            "- Kālāma sutta / testing teachings: tradition hearsay scripture reasoning teacher → kālāmā anussava parampara itikirā takkahetu\n"
+            "- saw simile / patience under attack: two-handled saw bandits limb loving-kindness → kakacūpama khanti abyāpajjha mettā\n"
+            "- householder ethics / parents & family: six directions parents teacher friend servant ascetic → sigālovāda mātāpitaro disa ācariya mitta\n"
+            "- four noble truths: suffering origin cessation path → cattāri ariyasaccāni dukkha samudaya nirodha magga\n"
+            "- noble eightfold path: right view intention speech action livelihood effort mindfulness concentration → sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta "
+            "sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi\n"
+            "- mindfulness / breath: body feelings mind phenomena → satipaṭṭhāna kāyānupassanā ānāpānasati\n"
+            "- jhāna / absorption: first second third fourth seclusion rapture pleasure equanimity → jhāna samādhi vitakka vicāra pīti sukha ekaggatā\n"
+            "- nibbāna / liberation: unborn unconditioned deathless → nibbāna vimutti asaṅkhata vimokkha\n"
+            "- brahmavihārās / loving-kindness: loving-kindness compassion sympathetic joy equanimity → mettā karuṇā muditā upekkhā brahmavihāra\n"
+            "- precepts / ethics: abstain killing stealing lying intoxicants → sīla pāṇātipātā musāvādā adinnādānā\n"
+            "- three marks of existence: impermanent suffering not-self → tilakkhaṇa anicca dukkha anattā\n"
+            "- kamma / intention / rebirth: intention action result rebirth wandering → kamma cetanā vipāka punabbhava saṃsāra\n"
+            "- middle way: avoid extremes pleasure pain indulgence asceticism moderation → majjhimā paṭipadā atitta atilīna"
+        ),
     }
 
-    def __init__(self, version: str = "v4"):
+    def __init__(self, version: str = "v5"):
         self.version = version
 
     def get_prompt(self) -> str:
@@ -209,7 +240,7 @@ class SearchPipeline:
         )
         self.reranker = Reranker()
         self.sutta_relations = sutta_relations
-        self.expansion_prompt = expansion_prompt or ExpansionPrompt("v4")
+        self.expansion_prompt = expansion_prompt or ExpansionPrompt("v5")
         self.title_index = title_index
         self.expansion_model = expansion_model
         self.bm25_retriever = bm25_retriever

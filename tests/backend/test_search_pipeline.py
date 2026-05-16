@@ -160,10 +160,10 @@ def test_expansion_prompt_v2_forbids_sutta_numbers():
     assert "sutta number" in prompt.lower() or "sutta numbers" in prompt.lower()
 
 
-def test_search_pipeline_default_uses_v4():
+def test_search_pipeline_default_uses_v5():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
-    assert pipeline.expansion_prompt.version == "v4"
+    assert pipeline.expansion_prompt.version == "v5"
 
 
 def test_expansion_prompt_raises_on_unknown_version():
@@ -228,7 +228,16 @@ def test_expansion_prompt_v4_contains_example_and_reference_block():
     assert "No labels" in prompt or "no labels" in prompt.lower()
 
 
-def test_search_pipeline_uses_v4_by_default():
+def test_expansion_prompt_v5_contains_english_passage_hints():
+    prompt = ExpansionPrompt("v5").get_prompt()
+    assert "with ignorance as condition" in prompt
+    assert "tradition hearsay scripture" in prompt
+    assert "two-handled saw bandits" in prompt
+    assert "six directions parents" in prompt
+    assert "form impermanent suffering not-self" in prompt
+
+
+def test_search_pipeline_uses_v5_by_default():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
-    assert pipeline.expansion_prompt.version == "v4"
+    assert pipeline.expansion_prompt.version == "v5"
