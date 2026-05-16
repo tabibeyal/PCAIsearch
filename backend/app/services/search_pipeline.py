@@ -12,6 +12,7 @@ from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.fusion import rrf_fuse, rrf_fuse_multi
+from backend.app.services.pali_dictionary import lookup
 
 
 class ExpansionPrompt:
@@ -174,7 +175,11 @@ class SearchPipeline:
             if v not in seen:
                 seen.add(v)
                 variants.append(v)
-        return variants[:3]
+        variants = variants[:3]
+        pali_hit = lookup(query)
+        if pali_hit:
+            variants.append(pali_hit)
+        return variants
 
     async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         queries = await self.expand_query(query)

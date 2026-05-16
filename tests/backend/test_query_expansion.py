@@ -63,9 +63,10 @@ async def test_synthesize_uses_llm_model_not_expansion_model(pipeline):
 
 @pytest.mark.asyncio
 async def test_expand_query_parses_llm_lines_as_variants(pipeline):
-    # Original query + 2 variants = 3 total (capped at 3)
+    # Original query + 2 variants = 3 total (capped at 3), no dictionary hit
     _mock_llm(pipeline, "sati awareness\nright mindfulness eightfold path\nkāyagatāsati body mindfulness")
-    variants = await pipeline.expand_query("mindfulness")
+    with patch("backend.app.services.search_pipeline.lookup", return_value=None):
+        variants = await pipeline.expand_query("mindfulness")
     assert len(variants) == 3
     assert any("sati" in v for v in variants)
     assert any("eightfold" in v for v in variants)
@@ -88,9 +89,11 @@ async def test_expand_query_returns_at_least_two_variants(pipeline):
 
 @pytest.mark.asyncio
 async def test_expand_query_strictly_limits_to_three_variants(pipeline):
+    # LLM variants are capped at 3 (original + 2); dictionary hit may add a 4th
     _mock_llm(pipeline, "v1\nv2\nv3\nv4\nv5")
-    variants = await pipeline.expand_query("mindfulness")
-    assert len(variants) <= 3, "Query expansion must be capped at 3 variants"
+    with patch("backend.app.services.search_pipeline.lookup", return_value=None):
+        variants = await pipeline.expand_query("mindfulness")
+    assert len(variants) <= 3, "Query expansion must be capped at 3 variants (LLM only)"
 
 
 @pytest.fixture

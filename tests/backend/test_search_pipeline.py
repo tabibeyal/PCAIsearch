@@ -169,3 +169,45 @@ def test_search_pipeline_default_uses_v2():
 def test_expansion_prompt_raises_on_unknown_version():
     with pytest.raises(ValueError, match="Unknown expansion prompt version"):
         ExpansionPrompt("v99").get_prompt()
+
+
+@pytest.mark.asyncio
+async def test_expand_query_appends_dictionary_hit():
+    """When lookup() matches, expand_query returns 3 variants with the Pāḷi string last."""
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline()
+
+    async def fake_create(**kwargs):
+        from types import SimpleNamespace
+        msg = SimpleNamespace(content="english vocab line\npali line from llm")
+        choice = SimpleNamespace(message=msg)
+        return SimpleNamespace(choices=[choice])
+
+    pipeline.llm.chat.completions.create = fake_create
+
+    with patch("backend.app.services.search_pipeline.lookup", return_value="avijjā paṭicca-samuppāda") as mock_lookup:
+        result = await pipeline.expand_query("how does ignorance cause suffering")
+
+    mock_lookup.assert_called_once_with("how does ignorance cause suffering")
+    assert result[-1] == "avijjā paṭicca-samuppāda"
+    assert len(result) == 4  # original + 2 LLM lines + 1 dict hit
+
+
+@pytest.mark.asyncio
+async def test_expand_query_no_dictionary_hit_unchanged():
+    """When lookup() returns None, expand_query returns the normal 3 variants."""
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline()
+
+    async def fake_create(**kwargs):
+        from types import SimpleNamespace
+        msg = SimpleNamespace(content="english vocab line\npali line from llm")
+        choice = SimpleNamespace(message=msg)
+        return SimpleNamespace(choices=[choice])
+
+    pipeline.llm.chat.completions.create = fake_create
+
+    with patch("backend.app.services.search_pipeline.lookup", return_value=None):
+        result = await pipeline.expand_query("what is a good recipe for bread")
+
+    assert len(result) == 3  # original + 2 LLM lines, no dict hit
