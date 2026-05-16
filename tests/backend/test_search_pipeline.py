@@ -164,3 +164,8 @@ def test_search_pipeline_default_uses_v2():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
     assert pipeline.expansion_prompt.version == "v2"
+
+
+def test_expansion_prompt_raises_on_unknown_version():
+    with pytest.raises(ValueError, match="Unknown expansion prompt version"):
+        ExpansionPrompt("v99").get_prompt()

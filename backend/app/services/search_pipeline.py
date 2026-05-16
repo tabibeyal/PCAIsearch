@@ -40,12 +40,14 @@ class ExpansionPrompt:
         ),
     }
 
-    def __init__(self, version: str = "v1"):
+    def __init__(self, version: str = "v2"):
         self.version = version
 
     def get_prompt(self) -> str:
         """Get the prompt for the selected version."""
-        return self.VERSIONS.get(self.version, self.VERSIONS["v1"])
+        if self.version not in self.VERSIONS:
+            raise ValueError(f"Unknown expansion prompt version: {self.version!r}. Available: {list(self.VERSIONS)}")
+        return self.VERSIONS[self.version]
 
     @classmethod
     def list_versions(cls) -> list[str]:
