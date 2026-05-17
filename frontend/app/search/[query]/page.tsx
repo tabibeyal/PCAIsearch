@@ -3,6 +3,7 @@ import { searchVerses } from '@/lib/api';
 import { SynthesisLoader } from '@/components/deep-dive/SynthesisLoader';
 import { SearchResultsView } from '@/components/search/SearchResultsView';
 import { NikayaFilter } from '@/components/search/NikayaFilter';
+import { NavSearchBox } from '@/components/search/NavSearchBox';
 
 function LoadingState() {
   return (
@@ -52,25 +53,34 @@ async function SearchPage({
     : [];
 
   const tabClass = (active: boolean) =>
-    `px-4 py-2 rounded-full text-sm font-medium transition-colors ${active ? 'bg-blue-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`;
+    `px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${active ? 'bg-[#4a3728] text-white' : 'text-[#9c8c7a] hover:bg-[#ede8df]'}`;
 
   return (
     <main className="h-screen w-full">
       <div className="flex flex-col h-full">
-        <nav className="p-3 sm:p-4 bg-white border-b sticky top-0 z-10">
-          <div className="flex items-center gap-2 sm:gap-4 flex-wrap">
-            <a href="/" className="px-3 sm:px-4 py-2 rounded-full text-sm font-medium text-gray-600 hover:bg-gray-100 transition-colors whitespace-nowrap">
-              ← New Search
+        <nav className="bg-[#faf9f7] border-b border-[#e8e4dc] sticky top-0 z-10">
+          {/* Row 1: brand + search */}
+          <div className="flex items-center gap-3 px-3 sm:px-4 pt-3 pb-2">
+            <a href="/" className="text-sm text-[#9c8c7a] hover:text-[#6b4e35] whitespace-nowrap transition-colors">
+              Ask the Pali Canon
             </a>
-            <div className="flex gap-2 sm:gap-4">
-              <a href={`/search/${encodedQuery}?view=synthesis${nikayas.map(n => `&nikayas=${n}`).join('')}`} className={tabClass(view === 'synthesis')}>
-                AI Synthesis
-              </a>
-              <a href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`} className={tabClass(view === 'results')}>
-                All Verses
-              </a>
-            </div>
-            <div className="hidden sm:block w-px h-6 bg-gray-200" />
+            <NavSearchBox initialQuery={query} />
+          </div>
+          {/* Row 2: tabs + filter */}
+          <div className="flex items-center gap-2 px-3 sm:px-4 pb-3 flex-wrap">
+            <a
+              href={`/search/${encodedQuery}?view=synthesis${nikayas.map(n => `&nikayas=${n}`).join('')}`}
+              className={tabClass(view === 'synthesis')}
+            >
+              AI Answer
+            </a>
+            <a
+              href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`}
+              className={tabClass(view === 'results')}
+            >
+              Passages
+            </a>
+            <div className="hidden sm:block w-px h-5 bg-[#e8e4dc]" />
             <NikayaFilter encodedQuery={encodedQuery} view={view} selected={nikayas} />
           </div>
         </nav>
