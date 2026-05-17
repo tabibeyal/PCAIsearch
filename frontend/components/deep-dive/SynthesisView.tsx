@@ -97,7 +97,7 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
         </div>
 
         <div
-          className="text-[15px] leading-[1.85] text-[#2c1f14]"
+          className="text-[15px] leading-[1.85] text-[#1a1a1a]"
           style={{ fontFamily: 'Georgia, serif' }}
         >
           {renderText(answer)}
