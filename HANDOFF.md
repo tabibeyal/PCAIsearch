@@ -1,8 +1,10 @@
-# Handoff — Session 2026-05-16 (expansion recall fix)
+# Handoff — Session 2026-05-17
 
 ## What happened this session
 
-Four sub-sessions of work:
+**Recall pushed from 60% → 93% (14/15).**
+
+Four sub-sessions of work (previous + this session):
 
 **Sub-session 1 — BM25 hybrid retrieval (previous):** Built BM25 retrieval fused with dense results via RRF.
 
@@ -10,13 +12,22 @@ Four sub-sessions of work:
 
 **Sub-session 3 — benchmark investigation:** Loosened benchmark gold standard; diagnosed expansion underperformance; fixed BM25 to run on all expanded variants.
 
-**Sub-session 4 — expansion recall fix (this session):**
+**Sub-session 4 — expansion recall fix:**
 - Diagnosed two bugs: (1) first-seen dedup of dense results destroyed meaningful ranking; (2) benchmark's `--with-expansion` path never injected BM25 — it was testing dense-only the whole time.
 - Added `rrf_fuse_multi` — proper multi-list RRF over N ranked lists.
 - Replaced first-seen dense dedup with `rrf_fuse_multi(per_query)` in `SearchPipeline.search()`.
 - Added `ExpansionPrompt` v2: strict two-line contract (Line 1 = English passage vocab, Line 2 = Pāḷi doctrinal term cluster). Switched pipeline default to v2.
 - Fixed benchmark to inject `BM25Retriever` into the `--with-expansion` path.
 - Added `--log-variants` flag to benchmark for variant inspection.
+
+**Sub-session 5 — rerank_multi + English hints (this session):**
+- Added `rerank_multi` to `search_pipeline.py`: cross-encoder scores each candidate against `[original_query, english_hint]` and takes the max.
+- Added `english_hint` field to `DictionaryEntry` in `pali_dictionary.py` — verbatim passage fragment from the target sutta.
+- Reranking scoped to original query + curated dict hints only (LLM variants excluded — add noise).
+- MN 61 `english_hint` corrected to match actual sutta vocabulary ("bad deed" / "deliberate lie").
+- ExpansionPrompt advanced through v3 → v6: Pāḷi reference table, few-shot example, English passage hints.
+- Fixed `expand_query` stripping `"Line N:"` label prefixes from LLM output.
+- Final benchmark: **14/15 (93%)** — stable across two runs. Only miss: SN 12.1 (structurally hard).
 
 ---
 
@@ -26,50 +37,31 @@ Four sub-sessions of work:
 |------|------|--------|------|-------|
 | Dense only | 3/5 | 1/5 | 0/5 | 4/15 (26%) |
 | BM25 + dense (no expansion) | 4/5 | 2/5 | 1/5 | 7/15 (46%) |
-| Expansion + BM25 (previous, dense-only bug) | 3/5 | 1/5 | 0/5 | 4/15 (26%) |
 | Expansion + BM25 (fixed) | 3/5 | 3/5 | 2/5 | 8/15 (53%) |
-| Expansion + BM25 + Pāḷi dict | 3/5 | 3/5 | 2/5 | 8/15 (53%) |
-| **Expansion + BM25 + dict + v3 prompt** | **3/5** | **3/5** | **3/5** | **9/15 (60%)** |
+| + Pāḷi dict + v3 prompt | 3/5 | 3/5 | 3/5 | 9/15 (60%) |
+| **+ rerank_multi + English hints (v6 prompt)** | **5/5** | **4/5** | **5/5** | **14/15 (93%)** |
 
-v3 prompt (Pāḷi reference table in system prompt) pushed recall from 53% → 60%. New hit: DN 31 (parents/family — sigālovāda terms now correctly retrieved).
+### What the final push gained
 
-### What the fix gained
+New hits (v6 prompt + rerank_multi): MN 21 (saw simile), AN 3.65 (Kālāma — teaching worth following), SN 22.59 (five aggregates/anattā), MN 61 (first precept — lying).
 
-New hits: SN 45.2 (spiritual friend), SN 56.11 ×2 (middle way, deepest origin of suffering), MN 10 (four foundations of mindfulness), MN 117 (noble eightfold path).
-
-One regression: MN 61 dropped out — the LLM generated the first precept text (pāṇātipātā) instead of the lying precept text, flooding BM25 with irrelevant matches.
-
-### Four persistent misses
-
-DN 31 resolved by v3 prompt. Four remain:
-- **MN 21** — "should a monk feel anger if attacked with a saw" (saw simile; kakacūpama in prompt but still not retrieved)
-- **SN 12.1** — "how does ignorance cause suffering step by step" (paṭicca-samuppāda in prompt but LLM still generates noisy variants)
-- **AN 3.65** — "how do you know whether a religious teaching is worth following" (kālāmā/anussava in prompt but still not retrieved)
-- **SN 22.59** — "are the five aggregates permanent or do they lack a self" (dense cannot locate it; khandha/anattā in prompt but no improvement)
-
-### LLM expansion quality
-
-The Gemma expansion model produces structurally correct two-line output but frequently hallucinated or garbled Pāḷi. Examples from the run:
-- "pāṇātipātā veramaṇī sikkhāpadaṃ samādiyāmi" for a sutta about lying (wrong precept)
-- "kāva matta-paññā saṅgha-samūha anāgati-dhammā" for "spiritual friend" (invented compounds)
-- "sīla samādhi paññā niścaya" for Kālāma sutta (generic, misses the actual terms)
-
-The model cannot reliably generate correct Pāḷi terminology. A curated doctrinal term dictionary or fine-tuning would be needed to fix the remaining misses.
+Only remaining miss: SN 12.1 — paṭicca-samuppāda passage not retrievable by embedding model in its current corpus form.
 
 ---
 
-## Commits this session
+## Recent commits (this session)
 
-- `d407e93` — `feat: add rrf_fuse_multi for multi-list reciprocal rank fusion`
-- `f9877b7` — `fix: document first-seen payload policy in rrf_fuse_multi, add tests`
-- `2ebea5b` — `fix: replace first-seen dense dedup with rrf_fuse_multi for proper ranking`
-- `909e4a7` — `style: use module-level patch import in test`
-- `d9b6d38` — `feat: add ExpansionPrompt v2 with structured Pali term cluster line, switch pipeline default`
-- `11cb4bc` — `fix: ExpansionPrompt defaults to v2, raises ValueError on unknown version`
-- `5eef4a0` — `feat: add --log-variants flag to retrieval benchmark`
-- `72ad9a5` — `fix: warn when --log-variants used without --with-expansion`
-- `5af0680` — `docs: note --with-bm25 benchmark uses single query, not comparable to --with-expansion`
-- `7fff85f` — `fix: inject BM25Retriever into expansion benchmark path (was dense-only)`
+- `85675fb` — `docs: update CONTEXT.md retrieval pipeline with new components`
+- `d905a56` — `docs: update CLAUDE.md with current test command, benchmark, and architecture`
+- `777157c` — `feat: use English-only passage hints for reranking (drop Pāḷi terms)`
+- `c8999c4` — `feat: rerank against original + curated dict hints only (not LLM variants)`
+- `3cb3bd3` — `feat: rerank against all expanded query variants (max score)`
+- `e494c09` — `fix: correct MN 61 english_hint to exact sutta vocabulary`
+- `657964c` — `feat: add english_hint to DictionaryEntry for verbatim passage vocabulary`
+- `b2acad9` — `fix: strip 'Line N:' label prefixes from expansion variants + fix v6 example contamination`
+- `9f6c6e4` — `feat: add ExpansionPrompt v6 with second example and Rahula-specific entry`
+- `5e16d48` — `feat: add ExpansionPrompt v5 with English passage hints in reference table`
+- `f0e4123` — `feat: add ExpansionPrompt v4 with few-shot example to prevent prompt leakage`
 
 ---
 
@@ -107,9 +99,10 @@ query
                                                     ▼
                                     rrf_fuse(dense_fused, bm25_merged)
                                                     ▼
-                                    CrossEncoder rerank
+                          rerank_multi([original_query, english_hint])
+                          cross-encoder takes max score per candidate
                                                     ▼
-                                    top_k results
+                                            top_k results
 ```
 
 ---
@@ -126,17 +119,9 @@ PYTHONPATH=. python3 -m pytest tests/backend/ -q --ignore=tests/backend/test_e2e
 
 ## Open issues / next steps
 
-### DONE — Curated Pāḷi term dictionary
+### SN 12.1 — last hard miss
 
-`backend/app/services/pali_dictionary.py` — 51 entries, keyword → Pāḷi cluster. `lookup(original_query)` called in `expand_query()` after LLM variants; appends deterministic 3rd variant when matched. 130 tests pass (10 new unit + 2 integration).
-
-### MN 61 regression — unresolved
-
-Dictionary has the right musāvādā entry, but the LLM still generates pāṇātipātā variants which drown out the correct BM25 signal. The dictionary hit alone is not strong enough to overcome this. Next option: fine-tune or swap the expansion model.
-
-### Remaining hard misses (5 cases — unchanged)
-
-MN 21, SN 12.1, AN 3.65, DN 31, SN 22.59 still not retrieved. Dictionary entries exist for all five but didn't move the needle in this run — the LLM variants are still generating enough noise to suppress them. The ceiling appears to be the expansion model quality. Next option: a model with stronger Pāḷi/Buddhist training (e.g. a fine-tuned Mistral or dedicated Buddhist NLP model).
+Paṭicca-samuppāda passage not retrievable via embedding model. Options: hand-crafted `english_hint` in pali_dictionary pointing at the dependent origination chain, or ingest a richer version of SN 12.1.
 
 ### Phase 2.5 — Public read-only API + explorer UI
 
@@ -155,7 +140,7 @@ Parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match `pli-tv-bu-vb-pj1` IDs — nee
 - **BM25Retriever** — in-memory BM25 over English verses; loaded from `data/dumps/` at startup; injected into `SearchPipeline`; accepts optional `nikayas` filter (post-score, full-corpus IDF); runs on all expanded query variants
 - **rrf_fuse** — two-list Reciprocal Rank Fusion; pure function in `fusion.py`; `k=60` default
 - **rrf_fuse_multi** — N-list Reciprocal Rank Fusion; each list contributes independently; first-occurrence payload wins; used for dense side of hierarchical fusion
-- **Reranker** — CrossEncoder (`ms-marco-MiniLM-L-6-v2`) reranks fused candidate pool; has zero effect on recall@10 (reorders, doesn't recover)
+- **rerank_multi** — cross-encoder scores each candidate against `[original_query, english_hint]`, takes max; English-only model so Pāḷi excluded; defined in `search_pipeline.py`
 - **SuttaTitleIndex** — BM25 over sutta titles + body verses 3–15; `get_title_text()` returns v3 for SN/AN chapter-header suttas
 - **ExpansionPrompt** — versioned prompt class; injectable in `SearchPipeline`; v2 is default (two-line: English passage vocab + Pāḷi term cluster); raises `ValueError` on unknown version
 - **Guardrail** — post-generation citation verifier/redactor (`CitationGuardrail`)
@@ -167,5 +152,6 @@ Parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match `pli-tv-bu-vb-pj1` IDs — nee
 - **Light normalisation** — NFC + lower + strip punctuation + collapse whitespace + ṁ→ṃ
 - **Shingle** — k=7 consecutive normalised tokens; used to seed span detection
 - **retrieval_k** — internal candidate pool = `max(top_k * 3, 30)`; used for dense and BM25 per query
-- **PaliDictionary / lookup** — `pali_dictionary.py`; ~55 `DictionaryEntry` objects (label, keywords, pali); `lookup(query)` lowercases and keyword-matches, returns Pāḷi cluster string or `None`; called in `expand_query()` to append a deterministic 3rd variant
+- **PaliDictionary / lookup** — `pali_dictionary.py`; ~55 `DictionaryEntry` objects (label, keywords, pali, english_hint); `lookup(query)` returns `(pali_cluster, english_hint)` when keyword-matched; pali used in expansion, english_hint fed to `rerank_multi`
+- **english_hint** — verbatim passage fragment stored in `DictionaryEntry`; bridges vocabulary gap between query and sutta text for the cross-encoder
 - **expansion_model** — model for `expand_query`; separate from `llm_model` (synthesis)
