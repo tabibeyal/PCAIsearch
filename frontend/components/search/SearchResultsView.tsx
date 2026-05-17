@@ -9,48 +9,58 @@ interface SearchResultsViewProps {
 
 export function SearchResultsView({ results, query }: SearchResultsViewProps) {
   return (
-    <div className="max-w-4xl mx-auto p-4 sm:p-6 space-y-8">
-      <header className="border-b pb-4">
-        <h1 className="text-2xl font-semibold text-gray-800">Search Results</h1>
-        <p className="text-gray-500">Found {results.length} relevant verses for "{query}"</p>
-      </header>
-
-      <div className="space-y-6">
-        {results.length === 0 ? (
-          <div className="text-center py-12 text-gray-500">
-            No results found for this query.
-          </div>
-        ) : (
-          results.map((result, index) => (
+    <div className="max-w-3xl mx-auto px-4 py-6 space-y-4">
+      {results.length === 0 ? (
+        <div className="text-center py-12 text-[#9c8c7a]">
+          No results found for this query.
+        </div>
+      ) : (
+        results.map((result) => {
+          const url = suttaCentralUrl(result.id);
+          const pct = Math.round(result.score * 100);
+          return (
             <div
               key={result.id}
-              className="p-4 rounded-lg border border-gray-200 bg-white hover:border-blue-300 transition-colors shadow-sm"
+              className="bg-white border border-[#e8e4dc] rounded-xl p-[14px]"
             >
-              <div className="flex justify-between items-start gap-2 flex-wrap mb-2">
+              {/* Header row */}
+              <div className="flex items-center justify-between mb-2">
                 <a
-                  href={suttaCentralUrl(result.id)}
+                  href={url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs font-medium text-blue-600 hover:underline bg-blue-50 px-2 py-1 rounded"
+                  className="bg-[#ede8df] text-[#6b4e35] text-xs font-medium px-2 py-0.5 rounded hover:underline"
                 >
                   {result.id}
                 </a>
-                <span className="text-xs text-gray-400">
-                  Score: {result.score.toFixed(4)}
-                </span>
+                <span className="text-[#c8bfb5] text-xs">{pct}% match</span>
               </div>
-              <div className="space-y-3">
-                <div className="font-serif text-lg text-gray-900 leading-relaxed">
+
+              {result.pali && (
+                <p className="italic text-[#9c8c7a] text-xs leading-[1.6] mb-2">
                   {result.pali}
-                </div>
-                <div className="text-gray-600 italic leading-relaxed border-l-2 border-gray-200 pl-4">
-                  {result.english}
-                </div>
-              </div>
+                </p>
+              )}
+
+              <p
+                className="border-l-2 border-[#e8e4dc] pl-4 text-[#6b5c4e] text-[13px] leading-[1.75] mb-2"
+                style={{ fontFamily: 'Georgia, serif' }}
+              >
+                {result.english}
+              </p>
+
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#c8bfb5] underline text-[10px] hover:text-[#9c8c7a]"
+              >
+                View on SuttaCentral
+              </a>
             </div>
-          ))
-        )}
-      </div>
+          );
+        })
+      )}
     </div>
   );
 }
