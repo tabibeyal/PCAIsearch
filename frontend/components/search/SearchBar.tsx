@@ -86,17 +86,17 @@ export function SearchBar() {
   const showAnim = query === '';
 
   return (
-    <div className="w-full max-w-2xl mx-auto relative rounded-2xl border border-gray-300 bg-white px-4 pt-4 pb-14 focus-within:border-gray-400 focus-within:ring-2 focus-within:ring-gray-100 transition-all shadow-sm">
+    <div className="w-full max-w-2xl mx-auto relative rounded-2xl border border-[#e8e4dc] bg-white px-4 pt-4 pb-14 focus-within:border-[#9c8c7a] focus-within:ring-2 focus-within:ring-[#e8e4dc] transition-all shadow-sm">
 
       {/* animated placeholder */}
       {showAnim && (
         <div
-          className="absolute top-4 left-4 right-14 text-base leading-relaxed text-gray-400 pointer-events-none select-none"
+          className="absolute top-4 left-4 right-14 text-base leading-relaxed text-[#b5a494] pointer-events-none select-none"
           aria-hidden="true"
         >
           {animText}
           <span
-            className="inline-block w-px h-[1.1em] bg-gray-400 align-middle ml-px"
+            className="inline-block w-px h-[1.1em] bg-[#b5a494] align-middle ml-px"
             style={{ opacity: cursorOn ? 1 : 0, transition: 'opacity 0.1s' }}
           />
         </div>
@@ -116,7 +116,7 @@ export function SearchBar() {
       <button
         onClick={submit}
         disabled={!query.trim()}
-        className="absolute bottom-3 right-3 w-9 h-9 flex items-center justify-center rounded-xl bg-gray-900 text-white disabled:opacity-25 hover:bg-gray-700 transition-all"
+        className="absolute bottom-3 right-3 w-9 h-9 flex items-center justify-center rounded-xl bg-[#4a3728] text-white disabled:opacity-25 hover:bg-[#6b4e35] transition-all"
         title="Submit"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
