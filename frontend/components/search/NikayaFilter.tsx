@@ -48,8 +48,8 @@ export function NikayaFilter({ encodedQuery, view, selected }: NikayaFilterProps
   const pillClass = (active: boolean) =>
     `px-3 py-1 rounded-full text-xs font-medium transition-colors cursor-pointer border ${
       active
-        ? 'bg-blue-100 text-blue-700 border-blue-300'
-        : 'border-gray-300 text-gray-600 hover:bg-gray-50'
+        ? 'bg-[#ede8df] text-[#6b4e35] border-[#e8e4dc]'
+        : 'border-[#e8e4dc] text-[#9c8c7a] hover:bg-[#ede8df]'
     }`;
 
   return (
