@@ -109,7 +109,7 @@ export function SearchBar() {
         onChange={(e) => { setQuery(e.target.value); autoResize(e.target); }}
         onKeyDown={handleKeyDown}
         placeholder=""
-        className="w-full bg-transparent resize-none outline-none text-gray-900 text-base leading-relaxed max-h-64 overflow-y-auto relative z-10"
+        className="w-full bg-transparent resize-none outline-none text-[#2c1f14] text-base leading-relaxed max-h-64 overflow-y-auto relative z-10"
         style={{ minHeight: '28px' }}
       />
 

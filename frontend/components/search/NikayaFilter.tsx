@@ -55,7 +55,7 @@ export function NikayaFilter({ encodedQuery, view, selected }: NikayaFilterProps
   return (
     <div className="flex gap-2 items-center flex-wrap">
       <span
-        className="text-xs text-gray-400 font-medium cursor-help"
+        className="text-xs text-[#9c8c7a] font-medium cursor-help"
         title={`Click to switch · ${modKey}-click to add`}
       >
         Nikāya:
