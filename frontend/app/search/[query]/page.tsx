@@ -9,7 +9,7 @@ function LoadingState() {
   return (
     <div className="flex items-center justify-center h-full text-[#9c8c7a]">
       <div className="text-center">
-        <div className="w-8 h-8 border-2 border-[#e8e4dc] border-t-[#6b4e35] rounded-full animate-spin mx-auto mb-3" />
+        <div className="w-8 h-8 rounded-full animate-spin mx-auto mb-3" style={{ border: '2px solid #e8e4dc', borderTopColor: '#6b4e35' }} />
         <p className="text-sm">Searching the Canon…</p>
       </div>
     </div>
