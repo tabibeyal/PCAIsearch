@@ -27,7 +27,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [mode, setMode] = useState<"search" | "synthesize">("synthesize");
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
 
   async function runSearch() {
     const q = query.trim();
@@ -56,8 +56,16 @@ export default function Home() {
     }
   }
 
-  function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
-    if (e.key === "Enter") runSearch();
+  function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      runSearch();
+    }
+  }
+
+  function autoResize(el: HTMLTextAreaElement) {
+    el.style.height = "auto";
+    el.style.height = el.scrollHeight + "px";
   }
 
   return (
@@ -96,26 +104,35 @@ export default function Home() {
             </button>
           </div>
 
-          <div className="flex gap-2">
-            <input
+          <div className="relative rounded-2xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 pt-4 pb-14 focus-within:border-zinc-400 dark:focus-within:border-zinc-500 focus-within:ring-2 focus-within:ring-zinc-200 dark:focus-within:ring-zinc-700 transition-all">
+            <textarea
               ref={inputRef}
-              type="text"
+              rows={1}
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => { setQuery(e.target.value); autoResize(e.target); }}
               onKeyDown={handleKeyDown}
               placeholder={
                 mode === "synthesize"
                   ? "What does the Buddha say about suffering?"
                   : "Search passages…"
               }
-              className="flex-1 rounded-lg border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-2.5 text-zinc-900 dark:text-zinc-50 placeholder-zinc-400 dark:placeholder-zinc-500 outline-none focus:ring-2 focus:ring-zinc-400 dark:focus:ring-zinc-500 text-sm"
+              className="w-full bg-transparent resize-none outline-none text-zinc-900 dark:text-zinc-50 placeholder-zinc-400 dark:placeholder-zinc-500 text-base leading-relaxed max-h-64 overflow-y-auto"
+              style={{ minHeight: "28px" }}
             />
             <button
               onClick={runSearch}
               disabled={loading || !query.trim()}
-              className="px-4 py-2.5 rounded-lg bg-zinc-900 dark:bg-zinc-50 text-white dark:text-zinc-900 text-sm font-medium disabled:opacity-40 hover:bg-zinc-700 dark:hover:bg-zinc-200 transition-colors"
+              className="absolute bottom-3 right-3 w-9 h-9 flex items-center justify-center rounded-xl bg-zinc-900 dark:bg-zinc-50 text-white dark:text-zinc-900 disabled:opacity-30 hover:bg-zinc-700 dark:hover:bg-zinc-200 transition-all"
+              title="Submit"
             >
-              {loading ? "…" : "Search"}
+              {loading ? (
+                <span className="text-xs font-medium">…</span>
+              ) : (
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="12" y1="19" x2="12" y2="5"/>
+                  <polyline points="5 12 12 5 19 12"/>
+                </svg>
+              )}
             </button>
           </div>
         </div>

@@ -1,31 +1,129 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+
+const PROMPTS = [
+  'what were the Buddha\'s last words before he died?',
+  'why does loving someone lead to grief and suffering?',
+  'should a monk feel anger even if attacked with a saw?',
+  'is having a good spiritual friend the whole of the holy life?',
+  'what is the path between self-indulgence and harsh self-denial?',
+  'how should one treat parents family and friends according to the Buddha?',
+  'what did the Buddha consider after enlightenment before deciding to teach?',
+];
+
+const TYPE_MS = 55;
+const DELETE_MS = 22;
+const HOLD_MS = 2000;
+const PAUSE_MS = 350;
 
 export function SearchBar() {
-  const [query, setQuery] = React.useState('');
+  const [query, setQuery] = useState('');
+  const [animText, setAnimText] = useState('');
+  const [cursorOn, setCursorOn] = useState(true);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!query.trim()) return;
-    window.location.href = `/search/${encodeURIComponent(query)}`;
-  };
+  // cursor blink
+  useEffect(() => {
+    const id = setInterval(() => setCursorOn(v => !v), 530);
+    return () => clearInterval(id);
+  }, []);
+
+  // typing animation
+  useEffect(() => {
+    let cancelled = false;
+
+    const delay = (ms: number) =>
+      new Promise<void>(resolve => setTimeout(resolve, ms));
+
+    async function run() {
+      let idx = 0;
+      while (!cancelled) {
+        const prompt = PROMPTS[idx % PROMPTS.length];
+
+        for (let i = 1; i <= prompt.length; i++) {
+          if (cancelled) return;
+          setAnimText(prompt.slice(0, i));
+          await delay(TYPE_MS);
+        }
+
+        await delay(HOLD_MS);
+        if (cancelled) return;
+
+        for (let i = prompt.length - 1; i >= 0; i--) {
+          if (cancelled) return;
+          setAnimText(prompt.slice(0, i));
+          await delay(DELETE_MS);
+        }
+
+        await delay(PAUSE_MS);
+        idx++;
+      }
+    }
+
+    run();
+    return () => { cancelled = true; };
+  }, []);
+
+  function autoResize(el: HTMLTextAreaElement) {
+    el.style.height = 'auto';
+    el.style.height = el.scrollHeight + 'px';
+  }
+
+  function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      submit();
+    }
+  }
+
+  function submit() {
+    const q = query.trim();
+    if (!q) return;
+    window.location.href = `/search/${encodeURIComponent(q)}`;
+  }
+
+  const showAnim = query === '';
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-2xl mx-auto flex gap-2">
-      <input
-        type="text"
+    <div className="w-full max-w-2xl mx-auto relative rounded-2xl border border-gray-300 bg-white px-4 pt-4 pb-14 focus-within:border-gray-400 focus-within:ring-2 focus-within:ring-gray-100 transition-all shadow-sm">
+
+      {/* animated placeholder */}
+      {showAnim && (
+        <div
+          className="absolute top-4 left-4 right-14 text-base leading-relaxed text-gray-400 pointer-events-none select-none"
+          aria-hidden="true"
+        >
+          {animText}
+          <span
+            className="inline-block w-px h-[1.1em] bg-gray-400 align-middle ml-px"
+            style={{ opacity: cursorOn ? 1 : 0, transition: 'opacity 0.1s' }}
+          />
+        </div>
+      )}
+
+      <textarea
+        ref={textareaRef}
+        rows={1}
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="What is the one precept you should never break?"
-        className="flex-1 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+        onChange={(e) => { setQuery(e.target.value); autoResize(e.target); }}
+        onKeyDown={handleKeyDown}
+        placeholder=""
+        className="w-full bg-transparent resize-none outline-none text-gray-900 text-base leading-relaxed max-h-64 overflow-y-auto relative z-10"
+        style={{ minHeight: '28px' }}
       />
+
       <button
-        type="submit"
-        className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+        onClick={submit}
+        disabled={!query.trim()}
+        className="absolute bottom-3 right-3 w-9 h-9 flex items-center justify-center rounded-xl bg-gray-900 text-white disabled:opacity-25 hover:bg-gray-700 transition-all"
+        title="Submit"
       >
-        Search
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <line x1="12" y1="19" x2="12" y2="5"/>
+          <polyline points="5 12 12 5 19 12"/>
+        </svg>
       </button>
-    </form>
+    </div>
   );
 }
