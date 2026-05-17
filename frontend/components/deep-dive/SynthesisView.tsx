@@ -18,10 +18,10 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
       <button
         key={key}
         onClick={() => onCitationClick(ref)}
-        className={`mx-1 px-1.5 py-0.5 rounded text-xs font-medium transition-colors ${
+        className={`mx-1 px-1.5 py-0.5 rounded font-medium transition-colors ${
           isUnverified
-            ? 'bg-red-100 text-red-600 hover:bg-red-200 cursor-not-allowed'
-            : 'bg-blue-100 text-blue-700 hover:bg-blue-200 underline decoration-blue-300'
+            ? 'bg-red-100 text-red-600 hover:bg-red-200 cursor-not-allowed text-xs'
+            : 'bg-[#ede8df] text-[#6b4e35] hover:bg-[#e8e4dc] text-[11px] font-sans'
         }`}
       >
         [{ref}]
@@ -74,22 +74,21 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
     text.split(/\n\n+/).map((block, pIdx) => renderBlock(block, pIdx));
 
   return (
-    <div className="h-full overflow-y-auto scroll-smooth p-6 bg-white text-black">
+    <div className="h-full overflow-y-auto scroll-smooth p-6 bg-[#faf9f7] text-[#2c1f14]">
       <div className="max-w-2xl mx-auto">
-        <div className="flex items-start justify-between gap-3 mb-6 flex-wrap">
-          <h2 className="text-xl font-semibold">Synthesized Answer</h2>
+        <div className="flex items-start justify-end gap-3 mb-6 flex-wrap">
           <div className="flex items-center gap-2 flex-wrap">
             {!is_faithful && (
               <span className="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded font-medium">
-                ⚠️ Potential Hallucinations Flagged
+                Potential Hallucinations Flagged
               </span>
             )}
             <button
               onClick={onDeepDiveToggle}
               className={`text-xs px-3 py-1 rounded font-medium border transition-colors ${
                 deepDive
-                  ? 'bg-blue-600 text-white border-blue-600 hover:bg-blue-700'
-                  : 'bg-white text-blue-600 border-blue-300 hover:bg-blue-50'
+                  ? 'bg-[#4a3728] text-white border-[#4a3728] hover:bg-[#6b4e35]'
+                  : 'bg-white text-[#6b4e35] border-[#e8e4dc] hover:bg-[#ede8df]'
               }`}
             >
               {deepDive ? 'Hide Sources' : 'Deep Dive'}
@@ -97,7 +96,10 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
           </div>
         </div>
 
-        <div className="text-lg leading-relaxed text-gray-800">
+        <div
+          className="text-[15px] leading-[1.85] text-[#2c1f14]"
+          style={{ fontFamily: 'Georgia, serif' }}
+        >
           {renderText(answer)}
         </div>
       </div>
