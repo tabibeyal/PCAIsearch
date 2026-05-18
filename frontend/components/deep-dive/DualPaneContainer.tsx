@@ -26,11 +26,22 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
   };
 
   const handleDeepDiveToggle = () => {
-    if (deepDive) setSourcesVisible(true); // reset for next open
-    setDeepDive((v) => !v);
+    if (!deepDive) {
+      setDeepDive(true);
+    } else {
+      setSourcesVisible((v) => !v);
+    }
   };
 
   const showSources = deepDive && sourcesVisible;
+
+  React.useEffect(() => {
+    if (!showSources || !activeRef) return;
+    const id = `verse-${activeRef.replace(/\s+/g, '-').toLowerCase()}`;
+    setTimeout(() => {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 50);
+  }, [showSources]);
 
   return (
     <div className={`relative flex h-full w-full overflow-hidden bg-gray-200 ${deepDive ? 'flex-col md:flex-row' : ''}`}>
@@ -44,6 +55,7 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
         <SynthesisView
           data={data}
           deepDive={deepDive}
+          sourcesVisible={sourcesVisible}
           onDeepDiveToggle={handleDeepDiveToggle}
           onCitationClick={handleCitationClick}
         />

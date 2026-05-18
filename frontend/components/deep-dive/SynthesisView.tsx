@@ -4,11 +4,12 @@ import { SynthesisResponse } from '@/types/api';
 interface SynthesisViewProps {
   data: SynthesisResponse;
   deepDive: boolean;
+  sourcesVisible: boolean;
   onDeepDiveToggle: () => void;
   onCitationClick: (ref: string) => void;
 }
 
-export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClick }: SynthesisViewProps) {
+export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle, onCitationClick }: SynthesisViewProps) {
   const { answer, is_faithful } = data;
 
   const renderCitation = (ref: string, key: React.Key) => {
@@ -91,7 +92,7 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
                   : 'bg-white text-[#6b4e35] border-[#e8e4dc] hover:bg-[#ede8df]'
               }`}
             >
-              {deepDive ? 'Hide Sources' : 'Deep Dive'}
+              {!deepDive ? 'Deep Dive' : sourcesVisible ? 'Hide Sources' : 'Show Sources'}
             </button>
           </div>
         </div>
