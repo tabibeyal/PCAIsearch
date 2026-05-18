@@ -62,7 +62,7 @@ async function SearchPage({
           {/* Row 1: brand + search */}
           <div className="flex items-center gap-3 px-3 sm:px-4 pt-3 pb-2">
             <a href="/" className="text-sm text-[#9c8c7a] hover:text-[#6b4e35] whitespace-nowrap transition-colors">
-              Ask the Pali Canon
+              Home
             </a>
             <NavSearchBox initialQuery={query} />
           </div>
