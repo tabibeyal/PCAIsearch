@@ -9,7 +9,7 @@ export function DividerToggle({ sourcesVisible, onClick }: DividerToggleProps) {
     <button
       type="button"
       onClick={onClick}
-      className="hidden md:flex absolute z-10 items-center justify-center text-[#6b4e35] cursor-pointer transition-colors hover:text-[#4a3728]"
+      className="hidden md:flex pointer-events-none md:pointer-events-auto absolute z-10 items-center justify-center text-[#6b4e35] cursor-pointer transition-colors hover:text-[#4a3728]"
       style={{
         top: '50%',
         transform: sourcesVisible ? 'translate(-50%, -50%)' : 'translateY(-50%)',

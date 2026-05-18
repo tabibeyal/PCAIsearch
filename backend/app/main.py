@@ -95,15 +95,18 @@ async def stream(
     nikayas: Optional[List[str]] = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
 ):
     async def event_stream():
-        yield f"data: {json.dumps({'type': 'status', 'text': 'Searching the Canon…'})}\n\n"
-        context = await request.app.state.pipeline.search(q, top_k=top_k, nikayas=nikayas or None)
-        yield f"data: {json.dumps({'type': 'status', 'text': 'Composing answer…'})}\n\n"
-        async for event in request.app.state.pipeline.stream_synthesize(q, context):
-            if event["type"] == "chunk":
-                yield f"data: {json.dumps(event)}\n\n"
-            else:
-                verification = request.app.state.guardrail.process_response(event["text"], context)
-                yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'canonical_misses': verification['canonical_misses'], 'is_faithful': verification['is_faithful'], 'context': context})}\n\n"
+        try:
+            yield f"data: {json.dumps({'type': 'status', 'text': 'Searching the Canon…'})}\n\n"
+            context = await request.app.state.pipeline.search(q, top_k=top_k, nikayas=nikayas or None)
+            yield f"data: {json.dumps({'type': 'status', 'text': 'Composing answer…'})}\n\n"
+            async for event in request.app.state.pipeline.stream_synthesize(q, context):
+                if event["type"] == "chunk":
+                    yield f"data: {json.dumps(event)}\n\n"
+                else:
+                    verification = request.app.state.guardrail.process_response(event["text"], context)
+                    yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'canonical_misses': verification['canonical_misses'], 'is_faithful': verification['is_faithful'], 'context': context})}\n\n"
+        except Exception as exc:
+            yield f"data: {json.dumps({'type': 'error', 'message': str(exc)})}\n\n"
 
     return StreamingResponse(event_stream(), media_type="text/event-stream")
 

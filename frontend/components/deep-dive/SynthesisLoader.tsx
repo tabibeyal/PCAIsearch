@@ -17,7 +17,7 @@ function LoadingState({ status }: { status: string }) {
   );
 }
 
-function ErrorMessage({ isRateLimit }: { isRateLimit: boolean }) {
+function ErrorMessage({ isRateLimit, detail }: { isRateLimit: boolean; detail?: string }) {
   return (
     <div className="flex items-center justify-center p-8 text-red-500 text-center">
       <div>
@@ -29,6 +29,7 @@ function ErrorMessage({ isRateLimit }: { isRateLimit: boolean }) {
             ? 'You have sent too many requests. Please wait a moment and try again.'
             : 'Unable to retrieve search data for this query. Please check if the backend is running.'}
         </p>
+        {detail && <p className="mt-2 text-sm text-red-400 font-mono">{detail}</p>}
         <a href="/" className="mt-4 inline-block text-[#6b4e35] underline">Return to home</a>
       </div>
     </div>
@@ -54,6 +55,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
           if (event.type === 'status') setStatus(event.text);
           else if (event.type === 'chunk') setStreamText(t => t + event.text);
           else if (event.type === 'done') setData(event as SynthesisResponse);
+          else if (event.type === 'error') throw Object.assign(new Error(event.message), { status: 500 });
         }
       } catch (e: any) {
         if (!cancelled) setError(e);
@@ -62,17 +64,17 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
     return () => { cancelled = true; };
   }, [query, nikayas?.join(',')]);
 
-  if (error) return <ErrorMessage isRateLimit={error.status === 429} />;
+  const visible = streamText ? stripThinking(streamText) : '';
+
+  if (error) return <ErrorMessage isRateLimit={error.status === 429} detail={(error as any).message} />;
 
   if (data) return <DualPaneContainer data={data} />;
 
-  if (streamText) {
-    const visible = stripThinking(streamText);
+  if (visible) {
     return (
       <div className="h-full overflow-y-auto p-6 bg-[#faf9f7]">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-xl font-semibold mb-6 text-[#4a3728]">Synthesized Answer</h2>
-          <div className="text-lg leading-relaxed whitespace-pre-wrap text-[#1a1a1a]">
+          <div className="text-[15px] leading-[1.85] whitespace-pre-wrap text-[#1a1a1a]" style={{ fontFamily: 'Georgia, serif' }}>
             {visible.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((seg, i) =>
               seg.startsWith('**') && seg.endsWith('**')
                 ? <strong key={i}>{seg.slice(2, -2)}</strong>
