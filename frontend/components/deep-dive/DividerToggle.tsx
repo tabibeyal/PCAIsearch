@@ -3,9 +3,11 @@ interface DividerToggleProps {
   onClick: () => void;
 }
 
+// Parent container must have `position: relative` for absolute positioning to anchor correctly.
 export function DividerToggle({ sourcesVisible, onClick }: DividerToggleProps) {
   return (
     <button
+      type="button"
       onClick={onClick}
       className="hidden md:flex absolute z-10 items-center justify-center text-[#6b4e35] cursor-pointer transition-colors hover:text-[#4a3728]"
       style={{
