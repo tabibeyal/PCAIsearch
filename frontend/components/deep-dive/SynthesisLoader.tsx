@@ -6,12 +6,12 @@ import { DualPaneContainer } from './DualPaneContainer';
 import { SynthesisResponse } from '@/types/api';
 import { stripThinking } from '@/lib/utils';
 
-function LoadingState() {
+function LoadingState({ status }: { status: string }) {
   return (
-    <div className="flex items-center justify-center h-full text-gray-400">
+    <div className="flex items-center justify-center h-full text-[#9c8c7a]">
       <div className="text-center">
-        <div className="w-8 h-8 border-2 border-gray-300 border-t-blue-500 rounded-full animate-spin mx-auto mb-3" />
-        <p className="text-sm">Searching the Canon…</p>
+        <div className="w-8 h-8 rounded-full animate-spin mx-auto mb-3" style={{ border: '2px solid #e8e4dc', borderTopColor: '#6b4e35' }} />
+        <p className="text-sm">{status}</p>
       </div>
     </div>
   );
@@ -29,7 +29,7 @@ function ErrorMessage({ isRateLimit }: { isRateLimit: boolean }) {
             ? 'You have sent too many requests. Please wait a moment and try again.'
             : 'Unable to retrieve search data for this query. Please check if the backend is running.'}
         </p>
-        <a href="/" className="mt-4 inline-block text-blue-600 underline">Return to home</a>
+        <a href="/" className="mt-4 inline-block text-[#6b4e35] underline">Return to home</a>
       </div>
     </div>
   );
@@ -37,11 +37,13 @@ function ErrorMessage({ isRateLimit }: { isRateLimit: boolean }) {
 
 export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: string[] }) {
   const [streamText, setStreamText] = React.useState('');
+  const [status, setStatus] = React.useState('Searching the Canon…');
   const [data, setData] = React.useState<SynthesisResponse | null>(null);
   const [error, setError] = React.useState<{ status?: number } | null>(null);
 
   React.useEffect(() => {
     setStreamText('');
+    setStatus('Searching the Canon…');
     setData(null);
     setError(null);
     let cancelled = false;
@@ -49,7 +51,8 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
       try {
         for await (const event of streamSynthesis(query, nikayas)) {
           if (cancelled) break;
-          if (event.type === 'chunk') setStreamText(t => t + event.text);
+          if (event.type === 'status') setStatus(event.text);
+          else if (event.type === 'chunk') setStreamText(t => t + event.text);
           else if (event.type === 'done') setData(event as SynthesisResponse);
         }
       } catch (e: any) {
@@ -66,10 +69,10 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
   if (streamText) {
     const visible = stripThinking(streamText);
     return (
-      <div className="h-full overflow-y-auto p-6 bg-white">
+      <div className="h-full overflow-y-auto p-6 bg-[#faf9f7]">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-xl font-semibold mb-6">Synthesized Answer</h2>
-          <div className="text-lg leading-relaxed whitespace-pre-wrap text-gray-800">
+          <h2 className="text-xl font-semibold mb-6 text-[#4a3728]">Synthesized Answer</h2>
+          <div className="text-lg leading-relaxed whitespace-pre-wrap text-[#1a1a1a]">
             {visible.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((seg, i) =>
               seg.startsWith('**') && seg.endsWith('**')
                 ? <strong key={i}>{seg.slice(2, -2)}</strong>
@@ -77,12 +80,12 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
                   ? <em key={i}>{seg.slice(1, -1)}</em>
                   : seg
             )}
-            <span className="inline-block w-0.5 h-5 bg-blue-500 animate-pulse ml-0.5 align-middle" />
+            <span className="inline-block w-0.5 h-5 animate-pulse ml-0.5 align-middle" style={{ backgroundColor: '#6b4e35' }} />
           </div>
         </div>
       </div>
     );
   }
 
-  return <LoadingState />;
+  return <LoadingState status={status} />;
 }
