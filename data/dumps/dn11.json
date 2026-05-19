@@ -1,0 +1,1000 @@
+{
+  "sutta_id": "DN11",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Dīgha Nikāya 11 ",
+      "english": "Long Discourses 11 "
+    },
+    {
+      "number": 2,
+      "pali": "Kevaṭṭasutta ",
+      "english": "With Kevaḍḍha "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā nāḷandāyaṁ viharati pāvārikambavane. ",
+      "english": "At one time the Buddha was staying near Nāḷandā in Pāvārika’s mango grove. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho kevaṭṭo gahapatiputto yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho kevaṭṭo gahapatiputto bhagavantaṁ etadavoca: ",
+      "english": "Then the householder Kevaḍḍha went up to the Buddha, bowed, sat down to one side, and said to him, "
+    },
+    {
+      "number": 6,
+      "pali": "“ayaṁ, bhante, nāḷandā iddhā ceva phītā ca bahujanā ākiṇṇamanussā bhagavati abhippasannā. ",
+      "english": "“Sir, this Nāḷandā is successful and prosperous, populous, full of people. "
+    },
+    {
+      "number": 7,
+      "pali": "Sādhu, bhante, bhagavā ekaṁ bhikkhuṁ samādisatu, yo uttari manussadhammā iddhipāṭihāriyaṁ karissati; ",
+      "english": "Please direct a mendicant to perform a superhuman demonstration of psychic power. "
+    },
+    {
+      "number": 8,
+      "pali": "evāyaṁ nāḷandā bhiyyoso mattāya bhagavati abhippasīdissatī”ti. ",
+      "english": "Then Nāḷandā will become even more devoted to the Buddha!” "
+    },
+    {
+      "number": 9,
+      "pali": "Evaṁ vutte, bhagavā kevaṭṭaṁ gahapatiputtaṁ etadavoca: ",
+      "english": "When he said this, the Buddha said, "
+    },
+    {
+      "number": 10,
+      "pali": "“na kho ahaṁ, kevaṭṭa, bhikkhūnaṁ evaṁ dhammaṁ desemi: ",
+      "english": "“Kevaḍḍha, I do not teach Dhamma to the mendicants like this: "
+    },
+    {
+      "number": 11,
+      "pali": "‘etha tumhe, bhikkhave, gihīnaṁ odātavasanānaṁ uttari manussadhammā iddhipāṭihāriyaṁ karothā’”ti. ",
+      "english": "‘Come now, mendicants, perform a superhuman demonstration of psychic power for the white-clothed laypeople.’” "
+    },
+    {
+      "number": 12,
+      "pali": "Dutiyampi kho kevaṭṭo gahapatiputto bhagavantaṁ etadavoca: ",
+      "english": "For a second time, Kevaḍḍha made the same request, "
+    },
+    {
+      "number": 13,
+      "pali": "“nāhaṁ, bhante, bhagavantaṁ dhaṁsemi; ",
+      "english": "“Sir, I am not teaching you the Dhamma, "
+    },
+    {
+      "number": 14,
+      "pali": "api ca evaṁ vadāmi: ",
+      "english": "but nonetheless I say: "
+    },
+    {
+      "number": 15,
+      "pali": "‘ayaṁ, bhante, nāḷandā iddhā ceva phītā ca bahujanā ākiṇṇamanussā bhagavati abhippasannā. ",
+      "english": "‘Sir, this Nāḷandā is successful and prosperous, populous, full of people. "
+    },
+    {
+      "number": 16,
+      "pali": "Sādhu, bhante, bhagavā ekaṁ bhikkhuṁ samādisatu, yo uttari manussadhammā iddhipāṭihāriyaṁ karissati; ",
+      "english": "Please direct a mendicant to perform a superhuman demonstration of psychic power. "
+    },
+    {
+      "number": 17,
+      "pali": "evāyaṁ nāḷandā bhiyyoso mattāya bhagavati abhippasīdissatī’”ti. ",
+      "english": "Then Nāḷandā will become even more devoted to the Buddha!’” "
+    },
+    {
+      "number": 18,
+      "pali": "Dutiyampi kho bhagavā kevaṭṭaṁ gahapatiputtaṁ etadavoca: ",
+      "english": "But for a second time, the Buddha gave the same answer. "
+    },
+    {
+      "number": 19,
+      "pali": "“na kho ahaṁ, kevaṭṭa, bhikkhūnaṁ evaṁ dhammaṁ desemi: ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "‘etha tumhe, bhikkhave, gihīnaṁ odātavasanānaṁ uttari manussadhammā iddhipāṭihāriyaṁ karothā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "Tatiyampi kho kevaṭṭo gahapatiputto bhagavantaṁ etadavoca: ",
+      "english": "For a third time, Kevaḍḍha made the same request, "
+    },
+    {
+      "number": 22,
+      "pali": "“nāhaṁ, bhante, bhagavantaṁ dhaṁsemi; ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "api ca evaṁ vadāmi: ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "‘ayaṁ, bhante, nāḷandā iddhā ceva phītā ca bahujanā ākiṇṇamanussā bhagavati abhippasannā. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Sādhu, bhante, bhagavā ekaṁ bhikkhuṁ samādisatu, yo uttari manussadhammā iddhipāṭihāriyaṁ karissati. ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "Evāyaṁ nāḷandā bhiyyoso mattāya bhagavati abhippasīdissatī’”ti. ",
+      "english": "at which the Buddha said the following. "
+    },
+    {
+      "number": 27,
+      "pali": "1. Iddhipāṭihāriya ",
+      "english": "1. The Demonstration of Psychic Power "
+    },
+    {
+      "number": 28,
+      "pali": "“Tīṇi kho imāni, kevaṭṭa, pāṭihāriyāni mayā sayaṁ abhiññā sacchikatvā paveditāni. ",
+      "english": "“Kevaḍḍha, there are three kinds of demonstration, which I declare having realized them with my own insight. "
+    },
+    {
+      "number": 29,
+      "pali": "Katamāni tīṇi? ",
+      "english": "What three? "
+    },
+    {
+      "number": 30,
+      "pali": "Iddhipāṭihāriyaṁ, ādesanāpāṭihāriyaṁ, anusāsanīpāṭihāriyaṁ. ",
+      "english": "The demonstration of psychic power, the demonstration of revealing, and the demonstration of instruction. "
+    },
+    {
+      "number": 31,
+      "pali": "Katamañca, kevaṭṭa, iddhipāṭihāriyaṁ? ",
+      "english": "And what is the demonstration of psychic power? "
+    },
+    {
+      "number": 32,
+      "pali": "Idha, kevaṭṭa, bhikkhu anekavihitaṁ iddhividhaṁ paccanubhoti—ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti; āvibhāvaṁ tirobhāvaṁ tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamāno gacchati seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karoti seyyathāpi udake; udakepi abhijjamāne gacchati seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamati seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁ mahiddhike evaṁ mahānubhāve pāṇinā parāmasati parimajjati; yāva brahmalokāpi kāyena vasaṁ vatteti. ",
+      "english": "It’s a mendicant who wields the many kinds of psychic power: multiplying themselves and becoming one again; materializing and dematerializing; going unobstructed through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with the hand the sun and moon, so mighty and powerful; controlling the body as far as the realm of divinity. "
+    },
+    {
+      "number": 33,
+      "pali": "Tamenaṁ aññataro saddho pasanno passati taṁ bhikkhuṁ anekavihitaṁ iddhividhaṁ paccanubhontaṁ—ekopi hutvā bahudhā hontaṁ, bahudhāpi hutvā eko hontaṁ; āvibhāvaṁ tirobhāvaṁ; tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamānaṁ gacchantaṁ seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karontaṁ seyyathāpi udake; udakepi abhijjamāne gacchantaṁ seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamantaṁ seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁ mahiddhike evaṁ mahānubhāve pāṇinā parāmasantaṁ parimajjantaṁ yāva brahmalokāpi kāyena vasaṁ vattentaṁ. ",
+      "english": "Someone with faith and confidence sees that mendicant performing those superhuman feats. "
+    },
+    {
+      "number": 34,
+      "pali": "Tamenaṁ so saddho pasanno aññatarassa assaddhassa appasannassa āroceti: ",
+      "english": "They tell someone else who lacks faith and confidence: "
+    },
+    {
+      "number": 35,
+      "pali": "‘acchariyaṁ vata bho, abbhutaṁ vata bho, samaṇassa mahiddhikatā mahānubhāvatā. ",
+      "english": "‘Oh lord, how incredible, how amazing! The ascetic has such psychic power and might! "
+    },
+    {
+      "number": 36,
+      "pali": "Amāhaṁ bhikkhuṁ addasaṁ anekavihitaṁ iddhividhaṁ paccanubhontaṁ—ekopi hutvā bahudhā hontaṁ, bahudhāpi hutvā eko hontaṁ …pe… yāva brahmalokāpi kāyena vasaṁ vattentan’ti. ",
+      "english": "I saw him myself, performing all these superhuman feats!’ "
+    },
+    {
+      "number": 37,
+      "pali": "Tamenaṁ so assaddho appasanno taṁ saddhaṁ pasannaṁ evaṁ vadeyya: ",
+      "english": "But the one lacking faith and confidence would say to them: "
+    },
+    {
+      "number": 38,
+      "pali": "‘atthi kho, bho, gandhārī nāma vijjā. ",
+      "english": "‘There’s a spell named Gandhārī. "
+    },
+    {
+      "number": 39,
+      "pali": "Tāya so bhikkhu anekavihitaṁ iddhividhaṁ paccanubhoti—ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti …pe… yāva brahmalokāpi kāyena vasaṁ vattetī’ti. ",
+      "english": "Using that a mendicant can perform such superhuman feats.’ "
+    },
+    {
+      "number": 40,
+      "pali": "Taṁ kiṁ maññasi, kevaṭṭa, ",
+      "english": "What do you think, Kevaḍḍha? "
+    },
+    {
+      "number": 41,
+      "pali": "api nu so assaddho appasanno taṁ saddhaṁ pasannaṁ evaṁ vadeyyā”ti? ",
+      "english": "Wouldn’t someone lacking faith speak like that?” "
+    },
+    {
+      "number": 42,
+      "pali": "“Vadeyya, bhante”ti. ",
+      "english": "“They would, sir.” "
+    },
+    {
+      "number": 43,
+      "pali": "“Imaṁ kho ahaṁ, kevaṭṭa, iddhipāṭihāriye ādīnavaṁ sampassamāno iddhipāṭihāriyena aṭṭīyāmi harāyāmi jigucchāmi. ",
+      "english": "“Seeing this drawback in psychic power, I’m horrified, repelled, and disgusted by demonstrations of psychic power. "
+    },
+    {
+      "number": 44,
+      "pali": "2. Ādesanāpāṭihāriya ",
+      "english": "2. The Demonstration of Revealing "
+    },
+    {
+      "number": 45,
+      "pali": "Katamañca, kevaṭṭa, ādesanāpāṭihāriyaṁ? ",
+      "english": "And what is the demonstration of revealing? "
+    },
+    {
+      "number": 46,
+      "pali": "Idha, kevaṭṭa, bhikkhu parasattānaṁ parapuggalānaṁ cittampi ādisati, cetasikampi ādisati, vitakkitampi ādisati, vicāritampi ādisati: ",
+      "english": "It’s when a mendicant reveals the mind, mentality, thoughts, and reflections of other beings and individuals: "
+    },
+    {
+      "number": 47,
+      "pali": "‘evampi te mano, itthampi te mano, itipi te cittan’ti. ",
+      "english": "‘This is what you’re thinking, such is your thought, and thus is your state of mind.’ "
+    },
+    {
+      "number": 48,
+      "pali": "Tamenaṁ aññataro saddho pasanno passati taṁ bhikkhuṁ parasattānaṁ parapuggalānaṁ cittampi ādisantaṁ, cetasikampi ādisantaṁ, vitakkitampi ādisantaṁ, vicāritampi ādisantaṁ: ",
+      "english": "Someone with faith and confidence sees that mendicant revealing another individual’s thoughts. "
+    },
+    {
+      "number": 49,
+      "pali": "‘evampi te mano, itthampi te mano, itipi te cittan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Tamenaṁ so saddho pasanno aññatarassa assaddhassa appasannassa āroceti: ",
+      "english": "They tell someone else who lacks faith and confidence: "
+    },
+    {
+      "number": 51,
+      "pali": "‘acchariyaṁ vata bho, abbhutaṁ vata bho, samaṇassa mahiddhikatā mahānubhāvatā. ",
+      "english": "‘Oh lord, how incredible, how amazing! The ascetic has such psychic power and might! "
+    },
+    {
+      "number": 52,
+      "pali": "Amāhaṁ bhikkhuṁ addasaṁ parasattānaṁ parapuggalānaṁ cittampi ādisantaṁ, cetasikampi ādisantaṁ, vitakkitampi ādisantaṁ, vicāritampi ādisantaṁ: ",
+      "english": "I saw him myself, revealing the thoughts of another individual!’ "
+    },
+    {
+      "number": 53,
+      "pali": "“evampi te mano, itthampi te mano, itipi te cittan”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Tamenaṁ so assaddho appasanno taṁ saddhaṁ pasannaṁ evaṁ vadeyya: ",
+      "english": "But the one lacking faith and confidence would say to them: "
+    },
+    {
+      "number": 55,
+      "pali": "‘atthi kho, bho, maṇikā nāma vijjā; ",
+      "english": "‘There’s a spell named Māṇikā. "
+    },
+    {
+      "number": 56,
+      "pali": "tāya so bhikkhu parasattānaṁ parapuggalānaṁ cittampi ādisati, cetasikampi ādisati, vitakkitampi ādisati, vicāritampi ādisati: ",
+      "english": "Using that a mendicant can reveal another individual’s thoughts.’ "
+    },
+    {
+      "number": 57,
+      "pali": "“evampi te mano, itthampi te mano, itipi te cittan”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "Taṁ kiṁ maññasi, kevaṭṭa, ",
+      "english": "What do you think, Kevaḍḍha? "
+    },
+    {
+      "number": 59,
+      "pali": "api nu so assaddho appasanno taṁ saddhaṁ pasannaṁ evaṁ vadeyyā”ti? ",
+      "english": "Wouldn’t someone lacking faith speak like that?” "
+    },
+    {
+      "number": 60,
+      "pali": "“Vadeyya, bhante”ti. ",
+      "english": "“They would, sir.” "
+    },
+    {
+      "number": 61,
+      "pali": "“Imaṁ kho ahaṁ, kevaṭṭa, ādesanāpāṭihāriye ādīnavaṁ sampassamāno ādesanāpāṭihāriyena aṭṭīyāmi harāyāmi jigucchāmi. ",
+      "english": "“Seeing this drawback in revealing, I’m horrified, repelled, and disgusted by demonstrations of revealing. "
+    },
+    {
+      "number": 62,
+      "pali": "3. Anusāsanīpāṭihāriya ",
+      "english": "3. The Demonstration of Instruction "
+    },
+    {
+      "number": 63,
+      "pali": "Katamañca, kevaṭṭa, anusāsanīpāṭihāriyaṁ? ",
+      "english": "And what is the demonstration of instruction? "
+    },
+    {
+      "number": 64,
+      "pali": "Idha, kevaṭṭa, bhikkhu evamanusāsati: ",
+      "english": "It’s when a mendicant instructs others like this: "
+    },
+    {
+      "number": 65,
+      "pali": "‘evaṁ vitakketha, mā evaṁ vitakkayittha, evaṁ manasikarotha, mā evaṁ manasākattha, idaṁ pajahatha, idaṁ upasampajja viharathā’ti. ",
+      "english": "‘Think like this, not like that. Focus your mind like this, not like that. Give up this, and live having achieved that.’ "
+    },
+    {
+      "number": 66,
+      "pali": "Idaṁ vuccati, kevaṭṭa, anusāsanīpāṭihāriyaṁ. ",
+      "english": "This is called the demonstration of instruction. "
+    },
+    {
+      "number": 67,
+      "pali": "Puna caparaṁ, kevaṭṭa, idha tathāgato loke uppajjati arahaṁ sammāsambuddho …pe… ",
+      "english": "Furthermore, a Realized One arises in the world … "
+    },
+    {
+      "number": 68,
+      "pali": "Evaṁ kho, kevaṭṭa, bhikkhu sīlasampanno hoti …pe… ",
+      "english": "That’s how a mendicant is accomplished in ethics. … "
+    },
+    {
+      "number": 69,
+      "pali": "paṭhamaṁ jhānaṁ upasampajja viharati. ",
+      "english": "They enter and remain in the first absorption … "
+    },
+    {
+      "number": 70,
+      "pali": "Idampi vuccati, kevaṭṭa, anusāsanīpāṭihāriyaṁ …pe… ",
+      "english": "This is called the demonstration of instruction. "
+    },
+    {
+      "number": 71,
+      "pali": "dutiyaṁ jhānaṁ …pe… ",
+      "english": "They enter and remain in the second absorption … "
+    },
+    {
+      "number": 72,
+      "pali": "tatiyaṁ jhānaṁ …pe… ",
+      "english": "third absorption … "
+    },
+    {
+      "number": 73,
+      "pali": "catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "fourth absorption. "
+    },
+    {
+      "number": 74,
+      "pali": "Idampi vuccati, kevaṭṭa, anusāsanīpāṭihāriyaṁ …pe… ",
+      "english": "This too is called the demonstration of instruction. "
+    },
+    {
+      "number": 75,
+      "pali": "ñāṇadassanāya cittaṁ abhinīharati abhininnāmeti …pe… ",
+      "english": "They project and extend the mind toward knowledge and vision … "
+    },
+    {
+      "number": 76,
+      "pali": "idampi vuccati, kevaṭṭa, anusāsanīpāṭihāriyaṁ …pe… ",
+      "english": "This too is called the demonstration of instruction. "
+    },
+    {
+      "number": 77,
+      "pali": "nāparaṁ itthattāyāti pajānāti …pe… ",
+      "english": "They understand: ‘… there is nothing further for this place.’ "
+    },
+    {
+      "number": 78,
+      "pali": "idampi vuccati, kevaṭṭa, anusāsanīpāṭihāriyaṁ. ",
+      "english": "This too is called the demonstration of instruction. "
+    },
+    {
+      "number": 79,
+      "pali": "Imāni kho, kevaṭṭa, tīṇi pāṭihāriyāni mayā sayaṁ abhiññā sacchikatvā paveditāni. ",
+      "english": "These, Kevaḍḍha, are the three kinds of demonstration, which I declare having realized them with my own insight. "
+    },
+    {
+      "number": 80,
+      "pali": "4. Bhūtanirodhesakabhikkhuvatthu ",
+      "english": "4. On the Mendicant in Search of the Cessation of Being "
+    },
+    {
+      "number": 81,
+      "pali": "Bhūtapubbaṁ, kevaṭṭa, imasmiññeva bhikkhusaṅghe aññatarassa bhikkhuno evaṁ cetaso parivitakko udapādi: ",
+      "english": "Once upon a time, Kevaḍḍha, a mendicant in this very Saṅgha had the following thought, "
+    },
+    {
+      "number": 82,
+      "pali": "‘kattha nu kho ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti? ",
+      "english": "‘Where do these four principal states cease without remainder, namely, the elements of earth, water, fire, and air?’ "
+    },
+    {
+      "number": 83,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu tathārūpaṁ samādhiṁ samāpajji, yathāsamāhite citte devayāniyo maggo pāturahosi. ",
+      "english": "Then that mendicant attained a state of immersion such that a path to the gods appeared. "
+    },
+    {
+      "number": 84,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu yena cātumahārājikā devā tenupasaṅkami; upasaṅkamitvā cātumahārājike deve etadavoca: ",
+      "english": "Then he approached the gods of the four great kings and said, "
+    },
+    {
+      "number": 85,
+      "pali": "‘kattha nu kho, āvuso, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti? ",
+      "english": "‘Reverends, where do these four principal states cease without remainder, namely, the elements of earth, water, fire, and air?’ "
+    },
+    {
+      "number": 86,
+      "pali": "Evaṁ vutte, kevaṭṭa, cātumahārājikā devā taṁ bhikkhuṁ etadavocuṁ: ",
+      "english": "When he said this, those gods said to him, "
+    },
+    {
+      "number": 87,
+      "pali": "‘mayampi kho, bhikkhu, na jānāma: ",
+      "english": "‘Mendicant, we too do not know this. "
+    },
+    {
+      "number": 88,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”ti. ",
+      "english": ""
+    },
+    {
+      "number": 89,
+      "pali": "Atthi kho, bhikkhu, cattāro mahārājāno amhehi abhikkantatarā ca paṇītatarā ca. ",
+      "english": "But the four great kings are our superiors. "
+    },
+    {
+      "number": 90,
+      "pali": "Te kho etaṁ jāneyyuṁ: ",
+      "english": "They might know.’ "
+    },
+    {
+      "number": 91,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 92,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu yena cattāro mahārājāno tenupasaṅkami; upasaṅkamitvā cattāro mahārāje etadavoca: ",
+      "english": "Then he approached the four great kings and asked the same question. "
+    },
+    {
+      "number": 93,
+      "pali": "‘kattha nu kho, āvuso, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti? ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "Evaṁ vutte, kevaṭṭa, cattāro mahārājāno taṁ bhikkhuṁ etadavocuṁ: ",
+      "english": "But they also said to him, "
+    },
+    {
+      "number": 95,
+      "pali": "‘mayampi kho, bhikkhu, na jānāma: ",
+      "english": "‘Mendicant, we too do not know this. "
+    },
+    {
+      "number": 96,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu, āpodhātu tejodhātu vāyodhātū”ti. ",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "Atthi kho, bhikkhu, tāvatiṁsā nāma devā amhehi abhikkantatarā ca paṇītatarā ca. ",
+      "english": "But the gods of the thirty-three … "
+    },
+    {
+      "number": 98,
+      "pali": "Te kho etaṁ jāneyyuṁ: ",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu yena tāvatiṁsā devā tenupasaṅkami; upasaṅkamitvā tāvatiṁse deve etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "‘kattha nu kho, āvuso, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti? ",
+      "english": ""
+    },
+    {
+      "number": 102,
+      "pali": "Evaṁ vutte, kevaṭṭa, tāvatiṁsā devā taṁ bhikkhuṁ etadavocuṁ: ",
+      "english": ""
+    },
+    {
+      "number": 103,
+      "pali": "‘mayampi kho, bhikkhu, na jānāma: ",
+      "english": ""
+    },
+    {
+      "number": 104,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”ti. ",
+      "english": ""
+    },
+    {
+      "number": 105,
+      "pali": "Atthi kho, bhikkhu, sakko nāma devānamindo amhehi abhikkantataro ca paṇītataro ca. ",
+      "english": "Sakka, lord of gods … "
+    },
+    {
+      "number": 106,
+      "pali": "So kho etaṁ jāneyya: ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 108,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu yena sakko devānamindo tenupasaṅkami; upasaṅkamitvā sakkaṁ devānamindaṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 109,
+      "pali": "‘kattha nu kho, āvuso, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti? ",
+      "english": ""
+    },
+    {
+      "number": 110,
+      "pali": "Evaṁ vutte, kevaṭṭa, sakko devānamindo taṁ bhikkhuṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 111,
+      "pali": "‘ahampi kho, bhikkhu, na jānāmi: ",
+      "english": ""
+    },
+    {
+      "number": 112,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”ti. ",
+      "english": ""
+    },
+    {
+      "number": 113,
+      "pali": "Atthi kho, bhikkhu, yāmā nāma devā …pe… ",
+      "english": "the gods of Yama … "
+    },
+    {
+      "number": 114,
+      "pali": "suyāmo nāma devaputto … ",
+      "english": "the godling named Suyāma … "
+    },
+    {
+      "number": 115,
+      "pali": "tusitā nāma devā … ",
+      "english": "the Joyful gods … "
+    },
+    {
+      "number": 116,
+      "pali": "santussito nāma devaputto … ",
+      "english": "the godling named Santussita … "
+    },
+    {
+      "number": 117,
+      "pali": "nimmānaratī nāma devā … ",
+      "english": "the gods who love to create … "
+    },
+    {
+      "number": 118,
+      "pali": "sunimmito nāma devaputto … ",
+      "english": "the godling named Sunimmita … "
+    },
+    {
+      "number": 119,
+      "pali": "paranimmitavasavattī nāma devā … ",
+      "english": "the gods who control the creation of others … "
+    },
+    {
+      "number": 120,
+      "pali": "vasavattī nāma devaputto amhehi abhikkantataro ca paṇītataro ca. ",
+      "english": "the godling named Vasavattī … "
+    },
+    {
+      "number": 121,
+      "pali": "So kho etaṁ jāneyya: ",
+      "english": ""
+    },
+    {
+      "number": 122,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 123,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu yena vasavattī devaputto tenupasaṅkami; upasaṅkamitvā vasavattiṁ devaputtaṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 124,
+      "pali": "‘kattha nu kho, āvuso, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti? ",
+      "english": ""
+    },
+    {
+      "number": 125,
+      "pali": "Evaṁ vutte, kevaṭṭa, vasavattī devaputto taṁ bhikkhuṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 126,
+      "pali": "‘ahampi kho, bhikkhu, na jānāmi: ",
+      "english": ""
+    },
+    {
+      "number": 127,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”ti. ",
+      "english": ""
+    },
+    {
+      "number": 128,
+      "pali": "Atthi kho, bhikkhu, brahmakāyikā nāma devā amhehi abhikkantatarā ca paṇītatarā ca. ",
+      "english": "the gods of the Divinity’s host are our superiors. "
+    },
+    {
+      "number": 129,
+      "pali": "Te kho etaṁ jāneyyuṁ: ",
+      "english": "They might know.’ "
+    },
+    {
+      "number": 130,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 131,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu tathārūpaṁ samādhiṁ samāpajji, yathāsamāhite citte brahmayāniyo maggo pāturahosi. ",
+      "english": "Then that mendicant attained a state of immersion such that a path to divinity appeared. "
+    },
+    {
+      "number": 132,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu yena brahmakāyikā devā tenupasaṅkami; upasaṅkamitvā brahmakāyike deve etadavoca: ",
+      "english": "Then he approached the gods of the Divinity’s host and said, "
+    },
+    {
+      "number": 133,
+      "pali": "‘kattha nu kho, āvuso, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti? ",
+      "english": "‘Reverends, where do these four principal states cease without remainder, namely, the elements of earth, water, fire, and air?’ "
+    },
+    {
+      "number": 134,
+      "pali": "Evaṁ vutte, kevaṭṭa, brahmakāyikā devā taṁ bhikkhuṁ etadavocuṁ: ",
+      "english": "But they also said to him, "
+    },
+    {
+      "number": 135,
+      "pali": "‘mayampi kho, bhikkhu, na jānāma: ",
+      "english": "‘Mendicant, we too do not know this. "
+    },
+    {
+      "number": 136,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”ti. ",
+      "english": ""
+    },
+    {
+      "number": 137,
+      "pali": "Atthi kho, bhikkhu, brahmā mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī issaro kattā nimmātā seṭṭho sajitā vasī pitā bhūtabhabyānaṁ amhehi abhikkantataro ca paṇītataro ca. ",
+      "english": "But there is the Divinity, the Great Divinity, the Vanquisher, the Unvanquished, the Universal Seer, the Wielder of Power, God Almighty, the Maker, the Creator, the First, the Begetter, the Controller, the Father of those who have been born and those yet to be born. He is our superior. "
+    },
+    {
+      "number": 138,
+      "pali": "So kho etaṁ jāneyya: ",
+      "english": "He might know.’ "
+    },
+    {
+      "number": 139,
+      "pali": "“yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 140,
+      "pali": "‘Kahaṁ panāvuso, etarahi so mahābrahmā’ti? ",
+      "english": "‘But reverends, where is that Divinity now?’ "
+    },
+    {
+      "number": 141,
+      "pali": "‘Mayampi kho, bhikkhu, na jānāma, yattha vā brahmā yena vā brahmā yahiṁ vā brahmā; ",
+      "english": "‘We also don’t know where he is or what way he lies. "
+    },
+    {
+      "number": 142,
+      "pali": "api ca, bhikkhu, yathā nimittā dissanti, āloko sañjāyati, obhāso pātubhavati, brahmā pātubhavissati, brahmuno hetaṁ pubbanimittaṁ pātubhāvāya, yadidaṁ āloko sañjāyati, obhāso pātubhavatī’ti. ",
+      "english": "But by the signs that are seen—light arising and radiance appearing—we know that Divinity will appear. For this is the harbinger for the appearance of the Divinity, namely light arising and radiance appearing.’ "
+    },
+    {
+      "number": 143,
+      "pali": "Atha kho so, kevaṭṭa, mahābrahmā nacirasseva pāturahosi. ",
+      "english": "Not long afterwards, the Great Divinity appeared. "
+    },
+    {
+      "number": 144,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu yena so mahābrahmā tenupasaṅkami; upasaṅkamitvā taṁ mahābrahmānaṁ etadavoca: ",
+      "english": "Then that mendicant approached the Great Divinity and said to him, "
+    },
+    {
+      "number": 145,
+      "pali": "‘kattha nu kho, āvuso, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti? ",
+      "english": "‘Reverend, where do these four principal states cease without remainder, namely, the elements of earth, water, fire, and air?’ "
+    },
+    {
+      "number": 146,
+      "pali": "Evaṁ vutte, kevaṭṭa, so mahābrahmā taṁ bhikkhuṁ etadavoca: ",
+      "english": "The Great Divinity said to him, "
+    },
+    {
+      "number": 147,
+      "pali": "‘ahamasmi, bhikkhu, brahmā mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī issaro kattā nimmātā seṭṭho sajitā vasī pitā bhūtabhabyānan’ti. ",
+      "english": "‘I am the Divinity, the Great Divinity, the Vanquisher, the Unvanquished, the Universal Seer, the Wielder of Power, God Almighty, the Maker, the Creator, the First, the Begetter, the Controller, the Father of those who have been born and those yet to be born.’ "
+    },
+    {
+      "number": 148,
+      "pali": "Dutiyampi kho so, kevaṭṭa, bhikkhu taṁ mahābrahmānaṁ etadavoca: ",
+      "english": "For a second time, that mendicant said to the Great Divinity, "
+    },
+    {
+      "number": 149,
+      "pali": "‘na khohaṁ taṁ, āvuso, evaṁ pucchāmi: ",
+      "english": "‘Reverend, I am not asking you whether you are "
+    },
+    {
+      "number": 150,
+      "pali": "“tvamasi brahmā mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī issaro kattā nimmātā seṭṭho sajitā vasī pitā bhūtabhabyānan”ti. ",
+      "english": "the Divinity, the Great Divinity, the Vanquisher, the Unvanquished, the Universal Seer, the Wielder of Power, God Almighty, the Maker, the Creator, the First, the Begetter, the Controller, the Father of those who have been born and those yet to be born. "
+    },
+    {
+      "number": 151,
+      "pali": "Evañca kho ahaṁ taṁ, āvuso, pucchāmi: ",
+      "english": "I am asking "
+    },
+    {
+      "number": 152,
+      "pali": "“kattha nu kho, āvuso, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”’ti? ",
+      "english": "where these four principal states cease without remainder.’ "
+    },
+    {
+      "number": 153,
+      "pali": "Dutiyampi kho so, kevaṭṭa, mahābrahmā taṁ bhikkhuṁ etadavoca: ",
+      "english": "For a second time, the Great Divinity said to him, "
+    },
+    {
+      "number": 154,
+      "pali": "‘ahamasmi, bhikkhu, brahmā mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī issaro kattā nimmātā seṭṭho sajitā vasī pitā bhūtabhabyānan’ti. ",
+      "english": "‘I am the Divinity, the Great Divinity, the Vanquisher, the Unvanquished, the Universal Seer, the Wielder of Power, God Almighty, the Maker, the Creator, the First, the Begetter, the Controller, the Father of those who have been born and those yet to be born.’ "
+    },
+    {
+      "number": 155,
+      "pali": "Tatiyampi kho so, kevaṭṭa, bhikkhu taṁ mahābrahmānaṁ etadavoca: ",
+      "english": "For a third time, that mendicant said to the Great Divinity, "
+    },
+    {
+      "number": 156,
+      "pali": "‘na khohaṁ taṁ, āvuso, evaṁ pucchāmi: ",
+      "english": "‘Reverend, I am not asking you whether you are "
+    },
+    {
+      "number": 157,
+      "pali": "“tvamasi brahmā mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī issaro kattā nimmātā seṭṭho sajitā vasī pitā bhūtabhabyānan”ti. ",
+      "english": "the Divinity, the Great Divinity, the Vanquisher, the Unvanquished, the Universal Seer, the Wielder of Power, God Almighty, the Maker, the Creator, the First, the Begetter, the Controller, the Father of those who have been born and those yet to be born. "
+    },
+    {
+      "number": 158,
+      "pali": "Evañca kho ahaṁ taṁ, āvuso, pucchāmi: ",
+      "english": "I am asking "
+    },
+    {
+      "number": 159,
+      "pali": "“kattha nu kho, āvuso, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū”’ti? ",
+      "english": "where these four principal states cease without remainder.’ "
+    },
+    {
+      "number": 160,
+      "pali": "Atha kho so, kevaṭṭa, mahābrahmā taṁ bhikkhuṁ bāhāyaṁ gahetvā ekamantaṁ apanetvā taṁ bhikkhuṁ etadavoca: ",
+      "english": "Then the Great Divinity took that mendicant by the arm, led him off to one side, and said to him, "
+    },
+    {
+      "number": 161,
+      "pali": "‘ime kho maṁ, bhikkhu, brahmakāyikā devā evaṁ jānanti, “natthi kiñci brahmuno aññātaṁ, natthi kiñci brahmuno adiṭṭhaṁ, natthi kiñci brahmuno aviditaṁ, natthi kiñci brahmuno asacchikatan”ti. ",
+      "english": "‘Mendicant, these gods think that there is nothing at all that I don’t know and see and understand and realize. "
+    },
+    {
+      "number": 162,
+      "pali": "Tasmāhaṁ tesaṁ sammukhā na byākāsiṁ. ",
+      "english": "That’s why I didn’t answer in front of them. "
+    },
+    {
+      "number": 163,
+      "pali": "Ahampi kho, bhikkhu, na jānāmi yatthime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātūti. ",
+      "english": "But I too do not know where these four principal states cease with nothing left over. "
+    },
+    {
+      "number": 164,
+      "pali": "Tasmātiha, bhikkhu, tuyhevetaṁ dukkaṭaṁ, tuyhevetaṁ aparaddhaṁ, yaṁ tvaṁ taṁ bhagavantaṁ atidhāvitvā bahiddhā pariyeṭṭhiṁ āpajjasi imassa pañhassa veyyākaraṇāya. ",
+      "english": "Therefore, mendicant, the misdeed is yours alone, the mistake is yours alone, in that you passed over the Buddha and searched elsewhere for an answer to this question. "
+    },
+    {
+      "number": 165,
+      "pali": "Gaccha tvaṁ, bhikkhu, tameva bhagavantaṁ upasaṅkamitvā imaṁ pañhaṁ puccha, yathā ca te bhagavā byākaroti, tathā naṁ dhāreyyāsī’ti. ",
+      "english": "Mendicant, go to the Buddha and ask him this question. You should remember it in line with his answer.’ "
+    },
+    {
+      "number": 166,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evameva brahmaloke antarahito mama purato pāturahosi. ",
+      "english": "Then that mendicant, as easily as a strong person would extend or contract their arm, vanished from the realm of divinity and reappeared in front of me. "
+    },
+    {
+      "number": 167,
+      "pali": "Atha kho so, kevaṭṭa, bhikkhu maṁ abhivādetvā ekamantaṁ nisīdi, ekamantaṁ nisinno kho, kevaṭṭa, so bhikkhu maṁ etadavoca: ",
+      "english": "Then he bowed, sat down to one side, and said to me, "
+    },
+    {
+      "number": 168,
+      "pali": "‘kattha nu kho, bhante, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti? ",
+      "english": "‘Sir, where do these four principal states cease without remainder, namely, the elements of earth, water, fire, and air?’ "
+    },
+    {
+      "number": 169,
+      "pali": "4.1. Tīradassisakuṇupamā ",
+      "english": "4.1. The Simile of the Land-Spotting Bird "
+    },
+    {
+      "number": 170,
+      "pali": "Evaṁ vutte, ahaṁ, kevaṭṭa, taṁ bhikkhuṁ etadavocaṁ—",
+      "english": "When he said this, I said to him: "
+    },
+    {
+      "number": 171,
+      "pali": "bhūtapubbaṁ, bhikkhu, sāmuddikā vāṇijā tīradassiṁ sakuṇaṁ gahetvā nāvāya samuddaṁ ajjhogāhanti. ",
+      "english": "‘Once upon a time, mendicant, some sea-merchants set sail for the ocean deeps, taking with them a land-spotting bird. "
+    },
+    {
+      "number": 172,
+      "pali": "Te atīradakkhiniyā nāvāya tīradassiṁ sakuṇaṁ muñcanti. ",
+      "english": "When their ship was out of sight of land, they released the bird. "
+    },
+    {
+      "number": 173,
+      "pali": "So gacchateva puratthimaṁ disaṁ, gacchati dakkhiṇaṁ disaṁ, gacchati pacchimaṁ disaṁ, gacchati uttaraṁ disaṁ, gacchati uddhaṁ disaṁ, gacchati anudisaṁ. ",
+      "english": "It flew right away to the east, the west, the north, the south, upwards, and in-between. "
+    },
+    {
+      "number": 174,
+      "pali": "Sace so samantā tīraṁ passati, tathāgatakova hoti. ",
+      "english": "If it saw land on any side, it went there and stayed. "
+    },
+    {
+      "number": 175,
+      "pali": "Sace pana so samantā tīraṁ na passati, tameva nāvaṁ paccāgacchati. ",
+      "english": "But if it saw no land on any side it returned to the ship. "
+    },
+    {
+      "number": 176,
+      "pali": "Evameva kho tvaṁ, bhikkhu, yato yāva brahmalokā pariyesamāno imassa pañhassa veyyākaraṇaṁ nājjhagā, atha mamaññeva santike paccāgato. ",
+      "english": "In the same way, after failing to get an answer to this question even after searching as far as the realm of divinity, you’ve returned to me. "
+    },
+    {
+      "number": 177,
+      "pali": "Na kho eso, bhikkhu, pañho evaṁ pucchitabbo: ",
+      "english": "Mendicant, this is not how the question should be asked: "
+    },
+    {
+      "number": 178,
+      "pali": "‘kattha nu kho, bhante, ime cattāro mahābhūtā aparisesā nirujjhanti, seyyathidaṁ—pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti? ",
+      "english": "“Sir, where do these four principal states cease without remainder, namely, the elements of earth, water, fire, and air?” "
+    },
+    {
+      "number": 179,
+      "pali": "Evañca kho eso, bhikkhu, pañho pucchitabbo: ",
+      "english": "This is how the question should be asked: "
+    },
+    {
+      "number": 180,
+      "pali": "‘Kattha āpo ca pathavī, ",
+      "english": "“Where do water and earth, "
+    },
+    {
+      "number": 181,
+      "pali": "tejo vāyo na gādhati; ",
+      "english": "fire and air have no footing; "
+    },
+    {
+      "number": 182,
+      "pali": "Kattha dīghañca rassañca, ",
+      "english": "where long and short, "
+    },
+    {
+      "number": 183,
+      "pali": "aṇuṁ thūlaṁ subhāsubhaṁ; ",
+      "english": "fine and coarse, beautiful and ugly? "
+    },
+    {
+      "number": 184,
+      "pali": "Kattha nāmañca rūpañca, ",
+      "english": "Where does name-and-form "
+    },
+    {
+      "number": 185,
+      "pali": "asesaṁ uparujjhatī’ti. ",
+      "english": "cease with nothing left over?” "
+    },
+    {
+      "number": 186,
+      "pali": "Tatra veyyākaraṇaṁ bhavati: ",
+      "english": "And the answer to that is: "
+    },
+    {
+      "number": 187,
+      "pali": "‘Viññāṇaṁ anidassanaṁ, ",
+      "english": "“‘Consciousness where no form appears, "
+    },
+    {
+      "number": 188,
+      "pali": "anantaṁ sabbatopabhaṁ; ",
+      "english": "infinite, luminous all-round.’ "
+    },
+    {
+      "number": 189,
+      "pali": "Ettha āpo ca pathavī, ",
+      "english": "Regarding this, water and earth, "
+    },
+    {
+      "number": 190,
+      "pali": "tejo vāyo na gādhati. ",
+      "english": "fire and air have no footing; "
+    },
+    {
+      "number": 191,
+      "pali": "Ettha dīghañca rassañca, ",
+      "english": "regarding this, long and short, "
+    },
+    {
+      "number": 192,
+      "pali": "aṇuṁ thūlaṁ subhāsubhaṁ; ",
+      "english": "fine and coarse, beautiful and ugly. "
+    },
+    {
+      "number": 193,
+      "pali": "Ettha nāmañca rūpañca, ",
+      "english": "Regarding this, name and form "
+    },
+    {
+      "number": 194,
+      "pali": "asesaṁ uparujjhati; ",
+      "english": "ceases with no residue left behind—"
+    },
+    {
+      "number": 195,
+      "pali": "Viññāṇassa nirodhena, ",
+      "english": "with the cessation of consciousness, "
+    },
+    {
+      "number": 196,
+      "pali": "etthetaṁ uparujjhatī’”ti. ",
+      "english": "they cease in reference to this.”’” "
+    },
+    {
+      "number": 197,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 198,
+      "pali": "Attamano kevaṭṭo gahapatiputto bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, the householder Kevaḍḍha approved what the Buddha said. "
+    },
+    {
+      "number": 199,
+      "pali": "Kevaṭṭasuttaṁ niṭṭhitaṁ ekādasamaṁ. ",
+      "english": ""
+    }
+  ]
+}

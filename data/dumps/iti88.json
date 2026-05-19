@@ -1,0 +1,260 @@
+{
+  "sutta_id": "ITI88",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Itivuttaka 88 ",
+      "english": "So It Was Said 88 "
+    },
+    {
+      "number": 2,
+      "pali": "Tikanipāta ",
+      "english": "The Book of the Threes "
+    },
+    {
+      "number": 3,
+      "pali": "Catutthavagga ",
+      "english": "Chapter Four "
+    },
+    {
+      "number": 4,
+      "pali": "Antarāmalasutta ",
+      "english": "Inner Stains "
+    },
+    {
+      "number": 5,
+      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
+      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+    },
+    {
+      "number": 6,
+      "pali": "“Tayome, bhikkhave, antarāmalā antarāamittā antarāsapattā antarāvadhakā antarāpaccatthikā. ",
+      "english": "“Mendicants, there are these three inner stains, inner foes, inner enemies, inner killers, and inner adversaries. "
+    },
+    {
+      "number": 7,
+      "pali": "Katame tayo? ",
+      "english": "What three? "
+    },
+    {
+      "number": 8,
+      "pali": "Lobho, bhikkhave, antarāmalo antarāamitto antarāsapatto antarāvadhako antarāpaccatthiko. ",
+      "english": "Greed, "
+    },
+    {
+      "number": 9,
+      "pali": "Doso, bhikkhave, antarāmalo antarāamitto antarāsapatto antarāvadhako antarāpaccatthiko. ",
+      "english": "hate, "
+    },
+    {
+      "number": 10,
+      "pali": "Moho, bhikkhave, antarāmalo antarāamitto antarāsapatto antarāvadhako antarāpaccatthiko. ",
+      "english": "and delusion. "
+    },
+    {
+      "number": 11,
+      "pali": "Ime kho, bhikkhave, tayo antarāmalā antarāamittā antarāsapattā antarāvadhakā antarāpaccatthikā”ti. ",
+      "english": "These three are inner stains, inner foes, inner enemies, inner killers, and inner adversaries.” "
+    },
+    {
+      "number": 12,
+      "pali": "Etamatthaṁ bhagavā avoca. ",
+      "english": "The Buddha spoke this matter. "
+    },
+    {
+      "number": 13,
+      "pali": "Tatthetaṁ iti vuccati: ",
+      "english": "On this it is said: "
+    },
+    {
+      "number": 14,
+      "pali": "“Anatthajanano lobho, ",
+      "english": "“Greed creates harm; "
+    },
+    {
+      "number": 15,
+      "pali": "lobho cittappakopano; ",
+      "english": "greed upsets the mind. "
+    },
+    {
+      "number": 16,
+      "pali": "Bhayamantarato jātaṁ, ",
+      "english": "That person doesn’t recognize "
+    },
+    {
+      "number": 17,
+      "pali": "taṁ jano nāvabujjhati. ",
+      "english": "the danger that arises within. "
+    },
+    {
+      "number": 18,
+      "pali": "Luddho atthaṁ na jānāti, ",
+      "english": "A greedy person doesn’t know the good. "
+    },
+    {
+      "number": 19,
+      "pali": "luddho dhammaṁ na passati; ",
+      "english": "A greedy person doesn’t see the truth. "
+    },
+    {
+      "number": 20,
+      "pali": "Andhatamaṁ tadā hoti, ",
+      "english": "When a person is beset by greed, "
+    },
+    {
+      "number": 21,
+      "pali": "yaṁ lobho sahate naraṁ. ",
+      "english": "only blind darkness is left. "
+    },
+    {
+      "number": 22,
+      "pali": "Yo ca lobhaṁ pahantvāna, ",
+      "english": "Those who have given up greed, "
+    },
+    {
+      "number": 23,
+      "pali": "lobhaneyye na lubbhati; ",
+      "english": "don’t get greedy even when provoked. "
+    },
+    {
+      "number": 24,
+      "pali": "Lobho pahīyate tamhā, ",
+      "english": "Greed falls off them "
+    },
+    {
+      "number": 25,
+      "pali": "udabindūva pokkharā. ",
+      "english": "like a drop from a lotus-leaf. "
+    },
+    {
+      "number": 26,
+      "pali": "Anatthajanano doso, ",
+      "english": "Hate creates harm; "
+    },
+    {
+      "number": 27,
+      "pali": "doso cittappakopano; ",
+      "english": "hate upsets the mind. "
+    },
+    {
+      "number": 28,
+      "pali": "Bhayamantarato jātaṁ, ",
+      "english": "That person doesn’t recognize "
+    },
+    {
+      "number": 29,
+      "pali": "taṁ jano nāvabujjhati. ",
+      "english": "the danger that arises within. "
+    },
+    {
+      "number": 30,
+      "pali": "Duṭṭho atthaṁ na jānāti, ",
+      "english": "A hateful person doesn’t know the good. "
+    },
+    {
+      "number": 31,
+      "pali": "duṭṭho dhammaṁ na passati; ",
+      "english": "A hateful person doesn’t see the truth. "
+    },
+    {
+      "number": 32,
+      "pali": "Andhatamaṁ tadā hoti, ",
+      "english": "When a person is beset by hate, "
+    },
+    {
+      "number": 33,
+      "pali": "yaṁ doso sahate naraṁ. ",
+      "english": "only blind darkness is left. "
+    },
+    {
+      "number": 34,
+      "pali": "Yo ca dosaṁ pahantvāna, ",
+      "english": "Those who have given up hate, "
+    },
+    {
+      "number": 35,
+      "pali": "dosaneyye na dussati; ",
+      "english": "don’t get angry even when provoked. "
+    },
+    {
+      "number": 36,
+      "pali": "Doso pahīyate tamhā, ",
+      "english": "Hate falls off them "
+    },
+    {
+      "number": 37,
+      "pali": "tālapakkaṁva bandhanā. ",
+      "english": "like a ripe palmyra fruit from its stem. "
+    },
+    {
+      "number": 38,
+      "pali": "Anatthajanano moho, ",
+      "english": "Delusion creates harm; "
+    },
+    {
+      "number": 39,
+      "pali": "moho cittappakopano; ",
+      "english": "delusion upsets the mind. "
+    },
+    {
+      "number": 40,
+      "pali": "Bhayamantarato jātaṁ, ",
+      "english": "That person doesn’t recognize "
+    },
+    {
+      "number": 41,
+      "pali": "taṁ jano nāvabujjhati. ",
+      "english": "the danger that arises within. "
+    },
+    {
+      "number": 42,
+      "pali": "Mūḷho atthaṁ na jānāti, ",
+      "english": "A deluded person doesn’t know the good. "
+    },
+    {
+      "number": 43,
+      "pali": "mūḷho dhammaṁ na passati; ",
+      "english": "A deluded person doesn’t see the truth. "
+    },
+    {
+      "number": 44,
+      "pali": "Andhatamaṁ tadā hoti, ",
+      "english": "When a person is beset by delusion, "
+    },
+    {
+      "number": 45,
+      "pali": "yaṁ moho sahate naraṁ. ",
+      "english": "only blind darkness is left. "
+    },
+    {
+      "number": 46,
+      "pali": "Yo ca mohaṁ pahantvāna, ",
+      "english": "Those who have given up delusion, "
+    },
+    {
+      "number": 47,
+      "pali": "mohaneyye na muyhati; ",
+      "english": "don’t get deluded even when provoked. "
+    },
+    {
+      "number": 48,
+      "pali": "Mohaṁ vihanti so sabbaṁ, ",
+      "english": "They banish all delusion, "
+    },
+    {
+      "number": 49,
+      "pali": "ādiccovudayaṁ taman”ti. ",
+      "english": "as the rising sun the dark.” "
+    },
+    {
+      "number": 50,
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
+      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
+    },
+    {
+      "number": 51,
+      "pali": "Navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

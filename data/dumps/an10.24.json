@@ -1,0 +1,990 @@
+{
+  "sutta_id": "AN10.24",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.24 ",
+      "english": "Numbered Discourses 10.24 "
+    },
+    {
+      "number": 2,
+      "pali": "3. Mahāvagga ",
+      "english": "3. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Mahācundasutta ",
+      "english": "By Mahācunda "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ āyasmā mahācundo cetīsu viharati sahajātiyaṁ. ",
+      "english": "At one time Venerable Mahācunda was staying in the land of the Cetīs at Sahajāti. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho āyasmā mahācundo bhikkhū āmantesi: ",
+      "english": "There he addressed the mendicants: "
+    },
+    {
+      "number": 6,
+      "pali": "“āvuso bhikkhave”ti. ",
+      "english": "“Reverends, mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Āvuso”ti kho te bhikkhū āyasmato mahācundassa paccassosuṁ. ",
+      "english": "“Reverend,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Āyasmā mahācundo etadavoca: ",
+      "english": "Venerable Mahācunda said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Ñāṇavādaṁ, āvuso, bhikkhu vadamāno: ",
+      "english": "“Reverends, a mendicant who makes a declaration of knowledge says: "
+    },
+    {
+      "number": 10,
+      "pali": "‘jānāmimaṁ dhammaṁ, passāmimaṁ dhamman’ti. ",
+      "english": "‘I know this teaching, I see this teaching.’ "
+    },
+    {
+      "number": 11,
+      "pali": "Tañce, āvuso, bhikkhuṁ lobho abhibhuyya tiṭṭhati, ",
+      "english": "Suppose that greed masters that mendicant and keeps going. "
+    },
+    {
+      "number": 12,
+      "pali": "doso … ",
+      "english": "Or that hate … "
+    },
+    {
+      "number": 13,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 14,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 15,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 16,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 17,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 18,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 19,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 20,
+      "pali": "pāpikā icchā abhibhuyya tiṭṭhati, so evamassa veditabbo: ",
+      "english": "or corrupt wishes master that mendicant and keep going. You should know of them: "
+    },
+    {
+      "number": 21,
+      "pali": "‘nāyamāyasmā tathā pajānāti yathā pajānato lobho na hoti, tathāhimaṁ āyasmantaṁ lobho abhibhuyya tiṭṭhati; ",
+      "english": "‘This venerable does not have the understanding that would eliminate greed, so greed masters them and keeps going. "
+    },
+    {
+      "number": 22,
+      "pali": "nāyamāyasmā tathā pajānāti yathā pajānato doso na hoti … ",
+      "english": "They don’t have the understanding that would eliminate hate … "
+    },
+    {
+      "number": 23,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 24,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 25,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 26,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 27,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 28,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 29,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 30,
+      "pali": "pāpikā icchā na hoti, tathāhimaṁ āyasmantaṁ pāpikā icchā abhibhuyya tiṭṭhatī’ti. ",
+      "english": "or corrupt wishes, so corrupt wishes master them and keep going.’ "
+    },
+    {
+      "number": 31,
+      "pali": "Bhāvanāvādaṁ, āvuso, bhikkhu vadamāno: ",
+      "english": "A mendicant who makes a declaration of development says: "
+    },
+    {
+      "number": 32,
+      "pali": "‘bhāvitakāyomhi bhāvitasīlo bhāvitacitto bhāvitapañño’ti. ",
+      "english": "‘I am developed in physical endurance, ethics, mind, and wisdom.’ "
+    },
+    {
+      "number": 33,
+      "pali": "Tañce, āvuso, bhikkhuṁ lobho abhibhuyya tiṭṭhati, ",
+      "english": "Suppose that greed masters that mendicant and keeps going. "
+    },
+    {
+      "number": 34,
+      "pali": "doso … ",
+      "english": "Or that hate … "
+    },
+    {
+      "number": 35,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 36,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 37,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 38,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 39,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 40,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 41,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 42,
+      "pali": "pāpikā icchā abhibhuyya tiṭṭhati, so evamassa veditabbo: ",
+      "english": "or corrupt wishes master that mendicant and keep going. You should know of them: "
+    },
+    {
+      "number": 43,
+      "pali": "‘nāyamāyasmā tathā pajānāti yathā pajānato lobho na hoti, tathāhimaṁ āyasmantaṁ lobho abhibhuyya tiṭṭhati; ",
+      "english": "‘This venerable does not have the understanding that would eliminate greed, so greed masters them and keeps going. "
+    },
+    {
+      "number": 44,
+      "pali": "nāyamāyasmā tathā pajānāti yathā pajānato doso na hoti … ",
+      "english": "They don’t have the understanding that would eliminate hate … "
+    },
+    {
+      "number": 45,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 46,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 47,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 48,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 49,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 50,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 51,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 52,
+      "pali": "pāpikā icchā na hoti, tathāhimaṁ āyasmantaṁ pāpikā icchā abhibhuyya tiṭṭhatī’ti. ",
+      "english": "or corrupt wishes, so corrupt wishes master them and keep going.’ "
+    },
+    {
+      "number": 53,
+      "pali": "Ñāṇavādañca, āvuso, bhikkhu vadamāno bhāvanāvādañca: ",
+      "english": "A mendicant who makes a declaration of both knowledge and development says: "
+    },
+    {
+      "number": 54,
+      "pali": "‘jānāmimaṁ dhammaṁ, passāmimaṁ dhammaṁ, bhāvitakāyomhi bhāvitasīlo bhāvitacitto bhāvitapañño’ti. ",
+      "english": "‘I know this teaching, I see this teaching. And I am developed in physical endurance, ethics, mind, and wisdom.’ "
+    },
+    {
+      "number": 55,
+      "pali": "Tañce, āvuso, bhikkhuṁ lobho abhibhuyya tiṭṭhati, ",
+      "english": "Suppose that greed masters that mendicant and keeps going. "
+    },
+    {
+      "number": 56,
+      "pali": "doso … ",
+      "english": "Or that hate … "
+    },
+    {
+      "number": 57,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 58,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 59,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 60,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 61,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 62,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 63,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 64,
+      "pali": "pāpikā icchā abhibhuyya tiṭṭhati, so evamassa veditabbo: ",
+      "english": "or corrupt wishes master that mendicant and keep going. You should know of them: "
+    },
+    {
+      "number": 65,
+      "pali": "‘nāyamāyasmā tathā pajānāti yathā pajānato lobho na hoti, tathāhimaṁ āyasmantaṁ lobho abhibhuyya tiṭṭhati; ",
+      "english": "‘This venerable does not have the understanding that would eliminate greed, so greed masters them and keeps going. "
+    },
+    {
+      "number": 66,
+      "pali": "nāyamāyasmā tathā pajānāti yathā pajānato doso na hoti … ",
+      "english": "They don’t have the understanding that would eliminate hate … "
+    },
+    {
+      "number": 67,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 68,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 69,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 70,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 71,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 72,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 73,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 74,
+      "pali": "pāpikā icchā na hoti, tathāhimaṁ āyasmantaṁ pāpikā icchā abhibhuyya tiṭṭhatī’ti. ",
+      "english": "or corrupt wishes, so corrupt wishes master them and keep going.’ "
+    },
+    {
+      "number": 75,
+      "pali": "Seyyathāpi, āvuso, puriso daliddova samāno aḍḍhavādaṁ vadeyya, adhanova samāno dhanavāvādaṁ vadeyya, abhogova samāno bhogavāvādaṁ vadeyya. ",
+      "english": "Suppose a poor, needy, and penniless person was to declare themselves to be rich, affluent, and wealthy. "
+    },
+    {
+      "number": 76,
+      "pali": "So kismiñcideva dhanakaraṇīye samuppanne na sakkuṇeyya upanīhātuṁ dhanaṁ vā dhaññaṁ vā rajataṁ vā jātarūpaṁ vā. ",
+      "english": "But when it came time to make a payment they weren’t able to come up with any money, grain, silver, or gold. "
+    },
+    {
+      "number": 77,
+      "pali": "Tamenaṁ evaṁ jāneyyuṁ: ",
+      "english": "They would know of them: "
+    },
+    {
+      "number": 78,
+      "pali": "‘daliddova ayamāyasmā samāno aḍḍhavādaṁ vadeti, adhanova ayamāyasmā samāno dhanavāvādaṁ vadeti, abhogavāva ayamāyasmā samāno bhogavāvādaṁ vadeti. ",
+      "english": "‘This person declares themselves to be rich, affluent, and wealthy, but they are in fact poor, penniless, and needy.’ "
+    },
+    {
+      "number": 79,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 80,
+      "pali": "Tathā hi ayamāyasmā kismiñcideva dhanakaraṇīye samuppanne na sakkoti upanīhātuṁ dhanaṁ vā dhaññaṁ vā rajataṁ vā jātarūpaṁ vā’ti. ",
+      "english": "Because when it came time to make a payment they weren’t able to come up with any money, grain, silver, or gold. "
+    },
+    {
+      "number": 81,
+      "pali": "Evamevaṁ kho, āvuso, ñāṇavādañca bhikkhu vadamāno bhāvanāvādañca: ",
+      "english": "In the same way, a mendicant who makes a declaration of knowledge and development says: "
+    },
+    {
+      "number": 82,
+      "pali": "‘jānāmimaṁ dhammaṁ, passāmimaṁ dhammaṁ, bhāvitakāyomhi bhāvitasīlo bhāvitacitto bhāvitapañño’ti. ",
+      "english": "‘I know this teaching, I see this teaching. And I am developed in physical endurance, ethics, mind, and wisdom.’ "
+    },
+    {
+      "number": 83,
+      "pali": "Tañce, āvuso, bhikkhuṁ lobho abhibhuyya tiṭṭhati, ",
+      "english": "Suppose that greed masters that mendicant and keeps going. "
+    },
+    {
+      "number": 84,
+      "pali": "doso … ",
+      "english": "Or that hate … "
+    },
+    {
+      "number": 85,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 86,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 87,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 88,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 89,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 90,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 91,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 92,
+      "pali": "pāpikā icchā abhibhuyya tiṭṭhati, so evamassa veditabbo: ",
+      "english": "or corrupt wishes master that mendicant and keep going. You should know of them: "
+    },
+    {
+      "number": 93,
+      "pali": "‘nāyamāyasmā tathā pajānāti yathā pajānato lobho na hoti, tathāhimaṁ āyasmantaṁ lobho abhibhuyya tiṭṭhati; ",
+      "english": "‘This venerable does not have the understanding that would eliminate greed, so greed masters them and keeps going. "
+    },
+    {
+      "number": 94,
+      "pali": "nāyamāyasmā tathā pajānāti yathā pajānato doso na hoti … ",
+      "english": "They don’t have the understanding that would eliminate hate … "
+    },
+    {
+      "number": 95,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 96,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 97,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 98,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 99,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 100,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 101,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 102,
+      "pali": "pāpikā icchā na hoti, tathāhimaṁ āyasmantaṁ pāpikā icchā abhibhuyya tiṭṭhatī’ti. ",
+      "english": "or corrupt wishes, so corrupt wishes master them and keep going.’ "
+    },
+    {
+      "number": 103,
+      "pali": "Ñāṇavādaṁ, āvuso, bhikkhu vadamāno: ",
+      "english": "A mendicant who makes a declaration of knowledge says: "
+    },
+    {
+      "number": 104,
+      "pali": "‘jānāmimaṁ dhammaṁ, passāmimaṁ dhamman’ti. ",
+      "english": "‘I know this teaching, I see this teaching.’ "
+    },
+    {
+      "number": 105,
+      "pali": "Tañce, āvuso, bhikkhuṁ lobho nābhibhuyya tiṭṭhati, ",
+      "english": "Suppose that greed does not master that mendicant and keep going. "
+    },
+    {
+      "number": 106,
+      "pali": "doso … ",
+      "english": "Or that hate … "
+    },
+    {
+      "number": 107,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 108,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 109,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 110,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 111,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 112,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 113,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 114,
+      "pali": "pāpikā icchā nābhibhuyya tiṭṭhati, so evamassa veditabbo: ",
+      "english": "or corrupt wishes don’t master that mendicant and keep going. You should know of them: "
+    },
+    {
+      "number": 115,
+      "pali": "‘ayamāyasmā tathā pajānāti yathā pajānato lobho na hoti, tathāhimaṁ āyasmantaṁ lobho nābhibhuyya tiṭṭhati; ",
+      "english": "‘This venerable has the understanding that eliminates greed, so greed doesn’t master them and keep going. "
+    },
+    {
+      "number": 116,
+      "pali": "tathā ayamāyasmā pajānāti yathā pajānato doso na hoti … ",
+      "english": "They have the understanding that eliminates hate … "
+    },
+    {
+      "number": 117,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 118,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 119,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 120,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 121,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 122,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 123,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 124,
+      "pali": "pāpikā icchā na hoti, tathāhimaṁ āyasmantaṁ pāpikā icchā nābhibhuyya tiṭṭhatī’ti. ",
+      "english": "and corrupt wishes, so corrupt wishes don’t master them and keep going.’ "
+    },
+    {
+      "number": 125,
+      "pali": "Bhāvanāvādaṁ, āvuso, bhikkhu vadamāno: ",
+      "english": "A mendicant who makes a declaration of development says: "
+    },
+    {
+      "number": 126,
+      "pali": "‘bhāvitakāyomhi bhāvitasīlo bhāvitacitto bhāvitapañño’ti. ",
+      "english": "‘I am developed in physical endurance, ethics, mind, and wisdom.’ "
+    },
+    {
+      "number": 127,
+      "pali": "Tañce, āvuso, bhikkhuṁ lobho nābhibhuyya tiṭṭhati, ",
+      "english": "Suppose that greed does not master that mendicant and keep going. "
+    },
+    {
+      "number": 128,
+      "pali": "doso … ",
+      "english": "Or that hate … "
+    },
+    {
+      "number": 129,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 130,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 131,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 132,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 133,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 134,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 135,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 136,
+      "pali": "pāpikā icchā nābhibhuyya tiṭṭhati, so evamassa veditabbo: ",
+      "english": "or corrupt wishes don’t master that mendicant and keep going. You should know of them: "
+    },
+    {
+      "number": 137,
+      "pali": "‘tathā ayamāyasmā pajānāti yathā pajānato lobho na hoti, tathāhimaṁ āyasmantaṁ lobho nābhibhuyya tiṭṭhati; ",
+      "english": "‘This venerable has the understanding that eliminates greed, so greed doesn’t master them and keep going. "
+    },
+    {
+      "number": 138,
+      "pali": "tathā ayamāyasmā pajānāti yathā pajānato doso na hoti … ",
+      "english": "They have the understanding that eliminates hate … "
+    },
+    {
+      "number": 139,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 140,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 141,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 142,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 143,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 144,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 145,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 146,
+      "pali": "pāpikā icchā na hoti, tathāhimaṁ āyasmantaṁ pāpikā icchā nābhibhuyya tiṭṭhatī’ti. ",
+      "english": "and corrupt wishes, so corrupt wishes don’t master them and keep going.’ "
+    },
+    {
+      "number": 147,
+      "pali": "Ñāṇavādañca, āvuso, bhikkhu vadamāno bhāvanāvādañca: ",
+      "english": "A mendicant who makes a declaration of both knowledge and development says: "
+    },
+    {
+      "number": 148,
+      "pali": "‘jānāmimaṁ dhammaṁ, passāmimaṁ dhammaṁ, bhāvitakāyomhi bhāvitasīlo bhāvitacitto bhāvitapañño’ti. ",
+      "english": "‘I know this teaching, I see this teaching. And I am developed in physical endurance, ethics, mind, and wisdom.’ "
+    },
+    {
+      "number": 149,
+      "pali": "Tañce, āvuso, bhikkhuṁ lobho nābhibhuyya tiṭṭhati, ",
+      "english": "Suppose that greed does not master that mendicant and keep going. "
+    },
+    {
+      "number": 150,
+      "pali": "doso … ",
+      "english": "Or that hate … "
+    },
+    {
+      "number": 151,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 152,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 153,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 154,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 155,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 156,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 157,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 158,
+      "pali": "pāpikā icchā nābhibhuyya tiṭṭhati, so evamassa veditabbo: ",
+      "english": "or corrupt wishes don’t master that mendicant and keep going. You should know of them: "
+    },
+    {
+      "number": 159,
+      "pali": "‘tathā ayamāyasmā pajānāti yathā pajānato lobho na hoti, tathāhimaṁ āyasmantaṁ lobho nābhibhuyya tiṭṭhati; ",
+      "english": "‘This venerable has the understanding that eliminates greed, so greed doesn’t master them and keep going. "
+    },
+    {
+      "number": 160,
+      "pali": "tathā ayamāyasmā pajānāti yathā pajānato doso na hoti … ",
+      "english": "They have the understanding that eliminates hate … "
+    },
+    {
+      "number": 161,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 162,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 163,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 164,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 165,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 166,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 167,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 168,
+      "pali": "pāpikā icchā na hoti, tathāhimaṁ āyasmantaṁ pāpikā icchā nābhibhuyya tiṭṭhatī’ti. ",
+      "english": "and corrupt wishes, so corrupt wishes don’t master them and keep going.’ "
+    },
+    {
+      "number": 169,
+      "pali": "Seyyathāpi, āvuso, puriso aḍḍhova samāno aḍḍhavādaṁ vadeyya, dhanavāva samāno dhanavāvādaṁ vadeyya, bhogavāva samāno bhogavāvādaṁ vadeyya. ",
+      "english": "Suppose a rich, affluent, and wealthy person was to declare themselves to be rich, affluent, and wealthy. "
+    },
+    {
+      "number": 170,
+      "pali": "So kismiñcideva dhanakaraṇīye samuppanne sakkuṇeyya upanīhātuṁ dhanaṁ vā dhaññaṁ vā rajataṁ vā jātarūpaṁ vā. ",
+      "english": "And whenever it came time to make a payment they were able to come up with the money, grain, silver, or gold. "
+    },
+    {
+      "number": 171,
+      "pali": "Tamenaṁ evaṁ jāneyyuṁ: ",
+      "english": "They would know of them: "
+    },
+    {
+      "number": 172,
+      "pali": "‘aḍḍhova ayamāyasmā samāno aḍḍhavādaṁ vadeti, dhanavāva ayamāyasmā samāno dhanavāvādaṁ vadeti, bhogavāva ayamāyasmā samāno bhogavāvādaṁ vadeti. ",
+      "english": "‘This person declares themselves to be rich, affluent, and wealthy, and they are in fact rich, affluent, and wealthy.’ "
+    },
+    {
+      "number": 173,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 174,
+      "pali": "Tathā hi ayamāyasmā kismiñcideva dhanakaraṇīye samuppanne sakkoti upanīhātuṁ dhanaṁ vā dhaññaṁ vā rajataṁ vā jātarūpaṁ vā’ti. ",
+      "english": "Because when it came time to make a payment they were able to come up with the money, grain, silver, or gold. "
+    },
+    {
+      "number": 175,
+      "pali": "Evamevaṁ kho, āvuso, ñāṇavādañca bhikkhu vadamāno bhāvanāvādañca: ",
+      "english": "In the same way, a mendicant who makes a declaration of knowledge and development says: "
+    },
+    {
+      "number": 176,
+      "pali": "‘jānāmimaṁ dhammaṁ, passāmimaṁ dhammaṁ, bhāvitakāyomhi bhāvitasīlo bhāvitacitto bhāvitapañño’ti. ",
+      "english": "‘I know this teaching, I see this teaching. And I am developed in physical endurance, ethics, mind, and wisdom.’ "
+    },
+    {
+      "number": 177,
+      "pali": "Tañce, āvuso, bhikkhuṁ lobho nābhibhuyya tiṭṭhati, ",
+      "english": "Suppose that greed does not master that mendicant and keep going. "
+    },
+    {
+      "number": 178,
+      "pali": "doso … ",
+      "english": "Or that hate … "
+    },
+    {
+      "number": 179,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 180,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 181,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 182,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 183,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 184,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 185,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 186,
+      "pali": "pāpikā icchā nābhibhuyya tiṭṭhati, so evamassa veditabbo: ",
+      "english": "or corrupt wishes don’t master that mendicant and keep going. You should know of them: "
+    },
+    {
+      "number": 187,
+      "pali": "‘tathā ayamāyasmā pajānāti yathā pajānato lobho na hoti, tathāhimaṁ āyasmantaṁ lobho nābhibhuyya tiṭṭhati; ",
+      "english": "‘This venerable has the understanding that eliminates greed, so greed doesn’t master them and keep going. "
+    },
+    {
+      "number": 188,
+      "pali": "tathā ayamāyasmā pajānāti yathā pajānato doso na hoti … ",
+      "english": "They have the understanding that eliminates hate … "
+    },
+    {
+      "number": 189,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 190,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 191,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 192,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 193,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 194,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 195,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 196,
+      "pali": "pāpikā icchā na hoti, tathāhimaṁ āyasmantaṁ pāpikā icchā nābhibhuyya tiṭṭhatī’”ti. ",
+      "english": "and corrupt wishes, so corrupt wishes don’t master them and keep going.’” "
+    },
+    {
+      "number": 197,
+      "pali": "Catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

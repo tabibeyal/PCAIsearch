@@ -1,0 +1,340 @@
+{
+  "sutta_id": "SN35.101",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 35.101 ",
+      "english": "Linked Discourses 35.101 "
+    },
+    {
+      "number": 2,
+      "pali": "10. Saḷavagga ",
+      "english": "10. The Sixes "
+    },
+    {
+      "number": 3,
+      "pali": "Paṭhamanatumhākasutta ",
+      "english": "It’s Not Yours (1st) "
+    },
+    {
+      "number": 4,
+      "pali": "“Yaṁ, bhikkhave, na tumhākaṁ, taṁ pajahatha. ",
+      "english": "“Mendicants, give up what’s not yours. "
+    },
+    {
+      "number": 5,
+      "pali": "Taṁ vo pahīnaṁ hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your welfare and happiness. "
+    },
+    {
+      "number": 6,
+      "pali": "Kiñca, bhikkhave, na tumhākaṁ? ",
+      "english": "And what isn’t yours? "
+    },
+    {
+      "number": 7,
+      "pali": "Cakkhu, bhikkhave, na tumhākaṁ. ",
+      "english": "The eye isn’t yours: give it up. "
+    },
+    {
+      "number": 8,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 9,
+      "pali": "Taṁ vo pahīnaṁ hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your welfare and happiness. "
+    },
+    {
+      "number": 10,
+      "pali": "Rūpā na tumhākaṁ. ",
+      "english": "Sights … "
+    },
+    {
+      "number": 11,
+      "pali": "Te pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 12,
+      "pali": "Te vo pahīnā hitāya sukhāya bhavissanti. ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "Cakkhuviññāṇaṁ na tumhākaṁ. ",
+      "english": "Eye consciousness … "
+    },
+    {
+      "number": 14,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "Taṁ vo pahīnaṁ hitāya sukhāya bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "Cakkhusamphasso na tumhākaṁ. ",
+      "english": "Eye contact … "
+    },
+    {
+      "number": 17,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "So vo pahīno hitāya sukhāya bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "Yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi na tumhākaṁ. ",
+      "english": "The pleasant, painful, or neutral feeling that arises dependent on eye contact isn’t yours: give it up. "
+    },
+    {
+      "number": 20,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "Taṁ vo pahīnaṁ hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your welfare and happiness. "
+    },
+    {
+      "number": 22,
+      "pali": "…pe… ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "Jivhā na tumhākaṁ. ",
+      "english": "The ear … nose … tongue … body … "
+    },
+    {
+      "number": 24,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Sā vo pahīnā hitāya sukhāya bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "Rasā na tumhākaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "Te pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "Te vo pahīnā hitāya sukhāya bhavissanti. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Jivhāviññāṇaṁ na tumhākaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Taṁ vo pahīnaṁ hitāya sukhāya bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "Jivhāsamphasso na tumhākaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "So vo pahīno hitāya sukhāya bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Yampidaṁ jivhāsamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi na tumhākaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "Taṁ pajahatha. Taṁ vo pahīnaṁ hitāya sukhāya bhavissati …pe…. ",
+      "english": ""
+    },
+    {
+      "number": 37,
+      "pali": "Mano na tumhākaṁ. ",
+      "english": "The mind isn’t yours: give it up. "
+    },
+    {
+      "number": 38,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "So vo pahīno hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your welfare and happiness. "
+    },
+    {
+      "number": 40,
+      "pali": "Dhammā na tumhākaṁ. ",
+      "english": "Ideas … "
+    },
+    {
+      "number": 41,
+      "pali": "Te pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "Te vo pahīnā hitāya sukhāya bhavissanti. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Manoviññāṇaṁ na tumhākaṁ. ",
+      "english": "Mind consciousness … "
+    },
+    {
+      "number": 44,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Taṁ vo pahīnaṁ hitāya sukhāya bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "Manosamphasso na tumhākaṁ. ",
+      "english": "Mind contact … "
+    },
+    {
+      "number": 47,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "So vo pahīno hitāya sukhāya bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Yampidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi na tumhākaṁ. ",
+      "english": "The pleasant, painful, or neutral feeling that arises dependent on mind contact isn’t yours: give it up. "
+    },
+    {
+      "number": 50,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Taṁ vo pahīnaṁ hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your welfare and happiness. "
+    },
+    {
+      "number": 52,
+      "pali": "Seyyathāpi, bhikkhave, yaṁ imasmiṁ jetavane tiṇakaṭṭhasākhāpalāsaṁ taṁ jano hareyya vā ḍaheyya vā yathāpaccayaṁ vā kareyya, ",
+      "english": "Suppose a person was to carry off the grass, sticks, branches, and leaves in this Jeta’s Grove, or burn them, or do what they want with them. "
+    },
+    {
+      "number": 53,
+      "pali": "api nu tumhākaṁ evamassa: ",
+      "english": "Would you think: "
+    },
+    {
+      "number": 54,
+      "pali": "‘amhe jano harati vā ḍahati vā yathāpaccayaṁ vā karotī’”ti? ",
+      "english": "‘This person is carrying us off, burning us, or doing what they want with us’?” "
+    },
+    {
+      "number": 55,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 56,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 57,
+      "pali": "“Na hi no etaṁ, bhante, attā vā attaniyaṁ vā”ti. ",
+      "english": "Because  to us that’s neither self nor belonging to self.” "
+    },
+    {
+      "number": 58,
+      "pali": "“Evameva kho, bhikkhave, cakkhu na tumhākaṁ. ",
+      "english": "“In the same way, the eye isn’t yours: give it up. "
+    },
+    {
+      "number": 59,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "Taṁ vo pahīnaṁ hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your welfare and happiness. … "
+    },
+    {
+      "number": 61,
+      "pali": "Rūpā na tumhākaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "cakkhuviññāṇaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "cakkhusamphasso …pe… ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "yampidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi na tumhākaṁ. ",
+      "english": "The pleasant, painful, or neutral feeling that arises dependent on mind contact isn’t yours: give it up. "
+    },
+    {
+      "number": 65,
+      "pali": "Taṁ pajahatha. ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "Taṁ vo pahīnaṁ hitāya sukhāya bhavissatī”ti. ",
+      "english": "Giving it up will be for your welfare and happiness.” "
+    },
+    {
+      "number": 67,
+      "pali": "Aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

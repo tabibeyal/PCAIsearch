@@ -1,0 +1,210 @@
+{
+  "sutta_id": "AN5.200",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 5.200 ",
+      "english": "Numbered Discourses 5.200 "
+    },
+    {
+      "number": 2,
+      "pali": "20. Brāhmaṇavagga ",
+      "english": "20. Brahmins "
+    },
+    {
+      "number": 3,
+      "pali": "Nissāraṇīyasutta ",
+      "english": "Elements of Escape "
+    },
+    {
+      "number": 4,
+      "pali": "“Pañcimā, bhikkhave, nissāraṇīyā dhātuyo. ",
+      "english": "“Mendicants, there are these five elements of escape. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamā pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 6,
+      "pali": "Idha, bhikkhave, bhikkhuno kāmaṁ manasikaroto kāmesu cittaṁ na pakkhandati nappasīdati na santiṭṭhati na vimuccati. ",
+      "english": "Take a case where a mendicant focuses on sensual pleasures, but on that their mind does not leap forth, gain confidence, settle down, and become decided. "
+    },
+    {
+      "number": 7,
+      "pali": "Nekkhammaṁ kho panassa manasikaroto nekkhamme cittaṁ pakkhandati pasīdati santiṭṭhati vimuccati. ",
+      "english": "But when they focus on renunciation, on that their mind leaps forth, gains confidence, settles down, and becomes decided. "
+    },
+    {
+      "number": 8,
+      "pali": "Tassa taṁ cittaṁ sugataṁ subhāvitaṁ suvuṭṭhitaṁ suvimuttaṁ suvisaṁyuttaṁ kāmehi; ",
+      "english": "Their mind is in a good state, well developed, well risen, well freed, and well detached from sensual pleasures. "
+    },
+    {
+      "number": 9,
+      "pali": "ye ca kāmapaccayā uppajjanti āsavā vighātapariḷāhā, mutto so tehi, na so taṁ vedanaṁ vediyati. ",
+      "english": "They’re freed from the distressing and feverish defilements that arise because of sensual pleasures, so they don’t experience that kind of feeling. "
+    },
+    {
+      "number": 10,
+      "pali": "Idamakkhātaṁ kāmānaṁ nissaraṇaṁ. ",
+      "english": "This is how the escape from sensual pleasures is explained. "
+    },
+    {
+      "number": 11,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhuno byāpādaṁ manasikaroto byāpāde cittaṁ na pakkhandati nappasīdati na santiṭṭhati na vimuccati. ",
+      "english": "Take another case where a mendicant focuses on ill will, but their mind does not leap forth … "
+    },
+    {
+      "number": 12,
+      "pali": "Abyāpādaṁ kho panassa manasikaroto abyāpāde cittaṁ pakkhandati pasīdati santiṭṭhati vimuccati. ",
+      "english": "But when they focus on good will, their mind leaps forth … "
+    },
+    {
+      "number": 13,
+      "pali": "Tassa taṁ cittaṁ sugataṁ subhāvitaṁ suvuṭṭhitaṁ suvimuttaṁ suvisaṁyuttaṁ byāpādena; ",
+      "english": "Their mind is in a good state … well detached from ill will. "
+    },
+    {
+      "number": 14,
+      "pali": "ye ca byāpādapaccayā uppajjanti āsavā vighātapariḷāhā, mutto so tehi, na so taṁ vedanaṁ vediyati. ",
+      "english": "They’re freed from the distressing and feverish defilements that arise because of ill will, so they don’t experience that kind of feeling. "
+    },
+    {
+      "number": 15,
+      "pali": "Idamakkhātaṁ byāpādassa nissaraṇaṁ. ",
+      "english": "This is how the escape from ill will is explained. "
+    },
+    {
+      "number": 16,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhuno vihesaṁ manasikaroto vihesāya cittaṁ na pakkhandati nappasīdati na santiṭṭhati na vimuccati. ",
+      "english": "Take another case where a mendicant focuses on harming, but their mind does not leap forth … "
+    },
+    {
+      "number": 17,
+      "pali": "Avihesaṁ kho panassa manasikaroto avihesāya cittaṁ pakkhandati pasīdati santiṭṭhati vimuccati. ",
+      "english": "But when they focus on compassion, their mind leaps forth … "
+    },
+    {
+      "number": 18,
+      "pali": "Tassa taṁ cittaṁ sugataṁ subhāvitaṁ suvuṭṭhitaṁ suvimuttaṁ suvisaṁyuttaṁ vihesāya; ",
+      "english": "Their mind is in a good state … well detached from harming. "
+    },
+    {
+      "number": 19,
+      "pali": "ye ca vihesāpaccayā uppajjanti āsavā vighātapariḷāhā, mutto so tehi, na so taṁ vedanaṁ vediyati. ",
+      "english": "They’re freed from the distressing and feverish defilements that arise because of harming, so they don’t experience that kind of feeling. "
+    },
+    {
+      "number": 20,
+      "pali": "Idamakkhātaṁ vihesāya nissaraṇaṁ. ",
+      "english": "This is how the escape from harming is explained. "
+    },
+    {
+      "number": 21,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhuno rūpaṁ manasikaroto rūpe cittaṁ na pakkhandati nappasīdati na santiṭṭhati na vimuccati. ",
+      "english": "Take another case where a mendicant focuses on form, but their mind does not leap forth … "
+    },
+    {
+      "number": 22,
+      "pali": "Arūpaṁ kho panassa manasikaroto arūpe cittaṁ pakkhandati pasīdati santiṭṭhati vimuccati. ",
+      "english": "But when they focus on the formless, their mind leaps forth … "
+    },
+    {
+      "number": 23,
+      "pali": "Tassa taṁ cittaṁ sugataṁ subhāvitaṁ suvuṭṭhitaṁ suvimuttaṁ suvisaṁyuttaṁ rūpehi; ",
+      "english": "Their mind is in a good state … well detached from forms. "
+    },
+    {
+      "number": 24,
+      "pali": "ye ca rūpapaccayā uppajjanti āsavā vighātapariḷāhā, mutto so tehi, na so taṁ vedanaṁ vediyati. ",
+      "english": "They’re freed from the distressing and feverish defilements that arise because of form, so they don’t experience that kind of feeling. "
+    },
+    {
+      "number": 25,
+      "pali": "Idamakkhātaṁ rūpānaṁ nissaraṇaṁ. ",
+      "english": "This is how the escape from forms is explained. "
+    },
+    {
+      "number": 26,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhuno sakkāyaṁ manasikaroto sakkāye cittaṁ na pakkhandati nappasīdati na santiṭṭhati na vimuccati. ",
+      "english": "Take a case where a mendicant focuses on substantial reality, but their mind does not leap forth, gain confidence, settle down, and become decided. "
+    },
+    {
+      "number": 27,
+      "pali": "Sakkāyanirodhaṁ kho panassa manasikaroto sakkāyanirodhe cittaṁ pakkhandati pasīdati santiṭṭhati vimuccati. ",
+      "english": "But when they focus on the cessation of substantial reality, their mind leaps forth, gains confidence, settles down, and becomes decided. "
+    },
+    {
+      "number": 28,
+      "pali": "Tassa taṁ cittaṁ sugataṁ subhāvitaṁ suvuṭṭhitaṁ suvimuttaṁ suvisaṁyuttaṁ sakkāyena; ",
+      "english": "Their mind is in a good state, well developed, well risen, well freed, and well detached from substantial reality. "
+    },
+    {
+      "number": 29,
+      "pali": "ye ca sakkāyapaccayā uppajjanti āsavā vighātapariḷāhā, mutto so tehi, na so taṁ vedanaṁ vediyati. ",
+      "english": "They’re freed from the distressing and feverish defilements that arise because of substantial reality, so they don’t experience that kind of feeling. "
+    },
+    {
+      "number": 30,
+      "pali": "Idamakkhātaṁ sakkāyassa nissaraṇaṁ. ",
+      "english": "This is how the escape from substantial reality is explained. "
+    },
+    {
+      "number": 31,
+      "pali": "Tassa kāmanandīpi nānuseti, byāpādanandīpi nānuseti, vihesānandīpi nānuseti, rūpanandīpi nānuseti, sakkāyanandīpi nānuseti so kāmanandiyāpi ananusayā, byāpādanandiyāpi ananusayā, vihesānandiyāpi ananusayā, rūpanandiyāpi ananusayā, sakkāyanandiyāpi ananusayā. ",
+      "english": "Delight in sensual pleasures, ill will, harming, form, and substantial reality don’t linger within them. "
+    },
+    {
+      "number": 32,
+      "pali": "Ayaṁ vuccati, bhikkhave, bhikkhu niranusayo, acchecchi taṇhaṁ, vivattayi saṁyojanaṁ, sammā mānābhisamayā antamakāsi dukkhassa. ",
+      "english": "That’s why they’re called a mendicant who is without underlying tendencies, who has cut off craving, cast off the fetters, and by rightly comprehending conceit has made an end of suffering. "
+    },
+    {
+      "number": 33,
+      "pali": "Imā kho, bhikkhave, pañca nissāraṇīyā dhātuyo”ti. ",
+      "english": "These are the five elements of escape.” "
+    },
+    {
+      "number": 34,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Brāhmaṇavaggo pañcamo. ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 37,
+      "pali": "Soṇo doṇo saṅgāravo, ",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "Kāraṇapālī ca piṅgiyānī; ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "Supinā ca vassā vācā, ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "Kulaṁ nissāraṇīyena cāti. ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "Catuttho paṇṇāsako samatto. ",
+      "english": ""
+    }
+  ]
+}

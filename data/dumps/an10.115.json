@@ -1,0 +1,530 @@
+{
+  "sutta_id": "AN10.115",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.115 ",
+      "english": "Numbered Discourses 10.115 "
+    },
+    {
+      "number": 2,
+      "pali": "12. Paccorohaṇivagga ",
+      "english": "12. The Ceremony of Descent "
+    },
+    {
+      "number": 3,
+      "pali": "Tatiyaadhammasutta ",
+      "english": "Bad Principles (3rd) "
+    },
+    {
+      "number": 4,
+      "pali": "“Adhammo ca, bhikkhave, veditabbo dhammo ca; ",
+      "english": "“Mendicants, you should know bad principles and good principles. "
+    },
+    {
+      "number": 5,
+      "pali": "anattho ca veditabbo attho ca. ",
+      "english": "And you should know bad results and good results. "
+    },
+    {
+      "number": 6,
+      "pali": "Adhammañca viditvā dhammañca, anatthañca viditvā atthañca yathā dhammo yathā attho tathā paṭipajjitabban”ti. ",
+      "english": "Knowing these things, your practice should follow the good principles with good results.” "
+    },
+    {
+      "number": 7,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 8,
+      "pali": "Idaṁ vatvāna sugato uṭṭhāyāsanā vihāraṁ pāvisi. ",
+      "english": "When he had spoken, the Holy One got up from his seat and entered his dwelling. "
+    },
+    {
+      "number": 9,
+      "pali": "Atha kho tesaṁ bhikkhūnaṁ acirapakkantassa bhagavato etadahosi: ",
+      "english": "Soon after the Buddha left, those mendicants considered, "
+    },
+    {
+      "number": 10,
+      "pali": "“idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": "“The Buddha gave this brief summary recital, then entered his dwelling without explaining the meaning in detail. "
+    },
+    {
+      "number": 11,
+      "pali": "‘adhammo ca, bhikkhave, veditabbo dhammo ca; ",
+      "english": ""
+    },
+    {
+      "number": 12,
+      "pali": "anattho ca veditabbo attho ca. ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "Adhammañca viditvā dhammañca, anatthañca viditvā atthañca yathā dhammo yathā attho tathā paṭipajjitabban’ti. ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyā”ti? ",
+      "english": "Who can explain in detail the meaning of this brief summary recital given by the Buddha?” "
+    },
+    {
+      "number": 15,
+      "pali": "Atha kho tesaṁ bhikkhūnaṁ etadahosi: ",
+      "english": "Then they considered, "
+    },
+    {
+      "number": 16,
+      "pali": "“ayaṁ kho āyasmā ānando satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ. ",
+      "english": "“This Venerable Ānanda is praised by the Buddha and esteemed by his sensible spiritual companions. "
+    },
+    {
+      "number": 17,
+      "pali": "Pahoti cāyasmā ānando imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": "He is capable of explaining in detail the meaning of this brief summary recital given by the Buddha. "
+    },
+    {
+      "number": 18,
+      "pali": "Yannūna mayaṁ yenāyasmā ānando tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ ānandaṁ etamatthaṁ paṭipuccheyyāma. ",
+      "english": "Let’s go to him, and ask him about this matter. "
+    },
+    {
+      "number": 19,
+      "pali": "Yathā no āyasmā ānando byākarissati tathā naṁ dhāressāmā”ti. ",
+      "english": "As he answers, so we’ll remember it.” "
+    },
+    {
+      "number": 20,
+      "pali": "Atha kho te bhikkhū yenāyasmā ānando tenupasaṅkamiṁsu; upasaṅkamitvā āyasmatā ānandena saddhiṁ sammodiṁsu. ",
+      "english": "Then those mendicants went to Ānanda, and exchanged greetings with him. "
+    },
+    {
+      "number": 21,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū āyasmantaṁ ānandaṁ etadavocuṁ: ",
+      "english": "When the greetings and polite conversation were over, they sat down to one side. They told him what had happened, and said, "
+    },
+    {
+      "number": 22,
+      "pali": "“Idaṁ kho no, āvuso ānanda, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "‘adhammo ca …pe… ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "tathā paṭipajjitabban’ti. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Tesaṁ no, āvuso, amhākaṁ acirapakkantassa bhagavato etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "‘idaṁ kho no, āvuso, bhagavatā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho—",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "adhammo ca …pe… ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "tathā paṭipajjitabbanti. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Tesaṁ no, āvuso, amhākaṁ etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "‘ayaṁ kho āyasmā ānando satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "Pahoti cāyasmā ānando imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Yannūna mayaṁ yenāyasmā ānando tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ ānandaṁ etamatthaṁ paṭipuccheyyāma. ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "Yathā no āyasmā ānando byākarissati tathā naṁ dhāressāmā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Vibhajatu āyasmā ānando”ti. ",
+      "english": "“May Venerable Ānanda please explain this.” "
+    },
+    {
+      "number": 36,
+      "pali": "“Seyyathāpi, āvuso, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva mūlaṁ atikkamma khandhaṁ sākhāpalāse sāraṁ pariyesitabbaṁ maññeyya; ",
+      "english": "“Reverends, suppose there was a person in need of heartwood. And while wandering in search of heartwood he’d come across a large tree standing with heartwood. But he’d pass over the roots and trunk, imagining that the heartwood should be sought in the branches and leaves. "
+    },
+    {
+      "number": 37,
+      "pali": "evaṁsampadamidaṁ āyasmantānaṁ satthari sammukhībhūte taṁ bhagavantaṁ atisitvā amhe etamatthaṁ paṭipucchitabbaṁ maññatha. ",
+      "english": "Such is the consequence for the venerables. Though you were face to face with the Buddha, you bypassed him, imagining that you should ask me about this matter. "
+    },
+    {
+      "number": 38,
+      "pali": "So hāvuso, bhagavā jānaṁ jānāti passaṁ passati, cakkhubhūto ñāṇabhūto dhammabhūto brahmabhūto vattā pavattā atthassa ninnetā amatassa dātā dhammassāmī tathāgato. ",
+      "english": "For he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. "
+    },
+    {
+      "number": 39,
+      "pali": "So ceva panetassa kālo ahosi yaṁ tumhe bhagavantaṁyeva upasaṅkamitvā etamatthaṁ paṭipuccheyyātha. ",
+      "english": "That was the time to approach the Buddha and ask about this matter. "
+    },
+    {
+      "number": 40,
+      "pali": "Yathā vo bhagavā byākareyya tathā naṁ dhāreyyāthā”ti. ",
+      "english": "You should have remembered it in line with the Buddha’s answer.” "
+    },
+    {
+      "number": 41,
+      "pali": "“Addhāvuso ānanda, bhagavā jānaṁ jānāti passaṁ passati cakkhubhūto ñāṇabhūto dhammabhūto brahmabhūto vattā pavattā atthassa ninnetā amatassa dātā dhammassāmī tathāgato. ",
+      "english": "“Certainly he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. "
+    },
+    {
+      "number": 42,
+      "pali": "So ceva panetassa kālo ahosi yaṁ mayaṁ bhagavantaṁyeva upasaṅkamitvā etamatthaṁ paṭipuccheyyāma, ",
+      "english": "That was the time to approach the Buddha and ask about this matter. "
+    },
+    {
+      "number": 43,
+      "pali": "yathā no bhagavā byākareyya tathā naṁ dhāreyyāma. ",
+      "english": "We should have remembered it in line with the Buddha’s answer. "
+    },
+    {
+      "number": 44,
+      "pali": "Api cāyasmā ānando satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ. ",
+      "english": "Still, Venerable Ānanda is praised by the Buddha and esteemed by his sensible spiritual companions. "
+    },
+    {
+      "number": 45,
+      "pali": "Pahoti cāyasmā ānando imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": "You are capable of explaining in detail the meaning of this brief summary recital given by the Buddha. "
+    },
+    {
+      "number": 46,
+      "pali": "Vibhajatāyasmā ānando agaruṁ katvā”ti. ",
+      "english": "Please explain this, if it’s no trouble.” "
+    },
+    {
+      "number": 47,
+      "pali": "“Tenahāvuso, suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "“Then listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 48,
+      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato ānandassa paccassosuṁ. ",
+      "english": "“Yes, reverend,” they replied. "
+    },
+    {
+      "number": 49,
+      "pali": "Athāyasmā ānando etadavoca: ",
+      "english": "Ānanda said this: "
+    },
+    {
+      "number": 50,
+      "pali": "“Yaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": "“Reverends, the Buddha gave this brief summary recital, then entered his dwelling without explaining the meaning in detail: "
+    },
+    {
+      "number": 51,
+      "pali": "‘adhammo ca, bhikkhave, veditabbo dhammo ca; ",
+      "english": "‘You should know bad principles and good principles. "
+    },
+    {
+      "number": 52,
+      "pali": "anattho ca veditabbo attho ca. ",
+      "english": "And you should know bad results and good results. "
+    },
+    {
+      "number": 53,
+      "pali": "Adhammañca viditvā dhammañca, anatthañca viditvā atthañca yathā dhammo yathā attho tathā paṭipajjitabban’ti. ",
+      "english": "Knowing these things, your practice should follow the good principles with good results.’ "
+    },
+    {
+      "number": 54,
+      "pali": "Katamo cāvuso, adhammo, katamo ca dhammo, katamo ca anattho, katamo ca attho? ",
+      "english": "So what are bad principles? What are good principles? What are bad results? And what are good results? "
+    },
+    {
+      "number": 55,
+      "pali": "Micchādiṭṭhi, āvuso, adhammo; ",
+      "english": "Wrong view is a bad principle. "
+    },
+    {
+      "number": 56,
+      "pali": "sammādiṭṭhi dhammo; ",
+      "english": "Right view is a good principle. "
+    },
+    {
+      "number": 57,
+      "pali": "ye ca micchādiṭṭhipaccayā aneke pāpakā akusalā dhammā sambhavanti, ayaṁ anattho; ",
+      "english": "And the many bad, unskillful qualities produced by wrong view are bad results. "
+    },
+    {
+      "number": 58,
+      "pali": "sammādiṭṭhipaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti, ayaṁ attho. ",
+      "english": "And the many skillful qualities fully developed because of right view are good results. "
+    },
+    {
+      "number": 59,
+      "pali": "Micchāsaṅkappo, āvuso, adhammo; ",
+      "english": "Wrong purpose is a bad principle. "
+    },
+    {
+      "number": 60,
+      "pali": "sammāsaṅkappo dhammo … ",
+      "english": "Right purpose is a good principle. … "
+    },
+    {
+      "number": 61,
+      "pali": "micchāvācā, āvuso, adhammo; ",
+      "english": "Wrong speech is a bad principle. "
+    },
+    {
+      "number": 62,
+      "pali": "sammāvācā dhammo … ",
+      "english": "Right speech is a good principle. … "
+    },
+    {
+      "number": 63,
+      "pali": "micchākammanto, āvuso, adhammo; ",
+      "english": "Wrong action is a bad principle. "
+    },
+    {
+      "number": 64,
+      "pali": "sammākammanto dhammo … ",
+      "english": "Right action is a good principle. … "
+    },
+    {
+      "number": 65,
+      "pali": "micchāājīvo, āvuso, adhammo; ",
+      "english": "Wrong livelihood is a bad principle. "
+    },
+    {
+      "number": 66,
+      "pali": "sammāājīvo dhammo … ",
+      "english": "Right livelihood is a good principle. … "
+    },
+    {
+      "number": 67,
+      "pali": "micchāvāyāmo, āvuso, adhammo; ",
+      "english": "Wrong effort is a bad principle. "
+    },
+    {
+      "number": 68,
+      "pali": "sammāvāyāmo dhammo … ",
+      "english": "Right effort is a good principle. … "
+    },
+    {
+      "number": 69,
+      "pali": "micchāsati, āvuso, adhammo; ",
+      "english": "Wrong mindfulness is a bad principle. "
+    },
+    {
+      "number": 70,
+      "pali": "sammāsati dhammo … ",
+      "english": "Right mindfulness is a good principle. … "
+    },
+    {
+      "number": 71,
+      "pali": "micchāsamādhi, āvuso, adhammo; ",
+      "english": "Wrong immersion is a bad principle. "
+    },
+    {
+      "number": 72,
+      "pali": "sammāsamādhi dhammo … ",
+      "english": "Right immersion is a good principle. … "
+    },
+    {
+      "number": 73,
+      "pali": "micchāñāṇaṁ, āvuso, adhammo; ",
+      "english": "Wrong knowledge is a bad principle. "
+    },
+    {
+      "number": 74,
+      "pali": "sammāñāṇaṁ dhammo …. ",
+      "english": "Right knowledge is a good principle. … "
+    },
+    {
+      "number": 75,
+      "pali": "Micchāvimutti, āvuso, adhammo; ",
+      "english": "Wrong freedom is a bad principle. "
+    },
+    {
+      "number": 76,
+      "pali": "sammāvimutti dhammo; ",
+      "english": "Right freedom is a good principle. "
+    },
+    {
+      "number": 77,
+      "pali": "ye ca micchāvimuttipaccayā aneke pāpakā akusalā dhammā sambhavanti, ayaṁ anattho; ",
+      "english": "And the many bad, unskillful qualities produced by wrong freedom are bad results. "
+    },
+    {
+      "number": 78,
+      "pali": "sammāvimuttipaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti, ayaṁ attho. ",
+      "english": "And the many skillful qualities fully developed because of right freedom are good results. "
+    },
+    {
+      "number": 79,
+      "pali": "Ayaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": "The Buddha gave this brief summary recital, then entered his dwelling without explaining the meaning in detail: "
+    },
+    {
+      "number": 80,
+      "pali": "‘adhammo ca, bhikkhave, veditabbo dhammo ca …pe… ",
+      "english": "‘You should know bad principles and good principles … "
+    },
+    {
+      "number": 81,
+      "pali": "tathā paṭipajjitabban’ti, imassa kho ahaṁ, āvuso, bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa evaṁ vitthārena atthaṁ ājānāmi. ",
+      "english": "and practice accordingly.’ And this is how I understand the detailed meaning of this summary recital. "
+    },
+    {
+      "number": 82,
+      "pali": "Ākaṅkhamānā ca pana tumhe, āvuso, bhagavantaṁyeva upasaṅkamitvā etamatthaṁ paṭipuccheyyātha. ",
+      "english": "If you wish, you may go to the Buddha and ask him about this. "
+    },
+    {
+      "number": 83,
+      "pali": "Yathā vo bhagavā byākaroti tathā naṁ dhāreyyāthā”ti. ",
+      "english": "You should remember it in line with the Buddha’s answer.” "
+    },
+    {
+      "number": 84,
+      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato ānandassa bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū bhagavantaṁ etadavocuṁ: ",
+      "english": "“Yes, reverend,” said those mendicants, approving and agreeing with what Ānanda said. Then they rose from their seats and went to the Buddha, bowed, sat down to one side, and told him what had happened. Then they said: "
+    },
+    {
+      "number": 85,
+      "pali": "“Yaṁ kho no bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "‘adhammo ca, bhikkhave, veditabbo …pe… ",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "tathā paṭipajjitabban’ti. ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "Tesaṁ no, bhante, amhākaṁ acirapakkantassa bhagavato etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 89,
+      "pali": "‘idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho—",
+      "english": ""
+    },
+    {
+      "number": 90,
+      "pali": "adhammo ca, bhikkhave, veditabbo …pe… ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "tathā paṭipajjitabbanti. ",
+      "english": ""
+    },
+    {
+      "number": 92,
+      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "Tesaṁ no, bhante, amhākaṁ etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "‘ayaṁ kho āyasmā ānando satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "Pahoti cāyasmā ānando imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 96,
+      "pali": "Yannūna mayaṁ yenāyasmā ānando tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ ānandaṁ etamatthaṁ paṭipuccheyyāma. ",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "Yathā no āyasmā ānando byākarissati tathā naṁ dhāressāmā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 98,
+      "pali": "Atha kho mayaṁ, bhante, yenāyasmā ānando tenupasaṅkamimhā; upasaṅkamitvā āyasmantaṁ ānandaṁ etamatthaṁ apucchimhā. ",
+      "english": "“Sir, we went to Ānanda and asked him about this matter. "
+    },
+    {
+      "number": 99,
+      "pali": "Tesaṁ no, bhante, āyasmatā ānandena imehi ākārehi imehi padehi imehi byañjanehi attho suvibhatto”ti. ",
+      "english": "And Ānanda clearly explained the meaning to us in this manner, with these words and phrases.” "
+    },
+    {
+      "number": 100,
+      "pali": "“Sādhu sādhu, bhikkhave. ",
+      "english": "“Good, good, mendicants! "
+    },
+    {
+      "number": 101,
+      "pali": "Paṇḍito, bhikkhave, ānando. ",
+      "english": "Ānanda is astute, "
+    },
+    {
+      "number": 102,
+      "pali": "Mahāpañño, bhikkhave, ānando. ",
+      "english": "he has great wisdom. "
+    },
+    {
+      "number": 103,
+      "pali": "Mañcepi tumhe, bhikkhave, upasaṅkamitvā etamatthaṁ paṭipuccheyyātha, ahampi cetaṁ evamevaṁ byākareyyaṁ yathā taṁ ānandena byākataṁ. ",
+      "english": "If you came to me and asked this question, I would answer it in exactly the same way as Ānanda. "
+    },
+    {
+      "number": 104,
+      "pali": "Eso ceva tassa attho evañca naṁ dhāreyyāthā”ti. ",
+      "english": "That is what it means, and that’s how you should remember it.” "
+    },
+    {
+      "number": 105,
+      "pali": "Tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

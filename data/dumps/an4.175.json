@@ -1,0 +1,160 @@
+{
+  "sutta_id": "AN4.175",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 4.175 ",
+      "english": "Numbered Discourses 4.175 "
+    },
+    {
+      "number": 2,
+      "pali": "18. Sañcetaniyavagga ",
+      "english": "18. Intention "
+    },
+    {
+      "number": 3,
+      "pali": "Upavāṇasutta ",
+      "english": "With Upavāṇa "
+    },
+    {
+      "number": 4,
+      "pali": "Atha kho āyasmā upavāṇo yenāyasmā sāriputto tenupasaṅkami; upasaṅkamitvā āyasmatā sāriputtena saddhiṁ sammodi. ",
+      "english": "Then Venerable Upavāṇa went up to Venerable Sāriputta, and exchanged greetings with him. "
+    },
+    {
+      "number": 5,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā upavāṇo āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, Upavāṇa sat down to one side, and said to Sāriputta: "
+    },
+    {
+      "number": 6,
+      "pali": "“Kiṁ nu kho, āvuso sāriputta, vijjāyantakaro hotī”ti? ",
+      "english": "“Reverend Sāriputta, do you become a terminator because of knowledge?” "
+    },
+    {
+      "number": 7,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“That’s not it, reverend.” "
+    },
+    {
+      "number": 8,
+      "pali": "“Kiṁ panāvuso sāriputta, caraṇenantakaro hotī”ti? ",
+      "english": "“Do you become a terminator because of conduct?” "
+    },
+    {
+      "number": 9,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“That’s not it, reverend.” "
+    },
+    {
+      "number": 10,
+      "pali": "“Kiṁ panāvuso sāriputta, vijjācaraṇenantakaro hotī”ti? ",
+      "english": "“Do you become a terminator because of both knowledge and conduct?” "
+    },
+    {
+      "number": 11,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“That’s not it, reverend.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Kiṁ panāvuso sāriputta, aññatra vijjācaraṇenantakaro hotī”ti? ",
+      "english": "“Do you become a terminator for some reason other than knowledge and conduct?” "
+    },
+    {
+      "number": 13,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“That’s not it, reverend.” "
+    },
+    {
+      "number": 14,
+      "pali": "“‘Kiṁ nu kho, āvuso sāriputta, vijjāyantakaro hotī’ti, iti puṭṭho samāno: ",
+      "english": "“Reverend Sāriputta, when asked whether you become a terminator because of knowledge or conduct or knowledge and conduct, or for some other reason, "
+    },
+    {
+      "number": 15,
+      "pali": "‘no hidaṁ, āvuso’ti vadesi. ",
+      "english": "you say ‘that’s not it’. "
+    },
+    {
+      "number": 16,
+      "pali": "‘Kiṁ panāvuso sāriputta, caraṇenantakaro hotī’ti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "‘no hidaṁ, āvuso’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "‘Kiṁ panāvuso sāriputta, vijjācaraṇenantakaro hotī’ti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "‘no hidaṁ, āvuso’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "‘Kiṁ panāvuso sāriputta, aññatra vijjācaraṇenantakaro hotī’ti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "‘no hidaṁ, āvuso’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "Yathā kathaṁ panāvuso, antakaro hotī”ti? ",
+      "english": "How then do you become a terminator?” "
+    },
+    {
+      "number": 23,
+      "pali": "“Vijjāya ce, āvuso, antakaro abhavissa, saupādānova samāno antakaro abhavissa. ",
+      "english": "“Reverend, if you became a terminator because of knowledge, then even someone who still grasps fuel could be a terminator. "
+    },
+    {
+      "number": 24,
+      "pali": "Caraṇena ce, āvuso, antakaro abhavissa, saupādānova samāno antakaro abhavissa. ",
+      "english": "If you became a terminator because of conduct, then even someone who still grasps fuel could be a terminator. "
+    },
+    {
+      "number": 25,
+      "pali": "Vijjācaraṇena ce, āvuso, antakaro abhavissa, saupādānova samāno antakaro abhavissa. ",
+      "english": "If you became a terminator because of both knowledge and conduct, then even someone who still grasps fuel could be a terminator. "
+    },
+    {
+      "number": 26,
+      "pali": "Aññatra vijjācaraṇena ce, āvuso, antakaro abhavissa, puthujjano antakaro abhavissa. ",
+      "english": "If you became a terminator for some reason other than knowledge and conduct, then even an ordinary person could be a terminator. "
+    },
+    {
+      "number": 27,
+      "pali": "Puthujjano hi, āvuso, aññatra vijjācaraṇena. ",
+      "english": "For an ordinary person lacks knowledge and conduct. "
+    },
+    {
+      "number": 28,
+      "pali": "Caraṇavipanno kho, āvuso, yathābhūtaṁ na jānāti na passati. ",
+      "english": "Reverend, someone lacking good conduct does not know and see things as they are. "
+    },
+    {
+      "number": 29,
+      "pali": "Caraṇasampanno yathābhūtaṁ jānāti passati. ",
+      "english": "Someone accomplished in good conduct knows and sees things as they are. "
+    },
+    {
+      "number": 30,
+      "pali": "Yathābhūtaṁ jānaṁ passaṁ antakaro hotī”ti. ",
+      "english": "Knowing and seeing things as they are, one is a terminator.” "
+    },
+    {
+      "number": 31,
+      "pali": "Pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

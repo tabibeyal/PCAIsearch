@@ -1,0 +1,700 @@
+{
+  "sutta_id": "MN24",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 24 ",
+      "english": "Middle Discourses 24 "
+    },
+    {
+      "number": 2,
+      "pali": "Rathavinītasutta ",
+      "english": "Chariots at the Ready "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā rājagahe viharati veḷuvane kalandakanivāpe. ",
+      "english": "At one time the Buddha was staying near Rājagaha, in the Bamboo Grove, the squirrels’ feeding ground. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho sambahulā jātibhūmakā bhikkhū jātibhūmiyaṁ vassaṁvuṭṭhā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinne kho te bhikkhū bhagavā etadavoca: ",
+      "english": "Then several mendicants who had completed the rainy season residence in their native land went to the Buddha, bowed, and sat down to one side. The Buddha said to them: "
+    },
+    {
+      "number": 6,
+      "pali": "“Ko nu kho, bhikkhave, jātibhūmiyaṁ jātibhūmakānaṁ bhikkhūnaṁ sabrahmacārīnaṁ evaṁ sambhāvito: ",
+      "english": "“In your native land, mendicants, which of the native mendicants is esteemed in this way: "
+    },
+    {
+      "number": 7,
+      "pali": "‘attanā ca appiccho appicchakathañca bhikkhūnaṁ kattā, attanā ca santuṭṭho santuṭṭhikathañca bhikkhūnaṁ kattā, attanā ca pavivitto pavivekakathañca bhikkhūnaṁ kattā, attanā ca asaṁsaṭṭho asaṁsaggakathañca bhikkhūnaṁ kattā, attanā ca āraddhavīriyo vīriyārambhakathañca bhikkhūnaṁ kattā, attanā ca sīlasampanno sīlasampadākathañca bhikkhūnaṁ kattā, attanā ca samādhisampanno samādhisampadākathañca bhikkhūnaṁ kattā, attanā ca paññāsampanno paññāsampadākathañca bhikkhūnaṁ kattā, attanā ca vimuttisampanno vimuttisampadākathañca bhikkhūnaṁ kattā, attanā ca vimuttiñāṇadassanasampanno vimuttiñāṇadassanasampadākathañca bhikkhūnaṁ kattā, ovādako viññāpako sandassako samādapako samuttejako sampahaṁsako sabrahmacārīnan’”ti? ",
+      "english": "‘Personally having few wishes, they speak to the mendicants on having few wishes. Personally having contentment, seclusion, aloofness, energy, ethics, immersion, wisdom, freedom, and the knowledge and vision of freedom, they speak to the mendicants on all these things. They’re an adviser and counselor, one who educates, encourages, fires up, and inspires their spiritual companions.’” "
+    },
+    {
+      "number": 8,
+      "pali": "“Puṇṇo nāma, bhante, āyasmā mantāṇiputto jātibhūmiyaṁ jātibhūmakānaṁ bhikkhūnaṁ sabrahmacārīnaṁ evaṁ sambhāvito: ",
+      "english": "“Puṇṇa son of Mantāṇī, sir, is esteemed in this way in our native land.” "
+    },
+    {
+      "number": 9,
+      "pali": "‘attanā ca appiccho appicchakathañca bhikkhūnaṁ kattā, attanā ca santuṭṭho …pe… ovādako viññāpako sandassako samādapako samuttejako sampahaṁsako sabrahmacārīnan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 10,
+      "pali": "Tena kho pana samayena āyasmā sāriputto bhagavato avidūre nisinno hoti. ",
+      "english": "Now at that time Venerable Sāriputta was sitting not far from the Buddha. "
+    },
+    {
+      "number": 11,
+      "pali": "Atha kho āyasmato sāriputtassa etadahosi: ",
+      "english": "Then he thought: "
+    },
+    {
+      "number": 12,
+      "pali": "“lābhā āyasmato puṇṇassa mantāṇiputtassa, suladdhalābhā āyasmato puṇṇassa mantāṇiputtassa, ",
+      "english": "“Puṇṇa son of Mantāṇī is fortunate, so very fortunate, "
+    },
+    {
+      "number": 13,
+      "pali": "yassa viññū sabrahmacārī satthu sammukhā anumassa anumassa vaṇṇaṁ bhāsanti, tañca satthā abbhanumodati. ",
+      "english": "in that his sensible spiritual companions praise him point by point in the presence of the Teacher, and that the Teacher seconds that appreciation. "
+    },
+    {
+      "number": 14,
+      "pali": "Appeva nāma mayampi kadāci karahaci āyasmatā puṇṇena mantāṇiputtena saddhiṁ samāgaccheyyāma, appeva nāma siyā kocideva kathāsallāpo”ti. ",
+      "english": "Hopefully, some time or other I’ll get to meet Venerable Puṇṇa, and we can have a discussion.” "
+    },
+    {
+      "number": 15,
+      "pali": "Atha kho bhagavā rājagahe yathābhirantaṁ viharitvā yena sāvatthi tena cārikaṁ pakkāmi. ",
+      "english": "When the Buddha had stayed in Rājagaha as long as he pleased, he set out for Sāvatthī. "
+    },
+    {
+      "number": 16,
+      "pali": "Anupubbena cārikaṁ caramāno yena sāvatthi tadavasari. ",
+      "english": "Traveling stage by stage, he arrived at Sāvatthī, "
+    },
+    {
+      "number": 17,
+      "pali": "Tatra sudaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "where he stayed in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 18,
+      "pali": "Assosi kho āyasmā puṇṇo mantāṇiputto: “bhagavā kira sāvatthiṁ anuppatto; sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme”ti. ",
+      "english": "Puṇṇa heard that the Buddha had arrived at Sāvatthī. "
+    },
+    {
+      "number": 19,
+      "pali": "Atha kho āyasmā puṇṇo mantāṇiputto senāsanaṁ saṁsāmetvā pattacīvaramādāya yena sāvatthi tena cārikaṁ pakkāmi. ",
+      "english": "Then he set his lodgings in order and, taking his bowl and robe, set out for Sāvatthī. "
+    },
+    {
+      "number": 20,
+      "pali": "Anupubbena cārikaṁ caramāno yena sāvatthi jetavanaṁ anāthapiṇḍikassa ārāmo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "Eventually he came to Sāvatthī and Jeta’s Grove. He went up to the Buddha, bowed, and sat down to one side. "
+    },
+    {
+      "number": 21,
+      "pali": "Ekamantaṁ nisinnaṁ kho āyasmantaṁ puṇṇaṁ mantāṇiputtaṁ bhagavā dhammiyā kathāya sandassesi samādapesi samuttejesi sampahaṁsesi. ",
+      "english": "The Buddha educated, encouraged, fired up, and inspired him with a Dhamma talk. "
+    },
+    {
+      "number": 22,
+      "pali": "Atha kho āyasmā puṇṇo mantāṇiputto bhagavatā dhammiyā kathāya sandassito samādapito samuttejito sampahaṁsito bhagavato bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā yena andhavanaṁ tenupasaṅkami divāvihārāya. ",
+      "english": "Then, having approved and agreed with what the Buddha said, Puṇṇa got up from his seat, bowed, and respectfully circled the Buddha, keeping him on his right. Then he went to the Dark Forest for the day’s meditation. "
+    },
+    {
+      "number": 23,
+      "pali": "Atha kho aññataro bhikkhu yenāyasmā sāriputto tenupasaṅkami; upasaṅkamitvā āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": "Then a certain mendicant went up to Venerable Sāriputta, and said to him, "
+    },
+    {
+      "number": 24,
+      "pali": "“yassa kho tvaṁ, āvuso sāriputta, puṇṇassa nāma bhikkhuno mantāṇiputtassa abhiṇhaṁ kittayamāno ahosi, so bhagavatā dhammiyā kathāya sandassito samādapito samuttejito sampahaṁsito bhagavato bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā yena andhavanaṁ tena pakkanto divāvihārāyā”ti. ",
+      "english": "“Reverend Sāriputta, the mendicant named Puṇṇa, of whom you have often spoken so highly, after being inspired by a talk of the Buddha’s, left for the Dark Forest for the day’s meditation.” "
+    },
+    {
+      "number": 25,
+      "pali": "Atha kho āyasmā sāriputto taramānarūpo nisīdanaṁ ādāya āyasmantaṁ puṇṇaṁ mantāṇiputtaṁ piṭṭhito piṭṭhito anubandhi sīsānulokī. ",
+      "english": "Sāriputta quickly grabbed his sitting cloth and followed behind Puṇṇa, keeping sight of his head. "
+    },
+    {
+      "number": 26,
+      "pali": "Atha kho āyasmā puṇṇo mantāṇiputto andhavanaṁ ajjhogāhetvā aññatarasmiṁ rukkhamūle divāvihāraṁ nisīdi. ",
+      "english": "Puṇṇa plunged deep into the Dark Forest and sat at the root of a tree for the day’s meditation. "
+    },
+    {
+      "number": 27,
+      "pali": "Āyasmāpi kho sāriputto andhavanaṁ ajjhogāhetvā aññatarasmiṁ rukkhamūle divāvihāraṁ nisīdi. ",
+      "english": "And Sāriputta did likewise. "
+    },
+    {
+      "number": 28,
+      "pali": "Atha kho āyasmā sāriputto sāyanhasamayaṁ paṭisallānā vuṭṭhito yenāyasmā puṇṇo mantāṇiputto tenupasaṅkami; upasaṅkamitvā āyasmatā puṇṇena mantāṇiputtena saddhiṁ sammodi. ",
+      "english": "Then in the late afternoon, Sāriputta came out of retreat, went to Puṇṇa, and exchanged greetings with him. "
+    },
+    {
+      "number": 29,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā sāriputto āyasmantaṁ puṇṇaṁ mantāṇiputtaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to Puṇṇa: "
+    },
+    {
+      "number": 30,
+      "pali": "“Bhagavati no, āvuso, brahmacariyaṁ vussatī”ti? ",
+      "english": "“Reverend, is our spiritual life lived under the Buddha?” "
+    },
+    {
+      "number": 31,
+      "pali": "“Evamāvuso”ti. ",
+      "english": "“Yes, reverend.” "
+    },
+    {
+      "number": 32,
+      "pali": "“Kiṁ nu kho, āvuso, sīlavisuddhatthaṁ bhagavati brahmacariyaṁ vussatī”ti? ",
+      "english": "“Is the spiritual life lived under the Buddha for the sake of purification of ethics?” "
+    },
+    {
+      "number": 33,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“Certainly not.” "
+    },
+    {
+      "number": 34,
+      "pali": "“Kiṁ panāvuso, cittavisuddhatthaṁ bhagavati brahmacariyaṁ vussatī”ti? ",
+      "english": "“Well, is the spiritual life lived under the Buddha for the sake of purification of mind?” "
+    },
+    {
+      "number": 35,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“Certainly not.” "
+    },
+    {
+      "number": 36,
+      "pali": "“Kiṁ nu kho, āvuso, diṭṭhivisuddhatthaṁ bhagavati brahmacariyaṁ vussatī”ti? ",
+      "english": "“Is the spiritual life lived under the Buddha for the sake of purification of view?” "
+    },
+    {
+      "number": 37,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“Certainly not.” "
+    },
+    {
+      "number": 38,
+      "pali": "“Kiṁ panāvuso, kaṅkhāvitaraṇavisuddhatthaṁ bhagavati brahmacariyaṁ vussatī”ti? ",
+      "english": "“Well, is the spiritual life lived under the Buddha for the sake of purification by traversing doubt?” "
+    },
+    {
+      "number": 39,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“Certainly not.” "
+    },
+    {
+      "number": 40,
+      "pali": "“Kiṁ nu kho, āvuso, maggāmaggañāṇadassanavisuddhatthaṁ bhagavati brahmacariyaṁ vussatī”ti? ",
+      "english": "“Is the spiritual life lived under the Buddha for the sake of purification of knowledge and vision of what is the path and what is not the path?” "
+    },
+    {
+      "number": 41,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“Certainly not.” "
+    },
+    {
+      "number": 42,
+      "pali": "“Kiṁ panāvuso, paṭipadāñāṇadassanavisuddhatthaṁ bhagavati brahmacariyaṁ vussatī”ti? ",
+      "english": "“Well, is the spiritual life lived under the Buddha for the sake of purification of knowledge and vision of the practice?” "
+    },
+    {
+      "number": 43,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“Certainly not.” "
+    },
+    {
+      "number": 44,
+      "pali": "“Kiṁ nu kho, āvuso, ñāṇadassanavisuddhatthaṁ bhagavati brahmacariyaṁ vussatī”ti? ",
+      "english": "“Is the spiritual life lived under the Buddha for the sake of purification of knowledge and vision?” "
+    },
+    {
+      "number": 45,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“Certainly not.” "
+    },
+    {
+      "number": 46,
+      "pali": "“‘Kiṁ nu kho, āvuso, sīlavisuddhatthaṁ bhagavati brahmacariyaṁ vussatī’ti iti puṭṭho samāno ‘no hidaṁ, āvuso’ti vadesi. ",
+      "english": "“When asked each of these questions, you answered, ‘Certainly not.’ "
+    },
+    {
+      "number": 47,
+      "pali": "‘Kiṁ panāvuso, cittavisuddhatthaṁ bhagavati brahmacariyaṁ vussatī’ti iti puṭṭho samāno ‘no hidaṁ, āvuso’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "‘Kiṁ nu kho, āvuso, diṭṭhivisuddhatthaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "kaṅkhāvitaraṇavisuddhatthaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "maggāmaggañāṇadassanavisuddhatthaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "paṭipadāñāṇadassanavisuddhatthaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "kiṁ nu kho, āvuso, ñāṇadassanavisuddhatthaṁ bhagavati brahmacariyaṁ vussatī’ti iti puṭṭho samāno ‘no hidaṁ āvuso’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Kimatthaṁ carahāvuso, bhagavati brahmacariyaṁ vussatī”ti? ",
+      "english": "Then what exactly is the goal of leading the spiritual life under the Buddha?” "
+    },
+    {
+      "number": 54,
+      "pali": "“Anupādāparinibbānatthaṁ kho, āvuso, bhagavati brahmacariyaṁ vussatī”ti. ",
+      "english": "“The goal of leading the spiritual life under the Buddha is complete extinguishment with no fuel for grasping.” "
+    },
+    {
+      "number": 55,
+      "pali": "“Kiṁ nu kho, āvuso, sīlavisuddhi anupādāparinibbānan”ti? ",
+      "english": "“Reverend, is purification of ethics complete extinguishment with no fuel for grasping?” "
+    },
+    {
+      "number": 56,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“Certainly not, reverend.” "
+    },
+    {
+      "number": 57,
+      "pali": "“Kiṁ panāvuso, cittavisuddhi anupādāparinibbānan”ti? ",
+      "english": "“Is purification of mind … "
+    },
+    {
+      "number": 58,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "“Kiṁ nu kho, āvuso, diṭṭhivisuddhi anupādāparinibbānan”ti? ",
+      "english": "purification of view … "
+    },
+    {
+      "number": 60,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "“Kiṁ panāvuso, kaṅkhāvitaraṇavisuddhi anupādāparinibbānan”ti? ",
+      "english": "purification by traversing doubt … "
+    },
+    {
+      "number": 62,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "“Kiṁ nu kho, āvuso, maggāmaggañāṇadassanavisuddhi anupādāparinibbānan”ti? ",
+      "english": "purification of knowledge and vision of what is the path and what is not the path … "
+    },
+    {
+      "number": 64,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "“Kiṁ panāvuso, paṭipadāñāṇadassanavisuddhi anupādāparinibbānan”ti? ",
+      "english": "purification of knowledge and vision of the practice … "
+    },
+    {
+      "number": 66,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "“Kiṁ nu kho, āvuso, ñāṇadassanavisuddhi anupādāparinibbānan”ti? ",
+      "english": "Is purification of knowledge and vision complete extinguishment with no fuel for grasping?” "
+    },
+    {
+      "number": 68,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“Certainly not.” "
+    },
+    {
+      "number": 69,
+      "pali": "“Kiṁ panāvuso, aññatra imehi dhammehi anupādāparinibbānan”ti? ",
+      "english": "“Then is complete extinguishment with no fuel for grasping something apart from these things?” "
+    },
+    {
+      "number": 70,
+      "pali": "“No hidaṁ, āvuso”. ",
+      "english": "“Certainly not.” "
+    },
+    {
+      "number": 71,
+      "pali": "“‘Kiṁ nu kho, āvuso, sīlavisuddhi anupādāparinibbānan’ti iti puṭṭho samāno ‘no hidaṁ, āvuso’ti vadesi. ",
+      "english": "“When asked each of these questions, you answered, ‘Certainly not.’ "
+    },
+    {
+      "number": 72,
+      "pali": "‘Kiṁ panāvuso, cittavisuddhi anupādāparinibbānan’ti iti puṭṭho samāno ‘no hidaṁ, āvuso’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "‘Kiṁ nu kho, āvuso, diṭṭhivisuddhi anupādāparinibbānan’ti …pe… ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "kaṅkhāvitaraṇavisuddhi … ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "maggāmaggañāṇadassanavisuddhi … ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "paṭipadāñāṇadassanavisuddhi … ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "‘kiṁ nu kho, āvuso, ñāṇadassanavisuddhi anupādāparinibbānan’ti iti puṭṭho samāno ‘no hidaṁ, āvuso’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "‘Kiṁ panāvuso, aññatra imehi dhammehi anupādāparinibbānan’ti iti puṭṭho samāno ‘no hidaṁ, āvuso’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "Yathākathaṁ panāvuso, imassa bhāsitassa attho daṭṭhabbo”ti? ",
+      "english": "How then should we see the meaning of this statement?” "
+    },
+    {
+      "number": 80,
+      "pali": "“Sīlavisuddhiñce, āvuso, bhagavā anupādāparinibbānaṁ paññapeyya, saupādānaṁyeva samānaṁ anupādāparinibbānaṁ paññapeyya. ",
+      "english": "“If the Buddha had declared purification of ethics to be complete extinguishment with no fuel for grasping, he would have declared that which grasps fuel to be complete extinguishment without grasping fuel. "
+    },
+    {
+      "number": 81,
+      "pali": "Cittavisuddhiñce, āvuso, bhagavā anupādāparinibbānaṁ paññapeyya, saupādānaṁyeva samānaṁ anupādāparinibbānaṁ paññapeyya. ",
+      "english": "If the Buddha had declared purification of mind … "
+    },
+    {
+      "number": 82,
+      "pali": "Diṭṭhivisuddhiñce, āvuso, bhagavā anupādāparinibbānaṁ paññapeyya, saupādānaṁyeva samānaṁ anupādāparinibbānaṁ paññapeyya. ",
+      "english": "purification of view … "
+    },
+    {
+      "number": 83,
+      "pali": "Kaṅkhāvitaraṇavisuddhiñce, āvuso, bhagavā anupādāparinibbānaṁ paññapeyya, saupādānaṁyeva samānaṁ anupādāparinibbānaṁ paññapeyya. ",
+      "english": "purification by traversing doubt … "
+    },
+    {
+      "number": 84,
+      "pali": "Maggāmaggañāṇadassanavisuddhiñce, āvuso, bhagavā anupādāparinibbānaṁ paññapeyya, saupādānaṁyeva samānaṁ anupādāparinibbānaṁ paññapeyya. ",
+      "english": "purification of knowledge and vision of what is the path and what is not the path … "
+    },
+    {
+      "number": 85,
+      "pali": "Paṭipadāñāṇadassanavisuddhiñce, āvuso, bhagavā anupādāparinibbānaṁ paññapeyya, saupādānaṁyeva samānaṁ anupādāparinibbānaṁ paññapeyya. ",
+      "english": "purification of knowledge and vision of the practice … "
+    },
+    {
+      "number": 86,
+      "pali": "Ñāṇadassanavisuddhiñce, āvuso, bhagavā anupādāparinibbānaṁ paññapeyya, saupādānaṁyeva samānaṁ anupādāparinibbānaṁ paññapeyya. ",
+      "english": "If the Buddha had declared purification of knowledge and vision to be complete extinguishment with no fuel for grasping, he would have declared that which grasps fuel to be complete extinguishment without grasping fuel. "
+    },
+    {
+      "number": 87,
+      "pali": "Aññatra ce, āvuso, imehi dhammehi anupādāparinibbānaṁ abhavissa, puthujjano parinibbāyeyya. ",
+      "english": "But if complete extinguishment with no fuel for grasping was something apart from these things, an ordinary person would become extinguished. "
+    },
+    {
+      "number": 88,
+      "pali": "Puthujjano hi, āvuso, aññatra imehi dhammehi. ",
+      "english": "For an ordinary person lacks these things. "
+    },
+    {
+      "number": 89,
+      "pali": "Tena hāvuso, upamaṁ te karissāmi; ",
+      "english": "Well then, reverend, I shall give you a simile. "
+    },
+    {
+      "number": 90,
+      "pali": "upamāyapidhekacce viññū purisā bhāsitassa atthaṁ ājānanti. ",
+      "english": "For by means of a simile some sensible people understand the meaning of what is said. "
+    },
+    {
+      "number": 91,
+      "pali": "Seyyathāpi, āvuso, rañño pasenadissa kosalassa sāvatthiyaṁ paṭivasantassa sākete kiñcideva accāyikaṁ karaṇīyaṁ uppajjeyya. ",
+      "english": "Suppose that, while staying in Sāvatthī, King Pasenadi of Kosala had some urgent business come up in Sāketa. "
+    },
+    {
+      "number": 92,
+      "pali": "Tassa antarā ca sāvatthiṁ antarā ca sāketaṁ satta rathavinītāni upaṭṭhapeyyuṁ. ",
+      "english": "Now, between Sāvatthī and Sāketa seven chariots were stationed at the ready for him. "
+    },
+    {
+      "number": 93,
+      "pali": "Atha kho, āvuso, rājā pasenadi kosalo sāvatthiyā nikkhamitvā antepuradvārā paṭhamaṁ rathavinītaṁ abhiruheyya, paṭhamena rathavinītena dutiyaṁ rathavinītaṁ pāpuṇeyya, paṭhamaṁ rathavinītaṁ vissajjeyya dutiyaṁ rathavinītaṁ abhiruheyya. ",
+      "english": "Then Pasenadi, exiting Sāvatthī, mounted the first chariot at the ready by the gate of the royal compound. The first chariot at the ready would bring him to the second, where he’d dismount and mount the second chariot. "
+    },
+    {
+      "number": 94,
+      "pali": "Dutiyena rathavinītena tatiyaṁ rathavinītaṁ pāpuṇeyya, dutiyaṁ rathavinītaṁ vissajjeyya, tatiyaṁ rathavinītaṁ abhiruheyya. ",
+      "english": "The second chariot at the ready would bring him to the third … "
+    },
+    {
+      "number": 95,
+      "pali": "Tatiyena rathavinītena catutthaṁ rathavinītaṁ pāpuṇeyya, tatiyaṁ rathavinītaṁ vissajjeyya, catutthaṁ rathavinītaṁ abhiruheyya. ",
+      "english": "The third chariot at the ready would bring him to the fourth … "
+    },
+    {
+      "number": 96,
+      "pali": "Catutthena rathavinītena pañcamaṁ rathavinītaṁ pāpuṇeyya, catutthaṁ rathavinītaṁ vissajjeyya, pañcamaṁ rathavinītaṁ abhiruheyya. ",
+      "english": "The fourth chariot at the ready would bring him to the fifth … "
+    },
+    {
+      "number": 97,
+      "pali": "Pañcamena rathavinītena chaṭṭhaṁ rathavinītaṁ pāpuṇeyya, pañcamaṁ rathavinītaṁ vissajjeyya, chaṭṭhaṁ rathavinītaṁ abhiruheyya. ",
+      "english": "The fifth chariot at the ready would bring him to the sixth … "
+    },
+    {
+      "number": 98,
+      "pali": "Chaṭṭhena rathavinītena sattamaṁ rathavinītaṁ pāpuṇeyya, chaṭṭhaṁ rathavinītaṁ vissajjeyya, sattamaṁ rathavinītaṁ abhiruheyya. ",
+      "english": "The sixth chariot at the ready would bring him to the seventh, where he’d dismount and mount the seventh chariot. "
+    },
+    {
+      "number": 99,
+      "pali": "Sattamena rathavinītena sāketaṁ anupāpuṇeyya antepuradvāraṁ. ",
+      "english": "The seventh chariot at the ready would bring him to the gate of the royal compound of Sāketa. "
+    },
+    {
+      "number": 100,
+      "pali": "Tamenaṁ antepuradvāragataṁ samānaṁ mittāmaccā ñātisālohitā evaṁ puccheyyuṁ: ",
+      "english": "And when he was at the gate, friends and colleagues, relatives and kin would ask him: "
+    },
+    {
+      "number": 101,
+      "pali": "‘iminā tvaṁ, mahārāja, rathavinītena sāvatthiyā sāketaṁ anuppatto antepuradvāran’ti? ",
+      "english": "‘Great king, did you come to Sāketa from Sāvatthī by this chariot at the ready?’ "
+    },
+    {
+      "number": 102,
+      "pali": "Kathaṁ byākaramāno nu kho, āvuso, rājā pasenadi kosalo sammā byākaramāno byākareyyā”ti? ",
+      "english": "If asked this, how should King Pasenadi rightly reply?” "
+    },
+    {
+      "number": 103,
+      "pali": "“Evaṁ byākaramāno kho, āvuso, rājā pasenadi kosalo sammā byākaramāno byākareyya: ",
+      "english": "“The king should reply: "
+    },
+    {
+      "number": 104,
+      "pali": "‘idha me sāvatthiyaṁ paṭivasantassa sākete kiñcideva accāyikaṁ karaṇīyaṁ uppajji. ",
+      "english": "‘Well, while staying in Sāvatthī, I had some urgent business come up in Sāketa. "
+    },
+    {
+      "number": 105,
+      "pali": "Tassa me antarā ca sāvatthiṁ antarā ca sāketaṁ satta rathavinītāni upaṭṭhapesuṁ. ",
+      "english": "Now, between Sāvatthī and Sāketa seven chariots were stationed at the ready for me. "
+    },
+    {
+      "number": 106,
+      "pali": "Atha khvāhaṁ sāvatthiyā nikkhamitvā antepuradvārā paṭhamaṁ rathavinītaṁ abhiruhiṁ. ",
+      "english": "Then, exiting Sāvatthī, I mounted the first chariot at the ready by the gate of the royal compound. "
+    },
+    {
+      "number": 107,
+      "pali": "Paṭhamena rathavinītena dutiyaṁ rathavinītaṁ pāpuṇiṁ, paṭhamaṁ rathavinītaṁ vissajjiṁ dutiyaṁ rathavinītaṁ abhiruhiṁ. ",
+      "english": "The first chariot at the ready brought me to the second, where I dismounted and mounted the second chariot. … "
+    },
+    {
+      "number": 108,
+      "pali": "Dutiyena rathavinītena tatiyaṁ rathavinītaṁ pāpuṇiṁ, dutiyaṁ rathavinītaṁ vissajjiṁ, tatiyaṁ rathavinītaṁ abhiruhiṁ. ",
+      "english": "The second chariot brought me to the third … "
+    },
+    {
+      "number": 109,
+      "pali": "Tatiyena rathavinītena catutthaṁ rathavinītaṁ pāpuṇiṁ, tatiyaṁ rathavinītaṁ vissajjiṁ, catutthaṁ rathavinītaṁ abhiruhiṁ. ",
+      "english": "the fourth … "
+    },
+    {
+      "number": 110,
+      "pali": "Catutthena rathavinītena pañcamaṁ rathavinītaṁ pāpuṇiṁ, catutthaṁ rathavinītaṁ vissajjiṁ, pañcamaṁ rathavinītaṁ abhiruhiṁ. ",
+      "english": "the fifth … "
+    },
+    {
+      "number": 111,
+      "pali": "Pañcamena rathavinītena chaṭṭhaṁ rathavinītaṁ pāpuṇiṁ, pañcamaṁ rathavinītaṁ vissajjiṁ, chaṭṭhaṁ rathavinītaṁ abhiruhiṁ. ",
+      "english": "the sixth … "
+    },
+    {
+      "number": 112,
+      "pali": "Chaṭṭhena rathavinītena sattamaṁ rathavinītaṁ pāpuṇiṁ, chaṭṭhaṁ rathavinītaṁ vissajjiṁ, sattamaṁ rathavinītaṁ abhiruhiṁ. ",
+      "english": "The sixth chariot at the ready brought me to the seventh, where I dismounted and mounted the seventh chariot. "
+    },
+    {
+      "number": 113,
+      "pali": "Sattamena rathavinītena sāketaṁ anuppatto antepuradvāran’ti. ",
+      "english": "The seventh chariot at the ready brought me to the gate of the royal compound of Sāketa.’ "
+    },
+    {
+      "number": 114,
+      "pali": "Evaṁ byākaramāno kho, āvuso, rājā pasenadi kosalo sammā byākaramāno byākareyyā”ti. ",
+      "english": "That’s how King Pasenadi should rightly reply.” "
+    },
+    {
+      "number": 115,
+      "pali": "“Evameva kho, āvuso, sīlavisuddhi yāvadeva cittavisuddhatthā, cittavisuddhi yāvadeva diṭṭhivisuddhatthā, diṭṭhivisuddhi yāvadeva kaṅkhāvitaraṇavisuddhatthā, kaṅkhāvitaraṇavisuddhi yāvadeva maggāmaggañāṇadassanavisuddhatthā, maggāmaggañāṇadassanavisuddhi yāvadeva paṭipadāñāṇadassanavisuddhatthā, paṭipadāñāṇadassanavisuddhi yāvadeva ñāṇadassanavisuddhatthā, ñāṇadassanavisuddhi yāvadeva anupādāparinibbānatthā. ",
+      "english": "“In the same way, reverend, purification of ethics is only for the sake of purification of mind. Purification of mind is only for the sake of purification of view. Purification of view is only for the sake of purification by traversing doubt. Purification by traversing doubt is only for the sake of purification of knowledge and vision of what is the path and what is not the path. Purification of knowledge and vision of what is the path and what is not the path is only for the sake of purification of knowledge and vision of the practice. Purification of knowledge and vision of the practice is only for the sake of purification of knowledge and vision. Purification of knowledge and vision is only for the sake of extinguishment with no fuel for grasping. "
+    },
+    {
+      "number": 116,
+      "pali": "Anupādāparinibbānatthaṁ kho, āvuso, bhagavati brahmacariyaṁ vussatī”ti. ",
+      "english": "The spiritual life is lived under the Buddha for the sake of complete extinguishment with no fuel for grasping.” "
+    },
+    {
+      "number": 117,
+      "pali": "Evaṁ vutte, āyasmā sāriputto āyasmantaṁ puṇṇaṁ mantāṇiputtaṁ etadavoca: ",
+      "english": "When he said this, Sāriputta said to Puṇṇa, "
+    },
+    {
+      "number": 118,
+      "pali": "“konāmo āyasmā, kathañca panāyasmantaṁ sabrahmacārī jānantī”ti? ",
+      "english": "“What is the venerable’s name? And how are you known among your spiritual companions?” "
+    },
+    {
+      "number": 119,
+      "pali": "“Puṇṇoti kho me, āvuso, nāmaṁ; ",
+      "english": "“Reverend, my name is Puṇṇa. "
+    },
+    {
+      "number": 120,
+      "pali": "mantāṇiputtoti ca pana maṁ sabrahmacārī jānantī”ti. ",
+      "english": "And I am known as ‘son of Mantāṇī’ among my spiritual companions.” "
+    },
+    {
+      "number": 121,
+      "pali": "“Acchariyaṁ, āvuso, abbhutaṁ, āvuso. ",
+      "english": "“It’s incredible, reverend, it’s amazing! "
+    },
+    {
+      "number": 122,
+      "pali": "Yathā taṁ sutavatā sāvakena sammadeva satthusāsanaṁ ājānantena, evameva āyasmatā puṇṇena mantāṇiputtena gambhīrā gambhīrapañhā anumassa anumassa byākatā. ",
+      "english": "Venerable Puṇṇa son of Mantāṇī has answered each deep question point by point, as a learned disciple who rightly understands the teacher’s instructions. "
+    },
+    {
+      "number": 123,
+      "pali": "Lābhā sabrahmacārīnaṁ, suladdhalābhā sabrahmacārīnaṁ, ",
+      "english": "It is fortunate for his spiritual companions, so very fortunate, "
+    },
+    {
+      "number": 124,
+      "pali": "ye āyasmantaṁ puṇṇaṁ mantāṇiputtaṁ labhanti dassanāya, labhanti payirūpāsanāya. ",
+      "english": "that they get to see Venerable Puṇṇa son of Mantāṇī and pay homage to him. "
+    },
+    {
+      "number": 125,
+      "pali": "Celaṇḍukena cepi sabrahmacārī āyasmantaṁ puṇṇaṁ mantāṇiputtaṁ muddhanā pariharantā labheyyuṁ dassanāya, labheyyuṁ payirūpāsanāya, tesampi lābhā tesampi suladdhaṁ, amhākampi lābhā amhākampi suladdhaṁ, ye mayaṁ āyasmantaṁ puṇṇaṁ mantāṇiputtaṁ labhāma dassanāya, labhāma payirūpāsanāyā”ti. ",
+      "english": "Even if they only got to see him and pay respects to him by carrying him around on their heads on a roll of cloth, it would still be very fortunate for them! And it’s fortunate for me, so very fortunate, that I get to see the venerable and pay homage to him.” "
+    },
+    {
+      "number": 126,
+      "pali": "Evaṁ vutte, āyasmā puṇṇo mantāṇiputto āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": "When he said this, Puṇṇa said to Sāriputta, "
+    },
+    {
+      "number": 127,
+      "pali": "“ko nāmo āyasmā, kathañca panāyasmantaṁ sabrahmacārī jānantī”ti? ",
+      "english": "“What is the venerable’s name? And how are you known among your spiritual companions?” "
+    },
+    {
+      "number": 128,
+      "pali": "“Upatissoti kho me, āvuso, nāmaṁ; ",
+      "english": "“Reverend, my name is Upatissa. "
+    },
+    {
+      "number": 129,
+      "pali": "sāriputtoti ca pana maṁ sabrahmacārī jānantī”ti. ",
+      "english": "And I am known as Sāriputta among my spiritual companions.” "
+    },
+    {
+      "number": 130,
+      "pali": "“Satthukappena vata kira, bho, sāvakena saddhiṁ mantayamānā na jānimha: ",
+      "english": "“Goodness! I had no idea I was consulting with <em>the</em> Venerable Sāriputta, the disciple who is fit to be compared with the Teacher himself! "
+    },
+    {
+      "number": 131,
+      "pali": "‘āyasmā sāriputto’ti. ",
+      "english": ""
+    },
+    {
+      "number": 132,
+      "pali": "Sace hi mayaṁ jāneyyāma ‘āyasmā sāriputto’ti, ettakampi no nappaṭibhāseyya. ",
+      "english": "If I’d known, I would not have said so much. "
+    },
+    {
+      "number": 133,
+      "pali": "Acchariyaṁ, āvuso, abbhutaṁ, āvuso. ",
+      "english": "It’s incredible, reverend, it’s amazing! "
+    },
+    {
+      "number": 134,
+      "pali": "Yathā taṁ sutavatā sāvakena sammadeva satthusāsanaṁ ājānantena, evameva āyasmatā sāriputtena gambhīrā gambhīrapañhā anumassa anumassa pucchitā. ",
+      "english": "Venerable Sāriputta has asked each deep question point by point, as a learned disciple who rightly understands the teacher’s instructions. "
+    },
+    {
+      "number": 135,
+      "pali": "Lābhā sabrahmacārīnaṁ suladdhalābhā sabrahmacārīnaṁ, ",
+      "english": "It is fortunate for his spiritual companions, so very fortunate, "
+    },
+    {
+      "number": 136,
+      "pali": "ye āyasmantaṁ sāriputtaṁ labhanti dassanāya, labhanti payirūpāsanāya. ",
+      "english": "that they get to see Venerable Sāriputta and pay homage to him. "
+    },
+    {
+      "number": 137,
+      "pali": "Celaṇḍukena cepi sabrahmacārī āyasmantaṁ sāriputtaṁ muddhanā pariharantā labheyyuṁ dassanāya, labheyyuṁ payirūpāsanāya, tesampi lābhā tesampi suladdhaṁ, amhākampi lābhā amhākampi suladdhaṁ, ye mayaṁ āyasmantaṁ sāriputtaṁ labhāma dassanāya, labhāma payirūpāsanāyā”ti. ",
+      "english": "Even if they only got to see him and pay respects to him by carrying him around on their heads on a roll of cloth, it would still be very fortunate for them! And it’s fortunate for me, so very fortunate, that I get to see the venerable and pay homage to him.” "
+    },
+    {
+      "number": 138,
+      "pali": "Itiha te ubhopi mahānāgā aññamaññassa subhāsitaṁ samanumodiṁsūti. ",
+      "english": "And so these two spiritual giants agreed with each others’ fine words. "
+    },
+    {
+      "number": 139,
+      "pali": "Rathavinītasuttaṁ niṭṭhitaṁ catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

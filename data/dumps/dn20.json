@@ -1,0 +1,1690 @@
+{
+  "sutta_id": "DN20",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Dīgha Nikāya 20 ",
+      "english": "Long Discourses 20 "
+    },
+    {
+      "number": 2,
+      "pali": "Mahāsamayasutta ",
+      "english": "The Great Congregation "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sakkesu viharati kapilavatthusmiṁ mahāvane mahatā bhikkhusaṅghena saddhiṁ pañcamattehi bhikkhusatehi sabbeheva arahantehi; ",
+      "english": "At one time the Buddha was staying in the land of the Sakyans, in the Great Wood near Kapilavatthu, together with a large Saṅgha of five hundred mendicants, all of whom were perfected ones. "
+    },
+    {
+      "number": 5,
+      "pali": "dasahi ca lokadhātūhi devatā yebhuyyena sannipatitā honti bhagavantaṁ dassanāya bhikkhusaṅghañca. ",
+      "english": "And most of the deities from ten solar systems had gathered to see the Buddha and the Saṅgha of mendicants. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho catunnaṁ suddhāvāsakāyikānaṁ devatānaṁ etadahosi: ",
+      "english": "Then four deities of the Pure Abodes, aware of what was happening, thought: "
+    },
+    {
+      "number": 7,
+      "pali": "“ayaṁ kho bhagavā sakkesu viharati kapilavatthusmiṁ mahāvane mahatā bhikkhusaṅghena saddhiṁ pañcamattehi bhikkhusatehi sabbeheva arahantehi; ",
+      "english": ""
+    },
+    {
+      "number": 8,
+      "pali": "dasahi ca lokadhātūhi devatā yebhuyyena sannipatitā honti bhagavantaṁ dassanāya bhikkhusaṅghañca. ",
+      "english": ""
+    },
+    {
+      "number": 9,
+      "pali": "Yannūna mayampi yena bhagavā tenupasaṅkameyyāma; upasaṅkamitvā bhagavato santike paccekaṁ gāthaṁ bhāseyyāmā”ti. ",
+      "english": "“Why don’t we go to the Buddha and each recite a verse in his presence?” "
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho tā devatā seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya pasāritaṁ vā bāhaṁ samiñjeyya; evameva—suddhāvāsesu devesu antarahitā bhagavato purato pāturahesuṁ. ",
+      "english": "Then, as easily as a strong person would extend or contract their arm, they vanished from the Pure Abodes and reappeared in front of the Buddha. "
+    },
+    {
+      "number": 11,
+      "pali": "Atha kho tā devatā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhaṁsu. ",
+      "english": "They bowed to the Buddha and stood to one side. "
+    },
+    {
+      "number": 12,
+      "pali": "Ekamantaṁ ṭhitā kho ekā devatā bhagavato santike imaṁ gāthaṁ abhāsi: ",
+      "english": "Standing to one side, one deity spoke this verse in the Buddha’s presence: "
+    },
+    {
+      "number": 13,
+      "pali": "“Mahāsamayo pavanasmiṁ, ",
+      "english": "“There’s a great congregation in the woods, "
+    },
+    {
+      "number": 14,
+      "pali": "Devakāyā samāgatā; ",
+      "english": "where heavenly hosts have assembled. "
+    },
+    {
+      "number": 15,
+      "pali": "Āgatamha imaṁ dhammasamayaṁ, ",
+      "english": "We’ve come to this righteous congregation "
+    },
+    {
+      "number": 16,
+      "pali": "Dakkhitāye aparājitasaṅghan”ti. ",
+      "english": "to see the invincible Saṅgha!” "
+    },
+    {
+      "number": 17,
+      "pali": "Atha kho aparā devatā bhagavato santike imaṁ gāthaṁ abhāsi: ",
+      "english": "Then another deity spoke this verse in the Buddha’s presence: "
+    },
+    {
+      "number": 18,
+      "pali": "“Tatra bhikkhavo samādahaṁsu, ",
+      "english": "“The mendicants there are immersed in samādhi, "
+    },
+    {
+      "number": 19,
+      "pali": "Cittamattano ujukaṁ akaṁsu; ",
+      "english": "they’ve straightened their own minds. "
+    },
+    {
+      "number": 20,
+      "pali": "Sārathīva nettāni gahetvā, ",
+      "english": "Like a charioteer holding the reins, "
+    },
+    {
+      "number": 21,
+      "pali": "Indriyāni rakkhanti paṇḍitā”ti. ",
+      "english": "the astute ones protect their senses.” "
+    },
+    {
+      "number": 22,
+      "pali": "Atha kho aparā devatā bhagavato santike imaṁ gāthaṁ abhāsi: ",
+      "english": "Then another deity spoke this verse in the Buddha’s presence: "
+    },
+    {
+      "number": 23,
+      "pali": "“Chetvā khīlaṁ chetvā palighaṁ, ",
+      "english": "“They snapped the post and snapped the cross-bar, "
+    },
+    {
+      "number": 24,
+      "pali": "Indakhīlaṁ ūhacca manejā; ",
+      "english": "unstirred, they tore out Indra’s pillar. "
+    },
+    {
+      "number": 25,
+      "pali": "Te caranti suddhā vimalā, ",
+      "english": "They live pure and immaculate, "
+    },
+    {
+      "number": 26,
+      "pali": "Cakkhumatā sudantā susunāgā”ti. ",
+      "english": "the young giants tamed by the Clear-eyed One.” "
+    },
+    {
+      "number": 27,
+      "pali": "Atha kho aparā devatā bhagavato santike imaṁ gāthaṁ abhāsi: ",
+      "english": "Then another deity spoke this verse in the Buddha’s presence: "
+    },
+    {
+      "number": 28,
+      "pali": "“Ye keci buddhaṁ saraṇaṁ gatāse, ",
+      "english": "“Anyone who has gone to the Buddha for refuge "
+    },
+    {
+      "number": 29,
+      "pali": "Na te gamissanti apāyabhūmiṁ; ",
+      "english": "won’t go to a plane of loss. "
+    },
+    {
+      "number": 30,
+      "pali": "Pahāya mānusaṁ dehaṁ, ",
+      "english": "After giving up this human body, "
+    },
+    {
+      "number": 31,
+      "pali": "Devakāyaṁ paripūressantī”ti. ",
+      "english": "they swell the hosts of gods.” "
+    },
+    {
+      "number": 32,
+      "pali": "1. Devatāsannipāta ",
+      "english": "1. The Gathering of Deities "
+    },
+    {
+      "number": 33,
+      "pali": "Atha kho bhagavā bhikkhū āmantesi: ",
+      "english": "Then the Buddha said to the mendicants: "
+    },
+    {
+      "number": 34,
+      "pali": "“yebhuyyena, bhikkhave, dasasu lokadhātūsu devatā sannipatitā honti, tathāgataṁ dassanāya bhikkhusaṅghañca. ",
+      "english": "“Mendicants, most of the deities from ten solar systems have gathered to see the Realized One and the mendicant Saṅgha. "
+    },
+    {
+      "number": 35,
+      "pali": "Yepi te, bhikkhave, ahesuṁ atītamaddhānaṁ arahanto sammāsambuddhā, tesampi bhagavantānaṁ etapparamāyeva devatā sannipatitā ahesuṁ seyyathāpi mayhaṁ etarahi. ",
+      "english": "Those who were perfected ones, fully awakened Buddhas in the past also had gatherings of deities that were at best like the gathering for me now. "
+    },
+    {
+      "number": 36,
+      "pali": "Yepi te, bhikkhave, bhavissanti anāgatamaddhānaṁ arahanto sammāsambuddhā, tesampi bhagavantānaṁ etapparamāyeva devatā sannipatitā bhavissanti seyyathāpi mayhaṁ etarahi. ",
+      "english": "Those who will be perfected ones, fully awakened Buddhas in the future will also have gatherings of deities that will be at best like the gathering for me now. "
+    },
+    {
+      "number": 37,
+      "pali": "Ācikkhissāmi, bhikkhave, devakāyānaṁ nāmāni; ",
+      "english": "I shall declare the names of the heavenly hosts; "
+    },
+    {
+      "number": 38,
+      "pali": "kittayissāmi, bhikkhave, devakāyānaṁ nāmāni; ",
+      "english": "I shall extol the names of the heavenly hosts; "
+    },
+    {
+      "number": 39,
+      "pali": "desessāmi, bhikkhave, devakāyānaṁ nāmāni. ",
+      "english": "I shall teach the names of the heavenly hosts. "
+    },
+    {
+      "number": 40,
+      "pali": "Taṁ suṇātha, sādhukaṁ manasikarotha, bhāsissāmī”ti. ",
+      "english": "Listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 41,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 42,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 43,
+      "pali": "“Silokamanukassāmi, ",
+      "english": "“I invoke a paean of praise! "
+    },
+    {
+      "number": 44,
+      "pali": "yattha bhummā tadassitā; ",
+      "english": "Where the earth-gods dwell, "
+    },
+    {
+      "number": 45,
+      "pali": "Ye sitā girigabbharaṁ, ",
+      "english": "there, in mountain caves, "
+    },
+    {
+      "number": 46,
+      "pali": "pahitattā samāhitā. ",
+      "english": "resolute and composed, "
+    },
+    {
+      "number": 47,
+      "pali": "Puthūsīhāva sallīnā, ",
+      "english": "dwell many like lonely lions, "
+    },
+    {
+      "number": 48,
+      "pali": "lomahaṁsābhisambhuno; ",
+      "english": "who have mastered their fears. "
+    },
+    {
+      "number": 49,
+      "pali": "Odātamanasā suddhā, ",
+      "english": "Their minds are bright and pure, "
+    },
+    {
+      "number": 50,
+      "pali": "vippasannamanāvilā. ",
+      "english": "clear and undisturbed.” "
+    },
+    {
+      "number": 51,
+      "pali": "Bhiyyo pañcasate ñatvā, ",
+      "english": "The teacher knew that over five hundred "
+    },
+    {
+      "number": 52,
+      "pali": "vane kāpilavatthave; ",
+      "english": "were in the wood at Kapilavatthu. "
+    },
+    {
+      "number": 53,
+      "pali": "Tato āmantayī satthā, ",
+      "english": "Therefore he addressed "
+    },
+    {
+      "number": 54,
+      "pali": "sāvake sāsane rate. ",
+      "english": "the disciples who love the teaching: "
+    },
+    {
+      "number": 55,
+      "pali": "‘Devakāyā abhikkantā, ",
+      "english": "“The heavenly hosts have come forth; "
+    },
+    {
+      "number": 56,
+      "pali": "te vijānātha bhikkhavo’; ",
+      "english": "mendicants, you should be aware of them.” "
+    },
+    {
+      "number": 57,
+      "pali": "Te ca ātappamakaruṁ, ",
+      "english": "Those monks grew keen, "
+    },
+    {
+      "number": 58,
+      "pali": "sutvā buddhassa sāsanaṁ. ",
+      "english": "hearing the Buddha’s instruction. "
+    },
+    {
+      "number": 59,
+      "pali": "Tesaṁ pāturahu ñāṇaṁ, ",
+      "english": "Knowledge manifested in them, "
+    },
+    {
+      "number": 60,
+      "pali": "amanussānadassanaṁ; ",
+      "english": "seeing those non-human beings. "
+    },
+    {
+      "number": 61,
+      "pali": "Appeke satamaddakkhuṁ, ",
+      "english": "Some saw a hundred, "
+    },
+    {
+      "number": 62,
+      "pali": "sahassaṁ atha sattariṁ. ",
+      "english": "a thousand, even seventy thousand, "
+    },
+    {
+      "number": 63,
+      "pali": "Sataṁ eke sahassānaṁ, ",
+      "english": "while some saw a hundred thousand "
+    },
+    {
+      "number": 64,
+      "pali": "amanussānamaddasuṁ; ",
+      "english": "non-human beings. "
+    },
+    {
+      "number": 65,
+      "pali": "Appekenantamaddakkhuṁ, ",
+      "english": "But some saw an endless number "
+    },
+    {
+      "number": 66,
+      "pali": "disā sabbā phuṭā ahuṁ. ",
+      "english": "spread out in every direction. "
+    },
+    {
+      "number": 67,
+      "pali": "Tañca sabbaṁ abhiññāya, ",
+      "english": "And all that was known "
+    },
+    {
+      "number": 68,
+      "pali": "vavatthitvāna cakkhumā; ",
+      "english": "and distinguished by the Clear-eyed One. "
+    },
+    {
+      "number": 69,
+      "pali": "Tato āmantayī satthā, ",
+      "english": "Therefore he addressed "
+    },
+    {
+      "number": 70,
+      "pali": "sāvake sāsane rate. ",
+      "english": "the disciples who love the teaching: "
+    },
+    {
+      "number": 71,
+      "pali": "‘Devakāyā abhikkantā, ",
+      "english": "“The heavenly hosts have come forth; "
+    },
+    {
+      "number": 72,
+      "pali": "te vijānātha bhikkhavo; ",
+      "english": "mendicants, you should be aware of them. "
+    },
+    {
+      "number": 73,
+      "pali": "Ye vohaṁ kittayissāmi, ",
+      "english": "I shall extol them for you, "
+    },
+    {
+      "number": 74,
+      "pali": "girāhi anupubbaso’. ",
+      "english": "with lyrics in proper order. "
+    },
+    {
+      "number": 75,
+      "pali": "Sattasahassā te yakkhā, ",
+      "english": "There are seven thousand spirits, "
+    },
+    {
+      "number": 76,
+      "pali": "bhummā kāpilavatthavā; ",
+      "english": "earth-gods of Kapilavatthu. "
+    },
+    {
+      "number": 77,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 78,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 79,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 80,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 81,
+      "pali": "Chasahassā hemavatā, ",
+      "english": "From the Himalayas there are six thousand "
+    },
+    {
+      "number": 82,
+      "pali": "yakkhā nānattavaṇṇino; ",
+      "english": "spirits of different colors. "
+    },
+    {
+      "number": 83,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 84,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 85,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 86,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 87,
+      "pali": "Sātāgirā tisahassā, ",
+      "english": "From Mount Sātā there are three thousand "
+    },
+    {
+      "number": 88,
+      "pali": "yakkhā nānattavaṇṇino; ",
+      "english": "spirits of different colors. "
+    },
+    {
+      "number": 89,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 90,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 91,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 92,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 93,
+      "pali": "Iccete soḷasasahassā, ",
+      "english": "And thus there are sixteen thousand "
+    },
+    {
+      "number": 94,
+      "pali": "yakkhā nānattavaṇṇino; ",
+      "english": "spirits of different colors. "
+    },
+    {
+      "number": 95,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 96,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 97,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 98,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 99,
+      "pali": "Vessāmittā pañcasatā, ",
+      "english": "From Vessāmitta’s mountain there are five hundred "
+    },
+    {
+      "number": 100,
+      "pali": "yakkhā nānattavaṇṇino; ",
+      "english": "spirits of different colors. "
+    },
+    {
+      "number": 101,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 102,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 103,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 104,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 105,
+      "pali": "Kumbhīro rājagahiko, ",
+      "english": "And there’s Kumbhīra of Rājagaha, "
+    },
+    {
+      "number": 106,
+      "pali": "vepullassa nivesanaṁ; ",
+      "english": "whose home is on Mount Vepulla. "
+    },
+    {
+      "number": 107,
+      "pali": "Bhiyyo naṁ satasahassaṁ, ",
+      "english": "Attended by more than "
+    },
+    {
+      "number": 108,
+      "pali": "yakkhānaṁ payirupāsati; ",
+      "english": "a hundred thousand spirits, "
+    },
+    {
+      "number": 109,
+      "pali": "Kumbhīro rājagahiko, ",
+      "english": "Kumbhīra of Rājagaha "
+    },
+    {
+      "number": 110,
+      "pali": "sopāgā samitiṁ vanaṁ. ",
+      "english": "also came to the meeting in the wood. "
+    },
+    {
+      "number": 111,
+      "pali": "Purimañca disaṁ rājā, ",
+      "english": "King Dhataraṭṭha rules "
+    },
+    {
+      "number": 112,
+      "pali": "dhataraṭṭho pasāsati; ",
+      "english": "the eastern quarter. "
+    },
+    {
+      "number": 113,
+      "pali": "Gandhabbānaṁ adhipati, ",
+      "english": "Lord of the centaurs, "
+    },
+    {
+      "number": 114,
+      "pali": "mahārājā yasassiso. ",
+      "english": "he’s a great king, glorious. "
+    },
+    {
+      "number": 115,
+      "pali": "Puttāpi tassa bahavo, ",
+      "english": "And he has many mighty sons "
+    },
+    {
+      "number": 116,
+      "pali": "indanāmā mahabbalā; ",
+      "english": "all of them named Indra. "
+    },
+    {
+      "number": 117,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 118,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 119,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 120,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 121,
+      "pali": "Dakkhiṇañca disaṁ rājā, ",
+      "english": "King Virūḷhaka rules "
+    },
+    {
+      "number": 122,
+      "pali": "virūḷho taṁ pasāsati; ",
+      "english": "the southern quarter. "
+    },
+    {
+      "number": 123,
+      "pali": "Kumbhaṇḍānaṁ adhipati, ",
+      "english": "Lord of the gnomes, "
+    },
+    {
+      "number": 124,
+      "pali": "mahārājā yasassiso. ",
+      "english": "he’s a great king, glorious. "
+    },
+    {
+      "number": 125,
+      "pali": "Puttāpi tassa bahavo, ",
+      "english": "And he has many mighty sons "
+    },
+    {
+      "number": 126,
+      "pali": "indanāmā mahabbalā; ",
+      "english": "all of them named Indra. "
+    },
+    {
+      "number": 127,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 128,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 129,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 130,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 131,
+      "pali": "Pacchimañca disaṁ rājā, ",
+      "english": "King Virūpakkha rules "
+    },
+    {
+      "number": 132,
+      "pali": "virūpakkho pasāsati; ",
+      "english": "the western quarter. "
+    },
+    {
+      "number": 133,
+      "pali": "Nāgānañca adhipati, ",
+      "english": "Lord of the dragons, "
+    },
+    {
+      "number": 134,
+      "pali": "mahārājā yasassiso. ",
+      "english": "he’s a great king, glorious. "
+    },
+    {
+      "number": 135,
+      "pali": "Puttāpi tassa bahavo, ",
+      "english": "And he has many mighty sons "
+    },
+    {
+      "number": 136,
+      "pali": "indanāmā mahabbalā; ",
+      "english": "all of them named Indra. "
+    },
+    {
+      "number": 137,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 138,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 139,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 140,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 141,
+      "pali": "Uttarañca disaṁ rājā, ",
+      "english": "King Kuvera rules "
+    },
+    {
+      "number": 142,
+      "pali": "kuvero taṁ pasāsati; ",
+      "english": "the northern quarter. "
+    },
+    {
+      "number": 143,
+      "pali": "Yakkhānañca adhipati, ",
+      "english": "Lord of spirits, "
+    },
+    {
+      "number": 144,
+      "pali": "mahārājā yasassiso. ",
+      "english": "he’s a great king, glorious. "
+    },
+    {
+      "number": 145,
+      "pali": "Puttāpi tassa bahavo, ",
+      "english": "And he has many mighty sons "
+    },
+    {
+      "number": 146,
+      "pali": "indanāmā mahabbalā; ",
+      "english": "all of them named Indra. "
+    },
+    {
+      "number": 147,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 148,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 149,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 150,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 151,
+      "pali": "Purimaṁ disaṁ dhataraṭṭho, ",
+      "english": "Dhataraṭṭha in the east, "
+    },
+    {
+      "number": 152,
+      "pali": "dakkhiṇena virūḷhako; ",
+      "english": "Virūḷhaka to the south, "
+    },
+    {
+      "number": 153,
+      "pali": "Pacchimena virūpakkho, ",
+      "english": "Virūpakkha to the west, "
+    },
+    {
+      "number": 154,
+      "pali": "kuvero uttaraṁ disaṁ. ",
+      "english": "and Kuvera in the north. "
+    },
+    {
+      "number": 155,
+      "pali": "Cattāro te mahārājā, ",
+      "english": "These four great kings, "
+    },
+    {
+      "number": 156,
+      "pali": "samantā caturo disā; ",
+      "english": "all around in the four quarters, "
+    },
+    {
+      "number": 157,
+      "pali": "Daddallamānā aṭṭhaṁsu, ",
+      "english": "stood there dazzling "
+    },
+    {
+      "number": 158,
+      "pali": "vane kāpilavatthave. ",
+      "english": "in the wood at Kapilavatthu. "
+    },
+    {
+      "number": 159,
+      "pali": "Tesaṁ māyāvino dāsā, ",
+      "english": "Their deceitful heathens came, "
+    },
+    {
+      "number": 160,
+      "pali": "āguṁ vañcanikā saṭhā; ",
+      "english": "so treacherous and crafty—"
+    },
+    {
+      "number": 161,
+      "pali": "Māyā kuṭeṇḍu viṭeṇḍu, ",
+      "english": "the deceivers Kuṭeṇḍu, Viṭeṇḍu, "
+    },
+    {
+      "number": 162,
+      "pali": "viṭucca viṭuṭo saha. ",
+      "english": "with Viṭucca and Viṭuṭa. "
+    },
+    {
+      "number": 163,
+      "pali": "Candano kāmaseṭṭho ca, ",
+      "english": "And Candana and Kāmaseṭṭha, "
+    },
+    {
+      "number": 164,
+      "pali": "kinnighaṇḍu nighaṇḍu ca; ",
+      "english": "Kinnughaṇḍu and Nighaṇḍu, "
+    },
+    {
+      "number": 165,
+      "pali": "Panādo opamañño ca, ",
+      "english": "Panāda and Opamañña, "
+    },
+    {
+      "number": 166,
+      "pali": "devasūto ca mātali. ",
+      "english": "and Mātali, the god’s equerry. "
+    },
+    {
+      "number": 167,
+      "pali": "Cittaseno ca gandhabbo, ",
+      "english": "Cittasena the centaur came too, "
+    },
+    {
+      "number": 168,
+      "pali": "naḷorājā janesabho; ",
+      "english": "and the kings Nala and Janesabha. "
+    },
+    {
+      "number": 169,
+      "pali": "Āgā pañcasikho ceva, ",
+      "english": "Pañcasikha came too, with "
+    },
+    {
+      "number": 170,
+      "pali": "timbarū sūriyavacchasā. ",
+      "english": "Timbaru and Suriyavaccasā. "
+    },
+    {
+      "number": 171,
+      "pali": "Ete caññe ca rājāno, ",
+      "english": "These and other kings there were, "
+    },
+    {
+      "number": 172,
+      "pali": "gandhabbā saha rājubhi; ",
+      "english": "the centaurs with their kings. "
+    },
+    {
+      "number": 173,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 174,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 175,
+      "pali": "Athāguṁ nāgasā nāgā, ",
+      "english": "Then came the dragons of Nābhasa lake, "
+    },
+    {
+      "number": 176,
+      "pali": "vesālā sahatacchakā; ",
+      "english": "and those from Vesālī with those from Takkasilā. "
+    },
+    {
+      "number": 177,
+      "pali": "Kambalassatarā āguṁ, ",
+      "english": "The Kambalas and Assataras came "
+    },
+    {
+      "number": 178,
+      "pali": "pāyāgā saha ñātibhi. ",
+      "english": "and those from Payāga with their kin. "
+    },
+    {
+      "number": 179,
+      "pali": "Yāmunā dhataraṭṭhā ca, ",
+      "english": "Those from Yamunā, and the Dhataraṭṭha "
+    },
+    {
+      "number": 180,
+      "pali": "āgū nāgā yasassino; ",
+      "english": "dragons came, so glorious. "
+    },
+    {
+      "number": 181,
+      "pali": "Erāvaṇo mahānāgo, ",
+      "english": "And Erāvaṇa the great dragon "
+    },
+    {
+      "number": 182,
+      "pali": "sopāgā samitiṁ vanaṁ. ",
+      "english": "also came to the meeting in the wood. "
+    },
+    {
+      "number": 183,
+      "pali": "Ye nāgarāje sahasā haranti, ",
+      "english": "Those who seize the dragon kings by force—"
+    },
+    {
+      "number": 184,
+      "pali": "Dibbā dijā pakkhi visuddhacakkhū; ",
+      "english": "Heavenly, twice-born birds with piercing vision—"
+    },
+    {
+      "number": 185,
+      "pali": "Vehāyasā te vanamajjhapattā, ",
+      "english": "swoop down to the wood from the sky; "
+    },
+    {
+      "number": 186,
+      "pali": "Citrā supaṇṇā iti tesa nāmaṁ. ",
+      "english": "their name is ‘Rainbow Phoenix’. "
+    },
+    {
+      "number": 187,
+      "pali": "Abhayaṁ tadā nāgarājānamāsi, ",
+      "english": "But the dragon kings remained fearless, "
+    },
+    {
+      "number": 188,
+      "pali": "Supaṇṇato khemamakāsi buddho; ",
+      "english": "for the Buddha kept them safe from the phoenixes. "
+    },
+    {
+      "number": 189,
+      "pali": "Saṇhāhi vācāhi upavhayantā, ",
+      "english": "Wooing each other with gentle words, "
+    },
+    {
+      "number": 190,
+      "pali": "Nāgā supaṇṇā saraṇamakaṁsu buddhaṁ. ",
+      "english": "the dragons and phoenixes <j>took the Buddha as refuge. "
+    },
+    {
+      "number": 191,
+      "pali": "Jitā vajirahatthena, ",
+      "english": "Defeated by Vajirahattha, "
+    },
+    {
+      "number": 192,
+      "pali": "samuddaṁ asurāsitā; ",
+      "english": "the titans live in the ocean. "
+    },
+    {
+      "number": 193,
+      "pali": "Bhātaro vāsavassete, ",
+      "english": "They’re brothers of Vāsava, "
+    },
+    {
+      "number": 194,
+      "pali": "iddhimanto yasassino. ",
+      "english": "powerful and glorious. "
+    },
+    {
+      "number": 195,
+      "pali": "Kālakañcā mahābhismā, ",
+      "english": "There’s the terrifying Kālakañjas, "
+    },
+    {
+      "number": 196,
+      "pali": "asurā dānaveghasā; ",
+      "english": "the Dānava and Ghasa titans, "
+    },
+    {
+      "number": 197,
+      "pali": "Vepacitti sucitti ca, ",
+      "english": "Vepacitti and Sucitti, "
+    },
+    {
+      "number": 198,
+      "pali": "pahārādo namucī saha. ",
+      "english": "Pahārāda with Namuci, "
+    },
+    {
+      "number": 199,
+      "pali": "Satañca baliputtānaṁ, ",
+      "english": "and Bali’s hundred sons, "
+    },
+    {
+      "number": 200,
+      "pali": "sabbe verocanāmakā; ",
+      "english": "all named after Virocana. "
+    },
+    {
+      "number": 201,
+      "pali": "Sannayhitvā balisenaṁ, ",
+      "english": "Bali’s army armed themselves "
+    },
+    {
+      "number": 202,
+      "pali": "rāhubhaddamupāgamuṁ; ",
+      "english": "and went to the auspicious Rāhu, saying: "
+    },
+    {
+      "number": 203,
+      "pali": "‘Samayo dāni bhaddante, ",
+      "english": "‘Now is the time, sir, "
+    },
+    {
+      "number": 204,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ’. ",
+      "english": "for the meeting of mendicants in the wood.’ "
+    },
+    {
+      "number": 205,
+      "pali": "Āpo ca devā pathavī, ",
+      "english": "The gods of water and earth, "
+    },
+    {
+      "number": 206,
+      "pali": "tejo vāyo tadāgamuṁ; ",
+      "english": "and fire and wind came there. "
+    },
+    {
+      "number": 207,
+      "pali": "Varuṇā vāraṇā devā, ",
+      "english": "The gods of Varuṇa and Varuṇa’s offsping, "
+    },
+    {
+      "number": 208,
+      "pali": "somo ca yasasā saha. ",
+      "english": "and Soma together with Yasa. "
+    },
+    {
+      "number": 209,
+      "pali": "Mettā karuṇā kāyikā, ",
+      "english": "A host of the gods of love "
+    },
+    {
+      "number": 210,
+      "pali": "āguṁ devā yasassino; ",
+      "english": "and compassion came, so glorious. "
+    },
+    {
+      "number": 211,
+      "pali": "Dasete dasadhā kāyā, ",
+      "english": "These ten hosts of gods "
+    },
+    {
+      "number": 212,
+      "pali": "sabbe nānattavaṇṇino. ",
+      "english": "shone in all different colors. "
+    },
+    {
+      "number": 213,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 214,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 215,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 216,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 217,
+      "pali": "Veṇḍudevā sahali ca, ",
+      "english": "The Vishnu and Sahalī gods, "
+    },
+    {
+      "number": 218,
+      "pali": "asamā ca duve yamā; ",
+      "english": "and the unequaled pair of twins. "
+    },
+    {
+      "number": 219,
+      "pali": "Candassūpanisā devā, ",
+      "english": "The gods living on the moon came, "
+    },
+    {
+      "number": 220,
+      "pali": "candamāguṁ purakkhatvā. ",
+      "english": "with the Moon before them. "
+    },
+    {
+      "number": 221,
+      "pali": "Sūriyassūpanisā devā, ",
+      "english": "The gods living on the sun came, "
+    },
+    {
+      "number": 222,
+      "pali": "sūriyamāguṁ purakkhatvā; ",
+      "english": "with the Sun before them. "
+    },
+    {
+      "number": 223,
+      "pali": "Nakkhattāni purakkhatvā, ",
+      "english": "And with the stars before them "
+    },
+    {
+      "number": 224,
+      "pali": "āguṁ mandavalāhakā. ",
+      "english": "came the languid gods of clouds. "
+    },
+    {
+      "number": 225,
+      "pali": "Vasūnaṁ vāsavo seṭṭho, ",
+      "english": "And Vāsava came, the greatest of the Vasus, "
+    },
+    {
+      "number": 226,
+      "pali": "sakkopāgā purindado; ",
+      "english": "who is Sakka the Able, Purindada the Firstgiver: "
+    },
+    {
+      "number": 227,
+      "pali": "Dasete dasadhā kāyā, ",
+      "english": "These ten hosts of gods "
+    },
+    {
+      "number": 228,
+      "pali": "sabbe nānattavaṇṇino. ",
+      "english": "shone in all different colors. "
+    },
+    {
+      "number": 229,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 230,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 231,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 232,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 233,
+      "pali": "Athāguṁ sahabhū devā, ",
+      "english": "Then came the Sahabhū gods, "
+    },
+    {
+      "number": 234,
+      "pali": "jalamaggi sikhāriva; ",
+      "english": "blazing like a crested flame; "
+    },
+    {
+      "number": 235,
+      "pali": "Ariṭṭhakā ca rojā ca, ",
+      "english": "and the Ariṭṭhakas and Rojas too, "
+    },
+    {
+      "number": 236,
+      "pali": "umāpupphanibhāsino. ",
+      "english": "and the gods hued blue as flax. "
+    },
+    {
+      "number": 237,
+      "pali": "Varuṇā sahadhammā ca, ",
+      "english": "The Varuṇas and Sahadhammas, "
+    },
+    {
+      "number": 238,
+      "pali": "accutā ca anejakā; ",
+      "english": "the Accutas and Anejakas, "
+    },
+    {
+      "number": 239,
+      "pali": "Sūleyyarucirā āguṁ, ",
+      "english": "the Sūleyyas and Ruciras all came, "
+    },
+    {
+      "number": 240,
+      "pali": "āguṁ vāsavanesino; ",
+      "english": "as did the Vāsavanesi gods. "
+    },
+    {
+      "number": 241,
+      "pali": "Dasete dasadhā kāyā, ",
+      "english": "These ten hosts of gods "
+    },
+    {
+      "number": 242,
+      "pali": "sabbe nānattavaṇṇino. ",
+      "english": "shone in all different colors. "
+    },
+    {
+      "number": 243,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 244,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 245,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 246,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 247,
+      "pali": "Samānā mahāsamanā, ",
+      "english": "The Samānas, Mahāsamānas, "
+    },
+    {
+      "number": 248,
+      "pali": "mānusā mānusuttamā; ",
+      "english": "Mānusas, and Mānusuttamas all came, "
+    },
+    {
+      "number": 249,
+      "pali": "Khiḍḍāpadosikā āguṁ, ",
+      "english": "and the gods depraved by play, "
+    },
+    {
+      "number": 250,
+      "pali": "āguṁ manopadosikā. ",
+      "english": "and those who are malevolent. "
+    },
+    {
+      "number": 251,
+      "pali": "Athāguṁ harayo devā, ",
+      "english": "Then came the gods of Mercury, "
+    },
+    {
+      "number": 252,
+      "pali": "ye ca lohitavāsino; ",
+      "english": "and those who live on Mars. "
+    },
+    {
+      "number": 253,
+      "pali": "Pāragā mahāpāragā, ",
+      "english": "The Pāragas and Mahāpāragas came, "
+    },
+    {
+      "number": 254,
+      "pali": "āguṁ devā yasassino; ",
+      "english": "such glorious gods. "
+    },
+    {
+      "number": 255,
+      "pali": "Dasete dasadhā kāyā, ",
+      "english": "These ten hosts of gods "
+    },
+    {
+      "number": 256,
+      "pali": "sabbe nānattavaṇṇino. ",
+      "english": "shone in all different colors. "
+    },
+    {
+      "number": 257,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 258,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 259,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 260,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 261,
+      "pali": "Sukkā karambhā aruṇā, ",
+      "english": "The gods of Venus, the newborn Sun, <j>and the Dawn "
+    },
+    {
+      "number": 262,
+      "pali": "āguṁ veghanasā saha; ",
+      "english": "came along with those from Saturn. "
+    },
+    {
+      "number": 263,
+      "pali": "Odātagayhā pāmokkhā, ",
+      "english": "And the gods of the white globe came "
+    },
+    {
+      "number": 264,
+      "pali": "āguṁ devā vicakkhaṇā. ",
+      "english": "leading the brilliant gods. "
+    },
+    {
+      "number": 265,
+      "pali": "Sadāmattā hāragajā, ",
+      "english": "The Sadāmattas and Hāragajas, "
+    },
+    {
+      "number": 266,
+      "pali": "missakā ca yasassino; ",
+      "english": "and assorted glorious ones; "
+    },
+    {
+      "number": 267,
+      "pali": "Thanayaṁ āga pajjunno, ",
+      "english": "Pajjuna came thundering, "
+    },
+    {
+      "number": 268,
+      "pali": "yo disā abhivassati. ",
+      "english": "he who rains on all quarters. "
+    },
+    {
+      "number": 269,
+      "pali": "Dasete dasadhā kāyā, ",
+      "english": "These ten hosts of gods "
+    },
+    {
+      "number": 270,
+      "pali": "sabbe nānattavaṇṇino; ",
+      "english": "shone in all different colors. "
+    },
+    {
+      "number": 271,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 272,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 273,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 274,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 275,
+      "pali": "Khemiyā tusitā yāmā, ",
+      "english": "The Khemiyas from the realms of Tusita and Yama, "
+    },
+    {
+      "number": 276,
+      "pali": "kaṭṭhakā ca yasassino; ",
+      "english": "and the glorious Kaṭṭhakas came; "
+    },
+    {
+      "number": 277,
+      "pali": "Lambītakā lāmaseṭṭhā, ",
+      "english": "the Lambītakas, Lāmaseṭṭhas, "
+    },
+    {
+      "number": 278,
+      "pali": "jotināmā ca āsavā; ",
+      "english": "those called the Shining, and those Yonder. "
+    },
+    {
+      "number": 279,
+      "pali": "Nimmānaratino āguṁ, ",
+      "english": "The gods who love to create came too, "
+    },
+    {
+      "number": 280,
+      "pali": "athāguṁ paranimmitā. ",
+      "english": "and those who control what is created by others. "
+    },
+    {
+      "number": 281,
+      "pali": "Dasete dasadhā kāyā, ",
+      "english": "These ten hosts of gods "
+    },
+    {
+      "number": 282,
+      "pali": "sabbe nānattavaṇṇino; ",
+      "english": "shone in all different colors. "
+    },
+    {
+      "number": 283,
+      "pali": "Iddhimanto jutimanto, ",
+      "english": "They’re powerful and brilliant, "
+    },
+    {
+      "number": 284,
+      "pali": "vaṇṇavanto yasassino; ",
+      "english": "so beautiful and glorious. "
+    },
+    {
+      "number": 285,
+      "pali": "Modamānā abhikkāmuṁ, ",
+      "english": "Rejoicing, they’ve come forth "
+    },
+    {
+      "number": 286,
+      "pali": "bhikkhūnaṁ samitiṁ vanaṁ. ",
+      "english": "to the meeting of mendicants in the wood. "
+    },
+    {
+      "number": 287,
+      "pali": "Saṭṭhete devanikāyā, ",
+      "english": "These sixty hosts of gods "
+    },
+    {
+      "number": 288,
+      "pali": "sabbe nānattavaṇṇino; ",
+      "english": "shone in all different colors. "
+    },
+    {
+      "number": 289,
+      "pali": "Nāmanvayena āgacchuṁ, ",
+      "english": "They came organized by name, "
+    },
+    {
+      "number": 290,
+      "pali": "ye caññe sadisā saha. ",
+      "english": "these and others likewise, thinking: "
+    },
+    {
+      "number": 291,
+      "pali": "‘Pavuṭṭhajātimakhilaṁ, ",
+      "english": "‘They who have shed rebirth, the kindly ones, "
+    },
+    {
+      "number": 292,
+      "pali": "oghatiṇṇamanāsavaṁ; ",
+      "english": "the undefiled ones who have crossed the flood—"
+    },
+    {
+      "number": 293,
+      "pali": "Dakkhemoghataraṁ nāgaṁ, ",
+      "english": "let us see them, <j>with the dragon who brought them across, "
+    },
+    {
+      "number": 294,
+      "pali": "candaṁva asitātigaṁ’. ",
+      "english": "who like the Moon has overcome darkness.’ "
+    },
+    {
+      "number": 295,
+      "pali": "Subrahmā paramatto ca, ",
+      "english": "Subrahmā and Paramatta came, "
+    },
+    {
+      "number": 296,
+      "pali": "puttā iddhimato saha; ",
+      "english": "with sons of those powerful ones. "
+    },
+    {
+      "number": 297,
+      "pali": "Sanaṅkumāro tisso ca, ",
+      "english": "Sanaṅkumāra and Tissa "
+    },
+    {
+      "number": 298,
+      "pali": "sopāga samitiṁ vanaṁ. ",
+      "english": "also came to the meeting in the wood. "
+    },
+    {
+      "number": 299,
+      "pali": "Sahassaṁ brahmalokānaṁ, ",
+      "english": "Of a thousand realms of divinity, "
+    },
+    {
+      "number": 300,
+      "pali": "mahābrahmābhitiṭṭhati; ",
+      "english": "the Great Divinity stands forth. "
+    },
+    {
+      "number": 301,
+      "pali": "Upapanno jutimanto, ",
+      "english": "He has arisen, brilliant, "
+    },
+    {
+      "number": 302,
+      "pali": "bhismākāyo yasassiso. ",
+      "english": "his formidable body so glorious. "
+    },
+    {
+      "number": 303,
+      "pali": "Dasettha issarā āguṁ, ",
+      "english": "Ten Gods Almighty came there, "
+    },
+    {
+      "number": 304,
+      "pali": "paccekavasavattino; ",
+      "english": "each one of them wielding power, "
+    },
+    {
+      "number": 305,
+      "pali": "Tesañca majjhato āga, ",
+      "english": "and in the middle of them came "
+    },
+    {
+      "number": 306,
+      "pali": "hārito parivārito. ",
+      "english": "Hārita with his following.” "
+    },
+    {
+      "number": 307,
+      "pali": "Te ca sabbe abhikkante, ",
+      "english": "When they had all come forth—"
+    },
+    {
+      "number": 308,
+      "pali": "sainde deve sabrahmake; ",
+      "english": "the gods with their Lord, and the divinities—"
+    },
+    {
+      "number": 309,
+      "pali": "Mārasenā abhikkāmi, ",
+      "english": "Māra’s army came forth too: "
+    },
+    {
+      "number": 310,
+      "pali": "passa kaṇhassa mandiyaṁ. ",
+      "english": "see the stupidity of the Dark Lord! "
+    },
+    {
+      "number": 311,
+      "pali": "‘Etha gaṇhatha bandhatha, ",
+      "english": "“Come, seize them and bind them,” he said, "
+    },
+    {
+      "number": 312,
+      "pali": "rāgena baddhamatthu vo; ",
+      "english": "“let them be bound by desire! "
+    },
+    {
+      "number": 313,
+      "pali": "Samantā parivāretha, ",
+      "english": "Surround them on all sides, "
+    },
+    {
+      "number": 314,
+      "pali": "mā vo muñcittha koci naṁ’. ",
+      "english": "don’t let any escape!” "
+    },
+    {
+      "number": 315,
+      "pali": "Iti tattha mahāseno, ",
+      "english": "And so there the great general, "
+    },
+    {
+      "number": 316,
+      "pali": "kaṇho senaṁ apesayi; ",
+      "english": "the Dark Lord sent forth his army. "
+    },
+    {
+      "number": 317,
+      "pali": "Pāṇinā talamāhacca, ",
+      "english": "He struck the ground with his fist "
+    },
+    {
+      "number": 318,
+      "pali": "saraṁ katvāna bheravaṁ. ",
+      "english": "to make a horrifying sound "
+    },
+    {
+      "number": 319,
+      "pali": "Yathā pāvussako megho, ",
+      "english": "like a cloud shedding rain, "
+    },
+    {
+      "number": 320,
+      "pali": "thanayanto savijjuko; ",
+      "english": "thundering and flashing. "
+    },
+    {
+      "number": 321,
+      "pali": "Tadā so paccudāvatti, ",
+      "english": "But then turned back, "
+    },
+    {
+      "number": 322,
+      "pali": "saṅkuddho asayaṁvase. ",
+      "english": "furious, out of control. "
+    },
+    {
+      "number": 323,
+      "pali": "Tañca sabbaṁ abhiññāya, ",
+      "english": "And all that was known "
+    },
+    {
+      "number": 324,
+      "pali": "vavatthitvāna cakkhumā; ",
+      "english": "and distinguished by the Clear-eyed One. "
+    },
+    {
+      "number": 325,
+      "pali": "Tato āmantayī satthā, ",
+      "english": "Thereupon the Teacher addressed "
+    },
+    {
+      "number": 326,
+      "pali": "sāvake sāsane rate. ",
+      "english": "the disciples who love the teaching: "
+    },
+    {
+      "number": 327,
+      "pali": "‘Mārasenā abhikkantā, ",
+      "english": "“Māra’s army has arrived; "
+    },
+    {
+      "number": 328,
+      "pali": "te vijānātha bhikkhavo’; ",
+      "english": "mendicants, you should be aware of them.” "
+    },
+    {
+      "number": 329,
+      "pali": "Te ca ātappamakaruṁ, ",
+      "english": "Those monks grew keen, "
+    },
+    {
+      "number": 330,
+      "pali": "sutvā buddhassa sāsanaṁ; ",
+      "english": "hearing the Buddha’s instruction. "
+    },
+    {
+      "number": 331,
+      "pali": "Vītarāgehi pakkāmuṁ, ",
+      "english": "The army fled from those free of passion, "
+    },
+    {
+      "number": 332,
+      "pali": "nesaṁ lomāpi iñjayuṁ. ",
+      "english": "and not a single hair was stirred! "
+    },
+    {
+      "number": 333,
+      "pali": "‘Sabbe vijitasaṅgāmā, ",
+      "english": "“All triumphant in battle, "
+    },
+    {
+      "number": 334,
+      "pali": "bhayātītā yasassino; ",
+      "english": "so fearless and glorious. "
+    },
+    {
+      "number": 335,
+      "pali": "Modanti saha bhūtehi, ",
+      "english": "They rejoice with all the spirits, "
+    },
+    {
+      "number": 336,
+      "pali": "sāvakā te janesutā’”ti. ",
+      "english": "the disciples renowned among men.” "
+    },
+    {
+      "number": 337,
+      "pali": "Mahāsamayasuttaṁ niṭṭhitaṁ sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

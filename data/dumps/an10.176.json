@@ -1,0 +1,445 @@
+{
+  "sutta_id": "AN10.176",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.176 ",
+      "english": "Numbered Discourses 10.176 "
+    },
+    {
+      "number": 2,
+      "pali": "17. Jāṇussoṇivagga ",
+      "english": "17. With Jānussoṇi "
+    },
+    {
+      "number": 3,
+      "pali": "Cundasutta ",
+      "english": "With Cunda "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā pāvāyaṁ viharati cundassa kammāraputtassa ambavane. ",
+      "english": "At one time the Buddha was staying near Pāvā in Cunda the smith’s mango grove. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho cundo kammāraputto yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho cundaṁ kammāraputtaṁ bhagavā etadavoca: ",
+      "english": "Then Cunda the smith went to the Buddha, bowed, and sat down to one side. The Buddha said to him, "
+    },
+    {
+      "number": 7,
+      "pali": "“kassa no tvaṁ, cunda, soceyyāni rocesī”ti? ",
+      "english": "“Cunda, whose purity do you believe in?” "
+    },
+    {
+      "number": 8,
+      "pali": "“Brāhmaṇā, bhante, pacchābhūmakā kamaṇḍalukā sevālamālikā aggiparicārikā udakorohakā soceyyāni paññapenti; tesāhaṁ soceyyāni rocemī”ti. ",
+      "english": "“Sir, I believe in the purity advocated by the western brahmins garlanded with aquatic flowers who carry pitchers, serve the sacred flame, and immerse themselves in water.” "
+    },
+    {
+      "number": 9,
+      "pali": "“Yathā kathaṁ pana, cunda, brāhmaṇā pacchābhūmakā kamaṇḍalukā sevālamālikā aggiparicārikā udakorohakā soceyyāni paññapentī”ti? ",
+      "english": "“But Cunda, what kind of purity do these western brahmins advocate?” "
+    },
+    {
+      "number": 10,
+      "pali": "“Idha, bhante, brāhmaṇā pacchābhūmakā kamaṇḍalukā sevālamālikā aggiparicārikā udakorohakā. Te sāvakaṁ evaṁ samādapenti: ",
+      "english": "“The western brahmins encourage their disciples like this: "
+    },
+    {
+      "number": 11,
+      "pali": "‘ehi tvaṁ, ambho purisa, kālasseva uṭṭhahantova sayanamhā pathaviṁ āmaseyyāsi; ",
+      "english": "‘Please, good people, rising early you should stroke the earth from your bed. "
+    },
+    {
+      "number": 12,
+      "pali": "no ce pathaviṁ āmaseyyāsi, allāni gomayāni āmaseyyāsi; ",
+      "english": "If you don’t stroke the earth, stroke fresh cow dung. "
+    },
+    {
+      "number": 13,
+      "pali": "no ce allāni gomayāni āmaseyyāsi, haritāni tiṇāni āmaseyyāsi; ",
+      "english": "If you don’t stroke fresh cow dung, stroke green grass. "
+    },
+    {
+      "number": 14,
+      "pali": "no ce haritāni tiṇāni āmaseyyāsi, aggiṁ paricareyyāsi; ",
+      "english": "If you don’t stroke green grass, serve the sacred flame. "
+    },
+    {
+      "number": 15,
+      "pali": "no ce aggiṁ paricareyyāsi, pañjaliko ādiccaṁ namasseyyāsi; ",
+      "english": "If you don’t serve the sacred flame, revere the sun with cupped palms. "
+    },
+    {
+      "number": 16,
+      "pali": "no ce pañjaliko ādiccaṁ namasseyyāsi, sāyatatiyakaṁ udakaṁ oroheyyāsī’ti. ",
+      "english": "If you don’t revere the sun with cupped palms, immerse yourself in water three times, including at dusk.’ "
+    },
+    {
+      "number": 17,
+      "pali": "Evaṁ kho, bhante, brāhmaṇā pacchābhūmakā kamaṇḍalukā sevālamālikā aggiparicārikā udakorohakā soceyyāni paññapenti; tesāhaṁ soceyyāni rocemī”ti. ",
+      "english": "The western brahmins advocate this kind of purity.” "
+    },
+    {
+      "number": 18,
+      "pali": "“Aññathā kho, cunda, brāhmaṇā pacchābhūmakā kamaṇḍalukā sevālamālikā aggiparicārikā udakorohakā soceyyāni paññapenti, aññathā ca pana ariyassa vinaye soceyyaṁ hotī”ti. ",
+      "english": "“The purity advocated by the western brahmins is quite different from that in the training of the Noble One.” "
+    },
+    {
+      "number": 19,
+      "pali": "“Yathā kathaṁ pana, bhante, ariyassa vinaye soceyyaṁ hoti? ",
+      "english": "“But what, sir, is purity in the training of the Noble One? "
+    },
+    {
+      "number": 20,
+      "pali": "Sādhu me, bhante, bhagavā tathā dhammaṁ desetu yathā ariyassa vinaye soceyyaṁ hotī”ti. ",
+      "english": "Sir, please teach me this.” "
+    },
+    {
+      "number": 21,
+      "pali": "“Tena hi, cunda, suṇāhi, sādhukaṁ manasi karohi; bhāsissāmī”ti. ",
+      "english": "“Well then, brahmin, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 22,
+      "pali": "“Evaṁ, bhante”ti kho cundo kammāraputto bhagavato paccassosi. ",
+      "english": "“Yes, sir,” Cunda replied. "
+    },
+    {
+      "number": 23,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 24,
+      "pali": "“Tividhaṁ kho, cunda, kāyena asoceyyaṁ hoti; ",
+      "english": "“Cunda, impurity is threefold by way of body, "
+    },
+    {
+      "number": 25,
+      "pali": "catubbidhaṁ vācāya asoceyyaṁ hoti; ",
+      "english": "fourfold by way of speech, "
+    },
+    {
+      "number": 26,
+      "pali": "tividhaṁ manasā asoceyyaṁ hoti. ",
+      "english": "and threefold by way of mind. "
+    },
+    {
+      "number": 27,
+      "pali": "Kathañca, cunda, tividhaṁ kāyena asoceyyaṁ hoti? ",
+      "english": "And how is impurity threefold by way of body? "
+    },
+    {
+      "number": 28,
+      "pali": "Idha, cunda, ekacco pāṇātipātī hoti luddo lohitapāṇi hatapahate niviṭṭho adayāpanno sabbapāṇabhūtesu. ",
+      "english": "It’s when a certain person kills living creatures. They’re violent, bloody-handed, a hardened killer, merciless to living beings. "
+    },
+    {
+      "number": 29,
+      "pali": "Adinnādāyī hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ gāmagataṁ vā araññagataṁ vā taṁ adinnaṁ theyyasaṅkhātaṁ ādātā hoti. ",
+      "english": "They steal. With the intention to commit theft, they take the wealth or belongings of others from village or wilderness. "
+    },
+    {
+      "number": 30,
+      "pali": "Kāmesumicchācārī hoti. Yā tā māturakkhitā piturakkhitā mātāpiturakkhitā bhāturakkhitā bhaginirakkhitā ñātirakkhitā gottarakkhitā dhammarakkhitā sasāmikā saparidaṇḍā antamaso mālāguḷaparikkhittāpi, tathārūpāsu cārittaṁ āpajjitā hoti. ",
+      "english": "They commit sexual misconduct. They have sexual relations with women who have their mother, father, both mother and father, brother, sister, relatives, or clan as guardian. They have sexual relations with a woman who is protected on principle, or who has a husband, or whose violation is punishable by law, or even one who has been garlanded as a token of betrothal. "
+    },
+    {
+      "number": 31,
+      "pali": "Evaṁ kho, cunda, tividhaṁ kāyena asoceyyaṁ hoti. ",
+      "english": "This is the threefold impurity by way of body. "
+    },
+    {
+      "number": 32,
+      "pali": "Kathañca, cunda, catubbidhaṁ vācāya asoceyyaṁ hoti? ",
+      "english": "And how is impurity fourfold by way of speech? "
+    },
+    {
+      "number": 33,
+      "pali": "Idha, cunda, ekacco musāvādī hoti. Sabhaggato vā parisaggato vā ñātimajjhagato vā pūgamajjhagato vā rājakulamajjhagato vā abhinīto sakkhipuṭṭho: ‘ehambho purisa, yaṁ jānāsi taṁ vadehī’ti, so ajānaṁ vā āha: ‘jānāmī’ti, jānaṁ vā āha: ‘na jānāmī’ti; apassaṁ vā āha: ‘passāmī’ti, passaṁ vā āha: ‘na passāmī’ti. Iti attahetu vā parahetu vā āmisakiñcikkhahetu vā sampajānamusā bhāsitā hoti. ",
+      "english": "It’s when a certain person lies. They’re summoned to a council, an assembly, a family meeting, a guild, or to the royal court, and asked to bear witness: ‘Please, my friend, say what you know.’ Not knowing, they say ‘I know.’ Knowing, they say ‘I don’t know.’ Not seeing, they say ‘I see.’ And seeing, they say ‘I don’t see.’ So they deliberately lie for the sake of themselves or another, or for some trivial worldly reason. "
+    },
+    {
+      "number": 34,
+      "pali": "Pisuṇavāco hoti. Ito sutvā amutra akkhātā imesaṁ bhedāya, amutra vā sutvā imesaṁ akkhātā amūsaṁ bhedāya. Iti samaggānaṁ vā bhettā, bhinnānaṁ vā anuppadātā, vaggārāmo vaggarato vagganandī vaggakaraṇiṁ vācaṁ bhāsitā hoti. ",
+      "english": "They backbite. They repeat in one place what they heard in another so as to divide people against each other. And so they divide those who are harmonious, supporting division, delighting in division, loving division, speaking words that promote division. "
+    },
+    {
+      "number": 35,
+      "pali": "Pharusavāco hoti. Yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. ",
+      "english": "They speak harshly. They use the kinds of words that are cruel, nasty, hurtful, offensive, bordering on anger, not leading to immersion. "
+    },
+    {
+      "number": 36,
+      "pali": "Samphappalāpī hoti akālavādī abhūtavādī anatthavādī adhammavādī avinayavādī; anidhānavatiṁ vācaṁ bhāsitā hoti akālena anapadesaṁ apariyantavatiṁ anatthasaṁhitaṁ. ",
+      "english": "They talk nonsense. Their speech is untimely, and is neither factual nor beneficial. It has nothing to do with the teaching or the training. Their words have no value, and are untimely, unreasonable, rambling, and pointless. "
+    },
+    {
+      "number": 37,
+      "pali": "Evaṁ kho, cunda, catubbidhaṁ vācāya asoceyyaṁ hoti. ",
+      "english": "This is the fourfold impurity by way of speech. "
+    },
+    {
+      "number": 38,
+      "pali": "Kathañca, cunda, tividhaṁ manasā asoceyyaṁ hoti? ",
+      "english": "And how is impurity threefold by way of mind? "
+    },
+    {
+      "number": 39,
+      "pali": "Idha, cunda, ekacco abhijjhālu hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ taṁ abhijjhātā hoti: ‘aho vata yaṁ parassa taṁ mamassā’ti. ",
+      "english": "It’s when a certain person is covetous. They covet the wealth and belongings of others: ‘Oh, if only their belongings were mine!’ "
+    },
+    {
+      "number": 40,
+      "pali": "Byāpannacitto hoti paduṭṭhamanasaṅkappo: ‘ime sattā haññantu vā bajjhantu vā ucchijjantu vā vinassantu vā mā vā ahesun’ti. ",
+      "english": "They have ill will and malicious intentions: ‘May these sentient beings be killed, slaughtered, slain, destroyed, or annihilated!’ "
+    },
+    {
+      "number": 41,
+      "pali": "Micchādiṭṭhiko hoti viparītadassano: ",
+      "english": "They have wrong view. Their perspective is distorted: "
+    },
+    {
+      "number": 42,
+      "pali": "‘natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ, natthi sukaṭadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko, natthi paro loko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti. ",
+      "english": "‘There’s no meaning in giving, sacrifice, or offerings. There’s no fruit or result of good and bad deeds. There’s no afterlife. There’s no such thing as mother and father, or beings that are reborn spontaneously. And there’s no ascetic or brahmin who is rightly comported and rightly practiced, and who describes the afterlife after realizing it with their own insight.’ "
+    },
+    {
+      "number": 43,
+      "pali": "Evaṁ kho, cunda, manasā tividhaṁ asoceyyaṁ hoti. ",
+      "english": "This is the threefold impurity by way of mind. "
+    },
+    {
+      "number": 44,
+      "pali": "Ime kho, cunda, dasa akusalakammapathā. ",
+      "english": "These are the ten ways of doing unskillful deeds. "
+    },
+    {
+      "number": 45,
+      "pali": "Imehi kho, cunda, dasahi akusalehi kammapathehi samannāgato kālasseva uṭṭhahantova sayanamhā pathaviñcepi āmasati, asuciyeva hoti; no cepi pathaviṁ āmasati, asuciyeva hoti. ",
+      "english": "When you have these ten ways of doing unskillful deeds, then if you rise early, whether or not you stroke the earth from your bed, you’re still impure. "
+    },
+    {
+      "number": 46,
+      "pali": "Allāni cepi gomayāni āmasati, asuciyeva hoti; no cepi allāni gomayāni āmasati, asuciyeva hoti. ",
+      "english": "Whether or not you stroke fresh cow dung, you’re still impure. "
+    },
+    {
+      "number": 47,
+      "pali": "Haritāni cepi tiṇāni āmasati, asuciyeva hoti; no cepi haritāni tiṇāni āmasati, asuciyeva hoti. ",
+      "english": "Whether or not you stroke green grass, you’re still impure. "
+    },
+    {
+      "number": 48,
+      "pali": "Aggiñcepi paricarati, asuciyeva hoti, no cepi aggiṁ paricarati, asuciyeva hoti. ",
+      "english": "Whether or not you serve the sacred flame, you’re still impure. "
+    },
+    {
+      "number": 49,
+      "pali": "Pañjaliko cepi ādiccaṁ namassati, asuciyeva hoti; no cepi pañjaliko ādiccaṁ namassati, asuciyeva hoti. ",
+      "english": "Whether or not you revere the sun with cupped palms, you’re still impure. "
+    },
+    {
+      "number": 50,
+      "pali": "Sāyatatiyakañcepi udakaṁ orohati, asuciyeva hoti; no cepi sāyatatiyakaṁ udakaṁ orohati, asuciyeva hoti. ",
+      "english": "Whether or not you immerse yourself in water three times, you’re still impure. "
+    },
+    {
+      "number": 51,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 52,
+      "pali": "Ime, cunda, dasa akusalakammapathā asucīyeva honti asucikaraṇā ca. ",
+      "english": "These ten ways of doing unskillful deeds are impure and make things impure. "
+    },
+    {
+      "number": 53,
+      "pali": "Imesaṁ pana, cunda, dasannaṁ akusalānaṁ kammapathānaṁ samannāgamanahetu nirayo paññāyati, tiracchānayoni paññāyati, pettivisayo paññāyati, yā vā panaññāpi kāci duggatiyo. ",
+      "english": "It’s because of those who do these ten kinds of unskillful deeds that hell, the animal realm, the ghost realm, or any other bad places are found. "
+    },
+    {
+      "number": 54,
+      "pali": "Tividhaṁ kho, cunda, kāyena soceyyaṁ hoti; ",
+      "english": "Cunda, purity is threefold by way of body, "
+    },
+    {
+      "number": 55,
+      "pali": "catubbidhaṁ vācāya soceyyaṁ hoti; ",
+      "english": "fourfold by way of speech, "
+    },
+    {
+      "number": 56,
+      "pali": "tividhaṁ manasā soceyyaṁ hoti. ",
+      "english": "and threefold by way of mind. "
+    },
+    {
+      "number": 57,
+      "pali": "Kathaṁ, cunda, tividhaṁ kāyena soceyyaṁ hoti? ",
+      "english": "And how is purity threefold by way of body? "
+    },
+    {
+      "number": 58,
+      "pali": "Idha, cunda, ekacco pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti nihitadaṇḍo nihitasattho, lajjī dayāpanno, sabbapāṇabhūtahitānukampī viharati. ",
+      "english": "It’s when a certain person gives up killing living creatures. They renounce the rod and the sword. They’re scrupulous and kind, living full of sympathy for all living beings. "
+    },
+    {
+      "number": 59,
+      "pali": "Adinnādānaṁ pahāya, adinnādānā paṭivirato hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ gāmagataṁ vā araññagataṁ vā, na taṁ adinnaṁ theyyasaṅkhātaṁ ādātā hoti. ",
+      "english": "They give up stealing. They don’t, with the intention to commit theft, take the wealth or belongings of others from village or wilderness. "
+    },
+    {
+      "number": 60,
+      "pali": "Kāmesumicchācāraṁ pahāya, kāmesumicchācārā paṭivirato hoti yā tā māturakkhitā piturakkhitā mātāpiturakkhitā bhāturakkhitā bhaginirakkhitā ñātirakkhitā gottarakkhitā dhammarakkhitā sasāmikā saparidaṇḍā antamaso mālāguḷaparikkhittāpi, tathārūpāsu na cārittaṁ āpajjitā hoti. ",
+      "english": "They give up sexual misconduct. They don’t have sexual relations with women who have their mother, father, both mother and father, brother, sister, relatives, or clan as guardian. They don’t have sexual relations with a woman who is protected on principle, or who has a husband, or whose violation is punishable by law, or even one who has been garlanded as a token of betrothal. "
+    },
+    {
+      "number": 61,
+      "pali": "Evaṁ kho, cunda, tividhaṁ kāyena soceyyaṁ hoti. ",
+      "english": "This is the threefold purity by way of body. "
+    },
+    {
+      "number": 62,
+      "pali": "Kathañca, cunda, catubbidhaṁ vācāya soceyyaṁ hoti? ",
+      "english": "And how is purity fourfold by way of speech? "
+    },
+    {
+      "number": 63,
+      "pali": "Idha, cunda, ekacco musāvādaṁ pahāya musāvādā paṭivirato hoti. Sabhaggato vā parisaggato vā ñātimajjhagato vā pūgamajjhagato vā rājakulamajjhagato vā abhinīto sakkhipuṭṭho: ‘ehambho purisa, yaṁ jānāsi taṁ vadehī’ti, so ajānaṁ vā āha: ‘na jānāmī’ti, jānaṁ vā āha: ‘jānāmī’ti, apassaṁ vā āha: ‘na passāmī’ti, passaṁ vā āha: ‘passāmī’ti. Iti attahetu vā parahetu vā āmisakiñcikkhahetu vā na sampajānamusā bhāsitā hoti. ",
+      "english": "It’s when a certain person gives up lying. They’re summoned to a council, an assembly, a family meeting, a guild, or to the royal court, and asked to bear witness: ‘Please, my friend, say what you know.’ Not knowing, they say ‘I don’t know.’ Knowing, they say ‘I know.’ Not seeing, they say ‘I don’t see.’ And seeing, they say ‘I see.’ So they don’t deliberately lie for the sake of themselves or another, or for some trivial worldly reason. "
+    },
+    {
+      "number": 64,
+      "pali": "Pisuṇaṁ vācaṁ pahāya, pisuṇāya vācāya paṭivirato hoti—na ito sutvā amutra akkhātā imesaṁ bhedāya, na amutra vā sutvā imesaṁ akkhātā amūsaṁ bhedāya. Iti bhinnānaṁ vā sandhātā sahitānaṁ vā anuppadātā samaggārāmo samaggarato samagganandī samaggakaraṇiṁ vācaṁ bhāsitā hoti. ",
+      "english": "They give up backbiting. They don’t repeat in one place what they heard in another so as to divide people against each other. Instead, they reconcile those who are divided and support those who are united, delighting in harmony, loving harmony, speaking words that promote harmony. "
+    },
+    {
+      "number": 65,
+      "pali": "Pharusaṁ vācaṁ pahāya, pharusāya vācāya paṭivirato hoti. Yā sā vācā nelā kaṇṇasukhā pemanīyā hadayaṅgamā porī bahujanakantā bahujanamanāpā, tathārūpiṁ vācaṁ bhāsitā hoti. ",
+      "english": "They give up harsh speech. They speak in a way that’s mellow, pleasing to the ear, endearing, going to the heart, polite, likable and agreeable to the people. "
+    },
+    {
+      "number": 66,
+      "pali": "Samphappalāpaṁ pahāya, samphappalāpā paṭivirato hoti kālavādī bhūtavādī atthavādī dhammavādī vinayavādī; ",
+      "english": "They give up talking nonsense. Their words are timely, true, and meaningful, in line with the teaching and training. "
+    },
+    {
+      "number": 67,
+      "pali": "nidhānavatiṁ vācaṁ bhāsitā hoti kālena sāpadesaṁ pariyantavatiṁ atthasaṁhitaṁ. ",
+      "english": "They say things at the right time which are valuable, reasonable, succinct, and beneficial. "
+    },
+    {
+      "number": 68,
+      "pali": "Evaṁ kho, cunda, catubbidhaṁ vācāya soceyyaṁ hoti. ",
+      "english": "This is the fourfold purity by way of speech. "
+    },
+    {
+      "number": 69,
+      "pali": "Kathañca, cunda, tividhaṁ manasā soceyyaṁ hoti? ",
+      "english": "And how is purity threefold by way of mind? "
+    },
+    {
+      "number": 70,
+      "pali": "Idha, cunda, ekacco anabhijjhālu hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ taṁ anabhijjhitā hoti: ‘aho vata yaṁ parassa taṁ mamassā’ti. ",
+      "english": "It’s when a certain person is content. They don’t covet the wealth and belongings of others: ‘Oh, if only their belongings were mine!’ "
+    },
+    {
+      "number": 71,
+      "pali": "Abyāpannacitto hoti appaduṭṭhamanasaṅkappo: ‘ime sattā averā hontu abyāpajjā, anīghā sukhī attānaṁ pariharantū’ti. ",
+      "english": "They have a kind heart and loving intentions: ‘May these sentient beings live free of enmity and ill will, untroubled and happy!’ "
+    },
+    {
+      "number": 72,
+      "pali": "Sammādiṭṭhiko hoti aviparītadassano: ",
+      "english": "They have right view, an undistorted perspective: "
+    },
+    {
+      "number": 73,
+      "pali": "‘atthi dinnaṁ, atthi yiṭṭhaṁ, atthi hutaṁ, atthi sukaṭadukkaṭānaṁ kammānaṁ phalaṁ vipāko, atthi ayaṁ loko, atthi paro loko, atthi mātā, atthi pitā, atthi sattā opapātikā, atthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti. ",
+      "english": "‘There is meaning in giving, sacrifice, and offerings. There are fruits and results of good and bad deeds. There is an afterlife. There are such things as mother and father, and beings that are reborn spontaneously. And there are ascetics and brahmins who are rightly comported and rightly practiced, and who describe the afterlife after realizing it with their own insight.’ "
+    },
+    {
+      "number": 74,
+      "pali": "Evaṁ kho, cunda, tividhaṁ manasā soceyyaṁ hoti. ",
+      "english": "This is the threefold purity by way of mind. "
+    },
+    {
+      "number": 75,
+      "pali": "Ime kho, cunda, dasa kusalakammapathā. ",
+      "english": "These are the ten ways of doing skillful deeds. "
+    },
+    {
+      "number": 76,
+      "pali": "Imehi kho, cunda, dasahi kusalehi kammapathehi samannāgato kālasseva uṭṭhahantova sayanamhā pathaviñcepi āmasati, suciyeva hoti; no cepi pathaviṁ āmasati, suciyeva hoti. ",
+      "english": "When you have these ten ways of doing skillful deeds, then if you rise early, whether or not you stroke the earth from your bed, you’re still pure. "
+    },
+    {
+      "number": 77,
+      "pali": "Allāni cepi gomayāni āmasati, suciyeva hoti; no cepi allāni gomayāni āmasati, suciyeva hoti. ",
+      "english": "Whether or not you stroke fresh cow dung, you’re still pure. "
+    },
+    {
+      "number": 78,
+      "pali": "Haritāni cepi tiṇāni āmasati, suciyeva hoti; no cepi haritāni tiṇāni āmasati, suciyeva hoti. ",
+      "english": "Whether or not you stroke green grass, you’re still pure. "
+    },
+    {
+      "number": 79,
+      "pali": "Aggiñcepi paricarati, suciyeva hoti; no cepi aggiṁ paricarati, suciyeva hoti. ",
+      "english": "Whether or not you serve the sacred flame, you’re still pure. "
+    },
+    {
+      "number": 80,
+      "pali": "Pañjaliko cepi ādiccaṁ namassati, suciyeva hoti; no cepi pañjaliko ādiccaṁ namassati, suciyeva hoti. ",
+      "english": "Whether or not you revere the sun with cupped palms, you’re still pure. "
+    },
+    {
+      "number": 81,
+      "pali": "Sāyatatiyakañcepi udakaṁ orohati, suciyeva hoti; no cepi sāyatatiyakaṁ udakaṁ orohati, suciyeva hoti. ",
+      "english": "Whether or not you immerse yourself in water three times, you’re still pure. "
+    },
+    {
+      "number": 82,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 83,
+      "pali": "Ime, cunda, dasa kusalakammapathā sucīyeva honti sucikaraṇā ca. ",
+      "english": "These ten ways of doing skillful deeds are pure and make things pure. "
+    },
+    {
+      "number": 84,
+      "pali": "Imesaṁ pana, cunda, dasannaṁ kusalānaṁ kammapathānaṁ samannāgamanahetu devā paññāyanti, manussā paññāyanti, yā vā panaññāpi kāci sugatiyo”ti. ",
+      "english": "It’s because of those who do these ten kinds of skillful deeds that gods, humans, or any other good places are found.” "
+    },
+    {
+      "number": 85,
+      "pali": "Evaṁ vutte, cundo kammāraputto bhagavantaṁ etadavoca: ",
+      "english": "When he said this, Cunda the smith said to the Buddha, "
+    },
+    {
+      "number": 86,
+      "pali": "“abhikkantaṁ, bhante …pe… ",
+      "english": "“Excellent, sir! Excellent! … "
+    },
+    {
+      "number": 87,
+      "pali": "upāsakaṁ maṁ, bhante, bhagavā dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
+      "english": "From this day forth, may the Buddha remember me as a lay follower who has gone for refuge for life.” "
+    },
+    {
+      "number": 88,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    }
+  ]
+}

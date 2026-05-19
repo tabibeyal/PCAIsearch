@@ -1,0 +1,310 @@
+{
+  "sutta_id": "AN9.39",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 9.39 ",
+      "english": "Numbered Discourses 9.39 "
+    },
+    {
+      "number": 2,
+      "pali": "4. Mahāvagga ",
+      "english": "4. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Devāsurasaṅgāmasutta ",
+      "english": "The War Between the Gods and the Titans "
+    },
+    {
+      "number": 4,
+      "pali": "“Bhūtapubbaṁ, bhikkhave, devāsurasaṅgāmo samupabyūḷho ahosi. ",
+      "english": "“Once upon a time, mendicants, a battle was fought between the gods and the titans. "
+    },
+    {
+      "number": 5,
+      "pali": "Tasmiṁ kho pana, bhikkhave, saṅgāme asurā jiniṁsu, devā parājayiṁsu. ",
+      "english": "In that battle the titans won and the gods lost. "
+    },
+    {
+      "number": 6,
+      "pali": "Parājitā ca, bhikkhave, devā apayiṁsuyeva uttarenābhimukhā, abhiyiṁsu asurā. ",
+      "english": "Defeated, the gods fled north with the titans in pursuit. "
+    },
+    {
+      "number": 7,
+      "pali": "Atha kho, bhikkhave, devānaṁ etadahosi: ",
+      "english": "Then the gods thought, "
+    },
+    {
+      "number": 8,
+      "pali": "‘abhiyanteva kho asurā. ",
+      "english": "‘The titans are still in pursuit. "
+    },
+    {
+      "number": 9,
+      "pali": "Yannūna mayaṁ dutiyampi asurehi saṅgāmeyyāmā’ti. ",
+      "english": "Why don’t we engage them in battle a second time?’ "
+    },
+    {
+      "number": 10,
+      "pali": "Dutiyampi kho, bhikkhave, devā asurehi saṅgāmesuṁ. ",
+      "english": "And so a second battle was fought between the gods and the titans. "
+    },
+    {
+      "number": 11,
+      "pali": "Dutiyampi kho, bhikkhave, asurāva jiniṁsu, devā parājayiṁsu. ",
+      "english": "And for a second time the titans won and the gods lost. "
+    },
+    {
+      "number": 12,
+      "pali": "Parājitā ca, bhikkhave, devā apayiṁsuyeva uttarenābhimukhā, abhiyiṁsu asurā. ",
+      "english": "Defeated, the gods fled north with the titans in pursuit. "
+    },
+    {
+      "number": 13,
+      "pali": "Atha kho, bhikkhave, devānaṁ etadahosi: ",
+      "english": "Then the gods thought, "
+    },
+    {
+      "number": 14,
+      "pali": "‘abhiyanteva kho asurā. ",
+      "english": "‘The titans are still in pursuit. "
+    },
+    {
+      "number": 15,
+      "pali": "Yannūna mayaṁ tatiyampi asurehi saṅgāmeyyāmā’ti. ",
+      "english": "Why don’t we engage them in battle a third time?’ "
+    },
+    {
+      "number": 16,
+      "pali": "Tatiyampi kho, bhikkhave, devā asurehi saṅgāmesuṁ. ",
+      "english": "And so a third battle was fought between the gods and the titans. "
+    },
+    {
+      "number": 17,
+      "pali": "Tatiyampi kho, bhikkhave, asurāva jiniṁsu, devā parājayiṁsu. ",
+      "english": "And for a third time the titans won and the gods lost. "
+    },
+    {
+      "number": 18,
+      "pali": "Parājitā ca, bhikkhave, devā bhītā devapuraṁyeva pavisiṁsu. ",
+      "english": "Defeated and terrified, the gods fled right into the castle of the gods. "
+    },
+    {
+      "number": 19,
+      "pali": "Devapuragatānañca pana, bhikkhave, devānaṁ etadahosi: ",
+      "english": "When they had entered their castle, they thought, "
+    },
+    {
+      "number": 20,
+      "pali": "‘bhīruttānagatena kho dāni mayaṁ etarahi attanā viharāma akaraṇīyā asurehī’ti. ",
+      "english": "‘Now we’re in a secure location and the titans can’t do anything to us.’ "
+    },
+    {
+      "number": 21,
+      "pali": "Asurānampi, bhikkhave, etadahosi: ",
+      "english": "The titans also thought, "
+    },
+    {
+      "number": 22,
+      "pali": "‘bhīruttānagatena kho dāni devā etarahi attanā viharanti akaraṇīyā amhehī’ti. ",
+      "english": "‘Now the gods are in a secure location and we can’t do anything to them.’ "
+    },
+    {
+      "number": 23,
+      "pali": "Bhūtapubbaṁ, bhikkhave, devāsurasaṅgāmo samupabyūḷho ahosi. ",
+      "english": "Once upon a time, a battle was fought between the gods and the titans. "
+    },
+    {
+      "number": 24,
+      "pali": "Tasmiṁ kho pana, bhikkhave, saṅgāme devā jiniṁsu, asurā parājayiṁsu. ",
+      "english": "In that battle the gods won and the titans lost. "
+    },
+    {
+      "number": 25,
+      "pali": "Parājitā ca, bhikkhave, asurā apayiṁsuyeva dakkhiṇenābhimukhā, abhiyiṁsu devā. ",
+      "english": "Defeated, the titans fled south with the gods in pursuit. "
+    },
+    {
+      "number": 26,
+      "pali": "Atha kho, bhikkhave, asurānaṁ etadahosi: ",
+      "english": "Then the titans thought, "
+    },
+    {
+      "number": 27,
+      "pali": "‘abhiyanteva kho devā. ",
+      "english": "‘The gods are still in pursuit. "
+    },
+    {
+      "number": 28,
+      "pali": "Yannūna mayaṁ dutiyampi devehi saṅgāmeyyāmā’ti. ",
+      "english": "Why don’t we engage them in battle a second time?’ "
+    },
+    {
+      "number": 29,
+      "pali": "Dutiyampi kho, bhikkhave, asurā devehi saṅgāmesuṁ. ",
+      "english": "And so a second battle was fought between the gods and the titans. "
+    },
+    {
+      "number": 30,
+      "pali": "Dutiyampi kho, bhikkhave, devā jiniṁsu, asurā parājayiṁsu. ",
+      "english": "And for a second time the gods won and the titans lost. "
+    },
+    {
+      "number": 31,
+      "pali": "Parājitā ca, bhikkhave, asurā apayiṁsuyeva dakkhiṇenābhimukhā, abhiyiṁsu devā. ",
+      "english": "Defeated, the titans fled south with the gods in pursuit. "
+    },
+    {
+      "number": 32,
+      "pali": "Atha kho, bhikkhave, asurānaṁ etadahosi: ",
+      "english": "Then the titans thought, "
+    },
+    {
+      "number": 33,
+      "pali": "‘abhiyanteva kho devā. ",
+      "english": "‘The gods are still in pursuit. "
+    },
+    {
+      "number": 34,
+      "pali": "Yannūna mayaṁ tatiyampi devehi saṅgāmeyyāmā’ti. ",
+      "english": "Why don’t we engage them in battle a third time?’ "
+    },
+    {
+      "number": 35,
+      "pali": "Tatiyampi kho, bhikkhave, asurā devehi saṅgāmesuṁ. ",
+      "english": "And so a third battle was fought between the gods and the titans. "
+    },
+    {
+      "number": 36,
+      "pali": "Tatiyampi kho, bhikkhave, devā jiniṁsu, asurā parājayiṁsu. ",
+      "english": "And for a third time the gods won and the titans lost. "
+    },
+    {
+      "number": 37,
+      "pali": "Parājitā ca, bhikkhave, asurā bhītā asurapuraṁyeva pavisiṁsu. ",
+      "english": "Defeated and terrified, the titans fled right into the citadel of the titans. "
+    },
+    {
+      "number": 38,
+      "pali": "Asurapuragatānañca pana, bhikkhave, asurānaṁ etadahosi: ",
+      "english": "When they had entered their citadel, they thought, "
+    },
+    {
+      "number": 39,
+      "pali": "‘bhīruttānagatena kho dāni mayaṁ etarahi attanā viharāma akaraṇīyā devehī’ti. ",
+      "english": "‘Now we’re in a secure location and the gods can’t do anything to us.’ "
+    },
+    {
+      "number": 40,
+      "pali": "Devānampi, bhikkhave, etadahosi: ",
+      "english": "And the gods also thought, "
+    },
+    {
+      "number": 41,
+      "pali": "‘bhīruttānagatena kho dāni asurā etarahi attanā viharanti akaraṇīyā amhehī’ti. ",
+      "english": "‘Now the titans are in a secure location and we can’t do anything to them.’ "
+    },
+    {
+      "number": 42,
+      "pali": "Evamevaṁ kho, bhikkhave, yasmiṁ samaye bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati, ",
+      "english": "In the same way, there’s a time when a mendicant, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 43,
+      "pali": "tasmiṁ, bhikkhave, samaye bhikkhussa evaṁ hoti: ",
+      "english": "At that time the mendicant thinks, "
+    },
+    {
+      "number": 44,
+      "pali": "‘bhīruttānagatena kho dānāhaṁ etarahi attanā viharāmi akaraṇīyo mārassā’ti. ",
+      "english": "‘Now I’m in a secure location and Māra can’t do anything to me.’ "
+    },
+    {
+      "number": 45,
+      "pali": "Mārassāpi, bhikkhave, pāpimato evaṁ hoti: ",
+      "english": "And Māra the Wicked also thinks, "
+    },
+    {
+      "number": 46,
+      "pali": "‘bhīruttānagatena kho dāni bhikkhu etarahi attanā viharati akaraṇīyo mayhan’ti. ",
+      "english": "‘Now the mendicant is in a secure location and we can’t do anything to them.’ "
+    },
+    {
+      "number": 47,
+      "pali": "Yasmiṁ, bhikkhave, samaye bhikkhu vitakkavicārānaṁ vūpasamā …pe… dutiyaṁ jhānaṁ … ",
+      "english": "There’s a time when, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption … "
+    },
+    {
+      "number": 48,
+      "pali": "tatiyaṁ jhānaṁ … ",
+      "english": "third absorption … "
+    },
+    {
+      "number": 49,
+      "pali": "catutthaṁ jhānaṁ upasampajja viharati, ",
+      "english": "fourth absorption. "
+    },
+    {
+      "number": 50,
+      "pali": "tasmiṁ, bhikkhave, samaye bhikkhussa evaṁ hoti: ",
+      "english": "At that time the mendicant thinks, "
+    },
+    {
+      "number": 51,
+      "pali": "‘bhīruttānagatena kho dānāhaṁ etarahi attanā viharāmi akaraṇīyo mārassā’ti. ",
+      "english": "‘Now I’m in a secure location and Māra can’t do anything to me.’ "
+    },
+    {
+      "number": 52,
+      "pali": "Mārassāpi, bhikkhave, pāpimato evaṁ hoti: ",
+      "english": "And Māra the Wicked also thinks, "
+    },
+    {
+      "number": 53,
+      "pali": "‘bhīruttānagatena kho dāni bhikkhu etarahi attanā viharati, akaraṇīyo mayhan’ti. ",
+      "english": "‘Now the mendicant is in a secure location and we can’t do anything to them.’ "
+    },
+    {
+      "number": 54,
+      "pali": "Yasmiṁ, bhikkhave, samaye bhikkhu sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanaṁ upasampajja viharati. ",
+      "english": "There’s a time when a mendicant, going totally beyond perceptions of form, with the disappearance of perceptions of impingement, not focusing on perceptions of diversity, aware that ‘space is infinite’, enters and remains in the dimension of infinite space. "
+    },
+    {
+      "number": 55,
+      "pali": "Ayaṁ vuccati, bhikkhave, ‘bhikkhu antamakāsi māraṁ, apadaṁ vadhitvā māracakkhuṁ adassanaṁ gato pāpimato tiṇṇo loke visattikan’ti. ",
+      "english": "This is called a mendicant who has blinded Māra, put out his eyes without a trace, and gone where the Wicked One cannot see. "
+    },
+    {
+      "number": 56,
+      "pali": "Yasmiṁ, bhikkhave, samaye bhikkhu sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanaṁ upasampajja viharati … ",
+      "english": "There’s a time when a mendicant, going totally beyond the dimension of infinite space, aware that ‘consciousness is infinite’, enters and remains in the dimension of infinite consciousness. … "
+    },
+    {
+      "number": 57,
+      "pali": "sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanaṁ upasampajja viharati … ",
+      "english": "Going totally beyond the dimension of infinite consciousness, aware that ‘there is nothing at all’, they enter and remain in the dimension of nothingness. … "
+    },
+    {
+      "number": 58,
+      "pali": "sabbaso ākiñcaññāyatanaṁ samatikkamma nevasaññānāsaññāyatanaṁ upasampajja viharati … ",
+      "english": "Going totally beyond the dimension of nothingness, they enter and remain in the dimension of neither perception nor non-perception. … "
+    },
+    {
+      "number": 59,
+      "pali": "sabbaso nevasaññānāsaññāyatanaṁ samatikkamma saññāvedayitanirodhaṁ upasampajja viharati, paññāya cassa disvā āsavā parikkhīṇā honti. ",
+      "english": "Going totally beyond the dimension of neither perception nor non-perception, they enter and remain in the cessation of perception and feeling. And, having seen with wisdom, their defilements come to an end. "
+    },
+    {
+      "number": 60,
+      "pali": "Ayaṁ vuccati, bhikkhave, ‘bhikkhu antamakāsi māraṁ, apadaṁ vadhitvā māracakkhuṁ adassanaṁ gato pāpimato tiṇṇo loke visattikan’”ti. ",
+      "english": "This is called a mendicant who has blinded Māra, put out his eyes without a trace, and gone where the Wicked One cannot see. And they’ve crossed over clinging to the world.” "
+    },
+    {
+      "number": 61,
+      "pali": "Aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "sutta_id": "MN44",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 44 ",
+      "english": "Middle Discourses 44 "
+    },
+    {
+      "number": 2,
+      "pali": "Cūḷavedallasutta ",
+      "english": "The Shorter Elaboration "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā rājagahe viharati veḷuvane kalandakanivāpe. ",
+      "english": "At one time the Buddha was staying near Rājagaha, in the Bamboo Grove, the squirrels’ feeding ground. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho visākho upāsako yena dhammadinnā bhikkhunī tenupasaṅkami; upasaṅkamitvā dhammadinnaṁ bhikkhuniṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho visākho upāsako dhammadinnaṁ bhikkhuniṁ etadavoca: ",
+      "english": "Then the layman Visākha went to see the nun Dhammadinnā, bowed, sat down to one side, and said to her: "
+    },
+    {
+      "number": 6,
+      "pali": "“‘sakkāyo sakkāyo’ti, ayye, vuccati. ",
+      "english": "“Ma’am, they speak of this thing called ‘substantial reality’. "
+    },
+    {
+      "number": 7,
+      "pali": "Katamo nu kho, ayye, sakkāyo vutto bhagavatā”ti? ",
+      "english": "What is this substantial reality that the Buddha spoke of?” "
+    },
+    {
+      "number": 8,
+      "pali": "“Pañca kho ime, āvuso visākha, upādānakkhandhā sakkāyo vutto bhagavatā, ",
+      "english": "“Visākha, the Buddha said that these five grasping aggregates are substantial reality. "
+    },
+    {
+      "number": 9,
+      "pali": "seyyathidaṁ—rūpupādānakkhandho, vedanupādānakkhandho, saññupādānakkhandho, saṅkhārupādānakkhandho, viññāṇupādānakkhandho. ",
+      "english": "That is, the grasping aggregates of form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 10,
+      "pali": "Ime kho, āvuso visākha, pañcupādānakkhandhā sakkāyo vutto bhagavatā”ti. ",
+      "english": "The Buddha said that these five grasping aggregates are substantial reality.” "
+    },
+    {
+      "number": 11,
+      "pali": "“Sādhayye”ti kho visākho upāsako dhammadinnāya bhikkhuniyā bhāsitaṁ abhinanditvā anumoditvā dhammadinnaṁ bhikkhuniṁ uttariṁ pañhaṁ apucchi: ",
+      "english": "Saying “Good, ma’am,” Visākha approved and agreed with what Dhammadinnā said. Then he asked another question: "
+    },
+    {
+      "number": 12,
+      "pali": "“‘sakkāyasamudayo sakkāyasamudayo’ti, ayye, vuccati. ",
+      "english": "“Ma’am, they speak of this thing called ‘the origin of substantial reality’. "
+    },
+    {
+      "number": 13,
+      "pali": "Katamo nu kho, ayye, sakkāyasamudayo vutto bhagavatā”ti? ",
+      "english": "What is the origin of substantial reality that the Buddha spoke of?” "
+    },
+    {
+      "number": 14,
+      "pali": "“Yāyaṁ, āvuso visākha, taṇhā ponobbhavikā nandīrāgasahagatā tatratatrābhinandinī, seyyathidaṁ—",
+      "english": "“It’s the craving that leads to future lives, mixed up with relishing and greed, taking pleasure there wherever it alights. That is, "
+    },
+    {
+      "number": 15,
+      "pali": "kāmataṇhā bhavataṇhā vibhavataṇhā; ",
+      "english": "craving for sensual pleasures, craving for existence, and craving for nonexistence. "
+    },
+    {
+      "number": 16,
+      "pali": "ayaṁ kho, āvuso visākha, sakkāyasamudayo vutto bhagavatā”ti. ",
+      "english": "The Buddha said that this is the origin of substantial reality.” "
+    },
+    {
+      "number": 17,
+      "pali": "“‘Sakkāyanirodho sakkāyanirodho’ti, ayye, vuccati. ",
+      "english": "“Ma’am, they speak of this thing called ‘the cessation of substantial reality’. "
+    },
+    {
+      "number": 18,
+      "pali": "Katamo nu kho, ayye, sakkāyanirodho vutto bhagavatā”ti? ",
+      "english": "What is the cessation of substantial reality that the Buddha spoke of?” "
+    },
+    {
+      "number": 19,
+      "pali": "“Yo kho, āvuso visākha, tassāyeva taṇhāya asesavirāganirodho cāgo paṭinissaggo mutti anālayo; ",
+      "english": "“It’s the fading away and cessation of that very same craving with no residue left behind; giving it away, letting it go, releasing it, and not clinging to it. "
+    },
+    {
+      "number": 20,
+      "pali": "ayaṁ kho, āvuso visākha, sakkāyanirodho vutto bhagavatā”ti. ",
+      "english": "The Buddha said that this is the cessation of substantial reality.” "
+    },
+    {
+      "number": 21,
+      "pali": "“‘Sakkāyanirodhagāminī paṭipadā sakkāyanirodhagāminī paṭipadā’ti, ayye, vuccati. ",
+      "english": "“Ma’am, they speak of the practice that leads to the cessation of substantial reality. "
+    },
+    {
+      "number": 22,
+      "pali": "Katamā nu kho, ayye, sakkāyanirodhagāminī paṭipadā vuttā bhagavatā”ti? ",
+      "english": "What is the practice that leads to the cessation of substantial reality that the Buddha spoke of?” "
+    },
+    {
+      "number": 23,
+      "pali": "“Ayameva kho, āvuso visākha, ariyo aṭṭhaṅgiko maggo sakkāyanirodhagāminī paṭipadā vuttā bhagavatā, seyyathidaṁ—",
+      "english": "“The practice that leads to the cessation of substantial reality that the Buddha spoke of is simply this noble eightfold path, that is: "
+    },
+    {
+      "number": 24,
+      "pali": "sammādiṭṭhi sammāsaṅkappo sammāvācā sammākammanto sammāājīvo sammāvāyāmo sammāsati sammāsamādhī”ti. ",
+      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion.” "
+    },
+    {
+      "number": 25,
+      "pali": "“Taññeva nu kho, ayye, upādānaṁ te pañcupādānakkhandhā udāhu aññatra pañcahupādānakkhandhehi upādānan”ti? ",
+      "english": "“But ma’am, is that grasping the exact same thing as the five grasping aggregates? Or is grasping one thing and the five grasping aggregates another?” "
+    },
+    {
+      "number": 26,
+      "pali": "“Na kho, āvuso visākha, taññeva upādānaṁ te pañcupādānakkhandhā, nāpi aññatra pañcahupādānakkhandhehi upādānaṁ. ",
+      "english": "“That grasping is not the exact same thing as the five grasping aggregates. Nor is grasping one thing and the five grasping aggregates another. "
+    },
+    {
+      "number": 27,
+      "pali": "Yo kho, āvuso visākha, pañcasu upādānakkhandhesu chandarāgo taṁ tattha upādānan”ti. ",
+      "english": "The desire and greed for the five grasping aggregates is the grasping there.” "
+    },
+    {
+      "number": 28,
+      "pali": "“Kathaṁ panāyye, sakkāyadiṭṭhi hotī”ti? ",
+      "english": "“But ma’am, how does substantialist view come about?” "
+    },
+    {
+      "number": 29,
+      "pali": "“Idhāvuso visākha, assutavā puthujjano, ariyānaṁ adassāvī ariyadhammassa akovido ariyadhamme avinīto, sappurisānaṁ adassāvī sappurisadhammassa akovido sappurisadhamme avinīto, ",
+      "english": "“It’s when an unlearned ordinary person has not seen the noble ones, and is neither skilled nor trained in the teaching of the noble ones. They’ve not seen true persons, and are neither skilled nor trained in the teaching of the true persons. "
+    },
+    {
+      "number": 30,
+      "pali": "rūpaṁ attato samanupassati, rūpavantaṁ vā attānaṁ, attani vā rūpaṁ, rūpasmiṁ vā attānaṁ. ",
+      "english": "They regard form as self, self as having form, form in self, or self in form. "
+    },
+    {
+      "number": 31,
+      "pali": "Vedanaṁ …pe… ",
+      "english": "They regard feeling … "
+    },
+    {
+      "number": 32,
+      "pali": "saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 33,
+      "pali": "saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 34,
+      "pali": "viññāṇaṁ attato samanupassati, viññāṇavantaṁ vā attānaṁ, attani vā viññāṇaṁ, viññāṇasmiṁ vā attānaṁ. ",
+      "english": "consciousness as self, self as having consciousness, consciousness in self, or self in consciousness. "
+    },
+    {
+      "number": 35,
+      "pali": "Evaṁ kho, āvuso visākha, sakkāyadiṭṭhi hotī”ti. ",
+      "english": "That’s how substantialist view comes about.” "
+    },
+    {
+      "number": 36,
+      "pali": "“Kathaṁ panāyye, sakkāyadiṭṭhi na hotī”ti? ",
+      "english": "“But ma’am, how does substantialist view not come about?” "
+    },
+    {
+      "number": 37,
+      "pali": "“Idhāvuso visākha, sutavā ariyasāvako, ariyānaṁ dassāvī ariyadhammassa kovido ariyadhamme suvinīto, sappurisānaṁ dassāvī sappurisadhammassa kovido sappurisadhamme suvinīto, ",
+      "english": "“It’s when a learned noble disciple has seen the noble ones, and is skilled and trained in the teaching of the noble ones. They’ve seen true persons, and are skilled and trained in the teaching of the true persons. "
+    },
+    {
+      "number": 38,
+      "pali": "na rūpaṁ attato samanupassati, na rūpavantaṁ vā attānaṁ, na attani vā rūpaṁ, na rūpasmiṁ vā attānaṁ. ",
+      "english": "They don’t regard form as self, self as having form, form in self, or self in form. "
+    },
+    {
+      "number": 39,
+      "pali": "Na vedanaṁ …pe… ",
+      "english": "They don’t regard feeling … "
+    },
+    {
+      "number": 40,
+      "pali": "na saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 41,
+      "pali": "na saṅkhāre …pe… ",
+      "english": "choices … "
+    },
+    {
+      "number": 42,
+      "pali": "na viññāṇaṁ attato samanupassati, na viññāṇavantaṁ vā attānaṁ, na attani vā viññāṇaṁ, na viññāṇasmiṁ vā attānaṁ. ",
+      "english": "consciousness as self, self as having consciousness, consciousness in self, or self in consciousness. "
+    },
+    {
+      "number": 43,
+      "pali": "Evaṁ kho, āvuso visākha, sakkāyadiṭṭhi na hotī”ti. ",
+      "english": "That’s how substantialist view does not come about.” "
+    },
+    {
+      "number": 44,
+      "pali": "“Katamo panāyye, ariyo aṭṭhaṅgiko maggo”ti? ",
+      "english": "“But ma’am, what is the noble eightfold path?” "
+    },
+    {
+      "number": 45,
+      "pali": "“Ayameva kho, āvuso visākha, ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+      "english": "“It is simply this noble eightfold path, that is: "
+    },
+    {
+      "number": 46,
+      "pali": "sammādiṭṭhi sammāsaṅkappo sammāvācā sammākammanto sammāājīvo sammāvāyāmo sammāsati sammāsamādhī”ti. ",
+      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion.” "
+    },
+    {
+      "number": 47,
+      "pali": "“Ariyo panāyye, aṭṭhaṅgiko maggo saṅkhato udāhu asaṅkhato”ti? ",
+      "english": "“But ma’am, is the noble eightfold path conditioned or unconditioned?” "
+    },
+    {
+      "number": 48,
+      "pali": "“Ariyo kho, āvuso visākha, aṭṭhaṅgiko maggo saṅkhato”ti. ",
+      "english": "“The noble eightfold path is conditioned.” "
+    },
+    {
+      "number": 49,
+      "pali": "“Ariyena nu kho, ayye, aṭṭhaṅgikena maggena tayo khandhā saṅgahitā udāhu tīhi khandhehi ariyo aṭṭhaṅgiko maggo saṅgahito”ti? ",
+      "english": "“Are the three spectrums of practice included in the noble eightfold path? Or is the noble eightfold path included in the three practice categories?” "
+    },
+    {
+      "number": 50,
+      "pali": "“Na kho, āvuso visākha, ariyena aṭṭhaṅgikena maggena tayo khandhā saṅgahitā; tīhi ca kho, āvuso visākha, khandhehi ariyo aṭṭhaṅgiko maggo saṅgahito. ",
+      "english": "“The three spectrums of practice are not included in the noble eightfold path. Rather, the noble eightfold path is included in the three practice categories. "
+    },
+    {
+      "number": 51,
+      "pali": "Yā cāvuso visākha, sammāvācā yo ca sammākammanto yo ca sammāājīvo ime dhammā sīlakkhandhe saṅgahitā. ",
+      "english": "Right speech, right action, and right livelihood: these things are included in the spectrum of ethics. "
+    },
+    {
+      "number": 52,
+      "pali": "Yo ca sammāvāyāmo yā ca sammāsati yo ca sammāsamādhi ime dhammā samādhikkhandhe saṅgahitā. ",
+      "english": "Right effort, right mindfulness, and right immersion: these things are included in the spectrum of immersion. "
+    },
+    {
+      "number": 53,
+      "pali": "Yā ca sammādiṭṭhi yo ca sammāsaṅkappo, ime dhammā paññākkhandhe saṅgahitā”ti. ",
+      "english": "Right view and right purpose: these things are included in the spectrum of wisdom.” "
+    },
+    {
+      "number": 54,
+      "pali": "“Katamo panāyye, samādhi, katame dhammā samādhinimittā, katame dhammā samādhiparikkhārā, katamā samādhibhāvanā”ti? ",
+      "english": "“But ma’am, what is immersion? What things are the bases of immersion? What things are the prerequisites for immersion? What is the development of immersion?” "
+    },
+    {
+      "number": 55,
+      "pali": "“Yā kho, āvuso visākha, cittassa ekaggatā ayaṁ samādhi; ",
+      "english": "“Unification of the mind is immersion. "
+    },
+    {
+      "number": 56,
+      "pali": "cattāro satipaṭṭhānā samādhinimittā; ",
+      "english": "The four kinds of mindfulness meditation are the bases for immersion. "
+    },
+    {
+      "number": 57,
+      "pali": "cattāro sammappadhānā samādhiparikkhārā. ",
+      "english": "The four right efforts are the prerequisites for immersion. "
+    },
+    {
+      "number": 58,
+      "pali": "Yā tesaṁyeva dhammānaṁ āsevanā bhāvanā bahulīkammaṁ, ayaṁ ettha samādhibhāvanā”ti. ",
+      "english": "The cultivation, development, and making much of these very same things is the development of immersion.” "
+    },
+    {
+      "number": 59,
+      "pali": "“Kati panāyye, saṅkhārā”ti? ",
+      "english": "“How many processes are there?” "
+    },
+    {
+      "number": 60,
+      "pali": "“Tayome, āvuso visākha, saṅkhārā—",
+      "english": "“There are these three processes. "
+    },
+    {
+      "number": 61,
+      "pali": "kāyasaṅkhāro, vacīsaṅkhāro, cittasaṅkhāro”ti. ",
+      "english": "The physical process, the verbal process, and the mental process.” "
+    },
+    {
+      "number": 62,
+      "pali": "“Katamo panāyye, kāyasaṅkhāro, katamo vacīsaṅkhāro, katamo cittasaṅkhāro”ti? ",
+      "english": "“But ma’am, what is the physical process? What’s the verbal process? What’s the mental process?” "
+    },
+    {
+      "number": 63,
+      "pali": "“Assāsapassāsā kho, āvuso visākha, kāyasaṅkhāro, vitakkavicārā vacīsaṅkhāro, saññā ca vedanā ca cittasaṅkhāro”ti. ",
+      "english": "“Breathing is a physical process. Placing the mind and keeping it connected are a verbal process. Perception and feeling are a mental process.” "
+    },
+    {
+      "number": 64,
+      "pali": "“Kasmā panāyye, assāsapassāsā kāyasaṅkhāro, kasmā vitakkavicārā vacīsaṅkhāro, kasmā saññā ca vedanā ca cittasaṅkhāro”ti? ",
+      "english": "“But ma’am, why is breathing a physical process? Why are placing the mind and keeping it connected a verbal process? Why are perception and feeling a mental process?” "
+    },
+    {
+      "number": 65,
+      "pali": "“Assāsapassāsā kho, āvuso visākha, kāyikā ete dhammā kāyappaṭibaddhā, tasmā assāsapassāsā kāyasaṅkhāro. ",
+      "english": "“Breathing is physical. It’s tied up with the body, that’s why breathing is a physical process. "
+    },
+    {
+      "number": 66,
+      "pali": "Pubbe kho, āvuso visākha, vitakketvā vicāretvā pacchā vācaṁ bhindati, tasmā vitakkavicārā vacīsaṅkhāro. ",
+      "english": "First you place the mind and keep it connected, then you break into speech. That’s why placing the mind and keeping it connected are a verbal process. "
+    },
+    {
+      "number": 67,
+      "pali": "Saññā ca vedanā ca cetasikā ete dhammā cittappaṭibaddhā, tasmā saññā ca vedanā ca cittasaṅkhāro”ti. ",
+      "english": "Perception and feeling are mental. They’re tied up with the mind, that’s why perception and feeling are a mental process.” "
+    },
+    {
+      "number": 68,
+      "pali": "“Kathaṁ panāyye, saññāvedayitanirodhasamāpatti hotī”ti? ",
+      "english": "“But ma’am, how does someone attain the cessation of perception and feeling?” "
+    },
+    {
+      "number": 69,
+      "pali": "“Na kho, āvuso visākha, saññāvedayitanirodhaṁ samāpajjantassa bhikkhuno evaṁ hoti: ",
+      "english": "“A mendicant who is entering such an attainment does not think: "
+    },
+    {
+      "number": 70,
+      "pali": "‘ahaṁ saññāvedayitanirodhaṁ samāpajjissan’ti vā, ‘ahaṁ saññāvedayitanirodhaṁ samāpajjāmī’ti vā, ‘ahaṁ saññāvedayitanirodhaṁ samāpanno’ti vā. ",
+      "english": "‘I will enter the cessation of perception and feeling’ or ‘I am entering the cessation of perception and feeling’ or ‘I have entered the cessation of perception and feeling.’ "
+    },
+    {
+      "number": 71,
+      "pali": "Atha khvāssa pubbeva tathā cittaṁ bhāvitaṁ hoti yaṁ taṁ tathattāya upanetī”ti. ",
+      "english": "Rather, their mind has been previously developed so as to lead to such a state.” "
+    },
+    {
+      "number": 72,
+      "pali": "“Saññāvedayitanirodhaṁ samāpajjantassa panāyye, bhikkhuno katame dhammā paṭhamaṁ nirujjhanti—yadi vā kāyasaṅkhāro, yadi vā vacīsaṅkhāro, yadi vā cittasaṅkhāro”ti? ",
+      "english": "“But ma’am, which process ceases first for a mendicant who is entering the cessation of perception and feeling: physical, verbal, or mental?” "
+    },
+    {
+      "number": 73,
+      "pali": "“Saññāvedayitanirodhaṁ samāpajjantassa kho, āvuso visākha, bhikkhuno paṭhamaṁ nirujjhati vacīsaṅkhāro, tato kāyasaṅkhāro, tato cittasaṅkhāro”ti. ",
+      "english": "“The verbal process ceases first, then physical, then mental.” "
+    },
+    {
+      "number": 74,
+      "pali": "“Kathaṁ panāyye, saññāvedayitanirodhasamāpattiyā vuṭṭhānaṁ hotī”ti? ",
+      "english": "“But ma’am, how does someone emerge from the cessation of perception and feeling?” "
+    },
+    {
+      "number": 75,
+      "pali": "“Na kho, āvuso visākha, saññāvedayitanirodhasamāpattiyā vuṭṭhahantassa bhikkhuno evaṁ hoti: ",
+      "english": "“A mendicant who is emerging from such an attainment does not think: "
+    },
+    {
+      "number": 76,
+      "pali": "‘ahaṁ saññāvedayitanirodhasamāpattiyā vuṭṭhahissan’ti vā, ‘ahaṁ saññāvedayitanirodhasamāpattiyā vuṭṭhahāmī’ti vā, ‘ahaṁ saññāvedayitanirodhasamāpattiyā vuṭṭhito’ti vā. ",
+      "english": "‘I will emerge from the cessation of perception and feeling’ or ‘I am emerging from the cessation of perception and feeling’ or ‘I have emerged from the cessation of perception and feeling.’ "
+    },
+    {
+      "number": 77,
+      "pali": "Atha khvāssa pubbeva tathā cittaṁ bhāvitaṁ hoti yaṁ taṁ tathattāya upanetī”ti. ",
+      "english": "Rather, their mind has been previously developed so as to lead to such a state.” "
+    },
+    {
+      "number": 78,
+      "pali": "“Saññāvedayitanirodhasamāpattiyā vuṭṭhahantassa panāyye, bhikkhuno katame dhammā paṭhamaṁ uppajjanti—yadi vā kāyasaṅkhāro, yadi vā vacīsaṅkhāro, yadi vā cittasaṅkhāro”ti? ",
+      "english": "“But ma’am, which process arises first for a mendicant who is emerging from the cessation of perception and feeling: physical, verbal, or mental?” "
+    },
+    {
+      "number": 79,
+      "pali": "“Saññāvedayitanirodhasamāpattiyā vuṭṭhahantassa kho, āvuso visākha, bhikkhuno paṭhamaṁ uppajjati cittasaṅkhāro, tato kāyasaṅkhāro, tato vacīsaṅkhāro”ti. ",
+      "english": "“The mental process arises first, then physical, then verbal.” "
+    },
+    {
+      "number": 80,
+      "pali": "“Saññāvedayitanirodhasamāpattiyā vuṭṭhitaṁ panāyye, bhikkhuṁ kati phassā phusantī”ti? ",
+      "english": "“But ma’am, when a mendicant has emerged from the attainment of the cessation of perception and feeling, how many kinds of contact do they experience?” "
+    },
+    {
+      "number": 81,
+      "pali": "“Saññāvedayitanirodhasamāpattiyā vuṭṭhitaṁ kho, āvuso visākha, bhikkhuṁ tayo phassā phusanti—suññato phasso, animitto phasso, appaṇihito phasso”ti. ",
+      "english": "“They experience three kinds of contact: emptiness, signless, and undirected contacts.” "
+    },
+    {
+      "number": 82,
+      "pali": "“Saññāvedayitanirodhasamāpattiyā vuṭṭhitassa panāyye, bhikkhuno kiṁninnaṁ cittaṁ hoti kiṁpoṇaṁ kiṁpabbhāran”ti? ",
+      "english": "“But ma’am, when a mendicant has emerged from the attainment of the cessation of perception and feeling, what does their mind slant, slope, and incline to?” "
+    },
+    {
+      "number": 83,
+      "pali": "“Saññāvedayitanirodhasamāpattiyā vuṭṭhitassa kho, āvuso visākha, bhikkhuno vivekaninnaṁ cittaṁ hoti, vivekapoṇaṁ vivekapabbhāran”ti. ",
+      "english": "“Their mind slants, slopes, and inclines to seclusion.” "
+    },
+    {
+      "number": 84,
+      "pali": "“Kati panāyye, vedanā”ti? ",
+      "english": "“But ma’am, how many feelings are there?” "
+    },
+    {
+      "number": 85,
+      "pali": "“Tisso kho imā, āvuso visākha, vedanā—",
+      "english": "“There are three feelings: "
+    },
+    {
+      "number": 86,
+      "pali": "sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā”ti. ",
+      "english": "pleasant, painful, and neutral feeling.” "
+    },
+    {
+      "number": 87,
+      "pali": "“Katamā panāyye, sukhā vedanā, katamā dukkhā vedanā, katamā adukkhamasukhā vedanā”ti? ",
+      "english": "“What are these three feelings?” "
+    },
+    {
+      "number": 88,
+      "pali": "“Yaṁ kho, āvuso visākha, kāyikaṁ vā cetasikaṁ vā sukhaṁ sātaṁ vedayitaṁ—",
+      "english": "“Anything felt physically or mentally as pleasant or enjoyable. "
+    },
+    {
+      "number": 89,
+      "pali": "ayaṁ sukhā vedanā. ",
+      "english": "This is pleasant feeling. "
+    },
+    {
+      "number": 90,
+      "pali": "Yaṁ kho, āvuso visākha, kāyikaṁ vā cetasikaṁ vā dukkhaṁ asātaṁ vedayitaṁ—",
+      "english": "Anything felt physically or mentally as painful or unpleasant. "
+    },
+    {
+      "number": 91,
+      "pali": "ayaṁ dukkhā vedanā. ",
+      "english": "This is painful feeling. "
+    },
+    {
+      "number": 92,
+      "pali": "Yaṁ kho, āvuso visākha, kāyikaṁ vā cetasikaṁ vā neva sātaṁ nāsātaṁ vedayitaṁ—",
+      "english": "Anything felt physically or mentally as neither pleasurable nor painful. "
+    },
+    {
+      "number": 93,
+      "pali": "ayaṁ adukkhamasukhā vedanā”ti. ",
+      "english": "This is neutral feeling.” "
+    },
+    {
+      "number": 94,
+      "pali": "“Sukhā panāyye, vedanā kiṁsukhā kiṁdukkhā, dukkhā vedanā kiṁsukhā kiṁdukkhā, adukkhamasukhā vedanā kiṁsukhā kiṁdukkhā”ti? ",
+      "english": "“What is pleasant and what is painful regarding each of the three feelings?” "
+    },
+    {
+      "number": 95,
+      "pali": "“Sukhā kho, āvuso visākha, vedanā ṭhitisukhā vipariṇāmadukkhā; ",
+      "english": "“Pleasant feeling is pleasant when it remains and painful when it perishes. "
+    },
+    {
+      "number": 96,
+      "pali": "dukkhā vedanā ṭhitidukkhā vipariṇāmasukhā; ",
+      "english": "Painful feeling is painful when it remains and pleasant when it perishes. "
+    },
+    {
+      "number": 97,
+      "pali": "adukkhamasukhā vedanā ñāṇasukhā aññāṇadukkhā”ti. ",
+      "english": "Neutral feeling is pleasant in the presence of knowledge, and painful in the presence of ignorance.” "
+    },
+    {
+      "number": 98,
+      "pali": "“Sukhāya panāyye, vedanāya kiṁ anusayo anuseti, dukkhāya vedanāya kiṁ anusayo anuseti, adukkhamasukhāya vedanāya kiṁ anusayo anusetī”ti? ",
+      "english": "“What underlying tendencies underlie each of the three feelings?” "
+    },
+    {
+      "number": 99,
+      "pali": "“Sukhāya kho, āvuso visākha, vedanāya rāgānusayo anuseti, dukkhāya vedanāya paṭighānusayo anuseti, adukkhamasukhāya vedanāya avijjānusayo anusetī”ti. ",
+      "english": "“The underlying tendency for greed underlies pleasant feeling. The underlying tendency for aversion underlies painful feeling. The underlying tendency for ignorance underlies neutral feeling.” "
+    },
+    {
+      "number": 100,
+      "pali": "“Sabbāya nu kho, ayye, sukhāya vedanāya rāgānusayo anuseti, sabbāya dukkhāya vedanāya paṭighānusayo anuseti, sabbāya adukkhamasukhāya vedanāya avijjānusayo anusetī”ti? ",
+      "english": "“Do these underlying tendencies always underlie these feelings?” "
+    },
+    {
+      "number": 101,
+      "pali": "“Na kho, āvuso visākha, sabbāya sukhāya vedanāya rāgānusayo anuseti, na sabbāya dukkhāya vedanāya paṭighānusayo anuseti, na sabbāya adukkhamasukhāya vedanāya avijjānusayo anusetī”ti. ",
+      "english": "“No, they do not.” "
+    },
+    {
+      "number": 102,
+      "pali": "“Sukhāya panāyye, vedanāya kiṁ pahātabbaṁ, dukkhāya vedanāya kiṁ pahātabbaṁ, adukkhamasukhāya vedanāya kiṁ pahātabban”ti? ",
+      "english": "“What should be given up in regard to each of these three feelings?” "
+    },
+    {
+      "number": 103,
+      "pali": "“Sukhāya kho, āvuso visākha, vedanāya rāgānusayo pahātabbo, dukkhāya vedanāya paṭighānusayo pahātabbo, adukkhamasukhāya vedanāya avijjānusayo pahātabbo”ti. ",
+      "english": "“The underlying tendency to greed should be given up when it comes to pleasant feeling. The underlying tendency to aversion should be given up when it comes to painful feeling. The underlying tendency to ignorance should be given up when it comes to neutral feeling.” "
+    },
+    {
+      "number": 104,
+      "pali": "“Sabbāya nu kho, ayye, sukhāya vedanāya rāgānusayo pahātabbo, sabbāya dukkhāya vedanāya paṭighānusayo pahātabbo, sabbāya adukkhamasukhāya vedanāya avijjānusayo pahātabbo”ti? ",
+      "english": "“Should these underlying tendencies be given up regarding all instances of these feelings?” "
+    },
+    {
+      "number": 105,
+      "pali": "“Na kho, āvuso visākha, sabbāya sukhāya vedanāya rāgānusayo pahātabbo, na sabbāya dukkhāya vedanāya paṭighānusayo pahātabbo, na sabbāya adukkhamasukhāya vedanāya avijjānusayo pahātabbo. ",
+      "english": "“No, not in all instances. "
+    },
+    {
+      "number": 106,
+      "pali": "Idhāvuso visākha, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Take a mendicant who, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 107,
+      "pali": "Rāgaṁ tena pajahati, na tattha rāgānusayo anuseti. ",
+      "english": "With this they give up greed, and the underlying tendency to greed does not lie within that. "
+    },
+    {
+      "number": 108,
+      "pali": "Idhāvuso visākha, bhikkhu iti paṭisañcikkhati: ",
+      "english": "And take a mendicant who reflects: "
+    },
+    {
+      "number": 109,
+      "pali": "‘kudāssu nāmāhaṁ tadāyatanaṁ upasampajja viharissāmi yadariyā etarahi āyatanaṁ upasampajja viharantī’ti? ",
+      "english": "‘Oh, when will I enter and remain in the same dimension that the noble ones enter and remain in today?’ "
+    },
+    {
+      "number": 110,
+      "pali": "Iti anuttaresu vimokkhesu pihaṁ upaṭṭhāpayato uppajjati pihāppaccayā domanassaṁ. ",
+      "english": "Nursing such a longing for the supreme liberations gives rise to sadness due to longing. "
+    },
+    {
+      "number": 111,
+      "pali": "Paṭighaṁ tena pajahati, na tattha paṭighānusayo anuseti. ",
+      "english": "With this they give up aversion, and the underlying tendency to aversion does not lie within that. "
+    },
+    {
+      "number": 112,
+      "pali": "Idhāvuso visākha, bhikkhu sukhassa ca pahānā, dukkhassa ca pahānā, pubbeva somanassadomanassānaṁ atthaṅgamā, adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Take a mendicant who, with the giving up of pleasure and pain and the disappearance of former happiness and sadness, enters and remains in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. "
+    },
+    {
+      "number": 113,
+      "pali": "Avijjaṁ tena pajahati, na tattha avijjānusayo anusetī”ti. ",
+      "english": "With this they give up ignorance, and the underlying tendency to ignorance does not lie within that.” "
+    },
+    {
+      "number": 114,
+      "pali": "“Sukhāya panāyye, vedanāya kiṁ paṭibhāgo”ti? ",
+      "english": "“But ma’am, what is the counterpart of pleasant feeling?” "
+    },
+    {
+      "number": 115,
+      "pali": "“Sukhāya kho, āvuso visākha, vedanāya dukkhā vedanā paṭibhāgo”ti. ",
+      "english": "“Painful feeling.” "
+    },
+    {
+      "number": 116,
+      "pali": "“Dukkhāya pannāyye, vedanāya kiṁ paṭibhāgo”ti? ",
+      "english": "“What is the counterpart of painful feeling?” "
+    },
+    {
+      "number": 117,
+      "pali": "“Dukkhāya kho, āvuso visākha, vedanāya sukhā vedanā paṭibhāgo”ti. ",
+      "english": "“Pleasant feeling.” "
+    },
+    {
+      "number": 118,
+      "pali": "“Adukkhamasukhāya panāyye, vedanāya kiṁ paṭibhāgo”ti? ",
+      "english": "“What is the counterpart of neutral feeling?” "
+    },
+    {
+      "number": 119,
+      "pali": "“Adukkhamasukhāya kho, āvuso visākha, vedanāya avijjā paṭibhāgo”ti. ",
+      "english": "“Ignorance.” "
+    },
+    {
+      "number": 120,
+      "pali": "“Avijjāya panāyye, kiṁ paṭibhāgo”ti? ",
+      "english": "“What is the counterpart of ignorance?” "
+    },
+    {
+      "number": 121,
+      "pali": "“Avijjāya kho, āvuso visākha, vijjā paṭibhāgo”ti. ",
+      "english": "“Knowledge.” "
+    },
+    {
+      "number": 122,
+      "pali": "“Vijjāya panāyye, kiṁ paṭibhāgo”ti? ",
+      "english": "“What is the counterpart of knowledge?” "
+    },
+    {
+      "number": 123,
+      "pali": "“Vijjāya kho, āvuso visākha, vimutti paṭibhāgo”ti. ",
+      "english": "“Freedom.” "
+    },
+    {
+      "number": 124,
+      "pali": "“Vimuttiyā panāyye, kiṁ paṭibhāgo”ti? ",
+      "english": "“What is the counterpart of freedom?” "
+    },
+    {
+      "number": 125,
+      "pali": "“Vimuttiyā kho, āvuso visākha, nibbānaṁ paṭibhāgo”ti. ",
+      "english": "“Extinguishment.” "
+    },
+    {
+      "number": 126,
+      "pali": "“Nibbānassa panāyye, kiṁ paṭibhāgo”ti? ",
+      "english": "“What is the counterpart of extinguishment?” "
+    },
+    {
+      "number": 127,
+      "pali": "“Accayāsi, āvuso visākha, pañhaṁ, nāsakkhi pañhānaṁ pariyantaṁ gahetuṁ. ",
+      "english": "“Your question goes too far, Visākha. You weren’t able to grasp the limit of questioning. "
+    },
+    {
+      "number": 128,
+      "pali": "Nibbānogadhañhi, āvuso visākha, brahmacariyaṁ, nibbānaparāyanaṁ nibbānapariyosānaṁ. ",
+      "english": "For extinguishment is the objective, destination, and culmination of the spiritual life. "
+    },
+    {
+      "number": 129,
+      "pali": "Ākaṅkhamāno ca tvaṁ, āvuso visākha, bhagavantaṁ upasaṅkamitvā etamatthaṁ puccheyyāsi, yathā ca te bhagavā byākaroti tathā naṁ dhāreyyāsī”ti. ",
+      "english": "If you wish, go to the Buddha and ask him this question. You should remember it in line with his answer.” "
+    },
+    {
+      "number": 130,
+      "pali": "Atha kho visākho upāsako dhammadinnāya bhikkhuniyā bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā dhammadinnaṁ bhikkhuniṁ abhivādetvā padakkhiṇaṁ katvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "And then the layman Visākha approved and agreed with what the nun Dhammadinnā said. He got up from his seat, bowed, and respectfully circled her, keeping her on his right. Then he went up to the Buddha, bowed, sat down to one side, "
+    },
+    {
+      "number": 131,
+      "pali": "Ekamantaṁ nisinno kho visākho upāsako yāvatako ahosi dhammadinnāya bhikkhuniyā saddhiṁ kathāsallāpo taṁ sabbaṁ bhagavato ārocesi. ",
+      "english": "and informed the Buddha of all they had discussed. "
+    },
+    {
+      "number": 132,
+      "pali": "Evaṁ vutte, bhagavā visākhaṁ upāsakaṁ etadavoca: ",
+      "english": "When he had spoken, the Buddha said to him, "
+    },
+    {
+      "number": 133,
+      "pali": "“paṇḍitā, visākha, dhammadinnā bhikkhunī, mahāpaññā, visākha, dhammadinnā bhikkhunī. ",
+      "english": "“The nun Dhammadinnā is astute, Visākha, she has great wisdom. "
+    },
+    {
+      "number": 134,
+      "pali": "Mañcepi tvaṁ, visākha, etamatthaṁ puccheyyāsi, ahampi taṁ evamevaṁ byākareyyaṁ, yathā taṁ dhammadinnāya bhikkhuniyā byākataṁ. ",
+      "english": "If you came to me and asked this question, I would answer it in exactly the same way as the nun Dhammadinnā. "
+    },
+    {
+      "number": 135,
+      "pali": "Eso cevetassa attho. Evañca naṁ dhārehī”ti. ",
+      "english": "That is what it means, and that’s how you should remember it.” "
+    },
+    {
+      "number": 136,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 137,
+      "pali": "Attamano visākho upāsako bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, the layman Visākha approved what the Buddha said. "
+    },
+    {
+      "number": 138,
+      "pali": "Cūḷavedallasuttaṁ niṭṭhitaṁ catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

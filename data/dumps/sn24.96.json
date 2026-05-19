@@ -1,0 +1,240 @@
+{
+  "sutta_id": "SN24.96",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 24.96 ",
+      "english": "Linked Discourses 24.96 "
+    },
+    {
+      "number": 2,
+      "pali": "4. Catutthagamanavagga ",
+      "english": "4. The Fourth Round "
+    },
+    {
+      "number": 3,
+      "pali": "Adukkhamasukhīsutta ",
+      "english": "The Self Is Neither Happy Nor Suffering "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthinidānaṁ. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "“Kismiṁ nu kho, bhikkhave, sati, kiṁ upādāya, kiṁ abhinivissa evaṁ diṭṭhi uppajjati: ",
+      "english": "“Mendicants, when what exists, because of grasping what and insisting on what, does the view arise: "
+    },
+    {
+      "number": 6,
+      "pali": "‘adukkhamasukhī attā hoti arogo paraṁ maraṇā’”ti? ",
+      "english": "‘The self is neither happy nor suffering, and is healthy after death’?” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhagavaṁmūlakā no, bhante, dhammā …pe…. ",
+      "english": "“Our teachings are rooted in the Buddha. …” "
+    },
+    {
+      "number": 8,
+      "pali": "“Rūpe kho, bhikkhave, sati, rūpaṁ upādāya, rūpaṁ abhinivissa evaṁ diṭṭhi uppajjati: ",
+      "english": "“When form exists, because of grasping form and insisting on form, the view arises: "
+    },
+    {
+      "number": 9,
+      "pali": "‘adukkhamasukhī attā hoti arogo paraṁ maraṇā’ti. ",
+      "english": "‘The self is neither happy nor suffering, and healthy after death.’ "
+    },
+    {
+      "number": 10,
+      "pali": "Vedanāya sati … ",
+      "english": "When feeling … "
+    },
+    {
+      "number": 11,
+      "pali": "saññāya sati … ",
+      "english": "perception … "
+    },
+    {
+      "number": 12,
+      "pali": "saṅkhāresu sati … ",
+      "english": "choices … "
+    },
+    {
+      "number": 13,
+      "pali": "viññāṇe sati, viññāṇaṁ upādāya, viññāṇaṁ abhinivissa evaṁ diṭṭhi uppajjati: ",
+      "english": "consciousness exists, because of grasping consciousness and insisting on consciousness, the view arises: "
+    },
+    {
+      "number": 14,
+      "pali": "‘adukkhamasukhī attā hoti arogo paraṁ maraṇā’ti. ",
+      "english": "‘The self is neither happy nor suffering, and is healthy after death.’ "
+    },
+    {
+      "number": 15,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 16,
+      "pali": "rūpaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Is form permanent or impermanent?” "
+    },
+    {
+      "number": 17,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 18,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 19,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 20,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 21,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 22,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 23,
+      "pali": "“Vedanā … ",
+      "english": "“Is feeling … "
+    },
+    {
+      "number": 24,
+      "pali": "saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 25,
+      "pali": "saṅkhārā … ",
+      "english": "choices … "
+    },
+    {
+      "number": 26,
+      "pali": "viññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "consciousness permanent or impermanent?” "
+    },
+    {
+      "number": 27,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 28,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 29,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 30,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 31,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 32,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 33,
+      "pali": "“Tasmātiha, bhikkhave, yaṁ kiñci rūpaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ rūpaṁ: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "“So you should truly see any kind of form at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> form—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 34,
+      "pali": "Yā kāci vedanā … ",
+      "english": "You should truly see any kind of feeling … "
+    },
+    {
+      "number": 35,
+      "pali": "yā kāci saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 36,
+      "pali": "ye keci saṅkhārā … ",
+      "english": "choices … "
+    },
+    {
+      "number": 37,
+      "pali": "yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā, oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ viññāṇaṁ: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "consciousness at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> consciousness—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 38,
+      "pali": "Evaṁ passaṁ, bhikkhave, sutavā ariyasāvako rūpasmimpi nibbindati, vedanāyapi nibbindati, saññāyapi nibbindati, saṅkhāresupi nibbindati, viññāṇasmimpi nibbindati. ",
+      "english": "Seeing this, a learned noble disciple grows disillusioned with form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 39,
+      "pali": "Nibbindaṁ virajjati; virāgā vimuccati. Vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. ",
+      "english": "Being disillusioned, desire fades away. When desire fades away they’re freed. When they’re freed, they know they’re freed. "
+    },
+    {
+      "number": 40,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānātī”ti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’” "
+    },
+    {
+      "number": 41,
+      "pali": "Catutthapeyyālo. ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Purimagamane aṭṭhārasa veyyākaraṇā, ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "Dutiyagamane chabbīsaṁ vitthāretabbāni; ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Tatiyagamane chabbīsaṁ vitthāretabbāni, ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "Catutthagamane chabbīsaṁ vitthāretabbāni. ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "Diṭṭhisaṁyuttaṁ samattaṁ. ",
+      "english": "The Linked Discourses on views are complete. "
+    }
+  ]
+}

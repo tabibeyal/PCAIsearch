@@ -1,0 +1,515 @@
+{
+  "sutta_id": "AN7.68",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 7.68 ",
+      "english": "Numbered Discourses 7.68 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Mahāvagga ",
+      "english": "7. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Dhammaññūsutta ",
+      "english": "One Who Knows the Teachings "
+    },
+    {
+      "number": 4,
+      "pali": "“Sattahi, bhikkhave, dhammehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassa. ",
+      "english": "“A mendicant with seven qualities is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, worthy of veneration with cupped palms, and is the supreme field of merit for the world. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamehi sattahi? ",
+      "english": "What seven? "
+    },
+    {
+      "number": 6,
+      "pali": "Idha, bhikkhave, bhikkhu dhammaññū ca hoti atthaññū ca attaññū ca mattaññū ca kālaññū ca parisaññū ca puggalaparoparaññū ca. ",
+      "english": "It’s when a mendicant knows the teachings, knows the meaning, has self-knowledge, knows moderation, knows the right time, knows assemblies, and knows individuals high and low. "
+    },
+    {
+      "number": 7,
+      "pali": "Kathañca, bhikkhave, bhikkhu dhammaññū hoti? ",
+      "english": "And how is a mendicant one who knows the teachings? "
+    },
+    {
+      "number": 8,
+      "pali": "Idha, bhikkhave, bhikkhu dhammaṁ jānāti—",
+      "english": "It’s when a mendicant knows the teachings: "
+    },
+    {
+      "number": 9,
+      "pali": "suttaṁ geyyaṁ veyyākaraṇaṁ gāthaṁ udānaṁ itivuttakaṁ jātakaṁ abbhutadhammaṁ vedallaṁ. ",
+      "english": "statements, mixed prose & verse, discussions, verses, inspired exclamations, legends, stories of past lives, amazing stories, and elaborations. "
+    },
+    {
+      "number": 10,
+      "pali": "No ce, bhikkhave, bhikkhu dhammaṁ jāneyya—",
+      "english": "If a mendicant did not know these teachings, "
+    },
+    {
+      "number": 11,
+      "pali": "suttaṁ geyyaṁ …pe… abbhutadhammaṁ vedallaṁ, nayidha ‘dhammaññū’ti vucceyya. ",
+      "english": "they would not be called ‘one who knows the teachings’. "
+    },
+    {
+      "number": 12,
+      "pali": "Yasmā ca kho, bhikkhave, bhikkhu dhammaṁ jānāti—",
+      "english": "But because they do know these teachings, "
+    },
+    {
+      "number": 13,
+      "pali": "suttaṁ geyyaṁ …pe… abbhutadhammaṁ vedallaṁ, tasmā ‘dhammaññū’ti vuccati. ",
+      "english": "they are called ‘one who knows the teachings’. "
+    },
+    {
+      "number": 14,
+      "pali": "Iti dhammaññū. ",
+      "english": "Such is the one who knows the teachings. "
+    },
+    {
+      "number": 15,
+      "pali": "Atthaññū ca kathaṁ hoti? ",
+      "english": "And how are they one who knows the meaning? "
+    },
+    {
+      "number": 16,
+      "pali": "Idha, bhikkhave, bhikkhu tassa tasseva bhāsitassa atthaṁ jānāti: ",
+      "english": "It’s when a mendicant knows the meaning of this or that statement: "
+    },
+    {
+      "number": 17,
+      "pali": "‘ayaṁ imassa bhāsitassa attho, ayaṁ imassa bhāsitassa attho’ti. ",
+      "english": "‘This is what that statement means; that is what this statement means.’ "
+    },
+    {
+      "number": 18,
+      "pali": "No ce, bhikkhave, bhikkhu tassa tasseva bhāsitassa atthaṁ jāneyya: ",
+      "english": "If a mendicant did not know the meaning of this or that statement, "
+    },
+    {
+      "number": 19,
+      "pali": "‘ayaṁ imassa bhāsitassa attho, ayaṁ imassa bhāsitassa attho’ti, nayidha ‘atthaññū’ti vucceyya. ",
+      "english": "they would not be called ‘one who knows the meaning’. "
+    },
+    {
+      "number": 20,
+      "pali": "Yasmā ca kho, bhikkhave, bhikkhu tassa tasseva bhāsitassa atthaṁ jānāti: ",
+      "english": "But because they do know the meaning of this or that statement, "
+    },
+    {
+      "number": 21,
+      "pali": "‘ayaṁ imassa bhāsitassa attho, ayaṁ imassa bhāsitassa attho’ti, tasmā ‘atthaññū’ti vuccati. ",
+      "english": "they are called ‘one who knows the meaning’. "
+    },
+    {
+      "number": 22,
+      "pali": "Iti dhammaññū, atthaññū. ",
+      "english": "Such is the one who knows the teachings and the one who knows the meaning. "
+    },
+    {
+      "number": 23,
+      "pali": "Attaññū ca kathaṁ hoti? ",
+      "english": "And how are they one who has self-knowledge? "
+    },
+    {
+      "number": 24,
+      "pali": "Idha, bhikkhave, bhikkhu attānaṁ jānāti: ",
+      "english": "It’s when a mendicant has self-knowledge: "
+    },
+    {
+      "number": 25,
+      "pali": "‘ettakomhi saddhāya sīlena sutena cāgena paññāya paṭibhānenā’ti. ",
+      "english": "‘This is the extent of my faith, ethics, learning, generosity, wisdom, and eloquence.’ "
+    },
+    {
+      "number": 26,
+      "pali": "No ce, bhikkhave, bhikkhu attānaṁ jāneyya: ",
+      "english": "If a mendicant did not have self-knowledge, "
+    },
+    {
+      "number": 27,
+      "pali": "‘ettakomhi saddhāya sīlena sutena cāgena paññāya paṭibhānenā’ti, nayidha ‘attaññū’ti vucceyya. ",
+      "english": "they would not be called ‘one who has self-knowledge’. "
+    },
+    {
+      "number": 28,
+      "pali": "Yasmā ca, bhikkhave, bhikkhu attānaṁ jānāti: ",
+      "english": "But because they do have self-knowledge, "
+    },
+    {
+      "number": 29,
+      "pali": "‘ettakomhi saddhāya sīlena sutena cāgena paññāya paṭibhānenā’ti, tasmā ‘attaññū’ti vuccati. ",
+      "english": "they are called ‘one who has self-knowledge’. "
+    },
+    {
+      "number": 30,
+      "pali": "Iti dhammaññū, atthaññū, attaññū. ",
+      "english": "Such is the one who knows the teachings, the one who knows the meaning, and the one who has self-knowledge. "
+    },
+    {
+      "number": 31,
+      "pali": "Mattaññū ca kathaṁ hoti? ",
+      "english": "And how are they one who knows moderation? "
+    },
+    {
+      "number": 32,
+      "pali": "Idha, bhikkhave, bhikkhu mattaṁ jānāti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ paṭiggahaṇāya. ",
+      "english": "It’s when a mendicant knows moderation when receiving robes, almsfood, lodgings, and medicines and supplies for the sick. "
+    },
+    {
+      "number": 33,
+      "pali": "No ce, bhikkhave, bhikkhu mattaṁ jāneyya cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ paṭiggahaṇāya, nayidha ‘mattaññū’ti vucceyya. ",
+      "english": "If a mendicant did not know moderation, they would not be called ‘one who knows moderation’. "
+    },
+    {
+      "number": 34,
+      "pali": "Yasmā ca kho, bhikkhave, bhikkhu mattaṁ jānāti cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ paṭiggahaṇāya, tasmā ‘mattaññū’ti vuccati. ",
+      "english": "But because they do know moderation, they are called ‘one who knows moderation’. "
+    },
+    {
+      "number": 35,
+      "pali": "Iti dhammaññū, atthaññū, attaññū, mattaññū. ",
+      "english": "Such is the one who knows the teachings, the one who knows the meaning, the one who has self-knowledge, and the one who knows moderation. "
+    },
+    {
+      "number": 36,
+      "pali": "Kālaññū ca kathaṁ hoti? ",
+      "english": "And how are they one who knows the right time? "
+    },
+    {
+      "number": 37,
+      "pali": "Idha, bhikkhave, bhikkhu kālaṁ jānāti: ",
+      "english": "It’s when a mendicant knows the right time: "
+    },
+    {
+      "number": 38,
+      "pali": "‘ayaṁ kālo uddesassa, ayaṁ kālo paripucchāya, ayaṁ kālo yogassa, ayaṁ kālo paṭisallānassā’ti. ",
+      "english": "‘This is the time for recitation; this is the time for questioning; this is the time for meditation; this is the time for retreat.’ "
+    },
+    {
+      "number": 39,
+      "pali": "No ce, bhikkhave, bhikkhu kālaṁ jāneyya: ",
+      "english": "If a mendicant did not know the right time, "
+    },
+    {
+      "number": 40,
+      "pali": "‘ayaṁ kālo uddesassa, ayaṁ kālo paripucchāya, ayaṁ kālo yogassa, ayaṁ kālo paṭisallānassā’ti, nayidha ‘kālaññū’ti vucceyya. ",
+      "english": "they would not be called ‘one who knows the right time’. "
+    },
+    {
+      "number": 41,
+      "pali": "Yasmā ca kho, bhikkhave, bhikkhu kālaṁ jānāti: ",
+      "english": "But because they do know the right time, "
+    },
+    {
+      "number": 42,
+      "pali": "‘ayaṁ kālo uddesassa, ayaṁ kālo paripucchāya, ayaṁ kālo yogassa, ayaṁ kālo paṭisallānassā’ti, tasmā ‘kālaññū’ti vuccati. ",
+      "english": "they are called ‘one who knows the right time’. "
+    },
+    {
+      "number": 43,
+      "pali": "Iti dhammaññū, atthaññū, attaññū, mattaññū, kālaññū. ",
+      "english": "Such is the one who knows the teachings, the one who knows the meaning, the one who has self-knowledge, the one who knows moderation, and the one who knows the right time. "
+    },
+    {
+      "number": 44,
+      "pali": "Parisaññū ca kathaṁ hoti? ",
+      "english": "And how are they one who knows assemblies? "
+    },
+    {
+      "number": 45,
+      "pali": "Idha, bhikkhave, bhikkhu parisaṁ jānāti: ",
+      "english": "It’s when a mendicant knows assemblies: "
+    },
+    {
+      "number": 46,
+      "pali": "‘ayaṁ khattiyaparisā, ayaṁ brāhmaṇaparisā, ayaṁ gahapatiparisā, ayaṁ samaṇaparisā. ",
+      "english": "‘This is an assembly of aristocrats, of brahmins, of householders, or of ascetics. "
+    },
+    {
+      "number": 47,
+      "pali": "Tattha evaṁ upasaṅkamitabbaṁ, evaṁ ṭhātabbaṁ, evaṁ kattabbaṁ, evaṁ nisīditabbaṁ, evaṁ bhāsitabbaṁ, evaṁ tuṇhī bhavitabban’ti. ",
+      "english": "This one should be approached in this way. This is how to stand, to act, to sit, to speak, or to stay silent when there.’ "
+    },
+    {
+      "number": 48,
+      "pali": "No ce, bhikkhave, bhikkhu parisaṁ jāneyya: ",
+      "english": "If a mendicant did not know assemblies, "
+    },
+    {
+      "number": 49,
+      "pali": "‘ayaṁ khattiyaparisā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "evaṁ tuṇhī bhavitabban’ti, nayidha ‘parisaññū’ti vucceyya. ",
+      "english": "they would not be called ‘one who knows assemblies’. "
+    },
+    {
+      "number": 51,
+      "pali": "Yasmā ca kho, bhikkhave, bhikkhu parisaṁ jānāti: ",
+      "english": "But because they do know assemblies, "
+    },
+    {
+      "number": 52,
+      "pali": "‘ayaṁ khattiyaparisā, ayaṁ brāhmaṇaparisā, ayaṁ gahapatiparisā, ayaṁ samaṇaparisā. ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Tattha evaṁ upasaṅkamitabbaṁ, evaṁ ṭhātabbaṁ, evaṁ kattabbaṁ, evaṁ nisīditabbaṁ, evaṁ bhāsitabbaṁ, evaṁ tuṇhī bhavitabban’ti, tasmā ‘parisaññū’ti vuccati. ",
+      "english": "they are called ‘one who knows assemblies’. "
+    },
+    {
+      "number": 54,
+      "pali": "Iti dhammaññū, atthaññū, attaññū, mattaññū, kālaññū, parisaññū. ",
+      "english": "Such is the one who knows the teachings, the one who knows the meaning, the one who has self-knowledge, the one who knows moderation, the one who knows the right time, and the one who knows assemblies. "
+    },
+    {
+      "number": 55,
+      "pali": "Puggalaparoparaññū ca kathaṁ hoti? ",
+      "english": "And how are they one who knows individuals high and low? "
+    },
+    {
+      "number": 56,
+      "pali": "Idha, bhikkhave, bhikkhuno dvayena puggalā viditā honti. ",
+      "english": "It’s when a mendicant understands individuals in terms of pairs. "
+    },
+    {
+      "number": 57,
+      "pali": "Dve puggalā—",
+      "english": "Two individuals: "
+    },
+    {
+      "number": 58,
+      "pali": "eko ariyānaṁ dassanakāmo, eko ariyānaṁ na dassanakāmo. ",
+      "english": "one likes to see the noble ones, one does not. "
+    },
+    {
+      "number": 59,
+      "pali": "Yvāyaṁ puggalo ariyānaṁ na dassanakāmo, ",
+      "english": "The individual who doesn’t like to see the noble ones "
+    },
+    {
+      "number": 60,
+      "pali": "evaṁ so tenaṅgena gārayho. ",
+      "english": "is reprehensible in that respect. "
+    },
+    {
+      "number": 61,
+      "pali": "Yvāyaṁ puggalo ariyānaṁ dassanakāmo, ",
+      "english": "The individual who does like to see the noble ones "
+    },
+    {
+      "number": 62,
+      "pali": "evaṁ so tenaṅgena pāsaṁso. .1 ",
+      "english": "is praiseworthy in that respect. "
+    },
+    {
+      "number": 63,
+      "pali": "Dve puggalā ariyānaṁ dassanakāmā—",
+      "english": "Two individuals like to see the noble ones: "
+    },
+    {
+      "number": 64,
+      "pali": "eko saddhammaṁ sotukāmo, eko saddhammaṁ na sotukāmo. ",
+      "english": "one likes to hear the true teaching, one does not. "
+    },
+    {
+      "number": 65,
+      "pali": "Yvāyaṁ puggalo saddhammaṁ na sotukāmo, ",
+      "english": "The individual who doesn’t like to hear the true teaching "
+    },
+    {
+      "number": 66,
+      "pali": "evaṁ so tenaṅgena gārayho. ",
+      "english": "is reprehensible in that respect. "
+    },
+    {
+      "number": 67,
+      "pali": "Yvāyaṁ puggalo saddhammaṁ sotukāmo, ",
+      "english": "The individual who does like to hear the true teaching "
+    },
+    {
+      "number": 68,
+      "pali": "evaṁ so tenaṅgena pāsaṁso. .2 ",
+      "english": "is praiseworthy in that respect. "
+    },
+    {
+      "number": 69,
+      "pali": "Dve puggalā saddhammaṁ sotukāmā—",
+      "english": "Two individuals like to hear the true teaching: "
+    },
+    {
+      "number": 70,
+      "pali": "eko ohitasoto dhammaṁ suṇāti, eko anohitasoto dhammaṁ suṇāti. ",
+      "english": "one actively listens to the teaching, one does not. "
+    },
+    {
+      "number": 71,
+      "pali": "Yvāyaṁ puggalo anohitasoto dhammaṁ suṇāti, ",
+      "english": "The individual who doesn’t actively listen to the teaching "
+    },
+    {
+      "number": 72,
+      "pali": "evaṁ so tenaṅgena gārayho. ",
+      "english": "is reprehensible in that respect. "
+    },
+    {
+      "number": 73,
+      "pali": "Yvāyaṁ puggalo ohitasoto dhammaṁ suṇāti, ",
+      "english": "The individual who does actively listen to the teaching "
+    },
+    {
+      "number": 74,
+      "pali": "evaṁ so tenaṅgena pāsaṁso. .3 ",
+      "english": "is praiseworthy in that respect. "
+    },
+    {
+      "number": 75,
+      "pali": "Dve puggalā ohitasotā dhammaṁ suṇanti—",
+      "english": "Two individuals actively listen to the teaching: "
+    },
+    {
+      "number": 76,
+      "pali": "eko sutvā dhammaṁ dhāreti, eko sutvā dhammaṁ na dhāreti. ",
+      "english": "one remembers the teaching they’ve heard, one does not. "
+    },
+    {
+      "number": 77,
+      "pali": "Yvāyaṁ puggalo sutvā na dhammaṁ dhāreti, ",
+      "english": "The individual who doesn’t remember the teaching they’ve heard "
+    },
+    {
+      "number": 78,
+      "pali": "evaṁ so tenaṅgena gārayho. ",
+      "english": "is reprehensible in that respect. "
+    },
+    {
+      "number": 79,
+      "pali": "Yvāyaṁ puggalo sutvā dhammaṁ dhāreti, ",
+      "english": "The individual who does remember the teaching they’ve heard "
+    },
+    {
+      "number": 80,
+      "pali": "evaṁ so tenaṅgena pāsaṁso. .4 ",
+      "english": "is praiseworthy in that respect. "
+    },
+    {
+      "number": 81,
+      "pali": "Dve puggalā sutvā dhammaṁ dhārenti—",
+      "english": "Two individuals remember the teaching they’ve heard: "
+    },
+    {
+      "number": 82,
+      "pali": "eko dhātānaṁ dhammānaṁ atthaṁ upaparikkhati, eko dhātānaṁ dhammānaṁ atthaṁ na upaparikkhati. ",
+      "english": "one examines the meaning of the teachings they have remembered, one does not. "
+    },
+    {
+      "number": 83,
+      "pali": "Yvāyaṁ puggalo dhātānaṁ dhammānaṁ atthaṁ na upaparikkhati, ",
+      "english": "The individual who does not examine the meaning of the teachings they have remembered "
+    },
+    {
+      "number": 84,
+      "pali": "evaṁ so tenaṅgena gārayho. ",
+      "english": "is reprehensible in that respect. "
+    },
+    {
+      "number": 85,
+      "pali": "Yvāyaṁ puggalo dhātānaṁ dhammānaṁ atthaṁ upaparikkhati, ",
+      "english": "The individual who does examine the meaning of the teachings they have remembered "
+    },
+    {
+      "number": 86,
+      "pali": "evaṁ so tenaṅgena pāsaṁso. .5 ",
+      "english": "is praiseworthy in that respect. "
+    },
+    {
+      "number": 87,
+      "pali": "Dve puggalā dhātānaṁ dhammānaṁ atthaṁ upaparikkhanti—",
+      "english": "Two individuals examine the meaning of the teachings they have remembered: "
+    },
+    {
+      "number": 88,
+      "pali": "eko atthamaññāya dhammamaññāya dhammānudhammappaṭipanno, eko atthamaññāya dhammamaññāya na dhammānudhammappaṭipanno. ",
+      "english": "one understands the meaning and the teaching and practicesin line with the teaching, one understands the meaning and the teaching but does not practice in line with the teaching. "
+    },
+    {
+      "number": 89,
+      "pali": "Yvāyaṁ puggalo atthamaññāya dhammamaññāya na dhammānudhammappaṭipanno, ",
+      "english": "The individual who understands the meaning and the teaching but does not practice in line with the principle of the teaching "
+    },
+    {
+      "number": 90,
+      "pali": "evaṁ so tenaṅgena gārayho. ",
+      "english": "is reprehensible in that respect. "
+    },
+    {
+      "number": 91,
+      "pali": "Yvāyaṁ puggalo atthamaññāya dhammamaññāya dhammānudhammappaṭipanno, ",
+      "english": "The individual who understands the meaning and the teaching and practices in line with the principle of the teaching "
+    },
+    {
+      "number": 92,
+      "pali": "evaṁ so tenaṅgena pāsaṁso. .6 ",
+      "english": "is praiseworthy in that respect. "
+    },
+    {
+      "number": 93,
+      "pali": "Dve puggalā atthamaññāya dhammamaññāya dhammānudhammappaṭipannā—",
+      "english": "Two individuals understand the meaning and the teaching and practice in line with the teaching: "
+    },
+    {
+      "number": 94,
+      "pali": "eko attahitāya paṭipanno no parahitāya, eko attahitāya ca paṭipanno parahitāya ca. ",
+      "english": "one practices to benefit themselves but not others, and one practices to benefit both themselves and others. "
+    },
+    {
+      "number": 95,
+      "pali": "Yvāyaṁ puggalo attahitāya paṭipanno no parahitāya, ",
+      "english": "The individual who practices to benefit themselves but not others "
+    },
+    {
+      "number": 96,
+      "pali": "evaṁ so tenaṅgena gārayho. ",
+      "english": "is reprehensible in that respect. "
+    },
+    {
+      "number": 97,
+      "pali": "Yvāyaṁ puggalo attahitāya ca paṭipanno parahitāya ca, ",
+      "english": "The individual who practices to benefit both themselves and others "
+    },
+    {
+      "number": 98,
+      "pali": "evaṁ so tenaṅgena pāsaṁso. .7 ",
+      "english": "is praiseworthy in that respect. "
+    },
+    {
+      "number": 99,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhuno dvayena puggalā viditā honti. ",
+      "english": "That’s how a mendicant understands individuals in terms of pairs. "
+    },
+    {
+      "number": 100,
+      "pali": "Evaṁ, bhikkhave, bhikkhu puggalaparoparaññū hoti. ",
+      "english": "That’s how a mendicant is one who knows individuals high and low. "
+    },
+    {
+      "number": 101,
+      "pali": "Imehi kho, bhikkhave, sattahi dhammehi samannāgato bhikkhu āhuneyyo hoti pāhuneyyo …pe… anuttaraṁ puññakkhettaṁ lokassā”ti. ",
+      "english": "A mendicant with these seven qualities is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, worthy of veneration with cupped palms, and is the supreme field of merit for the world.” "
+    },
+    {
+      "number": 102,
+      "pali": "Catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

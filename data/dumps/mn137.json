@@ -1,0 +1,980 @@
+{
+  "sutta_id": "MN137",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 137 ",
+      "english": "Middle Discourses 137 "
+    },
+    {
+      "number": 2,
+      "pali": "Saḷāyatanavibhaṅgasutta ",
+      "english": "The Analysis of the Six Sense Fields "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“saḷāyatanavibhaṅgaṁ vo, bhikkhave, desessāmi. ",
+      "english": "“Mendicants, I shall teach you the analysis of the six sense fields. "
+    },
+    {
+      "number": 10,
+      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "Listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 11,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 12,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 13,
+      "pali": "“‘Cha ajjhattikāni āyatanāni veditabbāni, cha bāhirāni āyatanāni veditabbāni, cha viññāṇakāyā veditabbā, cha phassakāyā veditabbā, aṭṭhārasa manopavicārā veditabbā, chattiṁsa sattapadā veditabbā, tatra idaṁ nissāya idaṁ pajahatha, tayo satipaṭṭhānā yadariyo sevati yadariyo sevamāno satthā gaṇamanusāsitumarahati, so vuccati yoggācariyānaṁ anuttaro purisadammasārathī’ti—",
+      "english": "“‘The six interior sense fields should be understood. The six exterior sense fields should be understood. The six classes of consciousness should be understood. The six classes of contact should be understood. The eighteen mental preoccupations should be understood. The thirty-six positions of sentient beings should be understood. Therein, relying on this, give up that. The Noble One cultivates the establishment of mindfulness in three cases, by virtue of which they are a Teacher worthy to instruct a group. Of all meditation tutors, it is he that is called the supreme guide for those fit for training.’ "
+    },
+    {
+      "number": 14,
+      "pali": "ayamuddeso saḷāyatanavibhaṅgassa. ",
+      "english": "This is the summary recital for the analysis of the six sense fields. "
+    },
+    {
+      "number": 15,
+      "pali": "‘Cha ajjhattikāni āyatanāni veditabbānī’ti—",
+      "english": "‘The six interior sense fields should be understood.’ "
+    },
+    {
+      "number": 16,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 17,
+      "pali": "‘Cakkhāyatanaṁ sotāyatanaṁ ghānāyatanaṁ jivhāyatanaṁ kāyāyatanaṁ manāyatanaṁ—",
+      "english": "There are the sense fields of the eye, ear, nose, tongue, body, and mind. "
+    },
+    {
+      "number": 18,
+      "pali": "cha ajjhattikāni āyatanāni veditabbānī’ti—",
+      "english": "‘The six interior sense fields should be understood.’ "
+    },
+    {
+      "number": 19,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 20,
+      "pali": "‘Cha bāhirāni āyatanāni veditabbānī’ti—",
+      "english": "‘The six exterior sense fields should be understood.’ "
+    },
+    {
+      "number": 21,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 22,
+      "pali": "‘Rūpāyatanaṁ saddāyatanaṁ gandhāyatanaṁ rasāyatanaṁ phoṭṭhabbāyatanaṁ dhammāyatanaṁ—",
+      "english": "There are the sense fields of sights, sounds, smells, tastes, touches, and ideas. "
+    },
+    {
+      "number": 23,
+      "pali": "cha bāhirāni āyatanāni veditabbānī’ti—",
+      "english": "‘The six exterior sense fields should be understood.’ "
+    },
+    {
+      "number": 24,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 25,
+      "pali": "‘Cha viññāṇakāyā veditabbā’ti—",
+      "english": "‘The six classes of consciousness should be understood.’ "
+    },
+    {
+      "number": 26,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 27,
+      "pali": "‘Cakkhuviññāṇaṁ sotaviññāṇaṁ ghānaviññāṇaṁ jivhāviññāṇaṁ kāyaviññāṇaṁ manoviññāṇaṁ—",
+      "english": "There are eye, ear, nose, tongue, body, and mind consciousness. "
+    },
+    {
+      "number": 28,
+      "pali": "cha viññāṇakāyā veditabbā’ti—",
+      "english": "‘The six classes of consciousness should be understood.’ "
+    },
+    {
+      "number": 29,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 30,
+      "pali": "‘Cha phassakāyā veditabbā’ti—",
+      "english": "‘The six classes of contact should be understood.’ "
+    },
+    {
+      "number": 31,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 32,
+      "pali": "‘Cakkhusamphasso sotasamphasso ghānasamphasso jivhāsamphasso kāyasamphasso manosamphasso—",
+      "english": "There is contact through the eye, ear, nose, tongue, body, and mind. "
+    },
+    {
+      "number": 33,
+      "pali": "cha phassakāyā veditabbā’ti—",
+      "english": "‘The six classes of contact should be understood.’ "
+    },
+    {
+      "number": 34,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 35,
+      "pali": "‘Aṭṭhārasa manopavicārā veditabbā’ti—",
+      "english": "‘The eighteen mental preoccupations should be understood.’ "
+    },
+    {
+      "number": 36,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 37,
+      "pali": "‘Cakkhunā rūpaṁ disvā somanassaṭṭhānīyaṁ rūpaṁ upavicarati, domanassaṭṭhānīyaṁ rūpaṁ upavicarati, upekkhāṭṭhānīyaṁ rūpaṁ upavicarati. ",
+      "english": "Seeing a sight with the eye, one is preoccupied with a sight that’s a basis for happiness or sadness or equanimity. "
+    },
+    {
+      "number": 38,
+      "pali": "Sotena saddaṁ sutvā …pe… ",
+      "english": "Hearing a sound with the ear … "
+    },
+    {
+      "number": 39,
+      "pali": "ghānena gandhaṁ ghāyitvā … ",
+      "english": "Smelling an odor with the nose … "
+    },
+    {
+      "number": 40,
+      "pali": "jivhāya rasaṁ sāyitvā … ",
+      "english": "Tasting a flavor with the tongue … "
+    },
+    {
+      "number": 41,
+      "pali": "kāyena phoṭṭhabbaṁ phusitvā … ",
+      "english": "Feeling a touch with the body … "
+    },
+    {
+      "number": 42,
+      "pali": "manasā dhammaṁ viññāya somanassaṭṭhānīyaṁ dhammaṁ upavicarati, domanassaṭṭhānīyaṁ dhammaṁ upavicarati, upekkhāṭṭhānīyaṁ dhammaṁ upavicarati. ",
+      "english": "Becoming conscious of an idea with the mind, one is preoccupied with an idea that’s a basis for happiness or sadness or equanimity. "
+    },
+    {
+      "number": 43,
+      "pali": "Iti cha somanassūpavicārā, cha domanassūpavicārā, cha upekkhūpavicārā, aṭṭhārasa manopavicārā veditabbā’ti—",
+      "english": "So there are six preoccupations with happiness, six preoccupations with sadness, and six preoccupations with equanimity. ‘The eighteen mental preoccupations should be understood.’ "
+    },
+    {
+      "number": 44,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 45,
+      "pali": "‘Chattiṁsa sattapadā veditabbā’ti—",
+      "english": "‘The thirty-six positions of sentient beings should be understood.’ "
+    },
+    {
+      "number": 46,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 47,
+      "pali": "Cha gehasitāni somanassāni, cha nekkhammasitāni somanassāni, cha gehasitāni domanassāni, cha nekkhammasitāni domanassāni, cha gehasitā upekkhā, cha nekkhammasitā upekkhā. ",
+      "english": "There are six kinds of domestic happiness and six kinds of renunciate happiness. There are six kinds of domestic sadness and six kinds of renunciate sadness. There are six kinds of domestic equanimity and six kinds of renunciate equanimity. "
+    },
+    {
+      "number": 48,
+      "pali": "Tattha katamāni cha gehasitāni somanassāni? ",
+      "english": "And in this context what are the six kinds of domestic happiness? "
+    },
+    {
+      "number": 49,
+      "pali": "Cakkhuviññeyyānaṁ rūpānaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ manoramānaṁ lokāmisapaṭisaṁyuttānaṁ paṭilābhaṁ vā paṭilābhato samanupassato pubbe vā paṭiladdhapubbaṁ atītaṁ niruddhaṁ vipariṇataṁ samanussarato uppajjati somanassaṁ. ",
+      "english": "There are sights known by the eye, which are likable, desirable, agreeable, pleasing, connected with the worldly pleasures of the flesh. Happiness arises when you regard it as a gain to obtain such sights, or when you recollect sights you formerly obtained that have passed, ceased, and perished. "
+    },
+    {
+      "number": 50,
+      "pali": "Yaṁ evarūpaṁ somanassaṁ idaṁ vuccati gehasitaṁ somanassaṁ. ",
+      "english": "Such happiness is called domestic happiness. "
+    },
+    {
+      "number": 51,
+      "pali": "Sotaviññeyyānaṁ saddānaṁ … ",
+      "english": "There are sounds known by the ear … "
+    },
+    {
+      "number": 52,
+      "pali": "ghānaviññeyyānaṁ gandhānaṁ … ",
+      "english": "Smells known by the nose … "
+    },
+    {
+      "number": 53,
+      "pali": "jivhāviññeyyānaṁ rasānaṁ … ",
+      "english": "Tastes known by the tongue … "
+    },
+    {
+      "number": 54,
+      "pali": "kāyaviññeyyānaṁ phoṭṭhabbānaṁ … ",
+      "english": "Touches known by the body … "
+    },
+    {
+      "number": 55,
+      "pali": "manoviññeyyānaṁ dhammānaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ …pe… somanassaṁ. ",
+      "english": "Ideas known by the mind, which are likable, desirable, agreeable, pleasing, connected with the worldly pleasures of the flesh. Happiness arises when you regard it as a gain to obtain such ideas, or when you recollect ideas you formerly obtained that have passed, ceased, and perished. "
+    },
+    {
+      "number": 56,
+      "pali": "Yaṁ evarūpaṁ somanassaṁ idaṁ vuccati gehasitaṁ somanassaṁ. ",
+      "english": "Such happiness is called domestic happiness. "
+    },
+    {
+      "number": 57,
+      "pali": "Imāni cha gehasitāni somanassāni. ",
+      "english": "These are the six kinds of domestic happiness. "
+    },
+    {
+      "number": 58,
+      "pali": "Tattha katamāni cha nekkhammasitāni somanassāni? ",
+      "english": "And in this context what are the six kinds of renunciate happiness? "
+    },
+    {
+      "number": 59,
+      "pali": "Rūpānaṁ tveva aniccataṁ viditvā vipariṇāmavirāganirodhaṁ, ‘pubbe ceva rūpā etarahi ca sabbe te rūpā aniccā dukkhā vipariṇāmadhammā’ti evametaṁ yathābhūtaṁ sammappaññāya passato uppajjati somanassaṁ. ",
+      "english": "When you’ve understood the impermanence of sights—their perishing, fading away, and cessation—happiness arises as you truly understand through right understanding that both formerly and now all those sights are impermanent, suffering, and perishable. "
+    },
+    {
+      "number": 60,
+      "pali": "Yaṁ evarūpaṁ somanassaṁ idaṁ vuccati nekkhammasitaṁ somanassaṁ. ",
+      "english": "Such happiness is called renunciate happiness. "
+    },
+    {
+      "number": 61,
+      "pali": "Saddānaṁ tveva … ",
+      "english": "When you’ve understood the impermanence of sounds … "
+    },
+    {
+      "number": 62,
+      "pali": "gandhānaṁ tveva … ",
+      "english": "smells … "
+    },
+    {
+      "number": 63,
+      "pali": "rasānaṁ tveva … ",
+      "english": "tastes … "
+    },
+    {
+      "number": 64,
+      "pali": "phoṭṭhabbānaṁ tveva … ",
+      "english": "touches … "
+    },
+    {
+      "number": 65,
+      "pali": "dhammānaṁ tveva aniccataṁ viditvā vipariṇāmavirāganirodhaṁ, ‘pubbe ceva dhammā etarahi ca sabbe te dhammā aniccā dukkhā vipariṇāmadhammā’ti evametaṁ yathābhūtaṁ sammappaññāya passato uppajjati somanassaṁ. ",
+      "english": "ideas—their perishing, fading away, and cessation—happiness arises as you truly understand through right understanding that both formerly and now all those ideas are impermanent, suffering, and perishable. "
+    },
+    {
+      "number": 66,
+      "pali": "Yaṁ evarūpaṁ somanassaṁ idaṁ vuccati nekkhammasitaṁ somanassaṁ. ",
+      "english": "Such happiness is called renunciate happiness. "
+    },
+    {
+      "number": 67,
+      "pali": "Imāni cha nekkhammasitāni somanassāni. ",
+      "english": "These are the six kinds of renunciate happiness. "
+    },
+    {
+      "number": 68,
+      "pali": "Tattha katamāni cha gehasitāni domanassāni? ",
+      "english": "And in this context what are the six kinds of domestic sadness? "
+    },
+    {
+      "number": 69,
+      "pali": "Cakkhuviññeyyānaṁ rūpānaṁ … ",
+      "english": "There are sights known by the eye, which are likable, desirable, agreeable, pleasing, connected with the worldly pleasures of the flesh. Sadness arises when you regard it as a loss to lose such sights, or when you recollect sights you formerly lost that have passed, ceased, and perished. "
+    },
+    {
+      "number": 70,
+      "pali": "pe… ",
+      "english": "Such sadness is called domestic sadness. "
+    },
+    {
+      "number": 71,
+      "pali": "sotaviññeyyānaṁ saddānaṁ … ",
+      "english": "There are sounds known by the ear … "
+    },
+    {
+      "number": 72,
+      "pali": "ghānaviññeyyānaṁ gandhānaṁ … ",
+      "english": "There are smells known by the nose … "
+    },
+    {
+      "number": 73,
+      "pali": "jivhāviññeyyānaṁ rasānaṁ … ",
+      "english": "There are tastes known by the tongue … "
+    },
+    {
+      "number": 74,
+      "pali": "kāyaviññeyyānaṁ phoṭṭhabbānaṁ … ",
+      "english": "There are touches known by the body … "
+    },
+    {
+      "number": 75,
+      "pali": "manoviññeyyānaṁ dhammānaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ manoramānaṁ lokāmisapaṭisaṁyuttānaṁ appaṭilābhaṁ vā appaṭilābhato samanupassato pubbe vā appaṭiladdhapubbaṁ atītaṁ niruddhaṁ vipariṇataṁ samanussarato uppajjati domanassaṁ. ",
+      "english": "There are ideas known by the mind, which are likable, desirable, agreeable, pleasing, connected with the worldly pleasures of the flesh. Sadness arises when you regard it as a loss to lose such ideas, or when you recollect ideas you formerly lost that have passed, ceased, and perished. "
+    },
+    {
+      "number": 76,
+      "pali": "Yaṁ evarūpaṁ domanassaṁ idaṁ vuccati gehasitaṁ domanassaṁ. ",
+      "english": "Such sadness is called domestic sadness. "
+    },
+    {
+      "number": 77,
+      "pali": "Imāni cha gehasitāni domanassāni. ",
+      "english": "These are the six kinds of domestic sadness. "
+    },
+    {
+      "number": 78,
+      "pali": "Tattha katamāni cha nekkhammasitāni domanassāni? ",
+      "english": "And in this context what are the six kinds of renunciate sadness? "
+    },
+    {
+      "number": 79,
+      "pali": "Rūpānaṁ tveva aniccataṁ viditvā vipariṇāmavirāganirodhaṁ, ‘pubbe ceva rūpā etarahi ca sabbe te rūpā aniccā dukkhā vipariṇāmadhammā’ti evametaṁ yathābhūtaṁ sammappaññāya disvā anuttaresu vimokkhesu pihaṁ upaṭṭhāpeti: ",
+      "english": "When you’ve understood the impermanence of sights—their perishing, fading away, and cessation—you truly understand through right understanding that both formerly and now all those sights are impermanent, suffering, and perishable. Upon seeing this, you give rise to yearning for the supreme liberations: "
+    },
+    {
+      "number": 80,
+      "pali": "‘kudāssu nāmāhaṁ tadāyatanaṁ upasampajja viharissāmi yadariyā etarahi āyatanaṁ upasampajja viharantī’ti iti anuttaresu vimokkhesu pihaṁ upaṭṭhāpayato uppajjati pihapaccayā domanassaṁ. ",
+      "english": "‘Oh, when will I enter and remain in the same dimension that the noble ones enter and remain in today?’ When you give rise to yearning for the supreme liberations like this, sadness arises because of the yearning. "
+    },
+    {
+      "number": 81,
+      "pali": "Yaṁ evarūpaṁ domanassaṁ idaṁ vuccati nekkhammasitaṁ domanassaṁ. ",
+      "english": "Such sadness is called renunciate sadness. "
+    },
+    {
+      "number": 82,
+      "pali": "Saddānaṁ tveva …pe… ",
+      "english": "When you’ve understood the impermanence of sounds … "
+    },
+    {
+      "number": 83,
+      "pali": "gandhānaṁ tveva … ",
+      "english": "smells … "
+    },
+    {
+      "number": 84,
+      "pali": "rasānaṁ tveva … ",
+      "english": "tastes … "
+    },
+    {
+      "number": 85,
+      "pali": "phoṭṭhabbānaṁ tveva … ",
+      "english": "touches … "
+    },
+    {
+      "number": 86,
+      "pali": "dhammānaṁ tveva aniccataṁ viditvā vipariṇāmavirāganirodhaṁ, ‘pubbe ceva dhammā etarahi ca sabbe te dhammā aniccā dukkhā vipariṇāmadhammā’ti evametaṁ yathābhūtaṁ sammappaññāya disvā anuttaresu vimokkhesu pihaṁ upaṭṭhāpeti: ",
+      "english": "ideas—their perishing, fading away, and cessation—you truly understand through right understanding that both formerly and now all those ideas are impermanent, suffering, and perishable. Upon seeing this, you give rise to yearning for the supreme liberations: "
+    },
+    {
+      "number": 87,
+      "pali": "‘kudāssu nāmāhaṁ tadāyatanaṁ upasampajja viharissāmi yadariyā etarahi āyatanaṁ upasampajja viharantī’ti iti anuttaresu vimokkhesu pihaṁ upaṭṭhāpayato uppajjati pihapaccayā domanassaṁ. ",
+      "english": "‘Oh, when will I enter and remain in the same dimension that the noble ones enter and remain in today?’ When you give rise to yearning for the supreme liberations like this, sadness arises because of the yearning. "
+    },
+    {
+      "number": 88,
+      "pali": "Yaṁ evarūpaṁ domanassaṁ idaṁ vuccati nekkhammasitaṁ domanassaṁ. ",
+      "english": "Such sadness is called renunciate sadness. "
+    },
+    {
+      "number": 89,
+      "pali": "Imāni cha nekkhammasitāni domanassāni. ",
+      "english": "These are the six kinds of renunciate sadness. "
+    },
+    {
+      "number": 90,
+      "pali": "Tattha katamā cha gehasitā upekkhā? ",
+      "english": "And in this context what are the six kinds of domestic equanimity? "
+    },
+    {
+      "number": 91,
+      "pali": "Cakkhunā rūpaṁ disvā uppajjati upekkhā bālassa mūḷhassa puthujjanassa anodhijinassa avipākajinassa anādīnavadassāvino assutavato puthujjanassa. ",
+      "english": "When seeing a sight with the eye, equanimity arises for the unlearned ordinary person—a foolish ordinary person who has not overcome their limitations and the results of deeds, and is blind to the drawbacks. "
+    },
+    {
+      "number": 92,
+      "pali": "Yā evarūpā upekkhā, rūpaṁ sā nātivattati. ",
+      "english": "Such equanimity does not transcend the sight. "
+    },
+    {
+      "number": 93,
+      "pali": "Tasmā sā upekkhā ‘gehasitā’ti vuccati. ",
+      "english": "That’s why it’s called domestic equanimity. "
+    },
+    {
+      "number": 94,
+      "pali": "Sotena saddaṁ sutvā … ",
+      "english": "When hearing a sound with the ear … "
+    },
+    {
+      "number": 95,
+      "pali": "ghānena gandhaṁ ghāyitvā … ",
+      "english": "When smelling an odor with the nose … "
+    },
+    {
+      "number": 96,
+      "pali": "jivhāya rasaṁ sāyitvā … ",
+      "english": "When tasting a flavor with the tongue … "
+    },
+    {
+      "number": 97,
+      "pali": "kāyena phoṭṭhabbaṁ phusitvā … ",
+      "english": "When feeling a touch with the body … "
+    },
+    {
+      "number": 98,
+      "pali": "manasā dhammaṁ viññāya uppajjati upekkhā bālassa mūḷhassa puthujjanassa anodhijinassa avipākajinassa anādīnavadassāvino assutavato puthujjanassa. ",
+      "english": "When knowing an idea with the mind, equanimity arises for the unlearned ordinary person—a foolish ordinary person who has not overcome their limitations and the results of deeds, and is blind to the drawbacks. "
+    },
+    {
+      "number": 99,
+      "pali": "Yā evarūpā upekkhā, dhammaṁ sā nātivattati. ",
+      "english": "Such equanimity does not transcend the idea. "
+    },
+    {
+      "number": 100,
+      "pali": "Tasmā sā upekkhā ‘gehasitā’ti vuccati. ",
+      "english": "That’s why it’s called domestic equanimity. "
+    },
+    {
+      "number": 101,
+      "pali": "Imā cha gehasitā upekkhā. ",
+      "english": "These are the six kinds of domestic equanimity. "
+    },
+    {
+      "number": 102,
+      "pali": "Tattha katamā cha nekkhammasitā upekkhā? ",
+      "english": "And in this context what are the six kinds of renunciate equanimity? "
+    },
+    {
+      "number": 103,
+      "pali": "Rūpānaṁ tveva aniccataṁ viditvā vipariṇāmavirāganirodhaṁ, ‘pubbe ceva rūpā etarahi ca sabbe te rūpā aniccā dukkhā vipariṇāmadhammā’ti evametaṁ yathābhūtaṁ sammappaññāya passato uppajjati upekkhā. ",
+      "english": "When you’ve understood the impermanence of sights—their perishing, fading away, and cessation—equanimity arises as you truly understand through right understanding that both formerly and now all those sights are impermanent, suffering, and perishable. "
+    },
+    {
+      "number": 104,
+      "pali": "Yā evarūpā upekkhā, rūpaṁ sā ativattati. ",
+      "english": "Such equanimity transcends the sight. "
+    },
+    {
+      "number": 105,
+      "pali": "Tasmā sā upekkhā ‘nekkhammasitā’ti vuccati. ",
+      "english": "That’s why it’s called renunciate equanimity. "
+    },
+    {
+      "number": 106,
+      "pali": "Saddānaṁ tveva … ",
+      "english": "When you’ve understood the impermanence of sounds … "
+    },
+    {
+      "number": 107,
+      "pali": "gandhānaṁ tveva … ",
+      "english": "smells … "
+    },
+    {
+      "number": 108,
+      "pali": "rasānaṁ tveva … ",
+      "english": "tastes … "
+    },
+    {
+      "number": 109,
+      "pali": "phoṭṭhabbānaṁ tveva … ",
+      "english": "touches … "
+    },
+    {
+      "number": 110,
+      "pali": "dhammānaṁ tveva aniccataṁ viditvā vipariṇāmavirāganirodhaṁ, ‘pubbe ceva dhammā etarahi ca sabbe te dhammā aniccā dukkhā vipariṇāmadhammā’ti evametaṁ yathābhūtaṁ sammappaññāya passato uppajjati upekkhā. ",
+      "english": "ideas—their perishing, fading away, and cessation—equanimity arises as you truly understand through right understanding that both formerly and now all those ideas are impermanent, suffering, and perishable. "
+    },
+    {
+      "number": 111,
+      "pali": "Yā evarūpā upekkhā, dhammaṁ sā ativattati. ",
+      "english": "Such equanimity transcends the idea. "
+    },
+    {
+      "number": 112,
+      "pali": "Tasmā sā upekkhā ‘nekkhammasitā’ti vuccati. ",
+      "english": "That’s why it’s called renunciate equanimity. "
+    },
+    {
+      "number": 113,
+      "pali": "Imā cha nekkhammasitā upekkhā. ",
+      "english": "These are the six kinds of renunciate equanimity. "
+    },
+    {
+      "number": 114,
+      "pali": "‘Chattiṁsa sattapadā veditabbā’ti—",
+      "english": "‘The thirty-six positions of sentient beings should be understood.’ "
+    },
+    {
+      "number": 115,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 116,
+      "pali": "‘Tatra idaṁ nissāya idaṁ pajahathā’ti—",
+      "english": "‘Therein, relying on this, give up that.’ "
+    },
+    {
+      "number": 117,
+      "pali": "iti kho panetaṁ vuttaṁ; Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 118,
+      "pali": "Tatra, bhikkhave, yāni cha nekkhammasitāni somanassāni tāni nissāya tāni āgamma yāni cha gehasitāni somanassāni tāni pajahatha, tāni samatikkamatha. ",
+      "english": "Therein, by relying and depending on the six kinds of renunciate happiness, give up and go beyond the six kinds of domestic happiness. "
+    },
+    {
+      "number": 119,
+      "pali": "Evametesaṁ pahānaṁ hoti, evametesaṁ samatikkamo hoti. ",
+      "english": "That’s how they are given up. "
+    },
+    {
+      "number": 120,
+      "pali": "Tatra, bhikkhave, yāni cha nekkhammasitāni domanassāni tāni nissāya tāni āgamma yāni cha gehasitāni domanassāni tāni pajahatha, tāni samatikkamatha. ",
+      "english": "Therein, by relying on the six kinds of renunciate sadness, give up the six kinds of domestic sadness. "
+    },
+    {
+      "number": 121,
+      "pali": "Evametesaṁ pahānaṁ hoti, evametesaṁ samatikkamo hoti. ",
+      "english": "That’s how they are given up. "
+    },
+    {
+      "number": 122,
+      "pali": "Tatra, bhikkhave, yā cha nekkhammasitā upekkhā tā nissāya tā āgamma, yā cha gehasitā upekkhā tā pajahatha tā samatikkamatha. ",
+      "english": "Therein, by relying on the six kinds of renunciate equanimity, give up the six kinds of domestic equanimity. "
+    },
+    {
+      "number": 123,
+      "pali": "Evametāsaṁ pahānaṁ hoti, evametāsaṁ samatikkamo hoti. ",
+      "english": "That’s how they are given up. "
+    },
+    {
+      "number": 124,
+      "pali": "Tatra, bhikkhave, yāni cha nekkhammasitāni somanassāni tāni nissāya tāni āgamma yāni cha nekkhammasitāni domanassāni tāni pajahatha, tāni samatikkamatha. ",
+      "english": "Therein, by relying on the six kinds of renunciate happiness, give up the six kinds of renunciate sadness. "
+    },
+    {
+      "number": 125,
+      "pali": "Evametesaṁ pahānaṁ hoti, evametesaṁ samatikkamo hoti. ",
+      "english": "That’s how they are given up. "
+    },
+    {
+      "number": 126,
+      "pali": "Tatra, bhikkhave, yā cha nekkhammasitā upekkhā tā nissāya tā āgamma yāni cha nekkhammasitāni somanassāni tāni pajahatha, tāni samatikkamatha. ",
+      "english": "Therein, by relying on the six kinds of renunciate equanimity, give up the six kinds of renunciate happiness. "
+    },
+    {
+      "number": 127,
+      "pali": "Evametesaṁ pahānaṁ hoti, evametesaṁ samatikkamo hoti. ",
+      "english": "That’s how they are given up. "
+    },
+    {
+      "number": 128,
+      "pali": "Atthi, bhikkhave, upekkhā nānattā nānattasitā, atthi upekkhā ekattā ekattasitā. ",
+      "english": "There is equanimity that is diversified, based on diversity, and equanimity that is unified, based on unity. "
+    },
+    {
+      "number": 129,
+      "pali": "Katamā ca, bhikkhave, upekkhā nānattā nānattasitā? ",
+      "english": "And what is equanimity based on diversity? "
+    },
+    {
+      "number": 130,
+      "pali": "Atthi, bhikkhave, upekkhā rūpesu, atthi saddesu, atthi gandhesu, atthi rasesu, atthi phoṭṭhabbesu—",
+      "english": "There is equanimity towards sights, sounds, smells, tastes, and touches. "
+    },
+    {
+      "number": 131,
+      "pali": "ayaṁ, bhikkhave, upekkhā nānattā nānattasitā. ",
+      "english": "This is equanimity based on diversity. "
+    },
+    {
+      "number": 132,
+      "pali": "Katamā ca, bhikkhave, upekkhā ekattā ekattasitā? ",
+      "english": "And what is equanimity based on unity? "
+    },
+    {
+      "number": 133,
+      "pali": "Atthi, bhikkhave, upekkhā ākāsānañcāyatananissitā, atthi viññāṇañcāyatananissitā, atthi ākiñcaññāyatananissitā, atthi nevasaññānāsaññāyatananissitā—",
+      "english": "There is equanimity based on the dimensions of infinite space, infinite consciousness, nothingness, and neither perception nor non-perception. "
+    },
+    {
+      "number": 134,
+      "pali": "ayaṁ, bhikkhave, upekkhā ekattā ekattasitā. ",
+      "english": "This is equanimity based on unity. "
+    },
+    {
+      "number": 135,
+      "pali": "Tatra, bhikkhave, yāyaṁ upekkhā ekattā ekattasitā taṁ nissāya taṁ āgamma yāyaṁ upekkhā nānattā nānattasitā taṁ pajahatha, taṁ samatikkamatha. ",
+      "english": "Therein, relying on equanimity based on unity, give up equanimity based on diversity. "
+    },
+    {
+      "number": 136,
+      "pali": "Evametissā pahānaṁ hoti, evametissā samatikkamo hoti. ",
+      "english": "That’s how it is given up. "
+    },
+    {
+      "number": 137,
+      "pali": "Atammayataṁ, bhikkhave, nissāya atammayataṁ āgamma yāyaṁ upekkhā ekattā ekattasitā taṁ pajahatha, taṁ samatikkamatha. ",
+      "english": "Relying on not being determined by that, give up equanimity based on unity. "
+    },
+    {
+      "number": 138,
+      "pali": "Evametissā pahānaṁ hoti, evametissā samatikkamo hoti. ",
+      "english": "That’s how it is given up. "
+    },
+    {
+      "number": 139,
+      "pali": "‘Tatra idaṁ nissāya idaṁ pajahathā’ti—",
+      "english": "‘Therein, relying on this, give up that.’ "
+    },
+    {
+      "number": 140,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 141,
+      "pali": "‘Tayo satipaṭṭhānā yadariyo sevati, yadariyo sevamāno satthā gaṇamanusāsitumarahatī’ti—",
+      "english": "‘The Noble One cultivates the establishment of mindfulness in three cases, by virtue of which they are a Teacher worthy to instruct a group.’ "
+    },
+    {
+      "number": 142,
+      "pali": "iti kho panetaṁ vuttaṁ; ",
+      "english": "That’s what I said, "
+    },
+    {
+      "number": 143,
+      "pali": "kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "but why did I say it? "
+    },
+    {
+      "number": 144,
+      "pali": "Idha, bhikkhave, satthā sāvakānaṁ dhammaṁ deseti anukampako hitesī anukampaṁ upādāya: ",
+      "english": "The first case is when the Teacher teaches Dhamma to his disciples out of kindness and sympathy: "
+    },
+    {
+      "number": 145,
+      "pali": "‘idaṁ vo hitāya, idaṁ vo sukhāyā’ti. ",
+      "english": "‘This is for your welfare. This is for your happiness.’ "
+    },
+    {
+      "number": 146,
+      "pali": "Tassa sāvakā na sussūsanti, na sotaṁ odahanti, na aññā cittaṁ upaṭṭhapenti, vokkamma ca satthusāsanā vattanti. ",
+      "english": "But their disciples don’t want to listen. They don’t actively listen or try to understand. They proceed having turned away from the Teacher’s instruction. "
+    },
+    {
+      "number": 147,
+      "pali": "Tatra, bhikkhave, tathāgato na ceva anattamano hoti, na ca anattamanataṁ paṭisaṁvedeti, anavassuto ca viharati sato sampajāno. ",
+      "english": "In this case the Realized One is not unhappy, he does not feel unhappiness. He remains unfestering, mindful and aware. "
+    },
+    {
+      "number": 148,
+      "pali": "Idaṁ, bhikkhave, paṭhamaṁ satipaṭṭhānaṁ yadariyo sevati, yadariyo sevamāno satthā gaṇamanusāsitumarahati. ",
+      "english": "This is the first case in which the Noble One cultivates the establishment of mindfulness. "
+    },
+    {
+      "number": 149,
+      "pali": "Puna caparaṁ, bhikkhave, satthā sāvakānaṁ dhammaṁ deseti anukampako hitesī anukampaṁ upādāya: ",
+      "english": "The next case is when the Teacher teaches Dhamma to his disciples out of kindness and sympathy: "
+    },
+    {
+      "number": 150,
+      "pali": "‘idaṁ vo hitāya, idaṁ vo sukhāyā’ti. ",
+      "english": "‘This is for your welfare. This is for your happiness.’ "
+    },
+    {
+      "number": 151,
+      "pali": "Tassa ekacce sāvakā na sussūsanti, na sotaṁ odahanti, na aññā cittaṁ upaṭṭhapenti, vokkamma ca satthusāsanā vattanti; ",
+      "english": "And some of their disciples don’t want to listen. They don’t actively listen or try to understand. They proceed having turned away from the Teacher’s instruction. "
+    },
+    {
+      "number": 152,
+      "pali": "ekacce sāvakā sussūsanti, sotaṁ odahanti, aññā cittaṁ upaṭṭhapenti, na ca vokkamma satthusāsanā vattanti. ",
+      "english": "But some of their disciples do want to listen. They actively listen and try to understand. They don’t proceed having turned away from the Teacher’s instruction. "
+    },
+    {
+      "number": 153,
+      "pali": "Tatra, bhikkhave, tathāgato na ceva anattamano hoti, na ca anattamanataṁ paṭisaṁvedeti; ",
+      "english": "In this case the Realized One is not unhappy, "
+    },
+    {
+      "number": 154,
+      "pali": "na ca attamano hoti, na ca attamanataṁ paṭisaṁvedeti. ",
+      "english": "nor is he happy. "
+    },
+    {
+      "number": 155,
+      "pali": "Anattamanatā ca attamanatā ca—",
+      "english": ""
+    },
+    {
+      "number": 156,
+      "pali": "tadubhayaṁ abhinivajjetvā upekkhako viharati sato sampajāno. ",
+      "english": "Shunning both unhappiness and happiness, he remains equanimous, mindful and aware. "
+    },
+    {
+      "number": 157,
+      "pali": "Idaṁ vuccati, bhikkhave, dutiyaṁ satipaṭṭhānaṁ yadariyo sevati, yadariyo sevamāno satthā gaṇamanusāsitumarahati. ",
+      "english": "This is the second case in which the Noble One cultivates the establishment of mindfulness. "
+    },
+    {
+      "number": 158,
+      "pali": "Puna caparaṁ, bhikkhave, satthā sāvakānaṁ dhammaṁ deseti anukampako hitesī anukampaṁ upādāya: ",
+      "english": "The next case is when the Teacher teaches Dhamma to his disciples out of kindness and sympathy: "
+    },
+    {
+      "number": 159,
+      "pali": "‘idaṁ vo hitāya, idaṁ vo sukhāyā’ti. ",
+      "english": "‘This is for your welfare. This is for your happiness.’ "
+    },
+    {
+      "number": 160,
+      "pali": "Tassa sāvakā sussūsanti, sotaṁ odahanti, aññācittaṁ upaṭṭhapenti, na ca vokkamma satthusāsanā vattanti. ",
+      "english": "And their disciples want to listen. They actively listen and try to understand. They don’t proceed having turned away from the Teacher’s instruction. "
+    },
+    {
+      "number": 161,
+      "pali": "Tatra, bhikkhave, tathāgato attamano ceva hoti, attamanatañca paṭisaṁvedeti, anavassuto ca viharati sato sampajāno. ",
+      "english": "In this case the Realized One is happy, he does feel happiness. He remains unfestering, mindful and aware. "
+    },
+    {
+      "number": 162,
+      "pali": "Idaṁ vuccati, bhikkhave, tatiyaṁ satipaṭṭhānaṁ yadariyo sevati, yadariyo sevamāno satthā gaṇamanusāsitumarahati. ",
+      "english": "This is the third case in which the Noble One cultivates the establishment of mindfulness. "
+    },
+    {
+      "number": 163,
+      "pali": "‘Tayo satipaṭṭhānā yadariyo sevati, yadariyo sevamāno satthā gaṇamanusāsitumarahatī’ti—",
+      "english": "‘The Noble One cultivates the establishment of mindfulness in three cases, by virtue of which they are a Teacher worthy to instruct a group.’ "
+    },
+    {
+      "number": 164,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 165,
+      "pali": "‘So vuccati yoggācariyānaṁ anuttaro purisadammasārathī’ti—",
+      "english": "‘Of all meditation tutors, it is he that is called the supreme guide for those fit for training.’ "
+    },
+    {
+      "number": 166,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 167,
+      "pali": "Hatthidamakena, bhikkhave, hatthidammo sārito ekaṁyeva disaṁ dhāvati—",
+      "english": "Driven by an elephant trainer, an elephant in training proceeds in just one direction: "
+    },
+    {
+      "number": 168,
+      "pali": "puratthimaṁ vā pacchimaṁ vā uttaraṁ vā dakkhiṇaṁ vā. ",
+      "english": "east, west, north, or south. "
+    },
+    {
+      "number": 169,
+      "pali": "Assadamakena, bhikkhave, assadammo sārito ekaññeva disaṁ dhāvati—",
+      "english": "Driven by a horse trainer, a horse in training proceeds in just one direction: "
+    },
+    {
+      "number": 170,
+      "pali": "puratthimaṁ vā pacchimaṁ vā uttaraṁ vā dakkhiṇaṁ vā. ",
+      "english": "east, west, north, or south. "
+    },
+    {
+      "number": 171,
+      "pali": "Godamakena, bhikkhave, godammo sārito ekaññeva disaṁ dhāvati—",
+      "english": "Driven by an ox trainer, an ox in training proceeds in just one direction: "
+    },
+    {
+      "number": 172,
+      "pali": "puratthimaṁ vā pacchimaṁ vā uttaraṁ vā dakkhiṇaṁ vā. ",
+      "english": "east, west, north, or south. "
+    },
+    {
+      "number": 173,
+      "pali": "Tathāgatena hi, bhikkhave, arahatā sammāsambuddhena purisadammo sārito aṭṭha disā vidhāvati. ",
+      "english": "But driven by the Realized One, the perfected one, the fully awakened Buddha, a person in training proceeds in eight directions: "
+    },
+    {
+      "number": 174,
+      "pali": "Rūpī rūpāni passati—",
+      "english": "Having physical form, they see forms. "
+    },
+    {
+      "number": 175,
+      "pali": "ayaṁ ekā disā; ",
+      "english": "This is the first direction. "
+    },
+    {
+      "number": 176,
+      "pali": "ajjhattaṁ arūpasaññī bahiddhā rūpāni passati—",
+      "english": "Not perceiving physical form internally, they see forms externally. "
+    },
+    {
+      "number": 177,
+      "pali": "ayaṁ dutiyā disā; ",
+      "english": "This is the second direction. "
+    },
+    {
+      "number": 178,
+      "pali": "subhantveva adhimutto hoti—",
+      "english": "They’re focused only on beauty. "
+    },
+    {
+      "number": 179,
+      "pali": "ayaṁ tatiyā disā; ",
+      "english": "This is the third direction. "
+    },
+    {
+      "number": 180,
+      "pali": "sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanaṁ upasampajja viharati—",
+      "english": "Going totally beyond perceptions of form, with the disappearance of perceptions of impingement, not focusing on perceptions of diversity, aware that ‘space is infinite’, they enter and remain in the dimension of infinite space. "
+    },
+    {
+      "number": 181,
+      "pali": "ayaṁ catutthī disā; ",
+      "english": "This is the fourth direction. "
+    },
+    {
+      "number": 182,
+      "pali": "sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanaṁ upasampajja viharati—",
+      "english": "Going totally beyond the dimension of infinite space, aware that ‘consciousness is infinite’, they enter and remain in the dimension of infinite consciousness. "
+    },
+    {
+      "number": 183,
+      "pali": "ayaṁ pañcamī disā; ",
+      "english": "This is the fifth direction. "
+    },
+    {
+      "number": 184,
+      "pali": "sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanaṁ upasampajja viharati—",
+      "english": "Going totally beyond the dimension of infinite consciousness, aware that ‘there is nothing at all’, they enter and remain in the dimension of nothingness. "
+    },
+    {
+      "number": 185,
+      "pali": "ayaṁ chaṭṭhī disā; ",
+      "english": "This is the sixth direction. "
+    },
+    {
+      "number": 186,
+      "pali": "sabbaso ākiñcaññāyatanaṁ samatikkamma nevasaññānāsaññāyatanaṁ upasampajja viharati—",
+      "english": "Going totally beyond the dimension of nothingness, they enter and remain in the dimension of neither perception nor non-perception. "
+    },
+    {
+      "number": 187,
+      "pali": "ayaṁ sattamī disā; ",
+      "english": "This is the seventh direction. "
+    },
+    {
+      "number": 188,
+      "pali": "sabbaso nevasaññānāsaññāyatanaṁ samatikkamma saññāvedayitanirodhaṁ upasampajja viharati—",
+      "english": "Going totally beyond the dimension of neither perception nor non-perception, they enter and remain in the cessation of perception and feeling. "
+    },
+    {
+      "number": 189,
+      "pali": "ayaṁ aṭṭhamī disā. ",
+      "english": "This is the eighth direction. "
+    },
+    {
+      "number": 190,
+      "pali": "Tathāgatena, bhikkhave, arahatā sammāsambuddhena purisadammo sārito imā aṭṭha disā vidhāvati. ",
+      "english": "Driven by the Realized One, the perfected one, the fully awakened Buddha, a person in training proceeds in these eight directions. "
+    },
+    {
+      "number": 191,
+      "pali": "So vuccati: ‘yoggācariyānaṁ anuttaro purisadammasārathī’ti—",
+      "english": "‘Of all meditation tutors, it is he that is called the supreme guide for those fit for training.’ "
+    },
+    {
+      "number": 192,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttan”ti. ",
+      "english": "That’s what I said, and this is why I said it.” "
+    },
+    {
+      "number": 193,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 194,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 195,
+      "pali": "Saḷāyatanavibhaṅgasuttaṁ niṭṭhitaṁ sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

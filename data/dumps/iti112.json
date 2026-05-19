@@ -1,0 +1,355 @@
+{
+  "sutta_id": "ITI112",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Itivuttaka 112 ",
+      "english": "So It Was Said 112 "
+    },
+    {
+      "number": 2,
+      "pali": "Catukkanipāta ",
+      "english": "The Book of the Fours "
+    },
+    {
+      "number": 3,
+      "pali": "Brāhmaṇadhammayāgavagga ",
+      "english": "The Chapter on the Brahmin’s Offering of the Teaching "
+    },
+    {
+      "number": 4,
+      "pali": "Lokasutta ",
+      "english": "The World "
+    },
+    {
+      "number": 5,
+      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
+      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+    },
+    {
+      "number": 6,
+      "pali": "“Loko, bhikkhave, tathāgatena abhisambuddho, ",
+      "english": "“Mendicants, the world has been understood by the Realized One; "
+    },
+    {
+      "number": 7,
+      "pali": "lokasmā tathāgato visaṁyutto. ",
+      "english": "and he is detached from the world. "
+    },
+    {
+      "number": 8,
+      "pali": "Lokasamudayo, bhikkhave, tathāgatena abhisambuddho, ",
+      "english": "The origin of the world has been understood by the Realized One; "
+    },
+    {
+      "number": 9,
+      "pali": "lokasamudayo tathāgatassa pahīno. ",
+      "english": "and he has given up the origin of the world. "
+    },
+    {
+      "number": 10,
+      "pali": "Lokanirodho, bhikkhave, tathāgatena abhisambuddho, ",
+      "english": "The cessation of the world has been understood by the Realized One; "
+    },
+    {
+      "number": 11,
+      "pali": "lokanirodho tathāgatassa sacchikato. ",
+      "english": "and he has realized the cessation of the world. "
+    },
+    {
+      "number": 12,
+      "pali": "Lokanirodhagāminī paṭipadā, bhikkhave, tathāgatena abhisambuddhā, ",
+      "english": "The practice that leads to the cessation of the world has been understood by the Realized One; "
+    },
+    {
+      "number": 13,
+      "pali": "lokanirodhagāminī paṭipadā tathāgatassa bhāvitā. ",
+      "english": "and he has developed the practice that leads to the cessation of the world. "
+    },
+    {
+      "number": 14,
+      "pali": "Yaṁ, bhikkhave, sadevakassa lokassa samārakassa sabrahmakassa sassamaṇabrāhmaṇiyā pajāya sadevamanussāya diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ pariyesitaṁ anuvicaritaṁ manasā yasmā taṁ tathāgatena abhisambuddhaṁ, ",
+      "english": "In this world—with its gods, Māras, and Divinities, this population with its ascetics and brahmins, its gods and humans—whatever is seen, heard, thought, known, attained, sought, and explored by the mind, all that has been understood by the Realized One. "
+    },
+    {
+      "number": 15,
+      "pali": "tasmā ‘tathāgato’ti vuccati. ",
+      "english": "That’s why he’s called the ‘Realized One’. "
+    },
+    {
+      "number": 16,
+      "pali": "Yañca, bhikkhave, rattiṁ tathāgato anuttaraṁ sammāsambodhiṁ abhisambujjhati, yañca rattiṁ anupādisesāya nibbānadhātuyā parinibbāyati, yaṁ etasmiṁ antare bhāsati lapati niddisati, sabbaṁ taṁ tatheva hoti no aññathā, ",
+      "english": "From the night when the Realized One awakens to the supreme perfect awakening until the night he becomes fully extinguished—in the element of extinguishment with no residue—everything he speaks, says, and expresses is real, not otherwise. "
+    },
+    {
+      "number": 17,
+      "pali": "tasmā ‘tathāgato’ti vuccati. ",
+      "english": "That’s why he’s called the ‘Realized One’. "
+    },
+    {
+      "number": 18,
+      "pali": "Yathāvādī, bhikkhave, tathāgato tathākārī, yathākārī tathāvādī, ",
+      "english": "The Realized One does as he says, and says as he does. "
+    },
+    {
+      "number": 19,
+      "pali": "iti yathāvādī tathākārī yathākārī tathāvādī, ",
+      "english": "Since this is so, "
+    },
+    {
+      "number": 20,
+      "pali": "tasmā ‘tathāgato’ti vuccati. ",
+      "english": "that’s why he’s called the ‘Realized One’. "
+    },
+    {
+      "number": 21,
+      "pali": "Sadevake, bhikkhave, loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya tathāgato abhibhū anabhibhūto aññadatthudaso vasavattī, ",
+      "english": "In this world—with its gods, Māras, and divinities, this population with its ascetics and brahmins, gods and humans—the Realized One is the vanquisher, the unvanquished, the universal seer, the wielder of power. "
+    },
+    {
+      "number": 22,
+      "pali": "tasmā tathāgatoti vuccatī”ti. ",
+      "english": "That’s why he’s called the ‘Realized One’.” "
+    },
+    {
+      "number": 23,
+      "pali": "Etamatthaṁ bhagavā avoca. ",
+      "english": "The Buddha spoke this matter. "
+    },
+    {
+      "number": 24,
+      "pali": "Tatthetaṁ iti vuccati: ",
+      "english": "On this it is said: "
+    },
+    {
+      "number": 25,
+      "pali": "“Sabbalokaṁ abhiññāya, ",
+      "english": "“Directly knowing the whole world as it is, "
+    },
+    {
+      "number": 26,
+      "pali": "sabbaloke yathātathaṁ; ",
+      "english": "and everything in it, "
+    },
+    {
+      "number": 27,
+      "pali": "Sabbalokavisaṁyutto, ",
+      "english": "he is detached from the whole world, "
+    },
+    {
+      "number": 28,
+      "pali": "sabbaloke anūpayo. ",
+      "english": "uninvolved with the whole world. "
+    },
+    {
+      "number": 29,
+      "pali": "Sa ve sabbābhibhū dhīro, ",
+      "english": "That attentive one is the champion "
+    },
+    {
+      "number": 30,
+      "pali": "sabbaganthappamocano; ",
+      "english": "who is released from all ties. "
+    },
+    {
+      "number": 31,
+      "pali": "Phuṭṭhāssa paramā santi, ",
+      "english": "He has reached ultimate peace: "
+    },
+    {
+      "number": 32,
+      "pali": "nibbānaṁ akutobhayaṁ. ",
+      "english": "extinguishment, fearing nothing from any quarter. "
+    },
+    {
+      "number": 33,
+      "pali": "Esa khīṇāsavo buddho, ",
+      "english": "He is the Buddha, with defilements ended, "
+    },
+    {
+      "number": 34,
+      "pali": "anīgho chinnasaṁsayo; ",
+      "english": "untroubled, with doubts cut off. "
+    },
+    {
+      "number": 35,
+      "pali": "Sabbakammakkhayaṁ patto, ",
+      "english": "He has attained the end of all deeds, "
+    },
+    {
+      "number": 36,
+      "pali": "vimutto upadhisaṅkhaye. ",
+      "english": "freed with the ending of attachments. "
+    },
+    {
+      "number": 37,
+      "pali": "Esa so bhagavā buddho, ",
+      "english": "That Blessed One is the Buddha, "
+    },
+    {
+      "number": 38,
+      "pali": "esa sīho anuttaro; ",
+      "english": "he is the supreme lion, "
+    },
+    {
+      "number": 39,
+      "pali": "Sadevakassa lokassa, ",
+      "english": "in all the world with its gods, "
+    },
+    {
+      "number": 40,
+      "pali": "brahmacakkaṁ pavattayi. ",
+      "english": "he turns the divine wheel. "
+    },
+    {
+      "number": 41,
+      "pali": "Iti devā manussā ca, ",
+      "english": "And so those gods and humans, "
+    },
+    {
+      "number": 42,
+      "pali": "ye buddhaṁ saraṇaṁ gatā; ",
+      "english": "who have gone to the Buddha for refuge, "
+    },
+    {
+      "number": 43,
+      "pali": "Saṅgamma taṁ namassanti, ",
+      "english": "come together and revere him, "
+    },
+    {
+      "number": 44,
+      "pali": "mahantaṁ vītasāradaṁ. ",
+      "english": "even the deities revere him: "
+    },
+    {
+      "number": 45,
+      "pali": "Danto damayataṁ seṭṭho, ",
+      "english": "‘Tamed, he is the best of tamers, "
+    },
+    {
+      "number": 46,
+      "pali": "santo samayataṁ isi; ",
+      "english": "peaceful, he is the seer among the peaceful, "
+    },
+    {
+      "number": 47,
+      "pali": "Mutto mocayataṁ aggo, ",
+      "english": "liberated, he is the foremost of liberators, "
+    },
+    {
+      "number": 48,
+      "pali": "tiṇṇo tārayataṁ varo. ",
+      "english": "crossed over, he is the most excellent of guides across.’ "
+    },
+    {
+      "number": 49,
+      "pali": "Iti hetaṁ namassanti, ",
+      "english": "And so they revere him, "
+    },
+    {
+      "number": 50,
+      "pali": "mahantaṁ vītasāradaṁ; ",
+      "english": "great of heart and intrepid. "
+    },
+    {
+      "number": 51,
+      "pali": "Sadevakasmiṁ lokasmiṁ, ",
+      "english": "In the world with its gods, "
+    },
+    {
+      "number": 52,
+      "pali": "natthi te paṭipuggalo”ti. ",
+      "english": "he has no rival.” "
+    },
+    {
+      "number": 53,
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
+      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
+    },
+    {
+      "number": 54,
+      "pali": "Terasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Catukkanipāto niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "Brāhmaṇasulabhā jānaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "Samaṇasīlā taṇhā brahmā; ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "Bahukārā kuhapurisā, ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "Cara sampannalokena terasāti. ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "Suttasaṅgaho ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "Sattavisekanipātaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "Dukkaṁ bāvīsasuttasaṅgahitaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "Samapaññāsamathatikaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "Terasa catukkañca iti yamidaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "Dvidasuttarasuttasate, ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "Saṅgāyitvā samādahiṁsu purā; ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "Arahanto ciraṭṭhitiyā, ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "Tamāhu nāmena itivuttanti. ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "Itivuttakapāḷi niṭṭhitā. ",
+      "english": "The So it Was Said is finished. "
+    }
+  ]
+}

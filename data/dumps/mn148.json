@@ -1,0 +1,1140 @@
+{
+  "sutta_id": "MN148",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 148 ",
+      "english": "Middle Discourses 148 "
+    },
+    {
+      "number": 2,
+      "pali": "Chachakkasutta ",
+      "english": "Six By Six "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“dhammaṁ vo, bhikkhave, desessāmi ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsessāmi, yadidaṁ—",
+      "english": "“Mendicants, I shall teach you the Dhamma that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And I shall reveal a spiritual practice that’s entirely full and pure, namely, "
+    },
+    {
+      "number": 10,
+      "pali": "cha chakkāni. ",
+      "english": "the six sets of six. "
+    },
+    {
+      "number": 11,
+      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "Listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 13,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 14,
+      "pali": "“Cha ajjhattikāni āyatanāni veditabbāni, cha bāhirāni āyatanāni veditabbāni, cha viññāṇakāyā veditabbā, cha phassakāyā veditabbā, cha vedanākāyā veditabbā, cha taṇhākāyā veditabbā. ",
+      "english": "“The six interior sense fields should be understood. The six exterior sense fields should be understood. The six classes of consciousness should be understood. The six classes of contact should be understood. The six classes of feeling should be understood. The six classes of craving should be understood. "
+    },
+    {
+      "number": 15,
+      "pali": "‘Cha ajjhattikāni āyatanāni veditabbānī’ti—",
+      "english": "‘The six interior sense fields should be understood.’ "
+    },
+    {
+      "number": 16,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 17,
+      "pali": "Cakkhāyatanaṁ, sotāyatanaṁ, ghānāyatanaṁ, jivhāyatanaṁ, kāyāyatanaṁ, manāyatanaṁ. ",
+      "english": "There are the sense fields of the eye, ear, nose, tongue, body, and mind. "
+    },
+    {
+      "number": 18,
+      "pali": "‘Cha ajjhattikāni āyatanāni veditabbānī’ti—",
+      "english": "‘The six interior sense fields should be understood.’ "
+    },
+    {
+      "number": 19,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 20,
+      "pali": "Idaṁ paṭhamaṁ chakkaṁ. ",
+      "english": "This is the first set of six. "
+    },
+    {
+      "number": 21,
+      "pali": "‘Cha bāhirāni āyatanāni veditabbānī’ti—",
+      "english": "‘The six exterior sense fields should be understood.’ "
+    },
+    {
+      "number": 22,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 23,
+      "pali": "Rūpāyatanaṁ, saddāyatanaṁ, gandhāyatanaṁ, rasāyatanaṁ, phoṭṭhabbāyatanaṁ, dhammāyatanaṁ. ",
+      "english": "There are the sense fields of sights, sounds, smells, tastes, touches, and ideas. "
+    },
+    {
+      "number": 24,
+      "pali": "‘Cha bāhirāni āyatanāni veditabbānī’ti—",
+      "english": "‘The six exterior sense fields should be understood.’ "
+    },
+    {
+      "number": 25,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 26,
+      "pali": "Idaṁ dutiyaṁ chakkaṁ. ",
+      "english": "This is the second set of six. "
+    },
+    {
+      "number": 27,
+      "pali": "‘Cha viññāṇakāyā veditabbā’ti—",
+      "english": "‘The six classes of consciousness should be understood.’ "
+    },
+    {
+      "number": 28,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 29,
+      "pali": "Cakkhuñca paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, ",
+      "english": "Eye consciousness arises dependent on the eye and sights. "
+    },
+    {
+      "number": 30,
+      "pali": "sotañca paṭicca sadde ca uppajjati sotaviññāṇaṁ, ",
+      "english": "Ear consciousness arises dependent on the ear and sounds. "
+    },
+    {
+      "number": 31,
+      "pali": "ghānañca paṭicca gandhe ca uppajjati ghānaviññāṇaṁ, ",
+      "english": "Nose consciousness arises dependent on the nose and smells. "
+    },
+    {
+      "number": 32,
+      "pali": "jivhañca paṭicca rase ca uppajjati jivhāviññāṇaṁ, ",
+      "english": "Tongue consciousness arises dependent on the tongue and tastes. "
+    },
+    {
+      "number": 33,
+      "pali": "kāyañca paṭicca phoṭṭhabbe ca uppajjati kāyaviññāṇaṁ, ",
+      "english": "Body consciousness arises dependent on the body and touches. "
+    },
+    {
+      "number": 34,
+      "pali": "manañca paṭicca dhamme ca uppajjati manoviññāṇaṁ. ",
+      "english": "Mind consciousness arises dependent on the mind and ideas. "
+    },
+    {
+      "number": 35,
+      "pali": "‘Cha viññāṇakāyā veditabbā’ti—",
+      "english": "‘The six classes of consciousness should be understood.’ "
+    },
+    {
+      "number": 36,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 37,
+      "pali": "Idaṁ tatiyaṁ chakkaṁ. ",
+      "english": "This is the third set of six. "
+    },
+    {
+      "number": 38,
+      "pali": "‘Cha phassakāyā veditabbā’ti—",
+      "english": "‘The six classes of contact should be understood.’ "
+    },
+    {
+      "number": 39,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 40,
+      "pali": "Cakkhuñca paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati phasso; ",
+      "english": "Eye consciousness arises dependent on the eye and sights. The meeting of the three is contact. "
+    },
+    {
+      "number": 41,
+      "pali": "sotañca paṭicca sadde ca uppajjati sotaviññāṇaṁ, tiṇṇaṁ saṅgati phasso; ",
+      "english": "Ear consciousness arises dependent on the ear and sounds. The meeting of the three is contact. "
+    },
+    {
+      "number": 42,
+      "pali": "ghānañca paṭicca gandhe ca uppajjati ghānaviññāṇaṁ, tiṇṇaṁ saṅgati phasso; ",
+      "english": "Nose consciousness arises dependent on the nose and smells. The meeting of the three is contact. "
+    },
+    {
+      "number": 43,
+      "pali": "jivhañca paṭicca rase ca uppajjati jivhāviññāṇaṁ, tiṇṇaṁ saṅgati phasso; ",
+      "english": "Tongue consciousness arises dependent on the tongue and tastes. The meeting of the three is contact. "
+    },
+    {
+      "number": 44,
+      "pali": "kāyañca paṭicca phoṭṭhabbe ca uppajjati kāyaviññāṇaṁ, tiṇṇaṁ saṅgati phasso; ",
+      "english": "Body consciousness arises dependent on the body and touches. The meeting of the three is contact. "
+    },
+    {
+      "number": 45,
+      "pali": "manañca paṭicca dhamme ca uppajjati manoviññāṇaṁ, tiṇṇaṁ saṅgati phasso. ",
+      "english": "Mind consciousness arises dependent on the mind and ideas. The meeting of the three is contact. "
+    },
+    {
+      "number": 46,
+      "pali": "‘Cha phassakāyā veditabbā’ti—",
+      "english": "‘The six classes of contact should be understood.’ "
+    },
+    {
+      "number": 47,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 48,
+      "pali": "Idaṁ catutthaṁ chakkaṁ. ",
+      "english": "This is the fourth set of six. "
+    },
+    {
+      "number": 49,
+      "pali": "‘Cha vedanākāyā veditabbā’ti—",
+      "english": "‘The six classes of feeling should be understood.’ "
+    },
+    {
+      "number": 50,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 51,
+      "pali": "Cakkhuñca paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā; ",
+      "english": "Eye consciousness arises dependent on the eye and sights. The meeting of the three is contact. Contact is a requirement for feeling. "
+    },
+    {
+      "number": 52,
+      "pali": "sotañca paṭicca sadde ca uppajjati sotaviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā; ",
+      "english": "Ear consciousness arises dependent on the ear and sounds. The meeting of the three is contact. Contact is a requirement for feeling. "
+    },
+    {
+      "number": 53,
+      "pali": "ghānañca paṭicca gandhe ca uppajjati ghānaviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā; ",
+      "english": "Nose consciousness arises dependent on the nose and smells. The meeting of the three is contact. Contact is a requirement for feeling. "
+    },
+    {
+      "number": 54,
+      "pali": "jivhañca paṭicca rase ca uppajjati jivhāviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā; ",
+      "english": "Tongue consciousness arises dependent on the tongue and tastes. The meeting of the three is contact. Contact is a requirement for feeling. "
+    },
+    {
+      "number": 55,
+      "pali": "kāyañca paṭicca phoṭṭhabbe ca uppajjati kāyaviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā; ",
+      "english": "Body consciousness arises dependent on the body and touches. The meeting of the three is contact. Contact is a requirement for feeling. "
+    },
+    {
+      "number": 56,
+      "pali": "manañca paṭicca dhamme ca uppajjati manoviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā. ",
+      "english": "Mind consciousness arises dependent on the mind and ideas. The meeting of the three is contact. Contact is a requirement for feeling. "
+    },
+    {
+      "number": 57,
+      "pali": "‘Cha vedanākāyā veditabbā’ti—",
+      "english": "‘The six classes of feeling should be understood.’ "
+    },
+    {
+      "number": 58,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 59,
+      "pali": "Idaṁ pañcamaṁ chakkaṁ. ",
+      "english": "This is the fifth set of six. "
+    },
+    {
+      "number": 60,
+      "pali": "‘Cha taṇhākāyā veditabbā’ti—",
+      "english": "‘The six classes of craving should be understood.’ "
+    },
+    {
+      "number": 61,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 62,
+      "pali": "Cakkhuñca paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā, vedanāpaccayā taṇhā; ",
+      "english": "Eye consciousness arises dependent on the eye and sights. The meeting of the three is contact. Contact is a requirement for feeling. Feeling is a requirement for craving. "
+    },
+    {
+      "number": 63,
+      "pali": "sotañca paṭicca sadde ca uppajjati sotaviññāṇaṁ …pe… ",
+      "english": "Ear consciousness … "
+    },
+    {
+      "number": 64,
+      "pali": "ghānañca paṭicca gandhe ca uppajjati ghānaviññāṇaṁ … ",
+      "english": "Nose consciousness … "
+    },
+    {
+      "number": 65,
+      "pali": "jivhañca paṭicca rase ca uppajjati jivhāviññāṇaṁ … ",
+      "english": "Tongue consciousness … "
+    },
+    {
+      "number": 66,
+      "pali": "kāyañca paṭicca phoṭṭhabbe ca uppajjati kāyaviññāṇaṁ … ",
+      "english": "Body consciousness … "
+    },
+    {
+      "number": 67,
+      "pali": "manañca paṭicca dhamme ca uppajjati manoviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā, vedanāpaccayā taṇhā. ",
+      "english": "Mind consciousness arises dependent on the mind and ideas. The meeting of the three is contact. Contact is a requirement for feeling. Feeling is a requirement for craving. "
+    },
+    {
+      "number": 68,
+      "pali": "‘Cha taṇhākāyā veditabbā’ti—",
+      "english": "‘The six classes of craving should be understood.’ "
+    },
+    {
+      "number": 69,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 70,
+      "pali": "Idaṁ chaṭṭhaṁ chakkaṁ. ",
+      "english": "This is the sixth set of six. "
+    },
+    {
+      "number": 71,
+      "pali": "‘Cakkhu attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "If anyone says, ‘the eye is self,’ that is not tenable. "
+    },
+    {
+      "number": 72,
+      "pali": "Cakkhussa uppādopi vayopi paññāyati. ",
+      "english": "The arising and vanishing of the eye is evident, "
+    },
+    {
+      "number": 73,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": "so it would follow that one’s self arises and vanishes. "
+    },
+    {
+      "number": 74,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": "That’s why it’s not tenable to claim that "
+    },
+    {
+      "number": 75,
+      "pali": "‘cakkhu attā’ti yo vadeyya. ",
+      "english": "the eye is self. "
+    },
+    {
+      "number": 76,
+      "pali": "Iti cakkhu anattā. ",
+      "english": "So the eye is not self. "
+    },
+    {
+      "number": 77,
+      "pali": "‘Rūpā attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "If anyone says, ‘sights are self,’ that is not tenable. "
+    },
+    {
+      "number": 78,
+      "pali": "Rūpānaṁ uppādopi vayopi paññāyati. ",
+      "english": "The arising and vanishing of sights is evident, "
+    },
+    {
+      "number": 79,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": "so it would follow that one’s self arises and vanishes. "
+    },
+    {
+      "number": 80,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": "That’s why it’s not tenable to claim that "
+    },
+    {
+      "number": 81,
+      "pali": "‘rūpā attā’ti yo vadeyya. ",
+      "english": "sights are self. "
+    },
+    {
+      "number": 82,
+      "pali": "Iti cakkhu anattā, rūpā anattā. ",
+      "english": "So the eye is not self and sights are not self. "
+    },
+    {
+      "number": 83,
+      "pali": "‘Cakkhuviññāṇaṁ attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "If anyone says, ‘eye consciousness is self,’ that is not tenable. "
+    },
+    {
+      "number": 84,
+      "pali": "Cakkhuviññāṇassa uppādopi vayopi paññāyati. ",
+      "english": "The arising and vanishing of eye consciousness is evident, "
+    },
+    {
+      "number": 85,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": "so it would follow that one’s self arises and vanishes. "
+    },
+    {
+      "number": 86,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": "That’s why it’s not tenable to claim that "
+    },
+    {
+      "number": 87,
+      "pali": "‘cakkhuviññāṇaṁ attā’ti yo vadeyya. ",
+      "english": "eye consciousness is self. "
+    },
+    {
+      "number": 88,
+      "pali": "Iti cakkhu anattā, rūpā anattā, cakkhuviññāṇaṁ anattā. ",
+      "english": "So the eye, sights, and eye consciousness are not self. "
+    },
+    {
+      "number": 89,
+      "pali": "‘Cakkhusamphasso attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "If anyone says, ‘eye contact is self,’ that is not tenable. "
+    },
+    {
+      "number": 90,
+      "pali": "Cakkhusamphassassa uppādopi vayopi paññāyati. ",
+      "english": "The arising and vanishing of eye contact is evident, "
+    },
+    {
+      "number": 91,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": "so it would follow that one’s self arises and vanishes. "
+    },
+    {
+      "number": 92,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": "That’s why it’s not tenable to claim that "
+    },
+    {
+      "number": 93,
+      "pali": "‘cakkhusamphasso attā’ti yo vadeyya. ",
+      "english": "eye contact is self. "
+    },
+    {
+      "number": 94,
+      "pali": "Iti cakkhu anattā, rūpā anattā, cakkhuviññāṇaṁ anattā, cakkhusamphasso anattā. ",
+      "english": "So the eye, sights, eye consciousness, and eye contact are not self. "
+    },
+    {
+      "number": 95,
+      "pali": "‘Vedanā attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "If anyone says, ‘feeling is self,’ that is not tenable. "
+    },
+    {
+      "number": 96,
+      "pali": "Vedanāya uppādopi vayopi paññāyati. ",
+      "english": "The arising and vanishing of feeling is evident, "
+    },
+    {
+      "number": 97,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": "so it would follow that one’s self arises and vanishes. "
+    },
+    {
+      "number": 98,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": "That’s why it’s not tenable to claim that "
+    },
+    {
+      "number": 99,
+      "pali": "‘vedanā attā’ti yo vadeyya. ",
+      "english": "feeling is self. "
+    },
+    {
+      "number": 100,
+      "pali": "Iti cakkhu anattā, rūpā anattā, cakkhuviññāṇaṁ anattā, cakkhusamphasso anattā, vedanā anattā. ",
+      "english": "So the eye, sights, eye consciousness, eye contact, and feeling are not self. "
+    },
+    {
+      "number": 101,
+      "pali": "‘Taṇhā attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "If anyone says, ‘craving is self,’ that is not tenable. "
+    },
+    {
+      "number": 102,
+      "pali": "Taṇhāya uppādopi vayopi paññāyati. ",
+      "english": "The arising and vanishing of craving is evident, "
+    },
+    {
+      "number": 103,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": "so it would follow that one’s self arises and vanishes. "
+    },
+    {
+      "number": 104,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": "That’s why it’s not tenable to claim that "
+    },
+    {
+      "number": 105,
+      "pali": "‘taṇhā attā’ti yo vadeyya. ",
+      "english": "craving is self. "
+    },
+    {
+      "number": 106,
+      "pali": "Iti cakkhu anattā, rūpā anattā, cakkhuviññāṇaṁ anattā, cakkhusamphasso anattā, vedanā anattā, taṇhā anattā. ",
+      "english": "So the eye, sights, eye consciousness, eye contact, feeling, and craving are not self. "
+    },
+    {
+      "number": 107,
+      "pali": "‘Sotaṁ attā’ti yo vadeyya …pe… ",
+      "english": "If anyone says, ‘the ear is self’ … "
+    },
+    {
+      "number": 108,
+      "pali": "‘ghānaṁ attā’ti yo vadeyya …pe… ",
+      "english": "‘the nose is self’ … "
+    },
+    {
+      "number": 109,
+      "pali": "‘jivhā attā’ti yo vadeyya …pe… ",
+      "english": "‘the tongue is self’ … "
+    },
+    {
+      "number": 110,
+      "pali": "‘kāyo attā’ti yo vadeyya …pe… ",
+      "english": "‘the body is self’ … "
+    },
+    {
+      "number": 111,
+      "pali": "‘mano attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "‘the mind is self,’ that is not tenable. "
+    },
+    {
+      "number": 112,
+      "pali": "Manassa uppādopi vayopi paññāyati. ",
+      "english": "The arising and vanishing of the mind is evident, "
+    },
+    {
+      "number": 113,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": "so it would follow that one’s self arises and vanishes. "
+    },
+    {
+      "number": 114,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": "That’s why it’s not tenable to claim that "
+    },
+    {
+      "number": 115,
+      "pali": "‘mano attā’ti yo vadeyya. ",
+      "english": "the mind is self. "
+    },
+    {
+      "number": 116,
+      "pali": "Iti mano anattā. ",
+      "english": "So the mind is not self. "
+    },
+    {
+      "number": 117,
+      "pali": "‘Dhammā attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "If anyone says, ‘ideas are self’ … "
+    },
+    {
+      "number": 118,
+      "pali": "Dhammānaṁ uppādopi vayopi paññāyati. ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": ""
+    },
+    {
+      "number": 121,
+      "pali": "‘dhammā attā’ti yo vadeyya. ",
+      "english": ""
+    },
+    {
+      "number": 122,
+      "pali": "Iti mano anattā, dhammā anattā. ",
+      "english": ""
+    },
+    {
+      "number": 123,
+      "pali": "‘Manoviññāṇaṁ attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "‘mind consciousness is self’ … "
+    },
+    {
+      "number": 124,
+      "pali": "Manoviññāṇassa uppādopi vayopi paññāyati. ",
+      "english": ""
+    },
+    {
+      "number": 125,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 126,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": ""
+    },
+    {
+      "number": 127,
+      "pali": "‘manoviññāṇaṁ attā’ti yo vadeyya. ",
+      "english": ""
+    },
+    {
+      "number": 128,
+      "pali": "Iti mano anattā, dhammā anattā, manoviññāṇaṁ anattā. ",
+      "english": ""
+    },
+    {
+      "number": 129,
+      "pali": "‘Manosamphasso attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "‘mind contact is self’ … "
+    },
+    {
+      "number": 130,
+      "pali": "Manosamphassassa uppādopi vayopi paññāyati. ",
+      "english": ""
+    },
+    {
+      "number": 131,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 132,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": ""
+    },
+    {
+      "number": 133,
+      "pali": "‘manosamphasso attā’ti yo vadeyya. ",
+      "english": ""
+    },
+    {
+      "number": 134,
+      "pali": "Iti mano anattā, dhammā anattā, manoviññāṇaṁ anattā, manosamphasso anattā. ",
+      "english": ""
+    },
+    {
+      "number": 135,
+      "pali": "‘Vedanā attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "‘feeling is self’ … "
+    },
+    {
+      "number": 136,
+      "pali": "Vedanāya uppādopi vayopi paññāyati. ",
+      "english": ""
+    },
+    {
+      "number": 137,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 138,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": ""
+    },
+    {
+      "number": 139,
+      "pali": "‘vedanā attā’ti yo vadeyya. ",
+      "english": ""
+    },
+    {
+      "number": 140,
+      "pali": "Iti mano anattā, dhammā anattā, manoviññāṇaṁ anattā, manosamphasso anattā, vedanā anattā. ",
+      "english": ""
+    },
+    {
+      "number": 141,
+      "pali": "‘Taṇhā attā’ti yo vadeyya taṁ na upapajjati. ",
+      "english": "‘craving is self,’ that is not tenable. "
+    },
+    {
+      "number": 142,
+      "pali": "Taṇhāya uppādopi vayopi paññāyati. ",
+      "english": "The arising and vanishing of craving is evident, "
+    },
+    {
+      "number": 143,
+      "pali": "Yassa kho pana uppādopi vayopi paññāyati, ‘attā me uppajjati ca veti cā’ti iccassa evamāgataṁ hoti. ",
+      "english": "so it would follow that one’s self arises and vanishes. "
+    },
+    {
+      "number": 144,
+      "pali": "Tasmā taṁ na upapajjati: ",
+      "english": "That’s why it’s not tenable to claim that "
+    },
+    {
+      "number": 145,
+      "pali": "‘taṇhā attā’ti yo vadeyya. ",
+      "english": "craving is self. "
+    },
+    {
+      "number": 146,
+      "pali": "Iti mano anattā, dhammā anattā, manoviññāṇaṁ anattā, manosamphasso anattā, vedanā anattā, taṇhā anattā. ",
+      "english": "So the mind, ideas, mind consciousness, mind contact, feeling, and craving are not self. "
+    },
+    {
+      "number": 147,
+      "pali": "Ayaṁ kho pana, bhikkhave, sakkāyasamudayagāminī paṭipadā—",
+      "english": "Now, mendicants, this is the way that leads to the origin of substantial reality. "
+    },
+    {
+      "number": 148,
+      "pali": "cakkhuṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "You regard the eye like this: ‘This is mine, I am this, this is my self.’ "
+    },
+    {
+      "number": 149,
+      "pali": "rūpe ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "You regard sights … "
+    },
+    {
+      "number": 150,
+      "pali": "cakkhuviññāṇaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "eye consciousness … "
+    },
+    {
+      "number": 151,
+      "pali": "cakkhusamphassaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "eye contact … "
+    },
+    {
+      "number": 152,
+      "pali": "vedanaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "feeling … "
+    },
+    {
+      "number": 153,
+      "pali": "taṇhaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "craving like this: ‘This is mine, I am this, this is my self.’ "
+    },
+    {
+      "number": 154,
+      "pali": "sotaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati …pe… ",
+      "english": "You regard the ear … "
+    },
+    {
+      "number": 155,
+      "pali": "ghānaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati …pe… ",
+      "english": "nose … "
+    },
+    {
+      "number": 156,
+      "pali": "jivhaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati …pe… ",
+      "english": "tongue … "
+    },
+    {
+      "number": 157,
+      "pali": "kāyaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati …pe… ",
+      "english": "body … "
+    },
+    {
+      "number": 158,
+      "pali": "manaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati, dhamme ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati, manoviññāṇaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati, manosamphassaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati, vedanaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati, taṇhaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati. ",
+      "english": "mind … ideas … mind consciousness … mind contact … feeling … craving like this: ‘This is mine, I am this, this is my self.’ "
+    },
+    {
+      "number": 159,
+      "pali": "Ayaṁ kho pana, bhikkhave, sakkāyanirodhagāminī paṭipadā—",
+      "english": "But this is the way that leads to the cessation of substantial reality. "
+    },
+    {
+      "number": 160,
+      "pali": "cakkhuṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "You regard the eye like this: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 161,
+      "pali": "Rūpe ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "You regard sights … "
+    },
+    {
+      "number": 162,
+      "pali": "Cakkhuviññāṇaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "eye consciousness … "
+    },
+    {
+      "number": 163,
+      "pali": "Cakkhusamphassaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "eye contact … "
+    },
+    {
+      "number": 164,
+      "pali": "Vedanaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "feeling … "
+    },
+    {
+      "number": 165,
+      "pali": "Taṇhaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "craving like this: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 166,
+      "pali": "Sotaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati …pe… ",
+      "english": "You regard the ear … "
+    },
+    {
+      "number": 167,
+      "pali": "ghānaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati …pe… ",
+      "english": "nose … "
+    },
+    {
+      "number": 168,
+      "pali": "jivhaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati …pe… ",
+      "english": "tongue … "
+    },
+    {
+      "number": 169,
+      "pali": "kāyaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati …pe… ",
+      "english": "body … "
+    },
+    {
+      "number": 170,
+      "pali": "manaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "mind like this: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 171,
+      "pali": "Dhamme ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "You regard ideas … "
+    },
+    {
+      "number": 172,
+      "pali": "Manoviññāṇaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "mind consciousness … "
+    },
+    {
+      "number": 173,
+      "pali": "Manosamphassaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "mind contact … "
+    },
+    {
+      "number": 174,
+      "pali": "Vedanaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "feeling … "
+    },
+    {
+      "number": 175,
+      "pali": "Taṇhaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "craving like this: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 176,
+      "pali": "Cakkhuñca, bhikkhave, paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā. ",
+      "english": "Eye consciousness arises dependent on the eye and sights. The meeting of the three is contact. Contact is a requirement for the arising of what is felt as pleasant, painful, or neutral. "
+    },
+    {
+      "number": 177,
+      "pali": "So sukhāya vedanāya phuṭṭho samāno abhinandati abhivadati ajjhosāya tiṭṭhati. ",
+      "english": "When you experience a pleasant feeling, if you approve, welcome, and keep clinging to it, "
+    },
+    {
+      "number": 178,
+      "pali": "Tassa rāgānusayo anuseti. ",
+      "english": "the underlying tendency to greed underlies that. "
+    },
+    {
+      "number": 179,
+      "pali": "Dukkhāya vedanāya phuṭṭho samāno socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati. ",
+      "english": "When you experience a painful feeling, if you sorrow and wail and lament, beating your breast and falling into confusion, "
+    },
+    {
+      "number": 180,
+      "pali": "Tassa paṭighānusayo anuseti. ",
+      "english": "the underlying tendency to aversion underlies that. "
+    },
+    {
+      "number": 181,
+      "pali": "Adukkhamasukhāya vedanāya phuṭṭho samāno tassā vedanāya samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ nappajānāti. ",
+      "english": "When you experience a neutral feeling, if you don’t truly understand that feeling’s origin, disappearance, gratification, drawback, and escape, "
+    },
+    {
+      "number": 182,
+      "pali": "Tassa avijjānusayo anuseti. ",
+      "english": "the underlying tendency to ignorance underlies that. "
+    },
+    {
+      "number": 183,
+      "pali": "So vata, bhikkhave, sukhāya vedanāya rāgānusayaṁ appahāya dukkhāya vedanāya paṭighānusayaṁ appaṭivinodetvā adukkhamasukhāya vedanāya avijjānusayaṁ asamūhanitvā avijjaṁ appahāya vijjaṁ anuppādetvā diṭṭheva dhamme dukkhassantakaro bhavissatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Mendicants, without giving up the underlying tendency to greed for pleasant feeling, without dispelling the underlying tendency to aversion towards painful feeling, without eradicating ignorance in the case of neutral feeling, without giving up ignorance and without giving rise to knowledge, it is quite impossible to make an end of suffering in this very life. "
+    },
+    {
+      "number": 184,
+      "pali": "Sotañca, bhikkhave, paṭicca sadde ca uppajjati sotaviññāṇaṁ …pe… ",
+      "english": "Ear consciousness … "
+    },
+    {
+      "number": 185,
+      "pali": "ghānañca, bhikkhave, paṭicca gandhe ca uppajjati ghānaviññāṇaṁ …pe… ",
+      "english": "Nose consciousness … "
+    },
+    {
+      "number": 186,
+      "pali": "jivhañca, bhikkhave, paṭicca rase ca uppajjati jivhāviññāṇaṁ …pe… ",
+      "english": "Tongue consciousness … "
+    },
+    {
+      "number": 187,
+      "pali": "kāyañca, bhikkhave, paṭicca phoṭṭhabbe ca uppajjati kāyaviññāṇaṁ …pe… ",
+      "english": "Body consciousness … "
+    },
+    {
+      "number": 188,
+      "pali": "manañca, bhikkhave, paṭicca dhamme ca uppajjati manoviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā. ",
+      "english": "Mind consciousness arises dependent on the mind and ideas. The meeting of the three is contact. Contact is a requirement for the arising of what is felt as pleasant, painful, or neutral. "
+    },
+    {
+      "number": 189,
+      "pali": "So sukhāya vedanāya phuṭṭho samāno abhinandati abhivadati ajjhosāya tiṭṭhati. ",
+      "english": "When you experience a pleasant feeling, if you approve, welcome, and keep clinging to it, "
+    },
+    {
+      "number": 190,
+      "pali": "Tassa rāgānusayo anuseti. ",
+      "english": "the underlying tendency to greed underlies that. "
+    },
+    {
+      "number": 191,
+      "pali": "Dukkhāya vedanāya phuṭṭho samāno socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati. ",
+      "english": "When you experience a painful feeling, if you sorrow and wail and lament, beating your breast and falling into confusion, "
+    },
+    {
+      "number": 192,
+      "pali": "Tassa paṭighānusayo anuseti. ",
+      "english": "the underlying tendency to aversion underlies that. "
+    },
+    {
+      "number": 193,
+      "pali": "Adukkhamasukhāya vedanāya phuṭṭho samāno tassā vedanāya samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ nappajānāti. ",
+      "english": "When you experience a neutral feeling, if you don’t truly understand that feeling’s origin, disappearance, gratification, drawback, and escape, "
+    },
+    {
+      "number": 194,
+      "pali": "Tassa avijjānusayo anuseti. ",
+      "english": "the underlying tendency to ignorance underlies that. "
+    },
+    {
+      "number": 195,
+      "pali": "So vata, bhikkhave, sukhāya vedanāya rāgānusayaṁ appahāya dukkhāya vedanāya paṭighānusayaṁ appaṭivinodetvā adukkhamasukhāya vedanāya avijjānusayaṁ asamūhanitvā avijjaṁ appahāya vijjaṁ anuppādetvā diṭṭheva dhamme dukkhassantakaro bhavissatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Mendicants, without giving up the underlying tendency to greed for pleasant feeling, without dispelling the underlying tendency to aversion towards painful feeling, without eradicating ignorance in the case of neutral feeling, without giving up ignorance and without giving rise to knowledge, it is quite impossible to make an end of suffering in this very life. "
+    },
+    {
+      "number": 196,
+      "pali": "Cakkhuñca, bhikkhave, paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā. ",
+      "english": "Eye consciousness arises dependent on the eye and sights. The meeting of the three is contact. Contact is a requirement for the arising of what is felt as pleasant, painful, or neutral. "
+    },
+    {
+      "number": 197,
+      "pali": "So sukhāya vedanāya phuṭṭho samāno nābhinandati nābhivadati nājjhosāya tiṭṭhati. ",
+      "english": "When you experience a pleasant feeling, if you don’t approve, welcome, and keep clinging to it, "
+    },
+    {
+      "number": 198,
+      "pali": "Tassa rāgānusayo nānuseti. ",
+      "english": "the underlying tendency to greed does not underlie that. "
+    },
+    {
+      "number": 199,
+      "pali": "Dukkhāya vedanāya phuṭṭho samāno na socati na kilamati na paridevati na urattāḷiṁ kandati na sammohaṁ āpajjati. ",
+      "english": "When you experience a painful feeling, if you don’t sorrow or wail or lament, beating your breast and falling into confusion, "
+    },
+    {
+      "number": 200,
+      "pali": "Tassa paṭighānusayo nānuseti. ",
+      "english": "the underlying tendency to aversion does not underlie that. "
+    },
+    {
+      "number": 201,
+      "pali": "Adukkhamasukhāya vedanāya phuṭṭho samāno tassā vedanāya samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ pajānāti. ",
+      "english": "When you experience a neutral feeling, if you truly understand that feeling’s origin, disappearance, gratification, drawback, and escape, "
+    },
+    {
+      "number": 202,
+      "pali": "Tassa avijjānusayo nānuseti. ",
+      "english": "the underlying tendency to ignorance does not underlie that. "
+    },
+    {
+      "number": 203,
+      "pali": "So vata, bhikkhave, sukhāya vedanāya rāgānusayaṁ pahāya dukkhāya vedanāya paṭighānusayaṁ paṭivinodetvā adukkhamasukhāya vedanāya avijjānusayaṁ samūhanitvā avijjaṁ pahāya vijjaṁ uppādetvā diṭṭheva dhamme dukkhassantakaro bhavissatīti—ṭhānametaṁ vijjati. ",
+      "english": "Mendicants, after giving up the underlying tendency to greed for pleasant feeling, after dispelling the underlying tendency to aversion towards painful feeling, after eradicating ignorance in the case of neutral feeling, after giving up ignorance and giving rise to knowledge, it’s quite possible to make an end of suffering in this very life. "
+    },
+    {
+      "number": 204,
+      "pali": "Sotañca, bhikkhave, paṭicca sadde ca uppajjati sotaviññāṇaṁ …pe…. ",
+      "english": "Ear consciousness … "
+    },
+    {
+      "number": 205,
+      "pali": "Ghānañca, bhikkhave, paṭicca gandhe ca uppajjati ghānaviññāṇaṁ …pe…. ",
+      "english": "Nose consciousness … "
+    },
+    {
+      "number": 206,
+      "pali": "Jivhañca, bhikkhave, paṭicca rase ca uppajjati jivhāviññāṇaṁ …pe…. ",
+      "english": "Tongue consciousness … "
+    },
+    {
+      "number": 207,
+      "pali": "Kāyañca, bhikkhave, paṭicca phoṭṭhabbe ca uppajjati kāyaviññāṇaṁ …pe…. ",
+      "english": "Body consciousness … "
+    },
+    {
+      "number": 208,
+      "pali": "“Manañca, bhikkhave, paṭicca dhamme ca uppajjati manoviññāṇaṁ tiṇṇaṁ saṅgati phasso, phassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā. ",
+      "english": "Mind consciousness arises dependent on the mind and ideas. The meeting of the three is contact. Contact is a requirement for what is felt as pleasant, painful, or neutral. "
+    },
+    {
+      "number": 209,
+      "pali": "So sukhāya vedanāya phuṭṭho samāno nābhinandati nābhivadati nājjhosāya tiṭṭhati. ",
+      "english": "When you experience a pleasant feeling, if you don’t approve, welcome, and keep clinging to it, "
+    },
+    {
+      "number": 210,
+      "pali": "Tassa rāgānusayo nānuseti. ",
+      "english": "the underlying tendency to greed does not underlie that. "
+    },
+    {
+      "number": 211,
+      "pali": "Dukkhāya vedanāya phuṭṭho samāno na socati na kilamati na paridevati na urattāḷiṁ kandati na sammohaṁ āpajjati. ",
+      "english": "When you experience a painful feeling, if you don’t sorrow or wail or lament, beating your breast and falling into confusion, "
+    },
+    {
+      "number": 212,
+      "pali": "Tassa paṭighānusayo nānuseti. ",
+      "english": "the underlying tendency to aversion does not underlie that. "
+    },
+    {
+      "number": 213,
+      "pali": "Adukkhamasukhāya vedanāya phuṭṭho samāno tassā vedanāya samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ pajānāti. ",
+      "english": "When you experience a neutral feeling, if you truly understand that feeling’s origin, disappearance, gratification, drawback, and escape, "
+    },
+    {
+      "number": 214,
+      "pali": "Tassa avijjānusayo nānuseti. ",
+      "english": "the underlying tendency to ignorance does not underlie that. "
+    },
+    {
+      "number": 215,
+      "pali": "So vata, bhikkhave, sukhāya vedanāya rāgānusayaṁ pahāya dukkhāya vedanāya paṭighānusayaṁ paṭivinodetvā adukkhamasukhāya vedanāya avijjānusayaṁ samūhanitvā avijjaṁ pahāya vijjaṁ uppādetvā diṭṭheva dhamme dukkhassantakaro bhavissatīti—ṭhānametaṁ vijjati. ",
+      "english": "Mendicants, after giving up the underlying tendency to greed for pleasant feeling, after dispelling the underlying tendency to aversion towards painful feeling, after eradicating ignorance in the case of neutral feeling, after giving up ignorance and giving rise to knowledge, it’s quite possible to make an end of suffering in this very life. "
+    },
+    {
+      "number": 216,
+      "pali": "Evaṁ passaṁ, bhikkhave, sutavā ariyasāvako cakkhusmiṁ nibbindati, rūpesu nibbindati, cakkhuviññāṇe nibbindati, cakkhusamphasse nibbindati, vedanāya nibbindati, taṇhāya nibbindati. ",
+      "english": "Seeing this, a learned noble disciple grows disillusioned with the eye, sights, eye consciousness, eye contact, feeling, and craving. "
+    },
+    {
+      "number": 217,
+      "pali": "Sotasmiṁ nibbindati, saddesu nibbindati …pe… ",
+      "english": "They grow disillusioned with the ear … "
+    },
+    {
+      "number": 218,
+      "pali": "ghānasmiṁ nibbindati, gandhesu nibbindati … ",
+      "english": "nose … "
+    },
+    {
+      "number": 219,
+      "pali": "jivhāya nibbindati, rasesu nibbindati … ",
+      "english": "tongue … "
+    },
+    {
+      "number": 220,
+      "pali": "kāyasmiṁ nibbindati, phoṭṭhabbesu nibbindati … ",
+      "english": "body … "
+    },
+    {
+      "number": 221,
+      "pali": "manasmiṁ nibbindati, dhammesu nibbindati, manoviññāṇe nibbindati, manosamphasse nibbindati, vedanāya nibbindati, taṇhāya nibbindati. ",
+      "english": "mind, ideas, mind consciousness, mind contact, feeling, and craving. "
+    },
+    {
+      "number": 222,
+      "pali": "Nibbindaṁ virajjati, virāgā vimuccati. Vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. ",
+      "english": "Being disillusioned, desire fades away. When desire fades away they’re freed. When it is freed, they know it is freed. "
+    },
+    {
+      "number": 223,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānātī”ti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’” "
+    },
+    {
+      "number": 224,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 225,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 226,
+      "pali": "Imasmiṁ kho pana veyyākaraṇasmiṁ bhaññamāne saṭṭhimattānaṁ bhikkhūnaṁ anupādāya āsavehi cittāni vimucciṁsūti. ",
+      "english": "And while this discourse was being spoken, the minds of sixty mendicants were freed from defilements by not grasping. "
+    },
+    {
+      "number": 227,
+      "pali": "Chachakkasuttaṁ niṭṭhitaṁ chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

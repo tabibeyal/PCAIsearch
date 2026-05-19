@@ -1,0 +1,215 @@
+{
+  "sutta_id": "AN3.128",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 3.128 ",
+      "english": "Numbered Discourses 3.128 "
+    },
+    {
+      "number": 2,
+      "pali": "13. Kusināravagga ",
+      "english": "13. Kusinārā "
+    },
+    {
+      "number": 3,
+      "pali": "Kaṭuviyasutta ",
+      "english": "Bitter "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā bārāṇasiyaṁ viharati isipatane migadāye. ",
+      "english": "At one time the Buddha was staying near Varanasi, in the deer park at Isipatana. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho bhagavā pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya bārāṇasiṁ piṇḍāya pāvisi. ",
+      "english": "Then the Buddha robed up in the morning and, taking his bowl and robe, entered Varanasi for alms. "
+    },
+    {
+      "number": 6,
+      "pali": "Addasā kho bhagavā goyogapilakkhasmiṁ piṇḍāya caramāno aññataraṁ bhikkhuṁ rittassādaṁ bāhirassādaṁ muṭṭhassatiṁ asampajānaṁ asamāhitaṁ vibbhantacittaṁ pākatindriyaṁ. ",
+      "english": "While the Buddha was walking for alms near the cow-hitching place at the wavy leaf fig, he saw a disgruntled monk who was looking for pleasure in external things, unmindful, without situational awareness or immersion, with straying mind and undisciplined faculties. "
+    },
+    {
+      "number": 7,
+      "pali": "Disvā taṁ bhikkhuṁ etadavoca: ",
+      "english": "The Buddha said to him, "
+    },
+    {
+      "number": 8,
+      "pali": "“Mā kho tvaṁ, bhikkhu, attānaṁ kaṭuviyamakāsi. ",
+      "english": "“Monk, don’t be bitter. "
+    },
+    {
+      "number": 9,
+      "pali": "Taṁ vata, bhikkhu, kaṭuviyakataṁ attānaṁ āmagandhena avassutaṁ makkhikā nānupatissanti nānvāssavissantīti, netaṁ ṭhānaṁ vijjatī”ti. ",
+      "english": "If you’re bitter, festering with putrefaction, flies will, without a doubt, plague and infest you.” "
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho so bhikkhu bhagavatā iminā ovādena ovadito saṁvegamāpādi. ",
+      "english": "Hearing this advice of the Buddha, that monk was struck with a sense of urgency. "
+    },
+    {
+      "number": 11,
+      "pali": "Atha kho bhagavā bārāṇasiyaṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto bhikkhū āmantesi: ",
+      "english": "Then, after the meal, on his return from almsround, the Buddha told the mendicants what had happened. … "
+    },
+    {
+      "number": 12,
+      "pali": "“Idhāhaṁ, bhikkhave, pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya bārāṇasiṁ piṇḍāya pāvisiṁ. ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "Addasaṁ kho ahaṁ, bhikkhave, goyogapilakkhasmiṁ piṇḍāya caramāno aññataraṁ bhikkhuṁ rittassādaṁ bāhirassādaṁ muṭṭhassatiṁ asampajānaṁ asamāhitaṁ vibbhantacittaṁ pākatindriyaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "Disvā taṁ bhikkhuṁ etadavocaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "‘Mā kho tvaṁ, bhikkhu, attānaṁ kaṭuviyamakāsi. ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "Taṁ vata bhikkhu kaṭuviyakataṁ attānaṁ āmagandhena avassutaṁ makkhikā nānupatissanti nānvāssavissantīti, netaṁ ṭhānaṁ vijjatī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "Atha kho, bhikkhave, so bhikkhu mayā iminā ovādena ovadito saṁvegamāpādī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "Evaṁ vutte, aññataro bhikkhu bhagavantaṁ etadavoca: ",
+      "english": "When he said this, one of the mendicants asked the Buddha: "
+    },
+    {
+      "number": 19,
+      "pali": "“kiṁ nu kho, bhante, kaṭuviyaṁ? ",
+      "english": "“Sir, what is this ‘bitterness’? "
+    },
+    {
+      "number": 20,
+      "pali": "Ko āmagandho? ",
+      "english": "What is ‘putrefaction’? "
+    },
+    {
+      "number": 21,
+      "pali": "Kā makkhikā”ti? ",
+      "english": "And what are the ‘flies’?” "
+    },
+    {
+      "number": 22,
+      "pali": "“Abhijjhā kho, bhikkhu, kaṭuviyaṁ; ",
+      "english": "“Desire is bitterness; "
+    },
+    {
+      "number": 23,
+      "pali": "byāpādo āmagandho; ",
+      "english": "ill will is the putrefaction; "
+    },
+    {
+      "number": 24,
+      "pali": "pāpakā akusalā vitakkā makkhikā. ",
+      "english": "and bad, unskillful thoughts are the flies. "
+    },
+    {
+      "number": 25,
+      "pali": "Taṁ vata, bhikkhu, kaṭuviyakataṁ attānaṁ āmagandhena avassutaṁ makkhikā nānupatissanti nānvāssavissantīti, netaṁ ṭhānaṁ vijjatīti. ",
+      "english": "If you’re bitter, festering with putrefaction, flies will, without a doubt, plague and infest you. "
+    },
+    {
+      "number": 26,
+      "pali": "Aguttaṁ cakkhusotasmiṁ, ",
+      "english": "When your eyes and ears are unguarded, "
+    },
+    {
+      "number": 27,
+      "pali": "indriyesu asaṁvutaṁ; ",
+      "english": "and you’re not restrained in your sense faculties, "
+    },
+    {
+      "number": 28,
+      "pali": "Makkhikānupatissanti, ",
+      "english": "flies—those lustful thoughts—"
+    },
+    {
+      "number": 29,
+      "pali": "saṅkappā rāganissitā. ",
+      "english": "will plague you. "
+    },
+    {
+      "number": 30,
+      "pali": "Kaṭuviyakato bhikkhu, ",
+      "english": "A mendicant who’s bitter, "
+    },
+    {
+      "number": 31,
+      "pali": "āmagandhe avassuto; ",
+      "english": "festering with putrefaction, "
+    },
+    {
+      "number": 32,
+      "pali": "Ārakā hoti nibbānā, ",
+      "english": "is far from being extinguished, "
+    },
+    {
+      "number": 33,
+      "pali": "vighātasseva bhāgavā. ",
+      "english": "distress is their lot. "
+    },
+    {
+      "number": 34,
+      "pali": "Gāme vā yadi vāraññe, ",
+      "english": "Whether in village or wilderness, "
+    },
+    {
+      "number": 35,
+      "pali": "aladdhā samathamattano; ",
+      "english": "if they don’t find serenity in themselves, "
+    },
+    {
+      "number": 36,
+      "pali": "Pareti bālo dummedho, ",
+      "english": "the fool, the simpleton departs, "
+    },
+    {
+      "number": 37,
+      "pali": "makkhikāhi purakkhato. ",
+      "english": "honored only by flies. "
+    },
+    {
+      "number": 38,
+      "pali": "Ye ca sīlena sampannā, ",
+      "english": "But those who have ethics, "
+    },
+    {
+      "number": 39,
+      "pali": "paññāyūpasameratā; ",
+      "english": "lovers of wisdom and peace, "
+    },
+    {
+      "number": 40,
+      "pali": "Upasantā sukhaṁ senti, ",
+      "english": "they, being peaceful, sleep at ease, "
+    },
+    {
+      "number": 41,
+      "pali": "nāsayitvāna makkhikā”ti. ",
+      "english": "since they’ve got rid of the flies.” "
+    },
+    {
+      "number": 42,
+      "pali": "Chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

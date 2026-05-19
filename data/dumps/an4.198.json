@@ -1,0 +1,560 @@
+{
+  "sutta_id": "AN4.198",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 4.198 ",
+      "english": "Numbered Discourses 4.198 "
+    },
+    {
+      "number": 2,
+      "pali": "20. Mahāvagga ",
+      "english": "20. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Attantapasutta ",
+      "english": "Fervent Mortification of Oneself "
+    },
+    {
+      "number": 4,
+      "pali": "“Cattārome, bhikkhave, puggalā santo saṁvijjamānā lokasmiṁ. ",
+      "english": "“Mendicants, these four individuals are found in the world. "
+    },
+    {
+      "number": 5,
+      "pali": "Katame cattāro? ",
+      "english": "What four? "
+    },
+    {
+      "number": 6,
+      "pali": "Idha, bhikkhave, ekacco puggalo attantapo hoti attaparitāpanānuyogamanuyutto. ",
+      "english": "One individual mortifies themselves, pursuing the practice of mortifying themselves. "
+    },
+    {
+      "number": 7,
+      "pali": "Idha pana, bhikkhave, ekacco puggalo parantapo hoti paraparitāpanānuyogamanuyutto. ",
+      "english": "One individual mortifies others, pursuing the practice of mortifying others. "
+    },
+    {
+      "number": 8,
+      "pali": "Idha pana, bhikkhave, ekacco puggalo attantapo ca hoti attaparitāpanānuyogamanuyutto, parantapo ca paraparitāpanānuyogamanuyutto. ",
+      "english": "One individual mortifies themselves and others, pursuing the practice of mortifying themselves and others. "
+    },
+    {
+      "number": 9,
+      "pali": "Idha pana, bhikkhave, ekacco puggalo nevattantapo hoti nāttaparitāpanānuyogamanuyutto na parantapo na paraparitāpanānuyogamanuyutto. ",
+      "english": "One individual neither mortifies themselves nor others, pursuing the practice of not mortifying themselves or others. "
+    },
+    {
+      "number": 10,
+      "pali": "So neva attantapo na parantapo diṭṭheva dhamme nicchāto nibbuto sītībhūto sukhappaṭisaṁvedī brahmabhūtena attanā viharati. ",
+      "english": "They live without wishes in this very life, quenched, cooled, experiencing bliss, with self become divine. "
+    },
+    {
+      "number": 11,
+      "pali": "Kathañca, bhikkhave, puggalo attantapo hoti attaparitāpanānuyogamanuyutto? ",
+      "english": "And how does one individual mortify themselves, pursuing the practice of mortifying themselves? "
+    },
+    {
+      "number": 12,
+      "pali": "Idha, bhikkhave, ekacco acelako hoti muttācāro hatthāpalekhano naehibhaddantiko natiṭṭhabhaddantiko nābhihaṭaṁ na uddissakataṁ na nimantanaṁ sādiyati. ",
+      "english": "It’s when someone goes naked, ignoring conventions. They lick their hands, and don’t come or wait when called. They don’t consent to food brought to them, or food prepared on their behalf, or an invitation for a meal. "
+    },
+    {
+      "number": 13,
+      "pali": "So na kumbhimukhā paṭiggaṇhāti, na kaḷopimukhā paṭiggaṇhāti, na eḷakamantaraṁ na daṇḍamantaraṁ na musalamantaraṁ na dvinnaṁ bhuñjamānānaṁ na gabbhiniyā na pāyamānāya na purisantaragatāya na saṅkittīsu na yattha sā upaṭṭhito hoti na yattha makkhikā saṇḍasaṇḍacārinī na macchaṁ na maṁsaṁ na suraṁ na merayaṁ na thusodakaṁ pivati. ",
+      "english": "They don’t receive anything from a pot or bowl; or from someone who keeps sheep, or who has a weapon or a shovel in their home; or where a couple is eating; or where there is a woman who is pregnant, breastfeeding, or who lives with a man; or where there’s a hound waiting or flies buzzing. They accept no fish or meat or beer or wine, and drink no fermented gruel. "
+    },
+    {
+      "number": 14,
+      "pali": "So ekāgāriko vā hoti ekālopiko dvāgāriko vā hoti dvālopiko …pe… sattāgāriko vā hoti sattālopiko; ",
+      "english": "They go to just one house for alms, taking just one mouthful, or two houses and two mouthfuls, up to seven houses and seven mouthfuls. "
+    },
+    {
+      "number": 15,
+      "pali": "ekissāpi dattiyā yāpeti dvīhipi dattīhi yāpeti …pe… sattahipi dattīhi yāpeti; ",
+      "english": "They feed on one saucer a day, two saucers a day, up to seven saucers a day. "
+    },
+    {
+      "number": 16,
+      "pali": "ekāhikampi āhāraṁ āhāreti dvāhikampi āhāraṁ āhāreti …pe… sattāhikampi āhāraṁ āhāreti. Iti evarūpaṁ aḍḍhamāsikampi pariyāyabhattabhojanānuyogamanuyutto viharati. ",
+      "english": "They eat once a day, once every second day, up to once a week, and so on, even up to once a fortnight. They live pursuing the practice of eating food at set intervals. "
+    },
+    {
+      "number": 17,
+      "pali": "So sākabhakkhopi hoti sāmākabhakkhopi hoti nīvārabhakkhopi hoti daddulabhakkhopi hoti haṭabhakkhopi hoti kaṇabhakkhopi hoti ācāmabhakkhopi hoti piññākabhakkhopi hoti tiṇabhakkhopi hoti gomayabhakkhopi hoti; vanamūlaphalāhāropi yāpeti pavattaphalabhojī. ",
+      "english": "They eat herbs, millet, wild rice, poor rice, water lettuce, rice bran, scum from boiling rice, sesame flour, grass, or cow dung. They survive on forest roots and fruits, or eating fallen fruit. "
+    },
+    {
+      "number": 18,
+      "pali": "So sāṇānipi dhāreti masāṇānipi dhāreti chavadussānipi dhāreti paṁsukūlānipi dhāreti tirīṭānipi dhāreti ajinampi dhāreti ajinakkhipampi dhāreti kusacīrampi dhāreti vākacīrampi dhāreti phalakacīrampi dhāreti kesakambalampi dhāreti vāḷakambalampi dhāreti ulūkapakkhampi dhāreti; ",
+      "english": "They wear robes of sunn hemp, mixed hemp, corpse-wrapping cloth, rags, lodh tree bark, antelope hide (whole or in strips), kusa grass, bark, wood-chips, human hair, horse-tail hair, or owls’ wings. "
+    },
+    {
+      "number": 19,
+      "pali": "kesamassulocakopi hoti kesamassulocanānuyogamanuyutto; ",
+      "english": "They tear out hair and beard, pursuing this practice. "
+    },
+    {
+      "number": 20,
+      "pali": "ubbhaṭṭhakopi hoti āsanappaṭikkhitto; ",
+      "english": "They constantly stand, turning down seats. "
+    },
+    {
+      "number": 21,
+      "pali": "ukkuṭikopi hoti ukkuṭikappadhānamanuyutto; ",
+      "english": "They squat, committed to the endeavor of squatting. "
+    },
+    {
+      "number": 22,
+      "pali": "kaṇṭakāpassayikopi hoti kaṇṭakāpassaye seyyaṁ kappeti; ",
+      "english": "They lie on a mat of thorns, making a mat of thorns their bed. "
+    },
+    {
+      "number": 23,
+      "pali": "sāyatatiyakampi udakorohanānuyogamanuyutto viharati. ",
+      "english": "They’re devoted to ritual bathing three times a day, including at dusk. "
+    },
+    {
+      "number": 24,
+      "pali": "Iti evarūpaṁ anekavihitaṁ kāyassa ātāpanaparitāpanānuyogamanuyutto viharati. ",
+      "english": "And so they live pursuing these various ways of mortifying and tormenting the body. "
+    },
+    {
+      "number": 25,
+      "pali": "Evaṁ kho, bhikkhave, puggalo attantapo hoti attaparitāpanānuyogamanuyutto. ",
+      "english": "That’s how one individual mortifies themselves, pursuing the practice of mortifying themselves. "
+    },
+    {
+      "number": 26,
+      "pali": "Kathañca, bhikkhave, puggalo parantapo hoti paraparitāpanānuyogamanuyutto? ",
+      "english": "And how does one individual mortify others, pursuing the practice of mortifying others? "
+    },
+    {
+      "number": 27,
+      "pali": "Idha, bhikkhave, ekacco puggalo orabbhiko hoti sūkariko sākuṇiko māgaviko luddo macchaghātako coro coraghātako goghātako bandhanāgāriko, ye vā panaññepi keci kurūrakammantā. ",
+      "english": "It’s when an individual is a slaughterer of sheep, pigs, poultry, or deer, a hunter or fisher, a bandit, an executioner, a butcher of cattle, a jailer, or has some other cruel livelihood. "
+    },
+    {
+      "number": 28,
+      "pali": "Evaṁ kho, bhikkhave, puggalo parantapo hoti paraparitāpanānuyogamanuyutto. ",
+      "english": "That’s how one individual mortifies others, pursuing the practice of mortifying others. "
+    },
+    {
+      "number": 29,
+      "pali": "Kathañca, bhikkhave, puggalo attantapo ca hoti attaparitāpanānuyogamanuyutto parantapo ca paraparitāpanānuyogamanuyutto? ",
+      "english": "And how does one individual mortify themselves and others, pursuing the practice of mortifying themselves and others? "
+    },
+    {
+      "number": 30,
+      "pali": "Idha, bhikkhave, ekacco puggalo rājā vā hoti khattiyo muddhāvasitto, brāhmaṇo vā hoti mahāsālo. ",
+      "english": "It’s when an individual is an anointed aristocratic king or a well-to-do brahmin. "
+    },
+    {
+      "number": 31,
+      "pali": "So puratthimena nagarassa navaṁ santhāgāraṁ kārāpetvā kesamassuṁ ohāretvā kharājinaṁ nivāsetvā sappitelena kāyaṁ abbhañjitvā magavisāṇena piṭṭhiṁ kaṇḍuvamāno navaṁ santhāgāraṁ pavisati, saddhiṁ mahesiyā brāhmaṇena ca purohitena. ",
+      "english": "He has a new ceremonial hall built to the east of the citadel. He shaves off his hair and beard, dresses in a rough antelope hide, and smears his body with ghee and oil. Scratching his back with antlers, he enters the hall with his chief queen and the brahmin high priest. "
+    },
+    {
+      "number": 32,
+      "pali": "So tattha anantarahitāya bhūmiyā haritupalittāya seyyaṁ kappeti. ",
+      "english": "There he lies on the bare ground strewn with grass. "
+    },
+    {
+      "number": 33,
+      "pali": "Ekissāya gāviyā sarūpavacchāya yaṁ ekasmiṁ thane khīraṁ hoti tena rājā yāpeti; yaṁ dutiyasmiṁ thane khīraṁ hoti tena mahesī yāpeti; yaṁ tatiyasmiṁ thane khīraṁ hoti tena brāhmaṇo purohito yāpeti; yaṁ catutthasmiṁ thane khīraṁ hoti tena aggiṁ juhati; avasesena vacchako yāpeti. ",
+      "english": "The king feeds on the milk from one teat of a cow that has a calf of the same color. The chief queen feeds on the milk from the second teat. The brahmin high priest feeds on the milk from the third teat. The milk from the fourth teat is served to the sacred flame. The calf feeds on the leftovers. "
+    },
+    {
+      "number": 34,
+      "pali": "So evamāha: ",
+      "english": "He says: "
+    },
+    {
+      "number": 35,
+      "pali": "‘ettakā usabhā haññantu yaññatthāya, ettakā vacchatarā haññantu yaññatthāya, ettakā vacchatariyo haññantu yaññatthāya, ettakā ajā haññantu yaññatthāya, ettakā urabbhā haññantu yaññatthāya, ettakā assā haññantu yaññatthāya, ettakā rukkhā chijjantu yūpatthāya, ettakā dabbhā lūyantu barihisatthāyā’ti. ",
+      "english": "‘Slaughter this many bulls, bullocks, heifers, goats, rams, and horses for the sacrifice! Fell this many trees and reap this much grass for the sacrificial equipment!’ "
+    },
+    {
+      "number": 36,
+      "pali": "Yepissa te honti dāsāti vā pessāti vā kammakarāti vā tepi daṇḍatajjitā bhayatajjitā assumukhā rudamānā parikammāni karonti. ",
+      "english": "His bondservants, servants, and workers do their jobs under threat of punishment and danger, weeping, with tearful faces. "
+    },
+    {
+      "number": 37,
+      "pali": "Evaṁ kho, bhikkhave, puggalo attantapo ca hoti attaparitāpanānuyogamanuyutto parantapo ca paraparitāpanānuyogamanuyutto. ",
+      "english": "That’s how one individual mortifies themselves and others, pursuing the practice of mortifying themselves and others. "
+    },
+    {
+      "number": 38,
+      "pali": "Kathañca, bhikkhave, puggalo nevattantapo hoti nāttaparitāpanānuyogamanuyutto na parantapo na paraparitāpanānuyogamanuyutto? ",
+      "english": "And how does one individual neither mortify themselves nor others, pursuing the practice of not mortifying themselves or others, "
+    },
+    {
+      "number": 39,
+      "pali": "So anattantapo aparantapo diṭṭheva dhamme nicchāto nibbuto sītībhūto sukhappaṭisaṁvedī brahmabhūtena attanā viharati. ",
+      "english": "living without wishes in this very life, quenched, cooled, experiencing bliss, with self become divine? "
+    },
+    {
+      "number": 40,
+      "pali": "Idha, bhikkhave, tathāgato loke uppajjati arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā. ",
+      "english": "It’s when a Realized One arises in the world, perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed. "
+    },
+    {
+      "number": 41,
+      "pali": "So imaṁ lokaṁ sadevakaṁ samārakaṁ sabrahmakaṁ sassamaṇabrāhmaṇiṁ pajaṁ sadevamanussaṁ sayaṁ abhiññā sacchikatvā pavedeti. ",
+      "english": "He has realized with his own insight this world—with its gods, Māras, and divinities, this population with its ascetics and brahmins, gods and humans—and he makes it known to others. "
+    },
+    {
+      "number": 42,
+      "pali": "So dhammaṁ deseti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāseti. ",
+      "english": "He proclaims a teaching that is good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And he reveals a spiritual practice that’s entirely full and pure. "
+    },
+    {
+      "number": 43,
+      "pali": "Taṁ dhammaṁ suṇāti gahapati vā gahapatiputto vā aññatarasmiṁ vā kule paccājāto. ",
+      "english": "A householder hears that teaching, or a householder’s child, or someone reborn in a good family. "
+    },
+    {
+      "number": 44,
+      "pali": "So taṁ dhammaṁ sutvā tathāgate saddhaṁ paṭilabhati. ",
+      "english": "They gain faith in the Realized One "
+    },
+    {
+      "number": 45,
+      "pali": "So tena saddhāpaṭilābhena samannāgato iti paṭisañcikkhati: ",
+      "english": "and reflect: "
+    },
+    {
+      "number": 46,
+      "pali": "‘sambādho gharāvāso rajāpatho, abbhokāso pabbajjā; ",
+      "english": "‘Life at home is cramped and dirty, life gone forth is wide open. "
+    },
+    {
+      "number": 47,
+      "pali": "nayidaṁ sukaraṁ agāraṁ ajjhāvasatā ekantaparipuṇṇaṁ ekantaparisuddhaṁ saṅkhalikhitaṁ brahmacariyaṁ carituṁ; ",
+      "english": "It’s not easy for someone living at home to lead the spiritual life utterly full and pure, like a polished shell. "
+    },
+    {
+      "number": 48,
+      "pali": "yannūnāhaṁ kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajeyyan’ti. ",
+      "english": "Why don’t I shave off my hair and beard, dress in ocher robes, and go forth from the lay life to homelessness?’ "
+    },
+    {
+      "number": 49,
+      "pali": "So aparena samayena appaṁ vā bhogakkhandhaṁ pahāya, mahantaṁ vā bhogakkhandhaṁ pahāya, appaṁ vā ñātiparivaṭṭaṁ pahāya, mahantaṁ vā ñātiparivaṭṭaṁ pahāya, kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajati. ",
+      "english": "After some time they give up a large or small fortune, and a large or small family circle. They shave off hair and beard, dress in ocher robes, and go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 50,
+      "pali": "So evaṁ pabbajito samāno bhikkhūnaṁ sikkhāsājīvasamāpanno pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti nihitadaṇḍo nihitasattho lajjī dayāpanno, sabbapāṇabhūtahitānukampī viharati. ",
+      "english": "Once they’ve gone forth, they take up the training and livelihood of the mendicants. They give up killing living creatures, renouncing the rod and the sword. They’re scrupulous and kind, living full of sympathy for all living beings. "
+    },
+    {
+      "number": 51,
+      "pali": "Adinnādānaṁ pahāya adinnādānā paṭivirato hoti dinnādāyī dinnapāṭikaṅkhī, athenena sucibhūtena attanā viharati. ",
+      "english": "They give up stealing. They take only what’s given, and expect only what’s given. They keep themselves clean by not thieving. "
+    },
+    {
+      "number": 52,
+      "pali": "Abrahmacariyaṁ pahāya brahmacārī hoti ārācārī virato asaddhammā gāmadhammā. ",
+      "english": "They give up unchastity. They are chaste, set apart, avoiding the vulgar act of sex. "
+    },
+    {
+      "number": 53,
+      "pali": "Musāvādaṁ pahāya musāvādā paṭivirato hoti saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+      "english": "They give up lying. They speak the truth and stick to the truth. They’re honest and dependable, and don’t trick the world with their words. "
+    },
+    {
+      "number": 54,
+      "pali": "Pisuṇaṁ vācaṁ pahāya pisuṇāya vācāya paṭivirato hoti, na ito sutvā amutra akkhātā imesaṁ bhedāya, na amutra vā sutvā imesaṁ akkhātā amūsaṁ bhedāya; iti bhinnānaṁ vā sandhātā, sahitānaṁ vā anuppadātā, samaggārāmo samaggarato samagganandī samaggakaraṇiṁ vācaṁ bhāsitā hoti. ",
+      "english": "They give up backbiting. They don’t repeat in one place what they heard in another so as to divide people against each other. Instead, they reconcile those who are divided and support those who are united, delighting in harmony, loving harmony, speaking words that promote harmony. "
+    },
+    {
+      "number": 55,
+      "pali": "Pharusaṁ vācaṁ pahāya pharusāya vācāya paṭivirato hoti; yā sā vācā nelā kaṇṇasukhā pemanīyā hadayaṅgamā porī bahujanakantā bahujanamanāpā tathārūpiṁ vācaṁ bhāsitā hoti. ",
+      "english": "They give up harsh speech. They speak in a way that’s mellow, pleasing to the ear, endearing, going to the heart, polite, likable, and agreeable to the people. "
+    },
+    {
+      "number": 56,
+      "pali": "Samphappalāpaṁ pahāya samphappalāpā paṭivirato hoti kālavādī bhūtavādī atthavādī dhammavādī vinayavādī; nidhānavatiṁ vācaṁ bhāsitā hoti kālena sāpadesaṁ pariyantavatiṁ atthasaṁhitaṁ. ",
+      "english": "They give up talking nonsense. Their words are timely, true, and meaningful, in line with the teaching and training. They say things at the right time which are valuable, reasonable, succinct, and beneficial. "
+    },
+    {
+      "number": 57,
+      "pali": "So bījagāmabhūtagāmasamārambhā paṭivirato hoti. ",
+      "english": "They refrain from injuring plants and seeds. "
+    },
+    {
+      "number": 58,
+      "pali": "Ekabhattiko hoti rattūparato virato vikālabhojanā. ",
+      "english": "They eat in one part of the day, abstaining from eating at night and food at the wrong time. "
+    },
+    {
+      "number": 59,
+      "pali": "Naccagītavāditavisūkadassanā paṭivirato hoti. ",
+      "english": "They refrain from seeing shows of dancing, singing, and music . "
+    },
+    {
+      "number": 60,
+      "pali": "Mālāgandhavilepanadhāraṇamaṇḍanavibhūsanaṭṭhānā paṭivirato hoti. ",
+      "english": "They refrain from attiring and adorning themselves with garlands, fragrance, and makeup. "
+    },
+    {
+      "number": 61,
+      "pali": "Uccāsayanamahāsayanā paṭivirato hoti. ",
+      "english": "They refrain from high and luxurious beds. "
+    },
+    {
+      "number": 62,
+      "pali": "Jātarūparajatapaṭiggahaṇā paṭivirato hoti. ",
+      "english": "They refrain from receiving gold and currency, "
+    },
+    {
+      "number": 63,
+      "pali": "Āmakadhaññapaṭiggahaṇā paṭivirato hoti. ",
+      "english": "raw grains, "
+    },
+    {
+      "number": 64,
+      "pali": "Āmakamaṁsapaṭiggahaṇā paṭivirato hoti. ",
+      "english": "raw meat, "
+    },
+    {
+      "number": 65,
+      "pali": "Itthikumārikapaṭiggahaṇā paṭivirato hoti. ",
+      "english": "women and girls, "
+    },
+    {
+      "number": 66,
+      "pali": "Dāsidāsapaṭiggahaṇā paṭivirato hoti. ",
+      "english": "male and female bondservants, "
+    },
+    {
+      "number": 67,
+      "pali": "Ajeḷakapaṭiggahaṇā paṭivirato hoti. ",
+      "english": "goats and sheep, "
+    },
+    {
+      "number": 68,
+      "pali": "Kukkuṭasūkarapaṭiggahaṇā paṭivirato hoti. ",
+      "english": "chickens and pigs, "
+    },
+    {
+      "number": 69,
+      "pali": "Hatthigavāssavaḷavapaṭiggahaṇā paṭivirato hoti. ",
+      "english": "elephants, cows, horses, and mares, "
+    },
+    {
+      "number": 70,
+      "pali": "Khettavatthupaṭiggahaṇā paṭivirato hoti. ",
+      "english": "and fields and land. "
+    },
+    {
+      "number": 71,
+      "pali": "Dūteyyapahiṇagamanānuyogā paṭivirato hoti. ",
+      "english": "They refrain from running errands and messages; "
+    },
+    {
+      "number": 72,
+      "pali": "Kayavikkayā paṭivirato hoti. ",
+      "english": "buying and selling; "
+    },
+    {
+      "number": 73,
+      "pali": "Tulākūṭakaṁsakūṭamānakūṭā paṭivirato hoti. ",
+      "english": "falsifying weights, metals, or measures; "
+    },
+    {
+      "number": 74,
+      "pali": "Ukkoṭanavañcananikatisāciyogā paṭivirato hoti. ",
+      "english": "bribery, fraud, cheating, and duplicity; "
+    },
+    {
+      "number": 75,
+      "pali": "Chedanavadhabandhanaviparāmosaālopasahasākārā paṭivirato hoti. ",
+      "english": "mutilation, murder, abduction, banditry, plunder, and violence. "
+    },
+    {
+      "number": 76,
+      "pali": "So santuṭṭho hoti kāyaparihārikena cīvarena kucchiparihārikena piṇḍapātena. So yena yeneva pakkamati samādāyeva pakkamati. ",
+      "english": "They’re content with robes to look after the body and almsfood to look after the belly. Wherever they go, they set out taking only these things. "
+    },
+    {
+      "number": 77,
+      "pali": "Seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti, sapattabhārova ḍeti; ",
+      "english": "They’re like a bird: wherever it flies, wings are its only burden. "
+    },
+    {
+      "number": 78,
+      "pali": "evamevaṁ bhikkhu santuṭṭho hoti kāyaparihārikena cīvarena kucchiparihārikena piṇḍapātena. So yena yeneva pakkamati, samādāyeva pakkamati. ",
+      "english": "In the same way, a mendicant is content with robes to look after the body and almsfood to look after the belly. Wherever they go, they set out taking only these things. "
+    },
+    {
+      "number": 79,
+      "pali": "So iminā ariyena sīlakkhandhena samannāgato ajjhattaṁ anavajjasukhaṁ paṭisaṁvedeti. ",
+      "english": "When they have this entire spectrum of noble ethics, they experience a blameless happiness inside themselves. "
+    },
+    {
+      "number": 80,
+      "pali": "So cakkhunā rūpaṁ disvā na nimittaggāhī hoti nānubyañjanaggāhī. ",
+      "english": "Seeing a sight with the eyes, they don’t get caught up in the features and details. "
+    },
+    {
+      "number": 81,
+      "pali": "Yatvādhikaraṇamenaṁ cakkhundriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati; rakkhati cakkhundriyaṁ; cakkhundriye saṁvaraṁ āpajjati. ",
+      "english": "If the faculty of sight were left unrestrained, bad unskillful qualities of covetousness and displeasure would become overwhelming. For this reason, they practice restraint, protecting the faculty of sight, and achieving restraint over it. "
+    },
+    {
+      "number": 82,
+      "pali": "Sotena saddaṁ sutvā … ",
+      "english": "Hearing a sound with the ears … "
+    },
+    {
+      "number": 83,
+      "pali": "ghānena gandhaṁ ghāyitvā … ",
+      "english": "Smelling an odor with the nose … "
+    },
+    {
+      "number": 84,
+      "pali": "jivhāya rasaṁ sāyitvā … ",
+      "english": "Tasting a flavor with the tongue … "
+    },
+    {
+      "number": 85,
+      "pali": "kāyena phoṭṭhabbaṁ phusitvā … ",
+      "english": "Feeling a touch with the body … "
+    },
+    {
+      "number": 86,
+      "pali": "manasā dhammaṁ viññāya na nimittaggāhī hoti nānubyañjanaggāhī. ",
+      "english": "Knowing an idea with the mind, they don’t get caught up in the features and details. "
+    },
+    {
+      "number": 87,
+      "pali": "Yatvādhikaraṇamenaṁ manindriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati; rakkhati manindriyaṁ; manindriye saṁvaraṁ āpajjati. ",
+      "english": "If the faculty of mind were left unrestrained, bad unskillful qualities of covetousness and displeasure would become overwhelming. For this reason, they practice restraint, protecting the faculty of mind, and achieving restraint over it. "
+    },
+    {
+      "number": 88,
+      "pali": "So iminā ariyena indriyasaṁvarena samannāgato ajjhattaṁ abyāsekasukhaṁ paṭisaṁvedeti. ",
+      "english": "When they have this noble sense restraint, they experience an unsullied bliss inside themselves. "
+    },
+    {
+      "number": 89,
+      "pali": "So abhikkante paṭikkante sampajānakārī hoti, ālokite vilokite sampajānakārī hoti, samiñjite pasārite sampajānakārī hoti, saṅghāṭipattacīvaradhāraṇe sampajānakārī hoti, asite pīte khāyite sāyite sampajānakārī hoti, uccārapassāvakamme sampajānakārī hoti, gate ṭhite nisinne sutte jāgarite bhāsite tuṇhībhāve sampajānakārī hoti. ",
+      "english": "They act with situational awareness when going out and coming back; when looking ahead and aside; when bending and extending the limbs; when bearing the outer robe, bowl and robes; when eating, drinking, chewing, and tasting; when urinating and defecating; when walking, standing, sitting, sleeping, waking, speaking, and keeping silent. "
+    },
+    {
+      "number": 90,
+      "pali": "So iminā ca ariyena sīlakkhandhena samannāgato, imāya ca ariyāya santuṭṭhiyā samannāgato, iminā ca ariyena indriyasaṁvarena samannāgato, iminā ca ariyena satisampajaññena samannāgato ",
+      "english": "When they have this entire spectrum of noble ethics, this noble contentment, this noble sense restraint, and this noble mindfulness and situational awareness, "
+    },
+    {
+      "number": 91,
+      "pali": "vivittaṁ senāsanaṁ bhajati araññaṁ rukkhamūlaṁ pabbataṁ kandaraṁ giriguhaṁ susānaṁ vanappatthaṁ abbhokāsaṁ palālapuñjaṁ. ",
+      "english": "they frequent a secluded lodging—a wilderness, the root of a tree, a hill, a ravine, a mountain cave, a charnel ground, a forest, the open air, a heap of straw. "
+    },
+    {
+      "number": 92,
+      "pali": "So pacchābhattaṁ piṇḍapātapaṭikkanto nisīdati pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā. ",
+      "english": "After the meal, they return from almsround, sit down cross-legged, set their body straight, and bring mindfulness to the present. "
+    },
+    {
+      "number": 93,
+      "pali": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti. ",
+      "english": "Giving up covetousness for the world, they meditate with a heart rid of covetousness, cleansing the mind of covetousness. "
+    },
+    {
+      "number": 94,
+      "pali": "Byāpādapadosaṁ pahāya abyāpannacitto viharati sabbapāṇabhūtahitānukampī, byāpādapadosā cittaṁ parisodheti. ",
+      "english": "Giving up ill will and malevolence, they meditate with a mind rid of ill will, full of sympathy for all living beings, cleansing the mind of ill will. "
+    },
+    {
+      "number": 95,
+      "pali": "Thinamiddhaṁ pahāya vigatathinamiddho viharati ālokasaññī sato sampajāno, thinamiddhā cittaṁ parisodheti. ",
+      "english": "Giving up dullness and drowsiness, they meditate with a mind rid of dullness and drowsiness, perceiving light, mindful and aware, cleansing the mind of dullness and drowsiness. "
+    },
+    {
+      "number": 96,
+      "pali": "Uddhaccakukkuccaṁ pahāya anuddhato viharati ajjhattaṁ vūpasantacitto, uddhaccakukkuccā cittaṁ parisodheti. ",
+      "english": "Giving up restlessness and remorse, they meditate without restlessness, their mind peaceful inside, cleansing the mind of restlessness and remorse. "
+    },
+    {
+      "number": 97,
+      "pali": "Vicikicchaṁ pahāya tiṇṇavicikiccho viharati akathaṅkathī kusalesu dhammesu, vicikicchāya cittaṁ parisodheti. ",
+      "english": "Giving up doubt, they meditate having gone beyond doubt, not undecided about skillful qualities, cleansing the mind of doubt. "
+    },
+    {
+      "number": 98,
+      "pali": "So ime pañca nīvaraṇe pahāya cetaso upakkilese paññāya dubbalīkaraṇe ",
+      "english": "They give up these five hindrances, corruptions of the heart that weaken wisdom. "
+    },
+    {
+      "number": 99,
+      "pali": "vivicceva kāmehi …pe… catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Then, quite secluded from sensual pleasures, secluded from unskillful qualities, they enter and remain in the first absorption … second absorption … third absorption … fourth absorption. "
+    },
+    {
+      "number": 100,
+      "pali": "So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte pubbenivāsānussatiñāṇāya …pe… ",
+      "english": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they extend it toward recollection of past lives … "
+    },
+    {
+      "number": 101,
+      "pali": "sattānaṁ cutūpapātañāṇāya …pe… ",
+      "english": "knowledge of the death and rebirth of sentient beings … "
+    },
+    {
+      "number": 102,
+      "pali": "āsavānaṁ khayañāṇāya cittaṁ abhininnāmeti. ",
+      "english": "knowledge of the ending of defilements. "
+    },
+    {
+      "number": 103,
+      "pali": "So ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhasamudayo’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodho’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti. ",
+      "english": "They truly understand: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’. "
+    },
+    {
+      "number": 104,
+      "pali": "‘Ime āsavā’ti yathābhūtaṁ pajānāti, ‘ayaṁ āsavasamudayo’ti yathābhūtaṁ pajānāti, ‘ayaṁ āsavanirodho’ti yathābhūtaṁ pajānāti, ‘ayaṁ āsavanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti. ",
+      "english": "They truly understand: ‘These are defilements’ … ‘This is the origin of defilements’ … ‘This is the cessation of defilements’ … ‘This is the practice that leads to the cessation of defilements’. "
+    },
+    {
+      "number": 105,
+      "pali": "Tassa evaṁ jānato evaṁ passato kāmāsavāpi cittaṁ vimuccati, bhavāsavāpi cittaṁ vimuccati, avijjāsavāpi cittaṁ vimuccati; ",
+      "english": "Knowing and seeing like this, their mind is freed from the defilements of sensuality, desire to be reborn, and ignorance. "
+    },
+    {
+      "number": 106,
+      "pali": "vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. ",
+      "english": "When they’re freed, they know they’re freed. "
+    },
+    {
+      "number": 107,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
+    },
+    {
+      "number": 108,
+      "pali": "Evaṁ kho, bhikkhave, puggalo nevattantapo hoti nāttaparitāpanānuyogamanuyutto na parantapo na paraparitāpanānuyogamanuyutto. ",
+      "english": "That’s how one individual neither mortifies themselves nor others, pursuing the practice of not mortifying themselves or others, "
+    },
+    {
+      "number": 109,
+      "pali": "So na attantapo na parantapo diṭṭheva dhamme nicchāto nibbuto sītībhūto sukhappaṭisaṁvedī brahmabhūtena attanā viharati. ",
+      "english": "living without wishes in this very life, quenched, cooled, experiencing bliss, with self become divine. "
+    },
+    {
+      "number": 110,
+      "pali": "Ime kho, bhikkhave, cattāro puggalā santo saṁvijjamānā lokasmin”ti. ",
+      "english": "These are the four individuals found in the world.” "
+    },
+    {
+      "number": 111,
+      "pali": "Aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

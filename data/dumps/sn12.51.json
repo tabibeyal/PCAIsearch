@@ -1,0 +1,465 @@
+{
+  "sutta_id": "SN12.51",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 12.51 ",
+      "english": "Linked Discourses 12.51 "
+    },
+    {
+      "number": 2,
+      "pali": "6. Dukkhavagga ",
+      "english": "6. A Tree "
+    },
+    {
+      "number": 3,
+      "pali": "Parivīmaṁsanasutta ",
+      "english": "An Inquiry "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 6,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 7,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 8,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 9,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 10,
+      "pali": "“Kittāvatā nu kho, bhikkhave, bhikkhu parivīmaṁsamāno parivīmaṁseyya sabbaso sammā dukkhakkhayāyā”ti? ",
+      "english": "“Mendicants, when a mendicant is inquiring, how do you define when they are inquiring for the complete ending of suffering?” "
+    },
+    {
+      "number": 11,
+      "pali": "“Bhagavaṁmūlakā no, bhante, dhammā bhagavaṁnettikā bhagavaṁpaṭisaraṇā. Sādhu vata, bhante, bhagavantaṁyeva paṭibhātu etassa bhāsitassa attho. Bhagavato sutvā bhikkhū dhāressantī”ti. ",
+      "english": "“Our teachings are rooted in the Buddha. He is our guide and our refuge. Sir, may the Buddha himself please clarify the meaning of this. The mendicants will listen and remember it.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Tena hi, bhikkhave, suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "“Well then, mendicants, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 13,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 14,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 15,
+      "pali": "“Idha, bhikkhave, bhikkhu parivīmaṁsamāno parivīmaṁsati: ",
+      "english": "“Mendicants, take a mendicant who makes an inquiry: "
+    },
+    {
+      "number": 16,
+      "pali": "‘yaṁ kho idaṁ anekavidhaṁ nānappakārakaṁ dukkhaṁ loke uppajjati jarāmaraṇaṁ; ",
+      "english": "‘The suffering that arises in the world starting with old age and death takes many and diverse forms. "
+    },
+    {
+      "number": 17,
+      "pali": "idaṁ nu kho dukkhaṁ kiṁnidānaṁ kiṁsamudayaṁ kiṁjātikaṁ kiṁpabhavaṁ? ",
+      "english": "What is the source, origin, birthplace, and inception of this suffering? "
+    },
+    {
+      "number": 18,
+      "pali": "Kismiṁ sati jarāmaraṇaṁ hoti, kismiṁ asati jarāmaraṇaṁ na hotī’ti? ",
+      "english": "When what exists do old age and death come to be? When what does not exist do old age and death not come to be?’ "
+    },
+    {
+      "number": 19,
+      "pali": "So parivīmaṁsamāno evaṁ pajānāti: ",
+      "english": "While making an inquiry they understand: "
+    },
+    {
+      "number": 20,
+      "pali": "‘yaṁ kho idaṁ anekavidhaṁ nānappakārakaṁ dukkhaṁ loke uppajjati jarāmaraṇaṁ, idaṁ kho dukkhaṁ jātinidānaṁ jātisamudayaṁ jātijātikaṁ jātippabhavaṁ. ",
+      "english": "‘The suffering that arises in the world starting with old age and death takes many and diverse forms. The source of this suffering is rebirth. "
+    },
+    {
+      "number": 21,
+      "pali": "Jātiyā sati jarāmaraṇaṁ hoti, jātiyā asati jarāmaraṇaṁ na hotī’ti. ",
+      "english": "When rebirth exists, old age and death come to be. When rebirth doesn’t exist, old age and death don’t come to be.’ "
+    },
+    {
+      "number": 22,
+      "pali": "So jarāmaraṇañca pajānāti, jarāmaraṇasamudayañca pajānāti, jarāmaraṇanirodhañca pajānāti, yā ca jarāmaraṇanirodhasāruppagāminī paṭipadā tañca pajānāti, tathā paṭipanno ca hoti anudhammacārī; ",
+      "english": "They understand old age and death, their origin, their cessation, and the fitting practice for their cessation. And they practice in line with that path. "
+    },
+    {
+      "number": 23,
+      "pali": "ayaṁ vuccati, bhikkhave, bhikkhu sabbaso sammā dukkhakkhayāya paṭipanno jarāmaraṇanirodhāya. ",
+      "english": "This is called a mendicant who is practicing for the complete ending of suffering, for the cessation of old age and death. "
+    },
+    {
+      "number": 24,
+      "pali": "Athāparaṁ parivīmaṁsamāno parivīmaṁsati: ",
+      "english": "Then they inquire further: "
+    },
+    {
+      "number": 25,
+      "pali": "‘jāti panāyaṁ kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā, kismiṁ sati jāti hoti, kismiṁ asati jāti na hotī’ti? ",
+      "english": "‘But what is the source of this rebirth? When what exists does rebirth come to be? And when what does not exist does rebirth not come to be?’ "
+    },
+    {
+      "number": 26,
+      "pali": "So parivīmaṁsamāno evaṁ pajānāti: ",
+      "english": "While making an inquiry they understand: "
+    },
+    {
+      "number": 27,
+      "pali": "‘jāti bhavanidānā bhavasamudayā bhavajātikā bhavappabhavā; ",
+      "english": "‘Continued existence is the source of rebirth. "
+    },
+    {
+      "number": 28,
+      "pali": "bhave sati jāti hoti, bhave asati jāti na hotī’ti. ",
+      "english": "When continued existence exists, rebirth comes to be. When continued existence does not exist, rebirth doesn’t come to be.’ "
+    },
+    {
+      "number": 29,
+      "pali": "So jātiñca pajānāti, jātisamudayañca pajānāti, jātinirodhañca pajānāti, yā ca jātinirodhasāruppagāminī paṭipadā tañca pajānāti, tathā paṭipanno ca hoti anudhammacārī; ",
+      "english": "They understand rebirth, its origin, its cessation, and the fitting practice for its cessation. And they practice in line with that path. "
+    },
+    {
+      "number": 30,
+      "pali": "ayaṁ vuccati, bhikkhave, bhikkhu sabbaso sammā dukkhakkhayāya paṭipanno jātinirodhāya. ",
+      "english": "This is called a mendicant who is practicing for the complete ending of suffering, for the cessation of rebirth. "
+    },
+    {
+      "number": 31,
+      "pali": "Athāparaṁ parivīmaṁsamāno parivīmaṁsati: ",
+      "english": "Then they inquire further: "
+    },
+    {
+      "number": 32,
+      "pali": "‘bhavo panāyaṁ kiṁnidāno …pe… ",
+      "english": "‘But what is the source of this continued existence? …’ … "
+    },
+    {
+      "number": 33,
+      "pali": "upādānaṁ panidaṁ kiṁnidānaṁ … ",
+      "english": "‘But what is the source of this grasping? …’ … "
+    },
+    {
+      "number": 34,
+      "pali": "taṇhā panāyaṁ kiṁnidānā … ",
+      "english": "‘But what is the source of this craving? …’ … "
+    },
+    {
+      "number": 35,
+      "pali": "vedanā … ",
+      "english": "‘But what is the source of this feeling? …’ … "
+    },
+    {
+      "number": 36,
+      "pali": "phasso … ",
+      "english": "‘But what is the source of this contact? …’ … "
+    },
+    {
+      "number": 37,
+      "pali": "saḷāyatanaṁ panidaṁ kiṁnidānaṁ … ",
+      "english": "‘But what is the source of these six sense fields? …’ … "
+    },
+    {
+      "number": 38,
+      "pali": "nāmarūpaṁ panidaṁ … ",
+      "english": "‘But what is the source of this name and form? …’ … "
+    },
+    {
+      "number": 39,
+      "pali": "viññāṇaṁ panidaṁ … ",
+      "english": "‘But what is the source of this consciousness? …’ … "
+    },
+    {
+      "number": 40,
+      "pali": "saṅkhārā panime kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā; ",
+      "english": "‘But what is the source of these choices? "
+    },
+    {
+      "number": 41,
+      "pali": "kismiṁ sati saṅkhārā honti, kismiṁ asati saṅkhārā na hontī’ti? ",
+      "english": "When what exists do choices come to be? When what does not exist do choices not come to be?’ "
+    },
+    {
+      "number": 42,
+      "pali": "So parivīmaṁsamāno evaṁ pajānāti: ",
+      "english": "While making an inquiry they understand: "
+    },
+    {
+      "number": 43,
+      "pali": "‘saṅkhārā avijjānidānā avijjāsamudayā avijjājātikā avijjāpabhavā; ",
+      "english": "‘Ignorance is the source of choices. "
+    },
+    {
+      "number": 44,
+      "pali": "avijjāya sati saṅkhārā honti, avijjāya asati saṅkhārā na hontī’ti. ",
+      "english": "When ignorance exists, choices come to be. When ignorance does not exist, choices don’t come to be.’ "
+    },
+    {
+      "number": 45,
+      "pali": "So saṅkhāre ca pajānāti, saṅkhārasamudayañca pajānāti, saṅkhāranirodhañca pajānāti, yā ca saṅkhāranirodhasāruppagāminī paṭipadā tañca pajānāti, tathā paṭipanno ca hoti anudhammacārī; ",
+      "english": "They understand choices, their origin, their cessation, and the fitting practice for their cessation. And they practice in line with that path. "
+    },
+    {
+      "number": 46,
+      "pali": "ayaṁ vuccati, bhikkhave, bhikkhu sabbaso sammā dukkhakkhayāya paṭipanno saṅkhāranirodhāya. ",
+      "english": "This is called a mendicant who is practicing for the complete ending of suffering, for the cessation of choices. "
+    },
+    {
+      "number": 47,
+      "pali": "Avijjāgato yaṁ, bhikkhave, purisapuggalo puññañce saṅkhāraṁ abhisaṅkharoti, puññūpagaṁ hoti viññāṇaṁ. ",
+      "english": "If an ignoramus makes a good choice, consciousness passes on by means of goodness. "
+    },
+    {
+      "number": 48,
+      "pali": "Apuññañce saṅkhāraṁ abhisaṅkharoti, apuññūpagaṁ hoti viññāṇaṁ. ",
+      "english": "If they make a bad choice, consciousness passes on by means of badness. "
+    },
+    {
+      "number": 49,
+      "pali": "Āneñjañce saṅkhāraṁ abhisaṅkharoti āneñjūpagaṁ hoti viññāṇaṁ. ",
+      "english": "If they make an imperturbable choice, consciousness passes on by means of imperturbability. "
+    },
+    {
+      "number": 50,
+      "pali": "Yato kho, bhikkhave, bhikkhuno avijjā pahīnā hoti vijjā uppannā, so avijjāvirāgā vijjuppādā neva puññābhisaṅkhāraṁ abhisaṅkharoti na apuññābhisaṅkhāraṁ abhisaṅkharoti na āneñjābhisaṅkhāraṁ abhisaṅkharoti. ",
+      "english": "When a mendicant has given up ignorance and given rise to knowledge, with the fading away of ignorance and the arising of knowledge they don’t make a good choice, a bad choice, or an imperturbable choice. "
+    },
+    {
+      "number": 51,
+      "pali": "Anabhisaṅkharonto anabhisañcetayanto na kiñci loke upādiyati; ",
+      "english": "Not choosing or intending, they don’t grasp at anything in the world. "
+    },
+    {
+      "number": 52,
+      "pali": "anupādiyaṁ na paritassati, aparitassaṁ paccattaññeva parinibbāyati. ",
+      "english": "Not grasping, they’re not anxious. Not being anxious, they personally become extinguished. "
+    },
+    {
+      "number": 53,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
+    },
+    {
+      "number": 54,
+      "pali": "So sukhañce vedanaṁ vedayati, sā aniccāti pajānāti, anajjhositāti pajānāti, anabhinanditāti pajānāti. ",
+      "english": "If they feel a pleasant feeling, they understand that it’s impermanent, that they’re not attached to it, and that they don’t take pleasure in it. "
+    },
+    {
+      "number": 55,
+      "pali": "Dukkhañce vedanaṁ vedayati, sā aniccāti pajānāti, anajjhositāti pajānāti, anabhinanditāti pajānāti. ",
+      "english": "If they feel a painful feeling, they understand that it’s impermanent, that they’re not attached to it, and that they don’t take pleasure in it. "
+    },
+    {
+      "number": 56,
+      "pali": "Adukkhamasukhañce vedanaṁ vedayati, sā aniccāti pajānāti, anajjhositāti pajānāti, anabhinanditāti pajānāti. ",
+      "english": "If they feel a neutral feeling, they understand that it’s impermanent, that they’re not attached to it, and that they don’t take pleasure in it. "
+    },
+    {
+      "number": 57,
+      "pali": "So sukhañce vedanaṁ vedayati, visaṁyutto naṁ vedayati. ",
+      "english": "If they feel a pleasant feeling, they feel it detached. "
+    },
+    {
+      "number": 58,
+      "pali": "Dukkhañce vedanaṁ vedayati, visaṁyutto naṁ vedayati. ",
+      "english": "If they feel a painful feeling, they feel it detached. "
+    },
+    {
+      "number": 59,
+      "pali": "Adukkhamasukhañce vedanaṁ vedayati, visaṁyutto naṁ vedayati. ",
+      "english": "If they feel a neutral feeling, they feel it detached. "
+    },
+    {
+      "number": 60,
+      "pali": "So kāyapariyantikaṁ vedanaṁ vedayamāno kāyapariyantikaṁ vedanaṁ vedayāmīti pajānāti, jīvitapariyantikaṁ vedanaṁ vedayamāno jīvitapariyantikaṁ vedanaṁ vedayāmīti pajānāti. ",
+      "english": "Feeling the end of the body draw close, they understand: ‘I feel the end of the body draw close.’ Feeling the end of life draw close, they understand: ‘I feel the end of life draw close.’ "
+    },
+    {
+      "number": 61,
+      "pali": "Kāyassa bhedā uddhaṁ jīvitapariyādānā idheva sabbavedayitāni anabhinanditāni sītībhavissanti, sarīrāni avasissantīti pajānāti. ",
+      "english": "They understand: ‘When my body breaks up and my life has come to an end, everything that’s felt, since I no longer take pleasure in it, will become cool right here. Only bodily remains will be left.’ "
+    },
+    {
+      "number": 62,
+      "pali": "Seyyathāpi, bhikkhave, puriso kumbhakārapākā uṇhaṁ kumbhaṁ uddharitvā same bhūmibhāge paṭisisseyya. ",
+      "english": "Suppose a person were to remove a hot clay pot from a potter’s kiln and place it down on level ground. "
+    },
+    {
+      "number": 63,
+      "pali": "Tatra yāyaṁ usmā sā tattheva vūpasameyya, kapallāni avasisseyyuṁ. ",
+      "english": "Its heat would dissipate right there, and the shards would be left behind. "
+    },
+    {
+      "number": 64,
+      "pali": "Evameva kho, bhikkhave, bhikkhu kāyapariyantikaṁ vedanaṁ vedayamāno kāyapariyantikaṁ vedanaṁ vedayāmīti pajānāti, jīvitapariyantikaṁ vedanaṁ vedayamāno jīvitapariyantikaṁ vedanaṁ vedayāmīti pajānāti. ",
+      "english": "In the same way, feeling the end of the body draw close, they understand: ‘I feel the end of the body draw close.’ Feeling the end of life draw close, they understand: ‘I feel the end of life draw close.’ "
+    },
+    {
+      "number": 65,
+      "pali": "Kāyassa bhedā uddhaṁ jīvitapariyādānā idheva sabbavedayitāni anabhinanditāni sītībhavissanti, sarīrāni avasissantīti pajānāti. ",
+      "english": "They understand: ‘When my body breaks up and my life has come to an end, everything that’s felt, since I no longer take pleasure in it, will become cool right here. Only bodily remains will be left.’ "
+    },
+    {
+      "number": 66,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 67,
+      "pali": "api nu kho khīṇāsavo bhikkhu puññābhisaṅkhāraṁ vā abhisaṅkhareyya apuññābhisaṅkhāraṁ vā abhisaṅkhareyya āneñjābhisaṅkhāraṁ vā abhisaṅkhareyyā”ti? ",
+      "english": "Would a mendicant who has ended the defilements still make good choices, bad choices, or imperturbable choices?” "
+    },
+    {
+      "number": 68,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 69,
+      "pali": "“Sabbaso vā pana saṅkhāresu asati, saṅkhāranirodhā api nu kho viññāṇaṁ paññāyethā”ti? ",
+      "english": "“And when there are no choices at all, with the cessation of choices, would consciousness still be found?” "
+    },
+    {
+      "number": 70,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 71,
+      "pali": "“Sabbaso vā pana viññāṇe asati, viññāṇanirodhā api nu kho nāmarūpaṁ paññāyethā”ti? ",
+      "english": "“And when there’s no consciousness at all, would name and form still be found?” "
+    },
+    {
+      "number": 72,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 73,
+      "pali": "“Sabbaso vā pana nāmarūpe asati, nāmarūpanirodhā api nu kho saḷāyatanaṁ paññāyethā”ti? ",
+      "english": "“And when there are no name and form at all, would the six sense fields still be found?” "
+    },
+    {
+      "number": 74,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 75,
+      "pali": "“Sabbaso vā pana saḷāyatane asati, saḷāyatananirodhā api nu kho phasso paññāyethā”ti? ",
+      "english": "“And when there are no six sense fields at all, would contact still be found?” "
+    },
+    {
+      "number": 76,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 77,
+      "pali": "“Sabbaso vā pana phasse asati, phassanirodhā api nu kho vedanā paññāyethā”ti? ",
+      "english": "“And when there’s no contact at all, would feeling still be found?” "
+    },
+    {
+      "number": 78,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 79,
+      "pali": "“Sabbaso vā pana vedanāya asati, vedanānirodhā api nu kho taṇhā paññāyethā”ti? ",
+      "english": "“And when there’s no feeling at all, would craving still be found?” "
+    },
+    {
+      "number": 80,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 81,
+      "pali": "“Sabbaso vā pana taṇhāya asati, taṇhānirodhā api nu kho upādānaṁ paññāyethā”ti? ",
+      "english": "“And when there’s no craving at all, would grasping still be found?” "
+    },
+    {
+      "number": 82,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 83,
+      "pali": "“Sabbaso vā pana upādāne asati, upādānanirodhā api nu kho bhavo paññāyethā”ti. ",
+      "english": "“And when there’s no grasping at all, would continued existence still be found?” "
+    },
+    {
+      "number": 84,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 85,
+      "pali": "“Sabbaso vā pana bhave asati, bhavanirodhā api nu kho jāti paññāyethā”ti? ",
+      "english": "“And when there’s no continued existence at all, would rebirth still be found?” "
+    },
+    {
+      "number": 86,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 87,
+      "pali": "“Sabbaso vā pana jātiyā asati, jātinirodhā api nu kho jarāmaraṇaṁ paññāyethā”ti? ",
+      "english": "“And when there’s no rebirth at all, would old age and death still be found?” "
+    },
+    {
+      "number": 88,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 89,
+      "pali": "“Sādhu sādhu, bhikkhave, evametaṁ, bhikkhave, netaṁ aññathā. ",
+      "english": "“Good, good, mendicants! That’s how it is, not otherwise. "
+    },
+    {
+      "number": 90,
+      "pali": "Saddahatha me taṁ, bhikkhave, adhimuccatha, nikkaṅkhā ettha hotha nibbicikicchā. ",
+      "english": "Trust me on this, mendicants; be convinced. Have no doubts or uncertainties in this matter. "
+    },
+    {
+      "number": 91,
+      "pali": "Esevanto dukkhassā”ti. ",
+      "english": "Just this is the end of suffering.” "
+    },
+    {
+      "number": 92,
+      "pali": "Paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

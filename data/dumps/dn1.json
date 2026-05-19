@@ -1,0 +1,3315 @@
+{
+  "sutta_id": "DN1",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Dīgha Nikāya 1 ",
+      "english": "Long Discourses 1 "
+    },
+    {
+      "number": 2,
+      "pali": "Brahmajālasutta ",
+      "english": "The Divine Net "
+    },
+    {
+      "number": 3,
+      "pali": "1. Paribbājakakathā ",
+      "english": "1. Talk on Wanderers "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā antarā ca rājagahaṁ antarā ca nāḷandaṁ addhānamaggappaṭipanno hoti mahatā bhikkhusaṅghena saddhiṁ pañcamattehi bhikkhusatehi. ",
+      "english": "At one time the Buddha was traveling along the road between Rājagaha and Nāḷandā together with a large Saṅgha of five hundred mendicants. "
+    },
+    {
+      "number": 6,
+      "pali": "Suppiyopi kho paribbājako antarā ca rājagahaṁ antarā ca nāḷandaṁ addhānamaggappaṭipanno hoti saddhiṁ antevāsinā brahmadattena māṇavena. ",
+      "english": "The wanderer Suppiya was also traveling along the same road, together with his resident pupil, the student Brahmadatta. "
+    },
+    {
+      "number": 7,
+      "pali": "Tatra sudaṁ suppiyo paribbājako anekapariyāyena buddhassa avaṇṇaṁ bhāsati, dhammassa avaṇṇaṁ bhāsati, saṅghassa avaṇṇaṁ bhāsati; ",
+      "english": "Meanwhile, Suppiya criticized the Buddha, the teaching, and the Saṅgha in many ways, "
+    },
+    {
+      "number": 8,
+      "pali": "suppiyassa pana paribbājakassa antevāsī brahmadatto māṇavo anekapariyāyena buddhassa vaṇṇaṁ bhāsati, dhammassa vaṇṇaṁ bhāsati, saṅghassa vaṇṇaṁ bhāsati. ",
+      "english": "but his pupil Brahmadatta praised them in many ways. "
+    },
+    {
+      "number": 9,
+      "pali": "Itiha te ubho ācariyantevāsī aññamaññassa ujuvipaccanīkavādā bhagavantaṁ piṭṭhito piṭṭhito anubandhā honti bhikkhusaṅghañca. ",
+      "english": "And so both tutor and pupil followed behind the Buddha and the Saṅgha of mendicants directly contradicting each other. "
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho bhagavā ambalaṭṭhikāyaṁ rājāgārake ekarattivāsaṁ upagacchi saddhiṁ bhikkhusaṅghena. ",
+      "english": "Then the Buddha took up residence for the night in the royal rest-house in Ambalaṭṭhikā together with the Saṅgha of mendicants. "
+    },
+    {
+      "number": 11,
+      "pali": "Suppiyopi kho paribbājako ambalaṭṭhikāyaṁ rājāgārake ekarattivāsaṁ upagacchi antevāsinā brahmadattena māṇavena. ",
+      "english": "And Suppiya and Brahmadatta did likewise. "
+    },
+    {
+      "number": 12,
+      "pali": "Tatrapi sudaṁ suppiyo paribbājako anekapariyāyena buddhassa avaṇṇaṁ bhāsati, dhammassa avaṇṇaṁ bhāsati, saṅghassa avaṇṇaṁ bhāsati; ",
+      "english": "There too, Suppiya criticized the Buddha, the teaching, and the Saṅgha in many ways, "
+    },
+    {
+      "number": 13,
+      "pali": "suppiyassa pana paribbājakassa antevāsī brahmadatto māṇavo anekapariyāyena buddhassa vaṇṇaṁ bhāsati, dhammassa vaṇṇaṁ bhāsati, saṅghassa vaṇṇaṁ bhāsati. ",
+      "english": "but his pupil Brahmadatta praised them in many ways. "
+    },
+    {
+      "number": 14,
+      "pali": "Itiha te ubho ācariyantevāsī aññamaññassa ujuvipaccanīkavādā viharanti. ",
+      "english": "And so both tutor and pupil kept on directly contradicting each other. "
+    },
+    {
+      "number": 15,
+      "pali": "Atha kho sambahulānaṁ bhikkhūnaṁ rattiyā paccūsasamayaṁ paccuṭṭhitānaṁ maṇḍalamāḷe sannisinnānaṁ sannipatitānaṁ ayaṁ saṅkhiyadhammo udapādi: ",
+      "english": "Then several mendicants rose at the crack of dawn and sat together in the pavilion, where the topic of judgmentalism came up: "
+    },
+    {
+      "number": 16,
+      "pali": "“acchariyaṁ, āvuso, abbhutaṁ, āvuso, yāvañcidaṁ tena bhagavatā jānatā passatā arahatā sammāsambuddhena sattānaṁ nānādhimuttikatā suppaṭividitā. ",
+      "english": "“It’s incredible, reverends, it’s amazing how the diverse convictions of sentient beings have been well deciphered by the Blessed One, who knows and sees, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 17,
+      "pali": "Ayañhi suppiyo paribbājako anekapariyāyena buddhassa avaṇṇaṁ bhāsati, dhammassa avaṇṇaṁ bhāsati, saṅghassa avaṇṇaṁ bhāsati; ",
+      "english": "For this Suppiya criticizes the Buddha, the teaching, and the Saṅgha in many ways, "
+    },
+    {
+      "number": 18,
+      "pali": "suppiyassa pana paribbājakassa antevāsī brahmadatto māṇavo anekapariyāyena buddhassa vaṇṇaṁ bhāsati, dhammassa vaṇṇaṁ bhāsati, saṅghassa vaṇṇaṁ bhāsati. ",
+      "english": "while his pupil Brahmadatta praises them in many ways. "
+    },
+    {
+      "number": 19,
+      "pali": "Itihame ubho ācariyantevāsī aññamaññassa ujuvipaccanīkavādā bhagavantaṁ piṭṭhito piṭṭhito anubandhā honti bhikkhusaṅghañcā”ti. ",
+      "english": "And so both tutor and pupil followed behind the Buddha and the Saṅgha of mendicants directly contradicting each other.” "
+    },
+    {
+      "number": 20,
+      "pali": "Atha kho bhagavā tesaṁ bhikkhūnaṁ imaṁ saṅkhiyadhammaṁ viditvā yena maṇḍalamāḷo tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi. Nisajja kho bhagavā bhikkhū āmantesi: ",
+      "english": "When the Buddha found out about this discussion on judgmentalism among the mendicants, he went to the pavilion, where he sat on the seat spread out and addressed the mendicants, "
+    },
+    {
+      "number": 21,
+      "pali": "“kāya nuttha, bhikkhave, etarahi kathāya sannisinnā sannipatitā, kā ca pana vo antarākathā vippakatā”ti? ",
+      "english": "“Mendicants, what were you sitting talking about just now? What conversation was left unfinished?” "
+    },
+    {
+      "number": 22,
+      "pali": "Evaṁ vutte, te bhikkhū bhagavantaṁ etadavocuṁ: ",
+      "english": "The mendicants told him what had happened, adding, "
+    },
+    {
+      "number": 23,
+      "pali": "“idha, bhante, amhākaṁ rattiyā paccūsasamayaṁ paccuṭṭhitānaṁ maṇḍalamāḷe sannisinnānaṁ sannipatitānaṁ ayaṁ saṅkhiyadhammo udapādi: ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "‘acchariyaṁ, āvuso, abbhutaṁ, āvuso, yāvañcidaṁ tena bhagavatā jānatā passatā arahatā sammāsambuddhena sattānaṁ nānādhimuttikatā suppaṭividitā. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Ayañhi suppiyo paribbājako anekapariyāyena buddhassa avaṇṇaṁ bhāsati, dhammassa avaṇṇaṁ bhāsati, saṅghassa avaṇṇaṁ bhāsati; ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "suppiyassa pana paribbājakassa antevāsī brahmadatto māṇavo anekapariyāyena buddhassa vaṇṇaṁ bhāsati, dhammassa vaṇṇaṁ bhāsati, saṅghassa vaṇṇaṁ bhāsati. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "Itihame ubho ācariyantevāsī aññamaññassa ujuvipaccanīkavādā bhagavantaṁ piṭṭhito piṭṭhito anubandhā honti bhikkhusaṅghañcā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "Ayaṁ kho no, bhante, antarākathā vippakatā, atha bhagavā anuppatto”ti. ",
+      "english": "“This was our conversation that was unfinished when the Buddha arrived.” "
+    },
+    {
+      "number": 29,
+      "pali": "“Mamaṁ vā, bhikkhave, pare avaṇṇaṁ bhāseyyuṁ, dhammassa vā avaṇṇaṁ bhāseyyuṁ, saṅghassa vā avaṇṇaṁ bhāseyyuṁ, tatra tumhehi na āghāto na appaccayo na cetaso anabhiraddhi karaṇīyā. ",
+      "english": "“Mendicants, if others criticize me, the teaching, or the Saṅgha, don’t make yourselves resentful, bitter, and exasperated. "
+    },
+    {
+      "number": 30,
+      "pali": "Mamaṁ vā, bhikkhave, pare avaṇṇaṁ bhāseyyuṁ, dhammassa vā avaṇṇaṁ bhāseyyuṁ, saṅghassa vā avaṇṇaṁ bhāseyyuṁ, tatra ce tumhe assatha kupitā vā anattamanā vā, tumhaṁ yevassa tena antarāyo. ",
+      "english": "You’ll get angry and upset, which would be an obstacle for you alone. "
+    },
+    {
+      "number": 31,
+      "pali": "Mamaṁ vā, bhikkhave, pare avaṇṇaṁ bhāseyyuṁ, dhammassa vā avaṇṇaṁ bhāseyyuṁ, saṅghassa vā avaṇṇaṁ bhāseyyuṁ, tatra ce tumhe assatha kupitā vā anattamanā vā, api nu tumhe paresaṁ subhāsitaṁ dubbhāsitaṁ ājāneyyāthā”ti? ",
+      "english": "If others were to criticize me, the teaching, or the Saṅgha, and you got angry and upset, would you be able to understand whether they spoke well or poorly?” "
+    },
+    {
+      "number": 32,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 33,
+      "pali": "“Mamaṁ vā, bhikkhave, pare avaṇṇaṁ bhāseyyuṁ, dhammassa vā avaṇṇaṁ bhāseyyuṁ, saṅghassa vā avaṇṇaṁ bhāseyyuṁ, tatra tumhehi abhūtaṁ abhūtato nibbeṭhetabbaṁ: ",
+      "english": "“If others criticize me, the teaching, or the Saṅgha, you should explain that what is untrue is in fact untrue: "
+    },
+    {
+      "number": 34,
+      "pali": "‘itipetaṁ abhūtaṁ, itipetaṁ atacchaṁ, natthi cetaṁ amhesu, na ca panetaṁ amhesu saṁvijjatī’ti. ",
+      "english": "‘This is why that’s untrue, this is why that’s false. There’s no such thing in us, it’s not found among us.’ "
+    },
+    {
+      "number": 35,
+      "pali": "Mamaṁ vā, bhikkhave, pare vaṇṇaṁ bhāseyyuṁ, dhammassa vā vaṇṇaṁ bhāseyyuṁ, saṅghassa vā vaṇṇaṁ bhāseyyuṁ, tatra tumhehi na ānando na somanassaṁ na cetaso uppilāvitattaṁ karaṇīyaṁ. ",
+      "english": "If others praise me, the teaching, or the Saṅgha, don’t make yourselves thrilled, elated, and excited. "
+    },
+    {
+      "number": 36,
+      "pali": "Mamaṁ vā, bhikkhave, pare vaṇṇaṁ bhāseyyuṁ, dhammassa vā vaṇṇaṁ bhāseyyuṁ, saṅghassa vā vaṇṇaṁ bhāseyyuṁ, tatra ce tumhe assatha ānandino sumanā uppilāvitā tumhaṁ yevassa tena antarāyo. ",
+      "english": "You’ll get thrilled, elated, and excited, which would be an obstacle for you alone. "
+    },
+    {
+      "number": 37,
+      "pali": "Mamaṁ vā, bhikkhave, pare vaṇṇaṁ bhāseyyuṁ, dhammassa vā vaṇṇaṁ bhāseyyuṁ, saṅghassa vā vaṇṇaṁ bhāseyyuṁ, tatra tumhehi bhūtaṁ bhūtato paṭijānitabbaṁ: ",
+      "english": "If others praise me, the teaching, or the Saṅgha, you should admit that what is true is in fact true: "
+    },
+    {
+      "number": 38,
+      "pali": "‘itipetaṁ bhūtaṁ, itipetaṁ tacchaṁ, atthi cetaṁ amhesu, saṁvijjati ca panetaṁ amhesū’ti. ",
+      "english": "‘This is why that’s true, this is why that’s correct. There is such a thing in us, it is found among us.’ "
+    },
+    {
+      "number": 39,
+      "pali": "2. Sīla ",
+      "english": "2. Ethics "
+    },
+    {
+      "number": 40,
+      "pali": "2.1. Cūḷasīla ",
+      "english": "2.1. The Shorter Section on Ethics "
+    },
+    {
+      "number": 41,
+      "pali": "Appamattakaṁ kho panetaṁ, bhikkhave, oramattakaṁ sīlamattakaṁ, yena puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "When an ordinary person speaks praise of the Realized One, they speak only of trivial, trifling details of mere ethics. "
+    },
+    {
+      "number": 42,
+      "pali": "Katamañca taṁ, bhikkhave, appamattakaṁ oramattakaṁ sīlamattakaṁ, yena puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya? ",
+      "english": "And what are the trivial, trifling details of mere ethics that an ordinary person speaks of? "
+    },
+    {
+      "number": 43,
+      "pali": "‘Pāṇātipātaṁ pahāya pāṇātipātā paṭivirato samaṇo gotamo nihitadaṇḍo, nihitasattho, lajjī, dayāpanno, sabbapāṇabhūtahitānukampī viharatī’ti—",
+      "english": "‘The ascetic Gotama has given up killing living creatures. He has renounced the rod and the sword. He’s scrupulous and kind, living full of sympathy for all living beings.’ "
+    },
+    {
+      "number": 44,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 45,
+      "pali": "‘Adinnādānaṁ pahāya adinnādānā paṭivirato samaṇo gotamo dinnādāyī dinnapāṭikaṅkhī, athenena sucibhūtena attanā viharatī’ti—",
+      "english": "‘The ascetic Gotama has given up stealing. He takes only what’s given, and expects only what’s given. He keeps himself clean by not thieving.’ "
+    },
+    {
+      "number": 46,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 47,
+      "pali": "‘Abrahmacariyaṁ pahāya brahmacārī samaṇo gotamo ārācārī virato methunā gāmadhammā’ti—",
+      "english": "‘The ascetic Gotama has given up unchastity. He is chaste, set apart, avoiding the vulgar act of sex.’ "
+    },
+    {
+      "number": 48,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 49,
+      "pali": "‘Musāvādaṁ pahāya musāvādā paṭivirato samaṇo gotamo saccavādī saccasandho theto paccayiko avisaṁvādako lokassā’ti—",
+      "english": "‘The ascetic Gotama has given up lying. He speaks the truth and sticks to the truth. He’s honest and dependable, and doesn’t trick the world with his words.’ "
+    },
+    {
+      "number": 50,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 51,
+      "pali": "‘Pisuṇaṁ vācaṁ pahāya pisuṇāya vācāya paṭivirato samaṇo gotamo, ito sutvā na amutra akkhātā imesaṁ bhedāya, amutra vā sutvā na imesaṁ akkhātā amūsaṁ bhedāya. Iti bhinnānaṁ vā sandhātā, sahitānaṁ vā anuppadātā samaggārāmo samaggarato samagganandī samaggakaraṇiṁ vācaṁ bhāsitā’ti—",
+      "english": "‘The ascetic Gotama has given up backbiting. He doesn’t repeat in one place what he heard in another so as to divide people against each other. Instead, he reconciles those who are divided and support those who are united, delighting in harmony, loving harmony, speaking words that promote harmony.’ "
+    },
+    {
+      "number": 52,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 53,
+      "pali": "‘Pharusaṁ vācaṁ pahāya pharusāya vācāya paṭivirato samaṇo gotamo, yā sā vācā nelā kaṇṇasukhā pemanīyā hadayaṅgamā porī bahujanakantā bahujanamanāpā tathārūpiṁ vācaṁ bhāsitā’ti—",
+      "english": "‘The ascetic Gotama has given up harsh speech. He speaks in a way that’s mellow, pleasing to the ear, endearing, going to the heart, polite, likable and agreeable to the people.’ "
+    },
+    {
+      "number": 54,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 55,
+      "pali": "‘Samphappalāpaṁ pahāya samphappalāpā paṭivirato samaṇo gotamo kālavādī bhūtavādī atthavādī dhammavādī vinayavādī, nidhānavatiṁ vācaṁ bhāsitā kālena sāpadesaṁ pariyantavatiṁ atthasaṁhitan’ti—",
+      "english": "‘The ascetic Gotama has given up talking nonsense. His words are timely, true, and meaningful, in line with the teaching and training. He says things at the right time which are valuable, reasonable, succinct, and beneficial.’ "
+    },
+    {
+      "number": 56,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 57,
+      "pali": "‘Bījagāmabhūtagāmasamārambhā paṭivirato samaṇo gotamo’ti—",
+      "english": "‘The ascetic Gotama refrains from injuring plants and seeds.’ "
+    },
+    {
+      "number": 58,
+      "pali": "iti vā hi, bhikkhave …pe…. ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "‘Ekabhattiko samaṇo gotamo rattūparato virato vikālabhojanā …. ",
+      "english": "‘He eats in one part of the day, abstaining from eating at night and food at the wrong time.’ "
+    },
+    {
+      "number": 60,
+      "pali": "Naccagītavāditavisūkadassanā paṭivirato samaṇo gotamo …. ",
+      "english": "‘He refrains from seeing shows of dancing, singing, and music .’ "
+    },
+    {
+      "number": 61,
+      "pali": "Mālāgandhavilepanadhāraṇamaṇḍanavibhūsanaṭṭhānā paṭivirato samaṇo gotamo …. ",
+      "english": "‘He refrains from attiring and adorning himself with garlands, fragrance, and makeup.’ "
+    },
+    {
+      "number": 62,
+      "pali": "Uccāsayanamahāsayanā paṭivirato samaṇo gotamo …. ",
+      "english": "‘He refrains from high and luxurious beds.’ "
+    },
+    {
+      "number": 63,
+      "pali": "Jātarūparajatapaṭiggahaṇā paṭivirato samaṇo gotamo …. ",
+      "english": "‘He refrains from receiving gold and currency, "
+    },
+    {
+      "number": 64,
+      "pali": "Āmakadhaññapaṭiggahaṇā paṭivirato samaṇo gotamo …. ",
+      "english": "raw grains, "
+    },
+    {
+      "number": 65,
+      "pali": "Āmakamaṁsapaṭiggahaṇā paṭivirato samaṇo gotamo …. ",
+      "english": "raw meat, "
+    },
+    {
+      "number": 66,
+      "pali": "Itthikumārikapaṭiggahaṇā paṭivirato samaṇo gotamo …. ",
+      "english": "women and girls, "
+    },
+    {
+      "number": 67,
+      "pali": "Dāsidāsapaṭiggahaṇā paṭivirato samaṇo gotamo …. ",
+      "english": "male and female bondservants, "
+    },
+    {
+      "number": 68,
+      "pali": "Ajeḷakapaṭiggahaṇā paṭivirato samaṇo gotamo …. ",
+      "english": "goats and sheep, "
+    },
+    {
+      "number": 69,
+      "pali": "Kukkuṭasūkarapaṭiggahaṇā paṭivirato samaṇo gotamo …. ",
+      "english": "chickens and pigs, "
+    },
+    {
+      "number": 70,
+      "pali": "Hatthigavassavaḷavapaṭiggahaṇā paṭivirato samaṇo gotamo …. ",
+      "english": "elephants, cows, horses, and mares, "
+    },
+    {
+      "number": 71,
+      "pali": "Khettavatthupaṭiggahaṇā paṭivirato samaṇo gotamo …. ",
+      "english": "and fields and land.’ "
+    },
+    {
+      "number": 72,
+      "pali": "Dūteyyapahiṇagamanānuyogā paṭivirato samaṇo gotamo …. ",
+      "english": "‘He refrains from running errands and messages; "
+    },
+    {
+      "number": 73,
+      "pali": "Kayavikkayā paṭivirato samaṇo gotamo …. ",
+      "english": "buying and selling; "
+    },
+    {
+      "number": 74,
+      "pali": "Tulākūṭakaṁsakūṭamānakūṭā paṭivirato samaṇo gotamo …. ",
+      "english": "falsifying weights, metals, or measures; "
+    },
+    {
+      "number": 75,
+      "pali": "Ukkoṭanavañcananikatisāciyogā paṭivirato samaṇo gotamo …. ",
+      "english": "bribery, fraud, cheating, and duplicity; "
+    },
+    {
+      "number": 76,
+      "pali": "Chedanavadhabandhanaviparāmosaālopasahasākārā paṭivirato samaṇo gotamo’ti—",
+      "english": "mutilation, murder, abduction, banditry, plunder, and violence.’ "
+    },
+    {
+      "number": 77,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 78,
+      "pali": "Cūḷasīlaṁ niṭṭhitaṁ. ",
+      "english": "The shorter section on ethics is finished. "
+    },
+    {
+      "number": 79,
+      "pali": "2.2. Majjhimasīla ",
+      "english": "2.2. The Middle Section on Ethics "
+    },
+    {
+      "number": 80,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ bījagāmabhūtagāmasamārambhaṁ anuyuttā viharanti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still engage in injuring plants and seeds. "
+    },
+    {
+      "number": 81,
+      "pali": "seyyathidaṁ—mūlabījaṁ khandhabījaṁ phaḷubījaṁ aggabījaṁ bījabījameva pañcamaṁ; ",
+      "english": "These include plants propagated from roots, trunks, cuttings, or joints; and those from regular seeds as the fifth. "
+    },
+    {
+      "number": 82,
+      "pali": "iti evarūpā bījagāmabhūtagāmasamārambhā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such injury to plants and seeds.’ "
+    },
+    {
+      "number": 83,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 84,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ sannidhikāraparibhogaṁ anuyuttā viharanti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still engage in storing up goods for their own use. "
+    },
+    {
+      "number": 85,
+      "pali": "seyyathidaṁ—annasannidhiṁ pānasannidhiṁ vatthasannidhiṁ yānasannidhiṁ sayanasannidhiṁ gandhasannidhiṁ āmisasannidhiṁ ",
+      "english": "This includes such things as food, drink, clothes, vehicles, bedding, fragrance, and things of the flesh. "
+    },
+    {
+      "number": 86,
+      "pali": "iti vā iti evarūpā sannidhikāraparibhogā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from storing up such goods.’ "
+    },
+    {
+      "number": 87,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 88,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ visūkadassanaṁ anuyuttā viharanti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still engage in seeing shows. "
+    },
+    {
+      "number": 89,
+      "pali": "seyyathidaṁ—naccaṁ gītaṁ vāditaṁ pekkhaṁ akkhānaṁ pāṇissaraṁ vetāḷaṁ kumbhathūṇaṁ sobhanakaṁ caṇḍālaṁ vaṁsaṁ dhovanaṁ hatthiyuddhaṁ assayuddhaṁ mahiṁsayuddhaṁ usabhayuddhaṁ ajayuddhaṁ meṇḍayuddhaṁ kukkuṭayuddhaṁ vaṭṭakayuddhaṁ daṇḍayuddhaṁ muṭṭhiyuddhaṁ nibbuddhaṁ uyyodhikaṁ balaggaṁ senābyūhaṁ anīkadassanaṁ ",
+      "english": "This includes such things as dancing, singing, music, performances, and storytelling; clapping, gongs, and kettledrums; beauty pageants; pole-acrobatics and bone-washing displays of the corpse-workers; battles of elephants, horses, buffaloes, bulls, goats, rams, chickens, and quails; staff-fights, boxing, and wrestling; combat, roll calls of the armed forces, battle-formations, and regimental reviews. "
+    },
+    {
+      "number": 90,
+      "pali": "iti vā iti evarūpā visūkadassanā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such shows.’ "
+    },
+    {
+      "number": 91,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 92,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ jūtappamādaṭṭhānānuyogaṁ anuyuttā viharanti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still engage in gambling that causes negligence. "
+    },
+    {
+      "number": 93,
+      "pali": "seyyathidaṁ—aṭṭhapadaṁ dasapadaṁ ākāsaṁ parihārapathaṁ santikaṁ khalikaṁ ghaṭikaṁ salākahatthaṁ akkhaṁ paṅgacīraṁ vaṅkakaṁ mokkhacikaṁ ciṅgulikaṁ pattāḷhakaṁ rathakaṁ dhanukaṁ akkharikaṁ manesikaṁ yathāvajjaṁ ",
+      "english": "This includes such things as checkers with eight or ten rows, checkers in the air, hopscotch, spillikins, board-games, tip-cat, drawing straws, dice, leaf-flutes, toy plows, somersaults, pinwheels, toy measures, toy carts, toy bows, guessing words from syllables, guessing another’s thoughts, and imitating musical instruments. "
+    },
+    {
+      "number": 94,
+      "pali": "iti vā iti evarūpā jūtappamādaṭṭhānānuyogā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such gambling.’ "
+    },
+    {
+      "number": 95,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 96,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ uccāsayanamahāsayanaṁ anuyuttā viharanti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still make use of high and luxurious bedding. "
+    },
+    {
+      "number": 97,
+      "pali": "seyyathidaṁ—āsandiṁ pallaṅkaṁ gonakaṁ cittakaṁ paṭikaṁ paṭalikaṁ tūlikaṁ vikatikaṁ uddalomiṁ ekantalomiṁ kaṭṭissaṁ koseyyaṁ kuttakaṁ hatthattharaṁ assattharaṁ rathattharaṁ ajinappaveṇiṁ kadalimigapavarapaccattharaṇaṁ sauttaracchadaṁ ubhatolohitakūpadhānaṁ ",
+      "english": "This includes such things as sofas, couches, woolen covers—shag-piled, colorful, white, embroidered with flowers, quilted, embroidered with animals, double- or single-fringed—and silk covers studded with gems, as well as silken sheets, woven carpets, rugs for elephants, horses, or chariots, antelope hide rugs, and spreads of fine deer hide, with a canopy above and red cushions at both ends. "
+    },
+    {
+      "number": 98,
+      "pali": "iti vā iti evarūpā uccāsayanamahāsayanā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such bedding.’ "
+    },
+    {
+      "number": 99,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 100,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ maṇḍanavibhūsanaṭṭhānānuyogaṁ anuyuttā viharanti, seyyathidaṁ—",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still engage in attiring and adorning themselves with garlands, fragrance, and makeup. "
+    },
+    {
+      "number": 101,
+      "pali": "ucchādanaṁ parimaddanaṁ nhāpanaṁ sambāhanaṁ ādāsaṁ añjanaṁ mālāgandhavilepanaṁ mukhacuṇṇaṁ mukhalepanaṁ hatthabandhaṁ sikhābandhaṁ daṇḍaṁ nāḷikaṁ asiṁ chattaṁ citrupāhanaṁ uṇhīsaṁ maṇiṁ vālabījaniṁ odātāni vatthāni dīghadasāni ",
+      "english": "This includes such things as applying beauty products by anointing, massaging, bathing, and rubbing; mirrors, ointments, garlands, fragrances, and makeup; face-powder, foundation, bracelets, headbands, fancy walking-sticks or containers, rapiers, parasols, fancy sandals, turbans, jewelry, chowries, and long-fringed white robes. "
+    },
+    {
+      "number": 102,
+      "pali": "iti vā iti evarūpā maṇḍanavibhūsanaṭṭhānānuyogā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such beautification and adornment.’ "
+    },
+    {
+      "number": 103,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 104,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ tiracchānakathaṁ anuyuttā viharanti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still engage in low talk. This includes such topics as "
+    },
+    {
+      "number": 105,
+      "pali": "seyyathidaṁ—rājakathaṁ corakathaṁ mahāmattakathaṁ senākathaṁ bhayakathaṁ yuddhakathaṁ annakathaṁ pānakathaṁ vatthakathaṁ sayanakathaṁ mālākathaṁ gandhakathaṁ ñātikathaṁ yānakathaṁ gāmakathaṁ nigamakathaṁ nagarakathaṁ janapadakathaṁ itthikathaṁ sūrakathaṁ visikhākathaṁ kumbhaṭṭhānakathaṁ pubbapetakathaṁ nānattakathaṁ lokakkhāyikaṁ samuddakkhāyikaṁ itibhavābhavakathaṁ ",
+      "english": "talk about kings, bandits, and ministers; talk about armies, threats, and wars; talk about food, drink, clothes, and beds; talk about garlands and fragrances; talk about family, vehicles, villages, towns, cities, and countries; talk about women and heroes; street talk and well talk; talk about the departed; motley talk; tales of land and sea; and talk about being reborn in this or that place. "
+    },
+    {
+      "number": 106,
+      "pali": "iti vā iti evarūpāya tiracchānakathāya paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such low talk.’ "
+    },
+    {
+      "number": 107,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 108,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ viggāhikakathaṁ anuyuttā viharanti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still engage in arguments. "
+    },
+    {
+      "number": 109,
+      "pali": "seyyathidaṁ—na tvaṁ imaṁ dhammavinayaṁ ājānāsi, ahaṁ imaṁ dhammavinayaṁ ājānāmi, kiṁ tvaṁ imaṁ dhammavinayaṁ ājānissasi, micchā paṭipanno tvamasi, ahamasmi sammā paṭipanno, sahitaṁ me, asahitaṁ te, purevacanīyaṁ pacchā avaca, pacchāvacanīyaṁ pure avaca, adhiciṇṇaṁ te viparāvattaṁ, āropito te vādo, niggahito tvamasi, cara vādappamokkhāya, nibbeṭhehi vā sace pahosīti ",
+      "english": "They say such things as: “You don’t understand this teaching and training. I understand this teaching and training. What, you understand this teaching and training? You’re practicing wrong. I’m practicing right. I stay on topic, you don’t. You said last what you should have said first. You said first what you should have said last. What you’ve thought so much about has been disproved. Your doctrine is refuted. Go on, save your doctrine! You’re trapped; get yourself out of this—if you can!” "
+    },
+    {
+      "number": 110,
+      "pali": "iti vā iti evarūpāya viggāhikakathāya paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such argumentative talk.’ "
+    },
+    {
+      "number": 111,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 112,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ dūteyyapahiṇagamanānuyogaṁ anuyuttā viharanti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still engage in running errands and messages. "
+    },
+    {
+      "number": 113,
+      "pali": "seyyathidaṁ—raññaṁ, rājamahāmattānaṁ, khattiyānaṁ, brāhmaṇānaṁ, gahapatikānaṁ, kumārānaṁ “idha gaccha, amutrāgaccha, idaṁ hara, amutra idaṁ āharā”ti ",
+      "english": "This includes running errands for rulers, ministers, aristocrats, brahmins, householders, or princes who say: “Go here, go there. Take this, bring that from there.” "
+    },
+    {
+      "number": 114,
+      "pali": "iti vā iti evarūpā dūteyyapahiṇagamanānuyogā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such errands.’ "
+    },
+    {
+      "number": 115,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 116,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te kuhakā ca honti, lapakā ca nemittikā ca nippesikā ca, lābhena lābhaṁ nijigīsitāro ca ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still engage in deceit, flattery, hinting, and belittling, and using material things to chase after other material things. "
+    },
+    {
+      "number": 117,
+      "pali": "iti evarūpā kuhanalapanā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such fawning and flattery.’ "
+    },
+    {
+      "number": 118,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 119,
+      "pali": "Majjhimasīlaṁ niṭṭhitaṁ. ",
+      "english": "The middle section on ethics is finished. "
+    },
+    {
+      "number": 120,
+      "pali": "2.3. Mahāsīla ",
+      "english": "2.3. The Large Section on Ethics "
+    },
+    {
+      "number": 121,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. "
+    },
+    {
+      "number": 122,
+      "pali": "seyyathidaṁ—aṅgaṁ nimittaṁ uppātaṁ supinaṁ lakkhaṇaṁ mūsikacchinnaṁ aggihomaṁ dabbihomaṁ thusahomaṁ kaṇahomaṁ taṇḍulahomaṁ sappihomaṁ telahomaṁ mukhahomaṁ lohitahomaṁ aṅgavijjā vatthuvijjā khattavijjā sivavijjā bhūtavijjā bhūrivijjā ahivijjā visavijjā vicchikavijjā mūsikavijjā sakuṇavijjā vāyasavijjā pakkajjhānaṁ saraparittāṇaṁ migacakkaṁ ",
+      "english": "This includes such fields as augury, omenology, divining portents, interpreting dreams, divining features of men and women, divining holes in cloth gnawed by mice, fire offerings, ladle offerings, offerings of husks, rice powder, rice, ghee, or oil; offerings from the mouth, blood sacrifices, limb-reading; geomancy for building sites, fields, and cemeteries; exorcisms, earth magic, snake charming, poisons; the lore of the scorpion, the rat, the bird, and the crow; prophesying life span, chanting for protection, and divining omens from wild animals. "
+    },
+    {
+      "number": 123,
+      "pali": "iti vā iti evarūpāya tiracchānavijjāya micchājīvā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such low lore, such wrong livelihood.’ "
+    },
+    {
+      "number": 124,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 125,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. "
+    },
+    {
+      "number": 126,
+      "pali": "seyyathidaṁ—maṇilakkhaṇaṁ vatthalakkhaṇaṁ daṇḍalakkhaṇaṁ satthalakkhaṇaṁ asilakkhaṇaṁ usulakkhaṇaṁ dhanulakkhaṇaṁ āvudhalakkhaṇaṁ itthilakkhaṇaṁ purisalakkhaṇaṁ kumāralakkhaṇaṁ kumārilakkhaṇaṁ dāsalakkhaṇaṁ dāsilakkhaṇaṁ hatthilakkhaṇaṁ assalakkhaṇaṁ mahiṁsalakkhaṇaṁ usabhalakkhaṇaṁ golakkhaṇaṁ ajalakkhaṇaṁ meṇḍalakkhaṇaṁ kukkuṭalakkhaṇaṁ vaṭṭakalakkhaṇaṁ godhālakkhaṇaṁ kaṇṇikālakkhaṇaṁ kacchapalakkhaṇaṁ migalakkhaṇaṁ ",
+      "english": "This includes reading the marks of gems, cloth, clubs, swords, spears, arrows, bows, weapons, women, men, boys, girls, male and female bondservants, elephants, horses, buffaloes, bulls, cows, goats, rams, chickens, quails, monitor lizards, rabbits, tortoises, or deer. "
+    },
+    {
+      "number": 127,
+      "pali": "iti vā iti evarūpāya tiracchānavijjāya micchājīvā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such low lore, such wrong livelihood.’ "
+    },
+    {
+      "number": 128,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 129,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. "
+    },
+    {
+      "number": 130,
+      "pali": "seyyathidaṁ—raññaṁ niyyānaṁ bhavissati, raññaṁ aniyyānaṁ bhavissati, abbhantarānaṁ raññaṁ upayānaṁ bhavissati, bāhirānaṁ raññaṁ apayānaṁ bhavissati, bāhirānaṁ raññaṁ upayānaṁ bhavissati, abbhantarānaṁ raññaṁ apayānaṁ bhavissati, abbhantarānaṁ raññaṁ jayo bhavissati, bāhirānaṁ raññaṁ parājayo bhavissati, bāhirānaṁ raññaṁ jayo bhavissati, abbhantarānaṁ raññaṁ parājayo bhavissati, iti imassa jayo bhavissati, imassa parājayo bhavissati ",
+      "english": "This includes making predictions that the king will march forth or march back; or that our king will attack and the enemy king will retreat, or vice versa; or that our king will triumph and the enemy king will be defeated, or vice versa; and so there will be victory for one and defeat for the other. "
+    },
+    {
+      "number": 131,
+      "pali": "iti vā iti evarūpāya tiracchānavijjāya micchājīvā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such low lore, such wrong livelihood.’ "
+    },
+    {
+      "number": 132,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 133,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. "
+    },
+    {
+      "number": 134,
+      "pali": "seyyathidaṁ—candaggāho bhavissati, sūriyaggāho bhavissati, nakkhattaggāho bhavissati, candimasūriyānaṁ pathagamanaṁ bhavissati, candimasūriyānaṁ uppathagamanaṁ bhavissati, nakkhattānaṁ pathagamanaṁ bhavissati, nakkhattānaṁ uppathagamanaṁ bhavissati, ukkāpāto bhavissati, disāḍāho bhavissati, bhūmicālo bhavissati, devadudrabhi bhavissati, candimasūriyanakkhattānaṁ uggamanaṁ ogamanaṁ saṅkilesaṁ vodānaṁ bhavissati, evaṁvipāko candaggāho bhavissati, evaṁvipāko sūriyaggāho bhavissati, evaṁvipāko nakkhattaggāho bhavissati, evaṁvipākaṁ candimasūriyānaṁ pathagamanaṁ bhavissati, evaṁvipākaṁ candimasūriyānaṁ uppathagamanaṁ bhavissati, evaṁvipākaṁ nakkhattānaṁ pathagamanaṁ bhavissati, evaṁvipākaṁ nakkhattānaṁ uppathagamanaṁ bhavissati, evaṁvipāko ukkāpāto bhavissati, evaṁvipāko disāḍāho bhavissati, evaṁvipāko bhūmicālo bhavissati, evaṁvipāko devadudrabhi bhavissati, evaṁvipākaṁ candimasūriyanakkhattānaṁ uggamanaṁ ogamanaṁ saṅkilesaṁ vodānaṁ bhavissati ",
+      "english": "This includes making predictions that there will be an eclipse of the moon, or sun, or stars; that the sun, moon, and stars will be in conjunction or in opposition; that there will be a meteor shower, a fiery horizon, an earthquake, or thunder in the heavens; that there will be a rising, a setting, a darkening, a brightening of the moon, sun, and stars. And it also includes making predictions about the results of all such phenomena. "
+    },
+    {
+      "number": 135,
+      "pali": "iti vā iti evarūpāya tiracchānavijjāya micchājīvā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such low lore, such wrong livelihood.’ "
+    },
+    {
+      "number": 136,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 137,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. "
+    },
+    {
+      "number": 138,
+      "pali": "seyyathidaṁ—suvuṭṭhikā bhavissati, dubbuṭṭhikā bhavissati, subhikkhaṁ bhavissati, dubbhikkhaṁ bhavissati, khemaṁ bhavissati, bhayaṁ bhavissati, rogo bhavissati, ārogyaṁ bhavissati, muddā, gaṇanā, saṅkhānaṁ, kāveyyaṁ, lokāyataṁ ",
+      "english": "This includes predicting whether there will be plenty of rain or drought; plenty to eat or famine; an abundant harvest or a bad harvest; security or peril; sickness or health. It also includes such occupations as arithmetic, accounting, calculating, poetry, and cosmology. "
+    },
+    {
+      "number": 139,
+      "pali": "iti vā iti evarūpāya tiracchānavijjāya micchājīvā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such low lore, such wrong livelihood.’ "
+    },
+    {
+      "number": 140,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 141,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. "
+    },
+    {
+      "number": 142,
+      "pali": "seyyathidaṁ—āvāhanaṁ vivāhanaṁ saṁvaraṇaṁ vivaraṇaṁ saṅkiraṇaṁ vikiraṇaṁ subhagakaraṇaṁ dubbhagakaraṇaṁ viruddhagabbhakaraṇaṁ jivhānibandhanaṁ hanusaṁhananaṁ hatthābhijappanaṁ hanujappanaṁ kaṇṇajappanaṁ ādāsapañhaṁ kumārikapañhaṁ devapañhaṁ ādiccupaṭṭhānaṁ mahatupaṭṭhānaṁ abbhujjalanaṁ sirivhāyanaṁ ",
+      "english": "This includes making arrangements for giving and taking in marriage; for engagement and divorce; and for scattering rice inwards or outwards at the wedding ceremony. It also includes casting spells for good or bad luck, treating impacted fetuses, binding the tongue, or locking the jaws; charms for the hands and ears; questioning a mirror, a girl, or a god as an oracle; worshiping the sun, worshiping the Great One, breathing fire, and invoking Siri, the goddess of luck. "
+    },
+    {
+      "number": 143,
+      "pali": "iti vā iti evarūpāya tiracchānavijjāya micchājīvā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such low lore, such wrong livelihood.’ "
+    },
+    {
+      "number": 144,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 145,
+      "pali": "‘Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpāya tiracchānavijjāya micchājīvena jīvitaṁ kappenti, ",
+      "english": "‘There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. "
+    },
+    {
+      "number": 146,
+      "pali": "seyyathidaṁ—santikammaṁ paṇidhikammaṁ bhūtakammaṁ bhūrikammaṁ vassakammaṁ vossakammaṁ vatthukammaṁ vatthuparikammaṁ ācamanaṁ nhāpanaṁ juhanaṁ vamanaṁ virecanaṁ uddhaṁvirecanaṁ adhovirecanaṁ sīsavirecanaṁ kaṇṇatelaṁ nettatappanaṁ natthukammaṁ añjanaṁ paccañjanaṁ sālākiyaṁ sallakattiyaṁ dārakatikicchā mūlabhesajjānaṁ anuppadānaṁ osadhīnaṁ paṭimokkho ",
+      "english": "This includes rites for propitiation, for granting wishes, for ghosts, for the earth, for rain, for property settlement, and for preparing and consecrating house sites, and rites involving sipping water and bathing, and oblations. It also includes administering emetics, purgatives, expectorants, and phlegmagogues; administering ear-oils, eye restoratives, nasal medicine, ointments, and counter-ointments; surgery with needle and scalpel, treating children, prescribing root medicines, and herbal bandages. "
+    },
+    {
+      "number": 147,
+      "pali": "iti vā iti evarūpāya tiracchānavijjāya micchājīvā paṭivirato samaṇo gotamo’ti—",
+      "english": "The ascetic Gotama refrains from such low lore, such wrong livelihood.’ "
+    },
+    {
+      "number": 148,
+      "pali": "iti vā hi, bhikkhave, puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "Such is an ordinary person’s praise of the Realized One. "
+    },
+    {
+      "number": 149,
+      "pali": "Idaṁ kho, bhikkhave, appamattakaṁ oramattakaṁ sīlamattakaṁ, yena puthujjano tathāgatassa vaṇṇaṁ vadamāno vadeyya. ",
+      "english": "These are the trivial, trifling details of mere ethics that an ordinary person speaks of when they speak praise of the Realized One. "
+    },
+    {
+      "number": 150,
+      "pali": "Mahāsīlaṁ niṭṭhitaṁ. ",
+      "english": "The longer section on ethics is finished. "
+    },
+    {
+      "number": 151,
+      "pali": "3. Diṭṭhi ",
+      "english": "3. Views "
+    },
+    {
+      "number": 152,
+      "pali": "3.1. Pubbantakappika ",
+      "english": "3.1. Theories About the First Beginning "
+    },
+    {
+      "number": 153,
+      "pali": "Atthi, bhikkhave, aññeva dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "There are other principles—deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. Those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 154,
+      "pali": "Katame ca te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ? ",
+      "english": "And what are these principles? "
+    },
+    {
+      "number": 155,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā pubbantakappikā pubbantānudiṭṭhino, pubbantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti aṭṭhārasahi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who theorize about the first beginning, and assert various hypotheses concerning the first beginning on eighteen grounds. "
+    },
+    {
+      "number": 156,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha pubbantakappikā pubbantānudiṭṭhino pubbantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti aṭṭhārasahi vatthūhi? ",
+      "english": "And what are the eighteen grounds on which they rely? "
+    },
+    {
+      "number": 157,
+      "pali": "3.1.1. Sassatavāda ",
+      "english": "3.1.1. Eternalism "
+    },
+    {
+      "number": 158,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā sassatavādā, sassataṁ attānañca lokañca paññapenti catūhi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who are eternalists, who assert that the self and the cosmos are eternal on four grounds. "
+    },
+    {
+      "number": 159,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha sassatavādā sassataṁ attānañca lokañca paññapenti catūhi vatthūhi? ",
+      "english": "And what are the four grounds on which they rely? "
+    },
+    {
+      "number": 160,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte (…) anekavihitaṁ pubbenivāsaṁ anussarati. ",
+      "english": "It’s when some ascetic or brahmin—by dint of keen, resolute, committed, and diligent effort, and right application of mind—experiences an immersion of the heart of such a kind that they recollect their many kinds of past lives. "
+    },
+    {
+      "number": 161,
+      "pali": "Seyyathidaṁ—ekampi jātiṁ dvepi jātiyo tissopi jātiyo catassopi jātiyo pañcapi jātiyo dasapi jātiyo vīsampi jātiyo tiṁsampi jātiyo cattālīsampi jātiyo paññāsampi jātiyo jātisatampi jātisahassampi jātisatasahassampi anekānipi jātisatāni anekānipi jātisahassāni anekānipi jātisatasahassāni: ‘amutrāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto amutra udapādiṁ; tatrāpāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto idhūpapanno’ti. Iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarati. ",
+      "english": "That is: one, two, three, four, five, ten, twenty, thirty, forty, fifty, a hundred, a thousand, a hundred thousand rebirths. They remember: ‘There, I was named this, my clan was that, I looked like this, and that was my food. This was how I felt pleasure and pain, and that was how my life ended. When I passed away from that place I was reborn somewhere else. There, too, I was named this, my clan was that, I looked like this, and that was my food. This was how I felt pleasure and pain, and that was how my life ended. When I passed away from that place I was reborn here.’ And so they recollect their many kinds of past lives, with features and details. "
+    },
+    {
+      "number": 162,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 163,
+      "pali": "‘sassato attā ca loko ca vañjho kūṭaṭṭho esikaṭṭhāyiṭṭhito; ",
+      "english": "‘The self and the cosmos are eternal, barren, steady as a mountain peak, standing firm like a pillar. "
+    },
+    {
+      "number": 164,
+      "pali": "te ca sattā sandhāvanti saṁsaranti cavanti upapajjanti, atthi tveva sassatisamaṁ. ",
+      "english": "They remain the same for all eternity, while these sentient beings wander and transmigrate and pass away and rearise. "
+    },
+    {
+      "number": 165,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 166,
+      "pali": "Ahañhi ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusāmi, yathāsamāhite citte anekavihitaṁ pubbenivāsaṁ anussarāmi. ",
+      "english": "Because by dint of keen, resolute, committed, and diligent effort, and right application of mind I experience an immersion of the heart of such a kind that I recollect my many kinds of past lives, "
+    },
+    {
+      "number": 167,
+      "pali": "Seyyathidaṁ—ekampi jātiṁ dvepi jātiyo tissopi jātiyo catassopi jātiyo pañcapi jātiyo dasapi jātiyo vīsampi jātiyo tiṁsampi jātiyo cattālīsampi jātiyo paññāsampi jātiyo jātisatampi jātisahassampi jātisatasahassampi anekānipi jātisatāni anekānipi jātisahassāni anekānipi jātisatasahassāni: “amutrāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto amutra udapādiṁ; tatrāpāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto idhūpapanno”ti. Iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarāmi. ",
+      "english": "with features and details. "
+    },
+    {
+      "number": 168,
+      "pali": "Imināmahaṁ etaṁ jānāmi: ",
+      "english": "Because of this I know: "
+    },
+    {
+      "number": 169,
+      "pali": "“yathā sassato attā ca loko ca vañjho kūṭaṭṭho esikaṭṭhāyiṭṭhito; ",
+      "english": "“The self and the cosmos are eternal, barren, steady as a mountain peak, standing firm like a pillar. "
+    },
+    {
+      "number": 170,
+      "pali": "te ca sattā sandhāvanti saṁsaranti cavanti upapajjanti, atthi tveva sassatisaman”’ti. ",
+      "english": "They remain the same for all eternity, while these sentient beings wander and transmigrate and pass away and rearise.”’ "
+    },
+    {
+      "number": 171,
+      "pali": "Idaṁ, bhikkhave, paṭhamaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā sassatavādā sassataṁ attānañca lokañca paññapenti. ",
+      "english": "This is the first ground on which some ascetics and brahmins rely to assert that the self and the cosmos are eternal. "
+    },
+    {
+      "number": 172,
+      "pali": "Dutiye ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha sassatavādā sassataṁ attānañca lokañca paññapenti? ",
+      "english": "And what is the second ground on which they rely? "
+    },
+    {
+      "number": 173,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte anekavihitaṁ pubbenivāsaṁ anussarati. ",
+      "english": "It’s when some ascetic or brahmin—by dint of keen, resolute, committed, and diligent effort, and right application of mind—experiences an immersion of the heart of such a kind that they recollect their many kinds of past lives. "
+    },
+    {
+      "number": 174,
+      "pali": "Seyyathidaṁ—ekampi saṁvaṭṭavivaṭṭaṁ dvepi saṁvaṭṭavivaṭṭāni tīṇipi saṁvaṭṭavivaṭṭāni cattāripi saṁvaṭṭavivaṭṭāni pañcapi saṁvaṭṭavivaṭṭāni dasapi saṁvaṭṭavivaṭṭāni: ‘amutrāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto amutra udapādiṁ; tatrāpāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto idhūpapanno’ti. Iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarati. ",
+      "english": "That is: one eon of the cosmos contracting and expanding; two, three, four, five, or ten eons of the cosmos contracting and expanding. They remember: ‘There, I was named this, my clan was that, I looked like this, and that was my food. This was how I felt pleasure and pain, and that was how my life ended. When I passed away from that place I was reborn somewhere else. There, too, I was named this, my clan was that, I looked like this, and that was my food. This was how I felt pleasure and pain, and that was how my life ended. When I passed away from that place I was reborn here.’ And so they recollect their many kinds of past lives, with features and details. "
+    },
+    {
+      "number": 175,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 176,
+      "pali": "‘sassato attā ca loko ca vañjho kūṭaṭṭho esikaṭṭhāyiṭṭhito; ",
+      "english": "‘The self and the cosmos are eternal, barren, steady as a mountain peak, standing firm like a pillar. "
+    },
+    {
+      "number": 177,
+      "pali": "te ca sattā sandhāvanti saṁsaranti cavanti upapajjanti, atthi tveva sassatisamaṁ. ",
+      "english": "They remain the same for all eternity, while these sentient beings wander and transmigrate and pass away and rearise. "
+    },
+    {
+      "number": 178,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 179,
+      "pali": "Ahañhi ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusāmi yathāsamāhite citte anekavihitaṁ pubbenivāsaṁ anussarāmi. ",
+      "english": "Because by dint of keen, resolute, committed, and diligent effort, and right application of mind I experience an immersion of the heart of such a kind that I recollect my many kinds of past lives, "
+    },
+    {
+      "number": 180,
+      "pali": "Seyyathidaṁ—ekampi saṁvaṭṭavivaṭṭaṁ dvepi saṁvaṭṭavivaṭṭāni tīṇipi saṁvaṭṭavivaṭṭāni cattāripi saṁvaṭṭavivaṭṭāni pañcapi saṁvaṭṭavivaṭṭāni dasapi saṁvaṭṭavivaṭṭāni: “amutrāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto amutra udapādiṁ; tatrāpāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto idhūpapanno”ti. Iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarāmi. ",
+      "english": "with features and details. "
+    },
+    {
+      "number": 181,
+      "pali": "Imināmahaṁ etaṁ jānāmi: ",
+      "english": "Because of this I know: "
+    },
+    {
+      "number": 182,
+      "pali": "“yathā sassato attā ca loko ca vañjho kūṭaṭṭho esikaṭṭhāyiṭṭhito, te ca sattā sandhāvanti saṁsaranti cavanti upapajjanti, atthi tveva sassatisaman”’ti. ",
+      "english": "“The self and the cosmos are eternal, barren, steady as a mountain peak, standing firm like a pillar. They remain the same for all eternity, while these sentient beings wander and transmigrate and pass away and rearise.”’ "
+    },
+    {
+      "number": 183,
+      "pali": "Idaṁ, bhikkhave, dutiyaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā sassatavādā sassataṁ attānañca lokañca paññapenti. ",
+      "english": "This is the second ground on which some ascetics and brahmins rely to assert that the self and the cosmos are eternal. "
+    },
+    {
+      "number": 184,
+      "pali": "Tatiye ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha sassatavādā sassataṁ attānañca lokañca paññapenti? ",
+      "english": "And what is the third ground on which they rely? "
+    },
+    {
+      "number": 185,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte anekavihitaṁ pubbenivāsaṁ anussarati. ",
+      "english": "It’s when some ascetic or brahmin—by dint of keen, resolute, committed, and diligent effort, and right application of mind—experiences an immersion of the heart of such a kind that they recollect their many kinds of past lives. "
+    },
+    {
+      "number": 186,
+      "pali": "Seyyathidaṁ—dasapi saṁvaṭṭavivaṭṭāni vīsampi saṁvaṭṭavivaṭṭāni tiṁsampi saṁvaṭṭavivaṭṭāni cattālīsampi saṁvaṭṭavivaṭṭāni: ‘amutrāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto amutra udapādiṁ; tatrāpāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto idhūpapanno’ti. Iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarati. ",
+      "english": "That is: ten eons of the cosmos contracting and expanding; twenty, thirty, or forty eons of the cosmos contracting and expanding. They remember: ‘There, I was named this, my clan was that, I looked like this, and that was my food. This was how I felt pleasure and pain, and that was how my life ended. When I passed away from that place I was reborn somewhere else. There, too, I was named this, my clan was that, I looked like this, and that was my food. This was how I felt pleasure and pain, and that was how my life ended. When I passed away from that place I was reborn here.’ And so they recollect their many kinds of past lives, with features and details. "
+    },
+    {
+      "number": 187,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 188,
+      "pali": "‘sassato attā ca loko ca vañjho kūṭaṭṭho esikaṭṭhāyiṭṭhito; ",
+      "english": "‘The self and the cosmos are eternal, barren, steady as a mountain peak, standing firm like a pillar. "
+    },
+    {
+      "number": 189,
+      "pali": "te ca sattā sandhāvanti saṁsaranti cavanti upapajjanti, atthi tveva sassatisamaṁ. ",
+      "english": "They remain the same for all eternity, while these sentient beings wander and transmigrate and pass away and rearise. "
+    },
+    {
+      "number": 190,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 191,
+      "pali": "Ahañhi ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusāmi, yathāsamāhite citte anekavihitaṁ pubbenivāsaṁ anussarāmi. ",
+      "english": "Because by dint of keen, resolute, committed, and diligent effort, and right application of mind I experience an immersion of the heart of such a kind that I recollect my many kinds of past lives, "
+    },
+    {
+      "number": 192,
+      "pali": "Seyyathidaṁ—dasapi saṁvaṭṭavivaṭṭāni vīsampi saṁvaṭṭavivaṭṭāni tiṁsampi saṁvaṭṭavivaṭṭāni cattālīsampi saṁvaṭṭavivaṭṭāni: “amutrāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto amutra udapādiṁ; tatrāpāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto idhūpapanno”ti. Iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarāmi. ",
+      "english": "with features and details. "
+    },
+    {
+      "number": 193,
+      "pali": "Imināmahaṁ etaṁ jānāmi: ",
+      "english": "Because of this I know: "
+    },
+    {
+      "number": 194,
+      "pali": "“yathā sassato attā ca loko ca vañjho kūṭaṭṭho esikaṭṭhāyiṭṭhito, te ca sattā sandhāvanti saṁsaranti cavanti upapajjanti, atthi tveva sassatisaman”’ti. ",
+      "english": "“The self and the cosmos are eternal, barren, steady as a mountain peak, standing firm like a pillar. They remain the same for all eternity, while these sentient beings wander and transmigrate and pass away and rearise.”’ "
+    },
+    {
+      "number": 195,
+      "pali": "Idaṁ, bhikkhave, tatiyaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā sassatavādā sassataṁ attānañca lokañca paññapenti. ",
+      "english": "This is the third ground on which some ascetics and brahmins rely to assert that the self and the cosmos are eternal. "
+    },
+    {
+      "number": 196,
+      "pali": "Catutthe ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha sassatavādā sassataṁ attānañca lokañca paññapenti? ",
+      "english": "And what is the fourth ground on which they rely? "
+    },
+    {
+      "number": 197,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā takkī hoti vīmaṁsī, so takkapariyāhataṁ vīmaṁsānucaritaṁ sayaṁ paṭibhānaṁ evamāha: ",
+      "english": "It’s when some ascetic or brahmin relies on logic and inquiry. They speak of what they have worked out by logic, following a line of inquiry, expressing their own perspective: "
+    },
+    {
+      "number": 198,
+      "pali": "‘sassato attā ca loko ca vañjho kūṭaṭṭho esikaṭṭhāyiṭṭhito; ",
+      "english": "‘The self and the cosmos are eternal, barren, steady as a mountain peak, standing firm like a pillar. "
+    },
+    {
+      "number": 199,
+      "pali": "te ca sattā sandhāvanti saṁsaranti cavanti upapajjanti, atthi tveva sassatisaman’ti. ",
+      "english": "They remain the same for all eternity, while these sentient beings wander and transmigrate and pass away and rearise.’ "
+    },
+    {
+      "number": 200,
+      "pali": "Idaṁ, bhikkhave, catutthaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā sassatavādā sassataṁ attānañca lokañca paññapenti. ",
+      "english": "This is the fourth ground on which some ascetics and brahmins rely to assert that the self and the cosmos are eternal. "
+    },
+    {
+      "number": 201,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā sassatavādā sassataṁ attānañca lokañca paññapenti catūhi vatthūhi. ",
+      "english": "These are the four grounds on which those ascetics and brahmins assert that the self and the cosmos are eternal. "
+    },
+    {
+      "number": 202,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā sassatavādā sassataṁ attānañca lokañca paññapenti, sabbe te imeheva catūhi vatthūhi, etesaṁ vā aññatarena; natthi ito bahiddhā. ",
+      "english": "Any ascetics and brahmins who assert that the self and the cosmos are eternal do so on one or other of these four grounds. Outside of this there is none. "
+    },
+    {
+      "number": 203,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato pajānāti: ",
+      "english": "The Realized One understands this: "
+    },
+    {
+      "number": 204,
+      "pali": "‘ime diṭṭhiṭṭhānā evaṅgahitā evaṁparāmaṭṭhā evaṅgatikā bhavanti evaṁabhisamparāyā’ti, ",
+      "english": "‘If you hold on to and attach to these grounds for views it leads to such and such a destiny in the next life.’ "
+    },
+    {
+      "number": 205,
+      "pali": "tañca tathāgato pajānāti, tato ca uttaritaraṁ pajānāti; tañca pajānanaṁ na parāmasati, aparāmasato cassa paccattaññeva nibbuti viditā. ",
+      "english": "He understands this, and what goes beyond this. And since he does not misapprehend that understanding, he has realized quenching within himself. "
+    },
+    {
+      "number": 206,
+      "pali": "Vedanānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā anupādāvimutto, bhikkhave, tathāgato. ",
+      "english": "Having truly understood the origin, disappearance, gratification, drawback, and escape from feelings, the Realized One is freed through not grasping. "
+    },
+    {
+      "number": 207,
+      "pali": "Ime kho te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "These are the principles—deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 208,
+      "pali": "Paṭhamabhāṇavāro. ",
+      "english": "The first recitation section. "
+    },
+    {
+      "number": 209,
+      "pali": "3.1.2. Ekaccasassatavāda ",
+      "english": "3.1.2. Partial Eternalism "
+    },
+    {
+      "number": 210,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti catūhi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who are partial eternalists, who assert that the self and the cosmos are partially eternal and partially not eternal on four grounds. "
+    },
+    {
+      "number": 211,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti catūhi vatthūhi? ",
+      "english": "And what are the four grounds on which they rely? "
+    },
+    {
+      "number": 212,
+      "pali": "Hoti kho so, bhikkhave, samayo, yaṁ kadāci karahaci dīghassa addhuno accayena ayaṁ loko saṁvaṭṭati. ",
+      "english": "There comes a time when, after a very long period has passed, this cosmos contracts. "
+    },
+    {
+      "number": 213,
+      "pali": "Saṁvaṭṭamāne loke yebhuyyena sattā ābhassarasaṁvattanikā honti. ",
+      "english": "As the cosmos contracts, sentient beings are mostly headed for the realm of streaming radiance. "
+    },
+    {
+      "number": 214,
+      "pali": "Te tattha honti manomayā pītibhakkhā sayaṁpabhā antalikkhacarā subhaṭṭhāyino, ciraṁ dīghamaddhānaṁ tiṭṭhanti. ",
+      "english": "There they are mind-made, feeding on rapture, self-luminous, wandering in midair, steadily glorious, and they remain like that for a very long time. "
+    },
+    {
+      "number": 215,
+      "pali": "Hoti kho so, bhikkhave, samayo, yaṁ kadāci karahaci dīghassa addhuno accayena ayaṁ loko vivaṭṭati. ",
+      "english": "There comes a time when, after a very long period has passed, this cosmos expands. "
+    },
+    {
+      "number": 216,
+      "pali": "Vivaṭṭamāne loke suññaṁ brahmavimānaṁ pātubhavati. ",
+      "english": "As it expands an empty mansion of divinity appears. "
+    },
+    {
+      "number": 217,
+      "pali": "Atha kho aññataro satto āyukkhayā vā puññakkhayā vā ābhassarakāyā cavitvā suññaṁ brahmavimānaṁ upapajjati. ",
+      "english": "Then a certain sentient being—due to the running out of their lifespan or merit—passes away from that host of radiant deities and is reborn in that empty mansion of divinity. "
+    },
+    {
+      "number": 218,
+      "pali": "So tattha hoti manomayo pītibhakkho sayampabho antalikkhacaro subhaṭṭhāyī, ciraṁ dīghamaddhānaṁ tiṭṭhati. ",
+      "english": "There they are mind-made, feeding on rapture, self-luminous, wandering in midair, steadily glorious, and they remain like that for a very long time. "
+    },
+    {
+      "number": 219,
+      "pali": "Tassa tattha ekakassa dīgharattaṁ nivusitattā anabhirati paritassanā uppajjati: ",
+      "english": "But after staying there all alone for a long time, they become dissatisfied and anxious: "
+    },
+    {
+      "number": 220,
+      "pali": "‘aho vata aññepi sattā itthattaṁ āgaccheyyun’ti. ",
+      "english": "‘Oh, if only other beings would come to this place.’ "
+    },
+    {
+      "number": 221,
+      "pali": "Atha aññepi sattā āyukkhayā vā puññakkhayā vā ābhassarakāyā cavitvā brahmavimānaṁ upapajjanti tassa sattassa sahabyataṁ. ",
+      "english": "Then other sentient beings—due to the running out of their lifespan or merit—pass away from that host of radiant deities and are reborn in that mansion of divinity in company with that being. "
+    },
+    {
+      "number": 222,
+      "pali": "Tepi tattha honti manomayā pītibhakkhā sayaṁpabhā antalikkhacarā subhaṭṭhāyino, ciraṁ dīghamaddhānaṁ tiṭṭhanti. ",
+      "english": "There they too are mind-made, feeding on rapture, self-luminous, wandering in midair, steadily glorious, and they remain like that for a very long time. "
+    },
+    {
+      "number": 223,
+      "pali": "Tatra, bhikkhave, yo so satto paṭhamaṁ upapanno tassa evaṁ hoti: ",
+      "english": "Now, the being who was reborn there first thinks: "
+    },
+    {
+      "number": 224,
+      "pali": "‘ahamasmi brahmā mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī issaro kattā nimmātā seṭṭho sajitā vasī pitā bhūtabhabyānaṁ. ",
+      "english": "‘I am the Divinity, the Great Divinity, the Vanquisher, the Unvanquished, the Universal Seer, the Wielder of Power, God Almighty, the Maker, the Creator, the First, the Begetter, the Controller, the Father of those who have been born and those yet to be born. "
+    },
+    {
+      "number": 225,
+      "pali": "Mayā ime sattā nimmitā. ",
+      "english": "These beings were created by me! "
+    },
+    {
+      "number": 226,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 227,
+      "pali": "Mamañhi pubbe etadahosi: ",
+      "english": "Because first I thought: "
+    },
+    {
+      "number": 228,
+      "pali": "“aho vata aññepi sattā itthattaṁ āgaccheyyun”ti. ",
+      "english": "“Oh, if only other beings would come to this place.” "
+    },
+    {
+      "number": 229,
+      "pali": "Iti mama ca manopaṇidhi, ime ca sattā itthattaṁ āgatā’ti. ",
+      "english": "Such was my heart’s wish, and then these creatures came to this place.’ "
+    },
+    {
+      "number": 230,
+      "pali": "Yepi te sattā pacchā upapannā, tesampi evaṁ hoti: ",
+      "english": "And the beings who were reborn there later also think: "
+    },
+    {
+      "number": 231,
+      "pali": "‘ayaṁ kho bhavaṁ brahmā mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī issaro kattā nimmātā seṭṭho sajitā vasī pitā bhūtabhabyānaṁ. ",
+      "english": "‘This must be the Divinity, the Great Divinity, the Vanquisher, the Unvanquished, the Universal Seer, the Wielder of Power, God Almighty, the Maker, the Creator, the First, the Begetter, the Controller, the Father of those who have been born and those yet to be born. "
+    },
+    {
+      "number": 232,
+      "pali": "Iminā mayaṁ bhotā brahmunā nimmitā. ",
+      "english": "And we were created by him. "
+    },
+    {
+      "number": 233,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 234,
+      "pali": "Imañhi mayaṁ addasāma idha paṭhamaṁ upapannaṁ, mayaṁ panamha pacchā upapannā’ti. ",
+      "english": "Because we see that he was reborn here first, and we arrived later.’ "
+    },
+    {
+      "number": 235,
+      "pali": "Tatra, bhikkhave, yo so satto paṭhamaṁ upapanno, so dīghāyukataro ca hoti vaṇṇavantataro ca mahesakkhataro ca. ",
+      "english": "And the being who was reborn first is more long-lived, beautiful, and illustrious than those who arrived later. "
+    },
+    {
+      "number": 236,
+      "pali": "Ye pana te sattā pacchā upapannā, te appāyukatarā ca honti dubbaṇṇatarā ca appesakkhatarā ca. ",
+      "english": ""
+    },
+    {
+      "number": 237,
+      "pali": "Ṭhānaṁ kho panetaṁ, bhikkhave, vijjati, yaṁ aññataro satto tamhā kāyā cavitvā itthattaṁ āgacchati. ",
+      "english": "It’s possible that one of those beings passes away from that host and is reborn in this place. "
+    },
+    {
+      "number": 238,
+      "pali": "Itthattaṁ āgato samāno agārasmā anagāriyaṁ pabbajati. ",
+      "english": "Having done so, they go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 239,
+      "pali": "Agārasmā anagāriyaṁ pabbajito samāno ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte taṁ pubbenivāsaṁ anussarati, tato paraṁ nānussarati. ",
+      "english": "By dint of keen, resolute, committed, and diligent effort, and right application of mind, they experience an immersion of the heart of such a kind that they recollect that past life, but no further. "
+    },
+    {
+      "number": 240,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 241,
+      "pali": "‘yo kho so bhavaṁ brahmā mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī issaro kattā nimmātā seṭṭho sajitā vasī pitā bhūtabhabyānaṁ, yena mayaṁ bhotā brahmunā nimmitā, so nicco dhuvo sassato avipariṇāmadhammo sassatisamaṁ tatheva ṭhassati. ",
+      "english": "‘He who is the Divinity—the Great Divinity, the Vanquisher, the Unvanquished, the Universal Seer, the Wielder of Power, God Almighty, the Maker, the Creator, the First, the Begetter, the Controller, the Father of those who have been born and those yet to be born—by he we were created. He is permanent, everlasting, eternal, imperishable, remaining the same for all eternity. "
+    },
+    {
+      "number": 242,
+      "pali": "Ye pana mayaṁ ahumhā tena bhotā brahmunā nimmitā, te mayaṁ aniccā addhuvā appāyukā cavanadhammā itthattaṁ āgatā’ti. ",
+      "english": "We who were created by that Divinity are impermanent, not lasting, short-lived, liable to pass away, and have come to this place.’ "
+    },
+    {
+      "number": 243,
+      "pali": "Idaṁ, bhikkhave, paṭhamaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti. ",
+      "english": "This is the first ground on which some ascetics and brahmins rely to assert that the self and the cosmos are partially eternal. "
+    },
+    {
+      "number": 244,
+      "pali": "Dutiye ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti? ",
+      "english": "And what is the second ground on which they rely? "
+    },
+    {
+      "number": 245,
+      "pali": "Santi, bhikkhave, khiḍḍāpadosikā nāma devā, te ativelaṁ hassakhiḍḍāratidhammasamāpannā viharanti. Tesaṁ ativelaṁ hassakhiḍḍāratidhammasamāpannānaṁ viharataṁ sati sammussati. Satiyā sammosā te devā tamhā kāyā cavanti. ",
+      "english": "There are gods named ‘depraved by play.’ They spend too much time laughing, playing, and making merry. And in doing so, they lose their mindfulness, and they pass away from that host of gods. "
+    },
+    {
+      "number": 246,
+      "pali": "Ṭhānaṁ kho panetaṁ, bhikkhave, vijjati yaṁ aññataro satto tamhā kāyā cavitvā itthattaṁ āgacchati. ",
+      "english": "It’s possible that one of those beings passes away from that host and is reborn in this place. "
+    },
+    {
+      "number": 247,
+      "pali": "Itthattaṁ āgato samāno agārasmā anagāriyaṁ pabbajati. ",
+      "english": "Having done so, they go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 248,
+      "pali": "Agārasmā anagāriyaṁ pabbajito samāno ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte taṁ pubbenivāsaṁ anussarati, tato paraṁ nānussarati. ",
+      "english": "By dint of keen, resolute, committed, and diligent effort, and right application of mind, they experience an immersion of the heart of such a kind that they recollect that past life, but no further. "
+    },
+    {
+      "number": 249,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 250,
+      "pali": "‘ye kho te bhonto devā na khiḍḍāpadosikā, te na ativelaṁ hassakhiḍḍāratidhammasamāpannā viharanti. Tesaṁ na ativelaṁ hassakhiḍḍāratidhammasamāpannānaṁ viharataṁ sati na sammussati. Satiyā asammosā te devā tamhā kāyā na cavanti; ",
+      "english": "‘The gods not depraved by play don’t spend too much time laughing, playing, and making merry. So they don’t lose their mindfulness, and don’t pass away from that host of gods. "
+    },
+    {
+      "number": 251,
+      "pali": "niccā dhuvā sassatā avipariṇāmadhammā sassatisamaṁ tatheva ṭhassanti. ",
+      "english": "They are permanent, everlasting, eternal, imperishable, remaining the same for all eternity. "
+    },
+    {
+      "number": 252,
+      "pali": "Ye pana mayaṁ ahumhā khiḍḍāpadosikā, te mayaṁ ativelaṁ hassakhiḍḍāratidhammasamāpannā viharimhā. Tesaṁ no ativelaṁ hassakhiḍḍāratidhammasamāpannānaṁ viharataṁ sati sammussati. Satiyā sammosā evaṁ mayaṁ tamhā kāyā cutā ",
+      "english": "But we who were depraved by play spent too much time laughing, playing, and making merry. In doing so, we lost our mindfulness, and passed away from that host of gods. "
+    },
+    {
+      "number": 253,
+      "pali": "aniccā addhuvā appāyukā cavanadhammā itthattaṁ āgatā’ti. ",
+      "english": "We are impermanent, not lasting, short-lived, liable to pass away, and have come to this place.’ "
+    },
+    {
+      "number": 254,
+      "pali": "Idaṁ, bhikkhave, dutiyaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti. ",
+      "english": "This is the second ground on which some ascetics and brahmins rely to assert that the self and the cosmos are partially eternal. "
+    },
+    {
+      "number": 255,
+      "pali": "Tatiye ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti? ",
+      "english": "And what is the third ground on which they rely? "
+    },
+    {
+      "number": 256,
+      "pali": "Santi, bhikkhave, manopadosikā nāma devā, te ativelaṁ aññamaññaṁ upanijjhāyanti. Te ativelaṁ aññamaññaṁ upanijjhāyantā aññamaññamhi cittāni padūsenti. Te aññamaññaṁ paduṭṭhacittā kilantakāyā kilantacittā. Te devā tamhā kāyā cavanti. ",
+      "english": "There are gods named ‘malevolent’. They spend too much time gazing at each other, so they grow angry with each other, and their bodies and minds get tired. They pass away from that host of gods. "
+    },
+    {
+      "number": 257,
+      "pali": "Ṭhānaṁ kho panetaṁ, bhikkhave, vijjati yaṁ aññataro satto tamhā kāyā cavitvā itthattaṁ āgacchati. ",
+      "english": "It’s possible that one of those beings passes away from that host and is reborn in this place. "
+    },
+    {
+      "number": 258,
+      "pali": "Itthattaṁ āgato samāno agārasmā anagāriyaṁ pabbajati. ",
+      "english": "Having done so, they go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 259,
+      "pali": "Agārasmā anagāriyaṁ pabbajito samāno ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte taṁ pubbenivāsaṁ anussarati, tato paraṁ nānussarati. ",
+      "english": "By dint of keen, resolute, committed, and diligent effort, and right application of mind, they experience an immersion of the heart of such a kind that they recollect that past life, but no further. "
+    },
+    {
+      "number": 260,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 261,
+      "pali": "‘ye kho te bhonto devā na manopadosikā, te nātivelaṁ aññamaññaṁ upanijjhāyanti. Te nātivelaṁ aññamaññaṁ upanijjhāyantā aññamaññamhi cittāni nappadūsenti. Te aññamaññaṁ appaduṭṭhacittā akilantakāyā akilantacittā. Te devā tamhā kāyā na cavanti, ",
+      "english": "‘The gods who are not malevolent don’t spend too much time gazing at each other, so they don’t grow angry with each other, their bodies and minds don’t get tired, and they don’t pass away from that host of gods. "
+    },
+    {
+      "number": 262,
+      "pali": "niccā dhuvā sassatā avipariṇāmadhammā sassatisamaṁ tatheva ṭhassanti. ",
+      "english": "They are permanent, everlasting, eternal, imperishable, remaining the same for all eternity. "
+    },
+    {
+      "number": 263,
+      "pali": "Ye pana mayaṁ ahumhā manopadosikā, te mayaṁ ativelaṁ aññamaññaṁ upanijjhāyimhā. Te mayaṁ ativelaṁ aññamaññaṁ upanijjhāyantā aññamaññamhi cittāni padūsimhā, te mayaṁ aññamaññaṁ paduṭṭhacittā kilantakāyā kilantacittā. Evaṁ mayaṁ tamhā kāyā cutā ",
+      "english": "But we who were malevolent spent too much time gazing at each other, we grew angry with each other, our bodies and minds got tired, and we passed away from that host of gods. "
+    },
+    {
+      "number": 264,
+      "pali": "aniccā addhuvā appāyukā cavanadhammā itthattaṁ āgatā’ti. ",
+      "english": "We are impermanent, not lasting, short-lived, liable to pass away, and have come to this place.’ "
+    },
+    {
+      "number": 265,
+      "pali": "Idaṁ, bhikkhave, tatiyaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti. ",
+      "english": "This is the third ground on which some ascetics and brahmins rely to assert that the self and the cosmos are partially eternal. "
+    },
+    {
+      "number": 266,
+      "pali": "Catutthe ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti? ",
+      "english": "And what is the fourth ground on which they rely? "
+    },
+    {
+      "number": 267,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā takkī hoti vīmaṁsī. So takkapariyāhataṁ vīmaṁsānucaritaṁ sayampaṭibhānaṁ evamāha: ",
+      "english": "It’s when some ascetic or brahmin relies on logic and inquiry. They speak of what they have worked out by logic, following a line of inquiry, expressing their own perspective: "
+    },
+    {
+      "number": 268,
+      "pali": "‘yaṁ kho idaṁ vuccati cakkhuṁ itipi sotaṁ itipi ghānaṁ itipi jivhā itipi kāyo itipi, ayaṁ attā anicco addhuvo asassato vipariṇāmadhammo. ",
+      "english": "‘That which is called “the eye”, “the ear”, “the nose”, “the tongue”, and also “the body”: that self is impermanent, not lasting, transient, perishable. "
+    },
+    {
+      "number": 269,
+      "pali": "Yañca kho idaṁ vuccati cittanti vā manoti vā viññāṇanti vā ayaṁ attā nicco dhuvo sassato avipariṇāmadhammo sassatisamaṁ tatheva ṭhassatī’ti. ",
+      "english": "That which is called “mind” or “sentience” or “consciousness”: that self is permanent, everlasting, eternal, imperishable, remaining the same for all eternity.’ "
+    },
+    {
+      "number": 270,
+      "pali": "Idaṁ, bhikkhave, catutthaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti. ",
+      "english": "This is the fourth ground on which some ascetics and brahmins rely to assert that the self and the cosmos are partially eternal. "
+    },
+    {
+      "number": 271,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti catūhi vatthūhi. ",
+      "english": "These are the four grounds on which those ascetics and brahmins assert that the self and the cosmos are partially eternal and partially not eternal. "
+    },
+    {
+      "number": 272,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti, sabbe te imeheva catūhi vatthūhi, etesaṁ vā aññatarena; natthi ito bahiddhā. ",
+      "english": "Any ascetics and brahmins who assert that the self and the cosmos are partially eternal and partially not eternal do so on one or other of these four grounds. Outside of this there is none. "
+    },
+    {
+      "number": 273,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato pajānāti: ",
+      "english": "The Realized One understands this: "
+    },
+    {
+      "number": 274,
+      "pali": "‘ime diṭṭhiṭṭhānā evaṅgahitā evaṁparāmaṭṭhā evaṅgatikā bhavanti evaṁabhisamparāyā’ti. ",
+      "english": "‘If you hold on to and attach to these grounds for views it leads to such and such a destiny in the next life.’ "
+    },
+    {
+      "number": 275,
+      "pali": "Tañca tathāgato pajānāti, tato ca uttaritaraṁ pajānāti, tañca pajānanaṁ na parāmasati, aparāmasato cassa paccattaññeva nibbuti viditā. ",
+      "english": "He understands this, and what goes beyond this. And since he does not misapprehend that understanding, he has realized quenching within himself. "
+    },
+    {
+      "number": 276,
+      "pali": "Vedanānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā anupādāvimutto, bhikkhave, tathāgato. ",
+      "english": "Having truly understood the origin, disappearance, gratification, drawback, and escape from feelings, the Realized One is freed through not grasping. "
+    },
+    {
+      "number": 277,
+      "pali": "Ime kho te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "These are the principles—deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 278,
+      "pali": "3.1.3. Antānantavāda ",
+      "english": "3.1.3. The Cosmos is Finite or Infinite "
+    },
+    {
+      "number": 279,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā antānantikā antānantaṁ lokassa paññapenti catūhi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who theorize about size, and assert that the cosmos is finite or infinite on four grounds. "
+    },
+    {
+      "number": 280,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha antānantikā antānantaṁ lokassa paññapenti catūhi vatthūhi? ",
+      "english": "And what are the four grounds on which they rely? "
+    },
+    {
+      "number": 281,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte antasaññī lokasmiṁ viharati. ",
+      "english": "It’s when some ascetic or brahmin—by dint of keen, resolute, committed, and diligent effort, and right application of mind—experiences an immersion of the heart of such a kind that they meditate perceiving the cosmos as finite. "
+    },
+    {
+      "number": 282,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 283,
+      "pali": "‘antavā ayaṁ loko parivaṭumo. ",
+      "english": "‘The cosmos is finite and restricted. "
+    },
+    {
+      "number": 284,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 285,
+      "pali": "Ahañhi ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusāmi, yathāsamāhite citte antasaññī lokasmiṁ viharāmi. ",
+      "english": "Because by dint of keen, resolute, committed, and diligent effort, and right application of mind I experience an immersion of the heart of such a kind that I meditate perceiving the cosmos as finite. "
+    },
+    {
+      "number": 286,
+      "pali": "Imināmahaṁ etaṁ jānāmi: ",
+      "english": "Because of this I know: "
+    },
+    {
+      "number": 287,
+      "pali": "“yathā antavā ayaṁ loko parivaṭumo”’ti. ",
+      "english": "“The cosmos is finite and restricted.”’ "
+    },
+    {
+      "number": 288,
+      "pali": "Idaṁ, bhikkhave, paṭhamaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā antānantikā antānantaṁ lokassa paññapenti. ",
+      "english": "This is the first ground on which some ascetics and brahmins rely to assert that the cosmos is finite or infinite. "
+    },
+    {
+      "number": 289,
+      "pali": "Dutiye ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha antānantikā antānantaṁ lokassa paññapenti? ",
+      "english": "And what is the second ground on which they rely? "
+    },
+    {
+      "number": 290,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte anantasaññī lokasmiṁ viharati. ",
+      "english": "It’s when some ascetic or brahmin—by dint of keen, resolute, committed, and diligent effort, and right application of mind—experiences an immersion of the heart of such a kind that they meditate perceiving the cosmos as infinite. "
+    },
+    {
+      "number": 291,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 292,
+      "pali": "‘ananto ayaṁ loko apariyanto. ",
+      "english": "‘The cosmos is infinite and unbounded. "
+    },
+    {
+      "number": 293,
+      "pali": "Ye te samaṇabrāhmaṇā evamāhaṁsu: ",
+      "english": "The ascetics and brahmins who say that "
+    },
+    {
+      "number": 294,
+      "pali": "“antavā ayaṁ loko parivaṭumo”ti, tesaṁ musā. ",
+      "english": "the cosmos is finite are wrong. "
+    },
+    {
+      "number": 295,
+      "pali": "Ananto ayaṁ loko apariyanto. ",
+      "english": "The cosmos is infinite and unbounded. "
+    },
+    {
+      "number": 296,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 297,
+      "pali": "Ahañhi ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusāmi, yathāsamāhite citte anantasaññī lokasmiṁ viharāmi. ",
+      "english": "Because by dint of keen, resolute, committed, and diligent effort, and right application of mind I experience an immersion of the heart of such a kind that I meditate perceiving the cosmos as infinite. "
+    },
+    {
+      "number": 298,
+      "pali": "Imināmahaṁ etaṁ jānāmi: ",
+      "english": "Because of this I know: "
+    },
+    {
+      "number": 299,
+      "pali": "“yathā ananto ayaṁ loko apariyanto”’ti. ",
+      "english": "“The cosmos is infinite and unbounded.”’ "
+    },
+    {
+      "number": 300,
+      "pali": "Idaṁ, bhikkhave, dutiyaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā antānantikā antānantaṁ lokassa paññapenti. ",
+      "english": "This is the second ground on which some ascetics and brahmins rely to assert that the cosmos is finite or infinite. "
+    },
+    {
+      "number": 301,
+      "pali": "Tatiye ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha antānantikā antānantaṁ lokassa paññapenti? ",
+      "english": "And what is the third ground on which they rely? "
+    },
+    {
+      "number": 302,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte uddhamadho antasaññī lokasmiṁ viharati, tiriyaṁ anantasaññī. ",
+      "english": "It’s when some ascetic or brahmin—by dint of keen, resolute, committed, and diligent effort, and right application of mind—experiences an immersion of the heart of such a kind that they meditate perceiving the cosmos as finite vertically but infinite horizontally. "
+    },
+    {
+      "number": 303,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 304,
+      "pali": "‘antavā ca ayaṁ loko ananto ca. ",
+      "english": "‘The cosmos is both finite and infinite. "
+    },
+    {
+      "number": 305,
+      "pali": "Ye te samaṇabrāhmaṇā evamāhaṁsu: ",
+      "english": "The ascetics and brahmins who say that "
+    },
+    {
+      "number": 306,
+      "pali": "“antavā ayaṁ loko parivaṭumo”ti, tesaṁ musā. ",
+      "english": "the cosmos is finite are wrong, "
+    },
+    {
+      "number": 307,
+      "pali": "Yepi te samaṇabrāhmaṇā evamāhaṁsu: ",
+      "english": "and so are those who say that "
+    },
+    {
+      "number": 308,
+      "pali": "“ananto ayaṁ loko apariyanto”ti, tesampi musā. ",
+      "english": "the cosmos is infinite. "
+    },
+    {
+      "number": 309,
+      "pali": "Antavā ca ayaṁ loko ananto ca. ",
+      "english": "The cosmos is both finite and infinite. "
+    },
+    {
+      "number": 310,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 311,
+      "pali": "Ahañhi ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusāmi, yathāsamāhite citte uddhamadho antasaññī lokasmiṁ viharāmi, tiriyaṁ anantasaññī. ",
+      "english": "Because by dint of keen, resolute, committed, and diligent effort, and right application of mind I experience an immersion of the heart of such a kind that I meditate perceiving the cosmos as finite vertically but infinite horizontally. "
+    },
+    {
+      "number": 312,
+      "pali": "Imināmahaṁ etaṁ jānāmi: ",
+      "english": "Because of this I know: "
+    },
+    {
+      "number": 313,
+      "pali": "“yathā antavā ca ayaṁ loko ananto cā”’ti. ",
+      "english": "“The cosmos is both finite and infinite.”’ "
+    },
+    {
+      "number": 314,
+      "pali": "Idaṁ, bhikkhave, tatiyaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā antānantikā antānantaṁ lokassa paññapenti. ",
+      "english": "This is the third ground on which some ascetics and brahmins rely to assert that the cosmos is finite or infinite. "
+    },
+    {
+      "number": 315,
+      "pali": "Catutthe ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha antānantikā antānantaṁ lokassa paññapenti? ",
+      "english": "And what is the fourth ground on which they rely? "
+    },
+    {
+      "number": 316,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā takkī hoti vīmaṁsī. So takkapariyāhataṁ vīmaṁsānucaritaṁ sayampaṭibhānaṁ evamāha: ",
+      "english": "It’s when some ascetic or brahmin relies on logic and inquiry. They speak of what they have worked out by logic, following a line of inquiry, expressing their own perspective: "
+    },
+    {
+      "number": 317,
+      "pali": "‘nevāyaṁ loko antavā, na panānanto. ",
+      "english": "‘The cosmos is neither finite nor infinite. "
+    },
+    {
+      "number": 318,
+      "pali": "Ye te samaṇabrāhmaṇā evamāhaṁsu: ",
+      "english": "The ascetics and brahmins who say that "
+    },
+    {
+      "number": 319,
+      "pali": "“antavā ayaṁ loko parivaṭumo”ti, tesaṁ musā. ",
+      "english": "the cosmos is finite are wrong, "
+    },
+    {
+      "number": 320,
+      "pali": "Yepi te samaṇabrāhmaṇā evamāhaṁsu: ",
+      "english": "as are those who say that "
+    },
+    {
+      "number": 321,
+      "pali": "“ananto ayaṁ loko apariyanto”ti, tesampi musā. ",
+      "english": "the cosmos is infinite, "
+    },
+    {
+      "number": 322,
+      "pali": "Yepi te samaṇabrāhmaṇā evamāhaṁsu: ",
+      "english": "and also those who say that "
+    },
+    {
+      "number": 323,
+      "pali": "“antavā ca ayaṁ loko ananto cā”ti, tesampi musā. ",
+      "english": "the cosmos is both finite and infinite. "
+    },
+    {
+      "number": 324,
+      "pali": "Nevāyaṁ loko antavā, na panānanto’ti. ",
+      "english": "The cosmos is neither finite nor infinite.’ "
+    },
+    {
+      "number": 325,
+      "pali": "Idaṁ, bhikkhave, catutthaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā antānantikā antānantaṁ lokassa paññapenti. ",
+      "english": "This is the fourth ground on which some ascetics and brahmins rely to assert that the cosmos is finite or infinite. "
+    },
+    {
+      "number": 326,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā antānantikā antānantaṁ lokassa paññapenti catūhi vatthūhi. ",
+      "english": "These are the four grounds on which those ascetics and brahmins assert that the cosmos is finite or infinite. "
+    },
+    {
+      "number": 327,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā antānantikā antānantaṁ lokassa paññapenti, sabbe te imeheva catūhi vatthūhi, etesaṁ vā aññatarena; natthi ito bahiddhā. ",
+      "english": "Any ascetics and brahmins who assert that the cosmos is finite or infinite do so on one or other of these four grounds. Outside of this there is none. "
+    },
+    {
+      "number": 328,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato pajānāti: ",
+      "english": "The Realized One understands this: "
+    },
+    {
+      "number": 329,
+      "pali": "‘ime diṭṭhiṭṭhānā evaṅgahitā evaṁparāmaṭṭhā evaṅgatikā bhavanti evaṁabhisamparāyā’ti. ",
+      "english": "‘If you hold on to and attach to these grounds for views it leads to such and such a destiny in the next life.’ "
+    },
+    {
+      "number": 330,
+      "pali": "Tañca tathāgato pajānāti, tato ca uttaritaraṁ pajānāti, tañca pajānanaṁ na parāmasati, aparāmasato cassa paccattaññeva nibbuti viditā. ",
+      "english": "He understands this, and what goes beyond this. And since he does not misapprehend that understanding, he has realized quenching within himself. "
+    },
+    {
+      "number": 331,
+      "pali": "Vedanānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā anupādāvimutto, bhikkhave, tathāgato. ",
+      "english": "Having truly understood the origin, disappearance, gratification, drawback, and escape from feelings, the Realized One is freed through not grasping. "
+    },
+    {
+      "number": 332,
+      "pali": "Ime kho te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "These are the principles—deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 333,
+      "pali": "3.1.4. Amarāvikkhepavāda ",
+      "english": "3.1.4. Endless Flip-floppers "
+    },
+    {
+      "number": 334,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā amarāvikkhepikā, tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ catūhi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who are endless flip-floppers. Whenever they’re asked a question, they resort to verbal flip-flops and endless flip-flops on four grounds. "
+    },
+    {
+      "number": 335,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ catūhi vatthūhi? ",
+      "english": "And what are the four grounds on which they rely? "
+    },
+    {
+      "number": 336,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā ‘idaṁ kusalan’ti yathābhūtaṁ nappajānāti, ‘idaṁ akusalan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "It’s when some ascetic or brahmin doesn’t truly understand what is skillful and what is unskillful. "
+    },
+    {
+      "number": 337,
+      "pali": "Tassa evaṁ hoti: ",
+      "english": "They think: "
+    },
+    {
+      "number": 338,
+      "pali": "‘ahaṁ kho “idaṁ kusalan”ti yathābhūtaṁ nappajānāmi, “idaṁ akusalan”ti yathābhūtaṁ nappajānāmi. ",
+      "english": "‘I don’t truly understand what is skillful and what is unskillful. "
+    },
+    {
+      "number": 339,
+      "pali": "Ahañce kho pana “idaṁ kusalan”ti yathābhūtaṁ appajānanto, “idaṁ akusalan”ti yathābhūtaṁ appajānanto, “idaṁ kusalan”ti vā byākareyyaṁ, “idaṁ akusalan”ti vā byākareyyaṁ, taṁ mamassa musā. ",
+      "english": "If I were to declare that something was skillful or unskillful I might be wrong. "
+    },
+    {
+      "number": 340,
+      "pali": "Yaṁ mamassa musā, so mamassa vighāto. ",
+      "english": "That would be stressful for me, "
+    },
+    {
+      "number": 341,
+      "pali": "Yo mamassa vighāto so mamassa antarāyo’ti. ",
+      "english": "and that stress would be an obstacle.’ "
+    },
+    {
+      "number": 342,
+      "pali": "Iti so musāvādabhayā musāvādaparijegucchā nevidaṁ kusalanti byākaroti, na panidaṁ akusalanti byākaroti, tattha tattha pañhaṁ puṭṭho samāno vācāvikkhepaṁ āpajjati amarāvikkhepaṁ: ",
+      "english": "So from fear and disgust with false speech they avoid stating whether something is skillful or unskillful. Whenever they’re asked a question, they resort to verbal flip-flops and endless flip-flops: "
+    },
+    {
+      "number": 343,
+      "pali": "‘evantipi me no; tathātipi me no; aññathātipi me no; notipi me no; no notipi me no’ti. ",
+      "english": "‘I don’t say it’s like this. I don’t say it’s like that. I don’t say it’s otherwise. I don’t say it’s not so. And I don’t deny it’s not so.’ "
+    },
+    {
+      "number": 344,
+      "pali": "Idaṁ, bhikkhave, paṭhamaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ. ",
+      "english": "This is the first ground on which some ascetics and brahmins rely when resorting to verbal flip-flops and endless flip-flops. "
+    },
+    {
+      "number": 345,
+      "pali": "Dutiye ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ? ",
+      "english": "And what is the second ground on which they rely? "
+    },
+    {
+      "number": 346,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā ‘idaṁ kusalan’ti yathābhūtaṁ nappajānāti, ‘idaṁ akusalan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "It’s when some ascetic or brahmin doesn’t truly understand what is skillful and what is unskillful. "
+    },
+    {
+      "number": 347,
+      "pali": "Tassa evaṁ hoti: ",
+      "english": "They think: "
+    },
+    {
+      "number": 348,
+      "pali": "‘ahaṁ kho “idaṁ kusalan”ti yathābhūtaṁ nappajānāmi, “idaṁ akusalan”ti yathābhūtaṁ nappajānāmi. ",
+      "english": "‘I don’t truly understand what is skillful and what is unskillful. "
+    },
+    {
+      "number": 349,
+      "pali": "Ahañce kho pana “idaṁ kusalan”ti yathābhūtaṁ appajānanto, “idaṁ akusalan”ti yathābhūtaṁ appajānanto, “idaṁ kusalan”ti vā byākareyyaṁ, “idaṁ akusalan”ti vā byākareyyaṁ, tattha me assa chando vā rāgo vā doso vā paṭigho vā. ",
+      "english": "If I were to declare that something was skillful or unskillful I might feel desire or greed or hate or aversion. "
+    },
+    {
+      "number": 350,
+      "pali": "Yattha me assa chando vā rāgo vā doso vā paṭigho vā, taṁ mamassa upādānaṁ. ",
+      "english": "That would be grasping on my part. "
+    },
+    {
+      "number": 351,
+      "pali": "Yaṁ mamassa upādānaṁ, so mamassa vighāto. ",
+      "english": "That would be stressful for me, "
+    },
+    {
+      "number": 352,
+      "pali": "Yo mamassa vighāto, so mamassa antarāyo’ti. ",
+      "english": "and that stress would be an obstacle.’ "
+    },
+    {
+      "number": 353,
+      "pali": "Iti so upādānabhayā upādānaparijegucchā nevidaṁ kusalanti byākaroti, na panidaṁ akusalanti byākaroti, tattha tattha pañhaṁ puṭṭho samāno vācāvikkhepaṁ āpajjati amarāvikkhepaṁ: ",
+      "english": "So from fear and disgust with grasping they avoid stating whether something is skillful or unskillful. Whenever they’re asked a question, they resort to verbal flip-flops and endless flip-flops: "
+    },
+    {
+      "number": 354,
+      "pali": "‘evantipi me no; tathātipi me no; aññathātipi me no; notipi me no; no notipi me no’ti. ",
+      "english": "‘I don’t say it’s like this. I don’t say it’s like that. I don’t say it’s otherwise. I don’t say it’s not so. And I don’t deny it’s not so.’ "
+    },
+    {
+      "number": 355,
+      "pali": "Idaṁ, bhikkhave, dutiyaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ. ",
+      "english": "This is the second ground on which some ascetics and brahmins rely when resorting to verbal flip-flops and endless flip-flops. "
+    },
+    {
+      "number": 356,
+      "pali": "Tatiye ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ? ",
+      "english": "And what is the third ground on which they rely? "
+    },
+    {
+      "number": 357,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā ‘idaṁ kusalan’ti yathābhūtaṁ nappajānāti, ‘idaṁ akusalan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "It’s when some ascetic or brahmin doesn’t truly understand what is skillful and what is unskillful. "
+    },
+    {
+      "number": 358,
+      "pali": "Tassa evaṁ hoti: ",
+      "english": "They think: "
+    },
+    {
+      "number": 359,
+      "pali": "‘ahaṁ kho “idaṁ kusalan”ti yathābhūtaṁ nappajānāmi, “idaṁ akusalan”ti yathābhūtaṁ nappajānāmi. ",
+      "english": "‘I don’t truly understand what is skillful and what is unskillful. "
+    },
+    {
+      "number": 360,
+      "pali": "Ahañce kho pana “idaṁ kusalan”ti yathābhūtaṁ appajānanto “idaṁ akusalan”ti yathābhūtaṁ appajānanto “idaṁ kusalan”ti vā byākareyyaṁ, “idaṁ akusalan”ti vā byākareyyaṁ; ",
+      "english": "Suppose I were to declare that something was skillful or unskillful. "
+    },
+    {
+      "number": 361,
+      "pali": "santi hi kho samaṇabrāhmaṇā paṇḍitā nipuṇā kataparappavādā vālavedhirūpā, te bhindantā maññe caranti paññāgatena diṭṭhigatāni, ",
+      "english": "There are clever ascetics and brahmins who are subtle, accomplished in the doctrines of others, hair-splitters. You’d think they live to demolish convictions with their intellect. "
+    },
+    {
+      "number": 362,
+      "pali": "te maṁ tattha samanuyuñjeyyuṁ samanugāheyyuṁ samanubhāseyyuṁ. ",
+      "english": "They might pursue, press, and grill me about that. "
+    },
+    {
+      "number": 363,
+      "pali": "Ye maṁ tattha samanuyuñjeyyuṁ samanugāheyyuṁ samanubhāseyyuṁ, tesāhaṁ na sampāyeyyaṁ. ",
+      "english": "I’d be stumped by such a grilling. "
+    },
+    {
+      "number": 364,
+      "pali": "Yesāhaṁ na sampāyeyyaṁ, so mamassa vighāto. ",
+      "english": "That would be stressful for me, "
+    },
+    {
+      "number": 365,
+      "pali": "Yo mamassa vighāto, so mamassa antarāyo’ti. ",
+      "english": "and that stress would be an obstacle.’ "
+    },
+    {
+      "number": 366,
+      "pali": "Iti so anuyogabhayā anuyogaparijegucchā nevidaṁ kusalanti byākaroti, na panidaṁ akusalanti byākaroti, tattha tattha pañhaṁ puṭṭho samāno vācāvikkhepaṁ āpajjati amarāvikkhepaṁ: ",
+      "english": "So from fear and disgust with examination they avoid stating whether something is skillful or unskillful. Whenever they’re asked a question, they resort to verbal flip-flops and endless flip-flops: "
+    },
+    {
+      "number": 367,
+      "pali": "‘evantipi me no; tathātipi me no; aññathātipi me no; notipi me no; no notipi me no’ti. ",
+      "english": "‘I don’t say it’s like this. I don’t say it’s like that. I don’t say it’s otherwise. I don’t say it’s not so. And I don’t deny it’s not so.’ "
+    },
+    {
+      "number": 368,
+      "pali": "Idaṁ, bhikkhave, tatiyaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ. ",
+      "english": "This is the third ground on which some ascetics and brahmins rely when resorting to verbal flip-flops and endless flip-flops. "
+    },
+    {
+      "number": 369,
+      "pali": "Catutthe ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ? ",
+      "english": "And what is the fourth ground on which they rely? "
+    },
+    {
+      "number": 370,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā mando hoti momūho. ",
+      "english": "It’s when some ascetic or brahmin is dull and stupid. "
+    },
+    {
+      "number": 371,
+      "pali": "So mandattā momūhattā tattha tattha pañhaṁ puṭṭho samāno vācāvikkhepaṁ āpajjati amarāvikkhepaṁ: ",
+      "english": "Because of that, whenever they’re asked a question, they resort to verbal flip-flops and endless flip-flops: "
+    },
+    {
+      "number": 372,
+      "pali": "‘atthi paro loko’ti iti ce maṁ pucchasi, ‘atthi paro loko’ti iti ce me assa, ‘atthi paro loko’ti iti te naṁ byākareyyaṁ, ",
+      "english": "‘Suppose you were to ask me whether there is another world. If I believed that to be the case, I would say so. "
+    },
+    {
+      "number": 373,
+      "pali": "‘evantipi me no, tathātipi me no, aññathātipi me no, notipi me no, no notipi me no’ti. ",
+      "english": "But I don’t say it’s like this. I don’t say it’s like that. I don’t say it’s otherwise. I don’t say it’s not so. And I don’t deny it’s not so. "
+    },
+    {
+      "number": 374,
+      "pali": "‘Natthi paro loko …pe… ",
+      "english": "Suppose you were to ask me whether there is no other world … "
+    },
+    {
+      "number": 375,
+      "pali": "‘atthi ca natthi ca paro loko …pe… ",
+      "english": "whether there both is and is not another world … "
+    },
+    {
+      "number": 376,
+      "pali": "‘nevatthi na natthi paro loko …pe… ",
+      "english": "whether there neither is nor is not another world … "
+    },
+    {
+      "number": 377,
+      "pali": "‘atthi sattā opapātikā …pe… ",
+      "english": "whether there are beings who are reborn spontaneously … "
+    },
+    {
+      "number": 378,
+      "pali": "‘natthi sattā opapātikā …pe… ",
+      "english": "whether there are not beings who are reborn spontaneously … "
+    },
+    {
+      "number": 379,
+      "pali": "‘atthi ca natthi ca sattā opapātikā …pe… ",
+      "english": "whether there both are and are not beings who are reborn spontaneously … "
+    },
+    {
+      "number": 380,
+      "pali": "‘nevatthi na natthi sattā opapātikā …pe… ",
+      "english": "whether there neither are nor are not beings who are reborn spontaneously … "
+    },
+    {
+      "number": 381,
+      "pali": "‘atthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko …pe… ",
+      "english": "whether there is fruit and result of good and bad deeds … "
+    },
+    {
+      "number": 382,
+      "pali": "‘natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko …pe… ",
+      "english": "whether there is no fruit and result of good and bad deeds … "
+    },
+    {
+      "number": 383,
+      "pali": "‘atthi ca natthi ca sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko …pe… ",
+      "english": "whether there both is and is not fruit and result of good and bad deeds … "
+    },
+    {
+      "number": 384,
+      "pali": "‘nevatthi na natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko …pe… ",
+      "english": "whether there neither is nor is not fruit and result of good and bad deeds … "
+    },
+    {
+      "number": 385,
+      "pali": "‘hoti tathāgato paraṁ maraṇā …pe… ",
+      "english": "whether a realized one still exists after death … "
+    },
+    {
+      "number": 386,
+      "pali": "‘na hoti tathāgato paraṁ maraṇā …pe… ",
+      "english": "whether a realized one no longer exists after death … "
+    },
+    {
+      "number": 387,
+      "pali": "‘hoti ca na ca hoti tathāgato paraṁ maraṇā …pe… ",
+      "english": "whether a realized one both still exists and no longer exists after death … "
+    },
+    {
+      "number": 388,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti iti ce maṁ pucchasi, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti iti ce me assa, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti iti te naṁ byākareyyaṁ, ",
+      "english": "whether a realized one neither exists nor doesn’t exist after death. If I believed that to be the case, I would say so. "
+    },
+    {
+      "number": 389,
+      "pali": "‘evantipi me no, tathātipi me no, aññathātipi me no, notipi me no, no notipi me no’ti. ",
+      "english": "But I don’t say it’s like this. I don’t say it’s like that. I don’t say it’s otherwise. I don’t say it’s not so. And I don’t deny it’s not so.’ "
+    },
+    {
+      "number": 390,
+      "pali": "Idaṁ, bhikkhave, catutthaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ. ",
+      "english": "This is the fourth ground on which some ascetics and brahmins rely when resorting to verbal flip-flops and endless flip-flops. "
+    },
+    {
+      "number": 391,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ catūhi vatthūhi. ",
+      "english": "These are the four grounds on which those ascetics and brahmins who are flip-floppers resort to verbal flip-flops and endless flip-flops whenever they’re asked a question. "
+    },
+    {
+      "number": 392,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ, sabbe te imeheva catūhi vatthūhi, etesaṁ vā aññatarena, natthi ito bahiddhā … ",
+      "english": "Any ascetics and brahmins who resort to verbal flip-flops and endless flip-flops do so on one or other of these four grounds. Outside of this there is none. "
+    },
+    {
+      "number": 393,
+      "pali": "pe… ",
+      "english": "The Realized One understands this … "
+    },
+    {
+      "number": 394,
+      "pali": "yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 395,
+      "pali": "3.1.5. Adhiccasamuppannavāda ",
+      "english": "3.1.5. Doctrines of Anomalous Origination "
+    },
+    {
+      "number": 396,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā adhiccasamuppannikā adhiccasamuppannaṁ attānañca lokañca paññapenti dvīhi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who theorize about anomalous origination. They assert that the self and the cosmos arose anomalously on two grounds. "
+    },
+    {
+      "number": 397,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha adhiccasamuppannikā adhiccasamuppannaṁ attānañca lokañca paññapenti dvīhi vatthūhi? ",
+      "english": "And what are the two grounds on which they rely? "
+    },
+    {
+      "number": 398,
+      "pali": "Santi, bhikkhave, asaññasattā nāma devā. ",
+      "english": "There are gods named ‘non-percipient beings’. "
+    },
+    {
+      "number": 399,
+      "pali": "Saññuppādā ca pana te devā tamhā kāyā cavanti. ",
+      "english": "When perception arises they pass away from that host of gods. "
+    },
+    {
+      "number": 400,
+      "pali": "Ṭhānaṁ kho panetaṁ, bhikkhave, vijjati, yaṁ aññataro satto tamhā kāyā cavitvā itthattaṁ āgacchati. ",
+      "english": "It’s possible that one of those beings passes away from that host and is reborn in this place. "
+    },
+    {
+      "number": 401,
+      "pali": "Itthattaṁ āgato samāno agārasmā anagāriyaṁ pabbajati. ",
+      "english": "Having done so, they go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 402,
+      "pali": "Agārasmā anagāriyaṁ pabbajito samāno ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṁ cetosamādhiṁ phusati, yathāsamāhite citte saññuppādaṁ anussarati, tato paraṁ nānussarati. ",
+      "english": "By dint of keen, resolute, committed, and diligent effort, and right application of mind, they experience an immersion of the heart of such a kind that they recollect the arising of perception, but no further. "
+    },
+    {
+      "number": 403,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 404,
+      "pali": "‘adhiccasamuppanno attā ca loko ca. ",
+      "english": "‘The self and the cosmos arose anomalously. "
+    },
+    {
+      "number": 405,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 406,
+      "pali": "Ahañhi pubbe nāhosiṁ, somhi etarahi ahutvā santatāya pariṇato’ti. ",
+      "english": "Because formerly I didn’t exist, whereas now, having not existed, I’ve transformed into the state of existing.” "
+    },
+    {
+      "number": 407,
+      "pali": "Idaṁ, bhikkhave, paṭhamaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā adhiccasamuppannikā adhiccasamuppannaṁ attānañca lokañca paññapenti. ",
+      "english": "This is the first ground on which some ascetics and brahmins rely to assert that the self and the cosmos arose anomalously. "
+    },
+    {
+      "number": 408,
+      "pali": "Dutiye ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha adhiccasamuppannikā adhiccasamuppannaṁ attānañca lokañca paññapenti? ",
+      "english": "And what is the second ground on which they rely? "
+    },
+    {
+      "number": 409,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā takkī hoti vīmaṁsī. ",
+      "english": "It’s when some ascetic or brahmin relies on logic and inquiry. "
+    },
+    {
+      "number": 410,
+      "pali": "So takkapariyāhataṁ vīmaṁsānucaritaṁ sayampaṭibhānaṁ evamāha: ",
+      "english": "They speak of what they have worked out by logic, following a line of inquiry, expressing their own perspective: "
+    },
+    {
+      "number": 411,
+      "pali": "‘adhiccasamuppanno attā ca loko cā’ti. ",
+      "english": "‘The self and the cosmos arose anomalously.’ "
+    },
+    {
+      "number": 412,
+      "pali": "Idaṁ, bhikkhave, dutiyaṁ ṭhānaṁ, yaṁ āgamma yaṁ ārabbha eke samaṇabrāhmaṇā adhiccasamuppannikā adhiccasamuppannaṁ attānañca lokañca paññapenti. ",
+      "english": "This is the second ground on which some ascetics and brahmins rely to assert that the self and the cosmos arose anomalously. "
+    },
+    {
+      "number": 413,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā adhiccasamuppannikā adhiccasamuppannaṁ attānañca lokañca paññapenti dvīhi vatthūhi. ",
+      "english": "These are the two grounds on which those ascetics and brahmins who theorize about anomalous origination assert that the self and the cosmos arose anomalously. "
+    },
+    {
+      "number": 414,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā adhiccasamuppannikā adhiccasamuppannaṁ attānañca lokañca paññapenti, sabbe te imeheva dvīhi vatthūhi, etesaṁ vā aññatarena, natthi ito bahiddhā … ",
+      "english": "Any ascetics and brahmins who theorize about anomalous origination do so on one or other of these two grounds. Outside of this there is none. "
+    },
+    {
+      "number": 415,
+      "pali": "pe… ",
+      "english": "The Realized One understands this … "
+    },
+    {
+      "number": 416,
+      "pali": "yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 417,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā pubbantakappikā pubbantānudiṭṭhino pubbantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti aṭṭhārasahi vatthūhi. ",
+      "english": "These are the eighteen grounds on which those ascetics and brahmins who theorize about the first beginning assert various hypotheses concerning the first beginning. "
+    },
+    {
+      "number": 418,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā pubbantakappikā pubbantānudiṭṭhino pubbantamārabbha anekavihitāni adhimuttipadāni abhivadanti, sabbe te imeheva aṭṭhārasahi vatthūhi, etesaṁ vā aññatarena, natthi ito bahiddhā. ",
+      "english": "Any ascetics and brahmins who theorize about the first beginning do so on one or other of these eighteen grounds. Outside of this there is none. "
+    },
+    {
+      "number": 419,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato pajānāti: ",
+      "english": "The Realized One understands this: "
+    },
+    {
+      "number": 420,
+      "pali": "‘ime diṭṭhiṭṭhānā evaṅgahitā evaṁparāmaṭṭhā evaṅgatikā bhavanti evaṁabhisamparāyā’ti. ",
+      "english": "‘If you hold on to and attach to these grounds for views it leads to such and such a destiny in the next life.’ "
+    },
+    {
+      "number": 421,
+      "pali": "Tañca tathāgato pajānāti, tato ca uttaritaraṁ pajānāti, tañca pajānanaṁ na parāmasati, aparāmasato cassa paccattaññeva nibbuti viditā. ",
+      "english": "He understands this, and what goes beyond this. And since he does not misapprehend that understanding, he has realized quenching within himself. "
+    },
+    {
+      "number": 422,
+      "pali": "Vedanānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā anupādāvimutto, bhikkhave, tathāgato. ",
+      "english": "Having truly understood the origin, disappearance, gratification, drawback, and escape from feelings, the Realized One is freed through not grasping. "
+    },
+    {
+      "number": 423,
+      "pali": "Ime kho te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "These are the principles—deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 424,
+      "pali": "Dutiyabhāṇavāro. ",
+      "english": "The second recitation section. "
+    },
+    {
+      "number": 425,
+      "pali": "3.2. Aparantakappika ",
+      "english": "3.2. Theories About the Final End "
+    },
+    {
+      "number": 426,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā aparantakappikā aparantānudiṭṭhino, aparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti catucattārīsāya vatthūhi. ",
+      "english": "There are some ascetics and brahmins who theorize about the final end, and assert various hypotheses concerning the final end on forty-four grounds. "
+    },
+    {
+      "number": 427,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha aparantakappikā aparantānudiṭṭhino aparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti catucattārīsāya vatthūhi? ",
+      "english": "And what are the forty-four grounds on which they rely? "
+    },
+    {
+      "number": 428,
+      "pali": "3.2.1. Saññīvāda ",
+      "english": "3.2.1. Percipient Life After Death "
+    },
+    {
+      "number": 429,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā uddhamāghātanikā saññīvādā uddhamāghātanaṁ saññiṁ attānaṁ paññapenti soḷasahi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who say there is life after death, and assert that the self lives on after death in a percipient form on sixteen grounds. "
+    },
+    {
+      "number": 430,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha uddhamāghātanikā saññīvādā uddhamāghātanaṁ saññiṁ attānaṁ paññapenti soḷasahi vatthūhi? ",
+      "english": "And what are the sixteen grounds on which they rely? "
+    },
+    {
+      "number": 431,
+      "pali": "‘Rūpī attā hoti arogo paraṁ maraṇā saññī’ti naṁ paññapenti. ",
+      "english": "They assert: ‘The self is healthy and percipient after death, and it is formed … "
+    },
+    {
+      "number": 432,
+      "pali": "‘Arūpī attā hoti arogo paraṁ maraṇā saññī’ti naṁ paññapenti. ",
+      "english": "formless … "
+    },
+    {
+      "number": 433,
+      "pali": "‘Rūpī ca arūpī ca attā hoti …pe…. ",
+      "english": "both formed and formless … "
+    },
+    {
+      "number": 434,
+      "pali": "‘Nevarūpī nārūpī attā hoti …. ",
+      "english": "neither formed nor formless … "
+    },
+    {
+      "number": 435,
+      "pali": "‘Antavā attā hoti …. ",
+      "english": "finite … "
+    },
+    {
+      "number": 436,
+      "pali": "‘Anantavā attā hoti …. ",
+      "english": "infinite … "
+    },
+    {
+      "number": 437,
+      "pali": "‘Antavā ca anantavā ca attā hoti …. ",
+      "english": "both finite and infinite … "
+    },
+    {
+      "number": 438,
+      "pali": "‘Nevantavā nānantavā attā hoti …. ",
+      "english": "neither finite nor infinite … "
+    },
+    {
+      "number": 439,
+      "pali": "‘Ekattasaññī attā hoti …. ",
+      "english": "of unified perception … "
+    },
+    {
+      "number": 440,
+      "pali": "‘Nānattasaññī attā hoti …. ",
+      "english": "of diverse perception … "
+    },
+    {
+      "number": 441,
+      "pali": "‘Parittasaññī attā hoti …. ",
+      "english": "of limited perception … "
+    },
+    {
+      "number": 442,
+      "pali": "‘Appamāṇasaññī attā hoti …. ",
+      "english": "of limitless perception … "
+    },
+    {
+      "number": 443,
+      "pali": "‘Ekantasukhī attā hoti …. ",
+      "english": "experiences nothing but happiness … "
+    },
+    {
+      "number": 444,
+      "pali": "‘Ekantadukkhī attā hoti …. ",
+      "english": "experiences nothing but suffering … "
+    },
+    {
+      "number": 445,
+      "pali": "‘Sukhadukkhī attā hoti …. ",
+      "english": "experiences both happiness and suffering … "
+    },
+    {
+      "number": 446,
+      "pali": "‘Adukkhamasukhī attā hoti arogo paraṁ maraṇā saññī’ti naṁ paññapenti. ",
+      "english": "experiences neither happiness nor suffering.’ "
+    },
+    {
+      "number": 447,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā uddhamāghātanikā saññīvādā uddhamāghātanaṁ saññiṁ attānaṁ paññapenti soḷasahi vatthūhi. ",
+      "english": "These are the sixteen grounds on which those ascetics and brahmins assert that the self lives on after death in a percipient form. "
+    },
+    {
+      "number": 448,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā uddhamāghātanikā saññīvādā uddhamāghātanaṁ saññiṁ attānaṁ paññapenti, sabbe te imeheva soḷasahi vatthūhi, etesaṁ vā aññatarena, natthi ito bahiddhā … ",
+      "english": "Any ascetics and brahmins who assert that the self lives on after death in a percipient form do so on one or other of these sixteen grounds. Outside of this there is none. "
+    },
+    {
+      "number": 449,
+      "pali": "pe… ",
+      "english": "The Realized One understands this … "
+    },
+    {
+      "number": 450,
+      "pali": "yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 451,
+      "pali": "3.2.2. Asaññīvāda ",
+      "english": "3.2.2. Non-Percipient Life After Death "
+    },
+    {
+      "number": 452,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who say there is life after death, and assert that the self lives on after death in a non-percipient form on eight grounds. "
+    },
+    {
+      "number": 453,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi? ",
+      "english": "And what are the eight grounds on which they rely? "
+    },
+    {
+      "number": 454,
+      "pali": "‘Rūpī attā hoti arogo paraṁ maraṇā asaññī’ti naṁ paññapenti. ",
+      "english": "They assert: ‘The self is healthy and non-percipient after death, and it is formed … "
+    },
+    {
+      "number": 455,
+      "pali": "‘Arūpī attā hoti arogo paraṁ maraṇā asaññī’ti naṁ paññapenti. ",
+      "english": "formless … "
+    },
+    {
+      "number": 456,
+      "pali": "‘Rūpī ca arūpī ca attā hoti …pe…. ",
+      "english": "both formed and formless … "
+    },
+    {
+      "number": 457,
+      "pali": "‘Nevarūpī nārūpī attā hoti …. ",
+      "english": "neither formed nor formless … "
+    },
+    {
+      "number": 458,
+      "pali": "‘Antavā attā hoti …. ",
+      "english": "finite … "
+    },
+    {
+      "number": 459,
+      "pali": "‘Anantavā attā hoti …. ",
+      "english": "infinite … "
+    },
+    {
+      "number": 460,
+      "pali": "‘Antavā ca anantavā ca attā hoti …. ",
+      "english": "both finite and infinite … "
+    },
+    {
+      "number": 461,
+      "pali": "‘Nevantavā nānantavā attā hoti arogo paraṁ maraṇā asaññī’ti naṁ paññapenti. ",
+      "english": "neither finite nor infinite.’ "
+    },
+    {
+      "number": 462,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi. ",
+      "english": "These are the eight grounds on which those ascetics and brahmins assert that the self lives on after death in a non-percipient form. "
+    },
+    {
+      "number": 463,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti, sabbe te imeheva aṭṭhahi vatthūhi, etesaṁ vā aññatarena, natthi ito bahiddhā … ",
+      "english": "Any ascetics and brahmins who assert that the self lives on after death in a non-percipient form do so on one or other of these eight grounds. Outside of this there is none. "
+    },
+    {
+      "number": 464,
+      "pali": "pe… ",
+      "english": "The Realized One understands this … "
+    },
+    {
+      "number": 465,
+      "pali": "yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 466,
+      "pali": "3.2.3. Nevasaññīnāsaññīvāda ",
+      "english": "3.2.3. Neither Percipient Nor Non-Percipient Life After Death "
+    },
+    {
+      "number": 467,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā uddhamāghātanikā nevasaññīnāsaññīvādā, uddhamāghātanaṁ nevasaññīnāsaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who say there is life after death, and assert that the self lives on after death in a neither percipient nor non-percipient form on eight grounds. "
+    },
+    {
+      "number": 468,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha uddhamāghātanikā nevasaññīnāsaññīvādā uddhamāghātanaṁ nevasaññīnāsaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi? ",
+      "english": "And what are the eight grounds on which they rely? "
+    },
+    {
+      "number": 469,
+      "pali": "‘Rūpī attā hoti arogo paraṁ maraṇā nevasaññīnāsaññī’ti naṁ paññapenti. ",
+      "english": "They assert: ‘The self is healthy and neither percipient nor non-percipient after death, and it is formed … "
+    },
+    {
+      "number": 470,
+      "pali": "‘Arūpī attā hoti …pe…. ",
+      "english": "formless … "
+    },
+    {
+      "number": 471,
+      "pali": "‘Rūpī ca arūpī ca attā hoti …. ",
+      "english": "both formed and formless … "
+    },
+    {
+      "number": 472,
+      "pali": "‘Nevarūpī nārūpī attā hoti …. ",
+      "english": "neither formed nor formless … "
+    },
+    {
+      "number": 473,
+      "pali": "‘Antavā attā hoti …. ",
+      "english": "finite … "
+    },
+    {
+      "number": 474,
+      "pali": "‘Anantavā attā hoti …. ",
+      "english": "infinite … "
+    },
+    {
+      "number": 475,
+      "pali": "‘Antavā ca anantavā ca attā hoti …. ",
+      "english": "both finite and infinite … "
+    },
+    {
+      "number": 476,
+      "pali": "‘Nevantavā nānantavā attā hoti arogo paraṁ maraṇā nevasaññīnāsaññī’ti naṁ paññapenti. ",
+      "english": "neither finite nor infinite.’ "
+    },
+    {
+      "number": 477,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā uddhamāghātanikā nevasaññīnāsaññīvādā uddhamāghātanaṁ nevasaññīnāsaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi. ",
+      "english": "These are the eight grounds on which those ascetics and brahmins assert that the self lives on after death in a neither percipient nor non-percipient form. "
+    },
+    {
+      "number": 478,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā uddhamāghātanikā nevasaññīnāsaññīvādā uddhamāghātanaṁ nevasaññīnāsaññiṁ attānaṁ paññapenti, sabbe te imeheva aṭṭhahi vatthūhi … ",
+      "english": "Any ascetics and brahmins who assert that the self lives on after death in a neither percipient nor non-percipient form do so on one or other of these eight grounds. Outside of this there is none. "
+    },
+    {
+      "number": 479,
+      "pali": "pe… ",
+      "english": "The Realized One understands this … "
+    },
+    {
+      "number": 480,
+      "pali": "yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 481,
+      "pali": "3.2.4. Ucchedavāda ",
+      "english": "3.2.4. Annihilationism "
+    },
+    {
+      "number": 482,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā ucchedavādā sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti sattahi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who are annihilationists. They assert the annihilation, eradication, and nonexistence of an existing being on seven grounds. "
+    },
+    {
+      "number": 483,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha ucchedavādā sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti sattahi vatthūhi? ",
+      "english": "And what are the seven grounds on which they rely? "
+    },
+    {
+      "number": 484,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā evaṁvādī hoti evaṁdiṭṭhi: ",
+      "english": "There are some ascetics and brahmins who have this doctrine and view: "
+    },
+    {
+      "number": 485,
+      "pali": "‘yato kho, bho, ayaṁ attā rūpī cātumahābhūtiko mātāpettikasambhavo kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā, ettāvatā kho, bho, ayaṁ attā sammā samucchinno hotī’ti. ",
+      "english": "‘This self is formed, made up of the four principal states, and produced by mother and father. Since it’s annihilated and destroyed when the body breaks up, and doesn’t exist after death, that’s how this self becomes rightly annihilated.’ "
+    },
+    {
+      "number": 486,
+      "pali": "Ittheke sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti. ",
+      "english": "That is how some assert the annihilation of an existing being. "
+    },
+    {
+      "number": 487,
+      "pali": "Tamañño evamāha: ",
+      "english": "But someone else says to them: "
+    },
+    {
+      "number": 488,
+      "pali": "‘atthi kho, bho, eso attā, yaṁ tvaṁ vadesi, neso natthīti vadāmi; ",
+      "english": "‘<em>That</em> self of which you speak does exist, I don’t deny it. "
+    },
+    {
+      "number": 489,
+      "pali": "no ca kho, bho, ayaṁ attā ettāvatā sammā samucchinno hoti. ",
+      "english": "But that’s not how <em>this</em> self becomes rightly annihilated. "
+    },
+    {
+      "number": 490,
+      "pali": "Atthi kho, bho, añño attā dibbo rūpī kāmāvacaro kabaḷīkārāhārabhakkho. ",
+      "english": "There is another self that is heavenly, formed, sensual, consuming edible food. "
+    },
+    {
+      "number": 491,
+      "pali": "Taṁ tvaṁ na jānāsi na passasi. ",
+      "english": "You don’t know or see that. "
+    },
+    {
+      "number": 492,
+      "pali": "Tamahaṁ jānāmi passāmi. ",
+      "english": "But I know it and see it. "
+    },
+    {
+      "number": 493,
+      "pali": "So kho, bho, attā yato kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā, ettāvatā kho, bho, ayaṁ attā sammā samucchinno hotī’ti. ",
+      "english": "Since this self is annihilated and destroyed when the body breaks up, and doesn’t exist after death, that’s how this self becomes rightly annihilated.’ "
+    },
+    {
+      "number": 494,
+      "pali": "Ittheke sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti. ",
+      "english": "That is how some assert the annihilation of an existing being. "
+    },
+    {
+      "number": 495,
+      "pali": "Tamañño evamāha: ",
+      "english": "But someone else says to them: "
+    },
+    {
+      "number": 496,
+      "pali": "‘atthi kho, bho, eso attā, yaṁ tvaṁ vadesi, neso natthīti vadāmi; ",
+      "english": "‘<em>That</em> self of which you speak does exist, I don’t deny it. "
+    },
+    {
+      "number": 497,
+      "pali": "no ca kho, bho, ayaṁ attā ettāvatā sammā samucchinno hoti. ",
+      "english": "But that’s not how <em>this</em> self becomes rightly annihilated. "
+    },
+    {
+      "number": 498,
+      "pali": "Atthi kho, bho, añño attā dibbo rūpī manomayo sabbaṅgapaccaṅgī ahīnindriyo. ",
+      "english": "There is another self that is heavenly, formed, mind-made, whole in its major and minor limbs, not deficient in any faculty. "
+    },
+    {
+      "number": 499,
+      "pali": "Taṁ tvaṁ na jānāsi na passasi. ",
+      "english": "You don’t know or see that. "
+    },
+    {
+      "number": 500,
+      "pali": "Tamahaṁ jānāmi passāmi. ",
+      "english": "But I know it and see it. "
+    },
+    {
+      "number": 501,
+      "pali": "So kho, bho, attā yato kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā, ettāvatā kho, bho, ayaṁ attā sammā samucchinno hotī’ti. ",
+      "english": "Since this self is annihilated and destroyed when the body breaks up, and doesn’t exist after death, that’s how this self becomes rightly annihilated.’ "
+    },
+    {
+      "number": 502,
+      "pali": "Ittheke sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti. ",
+      "english": "That is how some assert the annihilation of an existing being. "
+    },
+    {
+      "number": 503,
+      "pali": "Tamañño evamāha: ",
+      "english": "But someone else says to them: "
+    },
+    {
+      "number": 504,
+      "pali": "‘atthi kho, bho, eso attā, yaṁ tvaṁ vadesi, neso natthīti vadāmi; ",
+      "english": "‘<em>That</em> self of which you speak does exist, I don’t deny it. "
+    },
+    {
+      "number": 505,
+      "pali": "no ca kho, bho, ayaṁ attā ettāvatā sammā samucchinno hoti. ",
+      "english": "But that’s not how <em>this</em> self becomes rightly annihilated. "
+    },
+    {
+      "number": 506,
+      "pali": "Atthi kho, bho, añño attā sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā “ananto ākāso”ti ākāsānañcāyatanūpago. ",
+      "english": "There is another self which has gone totally beyond perceptions of form. With the disappearance of perceptions of impingement, not focusing on perceptions of diversity, aware that “space is infinite”, it’s reborn in the dimension of infinite space. "
+    },
+    {
+      "number": 507,
+      "pali": "Taṁ tvaṁ na jānāsi na passasi. ",
+      "english": "You don’t know or see that. "
+    },
+    {
+      "number": 508,
+      "pali": "Tamahaṁ jānāmi passāmi. ",
+      "english": "But I know it and see it. "
+    },
+    {
+      "number": 509,
+      "pali": "So kho, bho, attā yato kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā, ettāvatā kho, bho, ayaṁ attā sammā samucchinno hotī’ti. ",
+      "english": "Since this self is annihilated and destroyed when the body breaks up, and doesn’t exist after death, that’s how this self becomes rightly annihilated.’ "
+    },
+    {
+      "number": 510,
+      "pali": "Ittheke sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti. ",
+      "english": "That is how some assert the annihilation of an existing being. "
+    },
+    {
+      "number": 511,
+      "pali": "Tamañño evamāha: ",
+      "english": "But someone else says to them: "
+    },
+    {
+      "number": 512,
+      "pali": "‘atthi kho, bho, eso attā yaṁ tvaṁ vadesi, neso natthīti vadāmi; ",
+      "english": "‘<em>That</em> self of which you speak does exist, I don’t deny it. "
+    },
+    {
+      "number": 513,
+      "pali": "no ca kho, bho, ayaṁ attā ettāvatā sammā samucchinno hoti. ",
+      "english": "But that’s not how <em>this</em> self becomes rightly annihilated. "
+    },
+    {
+      "number": 514,
+      "pali": "Atthi kho, bho, añño attā sabbaso ākāsānañcāyatanaṁ samatikkamma “anantaṁ viññāṇan”ti viññāṇañcāyatanūpago. ",
+      "english": "There is another self which has gone totally beyond the dimension of infinite space. Aware that “consciousness is infinite”, it’s reborn in the dimension of infinite consciousness. "
+    },
+    {
+      "number": 515,
+      "pali": "Taṁ tvaṁ na jānāsi na passasi. ",
+      "english": "You don’t know or see that. "
+    },
+    {
+      "number": 516,
+      "pali": "Tamahaṁ jānāmi passāmi. ",
+      "english": "But I know it and see it. "
+    },
+    {
+      "number": 517,
+      "pali": "So kho, bho, attā yato kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā, ettāvatā kho, bho, ayaṁ attā sammā samucchinno hotī’ti. ",
+      "english": "Since this self is annihilated and destroyed when the body breaks up, and doesn’t exist after death, that’s how this self becomes rightly annihilated.’ "
+    },
+    {
+      "number": 518,
+      "pali": "Ittheke sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti. ",
+      "english": "That is how some assert the annihilation of an existing being. "
+    },
+    {
+      "number": 519,
+      "pali": "Tamañño evamāha: ",
+      "english": "But someone else says to them: "
+    },
+    {
+      "number": 520,
+      "pali": "‘atthi kho, bho, so attā, yaṁ tvaṁ vadesi, neso natthīti vadāmi; ",
+      "english": "‘<em>That</em> self of which you speak does exist, I don’t deny it. "
+    },
+    {
+      "number": 521,
+      "pali": "no ca kho, bho, ayaṁ attā ettāvatā sammā samucchinno hoti. ",
+      "english": "But that’s not how <em>this</em> self becomes rightly annihilated. "
+    },
+    {
+      "number": 522,
+      "pali": "Atthi kho, bho, añño attā sabbaso viññāṇañcāyatanaṁ samatikkamma “natthi kiñcī”ti ākiñcaññāyatanūpago. ",
+      "english": "There is another self that has gone totally beyond the dimension of infinite consciousness. Aware that “there is nothing at all”, it’s been reborn in the dimension of nothingness. "
+    },
+    {
+      "number": 523,
+      "pali": "Taṁ tvaṁ na jānāsi na passasi. ",
+      "english": "You don’t know or see that. "
+    },
+    {
+      "number": 524,
+      "pali": "Tamahaṁ jānāmi passāmi. ",
+      "english": "But I know it and see it. "
+    },
+    {
+      "number": 525,
+      "pali": "So kho, bho, attā yato kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā, ettāvatā kho, bho, ayaṁ attā sammā samucchinno hotī’ti. ",
+      "english": "Since this self is annihilated and destroyed when the body breaks up, and doesn’t exist after death, that’s how this self becomes rightly annihilated.’ "
+    },
+    {
+      "number": 526,
+      "pali": "Ittheke sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti. ",
+      "english": "That is how some assert the annihilation of an existing being. "
+    },
+    {
+      "number": 527,
+      "pali": "Tamañño evamāha: ",
+      "english": "But someone else says to them: "
+    },
+    {
+      "number": 528,
+      "pali": "‘atthi kho, bho, eso attā, yaṁ tvaṁ vadesi, neso natthīti vadāmi; ",
+      "english": "‘<em>That</em> self of which you speak does exist, I don’t deny it. "
+    },
+    {
+      "number": 529,
+      "pali": "no ca kho, bho, ayaṁ attā ettāvatā sammā samucchinno hoti. ",
+      "english": "But that’s not how <em>this</em> self becomes rightly annihilated. "
+    },
+    {
+      "number": 530,
+      "pali": "Atthi kho, bho, añño attā sabbaso ākiñcaññāyatanaṁ samatikkamma “santametaṁ paṇītametan”ti nevasaññānāsaññāyatanūpago. ",
+      "english": "There is another self that has gone totally beyond the dimension of nothingness. Aware that “this is peaceful, this is sublime”, it’s been reborn in the dimension of neither perception nor non-perception. "
+    },
+    {
+      "number": 531,
+      "pali": "Taṁ tvaṁ na jānāsi na passasi. ",
+      "english": "You don’t know or see that. "
+    },
+    {
+      "number": 532,
+      "pali": "Tamahaṁ jānāmi passāmi. ",
+      "english": "But I know it and see it. "
+    },
+    {
+      "number": 533,
+      "pali": "So kho, bho, attā yato kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā, ettāvatā kho, bho, ayaṁ attā sammā samucchinno hotī’ti. ",
+      "english": "Since this self is annihilated and destroyed when the body breaks up, and doesn’t exist after death, that’s how this self becomes rightly annihilated.’ "
+    },
+    {
+      "number": 534,
+      "pali": "Ittheke sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti. ",
+      "english": "That is how some assert the annihilation of an existing being. "
+    },
+    {
+      "number": 535,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā ucchedavādā sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti sattahi vatthūhi. ",
+      "english": "These are the seven grounds on which those ascetics and brahmins assert the annihilation, eradication, and nonexistence of an existing being. "
+    },
+    {
+      "number": 536,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā ucchedavādā sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti, sabbe te imeheva sattahi vatthūhi … ",
+      "english": "Any ascetics and brahmins who assert the annihilation, eradication, and nonexistence of an existing being do so on one or other of these seven grounds. Outside of this there is none. "
+    },
+    {
+      "number": 537,
+      "pali": "pe… ",
+      "english": "The Realized One understands this … "
+    },
+    {
+      "number": 538,
+      "pali": "yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 539,
+      "pali": "3.2.5. Diṭṭhadhammanibbānavāda ",
+      "english": "3.2.5. Extinguishment of Suffering in This Life "
+    },
+    {
+      "number": 540,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā diṭṭhadhammanibbānavādā sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti pañcahi vatthūhi. ",
+      "english": "There are some ascetics and brahmins who speak of extinguishment in this life. They assert ultimate extinguishment for an existing being in this life on five grounds. "
+    },
+    {
+      "number": 541,
+      "pali": "Te ca bhonto samaṇabrāhmaṇā kimāgamma kimārabbha diṭṭhadhammanibbānavādā sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti pañcahi vatthūhi? ",
+      "english": "And what are the five grounds on which they rely? "
+    },
+    {
+      "number": 542,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā evaṁvādī hoti evaṁdiṭṭhi: ",
+      "english": "There are some ascetics and brahmins who have this doctrine and view: "
+    },
+    {
+      "number": 543,
+      "pali": "‘yato kho, bho, ayaṁ attā pañcahi kāmaguṇehi samappito samaṅgībhūto paricāreti, ettāvatā kho, bho, ayaṁ attā paramadiṭṭhadhammanibbānaṁ patto hotī’ti. ",
+      "english": "‘When this self amuses itself, supplied and provided with the five kinds of sensual stimulation, that’s how this self attains ultimate extinguishment in this life.’ "
+    },
+    {
+      "number": 544,
+      "pali": "Ittheke sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti. ",
+      "english": "That is how some assert ultimate extinguishment for an existing being in this life. "
+    },
+    {
+      "number": 545,
+      "pali": "Tamañño evamāha: ",
+      "english": "But someone else says to them: "
+    },
+    {
+      "number": 546,
+      "pali": "‘atthi kho, bho, eso attā, yaṁ tvaṁ vadesi, neso natthīti vadāmi; ",
+      "english": "‘<em>That</em> self of which you speak does exist, I don’t deny it. "
+    },
+    {
+      "number": 547,
+      "pali": "no ca kho, bho, ayaṁ attā ettāvatā paramadiṭṭhadhammanibbānaṁ patto hoti. ",
+      "english": "But that’s not how <em>this</em> self attains ultimate extinguishment in this life. "
+    },
+    {
+      "number": 548,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 549,
+      "pali": "Kāmā hi, bho, aniccā dukkhā vipariṇāmadhammā, tesaṁ vipariṇāmaññathābhāvā uppajjanti sokaparidevadukkhadomanassupāyāsā. ",
+      "english": "Because sensual pleasures are impermanent, suffering, and perishable. Their decay and perishing give rise to sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 550,
+      "pali": "Yato kho, bho, ayaṁ attā vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati, ettāvatā kho, bho, ayaṁ attā paramadiṭṭhadhammanibbānaṁ patto hotī’ti. ",
+      "english": "Quite secluded from sensual pleasures, secluded from unskillful qualities, this self enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. That’s how this self attains ultimate extinguishment in this life.’ "
+    },
+    {
+      "number": 551,
+      "pali": "Ittheke sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti. ",
+      "english": "That is how some assert ultimate extinguishment for an existing being in this life. "
+    },
+    {
+      "number": 552,
+      "pali": "Tamañño evamāha: ",
+      "english": "But someone else says to them: "
+    },
+    {
+      "number": 553,
+      "pali": "‘atthi kho, bho, eso attā, yaṁ tvaṁ vadesi, neso natthīti vadāmi; ",
+      "english": "‘<em>That</em> self of which you speak does exist, I don’t deny it. "
+    },
+    {
+      "number": 554,
+      "pali": "no ca kho, bho, ayaṁ attā ettāvatā paramadiṭṭhadhammanibbānaṁ patto hoti. ",
+      "english": "But that’s not how <em>this</em> self attains ultimate extinguishment in this life. "
+    },
+    {
+      "number": 555,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 556,
+      "pali": "Yadeva tattha vitakkitaṁ vicāritaṁ, etenetaṁ oḷārikaṁ akkhāyati. ",
+      "english": "Because the placing of the mind and the keeping it connected there are coarse. "
+    },
+    {
+      "number": 557,
+      "pali": "Yato kho, bho, ayaṁ attā vitakkavicārānaṁ vūpasamā ajjhattaṁ sampasādanaṁ cetaso ekodibhāvaṁ avitakkaṁ avicāraṁ samādhijaṁ pītisukhaṁ dutiyaṁ jhānaṁ upasampajja viharati, ettāvatā kho, bho, ayaṁ attā paramadiṭṭhadhammanibbānaṁ patto hotī’ti. ",
+      "english": "But when the placing of the mind and keeping it connected are stilled, this self enters and remains in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without placing the mind and keeping it connected. That’s how this self attains ultimate extinguishment in this life.’ "
+    },
+    {
+      "number": 558,
+      "pali": "Ittheke sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti. ",
+      "english": "That is how some assert ultimate extinguishment for an existing being in this life. "
+    },
+    {
+      "number": 559,
+      "pali": "Tamañño evamāha: ",
+      "english": "But someone else says to them: "
+    },
+    {
+      "number": 560,
+      "pali": "‘atthi kho, bho, eso attā, yaṁ tvaṁ vadesi, neso natthīti vadāmi; ",
+      "english": "‘<em>That</em> self of which you speak does exist, I don’t deny it. "
+    },
+    {
+      "number": 561,
+      "pali": "no ca kho, bho, ayaṁ attā ettāvatā paramadiṭṭhadhammanibbānaṁ patto hoti. ",
+      "english": "But that’s not how <em>this</em> self attains ultimate extinguishment in this life. "
+    },
+    {
+      "number": 562,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 563,
+      "pali": "Yadeva tattha pītigataṁ cetaso uppilāvitattaṁ, etenetaṁ oḷārikaṁ akkhāyati. ",
+      "english": "Because the rapture and emotional elation there are coarse. "
+    },
+    {
+      "number": 564,
+      "pali": "Yato kho, bho, ayaṁ attā pītiyā ca virāgā upekkhako ca viharati, sato ca sampajāno, sukhañca kāyena paṭisaṁvedeti, yaṁ taṁ ariyā ācikkhanti “upekkhako satimā sukhavihārī”ti, tatiyaṁ jhānaṁ upasampajja viharati, ettāvatā kho, bho, ayaṁ attā paramadiṭṭhadhammanibbānaṁ patto hotī’ti. ",
+      "english": "But with the fading away of rapture, this self enters and remains in the third absorption, where it meditates with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, “Equanimous and mindful, one meditates in bliss”. That’s how this self attains ultimate extinguishment in this life.’ "
+    },
+    {
+      "number": 565,
+      "pali": "Ittheke sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti. ",
+      "english": "That is how some assert ultimate extinguishment for an existing being in this life. "
+    },
+    {
+      "number": 566,
+      "pali": "Tamañño evamāha: ",
+      "english": "But someone else says to them: "
+    },
+    {
+      "number": 567,
+      "pali": "‘atthi kho, bho, eso attā, yaṁ tvaṁ vadesi, neso natthīti vadāmi; ",
+      "english": "‘<em>That</em> self of which you speak does exist, I don’t deny it. "
+    },
+    {
+      "number": 568,
+      "pali": "no ca kho, bho, ayaṁ attā ettāvatā paramadiṭṭhadhammanibbānaṁ patto hoti. ",
+      "english": "But that’s not how <em>this</em> self attains ultimate extinguishment in this life. "
+    },
+    {
+      "number": 569,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 570,
+      "pali": "Yadeva tattha sukhamiti cetaso ābhogo, etenetaṁ oḷārikaṁ akkhāyati. ",
+      "english": "Because the mental partaking of that as ‘blissful’ is said to be coarse. "
+    },
+    {
+      "number": 571,
+      "pali": "Yato kho, bho, ayaṁ attā sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharati, ettāvatā kho, bho, ayaṁ attā paramadiṭṭhadhammanibbānaṁ patto hotī’ti. ",
+      "english": "But with the giving up of pleasure and pain and the disappearance of former happiness and sadness, this self enters and remains in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. That’s how this self attains ultimate extinguishment in this life.’ "
+    },
+    {
+      "number": 572,
+      "pali": "Ittheke sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti. ",
+      "english": "That is how some assert ultimate extinguishment for an existing being in this life. "
+    },
+    {
+      "number": 573,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā diṭṭhadhammanibbānavādā sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti pañcahi vatthūhi. ",
+      "english": "These are the five grounds on which those ascetics and brahmins assert ultimate extinguishment for an existing being in this life. "
+    },
+    {
+      "number": 574,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā diṭṭhadhammanibbānavādā sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti, sabbe te imeheva pañcahi vatthūhi … ",
+      "english": "Any ascetics and brahmins who assert ultimate extinguishment for an existing being in this life do so on one or other of these five grounds. Outside of this there is none. "
+    },
+    {
+      "number": 575,
+      "pali": "pe… ",
+      "english": "The Realized One understands this … "
+    },
+    {
+      "number": 576,
+      "pali": "yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 577,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā aparantakappikā aparantānudiṭṭhino aparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti catucattārīsāya vatthūhi. ",
+      "english": "These are the forty-four grounds on which those ascetics and brahmins who theorize about the final end assert various hypotheses concerning the final end. "
+    },
+    {
+      "number": 578,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā aparantakappikā aparantānudiṭṭhino aparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti, sabbe te imeheva catucattārīsāya vatthūhi … ",
+      "english": "Any ascetics and brahmins who theorize about the final end do so on one or other of these forty-four grounds. Outside of this there is none. "
+    },
+    {
+      "number": 579,
+      "pali": "pe… ",
+      "english": "The Realized One understands this … "
+    },
+    {
+      "number": 580,
+      "pali": "yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 581,
+      "pali": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā pubbantakappikā ca aparantakappikā ca pubbantāparantakappikā ca pubbantāparantānudiṭṭhino pubbantāparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti dvāsaṭṭhiyā vatthūhi. ",
+      "english": "These are the sixty-two grounds on which those ascetics and brahmins who theorize about the first beginning and the final end assert various hypotheses concerning the first beginning and the final end. "
+    },
+    {
+      "number": 582,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā pubbantakappikā vā aparantakappikā vā pubbantāparantakappikā vā pubbantāparantānudiṭṭhino pubbantāparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti, sabbe te imeheva dvāsaṭṭhiyā vatthūhi, etesaṁ vā aññatarena; natthi ito bahiddhā. ",
+      "english": "Any ascetics and brahmins who theorize about the first beginning or the final end do so on one or other of these sixty-two grounds. Outside of this there is none. "
+    },
+    {
+      "number": 583,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato pajānāti: ",
+      "english": "The Realized One understands this: "
+    },
+    {
+      "number": 584,
+      "pali": "‘ime diṭṭhiṭṭhānā evaṅgahitā evaṁparāmaṭṭhā evaṅgatikā bhavanti evaṁabhisamparāyā’ti. ",
+      "english": "‘If you hold on to and attach to these grounds for views it leads to such and such a destiny in the next life.’ "
+    },
+    {
+      "number": 585,
+      "pali": "Tañca tathāgato pajānāti, tato ca uttaritaraṁ pajānāti, tañca pajānanaṁ na parāmasati, aparāmasato cassa paccattaññeva nibbuti viditā. ",
+      "english": "He understands this, and what goes beyond this. And since he does not misapprehend that understanding, he has realized quenching within himself. "
+    },
+    {
+      "number": 586,
+      "pali": "Vedanānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā anupādāvimutto, bhikkhave, tathāgato. ",
+      "english": "Having truly understood the origin, disappearance, gratification, drawback, and escape from feelings, the Realized One is freed through not grasping. "
+    },
+    {
+      "number": 587,
+      "pali": "Ime kho te, bhikkhave, dhammā gambhīrā duddasā duranubodhā santā paṇītā atakkāvacarā nipuṇā paṇḍitavedanīyā, ye tathāgato sayaṁ abhiññā sacchikatvā pavedeti, yehi tathāgatassa yathābhuccaṁ vaṇṇaṁ sammā vadamānā vadeyyuṁ. ",
+      "english": "These are the principles—deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute—which the Realized One makes known after realizing them with his own insight. And those who genuinely praise the Realized One would rightly speak of these things. "
+    },
+    {
+      "number": 588,
+      "pali": "4. Attālokapaññattivatthu ",
+      "english": "4. The Grounds For Assertions About the Self and the Cosmos "
+    },
+    {
+      "number": 589,
+      "pali": "4.1. Paritassitavipphanditavāra ",
+      "english": "4.1. Anxiety and Evasiveness "
+    },
+    {
+      "number": 590,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā sassatavādā sassataṁ attānañca lokañca paññapenti catūhi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "Now, these things are only the feeling of those who do not know or see, the anxiety and evasiveness of those under the sway of craving. Namely, when those ascetics and brahmins assert that the self and the cosmos are eternal on four grounds … "
+    },
+    {
+      "number": 591,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti catūhi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "partially eternal on four grounds … "
+    },
+    {
+      "number": 592,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā antānantikā antānantaṁ lokassa paññapenti catūhi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "finite or infinite on four grounds … "
+    },
+    {
+      "number": 593,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ catūhi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "or they resort to flip-flops on four grounds … "
+    },
+    {
+      "number": 594,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā adhiccasamuppannikā adhiccasamuppannaṁ attānañca lokañca paññapenti dvīhi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "or they assert that the self and the cosmos arose anomalously on two grounds … "
+    },
+    {
+      "number": 595,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā pubbantakappikā pubbantānudiṭṭhino pubbantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti aṭṭhārasahi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "they theorize about the first beginning on these eighteen grounds … "
+    },
+    {
+      "number": 596,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā saññīvādā uddhamāghātanaṁ saññiṁ attānaṁ paññapenti soḷasahi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "or they assert that the self lives on after death in a percipient form on sixteen grounds … "
+    },
+    {
+      "number": 597,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "or that the self lives on after death in a non-percipient form on eight grounds … "
+    },
+    {
+      "number": 598,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā nevasaññīnāsaññīvādā uddhamāghātanaṁ nevasaññīnāsaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "or that the self lives on after death in a neither percipient nor non-percipient form on eight grounds … "
+    },
+    {
+      "number": 599,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā ucchedavādā sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti sattahi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "or they assert the annihilation of an existing being on seven grounds … "
+    },
+    {
+      "number": 600,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā diṭṭhadhammanibbānavādā sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti pañcahi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "or they assert ultimate extinguishment for an existing being in this life on five grounds … "
+    },
+    {
+      "number": 601,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā aparantakappikā aparantānudiṭṭhino aparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti catucattārīsāya vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "they theorize about the final end on these forty-four grounds … "
+    },
+    {
+      "number": 602,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā pubbantakappikā ca aparantakappikā ca pubbantāparantakappikā ca pubbantāparantānudiṭṭhino pubbantāparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti dvāsaṭṭhiyā vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+      "english": "When those ascetics and brahmins theorize about the first beginning and the final end on these sixty-two grounds, these things are only the feeling of those who do not know or see, the anxiety and evasiveness of those under the sway of craving. "
+    },
+    {
+      "number": 603,
+      "pali": "4.2. Phassapaccayāvāra ",
+      "english": "4.2. Dependent On contact "
+    },
+    {
+      "number": 604,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā sassatavādā sassataṁ attānañca lokañca paññapenti catūhi vatthūhi, tadapi phassapaccayā. ",
+      "english": "Now, these things are dependent on contact. Namely, when those ascetics and brahmins assert that the self and the cosmos are eternal on four grounds … "
+    },
+    {
+      "number": 605,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti catūhi vatthūhi, tadapi phassapaccayā. ",
+      "english": "partially eternal on four grounds … "
+    },
+    {
+      "number": 606,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā antānantikā antānantaṁ lokassa paññapenti catūhi vatthūhi, tadapi phassapaccayā. ",
+      "english": "finite or infinite on four grounds … "
+    },
+    {
+      "number": 607,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ catūhi vatthūhi, tadapi phassapaccayā. ",
+      "english": "or they resort to flip-flops on four grounds … "
+    },
+    {
+      "number": 608,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā adhiccasamuppannikā adhiccasamuppannaṁ attānañca lokañca paññapenti dvīhi vatthūhi, tadapi phassapaccayā. ",
+      "english": "or they assert that the self and the cosmos arose anomalously on two grounds … "
+    },
+    {
+      "number": 609,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā pubbantakappikā pubbantānudiṭṭhino pubbantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti aṭṭhārasahi vatthūhi, tadapi phassapaccayā. ",
+      "english": "they theorize about the first beginning on these eighteen grounds … "
+    },
+    {
+      "number": 610,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā saññīvādā uddhamāghātanaṁ saññiṁ attānaṁ paññapenti soḷasahi vatthūhi, tadapi phassapaccayā. ",
+      "english": "or they assert that the self lives on after death in a percipient form on sixteen grounds … "
+    },
+    {
+      "number": 611,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi, tadapi phassapaccayā. ",
+      "english": "or that the self lives on after death in a non-percipient form on eight grounds … "
+    },
+    {
+      "number": 612,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā nevasaññīnāsaññīvādā uddhamāghātanaṁ nevasaññīnāsaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi, tadapi phassapaccayā. ",
+      "english": "or that the self lives on after death in a neither percipient nor non-percipient form on eight grounds … "
+    },
+    {
+      "number": 613,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā ucchedavādā sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti sattahi vatthūhi, tadapi phassapaccayā. ",
+      "english": "or they assert the annihilation of an existing being on seven grounds … "
+    },
+    {
+      "number": 614,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā diṭṭhadhammanibbānavādā sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti pañcahi vatthūhi, tadapi phassapaccayā. ",
+      "english": "or they assert ultimate extinguishment for an existing being in this life on five grounds … "
+    },
+    {
+      "number": 615,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā aparantakappikā aparantānudiṭṭhino aparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti catucattārīsāya vatthūhi, tadapi phassapaccayā. ",
+      "english": "they theorize about the final end on these forty-four grounds … "
+    },
+    {
+      "number": 616,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā pubbantakappikā ca aparantakappikā ca pubbantāparantakappikā ca pubbantāparantānudiṭṭhino pubbantāparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti dvāsaṭṭhiyā vatthūhi, tadapi phassapaccayā. ",
+      "english": "When those ascetics and brahmins theorize about the first beginning and the final end on these sixty-two grounds, that too is dependent on contact. "
+    },
+    {
+      "number": 617,
+      "pali": "4.3. Netaṁṭhānaṁvijjativāra ",
+      "english": "4.3. Not Possible "
+    },
+    {
+      "number": 618,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā sassatavādā sassataṁ attānañca lokañca paññapenti catūhi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 619,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā ekaccasassatikā ekaccaasassatikā ekaccaṁ sassataṁ ekaccaṁ asassataṁ attānañca lokañca paññapenti catūhi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 620,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā antānantikā antānantaṁ lokassa paññapenti catūhi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 621,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā amarāvikkhepikā tattha tattha pañhaṁ puṭṭhā samānā vācāvikkhepaṁ āpajjanti amarāvikkhepaṁ catūhi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 622,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā adhiccasamuppannikā adhiccasamuppannaṁ attānañca lokañca paññapenti dvīhi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 623,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā pubbantakappikā pubbantānudiṭṭhino pubbantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti aṭṭhārasahi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 624,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā saññīvādā uddhamāghātanaṁ saññiṁ attānaṁ paññapenti soḷasahi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 625,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā asaññīvādā, uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 626,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā nevasaññīnāsaññīvādā uddhamāghātanaṁ nevasaññīnāsaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 627,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā ucchedavādā sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti sattahi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 628,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā diṭṭhadhammanibbānavādā sato sattassa paramadiṭṭhadhammanibbānaṁ paññapenti pañcahi vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 629,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā aparantakappikā aparantānudiṭṭhino aparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti catucattārīsāya vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 630,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā pubbantakappikā ca aparantakappikā ca pubbantāparantakappikā ca pubbantāparantānudiṭṭhino pubbantāparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti dvāsaṭṭhiyā vatthūhi, te vata aññatra phassā paṭisaṁvedissantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": "Now, when those ascetics and brahmins theorize about the first beginning and the final end on these sixty-two grounds, it is not possible that they should experience these things without contact. "
+    },
+    {
+      "number": 631,
+      "pali": "4.4. Diṭṭhigatikādhiṭṭhānavaṭṭakathā ",
+      "english": "4.4. Dependent Origination "
+    },
+    {
+      "number": 632,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā sassatavādā sassataṁ attānañca lokañca paññapenti catūhi vatthūhi, yepi te samaṇabrāhmaṇā ekaccasassatikā ekaccaasassatikā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 633,
+      "pali": "yepi te samaṇabrāhmaṇā antānantikā … ",
+      "english": ""
+    },
+    {
+      "number": 634,
+      "pali": "yepi te samaṇabrāhmaṇā amarāvikkhepikā … ",
+      "english": ""
+    },
+    {
+      "number": 635,
+      "pali": "yepi te samaṇabrāhmaṇā adhiccasamuppannikā … ",
+      "english": ""
+    },
+    {
+      "number": 636,
+      "pali": "yepi te samaṇabrāhmaṇā pubbantakappikā … ",
+      "english": ""
+    },
+    {
+      "number": 637,
+      "pali": "yepi te samaṇabrāhmaṇā uddhamāghātanikā saññīvādā … ",
+      "english": ""
+    },
+    {
+      "number": 638,
+      "pali": "yepi te samaṇabrāhmaṇā uddhamāghātanikā asaññīvādā … ",
+      "english": ""
+    },
+    {
+      "number": 639,
+      "pali": "yepi te samaṇabrāhmaṇā uddhamāghātanikā nevasaññīnāsaññīvādā … ",
+      "english": ""
+    },
+    {
+      "number": 640,
+      "pali": "yepi te samaṇabrāhmaṇā ucchedavādā … ",
+      "english": ""
+    },
+    {
+      "number": 641,
+      "pali": "yepi te samaṇabrāhmaṇā diṭṭhadhammanibbānavādā … ",
+      "english": ""
+    },
+    {
+      "number": 642,
+      "pali": "yepi te samaṇabrāhmaṇā aparantakappikā … ",
+      "english": ""
+    },
+    {
+      "number": 643,
+      "pali": "yepi te samaṇabrāhmaṇā pubbantakappikā ca aparantakappikā ca pubbantāparantakappikā ca pubbantāparantānudiṭṭhino pubbantāparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti dvāsaṭṭhiyā vatthūhi, sabbe te chahi phassāyatanehi phussa phussa paṭisaṁvedenti tesaṁ vedanāpaccayā taṇhā, taṇhāpaccayā upādānaṁ, upādānapaccayā bhavo, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti. ",
+      "english": "Now, when those ascetics and brahmins theorize about the first beginning and the final end on these sixty-two grounds, all of them experience this by repeated contact through the six fields of contact. Their feeling is a condition for craving. Craving is a condition for grasping. Grasping is a condition for continued existence. Continued existence is a condition for rebirth. Rebirth is a condition for old age and death, sorrow, lamentation, pain, sadness, and distress to come to be. "
+    },
+    {
+      "number": 644,
+      "pali": "5. Vivaṭṭakathādi ",
+      "english": "5. The End of the Round "
+    },
+    {
+      "number": 645,
+      "pali": "Yato kho, bhikkhave, bhikkhu channaṁ phassāyatanānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ pajānāti, ayaṁ imehi sabbeheva uttaritaraṁ pajānāti. ",
+      "english": "When a mendicant truly understands the six fields of contact’s origin, disappearance, gratification, drawback, and escape, they understand what lies beyond all these things. "
+    },
+    {
+      "number": 646,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā pubbantakappikā vā aparantakappikā vā pubbantāparantakappikā vā pubbantāparantānudiṭṭhino pubbantāparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti, sabbe te imeheva dvāsaṭṭhiyā vatthūhi antojālīkatā, ettha sitāva ummujjamānā ummujjanti, ettha pariyāpannā antojālīkatāva ummujjamānā ummujjanti. ",
+      "english": "All of these ascetics and brahmins who theorize about the first beginning or the final end are trapped in the net of these sixty-two grounds, so that wherever they emerge they are caught and trapped in this very net. "
+    },
+    {
+      "number": 647,
+      "pali": "Seyyathāpi, bhikkhave, dakkho kevaṭṭo vā kevaṭṭantevāsī vā sukhumacchikena jālena parittaṁ udakadahaṁ otthareyya. Tassa evamassa: ‘ye kho keci imasmiṁ udakadahe oḷārikā pāṇā, sabbe te antojālīkatā. Ettha sitāva ummujjamānā ummujjanti; ettha pariyāpannā antojālīkatāva ummujjamānā ummujjantī’ti; ",
+      "english": "Suppose a deft fisherman or his apprentice were to cast a fine-meshed net over a small pond. They’d think: ‘Any sizable creatures in this pond will be trapped in the net. Wherever they emerge they are caught and trapped in this very net.’ "
+    },
+    {
+      "number": 648,
+      "pali": "evameva kho, bhikkhave, ye hi keci samaṇā vā brāhmaṇā vā pubbantakappikā vā aparantakappikā vā pubbantāparantakappikā vā pubbantāparantānudiṭṭhino pubbantāparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti, sabbe te imeheva dvāsaṭṭhiyā vatthūhi antojālīkatā ettha sitāva ummujjamānā ummujjanti, ettha pariyāpannā antojālīkatāva ummujjamānā ummujjanti. ",
+      "english": "In the same way, all of these ascetics and brahmins who theorize about the first beginning or the final end are trapped in the net of these sixty-two grounds, so that wherever they emerge they are caught and trapped in this very net. "
+    },
+    {
+      "number": 649,
+      "pali": "Ucchinnabhavanettiko, bhikkhave, tathāgatassa kāyo tiṭṭhati. ",
+      "english": "The Realized One’s body remains, but his leash to existence has been cut off. "
+    },
+    {
+      "number": 650,
+      "pali": "Yāvassa kāyo ṭhassati, tāva naṁ dakkhanti devamanussā. ",
+      "english": "As long as his body remains he will be seen by gods and humans. "
+    },
+    {
+      "number": 651,
+      "pali": "Kāyassa bhedā uddhaṁ jīvitapariyādānā na naṁ dakkhanti devamanussā. ",
+      "english": "But when his body breaks up, after life has ended, gods and humans will see him no more. "
+    },
+    {
+      "number": 652,
+      "pali": "Seyyathāpi, bhikkhave, ambapiṇḍiyā vaṇṭacchinnāya yāni kānici ambāni vaṇṭapaṭibandhāni, sabbāni tāni tadanvayāni bhavanti; ",
+      "english": "When the stalk of a bunch of mangoes is cut, all the mangoes attached to the stalk will follow along. "
+    },
+    {
+      "number": 653,
+      "pali": "evameva kho, bhikkhave, ucchinnabhavanettiko tathāgatassa kāyo tiṭṭhati, ",
+      "english": "In the same way, the Realized One’s body remains, but his leash to existence has been cut off. "
+    },
+    {
+      "number": 654,
+      "pali": "yāvassa kāyo ṭhassati, tāva naṁ dakkhanti devamanussā, ",
+      "english": "As long as his body remains he will be seen by gods and humans. "
+    },
+    {
+      "number": 655,
+      "pali": "kāyassa bhedā uddhaṁ jīvitapariyādānā na naṁ dakkhanti devamanussā”ti. ",
+      "english": "But when his body breaks up, after life has ended, gods and humans will see him no more.” "
+    },
+    {
+      "number": 656,
+      "pali": "Evaṁ vutte, āyasmā ānando bhagavantaṁ etadavoca: ",
+      "english": "When he had spoken, Venerable Ānanda said to the Buddha, "
+    },
+    {
+      "number": 657,
+      "pali": "“acchariyaṁ, bhante, abbhutaṁ, bhante, ko nāmo ayaṁ, bhante, dhammapariyāyo”ti? ",
+      "english": "“It’s incredible, sir, it’s amazing! What is the name of this exposition of the teaching?” "
+    },
+    {
+      "number": 658,
+      "pali": "“Tasmātiha tvaṁ, ānanda, imaṁ dhammapariyāyaṁ atthajālantipi naṁ dhārehi, dhammajālantipi naṁ dhārehi, brahmajālantipi naṁ dhārehi, diṭṭhijālantipi naṁ dhārehi, anuttaro saṅgāmavijayotipi naṁ dhārehī”ti. ",
+      "english": "“Well then, Ānanda, you may remember this exposition of the teaching as ‘The Net of Meaning’, or else ‘The Net of the Teaching’, or else ‘The Divine Net’, or else ‘The Net of Views’, or else ‘The Supreme Victory in Battle’.” "
+    },
+    {
+      "number": 659,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 660,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 661,
+      "pali": "Imasmiñca pana veyyākaraṇasmiṁ bhaññamāne dasasahassī lokadhātu akampitthāti. ",
+      "english": "And while this discourse was being spoken, the ten-thousandfold galaxy shook. "
+    },
+    {
+      "number": 662,
+      "pali": "Brahmajālasuttaṁ niṭṭhitaṁ paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "sutta_id": "AN3.100",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 3.100 ",
+      "english": "Numbered Discourses 3.100 "
+    },
+    {
+      "number": 2,
+      "pali": "10. Loṇakapallavagga ",
+      "english": "10. A Lump of Salt "
+    },
+    {
+      "number": 3,
+      "pali": "Loṇakapallasutta ",
+      "english": "A Lump of Salt "
+    },
+    {
+      "number": 4,
+      "pali": "“Yo, bhikkhave, evaṁ vadeyya: ",
+      "english": "“Mendicants, suppose you say: "
+    },
+    {
+      "number": 5,
+      "pali": "‘yathā yathāyaṁ puriso kammaṁ karoti tathā tathā taṁ paṭisaṁvediyatī’ti, evaṁ santaṁ, bhikkhave, brahmacariyavāso na hoti, okāso na paññāyati sammā dukkhassa antakiriyāya. ",
+      "english": "‘No matter how this person performs a deed, they experience it the same way.’ This being so, the spiritual life could not be lived, and there’d be no chance of making a complete end of suffering. "
+    },
+    {
+      "number": 6,
+      "pali": "Yo ca kho, bhikkhave, evaṁ vadeyya: ",
+      "english": "Suppose you say: "
+    },
+    {
+      "number": 7,
+      "pali": "‘yathā yathā vedanīyaṁ ayaṁ puriso kammaṁ karoti tathā tathāssa vipākaṁ paṭisaṁvediyatī’ti, evaṁ santaṁ, bhikkhave, brahmacariyavāso hoti, okāso paññāyati sammā dukkhassa antakiriyāya. ",
+      "english": "‘No matter how this person performs a deed, they experience the result as it should be experienced.’ This being so, the spiritual life can be lived, and there is a chance of making a complete end of suffering. "
+    },
+    {
+      "number": 8,
+      "pali": "Idha, bhikkhave, ekaccassa puggalassa appamattakampi pāpakammaṁ kataṁ tamenaṁ nirayaṁ upaneti. ",
+      "english": "Take the case of the individual who does a trivial bad deed, but it lands them in hell. "
+    },
+    {
+      "number": 9,
+      "pali": "Idha pana, bhikkhave, ekaccassa puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva. ",
+      "english": "Meanwhile, another individual does the same trivial bad deed, but experiences it in this life, so that not even a little remains, let alone a lot. "
+    },
+    {
+      "number": 10,
+      "pali": "Kathaṁrūpassa, bhikkhave, puggalassa appamattakampi pāpakammaṁ kataṁ tamenaṁ nirayaṁ upaneti? ",
+      "english": "What kind of individual does a trivial bad deed, but it lands them in hell? "
+    },
+    {
+      "number": 11,
+      "pali": "Idha pana, bhikkhave, ekacco puggalo abhāvitakāyo hoti abhāvitasīlo abhāvitacitto abhāvitapañño paritto appātumo appadukkhavihārī. ",
+      "english": "An individual who hasn’t developed their physical endurance, ethics, mind, or wisdom. They’re small-minded and mean-spirited, living in suffering. "
+    },
+    {
+      "number": 12,
+      "pali": "Evarūpassa, bhikkhave, puggalassa appamattakampi pāpakammaṁ kataṁ tamenaṁ nirayaṁ upaneti. ",
+      "english": "That kind of individual does a trivial bad deed, but it lands them in hell. "
+    },
+    {
+      "number": 13,
+      "pali": "Kathaṁrūpassa, bhikkhave, puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva? ",
+      "english": "What kind of individual does the same trivial bad deed, but experiences it in this life, so that not even a little remains, let alone a lot? "
+    },
+    {
+      "number": 14,
+      "pali": "Idha, bhikkhave, ekacco puggalo bhāvitakāyo hoti bhāvitasīlo bhāvitacitto bhāvitapañño aparitto mahatto appamāṇavihārī. ",
+      "english": "An individual who has developed their physical endurance, ethics, mind, and wisdom. They’re not small-minded, but are big-hearted, meditating on the immeasurables. "
+    },
+    {
+      "number": 15,
+      "pali": "Evarūpassa, bhikkhave, puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva. ",
+      "english": "That kind of individual does the same trivial bad deed, but experiences it in this life, so that not even a little remains, let alone a lot. "
+    },
+    {
+      "number": 16,
+      "pali": "Seyyathāpi, bhikkhave, puriso loṇakapallaṁ paritte udakamallake pakkhipeyya. ",
+      "english": "Suppose a person was to drop a lump of salt into a mug of water. "
+    },
+    {
+      "number": 17,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 18,
+      "pali": "api nu taṁ parittaṁ udakaṁ amunā loṇakapallena loṇaṁ assa apeyyan”ti? ",
+      "english": "Would that mug of water become salty and undrinkable?” "
+    },
+    {
+      "number": 19,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir. "
+    },
+    {
+      "number": 20,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 21,
+      "pali": "“Aduñhi, bhante, parittaṁ udakakapallake udakaṁ, taṁ amunā loṇakapallena loṇaṁ assa apeyyan”ti. ",
+      "english": "Because there is only a little water in the bowl.” "
+    },
+    {
+      "number": 22,
+      "pali": "“Seyyathāpi, bhikkhave, puriso loṇakapallakaṁ gaṅgāya nadiyā pakkhipeyya. ",
+      "english": "“Suppose a person was to drop a lump of salt into the Ganges river. "
+    },
+    {
+      "number": 23,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 24,
+      "pali": "api nu sā gaṅgā nadī amunā loṇakapallena loṇaṁ assa apeyyā”ti? ",
+      "english": "Would the Ganges river become salty and undrinkable?” "
+    },
+    {
+      "number": 25,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 26,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 27,
+      "pali": "“Asu hi, bhante, gaṅgāya nadiyā mahā udakakkhandho so amunā loṇakapallena loṇo na assa apeyyo”ti. ",
+      "english": "Because the Ganges river is a vast mass of water.” "
+    },
+    {
+      "number": 28,
+      "pali": "“Evamevaṁ kho, bhikkhave, idhekaccassa puggalassa appamattakampi pāpakammaṁ kataṁ tamenaṁ nirayaṁ upaneti. ",
+      "english": "“This is how it is in the case of an individual who does a trivial bad deed, but it lands them in hell. "
+    },
+    {
+      "number": 29,
+      "pali": "Idha, bhikkhave, ekaccassa puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva. ",
+      "english": "Meanwhile, another individual does the same trivial bad deed, but experiences it in this life, so that not even a little remains, let alone a lot. … "
+    },
+    {
+      "number": 30,
+      "pali": "Kathaṁrūpassa, bhikkhave, puggalassa appamattakampi pāpakammaṁ kataṁ tamenaṁ nirayaṁ upaneti? ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Idha, bhikkhave, ekacco puggalo abhāvitakāyo hoti abhāvitasīlo abhāvitacitto abhāvitapañño paritto appātumo appadukkhavihārī. ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "Evarūpassa, bhikkhave, puggalassa appamattakampi pāpakammaṁ kataṁ tamenaṁ nirayaṁ upaneti. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Kathaṁrūpassa, bhikkhave, puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva? ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "Idha, bhikkhave, ekacco puggalo bhāvitakāyo hoti bhāvitasīlo bhāvitacitto bhāvitapañño aparitto mahatto appamāṇavihārī. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Evarūpassa, bhikkhave, puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva. ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "Idha, bhikkhave, ekacco aḍḍhakahāpaṇenapi bandhanaṁ nigacchati, kahāpaṇenapi bandhanaṁ nigacchati, kahāpaṇasatenapi bandhanaṁ nigacchati. ",
+      "english": "Take the case of someone who is thrown in jail for stealing half a dollar, a dollar, or a hundred dollars. "
+    },
+    {
+      "number": 37,
+      "pali": "Idha, bhikkhave, ekacco aḍḍhakahāpaṇenapi na bandhanaṁ nigacchati, kahāpaṇenapi na bandhanaṁ nigacchati, kahāpaṇasatenapi na bandhanaṁ nigacchati. ",
+      "english": "While someone else isn’t thrown in jail for stealing half a dollar, a dollar, or a hundred dollars. "
+    },
+    {
+      "number": 38,
+      "pali": "Kathaṁrūpo, bhikkhave, aḍḍhakahāpaṇenapi bandhanaṁ nigacchati, kahāpaṇenapi bandhanaṁ nigacchati, kahāpaṇasatenapi bandhanaṁ nigacchati? ",
+      "english": "What sort of person is thrown in jail for stealing half a dollar, a dollar, or a hundred dollars? "
+    },
+    {
+      "number": 39,
+      "pali": "Idha, bhikkhave, ekacco daliddo hoti appassako appabhogo. ",
+      "english": "Someone who is poor, with few possessions and little wealth. "
+    },
+    {
+      "number": 40,
+      "pali": "Evarūpo, bhikkhave, aḍḍhakahāpaṇenapi bandhanaṁ nigacchati, kahāpaṇenapi bandhanaṁ nigacchati, kahāpaṇasatenapi bandhanaṁ nigacchati. ",
+      "english": "That kind of person is thrown in jail for stealing half a dollar, a dollar, or a hundred dollars. "
+    },
+    {
+      "number": 41,
+      "pali": "Kathaṁrūpo, bhikkhave, aḍḍhakahāpaṇenapi na bandhanaṁ nigacchati, kahāpaṇenapi na bandhanaṁ nigacchati, kahāpaṇasatenapi na bandhanaṁ nigacchati? ",
+      "english": "What sort of person isn’t thrown in jail for stealing half a dollar, a dollar, or a hundred dollars? "
+    },
+    {
+      "number": 42,
+      "pali": "Idha, bhikkhave, ekacco aḍḍho hoti mahaddhano mahābhogo. ",
+      "english": "Someone who is rich, affluent, and wealthy. "
+    },
+    {
+      "number": 43,
+      "pali": "Evarūpo, bhikkhave, aḍḍhakahāpaṇenapi na bandhanaṁ nigacchati, kahāpaṇenapi na bandhanaṁ nigacchati, kahāpaṇasatenapi na bandhanaṁ nigacchati. ",
+      "english": "That kind of person isn’t thrown in jail for stealing half a dollar, a dollar, or a hundred dollars. "
+    },
+    {
+      "number": 44,
+      "pali": "Evamevaṁ kho, bhikkhave, idhekaccassa puggalassa appamattakaṁ pāpakammaṁ kataṁ. ",
+      "english": "This is how it is in the case of an individual who does a trivial bad deed, but they go to hell. "
+    },
+    {
+      "number": 45,
+      "pali": "Tamenaṁ nirayaṁ upaneti. ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "Idha, bhikkhave, ekaccassa puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva. ",
+      "english": "Meanwhile, another individual does the same trivial bad deed, but experiences it in this life, so that not even a little remains, let alone a lot. … "
+    },
+    {
+      "number": 47,
+      "pali": "Kathaṁrūpassa, bhikkhave, puggalassa appamattakaṁ pāpakammaṁ kataṁ, tamenaṁ nirayaṁ upaneti? ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "Idha, bhikkhave, ekacco puggalo abhāvitakāyo hoti abhāvitasīlo abhāvitacitto abhāvitapañño paritto appātumo appadukkhavihārī. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Evarūpassa, bhikkhave, puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ tamenaṁ nirayaṁ upaneti. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Kathaṁrūpassa, bhikkhave, puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva? ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Idha, bhikkhave, ekacco puggalo bhāvitakāyo hoti bhāvitasīlo bhāvitacitto bhāvitapañño aparitto mahatto appamāṇavihārī. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Evarūpassa, bhikkhave, puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva. ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Idha, bhikkhave, ekacco puggalo bhāvitakāyo hoti bhāvitasīlo bhāvitacitto bhāvitapañño aparitto mahatto appamāṇavihārī. ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Evarūpassa, bhikkhave, puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Seyyathāpi, bhikkhave, orabbhiko vā urabbhaghātako vā appekaccaṁ urabbhaṁ adinnaṁ ādiyamānaṁ pahoti hantuṁ vā bandhituṁ vā jāpetuṁ vā yathāpaccayaṁ vā kātuṁ, appekaccaṁ urabbhaṁ adinnaṁ ādiyamānaṁ nappahoti hantuṁ vā bandhituṁ vā jāpetuṁ vā yathāpaccayaṁ vā kātuṁ. ",
+      "english": "It’s like a sheep dealer or butcher. They can execute, jail, fine, or otherwise punish one person who steals from them, but not another. "
+    },
+    {
+      "number": 56,
+      "pali": "Kathaṁrūpaṁ, bhikkhave, orabbhiko vā urabbhaghātako vā urabbhaṁ adinnaṁ ādiyamānaṁ pahoti hantuṁ vā bandhituṁ vā jāpetuṁ vā yathāpaccayaṁ vā kātuṁ? ",
+      "english": "What sort of person can they punish? "
+    },
+    {
+      "number": 57,
+      "pali": "Idha, bhikkhave, ekacco daliddo hoti appassako appabhogo. ",
+      "english": "Someone who is poor, with few possessions and little wealth. "
+    },
+    {
+      "number": 58,
+      "pali": "Evarūpaṁ, bhikkhave, orabbhiko vā urabbhaghātako vā urabbhaṁ adinnaṁ ādiyamānaṁ pahoti hantuṁ vā bandhituṁ vā jāpetuṁ vā yathāpaccayaṁ vā kātuṁ. ",
+      "english": "That’s the kind of person they can punish. "
+    },
+    {
+      "number": 59,
+      "pali": "Kathaṁrūpaṁ, bhikkhave, orabbhiko vā urabbhaghātako vā urabbhaṁ adinnaṁ ādiyamānaṁ nappahoti hantuṁ vā bandhituṁ vā jāpetuṁ vā yathāpaccayaṁ vā kātuṁ. ",
+      "english": "What sort of person can’t they punish? "
+    },
+    {
+      "number": 60,
+      "pali": "Idha, bhikkhave, ekacco aḍḍho hoti mahaddhano mahābhogo rājā vā rājamahāmatto vā. ",
+      "english": "A ruler or their chief minister who is rich, affluent, and wealthy. "
+    },
+    {
+      "number": 61,
+      "pali": "Evarūpaṁ, bhikkhave, orabbhiko vā urabbhaghātako vā urabbhaṁ adinnaṁ ādiyamānaṁ nappahoti hantuṁ vā bandhituṁ vā jāpetuṁ vā yathāpaccayaṁ vā kātuṁ. ",
+      "english": "That’s the kind of person they can’t punish. "
+    },
+    {
+      "number": 62,
+      "pali": "Aññadatthu pañjalikova naṁ yācati: ",
+      "english": "In fact, all they can do is raise their cupped palms and ask: "
+    },
+    {
+      "number": 63,
+      "pali": "‘dehi me, mārisa, urabbhaṁ vā urabbhadhanaṁ vā’ti. ",
+      "english": "‘Please, good fellow, give me my sheep or pay me for it.’ "
+    },
+    {
+      "number": 64,
+      "pali": "Evamevaṁ kho, bhikkhave, idhekaccassa puggalassa tādisaṁyeva appamattakampi pāpakammaṁ kataṁ tamenaṁ nirayaṁ upaneti. ",
+      "english": "This is how it is in the case of an individual who does a trivial bad deed, but it lands them in hell. "
+    },
+    {
+      "number": 65,
+      "pali": "Idha pana, bhikkhave, ekaccassa puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva. ",
+      "english": "Meanwhile, another individual does the same trivial bad deed, but experiences it in this life, so that not even a little remains, let alone a lot. … "
+    },
+    {
+      "number": 66,
+      "pali": "Kathaṁrūpassa, bhikkhave, puggalassa appamattakampi pāpakammaṁ kataṁ tamenaṁ nirayaṁ upaneti? ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "Idha, bhikkhave, ekacco puggalo abhāvitakāyo hoti abhāvitasīlo abhāvitacitto abhāvitapañño paritto appātumo appadukkhavihārī. ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "Evarūpassa, bhikkhave, puggalassa appamattakampi pāpakammaṁ kataṁ tamenaṁ nirayaṁ upaneti. ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "Kathaṁrūpassa, bhikkhave, puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva? ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "Idha, bhikkhave, ekacco puggalo bhāvitakāyo hoti bhāvitasīlo bhāvitacitto bhāvitapañño aparitto mahatto appamāṇavihārī. ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "Evarūpassa, bhikkhave, puggalassa tādisaṁyeva appamattakaṁ pāpakammaṁ kataṁ diṭṭhadhammavedanīyaṁ hoti, nāṇupi khāyati, kiṁ bahudeva. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "Yo, bhikkhave, evaṁ vadeyya: ",
+      "english": "Mendicants, suppose you say: "
+    },
+    {
+      "number": 73,
+      "pali": "‘yathā yathāyaṁ puriso kammaṁ karoti tathā tathā taṁ paṭisaṁvedetī’ti, evaṁ santaṁ, bhikkhave, brahmacariyavāso na hoti, okāso na paññāyati sammā dukkhassa antakiriyāya. ",
+      "english": "‘No matter how this person performs a deed, they experience it the same way.’ This being so, the spiritual life could not be lived, and there’d be no chance of making a complete end of suffering. "
+    },
+    {
+      "number": 74,
+      "pali": "Yo ca kho, bhikkhave, evaṁ vadeyya: ",
+      "english": "Suppose you say: "
+    },
+    {
+      "number": 75,
+      "pali": "‘yathā yathā vedanīyaṁ ayaṁ puriso kammaṁ karoti tathā tathā tassa vipākaṁ paṭisaṁvedetī’ti, evaṁ santaṁ, bhikkhave, brahmacariyavāso hoti, okāso paññāyati sammā dukkhassa antakiriyāyā”ti. ",
+      "english": "‘No matter how this person performs a deed, they experience the result as it should be experienced.’ This being so, the spiritual life can be lived, and there is a chance of making a complete end of suffering.” "
+    },
+    {
+      "number": 76,
+      "pali": "Navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

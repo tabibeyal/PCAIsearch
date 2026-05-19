@@ -1,0 +1,425 @@
+{
+  "sutta_id": "SN12.68",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 12.68 ",
+      "english": "Linked Discourses 12.68 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Mahāvagga ",
+      "english": "7. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Kosambisutta ",
+      "english": "At Kosambī "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ āyasmā ca musilo āyasmā ca paviṭṭho āyasmā ca nārado āyasmā ca ānando kosambiyaṁ viharanti ghositārāme. ",
+      "english": "At one time the venerables Musīla, Saviṭṭha, Nārada, and Ānanda were staying near Kosambī in Ghosita’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho āyasmā paviṭṭho āyasmantaṁ musilaṁ etadavoca: ",
+      "english": "Then Venerable Saviṭṭha said to Venerable Musīla: "
+    },
+    {
+      "number": 6,
+      "pali": "“aññatreva, āvuso musila, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā atthāyasmato musilassa paccattameva ñāṇaṁ: ",
+      "english": "“Reverend Musīla, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, do you personally know that "
+    },
+    {
+      "number": 7,
+      "pali": "‘jātipaccayā jarāmaraṇan’”ti? ",
+      "english": "rebirth is a requirement for old age and death?” "
+    },
+    {
+      "number": 8,
+      "pali": "“Aññatreva, āvuso paviṭṭha, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā ahametaṁ jānāmi ahametaṁ passāmi: ",
+      "english": "“Reverend Saviṭṭha, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, I know and see that "
+    },
+    {
+      "number": 9,
+      "pali": "‘jātipaccayā jarāmaraṇan’”ti. ",
+      "english": "rebirth is a requirement for old age and death.” "
+    },
+    {
+      "number": 10,
+      "pali": "“Aññatreva, āvuso musila, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā atthāyasmato musilassa paccattameva ñāṇaṁ: ",
+      "english": "“Reverend Musīla, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberateation, do you personally know that "
+    },
+    {
+      "number": 11,
+      "pali": "‘bhavapaccayā jātīti …pe… ",
+      "english": "continued existence is a requirement for rebirth … "
+    },
+    {
+      "number": 12,
+      "pali": "upādānapaccayā bhavoti … ",
+      "english": "grasping is a requirement for continued existence … "
+    },
+    {
+      "number": 13,
+      "pali": "taṇhāpaccayā upādānanti … ",
+      "english": "craving is a requirement for grasping … "
+    },
+    {
+      "number": 14,
+      "pali": "vedanāpaccayā taṇhāti … ",
+      "english": "feeling is a requirement for craving … "
+    },
+    {
+      "number": 15,
+      "pali": "phassapaccayā vedanāti … ",
+      "english": "contact is a requirement for feeling … "
+    },
+    {
+      "number": 16,
+      "pali": "saḷāyatanapaccayā phassoti … ",
+      "english": "the six sense fields are requirements for contact … "
+    },
+    {
+      "number": 17,
+      "pali": "nāmarūpapaccayā saḷāyatananti … ",
+      "english": "name and form are requirements for the six sense fields … "
+    },
+    {
+      "number": 18,
+      "pali": "viññāṇapaccayā nāmarūpanti … ",
+      "english": "consciousness is a requirement for name and form … "
+    },
+    {
+      "number": 19,
+      "pali": "saṅkhārapaccayā viññāṇanti … ",
+      "english": "choices are a requirement for consciousness … "
+    },
+    {
+      "number": 20,
+      "pali": "avijjāpaccayā saṅkhārā’”ti? ",
+      "english": "ignorance is a requirement for choices?” "
+    },
+    {
+      "number": 21,
+      "pali": "“Aññatreva, āvuso paviṭṭha, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā ahametaṁ jānāmi ahametaṁ passāmi: ",
+      "english": "“Reverend Saviṭṭha, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, I know and see that "
+    },
+    {
+      "number": 22,
+      "pali": "‘avijjāpaccayā saṅkhārā’”ti. ",
+      "english": "ignorance is a requirement for choices.” "
+    },
+    {
+      "number": 23,
+      "pali": "“Aññatreva, āvuso musila, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā atthāyasmato musilassa paccattameva ñāṇaṁ: ",
+      "english": "“Reverend Musīla, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, do you personally know that "
+    },
+    {
+      "number": 24,
+      "pali": "‘jātinirodhā jarāmaraṇanirodho’”ti? ",
+      "english": "when rebirth ceases, old age and death cease?” "
+    },
+    {
+      "number": 25,
+      "pali": "“Aññatreva, āvuso paviṭṭha, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā ahametaṁ jānāmi ahametaṁ passāmi: ",
+      "english": "“Reverend Saviṭṭha, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, I know and see that "
+    },
+    {
+      "number": 26,
+      "pali": "‘jātinirodhā jarāmaraṇanirodho’”ti. ",
+      "english": "when rebirth ceases, old age and death cease.” "
+    },
+    {
+      "number": 27,
+      "pali": "“Aññatreva, āvuso musila, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā atthāyasmato musilassa paccattameva ñāṇaṁ: ",
+      "english": "“Reverend Musīla, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, do you personally know that "
+    },
+    {
+      "number": 28,
+      "pali": "‘bhavanirodhā jātinirodhoti …pe… ",
+      "english": "when continued existence ceases, rebirth ceases … "
+    },
+    {
+      "number": 29,
+      "pali": "upādānanirodhā bhavanirodhoti … ",
+      "english": "when grasping ceases, continued existence ceases … "
+    },
+    {
+      "number": 30,
+      "pali": "taṇhānirodhā upādānanirodhoti … ",
+      "english": "when craving ceases, grasping ceases … "
+    },
+    {
+      "number": 31,
+      "pali": "vedanānirodhā taṇhānirodhoti … ",
+      "english": "when feeling ceases, craving ceases … "
+    },
+    {
+      "number": 32,
+      "pali": "phassanirodhā vedanānirodhoti … ",
+      "english": "when contact ceases, feeling ceases … "
+    },
+    {
+      "number": 33,
+      "pali": "saḷāyatananirodhā phassanirodhoti … ",
+      "english": "when the six sense fields cease, contact ceases … "
+    },
+    {
+      "number": 34,
+      "pali": "nāmarūpanirodhā saḷāyatananirodhoti … ",
+      "english": "when name and form cease, the six sense fields cease … "
+    },
+    {
+      "number": 35,
+      "pali": "viññāṇanirodhā nāmarūpanirodhoti … ",
+      "english": "when consciousness ceases name and form cease … "
+    },
+    {
+      "number": 36,
+      "pali": "saṅkhāranirodhā viññāṇanirodhoti … ",
+      "english": "when choices cease consciousness ceases … "
+    },
+    {
+      "number": 37,
+      "pali": "avijjānirodhā saṅkhāranirodho’”ti? ",
+      "english": "when ignorance ceases, choices cease?” "
+    },
+    {
+      "number": 38,
+      "pali": "“Aññatreva, āvuso paviṭṭha, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā ahametaṁ jānāmi ahametaṁ passāmi: ",
+      "english": "“Reverend Saviṭṭha, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, I know and see that "
+    },
+    {
+      "number": 39,
+      "pali": "‘avijjānirodhā saṅkhāranirodho’”ti. ",
+      "english": "when ignorance ceases, choices cease.” "
+    },
+    {
+      "number": 40,
+      "pali": "“Aññatreva, āvuso musila, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā atthāyasmato musilassa paccattameva ñāṇaṁ: ",
+      "english": "“Reverend Musīla, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, do you personally know that "
+    },
+    {
+      "number": 41,
+      "pali": "‘bhavanirodho nibbānan’”ti? ",
+      "english": "the cessation of continued existence is extinguishment?” "
+    },
+    {
+      "number": 42,
+      "pali": "“Aññatreva, āvuso paviṭṭha, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā ahametaṁ jānāmi ahametaṁ passāmi: ",
+      "english": "“Reverend Saviṭṭha, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, I know and see that "
+    },
+    {
+      "number": 43,
+      "pali": "‘bhavanirodho nibbānan’”ti. ",
+      "english": "the cessation of continued existence is extinguishment.” "
+    },
+    {
+      "number": 44,
+      "pali": "“Tenahāyasmā musilo arahaṁ khīṇāsavo”ti? ",
+      "english": "“Then Venerable Musīla is a perfected one, with defilements ended.” "
+    },
+    {
+      "number": 45,
+      "pali": "Evaṁ vutte, āyasmā musilo tuṇhī ahosi. ",
+      "english": "When he said this, Musīla kept silent. "
+    },
+    {
+      "number": 46,
+      "pali": "Atha kho āyasmā nārado āyasmantaṁ paviṭṭhaṁ etadavoca: ",
+      "english": "Then Venerable Nārada said to Venerable Saviṭṭha, "
+    },
+    {
+      "number": 47,
+      "pali": "“sādhāvuso paviṭṭha, ahaṁ etaṁ pañhaṁ labheyyaṁ. ",
+      "english": "“Reverend Saviṭṭha, please let me answer these questions. "
+    },
+    {
+      "number": 48,
+      "pali": "Maṁ etaṁ pañhaṁ puccha. ",
+      "english": "Ask me "
+    },
+    {
+      "number": 49,
+      "pali": "Ahaṁ te etaṁ pañhaṁ byākarissāmī”ti. ",
+      "english": "and I will answer them for you.” "
+    },
+    {
+      "number": 50,
+      "pali": "“Labhatāyasmā nārado etaṁ pañhaṁ. ",
+      "english": "“By all means, Venerable Nārada, try these questions. "
+    },
+    {
+      "number": 51,
+      "pali": "Pucchāmahaṁ āyasmantaṁ nāradaṁ etaṁ pañhaṁ. ",
+      "english": "I’ll ask you "
+    },
+    {
+      "number": 52,
+      "pali": "Byākarotu ca me āyasmā nārado etaṁ pañhaṁ. ",
+      "english": "and you can answer them for me.” "
+    },
+    {
+      "number": 53,
+      "pali": "Aññatreva, āvuso nārada, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā atthāyasmato nāradassa paccattameva ñāṇaṁ: ",
+      "english": "(Saviṭṭha repeats exactly the same series of questions, and Nārada answers just as Musīla did.) "
+    },
+    {
+      "number": 54,
+      "pali": "‘jātipaccayā jarāmaraṇan’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "“Aññatreva, āvuso paviṭṭha, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā ahametaṁ jānāmi ahametaṁ passāmi: ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "‘jātipaccayā jarāmaraṇan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "“Aññatreva, āvuso nārada, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā atthāyasmato nāradassa paccattameva ñāṇaṁ—",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "bhavapaccayā jāti …pe… ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "avijjāpaccayā saṅkhārā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "“Aññatreva, āvuso paviṭṭha, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā ahametaṁ jānāmi ahametaṁ passāmi: ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "‘avijjāpaccayā saṅkhārā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "“Aññatreva, āvuso nārada, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā atthāyasmato nāradassa paccattameva ñāṇaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "‘jātinirodhā jarāmaraṇanirodho’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "“Aññatreva, āvuso paviṭṭha, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā ahametaṁ jānāmi ahametaṁ passāmi: ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "‘jātinirodhā jarāmaraṇanirodho’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "“Aññatreva, āvuso nārada, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā atthāyasmato nāradassa paccattameva ñāṇaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "‘bhavanirodhā jātinirodhoti …pe… ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "avijjānirodhā saṅkhāranirodho’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "“Aññatreva, āvuso paviṭṭha, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā ahametaṁ jānāmi ahametaṁ passāmi: ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "‘avijjānirodhā saṅkhāranirodho’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "“Aññatreva, āvuso nārada, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā atthāyasmato nāradassa paccattameva ñāṇaṁ: ",
+      "english": "“Reverend Nārada, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, do you personally know that "
+    },
+    {
+      "number": 72,
+      "pali": "‘bhavanirodho nibbānan’”ti? ",
+      "english": "the cessation of continued existence is extinguishment?” "
+    },
+    {
+      "number": 73,
+      "pali": "“Aññatreva, āvuso paviṭṭha, saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā ahametaṁ jānāmi ahametaṁ passāmi: ",
+      "english": "“Reverend Saviṭṭha, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation, I know and see that "
+    },
+    {
+      "number": 74,
+      "pali": "‘bhavanirodho nibbānan’”ti. ",
+      "english": "the cessation of continued existence is extinguishment.” "
+    },
+    {
+      "number": 75,
+      "pali": "“Tenahāyasmā nārado arahaṁ khīṇāsavo”ti? ",
+      "english": "“Then Venerable Nārada is a perfected one, with defilements ended.” "
+    },
+    {
+      "number": 76,
+      "pali": "“‘Bhavanirodho nibbānan’ti kho me, āvuso, yathābhūtaṁ sammappaññāya sudiṭṭhaṁ, na camhi arahaṁ khīṇāsavo. ",
+      "english": "“I have truly seen clearly with right wisdom that the cessation of continued existence is extinguishment. Yet I am not a perfected one. "
+    },
+    {
+      "number": 77,
+      "pali": "Seyyathāpi, āvuso, kantāramagge udapāno, tatra nevassa rajju na udakavārako. ",
+      "english": "Suppose there was a well on a desert road that had neither rope nor bucket. "
+    },
+    {
+      "number": 78,
+      "pali": "Atha puriso āgaccheyya ghammābhitatto ghammapareto kilanto tasito pipāsito, so taṁ udapānaṁ olokeyya. ",
+      "english": "Then along comes a person struggling in the oppressive heat, weary, thirsty, and parched. "
+    },
+    {
+      "number": 79,
+      "pali": "Tassa ‘udakan’ti hi kho ñāṇaṁ assa, na ca kāyena phusitvā vihareyya. ",
+      "english": "They’d know that there was water, but they couldn’t physically touch it. "
+    },
+    {
+      "number": 80,
+      "pali": "Evameva kho, āvuso, ‘bhavanirodho nibbānan’ti yathābhūtaṁ sammappaññāya sudiṭṭhaṁ, na camhi arahaṁ khīṇāsavo”ti. ",
+      "english": "In the same way, I have truly seen clearly with right wisdom that the cessation of continued existence is extinguishment. Yet I am not a perfected one.” "
+    },
+    {
+      "number": 81,
+      "pali": "Evaṁ vutte, āyasmā ānando āyasmantaṁ paviṭṭhaṁ etadavoca: ",
+      "english": "When he said this, Venerable Ānanda said to Venerable Saviṭṭha, "
+    },
+    {
+      "number": 82,
+      "pali": "“evaṁvādī tvaṁ, āvuso paviṭṭha, āyasmantaṁ nāradaṁ kiṁ vadesī”ti? ",
+      "english": "“Reverend Saviṭṭha, what do you have to say to Venerable Nārada when he speaks like this?” "
+    },
+    {
+      "number": 83,
+      "pali": "“Evaṁvādāhaṁ, āvuso ānanda, āyasmantaṁ nāradaṁ na kiñci vadāmi aññatra kalyāṇā aññatra kusalā”ti. ",
+      "english": "“Reverend Ānanda, I have nothing to say to Venerable Nārada when he speaks like this, except what is good and wholesome.” "
+    },
+    {
+      "number": 84,
+      "pali": "Aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

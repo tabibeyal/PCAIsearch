@@ -1,0 +1,240 @@
+{
+  "sutta_id": "SN16.4",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 16.4 ",
+      "english": "Linked Discourses 16.4 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Kassapavagga ",
+      "english": "1. Kassapa "
+    },
+    {
+      "number": 3,
+      "pali": "Kulūpakasutta ",
+      "english": "Visiting Families "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthiyaṁ viharati. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "“Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "“What do you think, mendicants? "
+    },
+    {
+      "number": 6,
+      "pali": "kathaṁrūpo bhikkhu arahati kulūpako hotuṁ, kathaṁrūpo bhikkhu na arahati kulūpako hotun”ti? ",
+      "english": "What kind of mendicant is worthy of visiting families? And what kind of mendicant is not worthy of visiting families?” "
+    },
+    {
+      "number": 7,
+      "pali": "Bhagavaṁmūlakā no, bhante, dhammā …pe… ",
+      "english": "“Our teachings are rooted in the Buddha. …” "
+    },
+    {
+      "number": 8,
+      "pali": "bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Yo hi koci, bhikkhave, bhikkhu evaṁcitto kulāni upasaṅkamati: ",
+      "english": "“Whoever visits families with the thought: "
+    },
+    {
+      "number": 10,
+      "pali": "‘dentuyeva me, mā nādaṁsu; ",
+      "english": "‘May they give to me, may they not fail to give. "
+    },
+    {
+      "number": 11,
+      "pali": "bahukaññeva me dentu, mā thokaṁ; ",
+      "english": "May they give a lot, not a little. "
+    },
+    {
+      "number": 12,
+      "pali": "paṇītaññeva me dentu, mā lūkhaṁ; ",
+      "english": "May they give me fine things, not coarse. "
+    },
+    {
+      "number": 13,
+      "pali": "sīghaññeva me dentu, mā dandhaṁ; ",
+      "english": "May they give quickly, not slowly. "
+    },
+    {
+      "number": 14,
+      "pali": "sakkaccaññeva me dentu, mā asakkaccan’ti. ",
+      "english": "May they give carefully, not carelessly.’ "
+    },
+    {
+      "number": 15,
+      "pali": "Tassa ce, bhikkhave, bhikkhuno evaṁcittassa kulāni upasaṅkamato na denti, tena bhikkhu sandīyati; so tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "If a mendicant with such a thought approaches a family and they don’t give, the mendicant feels slighted. And they experience pain and sadness because of that. "
+    },
+    {
+      "number": 16,
+      "pali": "Thokaṁ denti, no bahukaṁ …pe… ",
+      "english": "If they give only a little … "
+    },
+    {
+      "number": 17,
+      "pali": "lūkhaṁ denti, no paṇītaṁ … ",
+      "english": "if they give coarse things … "
+    },
+    {
+      "number": 18,
+      "pali": "dandhaṁ denti, no sīghaṁ, tena bhikkhu sandīyati; so tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "if they give slowly … "
+    },
+    {
+      "number": 19,
+      "pali": "Asakkaccaṁ denti, no sakkaccaṁ; tena bhikkhu sandīyati; so tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "if they give carelessly, the mendicant feels slighted. And they experience pain and sadness because of that. "
+    },
+    {
+      "number": 20,
+      "pali": "Evarūpo kho, bhikkhave, bhikkhu na arahati kulūpako hotuṁ. ",
+      "english": "That kind of mendicant is not worthy of visiting families. "
+    },
+    {
+      "number": 21,
+      "pali": "Yo ca kho, bhikkhave, bhikkhu evaṁcitto kulāni upasaṅkamati: ",
+      "english": "Whoever visits families with the thought: "
+    },
+    {
+      "number": 22,
+      "pali": "‘taṁ kutettha labbhā parakulesu—",
+      "english": "‘When among other families, how could I possibly think: "
+    },
+    {
+      "number": 23,
+      "pali": "dentuyeva me, mā nādaṁsu; ",
+      "english": "“May they give to me, may they not fail to give. "
+    },
+    {
+      "number": 24,
+      "pali": "bahukaññeva me dentu, mā thokaṁ; ",
+      "english": "May they give a lot, not a little. "
+    },
+    {
+      "number": 25,
+      "pali": "paṇītaññeva me dentu, mā lūkhaṁ; ",
+      "english": "May they give me fine things, not coarse. "
+    },
+    {
+      "number": 26,
+      "pali": "sīghaññeva me dentu, mā dandhaṁ; ",
+      "english": "May they give quickly, not slowly. "
+    },
+    {
+      "number": 27,
+      "pali": "sakkaccaññeva me dentu, mā asakkaccan’ti. ",
+      "english": "May they give carefully, not carelessly.”’ "
+    },
+    {
+      "number": 28,
+      "pali": "Tassa ce, bhikkhave, bhikkhuno evaṁcittassa kulāni upasaṅkamato na denti; tena bhikkhu na sandīyati; so na tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "If a mendicant with such a thought approaches a family and they don’t give, the mendicant doesn’t feel slighted. And they don’t experience pain and sadness because of that. "
+    },
+    {
+      "number": 29,
+      "pali": "Thokaṁ denti, no bahukaṁ; tena bhikkhu na sandīyati; so na tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "If they give only a little … "
+    },
+    {
+      "number": 30,
+      "pali": "Lūkhaṁ denti, no paṇītaṁ; tena bhikkhu na sandīyati; so na tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "if they give coarse things … "
+    },
+    {
+      "number": 31,
+      "pali": "Dandhaṁ denti, no sīghaṁ; tena bhikkhu na sandīyati; so na tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "if they give slowly … "
+    },
+    {
+      "number": 32,
+      "pali": "Asakkaccaṁ denti, no sakkaccaṁ; tena bhikkhu na sandīyati; so na tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "if they give carelessly, the mendicant doesn’t feel slighted. And they don’t experience pain and sadness because of that. "
+    },
+    {
+      "number": 33,
+      "pali": "Evarūpo kho, bhikkhave, bhikkhu arahati kulūpako hotuṁ. ",
+      "english": "That kind of mendicant is worthy of visiting families. "
+    },
+    {
+      "number": 34,
+      "pali": "Kassapo, bhikkhave, evaṁcitto kulāni upasaṅkamati: ",
+      "english": "Kassapa visits families with the thought: "
+    },
+    {
+      "number": 35,
+      "pali": "‘taṁ kutettha labbhā parakulesu—",
+      "english": "‘When among other families, how could I possibly think: "
+    },
+    {
+      "number": 36,
+      "pali": "dentuyeva me, mā nādaṁsu; ",
+      "english": "“May they give to me, may they not fail to give. "
+    },
+    {
+      "number": 37,
+      "pali": "bahukaññeva me dentu, mā thokaṁ; ",
+      "english": "May they give a lot, not a little. "
+    },
+    {
+      "number": 38,
+      "pali": "paṇītaññeva me dentu, mā lūkhaṁ; ",
+      "english": "May they give me fine things, not coarse. "
+    },
+    {
+      "number": 39,
+      "pali": "sīghaññeva me dentu, mā dandhaṁ; ",
+      "english": "May they give quickly, not slowly. "
+    },
+    {
+      "number": 40,
+      "pali": "sakkaccaññeva me dentu, mā asakkaccan’ti. ",
+      "english": "May they give carefully, not carelessly.”’ "
+    },
+    {
+      "number": 41,
+      "pali": "Tassa ce, bhikkhave, kassapassa evaṁcittassa kulāni upasaṅkamato na denti; tena kassapo na sandīyati; so na tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "With such a thought, if he approaches a family and they don’t give, he doesn’t feel slighted. And he doesn’t experience pain and sadness because of that. "
+    },
+    {
+      "number": 42,
+      "pali": "Thokaṁ denti, no bahukaṁ; tena kassapo na sandīyati; so na tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "If they give only a little … "
+    },
+    {
+      "number": 43,
+      "pali": "Lūkhaṁ denti, no paṇītaṁ; tena kassapo na sandīyati; so na tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "if they give coarse things … "
+    },
+    {
+      "number": 44,
+      "pali": "Dandhaṁ denti, no sīghaṁ; tena kassapo na sandīyati; so na tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "if they give slowly … "
+    },
+    {
+      "number": 45,
+      "pali": "Asakkaccaṁ denti, no sakkaccaṁ; tena kassapo na sandīyati; so na tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "if they give carelessly, he doesn’t feel slighted. And he doesn’t experience pain and sadness because of that. "
+    },
+    {
+      "number": 46,
+      "pali": "Kassapena vā hi vo, bhikkhave, ovadissāmi yo vā panassa kassapasadiso. Ovaditehi ca pana vo tathattāya paṭipajjitabban”ti. ",
+      "english": "I will exhort you with the example of Kassapa or someone like him. You should practice accordingly.” "
+    },
+    {
+      "number": 47,
+      "pali": "Catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

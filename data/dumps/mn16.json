@@ -1,0 +1,420 @@
+{
+  "sutta_id": "MN16",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 16 ",
+      "english": "Middle Discourses 16 "
+    },
+    {
+      "number": 2,
+      "pali": "Cetokhilasutta ",
+      "english": "Hard-heartedness "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Yassa kassaci, bhikkhave, bhikkhuno pañca cetokhilā appahīnā, pañca cetasovinibandhā asamucchinnā, so vatimasmiṁ dhammavinaye vuddhiṁ virūḷhiṁ vepullaṁ āpajjissatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "“Mendicants, when a mendicant has not given up five kinds of hard-heartedness and severed five shackles of the heart, it’s not possible for them to achieve growth, improvement, or maturity in this teaching and training. "
+    },
+    {
+      "number": 10,
+      "pali": "Katamāssa pañca cetokhilā appahīnā honti? ",
+      "english": "What are the five kinds of hard-heartedness they haven’t given up? "
+    },
+    {
+      "number": 11,
+      "pali": "Idha, bhikkhave, bhikkhu satthari kaṅkhati vicikicchati nādhimuccati na sampasīdati. ",
+      "english": "Firstly, a mendicant has doubts about the Teacher. They’re uncertain, undecided, and lacking confidence. "
+    },
+    {
+      "number": 12,
+      "pali": "Yo so, bhikkhave, bhikkhu satthari kaṅkhati vicikicchati nādhimuccati na sampasīdati tassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": "This being so, their mind doesn’t incline toward keenness, commitment, persistence, and striving. "
+    },
+    {
+      "number": 13,
+      "pali": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ paṭhamo cetokhilo appahīno hoti. ",
+      "english": "This is the first kind of hard-heartedness they haven’t given up. "
+    },
+    {
+      "number": 14,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu dhamme kaṅkhati vicikicchati nādhimuccati na sampasīdati …pe… ",
+      "english": "Furthermore, a mendicant has doubts about the teaching … "
+    },
+    {
+      "number": 15,
+      "pali": "evamassāyaṁ dutiyo cetokhilo appahīno hoti. ",
+      "english": "This is the second kind of hard-heartedness. "
+    },
+    {
+      "number": 16,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu saṅghe kaṅkhati vicikicchati nādhimuccati na sampasīdati …pe… ",
+      "english": "They have doubts about the Saṅgha … "
+    },
+    {
+      "number": 17,
+      "pali": "evamassāyaṁ tatiyo cetokhilo appahīno hoti. ",
+      "english": "This is the third kind of hard-heartedness. "
+    },
+    {
+      "number": 18,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu sikkhāya kaṅkhati vicikicchati nādhimuccati na sampasīdati. ",
+      "english": "They have doubts about the training … "
+    },
+    {
+      "number": 19,
+      "pali": "Yo so, bhikkhave, bhikkhu sikkhāya kaṅkhati vicikicchati nādhimuccati na sampasīdati, tassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ catuttho cetokhilo appahīno hoti. ",
+      "english": "This is the fourth kind of hard-heartedness. "
+    },
+    {
+      "number": 21,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu sabrahmacārīsu kupito hoti anattamano āhatacitto khilajāto. ",
+      "english": "Furthermore, a mendicant is angry and upset with their spiritual companions, resentful and closed off. "
+    },
+    {
+      "number": 22,
+      "pali": "Yo so, bhikkhave, bhikkhu sabrahmacārīsu kupito hoti anattamano āhatacitto khilajāto, tassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": "This being so, their mind doesn’t incline toward keenness, commitment, persistence, and striving. "
+    },
+    {
+      "number": 23,
+      "pali": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ pañcamo cetokhilo appahīno hoti. ",
+      "english": "This is the fifth kind of hard-heartedness they haven’t given up. "
+    },
+    {
+      "number": 24,
+      "pali": "Imāssa pañca cetokhilā appahīnā honti. ",
+      "english": "These are the five kinds of hard-heartedness they haven’t given up. "
+    },
+    {
+      "number": 25,
+      "pali": "Katamāssa pañca cetasovinibandhā asamucchinnā honti? ",
+      "english": "What are the five shackles of the heart they haven’t severed? "
+    },
+    {
+      "number": 26,
+      "pali": "Idha, bhikkhave, bhikkhu kāme avītarāgo hoti avigatacchando avigatapemo avigatapipāso avigatapariḷāho avigatataṇho. ",
+      "english": "Firstly, a mendicant isn’t free of greed, desire, fondness, thirst, passion, and craving for sensual pleasures. "
+    },
+    {
+      "number": 27,
+      "pali": "Yo so, bhikkhave, bhikkhu kāme avītarāgo hoti avigatacchando avigatapemo avigatapipāso avigatapariḷāho avigatataṇho, tassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": "This being so, their mind doesn’t incline toward keenness, commitment, persistence, and striving. "
+    },
+    {
+      "number": 28,
+      "pali": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ paṭhamo cetasovinibandho asamucchinno hoti. ",
+      "english": "This is the first shackle of the heart they haven’t severed. "
+    },
+    {
+      "number": 29,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu kāye avītarāgo hoti …pe… ",
+      "english": "Furthermore, a mendicant isn’t free of greed for the body … "
+    },
+    {
+      "number": 30,
+      "pali": "evamassāyaṁ dutiyo cetasovinibandho asamucchinno hoti. ",
+      "english": "This is the second shackle of the heart. "
+    },
+    {
+      "number": 31,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu rūpe avītarāgo hoti …pe… ",
+      "english": "Furthermore, a mendicant isn’t free of greed for form … "
+    },
+    {
+      "number": 32,
+      "pali": "evamassāyaṁ tatiyo cetasovinibandho asamucchinno hoti. ",
+      "english": "This is the third shackle of the heart. "
+    },
+    {
+      "number": 33,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu yāvadatthaṁ udarāvadehakaṁ bhuñjitvā seyyasukhaṁ passasukhaṁ middhasukhaṁ anuyutto viharati. ",
+      "english": "They eat as much as they like until their belly is full, then indulge in the pleasures of sleeping, lying down, and drowsing … "
+    },
+    {
+      "number": 34,
+      "pali": "Yo so, bhikkhave, bhikkhu yāvadatthaṁ udarāvadehakaṁ bhuñjitvā seyyasukhaṁ passasukhaṁ middhasukhaṁ anuyutto viharati, tassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ catuttho cetasovinibandho asamucchinno hoti. ",
+      "english": "This is the fourth heart shackle. "
+    },
+    {
+      "number": 36,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu aññataraṁ devanikāyaṁ paṇidhāya brahmacariyaṁ carati: ‘imināhaṁ sīlena vā vatena vā tapena vā brahmacariyena vā devo vā bhavissāmi devaññataro vā’ti. ",
+      "english": "They lead the spiritual life hoping to be reborn in one of the orders of gods, thinking: ‘By this precept or observance or fervent austerity or spiritual practice, may I become one of the gods!’ "
+    },
+    {
+      "number": 37,
+      "pali": "Yo so, bhikkhave, bhikkhu aññataraṁ devanikāyaṁ paṇidhāya brahmacariyaṁ carati: ‘imināhaṁ sīlena vā vatena vā tapena vā brahmacariyena vā devo vā bhavissāmi devaññataro vā’ti, tassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": "This being so, their mind doesn’t incline toward keenness, commitment, persistence, and striving. "
+    },
+    {
+      "number": 38,
+      "pali": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ pañcamo cetasovinibandho asamucchinno hoti. ",
+      "english": "This is the fifth shackle of the heart they haven’t severed. "
+    },
+    {
+      "number": 39,
+      "pali": "Imāssa pañca cetasovinibandhā asamucchinnā honti. ",
+      "english": "These are the five shackles of the heart they haven’t severed. "
+    },
+    {
+      "number": 40,
+      "pali": "Yassa kassaci, bhikkhave, bhikkhuno ime pañca cetokhilā appahīnā, ime pañca cetasovinibandhā asamucchinnā, so vatimasmiṁ dhammavinaye vuddhiṁ virūḷhiṁ vepullaṁ āpajjissatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "When a mendicant has not given up these five kinds of hard-heartedness and severed these five shackles of the heart, it’s not possible for them to achieve growth, improvement, or maturity in this teaching and training. "
+    },
+    {
+      "number": 41,
+      "pali": "Yassa kassaci, bhikkhave, bhikkhuno pañca cetokhilā pahīnā, pañca cetasovinibandhā susamucchinnā, so vatimasmiṁ dhammavinaye vuddhiṁ virūḷhiṁ vepullaṁ āpajjissatīti—ṭhānametaṁ vijjati. ",
+      "english": "When a mendicant has given up these five kinds of hard-heartedness and severed these five shackles of the heart, it is possible for them to achieve growth, improvement, and maturity in this teaching and training. "
+    },
+    {
+      "number": 42,
+      "pali": "Katamāssa pañca cetokhilā pahīnā honti? ",
+      "english": "What are the five kinds of hard-heartedness they’ve given up? "
+    },
+    {
+      "number": 43,
+      "pali": "Idha, bhikkhave, bhikkhu satthari na kaṅkhati na vicikicchati adhimuccati sampasīdati. ",
+      "english": "Firstly, a mendicant has no doubts about the Teacher. They’re not uncertain, undecided, or lacking confidence. "
+    },
+    {
+      "number": 44,
+      "pali": "Yo so, bhikkhave, bhikkhu satthari na kaṅkhati na vicikicchati adhimuccati sampasīdati, tassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": "This being so, their mind inclines toward keenness, commitment, persistence, and striving. "
+    },
+    {
+      "number": 45,
+      "pali": "Yassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ paṭhamo cetokhilo pahīno hoti. ",
+      "english": "This is the first kind of hard-heartedness they’ve given up. "
+    },
+    {
+      "number": 46,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu dhamme na kaṅkhati na vicikicchati adhimuccati sampasīdati …pe… ",
+      "english": "Furthermore, a mendicant has no doubts about the teaching … "
+    },
+    {
+      "number": 47,
+      "pali": "evamassāyaṁ dutiyo cetokhilo pahīno hoti. ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu saṅghe na kaṅkhati na vicikicchati adhimuccati sampasīdati …pe… ",
+      "english": "They have no doubts about the Saṅgha … "
+    },
+    {
+      "number": 49,
+      "pali": "evamassāyaṁ tatiyo cetokhilo pahīno hoti. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu sikkhāya na kaṅkhati na vicikicchati adhimuccati sampasīdati …pe… ",
+      "english": "They have no doubts about the training … "
+    },
+    {
+      "number": 51,
+      "pali": "evamassāyaṁ catuttho cetokhilo pahīno hoti. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu sabrahmacārīsu na kupito hoti na anattamano anāhatacitto akhilajāto. ",
+      "english": "They’re not angry and upset with their spiritual companions, not resentful or closed off. "
+    },
+    {
+      "number": 53,
+      "pali": "Yo so, bhikkhave, bhikkhu sabrahmacārīsu na kupito hoti na anattamano anāhatacitto akhilajāto, tassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": "This being so, their mind inclines toward keenness, commitment, persistence, and striving. "
+    },
+    {
+      "number": 54,
+      "pali": "Yassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ pañcamo cetokhilo pahīno hoti. ",
+      "english": "This is the fifth kind of hard-heartedness they’ve given up. "
+    },
+    {
+      "number": 55,
+      "pali": "Imāssa pañca cetokhilā pahīnā honti. ",
+      "english": "These are the five kinds of hard-heartedness they’ve given up. "
+    },
+    {
+      "number": 56,
+      "pali": "Katamāssa pañca cetasovinibandhā susamucchinnā honti? ",
+      "english": "What are the five shackles of the heart they’ve severed? "
+    },
+    {
+      "number": 57,
+      "pali": "Idha, bhikkhave, bhikkhu kāme vītarāgo hoti vigatacchando vigatapemo vigatapipāso vigatapariḷāho vigatataṇho. ",
+      "english": "Firstly, a mendicant is rid of greed, desire, fondness, thirst, passion, and craving for sensual pleasures. "
+    },
+    {
+      "number": 58,
+      "pali": "Yo so, bhikkhave, bhikkhu kāme vītarāgo hoti vigatacchando vigatapemo vigatapipāso vigatapariḷāho vigatataṇho, tassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": "This being so, their mind inclines toward keenness, commitment, persistence, and striving. "
+    },
+    {
+      "number": 59,
+      "pali": "Yassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ paṭhamo cetasovinibandho susamucchinno hoti. ",
+      "english": "This is the first shackle of the heart they’ve severed. "
+    },
+    {
+      "number": 60,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu kāye vītarāgo hoti …pe… ",
+      "english": "Furthermore, a mendicant is rid of greed for the body … "
+    },
+    {
+      "number": 61,
+      "pali": "rūpe vītarāgo hoti …pe… ",
+      "english": "They’re rid of greed for form … "
+    },
+    {
+      "number": 62,
+      "pali": "na yāvadatthaṁ udarāvadehakaṁ bhuñjitvā seyyasukhaṁ passasukhaṁ middhasukhaṁ anuyutto viharati. ",
+      "english": "They don’t eat as much as they like until their belly is full, then indulge in the pleasures of sleeping, lying down, and drowsing … "
+    },
+    {
+      "number": 63,
+      "pali": "Yo so, bhikkhave, bhikkhu na yāvadatthaṁ udarāvadehakaṁ bhuñjitvā seyyasukhaṁ passasukhaṁ middhasukhaṁ anuyutto viharati, tassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "Yassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ catuttho cetasovinibandho susamucchinno hoti. ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu na aññataraṁ devanikāyaṁ paṇidhāya brahmacariyaṁ carati: ‘imināhaṁ sīlena vā vatena vā tapena vā brahmacariyena vā devo vā bhavissāmi devaññataro vā’ti. ",
+      "english": "They don’t lead the spiritual life hoping to be reborn in one of the orders of gods, thinking: ‘By this precept or observance or fervent austerity or spiritual practice, may I become one of the gods!’ "
+    },
+    {
+      "number": 66,
+      "pali": "Yo so, bhikkhave, bhikkhu na aññataraṁ devanikāyaṁ paṇidhāya brahmacariyaṁ carati: ‘imināhaṁ sīlena vā vatena vā tapena vā brahmacariyena vā devo vā bhavissāmi devaññataro vā’ti, tassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya. ",
+      "english": "This being so, their mind inclines toward keenness, commitment, persistence, and striving. "
+    },
+    {
+      "number": 67,
+      "pali": "Yassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ pañcamo cetasovinibandho susamucchinno hoti. ",
+      "english": "This is the fifth shackle of the heart they’ve severed. "
+    },
+    {
+      "number": 68,
+      "pali": "Imāssa pañca cetasovinibandhā susamucchinnā honti. ",
+      "english": "These are the five shackles of the heart they’ve severed. "
+    },
+    {
+      "number": 69,
+      "pali": "Yassa kassaci, bhikkhave, bhikkhuno ime pañca cetokhilā pahīnā, ime pañca cetasovinibandhā susamucchinnā, so vatimasmiṁ dhammavinaye vuddhiṁ virūḷhiṁ vepullaṁ āpajjissatīti—ṭhānametaṁ vijjati. ",
+      "english": "When a mendicant has given up these five kinds of hard-heartedness and severed these five shackles of the heart, it is possible for them to achieve growth, improvement, or maturity in this teaching and training. "
+    },
+    {
+      "number": 70,
+      "pali": "So chandasamādhipadhānasaṅkhārasamannāgataṁ iddhipādaṁ bhāveti, ",
+      "english": "They develop the basis of psychic power that has immersion due to enthusiasm, and active effort … "
+    },
+    {
+      "number": 71,
+      "pali": "vīriyasamādhipadhānasaṅkhārasamannāgataṁ iddhipādaṁ bhāveti, ",
+      "english": "the basis of psychic power that has immersion due to energy, and active effort … "
+    },
+    {
+      "number": 72,
+      "pali": "cittasamādhipadhānasaṅkhārasamannāgataṁ iddhipādaṁ bhāveti, ",
+      "english": "the basis of psychic power that has immersion due to mental development, and active effort … "
+    },
+    {
+      "number": 73,
+      "pali": "vīmaṁsāsamādhipadhānasaṅkhārasamannāgataṁ iddhipādaṁ bhāveti, ussoḷhīyeva pañcamī. ",
+      "english": "the basis of psychic power that has immersion due to inquiry, and active effort. And the fifth is sheer vigor. "
+    },
+    {
+      "number": 74,
+      "pali": "Sa kho so, bhikkhave, evaṁ ussoḷhipannarasaṅgasamannāgato bhikkhu bhabbo abhinibbidāya, bhabbo sambodhāya, bhabbo anuttarassa yogakkhemassa adhigamāya. ",
+      "english": "A mendicant who possesses these fifteen factors, including vigor, is capable of breaking out, becoming awakened, and reaching the supreme sanctuary from the yoke. "
+    },
+    {
+      "number": 75,
+      "pali": "Seyyathāpi, bhikkhave, kukkuṭiyā aṇḍāni aṭṭha vā dasa vā dvādasa vā. ",
+      "english": "Suppose there was a chicken with eight or ten or twelve eggs. "
+    },
+    {
+      "number": 76,
+      "pali": "Tānassu kukkuṭiyā sammā adhisayitāni sammā pariseditāni sammā paribhāvitāni. ",
+      "english": "And she properly sat on them to keep them warm and incubated. "
+    },
+    {
+      "number": 77,
+      "pali": "Kiñcāpi tassā kukkuṭiyā na evaṁ icchā uppajjeyya: ",
+      "english": "Even if that chicken doesn’t wish: "
+    },
+    {
+      "number": 78,
+      "pali": "‘aho vatime kukkuṭapotakā pādanakhasikhāya vā mukhatuṇḍakena vā aṇḍakosaṁ padāletvā sotthinā abhinibbhijjeyyun’ti. ",
+      "english": "‘If only my chicks could break out of the eggshell with their claws and beak and hatch safely!’ "
+    },
+    {
+      "number": 79,
+      "pali": "Atha kho bhabbāva te kukkuṭapotakā pādanakhasikhāya vā mukhatuṇḍakena vā aṇḍakosaṁ padāletvā sotthinā abhinibbhijjituṁ. ",
+      "english": "Still they can break out and hatch safely. "
+    },
+    {
+      "number": 80,
+      "pali": "Evameva kho, bhikkhave, evaṁ ussoḷhipannarasaṅgasamannāgato bhikkhu bhabbo abhinibbidāya, bhabbo sambodhāya, bhabbo anuttarassa yogakkhemassa adhigamāyā”ti. ",
+      "english": "In the same way, a mendicant who possesses these fifteen factors, including vigor, is capable of breaking out, becoming awakened, and reaching the supreme sanctuary from the yoke.” "
+    },
+    {
+      "number": 81,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 82,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 83,
+      "pali": "Cetokhilasuttaṁ niṭṭhitaṁ chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "sutta_id": "MN41",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 41 ",
+      "english": "Middle Discourses 41 "
+    },
+    {
+      "number": 2,
+      "pali": "Sāleyyakasutta ",
+      "english": "The People of Sālā "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā kosalesu cārikaṁ caramāno mahatā bhikkhusaṅghena saddhiṁ yena sālā nāma kosalānaṁ brāhmaṇagāmo tadavasari. ",
+      "english": "At one time the Buddha was wandering in the land of the Kosalans together with a large Saṅgha of mendicants when he arrived at a village of the Kosalan brahmins named Sālā. "
+    },
+    {
+      "number": 5,
+      "pali": "Assosuṁ kho sāleyyakā brāhmaṇagahapatikā: ",
+      "english": "The brahmins and householders of Sālā heard, "
+    },
+    {
+      "number": 6,
+      "pali": "“samaṇo khalu, bho, gotamo sakyaputto sakyakulā pabbajito kosalesu cārikaṁ caramāno mahatā bhikkhusaṅghena saddhiṁ sālaṁ anuppatto. ",
+      "english": "“It seems the ascetic Gotama—a Sakyan, gone forth from a Sakyan family—while wandering in the land of the Kosalans has arrived at Sālā, together with a large Saṅgha of mendicants. "
+    },
+    {
+      "number": 7,
+      "pali": "Taṁ kho pana bhavantaṁ gotamaṁ evaṁ kalyāṇo kittisaddo abbhuggato: ",
+      "english": "He has this good reputation: "
+    },
+    {
+      "number": 8,
+      "pali": "‘itipi so bhagavā arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā’. ",
+      "english": "‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ "
+    },
+    {
+      "number": 9,
+      "pali": "So imaṁ lokaṁ sadevakaṁ samārakaṁ sabrahmakaṁ sassamaṇabrāhmaṇiṁ pajaṁ sadevamanussaṁ sayaṁ abhiññā sacchikatvā pavedeti. ",
+      "english": "He has realized with his own insight this world—with its gods, Māras, and divinities, this population with its ascetics and brahmins, gods and humans—and he makes it known to others. "
+    },
+    {
+      "number": 10,
+      "pali": "So dhammaṁ deseti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ; ",
+      "english": "He proclaims a teaching that is good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. "
+    },
+    {
+      "number": 11,
+      "pali": "kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāseti. ",
+      "english": "He reveals an entirely full and pure spiritual life. "
+    },
+    {
+      "number": 12,
+      "pali": "Sādhu kho pana tathārūpānaṁ arahataṁ dassanaṁ hotī”ti. ",
+      "english": "It’s good to see such perfected ones.” "
+    },
+    {
+      "number": 13,
+      "pali": "Atha kho sāleyyakā brāhmaṇagahapatikā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā appekacce bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu; appekacce bhagavatā saddhiṁ sammodiṁsu, sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdiṁsu; appekacce yena bhagavā tenañjaliṁ paṇāmetvā ekamantaṁ nisīdiṁsu; appekacce bhagavato santike nāmagottaṁ sāvetvā ekamantaṁ nisīdiṁsu; appekacce tuṇhībhūtā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho sāleyyakā brāhmaṇagahapatikā bhagavantaṁ etadavocuṁ: ",
+      "english": "Then the brahmins and householders of Sālā went up to the Buddha. Before sitting down to one side, some bowed, some exchanged greetings and polite conversation, some held up their cupped palms toward the Buddha, some announced their name and clan, while some kept silent. Seated to one side they said to the Buddha: "
+    },
+    {
+      "number": 14,
+      "pali": "“ko nu kho, bho gotama, hetu, ko paccayo, yena m’idhekacce sattā kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjanti? ",
+      "english": "“What is the cause, worthy Gotama, what is the reason why some sentient beings, when their body breaks up, after death, are reborn in a place of loss, a bad place, the underworld, hell? "
+    },
+    {
+      "number": 15,
+      "pali": "Ko pana, bho gotama, hetu, ko paccayo, yena m’idhekacce sattā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjantī”ti? ",
+      "english": "And what is the cause, worthy Gotama, what is the reason why some sentient beings, when their body breaks up, after death, are reborn in a good place, a heavenly realm?” "
+    },
+    {
+      "number": 16,
+      "pali": "“Adhammacariyāvisamacariyāhetu kho, gahapatayo, evam’idhekacce sattā kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjanti. ",
+      "english": "“Unprincipled and immoral conduct is the reason why some sentient beings, when their body breaks up, after death, are reborn in a place of loss, a bad place, the underworld, hell. "
+    },
+    {
+      "number": 17,
+      "pali": "Dhammacariyāsamacariyāhetu kho, gahapatayo, evam’idhekacce sattā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjantī”ti. ",
+      "english": "Principled and moral conduct is the reason why some sentient beings, when their body breaks up, after death, are reborn in a good place, a heavenly realm.” "
+    },
+    {
+      "number": 18,
+      "pali": "“Na kho mayaṁ imassa bhoto gotamassa saṅkhittena bhāsitassa, vitthārena atthaṁ avibhattassa, vitthārena atthaṁ ājānāma. ",
+      "english": "“We don’t understand the detailed meaning of the worthy Gotama’s brief statement. "
+    },
+    {
+      "number": 19,
+      "pali": "Sādhu no bhavaṁ gotamo tathā dhammaṁ desetu, yathā mayaṁ imassa bhoto gotamassa saṅkhittena bhāsitassa, vitthārena atthaṁ avibhattassa, vitthārena atthaṁ ājāneyyāmā”ti. ",
+      "english": "Worthy Gotama, please teach us this matter in detail so we can understand the meaning.” "
+    },
+    {
+      "number": 20,
+      "pali": "“Tena hi, gahapatayo, suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "“Well then, householders, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 21,
+      "pali": "“Evaṁ, bho”ti kho sāleyyakā brāhmaṇagahapatikā bhagavato paccassosuṁ. ",
+      "english": "“Yes, worthy sir,” they replied. "
+    },
+    {
+      "number": 22,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 23,
+      "pali": "“Tividhaṁ kho, gahapatayo, kāyena adhammacariyāvisamacariyā hoti, catubbidhaṁ vācāya adhammacariyāvisamacariyā hoti, tividhaṁ manasā adhammacariyāvisamacariyā hoti. ",
+      "english": "“Householders, unprincipled and immoral conduct is threefold by way of body, fourfold by way of speech, and threefold by way of mind. "
+    },
+    {
+      "number": 24,
+      "pali": "Kathañca, gahapatayo, tividhaṁ kāyena adhammacariyāvisamacariyā hoti? ",
+      "english": "And how is unprincipled and immoral conduct threefold by way of body? "
+    },
+    {
+      "number": 25,
+      "pali": "Idha, gahapatayo, ekacco pāṇātipātī hoti, luddo lohitapāṇi hatappahate niviṭṭho adayāpanno pāṇabhūtesu. ",
+      "english": "It’s when a certain person kills living creatures. They’re violent, bloody-handed, a hardened killer, merciless to living beings. "
+    },
+    {
+      "number": 26,
+      "pali": "Adinnādāyī kho pana hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ, gāmagataṁ vā araññagataṁ vā, taṁ adinnaṁ theyyasaṅkhātaṁ ādātā hoti. ",
+      "english": "They steal. With the intention to commit theft, they take the wealth or belongings of others from village or wilderness. "
+    },
+    {
+      "number": 27,
+      "pali": "Kāmesumicchācārī kho pana hoti. Yā tā māturakkhitā piturakkhitā mātāpiturakkhitā bhāturakkhitā bhaginirakkhitā ñātirakkhitā gottarakkhitā dhammarakkhitā sassāmikā saparidaṇḍā antamaso mālāguḷaparikkhittāpi, tathārūpāsu cārittaṁ āpajjitā hoti. ",
+      "english": "They commit sexual misconduct. They have sexual relations with women who have their mother, father, both mother and father, brother, sister, relatives, or clan as guardian. They have sexual relations with a woman who is protected on principle, or who has a husband, or whose violation is punishable by law, or even one who has been garlanded as a token of betrothal. "
+    },
+    {
+      "number": 28,
+      "pali": "Evaṁ kho, gahapatayo, tividhaṁ kāyena adhammacariyāvisamacariyā hoti. ",
+      "english": "This is how unprincipled and immoral conduct is threefold by way of body. "
+    },
+    {
+      "number": 29,
+      "pali": "Kathañca, gahapatayo, catubbidhaṁ vācāya adhammacariyāvisamacariyā hoti? ",
+      "english": "And how is unprincipled and immoral conduct fourfold by way of speech? "
+    },
+    {
+      "number": 30,
+      "pali": "Idha, gahapatayo, ekacco musāvādī hoti. Sabhāgato vā parisāgato vā, ñātimajjhagato vā pūgamajjhagato vā rājakulamajjhagato vā, abhinīto sakkhipuṭṭho: ‘ehambho purisa, yaṁ jānāsi taṁ vadehī’ti, so ajānaṁ vā āha: ‘jānāmī’ti, jānaṁ vā āha: na jānāmī’ti, ‘apassaṁ vā āha: ‘passāmī’ti, passaṁ vā āha: ‘na passāmī’ti. Iti attahetu vā parahetu vā āmisakiñcikkhahetu vā sampajānamusā bhāsitā hoti. ",
+      "english": "It’s when a certain person lies. They’re summoned to a council, an assembly, a family meeting, a guild, or to the royal court, and asked to bear witness: ‘Please, my friend, say what you know.’ Not knowing, they say ‘I know.’ Knowing, they say ‘I don’t know.’ Not seeing, they say ‘I see.’ And seeing, they say ‘I don’t see.’ So they deliberately lie for the sake of themselves or another, or for some trivial worldly reason. "
+    },
+    {
+      "number": 31,
+      "pali": "Pisuṇavāco kho pana hoti. Ito sutvā amutra akkhātā imesaṁ bhedāya, amutra vā sutvā imesaṁ akkhātā amūsaṁ bhedāya. Iti samaggānaṁ vā bhettā, bhinnānaṁ vā anuppadātā, vaggārāmo vaggarato vagganandī vaggakaraṇiṁ vācaṁ bhāsitā hoti. ",
+      "english": "They backbite. They repeat in one place what they heard in another so as to divide people against each other. And so they divide those who are harmonious, supporting division, delighting in division, loving division, speaking words that promote division. "
+    },
+    {
+      "number": 32,
+      "pali": "Pharusavāco kho pana hoti. Yā sā vācā aṇḍakā kakkasā parakaṭukā parābhisajjanī kodhasāmantā asamādhisaṁvattanikā, tathārūpiṁ vācaṁ bhāsitā hoti. ",
+      "english": "They speak harshly. They use the kinds of words that are cruel, nasty, hurtful, offensive, bordering on anger, not leading to immersion. "
+    },
+    {
+      "number": 33,
+      "pali": "Samphappalāpī kho pana hoti. Akālavādī abhūtavādī anatthavādī adhammavādī avinayavādī. Anidhānavatiṁ vācaṁ bhāsitā hoti akālena anapadesaṁ apariyantavatiṁ anatthasaṁhitaṁ. ",
+      "english": "They talk nonsense. Their speech is untimely, and is neither factual nor beneficial. It has nothing to do with the teaching or the training. Their words have no value, and are untimely, unreasonable, rambling, and pointless. "
+    },
+    {
+      "number": 34,
+      "pali": "Evaṁ kho, gahapatayo, catubbidhaṁ vācāya adhammacariyāvisamacariyā hoti. ",
+      "english": "This is how unprincipled and immoral conduct is fourfold by way of speech. "
+    },
+    {
+      "number": 35,
+      "pali": "Kathañca, gahapatayo, tividhaṁ manasā adhammacariyāvisamacariyā hoti? ",
+      "english": "And how is unprincipled and immoral conduct threefold by way of mind? "
+    },
+    {
+      "number": 36,
+      "pali": "Idha, gahapatayo, ekacco abhijjhālu hoti, yaṁ taṁ parassa paravittūpakaraṇaṁ taṁ abhijjhātā hoti: ‘aho vata yaṁ parassa taṁ mamassā’ti. ",
+      "english": "It’s when a certain person is covetous. They covet the wealth and belongings of others: ‘Oh, if only their belongings were mine!’ "
+    },
+    {
+      "number": 37,
+      "pali": "Byāpannacitto kho pana hoti paduṭṭhamanasaṅkappo: ‘ime sattā haññantu vā vajjhantu vā ucchijjantu vā vinassantu vā mā vā ahesun’ti. ",
+      "english": "They have ill will and malicious intentions: ‘May these sentient beings be killed, slaughtered, slain, destroyed, or annihilated!’ "
+    },
+    {
+      "number": 38,
+      "pali": "Micchādiṭṭhiko kho pana hoti viparītadassano: ",
+      "english": "They have wrong view. Their perspective is distorted: "
+    },
+    {
+      "number": 39,
+      "pali": "‘natthi dinnaṁ natthi yiṭṭhaṁ natthi hutaṁ, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko natthi paro loko, natthi mātā natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti. ",
+      "english": "‘There’s no meaning in giving, sacrifice, or offerings. There’s no fruit or result of good and bad deeds. There’s no afterlife. There’s no such thing as mother and father, or beings that are reborn spontaneously. And there’s no ascetic or brahmin who is rightly comported and rightly practiced, and who describes the afterlife after realizing it with their own insight.’ "
+    },
+    {
+      "number": 40,
+      "pali": "Evaṁ kho, gahapatayo, tividhaṁ manasā adhammacariyāvisamacariyā hoti. ",
+      "english": "This is how unprincipled and immoral conduct is threefold by way of mind. "
+    },
+    {
+      "number": 41,
+      "pali": "Evaṁ adhammacariyāvisamacariyāhetu kho, gahapatayo, evam’idhekacce sattā kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjanti. ",
+      "english": "That’s how unprincipled and immoral conduct is the reason why some sentient beings, when their body breaks up, after death, are reborn in a place of loss, a bad place, the underworld, hell. "
+    },
+    {
+      "number": 42,
+      "pali": "Tividhaṁ kho, gahapatayo, kāyena dhammacariyāsamacariyā hoti, catubbidhaṁ vācāya dhammacariyāsamacariyā hoti, tividhaṁ manasā dhammacariyāsamacariyā hoti. ",
+      "english": "Householders, principled and moral conduct is threefold by way of body, fourfold by way of speech, and threefold by way of mind. "
+    },
+    {
+      "number": 43,
+      "pali": "Kathañca, gahapatayo, tividhaṁ kāyena dhammacariyāsamacariyā hoti? ",
+      "english": "And how is principled and moral conduct threefold by way of body? "
+    },
+    {
+      "number": 44,
+      "pali": "Idha, gahapatayo, ekacco pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti, nihitadaṇḍo nihitasattho lajjī dayāpanno sabbapāṇabhūtahitānukampī viharati. ",
+      "english": "It’s when a certain person gives up killing living creatures. They renounce the rod and the sword. They’re scrupulous and kind, living full of sympathy for all living beings. "
+    },
+    {
+      "number": 45,
+      "pali": "Adinnādānaṁ pahāya adinnādānā paṭivirato hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ, gāmagataṁ vā araññagataṁ vā, taṁ nādinnaṁ theyyasaṅkhātaṁ ādātā hoti. ",
+      "english": "They give up stealing. They don’t, with the intention to commit theft, take the wealth or belongings of others from village or wilderness. "
+    },
+    {
+      "number": 46,
+      "pali": "Kāmesumicchācāraṁ pahāya kāmesumicchācārā paṭivirato hoti. Yā tā māturakkhitā piturakkhitā mātāpiturakkhitā bhāturakkhitā bhaginirakkhitā ñātirakkhitā gottarakkhitā dhammarakkhitā sassāmikā saparidaṇḍā antamaso mālāguḷaparikkhittāpi, tathārūpāsu na cārittaṁ āpajjitā hoti. ",
+      "english": "They give up sexual misconduct. They don’t have sexual relations with women who have their mother, father, both mother and father, brother, sister, relatives, or clan as guardian. They don’t have sexual relations with a woman who is protected on principle, or who has a husband, or whose violation is punishable by law, or even one who has been garlanded as a token of betrothal. "
+    },
+    {
+      "number": 47,
+      "pali": "Evaṁ kho, gahapatayo, tividhaṁ kāyena dhammacariyāsamacariyā hoti. ",
+      "english": "This is how principled and moral conduct is threefold by way of body. "
+    },
+    {
+      "number": 48,
+      "pali": "Kathañca, gahapatayo, catubbidhaṁ vācāya dhammacariyāsamacariyā hoti? ",
+      "english": "And how is principled and moral conduct fourfold by way of speech? "
+    },
+    {
+      "number": 49,
+      "pali": "Idha, gahapatayo, ekacco musāvādaṁ pahāya musāvādā paṭivirato hoti. Sabhāgato vā parisāgato vā, ñātimajjhagato vā pūgamajjhagato vā rājakulamajjhagato vā, abhinīto sakkhipuṭṭho: ‘ehambho purisa, yaṁ jānāsi taṁ vadehī’ti, so ajānaṁ vā āha: ‘na jānāmī’ti, jānaṁ vā āha: ‘jānāmī’ti, apassaṁ vā āha: ‘na passāmī’ti, passaṁ vā āha: ‘passāmī’ti. Iti attahetu vā parahetu vā āmisakiñcikkhahetu vā na sampajānamusā bhāsitā hoti. ",
+      "english": "It’s when a certain person gives up lying. They’re summoned to a council, an assembly, a family meeting, a guild, or to the royal court, and asked to bear witness: ‘Please, my friend, say what you know.’ Not knowing, they say ‘I don’t know.’ Knowing, they say ‘I know.’ Not seeing, they say ‘I don’t see.’ And seeing, they say ‘I see.’ So they don’t deliberately lie for the sake of themselves or another, or for some trivial worldly reason. "
+    },
+    {
+      "number": 50,
+      "pali": "Pisuṇaṁ vācaṁ pahāya pisuṇāya vācāya paṭivirato hoti, ito sutvā na amutra akkhātā imesaṁ bhedāya, amutra vā sutvā na imesaṁ akkhātā amūsaṁ bhedāya. Iti bhinnānaṁ vā sandhātā, sahitānaṁ vā anuppadātā, samaggārāmo samaggarato samagganandī samaggakaraṇiṁ vācaṁ bhāsitā hoti. ",
+      "english": "They give up backbiting. They don’t repeat in one place what they heard in another so as to divide people against each other. Instead, they reconcile those who are divided and support those who are united, delighting in harmony, loving harmony, speaking words that promote harmony. "
+    },
+    {
+      "number": 51,
+      "pali": "Pharusaṁ vācaṁ pahāya pharusāya vācāya paṭivirato hoti. Yā sā vācā nelā kaṇṇasukhā pemanīyā hadayaṅgamā porī bahujanakantā bahujanamanāpā—tathārūpiṁ vācaṁ bhāsitā hoti. ",
+      "english": "They give up harsh speech. They speak in a way that’s mellow, pleasing to the ear, endearing, going to the heart, polite, likable, and agreeable to the people. "
+    },
+    {
+      "number": 52,
+      "pali": "Samphappalāpaṁ pahāya samphappalāpā paṭivirato hoti. Kālavādī bhūtavādī atthavādī dhammavādī vinayavādī nidhānavatiṁ vācaṁ bhāsitā hoti kālena sāpadesaṁ pariyantavatiṁ atthasaṁhitaṁ. ",
+      "english": "They give up talking nonsense. Their words are timely, true, and meaningful, in line with the teaching and training. They say things at the right time which are valuable, reasonable, succinct, and beneficial. "
+    },
+    {
+      "number": 53,
+      "pali": "Evaṁ kho, gahapatayo, catubbidhaṁ vācāya dhammacariyāsamacariyā hoti. ",
+      "english": "This is how principled and moral conduct is fourfold by way of speech. "
+    },
+    {
+      "number": 54,
+      "pali": "Kathañca, gahapatayo, tividhaṁ manasā dhammacariyāsamacariyā hoti? ",
+      "english": "And how is principled and moral conduct threefold by way of mind? "
+    },
+    {
+      "number": 55,
+      "pali": "Idha, gahapatayo, ekacco anabhijjhālu hoti, yaṁ taṁ parassa paravittūpakaraṇaṁ taṁ nābhijjhātā hoti: ‘aho vata yaṁ parassa taṁ mamassā’ti. ",
+      "english": "It’s when a certain person is not covetous. They don’t covet the wealth and belongings of others: ‘Oh, if only their belongings were mine!’ "
+    },
+    {
+      "number": 56,
+      "pali": "Abyāpannacitto kho pana hoti appaduṭṭhamanasaṅkappo: ‘ime sattā averā abyābajjhā anīghā sukhī attānaṁ pariharantū’ti. ",
+      "english": "They have a kind heart and loving intentions: ‘May these sentient beings live free of enmity and ill will, untroubled and happy!’ "
+    },
+    {
+      "number": 57,
+      "pali": "Sammādiṭṭhiko kho pana hoti aviparītadassano: ",
+      "english": "They have right view, an undistorted perspective: "
+    },
+    {
+      "number": 58,
+      "pali": "‘atthi dinnaṁ atthi yiṭṭhaṁ atthi hutaṁ, atthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, atthi ayaṁ loko atthi paro loko, atthi mātā atthi pitā, atthi sattā opapātikā, atthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti. ",
+      "english": "‘There is meaning in giving, sacrifice, and offerings. There are fruits and results of good and bad deeds. There is an afterlife. There are such things as mother and father, and beings that are reborn spontaneously. And there are ascetics and brahmins who are rightly comported and rightly practiced, and who describe the afterlife after realizing it with their own insight.’ "
+    },
+    {
+      "number": 59,
+      "pali": "Evaṁ kho, gahapatayo, tividhaṁ manasā dhammacariyāsamacariyā hoti. ",
+      "english": "This is how principled and moral conduct is threefold by way of mind. "
+    },
+    {
+      "number": 60,
+      "pali": "Evaṁ dhammacariyāsamacariyāhetu kho, gahapatayo, evam’idhekacce sattā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjanti. ",
+      "english": "This is how principled and moral conduct is the reason why some sentient beings, when their body breaks up, after death, are reborn in a good place, a heavenly realm. "
+    },
+    {
+      "number": 61,
+      "pali": "Ākaṅkheyya ce, gahapatayo, dhammacārī samacārī: ",
+      "english": "Someone of principled and moral conduct might wish: "
+    },
+    {
+      "number": 62,
+      "pali": "‘aho vatāhaṁ kāyassa bhedā paraṁ maraṇā khattiyamahāsālānaṁ sahabyataṁ upapajjeyyan’ti; ",
+      "english": "‘If only, when my body breaks up, after death, I would be reborn in the company of well-to-do aristocrats!’ "
+    },
+    {
+      "number": 63,
+      "pali": "ṭhānaṁ kho panetaṁ vijjati, yaṁ so kāyassa bhedā paraṁ maraṇā khattiyamahāsālānaṁ sahabyataṁ upapajjeyya. ",
+      "english": "It’s possible that this might happen. "
+    },
+    {
+      "number": 64,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 65,
+      "pali": "Tathā hi so dhammacārī samacārī. ",
+      "english": "Because they have principled and moral conduct. "
+    },
+    {
+      "number": 66,
+      "pali": "Ākaṅkheyya ce, gahapatayo, dhammacārī samacārī: ",
+      "english": "Someone of principled and moral conduct might wish: "
+    },
+    {
+      "number": 67,
+      "pali": "‘aho vatāhaṁ kāyassa bhedā paraṁ maraṇā brāhmaṇamahāsālānaṁ …pe… ",
+      "english": "‘If only, when my body breaks up, after death, I would be reborn in the company of well-to-do brahmins … "
+    },
+    {
+      "number": 68,
+      "pali": "gahapatimahāsālānaṁ sahabyataṁ upapajjeyyan’ti; ",
+      "english": "well-to-do householders … "
+    },
+    {
+      "number": 69,
+      "pali": "ṭhānaṁ kho panetaṁ vijjati, yaṁ so kāyassa bhedā paraṁ maraṇā gahapatimahāsālānaṁ sahabyataṁ upapajjeyya. ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "Taṁ kissa hetu? ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "Tathā hi so dhammacārī samacārī. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "Ākaṅkheyya ce, gahapatayo, dhammacārī samacārī: ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "‘aho vatāhaṁ kāyassa bhedā paraṁ maraṇā cātumahārājikānaṁ devānaṁ sahabyataṁ upapajjeyyan’ti; ",
+      "english": "the gods of the four great kings … "
+    },
+    {
+      "number": 74,
+      "pali": "ṭhānaṁ kho panetaṁ vijjati, yaṁ so kāyassa bhedā paraṁ maraṇā cātumahārājikānaṁ devānaṁ sahabyataṁ upapajjeyya. ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "Taṁ kissa hetu? ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "Tathā hi so dhammacārī samacārī. ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "Ākaṅkheyya ce, gahapatayo, dhammacārī samacārī: ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "‘aho vatāhaṁ kāyassa bhedā paraṁ maraṇā tāvatiṁsānaṁ devānaṁ …pe… ",
+      "english": "the gods of the thirty-three … "
+    },
+    {
+      "number": 79,
+      "pali": "yāmānaṁ devānaṁ … ",
+      "english": "the gods of Yama … "
+    },
+    {
+      "number": 80,
+      "pali": "tusitānaṁ devānaṁ … ",
+      "english": "the joyful gods … "
+    },
+    {
+      "number": 81,
+      "pali": "nimmānaratīnaṁ devānaṁ … ",
+      "english": "the gods who love to create … "
+    },
+    {
+      "number": 82,
+      "pali": "paranimmitavasavattīnaṁ devānaṁ … ",
+      "english": "the gods who control what is created by others … "
+    },
+    {
+      "number": 83,
+      "pali": "brahmakāyikānaṁ devānaṁ sahabyataṁ upapajjeyyan’ti; ",
+      "english": "the gods of the Divinity’s host … "
+    },
+    {
+      "number": 84,
+      "pali": "ṭhānaṁ kho panetaṁ vijjati, yaṁ so kāyassa bhedā paraṁ maraṇā brahmakāyikānaṁ devānaṁ sahabyataṁ upapajjeyya. ",
+      "english": ""
+    },
+    {
+      "number": 85,
+      "pali": "Taṁ kissa hetu? ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "Tathā hi so dhammacārī samacārī. ",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "Ākaṅkheyya ce, gahapatayo, dhammacārī samacārī: ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "‘aho vatāhaṁ kāyassa bhedā paraṁ maraṇā ābhānaṁ devānaṁ sahabyataṁ upapajjeyyan’ti; ",
+      "english": "the radiant gods … "
+    },
+    {
+      "number": 89,
+      "pali": "ṭhānaṁ kho panetaṁ vijjati, yaṁ so kāyassa bhedā paraṁ maraṇā ābhānaṁ devānaṁ sahabyataṁ upapajjeyya. ",
+      "english": ""
+    },
+    {
+      "number": 90,
+      "pali": "Taṁ kissa hetu? ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "Tathā hi so dhammacārī samacārī. ",
+      "english": ""
+    },
+    {
+      "number": 92,
+      "pali": "Ākaṅkheyya ce, gahapatayo, dhammacārī samacārī: ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "‘aho vatāhaṁ kāyassa bhedā paraṁ maraṇā parittābhānaṁ devānaṁ …pe… ",
+      "english": "the gods of limited radiance … "
+    },
+    {
+      "number": 94,
+      "pali": "appamāṇābhānaṁ devānaṁ … ",
+      "english": "the gods of limitless radiance … "
+    },
+    {
+      "number": 95,
+      "pali": "ābhassarānaṁ devānaṁ … ",
+      "english": "the gods of streaming radiance … "
+    },
+    {
+      "number": 96,
+      "pali": "parittasubhānaṁ devānaṁ … ",
+      "english": "the gods of limited beauty … "
+    },
+    {
+      "number": 97,
+      "pali": "appamāṇasubhānaṁ devānaṁ … ",
+      "english": "the gods of limitless beauty … "
+    },
+    {
+      "number": 98,
+      "pali": "subhakiṇhānaṁ devānaṁ … ",
+      "english": "the gods of universal beauty … "
+    },
+    {
+      "number": 99,
+      "pali": "vehapphalānaṁ devānaṁ … ",
+      "english": "the gods of abundant fruit … "
+    },
+    {
+      "number": 100,
+      "pali": "avihānaṁ devānaṁ … ",
+      "english": "the gods of Aviha … "
+    },
+    {
+      "number": 101,
+      "pali": "atappānaṁ devānaṁ … ",
+      "english": "the gods of Atappa … "
+    },
+    {
+      "number": 102,
+      "pali": "sudassānaṁ devānaṁ … ",
+      "english": "the gods fair to see … "
+    },
+    {
+      "number": 103,
+      "pali": "sudassīnaṁ devānaṁ … ",
+      "english": "the fair seeing gods … "
+    },
+    {
+      "number": 104,
+      "pali": "akaniṭṭhānaṁ devānaṁ … ",
+      "english": "the gods of Akaniṭṭha … "
+    },
+    {
+      "number": 105,
+      "pali": "ākāsānañcāyatanūpagānaṁ devānaṁ … ",
+      "english": "the gods of the dimension of infinite space … "
+    },
+    {
+      "number": 106,
+      "pali": "viññāṇañcāyatanūpagānaṁ devānaṁ … ",
+      "english": "the gods of the dimension of infinite consciousness … "
+    },
+    {
+      "number": 107,
+      "pali": "ākiñcaññāyatanūpagānaṁ devānaṁ … ",
+      "english": "the gods of the dimension of nothingness … "
+    },
+    {
+      "number": 108,
+      "pali": "nevasaññānāsaññāyatanūpagānaṁ devānaṁ sahabyataṁ upapajjeyyan’ti; ",
+      "english": "the gods of the dimension of neither perception nor non-perception.’ "
+    },
+    {
+      "number": 109,
+      "pali": "ṭhānaṁ kho panetaṁ vijjati, yaṁ so kāyassa bhedā paraṁ maraṇā nevasaññānāsaññāyatanūpagānaṁ devānaṁ sahabyataṁ upapajjeyya. ",
+      "english": "It’s possible that this might happen. "
+    },
+    {
+      "number": 110,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 111,
+      "pali": "Tathā hi so dhammacārī samacārī. ",
+      "english": "Because they have principled and moral conduct. "
+    },
+    {
+      "number": 112,
+      "pali": "Ākaṅkheyya ce, gahapatayo, dhammacārī samacārī: ",
+      "english": "Someone of principled and moral conduct might wish: "
+    },
+    {
+      "number": 113,
+      "pali": "‘aho vatāhaṁ āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja vihareyyan’ti; ",
+      "english": "‘If only I might realize the undefiled freedom of heart and freedom by wisdom in this very life, and live having realized it with my own insight due to the ending of defilements.’ "
+    },
+    {
+      "number": 114,
+      "pali": "ṭhānaṁ kho panetaṁ vijjati, yaṁ so āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja vihareyya. ",
+      "english": "It’s possible that this might happen. "
+    },
+    {
+      "number": 115,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 116,
+      "pali": "Tathā hi so dhammacārī samacārī”ti. ",
+      "english": "Because they have principled and moral conduct.” "
+    },
+    {
+      "number": 117,
+      "pali": "Evaṁ vutte, sāleyyakā brāhmaṇagahapatikā bhagavantaṁ etadavocuṁ: ",
+      "english": "When he had spoken, the brahmins and householders of Sālā said to the Buddha, "
+    },
+    {
+      "number": 118,
+      "pali": "“abhikkantaṁ, bho gotama, abhikkantaṁ, bho gotama. ",
+      "english": "“Excellent, worthy Gotama! Excellent! "
+    },
+    {
+      "number": 119,
+      "pali": "Seyyathāpi, bho gotama, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya: ‘cakkhumanto rūpāni dakkhantī’ti; evamevaṁ bhotā gotamena anekapariyāyena dhammo pakāsito. ",
+      "english": "As if he were righting the overturned, or revealing the hidden, or pointing out the path to the lost, or lighting a lamp in the dark so people with clear eyes can see what’s there, worthy Gotama has made the teaching clear in many ways. "
+    },
+    {
+      "number": 120,
+      "pali": "Ete mayaṁ bhavantaṁ gotamaṁ saraṇaṁ gacchāma dhammañca bhikkhusaṅghañca. ",
+      "english": "We go for refuge to the worthy Gotama, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 121,
+      "pali": "Upāsake no bhavaṁ gotamo dhāretu ajjatagge pāṇupete saraṇaṁ gate”ti. ",
+      "english": "From this day forth, may the worthy Gotama remember us as lay followers who have gone for refuge for life.” "
+    },
+    {
+      "number": 122,
+      "pali": "Sāleyyakasuttaṁ niṭṭhitaṁ paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

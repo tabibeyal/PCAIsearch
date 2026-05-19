@@ -1,0 +1,740 @@
+{
+  "sutta_id": "MN7",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 7 ",
+      "english": "Middle Discourses 7 "
+    },
+    {
+      "number": 2,
+      "pali": "Vatthasutta ",
+      "english": "The Simile of the Cloth "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Seyyathāpi, bhikkhave, vatthaṁ saṅkiliṭṭhaṁ malaggahitaṁ; ",
+      "english": "“Suppose, mendicants, there was a cloth that was dirty and soiled. "
+    },
+    {
+      "number": 10,
+      "pali": "tamenaṁ rajako yasmiṁ yasmiṁ raṅgajāte upasaṁhareyya—yadi nīlakāya yadi pītakāya yadi lohitakāya yadi mañjiṭṭhakāya durattavaṇṇamevassa aparisuddhavaṇṇamevassa. ",
+      "english": "No matter what dye the dyer applied—whether blue or yellow or red or magenta—it would look poorly dyed and impure in color. "
+    },
+    {
+      "number": 11,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 12,
+      "pali": "Aparisuddhattā, bhikkhave, vatthassa. ",
+      "english": "Because of the impurity of the cloth. "
+    },
+    {
+      "number": 13,
+      "pali": "Evameva kho, bhikkhave, citte saṅkiliṭṭhe, duggati pāṭikaṅkhā. ",
+      "english": "In the same way, when the mind is corrupt, a bad destiny is to be expected. "
+    },
+    {
+      "number": 14,
+      "pali": "Seyyathāpi, bhikkhave, vatthaṁ parisuddhaṁ pariyodātaṁ; ",
+      "english": "Suppose there was a cloth that was pure and clean. "
+    },
+    {
+      "number": 15,
+      "pali": "tamenaṁ rajako yasmiṁ yasmiṁ raṅgajāte upasaṁhareyya—yadi nīlakāya yadi pītakāya yadi lohitakāya yadi mañjiṭṭhakāya—surattavaṇṇamevassa parisuddhavaṇṇamevassa. ",
+      "english": "No matter what dye the dyer applied—whether blue or yellow or red or magenta—it would look well dyed and pure in color. "
+    },
+    {
+      "number": 16,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 17,
+      "pali": "Parisuddhattā, bhikkhave, vatthassa. ",
+      "english": "Because of the purity of the cloth. "
+    },
+    {
+      "number": 18,
+      "pali": "Evameva kho, bhikkhave, citte asaṅkiliṭṭhe, sugati pāṭikaṅkhā. ",
+      "english": "In the same way, when the mind isn’t corrupt, a good destiny is to be expected. "
+    },
+    {
+      "number": 19,
+      "pali": "Katame ca, bhikkhave, cittassa upakkilesā? ",
+      "english": "And what are the corruptions of the mind? "
+    },
+    {
+      "number": 20,
+      "pali": "Abhijjhāvisamalobho cittassa upakkileso, byāpādo cittassa upakkileso, kodho cittassa upakkileso, upanāho cittassa upakkileso, makkho cittassa upakkileso, paḷāso cittassa upakkileso, issā cittassa upakkileso, macchariyaṁ cittassa upakkileso, māyā cittassa upakkileso, sāṭheyyaṁ cittassa upakkileso, thambho cittassa upakkileso, sārambho cittassa upakkileso, māno cittassa upakkileso, atimāno cittassa upakkileso, mado cittassa upakkileso, pamādo cittassa upakkileso. ",
+      "english": "Covetousness and immoral greed, ill will, anger, acrimony, disdain, contempt, jealousy, stinginess, deceit, deviousness, obstinacy, aggression, conceit, arrogance, vanity, and negligence are corruptions of the mind. "
+    },
+    {
+      "number": 21,
+      "pali": "Sa kho so, bhikkhave, bhikkhu ‘abhijjhāvisamalobho cittassa upakkileso’ti—iti viditvā abhijjhāvisamalobhaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": "A mendicant who understands that covetousness and immoral greed are corruptions of the mind gives them up. "
+    },
+    {
+      "number": 22,
+      "pali": "‘byāpādo cittassa upakkileso’ti—",
+      "english": "A mendicant who understands that ill will … "
+    },
+    {
+      "number": 23,
+      "pali": "iti viditvā byāpādaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "‘kodho cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "iti viditvā kodhaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "‘upanāho cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "iti viditvā upanāhaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "‘makkho cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "iti viditvā makkhaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "‘paḷāso cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "iti viditvā paḷāsaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "‘issā cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "iti viditvā issaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "‘macchariyaṁ cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "iti viditvā macchariyaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "‘māyā cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 37,
+      "pali": "iti viditvā māyaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "‘sāṭheyyaṁ cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "iti viditvā sāṭheyyaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "‘thambho cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "iti viditvā thambhaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "‘sārambho cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "iti viditvā sārambhaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "‘māno cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "iti viditvā mānaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "‘atimāno cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "iti viditvā atimānaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "‘mado cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "iti viditvā madaṁ cittassa upakkilesaṁ pajahati; ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "‘pamādo cittassa upakkileso’ti—",
+      "english": "negligence is a corruption of the mind gives it up. "
+    },
+    {
+      "number": 51,
+      "pali": "iti viditvā pamādaṁ cittassa upakkilesaṁ pajahati. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Yato kho, bhikkhave, bhikkhuno ‘abhijjhāvisamalobho cittassa upakkileso’ti—iti viditvā abhijjhāvisamalobho cittassa upakkileso pahīno hoti, ",
+      "english": "When they have understood these corruptions of the mind "
+    },
+    {
+      "number": 53,
+      "pali": "‘byāpādo cittassa upakkileso’ti—",
+      "english": "for what they are, and have given them up, "
+    },
+    {
+      "number": 54,
+      "pali": "iti viditvā byāpādo cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "‘kodho cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "iti viditvā kodho cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "‘upanāho cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "iti viditvā upanāho cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "‘makkho cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "iti viditvā makkho cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "‘paḷāso cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "iti viditvā paḷāso cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "‘issā cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "iti viditvā issā cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "‘macchariyaṁ cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "iti viditvā macchariyaṁ cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "‘māyā cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "iti viditvā māyā cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "‘sāṭheyyaṁ cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "iti viditvā sāṭheyyaṁ cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "‘thambho cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "iti viditvā thambho cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "‘sārambho cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "iti viditvā sārambho cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "‘māno cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "iti viditvā māno cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "‘atimāno cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "iti viditvā atimāno cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "‘mado cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "iti viditvā mado cittassa upakkileso pahīno hoti; ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "‘pamādo cittassa upakkileso’ti—",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "iti viditvā pamādo cittassa upakkileso pahīno hoti. ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "So buddhe aveccappasādena samannāgato hoti: ",
+      "english": "they have experiential confidence in the Buddha: "
+    },
+    {
+      "number": 84,
+      "pali": "‘itipi so bhagavā arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā’ti; ",
+      "english": "‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ "
+    },
+    {
+      "number": 85,
+      "pali": "dhamme aveccappasādena samannāgato hoti: ",
+      "english": "They have experiential confidence in the teaching: "
+    },
+    {
+      "number": 86,
+      "pali": "‘svākkhāto bhagavatā dhammo sandiṭṭhiko akāliko ehipassiko opaneyyiko paccattaṁ veditabbo viññūhī’ti; ",
+      "english": "‘The teaching is well explained by the Buddha—apparent in the present life, immediately effective, inviting inspection, relevant, so that sensible people can know it for themselves.’ "
+    },
+    {
+      "number": 87,
+      "pali": "saṅghe aveccappasādena samannāgato hoti: ",
+      "english": "They have experiential confidence in the Saṅgha: "
+    },
+    {
+      "number": 88,
+      "pali": "‘suppaṭipanno bhagavato sāvakasaṅgho, ujuppaṭipanno bhagavato sāvakasaṅgho, ñāyappaṭipanno bhagavato sāvakasaṅgho, sāmīcippaṭipanno bhagavato sāvakasaṅgho, yadidaṁ cattāri purisayugāni, aṭṭha purisapuggalā. Esa bhagavato sāvakasaṅgho āhuneyyo pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo, anuttaraṁ puññakkhettaṁ lokassā’ti. ",
+      "english": "‘The Saṅgha of the Buddha’s disciples is practicing the way that’s good, direct, systematic, and proper. It consists of the four pairs, the eight individual persons. This is the Saṅgha of the Buddha’s disciples that is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, worthy of greeting with cupped palms, and is the supreme field of merit for the world.’ "
+    },
+    {
+      "number": 89,
+      "pali": "Yathodhi kho panassa cattaṁ hoti vantaṁ muttaṁ pahīnaṁ paṭinissaṭṭhaṁ, so ‘buddhe aveccappasādena samannāgatomhī’ti labhati atthavedaṁ, labhati dhammavedaṁ, labhati dhammūpasaṁhitaṁ pāmojjaṁ. ",
+      "english": "When a mendicant has discarded, eliminated, released, given up, and relinquished to this extent, thinking, ‘I have experiential confidence in the Buddha … "
+    },
+    {
+      "number": 90,
+      "pali": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vedeti, sukhino cittaṁ samādhiyati; ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "‘dhamme …pe… ",
+      "english": "the teaching … "
+    },
+    {
+      "number": 92,
+      "pali": "saṅghe aveccappasādena samannāgatomhī’ti labhati atthavedaṁ, labhati dhammavedaṁ, labhati dhammūpasaṁhitaṁ pāmojjaṁ; ",
+      "english": "the Saṅgha,’ they find inspiration in the meaning and the teaching, and find joy connected with the teaching. "
+    },
+    {
+      "number": 93,
+      "pali": "pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vedeti, sukhino cittaṁ samādhiyati. ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "‘Yathodhi kho pana me cattaṁ vantaṁ muttaṁ pahīnaṁ paṭinissaṭṭhan’ti labhati atthavedaṁ, labhati dhammavedaṁ, labhati dhammūpasaṁhitaṁ pāmojjaṁ; ",
+      "english": "Thinking: ‘I have discarded, eliminated, released, given up, and relinquished to this extent,’ they find inspiration in the meaning and the teaching, and find joy connected with the teaching. "
+    },
+    {
+      "number": 95,
+      "pali": "pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vedeti, sukhino cittaṁ samādhiyati. ",
+      "english": "When they’re joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when they’re blissful, the mind becomes immersed in samādhi. "
+    },
+    {
+      "number": 96,
+      "pali": "Sa kho so, bhikkhave, bhikkhu evaṁsīlo evaṁdhammo evaṁpañño sālīnañcepi piṇḍapātaṁ bhuñjati vicitakāḷakaṁ anekasūpaṁ anekabyañjanaṁ, nevassa taṁ hoti antarāyāya. ",
+      "english": "When a mendicant of such ethics, such qualities, and such wisdom eats boiled fine rice with the dark grains picked out and served with many soups and sauces, that is no obstacle for them. "
+    },
+    {
+      "number": 97,
+      "pali": "Seyyathāpi, bhikkhave, vatthaṁ saṅkiliṭṭhaṁ malaggahitaṁ acchodakaṁ āgamma parisuddhaṁ hoti pariyodātaṁ, ukkāmukhaṁ vā panāgamma jātarūpaṁ parisuddhaṁ hoti pariyodātaṁ; ",
+      "english": "Compare with cloth that is dirty and soiled; it can be made pure and clean by pure water. Or native gold, which can be made pure and bright by a forge. "
+    },
+    {
+      "number": 98,
+      "pali": "evameva kho, bhikkhave, bhikkhu evaṁsīlo evaṁdhammo evaṁpañño sālīnañcepi piṇḍapātaṁ bhuñjati vicitakāḷakaṁ anekasūpaṁ anekabyañjanaṁ, nevassa taṁ hoti antarāyāya. ",
+      "english": "In the same way, when a mendicant of such ethics, such qualities, and such wisdom eats boiled fine rice with the dark grains picked out and served with many soups and sauces, that is no obstacle for them. "
+    },
+    {
+      "number": 99,
+      "pali": "So mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ. Iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati; ",
+      "english": "They meditate spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 100,
+      "pali": "karuṇāsahagatena cetasā …pe… ",
+      "english": "They meditate spreading a heart full of compassion to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of compassion to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 101,
+      "pali": "muditāsahagatena cetasā …pe… ",
+      "english": "They meditate spreading a heart full of rejoicing to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of rejoicing to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 102,
+      "pali": "upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ. Iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": "They meditate spreading a heart full of equanimity to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of equanimity to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 103,
+      "pali": "So ‘atthi idaṁ, atthi hīnaṁ, atthi paṇītaṁ, atthi imassa saññāgatassa uttari nissaraṇan’ti pajānāti. ",
+      "english": "They understand: ‘There is this, there is what is worse than this, there is what is better than this, and there is an escape beyond the scope of perception.’ "
+    },
+    {
+      "number": 104,
+      "pali": "Tassa evaṁ jānato evaṁ passato kāmāsavāpi cittaṁ vimuccati, bhavāsavāpi cittaṁ vimuccati, avijjāsavāpi cittaṁ vimuccati. ",
+      "english": "Knowing and seeing like this, their mind is freed from the defilements of sensuality, desire to be reborn, and ignorance. "
+    },
+    {
+      "number": 105,
+      "pali": "Vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. ",
+      "english": "When they’re freed, they know they’re freed. "
+    },
+    {
+      "number": 106,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
+    },
+    {
+      "number": 107,
+      "pali": "Ayaṁ vuccati, bhikkhave: ",
+      "english": "This is called "
+    },
+    {
+      "number": 108,
+      "pali": "‘bhikkhu sināto antarena sinānenā’”ti. ",
+      "english": "a mendicant who is bathed with the inner bathing.” "
+    },
+    {
+      "number": 109,
+      "pali": "Tena kho pana samayena sundarikabhāradvājo brāhmaṇo bhagavato avidūre nisinno hoti. ",
+      "english": "Now at that time the brahmin Bhāradvāja of Sundarikā was sitting not far from the Buddha. "
+    },
+    {
+      "number": 110,
+      "pali": "Atha kho sundarikabhāradvājo brāhmaṇo bhagavantaṁ etadavoca: ",
+      "english": "He said to the Buddha, "
+    },
+    {
+      "number": 111,
+      "pali": "“gacchati pana bhavaṁ gotamo bāhukaṁ nadiṁ sināyitun”ti? ",
+      "english": "“But does the worthy Gotama go to the river Bāhuka to bathe?” "
+    },
+    {
+      "number": 112,
+      "pali": "“Kiṁ, brāhmaṇa, bāhukāya nadiyā? ",
+      "english": "“Brahmin, why go to the river Bāhuka? "
+    },
+    {
+      "number": 113,
+      "pali": "Kiṁ bāhukā nadī karissatī”ti? ",
+      "english": "What can the river Bāhuka do?” "
+    },
+    {
+      "number": 114,
+      "pali": "“Lokkhasammatā hi, bho gotama, bāhukā nadī bahujanassa, puññasammatā hi, bho gotama, bāhukā nadī bahujanassa, bāhukāya pana nadiyā bahujano pāpakammaṁ kataṁ pavāhetī”ti. ",
+      "english": "“Many people deem that the river Bāhukā leads to a heavenly world and bestows merit. And many people rinse off their bad deeds in the river Bāhukā.” "
+    },
+    {
+      "number": 115,
+      "pali": "Atha kho bhagavā sundarikabhāradvājaṁ brāhmaṇaṁ gāthāhi ajjhabhāsi: ",
+      "english": "Then the Buddha addressed Bhāradvāja of Sundarikā in verse: "
+    },
+    {
+      "number": 116,
+      "pali": "“Bāhukaṁ adhikakkañca, ",
+      "english": "“The Bāhukā and the Adhikakkā, "
+    },
+    {
+      "number": 117,
+      "pali": "gayaṁ sundarikaṁ mapi; ",
+      "english": "at Gayā and the Sundarikā too, "
+    },
+    {
+      "number": 118,
+      "pali": "Sarassatiṁ payāgañca, ",
+      "english": "Sarasvatī and Payāga, "
+    },
+    {
+      "number": 119,
+      "pali": "atho bāhumatiṁ nadiṁ; ",
+      "english": "and the river Bāhumatī: "
+    },
+    {
+      "number": 120,
+      "pali": "Niccampi bālo pakkhando, ",
+      "english": "a fool can constantly plunge into them "
+    },
+    {
+      "number": 121,
+      "pali": "kaṇhakammo na sujjhati. ",
+      "english": "but it won’t purify their dark deeds. "
+    },
+    {
+      "number": 122,
+      "pali": "Kiṁ sundarikā karissati, ",
+      "english": "What can the Sundarikā do? "
+    },
+    {
+      "number": 123,
+      "pali": "Kiṁ payāgā kiṁ bāhukā nadī; ",
+      "english": "What the Payāga or the Bāhukā? "
+    },
+    {
+      "number": 124,
+      "pali": "Veriṁ katakibbisaṁ naraṁ, ",
+      "english": "They can’t cleanse a cruel person, a sinner "
+    },
+    {
+      "number": 125,
+      "pali": "Na hi naṁ sodhaye pāpakamminaṁ. ",
+      "english": "from their bad deeds. "
+    },
+    {
+      "number": 126,
+      "pali": "Suddhassa ve sadā phaggu, ",
+      "english": "For the pure in heart it’s always "
+    },
+    {
+      "number": 127,
+      "pali": "Suddhassuposatho sadā; ",
+      "english": "the spring festival or the sabbath. "
+    },
+    {
+      "number": 128,
+      "pali": "Suddhassa sucikammassa, ",
+      "english": "For the pure in heart and clean of deed, "
+    },
+    {
+      "number": 129,
+      "pali": "Sadā sampajjate vataṁ; ",
+      "english": "their vows will always be fulfilled. "
+    },
+    {
+      "number": 130,
+      "pali": "Idheva sināhi brāhmaṇa, ",
+      "english": "It’s here alone that you should bathe, brahmin, "
+    },
+    {
+      "number": 131,
+      "pali": "Sabbabhūtesu karohi khemataṁ. ",
+      "english": "making yourself a sanctuary for all creatures. "
+    },
+    {
+      "number": 132,
+      "pali": "Sace musā na bhaṇasi, ",
+      "english": "And if you speak no lies, "
+    },
+    {
+      "number": 133,
+      "pali": "sace pāṇaṁ na hiṁsasi; ",
+      "english": "nor harm any living creature, "
+    },
+    {
+      "number": 134,
+      "pali": "Sace adinnaṁ nādiyasi, ",
+      "english": "nor steal anything not given, "
+    },
+    {
+      "number": 135,
+      "pali": "saddahāno amaccharī; ",
+      "english": "and you’re faithful and not stingy: "
+    },
+    {
+      "number": 136,
+      "pali": "Kiṁ kāhasi gayaṁ gantvā, ",
+      "english": "what’s the point of going to Gayā? "
+    },
+    {
+      "number": 137,
+      "pali": "udapānopi te gayā”ti. ",
+      "english": "For any well may be your Gayā!” "
+    },
+    {
+      "number": 138,
+      "pali": "Evaṁ vutte, sundarikabhāradvājo brāhmaṇo bhagavantaṁ etadavoca: ",
+      "english": "When he had spoken, the brahmin Bhāradvāja of Sundarikā said to the Buddha, "
+    },
+    {
+      "number": 139,
+      "pali": "“abhikkantaṁ, bho gotama, abhikkantaṁ, bho gotama. ",
+      "english": "“Excellent, worthy Gotama! Excellent! "
+    },
+    {
+      "number": 140,
+      "pali": "Seyyathāpi, bho gotama, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya—cakkhumanto rūpāni dakkhantīti; evamevaṁ bhotā gotamena anekapariyāyena dhammo pakāsito. ",
+      "english": "As if he were righting the overturned, or revealing the hidden, or pointing out the path to the lost, or lighting a lamp in the dark so people with clear eyes can see what’s there, worthy Gotama has made the teaching clear in many ways. "
+    },
+    {
+      "number": 141,
+      "pali": "Esāhaṁ bhavantaṁ gotamaṁ saraṇaṁ gacchāmi dhammañca bhikkhusaṅghañca. ",
+      "english": "I go for refuge to the worthy Gotama, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 142,
+      "pali": "Labheyyāhaṁ bhoto gotamassa santike pabbajjaṁ, labheyyaṁ upasampadan”ti. ",
+      "english": "May I receive the going forth, the ordination in the worthy Gotama’s presence?” "
+    },
+    {
+      "number": 143,
+      "pali": "Alattha kho sundarikabhāradvājo brāhmaṇo bhagavato santike pabbajjaṁ, alattha upasampadaṁ. ",
+      "english": "And the brahmin Bhāradvāja of Sundarikā received the going forth, the ordination in the Buddha’s presence. "
+    },
+    {
+      "number": 144,
+      "pali": "Acirūpasampanno kho panāyasmā bhāradvājo eko vūpakaṭṭho appamatto ātāpī pahitatto viharanto nacirasseva—yassatthāya kulaputtā sammadeva agārasmā anagāriyaṁ pabbajanti, tadanuttaraṁ—brahmacariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja vihāsi. ",
+      "english": "Not long after his ordination, Venerable Bhāradvāja, living alone, withdrawn, diligent, keen, and resolute, soon realized the supreme end of the spiritual path in this very life. He lived having achieved with his own insight the goal for which gentlemen rightly go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 145,
+      "pali": "“Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti abbhaññāsi. ",
+      "english": "He understood: “Rebirth is ended; the spiritual journey has been completed; what had to be done has been done; there is nothing further for this place.” "
+    },
+    {
+      "number": 146,
+      "pali": "Aññataro kho panāyasmā bhāradvājo arahataṁ ahosīti. ",
+      "english": "And Venerable Bhāradvāja became one of the perfected. "
+    },
+    {
+      "number": 147,
+      "pali": "Vatthasuttaṁ niṭṭhitaṁ sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

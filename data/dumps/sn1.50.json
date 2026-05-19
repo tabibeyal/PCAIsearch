@@ -1,0 +1,330 @@
+{
+  "sutta_id": "SN1.50",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 1.50 ",
+      "english": "Linked Discourses 1.50 "
+    },
+    {
+      "number": 2,
+      "pali": "5. Ādittavagga ",
+      "english": "5. On Fire "
+    },
+    {
+      "number": 3,
+      "pali": "Ghaṭīkārasutta ",
+      "english": "With Ghaṭīkāra "
+    },
+    {
+      "number": 4,
+      "pali": "“Avihaṁ upapannāse, ",
+      "english": "“Seven mendicants reborn in Aviha "
+    },
+    {
+      "number": 5,
+      "pali": "vimuttā satta bhikkhavo; ",
+      "english": "have been freed. "
+    },
+    {
+      "number": 6,
+      "pali": "Rāgadosaparikkhīṇā, ",
+      "english": "With the complete ending of greed and hate, "
+    },
+    {
+      "number": 7,
+      "pali": "tiṇṇā loke visattikan”ti. ",
+      "english": "they’ve crossed over clinging to the world.” "
+    },
+    {
+      "number": 8,
+      "pali": "“Ke ca te ataruṁ paṅkaṁ, ",
+      "english": "“Who are those who’ve crossed the bog, "
+    },
+    {
+      "number": 9,
+      "pali": "maccudheyyaṁ suduttaraṁ; ",
+      "english": "Death’s dominion so hard to pass? "
+    },
+    {
+      "number": 10,
+      "pali": "Ke hitvā mānusaṁ dehaṁ, ",
+      "english": "Who, after leaving behind the human body, "
+    },
+    {
+      "number": 11,
+      "pali": "dibbayogaṁ upaccagun”ti. ",
+      "english": "have risen above celestial yokes?” "
+    },
+    {
+      "number": 12,
+      "pali": "“Upako palagaṇḍo ca, ",
+      "english": "“Upaka and Palagaṇḍa, "
+    },
+    {
+      "number": 13,
+      "pali": "pukkusāti ca te tayo; ",
+      "english": "and Pukkusāti, these three; "
+    },
+    {
+      "number": 14,
+      "pali": "Bhaddiyo khaṇḍadevo ca, ",
+      "english": "Bhaddiya and Bhaddadeva, "
+    },
+    {
+      "number": 15,
+      "pali": "bāhuraggi ca siṅgiyo; ",
+      "english": "and Bāhudanti and Piṅgiya. "
+    },
+    {
+      "number": 16,
+      "pali": "Te hitvā mānusaṁ dehaṁ, ",
+      "english": "They, after leaving behind the human body, "
+    },
+    {
+      "number": 17,
+      "pali": "dibbayogaṁ upaccagun”ti. ",
+      "english": "have risen above celestial yokes.” "
+    },
+    {
+      "number": 18,
+      "pali": "“Kusalī bhāsasī tesaṁ, ",
+      "english": "“You speak well of them, "
+    },
+    {
+      "number": 19,
+      "pali": "mārapāsappahāyinaṁ; ",
+      "english": "who have let go the snares of Māra. "
+    },
+    {
+      "number": 20,
+      "pali": "Kassa te dhammamaññāya, ",
+      "english": "Whose teaching did they understand "
+    },
+    {
+      "number": 21,
+      "pali": "acchiduṁ bhavabandhanan”ti. ",
+      "english": "to cut the bonds of rebirth?” "
+    },
+    {
+      "number": 22,
+      "pali": "“Na aññatra bhagavatā, ",
+      "english": "“None other than the Blessed One! "
+    },
+    {
+      "number": 23,
+      "pali": "nāññatra tava sāsanā; ",
+      "english": "None other than your instruction! "
+    },
+    {
+      "number": 24,
+      "pali": "Yassa te dhammamaññāya, ",
+      "english": "It was your teaching that they understood "
+    },
+    {
+      "number": 25,
+      "pali": "acchiduṁ bhavabandhanaṁ. ",
+      "english": "to cut the bonds of rebirth. "
+    },
+    {
+      "number": 26,
+      "pali": "Yattha nāmañca rūpañca, ",
+      "english": "Where name and form "
+    },
+    {
+      "number": 27,
+      "pali": "asesaṁ uparujjhati; ",
+      "english": "cease with no residue left behind; "
+    },
+    {
+      "number": 28,
+      "pali": "Taṁ te dhammaṁ idhaññāya, ",
+      "english": "understanding this teaching, "
+    },
+    {
+      "number": 29,
+      "pali": "acchiduṁ bhavabandhanan”ti. ",
+      "english": "they cut the bonds of rebirth.” "
+    },
+    {
+      "number": 30,
+      "pali": "“Gambhīraṁ bhāsasī vācaṁ, ",
+      "english": "“The words you say are deep, "
+    },
+    {
+      "number": 31,
+      "pali": "dubbijānaṁ sudubbudhaṁ; ",
+      "english": "hard to understand, so very hard to wake up to. "
+    },
+    {
+      "number": 32,
+      "pali": "Kassa tvaṁ dhammamaññāya, ",
+      "english": "Whose teaching did you understand "
+    },
+    {
+      "number": 33,
+      "pali": "vācaṁ bhāsasi īdisan”ti. ",
+      "english": "that you can say such things?” "
+    },
+    {
+      "number": 34,
+      "pali": "“Kumbhakāro pure āsiṁ, ",
+      "english": "“In the past I was a potter "
+    },
+    {
+      "number": 35,
+      "pali": "vekaḷiṅge ghaṭīkaro; ",
+      "english": "in Vebhaliṅga called Ghaṭīkāra. "
+    },
+    {
+      "number": 36,
+      "pali": "Mātāpettibharo āsiṁ, ",
+      "english": "I took care of my parents "
+    },
+    {
+      "number": 37,
+      "pali": "kassapassa upāsako. ",
+      "english": "as a lay follower of Buddha Kassapa. "
+    },
+    {
+      "number": 38,
+      "pali": "Virato methunā dhammā, ",
+      "english": "I refrained from sexual intercourse, "
+    },
+    {
+      "number": 39,
+      "pali": "brahmacārī nirāmiso; ",
+      "english": "I was chaste, spiritual. "
+    },
+    {
+      "number": 40,
+      "pali": "Ahuvā te sagāmeyyo, ",
+      "english": "We lived in the same village; "
+    },
+    {
+      "number": 41,
+      "pali": "ahuvā te pure sakhā. ",
+      "english": "in the past I was your comrade. "
+    },
+    {
+      "number": 42,
+      "pali": "Sohamete pajānāmi, ",
+      "english": "I am the one who understands "
+    },
+    {
+      "number": 43,
+      "pali": "vimutte satta bhikkhavo; ",
+      "english": "that these seven mendicants have been freed. "
+    },
+    {
+      "number": 44,
+      "pali": "Rāgadosaparikkhīṇe, ",
+      "english": "With the complete ending of greed and hate, "
+    },
+    {
+      "number": 45,
+      "pali": "tiṇṇe loke visattikan”ti. ",
+      "english": "they’ve crossed over clinging to the world.” "
+    },
+    {
+      "number": 46,
+      "pali": "“Evametaṁ tadā āsi, ",
+      "english": "“That’s exactly how it was, "
+    },
+    {
+      "number": 47,
+      "pali": "yathā bhāsasi bhaggava; ",
+      "english": "just as you say, Bhaggava. "
+    },
+    {
+      "number": 48,
+      "pali": "Kumbhakāro pure āsi, ",
+      "english": "In the past you were a potter "
+    },
+    {
+      "number": 49,
+      "pali": "vekaḷiṅge ghaṭīkaro; ",
+      "english": "in Vebhaliṅga called Ghaṭīkāra. "
+    },
+    {
+      "number": 50,
+      "pali": "Mātāpettibharo āsi, ",
+      "english": "You took care of your parents "
+    },
+    {
+      "number": 51,
+      "pali": "kassapassa upāsako. ",
+      "english": "as a lay follower of Buddha Kassapa. "
+    },
+    {
+      "number": 52,
+      "pali": "Virato methunā dhammā, ",
+      "english": "You refrained from sexual intercourse, "
+    },
+    {
+      "number": 53,
+      "pali": "brahmacārī nirāmiso; ",
+      "english": "you were chaste, spiritual. "
+    },
+    {
+      "number": 54,
+      "pali": "Ahuvā me sagāmeyyo, ",
+      "english": "We lived in the same village; "
+    },
+    {
+      "number": 55,
+      "pali": "ahuvā me pure sakhā”ti. ",
+      "english": "in the past you were my comrade.” "
+    },
+    {
+      "number": 56,
+      "pali": "“Evametaṁ purāṇānaṁ, ",
+      "english": "That’s how it was "
+    },
+    {
+      "number": 57,
+      "pali": "sahāyānaṁ ahu saṅgamo; ",
+      "english": "when those friends of old met again. "
+    },
+    {
+      "number": 58,
+      "pali": "Ubhinnaṁ bhāvitattānaṁ, ",
+      "english": "Both of them were evolved, "
+    },
+    {
+      "number": 59,
+      "pali": "sarīrantimadhārinan”ti. ",
+      "english": "bearing their final body. "
+    },
+    {
+      "number": 60,
+      "pali": "Ādittavaggo pañcamo. ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "Ādittaṁ kiṁdadaṁ annaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "ekamūlaanomiyaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "Accharāvanaropajetaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "maccharena ghaṭīkaroti. ",
+      "english": ""
+    }
+  ]
+}

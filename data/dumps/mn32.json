@@ -1,0 +1,845 @@
+{
+  "sutta_id": "MN32",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 32 ",
+      "english": "Middle Discourses 32 "
+    },
+    {
+      "number": 2,
+      "pali": "Mahāgosiṅgasutta ",
+      "english": "The Longer Discourse at Gosiṅga "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā gosiṅgasālavanadāye viharati sambahulehi abhiññātehi abhiññātehi therehi sāvakehi saddhiṁ—",
+      "english": "At one time the Buddha was staying in the sal forest park at Gosiṅga, together with several well-known senior disciples, such as "
+    },
+    {
+      "number": 5,
+      "pali": "āyasmatā ca sāriputtena āyasmatā ca mahāmoggallānena āyasmatā ca mahākassapena āyasmatā ca anuruddhena āyasmatā ca revatena āyasmatā ca ānandena, aññehi ca abhiññātehi abhiññātehi therehi sāvakehi saddhiṁ. ",
+      "english": "the venerables Sāriputta, Mahāmoggallāna, Mahākassapa, Anuruddha, Revata, Ānanda, and others. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho āyasmā mahāmoggallāno sāyanhasamayaṁ paṭisallānā vuṭṭhito yenāyasmā mahākassapo tenupasaṅkami; upasaṅkamitvā āyasmantaṁ mahākassapaṁ etadavoca: ",
+      "english": "Then in the late afternoon, Venerable Mahāmoggallāna came out of retreat, went to Venerable Mahākassapa, and said, "
+    },
+    {
+      "number": 7,
+      "pali": "“āyāmāvuso, kassapa, yenāyasmā sāriputto tenupasaṅkamissāma dhammassavanāyā”ti. ",
+      "english": "“Come, Reverend Kassapa, let’s go to Venerable Sāriputta to hear the teaching.” "
+    },
+    {
+      "number": 8,
+      "pali": "“Evamāvuso”ti kho āyasmā mahākassapo āyasmato mahāmoggallānassa paccassosi. ",
+      "english": "“Yes, reverend,” Mahākassapa replied. "
+    },
+    {
+      "number": 9,
+      "pali": "Atha kho āyasmā ca mahāmoggallāno āyasmā ca mahākassapo āyasmā ca anuruddho yenāyasmā sāriputto tenupasaṅkamiṁsu dhammassavanāya. ",
+      "english": "Then, together with Venerable Anuruddha, they went to Sāriputta to hear the teaching. "
+    },
+    {
+      "number": 10,
+      "pali": "Addasā kho āyasmā ānando āyasmantañca mahāmoggallānaṁ āyasmantañca mahākassapaṁ āyasmantañca anuruddhaṁ yenāyasmā sāriputto tenupasaṅkamante dhammassavanāya. ",
+      "english": "Seeing them, Venerable Ānanda "
+    },
+    {
+      "number": 11,
+      "pali": "Disvāna yenāyasmā revato tenupasaṅkami; upasaṅkamitvā āyasmantaṁ revataṁ etadavoca: ",
+      "english": "went to Venerable Revata, told him what was happening, "
+    },
+    {
+      "number": 12,
+      "pali": "“upasaṅkamantā kho amū, āvuso revata, sappurisā yenāyasmā sāriputto tena dhammassavanāya. ",
+      "english": "and invited him also. "
+    },
+    {
+      "number": 13,
+      "pali": "Āyāmāvuso revata, yenāyasmā sāriputto tenupasaṅkamissāma dhammassavanāyā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "“Evamāvuso”ti kho āyasmā revato āyasmato ānandassa paccassosi. ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "Atha kho āyasmā ca revato āyasmā ca ānando yenāyasmā sāriputto tenupasaṅkamiṁsu dhammassavanāya. ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "Addasā kho āyasmā sāriputto āyasmantañca revataṁ āyasmantañca ānandaṁ dūratova āgacchante. ",
+      "english": "Sāriputta saw them coming off in the distance "
+    },
+    {
+      "number": 17,
+      "pali": "Disvāna āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "and said to Ānanda, "
+    },
+    {
+      "number": 18,
+      "pali": "“etu kho āyasmā ānando. ",
+      "english": "“Come, Venerable Ānanda. "
+    },
+    {
+      "number": 19,
+      "pali": "Svāgataṁ āyasmato ānandassa bhagavato upaṭṭhākassa bhagavato santikāvacarassa. ",
+      "english": "Welcome to Ānanda, the Buddha’s attendant, who is so close to the Buddha. "
+    },
+    {
+      "number": 20,
+      "pali": "Ramaṇīyaṁ, āvuso ānanda, gosiṅgasālavanaṁ, dosinā ratti, sabbaphāliphullā sālā, dibbā, maññe, gandhā sampavanti; ",
+      "english": "Ānanda, the sal forest park at Gosiṅga is lovely, the night is bright, the sal trees are in full blossom, and heavenly scents seem to float on the air. "
+    },
+    {
+      "number": 21,
+      "pali": "kathaṁrūpena, āvuso ānanda, bhikkhunā gosiṅgasālavanaṁ sobheyyā”ti? ",
+      "english": "What kind of mendicant would grace this park?” "
+    },
+    {
+      "number": 22,
+      "pali": "“Idhāvuso sāriputta, bhikkhu bahussuto hoti sutadharo sutasannicayo. Ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthā sabyañjanā; kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ abhivadanti, tathārūpāssa dhammā bahussutā honti, dhātā, vacasā paricitā, manasānupekkhitā, diṭṭhiyā suppaṭividdhā. ",
+      "english": "“Reverend Sāriputta, it’s a mendicant who is very learned, remembering and keeping what they’ve learned. These teachings are good in the beginning, good in the middle, and good in the end, meaningful and well-phrased, describing a spiritual practice that’s entirely full and pure. They are very learned in such teachings, remembering them, rehearsing them, mentally scrutinizing them, and penetrating them theoretically. "
+    },
+    {
+      "number": 23,
+      "pali": "So catassannaṁ parisānaṁ dhammaṁ deseti parimaṇḍalehi padabyañjanehi anuppabandhehi anusayasamugghātāya. ",
+      "english": "And they teach the four assemblies in order to uproot the underlying tendencies with well-rounded and coherent words and phrases. "
+    },
+    {
+      "number": 24,
+      "pali": "Evarūpena kho, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.” "
+    },
+    {
+      "number": 25,
+      "pali": "Evaṁ vutte, āyasmā sāriputto āyasmantaṁ revataṁ etadavoca: ",
+      "english": "When he had spoken, Sāriputta said to Revata, "
+    },
+    {
+      "number": 26,
+      "pali": "“byākataṁ kho, āvuso revata, āyasmatā ānandena yathāsakaṁ paṭibhānaṁ. ",
+      "english": "“Reverend Revata, Ānanda has answered according to his own inspiration. "
+    },
+    {
+      "number": 27,
+      "pali": "Tattha dāni mayaṁ āyasmantaṁ revataṁ pucchāma: ",
+      "english": "And now we ask you the same question.” "
+    },
+    {
+      "number": 28,
+      "pali": "‘ramaṇīyaṁ, āvuso revata, gosiṅgasālavanaṁ, dosinā ratti, sabbaphāliphullā sālā, dibbā, maññe, gandhā sampavanti; ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "kathaṁrūpena, āvuso revata, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "“Idhāvuso sāriputta, bhikkhu paṭisallānārāmo hoti paṭisallānarato, ajjhattaṁ cetosamathamanuyutto anirākatajjhāno, vipassanāya samannāgato, brūhetā suññāgārānaṁ. ",
+      "english": "“Reverend Sāriputta, it’s a mendicant who enjoys retreat and loves retreat. They’re committed to inner serenity of the heart, they don’t neglect absorption, they’re endowed with discernment, and they frequent empty huts. "
+    },
+    {
+      "number": 31,
+      "pali": "Evarūpena kho, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.” "
+    },
+    {
+      "number": 32,
+      "pali": "Evaṁ vutte, āyasmā sāriputto āyasmantaṁ anuruddhaṁ etadavoca: ",
+      "english": "When he had spoken, Sāriputta said to Anuruddha, "
+    },
+    {
+      "number": 33,
+      "pali": "“byākataṁ kho, āvuso anuruddha, āyasmatā revatena yathāsakaṁ paṭibhānaṁ. ",
+      "english": "“Reverend Anuruddha, Revata has answered according to his own inspiration. "
+    },
+    {
+      "number": 34,
+      "pali": "Tattha dāni mayaṁ āyasmantaṁ anuruddhaṁ pucchāma: ",
+      "english": "And now we ask you the same question.” "
+    },
+    {
+      "number": 35,
+      "pali": "‘ramaṇīyaṁ, āvuso anuruddha, gosiṅgasālavanaṁ, dosinā ratti, sabbaphāliphullā sālā, dibbā, maññe, gandhā sampavanti; ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "kathaṁrūpena, āvuso anuruddha, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 37,
+      "pali": "“Idhāvuso sāriputta, bhikkhu dibbena cakkhunā visuddhena atikkantamānusakena sahassaṁ lokānaṁ voloketi. ",
+      "english": "“Reverend Sāriputta, it’s a mendicant who surveys a thousandfold galaxy with clairvoyance that is purified and surpasses the human, "
+    },
+    {
+      "number": 38,
+      "pali": "Seyyathāpi, āvuso sāriputta, cakkhumā puriso uparipāsādavaragato sahassaṁ nemimaṇḍalānaṁ volokeyya; ",
+      "english": "just as a person with clear eyes could survey a thousand orbits from the upper floor of a royal longhouse. "
+    },
+    {
+      "number": 39,
+      "pali": "evameva kho, āvuso sāriputta, bhikkhu dibbena cakkhunā visuddhena atikkantamānusakena sahassaṁ lokānaṁ voloketi. ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "Evarūpena kho, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.” "
+    },
+    {
+      "number": 41,
+      "pali": "Evaṁ vutte, āyasmā sāriputto āyasmantaṁ mahākassapaṁ etadavoca: ",
+      "english": "When he had spoken, Sāriputta said to Mahākassapa, "
+    },
+    {
+      "number": 42,
+      "pali": "“byākataṁ kho, āvuso kassapa, āyasmatā anuruddhena yathāsakaṁ paṭibhānaṁ. ",
+      "english": "“Reverend Kassapa, Anuruddha has answered according to his own inspiration. "
+    },
+    {
+      "number": 43,
+      "pali": "Tattha dāni mayaṁ āyasmantaṁ mahākassapaṁ pucchāma: ",
+      "english": "And now we ask you the same question.” "
+    },
+    {
+      "number": 44,
+      "pali": "‘ramaṇīyaṁ, āvuso kassapa, gosiṅgasālavanaṁ, dosinā ratti, sabbaphāliphullā sālā, dibbā, maññe, gandhā sampavanti; ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "kathaṁrūpena, āvuso kassapa, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "“Idhāvuso sāriputta, bhikkhu attanā ca āraññiko hoti āraññikattassa ca vaṇṇavādī, attanā ca piṇḍapātiko hoti piṇḍapātikattassa ca vaṇṇavādī, attanā ca paṁsukūliko hoti paṁsukūlikattassa ca vaṇṇavādī, attanā ca tecīvariko hoti tecīvarikattassa ca vaṇṇavādī, attanā ca appiccho hoti appicchatāya ca vaṇṇavādī, attanā ca santuṭṭho hoti santuṭṭhiyā ca vaṇṇavādī, attanā ca pavivitto hoti pavivekassa ca vaṇṇavādī, attanā ca asaṁsaṭṭho hoti asaṁsaggassa ca vaṇṇavādī, attanā ca āraddhavīriyo hoti vīriyārambhassa ca vaṇṇavādī, attanā ca sīlasampanno hoti sīlasampadāya ca vaṇṇavādī, attanā ca samādhisampanno hoti samādhisampadāya ca vaṇṇavādī, attanā ca paññāsampanno hoti paññāsampadāya ca vaṇṇavādī, attanā ca vimuttisampanno hoti vimuttisampadāya ca vaṇṇavādī, attanā ca vimuttiñāṇadassanasampanno hoti vimuttiñāṇadassanasampadāya ca vaṇṇavādī. ",
+      "english": "“Reverend Sāriputta, it’s a mendicant who lives in the wilderness, eats only almsfood, wears rag robes, and owns just three robes; and they praise these things. They are of few wishes, content, secluded, aloof, and energetic; and they praise these things. They are accomplished in ethics, immersion, wisdom, freedom, and the knowledge and vision of freedom; and they praise these things. "
+    },
+    {
+      "number": 47,
+      "pali": "Evarūpena kho, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.” "
+    },
+    {
+      "number": 48,
+      "pali": "Evaṁ vutte, āyasmā sāriputto āyasmantaṁ mahāmoggallānaṁ etadavoca: ",
+      "english": "When he had spoken, Sāriputta said to Mahāmoggallāna, "
+    },
+    {
+      "number": 49,
+      "pali": "“byākataṁ kho, āvuso moggallāna, āyasmatā mahākassapena yathāsakaṁ paṭibhānaṁ. ",
+      "english": "“Reverend Moggallāna, Mahākassapa has answered according to his own inspiration. "
+    },
+    {
+      "number": 50,
+      "pali": "Tattha dāni mayaṁ āyasmantaṁ mahāmoggallānaṁ pucchāma: ",
+      "english": "And now we ask you the same question.” "
+    },
+    {
+      "number": 51,
+      "pali": "‘ramaṇīyaṁ, āvuso moggallāna, gosiṅgasālavanaṁ, dosinā ratti, sabbaphāliphullā sālā, dibbā, maññe, gandhā sampavanti; ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "kathaṁrūpena, āvuso moggallāna, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "“Idhāvuso sāriputta, dve bhikkhū abhidhammakathaṁ kathenti, te aññamaññaṁ pañhaṁ pucchanti, aññamaññassa pañhaṁ puṭṭhā vissajjenti, no ca saṁsādenti, dhammī ca nesaṁ kathā pavattinī hoti. ",
+      "english": "“Reverend Sāriputta, it’s when two mendicants engage in discussion about the teaching. They question each other and answer each other’s questions without faltering, and their discussion on the teaching flows on. "
+    },
+    {
+      "number": 54,
+      "pali": "Evarūpena kho, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.” "
+    },
+    {
+      "number": 55,
+      "pali": "Atha kho āyasmā mahāmoggallāno āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": "Then Mahāmoggallāna said to Sāriputta, "
+    },
+    {
+      "number": 56,
+      "pali": "“byākataṁ kho, āvuso sāriputta, amhehi sabbeheva yathāsakaṁ paṭibhānaṁ. ",
+      "english": "“Each of us has spoken from our heart. "
+    },
+    {
+      "number": 57,
+      "pali": "Tattha dāni mayaṁ āyasmantaṁ sāriputtaṁ pucchāma: ",
+      "english": "And now we ask you: "
+    },
+    {
+      "number": 58,
+      "pali": "‘ramaṇīyaṁ, āvuso sāriputta, gosiṅgasālavanaṁ, dosinā ratti, sabbaphāliphullā sālā, dibbā, maññe, gandhā sampavanti; ",
+      "english": "Sāriputta, the sal forest park at Gosiṅga is lovely, the night is bright, the sal trees are in full blossom, and heavenly scents seem to float on the air. "
+    },
+    {
+      "number": 59,
+      "pali": "kathaṁrūpena, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti? ",
+      "english": "What kind of mendicant would grace this park?” "
+    },
+    {
+      "number": 60,
+      "pali": "“Idhāvuso moggallāna, bhikkhu cittaṁ vasaṁ vatteti, no ca bhikkhu cittassa vasena vattati. ",
+      "english": "“Reverend Moggallāna, it’s when a mendicant masters their mind and is not mastered by it. "
+    },
+    {
+      "number": 61,
+      "pali": "So yāya vihārasamāpattiyā ākaṅkhati pubbaṇhasamayaṁ viharituṁ, tāya vihārasamāpattiyā pubbaṇhasamayaṁ viharati; ",
+      "english": "In the morning, they abide in whatever meditation or attainment they want. "
+    },
+    {
+      "number": 62,
+      "pali": "yāya vihārasamāpattiyā ākaṅkhati majjhanhikasamayaṁ viharituṁ, tāya vihārasamāpattiyā majjhanhikasamayaṁ viharati; ",
+      "english": "At midday, "
+    },
+    {
+      "number": 63,
+      "pali": "yāya vihārasamāpattiyā ākaṅkhati sāyanhasamayaṁ viharituṁ, tāya vihārasamāpattiyā sāyanhasamayaṁ viharati. ",
+      "english": "and in the evening, they abide in whatever meditation or attainment they want. "
+    },
+    {
+      "number": 64,
+      "pali": "Seyyathāpi, āvuso moggallāna, rañño vā rājamahāmattassa vā nānārattānaṁ dussānaṁ dussakaraṇḍako pūro assa. ",
+      "english": "Suppose that a ruler or their chief minister had a chest full of garments of different colors. "
+    },
+    {
+      "number": 65,
+      "pali": "So yaññadeva dussayugaṁ ākaṅkheyya pubbaṇhasamayaṁ pārupituṁ, taṁ tadeva dussayugaṁ pubbaṇhasamayaṁ pārupeyya; ",
+      "english": "In the morning, they’d don whatever pair of garments they wanted. "
+    },
+    {
+      "number": 66,
+      "pali": "yaññadeva dussayugaṁ ākaṅkheyya majjhanhikasamayaṁ pārupituṁ, taṁ tadeva dussayugaṁ majjhanhikasamayaṁ pārupeyya; ",
+      "english": "At midday, "
+    },
+    {
+      "number": 67,
+      "pali": "yaññadeva dussayugaṁ ākaṅkheyya sāyanhasamayaṁ pārupituṁ, taṁ tadeva dussayugaṁ sāyanhasamayaṁ pārupeyya. ",
+      "english": "and in the evening, they’d don whatever pair of garments they wanted. "
+    },
+    {
+      "number": 68,
+      "pali": "Evameva kho, āvuso moggallāna, bhikkhu cittaṁ vasaṁ vatteti, no ca bhikkhu cittassa vasena vattati. ",
+      "english": "In the same way, a mendicant masters their mind and is not mastered by it. "
+    },
+    {
+      "number": 69,
+      "pali": "So yāya vihārasamāpattiyā ākaṅkhati pubbaṇhasamayaṁ viharituṁ, tāya vihārasamāpattiyā pubbaṇhasamayaṁ viharati; ",
+      "english": "In the morning, they abide in whatever meditation or attainment they want. "
+    },
+    {
+      "number": 70,
+      "pali": "yāya vihārasamāpattiyā ākaṅkhati majjhanhikasamayaṁ viharituṁ, tāya vihārasamāpattiyā majjhanhikasamayaṁ viharati; ",
+      "english": "At midday, "
+    },
+    {
+      "number": 71,
+      "pali": "yāya vihārasamāpattiyā ākaṅkhati sāyanhasamayaṁ viharituṁ, tāya vihārasamāpattiyā sāyanhasamayaṁ viharati. ",
+      "english": "and in the evening, they abide in whatever meditation or attainment they want. "
+    },
+    {
+      "number": 72,
+      "pali": "Evarūpena kho, āvuso moggallāna, bhikkhunā gosiṅgasālavanaṁ sobheyyā”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.” "
+    },
+    {
+      "number": 73,
+      "pali": "Atha kho āyasmā sāriputto te āyasmante etadavoca: ",
+      "english": "Then Sāriputta said to those venerables, "
+    },
+    {
+      "number": 74,
+      "pali": "“byākataṁ kho, āvuso, amhehi sabbeheva yathāsakaṁ paṭibhānaṁ. ",
+      "english": "“Each of us has spoken from the heart. "
+    },
+    {
+      "number": 75,
+      "pali": "Āyāmāvuso, yena bhagavā tenupasaṅkamissāma; upasaṅkamitvā etamatthaṁ bhagavato ārocessāma. ",
+      "english": "Come, reverends, let’s go to the Buddha, and inform him about this. "
+    },
+    {
+      "number": 76,
+      "pali": "Yathā no bhagavā byākarissati tathā naṁ dhāressāmā”ti. ",
+      "english": "As he answers, so we’ll remember it.” "
+    },
+    {
+      "number": 77,
+      "pali": "“Evamāvuso”ti kho te āyasmanto āyasmato sāriputtassa paccassosuṁ. ",
+      "english": "“Yes, reverend,” they replied. "
+    },
+    {
+      "number": 78,
+      "pali": "Atha kho te āyasmanto yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinno kho āyasmā sāriputto bhagavantaṁ etadavoca: ",
+      "english": "Then those venerables went to the Buddha, bowed, and sat down to one side. Venerable Sāriputta told the Buddha of how the mendicants had come to see him, and how he had asked Ānanda: "
+    },
+    {
+      "number": 79,
+      "pali": "“idha, bhante, āyasmā ca revato āyasmā ca ānando yenāhaṁ tenupasaṅkamiṁsu dhammassavanāya. ",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "Addasaṁ kho ahaṁ, bhante, āyasmantañca revataṁ āyasmantañca ānandaṁ dūratova āgacchante. ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "Disvāna āyasmantaṁ ānandaṁ etadavocaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "‘etu kho āyasmā ānando. ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "Svāgataṁ āyasmato ānandassa bhagavato upaṭṭhākassa bhagavato santikāvacarassa. ",
+      "english": ""
+    },
+    {
+      "number": 84,
+      "pali": "Ramaṇīyaṁ, āvuso ānanda, gosiṅgasālavanaṁ, dosinā ratti, sabbaphāliphullā sālā, dibbā, maññe, gandhā sampavanti; ",
+      "english": "“‘Ānanda, the sal forest park at Gosiṅga is lovely, the night is bright, the sal trees are in full blossom, and heavenly scents seem to float on the air. "
+    },
+    {
+      "number": 85,
+      "pali": "kathaṁrūpena, āvuso ānanda, bhikkhunā gosiṅgasālavanaṁ sobheyyā’ti? ",
+      "english": "What kind of mendicant would grace this park?’ "
+    },
+    {
+      "number": 86,
+      "pali": "Evaṁ vutte, bhante, āyasmā ānando maṁ etadavoca: ",
+      "english": "When I had spoken, Ānanda said to me: "
+    },
+    {
+      "number": 87,
+      "pali": "‘idhāvuso, sāriputta, bhikkhu bahussuto hoti sutadharo …pe… ",
+      "english": "‘Reverend Sāriputta, it’s a mendicant who is very learned … "
+    },
+    {
+      "number": 88,
+      "pali": "anusayasamugghātāya. ",
+      "english": ""
+    },
+    {
+      "number": 89,
+      "pali": "Evarūpena kho, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.’” "
+    },
+    {
+      "number": 90,
+      "pali": "“Sādhu sādhu, sāriputta. ",
+      "english": "“Good, good, Sāriputta! "
+    },
+    {
+      "number": 91,
+      "pali": "Yathā taṁ ānandova sammā byākaramāno byākareyya. ",
+      "english": "Ānanda answered in the right way for him. "
+    },
+    {
+      "number": 92,
+      "pali": "Ānando hi, sāriputta, bahussuto sutadharo sutasannicayo. Ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthā sabyañjanā; kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ abhivadanti, tathārūpāssa dhammā bahussutā honti, dhātā, vacasā paricitā, manasānupekkhitā, diṭṭhiyā suppaṭividdhā. ",
+      "english": "For Ānanda is very learned …” "
+    },
+    {
+      "number": 93,
+      "pali": "So catassannaṁ parisānaṁ dhammaṁ deseti parimaṇḍalehi padabyañjanehi anuppabandhehi anusayasamugghātāyā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "“Evaṁ vutte, ahaṁ, bhante, āyasmantaṁ revataṁ etadavocaṁ: ",
+      "english": "“Next I asked Revata the same question. "
+    },
+    {
+      "number": 95,
+      "pali": "‘byākataṁ kho, āvuso revata, āyasmatā ānandena yathāsakaṁ paṭibhānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 96,
+      "pali": "Tattha dāni mayaṁ āyasmantaṁ revataṁ pucchāma—",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "ramaṇīyaṁ, āvuso revata, gosiṅgasālavanaṁ, dosinā ratti, sabbaphāliphullā sālā, dibbā maññe gandhā sampavanti. ",
+      "english": ""
+    },
+    {
+      "number": 98,
+      "pali": "Kathaṁrūpena, āvuso revata, bhikkhunā gosiṅgasālavanaṁ sobheyyā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "Evaṁ vutte, bhante, āyasmā revato maṁ etadavoca: ",
+      "english": "He said: "
+    },
+    {
+      "number": 100,
+      "pali": "‘idhāvuso sāriputta, bhikkhu paṭisallānārāmo hoti paṭisallānarato, ajjhattaṁ cetosamathamanuyutto, anirākatajjhāno, vipassanāya samannāgato, brūhetā suññāgārānaṁ. ",
+      "english": "‘It’s a mendicant who enjoys retreat … "
+    },
+    {
+      "number": 101,
+      "pali": "Evarūpena kho, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.’” "
+    },
+    {
+      "number": 102,
+      "pali": "“Sādhu sādhu, sāriputta. ",
+      "english": "“Good, good, Sāriputta! "
+    },
+    {
+      "number": 103,
+      "pali": "Yathā taṁ revatova sammā byākaramāno byākareyya. ",
+      "english": "Revata answered in the right way for him. "
+    },
+    {
+      "number": 104,
+      "pali": "Revato hi, sāriputta, paṭisallānārāmo paṭisallānarato, ajjhattaṁ cetosamathamanuyutto anirākatajjhāno, vipassanāya samannāgato brūhetā suññāgārānan”ti. ",
+      "english": "For Revata enjoys retreat …” "
+    },
+    {
+      "number": 105,
+      "pali": "“Evaṁ vutte, ahaṁ, bhante, āyasmantaṁ anuruddhaṁ etadavocaṁ: ",
+      "english": "“Next I asked Anuruddha the same question. "
+    },
+    {
+      "number": 106,
+      "pali": "‘byākataṁ kho, āvuso anuruddha, āyasmatā revatena …pe… ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "kathaṁrūpena, āvuso anuruddha, bhikkhunā gosiṅgasālavanaṁ sobheyyā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 108,
+      "pali": "Evaṁ vutte, bhante, āyasmā anuruddho maṁ etadavoca: ",
+      "english": "He said: "
+    },
+    {
+      "number": 109,
+      "pali": "‘idhāvuso sāriputta, bhikkhu dibbena cakkhunā visuddhena atikkantamānusakena sahassaṁ lokānaṁ voloketi. ",
+      "english": "‘It’s a mendicant who surveys the thousandfold galaxy with clairvoyance that is purified and surpasses the human … "
+    },
+    {
+      "number": 110,
+      "pali": "Seyyathāpi, āvuso sāriputta, cakkhumā puriso …pe… ",
+      "english": ""
+    },
+    {
+      "number": 111,
+      "pali": "evarūpena kho, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.’” "
+    },
+    {
+      "number": 112,
+      "pali": "“Sādhu sādhu, sāriputta, yathā taṁ anuruddhova sammā byākaramāno byākareyya. ",
+      "english": "“Good, good, Sāriputta! Anuruddha answered in the right way for him. "
+    },
+    {
+      "number": 113,
+      "pali": "Anuruddho hi, sāriputta, dibbena cakkhunā visuddhena atikkantamānusakena sahassaṁ lokānaṁ voloketī”ti. ",
+      "english": "For Anuruddha surveys the thousandfold galaxy with clairvoyance that is purified and surpasses the human.” "
+    },
+    {
+      "number": 114,
+      "pali": "“Evaṁ vutte, ahaṁ, bhante, āyasmantaṁ mahākassapaṁ etadavocaṁ: ",
+      "english": "“Next I asked Mahākassapa the same question. "
+    },
+    {
+      "number": 115,
+      "pali": "‘byākataṁ kho, āvuso kassapa, āyasmatā anuruddhena yathāsakaṁ paṭibhānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 116,
+      "pali": "Tattha dāni mayaṁ āyasmantaṁ mahākassapaṁ pucchāma …pe… ",
+      "english": ""
+    },
+    {
+      "number": 117,
+      "pali": "kathaṁrūpena kho, āvuso kassapa, bhikkhunā gosiṅgasālavanaṁ sobheyyā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "Evaṁ vutte, bhante, āyasmā mahākassapo maṁ etadavoca: ",
+      "english": "He said: "
+    },
+    {
+      "number": 119,
+      "pali": "‘idhāvuso sāriputta, bhikkhu attanā ca āraññiko hoti āraññikattassa ca vaṇṇavādī, attanā ca piṇḍapātiko hoti …pe… attanā ca paṁsukūliko hoti …pe… attanā ca tecīvariko hoti …pe… attanā ca appiccho hoti …pe… attanā ca santuṭṭho hoti …pe… attanā ca pavivitto hoti …pe… attanā ca asaṁsaṭṭho hoti …pe… attanā ca āraddhavīriyo hoti …pe… attanā ca sīlasampanno hoti …pe… attanā ca samādhisampanno hoti …pe… attanā ca paññāsampanno hoti … attanā ca vimuttisampanno hoti … attanā ca vimuttiñāṇadassanasampanno hoti vimuttiñāṇadassanasampadāya ca vaṇṇavādī. ",
+      "english": "‘It’s a mendicant who lives in the wilderness … and is accomplished in the knowledge and vision of freedom; and they praise these things. "
+    },
+    {
+      "number": 120,
+      "pali": "Evarūpena kho, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.’” "
+    },
+    {
+      "number": 121,
+      "pali": "“Sādhu sādhu, sāriputta. ",
+      "english": "“Good, good, Sāriputta! "
+    },
+    {
+      "number": 122,
+      "pali": "Yathā taṁ kassapova sammā byākaramāno byākareyya. ",
+      "english": "Kassapa answered in the right way for him. "
+    },
+    {
+      "number": 123,
+      "pali": "Kassapo hi, sāriputta, attanā ca āraññiko āraññikattassa ca vaṇṇavādī, attanā ca piṇḍapātiko piṇḍapātikattassa ca vaṇṇavādī, attanā ca paṁsukūliko paṁsukūlikattassa ca vaṇṇavādī, attanā ca tecīvariko tecīvarikattassa ca vaṇṇavādī, attanā ca appiccho appicchatāya ca vaṇṇavādī, attanā ca santuṭṭho santuṭṭhiyā ca vaṇṇavādī, attanā ca pavivitto pavivekassa ca vaṇṇavādī, attanā ca asaṁsaṭṭho asaṁsaggassa ca vaṇṇavādī, attanā ca āraddhavīriyo vīriyārambhassa ca vaṇṇavādī, attanā ca sīlasampanno sīlasampadāya ca vaṇṇavādī, attanā ca samādhisampanno samādhisampadāya ca vaṇṇavādī, attanā ca paññāsampanno paññāsampadāya ca vaṇṇavādī, attanā ca vimuttisampanno vimuttisampadāya ca vaṇṇavādī, attanā ca vimuttiñāṇadassanasampanno vimuttiñāṇadassanasampadāya ca vaṇṇavādī”ti. ",
+      "english": "For Kassapa lives in the wilderness … and is accomplished in the knowledge and vision of freedom; and he praises these things.” "
+    },
+    {
+      "number": 124,
+      "pali": "“Evaṁ vutte, ahaṁ bhante āyasmantaṁ mahāmoggallānaṁ etadavocaṁ: ",
+      "english": "“Next I asked Mahāmoggallāna the same question. "
+    },
+    {
+      "number": 125,
+      "pali": "‘byākataṁ kho, āvuso moggallāna, āyasmatā mahākassapena yathāsakaṁ paṭibhānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 126,
+      "pali": "Tattha dāni mayaṁ āyasmantaṁ mahāmoggallānaṁ pucchāma …pe… ",
+      "english": ""
+    },
+    {
+      "number": 127,
+      "pali": "kathaṁrūpena, āvuso moggallāna, bhikkhunā gosiṅgasālavanaṁ sobheyyā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 128,
+      "pali": "Evaṁ vutte, bhante, āyasmā mahāmoggallāno maṁ etadavoca: ",
+      "english": "He said: "
+    },
+    {
+      "number": 129,
+      "pali": "‘idhāvuso sāriputta, dve bhikkhū abhidhammakathaṁ kathenti. Te aññamaññaṁ pañhaṁ pucchanti, aññamaññassa pañhaṁ puṭṭhā vissajjenti, no ca saṁsādenti, dhammī ca nesaṁ kathā pavattinī hoti. ",
+      "english": "‘It’s when two mendicants engage in discussion about the teaching … "
+    },
+    {
+      "number": 130,
+      "pali": "Evarūpena kho, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.’” "
+    },
+    {
+      "number": 131,
+      "pali": "“Sādhu sādhu, sāriputta, yathā taṁ moggallānova sammā byākaramāno byākareyya. ",
+      "english": "“Good, good, Sāriputta! Moggallāna answered in the right way for him. "
+    },
+    {
+      "number": 132,
+      "pali": "Moggallāno hi, sāriputta, dhammakathiko”ti. ",
+      "english": "For Moggallāna is a Dhamma speaker.” "
+    },
+    {
+      "number": 133,
+      "pali": "Evaṁ vutte, āyasmā mahāmoggallāno bhagavantaṁ etadavoca: ",
+      "english": "When he had spoken, Moggallāna said to the Buddha, "
+    },
+    {
+      "number": 134,
+      "pali": "“atha khvāhaṁ, bhante, āyasmantaṁ sāriputtaṁ etadavocaṁ: ",
+      "english": "“Next, I asked Sāriputta: "
+    },
+    {
+      "number": 135,
+      "pali": "‘byākataṁ kho, āvuso sāriputta, amhehi sabbeheva yathāsakaṁ paṭibhānaṁ. ",
+      "english": "‘Each of us has spoken according to our own inspiration. "
+    },
+    {
+      "number": 136,
+      "pali": "Tattha dāni mayaṁ āyasmantaṁ sāriputtaṁ pucchāma—",
+      "english": "And now we ask you: "
+    },
+    {
+      "number": 137,
+      "pali": "ramaṇīyaṁ, āvuso sāriputta, gosiṅgasālavanaṁ, dosinā ratti, sabbaphāliphullā sālā, dibbā, maññe, gandhā sampavanti. ",
+      "english": "Sāriputta, the sal forest park at Gosiṅga is lovely, the night is bright, the sal trees are in full blossom, and heavenly scents seem to float on the air. "
+    },
+    {
+      "number": 138,
+      "pali": "Kathaṁrūpena, āvuso sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā’ti? ",
+      "english": "What kind of mendicant would grace this park?’ "
+    },
+    {
+      "number": 139,
+      "pali": "Evaṁ vutte, bhante, āyasmā sāriputto maṁ etadavoca: ",
+      "english": "When I had spoken, Sāriputta said to me: "
+    },
+    {
+      "number": 140,
+      "pali": "‘idhāvuso moggallāna, bhikkhu cittaṁ vasaṁ vatteti no ca bhikkhu cittassa vasena vattati. ",
+      "english": "‘Reverend Moggallāna, it’s when a mendicant masters their mind and is not mastered by it … "
+    },
+    {
+      "number": 141,
+      "pali": "So yāya vihārasamāpattiyā ākaṅkhati pubbaṇhasamayaṁ viharituṁ, tāya vihārasamāpattiyā pubbaṇhasamayaṁ viharati; ",
+      "english": ""
+    },
+    {
+      "number": 142,
+      "pali": "yāya vihārasamāpattiyā ākaṅkhati majjhanhikasamayaṁ viharituṁ, tāya vihārasamāpattiyā majjhanhikasamayaṁ viharati; ",
+      "english": ""
+    },
+    {
+      "number": 143,
+      "pali": "yāya vihārasamāpattiyā ākaṅkhati sāyanhasamayaṁ viharituṁ, tāya vihārasamāpattiyā sāyanhasamayaṁ viharati. ",
+      "english": ""
+    },
+    {
+      "number": 144,
+      "pali": "Seyyathāpi, āvuso moggallāna, rañño vā rājamahāmattassa vā nānārattānaṁ dussānaṁ dussakaraṇḍako pūro assa. ",
+      "english": ""
+    },
+    {
+      "number": 145,
+      "pali": "So yaññadeva dussayugaṁ ākaṅkheyya pubbaṇhasamayaṁ pārupituṁ, taṁ tadeva dussayugaṁ pubbaṇhasamayaṁ pārupeyya; ",
+      "english": ""
+    },
+    {
+      "number": 146,
+      "pali": "yaññadeva dussayugaṁ ākaṅkheyya majjhanhikasamayaṁ pārupituṁ, taṁ tadeva dussayugaṁ majjhanhikasamayaṁ pārupeyya; ",
+      "english": ""
+    },
+    {
+      "number": 147,
+      "pali": "yaññadeva dussayugaṁ ākaṅkheyya sāyanhasamayaṁ pārupituṁ, taṁ tadeva dussayugaṁ sāyanhasamayaṁ pārupeyya. ",
+      "english": ""
+    },
+    {
+      "number": 148,
+      "pali": "Evameva kho, āvuso moggallāna, bhikkhu cittaṁ vasaṁ vatteti, no ca bhikkhu cittassa vasena vattati. ",
+      "english": ""
+    },
+    {
+      "number": 149,
+      "pali": "So yāya vihārasamāpattiyā ākaṅkhati pubbaṇhasamayaṁ viharituṁ, tāya vihārasamāpattiyā pubbaṇhasamayaṁ viharati; ",
+      "english": ""
+    },
+    {
+      "number": 150,
+      "pali": "yāya vihārasamāpattiyā ākaṅkhati majjhanhikasamayaṁ viharituṁ, tāya vihārasamāpattiyā majjhanhikasamayaṁ viharati; ",
+      "english": ""
+    },
+    {
+      "number": 151,
+      "pali": "yāya vihārasamāpattiyā ākaṅkhati sāyanhasamayaṁ viharituṁ, tāya vihārasamāpattiyā sāyanhasamayaṁ viharati. ",
+      "english": ""
+    },
+    {
+      "number": 152,
+      "pali": "Evarūpena kho, āvuso moggallāna, bhikkhunā gosiṅgasālavanaṁ sobheyyā’”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.’” "
+    },
+    {
+      "number": 153,
+      "pali": "“Sādhu sādhu, moggallāna. ",
+      "english": "“Good, good, Moggallāna! "
+    },
+    {
+      "number": 154,
+      "pali": "Yathā taṁ sāriputtova sammā byākaramāno byākareyya. ",
+      "english": "Sāriputta answered in the right way for him. "
+    },
+    {
+      "number": 155,
+      "pali": "Sāriputto hi, moggallāna, cittaṁ vasaṁ vatteti no ca sāriputto cittassa vasena vattati. ",
+      "english": "For Sāriputta masters his mind and is not mastered by it …” "
+    },
+    {
+      "number": 156,
+      "pali": "So yāya vihārasamāpattiyā ākaṅkhati pubbaṇhasamayaṁ viharituṁ, tāya vihārasamāpattiyā pubbaṇhasamayaṁ viharati; ",
+      "english": ""
+    },
+    {
+      "number": 157,
+      "pali": "yāya vihārasamāpattiyā ākaṅkhati majjhanhikasamayaṁ viharituṁ, tāya vihārasamāpattiyā majjhanhikasamayaṁ viharati; ",
+      "english": ""
+    },
+    {
+      "number": 158,
+      "pali": "yāya vihārasamāpattiyā ākaṅkhati sāyanhasamayaṁ viharituṁ, tāya vihārasamāpattiyā sāyanhasamayaṁ viharatī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 159,
+      "pali": "Evaṁ vutte, āyasmā sāriputto bhagavantaṁ etadavoca: ",
+      "english": "When he had spoken, Sāriputta asked the Buddha, "
+    },
+    {
+      "number": 160,
+      "pali": "“kassa nu kho, bhante, subhāsitan”ti? ",
+      "english": "“Sir, who has spoken well?” "
+    },
+    {
+      "number": 161,
+      "pali": "“Sabbesaṁ vo, sāriputta, subhāsitaṁ pariyāyena. ",
+      "english": "“You’ve all spoken well in your own way. "
+    },
+    {
+      "number": 162,
+      "pali": "Api ca mamapi suṇātha yathārūpena bhikkhunā gosiṅgasālavanaṁ sobheyya. ",
+      "english": "However, listen to me also as to what kind of mendicant would grace this sal forest park at Gosiṅga. "
+    },
+    {
+      "number": 163,
+      "pali": "Idha, sāriputta, bhikkhu pacchābhattaṁ piṇḍapātapaṭikkanto nisīdati pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā: ",
+      "english": "It’s a mendicant who, after the meal, returns from almsround, sits down cross-legged, sets their body straight, and brings mindfulness to the present, thinking: "
+    },
+    {
+      "number": 164,
+      "pali": "‘na tāvāhaṁ imaṁ pallaṅkaṁ bhindissāmi yāva me nānupādāya āsavehi cittaṁ vimuccissatī’ti. ",
+      "english": "‘I will not break this sitting posture until my mind is freed from the defilements by not grasping!’ "
+    },
+    {
+      "number": 165,
+      "pali": "Evarūpena kho, sāriputta, bhikkhunā gosiṅgasālavanaṁ sobheyyā”ti. ",
+      "english": "That’s the kind of mendicant who would grace this park.” "
+    },
+    {
+      "number": 166,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 167,
+      "pali": "Attamanā te āyasmanto bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, those venerables approved what the Buddha said. "
+    },
+    {
+      "number": 168,
+      "pali": "Mahāgosiṅgasuttaṁ niṭṭhitaṁ dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

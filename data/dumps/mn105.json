@@ -1,0 +1,945 @@
+{
+  "sutta_id": "MN105",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 105 ",
+      "english": "Middle Discourses 105 "
+    },
+    {
+      "number": 2,
+      "pali": "Sunakkhattasutta ",
+      "english": "With Sunakkhatta "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
+      "english": "At one time the Buddha was staying near Vesālī, at the Great Wood, in the hall with the peaked roof. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena sambahulehi bhikkhūhi bhagavato santike aññā byākatā hoti: ",
+      "english": "Now at that time several mendicants had declared their enlightenment in the Buddha’s presence: "
+    },
+    {
+      "number": 6,
+      "pali": "“‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāmā”ti. ",
+      "english": "“We understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’” "
+    },
+    {
+      "number": 7,
+      "pali": "Assosi kho sunakkhatto licchaviputto: ",
+      "english": "Sunakkhatta the Licchavi heard about this. "
+    },
+    {
+      "number": 8,
+      "pali": "“sambahulehi kira bhikkhūhi bhagavato santike aññā byākatā hoti: ",
+      "english": ""
+    },
+    {
+      "number": 9,
+      "pali": "‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho sunakkhatto licchaviputto yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho sunakkhatto licchaviputto bhagavantaṁ etadavoca: ",
+      "english": "He went to the Buddha, bowed, sat down to one side, and said to him, "
+    },
+    {
+      "number": 11,
+      "pali": "“sutaṁ metaṁ, bhante: ",
+      "english": "“Sir, I have heard that "
+    },
+    {
+      "number": 12,
+      "pali": "‘sambahulehi kira bhikkhūhi bhagavato santike aññā byākatā—",
+      "english": "several mendicants have declared their enlightenment in the Buddha’s presence. "
+    },
+    {
+      "number": 13,
+      "pali": "khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "Ye te, bhante, bhikkhū bhagavato santike aññaṁ byākaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmā’ti, kacci te, bhante, bhikkhū sammadeva aññaṁ byākaṁsu udāhu santetthekacce bhikkhū adhimānena aññaṁ byākaṁsū”ti? ",
+      "english": "I trust they did so rightly—or are there some who declared enlightenment out of overestimation?” "
+    },
+    {
+      "number": 16,
+      "pali": "“Ye te, sunakkhatta, bhikkhū mama santike aññaṁ byākaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "Santetthekacce bhikkhū sammadeva aññaṁ byākaṁsu, santi panidhekacce bhikkhū adhimānenapi aññaṁ byākaṁsu. ",
+      "english": "“Some of them did so rightly, Sunakkhatta, while others did so out of overestimation. "
+    },
+    {
+      "number": 19,
+      "pali": "Tatra, sunakkhatta, ye te bhikkhū sammadeva aññaṁ byākaṁsu tesaṁ taṁ tatheva hoti; ",
+      "english": "Now, when mendicants declare enlightenment rightly, that is their truth. "
+    },
+    {
+      "number": 20,
+      "pali": "ye pana te bhikkhū adhimānena aññaṁ byākaṁsu tatra, sunakkhatta, tathāgatassa evaṁ hoti: ",
+      "english": "But when mendicants declare enlightenment out of overestimation, the Realized One thinks: "
+    },
+    {
+      "number": 21,
+      "pali": "‘dhammaṁ nesaṁ desessan’ti. ",
+      "english": "‘I should teach them the Dhamma.’ "
+    },
+    {
+      "number": 22,
+      "pali": "Evañcettha, sunakkhatta, tathāgatassa hoti: ",
+      "english": "If the Realized One thinks "
+    },
+    {
+      "number": 23,
+      "pali": "‘dhammaṁ nesaṁ desessan’ti. ",
+      "english": "he should teach them the Dhamma, "
+    },
+    {
+      "number": 24,
+      "pali": "Atha ca panidhekacce moghapurisā pañhaṁ abhisaṅkharitvā abhisaṅkharitvā tathāgataṁ upasaṅkamitvā pucchanti. ",
+      "english": "but then certain futile men, having carefully planned a question, approach the Realized One and ask it, "
+    },
+    {
+      "number": 25,
+      "pali": "Tatra, sunakkhatta, yampi tathāgatassa evaṁ hoti: ",
+      "english": "then the Realized One "
+    },
+    {
+      "number": 26,
+      "pali": "‘dhammaṁ nesaṁ desessan’ti tassapi hoti aññathattan”ti. ",
+      "english": "changes his mind.” "
+    },
+    {
+      "number": 27,
+      "pali": "“Etassa bhagavā kālo, etassa sugata kālo, ",
+      "english": "“Now is the time, Blessed One! Now is the time, Holy One! "
+    },
+    {
+      "number": 28,
+      "pali": "yaṁ bhagavā dhammaṁ deseyya. Bhagavato sutvā bhikkhū dhāressantī”ti. ",
+      "english": "Let the Buddha teach the Dhamma. The mendicants will listen and remember it.” "
+    },
+    {
+      "number": 29,
+      "pali": "“Tena hi, sunakkhatta, suṇāhi, sādhukaṁ manasi karohi; bhāsissāmī”ti. ",
+      "english": "“Well then, Sunakkhatta, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 30,
+      "pali": "“Evaṁ, bhante”ti kho sunakkhatto licchaviputto bhagavato paccassosi. ",
+      "english": "“Yes, sir,” replied Sunakkhatta. "
+    },
+    {
+      "number": 31,
+      "pali": "Bhagavā etadavoca—",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 32,
+      "pali": "Pañca kho ime, sunakkhatta, kāmaguṇā. ",
+      "english": "“Sunakkhatta, there are these five kinds of sensual stimulation. "
+    },
+    {
+      "number": 33,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 34,
+      "pali": "Cakkhuviññeyyā rūpā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā, ",
+      "english": "Sights known by the eye, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 35,
+      "pali": "sotaviññeyyā saddā …pe… ",
+      "english": "Sounds known by the ear … "
+    },
+    {
+      "number": 36,
+      "pali": "ghānaviññeyyā gandhā … ",
+      "english": "Smells known by the nose … "
+    },
+    {
+      "number": 37,
+      "pali": "jivhāviññeyyā rasā … ",
+      "english": "Tastes known by the tongue … "
+    },
+    {
+      "number": 38,
+      "pali": "kāyaviññeyyā phoṭṭhabbā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā—",
+      "english": "Touches known by the body, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 39,
+      "pali": "ime kho, sunakkhatta, pañca kāmaguṇā. ",
+      "english": "These are the five kinds of sensual stimulation. "
+    },
+    {
+      "number": 40,
+      "pali": "Ṭhānaṁ kho panetaṁ, sunakkhatta, vijjati yaṁ idhekacco purisapuggalo lokāmisādhimutto assa. ",
+      "english": "It’s possible that a certain individual person may be intent on worldly pleasures of the flesh. "
+    },
+    {
+      "number": 41,
+      "pali": "Lokāmisādhimuttassa kho, sunakkhatta, purisapuggalassa tappatirūpī ceva kathā saṇṭhāti, tadanudhammañca anuvitakketi, anuvicāreti, tañca purisaṁ bhajati, tena ca vittiṁ āpajjati; ",
+      "english": "Such an individual engages in pertinent conversation, thinking and considering in line with that. They associate with that kind of person, and they find it rewarding. "
+    },
+    {
+      "number": 42,
+      "pali": "āneñjapaṭisaṁyuttāya ca pana kathāya kacchamānāya na sussūsati, na sotaṁ odahati, na aññā cittaṁ upaṭṭhāpeti, na ca taṁ purisaṁ bhajati, na ca tena vittiṁ āpajjati. ",
+      "english": "But when talk connected with the imperturbable is going on they don’t want to listen. They don’t actively listen or try to understand. They don’t associate with that kind of person, and they don’t find it rewarding. "
+    },
+    {
+      "number": 43,
+      "pali": "Seyyathāpi, sunakkhatta, puriso sakamhā gāmā vā nigamā vā ciravippavuttho assa. ",
+      "english": "Suppose a person had left their own village or town long ago, "
+    },
+    {
+      "number": 44,
+      "pali": "So aññataraṁ purisaṁ passeyya tamhā gāmā vā nigamā vā acirapakkantaṁ. ",
+      "english": "and they saw another person who had only recently left there. "
+    },
+    {
+      "number": 45,
+      "pali": "So taṁ purisaṁ tassa gāmassa vā nigamassa vā khematañca subhikkhatañca appābādhatañca puccheyya; ",
+      "english": "They would ask about whether their village was safe, with plenty of food and little disease, "
+    },
+    {
+      "number": 46,
+      "pali": "tassa so puriso tassa gāmassa vā nigamassa vā khematañca subhikkhatañca appābādhatañca saṁseyya. ",
+      "english": "and the other person would tell them the news. "
+    },
+    {
+      "number": 47,
+      "pali": "Taṁ kiṁ maññasi, sunakkhatta, ",
+      "english": "What do you think, Sunakkhatta? "
+    },
+    {
+      "number": 48,
+      "pali": "api nu so puriso tassa purisassa sussūseyya, sotaṁ odaheyya, aññā cittaṁ upaṭṭhāpeyya, tañca purisaṁ bhajeyya, tena ca vittiṁ āpajjeyyā”ti? ",
+      "english": "Would that person want to listen to that other person? Would they actively listen and try to understand? Would they associate with that person, and find it rewarding?” "
+    },
+    {
+      "number": 49,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 50,
+      "pali": "“Evameva kho, sunakkhatta, ṭhānametaṁ vijjati yaṁ idhekacco purisapuggalo lokāmisādhimutto assa. ",
+      "english": "“In the same way, it’s possible that a certain individual may be intent on worldly pleasures of the flesh. "
+    },
+    {
+      "number": 51,
+      "pali": "Lokāmisādhimuttassa kho, sunakkhatta, purisapuggalassa tappatirūpī ceva kathā saṇṭhāti, tadanudhammañca anuvitakketi, anuvicāreti, tañca purisaṁ bhajati, tena ca vittiṁ āpajjati; ",
+      "english": "Such an individual engages in pertinent conversation, thinking and considering in line with that. They associate with that kind of person, and they find it rewarding. "
+    },
+    {
+      "number": 52,
+      "pali": "āneñjapaṭisaṁyuttāya ca pana kathāya kacchamānāya na sussūsati, na sotaṁ odahati, na aññā cittaṁ upaṭṭhāpeti, na ca taṁ purisaṁ bhajati, na ca tena vittiṁ āpajjati. ",
+      "english": "But when talk connected with the imperturbable is going on they don’t want to listen. They don’t actively listen or try to understand. They don’t associate with that kind of person, and they don’t find it rewarding. "
+    },
+    {
+      "number": 53,
+      "pali": "So evamassa veditabbo: ",
+      "english": "You should know of them: "
+    },
+    {
+      "number": 54,
+      "pali": "‘āneñjasaṁyojanena hi kho visaṁyutto lokāmisādhimutto purisapuggalo’ti. ",
+      "english": "‘That individual is intent on pleasures of the flesh, for they’re detached from things connected with the imperturbable.’ "
+    },
+    {
+      "number": 55,
+      "pali": "Ṭhānaṁ kho panetaṁ, sunakkhatta, vijjati yaṁ idhekacco purisapuggalo āneñjādhimutto assa. ",
+      "english": "It’s possible that a certain individual person may be intent on the imperturbable. "
+    },
+    {
+      "number": 56,
+      "pali": "Āneñjādhimuttassa kho, sunakkhatta, purisapuggalassa tappatirūpī ceva kathā saṇṭhāti, tadanudhammañca anuvitakketi, anuvicāreti, tañca purisaṁ bhajati, tena ca vittiṁ āpajjati; ",
+      "english": "Such an individual engages in pertinent conversation, thinking and considering in line with that. They associate with that kind of person, and they find it rewarding. "
+    },
+    {
+      "number": 57,
+      "pali": "lokāmisapaṭisaṁyuttāya ca pana kathāya kacchamānāya na sussūsati, na sotaṁ odahati, na aññā cittaṁ upaṭṭhāpeti, na ca taṁ purisaṁ bhajati, na ca tena vittiṁ āpajjati. ",
+      "english": "But when talk connected with worldly pleasures of the flesh is going on they don’t want to listen. They don’t actively listen or try to understand. They don’t associate with that kind of person, and they don’t find it rewarding. "
+    },
+    {
+      "number": 58,
+      "pali": "Seyyathāpi, sunakkhatta, paṇḍupalāso bandhanā pavutto abhabbo haritattāya; ",
+      "english": "Suppose there was a fallen, withered leaf. It’s incapable of becoming green again. "
+    },
+    {
+      "number": 59,
+      "pali": "evameva kho, sunakkhatta, āneñjādhimuttassa purisapuggalassa ye lokāmisasaṁyojane se pavutte. ",
+      "english": "In the same way, an individual intent on the imperturbable has dropped the connection with worldly pleasures of the flesh. "
+    },
+    {
+      "number": 60,
+      "pali": "So evamassa veditabbo: ",
+      "english": "You should know of them: "
+    },
+    {
+      "number": 61,
+      "pali": "‘lokāmisasaṁyojanena hi kho visaṁyutto āneñjādhimutto purisapuggalo’ti. ",
+      "english": "‘That individual is intent on the imperturbable, for they’re detached from things connected with pleasures of the flesh.’ "
+    },
+    {
+      "number": 62,
+      "pali": "Ṭhānaṁ kho panetaṁ, sunakkhatta, vijjati yaṁ idhekacco purisapuggalo ākiñcaññāyatanādhimutto assa. ",
+      "english": "It’s possible that a certain individual person may be intent on the dimension of nothingness. "
+    },
+    {
+      "number": 63,
+      "pali": "Ākiñcaññāyatanādhimuttassa kho, sunakkhatta, purisapuggalassa tappatirūpī ceva kathā saṇṭhāti, tadanudhammañca anuvitakketi, anuvicāreti, tañca purisaṁ bhajati, tena ca vittiṁ āpajjati; ",
+      "english": "Such an individual engages in pertinent conversation, thinking and considering in line with that. They associate with that kind of person, and they find it rewarding. "
+    },
+    {
+      "number": 64,
+      "pali": "āneñjapaṭisaṁyuttāya ca pana kathāya kacchamānāya na sussūsati, na sotaṁ odahati, na aññā cittaṁ upaṭṭhāpeti, na ca taṁ purisaṁ bhajati, na ca tena vittiṁ āpajjati. ",
+      "english": "But when talk connected with the imperturbable is going on they don’t want to listen. They don’t actively listen or try to understand. They don’t associate with that kind of person, and they don’t find it rewarding. "
+    },
+    {
+      "number": 65,
+      "pali": "Seyyathāpi, sunakkhatta, puthusilā dvedhābhinnā appaṭisandhikā hoti; ",
+      "english": "Suppose there was a broad rock that had been broken in half, so that it could not be put back together again. "
+    },
+    {
+      "number": 66,
+      "pali": "evameva kho, sunakkhatta, ākiñcaññāyatanādhimuttassa purisapuggalassa ye āneñjasaṁyojane se bhinne. ",
+      "english": "In the same way, an individual intent on the dimension of nothingness has broken the connection with the imperturbable. "
+    },
+    {
+      "number": 67,
+      "pali": "So evamassa veditabbo: ",
+      "english": "You should know of them: "
+    },
+    {
+      "number": 68,
+      "pali": "‘āneñjasaṁyojanena hi kho visaṁyutto ākiñcaññāyatanādhimutto purisapuggalo’ti. ",
+      "english": "‘That individual is intent on the dimension of nothingness, for they’re detached from things connected with the imperturbable.’ "
+    },
+    {
+      "number": 69,
+      "pali": "Ṭhānaṁ kho panetaṁ, sunakkhatta, vijjati yaṁ idhekacco purisapuggalo nevasaññānāsaññāyatanādhimutto assa. ",
+      "english": "It’s possible that a certain individual person may be intent on the dimension of neither perception nor non-perception. "
+    },
+    {
+      "number": 70,
+      "pali": "Nevasaññānāsaññāyatanādhimuttassa kho, sunakkhatta, purisapuggalassa tappatirūpī ceva kathā saṇṭhāti, tadanudhammañca anuvitakketi, anuvicāreti, tañca purisaṁ bhajati, tena ca vittiṁ āpajjati; ",
+      "english": "Such an individual engages in pertinent conversation, thinking and considering in line with that. They associate with that kind of person, and they find it rewarding. "
+    },
+    {
+      "number": 71,
+      "pali": "ākiñcaññāyatanapaṭisaṁyuttāya ca pana kathāya kacchamānāya na sussūsati, na sotaṁ odahati, na aññā cittaṁ upaṭṭhāpeti, na ca taṁ purisaṁ bhajati, na ca tena vittiṁ āpajjati. ",
+      "english": "But when talk connected with the dimension of nothingness is going on they don’t want to listen. They don’t actively listen or try to understand. They don’t associate with that kind of person, and they don’t find it rewarding. "
+    },
+    {
+      "number": 72,
+      "pali": "Seyyathāpi, sunakkhatta, puriso manuññabhojanaṁ bhuttāvī chaḍḍeyya. ",
+      "english": "Suppose someone had eaten some satisfying food and thrown it up. "
+    },
+    {
+      "number": 73,
+      "pali": "Taṁ kiṁ maññasi, sunakkhatta, ",
+      "english": "What do you think, Sunakkhatta? "
+    },
+    {
+      "number": 74,
+      "pali": "api nu tassa purisassa tasmiṁ bhatte puna bhottukamyatā assā”ti? ",
+      "english": "Would that person want to eat that food again?” "
+    },
+    {
+      "number": 75,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 76,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 77,
+      "pali": "“Aduñhi, bhante, bhattaṁ paṭikūlasammatan”ti. ",
+      "english": "Because that food is deemed repulsive.” "
+    },
+    {
+      "number": 78,
+      "pali": "“Evameva kho, sunakkhatta, nevasaññānāsaññāyatanādhimuttassa purisapuggalassa ye ākiñcaññāyatanasaṁyojane se vante. ",
+      "english": "“In the same way, an individual intent on the dimension of neither perception nor non-perception has vomited the connection with the dimension of nothingness. "
+    },
+    {
+      "number": 79,
+      "pali": "So evamassa veditabbo: ",
+      "english": "You should know of them: "
+    },
+    {
+      "number": 80,
+      "pali": "‘ākiñcaññāyatanasaṁyojanena hi kho visaṁyutto nevasaññānāsaññāyatanādhimutto purisapuggalo’ti. ",
+      "english": "‘That individual is intent on the dimension of neither perception nor non-perception, for they’re detached from things connected with the dimension of nothingness.’ "
+    },
+    {
+      "number": 81,
+      "pali": "Ṭhānaṁ kho panetaṁ, sunakkhatta, vijjati yaṁ idhekacco purisapuggalo sammā nibbānādhimutto assa. ",
+      "english": "It’s possible that a certain individual person may be rightly intent on extinguishment. "
+    },
+    {
+      "number": 82,
+      "pali": "Sammā nibbānādhimuttassa kho, sunakkhatta, purisapuggalassa tappatirūpī ceva kathā saṇṭhāti, tadanudhammañca anuvitakketi, anuvicāreti, tañca purisaṁ bhajati, tena ca vittiṁ āpajjati; ",
+      "english": "Such an individual engages in pertinent conversation, thinking and considering in line with that. They associate with that kind of person, and they find it rewarding. "
+    },
+    {
+      "number": 83,
+      "pali": "nevasaññānāsaññāyatanapaṭisaṁyuttāya ca pana kathāya kacchamānāya na sussūsati, na sotaṁ odahati, na aññā cittaṁ upaṭṭhāpeti, na ca taṁ purisaṁ bhajati, na ca tena vittiṁ āpajjati. ",
+      "english": "But when talk connected with the dimension of neither perception nor non-perception is going on they don’t want to listen. They don’t actively listen or try to understand. They don’t associate with that kind of person, and they don’t find it rewarding. "
+    },
+    {
+      "number": 84,
+      "pali": "Seyyathāpi, sunakkhatta, tālo matthakacchinno abhabbo puna viruḷhiyā; ",
+      "english": "Suppose there was a palm tree with its crown cut off. It’s incapable of further growth. "
+    },
+    {
+      "number": 85,
+      "pali": "evameva kho, sunakkhatta, sammā nibbānādhimuttassa purisapuggalassa ye nevasaññānāsaññāyatanasaṁyojane se ucchinnamūle tālāvatthukate anabhāvaṅkate āyatiṁ anuppādadhamme. ",
+      "english": "In the same way, an individual rightly intent on extinguishment has cut off the connection with the dimension of neither perception nor non-perception at the root, made it like a palm stump, obliterated it, so it’s unable to arise in the future. "
+    },
+    {
+      "number": 86,
+      "pali": "So evamassa veditabbo: ",
+      "english": "You should know of them: "
+    },
+    {
+      "number": 87,
+      "pali": "‘nevasaññānāsaññāyatanasaṁyojanena hi kho visaṁyutto sammā nibbānādhimutto purisapuggalo’ti. ",
+      "english": "‘That individual is rightly intent on extinguishment, for they’re detached from things connected with the dimension of neither perception nor non-perception.’ "
+    },
+    {
+      "number": 88,
+      "pali": "Ṭhānaṁ kho panetaṁ, sunakkhatta, vijjati yaṁ idhekaccassa bhikkhuno evamassa: ",
+      "english": "It’s possible that a certain mendicant might think: "
+    },
+    {
+      "number": 89,
+      "pali": "‘taṇhā kho sallaṁ samaṇena vuttaṁ, avijjāvisadoso, chandarāgabyāpādena ruppati. ",
+      "english": "‘The Ascetic has said that craving is a dart; and that the poison of ignorance is inflicted by desire and ill will. "
+    },
+    {
+      "number": 90,
+      "pali": "Taṁ me taṇhāsallaṁ pahīnaṁ, apanīto avijjāvisadoso, sammā nibbānādhimuttohamasmī’ti. ",
+      "english": "I have given up the dart of craving and expelled the poison of ignorance; I am rightly intent on extinguishment.’ "
+    },
+    {
+      "number": 91,
+      "pali": "Evaṁmāni assa atathaṁ samānaṁ. ",
+      "english": "Having such conceit, though it’s not based in fact, "
+    },
+    {
+      "number": 92,
+      "pali": "So yāni sammā nibbānādhimuttassa asappāyāni tāni anuyuñjeyya; asappāyaṁ cakkhunā rūpadassanaṁ anuyuñjeyya, asappāyaṁ sotena saddaṁ anuyuñjeyya, asappāyaṁ ghānena gandhaṁ anuyuñjeyya, asappāyaṁ jivhāya rasaṁ anuyuñjeyya, asappāyaṁ kāyena phoṭṭhabbaṁ anuyuñjeyya, asappāyaṁ manasā dhammaṁ anuyuñjeyya. ",
+      "english": "they would engage in things unconducive to extinguishment: unsuitable sights, sounds, smells, tastes, touches, and ideas. "
+    },
+    {
+      "number": 93,
+      "pali": "Tassa asappāyaṁ cakkhunā rūpadassanaṁ anuyuttassa, asappāyaṁ sotena saddaṁ anuyuttassa, asappāyaṁ ghānena gandhaṁ anuyuttassa, asappāyaṁ jivhāya rasaṁ anuyuttassa, asappāyaṁ kāyena phoṭṭhabbaṁ anuyuttassa, asappāyaṁ manasā dhammaṁ anuyuttassa rāgo cittaṁ anuddhaṁseyya. ",
+      "english": "Doing so, lust infects their mind, "
+    },
+    {
+      "number": 94,
+      "pali": "So rāgānuddhaṁsitena cittena maraṇaṁ vā nigaccheyya maraṇamattaṁ vā dukkhaṁ. ",
+      "english": "resulting in death or deadly pain. "
+    },
+    {
+      "number": 95,
+      "pali": "Seyyathāpi, sunakkhatta, puriso sallena viddho assa savisena gāḷhūpalepanena. ",
+      "english": "Suppose a man was struck by an arrow thickly smeared with poison. "
+    },
+    {
+      "number": 96,
+      "pali": "Tassa mittāmaccā ñātisālohitā bhisakkaṁ sallakattaṁ upaṭṭhāpeyyuṁ. ",
+      "english": "Their friends and colleagues, relatives and kin would get a surgeon to treat them. "
+    },
+    {
+      "number": 97,
+      "pali": "Tassa so bhisakko sallakatto satthena vaṇamukhaṁ parikanteyya. ",
+      "english": "The surgeon would cut open the wound with a scalpel, "
+    },
+    {
+      "number": 98,
+      "pali": "Satthena vaṇamukhaṁ parikantitvā esaniyā sallaṁ eseyya. ",
+      "english": "probe for the arrow, "
+    },
+    {
+      "number": 99,
+      "pali": "Esaniyā sallaṁ esitvā sallaṁ abbuheyya, apaneyya visadosaṁ saupādisesaṁ. ",
+      "english": "extract it, and expel the poison, leaving some residue behind. "
+    },
+    {
+      "number": 100,
+      "pali": "Saupādisesoti jānamāno so evaṁ vadeyya: ",
+      "english": "Imagining that no residue remained, the surgeon would say: "
+    },
+    {
+      "number": 101,
+      "pali": "‘ambho purisa, ubbhataṁ kho te sallaṁ, apanīto visadoso saupādiseso. ",
+      "english": "‘My friend, the dart has been extracted and the poison expelled without residue. "
+    },
+    {
+      "number": 102,
+      "pali": "Analañca te antarāyāya. ",
+      "english": "It is still capable of harming you. "
+    },
+    {
+      "number": 103,
+      "pali": "Sappāyāni ceva bhojanāni bhuñjeyyāsi, mā te asappāyāni bhojanāni bhuñjato vaṇo assāvī assa. ",
+      "english": "Eat only suitable food. Don’t eat unsuitable food, or else the wound may get infected. "
+    },
+    {
+      "number": 104,
+      "pali": "Kālena kālañca vaṇaṁ dhoveyyāsi, kālena kālaṁ vaṇamukhaṁ ālimpeyyāsi, mā te na kālena kālaṁ vaṇaṁ dhovato na kālena kālaṁ vaṇamukhaṁ ālimpato pubbalohitaṁ vaṇamukhaṁ pariyonandhi. ",
+      "english": "Regularly wash the wound and anoint the opening, or else it’ll get covered with pus and blood. "
+    },
+    {
+      "number": 105,
+      "pali": "Mā ca vātātape cārittaṁ anuyuñji, mā te vātātape cārittaṁ anuyuttassa rajosūkaṁ vaṇamukhaṁ anuddhaṁsesi. ",
+      "english": "Don’t walk too much in the wind and sun, or else dust and dirt will infect the wound. "
+    },
+    {
+      "number": 106,
+      "pali": "Vaṇānurakkhī ca, ambho purisa, vihareyyāsi vaṇasāropī’ti. ",
+      "english": "Take care of the wound, my friend, heal it.’ "
+    },
+    {
+      "number": 107,
+      "pali": "Tassa evamassa: ",
+      "english": "They’d think: "
+    },
+    {
+      "number": 108,
+      "pali": "‘ubbhataṁ kho me sallaṁ, apanīto visadoso anupādiseso. ",
+      "english": "‘The dart has been extracted and the poison expelled with no residue. "
+    },
+    {
+      "number": 109,
+      "pali": "Analañca me antarāyāyā’ti. ",
+      "english": "It’s not capable of harming me.’ "
+    },
+    {
+      "number": 110,
+      "pali": "So asappāyāni ceva bhojanāni bhuñjeyya. Tassa asappāyāni bhojanāni bhuñjato vaṇo assāvī assa. ",
+      "english": "They’d eat unsuitable food, and the wound would get infected. "
+    },
+    {
+      "number": 111,
+      "pali": "Na ca kālena kālaṁ vaṇaṁ dhoveyya, na ca kālena kālaṁ vaṇamukhaṁ ālimpeyya. Tassa na kālena kālaṁ vaṇaṁ dhovato, na kālena kālaṁ vaṇamukhaṁ ālimpato pubbalohitaṁ vaṇamukhaṁ pariyonandheyya. ",
+      "english": "And they wouldn’t regularly wash and anoint the opening, so it would get covered in pus and blood. "
+    },
+    {
+      "number": 112,
+      "pali": "Vātātape ca cārittaṁ anuyuñjeyya. Tassa vātātape cārittaṁ anuyuttassa rajosūkaṁ vaṇamukhaṁ anuddhaṁseyya. ",
+      "english": "And they’d walk too much in the wind and sun, so dust and dirt infected the wound. "
+    },
+    {
+      "number": 113,
+      "pali": "Na ca vaṇānurakkhī vihareyya na vaṇasāropī. ",
+      "english": "And they wouldn’t take care of the wound or heal it. "
+    },
+    {
+      "number": 114,
+      "pali": "Tassa imissā ca asappāyakiriyāya, asuci visadoso apanīto saupādiseso tadubhayena vaṇo puthuttaṁ gaccheyya. ",
+      "english": "Then both because they did what was unsuitable, and because of the residue of unclean poison, the wound would expand, "
+    },
+    {
+      "number": 115,
+      "pali": "So puthuttaṁ gatena vaṇena maraṇaṁ vā nigaccheyya maraṇamattaṁ vā dukkhaṁ. ",
+      "english": "resulting in death or deadly pain. "
+    },
+    {
+      "number": 116,
+      "pali": "Evameva kho, sunakkhatta, ṭhānametaṁ vijjati yaṁ idhekaccassa bhikkhuno evamassa: ",
+      "english": "In the same way, it’s possible that a certain mendicant might think: "
+    },
+    {
+      "number": 117,
+      "pali": "‘taṇhā kho sallaṁ samaṇena vuttaṁ, avijjāvisadoso chandarāgabyāpādena ruppati. ",
+      "english": "‘The Ascetic has said that craving is a dart; and that the poison of ignorance is inflicted by desire and ill will. "
+    },
+    {
+      "number": 118,
+      "pali": "Taṁ me taṇhāsallaṁ pahīnaṁ, apanīto avijjāvisadoso, sammā nibbānādhimuttohamasmī’ti. ",
+      "english": "I have given up the dart of craving and expelled the poison of ignorance; I am rightly intent on extinguishment.’ "
+    },
+    {
+      "number": 119,
+      "pali": "Evaṁmāni assa atathaṁ samānaṁ. ",
+      "english": "Having such conceit, though it’s not based in fact, "
+    },
+    {
+      "number": 120,
+      "pali": "So yāni sammā nibbānādhimuttassa asappāyāni tāni anuyuñjeyya, asappāyaṁ cakkhunā rūpadassanaṁ anuyuñjeyya, asappāyaṁ sotena saddaṁ anuyuñjeyya, asappāyaṁ ghānena gandhaṁ anuyuñjeyya, asappāyaṁ jivhāya rasaṁ anuyuñjeyya, asappāyaṁ kāyena phoṭṭhabbaṁ anuyuñjeyya, asappāyaṁ manasā dhammaṁ anuyuñjeyya. ",
+      "english": "they would engage in things unconducive to extinguishment: unsuitable sights, sounds, smells, tastes, touches, and ideas. "
+    },
+    {
+      "number": 121,
+      "pali": "Tassa asappāyaṁ cakkhunā rūpadassanaṁ anuyuttassa, asappāyaṁ sotena saddaṁ anuyuttassa, asappāyaṁ ghānena gandhaṁ anuyuttassa, asappāyaṁ jivhāya rasaṁ anuyuttassa, asappāyaṁ kāyena phoṭṭhabbaṁ anuyuttassa, asappāyaṁ manasā dhammaṁ anuyuttassa rāgo cittaṁ anuddhaṁseyya. ",
+      "english": "Doing so, lust infects their mind, "
+    },
+    {
+      "number": 122,
+      "pali": "So rāgānuddhaṁsitena cittena maraṇaṁ vā nigaccheyya maraṇamattaṁ vā dukkhaṁ. ",
+      "english": "resulting in death or deadly pain. "
+    },
+    {
+      "number": 123,
+      "pali": "Maraṇañhetaṁ, sunakkhatta, ariyassa vinaye yo sikkhaṁ paccakkhāya hīnāyāvattati; ",
+      "english": "For it is death in the training of the Noble One to disavow the training and return to a lesser life. "
+    },
+    {
+      "number": 124,
+      "pali": "maraṇamattañhetaṁ, sunakkhatta, dukkhaṁ yaṁ aññataraṁ saṅkiliṭṭhaṁ āpattiṁ āpajjati. ",
+      "english": "And it is deadly pain to commit one of the corrupt offenses. "
+    },
+    {
+      "number": 125,
+      "pali": "Ṭhānaṁ kho panetaṁ, sunakkhatta, vijjati yaṁ idhekaccassa bhikkhuno evamassa: ",
+      "english": "It’s possible that a certain mendicant might think: "
+    },
+    {
+      "number": 126,
+      "pali": "‘taṇhā kho sallaṁ samaṇena vuttaṁ, avijjāvisadoso chandarāgabyāpādena ruppati. ",
+      "english": "‘The Ascetic has said that craving is a dart; and that the poison of ignorance is inflicted by desire and ill will. "
+    },
+    {
+      "number": 127,
+      "pali": "Taṁ me taṇhāsallaṁ pahīnaṁ, apanīto avijjāvisadoso, sammā nibbānādhimuttohamasmī’ti. ",
+      "english": "I have given up the dart of craving and expelled the poison of ignorance; I am rightly intent on extinguishment.’ "
+    },
+    {
+      "number": 128,
+      "pali": "Sammā nibbānādhimuttasseva sato so yāni sammā nibbānādhimuttassa asappāyāni tāni nānuyuñjeyya, asappāyaṁ cakkhunā rūpadassanaṁ nānuyuñjeyya, asappāyaṁ sotena saddaṁ nānuyuñjeyya, asappāyaṁ ghānena gandhaṁ nānuyuñjeyya, asappāyaṁ jivhāya rasaṁ nānuyuñjeyya, asappāyaṁ kāyena phoṭṭhabbaṁ nānuyuñjeyya, asappāyaṁ manasā dhammaṁ nānuyuñjeyya. ",
+      "english": "Being rightly intent on extinguishment, they wouldn’t engage in things unconducive to extinguishment: unsuitable sights, sounds, smells, tastes, touches, and ideas. "
+    },
+    {
+      "number": 129,
+      "pali": "Tassa asappāyaṁ cakkhunā rūpadassanaṁ nānuyuttassa, asappāyaṁ sotena saddaṁ nānuyuttassa, asappāyaṁ ghānena gandhaṁ nānuyuttassa, asappāyaṁ jivhāya rasaṁ nānuyuttassa, asappāyaṁ kāyena phoṭṭhabbaṁ nānuyuttassa, asappāyaṁ manasā dhammaṁ nānuyuttassa rāgo cittaṁ nānuddhaṁseyya. ",
+      "english": "Doing so, lust wouldn’t infect their mind, "
+    },
+    {
+      "number": 130,
+      "pali": "So na rāgānuddhaṁsitena cittena neva maraṇaṁ vā nigaccheyya na maraṇamattaṁ vā dukkhaṁ. ",
+      "english": "so no death or deadly pain would result. "
+    },
+    {
+      "number": 131,
+      "pali": "Seyyathāpi, sunakkhatta, puriso sallena viddho assa savisena gāḷhūpalepanena. ",
+      "english": "Suppose a man was struck by an arrow thickly smeared with poison. "
+    },
+    {
+      "number": 132,
+      "pali": "Tassa mittāmaccā ñātisālohitā bhisakkaṁ sallakattaṁ upaṭṭhāpeyyuṁ. ",
+      "english": "Their friends and colleagues, relatives and kin would get a surgeon to treat them. "
+    },
+    {
+      "number": 133,
+      "pali": "Tassa so bhisakko sallakatto satthena vaṇamukhaṁ parikanteyya. ",
+      "english": "The surgeon would cut open the wound with a scalpel, "
+    },
+    {
+      "number": 134,
+      "pali": "Satthena vaṇamukhaṁ parikantitvā esaniyā sallaṁ eseyya. ",
+      "english": "probe for the arrow, "
+    },
+    {
+      "number": 135,
+      "pali": "Esaniyā sallaṁ esitvā sallaṁ abbuheyya, apaneyya visadosaṁ anupādisesaṁ. ",
+      "english": "extract it, and expel the poison, leaving no residue behind. "
+    },
+    {
+      "number": 136,
+      "pali": "Anupādisesoti jānamāno so evaṁ vadeyya: ",
+      "english": "Knowing that no residue remained, the surgeon would say: "
+    },
+    {
+      "number": 137,
+      "pali": "‘ambho purisa, ubbhataṁ kho te sallaṁ, apanīto visadoso anupādiseso. ",
+      "english": "‘My friend, the dart has been extracted and the poison expelled with no residue. "
+    },
+    {
+      "number": 138,
+      "pali": "Analañca te antarāyāya. ",
+      "english": "It’s not capable of harming you. "
+    },
+    {
+      "number": 139,
+      "pali": "Sappāyāni ceva bhojanāni bhuñjeyyāsi, mā te asappāyāni bhojanāni bhuñjato vaṇo assāvī assa. ",
+      "english": "Eat only suitable food. Don’t eat unsuitable food, or else the wound may get infected. "
+    },
+    {
+      "number": 140,
+      "pali": "Kālena kālañca vaṇaṁ dhoveyyāsi, kālena kālaṁ vaṇamukhaṁ ālimpeyyāsi. Mā te na kālena kālaṁ vaṇaṁ dhovato na kālena kālaṁ vaṇamukhaṁ ālimpato pubbalohitaṁ vaṇamukhaṁ pariyonandhi. ",
+      "english": "Regularly wash the wound and anoint the opening, or else it’ll get covered with pus and blood. "
+    },
+    {
+      "number": 141,
+      "pali": "Mā ca vātātape cārittaṁ anuyuñji, mā te vātātape cārittaṁ anuyuttassa rajosūkaṁ vaṇamukhaṁ anuddhaṁsesi. ",
+      "english": "Don’t walk too much in the wind and sun, or else dust and dirt will infect the wound. "
+    },
+    {
+      "number": 142,
+      "pali": "Vaṇānurakkhī ca, ambho purisa, vihareyyāsi vaṇasāropī’ti. ",
+      "english": "Take care of the wound, my friend, heal it.’ "
+    },
+    {
+      "number": 143,
+      "pali": "Tassa evamassa: ",
+      "english": "They’d think: "
+    },
+    {
+      "number": 144,
+      "pali": "‘ubbhataṁ kho me sallaṁ, apanīto visadoso anupādiseso. ",
+      "english": "‘The dart has been extracted and the poison expelled with no residue. "
+    },
+    {
+      "number": 145,
+      "pali": "Analañca me antarāyāyā’ti. ",
+      "english": "It’s not capable of harming me.’ "
+    },
+    {
+      "number": 146,
+      "pali": "So sappāyāni ceva bhojanāni bhuñjeyya. Tassa sappāyāni bhojanāni bhuñjato vaṇo na assāvī assa. ",
+      "english": "They’d eat suitable food, and the wound wouldn’t get infected. "
+    },
+    {
+      "number": 147,
+      "pali": "Kālena kālañca vaṇaṁ dhoveyya, kālena kālaṁ vaṇamukhaṁ ālimpeyya. Tassa kālena kālaṁ vaṇaṁ dhovato kālena kālaṁ vaṇamukhaṁ ālimpato na pubbalohitaṁ vaṇamukhaṁ pariyonandheyya. ",
+      "english": "And they’d regularly wash and anoint the opening, so it wouldn’t get covered in pus and blood. "
+    },
+    {
+      "number": 148,
+      "pali": "Na ca vātātape cārittaṁ anuyuñjeyya. Tassa vātātape cārittaṁ ananuyuttassa rajosūkaṁ vaṇamukhaṁ nānuddhaṁseyya. ",
+      "english": "And they wouldn’t walk too much in the wind and sun, so dust and dirt wouldn’t infect the wound. "
+    },
+    {
+      "number": 149,
+      "pali": "Vaṇānurakkhī ca vihareyya vaṇasāropī. ",
+      "english": "And they’d take care of the wound and heal it. "
+    },
+    {
+      "number": 150,
+      "pali": "Tassa imissā ca sappāyakiriyāya asu ca visadoso apanīto anupādiseso tadubhayena vaṇo viruheyya. ",
+      "english": "Then both because they did what was suitable, and the unclean poison had left no residue, the wound would heal, "
+    },
+    {
+      "number": 151,
+      "pali": "So ruḷhena vaṇena sañchavinā neva maraṇaṁ vā nigaccheyya na maraṇamattaṁ vā dukkhaṁ. ",
+      "english": "and no death or deadly pain would result. "
+    },
+    {
+      "number": 152,
+      "pali": "Evameva kho, sunakkhatta, ṭhānametaṁ vijjati yaṁ idhekaccassa bhikkhuno evamassa: ",
+      "english": "In the same way, it’s possible that a certain mendicant might think: "
+    },
+    {
+      "number": 153,
+      "pali": "‘taṇhā kho sallaṁ samaṇena vuttaṁ, avijjāvisadoso chandarāgabyāpādena ruppati. ",
+      "english": "‘The Ascetic has said that craving is a dart; and that the poison of ignorance is inflicted by desire and ill will. "
+    },
+    {
+      "number": 154,
+      "pali": "Taṁ me taṇhāsallaṁ pahīnaṁ, apanīto avijjāvisadoso, sammā nibbānādhimuttohamasmī’ti. ",
+      "english": "I have given up the dart of craving and expelled the poison of ignorance; I am rightly intent on extinguishment.’ "
+    },
+    {
+      "number": 155,
+      "pali": "Sammā nibbānādhimuttasseva sato so yāni sammā nibbānādhimuttassa asappāyāni tāni nānuyuñjeyya, asappāyaṁ cakkhunā rūpadassanaṁ nānuyuñjeyya, asappāyaṁ sotena saddaṁ nānuyuñjeyya, asappāyaṁ ghānena gandhaṁ nānuyuñjeyya, asappāyaṁ jivhāya rasaṁ nānuyuñjeyya, asappāyaṁ kāyena phoṭṭhabbaṁ nānuyuñjeyya, asappāyaṁ manasā dhammaṁ nānuyuñjeyya. ",
+      "english": "Being rightly intent on extinguishment, they wouldn’t engage in things unconducive to extinguishment: unsuitable sights, sounds, smells, tastes, touches, and ideas. "
+    },
+    {
+      "number": 156,
+      "pali": "Tassa asappāyaṁ cakkhunā rūpadassanaṁ nānuyuttassa, asappāyaṁ sotena saddaṁ nānuyuttassa, asappāyaṁ ghānena gandhaṁ nānuyuttassa, asappāyaṁ jivhāya rasaṁ nānuyuttassa, asappāyaṁ kāyena phoṭṭhabbaṁ nānuyuttassa, asappāyaṁ manasā dhammaṁ nānuyuttassa, rāgo cittaṁ nānuddhaṁseyya. ",
+      "english": "Doing so, lust wouldn’t infect their mind, "
+    },
+    {
+      "number": 157,
+      "pali": "So na rāgānuddhaṁsitena cittena neva maraṇaṁ vā nigaccheyya na maraṇamattaṁ vā dukkhaṁ. ",
+      "english": "so no death or deadly pain would result. "
+    },
+    {
+      "number": 158,
+      "pali": "Upamā kho me ayaṁ, sunakkhatta, katā atthassa viññāpanāya. ",
+      "english": "I’ve made up this simile to make a point. "
+    },
+    {
+      "number": 159,
+      "pali": "Ayaṁyevettha attho—",
+      "english": "And this is the point: "
+    },
+    {
+      "number": 160,
+      "pali": "vaṇoti kho, sunakkhatta, channetaṁ ajjhattikānaṁ āyatanānaṁ adhivacanaṁ; ",
+      "english": "‘Wound’ is a term for the six interior sense fields. "
+    },
+    {
+      "number": 161,
+      "pali": "visadosoti kho, sunakkhatta, avijjāyetaṁ adhivacanaṁ; ",
+      "english": "‘Poison’ is a term for ignorance. "
+    },
+    {
+      "number": 162,
+      "pali": "sallanti kho, sunakkhatta, taṇhāyetaṁ adhivacanaṁ; ",
+      "english": "‘Dart’ is a term for craving. "
+    },
+    {
+      "number": 163,
+      "pali": "esanīti kho, sunakkhatta, satiyāyetaṁ adhivacanaṁ; ",
+      "english": "‘Probing’ is a term for mindfulness. "
+    },
+    {
+      "number": 164,
+      "pali": "satthanti kho, sunakkhatta, ariyāyetaṁ paññāya adhivacanaṁ; ",
+      "english": "‘Scalpel’ is a term for noble wisdom. "
+    },
+    {
+      "number": 165,
+      "pali": "bhisakko sallakattoti kho, sunakkhatta, tathāgatassetaṁ adhivacanaṁ arahato sammāsambuddhassa. ",
+      "english": "‘Surgeon’ is a term for the Realized One, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 166,
+      "pali": "So vata, sunakkhatta, bhikkhu chasu phassāyatanesu saṁvutakārī. ",
+      "english": "Truly, Sunakkhatta, that mendicant practices restraint regarding the six fields of contact. "
+    },
+    {
+      "number": 167,
+      "pali": "‘Upadhi dukkhassa mūlan’ti—iti viditvā nirupadhi upadhisaṅkhaye vimutto upadhismiṁ vā kāyaṁ upasaṁharissati cittaṁ vā uppādessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Understanding that attachment is the root of suffering, they are freed with the ending of attachments. It’s not possible that they would apply their body or interest their mind in any attachment. "
+    },
+    {
+      "number": 168,
+      "pali": "Seyyathāpi, sunakkhatta, āpānīyakaṁso vaṇṇasampanno gandhasampanno rasasampanno; ",
+      "english": "Suppose there was a bronze goblet of beverage that had a nice color, aroma, and flavor. "
+    },
+    {
+      "number": 169,
+      "pali": "so ca kho visena saṁsaṭṭho. ",
+      "english": "But it was mixed with poison. "
+    },
+    {
+      "number": 170,
+      "pali": "Atha puriso āgaccheyya jīvitukāmo amaritukāmo sukhakāmo dukkhapaṭikūlo. ",
+      "english": "Then a person would come along who wants to live and doesn’t want to die, who wants to be happy and recoils from pain. "
+    },
+    {
+      "number": 171,
+      "pali": "Taṁ kiṁ maññasi, sunakkhatta, ",
+      "english": "What do you think, Sunakkhatta? "
+    },
+    {
+      "number": 172,
+      "pali": "api nu so puriso amuṁ āpānīyakaṁsaṁ piveyya yaṁ jaññā: ",
+      "english": "Would that person drink that beverage if they knew that "
+    },
+    {
+      "number": 173,
+      "pali": "‘imāhaṁ pivitvā maraṇaṁ vā nigacchāmi maraṇamattaṁ vā dukkhan’”ti? ",
+      "english": "it would result in death or deadly suffering?” "
+    },
+    {
+      "number": 174,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 175,
+      "pali": "“Evameva kho, sunakkhatta, so vata bhikkhu chasu phassāyatanesu saṁvutakārī. ",
+      "english": "“In the same way, Sunakkhatta, that mendicant practices restraint regarding the six fields of contact. "
+    },
+    {
+      "number": 176,
+      "pali": "‘Upadhi dukkhassa mūlan’ti—iti viditvā nirupadhi upadhisaṅkhaye vimutto upadhismiṁ vā kāyaṁ upasaṁharissati cittaṁ vā uppādessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Understanding that attachment is the root of suffering, they are freed with the ending of attachments. It’s not possible that they would apply their body or interest their mind in any attachment. "
+    },
+    {
+      "number": 177,
+      "pali": "Seyyathāpi, sunakkhatta, āsīviso ghoraviso. ",
+      "english": "Suppose there was a lethal viper. "
+    },
+    {
+      "number": 178,
+      "pali": "Atha puriso āgaccheyya jīvitukāmo amaritukāmo sukhakāmo dukkhapaṭikūlo. ",
+      "english": "Then a person would come along who wants to live and doesn’t want to die, who wants to be happy and recoils from pain. "
+    },
+    {
+      "number": 179,
+      "pali": "Taṁ kiṁ maññasi, sunakkhatta, ",
+      "english": "What do you think, Sunakkhatta? "
+    },
+    {
+      "number": 180,
+      "pali": "api nu so puriso amussa āsīvisassa ghoravisassa hatthaṁ vā aṅguṭṭhaṁ vā dajjā yaṁ jaññā: ",
+      "english": "Would that person give that lethal viper their hand or finger if they knew that "
+    },
+    {
+      "number": 181,
+      "pali": "‘imināhaṁ daṭṭho maraṇaṁ vā nigacchāmi maraṇamattaṁ vā dukkhan’”ti? ",
+      "english": "it would result in death or deadly suffering?” "
+    },
+    {
+      "number": 182,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 183,
+      "pali": "“Evameva kho, sunakkhatta, so vata bhikkhu chasu phassāyatanesu saṁvutakārī. ",
+      "english": "“In the same way, Sunakkhatta, that mendicant practices restraint regarding the six fields of contact. "
+    },
+    {
+      "number": 184,
+      "pali": "‘Upadhi dukkhassa mūlan’ti—iti viditvā nirupadhi upadhisaṅkhaye vimutto upadhismiṁ vā kāyaṁ upasaṁharissati cittaṁ vā uppādessatīti—",
+      "english": "Understanding that attachment is the root of suffering, they are freed with the ending of attachments. It’s not possible that they would apply their body or interest their mind in any attachment.” "
+    },
+    {
+      "number": 185,
+      "pali": "netaṁ ṭhānaṁ vijjatī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 186,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 187,
+      "pali": "Attamano sunakkhatto licchaviputto bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Sunakkhatta of the Licchavi clan approved what the Buddha said. "
+    },
+    {
+      "number": 188,
+      "pali": "Sunakkhattasuttaṁ niṭṭhitaṁ pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

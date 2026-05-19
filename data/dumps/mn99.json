@@ -1,0 +1,1355 @@
+{
+  "sutta_id": "MN99",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 99 ",
+      "english": "Middle Discourses 99 "
+    },
+    {
+      "number": 2,
+      "pali": "Subhasutta ",
+      "english": "With Subha "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena subho māṇavo todeyyaputto sāvatthiyaṁ paṭivasati aññatarassa gahapatissa nivesane kenacideva karaṇīyena. ",
+      "english": "Now at that time the student Subha, Todeyya’s son, was residing in Sāvatthī at a certain householder’s home on some business. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho subho māṇavo todeyyaputto yassa gahapatissa nivesane paṭivasati taṁ gahapatiṁ etadavoca: ",
+      "english": "Then Subha said to that householder, "
+    },
+    {
+      "number": 7,
+      "pali": "“sutaṁ metaṁ, gahapati: ",
+      "english": "“Householder, I have heard that "
+    },
+    {
+      "number": 8,
+      "pali": "‘avivittā sāvatthī arahantehī’ti. ",
+      "english": "Sāvatthī does not lack for perfected ones. "
+    },
+    {
+      "number": 9,
+      "pali": "Kaṁ nu khvajja samaṇaṁ vā brāhmaṇaṁ vā payirupāseyyāmā”ti? ",
+      "english": "What ascetic or brahmin might we pay homage to today?” "
+    },
+    {
+      "number": 10,
+      "pali": "“Ayaṁ, bhante, bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "“Sir, the Buddha is staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 11,
+      "pali": "Taṁ, bhante, bhagavantaṁ payirupāsassū”ti. ",
+      "english": "You can pay homage to him.” "
+    },
+    {
+      "number": 12,
+      "pali": "Atha kho subho māṇavo todeyyaputto tassa gahapatissa paṭissutvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "Acknowledging that householder, Subha went to the Buddha and exchanged greetings with him. "
+    },
+    {
+      "number": 13,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho subho māṇavo todeyyaputto bhagavantaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to the Buddha: "
+    },
+    {
+      "number": 14,
+      "pali": "“brāhmaṇā, bho gotama, evamāhaṁsu: ",
+      "english": "“Worthy Gotama, the brahmins say: "
+    },
+    {
+      "number": 15,
+      "pali": "‘gahaṭṭho ārādhako hoti ñāyaṁ dhammaṁ kusalaṁ, na pabbajito ārādhako hoti ñāyaṁ dhammaṁ kusalan’ti. ",
+      "english": "‘Laypeople succeed in the system of the skillful teaching, not renunciates.’ "
+    },
+    {
+      "number": 16,
+      "pali": "Idha bhavaṁ gotamo kimāhā”ti? ",
+      "english": "What do you say about this?” "
+    },
+    {
+      "number": 17,
+      "pali": "“Vibhajjavādo kho ahamettha, māṇava; ",
+      "english": "“On this point, student, I speak after analyzing the question, "
+    },
+    {
+      "number": 18,
+      "pali": "nāhamettha ekaṁsavādo. ",
+      "english": "not one-sidedly. "
+    },
+    {
+      "number": 19,
+      "pali": "Gihissa vāhaṁ, māṇava, pabbajitassa vā micchāpaṭipattiṁ na vaṇṇemi. ",
+      "english": "I don’t praise wrong practice for either laypeople or renunciates. "
+    },
+    {
+      "number": 20,
+      "pali": "Gihī vā hi, māṇava, pabbajito vā micchāpaṭipanno micchāpaṭipattādhikaraṇahetu na ārādhako hoti ñāyaṁ dhammaṁ kusalaṁ. ",
+      "english": "Because of wrong practice, neither laypeople nor renunciates succeed in the system of the skillful teaching. "
+    },
+    {
+      "number": 21,
+      "pali": "Gihissa vāhaṁ, māṇava, pabbajitassa vā sammāpaṭipattiṁ vaṇṇemi. ",
+      "english": "I praise right practice for both laypeople and renunciates. "
+    },
+    {
+      "number": 22,
+      "pali": "Gihī vā hi, māṇava, pabbajito vā sammāpaṭipanno sammāpaṭipattādhikaraṇahetu ārādhako hoti ñāyaṁ dhammaṁ kusalan”ti. ",
+      "english": "Because of right practice, both laypeople and renunciates succeed in the system of the skillful teaching.” "
+    },
+    {
+      "number": 23,
+      "pali": "“Brāhmaṇā, bho gotama, evamāhaṁsu: ",
+      "english": "“Worthy Gotama, the brahmins say: "
+    },
+    {
+      "number": 24,
+      "pali": "‘mahaṭṭhamidaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ gharāvāsakammaṭṭhānaṁ mahapphalaṁ hoti; ",
+      "english": "‘Since the work of the lay life has many obligations, duties, issues, and undertakings it is very fruitful. "
+    },
+    {
+      "number": 25,
+      "pali": "appaṭṭhamidaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ pabbajjā kammaṭṭhānaṁ appaphalaṁ hotī’ti. ",
+      "english": "But since the work of the renunciate has few obligations, duties, issues, and undertakings it is not very fruitful.’ "
+    },
+    {
+      "number": 26,
+      "pali": "Idha bhavaṁ gotamo kimāhā”ti. ",
+      "english": "What do you say about this?” "
+    },
+    {
+      "number": 27,
+      "pali": "“Etthāpi kho ahaṁ, māṇava, vibhajjavādo; ",
+      "english": "“On this point, too, I speak after analyzing the question, "
+    },
+    {
+      "number": 28,
+      "pali": "nāhamettha ekaṁsavādo. ",
+      "english": "not one-sidedly. "
+    },
+    {
+      "number": 29,
+      "pali": "Atthi, māṇava, kammaṭṭhānaṁ mahaṭṭhaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ, vipajjamānaṁ appaphalaṁ hoti; ",
+      "english": "Some work has many obligations, duties, issues, and undertakings, and when it fails it’s not very fruitful. "
+    },
+    {
+      "number": 30,
+      "pali": "atthi, māṇava, kammaṭṭhānaṁ mahaṭṭhaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ, sampajjamānaṁ mahapphalaṁ hoti; ",
+      "english": "Some work has many obligations, duties, issues, and undertakings, and when it succeeds it is very fruitful. "
+    },
+    {
+      "number": 31,
+      "pali": "atthi, māṇava, kammaṭṭhānaṁ appaṭṭhaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ, vipajjamānaṁ appaphalaṁ hoti; ",
+      "english": "Some work has few obligations, duties, issues, and undertakings, and when it fails it’s not very fruitful. "
+    },
+    {
+      "number": 32,
+      "pali": "atthi, māṇava, kammaṭṭhānaṁ appaṭṭhaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ sampajjamānaṁ mahapphalaṁ hoti. ",
+      "english": "Some work has few obligations, duties, issues, and undertakings, and when it succeeds it is very fruitful. "
+    },
+    {
+      "number": 33,
+      "pali": "Katamañca, māṇava, kammaṭṭhānaṁ mahaṭṭhaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ vipajjamānaṁ appaphalaṁ hoti? ",
+      "english": "And what work has many obligations, duties, issues, and undertakings, and when it fails it’s not very fruitful? "
+    },
+    {
+      "number": 34,
+      "pali": "Kasi kho, māṇava, kammaṭṭhānaṁ mahaṭṭhaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ vipajjamānaṁ appaphalaṁ hoti. ",
+      "english": "Farming. "
+    },
+    {
+      "number": 35,
+      "pali": "Katamañca, māṇava, kammaṭṭhānaṁ mahaṭṭhaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ sampajjamānaṁ mahapphalaṁ hoti? ",
+      "english": "And what work has many obligations, duties, issues, and undertakings, and when it succeeds it is very fruitful? "
+    },
+    {
+      "number": 36,
+      "pali": "Kasiyeva kho, māṇava, kammaṭṭhānaṁ mahaṭṭhaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ sampajjamānaṁ mahapphalaṁ hoti. ",
+      "english": "Again, it is farming. "
+    },
+    {
+      "number": 37,
+      "pali": "Katamañca, māṇava, kammaṭṭhānaṁ appaṭṭhaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ vipajjamānaṁ appaphalaṁ hoti? ",
+      "english": "And what work has few obligations, duties, issues, and undertakings, and when it fails it’s not very fruitful? "
+    },
+    {
+      "number": 38,
+      "pali": "Vaṇijjā kho, māṇava, kammaṭṭhānaṁ appaṭṭhaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ vipajjamānaṁ appaphalaṁ hoti. ",
+      "english": "Trade. "
+    },
+    {
+      "number": 39,
+      "pali": "Katamañca, māṇava, kammaṭṭhānaṁ appaṭṭhaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ sampajjamānaṁ mahapphalaṁ hoti? ",
+      "english": "And what work has few obligations, duties, issues, and undertakings, and when it succeeds it is very fruitful? "
+    },
+    {
+      "number": 40,
+      "pali": "Vaṇijjāyeva kho, māṇava, kammaṭṭhānaṁ appaṭṭhaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ sampajjamānaṁ mahapphalaṁ hoti. ",
+      "english": "Again, it’s trade. "
+    },
+    {
+      "number": 41,
+      "pali": "Seyyathāpi, māṇava, kasi kammaṭṭhānaṁ mahaṭṭhaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ vipajjamānaṁ appaphalaṁ hoti; ",
+      "english": "The lay life is like farming in that it’s work with many obligations and when it fails it’s not very fruitful; "
+    },
+    {
+      "number": 42,
+      "pali": "evameva kho, māṇava, gharāvāsakammaṭṭhānaṁ mahaṭṭhaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ vipajjamānaṁ appaphalaṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Seyyathāpi, māṇava, kasiyeva kammaṭṭhānaṁ mahaṭṭhaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ sampajjamānaṁ mahapphalaṁ hoti; ",
+      "english": "but when it succeeds it is very fruitful. "
+    },
+    {
+      "number": 44,
+      "pali": "evameva kho, māṇava, gharāvāsakammaṭṭhānaṁ mahaṭṭhaṁ mahākiccaṁ mahādhikaraṇaṁ mahāsamārambhaṁ sampajjamānaṁ mahapphalaṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Seyyathāpi, māṇava, vaṇijjā kammaṭṭhānaṁ appaṭṭhaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ vipajjamānaṁ appaphalaṁ hoti; ",
+      "english": "The renunciate life is like trade in that it’s work with few obligations and when it fails it’s not very fruitful; "
+    },
+    {
+      "number": 46,
+      "pali": "evameva kho, māṇava, pabbajjā kammaṭṭhānaṁ appaṭṭhaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ vipajjamānaṁ appaphalaṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "Seyyathāpi, māṇava, vaṇijjāyeva kammaṭṭhānaṁ appaṭṭhaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ sampajjamānaṁ mahapphalaṁ hoti; ",
+      "english": "but when it succeeds it is very fruitful.” "
+    },
+    {
+      "number": 48,
+      "pali": "evameva kho, māṇava, pabbajjā kammaṭṭhānaṁ appaṭṭhaṁ appakiccaṁ appādhikaraṇaṁ appasamārambhaṁ sampajjamānaṁ mahapphalaṁ hotī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "“Brāhmaṇā, bho gotama, pañca dhamme paññapenti puññassa kiriyāya, kusalassa ārādhanāyā”ti. ",
+      "english": "“Worthy Gotama, the brahmins prescribe five things for making merit and succeeding in the skillful.” "
+    },
+    {
+      "number": 50,
+      "pali": "“Ye te, māṇava, brāhmaṇā pañca dhamme paññapenti puññassa kiriyāya, kusalassa ārādhanāya—",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "sace te agaru—",
+      "english": "“If you don’t mind, "
+    },
+    {
+      "number": 52,
+      "pali": "sādhu te pañca dhamme imasmiṁ parisati bhāsassū”ti. ",
+      "english": "please explain these in this assembly.” "
+    },
+    {
+      "number": 53,
+      "pali": "“Na kho me, bho gotama, garu yatthassu bhavanto vā nisinno bhavantarūpo vā”ti. ",
+      "english": "“It’s no trouble when good fellows such as yourself are sitting here.” "
+    },
+    {
+      "number": 54,
+      "pali": "“Tena hi, māṇava, bhāsassū”ti. ",
+      "english": "“Well, speak then, student.” "
+    },
+    {
+      "number": 55,
+      "pali": "“Saccaṁ kho, bho gotama, brāhmaṇā paṭhamaṁ dhammaṁ paññapenti puññassa kiriyāya, kusalassa ārādhanāya. ",
+      "english": "“Worthy Gotama, truth is the first thing. "
+    },
+    {
+      "number": 56,
+      "pali": "Tapaṁ kho, bho gotama, brāhmaṇā dutiyaṁ dhammaṁ paññapenti puññassa kiriyāya, kusalassa ārādhanāya. ",
+      "english": "Fervor is the second thing. "
+    },
+    {
+      "number": 57,
+      "pali": "Brahmacariyaṁ kho, bho gotama, brāhmaṇā tatiyaṁ dhammaṁ paññapenti puññassa kiriyāya, kusalassa ārādhanāya. ",
+      "english": "Chastity is the third thing. "
+    },
+    {
+      "number": 58,
+      "pali": "Ajjhenaṁ kho, bho gotama, brāhmaṇā catutthaṁ dhammaṁ paññapenti puññassa kiriyāya, kusalassa ārādhanāya. ",
+      "english": "Recitation is the fourth thing. "
+    },
+    {
+      "number": 59,
+      "pali": "Cāgaṁ kho, bho gotama, brāhmaṇā pañcamaṁ dhammaṁ paññapenti puññassa kiriyāya, kusalassa ārādhanāya. ",
+      "english": "Generosity is the fifth thing. "
+    },
+    {
+      "number": 60,
+      "pali": "Brāhmaṇā, bho gotama, ime pañca dhamme paññapenti puññassa kiriyāya, kusalassa ārādhanāyāti. ",
+      "english": "These are the five things that the brahmins prescribe for making merit and succeeding in the skillful. "
+    },
+    {
+      "number": 61,
+      "pali": "Idha bhavaṁ gotamo kimāhā”ti? ",
+      "english": "What do you say about this?” "
+    },
+    {
+      "number": 62,
+      "pali": "“Kiṁ pana, māṇava, atthi koci brāhmaṇānaṁ ekabrāhmaṇopi yo evamāha: ",
+      "english": "“Well, student, is there even a single one of the brahmins who says this: "
+    },
+    {
+      "number": 63,
+      "pali": "‘ahaṁ imesaṁ pañcannaṁ dhammānaṁ sayaṁ abhiññā sacchikatvā vipākaṁ pavedemī’”ti? ",
+      "english": "‘I declare the result of these five things after realizing it with my own insight’?” "
+    },
+    {
+      "number": 64,
+      "pali": "“No hidaṁ, bho gotama”. ",
+      "english": "“No, worthy Gotama.” "
+    },
+    {
+      "number": 65,
+      "pali": "“Kiṁ pana, māṇava, atthi koci brāhmaṇānaṁ ekācariyopi ekācariyapācariyopi yāva sattamā ācariyamahayugāpi yo evamāha: ",
+      "english": "“Well, is there even a single tutor of the brahmins, or a tutor’s tutor, or anyone back to the seventh generation of tutors, who says this: "
+    },
+    {
+      "number": 66,
+      "pali": "‘ahaṁ imesaṁ pañcannaṁ dhammānaṁ sayaṁ abhiññā sacchikatvā vipākaṁ pavedemī’”ti? ",
+      "english": "‘I declare the result of these five things after realizing it with my own insight’?” "
+    },
+    {
+      "number": 67,
+      "pali": "“No hidaṁ, bho gotama”. ",
+      "english": "“No, worthy Gotama.” "
+    },
+    {
+      "number": 68,
+      "pali": "“Kiṁ pana, māṇava, yepi te brāhmaṇānaṁ pubbakā isayo mantānaṁ kattāro mantānaṁ pavattāro yesamidaṁ etarahi brāhmaṇā porāṇaṁ mantapadaṁ gītaṁ pavuttaṁ samihitaṁ tadanugāyanti tadanubhāsanti bhāsitamanubhāsanti vācitamanuvācenti, seyyathidaṁ—aṭṭhako vāmako vāmadevo vessāmitto yamataggi aṅgīraso bhāradvājo vāseṭṭho kassapo bhagu, ",
+      "english": "“Well, what of the ancient seers of the brahmins, namely Aṭṭhaka, Vāmaka, Vāmadeva, Vessāmitta, Yamadaggi, Aṅgīrasa, Bhāradvāja, Vāseṭṭha, Kassapa, and Bhagu? They were the authors and propagators of the hymns. Their hymnal was sung and propagated and compiled in ancient times; and these days, brahmins continue to sing and chant it, chanting what was chanted and teaching what was taught. "
+    },
+    {
+      "number": 69,
+      "pali": "tepi evamāhaṁsu: ",
+      "english": "Did even they say: "
+    },
+    {
+      "number": 70,
+      "pali": "‘mayaṁ imesaṁ pañcannaṁ dhammānaṁ sayaṁ abhiññā sacchikatvā vipākaṁ pavedemā’”ti? ",
+      "english": "‘We declare the result of these five things after realizing it with our own insight’?” "
+    },
+    {
+      "number": 71,
+      "pali": "“No hidaṁ, bho gotama”. ",
+      "english": "“No, worthy Gotama.” "
+    },
+    {
+      "number": 72,
+      "pali": "“Iti kira, māṇava, natthi koci brāhmaṇānaṁ ekabrāhmaṇopi yo evamāha: ",
+      "english": "“So, student, it seems that there is not a single one of the brahmins, "
+    },
+    {
+      "number": 73,
+      "pali": "‘ahaṁ imesaṁ pañcannaṁ dhammānaṁ sayaṁ abhiññā sacchikatvā vipākaṁ pavedemī’ti; ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "natthi koci brāhmaṇānaṁ ekācariyopi ekācariyapācariyopi yāva sattamā ācariyamahayugāpi yo evamāha: ",
+      "english": "not even anyone back to the seventh generation of tutors, "
+    },
+    {
+      "number": 75,
+      "pali": "‘ahaṁ imesaṁ pañcannaṁ dhammānaṁ sayaṁ abhiññā sacchikatvā vipākaṁ pavedemī’ti; ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "yepi te brāhmaṇānaṁ pubbakā isayo mantānaṁ kattāro mantānaṁ pavattāro, yesamidaṁ etarahi brāhmaṇā porāṇaṁ mantapadaṁ gītaṁ pavuttaṁ samihitaṁ, tadanugāyanti tadanubhāsanti bhāsitamanubhāsanti vācitamanuvācenti, seyyathidaṁ—aṭṭhako vāmako vāmadevo vessāmitto yamataggi aṅgīraso bhāradvājo vāseṭṭho kassapo bhagu. ",
+      "english": "nor even the ancient seers of the brahmins "
+    },
+    {
+      "number": 77,
+      "pali": "Tepi na evamāhaṁsu: ",
+      "english": "who says: "
+    },
+    {
+      "number": 78,
+      "pali": "‘mayaṁ imesaṁ pañcannaṁ dhammānaṁ sayaṁ abhiññā sacchikatvā vipākaṁ pavedemā’ti. ",
+      "english": "‘We declare the result of these five things after realizing it with our own insight.’ "
+    },
+    {
+      "number": 79,
+      "pali": "Seyyathāpi, māṇava, andhaveṇi paramparāsaṁsattā purimopi na passati majjhimopi na passati pacchimopi na passati; ",
+      "english": "Suppose there was a queue of blind men, each holding the one in front: the first one does not see, the middle one does not see, and the last one does not see. "
+    },
+    {
+      "number": 80,
+      "pali": "evameva kho, māṇava, andhaveṇūpamaṁ maññe brāhmaṇānaṁ bhāsitaṁ sampajjati—purimopi na passati majjhimopi na passati pacchimopi na passatī”ti. ",
+      "english": "In the same way, it seems to me that the brahmins’ statement turns out to be comparable to a queue of blind men: the first one does not see, the middle one does not see, and the last one does not see.” "
+    },
+    {
+      "number": 81,
+      "pali": "Evaṁ vutte, subho māṇavo todeyyaputto bhagavatā andhaveṇūpamena vuccamāno kupito anattamano bhagavantaṁyeva khuṁsento bhagavantaṁyeva vambhento bhagavantaṁyeva vadamāno: ",
+      "english": "When he said this, Subha became angry and upset with the Buddha because of the simile of the queue of blind men. He even attacked and badmouthed the Buddha himself, saying, "
+    },
+    {
+      "number": 82,
+      "pali": "“samaṇo gotamo pāpito bhavissatī”ti bhagavantaṁ etadavoca: ",
+      "english": "“The ascetic Gotama will be worsted!” He said to the Buddha: "
+    },
+    {
+      "number": 83,
+      "pali": "“brāhmaṇo, bho gotama, pokkharasāti opamañño subhagavaniko evamāha: ",
+      "english": "“Worthy Gotama, the brahmin Pokkharasāti Upamañña of the Subhaga Forest says: "
+    },
+    {
+      "number": 84,
+      "pali": "‘evameva panidhekacce samaṇabrāhmaṇā uttari manussadhammā alamariyañāṇadassanavisesaṁ paṭijānanti. ",
+      "english": "‘This is exactly what happens with some ascetics and brahmins. They claim to have a superhuman distinction in knowledge and vision worthy of the noble ones. "
+    },
+    {
+      "number": 85,
+      "pali": "Tesamidaṁ bhāsitaṁ hassakaṁyeva sampajjati, nāmakaṁyeva sampajjati, rittakaṁyeva sampajjati, tucchakaṁyeva sampajjati. ",
+      "english": "But their statement turns out to be a joke—mere words, vacuous and hollow. "
+    },
+    {
+      "number": 86,
+      "pali": "Kathañhi nāma manussabhūto uttari manussadhammā alamariyañāṇadassanavisesaṁ ñassati vā dakkhati vā sacchi vā karissatīti—",
+      "english": "For how on earth can a human being know or see or realize a superhuman distinction in knowledge and vision worthy of the noble ones? "
+    },
+    {
+      "number": 87,
+      "pali": "netaṁ ṭhānaṁ vijjatī’”ti? ",
+      "english": "That is not possible.’” "
+    },
+    {
+      "number": 88,
+      "pali": "“Kiṁ pana, māṇava, brāhmaṇo pokkharasāti opamañño subhagavaniko sabbesaṁyeva samaṇabrāhmaṇānaṁ cetasā ceto paricca pajānātī”ti? ",
+      "english": "“But student, does Pokkharasāti understand the minds of all these ascetics and brahmins, having encompassed them with his mind?” "
+    },
+    {
+      "number": 89,
+      "pali": "“Sakāyapi hi, bho gotama, puṇṇikāya dāsiyā brāhmaṇo pokkharasāti opamañño subhagavaniko cetasā ceto paricca na pajānāti, kuto pana sabbesaṁyeva samaṇabrāhmaṇānaṁ cetasā ceto paricca pajānissatī”ti? ",
+      "english": "“Worthy Gotama, Pokkharasāti doesn’t even know the mind of his own bonded maid Puṇṇikā, so how could he know all those ascetics and brahmins?” "
+    },
+    {
+      "number": 90,
+      "pali": "“Seyyathāpi, māṇava, jaccandho puriso na passeyya kaṇhasukkāni rūpāni, na passeyya nīlakāni rūpāni, na passeyya pītakāni rūpāni, na passeyya lohitakāni rūpāni, na passeyya mañjiṭṭhakāni rūpāni, na passeyya samavisamaṁ, na passeyya tārakarūpāni, na passeyya candimasūriye. ",
+      "english": "“Suppose there was a person blind from birth. They couldn’t see sights that are dark or bright, or blue, yellow, red, or magenta. They couldn’t see even and uneven ground, or the stars, or the moon and sun. "
+    },
+    {
+      "number": 91,
+      "pali": "So evaṁ vadeyya: ",
+      "english": "They’d say: "
+    },
+    {
+      "number": 92,
+      "pali": "‘natthi kaṇhasukkāni rūpāni, natthi kaṇhasukkānaṁ rūpānaṁ dassāvī; ",
+      "english": "‘There’s no such thing as dark and bright sights, and no-one who sees them. "
+    },
+    {
+      "number": 93,
+      "pali": "natthi nīlakāni rūpāni, natthi nīlakānaṁ rūpānaṁ dassāvī; ",
+      "english": "There’s no such thing as blue, "
+    },
+    {
+      "number": 94,
+      "pali": "natthi pītakāni rūpāni, natthi pītakānaṁ rūpānaṁ dassāvī; ",
+      "english": "yellow, "
+    },
+    {
+      "number": 95,
+      "pali": "natthi lohitakāni rūpāni, natthi lohitakānaṁ rūpānaṁ dassāvī; ",
+      "english": "red, "
+    },
+    {
+      "number": 96,
+      "pali": "natthi mañjiṭṭhakāni rūpāni, natthi mañjiṭṭhakānaṁ rūpānaṁ dassāvī; ",
+      "english": "magenta, "
+    },
+    {
+      "number": 97,
+      "pali": "natthi samavisamaṁ, natthi samavisamassa dassāvī; ",
+      "english": "even and uneven ground, "
+    },
+    {
+      "number": 98,
+      "pali": "natthi tārakarūpāni, natthi tārakarūpānaṁ dassāvī; ",
+      "english": "stars, "
+    },
+    {
+      "number": 99,
+      "pali": "natthi candimasūriyā, natthi candimasūriyānaṁ dassāvī. ",
+      "english": "moon and sun, and no-one who sees these things. "
+    },
+    {
+      "number": 100,
+      "pali": "Ahametaṁ na jānāmi, ahametaṁ na passāmi; ",
+      "english": "I don’t know it or see it, "
+    },
+    {
+      "number": 101,
+      "pali": "tasmā taṁ natthī’ti. ",
+      "english": "therefore it doesn’t exist.’ "
+    },
+    {
+      "number": 102,
+      "pali": "Sammā nu kho so, māṇava, vadamāno vadeyyā”ti? ",
+      "english": "Would they be speaking rightly?” "
+    },
+    {
+      "number": 103,
+      "pali": "“No hidaṁ, bho gotama. ",
+      "english": "“No, worthy Gotama. "
+    },
+    {
+      "number": 104,
+      "pali": "Atthi kaṇhasukkāni rūpāni, atthi kaṇhasukkānaṁ rūpānaṁ dassāvī; ",
+      "english": "There are such things as dark and bright sights, and one who sees them. "
+    },
+    {
+      "number": 105,
+      "pali": "atthi nīlakāni rūpāni, atthi nīlakānaṁ rūpānaṁ dassāvī; ",
+      "english": "There is blue, "
+    },
+    {
+      "number": 106,
+      "pali": "atthi pītakāni rūpāni, atthi pītakānaṁ rūpānaṁ dassāvī; ",
+      "english": "yellow, "
+    },
+    {
+      "number": 107,
+      "pali": "atthi lohitakāni rūpāni, atthi lohitakānaṁ rūpānaṁ dassāvī; ",
+      "english": "red, "
+    },
+    {
+      "number": 108,
+      "pali": "atthi mañjiṭṭhakāni rūpāni, atthi mañjiṭṭhakānaṁ rūpānaṁ dassāvī; ",
+      "english": "magenta, "
+    },
+    {
+      "number": 109,
+      "pali": "atthi samavisamaṁ, atthi samavisamassa dassāvī; ",
+      "english": "even and uneven ground, "
+    },
+    {
+      "number": 110,
+      "pali": "atthi tārakarūpāni, atthi tārakarūpānaṁ dassāvī; ",
+      "english": "stars, "
+    },
+    {
+      "number": 111,
+      "pali": "atthi candimasūriyā, atthi candimasūriyānaṁ dassāvī. ",
+      "english": "moon and sun, and one who sees these things. "
+    },
+    {
+      "number": 112,
+      "pali": "‘Ahametaṁ na jānāmi, ahametaṁ na passāmi; ",
+      "english": "So it’s not right to say this: ‘I don’t know it or see it, "
+    },
+    {
+      "number": 113,
+      "pali": "tasmā taṁ natthī’ti; ",
+      "english": "therefore it doesn’t exist.’” "
+    },
+    {
+      "number": 114,
+      "pali": "na hi so, bho gotama, sammā vadamāno vadeyyā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 115,
+      "pali": "“Evameva kho, māṇava, brāhmaṇo pokkharasāti opamañño subhagavaniko andho acakkhuko. ",
+      "english": "“In the same way, Pokkharasāti is blind and sightless. "
+    },
+    {
+      "number": 116,
+      "pali": "So vata uttari manussadhammā alamariyañāṇadassanavisesaṁ ñassati vā dakkhati vā sacchi vā karissatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "It is quite impossible for him to know or see or realize a superhuman distinction in knowledge and vision worthy of the noble ones. "
+    },
+    {
+      "number": 117,
+      "pali": "Taṁ kiṁ maññasi, māṇava, ",
+      "english": "What do you think, student? "
+    },
+    {
+      "number": 118,
+      "pali": "ye te kosalakā brāhmaṇamahāsālā, seyyathidaṁ—",
+      "english": "There are well-to-do brahmins of Kosala such as "
+    },
+    {
+      "number": 119,
+      "pali": "caṅkī brāhmaṇo tārukkho brāhmaṇo pokkharasāti brāhmaṇo jāṇussoṇi brāhmaṇo pitā ca te todeyyo, katamā nesaṁ seyyo, yaṁ vā te sammuccā vācaṁ bhāseyyuṁ yaṁ vā asammuccā”ti? ",
+      "english": "the brahmins Caṅkī, Tārukkha, Pokkharasāti, Jānussoṇi, and your father Todeyya. What’s better for them: that their speech agrees or disagrees with the consensus of opinion?” "
+    },
+    {
+      "number": 120,
+      "pali": "“Sammuccā, bho gotama”. ",
+      "english": "“That it agrees, worthy Gotama.” "
+    },
+    {
+      "number": 121,
+      "pali": "“Katamā nesaṁ seyyo, yaṁ vā te mantā vācaṁ bhāseyyuṁ yaṁ vā amantā”ti? ",
+      "english": "“What’s better for them: that their speech is thoughtful or thoughtless?” "
+    },
+    {
+      "number": 122,
+      "pali": "“Mantā, bho gotama”. ",
+      "english": "“That it is thoughtful.” "
+    },
+    {
+      "number": 123,
+      "pali": "“Katamā nesaṁ seyyo, yaṁ vā te paṭisaṅkhāya vācaṁ bhāseyyuṁ yaṁ vā appaṭisaṅkhāyā”ti? ",
+      "english": "“What’s better for them: that their speech follows reflection or is unreflective?” "
+    },
+    {
+      "number": 124,
+      "pali": "“Paṭisaṅkhāya, bho gotama”. ",
+      "english": "“That it follows reflection.” "
+    },
+    {
+      "number": 125,
+      "pali": "“Katamā nesaṁ seyyo, yaṁ vā te atthasaṁhitaṁ vācaṁ bhāseyyuṁ yaṁ vā anatthasaṁhitan”ti? ",
+      "english": "“What’s better for them: that their speech is beneficial or worthless?” "
+    },
+    {
+      "number": 126,
+      "pali": "“Atthasaṁhitaṁ, bho gotama”. ",
+      "english": "“That it’s beneficial.” "
+    },
+    {
+      "number": 127,
+      "pali": "“Taṁ kiṁ maññasi, māṇava, ",
+      "english": "“What do you think, student? "
+    },
+    {
+      "number": 128,
+      "pali": "yadi evaṁ sante, brāhmaṇena pokkharasātinā opamaññena subhagavanikena sammuccā vācā bhāsitā asammuccā”ti? ",
+      "english": "If this is so, does Pokkharasāti’s speech agree or disagree with the consensus of opinion?” "
+    },
+    {
+      "number": 129,
+      "pali": "“Asammuccā, bho gotama”. ",
+      "english": "“It disagrees, worthy Gotama.” "
+    },
+    {
+      "number": 130,
+      "pali": "“Mantā vācā bhāsitā amantā vā”ti? ",
+      "english": "“Is it thoughtful or thoughtless?” "
+    },
+    {
+      "number": 131,
+      "pali": "“Amantā, bho gotama”. ",
+      "english": "“Thoughtless.” "
+    },
+    {
+      "number": 132,
+      "pali": "“Paṭisaṅkhāya vācā bhāsitā appaṭisaṅkhāyā”ti? ",
+      "english": "“Is it reflective or unreflective?” "
+    },
+    {
+      "number": 133,
+      "pali": "“Appaṭisaṅkhāya, bho gotama”. ",
+      "english": "“Unreflective.” "
+    },
+    {
+      "number": 134,
+      "pali": "“Atthasaṁhitā vācā bhāsitā anatthasaṁhitā”ti? ",
+      "english": "“Is it beneficial or worthless?” "
+    },
+    {
+      "number": 135,
+      "pali": "“Anatthasaṁhitā, bho gotama”. ",
+      "english": "“Worthless.” "
+    },
+    {
+      "number": 136,
+      "pali": "“Pañca kho ime, māṇava, nīvaraṇā. ",
+      "english": "“Student, there are these five hindrances. "
+    },
+    {
+      "number": 137,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 138,
+      "pali": "Kāmacchandanīvaraṇaṁ, byāpādanīvaraṇaṁ, thinamiddhanīvaraṇaṁ uddhaccakukkuccanīvaraṇaṁ, vicikicchānīvaraṇaṁ—",
+      "english": "The hindrances of sensual desire, ill will, dullness and drowsiness, restlessness and remorse, and doubt. "
+    },
+    {
+      "number": 139,
+      "pali": "ime kho, māṇava, pañca nīvaraṇā. ",
+      "english": "These are the five hindrances. "
+    },
+    {
+      "number": 140,
+      "pali": "Imehi kho, māṇava, pañcahi nīvaraṇehi brāhmaṇo pokkharasāti opamañño subhagavaniko āvuto nivuto ophuṭo pariyonaddho. ",
+      "english": "Pokkharasāti is veiled, shrouded, covered, and engulfed by these five hindrances. "
+    },
+    {
+      "number": 141,
+      "pali": "So vata uttari manussadhammā alamariyañāṇadassanavisesaṁ ñassati vā dakkhati vā sacchi vā karissatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "It is quite impossible for him to know or see or realize a superhuman distinction in knowledge and vision worthy of the noble ones. "
+    },
+    {
+      "number": 142,
+      "pali": "Pañca kho ime, māṇava, kāmaguṇā. ",
+      "english": "There are these five kinds of sensual stimulation. "
+    },
+    {
+      "number": 143,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 144,
+      "pali": "Cakkhuviññeyyā rūpā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā; ",
+      "english": "There are sights known by the eye, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 145,
+      "pali": "sotaviññeyyā saddā …pe… ",
+      "english": "There are sounds known by the ear … "
+    },
+    {
+      "number": 146,
+      "pali": "ghānaviññeyyā gandhā … ",
+      "english": "smells known by the nose … "
+    },
+    {
+      "number": 147,
+      "pali": "jivhā viññeyyā rasā … ",
+      "english": "tastes known by the tongue … "
+    },
+    {
+      "number": 148,
+      "pali": "kāyaviññeyyā phoṭṭhabbā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā—",
+      "english": "touches known by the body, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 149,
+      "pali": "ime kho, māṇava, pañca kāmaguṇā. ",
+      "english": "These are the five kinds of sensual stimulation. "
+    },
+    {
+      "number": 150,
+      "pali": "Imehi kho, māṇava, pañcahi kāmaguṇehi brāhmaṇo pokkharasāti opamañño subhagavaniko gathito mucchito ajjhopanno anādīnavadassāvī anissaraṇapañño paribhuñjati. ",
+      "english": "Pokkharasāti enjoys himself with these five kinds of sensual stimulation, tied, infatuated, attached, blind to the drawbacks, and not understanding the escape. "
+    },
+    {
+      "number": 151,
+      "pali": "So vata uttari manussadhammā alamariyañāṇadassanavisesaṁ ñassati vā dakkhati vā sacchi vā karissatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "It is quite impossible for him to know or see or realize a superhuman distinction in knowledge and vision worthy of the noble ones. "
+    },
+    {
+      "number": 152,
+      "pali": "Taṁ kiṁ maññasi, māṇava, ",
+      "english": "What do you think, student? "
+    },
+    {
+      "number": 153,
+      "pali": "yaṁ vā tiṇakaṭṭhupādānaṁ paṭicca aggiṁ jāleyya yaṁ vā nissaṭṭhatiṇakaṭṭhupādānaṁ aggiṁ jāleyya, katamo nu khvāssa aggi accimā ceva vaṇṇavā ca pabhassaro cā”ti? ",
+      "english": "Which would have better flames, color, and radiance: a fire that depends on grass and logs as fuel, or one that does not?” "
+    },
+    {
+      "number": 154,
+      "pali": "“Sace taṁ, bho gotama, ṭhānaṁ nissaṭṭhatiṇakaṭṭhupādānaṁ aggiṁ jāletuṁ, svāssa aggi accimā ceva vaṇṇavā ca pabhassaro cā”ti. ",
+      "english": "“If it were possible for a fire to burn without depending on grass and logs as fuel, that would have better flames, color, and radiance.” "
+    },
+    {
+      "number": 155,
+      "pali": "“Aṭṭhānaṁ kho etaṁ, māṇava, anavakāso yaṁ nissaṭṭhatiṇakaṭṭhupādānaṁ aggiṁ jāleyya aññatra iddhimatā. ",
+      "english": "“But it isn’t possible, except by psychic power. "
+    },
+    {
+      "number": 156,
+      "pali": "Seyyathāpi, māṇava, tiṇakaṭṭhupādānaṁ paṭicca aggi jalati tathūpamāhaṁ, māṇava, imaṁ pītiṁ vadāmi yāyaṁ pīti pañca kāmaguṇe paṭicca. ",
+      "english": "Rapture that depends on the five kinds of sensual stimulation is like a fire that depends on grass and logs as fuel. "
+    },
+    {
+      "number": 157,
+      "pali": "Seyyathāpi, māṇava, nissaṭṭhatiṇakaṭṭhupādāno aggi jalati tathūpamāhaṁ, māṇava, imaṁ pītiṁ vadāmi yāyaṁ pīti aññatreva kāmehi aññatra akusalehi dhammehi. ",
+      "english": "Rapture that’s apart from sensual pleasures and unskillful qualities is like a fire that doesn’t depend on grass and logs as fuel. "
+    },
+    {
+      "number": 158,
+      "pali": "Katamā ca, māṇava, pīti aññatreva kāmehi aññatra akusalehi dhammehi? ",
+      "english": "And what is rapture that’s apart from sensual pleasures and unskillful qualities? "
+    },
+    {
+      "number": 159,
+      "pali": "Idha, māṇava, bhikkhu vivicceva kāmehi …pe… paṭhamaṁ jhānaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 160,
+      "pali": "Ayampi kho, māṇava, pīti aññatreva kāmehi aññatra akusalehi dhammehi. ",
+      "english": "This is rapture that’s apart from sensual pleasures and unskillful qualities. "
+    },
+    {
+      "number": 161,
+      "pali": "Puna caparaṁ, māṇava, bhikkhu vitakkavicārānaṁ vūpasamā … dutiyaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Furthermore, as the placing of the mind and keeping it connected are stilled, they enter and remain in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without placing the mind and keeping it connected. "
+    },
+    {
+      "number": 162,
+      "pali": "Ayampi kho, māṇava, pīti aññatreva kāmehi aññatra akusalehi dhammehi. ",
+      "english": "This too is rapture that’s apart from sensual pleasures and unskillful qualities. "
+    },
+    {
+      "number": 163,
+      "pali": "Ye te, māṇava, brāhmaṇā pañca dhamme paññapenti puññassa kiriyāya kusalassa ārādhanāya, katamettha brāhmaṇā dhammaṁ mahapphalataraṁ paññapenti puññassa kiriyāya kusalassa ārādhanāyā”ti? ",
+      "english": "Of the five things that the brahmins prescribe for making merit and succeeding in the skillful, which do they say is the most fruitful?” "
+    },
+    {
+      "number": 164,
+      "pali": "“Yeme, bho gotama, brāhmaṇā pañca dhamme paññapenti puññassa kiriyāya kusalassa ārādhanāya, cāgamettha brāhmaṇā dhammaṁ mahapphalataraṁ paññapenti puññassa kiriyāya kusalassa ārādhanāyā”ti. ",
+      "english": "“Generosity.” "
+    },
+    {
+      "number": 165,
+      "pali": "“Taṁ kiṁ maññasi, māṇava, ",
+      "english": "“What do you think, student? "
+    },
+    {
+      "number": 166,
+      "pali": "idha aññatarassa brāhmaṇassa mahāyañño paccupaṭṭhito assa. ",
+      "english": "Suppose a brahmin was setting up a big sacrifice. "
+    },
+    {
+      "number": 167,
+      "pali": "Atha dve brāhmaṇā āgaccheyyuṁ: ",
+      "english": "Then two brahmins came along, "
+    },
+    {
+      "number": 168,
+      "pali": "‘itthannāmassa brāhmaṇassa mahāyaññaṁ anubhavissāmā’ti. ",
+      "english": "thinking to participate. "
+    },
+    {
+      "number": 169,
+      "pali": "Tatrekassa brāhmaṇassa evamassa: ",
+      "english": "Then one of those brahmins thought: "
+    },
+    {
+      "number": 170,
+      "pali": "‘aho vata ahameva labheyyaṁ bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍaṁ, na añño brāhmaṇo labheyya bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍan’ti. ",
+      "english": "‘Oh, I hope that I alone get the best seat, the best drink, and the best almsfood in the refectory, not some other brahmin.’ "
+    },
+    {
+      "number": 171,
+      "pali": "Ṭhānaṁ kho panetaṁ, māṇava, vijjati yaṁ añño brāhmaṇo labheyya bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍaṁ, na so brāhmaṇo labheyya bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍaṁ. ",
+      "english": "But it’s possible that some other brahmin gets the best seat, the best drink, and the best almsfood in the refectory. "
+    },
+    {
+      "number": 172,
+      "pali": "‘Añño brāhmaṇo labhati bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍaṁ, nāhaṁ labhāmi bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍan’ti—",
+      "english": "Thinking, ‘Some other brahmin has got the best seat, the best drink, the best almsfood,’ "
+    },
+    {
+      "number": 173,
+      "pali": "iti so kupito hoti anattamano. ",
+      "english": "they get angry and bitter. "
+    },
+    {
+      "number": 174,
+      "pali": "Imassa pana, māṇava, brāhmaṇā kiṁ vipākaṁ paññapentī”ti? ",
+      "english": "What do the brahmins say is the result of this?” "
+    },
+    {
+      "number": 175,
+      "pali": "“Na khvettha, bho gotama, brāhmaṇā evaṁ dānaṁ denti: ",
+      "english": "“Worthy Gotama, brahmins don’t give gifts so that "
+    },
+    {
+      "number": 176,
+      "pali": "‘iminā paro kupito hotu anattamano’ti. ",
+      "english": "others will get angry and upset. "
+    },
+    {
+      "number": 177,
+      "pali": "Atha khvettha brāhmaṇā anukampājātikaṁyeva dānaṁ dentī”ti. ",
+      "english": "Rather, they give only out of sympathy.” "
+    },
+    {
+      "number": 178,
+      "pali": "“Evaṁ sante kho, māṇava, brāhmaṇānaṁ idaṁ chaṭṭhaṁ puññakiriyavatthu hoti—",
+      "english": "“In that case, isn’t compassion a sixth ground for making merit?” "
+    },
+    {
+      "number": 179,
+      "pali": "yadidaṁ anukampājātikan”ti. ",
+      "english": ""
+    },
+    {
+      "number": 180,
+      "pali": "“Evaṁ sante, bho gotama, brāhmaṇānaṁ idaṁ chaṭṭhaṁ puññakiriyavatthu hoti—",
+      "english": "“In that case, compassion is a sixth ground for making merit.” "
+    },
+    {
+      "number": 181,
+      "pali": "yadidaṁ anukampājātikan”ti. ",
+      "english": ""
+    },
+    {
+      "number": 182,
+      "pali": "“Ye te, māṇava, brāhmaṇā pañca dhamme paññapenti puññassa kiriyāya kusalassa ārādhanāya, ime tvaṁ pañca dhamme kattha bahulaṁ samanupassasi—",
+      "english": "“Of the five things that the brahmins prescribe for making merit and succeeding in the skillful, where do you usually find them: "
+    },
+    {
+      "number": 183,
+      "pali": "gahaṭṭhesu vā pabbajitesu vā”ti? ",
+      "english": "among laypeople or renunciates?” "
+    },
+    {
+      "number": 184,
+      "pali": "“Yeme, bho gotama, brāhmaṇā pañca dhamme paññapenti puññassa kiriyāya kusalassa ārādhanāya, imāhaṁ pañca dhamme pabbajitesu bahulaṁ samanupassāmi appaṁ gahaṭṭhesu. ",
+      "english": "“Mostly among renunciates, and less so among lay people. "
+    },
+    {
+      "number": 185,
+      "pali": "Gahaṭṭho hi, bho gotama, mahaṭṭho mahākicco mahādhikaraṇo mahāsamārambho, na satataṁ samitaṁ saccavādī hoti; ",
+      "english": "For a layperson has many obligations, duties, issues, and undertakings, and they can’t always tell the truth, "
+    },
+    {
+      "number": 186,
+      "pali": "pabbajito kho pana, bho gotama, appaṭṭho appakicco appādhikaraṇo appasamārambho, satataṁ samitaṁ saccavādī hoti. ",
+      "english": ""
+    },
+    {
+      "number": 187,
+      "pali": "Gahaṭṭho hi, bho gotama, mahaṭṭho mahākicco mahādhikaraṇo mahāsamārambho na satataṁ samitaṁ tapassī hoti … ",
+      "english": "be fervent, "
+    },
+    {
+      "number": 188,
+      "pali": "brahmacārī hoti … ",
+      "english": "be chaste, "
+    },
+    {
+      "number": 189,
+      "pali": "sajjhāyabahulo hoti … ",
+      "english": "rehearse a lot, "
+    },
+    {
+      "number": 190,
+      "pali": "cāgabahulo hoti; ",
+      "english": "or be very generous. "
+    },
+    {
+      "number": 191,
+      "pali": "pabbajito kho pana, bho gotama, appaṭṭho appakicco appādhikaraṇo appasamārambho satataṁ samitaṁ tapassī hoti … ",
+      "english": "But a renunciate has few obligations, duties, issues, and undertakings, and they can always tell the truth, be fervent, "
+    },
+    {
+      "number": 192,
+      "pali": "brahmacārī hoti … ",
+      "english": "be chaste, "
+    },
+    {
+      "number": 193,
+      "pali": "sajjhāyabahulo hoti … ",
+      "english": "rehearse a lot, "
+    },
+    {
+      "number": 194,
+      "pali": "cāgabahulo hoti. ",
+      "english": "and be very generous. "
+    },
+    {
+      "number": 195,
+      "pali": "Yeme, bho gotama, brāhmaṇā pañca dhamme paññapenti puññassa kiriyāya kusalassa ārādhanāya, imāhaṁ pañca dhamme pabbajitesu bahulaṁ samanupassāmi appaṁ gahaṭṭhesū”ti. ",
+      "english": "Of the five things that the brahmins prescribe for making merit and succeeding in the skillful, I usually find them among renunciates, and less so among laypeople.” "
+    },
+    {
+      "number": 196,
+      "pali": "“Ye te, māṇava, brāhmaṇā pañca dhamme paññapenti puññassa kiriyāya kusalassa ārādhanāya cittassāhaṁ ete parikkhāre vadāmi—",
+      "english": "“I say that the five things prescribed by the brahmins for making merit are prerequisites of the mind for "
+    },
+    {
+      "number": 197,
+      "pali": "yadidaṁ cittaṁ averaṁ abyābajjhaṁ tassa bhāvanāya. ",
+      "english": "developing a mind free of enmity and ill will. "
+    },
+    {
+      "number": 198,
+      "pali": "Idha, māṇava, bhikkhu saccavādī hoti. ",
+      "english": "Take a mendicant who speaks the truth. "
+    },
+    {
+      "number": 199,
+      "pali": "So ‘saccavādīmhī’ti labhati atthavedaṁ, labhati dhammavedaṁ, labhati dhammūpasaṁhitaṁ pāmojjaṁ. ",
+      "english": "Thinking, ‘I’m truthful,’ they find inspiration in the meaning and the teaching, and find joy connected with the teaching. "
+    },
+    {
+      "number": 200,
+      "pali": "Yaṁ taṁ kusalūpasaṁhitaṁ pāmojjaṁ, cittassāhaṁ etaṁ parikkhāraṁ vadāmi—",
+      "english": "And I say that joy connected with the skillful is a prerequisite of the mind for "
+    },
+    {
+      "number": 201,
+      "pali": "yadidaṁ cittaṁ averaṁ abyābajjhaṁ tassa bhāvanāya. ",
+      "english": "developing a mind free of enmity and ill will. "
+    },
+    {
+      "number": 202,
+      "pali": "Idha, māṇava, bhikkhu tapassī hoti …pe… ",
+      "english": "Take a mendicant who is fervent … "
+    },
+    {
+      "number": 203,
+      "pali": "brahmacārī hoti …pe… ",
+      "english": "is chaste … "
+    },
+    {
+      "number": 204,
+      "pali": "sajjhāyabahulo hoti …pe… ",
+      "english": "rehearses a lot … "
+    },
+    {
+      "number": 205,
+      "pali": "cāgabahulo hoti. ",
+      "english": "and is very generous. "
+    },
+    {
+      "number": 206,
+      "pali": "So ‘cāgabahulomhī’ti labhati atthavedaṁ, labhati dhammavedaṁ, labhati dhammūpasaṁhitaṁ pāmojjaṁ. ",
+      "english": "Thinking, ‘I’m very generous,’ they find inspiration in the meaning and the teaching, and find joy connected with the teaching. "
+    },
+    {
+      "number": 207,
+      "pali": "Yaṁ taṁ kusalūpasaṁhitaṁ pāmojjaṁ, cittassāhaṁ etaṁ parikkhāraṁ vadāmi—",
+      "english": "And I say that joy connected with the skillful is a prerequisite of the mind for "
+    },
+    {
+      "number": 208,
+      "pali": "yadidaṁ cittaṁ averaṁ abyābajjhaṁ tassa bhāvanāya. ",
+      "english": "developing a mind free of enmity and ill will. "
+    },
+    {
+      "number": 209,
+      "pali": "Ye te, māṇava, brāhmaṇā pañca dhamme paññapenti puññassa kiriyāya kusalassa ārādhanāya, cittassāhaṁ ete parikkhāre vadāmi—",
+      "english": "I say that these five things prescribed by the brahmins for making merit are prerequisites of the mind for "
+    },
+    {
+      "number": 210,
+      "pali": "yadidaṁ cittaṁ averaṁ abyābajjhaṁ tassa bhāvanāyā”ti. ",
+      "english": "developing a mind free of enmity and ill will.” "
+    },
+    {
+      "number": 211,
+      "pali": "Evaṁ vutte, subho māṇavo todeyyaputto bhagavantaṁ etadavoca: ",
+      "english": "When he had spoken, Subha said to him, "
+    },
+    {
+      "number": 212,
+      "pali": "“sutaṁ metaṁ, bho gotama: ",
+      "english": "“Worthy Gotama, I have heard that "
+    },
+    {
+      "number": 213,
+      "pali": "‘samaṇo gotamo brahmānaṁ sahabyatāya maggaṁ jānātī’”ti. ",
+      "english": "the ascetic Gotama knows a path to company with divinity.” "
+    },
+    {
+      "number": 214,
+      "pali": "“Taṁ kiṁ maññasi, māṇava, ",
+      "english": "“What do you think, student? "
+    },
+    {
+      "number": 215,
+      "pali": "āsanne ito naḷakāragāmo, na yito dūre naḷakāragāmo”ti? ",
+      "english": "Is the village of Naḷakāra nearby?” "
+    },
+    {
+      "number": 216,
+      "pali": "“Evaṁ, bho, āsanne ito naḷakāragāmo, na yito dūre naḷakāragāmo”ti. ",
+      "english": "“Yes it is, sir.” "
+    },
+    {
+      "number": 217,
+      "pali": "“Taṁ, kiṁ maññasi, māṇava, idhassa puriso naḷakāragāme jātavaddho; ",
+      "english": "“What do you think, student? Suppose a person was born and raised in Naḷakāra. "
+    },
+    {
+      "number": 218,
+      "pali": "tamenaṁ naḷakāragāmato tāvadeva avasaṭaṁ naḷakāragāmassa maggaṁ puccheyyuṁ; ",
+      "english": "And as soon as they left the town some people asked them for the road to Naḷakāra. "
+    },
+    {
+      "number": 219,
+      "pali": "siyā nu kho, māṇava, tassa purisassa naḷakāragāme jātavaddhassa naḷakāragāmassa maggaṁ puṭṭhassa dandhāyitattaṁ vā vitthāyitattaṁ vā”ti? ",
+      "english": "Would they be slow or hesitant to answer?” "
+    },
+    {
+      "number": 220,
+      "pali": "“No hidaṁ, bho gotama”. ",
+      "english": "“No, worthy Gotama. "
+    },
+    {
+      "number": 221,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 222,
+      "pali": "“Amu hi, bho gotama, puriso naḷakāragāme jātavaddho. Tassa sabbāneva naḷakāragāmassa maggāni suviditānī”ti. ",
+      "english": "Because they were born and raised in Naḷakāra. They’re well acquainted with all the roads to the village.” "
+    },
+    {
+      "number": 223,
+      "pali": "“Siyā nu kho, māṇava, tassa purisassa naḷakāragāme jātavaddhassa naḷakāragāmassa maggaṁ puṭṭhassa dandhāyitattaṁ vā vitthāyitattaṁ vāti, na tveva tathāgatassa brahmalokaṁ vā brahmalokagāminiṁ vā paṭipadaṁ puṭṭhassa dandhāyitattaṁ vā vitthāyitattaṁ vā. ",
+      "english": "“Still, it’s possible they might be slow or hesitant to answer. But the Realized One is never slow or hesitant when questioned about the realm of divinity or the practice that leads to the realm of divinity. "
+    },
+    {
+      "number": 224,
+      "pali": "Brahmānañcāhaṁ, māṇava, pajānāmi brahmalokañca brahmalokagāminiñca paṭipadaṁ; yathāpaṭipanno ca brahmalokaṁ upapanno tañca pajānāmī”ti. ",
+      "english": "I understand divinity, the realm of divinity, and the practice that leads to the realm of divinity, practicing in accordance with which one is reborn in the realm of divinity.” "
+    },
+    {
+      "number": 225,
+      "pali": "“Sutaṁ metaṁ, bho gotama: ",
+      "english": "“Worthy Gotama, I have heard that "
+    },
+    {
+      "number": 226,
+      "pali": "‘samaṇo gotamo brahmānaṁ sahabyatāya maggaṁ desetī’ti. ",
+      "english": "the ascetic Gotama teaches a path to company with divinity. "
+    },
+    {
+      "number": 227,
+      "pali": "Sādhu me bhavaṁ gotamo brahmānaṁ sahabyatāya maggaṁ desetū”ti. ",
+      "english": "Please teach me that path.” "
+    },
+    {
+      "number": 228,
+      "pali": "“Tena hi, māṇava, suṇāhi, sādhukaṁ manasi karohi, bhāsissāmī”ti. ",
+      "english": "“Well then, student, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 229,
+      "pali": "“Evaṁ, bho”ti kho subho māṇavo todeyyaputto bhagavato paccassosi. ",
+      "english": "“Yes, worthy sir,” replied Subha. "
+    },
+    {
+      "number": 230,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 231,
+      "pali": "“Katamo ca, māṇava, brahmānaṁ sahabyatāya maggo? ",
+      "english": "“And what is a path to company with divinity? "
+    },
+    {
+      "number": 232,
+      "pali": "Idha, māṇava, bhikkhu mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharati. ",
+      "english": "Firstly, a mendicant meditates spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 233,
+      "pali": "Evaṁ bhāvitāya kho, māṇava, mettāya cetovimuttiyā yaṁ pamāṇakataṁ kammaṁ na taṁ tatrāvasissati, na taṁ tatrāvatiṭṭhati. ",
+      "english": "When the heart’s release by love has been developed like this, any limited deeds they’ve done don’t remain or persist there. "
+    },
+    {
+      "number": 234,
+      "pali": "Seyyathāpi, māṇava, balavā saṅkhadhamo appakasireneva cātuddisā viññāpeyya; ",
+      "english": "Suppose there was a powerful horn blower. They’d easily make themselves heard in the four quarters. "
+    },
+    {
+      "number": 235,
+      "pali": "evameva kho, māṇava …pe… evaṁ bhāvitāya kho, māṇava, mettāya cetovimuttiyā yaṁ pamāṇakataṁ kammaṁ na taṁ tatrāvasissati, na taṁ tatrāvatiṭṭhati. ",
+      "english": "In the same way, when the heart’s release by love has been developed like this, any limited deeds they’ve done don’t remain or persist there. "
+    },
+    {
+      "number": 236,
+      "pali": "Ayampi kho, māṇava, brahmānaṁ sahabyatāya maggo. ",
+      "english": "This is a path to company with divinity. "
+    },
+    {
+      "number": 237,
+      "pali": "“Puna caparaṁ, māṇava, bhikkhu karuṇāsahagatena cetasā …pe… ",
+      "english": "Furthermore, a mendicant meditates spreading a heart full of compassion … "
+    },
+    {
+      "number": 238,
+      "pali": "muditāsahagatena cetasā …pe… ",
+      "english": "They meditate spreading a heart full of rejoicing … "
+    },
+    {
+      "number": 239,
+      "pali": "upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharati. ",
+      "english": "They meditate spreading a heart full of equanimity to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of equanimity to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 240,
+      "pali": "Evaṁ bhāvitāya kho, māṇava, upekkhāya cetovimuttiyā yaṁ pamāṇakataṁ kammaṁ na taṁ tatrāvasissati, na taṁ tatrāvatiṭṭhati. ",
+      "english": "When the heart’s release by equanimity has been developed and cultivated like this, any limited deeds they’ve done don’t remain or persist there. "
+    },
+    {
+      "number": 241,
+      "pali": "Seyyathāpi, māṇava, balavā saṅkhadhamo appakasireneva cātuddisā viññāpeyya; ",
+      "english": "Suppose there was a powerful horn blower. They’d easily make themselves heard in the four quarters. "
+    },
+    {
+      "number": 242,
+      "pali": "evameva kho, māṇava …pe… evaṁ bhāvitāya kho, māṇava, upekkhāya cetovimuttiyā yaṁ pamāṇakataṁ kammaṁ na taṁ tatrāvasissati, na taṁ tatrāvatiṭṭhati. ",
+      "english": "In the same way, when the heart’s release by equanimity has been developed and cultivated like this, any limited deeds they’ve done don’t remain or persist there. "
+    },
+    {
+      "number": 243,
+      "pali": "Ayampi kho, māṇava, brahmānaṁ sahabyatāya maggo”ti. ",
+      "english": "This too is a path to company with divinity.” "
+    },
+    {
+      "number": 244,
+      "pali": "Evaṁ vutte, subho māṇavo todeyyaputto bhagavantaṁ etadavoca: ",
+      "english": "When he had spoken, Subha said to him, "
+    },
+    {
+      "number": 245,
+      "pali": "“abhikkantaṁ, bho gotama, abhikkantaṁ, bho gotama. ",
+      "english": "“Excellent, worthy Gotama! Excellent! "
+    },
+    {
+      "number": 246,
+      "pali": "Seyyathāpi, bho gotama, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya: ‘cakkhumanto rūpāni dakkhantī’ti; evamevaṁ bhotā gotamena anekapariyāyena dhammo pakāsito. ",
+      "english": "As if he were righting the overturned, or revealing the hidden, or pointing out the path to the lost, or lighting a lamp in the dark so people with clear eyes can see what’s there, worthy Gotama has made the teaching clear in many ways. "
+    },
+    {
+      "number": 247,
+      "pali": "Esāhaṁ bhavantaṁ gotamaṁ saraṇaṁ gacchāmi dhammañca bhikkhusaṅghañca. ",
+      "english": "I go for refuge to the worthy Gotama, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 248,
+      "pali": "Upāsakaṁ maṁ bhavaṁ gotamo dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gataṁ. ",
+      "english": "From this day forth, may the worthy Gotama remember me as a lay follower who has gone for refuge for life. "
+    },
+    {
+      "number": 249,
+      "pali": "Handa ca dāni mayaṁ, bho gotama, gacchāma; ",
+      "english": "Well, now, worthy Gotama, I must go. "
+    },
+    {
+      "number": 250,
+      "pali": "bahukiccā mayaṁ bahukaraṇīyā”ti. ",
+      "english": "I have many duties, and much to do.” "
+    },
+    {
+      "number": 251,
+      "pali": "“Yassadāni tvaṁ, māṇava, kālaṁ maññasī”ti. ",
+      "english": "“Please, student, go at your convenience.” "
+    },
+    {
+      "number": 252,
+      "pali": "Atha kho subho māṇavo todeyyaputto bhagavato bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā pakkāmi. ",
+      "english": "And then Subha approved and agreed with what the Buddha said. He got up from his seat, bowed, and respectfully circled the Buddha, keeping him on his right, before leaving. "
+    },
+    {
+      "number": 253,
+      "pali": "Tena kho pana samayena jāṇussoṇi brāhmaṇo sabbasetena vaḷavābhirathena sāvatthiyā niyyāti divā divassa. ",
+      "english": "Now at that time the brahmin Jānussoṇi drove out from Sāvatthī in the middle of the day in an all-white chariot drawn by mares. "
+    },
+    {
+      "number": 254,
+      "pali": "Addasā kho jāṇussoṇi brāhmaṇo subhaṁ māṇavaṁ todeyyaputtaṁ dūratova āgacchantaṁ. ",
+      "english": "He saw the student Subha coming off in the distance, "
+    },
+    {
+      "number": 255,
+      "pali": "Disvāna subhaṁ māṇavaṁ todeyyaputtaṁ etadavoca: ",
+      "english": "and said to him, "
+    },
+    {
+      "number": 256,
+      "pali": "“handa kuto nu bhavaṁ bhāradvājo āgacchati divā divassā”ti? ",
+      "english": "“So, worthy Bhāradvāja, where are you coming from in the middle of the day?” "
+    },
+    {
+      "number": 257,
+      "pali": "“Ito hi kho ahaṁ, bho, āgacchāmi samaṇassa gotamassa santikā”ti. ",
+      "english": "“Just now, good fellow, I’ve come from the presence of the ascetic Gotama.” "
+    },
+    {
+      "number": 258,
+      "pali": "“Taṁ kiṁ maññasi, bhavaṁ bhāradvājo samaṇassa gotamassa paññāveyyattiyaṁ paṇḍito maññeti”? ",
+      "english": "“What do you think of the ascetic Gotama’s lucidity of wisdom? Do you think he’s astute?” "
+    },
+    {
+      "number": 259,
+      "pali": "“Ko cāhaṁ, bho, ko ca samaṇassa gotamassa paññāveyyattiyaṁ jānissāmi? ",
+      "english": "“Mister, who am I to judge the ascetic Gotama’s lucidity of wisdom? "
+    },
+    {
+      "number": 260,
+      "pali": "Sopi nūnassa tādisova yo samaṇassa gotamassa paññāveyyattiyaṁ jāneyyā”ti. ",
+      "english": "You’d really have to be on the same level to judge his lucidity of wisdom.” "
+    },
+    {
+      "number": 261,
+      "pali": "“Uḷārāya khalu bhavaṁ bhāradvājo samaṇaṁ gotamaṁ pasaṁsāya pasaṁsatī”ti. ",
+      "english": "“Mister Bhāradvāja praises the ascetic Gotama with high praise indeed.” "
+    },
+    {
+      "number": 262,
+      "pali": "“Ko cāhaṁ, bho, ko ca samaṇaṁ gotamaṁ pasaṁsissāmi? ",
+      "english": "“Who am I to praise the ascetic Gotama? "
+    },
+    {
+      "number": 263,
+      "pali": "Pasatthapasatthova so bhavaṁ gotamo seṭṭho devamanussānaṁ. ",
+      "english": "He is praised by the praised as the best among gods and humans. "
+    },
+    {
+      "number": 264,
+      "pali": "Ye cime, bho, brāhmaṇā pañca dhamme paññapenti puññassa kiriyāya kusalassa ārādhanāya; ",
+      "english": "The five things that the brahmins prescribe for making merit and succeeding in the skillful "
+    },
+    {
+      "number": 265,
+      "pali": "cittassete samaṇo gotamo parikkhāre vadeti—",
+      "english": "he says are prerequisites of the mind for "
+    },
+    {
+      "number": 266,
+      "pali": "yadidaṁ cittaṁ averaṁ abyābajjhaṁ tassa bhāvanāyā”ti. ",
+      "english": "developing a mind free of enmity and ill will.” "
+    },
+    {
+      "number": 267,
+      "pali": "Evaṁ vutte, jāṇussoṇi brāhmaṇo sabbasetā vaḷavābhirathā orohitvā ekaṁsaṁ uttarāsaṅgaṁ karitvā yena bhagavā tenañjaliṁ paṇāmetvā udānaṁ udānesi: ",
+      "english": "When he had spoken, Jānussoṇi got down from his chariot, arranged his robe over one shoulder, raised his cupped palms toward the Buddha, and expressed this heartfelt sentiment three times, "
+    },
+    {
+      "number": 268,
+      "pali": "“lābhā rañño pasenadissa kosalassa, suladdhalābhā rañño pasenadissa kosalassa ",
+      "english": "“King Pasenadi of Kosala is lucky, so very lucky "
+    },
+    {
+      "number": 269,
+      "pali": "yassa vijite tathāgato viharati arahaṁ sammāsambuddho”ti. ",
+      "english": "that the Realized One, the perfected one, the fully awakened Buddha is living in his realm!” "
+    },
+    {
+      "number": 270,
+      "pali": "Subhasuttaṁ niṭṭhitaṁ navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

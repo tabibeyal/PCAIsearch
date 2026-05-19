@@ -1,0 +1,335 @@
+{
+  "sutta_id": "AN5.167",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 5.167 ",
+      "english": "Numbered Discourses 5.167 "
+    },
+    {
+      "number": 2,
+      "pali": "17. Āghātavagga ",
+      "english": "17. Resentment "
+    },
+    {
+      "number": 3,
+      "pali": "Codanāsutta ",
+      "english": "Accusation "
+    },
+    {
+      "number": 4,
+      "pali": "Tatra kho āyasmā sāriputto bhikkhū āmantesi: ",
+      "english": "There Sāriputta addressed the mendicants: "
+    },
+    {
+      "number": 5,
+      "pali": "“codakena, āvuso, bhikkhunā paraṁ codetukāmena pañca dhamme ajjhattaṁ upaṭṭhāpetvā paro codetabbo. ",
+      "english": "“Reverends, a mendicant who wants to accuse another should first establish five things in themselves. "
+    },
+    {
+      "number": 6,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 7,
+      "pali": "Kālena vakkhāmi, no akālena; ",
+      "english": "I will speak at the right time, not at the wrong time. "
+    },
+    {
+      "number": 8,
+      "pali": "bhūtena vakkhāmi, no abhūtena; ",
+      "english": "I will speak truthfully, not falsely. "
+    },
+    {
+      "number": 9,
+      "pali": "saṇhena vakkhāmi, no pharusena; ",
+      "english": "I will speak gently, not harshly. "
+    },
+    {
+      "number": 10,
+      "pali": "atthasaṁhitena vakkhāmi, no anatthasaṁhitena; ",
+      "english": "I will speak beneficially, not harmfully. "
+    },
+    {
+      "number": 11,
+      "pali": "mettacitto vakkhāmi, no dosantaro. ",
+      "english": "I will speak lovingly, not from secret hate. "
+    },
+    {
+      "number": 12,
+      "pali": "Codakena, āvuso, bhikkhunā paraṁ codetukāmena ime pañca dhamme ajjhattaṁ upaṭṭhāpetvā paro codetabbo. ",
+      "english": "A mendicant who wants to accuse another should first establish these five things in themselves. "
+    },
+    {
+      "number": 13,
+      "pali": "Idhāhaṁ, āvuso, ekaccaṁ puggalaṁ passāmi akālena codiyamānaṁ no kālena kupitaṁ, abhūtena codiyamānaṁ no bhūtena kupitaṁ, pharusena codiyamānaṁ no saṇhena kupitaṁ, anatthasaṁhitena codiyamānaṁ no atthasaṁhitena kupitaṁ, dosantarena codiyamānaṁ no mettacittena kupitaṁ. ",
+      "english": "Take a case where I see a certain individual being accused at the wrong time, not being disturbed at the right time. They’re accused falsely, not disturbed truthfully. They’re accused harshly, not disturbed gently. They’re accused harmfully, not disturbed beneficially. They’re accused with secret hate, not disturbed lovingly. "
+    },
+    {
+      "number": 14,
+      "pali": "Adhammacuditassa, āvuso, bhikkhuno pañcahākārehi avippaṭisāro upadahātabbo: ",
+      "english": "The mendicant who is accused improperly should be reassured in five ways. "
+    },
+    {
+      "number": 15,
+      "pali": "‘akālenāyasmā cudito no kālena, alaṁ te avippaṭisārāya; ",
+      "english": "‘Venerable, you were accused at the wrong time, not at the right time. There’s no need for you to feel remorse. "
+    },
+    {
+      "number": 16,
+      "pali": "abhūtenāyasmā cudito no bhūtena, alaṁ te avippaṭisārāya; ",
+      "english": "You were accused falsely, not truthfully. … "
+    },
+    {
+      "number": 17,
+      "pali": "pharusenāyasmā cudito no saṇhena, alaṁ te avippaṭisārāya; ",
+      "english": "You were accused harshly, not gently. … "
+    },
+    {
+      "number": 18,
+      "pali": "anatthasaṁhitenāyasmā cudito no atthasaṁhitena, alaṁ te avippaṭisārāya; ",
+      "english": "You were accused harmfully, not beneficially. … "
+    },
+    {
+      "number": 19,
+      "pali": "dosantarenāyasmā cudito no mettacittena, alaṁ te avippaṭisārāyā’ti. ",
+      "english": "You were accused with secret hate, not lovingly. There’s no need for you to feel remorse.’ "
+    },
+    {
+      "number": 20,
+      "pali": "Adhammacuditassa, āvuso, bhikkhuno imehi pañcahākārehi avippaṭisāro upadahātabbo. ",
+      "english": "A mendicant who is accused improperly should be reassured in these five ways. "
+    },
+    {
+      "number": 21,
+      "pali": "Adhammacodakassa, āvuso, bhikkhuno pañcahākārehi vippaṭisāro upadahātabbo: ",
+      "english": "The mendicant who makes improper accusations should be chastened in five ways. "
+    },
+    {
+      "number": 22,
+      "pali": "‘akālena te, āvuso, codito no kālena, alaṁ te vippaṭisārāya; ",
+      "english": "‘Reverend, you made an accusation at the wrong time, not at the right time. There’s a reason for you to feel remorse. "
+    },
+    {
+      "number": 23,
+      "pali": "abhūtena te, āvuso, codito no bhūtena, alaṁ te vippaṭisārāya; ",
+      "english": "You made an accusation falsely, not truthfully. … "
+    },
+    {
+      "number": 24,
+      "pali": "pharusena te, āvuso, codito no saṇhena, alaṁ te vippaṭisārāya; ",
+      "english": "You made an accusation harshly, not gently. … "
+    },
+    {
+      "number": 25,
+      "pali": "anatthasaṁhitena te, āvuso, codito no atthasaṁhitena, alaṁ te vippaṭisārāya; ",
+      "english": "You made an accusation harmfully, not beneficially. … "
+    },
+    {
+      "number": 26,
+      "pali": "dosantarena te, āvuso, codito no mettacittena, alaṁ te vippaṭisārāyā’ti. ",
+      "english": "You made an accusation with secret hate, not lovingly. There’s a reason for you to feel remorse.’ "
+    },
+    {
+      "number": 27,
+      "pali": "Adhammacodakassa, āvuso, bhikkhuno imehi pañcahākārehi vippaṭisāro upadahātabbo. ",
+      "english": "The mendicant who makes improper accusations should be chastened in these five ways. "
+    },
+    {
+      "number": 28,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 29,
+      "pali": "Yathā na aññopi bhikkhu abhūtena codetabbaṁ maññeyyāti. ",
+      "english": "So that another mendicant wouldn’t think to make a false accusation. "
+    },
+    {
+      "number": 30,
+      "pali": "Idha panāhaṁ, āvuso, ekaccaṁ puggalaṁ passāmi kālena codiyamānaṁ no akālena kupitaṁ, bhūtena codiyamānaṁ no abhūtena kupitaṁ, saṇhena codiyamānaṁ no pharusena kupitaṁ, atthasaṁhitena codiyamānaṁ no anatthasaṁhitena kupitaṁ, mettacittena codiyamānaṁ no dosantarena kupitaṁ. ",
+      "english": "Take a case where I see a certain individual being accused at the right time, not being disturbed at the wrong time. They’re accused truthfully, not disturbed falsely. They’re accused gently, not disturbed harshly. They’re accused beneficially, not disturbed harmfully. They’re accused lovingly, not disturbed with secret hate. "
+    },
+    {
+      "number": 31,
+      "pali": "Dhammacuditassa, āvuso, bhikkhuno pañcahākārehi vippaṭisāro upadahātabbo: ",
+      "english": "The mendicant who is accused properly should be chastened in five ways. "
+    },
+    {
+      "number": 32,
+      "pali": "‘kālenāyasmā cudito no akālena, alaṁ te vippaṭisārāya; ",
+      "english": "‘Venerable, you were accused at the right time, not at the wrong time. There’s a reason for you to feel remorse. "
+    },
+    {
+      "number": 33,
+      "pali": "bhūtenāyasmā cudito no abhūtena, alaṁ te vippaṭisārāya; ",
+      "english": "You were accused truthfully, not falsely. … "
+    },
+    {
+      "number": 34,
+      "pali": "saṇhenāyasmā cudito no pharusena, alaṁ te vippaṭisārāya; ",
+      "english": "You were accused gently, not harshly. … "
+    },
+    {
+      "number": 35,
+      "pali": "atthasaṁhitenāyasmā cudito no anatthasaṁhitena, alaṁ te vippaṭisārāya; ",
+      "english": "You were accused beneficially, not harmfully. … "
+    },
+    {
+      "number": 36,
+      "pali": "mettacittenāyasmā cudito no dosantarena, alaṁ te vippaṭisārāyā’ti. ",
+      "english": "You were accused lovingly, not with secret hate. There’s a reason for you to feel remorse.’ "
+    },
+    {
+      "number": 37,
+      "pali": "Dhammacuditassa, āvuso, bhikkhuno imehi pañcahākārehi vippaṭisāro upadahātabbo. ",
+      "english": "The mendicant who is accused properly should be chastened in these five ways. "
+    },
+    {
+      "number": 38,
+      "pali": "Dhammacodakassa, āvuso, bhikkhuno pañcahākārehi avippaṭisāro upadahātabbo: ",
+      "english": "The mendicant who makes proper accusations should be reassured in five ways. "
+    },
+    {
+      "number": 39,
+      "pali": "‘kālena te, āvuso, codito no akālena, alaṁ te avippaṭisārāya; ",
+      "english": "‘Reverend, you made an accusation at the right time, not at the wrong time. There’s no need for you to feel remorse. "
+    },
+    {
+      "number": 40,
+      "pali": "bhūtena te, āvuso, codito no abhūtena, alaṁ te avippaṭisārāya; ",
+      "english": "You made an accusation truthfully, not falsely. … "
+    },
+    {
+      "number": 41,
+      "pali": "saṇhena te, āvuso, codito no pharusena, alaṁ te avippaṭisārāya; ",
+      "english": "You made an accusation gently, not harshly. … "
+    },
+    {
+      "number": 42,
+      "pali": "atthasaṁhitena te, āvuso, codito no anatthasaṁhitena, alaṁ te avippaṭisārāya; ",
+      "english": "You made an accusation beneficially, not harmfully. … "
+    },
+    {
+      "number": 43,
+      "pali": "mettacittena te, āvuso, codito no dosantarena, alaṁ te avippaṭisārāyā’ti. ",
+      "english": "You made an accusation lovingly, not with secret hate. There’s no need for you to feel remorse.’ "
+    },
+    {
+      "number": 44,
+      "pali": "Dhammacodakassa, āvuso, bhikkhuno imehi pañcahākārehi avippaṭisāro upadahātabbo. ",
+      "english": "The mendicant who makes proper accusations should be reassured in these five ways. "
+    },
+    {
+      "number": 45,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 46,
+      "pali": "Yathā aññopi bhikkhu bhūtena coditabbaṁ maññeyyāti. ",
+      "english": "So that another mendicant would think to make a true accusation. "
+    },
+    {
+      "number": 47,
+      "pali": "Cuditena, āvuso, puggalena dvīsu dhammesu patiṭṭhātabbaṁ—",
+      "english": "An individual who is accused should ground themselves in two things: "
+    },
+    {
+      "number": 48,
+      "pali": "sacce ca, akuppe ca. ",
+      "english": "truth and an even temper. "
+    },
+    {
+      "number": 49,
+      "pali": "Mañcepi, āvuso, pare codeyyuṁ kālena vā akālena vā bhūtena vā abhūtena vā saṇhena vā pharusena vā atthasaṁhitena vā anatthasaṁhitena vā mettacittā vā dosantarā vā, ahampi dvīsuyeva dhammesu patiṭṭhaheyyaṁ—",
+      "english": "Even if others accuse me—at the right time or the wrong time, truthfully or falsely, gently or harshly, beneficially or harmfully, lovingly or with secret hate—I will still ground myself in two things: "
+    },
+    {
+      "number": 50,
+      "pali": "sacce ca, akuppe ca. ",
+      "english": "truth and an even temper. "
+    },
+    {
+      "number": 51,
+      "pali": "Sace jāneyyaṁ: ",
+      "english": "If I know that "
+    },
+    {
+      "number": 52,
+      "pali": "‘attheso mayi dhammo’ti, ‘atthī’ti naṁ vadeyyaṁ: ",
+      "english": "that quality is found in me, I will tell them that it is. "
+    },
+    {
+      "number": 53,
+      "pali": "‘saṁvijjateso mayi dhammo’ti. ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Sace jāneyyaṁ: ",
+      "english": "If I know that "
+    },
+    {
+      "number": 55,
+      "pali": "‘nattheso mayi dhammo’ti, ‘natthī’ti naṁ vadeyyaṁ: ",
+      "english": "that quality is not found in me, I will tell them that it is not.” "
+    },
+    {
+      "number": 56,
+      "pali": "‘neso dhammo mayi saṁvijjatī’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "“Evampi kho te, sāriputta, vuccamānā atha ca panidhekacce moghapurisā na padakkhiṇaṁ gaṇhantī”ti. ",
+      "english": "“Even when you speak like this, Sāriputta, there are still some futile people here who do not respectfully take it up.” "
+    },
+    {
+      "number": 58,
+      "pali": "“Ye te, bhante, puggalā assaddhā jīvikatthā na saddhā agārasmā anagāriyaṁ pabbajitā saṭhā māyāvino ketabino uddhatā unnaḷā capalā mukharā vikiṇṇavācā indriyesu aguttadvārā bhojane amattaññuno jāgariyaṁ ananuyuttā sāmaññe anapekkhavanto sikkhāya na tibbagāravā bāhulikā sāthalikā okkamane pubbaṅgamā paviveke nikkhittadhurā kusītā hīnavīriyā muṭṭhassatino asampajānā asamāhitā vibbhantacittā duppaññā eḷamūgā, te mayā evaṁ vuccamānā na padakkhiṇaṁ gaṇhanti. ",
+      "english": "“Sir, there are those faithless individuals who went forth from the lay life to homelessness not out of faith but to earn a livelihood. They’re devious, deceitful, and sneaky. They’re restless, insolent, fickle, scurrilous, and loose-tongued. They do not guard their sense doors or eat in moderation, and they are not dedicated to wakefulness. They don’t care about the ascetic life, and don’t keenly respect the training. They’re indulgent and slack, leaders in backsliding, neglecting seclusion, lazy, and lacking energy. They’re unmindful, lacking situational awareness and immersion, with straying minds, witless and idiotic. When I speak to them like this, they don’t respectfully take it up. "
+    },
+    {
+      "number": 59,
+      "pali": "Ye pana te, bhante, kulaputtā saddhā agārasmā anagāriyaṁ pabbajitā asaṭhā amāyāvino aketabino anuddhatā anunnaḷā acapalā amukharā avikiṇṇavācā indriyesu guttadvārā bhojane mattaññuno jāgariyaṁ anuyuttā sāmaññe apekkhavanto sikkhāya tibbagāravā na bāhulikā na sāthalikā okkamane nikkhittadhurā paviveke pubbaṅgamā āraddhavīriyā pahitattā upaṭṭhitassatino sampajānā samāhitā ekaggacittā paññavanto aneḷamūgā, te mayā evaṁ vuccamānā padakkhiṇaṁ gaṇhantī”ti. ",
+      "english": "Sir, there are those gentlemen who went forth from the lay life to homelessness out of faith. They’re not devious, deceitful, and sneaky. They’re not restless, insolent, fickle, scurrilous, and loose-tongued. They guard their sense doors and eat in moderation, and they are dedicated to wakefulness. They care about the ascetic life, and keenly respect the training. They’re not indulgent or slack, nor are they leaders in backsliding, neglecting seclusion. They’re energetic and determined. They’re mindful, with situational awareness, immersion, and unified minds; wise and clever. When I speak to them like this, they do respectfully take it up.” "
+    },
+    {
+      "number": 60,
+      "pali": "“Ye te, sāriputta, puggalā assaddhā jīvikatthā na saddhā agārasmā anagāriyaṁ pabbajitā saṭhā māyāvino ketabino uddhatā unnaḷā capalā mukharā vikiṇṇavācā indriyesu aguttadvārā bhojane amattaññuno jāgariyaṁ ananuyuttā sāmaññe anapekkhavanto sikkhāya na tibbagāravā bāhulikā sāthalikā okkamane pubbaṅgamā paviveke nikkhittadhurā kusītā hīnavīriyā muṭṭhassatino asampajānā asamāhitā vibbhantacittā duppaññā eḷamūgā, tiṭṭhantu te. ",
+      "english": "“Sāriputta, those faithless individuals who went forth from the lay life to homelessness not out of faith but to earn a livelihood … Leave them be. "
+    },
+    {
+      "number": 61,
+      "pali": "Ye pana te, sāriputta, kulaputtā saddhā agārasmā anagāriyaṁ pabbajitā asaṭhā amāyāvino aketabino anuddhatā anunnaḷā acapalā amukharā avikiṇṇavācā indriyesu guttadvārā bhojane mattaññuno jāgariyaṁ anuyuttā sāmaññe apekkhavanto sikkhāya tibbagāravā na bāhulikā na sāthalikā okkamane nikkhittadhurā paviveke pubbaṅgamā āraddhavīriyā pahitattā upaṭṭhitassatino sampajānā samāhitā ekaggacittā paññavanto aneḷamūgā, te tvaṁ, sāriputta, vadeyyāsi. ",
+      "english": "But those gentlemen who went forth from the lay life to homelessness out of faith … You should speak to them. "
+    },
+    {
+      "number": 62,
+      "pali": "Ovada, sāriputta, sabrahmacārī; ",
+      "english": "Sāriputta, you should advise your spiritual companions! "
+    },
+    {
+      "number": 63,
+      "pali": "anusāsa, sāriputta, sabrahmacārī: ",
+      "english": "You should instruct your spiritual companions! "
+    },
+    {
+      "number": 64,
+      "pali": "‘asaddhammā vuṭṭhāpetvā saddhamme patiṭṭhāpessāmi sabrahmacārī’ti. ",
+      "english": "Thinking: ‘I will draw my spiritual companions away from false teachings and ground them in true teachings.’ "
+    },
+    {
+      "number": 65,
+      "pali": "Evañhi te, sāriputta, sikkhitabban”ti. ",
+      "english": "That’s how you should train.” "
+    },
+    {
+      "number": 66,
+      "pali": "Sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

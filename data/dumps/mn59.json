@@ -1,0 +1,560 @@
+{
+  "sutta_id": "MN59",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 59 ",
+      "english": "Middle Discourses 59 "
+    },
+    {
+      "number": 2,
+      "pali": "Bahuvedanīyasutta ",
+      "english": "The Many Kinds of Feeling "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho pañcakaṅgo thapati yenāyasmā udāyī tenupasaṅkami; upasaṅkamitvā āyasmantaṁ udāyiṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho pañcakaṅgo thapati āyasmantaṁ udāyiṁ etadavoca: ",
+      "english": "Then the chamberlain Pañcakaṅga went up to Venerable Udāyī, bowed, sat down to one side, and said to him, "
+    },
+    {
+      "number": 6,
+      "pali": "“kati nu kho, bhante udāyi, vedanā vuttā bhagavatā”ti? ",
+      "english": "“Sir, how many feelings has the Buddha spoken of?” "
+    },
+    {
+      "number": 7,
+      "pali": "“Tisso kho, thapati, vedanā vuttā bhagavatā. ",
+      "english": "“Chamberlain, the Buddha has spoken of three feelings: "
+    },
+    {
+      "number": 8,
+      "pali": "Sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā—",
+      "english": "pleasant, painful, and neutral. "
+    },
+    {
+      "number": 9,
+      "pali": "imā kho, thapati, tisso vedanā vuttā bhagavatā”ti. ",
+      "english": "The Buddha has spoken of these three feelings.” "
+    },
+    {
+      "number": 10,
+      "pali": "Evaṁ vutte, pañcakaṅgo thapati āyasmantaṁ udāyiṁ etadavoca: ",
+      "english": "When he said this, Pañcakaṅga said to Udāyī, "
+    },
+    {
+      "number": 11,
+      "pali": "“na kho, bhante udāyi, tisso vedanā vuttā bhagavatā; ",
+      "english": "“Sir, Udāyī, the Buddha hasn’t spoken of three feelings. "
+    },
+    {
+      "number": 12,
+      "pali": "dve vedanā vuttā bhagavatā—",
+      "english": "He’s spoken of two feelings: "
+    },
+    {
+      "number": 13,
+      "pali": "sukhā vedanā, dukkhā vedanā. ",
+      "english": "pleasant and painful. "
+    },
+    {
+      "number": 14,
+      "pali": "Yāyaṁ, bhante, adukkhamasukhā vedanā santasmiṁ esā paṇīte sukhe vuttā bhagavatā”ti. ",
+      "english": "The Buddha said that neutral feeling is included as a peaceful and subtle kind of pleasure.” "
+    },
+    {
+      "number": 15,
+      "pali": "Dutiyampi kho āyasmā udāyī pañcakaṅgaṁ thapatiṁ etadavoca: ",
+      "english": "For a second time, Udāyī said to Pañcakaṅga, "
+    },
+    {
+      "number": 16,
+      "pali": "“na kho, gahapati, dve vedanā vuttā bhagavatā; ",
+      "english": "“The Buddha hasn’t spoken of two feelings, "
+    },
+    {
+      "number": 17,
+      "pali": "tisso vedanā vuttā bhagavatā. ",
+      "english": "he’s spoken of three.” "
+    },
+    {
+      "number": 18,
+      "pali": "Sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā—",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "imā kho, thapati, tisso vedanā vuttā bhagavatā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "Dutiyampi kho pañcakaṅgo thapati āyasmantaṁ udāyiṁ etadavoca: ",
+      "english": "For a second time, Pañcakaṅga said to Udāyī, "
+    },
+    {
+      "number": 21,
+      "pali": "“na kho, bhante udāyi, tisso vedanā vuttā bhagavatā; ",
+      "english": "“The Buddha hasn’t spoken of three feelings, "
+    },
+    {
+      "number": 22,
+      "pali": "dve vedanā vuttā bhagavatā—",
+      "english": "he’s spoken of two.” "
+    },
+    {
+      "number": 23,
+      "pali": "sukhā vedanā, dukkhā vedanā. ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "Yāyaṁ, bhante, adukkhamasukhā vedanā santasmiṁ esā paṇīte sukhe vuttā bhagavatā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Tatiyampi kho āyasmā udāyī pañcakaṅgaṁ thapatiṁ etadavoca: ",
+      "english": "And for a third time, Udāyī said to Pañcakaṅga, "
+    },
+    {
+      "number": 26,
+      "pali": "“na kho, thapati, dve vedanā vuttā bhagavatā; ",
+      "english": "“The Buddha hasn’t spoken of two feelings, "
+    },
+    {
+      "number": 27,
+      "pali": "tisso vedanā vuttā bhagavatā. ",
+      "english": "he’s spoken of three.” "
+    },
+    {
+      "number": 28,
+      "pali": "Sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā—",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "imā kho, thapati, tisso vedanā vuttā bhagavatā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Tatiyampi kho pañcakaṅgo thapati āyasmantaṁ udāyiṁ etadavoca: ",
+      "english": "And for a third time, Pañcakaṅga said to Udāyī, "
+    },
+    {
+      "number": 31,
+      "pali": "“na kho, bhante udāyi, tisso vedanā vuttā bhagavatā, ",
+      "english": "“The Buddha hasn’t spoken of three feelings, "
+    },
+    {
+      "number": 32,
+      "pali": "dve vedanā vuttā bhagavatā—",
+      "english": "he’s spoken of two.” "
+    },
+    {
+      "number": 33,
+      "pali": "sukhā vedanā, dukkhā vedanā. ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "Yāyaṁ, bhante, adukkhamasukhā vedanā santasmiṁ esā paṇīte sukhe vuttā bhagavatā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Neva kho sakkhi āyasmā udāyī pañcakaṅgaṁ thapatiṁ saññāpetuṁ, na panāsakkhi pañcakaṅgo thapati āyasmantaṁ udāyiṁ saññāpetuṁ. ",
+      "english": "But neither was able to persuade the other. "
+    },
+    {
+      "number": 36,
+      "pali": "Assosi kho āyasmā ānando āyasmato udāyissa pañcakaṅgena thapatinā saddhiṁ imaṁ kathāsallāpaṁ. ",
+      "english": "Venerable Ānanda heard this discussion between Udāyī and Pañcakaṅga. "
+    },
+    {
+      "number": 37,
+      "pali": "Atha kho āyasmā ānando yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "Then he went up to the Buddha, bowed, sat down to one side, "
+    },
+    {
+      "number": 38,
+      "pali": "Ekamantaṁ nisinno kho āyasmā ānando yāvatako ahosi āyasmato udāyissa pañcakaṅgena thapatinā saddhiṁ kathāsallāpo taṁ sabbaṁ bhagavato ārocesi. ",
+      "english": "and informed the Buddha of all they had discussed. "
+    },
+    {
+      "number": 39,
+      "pali": "Evaṁ vutte, bhagavā āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "When he had spoken, the Buddha said to him, "
+    },
+    {
+      "number": 40,
+      "pali": "“santaññeva kho, ānanda, pariyāyaṁ pañcakaṅgo thapati udāyissa nābbhanumodi, santaññeva ca pana pariyāyaṁ udāyī pañcakaṅgassa thapatissa nābbhanumodi. ",
+      "english": "“Ānanda, the explanation by the mendicant Udāyī, which the chamberlain Pañcakaṅga didn’t agree with, was quite correct. But the explanation by Pañcakaṅga, which Udāyī didn’t agree with, was also quite correct. "
+    },
+    {
+      "number": 41,
+      "pali": "Dvepānanda, vedanā vuttā mayā pariyāyena, tissopi vedanā vuttā mayā pariyāyena, pañcapi vedanā vuttā mayā pariyāyena, chapi vedanā vuttā mayā pariyāyena, aṭṭhārasapi vedanā vuttā mayā pariyāyena, chattiṁsapi vedanā vuttā mayā pariyāyena, aṭṭhasatampi vedanā vuttā mayā pariyāyena. ",
+      "english": "In one explanation I’ve spoken of two feelings. In another explanation I’ve spoken of three feelings, or five, six, eighteen, thirty-six, or a hundred and eight feelings. "
+    },
+    {
+      "number": 42,
+      "pali": "Evaṁ pariyāyadesito kho, ānanda, mayā dhammo. ",
+      "english": "I’ve explained the teaching in all these different ways. "
+    },
+    {
+      "number": 43,
+      "pali": "Evaṁ pariyāyadesite kho, ānanda, mayā dhamme ye aññamaññassa subhāsitaṁ sulapitaṁ na samanujānissanti na samanumaññissanti na samanumodissanti tesametaṁ pāṭikaṅkhaṁ—bhaṇḍanajātā kalahajātā vivādāpannā aññamaññaṁ mukhasattīhi vitudantā viharissanti. ",
+      "english": "This being so, you can expect that those who don’t concede, approve, or agree with what has been well spoken will fight, quarrel, and dispute, continually wounding each other with barbed words. "
+    },
+    {
+      "number": 44,
+      "pali": "Evaṁ pariyāyadesito kho, ānanda, mayā dhammo. ",
+      "english": "I’ve explained the teaching in all these different ways. "
+    },
+    {
+      "number": 45,
+      "pali": "Evaṁ pariyāyadesite kho, ānanda, mayā dhamme ye aññamaññassa subhāsitaṁ sulapitaṁ samanujānissanti samanumaññissanti samanumodissanti tesametaṁ pāṭikaṅkhaṁ—samaggā sammodamānā avivadamānā khīrodakībhūtā aññamaññaṁ piyacakkhūhi sampassantā viharissanti. ",
+      "english": "This being so, you can expect that those who do concede, approve, or agree with what has been well spoken will live in harmony, appreciating each other, without quarreling, blending like milk and water, and regarding each other with kindly eyes. "
+    },
+    {
+      "number": 46,
+      "pali": "Pañca kho ime, ānanda, kāmaguṇā. ",
+      "english": "There are these five kinds of sensual stimulation. "
+    },
+    {
+      "number": 47,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 48,
+      "pali": "Cakkhuviññeyyā rūpā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā, ",
+      "english": "Sights known by the eye, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 49,
+      "pali": "sotaviññeyyā saddā …pe… ",
+      "english": "Sounds known by the ear … "
+    },
+    {
+      "number": 50,
+      "pali": "ghānaviññeyyā gandhā …pe… ",
+      "english": "Smells known by the nose … "
+    },
+    {
+      "number": 51,
+      "pali": "jivhāviññeyyā rasā …pe… ",
+      "english": "Tastes known by the tongue … "
+    },
+    {
+      "number": 52,
+      "pali": "kāyaviññeyyā phoṭṭhabbā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā—",
+      "english": "Touches known by the body, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 53,
+      "pali": "ime kho, ānanda, pañca kāmaguṇā. ",
+      "english": "These are the five kinds of sensual stimulation. "
+    },
+    {
+      "number": 54,
+      "pali": "Yaṁ kho, ānanda, ime pañca kāmaguṇe paṭicca uppajjati sukhaṁ somanassaṁ idaṁ vuccati kāmasukhaṁ. ",
+      "english": "The pleasure and happiness that arise from these five kinds of sensual stimulation is called sensual pleasure. "
+    },
+    {
+      "number": 55,
+      "pali": "Yo kho, ānanda, evaṁ vadeyya: ‘etaparamaṁ sattā sukhaṁ somanassaṁ paṭisaṁvedentī’ti, idamassa nānujānāmi. ",
+      "english": "There are those who might say that this is the highest pleasure and happiness that sentient beings experience. But I don’t grant them that. "
+    },
+    {
+      "number": 56,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 57,
+      "pali": "Atthānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": "Because there is another pleasure that is finer than that. "
+    },
+    {
+      "number": 58,
+      "pali": "Katamañcānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca? ",
+      "english": "And what is that pleasure? "
+    },
+    {
+      "number": 59,
+      "pali": "Idhānanda, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi …pe… paṭhamaṁ jhānaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 60,
+      "pali": "Idaṁ kho, ānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": "This is a pleasure that is finer than that. "
+    },
+    {
+      "number": 61,
+      "pali": "Yo kho, ānanda, evaṁ vadeyya: ‘etaparamaṁ sattā sukhaṁ somanassaṁ paṭisaṁvedentī’ti, idamassa nānujānāmi. ",
+      "english": "There are those who would say that this is the highest pleasure and happiness that sentient beings experience. But I don’t grant them that. "
+    },
+    {
+      "number": 62,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 63,
+      "pali": "Atthānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": "Because there is another pleasure that is finer than that. "
+    },
+    {
+      "number": 64,
+      "pali": "Katamañcānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca? ",
+      "english": "And what is that pleasure? "
+    },
+    {
+      "number": 65,
+      "pali": "Idhānanda, bhikkhu vitakkavicārānaṁ vūpasamā …pe… dutiyaṁ jhānaṁ upasampajja viharati. ",
+      "english": "It’s when, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without placing the mind and keeping it connected. … "
+    },
+    {
+      "number": 66,
+      "pali": "Idaṁ kho, ānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "Yo kho, ānanda, evaṁ vadeyya … ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "pe…. ",
+      "english": "There is another pleasure that is finer than that. "
+    },
+    {
+      "number": 69,
+      "pali": "Katamañcānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca? ",
+      "english": "And what is that pleasure? "
+    },
+    {
+      "number": 70,
+      "pali": "Idhānanda, bhikkhu pītiyā ca virāgā …pe… tatiyaṁ jhānaṁ upasampajja viharati. ",
+      "english": "It’s when, with the fading away of rapture, a mendicant enters and remains in the third absorption, where they meditate with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ … "
+    },
+    {
+      "number": 71,
+      "pali": "Idaṁ kho, ānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "Yo kho, ānanda, evaṁ vadeyya … ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "pe…. ",
+      "english": "There is another pleasure that is finer than that. "
+    },
+    {
+      "number": 74,
+      "pali": "Katamañcānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca? ",
+      "english": "And what is that pleasure? "
+    },
+    {
+      "number": 75,
+      "pali": "Idhānanda, bhikkhu sukhassa ca pahānā …pe… catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "It’s when, with the giving up of pleasure and pain and the disappearance of former happiness and sadness, a mendicant enters and remains in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. … "
+    },
+    {
+      "number": 76,
+      "pali": "Idaṁ kho, ānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "Yo kho, ānanda, evaṁ vadeyya … ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "pe…. ",
+      "english": "There is another pleasure that is finer than that. "
+    },
+    {
+      "number": 79,
+      "pali": "Katamañcānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca? ",
+      "english": "And what is that pleasure? "
+    },
+    {
+      "number": 80,
+      "pali": "Idhānanda, bhikkhu sabbaso rūpasaññānaṁ samatikkamā, paṭighasaññānaṁ atthaṅgamā, nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, going totally beyond perceptions of form, with the disappearance of perceptions of impingement, not focusing on perceptions of diversity, aware that ‘space is infinite’, enters and remains in the dimension of infinite space. … "
+    },
+    {
+      "number": 81,
+      "pali": "Idaṁ kho, ānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "Yo kho, ānanda, evaṁ vadeyya … ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "pe…. ",
+      "english": "There is another pleasure that is finer than that. "
+    },
+    {
+      "number": 84,
+      "pali": "Katamañcānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca? ",
+      "english": "And what is that pleasure? "
+    },
+    {
+      "number": 85,
+      "pali": "Idhānanda, bhikkhu sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, going totally beyond the dimension of infinite space, aware that ‘consciousness is infinite’, enters and remains in the dimension of infinite consciousness. … "
+    },
+    {
+      "number": 86,
+      "pali": "Idaṁ kho, ānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "Yo kho, ānanda, evaṁ vadeyya … ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "pe…. ",
+      "english": "There is another pleasure that is finer than that. "
+    },
+    {
+      "number": 89,
+      "pali": "Katamañcānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca? ",
+      "english": "And what is that pleasure? "
+    },
+    {
+      "number": 90,
+      "pali": "Idhānanda, bhikkhu sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, going totally beyond the dimension of infinite consciousness, aware that ‘there is nothing at all’, enters and remains in the dimension of nothingness. … "
+    },
+    {
+      "number": 91,
+      "pali": "Idaṁ kho, ānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": ""
+    },
+    {
+      "number": 92,
+      "pali": "Yo kho, ānanda, evaṁ vadeyya … ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "pe…. ",
+      "english": "There is another pleasure that is finer than that. "
+    },
+    {
+      "number": 94,
+      "pali": "Katamañcānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca? ",
+      "english": "And what is that pleasure? "
+    },
+    {
+      "number": 95,
+      "pali": "Idhānanda, bhikkhu sabbaso ākiñcaññāyatanaṁ samatikkamma nevasaññānāsaññāyatanaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, going totally beyond the dimension of nothingness, enters and remains in the dimension of neither perception nor non-perception. "
+    },
+    {
+      "number": 96,
+      "pali": "Idaṁ kho, ānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": "This is a pleasure that is finer than that. "
+    },
+    {
+      "number": 97,
+      "pali": "Yo kho, ānanda, evaṁ vadeyya: ‘etaparamaṁ sattā sukhaṁ somanassaṁ paṭisaṁvedentī’ti, idamassa nānujānāmi. ",
+      "english": "There are those who would say that this is the highest pleasure and happiness that sentient beings experience. But I don’t grant them that. "
+    },
+    {
+      "number": 98,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 99,
+      "pali": "Atthānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": "Because there is another pleasure that is finer than that. "
+    },
+    {
+      "number": 100,
+      "pali": "Katamañcānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca? ",
+      "english": "And what is that pleasure? "
+    },
+    {
+      "number": 101,
+      "pali": "Idhānanda, bhikkhu sabbaso nevasaññānāsaññāyatanaṁ samatikkamma saññāvedayitanirodhaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, going totally beyond the dimension of neither perception nor non-perception, enters and remains in the cessation of perception and feeling. "
+    },
+    {
+      "number": 102,
+      "pali": "Idaṁ kho, ānanda, etamhā sukhā aññaṁ sukhaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": "This is a pleasure that is finer than that. "
+    },
+    {
+      "number": 103,
+      "pali": "Ṭhānaṁ kho panetaṁ, ānanda, vijjati yaṁ aññatitthiyā paribbājakā evaṁ vadeyyuṁ: ",
+      "english": "It’s possible that wanderers of other religions might say, "
+    },
+    {
+      "number": 104,
+      "pali": "‘saññāvedayitanirodhaṁ samaṇo gotamo āha; tañca sukhasmiṁ paññapeti. ",
+      "english": "‘The ascetic Gotama spoke of the cessation of perception and feeling, and he includes it in happiness. "
+    },
+    {
+      "number": 105,
+      "pali": "Tayidaṁ kiṁsu, tayidaṁ kathaṁsū’ti? ",
+      "english": "What’s up with that?’ "
+    },
+    {
+      "number": 106,
+      "pali": "Evaṁvādino, ānanda, aññatitthiyā paribbājakā evamassu vacanīyā: ",
+      "english": "When wanderers of other religions say this, you should say to them, "
+    },
+    {
+      "number": 107,
+      "pali": "‘na kho, āvuso, bhagavā sukhaṁyeva vedanaṁ sandhāya sukhasmiṁ paññapeti; ",
+      "english": "‘Reverends, when the Buddha describes what’s included in happiness, he’s not just referring to pleasant feeling. "
+    },
+    {
+      "number": 108,
+      "pali": "api ca, āvuso, yattha yattha sukhaṁ upalabbhati yahiṁ yahiṁ taṁ taṁ tathāgato sukhasmiṁ paññapetī’”ti. ",
+      "english": "The Realized One describes pleasure as included in happiness wherever it is found, and in whatever context.’” "
+    },
+    {
+      "number": 109,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 110,
+      "pali": "Attamano āyasmā ānando bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Ānanda approved what the Buddha said. "
+    },
+    {
+      "number": 111,
+      "pali": "Bahuvedanīyasuttaṁ niṭṭhitaṁ navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,1020 @@
+{
+  "sutta_id": "MN5",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 5 ",
+      "english": "Middle Discourses 5 "
+    },
+    {
+      "number": 2,
+      "pali": "Anaṅgaṇasutta ",
+      "english": "Unblemished "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho āyasmā sāriputto bhikkhū āmantesi: ",
+      "english": "There Sāriputta addressed the mendicants: "
+    },
+    {
+      "number": 6,
+      "pali": "“āvuso bhikkhave”ti. ",
+      "english": "“Reverends, mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Āvuso”ti kho te bhikkhū āyasmato sāriputtassa paccassosuṁ. ",
+      "english": "“Reverend,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Āyasmā sāriputto etadavoca: ",
+      "english": "Sāriputta said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Cattārome, āvuso, puggalā santo saṁvijjamānā lokasmiṁ. ",
+      "english": "“Reverends, these four individuals are found in the world. "
+    },
+    {
+      "number": 10,
+      "pali": "Katame cattāro? ",
+      "english": "What four? "
+    },
+    {
+      "number": 11,
+      "pali": "Idhāvuso, ekacco puggalo sāṅgaṇova samāno ‘atthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "One individual with a blemish doesn’t truly understand: ‘There is a blemish in me.’ "
+    },
+    {
+      "number": 12,
+      "pali": "Idha panāvuso, ekacco puggalo sāṅgaṇova samāno ‘atthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ pajānāti. ",
+      "english": "But another individual with a blemish does truly understand: ‘There is a blemish in me.’ "
+    },
+    {
+      "number": 13,
+      "pali": "Idhāvuso, ekacco puggalo anaṅgaṇova samāno ‘natthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "One individual without a blemish doesn’t truly understand: ‘There is no blemish in me.’ "
+    },
+    {
+      "number": 14,
+      "pali": "Idha panāvuso, ekacco puggalo anaṅgaṇova samāno ‘natthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ pajānāti. ",
+      "english": "But another individual without a blemish does truly understand: ‘There is no blemish in me.’ "
+    },
+    {
+      "number": 15,
+      "pali": "Tatrāvuso, yvāyaṁ puggalo sāṅgaṇova samāno ‘atthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ nappajānāti, ayaṁ imesaṁ dvinnaṁ puggalānaṁ sāṅgaṇānaṁyeva sataṁ hīnapuriso akkhāyati. ",
+      "english": "In this case, of the two individuals with a blemish, the one who doesn’t understand is said to be worse, "
+    },
+    {
+      "number": 16,
+      "pali": "Tatrāvuso, yvāyaṁ puggalo sāṅgaṇova samāno ‘atthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ pajānāti, ayaṁ imesaṁ dvinnaṁ puggalānaṁ sāṅgaṇānaṁyeva sataṁ seṭṭhapuriso akkhāyati. ",
+      "english": "while the one who does understand is better. "
+    },
+    {
+      "number": 17,
+      "pali": "Tatrāvuso, yvāyaṁ puggalo anaṅgaṇova samāno ‘natthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ nappajānāti, ayaṁ imesaṁ dvinnaṁ puggalānaṁ anaṅgaṇānaṁyeva sataṁ hīnapuriso akkhāyati. ",
+      "english": "And of the two individuals without a blemish, the one who doesn’t understand is said to be worse, "
+    },
+    {
+      "number": 18,
+      "pali": "Tatrāvuso, yvāyaṁ puggalo anaṅgaṇova samāno ‘natthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ pajānāti, ayaṁ imesaṁ dvinnaṁ puggalānaṁ anaṅgaṇānaṁyeva sataṁ seṭṭhapuriso akkhāyatī”ti. ",
+      "english": "while the one who does understand is better.” "
+    },
+    {
+      "number": 19,
+      "pali": "Evaṁ vutte, āyasmā mahāmoggallāno āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": "When he said this, Venerable Mahāmoggallāna said to him: "
+    },
+    {
+      "number": 20,
+      "pali": "“Ko nu kho, āvuso sāriputta, hetu ko paccayo yenimesaṁ dvinnaṁ puggalānaṁ sāṅgaṇānaṁyeva sataṁ eko hīnapuriso akkhāyati, eko seṭṭhapuriso akkhāyati? ",
+      "english": "“What is the cause, Reverend Sāriputta, what is the reason why, of the two individuals with a blemish, one is said to be worse and one better? "
+    },
+    {
+      "number": 21,
+      "pali": "Ko panāvuso sāriputta, hetu ko paccayo yenimesaṁ dvinnaṁ puggalānaṁ anaṅgaṇānaṁyeva sataṁ eko hīnapuriso akkhāyati, eko seṭṭhapuriso akkhāyatī”ti? ",
+      "english": "And what is the cause, what is the reason why, of the two individuals without a blemish, one is said to be worse and one better?” "
+    },
+    {
+      "number": 22,
+      "pali": "“Tatrāvuso, yvāyaṁ puggalo sāṅgaṇova samāno ‘atthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ nappajānāti, tassetaṁ pāṭikaṅkhaṁ—na chandaṁ janessati na vāyamissati na vīriyaṁ ārabhissati tassaṅgaṇassa pahānāya; ",
+      "english": "“Reverends, take the case of the individual who has a blemish and does not understand it. You can expect that they won’t generate enthusiasm, make an effort, or rouse up energy to give up that blemish. "
+    },
+    {
+      "number": 23,
+      "pali": "so sarāgo sadoso samoho sāṅgaṇo saṅkiliṭṭhacitto kālaṁ karissati. ",
+      "english": "And they will die with greed, hate, and delusion, blemished, with a corrupted mind. "
+    },
+    {
+      "number": 24,
+      "pali": "Seyyathāpi, āvuso, kaṁsapāti ābhatā āpaṇā vā kammārakulā vā rajena ca malena ca pariyonaddhā. ",
+      "english": "Suppose a bronze cup was brought from a shop or smithy covered with dirt or stains. "
+    },
+    {
+      "number": 25,
+      "pali": "Tamenaṁ sāmikā na ceva paribhuñjeyyuṁ na ca pariyodapeyyuṁ, rajāpathe ca naṁ nikkhipeyyuṁ. ",
+      "english": "And the owners neither used it or had it cleaned, but kept it in a dirty place. "
+    },
+    {
+      "number": 26,
+      "pali": "Evañhi sā, āvuso, kaṁsapāti aparena samayena saṅkiliṭṭhatarā assa malaggahitā”ti? ",
+      "english": "Over time, wouldn’t that bronze cup get even dirtier and more stained?” "
+    },
+    {
+      "number": 27,
+      "pali": "“Evamāvuso”ti. ",
+      "english": "“Yes, reverend.” "
+    },
+    {
+      "number": 28,
+      "pali": "“Evameva kho, āvuso, yvāyaṁ puggalo sāṅgaṇova samāno ‘atthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ nappajānāti, tassetaṁ pāṭikaṅkhaṁ—na chandaṁ janessati na vāyamissati na vīriyaṁ ārabhissati tassaṅgaṇassa pahānāya; ",
+      "english": "“In the same way, take the case of the individual who has a blemish and does not understand it. You can expect that … "
+    },
+    {
+      "number": 29,
+      "pali": "so sarāgo sadoso samoho sāṅgaṇo saṅkiliṭṭhacitto kālaṁ karissati. ",
+      "english": "they will die with a corrupted mind. "
+    },
+    {
+      "number": 30,
+      "pali": "Tatrāvuso, yvāyaṁ puggalo sāṅgaṇova samāno ‘atthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ pajānāti, tassetaṁ pāṭikaṅkhaṁ—chandaṁ janessati vāyamissati vīriyaṁ ārabhissati tassaṅgaṇassa pahānāya; ",
+      "english": "Take the case of the individual who has a blemish and does understand it. You can expect that they will generate enthusiasm, make an effort, and rouse up energy to give up that blemish. "
+    },
+    {
+      "number": 31,
+      "pali": "so arāgo adoso amoho anaṅgaṇo asaṅkiliṭṭhacitto kālaṁ karissati. ",
+      "english": "And they will die without greed, hate, and delusion, unblemished, with an uncorrupted mind. "
+    },
+    {
+      "number": 32,
+      "pali": "Seyyathāpi, āvuso, kaṁsapāti ābhatā āpaṇā vā kammārakulā vā rajena ca malena ca pariyonaddhā. ",
+      "english": "Suppose a bronze cup was brought from a shop or smithy covered with dirt or stains. "
+    },
+    {
+      "number": 33,
+      "pali": "Tamenaṁ sāmikā paribhuñjeyyuñceva pariyodapeyyuñca, na ca naṁ rajāpathe nikkhipeyyuṁ. ",
+      "english": "But the owners used it and had it cleaned, and didn’t keep it in a dirty place. "
+    },
+    {
+      "number": 34,
+      "pali": "Evañhi sā, āvuso, kaṁsapāti aparena samayena parisuddhatarā assa pariyodātā”ti? ",
+      "english": "Over time, wouldn’t that bronze cup get cleaner and brighter?” "
+    },
+    {
+      "number": 35,
+      "pali": "“Evamāvuso”ti. ",
+      "english": "“Yes, reverend.” "
+    },
+    {
+      "number": 36,
+      "pali": "“Evameva kho, āvuso, yvāyaṁ puggalo sāṅgaṇova samāno ‘atthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ pajānāti, tassetaṁ pāṭikaṅkhaṁ—chandaṁ janessati vāyamissati vīriyaṁ ārabhissati tassaṅgaṇassa pahānāya; ",
+      "english": "“In the same way, take the case of the individual who has a blemish and does understand it. You can expect that … "
+    },
+    {
+      "number": 37,
+      "pali": "so arāgo adoso amoho anaṅgaṇo asaṅkiliṭṭhacitto kālaṁ karissati. ",
+      "english": "they will die with an uncorrupted mind. "
+    },
+    {
+      "number": 38,
+      "pali": "Tatrāvuso, yvāyaṁ puggalo anaṅgaṇova samāno ‘natthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ nappajānāti, tassetaṁ pāṭikaṅkhaṁ—subhanimittaṁ manasi karissati, tassa subhanimittassa manasikārā rāgo cittaṁ anuddhaṁsessati; ",
+      "english": "Take the case of the individual who doesn’t have a blemish but does not understand it. You can expect that they will focus on the feature of beauty, and because of that, lust will infect their mind. "
+    },
+    {
+      "number": 39,
+      "pali": "so sarāgo sadoso samoho sāṅgaṇo saṅkiliṭṭhacitto kālaṁ karissati. ",
+      "english": "And they will die with greed, hate, and delusion, blemished, with a corrupted mind. "
+    },
+    {
+      "number": 40,
+      "pali": "Seyyathāpi, āvuso, kaṁsapāti ābhatā āpaṇā vā kammārakulā vā parisuddhā pariyodātā. ",
+      "english": "Suppose a bronze cup was brought from a shop or smithy clean and bright. "
+    },
+    {
+      "number": 41,
+      "pali": "Tamenaṁ sāmikā na ceva paribhuñjeyyuṁ na ca pariyodapeyyuṁ, rajāpathe ca naṁ nikkhipeyyuṁ. ",
+      "english": "And the owners neither used it or had it cleaned, but kept it in a dirty place. "
+    },
+    {
+      "number": 42,
+      "pali": "Evañhi sā, āvuso, kaṁsapāti aparena samayena saṅkiliṭṭhatarā assa malaggahitā”ti? ",
+      "english": "Over time, wouldn’t that bronze cup get dirtier and more stained?” "
+    },
+    {
+      "number": 43,
+      "pali": "“Evamāvuso”ti. ",
+      "english": "“Yes, reverend.” "
+    },
+    {
+      "number": 44,
+      "pali": "“Evameva kho, āvuso, yvāyaṁ puggalo anaṅgaṇova samāno ‘natthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ nappajānāti, tassetaṁ pāṭikaṅkhaṁ—subhanimittaṁ manasi karissati, tassa subhanimittassa manasikārā rāgo cittaṁ anuddhaṁsessati; ",
+      "english": "“In the same way, take the case of the individual who has no blemish and does not understand it. You can expect that … "
+    },
+    {
+      "number": 45,
+      "pali": "so sarāgo sadoso samoho sāṅgaṇo saṅkiliṭṭhacitto kālaṁ karissati. ",
+      "english": "they will die with a corrupted mind. "
+    },
+    {
+      "number": 46,
+      "pali": "Tatrāvuso, yvāyaṁ puggalo anaṅgaṇova samāno ‘natthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ pajānāti, tassetaṁ pāṭikaṅkhaṁ—subhanimittaṁ na manasi karissati, tassa subhanimittassa amanasikārā rāgo cittaṁ nānuddhaṁsessati; ",
+      "english": "Take the case of the individual who doesn’t have a blemish and does understand it. You can expect that they won’t focus on the feature of beauty, and because of that, lust won’t infect their mind. "
+    },
+    {
+      "number": 47,
+      "pali": "so arāgo adoso amoho anaṅgaṇo asaṅkiliṭṭhacitto kālaṁ karissati. ",
+      "english": "And they will die without greed, hate, and delusion, unblemished, with an uncorrupted mind. "
+    },
+    {
+      "number": 48,
+      "pali": "Seyyathāpi, āvuso, kaṁsapāti ābhatā āpaṇā vā kammārakulā vā parisuddhā pariyodātā. ",
+      "english": "Suppose a bronze cup was brought from a shop or smithy clean and bright. "
+    },
+    {
+      "number": 49,
+      "pali": "Tamenaṁ sāmikā paribhuñjeyyuñceva pariyodapeyyuñca, na ca naṁ rajāpathe nikkhipeyyuṁ. ",
+      "english": "And the owners used it and had it cleaned, and didn’t keep it in a dirty place. "
+    },
+    {
+      "number": 50,
+      "pali": "Evañhi sā, āvuso, kaṁsapāti aparena samayena parisuddhatarā assa pariyodātā”ti? ",
+      "english": "Over time, wouldn’t that bronze cup get cleaner and brighter?” "
+    },
+    {
+      "number": 51,
+      "pali": "“Evamāvuso”ti. ",
+      "english": "“Yes, reverend.” "
+    },
+    {
+      "number": 52,
+      "pali": "“Evameva kho, āvuso, yvāyaṁ puggalo anaṅgaṇova samāno ‘natthi me ajjhattaṁ aṅgaṇan’ti yathābhūtaṁ pajānāti, tassetaṁ pāṭikaṅkhaṁ—subhanimittaṁ na manasi karissati, tassa subhanimittassa amanasikārā rāgo cittaṁ nānuddhaṁsessati; ",
+      "english": "“In the same way, take the case of the individual who doesn’t have a blemish and does understand it. You can expect that … "
+    },
+    {
+      "number": 53,
+      "pali": "so arāgo adoso amoho anaṅgaṇo asaṅkiliṭṭhacitto kālaṁ karissati. ",
+      "english": "they will die with an uncorrupted mind. "
+    },
+    {
+      "number": 54,
+      "pali": "Ayaṁ kho, āvuso moggallāna, hetu ayaṁ paccayo yenimesaṁ dvinnaṁ puggalānaṁ sāṅgaṇānaṁyeva sataṁ eko hīnapuriso akkhāyati, eko seṭṭhapuriso akkhāyati. ",
+      "english": "This is the cause, this is the reason why, of the two individuals with a blemish, one is said to be worse and one better. "
+    },
+    {
+      "number": 55,
+      "pali": "Ayaṁ panāvuso moggallāna, hetu ayaṁ paccayo yenimesaṁ dvinnaṁ puggalānaṁ anaṅgaṇānaṁyeva sataṁ eko hīnapuriso akkhāyati, eko seṭṭhapuriso akkhāyatī”ti. ",
+      "english": "And this is the cause, this is the reason why, of the two individuals without a blemish, one is said to be worse and one better.” "
+    },
+    {
+      "number": 56,
+      "pali": "“Aṅgaṇaṁ aṅgaṇanti, āvuso, vuccati. ",
+      "english": "“Reverend, the word ‘blemish’ is spoken of. "
+    },
+    {
+      "number": 57,
+      "pali": "Kissa nu kho etaṁ, āvuso, adhivacanaṁ yadidaṁ aṅgaṇan”ti? ",
+      "english": "But what is ‘blemish’ a term for?” "
+    },
+    {
+      "number": 58,
+      "pali": "“Pāpakānaṁ kho etaṁ, āvuso, akusalānaṁ icchāvacarānaṁ adhivacanaṁ, yadidaṁ aṅgaṇan”ti. ",
+      "english": "“Reverend, ‘blemish’ is a term for the spheres of bad, unskillful wishes. "
+    },
+    {
+      "number": 59,
+      "pali": "“Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": "It’s possible that some mendicant might wish: "
+    },
+    {
+      "number": 60,
+      "pali": "‘āpattiñca vata āpanno assaṁ, na ca maṁ bhikkhū jāneyyuṁ āpattiṁ āpanno’ti. ",
+      "english": "‘If I commit an offense, I hope the mendicants don’t find out!’ "
+    },
+    {
+      "number": 61,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ taṁ bhikkhuṁ bhikkhū jāneyyuṁ: ",
+      "english": "But it’s possible that the mendicants do find out that that mendicant "
+    },
+    {
+      "number": 62,
+      "pali": "‘āpattiṁ āpanno’ti. ",
+      "english": "has committed an offense. "
+    },
+    {
+      "number": 63,
+      "pali": "‘Jānanti maṁ bhikkhū āpattiṁ āpanno’ti—",
+      "english": "Thinking, ‘The mendicants have found out about my offense,’ "
+    },
+    {
+      "number": 64,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": "they get angry and bitter. "
+    },
+    {
+      "number": 65,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": "And that anger and that bitterness "
+    },
+    {
+      "number": 66,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": "are both blemishes. "
+    },
+    {
+      "number": 67,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": "It’s possible that some mendicant might wish: "
+    },
+    {
+      "number": 68,
+      "pali": "‘āpattiñca vata āpanno assaṁ, anuraho maṁ bhikkhū codeyyuṁ, no saṅghamajjhe’ti. ",
+      "english": "‘If I commit an offense, I hope the mendicants accuse me in private, not in the middle of the Saṅgha.’ "
+    },
+    {
+      "number": 69,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ taṁ bhikkhuṁ bhikkhū saṅghamajjhe codeyyuṁ, no anuraho. ",
+      "english": "But it’s possible that the mendicants do accuse that mendicant in the middle of the Saṅgha … "
+    },
+    {
+      "number": 70,
+      "pali": "‘Saṅghamajjhe maṁ bhikkhū codenti, no anuraho’ti—",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": "It’s possible that some mendicant might wish: "
+    },
+    {
+      "number": 75,
+      "pali": "‘āpattiñca vata āpanno assaṁ, sappaṭipuggalo maṁ codeyya, no appaṭipuggalo’ti. ",
+      "english": "‘If I commit an offense, I hope I’m accused by a peer, not by someone who is not a peer.’ "
+    },
+    {
+      "number": 76,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ taṁ bhikkhuṁ appaṭipuggalo codeyya, no sappaṭipuggalo. ",
+      "english": "But it’s possible that someone who is not a peer accuses that mendicant … "
+    },
+    {
+      "number": 77,
+      "pali": "‘Appaṭipuggalo maṁ codeti, no sappaṭipuggalo’ti—",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": "It’s possible that some mendicant might wish: "
+    },
+    {
+      "number": 82,
+      "pali": "‘aho vata mameva satthā paṭipucchitvā paṭipucchitvā bhikkhūnaṁ dhammaṁ deseyya, na aññaṁ bhikkhuṁ satthā paṭipucchitvā paṭipucchitvā bhikkhūnaṁ dhammaṁ deseyyā’ti. ",
+      "english": "‘Oh, I hope the Teacher will teach the mendicants by repeatedly questioning me alone, not some other mendicant.’ "
+    },
+    {
+      "number": 83,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ aññaṁ bhikkhuṁ satthā paṭipucchitvā paṭipucchitvā bhikkhūnaṁ dhammaṁ deseyya, na taṁ bhikkhuṁ satthā paṭipucchitvā paṭipucchitvā bhikkhūnaṁ dhammaṁ deseyya. ",
+      "english": "But it’s possible that the Teacher will teach the mendicants by repeatedly questioning some other mendicant … "
+    },
+    {
+      "number": 84,
+      "pali": "‘Aññaṁ bhikkhuṁ satthā paṭipucchitvā paṭipucchitvā bhikkhūnaṁ dhammaṁ deseti, na maṁ satthā paṭipucchitvā paṭipucchitvā bhikkhūnaṁ dhammaṁ desetī’ti—",
+      "english": ""
+    },
+    {
+      "number": 85,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": "It’s possible that some mendicant might wish: "
+    },
+    {
+      "number": 89,
+      "pali": "‘aho vata mameva bhikkhū purakkhatvā purakkhatvā gāmaṁ bhattāya paviseyyuṁ, na aññaṁ bhikkhuṁ bhikkhū purakkhatvā purakkhatvā gāmaṁ bhattāya paviseyyun’ti. ",
+      "english": "‘Oh, I hope the mendicants will enter the village for the meal putting me at the very front, not some other mendicant.’ "
+    },
+    {
+      "number": 90,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ aññaṁ bhikkhuṁ bhikkhū purakkhatvā purakkhatvā gāmaṁ bhattāya paviseyyuṁ, na taṁ bhikkhuṁ bhikkhū purakkhatvā purakkhatvā gāmaṁ bhattāya paviseyyuṁ. ",
+      "english": "But it’s possible that the mendicants will enter the village for the meal putting some other mendicant at the very front … "
+    },
+    {
+      "number": 91,
+      "pali": "‘Aññaṁ bhikkhuṁ bhikkhū purakkhatvā purakkhatvā gāmaṁ bhattāya pavisanti, na maṁ bhikkhū purakkhatvā purakkhatvā gāmaṁ bhattāya pavisantī’ti—",
+      "english": ""
+    },
+    {
+      "number": 92,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": "It’s possible that some mendicant might wish: "
+    },
+    {
+      "number": 96,
+      "pali": "‘aho vata ahameva labheyyaṁ bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍaṁ, na añño bhikkhu labheyya bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍan’ti. ",
+      "english": "‘Oh, I hope that I alone get the best seat, the best drink, and the best almsfood in the refectory, not some other mendicant.’ "
+    },
+    {
+      "number": 97,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ añño bhikkhu labheyya bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍaṁ, na so bhikkhu labheyya bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍaṁ. ",
+      "english": "But it’s possible that some other mendicant gets the best seat, the best drink, and the best almsfood in the refectory … "
+    },
+    {
+      "number": 98,
+      "pali": "‘Añño bhikkhu labhati bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍaṁ, nāhaṁ labhāmi bhattagge aggāsanaṁ aggodakaṁ aggapiṇḍan’ti—",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 102,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": "It’s possible that some mendicant might wish: "
+    },
+    {
+      "number": 103,
+      "pali": "‘aho vata ahameva bhattagge bhuttāvī anumodeyyaṁ, na añño bhikkhu bhattagge bhuttāvī anumodeyyā’ti. ",
+      "english": "‘I hope that I alone give the verses of appreciation after eating in the refectory, not some other mendicant.’ "
+    },
+    {
+      "number": 104,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ añño bhikkhu bhattagge bhuttāvī anumodeyya, na so bhikkhu bhattagge bhuttāvī anumodeyya. ",
+      "english": "But it’s possible that some other mendicant gives the verses of appreciation after eating in the refectory … "
+    },
+    {
+      "number": 105,
+      "pali": "‘Añño bhikkhu bhattagge bhuttāvī anumodati, nāhaṁ bhattagge bhuttāvī anumodāmī’ti—",
+      "english": ""
+    },
+    {
+      "number": 106,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 108,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 109,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": "It’s possible that some mendicant might wish: "
+    },
+    {
+      "number": 110,
+      "pali": "‘aho vata ahameva ārāmagatānaṁ bhikkhūnaṁ dhammaṁ deseyyaṁ, na añño bhikkhu ārāmagatānaṁ bhikkhūnaṁ dhammaṁ deseyyā’ti. ",
+      "english": "‘Oh, I hope that I might teach the Dhamma to the monks, nuns, laymen, and laywomen in the monastery, not some other mendicant.’ "
+    },
+    {
+      "number": 111,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ añño bhikkhu ārāmagatānaṁ bhikkhūnaṁ dhammaṁ deseyya, na so bhikkhu ārāmagatānaṁ bhikkhūnaṁ dhammaṁ deseyya. ",
+      "english": ""
+    },
+    {
+      "number": 112,
+      "pali": "‘Añño bhikkhu ārāmagatānaṁ bhikkhūnaṁ dhammaṁ deseti, nāhaṁ ārāmagatānaṁ bhikkhūnaṁ dhammaṁ desemī’ti—",
+      "english": ""
+    },
+    {
+      "number": 113,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 114,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 115,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 116,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": ""
+    },
+    {
+      "number": 117,
+      "pali": "‘aho vata ahameva ārāmagatānaṁ bhikkhunīnaṁ dhammaṁ deseyyaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "upāsakānaṁ dhammaṁ deseyyaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "upāsikānaṁ dhammaṁ deseyyaṁ, na añño bhikkhu ārāmagatānaṁ upāsikānaṁ dhammaṁ deseyyā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ añño bhikkhu ārāmagatānaṁ upāsikānaṁ dhammaṁ deseyya, na so bhikkhu ārāmagatānaṁ upāsikānaṁ dhammaṁ deseyya. ",
+      "english": "But it’s possible that some other mendicant teaches the Dhamma … "
+    },
+    {
+      "number": 121,
+      "pali": "‘Añño bhikkhu ārāmagatānaṁ upāsikānaṁ dhammaṁ deseti, nāhaṁ ārāmagatānaṁ upāsikānaṁ dhammaṁ desemī’ti—",
+      "english": ""
+    },
+    {
+      "number": 122,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 123,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 124,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 125,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": "It’s possible that some mendicant might wish: "
+    },
+    {
+      "number": 126,
+      "pali": "‘aho vata mameva bhikkhū sakkareyyuṁ garuṁ kareyyuṁ māneyyuṁ pūjeyyuṁ, na aññaṁ bhikkhuṁ bhikkhū sakkareyyuṁ garuṁ kareyyuṁ māneyyuṁ pūjeyyun’ti. ",
+      "english": "‘Oh, I hope that the monks, nuns, laymen, and laywomen will honor, respect, revere, and venerate me alone, not some other mendicant.’ "
+    },
+    {
+      "number": 127,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ aññaṁ bhikkhuṁ bhikkhū sakkareyyuṁ garuṁ kareyyuṁ māneyyuṁ pūjeyyuṁ, na taṁ bhikkhuṁ bhikkhū sakkareyyuṁ garuṁ kareyyuṁ māneyyuṁ pūjeyyuṁ. ",
+      "english": ""
+    },
+    {
+      "number": 128,
+      "pali": "‘Aññaṁ bhikkhuṁ bhikkhū sakkaronti garuṁ karonti mānenti pūjenti, na maṁ bhikkhū sakkaronti garuṁ karonti mānenti pūjentī’ti—",
+      "english": ""
+    },
+    {
+      "number": 129,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 130,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 131,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 132,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": ""
+    },
+    {
+      "number": 133,
+      "pali": "‘aho vata mameva bhikkhuniyo …pe… ",
+      "english": ""
+    },
+    {
+      "number": 134,
+      "pali": "upāsakā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 135,
+      "pali": "upāsikā sakkareyyuṁ garuṁ kareyyuṁ māneyyuṁ pūjeyyuṁ, na aññaṁ bhikkhuṁ upāsikā sakkareyyuṁ garuṁ kareyyuṁ māneyyuṁ pūjeyyun’ti. ",
+      "english": ""
+    },
+    {
+      "number": 136,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ aññaṁ bhikkhuṁ upāsikā sakkareyyuṁ garuṁ kareyyuṁ māneyyuṁ pūjeyyuṁ, na taṁ bhikkhuṁ upāsikā sakkareyyuṁ garuṁ kareyyuṁ māneyyuṁ pūjeyyuṁ. ",
+      "english": "But it’s possible that some other mendicant is honored, respected, revered, and venerated … "
+    },
+    {
+      "number": 137,
+      "pali": "‘Aññaṁ bhikkhuṁ upāsikā sakkaronti garuṁ karonti mānenti pūjenti, na maṁ upāsikā sakkaronti garuṁ karonti mānenti pūjentī’ti—",
+      "english": ""
+    },
+    {
+      "number": 138,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 139,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 140,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 141,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": "It’s possible that some mendicant might wish: "
+    },
+    {
+      "number": 142,
+      "pali": "‘aho vata ahameva lābhī assaṁ paṇītānaṁ cīvarānaṁ, na añño bhikkhu lābhī assa paṇītānaṁ cīvarānan’ti. ",
+      "english": "‘I hope I get the nicest robes, almsfood, lodgings, and medicines and supplies for the sick, not some other mendicant.’ "
+    },
+    {
+      "number": 143,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ añño bhikkhu lābhī assa paṇītānaṁ cīvarānaṁ, na so bhikkhu lābhī assa paṇītānaṁ cīvarānaṁ. ",
+      "english": "But it’s possible that some other mendicant gets the nicest robes, almsfood, lodgings, and medicines and supplies for the sick … "
+    },
+    {
+      "number": 144,
+      "pali": "‘Añño bhikkhu lābhī paṇītānaṁ cīvarānaṁ, nāhaṁ lābhī paṇītānaṁ cīvarānan’ti—",
+      "english": ""
+    },
+    {
+      "number": 145,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": ""
+    },
+    {
+      "number": 146,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": ""
+    },
+    {
+      "number": 147,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 148,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ idhekaccassa bhikkhuno evaṁ icchā uppajjeyya: ",
+      "english": ""
+    },
+    {
+      "number": 149,
+      "pali": "‘aho vata ahameva lābhī assaṁ paṇītānaṁ piṇḍapātānaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 150,
+      "pali": "paṇītānaṁ senāsanānaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 151,
+      "pali": "paṇītānaṁ gilānappaccayabhesajjaparikkhārānaṁ, na añño bhikkhu lābhī assa paṇītānaṁ gilānappaccayabhesajjaparikkhārānan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 152,
+      "pali": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ añño bhikkhu lābhī assa paṇītānaṁ gilānappaccayabhesajjaparikkhārānaṁ, na so bhikkhu lābhī assa paṇītānaṁ gilānappaccayabhesajjaparikkhārānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 153,
+      "pali": "‘Añño bhikkhu lābhī paṇītānaṁ gilānappaccayabhesajjaparikkhārānaṁ, nāhaṁ lābhī paṇītānaṁ gilānappaccayabhesajjaparikkhārānan’ti—",
+      "english": "Thinking, ‘Some other mendicant has got the nicest robes, almsfood, lodgings, and medicines and supplies for the sick’, "
+    },
+    {
+      "number": 154,
+      "pali": "iti so kupito hoti appatīto. ",
+      "english": "they get angry and bitter. "
+    },
+    {
+      "number": 155,
+      "pali": "Yo ceva kho, āvuso, kopo yo ca appaccayo—",
+      "english": "And that anger and that bitterness "
+    },
+    {
+      "number": 156,
+      "pali": "ubhayametaṁ aṅgaṇaṁ. ",
+      "english": "are both blemishes. "
+    },
+    {
+      "number": 157,
+      "pali": "Imesaṁ kho etaṁ, āvuso, pāpakānaṁ akusalānaṁ icchāvacarānaṁ adhivacanaṁ, yadidaṁ aṅgaṇanti. ",
+      "english": "‘Blemish’ is a term for these spheres of bad, unskillful wishes. "
+    },
+    {
+      "number": 158,
+      "pali": "Yassa kassaci, āvuso, bhikkhuno ime pāpakā akusalā icchāvacarā appahīnā dissanti ceva sūyanti ca, kiñcāpi so hoti āraññiko pantasenāsano piṇḍapātiko sapadānacārī paṁsukūliko lūkhacīvaradharo, atha kho naṁ sabrahmacārī na ceva sakkaronti na garuṁ karonti na mānenti na pūjenti. ",
+      "english": "Suppose these spheres of bad, unskillful wishes are seen and heard to be not given up by a mendicant. Even though they dwell in the wilderness, in remote lodgings, eat only almsfood, wander indiscriminately for almsfood, wear rag robes, and wear shabby robes, their spiritual companions don’t honor, respect, revere, and venerate them. "
+    },
+    {
+      "number": 159,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 160,
+      "pali": "Te hi tassa āyasmato pāpakā akusalā icchāvacarā appahīnā dissanti ceva sūyanti ca. ",
+      "english": "It’s because these spheres of bad, unskillful wishes are seen and heard to be not given up by that venerable. "
+    },
+    {
+      "number": 161,
+      "pali": "Seyyathāpi, āvuso, kaṁsapāti ābhatā āpaṇā vā kammārakulā vā parisuddhā pariyodātā. ",
+      "english": "Suppose a bronze cup was brought from a shop or smithy clean and bright. "
+    },
+    {
+      "number": 162,
+      "pali": "Tamenaṁ sāmikā ahikuṇapaṁ vā kukkurakuṇapaṁ vā manussakuṇapaṁ vā racayitvā aññissā kaṁsapātiyā paṭikujjitvā antarāpaṇaṁ paṭipajjeyyuṁ. ",
+      "english": "The owners were to prepare it with the carcass of a snake, a dog, or a human, cover it with a bronze lid, and parade it through the market-place. "
+    },
+    {
+      "number": 163,
+      "pali": "Tamenaṁ jano disvā evaṁ vadeyya: ",
+      "english": "When people saw it they’d say: "
+    },
+    {
+      "number": 164,
+      "pali": "‘ambho, kimevidaṁ harīyati jaññajaññaṁ viyā’ti? ",
+      "english": "‘Oh my, what is it that you’re carrying like a precious treasure?’ "
+    },
+    {
+      "number": 165,
+      "pali": "Tamenaṁ uṭṭhahitvā apāpuritvā olokeyya. ",
+      "english": "So they’d open up the lid for people to look inside. "
+    },
+    {
+      "number": 166,
+      "pali": "Tassa sahadassanena amanāpatā ca saṇṭhaheyya, pāṭikulyatā ca saṇṭhaheyya, jegucchatā ca saṇṭhaheyya; ",
+      "english": "But as soon as they saw it they were filled with loathing, revulsion, and disgust. "
+    },
+    {
+      "number": 167,
+      "pali": "jighacchitānampi na bhottukamyatā assa, pageva suhitānaṁ. ",
+      "english": "Not even those who were hungry wanted to eat it, let alone those who were replete. "
+    },
+    {
+      "number": 168,
+      "pali": "Evameva kho, āvuso, yassa kassaci bhikkhuno ime pāpakā akusalā icchāvacarā appahīnā dissanti ceva sūyanti ca, kiñcāpi so hoti āraññiko pantasenāsano piṇḍapātiko sapadānacārī paṁsukūliko lūkhacīvaradharo, atha kho naṁ sabrahmacārī na ceva sakkaronti na garuṁ karonti na mānenti na pūjenti. ",
+      "english": "In the same way, when these spheres of bad, unskillful wishes are seen and heard to be not given up by a mendicant … their spiritual companions don’t honor, respect, revere, and venerate them. "
+    },
+    {
+      "number": 169,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 170,
+      "pali": "Te hi tassa āyasmato pāpakā akusalā icchāvacarā appahīnā dissanti ceva sūyanti ca. ",
+      "english": "It’s because these spheres of bad, unskillful wishes are seen and heard to be not given up by that venerable. "
+    },
+    {
+      "number": 171,
+      "pali": "Yassa kassaci, āvuso, bhikkhuno ime pāpakā akusalā icchāvacarā pahīnā dissanti ceva sūyanti ca, kiñcāpi so hoti gāmantavihārī nemantaniko gahapaticīvaradharo, atha kho naṁ sabrahmacārī sakkaronti garuṁ karonti mānenti pūjenti. ",
+      "english": "Suppose these spheres of bad, unskillful wishes are seen and heard to be given up by a mendicant. Even though they dwell within a village, accept invitations to a meal, and wear robes offered by householders, their spiritual companions honor, respect, revere, and venerate them. "
+    },
+    {
+      "number": 172,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 173,
+      "pali": "Te hi tassa āyasmato pāpakā akusalā icchāvacarā pahīnā dissanti ceva sūyanti ca. ",
+      "english": "It’s because these spheres of bad, unskillful wishes are seen and heard to be given up by that venerable. "
+    },
+    {
+      "number": 174,
+      "pali": "Seyyathāpi, āvuso, kaṁsapāti ābhatā āpaṇā vā kammārakulā vā parisuddhā pariyodātā. ",
+      "english": "Suppose a bronze cup was brought from a shop or smithy clean and bright. "
+    },
+    {
+      "number": 175,
+      "pali": "Tamenaṁ sāmikā sālīnaṁ odanaṁ vicitakāḷakaṁ anekasūpaṁ anekabyañjanaṁ racayitvā aññissā kaṁsapātiyā paṭikujjitvā antarāpaṇaṁ paṭipajjeyyuṁ. ",
+      "english": "The owners were to prepare it with boiled fine rice with the dark grains picked out and served with many soups and sauces, cover it with a bronze lid, and parade it through the market-place. "
+    },
+    {
+      "number": 176,
+      "pali": "Tamenaṁ jano disvā evaṁ vadeyya: ",
+      "english": "When people saw it they’d say: "
+    },
+    {
+      "number": 177,
+      "pali": "‘ambho, kimevidaṁ harīyati jaññajaññaṁ viyā’ti? ",
+      "english": "‘Oh my, what is it that you’re carrying like a precious treasure?’ "
+    },
+    {
+      "number": 178,
+      "pali": "Tamenaṁ uṭṭhahitvā apāpuritvā olokeyya. ",
+      "english": "So they’d open up the lid for people to look inside. "
+    },
+    {
+      "number": 179,
+      "pali": "Tassa saha dassanena manāpatā ca saṇṭhaheyya, appāṭikulyatā ca saṇṭhaheyya, ajegucchatā ca saṇṭhaheyya; ",
+      "english": "And as soon as they saw it they were filled with liking, attraction, and relish. "
+    },
+    {
+      "number": 180,
+      "pali": "suhitānampi bhottukamyatā assa, pageva jighacchitānaṁ. ",
+      "english": "Even those who were replete wanted to eat it, let alone those who were hungry. "
+    },
+    {
+      "number": 181,
+      "pali": "Evameva kho, āvuso, yassa kassaci bhikkhuno ime pāpakā akusalā icchāvacarā pahīnā dissanti ceva sūyanti ca, kiñcāpi so hoti gāmantavihārī nemantaniko gahapaticīvaradharo, atha kho naṁ sabrahmacārī sakkaronti garuṁ karonti mānenti pūjenti. ",
+      "english": "In the same way, when these spheres of bad, unskillful wishes are seen and heard to be given up by a mendicant … their spiritual companions honor, respect, revere, and venerate them. "
+    },
+    {
+      "number": 182,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 183,
+      "pali": "Te hi tassa āyasmato pāpakā akusalā icchāvacarā pahīnā dissanti ceva sūyanti cā”ti. ",
+      "english": "It’s because these spheres of bad, unskillful wishes are seen and heard to be given up by that venerable.” "
+    },
+    {
+      "number": 184,
+      "pali": "Evaṁ vutte, āyasmā mahāmoggallāno āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": "When he said this, Venerable Mahāmoggallāna said to him, "
+    },
+    {
+      "number": 185,
+      "pali": "“upamā maṁ, āvuso sāriputta, paṭibhātī”ti. ",
+      "english": "“Reverend Sāriputta, a simile strikes me.” "
+    },
+    {
+      "number": 186,
+      "pali": "“Paṭibhātu taṁ, āvuso moggallānā”ti. ",
+      "english": "“Then speak as you feel inspired,” said Sāriputta. "
+    },
+    {
+      "number": 187,
+      "pali": "“Ekamidāhaṁ, āvuso, samayaṁ rājagahe viharāmi giribbaje. ",
+      "english": "“Reverend, this one time I was staying right here in Rājagaha, the Mountainfold. "
+    },
+    {
+      "number": 188,
+      "pali": "Atha khvāhaṁ, āvuso, pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya rājagahaṁ piṇḍāya pāvisiṁ. ",
+      "english": "Then I robed up in the morning and, taking my bowl and robe, entered Rājagaha for alms. "
+    },
+    {
+      "number": 189,
+      "pali": "Tena kho pana samayena samīti yānakāraputto rathassa nemiṁ tacchati. ",
+      "english": "Now at that time Samīti of the wainwrights was planing the rim of a chariot wheel. "
+    },
+    {
+      "number": 190,
+      "pali": "Tamenaṁ paṇḍuputto ājīvako purāṇayānakāraputto paccupaṭṭhito hoti. ",
+      "english": "The Ājīvaka ascetic Paṇḍuputta, who was formerly of the wainwrights, was standing by, "
+    },
+    {
+      "number": 191,
+      "pali": "Atha kho, āvuso, paṇḍuputtassa ājīvakassa purāṇayānakāraputtassa evaṁ cetaso parivitakko udapādi: ",
+      "english": "and this thought came to his mind: "
+    },
+    {
+      "number": 192,
+      "pali": "‘aho vatāyaṁ samīti yānakāraputto imissā nemiyā imañca vaṅkaṁ imañca jimhaṁ imañca dosaṁ taccheyya, evāyaṁ nemi apagatavaṅkā apagatajimhā apagatadosā suddhā assa sāre patiṭṭhitā’ti. ",
+      "english": "‘Oh, I hope Samīti the wainwright planes out the crooks, bends, and flaws in this rim. Then the rim will be rid of crooks, bends, and flaws, pure, and consolidated in the core.’ "
+    },
+    {
+      "number": 193,
+      "pali": "Yathā yathā kho, āvuso, paṇḍuputtassa ājīvakassa purāṇayānakāraputtassa cetaso parivitakko hoti tathā tathā samīti yānakāraputto tassā nemiyā tañca vaṅkaṁ tañca jimhaṁ tañca dosaṁ tacchati. ",
+      "english": "And Samīti planed out the flaws in the rim just as Paṇḍuputta thought. "
+    },
+    {
+      "number": 194,
+      "pali": "Atha kho, āvuso, paṇḍuputto ājīvako purāṇayānakāraputto attamano attamanavācaṁ nicchāresi: ",
+      "english": "Then Paṇḍuputta expressed his gladness: "
+    },
+    {
+      "number": 195,
+      "pali": "‘hadayā hadayaṁ maññe aññāya tacchatī’ti. ",
+      "english": "‘He planes like he knows my heart with his heart!’ "
+    },
+    {
+      "number": 196,
+      "pali": "Evameva kho, āvuso, ye te puggalā assaddhā, jīvikatthā na saddhā agārasmā anagāriyaṁ pabbajitā, saṭhā māyāvino ketabino uddhatā unnaḷā capalā mukharā vikiṇṇavācā, indriyesu aguttadvārā, bhojane amattaññuno, jāgariyaṁ ananuyuttā, sāmaññe anapekkhavanto, sikkhāya na tibbagāravā, bāhulikā sāthalikā, okkamane pubbaṅgamā, paviveke nikkhittadhurā, kusītā hīnavīriyā muṭṭhassatī asampajānā asamāhitā vibbhantacittā duppaññā eḷamūgā, tesaṁ āyasmā sāriputto iminā dhammapariyāyena hadayā hadayaṁ maññe aññāya tacchati. ",
+      "english": "In the same way, there are those faithless individuals who went forth from the lay life to homelessness not out of faith but to earn a livelihood. They’re devious, deceitful, and sneaky. They’re restless, insolent, fickle, scurrilous, and loose-tongued. They do not guard their sense doors or eat in moderation, and they are not dedicated to wakefulness. They don’t care about the ascetic life, and don’t keenly respect the training. They’re indulgent and slack, leaders in backsliding, neglecting seclusion, lazy, and lacking energy. They’re unmindful, lacking situational awareness and immersion, with straying minds, witless and idiotic. Venerable Sāriputta planes their faults with this exposition of the teaching as if he knows my heart with his heart! "
+    },
+    {
+      "number": 197,
+      "pali": "Ye pana te kulaputtā saddhā agārasmā anagāriyaṁ pabbajitā, asaṭhā amāyāvino aketabino anuddhatā anunnaḷā acapalā amukharā avikiṇṇavācā, indriyesu guttadvārā, bhojane mattaññuno, jāgariyaṁ anuyuttā, sāmaññe apekkhavanto, sikkhāya tibbagāravā, na bāhulikā na sāthalikā, okkamane nikkhittadhurā, paviveke pubbaṅgamā, āraddhavīriyā pahitattā upaṭṭhitassatī sampajānā samāhitā ekaggacittā paññavanto aneḷamūgā, te āyasmato sāriputtassa imaṁ dhammapariyāyaṁ sutvā pivanti maññe, ghasanti maññe vacasā ceva manasā ca: ",
+      "english": "But there are those gentlemen who went forth from the lay life to homelessness out of faith. They’re not devious, deceitful, and sneaky. They’re not restless, insolent, fickle, scurrilous, and loose-tongued. They guard their sense doors and eat in moderation, and they are dedicated to wakefulness. They care about the ascetic life, and keenly respect the training. They’re not indulgent or slack, nor are they leaders in backsliding, neglecting seclusion. They’re energetic and determined. They’re mindful, with situational awareness, immersion, and unified minds; wise and clever. Hearing this exposition of the teaching from Venerable Sāriputta, they drink it up and devour it, as it were. And in speech and thought they say: "
+    },
+    {
+      "number": 198,
+      "pali": "‘sādhu vata, bho, sabrahmacārī akusalā vuṭṭhāpetvā kusale patiṭṭhāpetī’ti. ",
+      "english": "‘It’s good, sirs, that he draws his spiritual companions away from the unskillful and establishes them in the skillful.’ "
+    },
+    {
+      "number": 199,
+      "pali": "Seyyathāpi, āvuso, itthī vā puriso vā daharo yuvā maṇḍanakajātiko sīsaṁnhāto uppalamālaṁ vā vassikamālaṁ vā atimuttakamālaṁ vā labhitvā ubhohi hatthehi paṭiggahetvā uttamaṅge sirasmiṁ patiṭṭhapeyya; ",
+      "english": "Suppose there was a woman or man who was young, youthful, and fond of adornments, and had bathed their head. Presented with a garland of lotuses, jasmine, or liana flowers, they would take them in both hands and place them on the crown of the head. "
+    },
+    {
+      "number": 200,
+      "pali": "evameva kho, āvuso, ye te kulaputtā saddhā agārasmā anagāriyaṁ pabbajitā, asaṭhā amāyāvino aketabino anuddhatā anunnaḷā acapalā amukharā avikiṇṇavācā, indriyesu guttadvārā, bhojane mattaññuno, jāgariyaṁ anuyuttā, sāmaññe apekkhavanto, sikkhāya tibbagāravā, na bāhulikā na sāthalikā, okkamane nikkhittadhurā, paviveke pubbaṅgamā, āraddhavīriyā pahitattā upaṭṭhitassatī sampajānā samāhitā ekaggacittā paññavanto aneḷamūgā, te āyasmato sāriputtassa imaṁ dhammapariyāyaṁ sutvā pivanti maññe, ghasanti maññe vacasā ceva manasā ca: ",
+      "english": "In the same way, those gentlemen who went forth from the lay life to homelessness out of faith … say: "
+    },
+    {
+      "number": 201,
+      "pali": "‘sādhu vata, bho, sabrahmacārī akusalā vuṭṭhāpetvā kusale patiṭṭhāpetī’”ti. ",
+      "english": "‘It’s good, sirs, that he draws his spiritual companions away from the unskillful and establishes them in the skillful.’” "
+    },
+    {
+      "number": 202,
+      "pali": "Itiha te ubho mahānāgā aññamaññassa subhāsitaṁ samanumodiṁsūti. ",
+      "english": "And so these two spiritual giants agreed with each others’ fine words. "
+    },
+    {
+      "number": 203,
+      "pali": "Anaṅgaṇasuttaṁ niṭṭhitaṁ pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

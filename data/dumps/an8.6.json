@@ -1,0 +1,355 @@
+{
+  "sutta_id": "AN8.6",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 8.6 ",
+      "english": "Numbered Discourses 8.6 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Mettāvagga ",
+      "english": "1. Love "
+    },
+    {
+      "number": 3,
+      "pali": "Dutiyalokadhammasutta ",
+      "english": "Worldly Conditions (2nd) "
+    },
+    {
+      "number": 4,
+      "pali": "“Aṭṭhime, bhikkhave, lokadhammā lokaṁ anuparivattanti, loko ca aṭṭha lokadhamme anuparivattati. ",
+      "english": "“Mendicants, the eight worldly conditions revolve around the world, and the world revolves around the eight worldly conditions. "
+    },
+    {
+      "number": 5,
+      "pali": "Katame aṭṭha? ",
+      "english": "What eight? "
+    },
+    {
+      "number": 6,
+      "pali": "Lābho ca, alābho ca, yaso ca, ayaso ca, nindā ca, pasaṁsā ca, sukhañca, dukkhañca. ",
+      "english": "Gain and loss, fame and disgrace, blame and praise, pleasure and pain. "
+    },
+    {
+      "number": 7,
+      "pali": "Ime kho, bhikkhave, aṭṭha lokadhammā lokaṁ anuparivattanti, loko ca ime aṭṭha lokadhamme anuparivattati. ",
+      "english": "These eight worldly conditions revolve around the world, and the world revolves around these eight worldly conditions. "
+    },
+    {
+      "number": 8,
+      "pali": "Assutavato, bhikkhave, puthujjanassa uppajjati lābhopi alābhopi yasopi ayasopi nindāpi pasaṁsāpi sukhampi dukkhampi. ",
+      "english": "An unlearned ordinary person encounters gain and loss, fame and disgrace, blame and praise, and pleasure and pain. "
+    },
+    {
+      "number": 9,
+      "pali": "Sutavatopi, bhikkhave, ariyasāvakassa uppajjati lābhopi alābhopi yasopi ayasopi nindāpi pasaṁsāpi sukhampi dukkhampi. ",
+      "english": "And so does a learned noble disciple. "
+    },
+    {
+      "number": 10,
+      "pali": "Tatra, bhikkhave, ko viseso ko adhippayāso kiṁ nānākaraṇaṁ sutavato ariyasāvakassa assutavatā puthujjanenā”ti? ",
+      "english": "What, then, is the difference between a learned noble disciple and an ordinary unlearned person?” "
+    },
+    {
+      "number": 11,
+      "pali": "“Bhagavaṁmūlakā no, bhante, dhammā bhagavaṁnettikā bhagavaṁpaṭisaraṇā. Sādhu vata, bhante, bhagavantaṁyeva paṭibhātu etassa bhāsitassa attho. Bhagavato sutvā bhikkhū dhāressantī”ti. ",
+      "english": "“Our teachings are rooted in the Buddha. He is our guide and our refuge. Sir, may the Buddha himself please clarify the meaning of this. The mendicants will listen and remember it.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Tena hi, bhikkhave, suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "“Well then, mendicants, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 13,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 14,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 15,
+      "pali": "“assutavato, bhikkhave, puthujjanassa uppajjati lābho. ",
+      "english": "“Mendicants, an unlearned ordinary person encounters gain. "
+    },
+    {
+      "number": 16,
+      "pali": "So na iti paṭisañcikkhati: ",
+      "english": "They don’t reflect: "
+    },
+    {
+      "number": 17,
+      "pali": "‘uppanno kho me ayaṁ lābho; ",
+      "english": "‘I’ve encountered this gain. "
+    },
+    {
+      "number": 18,
+      "pali": "so ca kho anicco dukkho vipariṇāmadhammo’ti yathābhūtaṁ nappajānāti. ",
+      "english": "It’s impermanent, suffering, and perishable.’ They don’t truly understand it. "
+    },
+    {
+      "number": 19,
+      "pali": "Uppajjati alābho …pe… ",
+      "english": "They encounter loss … "
+    },
+    {
+      "number": 20,
+      "pali": "uppajjati yaso … ",
+      "english": "fame … "
+    },
+    {
+      "number": 21,
+      "pali": "uppajjati ayaso … ",
+      "english": "disgrace … "
+    },
+    {
+      "number": 22,
+      "pali": "uppajjati nindā … ",
+      "english": "blame … "
+    },
+    {
+      "number": 23,
+      "pali": "uppajjati pasaṁsā … ",
+      "english": "praise … "
+    },
+    {
+      "number": 24,
+      "pali": "uppajjati sukhaṁ … ",
+      "english": "pleasure … "
+    },
+    {
+      "number": 25,
+      "pali": "uppajjati dukkhaṁ. ",
+      "english": "pain. "
+    },
+    {
+      "number": 26,
+      "pali": "So na iti paṭisañcikkhati: ",
+      "english": "They don’t reflect: "
+    },
+    {
+      "number": 27,
+      "pali": "‘uppannaṁ kho me idaṁ dukkhaṁ; ",
+      "english": "‘I’ve encountered this pain. "
+    },
+    {
+      "number": 28,
+      "pali": "tañca kho aniccaṁ dukkhaṁ vipariṇāmadhamman’ti yathābhūtaṁ nappajānāti. ",
+      "english": "It’s impermanent, suffering, and perishable.’ They don’t truly understand it. "
+    },
+    {
+      "number": 29,
+      "pali": "Tassa lābhopi cittaṁ pariyādāya tiṭṭhati, alābhopi cittaṁ pariyādāya tiṭṭhati, yasopi cittaṁ pariyādāya tiṭṭhati, ayasopi cittaṁ pariyādāya tiṭṭhati, nindāpi cittaṁ pariyādāya tiṭṭhati, pasaṁsāpi cittaṁ pariyādāya tiṭṭhati, sukhampi cittaṁ pariyādāya tiṭṭhati, dukkhampi cittaṁ pariyādāya tiṭṭhati. ",
+      "english": "So gain and loss, fame and disgrace, blame and praise, and pleasure and pain occupy their mind. "
+    },
+    {
+      "number": 30,
+      "pali": "So uppannaṁ lābhaṁ anurujjhati, alābhe paṭivirujjhati; ",
+      "english": "They favor gain and oppose loss. "
+    },
+    {
+      "number": 31,
+      "pali": "uppannaṁ yasaṁ anurujjhati, ayase paṭivirujjhati; ",
+      "english": "They favor fame and oppose disgrace. "
+    },
+    {
+      "number": 32,
+      "pali": "uppannaṁ pasaṁsaṁ anurujjhati, nindāya paṭivirujjhati; ",
+      "english": "They favor praise and oppose blame. "
+    },
+    {
+      "number": 33,
+      "pali": "uppannaṁ sukhaṁ anurujjhati, dukkhe paṭivirujjhati. ",
+      "english": "They favor pleasure and oppose pain. "
+    },
+    {
+      "number": 34,
+      "pali": "So evaṁ anurodhavirodhasamāpanno na parimuccati jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi. ",
+      "english": "Being so full of favoring and opposing, they’re not freed from rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 35,
+      "pali": "‘Na parimuccati dukkhasmā’ti vadāmi. ",
+      "english": "They’re not freed from suffering, I say. "
+    },
+    {
+      "number": 36,
+      "pali": "Sutavato ca kho, bhikkhave, ariyasāvakassa uppajjati lābho. ",
+      "english": "A learned noble disciple encounters gain. "
+    },
+    {
+      "number": 37,
+      "pali": "So iti paṭisañcikkhati: ",
+      "english": "They reflect: "
+    },
+    {
+      "number": 38,
+      "pali": "‘uppanno kho me ayaṁ lābho; ",
+      "english": "‘I’ve encountered this gain. "
+    },
+    {
+      "number": 39,
+      "pali": "so ca kho anicco dukkho vipariṇāmadhammo’ti yathābhūtaṁ pajānāti. ",
+      "english": "It’s impermanent, suffering, and perishable.’ They truly understand it. "
+    },
+    {
+      "number": 40,
+      "pali": "Uppajjati alābho …pe… ",
+      "english": "They encounter loss … "
+    },
+    {
+      "number": 41,
+      "pali": "uppajjati yaso … ",
+      "english": "fame … "
+    },
+    {
+      "number": 42,
+      "pali": "uppajjati ayaso … ",
+      "english": "disgrace … "
+    },
+    {
+      "number": 43,
+      "pali": "uppajjati nindā … ",
+      "english": "blame … "
+    },
+    {
+      "number": 44,
+      "pali": "uppajjati pasaṁsā … ",
+      "english": "praise … "
+    },
+    {
+      "number": 45,
+      "pali": "uppajjati sukhaṁ … ",
+      "english": "pleasure … "
+    },
+    {
+      "number": 46,
+      "pali": "uppajjati dukkhaṁ. ",
+      "english": "pain. "
+    },
+    {
+      "number": 47,
+      "pali": "So iti paṭisañcikkhati: ",
+      "english": "They reflect: "
+    },
+    {
+      "number": 48,
+      "pali": "‘uppannaṁ kho me idaṁ dukkhaṁ; ",
+      "english": "‘I’ve encountered this pain. "
+    },
+    {
+      "number": 49,
+      "pali": "tañca kho aniccaṁ dukkhaṁ vipariṇāmadhamman’ti yathābhūtaṁ pajānāti. ",
+      "english": "It’s impermanent, suffering, and perishable.’ They truly understand it. "
+    },
+    {
+      "number": 50,
+      "pali": "Tassa lābhopi cittaṁ na pariyādāya tiṭṭhati, alābhopi cittaṁ na pariyādāya tiṭṭhati, yasopi cittaṁ na pariyādāya tiṭṭhati, ayasopi cittaṁ na pariyādāya tiṭṭhati, nindāpi cittaṁ na pariyādāya tiṭṭhati, pasaṁsāpi cittaṁ na pariyādāya tiṭṭhati, sukhampi cittaṁ na pariyādāya tiṭṭhati, dukkhampi cittaṁ na pariyādāya tiṭṭhati. ",
+      "english": "So gain and loss, fame and disgrace, blame and praise, and pleasure and pain don’t occupy their mind. "
+    },
+    {
+      "number": 51,
+      "pali": "So uppannaṁ lābhaṁ nānurujjhati, alābhe nappaṭivirujjhati; ",
+      "english": "They don’t favor gain or oppose loss. "
+    },
+    {
+      "number": 52,
+      "pali": "uppannaṁ yasaṁ nānurujjhati, ayase nappaṭivirujjhati; ",
+      "english": "They don’t favor fame or oppose disgrace. "
+    },
+    {
+      "number": 53,
+      "pali": "uppannaṁ pasaṁsaṁ nānurujjhati, nindāya nappaṭivirujjhati; ",
+      "english": "They don’t favor praise or oppose blame. "
+    },
+    {
+      "number": 54,
+      "pali": "uppannaṁ sukhaṁ nānurujjhati, dukkhe nappaṭivirujjhati. ",
+      "english": "They don’t favor pleasure or oppose pain. "
+    },
+    {
+      "number": 55,
+      "pali": "So evaṁ anurodhavirodhavippahīno parimuccati jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi. ",
+      "english": "Having given up favoring and opposing, they’re freed from rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 56,
+      "pali": "‘Parimuccati dukkhasmā’ti vadāmi. ",
+      "english": "They’re freed from suffering, I say. "
+    },
+    {
+      "number": 57,
+      "pali": "Ayaṁ kho, bhikkhave, viseso ayaṁ adhippayāso idaṁ nānākaraṇaṁ sutavato ariyasāvakassa assutavatā puthujjanenāti. ",
+      "english": "This is the difference between a learned noble disciple and an unlearned ordinary person. "
+    },
+    {
+      "number": 58,
+      "pali": "Lābho alābho ca yasāyaso ca, ",
+      "english": "Gain and loss, fame and disgrace, "
+    },
+    {
+      "number": 59,
+      "pali": "Nindā pasaṁsā ca sukhaṁ dukhañca; ",
+      "english": "blame and praise, and pleasure and pain. "
+    },
+    {
+      "number": 60,
+      "pali": "Ete aniccā manujesu dhammā, ",
+      "english": "These qualities among mankind are impermanent, "
+    },
+    {
+      "number": 61,
+      "pali": "Asassatā vipariṇāmadhammā. ",
+      "english": "transient, and perishable. "
+    },
+    {
+      "number": 62,
+      "pali": "Ete ca ñatvā satimā sumedho, ",
+      "english": "An intelligent and mindful person knows these things, "
+    },
+    {
+      "number": 63,
+      "pali": "Avekkhati vipariṇāmadhamme; ",
+      "english": "seeing that they’re perishable. "
+    },
+    {
+      "number": 64,
+      "pali": "Iṭṭhassa dhammā na mathenti cittaṁ, ",
+      "english": "Desirable things don’t disturb their mind, "
+    },
+    {
+      "number": 65,
+      "pali": "Aniṭṭhato no paṭighātameti. ",
+      "english": "nor are they repelled by the undesirable. "
+    },
+    {
+      "number": 66,
+      "pali": "Tassānurodhā atha vā virodhā, ",
+      "english": "Both favoring and opposing "
+    },
+    {
+      "number": 67,
+      "pali": "Vidhūpitā atthaṅgatā na santi; ",
+      "english": "are cleared and disappeared, they are no more. "
+    },
+    {
+      "number": 68,
+      "pali": "Padañca ñatvā virajaṁ asokaṁ, ",
+      "english": "Knowing the stainless, sorrowless state, "
+    },
+    {
+      "number": 69,
+      "pali": "Sammappajānāti bhavassa pāragū”ti. ",
+      "english": "they who have gone beyond rebirth <j>understand rightly.” "
+    },
+    {
+      "number": 70,
+      "pali": "Chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

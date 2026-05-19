@@ -1,0 +1,335 @@
+{
+  "sutta_id": "AN3.183-352",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 3 ",
+      "english": "Numbered Discourses 3 "
+    },
+    {
+      "number": 2,
+      "pali": "18. Rāgapeyyāla ",
+      "english": "The Chapter on Abbreviated Texts Beginning with Greed "
+    },
+    {
+      "number": 3,
+      "pali": "~ ",
+      "english": "Untitled Discourses on Greed, Etc. "
+    },
+    {
+      "number": 4,
+      "pali": "“Rāgassa, bhikkhave, abhiññāya tayo dhammā bhāvetabbā. ",
+      "english": "“For insight into greed, three things should be developed. "
+    },
+    {
+      "number": 5,
+      "pali": "Katame tayo? ",
+      "english": "What three? "
+    },
+    {
+      "number": 6,
+      "pali": "Suññato samādhi, animitto samādhi, appaṇihito samādhi—",
+      "english": "Emptiness immersion; signless immersion; and undirected immersion. "
+    },
+    {
+      "number": 7,
+      "pali": "rāgassa, bhikkhave, abhiññāya ime tayo dhammā bhāvetabbā. (…) ",
+      "english": "For insight into greed, these three things should be developed. "
+    },
+    {
+      "number": 8,
+      "pali": "Rāgassa, bhikkhave, pariññāya …pe… ",
+      "english": "For the complete understanding of greed … "
+    },
+    {
+      "number": 9,
+      "pali": "parikkhayāya … ",
+      "english": "complete ending … "
+    },
+    {
+      "number": 10,
+      "pali": "pahānāya … ",
+      "english": "giving up … "
+    },
+    {
+      "number": 11,
+      "pali": "khayāya … ",
+      "english": "ending … "
+    },
+    {
+      "number": 12,
+      "pali": "vayāya … ",
+      "english": "vanishing … "
+    },
+    {
+      "number": 13,
+      "pali": "virāgāya … ",
+      "english": "fading away … "
+    },
+    {
+      "number": 14,
+      "pali": "nirodhāya … ",
+      "english": "cessation … "
+    },
+    {
+      "number": 15,
+      "pali": "cāgāya … ",
+      "english": "giving away … "
+    },
+    {
+      "number": 16,
+      "pali": "paṭinissaggāya ime tayo dhammā bhāvetabbā. ",
+      "english": "letting go … "
+    },
+    {
+      "number": 17,
+      "pali": "Dosassa … ",
+      "english": "hate … "
+    },
+    {
+      "number": 18,
+      "pali": "mohassa … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 19,
+      "pali": "kodhassa … ",
+      "english": "anger … "
+    },
+    {
+      "number": 20,
+      "pali": "upanāhassa … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 21,
+      "pali": "makkhassa … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 22,
+      "pali": "paḷāsassa … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 23,
+      "pali": "issāya … ",
+      "english": "jealousy … "
+    },
+    {
+      "number": 24,
+      "pali": "macchariyassa … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 25,
+      "pali": "māyāya … ",
+      "english": "deceitfulness … "
+    },
+    {
+      "number": 26,
+      "pali": "sāṭheyyassa … ",
+      "english": "deviousness … "
+    },
+    {
+      "number": 27,
+      "pali": "thambhassa … ",
+      "english": "obstinacy … "
+    },
+    {
+      "number": 28,
+      "pali": "sārambhassa … ",
+      "english": "aggression … "
+    },
+    {
+      "number": 29,
+      "pali": "mānassa … ",
+      "english": "conceit … "
+    },
+    {
+      "number": 30,
+      "pali": "atimānassa … ",
+      "english": "arrogance … "
+    },
+    {
+      "number": 31,
+      "pali": "madassa … ",
+      "english": "vanity … "
+    },
+    {
+      "number": 32,
+      "pali": "pamādassa … ",
+      "english": "negligence … "
+    },
+    {
+      "number": 33,
+      "pali": "abhiññāya … ",
+      "english": "insight … "
+    },
+    {
+      "number": 34,
+      "pali": "pariññāya … ",
+      "english": "complete understanding … "
+    },
+    {
+      "number": 35,
+      "pali": "parikkhayāya … ",
+      "english": "complete ending … "
+    },
+    {
+      "number": 36,
+      "pali": "pahānāya … ",
+      "english": "giving up … "
+    },
+    {
+      "number": 37,
+      "pali": "khayāya … ",
+      "english": "ending … "
+    },
+    {
+      "number": 38,
+      "pali": "vayāya … ",
+      "english": "vanishing … "
+    },
+    {
+      "number": 39,
+      "pali": "virāgāya … ",
+      "english": "fading away … "
+    },
+    {
+      "number": 40,
+      "pali": "nirodhāya … ",
+      "english": "cessation … "
+    },
+    {
+      "number": 41,
+      "pali": "cāgāya … ",
+      "english": "giving away … "
+    },
+    {
+      "number": 42,
+      "pali": "paṭinissaggāya ime tayo dhammā bhāvetabbā”ti. ",
+      "english": "For the letting go of negligence, these three things should be developed.” "
+    },
+    {
+      "number": 43,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 44,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 45,
+      "pali": "Rāgapeyyālaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "Rāgaṁ dosañca mohañca, ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "kodhūpanāhapañcamaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Makkhapaḷāsaissā ca, ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "maccharimāyāsāṭheyyā. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Thambhasārambhamānañca, ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "atimānamadassa ca; ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Pamādā sattarasa vuttā, ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "rāgapeyyālanissitā. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Ete opammayuttena, ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "āpādena abhiññāya; ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "Pariññāya parikkhayā, ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "pahānakkhayabbayena; ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "Virāganirodhacāgaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "paṭinissagge ime dasa. ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "Suññato animitto ca, ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "appaṇihito ca tayo; ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "Samādhimūlakā peyyā—",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "lesupi vavatthitā cāti. ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "Tatiyo paṇṇāsako niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "Tikanipātapāḷi niṭṭhitā. ",
+      "english": "The Book of the Threes is finished. "
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "sutta_id": "SN24.70",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 24.70 ",
+      "english": "Linked Discourses 24.70 "
+    },
+    {
+      "number": 2,
+      "pali": "3. Tatiyagamanavagga ",
+      "english": "3. The Third Round "
+    },
+    {
+      "number": 3,
+      "pali": "Adukkhamasukhīsutta ",
+      "english": "The Self Is Neither Happy Nor Suffering "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthinidānaṁ. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "“Kismiṁ nu kho, bhikkhave, sati, kiṁ upādāya, kiṁ abhinivissa evaṁ diṭṭhi uppajjati: ",
+      "english": "“Mendicants, when what exists, because of grasping what and insisting on what, does the view arise: "
+    },
+    {
+      "number": 6,
+      "pali": "‘adukkhamasukhī attā hoti arogo paraṁ maraṇā’”ti? ",
+      "english": "‘The self is neither happy nor suffering, and healthy after death’?” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhagavaṁmūlakā no, bhante, dhammā …pe…. ",
+      "english": "“Our teachings are rooted in the Buddha. …” "
+    },
+    {
+      "number": 8,
+      "pali": "“Rūpe kho, bhikkhave, sati, rūpaṁ upādāya, rūpaṁ abhinivissa evaṁ diṭṭhi uppajjati: ",
+      "english": "“When form exists, because of grasping form and insisting on form, the view arises: "
+    },
+    {
+      "number": 9,
+      "pali": "‘adukkhamasukhī attā hoti arogo paraṁ maraṇā’”ti. ",
+      "english": "‘The self is neither happy nor suffering, and is healthy after death.’ "
+    },
+    {
+      "number": 10,
+      "pali": "“Vedanāya sati …pe… ",
+      "english": "When feeling … "
+    },
+    {
+      "number": 11,
+      "pali": "saññāya sati … ",
+      "english": "perception … "
+    },
+    {
+      "number": 12,
+      "pali": "saṅkhāresu sati … ",
+      "english": "choices … "
+    },
+    {
+      "number": 13,
+      "pali": "viññāṇe sati, viññāṇaṁ upādāya, viññāṇaṁ abhinivissa evaṁ diṭṭhi uppajjati: ",
+      "english": "consciousness exists, because of grasping consciousness and insisting on consciousness, the view arises: "
+    },
+    {
+      "number": 14,
+      "pali": "‘adukkhamasukhī attā hoti arogo paraṁ maraṇā’ti. ",
+      "english": "‘The self is neither happy nor suffering, and healthy after death.’ "
+    },
+    {
+      "number": 15,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 16,
+      "pali": "rūpaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Is form permanent or impermanent?” "
+    },
+    {
+      "number": 17,
+      "pali": "“Aniccaṁ, bhante” …pe… vipariṇāmadhammaṁ, ",
+      "english": "“Impermanent, sir.” … "
+    },
+    {
+      "number": 18,
+      "pali": "api nu taṁ anupādāya evaṁ diṭṭhi uppajjeyya: ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "‘adukkhamasukhī attā hoti arogo paraṁ maraṇā’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "“Iti kho, bhikkhave, yadaniccaṁ taṁ dukkhaṁ. ",
+      "english": "“And so, what’s impermanent is suffering. "
+    },
+    {
+      "number": 22,
+      "pali": "Tasmiṁ sati, tadupādāya evaṁ diṭṭhi uppajjati: ",
+      "english": "When this exists, grasping at this, the view arises: "
+    },
+    {
+      "number": 23,
+      "pali": "‘adukkhamasukhī attā hoti arogo paraṁ maraṇā’”ti. ",
+      "english": "‘The self is neither happy nor suffering, and is healthy after death.’ "
+    },
+    {
+      "number": 24,
+      "pali": "“Vedanā …pe… ",
+      "english": "Is feeling … "
+    },
+    {
+      "number": 25,
+      "pali": "saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 26,
+      "pali": "saṅkhārā … ",
+      "english": "choices … "
+    },
+    {
+      "number": 27,
+      "pali": "viññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "consciousness permanent or impermanent?” "
+    },
+    {
+      "number": 28,
+      "pali": "“Aniccaṁ, bhante” …pe… vipariṇāmadhammaṁ, ",
+      "english": "“Impermanent, sir.” … "
+    },
+    {
+      "number": 29,
+      "pali": "api nu taṁ anupādāya evaṁ diṭṭhi uppajjeyya: ",
+      "english": "“But by not grasping what’s impermanent, suffering, and perishable, would such a view arise?” "
+    },
+    {
+      "number": 30,
+      "pali": "‘adukkhamasukhī attā hoti arogo paraṁ maraṇā’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 32,
+      "pali": "“Iti kho, bhikkhave, yadaniccaṁ taṁ dukkhaṁ. ",
+      "english": "“And so, what’s impermanent is suffering. "
+    },
+    {
+      "number": 33,
+      "pali": "Tasmiṁ sati, tadupādāya evaṁ diṭṭhi uppajjati: ",
+      "english": "When this exists, grasping at this, the view arises: "
+    },
+    {
+      "number": 34,
+      "pali": "‘adukkhamasukhī attā hoti arogo paraṁ maraṇā’”ti. ",
+      "english": "‘The self is neither happy nor suffering, and healthy after death.’” "
+    },
+    {
+      "number": 35,
+      "pali": "Chabbīsatimaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "Tatiyapeyyālo. ",
+      "english": ""
+    }
+  ]
+}

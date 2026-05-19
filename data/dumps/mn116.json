@@ -1,0 +1,485 @@
+{
+  "sutta_id": "MN116",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 116 ",
+      "english": "Middle Discourses 116 "
+    },
+    {
+      "number": 2,
+      "pali": "Isigilisutta ",
+      "english": "At Isigili "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā rājagahe viharati isigilismiṁ pabbate. ",
+      "english": "At one time the Buddha was staying near Rājagaha, on the Isigili Mountain. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Passatha no tumhe, bhikkhave, etaṁ vebhāraṁ pabbatan”ti? ",
+      "english": "“Mendicants, do you see that Mount Vebhāra?” "
+    },
+    {
+      "number": 10,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 11,
+      "pali": "“Etassapi kho, bhikkhave, vebhārassa pabbatassa aññāva samaññā ahosi aññā paññatti. ",
+      "english": "“It used to have a different label and description. "
+    },
+    {
+      "number": 12,
+      "pali": "Passatha no tumhe, bhikkhave, etaṁ paṇḍavaṁ pabbatan”ti? ",
+      "english": "Do you see that Mount Paṇḍava?” "
+    },
+    {
+      "number": 13,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 14,
+      "pali": "“Etassapi kho, bhikkhave, paṇḍavassa pabbatassa aññāva samaññā ahosi aññā paññatti. ",
+      "english": "“It too used to have a different label and description. "
+    },
+    {
+      "number": 15,
+      "pali": "Passatha no tumhe, bhikkhave, etaṁ vepullaṁ pabbatan”ti? ",
+      "english": "Do you see that Mount Vepulla?” "
+    },
+    {
+      "number": 16,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 17,
+      "pali": "“Etassapi kho, bhikkhave, vepullassa pabbatassa aññāva samaññā ahosi aññā paññatti. ",
+      "english": "“It too used to have a different label and description. "
+    },
+    {
+      "number": 18,
+      "pali": "Passatha no tumhe, bhikkhave, etaṁ gijjhakūṭaṁ pabbatan”ti? ",
+      "english": "Do you see that Mount Vulture’s Peak?” "
+    },
+    {
+      "number": 19,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 20,
+      "pali": "“Etassapi kho, bhikkhave, gijjhakūṭassa pabbatassa aññāva samaññā ahosi aññā paññatti. ",
+      "english": "“It too used to have a different label and description. "
+    },
+    {
+      "number": 21,
+      "pali": "Passatha no tumhe, bhikkhave, imaṁ isigiliṁ pabbatan”ti? ",
+      "english": "Do you see that Mount Isigili?” "
+    },
+    {
+      "number": 22,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 23,
+      "pali": "“Imassa kho pana, bhikkhave, isigilissa pabbatassa esāva samaññā ahosi esā paññatti. ",
+      "english": "“It used to have exactly the same label and description. "
+    },
+    {
+      "number": 24,
+      "pali": "Bhūtapubbaṁ, bhikkhave, pañca paccekabuddhasatāni imasmiṁ isigilismiṁ pabbate ciranivāsino ahesuṁ. ",
+      "english": "Once upon a time, five hundred Independent Buddhas dwelt for a long time on this Isigili. "
+    },
+    {
+      "number": 25,
+      "pali": "Te imaṁ pabbataṁ pavisantā dissanti, paviṭṭhā na dissanti. ",
+      "english": "They were seen entering the mountain, but after entering were seen no more. "
+    },
+    {
+      "number": 26,
+      "pali": "Tamenaṁ manussā disvā evamāhaṁsu: ",
+      "english": "When people noticed this they said: "
+    },
+    {
+      "number": 27,
+      "pali": "‘ayaṁ pabbato ime isī gilatī’ti; ",
+      "english": "‘That mountain swallows these seers!’ "
+    },
+    {
+      "number": 28,
+      "pali": "‘isigili isigili’ tveva samaññā udapādi. ",
+      "english": "That’s how it came to be known as Isigili, the “seer-swallower”. "
+    },
+    {
+      "number": 29,
+      "pali": "Ācikkhissāmi, bhikkhave, paccekabuddhānaṁ nāmāni; ",
+      "english": "I shall declare the names of the Independent Buddhas; "
+    },
+    {
+      "number": 30,
+      "pali": "kittayissāmi, bhikkhave, paccekabuddhānaṁ nāmāni; ",
+      "english": "I shall extol the names of the Independent Buddhas; "
+    },
+    {
+      "number": 31,
+      "pali": "desessāmi, bhikkhave, paccekabuddhānaṁ nāmāni. ",
+      "english": "I shall teach the names of the Independent Buddhas. "
+    },
+    {
+      "number": 32,
+      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "Listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 33,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 34,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 35,
+      "pali": "“Ariṭṭho nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "“The independent Buddhas who dwelt for a long time on this Isigili were named Ariṭṭha, "
+    },
+    {
+      "number": 36,
+      "pali": "upariṭṭho nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "Upariṭṭha, "
+    },
+    {
+      "number": 37,
+      "pali": "tagarasikhī nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "Tagarasikhī, "
+    },
+    {
+      "number": 38,
+      "pali": "yasassī nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "Yasassin, "
+    },
+    {
+      "number": 39,
+      "pali": "sudassano nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "Sudassana, "
+    },
+    {
+      "number": 40,
+      "pali": "piyadassī nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "Piyadassin, "
+    },
+    {
+      "number": 41,
+      "pali": "gandhāro nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "Gandhāra, "
+    },
+    {
+      "number": 42,
+      "pali": "piṇḍolo nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "Piṇḍola, "
+    },
+    {
+      "number": 43,
+      "pali": "upāsabho nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "Upāsabha, "
+    },
+    {
+      "number": 44,
+      "pali": "nīto nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "Nīta, "
+    },
+    {
+      "number": 45,
+      "pali": "tatho nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi, ",
+      "english": "Tatha, "
+    },
+    {
+      "number": 46,
+      "pali": "sutavā nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi; ",
+      "english": "Sutavā, "
+    },
+    {
+      "number": 47,
+      "pali": "bhāvitatto nāma, bhikkhave, paccekasambuddho imasmiṁ isigilismiṁ pabbate ciranivāsī ahosi. ",
+      "english": "and Bhāvitatta. "
+    },
+    {
+      "number": 48,
+      "pali": "Ye sattasārā anīghā nirāsā, ",
+      "english": "Those saintly beings, untroubled, <j>with no need for hope, "
+    },
+    {
+      "number": 49,
+      "pali": "Paccekamevajjhagamaṁsu bodhiṁ; ",
+      "english": "who each achieved awakening independently; "
+    },
+    {
+      "number": 50,
+      "pali": "Tesaṁ visallāna naruttamānaṁ, ",
+      "english": "hear me extol their names, "
+    },
+    {
+      "number": 51,
+      "pali": "Nāmāni me kittayato suṇātha. ",
+      "english": "the supreme men, free of thorns. "
+    },
+    {
+      "number": 52,
+      "pali": "Ariṭṭho upariṭṭho tagarasikhī yasassī, ",
+      "english": "Ariṭṭha, Upariṭṭha, Tagarasikhī, Yasassin, "
+    },
+    {
+      "number": 53,
+      "pali": "Sudassano piyadassī ca susambuddho; ",
+      "english": "Sudassana, and Piyadassin the awakened; "
+    },
+    {
+      "number": 54,
+      "pali": "Gandhāro piṇḍolo upāsabho ca, ",
+      "english": "Gandhāra, Piṇḍola, and Upāsabha, "
+    },
+    {
+      "number": 55,
+      "pali": "Nīto tatho sutavā bhāvitatto. ",
+      "english": "Nīta, Tatha, Sutavā, and Bhāvitatta. "
+    },
+    {
+      "number": 56,
+      "pali": "Sumbho subho matulo aṭṭhamo ca, ",
+      "english": "Sumbha, Subha, Methula, and Aṭṭhama, "
+    },
+    {
+      "number": 57,
+      "pali": "Athassumegho anīgho sudāṭho; ",
+      "english": "then Assumegha, Anīgha, and Sudāṭha, "
+    },
+    {
+      "number": 58,
+      "pali": "Paccekabuddhā bhavanettikhīṇā, ",
+      "english": "Independent Buddhas, enders of the leash to existence; "
+    },
+    {
+      "number": 59,
+      "pali": "Hiṅgū ca hiṅgo ca mahānubhāvā. ",
+      "english": "and Hiṅgū and Hiṅga the mighty. "
+    },
+    {
+      "number": 60,
+      "pali": "Dve jālino munino aṭṭhako ca, ",
+      "english": "Two sages named Jāli, and Aṭṭhaka; "
+    },
+    {
+      "number": 61,
+      "pali": "Atha kosallo buddho atho subāhu; ",
+      "english": "then the awakened one Kosala, then Subāhu; "
+    },
+    {
+      "number": 62,
+      "pali": "Upanemiso nemiso santacitto, ",
+      "english": "Upanemi, Nemi, and Santacitta, "
+    },
+    {
+      "number": 63,
+      "pali": "Sacco tatho virajo paṇḍito ca. ",
+      "english": "right and true, stainless and astute. "
+    },
+    {
+      "number": 64,
+      "pali": "Kāḷūpakāḷā vijito jito ca, ",
+      "english": "Kāḷa and Upakāḷa, Vijita and Jita, "
+    },
+    {
+      "number": 65,
+      "pali": "Aṅgo ca paṅgo ca guttijito ca; ",
+      "english": "Aṅga and Paṅga, and Guttijita too; "
+    },
+    {
+      "number": 66,
+      "pali": "Passi jahi upadhidukkhamūlaṁ, ",
+      "english": "Passin gave up attachment, suffering’s root, "
+    },
+    {
+      "number": 67,
+      "pali": "Aparājito mārabalaṁ ajesi. ",
+      "english": "while Aparājita defeated Māra’s power. "
+    },
+    {
+      "number": 68,
+      "pali": "Satthā pavattā sarabhaṅgo lomahaṁso, ",
+      "english": "Satthar, Pavattar, Sarabhaṅga, Lomahaṁsa, "
+    },
+    {
+      "number": 69,
+      "pali": "Uccaṅgamāyo asito anāsavo; ",
+      "english": "Uccaṅgamāya, Asita, Anāsava, "
+    },
+    {
+      "number": 70,
+      "pali": "Manomayo mānacchido ca bandhumā, ",
+      "english": "Manomaya, and Bandhumā the cutter of conceit, "
+    },
+    {
+      "number": 71,
+      "pali": "Tadādhimutto vimalo ca ketumā. ",
+      "english": "then Adhimutta, and Ketumā the immaculate. "
+    },
+    {
+      "number": 72,
+      "pali": "Ketumbharāgo ca mātaṅgo ariyo, ",
+      "english": "Ketumbharāga, Mātaṅga, and Ariya, "
+    },
+    {
+      "number": 73,
+      "pali": "Athaccuto accutagāmabyāmako; ",
+      "english": "then Accuta, Accutagāma, and Byāmaka, "
+    },
+    {
+      "number": 74,
+      "pali": "Sumaṅgalo dabbilo supatiṭṭhito, ",
+      "english": "Sumaṅgala, Dabbila, Supatiṭṭhita, "
+    },
+    {
+      "number": 75,
+      "pali": "Asayho khemābhirato ca sorato. ",
+      "english": "Asayha, Khemābhirata, and Sorata. "
+    },
+    {
+      "number": 76,
+      "pali": "Durannayo saṅgho athopi ujjayo, ",
+      "english": "Durannaya, Saṅgha, and also Ujjaya, "
+    },
+    {
+      "number": 77,
+      "pali": "Aparo muni sayho anomanikkamo; ",
+      "english": "another sage, Sayha of peerless effort. "
+    },
+    {
+      "number": 78,
+      "pali": "Ānando nando upanando dvādasa, ",
+      "english": "There are twelve Ānandas, Nandas, and Upanandas, "
+    },
+    {
+      "number": 79,
+      "pali": "Bhāradvājo antimadehadhārī. ",
+      "english": "and Bhāradvāja, bearing his final body. "
+    },
+    {
+      "number": 80,
+      "pali": "Bodhi mahānāmo athopi uttaro, ",
+      "english": "Bodhi, Mahānāma, and also Uttara, "
+    },
+    {
+      "number": 81,
+      "pali": "Kesī sikhī sundaro dvārabhājo; ",
+      "english": "Kesī, Sikhī, Sundara, and Bhāradvāja, "
+    },
+    {
+      "number": 82,
+      "pali": "Tissūpatissā bhavabandhanacchidā, ",
+      "english": "Tissa and Upatissa, <j>who’ve both cut the bonds to rebirth, "
+    },
+    {
+      "number": 83,
+      "pali": "Upasikhi taṇhacchido ca sikhari. ",
+      "english": "Upasīdarī and Sīdarī, who’ve both cut off craving. "
+    },
+    {
+      "number": 84,
+      "pali": "Buddho ahu maṅgalo vītarāgo, ",
+      "english": "Maṅgala was awakened, free of greed, "
+    },
+    {
+      "number": 85,
+      "pali": "Usabhacchidā jāliniṁ dukkhamūlaṁ; ",
+      "english": "Usabha cut the net, the root of suffering, "
+    },
+    {
+      "number": 86,
+      "pali": "Santaṁ padaṁ ajjhagamopanīto, ",
+      "english": "Upanīta who attained the state of peace, "
+    },
+    {
+      "number": 87,
+      "pali": "Uposatho sundaro saccanāmo. ",
+      "english": "Uposatha, Sundara, and Saccanāma. "
+    },
+    {
+      "number": 88,
+      "pali": "Jeto jayanto padumo uppalo ca, ",
+      "english": "Jeta, Jayanta, Paduma, and Uppala; "
+    },
+    {
+      "number": 89,
+      "pali": "Padumuttaro rakkhito pabbato ca; ",
+      "english": "Padumuttara, Rakkhita, and Pabbata, "
+    },
+    {
+      "number": 90,
+      "pali": "Mānatthaddho sobhito vītarāgo, ",
+      "english": "Mānatthaddha, beautiful and free of greed, "
+    },
+    {
+      "number": 91,
+      "pali": "Kaṇho ca buddho suvimuttacitto. ",
+      "english": "and the Buddha Kaṇha, his mind well freed. "
+    },
+    {
+      "number": 92,
+      "pali": "Ete ca aññe ca mahānubhāvā, ",
+      "english": "These and other mighty ones <j>awakened independently, "
+    },
+    {
+      "number": 93,
+      "pali": "Paccekabuddhā bhavanettikhīṇā; ",
+      "english": "enders of the leash to existence—"
+    },
+    {
+      "number": 94,
+      "pali": "Te sabbasaṅgātigate mahesī, ",
+      "english": "honor these great seers <j>who have slipped all chains, "
+    },
+    {
+      "number": 95,
+      "pali": "Parinibbute vandatha appameyye”ti. ",
+      "english": "fully quenched, limitless.” "
+    },
+    {
+      "number": 96,
+      "pali": "Isigilisuttaṁ niṭṭhitaṁ chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

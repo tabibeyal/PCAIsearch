@@ -1,0 +1,215 @@
+{
+  "sutta_id": "AN11.10",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 11.10 ",
+      "english": "Numbered Discourses 11.10 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Nissayavagga ",
+      "english": "1. Dependence "
+    },
+    {
+      "number": 3,
+      "pali": "Moranivāpasutta ",
+      "english": "At the Peacocks’ Feeding Ground "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā rājagahe viharati moranivāpe paribbājakārāme. ",
+      "english": "At one time the Buddha was staying near Rājagaha, at the monastery of the wanderers in the peacocks’ feeding ground. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Tīhi, bhikkhave, dhammehi samannāgato bhikkhu accantaniṭṭho hoti accantayogakkhemī accantabrahmacārī accantapariyosāno seṭṭho devamanussānaṁ. ",
+      "english": "“Mendicants, a mendicant who has three qualities has reached the ultimate end, the ultimate sanctuary from the yoke, the ultimate spiritual life, the ultimate goal. They are best among gods and humans. "
+    },
+    {
+      "number": 10,
+      "pali": "Katamehi tīhi? ",
+      "english": "What three? "
+    },
+    {
+      "number": 11,
+      "pali": "Asekhena sīlakkhandhena, asekhena samādhikkhandhena, asekhena paññākkhandhena—",
+      "english": "The entire spectrum of an adept’s ethics, immersion, and wisdom. "
+    },
+    {
+      "number": 12,
+      "pali": "imehi, kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu accantaniṭṭho hoti accantayogakkhemī accantabrahmacārī accantapariyosāno seṭṭho devamanussānaṁ. ",
+      "english": "A mendicant with these three qualities has reached the ultimate end, the ultimate sanctuary from the yoke, the ultimate spiritual life, the ultimate goal. They are best among gods and humans. "
+    },
+    {
+      "number": 13,
+      "pali": "Aparehipi, bhikkhave, tīhi dhammehi samannāgato bhikkhu accantaniṭṭho hoti accantayogakkhemī accantabrahmacārī accantapariyosāno seṭṭho devamanussānaṁ. ",
+      "english": "A mendicant who has another three qualities has reached the ultimate end, the ultimate sanctuary from the yoke, the ultimate spiritual life, the ultimate goal. They are best among gods and humans. "
+    },
+    {
+      "number": 14,
+      "pali": "Katamehi tīhi? ",
+      "english": "What three? "
+    },
+    {
+      "number": 15,
+      "pali": "Iddhipāṭihāriyena, ādesanāpāṭihāriyena, anusāsanīpāṭihāriyena—",
+      "english": "A demonstration of psychic power, a demonstration of revealing, and a demonstration of instruction. "
+    },
+    {
+      "number": 16,
+      "pali": "imehi kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu accantaniṭṭho hoti, accantayogakkhemī accantabrahmacārī accantapariyosāno seṭṭho devamanussānaṁ. ",
+      "english": "A mendicant with these three qualities has reached the ultimate end, the ultimate sanctuary from the yoke, the ultimate spiritual life, the ultimate goal. They are best among gods and humans. "
+    },
+    {
+      "number": 17,
+      "pali": "Aparehipi, bhikkhave, tīhi dhammehi samannāgato bhikkhu accantaniṭṭho hoti accantayogakkhemī accantabrahmacārī accantapariyosāno seṭṭho devamanussānaṁ. ",
+      "english": "A mendicant who has another three qualities has reached the ultimate end, the ultimate sanctuary from the yoke, the ultimate spiritual life, the ultimate goal. They are best among gods and humans. "
+    },
+    {
+      "number": 18,
+      "pali": "Katamehi tīhi? ",
+      "english": "What three? "
+    },
+    {
+      "number": 19,
+      "pali": "Sammādiṭṭhiyā, sammāñāṇena, sammāvimuttiyā—",
+      "english": "Right view, right knowledge, and right freedom. "
+    },
+    {
+      "number": 20,
+      "pali": "imehi kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu accantaniṭṭho hoti accantayogakkhemī accantabrahmacārī accantapariyosāno seṭṭho devamanussānaṁ. ",
+      "english": "A mendicant with these three qualities has reached the ultimate end, the ultimate sanctuary from the yoke, the ultimate spiritual life, the ultimate goal. They are best among gods and humans. "
+    },
+    {
+      "number": 21,
+      "pali": "Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu accantaniṭṭho hoti accantayogakkhemī accantabrahmacārī accantapariyosāno seṭṭho devamanussānaṁ. ",
+      "english": "A mendicant who has two qualities has reached the ultimate end, the ultimate sanctuary from the yoke, the ultimate spiritual life, the ultimate goal. They are best among gods and humans. "
+    },
+    {
+      "number": 22,
+      "pali": "Katamehi dvīhi? ",
+      "english": "What two? "
+    },
+    {
+      "number": 23,
+      "pali": "Vijjāya, caraṇena—",
+      "english": "Knowledge and conduct. "
+    },
+    {
+      "number": 24,
+      "pali": "imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu accantaniṭṭho hoti accantayogakkhemī accantabrahmacārī accantapariyosāno seṭṭho devamanussānaṁ. ",
+      "english": "A mendicant with these two qualities has reached the ultimate end, the ultimate sanctuary from the yoke, the ultimate spiritual life, the ultimate goal. They are best among gods and humans. "
+    },
+    {
+      "number": 25,
+      "pali": "Brahmunā pesā, bhikkhave, sanaṅkumārena gāthā bhāsitā: ",
+      "english": "The divinity Sanaṅkumāra also spoke this verse: "
+    },
+    {
+      "number": 26,
+      "pali": "‘Khattiyo seṭṭho janetasmiṁ, ",
+      "english": "‘The aristocrat is best among people "
+    },
+    {
+      "number": 27,
+      "pali": "ye gottapaṭisārino; ",
+      "english": "who take clan as the standard. "
+    },
+    {
+      "number": 28,
+      "pali": "Vijjācaraṇasampanno, ",
+      "english": "But one accomplished in knowledge and conduct "
+    },
+    {
+      "number": 29,
+      "pali": "so seṭṭho devamānuse’ti. ",
+      "english": "is first among gods and humans.’ "
+    },
+    {
+      "number": 30,
+      "pali": "Sā kho panesā, bhikkhave, sanaṅkumārena gāthā bhāsitā subhāsitā, no dubbhāsitā; atthasaṁhitā, no anatthasaṁhitā; anumatā mayā. ",
+      "english": "Now, that verse spoken by the divinity Sanaṅkumāra is well spoken, not poorly spoken. It’s beneficial, not pointless, and I agree with it. "
+    },
+    {
+      "number": 31,
+      "pali": "Ahampi, bhikkhave, evaṁ vadāmi: ",
+      "english": "I also say: "
+    },
+    {
+      "number": 32,
+      "pali": "‘Khattiyo seṭṭho janetasmiṁ, ",
+      "english": "‘The aristocrat is best among people "
+    },
+    {
+      "number": 33,
+      "pali": "ye gottapaṭisārino; ",
+      "english": "who take clan as the standard. "
+    },
+    {
+      "number": 34,
+      "pali": "Vijjācaraṇasampanno, ",
+      "english": "But one accomplished in knowledge and conduct "
+    },
+    {
+      "number": 35,
+      "pali": "so seṭṭho devamānuse’”ti. ",
+      "english": "is first among gods and humans.’” "
+    },
+    {
+      "number": 36,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 37,
+      "pali": "Nissayavaggo paṭhamo. ",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "Kimatthiyā cetanā tayo, ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "upanisā byasanena ca; ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "Dve saññā manasikāro, ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "saddho moranivāpakanti. ",
+      "english": ""
+    }
+  ]
+}

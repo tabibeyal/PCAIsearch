@@ -1,0 +1,530 @@
+{
+  "sutta_id": "SN12.65",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 12.65 ",
+      "english": "Linked Discourses 12.65 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Mahāvagga ",
+      "english": "7. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Nagarasutta ",
+      "english": "The City "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthiyaṁ viharati. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "“Pubbe me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+      "english": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: "
+    },
+    {
+      "number": 6,
+      "pali": "‘kicchā vatāyaṁ loko āpanno jāyati ca jīyati ca mīyati ca cavati ca upapajjati ca. ",
+      "english": "‘Alas, this world has fallen into trouble. It’s born, grows old, dies, passes away, and is reborn, "
+    },
+    {
+      "number": 7,
+      "pali": "Atha ca panimassa dukkhassa nissaraṇaṁ nappajānāti jarāmaraṇassa. ",
+      "english": "yet it doesn’t understand how to escape from this suffering, from old age and death. "
+    },
+    {
+      "number": 8,
+      "pali": "Kudāssu nāma imassa dukkhassa nissaraṇaṁ paññāyissati jarāmaraṇassā’ti? ",
+      "english": "Oh, when will an escape be found from this suffering, from old age and death?’ "
+    },
+    {
+      "number": 9,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 10,
+      "pali": "‘kimhi nu kho sati jarāmaraṇaṁ hoti, kiṁpaccayā jarāmaraṇan’ti? ",
+      "english": "‘When what exists is there old age and death? What is a requirement for old age and death?’ "
+    },
+    {
+      "number": 11,
+      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+    },
+    {
+      "number": 12,
+      "pali": "‘jātiyā kho sati jarāmaraṇaṁ hoti, jātipaccayā jarāmaraṇan’ti. ",
+      "english": "‘When rebirth exists there’s old age and death. Rebirth is a requirement for old age and death.’ "
+    },
+    {
+      "number": 13,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 14,
+      "pali": "‘kimhi nu kho sati jāti hoti …pe… ",
+      "english": "‘When what exists is there rebirth? … "
+    },
+    {
+      "number": 15,
+      "pali": "bhavo hoti … ",
+      "english": "continued existence … "
+    },
+    {
+      "number": 16,
+      "pali": "upādānaṁ hoti … ",
+      "english": "grasping … "
+    },
+    {
+      "number": 17,
+      "pali": "taṇhā hoti … ",
+      "english": "craving … "
+    },
+    {
+      "number": 18,
+      "pali": "vedanā hoti … ",
+      "english": "feeling … "
+    },
+    {
+      "number": 19,
+      "pali": "phasso hoti … ",
+      "english": "contact … "
+    },
+    {
+      "number": 20,
+      "pali": "saḷāyatanaṁ hoti … ",
+      "english": "the six sense fields … "
+    },
+    {
+      "number": 21,
+      "pali": "nāmarūpaṁ hoti … ",
+      "english": "name and form … "
+    },
+    {
+      "number": 22,
+      "pali": "kiṁpaccayā nāmarūpan’ti? ",
+      "english": "What is a requirement for name and form?’ "
+    },
+    {
+      "number": 23,
+      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+    },
+    {
+      "number": 24,
+      "pali": "‘viññāṇe kho sati nāmarūpaṁ hoti, viññāṇapaccayā nāmarūpan’ti. ",
+      "english": "‘When consciousness exists there are name and form. Consciousness is a requirement for name and form.’ "
+    },
+    {
+      "number": 25,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 26,
+      "pali": "‘kimhi nu kho sati viññāṇaṁ hoti, kiṁpaccayā viññāṇan’ti? ",
+      "english": "‘When what exists is there consciousness? What is a requirement for consciousness?’ "
+    },
+    {
+      "number": 27,
+      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+    },
+    {
+      "number": 28,
+      "pali": "‘nāmarūpe kho sati viññāṇaṁ hoti, nāmarūpapaccayā viññāṇan’ti. ",
+      "english": "‘When name and form exist there’s consciousness. Name and form are requirements for consciousness.’ "
+    },
+    {
+      "number": 29,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi—",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 30,
+      "pali": "paccudāvattati kho idaṁ viññāṇaṁ nāmarūpamhā na paraṁ gacchati. ",
+      "english": "This consciousness turns back from name and form, and doesn’t go beyond that. "
+    },
+    {
+      "number": 31,
+      "pali": "Ettāvatā jāyetha vā jīyetha vā mīyetha vā cavetha vā upapajjetha vā, yadidaṁ nāmarūpapaccayā viññāṇaṁ; ",
+      "english": "This is the extent to which one may be reborn, grow old, die, pass away, or reappear. That is: name and form are requirements for consciousness. "
+    },
+    {
+      "number": 32,
+      "pali": "viññāṇapaccayā nāmarūpaṁ; ",
+      "english": "Consciousness is a requirement for name and form. "
+    },
+    {
+      "number": 33,
+      "pali": "nāmarūpapaccayā saḷāyatanaṁ; ",
+      "english": "Name and form are requirements for the six sense fields. "
+    },
+    {
+      "number": 34,
+      "pali": "saḷāyatanapaccayā phasso …pe… ",
+      "english": "The six sense fields are requirements for contact. … "
+    },
+    {
+      "number": 35,
+      "pali": "evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
+      "english": "That is how this entire mass of suffering originates. "
+    },
+    {
+      "number": 36,
+      "pali": "‘Samudayo, samudayo’ti kho me, bhikkhave, pubbe ananussutesu dhammesu cakkhuṁ udapādi ñāṇaṁ udapādi paññā udapādi vijjā udapādi āloko udapādi. ",
+      "english": "‘Origination, origination.’ Such was the vision, knowledge, wisdom, realization, and light that arose in me regarding teachings not learned before from another. "
+    },
+    {
+      "number": 37,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 38,
+      "pali": "‘kimhi nu kho asati, jarāmaraṇaṁ na hoti; ",
+      "english": "‘When what doesn’t exist is there no old age and death? "
+    },
+    {
+      "number": 39,
+      "pali": "kissa nirodhā jarāmaraṇanirodho’ti? ",
+      "english": "When what ceases do old age and death cease?’ "
+    },
+    {
+      "number": 40,
+      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+    },
+    {
+      "number": 41,
+      "pali": "‘jātiyā kho asati, jarāmaraṇaṁ na hoti; ",
+      "english": "‘When rebirth doesn’t exist there is no old age and death. "
+    },
+    {
+      "number": 42,
+      "pali": "jātinirodhā jarāmaraṇanirodho’ti. ",
+      "english": "When rebirth ceases old age and death cease.’ "
+    },
+    {
+      "number": 43,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 44,
+      "pali": "‘kimhi nu kho asati jāti na hoti …pe… ",
+      "english": "‘When what doesn’t exist is there no rebirth … "
+    },
+    {
+      "number": 45,
+      "pali": "bhavo na hoti … ",
+      "english": "continued existence … "
+    },
+    {
+      "number": 46,
+      "pali": "upādānaṁ na hoti … ",
+      "english": "grasping … "
+    },
+    {
+      "number": 47,
+      "pali": "taṇhā na hoti … ",
+      "english": "craving … "
+    },
+    {
+      "number": 48,
+      "pali": "vedanā na hoti … ",
+      "english": "feeling … "
+    },
+    {
+      "number": 49,
+      "pali": "phasso na hoti … ",
+      "english": "contact … "
+    },
+    {
+      "number": 50,
+      "pali": "saḷāyatanaṁ na hoti … ",
+      "english": "six sense fields … "
+    },
+    {
+      "number": 51,
+      "pali": "nāmarūpaṁ na hoti. ",
+      "english": "name and form? "
+    },
+    {
+      "number": 52,
+      "pali": "Kissa nirodhā nāmarūpanirodho’ti? ",
+      "english": "When what ceases do name and form cease?’ "
+    },
+    {
+      "number": 53,
+      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+    },
+    {
+      "number": 54,
+      "pali": "‘viññāṇe kho asati, nāmarūpaṁ na hoti; ",
+      "english": "‘When consciousness doesn’t exist there is no name and form. "
+    },
+    {
+      "number": 55,
+      "pali": "viññāṇanirodhā nāmarūpanirodho’ti. ",
+      "english": "When consciousness ceases name and form cease.’ "
+    },
+    {
+      "number": 56,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 57,
+      "pali": "‘kimhi nu kho asati viññāṇaṁ na hoti; ",
+      "english": "‘When what doesn’t exist is there no consciousness? "
+    },
+    {
+      "number": 58,
+      "pali": "kissa nirodhā viññāṇanirodho’ti? ",
+      "english": "When what ceases does consciousness cease?’ "
+    },
+    {
+      "number": 59,
+      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+    },
+    {
+      "number": 60,
+      "pali": "‘nāmarūpe kho asati, viññāṇaṁ na hoti; ",
+      "english": "‘When name and form don’t exist, there is no consciousness. "
+    },
+    {
+      "number": 61,
+      "pali": "nāmarūpanirodhā viññāṇanirodho’ti. ",
+      "english": "When name and form cease, consciousness ceases.’ "
+    },
+    {
+      "number": 62,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi—",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 63,
+      "pali": "adhigato kho myāyaṁ maggo bodhāya yadidaṁ—",
+      "english": "I have discovered the path to awakening. That is: "
+    },
+    {
+      "number": 64,
+      "pali": "nāmarūpanirodhā viññāṇanirodho; ",
+      "english": "When name and form cease, consciousness ceases. "
+    },
+    {
+      "number": 65,
+      "pali": "viññāṇanirodhā nāmarūpanirodho; ",
+      "english": "When consciousness ceases, name and form cease. "
+    },
+    {
+      "number": 66,
+      "pali": "nāmarūpanirodhā saḷāyatananirodho; ",
+      "english": "When name and form cease, the six sense fields cease. "
+    },
+    {
+      "number": 67,
+      "pali": "saḷāyatananirodhā phassanirodho …pe… ",
+      "english": "When the six sense fields cease, contact ceases. … "
+    },
+    {
+      "number": 68,
+      "pali": "evametassa kevalassa dukkhakkhandhassa nirodho hoti. ",
+      "english": "That is how this entire mass of suffering ceases. "
+    },
+    {
+      "number": 69,
+      "pali": "‘Nirodho, nirodho’ti kho me, bhikkhave, pubbe ananussutesu dhammesu cakkhuṁ udapādi ñāṇaṁ udapādi paññā udapādi vijjā udapādi āloko udapādi. ",
+      "english": "‘Cessation, cessation.’ Such was the vision, knowledge, wisdom, realization, and light that arose in me regarding teachings not learned before from another. "
+    },
+    {
+      "number": 70,
+      "pali": "Seyyathāpi, bhikkhave, puriso araññe pavane caramāno passeyya purāṇaṁ maggaṁ purāṇañjasaṁ pubbakehi manussehi anuyātaṁ. ",
+      "english": "Suppose a person was walking through a forest. They’d see an ancient path, an ancient route traveled by humans in the past. "
+    },
+    {
+      "number": 71,
+      "pali": "So tamanugaccheyya. ",
+      "english": "Following it along, "
+    },
+    {
+      "number": 72,
+      "pali": "Tamanugacchanto passeyya purāṇaṁ nagaraṁ purāṇaṁ rājadhāniṁ pubbakehi manussehi ajjhāvuṭṭhaṁ ārāmasampannaṁ vanasampannaṁ pokkharaṇīsampannaṁ uddhāpavantaṁ ramaṇīyaṁ. ",
+      "english": "they’d see an ancient city, an ancient capital, inhabited by humans in the past. It was lovely, complete with parks, groves, lotus ponds, and embankments. "
+    },
+    {
+      "number": 73,
+      "pali": "Atha kho so, bhikkhave, puriso rañño vā rājamahāmattassa vā āroceyya: ",
+      "english": "Then that person would inform a king or their chief minister: "
+    },
+    {
+      "number": 74,
+      "pali": "‘yagghe, bhante, jāneyyāsi—ahaṁ addasaṁ araññe pavane caramāno purāṇaṁ maggaṁ purāṇañjasaṁ pubbakehi manussehi anuyātaṁ tamanugacchiṁ. ",
+      "english": "‘Please sir, you should know this. While walking through a forest I saw an ancient path, an ancient route traveled by humans in the past. "
+    },
+    {
+      "number": 75,
+      "pali": "Tamanugacchanto addasaṁ purāṇaṁ nagaraṁ purāṇaṁ rājadhāniṁ pubbakehi manussehi ajjhāvuṭṭhaṁ ārāmasampannaṁ vanasampannaṁ pokkharaṇīsampannaṁ uddhāpavantaṁ ramaṇīyaṁ. ",
+      "english": "Following it along I saw an ancient city, an ancient capital, inhabited by humans in the past. It was lovely, complete with parks, groves, lotus ponds, and embankments. "
+    },
+    {
+      "number": 76,
+      "pali": "Taṁ, bhante, nagaraṁ māpehī’ti. ",
+      "english": "Sir, you should rebuild that city!’ "
+    },
+    {
+      "number": 77,
+      "pali": "Atha kho so, bhikkhave, rājā vā rājamahāmatto vā taṁ nagaraṁ māpeyya. ",
+      "english": "Then that king or their chief minister would have that city rebuilt. "
+    },
+    {
+      "number": 78,
+      "pali": "Tadassa nagaraṁ aparena samayena iddhañceva phītañca bāhujaññaṁ ākiṇṇamanussaṁ vuddhivepullappattaṁ. ",
+      "english": "And after some time that city was successful and prosperous, populous, full of people, attained to growth and expansion. "
+    },
+    {
+      "number": 79,
+      "pali": "Evameva khvāhaṁ, bhikkhave, addasaṁ purāṇaṁ maggaṁ purāṇañjasaṁ pubbakehi sammāsambuddhehi anuyātaṁ. ",
+      "english": "In the same way, I saw an ancient path, an ancient route traveled by fully awakened Buddhas in the past. "
+    },
+    {
+      "number": 80,
+      "pali": "Katamo ca so, bhikkhave, purāṇamaggo purāṇañjaso pubbakehi sammāsambuddhehi anuyāto? ",
+      "english": "And what is that ancient path, the ancient route traveled by fully awakened Buddhas in the past? "
+    },
+    {
+      "number": 81,
+      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+      "english": "It is simply this noble eightfold path, that is: "
+    },
+    {
+      "number": 82,
+      "pali": "sammādiṭṭhi …pe… sammāsamādhi. ",
+      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+    },
+    {
+      "number": 83,
+      "pali": "Ayaṁ kho so, bhikkhave, purāṇamaggo purāṇañjaso pubbakehi sammāsambuddhehi anuyāto, tamanugacchiṁ; ",
+      "english": "This is that ancient path, the ancient route traveled by fully awakened Buddhas in the past. "
+    },
+    {
+      "number": 84,
+      "pali": "tamanugacchanto jarāmaraṇaṁ abbhaññāsiṁ; ",
+      "english": "Following it along, I directly knew old age and death, "
+    },
+    {
+      "number": 85,
+      "pali": "jarāmaraṇasamudayaṁ abbhaññāsiṁ; ",
+      "english": "their origin, "
+    },
+    {
+      "number": 86,
+      "pali": "jarāmaraṇanirodhaṁ abbhaññāsiṁ; ",
+      "english": "their cessation, "
+    },
+    {
+      "number": 87,
+      "pali": "jarāmaraṇanirodhagāminiṁ paṭipadaṁ abbhaññāsiṁ. ",
+      "english": "and the practice that leads to their cessation. "
+    },
+    {
+      "number": 88,
+      "pali": "Tamanugacchiṁ; ",
+      "english": ""
+    },
+    {
+      "number": 89,
+      "pali": "tamanugacchanto jātiṁ abbhaññāsiṁ …pe… ",
+      "english": "Following it along, I directly knew rebirth … "
+    },
+    {
+      "number": 90,
+      "pali": "bhavaṁ abbhaññāsiṁ … ",
+      "english": "continued existence … "
+    },
+    {
+      "number": 91,
+      "pali": "upādānaṁ abbhaññāsiṁ … ",
+      "english": "grasping … "
+    },
+    {
+      "number": 92,
+      "pali": "taṇhaṁ abbhaññāsiṁ … ",
+      "english": "craving … "
+    },
+    {
+      "number": 93,
+      "pali": "vedanaṁ abbhaññāsiṁ … ",
+      "english": "feeling … "
+    },
+    {
+      "number": 94,
+      "pali": "phassaṁ abbhaññāsiṁ … ",
+      "english": "contact … "
+    },
+    {
+      "number": 95,
+      "pali": "saḷāyatanaṁ abbhaññāsiṁ … ",
+      "english": "the six sense fields … "
+    },
+    {
+      "number": 96,
+      "pali": "nāmarūpaṁ abbhaññāsiṁ … ",
+      "english": "name and form … "
+    },
+    {
+      "number": 97,
+      "pali": "viññāṇaṁ abbhaññāsiṁ. ",
+      "english": "consciousness … "
+    },
+    {
+      "number": 98,
+      "pali": "Tamanugacchiṁ; ",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "tamanugacchanto saṅkhāre abbhaññāsiṁ; ",
+      "english": "Following it along, I directly knew choices, "
+    },
+    {
+      "number": 100,
+      "pali": "saṅkhārasamudayaṁ abbhaññāsiṁ; ",
+      "english": "their origin, "
+    },
+    {
+      "number": 101,
+      "pali": "saṅkhāranirodhaṁ abbhaññāsiṁ; ",
+      "english": "their cessation, "
+    },
+    {
+      "number": 102,
+      "pali": "saṅkhāranirodhagāminiṁ paṭipadaṁ abbhaññāsiṁ. ",
+      "english": "and the practice that leads to their cessation. "
+    },
+    {
+      "number": 103,
+      "pali": "Tadabhiññāya ācikkhiṁ bhikkhūnaṁ bhikkhunīnaṁ upāsakānaṁ upāsikānaṁ. ",
+      "english": "Having directly known this, I told the monks, nuns, laymen, and laywomen. "
+    },
+    {
+      "number": 104,
+      "pali": "Tayidaṁ, bhikkhave, brahmacariyaṁ iddhañceva phītañca vitthārikaṁ bāhujaññaṁ puthubhūtaṁ yāva devamanussehi suppakāsitan”ti. ",
+      "english": "And that’s how this spiritual life has become successful and prosperous, extensive, popular, widespread, and well proclaimed wherever there are gods and humans.” "
+    },
+    {
+      "number": 105,
+      "pali": "Pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "sutta_id": "AN3.22",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 3.22 ",
+      "english": "Numbered Discourses 3.22 "
+    },
+    {
+      "number": 2,
+      "pali": "3. Puggalavagga ",
+      "english": "3. Individuals "
+    },
+    {
+      "number": 3,
+      "pali": "Gilānasutta ",
+      "english": "Patients "
+    },
+    {
+      "number": 4,
+      "pali": "“Tayome, bhikkhave, gilānā santo saṁvijjamānā lokasmiṁ. ",
+      "english": "“These three patients are found in the world. "
+    },
+    {
+      "number": 5,
+      "pali": "Katame tayo? ",
+      "english": "What three? "
+    },
+    {
+      "number": 6,
+      "pali": "Idha, bhikkhave, ekacco gilāno labhanto vā sappāyāni bhojanāni alabhanto vā sappāyāni bhojanāni, labhanto vā sappāyāni bhesajjāni alabhanto vā sappāyāni bhesajjāni, labhanto vā patirūpaṁ upaṭṭhākaṁ alabhanto vā patirūpaṁ upaṭṭhākaṁ neva vuṭṭhāti tamhā ābādhā. ",
+      "english": "In some cases a patient won’t recover from an illness, regardless of whether or not they get suitable food and medicines, and a capable carer. "
+    },
+    {
+      "number": 7,
+      "pali": "Idha pana, bhikkhave, ekacco gilāno labhanto vā sappāyāni bhojanāni alabhanto vā sappāyāni bhojanāni, labhanto vā sappāyāni bhesajjāni alabhanto vā sappāyāni bhesajjāni, labhanto vā patirūpaṁ upaṭṭhākaṁ alabhanto vā patirūpaṁ upaṭṭhākaṁ vuṭṭhāti tamhā ābādhā. ",
+      "english": "In some cases a patient will recover from an illness, regardless of whether or not they get suitable food and medicines, and a capable carer. "
+    },
+    {
+      "number": 8,
+      "pali": "Idha pana, bhikkhave, ekacco gilāno labhantova sappāyāni bhojanāni no alabhanto, labhantova sappāyāni bhesajjāni no alabhanto, labhantova patirūpaṁ upaṭṭhākaṁ no alabhanto vuṭṭhāti tamhā ābādhā. ",
+      "english": "In some cases a patient can recover from an illness, but only if they get suitable food and medicines, and a capable carer, and not if they don’t get these things. "
+    },
+    {
+      "number": 9,
+      "pali": "Tatra, bhikkhave, yvāyaṁ gilāno labhantova sappāyāni bhojanāni no alabhanto, labhantova sappāyāni bhesajjāni no alabhanto, labhantova patirūpaṁ upaṭṭhākaṁ no alabhanto vuṭṭhāti tamhā ābādhā, imaṁ kho, bhikkhave, gilānaṁ paṭicca gilānabhattaṁ anuññātaṁ gilānabhesajjaṁ anuññātaṁ gilānupaṭṭhāko anuññāto. ",
+      "english": "Now, it’s for the sake of the last patient—who will recover only if they get suitable food and medicines, and a capable carer—that food, medicines, and a carer are prescribed. "
+    },
+    {
+      "number": 10,
+      "pali": "Imañca pana, bhikkhave, gilānaṁ paṭicca aññepi gilānā upaṭṭhātabbā. ",
+      "english": "But also, for the sake of this patient, the other patients should be looked after. "
+    },
+    {
+      "number": 11,
+      "pali": "Ime kho, bhikkhave, tayo gilānā santo saṁvijjamānā lokasmiṁ. ",
+      "english": "These are the three kinds of patients found in the world. "
+    },
+    {
+      "number": 12,
+      "pali": "Evamevaṁ kho, bhikkhave, tayome gilānūpamā puggalā santo saṁvijjamānā lokasmiṁ. ",
+      "english": "In the same way, these three individuals similar to patients are found in the world. "
+    },
+    {
+      "number": 13,
+      "pali": "Katame tayo? ",
+      "english": "What three? "
+    },
+    {
+      "number": 14,
+      "pali": "Idha, bhikkhave, ekacco puggalo labhanto vā tathāgataṁ dassanāya alabhanto vā tathāgataṁ dassanāya, labhanto vā tathāgatappaveditaṁ dhammavinayaṁ savanāya alabhanto vā tathāgatappaveditaṁ dhammavinayaṁ savanāya neva okkamati niyāmaṁ kusalesu dhammesu sammattaṁ. ",
+      "english": "Some people don’t step into the sure path with regards to skillful qualities, regardless of whether or not they get to see a Realized One, and to hear the teaching and training that he proclaims. "
+    },
+    {
+      "number": 15,
+      "pali": "Idha, pana, bhikkhave, ekacco puggalo labhanto vā tathāgataṁ dassanāya alabhanto vā tathāgataṁ dassanāya, labhanto vā tathāgatappaveditaṁ dhammavinayaṁ savanāya alabhanto vā tathāgatappaveditaṁ dhammavinayaṁ savanāya okkamati niyāmaṁ kusalesu dhammesu sammattaṁ. ",
+      "english": "Some people do step into the sure path with regards to skillful qualities, regardless of whether or not they get to see a Realized One, and to hear the teaching and training that he proclaims. "
+    },
+    {
+      "number": 16,
+      "pali": "Idha pana, bhikkhave, ekacco puggalo labhantova tathāgataṁ dassanāya no alabhanto, labhantova tathāgatappaveditaṁ dhammavinayaṁ savanāya no alabhanto okkamati niyāmaṁ kusalesu dhammesu sammattaṁ. ",
+      "english": "Some people can step into the sure path with regards to skillful qualities, but only if they get to see a Realized One, and to hear the teaching and training that he proclaims, and not when they don’t get those things. "
+    },
+    {
+      "number": 17,
+      "pali": "Tatra, bhikkhave, yvāyaṁ puggalo labhantova tathāgataṁ dassanāya no alabhanto, labhantova tathāgatappaveditaṁ dhammavinayaṁ savanāya no alabhanto okkamati niyāmaṁ kusalesu dhammesu sammattaṁ, imaṁ kho, bhikkhave, puggalaṁ paṭicca dhammadesanā anuññātā. ",
+      "english": "Now, it’s for the sake of this last individual that teaching the Dhamma is prescribed, that is, the one who can step into the sure path with regards to skillful qualities, but only if they get to see a Realized One, and to hear the teaching and training that he proclaims. "
+    },
+    {
+      "number": 18,
+      "pali": "Imañca pana, bhikkhave, puggalaṁ paṭicca aññesampi dhammo desetabbo. ",
+      "english": "But also, for the sake of this individual, the other people should be taught Dhamma. "
+    },
+    {
+      "number": 19,
+      "pali": "Ime kho, bhikkhave, tayo gilānūpamā puggalā santo saṁvijjamānā lokasmin”ti. ",
+      "english": "These are the three individuals similar to patients found in the world.” "
+    },
+    {
+      "number": 20,
+      "pali": "Dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

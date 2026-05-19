@@ -1,0 +1,830 @@
+{
+  "sutta_id": "MN4",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 4 ",
+      "english": "Middle Discourses 4 "
+    },
+    {
+      "number": 2,
+      "pali": "Bhayabheravasutta ",
+      "english": "Fear and Dread "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho jāṇussoṇi brāhmaṇo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "Then the brahmin Jānussoṇi went up to the Buddha, and exchanged greetings with him. "
+    },
+    {
+      "number": 6,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho jāṇussoṇi brāhmaṇo bhagavantaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to the Buddha: "
+    },
+    {
+      "number": 7,
+      "pali": "“yeme, bho gotama, kulaputtā bhavantaṁ gotamaṁ uddissa saddhā agārasmā anagāriyaṁ pabbajitā, bhavaṁ tesaṁ gotamo pubbaṅgamo, bhavaṁ tesaṁ gotamo bahukāro, bhavaṁ tesaṁ gotamo samādapetā; ",
+      "english": "“Mister Gotama, those gentlemen who, out of faith in you, have gone forth from the lay life to homelessness have you to lead the way, help them out, and give them encouragement. "
+    },
+    {
+      "number": 8,
+      "pali": "bhoto ca pana gotamassa sā janatā diṭṭhānugatiṁ āpajjatī”ti. ",
+      "english": "And those people follow the worthy Gotama’s example.” "
+    },
+    {
+      "number": 9,
+      "pali": "“Evametaṁ, brāhmaṇa, evametaṁ, brāhmaṇa. ",
+      "english": "“That’s so true, brahmin! Everything you say is true, brahmin!” "
+    },
+    {
+      "number": 10,
+      "pali": "Ye te, brāhmaṇa, kulaputtā mamaṁ uddissa saddhā agārasmā anagāriyaṁ pabbajitā, ahaṁ tesaṁ pubbaṅgamo, ahaṁ tesaṁ bahukāro, ahaṁ tesaṁ samādapetā; ",
+      "english": ""
+    },
+    {
+      "number": 11,
+      "pali": "mama ca pana sā janatā diṭṭhānugatiṁ āpajjatī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 12,
+      "pali": "“Durabhisambhavāni hi kho, bho gotama, araññavanapatthāni pantāni senāsanāni, dukkaraṁ pavivekaṁ, durabhiramaṁ ekatte, ",
+      "english": "“But worthy Gotama, remote lodgings in the wilderness and the forest are challenging. It’s hard to maintain seclusion and hard to find joy in solitude. "
+    },
+    {
+      "number": 13,
+      "pali": "haranti maññe mano vanāni samādhiṁ alabhamānassa bhikkhuno”ti. ",
+      "english": "The forests seem to rob the mind of a mendicant who isn’t immersed in samādhi.” "
+    },
+    {
+      "number": 14,
+      "pali": "“Evametaṁ, brāhmaṇa, evametaṁ, brāhmaṇa. ",
+      "english": "“That’s so true, brahmin! Everything you say is true, brahmin! "
+    },
+    {
+      "number": 15,
+      "pali": "Durabhisambhavāni hi kho, brāhmaṇa, araññavanapatthāni pantāni senāsanāni, dukkaraṁ pavivekaṁ, durabhiramaṁ ekatte, ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "haranti maññe mano vanāni samādhiṁ alabhamānassa bhikkhuno. ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "Mayhampi kho, brāhmaṇa, pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+      "english": "Before my awakening—when I was still unawakened but intent on awakening—I too thought, "
+    },
+    {
+      "number": 18,
+      "pali": "‘durabhisambhavāni hi kho araññavanapatthāni pantāni senāsanāni, dukkaraṁ pavivekaṁ, durabhiramaṁ ekatte, ",
+      "english": "‘Remote lodgings in the wilderness and the forest are challenging. It’s hard to maintain seclusion and hard to find joy in solitude. "
+    },
+    {
+      "number": 19,
+      "pali": "haranti maññe mano vanāni samādhiṁ alabhamānassa bhikkhuno’ti. ",
+      "english": "The forests seem to rob the mind of a mendicant who isn’t immersed in samādhi.’ "
+    },
+    {
+      "number": 20,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": "Then I thought, "
+    },
+    {
+      "number": 21,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā aparisuddhakāyakammantā araññavanapatthāni pantāni senāsanāni paṭisevanti, aparisuddhakāyakammantasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins with unpurified conduct of body, speech, and mind who frequent remote lodgings in the wilderness and the forest. Those ascetics and brahmins summon unskillful fear and dread because of these defects in their conduct. "
+    },
+    {
+      "number": 22,
+      "pali": "Na kho panāhaṁ aparisuddhakāyakammanto araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": "But I don’t frequent remote lodgings in the wilderness and the forest with unpurified conduct of body, speech, and mind. "
+    },
+    {
+      "number": 23,
+      "pali": "parisuddhakāyakammantohamasmi. ",
+      "english": "My conduct is purified. "
+    },
+    {
+      "number": 24,
+      "pali": "Ye hi vo ariyā parisuddhakāyakammantā araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": "I am one of those noble ones who frequent remote lodgings in the wilderness and the forest with purified conduct of body, speech, and mind.’ "
+    },
+    {
+      "number": 25,
+      "pali": "Etamahaṁ, brāhmaṇa, parisuddhakāyakammataṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": "Seeing this purity of conduct in myself I felt even more unruffled about staying in the forest. "
+    },
+    {
+      "number": 26,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": "Then I thought, "
+    },
+    {
+      "number": 27,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā aparisuddhavacīkammantā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "aparisuddhamanokammantā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "aparisuddhājīvā araññavanapatthāni pantāni senāsanāni paṭisevanti, aparisuddhājīvasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins with unpurified livelihood who frequent remote lodgings in the wilderness and the forest. Those ascetics and brahmins summon unskillful fear and dread because of these defects in their livelihood. "
+    },
+    {
+      "number": 30,
+      "pali": "Na kho panāhaṁ aparisuddhājīvo araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": "But I don’t frequent remote lodgings in the wilderness and the forest with unpurified livelihood. "
+    },
+    {
+      "number": 31,
+      "pali": "parisuddhājīvohamasmi. ",
+      "english": "My livelihood is purified. "
+    },
+    {
+      "number": 32,
+      "pali": "Ye hi vo ariyā parisuddhājīvā araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": "I am one of those noble ones who frequent remote lodgings in the wilderness and the forest with purified livelihood.’ "
+    },
+    {
+      "number": 33,
+      "pali": "Etamahaṁ, brāhmaṇa, parisuddhājīvataṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": "Seeing this purity of livelihood in myself I felt even more unruffled about staying in the forest. "
+    },
+    {
+      "number": 34,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": "Then I thought, "
+    },
+    {
+      "number": 35,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā abhijjhālū kāmesu tibbasārāgā araññavanapatthāni pantāni senāsanāni paṭisevanti, abhijjhālukāmesutibbasārāgasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins full of desire for sensual pleasures, with acute lust … "
+    },
+    {
+      "number": 36,
+      "pali": "Na kho panāhaṁ abhijjhālu kāmesu tibbasārāgo araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 37,
+      "pali": "anabhijjhālūhamasmi. ",
+      "english": "I am not full of desire …’ "
+    },
+    {
+      "number": 38,
+      "pali": "Ye hi vo ariyā anabhijjhālū araññavanapatthāni pantāni senāsanāni paṭisevanti, tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "Etamahaṁ, brāhmaṇa, anabhijjhālutaṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā byāpannacittā paduṭṭhamanasaṅkappā araññavanapatthāni pantāni senāsanāni paṭisevanti, byāpannacittapaduṭṭhamanasaṅkappasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins full of ill will, with malicious intentions … "
+    },
+    {
+      "number": 42,
+      "pali": "Na kho panāhaṁ byāpannacitto paduṭṭhamanasaṅkappo araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "mettacittohamasmi. ",
+      "english": "I have a heart full of love …’ "
+    },
+    {
+      "number": 44,
+      "pali": "Ye hi vo ariyā mettacittā araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Etamahaṁ, brāhmaṇa, mettacittataṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā thinamiddhapariyuṭṭhitā araññavanapatthāni pantāni senāsanāni paṭisevanti, thinamiddhapariyuṭṭhānasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins overcome with dullness and drowsiness … "
+    },
+    {
+      "number": 48,
+      "pali": "Na kho panāhaṁ thinamiddhapariyuṭṭhito araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "vigatathinamiddhohamasmi. ",
+      "english": "I am free of dullness and drowsiness …’ "
+    },
+    {
+      "number": 50,
+      "pali": "Ye hi vo ariyā vigatathinamiddhā araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Etamahaṁ, brāhmaṇa, vigatathinamiddhataṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā uddhatā avūpasantacittā araññavanapatthāni pantāni senāsanāni paṭisevanti, uddhataavūpasantacittasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins who are restless, with no peace of mind … "
+    },
+    {
+      "number": 54,
+      "pali": "Na kho panāhaṁ uddhato avūpasantacitto araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "vūpasantacittohamasmi. ",
+      "english": "My mind is peaceful …’ "
+    },
+    {
+      "number": 56,
+      "pali": "Ye hi vo ariyā vūpasantacittā araññavanapatthāni pantāni senāsanāni paṭisevanti, tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "Etamahaṁ, brāhmaṇa, vūpasantacittataṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā kaṅkhī vicikicchī araññavanapatthāni pantāni senāsanāni paṭisevanti, kaṅkhivicikicchisandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins who are doubting and uncertain … "
+    },
+    {
+      "number": 60,
+      "pali": "Na kho panāhaṁ kaṅkhī vicikicchī araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "tiṇṇavicikicchohamasmi. ",
+      "english": "I’ve gone beyond doubt …’ "
+    },
+    {
+      "number": 62,
+      "pali": "Ye hi vo ariyā tiṇṇavicikicchā araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "Etamahaṁ, brāhmaṇa, tiṇṇavicikicchataṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā attukkaṁsakā paravambhī araññavanapatthāni pantāni senāsanāni paṭisevanti, attukkaṁsanaparavambhanasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins who glorify themselves and put others down … "
+    },
+    {
+      "number": 66,
+      "pali": "Na kho panāhaṁ attukkaṁsako paravambhī araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "anattukkaṁsako aparavambhīhamasmi. ",
+      "english": "I don’t glorify myself and put others down …’ "
+    },
+    {
+      "number": 68,
+      "pali": "Ye hi vo ariyā anattukkaṁsakā aparavambhī araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "Etamahaṁ, brāhmaṇa, anattukkaṁsakataṁ aparavambhitaṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā chambhī bhīrukajātikā araññavanapatthāni pantāni senāsanāni paṭisevanti, chambhibhīrukajātikasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins who are cowardly and craven … "
+    },
+    {
+      "number": 72,
+      "pali": "Na kho panāhaṁ chambhī bhīrukajātiko araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "vigatalomahaṁsohamasmi. ",
+      "english": "I don’t get startled …’ "
+    },
+    {
+      "number": 74,
+      "pali": "Ye hi vo ariyā vigatalomahaṁsā araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "Etamahaṁ, brāhmaṇa, vigatalomahaṁsataṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā lābhasakkārasilokaṁ nikāmayamānā araññavanapatthāni pantāni senāsanāni paṭisevanti, lābhasakkārasilokanikāmanasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins who enjoy possessions, honor, and popularity … "
+    },
+    {
+      "number": 78,
+      "pali": "Na kho panāhaṁ lābhasakkārasilokaṁ nikāmayamāno araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "appicchohamasmi. ",
+      "english": "I have few wishes …’ "
+    },
+    {
+      "number": 80,
+      "pali": "Ye hi vo ariyā appicchā araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "Etamahaṁ, brāhmaṇa, appicchataṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā kusītā hīnavīriyā araññavanapatthāni pantāni senāsanāni paṭisevanti, kusītahīnavīriyasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins who are lazy and lack energy … "
+    },
+    {
+      "number": 84,
+      "pali": "Na kho panāhaṁ kusīto hīnavīriyo araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 85,
+      "pali": "āraddhavīriyohamasmi. ",
+      "english": "I am energetic …’ "
+    },
+    {
+      "number": 86,
+      "pali": "Ye hi vo ariyā āraddhavīriyā araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "Etamahaṁ, brāhmaṇa, āraddhavīriyataṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 89,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā muṭṭhassatī asampajānā araññavanapatthāni pantāni senāsanāni paṭisevanti, muṭṭhassatiasampajānasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins who are unmindful and lack situational awareness … "
+    },
+    {
+      "number": 90,
+      "pali": "Na kho panāhaṁ muṭṭhassati asampajāno araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "upaṭṭhitassatihamasmi. ",
+      "english": "I am mindful …’ "
+    },
+    {
+      "number": 92,
+      "pali": "Ye hi vo ariyā upaṭṭhitassatī araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "Etamahaṁ, brāhmaṇa, upaṭṭhitassatitaṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā asamāhitā vibbhantacittā araññavanapatthāni pantāni senāsanāni paṭisevanti, asamāhitavibbhantacittasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins who lack immersion, with straying minds … "
+    },
+    {
+      "number": 96,
+      "pali": "Na kho panāhaṁ asamāhito vibbhantacitto araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "samādhisampannohamasmi. ",
+      "english": "I am accomplished in immersion …’ "
+    },
+    {
+      "number": 98,
+      "pali": "Ye hi vo ariyā samādhisampannā araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "Etamahaṁ, brāhmaṇa, samādhisampadaṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "‘ye kho keci samaṇā vā brāhmaṇā vā duppaññā eḷamūgā araññavanapatthāni pantāni senāsanāni paṭisevanti, duppaññaeḷamūgasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+      "english": "‘There are ascetics and brahmins who are witless and idiotic who frequent remote lodgings in the wilderness and the forest. Those ascetics and brahmins summon unskillful fear and dread because of the defects of witlessness and stupidity. "
+    },
+    {
+      "number": 102,
+      "pali": "Na kho panāhaṁ duppañño eḷamūgo araññavanapatthāni pantāni senāsanāni paṭisevāmi; ",
+      "english": "But I don’t frequent remote lodgings in the wilderness and the forest witless and idiotic. "
+    },
+    {
+      "number": 103,
+      "pali": "paññāsampannohamasmi. ",
+      "english": "I am accomplished in wisdom. "
+    },
+    {
+      "number": 104,
+      "pali": "Ye hi vo ariyā paññāsampannā araññavanapatthāni pantāni senāsanāni paṭisevanti tesamahaṁ aññataro’ti. ",
+      "english": "I am one of those noble ones who frequent remote lodgings in the wilderness and the forest accomplished in wisdom.’ "
+    },
+    {
+      "number": 105,
+      "pali": "Etamahaṁ, brāhmaṇa, paññāsampadaṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+      "english": "Seeing this accomplishment of wisdom in myself I felt even more unruffled about staying in the forest. "
+    },
+    {
+      "number": 106,
+      "pali": "Soḷasapariyāyaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": "Then I thought, "
+    },
+    {
+      "number": 108,
+      "pali": "‘yannūnāhaṁ yā tā rattiyo abhiññātā abhilakkhitā—",
+      "english": "‘There are certain nights that are recognized as specially portentous: "
+    },
+    {
+      "number": 109,
+      "pali": "cātuddasī pañcadasī aṭṭhamī ca pakkhassa—",
+      "english": "the fourteenth, fifteenth, and eighth of the fortnight. "
+    },
+    {
+      "number": 110,
+      "pali": "tathārūpāsu rattīsu yāni tāni ārāmacetiyāni vanacetiyāni rukkhacetiyāni bhiṁsanakāni salomahaṁsāni tathārūpesu senāsanesu vihareyyaṁ appeva nāmāhaṁ bhayabheravaṁ passeyyan’ti. ",
+      "english": "On such nights, why don’t I stay in awe-inspiring and hair-raising shrines in parks, forests, and trees? In such lodgings, hopefully I might see that fear and dread.’ "
+    },
+    {
+      "number": 111,
+      "pali": "So kho ahaṁ, brāhmaṇa, aparena samayena yā tā rattiyo abhiññātā abhilakkhitā—",
+      "english": "Some time later, that’s what I did. "
+    },
+    {
+      "number": 112,
+      "pali": "cātuddasī pañcadasī aṭṭhamī ca pakkhassa—",
+      "english": ""
+    },
+    {
+      "number": 113,
+      "pali": "tathārūpāsu rattīsu yāni tāni ārāmacetiyāni vanacetiyāni rukkhacetiyāni bhiṁsanakāni salomahaṁsāni tathārūpesu senāsanesu viharāmi. ",
+      "english": ""
+    },
+    {
+      "number": 114,
+      "pali": "Tattha ca me, brāhmaṇa, viharato mago vā āgacchati, moro vā kaṭṭhaṁ pāteti, vāto vā paṇṇakasaṭaṁ ereti; ",
+      "english": "As I was staying there a deer came by, or a peacock snapped a twig, or the wind rustled the leaves. "
+    },
+    {
+      "number": 115,
+      "pali": "tassa mayhaṁ brāhmaṇa etadahosi: ",
+      "english": "Then I thought, "
+    },
+    {
+      "number": 116,
+      "pali": "‘etaṁ nūna taṁ bhayabheravaṁ āgacchatī’ti. ",
+      "english": "‘Is this that fear and dread coming?’ "
+    },
+    {
+      "number": 117,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, etadahosi: ",
+      "english": "Then I thought, "
+    },
+    {
+      "number": 118,
+      "pali": "‘kiṁ nu kho ahaṁ aññadatthu bhayapaṭikaṅkhī viharāmi? ",
+      "english": "‘Why do I always meditate expecting that fear to come? "
+    },
+    {
+      "number": 119,
+      "pali": "Yannūnāhaṁ yathābhūtaṁ yathābhūtassa me taṁ bhayabheravaṁ āgacchati, tathābhūtaṁ tathābhūtova taṁ bhayabheravaṁ paṭivineyyan’ti. ",
+      "english": "Why don’t I get rid of that fear and dread just as it comes, while remaining just as I am?’ "
+    },
+    {
+      "number": 120,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, caṅkamantassa taṁ bhayabheravaṁ āgacchati. ",
+      "english": "Then that fear and dread came upon me as I was walking. "
+    },
+    {
+      "number": 121,
+      "pali": "So kho ahaṁ, brāhmaṇa, neva tāva tiṭṭhāmi na nisīdāmi na nipajjāmi, yāva caṅkamantova taṁ bhayabheravaṁ paṭivinemi. ",
+      "english": "I didn’t stand still or sit down or lie down until I had got rid of that fear and dread while walking. "
+    },
+    {
+      "number": 122,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, ṭhitassa taṁ bhayabheravaṁ āgacchati. ",
+      "english": "Then that fear and dread came upon me as I was standing. "
+    },
+    {
+      "number": 123,
+      "pali": "So kho ahaṁ, brāhmaṇa, neva tāva caṅkamāmi na nisīdāmi na nipajjāmi. Yāva ṭhitova taṁ bhayabheravaṁ paṭivinemi. ",
+      "english": "I didn’t walk or sit down or lie down until I had got rid of that fear and dread while standing. "
+    },
+    {
+      "number": 124,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, nisinnassa taṁ bhayabheravaṁ āgacchati. ",
+      "english": "Then that fear and dread came upon me as I was sitting. "
+    },
+    {
+      "number": 125,
+      "pali": "So kho ahaṁ, brāhmaṇa, neva tāva nipajjāmi na tiṭṭhāmi na caṅkamāmi, yāva nisinnova taṁ bhayabheravaṁ paṭivinemi. ",
+      "english": "I didn’t lie down or stand still or walk until I had got rid of that fear and dread while sitting. "
+    },
+    {
+      "number": 126,
+      "pali": "Tassa mayhaṁ, brāhmaṇa, nipannassa taṁ bhayabheravaṁ āgacchati. ",
+      "english": "Then that fear and dread came upon me as I was lying down. "
+    },
+    {
+      "number": 127,
+      "pali": "So kho ahaṁ, brāhmaṇa, neva tāva nisīdāmi na tiṭṭhāmi na caṅkamāmi, yāva nipannova taṁ bhayabheravaṁ paṭivinemi. ",
+      "english": "I didn’t sit up or stand still or walk until I had got rid of that fear and dread while lying down. "
+    },
+    {
+      "number": 128,
+      "pali": "Santi kho pana, brāhmaṇa, eke samaṇabrāhmaṇā rattiṁyeva samānaṁ divāti sañjānanti, divāyeva samānaṁ rattīti sañjānanti. ",
+      "english": "There are some ascetics and brahmins who perceive that it’s day when in fact it’s night, or perceive that it’s night when in fact it’s day. "
+    },
+    {
+      "number": 129,
+      "pali": "Idamahaṁ tesaṁ samaṇabrāhmaṇānaṁ sammohavihārasmiṁ vadāmi. ",
+      "english": "This meditation of theirs is delusional, I say. "
+    },
+    {
+      "number": 130,
+      "pali": "Ahaṁ kho pana, brāhmaṇa, rattiṁyeva samānaṁ rattīti sañjānāmi, divāyeva samānaṁ divāti sañjānāmi. ",
+      "english": "I perceive that it’s night when in fact it is night, and perceive that it’s day when in fact it is day. "
+    },
+    {
+      "number": 131,
+      "pali": "Yaṁ kho taṁ, brāhmaṇa, sammā vadamāno vadeyya: ",
+      "english": "And if there’s anyone of whom it may be rightly said that "
+    },
+    {
+      "number": 132,
+      "pali": "‘asammohadhammo satto loke uppanno bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānan’ti, mameva taṁ sammā vadamāno vadeyya: ",
+      "english": "a being not liable to delusion has arisen in the world for the welfare and happiness of the people, out of sympathy for the world, for the benefit, welfare, and happiness of gods and humans, it’s of me that this should be said. "
+    },
+    {
+      "number": 133,
+      "pali": "‘asammohadhammo satto loke uppanno bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 134,
+      "pali": "Āraddhaṁ kho pana me, brāhmaṇa, vīriyaṁ ahosi asallīnaṁ, upaṭṭhitā sati asammuṭṭhā, passaddho kāyo asāraddho, samāhitaṁ cittaṁ ekaggaṁ. ",
+      "english": "My energy was roused up and unflagging, my mindfulness was established and lucid, my body was tranquil and undisturbed, and my mind was immersed in samādhi and unified. "
+    },
+    {
+      "number": 135,
+      "pali": "So kho ahaṁ, brāhmaṇa, vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja vihāsiṁ. ",
+      "english": "Quite secluded from sensual pleasures, secluded from unskillful qualities, I entered and remained in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 136,
+      "pali": "Vitakkavicārānaṁ vūpasamā ajjhattaṁ sampasādanaṁ cetaso ekodibhāvaṁ avitakkaṁ avicāraṁ samādhijaṁ pītisukhaṁ dutiyaṁ jhānaṁ upasampajja vihāsiṁ. ",
+      "english": "As the placing of the mind and keeping it connected were stilled, I entered and remained in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without placing the mind and keeping it connected. "
+    },
+    {
+      "number": 137,
+      "pali": "Pītiyā ca virāgā upekkhako ca vihāsiṁ, sato ca sampajāno sukhañca kāyena paṭisaṁvedesiṁ; yaṁ taṁ ariyā ācikkhanti: ‘upekkhako satimā sukhavihārī’ti tatiyaṁ jhānaṁ upasampajja vihāsiṁ. ",
+      "english": "And with the fading away of rapture, I entered and remained in the third absorption, where I meditated with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ "
+    },
+    {
+      "number": 138,
+      "pali": "Sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja vihāsiṁ. ",
+      "english": "With the giving up of pleasure and pain, and the ending of former happiness and sadness, I entered and remained in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. "
+    },
+    {
+      "number": 139,
+      "pali": "So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte pubbenivāsānussatiñāṇāya cittaṁ abhininnāmesiṁ. So anekavihitaṁ pubbenivāsaṁ anussarāmi, ",
+      "english": "When my mind had become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—I extended it toward recollection of past lives. I recollected many kinds of past lives. "
+    },
+    {
+      "number": 140,
+      "pali": "seyyathidaṁ—ekampi jātiṁ dvepi jātiyo tissopi jātiyo catassopi jātiyo pañcapi jātiyo dasapi jātiyo vīsampi jātiyo tiṁsampi jātiyo cattālīsampi jātiyo paññāsampi jātiyo jātisatampi jātisahassampi jātisatasahassampi anekepi saṁvaṭṭakappe anekepi vivaṭṭakappe anekepi saṁvaṭṭavivaṭṭakappe: ‘amutrāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto amutra udapādiṁ; tatrāpāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhappaṭisaṁvedī evamāyupariyanto, so tato cuto idhūpapanno’ti. Iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarāmi. ",
+      "english": "That is: one, two, three, four, five, ten, twenty, thirty, forty, fifty, a hundred, a thousand, a hundred thousand rebirths; many eons of the world contracting, many eons of the world expanding, many eons of the world contracting and expanding. I remembered: ‘There, I was named this, my clan was that, I looked like this, and that was my food. This was how I felt pleasure and pain, and that was how my life ended. When I passed away from that place I was reborn somewhere else. There, too, I was named this, my clan was that, I looked like this, and that was my food. This was how I felt pleasure and pain, and that was how my life ended. When I passed away from that place I was reborn here.’ And so I recollected my many kinds of past lives, with features and details. "
+    },
+    {
+      "number": 141,
+      "pali": "Ayaṁ kho me, brāhmaṇa, rattiyā paṭhame yāme paṭhamā vijjā adhigatā, ",
+      "english": "This was the first knowledge, which I achieved in the first watch of the night. "
+    },
+    {
+      "number": 142,
+      "pali": "avijjā vihatā vijjā uppannā, tamo vihato āloko uppanno, yathā taṁ appamattassa ātāpino pahitattassa viharato. ",
+      "english": "Ignorance was banished and knowledge arose; darkness was banished and light arose, as happens for a meditator who is diligent, keen, and resolute. "
+    },
+    {
+      "number": 143,
+      "pali": "So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte sattānaṁ cutūpapātañāṇāya cittaṁ abhininnāmesiṁ. ",
+      "english": "When my mind had become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—I extended it toward knowledge of the death and rebirth of sentient beings. "
+    },
+    {
+      "number": 144,
+      "pali": "So dibbena cakkhunā visuddhena atikkantamānusakena satte passāmi cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe sugate duggate yathākammūpage satte pajānāmi: ‘ime vata bhonto sattā kāyaduccaritena samannāgatā vacīduccaritena samannāgatā manoduccaritena samannāgatā ariyānaṁ upavādakā micchādiṭṭhikā micchādiṭṭhikammasamādānā; te kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapannā. Ime vā pana bhonto sattā kāyasucaritena samannāgatā vacīsucaritena samannāgatā manosucaritena samannāgatā ariyānaṁ anupavādakā sammādiṭṭhikā sammādiṭṭhikammasamādānā; te kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapannā’ti. Iti dibbena cakkhunā visuddhena atikkantamānusakena satte passāmi cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe sugate duggate yathākammūpage satte pajānāmi. ",
+      "english": "With clairvoyance that is purified and superhuman, I saw sentient beings passing away and being reborn—inferior and superior, beautiful and ugly, in a good place or a bad place. I understood how sentient beings pass on according to their deeds: ‘These dear beings did bad things by way of body, speech, and mind. They denounced the noble ones; they had wrong view; and they chose to act out of that wrong view. When their body breaks up, after death, they’re reborn in a place of loss, a bad place, the underworld, hell. These dear beings, however, did good things by way of body, speech, and mind. They never denounced the noble ones; they had right view; and they chose to act out of that right view. When their body breaks up, after death, they’re reborn in a good place, a heavenly realm.’ And so, with clairvoyance that is purified and superhuman, I saw sentient beings passing away and being reborn—inferior and superior, beautiful and ugly, in a good place or a bad place. I understood how sentient beings pass on according to their deeds. "
+    },
+    {
+      "number": 145,
+      "pali": "Ayaṁ kho me, brāhmaṇa, rattiyā majjhime yāme dutiyā vijjā adhigatā, ",
+      "english": "This was the second knowledge, which I achieved in the middle watch of the night. "
+    },
+    {
+      "number": 146,
+      "pali": "avijjā vihatā vijjā uppannā, tamo vihato āloko uppanno, yathā taṁ appamattassa ātāpino pahitattassa viharato. ",
+      "english": "Ignorance was banished and knowledge arose; darkness was banished and light arose, as happens for a meditator who is diligent, keen, and resolute. "
+    },
+    {
+      "number": 147,
+      "pali": "So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte āsavānaṁ khayañāṇāya cittaṁ abhininnāmesiṁ. ",
+      "english": "When my mind had become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—I extended it toward knowledge of the ending of defilements. "
+    },
+    {
+      "number": 148,
+      "pali": "So ‘idaṁ dukkhan’ti yathābhūtaṁ abbhaññāsiṁ, ‘ayaṁ dukkhasamudayo’ti yathābhūtaṁ abbhaññāsiṁ, ‘ayaṁ dukkhanirodho’ti yathābhūtaṁ abbhaññāsiṁ, ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ abbhaññāsiṁ. ",
+      "english": "I truly understood: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’. "
+    },
+    {
+      "number": 149,
+      "pali": "‘Ime āsavā’ti yathābhūtaṁ abbhaññāsiṁ, ‘ayaṁ āsavasamudayo’ti yathābhūtaṁ abbhaññāsiṁ, ‘ayaṁ āsavanirodho’ti yathābhūtaṁ abbhaññāsiṁ, ‘ayaṁ āsavanirodhagāminī paṭipadā’ti yathābhūtaṁ abbhaññāsiṁ. ",
+      "english": "I truly understood: ‘These are defilements’ … ‘This is the origin of defilements’ … ‘This is the cessation of defilements’ … ‘This is the practice that leads to the cessation of defilements’. "
+    },
+    {
+      "number": 150,
+      "pali": "Tassa me evaṁ jānato evaṁ passato kāmāsavāpi cittaṁ vimuccittha, bhavāsavāpi cittaṁ vimuccittha, avijjāsavāpi cittaṁ vimuccittha. ",
+      "english": "Knowing and seeing like this, my mind was freed from the defilements of sensuality, desire to be reborn, and ignorance. "
+    },
+    {
+      "number": 151,
+      "pali": "Vimuttasmiṁ vimuttamiti ñāṇaṁ ahosi. ",
+      "english": "When it was freed, I knew it was freed. "
+    },
+    {
+      "number": 152,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti abbhaññāsiṁ. ",
+      "english": "I understood: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’” "
+    },
+    {
+      "number": 153,
+      "pali": "Ayaṁ kho me, brāhmaṇa, rattiyā pacchime yāme tatiyā vijjā adhigatā, ",
+      "english": "This was the third knowledge, which I achieved in the final watch of the night. "
+    },
+    {
+      "number": 154,
+      "pali": "avijjā vihatā vijjā uppannā, tamo vihato āloko uppanno, yathā taṁ appamattassa ātāpino pahitattassa viharato. ",
+      "english": "Ignorance was banished and knowledge arose; darkness was banished and light arose, as happens for a meditator who is diligent, keen, and resolute. "
+    },
+    {
+      "number": 155,
+      "pali": "Siyā kho pana te, brāhmaṇa, evamassa: ",
+      "english": "Brahmin, you might think: "
+    },
+    {
+      "number": 156,
+      "pali": "‘ajjāpi nūna samaṇo gotamo avītarāgo avītadoso avītamoho, tasmā araññavanapatthāni pantāni senāsanāni paṭisevatī’ti. ",
+      "english": "‘Perhaps the ascetic Gotama is not free of greed, hate, and delusion even today, and that is why he still frequents remote lodgings in the wilderness and the forest.’ "
+    },
+    {
+      "number": 157,
+      "pali": "Na kho panetaṁ, brāhmaṇa, evaṁ daṭṭhabbaṁ. ",
+      "english": "But you should not see it like this. "
+    },
+    {
+      "number": 158,
+      "pali": "Dve kho ahaṁ, brāhmaṇa, atthavase sampassamāno araññavanapatthāni pantāni senāsanāni paṭisevāmi—",
+      "english": "I see two reasons to frequent remote lodgings in the wilderness and the forest. "
+    },
+    {
+      "number": 159,
+      "pali": "attano ca diṭṭhadhammasukhavihāraṁ sampassamāno, pacchimañca janataṁ anukampamāno”ti. ",
+      "english": "I see happiness for myself in this life, and I have sympathy for future generations.” "
+    },
+    {
+      "number": 160,
+      "pali": "“Anukampitarūpā vatāyaṁ bhotā gotamena pacchimā janatā, yathā taṁ arahatā sammāsambuddhena. ",
+      "english": "“Indeed, worthy Gotama has sympathy for future generations, since he is a perfected one, a fully awakened Buddha. "
+    },
+    {
+      "number": 161,
+      "pali": "Abhikkantaṁ, bho gotama. Abhikkantaṁ, bho gotama. ",
+      "english": "Excellent, worthy Gotama! Excellent, worthy Gotama! "
+    },
+    {
+      "number": 162,
+      "pali": "Seyyathāpi, bho gotama, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya: ‘cakkhumanto rūpāni dakkhantī’ti; evamevaṁ bhotā gotamena anekapariyāyena dhammo pakāsito. ",
+      "english": "As if he were righting the overturned, or revealing the hidden, or pointing out the path to the lost, or lighting a lamp in the dark so people with clear eyes can see what’s there, worthy Gotama has made the teaching clear in many ways. "
+    },
+    {
+      "number": 163,
+      "pali": "Esāhaṁ bhavantaṁ gotamaṁ saraṇaṁ gacchāmi dhammañca bhikkhusaṅghañca. ",
+      "english": "I go for refuge to the worthy Gotama, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 164,
+      "pali": "Upāsakaṁ maṁ bhavaṁ gotamo dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
+      "english": "From this day forth, may the worthy Gotama remember me as a lay follower who has gone for refuge for life.” "
+    },
+    {
+      "number": 165,
+      "pali": "Bhayabheravasuttaṁ niṭṭhitaṁ catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

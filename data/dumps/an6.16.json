@@ -1,0 +1,340 @@
+{
+  "sutta_id": "AN6.16",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 6.16 ",
+      "english": "Numbered Discourses 6.16 "
+    },
+    {
+      "number": 2,
+      "pali": "2. Sāraṇīyavagga ",
+      "english": "2. Warm-hearted "
+    },
+    {
+      "number": 3,
+      "pali": "Nakulapitusutta ",
+      "english": "Nakula’s Father "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā bhaggesu viharati susumāragire bhesakaḷāvane migadāye. ",
+      "english": "At one time the Buddha was staying in the land of the Bhaggas at Crocodile’s Bellow, in the deer park at Bhesakaḷā’s Wood. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena nakulapitā gahapati ābādhiko hoti dukkhito bāḷhagilāno. ",
+      "english": "Now at that time the householder Nakula’s father was sick, suffering, gravely ill. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho nakulamātā gahapatānī nakulapitaraṁ gahapatiṁ etadavoca: ",
+      "english": "Then the housewife Nakula’s mother said to him: "
+    },
+    {
+      "number": 7,
+      "pali": "“Mā kho tvaṁ, gahapati, sāpekkho kālamakāsi. ",
+      "english": "“Householder, don’t pass away with concerns. "
+    },
+    {
+      "number": 8,
+      "pali": "Dukkhā, gahapati, sāpekkhassa kālakiriyā; ",
+      "english": "Such concern is suffering, "
+    },
+    {
+      "number": 9,
+      "pali": "garahitā ca bhagavatā sāpekkhassa kālakiriyā. ",
+      "english": "and it’s criticized by the Buddha. "
+    },
+    {
+      "number": 10,
+      "pali": "Siyā kho pana te, gahapati, evamassa: ",
+      "english": "Householder, you might think: "
+    },
+    {
+      "number": 11,
+      "pali": "‘na nakulamātā gahapatānī mamaccayena sakkhissati dārake posetuṁ, gharāvāsaṁ santharitun’ti. ",
+      "english": "‘When I’ve gone, the housewife Nakula’s mother won’t be able to provide for the children and keep up the household carpets.’ "
+    },
+    {
+      "number": 12,
+      "pali": "Na kho panetaṁ, gahapati, evaṁ daṭṭhabbaṁ. ",
+      "english": "But you should not see it like this. "
+    },
+    {
+      "number": 13,
+      "pali": "Kusalāhaṁ, gahapati, kappāsaṁ kantituṁ veṇiṁ olikhituṁ. ",
+      "english": "I’m skilled at spinning cotton and carding wool. "
+    },
+    {
+      "number": 14,
+      "pali": "Sakkomahaṁ, gahapati, tavaccayena dārake posetuṁ, gharāvāsaṁ santharituṁ. ",
+      "english": "I’m able to provide for the children and keep up the household carpets. "
+    },
+    {
+      "number": 15,
+      "pali": "Tasmātiha tvaṁ, gahapati, mā sāpekkho kālamakāsi. ",
+      "english": "So householder, don’t pass away with concerns … "
+    },
+    {
+      "number": 16,
+      "pali": "Dukkhā, gahapati, sāpekkhassa kālakiriyā; ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "garahitā ca bhagavatā sāpekkhassa kālakiriyā. ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "Siyā kho pana te, gahapati, evamassa: ",
+      "english": "Householder, you might think: "
+    },
+    {
+      "number": 19,
+      "pali": "‘nakulamātā gahapatānī mamaccayena aññaṁ gharaṁ gamissatī’ti. ",
+      "english": "‘When I’ve gone, the housewife Nakula’s mother will take another husband.’ "
+    },
+    {
+      "number": 20,
+      "pali": "Na kho panetaṁ, gahapati, evaṁ daṭṭhabbaṁ. ",
+      "english": "But you should not see it like this. "
+    },
+    {
+      "number": 21,
+      "pali": "Tvañceva kho, gahapati, jānāsi ahañca, yaṁ no soḷasavassāni gahaṭṭhakaṁ brahmacariyaṁ samāciṇṇaṁ. ",
+      "english": "Both you and I know that we have remained chaste while at home for the past sixteen years. "
+    },
+    {
+      "number": 22,
+      "pali": "Tasmātiha tvaṁ, gahapati, mā sāpekkho kālamakāsi. ",
+      "english": "So householder, don’t pass away with concerns … "
+    },
+    {
+      "number": 23,
+      "pali": "Dukkhā, gahapati, sāpekkhassa kālakiriyā; ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "garahitā ca bhagavatā sāpekkhassa kālakiriyā. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Siyā kho pana te, gahapati, evamassa: ",
+      "english": "Householder, you might think: "
+    },
+    {
+      "number": 26,
+      "pali": "‘nakulamātā gahapatānī mamaccayena na dassanakāmā bhavissati bhagavato na dassanakāmā bhikkhusaṅghassā’ti. ",
+      "english": "‘When I’ve gone, the housewife Nakula’s mother won’t want to see the Buddha and his Saṅgha of mendicants.’ "
+    },
+    {
+      "number": 27,
+      "pali": "Na kho panetaṁ, gahapati, evaṁ daṭṭhabbaṁ. ",
+      "english": "But you should not see it like this. "
+    },
+    {
+      "number": 28,
+      "pali": "Ahañhi, gahapati, tavaccayena dassanakāmatarā ceva bhavissāmi bhagavato, dassanakāmatarā ca bhikkhusaṅghassa. ",
+      "english": "When you’ve gone, I’ll want to see the Buddha and his mendicant Saṅgha even more. "
+    },
+    {
+      "number": 29,
+      "pali": "Tasmātiha tvaṁ, gahapati, mā sāpekkho kālamakāsi. ",
+      "english": "So householder, don’t pass away with concerns … "
+    },
+    {
+      "number": 30,
+      "pali": "Dukkhā, gahapati, sāpekkhassa kālakiriyā; ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "garahitā ca bhagavatā sāpekkhassa kālakiriyā. ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "Siyā kho pana te, gahapati, evamassa: ",
+      "english": "Householder, you might think: "
+    },
+    {
+      "number": 33,
+      "pali": "‘na nakulamātā gahapatānī mamaccayena sīlesu paripūrakārinī’ti. ",
+      "english": "‘The housewife Nakula’s mother won’t fulfill ethics.’ "
+    },
+    {
+      "number": 34,
+      "pali": "Na kho panetaṁ, gahapati, evaṁ daṭṭhabbaṁ. ",
+      "english": "But you should not see it like this. "
+    },
+    {
+      "number": 35,
+      "pali": "Yāvatā kho, gahapati, tassa bhagavato sāvikā gihī odātavasanā sīlesu paripūrakāriniyo, ahaṁ tāsaṁ aññatarā. ",
+      "english": "I am one of those white-robed disciples of the Buddha who fulfills their ethics. "
+    },
+    {
+      "number": 36,
+      "pali": "Yassa kho panassa kaṅkhā vā vimati vā—ayaṁ so bhagavā arahaṁ sammāsambuddho bhaggesu viharati susumāragire bhesakaḷāvane migadāye—taṁ bhagavantaṁ upasaṅkamitvā pucchatu. ",
+      "english": "For whoever doubts this, that Blessed One, the perfected one, the fully awakened Buddha is staying in the land of the Bhaggas at Crocodile’s Bellow, in the deer park at Bhesakaḷā’s Wood. Let them approach him and ask. "
+    },
+    {
+      "number": 37,
+      "pali": "Tasmātiha tvaṁ, gahapati, mā sāpekkho kālamakāsi. ",
+      "english": "So householder, don’t pass away with concerns … "
+    },
+    {
+      "number": 38,
+      "pali": "Dukkhā, gahapati, sāpekkhassa kālakiriyā; ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "garahitā ca bhagavatā sāpekkhassa kālakiriyā. ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "Siyā kho pana te, gahapati, evamassa: ",
+      "english": "Householder, you might think: "
+    },
+    {
+      "number": 41,
+      "pali": "‘na nakulamātā gahapatānī lābhinī ajjhattaṁ cetosamathassā’ti. ",
+      "english": "‘The housewife Nakula’s mother doesn’t have internal serenity of heart.’ "
+    },
+    {
+      "number": 42,
+      "pali": "Na kho panetaṁ, gahapati, evaṁ daṭṭhabbaṁ. ",
+      "english": "But you should not see it like this. "
+    },
+    {
+      "number": 43,
+      "pali": "Yāvatā kho, gahapati, tassa bhagavato sāvikā gihī odātavasanā lābhiniyo ajjhattaṁ cetosamathassa, ahaṁ tāsaṁ aññatarā. ",
+      "english": "I am one of those white-robed disciples of the Buddha who has internal serenity of heart. "
+    },
+    {
+      "number": 44,
+      "pali": "Yassa kho panassa kaṅkhā vā vimati vā—ayaṁ so bhagavā arahaṁ sammāsambuddho bhaggesu viharati susumāragire bhesakaḷāvane migadāye—taṁ bhagavantaṁ upasaṅkamitvā pucchatu. ",
+      "english": "For whoever doubts this, that Blessed One is staying in the land of the Bhaggas at Crocodile’s Bellow, in the deer park at Bhesakaḷā’s Wood. Let them approach him and ask. "
+    },
+    {
+      "number": 45,
+      "pali": "Tasmātiha tvaṁ, gahapati, mā sāpekkho kālamakāsi. ",
+      "english": "So householder, don’t pass away with concerns … "
+    },
+    {
+      "number": 46,
+      "pali": "Dukkhā, gahapati, sāpekkhassa kālakiriyā; ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "garahitā ca bhagavatā sāpekkhassa kālakiriyā. ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "Siyā kho pana te, gahapati, evamassa: ",
+      "english": "Householder, you might think: "
+    },
+    {
+      "number": 49,
+      "pali": "‘na nakulamātā gahapatānī imasmiṁ dhammavinaye ogādhappattā patigādhappattā assāsappattā tiṇṇavicikicchā vigatakathaṅkathā vesārajjappattā aparappaccayā satthusāsane viharatī’ti. ",
+      "english": "‘The housewife Nakula’s mother has not found a footing, a firm footing, and solace in this teaching and training. She has not gone beyond doubt, got rid of indecision, and gained assurance. And she’s not independent of others in the Teacher’s instructions.’ "
+    },
+    {
+      "number": 50,
+      "pali": "Na kho panetaṁ, gahapati, evaṁ daṭṭhabbaṁ. ",
+      "english": "But you should not see it like this. "
+    },
+    {
+      "number": 51,
+      "pali": "Yāvatā kho, gahapati, tassa bhagavato sāvikā gihī odātavasanā imasmiṁ dhammavinaye ogādhappattā patigādhappattā assāsappattā tiṇṇavicikicchā vigatakathaṅkathā vesārajjappattā aparappaccayā satthusāsane viharanti, ahaṁ tāsaṁ aññatarā. ",
+      "english": "I am one of those white-robed disciples of the Buddha who has found a footing, a firm footing, and solace in this teaching and training. I have gone beyond doubt, got rid of indecision, and gained assurance. And I am independent of others in the Teacher’s instructions. "
+    },
+    {
+      "number": 52,
+      "pali": "Yassa kho panassa kaṅkhā vā vimati vā—ayaṁ so bhagavā arahaṁ sammāsambuddho bhaggesu viharati susumāragire bhesakaḷāvane migadāye—taṁ bhagavantaṁ upasaṅkamitvā pucchatu. ",
+      "english": "For whoever doubts this, that Blessed One is staying in the land of the Bhaggas at Crocodile’s Bellow, in the deer park at Bhesakaḷā’s Wood. Let them approach him and ask. "
+    },
+    {
+      "number": 53,
+      "pali": "Tasmātiha tvaṁ, gahapati, mā sāpekkho kālamakāsi. ",
+      "english": "So householder, don’t pass away with concerns. "
+    },
+    {
+      "number": 54,
+      "pali": "Dukkhā, gahapati, sāpekkhassa kālakiriyā; ",
+      "english": "Such concern is suffering, "
+    },
+    {
+      "number": 55,
+      "pali": "garahitā ca bhagavatā sāpekkhassa kālakiriyā”ti. ",
+      "english": "and it’s criticized by the Buddha.” "
+    },
+    {
+      "number": 56,
+      "pali": "Atha kho nakulapituno gahapatissa nakulamātarā gahapatāniyā iminā ovādena ovadiyamānassa so ābādho ṭhānaso paṭippassambhi. ",
+      "english": "And then, as Nakula’s mother was giving this advice to Nakula’s father, his illness died down on the spot. "
+    },
+    {
+      "number": 57,
+      "pali": "Vuṭṭhahi ca nakulapitā gahapati tamhā ābādhā; ",
+      "english": "And that’s how Nakula’s father recovered from that illness. "
+    },
+    {
+      "number": 58,
+      "pali": "tathā pahīno ca pana nakulapituno gahapatissa so ābādho ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "Atha kho nakulapitā gahapati gilānā vuṭṭhito aciravuṭṭhito gelaññā daṇḍamolubbha yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho nakulapitaraṁ gahapatiṁ bhagavā etadavoca: ",
+      "english": "Soon after recovering, leaning on a staff he went to the Buddha, bowed, and sat down to one side. The Buddha said to him: "
+    },
+    {
+      "number": 60,
+      "pali": "“Lābhā te, gahapati, suladdhaṁ te, gahapati. ",
+      "english": "“You’re fortunate, householder, so very fortunate, "
+    },
+    {
+      "number": 61,
+      "pali": "Yassa te nakulamātā gahapatānī anukampikā atthakāmā ovādikā anusāsikā. ",
+      "english": "to have the housewife Nakula’s mother advise and instruct you out of kindness and sympathy. "
+    },
+    {
+      "number": 62,
+      "pali": "Yāvatā kho, gahapati, mama sāvikā gihī odātavasanā sīlesu paripūrakāriniyo, nakulamātā gahapatānī tāsaṁ aññatarā. ",
+      "english": "She is one of those white-robed disciples of the Buddha who fulfills their ethics. "
+    },
+    {
+      "number": 63,
+      "pali": "Yāvatā kho, gahapati, mama sāvikā gihī odātavasanā lābhiniyo ajjhattaṁ cetosamathassa, nakulamātā gahapatānī tāsaṁ aññatarā. ",
+      "english": "She is one of those white-robed disciples of the Buddha who has internal serenity of heart. "
+    },
+    {
+      "number": 64,
+      "pali": "Yāvatā kho, gahapati, mama sāvikā gihī odātavasanā imasmiṁ dhammavinaye ogādhappattā patigādhappattā assāsappattā tiṇṇavicikicchā vigatakathaṅkathā vesārajjappattā aparappaccayā satthusāsane viharanti, nakulamātā gahapatānī tāsaṁ aññatarā. ",
+      "english": "She is one of those white-robed disciples of the Buddha who has found a footing, a firm footing, and solace in this teaching and training. She has gone beyond doubt, got rid of indecision, and gained assurance. And she is independent of others in the Teacher’s instructions. "
+    },
+    {
+      "number": 65,
+      "pali": "Lābhā te, gahapati, suladdhaṁ te, gahapati. ",
+      "english": "You’re fortunate, householder, so very fortunate, "
+    },
+    {
+      "number": 66,
+      "pali": "Yassa te nakulamātā gahapatānī anukampikā atthakāmā ovādikā anusāsikā”ti. ",
+      "english": "to have the housewife Nakula’s mother advise and instruct you out of kindness and sympathy.” "
+    },
+    {
+      "number": 67,
+      "pali": "Chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

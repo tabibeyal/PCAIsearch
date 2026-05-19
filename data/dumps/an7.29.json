@@ -1,0 +1,295 @@
+{
+  "sutta_id": "AN7.29",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 7.29 ",
+      "english": "Numbered Discourses 7.29 "
+    },
+    {
+      "number": 2,
+      "pali": "3. Vajjisattakavagga ",
+      "english": "3. The Vajji Seven "
+    },
+    {
+      "number": 3,
+      "pali": "Dutiyaparihānisutta ",
+      "english": "Non-decline for a Lay Follower "
+    },
+    {
+      "number": 4,
+      "pali": "“Sattime, bhikkhave, dhammā upāsakassa parihānāya saṁvattanti. ",
+      "english": "“These seven things lead to the decline of a lay follower. "
+    },
+    {
+      "number": 5,
+      "pali": "Katame satta? ",
+      "english": "What seven? "
+    },
+    {
+      "number": 6,
+      "pali": "Bhikkhudassanaṁ hāpeti, ",
+      "english": "They miss out on seeing the mendicants. "
+    },
+    {
+      "number": 7,
+      "pali": "saddhammassavanaṁ pamajjati, ",
+      "english": "They neglect listening to the true teaching. "
+    },
+    {
+      "number": 8,
+      "pali": "adhisīle na sikkhati, ",
+      "english": "They don’t train in higher ethical conduct. "
+    },
+    {
+      "number": 9,
+      "pali": "appasādabahulo hoti, ",
+      "english": "They’re very suspicious about mendicants, whether senior, junior, or middle. "
+    },
+    {
+      "number": 10,
+      "pali": "bhikkhūsu theresu ceva navesu ca majjhimesu ca upārambhacitto dhammaṁ suṇāti randhagavesī, ",
+      "english": "They listen to the teaching with a hostile, fault-finding mind. "
+    },
+    {
+      "number": 11,
+      "pali": "ito bahiddhā dakkhiṇeyyaṁ gavesati, ",
+      "english": "They seek outside of the Buddhist community for those worthy of religious donations. "
+    },
+    {
+      "number": 12,
+      "pali": "tattha ca pubbakāraṁ karoti. ",
+      "english": "And they serve them first. "
+    },
+    {
+      "number": 13,
+      "pali": "Ime kho, bhikkhave, satta dhammā upāsakassa parihānāya saṁvattanti. ",
+      "english": "These seven things lead to the decline of a lay follower. "
+    },
+    {
+      "number": 14,
+      "pali": "Sattime, bhikkhave, dhammā upāsakassa aparihānāya saṁvattanti. ",
+      "english": "These seven things don’t lead to the decline of a lay follower. "
+    },
+    {
+      "number": 15,
+      "pali": "Katame satta? ",
+      "english": "What seven? "
+    },
+    {
+      "number": 16,
+      "pali": "Bhikkhudassanaṁ na hāpeti, ",
+      "english": "They don’t miss out on seeing the mendicants. "
+    },
+    {
+      "number": 17,
+      "pali": "saddhammassavanaṁ nappamajjati, ",
+      "english": "They don’t neglect listening to the true teaching. "
+    },
+    {
+      "number": 18,
+      "pali": "adhisīle sikkhati, ",
+      "english": "They train in higher ethical conduct. "
+    },
+    {
+      "number": 19,
+      "pali": "pasādabahulo hoti, ",
+      "english": "They’re very confident about mendicants, whether senior, junior, or middle. "
+    },
+    {
+      "number": 20,
+      "pali": "bhikkhūsu theresu ceva navesu ca majjhimesu ca anupārambhacitto dhammaṁ suṇāti na randhagavesī, ",
+      "english": "They don’t listen to the teaching with a hostile, fault-finding mind. "
+    },
+    {
+      "number": 21,
+      "pali": "na ito bahiddhā dakkhiṇeyyaṁ gavesati, ",
+      "english": "They don’t seek outside of the Buddhist community for those worthy of religious donations. "
+    },
+    {
+      "number": 22,
+      "pali": "idha ca pubbakāraṁ karoti. ",
+      "english": "And they serve the Buddhist community first. "
+    },
+    {
+      "number": 23,
+      "pali": "Ime kho, bhikkhave, satta dhammā upāsakassa aparihānāya saṁvattantī”ti. ",
+      "english": "These seven things don’t lead to the decline of a lay follower.” "
+    },
+    {
+      "number": 24,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 25,
+      "pali": "Idaṁ vatvāna sugato athāparaṁ etadavoca satthā: ",
+      "english": "Then the Holy One, the Teacher, went on to say: "
+    },
+    {
+      "number": 26,
+      "pali": "“Dassanaṁ bhāvitattānaṁ, ",
+      "english": "“A lay follower misses out on seeing "
+    },
+    {
+      "number": 27,
+      "pali": "Yo hāpeti upāsako; ",
+      "english": "those who are evolved "
+    },
+    {
+      "number": 28,
+      "pali": "Savanañca ariyadhammānaṁ, ",
+      "english": "and listening to the teachings of the Noble One. "
+    },
+    {
+      "number": 29,
+      "pali": "Adhisīle na sikkhati. ",
+      "english": "They don’t train in higher ethical conduct, "
+    },
+    {
+      "number": 30,
+      "pali": "Appasādo ca bhikkhūsu, ",
+      "english": "and their suspicion about mendicants "
+    },
+    {
+      "number": 31,
+      "pali": "bhiyyo bhiyyo pavaḍḍhati; ",
+      "english": "just grows and grows. "
+    },
+    {
+      "number": 32,
+      "pali": "Upārambhakacitto ca, ",
+      "english": "They want to listen to the true teaching "
+    },
+    {
+      "number": 33,
+      "pali": "saddhammaṁ sotumicchati. ",
+      "english": "with a fault-finding mind. "
+    },
+    {
+      "number": 34,
+      "pali": "Ito ca bahiddhā aññaṁ, ",
+      "english": "They seek outside the Buddhist community "
+    },
+    {
+      "number": 35,
+      "pali": "dakkhiṇeyyaṁ gavesati; ",
+      "english": "for someone else worthy of religious donations, "
+    },
+    {
+      "number": 36,
+      "pali": "Tattheva ca pubbakāraṁ, ",
+      "english": "and that lay follower "
+    },
+    {
+      "number": 37,
+      "pali": "yo karoti upāsako. ",
+      "english": "serves them first. "
+    },
+    {
+      "number": 38,
+      "pali": "Ete kho parihāniye, ",
+      "english": "These seven principles leading to decline "
+    },
+    {
+      "number": 39,
+      "pali": "satta dhamme sudesite; ",
+      "english": "have been well taught. "
+    },
+    {
+      "number": 40,
+      "pali": "Upāsako sevamāno, ",
+      "english": "A lay follower who practices them "
+    },
+    {
+      "number": 41,
+      "pali": "saddhammā parihāyati. ",
+      "english": "falls away from the true teaching. "
+    },
+    {
+      "number": 42,
+      "pali": "Dassanaṁ bhāvitattānaṁ, ",
+      "english": "A lay follower doesn’t miss out on seeing "
+    },
+    {
+      "number": 43,
+      "pali": "Yo na hāpeti upāsako; ",
+      "english": "those who are evolved "
+    },
+    {
+      "number": 44,
+      "pali": "Savanañca ariyadhammānaṁ, ",
+      "english": "and listening to the teachings of the Noble One. "
+    },
+    {
+      "number": 45,
+      "pali": "Adhisīle ca sikkhati. ",
+      "english": "They train in higher ethical conduct, "
+    },
+    {
+      "number": 46,
+      "pali": "Pasādo cassa bhikkhūsu, ",
+      "english": "and their confidence in mendicants "
+    },
+    {
+      "number": 47,
+      "pali": "bhiyyo bhiyyo pavaḍḍhati; ",
+      "english": "just grows and grows. "
+    },
+    {
+      "number": 48,
+      "pali": "Anupārambhacitto ca, ",
+      "english": "They want to listen to the true teaching "
+    },
+    {
+      "number": 49,
+      "pali": "saddhammaṁ sotumicchati. ",
+      "english": "without a fault-finding mind. "
+    },
+    {
+      "number": 50,
+      "pali": "Na ito bahiddhā aññaṁ, ",
+      "english": "They don’t seek outside the Buddhist community "
+    },
+    {
+      "number": 51,
+      "pali": "dakkhiṇeyyaṁ gavesati; ",
+      "english": "for someone else worthy of religious donations, "
+    },
+    {
+      "number": 52,
+      "pali": "Idheva ca pubbakāraṁ, ",
+      "english": "and that lay follower "
+    },
+    {
+      "number": 53,
+      "pali": "yo karoti upāsako. ",
+      "english": "serves the Buddhist community first. "
+    },
+    {
+      "number": 54,
+      "pali": "Ete kho aparihāniye, ",
+      "english": "These seven principles that prevent decline "
+    },
+    {
+      "number": 55,
+      "pali": "Satta dhamme sudesite; ",
+      "english": "have been well taught. "
+    },
+    {
+      "number": 56,
+      "pali": "Upāsako sevamāno, ",
+      "english": "A lay follower who practices them "
+    },
+    {
+      "number": 57,
+      "pali": "Saddhammā na parihāyatī”ti. ",
+      "english": "doesn’t fall away from the true teaching.” "
+    },
+    {
+      "number": 58,
+      "pali": "Navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

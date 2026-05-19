@@ -1,0 +1,680 @@
+{
+  "sutta_id": "SN12.32",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 12.32 ",
+      "english": "Linked Discourses 12.32 "
+    },
+    {
+      "number": 2,
+      "pali": "4. Kaḷārakhattiyavagga ",
+      "english": "4. Kaḷāra the Aristocrat "
+    },
+    {
+      "number": 3,
+      "pali": "Kaḷārasutta ",
+      "english": "With Kaḷāra the Aristocrat "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthiyaṁ viharati. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho kaḷārakhattiyo bhikkhu yenāyasmā sāriputto tenupasaṅkami; upasaṅkamitvā āyasmatā sāriputtena saddhiṁ sammodi. ",
+      "english": "Then the mendicant Kaḷāra the Aristocrat went up to Venerable Sāriputta and exchanged greetings with him. "
+    },
+    {
+      "number": 6,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho kaḷārakhattiyo bhikkhu āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to him, "
+    },
+    {
+      "number": 7,
+      "pali": "“moḷiyaphagguno, āvuso sāriputta, bhikkhu sikkhaṁ paccakkhāya hīnāyāvatto”ti. ",
+      "english": "“Reverend Sāriputta, the mendicant Phagguna of the Top-Knot has resigned the training and returned to a lesser life.” "
+    },
+    {
+      "number": 8,
+      "pali": "“Na hi nūna so āyasmā imasmiṁ dhammavinaye assāsamalatthā”ti. ",
+      "english": "“That venerable mustn’t have gained any solace in this teaching and training.” "
+    },
+    {
+      "number": 9,
+      "pali": "“Tena hāyasmā sāriputto imasmiṁ dhammavinaye assāsaṁ patto”ti? ",
+      "english": "“Well then, has Venerable Sāriputta found found in this teaching and training?” "
+    },
+    {
+      "number": 10,
+      "pali": "“Na khvāhaṁ, āvuso, kaṅkhāmī”ti. ",
+      "english": "“Reverend, I have no uncertainty.” "
+    },
+    {
+      "number": 11,
+      "pali": "“Āyatiṁ, panāvuso”ti? ",
+      "english": "“But what of the future?” "
+    },
+    {
+      "number": 12,
+      "pali": "“Na khvāhaṁ, āvuso, vicikicchāmī”ti. ",
+      "english": "“I have no doubt.” "
+    },
+    {
+      "number": 13,
+      "pali": "Atha kho kaḷārakhattiyo bhikkhu uṭṭhāyāsanā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho kaḷārakhattiyo bhikkhu bhagavantaṁ etadavoca: ",
+      "english": "Then Kaḷāra the Aristocrat went up to the Buddha, bowed, sat down to one side, and said to him, "
+    },
+    {
+      "number": 14,
+      "pali": "“āyasmatā, bhante, sāriputtena aññā byākatā: ",
+      "english": "“Sir, Venerable Sāriputta has declared enlightenment: "
+    },
+    {
+      "number": 15,
+      "pali": "‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāmī”ti. ",
+      "english": "‘I understand: “Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.”’” "
+    },
+    {
+      "number": 16,
+      "pali": "Atha kho bhagavā aññataraṁ bhikkhuṁ āmantesi: ",
+      "english": "So the Buddha addressed one of the monks, "
+    },
+    {
+      "number": 17,
+      "pali": "“ehi tvaṁ, bhikkhu, mama vacanena sāriputtaṁ āmantehi: ",
+      "english": "“Please, monk, in my name tell Sāriputta that "
+    },
+    {
+      "number": 18,
+      "pali": "‘satthā taṁ, āvuso sāriputta, āmantetī’”ti. ",
+      "english": "the teacher summons him.” "
+    },
+    {
+      "number": 19,
+      "pali": "“Evaṁ, bhante”ti kho so bhikkhu bhagavato paṭissutvā yenāyasmā sāriputto tenupasaṅkami; upasaṅkamitvā āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": "“Yes, sir,” that monk replied. He went to Sāriputta and said to him, "
+    },
+    {
+      "number": 20,
+      "pali": "“satthā taṁ, āvuso sāriputta, āmantetī”ti. ",
+      "english": "“Reverend Sāriputta, the teacher summons you.” "
+    },
+    {
+      "number": 21,
+      "pali": "“Evaṁ, āvuso”ti kho āyasmā sāriputto tassa bhikkhuno paṭissutvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho āyasmantaṁ sāriputtaṁ bhagavā etadavoca: ",
+      "english": "“Yes, reverend,” replied Sāriputta. He went to the Buddha, bowed, and sat down to one side. The Buddha said to him, "
+    },
+    {
+      "number": 22,
+      "pali": "“saccaṁ kira tayā, sāriputta, aññā byākatā: ",
+      "english": "“Sāriputta, is it really true that you have declared enlightenment: "
+    },
+    {
+      "number": 23,
+      "pali": "‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāmī”ti? ",
+      "english": "‘I understand: “Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place”’?” "
+    },
+    {
+      "number": 24,
+      "pali": "“Na kho, bhante, etehi padehi etehi byañjanehi attho vutto”ti. ",
+      "english": "“Sir, I did not state the matter in these words and phrases.” "
+    },
+    {
+      "number": 25,
+      "pali": "“Yena kenacipi, sāriputta, pariyāyena kulaputto aññaṁ byākaroti, atha kho byākataṁ byākatato daṭṭhabban”ti. ",
+      "english": "“Sāriputta, no matter how a gentleman declares enlightenment, what he has declared should be regarded as such.” "
+    },
+    {
+      "number": 26,
+      "pali": "“Nanu ahampi, bhante, evaṁ vadāmi: ",
+      "english": "“Sir, did I not also say that "
+    },
+    {
+      "number": 27,
+      "pali": "‘na kho, bhante, etehi padehi etehi byañjanehi attho vutto’”ti. ",
+      "english": "I did not state the matter in these words and phrases?” "
+    },
+    {
+      "number": 28,
+      "pali": "“Sace taṁ, sāriputta, evaṁ puccheyyuṁ: ",
+      "english": "“Sāriputta, suppose they were to ask you: "
+    },
+    {
+      "number": 29,
+      "pali": "‘kathaṁ jānatā pana tayā, āvuso sāriputta, kathaṁ passatā aññā byākatā—",
+      "english": "‘But Reverend Sāriputta, how have you known and seen so that you’ve declared enlightenment: "
+    },
+    {
+      "number": 30,
+      "pali": "khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmī’ti. ",
+      "english": "“I understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’”’ "
+    },
+    {
+      "number": 31,
+      "pali": "Evaṁ puṭṭho tvaṁ, sāriputta, kinti byākareyyāsī”ti? ",
+      "english": "How would you answer?” "
+    },
+    {
+      "number": 32,
+      "pali": "“Sace maṁ, bhante, evaṁ puccheyyuṁ: ",
+      "english": "“Sir, if they were to ask me this, "
+    },
+    {
+      "number": 33,
+      "pali": "‘kathaṁ jānatā pana tayā, āvuso sāriputta, kathaṁ passatā aññā byākatā—",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmī’ti; ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyaṁ: ",
+      "english": "I would answer: "
+    },
+    {
+      "number": 36,
+      "pali": "‘yaṁnidānā, āvuso, jāti, tassa nidānassa khayā khīṇasmiṁ khīṇāmhīti viditaṁ. ",
+      "english": "‘Reverends, when the source of rebirth ended, I knew “it is ended”. "
+    },
+    {
+      "number": 37,
+      "pali": "Khīṇāmhīti viditvā—",
+      "english": "Knowing it is ended, "
+    },
+    {
+      "number": 38,
+      "pali": "khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmī’ti. ",
+      "english": "I understand: “Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.”’ "
+    },
+    {
+      "number": 39,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyan”ti. ",
+      "english": "That’s how I’d answer such a question.” "
+    },
+    {
+      "number": 40,
+      "pali": "“Sace pana taṁ, sāriputta, evaṁ puccheyyuṁ: ",
+      "english": "“But Sāriputta, suppose they were to ask you: "
+    },
+    {
+      "number": 41,
+      "pali": "‘jāti panāvuso sāriputta, kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā’ti? ",
+      "english": "‘But what is the source, origin, birthplace, and inception of rebirth?’ "
+    },
+    {
+      "number": 42,
+      "pali": "Evaṁ puṭṭho taṁ, sāriputta, kinti byākareyyāsī”ti? ",
+      "english": "How would you answer?” "
+    },
+    {
+      "number": 43,
+      "pali": "“Sace maṁ, bhante, evaṁ puccheyyuṁ: ",
+      "english": "“Sir, if they were to ask me this, "
+    },
+    {
+      "number": 44,
+      "pali": "‘jāti panāvuso sāriputta, kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyaṁ: ",
+      "english": "I would answer: "
+    },
+    {
+      "number": 46,
+      "pali": "‘jāti kho, āvuso, bhavanidānā bhavasamudayā bhavajātikā bhavappabhavā’ti. ",
+      "english": "‘Continued existence is the source, origin, birthplace, and inception of rebirth.’ "
+    },
+    {
+      "number": 47,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyan”ti. ",
+      "english": "That’s how I’d answer such a question.” "
+    },
+    {
+      "number": 48,
+      "pali": "“Sace pana taṁ, sāriputta, evaṁ puccheyyuṁ: ",
+      "english": "“But Sāriputta, suppose they were to ask you: "
+    },
+    {
+      "number": 49,
+      "pali": "‘bhavo panāvuso sāriputta, kiṁnidāno kiṁsamudayo kiṁjātiko kiṁpabhavo’ti? ",
+      "english": "‘What is the source of continued existence?’ "
+    },
+    {
+      "number": 50,
+      "pali": "Evaṁ puṭṭho tvaṁ, sāriputta, kinti byākareyyāsī”ti? ",
+      "english": "How would you answer?” "
+    },
+    {
+      "number": 51,
+      "pali": "“Sace maṁ, bhante, evaṁ puccheyyuṁ: ",
+      "english": "“Sir, if they were to ask me this, "
+    },
+    {
+      "number": 52,
+      "pali": "‘bhavo panāvuso sāriputta, kiṁnidāno kiṁsamudayo kiṁjātiko kiṁpabhavo’ti? ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyaṁ: ",
+      "english": "I’d answer: "
+    },
+    {
+      "number": 54,
+      "pali": "‘bhavo kho, āvuso, upādānanidāno upādānasamudayo upādānajātiko upādānappabhavo’ti. ",
+      "english": "‘Grasping is the source of continued existence.’ "
+    },
+    {
+      "number": 55,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyan”ti. ",
+      "english": "That’s how I’d answer such a question.” "
+    },
+    {
+      "number": 56,
+      "pali": "“Sace pana taṁ, sāriputta, evaṁ puccheyyuṁ: ",
+      "english": "“But Sāriputta, suppose they were to ask you: "
+    },
+    {
+      "number": 57,
+      "pali": "‘upādānaṁ panāvuso …pe… ",
+      "english": "‘What is the source of grasping?’ … "
+    },
+    {
+      "number": 58,
+      "pali": "sace pana taṁ, sāriputta, evaṁ puccheyyuṁ—",
+      "english": "But Sāriputta, suppose they were to ask you: "
+    },
+    {
+      "number": 59,
+      "pali": "taṇhā panāvuso sāriputta, kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā’ti? ",
+      "english": "‘What is the source of craving?’ "
+    },
+    {
+      "number": 60,
+      "pali": "Evaṁ puṭṭho tvaṁ, sāriputta, kinti byākareyyāsī”ti? ",
+      "english": "How would you answer?” "
+    },
+    {
+      "number": 61,
+      "pali": "“Sace maṁ, bhante, evaṁ puccheyyuṁ: ",
+      "english": "“Sir, if they were to ask me this, "
+    },
+    {
+      "number": 62,
+      "pali": "‘taṇhā panāvuso sāriputta, kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyaṁ: ",
+      "english": "I’d answer: "
+    },
+    {
+      "number": 64,
+      "pali": "‘taṇhā kho, āvuso, vedanānidānā vedanāsamudayā vedanājātikā vedanāpabhavā’ti. ",
+      "english": "‘Feeling is the source of craving.’ "
+    },
+    {
+      "number": 65,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyan”ti. ",
+      "english": "That’s how I’d answer such a question.” "
+    },
+    {
+      "number": 66,
+      "pali": "“Sace pana taṁ, sāriputta, evaṁ puccheyyuṁ: ",
+      "english": "“But Sāriputta, suppose they were to ask you: "
+    },
+    {
+      "number": 67,
+      "pali": "‘kathaṁ jānato pana te, āvuso sāriputta, kathaṁ passato yā vedanāsu nandī sā na upaṭṭhāsī’ti. ",
+      "english": "‘But how have you known and seen so that the relishing of feelings is no longer present?’ "
+    },
+    {
+      "number": 68,
+      "pali": "Evaṁ puṭṭho tvaṁ, sāriputta, kinti byākareyyāsī”ti? ",
+      "english": "How would you answer?” "
+    },
+    {
+      "number": 69,
+      "pali": "“Sace maṁ, bhante, evaṁ puccheyyuṁ: ",
+      "english": "“Sir, if they were to ask me this, "
+    },
+    {
+      "number": 70,
+      "pali": "‘kathaṁ jānato pana te, āvuso sāriputta, kathaṁ passato yā vedanāsu nandī sā na upaṭṭhāsī’ti evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyaṁ: ",
+      "english": "I’d answer: "
+    },
+    {
+      "number": 71,
+      "pali": "‘tisso kho imā, āvuso, vedanā. ",
+      "english": "‘Reverends, there are three feelings. "
+    },
+    {
+      "number": 72,
+      "pali": "Katamā tisso? ",
+      "english": "What three? "
+    },
+    {
+      "number": 73,
+      "pali": "Sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā. ",
+      "english": "Pleasant, painful, and neutral feeling. "
+    },
+    {
+      "number": 74,
+      "pali": "Imā kho, āvuso, tisso vedanā aniccā. ",
+      "english": "These three feelings are impermanent, "
+    },
+    {
+      "number": 75,
+      "pali": "Yadaniccaṁ taṁ dukkhanti ",
+      "english": "and what’s impermanent is suffering. "
+    },
+    {
+      "number": 76,
+      "pali": "viditaṁ, yā vedanāsu nandī sā na upaṭṭhāsī’ti. ",
+      "english": "When I understood this, the relishing of feelings was no longer present.’ "
+    },
+    {
+      "number": 77,
+      "pali": "Evaṁ, puṭṭhohaṁ, bhante, evaṁ byākareyyan”ti. ",
+      "english": "That’s how I’d answer such a question.” "
+    },
+    {
+      "number": 78,
+      "pali": "“Sādhu sādhu, sāriputta. ",
+      "english": "“Good, good, Sāriputta! "
+    },
+    {
+      "number": 79,
+      "pali": "Ayampi kho, sāriputta, pariyāyo, etasseva atthassa saṅkhittena veyyākaraṇāya: ",
+      "english": "The same point may also be briefly explained in this way: "
+    },
+    {
+      "number": 80,
+      "pali": "‘yaṁ kiñci vedayitaṁ taṁ dukkhasmin’”ti. ",
+      "english": "‘Suffering includes whatever is felt.’ "
+    },
+    {
+      "number": 81,
+      "pali": "“Sace pana taṁ, sāriputta, evaṁ puccheyyuṁ: ",
+      "english": "But Sāriputta, suppose they were to ask you: "
+    },
+    {
+      "number": 82,
+      "pali": "‘kathaṁ vimokkhā pana tayā, āvuso sāriputta, aññā byākatā—",
+      "english": "‘But Reverend, how have you been liberated that you declare enlightenment: "
+    },
+    {
+      "number": 83,
+      "pali": "khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmī’ti? ",
+      "english": "“I understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’”?’ "
+    },
+    {
+      "number": 84,
+      "pali": "Evaṁ puṭṭho tvaṁ, sāriputta, kinti byākareyyāsī”ti? ",
+      "english": "How would you answer?” "
+    },
+    {
+      "number": 85,
+      "pali": "“Sace maṁ, bhante, evaṁ puccheyyuṁ: ",
+      "english": "“Sir, if they were to ask me this, "
+    },
+    {
+      "number": 86,
+      "pali": "‘kathaṁ vimokkhā pana tayā, āvuso sāriputta, aññā byākatā—",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyaṁ: ",
+      "english": "I’d answer: "
+    },
+    {
+      "number": 89,
+      "pali": "‘ajjhattaṁ vimokkhā khvāhaṁ, āvuso, sabbupādānakkhayā tathā sato viharāmi yathā sataṁ viharantaṁ āsavā nānussavanti, attānañca nāvajānāmī’ti. ",
+      "english": "‘Because of an inner release with the ending of all grasping, I live mindfully so that defilements don’t defile me and I don’t look down on myself.’ "
+    },
+    {
+      "number": 90,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyan”ti. ",
+      "english": "That’s how I’d answer such a question.” "
+    },
+    {
+      "number": 91,
+      "pali": "“Sādhu sādhu, sāriputta. ",
+      "english": "“Good, good, Sāriputta! "
+    },
+    {
+      "number": 92,
+      "pali": "Ayampi kho sāriputta, pariyāyo etasseva atthassa saṅkhittena veyyākaraṇāya—",
+      "english": "The same point may also be briefly explained in this way: "
+    },
+    {
+      "number": 93,
+      "pali": "ye āsavā samaṇena vuttā tesvāhaṁ na kaṅkhāmi, te me pahīnāti na vicikicchāmī”ti. ",
+      "english": "‘I have no uncertainty regarding the defilements spoken of by the ascetic. I have no doubt that I’ve given them up.’” "
+    },
+    {
+      "number": 94,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 95,
+      "pali": "Idaṁ vatvā sugato uṭṭhāyāsanā vihāraṁ pāvisi. ",
+      "english": "When he had spoken, the Holy One got up from his seat and entered his dwelling. "
+    },
+    {
+      "number": 96,
+      "pali": "Tatra kho āyasmā sāriputto acirapakkantassa bhagavato bhikkhū āmantesi: ",
+      "english": "Then soon after the Buddha left, Venerable Sāriputta said to the mendicants, "
+    },
+    {
+      "number": 97,
+      "pali": "“pubbe appaṭisaṁviditaṁ maṁ, āvuso, bhagavā paṭhamaṁ pañhaṁ apucchi, tassa me ahosi dandhāyitattaṁ. ",
+      "english": "“Reverends, the Buddha asked me the first question without letting me know beforehand, so I hesitated. "
+    },
+    {
+      "number": 98,
+      "pali": "Yato ca kho me, āvuso, bhagavā paṭhamaṁ pañhaṁ anumodi, tassa mayhaṁ, āvuso, etadahosi—",
+      "english": "But when the Buddha agreed with my answer, I thought: "
+    },
+    {
+      "number": 99,
+      "pali": "divasañcepi maṁ bhagavā etamatthaṁ puccheyya aññamaññehi padehi aññamaññehi pariyāyehi, divasampāhaṁ bhagavato etamatthaṁ byākareyyaṁ aññamaññehi padehi aññamaññehi pariyāyehi. ",
+      "english": "‘If the Buddha were to question me all day on this matter in different words and ways, I could answer all day with different words and ways. "
+    },
+    {
+      "number": 100,
+      "pali": "Rattiñcepi maṁ bhagavā etamatthaṁ puccheyya aññamaññehi padehi aññamaññehi pariyāyehi, rattimpāhaṁ bhagavato etamatthaṁ byākareyyaṁ aññamaññehi padehi aññamaññehi pariyāyehi. ",
+      "english": "If he were to question me all night, "
+    },
+    {
+      "number": 101,
+      "pali": "Rattindivaṁ cepi maṁ bhagavā etamatthaṁ puccheyya aññamaññehi padehi aññamaññehi pariyāyehi, rattindivampāhaṁ bhagavato etamatthaṁ byākareyyaṁ aññamaññehi padehi aññamaññehi pariyāyehi. ",
+      "english": "all day and night, "
+    },
+    {
+      "number": 102,
+      "pali": "Dve rattindivāni cepi maṁ bhagavā etamatthaṁ puccheyya …pe… ",
+      "english": "for two days and nights, "
+    },
+    {
+      "number": 103,
+      "pali": "dve rattindivānipāhaṁ bhagavato etamatthaṁ byākareyyaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 104,
+      "pali": "tīṇi rattindivāni cepi maṁ bhagavā etamatthaṁ puccheyya …pe… ",
+      "english": "for three, "
+    },
+    {
+      "number": 105,
+      "pali": "tīṇi rattindivānipāhaṁ bhagavato etamatthaṁ byākareyyaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 106,
+      "pali": "cattāri rattindivāni cepi maṁ bhagavā etamatthaṁ puccheyya …pe… ",
+      "english": "four, "
+    },
+    {
+      "number": 107,
+      "pali": "cattāri rattindivānipāhaṁ bhagavato etamatthaṁ byākareyyaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 108,
+      "pali": "pañca rattindivāni cepi maṁ bhagavā etamatthaṁ puccheyya …pe… ",
+      "english": "five, "
+    },
+    {
+      "number": 109,
+      "pali": "pañca rattindivānipāhaṁ bhagavato etamatthaṁ byākareyyaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 110,
+      "pali": "cha rattindivāni cepi maṁ bhagavā etamatthaṁ puccheyya …pe… ",
+      "english": "six, "
+    },
+    {
+      "number": 111,
+      "pali": "cha rattindivānipāhaṁ bhagavato etamatthaṁ byākareyyaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 112,
+      "pali": "satta rattindivāni cepi maṁ bhagavā etamatthaṁ puccheyya aññamaññehi padehi aññamaññehi pariyāyehi, satta rattindivānipāhaṁ bhagavato etamatthaṁ byākareyyaṁ aññamaññehi padehi aññamaññehi pariyāyehī”ti. ",
+      "english": "or seven days and nights, I could answer in different words and ways for seven days and nights.’” "
+    },
+    {
+      "number": 113,
+      "pali": "Atha kho kaḷārakhattiyo bhikkhu uṭṭhāyāsanā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho kaḷārakhattiyo bhikkhu bhagavantaṁ etadavoca: ",
+      "english": "Then Kaḷāra the Aristocrat went up to the Buddha, bowed, sat down to one side, and said to him, "
+    },
+    {
+      "number": 114,
+      "pali": "“āyasmatā, bhante, sāriputtena sīhanādo nadito—",
+      "english": "“Sir, Venerable Sāriputta has roared his lion’s roar!” "
+    },
+    {
+      "number": 115,
+      "pali": "pubbe appaṭisaṁviditaṁ maṁ, āvuso, bhagavā paṭhamaṁ pañhaṁ apucchi, tassa me ahosi dandhāyitattaṁ. ",
+      "english": "(And he told the Buddha all that Sāriputta had said.) "
+    },
+    {
+      "number": 116,
+      "pali": "Yato ca kho me, āvuso, bhagavā paṭhamaṁ pañhaṁ anumodi, tassa mayhaṁ, āvuso, etadahosi—",
+      "english": ""
+    },
+    {
+      "number": 117,
+      "pali": "divasañcepi maṁ bhagavā etamatthaṁ puccheyya aññamaññehi padehi aññamaññehi pariyāyehi, divasampāhaṁ bhagavato etamatthaṁ byākareyyaṁ aññamaññehi padehi aññamaññehi pariyāyehi; ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "rattiñcepi …pe… ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "rattindivañcepi maṁ bhagavā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "dve rattindivāni cepi maṁ bhagavā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 121,
+      "pali": "tīṇi … ",
+      "english": ""
+    },
+    {
+      "number": 122,
+      "pali": "cattāri … ",
+      "english": ""
+    },
+    {
+      "number": 123,
+      "pali": "pañca … ",
+      "english": ""
+    },
+    {
+      "number": 124,
+      "pali": "cha … ",
+      "english": ""
+    },
+    {
+      "number": 125,
+      "pali": "satta rattindivāni cepi maṁ bhagavā etamatthaṁ puccheyya aññamaññehi padehi aññamaññehi pariyāyehi, satta rattindivānipāhaṁ bhagavato etamatthaṁ byākareyyaṁ aññamaññehi padehi aññamaññehi pariyāyehī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 126,
+      "pali": "“Sā hi, bhikkhu, sāriputtassa dhammadhātu suppaṭividdhā, yassā dhammadhātuyā suppaṭividdhattā divasaṁ cepāhaṁ sāriputtaṁ etamatthaṁ puccheyyaṁ aññamaññehi padehi aññamaññehi pariyāyehi, divasampi me sāriputto etamatthaṁ byākareyya aññamaññehi padehi aññamaññehi pariyāyehi. ",
+      "english": "“Mendicant, Sāriputta has clearly penetrated the principle of the teachings, so that he could answer any questions I might ask him in different words and ways up to the seventh day and night.” "
+    },
+    {
+      "number": 127,
+      "pali": "Rattiṁ cepāhaṁ sāriputtaṁ etamatthaṁ puccheyyaṁ aññamaññehi padehi aññamaññehi pariyāyehi, rattimpi me sāriputto etamatthaṁ byākareyya …pe… ",
+      "english": ""
+    },
+    {
+      "number": 128,
+      "pali": "rattindivaṁ cepāhaṁ sāriputtaṁ etamatthaṁ puccheyyaṁ, rattindivampi me sāriputto etamatthaṁ byākareyya … ",
+      "english": ""
+    },
+    {
+      "number": 129,
+      "pali": "dve rattindivāni cepāhaṁ sāriputtaṁ etamatthaṁ puccheyyaṁ, dve rattindivānipi me sāriputto etamatthaṁ byākareyya … ",
+      "english": ""
+    },
+    {
+      "number": 130,
+      "pali": "tīṇi rattindivāni cepāhaṁ sāriputtaṁ etamatthaṁ puccheyyaṁ, tīṇi rattindivānipi me sāriputto etamatthaṁ byākareyya … ",
+      "english": ""
+    },
+    {
+      "number": 131,
+      "pali": "cattāri rattindivāni cepāhaṁ sāriputtaṁ etamatthaṁ puccheyyaṁ, cattāri rattindivānipi me sāriputto etamatthaṁ byākareyya … ",
+      "english": ""
+    },
+    {
+      "number": 132,
+      "pali": "pañca rattindivāni cepāhaṁ sāriputtaṁ etamatthaṁ puccheyyaṁ, pañca rattindivānipi me sāriputto etamatthaṁ byākareyya … ",
+      "english": ""
+    },
+    {
+      "number": 133,
+      "pali": "cha rattindivāni cepāhaṁ sāriputtaṁ etamatthaṁ puccheyyaṁ, cha rattindivānipi me sāriputto etamatthaṁ byākareyya … ",
+      "english": ""
+    },
+    {
+      "number": 134,
+      "pali": "satta rattindivāni cepāhaṁ sāriputtaṁ etamatthaṁ puccheyyaṁ aññamaññehi padehi aññamaññehi pariyāyehi, satta rattindivānipi me sāriputto etamatthaṁ byākareyya aññamaññehi padehi aññamaññehi pariyāyehī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 135,
+      "pali": "Dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

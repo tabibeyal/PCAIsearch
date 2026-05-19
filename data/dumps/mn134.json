@@ -1,0 +1,615 @@
+{
+  "sutta_id": "MN134",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 134 ",
+      "english": "Middle Discourses 134 "
+    },
+    {
+      "number": 2,
+      "pali": "Lomasakaṅgiyabhaddekarattasutta ",
+      "english": "Lomasakaṅgiya and One Fine Night "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena āyasmā lomasakaṅgiyo sakkesu viharati kapilavatthusmiṁ nigrodhārāme. ",
+      "english": "Now at that time Venerable Lomasakaṅgiya was staying in the Sakyan country at Kapilavatthu in the Banyan Tree Monastery. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho candano devaputto abhikkantāya rattiyā abhikkantavaṇṇo kevalakappaṁ nigrodhārāmaṁ obhāsetvā yenāyasmā lomasakaṅgiyo tenupasaṅkami; upasaṅkamitvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho candano devaputto āyasmantaṁ lomasakaṅgiyaṁ etadavoca: ",
+      "english": "Then, late at night, the glorious godling Candana, lighting up the entire Banyan Tree Monastery, went up to the Venerable Lomasakaṅgiya, and stood to one side. Standing to one side, he said to Lomasakaṅgiya: "
+    },
+    {
+      "number": 7,
+      "pali": "“dhāresi tvaṁ, bhikkhu, bhaddekarattassa uddesañca vibhaṅgañcā”ti? ",
+      "english": "“Mendicant, do you remember the summary recital and the analysis of the one who has one fine night?” "
+    },
+    {
+      "number": 8,
+      "pali": "“Na kho ahaṁ, āvuso, dhāremi bhaddekarattassa uddesañca vibhaṅgañca. ",
+      "english": "“No, reverend, I do not. "
+    },
+    {
+      "number": 9,
+      "pali": "Tvaṁ panāvuso, dhāresi bhaddekarattassa uddesañca vibhaṅgañcā”ti? ",
+      "english": "Do you?” "
+    },
+    {
+      "number": 10,
+      "pali": "“Ahampi kho, bhikkhu, na dhāremi bhaddekarattassa uddesañca vibhaṅgañca. ",
+      "english": "“I also do not. "
+    },
+    {
+      "number": 11,
+      "pali": "Dhāresi pana tvaṁ, bhikkhu, bhaddekarattiyo gāthā”ti? ",
+      "english": "But do you remember just the verses on the one who has one fine night?” "
+    },
+    {
+      "number": 12,
+      "pali": "“Na kho ahaṁ, āvuso, dhāremi bhaddekarattiyo gāthā. ",
+      "english": "“I do not. "
+    },
+    {
+      "number": 13,
+      "pali": "Tvaṁ panāvuso, dhāresi bhaddekarattiyo gāthā”ti? ",
+      "english": "Do you?” "
+    },
+    {
+      "number": 14,
+      "pali": "“Dhāremi kho ahaṁ, bhikkhu, bhaddekarattiyo gāthā”ti. ",
+      "english": "“I do.” "
+    },
+    {
+      "number": 15,
+      "pali": "“Yathā kathaṁ pana tvaṁ, āvuso, dhāresi bhaddekarattiyo gāthā”ti? ",
+      "english": "“How do you remember the verses on the one who has one fine night?” "
+    },
+    {
+      "number": 16,
+      "pali": "“Ekamidaṁ, bhikkhu, samayaṁ bhagavā devesu tāvatiṁsesu viharati pāricchattakamūle paṇḍukambalasilāyaṁ. ",
+      "english": "“This one time, the Buddha was staying among the gods of the thirty-three at the root of the Orchid Tree on the stone spread with a cream rug. "
+    },
+    {
+      "number": 17,
+      "pali": "Tatra bhagavā devānaṁ tāvatiṁsānaṁ bhaddekarattassa uddesañca vibhaṅgañca abhāsi: ",
+      "english": "There he taught the summary recital and the analysis of the one who has one fine night to the gods of the thirty-three: "
+    },
+    {
+      "number": 18,
+      "pali": "‘Atītaṁ nānvāgameyya, ",
+      "english": "‘Don’t run back to the past, "
+    },
+    {
+      "number": 19,
+      "pali": "nappaṭikaṅkhe anāgataṁ; ",
+      "english": "don’t anticipate the future. "
+    },
+    {
+      "number": 20,
+      "pali": "Yadatītaṁ pahīnaṁ taṁ, ",
+      "english": "What’s past is left behind, "
+    },
+    {
+      "number": 21,
+      "pali": "appattañca anāgataṁ. ",
+      "english": "the future has not arrived; "
+    },
+    {
+      "number": 22,
+      "pali": "Paccuppannañca yo dhammaṁ, ",
+      "english": "and any present phenomenon "
+    },
+    {
+      "number": 23,
+      "pali": "tattha tattha vipassati; ",
+      "english": "you clearly discern in every case. "
+    },
+    {
+      "number": 24,
+      "pali": "Asaṁhīraṁ asaṅkuppaṁ, ",
+      "english": "The unfaltering, the unshakable: "
+    },
+    {
+      "number": 25,
+      "pali": "taṁ vidvā manubrūhaye. ",
+      "english": "having known that, foster it. "
+    },
+    {
+      "number": 26,
+      "pali": "Ajjeva kiccamātappaṁ, ",
+      "english": "Today’s the day to keenly work—"
+    },
+    {
+      "number": 27,
+      "pali": "ko jaññā maraṇaṁ suve; ",
+      "english": "who knows, tomorrow may bring death! "
+    },
+    {
+      "number": 28,
+      "pali": "Na hi no saṅgaraṁ tena, ",
+      "english": "For there is no bargain to be struck "
+    },
+    {
+      "number": 29,
+      "pali": "mahāsenena maccunā. ",
+      "english": "with Death and his mighty horde. "
+    },
+    {
+      "number": 30,
+      "pali": "Evaṁvihāriṁ ātāpiṁ, ",
+      "english": "One who keenly meditates like this, "
+    },
+    {
+      "number": 31,
+      "pali": "ahorattamatanditaṁ; ",
+      "english": "tireless all night and day: "
+    },
+    {
+      "number": 32,
+      "pali": "Taṁ ve bhaddekarattoti, ",
+      "english": "that’s who has one fine night—"
+    },
+    {
+      "number": 33,
+      "pali": "santo ācikkhate munī’ti. ",
+      "english": "so declares the peaceful sage.’ "
+    },
+    {
+      "number": 34,
+      "pali": "Evaṁ kho ahaṁ, bhikkhu, dhāremi bhaddekarattiyo gāthā. ",
+      "english": "That’s how I remember the verses of the one who has one fine night. "
+    },
+    {
+      "number": 35,
+      "pali": "Uggaṇhāhi tvaṁ, bhikkhu, bhaddekarattassa uddesañca vibhaṅgañca; ",
+      "english": "Learn the summary recital and the analysis of the one who has one fine night, mendicant, "
+    },
+    {
+      "number": 36,
+      "pali": "pariyāpuṇāhi tvaṁ, bhikkhu, bhaddekarattassa uddesañca vibhaṅgañca; ",
+      "english": "memorize it, "
+    },
+    {
+      "number": 37,
+      "pali": "dhārehi tvaṁ, bhikkhu, bhaddekarattassa uddesañca vibhaṅgañca. ",
+      "english": "and remember it. "
+    },
+    {
+      "number": 38,
+      "pali": "Atthasaṁhito, bhikkhu, bhaddekarattassa uddeso ca vibhaṅgo ca ādibrahmacariyako”ti. ",
+      "english": "It is beneficial and relevant to the fundamentals of the spiritual life.” "
+    },
+    {
+      "number": 39,
+      "pali": "Idamavoca candano devaputto. ",
+      "english": "That’s what the godling Candana said "
+    },
+    {
+      "number": 40,
+      "pali": "Idaṁ vatvā tatthevantaradhāyi. ",
+      "english": "before vanishing right there. "
+    },
+    {
+      "number": 41,
+      "pali": "Atha kho āyasmā lomasakaṅgiyo tassā rattiyā accayena senāsanaṁ saṁsāmetvā pattacīvaramādāya yena sāvatthi tena cārikaṁ pakkāmi. ",
+      "english": "Then Lomasakaṅgiya set his lodgings in order and, taking his bowl and robe, set out for Sāvatthī. "
+    },
+    {
+      "number": 42,
+      "pali": "Anupubbena cārikaṁ caramāno yena sāvatthi jetavanaṁ anāthapiṇḍikassa ārāmo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā lomasakaṅgiyo bhagavantaṁ etadavoca: ",
+      "english": "Eventually he came to Sāvatthī and Jeta’s Grove. He went up to the Buddha, bowed, sat down to one side, and told him what had happened. Then he added: "
+    },
+    {
+      "number": 43,
+      "pali": "“Ekamidāhaṁ, bhante, samayaṁ sakkesu viharāmi kapilavatthusmiṁ nigrodhārāme. ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "Atha kho, bhante, aññataro devaputto abhikkantāya rattiyā abhikkantavaṇṇo kevalakappaṁ nigrodhārāmaṁ obhāsetvā yenāhaṁ tenupasaṅkami; upasaṅkamitvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho, bhante, so devaputto maṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "‘dhāresi tvaṁ, bhikkhu, bhaddekarattassa uddesañca vibhaṅgañcā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "Evaṁ vutte, ahaṁ, bhante, taṁ devaputtaṁ etadavocaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "‘na kho ahaṁ, āvuso, dhāremi bhaddekarattassa uddesañca vibhaṅgañca. ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "Tvaṁ panāvuso, dhāresi bhaddekarattassa uddesañca vibhaṅgañcā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "‘Ahampi kho, bhikkhu, na dhāremi bhaddekarattassa uddesañca vibhaṅgañca. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Dhāresi pana tvaṁ, bhikkhu, bhaddekarattiyo gāthā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "‘Na kho ahaṁ, āvuso, dhāremi bhaddekarattiyo gāthā. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Tvaṁ panāvuso, dhāresi bhaddekarattiyo gāthā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "‘Dhāremi kho ahaṁ, bhikkhu, bhaddekarattiyo gāthā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "‘Yathā kathaṁ pana tvaṁ, āvuso, dhāresi bhaddekarattiyo gāthā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "‘Ekamidaṁ, bhikkhu, samayaṁ bhagavā devesu tāvatiṁsesu viharati pāricchattakamūle paṇḍukambalasilāyaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Tatra kho bhagavā devānaṁ tāvatiṁsānaṁ bhaddekarattassa uddesañca vibhaṅgañca abhāsi: ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "“Atītaṁ nānvāgameyya, ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "…pe… ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "Taṁ ve bhaddekarattoti, ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "santo ācikkhate munī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "Evaṁ kho ahaṁ, bhikkhu, dhāremi bhaddekarattiyo gāthā. ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "Uggaṇhāhi tvaṁ, bhikkhu, bhaddekarattassa uddesañca vibhaṅgañca; ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "pariyāpuṇāhi tvaṁ, bhikkhu, bhaddekarattassa uddesañca vibhaṅgañca; ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "dhārehi tvaṁ, bhikkhu, bhaddekarattassa uddesañca vibhaṅgañca. ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "Atthasaṁhito, bhikkhu, bhaddekarattassa uddeso ca vibhaṅgo ca ādibrahmacariyako’ti. ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "Idamavoca, bhante, so devaputto. ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "Idaṁ vatvā tatthevantaradhāyi. ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "Sādhu me, bhante, bhagavā bhaddekarattassa uddesañca vibhaṅgañca desetū”ti. ",
+      "english": "“Sir, please teach me the summary recital and the analysis of the one who has one fine night.” "
+    },
+    {
+      "number": 69,
+      "pali": "“Jānāsi pana tvaṁ, bhikkhu, taṁ devaputtan”ti? ",
+      "english": "“But mendicant, do you know that god?” "
+    },
+    {
+      "number": 70,
+      "pali": "“Na kho ahaṁ, bhante, jānāmi taṁ devaputtan”ti. ",
+      "english": "“I do not, sir.” "
+    },
+    {
+      "number": 71,
+      "pali": "“Candano nāma so, bhikkhu, devaputto. ",
+      "english": "“That godling was named Candana. "
+    },
+    {
+      "number": 72,
+      "pali": "Candano, bhikkhu, devaputto aṭṭhiṁ katvā manasikatvā sabbacetasā samannāharitvā ohitasoto dhammaṁ suṇāti. ",
+      "english": "Candana pays attention, applies the mind, concentrates wholeheartedly, and actively listens to the teaching. "
+    },
+    {
+      "number": 73,
+      "pali": "Tena hi, bhikkhu, suṇāhi, sādhukaṁ manasi karohi; bhāsissāmī”ti. ",
+      "english": "Well then, mendicant, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 74,
+      "pali": "“Evaṁ, bhante”ti kho āyasmā lomasakaṅgiyo bhagavato paccassosi. ",
+      "english": "“Yes, sir,” Lomasakaṅgiya replied. "
+    },
+    {
+      "number": 75,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 76,
+      "pali": "“Atītaṁ nānvāgameyya, ",
+      "english": "“Don’t run back to the past, "
+    },
+    {
+      "number": 77,
+      "pali": "nappaṭikaṅkhe anāgataṁ; ",
+      "english": "don’t anticipate the future. "
+    },
+    {
+      "number": 78,
+      "pali": "Yadatītaṁ pahīnaṁ taṁ, ",
+      "english": "What’s past is left behind, "
+    },
+    {
+      "number": 79,
+      "pali": "appattañca anāgataṁ. ",
+      "english": "the future has not arrived; "
+    },
+    {
+      "number": 80,
+      "pali": "Paccuppannañca yo dhammaṁ, ",
+      "english": "and any present phenomenon "
+    },
+    {
+      "number": 81,
+      "pali": "tattha tattha vipassati; ",
+      "english": "you clearly discern in every case. "
+    },
+    {
+      "number": 82,
+      "pali": "Asaṁhīraṁ asaṅkuppaṁ, ",
+      "english": "The unfaltering, the unshakable: "
+    },
+    {
+      "number": 83,
+      "pali": "taṁ vidvā manubrūhaye. ",
+      "english": "having known that, foster it. "
+    },
+    {
+      "number": 84,
+      "pali": "Ajjeva kiccamātappaṁ, ",
+      "english": "Today’s the day to keenly work—"
+    },
+    {
+      "number": 85,
+      "pali": "ko jaññā maraṇaṁ suve; ",
+      "english": "who knows, tomorrow may bring death! "
+    },
+    {
+      "number": 86,
+      "pali": "Na hi no saṅgaraṁ tena, ",
+      "english": "For there is no bargain to be struck "
+    },
+    {
+      "number": 87,
+      "pali": "mahāsenena maccunā. ",
+      "english": "with Death and his mighty horde. "
+    },
+    {
+      "number": 88,
+      "pali": "Evaṁvihāriṁ ātāpiṁ, ",
+      "english": "One who keenly meditates like this, "
+    },
+    {
+      "number": 89,
+      "pali": "ahorattamatanditaṁ; ",
+      "english": "tireless all night and day: "
+    },
+    {
+      "number": 90,
+      "pali": "Taṁ ve bhaddekarattoti, ",
+      "english": "that’s who has one fine night—"
+    },
+    {
+      "number": 91,
+      "pali": "santo ācikkhate muni. ",
+      "english": "so declares the peaceful sage. "
+    },
+    {
+      "number": 92,
+      "pali": "Kathañca, bhikkhu, atītaṁ anvāgameti …pe… ",
+      "english": "And how do you run back to the past? … ” "
+    },
+    {
+      "number": 93,
+      "pali": "evaṁ kho, bhikkhu, atītaṁ anvāgameti. ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "Kathañca, bhikkhu, atītaṁ nānvāgameti …pe… ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "evaṁ kho, bhikkhu, atītaṁ nānvāgameti. ",
+      "english": ""
+    },
+    {
+      "number": 96,
+      "pali": "Kathañca, bhikkhu, anāgataṁ paṭikaṅkhati …pe… ",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "evaṁ kho, bhikkhu, anāgataṁ paṭikaṅkhati. ",
+      "english": ""
+    },
+    {
+      "number": 98,
+      "pali": "Kathañca, bhikkhu, anāgataṁ nappaṭikaṅkhati …pe… ",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "evaṁ kho, bhikkhu, anāgataṁ nappaṭikaṅkhati. ",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "Kathañca, bhikkhu, paccuppannesu dhammesu saṁhīrati …pe… ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "evaṁ kho, bhikkhu, paccuppannesu dhammesu saṁhīrati. ",
+      "english": ""
+    },
+    {
+      "number": 102,
+      "pali": "Kathañca, bhikkhu, paccuppannesu dhammesu na saṁhīrati …pe… ",
+      "english": ""
+    },
+    {
+      "number": 103,
+      "pali": "evaṁ kho, bhikkhu, paccuppannesu dhammesu na saṁhīrati. ",
+      "english": ""
+    },
+    {
+      "number": 104,
+      "pali": "Atītaṁ nānvāgameyya, ",
+      "english": ""
+    },
+    {
+      "number": 105,
+      "pali": "nappaṭikaṅkhe anāgataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 106,
+      "pali": "Yadatītaṁ pahīnaṁ taṁ, ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "appattañca anāgataṁ. ",
+      "english": ""
+    },
+    {
+      "number": 108,
+      "pali": "Paccuppannañca yo dhammaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 109,
+      "pali": "tattha tattha vipassati; ",
+      "english": ""
+    },
+    {
+      "number": 110,
+      "pali": "Asaṁhīraṁ asaṅkuppaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 111,
+      "pali": "taṁ vidvā manubrūhaye. ",
+      "english": ""
+    },
+    {
+      "number": 112,
+      "pali": "Ajjeva kiccamātappaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 113,
+      "pali": "ko jaññā maraṇaṁ suve; ",
+      "english": ""
+    },
+    {
+      "number": 114,
+      "pali": "Na hi no saṅgaraṁ tena, ",
+      "english": ""
+    },
+    {
+      "number": 115,
+      "pali": "mahāsenena maccunā. ",
+      "english": ""
+    },
+    {
+      "number": 116,
+      "pali": "Evaṁvihāriṁ ātāpiṁ, ",
+      "english": ""
+    },
+    {
+      "number": 117,
+      "pali": "ahorattamatanditaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "Taṁ ve bhaddekarattoti, ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "santo ācikkhate munī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 121,
+      "pali": "Attamano āyasmā lomasakaṅgiyo bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Lomasakaṅgiya approved what the Buddha said. "
+    },
+    {
+      "number": 122,
+      "pali": "Lomasakaṅgiyabhaddekarattasuttaṁ niṭṭhitaṁ catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

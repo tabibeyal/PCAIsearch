@@ -1,0 +1,180 @@
+{
+  "sutta_id": "SN12.30",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 12.30 ",
+      "english": "Linked Discourses 12.30 "
+    },
+    {
+      "number": 2,
+      "pali": "3. Dasabalavagga ",
+      "english": "3. The Ten Powers "
+    },
+    {
+      "number": 3,
+      "pali": "Dutiyasamaṇabrāhmaṇasutta ",
+      "english": "Ascetics and Brahmins (2nd) "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthiyaṁ viharati. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "“Tatra kho …pe… ",
+      "english": ""
+    },
+    {
+      "number": 6,
+      "pali": "ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā jarāmaraṇaṁ nappajānanti, jarāmaraṇasamudayaṁ nappajānanti, jarāmaraṇanirodhaṁ nappajānanti, jarāmaraṇanirodhagāminiṁ paṭipadaṁ nappajānanti te vata jarāmaraṇaṁ samatikkamma ṭhassantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": "“Mendicants, there are ascetics and brahmins who don’t understand old age and death, their origin, their cessation, and the practice that leads to their cessation. It’s impossible that they will abide having transcended old age and death. "
+    },
+    {
+      "number": 7,
+      "pali": "Jātiṁ nappajānanti …pe… ",
+      "english": "They don’t understand rebirth … "
+    },
+    {
+      "number": 8,
+      "pali": "bhavaṁ … ",
+      "english": "continued existence … "
+    },
+    {
+      "number": 9,
+      "pali": "upādānaṁ … ",
+      "english": "grasping … "
+    },
+    {
+      "number": 10,
+      "pali": "taṇhaṁ … ",
+      "english": "craving … "
+    },
+    {
+      "number": 11,
+      "pali": "vedanaṁ … ",
+      "english": "feeling … "
+    },
+    {
+      "number": 12,
+      "pali": "phassaṁ … ",
+      "english": "contact … "
+    },
+    {
+      "number": 13,
+      "pali": "saḷāyatanaṁ … ",
+      "english": "the six sense fields … "
+    },
+    {
+      "number": 14,
+      "pali": "nāmarūpaṁ … ",
+      "english": "name and form … "
+    },
+    {
+      "number": 15,
+      "pali": "viññāṇaṁ … ",
+      "english": "consciousness … "
+    },
+    {
+      "number": 16,
+      "pali": "saṅkhāre nappajānanti, saṅkhārasamudayaṁ nappajānanti, saṅkhāranirodhaṁ nappajānanti, saṅkhāranirodhagāminiṁ paṭipadaṁ nappajānanti te vata saṅkhāre samatikkamma ṭhassantīti netaṁ ṭhānaṁ vijjati. ",
+      "english": "They don’t understand choices, their origin, their cessation, and the practice that leads to their cessation. It’s impossible that they will abide having transcended choices. "
+    },
+    {
+      "number": 17,
+      "pali": "Ye ca kho keci, bhikkhave, samaṇā vā brāhmaṇā vā jarāmaraṇaṁ pajānanti, jarāmaraṇasamudayaṁ pajānanti, jarāmaraṇanirodhaṁ pajānanti, jarāmaraṇanirodhagāminiṁ paṭipadaṁ pajānanti te vata jarāmaraṇaṁ samatikkamma ṭhassantīti ṭhānametaṁ vijjati. ",
+      "english": "There are ascetics and brahmins who do understand old age and death, their origin, their cessation, and the practice that leads to their cessation. It’s possible that they will abide having transcended old age and death. "
+    },
+    {
+      "number": 18,
+      "pali": "Jātiṁ pajānanti …pe… ",
+      "english": "They understand rebirth … "
+    },
+    {
+      "number": 19,
+      "pali": "bhavaṁ … ",
+      "english": "continued existence … "
+    },
+    {
+      "number": 20,
+      "pali": "upādānaṁ … ",
+      "english": "grasping … "
+    },
+    {
+      "number": 21,
+      "pali": "taṇhaṁ … ",
+      "english": "craving … "
+    },
+    {
+      "number": 22,
+      "pali": "vedanaṁ … ",
+      "english": "feeling … "
+    },
+    {
+      "number": 23,
+      "pali": "phassaṁ … ",
+      "english": "contact … "
+    },
+    {
+      "number": 24,
+      "pali": "saḷāyatanaṁ … ",
+      "english": "the six sense fields … "
+    },
+    {
+      "number": 25,
+      "pali": "nāmarūpaṁ … ",
+      "english": "name and form … "
+    },
+    {
+      "number": 26,
+      "pali": "viññāṇaṁ … ",
+      "english": "consciousness … "
+    },
+    {
+      "number": 27,
+      "pali": "saṅkhāre pajānanti, saṅkhārasamudayaṁ pajānanti, saṅkhāranirodhaṁ pajānanti, saṅkhāranirodhagāminiṁ paṭipadaṁ pajānanti. ",
+      "english": "They understand choices, their origin, their cessation, and the practice that leads to their cessation. "
+    },
+    {
+      "number": 28,
+      "pali": "Te vata saṅkhāre samatikkamma ṭhassantīti ṭhānametaṁ vijjatī”ti. ",
+      "english": "It’s possible that they will abide having transcended choices.” "
+    },
+    {
+      "number": 29,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Dasabalavaggo tatiyo. ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "Dve dasabalā upanisā ca, ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Aññatitthiyabhūmijo; ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "Upavāṇo paccayo bhikkhu, ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Dve ca samaṇabrāhmaṇāti. ",
+      "english": ""
+    }
+  ]
+}

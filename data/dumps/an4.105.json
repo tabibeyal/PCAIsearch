@@ -1,0 +1,215 @@
+{
+  "sutta_id": "AN4.105",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 4.105 ",
+      "english": "Numbered Discourses 4.105 "
+    },
+    {
+      "number": 2,
+      "pali": "11. Valāhakavagga ",
+      "english": "11. Clouds "
+    },
+    {
+      "number": 3,
+      "pali": "Ambasutta ",
+      "english": "Mangoes "
+    },
+    {
+      "number": 4,
+      "pali": "“Cattārimāni, bhikkhave, ambāni. ",
+      "english": "“Mendicants, there are these four mangoes. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamāni cattāri? ",
+      "english": "What four? "
+    },
+    {
+      "number": 6,
+      "pali": "Āmaṁ pakkavaṇṇi, ",
+      "english": "One is unripe but seems ripe, "
+    },
+    {
+      "number": 7,
+      "pali": "pakkaṁ āmavaṇṇi, ",
+      "english": "one is ripe but seems unripe, "
+    },
+    {
+      "number": 8,
+      "pali": "āmaṁ āmavaṇṇi, ",
+      "english": "one is unripe and seems unripe, and "
+    },
+    {
+      "number": 9,
+      "pali": "pakkaṁ pakkavaṇṇi—",
+      "english": "one is ripe and seems ripe. "
+    },
+    {
+      "number": 10,
+      "pali": "Imāni kho, bhikkhave, cattāri ambāni. ",
+      "english": "These are the four mangoes. "
+    },
+    {
+      "number": 11,
+      "pali": "Evamevaṁ kho, bhikkhave, cattāro ambūpamā puggalā santo saṁvijjamānā lokasmiṁ. ",
+      "english": "In the same way, these four individuals similar to mangoes are found in the world. "
+    },
+    {
+      "number": 12,
+      "pali": "Katame cattāro? ",
+      "english": "What four? "
+    },
+    {
+      "number": 13,
+      "pali": "Āmo pakkavaṇṇī, ",
+      "english": "One is unripe but seems ripe, "
+    },
+    {
+      "number": 14,
+      "pali": "pakko āmavaṇṇī, ",
+      "english": "one is ripe but seems unripe, "
+    },
+    {
+      "number": 15,
+      "pali": "āmo āmavaṇṇī, ",
+      "english": "one is unripe and seems unripe, and "
+    },
+    {
+      "number": 16,
+      "pali": "pakko pakkavaṇṇī. ",
+      "english": "one is ripe and seems ripe. "
+    },
+    {
+      "number": 17,
+      "pali": "Kathañca, bhikkhave, puggalo āmo hoti pakkavaṇṇī? ",
+      "english": "And how is an individual unripe but seems ripe? "
+    },
+    {
+      "number": 18,
+      "pali": "Idha, bhikkhave, ekaccassa puggalassa pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. ",
+      "english": "It’s when an individual is impressive when going out and coming back, when looking ahead and aside, when bending and extending the limbs, and when bearing the outer robe, bowl and robes. "
+    },
+    {
+      "number": 19,
+      "pali": "So ‘idaṁ dukkhan’ti yathābhūtaṁ nappajānāti …pe… ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ nappajānāti. ",
+      "english": "But they don’t really understand: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’. "
+    },
+    {
+      "number": 20,
+      "pali": "Evaṁ kho, bhikkhave, puggalo āmo hoti pakkavaṇṇī. ",
+      "english": "That’s how an individual is unripe but seems ripe. "
+    },
+    {
+      "number": 21,
+      "pali": "Seyyathāpi taṁ, bhikkhave, ambaṁ āmaṁ pakkavaṇṇi; ",
+      "english": "That individual is like a mango that’s unripe but seems ripe, I say. "
+    },
+    {
+      "number": 22,
+      "pali": "tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "Kathañca, bhikkhave, puggalo pakko hoti āmavaṇṇī? ",
+      "english": "And how is an individual ripe but seems unripe? "
+    },
+    {
+      "number": 24,
+      "pali": "Idha, bhikkhave, ekaccassa puggalassa na pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. ",
+      "english": "It’s when an individual is not impressive … "
+    },
+    {
+      "number": 25,
+      "pali": "So ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti …pe… ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti. ",
+      "english": "But they really understand: ‘This is suffering’ … "
+    },
+    {
+      "number": 26,
+      "pali": "Evaṁ kho, bhikkhave, puggalo pakko hoti āmavaṇṇī. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "Seyyathāpi taṁ, bhikkhave, ambaṁ pakkaṁ āmavaṇṇi; ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Kathañca, bhikkhave, puggalo āmo hoti āmavaṇṇī? ",
+      "english": "And how is an individual unripe and seems unripe? "
+    },
+    {
+      "number": 30,
+      "pali": "Idha, bhikkhave, ekaccassa puggalassa na pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. ",
+      "english": "It’s when an individual is not impressive … "
+    },
+    {
+      "number": 31,
+      "pali": "So ‘idaṁ dukkhan’ti yathābhūtaṁ nappajānāti …pe… ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ nappajānāti. ",
+      "english": "Nor do they really understand: ‘This is suffering’ … "
+    },
+    {
+      "number": 32,
+      "pali": "Evaṁ kho, bhikkhave, puggalo āmo hoti āmavaṇṇī. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Seyyathāpi taṁ, bhikkhave, ambaṁ āmaṁ āmavaṇṇi; ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Kathañca, bhikkhave, puggalo pakko hoti pakkavaṇṇī? ",
+      "english": "And how is an individual ripe and seems ripe? "
+    },
+    {
+      "number": 36,
+      "pali": "Idha, bhikkhave, ekaccassa puggalassa pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. ",
+      "english": "It’s when an individual is impressive … "
+    },
+    {
+      "number": 37,
+      "pali": "So ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti …pe… ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti. ",
+      "english": "And they really understand: ‘This is suffering’ … "
+    },
+    {
+      "number": 38,
+      "pali": "Evaṁ kho, bhikkhave, puggalo pakko hoti pakkavaṇṇī. ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "Seyyathāpi taṁ, bhikkhave, ambaṁ pakkaṁ pakkavaṇṇi; ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "Ime kho, bhikkhave, cattāro ambūpamā puggalā santo saṁvijjamānā lokasmin”ti. ",
+      "english": "These four individuals similar to mangoes are found in the world.” "
+    },
+    {
+      "number": 42,
+      "pali": "Pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

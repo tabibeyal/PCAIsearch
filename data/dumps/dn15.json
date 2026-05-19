@@ -1,0 +1,1390 @@
+{
+  "sutta_id": "DN15",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Dīgha Nikāya 15 ",
+      "english": "Long Discourses 15 "
+    },
+    {
+      "number": 2,
+      "pali": "Mahānidānasutta ",
+      "english": "The Great Discourse on Causation "
+    },
+    {
+      "number": 3,
+      "pali": "1. Paṭiccasamuppāda ",
+      "english": "1. Dependent Origination "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā kurūsu viharati kammāsadhammaṁ nāma kurūnaṁ nigamo. ",
+      "english": "At one time the Buddha was staying in the land of the Kurus, near the Kuru town named Kammāsadamma. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho āyasmā ānando yena bhagavā tenupasaṅkami, upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā ānando bhagavantaṁ etadavoca: ",
+      "english": "Then Venerable Ānanda went up to the Buddha, bowed, sat down to one side, and said to him, "
+    },
+    {
+      "number": 7,
+      "pali": "“acchariyaṁ, bhante, abbhutaṁ, bhante. ",
+      "english": "“It’s incredible, sir, it’s amazing, "
+    },
+    {
+      "number": 8,
+      "pali": "Yāva gambhīro cāyaṁ, bhante, paṭiccasamuppādo gambhīrāvabhāso ca, atha ca pana me uttānakuttānako viya khāyatī”ti. ",
+      "english": "in that this dependent origination is deep and appears deep, yet to me it seems as plain as can be.” "
+    },
+    {
+      "number": 9,
+      "pali": "“Mā hevaṁ, ānanda, avaca, mā hevaṁ, ānanda, avaca. ",
+      "english": "“Don’t say that, Ānanda, don’t say that! "
+    },
+    {
+      "number": 10,
+      "pali": "Gambhīro cāyaṁ, ānanda, paṭiccasamuppādo gambhīrāvabhāso ca. ",
+      "english": "This dependent origination is deep and appears deep. "
+    },
+    {
+      "number": 11,
+      "pali": "Etassa, ānanda, dhammassa ananubodhā appaṭivedhā evamayaṁ pajā tantākulakajātā kulagaṇṭhikajātā muñjapabbajabhūtā apāyaṁ duggatiṁ vinipātaṁ saṁsāraṁ nātivattati. ",
+      "english": "It is because of not understanding and not penetrating this teaching that this population has become tangled like string, knotted like a ball of thread, and matted like rushes and reeds, and it doesn’t escape the places of loss, the bad places, the underworld, transmigration. "
+    },
+    {
+      "number": 12,
+      "pali": "‘Atthi idappaccayā jarāmaraṇan’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ",
+      "english": "When asked, ‘Is there a specific condition for old age and death?’ you should answer, ‘There is.’ "
+    },
+    {
+      "number": 13,
+      "pali": "‘Kiṁpaccayā jarāmaraṇan’ti iti ce vadeyya, ‘jātipaccayā jarāmaraṇan’ti iccassa vacanīyaṁ. ",
+      "english": "If they say, ‘What is a requirement for old age and death?’ you should answer, ‘Rebirth is a requirement for old age and death.’ "
+    },
+    {
+      "number": 14,
+      "pali": "‘Atthi idappaccayā jātī’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ",
+      "english": "When asked, ‘Is there a specific condition for rebirth?’ you should answer, ‘There is.’ "
+    },
+    {
+      "number": 15,
+      "pali": "‘Kiṁpaccayā jātī’ti iti ce vadeyya, ‘bhavapaccayā jātī’ti iccassa vacanīyaṁ. ",
+      "english": "If they say, ‘What is a requirement for rebirth?’ you should answer, ‘Continued existence is a requirement for rebirth.’ "
+    },
+    {
+      "number": 16,
+      "pali": "‘Atthi idappaccayā bhavo’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ",
+      "english": "When asked, ‘Is there a specific condition for continued existence?’ you should answer, ‘There is.’ "
+    },
+    {
+      "number": 17,
+      "pali": "‘Kiṁpaccayā bhavo’ti iti ce vadeyya, ‘upādānapaccayā bhavo’ti iccassa vacanīyaṁ. ",
+      "english": "If they say, ‘What is a requirement for continued existence?’ you should answer, ‘Grasping is a requirement for continued existence.’ "
+    },
+    {
+      "number": 18,
+      "pali": "‘Atthi idappaccayā upādānan’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ",
+      "english": "When asked, ‘Is there a specific condition for grasping?’ you should answer, ‘There is.’ "
+    },
+    {
+      "number": 19,
+      "pali": "‘Kiṁpaccayā upādānan’ti iti ce vadeyya, ‘taṇhāpaccayā upādānan’ti iccassa vacanīyaṁ. ",
+      "english": "If they say, ‘What is a requirement for grasping?’ you should answer, ‘Craving is a requirement for grasping.’ "
+    },
+    {
+      "number": 20,
+      "pali": "‘Atthi idappaccayā taṇhā’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ",
+      "english": "When asked, ‘Is there a specific condition for craving?’ you should answer, ‘There is.’ "
+    },
+    {
+      "number": 21,
+      "pali": "‘Kiṁpaccayā taṇhā’ti iti ce vadeyya, ‘vedanāpaccayā taṇhā’ti iccassa vacanīyaṁ. ",
+      "english": "If they say, ‘What is a requirement for craving?’ you should answer, ‘Feeling is a requirement for craving.’ "
+    },
+    {
+      "number": 22,
+      "pali": "‘Atthi idappaccayā vedanā’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ",
+      "english": "When asked, ‘Is there a specific condition for feeling?’ you should answer, ‘There is.’ "
+    },
+    {
+      "number": 23,
+      "pali": "‘Kiṁpaccayā vedanā’ti iti ce vadeyya, ‘phassapaccayā vedanā’ti iccassa vacanīyaṁ. ",
+      "english": "If they say, ‘What is a requirement for feeling?’ you should answer, ‘Contact is a requirement for feeling.’ "
+    },
+    {
+      "number": 24,
+      "pali": "‘Atthi idappaccayā phasso’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ",
+      "english": "When asked, ‘Is there a specific condition for contact?’ you should answer, ‘There is.’ "
+    },
+    {
+      "number": 25,
+      "pali": "‘Kiṁpaccayā phasso’ti iti ce vadeyya, ‘nāmarūpapaccayā phasso’ti iccassa vacanīyaṁ. ",
+      "english": "If they say, ‘What is a requirement for contact?’ you should answer, ‘Name and form are requirements for contact.’ "
+    },
+    {
+      "number": 26,
+      "pali": "‘Atthi idappaccayā nāmarūpan’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ",
+      "english": "When asked, ‘Is there a specific condition for name and form?’ you should answer, ‘There is.’ "
+    },
+    {
+      "number": 27,
+      "pali": "‘Kiṁpaccayā nāmarūpan’ti iti ce vadeyya, ‘viññāṇapaccayā nāmarūpan’ti iccassa vacanīyaṁ. ",
+      "english": "If they say, ‘What is a requirement for name and form?’ you should answer, ‘Consciousness is a requirement for name and form.’ "
+    },
+    {
+      "number": 28,
+      "pali": "‘Atthi idappaccayā viññāṇan’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ",
+      "english": "When asked, ‘Is there a specific condition for consciousness?’ you should answer, ‘There is.’ "
+    },
+    {
+      "number": 29,
+      "pali": "‘Kiṁpaccayā viññāṇan’ti iti ce vadeyya, ‘nāmarūpapaccayā viññāṇan’ti iccassa vacanīyaṁ. ",
+      "english": "If they say, ‘What is a requirement for consciousness?’ you should answer, ‘Name and form are requirements for consciousness.’ "
+    },
+    {
+      "number": 30,
+      "pali": "Iti kho, ānanda, nāmarūpapaccayā viññāṇaṁ, viññāṇapaccayā nāmarūpaṁ, nāmarūpapaccayā phasso, phassapaccayā vedanā, vedanāpaccayā taṇhā, taṇhāpaccayā upādānaṁ, upādānapaccayā bhavo, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti. ",
+      "english": "So: name and form are requirements for consciousness. Consciousness is a requirement for name and form. Name and form are requirements for contact. Contact is a requirement for feeling. Feeling is a requirement for craving. Craving is a requirement for grasping. Grasping is a requirement for continued existence. Continued existence is a requirement for rebirth. Rebirth is a requirement for old age and death, sorrow, lamentation, pain, sadness, and distress to come to be. "
+    },
+    {
+      "number": 31,
+      "pali": "Evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
+      "english": "That is how this entire mass of suffering originates. "
+    },
+    {
+      "number": 32,
+      "pali": "‘Jātipaccayā jarāmaraṇan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā jātipaccayā jarāmaraṇaṁ. ",
+      "english": "‘Rebirth is a requirement for old age and death’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 33,
+      "pali": "Jāti ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ—",
+      "english": "Suppose there were totally and utterly no rebirth for anyone anywhere. "
+    },
+    {
+      "number": 34,
+      "pali": "devānaṁ vā devattāya, gandhabbānaṁ vā gandhabbattāya, yakkhānaṁ vā yakkhattāya, bhūtānaṁ vā bhūtattāya, manussānaṁ vā manussattāya, catuppadānaṁ vā catuppadattāya, pakkhīnaṁ vā pakkhittāya, sarīsapānaṁ vā sarīsapattāya, tesaṁ tesañca hi, ānanda, sattānaṁ tadattāya jāti nābhavissa. Sabbaso jātiyā asati jātinirodhā api nu kho jarāmaraṇaṁ paññāyethā”ti? ",
+      "english": "That is, there were no rebirth of sentient beings into their various realms—of gods, centaurs, spirits, creatures, humans, quadrupeds, birds, or reptiles, each into their own realm. When there’s no rebirth at all, with the cessation of rebirth, would old age and death still be found?” "
+    },
+    {
+      "number": 35,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 36,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo jarāmaraṇassa, yadidaṁ jāti. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of old age and death, namely rebirth. "
+    },
+    {
+      "number": 37,
+      "pali": "‘Bhavapaccayā jātī’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā bhavapaccayā jāti. ",
+      "english": "‘Continued existence is a requirement for rebirth’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 38,
+      "pali": "Bhavo ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ—",
+      "english": "Suppose there were totally and utterly no continued existence for anyone anywhere. "
+    },
+    {
+      "number": 39,
+      "pali": "kāmabhavo vā rūpabhavo vā arūpabhavo vā, sabbaso bhave asati bhavanirodhā api nu kho jāti paññāyethā”ti? ",
+      "english": "That is, continued existence in the sensual realm, the realm of luminous form, or the formless realm. When there’s no continued existence at all, with the cessation of continued existence, would rebirth still be found?” "
+    },
+    {
+      "number": 40,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 41,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo jātiyā, yadidaṁ bhavo. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of rebirth, namely continued existence. "
+    },
+    {
+      "number": 42,
+      "pali": "‘Upādānapaccayā bhavo’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā upādānapaccayā bhavo. ",
+      "english": "‘Grasping is a requirement for continued existence’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 43,
+      "pali": "Upādānañca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ—",
+      "english": "Suppose there were totally and utterly no grasping for anyone anywhere. "
+    },
+    {
+      "number": 44,
+      "pali": "kāmupādānaṁ vā diṭṭhupādānaṁ vā sīlabbatupādānaṁ vā attavādupādānaṁ vā, sabbaso upādāne asati upādānanirodhā api nu kho bhavo paññāyethā”ti? ",
+      "english": "That is, grasping at sensual pleasures, views, precepts and observances, and theories of a self. When there’s no grasping at all, with the cessation of grasping, would continued existence still be found?” "
+    },
+    {
+      "number": 45,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 46,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo bhavassa, yadidaṁ upādānaṁ. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of continued existence, namely grasping. "
+    },
+    {
+      "number": 47,
+      "pali": "‘Taṇhāpaccayā upādānan’ti iti kho panetaṁ vuttaṁ tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā taṇhāpaccayā upādānaṁ. ",
+      "english": "‘Craving is a requirement for grasping’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 48,
+      "pali": "Taṇhā ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ—",
+      "english": "Suppose there were totally and utterly no craving for anyone anywhere. "
+    },
+    {
+      "number": 49,
+      "pali": "rūpataṇhā saddataṇhā gandhataṇhā rasataṇhā phoṭṭhabbataṇhā dhammataṇhā, sabbaso taṇhāya asati taṇhānirodhā api nu kho upādānaṁ paññāyethā”ti? ",
+      "english": "That is, craving for sights, sounds, smells, tastes, touches, and ideas. When there’s no craving at all, with the cessation of craving, would grasping still be found?” "
+    },
+    {
+      "number": 50,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 51,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo upādānassa, yadidaṁ taṇhā. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of grasping, namely craving. "
+    },
+    {
+      "number": 52,
+      "pali": "‘Vedanāpaccayā taṇhā’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā vedanāpaccayā taṇhā. ",
+      "english": "‘Feeling is a requirement for craving’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 53,
+      "pali": "Vedanā ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ—",
+      "english": "Suppose there were totally and utterly no feeling for anyone anywhere. "
+    },
+    {
+      "number": 54,
+      "pali": "cakkhusamphassajā vedanā sotasamphassajā vedanā ghānasamphassajā vedanā jivhāsamphassajā vedanā kāyasamphassajā vedanā manosamphassajā vedanā, sabbaso vedanāya asati vedanānirodhā api nu kho taṇhā paññāyethā”ti? ",
+      "english": "That is, feeling born of contact through the eye, ear, nose, tongue, body, and mind. When there’s no feeling at all, with the cessation of feeling, would craving still be found?” "
+    },
+    {
+      "number": 55,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 56,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo taṇhāya, yadidaṁ vedanā. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of craving, namely feeling. "
+    },
+    {
+      "number": 57,
+      "pali": "Iti kho panetaṁ, ānanda, vedanaṁ paṭicca taṇhā, taṇhaṁ paṭicca pariyesanā, pariyesanaṁ paṭicca lābho, lābhaṁ paṭicca vinicchayo, vinicchayaṁ paṭicca chandarāgo, chandarāgaṁ paṭicca ajjhosānaṁ, ajjhosānaṁ paṭicca pariggaho, pariggahaṁ paṭicca macchariyaṁ, macchariyaṁ paṭicca ārakkho. ",
+      "english": "So it is, Ānanda, that feeling gives rise to craving. Craving gives rise to searching. Searching gives rise to gaining material things. Gaining material things gives rise to evaluation. Evaluation gives rise to desire and lust. Desire and lust gives rise to attachment. Attachment gives rise to ownership. Ownership gives rise to stinginess. Stinginess gives rise to safeguarding. "
+    },
+    {
+      "number": 58,
+      "pali": "Ārakkhādhikaraṇaṁ daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādā aneke pāpakā akusalā dhammā sambhavanti. ",
+      "english": "Owing to safeguarding, many bad, unskillful things come to be: taking up the rod and the sword, quarrels, arguments, and disputes, accusations, backbiting, and lies. "
+    },
+    {
+      "number": 59,
+      "pali": "‘Ārakkhādhikaraṇaṁ daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādā aneke pāpakā akusalā dhammā sambhavantī’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā ārakkhādhikaraṇaṁ daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādā aneke pāpakā akusalā dhammā sambhavanti. ",
+      "english": "‘Owing to safeguarding, many bad, unskillful things come to be: taking up the rod and the sword, quarrels, arguments, and disputes, accusations, backbiting, and lies’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 60,
+      "pali": "Ārakkho ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso ārakkhe asati ārakkhanirodhā api nu kho daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādā aneke pāpakā akusalā dhammā sambhaveyyun”ti? ",
+      "english": "Suppose there were totally and utterly no safeguarding for anyone anywhere. When there’s no safeguarding at all, with the cessation of safeguarding, would those many bad, unskillful things still come to be?” "
+    },
+    {
+      "number": 61,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 62,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādānaṁ anekesaṁ pāpakānaṁ akusalānaṁ dhammānaṁ sambhavāya yadidaṁ ārakkho. ",
+      "english": "“That’s why this is the cause, source, origin, and reason for the origination of those many bad, unskillful things, namely safeguarding. "
+    },
+    {
+      "number": 63,
+      "pali": "‘Macchariyaṁ paṭicca ārakkho’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā macchariyaṁ paṭicca ārakkho. ",
+      "english": "‘Stinginess gives rise to safeguarding’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 64,
+      "pali": "Macchariyañca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso macchariye asati macchariyanirodhā api nu kho ārakkho paññāyethā”ti? ",
+      "english": "Suppose there were totally and utterly no stinginess for anyone anywhere. When there’s no stinginess at all, with the cessation of stinginess, would safeguarding still be found?” "
+    },
+    {
+      "number": 65,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 66,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo ārakkhassa, yadidaṁ macchariyaṁ. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of safeguarding, namely stinginess. "
+    },
+    {
+      "number": 67,
+      "pali": "‘Pariggahaṁ paṭicca macchariyan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā pariggahaṁ paṭicca macchariyaṁ. ",
+      "english": "‘Ownership gives rise to stinginess’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 68,
+      "pali": "Pariggaho ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso pariggahe asati pariggahanirodhā api nu kho macchariyaṁ paññāyethā”ti? ",
+      "english": "Suppose there were totally and utterly no ownership for anyone anywhere. When there’s no ownership at all, with the cessation of ownership, would stinginess still be found?” "
+    },
+    {
+      "number": 69,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 70,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo macchariyassa, yadidaṁ pariggaho. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of stinginess, namely ownership. "
+    },
+    {
+      "number": 71,
+      "pali": "‘Ajjhosānaṁ paṭicca pariggaho’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā ajjhosānaṁ paṭicca pariggaho. ",
+      "english": "‘Attachment gives rise to ownership’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 72,
+      "pali": "Ajjhosānañca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso ajjhosāne asati ajjhosānanirodhā api nu kho pariggaho paññāyethā”ti? ",
+      "english": "Suppose there were totally and utterly no attachment for anyone anywhere. When there’s no attachment at all, with the cessation of attachment, would ownership still be found?” "
+    },
+    {
+      "number": 73,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 74,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo pariggahassa—yadidaṁ ajjhosānaṁ. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of ownership, namely attachment. "
+    },
+    {
+      "number": 75,
+      "pali": "‘Chandarāgaṁ paṭicca ajjhosānan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā chandarāgaṁ paṭicca ajjhosānaṁ. ",
+      "english": "‘Desire and lust gives rise to attachment’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 76,
+      "pali": "Chandarāgo ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso chandarāge asati chandarāganirodhā api nu kho ajjhosānaṁ paññāyethā”ti? ",
+      "english": "Suppose there were totally and utterly no desire and lust for anyone anywhere. When there’s no desire and lust at all, with the cessation of desire and lust, would attachment still be found?” "
+    },
+    {
+      "number": 77,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 78,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo ajjhosānassa, yadidaṁ chandarāgo. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of attachment, namely desire and lust. "
+    },
+    {
+      "number": 79,
+      "pali": "‘Vinicchayaṁ paṭicca chandarāgo’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā vinicchayaṁ paṭicca chandarāgo. ",
+      "english": "Evaluation gives rise to desire and lust’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 80,
+      "pali": "Vinicchayo ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso vinicchaye asati vinicchayanirodhā api nu kho chandarāgo paññāyethā”ti? ",
+      "english": "Suppose there were totally and utterly no evaluation for anyone anywhere. When there’s no evaluation at all, with the cessation of evaluation, would desire and lust still be found?” "
+    },
+    {
+      "number": 81,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 82,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo chandarāgassa, yadidaṁ vinicchayo. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of desire and lust, namely evaluation. "
+    },
+    {
+      "number": 83,
+      "pali": "‘Lābhaṁ paṭicca vinicchayo’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā lābhaṁ paṭicca vinicchayo. ",
+      "english": "‘Gaining material things gives rise to evaluation’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 84,
+      "pali": "Lābho ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso lābhe asati lābhanirodhā api nu kho vinicchayo paññāyethā”ti? ",
+      "english": "Suppose there were totally and utterly no gaining of material things for anyone anywhere. When there’s no gaining of material things at all, with the cessation of gaining material things, would evaluation still be found?” "
+    },
+    {
+      "number": 85,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 86,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo vinicchayassa, yadidaṁ lābho. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of evaluation, namely the gaining of material things. "
+    },
+    {
+      "number": 87,
+      "pali": "‘Pariyesanaṁ paṭicca lābho’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā pariyesanaṁ paṭicca lābho. ",
+      "english": "‘Searching gives rise to gaining material things’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 88,
+      "pali": "Pariyesanā ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso pariyesanāya asati pariyesanānirodhā api nu kho lābho paññāyethā”ti? ",
+      "english": "Suppose there were totally and utterly no searching for anyone anywhere. When there’s no searching at all, with the cessation of searching, would the gaining of material things still be found?” "
+    },
+    {
+      "number": 89,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 90,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo lābhassa, yadidaṁ pariyesanā. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of gaining material things, namely searching. "
+    },
+    {
+      "number": 91,
+      "pali": "‘Taṇhaṁ paṭicca pariyesanā’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā taṇhaṁ paṭicca pariyesanā. ",
+      "english": "‘Craving gives rise to searching’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 92,
+      "pali": "Taṇhā ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ—",
+      "english": "Suppose there were totally and utterly no craving for anyone anywhere. "
+    },
+    {
+      "number": 93,
+      "pali": "kāmataṇhā bhavataṇhā vibhavataṇhā, sabbaso taṇhāya asati taṇhānirodhā api nu kho pariyesanā paññāyethā”ti? ",
+      "english": "That is, craving for sensual pleasures, craving for continued existence, and craving for nonexistence. When there’s no craving at all, with the cessation of craving, would searching still be found?” "
+    },
+    {
+      "number": 94,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 95,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo pariyesanāya, yadidaṁ taṇhā. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of searching, namely craving. "
+    },
+    {
+      "number": 96,
+      "pali": "Iti kho, ānanda, ime dve dhammā dvayena vedanāya ekasamosaraṇā bhavanti. ",
+      "english": "And so, Ānanda, these two things meet at the two aspects of feeling. "
+    },
+    {
+      "number": 97,
+      "pali": "‘Phassapaccayā vedanā’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā phassapaccayā vedanā. ",
+      "english": "‘Contact is a requirement for feeling’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 98,
+      "pali": "Phasso ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ—",
+      "english": "Suppose there were totally and utterly no contact for anyone anywhere. "
+    },
+    {
+      "number": 99,
+      "pali": "cakkhusamphasso sotasamphasso ghānasamphasso jivhāsamphasso kāyasamphasso manosamphasso, sabbaso phasse asati phassanirodhā api nu kho vedanā paññāyethā”ti? ",
+      "english": "That is, contact through the eye, ear, nose, tongue, body, and mind. When there’s no contact at all, with the cessation of contact, would feeling still be found?” "
+    },
+    {
+      "number": 100,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 101,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo vedanāya, yadidaṁ phasso. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of feeling, namely contact. "
+    },
+    {
+      "number": 102,
+      "pali": "‘Nāmarūpapaccayā phasso’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā nāmarūpapaccayā phasso. ",
+      "english": "‘Name and form are requirements for contact’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 103,
+      "pali": "Yehi, ānanda, ākārehi yehi liṅgehi yehi nimittehi yehi uddesehi nāmakāyassa paññatti hoti, tesu ākāresu tesu liṅgesu tesu nimittesu tesu uddesesu asati api nu kho rūpakāye adhivacanasamphasso paññāyethā”ti? ",
+      "english": "Suppose there were none of the features, attributes, signs, and details by which the set of mental phenomena known as name is found. Would labeling contact still be found in the set of physical phenomena?” "
+    },
+    {
+      "number": 104,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 105,
+      "pali": "“Yehi, ānanda, ākārehi yehi liṅgehi yehi nimittehi yehi uddesehi rūpakāyassa paññatti hoti, tesu ākāresu …pe… tesu uddesesu asati api nu kho nāmakāye paṭighasamphasso paññāyethā”ti? ",
+      "english": "“Suppose there were none of the features, attributes, signs, and details by which the set of physical phenomena known as form is found. Would impingement contact still be found in the set of mental phenomena?” "
+    },
+    {
+      "number": 106,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 107,
+      "pali": "“Yehi, ānanda, ākārehi …pe… yehi uddesehi nāmakāyassa ca rūpakāyassa ca paññatti hoti, tesu ākāresu …pe… tesu uddesesu asati api nu kho adhivacanasamphasso vā paṭighasamphasso vā paññāyethā”ti? ",
+      "english": "“Suppose there were none of the features, attributes, signs, and details by which the set of phenomena known as name and the set of phenomena known as form are found. Would either labeling contact or impingement contact still be found?” "
+    },
+    {
+      "number": 108,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 109,
+      "pali": "“Yehi, ānanda, ākārehi …pe… yehi uddesehi nāmarūpassa paññatti hoti, tesu ākāresu …pe… tesu uddesesu asati api nu kho phasso paññāyethā”ti? ",
+      "english": "“Suppose there were none of the features, attributes, signs, and details by which name and form are found. Would contact still be found?” "
+    },
+    {
+      "number": 110,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 111,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo phassassa, yadidaṁ nāmarūpaṁ. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of contact, namely name and form. "
+    },
+    {
+      "number": 112,
+      "pali": "‘Viññāṇapaccayā nāmarūpan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā viññāṇapaccayā nāmarūpaṁ. ",
+      "english": "‘Consciousness is a requirement for name and form’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 113,
+      "pali": "Viññāṇañca hi, ānanda, mātukucchismiṁ na okkamissatha, api nu kho nāmarūpaṁ mātukucchismiṁ samuccissathā”ti? ",
+      "english": "If consciousness were not conceived in the mother’s womb, would name and form coagulate there?” "
+    },
+    {
+      "number": 114,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 115,
+      "pali": "“Viññāṇañca hi, ānanda, mātukucchismiṁ okkamitvā vokkamissatha, api nu kho nāmarūpaṁ itthattāya abhinibbattissathā”ti? ",
+      "english": "“If consciousness, after being conceived in the mother’s womb, were to be miscarried, would name and form be born into this place?” "
+    },
+    {
+      "number": 116,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 117,
+      "pali": "“Viññāṇañca hi, ānanda, daharasseva sato vocchijjissatha kumārakassa vā kumārikāya vā, api nu kho nāmarūpaṁ vuddhiṁ virūḷhiṁ vepullaṁ āpajjissathā”ti? ",
+      "english": "“If the consciousness of a young boy or girl were to be cut off, would name and form achieve growth, increase, and maturity?” "
+    },
+    {
+      "number": 118,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 119,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo nāmarūpassa—yadidaṁ viññāṇaṁ. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of name and form, namely consciousness. "
+    },
+    {
+      "number": 120,
+      "pali": "‘Nāmarūpapaccayā viññāṇan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā nāmarūpapaccayā viññāṇaṁ. ",
+      "english": "‘Name and form are requirements for consciousness’—that’s what I said. And this is a way to understand how this is so. "
+    },
+    {
+      "number": 121,
+      "pali": "Viññāṇañca hi, ānanda, nāmarūpe patiṭṭhaṁ na labhissatha, api nu kho āyatiṁ jātijarāmaraṇaṁ dukkhasamudayasambhavo paññāyethā”ti? ",
+      "english": "If consciousness were not established in name and form, would the coming to be of the origin of suffering—of rebirth, old age, and death in the future—be found?” "
+    },
+    {
+      "number": 122,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 123,
+      "pali": "“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo viññāṇassa yadidaṁ nāmarūpaṁ. ",
+      "english": "“That’s why this is the cause, source, origin, and reason of consciousness, namely name and form. "
+    },
+    {
+      "number": 124,
+      "pali": "Ettāvatā kho, ānanda, jāyetha vā jīyetha vā mīyetha vā cavetha vā upapajjetha vā. ",
+      "english": "This is the extent to which one may be reborn, grow old, die, pass away, or reappear. "
+    },
+    {
+      "number": 125,
+      "pali": "Ettāvatā adhivacanapatho, ettāvatā niruttipatho, ettāvatā paññattipatho, ettāvatā paññāvacaraṁ, ettāvatā vaṭṭaṁ vattati itthattaṁ paññāpanāya yadidaṁ nāmarūpaṁ saha viññāṇena aññamaññapaccayatā pavattati. ",
+      "english": "This is how far the scope of labeling, definition, and description extends; how far the sphere of wisdom extends; how far the cycle of rebirths spins so that this state of being may be found; namely, name and form together with consciousness. "
+    },
+    {
+      "number": 126,
+      "pali": "2. Attapaññatti ",
+      "english": "2. Describing the Self "
+    },
+    {
+      "number": 127,
+      "pali": "Kittāvatā ca, ānanda, attānaṁ paññapento paññapeti? ",
+      "english": "How do those who describe the self describe it? "
+    },
+    {
+      "number": 128,
+      "pali": "Rūpiṁ vā hi, ānanda, parittaṁ attānaṁ paññapento paññapeti: ",
+      "english": "They describe it as formed and limited: "
+    },
+    {
+      "number": 129,
+      "pali": "‘rūpī me paritto attā’ti. ",
+      "english": "‘My self is formed and limited.’ "
+    },
+    {
+      "number": 130,
+      "pali": "Rūpiṁ vā hi, ānanda, anantaṁ attānaṁ paññapento paññapeti: ",
+      "english": "Or they describe it as formed and infinite: "
+    },
+    {
+      "number": 131,
+      "pali": "‘rūpī me ananto attā’ti. ",
+      "english": "‘My self is formed and infinite.’ "
+    },
+    {
+      "number": 132,
+      "pali": "Arūpiṁ vā hi, ānanda, parittaṁ attānaṁ paññapento paññapeti: ",
+      "english": "Or they describe it as formless and limited: "
+    },
+    {
+      "number": 133,
+      "pali": "‘arūpī me paritto attā’ti. ",
+      "english": "‘My self is formless and limited.’ "
+    },
+    {
+      "number": 134,
+      "pali": "Arūpiṁ vā hi, ānanda, anantaṁ attānaṁ paññapento paññapeti: ",
+      "english": "Or they describe it as formless and infinite: "
+    },
+    {
+      "number": 135,
+      "pali": "‘arūpī me ananto attā’ti. ",
+      "english": "‘My self is formless and infinite.’ "
+    },
+    {
+      "number": 136,
+      "pali": "Tatrānanda, yo so rūpiṁ parittaṁ attānaṁ paññapento paññapeti. ",
+      "english": "Now, take those who describe the self as formed and limited. "
+    },
+    {
+      "number": 137,
+      "pali": "Etarahi vā so rūpiṁ parittaṁ attānaṁ paññapento paññapeti, tattha bhāviṁ vā so rūpiṁ parittaṁ attānaṁ paññapento paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa hoti. ",
+      "english": "They describe the self in the present as formed and limited; or they describe it as sure to be in some other place formed and limited; or else they think: ‘Though it is not like that, I will ensure it is provided with what it needs to become like that.’ "
+    },
+    {
+      "number": 138,
+      "pali": "Evaṁ santaṁ kho, ānanda, rūpiṁ parittattānudiṭṭhi anusetīti iccālaṁ vacanāya. ",
+      "english": "This being so, it’s appropriate to say that a theory of self as formed and limited underlies them. "
+    },
+    {
+      "number": 139,
+      "pali": "Tatrānanda, yo so rūpiṁ anantaṁ attānaṁ paññapento paññapeti. ",
+      "english": "Now, take those who describe the self as formed and infinite … "
+    },
+    {
+      "number": 140,
+      "pali": "Etarahi vā so rūpiṁ anantaṁ attānaṁ paññapento paññapeti, tattha bhāviṁ vā so rūpiṁ anantaṁ attānaṁ paññapento paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa hoti. ",
+      "english": ""
+    },
+    {
+      "number": 141,
+      "pali": "Evaṁ santaṁ kho, ānanda, rūpiṁ anantattānudiṭṭhi anusetīti iccālaṁ vacanāya. ",
+      "english": ""
+    },
+    {
+      "number": 142,
+      "pali": "Tatrānanda, yo so arūpiṁ parittaṁ attānaṁ paññapento paññapeti. ",
+      "english": "formless and limited … "
+    },
+    {
+      "number": 143,
+      "pali": "Etarahi vā so arūpiṁ parittaṁ attānaṁ paññapento paññapeti, tattha bhāviṁ vā so arūpiṁ parittaṁ attānaṁ paññapento paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa hoti. ",
+      "english": ""
+    },
+    {
+      "number": 144,
+      "pali": "Evaṁ santaṁ kho, ānanda, arūpiṁ parittattānudiṭṭhi anusetīti iccālaṁ vacanāya. ",
+      "english": ""
+    },
+    {
+      "number": 145,
+      "pali": "Tatrānanda, yo so arūpiṁ anantaṁ attānaṁ paññapento paññapeti. ",
+      "english": "formless and infinite. "
+    },
+    {
+      "number": 146,
+      "pali": "Etarahi vā so arūpiṁ anantaṁ attānaṁ paññapento paññapeti, tattha bhāviṁ vā so arūpiṁ anantaṁ attānaṁ paññapento paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa hoti. ",
+      "english": "They describe the self as formless and infinite in the present; or as sure to become formless and infinite in some other place; or else they think: ‘Though it is not like that, I will ensure it is provided with what it needs to become like that.’ "
+    },
+    {
+      "number": 147,
+      "pali": "Evaṁ santaṁ kho, ānanda, arūpiṁ anantattānudiṭṭhi anusetīti iccālaṁ vacanāya. ",
+      "english": "This being so, it’s appropriate to say that a theory of self as formless and infinite underlies them. "
+    },
+    {
+      "number": 148,
+      "pali": "Ettāvatā kho, ānanda, attānaṁ paññapento paññapeti. ",
+      "english": "That’s how those who describe the self describe it. "
+    },
+    {
+      "number": 149,
+      "pali": "3. Naattapaññatti ",
+      "english": "3. Not Describing the Self "
+    },
+    {
+      "number": 150,
+      "pali": "Kittāvatā ca, ānanda, attānaṁ na paññapento na paññapeti? ",
+      "english": "How do those who don’t describe the self not describe it? "
+    },
+    {
+      "number": 151,
+      "pali": "Rūpiṁ vā hi, ānanda, parittaṁ attānaṁ na paññapento na paññapeti: ",
+      "english": "They don’t describe it as formed and limited … "
+    },
+    {
+      "number": 152,
+      "pali": "‘rūpī me paritto attā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 153,
+      "pali": "Rūpiṁ vā hi, ānanda, anantaṁ attānaṁ na paññapento na paññapeti: ",
+      "english": "formed and infinite … "
+    },
+    {
+      "number": 154,
+      "pali": "‘rūpī me ananto attā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 155,
+      "pali": "Arūpiṁ vā hi, ānanda, parittaṁ attānaṁ na paññapento na paññapeti: ",
+      "english": "formless and limited … "
+    },
+    {
+      "number": 156,
+      "pali": "‘arūpī me paritto attā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 157,
+      "pali": "Arūpiṁ vā hi, ānanda, anantaṁ attānaṁ na paññapento na paññapeti: ",
+      "english": "formless and infinite: "
+    },
+    {
+      "number": 158,
+      "pali": "‘arūpī me ananto attā’ti. ",
+      "english": "‘My self is formless and infinite.’ "
+    },
+    {
+      "number": 159,
+      "pali": "Tatrānanda, yo so rūpiṁ parittaṁ attānaṁ na paññapento na paññapeti. ",
+      "english": "Now, take those who don’t describe the self as formed and limited … "
+    },
+    {
+      "number": 160,
+      "pali": "Etarahi vā so rūpiṁ parittaṁ attānaṁ na paññapento na paññapeti, tattha bhāviṁ vā so rūpiṁ parittaṁ attānaṁ na paññapento na paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa na hoti. ",
+      "english": ""
+    },
+    {
+      "number": 161,
+      "pali": "Evaṁ santaṁ kho, ānanda, rūpiṁ parittattānudiṭṭhi nānusetīti iccālaṁ vacanāya. ",
+      "english": ""
+    },
+    {
+      "number": 162,
+      "pali": "Tatrānanda, yo so rūpiṁ anantaṁ attānaṁ na paññapento na paññapeti. ",
+      "english": "formed and infinite … "
+    },
+    {
+      "number": 163,
+      "pali": "Etarahi vā so rūpiṁ anantaṁ attānaṁ na paññapento na paññapeti, tattha bhāviṁ vā so rūpiṁ anantaṁ attānaṁ na paññapento na paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa na hoti. ",
+      "english": ""
+    },
+    {
+      "number": 164,
+      "pali": "Evaṁ santaṁ kho, ānanda, rūpiṁ anantattānudiṭṭhi nānusetīti iccālaṁ vacanāya. ",
+      "english": ""
+    },
+    {
+      "number": 165,
+      "pali": "Tatrānanda, yo so arūpiṁ parittaṁ attānaṁ na paññapento na paññapeti. ",
+      "english": "formless and limited … "
+    },
+    {
+      "number": 166,
+      "pali": "Etarahi vā so arūpiṁ parittaṁ attānaṁ na paññapento na paññapeti, tattha bhāviṁ vā so arūpiṁ parittaṁ attānaṁ na paññapento na paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa na hoti. ",
+      "english": ""
+    },
+    {
+      "number": 167,
+      "pali": "Evaṁ santaṁ kho, ānanda, arūpiṁ parittattānudiṭṭhi nānusetīti iccālaṁ vacanāya. ",
+      "english": ""
+    },
+    {
+      "number": 168,
+      "pali": "Tatrānanda, yo so arūpiṁ anantaṁ attānaṁ na paññapento na paññapeti. ",
+      "english": "formless and infinite. "
+    },
+    {
+      "number": 169,
+      "pali": "Etarahi vā so arūpiṁ anantaṁ attānaṁ na paññapento na paññapeti, tattha bhāviṁ vā so arūpiṁ anantaṁ attānaṁ na paññapento na paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa na hoti. ",
+      "english": "They don’t describe the self in the present as formless and infinite; or as sure to become in some other place formless and infinite; and they don’t think: ‘Though it is not like that, I will ensure it is provided with what it needs to become like that.’ "
+    },
+    {
+      "number": 170,
+      "pali": "Evaṁ santaṁ kho, ānanda, arūpiṁ anantattānudiṭṭhi nānusetīti iccālaṁ vacanāya. ",
+      "english": "This being so, it’s appropriate to say that a theory of self as formless and infinite doesn’t underlie them. "
+    },
+    {
+      "number": 171,
+      "pali": "Ettāvatā kho, ānanda, attānaṁ na paññapento na paññapeti. ",
+      "english": "That’s how those who don’t describe the self don’t describe it. "
+    },
+    {
+      "number": 172,
+      "pali": "4. Attasamanupassanā ",
+      "english": "4. Regarding a Self "
+    },
+    {
+      "number": 173,
+      "pali": "Kittāvatā ca, ānanda, attānaṁ samanupassamāno samanupassati? ",
+      "english": "How do those who regard the self regard it? "
+    },
+    {
+      "number": 174,
+      "pali": "Vedanaṁ vā hi, ānanda, attānaṁ samanupassamāno samanupassati: ",
+      "english": "They regard feeling as self: "
+    },
+    {
+      "number": 175,
+      "pali": "‘vedanā me attā’ti. ",
+      "english": "‘Feeling is my self.’ "
+    },
+    {
+      "number": 176,
+      "pali": "‘Na heva kho me vedanā attā, appaṭisaṁvedano me attā’ti iti vā hi, ānanda, attānaṁ samanupassamāno samanupassati. ",
+      "english": "Or they regard it like this: ‘Feeling is definitely not my self. My self does not experience feeling.’ "
+    },
+    {
+      "number": 177,
+      "pali": "‘Na heva kho me vedanā attā, nopi appaṭisaṁvedano me attā, attā me vediyati, vedanādhammo hi me attā’ti iti vā hi, ānanda, attānaṁ samanupassamāno samanupassati. ",
+      "english": "Or they regard it like this: ‘Feeling is definitely not my self. But it’s not that my self does not experience feeling. My self feels, for my self is liable to feel.’ "
+    },
+    {
+      "number": 178,
+      "pali": "Tatrānanda, yo so evamāha: ",
+      "english": "Now, as to those who say: "
+    },
+    {
+      "number": 179,
+      "pali": "‘vedanā me attā’ti, ",
+      "english": "‘Feeling is my self.’ "
+    },
+    {
+      "number": 180,
+      "pali": "so evamassa vacanīyo: ",
+      "english": "You should say this to them: "
+    },
+    {
+      "number": 181,
+      "pali": "‘tisso kho imā, āvuso, vedanā—",
+      "english": "‘Reverend, there are three feelings: "
+    },
+    {
+      "number": 182,
+      "pali": "sukhā vedanā dukkhā vedanā adukkhamasukhā vedanā. ",
+      "english": "pleasant, painful, and neutral. "
+    },
+    {
+      "number": 183,
+      "pali": "Imāsaṁ kho tvaṁ tissannaṁ vedanānaṁ katamaṁ attato samanupassasī’ti? ",
+      "english": "Which one of these do you regard as self?’ "
+    },
+    {
+      "number": 184,
+      "pali": "Yasmiṁ, ānanda, samaye sukhaṁ vedanaṁ vedeti, neva tasmiṁ samaye dukkhaṁ vedanaṁ vedeti, na adukkhamasukhaṁ vedanaṁ vedeti; ",
+      "english": "Ānanda, at a time when you feel a pleasant feeling, you don’t feel a painful or neutral feeling; "
+    },
+    {
+      "number": 185,
+      "pali": "sukhaṁyeva tasmiṁ samaye vedanaṁ vedeti. ",
+      "english": "you only feel a pleasant feeling. "
+    },
+    {
+      "number": 186,
+      "pali": "Yasmiṁ, ānanda, samaye dukkhaṁ vedanaṁ vedeti, neva tasmiṁ samaye sukhaṁ vedanaṁ vedeti, na adukkhamasukhaṁ vedanaṁ vedeti; ",
+      "english": "At a time when you feel a painful feeling, you don’t feel a pleasant or neutral feeling; "
+    },
+    {
+      "number": 187,
+      "pali": "dukkhaṁyeva tasmiṁ samaye vedanaṁ vedeti. ",
+      "english": "you only feel a painful feeling. "
+    },
+    {
+      "number": 188,
+      "pali": "Yasmiṁ, ānanda, samaye adukkhamasukhaṁ vedanaṁ vedeti, neva tasmiṁ samaye sukhaṁ vedanaṁ vedeti, na dukkhaṁ vedanaṁ vedeti; ",
+      "english": "At a time when you feel a neutral feeling, you don’t feel a pleasant or painful feeling; "
+    },
+    {
+      "number": 189,
+      "pali": "adukkhamasukhaṁyeva tasmiṁ samaye vedanaṁ vedeti. ",
+      "english": "you only feel a neutral feeling. "
+    },
+    {
+      "number": 190,
+      "pali": "Sukhāpi kho, ānanda, vedanā aniccā saṅkhatā paṭiccasamuppannā khayadhammā vayadhammā virāgadhammā nirodhadhammā. ",
+      "english": "Pleasant feelings, painful feelings, and neutral feelings are all impermanent, conditioned, dependently originated, liable to end, vanish, fade away, and cease. "
+    },
+    {
+      "number": 191,
+      "pali": "Dukkhāpi kho, ānanda, vedanā aniccā saṅkhatā paṭiccasamuppannā khayadhammā vayadhammā virāgadhammā nirodhadhammā. ",
+      "english": ""
+    },
+    {
+      "number": 192,
+      "pali": "Adukkhamasukhāpi kho, ānanda, vedanā aniccā saṅkhatā paṭiccasamuppannā khayadhammā vayadhammā virāgadhammā nirodhadhammā. ",
+      "english": ""
+    },
+    {
+      "number": 193,
+      "pali": "Tassa sukhaṁ vedanaṁ vediyamānassa ‘eso me attā’ti hoti. ",
+      "english": "When feeling a pleasant feeling they think: ‘This is my self.’ "
+    },
+    {
+      "number": 194,
+      "pali": "Tassāyeva sukhāya vedanāya nirodhā ‘byagā me attā’ti hoti. ",
+      "english": "When their pleasant feeling ceases they think: ‘My self has expired.’ "
+    },
+    {
+      "number": 195,
+      "pali": "Dukkhaṁ vedanaṁ vediyamānassa ‘eso me attā’ti hoti. ",
+      "english": "When feeling a painful feeling they think: ‘This is my self.’ "
+    },
+    {
+      "number": 196,
+      "pali": "Tassāyeva dukkhāya vedanāya nirodhā ‘byagā me attā’ti hoti. ",
+      "english": "When their painful feeling ceases they think: ‘My self has expired.’ "
+    },
+    {
+      "number": 197,
+      "pali": "Adukkhamasukhaṁ vedanaṁ vediyamānassa ‘eso me attā’ti hoti. ",
+      "english": "When feeling a neutral feeling they think: ‘This is my self.’ "
+    },
+    {
+      "number": 198,
+      "pali": "Tassāyeva adukkhamasukhāya vedanāya nirodhā ‘byagā me attā’ti hoti. ",
+      "english": "When their neutral feeling ceases they think: ‘My self has expired.’ "
+    },
+    {
+      "number": 199,
+      "pali": "Iti so diṭṭheva dhamme aniccasukhadukkhavokiṇṇaṁ uppādavayadhammaṁ attānaṁ samanupassamāno samanupassati, yo so evamāha: ‘vedanā me attā’ti. ",
+      "english": "So those who say ‘feeling is my self’ regard as self that which is evidently impermanent, mixed with pleasure and pain, and liable to rise and fall. "
+    },
+    {
+      "number": 200,
+      "pali": "Tasmātihānanda, etena petaṁ nakkhamati: ‘vedanā me attā’ti samanupassituṁ. ",
+      "english": "That’s why it’s not acceptable to regard feeling as self. "
+    },
+    {
+      "number": 201,
+      "pali": "Tatrānanda, yo so evamāha: ",
+      "english": "Now, as to those who say: "
+    },
+    {
+      "number": 202,
+      "pali": "‘na heva kho me vedanā attā, appaṭisaṁvedano me attā’ti, so evamassa vacanīyo: ",
+      "english": "‘Feeling is definitely not my self. My self does not experience feeling.’ You should say this to them, "
+    },
+    {
+      "number": 203,
+      "pali": "‘yattha panāvuso, sabbaso vedayitaṁ natthi api nu kho, tattha “ayamahamasmī”ti siyā’”ti? ",
+      "english": "‘But reverend, where there is nothing felt at all, would the thought “I am” occur there?’” "
+    },
+    {
+      "number": 204,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 205,
+      "pali": "“Tasmātihānanda, etena petaṁ nakkhamati: ‘na heva kho me vedanā attā, appaṭisaṁvedano me attā’ti samanupassituṁ. ",
+      "english": "“That’s why it’s not acceptable to regard self as that which does not experience feeling. "
+    },
+    {
+      "number": 206,
+      "pali": "Tatrānanda, yo so evamāha: ",
+      "english": "Now, as to those who say: "
+    },
+    {
+      "number": 207,
+      "pali": "‘na heva kho me vedanā attā, nopi appaṭisaṁvedano me attā, attā me vediyati, vedanādhammo hi me attā’ti. ",
+      "english": "‘Feeling is definitely not my self. But it’s not that my self does not experience feeling. My self feels, for my self is liable to feel.’ "
+    },
+    {
+      "number": 208,
+      "pali": "So evamassa vacanīyo—",
+      "english": "You should say this to them, "
+    },
+    {
+      "number": 209,
+      "pali": "vedanā ca hi, āvuso, sabbena sabbaṁ sabbathā sabbaṁ aparisesā nirujjheyyuṁ. ",
+      "english": "‘Suppose feelings were to totally and utterly cease without remainder. "
+    },
+    {
+      "number": 210,
+      "pali": "Sabbaso vedanāya asati vedanānirodhā api nu kho tattha ‘ayamahamasmī’ti siyā”ti? ",
+      "english": "When there’s no feeling at all, with the cessation of feeling, would the thought “I am this” occur there?’” "
+    },
+    {
+      "number": 211,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 212,
+      "pali": "“Tasmātihānanda, etena petaṁ nakkhamati: ‘na heva kho me vedanā attā, nopi appaṭisaṁvedano me attā, attā me vediyati, vedanādhammo hi me attā’ti samanupassituṁ. ",
+      "english": "“That’s why it’s not acceptable to regard self as that which is liable to feel. "
+    },
+    {
+      "number": 213,
+      "pali": "Yato kho, ānanda, bhikkhu neva vedanaṁ attānaṁ samanupassati, nopi appaṭisaṁvedanaṁ attānaṁ samanupassati, nopi ‘attā me vediyati, vedanādhammo hi me attā’ti samanupassati. ",
+      "english": ""
+    },
+    {
+      "number": 214,
+      "pali": "So evaṁ na samanupassanto na ca kiñci loke upādiyati, ",
+      "english": "Not regarding anything in this way, they don’t grasp at anything in the world. "
+    },
+    {
+      "number": 215,
+      "pali": "anupādiyaṁ na paritassati, aparitassaṁ paccattaññeva parinibbāyati, ",
+      "english": "Not grasping, they’re not anxious. Not being anxious, they personally become extinguished. "
+    },
+    {
+      "number": 216,
+      "pali": "‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
+    },
+    {
+      "number": 217,
+      "pali": "Evaṁ vimuttacittaṁ kho, ānanda, bhikkhuṁ yo evaṁ vadeyya: ",
+      "english": "It wouldn’t be appropriate to say that a mendicant whose mind is freed like this holds the following views: "
+    },
+    {
+      "number": 218,
+      "pali": "‘hoti tathāgato paraṁ maraṇā itissa diṭṭhī’ti, tadakallaṁ. ",
+      "english": "‘A realized one still exists after death’; "
+    },
+    {
+      "number": 219,
+      "pali": "‘Na hoti tathāgato paraṁ maraṇā itissa diṭṭhī’ti, tadakallaṁ. ",
+      "english": "‘A realized one no longer exists after death’; "
+    },
+    {
+      "number": 220,
+      "pali": "‘Hoti ca na ca hoti tathāgato paraṁ maraṇā itissa diṭṭhī’ti, tadakallaṁ. ",
+      "english": "‘A realized one both still exists and no longer exists after death’; "
+    },
+    {
+      "number": 221,
+      "pali": "‘Neva hoti na na hoti tathāgato paraṁ maraṇā itissa diṭṭhī’ti, tadakallaṁ. ",
+      "english": "‘A realized one neither still exists nor no longer exists after death’. "
+    },
+    {
+      "number": 222,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 223,
+      "pali": "Yāvatā, ānanda, adhivacanaṁ yāvatā adhivacanapatho, yāvatā nirutti yāvatā niruttipatho, yāvatā paññatti yāvatā paññattipatho, yāvatā paññā yāvatā paññāvacaraṁ, yāvatā vaṭṭaṁ, yāvatā vaṭṭati, tadabhiññāvimutto bhikkhu, tadabhiññāvimuttaṁ bhikkhuṁ ‘na jānāti na passati itissa diṭṭhī’ti, tadakallaṁ. ",
+      "english": "A mendicant is freed by directly knowing this: how far labeling and the scope of labeling extend; how far definition and the scope of definition extend; how far description and the scope of description extend; how far wisdom and the sphere of wisdom extend; how far the cycle of rebirths and its continuation extend. It wouldn’t be appropriate to say that a mendicant freed by directly knowing this holds the view: ‘There is no such thing as knowing and seeing.’ "
+    },
+    {
+      "number": 224,
+      "pali": "5. Sattaviññāṇaṭṭhiti ",
+      "english": "5. Planes of Consciousness "
+    },
+    {
+      "number": 225,
+      "pali": "Satta kho, ānanda, viññāṇaṭṭhitiyo, dve āyatanāni. ",
+      "english": "Ānanda, there are seven planes of consciousness and two dimensions. "
+    },
+    {
+      "number": 226,
+      "pali": "Katamā satta? ",
+      "english": "What seven? "
+    },
+    {
+      "number": 227,
+      "pali": "Santānanda, sattā nānattakāyā nānattasaññino, seyyathāpi manussā, ekacce ca devā, ekacce ca vinipātikā. ",
+      "english": "There are sentient beings that are diverse in body and diverse in perception, such as human beings, some gods, and some beings in the underworld. "
+    },
+    {
+      "number": 228,
+      "pali": "Ayaṁ paṭhamā viññāṇaṭṭhiti. ",
+      "english": "This is the first plane of consciousness. "
+    },
+    {
+      "number": 229,
+      "pali": "Santānanda, sattā nānattakāyā ekattasaññino, seyyathāpi devā brahmakāyikā paṭhamābhinibbattā. ",
+      "english": "There are sentient beings that are diverse in body and unified in perception, such as the gods reborn in the Divinity’s host through the first absorption. "
+    },
+    {
+      "number": 230,
+      "pali": "Ayaṁ dutiyā viññāṇaṭṭhiti. ",
+      "english": "This is the second plane of consciousness. "
+    },
+    {
+      "number": 231,
+      "pali": "Santānanda, sattā ekattakāyā nānattasaññino, seyyathāpi devā ābhassarā. ",
+      "english": "There are sentient beings that are unified in body and diverse in perception, such as the gods of streaming radiance. "
+    },
+    {
+      "number": 232,
+      "pali": "Ayaṁ tatiyā viññāṇaṭṭhiti. ",
+      "english": "This is the third plane of consciousness. "
+    },
+    {
+      "number": 233,
+      "pali": "Santānanda, sattā ekattakāyā ekattasaññino, seyyathāpi devā subhakiṇhā. ",
+      "english": "There are sentient beings that are unified in body and unified in perception, such as the gods of universal beauty. "
+    },
+    {
+      "number": 234,
+      "pali": "Ayaṁ catutthī viññāṇaṭṭhiti. ",
+      "english": "This is the fourth plane of consciousness. "
+    },
+    {
+      "number": 235,
+      "pali": "Santānanda, sattā sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanūpagā. ",
+      "english": "There are sentient beings that have gone totally beyond perceptions of form. With the disappearance of perceptions of impingement, not focusing on perceptions of diversity, aware that ‘space is infinite’, they have been reborn in the dimension of infinite space. "
+    },
+    {
+      "number": 236,
+      "pali": "Ayaṁ pañcamī viññāṇaṭṭhiti. ",
+      "english": "This is the fifth plane of consciousness. "
+    },
+    {
+      "number": 237,
+      "pali": "Santānanda, sattā sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanūpagā. ",
+      "english": "There are sentient beings that have gone totally beyond the dimension of infinite space. Aware that ‘consciousness is infinite’, they have been reborn in the dimension of infinite consciousness. "
+    },
+    {
+      "number": 238,
+      "pali": "Ayaṁ chaṭṭhī viññāṇaṭṭhiti. ",
+      "english": "This is the sixth plane of consciousness. "
+    },
+    {
+      "number": 239,
+      "pali": "Santānanda, sattā sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanūpagā. ",
+      "english": "There are sentient beings that have gone totally beyond the dimension of infinite consciousness. Aware that ‘there is nothing at all’, they have been reborn in the dimension of nothingness. "
+    },
+    {
+      "number": 240,
+      "pali": "Ayaṁ sattamī viññāṇaṭṭhiti. ",
+      "english": "This is the seventh plane of consciousness. "
+    },
+    {
+      "number": 241,
+      "pali": "Asaññasattāyatanaṁ nevasaññānāsaññāyatanameva dutiyaṁ. ",
+      "english": "Then there is the dimension of non-percipient beings, and secondly, the dimension of neither perception nor non-perception. "
+    },
+    {
+      "number": 242,
+      "pali": "Tatrānanda, yāyaṁ paṭhamā viññāṇaṭṭhiti nānattakāyā nānattasaññino, seyyathāpi manussā, ekacce ca devā, ekacce ca vinipātikā. ",
+      "english": "Now, regarding these seven planes of consciousness and two dimensions, "
+    },
+    {
+      "number": 243,
+      "pali": "Yo nu kho, ānanda, tañca pajānāti, tassā ca samudayaṁ pajānāti, tassā ca atthaṅgamaṁ pajānāti, tassā ca assādaṁ pajānāti, tassā ca ādīnavaṁ pajānāti, tassā ca nissaraṇaṁ pajānāti, kallaṁ nu tena tadabhinanditun”ti? ",
+      "english": "is it appropriate for someone who understands them—and their origin, disappearance, gratification, drawback, and escape—to take pleasure in them?” "
+    },
+    {
+      "number": 244,
+      "pali": "“No hetaṁ, bhante” …pe… ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 245,
+      "pali": "“tatrānanda, yamidaṁ asaññasattāyatanaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 246,
+      "pali": "Yo nu kho, ānanda, tañca pajānāti, tassa ca samudayaṁ pajānāti, tassa ca atthaṅgamaṁ pajānāti, tassa ca assādaṁ pajānāti, tassa ca ādīnavaṁ pajānāti, tassa ca nissaraṇaṁ pajānāti, kallaṁ nu tena tadabhinanditun”ti? ",
+      "english": ""
+    },
+    {
+      "number": 247,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": ""
+    },
+    {
+      "number": 248,
+      "pali": "“Tatrānanda, yamidaṁ nevasaññānāsaññāyatanaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 249,
+      "pali": "Yo nu kho, ānanda, tañca pajānāti, tassa ca samudayaṁ pajānāti, tassa ca atthaṅgamaṁ pajānāti, tassa ca assādaṁ pajānāti, tassa ca ādīnavaṁ pajānāti, tassa ca nissaraṇaṁ pajānāti, kallaṁ nu tena tadabhinanditun”ti? ",
+      "english": ""
+    },
+    {
+      "number": 250,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": ""
+    },
+    {
+      "number": 251,
+      "pali": "“Yato kho, ānanda, bhikkhu imāsañca sattannaṁ viññāṇaṭṭhitīnaṁ imesañca dvinnaṁ āyatanānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā anupādā vimutto hoti, ayaṁ vuccatānanda, bhikkhu paññāvimutto. ",
+      "english": "“When a mendicant, having truly understood the origin, disappearance, gratification, drawback, and escape regarding these seven planes of consciousness and these two dimensions, is freed by not grasping, they’re called a mendicant who is freed by wisdom. "
+    },
+    {
+      "number": 252,
+      "pali": "6. Aṭṭhavimokkha ",
+      "english": "6. The Eight Liberations "
+    },
+    {
+      "number": 253,
+      "pali": "Aṭṭha kho ime, ānanda, vimokkhā. ",
+      "english": "Ānanda, there are these eight liberations. "
+    },
+    {
+      "number": 254,
+      "pali": "Katame aṭṭha? ",
+      "english": "What eight? "
+    },
+    {
+      "number": 255,
+      "pali": "Rūpī rūpāni passati ",
+      "english": "Having physical form, they see forms. "
+    },
+    {
+      "number": 256,
+      "pali": "ayaṁ paṭhamo vimokkho. ",
+      "english": "This is the first liberation. "
+    },
+    {
+      "number": 257,
+      "pali": "Ajjhattaṁ arūpasaññī bahiddhā rūpāni passati, ",
+      "english": "Not perceiving form internally, they see forms externally. "
+    },
+    {
+      "number": 258,
+      "pali": "ayaṁ dutiyo vimokkho. ",
+      "english": "This is the second liberation. "
+    },
+    {
+      "number": 259,
+      "pali": "Subhanteva adhimutto hoti, ",
+      "english": "They’re focused only on beauty. "
+    },
+    {
+      "number": 260,
+      "pali": "ayaṁ tatiyo vimokkho. ",
+      "english": "This is the third liberation. "
+    },
+    {
+      "number": 261,
+      "pali": "Sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanaṁ upasampajja viharati, ",
+      "english": "Going totally beyond perceptions of form, with the disappearance of perceptions of impingement, not focusing on perceptions of diversity, aware that ‘space is infinite’, they enter and remain in the dimension of infinite space. "
+    },
+    {
+      "number": 262,
+      "pali": "ayaṁ catuttho vimokkho. ",
+      "english": "This is the fourth liberation. "
+    },
+    {
+      "number": 263,
+      "pali": "Sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanaṁ upasampajja viharati, ",
+      "english": "Going totally beyond the dimension of infinite space, aware that ‘consciousness is infinite’, they enter and remain in the dimension of infinite consciousness. "
+    },
+    {
+      "number": 264,
+      "pali": "ayaṁ pañcamo vimokkho. ",
+      "english": "This is the fifth liberation. "
+    },
+    {
+      "number": 265,
+      "pali": "Sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanaṁ upasampajja viharati, ",
+      "english": "Going totally beyond the dimension of infinite consciousness, aware that ‘there is nothing at all’, they enter and remain in the dimension of nothingness. "
+    },
+    {
+      "number": 266,
+      "pali": "ayaṁ chaṭṭho vimokkho. ",
+      "english": "This is the sixth liberation. "
+    },
+    {
+      "number": 267,
+      "pali": "Sabbaso ākiñcaññāyatanaṁ samatikkamma nevasaññānāsaññāyatanaṁ upasampajja viharati, ",
+      "english": "Going totally beyond the dimension of nothingness, they enter and remain in the dimension of neither perception nor non-perception. "
+    },
+    {
+      "number": 268,
+      "pali": "ayaṁ sattamo vimokkho. ",
+      "english": "This is the seventh liberation. "
+    },
+    {
+      "number": 269,
+      "pali": "Sabbaso nevasaññānāsaññāyatanaṁ samatikkamma saññāvedayitanirodhaṁ upasampajja viharati, ",
+      "english": "Going totally beyond the dimension of neither perception nor non-perception, they enter and remain in the cessation of perception and feeling. "
+    },
+    {
+      "number": 270,
+      "pali": "ayaṁ aṭṭhamo vimokkho. ",
+      "english": "This is the eighth liberation. "
+    },
+    {
+      "number": 271,
+      "pali": "Ime kho, ānanda, aṭṭha vimokkhā. ",
+      "english": "These are the eight liberations. "
+    },
+    {
+      "number": 272,
+      "pali": "Yato kho, ānanda, bhikkhu ime aṭṭha vimokkhe anulomampi samāpajjati, paṭilomampi samāpajjati, anulomapaṭilomampi samāpajjati, yatthicchakaṁ yadicchakaṁ yāvaticchakaṁ samāpajjatipi vuṭṭhātipi. ",
+      "english": "When a mendicant enters into and withdraws from these eight liberations—in forward order, in reverse order, and in forward and reverse order—wherever they wish, whenever they wish, and for as long as they wish; "
+    },
+    {
+      "number": 273,
+      "pali": "Āsavānañca khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati, ayaṁ vuccatānanda, bhikkhu ubhatobhāgavimutto. ",
+      "english": "and when they realize the undefiled freedom of heart and freedom by wisdom in this very life, and live having realized it with their own insight due to the ending of defilements, they’re called a mendicant who is freed both ways. "
+    },
+    {
+      "number": 274,
+      "pali": "Imāya ca, ānanda, ubhatobhāgavimuttiyā aññā ubhatobhāgavimutti uttaritarā vā paṇītatarā vā natthī”ti. ",
+      "english": "And, Ānanda, there is no other freedom both ways that is better or finer than this.” "
+    },
+    {
+      "number": 275,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 276,
+      "pali": "Attamano āyasmā ānando bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Ānanda approved what the Buddha said. "
+    },
+    {
+      "number": 277,
+      "pali": "Mahānidānasuttaṁ niṭṭhitaṁ dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

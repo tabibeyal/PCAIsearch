@@ -1,0 +1,995 @@
+{
+  "sutta_id": "MN81",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 81 ",
+      "english": "Middle Discourses 81 "
+    },
+    {
+      "number": 2,
+      "pali": "Ghaṭikārasutta ",
+      "english": "With Ghaṭīkāra "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā kosalesu cārikaṁ carati mahatā bhikkhusaṅghena saddhiṁ. ",
+      "english": "At one time the Buddha was wandering in the land of the Kosalans together with a large Saṅgha of mendicants. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho bhagavā maggā okkamma aññatarasmiṁ padese sitaṁ pātvākāsi. ",
+      "english": "Then the Buddha left the road, and at a certain spot he smiled. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho āyasmato ānandassa etadahosi: ",
+      "english": "Then Venerable Ānanda thought, "
+    },
+    {
+      "number": 7,
+      "pali": "“ko nu kho hetu, ko paccayo bhagavato sitassa pātukammāya? ",
+      "english": "“What is the cause, what is the reason why the Buddha smiled? "
+    },
+    {
+      "number": 8,
+      "pali": "Na akāraṇena tathāgatā sitaṁ pātukarontī”ti. ",
+      "english": "Realized Ones do not smile for no reason.” "
+    },
+    {
+      "number": 9,
+      "pali": "Atha kho āyasmā ānando ekaṁsaṁ cīvaraṁ katvā yena bhagavā tenañjaliṁ paṇāmetvā bhagavantaṁ etadavoca: ",
+      "english": "So Ānanda arranged his robe over one shoulder, raised his cupped palms toward the Buddha, and said, "
+    },
+    {
+      "number": 10,
+      "pali": "“ko nu kho, bhante, hetu, ko paccayo bhagavato sitassa pātukammāya? ",
+      "english": "“What is the cause, what is the reason why the Buddha smiled? "
+    },
+    {
+      "number": 11,
+      "pali": "Na akāraṇena tathāgatā sitaṁ pātukarontī”ti. ",
+      "english": "Realized Ones do not smile for no reason.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Bhūtapubbaṁ, ānanda, imasmiṁ padese vegaḷiṅgaṁ nāma gāmanigamo ahosi iddho ceva phīto ca bahujano ākiṇṇamanusso. ",
+      "english": "“Once upon a time, Ānanda, there was a market town in this spot named Vebhaliṅga. It was successful and prosperous, populous, full of humans. "
+    },
+    {
+      "number": 13,
+      "pali": "Vegaḷiṅgaṁ kho, ānanda, gāmanigamaṁ kassapo bhagavā arahaṁ sammāsambuddho upanissāya vihāsi. ",
+      "english": "And Kassapa, a blessed one, a perfected one, a fully awakened Buddha, lived supported by Vebhaliṅga. "
+    },
+    {
+      "number": 14,
+      "pali": "Idha sudaṁ, ānanda, kassapassa bhagavato arahato sammāsambuddhassa ārāmo ahosi. ",
+      "english": "It was here, in fact, that he had his monastery, "
+    },
+    {
+      "number": 15,
+      "pali": "Idha sudaṁ, ānanda, kassapo bhagavā arahaṁ sammāsambuddho nisinnako bhikkhusaṅghaṁ ovadatī”ti. ",
+      "english": "where he advised the mendicant Saṅgha while seated.” "
+    },
+    {
+      "number": 16,
+      "pali": "Atha kho āyasmā ānando catugguṇaṁ saṅghāṭiṁ paññapetvā bhagavantaṁ etadavoca: ",
+      "english": "Then Ānanda spread out his outer robe folded in four and said to the Buddha, "
+    },
+    {
+      "number": 17,
+      "pali": "“tena hi, bhante, bhagavā nisīdatu ettha. ",
+      "english": "“Well then, sir, may the Blessed One sit here! "
+    },
+    {
+      "number": 18,
+      "pali": "Ayaṁ bhūmipadeso dvīhi arahantehi sammāsambuddhehi paribhutto bhavissatī”ti. ",
+      "english": "Then this piece of land will have been occupied by two perfected ones, fully awakened Buddhas.” "
+    },
+    {
+      "number": 19,
+      "pali": "Nisīdi bhagavā paññatte āsane. ",
+      "english": "The Buddha sat on the seat spread out. "
+    },
+    {
+      "number": 20,
+      "pali": "Nisajja kho bhagavā āyasmantaṁ ānandaṁ āmantesi: ",
+      "english": "When he was seated he said to Venerable Ānanda: "
+    },
+    {
+      "number": 21,
+      "pali": "“Bhūtapubbaṁ, ānanda, imasmiṁ padese vegaḷiṅgaṁ nāma gāmanigamo ahosi iddho ceva phīto ca bahujano ākiṇṇamanusso. ",
+      "english": "“Once upon a time, Ānanda, there was a market town in this spot named Vebhaliṅga. It was successful and prosperous, populous, full of humans. "
+    },
+    {
+      "number": 22,
+      "pali": "Vegaḷiṅgaṁ kho, ānanda, gāmanigamaṁ kassapo bhagavā arahaṁ sammāsambuddho upanissāya vihāsi. ",
+      "english": "And Kassapa, a blessed one, a perfected one, a fully awakened Buddha, lived supported by Vebhaliṅga. "
+    },
+    {
+      "number": 23,
+      "pali": "Idha sudaṁ, ānanda, kassapassa bhagavato arahato sammāsambuddhassa ārāmo ahosi. ",
+      "english": "It was here, in fact, that he had his monastery, "
+    },
+    {
+      "number": 24,
+      "pali": "Idha sudaṁ, ānanda, kassapo bhagavā arahaṁ sammāsambuddho nisinnako bhikkhusaṅghaṁ ovadati. ",
+      "english": "where he advised the mendicant Saṅgha while seated. "
+    },
+    {
+      "number": 25,
+      "pali": "Vegaḷiṅge kho, ānanda, gāmanigame ghaṭikāro nāma kumbhakāro kassapassa bhagavato arahato sammāsambuddhassa upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "The Buddha Kassapa had as chief supporter in Vebhaliṅga a potter named Ghaṭīkāra. "
+    },
+    {
+      "number": 26,
+      "pali": "Ghaṭikārassa kho, ānanda, kumbhakārassa jotipālo nāma māṇavo sahāyo ahosi piyasahāyo. ",
+      "english": "Ghaṭīkāra had a dear friend named Jotipāla, a student. "
+    },
+    {
+      "number": 27,
+      "pali": "Atha kho, ānanda, ghaṭikāro kumbhakāro jotipālaṁ māṇavaṁ āmantesi: ",
+      "english": "Then Ghaṭīkāra addressed Jotipāla, "
+    },
+    {
+      "number": 28,
+      "pali": "‘āyāma, samma jotipāla, kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ dassanāya upasaṅkamissāma. ",
+      "english": "‘Come, dear Jotipāla, let’s go to see the Blessed One Kassapa, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 29,
+      "pali": "Sādhusammatañhi me tassa bhagavato dassanaṁ arahato sammāsambuddhassā’ti. ",
+      "english": "For I deem it holy to see that Blessed One.’ "
+    },
+    {
+      "number": 30,
+      "pali": "Evaṁ vutte, ānanda, jotipālo māṇavo ghaṭikāraṁ kumbhakāraṁ etadavoca: ",
+      "english": "When he said this, Jotipāla said to him, "
+    },
+    {
+      "number": 31,
+      "pali": "‘alaṁ, samma ghaṭikāra. ",
+      "english": "‘Enough, dear Ghaṭīkāra. "
+    },
+    {
+      "number": 32,
+      "pali": "Kiṁ pana tena muṇḍakena samaṇakena diṭṭhenā’ti? ",
+      "english": "What’s the use of seeing that shaveling, that fake ascetic?’ "
+    },
+    {
+      "number": 33,
+      "pali": "Dutiyampi kho, ānanda …pe… ",
+      "english": "For a second time … "
+    },
+    {
+      "number": 34,
+      "pali": "tatiyampi kho, ānanda, ghaṭikāro kumbhakāro jotipālaṁ māṇavaṁ etadavoca: ",
+      "english": "and a third time, Ghaṭīkāra addressed Jotipāla, "
+    },
+    {
+      "number": 35,
+      "pali": "‘āyāma, samma jotipāla, kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ dassanāya upasaṅkamissāma. ",
+      "english": "‘Come, dear Jotipāla, let’s go to see the Blessed One Kassapa, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 36,
+      "pali": "Sādhusammatañhi me tassa bhagavato dassanaṁ arahato sammāsambuddhassā’ti. ",
+      "english": "For I deem it holy to see that Blessed One.’ "
+    },
+    {
+      "number": 37,
+      "pali": "Tatiyampi kho, ānanda, jotipālo māṇavo ghaṭikāraṁ kumbhakāraṁ etadavoca: ",
+      "english": "For a third time, Jotipāla said to him, "
+    },
+    {
+      "number": 38,
+      "pali": "‘alaṁ, samma ghaṭikāra. ",
+      "english": "‘Enough, dear Ghaṭīkāra. "
+    },
+    {
+      "number": 39,
+      "pali": "Kiṁ pana tena muṇḍakena samaṇakena diṭṭhenā’ti? ",
+      "english": "What’s the use of seeing that shaveling, that fake ascetic?’ "
+    },
+    {
+      "number": 40,
+      "pali": "‘Tena hi, samma jotipāla, sottisināniṁ ādāya nadiṁ gamissāma sināyitun’ti. ",
+      "english": "‘Well then, dear Jotipāla, let’s take some bathing cleanser and go to the river to bathe.’ "
+    },
+    {
+      "number": 41,
+      "pali": "‘Evaṁ, sammā’ti kho, ānanda, jotipālo māṇavo ghaṭikārassa kumbhakārassa paccassosi. ",
+      "english": "‘Yes, dear,’ replied Jotipāla. "
+    },
+    {
+      "number": 42,
+      "pali": "Atha kho, ānanda, ghaṭikāro ca kumbhakāro jotipālo ca māṇavo sottisināniṁ ādāya nadiṁ agamaṁsu sināyituṁ. ",
+      "english": "So that’s what they did. "
+    },
+    {
+      "number": 43,
+      "pali": "Atha kho, ānanda, ghaṭikāro kumbhakāro jotipālaṁ māṇavaṁ āmantesi: ",
+      "english": "Then Ghaṭīkāra addressed Jotipāla, "
+    },
+    {
+      "number": 44,
+      "pali": "‘ayaṁ, samma jotipāla, kassapassa bhagavato arahato sammāsambuddhassa avidūre ārāmo. ",
+      "english": "‘Dear Jotipāla, the Buddha Kassapa’s monastery is not far away. "
+    },
+    {
+      "number": 45,
+      "pali": "Āyāma, samma jotipāla, kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ dassanāya upasaṅkamissāma. ",
+      "english": "Let’s go to see the Blessed One Kassapa, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 46,
+      "pali": "Sādhusammatañhi me tassa bhagavato dassanaṁ arahato sammāsambuddhassā’ti. ",
+      "english": "For I deem it holy to see that Blessed One.’ "
+    },
+    {
+      "number": 47,
+      "pali": "Evaṁ vutte, ānanda, jotipālo māṇavo ghaṭikāraṁ kumbhakāraṁ etadavoca: ",
+      "english": "When he said this, Jotipāla said to him, "
+    },
+    {
+      "number": 48,
+      "pali": "‘alaṁ, samma ghaṭikāra. ",
+      "english": "‘Enough, dear Ghaṭīkāra. "
+    },
+    {
+      "number": 49,
+      "pali": "Kiṁ pana tena muṇḍakena samaṇakena diṭṭhenā’ti? ",
+      "english": "What’s the use of seeing that shaveling, that fake ascetic?’ "
+    },
+    {
+      "number": 50,
+      "pali": "Dutiyampi kho, ānanda …pe… ",
+      "english": "For a second time … "
+    },
+    {
+      "number": 51,
+      "pali": "tatiyampi kho, ānanda, ghaṭikāro kumbhakāro jotipālaṁ māṇavaṁ etadavoca: ",
+      "english": "and a third time, Ghaṭīkāra addressed Jotipāla, "
+    },
+    {
+      "number": 52,
+      "pali": "‘ayaṁ, samma jotipāla, kassapassa bhagavato arahato sammāsambuddhassa avidūre ārāmo. ",
+      "english": "‘Dear Jotipāla, the Buddha Kassapa’s monastery is not far away. "
+    },
+    {
+      "number": 53,
+      "pali": "Āyāma, samma jotipāla, kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ dassanāya upasaṅkamissāma. ",
+      "english": "Let’s go to see the Blessed One Kassapa, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 54,
+      "pali": "Sādhusammatañhi me tassa bhagavato dassanaṁ arahato sammāsambuddhassā’ti. ",
+      "english": "For I deem it holy to see that Blessed One.’ "
+    },
+    {
+      "number": 55,
+      "pali": "Tatiyampi kho, ānanda, jotipālo māṇavo ghaṭikāraṁ kumbhakāraṁ etadavoca: ",
+      "english": "For a third time, Jotipāla said to him, "
+    },
+    {
+      "number": 56,
+      "pali": "‘alaṁ, samma ghaṭikāra. ",
+      "english": "‘Enough, dear Ghaṭīkāra. "
+    },
+    {
+      "number": 57,
+      "pali": "Kiṁ pana tena muṇḍakena samaṇakena diṭṭhenā’ti? ",
+      "english": "What’s the use of seeing that shaveling, that fake ascetic?’ "
+    },
+    {
+      "number": 58,
+      "pali": "Atha kho, ānanda, ghaṭikāro kumbhakāro jotipālaṁ māṇavaṁ ovaṭṭikāyaṁ parāmasitvā etadavoca: ",
+      "english": "Then Ghaṭīkāra grabbed Jotipāla by the skirt-hem and said, "
+    },
+    {
+      "number": 59,
+      "pali": "‘ayaṁ, samma jotipāla, kassapassa bhagavato arahato sammāsambuddhassa avidūre ārāmo. ",
+      "english": "‘Dear Jotipāla, the Buddha Kassapa’s monastery is not far away. "
+    },
+    {
+      "number": 60,
+      "pali": "Āyāma, samma jotipāla, kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ dassanāya upasaṅkamissāma. ",
+      "english": "Let’s go to see the Blessed One Kassapa, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 61,
+      "pali": "Sādhusammatañhi me tassa bhagavato dassanaṁ arahato sammāsambuddhassā’ti. ",
+      "english": "For I deem it holy to see that Blessed One.’ "
+    },
+    {
+      "number": 62,
+      "pali": "Atha kho, ānanda, jotipālo māṇavo ovaṭṭikaṁ vinivaṭṭetvā ghaṭikāraṁ kumbhakāraṁ etadavoca: ",
+      "english": "So Jotipāla undid his skirt-hem and said to Ghaṭīkāra, "
+    },
+    {
+      "number": 63,
+      "pali": "‘alaṁ, samma ghaṭikāra. ",
+      "english": "‘Enough, dear Ghaṭīkāra. "
+    },
+    {
+      "number": 64,
+      "pali": "Kiṁ pana tena muṇḍakena samaṇakena diṭṭhenā’ti? ",
+      "english": "What’s the use of seeing that shaveling, that fake ascetic?’ "
+    },
+    {
+      "number": 65,
+      "pali": "Atha kho, ānanda, ghaṭikāro kumbhakāro jotipālaṁ māṇavaṁ sīsaṁnhātaṁ kesesu parāmasitvā etadavoca: ",
+      "english": "Then Ghaṭīkāra grabbed Jotipāla by the hair of his freshly-washed head and said, "
+    },
+    {
+      "number": 66,
+      "pali": "‘ayaṁ, samma jotipāla, kassapassa bhagavato arahato sammāsambuddhassa avidūre ārāmo. ",
+      "english": "‘Dear Jotipāla, the Buddha Kassapa’s monastery is not far away. "
+    },
+    {
+      "number": 67,
+      "pali": "Āyāma, samma jotipāla, kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ dassanāya upasaṅkamissāma. ",
+      "english": "Let’s go to see the Blessed One Kassapa, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 68,
+      "pali": "Sādhusammatañhi me tassa bhagavato dassanaṁ arahato sammāsambuddhassā’ti. ",
+      "english": "For I deem it holy to see that Blessed One.’ "
+    },
+    {
+      "number": 69,
+      "pali": "Atha kho, ānanda, jotipālassa māṇavassa etadahosi: ",
+      "english": "Then Jotipāla thought, "
+    },
+    {
+      "number": 70,
+      "pali": "‘acchariyaṁ vata bho, abbhutaṁ vata bho. ",
+      "english": "‘Oh lord, how incredible, how amazing, "
+    },
+    {
+      "number": 71,
+      "pali": "Yatra hi nāmāyaṁ ghaṭikāro kumbhakāro ittarajacco samāno amhākaṁ sīsaṁnhātānaṁ kesesu parāmasitabbaṁ maññissati; ",
+      "english": "how this potter Ghaṭīkāra, though of lowly birth, should presume to grab me by the hair of my freshly-washed head! "
+    },
+    {
+      "number": 72,
+      "pali": "na vatidaṁ kira orakaṁ maññe bhavissatī’ti; ",
+      "english": "This must be no ordinary matter.’ "
+    },
+    {
+      "number": 73,
+      "pali": "ghaṭikāraṁ kumbhakāraṁ etadavoca: ",
+      "english": "He said to Ghaṭīkāra, "
+    },
+    {
+      "number": 74,
+      "pali": "‘yāvatādohipi, samma ghaṭikārā’ti? ",
+      "english": "‘You’d even milk it to this extent, dear Ghaṭīkāra?’ "
+    },
+    {
+      "number": 75,
+      "pali": "‘Yāvatādohipi, samma jotipāla. ",
+      "english": "‘I even milk it to this extent, dear Jotipāla. "
+    },
+    {
+      "number": 76,
+      "pali": "Tathā hi pana me sādhusammataṁ tassa bhagavato dassanaṁ arahato sammāsambuddhassā’ti. ",
+      "english": "For that is how holy I deem it to see that Blessed One.’ "
+    },
+    {
+      "number": 77,
+      "pali": "‘Tena hi, samma ghaṭikāra, muñca; gamissāmā’ti. ",
+      "english": "‘Well then, dear Ghaṭīkāra, release me, we shall go.’ "
+    },
+    {
+      "number": 78,
+      "pali": "Atha kho, ānanda, ghaṭikāro ca kumbhakāro jotipālo ca māṇavo yena kassapo bhagavā arahaṁ sammāsambuddho tenupasaṅkamiṁsu; upasaṅkamitvā ghaṭikāro kumbhakāro kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā ekamantaṁ nisīdi. Jotipālo pana māṇavo kassapena bhagavatā arahatā sammāsambuddhena saddhiṁ sammodi. Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. ",
+      "english": "Then Ghaṭīkāra the potter and Jotipāla the student went to the Buddha Kassapa. Ghaṭīkāra bowed and sat down to one side, but Jotipāla exchanged greetings with the Buddha and sat down to one side. "
+    },
+    {
+      "number": 79,
+      "pali": "Ekamantaṁ nisinno kho, ānanda, ghaṭikāro kumbhakāro kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavoca: ",
+      "english": "Ghaṭīkāra said to the Buddha Kassapa, "
+    },
+    {
+      "number": 80,
+      "pali": "‘ayaṁ me, bhante, jotipālo māṇavo sahāyo piyasahāyo. ",
+      "english": "‘Sir, this is the student Jotipāla, my dear friend. "
+    },
+    {
+      "number": 81,
+      "pali": "Imassa bhagavā dhammaṁ desetū’ti. ",
+      "english": "Please teach him the Dhamma.’ "
+    },
+    {
+      "number": 82,
+      "pali": "Atha kho, ānanda, kassapo bhagavā arahaṁ sammāsambuddho ghaṭikārañca kumbhakāraṁ jotipālañca māṇavaṁ dhammiyā kathāya sandassesi samādapesi samuttejesi sampahaṁsesi. ",
+      "english": "Then the Buddha Kassapa educated, encouraged, fired up, and inspired Ghaṭīkāra and Jotipāla with a Dhamma talk. "
+    },
+    {
+      "number": 83,
+      "pali": "Atha kho, ānanda, ghaṭikāro ca kumbhakāro jotipālo ca māṇavo kassapena bhagavatā arahatā sammāsambuddhena dhammiyā kathāya sandassitā samādapitā samuttejitā sampahaṁsitā kassapassa bhagavato arahato sammāsambuddhassa bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā padakkhiṇaṁ katvā pakkamiṁsu. ",
+      "english": "Then they got up from their seat, bowed, and respectfully circled the Buddha Kassapa, keeping him on their right, before leaving. "
+    },
+    {
+      "number": 84,
+      "pali": "Atha kho, ānanda, jotipālo māṇavo ghaṭikāraṁ kumbhakāraṁ etadavoca: ",
+      "english": "Then Jotipāla said to Ghatīkāra, "
+    },
+    {
+      "number": 85,
+      "pali": "‘imaṁ nu tvaṁ, samma ghaṭikāra, dhammaṁ suṇanto atha ca pana agārasmā anagāriyaṁ na pabbajissasī’ti? ",
+      "english": "‘Dear Ghaṭīkāra, you have heard this teaching, so why don’t you go forth from the lay life to homelessness?’ "
+    },
+    {
+      "number": 86,
+      "pali": "‘Nanu maṁ, samma jotipāla, jānāsi, andhe jiṇṇe mātāpitaro posemī’ti? ",
+      "english": "‘Don’t you know, dear Jotipāla, that I  provide for my blind old parents?’ "
+    },
+    {
+      "number": 87,
+      "pali": "‘Tena hi, samma ghaṭikāra, ahaṁ agārasmā anagāriyaṁ pabbajissāmī’ti. ",
+      "english": "‘Well then, dear Ghaṭīkāra, I shall go forth from the lay life to homelessness.’ "
+    },
+    {
+      "number": 88,
+      "pali": "Atha kho, ānanda, ghaṭikāro ca kumbhakāro jotipālo ca māṇavo yena kassapo bhagavā arahaṁ sammāsambuddho tenupasaṅkamiṁsu; upasaṅkamitvā kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinno kho, ānanda, ghaṭikāro kumbhakāro kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavoca: ",
+      "english": "Then Ghaṭīkāra and Jotipāla went to the Buddha Kassapa, bowed and sat down to one side. Ghaṭīkāra said to the Buddha Kassapa, "
+    },
+    {
+      "number": 89,
+      "pali": "‘ayaṁ me, bhante, jotipālo māṇavo sahāyo piyasahāyo. ",
+      "english": "‘Sir, this is the student Jotipāla, my dear friend. "
+    },
+    {
+      "number": 90,
+      "pali": "Imaṁ bhagavā pabbājetū’ti. ",
+      "english": "Please give him the going forth.’ "
+    },
+    {
+      "number": 91,
+      "pali": "Alattha kho, ānanda, jotipālo māṇavo kassapassa bhagavato arahato sammāsambuddhassa santike pabbajjaṁ, alattha upasampadaṁ. ",
+      "english": "And Jotipāla the student received the going forth, the ordination in the Buddha’s presence. "
+    },
+    {
+      "number": 92,
+      "pali": "Atha kho, ānanda, kassapo bhagavā arahaṁ sammāsambuddho acirūpasampanne jotipāle māṇave aḍḍhamāsupasampanne vegaḷiṅge yathābhirantaṁ viharitvā yena bārāṇasī tena cārikaṁ pakkāmi. ",
+      "english": "Not long after Jotipāla’s ordination, a fortnight later, the Buddha Kassapa—having stayed in Vebhaliṅga as long as he pleased—set out for Varanasi. "
+    },
+    {
+      "number": 93,
+      "pali": "Anupubbena cārikaṁ caramāno yena bārāṇasī tadavasari. ",
+      "english": "Traveling stage by stage, he arrived at Varanasi, "
+    },
+    {
+      "number": 94,
+      "pali": "Tatra sudaṁ, ānanda, kassapo bhagavā arahaṁ sammāsambuddho bārāṇasiyaṁ viharati isipatane migadāye. ",
+      "english": "where he stayed near Varanasi, in the deer park at Isipatana. "
+    },
+    {
+      "number": 95,
+      "pali": "Assosi kho, ānanda, kikī kāsirājā: ‘kassapo kira bhagavā arahaṁ sammāsambuddho bārāṇasiṁ anuppatto bārāṇasiyaṁ viharati isipatane migadāye’ti. ",
+      "english": "King Kikī of Kāsi heard that he had arrived. "
+    },
+    {
+      "number": 96,
+      "pali": "Atha kho, ānanda, kikī kāsirājā bhadrāni bhadrāni yānāni yojāpetvā bhadraṁ yānaṁ abhiruhitvā bhadrehi bhadrehi yānehi bārāṇasiyā niyyāsi mahaccarājānubhāvena kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ dassanāya. ",
+      "english": "He had the finest carriages harnessed. He then mounted a fine carriage and, along with other fine carriages, set out in full royal pomp from Varanasi to see the Buddha Kassapa. "
+    },
+    {
+      "number": 97,
+      "pali": "Yāvatikā yānassa bhūmi yānena gantvā yānā paccorohitvā pattikova yena kassapo bhagavā arahaṁ sammāsambuddho tenupasaṅkami; upasaṅkamitvā kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "He went by carriage as far as the terrain allowed, then descended and approached the Buddha Kassapa on foot. He bowed and sat down to one side. "
+    },
+    {
+      "number": 98,
+      "pali": "Ekamantaṁ nisinnaṁ kho, ānanda, kikiṁ kāsirājānaṁ kassapo bhagavā arahaṁ sammāsambuddho dhammiyā kathāya sandassesi samādapesi samuttejesi sampahaṁsesi. ",
+      "english": "The Buddha educated, encouraged, fired up, and inspired him with a Dhamma talk. "
+    },
+    {
+      "number": 99,
+      "pali": "Atha kho, ānanda, kikī kāsirājā kassapena bhagavatā arahatā sammāsambuddhena dhammiyā kathāya sandassito samādapito samuttejito sampahaṁsito kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavoca: ",
+      "english": "Then King Kikī said to the Buddha, "
+    },
+    {
+      "number": 100,
+      "pali": "‘adhivāsetu me, bhante, bhagavā svātanāya bhattaṁ saddhiṁ bhikkhusaṅghenā’ti. ",
+      "english": "‘Sir, would the Buddha together with the mendicant Saṅgha please accept tomorrow’s meal from me?’ "
+    },
+    {
+      "number": 101,
+      "pali": "Adhivāsesi kho, ānanda, kassapo bhagavā arahaṁ sammāsambuddho tuṇhībhāvena. ",
+      "english": "The Buddha Kassapa consented with silence. "
+    },
+    {
+      "number": 102,
+      "pali": "Atha kho, ānanda, kikī kāsirājā kassapassa bhagavato sammāsambuddhassa adhivāsanaṁ viditvā uṭṭhāyāsanā kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā padakkhiṇaṁ katvā pakkāmi. ",
+      "english": "Then, knowing that the Buddha had consented, King Kikī got up from his seat, bowed, and respectfully circled the Buddha, keeping him on his right, before leaving. "
+    },
+    {
+      "number": 103,
+      "pali": "Atha kho, ānanda, kikī kāsirājā tassā rattiyā accayena sake nivesane paṇītaṁ khādanīyaṁ bhojanīyaṁ paṭiyādāpetvā paṇḍupuṭakassa sālino vigatakāḷakaṁ anekasūpaṁ anekabyañjanaṁ, kassapassa bhagavato arahato sammāsambuddhassa kālaṁ ārocāpesi: ",
+      "english": "And when the night had passed, King Kikī had delicious fresh and cooked foods prepared in his own home—soft saffron rice with the dark grains picked out, served with many soups and sauces. Then he had the Buddha informed of the time, saying, "
+    },
+    {
+      "number": 104,
+      "pali": "‘kālo, bhante, niṭṭhitaṁ bhattan’ti. ",
+      "english": "‘Sir, it’s time. The meal is ready.’ "
+    },
+    {
+      "number": 105,
+      "pali": "Atha kho, ānanda, kassapo bhagavā arahaṁ sammāsambuddho pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya yena kikissa kāsirañño nivesanaṁ tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi saddhiṁ bhikkhusaṅghena. ",
+      "english": "Then Kassapa Buddha robed up in the morning and, taking his bowl and robe, went to the home of King Kikī, where he sat on the seat spread out, together with the Saṅgha of mendicants. "
+    },
+    {
+      "number": 106,
+      "pali": "Atha kho, ānanda, kikī kāsirājā buddhappamukhaṁ bhikkhusaṅghaṁ paṇītena khādanīyena bhojanīyena sahatthā santappesi sampavāresi. ",
+      "english": "Then King Kikī served and satisfied the mendicant Saṅgha headed by the Buddha with his own hands with delicious fresh and cooked foods. "
+    },
+    {
+      "number": 107,
+      "pali": "Atha kho, ānanda, kikī kāsirājā kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ bhuttāviṁ onītapattapāṇiṁ aññataraṁ nīcaṁ āsanaṁ gahetvā ekamantaṁ nisīdi. ",
+      "english": "When the Buddha Kassapa had eaten and washed his hand and bowl, King Kikī took a low seat and sat to one side. "
+    },
+    {
+      "number": 108,
+      "pali": "Ekamantaṁ nisinno kho, ānanda, kikī kāsirājā kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavoca: ",
+      "english": "There he said to the Buddha Kassapa, "
+    },
+    {
+      "number": 109,
+      "pali": "‘adhivāsetu me, bhante, bhagavā bārāṇasiyaṁ vassāvāsaṁ; ",
+      "english": "‘Sir, would the Buddha please accept my invitation to reside in Varanasi for the rainy season? "
+    },
+    {
+      "number": 110,
+      "pali": "evarūpaṁ saṅghassa upaṭṭhānaṁ bhavissatī’ti. ",
+      "english": "The Saṅgha will be looked after in the same style.’ "
+    },
+    {
+      "number": 111,
+      "pali": "‘Alaṁ, mahārāja. ",
+      "english": "‘Enough, great king. "
+    },
+    {
+      "number": 112,
+      "pali": "Adhivuttho me vassāvāso’ti. ",
+      "english": "I have already accepted an invitation for the rains residence.’ "
+    },
+    {
+      "number": 113,
+      "pali": "Dutiyampi kho, ānanda … ",
+      "english": "For a second time … "
+    },
+    {
+      "number": 114,
+      "pali": "tatiyampi kho, ānanda, kikī kāsirājā kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavoca: ",
+      "english": "and a third time King Kikī said to the Buddha Kassapa, "
+    },
+    {
+      "number": 115,
+      "pali": "‘adhivāsetu me, bhante, bhagavā bārāṇasiyaṁ vassāvāsaṁ; ",
+      "english": "‘Sir, would the Buddha please accept my invitation to reside in Varanasi for the rainy season? "
+    },
+    {
+      "number": 116,
+      "pali": "evarūpaṁ saṅghassa upaṭṭhānaṁ bhavissatī’ti. ",
+      "english": "The Saṅgha will be looked after in the same style.’ "
+    },
+    {
+      "number": 117,
+      "pali": "‘Alaṁ, mahārāja. ",
+      "english": "‘Enough, Great King. "
+    },
+    {
+      "number": 118,
+      "pali": "Adhivuttho me vassāvāso’ti. ",
+      "english": "I have already accepted an invitation for the rains residence.’ "
+    },
+    {
+      "number": 119,
+      "pali": "Atha kho, ānanda, kikissa kāsirañño ‘na me kassapo bhagavā arahaṁ sammāsambuddho adhivāseti bārāṇasiyaṁ vassāvāsan’ti ahudeva aññathattaṁ, ahu domanassaṁ. ",
+      "english": "Then King Kikī, thinking, ‘The Buddha does not accept my invitation to reside for the rains in Varanasi,’ became sad and upset. "
+    },
+    {
+      "number": 120,
+      "pali": "Atha kho, ānanda, kikī kāsirājā kassapaṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavoca: ",
+      "english": "Then King Kikī said to the Buddha Kassapa, "
+    },
+    {
+      "number": 121,
+      "pali": "‘atthi nu kho, bhante, añño koci mayā upaṭṭhākataro’ti? ",
+      "english": "‘Sir, do you have another supporter better than me?’ "
+    },
+    {
+      "number": 122,
+      "pali": "‘Atthi, mahārāja, vegaḷiṅgaṁ nāma gāmanigamo. ",
+      "english": "‘Great king, there is a market town named Vebhaliṅga, "
+    },
+    {
+      "number": 123,
+      "pali": "Tattha ghaṭikāro nāma kumbhakāro; ",
+      "english": "where there is a potter named Ghaṭīkāra. "
+    },
+    {
+      "number": 124,
+      "pali": "so me upaṭṭhāko aggupaṭṭhāko. ",
+      "english": "He is my chief supporter. "
+    },
+    {
+      "number": 125,
+      "pali": "Tuyhaṁ kho pana, mahārāja, na me kassapo bhagavā arahaṁ sammāsambuddho adhivāseti bārāṇasiyaṁ vassāvāsanti attheva aññathattaṁ, atthi domanassaṁ. ",
+      "english": "Now, great king, when you thought, “The Buddha does not accept my invitation to reside for the rains in Varanasi,” you became sad and upset. "
+    },
+    {
+      "number": 126,
+      "pali": "Tayidaṁ ghaṭikārassa kumbhakārassa natthi ca na ca bhavissati. ",
+      "english": "But Ghaṭīkāra doesn’t get upset, nor will he. "
+    },
+    {
+      "number": 127,
+      "pali": "Ghaṭikāro kho, mahārāja, kumbhakāro buddhaṁ saraṇaṁ gato, dhammaṁ saraṇaṁ gato, saṅghaṁ saraṇaṁ gato. ",
+      "english": "Ghaṭīkāra has gone for refuge to the Buddha, the teaching, and the Saṅgha. "
+    },
+    {
+      "number": 128,
+      "pali": "Ghaṭikāro kho, mahārāja, kumbhakāro pāṇātipātā paṭivirato, adinnādānā paṭivirato, kāmesumicchācārā paṭivirato, musāvādā paṭivirato, surāmerayamajjapamādaṭṭhānā paṭivirato. ",
+      "english": "He doesn’t kill living creatures, steal, commit sexual misconduct, lie, or consume beer, wine, and liquor intoxicants. "
+    },
+    {
+      "number": 129,
+      "pali": "Ghaṭikāro kho, mahārāja, kumbhakāro buddhe aveccappasādena samannāgato, dhamme aveccappasādena samannāgato, saṅghe aveccappasādena samannāgato, ariyakantehi sīlehi samannāgato. ",
+      "english": "He has experiential confidence in the Buddha, the teaching, and the Saṅgha, and possesses the ethics loved by the noble ones. "
+    },
+    {
+      "number": 130,
+      "pali": "Ghaṭikāro kho, mahārāja, kumbhakāro dukkhe nikkaṅkho, dukkhasamudaye nikkaṅkho, dukkhanirodhe nikkaṅkho, dukkhanirodhagāminiyā paṭipadāya nikkaṅkho. ",
+      "english": "He is free of doubt regarding suffering, its origin, its cessation, and the practice that leads to its cessation. "
+    },
+    {
+      "number": 131,
+      "pali": "Ghaṭikāro kho, mahārāja, kumbhakāro ekabhattiko brahmacārī sīlavā kalyāṇadhammo. ",
+      "english": "He eats in one part of the day; he’s chaste, ethical, and of good character. "
+    },
+    {
+      "number": 132,
+      "pali": "Ghaṭikāro kho, mahārāja, kumbhakāro nikkhittamaṇisuvaṇṇo apetajātarūparajato. ",
+      "english": "He has set aside gems and gold, and quit using gold and currency. "
+    },
+    {
+      "number": 133,
+      "pali": "Ghaṭikāro kho, mahārāja, kumbhakāro pannamusalo na sahatthā pathaviṁ khaṇati. ",
+      "english": "He has put down the shovel and doesn’t dig the earth with his own hands. "
+    },
+    {
+      "number": 134,
+      "pali": "Yaṁ hoti kūlapaluggaṁ vā mūsikukkaro vā taṁ kājena āharitvā bhājanaṁ karitvā evamāha: ",
+      "english": "He takes what has crumbled off by a riverbank or been dug up by mice, and brings it back in a carrier. When he has made a pot, he says, "
+    },
+    {
+      "number": 135,
+      "pali": "“ettha yo icchati taṇḍulapaṭibhastāni vā muggapaṭibhastāni vā kaḷāyapaṭibhastāni vā nikkhipitvā yaṁ icchati taṁ haratū”ti. ",
+      "english": "“Anyone may leave bagged sesame, mung beans, or chickpeas here and take what they wish.” "
+    },
+    {
+      "number": 136,
+      "pali": "Ghaṭikāro kho, mahārāja, kumbhakāro andhe jiṇṇe mātāpitaro poseti. ",
+      "english": "He provided for his blind old parents. "
+    },
+    {
+      "number": 137,
+      "pali": "Ghaṭikāro kho, mahārāja, kumbhakāro pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko tattha parinibbāyī anāvattidhammo tasmā lokā. ",
+      "english": "And since he has ended the five lower fetters, Ghaṭīkāra will be reborn spontaneously and will become extinguished there, not liable to return from that world. "
+    },
+    {
+      "number": 138,
+      "pali": "Ekamidāhaṁ, mahārāja, samayaṁ vegaḷiṅge nāma gāmanigame viharāmi. ",
+      "english": "This one time, great king, I was staying near the market town of Vebhaliṅga. "
+    },
+    {
+      "number": 139,
+      "pali": "Atha khvāhaṁ, mahārāja, pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya yena ghaṭikārassa kumbhakārassa mātāpitaro tenupasaṅkamiṁ; upasaṅkamitvā ghaṭikārassa kumbhakārassa mātāpitaro etadavocaṁ: ",
+      "english": "Then I robed up in the morning and, taking my bowl and robe, went to the home of Ghaṭīkāra’s parents, where I said to them, "
+    },
+    {
+      "number": 140,
+      "pali": "“handa ko nu kho ayaṁ bhaggavo gato”ti? ",
+      "english": "“Excuse me, where has Bhaggava gone?” "
+    },
+    {
+      "number": 141,
+      "pali": "“Nikkhanto kho te, bhante, upaṭṭhāko antokumbhiyā odanaṁ gahetvā pariyogā sūpaṁ gahetvā paribhuñjā”ti. ",
+      "english": "“Your supporter has gone out, sir. But take rice from the pot and sauce from the pan and eat.” "
+    },
+    {
+      "number": 142,
+      "pali": "Atha khvāhaṁ, mahārāja, kumbhiyā odanaṁ gahetvā pariyogā sūpaṁ gahetvā paribhuñjitvā uṭṭhāyāsanā pakkamiṁ. ",
+      "english": "So that’s what I did. And after eating I got up from my seat and left. "
+    },
+    {
+      "number": 143,
+      "pali": "Atha kho, mahārāja, ghaṭikāro kumbhakāro yena mātāpitaro tenupasaṅkami; upasaṅkamitvā mātāpitaro etadavoca: ",
+      "english": "Then Ghaṭīkāra went up to his parents and said, "
+    },
+    {
+      "number": 144,
+      "pali": "“ko kumbhiyā odanaṁ gahetvā pariyogā sūpaṁ gahetvā paribhuñjitvā uṭṭhāyāsanā pakkanto”ti? ",
+      "english": "“Who took rice from the pot and sauce from the pan, ate it, and left?” "
+    },
+    {
+      "number": 145,
+      "pali": "“Kassapo, tāta, bhagavā arahaṁ sammāsambuddho kumbhiyā odanaṁ gahetvā pariyogā sūpaṁ gahetvā paribhuñjitvā uṭṭhāyāsanā pakkanto”ti? ",
+      "english": "“It was the Buddha Kassapa, my dear.” "
+    },
+    {
+      "number": 146,
+      "pali": "Atha kho, mahārāja, ghaṭikārassa kumbhakārassa etadahosi: ",
+      "english": "Then Ghaṭīkāra thought, "
+    },
+    {
+      "number": 147,
+      "pali": "“lābhā vata me, suladdhaṁ vata me, ",
+      "english": "“I’m so fortunate, so very fortunate, "
+    },
+    {
+      "number": 148,
+      "pali": "yassa me kassapo bhagavā arahaṁ sammāsambuddho evaṁ abhivissattho”ti. ",
+      "english": "in that the Buddha Kassapa trusts me so much!” "
+    },
+    {
+      "number": 149,
+      "pali": "Atha kho, mahārāja, ghaṭikāraṁ kumbhakāraṁ aḍḍhamāsaṁ pītisukhaṁ na vijahati, sattāhaṁ mātāpitūnaṁ. ",
+      "english": "Then joy and happiness did not leave him for a fortnight, or his parents for a week. "
+    },
+    {
+      "number": 150,
+      "pali": "Ekamidāhaṁ, mahārāja, samayaṁ tattheva vegaḷiṅge nāma gāmanigame viharāmi. ",
+      "english": "Another time, great king, I was staying near that same market town of Vebhaliṅga. "
+    },
+    {
+      "number": 151,
+      "pali": "Atha khvāhaṁ, mahārāja, pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya yena ghaṭikārassa kumbhakārassa mātāpitaro tenupasaṅkamiṁ; upasaṅkamitvā ghaṭikārassa kumbhakārassa mātāpitaro etadavocaṁ: ",
+      "english": "Then I robed up in the morning and, taking my bowl and robe, went to the home of Ghaṭīkāra’s parents, where I said to them, "
+    },
+    {
+      "number": 152,
+      "pali": "“handa ko nu kho ayaṁ bhaggavo gato”ti? ",
+      "english": "“Excuse me, where has Bhaggava gone?” "
+    },
+    {
+      "number": 153,
+      "pali": "“Nikkhanto kho te, bhante, upaṭṭhāko anto kaḷopiyā kummāsaṁ gahetvā pariyogā sūpaṁ gahetvā paribhuñjā”ti. ",
+      "english": "“Your supporter has gone out, sir. But take porridge from the pot and sauce from the pan and eat.” "
+    },
+    {
+      "number": 154,
+      "pali": "Atha khvāhaṁ, mahārāja, kaḷopiyā kummāsaṁ gahetvā pariyogā sūpaṁ gahetvā paribhuñjitvā uṭṭhāyāsanā pakkamiṁ. ",
+      "english": "So that’s what I did. And after eating I got up from my seat and left. "
+    },
+    {
+      "number": 155,
+      "pali": "Atha kho, mahārāja, ghaṭikāro kumbhakāro yena mātāpitaro tenupasaṅkami; upasaṅkamitvā mātāpitaro etadavoca: ",
+      "english": "Then Ghaṭīkāra went up to his parents and said, "
+    },
+    {
+      "number": 156,
+      "pali": "“ko kaḷopiyā kummāsaṁ gahetvā pariyogā sūpaṁ gahetvā paribhuñjitvā uṭṭhāyāsanā pakkanto”ti? ",
+      "english": "“Who took porridge from the pot and sauce from the pan, ate it, and left?” "
+    },
+    {
+      "number": 157,
+      "pali": "“Kassapo, tāta, bhagavā arahaṁ sammāsambuddho kaḷopiyā kummāsaṁ gahetvā pariyogā sūpaṁ gahetvā paribhuñjitvā uṭṭhāyāsanā pakkanto”ti. ",
+      "english": "“It was the Buddha Kassapa, my dear.” "
+    },
+    {
+      "number": 158,
+      "pali": "Atha kho, mahārāja, ghaṭikārassa kumbhakārassa etadahosi: ",
+      "english": "Then Ghaṭīkāra thought, "
+    },
+    {
+      "number": 159,
+      "pali": "“lābhā vata me, suladdhaṁ vata me, ",
+      "english": "“I’m so fortunate, so very fortunate, "
+    },
+    {
+      "number": 160,
+      "pali": "yassa me kassapo bhagavā arahaṁ sammāsambuddho evaṁ abhivissattho”ti. ",
+      "english": "to be trusted so much by the Buddha Kassapa!” "
+    },
+    {
+      "number": 161,
+      "pali": "Atha kho, mahārāja, ghaṭikāraṁ kumbhakāraṁ aḍḍhamāsaṁ pītisukhaṁ na vijahati, sattāhaṁ mātāpitūnaṁ. ",
+      "english": "Then joy and happiness did not leave him for a fortnight, or his parents for a week. "
+    },
+    {
+      "number": 162,
+      "pali": "Ekamidāhaṁ, mahārāja, samayaṁ tattheva vegaḷiṅge nāma gāmanigame viharāmi. ",
+      "english": "Another time, great king, I was staying near that same market town of Vebhaliṅga. "
+    },
+    {
+      "number": 163,
+      "pali": "Tena kho pana samayena kuṭi ovassati. ",
+      "english": "Now at that time my hut leaked. "
+    },
+    {
+      "number": 164,
+      "pali": "Atha khvāhaṁ, mahārāja, bhikkhū āmantesiṁ: ",
+      "english": "So I addressed the mendicants, "
+    },
+    {
+      "number": 165,
+      "pali": "“gacchatha, bhikkhave, ghaṭikārassa kumbhakārassa nivesane tiṇaṁ jānāthā”ti. ",
+      "english": "“Mendicants, go to Ghaṭīkāra’s home and find some grass.” "
+    },
+    {
+      "number": 166,
+      "pali": "Evaṁ vutte, mahārāja, te bhikkhū maṁ etadavocuṁ: ",
+      "english": "When I said this, those mendicants said to me, "
+    },
+    {
+      "number": 167,
+      "pali": "“natthi kho, bhante, ghaṭikārassa kumbhakārassa nivesane tiṇaṁ, atthi ca khvāssa āvesane tiṇacchadanan”ti. ",
+      "english": "“Sir, there’s no grass there, but his workshop has a grass roof.” "
+    },
+    {
+      "number": 168,
+      "pali": "“Gacchatha, bhikkhave, ghaṭikārassa kumbhakārassa āvesanaṁ uttiṇaṁ karothā”ti. ",
+      "english": "“Then go to the workshop and strip the grass.” "
+    },
+    {
+      "number": 169,
+      "pali": "Atha kho te, mahārāja, bhikkhū ghaṭikārassa kumbhakārassa āvesanaṁ uttiṇamakaṁsu. ",
+      "english": "So that’s what they did. "
+    },
+    {
+      "number": 170,
+      "pali": "Atha kho, mahārāja, ghaṭikārassa kumbhakārassa mātāpitaro te bhikkhū etadavocuṁ: ",
+      "english": "Then Ghaṭīkāra’s parents said to those mendicants, "
+    },
+    {
+      "number": 171,
+      "pali": "“ke āvesanaṁ uttiṇaṁ karontī”ti? ",
+      "english": "“Who’s stripping the grass from the workshop?” "
+    },
+    {
+      "number": 172,
+      "pali": "“Bhikkhū, bhagini, kassapassa bhagavato arahato sammāsambuddhassa kuṭi ovassatī”ti. ",
+      "english": "“It’s the mendicants, sister. The Buddha’s hut is leaking.” "
+    },
+    {
+      "number": 173,
+      "pali": "“Haratha, bhante, haratha, bhadramukhā”ti. ",
+      "english": "“Take it, sirs! Take it, dearest ones!” "
+    },
+    {
+      "number": 174,
+      "pali": "Atha kho, mahārāja, ghaṭikāro kumbhakāro yena mātāpitaro tenupasaṅkami; upasaṅkamitvā mātāpitaro etadavoca: ",
+      "english": "Then Ghaṭīkāra went up to his parents and said, "
+    },
+    {
+      "number": 175,
+      "pali": "“ke āvesanaṁ uttiṇamakaṁsū”ti? ",
+      "english": "“Who stripped the grass from the workshop?” "
+    },
+    {
+      "number": 176,
+      "pali": "“Bhikkhū, tāta, kassapassa kira bhagavato arahato sammāsambuddhassa kuṭi ovassatī”ti. ",
+      "english": "“It was the mendicants, dear. It seems the Buddha’s hut is leaking.” "
+    },
+    {
+      "number": 177,
+      "pali": "Atha kho, mahārāja, ghaṭikārassa kumbhakārassa etadahosi: ",
+      "english": "Then Ghaṭīkāra thought, "
+    },
+    {
+      "number": 178,
+      "pali": "“lābhā vata me, suladdhaṁ vata me, ",
+      "english": "“I’m so fortunate, so very fortunate, "
+    },
+    {
+      "number": 179,
+      "pali": "yassa me kassapo bhagavā arahaṁ sammāsambuddho evaṁ abhivissattho”ti. ",
+      "english": "to be trusted so much by the Buddha Kassapa!” "
+    },
+    {
+      "number": 180,
+      "pali": "Atha kho, mahārāja, ghaṭikāraṁ kumbhakāraṁ aḍḍhamāsaṁ pītisukhaṁ na vijahati, sattāhaṁ mātāpitūnaṁ. ",
+      "english": "Then joy and happiness did not leave him for a fortnight, or his parents for a week. "
+    },
+    {
+      "number": 181,
+      "pali": "Atha kho, mahārāja, āvesanaṁ sabbantaṁ temāsaṁ ākāsacchadanaṁ aṭṭhāsi, na devotivassi. ",
+      "english": "Then the workshop remained with the atmosphere for a roof for the whole three months, but the heavens did not rain on it. "
+    },
+    {
+      "number": 182,
+      "pali": "Evarūpo ca, mahārāja, ghaṭikāro kumbhakāro’ti. ",
+      "english": "And that, great king, is what Ghaṭīkāra the potter is like.’ "
+    },
+    {
+      "number": 183,
+      "pali": "‘Lābhā, bhante, ghaṭikārassa kumbhakārassa, suladdhā, bhante, ghaṭikārassa kumbhakārassa ",
+      "english": "‘Ghaṭīkāra the potter is fortunate, very fortunate, "
+    },
+    {
+      "number": 184,
+      "pali": "yassa bhagavā evaṁ abhivissattho’ti. ",
+      "english": "to be so trusted by the Buddha Kassapa.’ "
+    },
+    {
+      "number": 185,
+      "pali": "Atha kho, ānanda, kikī kāsirājā ghaṭikārassa kumbhakārassa pañcamattāni taṇḍulavāhasatāni pāhesi paṇḍupuṭakassa sālino tadupiyañca sūpeyyaṁ. ",
+      "english": "Then King Kikī sent around five hundred loads of rice, soft saffron rice, and suitable sauce to Ghaṭīkāra. "
+    },
+    {
+      "number": 186,
+      "pali": "Atha kho te, ānanda, rājapurisā ghaṭikāraṁ kumbhakāraṁ upasaṅkamitvā etadavocuṁ: ",
+      "english": "Then one of the king’s men approached Ghaṭīkāra and said, "
+    },
+    {
+      "number": 187,
+      "pali": "‘imāni kho, bhante, pañcamattāni taṇḍulavāhasatāni kikinā kāsirājena pahitāni paṇḍupuṭakassa sālino tadupiyañca sūpeyyaṁ. ",
+      "english": "‘Sir, these five hundred loads of rice, soft saffron rice, and suitable sauce have been sent to you by King Kikī of Kāsi. "
+    },
+    {
+      "number": 188,
+      "pali": "Tāni, bhante, paṭiggaṇhathā’ti. ",
+      "english": "Please accept them.’ "
+    },
+    {
+      "number": 189,
+      "pali": "‘Rājā kho bahukicco bahukaraṇīyo. ",
+      "english": "‘The king has many duties, and much to do. "
+    },
+    {
+      "number": 190,
+      "pali": "Alaṁ me. ",
+      "english": "I have enough. "
+    },
+    {
+      "number": 191,
+      "pali": "Raññova hotū’ti. ",
+      "english": "Let this be for the king himself.’ "
+    },
+    {
+      "number": 192,
+      "pali": "Siyā kho pana te, ānanda, evamassa: ",
+      "english": "Ānanda, you might think: "
+    },
+    {
+      "number": 193,
+      "pali": "‘añño nūna tena samayena jotipālo māṇavo ahosī’ti. ",
+      "english": "‘Surely the student Jotipāla must have been someone else at that time?’ "
+    },
+    {
+      "number": 194,
+      "pali": "Na kho panetaṁ, ānanda, evaṁ daṭṭhabbaṁ. ",
+      "english": "But you should not see it like this. "
+    },
+    {
+      "number": 195,
+      "pali": "Ahaṁ tena samayena jotipālo māṇavo ahosin”ti. ",
+      "english": "I myself was the student Jotipāla at that time.” "
+    },
+    {
+      "number": 196,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 197,
+      "pali": "Attamano āyasmā ānando bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Ānanda approved what the Buddha said. "
+    },
+    {
+      "number": 198,
+      "pali": "Ghaṭikārasuttaṁ niṭṭhitaṁ paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

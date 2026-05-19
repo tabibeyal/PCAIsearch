@@ -1,0 +1,320 @@
+{
+  "sutta_id": "AN4.187",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 4.187 ",
+      "english": "Numbered Discourses 4.187 "
+    },
+    {
+      "number": 2,
+      "pali": "19. Brāhmaṇavagga ",
+      "english": "19. Brahmins "
+    },
+    {
+      "number": 3,
+      "pali": "Vassakārasutta ",
+      "english": "With Vassakāra "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā rājagahe viharati veḷuvane kalandakanivāpe. ",
+      "english": "At one time the Buddha was staying near Rājagaha, in the Bamboo Grove, the squirrels’ feeding ground. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho vassakāro brāhmaṇo magadhamahāmatto yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "Then Vassakāra the brahmin, a chief minister of Magadha, went up to the Buddha, and exchanged greetings with him. "
+    },
+    {
+      "number": 6,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho vassakāro brāhmaṇo magadhamahāmatto bhagavantaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to the Buddha: "
+    },
+    {
+      "number": 7,
+      "pali": "“Jāneyya nu kho, bho gotama, asappuriso asappurisaṁ: ",
+      "english": "“Worthy Gotama, could an untrue person know of an untrue person: "
+    },
+    {
+      "number": 8,
+      "pali": "‘asappuriso ayaṁ bhavan’”ti? ",
+      "english": "‘This worthy one is an untrue person’?” "
+    },
+    {
+      "number": 9,
+      "pali": "“Aṭṭhānaṁ kho etaṁ, brāhmaṇa, anavakāso yaṁ asappuriso asappurisaṁ jāneyya: ",
+      "english": "“That’s impossible, brahmin, it can’t happen.” "
+    },
+    {
+      "number": 10,
+      "pali": "‘asappuriso ayaṁ bhavan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 11,
+      "pali": "“Jāneyya pana, bho gotama, asappuriso sappurisaṁ: ",
+      "english": "“Could an untrue person know of a true person: "
+    },
+    {
+      "number": 12,
+      "pali": "‘sappuriso ayaṁ bhavan’”ti? ",
+      "english": "‘This worthy one is a true person’?” "
+    },
+    {
+      "number": 13,
+      "pali": "“Etampi kho, brāhmaṇa, aṭṭhānaṁ anavakāso yaṁ asappuriso sappurisaṁ jāneyya: ",
+      "english": "“That too is impossible, it can’t happen.” "
+    },
+    {
+      "number": 14,
+      "pali": "‘sappuriso ayaṁ bhavan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "“Jāneyya nu kho, bho gotama, sappuriso sappurisaṁ: ",
+      "english": "“Worthy Gotama, could a true person know of a true person: "
+    },
+    {
+      "number": 16,
+      "pali": "‘sappuriso ayaṁ bhavan’”ti? ",
+      "english": "‘This worthy one is a true person’?” "
+    },
+    {
+      "number": 17,
+      "pali": "“Ṭhānaṁ kho etaṁ, brāhmaṇa, vijjati yaṁ sappuriso sappurisaṁ jāneyya: ",
+      "english": "“That, brahmin, is possible.” "
+    },
+    {
+      "number": 18,
+      "pali": "‘sappuriso ayaṁ bhavan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "“Jāneyya pana, bho gotama, sappuriso asappurisaṁ: ",
+      "english": "“Could a true person know of an untrue person: "
+    },
+    {
+      "number": 20,
+      "pali": "‘asappuriso ayaṁ bhavan’”ti? ",
+      "english": "‘This worthy one is an untrue person’?” "
+    },
+    {
+      "number": 21,
+      "pali": "“Etampi kho, brāhmaṇa, ṭhānaṁ vijjati yaṁ sappuriso asappurisaṁ jāneyya: ",
+      "english": "“That too is possible.” "
+    },
+    {
+      "number": 22,
+      "pali": "‘asappuriso ayaṁ bhavan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "“Acchariyaṁ, bho gotama, abbhutaṁ, bho gotama. ",
+      "english": "“It’s incredible, worthy Gotama, it’s amazing, "
+    },
+    {
+      "number": 24,
+      "pali": "Yāva subhāsitañcidaṁ bhotā gotamena: ",
+      "english": "how well said this was by the worthy Gotama: "
+    },
+    {
+      "number": 25,
+      "pali": "‘aṭṭhānaṁ kho etaṁ, brāhmaṇa, anavakāso yaṁ asappuriso asappurisaṁ jāneyya—",
+      "english": "‘It’s impossible, it can’t happen, that an untrue person could know … "
+    },
+    {
+      "number": 26,
+      "pali": "asappuriso ayaṁ bhavanti. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "Etampi kho, brāhmaṇa, aṭṭhānaṁ anavakāso yaṁ asappuriso sappurisaṁ jāneyya—",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "sappuriso ayaṁ bhavanti. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Ṭhānaṁ kho etaṁ, brāhmaṇa, vijjati yaṁ sappuriso sappurisaṁ jāneyya—",
+      "english": "But it is possible that a true person could know …’ "
+    },
+    {
+      "number": 30,
+      "pali": "sappuriso ayaṁ bhavanti. ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Etampi kho, brāhmaṇa, ṭhānaṁ vijjati yaṁ sappuriso asappurisaṁ jāneyya—",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "asappuriso ayaṁ bhavan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Ekamidaṁ, bho gotama, samayaṁ todeyyassa brāhmaṇassa parisati parūpārambhaṁ vattenti: ",
+      "english": "Once, members of the brahmin Todeyya’s assembly were going on complaining about others: "
+    },
+    {
+      "number": 34,
+      "pali": "‘bālo ayaṁ rājā eḷeyyo samaṇe rāmaputte abhippasanno, samaṇe ca pana rāmaputte evarūpaṁ paramanipaccakāraṁ karoti, yadidaṁ abhivādanaṁ paccuṭṭhānaṁ añjalikammaṁ sāmīcikammanti. ",
+      "english": "‘This King Eḷeyya is a fool to be so devoted to the ascetic Rāmaputta. He even shows him the utmost deference by bowing down to him, rising up for him, greeting him with cupped palms, and observing proper etiquette for him. "
+    },
+    {
+      "number": 35,
+      "pali": "Imepi rañño eḷeyyassa parihārakā bālā—",
+      "english": "And these king’s men are fools too—"
+    },
+    {
+      "number": 36,
+      "pali": "yamako moggallo uggo nāvindakī gandhabbo aggivesso, ye samaṇe rāmaputte abhippasannā, samaṇe ca pana rāmaputte evarūpaṁ paramanipaccakāraṁ karonti, yadidaṁ abhivādanaṁ paccuṭṭhānaṁ añjalikammaṁ sāmīcikamman’ti. ",
+      "english": "Yamaka, Moggalla, Ugga, Nāvindakī, Gandhabba, and Aggivessa—for they show the same kind of deference to Rāmaputta.’ "
+    },
+    {
+      "number": 37,
+      "pali": "Tyāssudaṁ todeyyo brāhmaṇo iminā nayena neti. ",
+      "english": "Then the brahmin Todeyya reasoned with them like this: "
+    },
+    {
+      "number": 38,
+      "pali": "‘Taṁ kiṁ maññanti, bhonto, ",
+      "english": "‘What do the good fellows think? "
+    },
+    {
+      "number": 39,
+      "pali": "paṇḍito rājā eḷeyyo karaṇīyādhikaraṇīyesu vacanīyādhivacanīyesu alamatthadasatarehi alamatthadasataro’ti? ",
+      "english": "When it comes to the various duties and speeches, isn’t King Eḷeyya astute, even better than the experts?’ "
+    },
+    {
+      "number": 40,
+      "pali": "‘Evaṁ, bho, paṇḍito rājā eḷeyyo karaṇīyādhikaraṇīyesu vacanīyādhivacanīyesu alamatthadasatarehi alamatthadasataroti. ",
+      "english": "‘That’s true, sir.’ "
+    },
+    {
+      "number": 41,
+      "pali": "Yasmā ca kho, bho, samaṇo rāmaputto raññā eḷeyyena paṇḍitena paṇḍitataro karaṇīyādhikaraṇīyesu vacanīyādhivacanīyesu alamatthadasatarena alamatthadasataro, tasmā rājā eḷeyyo samaṇe rāmaputte abhippasanno, samaṇe ca pana rāmaputte evarūpaṁ paramanipaccakāraṁ karoti, yadidaṁ abhivādanaṁ paccuṭṭhānaṁ añjalikammaṁ sāmīcikammaṁ’. ",
+      "english": "‘It’s because the ascetic Rāmaputta is even more astute and expert than King Eḷeyya that the king is so devoted to him. That’s why he even shows Rāmaputta the utmost deference by bowing down to him, rising up for him, greeting him with cupped palms, and observing proper etiquette for him. "
+    },
+    {
+      "number": 42,
+      "pali": "‘Taṁ kiṁ maññanti, bhonto, ",
+      "english": "‘What do the good fellows think? "
+    },
+    {
+      "number": 43,
+      "pali": "paṇḍitā rañño eḷeyyassa parihārakā—",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "yamako moggallo uggo nāvindakī gandhabbo aggivesso, karaṇīyādhikaraṇīyesu vacanīyādhivacanīyesu alamatthadasatarehi alamatthadasatarā’ti? ",
+      "english": "When it comes to the various duties and speeches, aren’t the king’s men—Yamaka, Moggalla, Ugga, Nāvindakī, Gandhabba, and Aggivessa—astute, even better than the experts?’ "
+    },
+    {
+      "number": 45,
+      "pali": "‘Evaṁ, bho, paṇḍitā rañño eḷeyyassa parihārakā—",
+      "english": "‘That’s true, sir.’ "
+    },
+    {
+      "number": 46,
+      "pali": "yamako moggallo uggo nāvindakī gandhabbo aggivesso, karaṇīyādhikaraṇīyesu vacanīyādhivacanīyesu alamatthadasatarehi alamatthadasatarāti. ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "Yasmā ca kho, bho, samaṇo rāmaputto rañño eḷeyyassa parihārakehi paṇḍitehi paṇḍitataro karaṇīyādhikaraṇīyesu vacanīyādhivacanīyesu alamatthadasatarehi alamatthadasataro, tasmā rañño eḷeyyassa parihārakā samaṇe rāmaputte abhippasannā; ",
+      "english": "‘It’s because Rāmaputta is even more astute and expert than the king’s men that they have such devotion to him. … "
+    },
+    {
+      "number": 48,
+      "pali": "samaṇe ca pana rāmaputte evarūpaṁ paramanipaccakāraṁ karonti, yadidaṁ abhivādanaṁ paccuṭṭhānaṁ añjalikammaṁ sāmīcikamman’ti. ",
+      "english": "It’s because Rāmaputta is even more astute and expert than King Eḷeyya that the king is so devoted to him. That’s why he even shows Rāmaputta the utmost deference by bowing down to him, rising up for him, greeting him with cupped palms, and observing proper etiquette for him.’ "
+    },
+    {
+      "number": 49,
+      "pali": "Acchariyaṁ, bho gotama, abbhutaṁ, bho gotama. ",
+      "english": "It’s incredible, worthy Gotama, it’s amazing, "
+    },
+    {
+      "number": 50,
+      "pali": "Yāva subhāsitañcidaṁ bhotā gotamena: ",
+      "english": "how well said this was by the worthy Gotama: "
+    },
+    {
+      "number": 51,
+      "pali": "‘aṭṭhānaṁ kho etaṁ, brāhmaṇa, anavakāso yaṁ asappuriso asappurisaṁ jāneyya—",
+      "english": "‘It’s impossible, it can’t happen, that an untrue person could know … "
+    },
+    {
+      "number": 52,
+      "pali": "asappuriso ayaṁ bhavanti. ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Etampi kho, brāhmaṇa, aṭṭhānaṁ anavakāso yaṁ asappuriso sappurisaṁ jāneyya—",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "sappuriso ayaṁ bhavanti. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Ṭhānaṁ kho etaṁ, brāhmaṇa, vijjati yaṁ sappuriso sappurisaṁ jāneyya—",
+      "english": "But it is possible that a true person could know … "
+    },
+    {
+      "number": 56,
+      "pali": "sappuriso ayaṁ bhavanti. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "Etampi kho, brāhmaṇa, ṭhānaṁ vijjati yaṁ sappuriso asappurisaṁ jāneyya—",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "asappuriso ayaṁ bhavan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "Handa ca dāni mayaṁ, bho gotama, gacchāma. ",
+      "english": "Well, now, worthy Gotama, I must go. "
+    },
+    {
+      "number": 60,
+      "pali": "Bahukiccā mayaṁ bahukaraṇīyā”ti. ",
+      "english": "I have many duties, and much to do.” "
+    },
+    {
+      "number": 61,
+      "pali": "“Yassadāni tvaṁ, brāhmaṇa, kālaṁ maññasī”ti. ",
+      "english": "“Please, brahmin, go at your convenience.” "
+    },
+    {
+      "number": 62,
+      "pali": "Atha kho vassakāro brāhmaṇo magadhamahāmatto bhagavato bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā pakkāmīti. ",
+      "english": "Then Vassakāra the brahmin, having approved and agreed with what the Buddha said, got up from his seat and left. "
+    },
+    {
+      "number": 63,
+      "pali": "Sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "sutta_id": "DHP123",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Mahādhanavāṇijavatthu ",
+      "english": ""
+    },
+    {
+      "number": 2,
+      "pali": "Vāṇijova bhayaṁ maggaṁ, ",
+      "english": "Avoid wickedness, "
+    },
+    {
+      "number": 3,
+      "pali": "appasattho mahaddhano; ",
+      "english": "as a merchant with rich cargo and small escort "
+    },
+    {
+      "number": 4,
+      "pali": "Visaṁ jīvitukāmova, ",
+      "english": "would avoid a dangerous road, "
+    },
+    {
+      "number": 5,
+      "pali": "pāpāni parivajjaye. ",
+      "english": "or one who loves life would avoid drinking poison. "
+    }
+  ]
+}

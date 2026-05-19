@@ -1,0 +1,150 @@
+{
+  "sutta_id": "SN12.34",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 12.34 ",
+      "english": "Linked Discourses 12.34 "
+    },
+    {
+      "number": 2,
+      "pali": "4. Kaḷārakhattiyavagga ",
+      "english": "4. Kaḷāra the Aristocrat "
+    },
+    {
+      "number": 3,
+      "pali": "Dutiyañāṇavatthusutta ",
+      "english": "Grounds for Knowledge (2nd) "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthiyaṁ viharati. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "“Sattasattari vo, bhikkhave, ñāṇavatthūni desessāmi. ",
+      "english": "“Mendicants, I will teach seventy-seven grounds for knowledge. "
+    },
+    {
+      "number": 6,
+      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "Listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 7,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Katamāni, bhikkhave, sattasattari ñāṇavatthūni? ",
+      "english": "“And what are the seventy-seven grounds for knowledge? "
+    },
+    {
+      "number": 10,
+      "pali": "Jātipaccayā jarāmaraṇanti ñāṇaṁ; ",
+      "english": "The knowledge that rebirth is a requirement for old age and death, "
+    },
+    {
+      "number": 11,
+      "pali": "asati jātiyā natthi jarāmaraṇanti ñāṇaṁ; ",
+      "english": "and the knowledge that when rebirth doesn’t exist, there is no old age and death. "
+    },
+    {
+      "number": 12,
+      "pali": "atītampi addhānaṁ jātipaccayā jarāmaraṇanti ñāṇaṁ, asati jātiyā natthi jarāmaraṇanti ñāṇaṁ; ",
+      "english": "Also regarding the past: the knowledge that rebirth is a requirement for old age and death, and the knowledge that when rebirth doesn’t exist, there is no old age and death. "
+    },
+    {
+      "number": 13,
+      "pali": "anāgatampi addhānaṁ jātipaccayā jarāmaraṇanti ñāṇaṁ, asati jātiyā natthi jarāmaraṇanti ñāṇaṁ; ",
+      "english": "Also regarding the future: the knowledge that rebirth is a requirement for old age and death, and the knowledge that when rebirth doesn’t exist, there is no old age and death. "
+    },
+    {
+      "number": 14,
+      "pali": "yampissa taṁ dhammaṭṭhitiñāṇaṁ tampi khayadhammaṁ vayadhammaṁ virāgadhammaṁ nirodhadhammanti ñāṇaṁ. ",
+      "english": "And also their knowledge that even this knowledge of the stability of natural principles is liable to end, vanish, fade away, and cease. "
+    },
+    {
+      "number": 15,
+      "pali": "Bhavapaccayā jātīti ñāṇaṁ …pe… ",
+      "english": "The knowledge that continued existence is a requirement for rebirth … "
+    },
+    {
+      "number": 16,
+      "pali": "upādānapaccayā bhavoti ñāṇaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "taṇhāpaccayā upādānanti ñāṇaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "vedanāpaccayā taṇhāti ñāṇaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "phassapaccayā vedanāti ñāṇaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "saḷāyatanapaccayā phassoti ñāṇaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "nāmarūpapaccayā saḷāyatananti ñāṇaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "viññāṇapaccayā nāmarūpanti ñāṇaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "saṅkhārapaccayā viññāṇanti ñāṇaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "avijjāpaccayā saṅkhārāti ñāṇaṁ, asati avijjāya natthi saṅkhārāti ñāṇaṁ; ",
+      "english": "The knowledge that ignorance is a requirement for choices, and the knowledge that when ignorance doesn’t exist, there are no choices. "
+    },
+    {
+      "number": 25,
+      "pali": "atītampi addhānaṁ avijjāpaccayā saṅkhārāti ñāṇaṁ, asati avijjāya natthi saṅkhārāti ñāṇaṁ; ",
+      "english": "Also regarding the past: the knowledge that ignorance is a requirement for choices, and the knowledge that when ignorance doesn’t exist, there are no choices. "
+    },
+    {
+      "number": 26,
+      "pali": "anāgatampi addhānaṁ avijjāpaccayā saṅkhārāti ñāṇaṁ, asati avijjāya natthi saṅkhārāti ñāṇaṁ; ",
+      "english": "Also regarding the future: the knowledge that ignorance is a requirement for choices, and the knowledge that when ignorance doesn’t exist, there are no choices. "
+    },
+    {
+      "number": 27,
+      "pali": "yampissa taṁ dhammaṭṭhitiñāṇaṁ tampi khayadhammaṁ vayadhammaṁ virāgadhammaṁ nirodhadhammanti ñāṇaṁ. ",
+      "english": "And also their knowledge that even this knowledge of the stability of natural principles is liable to end, vanish, fade away, and cease. "
+    },
+    {
+      "number": 28,
+      "pali": "Imāni vuccanti, bhikkhave, sattasattari ñāṇavatthūnī”ti. ",
+      "english": "These are called the seventy-seven grounds for knowledge.” "
+    },
+    {
+      "number": 29,
+      "pali": "Catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "sutta_id": "AN7.4",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 7.4 ",
+      "english": "Numbered Discourses 7.4 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Dhanavagga ",
+      "english": "1. Wealth "
+    },
+    {
+      "number": 3,
+      "pali": "Vitthatabalasutta ",
+      "english": "Powers in Detail "
+    },
+    {
+      "number": 4,
+      "pali": "“Sattimāni, bhikkhave, balāni. ",
+      "english": "“Mendicants, there are these seven powers. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamāni satta? ",
+      "english": "What seven? "
+    },
+    {
+      "number": 6,
+      "pali": "Saddhābalaṁ, vīriyabalaṁ, hirībalaṁ, ottappabalaṁ, satibalaṁ, samādhibalaṁ, paññābalaṁ. ",
+      "english": "The powers of faith, energy, conscience, prudence, mindfulness, immersion, and wisdom. "
+    },
+    {
+      "number": 7,
+      "pali": "Katamañca, bhikkhave, saddhābalaṁ? ",
+      "english": "And what is the power of faith? "
+    },
+    {
+      "number": 8,
+      "pali": "Idha, bhikkhave, ariyasāvako saddho hoti, saddahati tathāgatassa bodhiṁ: ",
+      "english": "It’s when a noble disciple has faith in the Realized One’s awakening: "
+    },
+    {
+      "number": 9,
+      "pali": "‘itipi so bhagavā arahaṁ sammāsambuddho …pe… satthā devamanussānaṁ buddho bhagavā’ti. ",
+      "english": "‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ "
+    },
+    {
+      "number": 10,
+      "pali": "Idaṁ vuccati, bhikkhave, saddhābalaṁ. ",
+      "english": "This is called the power of faith. "
+    },
+    {
+      "number": 11,
+      "pali": "Katamañca, bhikkhave, vīriyabalaṁ? ",
+      "english": "And what is the power of energy? "
+    },
+    {
+      "number": 12,
+      "pali": "Idha, bhikkhave, ariyasāvako āraddhavīriyo viharati akusalānaṁ dhammānaṁ pahānāya, kusalānaṁ dhammānaṁ upasampadāya, thāmavā daḷhaparakkamo anikkhittadhuro kusalesu dhammesu. ",
+      "english": "It’s when a noble disciple lives with energy roused up for giving up unskillful qualities and embracing skillful qualities. They’re strong, staunchly vigorous, not slacking off when it comes to developing skillful qualities. "
+    },
+    {
+      "number": 13,
+      "pali": "Idaṁ vuccati, bhikkhave, vīriyabalaṁ. ",
+      "english": "This is called the power of energy. "
+    },
+    {
+      "number": 14,
+      "pali": "Katamañca, bhikkhave, hirībalaṁ? ",
+      "english": "And what is the power of conscience? "
+    },
+    {
+      "number": 15,
+      "pali": "Idha, bhikkhave, ariyasāvako hirīmā hoti, hirīyati kāyaduccaritena vacīduccaritena manoduccaritena, hirīyati pāpakānaṁ akusalānaṁ dhammānaṁ samāpattiyā. ",
+      "english": "It’s when a noble disciple has a conscience. They’re conscientious about bad conduct by way of body, speech, and mind, and conscientious about acquiring any bad, unskillful qualities. "
+    },
+    {
+      "number": 16,
+      "pali": "Idaṁ vuccati, bhikkhave, hirībalaṁ. ",
+      "english": "This is called the power of conscience. "
+    },
+    {
+      "number": 17,
+      "pali": "Katamañca, bhikkhave, ottappabalaṁ? ",
+      "english": "And what is the power of prudence? "
+    },
+    {
+      "number": 18,
+      "pali": "Idha, bhikkhave, ariyasāvako ottappī hoti, ottappati kāyaduccaritena vacīduccaritena manoduccaritena, ottappati pāpakānaṁ akusalānaṁ dhammānaṁ samāpattiyā. ",
+      "english": "It’s when a noble disciple is prudent. They’re prudent when it comes to bad conduct by way of body, speech, and mind, and prudent when it comes to the acquiring of any bad, unskillful qualities. "
+    },
+    {
+      "number": 19,
+      "pali": "Idaṁ vuccati, bhikkhave, ottappabalaṁ. ",
+      "english": "This is called the power of prudence. "
+    },
+    {
+      "number": 20,
+      "pali": "Katamañca, bhikkhave, satibalaṁ? ",
+      "english": "And what is the power of mindfulness? "
+    },
+    {
+      "number": 21,
+      "pali": "Idha, bhikkhave, ariyasāvako satimā hoti paramena satinepakkena samannāgato cirakatampi cirabhāsitampi saritā anussaritā. ",
+      "english": "It’s when a noble disciple is mindful. They have utmost mindfulness and alertness, and can remember and recall what was said and done long ago. "
+    },
+    {
+      "number": 22,
+      "pali": "Idaṁ vuccati, bhikkhave, satibalaṁ. ",
+      "english": "This is called the power of mindfulness. "
+    },
+    {
+      "number": 23,
+      "pali": "Katamañca, bhikkhave, samādhibalaṁ? ",
+      "english": "And what is the power of immersion? "
+    },
+    {
+      "number": 24,
+      "pali": "Idha, bhikkhave, ariyasāvako vivicceva kāmehi ",
+      "english": "It’s when a noble disciple, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. … "
+    },
+    {
+      "number": 25,
+      "pali": "…pe… ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "With the giving up of pleasure and pain and the disappearance of former happiness and sadness, they enter and remain in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. "
+    },
+    {
+      "number": 27,
+      "pali": "Idaṁ vuccati, bhikkhave, samādhibalaṁ. ",
+      "english": "This is called the power of immersion. "
+    },
+    {
+      "number": 28,
+      "pali": "Katamañca, bhikkhave, paññābalaṁ? ",
+      "english": "And what is the power of wisdom? "
+    },
+    {
+      "number": 29,
+      "pali": "Idha, bhikkhave, ariyasāvako paññavā hoti udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā. ",
+      "english": "It’s when a noble disciple is wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. "
+    },
+    {
+      "number": 30,
+      "pali": "Idaṁ vuccati, bhikkhave, paññābalaṁ. ",
+      "english": "This is called the power of wisdom. "
+    },
+    {
+      "number": 31,
+      "pali": "Imāni kho, bhikkhave, satta balānīti. ",
+      "english": "These are the seven powers. "
+    },
+    {
+      "number": 32,
+      "pali": "Saddhābalaṁ vīriyañca, ",
+      "english": "The powers are faith and energy, "
+    },
+    {
+      "number": 33,
+      "pali": "hirī ottappiyaṁ balaṁ; ",
+      "english": "conscience and prudence, "
+    },
+    {
+      "number": 34,
+      "pali": "Satibalaṁ samādhi ca, ",
+      "english": "mindfulness and immersion, "
+    },
+    {
+      "number": 35,
+      "pali": "paññā ve sattamaṁ balaṁ; ",
+      "english": "and wisdom as the seventh power. "
+    },
+    {
+      "number": 36,
+      "pali": "Etehi balavā bhikkhu, ",
+      "english": "Empowered by these, "
+    },
+    {
+      "number": 37,
+      "pali": "sukhaṁ jīvati paṇḍito. ",
+      "english": "an astute mendicant lives happily. "
+    },
+    {
+      "number": 38,
+      "pali": "Yoniso vicine dhammaṁ, ",
+      "english": "They should examine the teaching rationally, "
+    },
+    {
+      "number": 39,
+      "pali": "paññāyatthaṁ vipassati; ",
+      "english": "discerning the meaning with wisdom. "
+    },
+    {
+      "number": 40,
+      "pali": "Pajjotasseva nibbānaṁ, ",
+      "english": "The liberation of their heart "
+    },
+    {
+      "number": 41,
+      "pali": "vimokkho hoti cetaso”ti. ",
+      "english": "is like a lamp going out.” "
+    },
+    {
+      "number": 42,
+      "pali": "Catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

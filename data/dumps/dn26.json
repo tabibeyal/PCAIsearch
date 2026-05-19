@@ -1,0 +1,1780 @@
+{
+  "sutta_id": "DN26",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Dīgha Nikāya 26 ",
+      "english": "Long Discourses 26 "
+    },
+    {
+      "number": 2,
+      "pali": "Cakkavattisutta ",
+      "english": "The Wheel-Turning Monarch "
+    },
+    {
+      "number": 3,
+      "pali": "1. Attadīpasaraṇatā ",
+      "english": "1. Taking Refuge in Oneself "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā magadhesu viharati mātulāyaṁ. ",
+      "english": "At one time the Buddha was staying in the land of the Magadhans at Mātulā. "
+    },
+    {
+      "number": 6,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 7,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 8,
+      "pali": "“Bhaddante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 9,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 10,
+      "pali": "“Attadīpā, bhikkhave, viharatha attasaraṇā anaññasaraṇā, dhammadīpā dhammasaraṇā anaññasaraṇā. ",
+      "english": "“Mendicants, live as your own island, your own refuge, with no other refuge. Let the teaching be your island and your refuge, with no other refuge. "
+    },
+    {
+      "number": 11,
+      "pali": "Kathañca pana, bhikkhave, bhikkhu attadīpo viharati attasaraṇo anaññasaraṇo, dhammadīpo dhammasaraṇo anaññasaraṇo? ",
+      "english": "And how does a mendicant do this? "
+    },
+    {
+      "number": 12,
+      "pali": "Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ. ",
+      "english": "They meditate observing an aspect of the body—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 13,
+      "pali": "Vedanāsu vedanānupassī …pe… ",
+      "english": "They meditate observing an aspect of feelings … "
+    },
+    {
+      "number": 14,
+      "pali": "citte cittānupassī …pe… ",
+      "english": "mind … "
+    },
+    {
+      "number": 15,
+      "pali": "dhammesu dhammānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ. ",
+      "english": "principles—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 16,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu attadīpo viharati attasaraṇo anaññasaraṇo, dhammadīpo dhammasaraṇo anaññasaraṇo. ",
+      "english": "That’s how a mendicant lives as their own island, their own refuge, with no other refuge. That’s how they let the teaching be their island and their refuge, with no other refuge. "
+    },
+    {
+      "number": 17,
+      "pali": "Gocare, bhikkhave, caratha sake pettike visaye. ",
+      "english": "You should roam inside your own territory, the domain of your fathers. "
+    },
+    {
+      "number": 18,
+      "pali": "Gocare, bhikkhave, carataṁ sake pettike visaye na lacchati māro otāraṁ, na lacchati māro ārammaṇaṁ. ",
+      "english": "If you roam inside your own territory, the domain of your fathers, Māra won’t find a vulnerability or get an opportunity. "
+    },
+    {
+      "number": 19,
+      "pali": "Kusalānaṁ, bhikkhave, dhammānaṁ samādānahetu evamidaṁ puññaṁ pavaḍḍhati. ",
+      "english": "It is due to undertaking skillful qualities that merit grows. "
+    },
+    {
+      "number": 20,
+      "pali": "2. Daḷhanemicakkavattirājā ",
+      "english": "2. King Daḷhanemi "
+    },
+    {
+      "number": 21,
+      "pali": "Bhūtapubbaṁ, bhikkhave, rājā daḷhanemi nāma ahosi cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+      "english": "Once upon a time, mendicants, there was a king named Daḷhanemi who was a wheel-turning monarch, a just and principled king. His dominion extended to all four sides, he achieved stability in the country, and he possessed the seven treasures. "
+    },
+    {
+      "number": 22,
+      "pali": "Tassimāni satta ratanāni ahesuṁ seyyathidaṁ—",
+      "english": "He had the following seven treasures: "
+    },
+    {
+      "number": 23,
+      "pali": "cakkaratanaṁ hatthiratanaṁ assaratanaṁ maṇiratanaṁ itthiratanaṁ gahapatiratanaṁ pariṇāyakaratanameva sattamaṁ. ",
+      "english": "the wheel, the elephant, the horse, the jewel, the woman, the householder, and the commander as the seventh treasure. "
+    },
+    {
+      "number": 24,
+      "pali": "Parosahassaṁ kho panassa puttā ahesuṁ sūrā vīraṅgarūpā parasenappamaddanā. ",
+      "english": "He had over a thousand sons who were valiant and heroic, crushing the armies of his enemies. "
+    },
+    {
+      "number": 25,
+      "pali": "So imaṁ pathaviṁ sāgarapariyantaṁ adaṇḍena asatthena dhammena abhivijiya ajjhāvasi. ",
+      "english": "After conquering this land girt by sea, he reigned by principle, without rod or sword. "
+    },
+    {
+      "number": 26,
+      "pali": "Atha kho, bhikkhave, rājā daḷhanemi bahunnaṁ vassānaṁ bahunnaṁ vassasatānaṁ bahunnaṁ vassasahassānaṁ accayena aññataraṁ purisaṁ āmantesi: ",
+      "english": "Then, after many years, many hundred years, many thousand years had passed, King Daḷhanemi addressed one of his men, "
+    },
+    {
+      "number": 27,
+      "pali": "‘yadā tvaṁ, ambho purisa, passeyyāsi dibbaṁ cakkaratanaṁ osakkitaṁ ṭhānā cutaṁ, atha me āroceyyāsī’ti. ",
+      "english": "‘My friend, when you see that the heavenly wheel-treasure has receded back from its place, please tell me.’ "
+    },
+    {
+      "number": 28,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, so puriso rañño daḷhanemissa paccassosi. ",
+      "english": "‘Yes, Your Majesty,’ replied that man. "
+    },
+    {
+      "number": 29,
+      "pali": "Addasā kho, bhikkhave, so puriso bahunnaṁ vassānaṁ bahunnaṁ vassasatānaṁ bahunnaṁ vassasahassānaṁ accayena dibbaṁ cakkaratanaṁ osakkitaṁ ṭhānā cutaṁ, disvāna yena rājā daḷhanemi tenupasaṅkami; upasaṅkamitvā rājānaṁ daḷhanemiṁ etadavoca: ",
+      "english": "After many thousand years had passed, that man saw that the heavenly wheel-treasure had receded back from its place. So he went to King Daḷhanemi and said, "
+    },
+    {
+      "number": 30,
+      "pali": "‘yagghe, deva, jāneyyāsi, dibbaṁ te cakkaratanaṁ osakkitaṁ ṭhānā cutan’ti. ",
+      "english": "‘Please sire, you should know that your heavenly wheel-treasure has receded back from its place.’ "
+    },
+    {
+      "number": 31,
+      "pali": "Atha kho, bhikkhave, rājā daḷhanemi jeṭṭhaputtaṁ kumāraṁ āmantāpetvā etadavoca: ",
+      "english": "So the king summoned the crown prince and said, "
+    },
+    {
+      "number": 32,
+      "pali": "‘dibbaṁ kira me, tāta kumāra, cakkaratanaṁ osakkitaṁ ṭhānā cutaṁ. ",
+      "english": "‘Dear prince, my heavenly wheel-treasure has receded back from its place. "
+    },
+    {
+      "number": 33,
+      "pali": "Sutaṁ kho pana metaṁ—",
+      "english": "I’ve heard that "
+    },
+    {
+      "number": 34,
+      "pali": "yassa rañño cakkavattissa dibbaṁ cakkaratanaṁ osakkati ṭhānā cavati, na dāni tena raññā ciraṁ jīvitabbaṁ hotīti. ",
+      "english": "when this happens to a wheel-turning monarch, he does not have long to live. "
+    },
+    {
+      "number": 35,
+      "pali": "Bhuttā kho pana me mānusakā kāmā, samayo dāni me dibbe kāme pariyesituṁ. ",
+      "english": "I have enjoyed human pleasures. Now it is time for me to seek heavenly pleasures. "
+    },
+    {
+      "number": 36,
+      "pali": "Ehi tvaṁ, tāta kumāra, imaṁ samuddapariyantaṁ pathaviṁ paṭipajja. ",
+      "english": "Come, dear prince, rule this land surrounded by ocean! "
+    },
+    {
+      "number": 37,
+      "pali": "Ahaṁ pana kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajissāmī’ti. ",
+      "english": "I shall shave off my hair and beard, dress in ocher robes, and go forth from the lay life to homelessness.’ "
+    },
+    {
+      "number": 38,
+      "pali": "Atha kho, bhikkhave, rājā daḷhanemi jeṭṭhaputtaṁ kumāraṁ sādhukaṁ rajje samanusāsitvā kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbaji. ",
+      "english": "And so, after carefully instructing the crown prince in kingship, King Daḷhanemi shaved off his hair and beard, dressed in ocher robes, and went forth from the lay life to homelessness. "
+    },
+    {
+      "number": 39,
+      "pali": "Sattāhapabbajite kho pana, bhikkhave, rājisimhi dibbaṁ cakkaratanaṁ antaradhāyi. ",
+      "english": "Seven days later the heavenly wheel-treasure vanished. "
+    },
+    {
+      "number": 40,
+      "pali": "Atha kho, bhikkhave, aññataro puriso yena rājā khattiyo muddhābhisitto tenupasaṅkami; upasaṅkamitvā rājānaṁ khattiyaṁ muddhābhisittaṁ etadavoca: ",
+      "english": "Then a certain man approached the newly anointed aristocrat king and said, "
+    },
+    {
+      "number": 41,
+      "pali": "‘yagghe, deva, jāneyyāsi, dibbaṁ cakkaratanaṁ antarahitan’ti. ",
+      "english": "‘Please sire, you should know that the heavenly wheel-treasure has vanished.’ "
+    },
+    {
+      "number": 42,
+      "pali": "Atha kho, bhikkhave, rājā khattiyo muddhābhisitto dibbe cakkaratane antarahite anattamano ahosi, anattamanatañca paṭisaṁvedesi. ",
+      "english": "At that the king was unhappy and experienced unhappiness. "
+    },
+    {
+      "number": 43,
+      "pali": "So yena rājisi tenupasaṅkami; upasaṅkamitvā rājisiṁ etadavoca: ",
+      "english": "He went to the royal seer and said, "
+    },
+    {
+      "number": 44,
+      "pali": "‘yagghe, deva, jāneyyāsi, dibbaṁ cakkaratanaṁ antarahitan’ti. ",
+      "english": "‘Please sire, you should know that the heavenly wheel-treasure has vanished.’ "
+    },
+    {
+      "number": 45,
+      "pali": "Evaṁ vutte, bhikkhave, rājisi rājānaṁ khattiyaṁ muddhābhisittaṁ etadavoca: ",
+      "english": "When he said this, the royal seer said to him, "
+    },
+    {
+      "number": 46,
+      "pali": "‘mā kho tvaṁ, tāta, dibbe cakkaratane antarahite anattamano ahosi, mā anattamanatañca paṭisaṁvedesi, na hi te, tāta, dibbaṁ cakkaratanaṁ pettikaṁ dāyajjaṁ. ",
+      "english": "‘Don’t be unhappy at the vanishing of the wheel-treasure. My dear, the wheel-treasure is not inherited from your father. "
+    },
+    {
+      "number": 47,
+      "pali": "Iṅgha tvaṁ, tāta, ariye cakkavattivatte vattāhi. ",
+      "english": "Come now, my dear, proceed in the noble duty of a wheel-turning monarch. "
+    },
+    {
+      "number": 48,
+      "pali": "Ṭhānaṁ kho panetaṁ vijjati, yaṁ te ariye cakkavattivatte vattamānassa tadahuposathe pannarase sīsaṁnhātassa uposathikassa uparipāsādavaragatassa dibbaṁ cakkaratanaṁ pātubhavissati sahassāraṁ sanemikaṁ sanābhikaṁ sabbākāraparipūran’ti. ",
+      "english": "If you do so, it’s possible that—on a fifteenth day sabbath, having bathed your head and gone upstairs in the royal longhouse to observe the sabbath—the heavenly wheel-treasure will appear to you, with a thousand spokes, with rim and hub, complete in every detail.’ "
+    },
+    {
+      "number": 49,
+      "pali": "2.1. Cakkavattiariyavatta ",
+      "english": "2.1. The Noble Duty of a Wheel-Turning Monarch "
+    },
+    {
+      "number": 50,
+      "pali": "‘Katamaṁ pana taṁ, deva, ariyaṁ cakkavattivattan’ti? ",
+      "english": "‘But sire, what is the noble duty of a wheel-turning monarch?’ "
+    },
+    {
+      "number": 51,
+      "pali": "‘Tena hi tvaṁ, tāta, dhammaṁyeva nissāya dhammaṁ sakkaronto dhammaṁ garuṁ karonto dhammaṁ mānento dhammaṁ pūjento dhammaṁ apacāyamāno dhammaddhajo dhammaketu dhammādhipateyyo dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahassu antojanasmiṁ balakāyasmiṁ khattiyesu anuyantesu brāhmaṇagahapatikesu negamajānapadesu samaṇabrāhmaṇesu migapakkhīsu. ",
+      "english": "‘Well then, my dear, relying only on principle—honoring, respecting, and venerating principle, having principle as your flag, banner, and authority—provide just protection and security for your court, troops, aristocrats, vassals, brahmins and householders, people of town and country, ascetics and brahmins, beasts and birds. "
+    },
+    {
+      "number": 52,
+      "pali": "Mā ca te, tāta, vijite adhammakāro pavattittha. ",
+      "english": "Do not let injustice prevail in the realm. "
+    },
+    {
+      "number": 53,
+      "pali": "Ye ca te, tāta, vijite adhanā assu, tesañca dhanamanuppadeyyāsi. ",
+      "english": "Provide money to the penniless in the realm. "
+    },
+    {
+      "number": 54,
+      "pali": "Ye ca te, tāta, vijite samaṇabrāhmaṇā madappamādā paṭiviratā khantisoracce niviṭṭhā ekamattānaṁ damenti, ekamattānaṁ samenti, ekamattānaṁ parinibbāpenti, te kālena kālaṁ upasaṅkamitvā paripuccheyyāsi pariggaṇheyyāsi: ",
+      "english": "And there are ascetics and brahmins in the realm who refrain from intoxication and negligence, are settled in patience and gentleness, and who tame, calm, and extinguish themselves. From time to time you should go up to them and ask and learn: "
+    },
+    {
+      "number": 55,
+      "pali": "“kiṁ, bhante, kusalaṁ, kiṁ akusalaṁ, kiṁ sāvajjaṁ, kiṁ anavajjaṁ, kiṁ sevitabbaṁ, kiṁ na sevitabbaṁ, kiṁ me karīyamānaṁ dīgharattaṁ ahitāya dukkhāya assa, kiṁ vā pana me karīyamānaṁ dīgharattaṁ hitāya sukhāya assā”ti? ",
+      "english": "“Sirs, what is skillful? What is unskillful? What is blameworthy? What is blameless? What should be cultivated? What should not be cultivated? Doing what leads to my lasting harm and suffering? Doing what leads to my lasting welfare and happiness?” "
+    },
+    {
+      "number": 56,
+      "pali": "Tesaṁ sutvā yaṁ akusalaṁ taṁ abhinivajjeyyāsi, yaṁ kusalaṁ taṁ samādāya vatteyyāsi. ",
+      "english": "Having heard them, you should shun what is unskillful and undertake and follow what is skillful. "
+    },
+    {
+      "number": 57,
+      "pali": "Idaṁ kho, tāta, taṁ ariyaṁ cakkavattivattan’ti. ",
+      "english": "This is the noble duty of a wheel-turning monarch.’ "
+    },
+    {
+      "number": 58,
+      "pali": "2.2. Cakkaratanapātubhāva ",
+      "english": "2.2. The Wheel-Treasure Appears "
+    },
+    {
+      "number": 59,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, rājā khattiyo muddhābhisitto rājisissa paṭissutvā ariye cakkavattivatte vatti. ",
+      "english": "‘Yes, Your Majesty,’ replied the new king to the royal seer. And he proceeded in the noble duty of a wheel-turning monarch. "
+    },
+    {
+      "number": 60,
+      "pali": "Tassa ariye cakkavattivatte vattamānassa tadahuposathe pannarase sīsaṁnhātassa uposathikassa uparipāsādavaragatassa ",
+      "english": "While he was proceeding in that duty, on a fifteenth day sabbath, he had bathed his head and gone upstairs in the royal longhouse to observe the sabbath. "
+    },
+    {
+      "number": 61,
+      "pali": "dibbaṁ cakkaratanaṁ pāturahosi sahassāraṁ sanemikaṁ sanābhikaṁ sabbākāraparipūraṁ. ",
+      "english": "And the heavenly wheel-treasure appeared to him, with a thousand spokes, with rim and hub, complete in every detail. "
+    },
+    {
+      "number": 62,
+      "pali": "Disvāna rañño khattiyassa muddhābhisittassa etadahosi: ",
+      "english": "Seeing this, the king thought, "
+    },
+    {
+      "number": 63,
+      "pali": "‘sutaṁ kho pana metaṁ—yassa rañño khattiyassa muddhābhisittassa tadahuposathe pannarase sīsaṁnhātassa uposathikassa uparipāsādavaragatassa dibbaṁ cakkaratanaṁ pātubhavati sahassāraṁ sanemikaṁ sanābhikaṁ sabbākāraparipūraṁ, so hoti rājā cakkavattīti. ",
+      "english": "‘I have heard that when the heavenly wheel-treasure appears to a king in this way, he becomes a wheel-turning monarch. "
+    },
+    {
+      "number": 64,
+      "pali": "Assaṁ nu kho ahaṁ rājā cakkavattī’ti. ",
+      "english": "Am I then a wheel-turning monarch?’ "
+    },
+    {
+      "number": 65,
+      "pali": "Atha kho, bhikkhave, rājā khattiyo muddhābhisitto uṭṭhāyāsanā ekaṁsaṁ uttarāsaṅgaṁ karitvā vāmena hatthena bhiṅkāraṁ gahetvā dakkhiṇena hatthena cakkaratanaṁ abbhukkiri: ",
+      "english": "Then the anointed king, rising from his seat and arranging his robe over one shoulder, took a ceremonial vase in his left hand and besprinkled the wheel-treasure with his right hand, saying, "
+    },
+    {
+      "number": 66,
+      "pali": "‘pavattatu bhavaṁ cakkaratanaṁ, abhivijinātu bhavaṁ cakkaratanan’ti. ",
+      "english": "‘Roll forth, O wheel-treasure! Triumph, O wheel-treasure!’ "
+    },
+    {
+      "number": 67,
+      "pali": "Atha kho taṁ, bhikkhave, cakkaratanaṁ puratthimaṁ disaṁ pavatti, anvadeva rājā cakkavattī saddhiṁ caturaṅginiyā senāya. Yasmiṁ kho pana, bhikkhave, padese cakkaratanaṁ patiṭṭhāsi, tattha rājā cakkavattī vāsaṁ upagacchi saddhiṁ caturaṅginiyā senāya. ",
+      "english": "Then the wheel-treasure rolled towards the east. And the king followed it together with his army of four divisions. In whatever place the wheel-treasure stood still, there the king came to stay together with his army. "
+    },
+    {
+      "number": 68,
+      "pali": "Ye kho pana, bhikkhave, puratthimāya disāya paṭirājāno, te rājānaṁ cakkavattiṁ upasaṅkamitvā evamāhaṁsu: ",
+      "english": "And any opposing rulers of the eastern quarter came to the wheel-turning monarch and said, "
+    },
+    {
+      "number": 69,
+      "pali": "‘ehi kho, mahārāja, svāgataṁ te mahārāja, sakaṁ te, mahārāja, anusāsa, mahārājā’ti. ",
+      "english": "‘Come, great king! Welcome, great king! We are yours, great king, instruct us.’ "
+    },
+    {
+      "number": 70,
+      "pali": "Rājā cakkavattī evamāha: ",
+      "english": "The wheel-turning monarch said, "
+    },
+    {
+      "number": 71,
+      "pali": "‘pāṇo na hantabbo, adinnaṁ nādātabbaṁ, kāmesumicchā na caritabbā, musā na bhāsitabbā, majjaṁ na pātabbaṁ, yathābhuttañca bhuñjathā’ti. ",
+      "english": "‘Do not kill living creatures. Do not steal. Do not commit sexual misconduct. Do not lie. Do not drink liquor. Maintain the current level of taxation.’ "
+    },
+    {
+      "number": 72,
+      "pali": "Ye kho pana, bhikkhave, puratthimāya disāya paṭirājāno, te rañño cakkavattissa anuyantā ahesuṁ. ",
+      "english": "And so the opposing rulers of the eastern quarter became his vassals. "
+    },
+    {
+      "number": 73,
+      "pali": "Atha kho taṁ, bhikkhave, cakkaratanaṁ puratthimaṁ samuddaṁ ajjhogāhetvā paccuttaritvā dakkhiṇaṁ disaṁ pavatti …pe… ",
+      "english": "Then the wheel-treasure, having plunged into the eastern ocean and emerged again, rolled towards the south. … "
+    },
+    {
+      "number": 74,
+      "pali": "dakkhiṇaṁ samuddaṁ ajjhogāhetvā paccuttaritvā pacchimaṁ disaṁ pavatti, anvadeva rājā cakkavattī saddhiṁ caturaṅginiyā senāya. ",
+      "english": "Having plunged into the southern ocean and emerged again, it rolled towards the west. … "
+    },
+    {
+      "number": 75,
+      "pali": "Yasmiṁ kho pana, bhikkhave, padese cakkaratanaṁ patiṭṭhāsi, tattha rājā cakkavattī vāsaṁ upagacchi saddhiṁ caturaṅginiyā senāya. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "Ye kho pana, bhikkhave, pacchimāya disāya paṭirājāno, te rājānaṁ cakkavattiṁ upasaṅkamitvā evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "‘ehi kho, mahārāja, svāgataṁ te, mahārāja, sakaṁ te, mahārāja, anusāsa, mahārājā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "Rājā cakkavattī evamāha: ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "‘pāṇo na hantabbo, adinnaṁ nādātabbaṁ, kāmesumicchā na caritabbā, musā na bhāsitabbā, majjaṁ na pātabbaṁ, yathābhuttañca bhuñjathā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "Ye kho pana, bhikkhave, pacchimāya disāya paṭirājāno, te rañño cakkavattissa anuyantā ahesuṁ. ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "Atha kho taṁ, bhikkhave, cakkaratanaṁ pacchimaṁ samuddaṁ ajjhogāhetvā paccuttaritvā uttaraṁ disaṁ pavatti, anvadeva rājā cakkavattī saddhiṁ caturaṅginiyā senāya. ",
+      "english": "Having plunged into the western ocean and emerged again, it rolled towards the north, followed by the king together with his army of four divisions. "
+    },
+    {
+      "number": 82,
+      "pali": "Yasmiṁ kho pana, bhikkhave, padese cakkaratanaṁ patiṭṭhāsi, tattha rājā cakkavattī vāsaṁ upagacchi saddhiṁ caturaṅginiyā senāya. ",
+      "english": "In whatever place the wheel-treasure stood still, there the king came to stay together with his army. "
+    },
+    {
+      "number": 83,
+      "pali": "Ye kho pana, bhikkhave, uttarāya disāya paṭirājāno, te rājānaṁ cakkavattiṁ upasaṅkamitvā evamāhaṁsu: ",
+      "english": "And any opposing rulers of the northern quarter came to the wheel-turning monarch and said, "
+    },
+    {
+      "number": 84,
+      "pali": "‘ehi kho, mahārāja, svāgataṁ te, mahārāja, sakaṁ te, mahārāja, anusāsa, mahārājā’ti. ",
+      "english": "‘Come, great king! Welcome, great king! We are yours, great king, instruct us.’ "
+    },
+    {
+      "number": 85,
+      "pali": "Rājā cakkavattī evamāha: ",
+      "english": "The wheel-turning monarch said, "
+    },
+    {
+      "number": 86,
+      "pali": "‘pāṇo na hantabbo, adinnaṁ nādātabbaṁ, kāmesumicchā na caritabbā, musā na bhāsitabbā, majjaṁ na pātabbaṁ, yathābhuttañca bhuñjathā’ti. ",
+      "english": "‘Do not kill living creatures. Do not steal. Do not commit sexual misconduct. Do not lie. Do not drink liquor. Maintain the current level of taxation.’ "
+    },
+    {
+      "number": 87,
+      "pali": "Ye kho pana, bhikkhave, uttarāya disāya paṭirājāno, te rañño cakkavattissa anuyantā ahesuṁ. ",
+      "english": "And so the rulers of the northern quarter became his vassals. "
+    },
+    {
+      "number": 88,
+      "pali": "Atha kho taṁ, bhikkhave, cakkaratanaṁ samuddapariyantaṁ pathaviṁ abhivijinitvā tameva rājadhāniṁ paccāgantvā rañño cakkavattissa antepuradvāre atthakaraṇapamukhe akkhāhataṁ maññe aṭṭhāsi rañño cakkavattissa antepuraṁ upasobhayamānaṁ. ",
+      "english": "And then the wheel-treasure, having triumphed over this land surrounded by ocean, returned to the royal capital. There it stood still by the gate to the royal compound at the High Court as if fixed to an axle, illuminating the royal compound. "
+    },
+    {
+      "number": 89,
+      "pali": "3. Dutiyādicakkavattikathā ",
+      "english": "3. On Subsequent Wheel-Turning Monarchs "
+    },
+    {
+      "number": 90,
+      "pali": "Dutiyopi kho, bhikkhave, rājā cakkavattī …pe… ",
+      "english": "And for a second time, "
+    },
+    {
+      "number": 91,
+      "pali": "tatiyopi kho, bhikkhave, rājā cakkavattī … ",
+      "english": "and a third, "
+    },
+    {
+      "number": 92,
+      "pali": "catutthopi kho, bhikkhave, rājā cakkavattī … ",
+      "english": "a fourth, "
+    },
+    {
+      "number": 93,
+      "pali": "pañcamopi kho, bhikkhave, rājā cakkavattī … ",
+      "english": "a fifth, "
+    },
+    {
+      "number": 94,
+      "pali": "chaṭṭhopi kho, bhikkhave, rājā cakkavattī … ",
+      "english": "a sixth, "
+    },
+    {
+      "number": 95,
+      "pali": "sattamopi kho, bhikkhave, rājā cakkavattī bahunnaṁ vassānaṁ bahunnaṁ vassasatānaṁ bahunnaṁ vassasahassānaṁ accayena aññataraṁ purisaṁ āmantesi: ",
+      "english": "and a seventh time, a wheel-turning monarch was established in exactly the same way. And after many years the seventh wheel-turning monarch went forth, handing the realm over to the crown prince. "
+    },
+    {
+      "number": 96,
+      "pali": "‘yadā tvaṁ, ambho purisa, passeyyāsi dibbaṁ cakkaratanaṁ osakkitaṁ ṭhānā cutaṁ, atha me āroceyyāsī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, so puriso rañño cakkavattissa paccassosi. ",
+      "english": ""
+    },
+    {
+      "number": 98,
+      "pali": "Addasā kho, bhikkhave, so puriso bahunnaṁ vassānaṁ bahunnaṁ vassasatānaṁ bahunnaṁ vassasahassānaṁ accayena dibbaṁ cakkaratanaṁ osakkitaṁ ṭhānā cutaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "Disvāna yena rājā cakkavattī tenupasaṅkami; upasaṅkamitvā rājānaṁ cakkavattiṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "‘yagghe, deva, jāneyyāsi, dibbaṁ te cakkaratanaṁ osakkitaṁ ṭhānā cutan’ti? ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "Atha kho, bhikkhave, rājā cakkavattī jeṭṭhaputtaṁ kumāraṁ āmantāpetvā etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 102,
+      "pali": "‘dibbaṁ kira me, tāta kumāra, cakkaratanaṁ osakkitaṁ, ṭhānā cutaṁ, sutaṁ kho pana metaṁ—",
+      "english": ""
+    },
+    {
+      "number": 103,
+      "pali": "yassa rañño cakkavattissa dibbaṁ cakkaratanaṁ osakkati, ṭhānā cavati, na dāni tena raññā ciraṁ jīvitabbaṁ hotīti. ",
+      "english": ""
+    },
+    {
+      "number": 104,
+      "pali": "Bhuttā kho pana me mānusakā kāmā, samayo dāni me dibbe kāme pariyesituṁ, ehi tvaṁ, tāta kumāra, imaṁ samuddapariyantaṁ pathaviṁ paṭipajja. ",
+      "english": ""
+    },
+    {
+      "number": 105,
+      "pali": "Ahaṁ pana kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajissāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 106,
+      "pali": "Atha kho, bhikkhave, rājā cakkavattī jeṭṭhaputtaṁ kumāraṁ sādhukaṁ rajje samanusāsitvā kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbaji. ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "Sattāhapabbajite kho pana, bhikkhave, rājisimhi dibbaṁ cakkaratanaṁ antaradhāyi. ",
+      "english": "Seven days later the heavenly wheel-treasure vanished. "
+    },
+    {
+      "number": 108,
+      "pali": "Atha kho, bhikkhave, aññataro puriso yena rājā khattiyo muddhābhisitto tenupasaṅkami; upasaṅkamitvā rājānaṁ khattiyaṁ muddhābhisittaṁ etadavoca: ",
+      "english": "Then a certain man approached the newly anointed aristocrat king and said, "
+    },
+    {
+      "number": 109,
+      "pali": "‘yagghe, deva, jāneyyāsi, dibbaṁ cakkaratanaṁ antarahitan’ti? ",
+      "english": "‘Please sire, you should know that the heavenly wheel-treasure has vanished.’ "
+    },
+    {
+      "number": 110,
+      "pali": "Atha kho, bhikkhave, rājā khattiyo muddhābhisitto dibbe cakkaratane antarahite anattamano ahosi. Anattamanatañca paṭisaṁvedesi; ",
+      "english": "At that the king was unhappy and experienced unhappiness. "
+    },
+    {
+      "number": 111,
+      "pali": "no ca kho rājisiṁ upasaṅkamitvā ariyaṁ cakkavattivattaṁ pucchi. ",
+      "english": "But he didn’t go to the royal seer and ask about the noble duty of a wheel-turning monarch. "
+    },
+    {
+      "number": 112,
+      "pali": "So samateneva sudaṁ janapadaṁ pasāsati. ",
+      "english": "He just governed the country according to his own ideas. "
+    },
+    {
+      "number": 113,
+      "pali": "Tassa samatena janapadaṁ pasāsato pubbenāparaṁ janapadā na pabbanti, yathā taṁ pubbakānaṁ rājūnaṁ ariye cakkavattivatte vattamānānaṁ. ",
+      "english": "So governed, the country’s people did not prosper like before, as they had when former kings proceeded in the noble duty of a wheel-turning monarch. "
+    },
+    {
+      "number": 114,
+      "pali": "Atha kho, bhikkhave, amaccā pārisajjā gaṇakamahāmattā anīkaṭṭhā dovārikā mantassājīvino sannipatitvā rājānaṁ khattiyaṁ muddhābhisittaṁ etadavocuṁ: ",
+      "english": "Then the ministers and councillors, the finance ministers, military officers, guardsmen, and professional advisers gathered and said to the king, "
+    },
+    {
+      "number": 115,
+      "pali": "‘na kho te, deva, samatena sudaṁ janapadaṁ pasāsato pubbenāparaṁ janapadā pabbanti, yathā taṁ pubbakānaṁ rājūnaṁ ariye cakkavattivatte vattamānānaṁ. ",
+      "english": "‘Sire, when governed according to your own ideas, the country’s people do not prosper like before, as they did when former kings proceeded in the noble duty of a wheel-turning monarch. "
+    },
+    {
+      "number": 116,
+      "pali": "Saṁvijjanti kho te, deva, vijite amaccā pārisajjā gaṇakamahāmattā anīkaṭṭhā dovārikā mantassājīvino mayañceva aññe ca ye mayaṁ ariyaṁ cakkavattivattaṁ dhārema. ",
+      "english": "In your realm are found ministers and councillors, finance ministers, military officers, guardsmen, and professional advisers—both ourselves and others—who remember the noble duty of a wheel-turning monarch. "
+    },
+    {
+      "number": 117,
+      "pali": "Iṅgha tvaṁ, deva, amhe ariyaṁ cakkavattivattaṁ puccha. ",
+      "english": "Please, Your Majesty, ask us about the noble duty of a wheel-turning monarch. "
+    },
+    {
+      "number": 118,
+      "pali": "Tassa te mayaṁ ariyaṁ cakkavattivattaṁ puṭṭhā byākarissāmā’ti. ",
+      "english": "We will answer you.’ "
+    },
+    {
+      "number": 119,
+      "pali": "4. Āyuvaṇṇādiparihānikathā ",
+      "english": "4. On the Period of Decline "
+    },
+    {
+      "number": 120,
+      "pali": "Atha kho, bhikkhave, rājā khattiyo muddhābhisitto amacce pārisajje gaṇakamahāmatte anīkaṭṭhe dovārike mantassājīvino sannipātetvā ariyaṁ cakkavattivattaṁ pucchi. ",
+      "english": "So the anointed king asked the assembled ministers and councillors, finance ministers, military officers, guardsmen, and professional advisers about the noble duty of a wheel-turning monarch. "
+    },
+    {
+      "number": 121,
+      "pali": "Tassa te ariyaṁ cakkavattivattaṁ puṭṭhā byākariṁsu. ",
+      "english": "And they answered him. "
+    },
+    {
+      "number": 122,
+      "pali": "Tesaṁ sutvā dhammikañhi kho rakkhāvaraṇaguttiṁ saṁvidahi, no ca kho adhanānaṁ dhanamanuppadāsi. ",
+      "english": "After listening to them, he provided just protection and security. But he did not provide money to the penniless in the realm. "
+    },
+    {
+      "number": 123,
+      "pali": "Adhanānaṁ dhane ananuppadiyamāne dāliddiyaṁ vepullamagamāsi. ",
+      "english": "And so poverty grew widespread. "
+    },
+    {
+      "number": 124,
+      "pali": "Dāliddiye vepullaṁ gate aññataro puriso paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyi. ",
+      "english": "When poverty was widespread, a certain person stole from others, with the intention to commit theft. "
+    },
+    {
+      "number": 125,
+      "pali": "Tamenaṁ aggahesuṁ. ",
+      "english": "They arrested him "
+    },
+    {
+      "number": 126,
+      "pali": "Gahetvā rañño khattiyassa muddhābhisittassa dassesuṁ: ",
+      "english": "and presented him to the king, saying, "
+    },
+    {
+      "number": 127,
+      "pali": "‘ayaṁ, deva, puriso paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyī’ti. ",
+      "english": "‘Your Majesty, this person stole from others with the intention to commit theft.’ "
+    },
+    {
+      "number": 128,
+      "pali": "Evaṁ vutte, bhikkhave, rājā khattiyo muddhābhisitto taṁ purisaṁ etadavoca: ",
+      "english": "The king said to that person, "
+    },
+    {
+      "number": 129,
+      "pali": "‘saccaṁ kira tvaṁ, ambho purisa, paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyī’ti? ",
+      "english": "‘Is it really true, my friend, that you stole from others with the intention to commit theft?’ "
+    },
+    {
+      "number": 130,
+      "pali": "‘Saccaṁ, devā’ti. ",
+      "english": "‘It’s true, sire.’ "
+    },
+    {
+      "number": 131,
+      "pali": "‘Kiṁ kāraṇā’ti? ",
+      "english": "‘What was the reason?’ "
+    },
+    {
+      "number": 132,
+      "pali": "‘Na hi, deva, jīvāmī’ti. ",
+      "english": "‘Sire, I can’t survive.’ "
+    },
+    {
+      "number": 133,
+      "pali": "Atha kho, bhikkhave, rājā khattiyo muddhābhisitto tassa purisassa dhanamanuppadāsi: ",
+      "english": "So the king provided some money to that person, saying, "
+    },
+    {
+      "number": 134,
+      "pali": "‘iminā tvaṁ, ambho purisa, dhanena attanā ca jīvāhi, mātāpitaro ca posehi, puttadārañca posehi, kammante ca payojehi, samaṇabrāhmaṇesu uddhaggikaṁ dakkhiṇaṁ patiṭṭhāpehi sovaggikaṁ sukhavipākaṁ saggasaṁvattanikan’ti. ",
+      "english": "‘With this money, my friend, keep yourself alive, and provide for your mother and father, partners and children. Work for a living, and establish an uplifting religious donation for ascetics and brahmins that’s conducive to heaven, ripens in happiness, and leads to heaven.’ "
+    },
+    {
+      "number": 135,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, so puriso rañño khattiyassa muddhābhisittassa paccassosi. ",
+      "english": "‘Yes, Your Majesty,’ replied that man. "
+    },
+    {
+      "number": 136,
+      "pali": "Aññataropi kho, bhikkhave, puriso paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyi. ",
+      "english": "But then another man stole something from others. "
+    },
+    {
+      "number": 137,
+      "pali": "Tamenaṁ aggahesuṁ. ",
+      "english": "They arrested him "
+    },
+    {
+      "number": 138,
+      "pali": "Gahetvā rañño khattiyassa muddhābhisittassa dassesuṁ: ",
+      "english": "and presented him to the king, saying, "
+    },
+    {
+      "number": 139,
+      "pali": "‘ayaṁ, deva, puriso paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyī’ti. ",
+      "english": "‘Your Majesty, this person stole from others.’ "
+    },
+    {
+      "number": 140,
+      "pali": "Evaṁ vutte, bhikkhave, rājā khattiyo muddhābhisitto taṁ purisaṁ etadavoca: ",
+      "english": "The king said to that person, "
+    },
+    {
+      "number": 141,
+      "pali": "‘saccaṁ kira tvaṁ, ambho purisa, paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyī’ti? ",
+      "english": "‘Is it really true, my friend, that you stole from others?’ "
+    },
+    {
+      "number": 142,
+      "pali": "‘Saccaṁ, devā’ti. ",
+      "english": "‘It’s true, sire.’ "
+    },
+    {
+      "number": 143,
+      "pali": "‘Kiṁ kāraṇā’ti? ",
+      "english": "‘What was the reason?’ "
+    },
+    {
+      "number": 144,
+      "pali": "‘Na hi, deva, jīvāmī’ti. ",
+      "english": "‘Sire, I can’t survive.’ "
+    },
+    {
+      "number": 145,
+      "pali": "Atha kho, bhikkhave, rājā khattiyo muddhābhisitto tassa purisassa dhanamanuppadāsi: ",
+      "english": "So the king provided some money to that person, saying, "
+    },
+    {
+      "number": 146,
+      "pali": "‘iminā tvaṁ, ambho purisa, dhanena attanā ca jīvāhi, mātāpitaro ca posehi, puttadārañca posehi, kammante ca payojehi, samaṇabrāhmaṇesu uddhaggikaṁ dakkhiṇaṁ patiṭṭhāpehi sovaggikaṁ sukhavipākaṁ saggasaṁvattanikan’ti. ",
+      "english": "‘With this money, my friend, keep yourself alive, and provide for your mother and father, partners and children. Work for a living, and establish an uplifting religious donation for ascetics and brahmins that’s conducive to heaven, ripens in happiness, and leads to heaven.’ "
+    },
+    {
+      "number": 147,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, so puriso rañño khattiyassa muddhābhisittassa paccassosi. ",
+      "english": "‘Yes, Your Majesty,’ replied that man. "
+    },
+    {
+      "number": 148,
+      "pali": "Assosuṁ kho, bhikkhave, manussā: ",
+      "english": "People heard about this: "
+    },
+    {
+      "number": 149,
+      "pali": "‘ye kira, bho, paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyanti, tesaṁ rājā dhanamanuppadetī’ti. ",
+      "english": "‘It seems the king is providing money to anyone who steals from others!’ "
+    },
+    {
+      "number": 150,
+      "pali": "Sutvāna tesaṁ etadahosi: ",
+      "english": "It occurred to them, "
+    },
+    {
+      "number": 151,
+      "pali": "‘yannūna mayampi paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyeyyāmā’ti. ",
+      "english": "‘Why don’t we steal from others?’ "
+    },
+    {
+      "number": 152,
+      "pali": "Atha kho, bhikkhave, aññataro puriso paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyi. ",
+      "english": "So then another man stole something from others. "
+    },
+    {
+      "number": 153,
+      "pali": "Tamenaṁ aggahesuṁ. ",
+      "english": "They arrested him "
+    },
+    {
+      "number": 154,
+      "pali": "Gahetvā rañño khattiyassa muddhābhisittassa dassesuṁ: ",
+      "english": "and presented him to the king, saying, "
+    },
+    {
+      "number": 155,
+      "pali": "‘ayaṁ, deva, puriso paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyī’ti. ",
+      "english": "‘Your Majesty, this person stole from others.’ "
+    },
+    {
+      "number": 156,
+      "pali": "Evaṁ vutte, bhikkhave, rājā khattiyo muddhābhisitto taṁ purisaṁ etadavoca: ",
+      "english": "The king said to that person, "
+    },
+    {
+      "number": 157,
+      "pali": "‘saccaṁ kira tvaṁ, ambho purisa, paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyī’ti? ",
+      "english": "‘Is it really true, my friend, that you stole from others?’ "
+    },
+    {
+      "number": 158,
+      "pali": "‘Saccaṁ, devā’ti. ",
+      "english": "‘It’s true, sire.’ "
+    },
+    {
+      "number": 159,
+      "pali": "‘Kiṁ kāraṇā’ti? ",
+      "english": "‘What was the reason?’ "
+    },
+    {
+      "number": 160,
+      "pali": "‘Na hi, deva, jīvāmī’ti. ",
+      "english": "‘Sire, I can’t survive.’ "
+    },
+    {
+      "number": 161,
+      "pali": "Atha kho, bhikkhave, rañño khattiyassa muddhābhisittassa etadahosi: ",
+      "english": "Then the king thought, "
+    },
+    {
+      "number": 162,
+      "pali": "‘sace kho ahaṁ yo yo paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyissati, tassa tassa dhanamanuppadassāmi, evamidaṁ adinnādānaṁ pavaḍḍhissati. ",
+      "english": "‘If I provide money to anyone who steals from others, it will only increase the stealing. "
+    },
+    {
+      "number": 163,
+      "pali": "Yannūnāhaṁ imaṁ purisaṁ sunisedhaṁ nisedheyyaṁ, mūlaghaccaṁ kareyyaṁ, sīsamassa chindeyyan’ti. ",
+      "english": "I’d better make an end of this person, finish him off, and chop off his head.’ "
+    },
+    {
+      "number": 164,
+      "pali": "Atha kho, bhikkhave, rājā khattiyo muddhābhisitto purise āṇāpesi: ",
+      "english": "Then he ordered his men, "
+    },
+    {
+      "number": 165,
+      "pali": "‘tena hi, bhaṇe, imaṁ purisaṁ daḷhāya rajjuyā pacchābāhaṁ gāḷhabandhanaṁ bandhitvā khuramuṇḍaṁ karitvā kharassarena paṇavena rathikāya rathikaṁ siṅghāṭakena siṅghāṭakaṁ parinetvā dakkhiṇena dvārena nikkhamitvā dakkhiṇato nagarassa sunisedhaṁ nisedhetha, mūlaghaccaṁ karotha, sīsamassa chindathā’ti. ",
+      "english": "‘Well then, my men, tie this man’s arms tightly behind his back with a strong rope. Shave his head and march him from street to street and square to square to the beating of a harsh drum. Then take him out the south gate and make an end of him, finish him off, and chop off his head.’ "
+    },
+    {
+      "number": 166,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, te purisā rañño khattiyassa muddhābhisittassa paṭissutvā taṁ purisaṁ daḷhāya rajjuyā pacchābāhaṁ gāḷhabandhanaṁ bandhitvā khuramuṇḍaṁ karitvā kharassarena paṇavena rathikāya rathikaṁ siṅghāṭakena siṅghāṭakaṁ parinetvā dakkhiṇena dvārena nikkhamitvā dakkhiṇato nagarassa sunisedhaṁ nisedhesuṁ, mūlaghaccaṁ akaṁsu, sīsamassa chindiṁsu. ",
+      "english": "‘Yes, Your Majesty,’ they replied, and did as he commanded. "
+    },
+    {
+      "number": 167,
+      "pali": "Assosuṁ kho, bhikkhave, manussā: ",
+      "english": "People heard about this: "
+    },
+    {
+      "number": 168,
+      "pali": "‘ye kira, bho, paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyanti, te rājā sunisedhaṁ nisedheti, mūlaghaccaṁ karoti, sīsāni tesaṁ chindatī’ti. ",
+      "english": "‘It seems the king is chopping the head off anyone who steals from others!’ "
+    },
+    {
+      "number": 169,
+      "pali": "Sutvāna tesaṁ etadahosi: ",
+      "english": "It occurred to them, "
+    },
+    {
+      "number": 170,
+      "pali": "‘yannūna mayampi tiṇhāni satthāni kārāpessāma, tiṇhāni satthāni kārāpetvā yesaṁ adinnaṁ theyyasaṅkhātaṁ ādiyissāma, te sunisedhaṁ nisedhessāma, mūlaghaccaṁ karissāma, sīsāni tesaṁ chindissāmā’ti. ",
+      "english": "‘We’d better have sharp swords made. Then when we steal from others, we’ll make an end of them, finish them off, and chop off their heads.’ "
+    },
+    {
+      "number": 171,
+      "pali": "Te tiṇhāni satthāni kārāpesuṁ, tiṇhāni satthāni kārāpetvā gāmaghātampi upakkamiṁsu kātuṁ, nigamaghātampi upakkamiṁsu kātuṁ, nagaraghātampi upakkamiṁsu kātuṁ, panthaduhanampi upakkamiṁsu kātuṁ. ",
+      "english": "They had sharp swords made. Then they started to make raids on villages, towns, and cities, and to infest the highways. "
+    },
+    {
+      "number": 172,
+      "pali": "Yesaṁ te adinnaṁ theyyasaṅkhātaṁ ādiyanti, te sunisedhaṁ nisedhenti, mūlaghaccaṁ karonti, sīsāni tesaṁ chindanti. ",
+      "english": "And they chopped the heads off anyone they stole from. "
+    },
+    {
+      "number": 173,
+      "pali": "Iti kho, bhikkhave, adhanānaṁ dhane ananuppadiyamāne dāliddiyaṁ vepullamagamāsi, dāliddiye vepullaṁ gate adinnādānaṁ vepullamagamāsi, adinnādāne vepullaṁ gate satthaṁ vepullamagamāsi, satthe vepullaṁ gate pāṇātipāto vepullamagamāsi, pāṇātipāte vepullaṁ gate tesaṁ sattānaṁ āyupi parihāyi, vaṇṇopi parihāyi. ",
+      "english": "And so, mendicants, from not providing money to the penniless, poverty became widespread. When poverty was widespread, theft became widespread. When theft was widespread, swords became widespread. When swords were widespread, killing living creatures became widespread. And for the sentient beings among whom killing was widespread, their lifespan and beauty declined. "
+    },
+    {
+      "number": 174,
+      "pali": "Tesaṁ āyunāpi parihāyamānānaṁ vaṇṇenapi parihāyamānānaṁ asītivassasahassāyukānaṁ manussānaṁ cattārīsavassasahassāyukā puttā ahesuṁ. ",
+      "english": "Those people lived for 80,000 years, but their children lived for 40,000 years. "
+    },
+    {
+      "number": 175,
+      "pali": "Cattārīsavassasahassāyukesu, bhikkhave, manussesu aññataro puriso paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyi. ",
+      "english": "Among the humans who lived for 40,000 years, a certain person stole something from others. "
+    },
+    {
+      "number": 176,
+      "pali": "Tamenaṁ aggahesuṁ. ",
+      "english": "They arrested him "
+    },
+    {
+      "number": 177,
+      "pali": "Gahetvā rañño khattiyassa muddhābhisittassa dassesuṁ: ",
+      "english": "and presented him to the king, saying, "
+    },
+    {
+      "number": 178,
+      "pali": "‘ayaṁ, deva, puriso paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyī’ti. ",
+      "english": "‘Your Majesty, this person stole from others.’ "
+    },
+    {
+      "number": 179,
+      "pali": "Evaṁ vutte, bhikkhave, rājā khattiyo muddhābhisitto taṁ purisaṁ etadavoca: ",
+      "english": "The king said to that person, "
+    },
+    {
+      "number": 180,
+      "pali": "‘saccaṁ kira tvaṁ, ambho purisa, paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyī’ti? ",
+      "english": "‘Is it really true, my friend, that you stole from others?’ "
+    },
+    {
+      "number": 181,
+      "pali": "‘Na hi, devā’ti sampajānamusā abhāsi. ",
+      "english": "‘No, sire,’ he said, deliberately lying. "
+    },
+    {
+      "number": 182,
+      "pali": "Iti kho, bhikkhave, adhanānaṁ dhane ananuppadiyamāne dāliddiyaṁ vepullamagamāsi. Dāliddiye vepullaṁ gate adinnādānaṁ vepullamagamāsi, adinnādāne vepullaṁ gate satthaṁ vepullamagamāsi. Satthe vepullaṁ gate pāṇātipāto vepullamagamāsi, pāṇātipāte vepullaṁ gate musāvādo vepullamagamāsi, musāvāde vepullaṁ gate tesaṁ sattānaṁ āyupi parihāyi, vaṇṇopi parihāyi. ",
+      "english": "And so, mendicants, from not providing money to the penniless, poverty, theft, swords, and killing became widespread. When killing was widespread, lying became widespread. And for the sentient beings among whom lying was widespread, their lifespan and beauty declined. "
+    },
+    {
+      "number": 183,
+      "pali": "Tesaṁ āyunāpi parihāyamānānaṁ vaṇṇenapi parihāyamānānaṁ cattārīsavassasahassāyukānaṁ manussānaṁ vīsativassasahassāyukā puttā ahesuṁ. ",
+      "english": "Those people who lived for 40,000 years had children who lived for 20,000 years. "
+    },
+    {
+      "number": 184,
+      "pali": "Vīsativassasahassāyukesu, bhikkhave, manussesu aññataro puriso paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyi. ",
+      "english": "Among the humans who lived for 20,000 years, a certain person stole something from others. "
+    },
+    {
+      "number": 185,
+      "pali": "Tamenaṁ aññataro puriso rañño khattiyassa muddhābhisittassa ārocesi: ",
+      "english": "Someone else reported this to the king, "
+    },
+    {
+      "number": 186,
+      "pali": "‘itthannāmo, deva, puriso paresaṁ adinnaṁ theyyasaṅkhātaṁ ādiyī’ti pesuññamakāsi. ",
+      "english": "‘Your Majesty, such-and-such person stole from others,’ he said, going behind his back. "
+    },
+    {
+      "number": 187,
+      "pali": "Iti kho, bhikkhave, adhanānaṁ dhane ananuppadiyamāne dāliddiyaṁ vepullamagamāsi. Dāliddiye vepullaṁ gate adinnādānaṁ vepullamagamāsi, adinnādāne vepullaṁ gate satthaṁ vepullamagamāsi, satthe vepullaṁ gate pāṇātipāto vepullamagamāsi, pāṇātipāte vepullaṁ gate musāvādo vepullamagamāsi, musāvāde vepullaṁ gate pisuṇā vācā vepullamagamāsi, pisuṇāya vācāya vepullaṁ gatāya tesaṁ sattānaṁ āyupi parihāyi, vaṇṇopi parihāyi. ",
+      "english": "And so, mendicants, from not providing money to the penniless, poverty, theft, swords, killing, and lying became widespread. When lying was widespread, backbiting became widespread. And for the sentient beings among whom backbiting was widespread, their lifespan and beauty declined. "
+    },
+    {
+      "number": 188,
+      "pali": "Tesaṁ āyunāpi parihāyamānānaṁ vaṇṇenapi parihāyamānānaṁ vīsativassasahassāyukānaṁ manussānaṁ dasavassasahassāyukā puttā ahesuṁ. ",
+      "english": "Those people who lived for 20,000 years had children who lived for 10,000 years. "
+    },
+    {
+      "number": 189,
+      "pali": "Dasavassasahassāyukesu, bhikkhave, manussesu ekidaṁ sattā vaṇṇavanto honti, ekidaṁ sattā dubbaṇṇā. ",
+      "english": "Among the humans who lived for 10,000 years, some were beautiful, some were ugly. "
+    },
+    {
+      "number": 190,
+      "pali": "Tattha ye te sattā dubbaṇṇā, te vaṇṇavante satte abhijjhāyantā paresaṁ dāresu cārittaṁ āpajjiṁsu. ",
+      "english": "And the ugly beings, coveting the beautiful ones, committed adultery with the wives of others. "
+    },
+    {
+      "number": 191,
+      "pali": "Iti kho, bhikkhave, adhanānaṁ dhane ananuppadiyamāne dāliddiyaṁ vepullamagamāsi. Dāliddiye vepullaṁ gate …pe… kāmesumicchācāro vepullamagamāsi, kāmesumicchācāre vepullaṁ gate tesaṁ sattānaṁ āyupi parihāyi, vaṇṇopi parihāyi. ",
+      "english": "And so, mendicants, from not providing money to the penniless, poverty, theft, swords, killing, lying, and backbiting became widespread. When backbiting was widespread, sexual misconduct became widespread. And for the sentient beings among whom sexual misconduct was widespread, their lifespan and beauty declined. "
+    },
+    {
+      "number": 192,
+      "pali": "Tesaṁ āyunāpi parihāyamānānaṁ vaṇṇenapi parihāyamānānaṁ dasavassasahassāyukānaṁ manussānaṁ pañcavassasahassāyukā puttā ahesuṁ. ",
+      "english": "Those people who lived for 10,000 years had children who lived for 5,000 years. "
+    },
+    {
+      "number": 193,
+      "pali": "Pañcavassasahassāyukesu, bhikkhave, manussesu dve dhammā vepullamagamaṁsu—",
+      "english": "Among the humans who lived for 5,000 years, two things became widespread: "
+    },
+    {
+      "number": 194,
+      "pali": "pharusāvācā samphappalāpo ca. ",
+      "english": "harsh speech and talking nonsense. "
+    },
+    {
+      "number": 195,
+      "pali": "Dvīsu dhammesu vepullaṁ gatesu tesaṁ sattānaṁ āyupi parihāyi, vaṇṇopi parihāyi. ",
+      "english": "For the sentient beings among whom these two things were widespread, their lifespan and beauty declined. "
+    },
+    {
+      "number": 196,
+      "pali": "Tesaṁ āyunāpi parihāyamānānaṁ vaṇṇenapi parihāyamānānaṁ pañcavassasahassāyukānaṁ manussānaṁ appekacce aḍḍhateyyavassasahassāyukā, appekacce dvevassasahassāyukā puttā ahesuṁ. ",
+      "english": "Those people who lived for 5,000 years had some children who lived for 2,500 years, while others lived for 2,000 years. "
+    },
+    {
+      "number": 197,
+      "pali": "Aḍḍhateyyavassasahassāyukesu, bhikkhave, manussesu abhijjhābyāpādā vepullamagamaṁsu. ",
+      "english": "Among the humans who lived for 2,500 years, desire and ill will became widespread. "
+    },
+    {
+      "number": 198,
+      "pali": "Abhijjhābyāpādesu vepullaṁ gatesu tesaṁ sattānaṁ āyupi parihāyi, vaṇṇopi parihāyi. ",
+      "english": "For the sentient beings among whom desire and ill will were widespread, their lifespan and beauty declined. "
+    },
+    {
+      "number": 199,
+      "pali": "Tesaṁ āyunāpi parihāyamānānaṁ vaṇṇenapi parihāyamānānaṁ aḍḍhateyyavassasahassāyukānaṁ manussānaṁ vassasahassāyukā puttā ahesuṁ. ",
+      "english": "Those people who lived for 2,500 years had children who lived for 1,000 years. "
+    },
+    {
+      "number": 200,
+      "pali": "Vassasahassāyukesu, bhikkhave, manussesu micchādiṭṭhi vepullamagamāsi. ",
+      "english": "Among the humans who lived for 1,000 years, wrong view became widespread. "
+    },
+    {
+      "number": 201,
+      "pali": "Micchādiṭṭhiyā vepullaṁ gatāya tesaṁ sattānaṁ āyupi parihāyi, vaṇṇopi parihāyi. ",
+      "english": "For the sentient beings among whom wrong view was widespread, their lifespan and beauty declined. "
+    },
+    {
+      "number": 202,
+      "pali": "Tesaṁ āyunāpi parihāyamānānaṁ vaṇṇenapi parihāyamānānaṁ vassasahassāyukānaṁ manussānaṁ pañcavassasatāyukā puttā ahesuṁ. ",
+      "english": "Those people who lived for 1,000 years had children who lived for five hundred years. "
+    },
+    {
+      "number": 203,
+      "pali": "Pañcavassasatāyukesu, bhikkhave, manussesu tayo dhammā vepullamagamaṁsu—",
+      "english": "Among the humans who lived for five hundred years, three things became widespread: "
+    },
+    {
+      "number": 204,
+      "pali": "adhammarāgo visamalobho micchādhammo. ",
+      "english": "illicit desire, immoral greed, and wrong custom. "
+    },
+    {
+      "number": 205,
+      "pali": "Tīsu dhammesu vepullaṁ gatesu tesaṁ sattānaṁ āyupi parihāyi, vaṇṇopi parihāyi. ",
+      "english": "For the sentient beings among whom these three things were widespread, their lifespan and beauty declined. "
+    },
+    {
+      "number": 206,
+      "pali": "Tesaṁ āyunāpi parihāyamānānaṁ vaṇṇenapi parihāyamānānaṁ pañcavassasatāyukānaṁ manussānaṁ appekacce aḍḍhateyyavassasatāyukā, appekacce dvevassasatāyukā puttā ahesuṁ. ",
+      "english": "Those people who lived for five hundred years had some children who lived for two hundred and fifty years, while others lived for two hundred years. "
+    },
+    {
+      "number": 207,
+      "pali": "Aḍḍhateyyavassasatāyukesu, bhikkhave, manussesu ime dhammā vepullamagamaṁsu. ",
+      "english": "Among the humans who lived for two hundred and fifty years, these things became widespread: "
+    },
+    {
+      "number": 208,
+      "pali": "Amatteyyatā apetteyyatā asāmaññatā abrahmaññatā na kule jeṭṭhāpacāyitā. ",
+      "english": "lack of due respect for mother and father, ascetics and brahmins, and failure to honor the elders in the family. "
+    },
+    {
+      "number": 209,
+      "pali": "Iti kho, bhikkhave, adhanānaṁ dhane ananuppadiyamāne dāliddiyaṁ vepullamagamāsi. ",
+      "english": "And so, mendicants, from not providing money to the penniless, all these things became widespread—poverty, "
+    },
+    {
+      "number": 210,
+      "pali": "Dāliddiye vepullaṁ gate adinnādānaṁ vepullamagamāsi. ",
+      "english": "theft, "
+    },
+    {
+      "number": 211,
+      "pali": "Adinnādāne vepullaṁ gate satthaṁ vepullamagamāsi. ",
+      "english": "swords, "
+    },
+    {
+      "number": 212,
+      "pali": "Satthe vepullaṁ gate pāṇātipāto vepullamagamāsi. ",
+      "english": "killing, "
+    },
+    {
+      "number": 213,
+      "pali": "Pāṇātipāte vepullaṁ gate musāvādo vepullamagamāsi. ",
+      "english": "lying, "
+    },
+    {
+      "number": 214,
+      "pali": "Musāvāde vepullaṁ gate pisuṇā vācā vepullamagamāsi. ",
+      "english": "backbiting, "
+    },
+    {
+      "number": 215,
+      "pali": "Pisuṇāya vācāya vepullaṁ gatāya kāmesumicchācāro vepullamagamāsi. ",
+      "english": "sexual misconduct, "
+    },
+    {
+      "number": 216,
+      "pali": "Kāmesumicchācāre vepullaṁ gate dve dhammā vepullamagamaṁsu, pharusā vācā samphappalāpo ca. ",
+      "english": "harsh speech and talking nonsense, "
+    },
+    {
+      "number": 217,
+      "pali": "Dvīsu dhammesu vepullaṁ gatesu abhijjhābyāpādā vepullamagamaṁsu. ",
+      "english": "desire and ill will, "
+    },
+    {
+      "number": 218,
+      "pali": "Abhijjhābyāpādesu vepullaṁ gatesu micchādiṭṭhi vepullamagamāsi. ",
+      "english": "wrong view, "
+    },
+    {
+      "number": 219,
+      "pali": "Micchādiṭṭhiyā vepullaṁ gatāya tayo dhammā vepullamagamaṁsu, adhammarāgo visamalobho micchādhammo. ",
+      "english": "illicit desire, immoral greed, and wrong custom, "
+    },
+    {
+      "number": 220,
+      "pali": "Tīsu dhammesu vepullaṁ gatesu ime dhammā vepullamagamaṁsu, amatteyyatā apetteyyatā asāmaññatā abrahmaññatā na kule jeṭṭhāpacāyitā. ",
+      "english": "and lack of due respect for mother and father, ascetics and brahmins, and failure to honor the elders in the family. "
+    },
+    {
+      "number": 221,
+      "pali": "Imesu dhammesu vepullaṁ gatesu tesaṁ sattānaṁ āyupi parihāyi, vaṇṇopi parihāyi. ",
+      "english": "For the sentient beings among whom these things were widespread, their lifespan and beauty declined. "
+    },
+    {
+      "number": 222,
+      "pali": "Tesaṁ āyunāpi parihāyamānānaṁ vaṇṇenapi parihāyamānānaṁ aḍḍhateyyavassasatāyukānaṁ manussānaṁ vassasatāyukā puttā ahesuṁ. ",
+      "english": "Those people who lived for two hundred and fifty years had children who lived for a hundred years. "
+    },
+    {
+      "number": 223,
+      "pali": "5. Dasavassāyukasamaya ",
+      "english": "5. When People Live for Ten Years "
+    },
+    {
+      "number": 224,
+      "pali": "Bhavissati, bhikkhave, so samayo, yaṁ imesaṁ manussānaṁ dasavassāyukā puttā bhavissanti. ",
+      "english": "There will come a time, mendicants, when these people will have children who live for ten years. "
+    },
+    {
+      "number": 225,
+      "pali": "Dasavassāyukesu, bhikkhave, manussesu pañcavassikā kumārikā alaṁpateyyā bhavissanti. ",
+      "english": "Among the humans who live for ten years, girls will be marriageable at five. "
+    },
+    {
+      "number": 226,
+      "pali": "Dasavassāyukesu, bhikkhave, manussesu imāni rasāni antaradhāyissanti, seyyathidaṁ—",
+      "english": "The following flavors will disappear: "
+    },
+    {
+      "number": 227,
+      "pali": "sappi navanītaṁ telaṁ madhu phāṇitaṁ loṇaṁ. ",
+      "english": "ghee, butter, oil, honey, molasses, and salt. "
+    },
+    {
+      "number": 228,
+      "pali": "Dasavassāyukesu, bhikkhave, manussesu kudrūsako aggaṁ bhojanānaṁ bhavissati. ",
+      "english": "The best kind of food will be finger millet, "
+    },
+    {
+      "number": 229,
+      "pali": "Seyyathāpi, bhikkhave, etarahi sālimaṁsodano aggaṁ bhojanānaṁ; ",
+      "english": "just as fine rice with meat is the best kind of food today. "
+    },
+    {
+      "number": 230,
+      "pali": "evameva kho, bhikkhave, dasavassāyukesu manussesu kudrūsako aggaṁ bhojanānaṁ bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 231,
+      "pali": "Dasavassāyukesu, bhikkhave, manussesu dasa kusalakammapathā sabbena sabbaṁ antaradhāyissanti, dasa akusalakammapathā atibyādippissanti. ",
+      "english": "The ten ways of doing skillful deeds will totally disappear, and the ten ways of doing unskillful deeds will explode in popularity. "
+    },
+    {
+      "number": 232,
+      "pali": "Dasavassāyukesu, bhikkhave, manussesu kusalantipi na bhavissati, kuto pana kusalassa kārako. ",
+      "english": "Those humans will not even have the word ‘skillful’, still less anyone who does what is skillful. "
+    },
+    {
+      "number": 233,
+      "pali": "Dasavassāyukesu, bhikkhave, manussesu ye te bhavissanti amatteyyā apetteyyā asāmaññā abrahmaññā na kule jeṭṭhāpacāyino, te pujjā ca bhavissanti pāsaṁsā ca. ",
+      "english": "And anyone who disrespects mother and father, ascetics and brahmins, and fails to honor the elders in the family will be venerated and praised, "
+    },
+    {
+      "number": 234,
+      "pali": "Seyyathāpi, bhikkhave, etarahi matteyyā petteyyā sāmaññā brahmaññā kule jeṭṭhāpacāyino pujjā ca pāsaṁsā ca; ",
+      "english": "just as the opposite is venerated and praised today. "
+    },
+    {
+      "number": 235,
+      "pali": "evameva kho, bhikkhave, dasavassāyukesu manussesu ye te bhavissanti amatteyyā apetteyyā asāmaññā abrahmaññā na kule jeṭṭhāpacāyino, te pujjā ca bhavissanti pāsaṁsā ca. ",
+      "english": ""
+    },
+    {
+      "number": 236,
+      "pali": "Dasavassāyukesu, bhikkhave, manussesu na bhavissati mātāti vā mātucchāti vā mātulānīti vā ācariyabhariyāti vā garūnaṁ dārāti vā. ",
+      "english": "There’ll be no recognition of the status of mother, aunts, or wives and partners of tutors and respected people. "
+    },
+    {
+      "number": 237,
+      "pali": "Sambhedaṁ loko gamissati yathā ajeḷakā kukkuṭasūkarā soṇasiṅgālā. ",
+      "english": "The world will become dissolute, like goats and sheep, chickens and pigs, and hounds and jackals. "
+    },
+    {
+      "number": 238,
+      "pali": "Dasavassāyukesu, bhikkhave, manussesu tesaṁ sattānaṁ aññamaññamhi tibbo āghāto paccupaṭṭhito bhavissati tibbo byāpādo tibbo manopadoso tibbaṁ vadhakacittaṁ. ",
+      "english": "They’ll be full of hostility towards each other, with acute ill will, malevolence, and thoughts of murder. "
+    },
+    {
+      "number": 239,
+      "pali": "Mātupi puttamhi puttassapi mātari; ",
+      "english": "Even a mother will feel like this for her child, and the child for its mother, "
+    },
+    {
+      "number": 240,
+      "pali": "pitupi puttamhi puttassapi pitari; ",
+      "english": "father for child, child for father, "
+    },
+    {
+      "number": 241,
+      "pali": "bhātupi bhaginiyā bhaginiyāpi bhātari tibbo āghāto paccupaṭṭhito bhavissati tibbo byāpādo tibbo manopadoso tibbaṁ vadhakacittaṁ. ",
+      "english": "brother for sister, and sister for brother. "
+    },
+    {
+      "number": 242,
+      "pali": "Seyyathāpi, bhikkhave, māgavikassa migaṁ disvā tibbo āghāto paccupaṭṭhito hoti tibbo byāpādo tibbo manopadoso tibbaṁ vadhakacittaṁ; ",
+      "english": "They’ll be just like a deer hunter when he sees a deer—full of hostility, ill will, malevolence, and thoughts of killing. "
+    },
+    {
+      "number": 243,
+      "pali": "evameva kho, bhikkhave, dasavassāyukesu manussesu tesaṁ sattānaṁ aññamaññamhi tibbo āghāto paccupaṭṭhito bhavissati tibbo byāpādo tibbo manopadoso tibbaṁ vadhakacittaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 244,
+      "pali": "Mātupi puttamhi puttassapi mātari; ",
+      "english": ""
+    },
+    {
+      "number": 245,
+      "pali": "pitupi puttamhi puttassapi pitari; ",
+      "english": ""
+    },
+    {
+      "number": 246,
+      "pali": "bhātupi bhaginiyā bhaginiyāpi bhātari tibbo āghāto paccupaṭṭhito bhavissati tibbo byāpādo tibbo manopadoso tibbaṁ vadhakacittaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 247,
+      "pali": "Dasavassāyukesu, bhikkhave, manussesu sattāhaṁ satthantarakappo bhavissati. ",
+      "english": "Among the humans who live for ten years, there will be an interregnum of swords lasting seven days. "
+    },
+    {
+      "number": 248,
+      "pali": "Te aññamaññamhi migasaññaṁ paṭilabhissanti. ",
+      "english": "During that time they will see each other as beasts. "
+    },
+    {
+      "number": 249,
+      "pali": "Tesaṁ tiṇhāni satthāni hatthesu pātubhavissanti. ",
+      "english": "Sharp swords will appear in their hands, "
+    },
+    {
+      "number": 250,
+      "pali": "Te tiṇhena satthena ‘esa migo esa migo’ti aññamaññaṁ jīvitā voropessanti. ",
+      "english": "with which they’ll take each other’s life, crying, ‘It’s a beast! It’s a beast!’ "
+    },
+    {
+      "number": 251,
+      "pali": "Atha kho tesaṁ, bhikkhave, sattānaṁ ekaccānaṁ evaṁ bhavissati: ",
+      "english": "But then some of those beings will think, "
+    },
+    {
+      "number": 252,
+      "pali": "‘mā ca mayaṁ kañci, mā ca amhe koci, yannūna mayaṁ tiṇagahanaṁ vā vanagahanaṁ vā rukkhagahanaṁ vā nadīviduggaṁ vā pabbatavisamaṁ vā pavisitvā vanamūlaphalāhārā yāpeyyāmā’ti. ",
+      "english": "‘Let us neither kill nor be killed! Why don’t we hide in thick grass, thick jungle, thick trees, inaccessible riverlands, or rugged mountains and survive on forest roots and fruits?’ "
+    },
+    {
+      "number": 253,
+      "pali": "Te tiṇagahanaṁ vā vanagahanaṁ vā rukkhagahanaṁ vā nadīviduggaṁ vā pabbatavisamaṁ vā pavisitvā sattāhaṁ vanamūlaphalāhārā yāpessanti. ",
+      "english": "So that’s what they do. "
+    },
+    {
+      "number": 254,
+      "pali": "Te tassa sattāhassa accayena tiṇagahanā vanagahanā rukkhagahanā nadīviduggā pabbatavisamā nikkhamitvā aññamaññaṁ āliṅgitvā sabhāgāyissanti samassāsissanti: ",
+      "english": "When those seven days have passed, having emerged from their hiding places and embraced each other, they will come together and cry in one voice, "
+    },
+    {
+      "number": 255,
+      "pali": "‘diṭṭhā, bho, sattā jīvasi, diṭṭhā, bho, sattā jīvasī’ti. ",
+      "english": "‘Fantastic, dear foe, you live! Fantastic, dear foe, you live!’ "
+    },
+    {
+      "number": 256,
+      "pali": "6. Āyuvaṇṇādivaḍḍhanakathā ",
+      "english": "6. The Period of Growth "
+    },
+    {
+      "number": 257,
+      "pali": "Atha kho tesaṁ, bhikkhave, sattānaṁ evaṁ bhavissati: ",
+      "english": "Then those beings will think, "
+    },
+    {
+      "number": 258,
+      "pali": "‘mayaṁ kho akusalānaṁ dhammānaṁ samādānahetu evarūpaṁ āyataṁ ñātikkhayaṁ pattā. ",
+      "english": "‘It’s because we undertook unskillful things that we suffered such an extensive loss of our relatives. "
+    },
+    {
+      "number": 259,
+      "pali": "Yannūna mayaṁ kusalaṁ kareyyāma. ",
+      "english": "We’d better do what’s skillful. "
+    },
+    {
+      "number": 260,
+      "pali": "Kiṁ kusalaṁ kareyyāma? ",
+      "english": "What skillful thing should we do? "
+    },
+    {
+      "number": 261,
+      "pali": "Yannūna mayaṁ pāṇātipātā virameyyāma, idaṁ kusalaṁ dhammaṁ samādāya vatteyyāmā’ti. ",
+      "english": "Why don’t we refrain from killing living creatures? Having undertaken this skillful thing we’ll live by it.’ "
+    },
+    {
+      "number": 262,
+      "pali": "Te pāṇātipātā viramissanti, idaṁ kusalaṁ dhammaṁ samādāya vattissanti. ",
+      "english": "So that’s what they do. "
+    },
+    {
+      "number": 263,
+      "pali": "Te kusalānaṁ dhammānaṁ samādānahetu āyunāpi vaḍḍhissanti, vaṇṇenapi vaḍḍhissanti. ",
+      "english": "Because of undertaking this skillful thing, their lifespan and beauty will grow. "
+    },
+    {
+      "number": 264,
+      "pali": "Tesaṁ āyunāpi vaḍḍhamānānaṁ vaṇṇenapi vaḍḍhamānānaṁ dasavassāyukānaṁ manussānaṁ vīsativassāyukā puttā bhavissanti. ",
+      "english": "Those people who live for ten years will have children who live for twenty years. "
+    },
+    {
+      "number": 265,
+      "pali": "Atha kho tesaṁ, bhikkhave, sattānaṁ evaṁ bhavissati: ",
+      "english": "Then those beings will think, "
+    },
+    {
+      "number": 266,
+      "pali": "‘mayaṁ kho kusalānaṁ dhammānaṁ samādānahetu āyunāpi vaḍḍhāma, vaṇṇenapi vaḍḍhāma. ",
+      "english": "‘Because of undertaking this skillful thing, our lifespan and beauty are growing. "
+    },
+    {
+      "number": 267,
+      "pali": "Yannūna mayaṁ bhiyyoso mattāya kusalaṁ kareyyāma. ",
+      "english": "Why don’t we do even more skillful things? "
+    },
+    {
+      "number": 268,
+      "pali": "Kiṁ kusalaṁ kareyyāma? ",
+      "english": "What skillful thing should we do? "
+    },
+    {
+      "number": 269,
+      "pali": "Yannūna mayaṁ adinnādānā virameyyāma … ",
+      "english": "Why don’t we refrain from stealing … "
+    },
+    {
+      "number": 270,
+      "pali": "kāmesumicchācārā virameyyāma … ",
+      "english": "sexual misconduct … "
+    },
+    {
+      "number": 271,
+      "pali": "musāvādā virameyyāma … ",
+      "english": "lying … "
+    },
+    {
+      "number": 272,
+      "pali": "pisuṇāya vācāya virameyyāma … ",
+      "english": "backbiting … "
+    },
+    {
+      "number": 273,
+      "pali": "pharusāya vācāya virameyyāma … ",
+      "english": "harsh speech … "
+    },
+    {
+      "number": 274,
+      "pali": "samphappalāpā virameyyāma … ",
+      "english": "and talking nonsense. "
+    },
+    {
+      "number": 275,
+      "pali": "abhijjhaṁ pajaheyyāma … ",
+      "english": "Why don’t we give up covetousness … "
+    },
+    {
+      "number": 276,
+      "pali": "byāpādaṁ pajaheyyāma … ",
+      "english": "ill will … "
+    },
+    {
+      "number": 277,
+      "pali": "micchādiṭṭhiṁ pajaheyyāma … ",
+      "english": "wrong view … "
+    },
+    {
+      "number": 278,
+      "pali": "tayo dhamme pajaheyyāma—",
+      "english": "three things: "
+    },
+    {
+      "number": 279,
+      "pali": "adhammarāgaṁ visamalobhaṁ micchādhammaṁ … ",
+      "english": "illicit desire, immoral greed, and wrong custom. "
+    },
+    {
+      "number": 280,
+      "pali": "yannūna mayaṁ matteyyā assāma petteyyā sāmaññā brahmaññā kule jeṭṭhāpacāyino, idaṁ kusalaṁ dhammaṁ samādāya vatteyyāmā’ti. ",
+      "english": "Why don’t we pay due respect to mother and father, ascetics and brahmins, honoring the elders in our families? Having undertaken this skillful thing we’ll live by it.’ "
+    },
+    {
+      "number": 281,
+      "pali": "Te matteyyā bhavissanti petteyyā sāmaññā brahmaññā kule jeṭṭhāpacāyino, idaṁ kusalaṁ dhammaṁ samādāya vattissanti. ",
+      "english": "So that’s what they do. "
+    },
+    {
+      "number": 282,
+      "pali": "Te kusalānaṁ dhammānaṁ samādānahetu āyunāpi vaḍḍhissanti, vaṇṇenapi vaḍḍhissanti. ",
+      "english": "Because of undertaking this skillful thing, their lifespan and beauty will grow. "
+    },
+    {
+      "number": 283,
+      "pali": "Tesaṁ āyunāpi vaḍḍhamānānaṁ vaṇṇenapi vaḍḍhamānānaṁ vīsativassāyukānaṁ manussānaṁ cattārīsavassāyukā puttā bhavissanti … ",
+      "english": "Those people who live for twenty years will have children who live for forty years. "
+    },
+    {
+      "number": 284,
+      "pali": "cattārīsavassāyukānaṁ manussānaṁ asītivassāyukā puttā bhavissanti … ",
+      "english": "Those people who live for forty years will have children who live for eighty years, "
+    },
+    {
+      "number": 285,
+      "pali": "asītivassāyukānaṁ manussānaṁ saṭṭhivassasatāyukā puttā bhavissanti … ",
+      "english": "then a hundred and sixty years, "
+    },
+    {
+      "number": 286,
+      "pali": "saṭṭhivassasatāyukānaṁ manussānaṁ vīsatitivassasatāyukā puttā bhavissanti … ",
+      "english": "three hundred and twenty years, "
+    },
+    {
+      "number": 287,
+      "pali": "vīsatitivassasatāyukānaṁ manussānaṁ cattārīsachabbassasatāyukā puttā bhavissanti. ",
+      "english": "six hundred and forty years, "
+    },
+    {
+      "number": 288,
+      "pali": "Cattārīsachabbassasatāyukānaṁ manussānaṁ dvevassasahassāyukā puttā bhavissanti … ",
+      "english": "2,000 years, "
+    },
+    {
+      "number": 289,
+      "pali": "dvevassasahassāyukānaṁ manussānaṁ cattārivassasahassāyukā puttā bhavissanti … ",
+      "english": "4,000 years, "
+    },
+    {
+      "number": 290,
+      "pali": "cattārivassasahassāyukānaṁ manussānaṁ aṭṭhavassasahassāyukā puttā bhavissanti … ",
+      "english": "8,000 years, "
+    },
+    {
+      "number": 291,
+      "pali": "aṭṭhavassasahassāyukānaṁ manussānaṁ vīsativassasahassāyukā puttā bhavissanti … ",
+      "english": "20,000 years, "
+    },
+    {
+      "number": 292,
+      "pali": "vīsativassasahassāyukānaṁ manussānaṁ cattārīsavassasahassāyukā puttā bhavissanti … ",
+      "english": "40,000 years, "
+    },
+    {
+      "number": 293,
+      "pali": "cattārīsavassasahassāyukānaṁ manussānaṁ asītivassasahassāyukā puttā bhavissanti … ",
+      "english": "and finally 80,000 years. "
+    },
+    {
+      "number": 294,
+      "pali": "asītivassasahassāyukesu, bhikkhave, manussesu pañcavassasatikā kumārikā alaṁpateyyā bhavissanti. ",
+      "english": "Among the humans who live for 80,000 years, girls will be marriageable at five hundred. "
+    },
+    {
+      "number": 295,
+      "pali": "7. Saṅkharājauppatti ",
+      "english": "7. The Time of King Saṅkha "
+    },
+    {
+      "number": 296,
+      "pali": "Asītivassasahassāyukesu, bhikkhave, manussesu tayo ābādhā bhavissanti, icchā, anasanaṁ, jarā. ",
+      "english": "Among the humans who live for 80,000 years, there will be just three afflictions: greed, starvation, and old age. "
+    },
+    {
+      "number": 297,
+      "pali": "Asītivassasahassāyukesu, bhikkhave, manussesu ayaṁ jambudīpo iddho ceva bhavissati phīto ca, kukkuṭasampātikā gāmanigamarājadhāniyo. ",
+      "english": "The Black Plum Tree Land will be successful and prosperous. The villages, towns, and capital cities will be no more than a chicken’s flight apart. "
+    },
+    {
+      "number": 298,
+      "pali": "Asītivassasahassāyukesu, bhikkhave, manussesu ayaṁ jambudīpo avīci maññe phuṭo bhavissati manussehi, seyyathāpi naḷavanaṁ vā saravanaṁ vā. ",
+      "english": "And the land will be so full of humans you’d think they were squashed together, like a thicket of rushes or reeds. "
+    },
+    {
+      "number": 299,
+      "pali": "Asītivassasahassāyukesu, bhikkhave, manussesu ayaṁ bārāṇasī ketumatī nāma rājadhānī bhavissati iddhā ceva phītā ca bahujanā ca ākiṇṇamanussā ca subhikkhā ca. ",
+      "english": "The royal capital will be Varanasi, renamed Ketumatī. And it will be successful, prosperous, populous, full of humans, with plenty of food. "
+    },
+    {
+      "number": 300,
+      "pali": "Asītivassasahassāyukesu, bhikkhave, manussesu imasmiṁ jambudīpe caturāsītinagarasahassāni bhavissanti ketumatīrājadhānīpamukhāni. ",
+      "english": "There will be 84,000 cities in the Black Plum Tree Land, with the royal capital of Ketumatī foremost. "
+    },
+    {
+      "number": 301,
+      "pali": "Asītivassasahassāyukesu, bhikkhave, manussesu ketumatiyā rājadhāniyā saṅkho nāma rājā uppajjissati cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+      "english": "And in the royal capital of Ketumatī a king named Saṅkha will arise, a wheel-turning monarch, a just and principled king. His dominion will extend to all four sides, he will achieve stability in the country, and possess the seven treasures. "
+    },
+    {
+      "number": 302,
+      "pali": "Tassimāni satta ratanāni bhavissanti, seyyathidaṁ—",
+      "english": "He will have the following seven treasures: "
+    },
+    {
+      "number": 303,
+      "pali": "cakkaratanaṁ hatthiratanaṁ assaratanaṁ maṇiratanaṁ itthiratanaṁ gahapatiratanaṁ pariṇāyakaratanameva sattamaṁ. ",
+      "english": "the wheel, the elephant, the horse, the jewel, the woman, the householder, and the commander as the seventh treasure. "
+    },
+    {
+      "number": 304,
+      "pali": "Parosahassaṁ kho panassa puttā bhavissanti sūrā vīraṅgarūpā parasenappamaddanā. ",
+      "english": "He will have over a thousand sons who are valiant and heroic, crushing the armies of his enemies. "
+    },
+    {
+      "number": 305,
+      "pali": "So imaṁ pathaviṁ sāgarapariyantaṁ adaṇḍena asatthena dhammena abhivijiya ajjhāvasissati. ",
+      "english": "After conquering this land girt by sea, he will reign by principle, without rod or sword. "
+    },
+    {
+      "number": 306,
+      "pali": "8. Metteyyabuddhuppāda ",
+      "english": "8. The Arising of the Buddha Metteyya "
+    },
+    {
+      "number": 307,
+      "pali": "Asītivassasahassāyukesu, bhikkhave, manussesu metteyyo nāma bhagavā loke uppajjissati arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā. ",
+      "english": "And the Blessed One named Metteyya will arise in the world—perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed—"
+    },
+    {
+      "number": 308,
+      "pali": "Seyyathāpāhametarahi loke uppanno arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā. ",
+      "english": "just as I have arisen today. "
+    },
+    {
+      "number": 309,
+      "pali": "So imaṁ lokaṁ sadevakaṁ samārakaṁ sabrahmakaṁ sassamaṇabrāhmaṇiṁ pajaṁ sadevamanussaṁ sayaṁ abhiññā sacchikatvā pavedessati, seyyathāpāhametarahi imaṁ lokaṁ sadevakaṁ samārakaṁ sabrahmakaṁ sassamaṇabrāhmaṇiṁ pajaṁ sadevamanussaṁ sayaṁ abhiññā sacchikatvā pavedemi. ",
+      "english": "He will realize with his own insight this world—with its gods, Māras, and divinities, this population with its ascetics and brahmins, gods and humans—and make it known to others, just as I do today. "
+    },
+    {
+      "number": 310,
+      "pali": "So dhammaṁ desessati ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsessati; ",
+      "english": "He will teach the Dhamma that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And he will reveal a spiritual practice that’s entirely full and pure, "
+    },
+    {
+      "number": 311,
+      "pali": "seyyathāpāhametarahi dhammaṁ desemi ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsemi. ",
+      "english": "just as I do today. "
+    },
+    {
+      "number": 312,
+      "pali": "So anekasahassaṁ bhikkhusaṅghaṁ pariharissati, seyyathāpāhametarahi anekasataṁ bhikkhusaṅghaṁ pariharāmi. ",
+      "english": "He will lead a Saṅgha of many thousand mendicants, just as I lead a Saṅgha of many hundreds today. "
+    },
+    {
+      "number": 313,
+      "pali": "Atha kho, bhikkhave, saṅkho nāma rājā yo so yūpo raññā mahāpanādena kārāpito. ",
+      "english": "Then King Saṅkha will have the sacrificial post once built by King Mahāpanāda raised up. "
+    },
+    {
+      "number": 314,
+      "pali": "Taṁ yūpaṁ ussāpetvā ajjhāvasitvā taṁ datvā vissajjitvā samaṇabrāhmaṇakapaṇaddhikavaṇibbakayācakānaṁ dānaṁ datvā metteyyassa bhagavato arahato sammāsambuddhassa santike kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajissati. ",
+      "english": "Having reigned, he will abdicate, offering charity to ascetics and brahmins, paupers, vagrants, supplicants, and beggars. Then, having shaved off his hair and beard and dressed in ocher robes, he will go forth from the lay life to homelessness in the Buddha Metteyya’s presence. "
+    },
+    {
+      "number": 315,
+      "pali": "So evaṁ pabbajito samāno eko vūpakaṭṭho appamatto ātāpī pahitatto viharanto nacirasseva—yassatthāya kulaputtā sammadeva agārasmā anagāriyaṁ pabbajanti, tadanuttaraṁ—brahmacariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharissati. ",
+      "english": "Soon after going forth, living withdrawn, diligent, keen, and resolute, he will realize the supreme end of the spiritual path in this very life. He will live having achieved with his own insight the goal for which gentlemen rightly go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 316,
+      "pali": "Attadīpā, bhikkhave, viharatha attasaraṇā anaññasaraṇā, dhammadīpā dhammasaraṇā anaññasaraṇā. ",
+      "english": "Mendicants, live as your own island, your own refuge, with no other refuge. Let the teaching be your island and your refuge, with no other refuge. "
+    },
+    {
+      "number": 317,
+      "pali": "Kathañca, bhikkhave, bhikkhu attadīpo viharati attasaraṇo anaññasaraṇo dhammadīpo dhammasaraṇo anaññasaraṇo? ",
+      "english": "And how does a mendicant do this? "
+    },
+    {
+      "number": 318,
+      "pali": "Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ. ",
+      "english": "It’s when a mendicant meditates by observing an aspect of the body—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 319,
+      "pali": "Vedanāsu vedanānupassī …pe… ",
+      "english": "They meditate observing an aspect of feelings … "
+    },
+    {
+      "number": 320,
+      "pali": "citte cittānupassī …pe… ",
+      "english": "mind … "
+    },
+    {
+      "number": 321,
+      "pali": "dhammesu dhammānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ. ",
+      "english": "principles—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 322,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu attadīpo viharati attasaraṇo anaññasaraṇo dhammadīpo dhammasaraṇo anaññasaraṇo. ",
+      "english": "That’s how a mendicant lives as their own island, their own refuge, with no other refuge. That’s how they let the teaching be their island and their refuge, with no other refuge. "
+    },
+    {
+      "number": 323,
+      "pali": "9. Bhikkhunoāyuvaṇṇādivaḍḍhanakathā ",
+      "english": "9. On Long Life and Beauty for Mendicants "
+    },
+    {
+      "number": 324,
+      "pali": "Gocare, bhikkhave, caratha sake pettike visaye. ",
+      "english": "Mendicants, you should roam inside your own territory, the domain of your fathers. "
+    },
+    {
+      "number": 325,
+      "pali": "Gocare, bhikkhave, carantā sake pettike visaye āyunāpi vaḍḍhissatha, vaṇṇenapi vaḍḍhissatha, sukhenapi vaḍḍhissatha, bhogenapi vaḍḍhissatha, balenapi vaḍḍhissatha. ",
+      "english": "Doing so, you will grow in lifespan, beauty, happiness, wealth, and power. "
+    },
+    {
+      "number": 326,
+      "pali": "Kiñca, bhikkhave, bhikkhuno āyusmiṁ? ",
+      "english": "And what is long life for a mendicant? "
+    },
+    {
+      "number": 327,
+      "pali": "Idha, bhikkhave, bhikkhu chandasamādhipadhānasaṅkhārasamannāgataṁ iddhipādaṁ bhāveti, ",
+      "english": "It’s when a mendicant develops the basis of psychic power that has immersion due to enthusiasm, and active effort. "
+    },
+    {
+      "number": 328,
+      "pali": "vīriyasamādhipadhānasaṅkhārasamannāgataṁ iddhipādaṁ bhāveti, ",
+      "english": "They develop the basis of psychic power that has immersion due to energy, and active effort. "
+    },
+    {
+      "number": 329,
+      "pali": "cittasamādhipadhānasaṅkhārasamannāgataṁ iddhipādaṁ bhāveti, ",
+      "english": "They develop the basis of psychic power that has immersion due to mental development, and active effort. "
+    },
+    {
+      "number": 330,
+      "pali": "vīmaṁsāsamādhipadhānasaṅkhārasamannāgataṁ iddhipādaṁ bhāveti. ",
+      "english": "They develop the basis of psychic power that has immersion due to inquiry, and active effort. "
+    },
+    {
+      "number": 331,
+      "pali": "So imesaṁ catunnaṁ iddhipādānaṁ bhāvitattā bahulīkatattā ākaṅkhamāno kappaṁ vā tiṭṭheyya kappāvasesaṁ vā. ",
+      "english": "Having developed and cultivated these four bases of psychic power they may, if they wish, live for the proper lifespan or what’s left of it. "
+    },
+    {
+      "number": 332,
+      "pali": "Idaṁ kho, bhikkhave, bhikkhuno āyusmiṁ. ",
+      "english": "This is long life for a mendicant. "
+    },
+    {
+      "number": 333,
+      "pali": "Kiñca, bhikkhave, bhikkhuno vaṇṇasmiṁ? ",
+      "english": "And what is beauty for a mendicant? "
+    },
+    {
+      "number": 334,
+      "pali": "Idha, bhikkhave, bhikkhu sīlavā hoti, pātimokkhasaṁvarasaṁvuto viharati ācāragocarasampanno, aṇumattesu vajjesu bhayadassāvī, samādāya sikkhati sikkhāpadesu. ",
+      "english": "It’s when a mendicant is ethical, restrained in the monastic code, conducting themselves well and resorting for alms in suitable places. Seeing danger in the slightest fault, they keep the rules they’ve undertaken. "
+    },
+    {
+      "number": 335,
+      "pali": "Idaṁ kho, bhikkhave, bhikkhuno vaṇṇasmiṁ. ",
+      "english": "This is beauty for a mendicant. "
+    },
+    {
+      "number": 336,
+      "pali": "Kiñca, bhikkhave, bhikkhuno sukhasmiṁ? ",
+      "english": "And what is happiness for a mendicant? "
+    },
+    {
+      "number": 337,
+      "pali": "Idha, bhikkhave, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 338,
+      "pali": "Vitakkavicārānaṁ vūpasamā …pe… dutiyaṁ jhānaṁ … ",
+      "english": "As the placing of the mind and keeping it connected are stilled, they enter and remain in the second absorption … "
+    },
+    {
+      "number": 339,
+      "pali": "tatiyaṁ jhānaṁ … ",
+      "english": "third absorption … "
+    },
+    {
+      "number": 340,
+      "pali": "catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "fourth absorption. "
+    },
+    {
+      "number": 341,
+      "pali": "Idaṁ kho, bhikkhave, bhikkhuno, sukhasmiṁ. ",
+      "english": "This is happiness for a mendicant. "
+    },
+    {
+      "number": 342,
+      "pali": "Kiñca, bhikkhave, bhikkhuno bhogasmiṁ? ",
+      "english": "And what is wealth for a mendicant? "
+    },
+    {
+      "number": 343,
+      "pali": "Idha, bhikkhave, bhikkhu mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati tathā dutiyaṁ. Tathā tatiyaṁ. Tathā catutthaṁ. Iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": "It’s when a monk meditates spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 344,
+      "pali": "Karuṇāsahagatena cetasā …pe… ",
+      "english": "They meditate spreading a heart full of compassion … "
+    },
+    {
+      "number": 345,
+      "pali": "muditāsahagatena cetasā …pe… ",
+      "english": "rejoicing … "
+    },
+    {
+      "number": 346,
+      "pali": "upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā viharati. Tathā dutiyaṁ. Tathā tatiyaṁ. Tathā catutthaṁ. Iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": "equanimity to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of equanimity to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 347,
+      "pali": "Idaṁ kho, bhikkhave, bhikkhuno bhogasmiṁ. ",
+      "english": "This is wealth for a mendicant. "
+    },
+    {
+      "number": 348,
+      "pali": "Kiñca, bhikkhave, bhikkhuno balasmiṁ? ",
+      "english": "And what is power for a mendicant? "
+    },
+    {
+      "number": 349,
+      "pali": "Idha, bhikkhave, bhikkhu āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. ",
+      "english": "It’s when a mendicant realizes the undefiled freedom of heart and freedom by wisdom in this very life. And they live having realized it with their own insight due to the ending of defilements. "
+    },
+    {
+      "number": 350,
+      "pali": "Idaṁ kho, bhikkhave, bhikkhuno balasmiṁ. ",
+      "english": "This is power for a mendicant. "
+    },
+    {
+      "number": 351,
+      "pali": "Nāhaṁ, bhikkhave, aññaṁ ekabalampi samanupassāmi yaṁ evaṁ duppasahaṁ, yathayidaṁ, bhikkhave, mārabalaṁ. ",
+      "english": "Mendicants, I do not see a single power so hard to defeat as the power of Māra. "
+    },
+    {
+      "number": 352,
+      "pali": "Kusalānaṁ, bhikkhave, dhammānaṁ samādānahetu evamidaṁ puññaṁ pavaḍḍhatī”ti. ",
+      "english": "It is due to undertaking skillful qualities that merit grows.” "
+    },
+    {
+      "number": 353,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 354,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 355,
+      "pali": "Cakkavattisuttaṁ niṭṭhitaṁ tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,910 @@
+{
+  "sutta_id": "MN83",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 83 ",
+      "english": "Middle Discourses 83 "
+    },
+    {
+      "number": 2,
+      "pali": "Maghadevasutta ",
+      "english": "About King Maghadeva "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā mithilāyaṁ viharati maghadevaambavane. ",
+      "english": "At one time the Buddha was staying near Mithilā in the Maghadeva Mango Grove. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho bhagavā aññatarasmiṁ padese sitaṁ pātvākāsi. ",
+      "english": "Then the Buddha smiled at a certain spot. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho āyasmato ānandassa etadahosi: ",
+      "english": "Then Venerable Ānanda thought, "
+    },
+    {
+      "number": 7,
+      "pali": "“ko nu kho hetu, ko paccayo bhagavato sitassa pātukammāya? ",
+      "english": "“What is the cause, what is the reason why the Buddha smiled? "
+    },
+    {
+      "number": 8,
+      "pali": "Na akāraṇena tathāgatā sitaṁ pātukarontī”ti. ",
+      "english": "Realized Ones do not smile for no reason.” "
+    },
+    {
+      "number": 9,
+      "pali": "Atha kho āyasmā ānando ekaṁsaṁ cīvaraṁ katvā yena bhagavā tenañjaliṁ paṇāmetvā bhagavantaṁ etadavoca: ",
+      "english": "So Ānanda arranged his robe over one shoulder, raised his cupped palms toward the Buddha, and said, "
+    },
+    {
+      "number": 10,
+      "pali": "“ko nu kho, bhante, hetu, ko paccayo bhagavato sitassa pātukammāya? ",
+      "english": "“What is the cause, what is the reason why the Buddha smiled? "
+    },
+    {
+      "number": 11,
+      "pali": "Na akāraṇena tathāgatā sitaṁ pātukarontī”ti. ",
+      "english": "Realized Ones do not smile for no reason.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Bhūtapubbaṁ, ānanda, imissāyeva mithilāyaṁ rājā ahosi maghadevo nāma dhammiko dhammarājā dhamme ṭhito mahārājā; ",
+      "english": "“Once upon a time, Ānanda, right here in Mithilā there was a just and principled king named Maghadeva, a great king who stood by his duty. "
+    },
+    {
+      "number": 13,
+      "pali": "dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+      "english": "He justly treated brahmins and householders, and people of town and country. "
+    },
+    {
+      "number": 14,
+      "pali": "uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassa. ",
+      "english": "And he observed the sabbath on the fourteenth, fifteenth, and eighth of the fortnight. "
+    },
+    {
+      "number": 15,
+      "pali": "Atha kho, ānanda, rājā maghadevo bahūnaṁ vassānaṁ bahūnaṁ vassasatānaṁ bahūnaṁ vassasahassānaṁ accayena kappakaṁ āmantesi: ",
+      "english": "Then, after many years, many hundred years, many thousand years had passed, King Maghadeva addressed his barber, "
+    },
+    {
+      "number": 16,
+      "pali": "‘yadā me, samma kappaka, passeyyāsi sirasmiṁ palitāni jātāni, atha me āroceyyāsī’ti. ",
+      "english": "‘My dear barber, when you see grey hairs growing on my head, please tell me.’ "
+    },
+    {
+      "number": 17,
+      "pali": "‘Evaṁ, devā’ti kho, ānanda, kappako rañño maghadevassa paccassosi. ",
+      "english": "‘Yes, Your Majesty,’ replied the barber. "
+    },
+    {
+      "number": 18,
+      "pali": "Addasā kho, ānanda, kappako bahūnaṁ vassānaṁ bahūnaṁ vassasatānaṁ bahūnaṁ vassasahassānaṁ accayena rañño maghadevassa sirasmiṁ palitāni jātāni. ",
+      "english": "When many thousand years had passed, the barber saw grey hairs growing on the king’s head. "
+    },
+    {
+      "number": 19,
+      "pali": "Disvāna rājānaṁ maghadevaṁ etadavoca: ",
+      "english": "He said to the king, "
+    },
+    {
+      "number": 20,
+      "pali": "‘pātubhūtā kho devassa devadūtā, dissanti sirasmiṁ palitāni jātānī’ti. ",
+      "english": "‘The messengers of the gods have shown themselves to you. Grey hairs can be seen growing on your head.’ "
+    },
+    {
+      "number": 21,
+      "pali": "‘Tena hi, samma kappaka, tāni palitāni sādhukaṁ saṇḍāsena uddharitvā mama añjalismiṁ patiṭṭhāpehī’ti. ",
+      "english": "‘Well then, my dear barber, carefully pull them out with tweezers and place them in my cupped hands.’ "
+    },
+    {
+      "number": 22,
+      "pali": "‘Evaṁ, devā’ti kho, ānanda, kappako rañño maghadevassa paṭissutvā tāni palitāni sādhukaṁ saṇḍāsena uddharitvā rañño maghadevassa añjalismiṁ patiṭṭhāpesi. ",
+      "english": "‘Yes, Your Majesty,’ replied the barber, and he did as the king said. "
+    },
+    {
+      "number": 23,
+      "pali": "Atha kho, ānanda, rājā maghadevo kappakassa gāmavaraṁ datvā jeṭṭhaputtaṁ kumāraṁ āmantāpetvā etadavoca: ",
+      "english": "The king gave the barber a prize village, then summoned the crown prince and said, "
+    },
+    {
+      "number": 24,
+      "pali": "‘pātubhūtā kho me, tāta kumāra, devadūtā; ",
+      "english": "‘Dear prince, the messengers of the gods have shown themselves to me. "
+    },
+    {
+      "number": 25,
+      "pali": "dissanti sirasmiṁ palitāni jātāni; ",
+      "english": "Grey hairs can be seen growing on my head. "
+    },
+    {
+      "number": 26,
+      "pali": "bhuttā kho pana me mānusakā kāmā; ",
+      "english": "I have enjoyed human pleasures. "
+    },
+    {
+      "number": 27,
+      "pali": "samayo dibbe kāme pariyesituṁ. ",
+      "english": "Now it is time to seek heavenly pleasures. "
+    },
+    {
+      "number": 28,
+      "pali": "Ehi tvaṁ, tāta kumāra, imaṁ rajjaṁ paṭipajja. ",
+      "english": "Come, dear prince, rule the realm. "
+    },
+    {
+      "number": 29,
+      "pali": "Ahaṁ pana kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajissāmi. ",
+      "english": "I shall shave off my hair and beard, dress in ocher robes, and go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 30,
+      "pali": "Tena hi, tāta kumāra, yadā tvampi passeyyāsi sirasmiṁ palitāni jātāni, atha kappakassa gāmavaraṁ datvā jeṭṭhaputtaṁ kumāraṁ sādhukaṁ rajje samanusāsitvā kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajeyyāsi. ",
+      "english": "For dear prince, you too will one day see grey hairs growing on your head. When this happens, after giving a prize village to the barber and carefully instructing the crown prince in kingship, you should shave off your hair and beard, dress in ocher robes, and go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 31,
+      "pali": "Yena me idaṁ kalyāṇaṁ vattaṁ nihitaṁ anuppavatteyyāsi, mā kho me tvaṁ antimapuriso ahosi. ",
+      "english": "Keep up this good practice that I have founded. Do not be my final man. "
+    },
+    {
+      "number": 32,
+      "pali": "Yasmiṁ kho, tāta kumāra, purisayuge vattamāne evarūpassa kalyāṇassa vattassa samucchedo hoti so tesaṁ antimapuriso hoti. ",
+      "english": "When a pair of men are living, the one who breaks such good practice is their final man. "
+    },
+    {
+      "number": 33,
+      "pali": "Taṁ tāhaṁ, tāta kumāra, evaṁ vadāmi—",
+      "english": "Therefore I say to you, "
+    },
+    {
+      "number": 34,
+      "pali": "yena me idaṁ kalyāṇaṁ vattaṁ nihitaṁ anuppavatteyyāsi, mā kho me tvaṁ antimapuriso ahosī’ti. ",
+      "english": "“Keep up this good practice that I have founded. Do not be my final man.”’ "
+    },
+    {
+      "number": 35,
+      "pali": "Atha kho, ānanda, rājā maghadevo kappakassa gāmavaraṁ datvā jeṭṭhaputtaṁ kumāraṁ sādhukaṁ rajje samanusāsitvā imasmiṁyeva maghadevaambavane kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbaji. ",
+      "english": "And so, after giving a prize village to the barber and carefully instructing the crown prince in kingship, King Maghadeva shaved off his hair and beard, dressed in ocher robes, and went forth from the lay life to homelessness here in this mango grove. "
+    },
+    {
+      "number": 36,
+      "pali": "So mettāsahagatena cetasā ekaṁ disaṁ pharitvā vihāsi, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā vihāsi. ",
+      "english": "He meditated spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, he spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 37,
+      "pali": "Karuṇāsahagatena cetasā … ",
+      "english": "He meditated spreading a heart full of compassion … "
+    },
+    {
+      "number": 38,
+      "pali": "muditāsahagatena cetasā … ",
+      "english": "rejoicing … "
+    },
+    {
+      "number": 39,
+      "pali": "upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā vihāsi, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā vihāsi. ",
+      "english": "equanimity to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, he spread a heart full of equanimity to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 40,
+      "pali": "Rājā kho panānanda, maghadevo caturāsītivassasahassāni kumārakīḷitaṁ kīḷi, caturāsītivassasahassāni oparajjaṁ kāresi, caturāsītivassasahassāni rajjaṁ kāresi, caturāsītivassasahassāni imasmiṁyeva maghadevaambavane agārasmā anagāriyaṁ pabbajito brahmacariyamacari. ",
+      "english": "For 84,000 years King Maghadeva played games as a child, for 84,000 years he acted as viceroy, for 84,000 years he ruled the realm, and for 84,000 years he led the spiritual life after going forth here in this mango grove. "
+    },
+    {
+      "number": 41,
+      "pali": "So cattāro brahmavihāre bhāvetvā kāyassa bhedā paraṁ maraṇā brahmalokūpago ahosi. ",
+      "english": "And having developed the four divine meditations, when his body broke up, after death, he was reborn in a good place, a realm of divinity. "
+    },
+    {
+      "number": 42,
+      "pali": "Atha kho rañño, ānanda, maghadevassa putto bahūnaṁ vassānaṁ bahūnaṁ vassasatānaṁ bahūnaṁ vassasahassānaṁ accayena kappakaṁ āmantesi: ",
+      "english": "Then, after many years, many hundred years, many thousand years had passed, King Maghadeva’s son addressed his barber, "
+    },
+    {
+      "number": 43,
+      "pali": "‘yadā me, samma kappaka, passeyyāsi sirasmiṁ palitāni jātāni, atha kho āroceyyāsī’ti. ",
+      "english": "‘My dear barber, when you see grey hairs growing on my head, please tell me.’ "
+    },
+    {
+      "number": 44,
+      "pali": "‘Evaṁ, devā’ti kho, ānanda, kappako rañño maghadevassa puttassa paccassosi. ",
+      "english": "And all unfolded as in the case of his father. "
+    },
+    {
+      "number": 45,
+      "pali": "Addasā kho, ānanda, kappako bahūnaṁ vassānaṁ bahūnaṁ vassasatānaṁ bahūnaṁ vassasahassānaṁ accayena rañño maghadevassa puttassa sirasmiṁ palitāni jātāni. ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "Disvāna rañño maghadevassa puttaṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "‘pātubhūtā kho devassa devadūtā; ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "dissanti sirasmiṁ palitāni jātānī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "‘Tena hi, samma kappaka, tāni palitāni sādhukaṁ saṇḍāsena uddharitvā mama añjalismiṁ patiṭṭhāpehī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "‘Evaṁ, devā’ti kho, ānanda, kappako rañño maghadevassa puttassa paṭissutvā tāni palitāni sādhukaṁ saṇḍāsena uddharitvā rañño maghadevassa puttassa añjalismiṁ patiṭṭhāpesi. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Atha kho, ānanda, rañño maghadevassa putto kappakassa gāmavaraṁ datvā jeṭṭhaputtaṁ kumāraṁ āmantāpetvā etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "‘pātubhūtā kho me, tāta kumāra, devadūtā; ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "dissanti sirasmiṁ palitāni jātāni; ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "bhuttā kho pana me mānusakā kāmā; ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "samayo dibbe kāme pariyesituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Ehi tvaṁ, tāta kumāra, imaṁ rajjaṁ paṭipajja. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "Ahaṁ pana kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajissāmi. ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "Tena hi, tāta kumāra, yadā tvampi passeyyāsi sirasmiṁ palitāni jātāni, atha kappakassa gāmavaraṁ datvā jeṭṭhaputtaṁ kumāraṁ sādhukaṁ rajje samanusāsitvā kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajeyyāsi. ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "Yena me idaṁ kalyāṇaṁ vattaṁ nihitaṁ anuppavatteyyāsi, mā kho me tvaṁ antimapuriso ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "Yasmiṁ kho, tāta kumāra, purisayuge vattamāne evarūpassa kalyāṇassa vattassa samucchedo hoti so tesaṁ antimapuriso hoti. ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "Taṁ tāhaṁ, tāta kumāra, evaṁ vadāmi—",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "yena me idaṁ kalyāṇaṁ vattaṁ nihitaṁ anuppavatteyyāsi, mā kho me tvaṁ antimapuriso ahosī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "Atha kho, ānanda, rañño maghadevassa putto kappakassa gāmavaraṁ datvā jeṭṭhaputtaṁ kumāraṁ sādhukaṁ rajje samanusāsitvā imasmiṁyeva maghadevaambavane kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbaji. ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "So mettāsahagatena cetasā ekaṁ disaṁ pharitvā vihāsi, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā vihāsi. ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "Karuṇāsahagatena cetasā … ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "muditāsahagatena cetasā … ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā vihāsi, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā vihāsi. ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "Rañño kho panānanda, maghadevassa putto caturāsītivassasahassāni kumārakīḷitaṁ kīḷi, caturāsītivassasahassāni oparajjaṁ kāresi, caturāsītivassasahassāni rajjaṁ kāresi, caturāsītivassasahassāni imasmiṁyeva maghadevaambavane agārasmā anagāriyaṁ pabbajito brahmacariyamacari. ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "So cattāro brahmavihāre bhāvetvā kāyassa bhedā paraṁ maraṇā brahmalokūpago ahosi. ",
+      "english": "And having developed the four divine meditations, when his body broke up, after death, Maghadeva’s son was reborn in a good place, a realm of divinity. "
+    },
+    {
+      "number": 70,
+      "pali": "Rañño kho panānanda, maghadevassa puttapaputtakā tassa paramparā caturāsītirājasahassāni imasmiṁyeva maghadevaambavane kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajiṁsu. ",
+      "english": "And a lineage of 84,000 kings, sons of sons of King Maghadeva, shaved off their hair and beard, dressed in ocher robes, and went forth from the lay life to homelessness here in this mango grove. "
+    },
+    {
+      "number": 71,
+      "pali": "Te mettāsahagatena cetasā ekaṁ disaṁ pharitvā vihariṁsu, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā vihariṁsu. ",
+      "english": "They meditated spreading a heart full of love … "
+    },
+    {
+      "number": 72,
+      "pali": "Karuṇāsahagatena cetasā … ",
+      "english": "compassion … "
+    },
+    {
+      "number": 73,
+      "pali": "muditāsahagatena cetasā … ",
+      "english": "rejoicing … "
+    },
+    {
+      "number": 74,
+      "pali": "upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā vihariṁsu, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā vihariṁsu. ",
+      "english": "equanimity to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of equanimity to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 75,
+      "pali": "Caturāsītivassasahassāni kumārakīḷitaṁ kīḷiṁsu, caturāsītivassasahassāni oparajjaṁ kāresuṁ, caturāsītivassasahassāni rajjaṁ kāresuṁ, caturāsītivassasahassāni imasmiṁyeva maghadevaambavane agārasmā anagāriyaṁ pabbajitā brahmacariyamacariṁsu. ",
+      "english": "For 84,000 years they played games as a child, for 84,000 years they acted as viceroy, for 84,000 years they ruled the realm, and for 84,000 years they led the spiritual life after going forth here in this mango grove. "
+    },
+    {
+      "number": 76,
+      "pali": "Te cattāro brahmavihāre bhāvetvā kāyassa bhedā paraṁ maraṇā brahmalokūpagā ahesuṁ. ",
+      "english": "And having developed the four divine meditations, when their bodies broke up, after death, they were reborn in a good place, a realm of divinity. "
+    },
+    {
+      "number": 77,
+      "pali": "Nimi tesaṁ rājā pacchimako ahosi dhammiko dhammarājā dhamme ṭhito mahārājā; ",
+      "english": "Nimi was the last of those kings, a just and principled king, a great king who stood by his duty. "
+    },
+    {
+      "number": 78,
+      "pali": "dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+      "english": "He justly treated brahmins and householders, and people of town and country. "
+    },
+    {
+      "number": 79,
+      "pali": "uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassa. ",
+      "english": "And he observed the sabbath on the fourteenth, fifteenth, and eighth of the fortnight. "
+    },
+    {
+      "number": 80,
+      "pali": "Bhūtapubbaṁ, ānanda, devānaṁ tāvatiṁsānaṁ sudhammāyaṁ sabhāyaṁ sannisinnānaṁ sannipatitānaṁ ayamantarākathā udapādi: ",
+      "english": "Once upon a time, Ānanda, while the gods of the thirty-three were sitting together in the Hall of Clear Right, this discussion came up among them: "
+    },
+    {
+      "number": 81,
+      "pali": "‘lābhā vata, bho, videhānaṁ, suladdhaṁ vata, bho, videhānaṁ, ",
+      "english": "‘The people of Videha are so fortunate, so very fortunate "
+    },
+    {
+      "number": 82,
+      "pali": "yesaṁ nimi rājā dhammiko dhammarājā dhamme ṭhito mahārājā; ",
+      "english": "to have Nimi as their king. He is a just and principled king, a great king who stands by his duty. "
+    },
+    {
+      "number": 83,
+      "pali": "dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+      "english": "He justly treats brahmins and householders, and people of town and country. "
+    },
+    {
+      "number": 84,
+      "pali": "uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassā’ti. ",
+      "english": "And he observes the sabbath on the fourteenth, fifteenth, and eighth of the fortnight.’ "
+    },
+    {
+      "number": 85,
+      "pali": "Atha kho, ānanda, sakko devānamindo deve tāvatiṁse āmantesi: ",
+      "english": "Then Sakka, lord of gods, addressed the gods of the thirty-three, "
+    },
+    {
+      "number": 86,
+      "pali": "‘iccheyyātha no tumhe, mārisā, nimiṁ rājānaṁ daṭṭhun’ti? ",
+      "english": "‘Good fellows, would you like to see King Nimi?’ "
+    },
+    {
+      "number": 87,
+      "pali": "‘Icchāma mayaṁ, mārisa, nimiṁ rājānaṁ daṭṭhun’ti. ",
+      "english": "‘We would.’ "
+    },
+    {
+      "number": 88,
+      "pali": "Tena kho pana, ānanda, samayena nimi rājā tadahuposathe pannarase sīsaṁnhāto uposathiko uparipāsādavaragato nisinno hoti. ",
+      "english": "Now at that time it was the fifteenth day sabbath, and King Nimi had bathed his head and was sitting upstairs in the royal longhouse to observe the sabbath. "
+    },
+    {
+      "number": 89,
+      "pali": "Atha kho, ānanda, sakko devānamindo—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evameva—devesu tāvatiṁsesu antarahito nimissa rañño pamukhe pāturahosi. ",
+      "english": "Then, as easily as a strong person would extend or contract their arm, Sakka vanished from the thirty-three gods and reappeared in front of King Nimi. "
+    },
+    {
+      "number": 90,
+      "pali": "Atha kho, ānanda, sakko devānamindo nimiṁ rājānaṁ etadavoca: ",
+      "english": "He said to the king, "
+    },
+    {
+      "number": 91,
+      "pali": "‘lābhā te, mahārāja, suladdhaṁ te, mahārāja. ",
+      "english": "‘You’re fortunate, great king, so very fortunate. "
+    },
+    {
+      "number": 92,
+      "pali": "Devā, mahārāja, tāvatiṁsā sudhammāyaṁ sabhāyaṁ kittayamānarūpā sannisinnā: ",
+      "english": "The gods of the thirty-three were sitting together in the Hall of Clear Right, where they were singing your praises. "
+    },
+    {
+      "number": 93,
+      "pali": "“lābhā vata, bho, videhānaṁ, suladdhaṁ vata, bho, videhānaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "yesaṁ nimi rājā dhammiko dhammarājā dhamme ṭhito mahārājā; ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+      "english": ""
+    },
+    {
+      "number": 96,
+      "pali": "uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "Devā te, mahārāja, tāvatiṁsā dassanakāmā. ",
+      "english": "They would like to see you. "
+    },
+    {
+      "number": 98,
+      "pali": "Tassa te ahaṁ, mahārāja, sahassayuttaṁ ājaññarathaṁ pahiṇissāmi; ",
+      "english": "I shall send a chariot harnessed with a thousand thoroughbreds for you, great king. "
+    },
+    {
+      "number": 99,
+      "pali": "abhiruheyyāsi, mahārāja, dibbaṁ yānaṁ avikampamāno’ti. ",
+      "english": "Mount the heavenly chariot, great king, without wavering!’ "
+    },
+    {
+      "number": 100,
+      "pali": "Adhivāsesi kho, ānanda, nimi rājā tuṇhībhāvena. ",
+      "english": "King Nimi consented with silence. "
+    },
+    {
+      "number": 101,
+      "pali": "Atha kho, ānanda, sakko devānamindo nimissa rañño adhivāsanaṁ viditvā—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evameva—nimissa rañño pamukhe antarahito devesu tāvatiṁsesu pāturahosi. ",
+      "english": "Then, knowing that the king had consented, as easily as a strong person would extend or contract their arm, Sakka vanished from King Nimi and reappeared among the gods of the thirty-three. "
+    },
+    {
+      "number": 102,
+      "pali": "Atha kho, ānanda, sakko devānamindo mātaliṁ saṅgāhakaṁ āmantesi: ",
+      "english": "Then Sakka, lord of gods, addressed his chariot handler Mātali, "
+    },
+    {
+      "number": 103,
+      "pali": "‘ehi tvaṁ, samma mātali, sahassayuttaṁ ājaññarathaṁ yojetvā nimiṁ rājānaṁ upasaṅkamitvā evaṁ vadehi—",
+      "english": "‘Come, dear Mātali, harness the chariot with a thousand thoroughbreds. Then go to King Nimi and say, "
+    },
+    {
+      "number": 104,
+      "pali": "ayaṁ te, mahārāja, sahassayutto ājaññaratho sakkena devānamindena pesito; ",
+      "english": "“Great king, this chariot has been sent for you by Sakka, lord of gods. "
+    },
+    {
+      "number": 105,
+      "pali": "abhiruheyyāsi, mahārāja, dibbaṁ yānaṁ avikampamāno’ti. ",
+      "english": "Mount the heavenly chariot, great king, without wavering!”’ "
+    },
+    {
+      "number": 106,
+      "pali": "‘Evaṁ, bhaddantavā’ti kho, ānanda, mātali saṅgāhako sakkassa devānamindassa paṭissutvā sahassayuttaṁ ājaññarathaṁ yojetvā nimiṁ rājānaṁ upasaṅkamitvā etadavoca: ",
+      "english": "‘Yes, lord,’ replied Mātali. He did as Sakka asked, and said to the king, "
+    },
+    {
+      "number": 107,
+      "pali": "‘ayaṁ te, mahārāja, sahassayutto ājaññaratho sakkena devānamindena pesito; ",
+      "english": "‘Great king, this chariot has been sent for you by Sakka, lord of gods. "
+    },
+    {
+      "number": 108,
+      "pali": "abhiruha, mahārāja, dibbaṁ yānaṁ avikampamāno. ",
+      "english": "Mount the heavenly chariot, great king, without wavering! "
+    },
+    {
+      "number": 109,
+      "pali": "Api ca, mahārāja, katamena taṁ nemi, yena vā pāpakammā pāpakānaṁ kammānaṁ vipākaṁ paṭisaṁvedenti, yena vā kalyāṇakammā kalyāṇakammānaṁ vipākaṁ paṭisaṁvedentī’ti? ",
+      "english": "But which way should we go—the way of those who experience the result of bad deeds, or the way of those who experience the result of good deeds?’ "
+    },
+    {
+      "number": 110,
+      "pali": "‘Ubhayeneva maṁ, mātali, nehī’ti. ",
+      "english": "‘Take me both ways, Mātali.’ "
+    },
+    {
+      "number": 111,
+      "pali": "Sampavesesi kho, ānanda, mātali, saṅgāhako nimiṁ rājānaṁ sudhammaṁ sabhaṁ. ",
+      "english": "Mātali brought King Nimi to the Hall of Clear Right. "
+    },
+    {
+      "number": 112,
+      "pali": "Addasā kho, ānanda, sakko devānamindo nimiṁ rājānaṁ dūratova āgacchantaṁ. ",
+      "english": "Sakka saw King Nimi coming off in the distance, "
+    },
+    {
+      "number": 113,
+      "pali": "Disvāna nimiṁ rājānaṁ etadavoca: ",
+      "english": "and said to him: "
+    },
+    {
+      "number": 114,
+      "pali": "‘ehi kho, mahārāja. ",
+      "english": "‘Come, great king! "
+    },
+    {
+      "number": 115,
+      "pali": "Svāgataṁ, mahārāja. ",
+      "english": "Welcome, great king! "
+    },
+    {
+      "number": 116,
+      "pali": "Devā te dassanakāmā, mahārāja, tāvatiṁsā sudhammāyaṁ sabhāyaṁ kittayamānarūpā sannisinnā: ",
+      "english": "The gods of the thirty-three who wanted to see you were sitting together in the Hall of Clear Right, where they were singing your praises. "
+    },
+    {
+      "number": 117,
+      "pali": "“lābhā vata, bho, videhānaṁ, suladdhaṁ vata, bho, videhānaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "yesaṁ nimi rājā dhammiko dhammarājā dhamme ṭhito mahārājā; ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 121,
+      "pali": "Devā te, mahārāja, tāvatiṁsā dassanakāmā. ",
+      "english": "The gods of the thirty-three would like to see you. "
+    },
+    {
+      "number": 122,
+      "pali": "Abhirama, mahārāja, devesu devānubhāvenā’ti. ",
+      "english": "Enjoy heavenly glory among the gods!’ "
+    },
+    {
+      "number": 123,
+      "pali": "‘Alaṁ, mārisa, tattheva maṁ mithilaṁ paṭinetu. ",
+      "english": "‘Enough, good fellow. Send me back to Mithilā right away. "
+    },
+    {
+      "number": 124,
+      "pali": "Tathāhaṁ dhammaṁ carissāmi brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+      "english": "That way I shall justly treat brahmins and householders, and people of town and country. "
+    },
+    {
+      "number": 125,
+      "pali": "uposathañca upavasāmi cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassā’ti. ",
+      "english": "And I shall observe the sabbath on the fourteenth, fifteenth, and eighth of the fortnight.’ "
+    },
+    {
+      "number": 126,
+      "pali": "Atha kho, ānanda, sakko devānamindo mātaliṁ saṅgāhakaṁ āmantesi: ",
+      "english": "Then Sakka, lord of gods, addressed his chariot handler Mātali, "
+    },
+    {
+      "number": 127,
+      "pali": "‘ehi tvaṁ, samma mātali, sahassayuttaṁ ājaññarathaṁ yojetvā nimiṁ rājānaṁ tattheva mithilaṁ paṭinehī’ti. ",
+      "english": "‘Come, dear Mātali, harness the chariot with a thousand thoroughbreds and send King Nimi back to Mithilā right away.’ "
+    },
+    {
+      "number": 128,
+      "pali": "‘Evaṁ, bhaddantavā’ti kho, ānanda, mātali saṅgāhako sakkassa devānamindassa paṭissutvā sahassayuttaṁ ājaññarathaṁ yojetvā nimiṁ rājānaṁ tattheva mithilaṁ paṭinesi. ",
+      "english": "‘Yes, lord,’ replied Mātali, and did as Sakka asked. "
+    },
+    {
+      "number": 129,
+      "pali": "Tatra sudaṁ, ānanda, nimi rājā dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca, uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassāti. ",
+      "english": "And there King Nimi justly treated his people, and observed the sabbath. "
+    },
+    {
+      "number": 130,
+      "pali": "Atha kho, ānanda, nimi rājā bahūnaṁ vassānaṁ bahūnaṁ vassasatānaṁ bahūnaṁ vassasahassānaṁ accayena kappakaṁ āmantesi: ",
+      "english": "Then, after many years, many hundred years, many thousand years had passed, King Nimi addressed his barber, "
+    },
+    {
+      "number": 131,
+      "pali": "‘yadā me, samma kappaka, passeyyāsi sirasmiṁ palitāni jātāni, atha me āroceyyāsī’ti. ",
+      "english": "‘My dear barber, when you see grey hairs growing on my head, please tell me.’ "
+    },
+    {
+      "number": 132,
+      "pali": "‘Evaṁ, devā’ti kho, ānanda, kappako nimissa rañño paccassosi. ",
+      "english": "And all unfolded as before. "
+    },
+    {
+      "number": 133,
+      "pali": "Addasā kho, ānanda, kappako bahūnaṁ vassānaṁ bahūnaṁ vassasatānaṁ bahūnaṁ vassasahassānaṁ accayena nimissa rañño sirasmiṁ palitāni jātāni. ",
+      "english": ""
+    },
+    {
+      "number": 134,
+      "pali": "Disvāna nimiṁ rājānaṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 135,
+      "pali": "‘pātubhūtā kho devassa devadūtā; ",
+      "english": ""
+    },
+    {
+      "number": 136,
+      "pali": "dissanti sirasmiṁ palitāni jātānī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 137,
+      "pali": "‘Tena hi, samma kappaka, tāni palitāni sādhukaṁ saṇḍāsena uddharitvā mama añjalismiṁ patiṭṭhāpehī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 138,
+      "pali": "‘Evaṁ, devā’ti kho, ānanda, kappako nimissa rañño paṭissutvā tāni palitāni sādhukaṁ saṇḍāsena uddharitvā nimissa rañño añjalismiṁ patiṭṭhāpesi. ",
+      "english": ""
+    },
+    {
+      "number": 139,
+      "pali": "Atha kho, ānanda, nimi rājā kappakassa gāmavaraṁ datvā jeṭṭhaputtaṁ kumāraṁ āmantāpetvā etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 140,
+      "pali": "‘pātubhūtā kho me, tāta kumāra, devadūtā; ",
+      "english": ""
+    },
+    {
+      "number": 141,
+      "pali": "dissanti sirasmiṁ palitāni jātāni; ",
+      "english": ""
+    },
+    {
+      "number": 142,
+      "pali": "bhuttā kho pana me mānusakā kāmā; ",
+      "english": ""
+    },
+    {
+      "number": 143,
+      "pali": "samayo dibbe kāme pariyesituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 144,
+      "pali": "Ehi tvaṁ, tāta kumāra, imaṁ rajjaṁ paṭipajja. ",
+      "english": ""
+    },
+    {
+      "number": 145,
+      "pali": "Ahaṁ pana kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajissāmi. ",
+      "english": ""
+    },
+    {
+      "number": 146,
+      "pali": "Tena hi, tāta kumāra, yadā tvampi passeyyāsi sirasmiṁ palitāni jātāni, atha kappakassa gāmavaraṁ datvā jeṭṭhaputtaṁ kumāraṁ sādhukaṁ rajje samanusāsitvā kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajeyyāsi. ",
+      "english": ""
+    },
+    {
+      "number": 147,
+      "pali": "Yena me idaṁ kalyāṇaṁ vattaṁ nihitaṁ anuppavatteyyāsi, mā kho me tvaṁ antimapuriso ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 148,
+      "pali": "Yasmiṁ kho, tāta kumāra, purisayuge vattamāne evarūpassa kalyāṇassa vattassa samucchedo hoti so tesaṁ antimapuriso hoti. ",
+      "english": ""
+    },
+    {
+      "number": 149,
+      "pali": "Taṁ tāhaṁ, tāta kumāra, evaṁ vadāmi: ",
+      "english": ""
+    },
+    {
+      "number": 150,
+      "pali": "“yena me idaṁ kalyāṇaṁ vattaṁ nihitaṁ anuppavatteyyāsi, mā kho me tvaṁ antimapuriso ahosī”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 151,
+      "pali": "Atha kho, ānanda, nimi rājā kappakassa gāmavaraṁ datvā jeṭṭhaputtaṁ kumāraṁ sādhukaṁ rajje samanusāsitvā imasmiṁyeva maghadevaambavane kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbaji. ",
+      "english": ""
+    },
+    {
+      "number": 152,
+      "pali": "So mettāsahagatena cetasā ekaṁ disaṁ pharitvā vihāsi, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā vihāsi. ",
+      "english": ""
+    },
+    {
+      "number": 153,
+      "pali": "Karuṇāsahagatena cetasā … ",
+      "english": ""
+    },
+    {
+      "number": 154,
+      "pali": "muditāsahagatena cetasā … ",
+      "english": ""
+    },
+    {
+      "number": 155,
+      "pali": "upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā vihāsi, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā vihāsi. ",
+      "english": ""
+    },
+    {
+      "number": 156,
+      "pali": "Nimi kho panānanda, rājā caturāsītivassasahassāni kumārakīḷitaṁ kīḷi, caturāsītivassasahassāni oparajjaṁ kāresi, caturāsītivassasahassāni rajjaṁ kāresi, caturāsītivassasahassāni imasmiṁyeva maghadevaambavane agārasmā anagāriyaṁ pabbajito brahmacariyamacari. ",
+      "english": ""
+    },
+    {
+      "number": 157,
+      "pali": "So cattāro brahmavihāre bhāvetvā kāyassa bhedā paraṁ maraṇā brahmalokūpago ahosi. ",
+      "english": "And having developed the four divine meditations, when his body broke up, after death, King Nimi was reborn in a good place, a realm of divinity. "
+    },
+    {
+      "number": 158,
+      "pali": "Nimissa kho panānanda, rañño kaḷārajanako nāma putto ahosi. ",
+      "english": "But King Nimi had a son named Kaḷāra Janaka. "
+    },
+    {
+      "number": 159,
+      "pali": "Na so agārasmā anagāriyaṁ pabbaji. ",
+      "english": "He didn’t go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 160,
+      "pali": "So taṁ kalyāṇaṁ vattaṁ samucchindi. ",
+      "english": "He broke that good practice. "
+    },
+    {
+      "number": 161,
+      "pali": "So tesaṁ antimapuriso ahosi. ",
+      "english": "He was their final man. "
+    },
+    {
+      "number": 162,
+      "pali": "Siyā kho pana te, ānanda, evamassa: ",
+      "english": "Ānanda, you might think, "
+    },
+    {
+      "number": 163,
+      "pali": "‘añño nūna tena samayena rājā maghadevo ahosi, yena taṁ kalyāṇaṁ vattaṁ nihitan’ti. ",
+      "english": "‘Surely King Maghadeva, by whom that good practice was founded, must have been someone else at that time?’ "
+    },
+    {
+      "number": 164,
+      "pali": "Na kho panetaṁ, ānanda, evaṁ daṭṭhabbaṁ. ",
+      "english": "But you should not see it like this. "
+    },
+    {
+      "number": 165,
+      "pali": "Ahaṁ tena samayena rājā maghadevo ahosiṁ. ",
+      "english": "I myself was King Maghadeva at that time. "
+    },
+    {
+      "number": 166,
+      "pali": "Ahaṁ taṁ kalyāṇaṁ vattaṁ nihiniṁ, mayā taṁ kalyāṇaṁ vattaṁ nihitaṁ; ",
+      "english": "I was the one who founded that good practice, "
+    },
+    {
+      "number": 167,
+      "pali": "pacchimā janatā anuppavattesi. ",
+      "english": "which was kept up by those who came after. "
+    },
+    {
+      "number": 168,
+      "pali": "Taṁ kho panānanda, kalyāṇaṁ vattaṁ na nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati, yāvadeva brahmalokūpapattiyā. ",
+      "english": "But that good practice doesn’t lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. It only leads as far as rebirth in the realm of divinity. "
+    },
+    {
+      "number": 169,
+      "pali": "Idaṁ kho panānanda, etarahi mayā kalyāṇaṁ vattaṁ nihitaṁ ekantanibbidāya virāgāya nirodhāya upasamāya abhiññāya sambodhāya nibbānāya saṁvattati. ",
+      "english": "But now I have founded a good practice that does lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. "
+    },
+    {
+      "number": 170,
+      "pali": "Katamañcānanda, etarahi mayā kalyāṇaṁ vattaṁ nihitaṁ ekantanibbidāya virāgāya nirodhāya upasamāya abhiññāya sambodhāya nibbānāya saṁvattati? ",
+      "english": "And what is that good practice? "
+    },
+    {
+      "number": 171,
+      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+      "english": "It is simply this noble eightfold path, that is: "
+    },
+    {
+      "number": 172,
+      "pali": "sammādiṭṭhi, sammāsaṅkappo, sammāvācā, sammākammanto, sammāājīvo, sammāvāyāmo, sammāsati, sammāsamādhi. ",
+      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+    },
+    {
+      "number": 173,
+      "pali": "Idaṁ kho, ānanda, etarahi mayā kalyāṇaṁ vattaṁ nihitaṁ ekantanibbidāya virāgāya nirodhāya upasamāya abhiññāya sambodhāya nibbānāya saṁvattati. ",
+      "english": "This is the good practice I have now founded that leads to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. "
+    },
+    {
+      "number": 174,
+      "pali": "Taṁ vo ahaṁ, ānanda, evaṁ vadāmi: ",
+      "english": "Ānanda, I say to you: "
+    },
+    {
+      "number": 175,
+      "pali": "‘yena me idaṁ kalyāṇaṁ vattaṁ nihitaṁ anuppavatteyyātha, mā kho me tumhe antimapurisā ahuvattha’. ",
+      "english": "‘You all should keep up this good practice that I have founded. Do not be my final men.’ "
+    },
+    {
+      "number": 176,
+      "pali": "Yasmiṁ kho, ānanda, purisayuge vattamāne evarūpassa kalyāṇassa vattassa samucchedo hoti so tesaṁ antimapuriso hoti. ",
+      "english": "When a pair of men are living, the one who breaks such good practice is their final man. "
+    },
+    {
+      "number": 177,
+      "pali": "Taṁ vo ahaṁ, ānanda, evaṁ vadāmi: ",
+      "english": "Ānanda, I say to you: "
+    },
+    {
+      "number": 178,
+      "pali": "‘yena me idaṁ kalyāṇaṁ vattaṁ nihitaṁ anuppavatteyyātha, mā kho me tumhe antimapurisā ahuvatthā’”ti. ",
+      "english": "‘You all should keep up this good practice that I have founded. Do not be my final men.’” "
+    },
+    {
+      "number": 179,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 180,
+      "pali": "Attamano āyasmā ānando bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Ānanda approved what the Buddha said. "
+    },
+    {
+      "number": 181,
+      "pali": "Maghadevasuttaṁ niṭṭhitaṁ tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

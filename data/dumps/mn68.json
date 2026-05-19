@@ -1,0 +1,890 @@
+{
+  "sutta_id": "MN68",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 68 ",
+      "english": "Middle Discourses 68 "
+    },
+    {
+      "number": 2,
+      "pali": "Naḷakapānasutta ",
+      "english": "At Naḷakapāna "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā kosalesu viharati naḷakapāne palāsavane. ",
+      "english": "At one time the Buddha was staying in the land of the Kosalans near Naḷakapāna in the grove of flame-of-the-forest trees. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena sambahulā abhiññātā abhiññātā kulaputtā bhagavantaṁ uddissa saddhā agārasmā anagāriyaṁ pabbajitā honti—",
+      "english": "Now at that time several very well-known gentlemen had gone forth out of faith from the lay life to homelessness in the Buddha’s name—"
+    },
+    {
+      "number": 6,
+      "pali": "āyasmā ca anuruddho, āyasmā ca bhaddiyo, āyasmā ca kimilo, āyasmā ca bhagu, āyasmā ca koṇḍañño, āyasmā ca revato, āyasmā ca ānando, aññe ca abhiññātā abhiññātā kulaputtā. ",
+      "english": "The venerables Anuruddha, Bhaddiya, Kimbila, Bhagu, Koṇḍañña, Revata, Ānanda, and other very well-known gentlemen. "
+    },
+    {
+      "number": 7,
+      "pali": "Tena kho pana samayena bhagavā bhikkhusaṅghaparivuto abbhokāse nisinno hoti. ",
+      "english": "Now at that time the Buddha was sitting in the open, surrounded by the mendicant Saṅgha. "
+    },
+    {
+      "number": 8,
+      "pali": "Atha kho bhagavā te kulaputte ārabbha bhikkhū āmantesi: ",
+      "english": "Then the Buddha spoke to the mendicants about those gentlemen: "
+    },
+    {
+      "number": 9,
+      "pali": "“ye te, bhikkhave, kulaputtā mamaṁ uddissa saddhā agārasmā anagāriyaṁ pabbajitā, kacci te, bhikkhave, bhikkhū abhiratā brahmacariye”ti? ",
+      "english": "“Mendicants, those gentlemen who have gone forth out of faith from the lay life to homelessness in my name—I trust they’re satisfied with the spiritual life?” "
+    },
+    {
+      "number": 10,
+      "pali": "Evaṁ vutte, te bhikkhū tuṇhī ahesuṁ. ",
+      "english": "When this was said, the mendicants kept silent. "
+    },
+    {
+      "number": 11,
+      "pali": "Dutiyampi kho bhagavā te kulaputte ārabbha bhikkhū āmantesi: ",
+      "english": "For a second and a third time the Buddha asked the same question. "
+    },
+    {
+      "number": 12,
+      "pali": "“ye te, bhikkhave, kulaputtā mamaṁ uddissa saddhā agārasmā anagāriyaṁ pabbajitā, kacci te, bhikkhave, bhikkhū abhiratā brahmacariye”ti? ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "Dutiyampi kho te bhikkhū tuṇhī ahesuṁ. ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "Tatiyampi kho bhagavā te kulaputte ārabbha bhikkhū āmantesi: ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "“ye te, bhikkhave, kulaputtā mamaṁ uddissa saddhā agārasmā anagāriyaṁ pabbajitā, kacci te, bhikkhave, bhikkhū abhiratā brahmacariye”ti? ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "Tatiyampi kho te bhikkhū tuṇhī ahesuṁ. ",
+      "english": "For a third time, the mendicants kept silent. "
+    },
+    {
+      "number": 17,
+      "pali": "Atha kho bhagavato etadahosi: ",
+      "english": "Then it occurred to the Buddha, "
+    },
+    {
+      "number": 18,
+      "pali": "“yannūnāhaṁ te kulaputte puccheyyan”ti. ",
+      "english": "“Why don’t I question just those gentlemen?” "
+    },
+    {
+      "number": 19,
+      "pali": "Atha kho bhagavā āyasmantaṁ anuruddhaṁ āmantesi: ",
+      "english": "Then the Buddha said to Venerable Anuruddha, "
+    },
+    {
+      "number": 20,
+      "pali": "“kacci tumhe, anuruddhā, abhiratā brahmacariye”ti? ",
+      "english": "“Anuruddha and friends, I hope you’re satisfied with the spiritual life?” "
+    },
+    {
+      "number": 21,
+      "pali": "“Taggha mayaṁ, bhante, abhiratā brahmacariye”ti. ",
+      "english": "“Indeed, sir, we are satisfied with the spiritual life.” "
+    },
+    {
+      "number": 22,
+      "pali": "“Sādhu sādhu, anuruddhā. ",
+      "english": "“Good, good, Anuruddha and friends! "
+    },
+    {
+      "number": 23,
+      "pali": "Etaṁ kho, anuruddhā, tumhākaṁ patirūpaṁ kulaputtānaṁ saddhā agārasmā anagāriyaṁ pabbajitānaṁ yaṁ tumhe abhirameyyātha brahmacariye. ",
+      "english": "It’s appropriate for gentlemen like yourselves, who have gone forth out of faith from the lay life to homelessness, to be satisfied with the spiritual life. "
+    },
+    {
+      "number": 24,
+      "pali": "Yena tumhe, anuruddhā, bhadrena yobbanena samannāgatā paṭhamena vayasā susukāḷakesā kāme paribhuñjeyyātha tena tumhe, anuruddhā, bhadrenapi yobbanena samannāgatā paṭhamena vayasā susukāḷakesā agārasmā anagāriyaṁ pabbajitā. ",
+      "english": "Since you’re blessed with youth, in the prime of life, with pristine black hair, you could have enjoyed sensual pleasures; yet you have gone forth from the lay life to homelessness. "
+    },
+    {
+      "number": 25,
+      "pali": "Te ca kho pana tumhe, anuruddhā, neva rājābhinītā agārasmā anagāriyaṁ pabbajitā, na corābhinītā agārasmā anagāriyaṁ pabbajitā, na iṇaṭṭā agārasmā anagāriyaṁ pabbajitā, na bhayaṭṭā agārasmā anagāriyaṁ pabbajitā, nājīvikāpakatā agārasmā anagāriyaṁ pabbajitā. ",
+      "english": "But you didn’t go forth to escape a summons by a king or a summons for a bandit, or because you were in debt or in fear, or in order to make a living. "
+    },
+    {
+      "number": 26,
+      "pali": "Api ca khomhi otiṇṇo jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto; ",
+      "english": "Rather, didn’t you go forth thinking: ‘I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, mired in suffering. "
+    },
+    {
+      "number": 27,
+      "pali": "appeva nāma imassa kevalassa dukkhakkhandhassa antakiriyā paññāyethāti—",
+      "english": "Hopefully I can make an end to this entire mass of suffering’?” "
+    },
+    {
+      "number": 28,
+      "pali": "nanu tumhe, anuruddhā, evaṁ saddhā agārasmā anagāriyaṁ pabbajitā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 30,
+      "pali": "“Evaṁ pabbajitena ca pana, anuruddhā, kulaputtena kimassa karaṇīyaṁ? ",
+      "english": "“But, Anuruddha and friends, when a gentleman has gone forth like this, what should he do? "
+    },
+    {
+      "number": 31,
+      "pali": "Vivekaṁ, anuruddhā, kāmehi vivekaṁ akusalehi dhammehi pītisukhaṁ nādhigacchati aññaṁ vā tato santataraṁ, tassa abhijjhāpi cittaṁ pariyādāya tiṭṭhati, byāpādopi cittaṁ pariyādāya tiṭṭhati, thinamiddhampi cittaṁ pariyādāya tiṭṭhati uddhaccakukkuccampi cittaṁ pariyādāya tiṭṭhati, vicikicchāpi cittaṁ pariyādāya tiṭṭhati, aratīpi cittaṁ pariyādāya tiṭṭhati, tandīpi cittaṁ pariyādāya tiṭṭhati. ",
+      "english": "Take someone who doesn’t achieve the rapture and bliss that are secluded from sensual pleasures and unskillful qualities, or something even more peaceful than that. Their mind is still occupied by desire, ill will, dullness and drowsiness, restlessness and remorse, doubt, discontent, and sloth. "
+    },
+    {
+      "number": 32,
+      "pali": "Vivekaṁ, anuruddhā, kāmehi vivekaṁ akusalehi dhammehi pītisukhaṁ nādhigacchati aññaṁ vā tato santataraṁ. ",
+      "english": "That’s someone who doesn’t achieve the rapture and bliss that are secluded from sensual pleasures and unskillful qualities, or something even more peaceful than that. "
+    },
+    {
+      "number": 33,
+      "pali": "Vivekaṁ, anuruddhā, kāmehi vivekaṁ akusalehi dhammehi pītisukhaṁ adhigacchati aññaṁ vā tato santataraṁ, tassa abhijjhāpi cittaṁ na pariyādāya tiṭṭhati, byāpādopi cittaṁ na pariyādāya tiṭṭhati, thinamiddhampi cittaṁ na pariyādāya tiṭṭhati, uddhaccakukkuccampi cittaṁ na pariyādāya tiṭṭhati, vicikicchāpi cittaṁ na pariyādāya tiṭṭhati, aratīpi cittaṁ na pariyādāya tiṭṭhati, tandīpi cittaṁ na pariyādāya tiṭṭhati. ",
+      "english": "Take someone who does achieve the rapture and bliss that are secluded from sensual pleasures and unskillful qualities, or something even more peaceful than that. Their mind is not occupied by desire, ill will, dullness and drowsiness, restlessness and remorse, doubt, discontent, and sloth. "
+    },
+    {
+      "number": 34,
+      "pali": "Vivekaṁ, anuruddhā, kāmehi vivekaṁ akusalehi dhammehi pītisukhaṁ adhigacchati aññaṁ vā tato santataraṁ. ",
+      "english": "That’s someone who does achieve the rapture and bliss that are secluded from sensual pleasures and unskillful qualities, or something even more peaceful than that. "
+    },
+    {
+      "number": 35,
+      "pali": "Kinti vo, anuruddhā, mayi hoti: ",
+      "english": "Is this what you think of me? "
+    },
+    {
+      "number": 36,
+      "pali": "‘ye āsavā saṅkilesikā ponobbhavikā sadarā dukkhavipākā āyatiṁ jātijarāmaraṇiyā, appahīnā te tathāgatassa; ",
+      "english": "‘The Realized One has not given up the defilements that are corrupting, leading to future lives, hurtful, resulting in suffering and future rebirth, old age, and death. "
+    },
+    {
+      "number": 37,
+      "pali": "tasmā tathāgato saṅkhāyekaṁ paṭisevati, saṅkhāyekaṁ adhivāseti, saṅkhāyekaṁ parivajjeti, saṅkhāyekaṁ vinodetī’”ti? ",
+      "english": "That’s why, after appraisal, he uses some things, endures some things, avoids some things, and dispels some things.’” "
+    },
+    {
+      "number": 38,
+      "pali": "“Na kho no, bhante, bhagavati evaṁ hoti: ",
+      "english": "“No sir, we don’t think of you that way. "
+    },
+    {
+      "number": 39,
+      "pali": "‘ye āsavā saṅkilesikā ponobbhavikā sadarā dukkhavipākā āyatiṁ jātijarāmaraṇiyā, appahīnā te tathāgatassa; ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "tasmā tathāgato saṅkhāyekaṁ paṭisevati, saṅkhāyekaṁ adhivāseti, saṅkhāyekaṁ parivajjeti, saṅkhāyekaṁ vinodetī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "Evaṁ kho no, bhante, bhagavati hoti: ",
+      "english": "We think of you this way: "
+    },
+    {
+      "number": 42,
+      "pali": "‘ye āsavā saṅkilesikā ponobbhavikā sadarā dukkhavipākā āyatiṁ jātijarāmaraṇiyā, pahīnā te tathāgatassa; ",
+      "english": "‘The Realized One has given up the defilements that are corrupting, leading to future lives, hurtful, resulting in suffering and future rebirth, old age, and death. "
+    },
+    {
+      "number": 43,
+      "pali": "tasmā tathāgato saṅkhāyekaṁ paṭisevati, saṅkhāyekaṁ adhivāseti, saṅkhāyekaṁ parivajjeti, saṅkhāyekaṁ vinodetī’”ti. ",
+      "english": "That’s why, after appraisal, he uses some things, endures some things, avoids some things, and dispels some things.’” "
+    },
+    {
+      "number": 44,
+      "pali": "“Sādhu sādhu, anuruddhā. ",
+      "english": "“Good, good, Anuruddha and friends! "
+    },
+    {
+      "number": 45,
+      "pali": "Tathāgatassa, anuruddhā, ye āsavā saṅkilesikā ponobbhavikā sadarā dukkhavipākā āyatiṁ jātijarāmaraṇiyā, pahīnā te ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
+      "english": "The Realized One has given up the defilements that are corrupting, leading to future lives, hurtful, resulting in suffering and future rebirth, old age, and death. He has cut them off at the root, made them like a palm stump, obliterated them so they are unable to arise in the future. "
+    },
+    {
+      "number": 46,
+      "pali": "Seyyathāpi, anuruddhā, tālo matthakacchinno abhabbo punavirūḷhiyā; ",
+      "english": "Just as a palm tree with its crown cut off is incapable of further growth, "
+    },
+    {
+      "number": 47,
+      "pali": "evameva kho, anuruddhā, tathāgatassa ye āsavā saṅkilesikā ponobbhavikā sadarā dukkhavipākā āyatiṁ jātijarāmaraṇiyā, pahīnā te ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā; ",
+      "english": "in the same way, the Realized One has given up the defilements so they are unable to arise in the future. "
+    },
+    {
+      "number": 48,
+      "pali": "tasmā tathāgato saṅkhāyekaṁ paṭisevati, saṅkhāyekaṁ adhivāseti, saṅkhāyekaṁ parivajjeti, saṅkhāyekaṁ vinodeti. ",
+      "english": "That’s why, after appraisal, he uses some things, endures some things, avoids some things, and dispels some things. "
+    },
+    {
+      "number": 49,
+      "pali": "Taṁ kiṁ maññasi, anuruddhā, ",
+      "english": "What do you think, Anuruddha and friends? "
+    },
+    {
+      "number": 50,
+      "pali": "kaṁ atthavasaṁ sampassamāno tathāgato sāvake abbhatīte kālaṅkate upapattīsu byākaroti: ",
+      "english": "What advantage does the Realized One see in declaring the rebirth of his disciples who have passed away: "
+    },
+    {
+      "number": 51,
+      "pali": "‘asu amutra upapanno; asu amutra upapanno’”ti? ",
+      "english": "‘This one is reborn here, while that one is reborn there’?” "
+    },
+    {
+      "number": 52,
+      "pali": "“Bhagavaṁmūlakā no, bhante, dhammā bhagavaṁnettikā bhagavaṁpaṭisaraṇā. Sādhu vata, bhante, bhagavantaṁyeva paṭibhātu etassa bhāsitassa attho. Bhagavato sutvā bhikkhū dhāressantī”ti. ",
+      "english": "“Our teachings are rooted in the Buddha. He is our guide and our refuge. Sir, may the Buddha himself please clarify the meaning of this. The mendicants will listen and remember it.” "
+    },
+    {
+      "number": 53,
+      "pali": "“Na kho, anuruddhā, tathāgato janakuhanatthaṁ na janalapanatthaṁ na lābhasakkārasilokānisaṁsatthaṁ na ‘iti maṁ jano jānātū’ti sāvake abbhatīte kālaṅkate upapattīsu byākaroti: ",
+      "english": "“The Realized One does not declare such things for the sake of fawning or flattering people, nor for the benefit of possessions, honor, or popularity, nor thinking, ‘So let people know about me!’ "
+    },
+    {
+      "number": 54,
+      "pali": "‘asu amutra upapanno, asu amutra upapanno’ti. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Santi ca kho, anuruddhā, kulaputtā saddhā uḷāravedā uḷārapāmojjā. ",
+      "english": "Rather, there are gentlemen of faith who are full of sublime joy and gladness. "
+    },
+    {
+      "number": 56,
+      "pali": "Te taṁ sutvā tadatthāya cittaṁ upasaṁharanti. ",
+      "english": "When they hear that, they apply their minds to that end. "
+    },
+    {
+      "number": 57,
+      "pali": "Tesaṁ taṁ, anuruddhā, hoti dīgharattaṁ hitāya sukhāya. ",
+      "english": "That is for their lasting welfare and happiness. "
+    },
+    {
+      "number": 58,
+      "pali": "Idhānuruddhā, bhikkhu suṇāti: ",
+      "english": "Take a monk who hears this: "
+    },
+    {
+      "number": 59,
+      "pali": "‘itthannāmo bhikkhu kālaṅkato; ",
+      "english": "‘The monk named so-and-so has passed away. "
+    },
+    {
+      "number": 60,
+      "pali": "so bhagavatā byākato—",
+      "english": "The Buddha has declared that "
+    },
+    {
+      "number": 61,
+      "pali": "aññāya saṇṭhahī’ti. ",
+      "english": "he was enlightened.’ "
+    },
+    {
+      "number": 62,
+      "pali": "So kho panassa āyasmā sāmaṁ diṭṭho vā hoti anussavassuto vā: ",
+      "english": "And he’s either seen for himself, or heard from someone else, that that venerable "
+    },
+    {
+      "number": 63,
+      "pali": "‘evaṁsīlo so āyasmā ahosi itipi, evaṁdhammo so āyasmā ahosi itipi, evaṁpañño so āyasmā ahosi itipi, evaṁvihārī so āyasmā ahosi itipi, evaṁvimutto so āyasmā ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 64,
+      "pali": "So tassa saddhañca sīlañca sutañca cāgañca paññañca anussaranto tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that monk’s faith, ethics, learning, generosity, and wisdom, he applies his mind to that end. "
+    },
+    {
+      "number": 65,
+      "pali": "Evampi kho, anuruddhā, bhikkhuno phāsuvihāro hoti. ",
+      "english": "That’s how a monk lives at ease. "
+    },
+    {
+      "number": 66,
+      "pali": "Idhānuruddhā, bhikkhu suṇāti: ",
+      "english": "Take a monk who hears this: "
+    },
+    {
+      "number": 67,
+      "pali": "‘itthannāmo bhikkhu kālaṅkato; ",
+      "english": "‘The monk named so-and-so has passed away. "
+    },
+    {
+      "number": 68,
+      "pali": "so bhagavatā byākato—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 69,
+      "pali": "pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko tattha parinibbāyī anāvattidhammo tasmā lokā’ti. ",
+      "english": "with the ending of the five lower fetters, he’s been reborn spontaneously and will become extinguished there, not liable to return from that world.’ "
+    },
+    {
+      "number": 70,
+      "pali": "So kho panassa āyasmā sāmaṁ diṭṭho vā hoti anussavassuto vā: ",
+      "english": "And he’s either seen for himself, or heard from someone else, that that venerable "
+    },
+    {
+      "number": 71,
+      "pali": "‘evaṁsīlo so āyasmā ahosi itipi, evaṁdhammo …pe… evaṁpañño … evaṁvihārī … evaṁvimutto so āyasmā ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 72,
+      "pali": "So tassa saddhañca sīlañca sutañca cāgañca paññañca anussaranto tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that monk’s faith, ethics, learning, generosity, and wisdom, he applies his mind to that end. "
+    },
+    {
+      "number": 73,
+      "pali": "Evampi kho, anuruddhā, bhikkhuno phāsuvihāro hoti. ",
+      "english": "That too is how a monk lives at ease. "
+    },
+    {
+      "number": 74,
+      "pali": "Idhānuruddhā, bhikkhu suṇāti: ",
+      "english": "Take a monk who hears this: "
+    },
+    {
+      "number": 75,
+      "pali": "‘itthannāmo bhikkhu kālaṅkato; ",
+      "english": "‘The monk named so-and-so has passed away. "
+    },
+    {
+      "number": 76,
+      "pali": "so bhagavatā byākato—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 77,
+      "pali": "tiṇṇaṁ saṁyojanānaṁ parikkhayā rāgadosamohānaṁ tanuttā sakadāgāmī sakideva imaṁ lokaṁ āgantvā dukkhassantaṁ karissatī’ti. ",
+      "english": "with the ending of three fetters, and the weakening of greed, hate, and delusion, he’s a once-returner. He’ll come back to this world once only, then make an end of suffering.’ "
+    },
+    {
+      "number": 78,
+      "pali": "So kho panassa āyasmā sāmaṁ diṭṭho vā hoti anussavassuto vā: ",
+      "english": "And he’s either seen for himself, or heard from someone else, that that venerable "
+    },
+    {
+      "number": 79,
+      "pali": "‘evaṁsīlo so āyasmā ahosi itipi, evaṁdhammo …pe… evaṁpañño … evaṁvihārī … evaṁvimutto so āyasmā ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 80,
+      "pali": "So tassa saddhañca sīlañca sutañca cāgañca paññañca anussaranto tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that monk’s faith, ethics, learning, generosity, and wisdom, he applies his mind to that end. "
+    },
+    {
+      "number": 81,
+      "pali": "Evampi kho, anuruddhā, bhikkhuno phāsuvihāro hoti. ",
+      "english": "That too is how a monk lives at ease. "
+    },
+    {
+      "number": 82,
+      "pali": "Idhānuruddhā, bhikkhu suṇāti: ",
+      "english": "Take a monk who hears this: "
+    },
+    {
+      "number": 83,
+      "pali": "‘itthannāmo bhikkhu kālaṅkato; ",
+      "english": "‘The monk named so-and-so has passed away. "
+    },
+    {
+      "number": 84,
+      "pali": "so bhagavatā byākato—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 85,
+      "pali": "tiṇṇaṁ saṁyojanānaṁ parikkhayā sotāpanno avinipātadhammo niyato sambodhiparāyaṇo’ti. ",
+      "english": "with the ending of three fetters he’s a stream-enterer, not liable to be reborn in the underworld, assured, destined for awakening.’ "
+    },
+    {
+      "number": 86,
+      "pali": "So kho panassa āyasmā sāmaṁ diṭṭho vā hoti anussavassuto vā: ",
+      "english": "And he’s either seen for himself, or heard from someone else, that that venerable "
+    },
+    {
+      "number": 87,
+      "pali": "‘evaṁsīlo so āyasmā ahosi itipi, evaṁdhammo …pe… evaṁpañño … evaṁvihārī … evaṁvimutto so āyasmā ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 88,
+      "pali": "So tassa saddhañca sīlañca sutañca cāgañca paññañca anussaranto tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that monk’s faith, ethics, learning, generosity, and wisdom, he applies his mind to that end. "
+    },
+    {
+      "number": 89,
+      "pali": "Evampi kho, anuruddhā, bhikkhuno phāsuvihāro hoti. ",
+      "english": "That too is how a monk lives at ease. "
+    },
+    {
+      "number": 90,
+      "pali": "Idhānuruddhā, bhikkhunī suṇāti: ",
+      "english": "Take a nun who hears this: "
+    },
+    {
+      "number": 91,
+      "pali": "‘itthannāmā bhikkhunī kālaṅkatā; ",
+      "english": "‘The nun named so-and-so has passed away. "
+    },
+    {
+      "number": 92,
+      "pali": "sā bhagavatā byākatā—",
+      "english": "The Buddha has declared that "
+    },
+    {
+      "number": 93,
+      "pali": "aññāya saṇṭhahī’ti. ",
+      "english": "she was enlightened.’ "
+    },
+    {
+      "number": 94,
+      "pali": "Sā kho panassā bhaginī sāmaṁ diṭṭhā vā hoti anussavassutā vā: ",
+      "english": "And she’s either seen for herself, or heard from someone else, that that sister "
+    },
+    {
+      "number": 95,
+      "pali": "‘evaṁsīlā sā bhaginī ahosi itipi, evaṁdhammā sā bhaginī ahosi itipi, evaṁpaññā sā bhaginī ahosi itipi, evaṁvihārinī sā bhaginī ahosi itipi, evaṁvimuttā sā bhaginī ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 96,
+      "pali": "Sā tassā saddhañca sīlañca sutañca cāgañca paññañca anussarantī tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that nun’s faith, ethics, learning, generosity, and wisdom, she applies her mind to that end. "
+    },
+    {
+      "number": 97,
+      "pali": "Evampi kho, anuruddhā, bhikkhuniyā phāsuvihāro hoti. ",
+      "english": "That’s how a nun lives at ease. "
+    },
+    {
+      "number": 98,
+      "pali": "Idhānuruddhā, bhikkhunī suṇāti: ",
+      "english": "Take a nun who hears this: "
+    },
+    {
+      "number": 99,
+      "pali": "‘itthannāmā bhikkhunī kālaṅkatā; ",
+      "english": "‘The nun named so-and-so has passed away. "
+    },
+    {
+      "number": 100,
+      "pali": "sā bhagavatā byākatā—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 101,
+      "pali": "pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātikā tattha parinibbāyinī anāvattidhammā tasmā lokā’ti. ",
+      "english": "with the ending of the five lower fetters, she’s been reborn spontaneously and will become extinguished there, not liable to return from that world.’ "
+    },
+    {
+      "number": 102,
+      "pali": "Sā kho panassā bhaginī sāmaṁ diṭṭhā vā hoti anussavassutā vā: ",
+      "english": "And she’s either seen for herself, or heard from someone else, that that sister "
+    },
+    {
+      "number": 103,
+      "pali": "‘evaṁsīlā sā bhaginī ahosi itipi, evaṁdhammā …pe… evaṁpaññā … evaṁvihārinī … evaṁvimuttā sā bhaginī ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 104,
+      "pali": "Sā tassā saddhañca sīlañca sutañca cāgañca paññañca anussarantī tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that nun’s faith, ethics, learning, generosity, and wisdom, she applies her mind to that end. "
+    },
+    {
+      "number": 105,
+      "pali": "Evampi kho, anuruddhā, bhikkhuniyā phāsuvihāro hoti. ",
+      "english": "That too is how a nun lives at ease. "
+    },
+    {
+      "number": 106,
+      "pali": "Idhānuruddhā, bhikkhunī suṇāti: ",
+      "english": "Take a nun who hears this: "
+    },
+    {
+      "number": 107,
+      "pali": "‘itthannāmā bhikkhunī kālaṅkatā; ",
+      "english": "‘The nun named so-and-so has passed away. "
+    },
+    {
+      "number": 108,
+      "pali": "sā bhagavatā byākatā—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 109,
+      "pali": "tiṇṇaṁ saṁyojanānaṁ parikkhayā rāgadosamohānaṁ tanuttā sakadāgāminī sakideva imaṁ lokaṁ āgantvā dukkhassantaṁ karissatī’ti. ",
+      "english": "with the ending of three fetters, and the weakening of greed, hate, and delusion, she’s a once-returner. She’ll come back to this world once only, then make an end of suffering.’ "
+    },
+    {
+      "number": 110,
+      "pali": "Sā kho panassā bhaginī sāmaṁ diṭṭhā vā hoti anussavassutā vā: ",
+      "english": "And she’s either seen for herself, or heard from someone else, that that sister "
+    },
+    {
+      "number": 111,
+      "pali": "‘evaṁsīlā sā bhaginī ahosi itipi, evaṁdhammā …pe… evaṁpaññā … evaṁvihārinī … evaṁvimuttā sā bhaginī ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 112,
+      "pali": "Sā tassā saddhañca sīlañca sutañca cāgañca paññañca anussarantī tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that nun’s faith, ethics, learning, generosity, and wisdom, she applies her mind to that end. "
+    },
+    {
+      "number": 113,
+      "pali": "Evampi kho, anuruddhā, bhikkhuniyā phāsuvihāro hoti. ",
+      "english": "That too is how a nun lives at ease. "
+    },
+    {
+      "number": 114,
+      "pali": "Idhānuruddhā, bhikkhunī suṇāti: ",
+      "english": "Take a nun who hears this: "
+    },
+    {
+      "number": 115,
+      "pali": "‘itthannāmā bhikkhunī kālaṅkatā; ",
+      "english": "‘The nun named so-and-so has passed away. "
+    },
+    {
+      "number": 116,
+      "pali": "sā bhagavatā byākatā—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 117,
+      "pali": "tiṇṇaṁ saṁyojanānaṁ parikkhayā sotāpannā avinipātadhammā niyatā sambodhiparāyaṇā’ti. ",
+      "english": "with the ending of three fetters she’s a stream-enterer, not liable to be reborn in the underworld, assured, destined for awakening.’ "
+    },
+    {
+      "number": 118,
+      "pali": "Sā kho panassā bhaginī sāmaṁ diṭṭhā vā hoti anussavassutā vā: ",
+      "english": "And she’s either seen for herself, or heard from someone else, that that sister "
+    },
+    {
+      "number": 119,
+      "pali": "‘evaṁsīlā sā bhaginī ahosi itipi, evaṁdhammā … evaṁpaññā … evaṁvihārinī … evaṁvimuttā sā bhaginī ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 120,
+      "pali": "Sā tassā saddhañca sīlañca sutañca cāgañca paññañca anussarantī tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that nun’s faith, ethics, learning, generosity, and wisdom, she applies her mind to that end. "
+    },
+    {
+      "number": 121,
+      "pali": "Evampi kho, anuruddhā, bhikkhuniyā phāsuvihāro hoti. ",
+      "english": "That too is how a nun lives at ease. "
+    },
+    {
+      "number": 122,
+      "pali": "Idhānuruddhā, upāsako suṇāti: ",
+      "english": "Take a layman who hears this: "
+    },
+    {
+      "number": 123,
+      "pali": "‘itthannāmo upāsako kālaṅkato; ",
+      "english": "‘The layman named so-and-so has passed away. "
+    },
+    {
+      "number": 124,
+      "pali": "so bhagavatā byākato—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 125,
+      "pali": "pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko tattha parinibbāyī anāvattidhammo tasmā lokā’ti. ",
+      "english": "with the ending of the five lower fetters, he’s been reborn spontaneously and will become extinguished there, not liable to return from that world.’ "
+    },
+    {
+      "number": 126,
+      "pali": "So kho panassa āyasmā sāmaṁ diṭṭho vā hoti anussavassuto vā: ",
+      "english": "And he’s either seen for himself, or heard from someone else, that that venerable "
+    },
+    {
+      "number": 127,
+      "pali": "‘evaṁsīlo so āyasmā ahosi itipi, evaṁdhammo so āyasmā ahosi itipi, evaṁpañño so āyasmā ahosi itipi, evaṁvihārī so āyasmā ahosi itipi, evaṁvimutto so āyasmā ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 128,
+      "pali": "So tassa saddhañca sutañca cāgañca paññañca anussaranto tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that layman’s faith, ethics, learning, generosity, and wisdom, he applies his mind to that end. "
+    },
+    {
+      "number": 129,
+      "pali": "Evampi kho, anuruddhā, upāsakassa phāsuvihāro hoti. ",
+      "english": "That’s how a layman lives at ease. "
+    },
+    {
+      "number": 130,
+      "pali": "Idhānuruddhā, upāsako suṇāti: ",
+      "english": "Take a layman who hears this: "
+    },
+    {
+      "number": 131,
+      "pali": "‘itthannāmo upāsako kālaṅkato; ",
+      "english": "‘The layman named so-and-so has passed away. "
+    },
+    {
+      "number": 132,
+      "pali": "so bhagavatā byākato—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 133,
+      "pali": "tiṇṇaṁ saṁyojanānaṁ parikkhayā rāgadosamohānaṁ tanuttā sakadāgāmī sakideva imaṁ lokaṁ āgantvā dukkhassantaṁ karissatī’ti. ",
+      "english": "with the ending of three fetters, and the weakening of greed, hate, and delusion, he’s a once-returner. He’ll come back to this world once only, then make an end of suffering.’ "
+    },
+    {
+      "number": 134,
+      "pali": "So kho panassa āyasmā sāmaṁ diṭṭho vā hoti anussavassuto vā: ",
+      "english": "And he’s either seen for himself, or heard from someone else, that that venerable "
+    },
+    {
+      "number": 135,
+      "pali": "‘evaṁsīlo so āyasmā ahosi itipi, evaṁdhammo … evaṁpañño … evaṁvihārī … evaṁvimutto so āyasmā ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 136,
+      "pali": "So tassa saddhañca sīlañca sutañca cāgañca paññañca anussaranto tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that layman’s faith, ethics, learning, generosity, and wisdom, he applies his mind to that end. "
+    },
+    {
+      "number": 137,
+      "pali": "Evampi kho, anuruddhā, upāsakassa phāsuvihāro hoti. ",
+      "english": "That too is how a layman lives at ease. "
+    },
+    {
+      "number": 138,
+      "pali": "Idhānuruddhā, upāsako suṇāti: ",
+      "english": "Take a layman who hears this: "
+    },
+    {
+      "number": 139,
+      "pali": "‘itthannāmo upāsako kālaṅkato; ",
+      "english": "‘The layman named so-and-so has passed away. "
+    },
+    {
+      "number": 140,
+      "pali": "so bhagavatā byākato—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 141,
+      "pali": "tiṇṇaṁ saṁyojanānaṁ parikkhayā sotāpanno avinipātadhammo niyato sambodhiparāyaṇo’ti. ",
+      "english": "with the ending of three fetters he’s a stream-enterer, not liable to be reborn in the underworld, assured, destined for awakening.’ "
+    },
+    {
+      "number": 142,
+      "pali": "So kho panassa āyasmā sāmaṁ diṭṭho vā hoti anussavassuto vā: ",
+      "english": "And he’s either seen for himself, or heard from someone else, that that venerable "
+    },
+    {
+      "number": 143,
+      "pali": "‘evaṁsīlo so āyasmā ahosi itipi, evaṁdhammo … evaṁpañño … evaṁvihārī … evaṁvimutto so āyasmā ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 144,
+      "pali": "So tassa saddhañca sīlañca sutañca cāgañca paññañca anussaranto tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that layman’s faith, ethics, learning, generosity, and wisdom, he applies his mind to that end. "
+    },
+    {
+      "number": 145,
+      "pali": "Evampi kho, anuruddhā upāsakassa phāsuvihāro hoti. ",
+      "english": "That too is how a layman lives at ease. "
+    },
+    {
+      "number": 146,
+      "pali": "Idhānuruddhā, upāsikā suṇāti: ",
+      "english": "Take a laywoman who hears this: "
+    },
+    {
+      "number": 147,
+      "pali": "‘itthannāmā upāsikā kālaṅkatā; ",
+      "english": "‘The laywoman named so-and-so has passed away. "
+    },
+    {
+      "number": 148,
+      "pali": "sā bhagavatā byākatā—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 149,
+      "pali": "pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātikā tattha parinibbāyinī anāvattidhammā tasmā lokā’ti. ",
+      "english": "with the ending of the five lower fetters, she’s been reborn spontaneously and will become extinguished there, not liable to return from that world.’ "
+    },
+    {
+      "number": 150,
+      "pali": "Sā kho panassā bhaginī sāmaṁ diṭṭhā vā hoti anussavassutā vā: ",
+      "english": "And she’s either seen for herself, or heard from someone else, that that sister "
+    },
+    {
+      "number": 151,
+      "pali": "‘evaṁsīlā sā bhaginī ahosi itipi, evaṁdhammā … evaṁpaññā … evaṁvihārinī … evaṁvimuttā sā bhaginī ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 152,
+      "pali": "Sā tassā saddhañca sīlañca sutañca cāgañca paññañca anussarantī tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that laywoman’s faith, ethics, learning, generosity, and wisdom, she applies her mind to that end. "
+    },
+    {
+      "number": 153,
+      "pali": "Evampi kho, anuruddhā, upāsikāya phāsuvihāro hoti. ",
+      "english": "That’s how a laywoman lives at ease. "
+    },
+    {
+      "number": 154,
+      "pali": "Idhānuruddhā, upāsikā suṇāti: ",
+      "english": "Take a laywoman who hears this: "
+    },
+    {
+      "number": 155,
+      "pali": "‘itthannāmā upāsikā kālaṅkatā; ",
+      "english": "‘The laywoman named so-and-so has passed away. "
+    },
+    {
+      "number": 156,
+      "pali": "sā bhagavatā byākatā—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 157,
+      "pali": "tiṇṇaṁ saṁyojanānaṁ parikkhayā rāgadosamohānaṁ tanuttā sakadāgāminī sakideva imaṁ lokaṁ āgantvā dukkhassantaṁ karissatī’ti. ",
+      "english": "with the ending of three fetters, and the weakening of greed, hate, and delusion, she’s a once-returner. She’ll come back to this world once only, then make an end of suffering.’ "
+    },
+    {
+      "number": 158,
+      "pali": "Sā kho panassā bhaginī sāmaṁ diṭṭhā vā hoti anussavassutā vā: ",
+      "english": "And she’s either seen for herself, or heard from someone else, that that sister "
+    },
+    {
+      "number": 159,
+      "pali": "‘evaṁsīlā sā bhaginī ahosi itipi, evaṁdhammā … evaṁpaññā … evaṁvihārinī … evaṁvimuttā sā bhaginī ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 160,
+      "pali": "Sā tassā saddhañca sīlañca sutañca cāgañca paññañca anussarantī tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that laywoman’s faith, ethics, learning, generosity, and wisdom, she applies her mind to that end. "
+    },
+    {
+      "number": 161,
+      "pali": "Evampi kho, anuruddhā, upāsikāya phāsuvihāro hoti. ",
+      "english": "That too is how a laywoman lives at ease. "
+    },
+    {
+      "number": 162,
+      "pali": "Idhānuruddhā, upāsikā suṇāti: ",
+      "english": "Take a laywoman who hears this: "
+    },
+    {
+      "number": 163,
+      "pali": "‘itthannāmā upāsikā kālaṅkatā; ",
+      "english": "‘The laywoman named so-and-so has passed away. "
+    },
+    {
+      "number": 164,
+      "pali": "sā bhagavatā byākatā—",
+      "english": "The Buddha has declared that, "
+    },
+    {
+      "number": 165,
+      "pali": "tiṇṇaṁ saṁyojanānaṁ parikkhayā sotāpannā avinipātadhammā niyatā sambodhiparāyaṇā’ti. ",
+      "english": "with the ending of three fetters she’s a stream-enterer, not liable to be reborn in the underworld, assured, destined for awakening.’ "
+    },
+    {
+      "number": 166,
+      "pali": "Sā kho panassā bhaginī sāmaṁ diṭṭhā vā hoti anussavassutā vā: ",
+      "english": "And she’s either seen for herself, or heard from someone else, that that sister "
+    },
+    {
+      "number": 167,
+      "pali": "‘evaṁsīlā sā bhaginī ahosi itipi, evaṁdhammā sā bhaginī ahosi itipi, evaṁpaññā sā bhaginī ahosi itipi, evaṁvihārinī sā bhaginī ahosi itipi, evaṁvimuttā sā bhaginī ahosi itipī’ti. ",
+      "english": "had such ethics, such qualities, such wisdom, such meditation, or such freedom. "
+    },
+    {
+      "number": 168,
+      "pali": "Sā tassā saddhañca sīlañca sutañca cāgañca paññañca anussarantī tadatthāya cittaṁ upasaṁharati. ",
+      "english": "Recollecting that laywoman’s faith, ethics, learning, generosity, and wisdom, she applies her mind to that end. "
+    },
+    {
+      "number": 169,
+      "pali": "Evampi kho, anuruddhā, upāsikāya phāsuvihāro hoti. ",
+      "english": "That too is how a laywoman lives at ease. "
+    },
+    {
+      "number": 170,
+      "pali": "Iti kho, anuruddhā, tathāgato na janakuhanatthaṁ na janalapanatthaṁ na lābhasakkārasilokānisaṁsatthaṁ na ‘iti maṁ jano jānātū’ti sāvake abbhatīte kālaṅkate upapattīsu byākaroti: ",
+      "english": "So it’s not for the sake of fawning or flattering people, nor for the benefit of possessions, honor, or popularity, nor thinking, ‘So let people know about me!’ that the Realized One declares the rebirth of his disciples who have passed away: "
+    },
+    {
+      "number": 171,
+      "pali": "‘asu amutra upapanno, asu amutra upapanno’ti. ",
+      "english": "‘This one is reborn here, while that one is reborn there.’ "
+    },
+    {
+      "number": 172,
+      "pali": "Santi ca kho, anuruddhā, kulaputtā saddhā uḷāravedā uḷārapāmojjā. ",
+      "english": "Rather, there are gentlemen of faith who are full of joy and gladness. "
+    },
+    {
+      "number": 173,
+      "pali": "Te taṁ sutvā tadatthāya cittaṁ upasaṁharanti. ",
+      "english": "When they hear that, they apply their minds to that end. "
+    },
+    {
+      "number": 174,
+      "pali": "Tesaṁ taṁ, anuruddhā, hoti dīgharattaṁ hitāya sukhāyā”ti. ",
+      "english": "That is for their lasting welfare and happiness.” "
+    },
+    {
+      "number": 175,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 176,
+      "pali": "Attamano āyasmā anuruddho bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Anuruddha approved what the Buddha said. "
+    },
+    {
+      "number": 177,
+      "pali": "Naḷakapānasuttaṁ niṭṭhitaṁ aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

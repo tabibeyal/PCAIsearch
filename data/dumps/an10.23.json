@@ -1,0 +1,475 @@
+{
+  "sutta_id": "AN10.23",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.23 ",
+      "english": "Numbered Discourses 10.23 "
+    },
+    {
+      "number": 2,
+      "pali": "3. Mahāvagga ",
+      "english": "3. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Kāyasutta ",
+      "english": "Body "
+    },
+    {
+      "number": 4,
+      "pali": "“Atthi, bhikkhave, dhammā kāyena pahātabbā, no vācāya. ",
+      "english": "“Mendicants, there are things that should be given up by the body, not by speech. "
+    },
+    {
+      "number": 5,
+      "pali": "Atthi, bhikkhave, dhammā vācāya pahātabbā, no kāyena. ",
+      "english": "There are things that should be given up by speech, not by the body. "
+    },
+    {
+      "number": 6,
+      "pali": "Atthi, bhikkhave, dhammā neva kāyena pahātabbā no vācāya, paññāya disvā pahātabbā. ",
+      "english": "There are things that should be given up neither by the body, nor by speech, but by seeing again and again with wisdom. "
+    },
+    {
+      "number": 7,
+      "pali": "Katame ca, bhikkhave, dhammā kāyena pahātabbā, no vācāya? ",
+      "english": "And what are the things that should be given up by the body, not by speech? "
+    },
+    {
+      "number": 8,
+      "pali": "Idha, bhikkhave, bhikkhu akusalaṁ āpanno hoti kiñci desaṁ kāyena. ",
+      "english": "It’s when a mendicant has committed a certain unskillful offense by way of body. "
+    },
+    {
+      "number": 9,
+      "pali": "Tamenaṁ anuvicca viññū sabrahmacārī evamāhaṁsu: ",
+      "english": "After examination, sensible spiritual companions say this to them: "
+    },
+    {
+      "number": 10,
+      "pali": "‘āyasmā kho akusalaṁ āpanno kiñci desaṁ kāyena. ",
+      "english": "‘Venerable, you’ve committed a certain unskillful offense by way of body. "
+    },
+    {
+      "number": 11,
+      "pali": "Sādhu vatāyasmā kāyaduccaritaṁ pahāya kāyasucaritaṁ bhāvetū’ti. ",
+      "english": "Please give up that bad bodily conduct and develop good bodily conduct.’ "
+    },
+    {
+      "number": 12,
+      "pali": "So anuvicca viññūhi sabrahmacārīhi vuccamāno kāyaduccaritaṁ pahāya kāyasucaritaṁ bhāveti. ",
+      "english": "When spoken to by their sensible spiritual companions they give up that bad bodily conduct and develop good bodily conduct. "
+    },
+    {
+      "number": 13,
+      "pali": "Ime vuccanti, bhikkhave, dhammā kāyena pahātabbā, no vācāya. ",
+      "english": "These are the things that should be given up by the body, not by speech. "
+    },
+    {
+      "number": 14,
+      "pali": "Katame ca, bhikkhave, dhammā vācāya pahātabbā, no kāyena? ",
+      "english": "And what are the things that should be given up by speech, not by the body? "
+    },
+    {
+      "number": 15,
+      "pali": "Idha, bhikkhave, bhikkhu akusalaṁ āpanno hoti kiñci desaṁ vācāya. ",
+      "english": "It’s when a mendicant has committed a certain unskillful offense by way of speech. "
+    },
+    {
+      "number": 16,
+      "pali": "Tamenaṁ anuvicca viññū sabrahmacārī evamāhaṁsu: ",
+      "english": "After examination, sensible spiritual companions say this to them: "
+    },
+    {
+      "number": 17,
+      "pali": "‘āyasmā kho akusalaṁ āpanno kiñci desaṁ vācāya. ",
+      "english": "‘Venerable, you’ve committed a certain unskillful offense by way of speech. "
+    },
+    {
+      "number": 18,
+      "pali": "Sādhu vatāyasmā vacīduccaritaṁ pahāya vacīsucaritaṁ bhāvetū’ti. ",
+      "english": "Please give up that bad verbal conduct and develop good verbal conduct.’ "
+    },
+    {
+      "number": 19,
+      "pali": "So anuvicca viññūhi sabrahmacārīhi vuccamāno vacīduccaritaṁ pahāya vacīsucaritaṁ bhāveti. ",
+      "english": "When spoken to by their sensible spiritual companions they give up that bad verbal conduct and develop good verbal conduct. "
+    },
+    {
+      "number": 20,
+      "pali": "Ime vuccanti, bhikkhave, dhammā vācāya pahātabbā, no kāyena. ",
+      "english": "These are the things that should be given up by speech, not by the body. "
+    },
+    {
+      "number": 21,
+      "pali": "Katame ca, bhikkhave, dhammā neva kāyena pahātabbā no vācāya, paññāya disvā pahātabbā? ",
+      "english": "And what are the things that should be given up neither by the body, nor by speech, but by seeing again and again with wisdom? "
+    },
+    {
+      "number": 22,
+      "pali": "Lobho, bhikkhave, neva kāyena pahātabbo no vācāya, paññāya disvā pahātabbo. ",
+      "english": "Greed … "
+    },
+    {
+      "number": 23,
+      "pali": "Doso, bhikkhave …pe… ",
+      "english": "hate … "
+    },
+    {
+      "number": 24,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 25,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 26,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 27,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 28,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 29,
+      "pali": "macchariyaṁ, bhikkhave, neva kāyena pahātabbaṁ no vācāya, paññāya disvā pahātabbaṁ. ",
+      "english": "and stinginess are things that should be given up neither by the body, nor by speech, but by seeing again and again with wisdom. "
+    },
+    {
+      "number": 30,
+      "pali": "Pāpikā, bhikkhave, issā neva kāyena pahātabbā no vācāya, paññāya disvā pahātabbā. ",
+      "english": "Nasty jealousy should be given up neither by the body, nor by speech, but by seeing again and again with wisdom. "
+    },
+    {
+      "number": 31,
+      "pali": "Katamā ca, bhikkhave, pāpikā issā? ",
+      "english": "And what is nasty jealousy? "
+    },
+    {
+      "number": 32,
+      "pali": "Idha, bhikkhave, ijjhati gahapatissa vā gahapatiputtassa vā dhanena vā dhaññena vā rajatena vā jātarūpena vā. ",
+      "english": "It’s when a householder or their child is prospering in money, grain, silver, or gold. "
+    },
+    {
+      "number": 33,
+      "pali": "Tatrāññatarassa dāsassa vā upavāsassa vā evaṁ hoti: ",
+      "english": "And a bondservant or dependent thinks: "
+    },
+    {
+      "number": 34,
+      "pali": "‘aho vatimassa gahapatissa vā gahapatiputtassa vā na ijjheyya dhanena vā dhaññena vā rajatena vā jātarūpena vā’ti. ",
+      "english": "‘Oh, may that householder or their child not prosper in money, grain, silver, or gold!’ "
+    },
+    {
+      "number": 35,
+      "pali": "Samaṇo vā pana brāhmaṇo vā lābhī hoti cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārānaṁ. ",
+      "english": "Or an ascetic or brahmin receives robes, almsfood, lodgings, and medicines and supplies for the sick. "
+    },
+    {
+      "number": 36,
+      "pali": "Tatrāññatarassa samaṇassa vā brāhmaṇassa vā evaṁ hoti: ",
+      "english": "And some other ascetic or brahmin thinks: "
+    },
+    {
+      "number": 37,
+      "pali": "‘aho vata ayamāyasmā na lābhī assa cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārānan’ti. ",
+      "english": "‘Oh, may that venerable not receive robes, almsfood, lodgings, and medicines and supplies for the sick.’ "
+    },
+    {
+      "number": 38,
+      "pali": "Ayaṁ vuccati, bhikkhave, pāpikā issā. ",
+      "english": "This is called nasty jealousy. "
+    },
+    {
+      "number": 39,
+      "pali": "Pāpikā, bhikkhave, icchā neva kāyena pahātabbā no vācāya, paññāya disvā pahātabbā. ",
+      "english": "Corrupt wishes should be given up neither by the body, nor by speech, but by seeing again and again with wisdom. "
+    },
+    {
+      "number": 40,
+      "pali": "Katamā ca, bhikkhave, pāpikā icchā? ",
+      "english": "And what are corrupt wishes? "
+    },
+    {
+      "number": 41,
+      "pali": "Idha, bhikkhave, ekacco assaddho samāno ‘saddhoti maṁ jāneyyun’ti icchati; ",
+      "english": "It’s when a faithless person wishes to be known as faithful. "
+    },
+    {
+      "number": 42,
+      "pali": "dussīlo samāno ‘sīlavāti maṁ jāneyyun’ti icchati; ",
+      "english": "An unethical person wishes to be known as ethical. "
+    },
+    {
+      "number": 43,
+      "pali": "appassuto samāno ‘bahussutoti maṁ jāneyyun’ti icchati; ",
+      "english": "An unlearned person wishes to be known as learned. "
+    },
+    {
+      "number": 44,
+      "pali": "saṅgaṇikārāmo samāno ‘pavivittoti maṁ jāneyyun’ti icchati; ",
+      "english": "A lover of company wishes to be known as secluded. "
+    },
+    {
+      "number": 45,
+      "pali": "kusīto samāno ‘āraddhavīriyoti maṁ jāneyyun’ti icchati; ",
+      "english": "A lazy person wishes to be known as energetic. "
+    },
+    {
+      "number": 46,
+      "pali": "muṭṭhassati samāno ‘upaṭṭhitassatīti maṁ jāneyyun’ti icchati; ",
+      "english": "An unmindful person wishes to be known as mindful. "
+    },
+    {
+      "number": 47,
+      "pali": "asamāhito samāno ‘samāhitoti maṁ jāneyyun’ti icchati; ",
+      "english": "A person without immersion wishes to be known as having immersion. "
+    },
+    {
+      "number": 48,
+      "pali": "duppañño samāno ‘paññavāti maṁ jāneyyun’ti icchati; ",
+      "english": "A witless person wishes to be known as wise. "
+    },
+    {
+      "number": 49,
+      "pali": "akhīṇāsavo samāno ‘khīṇāsavoti maṁ jāneyyun’ti icchati. ",
+      "english": "Someone who has not ended the defilements wishes to be known as having ended the defilements. "
+    },
+    {
+      "number": 50,
+      "pali": "Ayaṁ vuccati, bhikkhave, pāpikā icchā. ",
+      "english": "These are called corrupt wishes. "
+    },
+    {
+      "number": 51,
+      "pali": "Ime vuccanti, bhikkhave, dhammā neva kāyena pahātabbā no vācāya, paññāya disvā pahātabbā. ",
+      "english": "Corrupt wishes should be given up neither by the body, nor by speech, but by seeing again and again with wisdom. "
+    },
+    {
+      "number": 52,
+      "pali": "Tañce, bhikkhave, bhikkhuṁ lobho abhibhuyya iriyati, ",
+      "english": "Suppose that greed masters that mendicant and keeps going. "
+    },
+    {
+      "number": 53,
+      "pali": "doso … ",
+      "english": "Or that hate … "
+    },
+    {
+      "number": 54,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 55,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 56,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 57,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 58,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 59,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 60,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 61,
+      "pali": "pāpikā icchā abhibhuyya iriyati. ",
+      "english": "or corrupt wishes master them and keep going. "
+    },
+    {
+      "number": 62,
+      "pali": "So evamassa veditabbo: ",
+      "english": "You should know of them: "
+    },
+    {
+      "number": 63,
+      "pali": "‘nāyamāyasmā tathā pajānāti yathā pajānato lobho na hoti, tathāhimaṁ āyasmantaṁ lobho abhibhuyya iriyati; ",
+      "english": "‘This venerable does not have the understanding that would eliminate greed, so greed masters them and keeps going. "
+    },
+    {
+      "number": 64,
+      "pali": "nāyamāyasmā tathā pajānāti yathā pajānato doso na hoti … ",
+      "english": "They don’t have the understanding that would eliminate hate … "
+    },
+    {
+      "number": 65,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 66,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 67,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 68,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 69,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 70,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 71,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 72,
+      "pali": "pāpikā icchā na hoti, tathāhimaṁ āyasmantaṁ pāpikā icchā abhibhuyya iriyatī’ti. ",
+      "english": "or corrupt wishes, so corrupt wishes master them and keep going.’ "
+    },
+    {
+      "number": 73,
+      "pali": "Tañce, bhikkhave, bhikkhuṁ lobho nābhibhuyya iriyati, ",
+      "english": "Suppose that greed does not master that mendicant and keep going. "
+    },
+    {
+      "number": 74,
+      "pali": "doso … ",
+      "english": "Or that hate … "
+    },
+    {
+      "number": 75,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 76,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 77,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 78,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 79,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 80,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 81,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 82,
+      "pali": "pāpikā icchā nābhibhuyya iriyati, ",
+      "english": "or corrupt wishes don’t master that mendicant and keep going. "
+    },
+    {
+      "number": 83,
+      "pali": "so evamassa veditabbo: ",
+      "english": "You should know of them: "
+    },
+    {
+      "number": 84,
+      "pali": "‘tathā ayamāyasmā pajānāti yathā pajānato lobho na hoti, tathāhimaṁ āyasmantaṁ lobho nābhibhuyya iriyati; ",
+      "english": "‘This venerable has the understanding that eliminates greed, so greed doesn’t master them and keep going. "
+    },
+    {
+      "number": 85,
+      "pali": "tathā ayamāyasmā pajānāti yathā pajānato doso na hoti … ",
+      "english": "They have the understanding that eliminates hate … "
+    },
+    {
+      "number": 86,
+      "pali": "moho … ",
+      "english": "delusion … "
+    },
+    {
+      "number": 87,
+      "pali": "kodho … ",
+      "english": "anger … "
+    },
+    {
+      "number": 88,
+      "pali": "upanāho … ",
+      "english": "acrimony … "
+    },
+    {
+      "number": 89,
+      "pali": "makkho … ",
+      "english": "disdain … "
+    },
+    {
+      "number": 90,
+      "pali": "paḷāso … ",
+      "english": "contempt … "
+    },
+    {
+      "number": 91,
+      "pali": "macchariyaṁ … ",
+      "english": "stinginess … "
+    },
+    {
+      "number": 92,
+      "pali": "pāpikā issā … ",
+      "english": "nasty jealousy … "
+    },
+    {
+      "number": 93,
+      "pali": "pāpikā icchā na hoti, tathāhimaṁ āyasmantaṁ pāpikā icchā nābhibhuyya iriyatī’”ti. ",
+      "english": "and corrupt wishes, so corrupt wishes don’t master them and keep going.’” "
+    },
+    {
+      "number": 94,
+      "pali": "Tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

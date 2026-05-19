@@ -1,0 +1,190 @@
+{
+  "sutta_id": "AN10.106",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.106 ",
+      "english": "Numbered Discourses 10.106 "
+    },
+    {
+      "number": 2,
+      "pali": "11. Samaṇasaññāvagga ",
+      "english": "11. Perceptions for Ascetics "
+    },
+    {
+      "number": 3,
+      "pali": "Nijjarasutta ",
+      "english": "Wearing Away "
+    },
+    {
+      "number": 4,
+      "pali": "“Dasayimāni, bhikkhave, nijjaravatthūni. ",
+      "english": "“Mendicants, there are these ten grounds for wearing away. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamāni dasa? ",
+      "english": "What ten? "
+    },
+    {
+      "number": 6,
+      "pali": "Sammādiṭṭhikassa, bhikkhave, micchādiṭṭhi nijjiṇṇā hoti; ",
+      "english": "For one of right view, wrong view is worn away. "
+    },
+    {
+      "number": 7,
+      "pali": "ye ca micchādiṭṭhipaccayā aneke pāpakā akusalā dhammā sambhavanti te cassa nijjiṇṇā honti; ",
+      "english": "And the many bad, unskillful qualities that arise because of wrong view are worn away. "
+    },
+    {
+      "number": 8,
+      "pali": "sammādiṭṭhipaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "And because of right view, many skillful qualities are fully developed. "
+    },
+    {
+      "number": 9,
+      "pali": "Sammāsaṅkappassa, bhikkhave, micchāsaṅkappo nijjiṇṇo hoti; ",
+      "english": "For one of right purpose, wrong purpose is worn away. "
+    },
+    {
+      "number": 10,
+      "pali": "ye ca micchāsaṅkappapaccayā aneke pāpakā akusalā dhammā sambhavanti te cassa nijjiṇṇā honti; ",
+      "english": "And the many bad, unskillful qualities that arise because of wrong purpose are worn away. "
+    },
+    {
+      "number": 11,
+      "pali": "sammāsaṅkappapaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "And because of right purpose, many skillful qualities are fully developed. "
+    },
+    {
+      "number": 12,
+      "pali": "Sammāvācassa, bhikkhave, micchāvācā nijjiṇṇā hoti; ",
+      "english": "For one of right speech, wrong speech is worn away. "
+    },
+    {
+      "number": 13,
+      "pali": "ye ca micchāvācāpaccayā aneke pāpakā akusalā dhammā sambhavanti te cassa nijjiṇṇā honti; ",
+      "english": "And the many bad, unskillful qualities that arise because of wrong speech are worn away. "
+    },
+    {
+      "number": 14,
+      "pali": "sammāvācāpaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "And because of right speech, many skillful qualities are fully developed. "
+    },
+    {
+      "number": 15,
+      "pali": "Sammākammantassa, bhikkhave, micchākammanto nijjiṇṇo hoti; ",
+      "english": "For one of right action, wrong action is worn away. "
+    },
+    {
+      "number": 16,
+      "pali": "ye ca micchākammantapaccayā aneke pāpakā akusalā dhammā sambhavanti te cassa nijjiṇṇā honti; ",
+      "english": "And the many bad, unskillful qualities that arise because of wrong action are worn away. "
+    },
+    {
+      "number": 17,
+      "pali": "sammākammantapaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "And because of right action, many skillful qualities are fully developed. "
+    },
+    {
+      "number": 18,
+      "pali": "Sammāājīvassa, bhikkhave, micchāājīvo nijjiṇṇo hoti; ",
+      "english": "For one of right livelihood, wrong livelihood is worn away. "
+    },
+    {
+      "number": 19,
+      "pali": "ye ca micchāājīvapaccayā aneke pāpakā akusalā dhammā sambhavanti te cassa nijjiṇṇā honti; ",
+      "english": "And the many bad, unskillful qualities that arise because of wrong livelihood are worn away. "
+    },
+    {
+      "number": 20,
+      "pali": "sammāājīvapaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "And because of right livelihood, many skillful qualities are fully developed. "
+    },
+    {
+      "number": 21,
+      "pali": "Sammāvāyāmassa, bhikkhave, micchāvāyāmo nijjiṇṇo hoti; ",
+      "english": "For one of right effort, wrong effort is worn away. "
+    },
+    {
+      "number": 22,
+      "pali": "ye ca micchāvāyāmapaccayā aneke pāpakā akusalā dhammā sambhavanti te cassa nijjiṇṇā honti; ",
+      "english": "And the many bad, unskillful qualities that arise because of wrong effort are worn away. "
+    },
+    {
+      "number": 23,
+      "pali": "sammāvāyāmapaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "And because of right effort, many skillful qualities are fully developed. "
+    },
+    {
+      "number": 24,
+      "pali": "Sammāsatissa, bhikkhave, micchāsati nijjiṇṇā hoti; ",
+      "english": "For one of right mindfulness, wrong mindfulness is worn away. "
+    },
+    {
+      "number": 25,
+      "pali": "ye ca micchāsatipaccayā aneke pāpakā akusalā dhammā sambhavanti te cassa nijjiṇṇā honti; ",
+      "english": "And the many bad, unskillful qualities that arise because of wrong mindfulness are worn away. "
+    },
+    {
+      "number": 26,
+      "pali": "sammāsatipaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "And because of right mindfulness, many skillful qualities are fully developed. "
+    },
+    {
+      "number": 27,
+      "pali": "Sammāsamādhissa, bhikkhave, micchāsamādhi nijjiṇṇo hoti; ",
+      "english": "For one of right immersion, wrong immersion is worn away. "
+    },
+    {
+      "number": 28,
+      "pali": "ye ca micchāsamādhipaccayā aneke pāpakā akusalā dhammā sambhavanti te cassa nijjiṇṇā honti; ",
+      "english": "And the many bad, unskillful qualities that arise because of wrong immersion are worn away. "
+    },
+    {
+      "number": 29,
+      "pali": "sammāsamādhipaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "And because of right immersion, many skillful qualities are fully developed. "
+    },
+    {
+      "number": 30,
+      "pali": "Sammāñāṇissa, bhikkhave, micchāñāṇaṁ nijjiṇṇaṁ hoti; ",
+      "english": "For one of right knowledge, wrong knowledge is worn away. "
+    },
+    {
+      "number": 31,
+      "pali": "ye ca micchāñāṇapaccayā aneke pāpakā akusalā dhammā sambhavanti te cassa nijjiṇṇā honti; ",
+      "english": "And the many bad, unskillful qualities that arise because of wrong knowledge are worn away. "
+    },
+    {
+      "number": 32,
+      "pali": "sammāñāṇapaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "And because of right knowledge, many skillful qualities are fully developed. "
+    },
+    {
+      "number": 33,
+      "pali": "Sammāvimuttissa, bhikkhave, micchāvimutti nijjiṇṇā hoti; ",
+      "english": "For one of right freedom, wrong freedom is worn away. "
+    },
+    {
+      "number": 34,
+      "pali": "ye ca micchāvimuttipaccayā aneke pāpakā akusalā dhammā sambhavanti te cassa nijjiṇṇā honti; ",
+      "english": "And the many bad, unskillful qualities that arise because of wrong freedom are worn away. "
+    },
+    {
+      "number": 35,
+      "pali": "sammāvimuttipaccayā ca aneke kusalā dhammā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "And because of right freedom, many skillful qualities are fully developed. "
+    },
+    {
+      "number": 36,
+      "pali": "Imāni kho, bhikkhave, dasa nijjaravatthūnī”ti. ",
+      "english": "These are the ten grounds for wearing away.” "
+    },
+    {
+      "number": 37,
+      "pali": "Chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

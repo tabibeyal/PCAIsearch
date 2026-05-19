@@ -1,0 +1,140 @@
+{
+  "sutta_id": "AN4.164",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 4.164 ",
+      "english": "Numbered Discourses 4.164 "
+    },
+    {
+      "number": 2,
+      "pali": "17. Paṭipadāvagga ",
+      "english": "17. Practice "
+    },
+    {
+      "number": 3,
+      "pali": "Paṭhamakhamasutta ",
+      "english": "Patient (1st) "
+    },
+    {
+      "number": 4,
+      "pali": "“Catasso imā, bhikkhave, paṭipadā. ",
+      "english": "“Mendicants, there are four ways of practice. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamā catasso? ",
+      "english": "What four? "
+    },
+    {
+      "number": 6,
+      "pali": "Akkhamā paṭipadā, khamā paṭipadā, damā paṭipadā, samā paṭipadā. ",
+      "english": "Impatient practice, patient practice, taming practice, and calming practice. "
+    },
+    {
+      "number": 7,
+      "pali": "Katamā ca, bhikkhave, akkhamā paṭipadā? ",
+      "english": "And what’s the impatient practice? "
+    },
+    {
+      "number": 8,
+      "pali": "Idha, bhikkhave, ekacco akkosantaṁ paccakkosati, rosantaṁ paṭirosati, bhaṇḍantaṁ paṭibhaṇḍati. ",
+      "english": "It’s when someone abuses, annoys, or argues with you, and you abuse, annoy, or argue right back at them. "
+    },
+    {
+      "number": 9,
+      "pali": "Ayaṁ vuccati, bhikkhave, akkhamā paṭipadā. ",
+      "english": "This is called the impatient practice. "
+    },
+    {
+      "number": 10,
+      "pali": "Katamā ca, bhikkhave, khamā paṭipadā? ",
+      "english": "And what’s the patient practice? "
+    },
+    {
+      "number": 11,
+      "pali": "Idha, bhikkhave, ekacco akkosantaṁ na paccakkosati, rosantaṁ na paṭirosati, bhaṇḍantaṁ na paṭibhaṇḍati. ",
+      "english": "It’s when someone abuses, annoys, or argues with you, and you don’t abuse, annoy, or argue back at them. "
+    },
+    {
+      "number": 12,
+      "pali": "Ayaṁ vuccati, bhikkhave, khamā paṭipadā. ",
+      "english": "This is called the patient practice. "
+    },
+    {
+      "number": 13,
+      "pali": "Katamā ca, bhikkhave, damā paṭipadā? ",
+      "english": "And what’s the taming practice? "
+    },
+    {
+      "number": 14,
+      "pali": "Idha, bhikkhave, bhikkhu cakkhunā rūpaṁ disvā na nimittaggāhī hoti nānubyañjanaggāhī; ",
+      "english": "When a mendicant sees a sight with their eyes, they don’t get caught up in the features and details. "
+    },
+    {
+      "number": 15,
+      "pali": "yatvādhikaraṇamenaṁ cakkhundriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati; rakkhati cakkhundriyaṁ; cakkhundriye saṁvaraṁ āpajjati. ",
+      "english": "If the faculty of sight were left unrestrained, bad unskillful qualities of covetousness and displeasure would become overwhelming. For this reason, they practice restraint, protecting the faculty of sight, and achieving restraint over it. "
+    },
+    {
+      "number": 16,
+      "pali": "Sotena saddaṁ sutvā … ",
+      "english": "When they hear a sound with their ears … "
+    },
+    {
+      "number": 17,
+      "pali": "ghānena gandhaṁ ghāyitvā … ",
+      "english": "When they smell an odor with their nose … "
+    },
+    {
+      "number": 18,
+      "pali": "jivhāya rasaṁ sāyitvā … ",
+      "english": "When they taste a flavor with their tongue … "
+    },
+    {
+      "number": 19,
+      "pali": "kāyena phoṭṭhabbaṁ phusitvā … ",
+      "english": "When they feel a touch with their body … "
+    },
+    {
+      "number": 20,
+      "pali": "manasā dhammaṁ viññāya na nimittaggāhī hoti nānubyañjanaggāhī; ",
+      "english": "When they know an idea with their mind, they don’t get caught up in the features and details. "
+    },
+    {
+      "number": 21,
+      "pali": "yatvādhikaraṇamenaṁ manindriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati; rakkhati manindriyaṁ; manindriye saṁvaraṁ āpajjati. ",
+      "english": "If the faculty of mind were left unrestrained, bad unskillful qualities of covetousness and displeasure would become overwhelming. For this reason, they practice restraint, protecting the faculty of mind, and achieving restraint over it. "
+    },
+    {
+      "number": 22,
+      "pali": "Ayaṁ vuccati, bhikkhave, damā paṭipadā. ",
+      "english": "This is called the taming practice. "
+    },
+    {
+      "number": 23,
+      "pali": "Katamā ca, bhikkhave, samā paṭipadā? ",
+      "english": "And what’s the calming practice? "
+    },
+    {
+      "number": 24,
+      "pali": "Idha, bhikkhave, bhikkhu uppannaṁ kāmavitakkaṁ nādhivāseti pajahati vinodeti sameti byantīkaroti anabhāvaṁ gameti; uppannaṁ byāpādavitakkaṁ …pe… uppannaṁ vihiṁsāvitakkaṁ … uppannuppanne pāpake akusale dhamme nādhivāseti pajahati vinodeti sameti byantīkaroti anabhāvaṁ gameti. ",
+      "english": "It’s when a mendicant doesn’t tolerate a sensual, malicious, or cruel thought. They don’t tolerate any bad, unskillful qualities that have arisen, but give them up, get rid of them, calm them, eliminate them, and obliterate them. "
+    },
+    {
+      "number": 25,
+      "pali": "Ayaṁ vuccati, bhikkhave, samā paṭipadā. ",
+      "english": "This is called the calming practice. "
+    },
+    {
+      "number": 26,
+      "pali": "Imā kho, bhikkhave, catasso paṭipadā”ti. ",
+      "english": "These are the four ways of practice.” "
+    },
+    {
+      "number": 27,
+      "pali": "Catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

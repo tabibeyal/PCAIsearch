@@ -1,0 +1,600 @@
+{
+  "sutta_id": "AN8.30",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 8.30 ",
+      "english": "Numbered Discourses 8.30 "
+    },
+    {
+      "number": 2,
+      "pali": "3. Gahapativagga ",
+      "english": "3. Householders "
+    },
+    {
+      "number": 3,
+      "pali": "Anuruddhamahāvitakkasutta ",
+      "english": "Anuruddha and the Great Thoughts "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā bhaggesu viharati suṁsumāragire bhesakaḷāvane migadāye. ",
+      "english": "At one time the Buddha was staying in the land of the Bhaggas at Crocodile’s Bellow, in the deer park at Bhesakaḷā’s Wood. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena āyasmā anuruddho cetīsu viharati pācīnavaṁsadāye. ",
+      "english": "And at that time Venerable Anuruddha was staying in the land of the Cetīs in the Park of the East-Raftered Hall. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho āyasmato anuruddhassa rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
+      "english": "Then as Anuruddha was in private retreat this thought came to his mind: "
+    },
+    {
+      "number": 7,
+      "pali": "“appicchassāyaṁ dhammo, nāyaṁ dhammo mahicchassa; ",
+      "english": "“This teaching is for those of few wishes, not those of many wishes. "
+    },
+    {
+      "number": 8,
+      "pali": "santuṭṭhassāyaṁ dhammo, nāyaṁ dhammo asantuṭṭhassa; ",
+      "english": "It’s for the contented, not those who lack contentment. "
+    },
+    {
+      "number": 9,
+      "pali": "pavivittassāyaṁ dhammo, nāyaṁ dhammo saṅgaṇikārāmassa; ",
+      "english": "It’s for the secluded, not those who enjoy company. "
+    },
+    {
+      "number": 10,
+      "pali": "āraddhavīriyassāyaṁ dhammo, nāyaṁ dhammo kusītassa; ",
+      "english": "It’s for the energetic, not the lazy. "
+    },
+    {
+      "number": 11,
+      "pali": "upaṭṭhitassatissāyaṁ dhammo, nāyaṁ dhammo muṭṭhassatissa; ",
+      "english": "It’s for the mindful, not the unmindful. "
+    },
+    {
+      "number": 12,
+      "pali": "samāhitassāyaṁ dhammo, nāyaṁ dhammo asamāhitassa; ",
+      "english": "It’s for those with immersion, not those without immersion. "
+    },
+    {
+      "number": 13,
+      "pali": "paññavato ayaṁ dhammo, nāyaṁ dhammo duppaññassā”ti. ",
+      "english": "It’s for the wise, not the witless.” "
+    },
+    {
+      "number": 14,
+      "pali": "Atha kho bhagavā āyasmato anuruddhassa cetasā cetoparivitakkamaññāya—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ—bhaggesu susumāragire bhesakaḷāvane migadāye antarahito cetīsu pācīnavaṁsadāye āyasmato anuruddhassa sammukhe pāturahosi. ",
+      "english": "Then the Buddha knew Anuruddha’s train of thought. As easily as a strong person would extend or contract their arm, he vanished from the deer park at Bhesakaḷā’s Wood in the land of the Bhaggas and reappeared in front of Anuruddha in the Park of the East-Raftered Hall in the land of the Cetīs, "
+    },
+    {
+      "number": 15,
+      "pali": "Nisīdi bhagavā paññatte āsane. ",
+      "english": "and sat on the seat spread out. "
+    },
+    {
+      "number": 16,
+      "pali": "Āyasmāpi kho anuruddho bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "Anuruddha bowed to the Buddha and sat down to one side. "
+    },
+    {
+      "number": 17,
+      "pali": "Ekamantaṁ nisinnaṁ kho āyasmantaṁ anuruddhaṁ bhagavā etadavoca: ",
+      "english": "The Buddha said to him: "
+    },
+    {
+      "number": 18,
+      "pali": "“Sādhu sādhu, anuruddha. ",
+      "english": "“Good, good, Anuruddha! "
+    },
+    {
+      "number": 19,
+      "pali": "Sādhu kho tvaṁ, anuruddha, yaṁ taṁ mahāpurisavitakkaṁ vitakkesi: ",
+      "english": "It’s good that you reflect on these thoughts of a great man: "
+    },
+    {
+      "number": 20,
+      "pali": "‘appicchassāyaṁ dhammo, nāyaṁ dhammo mahicchassa; ",
+      "english": "‘This teaching is for those of few wishes, not those of many wishes. "
+    },
+    {
+      "number": 21,
+      "pali": "santuṭṭhassāyaṁ dhammo, nāyaṁ dhammo asantuṭṭhassa; ",
+      "english": "It’s for the contented, not those who lack contentment. "
+    },
+    {
+      "number": 22,
+      "pali": "pavivittassāyaṁ dhammo, nāyaṁ dhammo saṅgaṇikārāmassa; ",
+      "english": "It’s for the secluded, not those who enjoy company. "
+    },
+    {
+      "number": 23,
+      "pali": "āraddhavīriyassāyaṁ dhammo, nāyaṁ dhammo kusītassa; ",
+      "english": "It’s for the energetic, not the lazy. "
+    },
+    {
+      "number": 24,
+      "pali": "upaṭṭhitassatissāyaṁ dhammo, nāyaṁ dhammo muṭṭhassatissa; ",
+      "english": "It’s for the mindful, not the unmindful. "
+    },
+    {
+      "number": 25,
+      "pali": "samāhitassāyaṁ dhammo, nāyaṁ dhammo asamāhitassa; ",
+      "english": "It’s for those with immersion, not those without immersion. "
+    },
+    {
+      "number": 26,
+      "pali": "paññavato ayaṁ dhammo, nāyaṁ dhammo duppaññassā’ti. ",
+      "english": "It’s for the wise, not the witless.’ "
+    },
+    {
+      "number": 27,
+      "pali": "Tena hi tvaṁ, anuruddha, imampi aṭṭhamaṁ mahāpurisavitakkaṁ vitakkehi: ",
+      "english": "Well then, Anuruddha, you should also reflect on the following eighth thought of a great man: "
+    },
+    {
+      "number": 28,
+      "pali": "‘nippapañcārāmassāyaṁ dhammo nippapañcaratino, nāyaṁ dhammo papañcārāmassa papañcaratino’ti. ",
+      "english": "‘This teaching is for those who don’t enjoy proliferating and don’t like to proliferate, not for those who enjoy proliferating and like to proliferate.’ "
+    },
+    {
+      "number": 29,
+      "pali": "Yato kho tvaṁ, anuruddha, ime aṭṭha mahāpurisavitakke vitakkessasi, tato tvaṁ, anuruddha, yāvadeva ākaṅkhissasi, vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharissasi. ",
+      "english": "First you’ll reflect on these eight thoughts of a great man. Then as far as you want, quite secluded from sensual pleasures, secluded from unskillful qualities, you’ll enter and remain in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 30,
+      "pali": "Yato kho tvaṁ, anuruddha, ime aṭṭha mahāpurisavitakke vitakkessasi, tato tvaṁ, anuruddha, yāvadeva ākaṅkhissasi, vitakkavicārānaṁ vūpasamā ajjhattaṁ sampasādanaṁ cetaso ekodibhāvaṁ avitakkaṁ avicāraṁ samādhijaṁ pītisukhaṁ dutiyaṁ jhānaṁ upasampajja viharissasi. ",
+      "english": "You’ll enter and remain in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without placing the mind and keeping it connected. "
+    },
+    {
+      "number": 31,
+      "pali": "Yato kho tvaṁ, anuruddha, ime aṭṭha mahāpurisavitakke vitakkessasi, tato tvaṁ, anuruddha, yāvadeva ākaṅkhissasi, pītiyā ca virāgā upekkhako ca viharissasi sato ca sampajāno sukhañca kāyena paṭisaṁvedissasi yaṁ taṁ ariyā ācikkhanti: ‘upekkhako satimā sukhavihārī’ti tatiyaṁ jhānaṁ upasampajja viharissasi. ",
+      "english": "You’ll enter and remain in the third absorption, where you’ll meditate with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ "
+    },
+    {
+      "number": 32,
+      "pali": "Yato kho tvaṁ, anuruddha, ime aṭṭha mahāpurisavitakke vitakkessasi, tato tvaṁ, anuruddha, yāvadeva ākaṅkhissasi, sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharissasi. ",
+      "english": "With the giving up of pleasure and pain and the disappearance of former happiness and sadness, you’ll enter and remain in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. "
+    },
+    {
+      "number": 33,
+      "pali": "Yato kho tvaṁ, anuruddha, ime ca aṭṭha mahāpurisavitakke vitakkessasi, imesañca catunnaṁ jhānānaṁ ābhicetasikānaṁ diṭṭhadhammasukhavihārānaṁ nikāmalābhī bhavissasi akicchalābhī akasiralābhī, tato tuyhaṁ, anuruddha, seyyathāpi nāma gahapatissa vā gahapatiputtassa vā nānārattānaṁ dussānaṁ dussakaraṇḍako pūro; ",
+      "english": "First you’ll reflect on these eight thoughts of a great man, and you’ll get the four absorptions—blissful meditations in this life that belong to the higher mind—when you want, without trouble or difficulty. Then as you live contented your rag robe will seem to you like a chest full of garments of different colors seems to a householder or householder’s child. "
+    },
+    {
+      "number": 34,
+      "pali": "evamevaṁ te paṁsukūlacīvaraṁ khāyissati santuṭṭhassa viharato ratiyā aparitassāya phāsuvihārāya okkamanāya nibbānassa. ",
+      "english": "It will be for your enjoyment, relief, and comfort, and for alighting upon extinguishment. "
+    },
+    {
+      "number": 35,
+      "pali": "Yato kho tvaṁ, anuruddha, ime ca aṭṭha mahāpurisavitakke vitakkessasi, imesañca catunnaṁ jhānānaṁ ābhicetasikānaṁ diṭṭhadhammasukhavihārānaṁ nikāmalābhī bhavissasi akicchalābhī akasiralābhī, tato tuyhaṁ, anuruddha, seyyathāpi nāma gahapatissa vā gahapatiputtassa vā sālīnaṁ odano vicitakāḷako anekasūpo anekabyañjano; ",
+      "english": "As you live contented your scraps of almsfood will seem to you like boiled fine rice with the dark grains picked out, served with many soups and sauces seems to a householder or householder’s child. "
+    },
+    {
+      "number": 36,
+      "pali": "evamevaṁ te piṇḍiyālopabhojanaṁ khāyissati santuṭṭhassa viharato ratiyā aparitassāya phāsuvihārāya okkamanāya nibbānassa. ",
+      "english": "It will be for your enjoyment, relief, and comfort, and for alighting upon extinguishment. "
+    },
+    {
+      "number": 37,
+      "pali": "Yato kho tvaṁ, anuruddha, ime ca aṭṭha mahāpurisavitakke vitakkessasi, imesañca catunnaṁ jhānānaṁ ābhicetasikānaṁ diṭṭhadhammasukhavihārānaṁ nikāmalābhī bhavissasi akicchalābhī akasiralābhī, tato tuyhaṁ, anuruddha, seyyathāpi nāma gahapatissa vā gahapatiputtassa vā kūṭāgāraṁ ullittāvalittaṁ nivātaṁ phusitaggaḷaṁ pihitavātapānaṁ; ",
+      "english": "As you live contented your lodging at the root of a tree will seem to you like a bungalow, plastered inside and out, draft-free, with door fastened and window shuttered seems to a householder or householder’s child. "
+    },
+    {
+      "number": 38,
+      "pali": "evamevaṁ te rukkhamūlasenāsanaṁ khāyissati santuṭṭhassa viharato ratiyā aparitassāya phāsuvihārāya okkamanāya nibbānassa. ",
+      "english": "It will be for your enjoyment, relief, and comfort, and for alighting upon extinguishment. "
+    },
+    {
+      "number": 39,
+      "pali": "Yato kho tvaṁ, anuruddha, ime ca aṭṭha mahāpurisavitakke vitakkessasi, imesañca catunnaṁ jhānānaṁ ābhicetasikānaṁ diṭṭhadhammasukhavihārānaṁ nikāmalābhī bhavissasi akicchalābhī akasiralābhī, tato tuyhaṁ, anuruddha, seyyathāpi nāma gahapatissa vā gahapatiputtassa vā pallaṅko gonakatthato paṭikatthato paṭalikatthato kadalimigapavarapaccattharaṇo sauttaracchado ubhatolohitakūpadhāno; ",
+      "english": "As you live contented your lodging at the root of a tree will seem to you like a couch spread with woolen covers—shag-piled, pure white, or embroidered with flowers—and spread with a fine deer hide, with a canopy above and red pillows at both ends seems to a householder or householder’s child. "
+    },
+    {
+      "number": 40,
+      "pali": "evamevaṁ te tiṇasanthārakasayanāsanaṁ khāyissati santuṭṭhassa viharato ratiyā aparitassāya phāsuvihārāya okkamanāya nibbānassa. ",
+      "english": "It will be for your enjoyment, relief, and comfort, and for alighting upon extinguishment. "
+    },
+    {
+      "number": 41,
+      "pali": "Yato kho tvaṁ, anuruddha, ime ca aṭṭha mahāpurisavitakke vitakkessasi, imesañca catunnaṁ jhānānaṁ ābhicetasikānaṁ diṭṭhadhammasukhavihārānaṁ nikāmalābhī bhavissasi akicchalābhī akasiralābhī, tato tuyhaṁ, anuruddha, seyyathāpi nāma gahapatissa vā gahapatiputtassa vā nānābhesajjāni, seyyathidaṁ—sappi navanītaṁ telaṁ madhu phāṇitaṁ; ",
+      "english": "As you live contented your rancid urine as medicine will seem to you like various medicines—ghee, butter, oil, honey, and molasses—seem to a householder or householder’s child. "
+    },
+    {
+      "number": 42,
+      "pali": "evamevaṁ te pūtimuttabhesajjaṁ khāyissati santuṭṭhassa viharato ratiyā aparitassāya phāsuvihārāya okkamanāya nibbānassa. ",
+      "english": "It will be for your enjoyment, relief, and comfort, and for alighting upon extinguishment. "
+    },
+    {
+      "number": 43,
+      "pali": "Tena hi tvaṁ, anuruddha, āyatikampi vassāvāsaṁ idheva cetīsu pācīnavaṁsadāye vihareyyāsī”ti. ",
+      "english": "Well then, Anuruddha, for the next rainy season residence you should stay right here in the land of the Cetīs in the Park of the East-Raftered Hall.” "
+    },
+    {
+      "number": 44,
+      "pali": "“Evaṁ, bhante”ti kho āyasmā anuruddho bhagavato paccassosi. ",
+      "english": "“Yes, sir,” Anuruddha replied. "
+    },
+    {
+      "number": 45,
+      "pali": "Atha kho bhagavā āyasmantaṁ anuruddhaṁ iminā ovādena ovaditvā—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ—cetīsu pācīnavaṁsadāye antarahito bhaggesu susumāragire bhesakaḷāvane migadāye pāturahosīti. ",
+      "english": "After advising Anuruddha like this, the Buddha—as easily as a strong person would extend or contract their arm, vanished from the Park of the East-Raftered Hall in the land of the Cetīs and reappeared in the deer park at Bhesakaḷā’s Wood in the land of the Bhaggas at Crocodile’s Bellow. "
+    },
+    {
+      "number": 46,
+      "pali": "Nisīdi bhagavā paññatte āsane. ",
+      "english": "He sat on the seat spread out "
+    },
+    {
+      "number": 47,
+      "pali": "Nisajja kho bhagavā bhikkhū āmantesi: ",
+      "english": "and addressed the mendicants: "
+    },
+    {
+      "number": 48,
+      "pali": "“aṭṭha kho, bhikkhave, mahāpurisavitakke desessāmi, taṁ suṇātha …pe… ",
+      "english": "“Mendicants, I will teach you the eight thoughts of a great man. Listen … "
+    },
+    {
+      "number": 49,
+      "pali": "katame ca, bhikkhave, aṭṭha mahāpurisavitakkā? ",
+      "english": "And what are the eight thoughts of a great man? "
+    },
+    {
+      "number": 50,
+      "pali": "Appicchassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo mahicchassa; ",
+      "english": "This teaching is for those of few wishes, not those of many wishes. "
+    },
+    {
+      "number": 51,
+      "pali": "santuṭṭhassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo asantuṭṭhassa; ",
+      "english": "It’s for the contented, not those who lack contentment. "
+    },
+    {
+      "number": 52,
+      "pali": "pavivittassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo saṅgaṇikārāmassa; ",
+      "english": "It’s for the secluded, not those who enjoy company. "
+    },
+    {
+      "number": 53,
+      "pali": "āraddhavīriyassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo kusītassa; ",
+      "english": "It’s for the energetic, not the lazy. "
+    },
+    {
+      "number": 54,
+      "pali": "upaṭṭhitassatissāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo muṭṭhassatissa; ",
+      "english": "It’s for the mindful, not the unmindful. "
+    },
+    {
+      "number": 55,
+      "pali": "samāhitassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo asamāhitassa; ",
+      "english": "It’s for those with immersion, not those without immersion. "
+    },
+    {
+      "number": 56,
+      "pali": "paññavato ayaṁ, bhikkhave, dhammo, nāyaṁ dhammo duppaññassa; ",
+      "english": "It’s for the wise, not the witless. "
+    },
+    {
+      "number": 57,
+      "pali": "nippapañcārāmassāyaṁ, bhikkhave, dhammo nippapañcaratino, nāyaṁ dhammo papañcārāmassa papañcaratino. ",
+      "english": "It’s for those who don’t enjoy proliferating and don’t like to proliferate, not for those who enjoy proliferating and like to proliferate. "
+    },
+    {
+      "number": 58,
+      "pali": "‘Appicchassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo mahicchassā’ti, ",
+      "english": "‘This teaching is for those of few wishes, not those of many wishes.’ "
+    },
+    {
+      "number": 59,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 60,
+      "pali": "Idha, bhikkhave, bhikkhu appiccho samāno ‘appicchoti maṁ jāneyyun’ti na icchati, santuṭṭho samāno ‘santuṭṭhoti maṁ jāneyyun’ti na icchati, pavivitto samāno ‘pavivittoti maṁ jāneyyun’ti na icchati, āraddhavīriyo samāno ‘āraddhavīriyoti maṁ jāneyyun’ti na icchati, upaṭṭhitassati samāno ‘upaṭṭhitassatīti maṁ jāneyyun’ti na icchati, samāhito samāno ‘samāhitoti maṁ jāneyyun’ti na icchati, paññavā samāno ‘paññavāti maṁ jāneyyun’ti na icchati, nippapañcārāmo samāno ‘nippapañcārāmoti maṁ jāneyyun’ti na icchati. ",
+      "english": "A mendicant with few wishes doesn’t wish: ‘May they know me as having few wishes!’ When contented, they don’t wish: ‘May they know me as contented!’ When secluded, they don’t wish: ‘May they know me as secluded!’ When energetic, they don’t wish: ‘May they know me as energetic!’ When mindful, they don’t wish: ‘May they know me as mindful!’ When immersed, they don’t wish: ‘May they know me as immersed!’ When wise, they don’t wish: ‘May they know me as wise!’ When not enjoying proliferation, they don’t wish: ‘May they know me as one who doesn’t enjoy proliferating!’ "
+    },
+    {
+      "number": 61,
+      "pali": "‘Appicchassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo mahicchassā’ti, ",
+      "english": "‘This teaching is for those of few wishes, not those of many wishes.’ "
+    },
+    {
+      "number": 62,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 63,
+      "pali": "‘Santuṭṭhassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo asantuṭṭhassā’ti, iti kho panetaṁ vuttaṁ, kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "‘This teaching is for the contented, not those who lack contentment.’ That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 64,
+      "pali": "Idha, bhikkhave, bhikkhu santuṭṭho hoti itarītaracīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārena. ",
+      "english": "It’s for a mendicant who’s content with any kind of robes, almsfood, lodgings, and medicines and supplies for the sick. "
+    },
+    {
+      "number": 65,
+      "pali": "‘Santuṭṭhassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo asantuṭṭhassā’ti, ",
+      "english": "‘This teaching is for the contented, not those who lack contentment.’ "
+    },
+    {
+      "number": 66,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 67,
+      "pali": "‘Pavivittassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo saṅgaṇikārāmassā’ti, iti kho panetaṁ vuttaṁ, kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "‘This teaching is for the secluded, not those who enjoy company.’ That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 68,
+      "pali": "Idha, bhikkhave, bhikkhuno pavivittassa viharato bhavanti upasaṅkamitāro bhikkhū bhikkhuniyo upāsakā upāsikāyo rājāno rājamahāmattā titthiyā titthiyasāvakā. ",
+      "english": "It’s for a mendicant who lives secluded. But monks, nuns, laymen, laywomen, rulers and their chief ministers, monastics of other religions and their disciples go to visit them. "
+    },
+    {
+      "number": 69,
+      "pali": "Tatra bhikkhu vivekaninnena cittena vivekapoṇena vivekapabbhārena vivekaṭṭhena nekkhammābhiratena aññadatthu uyyojanikapaṭisaṁyuttaṁyeva kathaṁ kattā hoti. ",
+      "english": "With a mind slanting, sloping, and inclining to seclusion, withdrawn, and loving renunciation, that mendicant invariably gives a talk concerned only with sending them away. "
+    },
+    {
+      "number": 70,
+      "pali": "‘Pavivittassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo saṅgaṇikārāmassā’ti, ",
+      "english": "‘This teaching is for the secluded, not those who enjoy company.’ "
+    },
+    {
+      "number": 71,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 72,
+      "pali": "‘Āraddhavīriyassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo kusītassā’ti, iti kho panetaṁ vuttaṁ, kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "‘This teaching is for the energetic, not the lazy.’ That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 73,
+      "pali": "Idha, bhikkhave, bhikkhu āraddhavīriyo viharati akusalānaṁ dhammānaṁ pahānāya kusalānaṁ dhammānaṁ upasampadāya thāmavā daḷhaparakkamo anikkhittadhuro kusalesu dhammesu. ",
+      "english": "It’s for a mendicant who lives with energy roused up for giving up unskillful qualities and embracing skillful qualities. They’re strong, staunchly vigorous, not slacking off when it comes to developing skillful qualities. "
+    },
+    {
+      "number": 74,
+      "pali": "‘Āraddhavīriyassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo kusītassā’ti, ",
+      "english": "‘This teaching is for the energetic, not the lazy.’ "
+    },
+    {
+      "number": 75,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 76,
+      "pali": "‘Upaṭṭhitassatissāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo muṭṭhassatissā’ti, ",
+      "english": "‘This teaching is for the mindful, not the unmindful.’ "
+    },
+    {
+      "number": 77,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 78,
+      "pali": "Idha, bhikkhave, bhikkhu satimā hoti paramena satinepakkena samannāgato, cirakatampi cirabhāsitampi saritā anussaritā. ",
+      "english": "It’s for a mendicant who’s mindful. They have utmost mindfulness and alertness, and can remember and recall what was said and done long ago. "
+    },
+    {
+      "number": 79,
+      "pali": "‘Upaṭṭhitassatissāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo, muṭṭhassatissā’ti, ",
+      "english": "‘This teaching is for the mindful, not the unmindful.’ "
+    },
+    {
+      "number": 80,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 81,
+      "pali": "‘Samāhitassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo asamāhitassā’ti, ",
+      "english": "‘This teaching is for those with immersion, not those without immersion.’ "
+    },
+    {
+      "number": 82,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 83,
+      "pali": "Idha, bhikkhave, bhikkhu vivicceva kāmehi …pe… catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "It’s for a mendicant who, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption … second absorption … third absorption … fourth absorption. "
+    },
+    {
+      "number": 84,
+      "pali": "‘Samāhitassāyaṁ, bhikkhave, dhammo, nāyaṁ dhammo asamāhitassā’ti, ",
+      "english": "‘This teaching is for those with immersion, not those without immersion.’ "
+    },
+    {
+      "number": 85,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 86,
+      "pali": "‘Paññavato ayaṁ, bhikkhave, dhammo, nāyaṁ dhammo duppaññassā’ti, ",
+      "english": "‘This teaching is for the wise, not the witless.’ "
+    },
+    {
+      "number": 87,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 88,
+      "pali": "Idha, bhikkhave, bhikkhu paññavā hoti udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā. ",
+      "english": "It’s for a mendicant who’s wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. "
+    },
+    {
+      "number": 89,
+      "pali": "‘Paññavato ayaṁ, bhikkhave, dhammo, nāyaṁ dhammo duppaññassā’ti, ",
+      "english": "‘This teaching is for the wise, not the witless.’ "
+    },
+    {
+      "number": 90,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 91,
+      "pali": "‘Nippapañcārāmassāyaṁ, bhikkhave, dhammo nippapañcaratino, nāyaṁ dhammo papañcārāmassa papañcaratino’ti, ",
+      "english": "‘This teaching is for those who don’t enjoy proliferating and don’t like to proliferate, not for those who enjoy proliferating and like to proliferate.’ "
+    },
+    {
+      "number": 92,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 93,
+      "pali": "Idha, bhikkhave, bhikkhuno papañcanirodhe cittaṁ pakkhandati pasīdati santiṭṭhati vimuccati. ",
+      "english": "It’s for a mendicant whose mind leaps forth, gains confidence, settles down, and becomes decided regarding the cessation of proliferation. "
+    },
+    {
+      "number": 94,
+      "pali": "‘Nippapañcārāmassāyaṁ, bhikkhave, dhammo, nippapañcaratino, nāyaṁ dhammo papañcārāmassa papañcaratino’ti, ",
+      "english": "‘This teaching is for those who don’t enjoy proliferating and don’t like to proliferate, not for those who enjoy proliferating and like to proliferate.’ "
+    },
+    {
+      "number": 95,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttan”ti. ",
+      "english": "That’s what I said, and this is why I said it.” "
+    },
+    {
+      "number": 96,
+      "pali": "Atha kho āyasmā anuruddho āyatikampi vassāvāsaṁ tattheva cetīsu pācīnavaṁsadāye vihāsi. ",
+      "english": "Then Anuruddha stayed the next rainy season residence right there in the land of the Cetīs in the Park of the East-Raftered Hall. "
+    },
+    {
+      "number": 97,
+      "pali": "Atha kho āyasmā anuruddho eko vūpakaṭṭho appamatto ātāpī pahitatto viharanto nacirasseva—yassatthāya kulaputtā sammadeva agārasmā anagāriyaṁ pabbajanti, tadanuttaraṁ—brahmacariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja vihāsi. ",
+      "english": "And Anuruddha, living alone, withdrawn, diligent, keen, and resolute, soon realized the supreme culmination of the spiritual path in this very life. He lived having achieved with his own insight the goal for which gentlemen rightly go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 98,
+      "pali": "“Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti abbhaññāsi. ",
+      "english": "He understood: “Rebirth is ended; the spiritual journey has been completed; what had to be done has been done; there is nothing further for this place.” "
+    },
+    {
+      "number": 99,
+      "pali": "Aññataro ca panāyasmā anuruddho arahataṁ ahosīti. ",
+      "english": "And Venerable Anuruddha became one of the perfected. "
+    },
+    {
+      "number": 100,
+      "pali": "Atha kho āyasmā anuruddho arahattappatto tāyaṁ velāyaṁ imā gāthāyo abhāsi: ",
+      "english": "And on the occasion of attaining perfection he recited these verses: "
+    },
+    {
+      "number": 101,
+      "pali": "“Mama saṅkappamaññāya, ",
+      "english": "“Knowing my thoughts, "
+    },
+    {
+      "number": 102,
+      "pali": "satthā loke anuttaro; ",
+      "english": "the supreme Teacher in the world "
+    },
+    {
+      "number": 103,
+      "pali": "Manomayena kāyena, ",
+      "english": "came to me in a mind-made body, "
+    },
+    {
+      "number": 104,
+      "pali": "iddhiyā upasaṅkami. ",
+      "english": "using his psychic power. "
+    },
+    {
+      "number": 105,
+      "pali": "Yathā me ahu saṅkappo, ",
+      "english": "He taught me more "
+    },
+    {
+      "number": 106,
+      "pali": "tato uttari desayi; ",
+      "english": "than I had thought of. "
+    },
+    {
+      "number": 107,
+      "pali": "Nippapañcarato buddho, ",
+      "english": "The Buddha who loves non-proliferation "
+    },
+    {
+      "number": 108,
+      "pali": "nippapañcaṁ adesayi. ",
+      "english": "taught me non-proliferation. "
+    },
+    {
+      "number": 109,
+      "pali": "Tassāhaṁ dhammamaññāya, ",
+      "english": "Understanding that teaching, "
+    },
+    {
+      "number": 110,
+      "pali": "vihāsiṁ sāsane rato; ",
+      "english": "I happily did his bidding. "
+    },
+    {
+      "number": 111,
+      "pali": "Tisso vijjā anuppattā, ",
+      "english": "I’ve attained the three knowledges, "
+    },
+    {
+      "number": 112,
+      "pali": "kataṁ buddhassa sāsanan”ti. ",
+      "english": "and have fulfilled the Buddha’s instructions.” "
+    },
+    {
+      "number": 113,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 114,
+      "pali": "Gahapativaggo tatiyo. ",
+      "english": ""
+    },
+    {
+      "number": 115,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 116,
+      "pali": "Dve uggā dve ca hatthakā, ",
+      "english": ""
+    },
+    {
+      "number": 117,
+      "pali": "mahānāmena jīvako; ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "Dve balā akkhaṇā vuttā, ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "anuruddhena te dasāti. ",
+      "english": ""
+    }
+  ]
+}

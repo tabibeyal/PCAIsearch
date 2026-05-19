@@ -1,0 +1,990 @@
+{
+  "sutta_id": "SN22.85",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 22.85 ",
+      "english": "Linked Discourses 22.85 "
+    },
+    {
+      "number": 2,
+      "pali": "9. Theravagga ",
+      "english": "9. Senior Mendicants "
+    },
+    {
+      "number": 3,
+      "pali": "Yamakasutta ",
+      "english": "With Yamaka "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ āyasmā sāriputto sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time Venerable Sāriputta was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena yamakassa nāma bhikkhuno evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ hoti: ",
+      "english": "Now at that time a mendicant called Yamaka had the following harmful misconception: "
+    },
+    {
+      "number": 6,
+      "pali": "“tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi, yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā”ti. ",
+      "english": "“As I understand the Buddha’s teaching, a mendicant who has ended the defilements is annihilated and destroyed when their body breaks up, and doesn’t exist after death.” "
+    },
+    {
+      "number": 7,
+      "pali": "Assosuṁ kho sambahulā bhikkhū yamakassa kira nāma bhikkhuno evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ hoti: ",
+      "english": "Several mendicants heard this rumour. "
+    },
+    {
+      "number": 8,
+      "pali": "“tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi, yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 9,
+      "pali": "Atha kho te bhikkhū yenāyasmā yamako tenupasaṅkamiṁsu; upasaṅkamitvā āyasmatā yamakena saddhiṁ sammodiṁsu. ",
+      "english": "They went to Yamaka and exchanged greetings with him. "
+    },
+    {
+      "number": 10,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū āyasmantaṁ yamakaṁ etadavocuṁ: ",
+      "english": "When the greetings and polite conversation were over, they sat down to one side and said to him, "
+    },
+    {
+      "number": 11,
+      "pali": "“Saccaṁ kira te, āvuso yamaka, evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+      "english": "“Is it really true, Reverend Yamaka, that you have such a harmful misconception: "
+    },
+    {
+      "number": 12,
+      "pali": "‘tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi, yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā’”ti? ",
+      "english": "‘As I understand the Buddha’s teaching, a mendicant who has ended the defilements is annihilated and destroyed when their body breaks up, and doesn’t exist after death’?” "
+    },
+    {
+      "number": 13,
+      "pali": "“Evaṁ khvāhaṁ, āvuso, bhagavatā dhammaṁ desitaṁ ājānāmi: ",
+      "english": "“Yes, reverends, that’s how I understand the Buddha’s teaching.” "
+    },
+    {
+      "number": 14,
+      "pali": "‘khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "“Mā, āvuso yamaka, evaṁ avaca, mā bhagavantaṁ abbhācikkhi. Na hi sādhu bhagavato abbhācikkhanaṁ. Na hi bhagavā evaṁ vadeyya: ",
+      "english": "“Don’t say that, Yamaka! Don’t misrepresent the Buddha, for misrepresentation of the Buddha is not good. And the Buddha would not say that.” "
+    },
+    {
+      "number": 16,
+      "pali": "‘khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "Evampi kho āyasmā yamako tehi bhikkhūhi vuccamāno tatheva taṁ pāpakaṁ diṭṭhigataṁ thāmasā parāmāsā abhinivissa voharati: ",
+      "english": "But even though admonished by those mendicants, Yamaka obstinately stuck to that misconception and insisted on stating it. "
+    },
+    {
+      "number": 18,
+      "pali": "“tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi, yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "Yato kho te bhikkhū nāsakkhiṁsu āyasmantaṁ yamakaṁ etasmā pāpakā diṭṭhigatā vivecetuṁ, atha kho te bhikkhū uṭṭhāyāsanā yenāyasmā sāriputto tenupasaṅkamiṁsu; upasaṅkamitvā āyasmantaṁ sāriputtaṁ etadavocuṁ: ",
+      "english": "When those mendicants were unable to dissuade Yamaka from that misconception, they got up from their seats and went to see Venerable Sāriputta. They told him what had happened, and said, "
+    },
+    {
+      "number": 20,
+      "pali": "“yamakassa nāma, āvuso sāriputta, bhikkhuno evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "‘tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "Sādhāyasmā sāriputto yena yamako bhikkhu tenupasaṅkamatu anukampaṁ upādāyā”ti. ",
+      "english": "“May Venerable Sāriputta please go to the mendicant Yamaka out of sympathy.” "
+    },
+    {
+      "number": 23,
+      "pali": "Adhivāsesi kho āyasmā sāriputto tuṇhībhāvena. ",
+      "english": "Sāriputta consented with silence. "
+    },
+    {
+      "number": 24,
+      "pali": "Atha kho āyasmā sāriputto sāyanhasamayaṁ paṭisallānā vuṭṭhito yenāyasmā yamako tenupasaṅkami; upasaṅkamitvā āyasmatā yamakena saddhiṁ sammodi …pe… ekamantaṁ nisinno kho āyasmā sāriputto āyasmantaṁ yamakaṁ etadavoca: ",
+      "english": "Then in the late afternoon, Venerable Sāriputta came out of retreat, went to Venerable Yamaka and exchanged greetings with him. Seated to one side he said to Yamaka: "
+    },
+    {
+      "number": 25,
+      "pali": "“Saccaṁ kira te, āvuso yamaka, evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+      "english": "“Is it really true, Reverend Yamaka, that you have such a harmful misconception: "
+    },
+    {
+      "number": 26,
+      "pali": "‘tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi, yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā’”ti? ",
+      "english": "‘As I understand the Buddha’s teaching, a mendicant who has ended the defilements is annihilated and destroyed when their body breaks up, and doesn’t exist after death’?” "
+    },
+    {
+      "number": 27,
+      "pali": "“Evaṁ khvāhaṁ, āvuso, bhagavatā dhammaṁ desitaṁ ājānāmi, yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā”ti. ",
+      "english": "“Yes, reverend, that’s how I understand the Buddha’s teaching.” "
+    },
+    {
+      "number": 28,
+      "pali": "“Taṁ kiṁ maññasi, āvuso yamaka, ",
+      "english": "“What do you think, Yamaka? "
+    },
+    {
+      "number": 29,
+      "pali": "rūpaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Is form permanent or impermanent?” "
+    },
+    {
+      "number": 30,
+      "pali": "“Aniccaṁ, āvuso”. ",
+      "english": "“Impermanent, reverend.” "
+    },
+    {
+      "number": 31,
+      "pali": "“Vedanā niccā … ",
+      "english": "“Is feeling …” … "
+    },
+    {
+      "number": 32,
+      "pali": "saññā … ",
+      "english": "“… perception …” … "
+    },
+    {
+      "number": 33,
+      "pali": "saṅkhārā … ",
+      "english": "“… choices …” … "
+    },
+    {
+      "number": 34,
+      "pali": "viññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "“… consciousness permanent or impermanent?” "
+    },
+    {
+      "number": 35,
+      "pali": "“Aniccaṁ, āvuso”. ",
+      "english": "“Impermanent, reverend.” "
+    },
+    {
+      "number": 36,
+      "pali": "“Tasmātiha …pe… ",
+      "english": "“So you should truly see … "
+    },
+    {
+      "number": 37,
+      "pali": "evaṁ passaṁ …pe… ",
+      "english": "Seeing this … "
+    },
+    {
+      "number": 38,
+      "pali": "nāparaṁ itthattāyāti pajānāti. ",
+      "english": "They understand: ‘… there is nothing further for this place.’ "
+    },
+    {
+      "number": 39,
+      "pali": "Taṁ kiṁ maññasi, āvuso yamaka, ",
+      "english": "What do you think, Reverend Yamaka? "
+    },
+    {
+      "number": 40,
+      "pali": "rūpaṁ tathāgatoti samanupassasī”ti? ",
+      "english": "Do you consider that the label ‘realized one’ applies to form?” "
+    },
+    {
+      "number": 41,
+      "pali": "“No hetaṁ, āvuso” … ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 42,
+      "pali": "“vedanaṁ tathāgatoti samanupassasī”ti? ",
+      "english": "“Do you consider that the label ‘realized one’ applies to feeling?” … "
+    },
+    {
+      "number": 43,
+      "pali": "“No hetaṁ, āvuso” … ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "“saññaṁ … ",
+      "english": "“… perception?” … "
+    },
+    {
+      "number": 45,
+      "pali": "saṅkhāre … ",
+      "english": "“… choices?” … "
+    },
+    {
+      "number": 46,
+      "pali": "viññāṇaṁ tathāgatoti samanupassasī”ti? ",
+      "english": "“ … consciousness?” "
+    },
+    {
+      "number": 47,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 48,
+      "pali": "“Taṁ kiṁ maññasi, āvuso yamaka, ",
+      "english": "“What do you think, Reverend Yamaka? "
+    },
+    {
+      "number": 49,
+      "pali": "rūpasmiṁ tathāgatoti samanupassasī”ti? ",
+      "english": "Do you consider that the label ‘realized one’ applies in relation to form?” "
+    },
+    {
+      "number": 50,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 51,
+      "pali": "“Aññatra rūpā tathāgatoti samanupassasī”ti? ",
+      "english": "“Do you consider that the label ‘realized one’ applies apart from form?” "
+    },
+    {
+      "number": 52,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 53,
+      "pali": "“Vedanāya … ",
+      "english": "“Do you consider that the label ‘realized one’ applies in relation to feeling?” … "
+    },
+    {
+      "number": 54,
+      "pali": "aññatra vedanāya …pe… ",
+      "english": "“… apart from feeling?” … "
+    },
+    {
+      "number": 55,
+      "pali": "saññāya … ",
+      "english": "“… in relation to perception?” … "
+    },
+    {
+      "number": 56,
+      "pali": "aññatra saññāya … ",
+      "english": "“… apart from perception?” … "
+    },
+    {
+      "number": 57,
+      "pali": "saṅkhāresu … ",
+      "english": "“… in relation to choices?” … "
+    },
+    {
+      "number": 58,
+      "pali": "aññatra saṅkhārehi … ",
+      "english": "“… apart from choices?” … "
+    },
+    {
+      "number": 59,
+      "pali": "viññāṇasmiṁ tathāgatoti samanupassasī”ti? ",
+      "english": "“… in relation to consciousness?” … "
+    },
+    {
+      "number": 60,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "“Aññatra viññāṇā tathāgatoti samanupassasī”ti? ",
+      "english": "“… apart from consciousness?” "
+    },
+    {
+      "number": 62,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 63,
+      "pali": "“Taṁ kiṁ maññasi, āvuso yamaka, ",
+      "english": "“What do you think, Yamaka? "
+    },
+    {
+      "number": 64,
+      "pali": "rūpaṁ … vedanaṁ … saññaṁ … saṅkhāre … viññāṇaṁ tathāgatoti samanupassasī”ti? ",
+      "english": "Do you consider that the label ‘realized one’ applies to one who has form?” … “… feeling?” … “… perception?” … “… choices?” … “… consciousness?” "
+    },
+    {
+      "number": 65,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 66,
+      "pali": "“Taṁ kiṁ maññasi, āvuso yamaka, ",
+      "english": "“What do you think, Yamaka? "
+    },
+    {
+      "number": 67,
+      "pali": "ayaṁ so arūpī … avedano … asaññī … asaṅkhāro … aviññāṇo tathāgatoti samanupassasī”ti? ",
+      "english": "Do you consider that the label ‘realized one’ applies to that one who is without form?” … “… feeling?” … “… perception?” … “… choices?” … “… consciousness?” "
+    },
+    {
+      "number": 68,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 69,
+      "pali": "“Ettha ca te, āvuso yamaka, diṭṭheva dhamme saccato thetato tathāgate anupalabbhiyamāne, kallaṁ nu te taṁ veyyākaraṇaṁ: ",
+      "english": "“In that case, Reverend Yamaka, since a realized one is not found by you as a genuine fact in this very life, is it cogent for you to declare: "
+    },
+    {
+      "number": 70,
+      "pali": "‘tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi, yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati, na hoti paraṁ maraṇā’”ti? ",
+      "english": "‘As I understand the Buddha’s teaching, a mendicant who has ended the defilements is annihilated and destroyed when their body breaks up, and doesn’t exist after death.’?” "
+    },
+    {
+      "number": 71,
+      "pali": "“Ahu kho me taṁ, āvuso sāriputta, pubbe aviddasuno pāpakaṁ diṭṭhigataṁ; ",
+      "english": "“Reverend Sāriputta, in my ignorance, I used to have that misconception. "
+    },
+    {
+      "number": 72,
+      "pali": "idañca panāyasmato sāriputtassa dhammadesanaṁ sutvā tañceva pāpakaṁ diṭṭhigataṁ pahīnaṁ, dhammo ca me abhisamito”ti. ",
+      "english": "But now that I’ve heard the teaching from Venerable Sāriputta, I’ve given up that misconception, and I’ve comprehended the teaching.” "
+    },
+    {
+      "number": 73,
+      "pali": "“Sace taṁ, āvuso yamaka, evaṁ puccheyyuṁ: ",
+      "english": "“Reverend Yamaka, suppose they were to ask you: "
+    },
+    {
+      "number": 74,
+      "pali": "‘yo so, āvuso yamaka, bhikkhu arahaṁ khīṇāsavo so kāyassa bhedā paraṁ maraṇā kiṁ hotī’ti? ",
+      "english": "‘When their body breaks up, after death, what happens to a perfected one, who has ended the defilements?’ "
+    },
+    {
+      "number": 75,
+      "pali": "Evaṁ puṭṭho tvaṁ, āvuso yamaka, kinti byākareyyāsī”ti? ",
+      "english": "How would you answer?” "
+    },
+    {
+      "number": 76,
+      "pali": "“Sace maṁ, āvuso, evaṁ puccheyyuṁ: ",
+      "english": "“Reverend, if they were to ask this, "
+    },
+    {
+      "number": 77,
+      "pali": "‘yo so, āvuso yamaka, bhikkhu arahaṁ khīṇāsavo so kāyassa bhedā paraṁ maraṇā kiṁ hotī’ti? ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "Evaṁ puṭṭhohaṁ, āvuso, evaṁ byākareyyaṁ: ",
+      "english": "I’d answer like this: "
+    },
+    {
+      "number": 79,
+      "pali": "‘rūpaṁ kho, āvuso, aniccaṁ. ",
+      "english": "‘Reverend, form is impermanent. "
+    },
+    {
+      "number": 80,
+      "pali": "Yadaniccaṁ taṁ dukkhaṁ; ",
+      "english": "What’s impermanent is suffering. "
+    },
+    {
+      "number": 81,
+      "pali": "yaṁ dukkhaṁ taṁ niruddhaṁ tadatthaṅgataṁ. ",
+      "english": "What’s suffering has ceased and disappeared. "
+    },
+    {
+      "number": 82,
+      "pali": "Vedanā … ",
+      "english": "Feeling … "
+    },
+    {
+      "number": 83,
+      "pali": "saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 84,
+      "pali": "saṅkhārā … ",
+      "english": "choices … "
+    },
+    {
+      "number": 85,
+      "pali": "viññāṇaṁ aniccaṁ. ",
+      "english": "consciousness is impermanent. "
+    },
+    {
+      "number": 86,
+      "pali": "Yadaniccaṁ taṁ dukkhaṁ; ",
+      "english": "What’s impermanent is suffering. "
+    },
+    {
+      "number": 87,
+      "pali": "yaṁ dukkhaṁ taṁ niruddhaṁ tadatthaṅgatan’ti. ",
+      "english": "What’s suffering has ceased and disappeared.’ "
+    },
+    {
+      "number": 88,
+      "pali": "Evaṁ puṭṭhohaṁ, āvuso, evaṁ byākareyyan”ti. ",
+      "english": "That’s how I’d answer such a question.” "
+    },
+    {
+      "number": 89,
+      "pali": "“Sādhu sādhu, āvuso yamaka. ",
+      "english": "“Good, good, Reverend Yamaka! "
+    },
+    {
+      "number": 90,
+      "pali": "Tena hāvuso yamaka, upamaṁ te karissāmi etasseva atthassa bhiyyoso mattāya ñāṇāya. ",
+      "english": "Well then, I shall give you a simile to make the meaning even clearer. "
+    },
+    {
+      "number": 91,
+      "pali": "Seyyathāpi, āvuso yamaka, gahapati vā gahapatiputto vā aḍḍho mahaddhano mahābhogo; ",
+      "english": "Suppose there was a householder or householder’s son who was rich, with a lot of money and great wealth, "
+    },
+    {
+      "number": 92,
+      "pali": "so ca ārakkhasampanno. ",
+      "english": "and a bodyguard for protection. "
+    },
+    {
+      "number": 93,
+      "pali": "Tassa kocideva puriso uppajjeyya anatthakāmo ahitakāmo ayogakkhemakāmo jīvitā voropetukāmo. ",
+      "english": "Then along comes a person who wants to harm, injure, and threaten him, and take his life. "
+    },
+    {
+      "number": 94,
+      "pali": "Tassa evamassa: ",
+      "english": "They’d think: "
+    },
+    {
+      "number": 95,
+      "pali": "‘ayaṁ kho gahapati vā gahapatiputto vā aḍḍho mahaddhano mahābhogo; ",
+      "english": "‘This householder or householder’s son is rich, with a lot of money and great wealth, "
+    },
+    {
+      "number": 96,
+      "pali": "so ca ārakkhasampanno; ",
+      "english": "and a bodyguard for protection. "
+    },
+    {
+      "number": 97,
+      "pali": "nāyaṁ sukaro pasayha jīvitā voropetuṁ. ",
+      "english": "It won’t be easy to take his life by force. "
+    },
+    {
+      "number": 98,
+      "pali": "Yannūnāhaṁ anupakhajja jīvitā voropeyyan’ti. ",
+      "english": "Why don’t I get close to him, then take his life?’ "
+    },
+    {
+      "number": 99,
+      "pali": "So taṁ gahapatiṁ vā gahapatiputtaṁ vā upasaṅkamitvā evaṁ vadeyya: ",
+      "english": "So he goes up to that householder or householder’s son and says: "
+    },
+    {
+      "number": 100,
+      "pali": "‘upaṭṭhaheyyaṁ taṁ, bhante’ti. ",
+      "english": "‘Sir, I would serve you.’ "
+    },
+    {
+      "number": 101,
+      "pali": "Tamenaṁ so gahapati vā gahapatiputto vā upaṭṭhāpeyya. ",
+      "english": "They would serve that householder or householder’s son. "
+    },
+    {
+      "number": 102,
+      "pali": "So upaṭṭhaheyya pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī. ",
+      "english": "They’d get up before him and go to bed after him, and be obliging, behaving nicely and speaking politely. "
+    },
+    {
+      "number": 103,
+      "pali": "Tassa so gahapati vā gahapatiputto vā mittatopi naṁ saddaheyya; ",
+      "english": "The householder or householder’s son would consider them as a friend "
+    },
+    {
+      "number": 104,
+      "pali": "suhajjatopi naṁ saddaheyya; ",
+      "english": "and companion, "
+    },
+    {
+      "number": 105,
+      "pali": "tasmiñca vissāsaṁ āpajjeyya. ",
+      "english": "and come to trust them. "
+    },
+    {
+      "number": 106,
+      "pali": "Yadā kho, āvuso, tassa purisassa evamassa: ",
+      "english": "But when that person realizes that "
+    },
+    {
+      "number": 107,
+      "pali": "‘saṁvissattho kho myāyaṁ gahapati vā gahapatiputto vā’ti, atha naṁ rahogataṁ viditvā tiṇhena satthena jīvitā voropeyya. ",
+      "english": "they’ve gained the trust of the householder or householder’s son, then, when they know he’s alone, they’d take his life with a sharp knife. "
+    },
+    {
+      "number": 108,
+      "pali": "Taṁ kiṁ maññasi, āvuso yamaka, ",
+      "english": "What do you think, Yamaka? "
+    },
+    {
+      "number": 109,
+      "pali": "yadā hi so puriso amuṁ gahapatiṁ vā gahapatiputtaṁ vā upasaṅkamitvā evaṁ āha: ",
+      "english": "When that person went to the householder or householder’s son and offered to "
+    },
+    {
+      "number": 110,
+      "pali": "‘upaṭṭhaheyyaṁ taṁ, bhante’ti, tadāpi so vadhakova. ",
+      "english": "serve him, weren’t they a killer then, "
+    },
+    {
+      "number": 111,
+      "pali": "Vadhakañca pana santaṁ na aññāsi: ",
+      "english": "though he didn’t know that "
+    },
+    {
+      "number": 112,
+      "pali": "‘vadhako me’ti. ",
+      "english": "this was his killer? "
+    },
+    {
+      "number": 113,
+      "pali": "Yadāpi so upaṭṭhahati pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī, tadāpi so vadhakova. ",
+      "english": "And when they got up before him and went to bed after him, being obliging, behaving nicely and speaking politely, weren’t they a killer then, "
+    },
+    {
+      "number": 114,
+      "pali": "Vadhakañca pana santaṁ na aññāsi: ",
+      "english": "though he didn’t know that "
+    },
+    {
+      "number": 115,
+      "pali": "‘vadhako me’ti. ",
+      "english": "this was his killer? "
+    },
+    {
+      "number": 116,
+      "pali": "Yadāpi naṁ rahogataṁ viditvā tiṇhena satthena jīvitā voropeti, tadāpi so vadhakova. ",
+      "english": "And when, knowing he was alone, they took his life with a sharp knife, weren’t they a killer then, "
+    },
+    {
+      "number": 117,
+      "pali": "Vadhakañca pana santaṁ na aññāsi: ",
+      "english": "though he didn’t know that "
+    },
+    {
+      "number": 118,
+      "pali": "‘vadhako me’”ti. ",
+      "english": "this was his killer?” "
+    },
+    {
+      "number": 119,
+      "pali": "“Evamāvuso”ti. ",
+      "english": "“Yes, reverend.” "
+    },
+    {
+      "number": 120,
+      "pali": "“Evameva kho, āvuso, assutavā puthujjano ariyānaṁ adassāvī ariyadhammassa akovido ariyadhamme avinīto, sappurisānaṁ adassāvī sappurisadhammassa akovido sappurisadhamme avinīto ",
+      "english": "“In the same way, an unlearned ordinary person has not seen the noble ones, and is neither skilled nor trained in the teaching of the noble ones. They’ve not seen true persons, and are neither skilled nor trained in the teaching of the true persons. "
+    },
+    {
+      "number": 121,
+      "pali": "rūpaṁ attato samanupassati, rūpavantaṁ vā attānaṁ; attani vā rūpaṁ, rūpasmiṁ vā attānaṁ. ",
+      "english": "They regard form as self, self as having form, form in self, or self in form. "
+    },
+    {
+      "number": 122,
+      "pali": "Vedanaṁ … ",
+      "english": "They regard feeling … "
+    },
+    {
+      "number": 123,
+      "pali": "saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 124,
+      "pali": "saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 125,
+      "pali": "viññāṇaṁ attato samanupassati, viññāṇavantaṁ vā attānaṁ; attani vā viññāṇaṁ, viññāṇasmiṁ vā attānaṁ. ",
+      "english": "They regard consciousness as self, self as having consciousness, consciousness in self, or self in consciousness. "
+    },
+    {
+      "number": 126,
+      "pali": "So aniccaṁ rūpaṁ ‘aniccaṁ rūpan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "They don’t truly understand form—which is impermanent—as impermanent. "
+    },
+    {
+      "number": 127,
+      "pali": "Aniccaṁ vedanaṁ ‘aniccā vedanā’ti yathābhūtaṁ nappajānāti. ",
+      "english": "They don’t truly understand feeling … "
+    },
+    {
+      "number": 128,
+      "pali": "Aniccaṁ saññaṁ ‘aniccā saññā’ti yathābhūtaṁ nappajānāti. ",
+      "english": "perception … "
+    },
+    {
+      "number": 129,
+      "pali": "Anicce saṅkhāre ‘aniccā saṅkhārā’ti yathābhūtaṁ nappajānāti. ",
+      "english": "choices … "
+    },
+    {
+      "number": 130,
+      "pali": "Aniccaṁ viññāṇaṁ ‘aniccaṁ viññāṇan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "consciousness—which is impermanent—as impermanent. "
+    },
+    {
+      "number": 131,
+      "pali": "Dukkhaṁ rūpaṁ ‘dukkhaṁ rūpan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "They don’t truly understand form—which is suffering—as suffering. "
+    },
+    {
+      "number": 132,
+      "pali": "Dukkhaṁ vedanaṁ … ",
+      "english": "They don’t truly understand feeling … "
+    },
+    {
+      "number": 133,
+      "pali": "dukkhaṁ saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 134,
+      "pali": "dukkhe saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 135,
+      "pali": "dukkhaṁ viññāṇaṁ ‘dukkhaṁ viññāṇan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "consciousness—which is suffering—as suffering. "
+    },
+    {
+      "number": 136,
+      "pali": "Anattaṁ rūpaṁ ‘anattā rūpan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "They don’t truly understand form—which is not-self—as not-self. "
+    },
+    {
+      "number": 137,
+      "pali": "Anattaṁ vedanaṁ … ",
+      "english": "They don’t truly understand feeling … "
+    },
+    {
+      "number": 138,
+      "pali": "anattaṁ saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 139,
+      "pali": "anatte saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 140,
+      "pali": "anattaṁ viññāṇaṁ ‘anattaṁ viññāṇan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "consciousness—which is not-self—as not-self. "
+    },
+    {
+      "number": 141,
+      "pali": "Saṅkhataṁ rūpaṁ ‘saṅkhataṁ rūpan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "They don’t truly understand form—which is conditioned—as conditioned. "
+    },
+    {
+      "number": 142,
+      "pali": "Saṅkhataṁ vedanaṁ … ",
+      "english": "They don’t truly understand feeling … "
+    },
+    {
+      "number": 143,
+      "pali": "saṅkhataṁ saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 144,
+      "pali": "saṅkhate saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 145,
+      "pali": "saṅkhataṁ viññāṇaṁ ‘saṅkhataṁ viññāṇan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "consciousness—which is conditioned—as conditioned. "
+    },
+    {
+      "number": 146,
+      "pali": "Vadhakaṁ rūpaṁ ‘vadhakaṁ rūpan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "They don’t truly understand form—which is a killer—as a killer. "
+    },
+    {
+      "number": 147,
+      "pali": "Vadhakaṁ vedanaṁ ‘vadhakā vedanā’ti … ",
+      "english": "They don’t truly understand feeling … "
+    },
+    {
+      "number": 148,
+      "pali": "vadhakaṁ saññaṁ ‘vadhakā saññā’ti … ",
+      "english": "perception … "
+    },
+    {
+      "number": 149,
+      "pali": "vadhake saṅkhāre ‘vadhakā saṅkhārā’ti yathābhūtaṁ nappajānāti. ",
+      "english": "choices … "
+    },
+    {
+      "number": 150,
+      "pali": "Vadhakaṁ viññāṇaṁ ‘vadhakaṁ viññāṇan’ti yathābhūtaṁ nappajānāti. ",
+      "english": "consciousness—which is a killer—as a killer. "
+    },
+    {
+      "number": 151,
+      "pali": "So rūpaṁ upeti upādiyati adhiṭṭhāti ‘attā me’ti. ",
+      "english": "They’re attracted to form, grasp it, and fixate on the thought, ‘my self’. "
+    },
+    {
+      "number": 152,
+      "pali": "Vedanaṁ … ",
+      "english": "They’re attracted to feeling … "
+    },
+    {
+      "number": 153,
+      "pali": "saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 154,
+      "pali": "saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 155,
+      "pali": "viññāṇaṁ upeti upādiyati adhiṭṭhāti ‘attā me’ti. ",
+      "english": "consciousness, grasp it, and fixate on the thought, ‘my self’. "
+    },
+    {
+      "number": 156,
+      "pali": "Tassime pañcupādānakkhandhā upetā upādinnā dīgharattaṁ ahitāya dukkhāya saṁvattanti. ",
+      "english": "And when you’ve gotten involved with and grasped these five grasping aggregates, they lead to your lasting harm and suffering. "
+    },
+    {
+      "number": 157,
+      "pali": "Sutavā ca kho, āvuso, ariyasāvako ariyānaṁ dassāvī …pe… sappurisadhamme suvinīto ",
+      "english": "A learned noble disciple has seen the noble ones, and is skilled and trained in the teaching of the noble ones. They’ve seen true persons, and are skilled and trained in the teaching of the true persons. "
+    },
+    {
+      "number": 158,
+      "pali": "na rūpaṁ attato samanupassati, na rūpavantaṁ attānaṁ; na attani rūpaṁ, na rūpasmiṁ attānaṁ. ",
+      "english": "They don’t regard form as self, self as having form, form in self, or self in form. "
+    },
+    {
+      "number": 159,
+      "pali": "Na vedanaṁ … ",
+      "english": "They don’t regard feeling … "
+    },
+    {
+      "number": 160,
+      "pali": "na saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 161,
+      "pali": "na saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 162,
+      "pali": "na viññāṇaṁ attato samanupassati, na viññāṇavantaṁ attānaṁ; ",
+      "english": "consciousness as self, self as having consciousness, "
+    },
+    {
+      "number": 163,
+      "pali": "na attani viññāṇaṁ, na viññāṇasmiṁ attānaṁ. ",
+      "english": "consciousness in self, or self in consciousness. "
+    },
+    {
+      "number": 164,
+      "pali": "So aniccaṁ rūpaṁ ‘aniccaṁ rūpan’ti yathābhūtaṁ pajānāti. ",
+      "english": "They truly understand form—which is impermanent—as impermanent. "
+    },
+    {
+      "number": 165,
+      "pali": "Aniccaṁ vedanaṁ … ",
+      "english": "They truly understand feeling … "
+    },
+    {
+      "number": 166,
+      "pali": "aniccaṁ saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 167,
+      "pali": "anicce saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 168,
+      "pali": "aniccaṁ viññāṇaṁ ‘aniccaṁ viññāṇan’ti yathābhūtaṁ pajānāti. ",
+      "english": "consciousness—which is impermanent—as impermanent. "
+    },
+    {
+      "number": 169,
+      "pali": "Dukkhaṁ rūpaṁ ‘dukkhaṁ rūpan’ti yathābhūtaṁ pajānāti. ",
+      "english": "They truly understand form—which is suffering—as suffering. "
+    },
+    {
+      "number": 170,
+      "pali": "Dukkhaṁ vedanaṁ … ",
+      "english": "They truly understand feeling … "
+    },
+    {
+      "number": 171,
+      "pali": "dukkhaṁ saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 172,
+      "pali": "dukkhe saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 173,
+      "pali": "dukkhaṁ viññāṇaṁ ‘dukkhaṁ viññāṇan’ti yathābhūtaṁ pajānāti. ",
+      "english": "consciousness—which is suffering—as suffering. "
+    },
+    {
+      "number": 174,
+      "pali": "Anattaṁ rūpaṁ ‘anattā rūpan’ti yathābhūtaṁ pajānāti. ",
+      "english": "They truly understand form—which is not-self—as not-self. "
+    },
+    {
+      "number": 175,
+      "pali": "Anattaṁ vedanaṁ … ",
+      "english": "They truly understand feeling … "
+    },
+    {
+      "number": 176,
+      "pali": "anattaṁ saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 177,
+      "pali": "anatte saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 178,
+      "pali": "anattaṁ viññāṇaṁ ‘anattā viññāṇan’ti yathābhūtaṁ pajānāti. ",
+      "english": "consciousness—which is not-self—as not-self. "
+    },
+    {
+      "number": 179,
+      "pali": "Saṅkhataṁ rūpaṁ ‘saṅkhataṁ rūpan’ti yathābhūtaṁ pajānāti. ",
+      "english": "They truly understand form—which is conditioned—as conditioned. "
+    },
+    {
+      "number": 180,
+      "pali": "Saṅkhataṁ vedanaṁ … ",
+      "english": "They truly understand feeling … "
+    },
+    {
+      "number": 181,
+      "pali": "saṅkhataṁ saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 182,
+      "pali": "saṅkhate saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 183,
+      "pali": "saṅkhataṁ viññāṇaṁ ‘saṅkhataṁ viññāṇan’ti yathābhūtaṁ pajānāti. ",
+      "english": "consciousness—which is conditioned—as conditioned. "
+    },
+    {
+      "number": 184,
+      "pali": "Vadhakaṁ rūpaṁ ‘vadhakaṁ rūpan’ti yathābhūtaṁ pajānāti. ",
+      "english": "They truly understand form—which is a killer—as a killer. "
+    },
+    {
+      "number": 185,
+      "pali": "Vadhakaṁ vedanaṁ … ",
+      "english": "They truly understand feeling … "
+    },
+    {
+      "number": 186,
+      "pali": "vadhakaṁ saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 187,
+      "pali": "vadhake saṅkhāre ‘vadhakā saṅkhārā’ti yathābhūtaṁ pajānāti. ",
+      "english": "choices … "
+    },
+    {
+      "number": 188,
+      "pali": "Vadhakaṁ viññāṇaṁ ‘vadhakaṁ viññāṇan’ti yathābhūtaṁ pajānāti. ",
+      "english": "consciousness—which is a killer—as a killer. "
+    },
+    {
+      "number": 189,
+      "pali": "So rūpaṁ na upeti, na upādiyati, nādhiṭṭhāti: ‘attā me’ti. ",
+      "english": "Not being attracted to form, they don’t grasp it, and fixate on the thought, ‘my self’. "
+    },
+    {
+      "number": 190,
+      "pali": "Vedanaṁ … ",
+      "english": "Not being attracted to feeling … "
+    },
+    {
+      "number": 191,
+      "pali": "saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 192,
+      "pali": "saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 193,
+      "pali": "viññāṇaṁ na upeti, na upādiyati, nādhiṭṭhāti: ‘attā me’ti. ",
+      "english": "consciousness, they don't grasp it, and fixate on the thought, ‘my self’. "
+    },
+    {
+      "number": 194,
+      "pali": "Tassime pañcupādānakkhandhā anupetā anupādinnā dīgharattaṁ hitāya sukhāya saṁvattantī”ti. ",
+      "english": "And when you’re not attracted to and don’t grasp these five grasping aggregates, they lead to your lasting welfare and happiness.” "
+    },
+    {
+      "number": 195,
+      "pali": "“Evametaṁ, āvuso sāriputta, hoti yesaṁ āyasmantānaṁ tādisā sabrahmacārino anukampakā atthakāmā ovādakā anusāsakā. ",
+      "english": "“Reverend Sāriputta, this is how it is when you have such venerables as spiritual companions to advise and instruct you out of kindness and sympathy. "
+    },
+    {
+      "number": 196,
+      "pali": "Idañca pana me āyasmato sāriputtassa dhammadesanaṁ sutvā anupādāya āsavehi cittaṁ vimuttan”ti. ",
+      "english": "And after hearing this teaching by Venerable Sāriputta, my mind is freed from the defilements by not grasping.” "
+    },
+    {
+      "number": 197,
+      "pali": "Tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

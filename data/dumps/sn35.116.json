@@ -1,0 +1,435 @@
+{
+  "sutta_id": "SN35.116",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 35.116 ",
+      "english": "Linked Discourses 35.116 "
+    },
+    {
+      "number": 2,
+      "pali": "12. Lokakāmaguṇavagga ",
+      "english": "12. The World and the Kinds of Sensual Stimulation "
+    },
+    {
+      "number": 3,
+      "pali": "Lokantagamanasutta ",
+      "english": "Traveling to the End of the World "
+    },
+    {
+      "number": 4,
+      "pali": "“Nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyanti vadāmi. ",
+      "english": "“Mendicants, I say it’s not possible to know or see or reach the end of the world by traveling. "
+    },
+    {
+      "number": 5,
+      "pali": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmī”ti. ",
+      "english": "But I also say there’s no making an end of suffering without reaching the end of the world.” "
+    },
+    {
+      "number": 6,
+      "pali": "Idaṁ vatvā bhagavā uṭṭhāyāsanā vihāraṁ pāvisi. ",
+      "english": "When he had spoken, the Blessed One got up from his seat and entered his dwelling. "
+    },
+    {
+      "number": 7,
+      "pali": "Atha kho tesaṁ bhikkhūnaṁ acirapakkantassa bhagavato etadahosi: ",
+      "english": "Soon after the Buddha left, those mendicants considered, "
+    },
+    {
+      "number": 8,
+      "pali": "“idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": "“The Buddha gave this brief summary recital, then entered his dwelling without explaining the meaning in detail. … "
+    },
+    {
+      "number": 9,
+      "pali": "‘“nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyan”ti vadāmi. ",
+      "english": ""
+    },
+    {
+      "number": 10,
+      "pali": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 11,
+      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyā”ti? ",
+      "english": "Who can explain in detail the meaning of this brief summary recital given by the Buddha?” "
+    },
+    {
+      "number": 12,
+      "pali": "Atha kho tesaṁ bhikkhūnaṁ etadahosi: ",
+      "english": "Then those mendicants thought, "
+    },
+    {
+      "number": 13,
+      "pali": "“ayaṁ kho āyasmā ānando satthu ceva saṁvaṇṇito, sambhāvito ca viññūnaṁ sabrahmacārīnaṁ. ",
+      "english": "“This Venerable Ānanda is praised by the Buddha and esteemed by his sensible spiritual companions. "
+    },
+    {
+      "number": 14,
+      "pali": "Pahoti cāyasmā ānando imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": "He is capable of explaining in detail the meaning of this brief summary recital given by the Buddha. "
+    },
+    {
+      "number": 15,
+      "pali": "Yannūna mayaṁ yenāyasmā ānando tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ ānandaṁ etamatthaṁ paṭipuccheyyāmā”ti. ",
+      "english": "Let’s go to him, and ask him about this matter.” "
+    },
+    {
+      "number": 16,
+      "pali": "Atha kho te bhikkhū yenāyasmā ānando tenupasaṅkamiṁsu; upasaṅkamitvā āyasmatā ānandena saddhiṁ sammodiṁsu. ",
+      "english": "Then those mendicants went to Ānanda and exchanged greetings with him. "
+    },
+    {
+      "number": 17,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū āyasmantaṁ ānandaṁ etadavocuṁ: ",
+      "english": "When the greetings and polite conversation were over, they sat down to one side. They told him what had happened, and said, "
+    },
+    {
+      "number": 18,
+      "pali": "“Idaṁ kho no, āvuso ānanda, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "‘nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyanti vadāmi. ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "Tesaṁ no, āvuso, amhākaṁ acirapakkantassa bhagavato etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "‘idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho—",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyanti vadāmi. ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmīti. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "Tesaṁ no, āvuso, amhākaṁ etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "‘ayaṁ kho, āvuso, āyasmā ānando satthu ceva saṁvaṇṇito, sambhāvito ca viññūnaṁ sabrahmacārīnaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "Pahoti cāyasmā ānando imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Yannūna mayaṁ yenāyasmā ānando tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ ānandaṁ etamatthaṁ paṭipuccheyyāmā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Vibhajatāyasmā ānando”ti. ",
+      "english": "“May Venerable Ānanda please explain this.” "
+    },
+    {
+      "number": 31,
+      "pali": "“Seyyathāpi, āvuso, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva, mūlaṁ atikkammeva, khandhaṁ sākhāpalāse sāraṁ pariyesitabbaṁ maññeyya; ",
+      "english": "“Reverends, suppose there was a person in need of heartwood. And while wandering in search of heartwood he’d come across a large tree standing with heartwood. But he’d pass over the roots and trunk, imagining that the heartwood should be sought in the branches and leaves. "
+    },
+    {
+      "number": 32,
+      "pali": "evaṁ sampadamidaṁ āyasmantānaṁ satthari sammukhībhūte taṁ bhagavantaṁ atisitvā amhe etamatthaṁ paṭipucchitabbaṁ maññatha. ",
+      "english": "Such is the consequence for the venerables. Though you were face to face with the Buddha, you bypassed him, imagining that you should ask me about this matter. "
+    },
+    {
+      "number": 33,
+      "pali": "So hāvuso, bhagavā jānaṁ jānāti, passaṁ passati—",
+      "english": "For he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. "
+    },
+    {
+      "number": 34,
+      "pali": "cakkhubhūto, ñāṇabhūto, dhammabhūto, brahmabhūto, vattā, pavattā, atthassa ninnetā, amatassa dātā, dhammassāmī, tathāgato. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "So ceva panetassa kālo ahosi yaṁ bhagavantaṁyeva etamatthaṁ paṭipuccheyyātha. ",
+      "english": "That was the time to approach the Buddha and ask about this matter. "
+    },
+    {
+      "number": 36,
+      "pali": "Yathā vo bhagavā byākareyya tathā vo dhāreyyāthā”ti. ",
+      "english": "You should have remembered it in line with the Buddha’s answer.” "
+    },
+    {
+      "number": 37,
+      "pali": "“Addhāvuso ānanda, bhagavā jānaṁ jānāti, passaṁ passati—",
+      "english": "“Certainly he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. "
+    },
+    {
+      "number": 38,
+      "pali": "cakkhubhūto, ñāṇabhūto, dhammabhūto, brahmabhūto, vattā, pavattā, atthassa ninnetā, amatassa dātā, dhammassāmī, tathāgato. ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "So ceva panetassa kālo ahosi yaṁ bhagavantaṁyeva etamatthaṁ paṭipuccheyyāma. ",
+      "english": "That was the time to approach the Buddha and ask about this matter. "
+    },
+    {
+      "number": 40,
+      "pali": "Yathā no bhagavā byākareyya tathā naṁ dhāreyyāma. ",
+      "english": "We should have remembered it in line with the Buddha’s answer. "
+    },
+    {
+      "number": 41,
+      "pali": "Api cāyasmā ānando satthu ceva saṁvaṇṇito, sambhāvito ca viññūnaṁ sabrahmacārīnaṁ. ",
+      "english": "Still, Venerable Ānanda is praised by the Buddha and esteemed by his sensible spiritual companions. "
+    },
+    {
+      "number": 42,
+      "pali": "Pahoti cāyasmā ānando imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": "You are capable of explaining in detail the meaning of this brief summary recital given by the Buddha. "
+    },
+    {
+      "number": 43,
+      "pali": "Vibhajatāyasmā ānando agaruṁ karitvā”ti. ",
+      "english": "Please explain this, if it’s no trouble.” "
+    },
+    {
+      "number": 44,
+      "pali": "“Tenahāvuso, suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "“Then listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 45,
+      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato ānandassa paccassosuṁ. ",
+      "english": "“Yes, reverend,” they replied. "
+    },
+    {
+      "number": 46,
+      "pali": "Āyasmā ānando etadavoca: ",
+      "english": "Ānanda said this: "
+    },
+    {
+      "number": 47,
+      "pali": "“Yaṁ kho vo, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": "“Reverends, the Buddha gave this brief summary recital, then entered his dwelling without explaining the meaning in detail: "
+    },
+    {
+      "number": 48,
+      "pali": "‘nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyanti vadāmi. ",
+      "english": "‘Mendicants, I say it’s not possible to know or see or reach the end of the world by traveling. "
+    },
+    {
+      "number": 49,
+      "pali": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmī’ti, ",
+      "english": "But I also say there’s no making an end of suffering without reaching the end of the world.’ "
+    },
+    {
+      "number": 50,
+      "pali": "imassa khvāhaṁ, āvuso, bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ ājānāmi. ",
+      "english": "This is how I understand the detailed meaning of this summary recital. "
+    },
+    {
+      "number": 51,
+      "pali": "Yena kho, āvuso, lokasmiṁ lokasaññī hoti lokamānī—",
+      "english": "Whatever in the world through which you perceive the world and conceive the world "
+    },
+    {
+      "number": 52,
+      "pali": "ayaṁ vuccati ariyassa vinaye loko. ",
+      "english": "is called the world in the training of the Noble One. "
+    },
+    {
+      "number": 53,
+      "pali": "Kena cāvuso, lokasmiṁ lokasaññī hoti lokamānī? ",
+      "english": "And through what in the world do you perceive the world and conceive the world? "
+    },
+    {
+      "number": 54,
+      "pali": "Cakkhunā kho, āvuso, lokasmiṁ lokasaññī hoti lokamānī. ",
+      "english": "Through the eye in the world you perceive the world and conceive the world. "
+    },
+    {
+      "number": 55,
+      "pali": "Sotena kho, āvuso … ",
+      "english": "Through the ear … "
+    },
+    {
+      "number": 56,
+      "pali": "ghānena kho, āvuso … ",
+      "english": "nose … "
+    },
+    {
+      "number": 57,
+      "pali": "jivhāya kho, āvuso, lokasmiṁ lokasaññī hoti lokamānī. ",
+      "english": "tongue … "
+    },
+    {
+      "number": 58,
+      "pali": "Kāyena kho, āvuso … ",
+      "english": "body … "
+    },
+    {
+      "number": 59,
+      "pali": "manena kho, āvuso, lokasmiṁ lokasaññī hoti lokamānī. ",
+      "english": "mind in the world you perceive the world and conceive the world. "
+    },
+    {
+      "number": 60,
+      "pali": "Yena kho, āvuso, lokasmiṁ lokasaññī hoti lokamānī—",
+      "english": "Whatever in the world through which you perceive the world and conceive the world "
+    },
+    {
+      "number": 61,
+      "pali": "ayaṁ vuccati ariyassa vinaye loko. ",
+      "english": "is called the world in the training of the Noble One. "
+    },
+    {
+      "number": 62,
+      "pali": "Yaṁ kho vo, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": "When the Buddha gave this brief summary recital, then entered his dwelling without explaining the meaning in detail: "
+    },
+    {
+      "number": 63,
+      "pali": "‘nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyanti vadāmi. ",
+      "english": "‘Mendicants, I say it’s not possible to know or see or reach the end of the world by traveling. "
+    },
+    {
+      "number": 64,
+      "pali": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmī’ti, ",
+      "english": "But I also say there’s no making an end of suffering without reaching the end of the world.’ "
+    },
+    {
+      "number": 65,
+      "pali": "imassa khvāhaṁ, āvuso, bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa evaṁ vitthārena atthaṁ ājānāmi. ",
+      "english": "That is how I understand the detailed meaning of this summary. "
+    },
+    {
+      "number": 66,
+      "pali": "Ākaṅkhamānā ca pana tumhe āyasmanto bhagavantaṁyeva upasaṅkamitvā etamatthaṁ paṭipuccheyyātha. ",
+      "english": "If you wish, you may go to the Buddha and ask him about this. "
+    },
+    {
+      "number": 67,
+      "pali": "Yathā vo bhagavā byākaroti tathā naṁ dhāreyyāthā”ti. ",
+      "english": "You should remember it in line with the Buddha’s answer.” "
+    },
+    {
+      "number": 68,
+      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato ānandassa paṭissutvā uṭṭhāyāsanā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū bhagavantaṁ etadavocuṁ: ",
+      "english": "“Yes, reverend,” replied those mendicants. Then they rose from their seats and went to the Buddha, bowed, sat down to one side, and told him what had happened. "
+    },
+    {
+      "number": 69,
+      "pali": "“Yaṁ kho no, bhante, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "‘nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyanti vadāmi. ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "Tesaṁ no, bhante, amhākaṁ acirapakkantassa bhagavato etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "‘idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho—",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyanti vadāmi. ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmīti. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "Tesaṁ no, bhante, amhākaṁ etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "‘ayaṁ kho āyasmā ānando satthu ceva saṁvaṇṇito, sambhāvito ca viññūnaṁ sabrahmacārīnaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "Pahoti cāyasmā ānando imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "Yannūna mayaṁ yenāyasmā ānando tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ ānandaṁ etamatthaṁ paṭipuccheyyāmā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "Atha kho mayaṁ, bhante, yenāyasmā ānando tenupasaṅkamimha; upasaṅkamitvā āyasmantaṁ ānandaṁ etamatthaṁ paṭipucchimha. ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "Tesaṁ no, bhante, āyasmatā ānandena imehi ākārehi imehi padehi imehi byañjanehi attho vibhatto”ti. ",
+      "english": "Then they said, “And Ānanda explained the meaning to us in this manner, with these words and phrases.” "
+    },
+    {
+      "number": 83,
+      "pali": "“Paṇḍito, bhikkhave, ānando; mahāpañño, bhikkhave, ānando. ",
+      "english": "“Mendicants, Ānanda is astute, he has great wisdom. "
+    },
+    {
+      "number": 84,
+      "pali": "Mañcepi tumhe, bhikkhave, etamatthaṁ paṭipuccheyyātha, ahampi taṁ evamevaṁ byākareyyaṁ yathā taṁ ānandena byākataṁ. ",
+      "english": "If you came to me and asked this question, I would answer it in exactly the same way as Ānanda. "
+    },
+    {
+      "number": 85,
+      "pali": "Eso cevetassa attho, evañca naṁ dhāreyyāthā”ti. ",
+      "english": "That is what it means, and that’s how you should remember it.” "
+    },
+    {
+      "number": 86,
+      "pali": "Tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

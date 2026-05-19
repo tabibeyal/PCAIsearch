@@ -1,0 +1,740 @@
+{
+  "sutta_id": "MN112",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 112 ",
+      "english": "Middle Discourses 112 "
+    },
+    {
+      "number": 2,
+      "pali": "Chabbisodhanasutta ",
+      "english": "The Sixfold Purification "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Idha, bhikkhave, bhikkhu aññaṁ byākaroti: ",
+      "english": "“Take a mendicant who declares enlightenment: "
+    },
+    {
+      "number": 10,
+      "pali": "‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmī’ti. ",
+      "english": "‘I understand: “Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.”’ "
+    },
+    {
+      "number": 11,
+      "pali": "Tassa, bhikkhave, bhikkhuno bhāsitaṁ neva abhinanditabbaṁ nappaṭikkositabbaṁ. ",
+      "english": "You should neither approve nor reject that mendicant’s statement. "
+    },
+    {
+      "number": 12,
+      "pali": "Anabhinanditvā appaṭikkositvā pañho pucchitabbo: ",
+      "english": "Rather, you should question them: "
+    },
+    {
+      "number": 13,
+      "pali": "‘cattārome, āvuso, vohārā tena bhagavatā jānatā passatā arahatā sammāsambuddhena sammadakkhātā. ",
+      "english": "‘Reverend, these four kinds of expression have been rightly explained by the Blessed One, who knows and sees, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 14,
+      "pali": "Katame cattāro? ",
+      "english": "What four? "
+    },
+    {
+      "number": 15,
+      "pali": "Diṭṭhe diṭṭhavāditā, sute sutavāditā, mute mutavāditā, viññāte viññātavāditā—",
+      "english": "One speaks of the seen as seen, the heard as heard, the thought as thought, and the known as known. "
+    },
+    {
+      "number": 16,
+      "pali": "ime kho, āvuso, cattāro vohārā tena bhagavatā jānatā passatā arahatā sammāsambuddhena sammadakkhātā. ",
+      "english": "These are the four kinds of expression rightly explained by the Blessed One, who knows and sees, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 17,
+      "pali": "Kathaṁ jānato panāyasmato, kathaṁ passato imesu catūsu vohāresu anupādāya āsavehi cittaṁ vimuttan’ti? ",
+      "english": "How does the venerable know and see regarding these four kinds of expression so that your mind is freed from defilements by not grasping?’ "
+    },
+    {
+      "number": 18,
+      "pali": "Khīṇāsavassa, bhikkhave, bhikkhuno vusitavato katakaraṇīyassa ohitabhārassa anuppattasadatthassa parikkhīṇabhavasaṁyojanassa sammadaññāvimuttassa ayamanudhammo hoti veyyākaraṇāya: ",
+      "english": "For a mendicant with defilements ended—who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment—it is in line with the teaching to answer: "
+    },
+    {
+      "number": 19,
+      "pali": "‘diṭṭhe kho ahaṁ, āvuso, anupāyo anapāyo anissito appaṭibaddho vippamutto visaṁyutto vimariyādīkatena cetasā viharāmi. ",
+      "english": "‘Regarding what is seen, reverends, I live without getting involved or shying away, independent, untied, liberated, detached, with mind free of boundaries. "
+    },
+    {
+      "number": 20,
+      "pali": "Sute kho ahaṁ, āvuso …pe… ",
+      "english": "Regarding what is heard … "
+    },
+    {
+      "number": 21,
+      "pali": "mute kho ahaṁ, āvuso … ",
+      "english": "thought … "
+    },
+    {
+      "number": 22,
+      "pali": "viññāte kho ahaṁ, āvuso, anupāyo anapāyo anissito appaṭibaddho vippamutto visaṁyutto vimariyādīkatena cetasā viharāmi. ",
+      "english": "or known, I live without getting involved or shying away, independent, untied, liberated, detached, with mind free of boundaries. "
+    },
+    {
+      "number": 23,
+      "pali": "Evaṁ kho me, āvuso, jānato evaṁ passato imesu catūsu vohāresu anupādāya āsavehi cittaṁ vimuttan’ti. ",
+      "english": "That is how I know and see regarding these four kinds of expression so that my mind is freed from defilements by not grasping.’ "
+    },
+    {
+      "number": 24,
+      "pali": "Tassa, bhikkhave, bhikkhuno ‘sādhū’ti bhāsitaṁ abhinanditabbaṁ anumoditabbaṁ. ",
+      "english": "Saying ‘Good!’ you should applaud and cheer that mendicant’s statement, "
+    },
+    {
+      "number": 25,
+      "pali": "‘Sādhū’ti bhāsitaṁ abhinanditvā anumoditvā uttariṁ pañho pucchitabbo. ",
+      "english": "then ask a further question: "
+    },
+    {
+      "number": 26,
+      "pali": "‘Pañcime, āvuso, upādānakkhandhā tena bhagavatā jānatā passatā arahatā sammāsambuddhena sammadakkhātā. ",
+      "english": "‘Reverend, these five grasping aggregates have been rightly explained by the Buddha. "
+    },
+    {
+      "number": 27,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 28,
+      "pali": "Seyyathidaṁ—rūpupādānakkhandho, vedanupādānakkhandho, saññupādānakkhandho, saṅkhārupādānakkhandho, viññāṇupādānakkhandho—",
+      "english": "That is: the grasping aggregates of form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 29,
+      "pali": "ime kho, āvuso, pañcupādānakkhandhā tena bhagavatā jānatā passatā arahatā sammāsambuddhena sammadakkhātā. ",
+      "english": "These are the five grasping aggregates that have been rightly explained by the Buddha. "
+    },
+    {
+      "number": 30,
+      "pali": "Kathaṁ jānato panāyasmato, kathaṁ passato imesu pañcasu upādānakkhandhesu anupādāya āsavehi cittaṁ vimuttan’ti? ",
+      "english": "How does the venerable know and see regarding these five grasping aggregates so that your mind is freed from defilements by not grasping?’ "
+    },
+    {
+      "number": 31,
+      "pali": "Khīṇāsavassa, bhikkhave, bhikkhuno vusitavato katakaraṇīyassa ohitabhārassa anuppattasadatthassa parikkhīṇabhavasaṁyojanassa sammadaññāvimuttassa ayamanudhammo hoti veyyākaraṇāya: ",
+      "english": "For a mendicant with defilements ended it is in line with the teaching to answer: "
+    },
+    {
+      "number": 32,
+      "pali": "‘rūpaṁ kho ahaṁ, āvuso, abalaṁ virāgunaṁ anassāsikanti viditvā ye rūpe upāyūpādānā cetaso adhiṭṭhānābhinivesānusayā tesaṁ khayā virāgā nirodhā cāgā paṭinissaggā vimuttaṁ me cittanti pajānāmi. ",
+      "english": "‘Reverends, knowing that form is powerless, faded, and unreliable, I understand that my mind is freed through the ending, fading away, cessation, giving away, and letting go of attraction, grasping, mental fixation, insistence, and underlying tendency for form. "
+    },
+    {
+      "number": 33,
+      "pali": "Vedanaṁ kho ahaṁ, āvuso …pe… ",
+      "english": "Knowing that feeling … "
+    },
+    {
+      "number": 34,
+      "pali": "saññaṁ kho ahaṁ, āvuso … ",
+      "english": "perception … "
+    },
+    {
+      "number": 35,
+      "pali": "saṅkhāre kho ahaṁ, āvuso … ",
+      "english": "choices … "
+    },
+    {
+      "number": 36,
+      "pali": "viññāṇaṁ kho ahaṁ, āvuso, abalaṁ virāgunaṁ anassāsikanti viditvā ye viññāṇe upāyūpādānā cetaso adhiṭṭhānābhinivesānusayā tesaṁ khayā virāgā nirodhā cāgā paṭinissaggā vimuttaṁ me cittanti pajānāmi. ",
+      "english": "consciousness is powerless, faded, and unreliable, I understand that my mind is freed through the ending, fading away, cessation, giving away, and letting go of attraction, grasping, mental fixation, insistence, and underlying tendency for consciousness. "
+    },
+    {
+      "number": 37,
+      "pali": "Evaṁ kho me, āvuso, jānato evaṁ passato imesu pañcasu upādānakkhandhesu anupādāya āsavehi cittaṁ vimuttan’ti. ",
+      "english": "That is how I know and see regarding these five grasping aggregates so that my mind is freed from defilements by not grasping.’ "
+    },
+    {
+      "number": 38,
+      "pali": "Tassa, bhikkhave, bhikkhuno ‘sādhū’ti bhāsitaṁ abhinanditabbaṁ, anumoditabbaṁ. ",
+      "english": "Saying ‘Good!’ you should applaud and cheer that mendicant’s statement, "
+    },
+    {
+      "number": 39,
+      "pali": "‘Sādhū’ti bhāsitaṁ abhinanditvā anumoditvā uttariṁ pañho pucchitabbo. ",
+      "english": "then ask a further question: "
+    },
+    {
+      "number": 40,
+      "pali": "‘Chayimā, āvuso, dhātuyo tena bhagavatā jānatā passatā arahatā sammāsambuddhena sammadakkhātā. ",
+      "english": "‘Reverend, these six elements have been rightly explained by the Buddha. "
+    },
+    {
+      "number": 41,
+      "pali": "Katamā cha? ",
+      "english": "What six? "
+    },
+    {
+      "number": 42,
+      "pali": "Pathavīdhātu, āpodhātu, tejodhātu, vāyodhātu, ākāsadhātu, viññāṇadhātu—",
+      "english": "The elements of earth, water, fire, air, space, and consciousness. "
+    },
+    {
+      "number": 43,
+      "pali": "imā kho, āvuso, cha dhātuyo tena bhagavatā jānatā passatā arahatā sammāsambuddhena sammadakkhātā. ",
+      "english": "These are the six elements that have been rightly explained by the Buddha. "
+    },
+    {
+      "number": 44,
+      "pali": "Kathaṁ jānato panāyasmato, kathaṁ passato imāsu chasu dhātūsu anupādāya āsavehi cittaṁ vimuttan’ti? ",
+      "english": "How does the venerable know and see regarding these six elements so that your mind is freed from defilements by not grasping?’ "
+    },
+    {
+      "number": 45,
+      "pali": "Khīṇāsavassa, bhikkhave, bhikkhuno vusitavato katakaraṇīyassa ohitabhārassa anuppattasadatthassa parikkhīṇabhavasaṁyojanassa sammadaññāvimuttassa ayamanudhammo hoti veyyākaraṇāya: ",
+      "english": "For a mendicant with defilements ended it is in line with the teaching to answer: "
+    },
+    {
+      "number": 46,
+      "pali": "‘pathavīdhātuṁ kho ahaṁ, āvuso, na attato upagacchiṁ, na ca pathavīdhātunissitaṁ attānaṁ. ",
+      "english": "‘Reverends, I’ve not taken the earth element as self, nor is there a self based on the earth element. "
+    },
+    {
+      "number": 47,
+      "pali": "Ye ca pathavīdhātunissitā upāyūpādānā cetaso adhiṭṭhānābhinivesānusayā tesaṁ khayā virāgā nirodhā cāgā paṭinissaggā vimuttaṁ me cittanti pajānāmi. ",
+      "english": "And I understand that my mind is freed through the ending, fading away, cessation, giving away, and letting go of attraction, grasping, mental fixation, insistence, and underlying tendency based on the earth element. "
+    },
+    {
+      "number": 48,
+      "pali": "Āpodhātuṁ kho ahaṁ, āvuso …pe… ",
+      "english": "I’ve not taken the water element … "
+    },
+    {
+      "number": 49,
+      "pali": "tejodhātuṁ kho ahaṁ, āvuso … ",
+      "english": "fire element … "
+    },
+    {
+      "number": 50,
+      "pali": "vāyodhātuṁ kho ahaṁ, āvuso … ",
+      "english": "air element … "
+    },
+    {
+      "number": 51,
+      "pali": "ākāsadhātuṁ kho ahaṁ, āvuso … ",
+      "english": "space element … "
+    },
+    {
+      "number": 52,
+      "pali": "viññāṇadhātuṁ kho ahaṁ, āvuso, na attato upagacchiṁ, na ca viññāṇadhātunissitaṁ attānaṁ. ",
+      "english": "consciousness element as self, nor is there a self based on the consciousness element. "
+    },
+    {
+      "number": 53,
+      "pali": "Ye ca viññāṇadhātunissitā upāyūpādānā cetaso adhiṭṭhānābhinivesānusayā tesaṁ khayā virāgā nirodhā cāgā paṭinissaggā vimuttaṁ me cittanti pajānāmi. ",
+      "english": "And I understand that my mind is freed through the ending of attraction based on the consciousness element. "
+    },
+    {
+      "number": 54,
+      "pali": "Evaṁ kho me, āvuso, jānato, evaṁ passato imāsu chasu dhātūsu anupādāya āsavehi cittaṁ vimuttan’ti. ",
+      "english": "That is how I know and see regarding these six elements so that my mind is freed from defilements by not grasping.’ "
+    },
+    {
+      "number": 55,
+      "pali": "Tassa, bhikkhave, bhikkhuno ‘sādhū’ti bhāsitaṁ abhinanditabbaṁ, anumoditabbaṁ. ",
+      "english": "Saying ‘Good!’ you should applaud and cheer that mendicant’s statement, "
+    },
+    {
+      "number": 56,
+      "pali": "‘Sādhū’ti bhāsitaṁ abhinanditvā anumoditvā uttariṁ pañho pucchitabbo. ",
+      "english": "then ask a further question: "
+    },
+    {
+      "number": 57,
+      "pali": "‘Cha kho panimāni, āvuso, ajjhattikabāhirāni āyatanāni tena bhagavatā jānatā passatā arahatā sammāsambuddhena sammadakkhātāni. ",
+      "english": "‘Reverend, these six interior and exterior sense fields have been rightly explained by the Buddha. "
+    },
+    {
+      "number": 58,
+      "pali": "Katamāni cha? ",
+      "english": "What six? "
+    },
+    {
+      "number": 59,
+      "pali": "Cakkhu ceva rūpā ca, sotañca saddā ca, ghānañca gandhā ca, jivhā ca rasā ca, kāyo ca phoṭṭhabbā ca, mano ca dhammā ca—",
+      "english": "The eye and sights, the ear and sounds, the nose and smells, the tongue and tastes, the body and touches, and the mind and ideas. "
+    },
+    {
+      "number": 60,
+      "pali": "imāni kho, āvuso, cha ajjhattikabāhirāni āyatanāni tena bhagavatā jānatā passatā arahatā sammāsambuddhena sammadakkhātāni. ",
+      "english": "These are the six interior and exterior sense fields that have been rightly explained by the Buddha. "
+    },
+    {
+      "number": 61,
+      "pali": "Kathaṁ jānato panāyasmato, kathaṁ passato imesu chasu ajjhattikabāhiresu āyatanesu anupādāya āsavehi cittaṁ vimuttan’ti? ",
+      "english": "How does the venerable know and see regarding these six interior and exterior sense fields so that your mind is freed from defilements by not grasping?’ "
+    },
+    {
+      "number": 62,
+      "pali": "Khīṇāsavassa, bhikkhave, bhikkhuno vusitavato katakaraṇīyassa ohitabhārassa anuppattasadatthassa parikkhīṇabhavasaṁyojanassa sammadaññāvimuttassa ayamanudhammo hoti veyyākaraṇāya: ",
+      "english": "For a mendicant with defilements ended it is in line with the teaching to answer: "
+    },
+    {
+      "number": 63,
+      "pali": "‘cakkhusmiṁ, āvuso, rūpe cakkhuviññāṇe cakkhuviññāṇaviññātabbesu dhammesu yo chando yo rāgo yā nandī yā taṇhā ye ca upāyūpādānā cetaso adhiṭṭhānābhinivesānusayā tesaṁ khayā virāgā nirodhā cāgā paṭinissaggā vimuttaṁ me cittanti pajānāmi. ",
+      "english": "‘I understand that my mind is freed through the ending, fading away, cessation, giving away, and letting go of desire and greed and relishing and craving; attraction, grasping, mental fixation, insistence, and underlying tendency for the eye, sights, eye consciousness, and things knowable by eye consciousness. "
+    },
+    {
+      "number": 64,
+      "pali": "Sotasmiṁ, āvuso, sadde sotaviññāṇe …pe… ",
+      "english": "I understand that my mind is freed through the ending of desire for the ear … "
+    },
+    {
+      "number": 65,
+      "pali": "ghānasmiṁ, āvuso, gandhe ghānaviññāṇe … ",
+      "english": "nose … "
+    },
+    {
+      "number": 66,
+      "pali": "jivhāya, āvuso, rase jivhāviññāṇe … ",
+      "english": "tongue … "
+    },
+    {
+      "number": 67,
+      "pali": "kāyasmiṁ, āvuso, phoṭṭhabbe kāyaviññāṇe … ",
+      "english": "body … "
+    },
+    {
+      "number": 68,
+      "pali": "manasmiṁ, āvuso, dhamme manoviññāṇe manoviññāṇaviññātabbesu dhammesu yo chando yo rāgo yā nandī yā taṇhā ye ca upāyūpādānā cetaso adhiṭṭhānābhinivesānusayā tesaṁ khayā virāgā nirodhā cāgā paṭinissaggā vimuttaṁ me cittanti pajānāmi. ",
+      "english": "mind, ideas, mind consciousness, and things knowable by mind consciousness. "
+    },
+    {
+      "number": 69,
+      "pali": "Evaṁ kho me, āvuso, jānato evaṁ passato imesu chasu ajjhattikabāhiresu āyatanesu anupādāya āsavehi cittaṁ vimuttan’ti. ",
+      "english": "That is how I know and see regarding these six interior and exterior sense fields so that my mind is freed from defilements by not grasping.’ "
+    },
+    {
+      "number": 70,
+      "pali": "Tassa, bhikkhave, bhikkhuno ‘sādhū’ti bhāsitaṁ abhinanditabbaṁ anumoditabbaṁ. ",
+      "english": "Saying ‘Good!’ you should applaud and cheer that mendicant’s statement, "
+    },
+    {
+      "number": 71,
+      "pali": "‘Sādhū’ti bhāsitaṁ abhinanditvā anumoditvā uttariṁ pañho pucchitabbo. ",
+      "english": "then ask a further question: "
+    },
+    {
+      "number": 72,
+      "pali": "‘Kathaṁ jānato panāyasmato, kathaṁ passato imasmiñca saviññāṇake kāye bahiddhā ca sabbanimittesu ahaṅkāramamaṅkāramānānusayā samūhatā’ti? ",
+      "english": "‘Sir, how does the venerable know and see so that he has eradicated I-making, mine-making, and the underlying tendency to conceit for this conscious body and externally for all signs?’ "
+    },
+    {
+      "number": 73,
+      "pali": "Khīṇāsavassa, bhikkhave, bhikkhuno vusitavato katakaraṇīyassa ohitabhārassa anuppattasadatthassa parikkhīṇabhavasaṁyojanassa sammadaññāvimuttassa ayamanudhammo hoti veyyākaraṇāya: ",
+      "english": "For a mendicant with defilements ended it is in line with the teaching to answer: "
+    },
+    {
+      "number": 74,
+      "pali": "‘pubbe kho ahaṁ, āvuso, agāriyabhūto samāno aviddasu ahosiṁ. ",
+      "english": "‘Formerly, reverends, when I was still a layperson, I was ignorant. "
+    },
+    {
+      "number": 75,
+      "pali": "Tassa me tathāgato vā tathāgatasāvako vā dhammaṁ desesi. ",
+      "english": "Then the Realized One or one of his disciples taught me the Dhamma. "
+    },
+    {
+      "number": 76,
+      "pali": "Tāhaṁ dhammaṁ sutvā tathāgate saddhaṁ paṭilabhiṁ. ",
+      "english": "I gained faith in the Realized One, "
+    },
+    {
+      "number": 77,
+      "pali": "So tena saddhāpaṭilābhena samannāgato iti paṭisañcikkhiṁ: ",
+      "english": "and reflected: "
+    },
+    {
+      "number": 78,
+      "pali": "“sambādho gharāvāso rajāpatho, abbhokāso pabbajjā. ",
+      "english": "“Life at home is cramped and dirty, life gone forth is wide open. "
+    },
+    {
+      "number": 79,
+      "pali": "Nayidaṁ sukaraṁ agāraṁ ajjhāvasatā ekantaparipuṇṇaṁ ekantaparisuddhaṁ saṅkhalikhitaṁ brahmacariyaṁ carituṁ. ",
+      "english": "It’s not easy for someone living at home to lead the spiritual life utterly full and pure, like a polished shell. "
+    },
+    {
+      "number": 80,
+      "pali": "Yannūnāhaṁ kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajeyyan”ti. ",
+      "english": "Why don’t I shave off my hair and beard, dress in ocher robes, and go forth from lay life to homelessness?” "
+    },
+    {
+      "number": 81,
+      "pali": "So kho ahaṁ, āvuso, aparena samayena appaṁ vā bhogakkhandhaṁ pahāya mahantaṁ vā bhogakkhandhaṁ pahāya, appaṁ vā ñātiparivaṭṭaṁ pahāya mahantaṁ vā ñātiparivaṭṭaṁ pahāya kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajiṁ. ",
+      "english": "After some time I gave up a large or small fortune, and a large or small family circle. I shaved off hair and beard, dressed in ocher robes, and went forth from the lay life to homelessness. "
+    },
+    {
+      "number": 82,
+      "pali": "So evaṁ pabbajito samāno bhikkhūnaṁ sikkhāsājīvasamāpanno pāṇātipātaṁ pahāya pāṇātipātā paṭivirato ahosiṁ nihitadaṇḍo nihitasattho, lajjī dayāpanno sabbapāṇabhūtahitānukampī vihāsiṁ. ",
+      "english": "Once I had gone forth, I took up the training and livelihood of the mendicants. I gave up killing living creatures, renouncing the rod and the sword. I was scrupulous and kind, living full of sympathy for all living beings. "
+    },
+    {
+      "number": 83,
+      "pali": "Adinnādānaṁ pahāya adinnādānā paṭivirato ahosiṁ dinnādāyī dinnapāṭikaṅkhī, athenena sucibhūtena attanā vihāsiṁ. ",
+      "english": "I gave up stealing. I took only what’s given, and expected only what’s given. I kept myself clean by not thieving. "
+    },
+    {
+      "number": 84,
+      "pali": "Abrahmacariyaṁ pahāya brahmacārī ahosiṁ ārācārī virato methunā gāmadhammā. ",
+      "english": "I gave up unchastity. I became chaste, set apart, avoiding the vulgar act of sex. "
+    },
+    {
+      "number": 85,
+      "pali": "Musāvādaṁ pahāya musāvādā paṭivirato ahosiṁ saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+      "english": "I gave up lying. I spoke the truth and stuck to the truth. I was honest and dependable, not tricking the world with my words. "
+    },
+    {
+      "number": 86,
+      "pali": "Pisuṇaṁ vācaṁ pahāya pisuṇāya vācāya paṭivirato ahosiṁ, ito sutvā na amutra akkhātā imesaṁ bhedāya, amutra vā sutvā na imesaṁ akkhātā amūsaṁ bhedāya; iti bhinnānaṁ vā sandhātā sahitānaṁ vā anuppadātā samaggārāmo samaggarato samagganandī samaggakaraṇiṁ vācaṁ bhāsitā ahosiṁ. ",
+      "english": "I gave up backbiting. I didn’t repeat in one place what I heard in another so as to divide people against each other. Instead, I reconciled those who are divided and support those who are united, delighting in harmony, loving harmony, speaking words that promote harmony. "
+    },
+    {
+      "number": 87,
+      "pali": "Pharusaṁ vācaṁ pahāya pharusāya vācāya paṭivirato ahosiṁ; yā sā vācā nelā kaṇṇasukhā pemanīyā hadayaṅgamā porī bahujanakantā bahujanamanāpā tathārūpiṁ vācaṁ bhāsitā ahosiṁ. ",
+      "english": "I gave up harsh speech. I spoke in a way that’s mellow, pleasing to the ear, endearing, going to the heart, polite, likable and agreeable to the people. "
+    },
+    {
+      "number": 88,
+      "pali": "Samphappalāpaṁ pahāya samphappalāpā paṭivirato ahosiṁ; kālavādī bhūtavādī atthavādī dhammavādī vinayavādī nidhānavatiṁ vācaṁ bhāsitā ahosiṁ kālena sāpadesaṁ pariyantavatiṁ atthasaṁhitaṁ. ",
+      "english": "I gave up talking nonsense. My words were timely, true, and meaningful, in line with the teaching and training. I said things at the right time which are valuable, reasonable, succinct, and beneficial. "
+    },
+    {
+      "number": 89,
+      "pali": "So bījagāmabhūtagāmasamārambhā paṭivirato ahosiṁ, ekabhattiko ahosiṁ rattūparato virato vikālabhojanā. ",
+      "english": "I refrained from injuring plants and seeds. I ate in one part of the day, abstaining from eating at night and food at the wrong time. "
+    },
+    {
+      "number": 90,
+      "pali": "Naccagītavāditavisūkadassanā paṭivirato ahosiṁ. ",
+      "english": "I refrained from seeing shows of dancing, singing, and music . "
+    },
+    {
+      "number": 91,
+      "pali": "Mālāgandhavilepanadhāraṇamaṇḍanavibhūsanaṭṭhānā paṭivirato ahosiṁ. ",
+      "english": "I refrained from attiring and adorning myself with garlands, fragrance, and makeup. "
+    },
+    {
+      "number": 92,
+      "pali": "Uccāsayanamahāsayanā paṭivirato ahosiṁ. ",
+      "english": "I refrained from high and luxurious beds. "
+    },
+    {
+      "number": 93,
+      "pali": "Jātarūparajatapaṭiggahaṇā paṭivirato ahosiṁ, ",
+      "english": "I refrained from receiving gold and currency, "
+    },
+    {
+      "number": 94,
+      "pali": "āmakadhaññapaṭiggahaṇā paṭivirato ahosiṁ, ",
+      "english": "raw grains, "
+    },
+    {
+      "number": 95,
+      "pali": "āmakamaṁsapaṭiggahaṇā paṭivirato ahosiṁ; ",
+      "english": "raw meat, "
+    },
+    {
+      "number": 96,
+      "pali": "itthikumārikapaṭiggahaṇā paṭivirato ahosiṁ, ",
+      "english": "women and girls, "
+    },
+    {
+      "number": 97,
+      "pali": "dāsidāsapaṭiggahaṇā paṭivirato ahosiṁ, ",
+      "english": "male and female bondservants, "
+    },
+    {
+      "number": 98,
+      "pali": "ajeḷakapaṭiggahaṇā paṭivirato ahosiṁ, ",
+      "english": "goats and sheep, "
+    },
+    {
+      "number": 99,
+      "pali": "kukkuṭasūkarapaṭiggahaṇā paṭivirato ahosiṁ, ",
+      "english": "chicken and pigs, "
+    },
+    {
+      "number": 100,
+      "pali": "hatthigavassavaḷavapaṭiggahaṇā paṭivirato ahosiṁ, ",
+      "english": "elephants, cows, horses, and mares, "
+    },
+    {
+      "number": 101,
+      "pali": "khettavatthupaṭiggahaṇā paṭivirato ahosiṁ. ",
+      "english": "and fields and land. "
+    },
+    {
+      "number": 102,
+      "pali": "Dūteyyapahiṇagamanānuyogā paṭivirato ahosiṁ, ",
+      "english": "I refrained from running errands and messages; "
+    },
+    {
+      "number": 103,
+      "pali": "kayavikkayā paṭivirato ahosiṁ, ",
+      "english": "buying and selling; "
+    },
+    {
+      "number": 104,
+      "pali": "tulākūṭakaṁsakūṭamānakūṭā paṭivirato ahosiṁ, ",
+      "english": "falsifying weights, metals, or measures; "
+    },
+    {
+      "number": 105,
+      "pali": "ukkoṭanavañcananikatisāciyogā paṭivirato ahosiṁ, ",
+      "english": "bribery, fraud, cheating, and duplicity; "
+    },
+    {
+      "number": 106,
+      "pali": "chedanavadhabandhanaviparāmosaālopasahasākārā paṭivirato ahosiṁ. ",
+      "english": "mutilation, murder, abduction, banditry, plunder, and violence. "
+    },
+    {
+      "number": 107,
+      "pali": "So santuṭṭho ahosiṁ kāyaparihārikena cīvarena, kucchiparihārikena piṇḍapātena. So yena yeneva pakkamiṁ samādāyeva pakkamiṁ. ",
+      "english": "I became content with robes to look after the body and almsfood to look after the belly. Wherever I went, I set out taking only these things. "
+    },
+    {
+      "number": 108,
+      "pali": "Seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti sapattabhārova ḍeti; ",
+      "english": "Like a bird: wherever it flies, wings are its only burden. "
+    },
+    {
+      "number": 109,
+      "pali": "evameva kho ahaṁ, āvuso; santuṭṭho ahosiṁ kāyaparihārikena cīvarena, kucchiparihārikena piṇḍapātena. So yena yeneva pakkamiṁ samādāyeva pakkamiṁ. ",
+      "english": "In the same way, I became content with robes to look after the body and almsfood to look after the belly. Wherever I went, I set out taking only these things. "
+    },
+    {
+      "number": 110,
+      "pali": "So iminā ariyena sīlakkhandhena samannāgato ajjhattaṁ anavajjasukhaṁ paṭisaṁvedesiṁ. ",
+      "english": "When I had this entire spectrum of noble ethics, I experienced a blameless happiness inside myself. "
+    },
+    {
+      "number": 111,
+      "pali": "So cakkhunā rūpaṁ disvā na nimittaggāhī ahosiṁ nānubyañjanaggāhī; ",
+      "english": "When I saw a sight with my eyes, I didn’t get caught up in the features and details. "
+    },
+    {
+      "number": 112,
+      "pali": "yatvādhikaraṇamenaṁ cakkhundriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjiṁ; rakkhiṁ cakkhundriyaṁ, cakkhundriye saṁvaraṁ āpajjiṁ. ",
+      "english": "If the faculty of sight were left unrestrained, bad unskillful qualities of covetousness and displeasure would become overwhelming. For this reason, I practiced restraint, protecting the faculty of sight, and achieving its restraint. "
+    },
+    {
+      "number": 113,
+      "pali": "Sotena saddaṁ sutvā …pe… ",
+      "english": "When I heard a sound with my ears … "
+    },
+    {
+      "number": 114,
+      "pali": "ghānena gandhaṁ ghāyitvā …pe… ",
+      "english": "When I smelled an odor with my nose … "
+    },
+    {
+      "number": 115,
+      "pali": "jivhāya rasaṁ sāyitvā …pe… ",
+      "english": "When I tasted a flavor with my tongue … "
+    },
+    {
+      "number": 116,
+      "pali": "kāyena phoṭṭhabbaṁ phusitvā …pe… ",
+      "english": "When I felt a touch with my body … "
+    },
+    {
+      "number": 117,
+      "pali": "manasā dhammaṁ viññāya na nimittaggāhī ahosiṁ nānubyañjanaggāhī; ",
+      "english": "When I knew an idea with my mind, I didn’t get caught up in the features and details. "
+    },
+    {
+      "number": 118,
+      "pali": "yatvādhikaraṇamenaṁ manindriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjiṁ; rakkhiṁ manindriyaṁ, manindriye saṁvaraṁ āpajjiṁ. ",
+      "english": "If the faculty of the mind were left unrestrained, bad unskillful qualities of covetousness and displeasure would become overwhelming. For this reason, I practiced restraint, protecting the faculty of the mind, and achieving its restraint. "
+    },
+    {
+      "number": 119,
+      "pali": "So iminā ariyena indriyasaṁvarena samannāgato ajjhattaṁ abyāsekasukhaṁ paṭisaṁvedesiṁ. ",
+      "english": "When I had this noble sense restraint, I experienced an unsullied bliss inside myself. "
+    },
+    {
+      "number": 120,
+      "pali": "So abhikkante paṭikkante sampajānakārī ahosiṁ, ālokite vilokite sampajānakārī ahosiṁ, samiñjite pasārite sampajānakārī ahosiṁ, saṅghāṭipattacīvaradhāraṇe sampajānakārī ahosiṁ, asite pīte khāyite sāyite sampajānakārī ahosiṁ, uccārapassāvakamme sampajānakārī ahosiṁ, gate ṭhite nisinne sutte jāgarite bhāsite tuṇhībhāve sampajānakārī ahosiṁ. ",
+      "english": "I acted with situational awareness when going out and coming back; when looking ahead and aside; when bending and extending the limbs; when bearing the outer robe, bowl and robes; when eating, drinking, chewing, and tasting; when urinating and defecating; when walking, standing, sitting, sleeping, waking, speaking, and keeping silent. "
+    },
+    {
+      "number": 121,
+      "pali": "So iminā ca ariyena sīlakkhandhena samannāgato, imāya ca ariyāya santuṭṭhiyā samannāgato, iminā ca ariyena indriyasaṁvarena samannāgato, iminā ca ariyena satisampajaññena samannāgato ",
+      "english": "When I had this entire spectrum of noble ethics, this noble contentment, this noble sense restraint, and this noble mindfulness and situational awareness, "
+    },
+    {
+      "number": 122,
+      "pali": "vivittaṁ senāsanaṁ bhajiṁ araññaṁ rukkhamūlaṁ pabbataṁ kandaraṁ giriguhaṁ susānaṁ vanapatthaṁ abbhokāsaṁ palālapuñjaṁ. ",
+      "english": "I frequented a secluded lodging—a wilderness, the root of a tree, a hill, a ravine, a mountain cave, a charnel ground, a forest, the open air, a heap of straw. "
+    },
+    {
+      "number": 123,
+      "pali": "So pacchābhattaṁ piṇḍapātapaṭikkanto nisīdiṁ pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā. ",
+      "english": "After the meal, I returned from almsround, sat down cross-legged, set my body straight, and brought mindfulness to the present. "
+    },
+    {
+      "number": 124,
+      "pali": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā vihāsiṁ, abhijjhāya cittaṁ parisodhesiṁ. ",
+      "english": "Giving up covetousness for the world, I meditated with a heart rid of covetousness, cleansing the mind of covetousness. "
+    },
+    {
+      "number": 125,
+      "pali": "Byāpādapadosaṁ pahāya abyāpannacitto vihāsiṁ sabbapāṇabhūtahitānukampī, byāpādapadosā cittaṁ parisodhesiṁ. ",
+      "english": "Giving up ill will and malevolence, I meditated with a mind rid of ill will, full of sympathy for all living beings, cleansing the mind of ill will. "
+    },
+    {
+      "number": 126,
+      "pali": "Thinamiddhaṁ pahāya vigatathinamiddho vihāsiṁ ālokasaññī sato sampajāno, thinamiddhā cittaṁ parisodhesiṁ. ",
+      "english": "Giving up dullness and drowsiness, I meditated with a mind rid of dullness and drowsiness, perceiving light, mindful and aware, cleansing the mind of dullness and drowsiness. "
+    },
+    {
+      "number": 127,
+      "pali": "Uddhaccakukkuccaṁ pahāya anuddhato vihāsiṁ ajjhattaṁ, vūpasantacitto, uddhaccakukkuccā cittaṁ parisodhesiṁ. ",
+      "english": "Giving up restlessness and remorse, I meditated without restlessness, my mind peaceful inside, cleansing the mind of restlessness and remorse. "
+    },
+    {
+      "number": 128,
+      "pali": "Vicikicchaṁ pahāya tiṇṇavicikiccho vihāsiṁ akathaṅkathī kusalesu dhammesu, vicikicchāya cittaṁ parisodhesiṁ. ",
+      "english": "Giving up doubt, I meditated having gone beyond doubt, not undecided about skillful qualities, cleansing the mind of doubt. "
+    },
+    {
+      "number": 129,
+      "pali": "So ime pañca nīvaraṇe pahāya cetaso upakkilese paññāya dubbalīkaraṇe ",
+      "english": "I gave up these five hindrances, corruptions of the heart that weaken wisdom. "
+    },
+    {
+      "number": 130,
+      "pali": "vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja vihāsiṁ. ",
+      "english": "Then, quite secluded from sensual pleasures, secluded from unskillful qualities, I entered and remained in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 131,
+      "pali": "Vitakkavicārānaṁ vūpasamā ajjhattaṁ sampasādanaṁ cetaso ekodibhāvaṁ avitakkaṁ avicāraṁ samādhijaṁ pītisukhaṁ dutiyaṁ jhānaṁ …pe… ",
+      "english": "As the placing of the mind and keeping it connected were stilled, I entered and remained in the second absorption … "
+    },
+    {
+      "number": 132,
+      "pali": "tatiyaṁ jhānaṁ … ",
+      "english": "third absorption … "
+    },
+    {
+      "number": 133,
+      "pali": "catutthaṁ jhānaṁ upasampajja vihāsiṁ. ",
+      "english": "fourth absorption. "
+    },
+    {
+      "number": 134,
+      "pali": "So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte āsavānaṁ khayañāṇāya cittaṁ abhininnāmesiṁ. ",
+      "english": "When my mind had immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—I extended it toward knowledge of the ending of defilements. "
+    },
+    {
+      "number": 135,
+      "pali": "So idaṁ dukkhanti yathābhūtaṁ abbhaññāsiṁ, ayaṁ dukkhasamudayoti yathābhūtaṁ abbhaññāsiṁ, ayaṁ dukkhanirodhoti yathābhūtaṁ abbhaññāsiṁ, ayaṁ dukkhanirodhagāminī paṭipadāti yathābhūtaṁ abbhaññāsiṁ; ",
+      "english": "I truly understood: “This is suffering” … “This is the origin of suffering” … “This is the cessation of suffering” … “This is the practice that leads to the cessation of suffering”. "
+    },
+    {
+      "number": 136,
+      "pali": "ime āsavāti yathābhūtaṁ abbhaññāsiṁ, ayaṁ āsavasamudayoti yathābhūtaṁ abbhaññāsiṁ, ayaṁ āsavanirodhoti yathābhūtaṁ abbhaññāsiṁ, ayaṁ āsavanirodhagāminī paṭipadāti yathābhūtaṁ abbhaññāsiṁ. ",
+      "english": "I truly understood: “These are defilements”… “This is the origin of defilements” … “This is the cessation of defilements” … “This is the practice that leads to the cessation of defilements”. "
+    },
+    {
+      "number": 137,
+      "pali": "Tassa me evaṁ jānato evaṁ passato kāmāsavāpi cittaṁ vimuccittha, bhavāsavāpi cittaṁ vimuccittha, avijjāsavāpi cittaṁ vimuccittha. ",
+      "english": "Knowing and seeing like this, my mind was freed from the defilements of sensuality, desire to be reborn, and ignorance. "
+    },
+    {
+      "number": 138,
+      "pali": "Vimuttasmiṁ vimuttamiti ñāṇaṁ ahosi. ",
+      "english": "When it was freed, I knew it was freed. "
+    },
+    {
+      "number": 139,
+      "pali": "Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti abbhaññāsiṁ. ",
+      "english": "I understood: “Rebirth is ended; the spiritual journey has been completed; what had to be done has been done; there is nothing further for this place.” "
+    },
+    {
+      "number": 140,
+      "pali": "Evaṁ kho me, āvuso, jānato evaṁ passato imasmiñca saviññāṇake kāye bahiddhā ca sabbanimittesu ahaṅkāramamaṅkāramānānusayā samūhatā’ti. ",
+      "english": "That is how I know and see so that I have eradicated I-making, mine-making, and the underlying tendency to conceit for this conscious body and externally for all signs.’ "
+    },
+    {
+      "number": 141,
+      "pali": "Tassa, bhikkhave, bhikkhuno ‘sādhū’ti bhāsitaṁ abhinanditabbaṁ anumoditabbaṁ. ",
+      "english": "Saying ‘Good!’ you should applaud and cheer that mendicant’s statement, "
+    },
+    {
+      "number": 142,
+      "pali": "‘Sādhū’ti bhāsitaṁ abhinanditvā anumoditvā evamassa vacanīyo: ",
+      "english": "and then say to them: "
+    },
+    {
+      "number": 143,
+      "pali": "‘lābhā no, āvuso, suladdhaṁ no, āvuso, ",
+      "english": "‘We are fortunate, reverend, so very fortunate "
+    },
+    {
+      "number": 144,
+      "pali": "ye mayaṁ āyasmantaṁ tādisaṁ sabrahmacāriṁ samanupassāmā’”ti. ",
+      "english": "to see a venerable such as yourself as one of our spiritual companions!’” "
+    },
+    {
+      "number": 145,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 146,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 147,
+      "pali": "Chabbisodhanasuttaṁ niṭṭhitaṁ dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

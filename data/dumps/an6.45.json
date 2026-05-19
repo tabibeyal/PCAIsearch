@@ -1,0 +1,505 @@
+{
+  "sutta_id": "AN6.45",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 6.45 ",
+      "english": "Numbered Discourses 6.45 "
+    },
+    {
+      "number": 2,
+      "pali": "5. Dhammikavagga ",
+      "english": "5. About Dhammika "
+    },
+    {
+      "number": 3,
+      "pali": "Iṇasutta ",
+      "english": "Debt "
+    },
+    {
+      "number": 4,
+      "pali": "“Dāliddiyaṁ, bhikkhave, dukkhaṁ lokasmiṁ kāmabhogino”ti? ",
+      "english": "“Mendicants, isn’t poverty suffering in the world for a person who enjoys sensual pleasures?” "
+    },
+    {
+      "number": 5,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 6,
+      "pali": "“Yampi, bhikkhave, daliddo assako anāḷhiko iṇaṁ ādiyati, iṇādānampi, bhikkhave, dukkhaṁ lokasmiṁ kāmabhogino”ti? ",
+      "english": "“When a poor, penniless person falls into debt, isn’t being in debt also suffering in the world for a person who enjoys sensual pleasures?” "
+    },
+    {
+      "number": 7,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 8,
+      "pali": "“Yampi, bhikkhave, daliddo assako anāḷhiko iṇaṁ ādiyitvā vaḍḍhiṁ paṭissuṇāti, vaḍḍhipi, bhikkhave, dukkhā lokasmiṁ kāmabhogino”ti? ",
+      "english": "“When a poor person who has fallen into debt agrees to pay interest, isn’t the interest also suffering in the world for a person who enjoys sensual pleasures?” "
+    },
+    {
+      "number": 9,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 10,
+      "pali": "“Yampi, bhikkhave, daliddo assako anāḷhiko vaḍḍhiṁ paṭissuṇitvā kālābhataṁ vaḍḍhiṁ na deti, codentipi naṁ; ",
+      "english": "“When a poor person who has fallen into debt and agreed to pay interest fails to pay it when it falls due, they get a warning. "
+    },
+    {
+      "number": 11,
+      "pali": "codanāpi, bhikkhave, dukkhā lokasmiṁ kāmabhogino”ti? ",
+      "english": "Isn’t being warned suffering in the world for a person who enjoys sensual pleasures?” "
+    },
+    {
+      "number": 12,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 13,
+      "pali": "“Yampi, bhikkhave, daliddo assako anāḷhiko codiyamāno na deti, anucarantipi naṁ; ",
+      "english": "“When a poor person fails to pay after getting a warning, they’re prosecuted. "
+    },
+    {
+      "number": 14,
+      "pali": "anucariyāpi, bhikkhave, dukkhā lokasmiṁ kāmabhogino”ti? ",
+      "english": "Isn’t being prosecuted suffering in the world for a person who enjoys sensual pleasures?” "
+    },
+    {
+      "number": 15,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 16,
+      "pali": "“Yampi, bhikkhave, daliddo assako anāḷhiko anucariyamāno na deti, bandhantipi naṁ; ",
+      "english": "“When a poor person fails to pay after being prosecuted, they’re imprisoned. "
+    },
+    {
+      "number": 17,
+      "pali": "bandhanampi, bhikkhave, dukkhaṁ lokasmiṁ kāmabhogino”ti? ",
+      "english": "Isn’t being imprisoned suffering in the world for a person who enjoys sensual pleasures?” "
+    },
+    {
+      "number": 18,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 19,
+      "pali": "“Iti kho, bhikkhave, dāliddiyampi dukkhaṁ lokasmiṁ kāmabhogino, iṇādānampi dukkhaṁ lokasmiṁ kāmabhogino, vaḍḍhipi dukkhā lokasmiṁ kāmabhogino, codanāpi dukkhā lokasmiṁ kāmabhogino, anucariyāpi dukkhā lokasmiṁ kāmabhogino, bandhanampi dukkhaṁ lokasmiṁ kāmabhogino; ",
+      "english": "“So mendicants, poverty, debt, interest, warnings, prosecution, and imprisonment are suffering in the world for those who enjoy sensual pleasures. "
+    },
+    {
+      "number": 20,
+      "pali": "evamevaṁ kho, bhikkhave, yassa kassaci saddhā natthi kusalesu dhammesu, hirī natthi kusalesu dhammesu, ottappaṁ natthi kusalesu dhammesu, vīriyaṁ natthi kusalesu dhammesu, paññā natthi kusalesu dhammesu—",
+      "english": "In the same way, whoever has no faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities "
+    },
+    {
+      "number": 21,
+      "pali": "ayaṁ vuccati, bhikkhave, ariyassa vinaye daliddo assako anāḷhiko. ",
+      "english": "is called poor and penniless in the training of the Noble One. "
+    },
+    {
+      "number": 22,
+      "pali": "Sa kho so, bhikkhave, daliddo assako anāḷhiko saddhāya asati kusalesu dhammesu, hiriyā asati kusalesu dhammesu, ottappe asati kusalesu dhammesu, vīriye asati kusalesu dhammesu, paññāya asati kusalesu dhammesu, kāyena duccaritaṁ carati, vācāya duccaritaṁ carati, manasā duccaritaṁ carati. ",
+      "english": "Since they have no faith, conscience, prudence, energy, or wisdom when it comes to skillful qualities, they do bad things by way of body, speech, and mind. "
+    },
+    {
+      "number": 23,
+      "pali": "Idamassa iṇādānasmiṁ vadāmi. ",
+      "english": "This is how they’re in debt, I say. "
+    },
+    {
+      "number": 24,
+      "pali": "So tassa kāyaduccaritassa paṭicchādanahetu pāpikaṁ icchaṁ paṇidahati. ",
+      "english": "In order to conceal the bad things they do by way of body, speech, and mind they harbor corrupt wishes. "
+    },
+    {
+      "number": 25,
+      "pali": "‘Mā maṁ jaññū’ti icchati, ‘mā maṁ jaññū’ti saṅkappati, ‘mā maṁ jaññū’ti vācaṁ bhāsati, ‘mā maṁ jaññū’ti kāyena parakkamati. So tassa vacīduccaritassa paṭicchādanahetu …pe… so tassa manoduccaritassa paṭicchādanahetu …pe… ‘mā maṁ jaññū’ti kāyena parakkamati. ",
+      "english": "They wish, plan, speak, and act with the thought: ‘May no-one find me out!’ "
+    },
+    {
+      "number": 26,
+      "pali": "Idamassa vaḍḍhiyā vadāmi. ",
+      "english": "This is how they pay interest, I say. "
+    },
+    {
+      "number": 27,
+      "pali": "Tamenaṁ pesalā sabrahmacārī evamāhaṁsu: ",
+      "english": "Good-hearted spiritual companions say this about them: "
+    },
+    {
+      "number": 28,
+      "pali": "‘ayañca so āyasmā evaṅkārī evaṁsamācāro’ti. ",
+      "english": "‘This venerable acts like this, and behaves like that.’ "
+    },
+    {
+      "number": 29,
+      "pali": "Idamassa codanāya vadāmi. ",
+      "english": "This is how they’re warned, I say. "
+    },
+    {
+      "number": 30,
+      "pali": "Tamenaṁ araññagataṁ vā rukkhamūlagataṁ vā suññāgāragataṁ vā vippaṭisārasahagatā pāpakā akusalavitakkā samudācaranti. ",
+      "english": "When they go to a wilderness, the root of a tree, or an empty hut, they’re beset by remorseful, unskillful thoughts. "
+    },
+    {
+      "number": 31,
+      "pali": "Idamassa anucariyāya vadāmi. ",
+      "english": "This is how they’re prosecuted, I say. "
+    },
+    {
+      "number": 32,
+      "pali": "Sa kho so, bhikkhave, daliddo assako anāḷhiko kāyena duccaritaṁ caritvā vācāya duccaritaṁ caritvā manasā duccaritaṁ caritvā kāyassa bhedā paraṁ maraṇā nirayabandhane vā bajjhati tiracchānayonibandhane vā. ",
+      "english": "That poor, penniless person has done bad things by way of body, speech, and mind. When their body breaks up, after death, they’re trapped in the prison of hell or the animal realm. "
+    },
+    {
+      "number": 33,
+      "pali": "Nāhaṁ, bhikkhave, aññaṁ ekabandhanampi samanupassāmi evaṁdāruṇaṁ evaṅkaṭukaṁ evaṁantarāyakaraṁ anuttarassa yogakkhemassa adhigamāya, yathayidaṁ, bhikkhave, nirayabandhanaṁ vā tiracchānayonibandhanaṁ vāti. ",
+      "english": "I don’t see a single prison that’s as grim, as vicious, and such an obstacle to reaching the supreme sanctuary from the yoke as the prison of hell or the animal realm. "
+    },
+    {
+      "number": 34,
+      "pali": "Dāliddiyaṁ dukkhaṁ loke, ",
+      "english": "Poverty is said to be suffering in the world, "
+    },
+    {
+      "number": 35,
+      "pali": "iṇādānañca vuccati; ",
+      "english": "and so is being in debt. "
+    },
+    {
+      "number": 36,
+      "pali": "Daliddo iṇamādāya, ",
+      "english": "A poor person who has fallen into debt "
+    },
+    {
+      "number": 37,
+      "pali": "bhuñjamāno vihaññati. ",
+      "english": "frets even when spending the loan. "
+    },
+    {
+      "number": 38,
+      "pali": "Tato anucaranti naṁ, ",
+      "english": "And then they’re prosecuted, "
+    },
+    {
+      "number": 39,
+      "pali": "bandhanampi nigacchati; ",
+      "english": "or even thrown in jail. "
+    },
+    {
+      "number": 40,
+      "pali": "Etañhi bandhanaṁ dukkhaṁ, ",
+      "english": "Such imprisonment is true suffering "
+    },
+    {
+      "number": 41,
+      "pali": "kāmalābhābhijappinaṁ. ",
+      "english": "for someone who prays for pleasure and possessions. "
+    },
+    {
+      "number": 42,
+      "pali": "Tatheva ariyavinaye, ",
+      "english": "In the same way, in the noble one’s training "
+    },
+    {
+      "number": 43,
+      "pali": "saddhā yassa na vijjati; ",
+      "english": "whoever has no faith, "
+    },
+    {
+      "number": 44,
+      "pali": "Ahirīko anottappī, ",
+      "english": "no conscience or prudence, "
+    },
+    {
+      "number": 45,
+      "pali": "pāpakammavinibbayo. ",
+      "english": "contemplates bad deeds. "
+    },
+    {
+      "number": 46,
+      "pali": "Kāyaduccaritaṁ katvā, ",
+      "english": "After doing bad things "
+    },
+    {
+      "number": 47,
+      "pali": "vacīduccaritāni ca; ",
+      "english": "by way of body, "
+    },
+    {
+      "number": 48,
+      "pali": "Manoduccaritaṁ katvā, ",
+      "english": "speech, and mind, "
+    },
+    {
+      "number": 49,
+      "pali": "‘mā maṁ jaññū’ti icchati. ",
+      "english": "they wish, ‘May no-one find me out!’ "
+    },
+    {
+      "number": 50,
+      "pali": "So saṁsappati kāyena, ",
+      "english": "Their behavior is creepy "
+    },
+    {
+      "number": 51,
+      "pali": "vācāya uda cetasā; ",
+      "english": "by body, speech, and mind. "
+    },
+    {
+      "number": 52,
+      "pali": "Pāpakammaṁ pavaḍḍhento, ",
+      "english": "They pile up bad deeds "
+    },
+    {
+      "number": 53,
+      "pali": "tattha tattha punappunaṁ. ",
+      "english": "on and on, life after life. "
+    },
+    {
+      "number": 54,
+      "pali": "So pāpakammo dummedho, ",
+      "english": "That simpleton evildoer, "
+    },
+    {
+      "number": 55,
+      "pali": "jānaṁ dukkaṭamattano; ",
+      "english": "knowing their own misdeeds, "
+    },
+    {
+      "number": 56,
+      "pali": "Daliddo iṇamādāya, ",
+      "english": "is a poor person who has fallen into debt, "
+    },
+    {
+      "number": 57,
+      "pali": "bhuñjamāno vihaññati. ",
+      "english": "and frets even when spending the loan. "
+    },
+    {
+      "number": 58,
+      "pali": "Tato anucaranti naṁ, ",
+      "english": "And when in village or wilderness "
+    },
+    {
+      "number": 59,
+      "pali": "saṅkappā mānasā dukhā; ",
+      "english": "they’re prosecuted "
+    },
+    {
+      "number": 60,
+      "pali": "Gāme vā yadi vāraññe, ",
+      "english": "by painful mental plans, "
+    },
+    {
+      "number": 61,
+      "pali": "yassa vippaṭisārajā. ",
+      "english": "which are born of remorse. "
+    },
+    {
+      "number": 62,
+      "pali": "So pāpakammo dummedho, ",
+      "english": "That simpleton evildoer, "
+    },
+    {
+      "number": 63,
+      "pali": "jānaṁ dukkaṭamattano; ",
+      "english": "knowing their own misdeeds, "
+    },
+    {
+      "number": 64,
+      "pali": "Yonimaññataraṁ gantvā, ",
+      "english": "goes to one of the animal realms, "
+    },
+    {
+      "number": 65,
+      "pali": "niraye vāpi bajjhati. ",
+      "english": "or is trapped in hell. "
+    },
+    {
+      "number": 66,
+      "pali": "Etañhi bandhanaṁ dukkhaṁ, ",
+      "english": "Such imprisonment is true suffering, "
+    },
+    {
+      "number": 67,
+      "pali": "yamhā dhīro pamuccati; ",
+      "english": "from which the attentive are released. "
+    },
+    {
+      "number": 68,
+      "pali": "Dhammaladdhehi bhogehi, ",
+      "english": "With confident heart, they give "
+    },
+    {
+      "number": 69,
+      "pali": "dadaṁ cittaṁ pasādayaṁ. ",
+      "english": "with wealth that is properly earned. "
+    },
+    {
+      "number": 70,
+      "pali": "Ubhayattha kaṭaggāho, ",
+      "english": "That faithful householder of discernment "
+    },
+    {
+      "number": 71,
+      "pali": "saddhassa gharamesino; ",
+      "english": "holds a winning hand on both counts: "
+    },
+    {
+      "number": 72,
+      "pali": "Diṭṭhadhammahitatthāya, ",
+      "english": "welfare and benefit in this life, "
+    },
+    {
+      "number": 73,
+      "pali": "samparāyasukhāya ca; ",
+      "english": "and happiness in the next. "
+    },
+    {
+      "number": 74,
+      "pali": "Evametaṁ gahaṭṭhānaṁ, ",
+      "english": "This is how, for a householder, "
+    },
+    {
+      "number": 75,
+      "pali": "cāgo puññaṁ pavaḍḍhati. ",
+      "english": "merit grows by generosity. "
+    },
+    {
+      "number": 76,
+      "pali": "Tatheva ariyavinaye, ",
+      "english": "In the same way, in the noble one’s training, "
+    },
+    {
+      "number": 77,
+      "pali": "saddhā yassa patiṭṭhitā; ",
+      "english": "whoever is grounded in faith, "
+    },
+    {
+      "number": 78,
+      "pali": "Hirīmano ca ottappī, ",
+      "english": "with conscience and prudence, "
+    },
+    {
+      "number": 79,
+      "pali": "paññavā sīlasaṁvuto. ",
+      "english": "wise, and ethically restrained, "
+    },
+    {
+      "number": 80,
+      "pali": "Eso kho ariyavinaye, ",
+      "english": "is said to live happily "
+    },
+    {
+      "number": 81,
+      "pali": "‘sukhajīvī’ti vuccati; ",
+      "english": "in the noble one’s training. "
+    },
+    {
+      "number": 82,
+      "pali": "Nirāmisaṁ sukhaṁ laddhā, ",
+      "english": "After gaining pleasure not of the flesh, "
+    },
+    {
+      "number": 83,
+      "pali": "upekkhaṁ adhitiṭṭhati. ",
+      "english": "they concentrate on equanimity. "
+    },
+    {
+      "number": 84,
+      "pali": "Pañca nīvaraṇe hitvā, ",
+      "english": "They give up the five hindrances, "
+    },
+    {
+      "number": 85,
+      "pali": "niccaṁ āraddhavīriyo; ",
+      "english": "constantly energetic, "
+    },
+    {
+      "number": 86,
+      "pali": "Jhānāni upasampajja, ",
+      "english": "and enter the absorptions, "
+    },
+    {
+      "number": 87,
+      "pali": "ekodi nipako sato. ",
+      "english": "unified, alert, and mindful. "
+    },
+    {
+      "number": 88,
+      "pali": "Evaṁ ñatvā yathābhūtaṁ, ",
+      "english": "Truly knowing in this way "
+    },
+    {
+      "number": 89,
+      "pali": "sabbasaṁyojanakkhaye; ",
+      "english": "regards the ending of all fetters, "
+    },
+    {
+      "number": 90,
+      "pali": "Sabbaso anupādāya, ",
+      "english": "by not grasping in any way, "
+    },
+    {
+      "number": 91,
+      "pali": "sammā cittaṁ vimuccati. ",
+      "english": "their mind is rightly freed. "
+    },
+    {
+      "number": 92,
+      "pali": "Tassa sammā vimuttassa, ",
+      "english": "To that unaffected one, rightly freed "
+    },
+    {
+      "number": 93,
+      "pali": "ñāṇañce hoti tādino; ",
+      "english": "with the end of the fetters of continued existence, "
+    },
+    {
+      "number": 94,
+      "pali": "‘Akuppā me vimuttī’ti, ",
+      "english": "the knowledge comes: "
+    },
+    {
+      "number": 95,
+      "pali": "bhavasaṁyojanakkhaye. ",
+      "english": "‘My freedom is unshakable.’ "
+    },
+    {
+      "number": 96,
+      "pali": "Etaṁ kho paramaṁ ñāṇaṁ, ",
+      "english": "This is the ultimate knowledge. "
+    },
+    {
+      "number": 97,
+      "pali": "etaṁ sukhamanuttaraṁ; ",
+      "english": "This is the supreme happiness. "
+    },
+    {
+      "number": 98,
+      "pali": "Asokaṁ virajaṁ khemaṁ, ",
+      "english": "Sorrowless, stainless, secure: "
+    },
+    {
+      "number": 99,
+      "pali": "etaṁ ānaṇyamuttaman”ti. ",
+      "english": "this is the highest freedom from debt.” "
+    },
+    {
+      "number": 100,
+      "pali": "Tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

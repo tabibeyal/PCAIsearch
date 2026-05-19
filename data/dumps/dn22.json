@@ -1,0 +1,2275 @@
+{
+  "sutta_id": "DN22",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Dīgha Nikāya 22 ",
+      "english": "Long Discourses 22 "
+    },
+    {
+      "number": 2,
+      "pali": "Mahāsatipaṭṭhānasutta ",
+      "english": "The Longer Discourse on Mindfulness Meditation "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā kurūsu viharati kammāsadhammaṁ nāma kurūnaṁ nigamo. ",
+      "english": "At one time the Buddha was staying in the land of the Kurus, near the Kuru town named Kammāsadamma. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhaddante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Ekāyano ayaṁ, bhikkhave, maggo sattānaṁ visuddhiyā, sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ cattāro satipaṭṭhānā. ",
+      "english": "“Mendicants, the four kinds of mindfulness meditation are the path to convergence. They are in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness, to discover the system, and to realize extinguishment. "
+    },
+    {
+      "number": 10,
+      "pali": "Katame cattāro? ",
+      "english": "What four? "
+    },
+    {
+      "number": 11,
+      "pali": "Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ, ",
+      "english": "It’s when a mendicant meditates by observing an aspect of the body—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 12,
+      "pali": "vedanāsu vedanānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ, ",
+      "english": "They meditate observing an aspect of feelings—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 13,
+      "pali": "citte cittānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ, ",
+      "english": "They meditate observing an aspect of the mind—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 14,
+      "pali": "dhammesu dhammānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ. ",
+      "english": "They meditate observing an aspect of principles—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 15,
+      "pali": "Uddeso niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "1. Kāyānupassanā ",
+      "english": "1. Observing the Body "
+    },
+    {
+      "number": 17,
+      "pali": "1.1. Kāyānupassanāānāpānapabba ",
+      "english": "1.1. Mindfulness of Breathing "
+    },
+    {
+      "number": 18,
+      "pali": "Kathañca pana, bhikkhave, bhikkhu kāye kāyānupassī viharati? ",
+      "english": "And how does a mendicant meditate observing an aspect of the body? "
+    },
+    {
+      "number": 19,
+      "pali": "Idha, bhikkhave, bhikkhu araññagato vā rukkhamūlagato vā suññāgāragato vā nisīdati pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā. ",
+      "english": "It’s when a mendicant—gone to a wilderness, or to the root of a tree, or to an empty hut—sits down cross-legged, sets their body straight, and brings mindfulness to the present. "
+    },
+    {
+      "number": 20,
+      "pali": "So satova assasati, satova passasati. ",
+      "english": "Just mindful, they breathe in. Mindful, they breathe out. "
+    },
+    {
+      "number": 21,
+      "pali": "Dīghaṁ vā assasanto ‘dīghaṁ assasāmī’ti pajānāti, dīghaṁ vā passasanto ‘dīghaṁ passasāmī’ti pajānāti. ",
+      "english": "Breathing in heavily they know: ‘I’m breathing in heavily.’ Breathing out heavily they know: ‘I’m breathing out heavily.’ "
+    },
+    {
+      "number": 22,
+      "pali": "Rassaṁ vā assasanto ‘rassaṁ assasāmī’ti pajānāti, rassaṁ vā passasanto ‘rassaṁ passasāmī’ti pajānāti. ",
+      "english": "When breathing in lightly they know: ‘I’m breathing in lightly.’ Breathing out lightly they know: ‘I’m breathing out lightly.’ "
+    },
+    {
+      "number": 23,
+      "pali": "‘Sabbakāyapaṭisaṁvedī assasissāmī’ti sikkhati, ‘sabbakāyapaṭisaṁvedī passasissāmī’ti sikkhati. ",
+      "english": "They practice like this: ‘I’ll breathe in experiencing the whole body.’ They practice like this: ‘I’ll breathe out experiencing the whole body.’"
+    },
+    {
+      "number": 24,
+      "pali": "‘Passambhayaṁ kāyasaṅkhāraṁ assasissāmī’ti sikkhati, ‘passambhayaṁ kāyasaṅkhāraṁ passasissāmī’ti sikkhati. ",
+      "english": "They practice like this: ‘I’ll breathe in stilling the physical process.’ They practice like this: ‘I’ll breathe out stilling the physical process.’ "
+    },
+    {
+      "number": 25,
+      "pali": "Seyyathāpi, bhikkhave, dakkho bhamakāro vā bhamakārantevāsī vā dīghaṁ vā añchanto ‘dīghaṁ añchāmī’ti pajānāti, rassaṁ vā añchanto ‘rassaṁ añchāmī’ti pajānāti; ",
+      "english": "It’s like a deft carpenter or carpenter’s apprentice. When making a deep cut they know: ‘I’m making a deep cut,’ and when making a shallow cut they know: ‘I’m making a shallow cut.’ "
+    },
+    {
+      "number": 26,
+      "pali": "evameva kho, bhikkhave, bhikkhu dīghaṁ vā assasanto ‘dīghaṁ assasāmī’ti pajānāti, dīghaṁ vā passasanto ‘dīghaṁ passasāmī’ti pajānāti, rassaṁ vā assasanto ‘rassaṁ assasāmī’ti pajānāti, rassaṁ vā passasanto ‘rassaṁ passasāmī’ti pajānāti. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "‘Sabbakāyapaṭisaṁvedī assasissāmī’ti sikkhati, ‘sabbakāyapaṭisaṁvedī passasissāmī’ti sikkhati, ‘passambhayaṁ kāyasaṅkhāraṁ assasissāmī’ti sikkhati, ‘passambhayaṁ kāyasaṅkhāraṁ passasissāmī’ti sikkhati. ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "Iti ajjhattaṁ vā kāye kāyānupassī viharati, bahiddhā vā kāye kāyānupassī viharati, ajjhattabahiddhā vā kāye kāyānupassī viharati. ",
+      "english": "And so they meditate observing an aspect of the body internally, externally, and both internally and externally. "
+    },
+    {
+      "number": 29,
+      "pali": "Samudayadhammānupassī vā kāyasmiṁ viharati, vayadhammānupassī vā kāyasmiṁ viharati, samudayavayadhammānupassī vā kāyasmiṁ viharati. ",
+      "english": "With respect to the body, they meditate observing the liability to originate, to vanish, and to originate and vanish. "
+    },
+    {
+      "number": 30,
+      "pali": "‘Atthi kāyo’ti vā panassa sati paccupaṭṭhitā hoti yāvadeva ñāṇamattāya paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. ",
+      "english": "Or mindfulness is established that the body exists, to the extent necessary for knowledge and mindfulness. They meditate independent, not grasping at anything in the world. "
+    },
+    {
+      "number": 31,
+      "pali": "Evampi kho, bhikkhave, bhikkhu kāye kāyānupassī viharati. ",
+      "english": "That’s how a mendicant meditates by observing an aspect of the body. "
+    },
+    {
+      "number": 32,
+      "pali": "Ānāpānapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "1.2. Kāyānupassanāiriyāpathapabba ",
+      "english": "1.2. The Postures "
+    },
+    {
+      "number": 34,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu gacchanto vā ‘gacchāmī’ti pajānāti, ṭhito vā ‘ṭhitomhī’ti pajānāti, nisinno vā ‘nisinnomhī’ti pajānāti, sayāno vā ‘sayānomhī’ti pajānāti, ",
+      "english": "Furthermore, when a mendicant is walking they know: ‘I am walking.’ When standing they know: ‘I am standing.’ When sitting they know: ‘I am sitting.’ And when lying down they know: ‘I am lying down.’ "
+    },
+    {
+      "number": 35,
+      "pali": "yathā yathā vā panassa kāyo paṇihito hoti tathā tathā naṁ pajānāti. ",
+      "english": "Whatever posture their body is in, they know it. "
+    },
+    {
+      "number": 36,
+      "pali": "Iti ajjhattaṁ vā kāye kāyānupassī viharati, bahiddhā vā kāye kāyānupassī viharati, ajjhattabahiddhā vā kāye kāyānupassī viharati. ",
+      "english": "And so they meditate observing an aspect of the body internally, externally, and both internally and externally. "
+    },
+    {
+      "number": 37,
+      "pali": "Samudayadhammānupassī vā kāyasmiṁ viharati, vayadhammānupassī vā kāyasmiṁ viharati, samudayavayadhammānupassī vā kāyasmiṁ viharati. ",
+      "english": "They meditate observing , with respect to the body, the liability to originate, to vanish, and to originate and vanish. "
+    },
+    {
+      "number": 38,
+      "pali": "‘Atthi kāyo’ti vā panassa sati paccupaṭṭhitā hoti yāvadeva ñāṇamattāya paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. ",
+      "english": "Or mindfulness is established that the body exists, to the extent necessary for knowledge and mindfulness. They meditate independent, not grasping at anything in the world. "
+    },
+    {
+      "number": 39,
+      "pali": "Evampi kho, bhikkhave, bhikkhu kāye kāyānupassī viharati. ",
+      "english": "That too is how a mendicant meditates by observing an aspect of the body. "
+    },
+    {
+      "number": 40,
+      "pali": "Iriyāpathapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "1.3. Kāyānupassanāsampajānapabba ",
+      "english": "1.3. Situational Awareness "
+    },
+    {
+      "number": 42,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu abhikkante paṭikkante sampajānakārī hoti, ālokite vilokite sampajānakārī hoti, samiñjite pasārite sampajānakārī hoti, saṅghāṭipattacīvaradhāraṇe sampajānakārī hoti, asite pīte khāyite sāyite sampajānakārī hoti, uccārapassāvakamme sampajānakārī hoti, gate ṭhite nisinne sutte jāgarite bhāsite tuṇhībhāve sampajānakārī hoti. ",
+      "english": "Furthermore, a mendicant acts with situational awareness when going out and coming back; when looking ahead and aside; when bending and extending the limbs; when bearing the outer robe, bowl, and robes; when eating, drinking, chewing, and tasting; when urinating and defecating; when walking, standing, sitting, sleeping, waking, speaking, and keeping silent. "
+    },
+    {
+      "number": 43,
+      "pali": "Iti ajjhattaṁ vā …pe… ",
+      "english": "And so they meditate observing an aspect of the body internally … "
+    },
+    {
+      "number": 44,
+      "pali": "Evampi kho, bhikkhave, bhikkhu kāye kāyānupassī viharati. ",
+      "english": "That too is how a mendicant meditates by observing an aspect of the body. "
+    },
+    {
+      "number": 45,
+      "pali": "Sampajānapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "1.4. Kāyānupassanāpaṭikūlamanasikārapabba ",
+      "english": "1.4. Focusing on the Repulsive "
+    },
+    {
+      "number": 47,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu imameva kāyaṁ uddhaṁ pādatalā adho kesamatthakā tacapariyantaṁ pūraṁ nānappakārassa asucino paccavekkhati: ",
+      "english": "Furthermore, a mendicant examines their own body, up from the soles of the feet and down from the tips of the hairs, wrapped in skin and full of many kinds of filth. "
+    },
+    {
+      "number": 48,
+      "pali": "‘atthi imasmiṁ kāye kesā lomā nakhā dantā taco, maṁsaṁ nhāru aṭṭhi aṭṭhimiñjaṁ vakkaṁ, hadayaṁ yakanaṁ kilomakaṁ pihakaṁ papphāsaṁ, antaṁ antaguṇaṁ udariyaṁ karīsaṁ, pittaṁ semhaṁ pubbo lohitaṁ sedo medo, assu vasā kheḷo siṅghāṇikā lasikā muttan’ti. ",
+      "english": "‘In this body there is head hair, body hair, nails, teeth, skin, flesh, sinews, bones, bone marrow, kidneys, heart, liver, diaphragm, spleen, lungs, intestines, mesentery, undigested food, feces, bile, phlegm, pus, blood, sweat, fat, tears, grease, saliva, snot, synovial fluid, urine.’ "
+    },
+    {
+      "number": 49,
+      "pali": "Seyyathāpi, bhikkhave, ubhatomukhā putoḷi pūrā nānāvihitassa dhaññassa, seyyathidaṁ—sālīnaṁ vīhīnaṁ muggānaṁ māsānaṁ tilānaṁ taṇḍulānaṁ. Tamenaṁ cakkhumā puriso muñcitvā paccavekkheyya: ‘ime sālī, ime vīhī ime muggā ime māsā ime tilā ime taṇḍulā’ti. ",
+      "english": "It’s as if there were a bag with openings at both ends, filled with various kinds of grains, such as fine rice, wheat, mung beans, peas, sesame, and ordinary rice. And a person with clear eyes were to open it and examine the contents: ‘These grains are fine rice, these are wheat, these are mung beans, these are peas, these are sesame, and these are ordinary rice.’ "
+    },
+    {
+      "number": 50,
+      "pali": "Evameva kho, bhikkhave, bhikkhu imameva kāyaṁ uddhaṁ pādatalā adho kesamatthakā tacapariyantaṁ pūraṁ nānappakārassa asucino paccavekkhati: ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "‘atthi imasmiṁ kāye kesā lomā …pe… muttan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Iti ajjhattaṁ vā …pe… ",
+      "english": "And so they meditate observing an aspect of the body internally … "
+    },
+    {
+      "number": 53,
+      "pali": "Evampi kho, bhikkhave, bhikkhu kāye kāyānupassī viharati. ",
+      "english": "That too is how a mendicant meditates by observing an aspect of the body. "
+    },
+    {
+      "number": 54,
+      "pali": "Paṭikūlamanasikārapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "1.5. Kāyānupassanādhātumanasikārapabba ",
+      "english": "1.5. Focusing on the Elements "
+    },
+    {
+      "number": 56,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu imameva kāyaṁ yathāṭhitaṁ yathāpaṇihitaṁ dhātuso paccavekkhati: ",
+      "english": "Furthermore, a mendicant examines their own body, whatever its placement or posture, according to the elements: "
+    },
+    {
+      "number": 57,
+      "pali": "‘atthi imasmiṁ kāye pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti. ",
+      "english": "‘In this body there is the earth element, the water element, the fire element, and the air element.’ "
+    },
+    {
+      "number": 58,
+      "pali": "Seyyathāpi, bhikkhave, dakkho goghātako vā goghātakantevāsī vā gāviṁ vadhitvā catumahāpathe bilaso vibhajitvā nisinno assa; ",
+      "english": "It’s as if a deft butcher or butcher’s apprentice were to kill a cow and sit down at the crossroads with the meat cut into chops. "
+    },
+    {
+      "number": 59,
+      "pali": "evameva kho, bhikkhave, bhikkhu imameva kāyaṁ yathāṭhitaṁ yathāpaṇihitaṁ dhātuso paccavekkhati: ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "‘atthi imasmiṁ kāye pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti. ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "Iti ajjhattaṁ vā kāye kāyānupassī viharati …pe… ",
+      "english": "And so they meditate observing an aspect of the body internally … "
+    },
+    {
+      "number": 62,
+      "pali": "Evampi kho, bhikkhave, bhikkhu kāye kāyānupassī viharati. ",
+      "english": "That too is how a mendicant meditates by observing an aspect of the body. "
+    },
+    {
+      "number": 63,
+      "pali": "Dhātumanasikārapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "1.6. Kāyānupassanānavasivathikapabba ",
+      "english": "1.6. The Charnel Ground Contemplations "
+    },
+    {
+      "number": 65,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu seyyathāpi passeyya sarīraṁ sivathikāya chaḍḍitaṁ ekāhamataṁ vā dvīhamataṁ vā tīhamataṁ vā uddhumātakaṁ vinīlakaṁ vipubbakajātaṁ. ",
+      "english": "Furthermore, suppose a mendicant were to see a corpse discarded in a charnel ground. And it had been dead for one, two, or three days, bloated, livid, and festering. "
+    },
+    {
+      "number": 66,
+      "pali": "So imameva kāyaṁ upasaṁharati: ",
+      "english": "They’d compare it with their own body: "
+    },
+    {
+      "number": 67,
+      "pali": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. ",
+      "english": "‘This body is also of that same nature, that same kind, and cannot go beyond that.’ "
+    },
+    {
+      "number": 68,
+      "pali": "Iti ajjhattaṁ vā …pe… ",
+      "english": "And so they meditate observing an aspect of the body internally … "
+    },
+    {
+      "number": 69,
+      "pali": "Evampi kho, bhikkhave, bhikkhu kāye kāyānupassī viharati. ",
+      "english": "That too is how a mendicant meditates by observing an aspect of the body. "
+    },
+    {
+      "number": 70,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu seyyathāpi passeyya sarīraṁ sivathikāya chaḍḍitaṁ kākehi vā khajjamānaṁ kulalehi vā khajjamānaṁ gijjhehi vā khajjamānaṁ kaṅkehi vā khajjamānaṁ sunakhehi vā khajjamānaṁ byagghehi vā khajjamānaṁ dīpīhi vā khajjamānaṁ siṅgālehi vā khajjamānaṁ vividhehi vā pāṇakajātehi khajjamānaṁ. ",
+      "english": "Furthermore, suppose they were to see a corpse discarded in a charnel ground being devoured by crows, hawks, vultures, herons, hounds, tigers, leopards, jackals, and many kinds of little creatures. "
+    },
+    {
+      "number": 71,
+      "pali": "So imameva kāyaṁ upasaṁharati: ",
+      "english": "They’d compare it with their own body: "
+    },
+    {
+      "number": 72,
+      "pali": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. ",
+      "english": "‘This body is also of that same nature, that same kind, and cannot go beyond that.’ "
+    },
+    {
+      "number": 73,
+      "pali": "Iti ajjhattaṁ vā …pe… ",
+      "english": "And so they meditate observing an aspect of the body internally … "
+    },
+    {
+      "number": 74,
+      "pali": "Evampi kho, bhikkhave, bhikkhu kāye kāyānupassī viharati. ",
+      "english": "That too is how a mendicant meditates by observing an aspect of the body. "
+    },
+    {
+      "number": 75,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu seyyathāpi passeyya sarīraṁ sivathikāya chaḍḍitaṁ aṭṭhikasaṅkhalikaṁ samaṁsalohitaṁ nhārusambandhaṁ …pe… ",
+      "english": "Furthermore, suppose they were to see a corpse discarded in a charnel ground, a skeleton with flesh and blood, held together by sinews … "
+    },
+    {
+      "number": 76,
+      "pali": "Aṭṭhikasaṅkhalikaṁ nimaṁsalohitamakkhitaṁ nhārusambandhaṁ …pe… ",
+      "english": "A skeleton without flesh but smeared with blood, and held together by sinews … "
+    },
+    {
+      "number": 77,
+      "pali": "Aṭṭhikasaṅkhalikaṁ apagatamaṁsalohitaṁ nhārusambandhaṁ …pe… ",
+      "english": "A skeleton rid of flesh and blood, held together by sinews … "
+    },
+    {
+      "number": 78,
+      "pali": "Aṭṭhikāni apagatasambandhāni disā vidisā vikkhittāni, aññena hatthaṭṭhikaṁ aññena pādaṭṭhikaṁ aññena gopphakaṭṭhikaṁ aññena jaṅghaṭṭhikaṁ aññena ūruṭṭhikaṁ aññena kaṭiṭṭhikaṁ aññena phāsukaṭṭhikaṁ aññena piṭṭhiṭṭhikaṁ aññena khandhaṭṭhikaṁ aññena gīvaṭṭhikaṁ aññena hanukaṭṭhikaṁ aññena dantaṭṭhikaṁ aññena sīsakaṭāhaṁ. ",
+      "english": "Bones rid of sinews, scattered in every direction. Here a hand-bone, there a foot-bone, here an ankle bone, there a shin-bone, here a thigh-bone, there a hip-bone, here a rib-bone, there a back-bone, here an arm-bone, there a neck-bone, here a jaw-bone, there a tooth, here the skull. … "
+    },
+    {
+      "number": 79,
+      "pali": "So imameva kāyaṁ upasaṁharati: ",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "Iti ajjhattaṁ vā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "viharati. ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu seyyathāpi passeyya sarīraṁ sivathikāya chaḍḍitaṁ aṭṭhikāni setāni saṅkhavaṇṇapaṭibhāgāni …pe… ",
+      "english": "White bones, the color of shells … "
+    },
+    {
+      "number": 84,
+      "pali": "Aṭṭhikāni puñjakitāni terovassikāni …pe… ",
+      "english": "Decrepit bones, heaped in a pile … "
+    },
+    {
+      "number": 85,
+      "pali": "Aṭṭhikāni pūtīni cuṇṇakajātāni. ",
+      "english": "Bones rotted and crumbled to powder. "
+    },
+    {
+      "number": 86,
+      "pali": "So imameva kāyaṁ upasaṁharati: ",
+      "english": "They’d compare it with their own body: "
+    },
+    {
+      "number": 87,
+      "pali": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. ",
+      "english": "‘This body is also of that same nature, that same kind, and cannot go beyond that.’ "
+    },
+    {
+      "number": 88,
+      "pali": "Iti ajjhattaṁ vā kāye kāyānupassī viharati, bahiddhā vā kāye kāyānupassī viharati, ajjhattabahiddhā vā kāye kāyānupassī viharati. ",
+      "english": "And so they meditate observing an aspect of the body internally, externally, and both internally and externally. "
+    },
+    {
+      "number": 89,
+      "pali": "Samudayadhammānupassī vā kāyasmiṁ viharati, vayadhammānupassī vā kāyasmiṁ viharati, samudayavayadhammānupassī vā kāyasmiṁ viharati. ",
+      "english": "With respect to the body, they meditate observing the liability to originate, to vanish, and to originate and vanish. "
+    },
+    {
+      "number": 90,
+      "pali": "‘Atthi kāyo’ti vā panassa sati paccupaṭṭhitā hoti yāvadeva ñāṇamattāya paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. ",
+      "english": "Or mindfulness is established that the body exists, to the extent necessary for knowledge and mindfulness. They meditate independent, not grasping at anything in the world. "
+    },
+    {
+      "number": 91,
+      "pali": "Evampi kho, bhikkhave, bhikkhu kāye kāyānupassī viharati. ",
+      "english": "That too is how a mendicant meditates by observing an aspect of the body. "
+    },
+    {
+      "number": 92,
+      "pali": "Navasivathikapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "Cuddasa kāyānupassanā niṭṭhitā. ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "2. Vedanānupassanā ",
+      "english": "2. Observing the Feelings "
+    },
+    {
+      "number": 95,
+      "pali": "Kathañca pana, bhikkhave, bhikkhu vedanāsu vedanānupassī viharati? ",
+      "english": "And how does a mendicant meditate observing an aspect of feelings? "
+    },
+    {
+      "number": 96,
+      "pali": "Idha, bhikkhave, bhikkhu sukhaṁ vā vedanaṁ vedayamāno ‘sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+      "english": "It’s when a mendicant who feels a pleasant feeling knows: ‘I feel a pleasant feeling.’ "
+    },
+    {
+      "number": 97,
+      "pali": "Dukkhaṁ vā vedanaṁ vedayamāno ‘dukkhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+      "english": "When they feel a painful feeling, they know: ‘I feel a painful feeling.’ "
+    },
+    {
+      "number": 98,
+      "pali": "Adukkhamasukhaṁ vā vedanaṁ vedayamāno ‘adukkhamasukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+      "english": "When they feel a neutral feeling, they know: ‘I feel a neutral feeling.’ "
+    },
+    {
+      "number": 99,
+      "pali": "Sāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘sāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+      "english": "When they feel a pleasant feeling of the flesh, they know: ‘I feel a pleasant feeling of the flesh.’ "
+    },
+    {
+      "number": 100,
+      "pali": "Nirāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘nirāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+      "english": "When they feel a pleasant feeling not of the flesh, they know: ‘I feel a pleasant feeling not of the flesh.’ "
+    },
+    {
+      "number": 101,
+      "pali": "Sāmisaṁ vā dukkhaṁ vedanaṁ vedayamāno ‘sāmisaṁ dukkhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+      "english": "When they feel a painful feeling of the flesh, they know: ‘I feel a painful feeling of the flesh.’ "
+    },
+    {
+      "number": 102,
+      "pali": "Nirāmisaṁ vā dukkhaṁ vedanaṁ vedayamāno ‘nirāmisaṁ dukkhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+      "english": "When they feel a painful feeling not of the flesh, they know: ‘I feel a painful feeling not of the flesh.’ "
+    },
+    {
+      "number": 103,
+      "pali": "Sāmisaṁ vā adukkhamasukhaṁ vedanaṁ vedayamāno ‘sāmisaṁ adukkhamasukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+      "english": "When they feel a neutral feeling of the flesh, they know: ‘I feel a neutral feeling of the flesh.’ "
+    },
+    {
+      "number": 104,
+      "pali": "Nirāmisaṁ vā adukkhamasukhaṁ vedanaṁ vedayamāno ‘nirāmisaṁ adukkhamasukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+      "english": "When they feel a neutral feeling not of the flesh, they know: ‘I feel a neutral feeling not of the flesh.’ "
+    },
+    {
+      "number": 105,
+      "pali": "Iti ajjhattaṁ vā vedanāsu vedanānupassī viharati, bahiddhā vā vedanāsu vedanānupassī viharati, ajjhattabahiddhā vā vedanāsu vedanānupassī viharati. ",
+      "english": "And so they meditate observing an aspect of feelings internally, externally, and both internally and externally. "
+    },
+    {
+      "number": 106,
+      "pali": "Samudayadhammānupassī vā vedanāsu viharati, vayadhammānupassī vā vedanāsu viharati, samudayavayadhammānupassī vā vedanāsu viharati. ",
+      "english": "With respect to feelings, they meditate observing the liability to originate, to vanish, and to originate and vanish. "
+    },
+    {
+      "number": 107,
+      "pali": "‘Atthi vedanā’ti vā panassa sati paccupaṭṭhitā hoti yāvadeva ñāṇamattāya paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. ",
+      "english": "Or mindfulness is established that feelings exist, to the extent necessary for knowledge and mindfulness. They meditate independent, not grasping at anything in the world. "
+    },
+    {
+      "number": 108,
+      "pali": "Evampi kho, bhikkhave, bhikkhu vedanāsu vedanānupassī viharati. ",
+      "english": "That’s how a mendicant meditates by observing an aspect of feelings. "
+    },
+    {
+      "number": 109,
+      "pali": "Vedanānupassanā niṭṭhitā. ",
+      "english": ""
+    },
+    {
+      "number": 110,
+      "pali": "3. Cittānupassanā ",
+      "english": "3. Observing the Mind "
+    },
+    {
+      "number": 111,
+      "pali": "Kathañca pana, bhikkhave, bhikkhu citte cittānupassī viharati? ",
+      "english": "And how does a mendicant meditate observing an aspect of the mind? "
+    },
+    {
+      "number": 112,
+      "pali": "Idha, bhikkhave, bhikkhu sarāgaṁ vā cittaṁ ‘sarāgaṁ cittan’ti pajānāti. ",
+      "english": "It’s when a mendicant understands mind with greed as ‘mind with greed,’ "
+    },
+    {
+      "number": 113,
+      "pali": "Vītarāgaṁ vā cittaṁ ‘vītarāgaṁ cittan’ti pajānāti. ",
+      "english": "and mind without greed as ‘mind without greed.’ "
+    },
+    {
+      "number": 114,
+      "pali": "Sadosaṁ vā cittaṁ ‘sadosaṁ cittan’ti pajānāti. ",
+      "english": "They understand mind with hate as ‘mind with hate,’ "
+    },
+    {
+      "number": 115,
+      "pali": "Vītadosaṁ vā cittaṁ ‘vītadosaṁ cittan’ti pajānāti. ",
+      "english": "and mind without hate as ‘mind without hate.’ "
+    },
+    {
+      "number": 116,
+      "pali": "Samohaṁ vā cittaṁ ‘samohaṁ cittan’ti pajānāti. ",
+      "english": "They understand mind with delusion as ‘mind with delusion,’ "
+    },
+    {
+      "number": 117,
+      "pali": "Vītamohaṁ vā cittaṁ ‘vītamohaṁ cittan’ti pajānāti. ",
+      "english": "and mind without delusion as ‘mind without delusion.’ "
+    },
+    {
+      "number": 118,
+      "pali": "Saṅkhittaṁ vā cittaṁ ‘saṅkhittaṁ cittan’ti pajānāti. ",
+      "english": "They know constricted mind as ‘constricted mind,’ "
+    },
+    {
+      "number": 119,
+      "pali": "Vikkhittaṁ vā cittaṁ ‘vikkhittaṁ cittan’ti pajānāti. ",
+      "english": "and scattered mind as ‘scattered mind.’ "
+    },
+    {
+      "number": 120,
+      "pali": "Mahaggataṁ vā cittaṁ ‘mahaggataṁ cittan’ti pajānāti. ",
+      "english": "They know expansive mind as ‘expansive mind,’ "
+    },
+    {
+      "number": 121,
+      "pali": "Amahaggataṁ vā cittaṁ ‘amahaggataṁ cittan’ti pajānāti. ",
+      "english": "and unexpansive mind as ‘unexpansive mind.’ "
+    },
+    {
+      "number": 122,
+      "pali": "Sauttaraṁ vā cittaṁ ‘sauttaraṁ cittan’ti pajānāti. ",
+      "english": "They know mind that is not supreme as ‘mind that is not supreme,’ "
+    },
+    {
+      "number": 123,
+      "pali": "Anuttaraṁ vā cittaṁ ‘anuttaraṁ cittan’ti pajānāti. ",
+      "english": "and mind that is supreme as ‘mind that is supreme.’ "
+    },
+    {
+      "number": 124,
+      "pali": "Samāhitaṁ vā cittaṁ ‘samāhitaṁ cittan’ti pajānāti. ",
+      "english": "They know mind immersed in samādhi as ‘mind immersed in samādhi,’ "
+    },
+    {
+      "number": 125,
+      "pali": "Asamāhitaṁ vā cittaṁ ‘asamāhitaṁ cittan’ti pajānāti. ",
+      "english": "and mind not immersed in samādhi as ‘mind not immersed in samādhi.’ "
+    },
+    {
+      "number": 126,
+      "pali": "Vimuttaṁ vā cittaṁ ‘vimuttaṁ cittan’ti pajānāti. ",
+      "english": "They know freed mind as ‘freed mind,’ "
+    },
+    {
+      "number": 127,
+      "pali": "Avimuttaṁ vā cittaṁ ‘avimuttaṁ cittan’ti pajānāti. ",
+      "english": "and unfreed mind as ‘unfreed mind.’ "
+    },
+    {
+      "number": 128,
+      "pali": "Iti ajjhattaṁ vā citte cittānupassī viharati, bahiddhā vā citte cittānupassī viharati, ajjhattabahiddhā vā citte cittānupassī viharati. ",
+      "english": "And so they meditate observing an aspect of the mind internally, externally, and both internally and externally. "
+    },
+    {
+      "number": 129,
+      "pali": "Samudayadhammānupassī vā cittasmiṁ viharati, vayadhammānupassī vā cittasmiṁ viharati, samudayavayadhammānupassī vā cittasmiṁ viharati. ",
+      "english": "With respect to the mind, they meditate observing the liability to originate, to vanish, and to originate and vanish. "
+    },
+    {
+      "number": 130,
+      "pali": "‘Atthi cittan’ti vā panassa sati paccupaṭṭhitā hoti yāvadeva ñāṇamattāya paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. ",
+      "english": "Or mindfulness is established that the mind exists, to the extent necessary for knowledge and mindfulness. They meditate independent, not grasping at anything in the world. "
+    },
+    {
+      "number": 131,
+      "pali": "Evampi kho, bhikkhave, bhikkhu citte cittānupassī viharati. ",
+      "english": "That’s how a mendicant meditates by observing an aspect of the mind. "
+    },
+    {
+      "number": 132,
+      "pali": "Cittānupassanā niṭṭhitā. ",
+      "english": ""
+    },
+    {
+      "number": 133,
+      "pali": "4. Dhammānupassanā ",
+      "english": "4. Observing Principles "
+    },
+    {
+      "number": 134,
+      "pali": "4.1. Dhammānupassanānīvaraṇapabba ",
+      "english": "4.1. The Hindrances "
+    },
+    {
+      "number": 135,
+      "pali": "Kathañca pana, bhikkhave, bhikkhu dhammesu dhammānupassī viharati? ",
+      "english": "And how does a mendicant meditate observing an aspect of principles? "
+    },
+    {
+      "number": 136,
+      "pali": "Idha, bhikkhave, bhikkhu dhammesu dhammānupassī viharati pañcasu nīvaraṇesu. ",
+      "english": "It’s when a mendicant meditates by observing an aspect of principles with respect to the five hindrances. "
+    },
+    {
+      "number": 137,
+      "pali": "Kathañca pana, bhikkhave, bhikkhu dhammesu dhammānupassī viharati pañcasu nīvaraṇesu? ",
+      "english": "And how does a mendicant meditate observing an aspect of principles with respect to the five hindrances? "
+    },
+    {
+      "number": 138,
+      "pali": "Idha, bhikkhave, bhikkhu santaṁ vā ajjhattaṁ kāmacchandaṁ ‘atthi me ajjhattaṁ kāmacchando’ti pajānāti, asantaṁ vā ajjhattaṁ kāmacchandaṁ ‘natthi me ajjhattaṁ kāmacchando’ti pajānāti, yathā ca anuppannassa kāmacchandassa uppādo hoti tañca pajānāti, yathā ca uppannassa kāmacchandassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa kāmacchandassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "It’s when a mendicant who has sensual desire in them understands: ‘I have sensual desire in me.’ When they don’t have sensual desire in them, they understand: ‘I don’t have sensual desire in me.’ They understand how sensual desire arises; how, when it’s already arisen, it’s given up; and how, once it’s given up, it doesn’t arise again in the future. "
+    },
+    {
+      "number": 139,
+      "pali": "Santaṁ vā ajjhattaṁ byāpādaṁ ‘atthi me ajjhattaṁ byāpādo’ti pajānāti, asantaṁ vā ajjhattaṁ byāpādaṁ ‘natthi me ajjhattaṁ byāpādo’ti pajānāti, yathā ca anuppannassa byāpādassa uppādo hoti tañca pajānāti, yathā ca uppannassa byāpādassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa byāpādassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "When they have ill will in them, they understand: ‘I have ill will in me.’ When they don’t have ill will in them, they understand: ‘I don’t have ill will in me.’ They understand how ill will arises; how, when it’s already arisen, it’s given up; and how, once it’s given up, it doesn’t arise again in the future. "
+    },
+    {
+      "number": 140,
+      "pali": "Santaṁ vā ajjhattaṁ thinamiddhaṁ ‘atthi me ajjhattaṁ thinamiddhan’ti pajānāti, asantaṁ vā ajjhattaṁ thinamiddhaṁ ‘natthi me ajjhattaṁ thinamiddhan’ti pajānāti, yathā ca anuppannassa thinamiddhassa uppādo hoti tañca pajānāti, yathā ca uppannassa thinamiddhassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa thinamiddhassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "When they have dullness and drowsiness in them, they understand: ‘I have dullness and drowsiness in me.’ When they don’t have dullness and drowsiness in them, they understand: ‘I don’t have dullness and drowsiness in me.’ They understand how dullness and drowsiness arise; how, when they’ve already arisen, they’re given up; and how, once they’re given up, they don’t arise again in the future. "
+    },
+    {
+      "number": 141,
+      "pali": "Santaṁ vā ajjhattaṁ uddhaccakukkuccaṁ ‘atthi me ajjhattaṁ uddhaccakukkuccan’ti pajānāti, asantaṁ vā ajjhattaṁ uddhaccakukkuccaṁ ‘natthi me ajjhattaṁ uddhaccakukkuccan’ti pajānāti, yathā ca anuppannassa uddhaccakukkuccassa uppādo hoti tañca pajānāti, yathā ca uppannassa uddhaccakukkuccassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa uddhaccakukkuccassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "When they have restlessness and remorse in them, they understand: ‘I have restlessness and remorse in me.’ When they don’t have restlessness and remorse in them, they understand: ‘I don’t have restlessness and remorse in me.’ They understand how restlessness and remorse arise; how, when they’ve already arisen, they’re given up; and how, once they’re given up, they don’t arise again in the future. "
+    },
+    {
+      "number": 142,
+      "pali": "Santaṁ vā ajjhattaṁ vicikicchaṁ ‘atthi me ajjhattaṁ vicikicchā’ti pajānāti, asantaṁ vā ajjhattaṁ vicikicchaṁ ‘natthi me ajjhattaṁ vicikicchā’ti pajānāti, yathā ca anuppannāya vicikicchāya uppādo hoti tañca pajānāti, yathā ca uppannāya vicikicchāya pahānaṁ hoti tañca pajānāti, yathā ca pahīnāya vicikicchāya āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "When they have doubt in them, they understand: ‘I have doubt in me.’ When they don’t have doubt in them, they understand: ‘I don’t have doubt in me.’ They understand how doubt arises; how, when it’s already arisen, it’s given up; and how, once it’s given up, it doesn’t arise again in the future. "
+    },
+    {
+      "number": 143,
+      "pali": "Iti ajjhattaṁ vā dhammesu dhammānupassī viharati, bahiddhā vā dhammesu dhammānupassī viharati, ajjhattabahiddhā vā dhammesu dhammānupassī viharati. ",
+      "english": "And so they meditate observing an aspect of principles internally, externally, and both internally and externally. "
+    },
+    {
+      "number": 144,
+      "pali": "Samudayadhammānupassī vā dhammesu viharati, vayadhammānupassī vā dhammesu viharati, samudayavayadhammānupassī vā dhammesu viharati. ",
+      "english": "They meditate observing the principles as liable to originate, as liable to fall, and as liable to both originate and vanish. "
+    },
+    {
+      "number": 145,
+      "pali": "‘Atthi dhammā’ti vā panassa sati paccupaṭṭhitā hoti yāvadeva ñāṇamattāya paṭissatimattāya, anissito ca viharati, na ca kiñci loke upādiyati. ",
+      "english": "Or mindfulness is established that principles exist, to the extent necessary for knowledge and mindfulness. They meditate independent, not grasping at anything in the world. "
+    },
+    {
+      "number": 146,
+      "pali": "Evampi kho, bhikkhave, bhikkhu dhammesu dhammānupassī viharati pañcasu nīvaraṇesu. ",
+      "english": "That’s how a mendicant meditates by observing an aspect of principles with respect to the five hindrances. "
+    },
+    {
+      "number": 147,
+      "pali": "Nīvaraṇapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 148,
+      "pali": "4.2. Dhammānupassanākhandhapabba ",
+      "english": "4.2. The Aggregates "
+    },
+    {
+      "number": 149,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu dhammesu dhammānupassī viharati pañcasu upādānakkhandhesu. ",
+      "english": "Furthermore, a mendicant meditates by observing an aspect of principles with respect to the five grasping aggregates. "
+    },
+    {
+      "number": 150,
+      "pali": "Kathañca pana, bhikkhave, bhikkhu dhammesu dhammānupassī viharati pañcasu upādānakkhandhesu? ",
+      "english": "And how does a mendicant meditate observing an aspect of principles with respect to the five grasping aggregates? "
+    },
+    {
+      "number": 151,
+      "pali": "Idha, bhikkhave, bhikkhu: ",
+      "english": "It’s when a mendicant contemplates: "
+    },
+    {
+      "number": 152,
+      "pali": "‘iti rūpaṁ, iti rūpassa samudayo, iti rūpassa atthaṅgamo; ",
+      "english": "Such is form, such is the origin of form, such is the ending of form. "
+    },
+    {
+      "number": 153,
+      "pali": "iti vedanā, iti vedanāya samudayo, iti vedanāya atthaṅgamo; ",
+      "english": "Such is feeling, such is the origin of feeling, such is the ending of feeling. "
+    },
+    {
+      "number": 154,
+      "pali": "iti saññā, iti saññāya samudayo, iti saññāya atthaṅgamo; ",
+      "english": "Such is perception, such is the origin of perception, such is the ending of perception. "
+    },
+    {
+      "number": 155,
+      "pali": "iti saṅkhārā, iti saṅkhārānaṁ samudayo, iti saṅkhārānaṁ atthaṅgamo, ",
+      "english": "Such are choices, such is the origin of choices, such is the ending of choices. "
+    },
+    {
+      "number": 156,
+      "pali": "iti viññāṇaṁ, iti viññāṇassa samudayo, iti viññāṇassa atthaṅgamo’ti, ",
+      "english": "Such is consciousness, such is the origin of consciousness, such is the ending of consciousness.’ "
+    },
+    {
+      "number": 157,
+      "pali": "iti ajjhattaṁ vā dhammesu dhammānupassī viharati, bahiddhā vā dhammesu dhammānupassī viharati, ajjhattabahiddhā vā dhammesu dhammānupassī viharati. ",
+      "english": "And so they meditate observing an aspect of principles internally … "
+    },
+    {
+      "number": 158,
+      "pali": "Samudayadhammānupassī vā dhammesu viharati, vayadhammānupassī vā dhammesu viharati, samudayavayadhammānupassī vā dhammesu viharati. ",
+      "english": ""
+    },
+    {
+      "number": 159,
+      "pali": "‘Atthi dhammā’ti vā panassa sati paccupaṭṭhitā hoti yāvadeva ñāṇamattāya paṭissatimattāya, anissito ca viharati, na ca kiñci loke upādiyati. ",
+      "english": ""
+    },
+    {
+      "number": 160,
+      "pali": "Evampi kho, bhikkhave, bhikkhu dhammesu dhammānupassī viharati pañcasu upādānakkhandhesu. ",
+      "english": "That’s how a mendicant meditates by observing an aspect of principles with respect to the five grasping aggregates. "
+    },
+    {
+      "number": 161,
+      "pali": "Khandhapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 162,
+      "pali": "4.3. Dhammānupassanāāyatanapabba ",
+      "english": "4.3. The Sense Fields "
+    },
+    {
+      "number": 163,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu dhammesu dhammānupassī viharati chasu ajjhattikabāhiresu āyatanesu. ",
+      "english": "Furthermore, a mendicant meditates by observing an aspect of principles with respect to the six interior and exterior sense fields. "
+    },
+    {
+      "number": 164,
+      "pali": "Kathañca pana, bhikkhave, bhikkhu dhammesu dhammānupassī viharati chasu ajjhattikabāhiresu āyatanesu? ",
+      "english": "And how does a mendicant meditate observing an aspect of principles with respect to the six interior and exterior sense fields? "
+    },
+    {
+      "number": 165,
+      "pali": "Idha, bhikkhave, bhikkhu cakkhuñca pajānāti, rūpe ca pajānāti, yañca tadubhayaṁ paṭicca uppajjati saṁyojanaṁ tañca pajānāti, yathā ca anuppannassa saṁyojanassa uppādo hoti tañca pajānāti, yathā ca uppannassa saṁyojanassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa saṁyojanassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "It’s when a mendicant understands the eye, sights, and the fetter that arises dependent on both of these. They understand how the fetter that has not arisen comes to arise; how the arisen fetter comes to be abandoned; and how the abandoned fetter comes to not rise again in the future. "
+    },
+    {
+      "number": 166,
+      "pali": "Sotañca pajānāti, sadde ca pajānāti, yañca tadubhayaṁ paṭicca uppajjati saṁyojanaṁ tañca pajānāti, yathā ca anuppannassa saṁyojanassa uppādo hoti tañca pajānāti, yathā ca uppannassa saṁyojanassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa saṁyojanassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "They understand the ear, sounds, and the fetter … "
+    },
+    {
+      "number": 167,
+      "pali": "Ghānañca pajānāti, gandhe ca pajānāti, yañca tadubhayaṁ paṭicca uppajjati saṁyojanaṁ tañca pajānāti, yathā ca anuppannassa saṁyojanassa uppādo hoti tañca pajānāti, yathā ca uppannassa saṁyojanassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa saṁyojanassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "They understand the nose, smells, and the fetter … "
+    },
+    {
+      "number": 168,
+      "pali": "Jivhañca pajānāti, rase ca pajānāti, yañca tadubhayaṁ paṭicca uppajjati saṁyojanaṁ tañca pajānāti, yathā ca anuppannassa saṁyojanassa uppādo hoti tañca pajānāti, yathā ca uppannassa saṁyojanassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa saṁyojanassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "They understand the tongue, tastes, and the fetter … "
+    },
+    {
+      "number": 169,
+      "pali": "Kāyañca pajānāti, phoṭṭhabbe ca pajānāti, yañca tadubhayaṁ paṭicca uppajjati saṁyojanaṁ tañca pajānāti, yathā ca anuppannassa saṁyojanassa uppādo hoti tañca pajānāti, yathā ca uppannassa saṁyojanassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa saṁyojanassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "They understand the body, touches, and the fetter … "
+    },
+    {
+      "number": 170,
+      "pali": "Manañca pajānāti, dhamme ca pajānāti, yañca tadubhayaṁ paṭicca uppajjati saṁyojanaṁ tañca pajānāti, yathā ca anuppannassa saṁyojanassa uppādo hoti tañca pajānāti, yathā ca uppannassa saṁyojanassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa saṁyojanassa āyatiṁ anuppādo hoti tañca pajānāti. ",
+      "english": "They understand the mind, ideas, and the fetter that arises dependent on both of these. They understand how the fetter that has not arisen comes to arise; how the arisen fetter comes to be abandoned; and how the abandoned fetter comes to not rise again in the future. "
+    },
+    {
+      "number": 171,
+      "pali": "Iti ajjhattaṁ vā dhammesu dhammānupassī viharati, bahiddhā vā dhammesu dhammānupassī viharati, ajjhattabahiddhā vā dhammesu dhammānupassī viharati. ",
+      "english": "And so they meditate observing an aspect of principles internally … "
+    },
+    {
+      "number": 172,
+      "pali": "Samudayadhammānupassī vā dhammesu viharati, vayadhammānupassī vā dhammesu viharati, samudayavayadhammānupassī vā dhammesu viharati. ",
+      "english": ""
+    },
+    {
+      "number": 173,
+      "pali": "‘Atthi dhammā’ti vā panassa sati paccupaṭṭhitā hoti yāvadeva ñāṇamattāya paṭissatimattāya, anissito ca viharati, na ca kiñci loke upādiyati. ",
+      "english": ""
+    },
+    {
+      "number": 174,
+      "pali": "Evampi kho, bhikkhave, bhikkhu dhammesu dhammānupassī viharati chasu ajjhattikabāhiresu āyatanesu. ",
+      "english": "That’s how a mendicant meditates by observing an aspect of principles with respect to the six interior and exterior sense fields. "
+    },
+    {
+      "number": 175,
+      "pali": "Āyatanapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 176,
+      "pali": "4.4. Dhammānupassanābojjhaṅgapabba ",
+      "english": "4.4. The Awakening Factors "
+    },
+    {
+      "number": 177,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu dhammesu dhammānupassī viharati sattasu bojjhaṅgesu. ",
+      "english": "Furthermore, a mendicant meditates by observing an aspect of principles with respect to the seven awakening factors. "
+    },
+    {
+      "number": 178,
+      "pali": "Kathañca pana, bhikkhave, bhikkhu dhammesu dhammānupassī viharati sattasu bojjhaṅgesu? ",
+      "english": "And how does a mendicant meditate observing an aspect of principles with respect to the seven awakening factors? "
+    },
+    {
+      "number": 179,
+      "pali": "Idha, bhikkhave, bhikkhu santaṁ vā ajjhattaṁ satisambojjhaṅgaṁ ‘atthi me ajjhattaṁ satisambojjhaṅgo’ti pajānāti, asantaṁ vā ajjhattaṁ satisambojjhaṅgaṁ ‘natthi me ajjhattaṁ satisambojjhaṅgo’ti pajānāti, yathā ca anuppannassa satisambojjhaṅgassa uppādo hoti tañca pajānāti, yathā ca uppannassa satisambojjhaṅgassa bhāvanāya pāripūrī hoti tañca pajānāti. ",
+      "english": "It’s when a mendicant who has the awakening factor of mindfulness in them understands: ‘I have the awakening factor of mindfulness in me.’ When they don’t have the awakening factor of mindfulness in them, they understand: ‘I don’t have the awakening factor of mindfulness in me.’ They understand how the awakening factor of mindfulness that has not arisen comes to arise; and how the awakening factor of mindfulness that has arisen becomes fulfilled by development. "
+    },
+    {
+      "number": 180,
+      "pali": "Santaṁ vā ajjhattaṁ dhammavicayasambojjhaṅgaṁ ‘atthi me ajjhattaṁ dhammavicayasambojjhaṅgo’ti pajānāti, asantaṁ vā ajjhattaṁ dhammavicayasambojjhaṅgaṁ ‘natthi me ajjhattaṁ dhammavicayasambojjhaṅgo’ti pajānāti, yathā ca anuppannassa dhammavicayasambojjhaṅgassa uppādo hoti tañca pajānāti, yathā ca uppannassa dhammavicayasambojjhaṅgassa bhāvanāya pāripūrī hoti tañca pajānāti. ",
+      "english": "When they have the awakening factor of investigation of principles … "
+    },
+    {
+      "number": 181,
+      "pali": "Santaṁ vā ajjhattaṁ vīriyasambojjhaṅgaṁ ‘atthi me ajjhattaṁ vīriyasambojjhaṅgo’ti pajānāti, asantaṁ vā ajjhattaṁ vīriyasambojjhaṅgaṁ ‘natthi me ajjhattaṁ vīriyasambojjhaṅgo’ti pajānāti, yathā ca anuppannassa vīriyasambojjhaṅgassa uppādo hoti tañca pajānāti, yathā ca uppannassa vīriyasambojjhaṅgassa bhāvanāya pāripūrī hoti tañca pajānāti. ",
+      "english": "energy … "
+    },
+    {
+      "number": 182,
+      "pali": "Santaṁ vā ajjhattaṁ pītisambojjhaṅgaṁ ‘atthi me ajjhattaṁ pītisambojjhaṅgo’ti pajānāti, asantaṁ vā ajjhattaṁ pītisambojjhaṅgaṁ ‘natthi me ajjhattaṁ pītisambojjhaṅgo’ti pajānāti, yathā ca anuppannassa pītisambojjhaṅgassa uppādo hoti tañca pajānāti, yathā ca uppannassa pītisambojjhaṅgassa bhāvanāya pāripūrī hoti tañca pajānāti. ",
+      "english": "rapture … "
+    },
+    {
+      "number": 183,
+      "pali": "Santaṁ vā ajjhattaṁ passaddhisambojjhaṅgaṁ ‘atthi me ajjhattaṁ passaddhisambojjhaṅgo’ti pajānāti, asantaṁ vā ajjhattaṁ passaddhisambojjhaṅgaṁ ‘natthi me ajjhattaṁ passaddhisambojjhaṅgo’ti pajānāti, yathā ca anuppannassa passaddhisambojjhaṅgassa uppādo hoti tañca pajānāti, yathā ca uppannassa passaddhisambojjhaṅgassa bhāvanāya pāripūrī hoti tañca pajānāti. ",
+      "english": "tranquility … "
+    },
+    {
+      "number": 184,
+      "pali": "Santaṁ vā ajjhattaṁ samādhisambojjhaṅgaṁ ‘atthi me ajjhattaṁ samādhisambojjhaṅgo’ti pajānāti, asantaṁ vā ajjhattaṁ samādhisambojjhaṅgaṁ ‘natthi me ajjhattaṁ samādhisambojjhaṅgo’ti pajānāti, yathā ca anuppannassa samādhisambojjhaṅgassa uppādo hoti tañca pajānāti, yathā ca uppannassa samādhisambojjhaṅgassa bhāvanāya pāripūrī hoti tañca pajānāti. ",
+      "english": "immersion … "
+    },
+    {
+      "number": 185,
+      "pali": "Santaṁ vā ajjhattaṁ upekkhāsambojjhaṅgaṁ ‘atthi me ajjhattaṁ upekkhāsambojjhaṅgo’ti pajānāti, asantaṁ vā ajjhattaṁ upekkhāsambojjhaṅgaṁ ‘natthi me ajjhattaṁ upekkhāsambojjhaṅgo’ti pajānāti, yathā ca anuppannassa upekkhāsambojjhaṅgassa uppādo hoti tañca pajānāti, yathā ca uppannassa upekkhāsambojjhaṅgassa bhāvanāya pāripūrī hoti tañca pajānāti. ",
+      "english": "equanimity in them, they understand: ‘I have the awakening factor of equanimity in me.’ When they don’t have the awakening factor of equanimity in them, they understand: ‘I don’t have the awakening factor of equanimity in me.’ They understand how the awakening factor of equanimity that has not arisen comes to arise; and how the awakening factor of equanimity that has arisen becomes fulfilled by development. "
+    },
+    {
+      "number": 186,
+      "pali": "Iti ajjhattaṁ vā dhammesu dhammānupassī viharati, bahiddhā vā dhammesu dhammānupassī viharati, ajjhattabahiddhā vā dhammesu dhammānupassī viharati. ",
+      "english": "And so they meditate observing an aspect of principles internally, externally, and both internally and externally. "
+    },
+    {
+      "number": 187,
+      "pali": "Samudayadhammānupassī vā dhammesu viharati, vayadhammānupassī vā dhammesu viharati, samudayavayadhammānupassī vā dhammesu viharati. ",
+      "english": "They meditate observing, with respect to the principles, the liability to originate, to vanish, and to originate and vanish. "
+    },
+    {
+      "number": 188,
+      "pali": "‘Atthi dhammā’ti vā panassa sati paccupaṭṭhitā hoti yāvadeva ñāṇamattāya paṭissatimattāya, anissito ca viharati, na ca kiñci loke upādiyati. ",
+      "english": "Or mindfulness is established that principles exist, to the extent necessary for knowledge and mindfulness. They meditate independent, not grasping at anything in the world. "
+    },
+    {
+      "number": 189,
+      "pali": "Evampi kho, bhikkhave, bhikkhu dhammesu dhammānupassī viharati sattasu bojjhaṅgesu. ",
+      "english": "That’s how a mendicant meditates by observing an aspect of principles with respect to the seven awakening factors. "
+    },
+    {
+      "number": 190,
+      "pali": "Bojjhaṅgapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 191,
+      "pali": "4.5. Dhammānupassanāsaccapabba ",
+      "english": "4.5. The Truths "
+    },
+    {
+      "number": 192,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu dhammesu dhammānupassī viharati catūsu ariyasaccesu. ",
+      "english": "Furthermore, a mendicant meditates by observing an aspect of principles with respect to the four noble truths. "
+    },
+    {
+      "number": 193,
+      "pali": "Kathañca pana, bhikkhave, bhikkhu dhammesu dhammānupassī viharati catūsu ariyasaccesu? ",
+      "english": "And how does a mendicant meditate observing an aspect of principles with respect to the four noble truths? "
+    },
+    {
+      "number": 194,
+      "pali": "Idha, bhikkhave, bhikkhu ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhasamudayo’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodho’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti. ",
+      "english": "It’s when a mendicant truly understands: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering.’ "
+    },
+    {
+      "number": 195,
+      "pali": "Paṭhamabhāṇavāro niṭṭhito. ",
+      "english": "The first recitation section is finished. "
+    },
+    {
+      "number": 196,
+      "pali": "4.5.1. Dukkhasaccaniddesa ",
+      "english": "4.5.1. The Truth of Suffering "
+    },
+    {
+      "number": 197,
+      "pali": "Katamañca, bhikkhave, dukkhaṁ ariyasaccaṁ? ",
+      "english": "And what is the noble truth of suffering? "
+    },
+    {
+      "number": 198,
+      "pali": "Jātipi dukkhā, jarāpi dukkhā, maraṇampi dukkhaṁ, sokaparidevadukkhadomanassupāyāsāpi dukkhā, appiyehi sampayogopi dukkho, piyehi vippayogopi dukkho, yampicchaṁ na labhati tampi dukkhaṁ, saṅkhittena pañcupādānakkhandhā dukkhā. ",
+      "english": "Rebirth is suffering; old age is suffering; death is suffering; sorrow, lamentation, pain, sadness, and distress are suffering; being coupled with the disliked is suffering; separation from the liked is suffering; not getting what you wish for is suffering. In brief, the five grasping aggregates are suffering. "
+    },
+    {
+      "number": 199,
+      "pali": "Katamā ca, bhikkhave, jāti? ",
+      "english": "And what is rebirth? "
+    },
+    {
+      "number": 200,
+      "pali": "Yā tesaṁ tesaṁ sattānaṁ tamhi tamhi sattanikāye jāti sañjāti okkanti abhinibbatti khandhānaṁ pātubhāvo āyatanānaṁ paṭilābho, ",
+      "english": "The rebirth, inception, conception, regeneration, manifestation of the sets of phenomena, and acquisition of the sense fields of the various sentient beings in the various orders of sentient beings. "
+    },
+    {
+      "number": 201,
+      "pali": "ayaṁ vuccati, bhikkhave, jāti. ",
+      "english": "This is called rebirth. "
+    },
+    {
+      "number": 202,
+      "pali": "Katamā ca, bhikkhave, jarā? ",
+      "english": "And what is old age? "
+    },
+    {
+      "number": 203,
+      "pali": "Yā tesaṁ tesaṁ sattānaṁ tamhi tamhi sattanikāye jarā jīraṇatā khaṇḍiccaṁ pāliccaṁ valittacatā āyuno saṁhāni indriyānaṁ paripāko, ",
+      "english": "The old age, decrepitude, broken teeth, grey hair, wrinkly skin, diminished vitality, and failing faculties of the various sentient beings in the various orders of sentient beings. "
+    },
+    {
+      "number": 204,
+      "pali": "ayaṁ vuccati, bhikkhave, jarā. ",
+      "english": "This is called old age. "
+    },
+    {
+      "number": 205,
+      "pali": "Katamañca, bhikkhave, maraṇaṁ? ",
+      "english": "And what is death? "
+    },
+    {
+      "number": 206,
+      "pali": "Yaṁ tesaṁ tesaṁ sattānaṁ tamhā tamhā sattanikāyā cuti cavanatā bhedo antaradhānaṁ maccu maraṇaṁ kālakiriyā khandhānaṁ bhedo kaḷevarassa nikkhepo jīvitindriyassupacchedo, ",
+      "english": "The passing away, passing on, disintegration, demise, mortality, death, decease, breaking up of the aggregates, laying to rest of the corpse, and cutting off of the life faculty of the various sentient beings in the various orders of sentient beings. "
+    },
+    {
+      "number": 207,
+      "pali": "idaṁ vuccati, bhikkhave, maraṇaṁ. ",
+      "english": "This is called death. "
+    },
+    {
+      "number": 208,
+      "pali": "Katamo ca, bhikkhave, soko? ",
+      "english": "And what is sorrow? "
+    },
+    {
+      "number": 209,
+      "pali": "Yo kho, bhikkhave, aññataraññatarena byasanena samannāgatassa aññataraññatarena dukkhadhammena phuṭṭhassa soko socanā socitattaṁ antosoko antoparisoko, ",
+      "english": "The sorrow, sorrowing, state of sorrow, inner sorrow, inner deep sorrow in someone who has undergone misfortune, who has experienced suffering. "
+    },
+    {
+      "number": 210,
+      "pali": "ayaṁ vuccati, bhikkhave, soko. ",
+      "english": "This is called sorrow. "
+    },
+    {
+      "number": 211,
+      "pali": "Katamo ca, bhikkhave, paridevo? ",
+      "english": "And what is lamentation? "
+    },
+    {
+      "number": 212,
+      "pali": "Yo kho, bhikkhave, aññataraññatarena byasanena samannāgatassa aññataraññatarena dukkhadhammena phuṭṭhassa ādevo paridevo ādevanā paridevanā ādevitattaṁ paridevitattaṁ, ",
+      "english": "The wail, lament, wailing, lamenting, state of wailing and lamentation in someone who has undergone misfortune, who has experienced suffering. "
+    },
+    {
+      "number": 213,
+      "pali": "ayaṁ vuccati, bhikkhave, paridevo. ",
+      "english": "This is called lamentation. "
+    },
+    {
+      "number": 214,
+      "pali": "Katamañca, bhikkhave, dukkhaṁ? ",
+      "english": "And what is pain? "
+    },
+    {
+      "number": 215,
+      "pali": "Yaṁ kho, bhikkhave, kāyikaṁ dukkhaṁ kāyikaṁ asātaṁ kāyasamphassajaṁ dukkhaṁ asātaṁ vedayitaṁ, ",
+      "english": "Physical pain, physical unpleasantness, the painful, unpleasant feeling that’s born from physical contact. "
+    },
+    {
+      "number": 216,
+      "pali": "idaṁ vuccati, bhikkhave, dukkhaṁ. ",
+      "english": "This is called pain. "
+    },
+    {
+      "number": 217,
+      "pali": "Katamañca, bhikkhave, domanassaṁ? ",
+      "english": "And what is sadness? "
+    },
+    {
+      "number": 218,
+      "pali": "Yaṁ kho, bhikkhave, cetasikaṁ dukkhaṁ cetasikaṁ asātaṁ manosamphassajaṁ dukkhaṁ asātaṁ vedayitaṁ, ",
+      "english": "Mental pain, mental displeasure, the painful, unpleasant feeling that’s born from mental contact. "
+    },
+    {
+      "number": 219,
+      "pali": "idaṁ vuccati, bhikkhave, domanassaṁ. ",
+      "english": "This is called sadness. "
+    },
+    {
+      "number": 220,
+      "pali": "Katamo ca, bhikkhave, upāyāso? ",
+      "english": "And what is distress? "
+    },
+    {
+      "number": 221,
+      "pali": "Yo kho, bhikkhave, aññataraññatarena byasanena samannāgatassa aññataraññatarena dukkhadhammena phuṭṭhassa āyāso upāyāso āyāsitattaṁ upāyāsitattaṁ, ",
+      "english": "The stress, distress, state of stress and distress in someone who has undergone misfortune, who has experienced suffering. "
+    },
+    {
+      "number": 222,
+      "pali": "ayaṁ vuccati, bhikkhave, upāyāso. ",
+      "english": "This is called distress. "
+    },
+    {
+      "number": 223,
+      "pali": "Katamo ca, bhikkhave, appiyehi sampayogo dukkho? ",
+      "english": "And what is meant by ‘being coupled with the disliked is suffering’? "
+    },
+    {
+      "number": 224,
+      "pali": "Idha yassa te honti aniṭṭhā akantā amanāpā rūpā saddā gandhā rasā phoṭṭhabbā dhammā, ye vā panassa te honti anatthakāmā ahitakāmā aphāsukakāmā ayogakkhemakāmā, yā tehi saddhiṁ saṅgati samāgamo samodhānaṁ missībhāvo, ",
+      "english": "There are sights, sounds, smells, tastes, touches, and ideas, which are unlikable, undesirable, and disagreeable. And there are those who want to harm, injure, disturb, and threaten you. The coming together with these, the joining, inclusion, mixing with them: "
+    },
+    {
+      "number": 225,
+      "pali": "ayaṁ vuccati, bhikkhave, appiyehi sampayogo dukkho. ",
+      "english": "this is what is meant by ‘being coupled with the disliked is suffering’. "
+    },
+    {
+      "number": 226,
+      "pali": "Katamo ca, bhikkhave, piyehi vippayogo dukkho? ",
+      "english": "And what is meant by ‘separation from the liked is suffering’? "
+    },
+    {
+      "number": 227,
+      "pali": "Idha yassa te honti iṭṭhā kantā manāpā rūpā saddā gandhā rasā phoṭṭhabbā dhammā, ye vā panassa te honti atthakāmā hitakāmā phāsukakāmā yogakkhemakāmā mātā vā pitā vā bhātā vā bhaginī vā mittā vā amaccā vā ñātisālohitā vā, yā tehi saddhiṁ asaṅgati asamāgamo asamodhānaṁ amissībhāvo, ",
+      "english": "There are sights, sounds, smells, tastes, touches, and ideas, which are likable, desirable, and agreeable. And there are those who want to help, benefit, comfort, and protect you: mother and father, brother and sister, friends and colleagues, relatives and kin. The division from these, the disconnection, segregation, and parting from them: "
+    },
+    {
+      "number": 228,
+      "pali": "ayaṁ vuccati, bhikkhave, piyehi vippayogo dukkho. ",
+      "english": "this is what is meant by ‘separation from the liked is suffering’. "
+    },
+    {
+      "number": 229,
+      "pali": "Katamañca, bhikkhave, yampicchaṁ na labhati tampi dukkhaṁ? ",
+      "english": "And what is meant by ‘not getting what you wish for is suffering’? "
+    },
+    {
+      "number": 230,
+      "pali": "Jātidhammānaṁ, bhikkhave, sattānaṁ evaṁ icchā uppajjati: ",
+      "english": "In sentient beings who are liable to be reborn, such a wish arises: "
+    },
+    {
+      "number": 231,
+      "pali": "‘aho vata mayaṁ na jātidhammā assāma, na ca vata no jāti āgaccheyyā’ti. ",
+      "english": "‘Oh, if only we were not liable to be reborn! If only rebirth would not come to us!’ "
+    },
+    {
+      "number": 232,
+      "pali": "Na kho panetaṁ icchāya pattabbaṁ, ",
+      "english": "But you can’t get that by wishing. "
+    },
+    {
+      "number": 233,
+      "pali": "idampi yampicchaṁ na labhati tampi dukkhaṁ. ",
+      "english": "This is what is meant by ‘not getting what you wish for is suffering.’ "
+    },
+    {
+      "number": 234,
+      "pali": "Jarādhammānaṁ, bhikkhave, sattānaṁ evaṁ icchā uppajjati: ",
+      "english": "In sentient beings who are liable to grow old … "
+    },
+    {
+      "number": 235,
+      "pali": "‘aho vata mayaṁ na jarādhammā assāma, na ca vata no jarā āgaccheyyā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 236,
+      "pali": "Na kho panetaṁ icchāya pattabbaṁ, idampi yampicchaṁ na labhati tampi dukkhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 237,
+      "pali": "Byādhidhammānaṁ, bhikkhave, sattānaṁ evaṁ icchā uppajjati ‘aho vata mayaṁ na byādhidhammā assāma, na ca vata no byādhi āgaccheyyā’ti. ",
+      "english": "fall ill … "
+    },
+    {
+      "number": 238,
+      "pali": "Na kho panetaṁ icchāya pattabbaṁ, idampi yampicchaṁ na labhati tampi dukkhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 239,
+      "pali": "Maraṇadhammānaṁ, bhikkhave, sattānaṁ evaṁ icchā uppajjati ‘aho vata mayaṁ na maraṇadhammā assāma, na ca vata no maraṇaṁ āgaccheyyā’ti. ",
+      "english": "die … "
+    },
+    {
+      "number": 240,
+      "pali": "Na kho panetaṁ icchāya pattabbaṁ, idampi yampicchaṁ na labhati tampi dukkhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 241,
+      "pali": "Sokaparidevadukkhadomanassupāyāsadhammānaṁ, bhikkhave, sattānaṁ evaṁ icchā uppajjati ‘aho vata mayaṁ na sokaparidevadukkhadomanassupāyāsadhammā assāma, na ca vata no sokaparidevadukkhadomanassupāyāsaā āgaccheyyun’ti. ",
+      "english": "experience sorrow, lamentation, pain, sadness, and distress, such a wish arises: ‘Oh, if only we were not liable to experience sorrow, lamentation, pain, sadness, and distress! If only sorrow, lamentation, pain, sadness, and distress would not come to us!’ "
+    },
+    {
+      "number": 242,
+      "pali": "Na kho panetaṁ icchāya pattabbaṁ, ",
+      "english": "But you can’t get that by wishing. "
+    },
+    {
+      "number": 243,
+      "pali": "idampi yampicchaṁ na labhati tampi dukkhaṁ. ",
+      "english": "This is what is meant by ‘not getting what you wish for is suffering.’ "
+    },
+    {
+      "number": 244,
+      "pali": "Katame ca, bhikkhave, saṅkhittena pañcupādānakkhandhā dukkhā? ",
+      "english": "And what is meant by ‘in brief, the five grasping aggregates are suffering’? "
+    },
+    {
+      "number": 245,
+      "pali": "Seyyathidaṁ—rūpupādānakkhandho, vedanupādānakkhandho, saññupādānakkhandho, saṅkhārupādānakkhandho, viññāṇupādānakkhandho. ",
+      "english": "They are the grasping aggregates that consist of form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 246,
+      "pali": "Ime vuccanti, bhikkhave, saṅkhittena pañcupādānakkhandhā dukkhā. ",
+      "english": "This is what is meant by ‘in brief, the five grasping aggregates are suffering’. "
+    },
+    {
+      "number": 247,
+      "pali": "Idaṁ vuccati, bhikkhave, dukkhaṁ ariyasaccaṁ. ",
+      "english": "This is called the noble truth of suffering. "
+    },
+    {
+      "number": 248,
+      "pali": "4.5.2. Samudayasaccaniddesa ",
+      "english": "4.5.2. The Origin of Suffering "
+    },
+    {
+      "number": 249,
+      "pali": "Katamañca, bhikkhave, dukkhasamudayaṁ ariyasaccaṁ? ",
+      "english": "And what is the noble truth of the origin of suffering? "
+    },
+    {
+      "number": 250,
+      "pali": "Yāyaṁ taṇhā ponobbhavikā nandīrāgasahagatā tatratatrābhinandinī, seyyathidaṁ—",
+      "english": "It’s the craving that leads to future lives, mixed up with relishing and greed, taking pleasure there wherever it alights. That is, "
+    },
+    {
+      "number": 251,
+      "pali": "kāmataṇhā bhavataṇhā vibhavataṇhā. ",
+      "english": "craving for sensual pleasures, craving for existence, and craving for nonexistence. "
+    },
+    {
+      "number": 252,
+      "pali": "Sā kho panesā, bhikkhave, taṇhā kattha uppajjamānā uppajjati, kattha nivisamānā nivisati? ",
+      "english": "But where does that craving arise and where does it settle? "
+    },
+    {
+      "number": 253,
+      "pali": "Yaṁ loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "Whatever in the world seems nice and pleasant, it is there that craving arises and settles. "
+    },
+    {
+      "number": 254,
+      "pali": "Kiñca loke piyarūpaṁ sātarūpaṁ? ",
+      "english": "And what in the world seems nice and pleasant? "
+    },
+    {
+      "number": 255,
+      "pali": "Cakkhu loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "The eye in the world seems nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 256,
+      "pali": "Sotaṁ loke …pe… ",
+      "english": "The ear … "
+    },
+    {
+      "number": 257,
+      "pali": "ghānaṁ loke … ",
+      "english": "nose … "
+    },
+    {
+      "number": 258,
+      "pali": "jivhā loke … ",
+      "english": "tongue … "
+    },
+    {
+      "number": 259,
+      "pali": "kāyo loke … ",
+      "english": "body … "
+    },
+    {
+      "number": 260,
+      "pali": "mano loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "mind in the world seems nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 261,
+      "pali": "Rūpā loke … ",
+      "english": "Sights … "
+    },
+    {
+      "number": 262,
+      "pali": "saddā loke … ",
+      "english": "sounds … "
+    },
+    {
+      "number": 263,
+      "pali": "gandhā loke … ",
+      "english": "smells … "
+    },
+    {
+      "number": 264,
+      "pali": "rasā loke … ",
+      "english": "tastes … "
+    },
+    {
+      "number": 265,
+      "pali": "phoṭṭhabbā loke … ",
+      "english": "touches … "
+    },
+    {
+      "number": 266,
+      "pali": "dhammā loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "ideas in the world seem nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 267,
+      "pali": "Cakkhuviññāṇaṁ loke … ",
+      "english": "Eye consciousness … "
+    },
+    {
+      "number": 268,
+      "pali": "sotaviññāṇaṁ loke … ",
+      "english": "ear consciousness … "
+    },
+    {
+      "number": 269,
+      "pali": "ghānaviññāṇaṁ loke … ",
+      "english": "nose consciousness … "
+    },
+    {
+      "number": 270,
+      "pali": "jivhāviññāṇaṁ loke … ",
+      "english": "tongue consciousness … "
+    },
+    {
+      "number": 271,
+      "pali": "kāyaviññāṇaṁ loke … ",
+      "english": "body consciousness … "
+    },
+    {
+      "number": 272,
+      "pali": "manoviññāṇaṁ loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "mind consciousness in the world seems nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 273,
+      "pali": "Cakkhusamphasso loke … ",
+      "english": "Eye contact … "
+    },
+    {
+      "number": 274,
+      "pali": "sotasamphasso loke … ",
+      "english": "ear contact … "
+    },
+    {
+      "number": 275,
+      "pali": "ghānasamphasso loke … ",
+      "english": "nose contact … "
+    },
+    {
+      "number": 276,
+      "pali": "jivhāsamphasso loke … ",
+      "english": "tongue contact … "
+    },
+    {
+      "number": 277,
+      "pali": "kāyasamphasso loke … ",
+      "english": "body contact … "
+    },
+    {
+      "number": 278,
+      "pali": "manosamphasso loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "mind contact in the world seems nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 279,
+      "pali": "Cakkhusamphassajā vedanā loke … ",
+      "english": "Feeling born of eye contact … "
+    },
+    {
+      "number": 280,
+      "pali": "sotasamphassajā vedanā loke … ",
+      "english": "feeling born of ear contact … "
+    },
+    {
+      "number": 281,
+      "pali": "ghānasamphassajā vedanā loke … ",
+      "english": "feeling born of nose contact … "
+    },
+    {
+      "number": 282,
+      "pali": "jivhāsamphassajā vedanā loke … ",
+      "english": "feeling born of tongue contact … "
+    },
+    {
+      "number": 283,
+      "pali": "kāyasamphassajā vedanā loke … ",
+      "english": "feeling born of body contact … "
+    },
+    {
+      "number": 284,
+      "pali": "manosamphassajā vedanā loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "feeling born of mind contact in the world seems nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 285,
+      "pali": "Rūpasaññā loke … ",
+      "english": "Perception of sights … "
+    },
+    {
+      "number": 286,
+      "pali": "saddasaññā loke … ",
+      "english": "perception of sounds … "
+    },
+    {
+      "number": 287,
+      "pali": "gandhasaññā loke … ",
+      "english": "perception of smells … "
+    },
+    {
+      "number": 288,
+      "pali": "rasasaññā loke … ",
+      "english": "perception of tastes … "
+    },
+    {
+      "number": 289,
+      "pali": "phoṭṭhabbasaññā loke … ",
+      "english": "perception of touches … "
+    },
+    {
+      "number": 290,
+      "pali": "dhammasaññā loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "perception of ideas in the world seems nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 291,
+      "pali": "Rūpasañcetanā loke … ",
+      "english": "Intention regarding sights … "
+    },
+    {
+      "number": 292,
+      "pali": "saddasañcetanā loke … ",
+      "english": "intention regarding sounds … "
+    },
+    {
+      "number": 293,
+      "pali": "gandhasañcetanā loke … ",
+      "english": "intention regarding smells … "
+    },
+    {
+      "number": 294,
+      "pali": "rasasañcetanā loke … ",
+      "english": "intention regarding tastes … "
+    },
+    {
+      "number": 295,
+      "pali": "phoṭṭhabbasañcetanā loke … ",
+      "english": "intention regarding touches … "
+    },
+    {
+      "number": 296,
+      "pali": "dhammasañcetanā loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "intention regarding ideas in the world seems nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 297,
+      "pali": "Rūpataṇhā loke … ",
+      "english": "Craving for sights … "
+    },
+    {
+      "number": 298,
+      "pali": "saddataṇhā loke … ",
+      "english": "craving for sounds … "
+    },
+    {
+      "number": 299,
+      "pali": "gandhataṇhā loke … ",
+      "english": "craving for smells … "
+    },
+    {
+      "number": 300,
+      "pali": "rasataṇhā loke … ",
+      "english": "craving for tastes … "
+    },
+    {
+      "number": 301,
+      "pali": "phoṭṭhabbataṇhā loke … ",
+      "english": "craving for touches … "
+    },
+    {
+      "number": 302,
+      "pali": "dhammataṇhā loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "craving for ideas in the world seems nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 303,
+      "pali": "Rūpavitakko loke … ",
+      "english": "Thoughts about sights … "
+    },
+    {
+      "number": 304,
+      "pali": "saddavitakko loke … ",
+      "english": "thoughts about sounds … "
+    },
+    {
+      "number": 305,
+      "pali": "gandhavitakko loke … ",
+      "english": "thoughts about smells … "
+    },
+    {
+      "number": 306,
+      "pali": "rasavitakko loke … ",
+      "english": "thoughts about tastes … "
+    },
+    {
+      "number": 307,
+      "pali": "phoṭṭhabbavitakko loke … ",
+      "english": "thoughts about touches … "
+    },
+    {
+      "number": 308,
+      "pali": "dhammavitakko loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "thoughts about ideas in the world seem nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 309,
+      "pali": "Rūpavicāro loke … ",
+      "english": "Considerations regarding sights … "
+    },
+    {
+      "number": 310,
+      "pali": "saddavicāro loke … ",
+      "english": "considerations regarding sounds … "
+    },
+    {
+      "number": 311,
+      "pali": "gandhavicāro loke … ",
+      "english": "considerations regarding smells … "
+    },
+    {
+      "number": 312,
+      "pali": "rasavicāro loke … ",
+      "english": "considerations regarding tastes … "
+    },
+    {
+      "number": 313,
+      "pali": "phoṭṭhabbavicāro loke … ",
+      "english": "considerations regarding touches … "
+    },
+    {
+      "number": 314,
+      "pali": "dhammavicāro loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā uppajjamānā uppajjati, ettha nivisamānā nivisati. ",
+      "english": "considerations regarding ideas in the world seem nice and pleasant, and it is there that craving arises and settles. "
+    },
+    {
+      "number": 315,
+      "pali": "Idaṁ vuccati, bhikkhave, dukkhasamudayaṁ ariyasaccaṁ. ",
+      "english": "This is called the noble truth of the origin of suffering. "
+    },
+    {
+      "number": 316,
+      "pali": "4.5.3. Nirodhasaccaniddesa ",
+      "english": "4.5.3. The Cessation of Suffering "
+    },
+    {
+      "number": 317,
+      "pali": "Katamañca, bhikkhave, dukkhanirodhaṁ ariyasaccaṁ? ",
+      "english": "And what is the noble truth of the cessation of suffering? "
+    },
+    {
+      "number": 318,
+      "pali": "Yo tassāyeva taṇhāya asesavirāganirodho cāgo paṭinissaggo mutti anālayo. ",
+      "english": "It’s the fading away and cessation of that very same craving with no residue left behind; giving it away, letting it go, releasing it, and not clinging to it. "
+    },
+    {
+      "number": 319,
+      "pali": "Sā kho panesā, bhikkhave, taṇhā kattha pahīyamānā pahīyati, kattha nirujjhamānā nirujjhati? ",
+      "english": ""
+    },
+    {
+      "number": 320,
+      "pali": "Yaṁ loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": "Whatever in the world seems nice and pleasant, it is there that craving is given up and ceases. "
+    },
+    {
+      "number": 321,
+      "pali": "Kiñca loke piyarūpaṁ sātarūpaṁ? ",
+      "english": "And what in the world seems nice and pleasant? "
+    },
+    {
+      "number": 322,
+      "pali": "Cakkhu loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": "The eye in the world seems nice and pleasant, and it is there that craving is given up and ceases. … "
+    },
+    {
+      "number": 323,
+      "pali": "Sotaṁ loke …pe… ",
+      "english": ""
+    },
+    {
+      "number": 324,
+      "pali": "ghānaṁ loke … ",
+      "english": ""
+    },
+    {
+      "number": 325,
+      "pali": "jivhā loke … ",
+      "english": ""
+    },
+    {
+      "number": 326,
+      "pali": "kāyo loke … ",
+      "english": ""
+    },
+    {
+      "number": 327,
+      "pali": "mano loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": ""
+    },
+    {
+      "number": 328,
+      "pali": "Rūpā loke … ",
+      "english": ""
+    },
+    {
+      "number": 329,
+      "pali": "saddā loke … ",
+      "english": ""
+    },
+    {
+      "number": 330,
+      "pali": "gandhā loke … ",
+      "english": ""
+    },
+    {
+      "number": 331,
+      "pali": "rasā loke … ",
+      "english": ""
+    },
+    {
+      "number": 332,
+      "pali": "phoṭṭhabbā loke … ",
+      "english": ""
+    },
+    {
+      "number": 333,
+      "pali": "dhammā loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": ""
+    },
+    {
+      "number": 334,
+      "pali": "Cakkhuviññāṇaṁ loke … ",
+      "english": ""
+    },
+    {
+      "number": 335,
+      "pali": "sotaviññāṇaṁ loke … ",
+      "english": ""
+    },
+    {
+      "number": 336,
+      "pali": "ghānaviññāṇaṁ loke … ",
+      "english": ""
+    },
+    {
+      "number": 337,
+      "pali": "jivhāviññāṇaṁ loke … ",
+      "english": ""
+    },
+    {
+      "number": 338,
+      "pali": "kāyaviññāṇaṁ loke … ",
+      "english": ""
+    },
+    {
+      "number": 339,
+      "pali": "manoviññāṇaṁ loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": ""
+    },
+    {
+      "number": 340,
+      "pali": "Cakkhusamphasso loke … ",
+      "english": ""
+    },
+    {
+      "number": 341,
+      "pali": "sotasamphasso loke … ",
+      "english": ""
+    },
+    {
+      "number": 342,
+      "pali": "ghānasamphasso loke … ",
+      "english": ""
+    },
+    {
+      "number": 343,
+      "pali": "jivhāsamphasso loke … ",
+      "english": ""
+    },
+    {
+      "number": 344,
+      "pali": "kāyasamphasso loke … ",
+      "english": ""
+    },
+    {
+      "number": 345,
+      "pali": "manosamphasso loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": ""
+    },
+    {
+      "number": 346,
+      "pali": "Cakkhusamphassajā vedanā loke … ",
+      "english": ""
+    },
+    {
+      "number": 347,
+      "pali": "sotasamphassajā vedanā loke … ",
+      "english": ""
+    },
+    {
+      "number": 348,
+      "pali": "ghānasamphassajā vedanā loke … ",
+      "english": ""
+    },
+    {
+      "number": 349,
+      "pali": "jivhāsamphassajā vedanā loke … ",
+      "english": ""
+    },
+    {
+      "number": 350,
+      "pali": "kāyasamphassajā vedanā loke … ",
+      "english": ""
+    },
+    {
+      "number": 351,
+      "pali": "manosamphassajā vedanā loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": ""
+    },
+    {
+      "number": 352,
+      "pali": "Rūpasaññā loke … ",
+      "english": ""
+    },
+    {
+      "number": 353,
+      "pali": "saddasaññā loke … ",
+      "english": ""
+    },
+    {
+      "number": 354,
+      "pali": "gandhasaññā loke … ",
+      "english": ""
+    },
+    {
+      "number": 355,
+      "pali": "rasasaññā loke … ",
+      "english": ""
+    },
+    {
+      "number": 356,
+      "pali": "phoṭṭhabbasaññā loke … ",
+      "english": ""
+    },
+    {
+      "number": 357,
+      "pali": "dhammasaññā loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": ""
+    },
+    {
+      "number": 358,
+      "pali": "Rūpasañcetanā loke … ",
+      "english": ""
+    },
+    {
+      "number": 359,
+      "pali": "saddasañcetanā loke … ",
+      "english": ""
+    },
+    {
+      "number": 360,
+      "pali": "gandhasañcetanā loke … ",
+      "english": ""
+    },
+    {
+      "number": 361,
+      "pali": "rasasañcetanā loke … ",
+      "english": ""
+    },
+    {
+      "number": 362,
+      "pali": "phoṭṭhabbasañcetanā loke … ",
+      "english": ""
+    },
+    {
+      "number": 363,
+      "pali": "dhammasañcetanā loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": ""
+    },
+    {
+      "number": 364,
+      "pali": "Rūpataṇhā loke … ",
+      "english": ""
+    },
+    {
+      "number": 365,
+      "pali": "saddataṇhā loke … ",
+      "english": ""
+    },
+    {
+      "number": 366,
+      "pali": "gandhataṇhā loke … ",
+      "english": ""
+    },
+    {
+      "number": 367,
+      "pali": "rasataṇhā loke … ",
+      "english": ""
+    },
+    {
+      "number": 368,
+      "pali": "phoṭṭhabbataṇhā loke … ",
+      "english": ""
+    },
+    {
+      "number": 369,
+      "pali": "dhammataṇhā loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": ""
+    },
+    {
+      "number": 370,
+      "pali": "Rūpavitakko loke … ",
+      "english": ""
+    },
+    {
+      "number": 371,
+      "pali": "saddavitakko loke … ",
+      "english": ""
+    },
+    {
+      "number": 372,
+      "pali": "gandhavitakko loke … ",
+      "english": ""
+    },
+    {
+      "number": 373,
+      "pali": "rasavitakko loke … ",
+      "english": ""
+    },
+    {
+      "number": 374,
+      "pali": "phoṭṭhabbavitakko loke … ",
+      "english": ""
+    },
+    {
+      "number": 375,
+      "pali": "dhammavitakko loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": ""
+    },
+    {
+      "number": 376,
+      "pali": "Rūpavicāro loke … ",
+      "english": ""
+    },
+    {
+      "number": 377,
+      "pali": "saddavicāro loke … ",
+      "english": ""
+    },
+    {
+      "number": 378,
+      "pali": "gandhavicāro loke … ",
+      "english": ""
+    },
+    {
+      "number": 379,
+      "pali": "rasavicāro loke … ",
+      "english": ""
+    },
+    {
+      "number": 380,
+      "pali": "phoṭṭhabbavicāro loke … ",
+      "english": ""
+    },
+    {
+      "number": 381,
+      "pali": "dhammavicāro loke piyarūpaṁ sātarūpaṁ, etthesā taṇhā pahīyamānā pahīyati, ettha nirujjhamānā nirujjhati. ",
+      "english": "Considerations regarding ideas in the world seem nice and pleasant, and it is there that craving is given up and ceases. "
+    },
+    {
+      "number": 382,
+      "pali": "Idaṁ vuccati, bhikkhave, dukkhanirodhaṁ ariyasaccaṁ. ",
+      "english": "This is called the noble truth of the cessation of suffering. "
+    },
+    {
+      "number": 383,
+      "pali": "4.5.4. Maggasaccaniddesa ",
+      "english": "4.5.4. The Path "
+    },
+    {
+      "number": 384,
+      "pali": "Katamañca, bhikkhave, dukkhanirodhagāminī paṭipadā ariyasaccaṁ? ",
+      "english": "And what is the noble truth of the practice that leads to the cessation of suffering? "
+    },
+    {
+      "number": 385,
+      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo seyyathidaṁ—",
+      "english": "It is simply this noble eightfold path, that is: "
+    },
+    {
+      "number": 386,
+      "pali": "sammādiṭṭhi sammāsaṅkappo sammāvācā sammākammanto sammāājīvo sammāvāyāmo sammāsati sammāsamādhi. ",
+      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+    },
+    {
+      "number": 387,
+      "pali": "Katamā ca, bhikkhave, sammādiṭṭhi? ",
+      "english": "And what is right view? "
+    },
+    {
+      "number": 388,
+      "pali": "Yaṁ kho, bhikkhave, dukkhe ñāṇaṁ, dukkhasamudaye ñāṇaṁ, dukkhanirodhe ñāṇaṁ, dukkhanirodhagāminiyā paṭipadāya ñāṇaṁ. ",
+      "english": "Knowing about suffering, the origin of suffering, the cessation of suffering, and the practice that leads to the cessation of suffering. "
+    },
+    {
+      "number": 389,
+      "pali": "Ayaṁ vuccati, bhikkhave, sammādiṭṭhi. ",
+      "english": "This is called right view. "
+    },
+    {
+      "number": 390,
+      "pali": "Katamo ca, bhikkhave, sammāsaṅkappo? ",
+      "english": "And what is right purpose? "
+    },
+    {
+      "number": 391,
+      "pali": "Nekkhammasaṅkappo abyāpādasaṅkappo avihiṁsāsaṅkappo. ",
+      "english": "Purposes of renunciation, good will, and harmlessness. "
+    },
+    {
+      "number": 392,
+      "pali": "Ayaṁ vuccati, bhikkhave, sammāsaṅkappo. ",
+      "english": "This is called right purpose. "
+    },
+    {
+      "number": 393,
+      "pali": "Katamā ca, bhikkhave, sammāvācā? ",
+      "english": "And what is right speech? "
+    },
+    {
+      "number": 394,
+      "pali": "Musāvādā veramaṇī pisuṇāya vācāya veramaṇī pharusāya vācāya veramaṇī samphappalāpā veramaṇī. ",
+      "english": "Refraining from lying, backbiting, harsh speech, and talking nonsense. "
+    },
+    {
+      "number": 395,
+      "pali": "Ayaṁ vuccati, bhikkhave, sammāvācā. ",
+      "english": "This is called right speech. "
+    },
+    {
+      "number": 396,
+      "pali": "Katamo ca, bhikkhave, sammākammanto? ",
+      "english": "And what is right action? "
+    },
+    {
+      "number": 397,
+      "pali": "Pāṇātipātā veramaṇī adinnādānā veramaṇī kāmesumicchācārā veramaṇī. ",
+      "english": "Refraining from killing living creatures, stealing, and sexual misconduct. "
+    },
+    {
+      "number": 398,
+      "pali": "Ayaṁ vuccati, bhikkhave, sammākammanto. ",
+      "english": "This is called right action. "
+    },
+    {
+      "number": 399,
+      "pali": "Katamo ca, bhikkhave, sammāājīvo? ",
+      "english": "And what is right livelihood? "
+    },
+    {
+      "number": 400,
+      "pali": "Idha, bhikkhave, ariyasāvako micchāājīvaṁ pahāya sammāājīvena jīvitaṁ kappeti. ",
+      "english": "It’s when a noble disciple gives up wrong livelihood and earns a living by right livelihood. "
+    },
+    {
+      "number": 401,
+      "pali": "Ayaṁ vuccati, bhikkhave, sammāājīvo. ",
+      "english": "This is called right livelihood. "
+    },
+    {
+      "number": 402,
+      "pali": "Katamo ca, bhikkhave, sammāvāyāmo? ",
+      "english": "And what is right effort? "
+    },
+    {
+      "number": 403,
+      "pali": "Idha, bhikkhave, bhikkhu anuppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ anuppādāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
+      "english": "It’s when a mendicant generates enthusiasm, tries, makes an effort, exerts the mind, and strives so that bad, unskillful qualities don’t arise. "
+    },
+    {
+      "number": 404,
+      "pali": "uppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
+      "english": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that bad, unskillful qualities that have arisen are given up. "
+    },
+    {
+      "number": 405,
+      "pali": "anuppannānaṁ kusalānaṁ dhammānaṁ uppādāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
+      "english": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities arise. "
+    },
+    {
+      "number": 406,
+      "pali": "uppannānaṁ kusalānaṁ dhammānaṁ ṭhitiyā asammosāya bhiyyobhāvāya vepullāya bhāvanāya pāripūriyā chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati. ",
+      "english": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities that have arisen remain, are not lost, but increase, mature, and are completed by development. "
+    },
+    {
+      "number": 407,
+      "pali": "Ayaṁ vuccati, bhikkhave, sammāvāyāmo. ",
+      "english": "This is called right effort. "
+    },
+    {
+      "number": 408,
+      "pali": "Katamā ca, bhikkhave, sammāsati? ",
+      "english": "And what is right mindfulness? "
+    },
+    {
+      "number": 409,
+      "pali": "Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ; ",
+      "english": "It’s when a mendicant meditates by observing an aspect of the body—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 410,
+      "pali": "vedanāsu vedanānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ; ",
+      "english": "They meditate observing an aspect of feelings—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 411,
+      "pali": "citte cittānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ; ",
+      "english": "They meditate observing an aspect of the mind—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 412,
+      "pali": "dhammesu dhammānupassī viharati ātāpī sampajāno satimā vineyya loke abhijjhādomanassaṁ. ",
+      "english": "They meditate observing an aspect of principles—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
+    },
+    {
+      "number": 413,
+      "pali": "Ayaṁ vuccati, bhikkhave, sammāsati. ",
+      "english": "This is called right mindfulness. "
+    },
+    {
+      "number": 414,
+      "pali": "Katamo ca, bhikkhave, sammāsamādhi? ",
+      "english": "And what is right immersion? "
+    },
+    {
+      "number": 415,
+      "pali": "Idha, bhikkhave, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 416,
+      "pali": "Vitakkavicārānaṁ vūpasamā ajjhattaṁ sampasādanaṁ cetaso ekodibhāvaṁ avitakkaṁ avicāraṁ samādhijaṁ pītisukhaṁ dutiyaṁ jhānaṁ upasampajja viharati. ",
+      "english": "As the placing of the mind and keeping it connected are stilled, they enter and remain in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without placing the mind and keeping it connected. "
+    },
+    {
+      "number": 417,
+      "pali": "Pītiyā ca virāgā upekkhako ca viharati, sato ca sampajāno, sukhañca kāyena paṭisaṁvedeti, yaṁ taṁ ariyā ācikkhanti ‘upekkhako satimā sukhavihārī’ti tatiyaṁ jhānaṁ upasampajja viharati. ",
+      "english": "And with the fading away of rapture, they enter and remain in the third absorption, where they meditate with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ "
+    },
+    {
+      "number": 418,
+      "pali": "Sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "With the giving up of pleasure and pain and the disappearance of former happiness and sadness, they enter and remain in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. "
+    },
+    {
+      "number": 419,
+      "pali": "Ayaṁ vuccati, bhikkhave, sammāsamādhi. ",
+      "english": "This is called right immersion. "
+    },
+    {
+      "number": 420,
+      "pali": "Idaṁ vuccati, bhikkhave, dukkhanirodhagāminī paṭipadā ariyasaccaṁ. ",
+      "english": "This is called the noble truth of the practice that leads to the cessation of suffering. "
+    },
+    {
+      "number": 421,
+      "pali": "Iti ajjhattaṁ vā dhammesu dhammānupassī viharati, bahiddhā vā dhammesu dhammānupassī viharati, ajjhattabahiddhā vā dhammesu dhammānupassī viharati. ",
+      "english": "And so they meditate observing an aspect of principles internally, externally, and both internally and externally. "
+    },
+    {
+      "number": 422,
+      "pali": "Samudayadhammānupassī vā dhammesu viharati, vayadhammānupassī vā dhammesu viharati, samudayavayadhammānupassī vā dhammesu viharati. ",
+      "english": "They meditate observing, with respect to the principles, the liability to originate, to vanish, and to originate and vanish. "
+    },
+    {
+      "number": 423,
+      "pali": "‘Atthi dhammā’ti vā panassa sati paccupaṭṭhitā hoti yāvadeva ñāṇamattāya paṭissatimattāya anissito ca viharati, na ca kiñci loke upādiyati. ",
+      "english": "Or mindfulness is established that principles exist, to the extent necessary for knowledge and mindfulness. They meditate independent, not grasping at anything in the world. "
+    },
+    {
+      "number": 424,
+      "pali": "Evampi kho, bhikkhave, bhikkhu dhammesu dhammānupassī viharati catūsu ariyasaccesu. ",
+      "english": "That’s how a mendicant meditates by observing an aspect of principles with respect to the four noble truths. "
+    },
+    {
+      "number": 425,
+      "pali": "Saccapabbaṁ niṭṭhitaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 426,
+      "pali": "Dhammānupassanā niṭṭhitā. ",
+      "english": ""
+    },
+    {
+      "number": 427,
+      "pali": "Yo hi koci, bhikkhave, ime cattāro satipaṭṭhāne evaṁ bhāveyya sattavassāni, tassa dvinnaṁ phalānaṁ aññataraṁ phalaṁ pāṭikaṅkhaṁ ",
+      "english": "Anyone who develops these four kinds of mindfulness meditation in this way for seven years can expect one of two results: "
+    },
+    {
+      "number": 428,
+      "pali": "diṭṭheva dhamme aññā; sati vā upādisese anāgāmitā. ",
+      "english": "enlightenment in this very life, or if there’s residue left behind, non-return. "
+    },
+    {
+      "number": 429,
+      "pali": "Tiṭṭhantu, bhikkhave, sattavassāni. ",
+      "english": "Let alone seven years, "
+    },
+    {
+      "number": 430,
+      "pali": "Yo hi koci, bhikkhave, ime cattāro satipaṭṭhāne evaṁ bhāveyya cha vassāni …pe… ",
+      "english": "anyone who develops these four kinds of mindfulness meditation in this way for six years … "
+    },
+    {
+      "number": 431,
+      "pali": "pañca vassāni … ",
+      "english": "five years … "
+    },
+    {
+      "number": 432,
+      "pali": "cattāri vassāni … ",
+      "english": "four years … "
+    },
+    {
+      "number": 433,
+      "pali": "tīṇi vassāni … ",
+      "english": "three years … "
+    },
+    {
+      "number": 434,
+      "pali": "dve vassāni … ",
+      "english": "two years … "
+    },
+    {
+      "number": 435,
+      "pali": "ekaṁ vassaṁ … ",
+      "english": "one year … "
+    },
+    {
+      "number": 436,
+      "pali": "tiṭṭhatu, bhikkhave, ekaṁ vassaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 437,
+      "pali": "Yo hi koci, bhikkhave, ime cattāro satipaṭṭhāne evaṁ bhāveyya sattamāsāni, tassa dvinnaṁ phalānaṁ aññataraṁ phalaṁ pāṭikaṅkhaṁ ",
+      "english": "seven months … "
+    },
+    {
+      "number": 438,
+      "pali": "diṭṭheva dhamme aññā; sati vā upādisese anāgāmitā. ",
+      "english": ""
+    },
+    {
+      "number": 439,
+      "pali": "Tiṭṭhantu, bhikkhave, satta māsāni. ",
+      "english": ""
+    },
+    {
+      "number": 440,
+      "pali": "Yo hi koci, bhikkhave, ime cattāro satipaṭṭhāne evaṁ bhāveyya cha māsāni …pe… ",
+      "english": "six months … "
+    },
+    {
+      "number": 441,
+      "pali": "pañca māsāni … ",
+      "english": "five months … "
+    },
+    {
+      "number": 442,
+      "pali": "cattāri māsāni … ",
+      "english": "four months … "
+    },
+    {
+      "number": 443,
+      "pali": "tīṇi māsāni … ",
+      "english": "three months … "
+    },
+    {
+      "number": 444,
+      "pali": "dve māsāni … ",
+      "english": "two months … "
+    },
+    {
+      "number": 445,
+      "pali": "ekaṁ māsaṁ … ",
+      "english": "one month … "
+    },
+    {
+      "number": 446,
+      "pali": "aḍḍhamāsaṁ … ",
+      "english": "a fortnight … "
+    },
+    {
+      "number": 447,
+      "pali": "tiṭṭhatu, bhikkhave, aḍḍhamāso. ",
+      "english": "Let alone a fortnight, "
+    },
+    {
+      "number": 448,
+      "pali": "Yo hi koci, bhikkhave, ime cattāro satipaṭṭhāne evaṁ bhāveyya sattāhaṁ, tassa dvinnaṁ phalānaṁ aññataraṁ phalaṁ pāṭikaṅkhaṁ ",
+      "english": "anyone who develops these four kinds of mindfulness meditation in this way for seven days can expect one of two results: "
+    },
+    {
+      "number": 449,
+      "pali": "diṭṭheva dhamme aññā; sati vā upādisese anāgāmitāti. ",
+      "english": "enlightenment in this very life, or if there’s residue left behind, non-return. "
+    },
+    {
+      "number": 450,
+      "pali": "Ekāyano ayaṁ, bhikkhave, maggo sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya yadidaṁ cattāro satipaṭṭhānāti. ",
+      "english": "‘The four kinds of mindfulness meditation are the path to convergence. They are in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness, to discover the system, and to realize extinguishment.’ "
+    },
+    {
+      "number": 451,
+      "pali": "Iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttan”ti. ",
+      "english": "That’s what I said, and this is why I said it.” "
+    },
+    {
+      "number": 452,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 453,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 454,
+      "pali": "Mahāsatipaṭṭhānasuttaṁ niṭṭhitaṁ navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

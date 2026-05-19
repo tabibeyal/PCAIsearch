@@ -1,0 +1,835 @@
+{
+  "sutta_id": "MN104",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 104 ",
+      "english": "Middle Discourses 104 "
+    },
+    {
+      "number": 2,
+      "pali": "Sāmagāmasutta ",
+      "english": "At Sāmagāma "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sakkesu viharati sāmagāme. ",
+      "english": "At one time the Buddha was staying in the land of the Sakyans near the village of Sāma. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena nigaṇṭho nāṭaputto pāvāyaṁ adhunākālaṅkato hoti. ",
+      "english": "Now at that time the Jain ascetic of the Ñātika clan had recently passed away at Pāvā. "
+    },
+    {
+      "number": 6,
+      "pali": "Tassa kālaṅkiriyāya bhinnā nigaṇṭhā dvedhikajātā bhaṇḍanajātā kalahajātā vivādāpannā aññamaññaṁ mukhasattīhi vitudantā viharanti: ",
+      "english": "With his passing the Jain ascetics split, dividing into two factions, fighting, quarreling, and disputing, continually wounding each other with barbed words: "
+    },
+    {
+      "number": 7,
+      "pali": "“na tvaṁ imaṁ dhammavinayaṁ ājānāsi, ahaṁ imaṁ dhammavinayaṁ ājānāmi. Kiṁ tvaṁ imaṁ dhammavinayaṁ ājānissasi. Micchāpaṭipanno tvamasi, ahamasmi sammāpaṭipanno. Sahitaṁ me, asahitaṁ te. Purevacanīyaṁ pacchā avaca, pacchāvacanīyaṁ pure avaca. Adhiciṇṇaṁ te viparāvattaṁ. Āropito te vādo. Niggahitosi, cara vādappamokkhāya; nibbeṭhehi vā sace pahosī”ti. ",
+      "english": "“You don’t understand this teaching and training. I understand this teaching and training. What, you understand this teaching and training? You’re practicing wrong. I’m practicing right. I stay on topic, you don’t. You said last what you should have said first. You said first what you should have said last. What you’ve thought so much about has been disproved. Your doctrine is refuted. Go on, save your doctrine! You’re trapped; get yourself out of this—if you can!” "
+    },
+    {
+      "number": 8,
+      "pali": "Vadhoyeva kho maññe nigaṇṭhesu nāṭaputtiyesu vattati. ",
+      "english": "You’d think there was nothing but slaughter going on among the Jain ascetics. "
+    },
+    {
+      "number": 9,
+      "pali": "Yepi nigaṇṭhassa nāṭaputtassa sāvakā gihī odātavasanā tepi nigaṇṭhesu nāṭaputtiyesu nibbinnarūpā virattarūpā paṭivānarūpā yathā taṁ durakkhāte dhammavinaye duppavedite aniyyānike anupasamasaṁvattanike asammāsambuddhappavedite bhinnathūpe appaṭisaraṇe. ",
+      "english": "And the Jain Ñātika’s white-clothed lay disciples were disillusioned, dismayed, and disappointed in the Jain ascetics. They were equally disappointed with a teaching and training so poorly explained and poorly propounded, not emancipating, not leading to peace, proclaimed by someone who is not a fully awakened Buddha, with broken monument and without a refuge. "
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho cundo samaṇuddeso pāvāyaṁ vassaṁvuṭṭho yena sāmagāmo yenāyasmā ānando tenupasaṅkami; upasaṅkamitvā āyasmantaṁ ānandaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho cundo samaṇuddeso āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "And then, after completing the rainy season residence near Pāvā, the novice Cunda went to see Venerable Ānanda at Sāma village. He bowed, sat down to one side, and told him what had happened. "
+    },
+    {
+      "number": 11,
+      "pali": "“nigaṇṭho, bhante, nāṭaputto pāvāyaṁ adhunākālaṅkato. ",
+      "english": ""
+    },
+    {
+      "number": 12,
+      "pali": "Tassa kālaṅkiriyāya bhinnā nigaṇṭhā dvedhikajātā …pe… bhinnathūpe appaṭisaraṇe”ti. ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "Evaṁ vutte, āyasmā ānando cundaṁ samaṇuddesaṁ etadavoca: ",
+      "english": "Ānanda said to him, "
+    },
+    {
+      "number": 14,
+      "pali": "“atthi kho idaṁ, āvuso cunda, kathāpābhataṁ bhagavantaṁ dassanāya. ",
+      "english": "“Reverend Cunda, we should see the Buddha about this matter. "
+    },
+    {
+      "number": 15,
+      "pali": "Āyāma, āvuso cunda, yena bhagavā tenupasaṅkamissāma; upasaṅkamitvā etamatthaṁ bhagavato ārocessāmā”ti. ",
+      "english": "Come, let’s go to the Buddha and inform him about this.” "
+    },
+    {
+      "number": 16,
+      "pali": "“Evaṁ, bhante”ti kho cundo samaṇuddeso āyasmato ānandassa paccassosi. ",
+      "english": "“Yes, sir,” replied Cunda. "
+    },
+    {
+      "number": 17,
+      "pali": "Atha kho āyasmā ca ānando cundo ca samaṇuddeso yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinno kho āyasmā ānando bhagavantaṁ etadavoca: ",
+      "english": "Then Ānanda and Cunda went to the Buddha, bowed, sat down to one side, and Ānanda informed him of what Cunda had said. He went on to say, "
+    },
+    {
+      "number": 18,
+      "pali": "“ayaṁ, bhante, cundo samaṇuddeso evamāha: ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "‘nigaṇṭho, bhante, nāṭaputto pāvāyaṁ adhunākālaṅkato. ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "Tassa kālaṅkiriyāya bhinnā nigaṇṭhā dvedhikajātā …pe… bhinnathūpe appaṭisaraṇe’ti. ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "Tassa mayhaṁ, bhante, evaṁ hoti: ",
+      "english": "“Sir, it occurs to me: "
+    },
+    {
+      "number": 22,
+      "pali": "‘mā heva bhagavato accayena saṅghe vivādo uppajji; ",
+      "english": "‘When the Buddha has passed away, let no dispute arise in the Saṅgha. "
+    },
+    {
+      "number": 23,
+      "pali": "svāssa vivādo bahujanāhitāya bahujanāsukhāya bahuno janassa anatthāya ahitāya dukkhāya devamanussānan’”ti. ",
+      "english": "For such a dispute would be for the detriment and suffering of the people, against the people, for the harm, detriment, and suffering of gods and humans.’” "
+    },
+    {
+      "number": 24,
+      "pali": "“Taṁ kiṁ maññasi, ānanda, ",
+      "english": "“What do you think, Ānanda? "
+    },
+    {
+      "number": 25,
+      "pali": "ye vo mayā dhammā abhiññā desitā, seyyathidaṁ—",
+      "english": "Do you see even two mendicants whose opinion differs regarding the things I have taught from my direct knowledge, that is, "
+    },
+    {
+      "number": 26,
+      "pali": "cattāro satipaṭṭhānā cattāro sammappadhānā cattāro iddhipādā pañcindriyāni pañca balāni satta bojjhaṅgā ariyo aṭṭhaṅgiko maggo, passasi no tvaṁ, ānanda, imesu dhammesu dvepi bhikkhū nānāvāde”ti? ",
+      "english": "the four kinds of mindfulness meditation, the four right efforts, the four bases of psychic power, the five faculties, the five powers, the seven awakening factors, and the noble eightfold path?” "
+    },
+    {
+      "number": 27,
+      "pali": "“Ye me, bhante, dhammā bhagavatā abhiññā desitā, seyyathidaṁ—",
+      "english": "“No, sir, I do not. "
+    },
+    {
+      "number": 28,
+      "pali": "cattāro satipaṭṭhānā cattāro sammappadhānā cattāro iddhipādā pañcindriyāni pañca balāni satta bojjhaṅgā ariyo aṭṭhaṅgiko maggo, nāhaṁ passāmi imesu dhammesu dvepi bhikkhū nānāvāde. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Ye ca kho, bhante, puggalā bhagavantaṁ patissayamānarūpā viharanti tepi bhagavato accayena saṅghe vivādaṁ janeyyuṁ ajjhājīve vā adhipātimokkhe vā. ",
+      "english": "Nevertheless, there are some individuals who appear to live obedient to the Buddha, but when the Buddha has passed away they might create a dispute in the Saṅgha regarding livelihood or the monastic code. "
+    },
+    {
+      "number": 30,
+      "pali": "Svāssa vivādo bahujanāhitāya bahujanāsukhāya bahuno janassa anatthāya ahitāya dukkhāya devamanussānan”ti. ",
+      "english": "Such a dispute would be for the detriment and suffering of the people, against the people, for the harm, detriment, and suffering of gods and humans.” "
+    },
+    {
+      "number": 31,
+      "pali": "“Appamattako so, ānanda, vivādo yadidaṁ—ajjhājīve vā adhipātimokkhe vā. ",
+      "english": "“Ānanda, dispute about livelihood or the monastic code is a minor matter. "
+    },
+    {
+      "number": 32,
+      "pali": "Magge vā hi, ānanda, paṭipadāya vā saṅghe vivādo uppajjamāno uppajjeyya; svāssa vivādo bahujanāhitāya bahujanāsukhāya bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+      "english": "But should a dispute arise in the Saṅgha concerning the path or the practice, that would be for the detriment and suffering of the people, against the people, for the harm, detriment, and suffering of gods and humans. "
+    },
+    {
+      "number": 33,
+      "pali": "Chayimāni, ānanda, vivādamūlāni. ",
+      "english": "Ānanda, there are these six roots of dispute. "
+    },
+    {
+      "number": 34,
+      "pali": "Katamāni cha? ",
+      "english": "What six? "
+    },
+    {
+      "number": 35,
+      "pali": "Idhānanda, bhikkhu kodhano hoti upanāhī. ",
+      "english": "Firstly, a mendicant is irritable and acrimonious. "
+    },
+    {
+      "number": 36,
+      "pali": "Yo so, ānanda, bhikkhu kodhano hoti upanāhī so sattharipi agāravo viharati appatisso, dhammepi agāravo viharati appatisso, saṅghepi agāravo viharati appatisso, sikkhāyapi na paripūrakārī hoti. ",
+      "english": "Such a mendicant lacks respect and reverence for the teacher, the teaching, and the Saṅgha, and they don’t fulfill the training. "
+    },
+    {
+      "number": 37,
+      "pali": "Yo so, ānanda, bhikkhu satthari agāravo viharati appatisso, dhamme … saṅghe agāravo viharati appatisso, sikkhāya na paripūrakārī hoti, so saṅghe vivādaṁ janeti; yo hoti vivādo bahujanāhitāya bahujanāsukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+      "english": "They create a dispute in the Saṅgha, which is for the detriment and suffering of the people, against the people, for the harm, detriment, and suffering of gods and humans. "
+    },
+    {
+      "number": 38,
+      "pali": "Evarūpañce tumhe, ānanda, vivādamūlaṁ ajjhattaṁ vā bahiddhā vā samanupasseyyātha, tatra tumhe, ānanda, tasseva pāpakassa vivādamūlassa pahānāya vāyameyyātha. ",
+      "english": "If you see such a root of dispute in yourselves or others, you should try to give up this bad thing. "
+    },
+    {
+      "number": 39,
+      "pali": "Evarūpañce tumhe, ānanda, vivādamūlaṁ ajjhattaṁ vā bahiddhā vā na samanupasseyyātha. Tatra tumhe, ānanda, tasseva pāpakassa vivādamūlassa āyatiṁ anavassavāya paṭipajjeyyātha. ",
+      "english": "If you don’t see it, you should practice so that it doesn’t come up in the future. "
+    },
+    {
+      "number": 40,
+      "pali": "Evametassa pāpakassa vivādamūlassa pahānaṁ hoti, evametassa pāpakassa vivādamūlassa āyatiṁ anavassavo hoti. ",
+      "english": "That’s how to give up this bad root of dispute, so it doesn’t come up in the future. "
+    },
+    {
+      "number": 41,
+      "pali": "Puna caparaṁ, ānanda, bhikkhu makkhī hoti paḷāsī …pe… ",
+      "english": "Furthermore, a mendicant is offensive and contemptuous … "
+    },
+    {
+      "number": 42,
+      "pali": "issukī hoti maccharī …pe… ",
+      "english": "They’re jealous and stingy … "
+    },
+    {
+      "number": 43,
+      "pali": "saṭho hoti māyāvī …pe… ",
+      "english": "They’re devious and deceitful … "
+    },
+    {
+      "number": 44,
+      "pali": "pāpiccho hoti micchādiṭṭhi …pe… ",
+      "english": "They have corrupt wishes and wrong view … "
+    },
+    {
+      "number": 45,
+      "pali": "sandiṭṭhiparāmāsī hoti ādhānaggāhī duppaṭinissaggī. ",
+      "english": "They’re attached to their own views, holding them tight, and refusing to let go. "
+    },
+    {
+      "number": 46,
+      "pali": "Yo so, ānanda, bhikkhu sandiṭṭhiparāmāsī hoti ādhānaggāhī duppaṭinissaggī so sattharipi agāravo viharati appatisso, dhammepi agāravo viharati appatisso, saṅghepi agāravo viharati appatisso, sikkhāyapi na paripūrakārī hoti. ",
+      "english": "Such a mendicant lacks respect and reverence for the teacher, the teaching, and the Saṅgha, and they don’t fulfill the training. "
+    },
+    {
+      "number": 47,
+      "pali": "Yo so, ānanda, bhikkhu satthari agāravo viharati appatisso, dhamme … saṅghe … sikkhāya na paripūrakārī hoti so saṅghe vivādaṁ janeti; yo hoti vivādo bahujanāhitāya bahujanāsukhāya, bahuno janassa anatthāya ahitāya dukkhāya devamanussānaṁ. ",
+      "english": "They create a dispute in the Saṅgha, which is for the detriment and suffering of the people, against the people, for the harm, detriment, and suffering of gods and humans. "
+    },
+    {
+      "number": 48,
+      "pali": "Evarūpañce tumhe, ānanda, vivādamūlaṁ ajjhattaṁ vā bahiddhā vā samanupasseyyātha. Tatra tumhe, ānanda, tasseva pāpakassa vivādamūlassa pahānāya vāyameyyātha. ",
+      "english": "If you see such a root of dispute in yourselves or others, you should try to give up this bad thing. "
+    },
+    {
+      "number": 49,
+      "pali": "Evarūpañce tumhe, ānanda, vivādamūlaṁ ajjhattaṁ vā bahiddhā vā na samanupasseyyātha, tatra tumhe, ānanda, tasseva pāpakassa vivādamūlassa āyatiṁ anavassavāya paṭipajjeyyātha. ",
+      "english": "If you don’t see it, you should practice so that it doesn’t come up in the future. "
+    },
+    {
+      "number": 50,
+      "pali": "Evametassa pāpakassa vivādamūlassa pahānaṁ hoti, evametassa pāpakassa vivādamūlassa āyatiṁ anavassavo hoti. ",
+      "english": "That’s how to give up this bad root of dispute, so it doesn’t come up in the future. "
+    },
+    {
+      "number": 51,
+      "pali": "Imāni kho, ānanda, cha vivādamūlāni. ",
+      "english": "These are the six roots of dispute. "
+    },
+    {
+      "number": 52,
+      "pali": "Cattārimāni, ānanda, adhikaraṇāni. ",
+      "english": "There are four kinds of disciplinary issues. "
+    },
+    {
+      "number": 53,
+      "pali": "Katamāni cattāri? ",
+      "english": "What four? "
+    },
+    {
+      "number": 54,
+      "pali": "Vivādādhikaraṇaṁ, anuvādādhikaraṇaṁ, āpattādhikaraṇaṁ, kiccādhikaraṇaṁ—",
+      "english": "Disciplinary issues due to disputes, accusations, offenses, or business. "
+    },
+    {
+      "number": 55,
+      "pali": "imāni kho, ānanda, cattāri adhikaraṇāni. ",
+      "english": "These are the four kinds of disciplinary issues. "
+    },
+    {
+      "number": 56,
+      "pali": "Satta kho panime, ānanda, adhikaraṇasamathā uppannuppannānaṁ adhikaraṇānaṁ samathāya vūpasamāya—",
+      "english": "There are seven methods for the settlement of any disciplinary issues that might arise. "
+    },
+    {
+      "number": 57,
+      "pali": "sammukhāvinayo dātabbo, sativinayo dātabbo, amūḷhavinayo dātabbo, paṭiññāya kāretabbaṁ, yebhuyyasikā, tassapāpiyasikā, tiṇavatthārako. ",
+      "english": "Resolution face-to-face to be applied. Resolution through recollection to be granted. Resolution because of past insanity to be granted. Acting according to what has been admitted. Majority decision. Further penalty. Covering over as if with grass. "
+    },
+    {
+      "number": 58,
+      "pali": "Kathañcānanda, sammukhāvinayo hoti? ",
+      "english": "And how is there resolution face-to-face? "
+    },
+    {
+      "number": 59,
+      "pali": "Idhānanda, bhikkhū vivadanti dhammoti vā adhammoti vā vinayoti vā avinayoti vā. ",
+      "english": "It’s when mendicants are disputing: ‘This is the teaching,’ ‘This is not the teaching,’ ‘This is the monastic law,’ ‘This is not the monastic law.’ "
+    },
+    {
+      "number": 60,
+      "pali": "Tehānanda, bhikkhūhi sabbeheva samaggehi sannipatitabbaṁ. ",
+      "english": "Those mendicants should all sit together in harmony "
+    },
+    {
+      "number": 61,
+      "pali": "Sannipatitvā dhammanetti samanumajjitabbā. ",
+      "english": "and thoroughly go over the guidelines of the teaching. "
+    },
+    {
+      "number": 62,
+      "pali": "Dhammanettiṁ samanumajjitvā yathā tattha sameti tathā taṁ adhikaraṇaṁ vūpasametabbaṁ. ",
+      "english": "They should settle that disciplinary issue in agreement with the guidelines. "
+    },
+    {
+      "number": 63,
+      "pali": "Evaṁ kho, ānanda, sammukhāvinayo hoti; ",
+      "english": "That’s how there is resolution face-to-face. "
+    },
+    {
+      "number": 64,
+      "pali": "evañca panidhekaccānaṁ adhikaraṇānaṁ vūpasamo hoti yadidaṁ—",
+      "english": "And that’s how certain disciplinary issues are settled, that is, "
+    },
+    {
+      "number": 65,
+      "pali": "sammukhāvinayena. ",
+      "english": "by resolution face-to-face. "
+    },
+    {
+      "number": 66,
+      "pali": "Kathañcānanda, yebhuyyasikā hoti? ",
+      "english": "And how is there majority decision? "
+    },
+    {
+      "number": 67,
+      "pali": "Te ce, ānanda, bhikkhū na sakkonti taṁ adhikaraṇaṁ tasmiṁ āvāse vūpasametuṁ. ",
+      "english": "If those mendicants are not able to settle that issue in that monastery, "
+    },
+    {
+      "number": 68,
+      "pali": "Tehānanda, bhikkhūhi yasmiṁ āvāse bahutarā bhikkhū so āvāso gantabbo. ",
+      "english": "they should go to another monastery with more mendicants. "
+    },
+    {
+      "number": 69,
+      "pali": "Tattha sabbeheva samaggehi sannipatitabbaṁ. ",
+      "english": "There they should all sit together in harmony "
+    },
+    {
+      "number": 70,
+      "pali": "Sannipatitvā dhammanetti samanumajjitabbā. ",
+      "english": "and thoroughly go over the guidelines of the teaching. "
+    },
+    {
+      "number": 71,
+      "pali": "Dhammanettiṁ samanumajjitvā yathā tattha sameti tathā taṁ adhikaraṇaṁ vūpasametabbaṁ. ",
+      "english": "They should settle that disciplinary issue in agreement with the guidelines. "
+    },
+    {
+      "number": 72,
+      "pali": "Evaṁ kho, ānanda, yebhuyyasikā hoti, evañca panidhekaccānaṁ adhikaraṇānaṁ vūpasamo hoti yadidaṁ—",
+      "english": "That’s how there is majority decision. And that’s how certain disciplinary issues are settled, that is, "
+    },
+    {
+      "number": 73,
+      "pali": "yebhuyyasikāya. ",
+      "english": "by majority decision. "
+    },
+    {
+      "number": 74,
+      "pali": "Kathañcānanda, sativinayo hoti? ",
+      "english": "And how is there resolution through recollection? "
+    },
+    {
+      "number": 75,
+      "pali": "Idhānanda, bhikkhū bhikkhuṁ evarūpāya garukāya āpattiyā codenti pārājikena vā pārājikasāmantena vā: ",
+      "english": "It’s when mendicants accuse a mendicant of a serious offense; one entailing expulsion, or close to it: "
+    },
+    {
+      "number": 76,
+      "pali": "‘saratāyasmā evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti? ",
+      "english": "‘Venerable, do you recall committing the kind of serious offense that entails expulsion or close to it?’ "
+    },
+    {
+      "number": 77,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 78,
+      "pali": "‘na kho ahaṁ, āvuso, sarāmi evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti. ",
+      "english": "‘No, reverends, I don’t recall committing such an offense.’ "
+    },
+    {
+      "number": 79,
+      "pali": "Tassa kho, ānanda, bhikkhuno sativinayo dātabbo. ",
+      "english": "The resolution through recollection should be granted to them. "
+    },
+    {
+      "number": 80,
+      "pali": "Evaṁ kho, ānanda, sativinayo hoti, evañca panidhekaccānaṁ adhikaraṇānaṁ vūpasamo hoti yadidaṁ—",
+      "english": "That’s how there is the resolution through recollection. And that’s how certain disciplinary issues are settled, that is, "
+    },
+    {
+      "number": 81,
+      "pali": "sativinayena. ",
+      "english": "by resolution through recollection. "
+    },
+    {
+      "number": 82,
+      "pali": "Kathañcānanda, amūḷhavinayo hoti? ",
+      "english": "And how is there resolution because of past insanity? "
+    },
+    {
+      "number": 83,
+      "pali": "Idhānanda, bhikkhū bhikkhuṁ evarūpāya garukāya āpattiyā codenti pārājikena vā pārājikasāmantena vā: ",
+      "english": "It’s when a mendicant accuses a mendicant of the kind of serious offense that entails expulsion, or close to it: "
+    },
+    {
+      "number": 84,
+      "pali": "‘saratāyasmā evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti? ",
+      "english": "‘Venerable, do you recall committing the kind of serious offense that entails expulsion or close to it?’ "
+    },
+    {
+      "number": 85,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 86,
+      "pali": "‘na kho ahaṁ, āvuso, sarāmi evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti. ",
+      "english": "‘No, reverend, I don’t recall committing such an offense.’ "
+    },
+    {
+      "number": 87,
+      "pali": "Tamenaṁ so nibbeṭhentaṁ ativeṭheti: ",
+      "english": "But though they try to get out of it, the mendicant pursues the issue: "
+    },
+    {
+      "number": 88,
+      "pali": "‘iṅghāyasmā sādhukameva jānāhi yadi sarasi evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti. ",
+      "english": "‘Surely the venerable must know perfectly well if you recall committing an offense that entails expulsion or close to it!’ "
+    },
+    {
+      "number": 89,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 90,
+      "pali": "‘ahaṁ kho, āvuso, ummādaṁ pāpuṇiṁ cetaso vipariyāsaṁ. ",
+      "english": "‘Reverend, I had gone mad, I was out of my mind. "
+    },
+    {
+      "number": 91,
+      "pali": "Tena me ummattakena bahuṁ assāmaṇakaṁ ajjhāciṇṇaṁ bhāsitaparikkantaṁ. ",
+      "english": "And while I was mad I did and said many things that are not proper for an ascetic. "
+    },
+    {
+      "number": 92,
+      "pali": "Nāhaṁ taṁ sarāmi. ",
+      "english": "I don’t remember any of that, "
+    },
+    {
+      "number": 93,
+      "pali": "Mūḷhena me etaṁ katan’ti. ",
+      "english": "I was mad when I did it.’ "
+    },
+    {
+      "number": 94,
+      "pali": "Tassa kho, ānanda, bhikkhuno amūḷhavinayo dātabbo. ",
+      "english": "The resolution because of past insanity should be granted to them. "
+    },
+    {
+      "number": 95,
+      "pali": "Evaṁ kho, ānanda, amūḷhavinayo hoti, evañca panidhekaccānaṁ adhikaraṇānaṁ vūpasamo hoti yadidaṁ—",
+      "english": "That’s how there is resolution because of past insanity. And that’s how certain disciplinary issues are settled, that is, "
+    },
+    {
+      "number": 96,
+      "pali": "amūḷhavinayena. ",
+      "english": "by resolution because of past insanity. "
+    },
+    {
+      "number": 97,
+      "pali": "Kathañcānanda, paṭiññātakaraṇaṁ hoti? ",
+      "english": "And how is there acting according to what has been admitted? "
+    },
+    {
+      "number": 98,
+      "pali": "Idhānanda, bhikkhu codito vā acodito vā āpattiṁ sarati, vivarati uttānīkaroti. ",
+      "english": "It’s when a mendicant, whether accused or not, recalls an offense and clarifies it and reveals it. "
+    },
+    {
+      "number": 99,
+      "pali": "Tena, ānanda, bhikkhunā vuḍḍhataraṁ bhikkhuṁ upasaṅkamitvā ekaṁsaṁ cīvaraṁ katvā pāde vanditvā ukkuṭikaṁ nisīditvā añjaliṁ paggahetvā evamassa vacanīyo: ",
+      "english": "After approaching a more senior mendicant, that mendicant should arrange his robe over one shoulder, bow to that mendicant’s feet, squat on their heels, raise their cupped palms, and say: "
+    },
+    {
+      "number": 100,
+      "pali": "‘ahaṁ, bhante, itthannāmaṁ āpattiṁ āpanno, taṁ paṭidesemī’ti. ",
+      "english": "‘Sir, I have fallen into such-and-such an offense. I confess it.’ "
+    },
+    {
+      "number": 101,
+      "pali": "So evamāha: ",
+      "english": "The senior mendicant says: "
+    },
+    {
+      "number": 102,
+      "pali": "‘passasī’ti? ",
+      "english": "‘Do you see it?’ "
+    },
+    {
+      "number": 103,
+      "pali": "‘Āma passāmī’ti. ",
+      "english": "‘Yes, I see it.’ "
+    },
+    {
+      "number": 104,
+      "pali": "‘Āyatiṁ saṁvareyyāsī’ti. ",
+      "english": "‘Then restrain yourself in future.’ "
+    },
+    {
+      "number": 105,
+      "pali": "‘Saṁvarissāmī’ti. ",
+      "english": "‘I shall restrain myself.’ "
+    },
+    {
+      "number": 106,
+      "pali": "Evaṁ kho, ānanda, paṭiññātakaraṇaṁ hoti, evañca panidhekaccānaṁ adhikaraṇānaṁ vūpasamo hoti yadidaṁ—",
+      "english": "That’s how there is acting according to what has been admitted. And that’s how certain disciplinary issues are settled, that is, "
+    },
+    {
+      "number": 107,
+      "pali": "paṭiññātakaraṇena. ",
+      "english": "by acting according to what has been admitted. "
+    },
+    {
+      "number": 108,
+      "pali": "Kathañcānanda, tassapāpiyasikā hoti? ",
+      "english": "And how is there a verdict of further penalty? "
+    },
+    {
+      "number": 109,
+      "pali": "Idhānanda, bhikkhu bhikkhuṁ evarūpāya garukāya āpattiyā codeti pārājikena vā pārājikasāmantena vā: ",
+      "english": "It’s when a mendicant accuses a mendicant of the kind of serious offense that entails expulsion, or close to it: "
+    },
+    {
+      "number": 110,
+      "pali": "‘saratāyasmā evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti? ",
+      "english": "‘Venerable, do you recall committing the kind of serious offense that entails expulsion or close to it?’ "
+    },
+    {
+      "number": 111,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 112,
+      "pali": "‘na kho ahaṁ, āvuso, sarāmi evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti. ",
+      "english": "‘No, reverends, I don’t recall committing such an offense.’ "
+    },
+    {
+      "number": 113,
+      "pali": "Tamenaṁ so nibbeṭhentaṁ ativeṭheti: ",
+      "english": "But though they try to get out of it, the mendicants pursue the issue: "
+    },
+    {
+      "number": 114,
+      "pali": "‘iṅghāyasmā sādhukameva jānāhi yadi sarasi evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti. ",
+      "english": "‘Surely the venerable must know perfectly well if you recall committing an offense that entails expulsion or close to it!’ "
+    },
+    {
+      "number": 115,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 116,
+      "pali": "‘na kho ahaṁ, āvuso, sarāmi evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā; ",
+      "english": "‘Reverends, I don’t recall committing a serious offense of that nature. "
+    },
+    {
+      "number": 117,
+      "pali": "sarāmi ca kho ahaṁ, āvuso, evarūpiṁ appamattikaṁ āpattiṁ āpajjitā’ti. ",
+      "english": "But I do recall committing a light offense.’ "
+    },
+    {
+      "number": 118,
+      "pali": "Tamenaṁ so nibbeṭhentaṁ ativeṭheti: ",
+      "english": "But though they try to get out of it, the mendicants pursue the issue: "
+    },
+    {
+      "number": 119,
+      "pali": "‘iṅghāyasmā sādhukameva jānāhi yadi sarasi evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti? ",
+      "english": "‘Surely the venerable must know perfectly well if you recall committing an offense that entails expulsion or close to it!’ "
+    },
+    {
+      "number": 120,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 121,
+      "pali": "‘imañhi nāmāhaṁ, āvuso, appamattikaṁ āpattiṁ āpajjitvā apuṭṭho paṭijānissāmi. ",
+      "english": "‘Reverends, I’ll go so far as to admit this light offense even when not asked. "
+    },
+    {
+      "number": 122,
+      "pali": "Kiṁ panāhaṁ evarūpiṁ garukaṁ āpattiṁ āpajjitvā pārājikaṁ vā pārājikasāmantaṁ vā puṭṭho na paṭijānissāmī’ti? ",
+      "english": "Why wouldn’t I admit a serious offense when asked?’ "
+    },
+    {
+      "number": 123,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 124,
+      "pali": "‘imañhi nāma tvaṁ, āvuso, appamattikaṁ āpattiṁ āpajjitvā apuṭṭho na paṭijānissasi, kiṁ pana tvaṁ evarūpiṁ garukaṁ āpattiṁ āpajjitvā pārājikaṁ vā pārājikasāmantaṁ vā puṭṭho paṭijānissasi? ",
+      "english": "‘You wouldn’t have admitted that light offense without being asked, so why would you admit a serious offense? "
+    },
+    {
+      "number": 125,
+      "pali": "Iṅghāyasmā sādhukameva jānāhi yadi sarasi evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti. ",
+      "english": "Surely the venerable must know perfectly well if you recall committing an offense that entails expulsion or close to it!’ "
+    },
+    {
+      "number": 126,
+      "pali": "So evamāha: ",
+      "english": "They say: "
+    },
+    {
+      "number": 127,
+      "pali": "‘sarāmi kho ahaṁ, āvuso, evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā. ",
+      "english": "‘Reverend, I do recall committing the kind of serious offense that entails expulsion or close to it. "
+    },
+    {
+      "number": 128,
+      "pali": "Davā me etaṁ vuttaṁ, ravā me etaṁ vuttaṁ—",
+      "english": "I spoke too hastily when I said "
+    },
+    {
+      "number": 129,
+      "pali": "nāhaṁ taṁ sarāmi evarūpiṁ garukaṁ āpattiṁ āpajjitā pārājikaṁ vā pārājikasāmantaṁ vā’ti. ",
+      "english": "that I didn’t recall it.’ "
+    },
+    {
+      "number": 130,
+      "pali": "Evaṁ kho, ānanda, tassapāpiyasikā hoti, evañca panidhekaccānaṁ adhikaraṇānaṁ vūpasamo hoti yadidaṁ—",
+      "english": "That’s how there is further penalty. And that’s how certain disciplinary issues are settled, that is, "
+    },
+    {
+      "number": 131,
+      "pali": "tassapāpiyasikāya. ",
+      "english": "by further penalty. "
+    },
+    {
+      "number": 132,
+      "pali": "Kathañcānanda, tiṇavatthārako hoti? ",
+      "english": "And how is there the covering over as if with grass? "
+    },
+    {
+      "number": 133,
+      "pali": "Idhānanda, bhikkhūnaṁ bhaṇḍanajātānaṁ kalahajātānaṁ vivādāpannānaṁ viharataṁ bahuṁ assāmaṇakaṁ ajjhāciṇṇaṁ hoti bhāsitaparikkantaṁ. ",
+      "english": "It’s when the mendicants continually fight, quarrel, and dispute, doing and saying many things that are not proper for an ascetic. "
+    },
+    {
+      "number": 134,
+      "pali": "Tehānanda, bhikkhūhi sabbeheva samaggehi sannipatitabbaṁ. ",
+      "english": "Those mendicants should all sit together in harmony. "
+    },
+    {
+      "number": 135,
+      "pali": "Sannipatitvā ekatopakkhikānaṁ bhikkhūnaṁ byattena bhikkhunā uṭṭhāyāsanā ekaṁsaṁ cīvaraṁ katvā añjaliṁ paṇāmetvā saṅgho ñāpetabbo—",
+      "english": "A competent mendicant of one party, having got up from their seat, arranged their robe over one shoulder, and raised their cupped palms, should inform the Saṅgha: "
+    },
+    {
+      "number": 136,
+      "pali": "Suṇātu me, bhante, saṅgho. ",
+      "english": "‘Sir, let the Saṅgha listen to me. "
+    },
+    {
+      "number": 137,
+      "pali": "Idaṁ amhākaṁ bhaṇḍanajātānaṁ kalahajātānaṁ vivādāpannānaṁ viharataṁ bahuṁ assāmaṇakaṁ ajjhāciṇṇaṁ bhāsitaparikkantaṁ. ",
+      "english": "We have been continually fighting, quarreling, and disputing, doing and saying many things that are not proper for an ascetic. "
+    },
+    {
+      "number": 138,
+      "pali": "Yadi saṅghassa pattakallaṁ, ahaṁ yā ceva imesaṁ āyasmantānaṁ āpatti yā ca attano āpatti, imesañceva āyasmantānaṁ atthāya attano ca atthāya, saṅghamajjhe tiṇavatthārakena deseyyaṁ, ṭhapetvā thullavajjaṁ ṭhapetvā gihipaṭisaṁyuttan’ti. ",
+      "english": "If it seems appropriate to the Saṅgha, then—for the benefit of these venerables and myself—I disclose in the middle of the Saṅgha by means of covering over as if with grass any offenses committed by these venerables and by myself, excepting only those that are gravely blameworthy and those connected with laypeople.’ "
+    },
+    {
+      "number": 139,
+      "pali": "Athāparesaṁ ekatopakkhikānaṁ bhikkhūnaṁ byattena bhikkhunā uṭṭhāyāsanā ekaṁsaṁ cīvaraṁ katvā añjaliṁ paṇāmetvā saṅgho ñāpetabbo: ",
+      "english": "Then a competent mendicant of the other party, having got up from their seat, arranged their robe over one shoulder, and raising their cupped palms, should inform the Saṅgha: "
+    },
+    {
+      "number": 140,
+      "pali": "‘Suṇātu me, bhante, saṅgho. ",
+      "english": "‘Sir, let the Saṅgha listen to me. "
+    },
+    {
+      "number": 141,
+      "pali": "Idaṁ amhākaṁ bhaṇḍanajātānaṁ kalahajātānaṁ vivādāpannānaṁ viharataṁ bahuṁ assāmaṇakaṁ ajjhāciṇṇaṁ bhāsitaparikkantaṁ. ",
+      "english": "We have been continually fighting, quarreling, and disputing, doing and saying many things that are not proper for an ascetic. "
+    },
+    {
+      "number": 142,
+      "pali": "Yadi saṅghassa pattakallaṁ, ahaṁ yā ceva imesaṁ āyasmantānaṁ āpatti yā ca attano āpatti, imesañceva āyasmantānaṁ atthāya attano ca atthāya, saṅghamajjhe tiṇavatthārakena deseyyaṁ, ṭhapetvā thullavajjaṁ ṭhapetvā gihipaṭisaṁyuttan’ti. ",
+      "english": "If it seems appropriate to the Saṅgha, then—for the benefit of these venerables and myself—I disclose in the middle of the Saṅgha by means of covering over as if with grass any offenses committed by these venerables and by myself, excepting only those that are gravely blameworthy and those connected with laypeople.’ "
+    },
+    {
+      "number": 143,
+      "pali": "Evaṁ kho, ānanda, tiṇavatthārako hoti, evañca panidhekaccānaṁ adhikaraṇānaṁ vūpasamo hoti yadidaṁ—",
+      "english": "That’s how there is the covering over as if with grass. And that’s how certain disciplinary issues are settled, that is, "
+    },
+    {
+      "number": 144,
+      "pali": "tiṇavatthārakena. ",
+      "english": "by covering over as if with grass. "
+    },
+    {
+      "number": 145,
+      "pali": "Chayime, ānanda, dhammā sāraṇīyā piyakaraṇā garukaraṇā saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṁvattanti. ",
+      "english": "Ānanda, these six warm-hearted qualities make for fondness and respect, conducing to inclusion, harmony, and unity, without quarreling. "
+    },
+    {
+      "number": 146,
+      "pali": "Katame cha? ",
+      "english": "What six? "
+    },
+    {
+      "number": 147,
+      "pali": "Idhānanda, bhikkhuno mettaṁ kāyakammaṁ paccupaṭṭhitaṁ hoti sabrahmacārīsu āvi ceva raho ca. ",
+      "english": "Firstly, a mendicant consistently treats their spiritual companions with bodily kindness, both in public and in private. "
+    },
+    {
+      "number": 148,
+      "pali": "Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṁvattati. ",
+      "english": "This warm-hearted quality makes for fondness and respect, conducing to inclusion, harmony, and unity, without dispute. "
+    },
+    {
+      "number": 149,
+      "pali": "Puna caparaṁ, ānanda, bhikkhuno mettaṁ vacīkammaṁ paccupaṭṭhitaṁ hoti sabrahmacārīsu āvi ceva raho ca. ",
+      "english": "Furthermore, a mendicant consistently treats their spiritual companions with verbal kindness … "
+    },
+    {
+      "number": 150,
+      "pali": "Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṁvattati. ",
+      "english": "This too is a warm-hearted quality. "
+    },
+    {
+      "number": 151,
+      "pali": "Puna caparaṁ, ānanda, bhikkhuno mettaṁ manokammaṁ paccupaṭṭhitaṁ hoti sabrahmacārīsu āvi ceva raho ca. ",
+      "english": "Furthermore, a mendicant consistently treats their spiritual companions with mental kindness … "
+    },
+    {
+      "number": 152,
+      "pali": "Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṁvattati. ",
+      "english": "This too is a warm-hearted quality. "
+    },
+    {
+      "number": 153,
+      "pali": "Puna caparaṁ, ānanda, bhikkhu—ye te lābhā dhammikā dhammaladdhā antamaso pattapariyāpannamattampi tathārūpehi lābhehi—apaṭivibhattabhogī hoti, sīlavantehi sabrahmacārīhi sādhāraṇabhogī. ",
+      "english": "Furthermore, a mendicant shares without reservation any material things they have gained by legitimate means, even the food placed in the alms-bowl, using them in common with their ethical spiritual companions. "
+    },
+    {
+      "number": 154,
+      "pali": "Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṁvattati. ",
+      "english": "This too is a warm-hearted quality. "
+    },
+    {
+      "number": 155,
+      "pali": "Puna caparaṁ, ānanda, bhikkhu—yāni tāni sīlāni akhaṇḍāni acchiddāni asabalāni akammāsāni bhujissāni viññuppasatthāni aparāmaṭṭhāni samādhisaṁvattanikāni tathārūpesu sīlesu—sīlasāmaññagato viharati sabrahmacārīhi āvi ceva raho ca. ",
+      "english": "Furthermore, a mendicant lives according to the precepts shared with their spiritual companions, both in public and in private. Those precepts are intact, impeccable, spotless, and unmarred, liberating, praised by sensible people, not mistaken, and leading to immersion. "
+    },
+    {
+      "number": 156,
+      "pali": "Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṁvattati. ",
+      "english": "This too is a warm-hearted quality. "
+    },
+    {
+      "number": 157,
+      "pali": "Puna caparaṁ, ānanda, bhikkhu—yāyaṁ diṭṭhi ariyā niyyānikā niyyāti takkarassa sammā dukkhakkhayāya tathārūpāya diṭṭhiyā—diṭṭhisāmaññagato viharati sabrahmacārīhi āvi ceva raho ca. ",
+      "english": "Furthermore, a mendicant lives according to the view shared with their spiritual companions, both in public and in private. That view is noble and emancipating, and delivers one who practices it to the complete ending of suffering. "
+    },
+    {
+      "number": 158,
+      "pali": "Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṁvattati. ",
+      "english": "This too is a warm-hearted quality. "
+    },
+    {
+      "number": 159,
+      "pali": "Ime kho, ānanda, cha sāraṇīyā dhammā piyakaraṇā garukaraṇā saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṁvattanti. ",
+      "english": "These six warm-hearted qualities make for fondness and respect, conducing to inclusion, harmony, and unity, without dispute. "
+    },
+    {
+      "number": 160,
+      "pali": "Ime ce tumhe, ānanda, cha sāraṇīye dhamme samādāya vatteyyātha, passatha no tumhe, ānanda, taṁ vacanapathaṁ aṇuṁ vā thūlaṁ vā yaṁ tumhe nādhivāseyyāthā”ti? ",
+      "english": "If you should undertake and follow these six warm-hearted qualities, do you see any criticism, large or small, that you could not endure?” "
+    },
+    {
+      "number": 161,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 162,
+      "pali": "“Tasmātihānanda, ime cha sāraṇīye dhamme samādāya vattatha. ",
+      "english": "“That’s why, Ānanda, you should undertake and follow these six warm-hearted qualities. "
+    },
+    {
+      "number": 163,
+      "pali": "Taṁ vo bhavissati dīgharattaṁ hitāya sukhāyā”ti. ",
+      "english": "That will be for your lasting welfare and happiness.” "
+    },
+    {
+      "number": 164,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 165,
+      "pali": "Attamano āyasmā ānando bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Ānanda approved what the Buddha said. "
+    },
+    {
+      "number": 166,
+      "pali": "Sāmagāmasuttaṁ niṭṭhitaṁ catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

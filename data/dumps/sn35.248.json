@@ -1,0 +1,330 @@
+{
+  "sutta_id": "SN35.248",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 35.248 ",
+      "english": "Linked Discourses 35.248 "
+    },
+    {
+      "number": 2,
+      "pali": "19. Āsīvisavagga ",
+      "english": "19. The Simile of the Vipers "
+    },
+    {
+      "number": 3,
+      "pali": "Yavakalāpisutta ",
+      "english": "The Sheaf of Barley "
+    },
+    {
+      "number": 4,
+      "pali": "“Seyyathāpi, bhikkhave, yavakalāpī cātumahāpathe nikkhittā assa. ",
+      "english": "“Mendicants, suppose a sheaf of barley was placed at a crossroads. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha cha purisā āgaccheyyuṁ byābhaṅgihatthā. ",
+      "english": "Then six people would come along carrying flails, "
+    },
+    {
+      "number": 6,
+      "pali": "Te yavakalāpiṁ chahi byābhaṅgīhi haneyyuṁ. ",
+      "english": "and start threshing the sheaf of barley. "
+    },
+    {
+      "number": 7,
+      "pali": "Evañhi sā, bhikkhave, yavakalāpī suhatā assa chahi byābhaṅgīhi haññamānā. ",
+      "english": "So that sheaf of barley would be thoroughly threshed by those six flails. "
+    },
+    {
+      "number": 8,
+      "pali": "Atha sattamo puriso āgaccheyya byābhaṅgihattho. ",
+      "english": "Then a seventh individual would come along carrying a flail, "
+    },
+    {
+      "number": 9,
+      "pali": "So taṁ yavakalāpiṁ sattamāya byābhaṅgiyā haneyya. ",
+      "english": "and they’d give the sheaf of barley a seventh threshing. "
+    },
+    {
+      "number": 10,
+      "pali": "Evañhi sā bhikkhave, yavakalāpī suhatatarā assa, sattamāya byābhaṅgiyā haññamānā. ",
+      "english": "So that sheaf of barley would be even more thoroughly threshed by that seventh flail. "
+    },
+    {
+      "number": 11,
+      "pali": "Evameva kho, bhikkhave, assutavā puthujjano cakkhusmiṁ haññati manāpāmanāpehi rūpehi …pe… ",
+      "english": "In the same way, an unlearned ordinary person is struck in the eye by both pleasant and unpleasant sights. "
+    },
+    {
+      "number": 12,
+      "pali": "jivhāya haññati manāpāmanāpehi rasehi …pe… ",
+      "english": "They’re struck in the ear … nose … tongue … body … "
+    },
+    {
+      "number": 13,
+      "pali": "manasmiṁ haññati manāpāmanāpehi dhammehi. ",
+      "english": "mind by both pleasant and unpleasant ideas. "
+    },
+    {
+      "number": 14,
+      "pali": "Sace so, bhikkhave, assutavā puthujjano āyatiṁ punabbhavāya ceteti, evañhi so, bhikkhave, moghapuriso suhatataro hoti, seyyathāpi sā yavakalāpī sattamāya byābhaṅgiyā haññamānā. ",
+      "english": "And if that unlearned ordinary person intends to be reborn in a new state of existence in the future, that futile person is even more thoroughly struck, like that sheaf of barley threshed by the seventh person. "
+    },
+    {
+      "number": 15,
+      "pali": "Bhūtapubbaṁ, bhikkhave, devāsurasaṅgāmo samupabyūḷho ahosi. ",
+      "english": "Once upon a time, a battle was fought between the gods and the titans. "
+    },
+    {
+      "number": 16,
+      "pali": "Atha kho, bhikkhave, vepacitti asurindo asure āmantesi: ",
+      "english": "Then Vepacitti, lord of titans, addressed the titans, "
+    },
+    {
+      "number": 17,
+      "pali": "‘sace, mārisā, devāsurasaṅgāme samupabyūḷhe asurā jineyyuṁ devā parājineyyuṁ, yena naṁ sakkaṁ devānamindaṁ kaṇṭhapañcamehi bandhanehi bandhitvā mama santike āneyyātha asurapuran’ti. ",
+      "english": "‘My good fellows, if the titans defeat the gods in this battle, bind Sakka, the lord of gods, by his limbs and neck and bring him to my presence in the citadel of the titans.’ "
+    },
+    {
+      "number": 18,
+      "pali": "Sakkopi kho, bhikkhave, devānamindo deve tāvatiṁse āmantesi: ",
+      "english": "Meanwhile, Sakka, lord of gods, addressed the gods of the thirty-three, "
+    },
+    {
+      "number": 19,
+      "pali": "‘sace, mārisā, devāsurasaṅgāme samupabyūḷhe devā jineyyuṁ asurā parājineyyuṁ, yena naṁ vepacittiṁ asurindaṁ kaṇṭhapañcamehi bandhanehi bandhitvā mama santike āneyyātha sudhammaṁ devasabhan’ti. ",
+      "english": "‘My good fellows, if the gods defeat the titans in this battle, bind Vepacitti by his limbs and neck and bring him to my presence in the Hall of Clear Right of the gods.’ "
+    },
+    {
+      "number": 20,
+      "pali": "Tasmiṁ kho pana, bhikkhave, saṅgāme devā jiniṁsu, asurā parājiniṁsu. ",
+      "english": "In that battle the gods won and the titans lost. "
+    },
+    {
+      "number": 21,
+      "pali": "Atha kho, bhikkhave, devā tāvatiṁsā vepacittiṁ asurindaṁ kaṇṭhapañcamehi bandhanehi bandhitvā sakkassa devānamindassa santike ānesuṁ sudhammaṁ devasabhaṁ. ",
+      "english": "So the gods of the thirty-three bound Vepacitti by his limbs and neck and brought him to Sakka’s presence in the Hall of Clear Right of the gods. "
+    },
+    {
+      "number": 22,
+      "pali": "Tatra sudaṁ, bhikkhave, vepacitti asurindo kaṇṭhapañcamehi bandhanehi baddho hoti. ",
+      "english": "And there Vepacitti remained bound by his limbs and neck. "
+    },
+    {
+      "number": 23,
+      "pali": "Yadā kho, bhikkhave, vepacittissa asurindassa evaṁ hoti: ",
+      "english": "That is, until he thought, "
+    },
+    {
+      "number": 24,
+      "pali": "‘dhammikā kho devā, adhammikā asurā, idheva dānāhaṁ devapuraṁ gacchāmī’ti. ",
+      "english": "‘It’s the gods who are principled, while the titans are unprincipled. Now I belong right here in the castle of the gods.’ "
+    },
+    {
+      "number": 25,
+      "pali": "Atha kaṇṭhapañcamehi bandhanehi muttaṁ attānaṁ samanupassati, dibbehi ca pañcahi kāmaguṇehi samappito samaṅgībhūto paricāreti. ",
+      "english": "Then he found himself freed from the bonds on his limbs and neck. He entertained himself, supplied and provided with the five kinds of heavenly sensual stimulation. "
+    },
+    {
+      "number": 26,
+      "pali": "Yadā ca kho, bhikkhave, vepacittissa asurindassa evaṁ hoti: ",
+      "english": "But when he thought, "
+    },
+    {
+      "number": 27,
+      "pali": "‘dhammikā kho asurā, adhammikā devā, tattheva dānāhaṁ asurapuraṁ gamissāmī’ti. ",
+      "english": "‘It’s the titans who are principled, while the gods are unprincipled. Now I will go over there to the citadel of the titans,’ "
+    },
+    {
+      "number": 28,
+      "pali": "atha kaṇṭhapañcamehi bandhanehi baddhaṁ attānaṁ samanupassati, dibbehi ca pañcahi kāmaguṇehi parihāyati. ",
+      "english": "he found himself bound by his limbs and neck, and the five kinds of heavenly sensual stimulation fell away. "
+    },
+    {
+      "number": 29,
+      "pali": "Evaṁ sukhumaṁ kho, bhikkhave, vepacittibandhanaṁ. ",
+      "english": "That’s how subtly Vepacitti was bound. "
+    },
+    {
+      "number": 30,
+      "pali": "Tato sukhumataraṁ mārabandhanaṁ. ",
+      "english": "But the bonds of Māra are even more subtle than that. "
+    },
+    {
+      "number": 31,
+      "pali": "Maññamāno kho, bhikkhave, baddho mārassa, amaññamāno mutto pāpimato. ",
+      "english": "When you conceive, you’re bound by Māra. Not conceiving, you’re free from the Wicked One. "
+    },
+    {
+      "number": 32,
+      "pali": "‘Asmī’ti, bhikkhave, maññitametaṁ, ‘ayamahamasmī’ti maññitametaṁ, ‘bhavissan’ti maññitametaṁ, ‘na bhavissan’ti maññitametaṁ, ‘rūpī bhavissan’ti maññitametaṁ, ‘arūpī bhavissan’ti maññitametaṁ, ‘saññī bhavissan’ti maññitametaṁ, ‘asaññī bhavissan’ti maññitametaṁ, ‘nevasaññīnāsaññī bhavissan’ti maññitametaṁ. ",
+      "english": "These are what is conceived: ‘I am’, ‘I am this’, ‘I will be’, ‘I will not be’, ‘I will have form’, ‘I will be formless’, ‘I will be percipient’, ‘I will be non-percipient’, ‘I will be neither percipient nor non-percipient.’ "
+    },
+    {
+      "number": 33,
+      "pali": "Maññitaṁ, bhikkhave, rogo, maññitaṁ gaṇḍo, maññitaṁ sallaṁ. ",
+      "english": "What is conceived is a disease, a boil, a dart. "
+    },
+    {
+      "number": 34,
+      "pali": "Tasmātiha, bhikkhave, ‘amaññamānena cetasā viharissāmā’ti—",
+      "english": "So mendicants, you should train yourselves like this: ‘We will live with a heart that does not conceive.’ "
+    },
+    {
+      "number": 35,
+      "pali": "evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "‘Asmī’ti, bhikkhave, iñjitametaṁ, ‘ayamahamasmī’ti iñjitametaṁ, ‘bhavissan’ti iñjitametaṁ, ‘na bhavissan’ti iñjitametaṁ, ‘rūpī bhavissan’ti iñjitametaṁ, ‘arūpī bhavissan’ti iñjitametaṁ, ‘saññī bhavissan’ti iñjitametaṁ, ‘asaññī bhavissan’ti iñjitametaṁ, ‘nevasaññīnāsaññī bhavissan’ti iñjitametaṁ. ",
+      "english": "These are what is perturbed: ‘I am’, ‘I am this’, ‘I will be’, ‘I will not be’, ‘I will have form’, ‘I will be formless’, ‘I will be percipient’, ‘I will be non-percipient’, ‘I will be neither percipient nor non-percipient.’ "
+    },
+    {
+      "number": 37,
+      "pali": "Iñjitaṁ, bhikkhave, rogo, iñjitaṁ gaṇḍo, iñjitaṁ sallaṁ. ",
+      "english": "What is perturbed is a disease, a boil, a dart. "
+    },
+    {
+      "number": 38,
+      "pali": "Tasmātiha, bhikkhave, ‘aniñjamānena cetasā viharissāmā’ti—",
+      "english": "So mendicants, you should train yourselves like this: ‘We will live with a heart free of perturbation.’ "
+    },
+    {
+      "number": 39,
+      "pali": "evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "‘Asmī’ti, bhikkhave, phanditametaṁ, ‘ayamahamasmī’ti phanditametaṁ, ‘bhavissan’ti …pe… ‘na bhavissan’ti … ‘rūpī bhavissan’ti … ‘arūpī bhavissan’ti … ‘saññī bhavissan’ti … ‘asaññī bhavissan’ti … ‘nevasaññīnāsaññī bhavissan’ti phanditametaṁ. ",
+      "english": "These are what is trembled: ‘I am’, ‘I am this’, ‘I will be’, ‘I will not be’, ‘I will have form’, ‘I will be formless’, ‘I will be percipient’, ‘I will be non-percipient’, ‘I will be neither percipient nor non-percipient.’ "
+    },
+    {
+      "number": 41,
+      "pali": "Phanditaṁ, bhikkhave, rogo, phanditaṁ gaṇḍo, phanditaṁ sallaṁ. ",
+      "english": "What is trembled is a disease, a boil, a dart. "
+    },
+    {
+      "number": 42,
+      "pali": "Tasmātiha, bhikkhave, ‘aphandamānena cetasā viharissāmā’ti—",
+      "english": "So mendicants, you should train yourselves like this: ‘We will live with a heart free of trembling.’ "
+    },
+    {
+      "number": 43,
+      "pali": "evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "‘Asmī’ti, bhikkhave, papañcitametaṁ, ‘ayamahamasmī’ti papañcitametaṁ, ‘bhavissan’ti …pe… ‘na bhavissan’ti … ‘rūpī bhavissan’ti … ‘arūpī bhavissan’ti … ‘saññī bhavissan’ti … ‘asaññī bhavissan’ti … ‘nevasaññīnāsaññī bhavissan’ti papañcitametaṁ. ",
+      "english": "These are what is proliferated: ‘I am’, ‘I am this’, ‘I will be’, ‘I will not be’, ‘I will have form’, ‘I will be formless’, ‘I will be percipient’, ‘I will be non-percipient’, ‘I will be neither percipient nor non-percipient.’ "
+    },
+    {
+      "number": 45,
+      "pali": "Papañcitaṁ, bhikkhave, rogo, papañcitaṁ gaṇḍo, papañcitaṁ sallaṁ. ",
+      "english": "What is proliferated is a disease, a boil, a dart. "
+    },
+    {
+      "number": 46,
+      "pali": "Tasmātiha, bhikkhave, ‘nippapañcena cetasā viharissāmā’ti—",
+      "english": "So mendicants, you should train yourselves like this: ‘We will live with a heart free of proliferation.’ "
+    },
+    {
+      "number": 47,
+      "pali": "evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "‘Asmī’ti, bhikkhave, mānagatametaṁ, ‘ayamahamasmī’ti mānagatametaṁ, ‘bhavissan’ti mānagatametaṁ, ‘na bhavissan’ti mānagatametaṁ, ‘rūpī bhavissan’ti mānagatametaṁ, ‘arūpī bhavissan’ti mānagatametaṁ, ‘saññī bhavissan’ti mānagatametaṁ, ‘asaññī bhavissan’ti mānagatametaṁ, ‘nevasaññīnāsaññī bhavissan’ti mānagatametaṁ. ",
+      "english": "These are states of conceit: ‘I am’, ‘I am this’, ‘I will be’, ‘I will not be’, ‘I will have form’, ‘I will be formless’, ‘I will be percipient’, ‘I will be non-percipient’, ‘I will be neither percipient nor non-percipient.’ "
+    },
+    {
+      "number": 49,
+      "pali": "Mānagataṁ, bhikkhave, rogo, mānagataṁ gaṇḍo, mānagataṁ sallaṁ. ",
+      "english": "The state of conceit is a disease, a boil, a dart. "
+    },
+    {
+      "number": 50,
+      "pali": "Tasmātiha, bhikkhave, ‘nihatamānena cetasā viharissāmā’ti—",
+      "english": "So mendicants, you should train yourselves like this: ‘We will live with a heart that has struck down conceit.’” "
+    },
+    {
+      "number": 51,
+      "pali": "evañhi vo, bhikkhave, sikkhitabban”ti. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Ekādasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Āsīvisavaggo catuttho. ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Āsīviso ratho kummo, ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "dve dārukkhandhā avassuto; ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "Dukkhadhammā kiṁsukā vīṇā, ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "chappāṇā yavakalāpīti. ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "Saḷāyatanavagge catutthapaṇṇāsako samatto. ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "Tassa vagguddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "Nandikkhayo saṭṭhinayo, ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "samuddo uragena ca; ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "Catupaṇṇāsakā ete, ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "nipātesu pakāsitāti. ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "Saḷāyatanasaṁyuttaṁ samattaṁ. ",
+      "english": "The Linked Discourses on the six sense fields are complete. "
+    }
+  ]
+}

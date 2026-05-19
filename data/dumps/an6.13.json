@@ -1,0 +1,250 @@
+{
+  "sutta_id": "AN6.13",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 6.13 ",
+      "english": "Numbered Discourses 6.13 "
+    },
+    {
+      "number": 2,
+      "pali": "2. Sāraṇīyavagga ",
+      "english": "2. Warm-hearted "
+    },
+    {
+      "number": 3,
+      "pali": "Nissāraṇīyasutta ",
+      "english": "Elements of Escape "
+    },
+    {
+      "number": 4,
+      "pali": "“Chayimā, bhikkhave, nissāraṇīyā dhātuyo. ",
+      "english": "“Mendicants, there are these six elements of escape. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamā cha? ",
+      "english": "What six? "
+    },
+    {
+      "number": 6,
+      "pali": "Idha, bhikkhave, bhikkhu evaṁ vadeyya: ",
+      "english": "Take a mendicant who says: "
+    },
+    {
+      "number": 7,
+      "pali": "‘mettā hi kho me cetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā; ",
+      "english": "‘I’ve developed the heart’s release by love. I’ve cultivated it, made it my vehicle and my basis, kept it up, consolidated it, and properly implemented it. "
+    },
+    {
+      "number": 8,
+      "pali": "atha ca pana me byāpādo cittaṁ pariyādāya tiṭṭhatī’ti. ",
+      "english": "Yet somehow ill will still occupies my mind.’ "
+    },
+    {
+      "number": 9,
+      "pali": "So ‘mā hevan’tissa vacanīyo: ‘māyasmā evaṁ avaca; mā bhagavantaṁ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṁ, na hi bhagavā evaṁ vadeyya. ",
+      "english": "They should be told, ‘Not so, venerable! Don’t say that. Don’t misrepresent the Buddha, for misrepresentation of the Buddha is not good. And the Buddha would not say that. "
+    },
+    {
+      "number": 10,
+      "pali": "Aṭṭhānametaṁ, āvuso, anavakāso yaṁ mettāya cetovimuttiyā bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya; ",
+      "english": "It’s impossible, reverend, it cannot happen that the heart’s release by love has been developed and properly implemented, "
+    },
+    {
+      "number": 11,
+      "pali": "atha ca panassa byāpādo cittaṁ pariyādāya ṭhassati, netaṁ ṭhānaṁ vijjati. ",
+      "english": "yet somehow ill will still occupies the mind. "
+    },
+    {
+      "number": 12,
+      "pali": "Nissaraṇañhetaṁ, āvuso, byāpādassa yadidaṁ mettācetovimuttī’ti. ",
+      "english": "For it is the heart’s release by love that is the escape from ill will.’ "
+    },
+    {
+      "number": 13,
+      "pali": "Idha pana, bhikkhave, bhikkhu evaṁ vadeyya: ",
+      "english": "Take another mendicant who says: "
+    },
+    {
+      "number": 14,
+      "pali": "‘karuṇā hi kho me cetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā; ",
+      "english": "‘I’ve developed the heart’s release by compassion. I’ve cultivated it, made it my vehicle and my basis, kept it up, consolidated it, and properly implemented it. "
+    },
+    {
+      "number": 15,
+      "pali": "atha ca pana me vihesā cittaṁ pariyādāya tiṭṭhatī’ti. ",
+      "english": "Yet somehow the thought of harming still occupies my mind.’ "
+    },
+    {
+      "number": 16,
+      "pali": "So ‘mā hevan’tissa vacanīyo: ‘māyasmā evaṁ avaca; mā bhagavantaṁ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṁ, na hi bhagavā evaṁ vadeyya. ",
+      "english": "They should be told, ‘Not so, venerable! … "
+    },
+    {
+      "number": 17,
+      "pali": "Aṭṭhānametaṁ, āvuso, anavakāso yaṁ karuṇāya cetovimuttiyā bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya; ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "atha ca panassa vihesā cittaṁ pariyādāya ṭhassati, netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "Nissaraṇañhetaṁ, āvuso, vihesāya yadidaṁ karuṇācetovimuttī’ti. ",
+      "english": "For it is the heart’s release by compassion that is the escape from thoughts of harming.’ "
+    },
+    {
+      "number": 20,
+      "pali": "Idha pana, bhikkhave, bhikkhu evaṁ vadeyya: ",
+      "english": "Take another mendicant who says: "
+    },
+    {
+      "number": 21,
+      "pali": "‘muditā hi kho me cetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā; ",
+      "english": "‘I’ve developed the heart’s release by rejoicing. I’ve cultivated it, made it my vehicle and my basis, kept it up, consolidated it, and properly implemented it. "
+    },
+    {
+      "number": 22,
+      "pali": "atha ca pana me arati cittaṁ pariyādāya tiṭṭhatī’ti. ",
+      "english": "Yet somehow discontent still occupies my mind.’ "
+    },
+    {
+      "number": 23,
+      "pali": "So ‘mā hevan’tissa vacanīyo: ‘māyasmā evaṁ avaca; mā bhagavantaṁ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṁ, na hi bhagavā evaṁ vadeyya. ",
+      "english": "They should be told, ‘Not so, venerable! … "
+    },
+    {
+      "number": 24,
+      "pali": "Aṭṭhānametaṁ, āvuso, anavakāso yaṁ muditāya cetovimuttiyā bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya; ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "atha ca panassa arati cittaṁ pariyādāya ṭhassati, netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "Nissaraṇañhetaṁ, āvuso, aratiyā yadidaṁ muditācetovimuttī’ti. ",
+      "english": "For it is the heart’s release by rejoicing that is the escape from discontent.’ "
+    },
+    {
+      "number": 27,
+      "pali": "Idha pana, bhikkhave, bhikkhu evaṁ vadeyya: ",
+      "english": "Take another mendicant who says: "
+    },
+    {
+      "number": 28,
+      "pali": "‘upekkhā hi kho me cetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā; ",
+      "english": "‘I’ve developed the heart’s release by equanimity. I’ve cultivated it, made it my vehicle and my basis, kept it up, consolidated it, and properly implemented it. "
+    },
+    {
+      "number": 29,
+      "pali": "atha ca pana me rāgo cittaṁ pariyādāya tiṭṭhatī’ti. ",
+      "english": "Yet somehow desire still occupies my mind.’ "
+    },
+    {
+      "number": 30,
+      "pali": "So ‘mā hevan’tissa vacanīyo: ‘māyasmā evaṁ avaca; mā bhagavantaṁ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṁ, na hi bhagavā evaṁ vadeyya. ",
+      "english": "They should be told, ‘Not so, venerable! … "
+    },
+    {
+      "number": 31,
+      "pali": "Aṭṭhānametaṁ, āvuso, anavakāso yaṁ upekkhāya cetovimuttiyā bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya; ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "atha ca panassa rāgo cittaṁ pariyādāya ṭhassati, netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Nissaraṇañhetaṁ, āvuso, rāgassa yadidaṁ upekkhācetovimuttī’ti. ",
+      "english": "For it is the heart’s release by equanimity that is the escape from desire.’ "
+    },
+    {
+      "number": 34,
+      "pali": "Idha pana, bhikkhave, bhikkhu evaṁ vadeyya: ",
+      "english": "Take another mendicant who says: "
+    },
+    {
+      "number": 35,
+      "pali": "‘animittā hi kho me cetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā; ",
+      "english": "‘I’ve developed the signless release of the heart. I’ve cultivated it, made it my vehicle and my basis, kept it up, consolidated it, and properly implemented it. "
+    },
+    {
+      "number": 36,
+      "pali": "atha ca pana me nimittānusāri viññāṇaṁ hotī’ti. ",
+      "english": "Yet somehow my consciousness still follows after signs.’ "
+    },
+    {
+      "number": 37,
+      "pali": "So ‘mā hevan’tissa vacanīyo: ‘māyasmā evaṁ avaca; mā bhagavantaṁ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṁ, na hi bhagavā evaṁ vadeyya. ",
+      "english": "They should be told, ‘Not so, venerable! … "
+    },
+    {
+      "number": 38,
+      "pali": "Aṭṭhānametaṁ, āvuso, anavakāso yaṁ animittāya cetovimuttiyā bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya; ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "atha ca panassa nimittānusāri viññāṇaṁ bhavissati, netaṁ ṭhānaṁ vijjati. ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "Nissaraṇañhetaṁ, āvuso, sabbanimittānaṁ yadidaṁ animittācetovimuttī’ti. ",
+      "english": "For it is the signless release of the heart that is the escape from all signs.’ "
+    },
+    {
+      "number": 41,
+      "pali": "Idha pana bhikkhave, bhikkhu evaṁ vadeyya: ",
+      "english": "Take another mendicant who says: "
+    },
+    {
+      "number": 42,
+      "pali": "‘asmīti kho me vigataṁ, ayamahamasmīti ca na samanupassāmi; ",
+      "english": "‘I’m rid of the conceit “I am”. And I don’t regard anything as “I am this”. "
+    },
+    {
+      "number": 43,
+      "pali": "atha ca pana me vicikicchākathaṅkathāsallaṁ cittaṁ pariyādāya tiṭṭhatī’ti. ",
+      "english": "Yet somehow the dart of doubt and indecision still occupies my mind.’ "
+    },
+    {
+      "number": 44,
+      "pali": "So ‘mā hevan’tissa vacanīyo: ‘māyasmā evaṁ avaca; mā bhagavantaṁ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṁ, na hi bhagavā evaṁ vadeyya. ",
+      "english": "They should be told, ‘Not so, venerable! Don’t say that. Don’t misrepresent the Buddha, for misrepresentation of the Buddha is not good. And the Buddha would not say that. "
+    },
+    {
+      "number": 45,
+      "pali": "Aṭṭhānametaṁ, āvuso, anavakāso yaṁ asmīti vigate ayamahamasmīti ca na samanupassato; ",
+      "english": "It’s impossible, reverend, it cannot happen that the conceit “I am” has been done away with, and nothing is regarded as “I am this”, "
+    },
+    {
+      "number": 46,
+      "pali": "atha ca panassa vicikicchākathaṅkathāsallaṁ cittaṁ pariyādāya ṭhassati, netaṁ ṭhānaṁ vijjati. ",
+      "english": "yet somehow the dart of doubt and indecision still occupies the mind. "
+    },
+    {
+      "number": 47,
+      "pali": "Nissaraṇañhetaṁ, āvuso, vicikicchākathaṅkathāsallassa yadidaṁ asmīti mānasamugghāto’ti. ",
+      "english": "For it is the uprooting of the conceit “I am” that is the escape from the dart of doubt and indecision.’ "
+    },
+    {
+      "number": 48,
+      "pali": "Imā kho, bhikkhave, cha nissāraṇīyā dhātuyo”ti. ",
+      "english": "These are the six elements of escape.” "
+    },
+    {
+      "number": 49,
+      "pali": "Tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

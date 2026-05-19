@@ -1,0 +1,410 @@
+{
+  "sutta_id": "SN16.7",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 16.7 ",
+      "english": "Linked Discourses 16.7 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Kassapavagga ",
+      "english": "1. Kassapa "
+    },
+    {
+      "number": 3,
+      "pali": "Dutiyaovādasutta ",
+      "english": "Advice (2nd) "
+    },
+    {
+      "number": 4,
+      "pali": "Rājagahe viharati veḷuvane. ",
+      "english": "Near Rājagaha, in the Bamboo Grove. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho āyasmā mahākassapo yena bhagavā tenupasaṅkami …pe… ",
+      "english": "Then Venerable Mahākassapa went up to the Buddha, bowed, and sat down to one side. "
+    },
+    {
+      "number": 6,
+      "pali": "ekamantaṁ nisinnaṁ kho āyasmantaṁ mahākassapaṁ bhagavā etadavoca: ",
+      "english": "The Buddha said to him, "
+    },
+    {
+      "number": 7,
+      "pali": "“ovada, kassapa, bhikkhū; ",
+      "english": "“Kassapa, advise the mendicants! "
+    },
+    {
+      "number": 8,
+      "pali": "karohi, kassapa, bhikkhūnaṁ dhammiṁ kathaṁ. ",
+      "english": "Give them a Dhamma talk! "
+    },
+    {
+      "number": 9,
+      "pali": "Ahaṁ vā, kassapa, bhikkhū ovadeyyaṁ tvaṁ vā; ",
+      "english": "Either you or I should advise the mendicants "
+    },
+    {
+      "number": 10,
+      "pali": "ahaṁ vā bhikkhūnaṁ dhammiṁ kathaṁ kareyyaṁ tvaṁ vā”ti. ",
+      "english": "and give them a Dhamma talk.” "
+    },
+    {
+      "number": 11,
+      "pali": "“Dubbacā kho, bhante, etarahi bhikkhū, dovacassakaraṇehi dhammehi samannāgatā akkhamā appadakkhiṇaggāhino anusāsaniṁ. ",
+      "english": "“Sir, the mendicants these days are hard to admonish, having qualities that make them hard to admonish. They’re impatient, and don’t take instruction respectfully. "
+    },
+    {
+      "number": 12,
+      "pali": "Yassa kassaci, bhante, saddhā natthi kusalesu dhammesu, hirī natthi kusalesu dhammesu, ottappaṁ natthi kusalesu dhammesu, vīriyaṁ natthi kusalesu dhammesu, paññā natthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, hāniyeva pāṭikaṅkhā kusalesu dhammesu, no vuddhi. ",
+      "english": "Sir, whoever has no faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities can expect decline, not growth, in skillful qualities, whether by day or by night. "
+    },
+    {
+      "number": 13,
+      "pali": "Seyyathāpi, bhante, kāḷapakkhe candassa yā ratti vā divaso vā āgacchati, hāyateva vaṇṇena, hāyati maṇḍalena, hāyati ābhāya, hāyati ārohapariṇāhena. ",
+      "english": "It’s like the moon in the waning fortnight. Whether by day or by night, its beauty, roundness, luminosity, and diameter and circumference only decline. "
+    },
+    {
+      "number": 14,
+      "pali": "Evameva kho, bhante, yassa kassaci saddhā natthi kusalesu dhammesu …pe… ",
+      "english": "In the same way, whoever has no faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities can expect decline, not growth, in skillful qualities, whether by day or by night. "
+    },
+    {
+      "number": 15,
+      "pali": "hirī natthi … ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "ottappaṁ natthi … ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "vīriyaṁ natthi … ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "paññā natthi … kusalesu dhammesu tassa yā ratti vā divaso vā āgacchati, hāniyeva pāṭikaṅkhā kusalesu dhammesu, no vuddhi. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "‘Assaddho purisapuggalo’ti, bhante, parihānametaṁ; ",
+      "english": "A faithless individual is in decline. "
+    },
+    {
+      "number": 20,
+      "pali": "‘ahiriko purisapuggalo’ti, bhante, parihānametaṁ; ",
+      "english": "An individual with no conscience is in decline. "
+    },
+    {
+      "number": 21,
+      "pali": "‘anottappī purisapuggalo’ti, bhante, parihānametaṁ; ",
+      "english": "An imprudent individual is in decline. "
+    },
+    {
+      "number": 22,
+      "pali": "‘kusīto purisapuggalo’ti, bhante, parihānametaṁ; ",
+      "english": "A lazy individual is in decline. "
+    },
+    {
+      "number": 23,
+      "pali": "‘duppañño purisapuggalo’ti, bhante, parihānametaṁ; ",
+      "english": "A witless individual is in decline. "
+    },
+    {
+      "number": 24,
+      "pali": "‘kodhano purisapuggalo’ti, bhante, parihānametaṁ; ",
+      "english": "An irritable individual is in decline. "
+    },
+    {
+      "number": 25,
+      "pali": "‘upanāhī purisapuggalo’ti, bhante, parihānametaṁ; ",
+      "english": "An acrimonious individual is in decline. "
+    },
+    {
+      "number": 26,
+      "pali": "‘na santi bhikkhū ovādakā’ti, bhante, parihānametaṁ. ",
+      "english": "When there are no mendicant advisers there is decline. "
+    },
+    {
+      "number": 27,
+      "pali": "Yassa kassaci, bhante, saddhā atthi kusalesu dhammesu, hirī atthi kusalesu dhammesu, ottappaṁ atthi kusalesu dhammesu, vīriyaṁ atthi kusalesu dhammesu, paññā atthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": "Sir, whoever has faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities can expect growth, not decline, in skillful qualities, whether by day or by night. "
+    },
+    {
+      "number": 28,
+      "pali": "Seyyathāpi, bhante, juṇhapakkhe candassa yā ratti vā divaso vā āgacchati, vaḍḍhateva vaṇṇena, vaḍḍhati maṇḍalena, vaḍḍhati ābhāya, vaḍḍhati ārohapariṇāhena. ",
+      "english": "It’s like the moon in the waxing fortnight. Whether by day or by night, its beauty, roundness, luminosity, and diameter and circumference only grow. "
+    },
+    {
+      "number": 29,
+      "pali": "Evameva kho, bhante, yassa kassaci saddhā atthi kusalesu dhammesu … ",
+      "english": "In the same way, whoever has faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities can expect growth, not decline, in skillful qualities, whether by day or by night. "
+    },
+    {
+      "number": 30,
+      "pali": "hirī atthi …pe… ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "ottappaṁ atthi … ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "vīriyaṁ atthi … ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "paññā atthi kusalesu dhammesu tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "‘Saddho purisapuggalo’ti, bhante, aparihānametaṁ; ",
+      "english": "A faithful individual doesn’t decline. "
+    },
+    {
+      "number": 35,
+      "pali": "‘hirimā purisapuggalo’ti, bhante, aparihānametaṁ; ",
+      "english": "An individual with a conscience doesn’t decline. "
+    },
+    {
+      "number": 36,
+      "pali": "‘ottappī purisapuggalo’ti, bhante, aparihānametaṁ; ",
+      "english": "A prudent individual doesn’t decline. "
+    },
+    {
+      "number": 37,
+      "pali": "‘āraddhavīriyo purisapuggalo’ti, bhante, aparihānametaṁ; ",
+      "english": "An energetic individual doesn’t decline. "
+    },
+    {
+      "number": 38,
+      "pali": "‘paññavā purisapuggalo’ti, bhante, aparihānametaṁ; ",
+      "english": "A wise individual doesn’t decline. "
+    },
+    {
+      "number": 39,
+      "pali": "‘akkodhano purisapuggalo’ti, bhante, aparihānametaṁ; ",
+      "english": "A loving individual doesn’t decline. "
+    },
+    {
+      "number": 40,
+      "pali": "‘anupanāhī purisapuggalo’ti, bhante, aparihānametaṁ; ",
+      "english": "A kind individual doesn’t decline. "
+    },
+    {
+      "number": 41,
+      "pali": "‘santi bhikkhū ovādakā’ti, bhante, aparihānametan”ti. ",
+      "english": "When there are mendicant advisers there is no decline.” "
+    },
+    {
+      "number": 42,
+      "pali": "“Sādhu sādhu, kassapa. ",
+      "english": "“Good, good, Kassapa! "
+    },
+    {
+      "number": 43,
+      "pali": "Yassa kassaci, kassapa, saddhā natthi kusalesu dhammesu …pe… ",
+      "english": "Whoever has no faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities can expect decline, not growth … "
+    },
+    {
+      "number": 44,
+      "pali": "hirī natthi … ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "ottappaṁ natthi … ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "vīriyaṁ natthi … ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "paññā natthi kusalesu dhammesu tassa yā ratti vā divaso vā āgacchati, hāniyeva pāṭikaṅkhā kusalesu dhammesu, no vuddhi. ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "Seyyathāpi, kassapa, kāḷapakkhe candassa yā ratti vā divaso vā āgacchati, hāyateva vaṇṇena …pe… ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "hāyati ārohapariṇāhena. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Evameva kho, kassapa, yassa kassaci saddhā natthi kusalesu dhammesu …pe… ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "hirī natthi … ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "ottappaṁ natthi … ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "vīriyaṁ natthi … ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "paññā natthi kusalesu dhammesu tassa yā ratti vā divaso vā āgacchati, hāniyeva pāṭikaṅkhā kusalesu dhammesu, no vuddhi. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "‘Assaddho purisapuggalo’ti, kassapa, parihānametaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "ahiriko …pe… ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "anottappī … ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "kusīto … ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "duppañño … ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "kodhano … ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "‘upanāhī purisapuggalo’ti, kassapa, parihānametaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "‘na santi bhikkhū ovādakā’ti, kassapa, parihānametaṁ. ",
+      "english": "When there are no mendicant advisers there is decline. "
+    },
+    {
+      "number": 63,
+      "pali": "Yassa kassaci, kassapa, saddhā atthi kusalesu dhammesu …pe… ",
+      "english": "Whoever has faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities can expect growth, not decline … "
+    },
+    {
+      "number": 64,
+      "pali": "hirī atthi … ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "ottappaṁ atthi … ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "vīriyaṁ atthi … ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "paññā atthi kusalesu dhammesu tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "Seyyathāpi, kassapa, juṇhapakkhe candassa yā ratti vā divaso vā āgacchati, vaḍḍhateva vaṇṇena, vaḍḍhati maṇḍalena, vaḍḍhati ābhāya, vaḍḍhati ārohapariṇāhena. ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "Evameva kho, kassapa, yassa kassaci saddhā atthi kusalesu dhammesu hirī atthi … ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "ottappaṁ atthi … ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "vīriyaṁ atthi … ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "paññā atthi kusalesu dhammesu tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "‘Saddho purisapuggalo’ti, kassapa, aparihānametaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "hirimā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "ottappī … ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "āraddhavīriyo … ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "paññavā … ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "akkodhano … ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "‘anupanāhī purisapuggalo’ti, kassapa, aparihānametaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "‘santi bhikkhū ovādakā’ti, kassapa, aparihānametan”ti. ",
+      "english": "When there are mendicant advisers there is no decline.” "
+    },
+    {
+      "number": 81,
+      "pali": "Sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

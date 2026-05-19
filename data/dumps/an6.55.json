@@ -1,0 +1,490 @@
+{
+  "sutta_id": "AN6.55",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 6.55 ",
+      "english": "Numbered Discourses 6.55 "
+    },
+    {
+      "number": 2,
+      "pali": "6. Mahāvagga ",
+      "english": "6. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Soṇasutta ",
+      "english": "With Soṇa "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā rājagahe viharati gijjhakūṭe pabbate. ",
+      "english": "At one time the Buddha was staying near Rājagaha, on the Vulture’s Peak Mountain. "
+    },
+    {
+      "number": 6,
+      "pali": "Tena kho pana samayena āyasmā soṇo rājagahe viharati sītavanasmiṁ. ",
+      "english": "Now at that time Venerable Soṇa was staying near Rājagaha in the Cool Grove. "
+    },
+    {
+      "number": 7,
+      "pali": "Atha kho āyasmato soṇassa rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
+      "english": "Then as he was in private retreat this thought came to his mind, "
+    },
+    {
+      "number": 8,
+      "pali": "“ye kho keci bhagavato sāvakā āraddhavīriyā viharanti, ahaṁ tesaṁ aññataro. ",
+      "english": "“I am one of the Buddha’s most energetic disciples. "
+    },
+    {
+      "number": 9,
+      "pali": "Atha ca pana me na anupādāya āsavehi cittaṁ vimuccati, saṁvijjanti kho pana me kule bhogā, sakkā bhogā ca bhuñjituṁ puññāni ca kātuṁ. ",
+      "english": "Yet my mind is not freed from defilements by not grasping. But my family has wealth. I could enjoy that wealth and make merit. "
+    },
+    {
+      "number": 10,
+      "pali": "Yannūnāhaṁ sikkhaṁ paccakkhāya hīnāyāvattitvā bhoge ca bhuñjeyyaṁ puññāni ca kareyyan”ti. ",
+      "english": "Why don’t I resign the training and return to a lesser life, so I can enjoy my wealth and make merit?” "
+    },
+    {
+      "number": 11,
+      "pali": "Atha kho bhagavā āyasmato soṇassa cetasā cetoparivitakkamaññāya—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ kho—gijjhakūṭe pabbate antarahito sītavane āyasmato soṇassa sammukhe pāturahosi. ",
+      "english": "Then the Buddha knew Venerable Soṇa’s train of thought. As easily as a strong person would extend or contract their arm, he vanished from the Vulture’s Peak and reappeared in the Cool Grove in front of Soṇa, "
+    },
+    {
+      "number": 12,
+      "pali": "Nisīdi bhagavā paññatte āsane. ",
+      "english": "and sat on the seat spread out. "
+    },
+    {
+      "number": 13,
+      "pali": "Āyasmāpi kho soṇo bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "Soṇa bowed to the Buddha and sat down to one side. "
+    },
+    {
+      "number": 14,
+      "pali": "Ekamantaṁ nisinnaṁ kho āyasmantaṁ soṇaṁ bhagavā etadavoca: ",
+      "english": "The Buddha said to him, "
+    },
+    {
+      "number": 15,
+      "pali": "“Nanu te, soṇa, rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
+      "english": "“Soṇa, as you were in private retreat didn’t this thought come to your mind: "
+    },
+    {
+      "number": 16,
+      "pali": "‘ye kho keci bhagavato sāvakā āraddhavīriyā viharanti, ahaṁ tesaṁ aññataro. ",
+      "english": "‘I am one of the Buddha’s most energetic disciples. "
+    },
+    {
+      "number": 17,
+      "pali": "Atha ca pana me na anupādāya āsavehi cittaṁ vimuccati, saṁvijjanti kho pana me kule bhogā, sakkā bhogā ca bhuñjituṁ puññāni ca kātuṁ. ",
+      "english": "Yet my mind is not freed from defilements by not grasping. But my family has wealth. I could enjoy that wealth and make merit. "
+    },
+    {
+      "number": 18,
+      "pali": "Yannūnāhaṁ sikkhaṁ paccakkhāya hīnāyāvattitvā bhoge ca bhuñjeyyaṁ puññāni ca kareyyan’”ti? ",
+      "english": "Why don’t I resign the training and return to a lesser life, so I can enjoy my wealth and make merit?’” "
+    },
+    {
+      "number": 19,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 20,
+      "pali": "“Taṁ kiṁ maññasi, soṇa, ",
+      "english": "“What do you think, Soṇa? "
+    },
+    {
+      "number": 21,
+      "pali": "kusalo tvaṁ pubbe agāriyabhūto vīṇāya tantissare”ti? ",
+      "english": "When you were still a layman, weren’t you a good player of the arched harp?” "
+    },
+    {
+      "number": 22,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 23,
+      "pali": "“Taṁ kiṁ maññasi, soṇa, yadā te vīṇāya tantiyo accāyatā honti, api nu te vīṇā tasmiṁ samaye saravatī vā hoti kammaññā vā”ti? ",
+      "english": "“When your harp’s strings were tuned too tight, was it resonant and playable?” "
+    },
+    {
+      "number": 24,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 25,
+      "pali": "“Taṁ kiṁ maññasi, soṇa, yadā te vīṇāya tantiyo atisithilā honti, api nu te vīṇā tasmiṁ samaye saravatī vā hoti kammaññā vā”ti? ",
+      "english": "“When your harp’s strings were tuned too slack, was it resonant and playable?” "
+    },
+    {
+      "number": 26,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 27,
+      "pali": "“Yadā pana te, soṇa, vīṇāya tantiyo na accāyatā honti nātisithilā same guṇe patiṭṭhitā, api nu te vīṇā tasmiṁ samaye saravatī vā hoti kammaññā vā”ti? ",
+      "english": "“But when your harp’s strings were tuned neither too tight nor too slack, but fixed at an even tension, was it resonant and playable?” "
+    },
+    {
+      "number": 28,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 29,
+      "pali": "“Evamevaṁ kho, soṇa, accāraddhavīriyaṁ uddhaccāya saṁvattati, atisithilavīriyaṁ kosajjāya saṁvattati. ",
+      "english": "“In the same way, Soṇa, when energy is too forceful it leads to restlessness. When energy is too slack it leads to laziness. "
+    },
+    {
+      "number": 30,
+      "pali": "Tasmātiha tvaṁ, soṇa, vīriyasamathaṁ adhiṭṭhaha, indriyānañca samataṁ paṭivijjha, tattha ca nimittaṁ gaṇhāhī”ti. ",
+      "english": "So, Soṇa, you should focus on energy and serenity, find a balance of the faculties, and learn the character of this situation.” "
+    },
+    {
+      "number": 31,
+      "pali": "“Evaṁ, bhante”ti kho āyasmā soṇo bhagavato paccassosi. ",
+      "english": "“Yes, sir,” Soṇa replied. "
+    },
+    {
+      "number": 32,
+      "pali": "Atha kho bhagavā āyasmantaṁ soṇaṁ iminā ovādena ovaditvā—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ kho—sītavane antarahito gijjhakūṭe pabbate pāturahosi. ",
+      "english": "After advising Soṇa like this, the Buddha, as easily as a strong person would extend or contract their arm, vanished from the Cool Grove and reappeared on the Vulture’s Peak. "
+    },
+    {
+      "number": 33,
+      "pali": "Atha kho āyasmā soṇo aparena samayena vīriyasamathaṁ adhiṭṭhāsi, indriyānañca samataṁ paṭivijjhi, tattha ca nimittaṁ aggahesi. ",
+      "english": "After some time Soṇa focused on energy and serenity, found a balance of the faculties, and learned the pattern of this situation. "
+    },
+    {
+      "number": 34,
+      "pali": "Atha kho āyasmā soṇo eko vūpakaṭṭho appamatto ātāpī pahitatto viharanto nacirasseva—yassatthāya kulaputtā sammadeva agārasmā anāgāriyaṁ pabbajanti, tadanuttaraṁ—brahmacariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja vihāsi. ",
+      "english": "Then Soṇa, living alone, withdrawn, diligent, keen, and resolute, soon realized the supreme culmination of the spiritual path in this very life. He lived having achieved with his own insight the goal for which gentlemen rightly go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 35,
+      "pali": "“Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti abbhaññāsi. ",
+      "english": "He understood: “Rebirth is ended; the spiritual journey has been completed; what had to be done has been done; there is nothing further for this place.” "
+    },
+    {
+      "number": 36,
+      "pali": "Aññataro ca panāyasmā soṇo arahataṁ ahosi. ",
+      "english": "And Venerable Soṇa became one of the perfected. "
+    },
+    {
+      "number": 37,
+      "pali": "Atha kho āyasmato soṇassa arahattappattassa etadahosi: ",
+      "english": "Then, when Soṇa had attained perfection, he thought, "
+    },
+    {
+      "number": 38,
+      "pali": "“yannūnāhaṁ yena bhagavā tenupasaṅkameyyaṁ; upasaṅkamitvā bhagavato santike aññaṁ byākareyyan”ti. ",
+      "english": "“Why don’t I go to the Buddha and declare my enlightenment in his presence?” "
+    },
+    {
+      "number": 39,
+      "pali": "Atha kho āyasmā soṇo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā soṇo bhagavantaṁ etadavoca: ",
+      "english": "Then Soṇa went up to the Buddha, bowed, sat down to one side, and said to him: "
+    },
+    {
+      "number": 40,
+      "pali": "“Yo so, bhante, bhikkhu arahaṁ khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṁyojano sammadaññāvimutto, so cha ṭhānāni adhimutto hoti—",
+      "english": "“Sir, a mendicant who is perfected—with defilements ended, who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment—is dedicated to six things. "
+    },
+    {
+      "number": 41,
+      "pali": "nekkhammādhimutto hoti, pavivekādhimutto hoti, abyāpajjādhimutto hoti, taṇhākkhayādhimutto hoti, upādānakkhayādhimutto hoti, asammohādhimutto hoti. ",
+      "english": "They are dedicated to renunciation, seclusion, kindness, the ending of craving, the ending of grasping, and mental clarity. "
+    },
+    {
+      "number": 42,
+      "pali": "Siyā kho pana, bhante, idhekaccassa āyasmato evamassa: ",
+      "english": "It may be, sir, that one of the venerables here thinks: "
+    },
+    {
+      "number": 43,
+      "pali": "‘kevalaṁsaddhāmattakaṁ nūna ayamāyasmā nissāya nekkhammādhimutto’ti. ",
+      "english": "‘Maybe this venerable is dedicated to renunciation solely out of mere faith.’ "
+    },
+    {
+      "number": 44,
+      "pali": "Na kho panetaṁ, bhante, evaṁ daṭṭhabbaṁ. ",
+      "english": "But it should not be seen like this. "
+    },
+    {
+      "number": 45,
+      "pali": "Khīṇāsavo, bhante, bhikkhu vusitavā katakaraṇīyo karaṇīyaṁ attano asamanupassanto katassa vā paṭicayaṁ khayā rāgassa vītarāgattā nekkhammādhimutto hoti, khayā dosassa vītadosattā nekkhammādhimutto hoti, khayā mohassa vītamohattā nekkhammādhimutto hoti. ",
+      "english": "A mendicant with defilements ended does not see in themselves anything more to do, or anything that needs improvement. They’re dedicated to renunciation because they’re free of greed, hate, and delusion with the end of greed, hate, and delusion. "
+    },
+    {
+      "number": 46,
+      "pali": "Siyā kho pana, bhante, idhekaccassa āyasmato evamassa: ",
+      "english": "It may be, sir, that one of the venerables here thinks: "
+    },
+    {
+      "number": 47,
+      "pali": "‘lābhasakkārasilokaṁ nūna ayamāyasmā nikāmayamāno pavivekādhimutto’ti. ",
+      "english": "‘Maybe this venerable is dedicated to seclusion because they enjoy possessions, honor, and popularity.’ "
+    },
+    {
+      "number": 48,
+      "pali": "Na kho panetaṁ, bhante, evaṁ daṭṭhabbaṁ. ",
+      "english": "But it should not be seen like this. … "
+    },
+    {
+      "number": 49,
+      "pali": "Khīṇāsavo, bhante, bhikkhu vusitavā katakaraṇīyo karaṇīyaṁ attano asamanupassanto katassa vā paṭicayaṁ khayā rāgassa vītarāgattā pavivekādhimutto hoti, khayā dosassa vītadosattā pavivekādhimutto hoti, khayā mohassa vītamohattā pavivekādhimutto hoti. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Siyā kho pana, bhante, idhekaccassa āyasmato evamassa: ",
+      "english": "It may be, sir, that one of the venerables here thinks: "
+    },
+    {
+      "number": 51,
+      "pali": "‘sīlabbataparāmāsaṁ nūna ayamāyasmā sārato paccāgacchanto abyāpajjādhimutto’ti. ",
+      "english": "‘Maybe this venerable is dedicated to kindness because they believe that adhering to precepts and observances is essential.’ "
+    },
+    {
+      "number": 52,
+      "pali": "Na kho panetaṁ, bhante, evaṁ daṭṭhabbaṁ. ",
+      "english": "But it should not be seen like this. … "
+    },
+    {
+      "number": 53,
+      "pali": "Khīṇāsavo, bhante, bhikkhu vusitavā katakaraṇīyo karaṇīyaṁ attano asamanupassanto katassa vā paṭicayaṁ khayā rāgassa vītarāgattā abyāpajjādhimutto hoti, khayā dosassa vītadosattā abyāpajjādhimutto hoti, khayā mohassa vītamohattā abyāpajjādhimutto hoti. ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Khayā rāgassa vītarāgattā taṇhākkhayādhimutto hoti, khayā dosassa vītadosattā taṇhākkhayādhimutto hoti, khayā mohassa vītamohattā taṇhākkhayādhimutto hoti. ",
+      "english": "They’re dedicated to the ending of craving because they’re free of greed, hate, and delusion with the end of greed, hate, and delusion. "
+    },
+    {
+      "number": 55,
+      "pali": "Khayā rāgassa vītarāgattā upādānakkhayādhimutto hoti, khayā dosassa vītadosattā upādānakkhayādhimutto hoti, khayā mohassa vītamohattā upādānakkhayādhimutto hoti. ",
+      "english": "They’re dedicated to the ending of grasping because they’re free of greed, hate, and delusion with the end of greed, hate, and delusion. "
+    },
+    {
+      "number": 56,
+      "pali": "Khayā rāgassa vītarāgattā asammohādhimutto hoti, khayā dosassa vītadosattā asammohādhimutto hoti, khayā mohassa vītamohattā asammohādhimutto hoti. ",
+      "english": "They’re dedicated to clarity of mind because they’re free of greed, hate, and delusion with the end of greed, hate, and delusion. "
+    },
+    {
+      "number": 57,
+      "pali": "Evaṁ sammā vimuttacittassa, bhante, bhikkhuno bhusā cepi cakkhuviññeyyā rūpā cakkhussa āpāthaṁ āgacchanti, nevassa cittaṁ pariyādiyanti. ",
+      "english": "When a mendicant’s mind is rightly freed like this, even if compelling sights come into the range of vision they don’t overcome their mind. "
+    },
+    {
+      "number": 58,
+      "pali": "Amissīkatamevassa cittaṁ hoti ṭhitaṁ āneñjappattaṁ vayañcassānupassati. ",
+      "english": "Their mind is quite untainted. It is steady, imperturbable, observing disappearance. "
+    },
+    {
+      "number": 59,
+      "pali": "Bhusā cepi sotaviññeyyā saddā … ",
+      "english": "Even if compelling sounds … "
+    },
+    {
+      "number": 60,
+      "pali": "ghānaviññeyyā gandhā … ",
+      "english": "smells … "
+    },
+    {
+      "number": 61,
+      "pali": "jivhāviññeyyā rasā … ",
+      "english": "tastes … "
+    },
+    {
+      "number": 62,
+      "pali": "kāyaviññeyyā phoṭṭhabbā … ",
+      "english": "touches … "
+    },
+    {
+      "number": 63,
+      "pali": "manoviññeyyā dhammā manassa āpāthaṁ āgacchanti, nevassa cittaṁ pariyādiyanti. ",
+      "english": "and ideas come into the range of the mind they don’t overcome the mind. "
+    },
+    {
+      "number": 64,
+      "pali": "Amissīkatamevassa cittaṁ hoti ṭhitaṁ āneñjappattaṁ vayañcassānupassati. ",
+      "english": "Their mind is quite untainted. It is steady, imperturbable, observing disappearance. "
+    },
+    {
+      "number": 65,
+      "pali": "Seyyathāpi, bhante, selo pabbato acchiddo asusiro ekagghano. ",
+      "english": "Suppose there was a mountain that was one solid mass of rock, without cracks or holes. "
+    },
+    {
+      "number": 66,
+      "pali": "Atha puratthimāya cepi disāya āgaccheyya bhusā vātavuṭṭhi neva naṁ saṅkampeyya na sampakampeyya na sampavedheyya, atha pacchimāya cepi disāya āgaccheyya bhusā vātavuṭṭhi … ",
+      "english": "Even if violent storms were to blow up out of the east, the west, the north, and the south, "
+    },
+    {
+      "number": 67,
+      "pali": "atha uttarāya cepi disāya āgaccheyya bhusā vātavuṭṭhi … ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "atha dakkhiṇāya cepi disāya āgaccheyya bhusā vātavuṭṭhi neva naṁ saṅkampeyya na sampakampeyya na sampavedheyya; ",
+      "english": "they couldn’t make it shake or rock or tremble. "
+    },
+    {
+      "number": 69,
+      "pali": "evamevaṁ kho, bhante, evaṁ sammāvimuttacittassa bhikkhuno bhusā cepi cakkhuviññeyyā rūpā cakkhussa āpāthaṁ āgacchanti, nevassa cittaṁ pariyādiyanti. ",
+      "english": "In the same way, when a mendicant’s mind is rightly freed like this, even if compelling sights come into the range of vision they don’t overcome their mind. … "
+    },
+    {
+      "number": 70,
+      "pali": "Amissīkatamevassa cittaṁ hoti, ṭhitaṁ āneñjappattaṁ vayañcassānupassati. ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "Bhusā cepi sotaviññeyyā saddā … ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "ghānaviññeyyā gandhā … ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "jivhāviññeyyā rasā … ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "kāyaviññeyyā phoṭṭhabbā … ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "manoviññeyyā dhammā manassa āpāthaṁ āgacchanti, nevassa cittaṁ pariyādiyanti. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "Amissīkatamevassa cittaṁ hoti ṭhitaṁ āneñjappattaṁ vayañcassānupassatīti. ",
+      "english": "Their mind is quite untainted. It is steady, imperturbable, observing disappearance. "
+    },
+    {
+      "number": 77,
+      "pali": "Nekkhammaṁ adhimuttassa, ",
+      "english": "When you’re dedicated to renunciation "
+    },
+    {
+      "number": 78,
+      "pali": "pavivekañca cetaso; ",
+      "english": "and seclusion of the heart; "
+    },
+    {
+      "number": 79,
+      "pali": "Abyāpajjādhimuttassa, ",
+      "english": "when you’re dedicated to kindness "
+    },
+    {
+      "number": 80,
+      "pali": "upādānakkhayassa ca. ",
+      "english": "and the end of grasping; "
+    },
+    {
+      "number": 81,
+      "pali": "Taṇhākkhayādhimuttassa, ",
+      "english": "when you’re dedicated to the ending of craving "
+    },
+    {
+      "number": 82,
+      "pali": "asammohañca cetaso; ",
+      "english": "and clarity of heart; "
+    },
+    {
+      "number": 83,
+      "pali": "Disvā āyatanuppādaṁ, ",
+      "english": "and you’ve seen the arising of the senses, "
+    },
+    {
+      "number": 84,
+      "pali": "sammā cittaṁ vimuccati. ",
+      "english": "your mind is rightly freed. "
+    },
+    {
+      "number": 85,
+      "pali": "Tassa sammā vimuttassa, ",
+      "english": "For that one, rightly freed, "
+    },
+    {
+      "number": 86,
+      "pali": "santacittassa bhikkhuno; ",
+      "english": "a mendicant with peaceful mind, "
+    },
+    {
+      "number": 87,
+      "pali": "Katassa paṭicayo natthi, ",
+      "english": "there’s nothing to be improved, "
+    },
+    {
+      "number": 88,
+      "pali": "karaṇīyaṁ na vijjati. ",
+      "english": "and nothing more to do. "
+    },
+    {
+      "number": 89,
+      "pali": "Selo yathā ekagghano, ",
+      "english": "As the wind cannot stir "
+    },
+    {
+      "number": 90,
+      "pali": "vātena na samīrati; ",
+      "english": "a solid mass of rock, "
+    },
+    {
+      "number": 91,
+      "pali": "Evaṁ rūpā rasā saddā, ",
+      "english": "so too sights, tastes, sounds, "
+    },
+    {
+      "number": 92,
+      "pali": "gandhā phassā ca kevalā. ",
+      "english": "smells, and touches—the lot—"
+    },
+    {
+      "number": 93,
+      "pali": "Iṭṭhā dhammā aniṭṭhā ca, ",
+      "english": "and ideas, whether liked or disliked, "
+    },
+    {
+      "number": 94,
+      "pali": "nappavedhenti tādino; ",
+      "english": "don’t disturb the unaffected one. "
+    },
+    {
+      "number": 95,
+      "pali": "Ṭhitaṁ cittaṁ vippamuttaṁ, ",
+      "english": "Their mind is steady and free "
+    },
+    {
+      "number": 96,
+      "pali": "vayañcassānupassatī”ti. ",
+      "english": "as they observe fall.” "
+    },
+    {
+      "number": 97,
+      "pali": "Paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

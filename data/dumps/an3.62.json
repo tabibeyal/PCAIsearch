@@ -1,0 +1,280 @@
+{
+  "sutta_id": "AN3.62",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 3.62 ",
+      "english": "Numbered Discourses 3.62 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Mahāvagga ",
+      "english": "7. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Bhayasutta ",
+      "english": "Perils "
+    },
+    {
+      "number": 4,
+      "pali": "“Tīṇimāni, bhikkhave, amātāputtikāni bhayānīti assutavā puthujjano bhāsati. ",
+      "english": "“Mendicants, an unlearned ordinary person speaks of three perils that tear mothers and children apart. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamāni tīṇi? ",
+      "english": "What three? "
+    },
+    {
+      "number": 6,
+      "pali": "Hoti so, bhikkhave, samayo yaṁ mahāaggiḍāho vuṭṭhāti. ",
+      "english": "There comes a time when a great fire flares up, "
+    },
+    {
+      "number": 7,
+      "pali": "Mahāaggiḍāhe kho pana, bhikkhave, vuṭṭhite tena gāmāpi ḍayhanti nigamāpi ḍayhanti nagarāpi ḍayhanti. ",
+      "english": "and it burns villages, towns, and cities. "
+    },
+    {
+      "number": 8,
+      "pali": "Gāmesupi ḍayhamānesu nigamesupi ḍayhamānesu nagaresupi ḍayhamānesu tattha mātāpi puttaṁ nappaṭilabhati, puttopi mātaraṁ nappaṭilabhati. ",
+      "english": "When this happens, a mother can’t find her child, and a child can’t find their mother. "
+    },
+    {
+      "number": 9,
+      "pali": "Idaṁ, bhikkhave, paṭhamaṁ amātāputtikaṁ bhayanti assutavā puthujjano bhāsati. ",
+      "english": "This is the first peril that tears mothers and children apart. "
+    },
+    {
+      "number": 10,
+      "pali": "Puna caparaṁ, bhikkhave, hoti so samayo yaṁ mahāmegho vuṭṭhāti. ",
+      "english": "Furthermore, there comes a time when a great storm gathers, "
+    },
+    {
+      "number": 11,
+      "pali": "Mahāmeghe kho pana, bhikkhave, vuṭṭhite mahāudakavāhako sañjāyati. ",
+      "english": "and it unleashes a mighty flood "
+    },
+    {
+      "number": 12,
+      "pali": "Mahāudakavāhake kho pana, bhikkhave, sañjāyante tena gāmāpi vuyhanti nigamāpi vuyhanti nagarāpi vuyhanti. ",
+      "english": "that sweeps away villages, towns, and cities. "
+    },
+    {
+      "number": 13,
+      "pali": "Gāmesupi vuyhamānesu nigamesupi vuyhamānesu nagaresupi vuyhamānesu tattha mātāpi puttaṁ nappaṭilabhati, puttopi mātaraṁ nappaṭilabhati. ",
+      "english": "When this happens, a mother can’t find her child, and a child can’t find their mother. "
+    },
+    {
+      "number": 14,
+      "pali": "Idaṁ, bhikkhave, dutiyaṁ amātāputtikaṁ bhayanti assutavā puthujjano bhāsati. ",
+      "english": "This is the second peril that tears mothers and children apart. "
+    },
+    {
+      "number": 15,
+      "pali": "Puna caparaṁ, bhikkhave, hoti so samayo yaṁ bhayaṁ hoti aṭavisaṅkopo, cakkasamāruḷhā jānapadā pariyāyanti. ",
+      "english": "Furthermore, there comes a time of peril due to turmoil in the wilds, so the countryfolk mount their vehicles and flee everywhere. "
+    },
+    {
+      "number": 16,
+      "pali": "Bhaye kho pana, bhikkhave, sati aṭavisaṅkope cakkasamāruḷhesu jānapadesu pariyāyantesu tattha mātāpi puttaṁ nappaṭilabhati, puttopi mātaraṁ nappaṭilabhati. ",
+      "english": "When this happens, a mother can’t find her child, and a child can’t find their mother. "
+    },
+    {
+      "number": 17,
+      "pali": "Idaṁ, bhikkhave, tatiyaṁ amātāputtikaṁ bhayanti assutavā puthujjano bhāsati. ",
+      "english": "This is the third peril that tears mothers and children apart. "
+    },
+    {
+      "number": 18,
+      "pali": "Imāni kho, bhikkhave, tīṇi amātāputtikāni bhayānīti assutavā puthujjano bhāsati. ",
+      "english": "These are the three perils an unlearned ordinary person speaks of that tear mothers and children apart. "
+    },
+    {
+      "number": 19,
+      "pali": "Tāni kho panimāni, bhikkhave, tīṇi samātāputtikāniyeva bhayāni amātāputtikāni bhayānīti assutavā puthujjano bhāsati. ",
+      "english": "Mendicants, an unlearned ordinary person speaks of three perils that don’t tear mothers and children apart. "
+    },
+    {
+      "number": 20,
+      "pali": "Katamāni tīṇi? ",
+      "english": "What three? "
+    },
+    {
+      "number": 21,
+      "pali": "Hoti so, bhikkhave, samayo yaṁ mahāaggiḍāho vuṭṭhāti. ",
+      "english": "There comes a time when a great fire flares up, "
+    },
+    {
+      "number": 22,
+      "pali": "Mahāaggiḍāhe kho pana, bhikkhave, vuṭṭhite tena gāmāpi ḍayhanti nigamāpi ḍayhanti nagarāpi ḍayhanti. ",
+      "english": "and it burns villages, towns, and cities. "
+    },
+    {
+      "number": 23,
+      "pali": "Gāmesupi ḍayhamānesu nigamesupi ḍayhamānesu nagaresupi ḍayhamānesu hoti so samayo yaṁ kadāci karahaci mātāpi puttaṁ paṭilabhati, puttopi mātaraṁ paṭilabhati. ",
+      "english": "When this happens, sometimes a mother can find her child, and a child can find their mother. "
+    },
+    {
+      "number": 24,
+      "pali": "Idaṁ, bhikkhave, paṭhamaṁ samātāputtikaṁyeva bhayaṁ amātāputtikaṁ bhayanti assutavā puthujjano bhāsati. ",
+      "english": "This is the first peril that doesn’t tear mothers and children apart. "
+    },
+    {
+      "number": 25,
+      "pali": "Puna caparaṁ, bhikkhave, hoti so samayo yaṁ mahāmegho vuṭṭhāti. ",
+      "english": "Furthermore, there comes a time when a great storm gathers, "
+    },
+    {
+      "number": 26,
+      "pali": "Mahāmeghe kho pana, bhikkhave, vuṭṭhite mahāudakavāhako sañjāyati. ",
+      "english": "and it unleashes a mighty flood "
+    },
+    {
+      "number": 27,
+      "pali": "Mahāudakavāhake kho pana, bhikkhave, sañjāte tena gāmāpi vuyhanti nigamāpi vuyhanti nagarāpi vuyhanti. ",
+      "english": "that sweeps away villages, towns, and cities. "
+    },
+    {
+      "number": 28,
+      "pali": "Gāmesupi vuyhamānesu nigamesupi vuyhamānesu nagaresupi vuyhamānesu hoti so samayo yaṁ kadāci karahaci mātāpi puttaṁ paṭilabhati, puttopi mātaraṁ paṭilabhati. ",
+      "english": "When this happens, sometimes a mother can find her child, and a child can find their mother. "
+    },
+    {
+      "number": 29,
+      "pali": "Idaṁ, bhikkhave, dutiyaṁ samātāputtikaṁyeva bhayaṁ amātāputtikaṁ bhayanti assutavā puthujjano bhāsati. ",
+      "english": "This is the second peril that doesn’t tear mothers and children apart. "
+    },
+    {
+      "number": 30,
+      "pali": "Puna caparaṁ, bhikkhave, hoti so samayo yaṁ bhayaṁ hoti aṭavisaṅkopo, cakkasamāruḷhā jānapadā pariyāyanti. ",
+      "english": "Furthermore, there comes a time of peril due to turmoil in the wilds, so the countryfolk mount their vehicles and flee everywhere. "
+    },
+    {
+      "number": 31,
+      "pali": "Bhaye kho pana, bhikkhave, sati aṭavisaṅkope cakkasamāruḷhesu jānapadesu pariyāyantesu hoti so samayo yaṁ kadāci karahaci mātāpi puttaṁ paṭilabhati, puttopi mātaraṁ paṭilabhati. ",
+      "english": "When this happens, sometimes a mother can find her child, and a child can find their mother. "
+    },
+    {
+      "number": 32,
+      "pali": "Idaṁ, bhikkhave, tatiyaṁ samātāputtikaṁyeva bhayaṁ amātāputtikaṁ bhayanti assutavā puthujjano bhāsati. ",
+      "english": "This is the third peril that doesn’t tear mothers and children apart. "
+    },
+    {
+      "number": 33,
+      "pali": "Imāni kho, bhikkhave, tīṇi samātāputtikāniyeva bhayāni amātāputtikāni bhayānīti assutavā puthujjano bhāsati. ",
+      "english": "These are the three perils an unlearned ordinary person speaks of that don’t tear mothers and children apart. "
+    },
+    {
+      "number": 34,
+      "pali": "Tīṇimāni, bhikkhave, amātāputtikāni bhayāni. ",
+      "english": "There are three perils that tear mothers and children apart. "
+    },
+    {
+      "number": 35,
+      "pali": "Katamāni tīṇi? ",
+      "english": "What three? "
+    },
+    {
+      "number": 36,
+      "pali": "Jarābhayaṁ, byādhibhayaṁ, maraṇabhayanti. ",
+      "english": "The perils of old age, sickness, and death. "
+    },
+    {
+      "number": 37,
+      "pali": "Na, bhikkhave, mātā puttaṁ jīramānaṁ evaṁ labhati: ",
+      "english": "When a child is growing old, a mother doesn’t get her wish: "
+    },
+    {
+      "number": 38,
+      "pali": "‘ahaṁ jīrāmi, mā me putto jīrī’ti; ",
+      "english": "‘Let me grow old, may my child not grow old!’ "
+    },
+    {
+      "number": 39,
+      "pali": "putto vā pana mātaraṁ jīramānaṁ na evaṁ labhati: ",
+      "english": "When a mother is growing old, a child doesn’t get their wish: "
+    },
+    {
+      "number": 40,
+      "pali": "‘ahaṁ jīrāmi, mā me mātā jīrī’ti. ",
+      "english": "‘Let me grow old, may my mother not grow old!’ "
+    },
+    {
+      "number": 41,
+      "pali": "Na, bhikkhave, mātā puttaṁ byādhiyamānaṁ evaṁ labhati: ",
+      "english": "When a child is sick, a mother doesn’t get her wish: "
+    },
+    {
+      "number": 42,
+      "pali": "‘ahaṁ byādhiyāmi, mā me putto byādhiyī’ti; ",
+      "english": "‘Let me be sick, may my child not be sick!’ "
+    },
+    {
+      "number": 43,
+      "pali": "putto vā pana mātaraṁ byādhiyamānaṁ na evaṁ labhati: ",
+      "english": "When a mother is sick, a child doesn’t get their wish: "
+    },
+    {
+      "number": 44,
+      "pali": "‘ahaṁ byādhiyāmi, mā me mātā byādhiyī’ti. ",
+      "english": "‘Let me be sick, may my mother not be sick!’ "
+    },
+    {
+      "number": 45,
+      "pali": "Na, bhikkhave, mātā puttaṁ mīyamānaṁ evaṁ labhati: ",
+      "english": "When a child is dying, a mother doesn’t get her wish: "
+    },
+    {
+      "number": 46,
+      "pali": "‘ahaṁ mīyāmi, mā me putto mīyī’ti; ",
+      "english": "‘Let me die, may my child not die!’ "
+    },
+    {
+      "number": 47,
+      "pali": "putto vā pana mātaraṁ mīyamānaṁ na evaṁ labhati: ",
+      "english": "When a mother is dying, a child doesn’t get their wish: "
+    },
+    {
+      "number": 48,
+      "pali": "‘ahaṁ mīyāmi, mā me mātā mīyī’ti. ",
+      "english": "‘Let me die, may my mother not die!’ "
+    },
+    {
+      "number": 49,
+      "pali": "Imāni kho, bhikkhave, tīṇi amātāputtikāni bhayānīti. ",
+      "english": "These are the three perils that tear mothers and children apart. "
+    },
+    {
+      "number": 50,
+      "pali": "Atthi, bhikkhave, maggo atthi paṭipadā imesañca tiṇṇaṁ samātāputtikānaṁ bhayānaṁ imesañca tiṇṇaṁ amātāputtikānaṁ bhayānaṁ pahānāya samatikkamāya saṁvattati. ",
+      "english": "There is a path and a practice that leads to giving up and going beyond the three perils that don’t tear mothers and children apart, and the three perils that do tear mothers and children apart. "
+    },
+    {
+      "number": 51,
+      "pali": "Katamo ca, bhikkhave, maggo katamā ca paṭipadā imesañca tiṇṇaṁ samātāputtikānaṁ bhayānaṁ imesañca tiṇṇaṁ amātāputtikānaṁ bhayānaṁ pahānāya samatikkamāya saṁvattati? ",
+      "english": "What is that path and practice? "
+    },
+    {
+      "number": 52,
+      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+      "english": "It is simply this noble eightfold path, that is: "
+    },
+    {
+      "number": 53,
+      "pali": "sammādiṭṭhi, sammāsaṅkappo, sammāvācā, sammākammanto, sammāājīvo, sammāvāyāmo, sammāsati, sammāsamādhi. ",
+      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+    },
+    {
+      "number": 54,
+      "pali": "Ayaṁ kho, bhikkhave, maggo ayaṁ paṭipadā imesañca tiṇṇaṁ samātāputtikānaṁ bhayānaṁ imesañca tiṇṇaṁ amātāputtikānaṁ bhayānaṁ pahānāya samatikkamāya saṁvattatī”ti. ",
+      "english": "This is the path, this is the practice that leads to giving up and going beyond the three perils that don’t tear mothers and children apart, and the three perils that do tear mothers and children apart.” "
+    },
+    {
+      "number": 55,
+      "pali": "Dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "sutta_id": "AN6.58",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 6.58 ",
+      "english": "Numbered Discourses 6.58 "
+    },
+    {
+      "number": 2,
+      "pali": "6. Mahāvagga ",
+      "english": "6. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Āsavasutta ",
+      "english": "Defilements "
+    },
+    {
+      "number": 4,
+      "pali": "“Chahi, bhikkhave, dhammehi samannāgato bhikkhu āhuneyyo hoti pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo anuttaraṁ puññakkhettaṁ lokassa. ",
+      "english": "“Mendicants, a mendicant with six qualities is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, worthy of veneration with cupped palms, and is the supreme field of merit for the world. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamehi chahi? ",
+      "english": "What six? "
+    },
+    {
+      "number": 6,
+      "pali": "Idha, bhikkhave, bhikkhuno ye āsavā saṁvarā pahātabbā te saṁvarena pahīnā honti, ",
+      "english": "It’s a mendicant who, by restraint, has given up the defilements that should be given up by restraint. "
+    },
+    {
+      "number": 7,
+      "pali": "ye āsavā paṭisevanā pahātabbā te paṭisevanāya pahīnā honti, ",
+      "english": "By using, they’ve given up the defilements that should be given up by using. "
+    },
+    {
+      "number": 8,
+      "pali": "ye āsavā adhivāsanā pahātabbā te adhivāsanāya pahīnā honti, ",
+      "english": "By enduring, they’ve given up the defilements that should be given up by enduring. "
+    },
+    {
+      "number": 9,
+      "pali": "ye āsavā parivajjanā pahātabbā te parivajjanāya pahīnā honti, ",
+      "english": "By avoiding, they’ve given up the defilements that should be given up by avoiding. "
+    },
+    {
+      "number": 10,
+      "pali": "ye āsavā vinodanā pahātabbā te vinodanāya pahīnā honti, ",
+      "english": "By getting rid, they’ve given up the defilements that should be given up by getting rid. "
+    },
+    {
+      "number": 11,
+      "pali": "ye āsavā bhāvanā pahātabbā te bhāvanāya pahīnā honti. ",
+      "english": "By developing, they’ve given up the defilements that should be given up by developing. "
+    },
+    {
+      "number": 12,
+      "pali": "Katame ca, bhikkhave, āsavā saṁvarā pahātabbā ye saṁvarena pahīnā honti? ",
+      "english": "And what are the defilements that should be given up by restraint? "
+    },
+    {
+      "number": 13,
+      "pali": "Idha, bhikkhave, bhikkhu paṭisaṅkhā yoniso cakkhundriyasaṁvarasaṁvuto viharati. ",
+      "english": "Take a mendicant who, reflecting rationally, lives restraining the eye faculty. "
+    },
+    {
+      "number": 14,
+      "pali": "Yaṁ hissa, bhikkhave, cakkhundriyasaṁvaraṁ asaṁvutassa viharato uppajjeyyuṁ āsavā vighātapariḷāhā, cakkhundriyasaṁvaraṁ saṁvutassa viharato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+      "english": "For the distressing and feverish defilements that might arise in someone who lives without restraint of the eye faculty do not arise when there is such restraint. "
+    },
+    {
+      "number": 15,
+      "pali": "Paṭisaṅkhā yoniso sotindriya …pe… ",
+      "english": "Reflecting rationally, they live restraining the ear faculty … "
+    },
+    {
+      "number": 16,
+      "pali": "ghānindriya … ",
+      "english": "the nose faculty … "
+    },
+    {
+      "number": 17,
+      "pali": "jivhindriya … ",
+      "english": "the tongue faculty … "
+    },
+    {
+      "number": 18,
+      "pali": "kāyindriya … ",
+      "english": "the body faculty … "
+    },
+    {
+      "number": 19,
+      "pali": "manindriyasaṁvarasaṁvuto viharati. ",
+      "english": "the mind faculty. "
+    },
+    {
+      "number": 20,
+      "pali": "Yaṁ hissa, bhikkhave, manindriyasaṁvaraṁ asaṁvutassa viharato uppajjeyyuṁ āsavā vighātapariḷāhā, manindriyasaṁvaraṁ saṁvutassa viharato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+      "english": "For the distressing and feverish defilements that might arise in someone who lives without restraint of the mind faculty do not arise when there is such restraint. "
+    },
+    {
+      "number": 21,
+      "pali": "Ime vuccanti, bhikkhave, āsavā saṁvarā pahātabbā ye saṁvarena pahīnā honti. ",
+      "english": "These are called the defilements that should be given up by restraint. "
+    },
+    {
+      "number": 22,
+      "pali": "Katame ca, bhikkhave, āsavā paṭisevanā pahātabbā ye paṭisevanāya pahīnā honti? ",
+      "english": "And what are the defilements that should be given up by using? "
+    },
+    {
+      "number": 23,
+      "pali": "Idha, bhikkhave, bhikkhu paṭisaṅkhā yoniso cīvaraṁ paṭisevati: ",
+      "english": "Take a mendicant who, reflecting rationally, makes use of robes: "
+    },
+    {
+      "number": 24,
+      "pali": "‘yāvadeva sītassa paṭighātāya, uṇhassa paṭighātāya, ḍaṁsamakasavātātapasarīsapasamphassānaṁ paṭighātāya, yāvadeva hirikopīnapaṭicchādanatthaṁ’. ",
+      "english": "‘Only for the sake of warding off cold and heat; for warding off the touch of flies, mosquitoes, wind, sun, and reptiles; and for covering up the private parts.’ "
+    },
+    {
+      "number": 25,
+      "pali": "Paṭisaṅkhā yoniso piṇḍapātaṁ paṭisevati: ",
+      "english": "Reflecting rationally, they make use of almsfood: "
+    },
+    {
+      "number": 26,
+      "pali": "‘neva davāya na madāya na maṇḍanāya na vibhūsanāya, yāvadeva imassa kāyassa ṭhitiyā yāpanāya, vihiṁsūparatiyā brahmacariyānuggahāya, iti purāṇañca vedanaṁ paṭihaṅkhāmi, navañca vedanaṁ na uppādessāmi, yātrā ca me bhavissati anavajjatā ca phāsuvihāro ca’. ",
+      "english": "‘Not for fun, indulgence, adornment, or decoration, but only to sustain this body, to avoid harm, and to support spiritual practice. In this way, I shall put an end to old discomfort and not give rise to new discomfort, and I will have the means to keep going, blamelessness, and a comfortable abiding.’ "
+    },
+    {
+      "number": 27,
+      "pali": "Paṭisaṅkhā yoniso senāsanaṁ paṭisevati: ",
+      "english": "Reflecting rationally, they make use of lodgings: "
+    },
+    {
+      "number": 28,
+      "pali": "‘yāvadeva sītassa paṭighātāya, uṇhassa paṭighātāya, ḍaṁsamakasavātātapasarīsapasamphassānaṁ paṭighātāya, yāvadeva utuparissayavinodanapaṭisallānārāmatthaṁ’. ",
+      "english": "‘Only for the sake of warding off cold and heat; for warding off the touch of flies, mosquitoes, wind, sun, and reptiles; to shelter from harsh weather and to enjoy retreat.’ "
+    },
+    {
+      "number": 29,
+      "pali": "Paṭisaṅkhā yoniso gilānapaccayabhesajjaparikkhāraṁ paṭisevati: ",
+      "english": "Reflecting rationally, they make use of medicines and supplies for the sick: "
+    },
+    {
+      "number": 30,
+      "pali": "‘yāvadeva uppannānaṁ veyyābādhikānaṁ vedanānaṁ paṭighātāya, abyābajjhaparamatāyā’ti. ",
+      "english": "‘Only for the sake of warding off the pains of illness and to promote good health.’ "
+    },
+    {
+      "number": 31,
+      "pali": "Yaṁ hissa, bhikkhave, appaṭisevato uppajjeyyuṁ āsavā vighātapariḷāhā, paṭisevato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+      "english": "For the distressing and feverish defilements that might arise in someone who lives without using these things do not arise when they are used. "
+    },
+    {
+      "number": 32,
+      "pali": "Ime vuccanti, bhikkhave, āsavā paṭisevanā pahātabbā ye paṭisevanāya pahīnā honti. ",
+      "english": "These are called the defilements that should be given up by using. "
+    },
+    {
+      "number": 33,
+      "pali": "Katame ca, bhikkhave, āsavā adhivāsanā pahātabbā ye adhivāsanāya pahīnā honti? ",
+      "english": "And what are the defilements that should be given up by enduring? "
+    },
+    {
+      "number": 34,
+      "pali": "Idha, bhikkhave, bhikkhu paṭisaṅkhā yoniso khamo hoti sītassa uṇhassa, jighacchāya, pipāsāya, ḍaṁsamakasavātātapasarīsapasamphassānaṁ, duruttānaṁ durāgatānaṁ vacanapathānaṁ, uppannānaṁ sārīrikānaṁ vedanānaṁ dukkhānaṁ tibbānaṁ kharānaṁ kaṭukānaṁ asātānaṁ amanāpānaṁ pāṇaharānaṁ adhivāsakajātiko hoti. ",
+      "english": "Take a mendicant who, reflecting rationally, endures cold, heat, hunger, and thirst. They endure the touch of flies, mosquitoes, wind, sun, and reptiles. They endure rude and unwelcome criticism. And they put up with physical pain—sharp, severe, acute, unpleasant, disagreeable, and life-threatening. "
+    },
+    {
+      "number": 35,
+      "pali": "Yaṁ hissa, bhikkhave, anadhivāsato uppajjeyyuṁ āsavā vighātapariḷāhā, adhivāsato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+      "english": "For the distressing and feverish defilements that might arise in someone who lives without enduring these things do not arise when they are endured. "
+    },
+    {
+      "number": 36,
+      "pali": "Ime vuccanti, bhikkhave, āsavā adhivāsanā pahātabbā ye adhivāsanāya pahīnā honti. ",
+      "english": "These are called the defilements that should be given up by enduring. "
+    },
+    {
+      "number": 37,
+      "pali": "Katame ca, bhikkhave, āsavā parivajjanā pahātabbā ye parivajjanāya pahīnā honti? ",
+      "english": "And what are the defilements that should be given up by avoiding? "
+    },
+    {
+      "number": 38,
+      "pali": "Idha, bhikkhave, bhikkhu paṭisaṅkhā yoniso caṇḍaṁ hatthiṁ parivajjeti, caṇḍaṁ assaṁ parivajjeti, caṇḍaṁ goṇaṁ parivajjeti, caṇḍaṁ kukkuraṁ parivajjeti, ahiṁ khāṇuṁ kaṇṭakaṭṭhānaṁ sobbhaṁ papātaṁ candanikaṁ oḷigallaṁ, yathārūpe anāsane nisinnaṁ, yathārūpe agocare carantaṁ, yathārūpe pāpake mitte bhajantaṁ viññū sabrahmacārī pāpakesu ṭhānesu okappeyyuṁ, so tañca anāsanaṁ tañca agocaraṁ te ca pāpake mitte paṭisaṅkhā yoniso parivajjeti. ",
+      "english": "Take a mendicant who, reflecting rationally, avoids a wild elephant, a wild horse, a wild ox, a wild dog, a snake, a stump, thorny ground, a pit, a cliff, a swamp, and a sewer. Reflecting rationally, they avoid sitting on inappropriate seats, walking in inappropriate neighborhoods, and mixing with bad friends—whatever sensible spiritual companions would believe to be a bad setting. "
+    },
+    {
+      "number": 39,
+      "pali": "Yaṁ hissa, bhikkhave, aparivajjayato uppajjeyyuṁ āsavā vighātapariḷāhā, parivajjayato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+      "english": "For the distressing and feverish defilements that might arise in someone who lives without avoiding these things do not arise when they are avoided. "
+    },
+    {
+      "number": 40,
+      "pali": "Ime vuccanti, bhikkhave, āsavā parivajjanā pahātabbā ye parivajjanāya pahīnā honti. ",
+      "english": "These are called the defilements that should be given up by avoiding. "
+    },
+    {
+      "number": 41,
+      "pali": "Katame ca, bhikkhave, āsavā vinodanā pahātabbā ye vinodanāya pahīnā honti? ",
+      "english": "And what are the defilements that should be given up by getting rid? "
+    },
+    {
+      "number": 42,
+      "pali": "Idha, bhikkhave, bhikkhu paṭisaṅkhā yoniso uppannaṁ kāmavitakkaṁ nādhivāseti pajahati vinodeti byantīkaroti anabhāvaṁ gameti, ",
+      "english": "Take a mendicant who, reflecting rationally, doesn’t tolerate a sensual, "
+    },
+    {
+      "number": 43,
+      "pali": "paṭisaṅkhā yoniso uppannaṁ byāpādavitakkaṁ … ",
+      "english": "malicious, "
+    },
+    {
+      "number": 44,
+      "pali": "uppannaṁ vihiṁsāvitakkaṁ … ",
+      "english": "or cruel thought that has arisen. "
+    },
+    {
+      "number": 45,
+      "pali": "uppannuppanne pāpake akusale dhamme nādhivāseti pajahati vinodeti byantīkaroti anabhāvaṁ gameti. ",
+      "english": "They don’t tolerate any bad, unskillful qualities that have arisen, but give them up, get rid of them, eliminate them, and obliterate them. "
+    },
+    {
+      "number": 46,
+      "pali": "Yaṁ hissa, bhikkhave, avinodayato uppajjeyyuṁ āsavā vighātapariḷāhā, vinodayato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+      "english": "For the distressing and feverish defilements that might arise in someone who lives without getting rid of these things do not arise when they are gotten rid of. "
+    },
+    {
+      "number": 47,
+      "pali": "Ime vuccanti, bhikkhave, āsavā vinodanā pahātabbā ye vinodanāya pahīnā honti. ",
+      "english": "These are called the defilements that should be given up by getting rid. "
+    },
+    {
+      "number": 48,
+      "pali": "Katame ca, bhikkhave, āsavā bhāvanā pahātabbā ye bhāvanāya pahīnā honti? ",
+      "english": "And what are the defilements that should be given up by developing? "
+    },
+    {
+      "number": 49,
+      "pali": "Idha, bhikkhave, bhikkhu paṭisaṅkhā yoniso satisambojjhaṅgaṁ bhāveti vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vosaggapariṇāmiṁ, ",
+      "english": "Take a mendicant who, reflecting rationally, develops the awakening factors of mindfulness, "
+    },
+    {
+      "number": 50,
+      "pali": "paṭisaṅkhā yoniso dhammavicayasambojjhaṅgaṁ bhāveti … ",
+      "english": "investigation of principles, "
+    },
+    {
+      "number": 51,
+      "pali": "vīriyasambojjhaṅgaṁ bhāveti … ",
+      "english": "energy, "
+    },
+    {
+      "number": 52,
+      "pali": "pītisambojjhaṅgaṁ bhāveti … ",
+      "english": "rapture, "
+    },
+    {
+      "number": 53,
+      "pali": "passaddhisambojjhaṅgaṁ bhāveti … ",
+      "english": "tranquility, "
+    },
+    {
+      "number": 54,
+      "pali": "samādhisambojjhaṅgaṁ bhāveti … ",
+      "english": "immersion, "
+    },
+    {
+      "number": 55,
+      "pali": "upekkhāsambojjhaṅgaṁ bhāveti vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vosaggapariṇāmiṁ. ",
+      "english": "and equanimity, which rely on seclusion, fading away, and cessation, and ripen as letting go. "
+    },
+    {
+      "number": 56,
+      "pali": "Yaṁ hissa, bhikkhave, abhāvayato uppajjeyyuṁ āsavā vighātapariḷāhā, bhāvayato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+      "english": "For the distressing and feverish defilements that might arise in someone who lives without developing these things do not arise when they are developed. "
+    },
+    {
+      "number": 57,
+      "pali": "Ime vuccanti, bhikkhave, āsavā bhāvanā pahātabbā ye bhāvanāya pahīnā honti. ",
+      "english": "These are called the defilements that should be given up by developing. "
+    },
+    {
+      "number": 58,
+      "pali": "Imehi kho, bhikkhave, chahi dhammehi samannāgato bhikkhu āhuneyyo hoti pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo anuttaraṁ puññakkhettaṁ lokassā”ti. ",
+      "english": "A mendicant with these six qualities is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, worthy of veneration with cupped palms, and is the supreme field of merit for the world.” "
+    },
+    {
+      "number": 59,
+      "pali": "Catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

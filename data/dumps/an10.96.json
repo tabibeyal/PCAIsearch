@@ -1,0 +1,405 @@
+{
+  "sutta_id": "AN10.96",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.96 ",
+      "english": "Numbered Discourses 10.96 "
+    },
+    {
+      "number": 2,
+      "pali": "10. Upālivagga ",
+      "english": "10. With Upāli "
+    },
+    {
+      "number": 3,
+      "pali": "Kokanudasutta ",
+      "english": "With Kokanada "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ āyasmā ānando rājagahe viharati tapodārāme. ",
+      "english": "At one time Venerable Ānanda was staying near Rājagaha in the Hot Springs Monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho āyasmā ānando rattiyā paccūsasamayaṁ paccuṭṭhāya yena tapodā tenupasaṅkami gattāni parisiñcituṁ. ",
+      "english": "Then Ānanda rose at the crack of dawn and went to the hot springs to bathe. "
+    },
+    {
+      "number": 6,
+      "pali": "Tapodāya gattāni parisiñcitvā paccuttaritvā ekacīvaro aṭṭhāsi gattāni pubbāpayamāno. ",
+      "english": "When he had bathed and emerged from the water he stood in one robe drying his limbs. "
+    },
+    {
+      "number": 7,
+      "pali": "Kokanudopi kho paribbājako rattiyā paccūsasamayaṁ paccuṭṭhāya yena tapodā tenupasaṅkami gattāni parisiñcituṁ. ",
+      "english": "The wanderer Kokanada also rose at the crack of dawn and went to the hot springs to bathe. "
+    },
+    {
+      "number": 8,
+      "pali": "Addasā kho kokanudo paribbājako āyasmantaṁ ānandaṁ dūratova āgacchantaṁ. ",
+      "english": "He saw Ānanda coming off in the distance "
+    },
+    {
+      "number": 9,
+      "pali": "Disvāna āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "and said to him, "
+    },
+    {
+      "number": 10,
+      "pali": "“kvettha, āvuso”ti? ",
+      "english": "“Who’s here, reverend?” "
+    },
+    {
+      "number": 11,
+      "pali": "“Ahamāvuso, bhikkhū”ti. ",
+      "english": "“I’m a mendicant, reverend.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Katamesaṁ, āvuso, bhikkhūnan”ti? ",
+      "english": "“Of which mendicants?” "
+    },
+    {
+      "number": 13,
+      "pali": "“Samaṇānaṁ, āvuso, sakyaputtiyānan”ti. ",
+      "english": "“Of the ascetics who follow the Sakyan.” "
+    },
+    {
+      "number": 14,
+      "pali": "“Puccheyyāma mayaṁ āyasmantaṁ kiñcideva desaṁ, sace āyasmā okāsaṁ karoti pañhassa veyyākaraṇāyā”ti. ",
+      "english": "“I’d like to ask the venerable about a certain point, if you’d take the time to answer.” "
+    },
+    {
+      "number": 15,
+      "pali": "“Pucchāvuso, sutvā vedissāmā”ti. ",
+      "english": "“Ask, reverend. When I’ve heard it I’ll know.” "
+    },
+    {
+      "number": 16,
+      "pali": "“Kiṁ nu kho, bho, ‘sassato loko, idameva saccaṁ moghamaññan’ti—evaṁdiṭṭhi bhavan”ti? ",
+      "english": "“Is this your view: ‘The cosmos is eternal. This is the only truth, anything else is futile’?” "
+    },
+    {
+      "number": 17,
+      "pali": "“Na kho ahaṁ, āvuso, evaṁdiṭṭhi: ",
+      "english": "“That’s not my view, reverend.” "
+    },
+    {
+      "number": 18,
+      "pali": "‘sassato loko, idameva saccaṁ moghamaññan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "“Kiṁ pana, bho, ‘asassato loko, idameva saccaṁ moghamaññan’ti—evaṁdiṭṭhi bhavan”ti? ",
+      "english": "“Then is this your view: ‘The cosmos is not eternal. This is the only truth, anything else is futile’?” "
+    },
+    {
+      "number": 20,
+      "pali": "“Na kho ahaṁ, āvuso, evaṁdiṭṭhi: ",
+      "english": "“That’s not my view, reverend.” "
+    },
+    {
+      "number": 21,
+      "pali": "‘asassato loko, idameva saccaṁ moghamaññan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "“Kiṁ nu kho, bho, antavā loko …pe… ",
+      "english": "“Then is this your view: ‘The cosmos is finite …’ … "
+    },
+    {
+      "number": 23,
+      "pali": "anantavā loko … ",
+      "english": "‘The cosmos is infinite …’ … "
+    },
+    {
+      "number": 24,
+      "pali": "taṁ jīvaṁ taṁ sarīraṁ … ",
+      "english": "‘The soul and the body are one and the same …’ … "
+    },
+    {
+      "number": 25,
+      "pali": "aññaṁ jīvaṁ aññaṁ sarīraṁ … ",
+      "english": "‘The soul is one thing, the body another …’ … "
+    },
+    {
+      "number": 26,
+      "pali": "hoti tathāgato paraṁ maraṇā … ",
+      "english": "‘A realized one still exists after death …’ … "
+    },
+    {
+      "number": 27,
+      "pali": "na hoti tathāgato paraṁ maraṇā … ",
+      "english": "‘A realized one no longer exists after death …’ … "
+    },
+    {
+      "number": 28,
+      "pali": "hoti ca na ca hoti tathāgato paraṁ maraṇā … ",
+      "english": "‘A realized one both still exists and no longer exists after death …’ … "
+    },
+    {
+      "number": 29,
+      "pali": "neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññanti—evaṁdiṭṭhi bhavan”ti? ",
+      "english": "‘A Realized One neither exists nor doesn’t exist after death. This is the only truth, anything else is futile’?” "
+    },
+    {
+      "number": 30,
+      "pali": "“Na kho ahaṁ, āvuso, evaṁdiṭṭhi: ",
+      "english": "“That’s not my view, reverend.” "
+    },
+    {
+      "number": 31,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "“Tena hi bhavaṁ na jānāti, na passatī”ti? ",
+      "english": "“Then, sir, do you neither know nor see?” "
+    },
+    {
+      "number": 33,
+      "pali": "“Na kho ahaṁ, āvuso, na jānāmi na passāmi. ",
+      "english": "“That’s not so, reverend. "
+    },
+    {
+      "number": 34,
+      "pali": "Jānāmahaṁ, āvuso, passāmī”ti. ",
+      "english": "I do know and see.” "
+    },
+    {
+      "number": 35,
+      "pali": "“‘Kiṁ nu kho, bho, sassato loko, idameva saccaṁ moghamaññanti—",
+      "english": "“When asked about all these points, you say that’s not your view. "
+    },
+    {
+      "number": 36,
+      "pali": "evaṁdiṭṭhi bhavan’ti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 37,
+      "pali": "‘na kho ahaṁ, āvuso, evaṁdiṭṭhi—",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "sassato loko, idameva saccaṁ moghamaññan’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "‘Kiṁ pana, bho, asassato loko, idameva saccaṁ moghamaññanti—",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "evaṁdiṭṭhi bhavan’ti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "‘na kho ahaṁ, āvuso, evaṁdiṭṭhi—",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "asassato loko, idameva saccaṁ moghamaññan’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Kiṁ nu kho, bho, antavā loko …pe… ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "anantavā loko … ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "taṁ jīvaṁ taṁ sarīraṁ … ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "aññaṁ jīvaṁ aññaṁ sarīraṁ … ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "hoti tathāgato paraṁ maraṇā … ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "na hoti tathāgato paraṁ maraṇā … ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "hoti ca na ca hoti tathāgato paraṁ maraṇā … ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññanti—",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "evaṁdiṭṭhi bhavanti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "‘na kho ahaṁ, āvuso, evaṁdiṭṭhi—",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "‘Tena hi bhavaṁ na jānāti na passatī’ti, iti puṭṭho samāno: ",
+      "english": "Yet when asked whether you neither know nor see, "
+    },
+    {
+      "number": 55,
+      "pali": "‘na kho ahaṁ, āvuso, na jānāmi na passāmi. ",
+      "english": "you say, ‘That’s not so, reverend. "
+    },
+    {
+      "number": 56,
+      "pali": "Jānāmahaṁ, āvuso, passāmī’ti vadesi. ",
+      "english": "I do know and see.’ "
+    },
+    {
+      "number": 57,
+      "pali": "Yathā kathaṁ panāvuso, imassa bhāsitassa attho daṭṭhabbo”ti? ",
+      "english": "How then should we see the meaning of this statement?” "
+    },
+    {
+      "number": 58,
+      "pali": "“‘Sassato loko, idameva saccaṁ moghamaññan’ti kho, āvuso, diṭṭhigatametaṁ. ",
+      "english": "“‘The cosmos is eternal. This is the only truth, anything else is futile:’ that’s a misconception. "
+    },
+    {
+      "number": 59,
+      "pali": "‘Asassato loko, idameva saccaṁ moghamaññan’ti kho, āvuso, diṭṭhigatametaṁ. ",
+      "english": "‘The cosmos is not eternal. This is the only truth, anything else is futile:’ that’s a misconception. "
+    },
+    {
+      "number": 60,
+      "pali": "Antavā loko …pe… ",
+      "english": "‘The cosmos is finite …’ … "
+    },
+    {
+      "number": 61,
+      "pali": "anantavā loko … ",
+      "english": "‘The cosmos is infinite …’ … "
+    },
+    {
+      "number": 62,
+      "pali": "taṁ jīvaṁ taṁ sarīraṁ … ",
+      "english": "‘The soul and the body are one and the same …’ … "
+    },
+    {
+      "number": 63,
+      "pali": "aññaṁ jīvaṁ aññaṁ sarīraṁ … ",
+      "english": "‘The soul is one thing, the body another …’ … "
+    },
+    {
+      "number": 64,
+      "pali": "hoti tathāgato paraṁ maraṇā … ",
+      "english": "‘A realized one still exists after death …’ … "
+    },
+    {
+      "number": 65,
+      "pali": "na hoti tathāgato paraṁ maraṇā … ",
+      "english": "‘A realized one no longer exists after death …’ … "
+    },
+    {
+      "number": 66,
+      "pali": "hoti ca na ca hoti tathāgato paraṁ maraṇā … ",
+      "english": "‘A realized one both still exists and no longer exists after death …’ … "
+    },
+    {
+      "number": 67,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti kho, āvuso, diṭṭhigatametaṁ. ",
+      "english": "‘A Realized One neither exists nor doesn’t exist after death. This is the only truth, anything else is futile:’ that’s a misconception. "
+    },
+    {
+      "number": 68,
+      "pali": "Yāvatā, āvuso, diṭṭhi yāvatā diṭṭhiṭṭhānaṁ diṭṭhiadhiṭṭhānaṁ diṭṭhipariyuṭṭhānaṁ diṭṭhisamuṭṭhānaṁ diṭṭhisamugghāto, tamahaṁ jānāmi tamahaṁ passāmi. ",
+      "english": "I know and see the scope of convictions, the scope of grounds for views, fixation on views, obsession with views, the origin of views, and the uprooting of views. "
+    },
+    {
+      "number": 69,
+      "pali": "Tamahaṁ jānanto tamahaṁ passanto kyāhaṁ vakkhāmi: ",
+      "english": "Knowing and seeing thus, why should I say: "
+    },
+    {
+      "number": 70,
+      "pali": "‘na jānāmi na passāmī’ti? ",
+      "english": "‘I neither know nor see?’ "
+    },
+    {
+      "number": 71,
+      "pali": "Jānāmahaṁ, āvuso, passāmī”ti. ",
+      "english": "I do know and see.” "
+    },
+    {
+      "number": 72,
+      "pali": "“Ko nāmo āyasmā, kathañca panāyasmantaṁ sabrahmacārī jānantī”ti? ",
+      "english": "“What is the venerable’s name? And how are you known among your spiritual companions?” "
+    },
+    {
+      "number": 73,
+      "pali": "“‘Ānando’ti kho me, āvuso, nāmaṁ. ",
+      "english": "“Reverend, my name is Ānanda. "
+    },
+    {
+      "number": 74,
+      "pali": "‘Ānando’ti ca pana maṁ sabrahmacārī jānantī”ti. ",
+      "english": "And that’s how I’m known among my spiritual companions.” "
+    },
+    {
+      "number": 75,
+      "pali": "“Mahācariyena vata kira, bho, saddhiṁ mantayamānā na jānimha: ",
+      "english": "“Goodness! I had no idea I was consulting such a great tutor as "
+    },
+    {
+      "number": 76,
+      "pali": "‘āyasmā ānando’ti. ",
+      "english": "Venerable Ānanda! "
+    },
+    {
+      "number": 77,
+      "pali": "Sace hi mayaṁ jāneyyāma: ",
+      "english": "If I had known who "
+    },
+    {
+      "number": 78,
+      "pali": "‘ayaṁ āyasmā ānando’ti, ettakampi no nappaṭibhāyeyya. ",
+      "english": "you were, I wouldn’t have said so much. "
+    },
+    {
+      "number": 79,
+      "pali": "Khamatu ca me āyasmā ānando”ti. ",
+      "english": "May Venerable Ānanda please forgive me.” "
+    },
+    {
+      "number": 80,
+      "pali": "Chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

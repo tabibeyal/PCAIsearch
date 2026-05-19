@@ -1,0 +1,285 @@
+{
+  "sutta_id": "SN12.10",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 12.10 ",
+      "english": "Linked Discourses 12.10 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Buddhavagga ",
+      "english": "1. The Buddhas "
+    },
+    {
+      "number": 3,
+      "pali": "Gotamasutta ",
+      "english": "Gotama "
+    },
+    {
+      "number": 4,
+      "pali": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+      "english": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: "
+    },
+    {
+      "number": 5,
+      "pali": "‘kicchaṁ vatāyaṁ loko āpanno jāyati ca jīyati ca mīyati ca cavati ca upapajjati ca. ",
+      "english": "‘Alas, this world has fallen into trouble. It’s born, grows old, dies, passes away, and is reborn, "
+    },
+    {
+      "number": 6,
+      "pali": "Atha ca panimassa dukkhassa nissaraṇaṁ nappajānāti jarāmaraṇassa. ",
+      "english": "yet it doesn’t understand how to escape from this suffering, from old age and death. "
+    },
+    {
+      "number": 7,
+      "pali": "Kudāssu nāma imassa dukkhassa nissaraṇaṁ paññāyissati jarāmaraṇassā’ti? ",
+      "english": "Oh, when will an escape be found from this suffering, from old age and death?’ "
+    },
+    {
+      "number": 8,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 9,
+      "pali": "‘kimhi nu kho sati jarāmaraṇaṁ hoti, kiṁpaccayā jarāmaraṇan’ti? ",
+      "english": "‘When what exists is there old age and death? What is a requirement for old age and death?’ "
+    },
+    {
+      "number": 10,
+      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+    },
+    {
+      "number": 11,
+      "pali": "‘jātiyā kho sati jarāmaraṇaṁ hoti, jātipaccayā jarāmaraṇan’ti. ",
+      "english": "‘When rebirth exists there’s old age and death. Rebirth is a requirement for old age and death.’ "
+    },
+    {
+      "number": 12,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 13,
+      "pali": "‘kimhi nu kho sati jāti hoti …pe… ",
+      "english": "‘When what exists is there rebirth? … "
+    },
+    {
+      "number": 14,
+      "pali": "bhavo … ",
+      "english": "continued existence … "
+    },
+    {
+      "number": 15,
+      "pali": "upādānaṁ … ",
+      "english": "grasping … "
+    },
+    {
+      "number": 16,
+      "pali": "taṇhā … ",
+      "english": "craving … "
+    },
+    {
+      "number": 17,
+      "pali": "vedanā … ",
+      "english": "feeling … "
+    },
+    {
+      "number": 18,
+      "pali": "phasso … ",
+      "english": "contact … "
+    },
+    {
+      "number": 19,
+      "pali": "saḷāyatanaṁ … ",
+      "english": "the six sense fields … "
+    },
+    {
+      "number": 20,
+      "pali": "nāmarūpaṁ … ",
+      "english": "name and form … "
+    },
+    {
+      "number": 21,
+      "pali": "viññāṇaṁ … ",
+      "english": "consciousness … "
+    },
+    {
+      "number": 22,
+      "pali": "saṅkhārā honti, kiṁpaccayā saṅkhārā’ti? ",
+      "english": "‘When what exists are there choices? What is a requirement for choices?’ "
+    },
+    {
+      "number": 23,
+      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+    },
+    {
+      "number": 24,
+      "pali": "‘avijjāya kho sati saṅkhārā honti, avijjāpaccayā saṅkhārā’ti. ",
+      "english": "‘When ignorance exists there are choices. Ignorance is a requirement for choices.’ "
+    },
+    {
+      "number": 25,
+      "pali": "Iti hidaṁ avijjāpaccayā saṅkhārā; ",
+      "english": "And so, ignorance is a requirement for choices. "
+    },
+    {
+      "number": 26,
+      "pali": "saṅkhārapaccayā viññāṇaṁ …pe… ",
+      "english": "Choices are a requirement for consciousness. … "
+    },
+    {
+      "number": 27,
+      "pali": "evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
+      "english": "That is how this entire mass of suffering originates. "
+    },
+    {
+      "number": 28,
+      "pali": "‘Samudayo, samudayo’ti kho me, bhikkhave, pubbe ananussutesu dhammesu cakkhuṁ udapādi, ñāṇaṁ udapādi, paññā udapādi, vijjā udapādi, āloko udapādi. ",
+      "english": "‘Origination, origination.’ Such was the vision, knowledge, wisdom, realization, and light that arose in me regarding teachings not learned before from another. "
+    },
+    {
+      "number": 29,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 30,
+      "pali": "‘kimhi nu kho asati jarāmaraṇaṁ na hoti, kissa nirodhā jarāmaraṇanirodho’ti? ",
+      "english": "‘When what doesn’t exist is there no old age and death? When what ceases do old age and death cease?’ "
+    },
+    {
+      "number": 31,
+      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+    },
+    {
+      "number": 32,
+      "pali": "‘jātiyā kho asati jarāmaraṇaṁ na hoti, jātinirodhā jarāmaraṇanirodho’ti. ",
+      "english": "‘When rebirth doesn’t exist there’s no old age and death. When rebirth ceases, old age and death cease.’ "
+    },
+    {
+      "number": 33,
+      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
+      "english": "Then it occurred to me: "
+    },
+    {
+      "number": 34,
+      "pali": "‘kimhi nu kho asati jāti na hoti …pe… ",
+      "english": "‘When what doesn’t exist is there no rebirth? … "
+    },
+    {
+      "number": 35,
+      "pali": "bhavo … ",
+      "english": "continued existence … "
+    },
+    {
+      "number": 36,
+      "pali": "upādānaṁ … ",
+      "english": "grasping … "
+    },
+    {
+      "number": 37,
+      "pali": "taṇhā … ",
+      "english": "craving … "
+    },
+    {
+      "number": 38,
+      "pali": "vedanā … ",
+      "english": "feeling … "
+    },
+    {
+      "number": 39,
+      "pali": "phasso … ",
+      "english": "contact … "
+    },
+    {
+      "number": 40,
+      "pali": "saḷāyatanaṁ … ",
+      "english": "the six sense fields … "
+    },
+    {
+      "number": 41,
+      "pali": "nāmarūpaṁ … ",
+      "english": "name and form … "
+    },
+    {
+      "number": 42,
+      "pali": "viññāṇaṁ … ",
+      "english": "consciousness … "
+    },
+    {
+      "number": 43,
+      "pali": "saṅkhārā na honti, kissa nirodhā saṅkhāranirodho’ti? ",
+      "english": "‘When what doesn’t exist are there no choices? When what ceases do choices cease?’ "
+    },
+    {
+      "number": 44,
+      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+    },
+    {
+      "number": 45,
+      "pali": "‘avijjāya kho asati saṅkhārā na honti, avijjānirodhā saṅkhāranirodho’ti. ",
+      "english": "‘When ignorance doesn’t exist there are no choices. When ignorance ceases, choices cease.’ "
+    },
+    {
+      "number": 46,
+      "pali": "Iti hidaṁ avijjānirodhā saṅkhāranirodho; ",
+      "english": "And so, when ignorance ceases, choices cease. "
+    },
+    {
+      "number": 47,
+      "pali": "saṅkhāranirodhā viññāṇanirodho …pe… ",
+      "english": "When choices cease, consciousness ceases. … "
+    },
+    {
+      "number": 48,
+      "pali": "evametassa kevalassa dukkhakkhandhassa nirodho hoti. ",
+      "english": "That is how this entire mass of suffering ceases. "
+    },
+    {
+      "number": 49,
+      "pali": "‘Nirodho, nirodho’ti kho me, bhikkhave, pubbe ananussutesu dhammesu cakkhuṁ udapādi, ñāṇaṁ udapādi, paññā udapādi, vijjā udapādi, āloko udapādī”ti. ",
+      "english": "‘Cessation, cessation.’ Such was the vision, knowledge, wisdom, realization, and light that arose in me regarding teachings not learned before from another.” "
+    },
+    {
+      "number": 50,
+      "pali": "Dasamo. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Buddhavaggo paṭhamo. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Desanā vibhaṅgapaṭipadā ca, ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Vipassī sikhī ca vessabhū; ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Kakusandho koṇāgamano kassapo, ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Mahāsakyamuni ca gotamoti. ",
+      "english": ""
+    }
+  ]
+}

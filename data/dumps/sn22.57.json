@@ -1,0 +1,540 @@
+{
+  "sutta_id": "SN22.57",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 22.57 ",
+      "english": "Linked Discourses 22.57 "
+    },
+    {
+      "number": 2,
+      "pali": "6. Upayavagga ",
+      "english": "6. Involvement "
+    },
+    {
+      "number": 3,
+      "pali": "Sattaṭṭhānasutta ",
+      "english": "Seven Cases "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthinidānaṁ. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "“Sattaṭṭhānakusalo, bhikkhave, bhikkhu tividhūpaparikkhī imasmiṁ dhammavinaye kevalī vusitavā uttamapurisoti vuccati. ",
+      "english": "“Mendicants, in this teaching and training a mendicant who is skilled in seven cases and who examines in three ways is called consummate, accomplished, a supreme person. "
+    },
+    {
+      "number": 6,
+      "pali": "Kathañca, bhikkhave, bhikkhu sattaṭṭhānakusalo hoti? ",
+      "english": "And how is a mendicant skilled in seven cases? "
+    },
+    {
+      "number": 7,
+      "pali": "Idha, bhikkhave, bhikkhu rūpaṁ pajānāti, rūpasamudayaṁ pajānāti, rūpanirodhaṁ pajānāti, rūpanirodhagāminiṁ paṭipadaṁ pajānāti; ",
+      "english": "It’s when a mendicant understands form, its origin, its cessation, and the practice that leads to its cessation. "
+    },
+    {
+      "number": 8,
+      "pali": "rūpassa assādaṁ pajānāti, rūpassa ādīnavaṁ pajānāti, rūpassa nissaraṇaṁ pajānāti; ",
+      "english": "They understand form’s gratification, drawback, and escape. "
+    },
+    {
+      "number": 9,
+      "pali": "vedanaṁ pajānāti … ",
+      "english": "They understand feeling … "
+    },
+    {
+      "number": 10,
+      "pali": "saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 11,
+      "pali": "saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 12,
+      "pali": "viññāṇaṁ pajānāti, viññāṇasamudayaṁ pajānāti, viññāṇanirodhaṁ pajānāti, viññāṇanirodhagāminiṁ paṭipadaṁ pajānāti; ",
+      "english": "consciousness, its origin, its cessation, and the practice that leads to its cessation. "
+    },
+    {
+      "number": 13,
+      "pali": "viññāṇassa assādaṁ pajānāti, viññāṇassa ādīnavaṁ pajānāti, viññāṇassa nissaraṇaṁ pajānāti. ",
+      "english": "They understand consciousness’s gratification, drawback, and escape. "
+    },
+    {
+      "number": 14,
+      "pali": "Katamañca, bhikkhave, rūpaṁ? ",
+      "english": "And what is form? "
+    },
+    {
+      "number": 15,
+      "pali": "Cattāro ca mahābhūtā, catunnañca mahābhūtānaṁ upādāya rūpaṁ. ",
+      "english": "The four principal states, and form derived from the four principal states. "
+    },
+    {
+      "number": 16,
+      "pali": "Idaṁ vuccati, bhikkhave, rūpaṁ. ",
+      "english": "This is called form. "
+    },
+    {
+      "number": 17,
+      "pali": "Āhārasamudayā rūpasamudayo; ",
+      "english": "Form originates from fuel. "
+    },
+    {
+      "number": 18,
+      "pali": "āhāranirodhā rūpanirodho. ",
+      "english": "When fuel ceases, form ceases. "
+    },
+    {
+      "number": 19,
+      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo rūpanirodhagāminī paṭipadā, seyyathidaṁ—",
+      "english": "The practice that leads to the cessation of form is simply this noble eightfold path, that is: "
+    },
+    {
+      "number": 20,
+      "pali": "sammādiṭṭhi …pe… sammāsamādhi. ",
+      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+    },
+    {
+      "number": 21,
+      "pali": "Yaṁ rūpaṁ paṭicca uppajjati sukhaṁ somanassaṁ—",
+      "english": "The pleasure and happiness that arise from form: this is its gratification. "
+    },
+    {
+      "number": 22,
+      "pali": "ayaṁ rūpassa assādo. ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "Yaṁ rūpaṁ aniccaṁ dukkhaṁ vipariṇāmadhammaṁ—",
+      "english": "That form is impermanent, suffering, and perishable: this is its drawback. "
+    },
+    {
+      "number": 24,
+      "pali": "ayaṁ rūpassa ādīnavo. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Yo rūpasmiṁ chandarāgavinayo chandarāgappahānaṁ—",
+      "english": "Removing and giving up desire and greed for form: this is its escape. "
+    },
+    {
+      "number": 26,
+      "pali": "idaṁ rūpassa nissaraṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā evaṁ rūpaṁ abhiññāya, evaṁ rūpasamudayaṁ abhiññāya, evaṁ rūpanirodhaṁ abhiññāya, evaṁ rūpanirodhagāminiṁ paṭipadaṁ abhiññāya; ",
+      "english": "Those ascetics and brahmins who have directly known form in this way—and its origin, its cessation, and the practice that leads to its cessation; "
+    },
+    {
+      "number": 28,
+      "pali": "evaṁ rūpassa assādaṁ abhiññāya, evaṁ rūpassa ādīnavaṁ abhiññāya, evaṁ rūpassa nissaraṇaṁ abhiññāya rūpassa nibbidāya virāgāya nirodhāya paṭipannā, te suppaṭipannā. ",
+      "english": "its gratification, drawback, and escape—and are practicing for disillusionment, dispassion, and cessation regarding form: they are practicing well. "
+    },
+    {
+      "number": 29,
+      "pali": "Ye suppaṭipannā, te imasmiṁ dhammavinaye gādhanti. ",
+      "english": "Those who practice well have a footing in this teaching and training. "
+    },
+    {
+      "number": 30,
+      "pali": "Ye ca kho keci, bhikkhave, samaṇā vā brāhmaṇā vā evaṁ rūpaṁ abhiññāya, evaṁ rūpasamudayaṁ abhiññāya, evaṁ rūpanirodhaṁ abhiññāya, evaṁ rūpanirodhagāminiṁ paṭipadaṁ abhiññāya; ",
+      "english": "Those ascetics and brahmins who have directly known form in this way—and its origin, its cessation, and the practice that leads to its cessation; "
+    },
+    {
+      "number": 31,
+      "pali": "evaṁ rūpassa assādaṁ abhiññāya, evaṁ rūpassa ādīnavaṁ abhiññāya, evaṁ rūpassa nissaraṇaṁ abhiññāya rūpassa nibbidā virāgā nirodhā anupādā vimuttā, te suvimuttā. ",
+      "english": "its gratification, drawback, and escape—and due to disillusionment, dispassion, and cessation regarding form, are freed by not grasping: they are well freed. "
+    },
+    {
+      "number": 32,
+      "pali": "Ye suvimuttā, te kevalino. ",
+      "english": "Those who are well freed are consummate ones. "
+    },
+    {
+      "number": 33,
+      "pali": "Ye kevalino vaṭṭaṁ tesaṁ natthi paññāpanāya. ",
+      "english": "For consummate ones, there is no cycle of rebirths to be found. "
+    },
+    {
+      "number": 34,
+      "pali": "Katamā ca, bhikkhave, vedanā? ",
+      "english": "And what is feeling? "
+    },
+    {
+      "number": 35,
+      "pali": "Chayime, bhikkhave, vedanākāyā—",
+      "english": "There are these six classes of feeling: "
+    },
+    {
+      "number": 36,
+      "pali": "cakkhusamphassajā vedanā …pe… ",
+      "english": "feeling born of eye contact … "
+    },
+    {
+      "number": 37,
+      "pali": "manosamphassajā vedanā. ",
+      "english": "feeling born of mind contact. "
+    },
+    {
+      "number": 38,
+      "pali": "Ayaṁ vuccati, bhikkhave, vedanā. ",
+      "english": "This is called feeling. "
+    },
+    {
+      "number": 39,
+      "pali": "Phassasamudayā vedanāsamudayo; ",
+      "english": "Feeling originates from contact. "
+    },
+    {
+      "number": 40,
+      "pali": "phassanirodhā vedanānirodho. ",
+      "english": "When contact ceases, feeling ceases. "
+    },
+    {
+      "number": 41,
+      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo vedanānirodhagāminī paṭipadā, seyyathidaṁ—",
+      "english": "The practice that leads to the cessation of feelings is simply this noble eightfold path, that is: "
+    },
+    {
+      "number": 42,
+      "pali": "sammādiṭṭhi …pe… sammāsamādhi. ",
+      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+    },
+    {
+      "number": 43,
+      "pali": "Yaṁ vedanaṁ paṭicca uppajjati sukhaṁ somanassaṁ—",
+      "english": "The pleasure and happiness that arise from feeling: this is its gratification. "
+    },
+    {
+      "number": 44,
+      "pali": "ayaṁ vedanāya assādo. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Yā vedanā aniccā dukkhā vipariṇāmadhammā—",
+      "english": "That feeling is impermanent, suffering, and perishable: this is its drawback. "
+    },
+    {
+      "number": 46,
+      "pali": "ayaṁ vedanāya ādīnavo. ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "Yo vedanāya chandarāgavinayo chandarāgappahānaṁ—",
+      "english": "Removing and giving up desire and greed for feeling: this is its escape. … "
+    },
+    {
+      "number": 48,
+      "pali": "idaṁ vedanāya nissaraṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Ye hi, keci, bhikkhave, samaṇā vā brāhmaṇā vā evaṁ vedanaṁ abhiññāya, evaṁ vedanāsamudayaṁ abhiññāya, evaṁ vedanānirodhaṁ abhiññāya, evaṁ vedanānirodhagāminiṁ paṭipadaṁ abhiññāya; ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "evaṁ vedanāya assādaṁ abhiññāya, evaṁ vedanāya ādīnavaṁ abhiññāya, evaṁ vedanāya nissaraṇaṁ abhiññāya vedanāya nibbidāya virāgāya nirodhāya paṭipannā, te suppaṭipannā. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Ye suppaṭipannā, te imasmiṁ dhammavinaye gādhanti. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Ye ca kho keci, bhikkhave, samaṇā vā brāhmaṇā vā evaṁ vedanaṁ abhiññāya …pe… ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "vaṭṭaṁ tesaṁ natthi paññāpanāya. ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Katamā ca, bhikkhave, saññā? ",
+      "english": "And what is perception? "
+    },
+    {
+      "number": 55,
+      "pali": "Chayime, bhikkhave, saññākāyā—",
+      "english": "There are these six classes of perception: "
+    },
+    {
+      "number": 56,
+      "pali": "rūpasaññā, saddasaññā, gandhasaññā, rasasaññā, phoṭṭhabbasaññā, dhammasaññā. ",
+      "english": "perceptions of sights, sounds, smells, tastes, touches, and ideas. "
+    },
+    {
+      "number": 57,
+      "pali": "Ayaṁ vuccati, bhikkhave, saññā. ",
+      "english": "This is called perception. "
+    },
+    {
+      "number": 58,
+      "pali": "Phassasamudayā saññāsamudayo; ",
+      "english": "Perception originates from contact. "
+    },
+    {
+      "number": 59,
+      "pali": "phassanirodhā saññānirodho. ",
+      "english": "When contact ceases, perception ceases. "
+    },
+    {
+      "number": 60,
+      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo saññānirodhagāminī paṭipadā, seyyathidaṁ—",
+      "english": "The practice that leads to the cessation of perceptions is simply this noble eightfold path … "
+    },
+    {
+      "number": 61,
+      "pali": "sammādiṭṭhi …pe… sammāsamādhi …pe… ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "vaṭṭaṁ tesaṁ natthi paññāpanāya. ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "Katame ca, bhikkhave, saṅkhārā? ",
+      "english": "And what are choices? "
+    },
+    {
+      "number": 64,
+      "pali": "Chayime, bhikkhave, cetanākāyā—",
+      "english": "There are these six classes of intention: "
+    },
+    {
+      "number": 65,
+      "pali": "rūpasañcetanā …pe… ",
+      "english": "intention regarding sights … "
+    },
+    {
+      "number": 66,
+      "pali": "dhammasañcetanā. ",
+      "english": "intention regarding ideas. "
+    },
+    {
+      "number": 67,
+      "pali": "Ime vuccanti, bhikkhave, saṅkhārā. ",
+      "english": "These are called choices. "
+    },
+    {
+      "number": 68,
+      "pali": "Phassasamudayā saṅkhārasamudayo; ",
+      "english": "Choices originate from contact. "
+    },
+    {
+      "number": 69,
+      "pali": "phassanirodhā saṅkhāranirodho. ",
+      "english": "When contact ceases, choices cease. "
+    },
+    {
+      "number": 70,
+      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo saṅkhāranirodhagāminī paṭipadā, seyyathidaṁ—",
+      "english": "The practice that leads to the cessation of choices is simply this noble eightfold path … "
+    },
+    {
+      "number": 71,
+      "pali": "sammādiṭṭhi …pe… sammāsamādhi. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "Yaṁ saṅkhāre paṭicca uppajjati sukhaṁ somanassaṁ—",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "ayaṁ saṅkhārānaṁ assādo. ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "Ye saṅkhārā aniccā dukkhā vipariṇāmadhammā—",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "ayaṁ saṅkhārānaṁ ādīnavo. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "Yo saṅkhāresu chandarāgavinayo chandarāgappahānaṁ—",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "idaṁ saṅkhārānaṁ nissaraṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā evaṁ saṅkhāre abhiññāya, evaṁ saṅkhārasamudayaṁ abhiññāya, evaṁ saṅkhāranirodhaṁ abhiññāya, evaṁ saṅkhāranirodhagāminiṁ paṭipadaṁ abhiññāya …pe… saṅkhārānaṁ nibbidāya virāgāya nirodhāya paṭipannā te suppaṭipannā. ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "Ye suppaṭipannā, te imasmiṁ dhammavinaye gādhanti …pe… ",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "vaṭṭaṁ tesaṁ natthi paññāpanāya. ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "Katamañca, bhikkhave, viññāṇaṁ? ",
+      "english": "And what is consciousness? "
+    },
+    {
+      "number": 82,
+      "pali": "Chayime, bhikkhave, viññāṇakāyā—",
+      "english": "There are these six classes of consciousness: "
+    },
+    {
+      "number": 83,
+      "pali": "cakkhuviññāṇaṁ, sotaviññāṇaṁ, ghānaviññāṇaṁ, jivhāviññāṇaṁ, kāyaviññāṇaṁ, manoviññāṇaṁ. ",
+      "english": "eye, ear, nose, tongue, body, and mind consciousness. "
+    },
+    {
+      "number": 84,
+      "pali": "Idaṁ vuccati, bhikkhave, viññāṇaṁ. ",
+      "english": "This is called consciousness. "
+    },
+    {
+      "number": 85,
+      "pali": "Nāmarūpasamudayā viññāṇasamudayo; ",
+      "english": "Consciousness originates from name and form. "
+    },
+    {
+      "number": 86,
+      "pali": "nāmarūpanirodhā viññāṇanirodho. ",
+      "english": "When name and form cease, consciousness ceases. "
+    },
+    {
+      "number": 87,
+      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo viññāṇanirodhagāminī paṭipadā, seyyathidaṁ—",
+      "english": "The practice that leads to the cessation of consciousness is simply this noble eightfold path, that is: "
+    },
+    {
+      "number": 88,
+      "pali": "sammādiṭṭhi …pe… sammāsamādhi. ",
+      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+    },
+    {
+      "number": 89,
+      "pali": "Yaṁ viññāṇaṁ paṭicca uppajjati sukhaṁ somanassaṁ—",
+      "english": "The pleasure and happiness that arise from consciousness: this is its gratification. "
+    },
+    {
+      "number": 90,
+      "pali": "ayaṁ viññāṇassa assādo. ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "Yaṁ viññāṇaṁ aniccaṁ dukkhaṁ vipariṇāmadhammaṁ—",
+      "english": "That consciousness is impermanent, suffering, and perishable: this is its drawback. "
+    },
+    {
+      "number": 92,
+      "pali": "ayaṁ viññāṇassa ādīnavo. ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "Yo viññāṇasmiṁ chandarāgavinayo chandarāgappahānaṁ—",
+      "english": "Removing and giving up desire and greed for consciousness: this is its escape. "
+    },
+    {
+      "number": 94,
+      "pali": "idaṁ viññāṇassa nissaraṇaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā evaṁ viññāṇaṁ abhiññāya, evaṁ viññāṇasamudayaṁ abhiññāya, evaṁ viññāṇanirodhaṁ abhiññāya, evaṁ viññāṇanirodhagāminiṁ paṭipadaṁ abhiññāya; ",
+      "english": "Those ascetics and brahmins who have directly known consciousness in this way—and its origin, its cessation, and the practice that leads to its cessation; "
+    },
+    {
+      "number": 96,
+      "pali": "evaṁ viññāṇassa assādaṁ abhiññāya, evaṁ viññāṇassa ādīnavaṁ abhiññāya, evaṁ viññāṇassa nissaraṇaṁ abhiññāya viññāṇassa nibbidāya virāgāya nirodhāya paṭipannā, te suppaṭipannā. ",
+      "english": "its gratification, drawback, and escape—and are practicing for disillusionment, dispassion, and cessation regarding consciousness: they are practicing well. "
+    },
+    {
+      "number": 97,
+      "pali": "Ye suppaṭipannā, te imasmiṁ dhammavinaye gādhanti. ",
+      "english": "Those who practice well have a footing  in this teaching and training. "
+    },
+    {
+      "number": 98,
+      "pali": "Ye ca kho keci, bhikkhave, samaṇā vā brāhmaṇā vā evaṁ viññāṇaṁ abhiññāya, evaṁ viññāṇasamudayaṁ abhiññāya, evaṁ viññāṇanirodhaṁ abhiññāya, evaṁ viññāṇanirodhagāminiṁ paṭipadaṁ abhiññāya; ",
+      "english": "Those ascetics and brahmins who have directly known consciousness in this way—and its origin, its cessation, and the practice that leads to its cessation; "
+    },
+    {
+      "number": 99,
+      "pali": "evaṁ viññāṇassa assādaṁ abhiññāya, evaṁ viññāṇassa ādīnavaṁ abhiññāya, evaṁ viññāṇassa nissaraṇaṁ abhiññāya viññāṇassa nibbidā virāgā nirodhā anupādā vimuttā, te suvimuttā. ",
+      "english": "its gratification, drawback, and escape—and due to disillusionment, dispassion, and cessation regarding consciousness, are freed by not grasping: they are well freed. "
+    },
+    {
+      "number": 100,
+      "pali": "Ye suvimuttā, te kevalino. ",
+      "english": "Those who are well freed are consummate ones. "
+    },
+    {
+      "number": 101,
+      "pali": "Ye kevalino vaṭṭaṁ tesaṁ natthi paññāpanāya. ",
+      "english": "For consummate ones, there is no cycle of rebirths to be found. "
+    },
+    {
+      "number": 102,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu sattaṭṭhānakusalo hoti. ",
+      "english": "That’s how a mendicant is skilled in seven cases. "
+    },
+    {
+      "number": 103,
+      "pali": "Kathañca, bhikkhave, bhikkhu tividhūpaparikkhī hoti? ",
+      "english": "And how does a mendicant examine in three ways? "
+    },
+    {
+      "number": 104,
+      "pali": "Idha, bhikkhave, bhikkhu dhātuso upaparikkhati, āyatanaso upaparikkhati, paṭiccasamuppādaso upaparikkhati. ",
+      "english": "It’s when a mendicant examines by way of the elements, sense fields, and dependent origination. "
+    },
+    {
+      "number": 105,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu tividhūpaparikkhī hoti. ",
+      "english": "That’s how a mendicant examines in three ways. "
+    },
+    {
+      "number": 106,
+      "pali": "Sattaṭṭhānakusalo, bhikkhave, bhikkhu tividhūpaparikkhī, imasmiṁ dhammavinaye kevalī vusitavā ‘uttamapuriso’ti vuccatī”ti. ",
+      "english": "In this teaching and training, a mendicant who is skilled in seven cases and who examines in three ways is called consummate, accomplished, a supreme person.” "
+    },
+    {
+      "number": 107,
+      "pali": "Pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

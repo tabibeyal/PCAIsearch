@@ -1,0 +1,570 @@
+{
+  "sutta_id": "AN8.8",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 8.8 ",
+      "english": "Numbered Discourses 8.8 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Mettāvagga ",
+      "english": "1. Love "
+    },
+    {
+      "number": 3,
+      "pali": "Uttaravipattisutta ",
+      "english": "Uttara on Failure "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ āyasmā uttaro mahisavatthusmiṁ viharati saṅkheyyake pabbate vaṭajālikāyaṁ. ",
+      "english": "At one time Venerable Uttara was staying on the Saṅkheyyaka Mountain in the Mahisa region near Dhavajālikā. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho āyasmā uttaro bhikkhū āmantesi: ",
+      "english": "There Uttara addressed the mendicants: "
+    },
+    {
+      "number": 6,
+      "pali": "“sādhāvuso, bhikkhu kālena kālaṁ attavipattiṁ paccavekkhitā hoti. ",
+      "english": "“Mendicants, it’s good for a mendicant to check their own failings from time to time. "
+    },
+    {
+      "number": 7,
+      "pali": "Sādhāvuso, bhikkhu kālena kālaṁ paravipattiṁ paccavekkhitā hoti. ",
+      "english": "It’s good for a mendicant to check the failings of others from time to time. "
+    },
+    {
+      "number": 8,
+      "pali": "Sādhāvuso, bhikkhu kālena kālaṁ attasampattiṁ paccavekkhitā hoti. ",
+      "english": "It’s good for a mendicant to check their own successes from time to time. "
+    },
+    {
+      "number": 9,
+      "pali": "Sādhāvuso, bhikkhu kālena kālaṁ parasampattiṁ paccavekkhitā hotī”ti. ",
+      "english": "It’s good for a mendicant to check the successes of others from time to time.” "
+    },
+    {
+      "number": 10,
+      "pali": "Tena kho pana samayena vessavaṇo mahārājā uttarāya disāya dakkhiṇaṁ disaṁ gacchati kenacideva karaṇīyena. ",
+      "english": "Now at that time the great king Vessavaṇa was on his way from the north to the south on some business. "
+    },
+    {
+      "number": 11,
+      "pali": "Assosi kho vessavaṇo mahārājā āyasmato uttarassa mahisavatthusmiṁ saṅkheyyake pabbate vaṭajālikāyaṁ bhikkhūnaṁ evaṁ dhammaṁ desentassa: ",
+      "english": "He heard Venerable Uttara teaching this to the mendicants on Saṅkheyyaka Mountain. "
+    },
+    {
+      "number": 12,
+      "pali": "“sādhāvuso, bhikkhu kālena kālaṁ attavipattiṁ paccavekkhitā hoti. ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "Sādhāvuso, bhikkhu kālena kālaṁ paravipattiṁ paccavekkhitā hoti. ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "Sādhāvuso, bhikkhu kālena kālaṁ attasampattiṁ paccavekkhitā hoti. ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "Sādhāvuso, bhikkhu kālena kālaṁ parasampattiṁ paccavekkhitā hotī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "Atha kho vessavaṇo mahārājā—seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ mahisavatthusmiṁ saṅkheyyake pabbate vaṭajālikāyaṁ antarahito devesu tāvatiṁsesu pāturahosi. ",
+      "english": "Then Vessavaṇa vanished from Saṅkheyyaka Mountain and appeared among the gods of the thirty-three, as easily as a strong person would extend or contract their arm. "
+    },
+    {
+      "number": 17,
+      "pali": "Atha kho vessavaṇo mahārājā yena sakko devānamindo tenupasaṅkami; upasaṅkamitvā sakkaṁ devānamindaṁ etadavoca: ",
+      "english": "Then he went up to Sakka, lord of gods, and said to him: "
+    },
+    {
+      "number": 18,
+      "pali": "“yagghe, mārisa, jāneyyāsi. ",
+      "english": "“Please good fellow, you should know this. "
+    },
+    {
+      "number": 19,
+      "pali": "Eso āyasmā uttaro mahisavatthusmiṁ saṅkheyyake pabbate vaṭajālikāyaṁ bhikkhūnaṁ evaṁ dhammaṁ deseti: ",
+      "english": "Venerable Uttara is teaching the mendicants on Saṅkheyyaka Mountain in this way: "
+    },
+    {
+      "number": 20,
+      "pali": "‘sādhāvuso, bhikkhu kālena kālaṁ attavipattiṁ paccavekkhitā hoti. ",
+      "english": "‘It’s good for a mendicant from time to time to check their own failings. … "
+    },
+    {
+      "number": 21,
+      "pali": "Sādhāvuso, bhikkhu kālena kālaṁ paravipattiṁ …pe… ",
+      "english": "the failings of others … "
+    },
+    {
+      "number": 22,
+      "pali": "attasampattiṁ … ",
+      "english": "their own successes … "
+    },
+    {
+      "number": 23,
+      "pali": "parasampattiṁ paccavekkhitā hotī’”ti. ",
+      "english": "the successes of others.’” "
+    },
+    {
+      "number": 24,
+      "pali": "Atha kho sakko devānamindo seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evamevaṁ devesu tāvatiṁsesu antarahito mahisavatthusmiṁ saṅkheyyake pabbate vaṭajālikāyaṁ āyasmato uttarassa sammukhe pāturahosi. ",
+      "english": "Then, as easily as a strong person would extend or contract their arm, Sakka vanished from the gods of the thirty-three and reappeared on Saṅkheyyaka Mountain in front of Venerable Uttara. "
+    },
+    {
+      "number": 25,
+      "pali": "Atha kho sakko devānamindo yenāyasmā uttaro tenupasaṅkami; upasaṅkamitvā āyasmantaṁ uttaraṁ abhivādetvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho sakko devānamindo āyasmantaṁ uttaraṁ etadavoca: ",
+      "english": "Then Sakka went up to Venerable Uttara, bowed, stood to one side, and said to him: "
+    },
+    {
+      "number": 26,
+      "pali": "“Saccaṁ kira, bhante, āyasmā uttaro bhikkhūnaṁ evaṁ dhammaṁ desesi: ",
+      "english": "“Is it really true, sir, that you teach the mendicants in this way: "
+    },
+    {
+      "number": 27,
+      "pali": "‘sādhāvuso, bhikkhu kālena kālaṁ attavipattiṁ paccavekkhitā hoti, ",
+      "english": "‘It’s good for a mendicant from time to time to check their own failings … "
+    },
+    {
+      "number": 28,
+      "pali": "sādhāvuso, bhikkhu kālena kālaṁ paravipattiṁ …pe… ",
+      "english": "the failings of others … "
+    },
+    {
+      "number": 29,
+      "pali": "attasampattiṁ … ",
+      "english": "their own successes … "
+    },
+    {
+      "number": 30,
+      "pali": "parasampattiṁ paccavekkhitā hotī’”ti? ",
+      "english": "the successes of others’?” "
+    },
+    {
+      "number": 31,
+      "pali": "“Evaṁ, devānamindā”ti. ",
+      "english": "“Indeed, lord of gods.” "
+    },
+    {
+      "number": 32,
+      "pali": "“Kiṁ panidaṁ, bhante, āyasmato uttarassa sakaṁ paṭibhānaṁ, udāhu tassa bhagavato vacanaṁ arahato sammāsambuddhassā”ti? ",
+      "english": "“Sir, did this teaching come to you from your own inspiration, or was it spoken by the Blessed One, the perfected one, the fully awakened Buddha?” "
+    },
+    {
+      "number": 33,
+      "pali": "“Tena hi, devānaminda, upamaṁ te karissāmi. ",
+      "english": "“Well then, lord of gods, I shall give you a simile. "
+    },
+    {
+      "number": 34,
+      "pali": "Upamāya m’idhekacce viññū purisā bhāsitassa atthaṁ ājānanti. ",
+      "english": "For by means of a simile some sensible people understand the meaning of what is said. "
+    },
+    {
+      "number": 35,
+      "pali": "Seyyathāpi, devānaminda, gāmassa vā nigamassa vā avidūre mahādhaññarāsi. ",
+      "english": "Suppose there was a large heap of grain not far from a town or village. "
+    },
+    {
+      "number": 36,
+      "pali": "Tato mahājanakāyo dhaññaṁ āhareyya—",
+      "english": "And a large crowd were to take away grain "
+    },
+    {
+      "number": 37,
+      "pali": "kājehipi piṭakehipi ucchaṅgehipi añjalīhipi. ",
+      "english": "with carrying poles, baskets, hip sacks, or their cupped hands. "
+    },
+    {
+      "number": 38,
+      "pali": "Yo nu kho, devānaminda, taṁ mahājanakāyaṁ upasaṅkamitvā evaṁ puccheyya: ",
+      "english": "If someone were to go to that crowd and ask them "
+    },
+    {
+      "number": 39,
+      "pali": "‘kuto imaṁ dhaññaṁ āharathā’ti, kathaṁ byākaramāno nu kho, devānaminda, so mahājanakāyo sammā byākaramāno byākareyyā”ti? ",
+      "english": "where they got the grain from, how should that crowd rightly reply?” "
+    },
+    {
+      "number": 40,
+      "pali": "“‘Amumhā mahādhaññarāsimhā āharāmā’ti kho, bhante, so mahājanakāyo sammā byākaramāno byākareyyā”ti. ",
+      "english": "“Sir, they should reply that they took it from the large heap of grain.” "
+    },
+    {
+      "number": 41,
+      "pali": "“Evamevaṁ kho, devānaminda, yaṁ kiñci subhāsitaṁ sabbaṁ taṁ tassa bhagavato vacanaṁ arahato sammāsambuddhassa. ",
+      "english": "“In the same way, lord of gods, whatever is well spoken is spoken by the Blessed One, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 42,
+      "pali": "Tato upādāyupādāya mayaṁ caññe ca bhaṇāmā”ti. ",
+      "english": "Both myself and others rely completely on that when we speak.” "
+    },
+    {
+      "number": 43,
+      "pali": "“Acchariyaṁ, bhante, abbhutaṁ bhante. ",
+      "english": "“It’s incredible, sir, it’s amazing! "
+    },
+    {
+      "number": 44,
+      "pali": "Yāva subhāsitañcidaṁ āyasmatā uttarena: ",
+      "english": "How well this was said by Venerable Uttara! "
+    },
+    {
+      "number": 45,
+      "pali": "‘yaṁ kiñci subhāsitaṁ sabbaṁ taṁ tassa bhagavato vacanaṁ arahato sammāsambuddhassa. ",
+      "english": "‘Whatever is well spoken is spoken by the Blessed One, the perfected one, the fully awakened Buddha. "
+    },
+    {
+      "number": 46,
+      "pali": "Tato upādāyupādāya mayañcaññe ca bhaṇāmā’ti. ",
+      "english": "Both myself and others rely completely on that when we speak.’ "
+    },
+    {
+      "number": 47,
+      "pali": "Ekamidaṁ, bhante uttara, samayaṁ bhagavā rājagahe viharati gijjhakūṭe pabbate acirapakkante devadatte. ",
+      "english": "At one time, Honorable Uttara, the Buddha was staying near Rājagaha, on the Vulture’s Peak Mountain, not long after Devadatta had left. "
+    },
+    {
+      "number": 48,
+      "pali": "Tatra kho bhagavā devadattaṁ ārabbha bhikkhū āmantesi: ",
+      "english": "There the Buddha spoke to the mendicants about Devadatta: "
+    },
+    {
+      "number": 49,
+      "pali": "‘Sādhu, bhikkhave, bhikkhu kālena kālaṁ attavipattiṁ paccavekkhitā hoti. ",
+      "english": "‘Mendicants, it’s good for a mendicant from time to time to check their own failings … "
+    },
+    {
+      "number": 50,
+      "pali": "Sādhu, bhikkhave, bhikkhu kālena kālaṁ paravipattiṁ …pe… ",
+      "english": "the failings of others … "
+    },
+    {
+      "number": 51,
+      "pali": "attasampattiṁ … ",
+      "english": "their own successes … "
+    },
+    {
+      "number": 52,
+      "pali": "parasampattiṁ paccavekkhitā hoti. ",
+      "english": "the successes of others. "
+    },
+    {
+      "number": 53,
+      "pali": "Aṭṭhahi, bhikkhave, asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
+      "english": "Overcome and overwhelmed by eight things that oppose the true teaching, Devadatta is going to a place of loss, to hell, there to remain for an eon, irredeemable. "
+    },
+    {
+      "number": 54,
+      "pali": "Katamehi aṭṭhahi? ",
+      "english": "What eight? "
+    },
+    {
+      "number": 55,
+      "pali": "Lābhena hi, bhikkhave, abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho; ",
+      "english": "Overcome and overwhelmed by gain … "
+    },
+    {
+      "number": 56,
+      "pali": "alābhena, bhikkhave …pe… ",
+      "english": "loss … "
+    },
+    {
+      "number": 57,
+      "pali": "yasena, bhikkhave … ",
+      "english": "fame … "
+    },
+    {
+      "number": 58,
+      "pali": "ayasena, bhikkhave … ",
+      "english": "disgrace … "
+    },
+    {
+      "number": 59,
+      "pali": "sakkārena, bhikkhave … ",
+      "english": "honor … "
+    },
+    {
+      "number": 60,
+      "pali": "asakkārena, bhikkhave … ",
+      "english": "dishonor … "
+    },
+    {
+      "number": 61,
+      "pali": "pāpicchatāya, bhikkhave … ",
+      "english": "corrupt wishes … "
+    },
+    {
+      "number": 62,
+      "pali": "pāpamittatāya, bhikkhave, abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
+      "english": "bad friendship, Devadatta is going to a place of loss, to hell, there to remain for an eon, irredeemable. "
+    },
+    {
+      "number": 63,
+      "pali": "Imehi kho, bhikkhave, aṭṭhahi asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
+      "english": "Overcome and overwhelmed by these eight things that oppose the true teaching, Devadatta is going to a place of loss, to hell, there to remain for an eon, irredeemable. "
+    },
+    {
+      "number": 64,
+      "pali": "Sādhu, bhikkhave, bhikkhu uppannaṁ lābhaṁ abhibhuyya abhibhuyya vihareyya; ",
+      "english": "It’s good for a mendicant, whenever they encounter it, to overcome gain … "
+    },
+    {
+      "number": 65,
+      "pali": "uppannaṁ alābhaṁ …pe… ",
+      "english": "loss … "
+    },
+    {
+      "number": 66,
+      "pali": "uppannaṁ yasaṁ … ",
+      "english": "fame … "
+    },
+    {
+      "number": 67,
+      "pali": "uppannaṁ ayasaṁ … ",
+      "english": "disgrace … "
+    },
+    {
+      "number": 68,
+      "pali": "uppannaṁ sakkāraṁ … ",
+      "english": "honor … "
+    },
+    {
+      "number": 69,
+      "pali": "uppannaṁ asakkāraṁ … ",
+      "english": "dishonor … "
+    },
+    {
+      "number": 70,
+      "pali": "uppannaṁ pāpicchataṁ … ",
+      "english": "corrupt wishes … "
+    },
+    {
+      "number": 71,
+      "pali": "uppannaṁ pāpamittataṁ abhibhuyya abhibhuyya vihareyya. ",
+      "english": "bad friendship. "
+    },
+    {
+      "number": 72,
+      "pali": "Kiñca, bhikkhave, bhikkhu atthavasaṁ paṭicca uppannaṁ lābhaṁ abhibhuyya abhibhuyya vihareyya; ",
+      "english": "What advantage does a mendicant gain by overcoming these eight things? "
+    },
+    {
+      "number": 73,
+      "pali": "uppannaṁ alābhaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "uppannaṁ yasaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "uppannaṁ ayasaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "uppannaṁ sakkāraṁ … ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "uppannaṁ asakkāraṁ … ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "uppannaṁ pāpicchataṁ … ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "uppannaṁ pāpamittataṁ abhibhuyya abhibhuyya vihareyya? ",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "Yaṁ hissa, bhikkhave, uppannaṁ lābhaṁ anabhibhuyya viharato uppajjeyyuṁ āsavā vighātapariḷāhā, uppannaṁ lābhaṁ abhibhuyya viharato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+      "english": "The distressing and feverish defilements that might arise in someone who lives without overcoming these eight things do not arise when they have overcome them. "
+    },
+    {
+      "number": 81,
+      "pali": "Yaṁ hissa, bhikkhave, uppannaṁ alābhaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "uppannaṁ yasaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "uppannaṁ ayasaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 84,
+      "pali": "uppannaṁ sakkāraṁ … ",
+      "english": ""
+    },
+    {
+      "number": 85,
+      "pali": "uppannaṁ asakkāraṁ … ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "uppannaṁ pāpicchataṁ … ",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "uppannaṁ pāpamittataṁ anabhibhuyya viharato uppajjeyyuṁ āsavā vighātapariḷāhā, uppannaṁ pāpamittataṁ abhibhuyya viharato evaṁsa te āsavā vighātapariḷāhā na honti. ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "Idaṁ kho, bhikkhave, bhikkhu atthavasaṁ paṭicca uppannaṁ lābhaṁ abhibhuyya abhibhuyya vihareyya; ",
+      "english": "This is the advantage that a mendicant gains by overcoming these eight things. "
+    },
+    {
+      "number": 89,
+      "pali": "uppannaṁ alābhaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 90,
+      "pali": "uppannaṁ yasaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "uppannaṁ ayasaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 92,
+      "pali": "uppannaṁ sakkāraṁ … ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "uppannaṁ asakkāraṁ … ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "uppannaṁ pāpicchataṁ … ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "uppannaṁ pāpamittataṁ abhibhuyya abhibhuyya vihareyya. ",
+      "english": ""
+    },
+    {
+      "number": 96,
+      "pali": "Tasmātiha, bhikkhave, evaṁ sikkhitabbaṁ: ",
+      "english": "So you should train like this: "
+    },
+    {
+      "number": 97,
+      "pali": "“uppannaṁ lābhaṁ abhibhuyya abhibhuyya viharissāma, ",
+      "english": "“Whenever we encounter it, we will overcome gain … "
+    },
+    {
+      "number": 98,
+      "pali": "uppannaṁ alābhaṁ …pe… ",
+      "english": "loss … "
+    },
+    {
+      "number": 99,
+      "pali": "uppannaṁ yasaṁ … ",
+      "english": "fame … "
+    },
+    {
+      "number": 100,
+      "pali": "uppannaṁ ayasaṁ … ",
+      "english": "disgrace … "
+    },
+    {
+      "number": 101,
+      "pali": "uppannaṁ sakkāraṁ … ",
+      "english": "honor … "
+    },
+    {
+      "number": 102,
+      "pali": "uppannaṁ asakkāraṁ … ",
+      "english": "dishonor … "
+    },
+    {
+      "number": 103,
+      "pali": "uppannaṁ pāpicchataṁ … ",
+      "english": "corrupt wishes … "
+    },
+    {
+      "number": 104,
+      "pali": "uppannaṁ pāpamittataṁ abhibhuyya abhibhuyya viharissāmā”ti. ",
+      "english": "bad friendship.” "
+    },
+    {
+      "number": 105,
+      "pali": "Evañhi vo, bhikkhave, sikkhitabban’ti. ",
+      "english": "That’s how you should train.’ "
+    },
+    {
+      "number": 106,
+      "pali": "Ettāvatā, bhante uttara, manussesu catasso parisā—",
+      "english": "Honorable Uttara, this exposition of the teaching is not established anywhere in the four assemblies—"
+    },
+    {
+      "number": 107,
+      "pali": "bhikkhū, bhikkhuniyo, upāsakā, upāsikāyo. ",
+      "english": "monks, nuns, laymen, and laywomen. "
+    },
+    {
+      "number": 108,
+      "pali": "Nāyaṁ dhammapariyāyo kismiñci upaṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 109,
+      "pali": "Uggaṇhatu, bhante, āyasmā uttaro imaṁ dhammapariyāyaṁ. ",
+      "english": "Sir, learn this exposition of the teaching! "
+    },
+    {
+      "number": 110,
+      "pali": "Pariyāpuṇātu, bhante, āyasmā uttaro imaṁ dhammapariyāyaṁ. ",
+      "english": "Memorize this exposition of the teaching! "
+    },
+    {
+      "number": 111,
+      "pali": "Dhāretu, bhante, āyasmā uttaro imaṁ dhammapariyāyaṁ. ",
+      "english": "Remember this exposition of the teaching! "
+    },
+    {
+      "number": 112,
+      "pali": "Atthasaṁhito ayaṁ, bhante, dhammapariyāyo ādibrahmacariyako”ti. ",
+      "english": "Sir, this exposition of the teaching is beneficial and relevant to the fundamentals of the spiritual life.” "
+    },
+    {
+      "number": 113,
+      "pali": "Aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

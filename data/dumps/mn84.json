@@ -1,0 +1,860 @@
+{
+  "sutta_id": "MN84",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 84 ",
+      "english": "Middle Discourses 84 "
+    },
+    {
+      "number": 2,
+      "pali": "Madhurasutta ",
+      "english": "At Madhurā "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ āyasmā mahākaccāno madhurāyaṁ viharati gundāvane. ",
+      "english": "At one time Venerable Mahākaccāna was staying near Madhurā, in the Nut Grass Grove. "
+    },
+    {
+      "number": 5,
+      "pali": "Assosi kho rājā mādhuro avantiputto: ",
+      "english": "King Avantiputta of Madhurā heard, "
+    },
+    {
+      "number": 6,
+      "pali": "“samaṇo khalu, bho, kaccāno madhurāyaṁ viharati gundāvane. ",
+      "english": "“It seems the ascetic Kaccāna is staying near Madhurā, in the Nut Grass Grove. "
+    },
+    {
+      "number": 7,
+      "pali": "Taṁ kho pana bhavantaṁ kaccānaṁ evaṁ kalyāṇo kittisaddo abbhuggato: ",
+      "english": "He has this good reputation: "
+    },
+    {
+      "number": 8,
+      "pali": "‘paṇḍito viyatto medhāvī bahussuto cittakathī kalyāṇapaṭibhāno vuddho ceva arahā ca’. ",
+      "english": "‘He is astute, competent, clever, learned, a brilliant speaker, eloquent, mature, a perfected one.’ "
+    },
+    {
+      "number": 9,
+      "pali": "Sādhu kho pana tathārūpānaṁ arahataṁ dassanaṁ hotī”ti. ",
+      "english": "It’s good to see such perfected ones.” "
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho rājā mādhuro avantiputto bhadrāni bhadrāni yānāni yojāpetvā bhadraṁ yānaṁ abhiruhitvā bhadrehi bhadrehi yānehi madhurāya niyyāsi mahaccarājānubhāvena āyasmantaṁ mahākaccānaṁ dassanāya. ",
+      "english": "And then King Avantiputta had the finest carriages harnessed. He mounted a fine carriage and, along with other fine carriages, set out in full royal pomp from Madhurā to see Mahākaccāna. "
+    },
+    {
+      "number": 11,
+      "pali": "Yāvatikā yānassa bhūmi yānena gantvā yānā paccorohitvā pattikova yenāyasmā mahākaccāno tenupasaṅkami; upasaṅkamitvā āyasmatā mahākaccānena saddhiṁ sammodi. Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho rājā mādhuro avantiputto āyasmantaṁ mahākaccānaṁ etadavoca: ",
+      "english": "He went by carriage as far as the terrain allowed, then descended and approached Mahākaccāna on foot. They exchanged greetings, and when the greetings and polite conversation were over, the king sat down to one side and said to Mahākaccāna: "
+    },
+    {
+      "number": 12,
+      "pali": "“brāhmaṇā, bho kaccāna, evamāhaṁsu: ",
+      "english": "“Worthy Kaccāna, the brahmins say: "
+    },
+    {
+      "number": 13,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīno añño vaṇṇo; ",
+      "english": "‘Only brahmins are the best class; other classes are inferior. "
+    },
+    {
+      "number": 14,
+      "pali": "brāhmaṇova sukko vaṇṇo, kaṇho añño vaṇṇo; ",
+      "english": "Only brahmins are the light class; other classes are dark. "
+    },
+    {
+      "number": 15,
+      "pali": "brāhmaṇāva sujjhanti, no abrāhmaṇā; ",
+      "english": "Only brahmins are purified, not others. "
+    },
+    {
+      "number": 16,
+      "pali": "brāhmaṇāva brahmuno puttā orasā mukhato jātā brahmajā brahmanimmitā brahmadāyādā’ti. ",
+      "english": "Only brahmins are the true-born sons of divinity, born from his mouth, born of divinity, created by divinity, heirs of divinity.’ "
+    },
+    {
+      "number": 17,
+      "pali": "Idha bhavaṁ kaccāno kimakkhāyī”ti? ",
+      "english": "What does the worthy Kaccāna have to say about this?” "
+    },
+    {
+      "number": 18,
+      "pali": "“Ghosoyeva kho eso, mahārāja, lokasmiṁ: ",
+      "english": "“Great king, that’s just hearsay in the world. "
+    },
+    {
+      "number": 19,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīno añño vaṇṇo; ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "brāhmaṇova sukko vaṇṇo, kaṇho añño vaṇṇo; ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "brāhmaṇāva sujjhanti, no abrāhmaṇā; ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "brāhmaṇāva brahmuno puttā orasā mukhato jātā brahmajā brahmanimmitā brahmadāyādā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "Tadamināpetaṁ, mahārāja, pariyāyena veditabbaṁ yathā ghosoyeveso lokasmiṁ: ",
+      "english": "And here’s a way to understand that it’s just hearsay in the world. "
+    },
+    {
+      "number": 24,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīno añño vaṇṇo …pe… ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "brahmadāyādā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "What do you think, great king? "
+    },
+    {
+      "number": 27,
+      "pali": "khattiyassa cepi ijjheyya dhanena vā dhaññena vā rajatena vā jātarūpena vā khattiyopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī … ",
+      "english": "Suppose an aristocrat prospers in money, grain, silver, or gold. Wouldn’t there be aristocrats, brahmins, peasants, and menials who would get up before him and go to bed after him, and be obliging, behaving nicely and speaking politely?” "
+    },
+    {
+      "number": 28,
+      "pali": "brāhmaṇopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "vessopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "suddopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī”ti? ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "“Khattiyassa cepi, bho kaccāna, ijjheyya dhanena vā dhaññena vā rajatena vā jātarūpena vā khattiyopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī … ",
+      "english": "“There would, worthy Kaccāna.” "
+    },
+    {
+      "number": 32,
+      "pali": "brāhmaṇopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "vessopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "suddopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "“What do you think, great king? "
+    },
+    {
+      "number": 36,
+      "pali": "brāhmaṇassa cepi ijjheyya dhanena vā dhaññena vā rajatena vā jātarūpena vā brāhmaṇopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī … ",
+      "english": "Suppose a brahmin … "
+    },
+    {
+      "number": 37,
+      "pali": "vessopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "suddopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "khattiyopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī”ti? ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "“Brāhmaṇassa cepi, bho kaccāna, ijjheyya dhanena vā dhaññena vā rajatena vā jātarūpena vā brāhmaṇopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī … ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "vessopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "suddopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "khattiyopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, vessassa cepi ijjheyya dhanena vā dhaññena vā rajatena vā jātarūpena vā vessopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī … ",
+      "english": "a peasant … "
+    },
+    {
+      "number": 45,
+      "pali": "suddopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "khattiyopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "brāhmaṇopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī”ti? ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "“Vessassa cepi, bho kaccāna, ijjheyya dhanena vā dhaññena vā rajatena vā jātarūpena vā vessopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī … ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "suddopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "khattiyopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "brāhmaṇopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, suddassa cepi ijjheyya dhanena vā dhaññena vā rajatena vā jātarūpena vā suddopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī … ",
+      "english": "a menial prospers in money, grain, silver, or gold. Wouldn’t there be menials, aristocrats, brahmins, and peasants who would get up before him and go to bed after him, and be obliging, behaving nicely and speaking politely?” "
+    },
+    {
+      "number": 53,
+      "pali": "khattiyopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "brāhmaṇopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "vessopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī”ti? ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "“Suddassa cepi, bho kaccāna, ijjheyya dhanena vā dhaññena vā rajatena vā jātarūpena vā suddopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādīti … ",
+      "english": "“There would, worthy Kaccāna.” "
+    },
+    {
+      "number": 57,
+      "pali": "khattiyopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "brāhmaṇopissāssa … ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "vessopissāssa pubbuṭṭhāyī pacchānipātī kiṅkārapaṭissāvī manāpacārī piyavādī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "“What do you think, great king? "
+    },
+    {
+      "number": 61,
+      "pali": "yadi evaṁ sante, ime cattāro vaṇṇā samasamā honti no vā? ",
+      "english": "If this is so, are the four classes equal or not? "
+    },
+    {
+      "number": 62,
+      "pali": "Kathaṁ vā te ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 63,
+      "pali": "“Addhā kho, bho kaccāna, evaṁ sante, ime cattāro vaṇṇā samasamā honti. ",
+      "english": "“Certainly, worthy Kaccāna, in this case these four classes are equal. "
+    },
+    {
+      "number": 64,
+      "pali": "Nesaṁ ettha kiñci nānākaraṇaṁ samanupassāmī”ti. ",
+      "english": "I can’t see any difference between them.” "
+    },
+    {
+      "number": 65,
+      "pali": "“Imināpi kho etaṁ, mahārāja, pariyāyena veditabbaṁ yathā ghosoyeveso lokasmiṁ: ",
+      "english": "“And here’s another way to understand that the claims of the brahmins are just hearsay in the world. "
+    },
+    {
+      "number": 66,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīno añño vaṇṇo …pe… ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "brahmadāyādā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "What do you think, great king? "
+    },
+    {
+      "number": 69,
+      "pali": "idhassa khattiyo pāṇātipātī adinnādāyī kāmesumicchācārī musāvādī pisuṇavāco pharusavāco samphappalāpī abhijjhālu byāpannacitto micchādiṭṭhi kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjeyya no vā? ",
+      "english": "Take an aristocrat who kills living creatures, steals, and commits sexual misconduct; uses speech that’s false, backbiting, harsh, or nonsensical; and is covetous, malicious, and has wrong view. When their body breaks up, after death, would they be reborn in a place of loss, a bad place, the underworld, hell, or not? "
+    },
+    {
+      "number": 70,
+      "pali": "Kathaṁ vā te ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 71,
+      "pali": "“Khattiyopi hi, bho kaccāna, pāṇātipātī adinnādāyī kāmesumicchācārī musāvādī pisuṇavāco pharusavāco samphappalāpī abhijjhālu byāpannacitto micchādiṭṭhi kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjeyya. ",
+      "english": "“Such an aristocrat would be reborn in a bad place. "
+    },
+    {
+      "number": 72,
+      "pali": "Evaṁ me ettha hoti, evañca pana me etaṁ arahataṁ sutan”ti. ",
+      "english": "That’s what I think, but I’ve also heard it from the perfected ones.” "
+    },
+    {
+      "number": 73,
+      "pali": "“Sādhu sādhu, mahārāja. ",
+      "english": "“Good, good, great king! "
+    },
+    {
+      "number": 74,
+      "pali": "Sādhu kho te etaṁ, mahārāja, evaṁ hoti, sādhu ca pana te etaṁ arahataṁ sutaṁ. ",
+      "english": "It’s good that you think so, and it’s good that you’ve heard it from the perfected ones. "
+    },
+    {
+      "number": 75,
+      "pali": "Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "What do you think, great king? "
+    },
+    {
+      "number": 76,
+      "pali": "idhassa brāhmaṇo …pe… ",
+      "english": "Take a brahmin … "
+    },
+    {
+      "number": 77,
+      "pali": "idhassa vesso …pe… ",
+      "english": "a peasant … "
+    },
+    {
+      "number": 78,
+      "pali": "idhassa suddo pāṇātipātī adinnādāyī …pe… micchādiṭṭhi kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjeyya no vā? ",
+      "english": "a menial who kills living creatures, steals, and commits sexual misconduct; uses speech that’s false, backbiting, harsh, or nonsensical; and is covetous, malicious, and has wrong view. When their body breaks up, after death, would they be reborn in a place of loss, a bad place, the underworld, hell, or not? "
+    },
+    {
+      "number": 79,
+      "pali": "Kathaṁ vā te ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 80,
+      "pali": "“Suddopi hi, bho kaccāna, pāṇātipātī adinnādāyī …pe… micchādiṭṭhi kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjeyya. ",
+      "english": "“Such a brahmin, peasant, or menial would be reborn in a bad place. "
+    },
+    {
+      "number": 81,
+      "pali": "Evaṁ me ettha hoti, evañca pana me etaṁ arahataṁ sutan”ti. ",
+      "english": "That’s what I think, but I’ve also heard it from the perfected ones.” "
+    },
+    {
+      "number": 82,
+      "pali": "“Sādhu sādhu, mahārāja. ",
+      "english": "“Good, good, great king! "
+    },
+    {
+      "number": 83,
+      "pali": "Sādhu kho te etaṁ, mahārāja, evaṁ hoti, sādhu ca pana te etaṁ arahataṁ sutaṁ. ",
+      "english": "It’s good that you think so, and it’s good that you’ve heard it from the perfected ones. "
+    },
+    {
+      "number": 84,
+      "pali": "Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "What do you think, great king? "
+    },
+    {
+      "number": 85,
+      "pali": "yadi evaṁ sante, ime cattāro vaṇṇā samasamā honti no vā? ",
+      "english": "If this is so, are the four classes equal or not? "
+    },
+    {
+      "number": 86,
+      "pali": "Kathaṁ vā te ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 87,
+      "pali": "“Addhā kho, bho kaccāna, evaṁ sante, ime cattāro vaṇṇā samasamā honti. ",
+      "english": "“Certainly, worthy Kaccāna, in this case these four classes are equal. "
+    },
+    {
+      "number": 88,
+      "pali": "Nesaṁ ettha kiñci nānākaraṇaṁ samanupassāmī”ti. ",
+      "english": "I can’t see any difference between them.” "
+    },
+    {
+      "number": 89,
+      "pali": "“Imināpi kho etaṁ, mahārāja, pariyāyena veditabbaṁ yathā ghosoyeveso lokasmiṁ: ",
+      "english": "“And here’s another way to understand that the claims of the brahmins are just hearsay in the world. "
+    },
+    {
+      "number": 90,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīno añño vaṇṇo …pe… brahmadāyādā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "What do you think, great king? "
+    },
+    {
+      "number": 92,
+      "pali": "idhassa khattiyo pāṇātipātā paṭivirato, adinnādānā paṭivirato, kāmesumicchācārā paṭivirato, musāvādā paṭivirato, pisuṇāya vācāya paṭivirato, pharusāya vācāya paṭivirato, samphappalāpā paṭivirato, anabhijjhālu abyāpannacitto sammādiṭṭhi kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjeyya no vā? ",
+      "english": "Take an aristocrat who doesn’t kill living creatures, steal, or commit sexual misconduct. They don’t use speech that’s false, backbiting, harsh, or nonsensical. And they’re contented, kind-hearted, with right view. When their body breaks up, after death, would they be reborn in a good place, a heavenly realm, or not? "
+    },
+    {
+      "number": 93,
+      "pali": "Kathaṁ vā te ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 94,
+      "pali": "“Khattiyopi hi, bho kaccāna, pāṇātipātā paṭivirato, adinnādānā paṭivirato, kāmesumicchācārā paṭivirato, musāvādā paṭivirato, pisuṇāya vācāya paṭivirato, pharusāya vācāya paṭivirato, samphappalāpā paṭivirato, anabhijjhālu abyāpannacitto sammādiṭṭhi kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjeyya. ",
+      "english": "“Such an aristocrat would be reborn in a good place. "
+    },
+    {
+      "number": 95,
+      "pali": "Evaṁ me ettha hoti, evañca pana me etaṁ arahataṁ sutan”ti. ",
+      "english": "That’s what I think, but I’ve also heard it from the perfected ones.” "
+    },
+    {
+      "number": 96,
+      "pali": "“Sādhu sādhu, mahārāja. ",
+      "english": "“Good, good, great king! "
+    },
+    {
+      "number": 97,
+      "pali": "Sādhu kho te etaṁ, mahārāja, evaṁ hoti, sādhu ca pana te etaṁ arahataṁ sutaṁ. ",
+      "english": "It’s good that you think so, and it’s good that you’ve heard it from the perfected ones. "
+    },
+    {
+      "number": 98,
+      "pali": "Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "What do you think, great king? "
+    },
+    {
+      "number": 99,
+      "pali": "idhassa brāhmaṇo, idhassa vesso, idhassa suddo pāṇātipātā paṭivirato adinnādānā paṭivirato …pe… sammādiṭṭhi kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjeyya no vā? ",
+      "english": "Take a brahmin, peasant, or menial who doesn’t kill living creatures, steal, or commit sexual misconduct. They don’t use speech that’s false, backbiting, harsh, or nonsensical. And they’re contented, kind-hearted, with right view. When their body breaks up, after death, would they be reborn in a good place, a heavenly realm, or not? "
+    },
+    {
+      "number": 100,
+      "pali": "Kathaṁ vā te ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 101,
+      "pali": "“Suddopi hi, bho kaccāna, pāṇātipātā paṭivirato, adinnādānā paṭivirato …pe… sammādiṭṭhi kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjeyya. ",
+      "english": "“Such a brahmin, peasant, or menial would be reborn in a good place. "
+    },
+    {
+      "number": 102,
+      "pali": "Evaṁ me ettha hoti, evañca pana me etaṁ arahataṁ sutan”ti. ",
+      "english": "That’s what I think, but I’ve also heard it from the perfected ones.” "
+    },
+    {
+      "number": 103,
+      "pali": "“Sādhu sādhu, mahārāja. ",
+      "english": "“Good, good, great king! "
+    },
+    {
+      "number": 104,
+      "pali": "Sādhu kho te etaṁ, mahārāja, evaṁ hoti, sādhu ca pana te etaṁ arahataṁ sutaṁ. ",
+      "english": "It’s good that you think so, and it’s good that you’ve heard it from the perfected ones. "
+    },
+    {
+      "number": 105,
+      "pali": "Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "What do you think, great king? "
+    },
+    {
+      "number": 106,
+      "pali": "yadi evaṁ sante, ime cattāro vaṇṇā samasamā honti no vā? ",
+      "english": "If this is so, are the four classes equal or not? "
+    },
+    {
+      "number": 107,
+      "pali": "Kathaṁ vā te ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 108,
+      "pali": "“Addhā kho, bho kaccāna, evaṁ sante, ime cattāro vaṇṇā samasamā honti. ",
+      "english": "“Certainly, worthy Kaccāna, in this case these four classes are equal. "
+    },
+    {
+      "number": 109,
+      "pali": "Nesaṁ ettha kiñci nānākaraṇaṁ samanupassāmī”ti. ",
+      "english": "I can’t see any difference between them.” "
+    },
+    {
+      "number": 110,
+      "pali": "“Imināpi kho etaṁ, mahārāja, pariyāyena veditabbaṁ yathā ghosoyeveso lokasmiṁ: ",
+      "english": "“And here’s another way to understand that the claims of the brahmins are just hearsay in the world. "
+    },
+    {
+      "number": 111,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīno añño vaṇṇo …pe… brahmadāyādā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 112,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "What do you think, great king? "
+    },
+    {
+      "number": 113,
+      "pali": "idha khattiyo sandhiṁ vā chindeyya, nillopaṁ vā hareyya, ekāgārikaṁ vā kareyya, paripanthe vā tiṭṭheyya, paradāraṁ vā gaccheyya, tañce te purisā gahetvā dasseyyuṁ: ",
+      "english": "Take an aristocrat who breaks into houses, plunders wealth, steals from isolated buildings, commits highway robbery, and commits adultery. Suppose your men arrest him and present him to you, saying: "
+    },
+    {
+      "number": 114,
+      "pali": "‘ayaṁ te, deva, coro āgucārī. ",
+      "english": "‘Your Majesty, this man is a bandit, a criminal. "
+    },
+    {
+      "number": 115,
+      "pali": "Imassa yaṁ icchasi taṁ daṇḍaṁ paṇehī’ti. ",
+      "english": "Punish him as you will.’ "
+    },
+    {
+      "number": 116,
+      "pali": "Kinti naṁ kareyyāsī”ti? ",
+      "english": "What would you do to him?” "
+    },
+    {
+      "number": 117,
+      "pali": "“Ghāteyyāma vā, bho kaccāna, jāpeyyāma vā pabbājeyyāma vā yathāpaccayaṁ vā kareyyāma. ",
+      "english": "“I would have him executed, fined, or banished, or dealt with as befits the crime. "
+    },
+    {
+      "number": 118,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 119,
+      "pali": "Yā hissa, bho kaccāna, pubbe ‘khattiyo’ti samaññā sāssa antarahitā; corotveva saṅkhyaṁ gacchatī”ti. ",
+      "english": "Because he’s lost his former status as an aristocrat, and is just reckoned as a bandit.” "
+    },
+    {
+      "number": 120,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "“What do you think, great king? "
+    },
+    {
+      "number": 121,
+      "pali": "idha brāhmaṇo, idha vesso, idha suddo sandhiṁ vā chindeyya, nillopaṁ vā hareyya, ekāgārikaṁ vā kareyya, paripanthe vā tiṭṭheyya, paradāraṁ vā gaccheyya, tañce te purisā gahetvā dasseyyuṁ: ",
+      "english": "Take a brahmin, peasant, or menial who breaks into houses, plunders wealth, steals from isolated buildings, commits highway robbery, and commits adultery. Suppose your men arrest him and present him to you, saying: "
+    },
+    {
+      "number": 122,
+      "pali": "‘ayaṁ te, deva, coro āgucārī. ",
+      "english": "‘Your Majesty, this man is a bandit, a criminal. "
+    },
+    {
+      "number": 123,
+      "pali": "Imassa yaṁ icchasi taṁ daṇḍaṁ paṇehī’ti. ",
+      "english": "Punish him as you will.’ "
+    },
+    {
+      "number": 124,
+      "pali": "Kinti naṁ kareyyāsī”ti? ",
+      "english": "What would you do to him?” "
+    },
+    {
+      "number": 125,
+      "pali": "“Ghāteyyāma vā, bho kaccāna, jāpeyyāma vā pabbājeyyāma vā yathāpaccayaṁ vā kareyyāma. ",
+      "english": "“I would have him executed, fined, or banished, or dealt with as befits the crime. "
+    },
+    {
+      "number": 126,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 127,
+      "pali": "Yā hissa, bho kaccāna, pubbe ‘suddo’ti samaññā sāssa antarahitā; corotveva saṅkhyaṁ gacchatī”ti. ",
+      "english": "Because he’s lost his former status as a brahmin, peasant, or menial, and is just reckoned as a bandit.” "
+    },
+    {
+      "number": 128,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "“What do you think, great king? "
+    },
+    {
+      "number": 129,
+      "pali": "yadi evaṁ sante, ime cattāro vaṇṇā samasamā honti no vā? ",
+      "english": "If this is so, are the four classes equal or not? "
+    },
+    {
+      "number": 130,
+      "pali": "Kathaṁ vā te ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 131,
+      "pali": "“Addhā kho, bho kaccāna, evaṁ sante, ime cattāro vaṇṇā samasamā honti. ",
+      "english": "“Certainly, worthy Kaccāna, in this case these four classes are equal. "
+    },
+    {
+      "number": 132,
+      "pali": "Nesaṁ ettha kiñci nānākaraṇaṁ samanupassāmī”ti. ",
+      "english": "I can’t see any difference between them.” "
+    },
+    {
+      "number": 133,
+      "pali": "“Imināpi kho etaṁ, mahārāja, pariyāyena veditabbaṁ yathā ghosoyeveso lokasmiṁ: ",
+      "english": "“And here’s another way to understand that the claims of the brahmins are just hearsay in the world. "
+    },
+    {
+      "number": 134,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīno añño vaṇṇo …pe… brahmadāyādā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 135,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "What do you think, great king? "
+    },
+    {
+      "number": 136,
+      "pali": "idha khattiyo kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajito assa virato pāṇātipātā, virato adinnādānā, virato musāvādā, rattūparato, ekabhattiko, brahmacārī, sīlavā, kalyāṇadhammo. ",
+      "english": "Take an aristocrat who shaves off their hair and beard, dresses in ocher robes, and goes forth from the lay life to homelessness. They refrain from killing living creatures, stealing, and lying. They abstain from eating at night, eat in one part of the day, and are chaste, ethical, and of good character. "
+    },
+    {
+      "number": 137,
+      "pali": "Kinti naṁ kareyyāsī”ti? ",
+      "english": "How would you treat them?” "
+    },
+    {
+      "number": 138,
+      "pali": "“Abhivādeyyāma vā, bho kaccāna, paccuṭṭheyyāma vā āsanena vā nimanteyyāma abhinimanteyyāma vā naṁ cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārehi dhammikaṁ vā assa rakkhāvaraṇaguttiṁ saṁvidaheyyāma. ",
+      "english": "“I would bow to them, rise in their presence, or offer them a seat. I’d invite them to accept robes, almsfood, lodgings, and medicines and supplies for the sick. And I’d organize their lawful guarding and protection. "
+    },
+    {
+      "number": 139,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 140,
+      "pali": "Yā hissa, bho kaccāna, pubbe ‘khattiyo’ti samaññā sāssa antarahitā; samaṇotveva saṅkhyaṁ gacchatī”ti. ",
+      "english": "Because they’ve lost their former status as an aristocrat, and are just reckoned as an ascetic.” "
+    },
+    {
+      "number": 141,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "“What do you think, great king? "
+    },
+    {
+      "number": 142,
+      "pali": "idha brāhmaṇo, idha vesso, idha suddo kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajito assa virato pāṇātipātā, virato adinnādānā virato musāvādā, rattūparato, ekabhattiko, brahmacārī, sīlavā, kalyāṇadhammo. ",
+      "english": "Take a brahmin, peasant, or menial who shaves off their hair and beard, dresses in ocher robes, and goes forth from the lay life to homelessness. They refrain from killing living creatures, stealing, and lying. They abstain from eating at night, eat in one part of the day, and are chaste, ethical, and of good character. "
+    },
+    {
+      "number": 143,
+      "pali": "Kinti naṁ kareyyāsī”ti? ",
+      "english": "How would you treat them?” "
+    },
+    {
+      "number": 144,
+      "pali": "“Abhivādeyyāma vā, bho kaccāna, paccuṭṭheyyāma vā āsanena vā nimanteyyāma abhinimanteyyāma vā naṁ cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārehi dhammikaṁ vā assa rakkhāvaraṇaguttiṁ saṁvidaheyyāma. ",
+      "english": "“I would bow to them, rise in their presence, or offer them a seat. I’d invite them to accept robes, almsfood, lodgings, and medicines and supplies for the sick. And I’d organize their lawful guarding and protection. "
+    },
+    {
+      "number": 145,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 146,
+      "pali": "Yā hissa, bho kaccāna, pubbe ‘suddo’ti samaññā sāssa antarahitā; samaṇotveva saṅkhyaṁ gacchatī”ti. ",
+      "english": "Because they’ve lost their former status as a brahmin, peasant, or menial, and are just reckoned as an ascetic.” "
+    },
+    {
+      "number": 147,
+      "pali": "“Taṁ kiṁ maññasi, mahārāja, ",
+      "english": "“What do you think, great king? "
+    },
+    {
+      "number": 148,
+      "pali": "yadi evaṁ sante, ime cattāro vaṇṇā samasamā honti no vā? ",
+      "english": "If this is so, are the four classes equal or not? "
+    },
+    {
+      "number": 149,
+      "pali": "Kathaṁ vā te ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 150,
+      "pali": "“Addhā kho, bho kaccāna, evaṁ sante, ime cattāro vaṇṇā samasamā honti. ",
+      "english": "“Certainly, worthy Kaccāna, in this case these four classes are equal. "
+    },
+    {
+      "number": 151,
+      "pali": "Nesaṁ ettha kiñci nānākaraṇaṁ samanupassāmī”ti. ",
+      "english": "I can’t see any difference between them.” "
+    },
+    {
+      "number": 152,
+      "pali": "“Imināpi kho etaṁ, mahārāja, pariyāyena veditabbaṁ yathā ghosoyeveso lokasmiṁ: ",
+      "english": "“This is another way to understand that this is just hearsay in the world: "
+    },
+    {
+      "number": 153,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīno añño vaṇṇo; ",
+      "english": "‘Only brahmins are the best class; other classes are inferior. "
+    },
+    {
+      "number": 154,
+      "pali": "brāhmaṇova sukko vaṇṇo, kaṇho añño vaṇṇo; ",
+      "english": "Only brahmins are the light class; other classes are dark. "
+    },
+    {
+      "number": 155,
+      "pali": "brāhmaṇāva sujjhanti, no abrāhmaṇā; ",
+      "english": "Only brahmins are purified, not others. "
+    },
+    {
+      "number": 156,
+      "pali": "brāhmaṇāva brahmuno puttā orasā mukhato jātā brahmajā brahmanimmitā brahmadāyādā’”ti. ",
+      "english": "Only brahmins are divinity’s true-born sons, born from his mouth, born of divinity, created by divinity, heirs of divinity.’” "
+    },
+    {
+      "number": 157,
+      "pali": "Evaṁ vutte, rājā mādhuro avantiputto āyasmantaṁ mahākaccānaṁ etadavoca: ",
+      "english": "When he had spoken, King Avantiputta of Madhurā said to Mahākaccāna, "
+    },
+    {
+      "number": 158,
+      "pali": "“abhikkantaṁ, bho kaccāna, abhikkantaṁ, bho kaccāna. ",
+      "english": "“Excellent, worthy Kaccāna! Excellent! "
+    },
+    {
+      "number": 159,
+      "pali": "Seyyathāpi, bho kaccāna, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya ‘cakkhumanto rūpāni dakkhantī’ti; evamevaṁ bhotā kaccānena anekapariyāyena dhammo pakāsito. ",
+      "english": "As if he were righting the overturned, or revealing the hidden, or pointing out the path to the lost, or lighting a lamp in the dark so people with clear eyes can see what’s there, the worthy Kaccāna has made the teaching clear in many ways. "
+    },
+    {
+      "number": 160,
+      "pali": "Esāhaṁ bhavantaṁ kaccānaṁ saraṇaṁ gacchāmi dhammañca bhikkhusaṅghañca. ",
+      "english": "I go for refuge to the worthy Kaccāna, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 161,
+      "pali": "Upāsakaṁ maṁ bhavaṁ kaccāno dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
+      "english": "From this day forth, may the worthy Kaccāna remember me as a lay follower who has gone for refuge for life.” "
+    },
+    {
+      "number": 162,
+      "pali": "“Mā kho maṁ tvaṁ, mahārāja, saraṇaṁ agamāsi. ",
+      "english": "“Great king, don’t go for refuge to me. "
+    },
+    {
+      "number": 163,
+      "pali": "Tameva tvaṁ bhagavantaṁ saraṇaṁ gaccha yamahaṁ saraṇaṁ gato”ti. ",
+      "english": "You should go for refuge to that same Blessed One to whom I have gone for refuge.” "
+    },
+    {
+      "number": 164,
+      "pali": "“Kahaṁ pana, bho kaccāna, etarahi so bhagavā viharati arahaṁ sammāsambuddho”ti? ",
+      "english": "“But where is that Blessed One at present, the perfected one, the fully awakened Buddha?” "
+    },
+    {
+      "number": 165,
+      "pali": "“Parinibbuto kho, mahārāja, etarahi so bhagavā arahaṁ sammāsambuddho”ti. ",
+      "english": "“Great king, the Buddha has already become fully quenched.” "
+    },
+    {
+      "number": 166,
+      "pali": "“Sacepi mayaṁ, bho kaccāna, suṇeyyāma taṁ bhagavantaṁ dasasu yojanesu, dasapi mayaṁ yojanāni gaccheyyāma taṁ bhagavantaṁ dassanāya arahantaṁ sammāsambuddhaṁ. ",
+      "english": "“Worthy Kaccāna, if I heard that the Buddha was within ten leagues, or twenty, or even up to a hundred leagues away, I’d go a hundred leagues to see him. "
+    },
+    {
+      "number": 167,
+      "pali": "Sacepi mayaṁ, bho kaccāna, suṇeyyāma taṁ bhagavantaṁ vīsatiyā yojanesu, tiṁsāya yojanesu, cattārīsāya yojanesu, paññāsāya yojanesu, paññāsampi mayaṁ yojanāni gaccheyyāma taṁ bhagavantaṁ dassanāya arahantaṁ sammāsambuddhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 168,
+      "pali": "Yojanasate cepi mayaṁ bho kaccāna, suṇeyyāma taṁ bhagavantaṁ, yojanasatampi mayaṁ gaccheyyāma taṁ bhagavantaṁ dassanāya arahantaṁ sammāsambuddhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 169,
+      "pali": "Yato ca, bho kaccāna, parinibbuto so bhagavā, parinibbutampi mayaṁ bhagavantaṁ saraṇaṁ gacchāma dhammañca bhikkhusaṅghañca. ",
+      "english": "But since the Buddha has become fully quenched, I go for refuge to that fully quenched Buddha, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 170,
+      "pali": "Upāsakaṁ maṁ bhavaṁ kaccāno dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
+      "english": "From this day forth, may the worthy Kaccāna remember me as a lay follower who has gone for refuge for life.” "
+    },
+    {
+      "number": 171,
+      "pali": "Madhurasuttaṁ niṭṭhitaṁ catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

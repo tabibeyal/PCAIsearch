@@ -1,0 +1,340 @@
+{
+  "sutta_id": "AN4.184",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 4.184 ",
+      "english": "Numbered Discourses 4.184 "
+    },
+    {
+      "number": 2,
+      "pali": "19. Brāhmaṇavagga ",
+      "english": "19. Brahmins "
+    },
+    {
+      "number": 3,
+      "pali": "Abhayasutta ",
+      "english": "Fearless "
+    },
+    {
+      "number": 4,
+      "pali": "Atha kho jāṇussoṇi brāhmaṇo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "Then the brahmin Jānussoṇi went up to the Buddha, and exchanged greetings with him. "
+    },
+    {
+      "number": 5,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho jāṇussoṇi brāhmaṇo bhagavantaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to the Buddha: "
+    },
+    {
+      "number": 6,
+      "pali": "“Ahañhi, bho gotama, evaṁvādī evaṁdiṭṭhi: ",
+      "english": "“Worthy Gotama, this is my doctrine and view: "
+    },
+    {
+      "number": 7,
+      "pali": "‘natthi yo maraṇadhammo samāno na bhāyati, na santāsaṁ āpajjati maraṇassā’”ti. ",
+      "english": "‘All those liable to death are frightened and terrified of death.’” "
+    },
+    {
+      "number": 8,
+      "pali": "“Atthi, brāhmaṇa, maraṇadhammo samāno bhāyati, santāsaṁ āpajjati maraṇassa; ",
+      "english": "“Brahmin, some of those liable to death are frightened and terrified of death. "
+    },
+    {
+      "number": 9,
+      "pali": "atthi pana, brāhmaṇa, maraṇadhammo samāno na bhāyati, na santāsaṁ āpajjati maraṇassa. ",
+      "english": "But some of those liable to death are not frightened and terrified of death. "
+    },
+    {
+      "number": 10,
+      "pali": "Katamo ca, brāhmaṇa, maraṇadhammo samāno bhāyati, santāsaṁ āpajjati maraṇassa? ",
+      "english": "Who are those frightened of death? "
+    },
+    {
+      "number": 11,
+      "pali": "Idha, brāhmaṇa, ekacco kāmesu avītarāgo hoti avigatacchando avigatapemo avigatapipāso avigatapariḷāho avigatataṇho. ",
+      "english": "It’s someone who isn’t free of greed, desire, fondness, thirst, passion, and craving for sensual pleasures. "
+    },
+    {
+      "number": 12,
+      "pali": "Tamenaṁ aññataro gāḷho rogātaṅko phusati. ",
+      "english": "When they fall seriously ill, "
+    },
+    {
+      "number": 13,
+      "pali": "Tassa aññatarena gāḷhena rogātaṅkena phuṭṭhassa evaṁ hoti: ",
+      "english": "they think: "
+    },
+    {
+      "number": 14,
+      "pali": "‘piyā vata maṁ kāmā jahissanti, piye cāhaṁ kāme jahissāmī’ti. ",
+      "english": "‘The sensual pleasures that I love so much will leave me, and I’ll leave them.’ "
+    },
+    {
+      "number": 15,
+      "pali": "So socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati. ",
+      "english": "They sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 16,
+      "pali": "Ayaṁ kho, brāhmaṇa, maraṇadhammo samāno bhāyati, santāsaṁ āpajjati maraṇassa. ",
+      "english": "This is someone who is frightened of death. "
+    },
+    {
+      "number": 17,
+      "pali": "Puna caparaṁ, brāhmaṇa, idhekacco kāye avītarāgo hoti avigatacchando avigatapemo avigatapipāso avigatapariḷāho avigatataṇho. ",
+      "english": "Furthermore, it’s someone who isn’t free of greed, desire, fondness, thirst, passion, and craving for the body. "
+    },
+    {
+      "number": 18,
+      "pali": "Tamenaṁ aññataro gāḷho rogātaṅko phusati. ",
+      "english": "When they fall seriously ill, "
+    },
+    {
+      "number": 19,
+      "pali": "Tassa aññatarena gāḷhena rogātaṅkena phuṭṭhassa evaṁ hoti: ",
+      "english": "they think: "
+    },
+    {
+      "number": 20,
+      "pali": "‘piyo vata maṁ kāyo jahissati, piyañcāhaṁ kāyaṁ jahissāmī’ti. ",
+      "english": "‘This body that I love so much will leave me, and I’ll leave it.’ "
+    },
+    {
+      "number": 21,
+      "pali": "So socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati. ",
+      "english": "They sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 22,
+      "pali": "Ayampi kho, brāhmaṇa, maraṇadhammo samāno bhāyati, santāsaṁ āpajjati maraṇassa. ",
+      "english": "This, too, is someone who is frightened of death. "
+    },
+    {
+      "number": 23,
+      "pali": "Puna caparaṁ, brāhmaṇa, idhekacco akatakalyāṇo hoti akatakusalo akatabhīruttāṇo katapāpo kataluddo katakibbiso. ",
+      "english": "Furthermore, it’s someone who hasn’t done good and skillful things that keep them safe, but has done bad things, violence and sin. "
+    },
+    {
+      "number": 24,
+      "pali": "Tamenaṁ aññataro gāḷho rogātaṅko phusati. ",
+      "english": "When they fall seriously ill, "
+    },
+    {
+      "number": 25,
+      "pali": "Tassa aññatarena gāḷhena rogātaṅkena phuṭṭhassa evaṁ hoti: ",
+      "english": "they think: "
+    },
+    {
+      "number": 26,
+      "pali": "‘akataṁ vata me kalyāṇaṁ, akataṁ kusalaṁ, akataṁ bhīruttāṇaṁ; ",
+      "english": "‘Well, I haven’t done good and skillful things that keep me safe. "
+    },
+    {
+      "number": 27,
+      "pali": "kataṁ pāpaṁ, kataṁ luddaṁ, kataṁ kibbisaṁ. ",
+      "english": "And I have done bad things, violence and sin. "
+    },
+    {
+      "number": 28,
+      "pali": "Yāvatā, bho, akatakalyāṇānaṁ akatakusalānaṁ akatabhīruttāṇānaṁ katapāpānaṁ kataluddānaṁ katakibbisānaṁ gati taṁ gatiṁ pecca gacchāmī’ti. ",
+      "english": "When I depart, I’ll go to the place where people who’ve done such things go.’ "
+    },
+    {
+      "number": 29,
+      "pali": "So socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati. ",
+      "english": "They sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 30,
+      "pali": "Ayampi kho, brāhmaṇa, maraṇadhammo samāno bhāyati, santāsaṁ āpajjati maraṇassa. ",
+      "english": "This, too, is someone who is frightened of death. "
+    },
+    {
+      "number": 31,
+      "pali": "Puna caparaṁ, brāhmaṇa, idhekacco kaṅkhī hoti vicikicchī aniṭṭhaṅgato saddhamme. ",
+      "english": "Furthermore, it’s someone who’s doubtful, uncertain, and undecided about the true teaching. "
+    },
+    {
+      "number": 32,
+      "pali": "Tamenaṁ aññataro gāḷho rogātaṅko phusati. ",
+      "english": "When they fall seriously ill, "
+    },
+    {
+      "number": 33,
+      "pali": "Tassa aññatarena gāḷhena rogātaṅkena phuṭṭhassa evaṁ hoti: ",
+      "english": "they think: "
+    },
+    {
+      "number": 34,
+      "pali": "‘kaṅkhī vatamhi vicikicchī aniṭṭhaṅgato saddhamme’ti. ",
+      "english": "‘I’m doubtful, uncertain, and undecided about the true teaching.’ "
+    },
+    {
+      "number": 35,
+      "pali": "So socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati. ",
+      "english": "They sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 36,
+      "pali": "Ayampi kho, brāhmaṇa, maraṇadhammo samāno bhāyati, santāsaṁ āpajjati maraṇassa. ",
+      "english": "This, too, is someone who is frightened of death. "
+    },
+    {
+      "number": 37,
+      "pali": "Ime kho, brāhmaṇa, cattāro maraṇadhammā samānā bhāyanti, santāsaṁ āpajjanti maraṇassa. ",
+      "english": "These are the four individuals liable to death who are frightened and terrified of death. "
+    },
+    {
+      "number": 38,
+      "pali": "Katamo ca, brāhmaṇa, maraṇadhammo samāno na bhāyati, na santāsaṁ āpajjati maraṇassa? ",
+      "english": "Who are those not frightened of death? "
+    },
+    {
+      "number": 39,
+      "pali": "Idha, brāhmaṇa, ekacco kāmesu vītarāgo hoti vigatacchando vigatapemo vigatapipāso vigatapariḷāho vigatataṇho. ",
+      "english": "It’s someone who is rid of greed, desire, fondness, thirst, passion, and craving for sensual pleasures. "
+    },
+    {
+      "number": 40,
+      "pali": "Tamenaṁ aññataro gāḷho rogātaṅko phusati. ",
+      "english": "When they fall seriously ill, "
+    },
+    {
+      "number": 41,
+      "pali": "Tassa aññatarena gāḷhena rogātaṅkena phuṭṭhassa na evaṁ hoti: ",
+      "english": "they don’t think: "
+    },
+    {
+      "number": 42,
+      "pali": "‘piyā vata maṁ kāmā jahissanti, piye cāhaṁ kāme jahissāmī’ti. ",
+      "english": "‘The sensual pleasures that I love so much will leave me, and I’ll leave them.’ "
+    },
+    {
+      "number": 43,
+      "pali": "So na socati na kilamati na paridevati, na urattāḷiṁ kandati, na sammohaṁ āpajjati. ",
+      "english": "They don’t sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 44,
+      "pali": "Ayaṁ kho, brāhmaṇa, maraṇadhammo samāno na bhāyati, na santāsaṁ āpajjati maraṇassa. ",
+      "english": "This is someone who’s not frightened of death. "
+    },
+    {
+      "number": 45,
+      "pali": "Puna caparaṁ, brāhmaṇa, idhekacco kāye vītarāgo hoti vigatacchando vigatapemo vigatapipāso vigatapariḷāho vigatataṇho. ",
+      "english": "Furthermore, it’s someone who is rid of greed, desire, fondness, thirst, passion, and craving for the body. "
+    },
+    {
+      "number": 46,
+      "pali": "Tamenaṁ aññataro gāḷho rogātaṅko phusati. ",
+      "english": "When they fall seriously ill, "
+    },
+    {
+      "number": 47,
+      "pali": "Tassa aññatarena gāḷhena rogātaṅkena phuṭṭhassa na evaṁ hoti: ",
+      "english": "they don’t think: "
+    },
+    {
+      "number": 48,
+      "pali": "‘piyo vata maṁ kāyo jahissati, piyañcāhaṁ kāyaṁ jahissāmī’ti. ",
+      "english": "‘This body that I love so much will leave me, and I’ll leave it.’ "
+    },
+    {
+      "number": 49,
+      "pali": "So na socati na kilamati na paridevati, na urattāḷiṁ kandati, na sammohaṁ āpajjati. ",
+      "english": "They don’t sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 50,
+      "pali": "Ayampi kho, brāhmaṇa, maraṇadhammo samāno na bhāyati, na santāsaṁ āpajjati maraṇassa. ",
+      "english": "This, too, is someone who’s not frightened of death. "
+    },
+    {
+      "number": 51,
+      "pali": "Puna caparaṁ, brāhmaṇa, idhekacco akatapāpo hoti akataluddo akatakibbiso katakalyāṇo katakusalo katabhīruttāṇo. ",
+      "english": "Furthermore, it’s someone who hasn’t done bad things, violence and sin, but has done good and skillful deeds that keep them safe. "
+    },
+    {
+      "number": 52,
+      "pali": "Tamenaṁ aññataro gāḷho rogātaṅko phusati. ",
+      "english": "When they fall seriously ill, "
+    },
+    {
+      "number": 53,
+      "pali": "Tassa aññatarena gāḷhena rogātaṅkena phuṭṭhassa evaṁ hoti: ",
+      "english": "they think: "
+    },
+    {
+      "number": 54,
+      "pali": "‘akataṁ vata me pāpaṁ, akataṁ luddaṁ, akataṁ kibbisaṁ; ",
+      "english": "‘Well, I haven’t done bad things, violence and sin. "
+    },
+    {
+      "number": 55,
+      "pali": "kataṁ kalyāṇaṁ, kataṁ kusalaṁ, kataṁ bhīruttāṇaṁ. ",
+      "english": "And I have done good and skillful deeds that keep me safe. "
+    },
+    {
+      "number": 56,
+      "pali": "Yāvatā, bho, akatapāpānaṁ akataluddānaṁ akatakibbisānaṁ katakalyāṇānaṁ katakusalānaṁ katabhīruttāṇānaṁ gati taṁ gatiṁ pecca gacchāmī’ti. ",
+      "english": "When I depart, I’ll go to the place where people who’ve done such things go.’ "
+    },
+    {
+      "number": 57,
+      "pali": "So na socati na kilamati na paridevati, na urattāḷiṁ kandati, na sammohaṁ āpajjati. ",
+      "english": "They don’t sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 58,
+      "pali": "Ayampi kho, brāhmaṇa, maraṇadhammo samāno na bhāyati, na santāsaṁ āpajjati maraṇassa. ",
+      "english": "This, too, is someone who’s not frightened of death. "
+    },
+    {
+      "number": 59,
+      "pali": "Puna caparaṁ, brāhmaṇa, idhekacco akaṅkhī hoti avicikicchī niṭṭhaṅgato saddhamme. ",
+      "english": "Furthermore, it’s someone who’s not doubtful, uncertain, or undecided about the true teaching. "
+    },
+    {
+      "number": 60,
+      "pali": "Tamenaṁ aññataro gāḷho rogātaṅko phusati. ",
+      "english": "When they fall seriously ill, "
+    },
+    {
+      "number": 61,
+      "pali": "Tassa aññatarena gāḷhena rogātaṅkena phuṭṭhassa evaṁ hoti: ",
+      "english": "they think: "
+    },
+    {
+      "number": 62,
+      "pali": "‘akaṅkhī vatamhi avicikicchī niṭṭhaṅgato saddhamme’ti. ",
+      "english": "‘I’m not doubtful, uncertain, or undecided about the true teaching.’ "
+    },
+    {
+      "number": 63,
+      "pali": "So na socati na kilamati na paridevati, na urattāḷiṁ kandati, na sammohaṁ āpajjati. ",
+      "english": "They don’t sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 64,
+      "pali": "Ayampi kho, brāhmaṇa, maraṇadhammo samāno na bhāyati, na santāsaṁ āpajjati maraṇassa. ",
+      "english": "This, too, is someone who’s not frightened of death. "
+    },
+    {
+      "number": 65,
+      "pali": "Ime kho, brāhmaṇa, cattāro maraṇadhammā samānā na bhāyanti, na santāsaṁ āpajjanti maraṇassā”ti. ",
+      "english": "These are the four individuals liable to death who are not frightened and terrified of death.” "
+    },
+    {
+      "number": 66,
+      "pali": "“Abhikkantaṁ, bho gotama, abhikkantaṁ, bho gotama …pe… upāsakaṁ maṁ bhavaṁ gotamo dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
+      "english": "“Excellent, worthy Gotama! … From this day forth, may the worthy Gotama remember me as a lay follower who has gone for refuge for life.” "
+    },
+    {
+      "number": 67,
+      "pali": "Catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

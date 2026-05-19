@@ -1,0 +1,410 @@
+{
+  "sutta_id": "AN10.46",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.46 ",
+      "english": "Numbered Discourses 10.46 "
+    },
+    {
+      "number": 2,
+      "pali": "5. Akkosavagga ",
+      "english": "5. Abuse "
+    },
+    {
+      "number": 3,
+      "pali": "Sakkasutta ",
+      "english": "With the Sakyans "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā sakkesu viharati kapilavatthusmiṁ nigrodhārāme. ",
+      "english": "At one time the Buddha was staying in the land of the Sakyans, near Kapilavatthu in the Banyan Tree Monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho sambahulā sakkā upāsakā tadahuposathe yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinne kho sakke upāsake bhagavā etadavoca: ",
+      "english": "Then on the sabbath several Sakyan lay followers went up to the Buddha, bowed, and sat down to one side. The Buddha said to them: "
+    },
+    {
+      "number": 6,
+      "pali": "“api nu tumhe, sakkā, aṭṭhaṅgasamannāgataṁ uposathaṁ upavasathā”ti? ",
+      "english": "“Sakyans, do you observe the sabbath with its eight factors?” "
+    },
+    {
+      "number": 7,
+      "pali": "“Appekadā mayaṁ, bhante, aṭṭhaṅgasamannāgataṁ uposathaṁ upavasāma, appekadā na upavasāmā”ti. ",
+      "english": "“Sir, sometimes we do, sometimes we don’t.” "
+    },
+    {
+      "number": 8,
+      "pali": "“Tesaṁ vo, sakkā, alābhā tesaṁ dulladdhaṁ, ye tumhe evaṁ sokasabhaye jīvite maraṇasabhaye jīvite appekadā aṭṭhaṅgasamannāgataṁ uposathaṁ upavasatha, appekadā na upavasatha. ",
+      "english": "“That’s your loss, Sakyans, it’s your misfortune. In this life with its fear of sorrow and death, you sometimes keep the sabbath and you sometimes don’t. "
+    },
+    {
+      "number": 9,
+      "pali": "Taṁ kiṁ maññatha, sakkā, ",
+      "english": "What do you think, Sakyans? "
+    },
+    {
+      "number": 10,
+      "pali": "idha puriso yena kenaci kammaṭṭhānena anāpajja akusalaṁ divasaṁ aḍḍhakahāpaṇaṁ nibbiseyya. ",
+      "english": "Take a man who earns half a dollar for an honest day’s work. "
+    },
+    {
+      "number": 11,
+      "pali": "Dakkho puriso uṭṭhānasampannoti alaṁvacanāyā”ti? ",
+      "english": "Is this enough to call him a deft and industrious man?” "
+    },
+    {
+      "number": 12,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 13,
+      "pali": "“Taṁ kiṁ maññatha, sakkā, ",
+      "english": "“What do you think, Sakyans? "
+    },
+    {
+      "number": 14,
+      "pali": "idha puriso yena kenaci kammaṭṭhānena anāpajja akusalaṁ divasaṁ kahāpaṇaṁ nibbiseyya. ",
+      "english": "Take a man who earns a dollar for an honest day’s work. "
+    },
+    {
+      "number": 15,
+      "pali": "Dakkho puriso uṭṭhānasampannoti alaṁvacanāyā”ti? ",
+      "english": "Is this enough to call him a deft and industrious man?” "
+    },
+    {
+      "number": 16,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 17,
+      "pali": "“Taṁ kiṁ maññatha, sakkā, ",
+      "english": "“What do you think, Sakyans? "
+    },
+    {
+      "number": 18,
+      "pali": "idha puriso yena kenaci kammaṭṭhānena anāpajja akusalaṁ divasaṁ dve kahāpaṇe nibbiseyya … ",
+      "english": "Take a man who, for an honest day’s work, earns two dollars … "
+    },
+    {
+      "number": 19,
+      "pali": "tayo kahāpaṇe nibbiseyya … ",
+      "english": "three dollars … "
+    },
+    {
+      "number": 20,
+      "pali": "cattāro kahāpaṇe nibbiseyya … ",
+      "english": "four dollars … "
+    },
+    {
+      "number": 21,
+      "pali": "pañca kahāpaṇe nibbiseyya … ",
+      "english": "five dollars … "
+    },
+    {
+      "number": 22,
+      "pali": "cha kahāpaṇe nibbiseyya … ",
+      "english": "six dollars … "
+    },
+    {
+      "number": 23,
+      "pali": "satta kahāpaṇe nibbiseyya … ",
+      "english": "seven dollars … "
+    },
+    {
+      "number": 24,
+      "pali": "aṭṭha kahāpaṇe nibbiseyya … ",
+      "english": "eight dollars … "
+    },
+    {
+      "number": 25,
+      "pali": "nava kahāpaṇe nibbiseyya … ",
+      "english": "nine dollars … "
+    },
+    {
+      "number": 26,
+      "pali": "dasa kahāpaṇe nibbiseyya … ",
+      "english": "ten dollars … "
+    },
+    {
+      "number": 27,
+      "pali": "vīsa kahāpaṇe nibbiseyya … ",
+      "english": "twenty dollars … "
+    },
+    {
+      "number": 28,
+      "pali": "tiṁsa kahāpaṇe nibbiseyya … ",
+      "english": "thirty dollars … "
+    },
+    {
+      "number": 29,
+      "pali": "cattārīsaṁ kahāpaṇe nibbiseyya … ",
+      "english": "forty dollars … "
+    },
+    {
+      "number": 30,
+      "pali": "paññāsaṁ kahāpaṇe nibbiseyya … ",
+      "english": "fifty dollars … "
+    },
+    {
+      "number": 31,
+      "pali": "kahāpaṇasataṁ nibbiseyya. ",
+      "english": "a hundred dollars. "
+    },
+    {
+      "number": 32,
+      "pali": "Dakkho puriso uṭṭhānasampannoti alaṁvacanāyā”ti? ",
+      "english": "Is this enough to call him a deft and industrious man?” "
+    },
+    {
+      "number": 33,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 34,
+      "pali": "“Taṁ kiṁ maññatha, sakkā, ",
+      "english": "“What do you think, Sakyans? "
+    },
+    {
+      "number": 35,
+      "pali": "api nu so puriso divase divase kahāpaṇasataṁ kahāpaṇasahassaṁ nibbisamāno laddhaṁ laddhaṁ nikkhipanto vassasatāyuko vassasatajīvī mahantaṁ bhogakkhandhaṁ adhigaccheyyā”ti? ",
+      "english": "Suppose that man earned a hundred or a thousand dollars every day and saved it all up. If he lived for a hundred years, would he not accumulate a large mass of wealth?” "
+    },
+    {
+      "number": 36,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 37,
+      "pali": "“Taṁ kiṁ maññatha, sakkā, ",
+      "english": "“What do you think, Sakyans? "
+    },
+    {
+      "number": 38,
+      "pali": "api nu so puriso bhogahetu bhoganidānaṁ bhogādhikaraṇaṁ ekaṁ vā rattiṁ ekaṁ vā divasaṁ upaḍḍhaṁ vā rattiṁ upaḍḍhaṁ vā divasaṁ ekantasukhappaṭisaṁvedī vihareyyā”ti? ",
+      "english": "Would that man, on account of that wealth, experience perfect happiness for a single day or night, or even half a day or night?” "
+    },
+    {
+      "number": 39,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 40,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "“Why is that?” "
+    },
+    {
+      "number": 41,
+      "pali": "“Kāmā hi, bhante, aniccā tucchā musā mosadhammā”ti. ",
+      "english": "“Because sensual pleasures, sir, are impermanent, hollow, false, and deceptive.” "
+    },
+    {
+      "number": 42,
+      "pali": "“Idha pana vo, sakkā, mama sāvako dasa vassāni appamatto ātāpī pahitatto viharanto yathā mayānusiṭṭhaṁ tathā paṭipajjamāno satampi vassāni satampi vassasatāni satampi vassasahassāni ekantasukhappaṭisaṁvedī vihareyya. ",
+      "english": "“But take one of my disciples who lives diligent, keen, and resolute for ten years, practicing in line with my instructions. They can experience perfect happiness for a hundred years, ten thousand years, or a hundred thousand years. "
+    },
+    {
+      "number": 43,
+      "pali": "So ca khvassa sakadāgāmī vā anāgāmī vā apaṇṇakaṁ vā sotāpanno. ",
+      "english": "And they could become a once-returner or a non-returner, or, as a sure bet, a stream-enterer. "
+    },
+    {
+      "number": 44,
+      "pali": "Tiṭṭhantu, sakkā, dasa vassāni. ",
+      "english": "Let alone ten years, "
+    },
+    {
+      "number": 45,
+      "pali": "Idha mama sāvako nava vassāni … ",
+      "english": "take one of my disciples who lives diligent, keen, and resolute for nine years … "
+    },
+    {
+      "number": 46,
+      "pali": "aṭṭha vassāni … ",
+      "english": "eight years … "
+    },
+    {
+      "number": 47,
+      "pali": "satta vassāni … ",
+      "english": "seven years … "
+    },
+    {
+      "number": 48,
+      "pali": "cha vassāni … ",
+      "english": "six years … "
+    },
+    {
+      "number": 49,
+      "pali": "pañca vassāni … ",
+      "english": "five years … "
+    },
+    {
+      "number": 50,
+      "pali": "cattāri vassāni … ",
+      "english": "four years … "
+    },
+    {
+      "number": 51,
+      "pali": "tīṇi vassāni … ",
+      "english": "three years … "
+    },
+    {
+      "number": 52,
+      "pali": "dve vassāni … ",
+      "english": "two years … "
+    },
+    {
+      "number": 53,
+      "pali": "ekaṁ vassaṁ appamatto ātāpī pahitatto viharanto yathā mayānusiṭṭhaṁ tathā paṭipajjamāno satampi vassāni satampi vassasatāni satampi vassasahassāni ekantasukhappaṭisaṁvedī vihareyya, so ca khvassa sakadāgāmī vā anāgāmī vā apaṇṇakaṁ vā sotāpanno. ",
+      "english": "one year … "
+    },
+    {
+      "number": 54,
+      "pali": "Tiṭṭhatu, sakkā, ekaṁ vassaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Idha mama sāvako dasa māse appamatto ātāpī pahitatto viharanto yathā mayānusiṭṭhaṁ tathā paṭipajjamāno satampi vassāni satampi vassasatāni satampi vassasahassāni ekantasukhappaṭisaṁvedī vihareyya, so ca khvassa sakadāgāmī vā anāgāmī vā apaṇṇakaṁ vā sotāpanno. ",
+      "english": "ten months … "
+    },
+    {
+      "number": 56,
+      "pali": "Tiṭṭhantu, sakkā, dasa māsā. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "Idha mama sāvako nava māse … ",
+      "english": "nine months … "
+    },
+    {
+      "number": 58,
+      "pali": "aṭṭha māse … ",
+      "english": "eight months … "
+    },
+    {
+      "number": 59,
+      "pali": "satta māse … ",
+      "english": "seven months … "
+    },
+    {
+      "number": 60,
+      "pali": "cha māse … ",
+      "english": "six months … "
+    },
+    {
+      "number": 61,
+      "pali": "pañca māse … ",
+      "english": "five months … "
+    },
+    {
+      "number": 62,
+      "pali": "cattāro māse … ",
+      "english": "four months … "
+    },
+    {
+      "number": 63,
+      "pali": "tayo māse … ",
+      "english": "three months … "
+    },
+    {
+      "number": 64,
+      "pali": "dve māse … ",
+      "english": "two months … "
+    },
+    {
+      "number": 65,
+      "pali": "ekaṁ māsaṁ … ",
+      "english": "one month … "
+    },
+    {
+      "number": 66,
+      "pali": "aḍḍhamāsaṁ appamatto ātāpī pahitatto viharanto yathā mayānusiṭṭhaṁ tathā paṭipajjamāno satampi vassāni satampi vassasatāni satampi vassasahassāni ekantasukhappaṭisaṁvedī vihareyya, so ca khvassa sakadāgāmī vā anāgāmī vā apaṇṇakaṁ vā sotāpanno. ",
+      "english": "a fortnight … "
+    },
+    {
+      "number": 67,
+      "pali": "Tiṭṭhatu, sakkā, aḍḍhamāso. ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "Idha mama sāvako dasa rattindive appamatto ātāpī pahitatto viharanto yathā mayānusiṭṭhaṁ tathā paṭipajjamāno satampi vassāni satampi vassasatāni satampi vassasahassāni ekantasukhappaṭisaṁvedī vihareyya, so ca khvassa sakadāgāmī vā anāgāmī vā apaṇṇakaṁ vā sotāpanno. ",
+      "english": "ten days … "
+    },
+    {
+      "number": 69,
+      "pali": "Tiṭṭhantu, sakkā, dasa rattindivā. ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "Idha mama sāvako nava rattindive … ",
+      "english": "nine days … "
+    },
+    {
+      "number": 71,
+      "pali": "aṭṭha rattindive … ",
+      "english": "eight days … "
+    },
+    {
+      "number": 72,
+      "pali": "satta rattindive … ",
+      "english": "seven days … "
+    },
+    {
+      "number": 73,
+      "pali": "cha rattindive … ",
+      "english": "six days … "
+    },
+    {
+      "number": 74,
+      "pali": "pañca rattindive … ",
+      "english": "five days … "
+    },
+    {
+      "number": 75,
+      "pali": "cattāro rattindive … ",
+      "english": "four days … "
+    },
+    {
+      "number": 76,
+      "pali": "tayo rattindive … ",
+      "english": "three days … "
+    },
+    {
+      "number": 77,
+      "pali": "dve rattindive … ",
+      "english": "two days … "
+    },
+    {
+      "number": 78,
+      "pali": "ekaṁ rattindivaṁ appamatto ātāpī pahitatto viharanto yathā mayānusiṭṭhaṁ tathā paṭipajjamāno satampi vassāni satampi vassasatāni satampi vassasahassāni ekantasukhappaṭisaṁvedī vihareyya, so ca khvassa sakadāgāmī vā anāgāmī vā apaṇṇakaṁ vā sotāpanno. ",
+      "english": "Let alone two days, take one of my disciples who lives diligent, keen, and resolute for one day, practicing in line with my instructions. They can experience perfect happiness for a hundred years, ten thousand years, or a hundred thousand years. And they could become a once-returner or a non-returner, or, as a sure bet, a stream-enterer. "
+    },
+    {
+      "number": 79,
+      "pali": "Tesaṁ vo, sakkā, alābhā tesaṁ dulladdhaṁ, ye tumhe evaṁ sokasabhaye jīvite maraṇasabhaye jīvite appekadā aṭṭhaṅgasamannāgataṁ uposathaṁ upavasatha, appekadā na upavasathā”ti. ",
+      "english": "It’s your loss, Sakyans, it’s your misfortune. In this life with its fear of sorrow and death, you sometimes keep the sabbath and you sometimes don’t.” "
+    },
+    {
+      "number": 80,
+      "pali": "“Ete mayaṁ, bhante, ajjatagge aṭṭhaṅgasamannāgataṁ uposathaṁ upavasissāmā”ti. ",
+      "english": "“Well, sir, from this day forth we will observe the sabbath with its eight factors.” "
+    },
+    {
+      "number": 81,
+      "pali": "Chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "sutta_id": "SN22.89",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 22.89 ",
+      "english": "Linked Discourses 22.89 "
+    },
+    {
+      "number": 2,
+      "pali": "9. Theravagga ",
+      "english": "9. Senior Mendicants "
+    },
+    {
+      "number": 3,
+      "pali": "Khemakasutta ",
+      "english": "With Khemaka "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ sambahulā therā bhikkhū kosambiyaṁ viharanti ghositārāme. ",
+      "english": "At one time several senior mendicants were staying near Kosambī, in Ghosita’s Monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena āyasmā khemako badarikārāme viharati ābādhiko dukkhito bāḷhagilāno. ",
+      "english": "Now at that time Venerable Khemaka was staying in the Jujube Tree Monastery, and he was sick, suffering, gravely ill. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho therā bhikkhū sāyanhasamayaṁ paṭisallānā vuṭṭhitā āyasmantaṁ dāsakaṁ āmantesuṁ: ",
+      "english": "In the late afternoon those senior mendicants came out of retreat and addressed Venerable Dāsaka, "
+    },
+    {
+      "number": 7,
+      "pali": "“ehi tvaṁ, āvuso dāsaka, yena khemako bhikkhu tenupasaṅkama; upasaṅkamitvā khemakaṁ bhikkhuṁ evaṁ vadehi: ",
+      "english": "“Please, Reverend Dāsaka, go to the mendicant Khemaka and say to him: "
+    },
+    {
+      "number": 8,
+      "pali": "‘therā taṁ, āvuso khemaka, evamāhaṁsu—",
+      "english": "‘Reverend Khemaka, the seniors "
+    },
+    {
+      "number": 9,
+      "pali": "kacci te, āvuso, khamanīyaṁ, kacci yāpanīyaṁ, kacci dukkhā vedanā paṭikkamanti no abhikkamanti, paṭikkamosānaṁ paññāyati no abhikkamo’”ti? ",
+      "english": "hope you’re keeping well; they hope you’re all right. They hope that your pain is fading, not growing, that its fading is evident, not its growing.’” "
+    },
+    {
+      "number": 10,
+      "pali": "“Evamāvuso”ti kho āyasmā dāsako therānaṁ bhikkhūnaṁ paṭissutvā yenāyasmā khemako tenupasaṅkami; upasaṅkamitvā āyasmantaṁ khemakaṁ etadavoca: ",
+      "english": "“Yes, reverends,” replied Dāsaka. He went to Khemaka and said to him: "
+    },
+    {
+      "number": 11,
+      "pali": "“therā taṁ, āvuso khemaka, evamāhaṁsu: ",
+      "english": "“Reverend Khemaka, the seniors "
+    },
+    {
+      "number": 12,
+      "pali": "‘kacci te, āvuso, khamanīyaṁ …pe… no abhikkamo’”ti? ",
+      "english": "hope you’re keeping well; they hope you’re all right. They hope that your pain is fading, not growing, that its fading is evident, not its growing.” "
+    },
+    {
+      "number": 13,
+      "pali": "“Na me, āvuso, khamanīyaṁ na yāpanīyaṁ …pe… abhikkamosānaṁ paññāyati no paṭikkamo”ti. ",
+      "english": "“Reverend, I’m not keeping well, I’m not getting by. My pain is terrible and growing, not fading; its growing is evident, not its fading.” "
+    },
+    {
+      "number": 14,
+      "pali": "Atha kho āyasmā dāsako yena therā bhikkhū tenupasaṅkami; upasaṅkamitvā there bhikkhū etadavoca: ",
+      "english": "Then Dāsaka went to those senior mendicants and told them what had happened. They said, "
+    },
+    {
+      "number": 15,
+      "pali": "“khemako, āvuso, bhikkhu evamāha: ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "‘na me, āvuso, khamanīyaṁ …pe… abhikkamosānaṁ paññāyati no paṭikkamo’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "“Ehi tvaṁ, āvuso dāsaka, yena khemako bhikkhu tenupasaṅkama; upasaṅkamitvā khemakaṁ bhikkhuṁ evaṁ vadehi: ",
+      "english": "“Please, Reverend Dāsaka, go to the mendicant Khemaka and say to him: "
+    },
+    {
+      "number": 18,
+      "pali": "‘therā taṁ, āvuso khemaka, evamāhaṁsu—",
+      "english": "‘Reverend Khemaka, the seniors say that "
+    },
+    {
+      "number": 19,
+      "pali": "pañcime, āvuso, upādānakkhandhā vuttā bhagavatā, seyyathidaṁ—",
+      "english": "these five grasping aggregates have been taught by the Buddha, that is: "
+    },
+    {
+      "number": 20,
+      "pali": "rūpupādānakkhandho, vedanupādānakkhandho, saññupādānakkhandho, saṅkhārupādānakkhandho, viññāṇupādānakkhandho. ",
+      "english": "the grasping aggregates of form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 21,
+      "pali": "Imesu āyasmā khemako pañcasu upādānakkhandhesu kiñci attaṁ vā attaniyaṁ vā samanupassatī’”ti? ",
+      "english": "Do you regard anything among these five grasping aggregates as self or as belonging to self?’” "
+    },
+    {
+      "number": 22,
+      "pali": "“Evamāvuso”ti kho āyasmā dāsako therānaṁ bhikkhūnaṁ paṭissutvā yenāyasmā khemako tenupasaṅkami; upasaṅkamitvā …pe… ",
+      "english": "“Yes, reverends,” replied Dāsaka. He relayed the message to Khemaka, who replied: "
+    },
+    {
+      "number": 23,
+      "pali": "therā taṁ, āvuso khemaka, evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "“pañcime, āvuso, upādānakkhandhā vuttā bhagavatā, seyyathidaṁ—",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "rūpupādānakkhandho …pe… viññāṇupādānakkhandho. ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "Imesu āyasmā khemako pañcasu upādānakkhandhesu kiñci attaṁ vā attaniyaṁ vā samanupassatī”ti? ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "“Pañcime, āvuso, upādānakkhandhā vuttā bhagavatā, seyyathidaṁ—",
+      "english": "“These five grasping aggregates have been taught by the Buddha, that is: "
+    },
+    {
+      "number": 28,
+      "pali": "rūpupādānakkhandho …pe… viññāṇupādānakkhandho. ",
+      "english": "the grasping aggregates of form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 29,
+      "pali": "Imesu khvāhaṁ, āvuso, pañcasu upādānakkhandhesu na kiñci attaṁ vā attaniyaṁ vā samanupassāmī”ti. ",
+      "english": "I do not regard anything among these five grasping aggregates as self or as belonging to self.” "
+    },
+    {
+      "number": 30,
+      "pali": "Atha kho āyasmā dāsako yena therā bhikkhū tenupasaṅkami; upasaṅkamitvā there bhikkhū etadavoca: ",
+      "english": "Then Dāsaka went to those senior mendicants and told them what had happened. They said: "
+    },
+    {
+      "number": 31,
+      "pali": "“khemako, āvuso, bhikkhu evamāha: ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "‘pañcime, āvuso, upādānakkhandhā vuttā bhagavatā, seyyathidaṁ—",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "rūpupādānakkhandho …pe… viññāṇupādānakkhandho. ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "Imesu khvāhaṁ, āvuso, pañcasu upādānakkhandhesu na kiñci attaṁ vā attaniyaṁ vā samanupassāmī’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "“Ehi tvaṁ, āvuso dāsaka, yena khemako bhikkhu tenupasaṅkama; upasaṅkamitvā khemakaṁ bhikkhuṁ evaṁ vadehi: ",
+      "english": "“Please, Reverend Dāsaka, go to the mendicant Khemaka and say to him: "
+    },
+    {
+      "number": 36,
+      "pali": "‘therā taṁ, āvuso khemaka, evamāhaṁsu—",
+      "english": "‘Reverend Khemaka, the seniors say that "
+    },
+    {
+      "number": 37,
+      "pali": "pañcime, āvuso, upādānakkhandhā vuttā bhagavatā, seyyathidaṁ—",
+      "english": "these five grasping aggregates have been taught by the Buddha, that is: "
+    },
+    {
+      "number": 38,
+      "pali": "rūpupādānakkhandho …pe… viññāṇupādānakkhandho. ",
+      "english": "the grasping aggregates of form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 39,
+      "pali": "No ce kirāyasmā khemako imesu pañcasu upādānakkhandhesu kiñci attaṁ vā attaniyaṁ vā samanupassati. ",
+      "english": "If, as it seems, Venerable Khemaka does not regard anything among these five grasping aggregates as self or as belonging to self, "
+    },
+    {
+      "number": 40,
+      "pali": "Tenahāyasmā khemako arahaṁ khīṇāsavo’”ti. ",
+      "english": "then he is a perfected one, with defilements ended.’” "
+    },
+    {
+      "number": 41,
+      "pali": "“Evamāvuso”ti kho āyasmā dāsako therānaṁ bhikkhūnaṁ paṭissutvā yenāyasmā khemako …pe… ",
+      "english": "“Yes, reverends,” replied Dāsaka. He relayed the message to Khemaka, who replied: "
+    },
+    {
+      "number": 42,
+      "pali": "therā taṁ, āvuso khemaka, evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "“pañcime, āvuso, upādānakkhandhā vuttā bhagavatā, seyyathidaṁ—",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "rūpupādānakkhandho …pe… viññāṇupādānakkhandho; ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "no ce kirāyasmā khemako imesu pañcasu upādānakkhandhesu kiñci attaṁ vā attaniyaṁ vā samanupassati, tenahāyasmā khemako arahaṁ khīṇāsavo”ti. ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "“Pañcime, āvuso, upādānakkhandhā vuttā bhagavatā, seyyathidaṁ—",
+      "english": "“These five grasping aggregates have been taught by the Buddha, that is: "
+    },
+    {
+      "number": 47,
+      "pali": "rūpupādānakkhandho …pe… viññāṇupādānakkhandho. ",
+      "english": "the grasping aggregates of form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 48,
+      "pali": "Imesu khvāhaṁ, āvuso, pañcasu upādānakkhandhesu na kiñci attaṁ vā attaniyaṁ vā samanupassāmi, na camhi arahaṁ khīṇāsavo; ",
+      "english": "I do not regard anything among these five grasping aggregates as self or as belonging to self, yet I am not a perfected one, with defilements ended. "
+    },
+    {
+      "number": 49,
+      "pali": "api ca me, āvuso, pañcasu upādānakkhandhesu ‘asmī’ti adhigataṁ, ‘ayamahamasmī’ti na ca samanupassāmī”ti. ",
+      "english": "For when it comes to the five grasping aggregates I’m not rid of the conceit ‘I am’. But I don’t regard anything as ‘I am this’.” "
+    },
+    {
+      "number": 50,
+      "pali": "Atha kho āyasmā dāsako yena therā bhikkhū …pe… ",
+      "english": "Then Dāsaka went to those senior mendicants and told them what had happened. They said: "
+    },
+    {
+      "number": 51,
+      "pali": "there bhikkhū etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "“khemako, āvuso, bhikkhu evamāha—",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "pañcime, āvuso, upādānakkhandhā vuttā bhagavatā, seyyathidaṁ—",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "rūpupādānakkhandho …pe… viññāṇupādānakkhandho. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Imesu khvāhaṁ, āvuso, pañcasu upādānakkhandhesu na kiñci attaṁ vā attaniyaṁ vā samanupassāmi, na camhi arahaṁ khīṇāsavo; ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "api ca me, āvuso, pañcasu upādānakkhandhesu ‘asmī’ti adhigataṁ, ‘ayamahamasmī’ti na ca samanupassāmī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "“Ehi tvaṁ, āvuso dāsaka, yena khemako bhikkhu tenupasaṅkama; upasaṅkamitvā khemakaṁ bhikkhuṁ evaṁ vadehi: ",
+      "english": "“Please, Reverend Dāsaka, go to the mendicant Khemaka and say to him: "
+    },
+    {
+      "number": 58,
+      "pali": "‘therā taṁ, āvuso khemaka, evamāhaṁsu—",
+      "english": "‘Reverend Khemaka, the seniors ask, "
+    },
+    {
+      "number": 59,
+      "pali": "yametaṁ, āvuso khemaka, asmīti vadesi, kimetaṁ asmīti vadesi? ",
+      "english": "when you say “I am”, what is it that you’re talking about? "
+    },
+    {
+      "number": 60,
+      "pali": "Rūpaṁ asmīti vadesi, aññatra rūpā asmīti vadesi, ",
+      "english": "Is it form or apart from form? "
+    },
+    {
+      "number": 61,
+      "pali": "vedanaṁ … ",
+      "english": "Is it feeling … "
+    },
+    {
+      "number": 62,
+      "pali": "saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 63,
+      "pali": "saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 64,
+      "pali": "viññāṇaṁ asmīti vadesi, aññatra viññāṇā asmīti vadesi. ",
+      "english": "consciousness, or apart from consciousness? "
+    },
+    {
+      "number": 65,
+      "pali": "Yametaṁ, āvuso khemaka, asmīti vadesi. Kimetaṁ asmīti vadesī’”ti? ",
+      "english": "When you say “I am”, what is it that you’re talking about?” "
+    },
+    {
+      "number": 66,
+      "pali": "“Evamāvuso”ti kho āyasmā dāsako therānaṁ bhikkhūnaṁ paṭissutvā yenāyasmā khemako tenupasaṅkami; upasaṅkamitvā āyasmantaṁ khemakaṁ etadavoca—",
+      "english": "“Yes, reverends,” replied Dāsaka. He relayed the message to Khemaka, who replied: "
+    },
+    {
+      "number": 67,
+      "pali": "therā taṁ, āvuso khemaka, evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "“yametaṁ, āvuso khemaka, ‘asmī’ti vadesi, kimetaṁ ‘asmī’ti vadesi? ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "Rūpaṁ ‘asmī’ti vadesi aññatra rūpā ‘asmī’ti vadesi? ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "Vedanaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "saññaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "saṅkhāre … ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "viññāṇaṁ ‘asmī’ti vadesi aññatra viññāṇā ‘asmī’ti vadesi? ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "Yametaṁ, āvuso khemaka, ‘asmī’ti vadesi, kimetaṁ ‘asmī’ti vadesī”ti? ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "“Alaṁ, āvuso dāsaka, kiṁ imāya sandhāvanikāya. ",
+      "english": "“Enough, Reverend Dāsaka! What’s the point in running back and forth? "
+    },
+    {
+      "number": 76,
+      "pali": "Āharāvuso, daṇḍaṁ; ",
+      "english": "Bring my staff, "
+    },
+    {
+      "number": 77,
+      "pali": "ahameva yena therā bhikkhū tenupasaṅkamissāmī”ti. ",
+      "english": "I’ll go to see the senior mendicants myself.” "
+    },
+    {
+      "number": 78,
+      "pali": "Atha kho āyasmā khemako daṇḍamolubbha yena therā bhikkhū tenupasaṅkami; upasaṅkamitvā therehi bhikkhūhi saddhiṁ sammodi. ",
+      "english": "Then Venerable Khemaka, leaning on a staff, went to those senior mendicants and exchanged greetings with them. "
+    },
+    {
+      "number": 79,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho āyasmantaṁ khemakaṁ therā bhikkhū etadavocuṁ: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side. They said to him: "
+    },
+    {
+      "number": 80,
+      "pali": "“yametaṁ, āvuso khemaka, ‘asmī’ti vadesi, kimetaṁ ‘asmī’ti vadesi? ",
+      "english": "“Reverend Khemaka, when you say ‘I am’, what is it that you’re talking about? "
+    },
+    {
+      "number": 81,
+      "pali": "Rūpaṁ ‘asmī’ti vadesi, aññatra rūpā ‘asmī’ti vadesi? ",
+      "english": "Is it form or apart from form? "
+    },
+    {
+      "number": 82,
+      "pali": "Vedanaṁ … ",
+      "english": "Is it feeling … "
+    },
+    {
+      "number": 83,
+      "pali": "saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 84,
+      "pali": "saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 85,
+      "pali": "viññāṇaṁ ‘asmī’ti vadesi, aññatra viññāṇā ‘asmī’ti vadesi? ",
+      "english": "consciousness, or apart from consciousness? "
+    },
+    {
+      "number": 86,
+      "pali": "Yametaṁ, āvuso khemaka, ‘asmī’ti vadesi, kimetaṁ ‘asmī’ti vadesī”ti? ",
+      "english": "When you say ‘I am’, what is it that you’re talking about?” "
+    },
+    {
+      "number": 87,
+      "pali": "“Na khvāhaṁ, āvuso, rūpaṁ ‘asmī’ti vadāmi; napi aññatra rūpā ‘asmī’ti vadāmi. ",
+      "english": "“Reverends, I don’t say ‘I am’ with reference to form, or apart from form. "
+    },
+    {
+      "number": 88,
+      "pali": "Na vedanaṁ … ",
+      "english": "I don’t say ‘I am’ with reference to feeling … "
+    },
+    {
+      "number": 89,
+      "pali": "na saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 90,
+      "pali": "na saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 91,
+      "pali": "na viññāṇaṁ ‘asmī’ti vadāmi; napi aññatra viññāṇā ‘asmī’ti vadāmi. ",
+      "english": "consciousness, or apart from consciousness. "
+    },
+    {
+      "number": 92,
+      "pali": "Api ca me, āvuso, pañcasu upādānakkhandhesu ‘asmī’ti adhigataṁ ‘ayamahamasmī’ti na ca samanupassāmi. ",
+      "english": "For when it comes to the five grasping aggregates I’m not rid of the conceit ‘I am’. But I don’t regard anything as ‘I am this’. "
+    },
+    {
+      "number": 93,
+      "pali": "Seyyathāpi, āvuso, uppalassa vā padumassa vā puṇḍarīkassa vā gandho. ",
+      "english": "It’s like the scent of a blue water lily, or a pink or white lotus. "
+    },
+    {
+      "number": 94,
+      "pali": "Yo nu kho evaṁ vadeyya: ‘pattassa gandho’ti vā ‘vaṇṇassa gandho’ti vā ‘kiñjakkhassa gandho’ti vā sammā nu kho so vadamāno vadeyyā”ti? ",
+      "english": "Would it be right to say that the scent belongs to the petals or the stalk or the pistil?” "
+    },
+    {
+      "number": 95,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 96,
+      "pali": "“Yathā kathaṁ, panāvuso, sammā byākaramāno byākareyyā”ti? ",
+      "english": "“Then, reverends, how should it be said?” "
+    },
+    {
+      "number": 97,
+      "pali": "“‘Pupphassa gandho’ti kho, āvuso, sammā byākaramāno byākareyyā”ti. ",
+      "english": "“It would be right to say that the scent belongs to the flower.” "
+    },
+    {
+      "number": 98,
+      "pali": "“Evameva khvāhaṁ, āvuso, na rūpaṁ ‘asmī’ti vadāmi, napi aññatra rūpā ‘asmī’ti vadāmi. ",
+      "english": "“In the same way, reverends, I don’t say ‘I am’ with reference to form, or apart from form. "
+    },
+    {
+      "number": 99,
+      "pali": "Na vedanaṁ … ",
+      "english": "I don’t say ‘I am’ with reference to feeling … "
+    },
+    {
+      "number": 100,
+      "pali": "na saññaṁ … ",
+      "english": "perception … "
+    },
+    {
+      "number": 101,
+      "pali": "na saṅkhāre … ",
+      "english": "choices … "
+    },
+    {
+      "number": 102,
+      "pali": "na viññāṇaṁ ‘asmī’ti vadāmi, napi aññatra viññāṇā ‘asmī’ti vadāmi. ",
+      "english": "consciousness, or apart from consciousness. "
+    },
+    {
+      "number": 103,
+      "pali": "Api ca me, āvuso, pañcasu upādānakkhandhesu ‘asmī’ti adhigataṁ ‘ayamahamasmī’ti na ca samanupassāmi. ",
+      "english": "For when it comes to the five grasping aggregates I’m not rid of the conceit ‘I am’. But I don’t regard anything as ‘I am this’. "
+    },
+    {
+      "number": 104,
+      "pali": "Kiñcāpi, āvuso, ariyasāvakassa pañcorambhāgiyāni saṁyojanāni pahīnāni bhavanti, atha khvassa hoti: ‘yo ca pañcasu upādānakkhandhesu anusahagato asmīti māno, asmīti chando, asmīti anusayo asamūhato. ",
+      "english": "Although a noble disciple has given up the five lower fetters, they still have a lingering residue of the conceit ‘I am’, the desire ‘I am’, and the underlying tendency ‘I am’ which has not been eradicated. "
+    },
+    {
+      "number": 105,
+      "pali": "So aparena samayena pañcasu upādānakkhandhesu udayabbayānupassī viharati—",
+      "english": "After some time they meditate observing rise and fall in the five grasping aggregates. "
+    },
+    {
+      "number": 106,
+      "pali": "iti rūpaṁ, iti rūpassa samudayo, iti rūpassa atthaṅgamo; ",
+      "english": "‘Such is form, such is the origin of form, such is the ending of form. "
+    },
+    {
+      "number": 107,
+      "pali": "iti vedanā … ",
+      "english": "Such is feeling … "
+    },
+    {
+      "number": 108,
+      "pali": "iti saññā … ",
+      "english": "Such is perception … "
+    },
+    {
+      "number": 109,
+      "pali": "iti saṅkhārā … ",
+      "english": "Such are choices … "
+    },
+    {
+      "number": 110,
+      "pali": "iti viññāṇaṁ, iti viññāṇassa samudayo, iti viññāṇassa atthaṅgamo’ti. ",
+      "english": "Such is consciousness, such is the origin of consciousness, such is the disappearance of consciousness.’ "
+    },
+    {
+      "number": 111,
+      "pali": "Tassimesu pañcasu upādānakkhandhesu udayabbayānupassino viharato yopissa hoti pañcasu upādānakkhandhesu anusahagato ‘asmī’ti, māno ‘asmī’ti, chando ‘asmī’ti anusayo asamūhato, sopi samugghātaṁ gacchati. ",
+      "english": "As they do so, that lingering residue is eradicated. "
+    },
+    {
+      "number": 112,
+      "pali": "Seyyathāpi, āvuso, vatthaṁ saṅkiliṭṭhaṁ malaggahitaṁ. Tamenaṁ sāmikā rajakassa anupadajjuṁ. ",
+      "english": "Suppose there was a cloth that was dirty and soiled, so the owners give it to a launderer. "
+    },
+    {
+      "number": 113,
+      "pali": "Tamenaṁ rajako ūse vā khāre vā gomaye vā sammadditvā acche udake vikkhāleti. ",
+      "english": "The launderer kneads it thoroughly with salt, lye, and cow dung, and rinses it in clear water. "
+    },
+    {
+      "number": 114,
+      "pali": "Kiñcāpi taṁ hoti vatthaṁ parisuddhaṁ pariyodātaṁ, atha khvassa hoti yeva anusahagato ūsagandho vā khāragandho vā gomayagandho vā asamūhato. ",
+      "english": "Although that cloth is clean and bright, it still has a lingering scent of salt, lye, or cow dung that had not been eradicated. "
+    },
+    {
+      "number": 115,
+      "pali": "Tamenaṁ rajako sāmikānaṁ deti. Tamenaṁ sāmikā gandhaparibhāvite karaṇḍake nikkhipanti. ",
+      "english": "The launderer returns it to its owners, who store it in a fragrant casket. "
+    },
+    {
+      "number": 116,
+      "pali": "Yopissa hoti anusahagato ūsagandho vā khāragandho vā gomayagandho vā asamūhato, sopi samugghātaṁ gacchati. ",
+      "english": "And that lingering scent would be eradicated. "
+    },
+    {
+      "number": 117,
+      "pali": "Evameva kho, āvuso, kiñcāpi ariyasāvakassa pañcorambhāgiyāni saṁyojanāni pahīnāni bhavanti, atha khvassa hoti yeva pañcasu upādānakkhandhesu anusahagato ‘asmī’ti, māno ‘asmī’ti, chando ‘asmī’ti anusayo asamūhato. ",
+      "english": "In the same way, although a noble disciple has given up the five lower fetters, they still have a lingering residue of the conceit ‘I am’, the desire ‘I am’, and the underlying tendency ‘I am’ which has not been eradicated. "
+    },
+    {
+      "number": 118,
+      "pali": "So aparena samayena pañcasu upādānakkhandhesu udayabbayānupassī viharati. ",
+      "english": "After some time they meditate observing rise and fall in the five grasping aggregates. "
+    },
+    {
+      "number": 119,
+      "pali": "‘Iti rūpaṁ, iti rūpassa samudayo, iti rūpassa atthaṅgamo; ",
+      "english": "‘Such is form, such is the origin of form, such is the disappearance of form. "
+    },
+    {
+      "number": 120,
+      "pali": "iti vedanā … ",
+      "english": "Such is feeling … "
+    },
+    {
+      "number": 121,
+      "pali": "iti saññā … ",
+      "english": "Such is perception … "
+    },
+    {
+      "number": 122,
+      "pali": "iti saṅkhārā … ",
+      "english": "Such are choices … "
+    },
+    {
+      "number": 123,
+      "pali": "iti viññāṇaṁ, iti viññāṇassa samudayo, iti viññāṇassa atthaṅgamo’ti. ",
+      "english": "Such is consciousness, such is the origin of consciousness, such is the disappearance of consciousness.’ "
+    },
+    {
+      "number": 124,
+      "pali": "Tassa imesu pañcasu upādānakkhandhesu udayabbayānupassino viharato yopissa hoti pañcasu upādānakkhandhesu anusahagato ‘asmī’ti, māno ‘asmī’ti, chando ‘asmī’ti anusayo asamūhato, sopi samugghātaṁ gacchatī”ti. ",
+      "english": "As they do so, that lingering residue is eradicated.” "
+    },
+    {
+      "number": 125,
+      "pali": "Evaṁ vutte, therā bhikkhū āyasmantaṁ khemakaṁ etadavocuṁ: ",
+      "english": "When he said this, the senior mendicants said to Venerable Khemaka, "
+    },
+    {
+      "number": 126,
+      "pali": "“na kho mayaṁ āyasmantaṁ khemakaṁ vihesāpekhā pucchimha, api cāyasmā khemako pahosi tassa bhagavato sāsanaṁ vitthārena ācikkhituṁ desetuṁ paññāpetuṁ paṭṭhapetuṁ vivarituṁ vibhajituṁ uttānīkātuṁ. ",
+      "english": "“We didn’t want to trouble Venerable Khemaka with our questions. But you’re capable of explaining, teaching, asserting, establishing, clarifying, analyzing, and revealing the Buddha’s instructions in detail. "
+    },
+    {
+      "number": 127,
+      "pali": "Tayidaṁ āyasmatā khemakena tassa bhagavato sāsanaṁ vitthārena ācikkhitaṁ desitaṁ paññāpitaṁ paṭṭhapitaṁ vivaritaṁ vibhajitaṁ uttānīkatan”ti. ",
+      "english": "And that’s just what you’ve done.” "
+    },
+    {
+      "number": 128,
+      "pali": "Idamavoca āyasmā khemako. ",
+      "english": "That’s what Venerable Khemaka said. "
+    },
+    {
+      "number": 129,
+      "pali": "Attamanā therā bhikkhū āyasmato khemakassa bhāsitaṁ abhinanduṁ. ",
+      "english": "Satisfied, the senior mendicants approved what Venerable Khemaka said. "
+    },
+    {
+      "number": 130,
+      "pali": "Imasmiñca pana veyyākaraṇasmiṁ bhaññamāne saṭṭhimattānaṁ therānaṁ bhikkhūnaṁ anupādāya āsavehi cittāni vimucciṁsu, āyasmato khemakassa cāti. ",
+      "english": "And while this discourse was being spoken, the minds of sixty senior mendicants and of Venerable Khemaka were freed from defilements by not grasping. "
+    },
+    {
+      "number": 131,
+      "pali": "Sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

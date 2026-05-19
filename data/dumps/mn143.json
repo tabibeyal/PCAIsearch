@@ -1,0 +1,970 @@
+{
+  "sutta_id": "MN143",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 143 ",
+      "english": "Middle Discourses 143 "
+    },
+    {
+      "number": 2,
+      "pali": "Anāthapiṇḍikovādasutta ",
+      "english": "Advice to Anāthapiṇḍika "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena anāthapiṇḍiko gahapati ābādhiko hoti dukkhito bāḷhagilāno. ",
+      "english": "Now at that time the householder Anāthapiṇḍika was sick, suffering, gravely ill. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho anāthapiṇḍiko gahapati aññataraṁ purisaṁ āmantesi: ",
+      "english": "Then he addressed a man, "
+    },
+    {
+      "number": 7,
+      "pali": "“ehi tvaṁ, ambho purisa, yena bhagavā tenupasaṅkama; upasaṅkamitvā mama vacanena bhagavato pāde sirasā vandāhi: ",
+      "english": "“Please, my friend, go to the Buddha, and in my name bow with your head to his feet. Say to him: "
+    },
+    {
+      "number": 8,
+      "pali": "‘anāthapiṇḍiko, bhante, gahapati ābādhiko dukkhito bāḷhagilāno. ",
+      "english": "‘Sir, the householder Anāthapiṇḍika is sick, suffering, gravely ill. "
+    },
+    {
+      "number": 9,
+      "pali": "So bhagavato pāde sirasā vandatī’ti. ",
+      "english": "He bows with his head to your feet.’ "
+    },
+    {
+      "number": 10,
+      "pali": "Yena cāyasmā sāriputto tenupasaṅkama; upasaṅkamitvā mama vacanena āyasmato sāriputtassa pāde sirasā vandāhi: ",
+      "english": "Then go to Venerable Sāriputta, and in my name bow with your head to his feet. Say to him: "
+    },
+    {
+      "number": 11,
+      "pali": "‘anāthapiṇḍiko, bhante, gahapati ābādhiko dukkhito bāḷhagilāno. ",
+      "english": "‘Sir, the householder Anāthapiṇḍika is sick, suffering, gravely ill. "
+    },
+    {
+      "number": 12,
+      "pali": "So āyasmato sāriputtassa pāde sirasā vandatī’ti. ",
+      "english": "He bows with his head to your feet.’ "
+    },
+    {
+      "number": 13,
+      "pali": "Evañca vadehi: ",
+      "english": "And then say: "
+    },
+    {
+      "number": 14,
+      "pali": "‘sādhu kira, bhante, āyasmā sāriputto yena anāthapiṇḍikassa gahapatissa nivesanaṁ tenupasaṅkamatu anukampaṁ upādāyā’”ti. ",
+      "english": "‘Sir, please visit him at his home out of sympathy.’” "
+    },
+    {
+      "number": 15,
+      "pali": "“Evaṁ, bhante”ti kho so puriso anāthapiṇḍikassa gahapatissa paṭissutvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho so puriso bhagavantaṁ etadavoca: ",
+      "english": "“Yes, sir,” that man replied. He did as Anāthapiṇḍika asked. "
+    },
+    {
+      "number": 16,
+      "pali": "“anāthapiṇḍiko, bhante, gahapati ābādhiko dukkhito bāḷhagilāno. ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "So bhagavato pāde sirasā vandatī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "Yena cāyasmā sāriputto tenupasaṅkami; upasaṅkamitvā āyasmantaṁ sāriputtaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho so puriso āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "“anāthapiṇḍiko, bhante, gahapati ābādhiko dukkhito bāḷhagilāno. ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "So āyasmato sāriputtassa pāde sirasā vandati; ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "evañca vadeti: ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "‘sādhu kira, bhante, āyasmā sāriputto yena anāthapiṇḍikassa gahapatissa nivesanaṁ tenupasaṅkamatu anukampaṁ upādāyā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "Adhivāsesi kho āyasmā sāriputto tuṇhībhāvena. ",
+      "english": "Sāriputta consented with silence. "
+    },
+    {
+      "number": 24,
+      "pali": "Atha kho āyasmā sāriputto nivāsetvā pattacīvaramādāya āyasmatā ānandena pacchāsamaṇena yena anāthapiṇḍikassa gahapatissa nivesanaṁ tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi. Nisajja kho āyasmā sāriputto anāthapiṇḍikaṁ gahapatiṁ etadavoca: ",
+      "english": "Then Venerable Sāriputta robed up in the morning and, taking his bowl and robe, went with Venerable Ānanda as his second monk to Anāthapiṇḍika’s home. He sat down on the seat spread out, and said to Anāthapiṇḍika, "
+    },
+    {
+      "number": 25,
+      "pali": "“kacci te, gahapati, khamanīyaṁ, kacci yāpanīyaṁ? Kacci te dukkhā vedanā paṭikkamanti, no abhikkamanti; paṭikkamosānaṁ paññāyati, no abhikkamo”ti? ",
+      "english": "“I hope you’re keeping well, householder; I hope you’re all right. And I hope the pain is fading, not growing, that its fading is evident, not its growing.” "
+    },
+    {
+      "number": 26,
+      "pali": "“Na me, bhante sāriputta, khamanīyaṁ na yāpanīyaṁ. Bāḷhā me dukkhā vedanā abhikkamanti, no paṭikkamanti; abhikkamosānaṁ paññāyati, no paṭikkamo. ",
+      "english": "“I’m not keeping well, Honorable Sāriputta, I’m not getting by. The pain is terrible and growing, not fading, its growing, not its fading, is evident. "
+    },
+    {
+      "number": 27,
+      "pali": "Seyyathāpi, bhante sāriputta, balavā puriso tiṇhena sikharena muddhani abhimattheyya; evameva kho me, bhante sāriputta, adhimattā vātā muddhani ūhananti. ",
+      "english": "The winds piercing my head are so severe, it feels like a strong man drilling into my head with a sharp point. "
+    },
+    {
+      "number": 28,
+      "pali": "Na me, bhante sāriputta, khamanīyaṁ na yāpanīyaṁ. Bāḷhā me dukkhā vedanā abhikkamanti, no paṭikkamanti; abhikkamosānaṁ paññāyati, no paṭikkamo. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Seyyathāpi, bhante sāriputta, balavā puriso daḷhena varattakhaṇḍena sīse sīsaveṭhaṁ dadeyya; evameva kho me, bhante sāriputta, adhimattā sīse sīsavedanā. ",
+      "english": "The pain in my head is so severe, it feels like a strong man tightening a strong leather strap around my head. "
+    },
+    {
+      "number": 30,
+      "pali": "Na me, bhante sāriputta, khamanīyaṁ na yāpanīyaṁ. Bāḷhā me dukkhā vedanā abhikkamanti, no paṭikkamanti; abhikkamosānaṁ paññāyati, no paṭikkamo. ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Seyyathāpi, bhante sāriputta, dakkho goghātako vā goghātakantevāsī vā tiṇhena govikantanena kucchiṁ parikanteyya; evameva kho me, bhante sāriputta, adhimattā vātā kucchiṁ parikantanti. ",
+      "english": "The winds slicing my belly are so severe, like a deft butcher or their apprentice were slicing open a cows’s belly with a sharp meat cleaver. "
+    },
+    {
+      "number": 32,
+      "pali": "Na me, bhante sāriputta, khamanīyaṁ na yāpanīyaṁ. Bāḷhā me dukkhā vedanā abhikkamanti, no paṭikkamanti; abhikkamosānaṁ paññāyati, no paṭikkamo. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Seyyathāpi, bhante sāriputta, dve balavanto purisā dubbalataraṁ purisaṁ nānābāhāsu gahetvā aṅgārakāsuyā santāpeyyuṁ, samparitāpeyyuṁ; evameva kho me, bhante sāriputta, adhimatto kāyasmiṁ ḍāho. ",
+      "english": "The burning in my body is so severe, it feels like two strong men grabbing a weaker man by the arms to burn and scorch him on a pit of glowing coals. That’s how severe the burning is in my body. "
+    },
+    {
+      "number": 34,
+      "pali": "Na me, bhante sāriputta, khamanīyaṁ na yāpanīyaṁ. Bāḷhā me dukkhā vedanā abhikkamanti, no paṭikkamanti; abhikkamosānaṁ paññāyati, no paṭikkamo”ti. ",
+      "english": "I’m not keeping well, Honorable Sāriputta, I’m not getting by. The pain is terrible and growing, not fading, its growing, not its fading, is evident.” "
+    },
+    {
+      "number": 35,
+      "pali": "“Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "“That’s why, householder, you should train like this: "
+    },
+    {
+      "number": 36,
+      "pali": "‘na cakkhuṁ upādiyissāmi, na ca me cakkhunissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp the eye, and there shall be no consciousness of mine dependent on the eye.’ "
+    },
+    {
+      "number": 37,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 38,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 39,
+      "pali": "‘na sotaṁ upādiyissāmi, na ca me sotanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp the ear, and there shall be no consciousness of mine dependent on the ear.’ … "
+    },
+    {
+      "number": 40,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "‘na ghānaṁ upādiyissāmi, na ca me ghānanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp the nose, and there shall be no consciousness of mine dependent on the nose.’ … "
+    },
+    {
+      "number": 43,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "‘na jivhaṁ upādiyissāmi, na ca me jivhānissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp the tongue, and there shall be no consciousness of mine dependent on the tongue.’ … "
+    },
+    {
+      "number": 46,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "‘na kāyaṁ upādiyissāmi, na ca me kāyanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp the body, and there shall be no consciousness of mine dependent on the body.’ … "
+    },
+    {
+      "number": 49,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "‘na manaṁ upādiyissāmi, na ca me manonissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp the mind, and there shall be no consciousness of mine dependent on the mind.’ "
+    },
+    {
+      "number": 52,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 53,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 54,
+      "pali": "‘na rūpaṁ upādiyissāmi, na ca me rūpanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp sight, and there shall be no consciousness of mine dependent on sight.’ … "
+    },
+    {
+      "number": 55,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "‘na saddaṁ upādiyissāmi …pe… ",
+      "english": "‘I shall not grasp sound … "
+    },
+    {
+      "number": 58,
+      "pali": "na gandhaṁ upādiyissāmi … ",
+      "english": "smell … "
+    },
+    {
+      "number": 59,
+      "pali": "na rasaṁ upādiyissāmi … ",
+      "english": "taste … "
+    },
+    {
+      "number": 60,
+      "pali": "na phoṭṭhabbaṁ upādiyissāmi … ",
+      "english": "touch … "
+    },
+    {
+      "number": 61,
+      "pali": "na dhammaṁ upādiyissāmi, na ca me dhammanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "idea, and there shall be no consciousness of mine dependent on idea.’ "
+    },
+    {
+      "number": 62,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 63,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 64,
+      "pali": "‘na cakkhuviññāṇaṁ upādiyissāmi, na ca me cakkhuviññāṇanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp eye consciousness, and there shall be no consciousness of mine dependent on eye consciousness.’ … "
+    },
+    {
+      "number": 65,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "‘na sotaviññāṇaṁ upādiyissāmi … ",
+      "english": "‘I shall not grasp ear consciousness … "
+    },
+    {
+      "number": 68,
+      "pali": "na ghānaviññāṇaṁ upādiyissāmi … ",
+      "english": "nose consciousness … "
+    },
+    {
+      "number": 69,
+      "pali": "na jivhāviññāṇaṁ upādiyissāmi … ",
+      "english": "tongue consciousness … "
+    },
+    {
+      "number": 70,
+      "pali": "na kāyaviññāṇaṁ upādiyissāmi … ",
+      "english": "body consciousness … "
+    },
+    {
+      "number": 71,
+      "pali": "na manoviññāṇaṁ upādiyissāmi, na ca me manoviññāṇanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "mind consciousness, and there shall be no consciousness of mine dependent on mind consciousness.’ "
+    },
+    {
+      "number": 72,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 73,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 74,
+      "pali": "‘na cakkhusamphassaṁ upādiyissāmi, na ca me cakkhusamphassanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp eye contact … "
+    },
+    {
+      "number": 75,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "‘na sotasamphassaṁ upādiyissāmi … ",
+      "english": "ear contact … "
+    },
+    {
+      "number": 78,
+      "pali": "na ghānasamphassaṁ upādiyissāmi … ",
+      "english": "nose contact … "
+    },
+    {
+      "number": 79,
+      "pali": "na jivhāsamphassaṁ upādiyissāmi … ",
+      "english": "tongue contact … "
+    },
+    {
+      "number": 80,
+      "pali": "na kāyasamphassaṁ upādiyissāmi … ",
+      "english": "body contact … "
+    },
+    {
+      "number": 81,
+      "pali": "na manosamphassaṁ upādiyissāmi, na ca me manosamphassanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "mind contact, and there shall be no consciousness of mine dependent on mind contact.’ "
+    },
+    {
+      "number": 82,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 83,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 84,
+      "pali": "‘na cakkhusamphassajaṁ vedanaṁ upādiyissāmi, na ca me cakkhusamphassajāvedanānissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp feeling born of eye contact … "
+    },
+    {
+      "number": 85,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "‘na sotasamphassajaṁ vedanaṁ upādiyissāmi … ",
+      "english": "feeling born of ear contact … "
+    },
+    {
+      "number": 88,
+      "pali": "na ghānasamphassajaṁ vedanaṁ upādiyissāmi … ",
+      "english": "feeling born of nose contact … "
+    },
+    {
+      "number": 89,
+      "pali": "na jivhāsamphassajaṁ vedanaṁ upādiyissāmi … ",
+      "english": "feeling born of tongue contact … "
+    },
+    {
+      "number": 90,
+      "pali": "na kāyasamphassajaṁ vedanaṁ upādiyissāmi … ",
+      "english": "feeling born of body contact … "
+    },
+    {
+      "number": 91,
+      "pali": "na manosamphassajaṁ vedanaṁ upādiyissāmi, na ca me manosamphassajāvedanānissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "feeling born of mind contact, and there shall be no consciousness of mine dependent on the feeling born of mind contact.’ "
+    },
+    {
+      "number": 92,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 93,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 94,
+      "pali": "‘na pathavīdhātuṁ upādiyissāmi, na ca me pathavīdhātunissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp the earth element … "
+    },
+    {
+      "number": 95,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 96,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "‘na āpodhātuṁ upādiyissāmi … ",
+      "english": "water element … "
+    },
+    {
+      "number": 98,
+      "pali": "na tejodhātuṁ upādiyissāmi … ",
+      "english": "fire element … "
+    },
+    {
+      "number": 99,
+      "pali": "na vāyodhātuṁ upādiyissāmi … ",
+      "english": "air element … "
+    },
+    {
+      "number": 100,
+      "pali": "na ākāsadhātuṁ upādiyissāmi … ",
+      "english": "space element … "
+    },
+    {
+      "number": 101,
+      "pali": "na viññāṇadhātuṁ upādiyissāmi, na ca me viññāṇadhātunissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "consciousness element, and there shall be no consciousness of mine dependent on the consciousness element.’ "
+    },
+    {
+      "number": 102,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 103,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 104,
+      "pali": "‘na rūpaṁ upādiyissāmi, na ca me rūpanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp form … "
+    },
+    {
+      "number": 105,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 106,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "‘na vedanaṁ upādiyissāmi … ",
+      "english": "feeling … "
+    },
+    {
+      "number": 108,
+      "pali": "na saññaṁ upādiyissāmi … ",
+      "english": "perception … "
+    },
+    {
+      "number": 109,
+      "pali": "na saṅkhāre upādiyissāmi … ",
+      "english": "choices … "
+    },
+    {
+      "number": 110,
+      "pali": "na viññāṇaṁ upādiyissāmi, na ca me viññāṇanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "consciousness, and there shall be no consciousness of mine dependent on consciousness.’ "
+    },
+    {
+      "number": 111,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 112,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 113,
+      "pali": "‘na ākāsānañcāyatanaṁ upādiyissāmi, na ca me ākāsānañcāyatananissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp the dimension of infinite space … "
+    },
+    {
+      "number": 114,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 115,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 116,
+      "pali": "‘na viññāṇañcāyatanaṁ upādiyissāmi … ",
+      "english": "the dimension of infinite consciousness … "
+    },
+    {
+      "number": 117,
+      "pali": "na ākiñcaññāyatanaṁ upādiyissāmi … ",
+      "english": "the dimension of nothingness … "
+    },
+    {
+      "number": 118,
+      "pali": "na nevasaññānāsaññāyatanaṁ upādiyissāmi, na ca me nevasaññānāsaññāyatananissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "the dimension of neither perception nor non-perception, and there shall be no consciousness of mine dependent on the dimension of neither perception nor non-perception.’ "
+    },
+    {
+      "number": 119,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 120,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 121,
+      "pali": "‘na idhalokaṁ upādiyissāmi, na ca me idhalokanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp this world, and there shall be no consciousness of mine dependent on this world.’ "
+    },
+    {
+      "number": 122,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 123,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 124,
+      "pali": "‘na paralokaṁ upādiyissāmi, na ca me paralokanissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp the other world, and there shall be no consciousness of mine dependent on the other world.’ "
+    },
+    {
+      "number": 125,
+      "pali": "Evañhi te, gahapati, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 126,
+      "pali": "Tasmātiha te, gahapati, evaṁ sikkhitabbaṁ: ",
+      "english": "You should train like this: "
+    },
+    {
+      "number": 127,
+      "pali": "‘yampi me diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ pariyesitaṁ anupariyesitaṁ anucaritaṁ manasā tampi na upādiyissāmi, na ca me tannissitaṁ viññāṇaṁ bhavissatī’ti. ",
+      "english": "‘I shall not grasp whatever is seen, heard, thought, known, attained, sought, and explored by my mind, and my consciousness will not have that as support.’ "
+    },
+    {
+      "number": 128,
+      "pali": "Evañhi te, gahapati, sikkhitabban”ti. ",
+      "english": "That’s how you should train.” "
+    },
+    {
+      "number": 129,
+      "pali": "Evaṁ vutte, anāthapiṇḍiko gahapati parodi, assūni pavattesi. ",
+      "english": "When he said this, Anāthapiṇḍika cried and burst out in tears. "
+    },
+    {
+      "number": 130,
+      "pali": "Atha kho āyasmā ānando anāthapiṇḍikaṁ gahapatiṁ etadavoca: ",
+      "english": "Venerable Ānanda said to him, "
+    },
+    {
+      "number": 131,
+      "pali": "“olīyasi kho tvaṁ, gahapati, saṁsīdasi kho tvaṁ, gahapatī”ti? ",
+      "english": "“Are you failing, householder? Are you fading, householder?” "
+    },
+    {
+      "number": 132,
+      "pali": "“Nāhaṁ, bhante ānanda, olīyāmi, napi saṁsīdāmi; ",
+      "english": "“No, Honorable Ānanda. "
+    },
+    {
+      "number": 133,
+      "pali": "api ca me dīgharattaṁ satthā payirupāsito manobhāvanīyā ca bhikkhū; ",
+      "english": "But for a long time I have paid homage to the Buddha and the esteemed mendicants. "
+    },
+    {
+      "number": 134,
+      "pali": "na ca me evarūpī dhammī kathā sutapubbā”ti. ",
+      "english": "Yet I have never before heard such a Dhamma talk.” "
+    },
+    {
+      "number": 135,
+      "pali": "“Na kho, gahapati, gihīnaṁ odātavasanānaṁ evarūpī dhammī kathā paṭibhāti; ",
+      "english": "“Householder, such Dhamma talk does not strike when teaching white-clothed laypeople. "
+    },
+    {
+      "number": 136,
+      "pali": "pabbajitānaṁ kho, gahapati, evarūpī dhammī kathā paṭibhātī”ti. ",
+      "english": "Rather, it strikes when teaching those gone forth.” "
+    },
+    {
+      "number": 137,
+      "pali": "“Tena hi, bhante sāriputta, gihīnampi odātavasanānaṁ evarūpī dhammī kathā paṭibhātu. ",
+      "english": "“Well then, Honorable Sāriputta, let such Dhamma talk strike when teaching white-clothed laypeople as well! "
+    },
+    {
+      "number": 138,
+      "pali": "Santi hi, bhante, kulaputtā apparajakkhajātikā, assavanatā dhammassa parihāyanti; ",
+      "english": "There are gentlemen with little dust in their eyes. They’re in decline because they haven’t heard the teaching. "
+    },
+    {
+      "number": 139,
+      "pali": "bhavissanti dhammassa aññātāro”ti. ",
+      "english": "There will be those who understand the teaching!” "
+    },
+    {
+      "number": 140,
+      "pali": "Atha kho āyasmā ca sāriputto āyasmā ca ānando anāthapiṇḍikaṁ gahapatiṁ iminā ovādena ovaditvā uṭṭhāyāsanā pakkamiṁsu. ",
+      "english": "And when the venerables Sāriputta and Ānanda had given the householder Anāthapiṇḍika this advice they got up from their seat and left. "
+    },
+    {
+      "number": 141,
+      "pali": "Atha kho anāthapiṇḍiko gahapati, acirapakkante āyasmante ca sāriputte āyasmante ca ānande, kālamakāsi tusitaṁ kāyaṁ upapajji. ",
+      "english": "Not long after they had left, Anāthapiṇḍika passed away and was reborn in the host of joyful gods. "
+    },
+    {
+      "number": 142,
+      "pali": "Atha kho anāthapiṇḍiko devaputto abhikkantāya rattiyā abhikkantavaṇṇo kevalakappaṁ jetavanaṁ obhāsetvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi. ",
+      "english": "Then, late at night, the glorious godling Anāthapiṇḍika, lighting up the entire Jeta’s Grove, went up to the Buddha, bowed, stood to one side, "
+    },
+    {
+      "number": 143,
+      "pali": "Ekamantaṁ ṭhito kho anāthapiṇḍiko devaputto bhagavantaṁ gāthāhi ajjhabhāsi: ",
+      "english": "and addressed the Buddha in verse: "
+    },
+    {
+      "number": 144,
+      "pali": "“Idañhi taṁ jetavanaṁ, ",
+      "english": "“This is indeed that Jeta’s Grove, "
+    },
+    {
+      "number": 145,
+      "pali": "isisaṅghanisevitaṁ; ",
+      "english": "frequented by the Saṅgha of seers, "
+    },
+    {
+      "number": 146,
+      "pali": "Āvutthaṁ dhammarājena, ",
+      "english": "where the King of Dhamma stayed: "
+    },
+    {
+      "number": 147,
+      "pali": "pītisañjananaṁ mama. ",
+      "english": "it brings me joy! "
+    },
+    {
+      "number": 148,
+      "pali": "Kammaṁ vijjā ca dhammo ca, ",
+      "english": "Deeds, knowledge, and principle; "
+    },
+    {
+      "number": 149,
+      "pali": "sīlaṁ jīvitamuttamaṁ; ",
+      "english": "ethical conduct, an excellent livelihood; "
+    },
+    {
+      "number": 150,
+      "pali": "Etena maccā sujjhanti, ",
+      "english": "by these are mortals purified, "
+    },
+    {
+      "number": 151,
+      "pali": "na gottena dhanena vā. ",
+      "english": "not by clan or wealth. "
+    },
+    {
+      "number": 152,
+      "pali": "Tasmā hi paṇḍito poso, ",
+      "english": "That’s why an astute person, "
+    },
+    {
+      "number": 153,
+      "pali": "sampassaṁ atthamattano; ",
+      "english": "seeing what’s good for themselves, "
+    },
+    {
+      "number": 154,
+      "pali": "Yoniso vicine dhammaṁ, ",
+      "english": "would examine the teaching rationally, "
+    },
+    {
+      "number": 155,
+      "pali": "evaṁ tattha visujjhati. ",
+      "english": "and thus be purified in it. "
+    },
+    {
+      "number": 156,
+      "pali": "Sāriputtova paññāya, ",
+      "english": "Sāriputta is full of wisdom, "
+    },
+    {
+      "number": 157,
+      "pali": "sīlena upasamena ca; ",
+      "english": "ethics, and peace. "
+    },
+    {
+      "number": 158,
+      "pali": "Yopi pāraṅgato bhikkhu, ",
+      "english": "Even a mendicant who has crossed over "
+    },
+    {
+      "number": 159,
+      "pali": "etāvaparamo siyā”ti. ",
+      "english": "might at best equal him.” "
+    },
+    {
+      "number": 160,
+      "pali": "Idamavoca anāthapiṇḍiko devaputto. ",
+      "english": "This is what the godling Anāthapiṇḍika said, "
+    },
+    {
+      "number": 161,
+      "pali": "Samanuñño satthā ahosi. ",
+      "english": "and the teacher approved. "
+    },
+    {
+      "number": 162,
+      "pali": "Atha kho anāthapiṇḍiko devaputto: ",
+      "english": "Then the godling Anāthapiṇḍika, "
+    },
+    {
+      "number": 163,
+      "pali": "“samanuñño me satthā”ti bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā tatthevantaradhāyi. ",
+      "english": "knowing that the teacher approved, bowed and respectfully circled the Buddha, keeping him on his right, before vanishing right there. "
+    },
+    {
+      "number": 164,
+      "pali": "Atha kho bhagavā tassā rattiyā accayena bhikkhū āmantesi: ",
+      "english": "Then, when the night had passed, the Buddha told the mendicants all that had happened. "
+    },
+    {
+      "number": 165,
+      "pali": "“imaṁ, bhikkhave, rattiṁ aññataro devaputto abhikkantāya rattiyā abhikkantavaṇṇo kevalakappaṁ jetavanaṁ obhāsetvā yenāhaṁ tenupasaṅkami; upasaṅkamitvā maṁ abhivādetvā ekamantaṁ aṭṭhāsi. ",
+      "english": ""
+    },
+    {
+      "number": 166,
+      "pali": "Ekamantaṁ ṭhito kho so devaputto maṁ gāthāhi ajjhabhāsi: ",
+      "english": ""
+    },
+    {
+      "number": 167,
+      "pali": "‘Idañhi taṁ jetavanaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 168,
+      "pali": "isisaṅghanisevitaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 169,
+      "pali": "Āvutthaṁ dhammarājena, ",
+      "english": ""
+    },
+    {
+      "number": 170,
+      "pali": "pītisañjananaṁ mama. ",
+      "english": ""
+    },
+    {
+      "number": 171,
+      "pali": "Kammaṁ vijjā ca dhammo ca, ",
+      "english": ""
+    },
+    {
+      "number": 172,
+      "pali": "sīlaṁ jīvitamuttamaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 173,
+      "pali": "Etena maccā sujjhanti, ",
+      "english": ""
+    },
+    {
+      "number": 174,
+      "pali": "na gottena dhanena vā. ",
+      "english": ""
+    },
+    {
+      "number": 175,
+      "pali": "Tasmā hi paṇḍito poso, ",
+      "english": ""
+    },
+    {
+      "number": 176,
+      "pali": "sampassaṁ atthamattano; ",
+      "english": ""
+    },
+    {
+      "number": 177,
+      "pali": "Yoniso vicine dhammaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 178,
+      "pali": "evaṁ tattha visujjhati. ",
+      "english": ""
+    },
+    {
+      "number": 179,
+      "pali": "Sāriputtova paññāya, ",
+      "english": ""
+    },
+    {
+      "number": 180,
+      "pali": "sīlena upasamena ca; ",
+      "english": ""
+    },
+    {
+      "number": 181,
+      "pali": "Yopi pāraṅgato bhikkhu, ",
+      "english": ""
+    },
+    {
+      "number": 182,
+      "pali": "etāvaparamo siyā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 183,
+      "pali": "Idamavoca, bhikkhave, so devaputto. ",
+      "english": ""
+    },
+    {
+      "number": 184,
+      "pali": "‘Samanuñño me satthā’ti maṁ abhivādetvā padakkhiṇaṁ katvā tatthevantaradhāyī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 185,
+      "pali": "Evaṁ vutte, āyasmā ānando bhagavantaṁ etadavoca: ",
+      "english": "When he had spoken, Venerable Ānanda said to the Buddha: "
+    },
+    {
+      "number": 186,
+      "pali": "“so hi nūna so, bhante, anāthapiṇḍiko devaputto bhavissati. ",
+      "english": "“Sir, that godling must surely have been Anāthapiṇḍika. "
+    },
+    {
+      "number": 187,
+      "pali": "Anāthapiṇḍiko, bhante, gahapati āyasmante sāriputte abhippasanno ahosī”ti. ",
+      "english": "For the householder Anāthapiṇḍika was devoted to Venerable Sāriputta.” "
+    },
+    {
+      "number": 188,
+      "pali": "“Sādhu sādhu, ānanda. ",
+      "english": "“Good, good, Ānanda. "
+    },
+    {
+      "number": 189,
+      "pali": "Yāvatakaṁ kho, ānanda, takkāya pattabbaṁ, anuppattaṁ taṁ tayā. ",
+      "english": "You’ve reached the logical conclusion, as far as logic goes. "
+    },
+    {
+      "number": 190,
+      "pali": "Anāthapiṇḍiko so, ānanda, devaputto”ti. ",
+      "english": "For that was indeed the godling Anāthapiṇḍika.” "
+    },
+    {
+      "number": 191,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 192,
+      "pali": "Attamano āyasmā ānando bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Ānanda approved what the Buddha said. "
+    },
+    {
+      "number": 193,
+      "pali": "Anāthapiṇḍikovādasuttaṁ niṭṭhitaṁ paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

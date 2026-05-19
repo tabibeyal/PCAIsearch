@@ -1,0 +1,580 @@
+{
+  "sutta_id": "MN147",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 147 ",
+      "english": "Middle Discourses 147 "
+    },
+    {
+      "number": 2,
+      "pali": "Cūḷarāhulovādasutta ",
+      "english": "The Shorter Advice to Rāhula "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho bhagavato rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
+      "english": "Then as he was in private retreat this thought came to his mind, "
+    },
+    {
+      "number": 6,
+      "pali": "“paripakkā kho rāhulassa vimuttiparipācanīyā dhammā. ",
+      "english": "“The qualities that ripen in freedom have ripened in Rāhula. "
+    },
+    {
+      "number": 7,
+      "pali": "Yannūnāhaṁ rāhulaṁ uttariṁ āsavānaṁ khaye vineyyan”ti. ",
+      "english": "Why don’t I lead him further to the ending of defilements?” "
+    },
+    {
+      "number": 8,
+      "pali": "Atha kho bhagavā pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya sāvatthiṁ piṇḍāya pāvisi. ",
+      "english": "Then the Buddha robed up in the morning and, taking his bowl and robe, entered Sāvatthī for alms. "
+    },
+    {
+      "number": 9,
+      "pali": "Sāvatthiyaṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto āyasmantaṁ rāhulaṁ āmantesi: ",
+      "english": "Then, after the meal, on his return from almsround, he addressed Venerable Rāhula, "
+    },
+    {
+      "number": 10,
+      "pali": "“gaṇhāhi, rāhula, nisīdanaṁ; ",
+      "english": "“Rāhula, get your sitting cloth. "
+    },
+    {
+      "number": 11,
+      "pali": "yena andhavanaṁ tenupasaṅkamissāma divāvihārāyā”ti. ",
+      "english": "Let’s go to the Dark Forest for the day’s meditation.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Evaṁ, bhante”ti kho āyasmā rāhulo bhagavato paṭissutvā nisīdanaṁ ādāya bhagavantaṁ piṭṭhito piṭṭhito anubandhi. ",
+      "english": "“Yes, sir,” replied Rāhula. Taking his sitting cloth he followed behind the Buddha. "
+    },
+    {
+      "number": 13,
+      "pali": "Tena kho pana samayena anekāni devatāsahassāni bhagavantaṁ anubandhāni honti: ",
+      "english": "Now at that time many thousands of deities followed the Buddha, thinking, "
+    },
+    {
+      "number": 14,
+      "pali": "“ajja bhagavā āyasmantaṁ rāhulaṁ uttariṁ āsavānaṁ khaye vinessatī”ti. ",
+      "english": "“Today the Buddha will lead Rāhula further to the ending of defilements!” "
+    },
+    {
+      "number": 15,
+      "pali": "Atha kho bhagavā andhavanaṁ ajjhogāhetvā aññatarasmiṁ rukkhamūle paññatte āsane nisīdi. ",
+      "english": "Then the Buddha plunged deep into the Dark Forest and sat at the root of a tree on the seat spread out. "
+    },
+    {
+      "number": 16,
+      "pali": "Āyasmāpi kho rāhulo bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "Rāhula bowed to the Buddha and sat down to one side. "
+    },
+    {
+      "number": 17,
+      "pali": "Ekamantaṁ nisinnaṁ kho āyasmantaṁ rāhulaṁ bhagavā etadavoca: ",
+      "english": "The Buddha said to him: "
+    },
+    {
+      "number": 18,
+      "pali": "“Taṁ kiṁ maññasi, rāhula, ",
+      "english": "“What do you think, Rāhula? "
+    },
+    {
+      "number": 19,
+      "pali": "cakkhu niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Is the eye permanent or impermanent?” "
+    },
+    {
+      "number": 20,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 21,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 22,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 23,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 24,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 25,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 26,
+      "pali": "“Taṁ kiṁ maññasi, rāhula, ",
+      "english": "“What do you think, Rāhula? "
+    },
+    {
+      "number": 27,
+      "pali": "rūpā niccā vā aniccā vā”ti? ",
+      "english": "Are sights permanent or impermanent?” "
+    },
+    {
+      "number": 28,
+      "pali": "“Aniccā, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 29,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if they’re impermanent, are they suffering or happiness?” "
+    },
+    {
+      "number": 30,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 31,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if they’re impermanent, suffering, and perishable, are they fit to be regarded thus: "
+    },
+    {
+      "number": 32,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 33,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 34,
+      "pali": "“Taṁ kiṁ maññasi, rāhula, ",
+      "english": "“What do you think, Rāhula? "
+    },
+    {
+      "number": 35,
+      "pali": "cakkhuviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Is eye consciousness permanent or impermanent?” "
+    },
+    {
+      "number": 36,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 37,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 38,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 39,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 40,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 41,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 42,
+      "pali": "“Taṁ kiṁ maññasi, rāhula, ",
+      "english": "“What do you think, Rāhula? "
+    },
+    {
+      "number": 43,
+      "pali": "cakkhusamphasso nicco vā anicco vā”ti? ",
+      "english": "Is eye contact permanent or impermanent?” "
+    },
+    {
+      "number": 44,
+      "pali": "“Anicco, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 45,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 46,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 47,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 48,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 49,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 50,
+      "pali": "“Taṁ kiṁ maññasi, rāhula, ",
+      "english": "“What do you think, Rāhula? "
+    },
+    {
+      "number": 51,
+      "pali": "yamidaṁ cakkhusamphassapaccayā uppajjati vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ tampi niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Anything included in feeling, perception, choices, and consciousness that arises dependent on eye contact: is that permanent or impermanent?” "
+    },
+    {
+      "number": 52,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 53,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 54,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 55,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 56,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 57,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 58,
+      "pali": "“Taṁ kiṁ maññasi rāhula, sotaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "“What do you think, Rāhula? Is the ear … "
+    },
+    {
+      "number": 59,
+      "pali": "“Aniccaṁ, bhante …pe… ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "ghānaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "nose … "
+    },
+    {
+      "number": 61,
+      "pali": "“Aniccaṁ, bhante …pe… ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "jivhā niccā vā aniccā vā”ti? ",
+      "english": "tongue … "
+    },
+    {
+      "number": 63,
+      "pali": "“Aniccā, bhante … ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "kāyo nicco vā anicco vā”ti? ",
+      "english": "body … "
+    },
+    {
+      "number": 65,
+      "pali": "“Anicco, bhante … ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "mano nicco vā anicco vā”ti? ",
+      "english": "mind permanent or impermanent?” "
+    },
+    {
+      "number": 67,
+      "pali": "“Anicco, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 68,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 69,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 70,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 71,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 72,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 73,
+      "pali": "“Taṁ kiṁ maññasi rāhula, dhammā niccā vā aniccā vā”ti? ",
+      "english": "“What do you think, Rāhula? Are ideas permanent or impermanent?” "
+    },
+    {
+      "number": 74,
+      "pali": "“Aniccā, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 75,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if they’re impermanent, are they suffering or happiness?” "
+    },
+    {
+      "number": 76,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 77,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if they’re impermanent, suffering, and perishable, are they fit to be regarded thus: "
+    },
+    {
+      "number": 78,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 79,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 80,
+      "pali": "“Taṁ kiṁ maññasi rāhula, manoviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "“What do you think, Rāhula? Is mind consciousness permanent or impermanent?” "
+    },
+    {
+      "number": 81,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 82,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 83,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 84,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 85,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 86,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 87,
+      "pali": "“Taṁ kiṁ maññasi rāhula, manosamphasso nicco vā anicco vā”ti? ",
+      "english": "“What do you think, Rāhula? Is mind contact permanent or impermanent?” "
+    },
+    {
+      "number": 88,
+      "pali": "“Anicco, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 89,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 90,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 91,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 92,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 93,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 94,
+      "pali": "“Taṁ kiṁ maññasi, rāhula, ",
+      "english": "“What do you think, Rāhula? "
+    },
+    {
+      "number": 95,
+      "pali": "yamidaṁ manosamphassapaccayā uppajjati vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ, tampi niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Anything included in feeling, perception, choices, and consciousness that arises dependent on mind contact: is that permanent or impermanent?” "
+    },
+    {
+      "number": 96,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 97,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 98,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 99,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 100,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 101,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 102,
+      "pali": "“Evaṁ passaṁ, rāhula, sutavā ariyasāvako cakkhusmiṁ nibbindati, rūpesu nibbindati, cakkhuviññāṇe nibbindati, cakkhusamphasse nibbindati, yamidaṁ cakkhusamphassapaccayā uppajjati vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ tasmimpi nibbindati. ",
+      "english": "“Seeing this, a learned noble disciple grows disillusioned with the eye, sights, eye consciousness, and eye contact. And they grow disillusioned with anything included in feeling, perception, choices, and consciousness that arises dependent on eye contact. "
+    },
+    {
+      "number": 103,
+      "pali": "Sotasmiṁ nibbindati, saddesu nibbindati …pe… ",
+      "english": "They grow disillusioned with the ear … "
+    },
+    {
+      "number": 104,
+      "pali": "ghānasmiṁ nibbindati, gandhesu nibbindati … ",
+      "english": "nose … "
+    },
+    {
+      "number": 105,
+      "pali": "jivhāya nibbindati, rasesu nibbindati … ",
+      "english": "tongue … "
+    },
+    {
+      "number": 106,
+      "pali": "kāyasmiṁ nibbindati, phoṭṭhabbesu nibbindati … ",
+      "english": "body … "
+    },
+    {
+      "number": 107,
+      "pali": "manasmiṁ nibbindati, dhammesu nibbindati, manoviññāṇe nibbindati, manosamphasse nibbindati, yamidaṁ manosamphassapaccayā uppajjati vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ tasmimpi nibbindati. ",
+      "english": "mind, ideas, mind consciousness, and mind contact. And they grow disillusioned with anything included in feeling, perception, choices, and consciousness that arises dependent on mind contact. "
+    },
+    {
+      "number": 108,
+      "pali": "Nibbindaṁ virajjati, virāgā vimuccati. Vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. ",
+      "english": "Being disillusioned, desire fades away. When desire fades away they’re freed. When they’re freed, they know they’re freed. "
+    },
+    {
+      "number": 109,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānātī”ti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’” "
+    },
+    {
+      "number": 110,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 111,
+      "pali": "Attamano āyasmā rāhulo bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Rāhula approved what the Buddha said. "
+    },
+    {
+      "number": 112,
+      "pali": "Imasmiñca pana veyyākaraṇasmiṁ bhaññamāne āyasmato rāhulassa anupādāya āsavehi cittaṁ vimucci. ",
+      "english": "And while this discourse was being spoken, Rāhula’s mind was freed from defilements by not grasping. "
+    },
+    {
+      "number": 113,
+      "pali": "Tāsañca anekānaṁ devatāsahassānaṁ virajaṁ vītamalaṁ dhammacakkhuṁ udapādi: ",
+      "english": "And the stainless, immaculate vision of the Dhamma arose in those thousands of deities: "
+    },
+    {
+      "number": 114,
+      "pali": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti. ",
+      "english": "“Everything that is liable to arise is liable to cease.” "
+    },
+    {
+      "number": 115,
+      "pali": "Cūḷarāhulovādasuttaṁ niṭṭhitaṁ pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

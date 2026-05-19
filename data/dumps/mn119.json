@@ -1,0 +1,955 @@
+{
+  "sutta_id": "MN119",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 119 ",
+      "english": "Middle Discourses 119 "
+    },
+    {
+      "number": 2,
+      "pali": "Kāyagatāsatisutta ",
+      "english": "Mindfulness of the Body "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho sambahulānaṁ bhikkhūnaṁ pacchābhattaṁ piṇḍapātapaṭikkantānaṁ upaṭṭhānasālāyaṁ sannisinnānaṁ sannipatitānaṁ ayamantarākathā udapādi: ",
+      "english": "Then after the meal, on return from almsround, several mendicants sat together in the assembly hall and this discussion came up among them. "
+    },
+    {
+      "number": 6,
+      "pali": "“acchariyaṁ, āvuso, abbhutaṁ, āvuso. ",
+      "english": "“It’s incredible, reverends, it’s amazing, "
+    },
+    {
+      "number": 7,
+      "pali": "Yāvañcidaṁ tena bhagavatā jānatā passatā arahatā sammāsambuddhena kāyagatāsati bhāvitā bahulīkatā mahapphalā vuttā mahānisaṁsā”ti. ",
+      "english": "how the Blessed One, who knows and sees, the perfected one, the fully awakened Buddha has said that mindfulness of the body, when developed and cultivated, is very fruitful and beneficial.” "
+    },
+    {
+      "number": 8,
+      "pali": "Ayañca hidaṁ tesaṁ bhikkhūnaṁ antarākathā vippakatā hoti, atha kho bhagavā sāyanhasamayaṁ paṭisallānā vuṭṭhito yena upaṭṭhānasālā tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi. ",
+      "english": "But their conversation was left unfinished. Then the Buddha came out of retreat and went to the assembly hall. He sat on the seat spread out "
+    },
+    {
+      "number": 9,
+      "pali": "Nisajja kho bhagavā bhikkhū āmantesi: ",
+      "english": "and addressed the mendicants, "
+    },
+    {
+      "number": 10,
+      "pali": "“kāya nuttha, bhikkhave, etarahi kathāya sannisinnā, kā ca pana vo antarākathā vippakatā”ti? ",
+      "english": "“Mendicants, what were you sitting talking about just now? What conversation was left unfinished?” "
+    },
+    {
+      "number": 11,
+      "pali": "“Idha, bhante, amhākaṁ pacchābhattaṁ piṇḍapātapaṭikkantānaṁ upaṭṭhānasālāyaṁ sannisinnānaṁ sannipatitānaṁ ayamantarākathā udapādi: ",
+      "english": "So the mendicants told him what they had been talking about. The Buddha said: "
+    },
+    {
+      "number": 12,
+      "pali": "‘acchariyaṁ, āvuso, abbhutaṁ, āvuso. ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "Yāvañcidaṁ tena bhagavatā jānatā passatā arahatā sammāsambuddhena kāyagatāsati bhāvitā bahulīkatā mahapphalā vuttā mahānisaṁsā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "Ayaṁ kho no, bhante, antarākathā vippakatā, atha bhagavā anuppatto”ti. ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "“Kathaṁ bhāvitā ca, bhikkhave, kāyagatāsati kathaṁ bahulīkatā mahapphalā hoti mahānisaṁsā? ",
+      "english": "“And how, mendicants, is mindfulness of the body developed and cultivated to be very fruitful and beneficial? "
+    },
+    {
+      "number": 16,
+      "pali": "Idha, bhikkhave, bhikkhu araññagato vā rukkhamūlagato vā suññāgāragato vā nisīdati pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā. ",
+      "english": "It’s when a mendicant—gone to a wilderness, or to the root of a tree, or to an empty hut—sits down cross-legged, sets their body straight, and brings mindfulness to the present. "
+    },
+    {
+      "number": 17,
+      "pali": "So satova assasati satova passasati; ",
+      "english": "Just mindful, they breathe in. Mindful, they breathe out. "
+    },
+    {
+      "number": 18,
+      "pali": "dīghaṁ vā assasanto ‘dīghaṁ assasāmī’ti pajānāti, dīghaṁ vā passasanto ‘dīghaṁ passasāmī’ti pajānāti; ",
+      "english": "Breathing in heavily they know: ‘I’m breathing in heavily.’ Breathing out heavily they know: ‘I’m breathing out heavily.’ "
+    },
+    {
+      "number": 19,
+      "pali": "rassaṁ vā assasanto ‘rassaṁ assasāmī’ti pajānāti, rassaṁ vā passasanto ‘rassaṁ passasāmī’ti pajānāti; ",
+      "english": "When breathing in lightly they know: ‘I’m breathing in lightly.’ Breathing out lightly they know: ‘I’m breathing out lightly.’ "
+    },
+    {
+      "number": 20,
+      "pali": "‘sabbakāyapaṭisaṁvedī assasissāmī’ti sikkhati, ‘sabbakāyapaṭisaṁvedī passasissāmī’ti sikkhati; ",
+      "english": "They practice like this: ‘I’ll breathe in experiencing the whole body.’ They practice like this: ‘I’ll breathe out experiencing the whole body.’"
+    },
+    {
+      "number": 21,
+      "pali": "‘passambhayaṁ kāyasaṅkhāraṁ assasissāmī’ti sikkhati, ‘passambhayaṁ kāyasaṅkhāraṁ passasissāmī’ti sikkhati. ",
+      "english": "They practice like this: ‘I’ll breathe in stilling the physical process.’ They practice like this: ‘I’ll breathe out stilling the physical process.’ "
+    },
+    {
+      "number": 22,
+      "pali": "Tassa evaṁ appamattassa ātāpino pahitattassa viharato ye gehasitā sarasaṅkappā te pahīyanti. ",
+      "english": "As they meditate like this—diligent, keen, and resolute—memories and thoughts tied to domestic life are given up. "
+    },
+    {
+      "number": 23,
+      "pali": "Tesaṁ pahānā ajjhattameva cittaṁ santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
+      "english": "Their mind becomes stilled internally; it settles, unifies, and becomes immersed in samādhi. "
+    },
+    {
+      "number": 24,
+      "pali": "Evaṁ, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That’s how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 25,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu gacchanto vā ‘gacchāmī’ti pajānāti, ṭhito vā ‘ṭhitomhī’ti pajānāti, nisinno vā ‘nisinnomhī’ti pajānāti, sayāno vā ‘sayānomhī’ti pajānāti. ",
+      "english": "Furthermore, when a mendicant is walking they know ‘I am walking’. When standing they know ‘I am standing’. When sitting they know ‘I am sitting’. And when lying down they know ‘I am lying down’. "
+    },
+    {
+      "number": 26,
+      "pali": "Yathā yathā vā panassa kāyo paṇihito hoti tathā tathā naṁ pajānāti. ",
+      "english": "Whatever posture their body is in, they know it. "
+    },
+    {
+      "number": 27,
+      "pali": "Tassa evaṁ appamattassa ātāpino pahitattassa viharato ye gehasitā sarasaṅkappā te pahīyanti. ",
+      "english": "As they meditate like this—diligent, keen, and resolute—memories and thoughts tied to domestic life are given up. "
+    },
+    {
+      "number": 28,
+      "pali": "Tesaṁ pahānā ajjhattameva cittaṁ santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
+      "english": "Their mind becomes stilled internally; it settles, unifies, and becomes immersed in samādhi. "
+    },
+    {
+      "number": 29,
+      "pali": "Evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 30,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu abhikkante paṭikkante sampajānakārī hoti, ālokite vilokite sampajānakārī hoti, samiñjite pasārite sampajānakārī hoti, saṅghāṭipattacīvaradhāraṇe sampajānakārī hoti, asite pīte khāyite sāyite sampajānakārī hoti, uccārapassāvakamme sampajānakārī hoti, gate ṭhite nisinne sutte jāgarite bhāsite tuṇhībhāve sampajānakārī hoti. ",
+      "english": "Furthermore, a mendicant acts with situational awareness when going out and coming back; when looking ahead and aside; when bending and extending the limbs; when bearing the outer robe, bowl and robes; when eating, drinking, chewing, and tasting; when urinating and defecating; when walking, standing, sitting, sleeping, waking, speaking, and keeping silent. "
+    },
+    {
+      "number": 31,
+      "pali": "Tassa evaṁ appamattassa ātāpino pahitattassa viharato ye gehasitā sarasaṅkappā te pahīyanti. ",
+      "english": "As they meditate like this—diligent, keen, and resolute—memories and thoughts tied to domestic life are given up. "
+    },
+    {
+      "number": 32,
+      "pali": "Tesaṁ pahānā ajjhattameva cittaṁ santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
+      "english": "Their mind becomes stilled internally; it settles, unifies, and becomes immersed in samādhi. "
+    },
+    {
+      "number": 33,
+      "pali": "Evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 34,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu imameva kāyaṁ uddhaṁ pādatalā adho kesamatthakā tacapariyantaṁ pūraṁ nānappakārassa asucino paccavekkhati: ",
+      "english": "Furthermore, a mendicant examines their own body, up from the soles of the feet and down from the tips of the hairs, wrapped in skin and full of many kinds of filth. "
+    },
+    {
+      "number": 35,
+      "pali": "‘atthi imasmiṁ kāye kesā lomā nakhā dantā taco maṁsaṁ nhāru aṭṭhi aṭṭhimiñjaṁ vakkaṁ hadayaṁ yakanaṁ kilomakaṁ pihakaṁ papphāsaṁ antaṁ antaguṇaṁ udariyaṁ karīsaṁ pittaṁ semhaṁ pubbo lohitaṁ sedo medo assu vasā kheḷo siṅghāṇikā lasikā muttan’ti. ",
+      "english": "‘In this body there is head hair, body hair, nails, teeth, skin, flesh, sinews, bones, bone marrow, kidneys, heart, liver, diaphragm, spleen, lungs, intestines, mesentery, undigested food, feces, bile, phlegm, pus, blood, sweat, fat, tears, grease, saliva, snot, synovial fluid, urine.’ "
+    },
+    {
+      "number": 36,
+      "pali": "Seyyathāpi, bhikkhave, ubhatomukhā putoḷi pūrā nānāvihitassa dhaññassa, seyyathidaṁ—",
+      "english": "It’s as if there were a bag with openings at both ends, filled with various kinds of grains, such as "
+    },
+    {
+      "number": 37,
+      "pali": "sālīnaṁ vīhīnaṁ muggānaṁ māsānaṁ tilānaṁ taṇḍulānaṁ, ",
+      "english": "fine rice, wheat, mung beans, peas, sesame, and ordinary rice. "
+    },
+    {
+      "number": 38,
+      "pali": "tamenaṁ cakkhumā puriso muñcitvā paccavekkheyya: ",
+      "english": "And a person with clear eyes were to open it and examine the contents: "
+    },
+    {
+      "number": 39,
+      "pali": "‘ime sālī ime vīhī ime muggā ime māsā ime tilā ime taṇḍulā’ti; ",
+      "english": "‘These grains are fine rice, these are wheat, these are mung beans, these are peas, these are sesame, and these are ordinary rice.’ "
+    },
+    {
+      "number": 40,
+      "pali": "evameva kho, bhikkhave, bhikkhu imameva kāyaṁ uddhaṁ pādatalā adho kesamatthakā tacapariyantaṁ pūraṁ nānappakārassa asucino paccavekkhati: ",
+      "english": "In the same way, a mendicant examines their own body, up from the soles of the feet and down from the tips of the hairs, wrapped in skin and full of many kinds of filth. … "
+    },
+    {
+      "number": 41,
+      "pali": "‘atthi imasmiṁ kāye kesā lomā nakhā dantā taco maṁsaṁ nhāru aṭṭhi aṭṭhimiñjaṁ vakkaṁ hadayaṁ yakanaṁ kilomakaṁ pihakaṁ papphāsaṁ antaṁ antaguṇaṁ udariyaṁ karīsaṁ pittaṁ semhaṁ pubbo lohitaṁ sedo medo assu vasā kheḷo siṅghāṇikā lasikā muttan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "Tassa evaṁ appamattassa ātāpino pahitattassa viharato ye gehasitā sarasaṅkappā te pahīyanti. ",
+      "english": "As they meditate like this—diligent, keen, and resolute—memories and thoughts tied to domestic life are given up. "
+    },
+    {
+      "number": 43,
+      "pali": "Tesaṁ pahānā ajjhattameva cittaṁ santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
+      "english": "Their mind becomes stilled internally; it settles, unifies, and becomes immersed in samādhi. "
+    },
+    {
+      "number": 44,
+      "pali": "Evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 45,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu imameva kāyaṁ yathāṭhitaṁ yathāpaṇihitaṁ dhātuso paccavekkhati: ",
+      "english": "Furthermore, a mendicant examines their own body, whatever its placement or posture, according to the elements: "
+    },
+    {
+      "number": 46,
+      "pali": "‘atthi imasmiṁ kāye pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti. ",
+      "english": "‘In this body there is the earth element, the water element, the fire element, and the air element.’ "
+    },
+    {
+      "number": 47,
+      "pali": "Seyyathāpi, bhikkhave, dakkho goghātako vā goghātakantevāsī vā gāviṁ vadhitvā catumahāpathe bilaso vibhajitvā nisinno assa; ",
+      "english": "It’s as if a deft butcher or butcher’s apprentice were to kill a cow and sit down at the crossroads with the meat cut into chops. "
+    },
+    {
+      "number": 48,
+      "pali": "evameva kho, bhikkhave, bhikkhu imameva kāyaṁ yathāṭhitaṁ yathāpaṇihitaṁ dhātuso paccavekkhati: ",
+      "english": "In the same way, a mendicant examines their own body, whatever its placement or posture, according to the elements: "
+    },
+    {
+      "number": 49,
+      "pali": "‘atthi imasmiṁ kāye pathavīdhātu āpodhātu tejodhātu vāyodhātū’ti. ",
+      "english": "‘In this body there is the earth element, the water element, the fire element, and the air element.’ "
+    },
+    {
+      "number": 50,
+      "pali": "Tassa evaṁ appamattassa ātāpino pahitattassa viharato ye gehasitā sarasaṅkappā te pahīyanti. ",
+      "english": "As they meditate like this—diligent, keen, and resolute—memories and thoughts tied to domestic life are given up. "
+    },
+    {
+      "number": 51,
+      "pali": "Tesaṁ pahānā ajjhattameva cittaṁ santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
+      "english": "Their mind becomes stilled internally; it settles, unifies, and becomes immersed in samādhi. "
+    },
+    {
+      "number": 52,
+      "pali": "Evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 53,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu seyyathāpi passeyya sarīraṁ sivathikāya chaḍḍitaṁ ekāhamataṁ vā dvīhamataṁ vā tīhamataṁ vā uddhumātakaṁ vinīlakaṁ vipubbakajātaṁ. ",
+      "english": "Furthermore, suppose a mendicant were to see a corpse discarded in a charnel ground. And it had been dead for one, two, or three days, bloated, livid, and festering. "
+    },
+    {
+      "number": 54,
+      "pali": "So imameva kāyaṁ upasaṁharati: ",
+      "english": "They’d compare it with their own body: "
+    },
+    {
+      "number": 55,
+      "pali": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. ",
+      "english": "‘This body is also of that same nature, that same kind, and cannot go beyond that.’ "
+    },
+    {
+      "number": 56,
+      "pali": "Tassa evaṁ appamattassa ātāpino pahitattassa viharato ye gehasitā sarasaṅkappā te pahīyanti. ",
+      "english": "As they meditate like this—diligent, keen, and resolute—memories and thoughts tied to domestic life are given up. "
+    },
+    {
+      "number": 57,
+      "pali": "Tesaṁ pahānā ajjhattameva cittaṁ santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
+      "english": "Their mind becomes stilled internally; it settles, unifies, and becomes immersed in samādhi. "
+    },
+    {
+      "number": 58,
+      "pali": "Evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 59,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu seyyathāpi passeyya sarīraṁ sivathikāya chaḍḍitaṁ kākehi vā khajjamānaṁ kulalehi vā khajjamānaṁ gijjhehi vā khajjamānaṁ kaṅkehi vā khajjamānaṁ sunakhehi vā khajjamānaṁ byagghehi vā khajjamānaṁ dīpīhi vā khajjamānaṁ siṅgālehi vā khajjamānaṁ vividhehi vā pāṇakajātehi khajjamānaṁ. ",
+      "english": "Or suppose they were to see a corpse discarded in a charnel ground being devoured by crows, hawks, vultures, herons, hounds, tigers, leopards, jackals, and many kinds of little creatures. "
+    },
+    {
+      "number": 60,
+      "pali": "So imameva kāyaṁ upasaṁharati: ",
+      "english": "They’d compare it with their own body: "
+    },
+    {
+      "number": 61,
+      "pali": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. ",
+      "english": "‘This body is also of that same nature, that same kind, and cannot go beyond that.’ "
+    },
+    {
+      "number": 62,
+      "pali": "Tassa evaṁ appamattassa …pe… ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 64,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu seyyathāpi passeyya sarīraṁ sivathikāya chaḍḍitaṁ aṭṭhikasaṅkhalikaṁ samaṁsalohitaṁ nhārusambandhaṁ …pe… ",
+      "english": "Furthermore, suppose they were to see a corpse discarded in a charnel ground, a skeleton with flesh and blood, held together by sinews … "
+    },
+    {
+      "number": 65,
+      "pali": "aṭṭhikasaṅkhalikaṁ nimmaṁsalohitamakkhitaṁ nhārusambandhaṁ …pe… ",
+      "english": "A skeleton without flesh but smeared with blood, and held together by sinews … "
+    },
+    {
+      "number": 66,
+      "pali": "aṭṭhikasaṅkhalikaṁ apagatamaṁsalohitaṁ nhārusambandhaṁ …pe… ",
+      "english": "A skeleton rid of flesh and blood, held together by sinews … "
+    },
+    {
+      "number": 67,
+      "pali": "aṭṭhikāni apagatasambandhāni disāvidisāvikkhittāni aññena hatthaṭṭhikaṁ aññena pādaṭṭhikaṁ aññena gopphakaṭṭhikaṁ aññena jaṅghaṭṭhikaṁ aññena ūruṭṭhikaṁ aññena kaṭiṭṭhikaṁ aññena phāsukaṭṭhikaṁ aññena piṭṭhiṭṭhikaṁ aññena khandhaṭṭhikaṁ aññena gīvaṭṭhikaṁ aññena hanukaṭṭhikaṁ aññena dantaṭṭhikaṁ aññena sīsakaṭāhaṁ. ",
+      "english": "Bones rid of sinews scattered in every direction. Here a hand-bone, there a foot-bone, here an ankle bone, there a shin-bone, here a thigh-bone, there a hip-bone, here a rib-bone, there a back-bone, here an arm-bone, there a neck-bone, here a jaw-bone, there a tooth, here the skull. … "
+    },
+    {
+      "number": 68,
+      "pali": "So imameva kāyaṁ upasaṁharati: ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "Tassa evaṁ appamattassa …pe… ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu seyyathāpi passeyya sarīraṁ sivathikāya chaḍḍitaṁ—",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "aṭṭhikāni setāni saṅkhavaṇṇapaṭibhāgāni …pe… ",
+      "english": "White bones, the color of shells … "
+    },
+    {
+      "number": 74,
+      "pali": "aṭṭhikāni puñjakitāni terovassikāni …pe… ",
+      "english": "Decrepit bones, heaped in a pile … "
+    },
+    {
+      "number": 75,
+      "pali": "aṭṭhikāni pūtīni cuṇṇakajātāni. ",
+      "english": "Bones rotted and crumbled to powder. "
+    },
+    {
+      "number": 76,
+      "pali": "So imameva kāyaṁ upasaṁharati: ",
+      "english": "They’d compare it with their own body: "
+    },
+    {
+      "number": 77,
+      "pali": "‘ayampi kho kāyo evaṁdhammo evaṁbhāvī evaṁanatīto’ti. ",
+      "english": "‘This body is also of that same nature, that same kind, and cannot go beyond that.’ "
+    },
+    {
+      "number": 78,
+      "pali": "Tassa evaṁ appamattassa … ",
+      "english": "As they meditate like this—diligent, keen, and resolute—memories and thoughts tied to lay life are given up. "
+    },
+    {
+      "number": 79,
+      "pali": "pe… ",
+      "english": "Their mind becomes stilled internally; it settles, unifies, and becomes immersed in samādhi. "
+    },
+    {
+      "number": 80,
+      "pali": "evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 81,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu vivicceva kāmehi …pe… paṭhamaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Furthermore, a mendicant, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 82,
+      "pali": "So imameva kāyaṁ vivekajena pītisukhena abhisandeti parisandeti paripūreti parippharati, nāssa kiñci sabbāvato kāyassa vivekajena pītisukhena apphuṭaṁ hoti. ",
+      "english": "They drench, steep, fill, and spread their body with rapture and bliss born of seclusion. There’s no part of the body that’s not spread with rapture and bliss born of seclusion. "
+    },
+    {
+      "number": 83,
+      "pali": "Seyyathāpi, bhikkhave, dakkho nhāpako vā nhāpakantevāsī vā kaṁsathāle nhānīyacuṇṇāni ākiritvā udakena paripphosakaṁ paripphosakaṁ sanneyya, sāyaṁ nhānīyapiṇḍi snehānugatā snehaparetā santarabāhirā phuṭā snehena na ca pagghariṇī; ",
+      "english": "It’s like when a deft bathroom attendant or their apprentice pours bath powder into a bronze dish, sprinkling it little by little with water. They knead it until the ball of bath powder is soaked and saturated with moisture, spread through inside and out; yet no moisture oozes out. "
+    },
+    {
+      "number": 84,
+      "pali": "evameva kho, bhikkhave, bhikkhu imameva kāyaṁ vivekajena pītisukhena abhisandeti parisandeti paripūreti parippharati; nāssa kiñci sabbāvato kāyassa vivekajena pītisukhena apphuṭaṁ hoti. ",
+      "english": "In the same way, they drench, steep, fill, and spread their body with rapture and bliss born of seclusion. There’s no part of the body that’s not spread with rapture and bliss born of seclusion. "
+    },
+    {
+      "number": 85,
+      "pali": "Tassa evaṁ appamattassa … ",
+      "english": "As they meditate like this—diligent, keen, and resolute—memories and thoughts tied to lay life are given up. "
+    },
+    {
+      "number": 86,
+      "pali": "pe… ",
+      "english": "Their mind becomes stilled internally; it settles, unifies, and becomes immersed in samādhi. "
+    },
+    {
+      "number": 87,
+      "pali": "evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 88,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu vitakkavicārānaṁ vūpasamā …pe… dutiyaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Furthermore, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without placing the mind and keeping it connected. "
+    },
+    {
+      "number": 89,
+      "pali": "So imameva kāyaṁ samādhijena pītisukhena abhisandeti parisandeti paripūreti parippharati; nāssa kiñci sabbāvato kāyassa samādhijena pītisukhena apphuṭaṁ hoti. ",
+      "english": "They drench, steep, fill, and spread their body with rapture and bliss born of immersion. There’s no part of the body that’s not spread with rapture and bliss born of immersion. "
+    },
+    {
+      "number": 90,
+      "pali": "Seyyathāpi, bhikkhave, udakarahado gambhīro ubbhidodako. Tassa nevassa puratthimāya disāya udakassa āyamukhaṁ na pacchimāya disāya udakassa āyamukhaṁ na uttarāya disāya udakassa āyamukhaṁ na dakkhiṇāya disāya udakassa āyamukhaṁ; devo ca na kālena kālaṁ sammā dhāraṁ anuppaveccheyya; atha kho tamhāva udakarahadā sītā vāridhārā ubbhijjitvā tameva udakarahadaṁ sītena vārinā abhisandeyya parisandeyya paripūreyya paripphareyya, nāssa kiñci sabbāvato udakarahadassa sītena vārinā apphuṭaṁ assa; ",
+      "english": "It’s like a deep lake fed by spring water. There’s no inlet to the east, west, north, or south, and the heavens would not properly bestow showers from time to time. But the stream of cool water welling up in the lake drenches, steeps, fills, and spreads throughout the lake. There’s no part of the lake that’s not spread through with cool water. "
+    },
+    {
+      "number": 91,
+      "pali": "evameva kho, bhikkhave, bhikkhu imameva kāyaṁ samādhijena pītisukhena abhisandeti parisandeti paripūreti parippharati, nāssa kiñci sabbāvato kāyassa samādhijena pītisukhena apphuṭaṁ hoti. ",
+      "english": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with rapture and bliss born of immersion. There’s no part of the body that’s not spread with rapture and bliss born of immersion. "
+    },
+    {
+      "number": 92,
+      "pali": "Tassa evaṁ appamattassa …pe… ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 94,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu pītiyā ca virāgā …pe… tatiyaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Furthermore, with the fading away of rapture, a mendicant enters and remains in the third absorption. They meditate with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ "
+    },
+    {
+      "number": 95,
+      "pali": "So imameva kāyaṁ nippītikena sukhena abhisandeti parisandeti paripūreti parippharati, nāssa kiñci sabbāvato kāyassa nippītikena sukhena apphuṭaṁ hoti. ",
+      "english": "They drench, steep, fill, and spread their body with bliss free of rapture. There’s no part of the body that’s not spread with bliss free of rapture. "
+    },
+    {
+      "number": 96,
+      "pali": "Seyyathāpi, bhikkhave, uppaliniyaṁ vā paduminiyaṁ vā puṇḍarīkiniyaṁ vā appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakānuggatāni antonimuggaposīni, tāni yāva caggā yāva ca mūlā sītena vārinā abhisannāni parisannāni paripūrāni paripphuṭāni, nāssa kiñci sabbāvataṁ uppalānaṁ vā padumānaṁ vā puṇḍarīkānaṁ vā sītena vārinā apphuṭaṁ assa; ",
+      "english": "It’s like a pool with blue water lilies, or pink or white lotuses. Some of them sprout and grow in the water without rising above it, thriving underwater. From the tip to the root they’re drenched, steeped, filled, and soaked with cool water. There’s no part of them that’s not soaked with cool water. "
+    },
+    {
+      "number": 97,
+      "pali": "evameva kho, bhikkhave, bhikkhu imameva kāyaṁ nippītikena sukhena abhisandeti parisandeti paripūreti parippharati, nāssa kiñci sabbāvato kāyassa nippītikena sukhena apphuṭaṁ hoti. ",
+      "english": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with bliss free of rapture. There’s no part of the body that’s not spread with bliss free of rapture. "
+    },
+    {
+      "number": 98,
+      "pali": "Tassa evaṁ appamattassa …pe… ",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 100,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu sukhassa ca pahānā …pe… catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Furthermore, a mendicant, with the giving up of pleasure and pain and the disappearance of former happiness and sadness, enters and remains in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. "
+    },
+    {
+      "number": 101,
+      "pali": "So imameva kāyaṁ parisuddhena cetasā pariyodātena pharitvā nisinno hoti; nāssa kiñci sabbāvato kāyassa parisuddhena cetasā pariyodātena apphuṭaṁ hoti. ",
+      "english": "They sit spreading their body through with pure bright mind. There’s no part of the body that’s not filled with pure bright mind. "
+    },
+    {
+      "number": 102,
+      "pali": "Seyyathāpi, bhikkhave, puriso odātena vatthena sasīsaṁ pārupitvā nisinno assa, nāssa kiñci sabbāvato kāyassa odātena vatthena apphuṭaṁ assa; ",
+      "english": "It’s like someone sitting wrapped from head to foot with white cloth. There’s no part of the body that’s not spread over with white cloth. "
+    },
+    {
+      "number": 103,
+      "pali": "evameva kho, bhikkhave, bhikkhu imameva kāyaṁ parisuddhena cetasā pariyodātena pharitvā nisinno hoti, nāssa kiñci sabbāvato kāyassa parisuddhena cetasā pariyodātena apphuṭaṁ hoti. ",
+      "english": "In the same way, they sit spreading their body through with pure bright mind. There’s no part of the body that’s not filled with pure bright mind. "
+    },
+    {
+      "number": 104,
+      "pali": "Tassa evaṁ appamattassa ātāpino pahitattassa viharato ye gehasitā sarasaṅkappā te pahīyanti. ",
+      "english": "As they meditate like this—diligent, keen, and resolute—memories and thoughts tied to domestic life are given up. "
+    },
+    {
+      "number": 105,
+      "pali": "Tesaṁ pahānā ajjhattameva cittaṁ santiṭṭhati, sannisīdati ekodi hoti samādhiyati. ",
+      "english": "Their mind becomes stilled internally; it settles, unifies, and becomes immersed in samādhi. "
+    },
+    {
+      "number": 106,
+      "pali": "Evampi, bhikkhave, bhikkhu kāyagatāsatiṁ bhāveti. ",
+      "english": "That too is how a mendicant develops mindfulness of the body. "
+    },
+    {
+      "number": 107,
+      "pali": "Yassa kassaci, bhikkhave, kāyagatāsati bhāvitā bahulīkatā, antogadhāvāssa kusalā dhammā ye keci vijjābhāgiyā. ",
+      "english": "Anyone who has developed and cultivated mindfulness of the body includes all of the skillful qualities that play a part in realization. "
+    },
+    {
+      "number": 108,
+      "pali": "Seyyathāpi, bhikkhave, yassa kassaci mahāsamuddo cetasā phuṭo, antogadhāvāssa kunnadiyo yā kāci samuddaṅgamā; ",
+      "english": "Anyone who brings into their mind the great ocean includes all of the streams that run down into it. "
+    },
+    {
+      "number": 109,
+      "pali": "evameva kho, bhikkhave, yassa kassaci kāyagatāsati bhāvitā bahulīkatā, antogadhāvāssa kusalā dhammā ye keci vijjābhāgiyā. ",
+      "english": "In the same way, anyone who has developed and cultivated mindfulness of the body includes all of the skillful qualities that play a part in realization. "
+    },
+    {
+      "number": 110,
+      "pali": "Yassa kassaci, bhikkhave, kāyagatāsati abhāvitā abahulīkatā, labhati tassa māro otāraṁ, labhati tassa māro ārammaṇaṁ. ",
+      "english": "When a mendicant has not developed or cultivated mindfulness of the body, Māra finds a vulnerability and gets an opportunity. "
+    },
+    {
+      "number": 111,
+      "pali": "Seyyathāpi, bhikkhave, puriso garukaṁ silāguḷaṁ allamattikāpuñje pakkhipeyya. ",
+      "english": "Suppose a person were to throw a heavy stone ball at a mound of wet clay. "
+    },
+    {
+      "number": 112,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 113,
+      "pali": "api nu taṁ garukaṁ silāguḷaṁ allamattikāpuñje labhetha otāran”ti? ",
+      "english": "Would that heavy stone ball find an entry into that mound of wet clay?” "
+    },
+    {
+      "number": 114,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 115,
+      "pali": "“Evameva kho, bhikkhave, yassa kassaci kāyagatāsati abhāvitā abahulīkatā, labhati tassa māro otāraṁ, labhati tassa māro ārammaṇaṁ. ",
+      "english": "“In the same way, when a mendicant has not developed or cultivated mindfulness of the body, Māra finds a vulnerability and gets an opportunity. "
+    },
+    {
+      "number": 116,
+      "pali": "Seyyathāpi, bhikkhave, sukkhaṁ kaṭṭhaṁ koḷāpaṁ; ",
+      "english": "Suppose there was a dried up, withered log. "
+    },
+    {
+      "number": 117,
+      "pali": "atha puriso āgaccheyya uttarāraṇiṁ ādāya: ",
+      "english": "Then a person comes along with a drill-stick, thinking "
+    },
+    {
+      "number": 118,
+      "pali": "‘aggiṁ abhinibbattessāmi, tejo pātukarissāmī’ti. ",
+      "english": "to light a fire and produce heat. "
+    },
+    {
+      "number": 119,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 120,
+      "pali": "api nu so puriso amuṁ sukkhaṁ kaṭṭhaṁ koḷāpaṁ uttarāraṇiṁ ādāya abhimanthento aggiṁ abhinibbatteyya, tejo pātukareyyā”ti? ",
+      "english": "By drilling the stick against that dried up, withered log, could they light a fire and produce heat?” "
+    },
+    {
+      "number": 121,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 122,
+      "pali": "“Evameva kho, bhikkhave, yassa kassaci kāyagatāsati abhāvitā abahulīkatā, labhati tassa māro otāraṁ, labhati tassa māro ārammaṇaṁ. ",
+      "english": "“In the same way, when a mendicant has not developed or cultivated mindfulness of the body, Māra finds a vulnerability and gets an opportunity. "
+    },
+    {
+      "number": 123,
+      "pali": "Seyyathāpi, bhikkhave, udakamaṇiko ritto tuccho ādhāre ṭhapito; ",
+      "english": "Suppose a water jar was placed on a stand, empty and hollow. "
+    },
+    {
+      "number": 124,
+      "pali": "atha puriso āgaccheyya udakabhāraṁ ādāya. ",
+      "english": "Then a person comes along with a load of water. "
+    },
+    {
+      "number": 125,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 126,
+      "pali": "api nu so puriso labhetha udakassa nikkhepanan”ti? ",
+      "english": "Could that person pour water into the jar?” "
+    },
+    {
+      "number": 127,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 128,
+      "pali": "“Evameva kho, bhikkhave, yassa kassaci kāyagatāsati abhāvitā abahulīkatā, labhati tassa māro otāraṁ, labhati tassa māro ārammaṇaṁ. ",
+      "english": "“In the same way, when a mendicant has not developed or cultivated mindfulness of the body, Māra finds a vulnerability and gets an opportunity. "
+    },
+    {
+      "number": 129,
+      "pali": "Yassa kassaci, bhikkhave, kāyagatāsati bhāvitā bahulīkatā, na tassa labhati māro otāraṁ, na tassa labhati māro ārammaṇaṁ. ",
+      "english": "When a mendicant has developed and cultivated mindfulness of the body, Māra cannot find a vulnerability and doesn’t get an opportunity. "
+    },
+    {
+      "number": 130,
+      "pali": "Seyyathāpi, bhikkhave, puriso lahukaṁ suttaguḷaṁ sabbasāramaye aggaḷaphalake pakkhipeyya. ",
+      "english": "Suppose a person were to throw a light ball of string at a door-panel made entirely of hardwood. "
+    },
+    {
+      "number": 131,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 132,
+      "pali": "api nu so puriso taṁ lahukaṁ suttaguḷaṁ sabbasāramaye aggaḷaphalake labhetha otāran”ti? ",
+      "english": "Would that light ball of string find an entry into that door-panel made entirely of hardwood?” "
+    },
+    {
+      "number": 133,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 134,
+      "pali": "“Evameva kho, bhikkhave, yassa kassaci kāyagatāsati bhāvitā bahulīkatā, na tassa labhati māro otāraṁ, na tassa labhati māro ārammaṇaṁ. ",
+      "english": "“In the same way, when a mendicant has developed and cultivated mindfulness of the body, Māra cannot find a vulnerability and doesn’t get an opportunity. "
+    },
+    {
+      "number": 135,
+      "pali": "Seyyathāpi, bhikkhave, allaṁ kaṭṭhaṁ sasnehaṁ; ",
+      "english": "Suppose there was a green, sappy log. "
+    },
+    {
+      "number": 136,
+      "pali": "atha puriso āgaccheyya uttarāraṇiṁ ādāya: ",
+      "english": "Then a person comes along with a drill-stick, thinking "
+    },
+    {
+      "number": 137,
+      "pali": "‘aggiṁ abhinibbattessāmi, tejo pātukarissāmī’ti. ",
+      "english": "to light a fire and produce heat. "
+    },
+    {
+      "number": 138,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 139,
+      "pali": "api nu so puriso amuṁ allaṁ kaṭṭhaṁ sasnehaṁ uttarāraṇiṁ ādāya abhimanthento aggiṁ abhinibbatteyya, tejo pātukareyyā”ti? ",
+      "english": "By drilling the stick against that green, sappy log on dry land far from water, could they light a fire and produce heat?” "
+    },
+    {
+      "number": 140,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 141,
+      "pali": "“Evameva kho, bhikkhave, yassa kassaci kāyagatāsati bhāvitā bahulīkatā, na tassa labhati māro otāraṁ, na tassa labhati māro ārammaṇaṁ. ",
+      "english": "“In the same way, when a mendicant has developed and cultivated mindfulness of the body, Māra cannot find a vulnerability and doesn’t get an opportunity. "
+    },
+    {
+      "number": 142,
+      "pali": "Seyyathāpi, bhikkhave, udakamaṇiko pūro udakassa samatittiko kākapeyyo ādhāre ṭhapito; ",
+      "english": "Suppose a water jar was placed on a stand, full to the brim so a crow could drink from it. "
+    },
+    {
+      "number": 143,
+      "pali": "atha puriso āgaccheyya udakabhāraṁ ādāya. ",
+      "english": "Then a person comes along with a load of water. "
+    },
+    {
+      "number": 144,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 145,
+      "pali": "api nu so puriso labhetha udakassa nikkhepanan”ti? ",
+      "english": "Could that person pour water into the jar?” "
+    },
+    {
+      "number": 146,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 147,
+      "pali": "“Evameva kho, bhikkhave, yassa kassaci kāyagatāsati bhāvitā bahulīkatā, na tassa labhati māro otāraṁ, na tassa labhati māro ārammaṇaṁ. ",
+      "english": "“In the same way, when a mendicant has developed and cultivated mindfulness of the body, Māra cannot find a vulnerability and doesn’t get an opportunity. "
+    },
+    {
+      "number": 148,
+      "pali": "Yassa kassaci, bhikkhave, kāyagatāsati bhāvitā bahulīkatā, so yassa yassa abhiññāsacchikaraṇīyassa dhammassa cittaṁ abhininnāmeti abhiññāsacchikiriyāya, tatra tatreva sakkhibhabbataṁ pāpuṇāti sati satiāyatane. ",
+      "english": "When a mendicant has developed and cultivated mindfulness of the body, they extend the mind to realize by insight each and every thing that can be realized by insight; and they are capable of realizing those things, since each and every one is within range. "
+    },
+    {
+      "number": 149,
+      "pali": "Seyyathāpi, bhikkhave, udakamaṇiko pūro udakassa samatittiko kākapeyyo ādhāre ṭhapito. ",
+      "english": "Suppose a water jar was placed on a stand, full to the brim so a crow could drink from it. "
+    },
+    {
+      "number": 150,
+      "pali": "Tamenaṁ balavā puriso yato yato āviñcheyya, āgaccheyya udakan”ti? ",
+      "english": "If a strong man was to pour it on any side, would water pour out?” "
+    },
+    {
+      "number": 151,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 152,
+      "pali": "“Evameva kho, bhikkhave, yassa kassaci kāyagatāsati bhāvitā bahulīkatā so, yassa yassa abhiññāsacchikaraṇīyassa dhammassa cittaṁ abhininnāmeti abhiññāsacchikiriyāya, tatra tatreva sakkhibhabbataṁ pāpuṇāti sati satiāyatane. ",
+      "english": "“In the same way, when a mendicant has developed and cultivated mindfulness of the body, they extend the mind to realize by insight each and every thing that can be realized by insight; and they are capable of realizing those things, since each and every one is within range. "
+    },
+    {
+      "number": 153,
+      "pali": "Seyyathāpi, bhikkhave, same bhūmibhāge caturassā pokkharaṇī assa āḷibandhā pūrā udakassa samatittikā kākapeyyā. ",
+      "english": "Suppose there was a square, walled lotus pond on level ground, full to the brim so a crow could drink from it. "
+    },
+    {
+      "number": 154,
+      "pali": "Tamenaṁ balavā puriso yato yato āḷiṁ muñceyya āgaccheyya udakan”ti? ",
+      "english": "If a strong man was to open the wall on any side, would water pour out?” "
+    },
+    {
+      "number": 155,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 156,
+      "pali": "“Evameva kho, bhikkhave, yassa kassaci kāyagatāsati bhāvitā bahulīkatā, so yassa yassa abhiññāsacchikaraṇīyassa dhammassa cittaṁ abhininnāmeti abhiññāsacchikiriyāya, tatra tatreva sakkhibhabbataṁ pāpuṇāti sati satiāyatane. ",
+      "english": "“In the same way, when a mendicant has developed and cultivated mindfulness of the body, they extend the mind to realize by insight each and every thing that can be realized by insight; and they are capable of realizing those things, since each and every one is within range. "
+    },
+    {
+      "number": 157,
+      "pali": "Seyyathāpi, bhikkhave, subhūmiyaṁ catumahāpathe ājaññaratho yutto assa ṭhito odhastapatodo; ",
+      "english": "Suppose a chariot stood harnessed to thoroughbreds at a level crossroads, with a goad ready. "
+    },
+    {
+      "number": 158,
+      "pali": "tamenaṁ dakkho yoggācariyo assadammasārathi abhiruhitvā vāmena hatthena rasmiyo gahetvā dakkhiṇena hatthena patodaṁ gahetvā yenicchakaṁ yadicchakaṁ sāreyyāpi paccāsāreyyāpi; ",
+      "english": "A deft horse trainer, a master charioteer, might mount the chariot, taking the reins in his right hand and goad in the left. He’d drive out and back wherever he wishes, whenever he wishes. "
+    },
+    {
+      "number": 159,
+      "pali": "evameva kho, bhikkhave, yassa kassaci kāyagatāsati bhāvitā bahulīkatā, so yassa yassa abhiññāsacchikaraṇīyassa dhammassa cittaṁ abhininnāmeti abhiññāsacchikiriyāya, tatra tatreva sakkhibhabbataṁ pāpuṇāti sati satiāyatane. ",
+      "english": "In the same way, when a mendicant has developed and cultivated mindfulness of the body, they extend the mind to realize by insight each and every thing that can be realized by insight; and they are capable of realizing those things, since each and every one is within range. "
+    },
+    {
+      "number": 160,
+      "pali": "Kāyagatāya, bhikkhave, satiyā āsevitāya bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya dasānisaṁsā pāṭikaṅkhā. ",
+      "english": "You can expect ten benefits when mindfulness of the body has been cultivated, developed, and practiced, made a vehicle and a basis, kept up, consolidated, and properly implemented. "
+    },
+    {
+      "number": 161,
+      "pali": "Aratiratisaho hoti, na ca taṁ arati sahati, uppannaṁ aratiṁ abhibhuyya viharati. ",
+      "english": "They prevail over desire and discontent, and live having mastered desire and discontent whenever they arose. "
+    },
+    {
+      "number": 162,
+      "pali": "Bhayabheravasaho hoti, na ca taṁ bhayabheravaṁ sahati, uppannaṁ bhayabheravaṁ abhibhuyya viharati. ",
+      "english": "They prevail over fear and dread, and live having mastered fear and dread whenever they arose. "
+    },
+    {
+      "number": 163,
+      "pali": "Khamo hoti sītassa uṇhassa jighacchāya pipāsāya ḍaṁsamakasavātātapasarīsapasamphassānaṁ duruttānaṁ durāgatānaṁ vacanapathānaṁ, uppannānaṁ sārīrikānaṁ vedanānaṁ dukkhānaṁ tibbānaṁ kharānaṁ kaṭukānaṁ asātānaṁ amanāpānaṁ pāṇaharānaṁ adhivāsakajātiko hoti. ",
+      "english": "They endure cold, heat, hunger, and thirst; the touch of flies, mosquitoes, wind, sun, and reptiles; rude and unwelcome criticism; and put up with physical pain—sharp, severe, acute, unpleasant, disagreeable, and life-threatening. "
+    },
+    {
+      "number": 164,
+      "pali": "Catunnaṁ jhānānaṁ ābhicetasikānaṁ diṭṭhadhammasukhavihārānaṁ nikāmalābhī hoti akicchalābhī akasiralābhī. ",
+      "english": "They get the four absorptions—blissful meditations in this life that belong to the higher mind—when they want, without trouble or difficulty. "
+    },
+    {
+      "number": 165,
+      "pali": "So anekavihitaṁ iddhividhaṁ paccānubhoti. Ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti, āvibhāvaṁ …pe… yāva brahmalokāpi kāyena vasaṁ vatteti. ",
+      "english": "They wield the many kinds of psychic power: multiplying themselves and becoming one again … They control the body as far as the realm of divinity. "
+    },
+    {
+      "number": 166,
+      "pali": "Dibbāya sotadhātuyā visuddhāya atikkantamānusikāya ubho sadde suṇāti dibbe ca mānuse ca, ye dūre santike ca …pe…. ",
+      "english": "With clairaudience that is purified and superhuman, they hear both kinds of sounds, human and heavenly, whether near or far. … "
+    },
+    {
+      "number": 167,
+      "pali": "Parasattānaṁ parapuggalānaṁ cetasā ceto paricca pajānāti. ",
+      "english": "They understand the minds of other beings and individuals, having encompassed them with their own mind. … "
+    },
+    {
+      "number": 168,
+      "pali": "Sarāgaṁ vā cittaṁ ‘sarāgaṁ cittan’ti pajānāti, ",
+      "english": ""
+    },
+    {
+      "number": 169,
+      "pali": "vītarāgaṁ vā cittaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 170,
+      "pali": "sadosaṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 171,
+      "pali": "vītadosaṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 172,
+      "pali": "samohaṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 173,
+      "pali": "vītamohaṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 174,
+      "pali": "saṅkhittaṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 175,
+      "pali": "vikkhittaṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 176,
+      "pali": "mahaggataṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 177,
+      "pali": "amahaggataṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 178,
+      "pali": "sauttaraṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 179,
+      "pali": "anuttaraṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 180,
+      "pali": "samāhitaṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 181,
+      "pali": "asamāhitaṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 182,
+      "pali": "vimuttaṁ vā cittaṁ … ",
+      "english": ""
+    },
+    {
+      "number": 183,
+      "pali": "avimuttaṁ vā cittaṁ ‘avimuttaṁ cittan’ti pajānāti. ",
+      "english": ""
+    },
+    {
+      "number": 184,
+      "pali": "So anekavihitaṁ pubbenivāsaṁ anussarati, seyyathidaṁ—ekampi jātiṁ dvepi jātiyo …pe… iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarati. ",
+      "english": "They recollect many kinds of past lives, with features and details. "
+    },
+    {
+      "number": 185,
+      "pali": "Dibbena cakkhunā visuddhena atikkantamānusakena satte passati cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe, sugate duggate yathākammūpage satte pajānāti. ",
+      "english": "With clairvoyance that is purified and superhuman, they see sentient beings passing away and being reborn—inferior and superior, beautiful and ugly, in a good place or a bad place. They understand how sentient beings pass on according to their deeds. "
+    },
+    {
+      "number": 186,
+      "pali": "Āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. ",
+      "english": "They realize the undefiled freedom of heart and freedom by wisdom in this very life. And they live having realized it with their own insight due to the ending of defilements. "
+    },
+    {
+      "number": 187,
+      "pali": "Kāyagatāya, bhikkhave, satiyā āsevitāya bhāvitāya bahulīkatāya yānīkatāya vatthukatāya anuṭṭhitāya paricitāya susamāraddhāya ime dasānisaṁsā pāṭikaṅkhā”ti. ",
+      "english": "You can expect these ten benefits when mindfulness of the body has been cultivated, developed, and practiced, made a vehicle and a basis, kept up, consolidated, and properly implemented.” "
+    },
+    {
+      "number": 188,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 189,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 190,
+      "pali": "Kāyagatāsatisuttaṁ niṭṭhitaṁ navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

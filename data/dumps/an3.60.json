@@ -1,0 +1,600 @@
+{
+  "sutta_id": "AN3.60",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 3.60 ",
+      "english": "Numbered Discourses 3.60 "
+    },
+    {
+      "number": 2,
+      "pali": "6. Brāhmaṇavagga ",
+      "english": "6. Brahmins "
+    },
+    {
+      "number": 3,
+      "pali": "Saṅgāravasutta ",
+      "english": "With Saṅgārava "
+    },
+    {
+      "number": 4,
+      "pali": "Atha kho saṅgāravo brāhmaṇo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "Then Saṅgārava the brahmin went up to the Buddha, and exchanged greetings with him. "
+    },
+    {
+      "number": 5,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho saṅgāravo brāhmaṇo bhagavantaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to the Buddha: "
+    },
+    {
+      "number": 6,
+      "pali": "“mayamassu, bho gotama, brāhmaṇā nāma. ",
+      "english": "“Worthy Gotama, we who are called brahmins "
+    },
+    {
+      "number": 7,
+      "pali": "Yaññaṁ yajāmapi yajāpemapi. ",
+      "english": "make sacrifices and encourage others to make sacrifices. "
+    },
+    {
+      "number": 8,
+      "pali": "Tatra, bho gotama, yo ceva yajati yo ca yajāpeti sabbe te anekasārīrikaṁ puññappaṭipadaṁ paṭipannā honti, yadidaṁ yaññādhikaraṇaṁ. ",
+      "english": "Now, worthy Gotama, both of these people—the one who sacrifices and the one who encourages others to sacrifice—are doing good for many people on account of that sacrifice. "
+    },
+    {
+      "number": 9,
+      "pali": "Yo panāyaṁ, bho gotama, yassa vā tassa vā kulā agārasmā anagāriyaṁ pabbajito ekamattānaṁ dameti, ekamattānaṁ sameti, ekamattānaṁ parinibbāpeti, evamassāyaṁ ekasārīrikaṁ puññappaṭipadaṁ paṭipanno hoti, yadidaṁ pabbajjādhikaraṇan”ti. ",
+      "english": "But, worthy Gotama, when someone has gone forth from the lay life to homelessness, they tame, calm, and extinguish themselves alone. That being so, they are doing good for just one person on account of that going forth.” "
+    },
+    {
+      "number": 10,
+      "pali": "“Tena hi, brāhmaṇa, taññevettha paṭipucchissāmi. Yathā te khameyya tathā naṁ byākareyyāsi. ",
+      "english": "“Well then, brahmin, I’ll ask you about this in return, and you can answer as you like. "
+    },
+    {
+      "number": 11,
+      "pali": "Taṁ kiṁ maññasi, brāhmaṇa, ",
+      "english": "What do you think, brahmin? "
+    },
+    {
+      "number": 12,
+      "pali": "idha tathāgato loke uppajjati arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā. ",
+      "english": "A Realized One arises in the world, perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed. "
+    },
+    {
+      "number": 13,
+      "pali": "So evamāha: ",
+      "english": "He says, "
+    },
+    {
+      "number": 14,
+      "pali": "‘ethāyaṁ maggo ayaṁ paṭipadā yathāpaṭipanno ahaṁ anuttaraṁ brahmacariyogadhaṁ sayaṁ abhiññā sacchikatvā pavedemi; ",
+      "english": "‘Come, this is the path, this is the practice. Practicing like this, I realized the supreme objective of the spiritual life with my own insight, and I make it known. "
+    },
+    {
+      "number": 15,
+      "pali": "etha, tumhepi tathā paṭipajjatha, yathāpaṭipannā tumhepi anuttaraṁ brahmacariyogadhaṁ sayaṁ abhiññā sacchikatvā upasampajja viharissathā’ti. ",
+      "english": "Please, all of you, practice like this, and you too will realize the supreme objective of the spiritual life, and will live having realized it with your own insight.’ "
+    },
+    {
+      "number": 16,
+      "pali": "Iti ayañceva satthā dhammaṁ deseti, pare ca tathatthāya paṭipajjanti, tāni kho pana honti anekānipi satāni anekānipi sahassāni anekānipi satasahassāni. ",
+      "english": "So the teacher teaches Dhamma, and others practice accordingly, in their hundreds and thousands, and hundreds of thousands. "
+    },
+    {
+      "number": 17,
+      "pali": "Taṁ kiṁ maññasi, brāhmaṇa, ",
+      "english": "What do you think, brahmin? "
+    },
+    {
+      "number": 18,
+      "pali": "iccāyaṁ evaṁ sante ekasārīrikā vā puññappaṭipadā hoti anekasārīrikā vā, yadidaṁ pabbajjādhikaraṇan”ti? ",
+      "english": "This being so, are they doing good for just one person or for many people on account of going forth?” "
+    },
+    {
+      "number": 19,
+      "pali": "“Iccāyampi, bho gotama, evaṁ sante anekasārīrikā puññappaṭipadā hoti, yadidaṁ pabbajjādhikaraṇan”ti. ",
+      "english": "“This being so, worthy Gotama, they are doing good for many people on account of going forth.” "
+    },
+    {
+      "number": 20,
+      "pali": "Evaṁ vutte, āyasmā ānando saṅgāravaṁ brāhmaṇaṁ etadavoca: ",
+      "english": "When he said this, Venerable Ānanda said to Saṅgārava, "
+    },
+    {
+      "number": 21,
+      "pali": "“imāsaṁ te, brāhmaṇa, dvinnaṁ paṭipadānaṁ katamā paṭipadā khamati appatthatarā ca appasamārambhatarā ca mahapphalatarā ca mahānisaṁsatarā cā”ti? ",
+      "english": "“Brahmin, which of these two practices do you believe has fewer obligations and undertakings, yet is more fruitful and beneficial?” "
+    },
+    {
+      "number": 22,
+      "pali": "Evaṁ vutte, saṅgāravo brāhmaṇo āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "Saṅgārava said to Ānanda, "
+    },
+    {
+      "number": 23,
+      "pali": "“seyyathāpi bhavaṁ gotamo bhavaṁ cānando. ",
+      "english": "“Those such as the worthies Gotama and Ānanda "
+    },
+    {
+      "number": 24,
+      "pali": "Ete me pujjā, ete me pāsaṁsā”ti. ",
+      "english": "are honored and praised by me!” "
+    },
+    {
+      "number": 25,
+      "pali": "Dutiyampi kho āyasmā ānando saṅgāravaṁ brāhmaṇaṁ etadavoca: ",
+      "english": "For a second time, Ānanda said to Saṅgārava, "
+    },
+    {
+      "number": 26,
+      "pali": "“na kho tyāhaṁ, brāhmaṇa, evaṁ pucchāmi: ",
+      "english": "“Brahmin, I didn’t ask you "
+    },
+    {
+      "number": 27,
+      "pali": "‘ke vā te pujjā ke vā te pāsaṁsā’ti? ",
+      "english": "who you honor and praise. "
+    },
+    {
+      "number": 28,
+      "pali": "Evaṁ kho tyāhaṁ, brāhmaṇa, pucchāmi: ",
+      "english": "I asked you "
+    },
+    {
+      "number": 29,
+      "pali": "‘imāsaṁ te, brāhmaṇa, dvinnaṁ paṭipadānaṁ katamā paṭipadā khamati appatthatarā ca appasamārambhatarā ca mahapphalatarā ca mahānisaṁsatarā cā’”ti? ",
+      "english": "which of these two practices do you believe has fewer obligations and undertakings, yet is more fruitful and beneficial?” "
+    },
+    {
+      "number": 30,
+      "pali": "Dutiyampi kho saṅgāravo brāhmaṇo āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "For a second time Saṅgārava said to Ānanda, "
+    },
+    {
+      "number": 31,
+      "pali": "“seyyathāpi bhavaṁ gotamo bhavaṁ cānando. ",
+      "english": "“Those such as the worthies Gotama and Ānanda "
+    },
+    {
+      "number": 32,
+      "pali": "Ete me pujjā, ete me pāsaṁsā”ti. ",
+      "english": "are honored and praised by me!” "
+    },
+    {
+      "number": 33,
+      "pali": "Tatiyampi kho āyasmā ānando saṅgāravaṁ brāhmaṇaṁ etadavoca: ",
+      "english": "For a third time, Ānanda said to Saṅgārava, "
+    },
+    {
+      "number": 34,
+      "pali": "“na kho tyāhaṁ, brāhmaṇa, evaṁ pucchāmi: ",
+      "english": "“Brahmin, I didn’t ask you "
+    },
+    {
+      "number": 35,
+      "pali": "‘ke vā te pujjā ke vā te pāsaṁsā’ti? ",
+      "english": "who you honor and praise. "
+    },
+    {
+      "number": 36,
+      "pali": "Evaṁ kho tyāhaṁ, brāhmaṇa, pucchāmi: ",
+      "english": "I asked you "
+    },
+    {
+      "number": 37,
+      "pali": "‘imāsaṁ te, brāhmaṇa, dvinnaṁ paṭipadānaṁ katamā paṭipadā khamati appatthatarā ca appasamārambhatarā ca mahapphalatarā ca mahānisaṁsatarā cā’”ti? ",
+      "english": "which of these two practices do you believe has fewer obligations and undertakings, yet is more fruitful and beneficial?” "
+    },
+    {
+      "number": 38,
+      "pali": "Tatiyampi kho saṅgāravo brāhmaṇo āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "For a third time Saṅgārava said to Ānanda, "
+    },
+    {
+      "number": 39,
+      "pali": "“seyyathāpi bhavaṁ gotamo bhavaṁ cānando. ",
+      "english": "“Those such as the worthies Gotama and Ānanda "
+    },
+    {
+      "number": 40,
+      "pali": "Ete me pujjā, ete me pāsaṁsā”ti. ",
+      "english": "are honored and praised by me!” "
+    },
+    {
+      "number": 41,
+      "pali": "Atha kho bhagavato etadahosi: ",
+      "english": "Then it occurred to the Buddha, "
+    },
+    {
+      "number": 42,
+      "pali": "“yāva tatiyampi kho saṅgāravo brāhmaṇo ānandena sahadhammikaṁ pañhaṁ puṭṭho saṁsādeti no vissajjeti. ",
+      "english": "“Though Ānanda asked him a sensible question three times, Saṅgārava falters without answering. "
+    },
+    {
+      "number": 43,
+      "pali": "Yannūnāhaṁ parimoceyyan”ti. ",
+      "english": "Why don’t I give him a way out?” "
+    },
+    {
+      "number": 44,
+      "pali": "Atha kho bhagavā saṅgāravaṁ brāhmaṇaṁ etadavoca: ",
+      "english": "So the Buddha said to Saṅgārava, "
+    },
+    {
+      "number": 45,
+      "pali": "“kā nvajja, brāhmaṇa, rājantepure rājapurisānaṁ sannisinnānaṁ sannipatitānaṁ antarākathā udapādī”ti? ",
+      "english": "“Brahmin, what came up in the conversation among the king’s retinue today, sitting together in the royal compound?” "
+    },
+    {
+      "number": 46,
+      "pali": "“Ayaṁ khvajja, bho gotama, rājantepure rājapurisānaṁ sannisinnānaṁ sannipatitānaṁ antarākathā udapādi: ",
+      "english": "“Worthy Gotama, this came up: "
+    },
+    {
+      "number": 47,
+      "pali": "‘pubbe sudaṁ appatarā ceva bhikkhū ahesuṁ bahutarā ca uttari manussadhammā iddhipāṭihāriyaṁ dassesuṁ; ",
+      "english": "‘Formerly, it seems, there were fewer mendicants, but more of them displayed superhuman demonstrations of psychic power; "
+    },
+    {
+      "number": 48,
+      "pali": "etarahi pana bahutarā ceva bhikkhū appatarā ca uttari manussadhammā iddhipāṭihāriyaṁ dassentī’ti. ",
+      "english": "while these days, there are more mendicants, but fewer display superhuman demonstrations of psychic power.’ "
+    },
+    {
+      "number": 49,
+      "pali": "Ayaṁ khvajja, bho gotama, rājantepure rājapurisānaṁ sannisinnānaṁ sannipatitānaṁ antarākathā udapādī”ti. ",
+      "english": "This is what came up in the conversation among the king’s retinue today, while sitting together in the royal compound.” "
+    },
+    {
+      "number": 50,
+      "pali": "“Tīṇi kho imāni, brāhmaṇa, pāṭihāriyāni. ",
+      "english": "“Brahmin, there are three kinds of demonstration. "
+    },
+    {
+      "number": 51,
+      "pali": "Katamāni tīṇi? ",
+      "english": "What three? "
+    },
+    {
+      "number": 52,
+      "pali": "Iddhipāṭihāriyaṁ, ādesanāpāṭihāriyaṁ, anusāsanīpāṭihāriyaṁ. ",
+      "english": "A demonstration of psychic power, a demonstration of revealing, and a demonstration of instruction. "
+    },
+    {
+      "number": 53,
+      "pali": "Katamañca, brāhmaṇa, iddhipāṭihāriyaṁ? ",
+      "english": "And what is the demonstration of psychic power? "
+    },
+    {
+      "number": 54,
+      "pali": "Idha, brāhmaṇa, ekacco anekavihitaṁ iddhividhaṁ paccanubhoti: ‘ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti; āvibhāvaṁ, tirobhāvaṁ; tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamāno gacchati, seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karoti, seyyathāpi udake; udakepi abhijjamāne gacchati, seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamati, seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parimasati parimajjati, yāva brahmalokāpi kāyena vasaṁ vatteti’. ",
+      "english": "It’s when someone wields the many kinds of psychic power: multiplying themselves and becoming one again; materializing and dematerializing; going unobstructed through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with the hand the sun and moon, so mighty and powerful. They control the body as far as the realm of divinity. "
+    },
+    {
+      "number": 55,
+      "pali": "Idaṁ vuccati, brāhmaṇa, iddhipāṭihāriyaṁ. ",
+      "english": "This is called the demonstration of psychic power. "
+    },
+    {
+      "number": 56,
+      "pali": "Katamañca, brāhmaṇa, ādesanāpāṭihāriyaṁ? ",
+      "english": "And what is the demonstration of revealing? "
+    },
+    {
+      "number": 57,
+      "pali": "Idha, brāhmaṇa, ekacco nimittena ādisati: ",
+      "english": "In one case, someone reveals by means of a sign: "
+    },
+    {
+      "number": 58,
+      "pali": "‘evampi te mano, itthampi te mano, itipi te cittan’ti. ",
+      "english": "‘This is what you’re thinking, such is your thought, and thus is your state of mind.’ "
+    },
+    {
+      "number": 59,
+      "pali": "So bahuñcepi ādisati tatheva taṁ hoti, no aññathā. ",
+      "english": "And even if they reveal this many times, it turns out exactly so, not otherwise. "
+    },
+    {
+      "number": 60,
+      "pali": "Idha pana, brāhmaṇa, ekacco na heva kho nimittena ādisati, api ca kho manussānaṁ vā amanussānaṁ vā devatānaṁ vā saddaṁ sutvā ādisati: ",
+      "english": "In another case, someone reveals after hearing it from humans or non-humans or deities: "
+    },
+    {
+      "number": 61,
+      "pali": "‘evampi te mano, itthampi te mano, itipi te cittan’ti. ",
+      "english": "‘This is what you’re thinking, such is your thought, and thus is your state of mind.’ "
+    },
+    {
+      "number": 62,
+      "pali": "So bahuñcepi ādisati tatheva taṁ hoti, no aññathā. ",
+      "english": "And even if they reveal this many times, it turns out exactly so, not otherwise. "
+    },
+    {
+      "number": 63,
+      "pali": "Idha pana, brāhmaṇa, ekacco na heva kho nimittena ādisati napi manussānaṁ vā amanussānaṁ vā devatānaṁ vā saddaṁ sutvā ādisati, api ca kho vitakkayato vicārayato vitakkavipphārasaddaṁ sutvā ādisati: ",
+      "english": "In another case, someone reveals by hearing the sound of thought spreading as someone thinks and considers: "
+    },
+    {
+      "number": 64,
+      "pali": "‘evampi te mano, itthampi te mano, itipi te cittan’ti. ",
+      "english": "‘This is what you’re thinking, such is your thought, and thus is your state of mind.’ "
+    },
+    {
+      "number": 65,
+      "pali": "So bahuñcepi ādisati tatheva taṁ hoti, no aññathā. ",
+      "english": "And even if they reveal this many times, it turns out exactly so, not otherwise. "
+    },
+    {
+      "number": 66,
+      "pali": "Idha pana, brāhmaṇa, ekacco na heva kho nimittena ādisati, napi manussānaṁ vā amanussānaṁ vā devatānaṁ vā saddaṁ sutvā ādisati, napi vitakkayato vicārayato vitakkavipphārasaddaṁ sutvā ādisati, api ca kho avitakkaṁ avicāraṁ samādhiṁ samāpannassa cetasā ceto paricca pajānāti: ",
+      "english": "In another case, someone comprehends the mind of one who has attained the immersion that’s free of placing the mind and keeping it connected. They understand: "
+    },
+    {
+      "number": 67,
+      "pali": "‘yathā imassa bhoto manosaṅkhārā paṇihitā imassa cittassa anantarā amuṁ nāma vitakkaṁ vitakkessatī’ti. ",
+      "english": "‘Judging by the way this worthy’s intentions are directed, immediately after this mind state, they’ll think this thought.’ "
+    },
+    {
+      "number": 68,
+      "pali": "So bahuñcepi ādisati tatheva taṁ hoti, no aññathā. ",
+      "english": "And even if they reveal this many times, it turns out exactly so, not otherwise. "
+    },
+    {
+      "number": 69,
+      "pali": "Idaṁ vuccati, brāhmaṇa, ādesanāpāṭihāriyaṁ. ",
+      "english": "This is called the demonstration of revealing. "
+    },
+    {
+      "number": 70,
+      "pali": "Katamañca, brāhmaṇa, anusāsanīpāṭihāriyaṁ? ",
+      "english": "And what is a demonstration of instruction? "
+    },
+    {
+      "number": 71,
+      "pali": "Idha, brāhmaṇa, ekacco evamanusāsati: ",
+      "english": "It’s when someone instructs others like this: "
+    },
+    {
+      "number": 72,
+      "pali": "‘evaṁ vitakketha, mā evaṁ vitakkayittha; evaṁ manasi karotha, mā evaṁ manasākattha; idaṁ pajahatha, idaṁ upasampajja viharathā’ti. ",
+      "english": "‘Think like this, not like that. Focus your mind like this, not like that. Give up this, and live having achieved that.’ "
+    },
+    {
+      "number": 73,
+      "pali": "Idaṁ vuccati, brāhmaṇa, anusāsanīpāṭihāriyaṁ. ",
+      "english": "This is called a demonstration of instruction. "
+    },
+    {
+      "number": 74,
+      "pali": "Imāni kho, brāhmaṇa, tīṇi pāṭihāriyāni. ",
+      "english": "These are the three kinds of demonstration. "
+    },
+    {
+      "number": 75,
+      "pali": "Imesaṁ te, brāhmaṇa, tiṇṇaṁ pāṭihāriyānaṁ katamaṁ pāṭihāriyaṁ khamati abhikkantatarañca paṇītatarañcā”ti? ",
+      "english": "Of these three kinds of demonstration, which do you consider to be the finest?” "
+    },
+    {
+      "number": 76,
+      "pali": "“Tatra, bho gotama, yadidaṁ pāṭihāriyaṁ idhekacco anekavihitaṁ iddhividhaṁ paccanubhoti …pe… ",
+      "english": "“Regarding this, worthy Gotama, a demonstration of psychic power "
+    },
+    {
+      "number": 77,
+      "pali": "yāva brāhmalokāpi kāyena vasaṁ vatteti, ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "idaṁ, bho gotama, pāṭihāriyaṁ yova naṁ karoti sova naṁ paṭisaṁvedeti, yova naṁ karoti tasseva taṁ hoti. ",
+      "english": "is experienced only by the one who performs it, occurring only to them. "
+    },
+    {
+      "number": 79,
+      "pali": "Idaṁ me, bho gotama, pāṭihāriyaṁ māyāsahadhammarūpaṁ viya khāyati. ",
+      "english": "This seems to me like an illusion. "
+    },
+    {
+      "number": 80,
+      "pali": "Yampidaṁ, bho gotama, pāṭihāriyaṁ idhekacco nimittena ādisati: ",
+      "english": "And the demonstration where someone reveals something by means of a sign, "
+    },
+    {
+      "number": 81,
+      "pali": "‘evampi te mano, itthampi te mano, itipi te cittan’ti, so bahuñcepi ādisati tatheva taṁ hoti, no aññathā. ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "Idha pana, bho gotama, ekacco na heva kho nimittena ādisati, api ca kho manussānaṁ vā amanussānaṁ vā devatānaṁ vā saddaṁ sutvā ādisati …pe… ",
+      "english": "or after hearing it from humans, non-humans, or deities, "
+    },
+    {
+      "number": 83,
+      "pali": "napi manussānaṁ vā amanussānaṁ vā devatānaṁ vā saddaṁ sutvā ādisati, api ca kho vitakkayato vicārayato vitakkavipphārasaddaṁ sutvā ādisati …pe… ",
+      "english": "or by hearing the sound of thought spreading as someone thinks and considers, "
+    },
+    {
+      "number": 84,
+      "pali": "napi vitakkayato vicārayato vitakkavipphārasaddaṁ sutvā ādisati, api ca kho avitakkaṁ avicāraṁ samādhiṁ samāpannassa cetasā ceto paricca pajānāti: ",
+      "english": "or by comprehending the mind of another, "
+    },
+    {
+      "number": 85,
+      "pali": "‘yathā imassa bhoto manosaṅkhārā paṇihitā imassa cittassa anantarā amhaṁ nāma vitakkaṁ vitakkessatī’ti, so bahuñcepi ādisati tatheva taṁ hoti, no aññathā. ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "Idampi, bho gotama, pāṭihāriyaṁ yova naṁ karoti sova naṁ paṭisaṁvedeti, yova naṁ karoti tasseva taṁ hoti. ",
+      "english": "is also experienced only by the one who performs it, occurring only to them. "
+    },
+    {
+      "number": 87,
+      "pali": "Idampi me, bho gotama, pāṭihāriyaṁ māyāsahadhammarūpaṁ viya khāyati. ",
+      "english": "This also seems to me like an illusion. "
+    },
+    {
+      "number": 88,
+      "pali": "Yañca kho idaṁ, bho gotama, pāṭihāriyaṁ idhekacco evaṁ anusāsati: ",
+      "english": "But as to the demonstration where someone instructs others: "
+    },
+    {
+      "number": 89,
+      "pali": "‘evaṁ vitakketha, mā evaṁ vitakkayittha; evaṁ manasi karotha, mā evaṁ manasākattha; idaṁ pajahatha, idaṁ upasampajja viharathā’ti. ",
+      "english": "‘Think like this, not like that. Focus your mind like this, not like that. Give up this, and live having achieved that.’ "
+    },
+    {
+      "number": 90,
+      "pali": "Idameva, bho gotama, pāṭihāriyaṁ khamati imesaṁ tiṇṇaṁ pāṭihāriyānaṁ abhikkantatarañca paṇītatarañca. ",
+      "english": "I prefer this demonstration, worthy Gotama. It’s the finest of the three kinds of demonstration. "
+    },
+    {
+      "number": 91,
+      "pali": "Acchariyaṁ, bho gotama, abbhutaṁ, bho gotama. ",
+      "english": "It’s incredible, worthy Gotama, it’s amazing, "
+    },
+    {
+      "number": 92,
+      "pali": "Yāvasubhāsitamidaṁ bhotā gotamena imehi ca mayaṁ tīhi pāṭihāriyehi samannāgataṁ bhavantaṁ gotamaṁ dhārema. ",
+      "english": "how well this was said by the worthy Gotama. We regard the worthy Gotama as someone who possesses these three kinds of demonstration. "
+    },
+    {
+      "number": 93,
+      "pali": "Bhavañhi gotamo anekavihitaṁ iddhividhaṁ paccanubhoti …pe… yāva brahmalokāpi kāyena vasaṁ vatteti, ",
+      "english": "For the worthy Gotama wields the many kinds of psychic power … controlling the body as far as the realm of divinity. "
+    },
+    {
+      "number": 94,
+      "pali": "bhavañhi gotamo avitakkaṁ avicāraṁ samādhiṁ samāpannassa cetasā ceto paricca pajānāti: ",
+      "english": "And Mister Gotama comprehends the mind of another who has attained the immersion that is free of placing the mind and keeping it connected. He understands: "
+    },
+    {
+      "number": 95,
+      "pali": "‘yathā imassa bhoto manosaṅkhārā paṇihitā imassa cittassa anantarā amuṁ nāma vitakkaṁ vitakkessatī’ti. ",
+      "english": "‘Judging by the way this worthy’s intentions are directed, immediately after this mind state they’ll think this thought.’ "
+    },
+    {
+      "number": 96,
+      "pali": "Bhavañhi gotamo evamanusāsati: ",
+      "english": "And the worthy Gotama instructs others like this: "
+    },
+    {
+      "number": 97,
+      "pali": "‘evaṁ vitakketha, mā evaṁ vitakkayittha; evaṁ manasi karotha, mā evaṁ manasākattha; idaṁ pajahatha, idaṁ upasampajja viharathā’”ti. ",
+      "english": "‘Think like this, not like that. Focus your mind like this, not like that. Give up this, and live having achieved that.’” "
+    },
+    {
+      "number": 98,
+      "pali": "“Addhā kho tyāhaṁ, brāhmaṇa, āsajja upanīya vācā bhāsitā; ",
+      "english": "“Your words are clearly invasive and intrusive, brahmin. "
+    },
+    {
+      "number": 99,
+      "pali": "api ca tyāhaṁ byākarissāmi. ",
+      "english": "Nevertheless, I will answer you. "
+    },
+    {
+      "number": 100,
+      "pali": "Ahañhi, brāhmaṇa, anekavihitaṁ iddhividhaṁ paccanubhomi …pe… yāva brahmalokāpi kāyena vasaṁ vattemi. ",
+      "english": "For I do wield the many kinds of psychic power … controlling the body as far as the realm of divinity. "
+    },
+    {
+      "number": 101,
+      "pali": "Ahañhi, brāhmaṇa, avitakkaṁ avicāraṁ samādhiṁ samāpannassa cetasā ceto paricca pajānāmi: ",
+      "english": "And I do comprehend the mind of another individual who has attained the immersion that is free of placing the mind and keeping it connected. I understand: "
+    },
+    {
+      "number": 102,
+      "pali": "‘yathā imassa bhoto manosaṅkhārā paṇihitā, imassa cittassa anantarā amuṁ nāma vitakkaṁ vitakkessatī’ti. ",
+      "english": "‘Judging by the way this worthy’s intentions are directed, immediately after this mind state they’ll think this thought.’ "
+    },
+    {
+      "number": 103,
+      "pali": "Ahañhi, brāhmaṇa, evamanusāsāmi: ",
+      "english": "And I do instruct others like this: "
+    },
+    {
+      "number": 104,
+      "pali": "‘evaṁ vitakketha, mā evaṁ vitakkayittha; evaṁ manasi karotha, mā evaṁ manasākattha; idaṁ pajahatha, idaṁ upasampajja viharathā’”ti. ",
+      "english": "‘Think like this, not like that. Focus your mind like this, not like that. Give up this, and live having achieved that.’” "
+    },
+    {
+      "number": 105,
+      "pali": "“Atthi pana, bho gotama, añño ekabhikkhupi yo imehi tīhi pāṭihāriyehi samannāgato, aññatra bhotā gotamenā”ti? ",
+      "english": "“But worthy Gotama, is there even one other mendicant who possesses these three kinds of demonstration, apart from the worthy Gotama?” "
+    },
+    {
+      "number": 106,
+      "pali": "“Na kho, brāhmaṇa, ekaṁyeva sataṁ na dve satāni na tīṇi satāni na cattāri satāni na pañca satāni, atha kho bhiyyova, ye bhikkhū imehi tīhi pāṭihāriyehi samannāgatā”ti. ",
+      "english": "“There’s not just one hundred mendicants, brahmin, who possess these three kinds of demonstration, nor two, three, four, or five hundred, but many more than that.” "
+    },
+    {
+      "number": 107,
+      "pali": "“Kahaṁ pana, bho gotama, etarahi te bhikkhū viharantī”ti? ",
+      "english": "“But where are these mendicants now staying?” "
+    },
+    {
+      "number": 108,
+      "pali": "“Imasmiṁyeva kho, brāhmaṇa, bhikkhusaṅghe”ti. ",
+      "english": "“Right here, brahmin, in this Saṅgha of mendicants.” "
+    },
+    {
+      "number": 109,
+      "pali": "“Abhikkantaṁ, bho gotama, abhikkantaṁ, bho gotama. ",
+      "english": "“Excellent, worthy Gotama! Excellent! "
+    },
+    {
+      "number": 110,
+      "pali": "Seyyathāpi, bho gotama, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya: ‘cakkhumanto rūpāni dakkhantī’ti; evamevaṁ bhotā gotamena anekapariyāyena dhammo pakāsito. ",
+      "english": "As if he were righting the overturned, or revealing the hidden, or pointing out the path to the lost, or lighting a lamp in the dark so people with clear eyes can see what’s there, worthy Gotama has made the teaching clear in many ways. "
+    },
+    {
+      "number": 111,
+      "pali": "Esāhaṁ bhavantaṁ gotamaṁ saraṇaṁ gacchāmi, dhammañca bhikkhusaṅghañca. ",
+      "english": "I go for refuge to the worthy Gotama, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 112,
+      "pali": "Upāsakaṁ maṁ bhavaṁ gotamo dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
+      "english": "From this day forth, may the worthy Gotama remember me as a lay follower who has gone for refuge for life.” "
+    },
+    {
+      "number": 113,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 114,
+      "pali": "Brāhmaṇavaggo paṭhamo. ",
+      "english": ""
+    },
+    {
+      "number": 115,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 116,
+      "pali": "Dve brāhmaṇā caññataro, ",
+      "english": ""
+    },
+    {
+      "number": 117,
+      "pali": "paribbājakena nibbutaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "Palokavaccho tikaṇṇo, ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "soṇi saṅgāravena cāti. ",
+      "english": ""
+    }
+  ]
+}

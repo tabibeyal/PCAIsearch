@@ -1,0 +1,1195 @@
+{
+  "sutta_id": "AN3.70",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 3.70 ",
+      "english": "Numbered Discourses 3.70 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Mahāvagga ",
+      "english": "7. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Uposathasutta ",
+      "english": "Sabbath "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati pubbārāme migāramātupāsāde. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in the stilt longhouse of Migāra’s mother in the Eastern Monastery. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho visākhā migāramātā tadahuposathe yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho visākhaṁ migāramātaraṁ bhagavā etadavoca: ",
+      "english": "Then Visākhā, Migāra’s mother, went up to the Buddha, bowed, and sat down to one side. The Buddha said to her, "
+    },
+    {
+      "number": 7,
+      "pali": "“handa kuto nu tvaṁ, visākhe, āgacchasi divā divassā”ti? ",
+      "english": "“So, Visākhā, where are you coming from in the middle of the day?” "
+    },
+    {
+      "number": 8,
+      "pali": "“Uposathāhaṁ, bhante, ajja upavasāmī”ti. ",
+      "english": "“Today, sir, I’m observing the sabbath.” "
+    },
+    {
+      "number": 9,
+      "pali": "“Tayo khome, visākhe, uposathā. ",
+      "english": "“There are, Visākhā, these three sabbaths. "
+    },
+    {
+      "number": 10,
+      "pali": "Katame tayo? ",
+      "english": "What three? "
+    },
+    {
+      "number": 11,
+      "pali": "Gopālakuposatho, nigaṇṭhuposatho, ariyuposatho. ",
+      "english": "The sabbath of the cowherds, the sabbath of the Jains, and the sabbath of the noble ones. "
+    },
+    {
+      "number": 12,
+      "pali": "Kathañca, visākhe, gopālakuposatho hoti? ",
+      "english": "And what is the sabbath of the cowherds? "
+    },
+    {
+      "number": 13,
+      "pali": "Seyyathāpi, visākhe, gopālako sāyanhasamaye sāmikānaṁ gāvo niyyātetvā iti paṭisañcikkhati: ",
+      "english": "It’s just like a cowherd who, in the late afternoon, takes the cows back to their owners. They reflect: "
+    },
+    {
+      "number": 14,
+      "pali": "‘ajja kho gāvo amukasmiñca amukasmiñca padese cariṁsu, amukasmiñca amukasmiñca padese pānīyāni piviṁsu; ",
+      "english": "‘Today the cows grazed in this spot and that, and they drank in this spot and that. "
+    },
+    {
+      "number": 15,
+      "pali": "sve dāni gāvo amukasmiñca amukasmiñca padese carissanti, amukasmiñca amukasmiñca padese pānīyāni pivissantī’ti; ",
+      "english": "Tomorrow the cows will graze in this spot and that, and drink in this spot and that.’ "
+    },
+    {
+      "number": 16,
+      "pali": "evamevaṁ kho, visākhe, idhekacco uposathiko iti paṭisañcikkhati: ",
+      "english": "In the same way, someone keeping the sabbath reflects: "
+    },
+    {
+      "number": 17,
+      "pali": "‘ahaṁ khvajja idañcidañca khādanīyaṁ khādiṁ, idañcidañca bhojanīyaṁ bhuñjiṁ; ",
+      "english": "‘Today I ate this and that, and had a meal of this and that. "
+    },
+    {
+      "number": 18,
+      "pali": "sve dānāhaṁ idañcidañca khādanīyaṁ khādissāmi, idañcidañca bhojanīyaṁ bhuñjissāmī’ti. ",
+      "english": "Tomorrow I’ll eat this and that, and have a meal of this and that.’ "
+    },
+    {
+      "number": 19,
+      "pali": "So tena abhijjhāsahagatena cetasā divasaṁ atināmeti. ",
+      "english": "And so they spend their day with a mind full of covetousness. "
+    },
+    {
+      "number": 20,
+      "pali": "Evaṁ kho, visākhe, gopālakuposatho hoti. ",
+      "english": "That’s the sabbath of the cowherds. "
+    },
+    {
+      "number": 21,
+      "pali": "Evaṁ upavuttho kho, visākhe, gopālakuposatho na mahapphalo hoti na mahānisaṁso na mahājutiko na mahāvipphāro. ",
+      "english": "When the cowherd’s sabbath is observed like this it’s not very fruitful or beneficial or dazzling or bountiful. "
+    },
+    {
+      "number": 22,
+      "pali": "Kathañca, visākhe, nigaṇṭhuposatho hoti? ",
+      "english": "And what is the sabbath of the Jains? "
+    },
+    {
+      "number": 23,
+      "pali": "Atthi, visākhe, nigaṇṭhā nāma samaṇajātikā. ",
+      "english": "There’s a kind of ascetic belonging to a group called the Jains. "
+    },
+    {
+      "number": 24,
+      "pali": "Te sāvakaṁ evaṁ samādapenti: ",
+      "english": "They encourage their disciples: "
+    },
+    {
+      "number": 25,
+      "pali": "‘ehi tvaṁ, ambho purisa, ye puratthimāya disāya pāṇā paraṁ yojanasataṁ tesu daṇḍaṁ nikkhipāhi; ",
+      "english": "‘Please, good people, don’t hurt any living creatures more than a hundred leagues away to the east. "
+    },
+    {
+      "number": 26,
+      "pali": "ye pacchimāya disāya pāṇā paraṁ yojanasataṁ tesu daṇḍaṁ nikkhipāhi; ",
+      "english": "Don’t hurt any living creatures more than a hundred leagues away to the west. "
+    },
+    {
+      "number": 27,
+      "pali": "ye uttarāya disāya pāṇā paraṁ yojanasataṁ tesu daṇḍaṁ nikkhipāhi; ",
+      "english": "Don’t hurt any living creatures more than a hundred leagues away to the north. "
+    },
+    {
+      "number": 28,
+      "pali": "ye dakkhiṇāya disāya pāṇā paraṁ yojanasataṁ tesu daṇḍaṁ nikkhipāhī’ti. ",
+      "english": "Don’t hurt any living creatures more than a hundred leagues away to the south.’ "
+    },
+    {
+      "number": 29,
+      "pali": "Iti ekaccānaṁ pāṇānaṁ anuddayāya anukampāya samādapenti, ekaccānaṁ pāṇānaṁ nānuddayāya nānukampāya samādapenti. ",
+      "english": "So they encourage kindness and sympathy for some creatures and not others. "
+    },
+    {
+      "number": 30,
+      "pali": "Te tadahuposathe sāvakaṁ evaṁ samādapenti: ",
+      "english": "On the sabbath, they encourage their disciples: "
+    },
+    {
+      "number": 31,
+      "pali": "‘ehi tvaṁ, ambho purisa, sabbacelāni nikkhipitvā evaṁ vadehi—",
+      "english": "‘Please, good people, take off all your clothes and say: "
+    },
+    {
+      "number": 32,
+      "pali": "nāhaṁ kvacani kassaci kiñcanatasmiṁ, na ca mama kvacani katthaci kiñcanatatthī’ti. ",
+      "english": "“I don’t belong to anyone anywhere! And nothing belongs to me anywhere!”’ "
+    },
+    {
+      "number": 33,
+      "pali": "Jānanti kho panassa mātāpitaro: ",
+      "english": "But their mother and father still know, "
+    },
+    {
+      "number": 34,
+      "pali": "‘ayaṁ amhākaṁ putto’ti; ",
+      "english": "‘This is our child.’ "
+    },
+    {
+      "number": 35,
+      "pali": "sopi jānāti: ",
+      "english": "And they know, "
+    },
+    {
+      "number": 36,
+      "pali": "‘ime mayhaṁ mātāpitaro’ti. ",
+      "english": "‘This is my mother and father.’ "
+    },
+    {
+      "number": 37,
+      "pali": "Jānāti kho panassa puttadāro: ",
+      "english": "Partner and child still know, "
+    },
+    {
+      "number": 38,
+      "pali": "‘ayaṁ mayhaṁ bhattā’ti; ",
+      "english": "‘This is our supporter.’ "
+    },
+    {
+      "number": 39,
+      "pali": "sopi jānāti: ",
+      "english": "And they know, "
+    },
+    {
+      "number": 40,
+      "pali": "‘ayaṁ mayhaṁ puttadāro’ti. ",
+      "english": "‘This is my partner and child.’ "
+    },
+    {
+      "number": 41,
+      "pali": "Jānanti kho panassa dāsakammakaraporisā: ",
+      "english": "Bondservants, workers, and staff still know: "
+    },
+    {
+      "number": 42,
+      "pali": "‘ayaṁ amhākaṁ ayyo’ti; ",
+      "english": "‘This is our master.’ "
+    },
+    {
+      "number": 43,
+      "pali": "sopi jānāti: ",
+      "english": "And they know, "
+    },
+    {
+      "number": 44,
+      "pali": "‘ime mayhaṁ dāsakammakaraporisā’ti. ",
+      "english": "‘These are my bondservants, workers, and staff.’ "
+    },
+    {
+      "number": 45,
+      "pali": "Iti yasmiṁ samaye sacce samādapetabbā musāvāde tasmiṁ samaye samādapenti. ",
+      "english": "So, at a time when they should be encouraged to speak the truth, the Jains encourage them to lie. "
+    },
+    {
+      "number": 46,
+      "pali": "Idaṁ tassa musāvādasmiṁ vadāmi. ",
+      "english": "This, I say, is lying. "
+    },
+    {
+      "number": 47,
+      "pali": "So tassā rattiyā accayena bhoge adinnaṁyeva paribhuñjati. ",
+      "english": "When the night has passed they use their possessions once more, though they’ve not been given back to them. "
+    },
+    {
+      "number": 48,
+      "pali": "Idaṁ tassa adinnādānasmiṁ vadāmi. ",
+      "english": "This, I say, is stealing. "
+    },
+    {
+      "number": 49,
+      "pali": "Evaṁ kho, visākhe, nigaṇṭhuposatho hoti. ",
+      "english": "That’s the sabbath of the Jains. "
+    },
+    {
+      "number": 50,
+      "pali": "Evaṁ upavuttho kho, visākhe, nigaṇṭhuposatho na mahapphalo hoti na mahānisaṁso na mahājutiko na mahāvipphāro. ",
+      "english": "When the Jain’s sabbath is observed like this it’s not very fruitful or beneficial or dazzling or bountiful. "
+    },
+    {
+      "number": 51,
+      "pali": "Kathañca, visākhe, ariyuposatho hoti? ",
+      "english": "And what is the sabbath of the noble ones? "
+    },
+    {
+      "number": 52,
+      "pali": "Upakkiliṭṭhassa, visākhe, cittassa upakkamena pariyodapanā hoti. ",
+      "english": "A corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 53,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a corrupt mind cleaned by applying effort? "
+    },
+    {
+      "number": 54,
+      "pali": "Idha, visākhe, ariyasāvako tathāgataṁ anussarati: ",
+      "english": "It’s when a noble disciple recollects the Realized One: "
+    },
+    {
+      "number": 55,
+      "pali": "‘itipi so bhagavā arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā’ti. ",
+      "english": "‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ "
+    },
+    {
+      "number": 56,
+      "pali": "Tassa tathāgataṁ anussarato cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti, seyyathāpi, visākhe, upakkiliṭṭhassa sīsassa upakkamena pariyodapanā hoti. ",
+      "english": "As they recollect the Realized One, their mind becomes clear, joy arises, and mental corruptions are given up. It’s just like cleaning a dirty head by applying effort. "
+    },
+    {
+      "number": 57,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa sīsassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a dirty head cleaned by applying effort? "
+    },
+    {
+      "number": 58,
+      "pali": "Kakkañca paṭicca mattikañca paṭicca udakañca paṭicca purisassa ca tajjaṁ vāyāmaṁ paṭicca, evaṁ kho, visākhe, upakkiliṭṭhassa sīsassa upakkamena pariyodapanā hoti. ",
+      "english": "With cleansing paste, clay, and water, and by applying the appropriate effort. "
+    },
+    {
+      "number": 59,
+      "pali": "Evamevaṁ kho, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti. ",
+      "english": "In the same way, a corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 60,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a corrupt mind cleaned by applying effort? "
+    },
+    {
+      "number": 61,
+      "pali": "Idha, visākhe, ariyasāvako tathāgataṁ anussarati: ",
+      "english": "It’s when a noble disciple recollects the Realized One: "
+    },
+    {
+      "number": 62,
+      "pali": "‘itipi so bhagavā arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā’ti. ",
+      "english": "‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ "
+    },
+    {
+      "number": 63,
+      "pali": "Tassa tathāgataṁ anussarato cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti. ",
+      "english": "As they recollect the Realized One, their mind becomes clear, joy arises, and mental corruptions are given up. "
+    },
+    {
+      "number": 64,
+      "pali": "Ayaṁ vuccati, visākhe: ",
+      "english": "This is called: "
+    },
+    {
+      "number": 65,
+      "pali": "‘ariyasāvako brahmuposathaṁ upavasati, brahmunā saddhiṁ saṁvasati, brahmañcassa ārabbha cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti’. ",
+      "english": "‘A noble disciple who observes the sabbath of the divinity, living together with the divinity. And because they think of the divinity their mind becomes clear, joy arises, and mental corruptions are given up.’ "
+    },
+    {
+      "number": 66,
+      "pali": "Evaṁ kho, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti. .1 ",
+      "english": "That’s how a corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 67,
+      "pali": "Upakkiliṭṭhassa, visākhe, cittassa upakkamena pariyodapanā hoti. ",
+      "english": "A corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 68,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a corrupt mind cleaned by applying effort? "
+    },
+    {
+      "number": 69,
+      "pali": "Idha, visākhe, ariyasāvako dhammaṁ anussarati: ",
+      "english": "It’s when a noble disciple recollects the teaching: "
+    },
+    {
+      "number": 70,
+      "pali": "‘svākkhāto bhagavatā dhammo sandiṭṭhiko akāliko ehipassiko opaneyyiko paccattaṁ veditabbo viññūhī’ti. ",
+      "english": "‘The teaching is well explained by the Buddha—apparent in the present life, immediately effective, inviting inspection, relevant, so that sensible people can know it for themselves.’ "
+    },
+    {
+      "number": 71,
+      "pali": "Tassa dhammaṁ anussarato cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti, seyyathāpi, visākhe, upakkiliṭṭhassa kāyassa upakkamena pariyodapanā hoti. ",
+      "english": "As they recollect the teaching, their mind becomes clear, joy arises, and mental corruptions are given up. It’s just like cleaning a dirty body by applying effort. "
+    },
+    {
+      "number": 72,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa kāyassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a dirty body cleaned by applying effort? "
+    },
+    {
+      "number": 73,
+      "pali": "Sottiñca paṭicca, cuṇṇañca paṭicca, udakañca paṭicca, purisassa ca tajjaṁ vāyāmaṁ paṭicca. ",
+      "english": "With cleanser and powder, water, and by applying the appropriate effort. "
+    },
+    {
+      "number": 74,
+      "pali": "Evaṁ kho, visākhe, upakkiliṭṭhassa kāyassa upakkamena pariyodapanā hoti. ",
+      "english": "That’s how a dirty body is cleaned by applying effort. "
+    },
+    {
+      "number": 75,
+      "pali": "Evamevaṁ kho, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti. ",
+      "english": "In the same way, a corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 76,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a corrupt mind cleaned by applying effort? "
+    },
+    {
+      "number": 77,
+      "pali": "Idha, visākhe, ariyasāvako dhammaṁ anussarati: ",
+      "english": "It’s when a noble disciple recollects the teaching: "
+    },
+    {
+      "number": 78,
+      "pali": "‘svākkhāto bhagavatā dhammo sandiṭṭhiko akāliko ehipassiko opaneyyiko paccattaṁ veditabbo viññūhī’ti. ",
+      "english": "‘The teaching is well explained by the Buddha—apparent in the present life, immediately effective, inviting inspection, relevant, so that sensible people can know it for themselves.’ "
+    },
+    {
+      "number": 79,
+      "pali": "Tassa dhammaṁ anussarato cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti. ",
+      "english": "As they recollect the teaching, their mind becomes clear, joy arises, and mental corruptions are given up. "
+    },
+    {
+      "number": 80,
+      "pali": "Ayaṁ vuccati, visākhe, ‘ariyasāvako dhammuposathaṁ upavasati, dhammena saddhiṁ saṁvasati, dhammañcassa ārabbha cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti’. ",
+      "english": "This is called: ‘A noble disciple who observes the sabbath of Dhamma, living together with Dhamma. And because they think of the Dhamma their mind becomes clear, joy arises, and mental corruptions are given up.’ "
+    },
+    {
+      "number": 81,
+      "pali": "Evaṁ kho, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti. .2 ",
+      "english": "That’s how a corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 82,
+      "pali": "Upakkiliṭṭhassa, visākhe, cittassa upakkamena pariyodapanā hoti. ",
+      "english": "A corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 83,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a corrupt mind cleaned by applying effort? "
+    },
+    {
+      "number": 84,
+      "pali": "Idha, visākhe, ariyasāvako saṅghaṁ anussarati: ",
+      "english": "It’s when a noble disciple recollects the Saṅgha: "
+    },
+    {
+      "number": 85,
+      "pali": "‘suppaṭipanno bhagavato sāvakasaṅgho, ujuppaṭipanno bhagavato sāvakasaṅgho, ñāyappaṭipanno bhagavato sāvakasaṅgho, sāmīcippaṭipanno bhagavato sāvakasaṅgho, yadidaṁ cattāri purisayugāni aṭṭha purisapuggalā esa bhagavato sāvakasaṅgho āhuneyyo pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo anuttaraṁ puññakkhettaṁ lokassā’ti. ",
+      "english": "‘The Saṅgha of the Buddha’s disciples is practicing the way that’s good, direct, systematic, and proper. It consists of the four pairs, the eight individual persons. This is the Saṅgha of the Buddha’s disciples that is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, worthy of greeting with cupped palms, and is the supreme field of merit for the world.’ "
+    },
+    {
+      "number": 86,
+      "pali": "Tassa saṅghaṁ anussarato cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti, seyyathāpi, visākhe, upakkiliṭṭhassa vatthassa upakkamena pariyodapanā hoti. ",
+      "english": "As they recollect the Saṅgha, their mind becomes clear, joy arises, and mental corruptions are given up. It’s just like cleaning a dirty cloth by applying effort. "
+    },
+    {
+      "number": 87,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa vatthassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a dirty cloth cleaned by applying effort? "
+    },
+    {
+      "number": 88,
+      "pali": "Usmañca paṭicca, khārañca paṭicca, gomayañca paṭicca, udakañca paṭicca, purisassa ca tajjaṁ vāyāmaṁ paṭicca. ",
+      "english": "With salt, lye, cow dung, and water, and by applying the appropriate effort. "
+    },
+    {
+      "number": 89,
+      "pali": "Evaṁ kho, visākhe, upakkiliṭṭhassa vatthassa upakkamena pariyodapanā hoti. ",
+      "english": "That’s how a dirty cloth is cleaned by applying effort. "
+    },
+    {
+      "number": 90,
+      "pali": "Evamevaṁ kho, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti. ",
+      "english": "In the same way, a corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 91,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a corrupt mind cleaned by applying effort? "
+    },
+    {
+      "number": 92,
+      "pali": "Idha, visākhe, ariyasāvako saṅghaṁ anussarati: ",
+      "english": "It’s when a noble disciple recollects the Saṅgha: "
+    },
+    {
+      "number": 93,
+      "pali": "‘suppaṭipanno bhagavato sāvakasaṅgho …pe… anuttaraṁ puññakkhettaṁ lokassā’ti. ",
+      "english": "‘The Saṅgha of the Buddha’s disciples is practicing the way that’s good, direct, systematic, and proper. It consists of the four pairs, the eight individual persons. This Saṅgha of the Buddha’s disciples is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, and worthy of veneration with cupped palms. It is the supreme field of merit for the world.’ "
+    },
+    {
+      "number": 94,
+      "pali": "Tassa saṅghaṁ anussarato cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti. ",
+      "english": "As they recollect the Saṅgha, their mind becomes clear, joy arises, and mental corruptions are given up. "
+    },
+    {
+      "number": 95,
+      "pali": "Ayaṁ vuccati, visākhe, ‘ariyasāvako saṅghuposathaṁ upavasati, saṅghena saddhiṁ saṁvasati, saṅghañcassa ārabbha cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti’. ",
+      "english": "This is called: ‘A noble disciple who observes the sabbath of the Saṅgha, living together with the Saṅgha. And because they think of the Saṅgha their mind becomes clear, joy arises, and mental corruptions are given up.’ "
+    },
+    {
+      "number": 96,
+      "pali": "Evaṁ kho, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti. .3 ",
+      "english": "That’s how a corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 97,
+      "pali": "Upakkiliṭṭhassa, visākhe, cittassa upakkamena pariyodapanā hoti. ",
+      "english": "A corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 98,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a corrupt mind cleaned by applying effort? "
+    },
+    {
+      "number": 99,
+      "pali": "Idha, visākhe, ariyasāvako attano sīlāni anussarati akhaṇḍāni acchiddāni asabalāni akammāsāni bhujissāni viññuppasatthāni aparāmaṭṭhāni samādhisaṁvattanikāni. ",
+      "english": "It’s when a noble disciple recollects their own ethical conduct, which is intact, impeccable, spotless, and unmarred, liberating, praised by sensible people, not mistaken, and leading to immersion. "
+    },
+    {
+      "number": 100,
+      "pali": "Tassa sīlaṁ anussarato cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti, seyyathāpi, visākhe, upakkiliṭṭhassa ādāsassa upakkamena pariyodapanā hoti. ",
+      "english": "As they recollect their ethical conduct, their mind becomes clear, joy arises, and mental corruptions are given up. It’s just like cleaning a dirty mirror by applying effort. "
+    },
+    {
+      "number": 101,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa ādāsassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a dirty mirror cleaned by applying effort? "
+    },
+    {
+      "number": 102,
+      "pali": "Telañca paṭicca, chārikañca paṭicca, vālaṇḍupakañca paṭicca, purisassa ca tajjaṁ vāyāmaṁ paṭicca. ",
+      "english": "With oil, ash, a rolled-up cloth, and by applying the appropriate effort. "
+    },
+    {
+      "number": 103,
+      "pali": "Evaṁ kho, visākhe, upakkiliṭṭhassa ādāsassa upakkamena pariyodapanā hoti. ",
+      "english": "That’s how a dirty mirror is cleaned by applying effort. "
+    },
+    {
+      "number": 104,
+      "pali": "Evamevaṁ kho, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti. ",
+      "english": "In the same way, a corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 105,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a corrupt mind cleaned by applying effort? "
+    },
+    {
+      "number": 106,
+      "pali": "Idha, visākhe, ariyasāvako attano sīlāni anussarati akhaṇḍāni …pe… samādhisaṁvattanikāni. ",
+      "english": "It’s when a noble disciple recollects their own ethical conduct, which is intact, impeccable, spotless, and unmarred, liberating, praised by sensible people, not mistaken, and leading to immersion. "
+    },
+    {
+      "number": 107,
+      "pali": "Tassa sīlaṁ anussarato cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti. ",
+      "english": "As they recollect their ethical conduct, their mind becomes clear, joy arises, and mental corruptions are given up. "
+    },
+    {
+      "number": 108,
+      "pali": "Ayaṁ vuccati, visākhe, ‘ariyasāvako sīluposathaṁ upavasati, sīlena saddhiṁ saṁvasati, sīlañcassa ārabbha cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti’. ",
+      "english": "This is called: ‘A noble disciple who observes the sabbath of ethical conduct, living together with ethics. And because they think of their ethical conduct their mind becomes clear, joy arises, and mental corruptions are given up.’ "
+    },
+    {
+      "number": 109,
+      "pali": "Evaṁ kho, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti. .4 ",
+      "english": "That’s how a corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 110,
+      "pali": "Upakkiliṭṭhassa, visākhe, cittassa upakkamena pariyodapanā hoti. ",
+      "english": "A corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 111,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a corrupt mind cleaned by applying effort? "
+    },
+    {
+      "number": 112,
+      "pali": "Idha, visākhe, ariyasāvako devatā anussarati: ",
+      "english": "It’s when a noble disciple recollects the deities: "
+    },
+    {
+      "number": 113,
+      "pali": "‘santi devā cātumahārājikā, santi devā tāvatiṁsā, santi devā yāmā, santi devā tusitā, santi devā nimmānaratino, santi devā paranimmitavasavattino, santi devā brahmakāyikā, santi devā tatuttari. ",
+      "english": "‘There are the gods of the four great kings, the gods of the thirty-three, the gods of Yama, the joyful gods, the gods who love to create, the gods who control what is created by others, the gods of the Divinity’s host, and gods even higher than these. "
+    },
+    {
+      "number": 114,
+      "pali": "Yathārūpāya saddhāya samannāgatā tā devatā ito cutā tatthupapannā, mayhampi tathārūpā saddhā saṁvijjati. ",
+      "english": "When those deities passed away from here, they were reborn there because of their faith, ethics, learning, generosity, and wisdom. I, too, have the same kind of faith, ethics, learning, generosity, and wisdom.’ "
+    },
+    {
+      "number": 115,
+      "pali": "Yathārūpena sīlena samannāgatā tā devatā ito cutā tatthupapannā, mayhampi tathārūpaṁ sīlaṁ saṁvijjati. ",
+      "english": ""
+    },
+    {
+      "number": 116,
+      "pali": "Yathārūpena sutena samannāgatā tā devatā ito cutā tatthupapannā, mayhampi tathārūpaṁ sutaṁ saṁvijjati. ",
+      "english": ""
+    },
+    {
+      "number": 117,
+      "pali": "Yathārūpena cāgena samannāgatā tā devatā ito cutā tatthupapannā, mayhampi tathārūpo cāgo saṁvijjati. ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "Yathārūpāya paññāya samannāgatā tā devatā ito cutā tatthupapannā, mayhampi tathārūpā paññā saṁvijjatī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "Tassa attano ca tāsañca devatānaṁ saddhañca sīlañca sutañca cāgañca paññañca anussarato cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti, seyyathāpi, visākhe, upakkiliṭṭhassa jātarūpassa upakkamena pariyodapanā hoti. ",
+      "english": "As they recollect the faith, ethics, learning, generosity, and wisdom of both themselves and those deities, their mind becomes clear, joy arises, and mental corruptions are given up. It’s just like cleansing corrupt native gold by applying effort. "
+    },
+    {
+      "number": 120,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa jātarūpassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is corrupt native gold cleansed by applying effort? "
+    },
+    {
+      "number": 121,
+      "pali": "Ukkañca paṭicca, loṇañca paṭicca, gerukañca paṭicca, nāḷikasaṇḍāsañca paṭicca, purisassa ca tajjaṁ vāyāmaṁ paṭicca. ",
+      "english": "With a furnace, flux, a blowpipe, and tongs, and by applying the appropriate effort. "
+    },
+    {
+      "number": 122,
+      "pali": "Evaṁ kho, visākhe, upakkiliṭṭhassa jātarūpassa upakkamena pariyodapanā hoti. ",
+      "english": "That’s how corrupt native gold is cleansed by applying effort. "
+    },
+    {
+      "number": 123,
+      "pali": "Evamevaṁ kho, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti. ",
+      "english": "In the same way, a corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 124,
+      "pali": "Kathañca, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti? ",
+      "english": "And how is a corrupt mind cleaned by applying effort? "
+    },
+    {
+      "number": 125,
+      "pali": "Idha, visākhe, ariyasāvako devatā anussarati: ",
+      "english": "It’s when a noble disciple recollects the deities: "
+    },
+    {
+      "number": 126,
+      "pali": "‘santi devā cātumahārājikā, santi devā tāvatiṁsā …pe… santi devā tatuttari. ",
+      "english": "‘There are the gods of the four great kings, the gods of the thirty-three, the gods of Yama, the joyful gods, the gods who love to imagine, the gods who control what is imagined by others, the gods of the Divinity’s host, and gods even higher than these. "
+    },
+    {
+      "number": 127,
+      "pali": "Yathārūpāya saddhāya samannāgatā tā devatā ito cutā tatthupapannā, mayhampi tathārūpā saddhā saṁvijjati. ",
+      "english": "When those deities passed away from here, they were reborn there because of their faith, ethics, learning, generosity, and wisdom. I, too, have the same kind of faith, ethics, learning, generosity, and wisdom.’ "
+    },
+    {
+      "number": 128,
+      "pali": "Yathārūpena sīlena … ",
+      "english": ""
+    },
+    {
+      "number": 129,
+      "pali": "sutena … ",
+      "english": ""
+    },
+    {
+      "number": 130,
+      "pali": "cāgena … ",
+      "english": ""
+    },
+    {
+      "number": 131,
+      "pali": "paññāya samannāgatā tā devatā ito cutā tatthupapannā, mayhampi tathārūpā paññā saṁvijjatī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 132,
+      "pali": "Tassa attano ca tāsañca devatānaṁ saddhañca sīlañca sutañca cāgañca paññañca anussarato cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti. ",
+      "english": "As they recollect the faith, ethics, learning, generosity, and wisdom of both themselves and those deities, their mind becomes clear, joy arises, and mental corruptions are given up. "
+    },
+    {
+      "number": 133,
+      "pali": "Ayaṁ vuccati, visākhe, ‘ariyasāvako devatuposathaṁ upavasati, devatāhi saddhiṁ saṁvasati, devatā ārabbha cittaṁ pasīdati, pāmojjaṁ uppajjati, ye cittassa upakkilesā te pahīyanti’. ",
+      "english": "This is called: ‘A noble disciple who observes the sabbath of the deities, living together with the deities. And because they think of the deities their mind becomes clear, joy arises, and mental corruptions are given up.’ "
+    },
+    {
+      "number": 134,
+      "pali": "Evaṁ kho, visākhe, upakkiliṭṭhassa cittassa upakkamena pariyodapanā hoti. .5 ",
+      "english": "That’s how a corrupt mind is cleaned by applying effort. "
+    },
+    {
+      "number": 135,
+      "pali": "Sa kho so, visākhe, ariyasāvako iti paṭisañcikkhati: ",
+      "english": "Then that noble disciple reflects: "
+    },
+    {
+      "number": 136,
+      "pali": "‘yāvajīvaṁ arahanto pāṇātipātaṁ pahāya pāṇātipātā paṭiviratā nihitadaṇḍā nihitasatthā lajjī dayāpannā sabbapāṇabhūtahitānukampī viharanti; ",
+      "english": "‘As long as they live, the perfected ones give up killing living creatures, renouncing the rod and the sword. They are scrupulous and kind, and live full of sympathy for all living beings. "
+    },
+    {
+      "number": 137,
+      "pali": "ahampajja imañca rattiṁ imañca divasaṁ pāṇātipātaṁ pahāya pāṇātipātā paṭivirato nihitadaṇḍo nihitasattho lajjī dayāpanno sabbapāṇabhūtahitānukampī viharāmi. ",
+      "english": "I, too, for this day and night will give up killing living creatures, renouncing the rod and the sword. I’ll be scrupulous and kind, and live full of sympathy for all living beings. "
+    },
+    {
+      "number": 138,
+      "pali": "Imināpi aṅgena arahataṁ anukaromi, uposatho ca me upavuttho bhavissati. ",
+      "english": "I will observe the sabbath by doing as the perfected ones do in this respect. "
+    },
+    {
+      "number": 139,
+      "pali": "Yāvajīvaṁ arahanto adinnādānaṁ pahāya adinnādānā paṭiviratā dinnādāyī dinnapāṭikaṅkhī, athenena sucibhūtena attanā viharanti; ",
+      "english": "As long as they live, the perfected ones give up stealing. They take only what’s given, and expect only what’s given. They keep themselves clean by not thieving. "
+    },
+    {
+      "number": 140,
+      "pali": "ahampajja imañca rattiṁ imañca divasaṁ adinnādānaṁ pahāya adinnādānā paṭivirato dinnādāyī dinnapāṭikaṅkhī, athenena sucibhūtena attanā viharāmi. ",
+      "english": "I, too, for this day and night will give up stealing. I’ll take only what’s given, and expect only what’s given. I’ll keep myself clean by not thieving. "
+    },
+    {
+      "number": 141,
+      "pali": "Imināpi aṅgena arahataṁ anukaromi, uposatho ca me upavuttho bhavissati. ",
+      "english": "I will observe the sabbath by doing as the perfected ones do in this respect. "
+    },
+    {
+      "number": 142,
+      "pali": "Yāvajīvaṁ arahanto abrahmacariyaṁ pahāya brahmacārī ārācārī viratā methunā gāmadhammā; ",
+      "english": "As long as they live, the perfected ones give up unchastity. They are chaste, set apart, avoiding the vulgar act of sex. "
+    },
+    {
+      "number": 143,
+      "pali": "ahampajja imañca rattiṁ imañca divasaṁ abrahmacariyaṁ pahāya brahmacārī ārācārī virato methunā gāmadhammā. ",
+      "english": "I, too, for this day and night will give up unchastity. I will be chaste, set apart, avoiding the vulgar act of sex. "
+    },
+    {
+      "number": 144,
+      "pali": "Imināpi aṅgena arahataṁ anukaromi, uposatho ca me upavuttho bhavissati. ",
+      "english": "I will observe the sabbath by doing as the perfected ones do in this respect. "
+    },
+    {
+      "number": 145,
+      "pali": "Yāvajīvaṁ arahanto musāvādaṁ pahāya musāvādā paṭiviratā saccavādī saccasandhā thetā paccayikā avisaṁvādakā lokassa; ",
+      "english": "As long as they live, the perfected ones give up lying. They speak the truth and stick to the truth. They’re honest and dependable, and don’t trick the world with their words. "
+    },
+    {
+      "number": 146,
+      "pali": "ahampajja imañca rattiṁ imañca divasaṁ musāvādaṁ pahāya musāvādā paṭivirato saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+      "english": "I, too, for this day and night will give up lying. I’ll speak the truth and stick to the truth. I’ll be honest and dependable, and won’t trick the world with my words. "
+    },
+    {
+      "number": 147,
+      "pali": "Imināpi aṅgena arahataṁ anukaromi, uposatho ca me upavuttho bhavissati. ",
+      "english": "I will observe the sabbath by doing as the perfected ones do in this respect. "
+    },
+    {
+      "number": 148,
+      "pali": "Yāvajīvaṁ arahanto surāmerayamajjapamādaṭṭhānaṁ pahāya surāmerayamajjapamādaṭṭhānā paṭiviratā; ",
+      "english": "As long as they live, the perfected ones give up beer, wine, and liquor intoxicants. "
+    },
+    {
+      "number": 149,
+      "pali": "ahampajja imañca rattiṁ imañca divasaṁ surāmerayamajjapamādaṭṭhānaṁ pahāya surāmerayamajjapamādaṭṭhānā paṭivirato. ",
+      "english": "I, too, for this day and night will give up beer, wine, and liquor intoxicants. "
+    },
+    {
+      "number": 150,
+      "pali": "Imināpi aṅgena arahataṁ anukaromi, uposatho ca me upavuttho bhavissati. ",
+      "english": "I will observe the sabbath by doing as the perfected ones do in this respect. "
+    },
+    {
+      "number": 151,
+      "pali": "Yāvajīvaṁ arahanto ekabhattikā rattūparatā viratā vikālabhojanā; ",
+      "english": "As long as they live, the perfected ones eat in one part of the day, abstaining from eating at night and from food at the wrong time. "
+    },
+    {
+      "number": 152,
+      "pali": "ahampajja imañca rattiṁ imañca divasaṁ ekabhattiko rattūparato virato vikālabhojanā. ",
+      "english": "I, too, for this day and night will eat in one part of the day, abstaining from eating at night and food at the wrong time. "
+    },
+    {
+      "number": 153,
+      "pali": "Imināpi aṅgena arahataṁ anukaromi, uposatho ca me upavuttho bhavissati. ",
+      "english": "I will observe the sabbath by doing as the perfected ones do in this respect. "
+    },
+    {
+      "number": 154,
+      "pali": "Yāvajīvaṁ arahanto naccagītavāditavisūkadassanamālāgandhavilepanadhāraṇamaṇḍanavibhūsanaṭṭhānā paṭiviratā; ",
+      "english": "As long as they live, the perfected ones refrain from seeing shows of dancing, singing, and music; and attiring and adorning themselves with garlands, fragrance, and makeup. "
+    },
+    {
+      "number": 155,
+      "pali": "ahampajja imañca rattiṁ imañca divasaṁ naccagītavāditavisūkadassanamālāgandhavilepanadhāraṇamaṇḍanavibhūsanaṭṭhānā paṭivirato. ",
+      "english": "I, too, for this day and night will refrain from seeing shows of dancing, singing, and music ; and attiring and adorning myself with garlands, fragrance, and makeup. "
+    },
+    {
+      "number": 156,
+      "pali": "Imināpi aṅgena arahataṁ anukaromi, uposatho ca me upavuttho bhavissati. ",
+      "english": "I will observe the sabbath by doing as the perfected ones do in this respect. "
+    },
+    {
+      "number": 157,
+      "pali": "Yāvajīvaṁ arahanto uccāsayanamahāsayanaṁ pahāya uccāsayanamahāsayanā paṭiviratā nīcaseyyaṁ kappenti mañcake vā tiṇasanthārake vā; ",
+      "english": "As long as they live, the perfected ones give up high and luxurious beds. They sleep in a low place, either a cot or a straw mat. "
+    },
+    {
+      "number": 158,
+      "pali": "ahampajja imañca rattiṁ imañca divasaṁ uccāsayanamahāsayanaṁ pahāya uccāsayanamahāsayanā paṭivirato nīcaseyyaṁ kappemi mañcake vā tiṇasanthārake vā. ",
+      "english": "I, too, for this day and night will give up high and luxurious beds. I’ll sleep in a low place, either a cot or a straw mat. "
+    },
+    {
+      "number": 159,
+      "pali": "Imināpi aṅgena arahataṁ anukaromi, uposatho ca me upavuttho bhavissatī’ti. ",
+      "english": "I will observe the sabbath by doing as the perfected ones do in this respect.’ "
+    },
+    {
+      "number": 160,
+      "pali": "Evaṁ kho, visākhe, ariyuposatho hoti. ",
+      "english": "That’s the sabbath of the noble ones. "
+    },
+    {
+      "number": 161,
+      "pali": "Evaṁ upavuttho kho, visākhe, ariyuposatho mahapphalo hoti mahānisaṁso mahājutiko mahāvipphāro. ",
+      "english": "When the sabbath of the noble ones is observed like this it’s very fruitful and beneficial and dazzling and bountiful. "
+    },
+    {
+      "number": 162,
+      "pali": "Kīvamahapphalo hoti kīvamahānisaṁso kīvamahājutiko kīvamahāvipphāro? ",
+      "english": "How much so? "
+    },
+    {
+      "number": 163,
+      "pali": "Seyyathāpi, visākhe, yo imesaṁ soḷasannaṁ mahājanapadānaṁ pahūtarattaratanānaṁ issariyādhipaccaṁ rajjaṁ kāreyya, seyyathidaṁ—",
+      "english": "Suppose you were to rule as sovereign lord over these sixteen great countries—Aṅga, Magadha, Kāsi, Kosala, Vajji, Malla, Cetī, Vaccha, Kuru, Pañcāla, Maccha, Sūrasena, Assaka, Avanti, Gandhāra, and Kamboja—full of the seven treasures. "
+    },
+    {
+      "number": 164,
+      "pali": "aṅgānaṁ, magadhānaṁ, kāsīnaṁ, kosalānaṁ, vajjīnaṁ, mallānaṁ, cetīnaṁ, vaṅgānaṁ, kurūnaṁ, pañcālānaṁ, macchānaṁ, sūrasenānaṁ, assakānaṁ, avantīnaṁ, gandhārānaṁ, kambojānaṁ, aṭṭhaṅgasamannāgatassa uposathassa etaṁ kalaṁ nāgghati soḷasiṁ. ",
+      "english": "This wouldn’t be worth a sixteenth part of the sabbath with its eight factors. "
+    },
+    {
+      "number": 165,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 166,
+      "pali": "Kapaṇaṁ, visākhe, mānusakaṁ rajjaṁ dibbaṁ sukhaṁ upanidhāya. ",
+      "english": "Because human kingship is a poor thing compared to the happiness of the gods. "
+    },
+    {
+      "number": 167,
+      "pali": "Yāni, visākhe, mānusakāni paññāsa vassāni, cātumahārājikānaṁ devānaṁ eso eko rattindivo. ",
+      "english": "Fifty years in the human realm is one day and night for the gods of the four great kings. "
+    },
+    {
+      "number": 168,
+      "pali": "Tāya rattiyā tiṁsarattiyo māso. ",
+      "english": "Thirty such days make up a month. "
+    },
+    {
+      "number": 169,
+      "pali": "Tena māsena dvādasamāsiyo saṁvaccharo. ",
+      "english": "Twelve such months make up a year. "
+    },
+    {
+      "number": 170,
+      "pali": "Tena saṁvaccharena dibbāni pañca vassasatāni cātumahārājikānaṁ devānaṁ āyuppamāṇaṁ. ",
+      "english": "The lifespan of the gods of the four great kings is five hundred of these heavenly years. "
+    },
+    {
+      "number": 171,
+      "pali": "Ṭhānaṁ kho panetaṁ, visākhe, vijjati yaṁ idhekacco itthī vā puriso vā aṭṭhaṅgasamannāgataṁ uposathaṁ upavasitvā kāyassa bhedā paraṁ maraṇā cātumahārājikānaṁ devānaṁ sahabyataṁ upapajjeyya. ",
+      "english": "It’s possible that some woman or man who has observed the eight-factored sabbath will—when their body breaks up, after death—be reborn in the company of the gods of the four great kings. "
+    },
+    {
+      "number": 172,
+      "pali": "Idaṁ kho panetaṁ, visākhe, sandhāya bhāsitaṁ: ",
+      "english": "This is what I was referring to when I said: "
+    },
+    {
+      "number": 173,
+      "pali": "‘kapaṇaṁ mānusakaṁ rajjaṁ dibbaṁ sukhaṁ upanidhāya’. ",
+      "english": "‘Human kingship is a poor thing compared to the happiness of the gods.’ "
+    },
+    {
+      "number": 174,
+      "pali": "Yaṁ, visākhe, mānusakaṁ vassasataṁ, tāvatiṁsānaṁ devānaṁ eso eko rattindivo. ",
+      "english": "A hundred years in the human realm is one day and night for the gods of the thirty-three. "
+    },
+    {
+      "number": 175,
+      "pali": "Tāya rattiyā tiṁsarattiyo māso. ",
+      "english": "Thirty such days make up a month. "
+    },
+    {
+      "number": 176,
+      "pali": "Tena māsena dvādasamāsiyo saṁvaccharo. ",
+      "english": "Twelve such months make up a year. "
+    },
+    {
+      "number": 177,
+      "pali": "Tena saṁvaccharena dibbaṁ vassasahassaṁ tāvatiṁsānaṁ devānaṁ āyuppamāṇaṁ. ",
+      "english": "The lifespan of the gods of the thirty-three is a thousand of these heavenly years. "
+    },
+    {
+      "number": 178,
+      "pali": "Ṭhānaṁ kho panetaṁ, visākhe, vijjati yaṁ idhekacco itthī vā puriso vā aṭṭhaṅgasamannāgataṁ uposathaṁ upavasitvā kāyassa bhedā paraṁ maraṇā tāvatiṁsānaṁ devānaṁ sahabyataṁ upapajjeyya. ",
+      "english": "It’s possible that some woman or man who has observed the eight-factored sabbath will—when their body breaks up, after death—be reborn in the company of the gods of the thirty-three. "
+    },
+    {
+      "number": 179,
+      "pali": "Idaṁ kho panetaṁ, visākhe, sandhāya bhāsitaṁ: ",
+      "english": "This is what I was referring to when I said: "
+    },
+    {
+      "number": 180,
+      "pali": "‘kapaṇaṁ mānusakaṁ rajjaṁ dibbaṁ sukhaṁ upanidhāya’. ",
+      "english": "‘Human kingship is a poor thing compared to the happiness of the gods.’ "
+    },
+    {
+      "number": 181,
+      "pali": "Yāni, visākhe, mānusakāni dve vassasatāni, yāmānaṁ devānaṁ eso eko rattindivo. ",
+      "english": "Two hundred years in the human realm is one day and night for the gods of Yama. "
+    },
+    {
+      "number": 182,
+      "pali": "Tāya rattiyā tiṁsarattiyo māso. ",
+      "english": "Thirty such days make up a month. "
+    },
+    {
+      "number": 183,
+      "pali": "Tena māsena dvādasamāsiyo saṁvaccharo. ",
+      "english": "Twelve such months make up a year. "
+    },
+    {
+      "number": 184,
+      "pali": "Tena saṁvaccharena dibbāni dve vassasahassāni yāmānaṁ devānaṁ āyuppamāṇaṁ. ",
+      "english": "The lifespan of the gods of Yama is two thousand of these heavenly years. "
+    },
+    {
+      "number": 185,
+      "pali": "Ṭhānaṁ kho panetaṁ, visākhe, vijjati yaṁ idhekacco itthī vā puriso vā aṭṭhaṅgasamannāgataṁ uposathaṁ upavasitvā kāyassa bhedā paraṁ maraṇā yāmānaṁ devānaṁ sahabyataṁ upapajjeyya. ",
+      "english": "It’s possible that some woman or man who has observed the eight-factored sabbath will—when their body breaks up, after death—be reborn in the company of the gods of Yama. "
+    },
+    {
+      "number": 186,
+      "pali": "Idaṁ kho panetaṁ, visākhe, sandhāya bhāsitaṁ: ",
+      "english": "This is what I was referring to when I said: "
+    },
+    {
+      "number": 187,
+      "pali": "‘kapaṇaṁ mānusakaṁ rajjaṁ dibbaṁ sukhaṁ upanidhāya’. ",
+      "english": "‘Human kingship is a poor thing compared to the happiness of the gods.’ "
+    },
+    {
+      "number": 188,
+      "pali": "Yāni, visākhe, mānusakāni cattāri vassasatāni, tusitānaṁ devānaṁ eso eko rattindivo. ",
+      "english": "Four hundred years in the human realm is one day and night for the joyful gods. "
+    },
+    {
+      "number": 189,
+      "pali": "Tāya rattiyā tiṁsarattiyo māso. ",
+      "english": "Thirty such days make up a month. "
+    },
+    {
+      "number": 190,
+      "pali": "Tena māsena dvādasamāsiyo saṁvaccharo. ",
+      "english": "Twelve such months make up a year. "
+    },
+    {
+      "number": 191,
+      "pali": "Tena saṁvaccharena dibbāni cattāri vassasahassāni tusitānaṁ devānaṁ āyuppamāṇaṁ. ",
+      "english": "The lifespan of the joyful gods is four thousand of these heavenly years. "
+    },
+    {
+      "number": 192,
+      "pali": "Ṭhānaṁ kho panetaṁ, visākhe, vijjati yaṁ idhekacco itthī vā puriso vā aṭṭhaṅgasamannāgataṁ uposathaṁ upavasitvā kāyassa bhedā paraṁ maraṇā tusitānaṁ devānaṁ sahabyataṁ upapajjeyya. ",
+      "english": "It’s possible that some woman or man who has observed the eight-factored sabbath will—when their body breaks up, after death—be reborn in the company of the joyful gods. "
+    },
+    {
+      "number": 193,
+      "pali": "Idaṁ kho panetaṁ, visākhe, sandhāya bhāsitaṁ: ",
+      "english": "This is what I was referring to when I said: "
+    },
+    {
+      "number": 194,
+      "pali": "‘kapaṇaṁ mānusakaṁ rajjaṁ dibbaṁ sukhaṁ upanidhāya’. ",
+      "english": "‘Human kingship is a poor thing compared to the happiness of the gods.’ "
+    },
+    {
+      "number": 195,
+      "pali": "Yāni, visākhe, mānusakāni aṭṭha vassasatāni, nimmānaratīnaṁ devānaṁ eso eko rattindivo. ",
+      "english": "Eight hundred years in the human realm is one day and night for the gods who love to create. "
+    },
+    {
+      "number": 196,
+      "pali": "Tāya rattiyā tiṁsarattiyo māso. ",
+      "english": "Thirty such days make up a month. "
+    },
+    {
+      "number": 197,
+      "pali": "Tena māsena dvādasamāsiyo saṁvaccharo. ",
+      "english": "Twelve such months make up a year. "
+    },
+    {
+      "number": 198,
+      "pali": "Tena saṁvaccharena dibbāni aṭṭha vassasahassāni nimmānaratīnaṁ devānaṁ āyuppamāṇaṁ. ",
+      "english": "The life span of the gods who love to create is eight thousand of these heavenly years. "
+    },
+    {
+      "number": 199,
+      "pali": "Ṭhānaṁ kho panetaṁ, visākhe, vijjati yaṁ idhekacco itthī vā puriso vā aṭṭhaṅgasamannāgataṁ uposathaṁ upavasitvā kāyassa bhedā paraṁ maraṇā nimmānaratīnaṁ devānaṁ sahabyataṁ upapajjeyya. ",
+      "english": "It’s possible that some woman or man who has observed the eight-factored sabbath will—when their body breaks up, after death—be reborn in the company of the gods who love to create. "
+    },
+    {
+      "number": 200,
+      "pali": "Idaṁ kho panetaṁ, visākhe, sandhāya bhāsitaṁ: ",
+      "english": "This is what I was referring to when I said: "
+    },
+    {
+      "number": 201,
+      "pali": "‘kapaṇaṁ mānusakaṁ rajjaṁ dibbaṁ sukhaṁ upanidhāya’. ",
+      "english": "‘Human kingship is a poor thing compared to the happiness of the gods.’ "
+    },
+    {
+      "number": 202,
+      "pali": "Yāni, visākhe, mānusakāni soḷasa vassasatāni, paranimmitavasavattīnaṁ devānaṁ eso eko rattindivo. ",
+      "english": "Sixteen hundred years in the human realm is one day and night for the gods who control what is created by others. "
+    },
+    {
+      "number": 203,
+      "pali": "Tāya rattiyā tiṁsarattiyo māso. ",
+      "english": "Thirty such days make up a month. "
+    },
+    {
+      "number": 204,
+      "pali": "Tena māsena dvādasamāsiyo saṁvaccharo. ",
+      "english": "Twelve such months make up a year. "
+    },
+    {
+      "number": 205,
+      "pali": "Tena saṁvaccharena dibbāni soḷasa vassasahassāni paranimmitavasavattīnaṁ devānaṁ āyuppamāṇaṁ. ",
+      "english": "The life span of the gods who control what is created by others is sixteen thousand of these heavenly years. "
+    },
+    {
+      "number": 206,
+      "pali": "Ṭhānaṁ kho panetaṁ, visākhe, vijjati yaṁ idhekacco itthī vā puriso vā aṭṭhaṅgasamannāgataṁ uposathaṁ upavasitvā kāyassa bhedā paraṁ maraṇā paranimmitavasavattīnaṁ devānaṁ sahabyataṁ upapajjeyya. ",
+      "english": "It’s possible that some woman or man who has observed the eight-factored sabbath will—when their body breaks up, after death—be reborn in the company of the gods who control what is created by others. "
+    },
+    {
+      "number": 207,
+      "pali": "Idaṁ kho panetaṁ, visākhe, sandhāya bhāsitaṁ: ",
+      "english": "This is what I was referring to when I said: "
+    },
+    {
+      "number": 208,
+      "pali": "‘kapaṇaṁ mānusakaṁ rajjaṁ dibbaṁ sukhaṁ upanidhāyā’ti. ",
+      "english": "‘Human kingship is a poor thing compared to the happiness of the gods.’ "
+    },
+    {
+      "number": 209,
+      "pali": "Pāṇaṁ na haññe na cadinnamādiye, ",
+      "english": "You shouldn’t kill living creatures, or steal, "
+    },
+    {
+      "number": 210,
+      "pali": "Musā na bhāse na ca majjapo siyā; ",
+      "english": "or lie, or drink liquor. "
+    },
+    {
+      "number": 211,
+      "pali": "Abrahmacariyā virameyya methunā, ",
+      "english": "Be chaste, refraining from sex, "
+    },
+    {
+      "number": 212,
+      "pali": "Rattiṁ na bhuñjeyya vikālabhojanaṁ. ",
+      "english": "and don’t eat at night, the wrong time. "
+    },
+    {
+      "number": 213,
+      "pali": "Mālaṁ na dhāre na ca gandhamācare, ",
+      "english": "Not wearing garlands or applying fragrance, "
+    },
+    {
+      "number": 214,
+      "pali": "Mañce chamāyaṁ va sayetha santhate; ",
+      "english": "you should sleep on a low bed, <j>or a mat on the ground. "
+    },
+    {
+      "number": 215,
+      "pali": "Etañhi aṭṭhaṅgikamāhuposathaṁ, ",
+      "english": "This is the eight-factored sabbath, they say, "
+    },
+    {
+      "number": 216,
+      "pali": "Buddhena dukkhantagunā pakāsitaṁ. ",
+      "english": "explained by the Buddha, <j>who has gone to suffering’s end. "
+    },
+    {
+      "number": 217,
+      "pali": "Cando ca suriyo ca ubho sudassanā, ",
+      "english": "The moon and sun are both fair to see, "
+    },
+    {
+      "number": 218,
+      "pali": "Obhāsayaṁ anupariyanti yāvatā; ",
+      "english": "radiating as far as they revolve. "
+    },
+    {
+      "number": 219,
+      "pali": "Tamonudā te pana antalikkhagā, ",
+      "english": "Those dispellers of darkness, travellers in midair, "
+    },
+    {
+      "number": 220,
+      "pali": "Nabhe pabhāsanti disāvirocanā. ",
+      "english": "shine in the firmament, lighting up the quarters. "
+    },
+    {
+      "number": 221,
+      "pali": "Etasmiṁ yaṁ vijjati antare dhanaṁ, ",
+      "english": "All of the wealth that’s found in this realm—"
+    },
+    {
+      "number": 222,
+      "pali": "Muttā maṇi veḷuriyañca bhaddakaṁ; ",
+      "english": "pearls, gems, fine beryl too, "
+    },
+    {
+      "number": 223,
+      "pali": "Siṅgī suvaṇṇaṁ atha vāpi kañcanaṁ, ",
+      "english": "mountain gold or lustrous gold, "
+    },
+    {
+      "number": 224,
+      "pali": "Yaṁ jātarūpaṁ haṭakanti vuccati. ",
+      "english": "or the native gold called ‘coruscant’—"
+    },
+    {
+      "number": 225,
+      "pali": "Aṭṭhaṅgupetassa uposathassa, ",
+      "english": "they’re not worth a sixteenth part "
+    },
+    {
+      "number": 226,
+      "pali": "Kalampi te nānubhavanti soḷasiṁ; ",
+      "english": "of the sabbath with its eight factors, "
+    },
+    {
+      "number": 227,
+      "pali": "Candappabhā tāragaṇā ca sabbe. ",
+      "english": "as starlight cannot rival the moon. "
+    },
+    {
+      "number": 228,
+      "pali": "Tasmā hi nārī ca naro ca sīlavā, ",
+      "english": "So an ethical woman or man, "
+    },
+    {
+      "number": 229,
+      "pali": "Aṭṭhaṅgupetaṁ upavassuposathaṁ; ",
+      "english": "who has observed the eight-factored sabbath, "
+    },
+    {
+      "number": 230,
+      "pali": "Puññāni katvāna sukhudrayāni, ",
+      "english": "having made merit whose outcome is happiness, "
+    },
+    {
+      "number": 231,
+      "pali": "Aninditā saggamupenti ṭhānan”ti. ",
+      "english": "blameless, they go to a heavenly place.” "
+    },
+    {
+      "number": 232,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 233,
+      "pali": "Mahāvaggo sattamo. ",
+      "english": ""
+    },
+    {
+      "number": 234,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 235,
+      "pali": "Titthabhayañca venāgo, ",
+      "english": ""
+    },
+    {
+      "number": 236,
+      "pali": "sarabho kesamuttiyā; ",
+      "english": ""
+    },
+    {
+      "number": 237,
+      "pali": "Sāḷho cāpi kathāvatthu, ",
+      "english": ""
+    },
+    {
+      "number": 238,
+      "pali": "titthiyamūluposathoti. ",
+      "english": ""
+    }
+  ]
+}

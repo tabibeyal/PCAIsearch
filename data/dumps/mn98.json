@@ -1,0 +1,1475 @@
+{
+  "sutta_id": "MN98",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 98 ",
+      "english": "Middle Discourses 98 "
+    },
+    {
+      "number": 2,
+      "pali": "Vāseṭṭhasutta ",
+      "english": "With Vāseṭṭha "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā icchānaṅgale viharati icchānaṅgalavanasaṇḍe. ",
+      "english": "At one time the Buddha was staying in a forest near Icchānaṅgala. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena sambahulā abhiññātā abhiññātā brāhmaṇamahāsālā icchānaṅgale paṭivasanti, seyyathidaṁ—",
+      "english": "Now at that time several very well-known well-to-do brahmins were residing in Icchānaṅgala. They included "
+    },
+    {
+      "number": 6,
+      "pali": "caṅkī brāhmaṇo, tārukkho brāhmaṇo, pokkharasāti brāhmaṇo, jāṇussoṇi brāhmaṇo, todeyyo brāhmaṇo, aññe ca abhiññātā abhiññātā brāhmaṇamahāsālā. ",
+      "english": "the brahmins Caṅkī, Tārukkha, Pokkharasāti, Jānussoṇi, Todeyya, and others. "
+    },
+    {
+      "number": 7,
+      "pali": "Atha kho vāseṭṭhabhāradvājānaṁ māṇavānaṁ jaṅghāvihāraṁ anucaṅkamantānaṁ anuvicarantānaṁ ayamantarākathā udapādi: ",
+      "english": "Then as the students Vāseṭṭha and Bhāradvāja were going for a walk they began to discuss the question: "
+    },
+    {
+      "number": 8,
+      "pali": "“kathaṁ, bho, brāhmaṇo hotī”ti? ",
+      "english": "“How do you become a brahmin?” "
+    },
+    {
+      "number": 9,
+      "pali": "Bhāradvājo māṇavo evamāha: ",
+      "english": "Bhāradvāja said this: "
+    },
+    {
+      "number": 10,
+      "pali": "“yato kho, bho, ubhato sujāto mātito ca pitito ca saṁsuddhagahaṇiko yāva sattamā pitāmahayugā akkhitto anupakkuṭṭho jātivādena—",
+      "english": "“When you’re well born on both your mother’s and father’s side, of pure descent, with irrefutable and impeccable genealogy back to the seventh paternal generation—"
+    },
+    {
+      "number": 11,
+      "pali": "ettāvatā kho, bho, brāhmaṇo hotī”ti. ",
+      "english": "then you’re a brahmin.” "
+    },
+    {
+      "number": 12,
+      "pali": "Vāseṭṭho māṇavo evamāha: ",
+      "english": "Vāseṭṭha said this: "
+    },
+    {
+      "number": 13,
+      "pali": "“yato kho, bho, sīlavā ca hoti vattasampanno ca—",
+      "english": "“When you’re ethical and accomplished in doing your duties—"
+    },
+    {
+      "number": 14,
+      "pali": "ettāvatā kho, bho, brāhmaṇo hotī”ti. ",
+      "english": "then you’re a brahmin.” "
+    },
+    {
+      "number": 15,
+      "pali": "Neva kho asakkhi bhāradvājo māṇavo vāseṭṭhaṁ māṇavaṁ saññāpetuṁ, na pana asakkhi vāseṭṭho māṇavo bhāradvājaṁ māṇavaṁ saññāpetuṁ. ",
+      "english": "But neither was able to persuade the other. "
+    },
+    {
+      "number": 16,
+      "pali": "Atha kho vāseṭṭho māṇavo bhāradvājaṁ māṇavaṁ āmantesi: ",
+      "english": "So Vāseṭṭha said to Bhāradvāja, "
+    },
+    {
+      "number": 17,
+      "pali": "“ayaṁ kho, bho bhāradvāja, samaṇo gotamo sakyaputto sakyakulā pabbajito icchānaṅgale viharati icchānaṅgalavanasaṇḍe. ",
+      "english": "“Worthy Bhāradvāja, the ascetic Gotama—a Sakyan, gone forth from a Sakyan family—is staying in a forest near Icchānaṅgala. "
+    },
+    {
+      "number": 18,
+      "pali": "Taṁ kho pana bhavantaṁ gotamaṁ evaṁ kalyāṇo kittisaddo abbhuggato: ",
+      "english": "He has this good reputation: "
+    },
+    {
+      "number": 19,
+      "pali": "‘itipi so bhagavā arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā’ti. ",
+      "english": "‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ "
+    },
+    {
+      "number": 20,
+      "pali": "Āyāma, bho bhāradvāja, yena samaṇo gotamo tenupasaṅkamissāma; upasaṅkamitvā samaṇaṁ gotamaṁ etamatthaṁ pucchissāma. ",
+      "english": "Come, let’s go to see him and ask him about this matter. "
+    },
+    {
+      "number": 21,
+      "pali": "Yathā no samaṇo gotamo byākarissati tathā naṁ dhāressāmā”ti. ",
+      "english": "As he answers, so we’ll remember it.” "
+    },
+    {
+      "number": 22,
+      "pali": "“Evaṁ, bho”ti kho bhāradvājo māṇavo vāseṭṭhassa māṇavassa paccassosi. ",
+      "english": "“Yes, worthy sir,” replied Bhāradvāja. "
+    },
+    {
+      "number": 23,
+      "pali": "Atha kho vāseṭṭhabhāradvājā māṇavā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavatā saddhiṁ sammodiṁsu. ",
+      "english": "So they went to the Buddha and exchanged greetings with him. "
+    },
+    {
+      "number": 24,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdiṁsu. ",
+      "english": "When the greetings and polite conversation were over, they sat down to one side, "
+    },
+    {
+      "number": 25,
+      "pali": "Ekamantaṁ nisinno kho vāseṭṭho māṇavo bhagavantaṁ gāthāhi ajjhabhāsi: ",
+      "english": "and Vāseṭṭha addressed the Buddha in verse: "
+    },
+    {
+      "number": 26,
+      "pali": "“Anuññātapaṭiññātā, ",
+      "english": "“We’re both authorized masters "
+    },
+    {
+      "number": 27,
+      "pali": "tevijjā mayamasmubho; ",
+      "english": "of the three Vedas. "
+    },
+    {
+      "number": 28,
+      "pali": "Ahaṁ pokkharasātissa, ",
+      "english": "I’m a student of Pokkharasāti, "
+    },
+    {
+      "number": 29,
+      "pali": "tārukkhassāyaṁ māṇavo. ",
+      "english": "and he of Tārukkha. "
+    },
+    {
+      "number": 30,
+      "pali": "Tevijjānaṁ yadakkhātaṁ, ",
+      "english": "We’re fully qualified "
+    },
+    {
+      "number": 31,
+      "pali": "tatra kevalinosmase; ",
+      "english": "in all the Vedic experts teach. "
+    },
+    {
+      "number": 32,
+      "pali": "Padakasmā veyyākaraṇā, ",
+      "english": "As philologists and grammarians, "
+    },
+    {
+      "number": 33,
+      "pali": "jappe ācariyasādisā; ",
+      "english": "we match our tutors in recitation. "
+    },
+    {
+      "number": 34,
+      "pali": "Tesaṁ no jātivādasmiṁ, ",
+      "english": "We have a dispute "
+    },
+    {
+      "number": 35,
+      "pali": "vivādo atthi gotama. ",
+      "english": "regarding genealogy. "
+    },
+    {
+      "number": 36,
+      "pali": "Jātiyā brāhmaṇo hoti, ",
+      "english": "For Bhāradvāja says that "
+    },
+    {
+      "number": 37,
+      "pali": "bhāradvājo iti bhāsati; ",
+      "english": "one is a brahmin due to birth, "
+    },
+    {
+      "number": 38,
+      "pali": "Ahañca kammunā brūmi, ",
+      "english": "but I declare it’s because of one’s deeds. "
+    },
+    {
+      "number": 39,
+      "pali": "evaṁ jānāhi cakkhuma. ",
+      "english": "Oh Clear-eyed One, know this as our debate. "
+    },
+    {
+      "number": 40,
+      "pali": "Te na sakkoma ñāpetuṁ, ",
+      "english": "Since neither of us was able "
+    },
+    {
+      "number": 41,
+      "pali": "aññamaññaṁ mayaṁ ubho; ",
+      "english": "to convince the other, "
+    },
+    {
+      "number": 42,
+      "pali": "Bhavantaṁ puṭṭhumāgamā, ",
+      "english": "we’ve come to ask you, sir, "
+    },
+    {
+      "number": 43,
+      "pali": "sambuddhaṁ iti vissutaṁ. ",
+      "english": "renowned as the awakened one. "
+    },
+    {
+      "number": 44,
+      "pali": "Candaṁ yathā khayātītaṁ, ",
+      "english": "As people honor with cupped palms "
+    },
+    {
+      "number": 45,
+      "pali": "pecca pañjalikā janā; ",
+      "english": "the moon on the cusp of waxing, "
+    },
+    {
+      "number": 46,
+      "pali": "Vandamānā namassanti, ",
+      "english": "bowing, they revere "
+    },
+    {
+      "number": 47,
+      "pali": "lokasmiṁ gotamaṁ. ",
+      "english": "Gotama in the world. "
+    },
+    {
+      "number": 48,
+      "pali": "Cakkhuṁ loke samuppannaṁ, ",
+      "english": "We ask this of Gotama, "
+    },
+    {
+      "number": 49,
+      "pali": "mayaṁ pucchāma gotamaṁ; ",
+      "english": "the Eye arisen in the world: "
+    },
+    {
+      "number": 50,
+      "pali": "Jātiyā brāhmaṇo hoti, ",
+      "english": "is one a brahmin due to birth, "
+    },
+    {
+      "number": 51,
+      "pali": "udāhu bhavati kammunā; ",
+      "english": "or else because of deeds? "
+    },
+    {
+      "number": 52,
+      "pali": "Ajānataṁ no pabrūhi, ",
+      "english": "We don’t know, please tell us, "
+    },
+    {
+      "number": 53,
+      "pali": "yathā jānemu brāhmaṇan”ti. ",
+      "english": "so we can recognize a brahmin.” "
+    },
+    {
+      "number": 54,
+      "pali": "“Tesaṁ vo ahaṁ byakkhissaṁ, ",
+      "english": "“I shall explain to you,” "
+    },
+    {
+      "number": 55,
+      "pali": "(vāseṭṭhāti bhagavā) ",
+      "english": "said the Buddha, "
+    },
+    {
+      "number": 56,
+      "pali": "Anupubbaṁ yathātathaṁ; ",
+      "english": "“accurately and in sequence, "
+    },
+    {
+      "number": 57,
+      "pali": "Jātivibhaṅgaṁ pāṇānaṁ, ",
+      "english": "the taxonomy of living creatures, "
+    },
+    {
+      "number": 58,
+      "pali": "Aññamaññāhi jātiyo. ",
+      "english": "for species are indeed diverse. "
+    },
+    {
+      "number": 59,
+      "pali": "Tiṇarukkhepi jānātha, ",
+      "english": "Know the grass and trees, "
+    },
+    {
+      "number": 60,
+      "pali": "na cāpi paṭijānare; ",
+      "english": "though they lack self-awareness. "
+    },
+    {
+      "number": 61,
+      "pali": "Liṅgaṁ jātimayaṁ tesaṁ, ",
+      "english": "They’re defined by birth, "
+    },
+    {
+      "number": 62,
+      "pali": "aññamaññā hi jātiyo. ",
+      "english": "for species are indeed diverse. "
+    },
+    {
+      "number": 63,
+      "pali": "Tato kīṭe paṭaṅge ca, ",
+      "english": "Next there are bugs that crawl or fly, "
+    },
+    {
+      "number": 64,
+      "pali": "yāva kunthakipillike; ",
+      "english": "and so on, to ants and termites. "
+    },
+    {
+      "number": 65,
+      "pali": "Liṅgaṁ jātimayaṁ tesaṁ, ",
+      "english": "They’re defined by birth, "
+    },
+    {
+      "number": 66,
+      "pali": "aññamaññā hi jātiyo. ",
+      "english": "for species are indeed diverse. "
+    },
+    {
+      "number": 67,
+      "pali": "Catuppadepi jānātha, ",
+      "english": "Know the quadrupeds, too, "
+    },
+    {
+      "number": 68,
+      "pali": "khuddake ca mahallake; ",
+      "english": "both small and large. "
+    },
+    {
+      "number": 69,
+      "pali": "Liṅgaṁ jātimayaṁ tesaṁ, ",
+      "english": "They’re defined by birth, "
+    },
+    {
+      "number": 70,
+      "pali": "aññamaññā hi jātiyo. ",
+      "english": "for species are indeed diverse. "
+    },
+    {
+      "number": 71,
+      "pali": "Pādudarepi jānātha, ",
+      "english": "Know, too, the long-backed snakes, "
+    },
+    {
+      "number": 72,
+      "pali": "urage dīghapiṭṭhike; ",
+      "english": "crawling on their bellies. "
+    },
+    {
+      "number": 73,
+      "pali": "Liṅgaṁ jātimayaṁ tesaṁ, ",
+      "english": "They’re defined by birth, "
+    },
+    {
+      "number": 74,
+      "pali": "aññamaññā hi jātiyo. ",
+      "english": "for species are indeed diverse. "
+    },
+    {
+      "number": 75,
+      "pali": "Tato macchepi jānātha, ",
+      "english": "Next know the fish, "
+    },
+    {
+      "number": 76,
+      "pali": "udake vārigocare; ",
+      "english": "whose range is the water. "
+    },
+    {
+      "number": 77,
+      "pali": "Liṅgaṁ jātimayaṁ tesaṁ, ",
+      "english": "They’re defined by birth, "
+    },
+    {
+      "number": 78,
+      "pali": "aññamaññā hi jātiyo. ",
+      "english": "for species are indeed diverse. "
+    },
+    {
+      "number": 79,
+      "pali": "Tato pakkhīpi jānātha, ",
+      "english": "Next know the birds, "
+    },
+    {
+      "number": 80,
+      "pali": "pattayāne vihaṅgame; ",
+      "english": "winged chariots in flight. "
+    },
+    {
+      "number": 81,
+      "pali": "Liṅgaṁ jātimayaṁ tesaṁ, ",
+      "english": "They’re defined by birth, "
+    },
+    {
+      "number": 82,
+      "pali": "aññamaññā hi jātiyo. ",
+      "english": "for species are indeed diverse. "
+    },
+    {
+      "number": 83,
+      "pali": "Yathā etāsu jātīsu, ",
+      "english": "While the differences between these species "
+    },
+    {
+      "number": 84,
+      "pali": "liṅgaṁ jātimayaṁ puthu; ",
+      "english": "are defined by birth, "
+    },
+    {
+      "number": 85,
+      "pali": "Evaṁ natthi manussesu, ",
+      "english": "the differences between humans "
+    },
+    {
+      "number": 86,
+      "pali": "liṅgaṁ jātimayaṁ puthu. ",
+      "english": "are not defined by birth. "
+    },
+    {
+      "number": 87,
+      "pali": "Na kesehi na sīsehi, ",
+      "english": "Not by hair nor by head, "
+    },
+    {
+      "number": 88,
+      "pali": "na kaṇṇehi na akkhīhi; ",
+      "english": "not by ear nor by eye, "
+    },
+    {
+      "number": 89,
+      "pali": "Na mukhena na nāsāya, ",
+      "english": "not by mouth nor by nose, "
+    },
+    {
+      "number": 90,
+      "pali": "na oṭṭhehi bhamūhi vā. ",
+      "english": "not by lips nor by eyebrow, "
+    },
+    {
+      "number": 91,
+      "pali": "Na gīvāya na aṁsehi, ",
+      "english": "not by shoulder nor by neck, "
+    },
+    {
+      "number": 92,
+      "pali": "na udarena na piṭṭhiyā; ",
+      "english": "not by belly nor by back, "
+    },
+    {
+      "number": 93,
+      "pali": "Na soṇiyā na urasā, ",
+      "english": "not by buttocks nor by breast, "
+    },
+    {
+      "number": 94,
+      "pali": "na sambādhe na methune. ",
+      "english": "not by groin nor by genitals, "
+    },
+    {
+      "number": 95,
+      "pali": "Na hatthehi na pādehi, ",
+      "english": "not by hands nor by feet, "
+    },
+    {
+      "number": 96,
+      "pali": "naṅgulīhi nakhehi vā; ",
+      "english": "not by fingers nor by nails, "
+    },
+    {
+      "number": 97,
+      "pali": "Na jaṅghāhi na ūrūhi, ",
+      "english": "not by knees nor by thighs, "
+    },
+    {
+      "number": 98,
+      "pali": "na vaṇṇena sarena vā; ",
+      "english": "not by color nor by voice: "
+    },
+    {
+      "number": 99,
+      "pali": "Liṅgaṁ jātimayaṁ neva, ",
+      "english": "none of these are defined by birth "
+    },
+    {
+      "number": 100,
+      "pali": "yathā aññāsu jātisu. ",
+      "english": "as it is for other species. "
+    },
+    {
+      "number": 101,
+      "pali": "Paccattañca sarīresu, ",
+      "english": "In specific human bodies "
+    },
+    {
+      "number": 102,
+      "pali": "manussesvetaṁ na vijjati; ",
+      "english": "you can’t find such distinctions. "
+    },
+    {
+      "number": 103,
+      "pali": "Vokārañca manussesu, ",
+      "english": "The distinctions among humans "
+    },
+    {
+      "number": 104,
+      "pali": "samaññāya pavuccati. ",
+      "english": "are spoken of by convention. "
+    },
+    {
+      "number": 105,
+      "pali": "Yo hi koci manussesu, ",
+      "english": "Anyone among humans "
+    },
+    {
+      "number": 106,
+      "pali": "gorakkhaṁ upajīvati; ",
+      "english": "who lives off keeping cattle: "
+    },
+    {
+      "number": 107,
+      "pali": "Evaṁ vāseṭṭha jānāhi, ",
+      "english": "know them, Vāseṭṭha, "
+    },
+    {
+      "number": 108,
+      "pali": "kassako so na brāhmaṇo. ",
+      "english": "as a farmer, not a brahmin. "
+    },
+    {
+      "number": 109,
+      "pali": "Yo hi koci manussesu, ",
+      "english": "Anyone among humans "
+    },
+    {
+      "number": 110,
+      "pali": "puthusippena jīvati; ",
+      "english": "who lives off various professions: "
+    },
+    {
+      "number": 111,
+      "pali": "Evaṁ vāseṭṭha jānāhi, ",
+      "english": "know them, Vāseṭṭha, "
+    },
+    {
+      "number": 112,
+      "pali": "sippiko so na brāhmaṇo. ",
+      "english": "as a professional, not a brahmin. "
+    },
+    {
+      "number": 113,
+      "pali": "Yo hi koci manussesu, ",
+      "english": "Anyone among humans "
+    },
+    {
+      "number": 114,
+      "pali": "vohāraṁ upajīvati; ",
+      "english": "who lives off trade: "
+    },
+    {
+      "number": 115,
+      "pali": "Evaṁ vāseṭṭha jānāhi, ",
+      "english": "know them, Vāseṭṭha, "
+    },
+    {
+      "number": 116,
+      "pali": "vāṇijo so na brāhmaṇo. ",
+      "english": "as a trader, not a brahmin. "
+    },
+    {
+      "number": 117,
+      "pali": "Yo hi koci manussesu, ",
+      "english": "Anyone among humans "
+    },
+    {
+      "number": 118,
+      "pali": "parapessena jīvati; ",
+      "english": "who lives off serving others: "
+    },
+    {
+      "number": 119,
+      "pali": "Evaṁ vāseṭṭha jānāhi, ",
+      "english": "know them, Vāseṭṭha, "
+    },
+    {
+      "number": 120,
+      "pali": "pessako so na brāhmaṇo. ",
+      "english": "as a servant, not a brahmin. "
+    },
+    {
+      "number": 121,
+      "pali": "Yo hi koci manussesu, ",
+      "english": "Anyone among humans "
+    },
+    {
+      "number": 122,
+      "pali": "adinnaṁ upajīvati; ",
+      "english": "who lives off stealing: "
+    },
+    {
+      "number": 123,
+      "pali": "Evaṁ vāseṭṭha jānāhi, ",
+      "english": "know them, Vāseṭṭha, "
+    },
+    {
+      "number": 124,
+      "pali": "coro eso na brāhmaṇo. ",
+      "english": "as a bandit, not a brahmin. "
+    },
+    {
+      "number": 125,
+      "pali": "Yo hi koci manussesu, ",
+      "english": "Anyone among humans "
+    },
+    {
+      "number": 126,
+      "pali": "issatthaṁ upajīvati; ",
+      "english": "who lives off archery: "
+    },
+    {
+      "number": 127,
+      "pali": "Evaṁ vāseṭṭha jānāhi, ",
+      "english": "know them, Vāseṭṭha, "
+    },
+    {
+      "number": 128,
+      "pali": "yodhājīvo na brāhmaṇo. ",
+      "english": "as a warrior, not a brahmin. "
+    },
+    {
+      "number": 129,
+      "pali": "Yo hi koci manussesu, ",
+      "english": "Anyone among humans "
+    },
+    {
+      "number": 130,
+      "pali": "porohiccena jīvati; ",
+      "english": "who lives off priesthood: "
+    },
+    {
+      "number": 131,
+      "pali": "Evaṁ vāseṭṭha jānāhi, ",
+      "english": "know them, Vāseṭṭha, "
+    },
+    {
+      "number": 132,
+      "pali": "yājako so na brāhmaṇo. ",
+      "english": "as a sacrificer, not a brahmin. "
+    },
+    {
+      "number": 133,
+      "pali": "Yo hi koci manussesu, ",
+      "english": "Anyone among humans "
+    },
+    {
+      "number": 134,
+      "pali": "gāmaṁ raṭṭhañca bhuñjati; ",
+      "english": "who taxes village and nation, "
+    },
+    {
+      "number": 135,
+      "pali": "Evaṁ vāseṭṭha jānāhi, ",
+      "english": "know them, Vāseṭṭha, "
+    },
+    {
+      "number": 136,
+      "pali": "rājā eso na brāhmaṇo. ",
+      "english": "as a ruler, not a brahmin. "
+    },
+    {
+      "number": 137,
+      "pali": "Na cāhaṁ brāhmaṇaṁ brūmi, ",
+      "english": "I don’t call someone a brahmin "
+    },
+    {
+      "number": 138,
+      "pali": "yonijaṁ mattisambhavaṁ; ",
+      "english": "after the mother’s womb they’re born from. "
+    },
+    {
+      "number": 139,
+      "pali": "Bhovādi nāma so hoti, ",
+      "english": "If they still have attachments, "
+    },
+    {
+      "number": 140,
+      "pali": "sace hoti sakiñcano; ",
+      "english": "they’re just someone who says ‘worthy’. "
+    },
+    {
+      "number": 141,
+      "pali": "Akiñcanaṁ anādānaṁ, ",
+      "english": "Having nothing, taking nothing: "
+    },
+    {
+      "number": 142,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 143,
+      "pali": "Sabbasaṁyojanaṁ chetvā, ",
+      "english": "Having cut off all fetters "
+    },
+    {
+      "number": 144,
+      "pali": "yo ve na paritassati; ",
+      "english": "they have no anxiety; "
+    },
+    {
+      "number": 145,
+      "pali": "Saṅgātigaṁ visaṁyuttaṁ, ",
+      "english": "they’ve slipped their chains and are detached: "
+    },
+    {
+      "number": 146,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 147,
+      "pali": "Chetvā naddhiṁ varattañca, ",
+      "english": "They’ve cut the strap and harness, "
+    },
+    {
+      "number": 148,
+      "pali": "sandānaṁ sahanukkamaṁ; ",
+      "english": "the halter and bridle too; "
+    },
+    {
+      "number": 149,
+      "pali": "Ukkhittapalighaṁ buddhaṁ, ",
+      "english": "with cross-bar lifted, they’re awakened: "
+    },
+    {
+      "number": 150,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 151,
+      "pali": "Akkosaṁ vadhabandhañca, ",
+      "english": "Abuse, killing, caging: "
+    },
+    {
+      "number": 152,
+      "pali": "aduṭṭho yo titikkhati; ",
+      "english": "they endure these without anger. "
+    },
+    {
+      "number": 153,
+      "pali": "Khantībalaṁ balānīkaṁ, ",
+      "english": "Patience is their powerful army: "
+    },
+    {
+      "number": 154,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 155,
+      "pali": "Akkodhanaṁ vatavantaṁ, ",
+      "english": "Not irritable or pretentious, "
+    },
+    {
+      "number": 156,
+      "pali": "sīlavantaṁ anussadaṁ; ",
+      "english": "dutiful in precepts and observances, "
+    },
+    {
+      "number": 157,
+      "pali": "Dantaṁ antimasārīraṁ, ",
+      "english": "tamed, bearing their final body: "
+    },
+    {
+      "number": 158,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 159,
+      "pali": "Vāripokkharapatteva, ",
+      "english": "Like rain off a lotus leaf, "
+    },
+    {
+      "number": 160,
+      "pali": "āraggeriva sāsapo; ",
+      "english": "like a mustard seed off the point of a pin, "
+    },
+    {
+      "number": 161,
+      "pali": "Yo na limpati kāmesu, ",
+      "english": "sensual pleasures slip off them: "
+    },
+    {
+      "number": 162,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 163,
+      "pali": "Yo dukkhassa pajānāti, ",
+      "english": "They understand for themselves "
+    },
+    {
+      "number": 164,
+      "pali": "idheva khayamattano; ",
+      "english": "the end of suffering in this life; "
+    },
+    {
+      "number": 165,
+      "pali": "Pannabhāraṁ visaṁyuttaṁ, ",
+      "english": "with burden put down, detached: "
+    },
+    {
+      "number": 166,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 167,
+      "pali": "Gambhīrapaññaṁ medhāviṁ, ",
+      "english": "Deep in wisdom, intelligent, "
+    },
+    {
+      "number": 168,
+      "pali": "maggāmaggassa kovidaṁ; ",
+      "english": "expert in what is the path <j>and what is not the path; "
+    },
+    {
+      "number": 169,
+      "pali": "Uttamatthamanuppattaṁ, ",
+      "english": "arrived at the highest goal: "
+    },
+    {
+      "number": 170,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 171,
+      "pali": "Asaṁsaṭṭhaṁ gahaṭṭhehi, ",
+      "english": "Mixing with neither "
+    },
+    {
+      "number": 172,
+      "pali": "anāgārehi cūbhayaṁ; ",
+      "english": "householders nor the homeless; "
+    },
+    {
+      "number": 173,
+      "pali": "Anokasārimappicchaṁ, ",
+      "english": "a migrant with no bastion, few in wishes: "
+    },
+    {
+      "number": 174,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 175,
+      "pali": "Nidhāya daṇḍaṁ bhūtesu, ",
+      "english": "They’ve laid aside violence "
+    },
+    {
+      "number": 176,
+      "pali": "tasesu thāvaresu ca; ",
+      "english": "against creatures firm and frail; "
+    },
+    {
+      "number": 177,
+      "pali": "Yo na hanti na ghāteti, ",
+      "english": "not killing or making others kill: "
+    },
+    {
+      "number": 178,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 179,
+      "pali": "Aviruddhaṁ viruddhesu, ",
+      "english": "Not fighting among those who fight, "
+    },
+    {
+      "number": 180,
+      "pali": "attadaṇḍesu nibbutaṁ; ",
+      "english": "quenched among those who have taken up arms, "
+    },
+    {
+      "number": 181,
+      "pali": "Sādānesu anādānaṁ, ",
+      "english": "not grasping among those who grasp: "
+    },
+    {
+      "number": 182,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 183,
+      "pali": "Yassa rāgo ca doso ca, ",
+      "english": "They’ve discarded greed and hate, "
+    },
+    {
+      "number": 184,
+      "pali": "māno makkho ca ohito; ",
+      "english": "along with conceit and contempt, "
+    },
+    {
+      "number": 185,
+      "pali": "Sāsaporiva āraggā, ",
+      "english": "like a mustard seed off the point of a pin: "
+    },
+    {
+      "number": 186,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 187,
+      "pali": "Akakkasaṁ viññāpaniṁ, ",
+      "english": "The words they utter "
+    },
+    {
+      "number": 188,
+      "pali": "giraṁ saccaṁ udīraye; ",
+      "english": "are polished, informative, and true, "
+    },
+    {
+      "number": 189,
+      "pali": "Yāya nābhisajje kiñci, ",
+      "english": "and don’t offend anyone: "
+    },
+    {
+      "number": 190,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 191,
+      "pali": "Yo ca dīghaṁ va rassaṁ vā, ",
+      "english": "They don’t steal anything in the world, "
+    },
+    {
+      "number": 192,
+      "pali": "aṇuṁ thūlaṁ subhāsubhaṁ; ",
+      "english": "long or short, "
+    },
+    {
+      "number": 193,
+      "pali": "Loke adinnaṁ nādeti, ",
+      "english": "fine or coarse, beautiful or ugly: "
+    },
+    {
+      "number": 194,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 195,
+      "pali": "Āsā yassa na vijjanti, ",
+      "english": "They have no hope "
+    },
+    {
+      "number": 196,
+      "pali": "asmiṁ loke paramhi ca; ",
+      "english": "for this world or the next; "
+    },
+    {
+      "number": 197,
+      "pali": "Nirāsāsaṁ visaṁyuttaṁ, ",
+      "english": "with no need for hope, detached: "
+    },
+    {
+      "number": 198,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 199,
+      "pali": "Yassālayā na vijjanti, ",
+      "english": "They have no clinging, "
+    },
+    {
+      "number": 200,
+      "pali": "aññāya akathaṅkathiṁ; ",
+      "english": "knowledge has freed them of indecision, "
+    },
+    {
+      "number": 201,
+      "pali": "Amatogadhaṁ anuppattaṁ, ",
+      "english": "they’ve arrived at the objective of freedom from death: "
+    },
+    {
+      "number": 202,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 203,
+      "pali": "Yodhapuññañca pāpañca, ",
+      "english": "They’ve escaped the snare "
+    },
+    {
+      "number": 204,
+      "pali": "ubho saṅgaṁ upaccagā; ",
+      "english": "of both good and bad deeds; "
+    },
+    {
+      "number": 205,
+      "pali": "Asokaṁ virajaṁ suddhaṁ, ",
+      "english": "sorrowless, stainless, pure: "
+    },
+    {
+      "number": 206,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 207,
+      "pali": "Candaṁ va vimalaṁ suddhaṁ, ",
+      "english": "Pure as the spotless moon, "
+    },
+    {
+      "number": 208,
+      "pali": "vippasannaṁ anāvilaṁ; ",
+      "english": "clear and undisturbed, "
+    },
+    {
+      "number": 209,
+      "pali": "Nandībhavaparikkhīṇaṁ, ",
+      "english": "they’ve ended relish for rebirth: "
+    },
+    {
+      "number": 210,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 211,
+      "pali": "Yo imaṁ palipathaṁ duggaṁ, ",
+      "english": "They’ve got past this grueling swamp "
+    },
+    {
+      "number": 212,
+      "pali": "saṁsāraṁ mohamaccagā; ",
+      "english": "of delusion, transmigration. "
+    },
+    {
+      "number": 213,
+      "pali": "Tiṇṇo pāraṅgato jhāyī, ",
+      "english": "Meditating in stillness, free of indecision, "
+    },
+    {
+      "number": 214,
+      "pali": "anejo akathaṅkathī; ",
+      "english": "they have crossed over to the far shore. "
+    },
+    {
+      "number": 215,
+      "pali": "Anupādāya nibbuto, ",
+      "english": "They’re quenched by not grasping: "
+    },
+    {
+      "number": 216,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 217,
+      "pali": "Yodhakāme pahantvāna, ",
+      "english": "They’ve given up sensual stimulations, "
+    },
+    {
+      "number": 218,
+      "pali": "anāgāro paribbaje; ",
+      "english": "and have gone forth from lay life; "
+    },
+    {
+      "number": 219,
+      "pali": "Kāmabhavaparikkhīṇaṁ, ",
+      "english": "they’ve ended rebirth in the sensual realm: "
+    },
+    {
+      "number": 220,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 221,
+      "pali": "Yodhataṇhaṁ pahantvāna, ",
+      "english": "They’ve given up craving, "
+    },
+    {
+      "number": 222,
+      "pali": "anāgāro paribbaje; ",
+      "english": "and have gone forth from lay life; "
+    },
+    {
+      "number": 223,
+      "pali": "Taṇhābhavaparikkhīṇaṁ, ",
+      "english": "they’ve ended craving to be reborn: "
+    },
+    {
+      "number": 224,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 225,
+      "pali": "Hitvā mānusakaṁ yogaṁ, ",
+      "english": "They’ve thrown off the human yoke, "
+    },
+    {
+      "number": 226,
+      "pali": "dibbaṁ yogaṁ upaccagā; ",
+      "english": "and slipped out of the heavenly yoke; "
+    },
+    {
+      "number": 227,
+      "pali": "Sabbayogavisaṁyuttaṁ, ",
+      "english": "unyoked from all yokes: "
+    },
+    {
+      "number": 228,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 229,
+      "pali": "Hitvā ratiñca aratiṁ, ",
+      "english": "Giving up desire and discontent, "
+    },
+    {
+      "number": 230,
+      "pali": "sītībhūtaṁ nirūpadhiṁ; ",
+      "english": "they’re cooled and free of attachments; "
+    },
+    {
+      "number": 231,
+      "pali": "Sabbalokābhibhuṁ vīraṁ, ",
+      "english": "a hero, master of the whole world: "
+    },
+    {
+      "number": 232,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 233,
+      "pali": "Cutiṁ yo vedi sattānaṁ, ",
+      "english": "They know the passing away "
+    },
+    {
+      "number": 234,
+      "pali": "upapattiñca sabbaso; ",
+      "english": "and rebirth of all beings; "
+    },
+    {
+      "number": 235,
+      "pali": "Asattaṁ sugataṁ buddhaṁ, ",
+      "english": "unattached, holy, awakened: "
+    },
+    {
+      "number": 236,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 237,
+      "pali": "Yassa gatiṁ na jānanti, ",
+      "english": "Gods, centaurs, and humans "
+    },
+    {
+      "number": 238,
+      "pali": "devā gandhabbamānusā; ",
+      "english": "don’t know their destiny; "
+    },
+    {
+      "number": 239,
+      "pali": "Khīṇāsavaṁ arahantaṁ, ",
+      "english": "the perfected ones with defilements ended: "
+    },
+    {
+      "number": 240,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 241,
+      "pali": "Yassa pure ca pacchā ca, ",
+      "english": "They have nothing before or after, "
+    },
+    {
+      "number": 242,
+      "pali": "majjhe ca natthi kiñcanaṁ; ",
+      "english": "or even in between. "
+    },
+    {
+      "number": 243,
+      "pali": "Akiñcanaṁ anādānaṁ, ",
+      "english": "Having nothing, taking nothing: "
+    },
+    {
+      "number": 244,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 245,
+      "pali": "Usabhaṁ pavaraṁ vīraṁ, ",
+      "english": "Captain of the herd, excellent hero, "
+    },
+    {
+      "number": 246,
+      "pali": "mahesiṁ vijitāvinaṁ; ",
+      "english": "great seer and victor; "
+    },
+    {
+      "number": 247,
+      "pali": "Anejaṁ nhātakaṁ buddhaṁ, ",
+      "english": "unstirred, washed, awakened: "
+    },
+    {
+      "number": 248,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 249,
+      "pali": "Pubbenivāsaṁ yo vedi, ",
+      "english": "They who know their past lives, "
+    },
+    {
+      "number": 250,
+      "pali": "saggāpāyañca passati; ",
+      "english": "see heaven and places of loss, "
+    },
+    {
+      "number": 251,
+      "pali": "Atho jātikkhayaṁ patto, ",
+      "english": "and have attained the end of rebirth: "
+    },
+    {
+      "number": 252,
+      "pali": "tamahaṁ brūmi brāhmaṇaṁ. ",
+      "english": "that’s who I declare a brahmin. "
+    },
+    {
+      "number": 253,
+      "pali": "Samaññā hesā lokasmiṁ, ",
+      "english": "For name and clan are formulated "
+    },
+    {
+      "number": 254,
+      "pali": "nāmagottaṁ pakappitaṁ; ",
+      "english": "as mere convention in the world. "
+    },
+    {
+      "number": 255,
+      "pali": "Sammuccā samudāgataṁ, ",
+      "english": "Produced by mutual agreement, "
+    },
+    {
+      "number": 256,
+      "pali": "tattha tattha pakappitaṁ. ",
+      "english": "they’re formulated in each case. "
+    },
+    {
+      "number": 257,
+      "pali": "Dīgharattānusayitaṁ, ",
+      "english": "For a long time this misconception "
+    },
+    {
+      "number": 258,
+      "pali": "diṭṭhigatamajānataṁ; ",
+      "english": "has prejudiced those who don’t understand. "
+    },
+    {
+      "number": 259,
+      "pali": "Ajānantā no pabrunti, ",
+      "english": "Ignorant, they declare "
+    },
+    {
+      "number": 260,
+      "pali": "jātiyā hoti brāhmaṇo. ",
+      "english": "that one is a brahmin by birth. "
+    },
+    {
+      "number": 261,
+      "pali": "Na jaccā brāhmaṇo hoti, ",
+      "english": "You’re not a brahmin by birth, "
+    },
+    {
+      "number": 262,
+      "pali": "na jaccā hoti abrāhmaṇo; ",
+      "english": "nor by birth a non-brahmin. "
+    },
+    {
+      "number": 263,
+      "pali": "Kammunā brāhmaṇo hoti, ",
+      "english": "You’re a brahmin by your deeds, "
+    },
+    {
+      "number": 264,
+      "pali": "kammunā hoti abrāhmaṇo. ",
+      "english": "and by deeds a non-brahmin. "
+    },
+    {
+      "number": 265,
+      "pali": "Kassako kammunā hoti, ",
+      "english": "You’re a farmer by your deeds, "
+    },
+    {
+      "number": 266,
+      "pali": "sippiko hoti kammunā; ",
+      "english": "by deeds you’re a professional; "
+    },
+    {
+      "number": 267,
+      "pali": "Vāṇijo kammunā hoti, ",
+      "english": "you’re a trader by your deeds, "
+    },
+    {
+      "number": 268,
+      "pali": "pessako hoti kammunā. ",
+      "english": "by deeds are you a servant; "
+    },
+    {
+      "number": 269,
+      "pali": "Coropi kammunā hoti, ",
+      "english": "you’re a bandit by your deeds, "
+    },
+    {
+      "number": 270,
+      "pali": "yodhājīvopi kammunā; ",
+      "english": "by deeds you’re a warrior; "
+    },
+    {
+      "number": 271,
+      "pali": "Yājako kammunā hoti, ",
+      "english": "you’re a sacrificer by your deeds, "
+    },
+    {
+      "number": 272,
+      "pali": "rājāpi hoti kammunā. ",
+      "english": "by deeds you’re a ruler. "
+    },
+    {
+      "number": 273,
+      "pali": "Evametaṁ yathābhūtaṁ, ",
+      "english": "In this way the astute regard deeds "
+    },
+    {
+      "number": 274,
+      "pali": "kammaṁ passanti paṇḍitā; ",
+      "english": "in accord with truth. "
+    },
+    {
+      "number": 275,
+      "pali": "Paṭiccasamuppādadassā, ",
+      "english": "Seeing dependent origination, "
+    },
+    {
+      "number": 276,
+      "pali": "kammavipākakovidā. ",
+      "english": "they’re expert in deeds and their results. "
+    },
+    {
+      "number": 277,
+      "pali": "Kammunā vattati loko, ",
+      "english": "Deeds make the world go on, "
+    },
+    {
+      "number": 278,
+      "pali": "kammunā vattati pajā; ",
+      "english": "deeds make people go on; "
+    },
+    {
+      "number": 279,
+      "pali": "Kammanibandhanā sattā, ",
+      "english": "sentient beings are bound by deeds, "
+    },
+    {
+      "number": 280,
+      "pali": "rathassāṇīva yāyato. ",
+      "english": "like a moving chariot’s linchpin. "
+    },
+    {
+      "number": 281,
+      "pali": "Tapena brahmacariyena, ",
+      "english": "By fervor and spiritual practice, "
+    },
+    {
+      "number": 282,
+      "pali": "saṁyamena damena ca; ",
+      "english": "by restraint and by self-control: "
+    },
+    {
+      "number": 283,
+      "pali": "Etena brāhmaṇo hoti, ",
+      "english": "that’s how to become a brahmin, "
+    },
+    {
+      "number": 284,
+      "pali": "etaṁ brāhmaṇamuttamaṁ. ",
+      "english": "this is the supreme brahmin. "
+    },
+    {
+      "number": 285,
+      "pali": "Tīhi vijjāhi sampanno, ",
+      "english": "Accomplished in the three knowledges, "
+    },
+    {
+      "number": 286,
+      "pali": "santo khīṇapunabbhavo; ",
+      "english": "peaceful, with rebirth ended, "
+    },
+    {
+      "number": 287,
+      "pali": "Evaṁ vāseṭṭha jānāhi, ",
+      "english": "know them, Vāseṭṭha, "
+    },
+    {
+      "number": 288,
+      "pali": "brahmā sakko vijānatan”ti. ",
+      "english": "as the Divinity and Sakka to the wise.” "
+    },
+    {
+      "number": 289,
+      "pali": "Evaṁ vutte, vāseṭṭhabhāradvājā māṇavā bhagavantaṁ etadavocuṁ: ",
+      "english": "When he had spoken, Vāseṭṭha and Bhāradvāja said to him, "
+    },
+    {
+      "number": 290,
+      "pali": "“abhikkantaṁ, bho gotama, abhikkantaṁ, bho gotama. ",
+      "english": "“Excellent, worthy Gotama! Excellent! "
+    },
+    {
+      "number": 291,
+      "pali": "Seyyathāpi, bho gotama, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya ‘cakkhumanto rūpāni dakkhantī’ti; evamevaṁ bhotā gotamena anekapariyāyena dhammo pakāsito. ",
+      "english": "As if he were righting the overturned, or revealing the hidden, or pointing out the path to the lost, or lighting a lamp in the dark so people with clear eyes can see what’s there, worthy Gotama has made the teaching clear in many ways. "
+    },
+    {
+      "number": 292,
+      "pali": "Ete mayaṁ bhavantaṁ gotamaṁ saraṇaṁ gacchāma dhammañca bhikkhusaṅghañca. ",
+      "english": "We go for refuge to the worthy Gotama, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 293,
+      "pali": "Upāsake no bhavaṁ gotamo dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gate”ti. ",
+      "english": "From this day forth, may the worthy Gotama remember us as lay followers who have gone for refuge for life.” "
+    },
+    {
+      "number": 294,
+      "pali": "Vāseṭṭhasuttaṁ niṭṭhitaṁ aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

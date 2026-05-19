@@ -1,0 +1,550 @@
+{
+  "sutta_id": "MN151",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 151 ",
+      "english": "Middle Discourses 151 "
+    },
+    {
+      "number": 2,
+      "pali": "Piṇḍapātapārisuddhisutta ",
+      "english": "The Purification of Alms "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā rājagahe viharati veḷuvane kalandakanivāpe. ",
+      "english": "At one time the Buddha was staying near Rājagaha, in the Bamboo Grove, the squirrels’ feeding ground. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho āyasmā sāriputto sāyanhasamayaṁ paṭisallānā vuṭṭhito yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho āyasmantaṁ sāriputtaṁ bhagavā etadavoca: ",
+      "english": "Then in the late afternoon, Sāriputta came out of retreat and went to the Buddha. He bowed and sat down to one side. The Buddha said to him, "
+    },
+    {
+      "number": 6,
+      "pali": "“Vippasannāni kho te, sāriputta, indriyāni, parisuddho chavivaṇṇo pariyodāto. ",
+      "english": "“Sāriputta, your faculties are so very clear, and your complexion is pure and bright. "
+    },
+    {
+      "number": 7,
+      "pali": "Katamena kho tvaṁ, sāriputta, vihārena etarahi bahulaṁ viharasī”ti? ",
+      "english": "What kind of meditation are you usually practicing these days?” "
+    },
+    {
+      "number": 8,
+      "pali": "“Suññatāvihārena kho ahaṁ, bhante, etarahi bahulaṁ viharāmī”ti. ",
+      "english": "“Sir, these days I usually practice the meditation on emptiness.” "
+    },
+    {
+      "number": 9,
+      "pali": "“Sādhu sādhu, sāriputta. ",
+      "english": "“Good, good, Sāriputta! "
+    },
+    {
+      "number": 10,
+      "pali": "Mahāpurisavihārena kira tvaṁ, sāriputta, etarahi bahulaṁ viharasi. ",
+      "english": "It seems you usually practice the meditation of a great man. "
+    },
+    {
+      "number": 11,
+      "pali": "Mahāpurisavihāro eso, sāriputta, yadidaṁ—",
+      "english": "For emptiness is the meditation of a great man. "
+    },
+    {
+      "number": 12,
+      "pali": "suññatā. ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "Tasmātiha, sāriputta, bhikkhu sace ākaṅkheyya: ",
+      "english": "Now, a mendicant might wish: "
+    },
+    {
+      "number": 14,
+      "pali": "‘suññatāvihārena bahulaṁ vihareyyan’ti, tena, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": "‘May I usually practice the meditation on emptiness.’ So they should reflect: "
+    },
+    {
+      "number": 15,
+      "pali": "‘yena cāhaṁ maggena gāmaṁ piṇḍāya pāvisiṁ, yasmiñca padese piṇḍāya acariṁ, yena ca maggena gāmato piṇḍāya paṭikkamiṁ, atthi nu kho me tattha cakkhuviññeyyesu rūpesu chando vā rāgo vā doso vā moho vā paṭighaṁ vāpi cetaso’ti? ",
+      "english": "‘Along the path that I went for alms, or in the place I wandered for alms, or along the path that I returned from alms, was there any desire or greed or hate or delusion or aversion in my heart for sights known by the eye?’ "
+    },
+    {
+      "number": 16,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "Suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 17,
+      "pali": "‘yena cāhaṁ maggena gāmaṁ piṇḍāya pāvisiṁ, yasmiñca padese piṇḍāya acariṁ, yena ca maggena gāmato piṇḍāya paṭikkamiṁ, atthi me tattha cakkhuviññeyyesu rūpesu chando vā rāgo vā doso vā moho vā paṭighaṁ vāpi cetaso’ti, tena, sāriputta, bhikkhunā tesaṁyeva pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya vāyamitabbaṁ. ",
+      "english": "there was such desire or greed or hate or delusion or aversion in their heart, they should make an effort to give up those unskillful qualities. "
+    },
+    {
+      "number": 18,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "But suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 19,
+      "pali": "‘yena cāhaṁ maggena gāmaṁ piṇḍāya pāvisiṁ, yasmiñca padese piṇḍāya acariṁ, yena ca maggena gāmato piṇḍāya paṭikkamiṁ, natthi me tattha cakkhuviññeyyesu rūpesu chando vā rāgo vā doso vā moho vā paṭighaṁ vāpi cetaso’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": "there was no such desire or greed or hate or delusion or aversion in their heart, they should meditate with rapture and joy, training day and night in skillful qualities. "
+    },
+    {
+      "number": 20,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": "Furthermore, a mendicant should reflect: "
+    },
+    {
+      "number": 21,
+      "pali": "‘yena cāhaṁ maggena gāmaṁ piṇḍāya pāvisiṁ, yasmiñca padese piṇḍāya acariṁ, yena ca maggena gāmato piṇḍāya paṭikkamiṁ, atthi nu kho me tattha sotaviññeyyesu saddesu …pe… ",
+      "english": "‘Along the path that I went for alms, or in the place I wandered for alms, or along the path that I returned from alms, was there any desire or greed or hate or delusion or repulsion in my heart for sounds known by the ear … "
+    },
+    {
+      "number": 22,
+      "pali": "ghānaviññeyyesu gandhesu … ",
+      "english": "smells known by the nose … "
+    },
+    {
+      "number": 23,
+      "pali": "jivhāviññeyyesu rasesu … ",
+      "english": "tastes known by the tongue … "
+    },
+    {
+      "number": 24,
+      "pali": "kāyaviññeyyesu phoṭṭhabbesu … ",
+      "english": "touches known by the body … "
+    },
+    {
+      "number": 25,
+      "pali": "manoviññeyyesu dhammesu chando vā rāgo vā doso vā moho vā paṭighaṁ vāpi cetaso’ti? ",
+      "english": "ideas known by the mind?’ "
+    },
+    {
+      "number": 26,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "Suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 27,
+      "pali": "‘yena cāhaṁ maggena gāmaṁ piṇḍāya pāvisiṁ, yasmiñca padese piṇḍāya acariṁ, yena ca maggena gāmato piṇḍāya paṭikkamiṁ, atthi me tattha manoviññeyyesu dhammesu chando vā rāgo vā doso vā moho vā paṭighaṁ vāpi cetaso’ti, tena, sāriputta, bhikkhunā tesaṁyeva pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya vāyamitabbaṁ. ",
+      "english": "there was such desire or greed or hate or delusion or aversion in their heart, they should make an effort to give up those unskillful qualities. "
+    },
+    {
+      "number": 28,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "But suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 29,
+      "pali": "‘yena cāhaṁ maggena gāmaṁ piṇḍāya pāvisiṁ, yasmiñca padese piṇḍāya acariṁ, yena ca maggena gāmato piṇḍāya paṭikkamiṁ, natthi me tattha manoviññeyyesu dhammesu chando vā rāgo vā doso vā moho vā paṭighaṁ vāpi cetaso’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": "there was no such desire or greed or hate or delusion or aversion in their heart, they should meditate with rapture and joy, training day and night in skillful qualities. "
+    },
+    {
+      "number": 30,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": "Furthermore, a mendicant should reflect: "
+    },
+    {
+      "number": 31,
+      "pali": "‘pahīnā nu kho me pañca kāmaguṇā’ti? ",
+      "english": "‘Have I given up the five kinds of sensual stimulation?’ "
+    },
+    {
+      "number": 32,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "Suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 33,
+      "pali": "‘appahīnā kho me pañca kāmaguṇā’ti, tena, sāriputta, bhikkhunā pañcannaṁ kāmaguṇānaṁ pahānāya vāyamitabbaṁ. ",
+      "english": "they have not given them up, they should make an effort to do so. "
+    },
+    {
+      "number": 34,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "But suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 35,
+      "pali": "‘pahīnā kho me pañca kāmaguṇā’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": "they have given them up, they should meditate with rapture and joy, training day and night in skillful qualities. "
+    },
+    {
+      "number": 36,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": "Furthermore, a mendicant should reflect: "
+    },
+    {
+      "number": 37,
+      "pali": "‘pahīnā nu kho me pañca nīvaraṇā’ti? ",
+      "english": "‘Have I given up the five hindrances?’ "
+    },
+    {
+      "number": 38,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "Suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 39,
+      "pali": "‘appahīnā kho me pañca nīvaraṇā’ti, tena, sāriputta, bhikkhunā pañcannaṁ nīvaraṇānaṁ pahānāya vāyamitabbaṁ. ",
+      "english": "they have not given them up, they should make an effort to do so. "
+    },
+    {
+      "number": 40,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "But suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 41,
+      "pali": "‘pahīnā kho me pañca nīvaraṇā’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": "they have given them up, they should meditate with rapture and joy, training day and night in skillful qualities. "
+    },
+    {
+      "number": 42,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": "Furthermore, a mendicant should reflect: "
+    },
+    {
+      "number": 43,
+      "pali": "‘pariññātā nu kho me pañcupādānakkhandhā’ti? ",
+      "english": "‘Have I completely understood the five grasping aggregates?’ "
+    },
+    {
+      "number": 44,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "Suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 45,
+      "pali": "‘apariññātā kho me pañcupādānakkhandhā’ti, tena, sāriputta, bhikkhunā pañcannaṁ upādānakkhandhānaṁ pariññāya vāyamitabbaṁ. ",
+      "english": "they have not completely understood them, they should make an effort to do so. "
+    },
+    {
+      "number": 46,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "But suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 47,
+      "pali": "‘pariññātā kho me pañcupādānakkhandhā’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": "they have completely understood them, they should meditate with rapture and joy, training day and night in skillful qualities. "
+    },
+    {
+      "number": 48,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": "Furthermore, a mendicant should reflect: "
+    },
+    {
+      "number": 49,
+      "pali": "‘bhāvitā nu kho me cattāro satipaṭṭhānā’ti? ",
+      "english": "‘Have I developed the four kinds of mindfulness meditation?’ "
+    },
+    {
+      "number": 50,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "Suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 51,
+      "pali": "‘abhāvitā kho me cattāro satipaṭṭhānā’ti, tena, sāriputta, bhikkhunā catunnaṁ satipaṭṭhānānaṁ bhāvanāya vāyamitabbaṁ. ",
+      "english": "they haven’t developed them, they should make an effort to do so. "
+    },
+    {
+      "number": 52,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "But suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 53,
+      "pali": "‘bhāvitā kho me cattāro satipaṭṭhānā’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": "they have developed them, they should meditate with rapture and joy, training day and night in skillful qualities. "
+    },
+    {
+      "number": 54,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": "Furthermore, a mendicant should reflect: "
+    },
+    {
+      "number": 55,
+      "pali": "‘bhāvitā nu kho me cattāro sammappadhānā’ti? ",
+      "english": "‘Have I developed the four right efforts … "
+    },
+    {
+      "number": 56,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "‘abhāvitā kho me cattāro sammappadhānā’ti, tena, sāriputta, bhikkhunā catunnaṁ sammappadhānānaṁ bhāvanāya vāyamitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "‘bhāvitā kho me cattāro sammappadhānā’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "‘bhāvitā nu kho me cattāro iddhipādā’ti? ",
+      "english": "the four bases of psychic power … "
+    },
+    {
+      "number": 62,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "‘abhāvitā kho me cattāro iddhipādā’ti, tena, sāriputta, bhikkhunā catunnaṁ iddhipādānaṁ bhāvanāya vāyamitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "‘bhāvitā kho me cattāro iddhipādā’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "‘bhāvitāni nu kho me pañcindriyānī’ti? ",
+      "english": "the five faculties … "
+    },
+    {
+      "number": 68,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "‘abhāvitāni kho me pañcindriyānī’ti, tena, sāriputta, bhikkhunā pañcannaṁ indriyānaṁ bhāvanāya vāyamitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "‘bhāvitāni kho me pañcindriyānī’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "‘bhāvitāni nu kho me pañca balānī’ti? ",
+      "english": "the five powers … "
+    },
+    {
+      "number": 74,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "‘abhāvitāni kho me pañca balānī’ti, tena, sāriputta, bhikkhunā pañcannaṁ balānaṁ bhāvanāya vāyamitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "‘bhāvitāni kho me pañca balānī’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "‘bhāvitā nu kho me satta bojjhaṅgā’ti? ",
+      "english": "the seven awakening factors … "
+    },
+    {
+      "number": 80,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "‘abhāvitā kho me satta bojjhaṅgā’ti, tena, sāriputta, bhikkhunā sattannaṁ bojjhaṅgānaṁ bhāvanāya vāyamitabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "‘bhāvitā kho me satta bojjhaṅgā’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": ""
+    },
+    {
+      "number": 84,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 85,
+      "pali": "‘bhāvito nu kho me ariyo aṭṭhaṅgiko maggo’ti? ",
+      "english": "the noble eightfold path?’ "
+    },
+    {
+      "number": 86,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "Suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 87,
+      "pali": "‘abhāvito kho me ariyo aṭṭhaṅgiko maggo’ti, tena, sāriputta, bhikkhunā ariyassa aṭṭhaṅgikassa maggassa bhāvanāya vāyamitabbaṁ. ",
+      "english": "they haven’t developed it, they should make an effort to do so. "
+    },
+    {
+      "number": 88,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "But suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 89,
+      "pali": "‘bhāvito kho me ariyo aṭṭhaṅgiko maggo’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": "they have developed it, they should meditate with rapture and joy, training day and night in skillful qualities. "
+    },
+    {
+      "number": 90,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": "Furthermore, a mendicant should reflect: "
+    },
+    {
+      "number": 91,
+      "pali": "‘bhāvitā nu kho me samatho ca vipassanā cā’ti? ",
+      "english": "‘Have I developed serenity and discernment?’ "
+    },
+    {
+      "number": 92,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "Suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 93,
+      "pali": "‘abhāvitā kho me samatho ca vipassanā cā’ti, tena, sāriputta, bhikkhunā samathavipassanānaṁ bhāvanāya vāyamitabbaṁ. ",
+      "english": "they haven’t developed them, they should make an effort to do so. "
+    },
+    {
+      "number": 94,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "But suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 95,
+      "pali": "‘bhāvitā kho me samatho ca vipassanā cā’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": "they have developed them, they should meditate with rapture and joy, training day and night in skillful qualities. "
+    },
+    {
+      "number": 96,
+      "pali": "Puna caparaṁ, sāriputta, bhikkhunā iti paṭisañcikkhitabbaṁ: ",
+      "english": "Furthermore, a mendicant should reflect: "
+    },
+    {
+      "number": 97,
+      "pali": "‘sacchikatā nu kho me vijjā ca vimutti cā’ti? ",
+      "english": "‘Have I realized knowledge and freedom?’ "
+    },
+    {
+      "number": 98,
+      "pali": "Sace, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "Suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 99,
+      "pali": "‘asacchikatā kho me vijjā ca vimutti cā’ti, tena, sāriputta, bhikkhunā vijjāya vimuttiyā sacchikiriyāya vāyamitabbaṁ. ",
+      "english": "they haven’t realized them, they should make an effort to do so. "
+    },
+    {
+      "number": 100,
+      "pali": "Sace pana, sāriputta, bhikkhu paccavekkhamāno evaṁ jānāti: ",
+      "english": "But suppose that, upon checking, a mendicant knows that "
+    },
+    {
+      "number": 101,
+      "pali": "‘sacchikatā kho me vijjā ca vimutti cā’ti, tena, sāriputta, bhikkhunā teneva pītipāmojjena vihātabbaṁ ahorattānusikkhinā kusalesu dhammesu. ",
+      "english": "they have realized them, they should meditate with rapture and joy, training day and night in skillful qualities. "
+    },
+    {
+      "number": 102,
+      "pali": "Ye hi keci, sāriputta, atītamaddhānaṁ samaṇā vā brāhmaṇā vā piṇḍapātaṁ parisodhesuṁ, sabbe te evameva paccavekkhitvā paccavekkhitvā piṇḍapātaṁ parisodhesuṁ. ",
+      "english": "Whether in the past, future, or present, all those who purify their almsfood do so by continually checking in this way. "
+    },
+    {
+      "number": 103,
+      "pali": "Yepi hi keci, sāriputta, anāgatamaddhānaṁ samaṇā vā brāhmaṇā vā piṇḍapātaṁ parisodhessanti, sabbe te evameva paccavekkhitvā paccavekkhitvā piṇḍapātaṁ parisodhessanti. ",
+      "english": ""
+    },
+    {
+      "number": 104,
+      "pali": "Yepi hi keci, sāriputta, etarahi samaṇā vā brāhmaṇā vā piṇḍapātaṁ parisodhenti, sabbe te evameva paccavekkhitvā paccavekkhitvā piṇḍapātaṁ parisodhenti. ",
+      "english": ""
+    },
+    {
+      "number": 105,
+      "pali": "Tasmātiha, sāriputta, ‘paccavekkhitvā paccavekkhitvā piṇḍapātaṁ parisodhessāmā’ti—",
+      "english": "So, Sāriputta, you should all train like this: ‘We shall purify our almsfood by continually checking.’” "
+    },
+    {
+      "number": 106,
+      "pali": "evañhi vo, sāriputta, sikkhitabban”ti. ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 108,
+      "pali": "Attamano āyasmā sāriputto bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Sāriputta approved what the Buddha said. "
+    },
+    {
+      "number": 109,
+      "pali": "Piṇḍapātapārisuddhisuttaṁ niṭṭhitaṁ navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

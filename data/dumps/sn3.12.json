@@ -1,0 +1,340 @@
+{
+  "sutta_id": "SN3.12",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 3.12 ",
+      "english": "Linked Discourses 3.12 "
+    },
+    {
+      "number": 2,
+      "pali": "2. Dutiyavagga ",
+      "english": "2. Childless "
+    },
+    {
+      "number": 3,
+      "pali": "Pañcarājasutta ",
+      "english": "Five Kings "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthinidānaṁ. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena pañcannaṁ rājūnaṁ pasenadipamukhānaṁ pañcahi kāmaguṇehi samappitānaṁ samaṅgībhūtānaṁ paricārayamānānaṁ ayamantarākathā udapādi: ",
+      "english": "Now at that time five kings headed by Pasenadi were amusing themselves, supplied and provided with the five kinds of sensual stimulation, and this discussion came up among them: "
+    },
+    {
+      "number": 6,
+      "pali": "“kiṁ nu kho kāmānaṁ aggan”ti? ",
+      "english": "“What’s the best of sensual pleasures?” "
+    },
+    {
+      "number": 7,
+      "pali": "Tatrekacce evamāhaṁsu: ",
+      "english": "Some of them said, "
+    },
+    {
+      "number": 8,
+      "pali": "“rūpā kāmānaṁ aggan”ti. ",
+      "english": "“Sights are the best of sensual pleasures!” "
+    },
+    {
+      "number": 9,
+      "pali": "Ekacce evamāhaṁsu: ",
+      "english": "Others said, "
+    },
+    {
+      "number": 10,
+      "pali": "“saddā kāmānaṁ aggan”ti. ",
+      "english": "“Sounds are best!” "
+    },
+    {
+      "number": 11,
+      "pali": "Ekacce evamāhaṁsu: ",
+      "english": "Others said, "
+    },
+    {
+      "number": 12,
+      "pali": "“gandhā kāmānaṁ aggan”ti. ",
+      "english": "“Smells are best!” "
+    },
+    {
+      "number": 13,
+      "pali": "Ekacce evamāhaṁsu: ",
+      "english": "Others said, "
+    },
+    {
+      "number": 14,
+      "pali": "“rasā kāmānaṁ aggan”ti. ",
+      "english": "“Tastes are best!” "
+    },
+    {
+      "number": 15,
+      "pali": "Ekacce evamāhaṁsu: ",
+      "english": "Others said, "
+    },
+    {
+      "number": 16,
+      "pali": "“phoṭṭhabbā kāmānaṁ aggan”ti. ",
+      "english": "“Touches are best!” "
+    },
+    {
+      "number": 17,
+      "pali": "Yato kho te rājāno nāsakkhiṁsu aññamaññaṁ saññāpetuṁ. ",
+      "english": "Since those kings were unable to persuade each other, "
+    },
+    {
+      "number": 18,
+      "pali": "Atha kho rājā pasenadi kosalo te rājāno etadavoca: ",
+      "english": "King Pasenadi said to them, "
+    },
+    {
+      "number": 19,
+      "pali": "“āyāma, mārisā, yena bhagavā tenupasaṅkamissāma; upasaṅkamitvā bhagavantaṁ etamatthaṁ paṭipucchissāma. ",
+      "english": "“Come, good fellows, let’s go to the Buddha and ask him about this. "
+    },
+    {
+      "number": 20,
+      "pali": "Yathā no bhagavā byākarissati tathā naṁ dhāressāmā”ti. ",
+      "english": "As he answers, so we’ll remember it.” "
+    },
+    {
+      "number": 21,
+      "pali": "“Evaṁ, mārisā”ti kho te rājāno rañño pasenadissa kosalassa paccassosuṁ. ",
+      "english": "“Yes, good fellows,” replied those kings. "
+    },
+    {
+      "number": 22,
+      "pali": "Atha kho te pañca rājāno pasenadipamukhā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinno kho rājā pasenadi kosalo bhagavantaṁ etadavoca: ",
+      "english": "Then those five kings headed by Pasenadi went to the Buddha, bowed, and sat down to one side. King Pasenadi reported their conversation to the Buddha, and said, "
+    },
+    {
+      "number": 23,
+      "pali": "“idha, bhante, amhākaṁ pañcannaṁ rājūnaṁ pañcahi kāmaguṇehi samappitānaṁ samaṅgībhūtānaṁ paricārayamānānaṁ ayamantarākathā udapādi: ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "‘kiṁ nu kho kāmānaṁ aggan’ti? ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Ekacce evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "‘rūpā kāmānaṁ aggan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "Ekacce evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "‘saddā kāmānaṁ aggan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Ekacce evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "‘gandhā kāmānaṁ aggan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Ekacce evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "‘rasā kāmānaṁ aggan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Ekacce evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "‘phoṭṭhabbā kāmānaṁ aggan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Kiṁ nu kho, bhante, kāmānaṁ aggan”ti? ",
+      "english": "“Sir, what’s the best of sensual pleasures?” "
+    },
+    {
+      "number": 36,
+      "pali": "“Manāpapariyantaṁ khvāhaṁ, mahārāja, pañcasu kāmaguṇesu agganti vadāmi. ",
+      "english": "“Great king, which kind of sensual stimulation is best is defined by which is most agreeable, I say. "
+    },
+    {
+      "number": 37,
+      "pali": "Teva, mahārāja, rūpā ekaccassa manāpā honti, teva rūpā ekaccassa amanāpā honti. ",
+      "english": "The very same sights that are agreeable to some are disagreeable to others. "
+    },
+    {
+      "number": 38,
+      "pali": "Yehi ca yo rūpehi attamano hoti paripuṇṇasaṅkappo, so tehi rūpehi aññaṁ rūpaṁ uttaritaraṁ vā paṇītataraṁ vā na pattheti. ",
+      "english": "When you’re happy with certain sights, as you’ve got all you wished for, you don’t want any other sight that’s better or finer. "
+    },
+    {
+      "number": 39,
+      "pali": "Te tassa rūpā paramā honti. ",
+      "english": "For you, those sights are perfect "
+    },
+    {
+      "number": 40,
+      "pali": "Te tassa rūpā anuttarā honti. ",
+      "english": "and supreme. "
+    },
+    {
+      "number": 41,
+      "pali": "Teva, mahārāja, saddā ekaccassa manāpā honti, teva saddā ekaccassa amanāpā honti. ",
+      "english": "The very same sounds … "
+    },
+    {
+      "number": 42,
+      "pali": "Yehi ca yo saddehi attamano hoti paripuṇṇasaṅkappo, so tehi saddehi aññaṁ saddaṁ uttaritaraṁ vā paṇītataraṁ vā na pattheti. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Te tassa saddā paramā honti. ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "Te tassa saddā anuttarā honti. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Teva, mahārāja, gandhā ekaccassa manāpā honti, teva gandhā ekaccassa amanāpā honti. ",
+      "english": "smells … "
+    },
+    {
+      "number": 46,
+      "pali": "Yehi ca yo gandhehi attamano hoti paripuṇṇasaṅkappo, so tehi gandhehi aññaṁ gandhaṁ uttaritaraṁ vā paṇītataraṁ vā na pattheti. ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "Te tassa gandhā paramā honti. ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "Te tassa gandhā anuttarā honti. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Teva, mahārāja, rasā ekaccassa manāpā honti, teva rasā ekaccassa amanāpā honti. ",
+      "english": "tastes … "
+    },
+    {
+      "number": 50,
+      "pali": "Yehi ca yo rasehi attamano hoti paripuṇṇasaṅkappo, so tehi rasehi aññaṁ rasaṁ uttaritaraṁ vā paṇītataraṁ vā na pattheti. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Te tassa rasā paramā honti. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Te tassa rasā anuttarā honti. ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Teva, mahārāja, phoṭṭhabbā ekaccassa manāpā honti, teva phoṭṭhabbā ekaccassa amanāpā honti. ",
+      "english": "touches that are agreeable to some are disagreeable to others. "
+    },
+    {
+      "number": 54,
+      "pali": "Yehi ca yo phoṭṭhabbehi attamano hoti paripuṇṇasaṅkappo, so tehi phoṭṭhabbehi aññaṁ phoṭṭhabbaṁ uttaritaraṁ vā paṇītataraṁ vā na pattheti. ",
+      "english": "When you’re happy with certain touches, as you’ve got all you wished for, you don’t want any other touch that’s better or finer. "
+    },
+    {
+      "number": 55,
+      "pali": "Te tassa phoṭṭhabbā paramā honti. ",
+      "english": "For you, those touches are perfect "
+    },
+    {
+      "number": 56,
+      "pali": "Te tassa phoṭṭhabbā anuttarā hontī”ti. ",
+      "english": "and supreme.” "
+    },
+    {
+      "number": 57,
+      "pali": "Tena kho pana samayena candanaṅgaliko upāsako tassaṁ parisāyaṁ nisinno hoti. ",
+      "english": "Now at that time the lay follower Candanaṅgalika was sitting in that assembly. "
+    },
+    {
+      "number": 58,
+      "pali": "Atha kho candanaṅgaliko upāsako uṭṭhāyāsanā ekaṁsaṁ uttarāsaṅgaṁ karitvā yena bhagavā tenañjaliṁ paṇāmetvā bhagavantaṁ etadavoca: ",
+      "english": "Then he got up from his seat, arranged his robe over one shoulder, raised his cupped palms toward the Buddha, and said, "
+    },
+    {
+      "number": 59,
+      "pali": "“paṭibhāti maṁ, bhagavā, paṭibhāti maṁ, sugatā”ti. ",
+      "english": "“I feel inspired to speak, Blessed One! I feel inspired to speak, Holy One!” "
+    },
+    {
+      "number": 60,
+      "pali": "“Paṭibhātu taṁ, candanaṅgalikā”ti bhagavā avoca. ",
+      "english": "“Then speak as you feel inspired,” said the Buddha. "
+    },
+    {
+      "number": 61,
+      "pali": "Atha kho candanaṅgaliko upāsako bhagavato sammukhā tadanurūpāya gāthāya abhitthavi: ",
+      "english": "Then the lay follower Candanaṅgalika extolled the Buddha in his presence with an appropriate verse: "
+    },
+    {
+      "number": 62,
+      "pali": "“Padumaṁ yathā kokanadaṁ sugandhaṁ, ",
+      "english": "“Like a fragrant pink lotus "
+    },
+    {
+      "number": 63,
+      "pali": "Pāto siyā phullamavītagandhaṁ; ",
+      "english": "that blooms at daybreak, its fragrance unfaded—"
+    },
+    {
+      "number": 64,
+      "pali": "Aṅgīrasaṁ passa virocamānaṁ, ",
+      "english": "see Aṅgīrasa shine, "
+    },
+    {
+      "number": 65,
+      "pali": "Tapantamādiccamivantalikkhe”ti. ",
+      "english": "bright as the sun in the sky!” "
+    },
+    {
+      "number": 66,
+      "pali": "Atha kho te pañca rājāno candanaṅgalikaṁ upāsakaṁ pañcahi uttarāsaṅgehi acchādesuṁ. ",
+      "english": "Then those five kings clothed Candanaṅgalika with five upper robes. "
+    },
+    {
+      "number": 67,
+      "pali": "Atha kho candanaṅgaliko upāsako tehi pañcahi uttarāsaṅgehi bhagavantaṁ acchādesīti. ",
+      "english": "And Candanaṅgalika in turn endowed the Buddha with those robes. "
+    }
+  ]
+}

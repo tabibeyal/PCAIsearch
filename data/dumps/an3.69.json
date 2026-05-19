@@ -1,0 +1,400 @@
+{
+  "sutta_id": "AN3.69",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 3.69 ",
+      "english": "Numbered Discourses 3.69 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Mahāvagga ",
+      "english": "7. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Akusalamūlasutta ",
+      "english": "Unskillful Roots "
+    },
+    {
+      "number": 4,
+      "pali": "“Tīṇimāni, bhikkhave, akusalamūlāni. ",
+      "english": "“Mendicants, there are these three unskillful roots. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamāni tīṇi? ",
+      "english": "What three? "
+    },
+    {
+      "number": 6,
+      "pali": "Lobho akusalamūlaṁ, doso akusalamūlaṁ, moho akusalamūlaṁ. ",
+      "english": "Greed, hate, and delusion. "
+    },
+    {
+      "number": 7,
+      "pali": "Yadapi, bhikkhave, lobho tadapi akusalamūlaṁ; ",
+      "english": "Greed is a root of the unskillful. "
+    },
+    {
+      "number": 8,
+      "pali": "yadapi luddho abhisaṅkharoti kāyena vācāya manasā tadapi akusalaṁ; ",
+      "english": "When a greedy person chooses to act by way of body, speech, or mind, that too is unskillful. "
+    },
+    {
+      "number": 9,
+      "pali": "yadapi luddho lobhena abhibhūto pariyādinnacitto parassa asatā dukkhaṁ uppādayati vadhena vā bandhanena vā jāniyā vā garahāya vā pabbājanāya vā balavamhi balattho itipi tadapi akusalaṁ. ",
+      "english": "When a greedy person, overcome by greed, causes another to suffer under a false pretext—by execution or imprisonment or confiscation or condemnation or banishment—thinking ‘I’m powerful, I want power’, that too is unskillful. "
+    },
+    {
+      "number": 10,
+      "pali": "Itissame lobhajā lobhanidānā lobhasamudayā lobhapaccayā aneke pāpakā akusalā dhammā sambhavanti. ",
+      "english": "And so these many bad, unskillful things are produced in them, born, sourced, originated, and conditioned by greed. "
+    },
+    {
+      "number": 11,
+      "pali": "Yadapi, bhikkhave, doso tadapi akusalamūlaṁ; ",
+      "english": "Hate is a root of the unskillful. "
+    },
+    {
+      "number": 12,
+      "pali": "yadapi duṭṭho abhisaṅkharoti kāyena vācāya manasā tadapi akusalaṁ; ",
+      "english": "When a hateful person chooses to act by way of body, speech, or mind, that too is unskillful. "
+    },
+    {
+      "number": 13,
+      "pali": "yadapi duṭṭho dosena abhibhūto pariyādinnacitto parassa asatā dukkhaṁ uppādayati vadhena vā bandhanena vā jāniyā vā garahāya vā pabbājanāya vā balavamhi balattho itipi tadapi akusalaṁ. ",
+      "english": "When a hateful person, overcome by hate, causes another to suffer under a false pretext—by execution or imprisonment or confiscation or condemnation or banishment—thinking ‘I’m powerful, I want power’, that too is unskillful. "
+    },
+    {
+      "number": 14,
+      "pali": "Itissame dosajā dosanidānā dosasamudayā dosapaccayā aneke pāpakā akusalā dhammā sambhavanti. ",
+      "english": "And so these many bad, unskillful things are produced in them, born, sourced, originated, and conditioned by hate. "
+    },
+    {
+      "number": 15,
+      "pali": "Yadapi, bhikkhave, moho tadapi akusalamūlaṁ; ",
+      "english": "Delusion is a root of the unskillful. "
+    },
+    {
+      "number": 16,
+      "pali": "yadapi mūḷho abhisaṅkharoti kāyena vācāya manasā tadapi akusalaṁ; ",
+      "english": "When a deluded person chooses to act by way of body, speech, or mind, that too is unskillful. "
+    },
+    {
+      "number": 17,
+      "pali": "yadapi mūḷho mohena abhibhūto pariyādinnacitto parassa asatā dukkhaṁ uppādayati vadhena vā bandhanena vā jāniyā vā garahāya vā pabbājanāya vā balavamhi balattho itipi tadapi akusalaṁ. ",
+      "english": "When a deluded person, overcome by delusion, causes another to suffer under a false pretext—by execution or imprisonment or confiscation or condemnation or banishment—thinking ‘I’m powerful, I want power’, that too is unskillful. "
+    },
+    {
+      "number": 18,
+      "pali": "Itissame mohajā mohanidānā mohasamudayā mohapaccayā aneke pāpakā akusalā dhammā sambhavanti. ",
+      "english": "And so these many bad, unskillful things are produced in them, born, sourced, originated, and conditioned by delusion. "
+    },
+    {
+      "number": 19,
+      "pali": "Evarūpo cāyaṁ, bhikkhave, puggalo vuccati akālavādītipi, abhūtavādītipi, anatthavādītipi, adhammavādītipi, avinayavādītipi. ",
+      "english": "Such an individual is said to have speech that’s ill-timed, false, meaningless, not in line with the teaching and training. "
+    },
+    {
+      "number": 20,
+      "pali": "Kasmā cāyaṁ, bhikkhave, evarūpo puggalo vuccati akālavādītipi, abhūtavādītipi, anatthavādītipi, adhammavādītipi, avinayavādītipi? ",
+      "english": "Why is this? "
+    },
+    {
+      "number": 21,
+      "pali": "Tathāhāyaṁ, bhikkhave, puggalo parassa asatā dukkhaṁ uppādayati vadhena vā bandhanena vā jāniyā vā garahāya vā pabbājanāya vā balavamhi balattho itipi. ",
+      "english": "This individual causes another to suffer under a false pretext—by execution or imprisonment or confiscation or condemnation or banishment—thinking ‘I’m powerful, I want power’. "
+    },
+    {
+      "number": 22,
+      "pali": "Bhūtena kho pana vuccamāno avajānāti, no paṭijānāti; ",
+      "english": "So when someone makes a valid criticism, they’re scornful and admit nothing. "
+    },
+    {
+      "number": 23,
+      "pali": "abhūtena vuccamāno na ātappaṁ karoti, tassa nibbeṭhanāya itipetaṁ atacchaṁ itipetaṁ abhūtanti. ",
+      "english": "When someone makes a baseless criticism, they make no effort to explain, ‘This is why that’s untrue, this is why that’s false.’ "
+    },
+    {
+      "number": 24,
+      "pali": "Tasmā evarūpo puggalo vuccati akālavādītipi, abhūtavādītipi, anatthavādītipi, adhammavādītipi, avinayavādītipi. ",
+      "english": "That’s why such an individual is said to have speech that’s ill-timed, false, meaningless, not in line with the teaching and training. "
+    },
+    {
+      "number": 25,
+      "pali": "Evarūpo, bhikkhave, puggalo lobhajehi pāpakehi akusalehi dhammehi abhibhūto pariyādinnacitto diṭṭhe ceva dhamme dukkhaṁ viharati, savighātaṁ saupāyāsaṁ sapariḷāhaṁ. ",
+      "english": "Such an individual—overcome with bad, unskillful qualities born of greed, hate, and delusion—suffers in this very life, with distress, anguish, and fever. "
+    },
+    {
+      "number": 26,
+      "pali": "Kāyassa ca bhedā paraṁ maraṇā duggati pāṭikaṅkhā. ",
+      "english": "And when the body breaks up, after death, they can expect to be reborn in a bad place. "
+    },
+    {
+      "number": 27,
+      "pali": "Dosajehi …pe… ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "mohajehi pāpakehi akusalehi dhammehi abhibhūto pariyādinnacitto diṭṭhe ceva dhamme dukkhaṁ viharati, savighātaṁ saupāyāsaṁ sapariḷāhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Kāyassa ca bhedā paraṁ maraṇā duggati pāṭikaṅkhā. ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Seyyathāpi, bhikkhave, sālo vā dhavo vā phandano vā tīhi māluvālatāhi uddhasto pariyonaddho anayaṁ āpajjati, byasanaṁ āpajjati, anayabyasanaṁ āpajjati; ",
+      "english": "Suppose a sal, axlewood, or boxwood tree was choked and engulfed by three camel’s foot creepers. It would fall to ruin and disaster. "
+    },
+    {
+      "number": 31,
+      "pali": "evamevaṁ kho, bhikkhave, evarūpo puggalo lobhajehi pāpakehi akusalehi dhammehi abhibhūto pariyādinnacitto diṭṭhe ceva dhamme dukkhaṁ viharati, savighātaṁ saupāyāsaṁ sapariḷāhaṁ. ",
+      "english": "In the same way, such an individual—overcome with bad, unskillful qualities born of greed, hate, and delusion—suffers in this very life, with distress, anguish, and fever. "
+    },
+    {
+      "number": 32,
+      "pali": "Kāyassa ca bhedā paraṁ maraṇā duggati pāṭikaṅkhā. ",
+      "english": "And when the body breaks up, after death, they can expect to be reborn in a bad place. "
+    },
+    {
+      "number": 33,
+      "pali": "Dosajehi …pe… ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "mohajehi pāpakehi akusalehi dhammehi abhibhūto pariyādinnacitto diṭṭhe ceva dhamme dukkhaṁ viharati savighātaṁ saupāyāsaṁ sapariḷāhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Kāyassa ca bhedā paraṁ maraṇā duggati pāṭikaṅkhā. ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "Imāni kho, bhikkhave, tīṇi akusalamūlānīti. ",
+      "english": "These are the three unskillful roots. "
+    },
+    {
+      "number": 37,
+      "pali": "Tīṇimāni, bhikkhave, kusalamūlāni. ",
+      "english": "There are these three skillful roots. "
+    },
+    {
+      "number": 38,
+      "pali": "Katamāni tīṇi? ",
+      "english": "What three? "
+    },
+    {
+      "number": 39,
+      "pali": "Alobho kusalamūlaṁ, adoso kusalamūlaṁ, amoho kusalamūlaṁ. ",
+      "english": "Contentment, love, and understanding. "
+    },
+    {
+      "number": 40,
+      "pali": "Yadapi, bhikkhave, alobho tadapi kusalamūlaṁ; ",
+      "english": "Contentment is a root of the skillful. "
+    },
+    {
+      "number": 41,
+      "pali": "yadapi aluddho abhisaṅkharoti kāyena vācāya manasā tadapi kusalaṁ; ",
+      "english": "When a contented person chooses to act by way of body, speech, or mind, that too is skillful. "
+    },
+    {
+      "number": 42,
+      "pali": "yadapi aluddho lobhena anabhibhūto apariyādinnacitto na parassa asatā dukkhaṁ uppādayati vadhena vā bandhanena vā jāniyā vā garahāya vā pabbājanāya vā balavamhi balattho itipi tadapi kusalaṁ. ",
+      "english": "When a contented person, not overcome by greed, doesn’t cause another to suffer under a false pretext—by execution or imprisonment or confiscation or condemnation or banishment—thinking ‘I’m powerful, I want power’, that too is skillful. "
+    },
+    {
+      "number": 43,
+      "pali": "Itissame alobhajā alobhanidānā alobhasamudayā alobhapaccayā aneke kusalā dhammā sambhavanti. ",
+      "english": "And so these many skillful things are produced in them, born, sourced, originated, and conditioned by contentment. "
+    },
+    {
+      "number": 44,
+      "pali": "Yadapi, bhikkhave, adoso tadapi kusalamūlaṁ; ",
+      "english": "Love is a root of the skillful. "
+    },
+    {
+      "number": 45,
+      "pali": "yadapi aduṭṭho abhisaṅkharoti kāyena vācāya manasā tadapi kusalaṁ; ",
+      "english": "When a loving person chooses to act by way of body, speech, or mind, that too is skillful. "
+    },
+    {
+      "number": 46,
+      "pali": "yadapi aduṭṭho dosena anabhibhūto apariyādinnacitto na parassa asatā dukkhaṁ uppādayati vadhena vā bandhanena vā jāniyā vā garahāya vā pabbājanāya vā balavamhi balattho itipi tadapi kusalaṁ. ",
+      "english": "When a loving person, not overcome by hate, doesn’t cause another to suffer under a false pretext—by execution or imprisonment or confiscation or condemnation or banishment—thinking ‘I’m powerful, I want power’, that too is skillful. "
+    },
+    {
+      "number": 47,
+      "pali": "Itissame adosajā adosanidānā adosasamudayā adosapaccayā aneke kusalā dhammā sambhavanti. ",
+      "english": "And so these many skillful things are produced in them, born, sourced, originated, and conditioned by love. "
+    },
+    {
+      "number": 48,
+      "pali": "Yadapi, bhikkhave, amoho tadapi kusalamūlaṁ; ",
+      "english": "Understanding is a root of the skillful. "
+    },
+    {
+      "number": 49,
+      "pali": "yadapi amūḷho abhisaṅkharoti kāyena vācāya manasā tadapi kusalaṁ; ",
+      "english": "When an understanding person chooses to act by way of body, speech, or mind, that too is skillful. "
+    },
+    {
+      "number": 50,
+      "pali": "yadapi amūḷho mohena anabhibhūto apariyādinnacitto na parassa asatā dukkhaṁ uppādayati vadhena vā bandhanena vā jāniyā vā garahāya vā pabbājanāya vā balavamhi balattho itipi tadapi kusalaṁ. ",
+      "english": "When an understanding person, not overcome by delusion, doesn’t cause another to suffer under a false pretext—by execution or imprisonment or confiscation or condemnation or banishment—thinking ‘I’m powerful, I want power’, that too is skillful. "
+    },
+    {
+      "number": 51,
+      "pali": "Itissame amohajā amohanidānā amohasamudayā amohapaccayā aneke kusalā dhammā sambhavanti. ",
+      "english": "And so these many skillful things are produced in them, born, sourced, originated, and conditioned by understanding. "
+    },
+    {
+      "number": 52,
+      "pali": "Evarūpo cāyaṁ, bhikkhave, puggalo vuccati kālavādītipi, bhūtavādītipi, atthavādītipi, dhammavādītipi, vinayavādītipi. ",
+      "english": "Such an individual is said to have speech that’s well-timed, true, meaningful, in line with the teaching and training. "
+    },
+    {
+      "number": 53,
+      "pali": "Kasmā cāyaṁ, bhikkhave, evarūpo puggalo vuccati kālavādītipi, bhūtavādītipi, atthavādītipi, dhammavādītipi, vinayavādītipi? ",
+      "english": "Why is this? "
+    },
+    {
+      "number": 54,
+      "pali": "Tathāhāyaṁ, bhikkhave, puggalo na parassa asatā dukkhaṁ uppādayati vadhena vā bandhanena vā jāniyā vā garahāya vā pabbājanāya vā balavamhi balattho itipi. ",
+      "english": "This individual doesn’t cause another to suffer under a false pretext—by execution or imprisonment or confiscation or condemnation or banishment—thinking ‘I’m powerful, I want power’. "
+    },
+    {
+      "number": 55,
+      "pali": "Bhūtena kho pana vuccamāno paṭijānāti no avajānāti; ",
+      "english": "So when someone makes a valid criticism, they admit it and aren’t scornful. "
+    },
+    {
+      "number": 56,
+      "pali": "abhūtena vuccamāno ātappaṁ karoti tassa nibbeṭhanāya: ",
+      "english": "When someone makes a baseless criticism, they make an effort to explain, "
+    },
+    {
+      "number": 57,
+      "pali": "‘itipetaṁ atacchaṁ, itipetaṁ abhūtan’ti. ",
+      "english": "‘This is why that’s untrue, this is why that’s false.’ "
+    },
+    {
+      "number": 58,
+      "pali": "Tasmā evarūpo puggalo vuccati kālavādītipi, atthavādītipi, dhammavādītipi, vinayavādītipi. ",
+      "english": "That’s why such an individual is said to have speech that’s well-timed, true, meaningful, in line with the teaching and training. "
+    },
+    {
+      "number": 59,
+      "pali": "Evarūpassa, bhikkhave, puggalassa lobhajā pāpakā akusalā dhammā pahīnā ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
+      "english": "For such an individual, bad unskillful qualities born of greed, hate, and delusion are cut off at the root, made like a palm stump, obliterated, and unable to arise in the future. "
+    },
+    {
+      "number": 60,
+      "pali": "Diṭṭheva dhamme sukhaṁ viharati avighātaṁ anupāyāsaṁ apariḷāhaṁ. ",
+      "english": "In this very life they’re happy, free of distress, anguish, and fever, "
+    },
+    {
+      "number": 61,
+      "pali": "Diṭṭheva dhamme parinibbāyati. ",
+      "english": "and they’re also extinguished in this very life. "
+    },
+    {
+      "number": 62,
+      "pali": "Dosajā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "parinibbāyati. ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "Mohajā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "parinibbāyati. ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "Seyyathāpi bhikkhave, sālo vā dhavo vā phandano vā tīhi māluvālatāhi uddhasto pariyonaddho. ",
+      "english": "Suppose a sal, axlewood, or boxwood tree was choked and engulfed by three camel’s foot creepers. "
+    },
+    {
+      "number": 67,
+      "pali": "Atha puriso āgaccheyya kudālapiṭakaṁ ādāya. ",
+      "english": "Then along comes a person with a spade and basket. "
+    },
+    {
+      "number": 68,
+      "pali": "So taṁ māluvālataṁ mūle chindeyya, mūle chetvā palikhaṇeyya, palikhaṇitvā mūlāni uddhareyya, antamaso usīranāḷimattānipi. ",
+      "english": "They’d cut the creeper out by the roots, dig them up, and pull them out, down to the fibers and stems. "
+    },
+    {
+      "number": 69,
+      "pali": "So taṁ māluvālataṁ khaṇḍākhaṇḍikaṁ chindeyya, khaṇḍākhaṇḍikaṁ chetvā phāleyya, phāletvā sakalikaṁ sakalikaṁ kareyya, sakalikaṁ sakalikaṁ karitvā vātātape visoseyya, vātātape visosetvā agginā ḍaheyya, agginā ḍahitvā masiṁ kareyya, masiṁ karitvā mahāvāte vā ophuṇeyya nadiyā vā sīghasotāya pavāheyya. ",
+      "english": "Then they’d split the creeper apart, cut up the parts, and chop it into splinters. They’d dry the splinters in the wind and sun, burn them with fire, and reduce them to ashes. Then they’d whisk away the ashes in a strong wind, or glide them down a swift stream. "
+    },
+    {
+      "number": 70,
+      "pali": "Evamassa tā, bhikkhave, māluvālatā ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
+      "english": "So those camel’s foot creepers would be cut off at the root, made like a palm stump, and obliterated, unable to arise in the future. "
+    },
+    {
+      "number": 71,
+      "pali": "Evamevaṁ kho, bhikkhave, evarūpassa puggalassa lobhajā pāpakā akusalā dhammā pahīnā ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
+      "english": "In the same way, for such an individual, bad unskillful qualities born of greed, hate, and delusion are cut off at the root, made like a palm stump, obliterated, and unable to arise in the future. "
+    },
+    {
+      "number": 72,
+      "pali": "Diṭṭheva dhamme sukhaṁ viharati avighātaṁ anupāyāsaṁ apariḷāhaṁ. ",
+      "english": "In this very life they’re happy, free of  distress, anguish, and fever, "
+    },
+    {
+      "number": 73,
+      "pali": "Diṭṭheva dhamme parinibbāyati. ",
+      "english": "and they’re also extinguished in this very life. "
+    },
+    {
+      "number": 74,
+      "pali": "Dosajā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "mohajā pāpakā akusalā dhammā pahīnā ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "Diṭṭheva dhamme sukhaṁ viharati avighātaṁ anupāyāsaṁ apariḷāhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "Diṭṭheva dhamme parinibbāyati. ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "Imāni kho, bhikkhave, tīṇi kusalamūlānī”ti. ",
+      "english": "These are the three skillful roots.” "
+    },
+    {
+      "number": 79,
+      "pali": "Navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

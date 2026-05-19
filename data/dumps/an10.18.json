@@ -1,0 +1,300 @@
+{
+  "sutta_id": "AN10.18",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.18 ",
+      "english": "Numbered Discourses 10.18 "
+    },
+    {
+      "number": 2,
+      "pali": "2. Nāthavagga ",
+      "english": "2. A Protector "
+    },
+    {
+      "number": 3,
+      "pali": "Dutiyanāthasutta ",
+      "english": "A Protector (2nd) "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 6,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 7,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 8,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 9,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 10,
+      "pali": "“Sanāthā, bhikkhave, viharatha, mā anāthā. ",
+      "english": "“Mendicants, you should live with a protector, not without one. "
+    },
+    {
+      "number": 11,
+      "pali": "Dukkhaṁ, bhikkhave, anātho viharati. ",
+      "english": "Living without a protector is suffering. "
+    },
+    {
+      "number": 12,
+      "pali": "Dasayime, bhikkhave, nāthakaraṇā dhammā. ",
+      "english": "There are ten qualities that serve as protector. "
+    },
+    {
+      "number": 13,
+      "pali": "Katame dasa? ",
+      "english": "What ten? "
+    },
+    {
+      "number": 14,
+      "pali": "Idha, bhikkhave, bhikkhu sīlavā hoti …pe… samādāya sikkhati sikkhāpadesu. ",
+      "english": "Firstly, a mendicant is ethical, restrained in the monastic code, conducting themselves well and resorting for alms in suitable places. Seeing danger in the slightest fault, they keep the rules they’ve undertaken. "
+    },
+    {
+      "number": 15,
+      "pali": "‘Sīlavā vatāyaṁ bhikkhu pātimokkhasaṁvarasaṁvuto viharati ācāragocarasampanno aṇumattesu vajjesu bhayadassāvī, samādāya sikkhati sikkhāpadesū’ti therāpi naṁ bhikkhū vattabbaṁ anusāsitabbaṁ maññanti, majjhimāpi bhikkhū … navāpi bhikkhū vattabbaṁ anusāsitabbaṁ maññanti. ",
+      "english": "Knowing this, the mendicants—whether senior, middle, or junior—think that mendicant is worth advising and instructing. "
+    },
+    {
+      "number": 16,
+      "pali": "Tassa therānukampitassa majjhimānukampitassa navānukampitassa vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": "Being treated with such kindness by the senior, middle, and junior mendicants, that mendicant can expect only growth, not decline. "
+    },
+    {
+      "number": 17,
+      "pali": "Ayampi dhammo nāthakaraṇo. ",
+      "english": "This is a quality that serves as protector. "
+    },
+    {
+      "number": 18,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu bahussuto hoti …pe… diṭṭhiyā suppaṭividdhā. ",
+      "english": "Furthermore, a mendicant is very learned, remembering and keeping what they’ve learned. These teachings are good in the beginning, good in the middle, and good in the end, meaningful and well-phrased, describing a spiritual practice that’s entirely full and pure. They are very learned in such teachings, remembering them, reinforcing them by recitation, mentally scrutinizing them, and penetrating them theoretically. "
+    },
+    {
+      "number": 19,
+      "pali": "‘Bahussuto vatāyaṁ bhikkhu sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā’ti therāpi naṁ bhikkhū vattabbaṁ anusāsitabbaṁ maññanti, majjhimāpi bhikkhū … navāpi bhikkhū vattabbaṁ anusāsitabbaṁ maññanti. ",
+      "english": "Knowing this, the mendicants—whether senior, middle, or junior—think that mendicant is worth advising and instructing. "
+    },
+    {
+      "number": 20,
+      "pali": "Tassa therānukampitassa majjhimānukampitassa navānukampitassa vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": "Being treated with such kindness by the senior, middle, and junior mendicants, that mendicant can expect only growth, not decline. "
+    },
+    {
+      "number": 21,
+      "pali": "Ayampi dhammo nāthakaraṇo. ",
+      "english": "This too is a quality that serves as protector. "
+    },
+    {
+      "number": 22,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+      "english": "Furthermore, a mendicant has good friends, companions, and associates. "
+    },
+    {
+      "number": 23,
+      "pali": "‘Kalyāṇamitto vatāyaṁ bhikkhu kalyāṇasahāyo kalyāṇasampavaṅko’ti therāpi naṁ bhikkhū vattabbaṁ anusāsitabbaṁ maññanti, majjhimāpi bhikkhū … navāpi bhikkhū vattabbaṁ anusāsitabbaṁ maññanti. ",
+      "english": "Knowing this, the mendicants—whether senior, middle, or junior—think that mendicant is worth advising and instructing. "
+    },
+    {
+      "number": 24,
+      "pali": "Tassa therānukampitassa majjhimānukampitassa navānukampitassa vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": "Being treated with such kindness by the senior, middle, and junior mendicants, that mendicant can expect only growth, not decline. "
+    },
+    {
+      "number": 25,
+      "pali": "Ayampi dhammo nāthakaraṇo. ",
+      "english": "This too is a quality that serves as protector. "
+    },
+    {
+      "number": 26,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu suvaco hoti sovacassakaraṇehi dhammehi samannāgato, khamo padakkhiṇaggāhī anusāsaniṁ. ",
+      "english": "Furthermore, a mendicant is easy to admonish, having qualities that make them easy to admonish. They’re patient, and take instruction respectfully. "
+    },
+    {
+      "number": 27,
+      "pali": "‘Suvaco vatāyaṁ bhikkhu sovacassakaraṇehi dhammehi samannāgato, khamo padakkhiṇaggāhī anusāsanin’ti therāpi naṁ bhikkhū vattabbaṁ anusāsitabbaṁ maññanti, majjhimāpi bhikkhū … navāpi bhikkhū vattabbaṁ anusāsitabbaṁ maññanti. ",
+      "english": "Knowing this, the mendicants—whether senior, middle, or junior—think that mendicant is worth advising and instructing. "
+    },
+    {
+      "number": 28,
+      "pali": "Tassa therānukampitassa majjhimānukampitassa navānukampitassa vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": "Being treated with such kindness by the senior, middle, and junior mendicants, that mendicant can expect only growth, not decline. "
+    },
+    {
+      "number": 29,
+      "pali": "Ayampi dhammo nāthakaraṇo. ",
+      "english": "This too is a quality that serves as protector. "
+    },
+    {
+      "number": 30,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu yāni tāni sabrahmacārīnaṁ uccāvacāni kiṅkaraṇīyāni, tattha dakkho hoti analaso, tatrūpāyāya vīmaṁsāya samannāgato, alaṁ kātuṁ alaṁ saṁvidhātuṁ. ",
+      "english": "Furthermore, a mendicant is deft and tireless in a diverse spectrum of duties for their spiritual companions, understanding how to go about things in order to complete and organize the work. "
+    },
+    {
+      "number": 31,
+      "pali": "‘Yāni tāni sabrahmacārīnaṁ uccāvacāni kiṅkaraṇīyāni, tattha dakkho vatāyaṁ bhikkhu analaso, tatrūpāyāya vīmaṁsāya samannāgato, alaṁ kātuṁ alaṁ saṁvidhātun’ti therāpi naṁ bhikkhū vattabbaṁ anusāsitabbaṁ maññanti, majjhimāpi bhikkhū … navāpi bhikkhū vattabbaṁ anusāsitabbaṁ maññanti. ",
+      "english": "Knowing this, the mendicants—whether senior, middle, or junior—think that mendicant is worth advising and instructing. "
+    },
+    {
+      "number": 32,
+      "pali": "Tassa therānukampitassa majjhimānukampitassa navānukampitassa vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": "Being treated with such kindness by the senior, middle, and junior mendicants, that mendicant can expect only growth, not decline. "
+    },
+    {
+      "number": 33,
+      "pali": "Ayampi dhammo nāthakaraṇo. ",
+      "english": "This too is a quality that serves as protector. "
+    },
+    {
+      "number": 34,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu dhammakāmo hoti piyasamudāhāro, abhidhamme abhivinaye uḷārapāmojjo. ",
+      "english": "Furthermore, a mendicant loves the teachings and is a delight to converse with, being full of joy in the teaching and training. "
+    },
+    {
+      "number": 35,
+      "pali": "‘Dhammakāmo vatāyaṁ bhikkhu piyasamudāhāro, abhidhamme abhivinaye uḷārapāmojjo’ti therāpi naṁ bhikkhū vattabbaṁ anusāsitabbaṁ maññanti, majjhimāpi bhikkhū … navāpi bhikkhū vattabbaṁ anusāsitabbaṁ maññanti. ",
+      "english": "Knowing this, the mendicants—whether senior, middle, or junior—think that mendicant is worth advising and instructing. "
+    },
+    {
+      "number": 36,
+      "pali": "Tassa therānukampitassa majjhimānukampitassa navānukampitassa vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": "Being treated with such kindness by the senior, middle, and junior mendicants, that mendicant can expect only growth, not decline. "
+    },
+    {
+      "number": 37,
+      "pali": "Ayampi dhammo nāthakaraṇo. ",
+      "english": "This too is a quality that serves as protector. "
+    },
+    {
+      "number": 38,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu āraddhavīriyo viharati akusalānaṁ dhammānaṁ pahānāya, kusalānaṁ dhammānaṁ upasampadāya, thāmavā daḷhaparakkamo anikkhittadhuro kusalesu dhammesu ‘āraddhavīriyo vatāyaṁ bhikkhu viharati akusalānaṁ dhammānaṁ pahānāya, kusalānaṁ dhammānaṁ upasampadāya, thāmavā daḷhaparakkamo anikkhittadhuro kusalesu dhammesū’ti therāpi naṁ bhikkhū vattabbaṁ anusāsitabbaṁ maññanti, majjhimāpi bhikkhū … ",
+      "english": "Furthermore, a mendicant lives with energy roused up for giving up unskillful qualities and embracing skillful qualities. They are strong, staunchly vigorous, not slacking off when it comes to developing skillful qualities. "
+    },
+    {
+      "number": 39,
+      "pali": "navāpi bhikkhū vattabbaṁ anusāsitabbaṁ maññanti. ",
+      "english": "Knowing this, the mendicants—whether senior, middle, or junior—think that mendicant is worth advising and instructing. "
+    },
+    {
+      "number": 40,
+      "pali": "Tassa therānukampitassa majjhimānukampitassa navānukampitassa vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": "Being treated with such kindness by the senior, middle, and junior mendicants, that mendicant can expect only growth, not decline. "
+    },
+    {
+      "number": 41,
+      "pali": "Ayampi dhammo nāthakaraṇo. ",
+      "english": "This too is a quality that serves as protector. "
+    },
+    {
+      "number": 42,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu santuṭṭho hoti itarītaracīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārena. ",
+      "english": "Furthermore, a mendicant is content with any kind of robes, almsfood, lodgings, and medicines and supplies for the sick. "
+    },
+    {
+      "number": 43,
+      "pali": "‘Santuṭṭho vatāyaṁ bhikkhu itarītaracīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārenā’ti therāpi naṁ bhikkhū vattabbaṁ anusāsitabbaṁ maññanti, majjhimāpi bhikkhū … navāpi bhikkhū vattabbaṁ anusāsitabbaṁ maññanti. ",
+      "english": "Knowing this, the mendicants—whether senior, middle, or junior—think that mendicant is worth advising and instructing. "
+    },
+    {
+      "number": 44,
+      "pali": "Tassa therānukampitassa majjhimānukampitassa navānukampitassa vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": "Being treated with such kindness by the senior, middle, and junior mendicants, that mendicant can expect only growth, not decline. "
+    },
+    {
+      "number": 45,
+      "pali": "Ayampi dhammo nāthakaraṇo. ",
+      "english": "This too is a quality that serves as protector. "
+    },
+    {
+      "number": 46,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu satimā hoti paramena satinepakkena samannāgato, cirakatampi cirabhāsitampi saritā anussaritā. ",
+      "english": "Furthermore, a mendicant is mindful. They have utmost mindfulness and alertness, and can remember and recall what was said and done long ago. "
+    },
+    {
+      "number": 47,
+      "pali": "‘Satimā vatāyaṁ bhikkhu paramena satinepakkena samannāgato, cirakatampi cirabhāsitampi saritā anussaritā’ti therāpi naṁ bhikkhū vattabbaṁ anusāsitabbaṁ maññanti, majjhimāpi bhikkhū … navāpi bhikkhū vattabbaṁ anusāsitabbaṁ maññanti. ",
+      "english": "Knowing this, the mendicants—whether senior, middle, or junior—think that mendicant is worth advising and instructing. "
+    },
+    {
+      "number": 48,
+      "pali": "Tassa therānukampitassa majjhimānukampitassa navānukampitassa vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+      "english": "Being treated with such kindness by the senior, middle, and junior mendicants, that mendicant can expect only growth, not decline. "
+    },
+    {
+      "number": 49,
+      "pali": "Ayampi dhammo nāthakaraṇo. ",
+      "english": "This too is a quality that serves as protector. "
+    },
+    {
+      "number": 50,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu paññavā hoti udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā. ",
+      "english": "Furthermore, a mendicant is wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. "
+    },
+    {
+      "number": 51,
+      "pali": "‘Paññavā vatāyaṁ bhikkhu udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā’ti therāpi naṁ bhikkhū vattabbaṁ anusāsitabbaṁ maññanti, majjhimāpi bhikkhū … navāpi bhikkhū vattabbaṁ anusāsitabbaṁ maññanti. ",
+      "english": "Knowing this, the mendicants—whether senior, middle, or junior—think that mendicant is worth advising and instructing. "
+    },
+    {
+      "number": 52,
+      "pali": "Tassa therānukampitassa …pe… no parihāni. ",
+      "english": "Being treated with such kindness by the senior, middle, and junior mendicants, that mendicant can expect only growth, not decline. "
+    },
+    {
+      "number": 53,
+      "pali": "Ayampi dhammo nāthakaraṇo. ",
+      "english": "This too is a quality that serves as protector. "
+    },
+    {
+      "number": 54,
+      "pali": "Sanāthā, bhikkhave, viharatha, mā anāthā. ",
+      "english": "You should live with a protector, not without one. "
+    },
+    {
+      "number": 55,
+      "pali": "Dukkhaṁ, bhikkhave, anātho viharati. ",
+      "english": "Living without a protector is suffering. "
+    },
+    {
+      "number": 56,
+      "pali": "Ime kho, bhikkhave, dasa nāthakaraṇā dhammā”ti. ",
+      "english": "These are the ten qualities that serve as protector.” "
+    },
+    {
+      "number": 57,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 58,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 59,
+      "pali": "Aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

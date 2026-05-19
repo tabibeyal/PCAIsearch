@@ -1,0 +1,290 @@
+{
+  "sutta_id": "AN10.95",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.95 ",
+      "english": "Numbered Discourses 10.95 "
+    },
+    {
+      "number": 2,
+      "pali": "10. Upālivagga ",
+      "english": "10. With Upāli "
+    },
+    {
+      "number": 3,
+      "pali": "Uttiyasutta ",
+      "english": "With Uttiya "
+    },
+    {
+      "number": 4,
+      "pali": "Atha kho uttiyo paribbājako yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "Then the wanderer Uttiya went up to the Buddha, and exchanged greetings with him. "
+    },
+    {
+      "number": 5,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho uttiyo paribbājako bhagavantaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to the Buddha, "
+    },
+    {
+      "number": 6,
+      "pali": "“kiṁ nu kho, bho gotama, sassato loko, idameva saccaṁ moghamaññan”ti? ",
+      "english": "“Worthy Gotama, is this right: ‘The cosmos is eternal. This is the only truth, anything else is futile’?” "
+    },
+    {
+      "number": 7,
+      "pali": "“Abyākataṁ kho etaṁ, uttiya, mayā: ",
+      "english": "“This has not been declared by me, Uttiya.” "
+    },
+    {
+      "number": 8,
+      "pali": "‘sassato loko, idameva saccaṁ moghamaññan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 9,
+      "pali": "“Kiṁ pana, bho gotama, asassato loko, idameva saccaṁ moghamaññan”ti? ",
+      "english": "“Then is this right: ‘The cosmos is not eternal. This is the only truth, anything else is futile’?” "
+    },
+    {
+      "number": 10,
+      "pali": "“Etampi kho, uttiya, abyākataṁ mayā: ",
+      "english": "“This has not been declared by me, Uttiya.” "
+    },
+    {
+      "number": 11,
+      "pali": "‘asassato loko, idameva saccaṁ moghamaññan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 12,
+      "pali": "“Kiṁ nu kho, bho gotama, antavā loko …pe… ",
+      "english": "“Then is this right: ‘The cosmos is finite …’ … "
+    },
+    {
+      "number": 13,
+      "pali": "anantavā loko … ",
+      "english": "‘The cosmos is infinite …’ … "
+    },
+    {
+      "number": 14,
+      "pali": "taṁ jīvaṁ taṁ sarīraṁ … ",
+      "english": "‘The soul and the body are one and the same …’ … "
+    },
+    {
+      "number": 15,
+      "pali": "aññaṁ jīvaṁ aññaṁ sarīraṁ … ",
+      "english": "‘The soul is one thing, the body another …’ … "
+    },
+    {
+      "number": 16,
+      "pali": "hoti tathāgato paraṁ maraṇā … ",
+      "english": "‘A realized one still exists after death …’ … "
+    },
+    {
+      "number": 17,
+      "pali": "na hoti tathāgato paraṁ maraṇā … ",
+      "english": "‘A realized one no longer exists after death …’ … "
+    },
+    {
+      "number": 18,
+      "pali": "hoti ca na ca hoti tathāgato paraṁ maraṇā … ",
+      "english": "‘A realized one both still exists and no longer exists after death …’ … "
+    },
+    {
+      "number": 19,
+      "pali": "neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan”ti? ",
+      "english": "‘A Realized One neither exists nor doesn’t exist after death. This is the only truth, anything else is futile’?” "
+    },
+    {
+      "number": 20,
+      "pali": "“Etampi kho, uttiya, abyākataṁ mayā: ",
+      "english": "“This has not been declared by me, Uttiya.” "
+    },
+    {
+      "number": 21,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "“‘Kiṁ nu kho, bho gotama, sassato loko, idameva saccaṁ moghamaññan’ti, iti puṭṭho samāno ‘abyākataṁ kho etaṁ, uttiya, mayā—",
+      "english": "“When asked about all these points, worthy Gotama says that they have not been declared by him. "
+    },
+    {
+      "number": 23,
+      "pali": "sassato loko, idameva saccaṁ moghamaññan’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "‘Kiṁ pana, bho gotama, asassato loko, idameva saccaṁ moghamaññan’ti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "‘etampi kho, uttiya, abyākataṁ mayā asassato loko, idameva saccaṁ moghamaññan’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "‘Kiṁ nu kho, bho gotama, antavā loko …pe… ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "anantavā loko … ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "taṁ jīvaṁ taṁ sarīraṁ … ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "aññaṁ jīvaṁ aññaṁ sarīraṁ … ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "hoti tathāgato paraṁ maraṇā … ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "na hoti tathāgato paraṁ maraṇā … ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "hoti ca na ca hoti tathāgato paraṁ maraṇā … ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "‘etampi kho, uttiya, abyākataṁ mayā—",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "Atha kiñcarahi bhotā gotamena byākatan”ti? ",
+      "english": "So what then has been declared by Mister Gotama?” "
+    },
+    {
+      "number": 37,
+      "pali": "“Abhiññāya kho ahaṁ, uttiya, sāvakānaṁ dhammaṁ desemi sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāyā”ti. ",
+      "english": "“Uttiya, I teach my disciples from my own insight in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness, to end the cycle of suffering, and to realize extinguishment.” "
+    },
+    {
+      "number": 38,
+      "pali": "“Yaṁ panetaṁ bhavaṁ gotamo abhiññāya sāvakānaṁ dhammaṁ desesi sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, sabbo vā tena loko nīyati upaḍḍho vā tibhāgo vā”ti? ",
+      "english": "“But when the worthy Gotama teaches in this way, is the whole world saved, or half, or a third?” "
+    },
+    {
+      "number": 39,
+      "pali": "Evaṁ vutte, bhagavā tuṇhī ahosi. ",
+      "english": "But when he said this, the Buddha kept silent. "
+    },
+    {
+      "number": 40,
+      "pali": "Atha kho āyasmato ānandassa etadahosi: ",
+      "english": "Then Venerable Ānanda thought, "
+    },
+    {
+      "number": 41,
+      "pali": "“mā hevaṁ kho uttiyo paribbājako pāpakaṁ diṭṭhigataṁ paṭilabhi: ",
+      "english": "“The wanderer Uttiya must not get the harmful misconception: "
+    },
+    {
+      "number": 42,
+      "pali": "‘sabbasāmukkaṁsikaṁ vata me samaṇo gotamo pañhaṁ puṭṭho saṁsādeti, no vissajjeti, na nūna visahatī’ti. ",
+      "english": "‘When the ascetic Gotama was asked this all-important question he falters without answering. He just can’t do it!’ "
+    },
+    {
+      "number": 43,
+      "pali": "Tadassa uttiyassa paribbājakassa dīgharattaṁ ahitāya dukkhāyā”ti. ",
+      "english": "That would be for his lasting harm and suffering.” "
+    },
+    {
+      "number": 44,
+      "pali": "Atha kho āyasmā ānando uttiyaṁ paribbājakaṁ etadavoca: ",
+      "english": "Then Ānanda said to the wanderer Uttiya, "
+    },
+    {
+      "number": 45,
+      "pali": "“tenahāvuso uttiya, upamaṁ te karissāmi. ",
+      "english": "“Well then, Reverend Uttiya, I shall give you a simile. "
+    },
+    {
+      "number": 46,
+      "pali": "Upamāya m’idhekacce viññū purisā bhāsitassa atthaṁ ājānanti. ",
+      "english": "For by means of a simile some sensible people understand the meaning of what is said. "
+    },
+    {
+      "number": 47,
+      "pali": "Seyyathāpi, āvuso uttiya, rañño paccantimaṁ nagaraṁ daḷhuddhāpaṁ daḷhapākāratoraṇaṁ ekadvāraṁ. ",
+      "english": "Suppose there was a king’s frontier citadel with fortified embankments, ramparts, and arches, and a single gate. "
+    },
+    {
+      "number": 48,
+      "pali": "Tatrassa dovāriko paṇḍito byatto medhāvī aññātānaṁ nivāretā ñātānaṁ pavesetā. ",
+      "english": "And it has a gatekeeper who is astute, competent, and clever. He keeps strangers out and lets known people in. "
+    },
+    {
+      "number": 49,
+      "pali": "So tassa nagarassa samantā anupariyāyapathaṁ anukkamati. Anupariyāyapathaṁ anukkamamāno na passeyya pākārasandhiṁ vā pākāravivaraṁ vā, antamaso biḷāranikkhamanamattampi. ",
+      "english": "As he walks around the patrol path, he doesn’t see a hole or cleft in the wall, not even one big enough for a cat to slip out. "
+    },
+    {
+      "number": 50,
+      "pali": "No ca khvassa evaṁ ñāṇaṁ hoti: ‘ettakā pāṇā imaṁ nagaraṁ pavisanti vā nikkhamanti vā’ti. ",
+      "english": "He doesn’t know how many creatures enter or leave the citadel. "
+    },
+    {
+      "number": 51,
+      "pali": "Atha khvassa evamettha hoti: ‘ye kho keci oḷārikā pāṇā imaṁ nagaraṁ pavisanti vā nikkhamanti vā, sabbe te iminā dvārena pavisanti vā nikkhamanti vā’ti. ",
+      "english": "But he does know that whatever sizable creatures enter or leave the citadel, all of them do so via this gate. "
+    },
+    {
+      "number": 52,
+      "pali": "Evamevaṁ kho, āvuso uttiya, na tathāgatassa evaṁ ussukkaṁ hoti: ‘sabbo vā tena loko nīyati, upaḍḍho vā, tibhāgo vā’ti. ",
+      "english": "In the same way, it’s not the Realized One’s concern whether the whole world is saved by this, or half, or a third. "
+    },
+    {
+      "number": 53,
+      "pali": "Atha kho evamettha tathāgatassa hoti: ‘ye kho keci lokamhā nīyiṁsu vā nīyanti vā nīyissanti vā, sabbe te pañca nīvaraṇe pahāya cetaso upakkilese paññāya dubbalīkaraṇe, catūsu satipaṭṭhānesu suppatiṭṭhitacittā, satta bojjhaṅge yathābhūtaṁ bhāvetvā. ",
+      "english": "But the Realized One knows that whoever is saved from the world—whether in the past, the future, or the present—all have given up the five hindrances, corruptions of the heart that weaken wisdom. They have firmly established their mind in the four kinds of mindfulness meditation. And they have truly developed the seven awakening factors. "
+    },
+    {
+      "number": 54,
+      "pali": "Evamete lokamhā nīyiṁsu vā nīyanti vā nīyissanti vā’ti. ",
+      "english": "That’s how they’re saved from the world, in the past, future, or present. "
+    },
+    {
+      "number": 55,
+      "pali": "Yadeva kho tvaṁ, āvuso uttiya, bhagavantaṁ pañhaṁ apucchi tadevetaṁ pañhaṁ bhagavantaṁ aññena pariyāyena apucchi. ",
+      "english": "Uttiya, you were just asking the Buddha the same question as before in a different way. "
+    },
+    {
+      "number": 56,
+      "pali": "Tasmā te taṁ bhagavā na byākāsī”ti. ",
+      "english": "That’s why he didn’t answer.” "
+    },
+    {
+      "number": 57,
+      "pali": "Pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,4260 @@
+{
+  "sutta_id": "DN14",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Dīgha Nikāya 14 ",
+      "english": "Long Discourses 14 "
+    },
+    {
+      "number": 2,
+      "pali": "Mahāpadānasutta ",
+      "english": "The Great Discourse on Traces Left Behind "
+    },
+    {
+      "number": 3,
+      "pali": "1. Pubbenivāsapaṭisaṁyuttakathā ",
+      "english": "1. On Past Lives "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme karerikuṭikāyaṁ. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery, in the hut by the kareri tree. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho sambahulānaṁ bhikkhūnaṁ pacchābhattaṁ piṇḍapātapaṭikkantānaṁ karerimaṇḍalamāḷe sannisinnānaṁ sannipatitānaṁ pubbenivāsapaṭisaṁyuttā dhammī kathā udapādi: ",
+      "english": "Then after the meal, on return from almsround, several mendicants sat together in the pavilion by the kareri tree and this Dhamma talk on the subject of past lives came up among them, "
+    },
+    {
+      "number": 7,
+      "pali": "“itipi pubbenivāso, itipi pubbenivāso”ti. ",
+      "english": "“So it was in a past life; such it was in a past life.” "
+    },
+    {
+      "number": 8,
+      "pali": "Assosi kho bhagavā dibbāya sotadhātuyā visuddhāya atikkantamānusikāya tesaṁ bhikkhūnaṁ imaṁ kathāsallāpaṁ. ",
+      "english": "With clairaudience that is purified and superhuman, the Buddha heard that discussion among the mendicants. "
+    },
+    {
+      "number": 9,
+      "pali": "Atha kho bhagavā uṭṭhāyāsanā yena karerimaṇḍalamāḷo tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi, nisajja kho bhagavā bhikkhū āmantesi: ",
+      "english": "So he got up from his seat and went to the pavilion, where he sat on the seat spread out and addressed the mendicants, "
+    },
+    {
+      "number": 10,
+      "pali": "“kāya nuttha, bhikkhave, etarahi kathāya sannisinnā; kā ca pana vo antarākathā vippakatā”ti? ",
+      "english": "“Mendicants, what were you sitting talking about just now? What conversation was left unfinished?” "
+    },
+    {
+      "number": 11,
+      "pali": "Evaṁ vutte, te bhikkhū bhagavantaṁ etadavocuṁ: ",
+      "english": "The mendicants told him what had happened, adding, "
+    },
+    {
+      "number": 12,
+      "pali": "“idha, bhante, amhākaṁ pacchābhattaṁ piṇḍapātapaṭikkantānaṁ karerimaṇḍalamāḷe sannisinnānaṁ sannipatitānaṁ pubbenivāsapaṭisaṁyuttā dhammī kathā udapādi: ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "‘itipi pubbenivāso itipi pubbenivāso’ti. ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "Ayaṁ kho no, bhante, antarākathā vippakatā. Atha bhagavā anuppatto”ti. ",
+      "english": "“This is the conversation that was unfinished when the Buddha arrived.” "
+    },
+    {
+      "number": 15,
+      "pali": "“Iccheyyātha no tumhe, bhikkhave, pubbenivāsapaṭisaṁyuttaṁ dhammiṁ kathaṁ sotun”ti? ",
+      "english": "“Would you like to hear a Dhamma talk on the subject of past lives?” "
+    },
+    {
+      "number": 16,
+      "pali": "“Etassa, bhagavā, kālo; etassa, sugata, kālo; ",
+      "english": "“Now is the time, Blessed One! Now is the time, Holy One! "
+    },
+    {
+      "number": 17,
+      "pali": "yaṁ bhagavā pubbenivāsapaṭisaṁyuttaṁ dhammiṁ kathaṁ kareyya, bhagavato sutvā bhikkhū dhāressantī”ti. ",
+      "english": "Let the Buddha give a Dhamma talk on the subject of past lives. The mendicants will listen and remember it.” "
+    },
+    {
+      "number": 18,
+      "pali": "“Tena hi, bhikkhave, suṇātha sādhukaṁ manasi karotha bhāsissāmī”ti. ",
+      "english": "“Well then, mendicants, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 19,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 20,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 21,
+      "pali": "“Ito so, bhikkhave, ekanavutikappe yaṁ vipassī bhagavā arahaṁ sammāsambuddho loke udapādi. ",
+      "english": "“Ninety-one eons ago, the Buddha Vipassī arose in the world, perfected and fully awakened. "
+    },
+    {
+      "number": 22,
+      "pali": "Ito so, bhikkhave, ekatiṁse kappe yaṁ sikhī bhagavā arahaṁ sammāsambuddho loke udapādi. ",
+      "english": "Thirty-one eons ago, the Buddha Sikhī arose in the world, perfected and fully awakened. "
+    },
+    {
+      "number": 23,
+      "pali": "Tasmiññeva kho, bhikkhave, ekatiṁse kappe vessabhū bhagavā arahaṁ sammāsambuddho loke udapādi. ",
+      "english": "In the same thirty-first eon, the Buddha Vessabhū arose in the world, perfected and fully awakened. "
+    },
+    {
+      "number": 24,
+      "pali": "Imasmiññeva kho, bhikkhave, bhaddakappe kakusandho bhagavā arahaṁ sammāsambuddho loke udapādi. ",
+      "english": "In the present fortunate eon, the Buddhas Kakusandha, "
+    },
+    {
+      "number": 25,
+      "pali": "Imasmiññeva kho, bhikkhave, bhaddakappe koṇāgamano bhagavā arahaṁ sammāsambuddho loke udapādi. ",
+      "english": "Koṇāgamana, "
+    },
+    {
+      "number": 26,
+      "pali": "Imasmiññeva kho, bhikkhave, bhaddakappe kassapo bhagavā arahaṁ sammāsambuddho loke udapādi. ",
+      "english": "and Kassapa arose in the world, perfected and fully awakened. "
+    },
+    {
+      "number": 27,
+      "pali": "Imasmiññeva kho, bhikkhave, bhaddakappe ahaṁ etarahi arahaṁ sammāsambuddho loke uppanno. ",
+      "english": "And in the present fortunate eon, I have arisen in the world, perfected and fully awakened. "
+    },
+    {
+      "number": 28,
+      "pali": "Vipassī, bhikkhave, bhagavā arahaṁ sammāsambuddho khattiyo jātiyā ahosi, khattiyakule udapādi. ",
+      "english": "The Buddhas Vipassī, "
+    },
+    {
+      "number": 29,
+      "pali": "Sikhī, bhikkhave, bhagavā arahaṁ sammāsambuddho khattiyo jātiyā ahosi, khattiyakule udapādi. ",
+      "english": "Sikhī, "
+    },
+    {
+      "number": 30,
+      "pali": "Vessabhū, bhikkhave, bhagavā arahaṁ sammāsambuddho khattiyo jātiyā ahosi, khattiyakule udapādi. ",
+      "english": "and Vessabhū were born as aristocrats into aristocrat families. "
+    },
+    {
+      "number": 31,
+      "pali": "Kakusandho, bhikkhave, bhagavā arahaṁ sammāsambuddho brāhmaṇo jātiyā ahosi, brāhmaṇakule udapādi. ",
+      "english": "The Buddhas Kakusandha, "
+    },
+    {
+      "number": 32,
+      "pali": "Koṇāgamano, bhikkhave, bhagavā arahaṁ sammāsambuddho brāhmaṇo jātiyā ahosi, brāhmaṇakule udapādi. ",
+      "english": "Koṇāgamana, "
+    },
+    {
+      "number": 33,
+      "pali": "Kassapo, bhikkhave, bhagavā arahaṁ sammāsambuddho brāhmaṇo jātiyā ahosi, brāhmaṇakule udapādi. ",
+      "english": "and Kassapa were born as brahmins into brahmin families. "
+    },
+    {
+      "number": 34,
+      "pali": "Ahaṁ, bhikkhave, etarahi arahaṁ sammāsambuddho khattiyo jātiyā ahosiṁ, khattiyakule uppanno. ",
+      "english": "I was born as an aristocrat into an aristocrat family. "
+    },
+    {
+      "number": 35,
+      "pali": "Vipassī, bhikkhave, bhagavā arahaṁ sammāsambuddho koṇḍañño gottena ahosi. ",
+      "english": "Koṇḍañña was the clan of Vipassī, "
+    },
+    {
+      "number": 36,
+      "pali": "Sikhī, bhikkhave, bhagavā arahaṁ sammāsambuddho koṇḍañño gottena ahosi. ",
+      "english": "Sikhī, "
+    },
+    {
+      "number": 37,
+      "pali": "Vessabhū, bhikkhave, bhagavā arahaṁ sammāsambuddho koṇḍañño gottena ahosi. ",
+      "english": "and Vessabhū. "
+    },
+    {
+      "number": 38,
+      "pali": "Kakusandho, bhikkhave, bhagavā arahaṁ sammāsambuddho kassapo gottena ahosi. ",
+      "english": "Kassapa was the clan of Kakusandha, "
+    },
+    {
+      "number": 39,
+      "pali": "Koṇāgamano, bhikkhave, bhagavā arahaṁ sammāsambuddho kassapo gottena ahosi. ",
+      "english": "Koṇāgamana, "
+    },
+    {
+      "number": 40,
+      "pali": "Kassapo, bhikkhave, bhagavā arahaṁ sammāsambuddho kassapo gottena ahosi. ",
+      "english": "and Kassapa. "
+    },
+    {
+      "number": 41,
+      "pali": "Ahaṁ, bhikkhave, etarahi arahaṁ sammāsambuddho gotamo gottena ahosiṁ. ",
+      "english": "Gotama is my clan. "
+    },
+    {
+      "number": 42,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa asītivassasahassāni āyuppamāṇaṁ ahosi. ",
+      "english": "For Vipassī, the lifespan was 80,000 years. "
+    },
+    {
+      "number": 43,
+      "pali": "Sikhissa, bhikkhave, bhagavato arahato sammāsambuddhassa sattativassasahassāni āyuppamāṇaṁ ahosi. ",
+      "english": "For Sikhī, the lifespan was 70,000 years. "
+    },
+    {
+      "number": 44,
+      "pali": "Vessabhussa, bhikkhave, bhagavato arahato sammāsambuddhassa saṭṭhivassasahassāni āyuppamāṇaṁ ahosi. ",
+      "english": "For Vessabhū, the lifespan was 60,000 years. "
+    },
+    {
+      "number": 45,
+      "pali": "Kakusandhassa, bhikkhave, bhagavato arahato sammāsambuddhassa cattālīsavassasahassāni āyuppamāṇaṁ ahosi. ",
+      "english": "For Kakusandha, the lifespan was 40,000 years. "
+    },
+    {
+      "number": 46,
+      "pali": "Koṇāgamanassa, bhikkhave, bhagavato arahato sammāsambuddhassa tiṁsavassasahassāni āyuppamāṇaṁ ahosi. ",
+      "english": "For Koṇāgamana, the lifespan was 30,000 years. "
+    },
+    {
+      "number": 47,
+      "pali": "Kassapassa, bhikkhave, bhagavato arahato sammāsambuddhassa vīsativassasahassāni āyuppamāṇaṁ ahosi. ",
+      "english": "For Kassapa, the lifespan was 20,000 years. "
+    },
+    {
+      "number": 48,
+      "pali": "Mayhaṁ, bhikkhave, etarahi appakaṁ āyuppamāṇaṁ parittaṁ lahukaṁ; yo ciraṁ jīvati, so vassasataṁ appaṁ vā bhiyyo. ",
+      "english": "For me at this time the life-span is short, brief, and fleeting. A long life is a hundred years or a little more. "
+    },
+    {
+      "number": 49,
+      "pali": "Vipassī, bhikkhave, bhagavā arahaṁ sammāsambuddho pāṭaliyā mūle abhisambuddho. ",
+      "english": "Vipassī was awakened at the root of a patala tree. "
+    },
+    {
+      "number": 50,
+      "pali": "Sikhī, bhikkhave, bhagavā arahaṁ sammāsambuddho puṇḍarīkassa mūle abhisambuddho. ",
+      "english": "Sikhī was awakened at the root of a white-mango tree. "
+    },
+    {
+      "number": 51,
+      "pali": "Vessabhū, bhikkhave, bhagavā arahaṁ sammāsambuddho sālassa mūle abhisambuddho. ",
+      "english": "Vessabhū was awakened at the root of a sal tree. "
+    },
+    {
+      "number": 52,
+      "pali": "Kakusandho, bhikkhave, bhagavā arahaṁ sammāsambuddho sirīsassa mūle abhisambuddho. ",
+      "english": "Kakusandha was awakened at the root of a lebbeck tree. "
+    },
+    {
+      "number": 53,
+      "pali": "Koṇāgamano, bhikkhave, bhagavā arahaṁ sammāsambuddho udumbarassa mūle abhisambuddho. ",
+      "english": "Koṇāgamana was awakened at the root of a cluster fig tree. "
+    },
+    {
+      "number": 54,
+      "pali": "Kassapo, bhikkhave, bhagavā arahaṁ sammāsambuddho nigrodhassa mūle abhisambuddho. ",
+      "english": "Kassapa was awakened at the root of a banyan tree. "
+    },
+    {
+      "number": 55,
+      "pali": "Ahaṁ, bhikkhave, etarahi arahaṁ sammāsambuddho assatthassa mūle abhisambuddho. ",
+      "english": "I was awakened at the root of a peepal tree. "
+    },
+    {
+      "number": 56,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa khaṇḍatissaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": "Vipassī had a fine pair of chief disciples named Khaṇḍa and Tissa. "
+    },
+    {
+      "number": 57,
+      "pali": "Sikhissa, bhikkhave, bhagavato arahato sammāsambuddhassa abhibhūsambhavaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": "Sikhī had a fine pair of chief disciples named Abhibhū and Sambhava. "
+    },
+    {
+      "number": 58,
+      "pali": "Vessabhussa, bhikkhave, bhagavato arahato sammāsambuddhassa soṇuttaraṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": "Vessabhū had a fine pair of chief disciples named Soṇa and Uttara. "
+    },
+    {
+      "number": 59,
+      "pali": "Kakusandhassa, bhikkhave, bhagavato arahato sammāsambuddhassa vidhurasañjīvaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": "Kakusandha had a fine pair of chief disciples named Vidhura and Sañjīva. "
+    },
+    {
+      "number": 60,
+      "pali": "Koṇāgamanassa, bhikkhave, bhagavato arahato sammāsambuddhassa bhiyyosuttaraṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": "Koṇāgamana had a fine pair of chief disciples named Bhiyyosa and Uttara. "
+    },
+    {
+      "number": 61,
+      "pali": "Kassapassa, bhikkhave, bhagavato arahato sammāsambuddhassa tissabhāradvājaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": "Kassapa had a fine pair of chief disciples named Tissa and Bhāradvāja. "
+    },
+    {
+      "number": 62,
+      "pali": "Mayhaṁ, bhikkhave, etarahi sāriputtamoggallānaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": "I have a fine pair of chief disciples named Sāriputta and Moggallāna. "
+    },
+    {
+      "number": 63,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa tayo sāvakānaṁ sannipātā ahesuṁ. Eko sāvakānaṁ sannipāto ahosi aṭṭhasaṭṭhibhikkhusatasahassaṁ, eko sāvakānaṁ sannipāto ahosi bhikkhusatasahassaṁ, eko sāvakānaṁ sannipāto ahosi asītibhikkhusahassāni. Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa ime tayo sāvakānaṁ sannipātā ahesuṁ sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": "Vipassī had three gatherings of disciples—one of 6,800,000, one of 100,000, and one of 80,000—all of them mendicants who had ended their defilements. "
+    },
+    {
+      "number": 64,
+      "pali": "Sikhissa, bhikkhave, bhagavato arahato sammāsambuddhassa tayo sāvakānaṁ sannipātā ahesuṁ. Eko sāvakānaṁ sannipāto ahosi bhikkhusatasahassaṁ, eko sāvakānaṁ sannipāto ahosi asītibhikkhusahassāni, eko sāvakānaṁ sannipāto ahosi sattatibhikkhusahassāni. Sikhissa, bhikkhave, bhagavato arahato sammāsambuddhassa ime tayo sāvakānaṁ sannipātā ahesuṁ sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": "Sikhī had three gatherings of disciples—one of 100,000, one of 80,000, and one of 70,000—all of them mendicants who had ended their defilements. "
+    },
+    {
+      "number": 65,
+      "pali": "Vessabhussa, bhikkhave, bhagavato arahato sammāsambuddhassa tayo sāvakānaṁ sannipātā ahesuṁ. Eko sāvakānaṁ sannipāto ahosi asītibhikkhusahassāni, eko sāvakānaṁ sannipāto ahosi sattatibhikkhusahassāni, eko sāvakānaṁ sannipāto ahosi saṭṭhibhikkhusahassāni. Vessabhussa, bhikkhave, bhagavato arahato sammāsambuddhassa ime tayo sāvakānaṁ sannipātā ahesuṁ sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": "Vessabhū had three gatherings of disciples—one of 80,000, one of 70,000, and one of 60,000—all of them mendicants who had ended their defilements. "
+    },
+    {
+      "number": 66,
+      "pali": "Kakusandhassa, bhikkhave, bhagavato arahato sammāsambuddhassa eko sāvakānaṁ sannipāto ahosi cattālīsabhikkhusahassāni. Kakusandhassa, bhikkhave, bhagavato arahato sammāsambuddhassa ayaṁ eko sāvakānaṁ sannipāto ahosi sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": "Kakusandha had one gathering of disciples—40,000 mendicants who had ended their defilements. "
+    },
+    {
+      "number": 67,
+      "pali": "Koṇāgamanassa, bhikkhave, bhagavato arahato sammāsambuddhassa eko sāvakānaṁ sannipāto ahosi tiṁsabhikkhusahassāni. Koṇāgamanassa, bhikkhave, bhagavato arahato sammāsambuddhassa ayaṁ eko sāvakānaṁ sannipāto ahosi sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": "Koṇāgamana had one gathering of disciples—30,000 mendicants who had ended their defilements. "
+    },
+    {
+      "number": 68,
+      "pali": "Kassapassa, bhikkhave, bhagavato arahato sammāsambuddhassa eko sāvakānaṁ sannipāto ahosi vīsatibhikkhusahassāni. Kassapassa, bhikkhave, bhagavato arahato sammāsambuddhassa ayaṁ eko sāvakānaṁ sannipāto ahosi sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": "Kassapa had one gathering of disciples—20,000 mendicants who had ended their defilements. "
+    },
+    {
+      "number": 69,
+      "pali": "Mayhaṁ, bhikkhave, etarahi eko sāvakānaṁ sannipāto ahosi aḍḍhateḷasāni bhikkhusatāni. Mayhaṁ, bhikkhave, ayaṁ eko sāvakānaṁ sannipāto ahosi sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": "I have had one gathering of disciples—1,250 mendicants who had ended their defilements. "
+    },
+    {
+      "number": 70,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa asoko nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "Vipassī had as chief attendant a mendicant named Asoka. "
+    },
+    {
+      "number": 71,
+      "pali": "Sikhissa, bhikkhave, bhagavato arahato sammāsambuddhassa khemaṅkaro nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "Sikhī had as chief attendant a mendicant named Khemaṅkara. "
+    },
+    {
+      "number": 72,
+      "pali": "Vessabhussa, bhikkhave, bhagavato arahato sammāsambuddhassa upasanto nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "Vessabhū had as chief attendant a mendicant named Upasanta. "
+    },
+    {
+      "number": 73,
+      "pali": "Kakusandhassa, bhikkhave, bhagavato arahato sammāsambuddhassa buddhijo nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "Kakusandha had as chief attendant a mendicant named Buddhija. "
+    },
+    {
+      "number": 74,
+      "pali": "Koṇāgamanassa, bhikkhave, bhagavato arahato sammāsambuddhassa sotthijo nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "Koṇāgamana had as chief attendant a mendicant named Sotthija. "
+    },
+    {
+      "number": 75,
+      "pali": "Kassapassa, bhikkhave, bhagavato arahato sammāsambuddhassa sabbamitto nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "Kassapa had as chief attendant a mendicant named Sabbamitta. "
+    },
+    {
+      "number": 76,
+      "pali": "Mayhaṁ, bhikkhave, etarahi ānando nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "I have as chief attendant a mendicant named Ānanda. "
+    },
+    {
+      "number": 77,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa bandhumā nāma rājā pitā ahosi. ",
+      "english": "Vipassī’s father was King Bandhumā, "
+    },
+    {
+      "number": 78,
+      "pali": "Bandhumatī nāma devī mātā ahosi janetti. ",
+      "english": "his birth mother was Queen Bandhumatī, "
+    },
+    {
+      "number": 79,
+      "pali": "Bandhumassa rañño bandhumatī nāma nagaraṁ rājadhānī ahosi. ",
+      "english": "and their capital city was named Bandhumatī. "
+    },
+    {
+      "number": 80,
+      "pali": "Sikhissa, bhikkhave, bhagavato arahato sammāsambuddhassa aruṇo nāma rājā pitā ahosi. ",
+      "english": "Sikhī’s father was King Aruṇa, "
+    },
+    {
+      "number": 81,
+      "pali": "Pabhāvatī nāma devī mātā ahosi janetti. ",
+      "english": "his birth mother was Queen Pabhāvatī, "
+    },
+    {
+      "number": 82,
+      "pali": "Aruṇassa rañño aruṇavatī nāma nagaraṁ rājadhānī ahosi. ",
+      "english": "and their capital city was named Aruṇavatī. "
+    },
+    {
+      "number": 83,
+      "pali": "Vessabhussa, bhikkhave, bhagavato arahato sammāsambuddhassa suppatito nāma rājā pitā ahosi. ",
+      "english": "Vessabhū’s father was King Suppatita, "
+    },
+    {
+      "number": 84,
+      "pali": "Vassavatī nāma devī mātā ahosi janetti. ",
+      "english": "his birth mother was Queen Vassavatī, "
+    },
+    {
+      "number": 85,
+      "pali": "Suppatitassa rañño anomaṁ nāma nagaraṁ rājadhānī ahosi. ",
+      "english": "and their capital city was named Anoma. "
+    },
+    {
+      "number": 86,
+      "pali": "Kakusandhassa, bhikkhave, bhagavato arahato sammāsambuddhassa aggidatto nāma brāhmaṇo pitā ahosi. ",
+      "english": "Kakusandha’s father was the brahmin Aggidatta, "
+    },
+    {
+      "number": 87,
+      "pali": "Visākhā nāma brāhmaṇī mātā ahosi janetti. ",
+      "english": "and his birth mother was the brahmin lady Visākhā. "
+    },
+    {
+      "number": 88,
+      "pali": "Tena kho pana, bhikkhave, samayena khemo nāma rājā ahosi. ",
+      "english": "At that time the king was Khema, "
+    },
+    {
+      "number": 89,
+      "pali": "Khemassa rañño khemavatī nāma nagaraṁ rājadhānī ahosi. ",
+      "english": "whose capital city was named Khemavatī. "
+    },
+    {
+      "number": 90,
+      "pali": "Koṇāgamanassa, bhikkhave, bhagavato arahato sammāsambuddhassa yaññadatto nāma brāhmaṇo pitā ahosi. ",
+      "english": "Koṇāgamana’s father was the brahmin Yaññadatta, "
+    },
+    {
+      "number": 91,
+      "pali": "Uttarā nāma brāhmaṇī mātā ahosi janetti. ",
+      "english": "and his birth mother was the brahmin lady Uttarā. "
+    },
+    {
+      "number": 92,
+      "pali": "Tena kho pana, bhikkhave, samayena sobho nāma rājā ahosi. ",
+      "english": "At that time the king was Sobha, "
+    },
+    {
+      "number": 93,
+      "pali": "Sobhassa rañño sobhavatī nāma nagaraṁ rājadhānī ahosi. ",
+      "english": "whose capital city was named Sobhavatī. "
+    },
+    {
+      "number": 94,
+      "pali": "Kassapassa, bhikkhave, bhagavato arahato sammāsambuddhassa brahmadatto nāma brāhmaṇo pitā ahosi. ",
+      "english": "Kassapa’s father was the brahmin Brahmadatta, "
+    },
+    {
+      "number": 95,
+      "pali": "Dhanavatī nāma brāhmaṇī mātā ahosi janetti. ",
+      "english": "and his birth mother was the brahmin lady Dhanavatī. "
+    },
+    {
+      "number": 96,
+      "pali": "Tena kho pana, bhikkhave, samayena kikī nāma rājā ahosi. ",
+      "english": "At that time the king was Kikī, "
+    },
+    {
+      "number": 97,
+      "pali": "Kikissa rañño bārāṇasī nāma nagaraṁ rājadhānī ahosi. ",
+      "english": "whose capital city was named Varanasi. "
+    },
+    {
+      "number": 98,
+      "pali": "Mayhaṁ, bhikkhave, etarahi suddhodano nāma rājā pitā ahosi. ",
+      "english": "In this life, my father was King Suddhodana, "
+    },
+    {
+      "number": 99,
+      "pali": "Māyā nāma devī mātā ahosi janetti. ",
+      "english": "my birth mother was Queen Māyā, "
+    },
+    {
+      "number": 100,
+      "pali": "Kapilavatthu nāma nagaraṁ rājadhānī ahosī”ti. ",
+      "english": "and our capital city was Kapilavatthu.” "
+    },
+    {
+      "number": 101,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 102,
+      "pali": "Idaṁ vatvāna sugato uṭṭhāyāsanā vihāraṁ pāvisi. ",
+      "english": "When he had spoken, the Holy One got up from his seat and entered his dwelling. "
+    },
+    {
+      "number": 103,
+      "pali": "Atha kho tesaṁ bhikkhūnaṁ acirapakkantassa bhagavato ayamantarākathā udapādi: ",
+      "english": "Soon after the Buddha left, those mendicants discussed among themselves: "
+    },
+    {
+      "number": 104,
+      "pali": "“acchariyaṁ, āvuso, abbhutaṁ, āvuso, tathāgatassa mahiddhikatā mahānubhāvatā. ",
+      "english": "“It’s incredible, reverends, it’s amazing! The Realized One has such psychic power and might! "
+    },
+    {
+      "number": 105,
+      "pali": "Yatra hi nāma tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarissati, nāmatopi anussarissati, gottatopi anussarissati, āyuppamāṇatopi anussarissati, sāvakayugatopi anussarissati, sāvakasannipātatopi anussarissati: ",
+      "english": "For he is able to recollect the birth, names, clans, lifespan, chief disciples, and gatherings of disciples of the Buddhas of the past who have become fully quenched, cut off proliferation, cut off the course, finished off the cycle, and passed beyond all suffering. "
+    },
+    {
+      "number": 106,
+      "pali": "‘evaṁjaccā te bhagavanto ahesuṁ itipi, evaṁnāmā evaṅgottā evaṁsīlā evaṁdhammā evaṁpaññā evaṁvihārī evaṁvimuttā te bhagavanto ahesuṁ itipī’”ti. ",
+      "english": "He knows their birth, names, clans, conduct, qualities, wisdom, meditation, and freedom. "
+    },
+    {
+      "number": 107,
+      "pali": "“Kiṁ nu kho, āvuso, tathāgatasseva nu kho esā dhammadhātu suppaṭividdhā, yassā dhammadhātuyā suppaṭividdhattā tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarati, nāmatopi anussarati, gottatopi anussarati, āyuppamāṇatopi anussarati, sāvakayugatopi anussarati, sāvakasannipātatopi anussarati: ‘evaṁjaccā te bhagavanto ahesuṁ itipi, evaṁnāmā evaṅgottā evaṁsīlā evaṁdhammā evaṁpaññā evaṁvihārī evaṁvimuttā te bhagavanto ahesuṁ itipī’ti, ",
+      "english": "Is it because the Realized One has clearly comprehended the principle of the teachings that he can recollect all these things? "
+    },
+    {
+      "number": 108,
+      "pali": "udāhu devatā tathāgatassa etamatthaṁ ārocesuṁ, yena tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarati, nāmatopi anussarati, gottatopi anussarati, āyuppamāṇatopi anussarati, sāvakayugatopi anussarati, sāvakasannipātatopi anussarati: ‘evaṁjaccā te bhagavanto ahesuṁ itipi, evaṁnāmā evaṅgottā evaṁsīlā evaṁdhammā evaṁpaññā evaṁvihārī evaṁvimuttā te bhagavanto ahesuṁ itipī’”ti. ",
+      "english": "Or did deities tell him?” "
+    },
+    {
+      "number": 109,
+      "pali": "Ayañca hidaṁ tesaṁ bhikkhūnaṁ antarākathā vippakatā hoti. ",
+      "english": "But this conversation among those mendicants was left unfinished. "
+    },
+    {
+      "number": 110,
+      "pali": "Atha kho bhagavā sāyanhasamayaṁ paṭisallānā vuṭṭhito yena karerimaṇḍalamāḷo tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi. ",
+      "english": "Then in the late afternoon, the Buddha came out of retreat and went to the pavilion by the kareri tree, where he sat on the seat spread out "
+    },
+    {
+      "number": 111,
+      "pali": "Nisajja kho bhagavā bhikkhū āmantesi: ",
+      "english": "and addressed the mendicants, "
+    },
+    {
+      "number": 112,
+      "pali": "“kāya nuttha, bhikkhave, etarahi kathāya sannisinnā; kā ca pana vo antarākathā vippakatā”ti? ",
+      "english": "“Mendicants, what were you sitting talking about just now? What conversation was left unfinished?” "
+    },
+    {
+      "number": 113,
+      "pali": "Evaṁ vutte, te bhikkhū bhagavantaṁ etadavocuṁ: ",
+      "english": "The mendicants told him what had happened, adding, "
+    },
+    {
+      "number": 114,
+      "pali": "“idha, bhante, amhākaṁ acirapakkantassa bhagavato ayaṁ antarākathā udapādi: ",
+      "english": ""
+    },
+    {
+      "number": 115,
+      "pali": "‘acchariyaṁ, āvuso, abbhutaṁ, āvuso, tathāgatassa mahiddhikatā mahānubhāvatā. ",
+      "english": ""
+    },
+    {
+      "number": 116,
+      "pali": "Yatra hi nāma tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarissati, nāmatopi anussarissati, gottatopi anussarissati, āyuppamāṇatopi anussarissati, sāvakayugatopi anussarissati, sāvakasannipātatopi anussarissati: ",
+      "english": ""
+    },
+    {
+      "number": 117,
+      "pali": "“evaṁjaccā te bhagavanto ahesuṁ itipi, evaṁnāmā evaṅgottā evaṁsīlā evaṁdhammā evaṁpaññā evaṁvihārī evaṁvimuttā te bhagavanto ahesuṁ itipī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "Kiṁ nu kho, āvuso, tathāgatasseva nu kho esā dhammadhātu suppaṭividdhā, yassā dhammadhātuyā suppaṭividdhattā tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarati, nāmatopi anussarati, gottatopi anussarati, āyuppamāṇatopi anussarati, sāvakayugatopi anussarati, sāvakasannipātatopi anussarati: ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "“evaṁjaccā te bhagavanto ahesuṁ itipi, evaṁnāmā evaṅgottā evaṁsīlā evaṁdhammā evaṁpaññā evaṁvihārī evaṁvimuttā te bhagavanto ahesuṁ itipī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "Udāhu devatā tathāgatassa etamatthaṁ ārocesuṁ, yena tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarati, nāmatopi anussarati, gottatopi anussarati, āyuppamāṇatopi anussarati, sāvakayugatopi anussarati, sāvakasannipātatopi anussarati: ",
+      "english": ""
+    },
+    {
+      "number": 121,
+      "pali": "“evaṁjaccā te bhagavanto ahesuṁ itipi, evaṁnāmā evaṅgottā evaṁsīlā evaṁdhammā evaṁpaññā evaṁvihārī evaṁvimuttā te bhagavanto ahesuṁ itipī”’ti? ",
+      "english": ""
+    },
+    {
+      "number": 122,
+      "pali": "Ayaṁ kho no, bhante, antarākathā vippakatā, atha bhagavā anuppatto”ti. ",
+      "english": "“This was our conversation that was unfinished when the Buddha arrived.” "
+    },
+    {
+      "number": 123,
+      "pali": "“Tathāgatassevesā, bhikkhave, dhammadhātu suppaṭividdhā, yassā dhammadhātuyā suppaṭividdhattā tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarati, nāmatopi anussarati, gottatopi anussarati, āyuppamāṇatopi anussarati, sāvakayugatopi anussarati, sāvakasannipātatopi anussarati: ",
+      "english": "“It is because the Realized One has clearly comprehended the principle of the teachings that he can recollect all these things. "
+    },
+    {
+      "number": 124,
+      "pali": "‘evaṁjaccā te bhagavanto ahesuṁ itipi, evaṁnāmā evaṅgottā evaṁsīlā evaṁdhammā evaṁpaññā evaṁvihārī evaṁvimuttā te bhagavanto ahesuṁ itipī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 125,
+      "pali": "Devatāpi tathāgatassa etamatthaṁ ārocesuṁ, yena tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarati, nāmatopi anussarati, gottatopi anussarati, āyuppamāṇatopi anussarati, sāvakayugatopi anussarati, sāvakasannipātatopi anussarati: ",
+      "english": "And the deities also told me. "
+    },
+    {
+      "number": 126,
+      "pali": "‘evaṁjaccā te bhagavanto ahesuṁ itipi, evaṁnāmā evaṅgottā evaṁsīlā evaṁdhammā evaṁpaññā evaṁvihārī evaṁvimuttā te bhagavanto ahesuṁ itipī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 127,
+      "pali": "Iccheyyātha no tumhe, bhikkhave, bhiyyoso mattāya pubbenivāsapaṭisaṁyuttaṁ dhammiṁ kathaṁ sotun”ti? ",
+      "english": "Would you like to hear a further Dhamma talk on the subject of past lives?” "
+    },
+    {
+      "number": 128,
+      "pali": "“Etassa, bhagavā, kālo; etassa, sugata, kālo; ",
+      "english": "“Now is the time, Blessed One! Now is the time, Holy One! "
+    },
+    {
+      "number": 129,
+      "pali": "yaṁ bhagavā bhiyyoso mattāya pubbenivāsapaṭisaṁyuttaṁ dhammiṁ kathaṁ kareyya, bhagavato sutvā bhikkhū dhāressantī”ti. ",
+      "english": "Let the Buddha give a further Dhamma talk on the subject of past lives. The mendicants will listen and remember it.” "
+    },
+    {
+      "number": 130,
+      "pali": "“Tena hi, bhikkhave, suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "“Well then, mendicants, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 131,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 132,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 133,
+      "pali": "“Ito so, bhikkhave, ekanavutikappe yaṁ vipassī bhagavā arahaṁ sammāsambuddho loke udapādi. ",
+      "english": "“Ninety-one eons ago, the Buddha Vipassī arose in the world, perfected and fully awakened. "
+    },
+    {
+      "number": 134,
+      "pali": "Vipassī, bhikkhave, bhagavā arahaṁ sammāsambuddho khattiyo jātiyā ahosi, khattiyakule udapādi. ",
+      "english": "He was born as an aristocrat into an aristocrat family. "
+    },
+    {
+      "number": 135,
+      "pali": "Vipassī, bhikkhave, bhagavā arahaṁ sammāsambuddho koṇḍañño gottena ahosi. ",
+      "english": "His clan was Koṇḍañña. "
+    },
+    {
+      "number": 136,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa asītivassasahassāni āyuppamāṇaṁ ahosi. ",
+      "english": "He lived for 80,000 years. "
+    },
+    {
+      "number": 137,
+      "pali": "Vipassī, bhikkhave, bhagavā arahaṁ sammāsambuddho pāṭaliyā mūle abhisambuddho. ",
+      "english": "He was awakened at the root of a patala tree. "
+    },
+    {
+      "number": 138,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa khaṇḍatissaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": "He had a fine pair of chief disciples named Khaṇḍa and Tissa. "
+    },
+    {
+      "number": 139,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa tayo sāvakānaṁ sannipātā ahesuṁ. ",
+      "english": "He had three gatherings of disciples—"
+    },
+    {
+      "number": 140,
+      "pali": "Eko sāvakānaṁ sannipāto ahosi aṭṭhasaṭṭhibhikkhusatasahassaṁ, eko sāvakānaṁ sannipāto ahosi bhikkhusatasahassaṁ, eko sāvakānaṁ sannipāto ahosi asītibhikkhusahassāni. ",
+      "english": "one of 6,800,000, one of 100,000, and one of 80,000—"
+    },
+    {
+      "number": 141,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa ime tayo sāvakānaṁ sannipātā ahesuṁ sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": "all of them mendicants who had ended their defilements. "
+    },
+    {
+      "number": 142,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa asoko nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "He had as chief attendant a mendicant named Asoka. "
+    },
+    {
+      "number": 143,
+      "pali": "Vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa bandhumā nāma rājā pitā ahosi. ",
+      "english": "His father was King Bandhumā, "
+    },
+    {
+      "number": 144,
+      "pali": "Bandhumatī nāma devī mātā ahosi janetti. ",
+      "english": "his birth mother was Queen Bandhumatī, "
+    },
+    {
+      "number": 145,
+      "pali": "Bandhumassa rañño bandhumatī nāma nagaraṁ rājadhānī ahosi. ",
+      "english": "and their capital city was named Bandhumatī. "
+    },
+    {
+      "number": 146,
+      "pali": "2. Bodhisattadhammatā ",
+      "english": "2. What’s Normal For One Intent on Awakening "
+    },
+    {
+      "number": 147,
+      "pali": "Atha kho, bhikkhave, vipassī bodhisatto tusitā kāyā cavitvā sato sampajāno mātukucchiṁ okkami. ",
+      "english": "When Vipassī, the being intent on awakening, passed away from the host of joyful gods, he was conceived in his mother’s womb, mindful and aware. "
+    },
+    {
+      "number": 148,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 149,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto tusitā kāyā cavitvā mātukucchiṁ okkamati. ",
+      "english": "It’s normal that, when the being intent on awakening passes away from the host of joyful gods, he is conceived in his mother’s womb. "
+    },
+    {
+      "number": 150,
+      "pali": "Atha sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya appamāṇo uḷāro obhāso pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+      "english": "And then—in this world with its gods, Māras, and divinities, this population with its ascetics and brahmins, gods and humans—an immeasurable, magnificent light appears, surpassing the glory of the gods. "
+    },
+    {
+      "number": 151,
+      "pali": "Yāpi tā lokantarikā aghā asaṁvutā andhakārā andhakāratimisā, yatthapime candimasūriyā evaṁmahiddhikā evaṁmahānubhāvā ābhāya nānubhonti, tatthapi appamāṇo uḷāro obhāso pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+      "english": "Even in the boundless gloom of interstellar space—so utterly dark that even the luminosity of the moon and the sun, so mighty and powerful, makes no impression—an immeasurable, magnificent light appears, surpassing the glory of the gods. "
+    },
+    {
+      "number": 152,
+      "pali": "Yepi tattha sattā upapannā, tepi tenobhāsena aññamaññaṁ sañjānanti: ‘aññepi kira, bho, santi sattā idhūpapannā’ti. ",
+      "english": "And the sentient beings reborn there recognize each other by that light: ‘So, it seems other sentient beings have been reborn here!’ "
+    },
+    {
+      "number": 153,
+      "pali": "Ayañca dasasahassī lokadhātu saṅkampati sampakampati sampavedhati. Appamāṇo ca uḷāro obhāso loke pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+      "english": "And this ten-thousandfold galaxy shakes and rocks and trembles. And an immeasurable, magnificent light appears in the world, surpassing the glory of the gods. "
+    },
+    {
+      "number": 154,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 155,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, cattāro naṁ devaputtā catuddisaṁ rakkhāya upagacchanti: ‘mā naṁ bodhisattaṁ vā bodhisattamātaraṁ vā manusso vā amanusso vā koci vā viheṭhesī’ti. ",
+      "english": "It’s normal that, when the being intent on awakening is conceived in his mother’s belly, four godlings approach to guard the four quarters, so that no human or non-human or anyone at all shall harm the being intent on awakening or his mother. "
+    },
+    {
+      "number": 156,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 157,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, pakatiyā sīlavatī bodhisattamātā hoti, viratā pāṇātipātā, viratā adinnādānā, viratā kāmesumicchācārā, viratā musāvādā, viratā surāmerayamajjappamādaṭṭhānā. ",
+      "english": "It’s normal that, when the being intent on awakening is conceived in his mother’s belly, she becomes naturally ethical. She refrains from killing living creatures, stealing, sexual misconduct, lying, and beer, wine, and liquor intoxicants. "
+    },
+    {
+      "number": 158,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 159,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu purisesu mānasaṁ uppajjati kāmaguṇūpasaṁhitaṁ, anatikkamanīyā ca bodhisattamātā hoti kenaci purisena rattacittena. ",
+      "english": "It’s normal that, when the being intent on awakening is conceived in his mother’s belly, she no longer thinks of men in a sexual way, and she cannot be violated by a man of lustful intent. "
+    },
+    {
+      "number": 160,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 161,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, lābhinī bodhisattamātā hoti pañcannaṁ kāmaguṇānaṁ. Sā pañcahi kāmaguṇehi samappitā samaṅgībhūtā paricāreti. ",
+      "english": "It’s normal that, when the being intent on awakening is conceived in his mother’s belly, she obtains the five kinds of sensual stimulation and amuses herself, supplied and provided with them. "
+    },
+    {
+      "number": 162,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 163,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu kocideva ābādho uppajjati. Sukhinī bodhisattamātā hoti akilantakāyā, bodhisattañca bodhisattamātā tirokucchigataṁ passati sabbaṅgapaccaṅgiṁ ahīnindriyaṁ. ",
+      "english": "It’s normal that, when the being intent on awakening is conceived in his mother’s belly, no afflictions beset her. She’s happy and free of bodily fatigue. And she sees the being intent on awakening in her womb, whole in his major and minor limbs, not deficient in any faculty. "
+    },
+    {
+      "number": 164,
+      "pali": "Seyyathāpi, bhikkhave, maṇi veḷuriyo subho jātimā aṭṭhaṁso suparikammakato accho vippasanno anāvilo sabbākārasampanno. Tatrāssa suttaṁ āvutaṁ nīlaṁ vā pītaṁ vā lohitaṁ vā odātaṁ vā paṇḍusuttaṁ vā. ",
+      "english": "Suppose there was a beryl gem that was naturally lustrous, eight-faceted, well-worked, transparent, clear, and unclouded, endowed with all good qualities. And it was strung with a thread of blue, yellow, red, white, or golden brown. "
+    },
+    {
+      "number": 165,
+      "pali": "Tamenaṁ cakkhumā puriso hatthe karitvā paccavekkheyya: ‘ayaṁ kho maṇi veḷuriyo subho jātimā aṭṭhaṁso suparikammakato accho vippasanno anāvilo sabbākārasampanno. Tatridaṁ suttaṁ āvutaṁ nīlaṁ vā pītaṁ vā lohitaṁ vā odātaṁ vā paṇḍusuttaṁ vā’ti. ",
+      "english": "And a person with clear eyes were to take it in their hand and examine it: ‘This beryl gem is naturally lustrous, eight-faceted, well-worked, transparent, clear, and unclouded, endowed with all good qualities. And it’s strung with a thread of blue, yellow, red, white, or golden brown.’ "
+    },
+    {
+      "number": 166,
+      "pali": "Evameva kho, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu kocideva ābādho uppajjati, sukhinī bodhisattamātā hoti akilantakāyā, bodhisattañca bodhisattamātā tirokucchigataṁ passati sabbaṅgapaccaṅgiṁ ahīnindriyaṁ. ",
+      "english": "In the same way, when the being intent on awakening is conceived in his mother’s belly, no afflictions beset her. She’s happy and free of bodily fatigue. And she sees the being intent on awakening in her womb, whole in his major and minor limbs, not deficient in any faculty. "
+    },
+    {
+      "number": 167,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 168,
+      "pali": "Dhammatā esā, bhikkhave, sattāhajāte bodhisatte bodhisattamātā kālaṁ karoti tusitaṁ kāyaṁ upapajjati. ",
+      "english": "It’s normal that, seven days after the being intent on awakening is born, his mother passes away and is reborn in the host of joyful gods. "
+    },
+    {
+      "number": 169,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 170,
+      "pali": "Dhammatā esā, bhikkhave, yathā aññā itthikā nava vā dasa vā māse gabbhaṁ kucchinā pariharitvā vijāyanti, na hevaṁ bodhisattaṁ bodhisattamātā vijāyati. Daseva māsāni bodhisattaṁ bodhisattamātā kucchinā pariharitvā vijāyati. ",
+      "english": "It’s normal that, while other women carry the infant in the womb for nine or ten months before giving birth, not so the mother of the being intent on awakening. She gives birth after exactly ten months. "
+    },
+    {
+      "number": 171,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 172,
+      "pali": "Dhammatā esā, bhikkhave, yathā aññā itthikā nisinnā vā nipannā vā vijāyanti, na hevaṁ bodhisattaṁ bodhisattamātā vijāyati. Ṭhitāva bodhisattaṁ bodhisattamātā vijāyati. ",
+      "english": "It’s normal that, while other women give birth while sitting or lying down, not so the mother of the being intent on awakening. She only gives birth standing up. "
+    },
+    {
+      "number": 173,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 174,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, devā paṭhamaṁ paṭiggaṇhanti, pacchā manussā. ",
+      "english": "It’s normal that, when the being intent on awakening emerges from his mother’s womb, gods receive him first, then humans. "
+    },
+    {
+      "number": 175,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 176,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, appattova bodhisatto pathaviṁ hoti, cattāro naṁ devaputtā paṭiggahetvā mātu purato ṭhapenti: ‘attamanā, devi, hohi; mahesakkho te putto uppanno’ti. ",
+      "english": "It’s normal that, when the being intent on awakening emerges from his mother’s womb, before he reaches the ground, four godlings receive him and place him before his mother, saying: ‘Rejoice, O Queen! An illustrious son is born to you.’ "
+    },
+    {
+      "number": 177,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 178,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, visadova nikkhamati amakkhito udena amakkhito semhena amakkhito ruhirena amakkhito kenaci asucinā suddho visado. ",
+      "english": "It’s normal that, when the being intent on awakening emerges from his mother’s womb, he emerges already clean, unsoiled by waters, mucus, blood, or any other kind of impurity, pure and clean. "
+    },
+    {
+      "number": 179,
+      "pali": "Seyyathāpi, bhikkhave, maṇiratanaṁ kāsike vatthe nikkhittaṁ neva maṇiratanaṁ kāsikaṁ vatthaṁ makkheti, nāpi kāsikaṁ vatthaṁ maṇiratanaṁ makkheti. ",
+      "english": "Suppose a jewel-treasure was placed on a cloth from Kāsi. The jewel would not soil the cloth, nor would the cloth soil the jewel. "
+    },
+    {
+      "number": 180,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 181,
+      "pali": "Ubhinnaṁ suddhattā. ",
+      "english": "Because of the cleanliness of them both. "
+    },
+    {
+      "number": 182,
+      "pali": "Evameva kho, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, visadova nikkhamati amakkhito, udena amakkhito semhena amakkhito ruhirena amakkhito kenaci asucinā suddho visado. ",
+      "english": "In the same way, when the being intent on awakening emerges from his mother’s womb, he emerges already clean, unsoiled by waters, mucus, blood, or any other kind of impurity, pure and clean. "
+    },
+    {
+      "number": 183,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 184,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, dve udakassa dhārā antalikkhā pātubhavanti—ekā sītassa ekā uṇhassa yena bodhisattassa udakakiccaṁ karonti mātu ca. ",
+      "english": "It’s normal that, when the being intent on awakening emerges from his mother’s womb, two showers of water appear from the sky, one cool, one warm, for bathing the being intent on awakening and his mother. "
+    },
+    {
+      "number": 185,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 186,
+      "pali": "Dhammatā esā, bhikkhave, sampatijāto bodhisatto samehi pādehi patiṭṭhahitvā uttarābhimukho sattapadavītihārena gacchati setamhi chatte anudhāriyamāne, sabbā ca disā anuviloketi, āsabhiṁ vācaṁ bhāsati ‘aggohamasmi lokassa, jeṭṭhohamasmi lokassa, seṭṭhohamasmi lokassa, ayamantimā jāti, natthi dāni punabbhavo’ti. ",
+      "english": "It’s normal that, as soon as he’s born, the being intent on awakening stands firm with his own feet on the ground. Facing north, he takes seven strides with a white parasol held above him, surveys all quarters, and makes this dramatic proclamation: ‘I am the foremost in the world! I am the eldest in the world! I am the first in the world! This is my last rebirth; now there’ll be no more future lives.’ "
+    },
+    {
+      "number": 187,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 188,
+      "pali": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, atha sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya appamāṇo uḷāro obhāso pātubhavati, atikkammeva devānaṁ devānubhāvaṁ. ",
+      "english": "It’s normal that, when the being intent on awakening emerges from his mother’s womb, then—in this world with its gods, Māras, and divinities, this population with its ascetics and brahmins, gods and humans—an immeasurable, magnificent light appears, surpassing the glory of the gods. "
+    },
+    {
+      "number": 189,
+      "pali": "Yāpi tā lokantarikā aghā asaṁvutā andhakārā andhakāratimisā, yatthapime candimasūriyā evaṁmahiddhikā evaṁmahānubhāvā ābhāya nānubhonti, tatthapi appamāṇo uḷāro obhāso pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+      "english": "Even in the boundless gloom of interstellar space—so utterly dark that even the luminosity of the moon and the sun, so mighty and powerful, makes no impression—an immeasurable, magnificent light appears, surpassing the glory of the gods. "
+    },
+    {
+      "number": 190,
+      "pali": "Yepi tattha sattā upapannā, tepi tenobhāsena aññamaññaṁ sañjānanti: ‘aññepi kira, bho, santi sattā idhūpapannā’ti. ",
+      "english": "And the sentient beings reborn there recognize each other by that light: ‘So, it seems other sentient beings have been reborn here!’ "
+    },
+    {
+      "number": 191,
+      "pali": "Ayañca dasasahassī lokadhātu saṅkampati sampakampati sampavedhati appamāṇo ca uḷāro obhāso loke pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+      "english": "And this ten-thousandfold galaxy shakes and rocks and trembles. And an immeasurable, magnificent light appears in the world, surpassing the glory of the gods. "
+    },
+    {
+      "number": 192,
+      "pali": "Ayamettha dhammatā. ",
+      "english": "This is normal in such a case. "
+    },
+    {
+      "number": 193,
+      "pali": "3. Dvattiṁsamahāpurisalakkhaṇā ",
+      "english": "3. The Thirty-Two Marks of a Great Man "
+    },
+    {
+      "number": 194,
+      "pali": "Jāte kho pana, bhikkhave, vipassimhi kumāre bandhumato rañño paṭivedesuṁ: ",
+      "english": "When Prince Vipassī was born, they announced it to King Bandhumā, "
+    },
+    {
+      "number": 195,
+      "pali": "‘putto te, deva, jāto, taṁ devo passatū’ti. ",
+      "english": "‘Sire, your son is born! Let your majesty examine him!’ "
+    },
+    {
+      "number": 196,
+      "pali": "Addasā kho, bhikkhave, bandhumā rājā vipassiṁ kumāraṁ, disvā nemitte brāhmaṇe āmantāpetvā etadavoca: ",
+      "english": "When the king had examined the prince, he had the brahmin soothsayers summoned and said to them, "
+    },
+    {
+      "number": 197,
+      "pali": "‘passantu bhonto nemittā brāhmaṇā kumāran’ti. ",
+      "english": "‘Gentlemen, please examine the prince.’ "
+    },
+    {
+      "number": 198,
+      "pali": "Addasaṁsu kho, bhikkhave, nemittā brāhmaṇā vipassiṁ kumāraṁ, disvā bandhumantaṁ rājānaṁ etadavocuṁ: ",
+      "english": "When they had examined him they said to the king, "
+    },
+    {
+      "number": 199,
+      "pali": "‘attamano, deva, hohi, mahesakkho te putto uppanno, lābhā te, mahārāja, suladdhaṁ te, mahārāja, yassa te kule evarūpo putto uppanno. ",
+      "english": "‘Rejoice, O King! An illustrious son is born to you. You are fortunate, so very fortunate, to have a son such as this born in this family! "
+    },
+    {
+      "number": 200,
+      "pali": "Ayañhi, deva, kumāro dvattiṁsamahāpurisalakkhaṇehi samannāgato, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
+      "english": "For the prince possesses the thirty-two marks of a great man. A great man who possesses these has only two possible destinies, no other. "
+    },
+    {
+      "number": 201,
+      "pali": "Sace agāraṁ ajjhāvasati, rājā hoti cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+      "english": "If he stays at home he becomes a king, a wheel-turning monarch, a just and principled king. His dominion extends to all four sides, he achieves stability in the country, and he possesses the seven treasures. "
+    },
+    {
+      "number": 202,
+      "pali": "Tassimāni sattaratanāni bhavanti. ",
+      "english": "He has the following seven treasures: "
+    },
+    {
+      "number": 203,
+      "pali": "Seyyathidaṁ—cakkaratanaṁ hatthiratanaṁ assaratanaṁ maṇiratanaṁ itthiratanaṁ gahapatiratanaṁ pariṇāyakaratanameva sattamaṁ. ",
+      "english": "the wheel, the elephant, the horse, the jewel, the woman, the householder, and the commander as the seventh treasure. "
+    },
+    {
+      "number": 204,
+      "pali": "Parosahassaṁ kho panassa puttā bhavanti sūrā vīraṅgarūpā parasenappamaddanā. ",
+      "english": "He has over a thousand sons who are valiant and heroic, crushing the armies of his enemies. "
+    },
+    {
+      "number": 205,
+      "pali": "So imaṁ pathaviṁ sāgarapariyantaṁ adaṇḍena asatthena dhammena abhivijiya ajjhāvasati. ",
+      "english": "After conquering this land girt by sea, he reigns by principle, without rod or sword. "
+    },
+    {
+      "number": 206,
+      "pali": "Sace kho pana agārasmā anagāriyaṁ pabbajati, arahaṁ hoti sammāsambuddho loke vivaṭacchado. ",
+      "english": "But if he goes forth from the lay life to homelessness, he becomes a perfected one, a fully awakened Buddha, who draws back the veil from the world. "
+    },
+    {
+      "number": 207,
+      "pali": "Katamehi cāyaṁ, deva, kumāro dvattiṁsamahāpurisalakkhaṇehi samannāgato, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
+      "english": "And what are the marks which he possesses? "
+    },
+    {
+      "number": 208,
+      "pali": "Sace agāraṁ ajjhāvasati, rājā hoti cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+      "english": ""
+    },
+    {
+      "number": 209,
+      "pali": "Tassimāni sattaratanāni bhavanti. ",
+      "english": ""
+    },
+    {
+      "number": 210,
+      "pali": "Seyyathidaṁ—cakkaratanaṁ hatthiratanaṁ assaratanaṁ maṇiratanaṁ itthiratanaṁ gahapatiratanaṁ pariṇāyakaratanameva sattamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 211,
+      "pali": "Parosahassaṁ kho panassa puttā bhavanti sūrā vīraṅgarūpā parasenappamaddanā. ",
+      "english": ""
+    },
+    {
+      "number": 212,
+      "pali": "So imaṁ pathaviṁ sāgarapariyantaṁ adaṇḍena asatthena dhammena abhivijiya ajjhāvasati. ",
+      "english": ""
+    },
+    {
+      "number": 213,
+      "pali": "Sace kho pana agārasmā anagāriyaṁ pabbajati, arahaṁ hoti sammāsambuddho loke vivaṭacchado. Ayañhi, deva, kumāro suppatiṭṭhitapādo. Yaṁ pāyaṁ, deva, kumāro suppatiṭṭhitapādo. Idampissa mahāpurisassa mahāpurisalakkhaṇaṁ bhavati. ",
+      "english": "He has well-planted feet. "
+    },
+    {
+      "number": 214,
+      "pali": "Imassa, deva, kumārassa heṭṭhā pādatalesu cakkāni jātāni sahassārāni sanemikāni sanābhikāni sabbākāraparipūrāni. Yampi imassa, deva, kumārassa heṭṭhā pādatalesu cakkāni jātāni sahassārāni sanemikāni sanābhikāni sabbākāraparipūrāni, idampissa mahāpurisassa mahāpurisalakkhaṇaṁ bhavati. ",
+      "english": "On the soles of his feet there are thousand-spoked wheels, with rims and hubs, complete in every detail. "
+    },
+    {
+      "number": 215,
+      "pali": "Ayañhi, deva, kumāro āyatapaṇhī …pe… ",
+      "english": "He has stretched heels. "
+    },
+    {
+      "number": 216,
+      "pali": "Ayañhi, deva, kumāro dīghaṅgulī …pe… ",
+      "english": "He has long fingers. "
+    },
+    {
+      "number": 217,
+      "pali": "Ayañhi, deva, kumāro mudutalunahatthapādo …pe… ",
+      "english": "His hands and feet are tender. "
+    },
+    {
+      "number": 218,
+      "pali": "Ayañhi, deva kumāro jālahatthapādo …pe… ",
+      "english": "He has serried hands and feet. "
+    },
+    {
+      "number": 219,
+      "pali": "Ayañhi, deva, kumāro ussaṅkhapādo …pe… ",
+      "english": "The tops of his feet are arched. "
+    },
+    {
+      "number": 220,
+      "pali": "Ayañhi, deva, kumāro eṇijaṅgho …pe… ",
+      "english": "His calves are like those of an antelope. "
+    },
+    {
+      "number": 221,
+      "pali": "Ayañhi, deva, kumāro ṭhitakova anonamanto ubhohi pāṇitalehi jaṇṇukāni parimasati parimajjati …pe… ",
+      "english": "When standing upright and not bending over, the palms of both hands touch the knees. "
+    },
+    {
+      "number": 222,
+      "pali": "Ayañhi, deva, kumāro kosohitavatthaguyho …pe… ",
+      "english": "His private parts are covered in a foreskin. "
+    },
+    {
+      "number": 223,
+      "pali": "Ayañhi, deva, kumāro suvaṇṇavaṇṇo kañcanasannibhattaco …pe… ",
+      "english": "He is golden colored; his skin shines like lustrous gold. "
+    },
+    {
+      "number": 224,
+      "pali": "Ayañhi, deva, kumāro sukhumacchavī; sukhumattā chaviyā rajojallaṁ kāye na upalimpati …pe… ",
+      "english": "He has delicate skin, so delicate that dust and dirt don’t stick to his body. "
+    },
+    {
+      "number": 225,
+      "pali": "Ayañhi, deva, kumāro ekekalomo; ekekāni lomāni lomakūpesu jātāni …pe… ",
+      "english": "His hairs grow one per pore. "
+    },
+    {
+      "number": 226,
+      "pali": "Ayañhi, deva, kumāro uddhaggalomo; uddhaggāni lomāni jātāni nīlāni añjanavaṇṇāni kuṇḍalāvaṭṭāni dakkhiṇāvaṭṭakajātāni …pe… ",
+      "english": "His hairs stand up; they’re blue-black and curl clockwise. "
+    },
+    {
+      "number": 227,
+      "pali": "Ayañhi, deva, kumāro brahmujugatto …pe… ",
+      "english": "His body is tall and straight-limbed. "
+    },
+    {
+      "number": 228,
+      "pali": "Ayañhi, deva, kumāro sattussado …pe… ",
+      "english": "He has bulging muscles in seven places. "
+    },
+    {
+      "number": 229,
+      "pali": "Ayañhi, deva, kumāro sīhapubbaddhakāyo …pe… ",
+      "english": "His chest is like that of a lion. "
+    },
+    {
+      "number": 230,
+      "pali": "Ayañhi, deva, kumāro citantaraṁso …pe… ",
+      "english": "He is filled out between the shoulders. "
+    },
+    {
+      "number": 231,
+      "pali": "Ayañhi, deva, kumāro nigrodhaparimaṇḍalo yāvatakvassa kāyo tāvatakvassa byāmo, yāvatakvassa byāmo, tāvatakvassa kāyo …pe… ",
+      "english": "He has the proportional circumference of a banyan tree: the span of his arms equals the height of his body. "
+    },
+    {
+      "number": 232,
+      "pali": "Ayañhi, deva, kumāro samavaṭṭakkhandho …pe… ",
+      "english": "His torso is cylindrical. "
+    },
+    {
+      "number": 233,
+      "pali": "Ayañhi, deva, kumāro rasaggasaggī …pe… ",
+      "english": "He has ridged taste buds. "
+    },
+    {
+      "number": 234,
+      "pali": "Ayañhi, deva, kumāro sīhahanu …pe… ",
+      "english": "His jaw is like that of a lion. "
+    },
+    {
+      "number": 235,
+      "pali": "Ayañhi, deva, kumāro cattālīsadanto …pe… ",
+      "english": "He has forty teeth. "
+    },
+    {
+      "number": 236,
+      "pali": "Ayañhi, deva, kumāro samadanto …pe… ",
+      "english": "His teeth are even. "
+    },
+    {
+      "number": 237,
+      "pali": "Ayañhi, deva, kumāro aviraḷadanto …pe… ",
+      "english": "His teeth have no gaps. "
+    },
+    {
+      "number": 238,
+      "pali": "Ayañhi, deva, kumāro susukkadāṭho …pe… ",
+      "english": "His teeth are perfectly white. "
+    },
+    {
+      "number": 239,
+      "pali": "Ayañhi, deva, kumāro pahūtajivho …pe… ",
+      "english": "He has a large tongue. "
+    },
+    {
+      "number": 240,
+      "pali": "Ayañhi, deva, kumāro brahmassaro karavīkabhāṇī …pe… ",
+      "english": "He has the voice of the Divinity, like a cuckoo’s call. "
+    },
+    {
+      "number": 241,
+      "pali": "Ayañhi, deva, kumāro abhinīlanetto …pe… ",
+      "english": "His eyes are indigo. "
+    },
+    {
+      "number": 242,
+      "pali": "Ayañhi, deva, kumāro gopakhumo …pe… ",
+      "english": "He has eyelashes like a cow’s. "
+    },
+    {
+      "number": 243,
+      "pali": "Imassa, deva, kumārassa uṇṇā bhamukantare jātā odātā mudutūlasannibhā. Yampi imassa, deva, kumārassa uṇṇā bhamukantare jātā odātā mudutūlasannibhā, idampimassa mahāpurisassa mahāpurisalakkhaṇaṁ bhavati. ",
+      "english": "Between his eyebrows there grows a tuft, soft and white like cotton-wool. "
+    },
+    {
+      "number": 244,
+      "pali": "Ayañhi, deva, kumāro uṇhīsasīso. Yaṁ pāyaṁ, deva, kumāro uṇhīsasīso, idampissa mahāpurisassa mahāpurisalakkhaṇaṁ bhavati. ",
+      "english": "The crown of his head is like a turban. "
+    },
+    {
+      "number": 245,
+      "pali": "Imehi kho ayaṁ, deva, kumāro dvattiṁsamahāpurisalakkhaṇehi samannāgato, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
+      "english": "These are the thirty-two marks of a great man that the prince has. A great man who possesses these has only two possible destinies, no other. "
+    },
+    {
+      "number": 246,
+      "pali": "Sace agāraṁ ajjhāvasati, rājā hoti cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+      "english": "If he stays at home he becomes a king, a wheel-turning monarch. "
+    },
+    {
+      "number": 247,
+      "pali": "Tassimāni sattaratanāni bhavanti. ",
+      "english": ""
+    },
+    {
+      "number": 248,
+      "pali": "Seyyathidaṁ—cakkaratanaṁ hatthiratanaṁ assaratanaṁ maṇiratanaṁ itthiratanaṁ gahapatiratanaṁ pariṇāyakaratanameva sattamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 249,
+      "pali": "Parosahassaṁ kho panassa puttā bhavanti sūrā vīraṅgarūpā parasenappamaddanā. ",
+      "english": ""
+    },
+    {
+      "number": 250,
+      "pali": "So imaṁ pathaviṁ sāgarapariyantaṁ adaṇḍena asatthena dhammena abhivijiya ajjhāvasati. ",
+      "english": ""
+    },
+    {
+      "number": 251,
+      "pali": "Sace kho pana agārasmā anagāriyaṁ pabbajati, arahaṁ hoti sammāsambuddho loke vivaṭacchado’ti. ",
+      "english": "But if he goes forth from the lay life to homelessness, he becomes a perfected one, a fully awakened Buddha, who draws back the veil from the world.’ "
+    },
+    {
+      "number": 252,
+      "pali": "4. Vipassīsamaññā ",
+      "english": "4. How He Came to be Known as Vipassī "
+    },
+    {
+      "number": 253,
+      "pali": "Atha kho, bhikkhave, bandhumā rājā nemitte brāhmaṇe ahatehi vatthehi acchādāpetvā sabbakāmehi santappesi. ",
+      "english": "Then King Bandhumā had the brahmin soothsayers dressed in unworn clothes and satisfied all their needs. "
+    },
+    {
+      "number": 254,
+      "pali": "Atha kho, bhikkhave, bandhumā rājā vipassissa kumārassa dhātiyo upaṭṭhāpesi. ",
+      "english": "Then the king appointed nursemaids for Prince Vipassī. "
+    },
+    {
+      "number": 255,
+      "pali": "Aññā khīraṁ pāyenti, aññā nhāpenti, aññā dhārenti, aññā aṅkena pariharanti. ",
+      "english": "Some suckled him, some bathed him, some held him, and some carried him on their hip. "
+    },
+    {
+      "number": 256,
+      "pali": "Jātassa kho pana, bhikkhave, vipassissa kumārassa setacchattaṁ dhārayittha divā ceva rattiñca: ",
+      "english": "From when he was born, a white parasol was held over him night and day, with the thought, "
+    },
+    {
+      "number": 257,
+      "pali": "‘mā naṁ sītaṁ vā uṇhaṁ vā tiṇaṁ vā rajo vā ussāvo vā bādhayitthā’ti. ",
+      "english": "‘Don’t let cold, heat, grass, dust, or damp bother him.’ "
+    },
+    {
+      "number": 258,
+      "pali": "Jāto kho pana, bhikkhave, vipassī kumāro bahuno janassa piyo ahosi manāpo. ",
+      "english": "He was dear and beloved by many people, "
+    },
+    {
+      "number": 259,
+      "pali": "Seyyathāpi, bhikkhave, uppalaṁ vā padumaṁ vā puṇḍarīkaṁ vā bahuno janassa piyaṁ manāpaṁ; ",
+      "english": "like a blue water lily, or a pink or white lotus. "
+    },
+    {
+      "number": 260,
+      "pali": "evameva kho, bhikkhave, vipassī kumāro bahuno janassa piyo ahosi manāpo. ",
+      "english": ""
+    },
+    {
+      "number": 261,
+      "pali": "Svāssudaṁ aṅkeneva aṅkaṁ parihariyati. ",
+      "english": "He was always passed from hip to hip. "
+    },
+    {
+      "number": 262,
+      "pali": "Jāto kho pana, bhikkhave, vipassī kumāro mañjussaro ca ahosi vaggussaro ca madhurassaro ca pemaniyassaro ca. ",
+      "english": "From when he was born, his voice was charming, graceful, sweet, and endearing. "
+    },
+    {
+      "number": 263,
+      "pali": "Seyyathāpi, bhikkhave, himavante pabbate karavīkā nāma sakuṇajāti mañjussarā ca vaggussarā ca madhurassarā ca pemaniyassarā ca; ",
+      "english": "It was as sweet as the song of a cuckoo-bird found in the Himalayas. "
+    },
+    {
+      "number": 264,
+      "pali": "evameva kho, bhikkhave, vipassī kumāro mañjussaro ca ahosi vaggussaro ca madhurassaro ca pemaniyassaro ca. ",
+      "english": ""
+    },
+    {
+      "number": 265,
+      "pali": "Jātassa kho pana, bhikkhave, vipassissa kumārassa kammavipākajaṁ dibbacakkhu pāturahosi yena sudaṁ samantā yojanaṁ passati divā ceva rattiñca. ",
+      "english": "From when he was born, Prince Vipassī had the power of clairvoyance which manifested as a result of past deeds, by which he could see for a league all around both by day and by night. "
+    },
+    {
+      "number": 266,
+      "pali": "Jāto kho pana, bhikkhave, vipassī kumāro animisanto pekkhati seyyathāpi devā tāvatiṁsā. ",
+      "english": "And he was unblinkingly watchful, like the gods of the thirty-three. "
+    },
+    {
+      "number": 267,
+      "pali": "‘Animisanto kumāro pekkhatī’ti kho, bhikkhave, vipassissa kumārassa ‘vipassī vipassī’ tveva samaññā udapādi. ",
+      "english": "And because it was said that he was unblinkingly watchful, he came to be known as ‘Vipassī’. "
+    },
+    {
+      "number": 268,
+      "pali": "Atha kho, bhikkhave, bandhumā rājā atthakaraṇe nisinno vipassiṁ kumāraṁ aṅke nisīdāpetvā atthe anusāsati. ",
+      "english": "Then while King Bandhumā was sitting in court, he’d sit Prince Vipassī in his lap and explain the case to him. "
+    },
+    {
+      "number": 269,
+      "pali": "Tatra sudaṁ, bhikkhave, vipassī kumāro pituaṅke nisinno viceyya viceyya atthe panāyati ñāyena. ",
+      "english": "And sitting there in his father’s lap, Vipassī would thoroughly consider the case and draw a conclusion using a logical system. "
+    },
+    {
+      "number": 270,
+      "pali": "Viceyya viceyya kumāro atthe panāyati ñāyenāti kho, bhikkhave, vipassissa kumārassa bhiyyoso mattāya ‘vipassī vipassī’ tveva samaññā udapādi. ",
+      "english": "So this was all the more reason for him to be known as ‘Vipassī’. "
+    },
+    {
+      "number": 271,
+      "pali": "Atha kho, bhikkhave, bandhumā rājā vipassissa kumārassa tayo pāsāde kārāpesi, ekaṁ vassikaṁ ekaṁ hemantikaṁ ekaṁ gimhikaṁ; ",
+      "english": "Then King Bandhumā had three stilt longhouses built for him—one for the winter, one for the summer, and one for the rainy season, "
+    },
+    {
+      "number": 272,
+      "pali": "pañca kāmaguṇāni upaṭṭhāpesi. ",
+      "english": "and provided him with the five kinds of sensual stimulation. "
+    },
+    {
+      "number": 273,
+      "pali": "Tatra sudaṁ, bhikkhave, vipassī kumāro vassike pāsāde cattāro māse nippurisehi tūriyehi paricārayamāno na heṭṭhāpāsādaṁ orohatīti. ",
+      "english": "Prince Vipassī stayed in a stilt longhouse without coming downstairs for the four months of the rainy season, where he was entertained by musicians—none of them men. "
+    },
+    {
+      "number": 274,
+      "pali": "Paṭhamabhāṇavāro. ",
+      "english": "The first recitation section. "
+    },
+    {
+      "number": 275,
+      "pali": "5. Jiṇṇapurisa ",
+      "english": "5. The Old Man "
+    },
+    {
+      "number": 276,
+      "pali": "Atha kho, bhikkhave, vipassī kumāro bahūnaṁ vassānaṁ bahūnaṁ vassasatānaṁ bahūnaṁ vassasahassānaṁ accayena sārathiṁ āmantesi: ",
+      "english": "Then, after many years, many hundred years, many thousand years had passed, Prince Vipassī addressed his charioteer, "
+    },
+    {
+      "number": 277,
+      "pali": "‘yojehi, samma sārathi, bhaddāni bhaddāni yānāni uyyānabhūmiṁ gacchāma subhūmidassanāyā’ti. ",
+      "english": "‘My dear charioteer, harness the finest chariots. We will go to a park and see the scenery.’ "
+    },
+    {
+      "number": 278,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, sārathi vipassissa kumārassa paṭissutvā bhaddāni bhaddāni yānāni yojetvā vipassissa kumārassa paṭivedesi: ",
+      "english": "‘Yes, sir,’ replied the charioteer. He harnessed the chariots and informed the prince, "
+    },
+    {
+      "number": 279,
+      "pali": "‘yuttāni kho te, deva, bhaddāni bhaddāni yānāni, ",
+      "english": "‘Sire, the finest chariots are harnessed. "
+    },
+    {
+      "number": 280,
+      "pali": "yassadāni kālaṁ maññasī’ti. ",
+      "english": "Please go at your convenience.’ "
+    },
+    {
+      "number": 281,
+      "pali": "Atha kho, bhikkhave, vipassī kumāro bhaddaṁ bhaddaṁ yānaṁ abhiruhitvā bhaddehi bhaddehi yānehi uyyānabhūmiṁ niyyāsi. ",
+      "english": "Then Prince Vipassī mounted a fine carriage and, along with other fine carriages, set out for the park. "
+    },
+    {
+      "number": 282,
+      "pali": "Addasā kho, bhikkhave, vipassī kumāro uyyānabhūmiṁ niyyanto purisaṁ jiṇṇaṁ gopānasivaṅkaṁ bhoggaṁ daṇḍaparāyanaṁ pavedhamānaṁ gacchantaṁ āturaṁ gatayobbanaṁ. ",
+      "english": "Along the way he saw an elderly man, bent double, crooked, leaning on a staff, trembling as he walked, ailing, past his prime. "
+    },
+    {
+      "number": 283,
+      "pali": "Disvā sārathiṁ āmantesi: ",
+      "english": "He addressed his charioteer, "
+    },
+    {
+      "number": 284,
+      "pali": "‘ayaṁ pana, samma sārathi, puriso kiṅkato? ",
+      "english": "‘My dear charioteer, what has that man done? "
+    },
+    {
+      "number": 285,
+      "pali": "Kesāpissa na yathā aññesaṁ, kāyopissa na yathā aññesan’ti. ",
+      "english": "For his hair and his body are unlike those of other men.’ "
+    },
+    {
+      "number": 286,
+      "pali": "‘Eso kho, deva, jiṇṇo nāmā’ti. ",
+      "english": "‘That, Your Majesty, is called an old man.’ "
+    },
+    {
+      "number": 287,
+      "pali": "‘Kiṁ paneso, samma sārathi, jiṇṇo nāmā’ti? ",
+      "english": "‘But why is he called an old man?’ "
+    },
+    {
+      "number": 288,
+      "pali": "‘Eso kho, deva, jiṇṇo nāma. Na dāni tena ciraṁ jīvitabbaṁ bhavissatī’ti. ",
+      "english": "‘He’s called an old man because now he has not long to live.’ "
+    },
+    {
+      "number": 289,
+      "pali": "‘Kiṁ pana, samma sārathi, ahampi jarādhammo, jaraṁ anatīto’ti? ",
+      "english": "‘But my dear charioteer, am I liable to grow old? Am I not exempt from old age?’ "
+    },
+    {
+      "number": 290,
+      "pali": "‘Tvañca, deva, mayañcamha sabbe jarādhammā, jaraṁ anatītā’ti. ",
+      "english": "‘Everyone is liable to grow old, Your Majesty, including you. No-one is exempt from old age.’ "
+    },
+    {
+      "number": 291,
+      "pali": "‘Tena hi, samma sārathi, alaṁ dānajja uyyānabhūmiyā. Itova antepuraṁ paccaniyyāhī’ti. ",
+      "english": "‘Well then, my dear charioteer, that’s enough of the park for today. Let’s return to the royal compound.’ "
+    },
+    {
+      "number": 292,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, sārathi vipassissa kumārassa paṭissutvā tatova antepuraṁ paccaniyyāsi. ",
+      "english": "‘Yes, Your Majesty,’ replied the charioteer and did so. "
+    },
+    {
+      "number": 293,
+      "pali": "Tatra sudaṁ, bhikkhave, vipassī kumāro antepuraṁ gato dukkhī dummano pajjhāyati: ",
+      "english": "Back at the royal compound, the prince brooded, miserable and sad: "
+    },
+    {
+      "number": 294,
+      "pali": "‘dhiratthu kira, bho, jāti nāma, yatra hi nāma jātassa jarā paññāyissatī’ti. ",
+      "english": "‘Curse this thing called rebirth, since old age will come to anyone who’s born.’ "
+    },
+    {
+      "number": 295,
+      "pali": "Atha kho, bhikkhave, bandhumā rājā sārathiṁ āmantāpetvā etadavoca: ",
+      "english": "Then King Bandhumā summoned the charioteer and said, "
+    },
+    {
+      "number": 296,
+      "pali": "‘kacci, samma sārathi, kumāro uyyānabhūmiyā abhiramittha? Kacci, samma sārathi, kumāro uyyānabhūmiyā attamano ahosī’ti? ",
+      "english": "‘My dear charioteer, I hope the prince enjoyed himself at the park? I hope he was happy there?’ "
+    },
+    {
+      "number": 297,
+      "pali": "‘Na kho, deva, kumāro uyyānabhūmiyā abhiramittha, na kho, deva, kumāro uyyānabhūmiyā attamano ahosī’ti. ",
+      "english": "‘No, Your Majesty, the prince didn’t enjoy himself at the park.’ "
+    },
+    {
+      "number": 298,
+      "pali": "‘Kiṁ pana, samma sārathi, addasa kumāro uyyānabhūmiṁ niyyanto’ti? ",
+      "english": "‘But what did he see on the way to the park?’ "
+    },
+    {
+      "number": 299,
+      "pali": "‘Addasā kho, deva, kumāro uyyānabhūmiṁ niyyanto purisaṁ jiṇṇaṁ gopānasivaṅkaṁ bhoggaṁ daṇḍaparāyanaṁ pavedhamānaṁ gacchantaṁ āturaṁ gatayobbanaṁ. ",
+      "english": "And the charioteer told the king about seeing the old man and the prince’s reaction. "
+    },
+    {
+      "number": 300,
+      "pali": "Disvā maṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 301,
+      "pali": "“ayaṁ pana, samma sārathi, puriso kiṅkato, kesāpissa na yathā aññesaṁ, kāyopissa na yathā aññesan”ti? ",
+      "english": ""
+    },
+    {
+      "number": 302,
+      "pali": "“Eso kho, deva, jiṇṇo nāmā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 303,
+      "pali": "“Kiṁ paneso, samma sārathi, jiṇṇo nāmā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 304,
+      "pali": "“Eso kho, deva, jiṇṇo nāma na dāni tena ciraṁ jīvitabbaṁ bhavissatī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 305,
+      "pali": "“Kiṁ pana, samma sārathi, ahampi jarādhammo, jaraṁ anatīto”ti? ",
+      "english": ""
+    },
+    {
+      "number": 306,
+      "pali": "“Tvañca, deva, mayañcamha sabbe jarādhammā, jaraṁ anatītā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 307,
+      "pali": "“Tena hi, samma sārathi, alaṁ dānajja uyyānabhūmiyā, itova antepuraṁ paccaniyyāhī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 308,
+      "pali": "“Evaṁ, devā”ti kho ahaṁ, deva, vipassissa kumārassa paṭissutvā tatova antepuraṁ paccaniyyāsiṁ. ",
+      "english": ""
+    },
+    {
+      "number": 309,
+      "pali": "So kho, deva, kumāro antepuraṁ gato dukkhī dummano pajjhāyati: ",
+      "english": ""
+    },
+    {
+      "number": 310,
+      "pali": "“dhiratthu kira, bho, jāti nāma, yatra hi nāma jātassa jarā paññāyissatī”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 311,
+      "pali": "6. Byādhitapurisa ",
+      "english": "6. The Sick Man "
+    },
+    {
+      "number": 312,
+      "pali": "Atha kho, bhikkhave, bandhumassa rañño etadahosi: ",
+      "english": "Then King Bandhumā thought, "
+    },
+    {
+      "number": 313,
+      "pali": "‘Mā heva kho vipassī kumāro na rajjaṁ kāresi, mā heva vipassī kumāro agārasmā anagāriyaṁ pabbaji, mā heva nemittānaṁ brāhmaṇānaṁ saccaṁ assa vacanan’ti. ",
+      "english": "‘Prince Vipassī must not renounce the throne. He must not go forth from the lay life to homelessness. And the words of the brahmin soothsayers must not come true.’ "
+    },
+    {
+      "number": 314,
+      "pali": "Atha kho, bhikkhave, bandhumā rājā vipassissa kumārassa bhiyyoso mattāya pañca kāmaguṇāni upaṭṭhāpesi: ",
+      "english": "To this end he provided the prince with even more of the five kinds of sensual stimulation, "
+    },
+    {
+      "number": 315,
+      "pali": "‘yathā vipassī kumāro rajjaṁ kareyya, yathā vipassī kumāro na agārasmā anagāriyaṁ pabbajeyya, yathā nemittānaṁ brāhmaṇānaṁ micchā assa vacanan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 316,
+      "pali": "Tatra sudaṁ, bhikkhave, vipassī kumāro pañcahi kāmaguṇehi samappito samaṅgībhūto paricāreti. ",
+      "english": "with which the prince amused himself. "
+    },
+    {
+      "number": 317,
+      "pali": "Atha kho, bhikkhave, vipassī kumāro bahūnaṁ vassānaṁ …pe… ",
+      "english": "Then, after many thousand years had passed, Prince Vipassī had his charioteer drive him to the park once more. "
+    },
+    {
+      "number": 318,
+      "pali": "Addasā kho, bhikkhave, vipassī kumāro uyyānabhūmiṁ niyyanto purisaṁ ābādhikaṁ dukkhitaṁ bāḷhagilānaṁ sake muttakarīse palipannaṁ semānaṁ aññehi vuṭṭhāpiyamānaṁ aññehi saṁvesiyamānaṁ. ",
+      "english": "Along the way he saw a man who was sick, suffering, gravely ill, collapsed in his own urine and feces, being picked up by some and put down by others. "
+    },
+    {
+      "number": 319,
+      "pali": "Disvā sārathiṁ āmantesi: ",
+      "english": "He addressed his charioteer, "
+    },
+    {
+      "number": 320,
+      "pali": "‘ayaṁ pana, samma sārathi, puriso kiṅkato? ",
+      "english": "‘My dear charioteer, what has that man done? "
+    },
+    {
+      "number": 321,
+      "pali": "Akkhīnipissa na yathā aññesaṁ, saropissa na yathā aññesan’ti? ",
+      "english": "For his eyes and his voice are unlike those of other men.’ "
+    },
+    {
+      "number": 322,
+      "pali": "‘Eso kho, deva, byādhito nāmā’ti. ",
+      "english": "‘That, Your Majesty, is called a sick man.’ "
+    },
+    {
+      "number": 323,
+      "pali": "‘Kiṁ paneso, samma sārathi, byādhito nāmā’ti? ",
+      "english": "‘But why is he called a sick man?’ "
+    },
+    {
+      "number": 324,
+      "pali": "‘Eso kho, deva, byādhito nāma appeva nāma tamhā ābādhā vuṭṭhaheyyā’ti. ",
+      "english": "‘He’s called a sick man; hopefully he will recover from that illness.’ "
+    },
+    {
+      "number": 325,
+      "pali": "‘Kiṁ pana, samma sārathi, ahampi byādhidhammo, byādhiṁ anatīto’ti? ",
+      "english": "‘But my dear charioteer, am I liable to fall sick? Am I not exempt from sickness?’ "
+    },
+    {
+      "number": 326,
+      "pali": "‘Tvañca, deva, mayañcamha sabbe byādhidhammā, byādhiṁ anatītā’ti. ",
+      "english": "‘Everyone is liable to fall sick, Your Majesty, including you. No-one is exempt from sickness.’ "
+    },
+    {
+      "number": 327,
+      "pali": "‘Tena hi, samma sārathi, alaṁ dānajja uyyānabhūmiyā, itova antepuraṁ paccaniyyāhī’ti. ",
+      "english": "‘Well then, my dear charioteer, that’s enough of the park for today. Let’s return to the royal compound.’ "
+    },
+    {
+      "number": 328,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, sārathi vipassissa kumārassa paṭissutvā tatova antepuraṁ paccaniyyāsi. ",
+      "english": "‘Yes, Your Majesty,’ replied the charioteer and did so. "
+    },
+    {
+      "number": 329,
+      "pali": "Tatra sudaṁ, bhikkhave, vipassī kumāro antepuraṁ gato dukkhī dummano pajjhāyati: ",
+      "english": "Back at the royal compound, the prince brooded, miserable and sad: "
+    },
+    {
+      "number": 330,
+      "pali": "‘dhiratthu kira, bho, jāti nāma, yatra hi nāma jātassa jarā paññāyissati, byādhi paññāyissatī’ti. ",
+      "english": "‘Curse this thing called rebirth, since old age and sickness will come to anyone who’s born.’ "
+    },
+    {
+      "number": 331,
+      "pali": "Atha kho, bhikkhave, bandhumā rājā sārathiṁ āmantāpetvā etadavoca: ",
+      "english": "Then King Bandhumā summoned the charioteer and said, "
+    },
+    {
+      "number": 332,
+      "pali": "‘kacci, samma sārathi, kumāro uyyānabhūmiyā abhiramittha, kacci, samma sārathi, kumāro uyyānabhūmiyā attamano ahosī’ti? ",
+      "english": "‘My dear charioteer, I hope the prince enjoyed himself at the park? I hope he was happy there?’ "
+    },
+    {
+      "number": 333,
+      "pali": "‘Na kho, deva, kumāro uyyānabhūmiyā abhiramittha, na kho, deva, kumāro uyyānabhūmiyā attamano ahosī’ti. ",
+      "english": "‘No, Your Majesty, the prince didn’t enjoy himself at the park.’ "
+    },
+    {
+      "number": 334,
+      "pali": "‘Kiṁ pana, samma sārathi, addasa kumāro uyyānabhūmiṁ niyyanto’ti? ",
+      "english": "‘But what did he see on the way to the park?’ "
+    },
+    {
+      "number": 335,
+      "pali": "‘Addasā kho, deva, kumāro uyyānabhūmiṁ niyyanto purisaṁ ābādhikaṁ dukkhitaṁ bāḷhagilānaṁ sake muttakarīse palipannaṁ semānaṁ aññehi vuṭṭhāpiyamānaṁ aññehi saṁvesiyamānaṁ. ",
+      "english": "And the charioteer told the king about seeing the sick man and the prince’s reaction. "
+    },
+    {
+      "number": 336,
+      "pali": "Disvā maṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 337,
+      "pali": "“ayaṁ pana, samma sārathi, puriso kiṅkato, akkhīnipissa na yathā aññesaṁ, saropissa na yathā aññesan”ti? ",
+      "english": ""
+    },
+    {
+      "number": 338,
+      "pali": "“Eso kho, deva, byādhito nāmā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 339,
+      "pali": "“Kiṁ paneso, samma sārathi, byādhito nāmā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 340,
+      "pali": "“Eso kho, deva, byādhito nāma appeva nāma tamhā ābādhā vuṭṭhaheyyā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 341,
+      "pali": "“Kiṁ pana, samma sārathi, ahampi byādhidhammo, byādhiṁ anatīto”ti? ",
+      "english": ""
+    },
+    {
+      "number": 342,
+      "pali": "“Tvañca, deva, mayañcamha sabbe byādhidhammā, byādhiṁ anatītā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 343,
+      "pali": "“Tena hi, samma sārathi, alaṁ dānajja uyyānabhūmiyā, itova antepuraṁ paccaniyyāhī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 344,
+      "pali": "“Evaṁ, devā”ti kho ahaṁ, deva, vipassissa kumārassa paṭissutvā tatova antepuraṁ paccaniyyāsiṁ. ",
+      "english": ""
+    },
+    {
+      "number": 345,
+      "pali": "So kho, deva, kumāro antepuraṁ gato dukkhī dummano pajjhāyati: ",
+      "english": ""
+    },
+    {
+      "number": 346,
+      "pali": "“dhiratthu kira, bho, jāti nāma, yatra hi nāma jātassa jarā paññāyissati, byādhi paññāyissatī”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 347,
+      "pali": "7. Kālaṅkatapurisa ",
+      "english": "7. The Dead Man "
+    },
+    {
+      "number": 348,
+      "pali": "Atha kho, bhikkhave, bandhumassa rañño etadahosi: ",
+      "english": "Then King Bandhumā thought, "
+    },
+    {
+      "number": 349,
+      "pali": "‘mā heva kho vipassī kumāro na rajjaṁ kāresi, mā heva vipassī kumāro agārasmā anagāriyaṁ pabbaji, mā heva nemittānaṁ brāhmaṇānaṁ saccaṁ assa vacanan’ti. ",
+      "english": "‘Prince Vipassī must not renounce the throne. He must not go forth from the lay life to homelessness. And the words of the brahmin soothsayers must not come true.’ "
+    },
+    {
+      "number": 350,
+      "pali": "Atha kho, bhikkhave, bandhumā rājā vipassissa kumārassa bhiyyoso mattāya pañca kāmaguṇāni upaṭṭhāpesi: ",
+      "english": "To this end he provided the prince with even more of the five kinds of sensual stimulation, "
+    },
+    {
+      "number": 351,
+      "pali": "‘yathā vipassī kumāro rajjaṁ kareyya, yathā vipassī kumāro na agārasmā anagāriyaṁ pabbajeyya, yathā nemittānaṁ brāhmaṇānaṁ micchā assa vacanan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 352,
+      "pali": "Tatra sudaṁ, bhikkhave, vipassī kumāro pañcahi kāmaguṇehi samappito samaṅgībhūto paricāreti. ",
+      "english": "with which the prince amused himself. "
+    },
+    {
+      "number": 353,
+      "pali": "Atha kho, bhikkhave, vipassī kumāro bahūnaṁ vassānaṁ …pe… ",
+      "english": "Then, after many thousand years had passed, Prince Vipassī had his charioteer drive him to the park once more. "
+    },
+    {
+      "number": 354,
+      "pali": "Addasā kho, bhikkhave, vipassī kumāro uyyānabhūmiṁ niyyanto mahājanakāyaṁ sannipatitaṁ nānārattānañca dussānaṁ vilātaṁ kayiramānaṁ. ",
+      "english": "Along the way he saw a large crowd gathered making a bier out of garments of different colors. "
+    },
+    {
+      "number": 355,
+      "pali": "Disvā sārathiṁ āmantesi: ",
+      "english": "He addressed his charioteer, "
+    },
+    {
+      "number": 356,
+      "pali": "‘kiṁ nu kho so, samma sārathi, mahājanakāyo sannipatito nānārattānañca dussānaṁ vilātaṁ kayiratī’ti? ",
+      "english": "‘My dear charioteer, why is that crowd making a bier?’ "
+    },
+    {
+      "number": 357,
+      "pali": "‘Eso kho, deva, kālaṅkato nāmā’ti. ",
+      "english": "‘That, Your Majesty, is for someone who’s departed.’ "
+    },
+    {
+      "number": 358,
+      "pali": "‘Tena hi, samma sārathi, yena so kālaṅkato tena rathaṁ pesehī’ti. ",
+      "english": "‘Well then, drive the chariot up to the departed.’ "
+    },
+    {
+      "number": 359,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, sārathi vipassissa kumārassa paṭissutvā yena so kālaṅkato tena rathaṁ pesesi. ",
+      "english": "‘Yes, Your Majesty,’ replied the charioteer, and did so. "
+    },
+    {
+      "number": 360,
+      "pali": "Addasā kho, bhikkhave, vipassī kumāro petaṁ kālaṅkataṁ, disvā sārathiṁ āmantesi: ",
+      "english": "When the prince saw the corpse of the departed, he addressed the charioteer, "
+    },
+    {
+      "number": 361,
+      "pali": "‘kiṁ panāyaṁ, samma sārathi, kālaṅkato nāmā’ti? ",
+      "english": "‘But why is he called departed?’ "
+    },
+    {
+      "number": 362,
+      "pali": "‘Eso kho, deva, kālaṅkato nāma. Na dāni taṁ dakkhanti mātā vā pitā vā aññe vā ñātisālohitā, sopi na dakkhissati mātaraṁ vā pitaraṁ vā aññe vā ñātisālohite’ti. ",
+      "english": "‘He’s called departed because now his mother and father, his relatives and kin shall see him no more, and he shall never again see them.’ "
+    },
+    {
+      "number": 363,
+      "pali": "‘Kiṁ pana, samma sārathi, ahampi maraṇadhammo maraṇaṁ anatīto; ",
+      "english": "‘But my dear charioteer, am I liable to die? Am I not exempt from death? "
+    },
+    {
+      "number": 364,
+      "pali": "mampi na dakkhanti devo vā devī vā aññe vā ñātisālohitā; ",
+      "english": "Will the king and queen and my other relatives and kin see me no more? "
+    },
+    {
+      "number": 365,
+      "pali": "ahampi na dakkhissāmi devaṁ vā deviṁ vā aññe vā ñātisālohite’ti? ",
+      "english": "And shall I never again see them?’ "
+    },
+    {
+      "number": 366,
+      "pali": "‘Tvañca, deva, mayañcamha sabbe maraṇadhammā maraṇaṁ anatītā; ",
+      "english": "‘Everyone is liable to die, Your Majesty, including you. No-one is exempt from death. "
+    },
+    {
+      "number": 367,
+      "pali": "tampi na dakkhanti devo vā devī vā aññe vā ñātisālohitā; ",
+      "english": "The king and queen and your other relatives and kin shall see you no more, "
+    },
+    {
+      "number": 368,
+      "pali": "tvampi na dakkhissasi devaṁ vā deviṁ vā aññe vā ñātisālohite’ti. ",
+      "english": "and you shall never again see them.’ "
+    },
+    {
+      "number": 369,
+      "pali": "‘Tena hi, samma sārathi, alaṁ dānajja uyyānabhūmiyā, itova antepuraṁ paccaniyyāhī’ti. ",
+      "english": "‘Well then, my dear charioteer, that’s enough of the park for today. Let’s return to the royal compound.’ "
+    },
+    {
+      "number": 370,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, sārathi vipassissa kumārassa paṭissutvā tatova antepuraṁ paccaniyyāsi. ",
+      "english": "‘Yes, Your Majesty,’ replied the charioteer and did so. "
+    },
+    {
+      "number": 371,
+      "pali": "Tatra sudaṁ, bhikkhave, vipassī kumāro antepuraṁ gato dukkhī dummano pajjhāyati: ",
+      "english": "Back at the royal compound, the prince brooded, miserable and sad: "
+    },
+    {
+      "number": 372,
+      "pali": "‘dhiratthu kira, bho, jāti nāma, yatra hi nāma jātassa jarā paññāyissati, byādhi paññāyissati, maraṇaṁ paññāyissatī’ti. ",
+      "english": "‘Curse this thing called rebirth, since old age, sickness, and death will come to anyone who’s born.’ "
+    },
+    {
+      "number": 373,
+      "pali": "Atha kho, bhikkhave, bandhumā rājā sārathiṁ āmantāpetvā etadavoca: ",
+      "english": "Then King Bandhumā summoned the charioteer and said, "
+    },
+    {
+      "number": 374,
+      "pali": "‘kacci, samma sārathi, kumāro uyyānabhūmiyā abhiramittha, kacci, samma sārathi, kumāro uyyānabhūmiyā attamano ahosī’ti? ",
+      "english": "‘My dear charioteer, I hope the prince enjoyed himself at the park? I hope he was happy there?’ "
+    },
+    {
+      "number": 375,
+      "pali": "‘Na kho, deva, kumāro uyyānabhūmiyā abhiramittha, na kho, deva, kumāro uyyānabhūmiyā attamano ahosī’ti. ",
+      "english": "‘No, Your Majesty, the prince didn’t enjoy himself at the park.’ "
+    },
+    {
+      "number": 376,
+      "pali": "‘Kiṁ pana, samma sārathi, addasa kumāro uyyānabhūmiṁ niyyanto’ti? ",
+      "english": "‘But what did he see on the way to the park?’ "
+    },
+    {
+      "number": 377,
+      "pali": "‘Addasā kho, deva, kumāro uyyānabhūmiṁ niyyanto mahājanakāyaṁ sannipatitaṁ nānārattānañca dussānaṁ vilātaṁ kayiramānaṁ. ",
+      "english": "And the charioteer told the king about seeing the dead man and the prince’s reaction. "
+    },
+    {
+      "number": 378,
+      "pali": "Disvā maṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 379,
+      "pali": "“kiṁ nu kho so, samma sārathi, mahājanakāyo sannipatito nānārattānañca dussānaṁ vilātaṁ kayiratī”ti? ",
+      "english": ""
+    },
+    {
+      "number": 380,
+      "pali": "“Eso kho, deva, kālaṅkato nāmā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 381,
+      "pali": "“Tena hi, samma sārathi, yena so kālaṅkato tena rathaṁ pesehī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 382,
+      "pali": "“Evaṁ, devā”ti kho ahaṁ, deva, vipassissa kumārassa paṭissutvā yena so kālaṅkato tena rathaṁ pesesiṁ. ",
+      "english": ""
+    },
+    {
+      "number": 383,
+      "pali": "Addasā kho, deva, kumāro petaṁ kālaṅkataṁ, disvā maṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 384,
+      "pali": "“kiṁ panāyaṁ, samma sārathi, kālaṅkato nāmā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 385,
+      "pali": "“Eso kho, deva, kālaṅkato nāma. ",
+      "english": ""
+    },
+    {
+      "number": 386,
+      "pali": "Na dāni taṁ dakkhanti mātā vā pitā vā aññe vā ñātisālohitā, sopi na dakkhissati mātaraṁ vā pitaraṁ vā aññe vā ñātisālohite”ti. ",
+      "english": ""
+    },
+    {
+      "number": 387,
+      "pali": "“Kiṁ pana, samma sārathi, ahampi maraṇadhammo maraṇaṁ anatīto; ",
+      "english": ""
+    },
+    {
+      "number": 388,
+      "pali": "mampi na dakkhanti devo vā devī vā aññe vā ñātisālohitā; ",
+      "english": ""
+    },
+    {
+      "number": 389,
+      "pali": "ahampi na dakkhissāmi devaṁ vā deviṁ vā aññe vā ñātisālohite”ti? ",
+      "english": ""
+    },
+    {
+      "number": 390,
+      "pali": "“Tvañca, deva, mayañcamha sabbe maraṇadhammā maraṇaṁ anatītā; ",
+      "english": ""
+    },
+    {
+      "number": 391,
+      "pali": "tampi na dakkhanti devo vā devī vā aññe vā ñātisālohitā, tvampi na dakkhissasi devaṁ vā deviṁ vā aññe vā ñātisālohite”ti. ",
+      "english": ""
+    },
+    {
+      "number": 392,
+      "pali": "“Tena hi, samma sārathi, alaṁ dānajja uyyānabhūmiyā, itova antepuraṁ paccaniyyāhī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 393,
+      "pali": "“Evaṁ, devā”ti kho ahaṁ, deva, vipassissa kumārassa paṭissutvā tatova antepuraṁ paccaniyyāsiṁ. ",
+      "english": ""
+    },
+    {
+      "number": 394,
+      "pali": "So kho, deva, kumāro antepuraṁ gato dukkhī dummano pajjhāyati: ",
+      "english": ""
+    },
+    {
+      "number": 395,
+      "pali": "“dhiratthu kira, bho, jāti nāma, yatra hi nāma jātassa jarā paññāyissati, byādhi paññāyissati, maraṇaṁ paññāyissatī”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 396,
+      "pali": "8. Pabbajita ",
+      "english": "8. The Renunciate "
+    },
+    {
+      "number": 397,
+      "pali": "Atha kho, bhikkhave, bandhumassa rañño etadahosi: ",
+      "english": "Then King Bandhumā thought, "
+    },
+    {
+      "number": 398,
+      "pali": "‘mā heva kho vipassī kumāro na rajjaṁ kāresi, mā heva vipassī kumāro agārasmā anagāriyaṁ pabbaji, mā heva nemittānaṁ brāhmaṇānaṁ saccaṁ assa vacanan’ti. ",
+      "english": "‘Prince Vipassī must not renounce the throne. He must not go forth from the lay life to homelessness. And the words of the brahmin soothsayers must not come true.’ "
+    },
+    {
+      "number": 399,
+      "pali": "Atha kho, bhikkhave, bandhumā rājā vipassissa kumārassa bhiyyoso mattāya pañca kāmaguṇāni upaṭṭhāpesi: ",
+      "english": "To this end he provided the prince with even more of the five kinds of sensual stimulation, "
+    },
+    {
+      "number": 400,
+      "pali": "‘yathā vipassī kumāro rajjaṁ kareyya, yathā vipassī kumāro na agārasmā anagāriyaṁ pabbajeyya, yathā nemittānaṁ brāhmaṇānaṁ micchā assa vacanan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 401,
+      "pali": "Tatra sudaṁ, bhikkhave, vipassī kumāro pañcahi kāmaguṇehi samappito samaṅgībhūto paricāreti. ",
+      "english": "with which the prince amused himself. "
+    },
+    {
+      "number": 402,
+      "pali": "Atha kho, bhikkhave, vipassī kumāro bahūnaṁ vassānaṁ bahūnaṁ vassasatānaṁ bahūnaṁ vassasahassānaṁ accayena sārathiṁ āmantesi: ",
+      "english": "Then, after many thousand years had passed, Prince Vipassī had his charioteer drive him to the park once more. "
+    },
+    {
+      "number": 403,
+      "pali": "‘yojehi, samma sārathi, bhaddāni bhaddāni yānāni, uyyānabhūmiṁ gacchāma subhūmidassanāyā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 404,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, sārathi vipassissa kumārassa paṭissutvā bhaddāni bhaddāni yānāni yojetvā vipassissa kumārassa paṭivedesi: ",
+      "english": ""
+    },
+    {
+      "number": 405,
+      "pali": "‘yuttāni kho te, deva, bhaddāni bhaddāni yānāni, ",
+      "english": ""
+    },
+    {
+      "number": 406,
+      "pali": "yassadāni kālaṁ maññasī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 407,
+      "pali": "Atha kho, bhikkhave, vipassī kumāro bhaddaṁ bhaddaṁ yānaṁ abhiruhitvā bhaddehi bhaddehi yānehi uyyānabhūmiṁ niyyāsi. ",
+      "english": ""
+    },
+    {
+      "number": 408,
+      "pali": "Addasā kho, bhikkhave, vipassī kumāro uyyānabhūmiṁ niyyanto purisaṁ bhaṇḍuṁ pabbajitaṁ kāsāyavasanaṁ. ",
+      "english": "Along the way he saw a man, a renunciate with shaven head, wearing an ocher robe. "
+    },
+    {
+      "number": 409,
+      "pali": "Disvā sārathiṁ āmantesi: ",
+      "english": "He addressed his charioteer, "
+    },
+    {
+      "number": 410,
+      "pali": "‘ayaṁ pana, samma sārathi, puriso kiṅkato? ",
+      "english": "‘My dear charioteer, what has that man done? "
+    },
+    {
+      "number": 411,
+      "pali": "Sīsampissa na yathā aññesaṁ, vatthānipissa na yathā aññesan’ti? ",
+      "english": "For his head and his clothes are unlike those of other men.’ "
+    },
+    {
+      "number": 412,
+      "pali": "‘Eso kho, deva, pabbajito nāmā’ti. ",
+      "english": "‘That, Your Majesty, is called a renunciate.’ "
+    },
+    {
+      "number": 413,
+      "pali": "‘Kiṁ paneso, samma sārathi, pabbajito nāmā’ti? ",
+      "english": "‘But why is he called a renunciate?’ "
+    },
+    {
+      "number": 414,
+      "pali": "‘Eso kho, deva, pabbajito nāma sādhu dhammacariyā sādhu samacariyā sādhu kusalakiriyā sādhu puññakiriyā sādhu avihiṁsā sādhu bhūtānukampā’ti. ",
+      "english": "‘He is called a renunciate because he celebrates principled and fair conduct, skillful actions, good deeds, harmlessness, and sympathy for living creatures.’ "
+    },
+    {
+      "number": 415,
+      "pali": "‘Sādhu kho so, samma sārathi, pabbajito nāma, sādhu dhammacariyā sādhu samacariyā sādhu kusalakiriyā sādhu puññakiriyā sādhu avihiṁsā sādhu bhūtānukampā. ",
+      "english": "‘Then I celebrate the one called a renunciate, who celebrates principled and fair conduct, skillful actions, good deeds, harmlessness, and sympathy for living creatures! "
+    },
+    {
+      "number": 416,
+      "pali": "Tena hi, samma sārathi, yena so pabbajito tena rathaṁ pesehī’ti. ",
+      "english": "Well then, drive the chariot up to that renunciate.’ "
+    },
+    {
+      "number": 417,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, sārathi vipassissa kumārassa paṭissutvā yena so pabbajito tena rathaṁ pesesi. ",
+      "english": "‘Yes, Your Majesty,’ replied the charioteer, and did so. "
+    },
+    {
+      "number": 418,
+      "pali": "Atha kho, bhikkhave, vipassī kumāro taṁ pabbajitaṁ etadavoca: ",
+      "english": "Then Prince Vipassī said to that renunciate, "
+    },
+    {
+      "number": 419,
+      "pali": "‘tvaṁ pana, samma, kiṅkato, ",
+      "english": "‘My dear, what have you done? "
+    },
+    {
+      "number": 420,
+      "pali": "sīsampi te na yathā aññesaṁ, vatthānipi te na yathā aññesan’ti? ",
+      "english": "For your head and your clothes are unlike those of other men.’ "
+    },
+    {
+      "number": 421,
+      "pali": "‘Ahaṁ kho, deva, pabbajito nāmā’ti. ",
+      "english": "‘Sire, I am what is called a renunciate.’ "
+    },
+    {
+      "number": 422,
+      "pali": "‘Kiṁ pana tvaṁ, samma, pabbajito nāmā’ti? ",
+      "english": "‘But why are you called a renunciate?’ "
+    },
+    {
+      "number": 423,
+      "pali": "‘Ahaṁ kho, deva, pabbajito nāma, sādhu dhammacariyā sādhu samacariyā sādhu kusalakiriyā sādhu puññakiriyā sādhu avihiṁsā sādhu bhūtānukampā’ti. ",
+      "english": "‘I am called a renunciate because I celebrate principled and fair conduct, skillful actions, good deeds, harmlessness, and sympathy for living creatures.’ "
+    },
+    {
+      "number": 424,
+      "pali": "‘Sādhu kho tvaṁ, samma, pabbajito nāma sādhu dhammacariyā sādhu samacariyā sādhu kusalakiriyā sādhu puññakiriyā sādhu avihiṁsā sādhu bhūtānukampā’ti. ",
+      "english": "‘Then I celebrate the one called a renunciate, who celebrates principled and fair conduct, skillful actions, good deeds, harmlessness, and sympathy for living creatures!’ "
+    },
+    {
+      "number": 425,
+      "pali": "9. Bodhisattapabbajjā ",
+      "english": "9. The Going Forth "
+    },
+    {
+      "number": 426,
+      "pali": "Atha kho, bhikkhave, vipassī kumāro sārathiṁ āmantesi: ",
+      "english": "Then the prince addressed the charioteer, "
+    },
+    {
+      "number": 427,
+      "pali": "‘tena hi, samma sārathi, rathaṁ ādāya itova antepuraṁ paccaniyyāhi. ",
+      "english": "‘Well then, my dear charioteer, take the chariot and return to the royal compound. "
+    },
+    {
+      "number": 428,
+      "pali": "Ahaṁ pana idheva kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajissāmī’ti. ",
+      "english": "I shall shave off my hair and beard right here, dress in ocher robes, and go forth from the lay life to homelessness.’ "
+    },
+    {
+      "number": 429,
+      "pali": "‘Evaṁ, devā’ti kho, bhikkhave, sārathi vipassissa kumārassa paṭissutvā rathaṁ ādāya tatova antepuraṁ paccaniyyāsi. ",
+      "english": "‘Yes, Your Majesty,’ replied the charioteer and did so. "
+    },
+    {
+      "number": 430,
+      "pali": "Vipassī pana kumāro tattheva kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbaji. ",
+      "english": "Then Prince Vipassī shaved off his hair and beard, dressed in ocher robes, and went forth from the lay life to homelessness. "
+    },
+    {
+      "number": 431,
+      "pali": "10. Mahājanakāyaanupabbajjā ",
+      "english": "10. A Great Crowd Goes Forth "
+    },
+    {
+      "number": 432,
+      "pali": "Assosi kho, bhikkhave, bandhumatiyā rājadhāniyā mahājanakāyo caturāsītipāṇasahassāni: ",
+      "english": "A large crowd of 84,000 people in the capital of Bandhumatī heard "
+    },
+    {
+      "number": 433,
+      "pali": "‘vipassī kira kumāro kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajito’ti. ",
+      "english": "that Vipassī had gone forth. "
+    },
+    {
+      "number": 434,
+      "pali": "Sutvāna tesaṁ etadahosi: ",
+      "english": "It occurred to them, "
+    },
+    {
+      "number": 435,
+      "pali": "‘na hi nūna so orako dhammavinayo, na sā orakā pabbajjā, yattha vipassī kumāro kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajito. ",
+      "english": "‘This must be no ordinary teaching and training, no ordinary going forth in which Prince Vipassī has gone forth. "
+    },
+    {
+      "number": 436,
+      "pali": "Vipassīpi nāma kumāro kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajissati, kimaṅgaṁ pana mayan’ti. ",
+      "english": "If even the prince goes forth, why don’t we do the same?’ "
+    },
+    {
+      "number": 437,
+      "pali": "Atha kho, so bhikkhave, mahājanakāyo caturāsītipāṇasahassāni kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā vipassiṁ bodhisattaṁ agārasmā anagāriyaṁ pabbajitaṁ anupabbajiṁsu. ",
+      "english": "Then that great crowd of 84,000 people shaved off their hair and beard, dressed in ocher robes, and followed the one intent on awakening, Vipassī, by going forth from the lay life to homelessness. "
+    },
+    {
+      "number": 438,
+      "pali": "Tāya sudaṁ, bhikkhave, parisāya parivuto vipassī bodhisatto gāmanigamajanapadarājadhānīsu cārikaṁ carati. ",
+      "english": "Escorted by that assembly, Vipassī wandered on tour among the villages, towns, and capital cities. "
+    },
+    {
+      "number": 439,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
+      "english": "Then as he was in private retreat this thought came to his mind, "
+    },
+    {
+      "number": 440,
+      "pali": "‘na kho metaṁ patirūpaṁ yohaṁ ākiṇṇo viharāmi, yannūnāhaṁ eko gaṇamhā vūpakaṭṭho vihareyyan’ti. ",
+      "english": "‘It’s not appropriate for me to live in a crowd. Why don’t I live alone, withdrawn from the group?’ "
+    },
+    {
+      "number": 441,
+      "pali": "Atha kho, bhikkhave, vipassī bodhisatto aparena samayena eko gaṇamhā vūpakaṭṭho vihāsi, aññeneva tāni caturāsītipabbajitasahassāni agamaṁsu, aññena maggena vipassī bodhisatto. ",
+      "english": "After some time he withdrew from the group to live alone. The 84,000 went one way, but Vipassī went another. "
+    },
+    {
+      "number": 442,
+      "pali": "11. Bodhisattaabhinivesa ",
+      "english": "11. Vipassī’s Reflections "
+    },
+    {
+      "number": 443,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa vāsūpagatassa rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
+      "english": "Then as Vipassī, the one intent on awakening, was in private retreat in his dwelling, this thought came to his mind, "
+    },
+    {
+      "number": 444,
+      "pali": "‘kicchaṁ vatāyaṁ loko āpanno, jāyati ca jīyati ca mīyati ca cavati ca upapajjati ca, atha ca panimassa dukkhassa nissaraṇaṁ nappajānāti jarāmaraṇassa, ",
+      "english": "‘Alas, this world has fallen into trouble. It’s born, grows old, dies, passes away, and is reborn, yet it doesn’t understand how to escape from this suffering, from old age and death. "
+    },
+    {
+      "number": 445,
+      "pali": "kudāssu nāma imassa dukkhassa nissaraṇaṁ paññāyissati jarāmaraṇassā’ti? ",
+      "english": "Oh, when will an escape be found from this suffering, from old age and death?’ "
+    },
+    {
+      "number": 446,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 447,
+      "pali": "‘kimhi nu kho sati jarāmaraṇaṁ hoti, kiṁpaccayā jarāmaraṇan’ti? ",
+      "english": "‘When what exists is there old age and death? What is a requirement for old age and death?’ "
+    },
+    {
+      "number": 448,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 449,
+      "pali": "‘jātiyā kho sati jarāmaraṇaṁ hoti, jātipaccayā jarāmaraṇan’ti. ",
+      "english": "‘When rebirth exists there’s old age and death. Rebirth is a requirement for old age and death.’ "
+    },
+    {
+      "number": 450,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 451,
+      "pali": "‘kimhi nu kho sati jāti hoti, kiṁpaccayā jātī’ti? ",
+      "english": "‘When what exists is there rebirth? What is a requirement for rebirth?’ "
+    },
+    {
+      "number": 452,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 453,
+      "pali": "‘bhave kho sati jāti hoti, bhavapaccayā jātī’ti. ",
+      "english": "‘When continued existence exists there’s rebirth. Continued existence is a requirement for rebirth.’ "
+    },
+    {
+      "number": 454,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 455,
+      "pali": "‘kimhi nu kho sati bhavo hoti, kiṁpaccayā bhavo’ti? ",
+      "english": "‘When what exists is there continued existence? What is a requirement for continued existence?’ "
+    },
+    {
+      "number": 456,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 457,
+      "pali": "‘upādāne kho sati bhavo hoti, upādānapaccayā bhavo’ti. ",
+      "english": "‘When grasping exists there’s continued existence. Grasping is a requirement for continued existence.’ "
+    },
+    {
+      "number": 458,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 459,
+      "pali": "‘kimhi nu kho sati upādānaṁ hoti, kiṁpaccayā upādānan’ti? ",
+      "english": "‘When what exists is there grasping? What is a requirement for grasping?’ "
+    },
+    {
+      "number": 460,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 461,
+      "pali": "‘taṇhāya kho sati upādānaṁ hoti, taṇhāpaccayā upādānan’ti. ",
+      "english": "‘When craving exists there’s grasping. Craving is a requirement for grasping.’ "
+    },
+    {
+      "number": 462,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 463,
+      "pali": "‘kimhi nu kho sati taṇhā hoti, kiṁpaccayā taṇhā’ti? ",
+      "english": "‘When what exists is there craving? What is a requirement for craving?’ "
+    },
+    {
+      "number": 464,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 465,
+      "pali": "‘vedanāya kho sati taṇhā hoti, vedanāpaccayā taṇhā’ti. ",
+      "english": "‘When feeling exists there’s craving. Feeling is a requirement for craving.’ "
+    },
+    {
+      "number": 466,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 467,
+      "pali": "‘kimhi nu kho sati vedanā hoti, kiṁpaccayā vedanā’ti? ",
+      "english": "‘When what exists is there feeling? What is a requirement for feeling?’ "
+    },
+    {
+      "number": 468,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 469,
+      "pali": "‘phasse kho sati vedanā hoti, phassapaccayā vedanā’ti. ",
+      "english": "‘When contact exists there’s feeling. Contact is a requirement for feeling.’ "
+    },
+    {
+      "number": 470,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 471,
+      "pali": "‘kimhi nu kho sati phasso hoti, kiṁpaccayā phasso’ti? ",
+      "english": "‘When what exists is there contact? What is a requirement for contact?’ "
+    },
+    {
+      "number": 472,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 473,
+      "pali": "‘saḷāyatane kho sati phasso hoti, saḷāyatanapaccayā phasso’ti. ",
+      "english": "‘When the six sense fields exist there’s contact. The six sense fields are requirements for contact.’ "
+    },
+    {
+      "number": 474,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 475,
+      "pali": "‘kimhi nu kho sati saḷāyatanaṁ hoti, kiṁpaccayā saḷāyatanan’ti? ",
+      "english": "‘When what exists are there the six sense fields? What is a requirement for the six sense fields?’ "
+    },
+    {
+      "number": 476,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 477,
+      "pali": "‘nāmarūpe kho sati saḷāyatanaṁ hoti, nāmarūpapaccayā saḷāyatanan’ti. ",
+      "english": "‘When name and form exist there are the six sense fields. Name and form are requirements for the six sense fields.’ "
+    },
+    {
+      "number": 478,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 479,
+      "pali": "‘kimhi nu kho sati nāmarūpaṁ hoti, kiṁpaccayā nāmarūpan’ti? ",
+      "english": "‘When what exists are there name and form? What is a requirement for name and form?’ "
+    },
+    {
+      "number": 480,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 481,
+      "pali": "‘viññāṇe kho sati nāmarūpaṁ hoti, viññāṇapaccayā nāmarūpan’ti. ",
+      "english": "‘When consciousness exists there are name and form. Consciousness is a requirement for name and form.’ "
+    },
+    {
+      "number": 482,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 483,
+      "pali": "‘kimhi nu kho sati viññāṇaṁ hoti, kiṁpaccayā viññāṇan’ti? ",
+      "english": "‘When what exists is there consciousness? What is a requirement for consciousness?’ "
+    },
+    {
+      "number": 484,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 485,
+      "pali": "‘nāmarūpe kho sati viññāṇaṁ hoti, nāmarūpapaccayā viññāṇan’ti. ",
+      "english": "‘When name and form exist there’s consciousness. Name and form are requirements for consciousness.’ "
+    },
+    {
+      "number": 486,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 487,
+      "pali": "‘paccudāvattati kho idaṁ viññāṇaṁ nāmarūpamhā, nāparaṁ gacchati. ",
+      "english": "‘This consciousness turns back from name and form, and doesn’t go beyond that.’ "
+    },
+    {
+      "number": 488,
+      "pali": "Ettāvatā jāyetha vā jiyyetha vā miyyetha vā cavetha vā upapajjetha vā, yadidaṁ ",
+      "english": "This is the extent to which one may be reborn, grow old, die, pass away, or reappear. That is: "
+    },
+    {
+      "number": 489,
+      "pali": "nāmarūpapaccayā viññāṇaṁ, viññāṇapaccayā nāmarūpaṁ, nāmarūpapaccayā saḷāyatanaṁ, saḷāyatanapaccayā phasso, phassapaccayā vedanā, vedanāpaccayā taṇhā, taṇhāpaccayā upādānaṁ, upādānapaccayā bhavo, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti. ",
+      "english": "Name and form are requirements for consciousness. Consciousness is a requirement for name and form. Name and form are requirements for the six sense fields. The six sense fields are requirements for contact. Contact is a requirement for feeling. Feeling is a requirement for craving. Craving is a requirement for grasping. Grasping is a requirement for continued existence. Continued existence is a requirement for rebirth. Rebirth is a requirement for old age and death, sorrow, lamentation, pain, sadness, and distress to come to be. "
+    },
+    {
+      "number": 490,
+      "pali": "Evametassa kevalassa dukkhakkhandhassa samudayo hoti’. ",
+      "english": "That is how this entire mass of suffering originates.’ "
+    },
+    {
+      "number": 491,
+      "pali": "‘Samudayo samudayo’ti kho, bhikkhave, vipassissa bodhisattassa pubbe ananussutesu dhammesu cakkhuṁ udapādi, ñāṇaṁ udapādi, paññā udapādi, vijjā udapādi, āloko udapādi. ",
+      "english": "‘Origination, origination.’ Such was the vision, knowledge, wisdom, realization, and light that arose in Vipassī, the one intent on awakening, regarding teachings not learned before from another. "
+    },
+    {
+      "number": 492,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 493,
+      "pali": "‘kimhi nu kho asati jarāmaraṇaṁ na hoti, kissa nirodhā jarāmaraṇanirodho’ti? ",
+      "english": "‘When what doesn’t exist is there no old age and death? When what ceases do old age and death cease?’ "
+    },
+    {
+      "number": 494,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 495,
+      "pali": "‘jātiyā kho asati jarāmaraṇaṁ na hoti, jātinirodhā jarāmaraṇanirodho’ti. ",
+      "english": "‘When rebirth doesn’t exist there’s no old age and death. When rebirth ceases, old age and death cease.’ "
+    },
+    {
+      "number": 496,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 497,
+      "pali": "‘kimhi nu kho asati jāti na hoti, kissa nirodhā jātinirodho’ti? ",
+      "english": "‘When what doesn’t exist is there no rebirth? When what ceases does rebirth cease?’ "
+    },
+    {
+      "number": 498,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 499,
+      "pali": "‘bhave kho asati jāti na hoti, bhavanirodhā jātinirodho’ti. ",
+      "english": "‘When continued existence doesn’t exist there’s no rebirth. When continued existence ceases, rebirth ceases.’ "
+    },
+    {
+      "number": 500,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 501,
+      "pali": "‘kimhi nu kho asati bhavo na hoti, kissa nirodhā bhavanirodho’ti? ",
+      "english": "‘When what doesn’t exist is there no continued existence? When what ceases does continued existence cease?’ "
+    },
+    {
+      "number": 502,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 503,
+      "pali": "‘upādāne kho asati bhavo na hoti, upādānanirodhā bhavanirodho’ti. ",
+      "english": "‘When grasping doesn’t exist there’s no continued existence. When grasping ceases, continued existence ceases.’ "
+    },
+    {
+      "number": 504,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 505,
+      "pali": "‘kimhi nu kho asati upādānaṁ na hoti, kissa nirodhā upādānanirodho’ti? ",
+      "english": "‘When what doesn’t exist is there no grasping? When what ceases does grasping cease?’ "
+    },
+    {
+      "number": 506,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 507,
+      "pali": "‘taṇhāya kho asati upādānaṁ na hoti, taṇhānirodhā upādānanirodho’ti. ",
+      "english": "‘When craving doesn’t exist there’s no grasping. When craving ceases, grasping ceases.’ "
+    },
+    {
+      "number": 508,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 509,
+      "pali": "‘kimhi nu kho asati taṇhā na hoti, kissa nirodhā taṇhānirodho’ti? ",
+      "english": "‘When what doesn’t exist is there no craving? When what ceases does craving cease?’ "
+    },
+    {
+      "number": 510,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 511,
+      "pali": "‘vedanāya kho asati taṇhā na hoti, vedanānirodhā taṇhānirodho’ti. ",
+      "english": "‘When feeling doesn’t exist there’s no craving. When feeling ceases, craving ceases.’ "
+    },
+    {
+      "number": 512,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 513,
+      "pali": "‘kimhi nu kho asati vedanā na hoti, kissa nirodhā vedanānirodho’ti? ",
+      "english": "‘When what doesn’t exist is there no feeling? When what ceases does feeling cease?’ "
+    },
+    {
+      "number": 514,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 515,
+      "pali": "‘phasse kho asati vedanā na hoti, phassanirodhā vedanānirodho’ti. ",
+      "english": "‘When contact doesn’t exist there’s no feeling. When contact ceases, feeling ceases.’ "
+    },
+    {
+      "number": 516,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 517,
+      "pali": "‘kimhi nu kho asati phasso na hoti, kissa nirodhā phassanirodho’ti? ",
+      "english": "‘When what doesn’t exist is there no contact? When what ceases does contact cease?’ "
+    },
+    {
+      "number": 518,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 519,
+      "pali": "‘saḷāyatane kho asati phasso na hoti, saḷāyatananirodhā phassanirodho’ti. ",
+      "english": "‘When the six sense fields don’t exist there’s no contact. When the six sense fields cease, contact ceases.’ "
+    },
+    {
+      "number": 520,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 521,
+      "pali": "‘kimhi nu kho asati saḷāyatanaṁ na hoti, kissa nirodhā saḷāyatananirodho’ti? ",
+      "english": "‘When what doesn’t exist are there no six sense fields? When what ceases do the six sense fields cease?’ "
+    },
+    {
+      "number": 522,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 523,
+      "pali": "‘nāmarūpe kho asati saḷāyatanaṁ na hoti, nāmarūpanirodhā saḷāyatananirodho’ti. ",
+      "english": "‘When name and form don’t exist there are no six sense fields. When name and form cease, the six sense fields cease.’ "
+    },
+    {
+      "number": 524,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 525,
+      "pali": "‘kimhi nu kho asati nāmarūpaṁ na hoti, kissa nirodhā nāmarūpanirodho’ti? ",
+      "english": "‘When what doesn’t exist are there no name and form? When what ceases do name and form cease?’ "
+    },
+    {
+      "number": 526,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 527,
+      "pali": "‘viññāṇe kho asati nāmarūpaṁ na hoti, viññāṇanirodhā nāmarūpanirodho’ti. ",
+      "english": "‘When consciousness doesn’t exist there are no name and form. When consciousness ceases, name and form cease.’ "
+    },
+    {
+      "number": 528,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 529,
+      "pali": "‘kimhi nu kho asati viññāṇaṁ na hoti, kissa nirodhā viññāṇanirodho’ti? ",
+      "english": "‘When what doesn’t exist is there no consciousness? When what ceases does consciousness cease?’ "
+    },
+    {
+      "number": 530,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa yoniso manasikārā ahu paññāya abhisamayo: ",
+      "english": "Then, through rational application of mind, Vipassī penetrated with wisdom, "
+    },
+    {
+      "number": 531,
+      "pali": "‘nāmarūpe kho asati viññāṇaṁ na hoti, nāmarūpanirodhā viññāṇanirodho’ti. ",
+      "english": "‘When name and form don’t exist there’s no consciousness. When name and form cease, consciousness ceases.’ "
+    },
+    {
+      "number": 532,
+      "pali": "Atha kho, bhikkhave, vipassissa bodhisattassa etadahosi: ",
+      "english": "Then Vipassī thought, "
+    },
+    {
+      "number": 533,
+      "pali": "‘adhigato kho myāyaṁ maggo sambodhāya yadidaṁ—",
+      "english": "‘I have discovered the path to awakening. That is: "
+    },
+    {
+      "number": 534,
+      "pali": "nāmarūpanirodhā viññāṇanirodho, viññāṇanirodhā nāmarūpanirodho, nāmarūpanirodhā saḷāyatananirodho, saḷāyatananirodhā phassanirodho, phassanirodhā vedanānirodho, vedanānirodhā taṇhānirodho, taṇhānirodhā upādānanirodho, upādānanirodhā bhavanirodho, bhavanirodhā jātinirodho, jātinirodhā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā nirujjhanti. ",
+      "english": "When name and form cease, consciousness ceases. When consciousness ceases, name and form cease. When name and form cease, the six sense fields cease. When the six sense fields cease, contact ceases. When contact ceases, feeling ceases. When feeling ceases, craving ceases. When craving ceases, grasping ceases. When grasping ceases, continued existence ceases. When continued existence ceases, rebirth ceases. When rebirth ceases, old age and death, sorrow, lamentation, pain, sadness, and distress cease. "
+    },
+    {
+      "number": 535,
+      "pali": "Evametassa kevalassa dukkhakkhandhassa nirodho hoti’. ",
+      "english": "That is how this entire mass of suffering ceases.’ "
+    },
+    {
+      "number": 536,
+      "pali": "‘Nirodho nirodho’ti kho, bhikkhave, vipassissa bodhisattassa pubbe ananussutesu dhammesu cakkhuṁ udapādi, ñāṇaṁ udapādi, paññā udapādi, vijjā udapādi, āloko udapādi. ",
+      "english": "‘Cessation, cessation.’ Such was the vision, knowledge, wisdom, realization, and light that arose in Vipassī, the one intent on awakening, regarding teachings not learned before from another. "
+    },
+    {
+      "number": 537,
+      "pali": "Atha kho, bhikkhave, vipassī bodhisatto aparena samayena pañcasu upādānakkhandhesu udayabbayānupassī vihāsi: ",
+      "english": "After some time he meditated observing rise and fall in the five grasping aggregates. "
+    },
+    {
+      "number": 538,
+      "pali": "‘iti rūpaṁ, iti rūpassa samudayo, iti rūpassa atthaṅgamo; ",
+      "english": "‘Such is form, such is the origin of form, such is the ending of form. "
+    },
+    {
+      "number": 539,
+      "pali": "iti vedanā, iti vedanāya samudayo, iti vedanāya atthaṅgamo; ",
+      "english": "Such is feeling, such is the origin of feeling, such is the ending of feeling. "
+    },
+    {
+      "number": 540,
+      "pali": "iti saññā, iti saññāya samudayo, iti saññāya atthaṅgamo; ",
+      "english": "Such is perception, such is the origin of perception, such is the ending of perception. "
+    },
+    {
+      "number": 541,
+      "pali": "iti saṅkhārā, iti saṅkhārānaṁ samudayo, iti saṅkhārānaṁ atthaṅgamo; ",
+      "english": "Such are choices, such is the origin of choices, such is the ending of choices. "
+    },
+    {
+      "number": 542,
+      "pali": "iti viññāṇaṁ, iti viññāṇassa samudayo, iti viññāṇassa atthaṅgamo’ti, ",
+      "english": "Such is consciousness, such is the origin of consciousness, such is the ending of consciousness.’ "
+    },
+    {
+      "number": 543,
+      "pali": "tassa pañcasu upādānakkhandhesu udayabbayānupassino viharato na cirasseva anupādāya āsavehi cittaṁ vimuccīti. ",
+      "english": "Meditating like this his mind was soon freed from defilements by not grasping. "
+    },
+    {
+      "number": 544,
+      "pali": "Dutiyabhāṇavāro. ",
+      "english": "The second recitation section. "
+    },
+    {
+      "number": 545,
+      "pali": "12. Brahmayācanakathā ",
+      "english": "12. The Appeal of the Divinity "
+    },
+    {
+      "number": 546,
+      "pali": "Atha kho, bhikkhave, vipassissa bhagavato arahato sammāsambuddhassa etadahosi: ",
+      "english": "Then it occurred to the Blessed One Vipassī, the perfected one, the fully awakened Buddha, "
+    },
+    {
+      "number": 547,
+      "pali": "‘yannūnāhaṁ dhammaṁ deseyyan’ti. ",
+      "english": "‘Why don’t I teach the Dhamma?’ "
+    },
+    {
+      "number": 548,
+      "pali": "Atha kho, bhikkhave, vipassissa bhagavato arahato sammāsambuddhassa etadahosi: ",
+      "english": "Then he thought, "
+    },
+    {
+      "number": 549,
+      "pali": "‘adhigato kho myāyaṁ dhammo gambhīro duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo. ",
+      "english": "‘This principle I have discovered is deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. "
+    },
+    {
+      "number": 550,
+      "pali": "Ālayarāmā kho panāyaṁ pajā ālayaratā ālayasammuditā. ",
+      "english": "But people like clinging, they love it and enjoy it. "
+    },
+    {
+      "number": 551,
+      "pali": "Ālayarāmāya kho pana pajāya ālayaratāya ālayasammuditāya duddasaṁ idaṁ ṭhānaṁ yadidaṁ idappaccayatāpaṭiccasamuppādo. ",
+      "english": "It’s hard for them to see this topic; that is, specific conditionality, dependent origination. "
+    },
+    {
+      "number": 552,
+      "pali": "Idampi kho ṭhānaṁ duddasaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānaṁ. ",
+      "english": "It’s also hard for them to see this topic; that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment. "
+    },
+    {
+      "number": 553,
+      "pali": "Ahañceva kho pana dhammaṁ deseyyaṁ, pare ca me na ājāneyyuṁ; so mamassa kilamatho, sā mamassa vihesā’ti. ",
+      "english": "And if I were to teach this principle, others might not understand me, which would be wearying and troublesome for me.’ "
+    },
+    {
+      "number": 554,
+      "pali": "Apissu, bhikkhave, vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ imā anacchariyā gāthāyo paṭibhaṁsu pubbe assutapubbā: ",
+      "english": "And then these verses, which were neither supernaturally inspired, nor learned before in the past, occurred to him: "
+    },
+    {
+      "number": 555,
+      "pali": "‘Kicchena me adhigataṁ, ",
+      "english": "‘I’ve struggled hard to realize this, "
+    },
+    {
+      "number": 556,
+      "pali": "halaṁ dāni pakāsituṁ; ",
+      "english": "enough with trying to explain it! "
+    },
+    {
+      "number": 557,
+      "pali": "Rāgadosaparetehi, ",
+      "english": "Those mired in greed and hate "
+    },
+    {
+      "number": 558,
+      "pali": "nāyaṁ dhammo susambudho. ",
+      "english": "can’t really understand this teaching. "
+    },
+    {
+      "number": 559,
+      "pali": "Paṭisotagāmiṁ nipuṇaṁ, ",
+      "english": "It goes against the stream, subtle, "
+    },
+    {
+      "number": 560,
+      "pali": "gambhīraṁ duddasaṁ aṇuṁ; ",
+      "english": "deep, obscure, and very fine. "
+    },
+    {
+      "number": 561,
+      "pali": "Rāgarattā na dakkhanti, ",
+      "english": "Those besotted by greed cannot see, "
+    },
+    {
+      "number": 562,
+      "pali": "tamokhandhena āvuṭā’ti. ",
+      "english": "for they’re shrouded in a mass of darkness.’ "
+    },
+    {
+      "number": 563,
+      "pali": "Itiha, bhikkhave, vipassissa bhagavato arahato sammāsambuddhassa paṭisañcikkhato appossukkatāya cittaṁ nami, no dhammadesanāya. ",
+      "english": "So, as the Buddha Vipassī reflected like this, his mind inclined to remaining passive, not to teaching the Dhamma. "
+    },
+    {
+      "number": 564,
+      "pali": "Atha kho, bhikkhave, aññatarassa mahābrahmuno vipassissa bhagavato arahato sammāsambuddhassa cetasā cetoparivitakkamaññāya etadahosi: ",
+      "english": "Then, knowing the Buddha Vipassī’s train of thought, it occurred to a certain Great Divinity, "
+    },
+    {
+      "number": 565,
+      "pali": "‘nassati vata bho loko, vinassati vata bho loko, yatra hi nāma vipassissa bhagavato arahato sammāsambuddhassa appossukkatāya cittaṁ namati, no dhammadesanāyā’ti. ",
+      "english": "‘Oh lord! The world will be lost, the world will perish! For the mind of the Blessed One Vipassī, the perfected one, the fully awakened Buddha, inclines to remaining passive, not to teaching the Dhamma.’ "
+    },
+    {
+      "number": 566,
+      "pali": "Atha kho so, bhikkhave, mahābrahmā seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evameva—brahmaloke antarahito vipassissa bhagavato arahato sammāsambuddhassa purato pāturahosi. ",
+      "english": "Then, as easily as a strong person would extend or contract their arm, he vanished from the realm of divinity and reappeared in front of the Buddha Vipassī. "
+    },
+    {
+      "number": 567,
+      "pali": "Atha kho so, bhikkhave, mahābrahmā ekaṁsaṁ uttarāsaṅgaṁ karitvā dakkhiṇaṁ jāṇumaṇḍalaṁ pathaviyaṁ nihantvā yena vipassī bhagavā arahaṁ sammāsambuddho tenañjaliṁ paṇāmetvā vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavoca: ",
+      "english": "He arranged his robe over one shoulder, knelt on his right knee, raised his cupped palms toward the Buddha Vipassī, and said, "
+    },
+    {
+      "number": 568,
+      "pali": "‘desetu, bhante, bhagavā dhammaṁ, desetu sugato dhammaṁ, ",
+      "english": "‘Sir, let the Blessed One teach the Dhamma! Let the Holy One teach the Dhamma! "
+    },
+    {
+      "number": 569,
+      "pali": "santi sattā apparajakkhajātikā; assavanatā dhammassa parihāyanti, ",
+      "english": "There are beings with little dust in their eyes. They’re in decline because they haven’t heard the teaching. "
+    },
+    {
+      "number": 570,
+      "pali": "bhavissanti dhammassa aññātāro’ti. ",
+      "english": "There will be those who understand the teaching!’ "
+    },
+    {
+      "number": 571,
+      "pali": "Evaṁ vutte, bhikkhave, vipassī bhagavā arahaṁ sammāsambuddho taṁ mahābrahmānaṁ etadavoca: ",
+      "english": "When he said this, the Buddha Vipassī said to him, "
+    },
+    {
+      "number": 572,
+      "pali": "‘mayhampi kho, brahme, etadahosi: ",
+      "english": "‘I too thought this, Divinity, "
+    },
+    {
+      "number": 573,
+      "pali": "“yannūnāhaṁ dhammaṁ deseyyan”ti. ",
+      "english": "“Why don’t I teach the Dhamma?” "
+    },
+    {
+      "number": 574,
+      "pali": "Tassa mayhaṁ, brahme, etadahosi: ",
+      "english": "Then it occurred to me, "
+    },
+    {
+      "number": 575,
+      "pali": "“adhigato kho myāyaṁ dhammo gambhīro duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo. ",
+      "english": ""
+    },
+    {
+      "number": 576,
+      "pali": "Ālayarāmā kho panāyaṁ pajā ālayaratā ālayasammuditā. ",
+      "english": ""
+    },
+    {
+      "number": 577,
+      "pali": "Ālayarāmāya kho pana pajāya ālayaratāya ālayasammuditāya duddasaṁ idaṁ ṭhānaṁ yadidaṁ idappaccayatāpaṭiccasamuppādo. ",
+      "english": ""
+    },
+    {
+      "number": 578,
+      "pali": "Idampi kho ṭhānaṁ duddasaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 579,
+      "pali": "Ahañceva kho pana dhammaṁ deseyyaṁ, pare ca me na ājāneyyuṁ; so mamassa kilamatho, sā mamassa vihesā”ti. ",
+      "english": "“If I were to teach this principle, others might not understand me, which would be wearying and troublesome for me.” "
+    },
+    {
+      "number": 580,
+      "pali": "Apissu maṁ, brahme, imā anacchariyā gāthāyo paṭibhaṁsu pubbe assutapubbā: ",
+      "english": ""
+    },
+    {
+      "number": 581,
+      "pali": "“Kicchena me adhigataṁ, ",
+      "english": ""
+    },
+    {
+      "number": 582,
+      "pali": "halaṁ dāni pakāsituṁ; ",
+      "english": ""
+    },
+    {
+      "number": 583,
+      "pali": "Rāgadosaparetehi, ",
+      "english": ""
+    },
+    {
+      "number": 584,
+      "pali": "nāyaṁ dhammo susambudho. ",
+      "english": ""
+    },
+    {
+      "number": 585,
+      "pali": "Paṭisotagāmiṁ nipuṇaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 586,
+      "pali": "gambhīraṁ duddasaṁ aṇuṁ; ",
+      "english": ""
+    },
+    {
+      "number": 587,
+      "pali": "Rāgarattā na dakkhanti, ",
+      "english": ""
+    },
+    {
+      "number": 588,
+      "pali": "tamokhandhena āvuṭā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 589,
+      "pali": "Itiha me, brahme, paṭisañcikkhato appossukkatāya cittaṁ nami, no dhammadesanāyā’ti. ",
+      "english": "So, as I reflected like this, my mind inclined to remaining passive, not to teaching the Dhamma.’ "
+    },
+    {
+      "number": 590,
+      "pali": "Dutiyampi kho, bhikkhave, so mahābrahmā …pe… ",
+      "english": "For a second time, "
+    },
+    {
+      "number": 591,
+      "pali": "tatiyampi kho, bhikkhave, so mahābrahmā vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavoca: ",
+      "english": "and a third time that Great Divinity begged the Buddha to teach. "
+    },
+    {
+      "number": 592,
+      "pali": "‘desetu, bhante, bhagavā dhammaṁ, desetu sugato dhammaṁ, santi sattā apparajakkhajātikā, assavanatā dhammassa parihāyanti, bhavissanti dhammassa aññātāro’ti. ",
+      "english": ""
+    },
+    {
+      "number": 593,
+      "pali": "Atha kho, bhikkhave, vipassī bhagavā arahaṁ sammāsambuddho brahmuno ca ajjhesanaṁ viditvā sattesu ca kāruññataṁ paṭicca buddhacakkhunā lokaṁ volokesi. ",
+      "english": "Then, understanding the Divinity’s invitation, the Buddha Vipassī surveyed the world with the eye of a Buddha, out of his compassion for sentient beings. "
+    },
+    {
+      "number": 594,
+      "pali": "Addasā kho, bhikkhave, vipassī bhagavā arahaṁ sammāsambuddho buddhacakkhunā lokaṁ volokento satte apparajakkhe mahārajakkhe tikkhindriye mudindriye svākāre dvākāre suviññāpaye duviññāpaye appekacce paralokavajjabhayadassāvine viharante, appekacce na paralokavajjabhayadassāvine viharante. ",
+      "english": "And he saw sentient beings with little dust in their eyes, and some with much dust in their eyes; with keen faculties and with weak faculties, with good qualities and with bad qualities, easy to teach and hard to teach. And some of them lived seeing the danger in the fault to do with the next world, while others did not. "
+    },
+    {
+      "number": 595,
+      "pali": "Seyyathāpi nāma uppaliniyaṁ vā paduminiyaṁ vā puṇḍarīkiniyaṁ vā appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakānuggatāni anto nimuggaposīni. Appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni samodakaṁ ṭhitāni. Appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakā accuggamma ṭhitāni anupalittāni udakena. ",
+      "english": "It’s like a pool with blue water lilies, or pink or white lotuses. Some of them sprout and grow in the water without rising above it, thriving underwater. Some of them sprout and grow in the water reaching the water’s surface. And some of them sprout and grow in the water but rise up above the water and stand with no water clinging to them. "
+    },
+    {
+      "number": 596,
+      "pali": "Evameva kho, bhikkhave, vipassī bhagavā arahaṁ sammāsambuddho buddhacakkhunā lokaṁ volokento addasa satte apparajakkhe mahārajakkhe tikkhindriye mudindriye svākāre dvākāre suviññāpaye duviññāpaye appekacce paralokavajjabhayadassāvine viharante, appekacce na paralokavajjabhayadassāvine viharante. ",
+      "english": "In the same way, the Buddha Vipassī saw sentient beings with little dust in their eyes, and some with much dust in their eyes. "
+    },
+    {
+      "number": 597,
+      "pali": "Atha kho so, bhikkhave, mahābrahmā vipassissa bhagavato arahato sammāsambuddhassa cetasā cetoparivitakkamaññāya vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ gāthāhi ajjhabhāsi: ",
+      "english": "Then that Great Divinity, knowing the Buddha Vipassī’s train of thought, addressed him in verse: "
+    },
+    {
+      "number": 598,
+      "pali": "‘Sele yathā pabbatamuddhaniṭṭhito, ",
+      "english": "‘Standing high on a rocky mountain, "
+    },
+    {
+      "number": 599,
+      "pali": "Yathāpi passe janataṁ samantato; ",
+      "english": "you can see the people all around. "
+    },
+    {
+      "number": 600,
+      "pali": "Tathūpamaṁ dhammamayaṁ sumedha, ",
+      "english": "In just the same way, All-seer, so intelligent, "
+    },
+    {
+      "number": 601,
+      "pali": "Pāsādamāruyha samantacakkhu; ",
+      "english": "having ascended the Temple of Truth, "
+    },
+    {
+      "number": 602,
+      "pali": "Sokāvatiṇṇaṁ janatamapetasoko, ",
+      "english": "rid of sorrow, look upon the people "
+    },
+    {
+      "number": 603,
+      "pali": "Avekkhassu jātijarābhibhūtaṁ. ",
+      "english": "swamped with sorrow, overcome by rebirth and old age. "
+    },
+    {
+      "number": 604,
+      "pali": "Uṭṭhehi vīra vijitasaṅgāma, ",
+      "english": "Rise, hero! Victor in battle, caravan leader, "
+    },
+    {
+      "number": 605,
+      "pali": "Satthavāha aṇaṇa vicara loke; ",
+      "english": "wander the world cleared of debt. "
+    },
+    {
+      "number": 606,
+      "pali": "Desassu bhagavā dhammaṁ, ",
+      "english": "Let the Blessed One teach the Dhamma! "
+    },
+    {
+      "number": 607,
+      "pali": "Aññātāro bhavissantī’ti. ",
+      "english": "There will be those who understand!’ "
+    },
+    {
+      "number": 608,
+      "pali": "Atha kho, bhikkhave, vipassī bhagavā arahaṁ sammāsambuddho taṁ mahābrahmānaṁ gāthāya ajjhabhāsi: ",
+      "english": "Then the Buddha Vipassī addressed that Great Divinity in verse: "
+    },
+    {
+      "number": 609,
+      "pali": "‘Apārutā tesaṁ amatassa dvārā, ",
+      "english": "‘Flung open are the doors to freedom from death! "
+    },
+    {
+      "number": 610,
+      "pali": "Ye sotavanto pamuñcantu saddhaṁ; ",
+      "english": "Let those with ears to hear commit to faith. "
+    },
+    {
+      "number": 611,
+      "pali": "Vihiṁsasaññī paguṇaṁ na bhāsiṁ, ",
+      "english": "Thinking it would be troublesome, Divinity, <j>I did not teach "
+    },
+    {
+      "number": 612,
+      "pali": "Dhammaṁ paṇītaṁ manujesu brahme’ti. ",
+      "english": "the sophisticated, sublime Dhamma among mankind.’ "
+    },
+    {
+      "number": 613,
+      "pali": "Atha kho so, bhikkhave, mahābrahmā: ‘katāvakāso khomhi vipassinā bhagavatā arahatā sammāsambuddhena dhammadesanāyā’ti vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā padakkhiṇaṁ katvā tattheva antaradhāyi. ",
+      "english": "Then the Great Divinity, knowing that his request for the Buddha Vipassī to teach the Dhamma had been granted, bowed and respectfully circled him, keeping him on his right, before vanishing right there. "
+    },
+    {
+      "number": 614,
+      "pali": "13. Aggasāvakayuga ",
+      "english": "13. The Chief Disciples "
+    },
+    {
+      "number": 615,
+      "pali": "Atha kho, bhikkhave, vipassissa bhagavato arahato sammāsambuddhassa etadahosi: ",
+      "english": "Then it occurred to the Blessed One Vipassī, the perfected one, the fully awakened Buddha, "
+    },
+    {
+      "number": 616,
+      "pali": "‘kassa nu kho ahaṁ paṭhamaṁ dhammaṁ deseyyaṁ, ",
+      "english": "‘Who should I teach first of all? "
+    },
+    {
+      "number": 617,
+      "pali": "ko imaṁ dhammaṁ khippameva ājānissatī’ti? ",
+      "english": "Who will quickly understand this teaching?’ "
+    },
+    {
+      "number": 618,
+      "pali": "Atha kho, bhikkhave, vipassissa bhagavato arahato sammāsambuddhassa etadahosi: ",
+      "english": "Then he thought, "
+    },
+    {
+      "number": 619,
+      "pali": "‘ayaṁ kho khaṇḍo ca rājaputto tisso ca purohitaputto bandhumatiyā rājadhāniyā paṭivasanti paṇḍitā viyattā medhāvino dīgharattaṁ apparajakkhajātikā. ",
+      "english": "‘That Khaṇḍa, the king’s son, and Tissa, the high priest’s son, are astute, competent, clever, and have long had little dust in their eyes. "
+    },
+    {
+      "number": 620,
+      "pali": "Yannūnāhaṁ khaṇḍassa ca rājaputtassa, tissassa ca purohitaputtassa paṭhamaṁ dhammaṁ deseyyaṁ, te imaṁ dhammaṁ khippameva ājānissantī’ti. ",
+      "english": "Why don’t I teach them first of all? They will quickly understand this teaching.’ "
+    },
+    {
+      "number": 621,
+      "pali": "Atha kho, bhikkhave, vipassī bhagavā arahaṁ sammāsambuddho seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evameva—bodhirukkhamūle antarahito bandhumatiyā rājadhāniyā kheme migadāye pāturahosi. ",
+      "english": "Then, as easily as a strong person would extend or contract their arm, he vanished from the tree of awakening and reappeared near the capital city of Bandhumatī, in the deer park named Sanctuary. "
+    },
+    {
+      "number": 622,
+      "pali": "Atha kho, bhikkhave, vipassī bhagavā arahaṁ sammāsambuddho dāyapālaṁ āmantesi: ",
+      "english": "Then the Buddha Vipassī addressed the park keeper, "
+    },
+    {
+      "number": 623,
+      "pali": "‘ehi tvaṁ, samma dāyapāla, bandhumatiṁ rājadhāniṁ pavisitvā khaṇḍañca rājaputtaṁ tissañca purohitaputtaṁ evaṁ vadehi—",
+      "english": "‘My dear park keeper, please enter the city and say this to the king’s son Khaṇḍa and the high priest’s son Tissa: "
+    },
+    {
+      "number": 624,
+      "pali": "vipassī, bhante, bhagavā arahaṁ sammāsambuddho bandhumatiṁ rājadhāniṁ anuppatto kheme migadāye viharati, so tumhākaṁ dassanakāmo’ti. ",
+      "english": "“Sirs, the Blessed One Vipassī, the perfected one, the fully awakened Buddha, has arrived at Bandhumatī and is staying in the deer park named Sanctuary. He wishes to see you.”’ "
+    },
+    {
+      "number": 625,
+      "pali": "‘Evaṁ, bhante’ti kho, bhikkhave, dāyapālo vipassissa bhagavato arahato sammāsambuddhassa paṭissutvā bandhumatiṁ rājadhāniṁ pavisitvā khaṇḍañca rājaputtaṁ tissañca purohitaputtaṁ etadavoca: ",
+      "english": "‘Yes, sir,’ replied the park keeper, and did as he was asked. "
+    },
+    {
+      "number": 626,
+      "pali": "‘vipassī, bhante, bhagavā arahaṁ sammāsambuddho bandhumatiṁ rājadhāniṁ anuppatto kheme migadāye viharati; so tumhākaṁ dassanakāmo’ti. ",
+      "english": ""
+    },
+    {
+      "number": 627,
+      "pali": "Atha kho, bhikkhave, khaṇḍo ca rājaputto tisso ca purohitaputto bhaddāni bhaddāni yānāni yojāpetvā bhaddaṁ bhaddaṁ yānaṁ abhiruhitvā bhaddehi bhaddehi yānehi bandhumatiyā rājadhāniyā niyyiṁsu. Yena khemo migadāyo tena pāyiṁsu. ",
+      "english": "Then the king’s son Khaṇḍa and the high priest’s son Tissa had the finest carriages harnessed. Then they mounted a fine carriage and, along with other fine carriages, set out from Bandhumatī for the Sanctuary. "
+    },
+    {
+      "number": 628,
+      "pali": "Yāvatikā yānassa bhūmi, yānena gantvā yānā paccorohitvā pattikāva yena vipassī bhagavā arahaṁ sammāsambuddho tenupasaṅkamiṁsu. upasaṅkamitvā vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā ekamantaṁ nisīdiṁsu. ",
+      "english": "They went by carriage as far as the terrain allowed, then descended and approached the Buddha Vipassī on foot. They bowed and sat down to one side. "
+    },
+    {
+      "number": 629,
+      "pali": "Tesaṁ vipassī bhagavā arahaṁ sammāsambuddho anupubbiṁ kathaṁ kathesi, seyyathidaṁ—",
+      "english": "The Buddha Vipassī taught them step by step, with "
+    },
+    {
+      "number": 630,
+      "pali": "dānakathaṁ sīlakathaṁ saggakathaṁ kāmānaṁ ādīnavaṁ okāraṁ saṅkilesaṁ nekkhamme ānisaṁsaṁ pakāsesi. ",
+      "english": "a talk on giving, ethical conduct, and heaven. He explained the drawbacks of sensual pleasures, so sordid and corrupt, and the benefit of renunciation. "
+    },
+    {
+      "number": 631,
+      "pali": "Yadā te bhagavā aññāsi kallacitte muducitte vinīvaraṇacitte udaggacitte pasannacitte, atha yā buddhānaṁ sāmukkaṁsikā dhammadesanā, taṁ pakāsesi—",
+      "english": "And when he knew that their minds were ready, pliable, rid of hindrances, elated, and confident he explained the special teaching of the Buddhas: "
+    },
+    {
+      "number": 632,
+      "pali": "dukkhaṁ samudayaṁ nirodhaṁ maggaṁ. ",
+      "english": "suffering, its origin, its cessation, and the path. "
+    },
+    {
+      "number": 633,
+      "pali": "Seyyathāpi nāma suddhaṁ vatthaṁ apagatakāḷakaṁ sammadeva rajanaṁ paṭiggaṇheyya; ",
+      "english": "Just as a clean cloth rid of stains would properly absorb dye, "
+    },
+    {
+      "number": 634,
+      "pali": "evameva khaṇḍassa ca rājaputtassa tissassa ca purohitaputtassa tasmiṁyeva āsane virajaṁ vītamalaṁ dhammacakkhuṁ udapādi: ",
+      "english": "in that very seat the stainless, immaculate vision of the Dhamma arose in the king’s son Khaṇḍa and the high priest’s son Tissa: "
+    },
+    {
+      "number": 635,
+      "pali": "‘yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman’ti. ",
+      "english": "‘Everything that is liable to arise is liable to cease.’ "
+    },
+    {
+      "number": 636,
+      "pali": "Te diṭṭhadhammā pattadhammā viditadhammā pariyogāḷhadhammā tiṇṇavicikicchā vigatakathaṅkathā vesārajjappattā aparappaccayā satthusāsane vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavocuṁ: ",
+      "english": "They saw, attained, understood, and fathomed the Dhamma. They went beyond doubt, got rid of indecision, and became self-assured and independent of others regarding the Teacher’s instructions. They said to the Buddha Vipassī, "
+    },
+    {
+      "number": 637,
+      "pali": "‘abhikkantaṁ, bhante, abhikkantaṁ, bhante. ",
+      "english": "‘Excellent, sir! Excellent! "
+    },
+    {
+      "number": 638,
+      "pali": "Seyyathāpi, bhante, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya: “cakkhumanto rūpāni dakkhantī”ti; evamevaṁ bhagavatā anekapariyāyena dhammo pakāsito. ",
+      "english": "As if he were righting the overturned, or revealing the hidden, or pointing out the path to the lost, or lighting a lamp in the dark so people with clear eyes can see what’s there, the Buddha has made the teaching clear in many ways. "
+    },
+    {
+      "number": 639,
+      "pali": "Ete mayaṁ, bhante, bhagavantaṁ saraṇaṁ gacchāma dhammañca. ",
+      "english": "We go for refuge to the Blessed One and to the teaching. "
+    },
+    {
+      "number": 640,
+      "pali": "Labheyyāma mayaṁ, bhante, bhagavato santike pabbajjaṁ, labheyyāma upasampadan’ti. ",
+      "english": "Sir, may we receive the going forth and ordination in the Buddha’s presence?’ "
+    },
+    {
+      "number": 641,
+      "pali": "Alatthuṁ kho, bhikkhave, khaṇḍo ca rājaputto, tisso ca purohitaputto vipassissa bhagavato arahato sammāsambuddhassa santike pabbajjaṁ alatthuṁ upasampadaṁ. ",
+      "english": "And they received the going forth, the ordination in the Buddha Vipassī’s presence. "
+    },
+    {
+      "number": 642,
+      "pali": "Te vipassī bhagavā arahaṁ sammāsambuddho dhammiyā kathāya sandassesi samādapesi samuttejesi sampahaṁsesi; ",
+      "english": "Then the Buddha Vipassī educated, encouraged, fired up, and inspired them with a Dhamma talk. "
+    },
+    {
+      "number": 643,
+      "pali": "saṅkhārānaṁ ādīnavaṁ okāraṁ saṅkilesaṁ nibbāne ānisaṁsaṁ pakāsesi. ",
+      "english": "He explained the drawbacks of conditioned phenomena, so sordid and corrupt, and the benefit of extinguishment. "
+    },
+    {
+      "number": 644,
+      "pali": "Tesaṁ vipassinā bhagavatā arahatā sammāsambuddhena dhammiyā kathāya sandassiyamānānaṁ samādapiyamānānaṁ samuttejiyamānānaṁ sampahaṁsiyamānānaṁ nacirasseva anupādāya āsavehi cittāni vimucciṁsu. ",
+      "english": "Being taught like this their minds were soon freed from defilements by not grasping. "
+    },
+    {
+      "number": 645,
+      "pali": "14. Mahājanakāyapabbajjā ",
+      "english": "14. The Going Forth of the Large Crowd "
+    },
+    {
+      "number": 646,
+      "pali": "Assosi kho, bhikkhave, bandhumatiyā rājadhāniyā mahājanakāyo caturāsītipāṇasahassāni: ",
+      "english": "A large crowd of 84,000 people in the capital of Bandhumatī heard "
+    },
+    {
+      "number": 647,
+      "pali": "‘vipassī kira bhagavā arahaṁ sammāsambuddho bandhumatiṁ rājadhāniṁ anuppatto kheme migadāye viharati. ",
+      "english": "that the Blessed One Vipassī, the perfected one, the fully awakened Buddha, had arrived at Bandhumatī and was staying in the deer park named Sanctuary. "
+    },
+    {
+      "number": 648,
+      "pali": "Khaṇḍo ca kira rājaputto tisso ca purohitaputto vipassissa bhagavato arahato sammāsambuddhassa santike kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajitā’ti. ",
+      "english": "And they heard that the king’s son Khaṇḍa and the high priest’s son Tissa had shaved off their hair and beard, dressed in ocher robes, and gone forth from the lay life to homelessness in the Buddha’s presence. "
+    },
+    {
+      "number": 649,
+      "pali": "Sutvāna nesaṁ etadahosi: ",
+      "english": "It occurred to them, "
+    },
+    {
+      "number": 650,
+      "pali": "‘na hi nūna so orako dhammavinayo, na sā orakā pabbajjā, yattha khaṇḍo ca rājaputto tisso ca purohitaputto kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajitā. ",
+      "english": "‘This must be no ordinary teaching and training, no ordinary going forth in which the king’s son Khaṇḍa and the high priest’s son Tissa have gone forth. "
+    },
+    {
+      "number": 651,
+      "pali": "Khaṇḍo ca rājaputto tisso ca purohitaputto kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajissanti, kimaṅgaṁ pana mayan’ti. ",
+      "english": "If even they go forth, why don’t we do the same?’ "
+    },
+    {
+      "number": 652,
+      "pali": "Atha kho so, bhikkhave, mahājanakāyo caturāsītipāṇasahassāni bandhumatiyā rājadhāniyā nikkhamitvā yena khemo migadāyo yena vipassī bhagavā arahaṁ sammāsambuddho tenupasaṅkamiṁsu; upasaṅkamitvā vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā ekamantaṁ nisīdiṁsu. ",
+      "english": "Then those 84,000 people left Bandhumatī for the deer park named Sanctuary, where they approached the Buddha Vipassī, bowed and sat down to one side. "
+    },
+    {
+      "number": 653,
+      "pali": "Tesaṁ vipassī bhagavā arahaṁ sammāsambuddho anupubbiṁ kathaṁ kathesi. ",
+      "english": "The Buddha Vipassī taught them step by step, with "
+    },
+    {
+      "number": 654,
+      "pali": "Seyyathidaṁ—dānakathaṁ sīlakathaṁ saggakathaṁ kāmānaṁ ādīnavaṁ okāraṁ saṅkilesaṁ nekkhamme ānisaṁsaṁ pakāsesi. ",
+      "english": "a talk on giving, ethical conduct, and heaven. He explained the drawbacks of sensual pleasures, so sordid and corrupt, and the benefit of renunciation. "
+    },
+    {
+      "number": 655,
+      "pali": "Yadā te bhagavā aññāsi kallacitte muducitte vinīvaraṇacitte udaggacitte pasannacitte, atha yā buddhānaṁ sāmukkaṁsikā dhammadesanā, taṁ pakāsesi—",
+      "english": "And when he knew that their minds were ready, pliable, rid of hindrances, elated, and confident he explained the special teaching of the Buddhas: "
+    },
+    {
+      "number": 656,
+      "pali": "dukkhaṁ samudayaṁ nirodhaṁ maggaṁ. ",
+      "english": "suffering, its origin, its cessation, and the path. "
+    },
+    {
+      "number": 657,
+      "pali": "Seyyathāpi nāma suddhaṁ vatthaṁ apagatakāḷakaṁ sammadeva rajanaṁ paṭiggaṇheyya; ",
+      "english": "Just as a clean cloth rid of stains would properly absorb dye, "
+    },
+    {
+      "number": 658,
+      "pali": "evameva tesaṁ caturāsītipāṇasahassānaṁ tasmiṁyeva āsane virajaṁ vītamalaṁ dhammacakkhuṁ udapādi: ",
+      "english": "in that very seat the stainless, immaculate vision of the Dhamma arose in those 84,000 people: "
+    },
+    {
+      "number": 659,
+      "pali": "‘yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman’ti. ",
+      "english": "‘Everything that is liable to arise is liable to cease.’ "
+    },
+    {
+      "number": 660,
+      "pali": "Te diṭṭhadhammā pattadhammā viditadhammā pariyogāḷhadhammā tiṇṇavicikicchā vigatakathaṅkathā vesārajjappattā aparappaccayā satthusāsane vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavocuṁ: ",
+      "english": "They saw, attained, understood, and fathomed the Dhamma. They went beyond doubt, got rid of indecision, and became self-assured and independent of others regarding the Teacher’s instructions. They said to the Buddha Vipassī, "
+    },
+    {
+      "number": 661,
+      "pali": "‘abhikkantaṁ, bhante, abhikkantaṁ, bhante. ",
+      "english": "‘Excellent, sir! Excellent!’ "
+    },
+    {
+      "number": 662,
+      "pali": "Seyyathāpi, bhante, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya: “cakkhumanto rūpāni dakkhantī”ti; evamevaṁ bhagavatā anekapariyāyena dhammo pakāsito. ",
+      "english": "And just like Khaṇḍa and Tissa they asked for and received ordination. Then the Buddha taught them further. "
+    },
+    {
+      "number": 663,
+      "pali": "Ete mayaṁ, bhante, bhagavantaṁ saraṇaṁ gacchāma dhammañca bhikkhusaṅghañca. ",
+      "english": ""
+    },
+    {
+      "number": 664,
+      "pali": "Labheyyāma mayaṁ, bhante, bhagavato santike pabbajjaṁ labheyyāma upasampadan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 665,
+      "pali": "Alatthuṁ kho, bhikkhave, tāni caturāsītipāṇasahassāni vipassissa bhagavato arahato sammāsambuddhassa santike pabbajjaṁ, alatthuṁ upasampadaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 666,
+      "pali": "Te vipassī bhagavā arahaṁ sammāsambuddho dhammiyā kathāya sandassesi samādapesi samuttejesi sampahaṁsesi; ",
+      "english": ""
+    },
+    {
+      "number": 667,
+      "pali": "saṅkhārānaṁ ādīnavaṁ okāraṁ saṅkilesaṁ nibbāne ānisaṁsaṁ pakāsesi. ",
+      "english": ""
+    },
+    {
+      "number": 668,
+      "pali": "Tesaṁ vipassinā bhagavatā arahatā sammāsambuddhena dhammiyā kathāya sandassiyamānānaṁ samādapiyamānānaṁ samuttejiyamānānaṁ sampahaṁsiyamānānaṁ nacirasseva anupādāya āsavehi cittāni vimucciṁsu. ",
+      "english": "Being taught like this their minds were soon freed from defilements by not grasping. "
+    },
+    {
+      "number": 669,
+      "pali": "15. Purimapabbajitānaṁ dhammābhisamaya ",
+      "english": "15. The 84,000 Who Had Gone Forth Previously "
+    },
+    {
+      "number": 670,
+      "pali": "Assosuṁ kho, bhikkhave, tāni purimāni caturāsītipabbajitasahassāni: ",
+      "english": "The 84,000 people who had gone forth previously also heard: "
+    },
+    {
+      "number": 671,
+      "pali": "‘vipassī kira bhagavā arahaṁ sammāsambuddho bandhumatiṁ rājadhāniṁ anuppatto kheme migadāye viharati, dhammañca kira desetī’ti. ",
+      "english": "‘It seems the Blessed One Vipassī, the perfected one, the fully awakened Buddha, has arrived at Bandhumatī and is staying in the deer park named Sanctuary. And he is teaching the Dhamma!’ "
+    },
+    {
+      "number": 672,
+      "pali": "Atha kho, bhikkhave, tāni caturāsītipabbajitasahassāni yena bandhumatī rājadhānī yena khemo migadāyo yena vipassī bhagavā arahaṁ sammāsambuddho tenupasaṅkamiṁsu; upasaṅkamitvā vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā ekamantaṁ nisīdiṁsu. ",
+      "english": "Then they too went to see the Buddha Vipassī, realized the Dhamma, went forth, and became freed from defilements. "
+    },
+    {
+      "number": 673,
+      "pali": "Tesaṁ vipassī bhagavā arahaṁ sammāsambuddho anupubbiṁ kathaṁ kathesi. ",
+      "english": ""
+    },
+    {
+      "number": 674,
+      "pali": "Seyyathidaṁ—dānakathaṁ sīlakathaṁ saggakathaṁ kāmānaṁ ādīnavaṁ okāraṁ saṅkilesaṁ nekkhamme ānisaṁsaṁ pakāsesi. ",
+      "english": ""
+    },
+    {
+      "number": 675,
+      "pali": "Yadā te bhagavā aññāsi kallacitte muducitte vinīvaraṇacitte udaggacitte pasannacitte, atha yā buddhānaṁ sāmukkaṁsikā dhammadesanā, taṁ pakāsesi—",
+      "english": ""
+    },
+    {
+      "number": 676,
+      "pali": "dukkhaṁ samudayaṁ nirodhaṁ maggaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 677,
+      "pali": "Seyyathāpi nāma suddhaṁ vatthaṁ apagatakāḷakaṁ sammadeva rajanaṁ paṭiggaṇheyya; ",
+      "english": ""
+    },
+    {
+      "number": 678,
+      "pali": "evameva tesaṁ caturāsītipabbajitasahassānaṁ tasmiṁyeva āsane virajaṁ vītamalaṁ dhammacakkhuṁ udapādi: ",
+      "english": ""
+    },
+    {
+      "number": 679,
+      "pali": "‘yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman’ti. ",
+      "english": ""
+    },
+    {
+      "number": 680,
+      "pali": "Te diṭṭhadhammā pattadhammā viditadhammā pariyogāḷhadhammā tiṇṇavicikicchā vigatakathaṅkathā vesārajjappattā aparappaccayā satthusāsane vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavocuṁ: ",
+      "english": ""
+    },
+    {
+      "number": 681,
+      "pali": "‘abhikkantaṁ, bhante, abhikkantaṁ, bhante. ",
+      "english": ""
+    },
+    {
+      "number": 682,
+      "pali": "Seyyathāpi, bhante, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya: “cakkhumanto rūpāni dakkhantī”ti; evamevaṁ bhagavatā anekapariyāyena dhammo pakāsito. ",
+      "english": ""
+    },
+    {
+      "number": 683,
+      "pali": "Ete mayaṁ, bhante, bhagavantaṁ saraṇaṁ gacchāma dhammañca bhikkhusaṅghañca. ",
+      "english": ""
+    },
+    {
+      "number": 684,
+      "pali": "Labheyyāma mayaṁ, bhante, bhagavato santike pabbajjaṁ labheyyāma upasampadan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 685,
+      "pali": "Alatthuṁ kho, bhikkhave, tāni caturāsītipabbajitasahassāni vipassissa bhagavato arahato sammāsambuddhassa santike pabbajjaṁ alatthuṁ upasampadaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 686,
+      "pali": "Te vipassī bhagavā arahaṁ sammāsambuddho dhammiyā kathāya sandassesi samādapesi samuttejesi sampahaṁsesi; ",
+      "english": ""
+    },
+    {
+      "number": 687,
+      "pali": "saṅkhārānaṁ ādīnavaṁ okāraṁ saṅkilesaṁ nibbāne ānisaṁsaṁ pakāsesi. ",
+      "english": ""
+    },
+    {
+      "number": 688,
+      "pali": "Tesaṁ vipassinā bhagavatā arahatā sammāsambuddhena dhammiyā kathāya sandassiyamānānaṁ samādapiyamānānaṁ samuttejiyamānānaṁ sampahaṁsiyamānānaṁ nacirasseva anupādāya āsavehi cittāni vimucciṁsu. ",
+      "english": ""
+    },
+    {
+      "number": 689,
+      "pali": "16. Cārikāanujānana ",
+      "english": "16. The Allowance to Wander "
+    },
+    {
+      "number": 690,
+      "pali": "Tena kho pana, bhikkhave, samayena bandhumatiyā rājadhāniyā mahābhikkhusaṅgho paṭivasati aṭṭhasaṭṭhibhikkhusatasahassaṁ. ",
+      "english": "Now at that time a large Saṅgha of 6,800,000 mendicants were residing at Bandhumatī. "
+    },
+    {
+      "number": 691,
+      "pali": "Atha kho, bhikkhave, vipassissa bhagavato arahato sammāsambuddhassa rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
+      "english": "As the Buddha Vipassī was in private retreat this thought came to his mind, "
+    },
+    {
+      "number": 692,
+      "pali": "‘mahā kho etarahi bhikkhusaṅgho bandhumatiyā rājadhāniyā paṭivasati aṭṭhasaṭṭhibhikkhusatasahassaṁ, yannūnāhaṁ bhikkhū anujāneyyaṁ: ",
+      "english": "‘The Saṅgha residing at Bandhumatī now is large. What if I was to urge them: "
+    },
+    {
+      "number": 693,
+      "pali": "“caratha, bhikkhave, cārikaṁ bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ; ",
+      "english": "“Wander forth, mendicants, for the welfare and happiness of the people, out of sympathy for the world, for the benefit, welfare, and happiness of gods and humans. "
+    },
+    {
+      "number": 694,
+      "pali": "mā ekena dve agamittha; ",
+      "english": "Let not two go by one road. "
+    },
+    {
+      "number": 695,
+      "pali": "desetha, bhikkhave, dhammaṁ ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsetha. ",
+      "english": "Teach the Dhamma that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And reveal a spiritual practice that’s entirely full and pure. "
+    },
+    {
+      "number": 696,
+      "pali": "Santi sattā apparajakkhajātikā, assavanatā dhammassa parihāyanti, ",
+      "english": "There are beings with little dust in their eyes. They’re in decline because they haven’t heard the teaching. "
+    },
+    {
+      "number": 697,
+      "pali": "bhavissanti dhammassa aññātāro. ",
+      "english": "There will be those who understand the teaching! "
+    },
+    {
+      "number": 698,
+      "pali": "Api ca channaṁ channaṁ vassānaṁ accayena bandhumatī rājadhānī upasaṅkamitabbā pātimokkhuddesāyā”’ti. ",
+      "english": "But when six years have passed, you must all come to Bandhumatī to recite the monastic code.”’ "
+    },
+    {
+      "number": 699,
+      "pali": "Atha kho, bhikkhave, aññataro mahābrahmā vipassissa bhagavato arahato sammāsambuddhassa cetasā cetoparivitakkamaññāya seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evameva—brahmaloke antarahito vipassissa bhagavato arahato sammāsambuddhassa purato pāturahosi. ",
+      "english": "Then a certain Great Divinity, knowing the Buddha Vipassī’s train of thought, as easily as a strong person would extend or contract their arm, vanished from the realm of divinity and reappeared in front of the Buddha Vipassī. "
+    },
+    {
+      "number": 700,
+      "pali": "Atha kho so, bhikkhave, mahābrahmā ekaṁsaṁ uttarāsaṅgaṁ karitvā yena vipassī bhagavā arahaṁ sammāsambuddho tenañjaliṁ paṇāmetvā vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ etadavoca: ",
+      "english": "He arranged his robe over one shoulder, raised his cupped palms toward the Buddha Vipassī, and said, "
+    },
+    {
+      "number": 701,
+      "pali": "‘evametaṁ, bhagavā, evametaṁ, sugata. ",
+      "english": "‘That’s so true, Blessed One! That’s so true, Holy One! "
+    },
+    {
+      "number": 702,
+      "pali": "Mahā kho, bhante, etarahi bhikkhusaṅgho bandhumatiyā rājadhāniyā paṭivasati aṭṭhasaṭṭhibhikkhusatasahassaṁ, anujānātu, bhante, bhagavā bhikkhū: ",
+      "english": "The Saṅgha residing at Bandhumatī now is large. Please urge them to wander, as you thought. "
+    },
+    {
+      "number": 703,
+      "pali": "“caratha, bhikkhave, cārikaṁ bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 704,
+      "pali": "mā ekena dve agamittha; ",
+      "english": ""
+    },
+    {
+      "number": 705,
+      "pali": "desetha, bhikkhave, dhammaṁ ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsetha. ",
+      "english": ""
+    },
+    {
+      "number": 706,
+      "pali": "Santi sattā apparajakkhajātikā, assavanatā dhammassa parihāyanti, bhavissanti dhammassa aññātāro”ti. ",
+      "english": ""
+    },
+    {
+      "number": 707,
+      "pali": "Api ca, bhante, mayaṁ tathā karissāma yathā bhikkhū channaṁ channaṁ vassānaṁ accayena bandhumatiṁ rājadhāniṁ upasaṅkamissanti pātimokkhuddesāyā’ti. ",
+      "english": "And sir, I’ll make sure that when six years have passed the mendicants will return to Bandhumatī to recite the monastic code.’ "
+    },
+    {
+      "number": 708,
+      "pali": "Idamavoca, bhikkhave, so mahābrahmā. ",
+      "english": "That’s what that Great Divinity said. "
+    },
+    {
+      "number": 709,
+      "pali": "Idaṁ vatvā vipassiṁ bhagavantaṁ arahantaṁ sammāsambuddhaṁ abhivādetvā padakkhiṇaṁ katvā tattheva antaradhāyi. ",
+      "english": "Then he bowed and respectfully circled the Buddha Vipassī, keeping him on his right side, before vanishing right there. "
+    },
+    {
+      "number": 710,
+      "pali": "Atha kho, bhikkhave, vipassī bhagavā arahaṁ sammāsambuddho sāyanhasamayaṁ paṭisallānā vuṭṭhito bhikkhū āmantesi: ",
+      "english": "Then in the late afternoon, the Buddha Vipassī came out of retreat and addressed the mendicants, telling them all that had happened. Then he said, "
+    },
+    {
+      "number": 711,
+      "pali": "‘idha mayhaṁ, bhikkhave, rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
+      "english": ""
+    },
+    {
+      "number": 712,
+      "pali": "“mahā kho etarahi bhikkhusaṅgho bandhumatiyā rājadhāniyā paṭivasati aṭṭhasaṭṭhibhikkhusatasahassaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 713,
+      "pali": "Yannūnāhaṁ bhikkhū anujāneyyaṁ—",
+      "english": ""
+    },
+    {
+      "number": 714,
+      "pali": "caratha, bhikkhave, cārikaṁ bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 715,
+      "pali": "mā ekena dve agamittha; ",
+      "english": ""
+    },
+    {
+      "number": 716,
+      "pali": "desetha, bhikkhave, dhammaṁ ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsetha. ",
+      "english": ""
+    },
+    {
+      "number": 717,
+      "pali": "Santi sattā apparajakkhajātikā, assavanatā dhammassa parihāyanti, bhavissanti dhammassa aññātāro. ",
+      "english": ""
+    },
+    {
+      "number": 718,
+      "pali": "Api ca channaṁ channaṁ vassānaṁ accayena bandhumatī rājadhānī upasaṅkamitabbā pātimokkhuddesāyā”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 719,
+      "pali": "Atha kho, bhikkhave, aññataro mahābrahmā mama cetasā cetoparivitakkamaññāya seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evameva—brahmaloke antarahito mama purato pāturahosi. ",
+      "english": ""
+    },
+    {
+      "number": 720,
+      "pali": "Atha kho so, bhikkhave, mahābrahmā ekaṁsaṁ uttarāsaṅgaṁ karitvā yenāhaṁ tenañjaliṁ paṇāmetvā maṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 721,
+      "pali": "‘evametaṁ, bhagavā, evametaṁ, sugata. ",
+      "english": ""
+    },
+    {
+      "number": 722,
+      "pali": "Mahā kho, bhante, etarahi bhikkhusaṅgho bandhumatiyā rājadhāniyā paṭivasati aṭṭhasaṭṭhibhikkhusatasahassaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 723,
+      "pali": "Anujānātu, bhante, bhagavā bhikkhū—",
+      "english": ""
+    },
+    {
+      "number": 724,
+      "pali": "caratha, bhikkhave, cārikaṁ bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 725,
+      "pali": "mā ekena dve agamittha; ",
+      "english": ""
+    },
+    {
+      "number": 726,
+      "pali": "desetha, bhikkhave, dhammaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 727,
+      "pali": "santi sattā apparajakkhajātikā, assavanatā dhammassa parihāyanti, bhavissanti dhammassa aññātāroti. ",
+      "english": ""
+    },
+    {
+      "number": 728,
+      "pali": "Api ca, bhante, mayaṁ tathā karissāma, yathā bhikkhū channaṁ channaṁ vassānaṁ accayena bandhumatiṁ rājadhāniṁ upasaṅkamissanti pātimokkhuddesāyā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 729,
+      "pali": "Idamavoca, bhikkhave, so mahābrahmā. ",
+      "english": ""
+    },
+    {
+      "number": 730,
+      "pali": "Idaṁ vatvā maṁ abhivādetvā padakkhiṇaṁ katvā tattheva antaradhāyi. ",
+      "english": ""
+    },
+    {
+      "number": 731,
+      "pali": "‘Anujānāmi, bhikkhave, caratha cārikaṁ bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ; ",
+      "english": "‘Wander forth, mendicants, for the welfare and happiness of the people, out of sympathy for the world, for the benefit, welfare, and happiness of gods and humans. "
+    },
+    {
+      "number": 732,
+      "pali": "mā ekena dve agamittha; ",
+      "english": "Let not two go by one road. "
+    },
+    {
+      "number": 733,
+      "pali": "desetha, bhikkhave, dhammaṁ ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsetha. ",
+      "english": "Teach the Dhamma that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And reveal a spiritual practice that’s entirely full and pure. "
+    },
+    {
+      "number": 734,
+      "pali": "Santi sattā apparajakkhajātikā, assavanatā dhammassa parihāyanti, ",
+      "english": "There are beings with little dust in their eyes. They’re in decline because they haven’t heard the teaching. "
+    },
+    {
+      "number": 735,
+      "pali": "bhavissanti dhammassa aññātāro. ",
+      "english": "There will be those who understand the teaching! "
+    },
+    {
+      "number": 736,
+      "pali": "Api ca, bhikkhave, channaṁ channaṁ vassānaṁ accayena bandhumatī rājadhānī upasaṅkamitabbā pātimokkhuddesāyā’ti. ",
+      "english": "But when six years have passed, you must all come to Bandhumatī to recite the monastic code.’ "
+    },
+    {
+      "number": 737,
+      "pali": "Atha kho, bhikkhave, bhikkhū yebhuyyena ekāheneva janapadacārikaṁ pakkamiṁsu. ",
+      "english": "Then most of the mendicants left to wander the country that very day. "
+    },
+    {
+      "number": 738,
+      "pali": "Tena kho pana samayena jambudīpe caturāsīti āvāsasahassāni honti. ",
+      "english": "Now at that time there were 84,000 monasteries in the Black Plum Tree Land. "
+    },
+    {
+      "number": 739,
+      "pali": "Ekamhi hi vasse nikkhante devatā saddamanussāvesuṁ: ",
+      "english": "And when the first year came to an end the deities raised the cry: "
+    },
+    {
+      "number": 740,
+      "pali": "‘nikkhantaṁ kho, mārisā, ekaṁ vassaṁ; ",
+      "english": "‘Good fellows, the first year has ended. "
+    },
+    {
+      "number": 741,
+      "pali": "pañca dāni vassāni sesāni; ",
+      "english": "Now five years are left. "
+    },
+    {
+      "number": 742,
+      "pali": "pañcannaṁ vassānaṁ accayena bandhumatī rājadhānī upasaṅkamitabbā pātimokkhuddesāyā’ti. ",
+      "english": "When five years have passed, you must all go to Bandhumatī to recite the monastic code.’ "
+    },
+    {
+      "number": 743,
+      "pali": "Dvīsu vassesu nikkhantesu … ",
+      "english": "And when the second year … "
+    },
+    {
+      "number": 744,
+      "pali": "tīsu vassesu nikkhantesu … ",
+      "english": "the third year … "
+    },
+    {
+      "number": 745,
+      "pali": "catūsu vassesu nikkhantesu … ",
+      "english": "the fourth year … "
+    },
+    {
+      "number": 746,
+      "pali": "pañcasu vassesu nikkhantesu devatā saddamanussāvesuṁ: ",
+      "english": "the fifth year came to an end, the deities raised the cry: "
+    },
+    {
+      "number": 747,
+      "pali": "‘nikkhantāni kho, mārisā, pañcavassāni; ",
+      "english": "‘Good fellows, the fifth year has ended. "
+    },
+    {
+      "number": 748,
+      "pali": "ekaṁ dāni vassaṁ sesaṁ; ",
+      "english": "Now one year is left. "
+    },
+    {
+      "number": 749,
+      "pali": "ekassa vassassa accayena bandhumatī rājadhānī upasaṅkamitabbā pātimokkhuddesāyā’ti. ",
+      "english": "When one year has passed, you must all go to Bandhumatī to recite the monastic code.’ "
+    },
+    {
+      "number": 750,
+      "pali": "Chasu vassesu nikkhantesu devatā saddamanussāvesuṁ: ",
+      "english": "And when the sixth year came to an end the deities raised the cry: "
+    },
+    {
+      "number": 751,
+      "pali": "‘nikkhantāni kho, mārisā, chabbassāni, ",
+      "english": "‘Good fellows, the sixth year has ended. "
+    },
+    {
+      "number": 752,
+      "pali": "samayo dāni bandhumatiṁ rājadhāniṁ upasaṅkamituṁ pātimokkhuddesāyā’ti. ",
+      "english": "Now is the time that you must go to Bandhumatī to recite the monastic code.’ "
+    },
+    {
+      "number": 753,
+      "pali": "Atha kho te, bhikkhave, bhikkhū appekacce sakena iddhānubhāvena appekacce devatānaṁ iddhānubhāvena ekāheneva bandhumatiṁ rājadhāniṁ upasaṅkamiṁsu pātimokkhuddesāyāti. ",
+      "english": "Then that very day the mendicants went to Bandhumatī to recite the monastic code. Some went by their own psychic power, and some by the psychic power of the deities. "
+    },
+    {
+      "number": 754,
+      "pali": "Tatra sudaṁ, bhikkhave, vipassī bhagavā arahaṁ sammāsambuddho bhikkhusaṅghe evaṁ pātimokkhaṁ uddisati: ",
+      "english": "And there the Blessed One Vipassī, the perfected one, the fully awakened Buddha, recited the monastic code thus: "
+    },
+    {
+      "number": 755,
+      "pali": "‘Khantī paramaṁ tapo titikkhā, ",
+      "english": "‘Patient acceptance is the ultimate fervor. "
+    },
+    {
+      "number": 756,
+      "pali": "Nibbānaṁ paramaṁ vadanti buddhā; ",
+      "english": "Extinguishment is the ultimate, say the Buddhas. "
+    },
+    {
+      "number": 757,
+      "pali": "Na hi pabbajito parūpaghātī, ",
+      "english": "No true renunciate injures another, "
+    },
+    {
+      "number": 758,
+      "pali": "Na samaṇo hoti paraṁ viheṭhayanto. ",
+      "english": "nor does an ascetic hurt another. "
+    },
+    {
+      "number": 759,
+      "pali": "Sabbapāpassa akaraṇaṁ, ",
+      "english": "Not to do any evil; "
+    },
+    {
+      "number": 760,
+      "pali": "kusalassa upasampadā; ",
+      "english": "to embrace the good; "
+    },
+    {
+      "number": 761,
+      "pali": "Sacittapariyodapanaṁ, ",
+      "english": "to purify one’s mind: "
+    },
+    {
+      "number": 762,
+      "pali": "etaṁ buddhānasāsanaṁ. ",
+      "english": "this is the instruction of the Buddhas. "
+    },
+    {
+      "number": 763,
+      "pali": "Anūpavādo anūpaghāto, ",
+      "english": "Not speaking ill nor doing harm; "
+    },
+    {
+      "number": 764,
+      "pali": "Pātimokkhe ca saṁvaro; ",
+      "english": "restraint in the monastic code; "
+    },
+    {
+      "number": 765,
+      "pali": "Mattaññutā ca bhattasmiṁ, ",
+      "english": "moderation in eating; "
+    },
+    {
+      "number": 766,
+      "pali": "Pantañca sayanāsanaṁ; ",
+      "english": "staying in remote lodgings; "
+    },
+    {
+      "number": 767,
+      "pali": "Adhicitte ca āyogo, ",
+      "english": "commitment to the higher mind—"
+    },
+    {
+      "number": 768,
+      "pali": "Etaṁ buddhānasāsanan’ti. ",
+      "english": "this is the instruction of the Buddhas.’ "
+    },
+    {
+      "number": 769,
+      "pali": "17. Devatārocana ",
+      "english": "17. Being Informed by Deities "
+    },
+    {
+      "number": 770,
+      "pali": "Ekamidāhaṁ, bhikkhave, samayaṁ ukkaṭṭhāyaṁ viharāmi subhagavane sālarājamūle. ",
+      "english": "This one time, mendicants, I was staying near Ukkaṭṭhā, in the Subhaga Forest at the root of a magnificent sal tree. "
+    },
+    {
+      "number": 771,
+      "pali": "Tassa mayhaṁ, bhikkhave, rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
+      "english": "As I was in private retreat this thought came to mind, "
+    },
+    {
+      "number": 772,
+      "pali": "‘na kho so sattāvāso sulabharūpo, yo mayā anāvutthapubbo iminā dīghena addhunā aññatra suddhāvāsehi devehi. ",
+      "english": "‘It’s not easy to find an abode of sentient beings where I haven’t previously abided in all this long time, except for the gods of the pure abodes. "
+    },
+    {
+      "number": 773,
+      "pali": "Yannūnāhaṁ yena suddhāvāsā devā tenupasaṅkameyyan’ti. ",
+      "english": "Why don’t I go to see them?’ "
+    },
+    {
+      "number": 774,
+      "pali": "Atha khvāhaṁ, bhikkhave, seyyathāpi nāma balavā puriso samiñjitaṁ vā bāhaṁ pasāreyya, pasāritaṁ vā bāhaṁ samiñjeyya; evameva—ukkaṭṭhāyaṁ subhagavane sālarājamūle antarahito avihesu devesu pāturahosiṁ. ",
+      "english": "Then, as easily as a strong person would extend or contract their arm, I vanished from the Subhaga Forest and reappeared with the gods of Aviha. "
+    },
+    {
+      "number": 775,
+      "pali": "Tasmiṁ, bhikkhave, devanikāye anekāni devatāsahassāni anekāni devatāsatasahassāni yenāhaṁ tenupasaṅkamiṁsu; upasaṅkamitvā maṁ abhivādetvā ekamantaṁ aṭṭhaṁsu. Ekamantaṁ ṭhitā kho, bhikkhave, tā devatā maṁ etadavocuṁ: ",
+      "english": "In that order of gods, many thousands, many hundreds of thousands of deities approached me, bowed, stood to one side, and said to me, "
+    },
+    {
+      "number": 776,
+      "pali": "‘ito so, mārisā, ekanavutikappe yaṁ vipassī bhagavā arahaṁ sammāsambuddho loke udapādi. ",
+      "english": "‘Ninety-one eons ago, good fellow, the Buddha Vipassī arose in the world, perfected and fully awakened. "
+    },
+    {
+      "number": 777,
+      "pali": "Vipassī, mārisā, bhagavā arahaṁ sammāsambuddho khattiyo jātiyā ahosi, khattiyakule udapādi. ",
+      "english": "He was born as an aristocrat into an aristocrat family. "
+    },
+    {
+      "number": 778,
+      "pali": "Vipassī, mārisā, bhagavā arahaṁ sammāsambuddho koṇḍañño gottena ahosi. ",
+      "english": "Koṇḍañña was his clan. "
+    },
+    {
+      "number": 779,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa asītivassasahassāni āyuppamāṇaṁ ahosi. ",
+      "english": "He lived for 80,000 years. "
+    },
+    {
+      "number": 780,
+      "pali": "Vipassī, mārisā, bhagavā arahaṁ sammāsambuddho pāṭaliyā mūle abhisambuddho. ",
+      "english": "He was awakened at the root of a patala tree. "
+    },
+    {
+      "number": 781,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa khaṇḍatissaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": "He had a fine pair of chief disciples named Khaṇḍa and Tissa. "
+    },
+    {
+      "number": 782,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa tayo sāvakānaṁ sannipātā ahesuṁ. Eko sāvakānaṁ sannipāto ahosi aṭṭhasaṭṭhibhikkhusatasahassaṁ. Eko sāvakānaṁ sannipāto ahosi bhikkhusatasahassaṁ. Eko sāvakānaṁ sannipāto ahosi asītibhikkhusahassāni. Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa ime tayo sāvakānaṁ sannipātā ahesuṁ sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": "He had three gatherings of disciples—one of 6,800,000, one of 100,000, and one of 80,000—all of them mendicants who had ended their defilements. "
+    },
+    {
+      "number": 783,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa asoko nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "He had as chief attendant a mendicant named Asoka. "
+    },
+    {
+      "number": 784,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa bandhumā nāma rājā pitā ahosi. ",
+      "english": "His father was King Bandhumā, "
+    },
+    {
+      "number": 785,
+      "pali": "Bandhumatī nāma devī mātā ahosi janetti. ",
+      "english": "his birth mother was Queen Bandhumatī, "
+    },
+    {
+      "number": 786,
+      "pali": "Bandhumassa rañño bandhumatī nāma nagaraṁ rājadhānī ahosi. ",
+      "english": "and their capital city was named Bandhumatī. "
+    },
+    {
+      "number": 787,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa evaṁ abhinikkhamanaṁ ahosi evaṁ pabbajjā evaṁ padhānaṁ evaṁ abhisambodhi evaṁ dhammacakkappavattanaṁ. ",
+      "english": "And such was his renunciation, such his going forth, such his striving, such his awakening, and such his rolling forth of the wheel of Dhamma. "
+    },
+    {
+      "number": 788,
+      "pali": "Te mayaṁ, mārisā, vipassimhi bhagavati brahmacariyaṁ caritvā kāmesu kāmacchandaṁ virājetvā idhūpapannā’ti … ",
+      "english": "And good fellow, after leading the spiritual life under that Buddha Vipassī we lost our desire for sensual pleasures and were reborn here.’ "
+    },
+    {
+      "number": 789,
+      "pali": "pe… ",
+      "english": "And other deities came and similarly recounted the details of the Buddhas Sikhī, Vessabhū, Kakusandha, Koṇāgamana, and Kassapa. "
+    },
+    {
+      "number": 790,
+      "pali": "Tasmiṁyeva kho, bhikkhave, devanikāye anekāni devatāsahassāni anekāni devatāsatasahassāni yenāhaṁ tenupasaṅkamiṁsu; upasaṅkamitvā maṁ abhivādetvā ekamantaṁ aṭṭhaṁsu. Ekamantaṁ ṭhitā kho, bhikkhave, tā devatā maṁ etadavocuṁ: ",
+      "english": "In that order of gods, many thousands, many hundreds of thousands of deities approached me, bowed, stood to one side, and said to me, "
+    },
+    {
+      "number": 791,
+      "pali": "‘imasmiṁyeva kho, mārisā, bhaddakappe bhagavā etarahi arahaṁ sammāsambuddho loke uppanno. ",
+      "english": "‘In the present fortunate eon, good fellow, you have arisen in the world, perfected and fully awakened. "
+    },
+    {
+      "number": 792,
+      "pali": "Bhagavā, mārisā, khattiyo jātiyā khattiyakule uppanno. ",
+      "english": "You were born as an aristocrat into an aristocrat family. "
+    },
+    {
+      "number": 793,
+      "pali": "Bhagavā, mārisā, gotamo gottena. ",
+      "english": "Gotama is your clan. "
+    },
+    {
+      "number": 794,
+      "pali": "Bhagavato, mārisā, appakaṁ āyuppamāṇaṁ parittaṁ lahukaṁ yo ciraṁ jīvati, so vassasataṁ appaṁ vā bhiyyo. ",
+      "english": "For you the life-span is short, brief, and fleeting. A long life is a hundred years or a little more. "
+    },
+    {
+      "number": 795,
+      "pali": "Bhagavā, mārisā, assatthassa mūle abhisambuddho. ",
+      "english": "You were awakened at the root of a peepal tree. "
+    },
+    {
+      "number": 796,
+      "pali": "Bhagavato, mārisā, sāriputtamoggallānaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": "You have a fine pair of chief disciples named Sāriputta and Moggallāna. "
+    },
+    {
+      "number": 797,
+      "pali": "Bhagavato, mārisā, eko sāvakānaṁ sannipāto ahosi aḍḍhateḷasāni bhikkhusatāni. Bhagavato, mārisā, ayaṁ eko sāvakānaṁ sannipāto ahosi sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": "You have had one gathering of disciples—1,250 mendicants who had ended their defilements. "
+    },
+    {
+      "number": 798,
+      "pali": "Bhagavato, mārisā, ānando nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": "You have as chief attendant a mendicant named Ānanda. "
+    },
+    {
+      "number": 799,
+      "pali": "Bhagavato, mārisā, suddhodano nāma rājā pitā ahosi. ",
+      "english": "Your father was King Suddhodana, "
+    },
+    {
+      "number": 800,
+      "pali": "Māyā nāma devī mātā ahosi janetti. ",
+      "english": "your birth mother was Queen Māyā, "
+    },
+    {
+      "number": 801,
+      "pali": "Kapilavatthu nāma nagaraṁ rājadhānī ahosi. ",
+      "english": "and your capital city was Kapilavatthu. "
+    },
+    {
+      "number": 802,
+      "pali": "Bhagavato, mārisā, evaṁ abhinikkhamanaṁ ahosi evaṁ pabbajjā evaṁ padhānaṁ evaṁ abhisambodhi evaṁ dhammacakkappavattanaṁ. ",
+      "english": "And such was your renunciation, such your going forth, such your striving, such your awakening, and such your rolling forth of the wheel of Dhamma. "
+    },
+    {
+      "number": 803,
+      "pali": "Te mayaṁ, mārisā, bhagavati brahmacariyaṁ caritvā kāmesu kāmacchandaṁ virājetvā idhūpapannā’ti. ",
+      "english": "And good fellow, after leading the spiritual life under you we lost our desire for sensual pleasures and were reborn here.’ "
+    },
+    {
+      "number": 804,
+      "pali": "Atha khvāhaṁ, bhikkhave, avihehi devehi saddhiṁ yena atappā devā tenupasaṅkamiṁ …pe… ",
+      "english": "Then together with the gods of Aviha I went to see the gods of Atappa … "
+    },
+    {
+      "number": 805,
+      "pali": "atha khvāhaṁ, bhikkhave, avihehi ca devehi atappehi ca devehi saddhiṁ yena sudassā devā tenupasaṅkamiṁ. ",
+      "english": "the gods fair to see … "
+    },
+    {
+      "number": 806,
+      "pali": "Atha khvāhaṁ, bhikkhave, avihehi ca devehi atappehi ca devehi sudassehi ca devehi saddhiṁ yena sudassī devā tenupasaṅkamiṁ. Atha khvāhaṁ, bhikkhave, avihehi ca devehi atappehi ca devehi sudassehi ca devehi sudassīhi ca devehi saddhiṁ yena akaniṭṭhā devā tenupasaṅkamiṁ. Tasmiṁ, bhikkhave, devanikāye anekāni devatāsahassāni anekāni devatāsatasahassāni yenāhaṁ tenupasaṅkamiṁsu, upasaṅkamitvā maṁ abhivādetvā ekamantaṁ aṭṭhaṁsu. Ekamantaṁ ṭhitā kho, bhikkhave, tā devatā maṁ etadavocuṁ: ",
+      "english": "and the fair seeing gods. Then together with all these gods I went to see the gods of Akaniṭṭha, where we had a similar conversation. "
+    },
+    {
+      "number": 807,
+      "pali": "‘ito so, mārisā, ekanavutikappe yaṁ vipassī bhagavā arahaṁ sammāsambuddho loke udapādi. ",
+      "english": ""
+    },
+    {
+      "number": 808,
+      "pali": "Vipassī, mārisā, bhagavā arahaṁ sammāsambuddho khattiyo jātiyā ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 809,
+      "pali": "Khattiyakule udapādi. ",
+      "english": ""
+    },
+    {
+      "number": 810,
+      "pali": "Vipassī, mārisā, bhagavā arahaṁ sammāsambuddho koṇḍañño gottena ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 811,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa asītivassasahassāni āyuppamāṇaṁ ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 812,
+      "pali": "Vipassī, mārisā, bhagavā arahaṁ sammāsambuddho pāṭaliyā mūle abhisambuddho. ",
+      "english": ""
+    },
+    {
+      "number": 813,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa khaṇḍatissaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 814,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa tayo sāvakānaṁ sannipātā ahesuṁ. ",
+      "english": ""
+    },
+    {
+      "number": 815,
+      "pali": "Eko sāvakānaṁ sannipāto ahosi aṭṭhasaṭṭhibhikkhusatasahassaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 816,
+      "pali": "Eko sāvakānaṁ sannipāto ahosi bhikkhusatasahassaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 817,
+      "pali": "Eko sāvakānaṁ sannipāto ahosi asītibhikkhusahassāni. ",
+      "english": ""
+    },
+    {
+      "number": 818,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa ime tayo sāvakānaṁ sannipātā ahesuṁ sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 819,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa asoko nāma bhikkhu upaṭṭhāko ahosi aggupaṭṭhāko. ",
+      "english": ""
+    },
+    {
+      "number": 820,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa bandhumā nāma rājā pitā ahosi bandhumatī nāma devī mātā ahosi janetti. ",
+      "english": ""
+    },
+    {
+      "number": 821,
+      "pali": "Bandhumassa rañño bandhumatī nāma nagaraṁ rājadhānī ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 822,
+      "pali": "Vipassissa, mārisā, bhagavato arahato sammāsambuddhassa evaṁ abhinikkhamanaṁ ahosi evaṁ pabbajjā evaṁ padhānaṁ evaṁ abhisambodhi, evaṁ dhammacakkappavattanaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 823,
+      "pali": "Te mayaṁ, mārisā, vipassimhi bhagavati brahmacariyaṁ caritvā kāmesu kāmacchandaṁ virājetvā idhūpapannā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 824,
+      "pali": "Tasmiṁyeva kho, bhikkhave, devanikāye anekāni devatāsahassāni anekāni devatāsatasahassāni yenāhaṁ tenupasaṅkamiṁsu; upasaṅkamitvā maṁ abhivādetvā ekamantaṁ aṭṭhaṁsu. Ekamantaṁ ṭhitā kho, bhikkhave, tā devatā maṁ etadavocuṁ: ",
+      "english": ""
+    },
+    {
+      "number": 825,
+      "pali": "‘ito so, mārisā, ekatiṁse kappe yaṁ sikhī bhagavā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 826,
+      "pali": "te mayaṁ, mārisā, sikhimhi bhagavati tasmiññeva kho, mārisā, ekatiṁse kappe yaṁ vessabhū bhagavā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 827,
+      "pali": "te mayaṁ, mārisā, vessabhumhi bhagavati …pe… ",
+      "english": ""
+    },
+    {
+      "number": 828,
+      "pali": "imasmiṁyeva kho, mārisā, bhaddakappe kakusandho koṇāgamano kassapo bhagavā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 829,
+      "pali": "te mayaṁ, mārisā, kakusandhamhi koṇāgamanamhi kassapamhi bhagavati brahmacariyaṁ caritvā kāmesu kāmacchandaṁ virājetvā idhūpapannā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 830,
+      "pali": "Tasmiṁyeva kho, bhikkhave, devanikāye anekāni devatāsahassāni anekāni devatāsatasahassāni yenāhaṁ tenupasaṅkamiṁsu; upasaṅkamitvā maṁ abhivādetvā ekamantaṁ aṭṭhaṁsu. Ekamantaṁ ṭhitā kho, bhikkhave, tā devatā maṁ etadavocuṁ: ",
+      "english": ""
+    },
+    {
+      "number": 831,
+      "pali": "‘imasmiṁyeva kho, mārisā, bhaddakappe bhagavā etarahi arahaṁ sammāsambuddho loke uppanno. ",
+      "english": ""
+    },
+    {
+      "number": 832,
+      "pali": "Bhagavā, mārisā, khattiyo jātiyā, khattiyakule uppanno. ",
+      "english": ""
+    },
+    {
+      "number": 833,
+      "pali": "Bhagavā, mārisā, gotamo gottena. ",
+      "english": ""
+    },
+    {
+      "number": 834,
+      "pali": "Bhagavato, mārisā, appakaṁ āyuppamāṇaṁ parittaṁ lahukaṁ yo ciraṁ jīvati, so vassasataṁ appaṁ vā bhiyyo. ",
+      "english": ""
+    },
+    {
+      "number": 835,
+      "pali": "Bhagavā, mārisā, assatthassa mūle abhisambuddho. ",
+      "english": ""
+    },
+    {
+      "number": 836,
+      "pali": "Bhagavato, mārisā, sāriputtamoggallānaṁ nāma sāvakayugaṁ ahosi aggaṁ bhaddayugaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 837,
+      "pali": "Bhagavato, mārisā, eko sāvakānaṁ sannipāto ahosi aḍḍhateḷasāni bhikkhusatāni. ",
+      "english": ""
+    },
+    {
+      "number": 838,
+      "pali": "Bhagavato, mārisā, ayaṁ eko sāvakānaṁ sannipāto ahosi sabbesaṁyeva khīṇāsavānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 839,
+      "pali": "Bhagavato, mārisā, ānando nāma bhikkhu upaṭṭhāko aggupaṭṭhāko ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 840,
+      "pali": "Bhagavato, mārisā, suddhodano nāma rājā pitā ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 841,
+      "pali": "Māyā nāma devī mātā ahosi janetti. ",
+      "english": ""
+    },
+    {
+      "number": 842,
+      "pali": "Kapilavatthu nāma nagaraṁ rājadhānī ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 843,
+      "pali": "Bhagavato, mārisā, evaṁ abhinikkhamanaṁ ahosi, evaṁ pabbajjā, evaṁ padhānaṁ, evaṁ abhisambodhi, evaṁ dhammacakkappavattanaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 844,
+      "pali": "Te mayaṁ, mārisā, bhagavati brahmacariyaṁ caritvā kāmesu kāmacchandaṁ virājetvā idhūpapannā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 845,
+      "pali": "Iti kho, bhikkhave, tathāgatassevesā dhammadhātu suppaṭividdhā, yassā dhammadhātuyā suppaṭividdhattā tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarati, nāmatopi anussarati, gottatopi anussarati, āyuppamāṇatopi anussarati, sāvakayugatopi anussarati, sāvakasannipātatopi anussarati ‘evaṁjaccā te bhagavanto ahesuṁ’ itipi. ",
+      "english": "And that is how the Realized One is able to recollect the birth, names, clans, lifespan, chief disciples, and gatherings of disciples of the Buddhas of the past who have become fully quenched, cut off proliferation, cut off the course, finished off the cycle, and passed beyond all suffering. It is both because I have clearly comprehended the principle of the teachings, "
+    },
+    {
+      "number": 846,
+      "pali": "‘Evaṁnāmā evaṅgottā evaṁsīlā evaṁdhammā evaṁpaññā evaṁvihārī evaṁvimuttā te bhagavanto ahesuṁ’ itipīti. ",
+      "english": ""
+    },
+    {
+      "number": 847,
+      "pali": "Devatāpi tathāgatassa etamatthaṁ ārocesuṁ, yena tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarati, nāmatopi anussarati, gottatopi anussarati, āyuppamāṇatopi anussarati, sāvakayugatopi anussarati, sāvakasannipātatopi anussarati ‘evaṁjaccā te bhagavanto ahesuṁ’ itipi. ",
+      "english": "and also because the deities told me.” "
+    },
+    {
+      "number": 848,
+      "pali": "‘Evaṁnāmā evaṅgottā evaṁsīlā evaṁdhammā evaṁpaññā evaṁvihārī evaṁvimuttā te bhagavanto ahesuṁ’ itipī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 849,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 850,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 851,
+      "pali": "Mahāpadānasuttaṁ niṭṭhitaṁ paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,1010 @@
+{
+  "sutta_id": "MN139",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 139 ",
+      "english": "Middle Discourses 139 "
+    },
+    {
+      "number": 2,
+      "pali": "Araṇavibhaṅgasutta ",
+      "english": "The Analysis of No Strife "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“araṇavibhaṅgaṁ vo, bhikkhave, desessāmi. ",
+      "english": "“Mendicants, I shall teach you the analysis of no strife. "
+    },
+    {
+      "number": 10,
+      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "Listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 11,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 12,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 13,
+      "pali": "“Na kāmasukhamanuyuñjeyya hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, na ca attakilamathānuyogamanuyuñjeyya dukkhaṁ anariyaṁ anatthasaṁhitaṁ. ",
+      "english": "“Don’t indulge in sensual pleasure, which is low, crude, ordinary, ignoble, and pointless. And don’t indulge in self-mortification, which is painful, ignoble, and pointless. "
+    },
+    {
+      "number": 14,
+      "pali": "Ete kho, bhikkhave, ubho ante anupagamma majjhimā paṭipadā tathāgatena abhisambuddhā, cakkhukaraṇī ñāṇakaraṇī upasamāya abhiññāya sambodhāya nibbānāya saṁvattati. ",
+      "english": "Avoiding these two extremes, the Realized One understood the middle way of practice, which gives vision and knowledge, and leads to peace, direct knowledge, awakening, and extinguishment. "
+    },
+    {
+      "number": 15,
+      "pali": "Ussādanañca jaññā, apasādanañca jaññā; ",
+      "english": "Know what it means to flatter and to rebuke. "
+    },
+    {
+      "number": 16,
+      "pali": "ussādanañca ñatvā apasādanañca ñatvā nevussādeyya, na apasādeyya, dhammameva deseyya. ",
+      "english": "Knowing these, avoid them, and just teach Dhamma. "
+    },
+    {
+      "number": 17,
+      "pali": "Sukhavinicchayaṁ jaññā; ",
+      "english": "Know how to evaluate different kinds of pleasure. "
+    },
+    {
+      "number": 18,
+      "pali": "sukhavinicchayaṁ ñatvā ajjhattaṁ sukhamanuyuñjeyya. ",
+      "english": "Knowing this, pursue inner pleasure. "
+    },
+    {
+      "number": 19,
+      "pali": "Rahovādaṁ na bhāseyya, sammukhā na khīṇaṁ bhaṇe. ",
+      "english": "Don’t talk behind people’s backs, and don’t speak sharply in their presence. "
+    },
+    {
+      "number": 20,
+      "pali": "Ataramānova bhāseyya, no taramāno. ",
+      "english": "Don’t speak hurriedly. "
+    },
+    {
+      "number": 21,
+      "pali": "Janapadaniruttiṁ nābhiniveseyya, samaññaṁ nātidhāveyyāti—",
+      "english": "Don’t insist on popular definitions and don’t overstep normal labels. "
+    },
+    {
+      "number": 22,
+      "pali": "ayamuddeso araṇavibhaṅgassa. ",
+      "english": "This is the summary recital for the analysis of no strife. "
+    },
+    {
+      "number": 23,
+      "pali": "‘Na kāmasukhamanuyuñjeyya hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, na ca attakilamathānuyogamanuyuñjeyya dukkhaṁ anariyaṁ anatthasaṁhitan’ti—",
+      "english": "‘Don’t indulge in sensual pleasure, which is low, crude, ordinary, ignoble, and pointless. And don’t indulge in self-mortification, which is painful, ignoble, and pointless.’ "
+    },
+    {
+      "number": 24,
+      "pali": "iti kho panetaṁ vuttaṁ; Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 25,
+      "pali": "Yo kāmapaṭisandhisukhino somanassānuyogo hīno gammo pothujjaniko anariyo anatthasaṁhito, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; micchāpaṭipadā. ",
+      "english": "Indulging in the happiness of the pleasure linked to sensuality is low, crude, ordinary, ignoble, and pointless. It is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 26,
+      "pali": "Yo kāmapaṭisandhisukhino somanassānuyogaṁ ananuyogo hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; sammāpaṭipadā. ",
+      "english": "Breaking off such indulgence is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 27,
+      "pali": "Yo attakilamathānuyogo dukkho anariyo anatthasaṁhito, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; micchāpaṭipadā. ",
+      "english": "Indulging in self-mortification is painful, ignoble, and pointless. It is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 28,
+      "pali": "Yo attakilamathānuyogaṁ ananuyogo dukkhaṁ anariyaṁ anatthasaṁhitaṁ, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; sammāpaṭipadā. ",
+      "english": "Breaking off such indulgence is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 29,
+      "pali": "‘Na kāmasukhamanuyuñjeyya hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, na ca attakilamathānuyogaṁ anuyuñjeyya dukkhaṁ anariyaṁ anatthasaṁhitan’ti—",
+      "english": "‘Don’t indulge in sensual pleasure, which is low, crude, ordinary, ignoble, and pointless. And don’t indulge in self-mortification, which is painful, ignoble, and pointless.’ "
+    },
+    {
+      "number": 30,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 31,
+      "pali": "‘Ete kho ubho ante anupagamma majjhimā paṭipadā tathāgatena abhisambuddhā, cakkhukaraṇī ñāṇakaraṇī upasamāya abhiññāya sambodhāya nibbānāya saṁvattatī’ti—",
+      "english": "‘Avoiding these two extremes, the Realized One understood the middle way of practice, which gives vision and knowledge, and leads to peace, direct knowledge, awakening, and extinguishment.’ "
+    },
+    {
+      "number": 32,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 33,
+      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+      "english": "It is simply this noble eightfold path, that is: "
+    },
+    {
+      "number": 34,
+      "pali": "sammādiṭṭhi, sammāsaṅkappo, sammāvācā, sammākammanto, sammāājīvo, sammāvāyāmo, sammāsati, sammāsamādhi. ",
+      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+    },
+    {
+      "number": 35,
+      "pali": "‘Ete kho ubho ante anupagamma majjhimā paṭipadā tathāgatena abhisambuddhā, cakkhukaraṇī ñāṇakaraṇī upasamāya abhiññāya sambodhāya nibbānāya saṁvattatī’ti—",
+      "english": "‘Avoiding these two extremes, the Realized One understood the middle way of practice, which gives vision and knowledge, and leads to peace, direct knowledge, awakening, and extinguishment.’ "
+    },
+    {
+      "number": 36,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 37,
+      "pali": "‘Ussādanañca jaññā, apasādanañca jaññā; ",
+      "english": "‘Know what it means to flatter and to rebuke. "
+    },
+    {
+      "number": 38,
+      "pali": "ussādanañca ñatvā apasādanañca ñatvā nevussādeyya, na apasādeyya, dhammameva deseyyā’ti—",
+      "english": "Knowing these, avoid them, and just teach Dhamma.’ "
+    },
+    {
+      "number": 39,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 40,
+      "pali": "Kathañca, bhikkhave, ussādanā ca hoti apasādanā ca, no ca dhammadesanā? ",
+      "english": "And how is there flattering and rebuking without teaching Dhamma? "
+    },
+    {
+      "number": 41,
+      "pali": "‘Ye kāmapaṭisandhisukhino somanassānuyogaṁ anuyuttā hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, sabbe te sadukkhā saupaghātā saupāyāsā sapariḷāhā micchāpaṭipannā’ti—",
+      "english": "‘All those who indulge in the happiness of the pleasure linked to sensuality—low, crude, ordinary, ignoble, and pointless—are beset by pain, harm, stress, and fever, and they are practicing the wrong way.’ "
+    },
+    {
+      "number": 42,
+      "pali": "iti vadaṁ ittheke apasādeti. ",
+      "english": "In speaking like this, one rebukes some here. "
+    },
+    {
+      "number": 43,
+      "pali": "‘Ye kāmapaṭisandhisukhino somanassānuyogaṁ ananuyuttā hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, sabbe te adukkhā anupaghātā anupāyāsā apariḷāhā sammāpaṭipannā’ti—",
+      "english": "‘All those who have broken off indulging in the happiness of the pleasure linked to sensuality are free of pain, harm, stress, and fever, and they are practicing the right way.’ "
+    },
+    {
+      "number": 44,
+      "pali": "iti vadaṁ ittheke ussādeti. ",
+      "english": "In speaking like this, one flatters some here. "
+    },
+    {
+      "number": 45,
+      "pali": "‘Ye attakilamathānuyogaṁ anuyuttā dukkhaṁ anariyaṁ anatthasaṁhitaṁ, sabbe te sadukkhā saupaghātā saupāyāsā sapariḷāhā micchāpaṭipannā’ti—",
+      "english": "‘All those who indulge in self-mortification—painful, ignoble, and pointless—are beset by pain, harm, stress, and fever, and they are practicing the wrong way.’ "
+    },
+    {
+      "number": 46,
+      "pali": "iti vadaṁ ittheke apasādeti. ",
+      "english": "In speaking like this, one rebukes some here. "
+    },
+    {
+      "number": 47,
+      "pali": "‘Ye attakilamathānuyogaṁ ananuyuttā dukkhaṁ anariyaṁ anatthasaṁhitaṁ, sabbe te adukkhā anupaghātā anupāyāsā apariḷāhā sammāpaṭipannā’ti—",
+      "english": "‘All those who have broken off indulging in self-mortification are free of pain, harm, stress, and fever, and they are practicing the right way.’ "
+    },
+    {
+      "number": 48,
+      "pali": "iti vadaṁ ittheke ussādeti. ",
+      "english": "In speaking like this, one flatters some here. "
+    },
+    {
+      "number": 49,
+      "pali": "‘Yesaṁ kesañci bhavasaṁyojanaṁ appahīnaṁ, sabbe te sadukkhā saupaghātā saupāyāsā sapariḷāhā micchāpaṭipannā’ti—",
+      "english": "‘All those who have not given up the fetter of continued existence are beset by pain, harm, stress, and fever, and they are practicing the wrong way.’ "
+    },
+    {
+      "number": 50,
+      "pali": "iti vadaṁ ittheke apasādeti. ",
+      "english": "In speaking like this, one rebukes some here. "
+    },
+    {
+      "number": 51,
+      "pali": "‘Yesaṁ kesañci bhavasaṁyojanaṁ pahīnaṁ, sabbe te adukkhā anupaghātā anupāyāsā apariḷāhā sammāpaṭipannā’ti—",
+      "english": "‘All those who have given up the fetter of continued existence are free of pain, harm, stress, and fever, and they are practicing the right way.’ "
+    },
+    {
+      "number": 52,
+      "pali": "iti vadaṁ ittheke ussādeti. ",
+      "english": "In speaking like this, one flatters some here. "
+    },
+    {
+      "number": 53,
+      "pali": "Evaṁ kho, bhikkhave, ussādanā ca hoti apasādanā ca, no ca dhammadesanā. ",
+      "english": "That’s how there is flattering and rebuking without teaching Dhamma. "
+    },
+    {
+      "number": 54,
+      "pali": "Kathañca, bhikkhave, nevussādanā hoti na apasādanā, dhammadesanā ca? ",
+      "english": "And how is there neither flattering nor rebuking, and just teaching Dhamma? "
+    },
+    {
+      "number": 55,
+      "pali": "‘Ye kāmapaṭisandhisukhino somanassānuyogaṁ anuyuttā hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, sabbe te sadukkhā saupaghātā saupāyāsā sapariḷāhā micchāpaṭipannā’ti—",
+      "english": "You don’t say: ‘All those who indulge in the happiness of the pleasure linked to sensuality—low, crude, ordinary, ignoble, and pointless—are beset by pain, harm, stress, and fever, and they are practicing the wrong way.’ "
+    },
+    {
+      "number": 56,
+      "pali": "na evamāha. ",
+      "english": "Rather, by saying this you just teach Dhamma: "
+    },
+    {
+      "number": 57,
+      "pali": "‘Anuyogo ca kho sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "‘The indulgence is a principle beset by pain, harm, stress, and fever, and it is the wrong way.’ "
+    },
+    {
+      "number": 58,
+      "pali": "micchāpaṭipadā’ti—",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "iti vadaṁ dhammameva deseti. ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "‘Ye kāmapaṭisandhisukhino somanassānuyogaṁ ananuyuttā hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, sabbe te adukkhā anupaghātā anupāyāsā apariḷāhā sammāpaṭipannā’ti—",
+      "english": "You don’t say: ‘All those who have broken off indulging in the happiness of the pleasure linked to sensuality are free of pain, harm, stress, and fever, and they are practicing the right way.’ "
+    },
+    {
+      "number": 61,
+      "pali": "na evamāha. ",
+      "english": "Rather, by saying this you just teach Dhamma: "
+    },
+    {
+      "number": 62,
+      "pali": "‘Ananuyogo ca kho adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "‘Breaking off the indulgence is a principle free of pain, harm, stress, and fever, and it is the right way.’ "
+    },
+    {
+      "number": 63,
+      "pali": "sammāpaṭipadā’ti—",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "iti vadaṁ dhammameva deseti. ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "‘Ye attakilamathānuyogaṁ anuyuttā dukkhaṁ anariyaṁ anatthasaṁhitaṁ, sabbe te sadukkhā saupaghātā saupāyāsā sapariḷāhā micchāpaṭipannā’ti—",
+      "english": "You don’t say: ‘All those who indulge in self-mortification—painful, ignoble, and pointless—are beset by pain, harm, stress, and fever, and they are practicing the wrong way.’ "
+    },
+    {
+      "number": 66,
+      "pali": "na evamāha. ",
+      "english": "Rather, by saying this you just teach Dhamma: "
+    },
+    {
+      "number": 67,
+      "pali": "‘Anuyogo ca kho sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "‘The indulgence is a principle beset by pain, harm, stress, and fever, and it is the wrong way.’ "
+    },
+    {
+      "number": 68,
+      "pali": "micchāpaṭipadā’ti—",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "iti vadaṁ dhammameva deseti. ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "‘Ye attakilamathānuyogaṁ ananuyuttā dukkhaṁ anariyaṁ anatthasaṁhitaṁ, sabbe te adukkhā anupaghātā anupāyāsā apariḷāhā sammāpaṭipannā’ti—",
+      "english": "You don’t say: ‘All those who have broken off indulging in self-mortification are free of pain, harm, stress, and fever, and they are practicing the right way.’ "
+    },
+    {
+      "number": 71,
+      "pali": "na evamāha. ",
+      "english": "Rather, by saying this you just teach Dhamma: "
+    },
+    {
+      "number": 72,
+      "pali": "‘Ananuyogo ca kho adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "‘Breaking off the indulgence is a principle free of pain, harm, stress, and fever, and it is the right way.’ "
+    },
+    {
+      "number": 73,
+      "pali": "sammāpaṭipadā’ti—",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "iti vadaṁ dhammameva deseti. ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "‘Yesaṁ kesañci bhavasaṁyojanaṁ appahīnaṁ, sabbe te sadukkhā saupaghātā saupāyāsā sapariḷāhā micchāpaṭipannā’ti—",
+      "english": "You don’t say: ‘All those who have not given up the fetter of continued existence are beset by pain, harm, stress, and fever, and they are practicing the wrong way.’ "
+    },
+    {
+      "number": 76,
+      "pali": "na evamāha. ",
+      "english": "Rather, by saying this you just teach Dhamma: "
+    },
+    {
+      "number": 77,
+      "pali": "‘Bhavasaṁyojane ca kho appahīne bhavopi appahīno hotī’ti—",
+      "english": "‘When the fetter of continued existence is not given up, continued existence is also not given up.’ "
+    },
+    {
+      "number": 78,
+      "pali": "iti vadaṁ dhammameva deseti. ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "‘Yesaṁ kesañci bhavasaṁyojanaṁ pahīnaṁ, sabbe te adukkhā anupaghātā anupāyāsā apariḷāhā sammāpaṭipannā’ti—",
+      "english": "You don’t say: ‘All those who have given up the fetter of continued existence are free of pain, harm, stress, and fever, and they are practicing the right way.’ "
+    },
+    {
+      "number": 80,
+      "pali": "na evamāha. ",
+      "english": "Rather, by saying this you just teach Dhamma: "
+    },
+    {
+      "number": 81,
+      "pali": "‘Bhavasaṁyojane ca kho pahīne bhavopi pahīno hotī’ti—",
+      "english": "‘When the fetter of continued existence is given up, continued existence is also given up.’ "
+    },
+    {
+      "number": 82,
+      "pali": "iti vadaṁ dhammameva deseti. ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "Evaṁ kho, bhikkhave, nevussādanā hoti na apasādanā, dhammadesanā ca. ",
+      "english": "That’s how there is neither flattering nor rebuking, and just teaching Dhamma. "
+    },
+    {
+      "number": 84,
+      "pali": "‘Ussādanañca jaññā, apasādanañca jaññā; ",
+      "english": "‘Know what it means to flatter and to rebuke. "
+    },
+    {
+      "number": 85,
+      "pali": "ussādanañca ñatvā apasādanañca ñatvā nevussādeyya, na apasādeyya, dhammameva deseyyā’ti—",
+      "english": "Knowing these, avoid them, and just teach Dhamma.’ "
+    },
+    {
+      "number": 86,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 87,
+      "pali": "‘Sukhavinicchayaṁ jaññā; ",
+      "english": "‘Know how to evaluate different kinds of pleasure. "
+    },
+    {
+      "number": 88,
+      "pali": "sukhavinicchayaṁ ñatvā ajjhattaṁ sukhamanuyuñjeyyā’ti—",
+      "english": "Knowing this, pursue inner pleasure.’ "
+    },
+    {
+      "number": 89,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 90,
+      "pali": "Pañcime, bhikkhave, kāmaguṇā. ",
+      "english": "There are these five kinds of sensual stimulation. "
+    },
+    {
+      "number": 91,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 92,
+      "pali": "Cakkhuviññeyyā rūpā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā, ",
+      "english": "Sights known by the eye, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 93,
+      "pali": "sotaviññeyyā saddā … ",
+      "english": "Sounds known by the ear … "
+    },
+    {
+      "number": 94,
+      "pali": "ghānaviññeyyā gandhā … ",
+      "english": "Smells known by the nose … "
+    },
+    {
+      "number": 95,
+      "pali": "jivhāviññeyyā rasā … ",
+      "english": "Tastes known by the tongue … "
+    },
+    {
+      "number": 96,
+      "pali": "kāyaviññeyyā phoṭṭhabbā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā—",
+      "english": "Touches known by the body, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 97,
+      "pali": "ime kho, bhikkhave, pañca kāmaguṇā. ",
+      "english": "These are the five kinds of sensual stimulation. "
+    },
+    {
+      "number": 98,
+      "pali": "Yaṁ kho, bhikkhave, ime pañca kāmaguṇe paṭicca uppajjati sukhaṁ somanassaṁ idaṁ vuccati kāmasukhaṁ mīḷhasukhaṁ puthujjanasukhaṁ anariyasukhaṁ. ",
+      "english": "The pleasure and happiness that arise from these five kinds of sensual stimulation is called sensual pleasure—a filthy, common, ignoble pleasure. "
+    },
+    {
+      "number": 99,
+      "pali": "‘Na āsevitabbaṁ, na bhāvetabbaṁ, na bahulīkātabbaṁ, bhāyitabbaṁ etassa sukhassā’ti—vadāmi. ",
+      "english": "Such pleasure should not be cultivated or developed, but should be feared, I say. "
+    },
+    {
+      "number": 100,
+      "pali": "Idha, bhikkhave, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Now, take a mendicant who, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 101,
+      "pali": "Vitakkavicārānaṁ vūpasamā ajjhattaṁ sampasādanaṁ cetaso ekodibhāvaṁ avitakkaṁ avicāraṁ samādhijaṁ pītisukhaṁ dutiyaṁ jhānaṁ upasampajja viharati. ",
+      "english": "As the placing of the mind and keeping it connected are stilled, they enter and remain in the second absorption … "
+    },
+    {
+      "number": 102,
+      "pali": "Pītiyā ca virāgā upekkhako ca viharati …pe… tatiyaṁ jhānaṁ …pe… ",
+      "english": "third absorption … "
+    },
+    {
+      "number": 103,
+      "pali": "catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "fourth absorption. "
+    },
+    {
+      "number": 104,
+      "pali": "Idaṁ vuccati nekkhammasukhaṁ pavivekasukhaṁ upasamasukhaṁ sambodhisukhaṁ. ",
+      "english": "This is called the pleasure of renunciation, the pleasure of seclusion, the pleasure of peace, the pleasure of awakening. "
+    },
+    {
+      "number": 105,
+      "pali": "‘Āsevitabbaṁ, bhāvetabbaṁ, bahulīkātabbaṁ, na bhāyitabbaṁ etassa sukhassā’ti—vadāmi. ",
+      "english": "Such pleasure should be cultivated and developed, and should not be feared, I say. "
+    },
+    {
+      "number": 106,
+      "pali": "‘Sukhavinicchayaṁ jaññā; ",
+      "english": "‘Know how to evaluate different kinds of pleasure. "
+    },
+    {
+      "number": 107,
+      "pali": "sukhavinicchayaṁ ñatvā ajjhattaṁ sukhamanuyuñjeyyā’ti—",
+      "english": "Knowing this, pursue inner pleasure.’ "
+    },
+    {
+      "number": 108,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 109,
+      "pali": "‘Rahovādaṁ na bhāseyya, sammukhā na khīṇaṁ bhaṇe’ti—",
+      "english": "‘Don’t talk behind people’s backs, and don’t speak sharply in their presence.’ "
+    },
+    {
+      "number": 110,
+      "pali": "iti kho panetaṁ vuttaṁ. ",
+      "english": "That’s what I said, "
+    },
+    {
+      "number": 111,
+      "pali": "Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "but why did I say it? "
+    },
+    {
+      "number": 112,
+      "pali": "Tatra, bhikkhave, yaṁ jaññā rahovādaṁ abhūtaṁ atacchaṁ anatthasaṁhitaṁ sasakkaṁ taṁ rahovādaṁ na bhāseyya. ",
+      "english": "When you know that what you say behind someone’s back is untrue, false, and pointless, then to the best of your ability you should not speak. "
+    },
+    {
+      "number": 113,
+      "pali": "Yampi jaññā rahovādaṁ bhūtaṁ tacchaṁ anatthasaṁhitaṁ tassapi sikkheyya avacanāya. ",
+      "english": "When you know that what you say behind someone’s back is true and correct, but pointless, then you should train yourself not to speak. "
+    },
+    {
+      "number": 114,
+      "pali": "Yañca kho jaññā rahovādaṁ bhūtaṁ tacchaṁ atthasaṁhitaṁ tatra kālaññū assa tassa rahovādassa vacanāya. ",
+      "english": "When you know that what you say behind someone’s back is true, correct, and beneficial, then you should know the right time to speak. "
+    },
+    {
+      "number": 115,
+      "pali": "Tatra, bhikkhave, yaṁ jaññā sammukhā khīṇavādaṁ abhūtaṁ atacchaṁ anatthasaṁhitaṁ sasakkaṁ taṁ sammukhā khīṇavādaṁ na bhāseyya. ",
+      "english": "When you know that your sharp words in someone’s presence are untrue, false, and pointless, then to the best of your ability you should not speak. "
+    },
+    {
+      "number": 116,
+      "pali": "Yampi jaññā sammukhā khīṇavādaṁ bhūtaṁ tacchaṁ anatthasaṁhitaṁ tassapi sikkheyya avacanāya. ",
+      "english": "When you know that your sharp words in someone’s presence are true and correct, but pointless, then you should train yourself not to speak. "
+    },
+    {
+      "number": 117,
+      "pali": "Yañca kho jaññā sammukhā khīṇavādaṁ bhūtaṁ tacchaṁ atthasaṁhitaṁ tatra kālaññū assa tassa sammukhā khīṇavādassa vacanāya. ",
+      "english": "When you know that your sharp words in someone’s presence are true, correct, and beneficial, then you should know the right time to speak. "
+    },
+    {
+      "number": 118,
+      "pali": "‘Rahovādaṁ na bhāseyya, sammukhā na khīṇaṁ bhaṇe’ti—",
+      "english": "‘Don’t talk behind people’s backs, and don’t speak sharply in their presence.’ "
+    },
+    {
+      "number": 119,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 120,
+      "pali": "‘Ataramānova bhāseyya no taramāno’ti—",
+      "english": "‘Don’t speak hurriedly.’ "
+    },
+    {
+      "number": 121,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 122,
+      "pali": "Tatra, bhikkhave, taramānassa bhāsato kāyopi kilamati, cittampi upahaññati, saropi upahaññati, kaṇṭhopi āturīyati, avisaṭṭhampi hoti aviññeyyaṁ taramānassa bhāsitaṁ. ",
+      "english": "When speaking hurriedly, your body gets tired, your mind gets stressed, your voice gets stressed, your throat gets sore, and your words become unclear and hard to understand. "
+    },
+    {
+      "number": 123,
+      "pali": "Tatra, bhikkhave, ataramānassa bhāsato kāyopi na kilamati, cittampi na upahaññati, saropi na upahaññati, kaṇṭhopi na āturīyati, visaṭṭhampi hoti viññeyyaṁ ataramānassa bhāsitaṁ. ",
+      "english": "When not speaking hurriedly, your body doesn’t get tired, your mind doesn’t get stressed, your voice doesn’t get stressed, your throat doesn’t get sore, and your words are clear and easy to understand. "
+    },
+    {
+      "number": 124,
+      "pali": "‘Ataramānova bhāseyya, no taramāno’ti—",
+      "english": "‘Don’t speak hurriedly.’ "
+    },
+    {
+      "number": 125,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 126,
+      "pali": "‘Janapadaniruttiṁ nābhiniveseyya, samaññaṁ nātidhāveyyā’ti—",
+      "english": "‘Don’t insist on popular definitions and don’t overstep normal labels.’ "
+    },
+    {
+      "number": 127,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 128,
+      "pali": "Kathañca, bhikkhave, janapadaniruttiyā ca abhiniveso hoti samaññāya ca atisāro? ",
+      "english": "And how do you insist on popular definitions and overstep normal labels? "
+    },
+    {
+      "number": 129,
+      "pali": "Idha, bhikkhave, tadevekaccesu janapadesu ‘pātī’ti sañjānanti, ‘pattan’ti sañjānanti, ‘vittan’ti sañjānanti, ‘sarāvan’ti sañjānanti ‘dhāropan’ti sañjānanti, ‘poṇan’ti sañjānanti, ‘pisīlavan’ti sañjānanti. ",
+      "english": "It’s when among different populations they label the same thing as a ‘cup’, a ‘bowl’, a ‘jar’, a ‘scoop’, a ‘vessel’, a ‘dish’, or a ‘plate’. "
+    },
+    {
+      "number": 130,
+      "pali": "Iti yathā yathā naṁ tesu tesu janapadesu sañjānanti tathā tathā thāmasā parāmāsā abhinivissa voharati: ",
+      "english": "And however it is known among those various populations, you speak accordingly, obstinately sticking to that and insisting: "
+    },
+    {
+      "number": 131,
+      "pali": "‘idameva saccaṁ, moghamaññan’ti. ",
+      "english": "‘This is the only truth, anything else is futile.’ "
+    },
+    {
+      "number": 132,
+      "pali": "Evaṁ kho, bhikkhave, janapadaniruttiyā ca abhiniveso hoti samaññāya ca atisāro. ",
+      "english": "That’s how you insist on popular definitions and overstep normal labels. "
+    },
+    {
+      "number": 133,
+      "pali": "Kathañca, bhikkhave, janapadaniruttiyā ca anabhiniveso hoti samaññāya ca anatisāro? ",
+      "english": "And how do you not insist on popular definitions and overstep normal labels? "
+    },
+    {
+      "number": 134,
+      "pali": "Idha, bhikkhave, tadevekaccesu janapadesu ‘pātī’ti sañjānanti, ‘pattan’ti sañjānanti, ‘vittan’ti sañjānanti, ‘sarāvan’ti sañjānanti, ‘dhāropan’ti sañjānanti, ‘poṇan’ti sañjānanti, ‘pisīlavan’ti sañjānanti. ",
+      "english": "It’s when among different populations they label the same thing as a ‘cup’, a ‘bowl’, a ‘jar’, a ‘scoop’, a ‘vessel’, a ‘dish’, or a ‘plate’. "
+    },
+    {
+      "number": 135,
+      "pali": "Iti yathā yathā naṁ tesu tesu janapadesu sañjānanti ‘idaṁ kira me āyasmanto sandhāya voharantī’ti tathā tathā voharati aparāmasaṁ. ",
+      "english": "And however it is known among those various populations, you speak accordingly, thinking: ‘It seems that the venerables are referring to this.’ "
+    },
+    {
+      "number": 136,
+      "pali": "Evaṁ kho, bhikkhave, janapadaniruttiyā ca anabhiniveso hoti, samaññāya ca anatisāro. ",
+      "english": "That’s how you don’t insist on popular definitions and don’t overstep normal labels. "
+    },
+    {
+      "number": 137,
+      "pali": "‘Janapadaniruttiṁ nābhiniveseyya samaññaṁ nātidhāveyyā’ti—",
+      "english": "‘Don’t insist on popular definitions and don’t overstep normal labels.’ "
+    },
+    {
+      "number": 138,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 139,
+      "pali": "Tatra, bhikkhave, yo kāmapaṭisandhisukhino somanassānuyogo hīno gammo pothujjaniko anariyo anatthasaṁhito, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "Now, mendicants, indulging in the happiness of the pleasure linked to sensuality is low, crude, ordinary, ignoble, and pointless. It is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 140,
+      "pali": "micchāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 141,
+      "pali": "Tasmā eso dhammo saraṇo. ",
+      "english": "That’s why this is a principle beset by strife. "
+    },
+    {
+      "number": 142,
+      "pali": "Tatra, bhikkhave, yo kāmapaṭisandhisukhino somanassānuyogaṁ ananuyogo hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "Breaking off such indulgence is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 143,
+      "pali": "sammāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 144,
+      "pali": "Tasmā eso dhammo araṇo. ",
+      "english": "That’s why this is a principle free of strife. "
+    },
+    {
+      "number": 145,
+      "pali": "Tatra, bhikkhave, yo attakilamathānuyogo dukkho anariyo anatthasaṁhito, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "Indulging in self-mortification is painful, ignoble, and pointless. It is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 146,
+      "pali": "micchāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 147,
+      "pali": "Tasmā eso dhammo saraṇo. ",
+      "english": "That’s why this is a principle beset by strife. "
+    },
+    {
+      "number": 148,
+      "pali": "Tatra, bhikkhave, yo attakilamathānuyogaṁ ananuyogo dukkhaṁ anariyaṁ anatthasaṁhitaṁ, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "Breaking off such indulgence is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 149,
+      "pali": "sammāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 150,
+      "pali": "Tasmā eso dhammo araṇo. ",
+      "english": "That’s why this is a principle free of strife. "
+    },
+    {
+      "number": 151,
+      "pali": "Tatra, bhikkhave, yāyaṁ majjhimā paṭipadā tathāgatena abhisambuddhā, cakkhukaraṇī ñāṇakaraṇī upasamāya abhiññāya sambodhāya nibbānāya saṁvattati, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "The middle way of practice that was understood by the Realized One gives vision and knowledge, and leads to peace, direct knowledge, awakening, and extinguishment. It is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 152,
+      "pali": "sammāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 153,
+      "pali": "Tasmā eso dhammo araṇo. ",
+      "english": "That’s why this is a principle free of strife. "
+    },
+    {
+      "number": 154,
+      "pali": "Tatra, bhikkhave, yāyaṁ ussādanā ca apasādanā ca no ca dhammadesanā, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "Flattering and rebuking without teaching Dhamma is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 155,
+      "pali": "micchāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 156,
+      "pali": "Tasmā eso dhammo saraṇo. ",
+      "english": "That’s why this is a principle beset by strife. "
+    },
+    {
+      "number": 157,
+      "pali": "Tatra, bhikkhave, yāyaṁ nevussādanā ca na apasādanā ca dhammadesanā ca, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "Neither flattering nor rebuking, and just teaching Dhamma is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 158,
+      "pali": "sammāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 159,
+      "pali": "Tasmā eso dhammo araṇo. ",
+      "english": "That’s why this is a principle free of strife. "
+    },
+    {
+      "number": 160,
+      "pali": "Tatra, bhikkhave, yamidaṁ kāmasukhaṁ mīḷhasukhaṁ pothujjanasukhaṁ anariyasukhaṁ, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "Sensual pleasure—a filthy, common, ignoble pleasure—is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 161,
+      "pali": "micchāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 162,
+      "pali": "Tasmā eso dhammo saraṇo. ",
+      "english": "That’s why this is a principle beset by strife. "
+    },
+    {
+      "number": 163,
+      "pali": "Tatra, bhikkhave, yamidaṁ nekkhammasukhaṁ pavivekasukhaṁ upasamasukhaṁ sambodhisukhaṁ, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "The pleasure of renunciation, the pleasure of seclusion, the pleasure of peace, the pleasure of awakening is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 164,
+      "pali": "sammāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 165,
+      "pali": "Tasmā eso dhammo araṇo. ",
+      "english": "That’s why this is a principle free of strife. "
+    },
+    {
+      "number": 166,
+      "pali": "Tatra, bhikkhave, yvāyaṁ rahovādo abhūto ataccho anatthasaṁhito, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "Saying untrue, false, and pointless things behind someone’s back is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 167,
+      "pali": "micchāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 168,
+      "pali": "Tasmā eso dhammo saraṇo. ",
+      "english": "That’s why this is a principle beset by strife. "
+    },
+    {
+      "number": 169,
+      "pali": "Tatra, bhikkhave, yvāyaṁ rahovādo bhūto taccho anatthasaṁhito, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "Saying true and correct, but pointless things behind someone’s back is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 170,
+      "pali": "micchāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 171,
+      "pali": "Tasmā eso dhammo saraṇo. ",
+      "english": "That’s why this is a principle beset by strife. "
+    },
+    {
+      "number": 172,
+      "pali": "Tatra, bhikkhave, yvāyaṁ rahovādo bhūto taccho atthasaṁhito, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "Saying true, correct, and beneficial things behind someone’s back is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 173,
+      "pali": "sammāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 174,
+      "pali": "Tasmā eso dhammo araṇo. ",
+      "english": "That’s why this is a principle free of strife. "
+    },
+    {
+      "number": 175,
+      "pali": "Tatra, bhikkhave, yvāyaṁ sammukhā khīṇavādo abhūto ataccho anatthasaṁhito, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "Saying untrue, false, and pointless things in someone’s presence is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 176,
+      "pali": "micchāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 177,
+      "pali": "Tasmā eso dhammo saraṇo. ",
+      "english": "That’s why this is a principle beset by strife. "
+    },
+    {
+      "number": 178,
+      "pali": "Tatra, bhikkhave, yvāyaṁ sammukhā khīṇavādo bhūto taccho anatthasaṁhito, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "Saying true and correct, but pointless things in someone’s presence is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 179,
+      "pali": "micchāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 180,
+      "pali": "Tasmā eso dhammo saraṇo. ",
+      "english": "That’s why this is a principle beset by strife. "
+    },
+    {
+      "number": 181,
+      "pali": "Tatra, bhikkhave, yvāyaṁ sammukhā khīṇavādo bhūto taccho atthasaṁhito, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "Saying true, correct, and beneficial things in someone’s presence is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 182,
+      "pali": "sammāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 183,
+      "pali": "Tasmā eso dhammo araṇo. ",
+      "english": "That’s why this is a principle free of strife. "
+    },
+    {
+      "number": 184,
+      "pali": "Tatra, bhikkhave, yamidaṁ taramānassa bhāsitaṁ, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "Speaking hurriedly is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 185,
+      "pali": "micchāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 186,
+      "pali": "Tasmā eso dhammo saraṇo. ",
+      "english": "That’s why this is a principle beset by strife. "
+    },
+    {
+      "number": 187,
+      "pali": "Tatra, bhikkhave, yamidaṁ ataramānassa bhāsitaṁ, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "Speaking unhurriedly is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 188,
+      "pali": "sammāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 189,
+      "pali": "Tasmā eso dhammo araṇo. ",
+      "english": "That’s why this is a principle free of strife. "
+    },
+    {
+      "number": 190,
+      "pali": "Tatra, bhikkhave, yvāyaṁ janapadaniruttiyā ca abhiniveso samaññāya ca atisāro, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; ",
+      "english": "Insisting on popular definitions and overriding common usage is a principle beset by pain, harm, stress, and fever, and it is the wrong way. "
+    },
+    {
+      "number": 191,
+      "pali": "micchāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 192,
+      "pali": "Tasmā eso dhammo saraṇo. ",
+      "english": "That’s why this is a principle beset by strife. "
+    },
+    {
+      "number": 193,
+      "pali": "Tatra, bhikkhave, yvāyaṁ janapadaniruttiyā ca anabhiniveso samaññāya ca anatisāro, adukkho eso dhammo anupaghāto anupāyāso apariḷāho; ",
+      "english": "Not insisting on popular definitions and not overriding common usage is a principle free of pain, harm, stress, and fever, and it is the right way. "
+    },
+    {
+      "number": 194,
+      "pali": "sammāpaṭipadā. ",
+      "english": ""
+    },
+    {
+      "number": 195,
+      "pali": "Tasmā eso dhammo araṇo. ",
+      "english": "That’s why this is a principle free of strife. "
+    },
+    {
+      "number": 196,
+      "pali": "Tasmātiha, bhikkhave, ‘saraṇañca dhammaṁ jānissāma, araṇañca dhammaṁ jānissāma; ",
+      "english": "So you should train like this: ‘We shall know the principles beset by strife and the principles free of strife. "
+    },
+    {
+      "number": 197,
+      "pali": "saraṇañca dhammaṁ ñatvā araṇañca dhammaṁ ñatvā araṇapaṭipadaṁ paṭipajjissāmā’ti evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": "Knowing this, we will practice the way free of strife.’ "
+    },
+    {
+      "number": 198,
+      "pali": "Subhūti ca pana, bhikkhave, kulaputto araṇapaṭipadaṁ paṭipanno”ti. ",
+      "english": "And, mendicants, the gentleman Subhūti practices the way free of strife.” "
+    },
+    {
+      "number": 199,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 200,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 201,
+      "pali": "Araṇavibhaṅgasuttaṁ niṭṭhitaṁ navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

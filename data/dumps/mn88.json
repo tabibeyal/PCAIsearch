@@ -1,0 +1,645 @@
+{
+  "sutta_id": "MN88",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 88 ",
+      "english": "Middle Discourses 88 "
+    },
+    {
+      "number": 2,
+      "pali": "Bāhitikasutta ",
+      "english": "The Imported Cloth "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho āyasmā ānando pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya sāvatthiyaṁ piṇḍāya pāvisi. ",
+      "english": "Then Venerable Ānanda robed up in the morning and, taking his bowl and robe, entered Sāvatthī for alms. "
+    },
+    {
+      "number": 6,
+      "pali": "Sāvatthiyaṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto yena pubbārāmo migāramātupāsādo tenupasaṅkami divāvihārāya. ",
+      "english": "He wandered for alms in Sāvatthī. After the meal, on his return from almsround, he went to the Eastern Monastery, the stilt longhouse of Migāra’s mother, for the day’s meditation. "
+    },
+    {
+      "number": 7,
+      "pali": "Tena kho pana samayena rājā pasenadi kosalo ekapuṇḍarīkaṁ nāgaṁ abhiruhitvā sāvatthiyā niyyāti divā divassa. ",
+      "english": "Now at that time King Pasenadi of Kosala mounted the Single Lotus Elephant and drove out from Sāvatthī in the middle of the day. "
+    },
+    {
+      "number": 8,
+      "pali": "Addasā kho rājā pasenadi kosalo āyasmantaṁ ānandaṁ dūratova āgacchantaṁ. ",
+      "english": "He saw Ānanda coming off in the distance "
+    },
+    {
+      "number": 9,
+      "pali": "Disvāna sirivaḍḍhaṁ mahāmattaṁ āmantesi: ",
+      "english": "and said to the chief minister Sirivaḍḍha, "
+    },
+    {
+      "number": 10,
+      "pali": "“āyasmā no eso, samma sirivaḍḍha, ānando”ti. ",
+      "english": "“My dear Sirivaḍḍha, isn’t that Venerable Ānanda?” "
+    },
+    {
+      "number": 11,
+      "pali": "“Evaṁ, mahārāja, āyasmā eso ānando”ti. ",
+      "english": "“Indeed it is, great king.” "
+    },
+    {
+      "number": 12,
+      "pali": "Atha kho rājā pasenadi kosalo aññataraṁ purisaṁ āmantesi: ",
+      "english": "Then King Pasenadi addressed a man, "
+    },
+    {
+      "number": 13,
+      "pali": "“ehi tvaṁ, ambho purisa, yenāyasmā ānando tenupasaṅkama; upasaṅkamitvā mama vacanena āyasmato ānandassa pāde sirasā vandāhi: ",
+      "english": "“Please, my friend, go to Venerable Ānanda, and in my name bow with your head to his feet. Say to him: "
+    },
+    {
+      "number": 14,
+      "pali": "‘rājā, bhante, pasenadi kosalo āyasmato ānandassa pāde sirasā vandatī’ti; ",
+      "english": "‘Sir, King Pasenadi of Kosala bows with his head at your feet.’ "
+    },
+    {
+      "number": 15,
+      "pali": "evañca vadehi: ",
+      "english": "And then say: "
+    },
+    {
+      "number": 16,
+      "pali": "‘sace kira, bhante, āyasmato ānandassa na kiñci accāyikaṁ karaṇīyaṁ, āgametu kira, bhante, āyasmā ānando muhuttaṁ anukampaṁ upādāyā’”ti. ",
+      "english": "‘Sir, if you have no urgent business, please wait an while out of sympathy.’” "
+    },
+    {
+      "number": 17,
+      "pali": "“Evaṁ, devā”ti kho so puriso rañño pasenadissa kosalassa paṭissutvā yenāyasmā ānando tenupasaṅkami; upasaṅkamitvā āyasmantaṁ ānandaṁ abhivādetvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho so puriso āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "“Yes, Your Majesty,” that man replied. He did as the king asked. "
+    },
+    {
+      "number": 18,
+      "pali": "“rājā, bhante, pasenadi kosalo āyasmato ānandassa pāde sirasā vandati; ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "evañca vadeti: ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "‘sace kira, bhante, āyasmato ānandassa na kiñci accāyikaṁ karaṇīyaṁ, āgametu kira, bhante, āyasmā ānando muhuttaṁ anukampaṁ upādāyā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "Adhivāsesi kho āyasmā ānando tuṇhībhāvena. ",
+      "english": "Ānanda consented with silence. "
+    },
+    {
+      "number": 22,
+      "pali": "Atha kho rājā pasenadi kosalo yāvatikā nāgassa bhūmi nāgena gantvā nāgā paccorohitvā pattikova yenāyasmā ānando tenupasaṅkami; upasaṅkamitvā āyasmantaṁ ānandaṁ abhivādetvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho rājā pasenadi kosalo āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "Then King Pasenadi rode on the elephant as far as the terrain allowed, then descended and approached Ānanda on foot. He bowed, stood to one side, and said to Ānanda, "
+    },
+    {
+      "number": 23,
+      "pali": "“sace, bhante, āyasmato ānandassa na kiñci accāyikaṁ karaṇīyaṁ, sādhu, bhante, āyasmā ānando yena aciravatiyā nadiyā tīraṁ tenupasaṅkamatu anukampaṁ upādāyā”ti. ",
+      "english": "“Sir, if you have no urgent business, it would be nice of you to go to the bank of the Aciravatī river out of sympathy.” "
+    },
+    {
+      "number": 24,
+      "pali": "Adhivāsesi kho āyasmā ānando tuṇhībhāvena. ",
+      "english": "Ānanda consented with silence. "
+    },
+    {
+      "number": 25,
+      "pali": "Atha kho āyasmā ānando yena aciravatiyā nadiyā tīraṁ tenupasaṅkami; upasaṅkamitvā aññatarasmiṁ rukkhamūle paññatte āsane nisīdi. ",
+      "english": "He went to the river bank and sat at the root of a certain tree on a seat spread out. "
+    },
+    {
+      "number": 26,
+      "pali": "Atha kho rājā pasenadi kosalo yāvatikā nāgassa bhūmi nāgena gantvā nāgā paccorohitvā pattikova yenāyasmā ānando tenupasaṅkami; upasaṅkamitvā āyasmantaṁ ānandaṁ abhivādetvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho rājā pasenadi kosalo āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "Then King Pasenadi rode on the elephant as far as the terrain allowed, then descended and approached Ānanda on foot. He bowed, stood to one side, and said to Ānanda, "
+    },
+    {
+      "number": 27,
+      "pali": "“idha, bhante, āyasmā ānando hatthatthare nisīdatū”ti. ",
+      "english": "“Here, Venerable Ānanda, sit on this elephant rug.” "
+    },
+    {
+      "number": 28,
+      "pali": "“Alaṁ, mahārāja. ",
+      "english": "“Enough, great king, "
+    },
+    {
+      "number": 29,
+      "pali": "Nisīda tvaṁ; ",
+      "english": "you sit on it. "
+    },
+    {
+      "number": 30,
+      "pali": "nisinno ahaṁ sake āsane”ti. ",
+      "english": "I’m sitting on my own seat.” "
+    },
+    {
+      "number": 31,
+      "pali": "Nisīdi kho rājā pasenadi kosalo paññatte āsane. ",
+      "english": "So the king sat down on the seat spread out, "
+    },
+    {
+      "number": 32,
+      "pali": "Nisajja kho rājā pasenadi kosalo āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "and said, "
+    },
+    {
+      "number": 33,
+      "pali": "“kiṁ nu kho, bhante ānanda, so bhagavā tathārūpaṁ kāyasamācāraṁ samācareyya, yvāssa kāyasamācāro opārambho samaṇehi brāhmaṇehī”ti? ",
+      "english": "“Honorable Ānanda, would the Buddha engage in the sort of behavior—by way of body, speech, or mind—that is faulted by ascetics and brahmins?” "
+    },
+    {
+      "number": 34,
+      "pali": "“Na kho, mahārāja, so bhagavā tathārūpaṁ kāyasamācāraṁ samācareyya, yvāssa kāyasamācāro opārambho samaṇehi brāhmaṇehi viññūhī”ti. ",
+      "english": "“No, great king, the Buddha would not engage in the sort of behavior that is faulted by sensible ascetics and brahmins.” "
+    },
+    {
+      "number": 35,
+      "pali": "“Kiṁ pana, bhante ānanda, so bhagavā tathārūpaṁ vacīsamācāraṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "manosamācāraṁ samācareyya, yvāssa manosamācāro opārambho samaṇehi brāhmaṇehī”ti? ",
+      "english": ""
+    },
+    {
+      "number": 37,
+      "pali": "“Na kho, mahārāja, so bhagavā tathārūpaṁ manosamācāraṁ samācareyya, yvāssa manosamācāro opārambho samaṇehi brāhmaṇehi viññūhī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "“Acchariyaṁ, bhante, abbhutaṁ, bhante. ",
+      "english": "“It’s incredible, sir, it’s amazing! "
+    },
+    {
+      "number": 39,
+      "pali": "Yañhi mayaṁ, bhante, nāsakkhimhā pañhena paripūretuṁ taṁ, bhante, āyasmatā ānandena pañhassa veyyākaraṇena paripūritaṁ. ",
+      "english": "For I couldn’t fully express the question, but Venerable Ānanda’s answer completed it for me. "
+    },
+    {
+      "number": 40,
+      "pali": "Ye te, bhante, bālā abyattā ananuvicca apariyogāhetvā paresaṁ vaṇṇaṁ vā avaṇṇaṁ vā bhāsanti, na mayaṁ taṁ sārato paccāgacchāma; ",
+      "english": "I don’t believe that praise or criticism of others spoken by incompetent fools, without examining or scrutinizing, is the most important thing. "
+    },
+    {
+      "number": 41,
+      "pali": "ye pana te, bhante, paṇḍitā viyattā medhāvino anuvicca pariyogāhetvā paresaṁ vaṇṇaṁ vā avaṇṇaṁ vā bhāsanti, mayaṁ taṁ sārato paccāgacchāma. ",
+      "english": "Rather, I believe that praise or criticism of others spoken by competent and intelligent people after examining and scrutinizing is the most important thing. "
+    },
+    {
+      "number": 42,
+      "pali": "Katamo pana, bhante ānanda, kāyasamācāro opārambho samaṇehi brāhmaṇehi viññūhī”ti? ",
+      "english": "But Honorable Ānanda, what kind of bodily behavior is faulted by sensible ascetics and brahmins?” "
+    },
+    {
+      "number": 43,
+      "pali": "“Yo kho, mahārāja, kāyasamācāro akusalo”. ",
+      "english": "“Unskillful behavior.” "
+    },
+    {
+      "number": 44,
+      "pali": "“Katamo pana, bhante, kāyasamācāro akusalo”? ",
+      "english": "“But what kind of bodily behavior is unskillful?” "
+    },
+    {
+      "number": 45,
+      "pali": "“Yo kho, mahārāja, kāyasamācāro sāvajjo”. ",
+      "english": "“Blameworthy behavior.” "
+    },
+    {
+      "number": 46,
+      "pali": "“Katamo pana, bhante, kāyasamācāro sāvajjo”? ",
+      "english": "“But what kind of bodily behavior is blameworthy?” "
+    },
+    {
+      "number": 47,
+      "pali": "“Yo kho, mahārāja, kāyasamācāro sabyābajjho”. ",
+      "english": "“Hurtful behavior.” "
+    },
+    {
+      "number": 48,
+      "pali": "“Katamo pana, bhante, kāyasamācāro sabyābajjho”? ",
+      "english": "“But what kind of bodily behavior is hurtful?” "
+    },
+    {
+      "number": 49,
+      "pali": "“Yo kho, mahārāja, kāyasamācāro dukkhavipāko”. ",
+      "english": "“Behavior that results in suffering.” "
+    },
+    {
+      "number": 50,
+      "pali": "“Katamo pana, bhante, kāyasamācāro dukkhavipāko”? ",
+      "english": "“But what kind of bodily behavior results in suffering?” "
+    },
+    {
+      "number": 51,
+      "pali": "“Yo kho, mahārāja, kāyasamācāro attabyābādhāyapi saṁvattati, parabyābādhāyapi saṁvattati, ubhayabyābādhāyapi saṁvattati. ",
+      "english": "“Bodily behavior that leads to hurting yourself, hurting others, and hurting both, "
+    },
+    {
+      "number": 52,
+      "pali": "Tassa akusalā dhammā abhivaḍḍhanti, kusalā dhammā parihāyanti; ",
+      "english": "and which makes unskillful qualities grow while skillful qualities decline. "
+    },
+    {
+      "number": 53,
+      "pali": "evarūpo kho, mahārāja, kāyasamācāro opārambho samaṇehi brāhmaṇehi viññūhī”ti. ",
+      "english": "That kind of bodily behavior is faulted by sensible ascetics and brahmins.” "
+    },
+    {
+      "number": 54,
+      "pali": "“Katamo pana, bhante ānanda, vacīsamācāro …pe… ",
+      "english": "“But what kind of verbal behavior … "
+    },
+    {
+      "number": 55,
+      "pali": "manosamācāro opārambho samaṇehi brāhmaṇehi viññūhī”ti? ",
+      "english": "mental behavior is faulted by sensible ascetics and brahmins?” … "
+    },
+    {
+      "number": 56,
+      "pali": "“Yo kho, mahārāja, manosamācāro akusalo”. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "“Katamo pana, bhante, manosamācāro akusalo”? ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "“Yo kho, mahārāja, manosamācāro sāvajjo”. ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "“Katamo pana, bhante, manosamācāro sāvajjo”? ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "“Yo kho, mahārāja, manosamācāro sabyābajjho”. ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "“Katamo pana, bhante, manosamācāro sabyābajjho”? ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "“Yo kho, mahārāja, manosamācāro dukkhavipāko”. ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "“Katamo pana, bhante, manosamācāro dukkhavipāko”? ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "“Yo kho, mahārāja, manosamācāro attabyābādhāyapi saṁvattati, parabyābādhāyapi saṁvattati, ubhayabyābādhāyapi saṁvattati. ",
+      "english": "“Mental behavior that leads to hurting yourself, hurting others, and hurting both, "
+    },
+    {
+      "number": 65,
+      "pali": "Tassa akusalā dhammā abhivaḍḍhanti, kusalā dhammā parihāyanti; ",
+      "english": "and which makes unskillful qualities grow while skillful qualities decline. "
+    },
+    {
+      "number": 66,
+      "pali": "evarūpo kho, mahārāja, manosamācāro opārambho samaṇehi brāhmaṇehi viññūhī”ti. ",
+      "english": "That kind of mental behavior is faulted by sensible ascetics and brahmins.” "
+    },
+    {
+      "number": 67,
+      "pali": "“Kiṁ nu kho, bhante ānanda, so bhagavā sabbesaṁyeva akusalānaṁ dhammānaṁ pahānaṁ vaṇṇetī”ti? ",
+      "english": "“Sir, does the Buddha praise giving up all these unskillful things?” "
+    },
+    {
+      "number": 68,
+      "pali": "“Sabbākusaladhammapahīno kho, mahārāja, tathāgato kusaladhammasamannāgato”ti. ",
+      "english": "“Great king, the Realized One has given up all unskillful things and possesses skillful things.” "
+    },
+    {
+      "number": 69,
+      "pali": "“Katamo pana, bhante ānanda, kāyasamācāro anopārambho samaṇehi brāhmaṇehi viññūhī”ti? ",
+      "english": "“But sir, what kind of bodily behavior is not faulted by sensible ascetics and brahmins?” "
+    },
+    {
+      "number": 70,
+      "pali": "“Yo kho, mahārāja, kāyasamācāro kusalo”. ",
+      "english": "“Skillful behavior.” "
+    },
+    {
+      "number": 71,
+      "pali": "“Katamo pana, bhante, kāyasamācāro kusalo”? ",
+      "english": "“But what kind of bodily behavior is skillful?” "
+    },
+    {
+      "number": 72,
+      "pali": "“Yo kho, mahārāja, kāyasamācāro anavajjo”. ",
+      "english": "“Blameless behavior.” "
+    },
+    {
+      "number": 73,
+      "pali": "“Katamo pana, bhante, kāyasamācāro anavajjo”? ",
+      "english": "“But what kind of bodily behavior is blameless?” "
+    },
+    {
+      "number": 74,
+      "pali": "“Yo kho, mahārāja, kāyasamācāro abyābajjho”. ",
+      "english": "“Pleasing behavior.” "
+    },
+    {
+      "number": 75,
+      "pali": "“Katamo pana, bhante, kāyasamācāro abyābajjho”? ",
+      "english": "“But what kind of bodily behavior is pleasing?” "
+    },
+    {
+      "number": 76,
+      "pali": "“Yo kho, mahārāja, kāyasamācāro sukhavipāko”. ",
+      "english": "“Behavior that results in happiness.” "
+    },
+    {
+      "number": 77,
+      "pali": "“Katamo pana, bhante, kāyasamācāro sukhavipāko”? ",
+      "english": "“But what kind of bodily behavior results in happiness?” "
+    },
+    {
+      "number": 78,
+      "pali": "“Yo kho, mahārāja, kāyasamācāro nevattabyābādhāyapi saṁvattati, na parabyābādhāyapi saṁvattati, na ubhayabyābādhāyapi saṁvattati. ",
+      "english": "“Bodily behavior that leads to pleasing yourself, pleasing others, and pleasing both, "
+    },
+    {
+      "number": 79,
+      "pali": "Tassa akusalā dhammā parihāyanti, kusalā dhammā abhivaḍḍhanti. ",
+      "english": "and which makes unskillful qualities decline while skillful qualities grow. "
+    },
+    {
+      "number": 80,
+      "pali": "Evarūpo kho, mahārāja, kāyasamācāro anopārambho samaṇehi brāhmaṇehi viññūhī”ti. ",
+      "english": "That kind of bodily behavior is not faulted by sensible ascetics and brahmins.” "
+    },
+    {
+      "number": 81,
+      "pali": "“Katamo pana, bhante ānanda, vacīsamācāro …pe… ",
+      "english": "“But what kind of verbal behavior … "
+    },
+    {
+      "number": 82,
+      "pali": "manosamācāro anopārambho samaṇehi brāhmaṇehi viññūhī”ti? ",
+      "english": "mental behavior is not faulted by sensible ascetics and brahmins?” … "
+    },
+    {
+      "number": 83,
+      "pali": "“Yo kho, mahārāja, manosamācāro kusalo”. ",
+      "english": ""
+    },
+    {
+      "number": 84,
+      "pali": "“Katamo pana, bhante, manosamācāro kusalo”? ",
+      "english": ""
+    },
+    {
+      "number": 85,
+      "pali": "“Yo kho, mahārāja, manosamācāro anavajjo”. ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "“Katamo pana, bhante, manosamācāro anavajjo”? ",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "“Yo kho, mahārāja, manosamācāro abyābajjho”. ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "“Katamo pana, bhante, manosamācāro abyābajjho”? ",
+      "english": ""
+    },
+    {
+      "number": 89,
+      "pali": "“Yo kho, mahārāja, manosamācāro sukhavipāko”. ",
+      "english": ""
+    },
+    {
+      "number": 90,
+      "pali": "“Katamo pana, bhante, manosamācāro sukhavipāko”? ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "“Yo kho, mahārāja, manosamācāro nevattabyābādhāyapi saṁvattati, na parabyābādhāyapi saṁvattati, na ubhayabyābādhāyapi saṁvattati. ",
+      "english": "“Mental behavior that leads to pleasing yourself, pleasing others, and pleasing both, "
+    },
+    {
+      "number": 92,
+      "pali": "Tassa akusalā dhammā parihāyanti, kusalā dhammā abhivaḍḍhanti. ",
+      "english": "and which makes unskillful qualities decline while skillful qualities grow. "
+    },
+    {
+      "number": 93,
+      "pali": "Evarūpo kho, mahārāja, manosamācāro anopārambho samaṇehi brāhmaṇehi viññūhī”ti. ",
+      "english": "That kind of mental behavior is not faulted by sensible ascetics and brahmins.” "
+    },
+    {
+      "number": 94,
+      "pali": "“Kiṁ pana, bhante ānanda, so bhagavā sabbesaṁyeva kusalānaṁ dhammānaṁ upasampadaṁ vaṇṇetī”ti? ",
+      "english": "“Sir, does the Buddha praise embracing all these skillful things?” "
+    },
+    {
+      "number": 95,
+      "pali": "“Sabbākusaladhammapahīno kho, mahārāja, tathāgato kusaladhammasamannāgato”ti. ",
+      "english": "“Great king, the Realized One has given up all unskillful things and possesses skillful things.” "
+    },
+    {
+      "number": 96,
+      "pali": "“Acchariyaṁ, bhante, abbhutaṁ, bhante. ",
+      "english": "“It’s incredible, sir, it’s amazing! "
+    },
+    {
+      "number": 97,
+      "pali": "Yāva subhāsitañcidaṁ, bhante, āyasmatā ānandena. ",
+      "english": "How well this was said by Venerable Ānanda! "
+    },
+    {
+      "number": 98,
+      "pali": "Iminā ca mayaṁ, bhante, āyasmato ānandassa subhāsitena attamanābhiraddhā. ",
+      "english": "I’m delighted and satisfied with what you’ve expressed so well. "
+    },
+    {
+      "number": 99,
+      "pali": "Evaṁ attamanābhiraddhā ca mayaṁ, bhante, āyasmato ānandassa subhāsitena. ",
+      "english": "So much so that "
+    },
+    {
+      "number": 100,
+      "pali": "Sace, bhante, āyasmato ānandassa hatthiratanaṁ kappeyya, hatthiratanampi mayaṁ āyasmato ānandassa dadeyyāma. ",
+      "english": "if an elephant-treasure was suitable for you, I would give you one. "
+    },
+    {
+      "number": 101,
+      "pali": "Sace, bhante, āyasmato ānandassa assaratanaṁ kappeyya, assaratanampi mayaṁ āyasmato ānandassa dadeyyāma. ",
+      "english": "If a horse-treasure was suitable for you, I would give you one. "
+    },
+    {
+      "number": 102,
+      "pali": "Sace, bhante, āyasmato ānandassa gāmavaraṁ kappeyya, gāmavarampi mayaṁ āyasmato ānandassa dadeyyāma. ",
+      "english": "If a prize village was suitable for you, I would give you one. "
+    },
+    {
+      "number": 103,
+      "pali": "Api ca, bhante, mayampetaṁ jānāma: ",
+      "english": "But, sir, I know that "
+    },
+    {
+      "number": 104,
+      "pali": "‘netaṁ āyasmato ānandassa kappatī’ti. ",
+      "english": "these things are not suitable for you. "
+    },
+    {
+      "number": 105,
+      "pali": "Ayaṁ me, bhante, bāhitikā raññā māgadhena ajātasattunā vedehiputtena vatthanāḷiyā pakkhipitvā pahitā soḷasasamā āyāmena, aṭṭhasamā vitthārena. ",
+      "english": "This imported cloth was sent to me by King Ajātasattu of Magadha, son of the princess of Videha, packed in a parasol case. It’s exactly sixteen measures long and eight wide. "
+    },
+    {
+      "number": 106,
+      "pali": "Taṁ, bhante, āyasmā ānando paṭiggaṇhātu anukampaṁ upādāyā”ti. ",
+      "english": "May Venerable Ānanda please accept it out of sympathy.” "
+    },
+    {
+      "number": 107,
+      "pali": "“Alaṁ, mahārāja, paripuṇṇaṁ me ticīvaran”ti. ",
+      "english": "“Enough, great king. My three robes are complete.” "
+    },
+    {
+      "number": 108,
+      "pali": "“Ayaṁ, bhante, aciravatī nadī diṭṭhā āyasmatā ceva ānandena amhehi ca. ",
+      "english": "“Sir, we have both seen this river Aciravatī "
+    },
+    {
+      "number": 109,
+      "pali": "Yadā uparipabbate mahāmegho abhippavuṭṭho hoti, athāyaṁ aciravatī nadī ubhato kūlāni saṁvissandantī gacchati; ",
+      "english": "when it has rained heavily in the mountains, and the river overflows both its banks. "
+    },
+    {
+      "number": 110,
+      "pali": "evameva kho, bhante, āyasmā ānando imāya bāhitikāya attano ticīvaraṁ karissati. ",
+      "english": "In the same way, Venerable Ānanda can make a set of three robes for himself from this imported cloak, "
+    },
+    {
+      "number": 111,
+      "pali": "Yaṁ panāyasmato ānandassa purāṇaṁ ticīvaraṁ taṁ sabrahmacārīhi saṁvibhajissati. ",
+      "english": "and you can share your old robes with your fellow monks. "
+    },
+    {
+      "number": 112,
+      "pali": "Evāyaṁ amhākaṁ dakkhiṇā saṁvissandantī maññe gamissati. ",
+      "english": "In this way my religious donation will come to overflow, it seems to me. "
+    },
+    {
+      "number": 113,
+      "pali": "Paṭiggaṇhātu, bhante, āyasmā ānando bāhitikan”ti. ",
+      "english": "Please accept the imported cloth.” "
+    },
+    {
+      "number": 114,
+      "pali": "Paṭiggahesi kho āyasmā ānando bāhitikaṁ. ",
+      "english": "So Ānanda accepted it. "
+    },
+    {
+      "number": 115,
+      "pali": "Atha kho rājā pasenadi kosalo āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "Then King Pasenadi said to him, "
+    },
+    {
+      "number": 116,
+      "pali": "“handa ca dāni mayaṁ, bhante ānanda, gacchāma; ",
+      "english": "“Well, now, sir, I must go. "
+    },
+    {
+      "number": 117,
+      "pali": "bahukiccā mayaṁ bahukaraṇīyā”ti. ",
+      "english": "I have many duties, and much to do.” "
+    },
+    {
+      "number": 118,
+      "pali": "“Yassadāni tvaṁ, mahārāja, kālaṁ maññasī”ti. ",
+      "english": "“Please, great king, go at your convenience.” "
+    },
+    {
+      "number": 119,
+      "pali": "Atha kho rājā pasenadi kosalo āyasmato ānandassa bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā āyasmantaṁ ānandaṁ abhivādetvā padakkhiṇaṁ katvā pakkāmi. ",
+      "english": "Then King Pasenadi approved and agreed with what Ānanda said. He got up from his seat, bowed, and respectfully circled Ānanda, keeping him on his right, before leaving. "
+    },
+    {
+      "number": 120,
+      "pali": "Atha kho āyasmā ānando acirapakkantassa rañño pasenadissa kosalassa yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "Soon after he left, Ānanda went to the Buddha, bowed, sat down to one side, "
+    },
+    {
+      "number": 121,
+      "pali": "Ekamantaṁ nisinno kho āyasmā ānando yāvatako ahosi raññā pasenadinā kosalena saddhiṁ kathāsallāpo taṁ sabbaṁ bhagavato ārocesi. ",
+      "english": "and told him what had happened. "
+    },
+    {
+      "number": 122,
+      "pali": "Tañca bāhitikaṁ bhagavato pādāsi. ",
+      "english": "He presented the cloth to the Buddha. "
+    },
+    {
+      "number": 123,
+      "pali": "Atha kho bhagavā bhikkhū āmantesi: ",
+      "english": "Then the Buddha said to the mendicants, "
+    },
+    {
+      "number": 124,
+      "pali": "“lābhā, bhikkhave, rañño pasenadissa kosalassa, suladdhalābhā, bhikkhave, rañño pasenadissa kosalassa; ",
+      "english": "“Mendicants, King Pasenadi is lucky, so very lucky, "
+    },
+    {
+      "number": 125,
+      "pali": "yaṁ rājā pasenadi kosalo labhati ānandaṁ dassanāya, labhati payirupāsanāyā”ti. ",
+      "english": "to get to see Ānanda and pay homage to him.” "
+    },
+    {
+      "number": 126,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 127,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 128,
+      "pali": "Bāhitikasuttaṁ niṭṭhitaṁ aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

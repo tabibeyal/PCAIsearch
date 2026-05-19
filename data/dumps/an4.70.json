@@ -1,0 +1,285 @@
+{
+  "sutta_id": "AN4.70",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 4.70 ",
+      "english": "Numbered Discourses 4.70 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Pattakammavagga ",
+      "english": "7. Fitting Deeds "
+    },
+    {
+      "number": 3,
+      "pali": "Adhammikasutta ",
+      "english": "Unprincipled "
+    },
+    {
+      "number": 4,
+      "pali": "“Yasmiṁ, bhikkhave, samaye rājāno adhammikā honti, rājāyuttāpi tasmiṁ samaye adhammikā honti. ",
+      "english": "“At a time when kings are unprincipled, royal officials become unprincipled. "
+    },
+    {
+      "number": 5,
+      "pali": "Rājāyuttesu adhammikesu brāhmaṇagahapatikāpi tasmiṁ samaye adhammikā honti. ",
+      "english": "When royal officials are unprincipled, brahmins and householders become unprincipled. "
+    },
+    {
+      "number": 6,
+      "pali": "Brāhmaṇagahapatikesu adhammikesu negamajānapadāpi tasmiṁ samaye adhammikā honti. ",
+      "english": "When brahmins and householders are unprincipled, the people of town and country become unprincipled. "
+    },
+    {
+      "number": 7,
+      "pali": "Negamajānapadesu adhammikesu visamaṁ candimasūriyā parivattanti. ",
+      "english": "When the people of town and country are unprincipled, the courses of the moon and sun become erratic. "
+    },
+    {
+      "number": 8,
+      "pali": "Visamaṁ candimasūriyesu parivattantesu visamaṁ nakkhattāni tārakarūpāni parivattanti. ",
+      "english": "… the courses of the stars and constellations … "
+    },
+    {
+      "number": 9,
+      "pali": "Visamaṁ nakkhattesu tārakarūpesu parivattantesu visamaṁ rattindivā parivattanti. ",
+      "english": "the days and nights … "
+    },
+    {
+      "number": 10,
+      "pali": "Visamaṁ rattindivesu parivattantesu visamaṁ māsaddhamāsā parivattanti. ",
+      "english": "the months and fortnights … "
+    },
+    {
+      "number": 11,
+      "pali": "Visamaṁ māsaddhamāsesu parivattantesu visamaṁ utusaṁvaccharā parivattanti. ",
+      "english": "the seasons and years become erratic. "
+    },
+    {
+      "number": 12,
+      "pali": "Visamaṁ utusaṁvaccharesu parivattantesu visamaṁ vātā vāyanti visamā apañjasā. ",
+      "english": "… the blowing of the winds becomes erratic and chaotic. "
+    },
+    {
+      "number": 13,
+      "pali": "Visamaṁ vātesu vāyantesu visamesu apañjasesu devatā parikupitā bhavanti. ",
+      "english": "… the deities are angered. "
+    },
+    {
+      "number": 14,
+      "pali": "Devatāsu parikupitāsu devo na sammā dhāraṁ anuppavecchati. ",
+      "english": "… the heavens don’t provide enough rain. "
+    },
+    {
+      "number": 15,
+      "pali": "Deve na sammā dhāraṁ anuppavecchante visamapākāni sassāni bhavanti. ",
+      "english": "… the crops ripen erratically. "
+    },
+    {
+      "number": 16,
+      "pali": "Visamapākāni, bhikkhave, sassāni manussā paribhuñjantā appāyukā honti dubbaṇṇā ca bavhābādhā ca. ",
+      "english": "When people eat crops that have ripened erratically, they become short-lived, ugly, weak, and sickly. "
+    },
+    {
+      "number": 17,
+      "pali": "Yasmiṁ, bhikkhave, samaye rājāno dhammikā honti, rājāyuttāpi tasmiṁ samaye dhammikā honti. ",
+      "english": "At a time when kings are principled, royal officials become principled. "
+    },
+    {
+      "number": 18,
+      "pali": "Rājāyuttesu dhammikesu brāhmaṇagahapatikāpi tasmiṁ samaye dhammikā honti. ",
+      "english": "… brahmins and householders … "
+    },
+    {
+      "number": 19,
+      "pali": "Brāhmaṇagahapatikesu dhammikesu negamajānapadāpi tasmiṁ samaye dhammikā honti. ",
+      "english": "people of town and country become principled. "
+    },
+    {
+      "number": 20,
+      "pali": "Negamajānapadesu dhammikesu samaṁ candimasūriyā parivattanti. ",
+      "english": "When the people of town and country are principled, the courses of the sun and moon become regular. "
+    },
+    {
+      "number": 21,
+      "pali": "Samaṁ candimasūriyesu parivattantesu samaṁ nakkhattāni tārakarūpāni parivattanti. ",
+      "english": "… the stars and constellations … "
+    },
+    {
+      "number": 22,
+      "pali": "Samaṁ nakkhattesu tārakarūpesu parivattantesu samaṁ rattindivā parivattanti. ",
+      "english": "the days and nights … "
+    },
+    {
+      "number": 23,
+      "pali": "Samaṁ rattindivesu parivattantesu samaṁ māsaddhamāsā parivattanti. ",
+      "english": "the months and fortnights … "
+    },
+    {
+      "number": 24,
+      "pali": "Samaṁ māsaddhamāsesu parivattantesu samaṁ utusaṁvaccharā parivattanti. ",
+      "english": "the seasons and years become regular. "
+    },
+    {
+      "number": 25,
+      "pali": "Samaṁ utusaṁvaccharesu parivattantesu samaṁ vātā vāyanti samā pañjasā. ",
+      "english": "… the blowing of the winds becomes regular and orderly. "
+    },
+    {
+      "number": 26,
+      "pali": "Samaṁ vātesu vāyantesu samesu pañjasesu devatā aparikupitā bhavanti. ",
+      "english": "… the deities are not angered … "
+    },
+    {
+      "number": 27,
+      "pali": "Devatāsu aparikupitāsu devo sammā dhāraṁ anuppavecchati. ",
+      "english": "… the heavens provide plenty of rain. "
+    },
+    {
+      "number": 28,
+      "pali": "Deve sammā dhāraṁ anuppavecchante samapākāni sassāni bhavanti. ",
+      "english": "When the heavens provide plenty of rain, the crops ripen well. "
+    },
+    {
+      "number": 29,
+      "pali": "Samapākāni, bhikkhave, sassāni manussā paribhuñjantā dīghāyukā ca honti vaṇṇavanto ca balavanto ca appābādhā cāti. ",
+      "english": "When people eat crops that have ripened well, they become long-lived, beautiful, strong, and healthy. "
+    },
+    {
+      "number": 30,
+      "pali": "Gunnañce taramānānaṁ, ",
+      "english": "When cattle cross a river, "
+    },
+    {
+      "number": 31,
+      "pali": "jimhaṁ gacchati puṅgavo; ",
+      "english": "if the bull goes off course, "
+    },
+    {
+      "number": 32,
+      "pali": "Sabbā tā jimhaṁ gacchanti, ",
+      "english": "they all go off course, "
+    },
+    {
+      "number": 33,
+      "pali": "nette jimhaṁ gate sati. ",
+      "english": "because their leader is off course. "
+    },
+    {
+      "number": 34,
+      "pali": "Evamevaṁ manussesu, ",
+      "english": "So it is for humans: "
+    },
+    {
+      "number": 35,
+      "pali": "yo hoti seṭṭhasammato; ",
+      "english": "when the one deemed chief "
+    },
+    {
+      "number": 36,
+      "pali": "So ce adhammaṁ carati, ",
+      "english": "behaves badly, "
+    },
+    {
+      "number": 37,
+      "pali": "pageva itarā pajā; ",
+      "english": "what do you expect the rest to do? "
+    },
+    {
+      "number": 38,
+      "pali": "Sabbaṁ raṭṭhaṁ dukkhaṁ seti, ",
+      "english": "The whole country sleeps badly, "
+    },
+    {
+      "number": 39,
+      "pali": "rājā ce hoti adhammiko. ",
+      "english": "when the king is unprincipled. "
+    },
+    {
+      "number": 40,
+      "pali": "Gunnañce taramānānaṁ, ",
+      "english": "When cattle cross a river, "
+    },
+    {
+      "number": 41,
+      "pali": "ujuṁ gacchati puṅgavo; ",
+      "english": "if the bull goes straight, "
+    },
+    {
+      "number": 42,
+      "pali": "Sabbā tā ujuṁ gacchanti, ",
+      "english": "they all go straight, "
+    },
+    {
+      "number": 43,
+      "pali": "nette ujuṁ gate sati. ",
+      "english": "because their leader is straight. "
+    },
+    {
+      "number": 44,
+      "pali": "Evamevaṁ manussesu, ",
+      "english": "So it is for humans: "
+    },
+    {
+      "number": 45,
+      "pali": "yo hoti seṭṭhasammato; ",
+      "english": "when the one deemed chief "
+    },
+    {
+      "number": 46,
+      "pali": "So sace dhammaṁ carati, ",
+      "english": "does the right thing, "
+    },
+    {
+      "number": 47,
+      "pali": "pageva itarā pajā; ",
+      "english": "what do you expect the rest to do? "
+    },
+    {
+      "number": 48,
+      "pali": "Sabbaṁ raṭṭhaṁ sukhaṁ seti, ",
+      "english": "The whole country sleeps at ease, "
+    },
+    {
+      "number": 49,
+      "pali": "rājā ce hoti dhammiko”ti. ",
+      "english": "when the king is just.” "
+    },
+    {
+      "number": 50,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Pattakammavaggo dutiyo. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Pattakammaṁ ānaṇyako, ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Sabrahmanirayā rūpena pañcamaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Sarāgaahirājā devadatto, ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Padhānaṁ adhammikena cāti. ",
+      "english": ""
+    }
+  ]
+}

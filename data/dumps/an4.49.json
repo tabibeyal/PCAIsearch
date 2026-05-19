@@ -1,0 +1,205 @@
+{
+  "sutta_id": "AN4.49",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 4.49 ",
+      "english": "Numbered Discourses 4.49 "
+    },
+    {
+      "number": 2,
+      "pali": "5. Rohitassavagga ",
+      "english": "5. With Rohitassa "
+    },
+    {
+      "number": 3,
+      "pali": "Vipallāsasutta ",
+      "english": "Perversions "
+    },
+    {
+      "number": 4,
+      "pali": "“Cattārome, bhikkhave, saññāvipallāsā cittavipallāsā diṭṭhivipallāsā. ",
+      "english": "“Mendicants, there are these four perversions of perception, thought, and view. "
+    },
+    {
+      "number": 5,
+      "pali": "Katame cattāro? ",
+      "english": "What four? "
+    },
+    {
+      "number": 6,
+      "pali": "Anicce, bhikkhave, niccanti saññāvipallāso cittavipallāso diṭṭhivipallāso; ",
+      "english": "Taking impermanence as permanence. "
+    },
+    {
+      "number": 7,
+      "pali": "dukkhe, bhikkhave, sukhanti saññāvipallāso cittavipallāso diṭṭhivipallāso; ",
+      "english": "Taking suffering as happiness. "
+    },
+    {
+      "number": 8,
+      "pali": "anattani, bhikkhave, attāti saññāvipallāso cittavipallāso diṭṭhivipallāso; ",
+      "english": "Taking not-self as self. "
+    },
+    {
+      "number": 9,
+      "pali": "asubhe, bhikkhave, subhanti saññāvipallāso cittavipallāso diṭṭhivipallāso. ",
+      "english": "Taking ugliness as beauty. "
+    },
+    {
+      "number": 10,
+      "pali": "Ime kho, bhikkhave, cattāro saññāvipallāsā cittavipallāsā diṭṭhivipallāsā. ",
+      "english": "These are the four perversions of perception, thought, and view. "
+    },
+    {
+      "number": 11,
+      "pali": "Cattārome, bhikkhave, nasaññāvipallāsā nacittavipallāsā nadiṭṭhivipallāsā. ",
+      "english": "There are these four corrections of perception, thought, and view. "
+    },
+    {
+      "number": 12,
+      "pali": "Katame cattāro? ",
+      "english": "What four? "
+    },
+    {
+      "number": 13,
+      "pali": "Anicce, bhikkhave, aniccanti nasaññāvipallāso nacittavipallāso nadiṭṭhivipallāso; ",
+      "english": "Taking impermanence as impermanence. "
+    },
+    {
+      "number": 14,
+      "pali": "dukkhe, bhikkhave, dukkhanti nasaññāvipallāso nacittavipallāso nadiṭṭhivipallāso; ",
+      "english": "Taking suffering as suffering. "
+    },
+    {
+      "number": 15,
+      "pali": "anattani, bhikkhave, anattāti nasaññāvipallāso nacittavipallāso nadiṭṭhivipallāso; ",
+      "english": "Taking not-self as not-self. "
+    },
+    {
+      "number": 16,
+      "pali": "asubhe, bhikkhave, asubhanti nasaññāvipallāso nacittavipallāso nadiṭṭhivipallāso. ",
+      "english": "Taking ugliness as ugliness. "
+    },
+    {
+      "number": 17,
+      "pali": "Ime kho, bhikkhave, cattāro nasaññāvipallāsā nacittavipallāsā nadiṭṭhivipallāsāti. ",
+      "english": "These are the four corrections of perception, thought, and view. "
+    },
+    {
+      "number": 18,
+      "pali": "Anicce niccasaññino, ",
+      "english": "Perceiving impermanence as permanence, "
+    },
+    {
+      "number": 19,
+      "pali": "dukkhe ca sukhasaññino; ",
+      "english": "suffering as happiness, "
+    },
+    {
+      "number": 20,
+      "pali": "Anattani ca attāti, ",
+      "english": "not-self as self, "
+    },
+    {
+      "number": 21,
+      "pali": "asubhe subhasaññino; ",
+      "english": "and ugliness as beauty—"
+    },
+    {
+      "number": 22,
+      "pali": "Micchādiṭṭhihatā sattā, ",
+      "english": "sentient beings are ruined by wrong view, "
+    },
+    {
+      "number": 23,
+      "pali": "khittacittā visaññino. ",
+      "english": "deranged, out of their minds. "
+    },
+    {
+      "number": 24,
+      "pali": "Te yogayuttā mārassa, ",
+      "english": "Yoked by Māra’s yoke, these people "
+    },
+    {
+      "number": 25,
+      "pali": "ayogakkhemino janā; ",
+      "english": "find no sanctuary from the yoke. "
+    },
+    {
+      "number": 26,
+      "pali": "Sattā gacchanti saṁsāraṁ, ",
+      "english": "Sentient beings continue to transmigrate, "
+    },
+    {
+      "number": 27,
+      "pali": "jātimaraṇagāmino. ",
+      "english": "with ongoing birth and death. "
+    },
+    {
+      "number": 28,
+      "pali": "Yadā ca buddhā lokasmiṁ, ",
+      "english": "But when the Buddhas arise "
+    },
+    {
+      "number": 29,
+      "pali": "Uppajjanti pabhaṅkarā; ",
+      "english": "in the world, those beacons "
+    },
+    {
+      "number": 30,
+      "pali": "Te imaṁ dhammaṁ pakāsenti, ",
+      "english": "reveal this teaching, "
+    },
+    {
+      "number": 31,
+      "pali": "Dukkhūpasamagāminaṁ. ",
+      "english": "that leads to the stilling of suffering. "
+    },
+    {
+      "number": 32,
+      "pali": "Tesaṁ sutvāna sappaññā, ",
+      "english": "When a wise person hears them, "
+    },
+    {
+      "number": 33,
+      "pali": "sacittaṁ paccaladdhā te; ",
+      "english": "they get their mind back. "
+    },
+    {
+      "number": 34,
+      "pali": "Aniccaṁ aniccato dakkhuṁ, ",
+      "english": "Seeing impermanence as impermanence, "
+    },
+    {
+      "number": 35,
+      "pali": "dukkhamaddakkhu dukkhato. ",
+      "english": "suffering as suffering, "
+    },
+    {
+      "number": 36,
+      "pali": "Anattani anattāti, ",
+      "english": "not-self as not-self, "
+    },
+    {
+      "number": 37,
+      "pali": "asubhaṁ asubhataddasuṁ; ",
+      "english": "and ugliness as ugliness—"
+    },
+    {
+      "number": 38,
+      "pali": "Sammādiṭṭhisamādānā, ",
+      "english": "taking up right view, "
+    },
+    {
+      "number": 39,
+      "pali": "sabbaṁ dukkhaṁ upaccagun”ti. ",
+      "english": "they’ve risen above all suffering.” "
+    },
+    {
+      "number": 40,
+      "pali": "Navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

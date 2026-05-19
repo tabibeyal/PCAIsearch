@@ -1,0 +1,695 @@
+{
+  "sutta_id": "AN5.76",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 5.76 ",
+      "english": "Numbered Discourses 5.76 "
+    },
+    {
+      "number": 2,
+      "pali": "8. Yodhājīvavagga ",
+      "english": "8. Warriors "
+    },
+    {
+      "number": 3,
+      "pali": "Dutiyayodhājīvasutta ",
+      "english": "Warriors (2nd) "
+    },
+    {
+      "number": 4,
+      "pali": "“Pañcime, bhikkhave, yodhājīvā santo saṁvijjamānā lokasmiṁ. ",
+      "english": "“Mendicants, these five warriors are found in the world. "
+    },
+    {
+      "number": 5,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 6,
+      "pali": "Idha, bhikkhave, ekacco yodhājīvo asicammaṁ gahetvā dhanukalāpaṁ sannayhitvā viyūḷhaṁ saṅgāmaṁ otarati. ",
+      "english": "Firstly, one warrior dons his sword and shield, fastens his bow and arrows, and plunges into the thick of battle. "
+    },
+    {
+      "number": 7,
+      "pali": "So tasmiṁ saṅgāme ussahati vāyamati. ",
+      "english": "He strives and struggles in the battle, "
+    },
+    {
+      "number": 8,
+      "pali": "Tamenaṁ ussahantaṁ vāyamantaṁ pare hananti pariyāpādenti. ",
+      "english": "but his foes kill him and finish him off. "
+    },
+    {
+      "number": 9,
+      "pali": "Evarūpopi, bhikkhave, idhekacco yodhājīvo hoti. ",
+      "english": "Some warriors are like that. "
+    },
+    {
+      "number": 10,
+      "pali": "Ayaṁ, bhikkhave, paṭhamo yodhājīvo santo saṁvijjamāno lokasmiṁ. ",
+      "english": "This is the first warrior found in the world. "
+    },
+    {
+      "number": 11,
+      "pali": "Puna caparaṁ, bhikkhave, idhekacco yodhājīvo asicammaṁ gahetvā dhanukalāpaṁ sannayhitvā viyūḷhaṁ saṅgāmaṁ otarati. ",
+      "english": "Furthermore, one warrior dons his sword and shield, fastens his bow and arrows, and plunges into the thick of battle. "
+    },
+    {
+      "number": 12,
+      "pali": "So tasmiṁ saṅgāme ussahati vāyamati. ",
+      "english": "He strives and struggles in the battle, "
+    },
+    {
+      "number": 13,
+      "pali": "Tamenaṁ ussahantaṁ vāyamantaṁ pare upalikkhanti, tamenaṁ apanenti; ",
+      "english": "but his foes wound him. "
+    },
+    {
+      "number": 14,
+      "pali": "apanetvā ñātakānaṁ nenti. ",
+      "english": "He’s carried off and taken to his relatives, "
+    },
+    {
+      "number": 15,
+      "pali": "So ñātakehi nīyamāno appatvāva ñātake antarāmagge kālaṁ karoti. ",
+      "english": "but he dies on the road before he reaches them. "
+    },
+    {
+      "number": 16,
+      "pali": "Evarūpopi, bhikkhave, idhekacco yodhājīvo hoti. ",
+      "english": "Some warriors are like that. "
+    },
+    {
+      "number": 17,
+      "pali": "Ayaṁ, bhikkhave, dutiyo yodhājīvo santo saṁvijjamāno lokasmiṁ. ",
+      "english": "This is the second warrior found in the world. "
+    },
+    {
+      "number": 18,
+      "pali": "Puna caparaṁ, bhikkhave, idhekacco yodhājīvo asicammaṁ gahetvā dhanukalāpaṁ sannayhitvā viyūḷhaṁ saṅgāmaṁ otarati. ",
+      "english": "Furthermore, one warrior dons his sword and shield, fastens his bow and arrows, and plunges into the thick of battle. "
+    },
+    {
+      "number": 19,
+      "pali": "So tasmiṁ saṅgāme ussahati vāyamati. ",
+      "english": "He strives and struggles in the battle, "
+    },
+    {
+      "number": 20,
+      "pali": "Tamenaṁ ussahantaṁ vāyamantaṁ pare upalikkhanti, tamenaṁ apanenti; ",
+      "english": "but his foes wound him. "
+    },
+    {
+      "number": 21,
+      "pali": "apanetvā ñātakānaṁ nenti. ",
+      "english": "He’s carried off and taken to his relatives, "
+    },
+    {
+      "number": 22,
+      "pali": "Tamenaṁ ñātakā upaṭṭhahanti paricaranti. ",
+      "english": "who nurse him and care for him. "
+    },
+    {
+      "number": 23,
+      "pali": "So ñātakehi upaṭṭhahiyamāno paricariyamāno teneva ābādhena kālaṁ karoti. ",
+      "english": "But he dies of his injuries while in their care. "
+    },
+    {
+      "number": 24,
+      "pali": "Evarūpopi, bhikkhave, idhekacco yodhājīvo hoti. ",
+      "english": "Some warriors are like that. "
+    },
+    {
+      "number": 25,
+      "pali": "Ayaṁ, bhikkhave, tatiyo yodhājīvo santo saṁvijjamāno lokasmiṁ. ",
+      "english": "This is the third warrior found in the world. "
+    },
+    {
+      "number": 26,
+      "pali": "Puna caparaṁ, bhikkhave, idhekacco yodhājīvo asicammaṁ gahetvā dhanukalāpaṁ sannayhitvā viyūḷhaṁ saṅgāmaṁ otarati. ",
+      "english": "Furthermore, one warrior dons his sword and shield, fastens his bow and arrows, and plunges into the thick of battle. "
+    },
+    {
+      "number": 27,
+      "pali": "So tasmiṁ saṅgāme ussahati vāyamati. ",
+      "english": "He strives and struggles in the battle, "
+    },
+    {
+      "number": 28,
+      "pali": "Tamenaṁ ussahantaṁ vāyamantaṁ pare upalikkhanti, tamenaṁ apanenti; ",
+      "english": "but his foes wound him. "
+    },
+    {
+      "number": 29,
+      "pali": "apanetvā ñātakānaṁ nenti. ",
+      "english": "He’s carried off and taken to his relatives, "
+    },
+    {
+      "number": 30,
+      "pali": "Tamenaṁ ñātakā upaṭṭhahanti paricaranti. ",
+      "english": "who nurse him and care for him. "
+    },
+    {
+      "number": 31,
+      "pali": "So ñātakehi upaṭṭhahiyamāno paricariyamāno vuṭṭhāti tamhā ābādhā. ",
+      "english": "And while in their care, he recovers from his injuries. "
+    },
+    {
+      "number": 32,
+      "pali": "Evarūpopi, bhikkhave, idhekacco yodhājīvo hoti. ",
+      "english": "Some warriors are like that. "
+    },
+    {
+      "number": 33,
+      "pali": "Ayaṁ, bhikkhave, catuttho yodhājīvo santo saṁvijjamāno lokasmiṁ. ",
+      "english": "This is the fourth warrior found in the world. "
+    },
+    {
+      "number": 34,
+      "pali": "Puna caparaṁ, bhikkhave, idhekacco yodhājīvo asicammaṁ gahetvā dhanukalāpaṁ sannayhitvā viyūḷhaṁ saṅgāmaṁ otarati. ",
+      "english": "Furthermore, one warrior dons his sword and shield, fastens his bow and arrows, and plunges into the thick of battle. "
+    },
+    {
+      "number": 35,
+      "pali": "So taṁ saṅgāmaṁ abhivijinitvā vijitasaṅgāmo tameva saṅgāmasīsaṁ ajjhāvasati. ",
+      "english": "He wins victory in battle, establishing himself as foremost in battle. "
+    },
+    {
+      "number": 36,
+      "pali": "Evarūpopi, bhikkhave, idhekacco yodhājīvo hoti. ",
+      "english": "Some warriors are like that. "
+    },
+    {
+      "number": 37,
+      "pali": "Ayaṁ, bhikkhave, pañcamo yodhājīvo santo saṁvijjamāno lokasmiṁ. ",
+      "english": "This is the fifth warrior found in the world. "
+    },
+    {
+      "number": 38,
+      "pali": "Ime kho, bhikkhave, pañca yodhājīvā santo saṁvijjamānā lokasmiṁ. ",
+      "english": "These are the five warriors found in the world. "
+    },
+    {
+      "number": 39,
+      "pali": "Evamevaṁ kho, bhikkhave, pañcime yodhājīvūpamā puggalā santo saṁvijjamānā bhikkhūsu. ",
+      "english": "In the same way, these five individuals similar to warriors are found among the monks. "
+    },
+    {
+      "number": 40,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 41,
+      "pali": "Idha, bhikkhave, bhikkhu aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati. ",
+      "english": "Firstly, a mendicant lives supported by a town or village. "
+    },
+    {
+      "number": 42,
+      "pali": "So pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya tameva gāmaṁ vā nigamaṁ vā piṇḍāya pavisati arakkhiteneva kāyena arakkhitāya vācāya arakkhitena cittena anupaṭṭhitāya satiyā asaṁvutehi indriyehi. ",
+      "english": "He robes up in the morning and, taking his bowl and robe, enters a village or town for alms without guarding body, speech, and mind, without establishing mindfulness, and without restraining the sense faculties. "
+    },
+    {
+      "number": 43,
+      "pali": "So tattha passati mātugāmaṁ dunnivatthaṁ vā duppārutaṁ vā. ",
+      "english": "There he sees a lady scantily clad, with revealing clothes. "
+    },
+    {
+      "number": 44,
+      "pali": "Tassa taṁ mātugāmaṁ disvā dunnivatthaṁ vā duppārutaṁ vā rāgo cittaṁ anuddhaṁseti. ",
+      "english": "Lust infects his mind, "
+    },
+    {
+      "number": 45,
+      "pali": "So rāgānuddhaṁsitena cittena sikkhaṁ apaccakkhāya dubbalyaṁ anāvikatvā methunaṁ dhammaṁ paṭisevati. ",
+      "english": "and, without resigning the training and declaring his inability to continue, he indulges in sex. "
+    },
+    {
+      "number": 46,
+      "pali": "Seyyathāpi so, bhikkhave, yodhājīvo asicammaṁ gahetvā dhanukalāpaṁ sannayhitvā viyūḷhaṁ saṅgāmaṁ otarati, so tasmiṁ saṅgāme ussahati vāyamati, tamenaṁ ussahantaṁ vāyamantaṁ pare hananti pariyāpādenti; tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. Evarūpopi, bhikkhave, idhekacco puggalo hoti. ",
+      "english": "I say that this individual is like the warrior who is killed and finished off by his foes. Some individuals are like that. "
+    },
+    {
+      "number": 47,
+      "pali": "Ayaṁ, bhikkhave, paṭhamo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. ",
+      "english": "This is the first individual similar to a warrior found among the monks. "
+    },
+    {
+      "number": 48,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati. ",
+      "english": "Furthermore, a mendicant lives supported by a town or village. "
+    },
+    {
+      "number": 49,
+      "pali": "So pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya tameva gāmaṁ vā nigamaṁ vā piṇḍāya pavisati arakkhiteneva kāyena arakkhitāya vācāya arakkhitena cittena anupaṭṭhitāya satiyā asaṁvutehi indriyehi. ",
+      "english": "He robes up in the morning and, taking his bowl and robe, enters a village or town for alms without guarding body, speech, and mind, without establishing mindfulness, and without restraining the sense faculties. "
+    },
+    {
+      "number": 50,
+      "pali": "So tattha passati mātugāmaṁ dunnivatthaṁ vā duppārutaṁ vā. ",
+      "english": "There he sees a lady scantily clad, with revealing clothes. "
+    },
+    {
+      "number": 51,
+      "pali": "Tassa taṁ mātugāmaṁ disvā dunnivatthaṁ vā duppārutaṁ vā rāgo cittaṁ anuddhaṁseti. ",
+      "english": "Lust infects his mind, "
+    },
+    {
+      "number": 52,
+      "pali": "So rāgānuddhaṁsitena cittena pariḍayhateva kāyena pariḍayhati cetasā. ",
+      "english": "and his body and mind burn with it. "
+    },
+    {
+      "number": 53,
+      "pali": "Tassa evaṁ hoti: ",
+      "english": "He thinks: "
+    },
+    {
+      "number": 54,
+      "pali": "‘yannūnāhaṁ ārāmaṁ gantvā bhikkhūnaṁ āroceyyaṁ—",
+      "english": "‘Why don’t I visit the monastery and tell the monks: "
+    },
+    {
+      "number": 55,
+      "pali": "rāgapariyuṭṭhitomhi, āvuso, rāgapareto, na sakkomi brahmacariyaṁ sandhāretuṁ; ",
+      "english": "“Reverends, I am overcome with lust, mired in lust. I am unable to keep up the spiritual life. "
+    },
+    {
+      "number": 56,
+      "pali": "sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattissāmī’ti. ",
+      "english": "I declare my inability to continue training. I disavow it and will return to a lesser life.”’ "
+    },
+    {
+      "number": 57,
+      "pali": "So ārāmaṁ gacchanto appatvāva ārāmaṁ antarāmagge sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. ",
+      "english": "But while traveling on the road, before he reaches the monastery he declares his inability to continue training. He disavows it and returns to a lesser life. "
+    },
+    {
+      "number": 58,
+      "pali": "Seyyathāpi so, bhikkhave, yodhājīvo asicammaṁ gahetvā dhanukalāpaṁ sannayhitvā viyūḷhaṁ saṅgāmaṁ otarati, so tasmiṁ saṅgāme ussahati vāyamati, tamenaṁ ussahantaṁ vāyamantaṁ pare upalikkhanti, tamenaṁ apanenti; apanetvā ñātakānaṁ nenti. So ñātakehi nīyamāno appatvāva ñātake antarāmagge kālaṁ karoti; tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. Evarūpopi, bhikkhave, idhekacco puggalo hoti. ",
+      "english": "I say that they are like the warrior who is taken to his relatives for care, but he dies on the road before he reaches them. Some individuals are like that. "
+    },
+    {
+      "number": 59,
+      "pali": "Ayaṁ, bhikkhave, dutiyo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. ",
+      "english": "This is the second individual similar to a warrior found among the monks. "
+    },
+    {
+      "number": 60,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati. ",
+      "english": "Furthermore, a mendicant lives supported by a town or village. "
+    },
+    {
+      "number": 61,
+      "pali": "So pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya tameva gāmaṁ vā nigamaṁ vā piṇḍāya pavisati arakkhiteneva kāyena arakkhitāya vācāya arakkhitena cittena anupaṭṭhitāya satiyā asaṁvutehi indriyehi. ",
+      "english": "He robes up in the morning and, taking his bowl and robe, enters a village or town for alms without guarding body, speech, and mind, without establishing mindfulness, and without restraining the sense faculties. "
+    },
+    {
+      "number": 62,
+      "pali": "So tattha passati mātugāmaṁ dunnivatthaṁ vā duppārutaṁ vā. ",
+      "english": "There he sees a lady scantily clad, with revealing clothes. "
+    },
+    {
+      "number": 63,
+      "pali": "Tassa taṁ mātugāmaṁ disvā dunnivatthaṁ vā duppārutaṁ vā rāgo cittaṁ anuddhaṁseti. ",
+      "english": "Lust infects his mind, "
+    },
+    {
+      "number": 64,
+      "pali": "So rāgānuddhaṁsitena cittena pariḍayhateva kāyena pariḍayhati cetasā. ",
+      "english": "and his body and mind burn with it. "
+    },
+    {
+      "number": 65,
+      "pali": "Tassa evaṁ hoti: ",
+      "english": "He thinks: "
+    },
+    {
+      "number": 66,
+      "pali": "‘yannūnāhaṁ ārāmaṁ gantvā bhikkhūnaṁ āroceyyaṁ—",
+      "english": "‘Why don’t I visit the monastery and tell the monks: "
+    },
+    {
+      "number": 67,
+      "pali": "rāgapariyuṭṭhitomhi, āvuso, rāgapareto, na sakkomi brahmacariyaṁ sandhāretuṁ; ",
+      "english": "“Reverends, I am overcome with lust, mired in lust. I am unable to keep up the spiritual life. "
+    },
+    {
+      "number": 68,
+      "pali": "sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattissāmī’ti. ",
+      "english": "I declare my inability to continue training. I disavow it and will return to a lesser life.”’ "
+    },
+    {
+      "number": 69,
+      "pali": "So ārāmaṁ gantvā bhikkhūnaṁ āroceti: ",
+      "english": "He goes to the monastery and tells the monks: "
+    },
+    {
+      "number": 70,
+      "pali": "‘rāgapariyuṭṭhitomhi, āvuso, rāgapareto, na sakkomi brahmacariyaṁ sandhāretuṁ; ",
+      "english": "‘Reverends, I am overcome with lust, mired in lust. I am unable to keep up the spiritual life. "
+    },
+    {
+      "number": 71,
+      "pali": "sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattissāmī’ti. ",
+      "english": "I declare my inability to continue training. I disavow it and will return to a lesser life.’ "
+    },
+    {
+      "number": 72,
+      "pali": "Tamenaṁ sabrahmacārī ovadanti anusāsanti: ",
+      "english": "His spiritual companions advise and instruct him: "
+    },
+    {
+      "number": 73,
+      "pali": "‘appassādā, āvuso, kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "‘Reverend, the Buddha says that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks. "
+    },
+    {
+      "number": 74,
+      "pali": "Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "With the similes of a skeleton … "
+    },
+    {
+      "number": 75,
+      "pali": "Maṁsapesūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "a scrap of meat … "
+    },
+    {
+      "number": 76,
+      "pali": "Tiṇukkūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "a grass torch … "
+    },
+    {
+      "number": 77,
+      "pali": "Aṅgārakāsūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "a pit of glowing coals … "
+    },
+    {
+      "number": 78,
+      "pali": "Supinakūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "a dream … "
+    },
+    {
+      "number": 79,
+      "pali": "Yācitakūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "borrowed goods … "
+    },
+    {
+      "number": 80,
+      "pali": "Rukkhaphalūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "fruit on a tree … "
+    },
+    {
+      "number": 81,
+      "pali": "Asisūnūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "a butcher’s knife and chopping board … "
+    },
+    {
+      "number": 82,
+      "pali": "Sattisūlūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "swords and spears … "
+    },
+    {
+      "number": 83,
+      "pali": "Sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "a snake’s head, the Buddha says that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks. "
+    },
+    {
+      "number": 84,
+      "pali": "Abhiramatāyasmā brahmacariye; ",
+      "english": "Be happy with the spiritual life. "
+    },
+    {
+      "number": 85,
+      "pali": "māyasmā sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattī’ti. ",
+      "english": "Venerable, please don’t declare your inability to continue training, disavow it and return to a lesser life.’ "
+    },
+    {
+      "number": 86,
+      "pali": "So sabrahmacārīhi evaṁ ovadiyamāno evaṁ anusāsiyamāno evamāha: ",
+      "english": "When thus advised and instructed by his spiritual companions, he says: "
+    },
+    {
+      "number": 87,
+      "pali": "‘kiñcāpi, āvuso, appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo; ",
+      "english": "‘Reverends, even though the Buddha says that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks, "
+    },
+    {
+      "number": 88,
+      "pali": "atha kho nevāhaṁ sakkomi brahmacariyaṁ sandhāretuṁ, sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattissāmī’ti. ",
+      "english": "I am unable to keep up the spiritual life. I declare my inability to continue training. I disavow it and will return to a lesser life.’ "
+    },
+    {
+      "number": 89,
+      "pali": "So sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. ",
+      "english": "Declaring his inability to continue training, he disavows it and returns to a lesser life. "
+    },
+    {
+      "number": 90,
+      "pali": "Seyyathāpi so, bhikkhave, yodhājīvo asicammaṁ gahetvā dhanukalāpaṁ sannayhitvā viyūḷhaṁ saṅgāmaṁ otarati, so tasmiṁ saṅgāme ussahati vāyamati, tamenaṁ ussahantaṁ vāyamantaṁ pare upalikkhanti, tamenaṁ apanenti; apanetvā ñātakānaṁ nenti, tamenaṁ ñātakā upaṭṭhahanti paricaranti. So ñātakehi upaṭṭhahiyamāno paricariyamāno teneva ābādhena kālaṁ karoti; tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. Evarūpopi, bhikkhave, idhekacco puggalo hoti. ",
+      "english": "I say that they are like the warrior who dies of his injuries while in the care of his relatives. Some individuals are like that. "
+    },
+    {
+      "number": 91,
+      "pali": "Ayaṁ, bhikkhave, tatiyo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. ",
+      "english": "This is the third individual similar to a warrior found among the monks. "
+    },
+    {
+      "number": 92,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati. ",
+      "english": "Furthermore, a mendicant lives supported by a town or village. "
+    },
+    {
+      "number": 93,
+      "pali": "So pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya tameva gāmaṁ vā nigamaṁ vā piṇḍāya pavisati arakkhiteneva kāyena arakkhitāya vācāya arakkhitena cittena anupaṭṭhitāya satiyā asaṁvutehi indriyehi. ",
+      "english": "He robes up in the morning and, taking his bowl and robe, enters a village or town for alms without guarding body, speech, and mind, without establishing mindfulness, and without restraining the sense faculties. "
+    },
+    {
+      "number": 94,
+      "pali": "So tattha passati mātugāmaṁ dunnivatthaṁ vā duppārutaṁ vā. ",
+      "english": "There he sees a lady scantily clad, with revealing clothes. "
+    },
+    {
+      "number": 95,
+      "pali": "Tassa taṁ mātugāmaṁ disvā dunnivatthaṁ vā duppārutaṁ vā rāgo cittaṁ anuddhaṁseti. ",
+      "english": "Lust infects his mind, "
+    },
+    {
+      "number": 96,
+      "pali": "So rāgānuddhaṁsitena cittena pariḍayhateva kāyena pariḍayhati cetasā. ",
+      "english": "and his body and mind burn with it. "
+    },
+    {
+      "number": 97,
+      "pali": "Tassa evaṁ hoti: ",
+      "english": "He thinks: "
+    },
+    {
+      "number": 98,
+      "pali": "‘yannūnāhaṁ ārāmaṁ gantvā bhikkhūnaṁ āroceyyaṁ—",
+      "english": "‘Why don’t I visit the monastery and tell the monks: "
+    },
+    {
+      "number": 99,
+      "pali": "rāgapariyuṭṭhitomhi, āvuso, rāgapareto, na sakkomi brahmacariyaṁ sandhāretuṁ; ",
+      "english": "“Reverends, I am overcome with lust, mired in lust. I am unable to keep up the spiritual life. "
+    },
+    {
+      "number": 100,
+      "pali": "sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattissāmī’ti. ",
+      "english": "I declare my inability to continue training. I disavow it and will return to a lesser life.”’ "
+    },
+    {
+      "number": 101,
+      "pali": "So ārāmaṁ gantvā bhikkhūnaṁ āroceti: ",
+      "english": "He goes to the monastery and tells the monks: "
+    },
+    {
+      "number": 102,
+      "pali": "‘rāgapariyuṭṭhitomhi, āvuso, rāgapareto, na sakkomi brahmacariyaṁ sandhāretuṁ; ",
+      "english": "‘Reverends, I am overcome with lust, mired in lust. I am unable to keep up the spiritual life. "
+    },
+    {
+      "number": 103,
+      "pali": "sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattissāmī’ti. ",
+      "english": "I declare my inability to continue training. I disavow it and will return to a lesser life.’ "
+    },
+    {
+      "number": 104,
+      "pali": "Tamenaṁ sabrahmacārī ovadanti anusāsanti: ",
+      "english": "His spiritual companions advise and instruct him: "
+    },
+    {
+      "number": 105,
+      "pali": "‘appassādā, āvuso, kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "‘Reverend, the Buddha says that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks. "
+    },
+    {
+      "number": 106,
+      "pali": "Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "With the simile of a skeleton … "
+    },
+    {
+      "number": 107,
+      "pali": "Maṁsapesūpamā kāmā vuttā bhagavatā …pe… tiṇukkūpamā kāmā vuttā bhagavatā … aṅgārakāsūpamā kāmā vuttā bhagavatā … supinakūpamā kāmā vuttā bhagavatā … yācitakūpamā kāmā vuttā bhagavatā … rukkhaphalūpamā kāmā vuttā bhagavatā … asisūnūpamā kāmā vuttā bhagavatā … sattisūlūpamā kāmā vuttā bhagavatā … sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "a scrap of meat … a grass torch … a pit of glowing coals … a dream … borrowed goods … fruit on a tree … a butcher’s knife and chopping board … swords and spears … a snake’s head, the Buddha says that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks. "
+    },
+    {
+      "number": 108,
+      "pali": "Abhiramatāyasmā brahmacariye; ",
+      "english": "Be happy with the spiritual life. "
+    },
+    {
+      "number": 109,
+      "pali": "māyasmā sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattī’ti. ",
+      "english": "Venerable, please don’t declare your inability to continue training, disavow it and return to a lesser life.’ "
+    },
+    {
+      "number": 110,
+      "pali": "So sabrahmacārīhi evaṁ ovadiyamāno evaṁ anusāsiyamāno evamāha: ",
+      "english": "When thus advised and instructed by his spiritual companions, he says: "
+    },
+    {
+      "number": 111,
+      "pali": "‘ussahissāmi, āvuso, vāyamissāmi, āvuso, abhiramissāmi, āvuso. ",
+      "english": "‘I’ll try, reverends, I’ll struggle, I’ll be happy. "
+    },
+    {
+      "number": 112,
+      "pali": "Na dānāhaṁ, āvuso, sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattissāmī’ti. ",
+      "english": "I won’t now declare my inability to continue training, disavow it and return to a lesser life.’ "
+    },
+    {
+      "number": 113,
+      "pali": "Seyyathāpi so, bhikkhave, yodhājīvo asicammaṁ gahetvā dhanukalāpaṁ sannayhitvā viyūḷhaṁ saṅgāmaṁ otarati, so tasmiṁ saṅgāme ussahati vāyamati, tamenaṁ ussahantaṁ vāyamantaṁ pare upalikkhanti, tamenaṁ apanenti; apanetvā ñātakānaṁ nenti, tamenaṁ ñātakā upaṭṭhahanti paricaranti. So ñātakehi upaṭṭhahiyamāno paricariyamāno vuṭṭhāti tamhā ābādhā; tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
+      "english": "I say that this individual is like the warrior who recovers from his injuries while in the care of his relatives. "
+    },
+    {
+      "number": 114,
+      "pali": "Evarūpopi, bhikkhave, idhekacco puggalo hoti. ",
+      "english": "Some individuals are like that. "
+    },
+    {
+      "number": 115,
+      "pali": "Ayaṁ, bhikkhave, catuttho yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. ",
+      "english": "This is the fourth individual similar to a warrior found among the monks. "
+    },
+    {
+      "number": 116,
+      "pali": "Puna caparaṁ, bhikkhave, bhikkhu aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati. ",
+      "english": "Furthermore, a mendicant lives supported by a town or village. "
+    },
+    {
+      "number": 117,
+      "pali": "So pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya tameva gāmaṁ vā nigamaṁ vā piṇḍāya pavisati rakkhiteneva kāyena rakkhitāya vācāya rakkhitena cittena upaṭṭhitāya satiyā saṁvutehi indriyehi. ",
+      "english": "He robes up in the morning and, taking his bowl and robe, enters a village or town, guarding body, speech, and mind, establishing mindfulness, and restraining the sense faculties. "
+    },
+    {
+      "number": 118,
+      "pali": "So cakkhunā rūpaṁ disvā na nimittaggāhī hoti nānubyañjanaggāhī. ",
+      "english": "Seeing a sight with his eyes, he doesn’t get caught up in the features and details. "
+    },
+    {
+      "number": 119,
+      "pali": "Yatvādhikaraṇamenaṁ cakkhundriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati; rakkhati cakkhundriyaṁ; cakkhundriye saṁvaraṁ āpajjati. ",
+      "english": "If the faculty of sight were left unrestrained, bad unskillful qualities of covetousness and displeasure would become overwhelming. For this reason, he practices restraint, protecting the faculty of sight, and achieving restraint over it. "
+    },
+    {
+      "number": 120,
+      "pali": "Sotena saddaṁ sutvā … ",
+      "english": "Hearing a sound with his ears … "
+    },
+    {
+      "number": 121,
+      "pali": "ghānena gandhaṁ ghāyitvā … ",
+      "english": "Smelling an odor with his nose … "
+    },
+    {
+      "number": 122,
+      "pali": "jivhāya rasaṁ sāyitvā … ",
+      "english": "Tasting a flavor with his tongue … "
+    },
+    {
+      "number": 123,
+      "pali": "kāyena phoṭṭhabbaṁ phusitvā … ",
+      "english": "Feeling a touch with his body … "
+    },
+    {
+      "number": 124,
+      "pali": "manasā dhammaṁ viññāya na nimittaggāhī hoti nānubyañjanaggāhī. ",
+      "english": "Knowing an idea with his mind, he doesn’t get caught up in the features and details. "
+    },
+    {
+      "number": 125,
+      "pali": "Yatvādhikaraṇamenaṁ manindriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati; rakkhati manindriyaṁ; manindriye saṁvaraṁ āpajjati. ",
+      "english": "If the faculty of mind were left unrestrained, bad unskillful qualities of covetousness and displeasure would become overwhelming. For this reason, he practices restraint, protecting the faculty of mind, and achieving restraint over it. "
+    },
+    {
+      "number": 126,
+      "pali": "So pacchābhattaṁ piṇḍapātapaṭikkanto ",
+      "english": "Then after the meal, on his return from almsround, "
+    },
+    {
+      "number": 127,
+      "pali": "vivittaṁ senāsanaṁ bhajati araññaṁ rukkhamūlaṁ pabbataṁ kandaraṁ giriguhaṁ susānaṁ vanapatthaṁ abbhokāsaṁ palālapuñjaṁ. ",
+      "english": "he frequents a secluded lodging—a wilderness, the root of a tree, a hill, a ravine, a mountain cave, a charnel ground, a forest, the open air, a heap of straw. "
+    },
+    {
+      "number": 128,
+      "pali": "So araññagato vā rukkhamūlagato vā suññāgāragato vā nisīdati pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā. ",
+      "english": "Gone to a wilderness, or to the root of a tree, or to an empty hut, he sits down cross-legged, sets his body straight, and brings mindfulness to the present. "
+    },
+    {
+      "number": 129,
+      "pali": "So abhijjhaṁ loke pahāya …pe… so ime pañca nīvaraṇe pahāya cetaso upakkilese paññāya dubbalīkaraṇe ",
+      "english": "He gives up these five hindrances, corruptions of the heart that weaken wisdom. "
+    },
+    {
+      "number": 130,
+      "pali": "vivicceva kāmehi …pe… catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Then, quite secluded from sensual pleasures, secluded from unskillful qualities, he enters and remains in the first absorption … second absorption … third absorption … fourth absorption. "
+    },
+    {
+      "number": 131,
+      "pali": "So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte āsavānaṁ khayañāṇāya cittaṁ abhininnāmeti. ",
+      "english": "When his mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—he extends it toward knowledge of the ending of defilements. "
+    },
+    {
+      "number": 132,
+      "pali": "So ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti …pe… ",
+      "english": "He truly understands: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’. He truly understands: ‘These are defilements’ … ‘This is the origin of defilements’ … ‘This is the cessation of defilements’ … ‘This is the practice that leads to the cessation of defilements’. Knowing and seeing like this, his mind is freed from the defilements of sensuality, desire to be reborn, and ignorance. When freed, he knows ‘it is freed’. "
+    },
+    {
+      "number": 133,
+      "pali": "nāparaṁ itthattāyāti pajānāti. ",
+      "english": "He understands: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
+    },
+    {
+      "number": 134,
+      "pali": "Seyyathāpi so, bhikkhave, yodhājīvo asicammaṁ gahetvā dhanukalāpaṁ sannayhitvā viyūḷhaṁ saṅgāmaṁ otarati, so taṁ saṅgāmaṁ abhivijinitvā vijitasaṅgāmo tameva saṅgāmasīsaṁ ajjhāvasati; tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
+      "english": "I say that this individual is like the warrior who dons his sword and shield, fastens his bow and arrows, and plunges into the thick of battle. He wins victory in battle, establishing himself as foremost in battle. "
+    },
+    {
+      "number": 135,
+      "pali": "Evarūpopi, bhikkhave, idhekacco puggalo hoti. ",
+      "english": "Some individuals are like that. "
+    },
+    {
+      "number": 136,
+      "pali": "Ayaṁ, bhikkhave, pañcamo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. ",
+      "english": "This is the fifth individual similar to a warrior found among the monks. "
+    },
+    {
+      "number": 137,
+      "pali": "Ime kho, bhikkhave, pañca yodhājīvūpamā puggalā santo saṁvijjamānā bhikkhūsū”ti. ",
+      "english": "These five individuals similar to warriors are found among the monks.” "
+    },
+    {
+      "number": 138,
+      "pali": "Chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "sutta_id": "AN7.66",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 7.66 ",
+      "english": "Numbered Discourses 7.66 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Mahāvagga ",
+      "english": "7. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Sattasūriyasutta ",
+      "english": "The Seven Suns "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati ambapālivane. ",
+      "english": "At one time the Buddha was staying near Vesālī, in Ambapālī’s Mango Grove. "
+    },
+    {
+      "number": 6,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 7,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 8,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 9,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 10,
+      "pali": "“Aniccā, bhikkhave, saṅkhārā; ",
+      "english": "“Mendicants, conditions are impermanent. "
+    },
+    {
+      "number": 11,
+      "pali": "adhuvā, bhikkhave, saṅkhārā; ",
+      "english": "Conditions are unstable. "
+    },
+    {
+      "number": 12,
+      "pali": "anassāsikā, bhikkhave, saṅkhārā. ",
+      "english": "Conditions are unreliable. "
+    },
+    {
+      "number": 13,
+      "pali": "Yāvañcidaṁ, bhikkhave, alameva sabbasaṅkhāresu nibbindituṁ alaṁ virajjituṁ alaṁ vimuccituṁ. ",
+      "english": "This is quite enough for you to become disillusioned, dispassionate, and freed regarding all conditions. "
+    },
+    {
+      "number": 14,
+      "pali": "Sineru, bhikkhave, pabbatarājā caturāsītiyojanasahassāni āyāmena, caturāsītiyojanasahassāni vitthārena, caturāsītiyojanasahassāni mahāsamudde ajjhogāḷho, caturāsītiyojanasahassāni mahāsamuddā accuggato. ",
+      "english": "Sineru, the king of mountains, is 84,000 leagues long and 84,000 leagues wide. It sinks 84,000 leagues below the ocean and rises 84,000 leagues above it. "
+    },
+    {
+      "number": 15,
+      "pali": "Hoti kho so, bhikkhave, samayo yaṁ kadāci karahaci dīghassa addhuno accayena bahūni vassāni bahūni vassasatāni bahūni vassasahassāni bahūni vassasatasahassāni devo na vassati. ",
+      "english": "There comes a time when, after a very long period has passed—many years, many hundreds, many thousands, many hundreds of thousands of years—the heavens fail to rain. "
+    },
+    {
+      "number": 16,
+      "pali": "Deve kho pana, bhikkhave, avassante ye kecime bījagāmabhūtagāmā osadhitiṇavanappatayo te ussussanti visussanti, na bhavanti. ",
+      "english": "When this happens, the plants and seeds, the herbs, grass, and big trees wither away and dry up, and are no more. "
+    },
+    {
+      "number": 17,
+      "pali": "Evaṁ aniccā, bhikkhave, saṅkhārā; ",
+      "english": "So impermanent are conditions, "
+    },
+    {
+      "number": 18,
+      "pali": "evaṁ adhuvā, bhikkhave, saṅkhārā …pe… ",
+      "english": "so unstable, so unreliable. "
+    },
+    {
+      "number": 19,
+      "pali": "alaṁ vimuccituṁ. ",
+      "english": "This is quite enough for you to become disillusioned, dispassionate, and freed regarding all conditions. "
+    },
+    {
+      "number": 20,
+      "pali": "Hoti kho so, bhikkhave, samayo yaṁ kadāci karahaci dīghassa addhuno accayena dutiyo sūriyo pātubhavati. ",
+      "english": "There comes a time when, after a very long period has passed, a second sun appears. "
+    },
+    {
+      "number": 21,
+      "pali": "Dutiyassa, bhikkhave, sūriyassa pātubhāvā yā kāci kunnadiyo kusobbhā tā ussussanti visussanti, na bhavanti. ",
+      "english": "When this happens, the streams and pools wither away and dry up, and are no more. "
+    },
+    {
+      "number": 22,
+      "pali": "Evaṁ aniccā, bhikkhave, saṅkhārā …pe… ",
+      "english": "So impermanent are conditions … "
+    },
+    {
+      "number": 23,
+      "pali": "alaṁ vimuccituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "Hoti kho so, bhikkhave, samayo yaṁ kadāci karahaci dīghassa addhuno accayena tatiyo sūriyo pātubhavati. ",
+      "english": "There comes a time when, after a very long period has passed, a third sun appears. "
+    },
+    {
+      "number": 25,
+      "pali": "Tatiyassa, bhikkhave, sūriyassa pātubhāvā yā kāci mahānadiyo, seyyathidaṁ—",
+      "english": "When this happens, the great rivers—"
+    },
+    {
+      "number": 26,
+      "pali": "gaṅgā, yamunā, aciravatī, sarabhū, mahī, tā ussussanti visussanti, na bhavanti. ",
+      "english": "the Ganges, Yamunā, Aciravatī, Sarabhū, and Mahī—wither away and dry up, and are no more. "
+    },
+    {
+      "number": 27,
+      "pali": "Evaṁ aniccā, bhikkhave, saṅkhārā …pe… ",
+      "english": "So impermanent are conditions … "
+    },
+    {
+      "number": 28,
+      "pali": "alaṁ vimuccituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Hoti kho so, bhikkhave, samayo yaṁ kadāci karahaci dīghassa addhuno accayena catuttho sūriyo pātubhavati. ",
+      "english": "There comes a time when, after a very long period has passed, a fourth sun appears. "
+    },
+    {
+      "number": 30,
+      "pali": "Catutthassa, bhikkhave, sūriyassa pātubhāvā ye te mahāsarā yato imā mahānadiyo pavattanti, seyyathidaṁ—",
+      "english": "When this happens, the great lakes from which the rivers originate—"
+    },
+    {
+      "number": 31,
+      "pali": "anotattā, sīhapapātā, rathakārā, kaṇṇamuṇḍā, kuṇālā, chaddantā, mandākiniyā, tā ussussanti visussanti, na bhavanti. ",
+      "english": "the Anotattā, Sīhapapātā, Rathakārā, Kaṇṇamuṇḍā, Kuṇālā, Chaddantā, and Mandākinī—wither away and dry up, and are no more. "
+    },
+    {
+      "number": 32,
+      "pali": "Evaṁ aniccā, bhikkhave, saṅkhārā …pe… ",
+      "english": "So impermanent are conditions … "
+    },
+    {
+      "number": 33,
+      "pali": "alaṁ vimuccituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "Hoti kho so, bhikkhave, samayo yaṁ kadāci karahaci dīghassa addhuno accayena pañcamo sūriyo pātubhavati. ",
+      "english": "There comes a time when, after a very long period has passed, a fifth sun appears. "
+    },
+    {
+      "number": 35,
+      "pali": "Pañcamassa, bhikkhave, sūriyassa pātubhāvā yojanasatikānipi mahāsamudde udakāni ogacchanti, dviyojanasatikānipi mahāsamudde udakāni ogacchanti, tiyojanasatikānipi, catuyojanasatikānipi, pañcayojanasatikānipi, chayojanasatikānipi, sattayojanasatikānipi mahāsamudde udakāni ogacchanti; ",
+      "english": "When this happens, the water in the ocean sinks by a hundred leagues. It sinks by two, three, four, five, six, or even seven hundred leagues. "
+    },
+    {
+      "number": 36,
+      "pali": "sattatālampi mahāsamudde udakaṁ saṇṭhāti, chatālampi, pañcatālampi, catutālampi, titālampi, dvitālampi, tālamattampi mahāsamudde udakaṁ saṇṭhāti; ",
+      "english": "The water that remains in the ocean is only seven palm trees deep. It’s six, five, four, three, two, or even one palm tree deep. "
+    },
+    {
+      "number": 37,
+      "pali": "sattaporisampi mahāsamudde udakaṁ saṇṭhāti, chaporisampi, pañcaporisampi, catuporisampi, tiporisampi, dviporisampi, porisampi, aḍḍhaporisampi, kaṭimattampi, jaṇṇukāmattampi, gopphakamattampi mahāsamudde udakaṁ saṇṭhāti. ",
+      "english": "The water that remains in the ocean is only seven fathoms deep. It’s six, five, four, three, two, one or even half a fathom deep. It’s waist high, knee high, or even ankle high. "
+    },
+    {
+      "number": 38,
+      "pali": "Seyyathāpi, bhikkhave, saradasamaye thullaphusitake deve vassante tattha tattha gopadesu udakāni ṭhitāni honti; ",
+      "english": "It’s like in autumn, when the heavens rain heavily and water remains here and there in the cows’ hoofprints. "
+    },
+    {
+      "number": 39,
+      "pali": "evamevaṁ kho, bhikkhave, tattha tattha gopphakamattāni mahāsamudde udakāni ṭhitāni honti. ",
+      "english": "In the same way, water in the ocean remains here and there in puddles like cows’ hoofprints. "
+    },
+    {
+      "number": 40,
+      "pali": "Pañcamassa, bhikkhave, sūriyassa pātubhāvā aṅgulipabbamattampi mahāsamudde udakaṁ na hoti. ",
+      "english": "When the fifth sun appears there’s not even enough water left in the great ocean for the tip of the toe. "
+    },
+    {
+      "number": 41,
+      "pali": "Evaṁ aniccā, bhikkhave, saṅkhārā …pe… ",
+      "english": "So impermanent are conditions … "
+    },
+    {
+      "number": 42,
+      "pali": "alaṁ vimuccituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Hoti kho so, bhikkhave, samayo yaṁ kadāci karahaci dīghassa addhuno accayena chaṭṭho sūriyo pātubhavati. ",
+      "english": "There comes a time when, after a very long period has passed, a sixth sun appears. "
+    },
+    {
+      "number": 44,
+      "pali": "Chaṭṭhassa, bhikkhave, sūriyassa pātubhāvā ayañca mahāpathavī sineru ca pabbatarājā dhūmāyanti sandhūmāyanti sampadhūmāyanti. ",
+      "english": "When this happens, this great earth and Sineru the king of mountains smoke and smolder and give off fumes. "
+    },
+    {
+      "number": 45,
+      "pali": "Seyyathāpi, bhikkhave, kumbhakārapāko ālepito paṭhamaṁ dhūmeti sandhūmeti sampadhūmeti; ",
+      "english": "It’s like when a potter’s kiln is first kindled, and it smokes and smolders and gives off fumes. "
+    },
+    {
+      "number": 46,
+      "pali": "evamevaṁ kho, bhikkhave, chaṭṭhassa sūriyassa pātubhāvā ayañca mahāpathavī sineru ca pabbatarājā dhūmāyanti sandhūmāyanti sampadhūmāyanti. ",
+      "english": "In the same way, this great earth and Sineru the king of mountains smoke and smolder and give off fumes. "
+    },
+    {
+      "number": 47,
+      "pali": "Evaṁ aniccā, bhikkhave, saṅkhārā …pe… ",
+      "english": "So impermanent are conditions … "
+    },
+    {
+      "number": 48,
+      "pali": "alaṁ vimuccituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Hoti kho so, bhikkhave, samayo yaṁ kadāci karahaci dīghassa addhuno accayena sattamo sūriyo pātubhavati. ",
+      "english": "There comes a time when, after a very long period has passed, a seventh sun appears. "
+    },
+    {
+      "number": 50,
+      "pali": "Sattamassa, bhikkhave, sūriyassa pātubhāvā ayañca mahāpathavī sineru ca pabbatarājā ādippanti pajjalanti ekajālā bhavanti. ",
+      "english": "When this happens, this great earth and Sineru the king of mountains erupt in one burning mass of fire. "
+    },
+    {
+      "number": 51,
+      "pali": "Imissā ca, bhikkhave, mahāpathaviyā sinerussa ca pabbatarājassa jhāyamānānaṁ dayhamānānaṁ acci vātena khittā yāva brahmalokāpi gacchati. ",
+      "english": "And as they blaze and burn the flames are swept by the wind as far as the realm of divinity. "
+    },
+    {
+      "number": 52,
+      "pali": "Sinerussa, bhikkhave, pabbatarājassa jhāyamānassa dayhamānassa vinassamānassa mahatā tejokhandhena abhibhūtassa yojanasatikānipi kūṭāni palujjanti dviyojanasatikānipi, tiyojanasatikānipi, catuyojanasatikānipi, pañcayojanasatikānipi kūṭāni palujjanti. ",
+      "english": "Sineru the king of mountains blazes and burns, crumbling as it’s overcome by the great fire. And meanwhile, mountain peaks a hundred leagues high, or two, three, four, or five hundred leagues high disintegrate as they burn. "
+    },
+    {
+      "number": 53,
+      "pali": "Imissā ca, bhikkhave, mahāpathaviyā sinerussa ca pabbatarājassa jhāyamānānaṁ dayhamānānaṁ neva chārikā paññāyati na masi. ",
+      "english": "And when the great earth and Sineru the king of mountains blaze and burn, no soot or ash is found. "
+    },
+    {
+      "number": 54,
+      "pali": "Seyyathāpi, bhikkhave, sappissa vā telassa vā jhāyamānassa dayhamānassa neva chārikā paññāyati na masi; ",
+      "english": "It’s like when ghee or oil blaze and burn, and neither ashes nor soot are found. "
+    },
+    {
+      "number": 55,
+      "pali": "evamevaṁ kho, bhikkhave, imissā ca mahāpathaviyā sinerussa ca pabbatarājassa jhāyamānānaṁ dayhamānānaṁ neva chārikā paññāyati na masi. ",
+      "english": "In the same way, when the great earth and Sineru the king of mountains blaze and burn, no soot or ash is found. "
+    },
+    {
+      "number": 56,
+      "pali": "Evaṁ aniccā, bhikkhave, saṅkhārā; ",
+      "english": "So impermanent are conditions, "
+    },
+    {
+      "number": 57,
+      "pali": "evaṁ adhuvā, bhikkhave, saṅkhārā; ",
+      "english": "so unstable are conditions, "
+    },
+    {
+      "number": 58,
+      "pali": "evaṁ anassāsikā, bhikkhave, saṅkhārā. ",
+      "english": "so unreliable are conditions. "
+    },
+    {
+      "number": 59,
+      "pali": "Yāvañcidaṁ, bhikkhave, alameva sabbasaṅkhāresu nibbindituṁ alaṁ virajjituṁ alaṁ vimuccituṁ. ",
+      "english": "This is quite enough for you to become disillusioned, dispassionate, and freed regarding all conditions. "
+    },
+    {
+      "number": 60,
+      "pali": "Tatra, bhikkhave, ko mantā ko saddhātā: ",
+      "english": "Mendicants, who would ever think or believe that "
+    },
+    {
+      "number": 61,
+      "pali": "‘ayañca pathavī sineru ca pabbatarājā dayhissanti vinassissanti, na bhavissantī’ti aññatra diṭṭhapadehi? ",
+      "english": "this earth and Sineru, king of mountains, will burn and crumble and be no more, except for one who has seen the truth? "
+    },
+    {
+      "number": 62,
+      "pali": "Bhūtapubbaṁ, bhikkhave, sunetto nāma satthā ahosi titthakaro kāmesu vītarāgo. ",
+      "english": "Once upon a time, there was a teacher named Sunetta. He was a religious founder and was free of desire for sensual pleasures. "
+    },
+    {
+      "number": 63,
+      "pali": "Sunettassa kho pana, bhikkhave, satthuno anekāni sāvakasatāni ahesuṁ. ",
+      "english": "He had many hundreds of disciples. "
+    },
+    {
+      "number": 64,
+      "pali": "Sunetto, bhikkhave, satthā sāvakānaṁ brahmalokasahabyatāya dhammaṁ desesi. ",
+      "english": "He taught them the path to rebirth in the company of Divinity. "
+    },
+    {
+      "number": 65,
+      "pali": "Ye kho pana, bhikkhave, sunettassa satthuno brahmalokasahabyatāya dhammaṁ desentassa sabbena sabbaṁ sāsanaṁ ājāniṁsu te kāyassa bhedā paraṁ maraṇā sugatiṁ brahmalokaṁ upapajjiṁsu. ",
+      "english": "Those who totally understood Sunetta’s teachings were—when their body broke up, after death—reborn in a good place, the company of Divinity. "
+    },
+    {
+      "number": 66,
+      "pali": "Ye na sabbena sabbaṁ sāsanaṁ ājāniṁsu te kāyassa bhedā paraṁ maraṇā appekacce paranimmitavasavattīnaṁ devānaṁ sahabyataṁ upapajjiṁsu, appekacce nimmānaratīnaṁ devānaṁ sahabyataṁ upapajjiṁsu, appekacce tusitānaṁ devānaṁ sahabyataṁ upapajjiṁsu, appekacce yāmānaṁ devānaṁ sahabyataṁ upapajjiṁsu, appekacce tāvatiṁsānaṁ devānaṁ sahabyataṁ upapajjiṁsu, appekacce cātumahārājikānaṁ devānaṁ sahabyataṁ upapajjiṁsu, appekacce khattiyamahāsālānaṁ sahabyataṁ upapajjiṁsu, appekacce brāhmaṇamahāsālānaṁ sahabyataṁ upapajjiṁsu, appekacce gahapatimahāsālānaṁ sahabyataṁ upapajjiṁsu. ",
+      "english": "Of those who didn’t totally understand Sunetta’s teachings, some—when their body broke up, after death—were reborn in the company of the gods who control what is created by others. Some were reborn in the company of the gods who love to create, some with the joyful gods, some with the gods of Yama, some with the gods of the thirty-three, and some with the gods of the four great kings. Some were reborn in the company of well-to-do aristocrats or brahmins or householders. "
+    },
+    {
+      "number": 67,
+      "pali": "Atha kho, bhikkhave, sunettassa satthuno etadahosi: ",
+      "english": "Then the teacher Sunetta thought: "
+    },
+    {
+      "number": 68,
+      "pali": "‘na kho metaṁ patirūpaṁ yohaṁ sāvakānaṁ samasamagatiyo assaṁ abhisamparāyaṁ, yannūnāhaṁ uttari mettaṁ bhāveyyan’ti. ",
+      "english": "‘It’s not proper for me to be reborn in the next life in exactly the same place as my disciples. Why don’t I further develop love?’ "
+    },
+    {
+      "number": 69,
+      "pali": "Atha kho, bhikkhave, sunetto satthā satta vassāni mettaṁ cittaṁ bhāvesi. ",
+      "english": "Then Sunetta developed love for seven years. "
+    },
+    {
+      "number": 70,
+      "pali": "Satta vassāni mettaṁ cittaṁ bhāvetvā satta saṁvaṭṭavivaṭṭakappe nayimaṁ lokaṁ punarāgamāsi. ",
+      "english": "Having done so he did not return to this world for seven eons of cosmic expansion and contraction. "
+    },
+    {
+      "number": 71,
+      "pali": "Saṁvaṭṭamāne sudaṁ, bhikkhave, loke ābhassarūpago hoti. ",
+      "english": "As the cosmos contracted he went to the realm of streaming radiance. "
+    },
+    {
+      "number": 72,
+      "pali": "Vivaṭṭamāne loke suññaṁ brahmavimānaṁ upapajjati. ",
+      "english": "As it expanded he was reborn in an empty mansion of divinity. "
+    },
+    {
+      "number": 73,
+      "pali": "Tatra sudaṁ, bhikkhave, brahmā hoti mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī. ",
+      "english": "There he was the Divinity, the Great Divinity, the vanquisher, the unvanquished, the universal seer, the wielder of power. "
+    },
+    {
+      "number": 74,
+      "pali": "Chattiṁsakkhattuṁ kho pana, bhikkhave, sakko ahosi devānamindo. ",
+      "english": "He was Sakka, lord of gods, thirty-six times. "
+    },
+    {
+      "number": 75,
+      "pali": "Anekasatakkhattuṁ rājā ahosi cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+      "english": "Many hundreds of times he was a king, a wheel-turning monarch, a just and principled king. His dominion extended to all four sides, he achieved stability in the country, and he possessed the seven treasures. "
+    },
+    {
+      "number": 76,
+      "pali": "Parosahassaṁ kho panassa puttā ahesuṁ sūrā vīraṅgarūpā parasenappamaddanā. ",
+      "english": "He had over a thousand sons who were valiant and heroic, crushing the armies of his enemies. "
+    },
+    {
+      "number": 77,
+      "pali": "So imaṁ pathaviṁ sāgarapariyantaṁ adaṇḍena asatthena dhammena abhivijiya ajjhāvasi. ",
+      "english": "After conquering this land girt by sea, he reigned by principle, without rod or sword. "
+    },
+    {
+      "number": 78,
+      "pali": "So hi nāma, bhikkhave, sunetto satthā evaṁ dīghāyuko samāno evaṁ ciraṭṭhitiko aparimutto ahosi: ",
+      "english": "Yet even though Sunetta lived so long, he was not free from "
+    },
+    {
+      "number": 79,
+      "pali": "jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, ‘aparimutto dukkhasmā’ti vadāmi. ",
+      "english": "rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. He was not free from suffering, I say. "
+    },
+    {
+      "number": 80,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 81,
+      "pali": "Catunnaṁ dhammānaṁ ananubodhā appaṭivedhā. ",
+      "english": "Because of not understanding and not penetrating four things. "
+    },
+    {
+      "number": 82,
+      "pali": "Katamesaṁ catunnaṁ? ",
+      "english": "What four? "
+    },
+    {
+      "number": 83,
+      "pali": "Ariyassa, bhikkhave, sīlassa ananubodhā appaṭivedhā, ariyassa samādhissa ananubodhā appaṭivedhā, ariyāya paññāya ananubodhā appaṭivedhā, ariyāya vimuttiyā ananubodhā appaṭivedhā. ",
+      "english": "Noble ethics, immersion, wisdom, and freedom. "
+    },
+    {
+      "number": 84,
+      "pali": "Tayidaṁ, bhikkhave, ariyaṁ sīlaṁ anubuddhaṁ paṭividdhaṁ, ariyo samādhi anubodho paṭividdho, ariyā paññā anubodhā paṭividdhā, ariyā vimutti anubodhā paṭividdhā, ucchinnā bhavataṇhā, khīṇā bhavanetti, natthi dāni punabbhavo”ti. ",
+      "english": "These noble ethics, immersion, wisdom, and freedom have been understood and penetrated. Craving for continued existence has been cut off; the leash to existence is ended; now there’ll be no more future lives.” "
+    },
+    {
+      "number": 85,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 86,
+      "pali": "Idaṁ vatvāna sugato athāparaṁ etadavoca satthā: ",
+      "english": "Then the Holy One, the Teacher, went on to say: "
+    },
+    {
+      "number": 87,
+      "pali": "“Sīlaṁ samādhi paññā ca, ",
+      "english": "“Ethics, immersion, and wisdom, "
+    },
+    {
+      "number": 88,
+      "pali": "vimutti ca anuttarā; ",
+      "english": "and the supreme freedom: "
+    },
+    {
+      "number": 89,
+      "pali": "Anubuddhā ime dhammā, ",
+      "english": "these things have been understood "
+    },
+    {
+      "number": 90,
+      "pali": "gotamena yasassinā. ",
+      "english": "by Gotama the renowned. "
+    },
+    {
+      "number": 91,
+      "pali": "Iti buddho abhiññāya, ",
+      "english": "And so the Buddha, having insight, "
+    },
+    {
+      "number": 92,
+      "pali": "dhammamakkhāsi bhikkhunaṁ; ",
+      "english": "explained this teaching to the mendicants. "
+    },
+    {
+      "number": 93,
+      "pali": "Dukkhassantakaro satthā, ",
+      "english": "The Teacher has made an end of suffering; "
+    },
+    {
+      "number": 94,
+      "pali": "cakkhumā parinibbuto”ti. ",
+      "english": "seeing clearly, he is quenched.” "
+    },
+    {
+      "number": 95,
+      "pali": "Dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "sutta_id": "AN5.213",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 5.213 ",
+      "english": "Numbered Discourses 5.213 "
+    },
+    {
+      "number": 2,
+      "pali": "22. Akkosakavagga ",
+      "english": "22. Abuse "
+    },
+    {
+      "number": 3,
+      "pali": "Sīlasutta ",
+      "english": "Ethics "
+    },
+    {
+      "number": 4,
+      "pali": "“Pañcime, bhikkhave, ādīnavā dussīlassa sīlavipattiyā. ",
+      "english": "“Mendicants, there are these five drawbacks for an unethical person because of their failure in ethics. "
+    },
+    {
+      "number": 5,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 6,
+      "pali": "Idha, bhikkhave, dussīlo sīlavipanno pamādādhikaraṇaṁ mahatiṁ bhogajāniṁ nigacchati. ",
+      "english": "Firstly, an unethical person loses great wealth on account of negligence. "
+    },
+    {
+      "number": 7,
+      "pali": "Ayaṁ, bhikkhave, paṭhamo ādīnavo dussīlassa sīlavipattiyā. ",
+      "english": "This is the first drawback. "
+    },
+    {
+      "number": 8,
+      "pali": "Puna caparaṁ, bhikkhave, dussīlassa sīlavipannassa pāpako kittisaddo abbhuggacchati. ",
+      "english": "Furthermore, an unethical person gets a bad reputation. "
+    },
+    {
+      "number": 9,
+      "pali": "Ayaṁ, bhikkhave, dutiyo ādīnavo dussīlassa sīlavipattiyā. ",
+      "english": "This is the second drawback. "
+    },
+    {
+      "number": 10,
+      "pali": "Puna caparaṁ, bhikkhave, dussīlo sīlavipanno yaññadeva parisaṁ upasaṅkamati—yadi khattiyaparisaṁ, yadi brāhmaṇaparisaṁ, yadi gahapatiparisaṁ, yadi samaṇaparisaṁ—avisārado upasaṅkamati maṅkubhūto. ",
+      "english": "Furthermore, an unethical person enters any kind of assembly timid and embarrassed, whether it’s an assembly of aristocrats, brahmins, householders, or ascetics. "
+    },
+    {
+      "number": 11,
+      "pali": "Ayaṁ, bhikkhave, tatiyo ādīnavo dussīlassa sīlavipattiyā. ",
+      "english": "This is the third drawback. "
+    },
+    {
+      "number": 12,
+      "pali": "Puna caparaṁ, bhikkhave, dussīlo sīlavipanno sammūḷho kālaṁ karoti. ",
+      "english": "Furthermore, an unethical person feels lost when they die. "
+    },
+    {
+      "number": 13,
+      "pali": "Ayaṁ, bhikkhave, catuttho ādīnavo dussīlassa sīlavipattiyā. ",
+      "english": "This is the fourth drawback. "
+    },
+    {
+      "number": 14,
+      "pali": "Puna caparaṁ, bhikkhave, dussīlo sīlavipanno kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati. ",
+      "english": "Furthermore, an unethical person, when their body breaks up, after death, is reborn in a place of loss, a bad place, the underworld, hell. "
+    },
+    {
+      "number": 15,
+      "pali": "Ayaṁ, bhikkhave, pañcamo ādīnavo dussīlassa sīlavipattiyā. ",
+      "english": "This is the fifth drawback. "
+    },
+    {
+      "number": 16,
+      "pali": "Ime kho, bhikkhave, pañca ādīnavā dussīlassa sīlavipattiyā. ",
+      "english": "These are the five drawbacks for an unethical person because of their failure in ethics. "
+    },
+    {
+      "number": 17,
+      "pali": "Pañcime, bhikkhave, ānisaṁsā sīlavato sīlasampadāya. ",
+      "english": "There are these five benefits for an ethical person because of their accomplishment in ethics. "
+    },
+    {
+      "number": 18,
+      "pali": "Katame pañca? ",
+      "english": "What five? "
+    },
+    {
+      "number": 19,
+      "pali": "Idha, bhikkhave, sīlavā sīlasampanno appamādādhikaraṇaṁ mahantaṁ bhogakkhandhaṁ adhigacchati. ",
+      "english": "Firstly, an ethical person gains great wealth on account of diligence. "
+    },
+    {
+      "number": 20,
+      "pali": "Ayaṁ, bhikkhave, paṭhamo ānisaṁso sīlavato sīlasampadāya. ",
+      "english": "This is the first benefit. "
+    },
+    {
+      "number": 21,
+      "pali": "Puna caparaṁ, bhikkhave, sīlavato sīlasampannassa kalyāṇo kittisaddo abbhuggacchati. ",
+      "english": "Furthermore, an ethical person gets a good reputation. "
+    },
+    {
+      "number": 22,
+      "pali": "Ayaṁ, bhikkhave, dutiyo ānisaṁso sīlavato sīlasampadāya. ",
+      "english": "This is the second benefit. "
+    },
+    {
+      "number": 23,
+      "pali": "Puna caparaṁ, bhikkhave, sīlavā sīlasampanno yaññadeva parisaṁ upasaṅkamati—yadi khattiyaparisaṁ, yadi brāhmaṇaparisaṁ, yadi gahapatiparisaṁ, yadi samaṇaparisaṁ—visārado upasaṅkamati amaṅkubhūto. ",
+      "english": "Furthermore, an ethical person enters any kind of assembly bold and self-assured, whether it’s an assembly of aristocrats, brahmins, householders, or ascetics. "
+    },
+    {
+      "number": 24,
+      "pali": "Ayaṁ bhikkhave, tatiyo ānisaṁso sīlavato sīlasampadāya. ",
+      "english": "This is the third benefit. "
+    },
+    {
+      "number": 25,
+      "pali": "Puna caparaṁ, bhikkhave, sīlavā sīlasampanno asammūḷho kālaṁ karoti. ",
+      "english": "Furthermore, an ethical person dies not feeling lost. "
+    },
+    {
+      "number": 26,
+      "pali": "Ayaṁ, bhikkhave, catuttho ānisaṁso sīlavato sīlasampadāya. ",
+      "english": "This is the fourth benefit. "
+    },
+    {
+      "number": 27,
+      "pali": "Puna caparaṁ, bhikkhave, sīlavā sīlasampanno kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjati. ",
+      "english": "Furthermore, when an ethical person’s body breaks up, after death, they’re reborn in a good place, a heavenly realm. "
+    },
+    {
+      "number": 28,
+      "pali": "Ayaṁ, bhikkhave, pañcamo ānisaṁso sīlavato sīlasampadāya. ",
+      "english": "This is the fifth benefit. "
+    },
+    {
+      "number": 29,
+      "pali": "Ime kho, bhikkhave, pañca ānisaṁsā sīlavato sīlasampadāyā”ti. ",
+      "english": "These are the five benefits for an ethical person because of their accomplishment in ethics.” "
+    },
+    {
+      "number": 30,
+      "pali": "Tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

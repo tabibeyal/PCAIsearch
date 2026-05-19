@@ -1,0 +1,1505 @@
+{
+  "sutta_id": "SN42.13",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 42.13 ",
+      "english": "Linked Discourses 42.13 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Gāmaṇivagga ",
+      "english": "1. Chiefs "
+    },
+    {
+      "number": 3,
+      "pali": "Pāṭaliyasutta ",
+      "english": "With Pāṭaliya "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā koliyesu viharati uttaraṁ nāma koliyānaṁ nigamo. ",
+      "english": "At one time the Buddha was staying in the land of the Koliyans, where they have a town named Uttarakā. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho pāṭaliyo gāmaṇi yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho pāṭaliyo gāmaṇi bhagavantaṁ etadavoca: ",
+      "english": "Then Pāṭaliya the chief went up to the Buddha, bowed, sat down to one side, and said to him: "
+    },
+    {
+      "number": 6,
+      "pali": "“sutaṁ metaṁ, bhante: ",
+      "english": "“Sir, I have heard this: "
+    },
+    {
+      "number": 7,
+      "pali": "‘samaṇo gotamo māyaṁ jānātī’ti. ",
+      "english": "‘The ascetic Gotama knows deceit.’ "
+    },
+    {
+      "number": 8,
+      "pali": "Ye te, bhante, evamāhaṁsu: ‘samaṇo gotamo māyaṁ jānātī’ti, kacci te, bhante, bhagavato vuttavādino, na ca bhagavantaṁ abhūtena abbhācikkhanti, dhammassa cānudhammaṁ byākaronti, na ca koci sahadhammiko vādānuvādo gārayhaṁ ṭhānaṁ āgacchati? ",
+      "english": "Do those who say this repeat what the Buddha has said, and not misrepresent him with an untruth? Is their explanation in line with the teaching? Are there any legitimate grounds for rebuttal and criticism? "
+    },
+    {
+      "number": 9,
+      "pali": "Anabbhācikkhitukāmā hi mayaṁ, bhante, bhagavantan”ti. ",
+      "english": "For we don’t want to misrepresent the Blessed One.” "
+    },
+    {
+      "number": 10,
+      "pali": "“Ye te, gāmaṇi, evamāhaṁsu: ‘samaṇo gotamo māyaṁ jānātī’ti, vuttavādino ceva me, te na ca maṁ abhūtena abbhācikkhanti, dhammassa cānudhammaṁ byākaronti, na ca koci sahadhammiko vādānuvādo gārayhaṁ ṭhānaṁ āgacchatī”ti. ",
+      "english": "“Chief, those who say this repeat what I have said, and don’t misrepresent me with an untruth. Their explanation is in line with the teaching, and there are no legitimate grounds for rebuttal and criticism.” "
+    },
+    {
+      "number": 11,
+      "pali": "“Saccaṁyeva kira, bho, mayaṁ tesaṁ samaṇabrāhmaṇānaṁ na saddahāma: ",
+      "english": "“Sir, we didn’t believe that what those ascetics and brahmins said was really true. "
+    },
+    {
+      "number": 12,
+      "pali": "‘samaṇo gotamo māyaṁ jānātī’ti, samaṇo khalu bho gotamo māyāvī”ti. ",
+      "english": "But it seems the ascetic Gotama is deceitful!” "
+    },
+    {
+      "number": 13,
+      "pali": "“Yo nu kho, gāmaṇi, evaṁ vadeti: ‘ahaṁ māyaṁ jānāmī’ti, so evaṁ vadeti: ‘ahaṁ māyāvī’”ti. ",
+      "english": "“Chief, does someone who says ‘I know deceit’ also say ‘I am deceitful’?” "
+    },
+    {
+      "number": 14,
+      "pali": "“Tatheva taṁ bhagavā hoti, tatheva taṁ sugata hotī”ti. ",
+      "english": "“That’s right, Blessed One! That’s right, Holy One!” "
+    },
+    {
+      "number": 15,
+      "pali": "“Tena hi, gāmaṇi, taññevettha paṭipucchissāmi; yathā te khameyya, tathā taṁ byākareyyāsi—",
+      "english": "“Well then, chief, I’ll ask you about this in return, and you can answer as you like. "
+    },
+    {
+      "number": 16,
+      "pali": "Taṁ kiṁ maññasi, gāmaṇi, ",
+      "english": "What do you think, chief? "
+    },
+    {
+      "number": 17,
+      "pali": "jānāsi tvaṁ koliyānaṁ lambacūḷake bhaṭe”ti? ",
+      "english": "Do you know the Koliyan officers with drooping headdresses?” "
+    },
+    {
+      "number": 18,
+      "pali": "“Jānāmahaṁ, bhante, koliyānaṁ lambacūḷake bhaṭe”ti. ",
+      "english": "“I know them, sir.” "
+    },
+    {
+      "number": 19,
+      "pali": "“Taṁ kiṁ maññasi, gāmaṇi, kimatthiyā koliyānaṁ lambacūḷakā bhaṭā”ti? ",
+      "english": "“And what’s their job?” "
+    },
+    {
+      "number": 20,
+      "pali": "“Ye ca, bhante, koliyānaṁ corā te ca paṭisedhetuṁ, yāni ca koliyānaṁ dūteyyāni tāni ca vahātuṁ, etadatthiyā, bhante, koliyānaṁ lambacūḷakā bhaṭā”ti. ",
+      "english": "“To put a stop to bandits and to deliver messages for the Koliyans.” "
+    },
+    {
+      "number": 21,
+      "pali": "“Taṁ kiṁ maññasi, gāmaṇi, ",
+      "english": "“What do you think, chief? "
+    },
+    {
+      "number": 22,
+      "pali": "jānāsi tvaṁ koliyānaṁ lambacūḷake bhaṭe sīlavante vā te dussīle vā”ti? ",
+      "english": "Are the Koliyan officers with drooping headdresses moral or immoral?” "
+    },
+    {
+      "number": 23,
+      "pali": "“Jānāmahaṁ, bhante, koliyānaṁ lambacūḷake bhaṭe dussīle pāpadhamme; ye ca loke dussīlā pāpadhammā koliyānaṁ lambacūḷakā bhaṭā tesaṁ aññatarā”ti. ",
+      "english": "“I know that they’re immoral, of bad character, sir. They are among those in the world who are immoral and of bad character.” "
+    },
+    {
+      "number": 24,
+      "pali": "“Yo nu kho, gāmaṇi, evaṁ vadeyya: ",
+      "english": "“Would it be right to say that "
+    },
+    {
+      "number": 25,
+      "pali": "‘pāṭaliyo gāmaṇi jānāti koliyānaṁ lambacūḷake bhaṭe dussīle pāpadhamme, pāṭaliyopi gāmaṇi dussīlo pāpadhammo’ti, sammā nu kho so vadamāno vadeyyā”ti? ",
+      "english": "Pāṭaliya knows the Kolyian officers with drooping headdresses who are immoral, of bad character, so he too must be immoral and of bad character?” "
+    },
+    {
+      "number": 26,
+      "pali": "“No hetaṁ, bhante. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 27,
+      "pali": "Aññe, bhante, koliyānaṁ lambacūḷakā bhaṭā, aññohamasmi. Aññathādhammā koliyānaṁ lambacūḷakā bhaṭā, aññathādhammohamasmī”ti. ",
+      "english": "I’m quite different from the Koliyan officers with drooping headdresses; we have quite different characters.” "
+    },
+    {
+      "number": 28,
+      "pali": "“Tvañhi nāma, gāmaṇi, lacchasi: ‘pāṭaliyo gāmaṇi jānāti koliyānaṁ lambacūḷake bhaṭe dussīle pāpadhamme, na ca pāṭaliyo gāmaṇi dussīlo pāpadhammo’ti, kasmā tathāgato na lacchati: ‘tathāgato māyaṁ jānāti, na ca tathāgato māyāvī’ti? ",
+      "english": "“So if you can know those officers of bad character while you are not of bad character, why can’t the Realized One know deceit, without being deceitful? "
+    },
+    {
+      "number": 29,
+      "pali": "Māyañcāhaṁ, gāmaṇi, pajānāmi, māyāya ca vipākaṁ, yathāpaṭipanno ca māyāvī kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "I understand deceit and its result. And I understand how the deceitful practice so that when their body breaks up, after death, they’re reborn in a place of loss, a bad place, the underworld, hell. "
+    },
+    {
+      "number": 30,
+      "pali": "Pāṇātipātañcāhaṁ, gāmaṇi, pajānāmi, pāṇātipātassa ca vipākaṁ, yathāpaṭipanno ca pāṇātipātī kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "I understand killing living creatures and its result. And I understand how those who kill living creatures practice so that when their body breaks up, after death, they’re reborn in a place of loss, a bad place, the underworld, hell. "
+    },
+    {
+      "number": 31,
+      "pali": "Adinnādānañcāhaṁ, gāmaṇi, pajānāmi, adinnādānassa ca vipākaṁ, yathāpaṭipanno ca adinnādāyī kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "I understand stealing … "
+    },
+    {
+      "number": 32,
+      "pali": "Kāmesumicchācārañcāhaṁ, gāmaṇi, pajānāmi, kāmesumicchācārassa ca vipākaṁ, yathāpaṭipanno ca kāmesumicchācārī kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "sexual misconduct … "
+    },
+    {
+      "number": 33,
+      "pali": "Musāvādañcāhaṁ, gāmaṇi, pajānāmi, musāvādassa ca vipākaṁ, yathāpaṭipanno ca musāvādī kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "lying … "
+    },
+    {
+      "number": 34,
+      "pali": "Pisuṇavācañcāhaṁ, gāmaṇi, pajānāmi, pisuṇavācāya ca vipākaṁ, yathāpaṭipanno ca pisuṇavāco kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "backbiting … "
+    },
+    {
+      "number": 35,
+      "pali": "Pharusavācañcāhaṁ, gāmaṇi, pajānāmi, pharusavācāya ca vipākaṁ, yathāpaṭipanno ca pharusavāco kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "harsh speech … "
+    },
+    {
+      "number": 36,
+      "pali": "Samphappalāpañcāhaṁ, gāmaṇi, pajānāmi, samphappalāpassa ca vipākaṁ, yathāpaṭipanno ca samphappalāpī kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "talking nonsense … "
+    },
+    {
+      "number": 37,
+      "pali": "Abhijjhañcāhaṁ, gāmaṇi, pajānāmi, abhijjhāya ca vipākaṁ, yathāpaṭipanno ca abhijjhālu kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "covetousness … "
+    },
+    {
+      "number": 38,
+      "pali": "Byāpādapadosañcāhaṁ, gāmaṇi, pajānāmi, byāpādapadosassa ca vipākaṁ, yathāpaṭipanno ca byāpannacitto kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "ill will … "
+    },
+    {
+      "number": 39,
+      "pali": "Micchādiṭṭhiñcāhaṁ, gāmaṇi, pajānāmi, micchādiṭṭhiyā ca vipākaṁ, yathāpaṭipanno ca micchādiṭṭhiko kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati tañca pajānāmi. ",
+      "english": "wrong view and its result. And I understand how those who have wrong view practice so that when their body breaks up, after death, they’re reborn in a place of loss, a bad place, the underworld, hell. "
+    },
+    {
+      "number": 40,
+      "pali": "Santi hi, gāmaṇi, eke samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "There are some ascetics and brahmins who have this doctrine and view: "
+    },
+    {
+      "number": 41,
+      "pali": "‘yo koci pāṇamatipāteti, sabbo so diṭṭheva dhamme dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "‘Everyone who kills living creatures experiences pain and sadness in this very life. "
+    },
+    {
+      "number": 42,
+      "pali": "Yo koci adinnaṁ ādiyati, sabbo so diṭṭheva dhamme dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "Everyone who steals … "
+    },
+    {
+      "number": 43,
+      "pali": "Yo koci kāmesu micchā carati, sabbo so diṭṭheva dhamme dukkhaṁ domanassaṁ paṭisaṁvedayati. ",
+      "english": "commits sexual misconduct … "
+    },
+    {
+      "number": 44,
+      "pali": "Yo koci musā bhaṇati, sabbo so diṭṭheva dhamme dukkhaṁ domanassaṁ paṭisaṁvedayatī’ti. ",
+      "english": "lies experiences pain and sadness in this very life.’ "
+    },
+    {
+      "number": 45,
+      "pali": "Dissati kho pana, gāmaṇi, idhekacco mālī kuṇḍalī sunhāto suvilitto kappitakesamassu itthikāmehi rājā maññe paricārento. ",
+      "english": "But you can see someone, garlanded and adorned, nicely bathed and anointed, hair and beard dressed, taking his pleasure with women as if he were a king. "
+    },
+    {
+      "number": 46,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": "You might ask someone: "
+    },
+    {
+      "number": 47,
+      "pali": "‘ambho, ayaṁ puriso kiṁ akāsi mālī kuṇḍalī sunhāto suvilitto kappitakesamassu itthikāmehi rājā maññe paricāretī’ti? ",
+      "english": "‘My friend, what did that man do?’ "
+    },
+    {
+      "number": 48,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": "And they’d reply: "
+    },
+    {
+      "number": 49,
+      "pali": "‘ambho, ayaṁ puriso rañño paccatthikaṁ pasayha jīvitā voropesi. ",
+      "english": "‘My friend, that man attacked the king’s enemy and killed them. "
+    },
+    {
+      "number": 50,
+      "pali": "Tassa rājā attamano abhihāramadāsi. ",
+      "english": "The king was delighted and gave him this reward. "
+    },
+    {
+      "number": 51,
+      "pali": "Tenāyaṁ puriso mālī kuṇḍalī sunhāto suvilitto kappitakesamassu, itthikāmehi rājā maññe paricāretī’ti. ",
+      "english": "That’s why he’s garlanded and adorned, nicely bathed and anointed, hair and beard dressed, taking his pleasure with women as if he were a king.’ "
+    },
+    {
+      "number": 52,
+      "pali": "Dissati kho, gāmaṇi, idhekacco daḷhāya rajjuyā pacchābāhaṁ gāḷhabandhanaṁ bandhitvā khuramuṇḍaṁ karitvā kharassarena paṇavena rathiyāya rathiyaṁ siṅghāṭakena siṅghāṭakaṁ parinetvā, dakkhiṇena dvārena nikkhāmetvā, dakkhiṇato nagarassa sīsaṁ chijjamāno. ",
+      "english": "And you can see someone else, his arms tied tightly behind his back with a strong rope. His head is shaven and he’s marched from street to street and from square to square to the beating of a harsh drum. Then he’s taken out the south gate and there, to the south of the city, they chop off his head. "
+    },
+    {
+      "number": 53,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": "You might ask someone: "
+    },
+    {
+      "number": 54,
+      "pali": "‘ambho, ayaṁ puriso kiṁ akāsi, daḷhāya rajjuyā pacchābāhaṁ gāḷhabandhanaṁ bandhitvā khuramuṇḍaṁ karitvā kharassarena paṇavena rathiyāya rathiyaṁ siṅghāṭakena siṅghāṭakaṁ parinetvā dakkhiṇena dvārena nikkhāmetvā dakkhiṇato nagarassa sīsaṁ chindatī’ti? ",
+      "english": "‘My friend, what did that man do?’ "
+    },
+    {
+      "number": 55,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": "And they’d reply: "
+    },
+    {
+      "number": 56,
+      "pali": "‘ambho, ayaṁ puriso rājaverī itthiṁ vā purisaṁ vā jīvitā voropesi, ",
+      "english": "‘My friend, that man is an enemy of the king, and he has murdered a man or a woman. "
+    },
+    {
+      "number": 57,
+      "pali": "tena naṁ rājāno gahetvā evarūpaṁ kammakāraṇaṁ kārentī’ti. ",
+      "english": "That’s why the rulers arrested him and inflicted such punishment.’ "
+    },
+    {
+      "number": 58,
+      "pali": "Taṁ kiṁ maññasi, gāmaṇi, ",
+      "english": "What do you think, chief? "
+    },
+    {
+      "number": 59,
+      "pali": "api nu te evarūpaṁ diṭṭhaṁ vā sutaṁ vā”ti? ",
+      "english": "Have you seen or heard of such a thing?” "
+    },
+    {
+      "number": 60,
+      "pali": "“Diṭṭhañca no, bhante, sutañca suyyissati cā”ti. ",
+      "english": "“Sir, we have seen it and heard of it, and we will hear of it again.” "
+    },
+    {
+      "number": 61,
+      "pali": "“Tatra, gāmaṇi, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "“Since this is so, the ascetics and brahmins whose view is that "
+    },
+    {
+      "number": 62,
+      "pali": "‘yo koci pāṇamatipāteti, sabbo so diṭṭheva dhamme dukkhaṁ domanassaṁ paṭisaṁvedayatī’ti, saccaṁ vā te āhaṁsu musā vā”ti? ",
+      "english": "everyone who kills living creatures experiences pain and sadness in this very life: are they right or wrong?” "
+    },
+    {
+      "number": 63,
+      "pali": "“Musā, bhante”. ",
+      "english": "“They’re wrong, sir.” "
+    },
+    {
+      "number": 64,
+      "pali": "“Ye pana te tucchaṁ musā vilapanti, sīlavanto vā te dussīlā vā”ti? ",
+      "english": "“But those who speak hollow, false nonsense: are they moral or immoral?” "
+    },
+    {
+      "number": 65,
+      "pali": "“Dussīlā, bhante”. ",
+      "english": "“Immoral, sir.” "
+    },
+    {
+      "number": 66,
+      "pali": "“Ye pana te dussīlā pāpadhammā micchāpaṭipannā vā te sammāpaṭipannā vā”ti? ",
+      "english": "“And are those who are immoral, of bad character practicing wrongly or rightly?” "
+    },
+    {
+      "number": 67,
+      "pali": "“Micchāpaṭipannā, bhante”. ",
+      "english": "“They’re practicing wrongly, sir.” "
+    },
+    {
+      "number": 68,
+      "pali": "“Ye pana te micchāpaṭipannā micchādiṭṭhikā vā te sammādiṭṭhikā vā”ti? ",
+      "english": "“And do those who are practicing wrongly have wrong view or right view?” "
+    },
+    {
+      "number": 69,
+      "pali": "“Micchādiṭṭhikā, bhante”. ",
+      "english": "“They have wrong view, sir.” "
+    },
+    {
+      "number": 70,
+      "pali": "“Ye pana te micchādiṭṭhikā kallaṁ nu tesu pasīditun”ti? ",
+      "english": "“But is it appropriate to have confidence in those of wrong view?” "
+    },
+    {
+      "number": 71,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 72,
+      "pali": "“Dissati kho pana, gāmaṇi, idhekacco mālī kuṇḍalī …pe… itthikāmehi rājā maññe paricārento. ",
+      "english": "“You can see someone, garlanded and adorned … "
+    },
+    {
+      "number": 73,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "‘ambho, ayaṁ puriso kiṁ akāsi mālī kuṇḍalī …pe… itthikāmehi rājā maññe paricāretī’ti? ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "‘ambho, ayaṁ puriso rañño paccatthikassa pasayha ratanaṁ ahāsi. ",
+      "english": "‘My friend, that man attacked the king’s enemy and took their valuables. "
+    },
+    {
+      "number": 77,
+      "pali": "Tassa rājā attamano abhihāramadāsi. ",
+      "english": "The king was delighted and gave him this reward. …’ … "
+    },
+    {
+      "number": 78,
+      "pali": "Tenāyaṁ puriso mālī kuṇḍalī …pe… itthikāmehi rājā maññe paricāretī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "Dissati kho, gāmaṇi, idhekacco daḷhāya rajjuyā …pe… dakkhiṇato nagarassa sīsaṁ chijjamāno tamenaṁ evamāhaṁsu: ",
+      "english": "And you can see someone else, his arms tied tightly behind his back … "
+    },
+    {
+      "number": 80,
+      "pali": "‘ambho, ayaṁ puriso kiṁ akāsi daḷhāya rajjuyā …pe… dakkhiṇato nagarassa sīsaṁ chindatī’ti? ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "‘ambho, ayaṁ puriso gāmā vā araññā vā adinnaṁ theyyasaṅkhātaṁ ādiyi. ",
+      "english": "‘My friend, that man took something from a village or wilderness, with the intention to commit theft. "
+    },
+    {
+      "number": 83,
+      "pali": "Tena naṁ rājāno gahetvā evarūpaṁ kammakāraṇaṁ kārentī’ti. ",
+      "english": "That’s why the rulers arrested him and inflicted such punishment.’ "
+    },
+    {
+      "number": 84,
+      "pali": "Taṁ kiṁ maññasi, gāmaṇi, ",
+      "english": "What do you think, chief? "
+    },
+    {
+      "number": 85,
+      "pali": "api nu te evarūpaṁ diṭṭhaṁ vā sutaṁ vā”ti? ",
+      "english": "Have you seen or heard of such a thing?” "
+    },
+    {
+      "number": 86,
+      "pali": "“Diṭṭhañca no, bhante, sutañca suyyissati cā”ti. ",
+      "english": "“Sir, we have seen it and heard of it, and we will hear of it again.” "
+    },
+    {
+      "number": 87,
+      "pali": "“Tatra, gāmaṇi, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "“Since this is so, the ascetics and brahmins whose view is that "
+    },
+    {
+      "number": 88,
+      "pali": "‘yo koci adinnaṁ ādiyati, sabbo so diṭṭheva dhamme dukkhaṁ domanassaṁ paṭisaṁvedayatī’ti, saccaṁ vā te āhaṁsu musā vāti …pe… ",
+      "english": "everyone who steals experiences pain and sadness in this very life: are they right or wrong? … "
+    },
+    {
+      "number": 89,
+      "pali": "kallaṁ nu tesu pasīditun”ti? ",
+      "english": "Is it appropriate to have confidence in them?” "
+    },
+    {
+      "number": 90,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 91,
+      "pali": "“Dissati kho pana, gāmaṇi, idhekacco mālī kuṇḍalī …pe… itthikāmehi rājā maññe paricārento. ",
+      "english": "“You can see someone, garlanded and adorned … "
+    },
+    {
+      "number": 92,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "‘ambho, ayaṁ puriso kiṁ akāsi mālī kuṇḍalī …pe… itthikāmehi rājā maññe paricāretī’ti? ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "‘ambho, ayaṁ puriso rañño paccatthikassa dāresu cārittaṁ āpajji. ",
+      "english": "‘My friend, that man had sexual relations with the wives of an enemy king. "
+    },
+    {
+      "number": 96,
+      "pali": "Tassa rājā attamano abhihāramadāsi. ",
+      "english": "The king was delighted and gave him this reward. …’ … "
+    },
+    {
+      "number": 97,
+      "pali": "Tenāyaṁ puriso mālī kuṇḍalī …pe… itthikāmehi rājā maññe paricāretī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 98,
+      "pali": "Dissati kho, gāmaṇi, idhekacco daḷhāya rajjuyā …pe… dakkhiṇato nagarassa sīsaṁ chijjamāno. ",
+      "english": "And you can see someone else, his arms tied tightly behind his back … "
+    },
+    {
+      "number": 99,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "‘ambho, ayaṁ puriso kiṁ akāsi daḷhāya rajjuyā …pe… dakkhiṇato nagarassa sīsaṁ chindatī’ti? ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 102,
+      "pali": "‘ambho, ayaṁ puriso kulitthīsu kulakumārīsu cārittaṁ āpajji, ",
+      "english": "‘My friend, that man had sexual relations with the women and maidens of good families. "
+    },
+    {
+      "number": 103,
+      "pali": "tena naṁ rājāno gahetvā evarūpaṁ kammakāraṇaṁ kārentī’ti. ",
+      "english": "That’s why the rulers arrested him and inflicted such punishment.’ "
+    },
+    {
+      "number": 104,
+      "pali": "Taṁ kiṁ maññasi, gāmaṇi, ",
+      "english": "What do you think, chief? "
+    },
+    {
+      "number": 105,
+      "pali": "api nu te evarūpaṁ diṭṭhaṁ vā sutaṁ vā”ti? ",
+      "english": "Have you seen or heard of such a thing?” "
+    },
+    {
+      "number": 106,
+      "pali": "“Diṭṭhañca no, bhante, sutañca suyyissati cā”ti. ",
+      "english": "“Sir, we have seen it and heard of it, and we will hear of it again.” "
+    },
+    {
+      "number": 107,
+      "pali": "“Tatra, gāmaṇi, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "“Since this is so, the ascetics and brahmins whose view is that "
+    },
+    {
+      "number": 108,
+      "pali": "‘yo koci kāmesu micchā carati, sabbo so diṭṭheva dhamme dukkhaṁ domanassaṁ paṭisaṁvedayatī’ti, saccaṁ vā te āhaṁsu musā vāti …pe… ",
+      "english": "everyone who commits sexual misconduct experiences pain and sadness in this very life: are they right or wrong? … "
+    },
+    {
+      "number": 109,
+      "pali": "kallaṁ nu tesu pasīditun”ti? ",
+      "english": "Is it appropriate to have confidence in them?” "
+    },
+    {
+      "number": 110,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 111,
+      "pali": "“Dissati kho pana, gāmaṇi, idhekacco mālī kuṇḍalī sunhāto suvilitto kappitakesamassu itthikāmehi rājā maññe paricārento. ",
+      "english": "“And you can see someone, garlanded and adorned … "
+    },
+    {
+      "number": 112,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 113,
+      "pali": "‘ambho, ayaṁ puriso kiṁ akāsi mālī kuṇḍalī sunhāto suvilitto kappitakesamassu itthikāmehi rājā maññe paricāretī’ti? ",
+      "english": ""
+    },
+    {
+      "number": 114,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 115,
+      "pali": "‘ambho, ayaṁ puriso rājānaṁ musāvādena hāsesi. ",
+      "english": "‘My friend, that man amused the king with lies. "
+    },
+    {
+      "number": 116,
+      "pali": "Tassa rājā attamano abhihāramadāsi. ",
+      "english": "The king was delighted and gave him this reward. …’ … "
+    },
+    {
+      "number": 117,
+      "pali": "Tenāyaṁ puriso mālī kuṇḍalī sunhāto suvilitto kappitakesamassu itthikāmehi rājā maññe paricāretī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "Dissati kho, gāmaṇi, idhekacco daḷhāya rajjuyā pacchābāhaṁ gāḷhabandhanaṁ bandhitvā khuramuṇḍaṁ karitvā kharassarena paṇavena rathiyāya rathiyaṁ siṅghāṭakena siṅghāṭakaṁ parinetvā dakkhiṇena dvārena nikkhāmetvā dakkhiṇato nagarassa sīsaṁ chijjamāno. ",
+      "english": "And you can see someone else, his arms tied tightly behind his back … "
+    },
+    {
+      "number": 119,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "‘ambho, ayaṁ puriso kiṁ akāsi daḷhāya rajjuyā pacchābāhaṁ gāḷhabandhanaṁ bandhitvā khuramuṇḍaṁ karitvā kharassarena paṇavena rathiyāya rathiyaṁ siṅghāṭakena siṅghāṭakaṁ parinetvā, dakkhiṇena dvārena nikkhāmetvā, dakkhiṇato nagarassa sīsaṁ chindatī’ti? ",
+      "english": ""
+    },
+    {
+      "number": 121,
+      "pali": "Tamenaṁ evamāhaṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 122,
+      "pali": "‘ambho, ayaṁ puriso gahapatissa vā gahapatiputtassa vā musāvādena atthaṁ bhañji, ",
+      "english": "‘My friend, that man has ruined a householder or householder’s child by lying. "
+    },
+    {
+      "number": 123,
+      "pali": "tena naṁ rājāno gahetvā evarūpaṁ kammakāraṇaṁ kārentī’ti. ",
+      "english": "That’s why the rulers arrested him and inflicted such punishment.’ "
+    },
+    {
+      "number": 124,
+      "pali": "Taṁ kiṁ maññasi, gāmaṇi, ",
+      "english": "What do you think, chief? "
+    },
+    {
+      "number": 125,
+      "pali": "api nu te evarūpaṁ diṭṭhaṁ vā sutaṁ vā”ti? ",
+      "english": "Have you seen or heard of such a thing?” "
+    },
+    {
+      "number": 126,
+      "pali": "“Diṭṭhañca no, bhante, sutañca suyyissati cā”ti. ",
+      "english": "“Sir, we have seen it and heard of it, and we will hear of it again.” "
+    },
+    {
+      "number": 127,
+      "pali": "“Tatra, gāmaṇi, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "“Since this is so, the ascetics and brahmins whose view is that "
+    },
+    {
+      "number": 128,
+      "pali": "‘yo koci musā bhaṇati, sabbo so diṭṭheva dhamme dukkhaṁ domanassaṁ paṭisaṁvedayatī’ti, saccaṁ vā te āhaṁsu musā vā”ti? ",
+      "english": "everyone who lies experiences pain and sadness in this very life: are they right or wrong?” "
+    },
+    {
+      "number": 129,
+      "pali": "“Musā, bhante”. ",
+      "english": "“They’re wrong, sir.” "
+    },
+    {
+      "number": 130,
+      "pali": "“Ye pana te tucchaṁ musā vilapanti sīlavanto vā te dussīlā vā”ti? ",
+      "english": "“But those who speak hollow, false nonsense: are they moral or immoral?” "
+    },
+    {
+      "number": 131,
+      "pali": "“Dussīlā, bhante”. ",
+      "english": "“Immoral, sir.” "
+    },
+    {
+      "number": 132,
+      "pali": "“Ye pana te dussīlā pāpadhammā micchāpaṭipannā vā te sammāpaṭipannā vā”ti? ",
+      "english": "“And are those who are immoral, of bad character practicing wrongly or rightly?” "
+    },
+    {
+      "number": 133,
+      "pali": "“Micchāpaṭipannā, bhante”. ",
+      "english": "“They’re practicing wrongly, sir.” "
+    },
+    {
+      "number": 134,
+      "pali": "“Ye pana te micchāpaṭipannā micchādiṭṭhikā vā te sammādiṭṭhikā vā”ti? ",
+      "english": "“And do those who are practicing wrongly have wrong view or right view?” "
+    },
+    {
+      "number": 135,
+      "pali": "“Micchādiṭṭhikā, bhante”. ",
+      "english": "“They have wrong view, sir.” "
+    },
+    {
+      "number": 136,
+      "pali": "“Ye pana te micchādiṭṭhikā kallaṁ nu tesu pasīditun”ti? ",
+      "english": "“But is it appropriate to have confidence in those of wrong view?” "
+    },
+    {
+      "number": 137,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 138,
+      "pali": "“Acchariyaṁ, bhante, abbhutaṁ, bhante. ",
+      "english": "It’s incredible, sir, it’s amazing! "
+    },
+    {
+      "number": 139,
+      "pali": "Atthi me, bhante, āvasathāgāraṁ. ",
+      "english": "I have a guest house, "
+    },
+    {
+      "number": 140,
+      "pali": "Tattha atthi mañcakāni, atthi āsanāni, atthi udakamaṇiko, atthi telappadīpo. ",
+      "english": "where there are cots, seats, water jars, and oil lamps. "
+    },
+    {
+      "number": 141,
+      "pali": "Tattha yo samaṇo vā brāhmaṇo vā vāsaṁ upeti, tenāhaṁ yathāsatti yathābalaṁ saṁvibhajāmi. ",
+      "english": "Whenever an ascetic or brahmin comes to stay, I share what I have as best I can. "
+    },
+    {
+      "number": 142,
+      "pali": "Bhūtapubbaṁ, bhante, cattāro satthāro nānādiṭṭhikā nānākhantikā nānārucikā, tasmiṁ āvasathāgāre vāsaṁ upagacchuṁ. ",
+      "english": "Once it so happened, sir, that four teachers of different views, beliefs, and opinions came to stay at my guest house. "
+    },
+    {
+      "number": 143,
+      "pali": "Eko satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": "One teacher had this doctrine and view: "
+    },
+    {
+      "number": 144,
+      "pali": "‘natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko. Natthi ayaṁ loko, natthi paro loko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti. ",
+      "english": "‘There’s no meaning in giving, sacrifice, or offerings. There’s no fruit or result of good and bad deeds. There’s no afterlife. There’s no such thing as mother and father, or beings that are reborn spontaneously. And there’s no ascetic or brahmin who is rightly comported and rightly practiced, and who describes the afterlife after realizing it with their own insight.’ "
+    },
+    {
+      "number": 145,
+      "pali": "Eko satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": "One teacher had this doctrine and view: "
+    },
+    {
+      "number": 146,
+      "pali": "‘atthi dinnaṁ, atthi yiṭṭhaṁ, atthi hutaṁ, atthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, atthi ayaṁ loko, atthi paro loko, atthi mātā, atthi pitā, atthi sattā opapātikā, atthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā, ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti. ",
+      "english": "‘There is meaning in giving, sacrifice, and offerings. There are fruits and results of good and bad deeds. There is an afterlife. There are such things as mother and father, and beings that are reborn spontaneously. And there are ascetics and brahmins who are rightly comported and rightly practiced, and who describe the afterlife after realizing it with their own insight.’ "
+    },
+    {
+      "number": 147,
+      "pali": "Eko satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": "One teacher had this doctrine and view: "
+    },
+    {
+      "number": 148,
+      "pali": "‘karoto kārayato, chindato chedāpayato, pacato pācāpayato, socayato socāpayato, kilamato kilamāpayato, phandato phandāpayato, pāṇamatipātayato, adinnaṁ ādiyato, sandhiṁ chindato, nillopaṁ harato, ekāgārikaṁ karoto, paripanthe tiṭṭhato, paradāraṁ gacchato, musā bhaṇato, karoto na karīyati pāpaṁ. ",
+      "english": "‘The one who acts does nothing wrong when they punish, mutilate, torture, aggrieve, oppress, intimidate, or when they encourage others to do the same. Nothing bad is done when they kill, steal, break into houses, plunder wealth, steal from isolated buildings, commit highway robbery, commit adultery, and lie. "
+    },
+    {
+      "number": 149,
+      "pali": "Khurapariyantena cepi cakkena yo imissā pathaviyā pāṇe ekaṁ maṁsakhalaṁ ekaṁ maṁsapuñjaṁ kareyya, natthi tatonidānaṁ pāpaṁ, natthi pāpassa āgamo. ",
+      "english": "If you were to reduce all the living creatures of this earth to one heap and mass of flesh with a razor-edged chakram, no evil comes of that, and no outcome of evil. "
+    },
+    {
+      "number": 150,
+      "pali": "Dakkhiṇañcepi gaṅgāya tīraṁ gaccheyya hananto ghātento chindanto chedāpento pacanto pācāpento, natthi tatonidānaṁ pāpaṁ, natthi pāpassa āgamo. ",
+      "english": "If you were to go along the south bank of the Ganges killing, mutilating, and torturing, and encouraging others to do the same, no evil comes of that, and no outcome of evil. "
+    },
+    {
+      "number": 151,
+      "pali": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento yajanto yajāpento, natthi tatonidānaṁ puññaṁ, natthi puññassa āgamo. ",
+      "english": "If you were to go along the north bank of the Ganges giving and sacrificing and encouraging others to do the same, no merit comes of that, and no outcome of merit. "
+    },
+    {
+      "number": 152,
+      "pali": "Dānena damena saṁyamena saccavajjena natthi puññaṁ, natthi puññassa āgamo’ti. ",
+      "english": "In giving, self-control, restraint, and truthfulness there is no merit or outcome of merit.’ "
+    },
+    {
+      "number": 153,
+      "pali": "Eko satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": "One teacher had this doctrine and view: "
+    },
+    {
+      "number": 154,
+      "pali": "‘karoto kārayato, chindato chedāpayato, pacato pācāpayato, socayato socāpayato, kilamato kilamāpayato, phandato phandāpayato, pāṇamatipātayato, adinnaṁ ādiyato, sandhiṁ chindato, nillopaṁ harato, ekāgārikaṁ karoto, paripanthe tiṭṭhato, paradāraṁ gacchato, musā bhaṇato, karoto karīyati pāpaṁ. ",
+      "english": "‘The one who acts does a bad deed when they punish, mutilate, torture, aggrieve, oppress, intimidate, or when they encourage others to do the same. A bad deed is done when they kill, steal, break into houses, plunder wealth, steal from isolated buildings, commit highway robbery, commit adultery, and lie. "
+    },
+    {
+      "number": 155,
+      "pali": "Khurapariyantena cepi cakkena yo imissā pathaviyā pāṇe ekaṁ maṁsakhalaṁ ekaṁ maṁsapuñjaṁ kareyya, atthi tatonidānaṁ pāpaṁ, atthi pāpassa āgamo. ",
+      "english": "If you were to reduce all the living creatures of this earth to one heap and mass of flesh with a razor-edged chakram, evil comes of that, and an outcome of evil. "
+    },
+    {
+      "number": 156,
+      "pali": "Dakkhiṇañcepi gaṅgāya tīraṁ gaccheyya hananto ghātento chindanto chedāpento pacanto pācāpento, atthi tatonidānaṁ pāpaṁ, atthi pāpassa āgamo. ",
+      "english": "If you were to go along the south bank of the Ganges killing, mutilating, and torturing, and encouraging others to do the same, evil comes of that, and an outcome of evil. "
+    },
+    {
+      "number": 157,
+      "pali": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento, yajanto yajāpento, atthi tatonidānaṁ puññaṁ, atthi puññassa āgamo. ",
+      "english": "If you were to go along the north bank of the Ganges giving and sacrificing and encouraging others to do the same, merit comes of that, and an outcome of merit. "
+    },
+    {
+      "number": 158,
+      "pali": "Dānena damena saṁyamena saccavajjena atthi puññaṁ, atthi puññassa āgamo’ti. ",
+      "english": "In giving, self-control, restraint, and truthfulness there is merit and outcome of merit.’ "
+    },
+    {
+      "number": 159,
+      "pali": "Tassa mayhaṁ, bhante, ahudeva kaṅkhā, ahu vicikicchā: ",
+      "english": "I had doubt and uncertainty about that: "
+    },
+    {
+      "number": 160,
+      "pali": "‘kosu nāma imesaṁ bhavataṁ samaṇabrāhmaṇānaṁ saccaṁ āha, ko musā’”ti? ",
+      "english": "‘I wonder who of these respected ascetics and brahmins speaks the truth, and who speaks falsehood?’” "
+    },
+    {
+      "number": 161,
+      "pali": "“Alañhi te, gāmaṇi, kaṅkhituṁ, alaṁ vicikicchituṁ. ",
+      "english": "“Chief, no wonder you’re doubting and uncertain. "
+    },
+    {
+      "number": 162,
+      "pali": "Kaṅkhanīye ca pana te ṭhāne vicikicchā uppannā”ti. ",
+      "english": "Doubt has come up in you about an uncertain matter.” "
+    },
+    {
+      "number": 163,
+      "pali": "“Evaṁ pasannohaṁ, bhante, bhagavati. Pahoti me bhagavā tathā dhammaṁ desetuṁ yathāhaṁ imaṁ kaṅkhādhammaṁ pajaheyyan”ti. ",
+      "english": "“I am quite confident that the Buddha is capable of teaching me so that I can give up this state of uncertainty.” "
+    },
+    {
+      "number": 164,
+      "pali": "“Atthi, gāmaṇi, dhammasamādhi. ",
+      "english": "“Chief, there is immersion based on understanding of principle. "
+    },
+    {
+      "number": 165,
+      "pali": "Tatra ce tvaṁ cittasamādhiṁ paṭilabheyyāsi. Evaṁ tvaṁ imaṁ kaṅkhādhammaṁ pajaheyyāsi. ",
+      "english": "If you gain such mental immersion, you can give up that state of uncertainty. "
+    },
+    {
+      "number": 166,
+      "pali": "Katamo ca, gāmaṇi, dhammasamādhi? ",
+      "english": "And what is immersion based on understanding of principle? "
+    },
+    {
+      "number": 167,
+      "pali": "Idha, gāmaṇi, ariyasāvako pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti, adinnādānaṁ pahāya adinnādānā paṭivirato hoti, kāmesumicchācāraṁ pahāya kāmesumicchācārā paṭivirato hoti, musāvādaṁ pahāya musāvādā paṭivirato hoti, pisuṇaṁ vācaṁ pahāya pisuṇāya vācāya paṭivirato hoti, pharusaṁ vācaṁ pahāya pharusāya vācāya paṭivirato hoti, samphappalāpaṁ pahāya samphappalāpā paṭivirato hoti, abhijjhaṁ pahāya anabhijjhālu hoti, byāpādapadosaṁ pahāya abyāpannacitto hoti, micchādiṭṭhiṁ pahāya sammādiṭṭhiko hoti. ",
+      "english": "It’s when a noble disciple has given up killing living creatures, stealing, sexual misconduct, lying, backbiting, harsh speech, talking nonsense, covetousness, ill will, and wrong view. "
+    },
+    {
+      "number": 168,
+      "pali": "Sa kho so, gāmaṇi, ariyasāvako evaṁ vigatābhijjho vigatabyāpādo asammūḷho sampajāno paṭissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": "Then that noble disciple is rid of desire, rid of ill will, unconfused, aware, and mindful. They meditate spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 169,
+      "pali": "So iti paṭisañcikkhati: ",
+      "english": "They reflect thus: "
+    },
+    {
+      "number": 170,
+      "pali": "‘yvāyaṁ satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": "‘That teacher who had this doctrine and view: "
+    },
+    {
+      "number": 171,
+      "pali": "“natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko, natthi paro loko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā, sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī”ti. ",
+      "english": "“There’s no meaning in giving, sacrifice, or offerings. There’s no fruit or result of good and bad deeds. There’s no afterlife. There’s no such thing as mother and father, or beings that are reborn spontaneously. And there’s no ascetic or brahmin who is rightly comported and rightly practiced, and who describes the afterlife after realizing it with their own insight.” "
+    },
+    {
+      "number": 172,
+      "pali": "Sace tassa bhoto satthuno saccaṁ vacanaṁ, apaṇṇakatāya mayhaṁ, yvāhaṁ na kiñci byābādhemi tasaṁ vā thāvaraṁ vā. ",
+      "english": "If what this good teacher says is true, it’s a sure bet for me to not hurt any creature firm or frail. "
+    },
+    {
+      "number": 173,
+      "pali": "Ubhayamettha kaṭaggāho, yaṁ camhi kāyena saṁvuto vācāya saṁvuto manasā saṁvuto, yañca kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti. ",
+      "english": "I hold a winning hand on both counts, since I’m restrained in body, speech, and mind, and when my body breaks up, after death, I’ll be reborn in a good place, a heavenly realm.’ "
+    },
+    {
+      "number": 174,
+      "pali": "Tassa pāmojjaṁ jāyati. ",
+      "english": "Joy springs up in them. "
+    },
+    {
+      "number": 175,
+      "pali": "Pamuditassa pīti jāyati. ",
+      "english": "Being joyful, rapture springs up. "
+    },
+    {
+      "number": 176,
+      "pali": "Pītimanassa kāyo passambhati. ",
+      "english": "When the mind is full of rapture, the body becomes tranquil. "
+    },
+    {
+      "number": 177,
+      "pali": "Passaddhakāyo sukhaṁ vedayati. ",
+      "english": "When the body is tranquil, they feel bliss. "
+    },
+    {
+      "number": 178,
+      "pali": "Sukhino cittaṁ samādhiyati. ",
+      "english": "And when blissful, the mind becomes immersed in samādhi. "
+    },
+    {
+      "number": 179,
+      "pali": "Ayaṁ kho, gāmaṇi, dhammasamādhi. ",
+      "english": "This is that immersion based on understanding of principle. "
+    },
+    {
+      "number": 180,
+      "pali": "Tatra ce tvaṁ cittasamādhiṁ paṭilabheyyāsi, evaṁ tvaṁ imaṁ kaṅkhādhammaṁ pajaheyyāsi. ",
+      "english": "If you gain such mental immersion, you can give up that state of uncertainty. "
+    },
+    {
+      "number": 181,
+      "pali": "Sa kho so, gāmaṇi, ariyasāvako evaṁ vigatābhijjho vigatabyāpādo asammūḷho sampajāno paṭissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": "Then that noble disciple is rid of desire, rid of ill will, unconfused, aware, and mindful. They meditate spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 182,
+      "pali": "So iti paṭisañcikkhati: ",
+      "english": "They reflect thus: "
+    },
+    {
+      "number": 183,
+      "pali": "‘yvāyaṁ satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": "‘That teacher who had this doctrine and view: "
+    },
+    {
+      "number": 184,
+      "pali": "“atthi dinnaṁ, atthi yiṭṭhaṁ, atthi hutaṁ, atthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, atthi ayaṁ loko, atthi paro loko, atthi mātā, atthi pitā, atthi sattā opapātikā, atthi loke samaṇabrāhmaṇā, sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī”ti. ",
+      "english": "“There is meaning in giving, sacrifice, and offerings. There are fruits and results of good and bad deeds. There is an afterlife. There are such things as mother and father, and beings that are reborn spontaneously. And there are ascetics and brahmins who are rightly comported and rightly practiced, and who describe the afterlife after realizing it with their own insight.” "
+    },
+    {
+      "number": 185,
+      "pali": "Sace tassa bhoto satthuno saccaṁ vacanaṁ, apaṇṇakatāya mayhaṁ, yvāhaṁ na kiñci byābādhemi tasaṁ vā thāvaraṁ vā. ",
+      "english": "If what this good teacher says is true, it’s a sure bet for me to not hurt any creature firm or frail. "
+    },
+    {
+      "number": 186,
+      "pali": "Ubhayamettha kaṭaggāho, yaṁ camhi kāyena saṁvuto vācāya saṁvuto manasā saṁvuto, yañca kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti. ",
+      "english": "I hold a winning hand on both counts, since I’m restrained in body, speech, and mind, and when my body breaks up, after death, I’ll be reborn in a good place, a heavenly realm.’ "
+    },
+    {
+      "number": 187,
+      "pali": "Tassa pāmojjaṁ jāyati. ",
+      "english": "Joy springs up in them. "
+    },
+    {
+      "number": 188,
+      "pali": "Pamuditassa pīti jāyati. ",
+      "english": "Being joyful, rapture springs up. "
+    },
+    {
+      "number": 189,
+      "pali": "Pītimanassa kāyo passambhati. ",
+      "english": "When the mind is full of rapture, the body becomes tranquil. "
+    },
+    {
+      "number": 190,
+      "pali": "Passaddhakāyo sukhaṁ vedayati. ",
+      "english": "When the body is tranquil, they feel bliss. "
+    },
+    {
+      "number": 191,
+      "pali": "Sukhino cittaṁ samādhiyati. ",
+      "english": "And when blissful, the mind becomes immersed in samādhi. "
+    },
+    {
+      "number": 192,
+      "pali": "Ayaṁ kho, gāmaṇi, dhammasamādhi. ",
+      "english": "This is that immersion based on understanding of principle. "
+    },
+    {
+      "number": 193,
+      "pali": "Tatra ce tvaṁ cittasamādhiṁ paṭilabheyyāsi, evaṁ tvaṁ imaṁ kaṅkhādhammaṁ pajaheyyāsi. ",
+      "english": "If you gain such mental immersion, you can give up that state of uncertainty. "
+    },
+    {
+      "number": 194,
+      "pali": "Sa kho so, gāmaṇi, ariyasāvako evaṁ vigatābhijjho vigatabyāpādo asammūḷho sampajāno paṭissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": "Then that noble disciple is rid of desire, rid of ill will, unconfused, aware, and mindful. They meditate spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 195,
+      "pali": "So iti paṭisañcikkhati: ",
+      "english": "They reflect thus: "
+    },
+    {
+      "number": 196,
+      "pali": "‘yvāyaṁ satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": "‘That teacher who had this doctrine and view: "
+    },
+    {
+      "number": 197,
+      "pali": "“karoto kārayato, chindato chedāpayato, pacato pācāpayato, socayato socāpayato, kilamato kilamāpayato, phandato phandāpayato, pāṇamatipātayato, adinnaṁ ādiyato, sandhiṁ chindato, nillopaṁ harato, ekāgārikaṁ karoto, paripanthe tiṭṭhato, paradāraṁ gacchato, musā bhaṇato, karoto na karīyati pāpaṁ. ",
+      "english": "“The one who acts does nothing wrong when they punish, mutilate, torture, aggrieve, oppress, intimidate, or when they encourage others to do the same. Nothing bad is done when they kill, steal, break into houses, plunder wealth, steal from isolated buildings, commit highway robbery, commit adultery, and lie. "
+    },
+    {
+      "number": 198,
+      "pali": "Khurapariyantena cepi cakkena yo imissā pathaviyā pāṇe ekaṁ maṁsakhalaṁ ekaṁ maṁsapuñjaṁ kareyya, natthi tatonidānaṁ pāpaṁ, natthi pāpassa āgamo. ",
+      "english": "If you were to reduce all the living creatures of this earth to one heap and mass of flesh with a razor-edged chakram, no evil comes of that, and no outcome of evil. "
+    },
+    {
+      "number": 199,
+      "pali": "Dakkhiṇañcepi gaṅgāya tīraṁ gaccheyya hananto ghātento chindanto chedāpento pacanto pācāpento, natthi tatonidānaṁ pāpaṁ, natthi pāpassa āgamo. ",
+      "english": "If you were to go along the south bank of the Ganges killing, mutilating, and torturing, and encouraging others to do the same, no evil comes of that, and no outcome of evil. "
+    },
+    {
+      "number": 200,
+      "pali": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento, yajanto yajāpento, natthi tatonidānaṁ puññaṁ, natthi puññassa āgamo. ",
+      "english": "If you were to go along the north bank of the Ganges giving and sacrificing and encouraging others to do the same, no merit comes of that, and no outcome of merit. "
+    },
+    {
+      "number": 201,
+      "pali": "Dānena damena saṁyamena saccavajjena natthi puññaṁ, natthi puññassa āgamo”ti. ",
+      "english": "In giving, self-control, restraint, and truthfulness there is no merit or outcome of merit.” "
+    },
+    {
+      "number": 202,
+      "pali": "Sace tassa bhoto satthuno saccaṁ vacanaṁ, apaṇṇakatāya mayhaṁ, yvāhaṁ na kiñci byābādhemi tasaṁ vā thāvaraṁ vā. ",
+      "english": "If what this good teacher says is true, it’s a sure bet for me to not hurt any creature firm or frail. "
+    },
+    {
+      "number": 203,
+      "pali": "Ubhayamettha kaṭaggāho, yaṁ camhi kāyena saṁvuto vācāya saṁvuto manasā saṁvuto, yañca kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti. ",
+      "english": "I hold a winning hand on both counts, since I’m restrained in body, speech, and mind, and when my body breaks up, after death, I’ll be reborn in a good place, a heavenly realm.’ "
+    },
+    {
+      "number": 204,
+      "pali": "Tassa pāmojjaṁ jāyati. ",
+      "english": "Joy springs up in them. "
+    },
+    {
+      "number": 205,
+      "pali": "Pamuditassa pīti jāyati. ",
+      "english": "Being joyful, rapture springs up. "
+    },
+    {
+      "number": 206,
+      "pali": "Pītimanassa kāyo passambhati. ",
+      "english": "When the mind is full of rapture, the body becomes tranquil. "
+    },
+    {
+      "number": 207,
+      "pali": "Passaddhakāyo sukhaṁ vedayati. ",
+      "english": "When the body is tranquil, they feel bliss. "
+    },
+    {
+      "number": 208,
+      "pali": "Sukhino cittaṁ samādhiyati. ",
+      "english": "And when blissful, the mind becomes immersed in samādhi. "
+    },
+    {
+      "number": 209,
+      "pali": "Ayaṁ kho, gāmaṇi, dhammasamādhi ",
+      "english": "This is that immersion based on understanding of principle. "
+    },
+    {
+      "number": 210,
+      "pali": "tatra ce tvaṁ cittasamādhiṁ paṭilabheyyāsi, evaṁ tvaṁ imaṁ kaṅkhādhammaṁ pajaheyyāsi. ",
+      "english": "If you gain such mental immersion, you can give up that state of uncertainty. "
+    },
+    {
+      "number": 211,
+      "pali": "Sa kho so, gāmaṇi, ariyasāvako evaṁ vigatābhijjho vigatabyāpādo asammūḷho sampajāno paṭissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": "Then that noble disciple is rid of desire, rid of ill will, unconfused, aware, and mindful. They meditate spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 212,
+      "pali": "So iti paṭisañcikkhati: ",
+      "english": "They reflect thus: "
+    },
+    {
+      "number": 213,
+      "pali": "‘yvāyaṁ satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": "‘That teacher who had this doctrine and view: "
+    },
+    {
+      "number": 214,
+      "pali": "“karoto kārayato, chindato chedāpayato, pacato pācāpayato, socayato socāpayato, kilamato kilamāpayato, phandato phandāpayato, pāṇamatipātayato, adinnaṁ ādiyato, sandhiṁ chindato, nillopaṁ harato, ekāgārikaṁ karoto, paripanthe tiṭṭhato, paradāraṁ gacchato, musā bhaṇato, karoto karīyati pāpaṁ. ",
+      "english": "“The one who acts does a bad deed when they punish, mutilate, torture, aggrieve, oppress, intimidate, or when they encourage others to do the same. A bad deed is done when they kill, steal, break into houses, plunder wealth, steal from isolated buildings, commit highway robbery, commit adultery, and lie. "
+    },
+    {
+      "number": 215,
+      "pali": "Khurapariyantena cepi cakkena yo imissā pathaviyā pāṇe ekaṁ maṁsakhalaṁ ekaṁ maṁsapuñjaṁ kareyya, atthi tatonidānaṁ pāpaṁ, atthi pāpassa āgamo. ",
+      "english": "If you were to reduce all the living creatures of this earth to one heap and mass of flesh with a razor-edged chakram, evil comes of that, and an outcome of evil. "
+    },
+    {
+      "number": 216,
+      "pali": "Dakkhiṇañcepi gaṅgāya tīraṁ gaccheyya hananto ghātento chindanto chedāpento pacanto pācāpento, atthi tatonidānaṁ pāpaṁ, atthi pāpassa āgamo. ",
+      "english": "If you were to go along the south bank of the Ganges killing, mutilating, and torturing, and encouraging others to do the same, evil comes of that, and an outcome of evil. "
+    },
+    {
+      "number": 217,
+      "pali": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento, yajanto yajāpento, atthi tatonidānaṁ puññaṁ, atthi puññassa āgamo. ",
+      "english": "If you were to go along the north bank of the Ganges giving and sacrificing and encouraging others to do the same, merit comes of that, and an outcome of merit. "
+    },
+    {
+      "number": 218,
+      "pali": "Dānena damena saṁyamena saccavajjena atthi puññaṁ atthi puññassa āgamo”ti. ",
+      "english": "In giving, self-control, restraint, and truthfulness there is merit and outcome of merit.” "
+    },
+    {
+      "number": 219,
+      "pali": "Sace tassa bhoto satthuno saccaṁ vacanaṁ, apaṇṇakatāya mayhaṁ, yvāhaṁ na kiñci byābādhemi tasaṁ vā thāvaraṁ vā. ",
+      "english": "If what this good teacher says is true, it’s a sure bet for me to not hurt any creature firm or frail. "
+    },
+    {
+      "number": 220,
+      "pali": "Ubhayamettha kaṭaggāho, yaṁ camhi kāyena saṁvuto vācāya saṁvuto manasā saṁvuto, yañca kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti. ",
+      "english": "I hold a winning hand on both counts, since I’m restrained in body, speech, and mind, and when my body breaks up, after death, I’ll be reborn in a good place, a heavenly realm.’ "
+    },
+    {
+      "number": 221,
+      "pali": "Tassa pāmojjaṁ jāyati. ",
+      "english": "Joy springs up in them. "
+    },
+    {
+      "number": 222,
+      "pali": "Pamuditassa pīti jāyati. ",
+      "english": "Being joyful, rapture springs up. "
+    },
+    {
+      "number": 223,
+      "pali": "Pītimanassa kāyo passambhati. ",
+      "english": "When the mind is full of rapture, the body becomes tranquil. "
+    },
+    {
+      "number": 224,
+      "pali": "Passaddhakāyo sukhaṁ vedayati. ",
+      "english": "When the body is tranquil, they feel bliss. "
+    },
+    {
+      "number": 225,
+      "pali": "Sukhino cittaṁ samādhiyati. ",
+      "english": "And when blissful, the mind becomes immersed in samādhi. "
+    },
+    {
+      "number": 226,
+      "pali": "Ayaṁ kho, gāmaṇi, dhammasamādhi. ",
+      "english": "This is that immersion based on understanding of principle. "
+    },
+    {
+      "number": 227,
+      "pali": "Tatra ce tvaṁ cittasamādhiṁ paṭilabheyyāsi, evaṁ tvaṁ imaṁ kaṅkhādhammaṁ pajaheyyāsi. ",
+      "english": "If you gain such mental immersion, you can give up that state of uncertainty. "
+    },
+    {
+      "number": 228,
+      "pali": "Sa kho so, gāmaṇi, ariyasāvako evaṁ vigatābhijjho vigatabyāpādo asammūḷho sampajāno paṭissato karuṇāsahagatena cetasā ekaṁ disaṁ pharitvā viharati …pe… ",
+      "english": "Then that noble disciple is rid of desire, rid of ill will, unconfused, aware, and mindful. They meditate spreading a heart full of compassion … "
+    },
+    {
+      "number": 229,
+      "pali": "muditāsahagatena cetasā ekaṁ disaṁ pharitvā viharati …pe…. ",
+      "english": "rejoicing … "
+    },
+    {
+      "number": 230,
+      "pali": "Sa kho so, gāmaṇi, ariyasāvako evaṁ vigatābhijjho vigatabyāpādo asammūḷho sampajāno paṭissato upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": "equanimity to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of equanimity to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 231,
+      "pali": "So iti paṭisañcikkhati: ",
+      "english": ""
+    },
+    {
+      "number": 232,
+      "pali": "‘yvāyaṁ satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": ""
+    },
+    {
+      "number": 233,
+      "pali": "“natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko natthi paro loko, natthi mātā natthi pitā natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 234,
+      "pali": "Sace tassa bhoto satthuno saccaṁ vacanaṁ, apaṇṇakatāya mayhaṁ, yvāhaṁ na kiñci byābādhemi tasaṁ vā thāvaraṁ vā. ",
+      "english": ""
+    },
+    {
+      "number": 235,
+      "pali": "Ubhayamettha kaṭaggāho, yaṁ camhi kāyena saṁvuto vācāya saṁvuto manasā saṁvuto, yañca kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 236,
+      "pali": "Tassa pāmojjaṁ jāyati. ",
+      "english": ""
+    },
+    {
+      "number": 237,
+      "pali": "Pamuditassa pīti jāyati. ",
+      "english": ""
+    },
+    {
+      "number": 238,
+      "pali": "Pītimanassa kāyo passambhati. ",
+      "english": ""
+    },
+    {
+      "number": 239,
+      "pali": "Passaddhakāyo sukhaṁ vedayati. ",
+      "english": ""
+    },
+    {
+      "number": 240,
+      "pali": "Sukhino cittaṁ samādhiyati. ",
+      "english": ""
+    },
+    {
+      "number": 241,
+      "pali": "Ayaṁ kho, gāmaṇi, dhammasamādhi. ",
+      "english": ""
+    },
+    {
+      "number": 242,
+      "pali": "Tatra ce tvaṁ cittasamādhiṁ paṭilabheyyāsi, evaṁ tvaṁ imaṁ kaṅkhādhammaṁ pajaheyyāsi. ",
+      "english": ""
+    },
+    {
+      "number": 243,
+      "pali": "Sa kho so, gāmaṇi, ariyasāvako evaṁ vigatābhijjho vigatabyāpādo asammūḷho sampajāno paṭissato upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": ""
+    },
+    {
+      "number": 244,
+      "pali": "So iti paṭisañcikkhati: ",
+      "english": ""
+    },
+    {
+      "number": 245,
+      "pali": "‘yvāyaṁ satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": ""
+    },
+    {
+      "number": 246,
+      "pali": "“atthi dinnaṁ, atthi yiṭṭhaṁ, atthi hutaṁ, atthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, atthi ayaṁ loko atthi paro loko, atthi mātā atthi pitā atthi sattā opapātikā, atthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 247,
+      "pali": "Sace tassa bhoto satthuno saccaṁ vacanaṁ, apaṇṇakatāya mayhaṁ, yvāhaṁ na kiñci byābādhemi tasaṁ vā thāvaraṁ vā. ",
+      "english": ""
+    },
+    {
+      "number": 248,
+      "pali": "Ubhayamettha kaṭaggāho, yaṁ camhi kāyena saṁvuto vācāya saṁvuto manasā saṁvuto, yañca kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 249,
+      "pali": "Tassa pāmojjaṁ jāyati. ",
+      "english": ""
+    },
+    {
+      "number": 250,
+      "pali": "Pamuditassa pīti jāyati. ",
+      "english": ""
+    },
+    {
+      "number": 251,
+      "pali": "Pītimanassa kāyo passambhati. ",
+      "english": ""
+    },
+    {
+      "number": 252,
+      "pali": "Passaddhakāyo sukhaṁ vedayati. ",
+      "english": ""
+    },
+    {
+      "number": 253,
+      "pali": "Sukhino cittaṁ samādhiyati. ",
+      "english": ""
+    },
+    {
+      "number": 254,
+      "pali": "Ayaṁ kho, gāmaṇi, dhammasamādhi. ",
+      "english": ""
+    },
+    {
+      "number": 255,
+      "pali": "Tatra ce tvaṁ cittasamādhiṁ paṭilabheyyāsi, evaṁ tvaṁ imaṁ kaṅkhādhammaṁ pajaheyyāsi. ",
+      "english": ""
+    },
+    {
+      "number": 256,
+      "pali": "Sa kho so, gāmaṇi, ariyasāvako evaṁ vigatābhijjho vigatabyāpādo asammūḷho sampajāno paṭissato upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": ""
+    },
+    {
+      "number": 257,
+      "pali": "So iti paṭisañcikkhati: ",
+      "english": ""
+    },
+    {
+      "number": 258,
+      "pali": "‘yvāyaṁ satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": ""
+    },
+    {
+      "number": 259,
+      "pali": "“karoto kārayato, chedato chedāpayato, pacato pācāpayato, socayato socāpayato, kilamato kilamāpayato, phandato phandāpayato, pāṇamatipātayato, adinnaṁ ādiyato, sandhiṁ chindato, nillopaṁ harato, ekāgārikaṁ karoto, paripanthe tiṭṭhato, paradāraṁ gacchato, musā bhaṇato, karoto na karīyati pāpaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 260,
+      "pali": "Khurapariyantena cepi cakkena yo imissā pathaviyā pāṇe ekaṁ maṁsakhalaṁ ekaṁ maṁsapuñjaṁ kareyya, natthi tatonidānaṁ pāpaṁ, natthi pāpassa āgamo. ",
+      "english": ""
+    },
+    {
+      "number": 261,
+      "pali": "Dakkhiṇañcepi gaṅgāya tīraṁ gaccheyya hananto ghātento chindanto chedāpento pacanto pācāpento, natthi tatonidānaṁ pāpaṁ, natthi pāpassa āgamo. ",
+      "english": ""
+    },
+    {
+      "number": 262,
+      "pali": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento, yajanto yajāpento, natthi tatonidānaṁ puññaṁ, natthi puññassa āgamo. ",
+      "english": ""
+    },
+    {
+      "number": 263,
+      "pali": "Dānena damena saṁyamena saccavajjena natthi puññaṁ, natthi puññassa āgamo”ti. ",
+      "english": ""
+    },
+    {
+      "number": 264,
+      "pali": "Sace tassa bhoto satthuno saccaṁ vacanaṁ, apaṇṇakatāya mayhaṁ, yvāhaṁ na kiñci byābādhemi tasaṁ vā thāvaraṁ vā. ",
+      "english": ""
+    },
+    {
+      "number": 265,
+      "pali": "Ubhayamettha kaṭaggāho, yaṁ camhi kāyena saṁvuto vācāya saṁvuto manasā saṁvuto, yañca kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 266,
+      "pali": "Tassa pāmojjaṁ jāyati. ",
+      "english": ""
+    },
+    {
+      "number": 267,
+      "pali": "Pamuditassa pīti jāyati. ",
+      "english": ""
+    },
+    {
+      "number": 268,
+      "pali": "Pītimanassa kāyo passambhati. ",
+      "english": ""
+    },
+    {
+      "number": 269,
+      "pali": "Passaddhakāyo sukhaṁ vedayati. ",
+      "english": ""
+    },
+    {
+      "number": 270,
+      "pali": "Sukhino cittaṁ samādhiyati. ",
+      "english": ""
+    },
+    {
+      "number": 271,
+      "pali": "Ayaṁ kho, gāmaṇi, dhammasamādhi. ",
+      "english": ""
+    },
+    {
+      "number": 272,
+      "pali": "Tatra ce tvaṁ cittasamādhiṁ paṭilabheyyāsi, evaṁ tvaṁ imaṁ kaṅkhādhammaṁ pajaheyyāsi. ",
+      "english": ""
+    },
+    {
+      "number": 273,
+      "pali": "Sa kho so, gāmaṇi, ariyasāvako evaṁ vigatābhijjho vigatabyāpādo asammūḷho sampajāno paṭissato upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharati. ",
+      "english": ""
+    },
+    {
+      "number": 274,
+      "pali": "So iti paṭisañcikkhati: ",
+      "english": "They reflect thus: "
+    },
+    {
+      "number": 275,
+      "pali": "‘yvāyaṁ satthā evaṁvādī evaṁdiṭṭhi: ",
+      "english": ""
+    },
+    {
+      "number": 276,
+      "pali": "“karoto kārayato, chindato chedāpayato, pacato pācāpayato, socayato socāpayato, kilamato kilamāpayato, phandato phandāpayato, pāṇamatipātayato, adinnaṁ ādiyato, sandhiṁ chindato, nillopaṁ harato, ekāgārikaṁ karoto, paripanthe tiṭṭhato, paradāraṁ gacchato, musā bhaṇato, karoto karīyati pāpaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 277,
+      "pali": "Khurapariyantena cepi cakkena yo imissā pathaviyā pāṇe ekaṁ maṁsakhalaṁ ekaṁ maṁsapuñjaṁ kareyya, atthi tatonidānaṁ pāpaṁ, atthi pāpassa āgamo. ",
+      "english": ""
+    },
+    {
+      "number": 278,
+      "pali": "Dakkhiṇañcepi gaṅgāya tīraṁ gaccheyya hananto ghātento chindanto chedāpento pacanto pācāpento, atthi tatonidānaṁ pāpaṁ, atthi pāpassa āgamo. ",
+      "english": ""
+    },
+    {
+      "number": 279,
+      "pali": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento, yajanto yajāpento, atthi tatonidānaṁ puññaṁ, atthi puññassa āgamo. ",
+      "english": ""
+    },
+    {
+      "number": 280,
+      "pali": "Dānena damena saṁyamena saccavajjena atthi puññaṁ, atthi puññassa āgamo”ti. ",
+      "english": ""
+    },
+    {
+      "number": 281,
+      "pali": "Sace tassa bhoto satthuno saccaṁ vacanaṁ, apaṇṇakatāya mayhaṁ, yvāhaṁ na kiñci byābādhemi tasaṁ vā thāvaraṁ vā. ",
+      "english": "‘If what this good teacher says is true, it’s a sure bet for me to not hurt any creature firm or frail. "
+    },
+    {
+      "number": 282,
+      "pali": "Ubhayamettha kaṭaggāho, yaṁ camhi kāyena saṁvuto vācāya saṁvuto manasā saṁvuto, yañca kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti. ",
+      "english": "I hold a winning hand on both counts, since I’m restrained in body, speech, and mind, and when my body breaks up, after death, I’ll be reborn in a good place, a heavenly realm.’ "
+    },
+    {
+      "number": 283,
+      "pali": "Tassa pāmojjaṁ jāyati. ",
+      "english": "Joy springs up in them. "
+    },
+    {
+      "number": 284,
+      "pali": "Pamuditassa pīti jāyati. ",
+      "english": "Being joyful, rapture springs up. "
+    },
+    {
+      "number": 285,
+      "pali": "Pītimanassa kāyo passambhati. ",
+      "english": "When the mind is full of rapture, the body becomes tranquil. "
+    },
+    {
+      "number": 286,
+      "pali": "Passaddhakāyo sukhaṁ vedayati. ",
+      "english": "When the body is tranquil, they feel bliss. "
+    },
+    {
+      "number": 287,
+      "pali": "Sukhino cittaṁ samādhiyati. ",
+      "english": "And when blissful, the mind becomes immersed in samādhi. "
+    },
+    {
+      "number": 288,
+      "pali": "Ayaṁ kho, gāmaṇi, dhammasamādhi. ",
+      "english": "This is that immersion based on understanding of principle. "
+    },
+    {
+      "number": 289,
+      "pali": "Tatra ce tvaṁ cittasamādhiṁ paṭilabheyyāsi, evaṁ tvaṁ imaṁ kaṅkhādhammaṁ pajaheyyāsī”ti. ",
+      "english": "If you gain such mental immersion, you can give up that state of uncertainty.” "
+    },
+    {
+      "number": 290,
+      "pali": "Evaṁ vutte, pāṭaliyo gāmaṇi bhagavantaṁ etadavoca: ",
+      "english": "When he said this, Pāṭaliya the chief said to the Buddha, "
+    },
+    {
+      "number": 291,
+      "pali": "“abhikkantaṁ, bhante, abhikkantaṁ, bhante …pe… ",
+      "english": "“Excellent, sir! Excellent! … "
+    },
+    {
+      "number": 292,
+      "pali": "ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
+      "english": "From this day forth, may the Buddha remember me as a lay follower who has gone for refuge for life.” "
+    },
+    {
+      "number": 293,
+      "pali": "Terasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 294,
+      "pali": "Gāmaṇivaggo paṭhamo. ",
+      "english": ""
+    },
+    {
+      "number": 295,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 296,
+      "pali": "Caṇḍo puṭo yodhājīvo, ",
+      "english": ""
+    },
+    {
+      "number": 297,
+      "pali": "Hatthasso asibandhako; ",
+      "english": ""
+    },
+    {
+      "number": 298,
+      "pali": "Desanā saṅkhakulaṁ maṇicūḷaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 299,
+      "pali": "Bhadrarāsiyapāṭalīti. ",
+      "english": ""
+    },
+    {
+      "number": 300,
+      "pali": "Gāmaṇisaṁyuttaṁ samattaṁ. ",
+      "english": "The Linked Discourses on chiefs are complete. "
+    }
+  ]
+}

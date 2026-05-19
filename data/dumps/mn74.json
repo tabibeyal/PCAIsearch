@@ -1,0 +1,525 @@
+{
+  "sutta_id": "MN74",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 74 ",
+      "english": "Middle Discourses 74 "
+    },
+    {
+      "number": 2,
+      "pali": "Dīghanakhasutta ",
+      "english": "With Dīghanakha "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā rājagahe viharati gijjhakūṭe pabbate sūkarakhatāyaṁ. ",
+      "english": "At one time the Buddha was staying near Rājagaha, on the Vulture’s Peak Mountain in the Boar’s Cave. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho dīghanakho paribbājako yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "Then the wanderer Dīghanakha went up to the Buddha, and exchanged greetings with him. "
+    },
+    {
+      "number": 6,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho dīghanakho paribbājako bhagavantaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he stood to one side and said to the Buddha, "
+    },
+    {
+      "number": 7,
+      "pali": "“ahañhi, bho gotama, evaṁvādī evaṁdiṭṭhi: ",
+      "english": "“Worthy Gotama, this is my doctrine and view: "
+    },
+    {
+      "number": 8,
+      "pali": "‘sabbaṁ me nakkhamatī’”ti. ",
+      "english": "‘Nothing is acceptable to me.’” "
+    },
+    {
+      "number": 9,
+      "pali": "“Yāpi kho te esā, aggivessana, diṭṭhi: ",
+      "english": "“This view of yours, Aggivessana—"
+    },
+    {
+      "number": 10,
+      "pali": "‘sabbaṁ me nakkhamatī’ti, esāpi te diṭṭhi nakkhamatī”ti? ",
+      "english": "is that acceptable to you?” "
+    },
+    {
+      "number": 11,
+      "pali": "“Esā ce me, bho gotama, diṭṭhi khameyya, taṁpassa tādisameva, taṁpassa tādisamevā”ti. ",
+      "english": "“If I were to accept this view, worthy Gotama, it would make no difference, it would make no difference!” "
+    },
+    {
+      "number": 12,
+      "pali": "“Ato kho te, aggivessana, bahū hi bahutarā lokasmiṁ ye evamāhaṁsu: ",
+      "english": "“Well, Aggivessana, there are many more in the world who say, "
+    },
+    {
+      "number": 13,
+      "pali": "‘taṁpassa tādisameva, taṁpassa tādisamevā’ti. ",
+      "english": "‘It would make no difference! It would make no difference!’ "
+    },
+    {
+      "number": 14,
+      "pali": "Te tañceva diṭṭhiṁ nappajahanti aññañca diṭṭhiṁ upādiyanti. ",
+      "english": "But they don’t give up that view, and they grasp another view. "
+    },
+    {
+      "number": 15,
+      "pali": "Ato kho te, aggivessana, tanū hi tanutarā lokasmiṁ ye evamāhaṁsu: ",
+      "english": "And there are a scant few in the world who say, "
+    },
+    {
+      "number": 16,
+      "pali": "‘taṁpassa tādisameva, taṁpassa tādisamevā’ti. ",
+      "english": "‘It would make no difference! It would make no difference!’ "
+    },
+    {
+      "number": 17,
+      "pali": "Te tañceva diṭṭhiṁ pajahanti aññañca diṭṭhiṁ na upādiyanti. ",
+      "english": "And they give up that view by not grasping another view. "
+    },
+    {
+      "number": 18,
+      "pali": "Santaggivessana, eke samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "There are some ascetics and brahmins who have this doctrine and view: "
+    },
+    {
+      "number": 19,
+      "pali": "‘sabbaṁ me khamatī’ti; ",
+      "english": "‘Everything is acceptable to me.’ "
+    },
+    {
+      "number": 20,
+      "pali": "santaggivessana, eke samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "There are some ascetics and brahmins who have this doctrine and view: "
+    },
+    {
+      "number": 21,
+      "pali": "‘sabbaṁ me nakkhamatī’ti; ",
+      "english": "‘Nothing is acceptable to me.’ "
+    },
+    {
+      "number": 22,
+      "pali": "santaggivessana, eke samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "There are some ascetics and brahmins who have this doctrine and view: "
+    },
+    {
+      "number": 23,
+      "pali": "‘ekaccaṁ me khamati, ekaccaṁ me nakkhamatī’ti. ",
+      "english": "‘Some things are acceptable to me and some things are not.’ "
+    },
+    {
+      "number": 24,
+      "pali": "Tatraggivessana, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ‘sabbaṁ me khamatī’ti ",
+      "english": "Regarding this, the view of the ascetics and brahmins to whom everything is acceptable "
+    },
+    {
+      "number": 25,
+      "pali": "tesamayaṁ diṭṭhi sārāgāya santike, saññogāya santike, abhinandanāya santike, ajjhosānāya santike, upādānāya santike; ",
+      "english": "is close to greed, bondage, approving, attachment, and grasping. "
+    },
+    {
+      "number": 26,
+      "pali": "tatraggivessana ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ‘sabbaṁ me nakkhamatī’ti ",
+      "english": "The view of the ascetics and brahmins to whom nothing is acceptable "
+    },
+    {
+      "number": 27,
+      "pali": "tesamayaṁ diṭṭhi asārāgāya santike, asaññogāya santike, anabhinandanāya santike, anajjhosānāya santike, anupādānāya santike”ti. ",
+      "english": "is far from greed, bondage, approving, attachment, and grasping.” "
+    },
+    {
+      "number": 28,
+      "pali": "Evaṁ vutte, dīghanakho paribbājako bhagavantaṁ etadavoca: ",
+      "english": "When he said this, the wanderer Dīghanakha said to the Buddha, "
+    },
+    {
+      "number": 29,
+      "pali": "“ukkaṁseti me bhavaṁ gotamo diṭṭhigataṁ, samukkaṁseti me bhavaṁ gotamo diṭṭhigatan”ti. ",
+      "english": "“Worthy Gotama commends my conviction! He recommends my conviction!” "
+    },
+    {
+      "number": 30,
+      "pali": "“Tatraggivessana, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "“Now, regarding the ascetics and brahmins to whom "
+    },
+    {
+      "number": 31,
+      "pali": "‘ekaccaṁ me khamati, ekaccaṁ me nakkhamatī’ti. ",
+      "english": "some things are acceptable and some things are not. "
+    },
+    {
+      "number": 32,
+      "pali": "Yā hi tesaṁ khamati sāyaṁ diṭṭhi sārāgāya santike, saññogāya santike, abhinandanāya santike, ajjhosānāya santike, upādānāya santike; ",
+      "english": "Their view of what is acceptable is close to greed, bondage, approving, attachment, and grasping. "
+    },
+    {
+      "number": 33,
+      "pali": "yā hi tesaṁ nakkhamati sāyaṁ diṭṭhi asārāgāya santike, asaññogāya santike, anabhinandanāya santike, anajjhosānāya santike, anupādānāya santike. ",
+      "english": "Their view of what is not acceptable is far from greed, bondage, approving, attachment, and grasping. "
+    },
+    {
+      "number": 34,
+      "pali": "Tatraggivessana, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "When it comes to the view of the ascetics and brahmins to whom "
+    },
+    {
+      "number": 35,
+      "pali": "‘sabbaṁ me khamatī’ti ",
+      "english": "everything is acceptable, "
+    },
+    {
+      "number": 36,
+      "pali": "tattha viññū puriso iti paṭisañcikkhati: ",
+      "english": "a sensible person reflects like this: "
+    },
+    {
+      "number": 37,
+      "pali": "‘yā kho me ayaṁ diṭṭhi—",
+      "english": "‘I have the view that "
+    },
+    {
+      "number": 38,
+      "pali": "sabbaṁ me khamatīti, ",
+      "english": "everything is acceptable. "
+    },
+    {
+      "number": 39,
+      "pali": "imañce ahaṁ diṭṭhiṁ thāmasā parāmāsā abhinivissa vohareyyaṁ—",
+      "english": "Suppose I were to obstinately stick to this view and insist, "
+    },
+    {
+      "number": 40,
+      "pali": "idameva saccaṁ moghamaññanti; ",
+      "english": "“This is the only truth, anything else is futile.” "
+    },
+    {
+      "number": 41,
+      "pali": "dvīhi me assa viggaho—",
+      "english": "Then I’d argue with two individuals—"
+    },
+    {
+      "number": 42,
+      "pali": "yo cāyaṁ samaṇo vā brāhmaṇo vā evaṁvādī evaṁdiṭṭhi—sabbaṁ me nakkhamatīti, ",
+      "english": "an ascetic or brahmin to whom nothing is acceptable, "
+    },
+    {
+      "number": 43,
+      "pali": "yo cāyaṁ samaṇo vā brāhmaṇo vā evaṁvādī evaṁdiṭṭhi—ekaccaṁ me khamati, ekaccaṁ me nakkhamatīti—",
+      "english": "and an ascetic or brahmin to whom some things are acceptable and some things are not. "
+    },
+    {
+      "number": 44,
+      "pali": "imehi assa dvīhi viggaho. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Iti viggahe sati vivādo, vivāde sati vighāto, vighāte sati vihesā’. ",
+      "english": "And when there’s arguing, there’s dispute; when there’s dispute there’s distress; and when there’s distress there’s harm.’ "
+    },
+    {
+      "number": 46,
+      "pali": "Iti so viggahañca vivādañca vighātañca vihesañca attani sampassamāno tañceva diṭṭhiṁ pajahati aññañca diṭṭhiṁ na upādiyati. ",
+      "english": "So, considering in themselves the potential for argument, dispute, distress, and harm, they give up that view by not grasping another view. "
+    },
+    {
+      "number": 47,
+      "pali": "Evametāsaṁ diṭṭhīnaṁ pahānaṁ hoti, evametāsaṁ diṭṭhīnaṁ paṭinissaggo hoti. ",
+      "english": "That’s how those views are given up and let go. "
+    },
+    {
+      "number": 48,
+      "pali": "Tatraggivessana, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "When it comes to the view of the ascetics and brahmins to whom "
+    },
+    {
+      "number": 49,
+      "pali": "‘sabbaṁ me nakkhamatī’ti ",
+      "english": "nothing is acceptable, "
+    },
+    {
+      "number": 50,
+      "pali": "tattha viññū puriso iti paṭisañcikkhati: ",
+      "english": "a sensible person reflects like this: "
+    },
+    {
+      "number": 51,
+      "pali": "‘yā kho me ayaṁ diṭṭhi—",
+      "english": "‘I have the view that "
+    },
+    {
+      "number": 52,
+      "pali": "sabbaṁ me nakkhamatīti, ",
+      "english": "nothing is acceptable. "
+    },
+    {
+      "number": 53,
+      "pali": "imañce ahaṁ diṭṭhiṁ thāmasā parāmāsā abhinivissa vohareyyaṁ—",
+      "english": "Suppose I were to obstinately stick to this view and insist, "
+    },
+    {
+      "number": 54,
+      "pali": "idameva saccaṁ moghamaññanti; ",
+      "english": "“This is the only truth, anything else is futile.” "
+    },
+    {
+      "number": 55,
+      "pali": "dvīhi me assa viggaho—",
+      "english": "Then I’d argue with two individuals—"
+    },
+    {
+      "number": 56,
+      "pali": "yo cāyaṁ samaṇo vā brāhmaṇo vā evaṁvādī evaṁdiṭṭhi—sabbaṁ me khamatīti, ",
+      "english": "an ascetic or brahmin to whom everything is acceptable, "
+    },
+    {
+      "number": 57,
+      "pali": "yo cāyaṁ samaṇo vā brāhmaṇo vā evaṁvādī evaṁdiṭṭhi—ekaccaṁ me khamati ekaccaṁ me nakkhamatīti—",
+      "english": "and an ascetic or brahmin to whom some things are acceptable and some things are not. "
+    },
+    {
+      "number": 58,
+      "pali": "imehi assa dvīhi viggaho. ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "Iti viggahe sati vivādo, vivāde sati vighāto, vighāte sati vihesā’. ",
+      "english": "And when there’s arguing, there’s dispute; when there’s dispute there’s distress; and when there’s distress there’s harm.’ "
+    },
+    {
+      "number": 60,
+      "pali": "Iti so viggahañca vivādañca vighātañca vihesañca attani sampassamāno tañceva diṭṭhiṁ pajahati aññañca diṭṭhiṁ na upādiyati. ",
+      "english": "So, considering in themselves the potential for argument, dispute, distress, and harm, they give up that view by not grasping another view. "
+    },
+    {
+      "number": 61,
+      "pali": "Evametāsaṁ diṭṭhīnaṁ pahānaṁ hoti, evametāsaṁ diṭṭhīnaṁ paṭinissaggo hoti. ",
+      "english": "That’s how those views are given up and let go. "
+    },
+    {
+      "number": 62,
+      "pali": "Tatraggivessana, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "When it comes to the view of the ascetics and brahmins to whom "
+    },
+    {
+      "number": 63,
+      "pali": "‘ekaccaṁ me khamati, ekaccaṁ me nakkhamatī’ti ",
+      "english": "some things are acceptable to me and some things are not, "
+    },
+    {
+      "number": 64,
+      "pali": "tattha viññū puriso iti paṭisañcikkhati: ",
+      "english": "a sensible person reflects like this: "
+    },
+    {
+      "number": 65,
+      "pali": "‘yā kho me ayaṁ diṭṭhi—",
+      "english": "‘I have the view that "
+    },
+    {
+      "number": 66,
+      "pali": "ekaccaṁ me khamati, ekaccaṁ me nakkhamatīti, ",
+      "english": "some things are acceptable and some things are not. "
+    },
+    {
+      "number": 67,
+      "pali": "imañce ahaṁ diṭṭhiṁ thāmasā parāmāsā abhinivissa vohareyyaṁ—",
+      "english": "Suppose I were to obstinately stick to this view and insist, "
+    },
+    {
+      "number": 68,
+      "pali": "idameva saccaṁ moghamaññanti; ",
+      "english": "“This is the only truth, anything else is futile.” "
+    },
+    {
+      "number": 69,
+      "pali": "dvīhi me assa viggaho—",
+      "english": "Then I’d argue with two individuals—"
+    },
+    {
+      "number": 70,
+      "pali": "yo cāyaṁ samaṇo vā brāhmaṇo vā evaṁvādī evaṁdiṭṭhi—sabbaṁ me khamatīti, ",
+      "english": "an ascetic or brahmin to whom everything is acceptable, "
+    },
+    {
+      "number": 71,
+      "pali": "yo cāyaṁ samaṇo vā brāhmaṇo vā evaṁvādī evaṁdiṭṭhi—sabbaṁ me nakkhamatīti—",
+      "english": "and an ascetic or brahmin to whom nothing is acceptable. "
+    },
+    {
+      "number": 72,
+      "pali": "imehi assa dvīhi viggaho. ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "Iti viggahe sati vivādo, vivāde sati vighāto, vighāte sati vihesā’. ",
+      "english": "And when there’s arguing, there’s dispute; when there’s dispute there’s distress; and when there’s distress there’s harm.’ "
+    },
+    {
+      "number": 74,
+      "pali": "Iti so viggahañca vivādañca vighātañca vihesañca attani sampassamāno tañceva diṭṭhiṁ pajahati aññañca diṭṭhiṁ na upādiyati. ",
+      "english": "So, considering in themselves the potential for argument, dispute, distress, and harm, they give up that view by not grasping another view. "
+    },
+    {
+      "number": 75,
+      "pali": "Evametāsaṁ diṭṭhīnaṁ pahānaṁ hoti, evametāsaṁ diṭṭhīnaṁ paṭinissaggo hoti. ",
+      "english": "That’s how those views are given up and let go. "
+    },
+    {
+      "number": 76,
+      "pali": "Ayaṁ kho panaggivessana, kāyo rūpī cātumahābhūtiko mātāpettikasambhavo odanakummāsūpacayo aniccucchādanaparimaddanabhedanaviddhaṁsanadhammo, aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassitabbo. ",
+      "english": "Aggivessana, this body is formed. It’s made up of the four principal states, produced by mother and father, built up from rice and porridge, liable to impermanence, to wearing away and erosion, to breaking up and destruction. You should see it as impermanent, as suffering, as diseased, as a boil, as a dart, as gloom, as an affliction, as alien, as breaking apart, as empty, as not-self. "
+    },
+    {
+      "number": 77,
+      "pali": "Tassimaṁ kāyaṁ aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassato yo kāyasmiṁ kāyachando kāyasneho kāyanvayatā sā pahīyati. ",
+      "english": "Doing so, you’ll give up desire, affection, and subservience to the body. "
+    },
+    {
+      "number": 78,
+      "pali": "Tisso kho imā, aggivessana, vedanā—",
+      "english": "There are these three feelings: "
+    },
+    {
+      "number": 79,
+      "pali": "sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā. ",
+      "english": "pleasant, painful, and neutral. "
+    },
+    {
+      "number": 80,
+      "pali": "Yasmiṁ, aggivessana, samaye sukhaṁ vedanaṁ vedeti, neva tasmiṁ samaye dukkhaṁ vedanaṁ vedeti, na adukkhamasukhaṁ vedanaṁ vedeti; ",
+      "english": "At a time when you feel a pleasant feeling, you don’t feel a painful or neutral feeling; "
+    },
+    {
+      "number": 81,
+      "pali": "sukhaṁyeva tasmiṁ samaye vedanaṁ vedeti. ",
+      "english": "you only feel a pleasant feeling. "
+    },
+    {
+      "number": 82,
+      "pali": "Yasmiṁ, aggivessana, samaye dukkhaṁ vedanaṁ vedeti, neva tasmiṁ samaye sukhaṁ vedanaṁ vedeti, na adukkhamasukhaṁ vedanaṁ vedeti; ",
+      "english": "At a time when you feel a painful feeling, you don’t feel a pleasant or neutral feeling; "
+    },
+    {
+      "number": 83,
+      "pali": "dukkhaṁyeva tasmiṁ samaye vedanaṁ vedeti. ",
+      "english": "you only feel a painful feeling. "
+    },
+    {
+      "number": 84,
+      "pali": "Yasmiṁ, aggivessana, samaye adukkhamasukhaṁ vedanaṁ vedeti, neva tasmiṁ samaye sukhaṁ vedanaṁ vedeti, na dukkhaṁ vedanaṁ vedeti; ",
+      "english": "At a time when you feel a neutral feeling, you don’t feel a pleasant or painful feeling; "
+    },
+    {
+      "number": 85,
+      "pali": "adukkhamasukhaṁyeva tasmiṁ samaye vedanaṁ vedeti. ",
+      "english": "you only feel a neutral feeling. "
+    },
+    {
+      "number": 86,
+      "pali": "Sukhāpi kho, aggivessana, vedanā aniccā saṅkhatā paṭiccasamuppannā khayadhammā vayadhammā virāgadhammā nirodhadhammā; ",
+      "english": "Pleasant, painful, and neutral feelings are impermanent, conditioned, dependently originated, liable to end, vanish, fade away, and cease. "
+    },
+    {
+      "number": 87,
+      "pali": "dukkhāpi kho, aggivessana, vedanā aniccā saṅkhatā paṭiccasamuppannā khayadhammā vayadhammā virāgadhammā nirodhadhammā; ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "adukkhamasukhāpi kho, aggivessana, vedanā aniccā saṅkhatā paṭiccasamuppannā khayadhammā vayadhammā virāgadhammā nirodhadhammā. ",
+      "english": ""
+    },
+    {
+      "number": 89,
+      "pali": "Evaṁ passaṁ, aggivessana, sutavā ariyasāvako sukhāyapi vedanāya nibbindati, dukkhāyapi vedanāya nibbindati, adukkhamasukhāyapi vedanāya nibbindati; ",
+      "english": "Seeing this, a learned noble disciple grows disillusioned with pleasant, painful, and neutral feelings. "
+    },
+    {
+      "number": 90,
+      "pali": "nibbindaṁ virajjati, virāgā vimuccati. Vimuttasmiṁ, vimuttamiti ñāṇaṁ hoti. ",
+      "english": "Being disillusioned, desire fades away. When desire fades away they’re freed. When they’re freed, they know they’re freed. "
+    },
+    {
+      "number": 91,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
+    },
+    {
+      "number": 92,
+      "pali": "Evaṁ vimuttacitto kho, aggivessana, bhikkhu na kenaci saṁvadati, na kenaci vivadati, yañca loke vuttaṁ tena voharati, aparāmasan”ti. ",
+      "english": "A mendicant whose mind is freed like this doesn’t side with anyone or dispute with anyone. They use the language of the world to communicate without getting stuck on it.” "
+    },
+    {
+      "number": 93,
+      "pali": "Tena kho pana samayena āyasmā sāriputto bhagavato piṭṭhito ṭhito hoti bhagavantaṁ bījayamāno. ",
+      "english": "Now at that time Venerable Sāriputta was standing behind the Buddha fanning him. "
+    },
+    {
+      "number": 94,
+      "pali": "Atha kho āyasmato sāriputtassa etadahosi: ",
+      "english": "Then he thought, "
+    },
+    {
+      "number": 95,
+      "pali": "“tesaṁ tesaṁ kira no bhagavā dhammānaṁ abhiññā pahānamāha, tesaṁ tesaṁ kira no sugato dhammānaṁ abhiññā paṭinissaggamāhā”ti. ",
+      "english": "“It seems the Buddha speaks of giving up and letting go all these things through direct knowledge.” "
+    },
+    {
+      "number": 96,
+      "pali": "Iti hidaṁ āyasmato sāriputtassa paṭisañcikkhato anupādāya āsavehi cittaṁ vimucci. ",
+      "english": "Reflecting like this, Venerable Sāriputta’s mind was freed from the defilements by not grasping. "
+    },
+    {
+      "number": 97,
+      "pali": "Dīghanakhassa pana paribbājakassa virajaṁ vītamalaṁ dhammacakkhuṁ udapādi: ",
+      "english": "And the stainless, immaculate vision of the Dhamma arose in the wanderer Dīghanakha: "
+    },
+    {
+      "number": 98,
+      "pali": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti. ",
+      "english": "“Everything that is liable to arise is liable to cease.” "
+    },
+    {
+      "number": 99,
+      "pali": "Atha kho dīghanakho paribbājako diṭṭhadhammo pattadhammo viditadhammo pariyogāḷhadhammo tiṇṇavicikiccho vigatakathaṅkatho vesārajjappatto aparappaccayo satthusāsane bhagavantaṁ etadavoca: ",
+      "english": "Then Dīghanakha saw, attained, understood, and fathomed the Dhamma. He went beyond doubt, got rid of indecision, and became self-assured and independent of others regarding the Teacher’s instructions. He said to the Buddha: "
+    },
+    {
+      "number": 100,
+      "pali": "“abhikkantaṁ, bho gotama, abhikkantaṁ, bho gotama. ",
+      "english": "“Excellent, worthy Gotama! Excellent! "
+    },
+    {
+      "number": 101,
+      "pali": "Seyyathāpi, bho gotama, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya: ‘cakkhumanto rūpāni dakkhantī’ti; evameva kho bhotā gotamena anekapariyāyena dhammo pakāsito. ",
+      "english": "As if he were righting the overturned, or revealing the hidden, or pointing out the path to the lost, or lighting a lamp in the dark so people with clear eyes can see what’s there, worthy Gotama has made the teaching clear in many ways. "
+    },
+    {
+      "number": 102,
+      "pali": "Esāhaṁ bhavantaṁ gotamaṁ saraṇaṁ gacchāmi dhammañca bhikkhusaṅghañca. ",
+      "english": "I go for refuge to the worthy Gotama, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 103,
+      "pali": "Upāsakaṁ maṁ bhavaṁ gotamo dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
+      "english": "From this day forth, may the worthy Gotama remember me as a lay follower who has gone for refuge for life.” "
+    },
+    {
+      "number": 104,
+      "pali": "Dīghanakhasuttaṁ niṭṭhitaṁ catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

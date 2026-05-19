@@ -1,0 +1,620 @@
+{
+  "sutta_id": "MN64",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 64 ",
+      "english": "Middle Discourses 64 "
+    },
+    {
+      "number": 2,
+      "pali": "Mahāmālukyasutta ",
+      "english": "The Longer Discourse With Māluṅkya "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“dhāretha no tumhe, bhikkhave, mayā desitāni pañcorambhāgiyāni saṁyojanānī”ti? ",
+      "english": "“Mendicants, do you remember the five lower fetters taught by me?” "
+    },
+    {
+      "number": 10,
+      "pali": "Evaṁ vutte, āyasmā mālukyaputto bhagavantaṁ etadavoca: ",
+      "english": "When he said this, Venerable Māluṅkyaputta said to him, "
+    },
+    {
+      "number": 11,
+      "pali": "“ahaṁ kho, bhante, dhāremi bhagavatā desitāni pañcorambhāgiyāni saṁyojanānī”ti. ",
+      "english": "“Sir, I remember them.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Yathā kathaṁ pana tvaṁ, mālukyaputta, dhāresi mayā desitāni pañcorambhāgiyāni saṁyojanānī”ti? ",
+      "english": "“But how do you remember them?” "
+    },
+    {
+      "number": 13,
+      "pali": "“Sakkāyadiṭṭhiṁ kho ahaṁ, bhante, bhagavatā orambhāgiyaṁ saṁyojanaṁ desitaṁ dhāremi; ",
+      "english": "“I remember the lower fetters taught by the Buddha as follows: substantialist view, "
+    },
+    {
+      "number": 14,
+      "pali": "vicikicchaṁ kho ahaṁ, bhante, bhagavatā orambhāgiyaṁ saṁyojanaṁ desitaṁ dhāremi; ",
+      "english": "doubt, "
+    },
+    {
+      "number": 15,
+      "pali": "sīlabbataparāmāsaṁ kho ahaṁ, bhante, bhagavatā orambhāgiyaṁ saṁyojanaṁ desitaṁ dhāremi; ",
+      "english": "misapprehension of precepts and observances, "
+    },
+    {
+      "number": 16,
+      "pali": "kāmacchandaṁ kho ahaṁ, bhante, bhagavatā orambhāgiyaṁ saṁyojanaṁ desitaṁ dhāremi; ",
+      "english": "sensual desire, "
+    },
+    {
+      "number": 17,
+      "pali": "byāpādaṁ kho ahaṁ, bhante, bhagavatā orambhāgiyaṁ saṁyojanaṁ desitaṁ dhāremi. ",
+      "english": "and ill will. "
+    },
+    {
+      "number": 18,
+      "pali": "Evaṁ kho ahaṁ, bhante, dhāremi bhagavatā desitāni pañcorambhāgiyāni saṁyojanānī”ti. ",
+      "english": "That’s how I remember the five lower fetters taught by the Buddha.” "
+    },
+    {
+      "number": 19,
+      "pali": "“Kassa kho nāma tvaṁ, mālukyaputta, imāni evaṁ pañcorambhāgiyāni saṁyojanāni desitāni dhāresi? ",
+      "english": "“Who on earth do you remember being taught the five lower fetters in that way? "
+    },
+    {
+      "number": 20,
+      "pali": "Nanu, mālukyaputta, aññatitthiyā paribbājakā iminā taruṇūpamena upārambhena upārambhissanti? ",
+      "english": "Wouldn’t the wanderers of other religions fault you using the simile of the infant? "
+    },
+    {
+      "number": 21,
+      "pali": "Daharassa hi, mālukyaputta, kumārassa mandassa uttānaseyyakassa sakkāyotipi na hoti, kuto panassa uppajjissati sakkāyadiṭṭhi? ",
+      "english": "For a little baby doesn’t even have a concept of ‘substantial reality’, so how could substantialist view possibly arise in them? "
+    },
+    {
+      "number": 22,
+      "pali": "Anusetvevassa sakkāyadiṭṭhānusayo. ",
+      "english": "Yet the underlying tendency to substantialist view still lies within them. "
+    },
+    {
+      "number": 23,
+      "pali": "Daharassa hi, mālukyaputta, kumārassa mandassa uttānaseyyakassa dhammātipi na hoti, kuto panassa uppajjissati dhammesu vicikicchā? ",
+      "english": "A little baby doesn’t even have a concept of ‘teachings’, so how could doubt about the teachings possibly arise in them? "
+    },
+    {
+      "number": 24,
+      "pali": "Anusetvevassa vicikicchānusayo. ",
+      "english": "Yet the underlying tendency to doubt still lies within them. "
+    },
+    {
+      "number": 25,
+      "pali": "Daharassa hi, mālukyaputta, kumārassa mandassa uttānaseyyakassa sīlātipi na hoti, kuto panassa uppajjissati sīlesu sīlabbataparāmāso? ",
+      "english": "A little baby doesn’t even have a concept of ‘precepts’, so how could misapprehension of precepts and observances possibly arise in them? "
+    },
+    {
+      "number": 26,
+      "pali": "Anusetvevassa sīlabbataparāmāsānusayo. ",
+      "english": "Yet the underlying tendency to misapprehension of precepts and observances still lies within them. "
+    },
+    {
+      "number": 27,
+      "pali": "Daharassa hi, mālukyaputta, kumārassa mandassa uttānaseyyakassa kāmātipi na hoti, kuto panassa uppajjissati kāmesu kāmacchando? ",
+      "english": "A little baby doesn’t even have a concept of ‘sensual pleasures’, so how could desire for sensual pleasures possibly arise in them? "
+    },
+    {
+      "number": 28,
+      "pali": "Anusetvevassa kāmarāgānusayo. ",
+      "english": "Yet the underlying tendency to sensual desire still lies within them. "
+    },
+    {
+      "number": 29,
+      "pali": "Daharassa hi, mālukyaputta, kumārassa mandassa uttānaseyyakassa sattātipi na hoti, kuto panassa uppajjissati sattesu byāpādo? ",
+      "english": "A little baby doesn’t even have a concept of ‘sentient beings’, so how could ill will for sentient beings possibly arise in them? "
+    },
+    {
+      "number": 30,
+      "pali": "Anusetvevassa byāpādānusayo. ",
+      "english": "Yet the underlying tendency to ill will still lies within them. "
+    },
+    {
+      "number": 31,
+      "pali": "Nanu, mālukyaputta, aññatitthiyā paribbājakā iminā taruṇūpamena upārambhena upārambhissantī”ti? ",
+      "english": "Wouldn’t the wanderers of other religions fault you using the simile of the infant?” "
+    },
+    {
+      "number": 32,
+      "pali": "Evaṁ vutte, āyasmā ānando bhagavantaṁ etadavoca: ",
+      "english": "When he said this, Venerable Ānanda said to the Buddha, "
+    },
+    {
+      "number": 33,
+      "pali": "“etassa, bhagavā, kālo, etassa, sugata, kālo ",
+      "english": "“Now is the time, Blessed One! Now is the time, Holy One! "
+    },
+    {
+      "number": 34,
+      "pali": "yaṁ bhagavā pañcorambhāgiyāni saṁyojanāni deseyya. Bhagavato sutvā bhikkhū dhāressantī”ti. ",
+      "english": "May the Buddha teach the five lower fetters. The mendicants will listen and remember it.” "
+    },
+    {
+      "number": 35,
+      "pali": "“Tena hānanda, suṇāhi, sādhukaṁ manasi karohi; bhāsissāmī”ti. ",
+      "english": "“Well then, Ānanda, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 36,
+      "pali": "“Evaṁ, bhante”ti kho āyasmā ānando bhagavato paccassosi. ",
+      "english": "“Yes, sir,” Ānanda replied. "
+    },
+    {
+      "number": 37,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 38,
+      "pali": "“Idhānanda, assutavā puthujjano ariyānaṁ adassāvī ariyadhammassa akovido ariyadhamme avinīto, sappurisānaṁ adassāvī sappurisadhammassa akovido sappurisadhamme avinīto ",
+      "english": "“Ānanda, take an unlearned ordinary person who has not seen the noble ones, and is neither skilled nor trained in the teaching of the noble ones. They’ve not seen true persons, and are neither skilled nor trained in the teaching of the true persons. "
+    },
+    {
+      "number": 39,
+      "pali": "sakkāyadiṭṭhipariyuṭṭhitena cetasā viharati sakkāyadiṭṭhiparetena; ",
+      "english": "Their heart is overcome and mired in substantialist view, "
+    },
+    {
+      "number": 40,
+      "pali": "uppannāya ca sakkāyadiṭṭhiyā nissaraṇaṁ yathābhūtaṁ nappajānāti. ",
+      "english": "and they don’t truly understand the escape from substantialist view that has arisen. "
+    },
+    {
+      "number": 41,
+      "pali": "Tassa sā sakkāyadiṭṭhi thāmagatā appaṭivinītā orambhāgiyaṁ saṁyojanaṁ. ",
+      "english": "That substantialist view is entrenched in them, not eliminated: it is a lower fetter. "
+    },
+    {
+      "number": 42,
+      "pali": "Vicikicchāpariyuṭṭhitena cetasā viharati vicikicchāparetena; ",
+      "english": "Their heart is overcome and mired in doubt, "
+    },
+    {
+      "number": 43,
+      "pali": "uppannāya ca vicikicchāya nissaraṇaṁ yathābhūtaṁ nappajānāti. ",
+      "english": "and they don’t truly understand the escape from doubt that has arisen. "
+    },
+    {
+      "number": 44,
+      "pali": "Tassa sā vicikicchā thāmagatā appaṭivinītā orambhāgiyaṁ saṁyojanaṁ. ",
+      "english": "That doubt is entrenched in them, not eliminated: it is a lower fetter. "
+    },
+    {
+      "number": 45,
+      "pali": "Sīlabbataparāmāsapariyuṭṭhitena cetasā viharati sīlabbataparāmāsaparetena; ",
+      "english": "Their heart is overcome and mired in misapprehension of precepts and observances, "
+    },
+    {
+      "number": 46,
+      "pali": "uppannassa ca sīlabbataparāmāsassa nissaraṇaṁ yathābhūtaṁ nappajānāti. ",
+      "english": "and they don’t truly understand the escape from misapprehension of precepts and observances that has arisen. "
+    },
+    {
+      "number": 47,
+      "pali": "Tassa so sīlabbataparāmāso thāmagato appaṭivinīto orambhāgiyaṁ saṁyojanaṁ. ",
+      "english": "That misapprehension of precepts and observances is entrenched in them, not eliminated: it is a lower fetter. "
+    },
+    {
+      "number": 48,
+      "pali": "Kāmarāgapariyuṭṭhitena cetasā viharati kāmarāgaparetena; ",
+      "english": "Their heart is overcome and mired in sensual desire, "
+    },
+    {
+      "number": 49,
+      "pali": "uppannassa ca kāmarāgassa nissaraṇaṁ yathābhūtaṁ nappajānāti. ",
+      "english": "and they don’t truly understand the escape from sensual desire that has arisen. "
+    },
+    {
+      "number": 50,
+      "pali": "Tassa so kāmarāgo thāmagato appaṭivinīto orambhāgiyaṁ saṁyojanaṁ. ",
+      "english": "That sensual desire is entrenched in them, not eliminated: it is a lower fetter. "
+    },
+    {
+      "number": 51,
+      "pali": "Byāpādapariyuṭṭhitena cetasā viharati byāpādaparetena; ",
+      "english": "Their heart is overcome and mired in ill will, "
+    },
+    {
+      "number": 52,
+      "pali": "uppannassa ca byāpādassa nissaraṇaṁ yathābhūtaṁ nappajānāti. ",
+      "english": "and they don’t truly understand the escape from ill will that has arisen. "
+    },
+    {
+      "number": 53,
+      "pali": "Tassa so byāpādo thāmagato appaṭivinīto orambhāgiyaṁ saṁyojanaṁ. ",
+      "english": "That ill will is entrenched in them, not eliminated: it is a lower fetter. "
+    },
+    {
+      "number": 54,
+      "pali": "Sutavā ca kho, ānanda, ariyasāvako ariyānaṁ dassāvī ariyadhammassa kovido ariyadhamme suvinīto, sappurisānaṁ dassāvī sappurisadhammassa kovido sappurisadhamme suvinīto na sakkāyadiṭṭhipariyuṭṭhitena cetasā viharati na sakkāyadiṭṭhiparetena; ",
+      "english": "But a learned noble disciple has seen the noble ones, and is skilled and trained in the teaching of the noble ones. They’ve seen true persons, and are skilled and trained in the teaching of the true persons. Their heart is not overcome and mired in substantialist view, "
+    },
+    {
+      "number": 55,
+      "pali": "uppannāya ca sakkāyadiṭṭhiyā nissaraṇaṁ yathābhūtaṁ pajānāti. ",
+      "english": "and they truly understand the escape from substantialist view that has arisen. "
+    },
+    {
+      "number": 56,
+      "pali": "Tassa sā sakkāyadiṭṭhi sānusayā pahīyati. ",
+      "english": "That substantialist view, along with any underlying tendency to it, is given up in them. "
+    },
+    {
+      "number": 57,
+      "pali": "Na vicikicchāpariyuṭṭhitena cetasā viharati na vicikicchāparetena; ",
+      "english": "Their heart is not overcome and mired in doubt, "
+    },
+    {
+      "number": 58,
+      "pali": "uppannāya ca vicikicchāya nissaraṇaṁ yathābhūtaṁ pajānāti. ",
+      "english": "and they truly understand the escape from doubt that has arisen. "
+    },
+    {
+      "number": 59,
+      "pali": "Tassa sā vicikicchā sānusayā pahīyati. ",
+      "english": "That doubt, along with any underlying tendency to it, is given up in them. "
+    },
+    {
+      "number": 60,
+      "pali": "Na sīlabbataparāmāsapariyuṭṭhitena cetasā viharati na sīlabbataparāmāsaparetena; ",
+      "english": "Their heart is not overcome and mired in misapprehension of precepts and observances, "
+    },
+    {
+      "number": 61,
+      "pali": "uppannassa ca sīlabbataparāmāsassa nissaraṇaṁ yathābhūtaṁ pajānāti. ",
+      "english": "and they truly understand the escape from misapprehension of precepts and observances that has arisen. "
+    },
+    {
+      "number": 62,
+      "pali": "Tassa so sīlabbataparāmāso sānusayo pahīyati. ",
+      "english": "That misapprehension of precepts and observances, along with any underlying tendency to it, is given up in them. "
+    },
+    {
+      "number": 63,
+      "pali": "Na kāmarāgapariyuṭṭhitena cetasā viharati na kāmarāgaparetena; ",
+      "english": "Their heart is not overcome and mired in sensual desire, "
+    },
+    {
+      "number": 64,
+      "pali": "uppannassa ca kāmarāgassa nissaraṇaṁ yathābhūtaṁ pajānāti. ",
+      "english": "and they truly understand the escape from sensual desire that has arisen. "
+    },
+    {
+      "number": 65,
+      "pali": "Tassa so kāmarāgo sānusayo pahīyati. ",
+      "english": "That sensual desire, along with any underlying tendency to it, is given up in them. "
+    },
+    {
+      "number": 66,
+      "pali": "Na byāpādapariyuṭṭhitena cetasā viharati na byāpādaparetena; ",
+      "english": "Their heart is not overcome and mired in ill will, "
+    },
+    {
+      "number": 67,
+      "pali": "uppannassa ca byāpādassa nissaraṇaṁ yathābhūtaṁ pajānāti. ",
+      "english": "and they truly understand the escape from ill will that has arisen. "
+    },
+    {
+      "number": 68,
+      "pali": "Tassa so byāpādo sānusayo pahīyati. ",
+      "english": "That ill will, along with any underlying tendency to it, is given up in them. "
+    },
+    {
+      "number": 69,
+      "pali": "Yo, ānanda, maggo yā paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya taṁ maggaṁ taṁ paṭipadaṁ anāgamma pañcorambhāgiyāni saṁyojanāni ñassati vā dakkhati vā pajahissati vāti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "There is a path and a practice for giving up the five lower fetters. It’s not possible to know or see or give up the five lower fetters without relying on that path and that practice. "
+    },
+    {
+      "number": 70,
+      "pali": "Seyyathāpi, ānanda, mahato rukkhassa tiṭṭhato sāravato tacaṁ acchetvā phegguṁ acchetvā sāracchedo bhavissatīti—",
+      "english": "Suppose there was a large tree standing with heartwood. It’s not possible to cut out the heartwood without having cut through the bark and the softwood. "
+    },
+    {
+      "number": 71,
+      "pali": "netaṁ ṭhānaṁ vijjati; ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "evameva kho, ānanda, yo maggo yā paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya taṁ maggaṁ taṁ paṭipadaṁ anāgamma pañcorambhāgiyāni saṁyojanāni ñassati vā dakkhati vā pajahissati vāti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "In the same way, there is a path and a practice for giving up the five lower fetters. It’s not possible to know or see or give up the five lower fetters without relying on that path and that practice. "
+    },
+    {
+      "number": 73,
+      "pali": "Yo ca kho, ānanda, maggo yā paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya taṁ maggaṁ taṁ paṭipadaṁ āgamma pañcorambhāgiyāni saṁyojanāni ñassati vā dakkhati vā pajahissati vāti—ṭhānametaṁ vijjati. ",
+      "english": "But it is possible to know and see and give up the five lower fetters by relying on that path and that practice. "
+    },
+    {
+      "number": 74,
+      "pali": "Seyyathāpi, ānanda, mahato rukkhassa tiṭṭhato sāravato tacaṁ chetvā phegguṁ chetvā sāracchedo bhavissatīti—ṭhānametaṁ vijjati. ",
+      "english": "Suppose there was a large tree standing with heartwood. It is possible to cut out the heartwood after having cut through the bark and the softwood. "
+    },
+    {
+      "number": 75,
+      "pali": "evameva kho, ānanda, yo maggo yā paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya taṁ maggaṁ taṁ paṭipadaṁ āgamma pañcorambhāgiyāni saṁyojanāni ñassati vā dakkhati vā pajahissati vāti—ṭhānametaṁ vijjati. ",
+      "english": "In the same way, there is a path and a practice for giving up the five lower fetters. It is possible to know and see and give up the five lower fetters by relying on that path and that practice. "
+    },
+    {
+      "number": 76,
+      "pali": "Seyyathāpi, ānanda, gaṅgā nadī pūrā udakassa samatittikā kākapeyyā. ",
+      "english": "Suppose the river Ganges was full to the brim so a crow could drink from it. "
+    },
+    {
+      "number": 77,
+      "pali": "Atha dubbalako puriso āgaccheyya: ",
+      "english": "Then along comes a feeble person, who thinks: "
+    },
+    {
+      "number": 78,
+      "pali": "‘ahaṁ imissā gaṅgāya nadiyā tiriyaṁ bāhāya sotaṁ chetvā sotthinā pāraṁ gacchissāmī’ti; ",
+      "english": "‘By swimming with my arms I’ll safely cross over to the far shore of the Ganges.’ "
+    },
+    {
+      "number": 79,
+      "pali": "so na sakkuṇeyya gaṅgāya nadiyā tiriyaṁ bāhāya sotaṁ chetvā sotthinā pāraṁ gantuṁ. ",
+      "english": "But they’re not able to do so. "
+    },
+    {
+      "number": 80,
+      "pali": "Evameva kho, ānanda, yesaṁ kesañci sakkāyanirodhāya dhamme desiyamāne cittaṁ na pakkhandati nappasīdati na santiṭṭhati na vimuccati; ",
+      "english": "In the same way, when the Dhamma is being taught for the cessation of substantial reality, someone whose mind does not leap forth, gain confidence, settle down, and become decided "
+    },
+    {
+      "number": 81,
+      "pali": "seyyathāpi so dubbalako puriso evamete daṭṭhabbā. ",
+      "english": "should be regarded as being like that feeble person. "
+    },
+    {
+      "number": 82,
+      "pali": "Seyyathāpi, ānanda, gaṅgā nadī pūrā udakassa samatittikā kākapeyyā. ",
+      "english": "Suppose the river Ganges was full to the brim so a crow could drink from it. "
+    },
+    {
+      "number": 83,
+      "pali": "Atha balavā puriso āgaccheyya: ",
+      "english": "Then along comes a strong person, who thinks: "
+    },
+    {
+      "number": 84,
+      "pali": "‘ahaṁ imissā gaṅgāya nadiyā tiriyaṁ bāhāya sotaṁ chetvā sotthinā pāraṁ gacchissāmī’ti; ",
+      "english": "‘By swimming with my arms I’ll safely cross over to the far shore of the Ganges.’ "
+    },
+    {
+      "number": 85,
+      "pali": "so sakkuṇeyya gaṅgāya nadiyā tiriyaṁ bāhāya sotaṁ chetvā sotthinā pāraṁ gantuṁ. ",
+      "english": "And they are able to do so. "
+    },
+    {
+      "number": 86,
+      "pali": "Evameva kho, ānanda, yesaṁ kesañci sakkāyanirodhāya dhamme desiyamāne cittaṁ pakkhandati pasīdati santiṭṭhati vimuccati; ",
+      "english": "In the same way, when the Dhamma is being taught for the cessation of substantial reality, someone whose mind leaps forth, gains confidence, settles down, and becomes decided "
+    },
+    {
+      "number": 87,
+      "pali": "seyyathāpi so balavā puriso evamete daṭṭhabbā. ",
+      "english": "should be regarded as being like that strong person. "
+    },
+    {
+      "number": 88,
+      "pali": "Katamo cānanda, maggo, katamā paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya? ",
+      "english": "And what, Ānanda, is the path and the practice for giving up the five lower fetters? "
+    },
+    {
+      "number": 89,
+      "pali": "Idhānanda, bhikkhu upadhivivekā akusalānaṁ dhammānaṁ pahānā sabbaso kāyaduṭṭhullānaṁ paṭippassaddhiyā vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant—due to the seclusion from attachments, the giving up of unskillful qualities, and the complete settling of physical discomforts—quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 90,
+      "pali": "So yadeva tattha hoti rūpagataṁ vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+      "english": "They contemplate the phenomena there—included in form, feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as gloom, as an affliction, as alien, as breaking apart, as empty, as not-self. "
+    },
+    {
+      "number": 91,
+      "pali": "So tehi dhammehi cittaṁ paṭivāpeti. ",
+      "english": "They turn their mind away from those things, "
+    },
+    {
+      "number": 92,
+      "pali": "So tehi dhammehi cittaṁ paṭivāpetvā amatāya dhātuyā cittaṁ upasaṁharati: ",
+      "english": "and apply it to the element free of death: "
+    },
+    {
+      "number": 93,
+      "pali": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+      "english": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ "
+    },
+    {
+      "number": 94,
+      "pali": "So tattha ṭhito āsavānaṁ khayaṁ pāpuṇāti; ",
+      "english": "Abiding in that they attain the ending of defilements. "
+    },
+    {
+      "number": 95,
+      "pali": "no ce āsavānaṁ khayaṁ pāpuṇāti teneva dhammarāgena tāya dhammanandiyā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti, tattha parinibbāyī, anāvattidhammo tasmā lokā. ",
+      "english": "If they don’t attain the ending of defilements, with the ending of the five lower fetters they’re reborn spontaneously, because of their passion and love for that meditation. They are extinguished there, and are not liable to return from that world. "
+    },
+    {
+      "number": 96,
+      "pali": "Ayampi kho, ānanda, maggo ayaṁ paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya. ",
+      "english": "This is the path and the practice for giving up the five lower fetters. "
+    },
+    {
+      "number": 97,
+      "pali": "Puna caparaṁ, ānanda, bhikkhu vitakkavicārānaṁ vūpasamā …pe… dutiyaṁ jhānaṁ upasampajja viharati …pe… ",
+      "english": "Furthermore, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption … "
+    },
+    {
+      "number": 98,
+      "pali": "tatiyaṁ jhānaṁ …pe… ",
+      "english": "third absorption … "
+    },
+    {
+      "number": 99,
+      "pali": "catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "fourth absorption. "
+    },
+    {
+      "number": 100,
+      "pali": "So yadeva tattha hoti rūpagataṁ vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ … ",
+      "english": "They contemplate the phenomena there—included in form, feeling, perception, choices, and consciousness—as impermanent … "
+    },
+    {
+      "number": 101,
+      "pali": "pe… ",
+      "english": "They turn their mind away from those things … "
+    },
+    {
+      "number": 102,
+      "pali": "anāvattidhammo tasmā lokā. ",
+      "english": "If they don’t attain the ending of defilements, they’re reborn spontaneously … and are not liable to return from that world. "
+    },
+    {
+      "number": 103,
+      "pali": "Ayampi kho, ānanda, maggo ayaṁ paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya. ",
+      "english": "This too is the path and the practice for giving up the five lower fetters. "
+    },
+    {
+      "number": 104,
+      "pali": "Puna caparaṁ, ānanda, bhikkhu sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanaṁ upasampajja viharati. ",
+      "english": "Furthermore, a mendicant, going totally beyond perceptions of form, with the disappearance of perceptions of impingement, not focusing on perceptions of diversity, aware that ‘space is infinite’, enters and remains in the dimension of infinite space. "
+    },
+    {
+      "number": 105,
+      "pali": "So yadeva tattha hoti vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ … ",
+      "english": "They contemplate the phenomena there—included in feeling, perception, choices, and consciousness—as impermanent … "
+    },
+    {
+      "number": 106,
+      "pali": "pe… ",
+      "english": "They turn their mind away from those things … "
+    },
+    {
+      "number": 107,
+      "pali": "anāvattidhammo tasmā lokā. ",
+      "english": "If they don’t attain the ending of defilements, they’re reborn spontaneously … and are not liable to return from that world. "
+    },
+    {
+      "number": 108,
+      "pali": "Ayampi kho, ānanda, maggo ayaṁ paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya. ",
+      "english": "This too is the path and the practice for giving up the five lower fetters. "
+    },
+    {
+      "number": 109,
+      "pali": "Puna caparaṁ, ānanda, bhikkhu sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanaṁ upasampajja viharati. ",
+      "english": "Furthermore, a mendicant, going totally beyond the dimension of infinite space, aware that ‘consciousness is infinite’, enters and remains in the dimension of infinite consciousness. "
+    },
+    {
+      "number": 110,
+      "pali": "So yadeva tattha hoti vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ … ",
+      "english": "They contemplate the phenomena there—included in feeling, perception, choices, and consciousness—as impermanent … "
+    },
+    {
+      "number": 111,
+      "pali": "pe… ",
+      "english": "They turn their mind away from those things … "
+    },
+    {
+      "number": 112,
+      "pali": "anāvattidhammo tasmā lokā. ",
+      "english": "If they don’t attain the ending of defilements, they’re reborn spontaneously … and are not liable to return from that world. "
+    },
+    {
+      "number": 113,
+      "pali": "Ayampi kho, ānanda, maggo ayaṁ paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya. ",
+      "english": "This too is the path and the practice for giving up the five lower fetters. "
+    },
+    {
+      "number": 114,
+      "pali": "Puna caparaṁ, ānanda, bhikkhu sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanaṁ upasampajja viharati. ",
+      "english": "Furthermore, a mendicant, going totally beyond the dimension of infinite consciousness, aware that ‘there is nothing at all’, enters and remains in the dimension of nothingness. "
+    },
+    {
+      "number": 115,
+      "pali": "So yadeva tattha hoti vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ … ",
+      "english": "They contemplate the phenomena there—included in feeling, perception, choices, and consciousness—as impermanent … "
+    },
+    {
+      "number": 116,
+      "pali": "pe… ",
+      "english": "They turn their mind away from those things … "
+    },
+    {
+      "number": 117,
+      "pali": "anāvattidhammo tasmā lokā. ",
+      "english": "If they don’t attain the ending of defilements, they’re reborn spontaneously … and are not liable to return from that world. "
+    },
+    {
+      "number": 118,
+      "pali": "Ayampi kho, ānanda, maggo ayaṁ paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāyā”ti. ",
+      "english": "This too is the path and the practice for giving up the five lower fetters.” "
+    },
+    {
+      "number": 119,
+      "pali": "“Eso ce, bhante, maggo esā paṭipadā pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya, atha kiñcarahi idhekacce bhikkhū cetovimuttino ekacce bhikkhū paññāvimuttino”ti? ",
+      "english": "“Sir, if this is the path and the practice for giving up the five lower fetters, how then are some mendicants here released in heart while others are released by wisdom?” "
+    },
+    {
+      "number": 120,
+      "pali": "“Ettha kho panesāhaṁ, ānanda, indriyavemattataṁ vadāmī”ti. ",
+      "english": "“In that case, I say it is the disparity of their faculties.” "
+    },
+    {
+      "number": 121,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 122,
+      "pali": "Attamano āyasmā ānando bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Ānanda approved what the Buddha said. "
+    },
+    {
+      "number": 123,
+      "pali": "Mahāmālukyasuttaṁ niṭṭhitaṁ catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "sutta_id": "SN22.7",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 22.7 ",
+      "english": "Linked Discourses 22.7 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Nakulapituvagga ",
+      "english": "1. Nakula’s Father "
+    },
+    {
+      "number": 3,
+      "pali": "Upādāparitassanāsutta ",
+      "english": "Anxiety Because of Grasping "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthinidānaṁ. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "“Upādāparitassanañca vo, bhikkhave, desessāmi anupādāaparitassanañca. ",
+      "english": "“Mendicants, I will teach you how grasping leads to anxiety, and how not grasping leads to freedom from anxiety. "
+    },
+    {
+      "number": 6,
+      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "Listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 7,
+      "pali": "“Evaṁ, bhante”ti, kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Kathañca, bhikkhave, upādāparitassanā hoti? ",
+      "english": "“And how does grasping lead to anxiety? "
+    },
+    {
+      "number": 10,
+      "pali": "Idha, bhikkhave, assutavā puthujjano ariyānaṁ adassāvī ariyadhammassa akovido ariyadhamme avinīto, sappurisānaṁ adassāvī sappurisadhammassa akovido sappurisadhamme avinīto ",
+      "english": "It’s when an unlearned ordinary person has not seen the noble ones, and is neither skilled nor trained in the teaching of the noble ones. They’ve not seen true persons, and are neither skilled nor trained in the teaching of the true persons. "
+    },
+    {
+      "number": 11,
+      "pali": "rūpaṁ attato samanupassati, rūpavantaṁ vā attānaṁ; attani vā rūpaṁ, rūpasmiṁ vā attānaṁ. ",
+      "english": "They regard form as self, self as having form, form in self, or self in form. "
+    },
+    {
+      "number": 12,
+      "pali": "Tassa taṁ rūpaṁ vipariṇamati aññathā hoti. ",
+      "english": "But that form of theirs decays and perishes, "
+    },
+    {
+      "number": 13,
+      "pali": "Tassa rūpavipariṇāmaññathābhāvā rūpavipariṇāmānuparivatti viññāṇaṁ hoti. ",
+      "english": "and consciousness latches on to the perishing of form. "
+    },
+    {
+      "number": 14,
+      "pali": "Tassa rūpavipariṇāmānuparivattijā paritassanā dhammasamuppādā cittaṁ pariyādāya tiṭṭhanti. ",
+      "english": "Anxieties occupy their mind, born of latching on to the perishing of form, and originating in accordance with natural principles. "
+    },
+    {
+      "number": 15,
+      "pali": "Cetaso pariyādānā uttāsavā ca hoti vighātavā ca apekkhavā ca upādāya ca paritassati. ",
+      "english": "So they become frightened, worried, concerned, and anxious because of grasping. "
+    },
+    {
+      "number": 16,
+      "pali": "Vedanaṁ attato samanupassati, vedanāvantaṁ vā attānaṁ; attani vā vedanaṁ, vedanāya vā attānaṁ. ",
+      "english": "They regard feeling as self … "
+    },
+    {
+      "number": 17,
+      "pali": "Tassa sā vedanā vipariṇamati aññathā hoti. ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "Tassa vedanāvipariṇāmaññathābhāvā vedanāvipariṇāmānuparivatti viññāṇaṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "Tassa vedanāvipariṇāmānuparivattijā paritassanā dhammasamuppādā cittaṁ pariyādāya tiṭṭhanti. ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "Cetaso pariyādānā uttāsavā ca hoti vighātavā ca apekkhavā ca upādāya ca paritassati. ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "Saññaṁ attato samanupassati …pe… ",
+      "english": "They regard perception as self … "
+    },
+    {
+      "number": 22,
+      "pali": "saṅkhāre attato samanupassati, saṅkhāravantaṁ vā attānaṁ; attani vā saṅkhāre, saṅkhāresu vā attānaṁ. ",
+      "english": "They regard choices as self … "
+    },
+    {
+      "number": 23,
+      "pali": "Tassa te saṅkhārā vipariṇamanti aññathā honti. ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "Tassa saṅkhāravipariṇāmaññathābhāvā saṅkhāravipariṇāmānuparivatti viññāṇaṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Tassa saṅkhāravipariṇāmānuparivattijā paritassanā dhammasamuppādā cittaṁ pariyādāya tiṭṭhanti. ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "Cetaso pariyādānā uttāsavā ca hoti vighātavā ca apekkhavā ca upādāya ca paritassati. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "Viññāṇaṁ attato samanupassati, viññāṇavantaṁ vā attānaṁ; attani vā viññāṇaṁ, viññāṇasmiṁ vā attānaṁ. ",
+      "english": "They regard consciousness as self, self as having consciousness, consciousness in self, or self in consciousness. "
+    },
+    {
+      "number": 28,
+      "pali": "Tassa taṁ viññāṇaṁ vipariṇamati aññathā hoti. ",
+      "english": "But that consciousness of theirs decays and perishes, "
+    },
+    {
+      "number": 29,
+      "pali": "Tassa viññāṇavipariṇāmaññathābhāvā viññāṇavipariṇāmānuparivatti viññāṇaṁ hoti. ",
+      "english": "and consciousness latches on to the perishing of consciousness. "
+    },
+    {
+      "number": 30,
+      "pali": "Tassa viññāṇavipariṇāmānuparivattijā paritassanā dhammasamuppādā cittaṁ pariyādāya tiṭṭhanti. ",
+      "english": "Anxieties occupy their mind, born of latching on to the perishing of consciousness, and originating in accordance with natural principles. "
+    },
+    {
+      "number": 31,
+      "pali": "Cetaso pariyādānā uttāsavā ca hoti vighātavā ca apekkhavā ca upādāya ca paritassati. ",
+      "english": "So they become frightened, worried, concerned, and anxious because of grasping. "
+    },
+    {
+      "number": 32,
+      "pali": "Evaṁ kho, bhikkhave, upādāparitassanā hoti. ",
+      "english": "That’s how grasping leads to anxiety. "
+    },
+    {
+      "number": 33,
+      "pali": "Kathañca, bhikkhave, anupādāaparitassanā hoti? ",
+      "english": "And how does not grasping lead to freedom from anxiety? "
+    },
+    {
+      "number": 34,
+      "pali": "Idha, bhikkhave, sutavā ariyasāvako ariyānaṁ dassāvī ariyadhammassa kovido ariyadhamme suvinīto, sappurisānaṁ dassāvī sappurisadhammassa kovido sappurisadhamme suvinīto ",
+      "english": "It’s when a learned noble disciple has seen the noble ones, and is skilled and trained in the teaching of the noble ones. They’ve seen true persons, and are skilled and trained in the teaching of the true persons. "
+    },
+    {
+      "number": 35,
+      "pali": "na rūpaṁ attato samanupassati, na rūpavantaṁ vā attānaṁ; na attani vā rūpaṁ, na rūpasmiṁ vā attānaṁ. ",
+      "english": "They don’t regard form as self, self as having form, form in self, or self in form. "
+    },
+    {
+      "number": 36,
+      "pali": "Tassa taṁ rūpaṁ vipariṇamati aññathā hoti. ",
+      "english": "When that form of theirs decays and perishes, "
+    },
+    {
+      "number": 37,
+      "pali": "Tassa rūpavipariṇāmaññathābhāvā na rūpavipariṇāmānuparivatti viññāṇaṁ hoti. ",
+      "english": "consciousness doesn’t latch on to the perishing of form. "
+    },
+    {
+      "number": 38,
+      "pali": "Tassa na rūpavipariṇāmānuparivattijā paritassanā dhammasamuppādā cittaṁ pariyādāya tiṭṭhanti. ",
+      "english": "Anxieties—born of latching on to the perishing of form and originating in accordance with natural principles—don’t occupy their mind. "
+    },
+    {
+      "number": 39,
+      "pali": "Cetaso apariyādānā na cevuttāsavā hoti na ca vighātavā na ca apekkhavā, anupādāya ca na paritassati. ",
+      "english": "So they don’t become frightened, worried, concerned, or anxious because of grasping. "
+    },
+    {
+      "number": 40,
+      "pali": "Na vedanaṁ attato samanupassati, na vedanāvantaṁ vā attānaṁ; na attani vā vedanaṁ, na vedanāya vā attānaṁ. ",
+      "english": "They don’t regard feeling as self … "
+    },
+    {
+      "number": 41,
+      "pali": "Tassa sā vedanā vipariṇamati aññathā hoti. ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "Tassa vedanāvipariṇāmaññathābhāvā na vedanāvipariṇāmānuparivatti viññāṇaṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Tassa na vedanāvipariṇāmānuparivattijā paritassanā dhammasamuppādā cittaṁ pariyādāya tiṭṭhanti. ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "Cetaso apariyādānā na cevuttāsavā hoti na ca vighātavā na ca apekkhavā, anupādāya ca na paritassati. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Na saññaṁ …pe… na saṅkhāre attato samanupassati, ",
+      "english": "They don’t regard perception as self … "
+    },
+    {
+      "number": 46,
+      "pali": "na attani vā saṅkhāre, na saṅkhāresu vā attānaṁ. ",
+      "english": "They don’t regard choices as self … "
+    },
+    {
+      "number": 47,
+      "pali": "na saṅkhāravantaṁ vā attānaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "Tassa te saṅkhārā vipariṇamanti aññathā honti. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Tassa saṅkhāravipariṇāmaññathābhāvā na saṅkhāravipariṇāmānuparivatti viññāṇaṁ hoti. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Tassa na saṅkhāravipariṇāmānuparivattijā paritassanā dhammasamuppādā cittaṁ pariyādāya tiṭṭhanti. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Cetaso apariyādānā na cevuttāsavā hoti na ca vighātavā na ca apekkhavā, anupādāya ca na paritassati. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Na viññāṇaṁ attato samanupassati, na viññāṇavantaṁ vā attānaṁ …pe… ",
+      "english": "They don’t regard consciousness as self … "
+    },
+    {
+      "number": 53,
+      "pali": "tassa taṁ viññāṇaṁ vipariṇamati aññathā hoti. ",
+      "english": "When that consciousness of theirs decays and perishes, "
+    },
+    {
+      "number": 54,
+      "pali": "Tassa viññāṇavipariṇāmaññathābhāvā na viññāṇavipariṇāmānuparivatti viññāṇaṁ hoti. ",
+      "english": "consciousness doesn’t latch on to the perishing of consciousness. "
+    },
+    {
+      "number": 55,
+      "pali": "Tassa na viññāṇavipariṇāmānuparivattijā paritassanā dhammasamuppādā cittaṁ pariyādāya tiṭṭhanti. ",
+      "english": "Anxieties—born of latching on to the perishing of consciousness and originating in accordance with natural principles—don’t occupy their mind. "
+    },
+    {
+      "number": 56,
+      "pali": "Cetaso apariyādānā na cevuttāsavā hoti na ca vighātavā na ca apekkhavā, anupādāya ca na paritassati. ",
+      "english": "So they don’t become frightened, worried, concerned, or anxious because of grasping. "
+    },
+    {
+      "number": 57,
+      "pali": "Evaṁ kho, bhikkhave, anupādā aparitassanaṁ hotī”ti. ",
+      "english": "That’s how not grasping leads to freedom from anxiety.” "
+    },
+    {
+      "number": 58,
+      "pali": "Sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

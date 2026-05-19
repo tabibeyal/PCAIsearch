@@ -1,0 +1,190 @@
+{
+  "sutta_id": "SN36.22",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 36.22 ",
+      "english": "Linked Discourses 36.22 "
+    },
+    {
+      "number": 2,
+      "pali": "3. Aṭṭhasatapariyāyavagga ",
+      "english": "3. The Explanation of the Hundred and Eight "
+    },
+    {
+      "number": 3,
+      "pali": "Aṭṭhasatasutta ",
+      "english": "The Explanation of the Hundred and Eight "
+    },
+    {
+      "number": 4,
+      "pali": "“Aṭṭhasatapariyāyaṁ vo, bhikkhave, dhammapariyāyaṁ desessāmi. ",
+      "english": "“Mendicants, I will teach you an exposition of the teaching on the hundred and eight. "
+    },
+    {
+      "number": 5,
+      "pali": "Taṁ suṇātha. ",
+      "english": "Listen … "
+    },
+    {
+      "number": 6,
+      "pali": "Katamo ca, bhikkhave, aṭṭhasatapariyāyo, dhammapariyāyo? ",
+      "english": "And what is the exposition of the teaching on the hundred and eight? "
+    },
+    {
+      "number": 7,
+      "pali": "Dvepi mayā, bhikkhave, vedanā vuttā pariyāyena; ",
+      "english": "Mendicants, in one explanation I’ve spoken of two feelings. In another explanation I’ve spoken of three feelings, or five, six, eighteen, thirty-six, or a hundred and eight feelings. "
+    },
+    {
+      "number": 8,
+      "pali": "tissopi mayā vedanā vuttā pariyāyena; ",
+      "english": ""
+    },
+    {
+      "number": 9,
+      "pali": "pañcapi mayā vedanā vuttā pariyāyena; ",
+      "english": ""
+    },
+    {
+      "number": 10,
+      "pali": "chapi mayā vedanā vuttā pariyāyena; ",
+      "english": ""
+    },
+    {
+      "number": 11,
+      "pali": "aṭṭhārasāpi mayā vedanā vuttā pariyāyena; ",
+      "english": ""
+    },
+    {
+      "number": 12,
+      "pali": "chattiṁsāpi mayā vedanā vuttā pariyāyena; ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "aṭṭhasatampi mayā vedanā vuttā pariyāyena. ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "Katamā ca, bhikkhave, dve vedanā? ",
+      "english": "And what are the two feelings? "
+    },
+    {
+      "number": 15,
+      "pali": "Kāyikā ca cetasikā ca—",
+      "english": "Physical and mental. "
+    },
+    {
+      "number": 16,
+      "pali": "imā vuccanti, bhikkhave, dve vedanā. ",
+      "english": "These are called the two feelings. "
+    },
+    {
+      "number": 17,
+      "pali": "Katamā ca, bhikkhave, tisso vedanā? ",
+      "english": "And what are the three feelings? "
+    },
+    {
+      "number": 18,
+      "pali": "Sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā—",
+      "english": "Pleasant, painful, and neutral feelings. … "
+    },
+    {
+      "number": 19,
+      "pali": "imā vuccanti, bhikkhave, tisso vedanā. ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "Katamā ca, bhikkhave, pañca vedanā? ",
+      "english": "And what are the five feelings? "
+    },
+    {
+      "number": 21,
+      "pali": "Sukhindriyaṁ, dukkhindriyaṁ, somanassindriyaṁ, domanassindriyaṁ, upekkhindriyaṁ—",
+      "english": "The faculties of pleasure, pain, happiness, sadness, and equanimity. … "
+    },
+    {
+      "number": 22,
+      "pali": "imā vuccanti, bhikkhave, pañca vedanā. ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "Katamā ca, bhikkhave, cha vedanā? ",
+      "english": "And what are the six feelings? "
+    },
+    {
+      "number": 24,
+      "pali": "Cakkhusamphassajā vedanā …pe… ",
+      "english": "Feeling born of eye contact … ear contact … nose contact … tongue contact … body contact … "
+    },
+    {
+      "number": 25,
+      "pali": "manosamphassajā vedanā—",
+      "english": "mind contact. … "
+    },
+    {
+      "number": 26,
+      "pali": "imā vuccanti, bhikkhave, cha vedanā. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "Katamā ca, bhikkhave, aṭṭhārasa vedanā? ",
+      "english": "And what are the eighteen feelings? "
+    },
+    {
+      "number": 28,
+      "pali": "Cha somanassūpavicārā, cha domanassūpavicārā, cha upekkhūpavicārā—",
+      "english": "There are six preoccupations with happiness, six preoccupations with sadness, and six preoccupations with equanimity. … "
+    },
+    {
+      "number": 29,
+      "pali": "imā vuccanti, bhikkhave, aṭṭhārasa vedanā. ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Katamā ca, bhikkhave, chattiṁsa vedanā? ",
+      "english": "And what are the thirty-six feelings? "
+    },
+    {
+      "number": 31,
+      "pali": "Cha gehasitāni somanassāni, cha nekkhammasitāni somanassāni, cha gehasitāni domanassāni, cha nekkhammasitāni domanassāni, cha gehasitā upekkhā, cha nekkhammasitā upekkhā—",
+      "english": "Six kinds of domestic happiness and six kinds of renunciate happiness. Six kinds of domestic sadness and six kinds of renunciate sadness. Six kinds of domestic equanimity and six kinds of renunciate equanimity. … "
+    },
+    {
+      "number": 32,
+      "pali": "imā vuccanti, bhikkhave, chattiṁsa vedanā. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Katamañca, bhikkhave, aṭṭhasataṁ vedanā? ",
+      "english": "And what are the hundred and eight feelings? "
+    },
+    {
+      "number": 34,
+      "pali": "Atītā chattiṁsa vedanā, anāgatā chattiṁsa vedanā, paccuppannā chattiṁsa vedanā—",
+      "english": "Thirty six feelings in the past, future, and present. "
+    },
+    {
+      "number": 35,
+      "pali": "imā vuccanti, bhikkhave, aṭṭhasataṁ vedanā. ",
+      "english": "These are called the hundred and eight feelings. "
+    },
+    {
+      "number": 36,
+      "pali": "Ayaṁ, bhikkhave, aṭṭhasatapariyāyo dhammapariyāyo”ti. ",
+      "english": "This is the exposition of the teaching on the hundred and eight.” "
+    },
+    {
+      "number": 37,
+      "pali": "Dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "sutta_id": "ITI75",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Itivuttaka 75 ",
+      "english": "So It Was Said 75 "
+    },
+    {
+      "number": 2,
+      "pali": "Tikanipāta ",
+      "english": "The Book of the Threes "
+    },
+    {
+      "number": 3,
+      "pali": "Tatiyavagga ",
+      "english": "Chapter Three "
+    },
+    {
+      "number": 4,
+      "pali": "Avuṭṭhikasutta ",
+      "english": "A Rainless Cloud "
+    },
+    {
+      "number": 5,
+      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
+      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+    },
+    {
+      "number": 6,
+      "pali": "“Tayome, bhikkhave, puggalā santo saṁvijjamānā lokasmiṁ. ",
+      "english": "“Mendicants, these three individuals are found in the world. "
+    },
+    {
+      "number": 7,
+      "pali": "Katame tayo? ",
+      "english": "What three? "
+    },
+    {
+      "number": 8,
+      "pali": "Avuṭṭhikasamo, padesavassī, sabbatthābhivassī. ",
+      "english": "One like a rainless cloud, one who rains locally, one who rains all over. "
+    },
+    {
+      "number": 9,
+      "pali": "Kathañca, bhikkhave, puggalo avuṭṭhikasamo hoti? ",
+      "english": "And how is an individual like a rainless cloud? "
+    },
+    {
+      "number": 10,
+      "pali": "Idha, bhikkhave, ekacco puggalo sabbesaññeva na dātā hoti, samaṇabrāhmaṇakapaṇaddhikavanibbakayācakānaṁ annaṁ pānaṁ vatthaṁ yānaṁ mālāgandhavilepanaṁ seyyāvasathapadīpeyyaṁ. ",
+      "english": "It’s when an individual doesn’t give to anyone at all—whether ascetics and brahmins, paupers, vagrants, supplicants, or beggars—such things as food, drink, clothing, vehicles; garlands, fragrance, and makeup; and bed, house, and lighting. "
+    },
+    {
+      "number": 11,
+      "pali": "Evaṁ kho, bhikkhave, puggalo avuṭṭhikasamo hoti. ",
+      "english": "That’s how an individual is like a rainless cloud. "
+    },
+    {
+      "number": 12,
+      "pali": "Kathañca, bhikkhave, puggalo padesavassī hoti? ",
+      "english": "And how does an individual rain locally? "
+    },
+    {
+      "number": 13,
+      "pali": "Idha, bhikkhave, ekacco puggalo ekaccānaṁ dātā hoti, ekaccānaṁ na dātā hoti samaṇabrāhmaṇakapaṇaddhikavanibbakayācakānaṁ annaṁ pānaṁ vatthaṁ yānaṁ mālāgandhavilepanaṁ seyyāvasathapadīpeyyaṁ. ",
+      "english": "It’s when an individual gives to some but not to others—whether ascetics and brahmins, paupers, vagrants, supplicants, or beggars—such things as food, drink, clothing, vehicles; garlands, fragrance, and makeup; and bed, house, and lighting. "
+    },
+    {
+      "number": 14,
+      "pali": "Evaṁ kho, bhikkhave, puggalo padesavassī hoti. ",
+      "english": "That’s how an individual rains locally. "
+    },
+    {
+      "number": 15,
+      "pali": "Kathañca, bhikkhave, puggalo sabbatthābhivassī hoti? ",
+      "english": "And how does an individual rain all over? "
+    },
+    {
+      "number": 16,
+      "pali": "Idha, bhikkhave, ekacco puggalo sabbesaṁva deti, samaṇabrāhmaṇakapaṇaddhikavanibbakayācakānaṁ annaṁ pānaṁ vatthaṁ yānaṁ mālāgandhavilepanaṁ seyyāvasathapadīpeyyaṁ. ",
+      "english": "It’s when an individual gives to everyone—whether ascetics and brahmins, paupers, vagrants, supplicants, or beggars—such things as food, drink, clothing, vehicles; garlands, fragrance, and makeup; and bed, house, and lighting. "
+    },
+    {
+      "number": 17,
+      "pali": "Evaṁ kho, bhikkhave, puggalo sabbatthābhivassī hoti. ",
+      "english": "That’s how an individual rains all over. "
+    },
+    {
+      "number": 18,
+      "pali": "Ime kho, bhikkhave, tayo puggalā santo saṁvijjamānā lokasmin”ti. ",
+      "english": "These are the three individuals found in the world.” "
+    },
+    {
+      "number": 19,
+      "pali": "Etamatthaṁ bhagavā avoca. ",
+      "english": "The Buddha spoke this matter. "
+    },
+    {
+      "number": 20,
+      "pali": "Tatthetaṁ iti vuccati: ",
+      "english": "On this it is said: "
+    },
+    {
+      "number": 21,
+      "pali": "“Na samaṇe na brāhmaṇe, ",
+      "english": "“They don’t share the food and drink "
+    },
+    {
+      "number": 22,
+      "pali": "Na kapaṇaddhikavanibbake; ",
+      "english": "they have acquired "
+    },
+    {
+      "number": 23,
+      "pali": "Laddhāna saṁvibhājeti, ",
+      "english": "with ascetics or brahmins, "
+    },
+    {
+      "number": 24,
+      "pali": "Annaṁ pānañca bhojanaṁ; ",
+      "english": "with paupers, vagrants, or supplicants. "
+    },
+    {
+      "number": 25,
+      "pali": "Taṁ ve avuṭṭhikasamoti, ",
+      "english": "They’re like a rainless cloud, "
+    },
+    {
+      "number": 26,
+      "pali": "Āhu naṁ purisādhamaṁ. ",
+      "english": "they say, the meanest of men. "
+    },
+    {
+      "number": 27,
+      "pali": "Ekaccānaṁ na dadāti, ",
+      "english": "They don’t give to some, "
+    },
+    {
+      "number": 28,
+      "pali": "ekaccānaṁ pavecchati; ",
+      "english": "to some they provide. "
+    },
+    {
+      "number": 29,
+      "pali": "Taṁ ve padesavassīti, ",
+      "english": "They rain locally, "
+    },
+    {
+      "number": 30,
+      "pali": "āhu medhāvino janā. ",
+      "english": "so say the wise. "
+    },
+    {
+      "number": 31,
+      "pali": "Subhikkhavāco puriso, ",
+      "english": "Compassionate for all beings, "
+    },
+    {
+      "number": 32,
+      "pali": "sabbabhūtānukampako; ",
+      "english": "that person distributes "
+    },
+    {
+      "number": 33,
+      "pali": "Āmodamāno pakireti, ",
+      "english": "abundant food upon request, "
+    },
+    {
+      "number": 34,
+      "pali": "detha dethāti bhāsati. ",
+      "english": "saying, “Give! Give!” "
+    },
+    {
+      "number": 35,
+      "pali": "Yathāpi megho thanayitvā, ",
+      "english": "The rain cloud rains forth, "
+    },
+    {
+      "number": 36,
+      "pali": "gajjayitvā pavassati; ",
+      "english": "having thundered and roared, "
+    },
+    {
+      "number": 37,
+      "pali": "Thalaṁ ninnañca pūreti, ",
+      "english": "drenching the earth with water, "
+    },
+    {
+      "number": 38,
+      "pali": "abhisandantova vārinā. ",
+      "english": "soaking the uplands and valleys. "
+    },
+    {
+      "number": 39,
+      "pali": "Evamevaṁ idhekacco, ",
+      "english": "Even so, such an individual, "
+    },
+    {
+      "number": 40,
+      "pali": "puggalo hoti tādiso; ",
+      "english": "having accumulated wealth "
+    },
+    {
+      "number": 41,
+      "pali": "Dhammena saṁharitvāna, ",
+      "english": "by legitimate means, "
+    },
+    {
+      "number": 42,
+      "pali": "uṭṭhānādhigataṁ dhanaṁ; ",
+      "english": "through their own hard work, "
+    },
+    {
+      "number": 43,
+      "pali": "Tappeti annapānena, ",
+      "english": "rightly satisfies with food and drink "
+    },
+    {
+      "number": 44,
+      "pali": "sammā patte vanibbake”ti. ",
+      "english": "those who have become supplicants.” "
+    },
+    {
+      "number": 45,
+      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
+      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
+    },
+    {
+      "number": 46,
+      "pali": "Chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

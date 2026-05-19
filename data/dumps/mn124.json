@@ -1,0 +1,360 @@
+{
+  "sutta_id": "MN124",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 124 ",
+      "english": "Middle Discourses 124 "
+    },
+    {
+      "number": 2,
+      "pali": "Bākulasutta ",
+      "english": "With Bakkula "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ āyasmā bākulo rājagahe viharati veḷuvane kalandakanivāpe. ",
+      "english": "At one time Venerable Bakkula was staying near Rājagaha, in the Bamboo Grove, the squirrels’ feeding ground. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho acelakassapo āyasmato bākulassa purāṇagihisahāyo yenāyasmā bākulo tenupasaṅkami; upasaṅkamitvā āyasmatā bākulena saddhiṁ sammodi. ",
+      "english": "Then the naked ascetic Kassapa, an old friend of Bakkula in the lay life, approached him, and exchanged greetings with him. "
+    },
+    {
+      "number": 6,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho acelakassapo āyasmantaṁ bākulaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to Venerable Bakkula, "
+    },
+    {
+      "number": 7,
+      "pali": "“Kīvaciraṁ pabbajitosi, āvuso bākulā”ti? ",
+      "english": "“Reverend Bakkula, how long has it been since you went forth?” "
+    },
+    {
+      "number": 8,
+      "pali": "“Asīti me, āvuso, vassāni pabbajitassā”ti. ",
+      "english": "“It has been eighty years, reverend.” "
+    },
+    {
+      "number": 9,
+      "pali": "“Imehi pana te, āvuso bākula, asītiyā vassehi katikkhattuṁ methuno dhammo paṭisevito”ti? ",
+      "english": "“But in these eighty years, how many times have you had sex?” "
+    },
+    {
+      "number": 10,
+      "pali": "“Na kho maṁ, āvuso kassapa, evaṁ pucchitabbaṁ: ",
+      "english": "“You shouldn’t ask me such a question. "
+    },
+    {
+      "number": 11,
+      "pali": "‘imehi pana te, āvuso bākula, asītiyā vassehi katikkhattuṁ methuno dhammo paṭisevito’ti. ",
+      "english": ""
+    },
+    {
+      "number": 12,
+      "pali": "Evañca kho maṁ, āvuso kassapa, pucchitabbaṁ: ",
+      "english": "Rather, you should ask me this: "
+    },
+    {
+      "number": 13,
+      "pali": "‘imehi pana te, āvuso bākula, asītiyā vassehi katikkhattuṁ kāmasaññā uppannapubbā’”ti? ",
+      "english": "‘But in these eighty years, how many times have sensual perceptions ever arisen in you?’” "
+    },
+    {
+      "number": 14,
+      "pali": "(…) ",
+      "english": "“But in these eighty years, how many times have sensual perceptions ever arisen in you?” "
+    },
+    {
+      "number": 15,
+      "pali": "“Asīti me, āvuso, vassāni pabbajitassa nābhijānāmi kāmasaññaṁ uppannapubbaṁ”. ",
+      "english": "“In these eighty years, I don’t recall that any sensual perception has ever arisen in me.” "
+    },
+    {
+      "number": 16,
+      "pali": "“Yampāyasmā bākulo asītiyā vassehi nābhijānāti kāmasaññaṁ uppannapubbaṁ idampi mayaṁ āyasmato bākulassa acchariyaṁ abbhutadhammaṁ dhārema”. ",
+      "english": "This we remember as an incredible and amazing quality of Venerable Bakkula. "
+    },
+    {
+      "number": 17,
+      "pali": "“Asīti me, āvuso, vassāni pabbajitassa nābhijānāmi byāpādasaññaṁ …pe… ",
+      "english": "“In these eighty years, I don’t recall that any perception of ill will … "
+    },
+    {
+      "number": 18,
+      "pali": "vihiṁsāsaññaṁ uppannapubbaṁ”. ",
+      "english": "or cruelty has ever arisen in me.” "
+    },
+    {
+      "number": 19,
+      "pali": "“Yampāyasmā bākulo asītiyā vassehi nābhijānāti vihiṁsāsaññaṁ uppannapubbaṁ, idampi mayaṁ āyasmato bākulassa acchariyaṁ abbhutadhammaṁ dhārema”. ",
+      "english": "This too we remember as an incredible and amazing quality of Venerable Bakkula. "
+    },
+    {
+      "number": 20,
+      "pali": "“Asīti me, āvuso, vassāni pabbajitassa nābhijānāmi kāmavitakkaṁ uppannapubbaṁ”. ",
+      "english": "“In these eighty years, I don’t recall that any thought of sensuality … "
+    },
+    {
+      "number": 21,
+      "pali": "“Yampāyasmā bākulo asītiyā vassehi nābhijānāti kāmavitakkaṁ uppannapubbaṁ, idampi mayaṁ āyasmato bākulassa acchariyaṁ abbhutadhammaṁ dhārema”. ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "“Asīti me, āvuso, vassāni pabbajitassa nābhijānāmi byāpādavitakkaṁ …pe… ",
+      "english": "ill will … "
+    },
+    {
+      "number": 23,
+      "pali": "vihiṁsāvitakkaṁ uppannapubbaṁ”. ",
+      "english": "or cruelty has ever arisen in me.” "
+    },
+    {
+      "number": 24,
+      "pali": "“Yampāyasmā bākulo asītiyā vassehi nābhijānāti vihiṁsāvitakkaṁ uppannapubbaṁ, idampi mayaṁ āyasmato bākulassa acchariyaṁ abbhutadhammaṁ dhārema”. ",
+      "english": "This too we remember as an incredible and amazing quality of Venerable Bakkula. "
+    },
+    {
+      "number": 25,
+      "pali": "“Asīti me, āvuso, vassāni pabbajitassa nābhijānāmi gahapaticīvaraṁ sāditā”. ",
+      "english": "“In these eighty years, I don’t recall accepting a robe from a householder … "
+    },
+    {
+      "number": 26,
+      "pali": "“Yampāyasmā bākulo asītiyā vassehi nābhijānāti gahapaticīvaraṁ sāditā, idampi mayaṁ āyasmato bākulassa acchariyaṁ abbhutadhammaṁ dhārema”. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "“Asīti me, āvuso, vassāni pabbajitassa nābhijānāmi satthena cīvaraṁ chinditā”. ",
+      "english": "cutting a robe with a knife … "
+    },
+    {
+      "number": 28,
+      "pali": "“Yampāyasmā bākulo asītiyā vassehi nābhijānāti satthena cīvaraṁ chinditā …pe… dhārema”. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "“Asīti me, āvuso, vassāni pabbajitassa nābhijānāmi sūciyā cīvaraṁ sibbitā …pe… ",
+      "english": "sewing a robe with a needle … "
+    },
+    {
+      "number": 30,
+      "pali": "nābhijānāmi rajanena cīvaraṁ rajitā … ",
+      "english": "dying a robe … "
+    },
+    {
+      "number": 31,
+      "pali": "nābhijānāmi kathine cīvaraṁ sibbitā … ",
+      "english": "sewing a robe during the robe-making ceremony … "
+    },
+    {
+      "number": 32,
+      "pali": "nābhijānāmi sabrahmacārīnaṁ cīvarakamme vicāritā … ",
+      "english": "wandering to look for robe material for my companions in the spiritual life when they are making robes … "
+    },
+    {
+      "number": 33,
+      "pali": "nābhijānāmi nimantanaṁ sāditā … ",
+      "english": "accepting an invitation … "
+    },
+    {
+      "number": 34,
+      "pali": "nābhijānāmi evarūpaṁ cittaṁ uppannapubbaṁ: ",
+      "english": "having such a thought: "
+    },
+    {
+      "number": 35,
+      "pali": "‘aho vata maṁ koci nimanteyyā’ti … ",
+      "english": "‘If only someone would invite me!’ … "
+    },
+    {
+      "number": 36,
+      "pali": "nābhijānāmi antaraghare nisīditā … ",
+      "english": "sitting down inside a house … "
+    },
+    {
+      "number": 37,
+      "pali": "nābhijānāmi antaraghare bhuñjitā … ",
+      "english": "eating inside a house … "
+    },
+    {
+      "number": 38,
+      "pali": "nābhijānāmi mātugāmassa anubyañjanaso nimittaṁ gahetā … ",
+      "english": "getting caught up in the features by way of the details of a lady’s appearance … "
+    },
+    {
+      "number": 39,
+      "pali": "nābhijānāmi mātugāmassa dhammaṁ desitā antamaso catuppadampi gāthaṁ … ",
+      "english": "teaching a lady, even so much as a four line verse … "
+    },
+    {
+      "number": 40,
+      "pali": "nābhijānāmi bhikkhunupassayaṁ upasaṅkamitā … ",
+      "english": "going to the nuns’ quarters … "
+    },
+    {
+      "number": 41,
+      "pali": "nābhijānāmi bhikkhuniyā dhammaṁ desitā … ",
+      "english": "teaching the nuns … "
+    },
+    {
+      "number": 42,
+      "pali": "nābhijānāmi sikkhamānāya dhammaṁ desitā … ",
+      "english": "teaching the trainee nuns … "
+    },
+    {
+      "number": 43,
+      "pali": "nābhijānāmi sāmaṇeriyā dhammaṁ desitā … ",
+      "english": "teaching the novice nuns … "
+    },
+    {
+      "number": 44,
+      "pali": "nābhijānāmi pabbājetā … ",
+      "english": "giving the going forth … "
+    },
+    {
+      "number": 45,
+      "pali": "nābhijānāmi upasampādetā … ",
+      "english": "giving the ordination … "
+    },
+    {
+      "number": 46,
+      "pali": "nābhijānāmi nissayaṁ dātā … ",
+      "english": "giving dependence … "
+    },
+    {
+      "number": 47,
+      "pali": "nābhijānāmi sāmaṇeraṁ upaṭṭhāpetā … ",
+      "english": "being looked after by a novice … "
+    },
+    {
+      "number": 48,
+      "pali": "nābhijānāmi jantāghare nhāyitā … ",
+      "english": "bathing in the sauna … "
+    },
+    {
+      "number": 49,
+      "pali": "nābhijānāmi cuṇṇena nhāyitā … ",
+      "english": "bathing with bath powder … "
+    },
+    {
+      "number": 50,
+      "pali": "nābhijānāmi sabrahmacārīgattaparikamme vicāritā … ",
+      "english": "looking for a massage from my companions in the spiritual life … "
+    },
+    {
+      "number": 51,
+      "pali": "nābhijānāmi ābādhaṁ uppannapubbaṁ, antamaso gaddūhanamattampi … ",
+      "english": "being ill, even for as long as it takes to pull a cow’s udder … "
+    },
+    {
+      "number": 52,
+      "pali": "nābhijānāmi bhesajjaṁ upaharitā, antamaso haritakikhaṇḍampi … ",
+      "english": "being presented with medicine, even as much as a bit of yellow myrobalan … "
+    },
+    {
+      "number": 53,
+      "pali": "nābhijānāmi apassenakaṁ apassayitā … ",
+      "english": "leaning on a leaning-board … "
+    },
+    {
+      "number": 54,
+      "pali": "nābhijānāmi seyyaṁ kappetā”. ",
+      "english": "preparing a cot …” "
+    },
+    {
+      "number": 55,
+      "pali": "“Yampāyasmā …pe… dhārema”. ",
+      "english": "This too we remember as an incredible and amazing quality of Venerable Bakkula. "
+    },
+    {
+      "number": 56,
+      "pali": "“Asīti me, āvuso, vassāni pabbajitassa nābhijānāmi gāmantasenāsane vassaṁ upagantā”. ",
+      "english": "“In these eighty years, I don’t recall commencing the rainy season residence within a village.” "
+    },
+    {
+      "number": 57,
+      "pali": "“Yampāyasmā bākulo asītiyā vassehi nābhijānāti gāmantasenāsane vassaṁ upagantā, idampi mayaṁ āyasmato bākulassa acchariyaṁ abbhutadhammaṁ dhārema”. ",
+      "english": "This too we remember as an incredible and amazing quality of Venerable Bakkula. "
+    },
+    {
+      "number": 58,
+      "pali": "“Sattāhameva kho ahaṁ, āvuso, saraṇo raṭṭhapiṇḍaṁ bhuñjiṁ; ",
+      "english": "“Reverend, for seven days I ate the nation’s almsfood as a debtor. "
+    },
+    {
+      "number": 59,
+      "pali": "atha aṭṭhamiyaṁ aññā udapādi. ",
+      "english": "Then on the eighth day I became enlightened.” "
+    },
+    {
+      "number": 60,
+      "pali": "Yampāyasmā bākulo sattāhameva saraṇo raṭṭhapiṇḍaṁ bhuñji; atha aṭṭhamiyaṁ aññā udapādi idampi mayaṁ āyasmato bākulassa acchariyaṁ abbhutadhammaṁ dhārema. ",
+      "english": "This too we remember as an incredible and amazing quality of Venerable Bakkula. "
+    },
+    {
+      "number": 61,
+      "pali": "Labheyyāhaṁ, āvuso bākula, imasmiṁ dhammavinaye pabbajjaṁ, labheyyaṁ upasampadan”ti. ",
+      "english": "“Reverend Bakkula, may I receive the going forth, the ordination in this teaching and training?” "
+    },
+    {
+      "number": 62,
+      "pali": "Alattha kho acelakassapo imasmiṁ dhammavinaye pabbajjaṁ, alattha upasampadaṁ. ",
+      "english": "And the naked ascetic Kassapa received the going forth, the ordination in this teaching and training. "
+    },
+    {
+      "number": 63,
+      "pali": "Acirūpasampanno panāyasmā kassapo eko vūpakaṭṭho appamatto ātāpī pahitatto viharanto nacirasseva—yassatthāya kulaputtā sammadeva agārasmā anagāriyaṁ pabbajanti, tadanuttaraṁ—brahmacariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja vihāsi. ",
+      "english": "Not long after his ordination, Venerable Kassapa, living alone, withdrawn, diligent, keen, and resolute, soon realized the supreme end of the spiritual path in this very life. He lived having achieved with his own insight the goal for which gentlemen rightly go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 64,
+      "pali": "“Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti abbhaññāsi. ",
+      "english": "He understood: “Rebirth is ended; the spiritual journey has been completed; what had to be done has been done; there is nothing further for this place.” "
+    },
+    {
+      "number": 65,
+      "pali": "Aññataro kho panāyasmā kassapo arahataṁ ahosi. ",
+      "english": "And Venerable Kassapa became one of the perfected. "
+    },
+    {
+      "number": 66,
+      "pali": "Atha kho āyasmā bākulo aparena samayena avāpuraṇaṁ ādāya vihārena vihāraṁ upasaṅkamitvā evamāha: ",
+      "english": "Then some time later Venerable Bakkula, taking a latchkey, went from dwelling to dwelling, saying, "
+    },
+    {
+      "number": 67,
+      "pali": "“abhikkamathāyasmanto, abhikkamathāyasmanto. Ajja me parinibbānaṁ bhavissatī”ti. ",
+      "english": "“Come forth, venerables, come forth! Today will be my full extinguishment.” "
+    },
+    {
+      "number": 68,
+      "pali": "“Yampāyasmā bākulo avāpuraṇaṁ ādāya vihārena vihāraṁ upasaṅkamitvā evamāha: ‘abhikkamathāyasmanto, abhikkamathāyasmanto; ajja me parinibbānaṁ bhavissatī’ti, idampi mayaṁ āyasmato bākulassa acchariyaṁ abbhutadhammaṁ dhārema”. ",
+      "english": "This too we remember as an incredible and amazing quality of Venerable Bakkula. "
+    },
+    {
+      "number": 69,
+      "pali": "Āyasmā bākulo majjhe bhikkhusaṅghassa nisinnakova parinibbāyi. ",
+      "english": "And Venerable Bakkula became fully extinguished while seated right in the middle of the Saṅgha. "
+    },
+    {
+      "number": 70,
+      "pali": "“Yampāyasmā bākulo majjhe bhikkhusaṅghassa nisinnakova parinibbāyi, idampi mayaṁ āyasmato bākulassa acchariyaṁ abbhutadhammaṁ dhāremā”ti. ",
+      "english": "This too we remember as an incredible and amazing quality of Venerable Bakkula. "
+    },
+    {
+      "number": 71,
+      "pali": "Bākulasuttaṁ niṭṭhitaṁ catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

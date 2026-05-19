@@ -1,0 +1,1800 @@
+{
+  "sutta_id": "MN22",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 22 ",
+      "english": "Middle Discourses 22 "
+    },
+    {
+      "number": 2,
+      "pali": "Alagaddūpamasutta ",
+      "english": "The Simile of the Cobra "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena ariṭṭhassa nāma bhikkhuno gaddhabādhipubbassa evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ hoti: ",
+      "english": "Now at that time a mendicant called Ariṭṭha, who had previously been a vulture trapper, had the following harmful misconception: "
+    },
+    {
+      "number": 6,
+      "pali": "“tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā”ti. ",
+      "english": "“As I understand the Buddha’s teaching, the acts that he says are obstructions are not really obstructions for the one who performs them.” "
+    },
+    {
+      "number": 7,
+      "pali": "Assosuṁ kho sambahulā bhikkhū: ",
+      "english": "Several mendicants heard this rumour. "
+    },
+    {
+      "number": 8,
+      "pali": "“ariṭṭhassa kira nāma bhikkhuno gaddhabādhipubbassa evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 9,
+      "pali": "‘tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho te bhikkhū yena ariṭṭho bhikkhu gaddhabādhipubbo tenupasaṅkamiṁsu; upasaṅkamitvā ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ etadavocuṁ: ",
+      "english": "They went up to Ariṭṭha and said to him, "
+    },
+    {
+      "number": 11,
+      "pali": "“saccaṁ kira te, āvuso ariṭṭha, evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+      "english": "“Is it really true, Reverend Ariṭṭha, that you have such a harmful misconception: "
+    },
+    {
+      "number": 12,
+      "pali": "‘tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā’”ti. ",
+      "english": "‘As I understand the Buddha’s teaching, the acts that he says are obstructions are not really obstructions for the one who performs them’?” "
+    },
+    {
+      "number": 13,
+      "pali": "“Evaṁ byā kho ahaṁ, āvuso, bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā”ti. ",
+      "english": "“Absolutely, reverends. As I understand the Buddha’s teaching, the acts that he says are obstructions are not really obstructions for the one who performs them.” "
+    },
+    {
+      "number": 14,
+      "pali": "Atha kho tepi bhikkhū ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ etasmā pāpakā diṭṭhigatā vivecetukāmā samanuyuñjanti samanugāhanti samanubhāsanti: ",
+      "english": "Then, wishing to dissuade Ariṭṭha from his view, the mendicants pursued, pressed, and grilled him, "
+    },
+    {
+      "number": 15,
+      "pali": "“mā hevaṁ, āvuso ariṭṭha, avaca, mā bhagavantaṁ abbhācikkhi; na hi sādhu bhagavato abbhakkhānaṁ, na hi bhagavā evaṁ vadeyya. ",
+      "english": "“Don’t say that, Ariṭṭha! Don’t misrepresent the Buddha, for misrepresentation of the Buddha is not good. And the Buddha would not say that. "
+    },
+    {
+      "number": 16,
+      "pali": "Anekapariyāyenāvuso ariṭṭha, antarāyikā dhammā antarāyikā vuttā bhagavatā, alañca pana te paṭisevato antarāyāya. ",
+      "english": "In many ways the Buddha has said that obstructive acts are obstructive, and that they really do obstruct the one who performs them. "
+    },
+    {
+      "number": 17,
+      "pali": "Appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "The Buddha says that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks. "
+    },
+    {
+      "number": 18,
+      "pali": "Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā … ",
+      "english": "With the similes of a skeleton … "
+    },
+    {
+      "number": 19,
+      "pali": "maṁsapesūpamā kāmā vuttā bhagavatā … ",
+      "english": "a scrap of meat … "
+    },
+    {
+      "number": 20,
+      "pali": "tiṇukkūpamā kāmā vuttā bhagavatā … ",
+      "english": "a grass torch … "
+    },
+    {
+      "number": 21,
+      "pali": "aṅgārakāsūpamā kāmā vuttā bhagavatā … ",
+      "english": "a pit of glowing coals … "
+    },
+    {
+      "number": 22,
+      "pali": "supinakūpamā kāmā vuttā bhagavatā … ",
+      "english": "a dream … "
+    },
+    {
+      "number": 23,
+      "pali": "yācitakūpamā kāmā vuttā bhagavatā … ",
+      "english": "borrowed goods … "
+    },
+    {
+      "number": 24,
+      "pali": "rukkhaphalūpamā kāmā vuttā bhagavatā … ",
+      "english": "fruit on a tree … "
+    },
+    {
+      "number": 25,
+      "pali": "asisūnūpamā kāmā vuttā bhagavatā … ",
+      "english": "a butcher’s knife and chopping board … "
+    },
+    {
+      "number": 26,
+      "pali": "sattisūlūpamā kāmā vuttā bhagavatā … ",
+      "english": "swords and spears … "
+    },
+    {
+      "number": 27,
+      "pali": "sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo”ti. ",
+      "english": "a snake’s head, the Buddha says that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks.” "
+    },
+    {
+      "number": 28,
+      "pali": "Evampi kho ariṭṭho bhikkhu gaddhabādhipubbo tehi bhikkhūhi samanuyuñjiyamāno samanugāhiyamāno samanubhāsiyamāno tadeva pāpakaṁ diṭṭhigataṁ thāmasā parāmāsā abhinivissa voharati: ",
+      "english": "But even though the mendicants pursued, pressed, and grilled him in this way, Ariṭṭha obstinately stuck to his misconception and insisted on it. "
+    },
+    {
+      "number": 29,
+      "pali": "“evaṁ byā kho ahaṁ, āvuso, bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Yato kho te bhikkhū nāsakkhiṁsu ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ etasmā pāpakā diṭṭhigatā vivecetuṁ, atha kho te bhikkhū yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū bhagavantaṁ etadavocuṁ: ",
+      "english": "When they weren’t able to dissuade Ariṭṭha from his view, the mendicants went to the Buddha, bowed, sat down to one side, and told him what had happened. "
+    },
+    {
+      "number": 31,
+      "pali": "“ariṭṭhassa nāma, bhante, bhikkhuno gaddhabādhipubbassa evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "‘tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Assumha kho mayaṁ, bhante: ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "‘ariṭṭhassa kira nāma bhikkhuno gaddhabādhipubbassa evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ—",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "Atha kho mayaṁ, bhante, yena ariṭṭho bhikkhu gaddhabādhipubbo tenupasaṅkamimha; upasaṅkamitvā ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ etadavocumha: ",
+      "english": ""
+    },
+    {
+      "number": 37,
+      "pali": "‘saccaṁ kira te, āvuso ariṭṭha, evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ—",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "Evaṁ vutte, bhante, ariṭṭho bhikkhu gaddhabādhipubbo amhe etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "‘evaṁ byā kho ahaṁ, āvuso, bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "Atha kho mayaṁ, bhante, ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ etasmā pāpakā diṭṭhigatā vivecetukāmā samanuyuñjimha samanugāhimha samanubhāsimha: ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "‘mā hevaṁ, āvuso ariṭṭha, avaca, mā bhagavantaṁ abbhācikkhi; na hi sādhu bhagavato abbhakkhānaṁ, na hi bhagavā evaṁ vadeyya. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Anekapariyāyenāvuso ariṭṭha, antarāyikā dhammā antarāyikā vuttā bhagavatā, alañca pana te paṭisevato antarāyāya. ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "Appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo’ti. ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "Evampi kho, bhante, ariṭṭho bhikkhu gaddhabādhipubbo amhehi samanuyuñjiyamāno samanugāhiyamāno samanubhāsiyamāno tadeva pāpakaṁ diṭṭhigataṁ thāmasā parāmāsā abhinivissa voharati: ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "‘evaṁ byā kho ahaṁ, āvuso, bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Yato kho mayaṁ, bhante, nāsakkhimha ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ etasmā pāpakā diṭṭhigatā vivecetuṁ, atha mayaṁ etamatthaṁ bhagavato ārocemā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Atha kho bhagavā aññataraṁ bhikkhuṁ āmantesi: ",
+      "english": "So the Buddha addressed one of the monks, "
+    },
+    {
+      "number": 51,
+      "pali": "“ehi tvaṁ, bhikkhu, mama vacanena ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ āmantehi: ",
+      "english": "“Please, monk, in my name tell the mendicant Ariṭṭha, formerly a vulture trapper, that "
+    },
+    {
+      "number": 52,
+      "pali": "‘satthā taṁ, āvuso ariṭṭha, āmantetī’”ti. ",
+      "english": "the teacher summons him.” "
+    },
+    {
+      "number": 53,
+      "pali": "“Evaṁ, bhante”ti kho so bhikkhu bhagavato paṭissutvā, yena ariṭṭho bhikkhu gaddhabādhipubbo tenupasaṅkami; upasaṅkamitvā ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ etadavoca: ",
+      "english": "“Yes, sir,” that monk replied. He went to Ariṭṭha and said to him, "
+    },
+    {
+      "number": 54,
+      "pali": "“satthā taṁ, āvuso ariṭṭha, āmantetī”ti. ",
+      "english": "“Reverend Ariṭṭha, the teacher summons you.” "
+    },
+    {
+      "number": 55,
+      "pali": "“Evamāvuso”ti kho ariṭṭho bhikkhu gaddhabādhipubbo tassa bhikkhuno paṭissutvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ bhagavā etadavoca: ",
+      "english": "“Yes, reverend,” Ariṭṭha replied. He went to the Buddha, bowed, and sat down to one side. The Buddha said to him, "
+    },
+    {
+      "number": 56,
+      "pali": "“saccaṁ kira te, ariṭṭha, evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+      "english": "“Is it really true, Ariṭṭha, that you have such a harmful misconception: "
+    },
+    {
+      "number": 57,
+      "pali": "‘tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā’”ti? ",
+      "english": "‘As I understand the Buddha’s teaching, the acts that he says are obstructions are not really obstructions for the one who performs them’?” "
+    },
+    {
+      "number": 58,
+      "pali": "“Evaṁ byā kho ahaṁ, bhante, bhagavatā dhammaṁ desitaṁ ājānāmi: ‘yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṁ antarāyāyā’”ti. ",
+      "english": "“Absolutely, sir. As I understand the Buddha’s teaching, the acts that he says are obstructions are not really obstructions for the one who performs them.” "
+    },
+    {
+      "number": 59,
+      "pali": "“Kassa kho nāma tvaṁ, moghapurisa, mayā evaṁ dhammaṁ desitaṁ ājānāsi? ",
+      "english": "“Futile man, who on earth have you ever known me to teach in that way? "
+    },
+    {
+      "number": 60,
+      "pali": "Nanu mayā, moghapurisa, anekapariyāyena antarāyikā dhammā antarāyikā vuttā? Alañca pana te paṭisevato antarāyāya. ",
+      "english": "Haven’t I said in many ways that obstructive acts are obstructive, and that they really do obstruct the one who performs them? "
+    },
+    {
+      "number": 61,
+      "pali": "Appassādā kāmā vuttā mayā, bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "I’ve said that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks. "
+    },
+    {
+      "number": 62,
+      "pali": "Aṭṭhikaṅkalūpamā kāmā vuttā mayā … ",
+      "english": "With the similes of a skeleton … "
+    },
+    {
+      "number": 63,
+      "pali": "maṁsapesūpamā kāmā vuttā mayā … ",
+      "english": "a scrap of meat … "
+    },
+    {
+      "number": 64,
+      "pali": "tiṇukkūpamā kāmā vuttā mayā … ",
+      "english": "a grass torch … "
+    },
+    {
+      "number": 65,
+      "pali": "aṅgārakāsūpamā kāmā vuttā mayā … ",
+      "english": "a pit of glowing coals … "
+    },
+    {
+      "number": 66,
+      "pali": "supinakūpamā kāmā vuttā mayā … ",
+      "english": "a dream … "
+    },
+    {
+      "number": 67,
+      "pali": "yācitakūpamā kāmā vuttā mayā … ",
+      "english": "borrowed goods … "
+    },
+    {
+      "number": 68,
+      "pali": "rukkhaphalūpamā kāmā vuttā mayā … ",
+      "english": "fruit on a tree … "
+    },
+    {
+      "number": 69,
+      "pali": "asisūnūpamā kāmā vuttā mayā … ",
+      "english": "a butcher’s knife and chopping board … "
+    },
+    {
+      "number": 70,
+      "pali": "sattisūlūpamā kāmā vuttā mayā … ",
+      "english": "swords and spears … "
+    },
+    {
+      "number": 71,
+      "pali": "sappasirūpamā kāmā vuttā mayā, bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "a snake’s head, I’ve said that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks. "
+    },
+    {
+      "number": 72,
+      "pali": "Atha ca pana tvaṁ, moghapurisa, attanā duggahitena amhe ceva abbhācikkhasi, attānañca khanasi, bahuñca apuññaṁ pasavasi. ",
+      "english": "But still you misrepresent me by your wrong grasp, harm yourself, and brim with much wickedness. "
+    },
+    {
+      "number": 73,
+      "pali": "Tañhi te, moghapurisa, bhavissati dīgharattaṁ ahitāya dukkhāyā”ti. ",
+      "english": "This will be for your lasting harm and suffering.” "
+    },
+    {
+      "number": 74,
+      "pali": "Atha kho bhagavā bhikkhū āmantesi: ",
+      "english": "Then the Buddha said to the mendicants, "
+    },
+    {
+      "number": 75,
+      "pali": "“Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "“What do you think, mendicants? "
+    },
+    {
+      "number": 76,
+      "pali": "api nāyaṁ ariṭṭho bhikkhu gaddhabādhipubbo usmīkatopi imasmiṁ dhammavinaye”ti? ",
+      "english": "Has this mendicant Ariṭṭha kindled even a spark of ardor in this teaching and training?” "
+    },
+    {
+      "number": 77,
+      "pali": "“Kiñhi siyā, bhante; ",
+      "english": "“How could that be, sir? "
+    },
+    {
+      "number": 78,
+      "pali": "no hetaṁ, bhante”ti. ",
+      "english": "No, sir.” "
+    },
+    {
+      "number": 79,
+      "pali": "Evaṁ vutte, ariṭṭho bhikkhu gaddhabādhipubbo tuṇhībhūto maṅkubhūto pattakkhandho adhomukho pajjhāyanto appaṭibhāno nisīdi. ",
+      "english": "When this was said, Ariṭṭha sat silent, dismayed, shoulders drooping, downcast, depressed, with nothing to say. "
+    },
+    {
+      "number": 80,
+      "pali": "Atha kho bhagavā ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ tuṇhībhūtaṁ maṅkubhūtaṁ pattakkhandhaṁ adhomukhaṁ pajjhāyantaṁ appaṭibhānaṁ viditvā ariṭṭhaṁ bhikkhuṁ gaddhabādhipubbaṁ etadavoca: ",
+      "english": "Knowing this, the Buddha said, "
+    },
+    {
+      "number": 81,
+      "pali": "“paññāyissasi kho tvaṁ, moghapurisa, etena sakena pāpakena diṭṭhigatena. ",
+      "english": "“Futile man, you will be known by your own harmful misconception. "
+    },
+    {
+      "number": 82,
+      "pali": "Idhāhaṁ bhikkhū paṭipucchissāmī”ti. ",
+      "english": "I’ll question the mendicants about this.” "
+    },
+    {
+      "number": 83,
+      "pali": "Atha kho bhagavā bhikkhū āmantesi: ",
+      "english": "Then the Buddha said to the mendicants, "
+    },
+    {
+      "number": 84,
+      "pali": "“tumhepi me, bhikkhave, evaṁ dhammaṁ desitaṁ ājānātha yathāyaṁ ariṭṭho bhikkhu gaddhabādhipubbo attanā duggahitena amhe ceva abbhācikkhati, attānañca khanati, bahuñca apuññaṁ pasavatī”ti? ",
+      "english": "“Mendicants, do you understand my teaching as Ariṭṭha does, when he misrepresents me by his wrong grasp, harms himself, and brims with much wickedness?” "
+    },
+    {
+      "number": 85,
+      "pali": "“No hetaṁ, bhante. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 86,
+      "pali": "Anekapariyāyena hi no, bhante, antarāyikā dhammā antarāyikā vuttā bhagavatā; ",
+      "english": "For in many ways the Buddha has told us that obstructive acts are obstructive, and that they really do obstruct the one who performs them. "
+    },
+    {
+      "number": 87,
+      "pali": "alañca pana te paṭisevato antarāyāya. ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "Appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "The Buddha has said that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks. "
+    },
+    {
+      "number": 89,
+      "pali": "Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā …pe… ",
+      "english": "With the similes of a skeleton … "
+    },
+    {
+      "number": 90,
+      "pali": "sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo”ti. ",
+      "english": "a snake’s head, the Buddha has said that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks.” "
+    },
+    {
+      "number": 91,
+      "pali": "“Sādhu sādhu, bhikkhave, sādhu, kho me tumhe, bhikkhave, evaṁ dhammaṁ desitaṁ ājānātha. ",
+      "english": "“Good, good, mendicants! It’s good that you understand my teaching like this. "
+    },
+    {
+      "number": 92,
+      "pali": "Anekapariyāyena hi kho, bhikkhave, antarāyikā dhammā vuttā mayā, alañca pana te paṭisevato antarāyāya. ",
+      "english": "For in many ways I have said that obstructive acts are obstructive … "
+    },
+    {
+      "number": 93,
+      "pali": "Appassādā kāmā vuttā mayā, bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "Aṭṭhikaṅkalūpamā kāmā vuttā mayā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "sappasirūpamā kāmā vuttā mayā, bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+      "english": "I’ve said that sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks. "
+    },
+    {
+      "number": 96,
+      "pali": "Atha ca panāyaṁ ariṭṭho bhikkhu gaddhabādhipubbo attanā duggahitena amhe ceva abbhācikkhati, attānañca khanati, bahuñca apuññaṁ pasavati. ",
+      "english": "But still this Ariṭṭha misrepresents me by his wrong grasp, harms himself, and brims with much wickedness. "
+    },
+    {
+      "number": 97,
+      "pali": "Tañhi tassa moghapurisassa bhavissati dīgharattaṁ ahitāya dukkhāya. ",
+      "english": "This will be for his lasting harm and suffering. "
+    },
+    {
+      "number": 98,
+      "pali": "So vata, bhikkhave, aññatreva kāmehi aññatra kāmasaññāya aññatra kāmavitakkehi kāme paṭisevissatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Truly, mendicants, it is quite impossible to perform sensual acts without sensual desires, sensual perceptions, and sensual thoughts. "
+    },
+    {
+      "number": 99,
+      "pali": "Idha, bhikkhave, ekacce moghapurisā dhammaṁ pariyāpuṇanti—",
+      "english": "Take a futile person who memorizes the teaching—"
+    },
+    {
+      "number": 100,
+      "pali": "suttaṁ, geyyaṁ, veyyākaraṇaṁ, gāthaṁ, udānaṁ, itivuttakaṁ, jātakaṁ, abbhutadhammaṁ, vedallaṁ. ",
+      "english": "statements, mixed prose & verse, discussions, verses, inspired exclamations, legends, stories of past lives, amazing stories, and elaborations. "
+    },
+    {
+      "number": 101,
+      "pali": "Te taṁ dhammaṁ pariyāpuṇitvā tesaṁ dhammānaṁ paññāya atthaṁ na upaparikkhanti. ",
+      "english": "But they don’t examine the meaning of those teachings with wisdom, "
+    },
+    {
+      "number": 102,
+      "pali": "Tesaṁ te dhammā paññāya atthaṁ anupaparikkhataṁ na nijjhānaṁ khamanti. ",
+      "english": "and so don’t come to an acceptance of them after deliberation. "
+    },
+    {
+      "number": 103,
+      "pali": "Te upārambhānisaṁsā ceva dhammaṁ pariyāpuṇanti itivādappamokkhānisaṁsā ca. ",
+      "english": "They memorize the teaching for the sake of finding fault and winning debates. "
+    },
+    {
+      "number": 104,
+      "pali": "Yassa catthāya dhammaṁ pariyāpuṇanti tañcassa atthaṁ nānubhonti. ",
+      "english": "They don’t realize the goal for which they memorized them. "
+    },
+    {
+      "number": 105,
+      "pali": "Tesaṁ te dhammā duggahitā dīgharattaṁ ahitāya dukkhāya saṁvattanti. ",
+      "english": "Because they’re wrongly grasped, those teachings lead to their lasting harm and suffering. "
+    },
+    {
+      "number": 106,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 107,
+      "pali": "Duggahitattā, bhikkhave, dhammānaṁ. ",
+      "english": "Because of their wrong grasp of the teachings. "
+    },
+    {
+      "number": 108,
+      "pali": "Seyyathāpi, bhikkhave, puriso alagaddatthiko alagaddagavesī alagaddapariyesanaṁ caramāno. ",
+      "english": "Suppose there was a person in need of a cobra. And while wandering in search of a cobra "
+    },
+    {
+      "number": 109,
+      "pali": "So passeyya mahantaṁ alagaddaṁ. ",
+      "english": "they’d see a big cobra, "
+    },
+    {
+      "number": 110,
+      "pali": "Tamenaṁ bhoge vā naṅguṭṭhe vā gaṇheyya. ",
+      "english": "and grasp it by the coil or the tail. "
+    },
+    {
+      "number": 111,
+      "pali": "Tassa so alagaddo paṭiparivattitvā hatthe vā bāhāya vā aññatarasmiṁ vā aṅgapaccaṅge ḍaṁseyya. ",
+      "english": "But that cobra would twist back and bite them on the hand or the arm or other major or minor limb, "
+    },
+    {
+      "number": 112,
+      "pali": "So tatonidānaṁ maraṇaṁ vā nigaccheyya maraṇamattaṁ vā dukkhaṁ. ",
+      "english": "resulting in death or deadly pain. "
+    },
+    {
+      "number": 113,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 114,
+      "pali": "Duggahitattā, bhikkhave, alagaddassa. ",
+      "english": "Because of their wrong grasp of the cobra. "
+    },
+    {
+      "number": 115,
+      "pali": "Evameva kho, bhikkhave, idhekacce moghapurisā dhammaṁ pariyāpuṇanti—",
+      "english": "In the same way, a futile person memorizes the teaching … "
+    },
+    {
+      "number": 116,
+      "pali": "suttaṁ, geyyaṁ, veyyākaraṇaṁ, gāthaṁ, udānaṁ, itivuttakaṁ, jātakaṁ, abbhutadhammaṁ, vedallaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 117,
+      "pali": "Te taṁ dhammaṁ pariyāpuṇitvā tesaṁ dhammānaṁ paññāya atthaṁ na upaparikkhanti. ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "Tesaṁ te dhammā paññāya atthaṁ anupaparikkhataṁ na nijjhānaṁ khamanti. ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "Te upārambhānisaṁsā ceva dhammaṁ pariyāpuṇanti itivādappamokkhānisaṁsā ca. ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "Yassa catthāya dhammaṁ pariyāpuṇanti tañcassa atthaṁ nānubhonti. ",
+      "english": ""
+    },
+    {
+      "number": 121,
+      "pali": "Tesaṁ te dhammā duggahitā dīgharattaṁ ahitāya dukkhāya saṁvattanti. ",
+      "english": "and those teachings lead to their lasting harm and suffering. "
+    },
+    {
+      "number": 122,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 123,
+      "pali": "Duggahitattā, bhikkhave, dhammānaṁ. ",
+      "english": "Because of their wrong grasp of the teachings. "
+    },
+    {
+      "number": 124,
+      "pali": "Idha pana, bhikkhave, ekacce kulaputtā dhammaṁ pariyāpuṇanti—",
+      "english": "Now, take a gentleman who memorizes the teaching—"
+    },
+    {
+      "number": 125,
+      "pali": "suttaṁ, geyyaṁ, veyyākaraṇaṁ, gāthaṁ, udānaṁ, itivuttakaṁ, jātakaṁ, abbhutadhammaṁ, vedallaṁ. ",
+      "english": "statements, mixed prose & verse, discussions, verses, inspired exclamations, legends, stories of past lives, amazing stories, and elaborations. "
+    },
+    {
+      "number": 126,
+      "pali": "Te taṁ dhammaṁ pariyāpuṇitvā tesaṁ dhammānaṁ paññāya atthaṁ upaparikkhanti. ",
+      "english": "And once he’s memorized them, he examines their meaning with wisdom, "
+    },
+    {
+      "number": 127,
+      "pali": "Tesaṁ te dhammā paññāya atthaṁ upaparikkhataṁ nijjhānaṁ khamanti. ",
+      "english": "and comes to an acceptance of them after deliberation. "
+    },
+    {
+      "number": 128,
+      "pali": "Te na ceva upārambhānisaṁsā dhammaṁ pariyāpuṇanti na itivādappamokkhānisaṁsā ca. ",
+      "english": "He doesn’t memorize the teaching for the sake of finding fault and winning debates. "
+    },
+    {
+      "number": 129,
+      "pali": "Yassa catthāya dhammaṁ pariyāpuṇanti tañcassa atthaṁ anubhonti. ",
+      "english": "He realizes the goal for which he memorized them. "
+    },
+    {
+      "number": 130,
+      "pali": "Tesaṁ te dhammā suggahitā dīgharattaṁ hitāya sukhāya saṁvattanti. ",
+      "english": "Because they’re correctly grasped, those teachings lead to his lasting welfare and happiness. "
+    },
+    {
+      "number": 131,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 132,
+      "pali": "Suggahitattā bhikkhave dhammānaṁ. ",
+      "english": "Because of his correct grasp of the teachings. "
+    },
+    {
+      "number": 133,
+      "pali": "Seyyathāpi, bhikkhave, puriso alagaddatthiko alagaddagavesī alagaddapariyesanaṁ caramāno. ",
+      "english": "Suppose there was a person in need of a cobra. And while wandering in search of a cobra "
+    },
+    {
+      "number": 134,
+      "pali": "So passeyya mahantaṁ alagaddaṁ. ",
+      "english": "they’d see a big cobra, "
+    },
+    {
+      "number": 135,
+      "pali": "Tamenaṁ ajapadena daṇḍena suniggahitaṁ niggaṇheyya. ",
+      "english": "and hold it down carefully with a cleft stick. "
+    },
+    {
+      "number": 136,
+      "pali": "Ajapadena daṇḍena suniggahitaṁ niggahitvā, gīvāya suggahitaṁ gaṇheyya. ",
+      "english": "Only then would they correctly grasp it by the neck. "
+    },
+    {
+      "number": 137,
+      "pali": "Kiñcāpi so, bhikkhave, alagaddo tassa purisassa hatthaṁ vā bāhaṁ vā aññataraṁ vā aṅgapaccaṅgaṁ bhogehi paliveṭheyya, atha kho so neva tatonidānaṁ maraṇaṁ vā nigaccheyya maraṇamattaṁ vā dukkhaṁ. ",
+      "english": "And even though that cobra might wrap its coils around that person’s hand or arm or some other major or minor limb, that wouldn’t result in death or deadly pain. "
+    },
+    {
+      "number": 138,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 139,
+      "pali": "Suggahitattā, bhikkhave, alagaddassa. ",
+      "english": "Because of their correct grasp of the cobra. "
+    },
+    {
+      "number": 140,
+      "pali": "Evameva kho, bhikkhave, idhekacce kulaputtā dhammaṁ pariyāpuṇanti—",
+      "english": "In the same way, a gentleman memorizes the teaching … "
+    },
+    {
+      "number": 141,
+      "pali": "suttaṁ, geyyaṁ, veyyākaraṇaṁ, gāthaṁ, udānaṁ, itivuttakaṁ, jātakaṁ, abbhutadhammaṁ, vedallaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 142,
+      "pali": "Te taṁ dhammaṁ pariyāpuṇitvā tesaṁ dhammānaṁ paññāya atthaṁ upaparikkhanti. ",
+      "english": ""
+    },
+    {
+      "number": 143,
+      "pali": "Tesaṁ te dhammā paññāya atthaṁ upaparikkhataṁ nijjhānaṁ khamanti. ",
+      "english": ""
+    },
+    {
+      "number": 144,
+      "pali": "Te na ceva upārambhānisaṁsā dhammaṁ pariyāpuṇanti, na itivādappamokkhānisaṁsā ca. ",
+      "english": ""
+    },
+    {
+      "number": 145,
+      "pali": "Yassa catthāya dhammaṁ pariyāpuṇanti, tañcassa atthaṁ anubhonti. ",
+      "english": ""
+    },
+    {
+      "number": 146,
+      "pali": "Tesaṁ te dhammā suggahitā dīgharattaṁ atthāya hitāya sukhāya saṁvattanti. ",
+      "english": "and those teachings lead to his lasting welfare and happiness. "
+    },
+    {
+      "number": 147,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 148,
+      "pali": "Suggahitattā, bhikkhave, dhammānaṁ. ",
+      "english": "Because of his correct grasp of the teachings. "
+    },
+    {
+      "number": 149,
+      "pali": "Tasmātiha, bhikkhave, yassa me bhāsitassa atthaṁ ājāneyyātha, tathā naṁ dhāreyyātha. ",
+      "english": "So, mendicants, when you understand what I’ve said, you should remember it accordingly. "
+    },
+    {
+      "number": 150,
+      "pali": "Yassa ca pana me bhāsitassa atthaṁ na ājāneyyātha, ahaṁ vo tattha paṭipucchitabbo, ye vā panāssu viyattā bhikkhū. ",
+      "english": "But if I’ve said anything that you don’t understand, you should ask me about it, or some competent mendicants. "
+    },
+    {
+      "number": 151,
+      "pali": "Kullūpamaṁ vo, bhikkhave, dhammaṁ desessāmi nittharaṇatthāya, no gahaṇatthāya. ",
+      "english": "Mendicants, I will teach you a simile of the teaching as a raft: for crossing over, not for holding on. "
+    },
+    {
+      "number": 152,
+      "pali": "Taṁ suṇātha, sādhukaṁ manasikarotha, bhāsissāmī”ti. ",
+      "english": "Listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 153,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 154,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 155,
+      "pali": "“Seyyathāpi, bhikkhave, puriso addhānamaggappaṭipanno. ",
+      "english": "“Suppose there was a person traveling along the road. "
+    },
+    {
+      "number": 156,
+      "pali": "So passeyya mahantaṁ udakaṇṇavaṁ, orimaṁ tīraṁ sāsaṅkaṁ sappaṭibhayaṁ, pārimaṁ tīraṁ khemaṁ appaṭibhayaṁ; ",
+      "english": "They’d see a large deluge, whose near shore was dubious and perilous, while the far shore was a sanctuary free of peril. "
+    },
+    {
+      "number": 157,
+      "pali": "na cassa nāvā santāraṇī uttarasetu vā apārā pāraṁ gamanāya. ",
+      "english": "But there was no ferryboat or bridge for crossing over. "
+    },
+    {
+      "number": 158,
+      "pali": "Tassa evamassa: ",
+      "english": "They’d think, "
+    },
+    {
+      "number": 159,
+      "pali": "‘ayaṁ kho mahāudakaṇṇavo, orimaṁ tīraṁ sāsaṅkaṁ sappaṭibhayaṁ, pārimaṁ tīraṁ khemaṁ appaṭibhayaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 160,
+      "pali": "natthi ca nāvā santāraṇī uttarasetu vā apārā pāraṁ gamanāya. ",
+      "english": ""
+    },
+    {
+      "number": 161,
+      "pali": "Yannūnāhaṁ tiṇakaṭṭhasākhāpalāsaṁ saṅkaḍḍhitvā, kullaṁ bandhitvā, taṁ kullaṁ nissāya hatthehi ca pādehi ca vāyamamāno sotthinā pāraṁ uttareyyan’ti. ",
+      "english": "‘Why don’t I gather grass, sticks, branches, and leaves and make a raft? Riding on the raft, and paddling with my hands and feet, I can safely reach the far shore.’ "
+    },
+    {
+      "number": 162,
+      "pali": "Atha kho so, bhikkhave, puriso tiṇakaṭṭhasākhāpalāsaṁ saṅkaḍḍhitvā, kullaṁ bandhitvā taṁ kullaṁ nissāya hatthehi ca pādehi ca vāyamamāno sotthinā pāraṁ uttareyya. ",
+      "english": "And so they’d do exactly that. "
+    },
+    {
+      "number": 163,
+      "pali": "Tassa purisassa uttiṇṇassa pāraṅgatassa evamassa: ",
+      "english": "And when they’d crossed over to the far shore, they’d think, "
+    },
+    {
+      "number": 164,
+      "pali": "‘bahukāro kho me ayaṁ kullo; ",
+      "english": "‘This raft has been very helpful to me. "
+    },
+    {
+      "number": 165,
+      "pali": "imāhaṁ kullaṁ nissāya hatthehi ca pādehi ca vāyamamāno sotthinā pāraṁ uttiṇṇo. ",
+      "english": "Riding on the raft, and paddling with my hands and feet, I have safely crossed over to the far shore. "
+    },
+    {
+      "number": 166,
+      "pali": "Yannūnāhaṁ imaṁ kullaṁ sīse vā āropetvā khandhe vā uccāretvā yena kāmaṁ pakkameyyan’ti. ",
+      "english": "Why don’t I hoist it on my head or pick it up on my shoulder and go wherever I want?’ "
+    },
+    {
+      "number": 167,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 168,
+      "pali": "api nu so puriso evaṅkārī tasmiṁ kulle kiccakārī assā”ti? ",
+      "english": "Would that person be doing what should be done with that raft?” "
+    },
+    {
+      "number": 169,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 170,
+      "pali": "“Kathaṅkārī ca so, bhikkhave, puriso tasmiṁ kulle kiccakārī assa? ",
+      "english": "“And what, mendicants, should that person do with the raft? "
+    },
+    {
+      "number": 171,
+      "pali": "Idha, bhikkhave, tassa purisassa uttiṇṇassa pāraṅgatassa evamassa: ",
+      "english": "When they’d crossed over they should think, "
+    },
+    {
+      "number": 172,
+      "pali": "‘bahukāro kho me ayaṁ kullo; ",
+      "english": "‘This raft has been very helpful to me. … "
+    },
+    {
+      "number": 173,
+      "pali": "imāhaṁ kullaṁ nissāya hatthehi ca pādehi ca vāyamamāno sotthinā pāraṁ uttiṇṇo. ",
+      "english": ""
+    },
+    {
+      "number": 174,
+      "pali": "Yannūnāhaṁ imaṁ kullaṁ thale vā ussādetvā udake vā opilāpetvā yena kāmaṁ pakkameyyan’ti. ",
+      "english": "Why don’t I beach it on dry land or set it adrift on the water and go wherever I want?’ "
+    },
+    {
+      "number": 175,
+      "pali": "Evaṅkārī kho so, bhikkhave, puriso tasmiṁ kulle kiccakārī assa. ",
+      "english": "That’s what that person should do with the raft. "
+    },
+    {
+      "number": 176,
+      "pali": "Evameva kho, bhikkhave, kullūpamo mayā dhammo desito nittharaṇatthāya, no gahaṇatthāya. ",
+      "english": "In the same way, I have taught a simile of the teaching as a raft: for crossing over, not for holding on. "
+    },
+    {
+      "number": 177,
+      "pali": "Kullūpamaṁ vo, bhikkhave, dhammaṁ desitaṁ, ājānantehi dhammāpi vo pahātabbā pageva adhammā. ",
+      "english": "By understanding the simile of the raft, you will even give up the teachings, let alone what is not the teachings. "
+    },
+    {
+      "number": 178,
+      "pali": "Chayimāni, bhikkhave, diṭṭhiṭṭhānāni. ",
+      "english": "Mendicants, there are these six grounds for views. "
+    },
+    {
+      "number": 179,
+      "pali": "Katamāni cha? ",
+      "english": "What six? "
+    },
+    {
+      "number": 180,
+      "pali": "Idha, bhikkhave, assutavā puthujjano ariyānaṁ adassāvī ariyadhammassa akovido ariyadhamme avinīto, sappurisānaṁ adassāvī sappurisadhammassa akovido sappurisadhamme avinīto, ",
+      "english": "Take an unlearned ordinary person who has not seen the noble ones, and is neither skilled nor trained in the teaching of the noble ones. They’ve not seen true persons, and are neither skilled nor trained in the teaching of the true persons. "
+    },
+    {
+      "number": 181,
+      "pali": "rūpaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "They regard form as: ‘This is mine, I am this, this is my self.’ "
+    },
+    {
+      "number": 182,
+      "pali": "vedanaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "They also regard feeling … "
+    },
+    {
+      "number": 183,
+      "pali": "saññaṁ ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "perception … "
+    },
+    {
+      "number": 184,
+      "pali": "saṅkhāre ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "choices … "
+    },
+    {
+      "number": 185,
+      "pali": "yampi taṁ diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ pariyesitaṁ, anuvicaritaṁ manasā tampi ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati; ",
+      "english": "whatever is seen, heard, thought, known, attained, sought, and explored by the mind as: ‘This is mine, I am this, this is my self.’ "
+    },
+    {
+      "number": 186,
+      "pali": "yampi taṁ diṭṭhiṭṭhānaṁ—",
+      "english": "And as for this ground for views: "
+    },
+    {
+      "number": 187,
+      "pali": "so loko so attā, so pecca bhavissāmi nicco dhuvo sassato avipariṇāmadhammo, sassatisamaṁ tatheva ṭhassāmīti—",
+      "english": "‘The cosmos and the self are one and the same. After death I will be that, permanent, everlasting, eternal, imperishable, and will last forever and ever.’ "
+    },
+    {
+      "number": 188,
+      "pali": "tampi ‘etaṁ mama, esohamasmi, eso me attā’ti samanupassati. ",
+      "english": "They regard this also as: ‘This is mine, I am this, this is my self.’ "
+    },
+    {
+      "number": 189,
+      "pali": "Sutavā ca kho, bhikkhave, ariyasāvako ariyānaṁ dassāvī ariyadhammassa kovido ariyadhamme suvinīto, sappurisānaṁ dassāvī sappurisadhammassa kovido sappurisadhamme suvinīto, ",
+      "english": "But a learned noble disciple has seen the noble ones, and is skilled and trained in the teaching of the noble ones. They’ve seen true persons, and are skilled and trained in the teaching of the true persons. "
+    },
+    {
+      "number": 190,
+      "pali": "rūpaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati; ",
+      "english": "They regard form like this: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 191,
+      "pali": "vedanaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati; ",
+      "english": "They also regard feeling … "
+    },
+    {
+      "number": 192,
+      "pali": "saññaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati; ",
+      "english": "perception … "
+    },
+    {
+      "number": 193,
+      "pali": "saṅkhāre ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati; ",
+      "english": "choices … "
+    },
+    {
+      "number": 194,
+      "pali": "yampi taṁ diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ pariyesitaṁ, anuvicaritaṁ manasā, tampi ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati; ",
+      "english": "whatever is seen, heard, thought, known, attained, sought, and explored by the mind like this: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 195,
+      "pali": "yampi taṁ diṭṭhiṭṭhānaṁ—",
+      "english": "And the same for this ground for views: "
+    },
+    {
+      "number": 196,
+      "pali": "so loko so attā, so pecca bhavissāmi nicco dhuvo sassato avipariṇāmadhammo, sassatisamaṁ tatheva ṭhassāmīti—",
+      "english": "‘The cosmos and the self are one and the same. After death I will be that, permanent, everlasting, eternal, imperishable, and will last forever and ever.’ "
+    },
+    {
+      "number": 197,
+      "pali": "tampi ‘netaṁ mama, nesohamasmi, na meso attā’ti samanupassati. ",
+      "english": "They also regard like this: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 198,
+      "pali": "So evaṁ samanupassanto asati na paritassatī”ti. ",
+      "english": "Seeing in this way they’re not anxious about what doesn’t exist.” "
+    },
+    {
+      "number": 199,
+      "pali": "Evaṁ vutte, aññataro bhikkhu bhagavantaṁ etadavoca: ",
+      "english": "When he said this, one of the mendicants asked the Buddha, "
+    },
+    {
+      "number": 200,
+      "pali": "“siyā nu kho, bhante, bahiddhā asati paritassanā”ti? ",
+      "english": "“Sir, can there be anxiety about what doesn’t exist externally?” "
+    },
+    {
+      "number": 201,
+      "pali": "“Siyā, bhikkhū”ti—bhagavā avoca. ",
+      "english": "“There can, mendicant,” said the Buddha. "
+    },
+    {
+      "number": 202,
+      "pali": "“Idha bhikkhu ekaccassa evaṁ hoti: ",
+      "english": "“It’s when someone thinks, "
+    },
+    {
+      "number": 203,
+      "pali": "‘ahu vata me, taṁ vata me natthi; ",
+      "english": "‘Oh, it once was mine but is mine no more. "
+    },
+    {
+      "number": 204,
+      "pali": "siyā vata me, taṁ vatāhaṁ na labhāmī’ti. ",
+      "english": "Oh, it could be mine but I do not get it.’ "
+    },
+    {
+      "number": 205,
+      "pali": "So socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati. ",
+      "english": "They sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 206,
+      "pali": "Evaṁ kho, bhikkhu, bahiddhā asati paritassanā hotī”ti. ",
+      "english": "That’s how there is anxiety about what doesn’t exist externally.” "
+    },
+    {
+      "number": 207,
+      "pali": "“Siyā pana, bhante, bahiddhā asati aparitassanā”ti? ",
+      "english": "“But can there be no anxiety about what doesn’t exist externally?” "
+    },
+    {
+      "number": 208,
+      "pali": "“Siyā, bhikkhū”ti—bhagavā avoca. ",
+      "english": "“There can, mendicant,” said the Buddha. "
+    },
+    {
+      "number": 209,
+      "pali": "“Idha bhikkhu ekaccassa na evaṁ hoti: ",
+      "english": "“It’s when someone doesn’t think, "
+    },
+    {
+      "number": 210,
+      "pali": "‘ahu vata me, taṁ vata me natthi; ",
+      "english": "‘Oh, it once was mine but is mine no more. "
+    },
+    {
+      "number": 211,
+      "pali": "siyā vata me, taṁ vatāhaṁ na labhāmī’ti. ",
+      "english": "Oh, it could be mine but I do not get it.’ "
+    },
+    {
+      "number": 212,
+      "pali": "So na socati na kilamati na paridevati na urattāḷiṁ kandati na sammohaṁ āpajjati. ",
+      "english": "They don’t sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 213,
+      "pali": "Evaṁ kho, bhikkhu, bahiddhā asati aparitassanā hotī”ti. ",
+      "english": "That’s how there is no anxiety about what doesn’t exist externally.” "
+    },
+    {
+      "number": 214,
+      "pali": "“Siyā nu kho, bhante, ajjhattaṁ asati paritassanā”ti? ",
+      "english": "“But can there be anxiety about what doesn’t exist internally?” "
+    },
+    {
+      "number": 215,
+      "pali": "“Siyā, bhikkhū”ti—bhagavā avoca. ",
+      "english": "“There can, mendicant,” said the Buddha. "
+    },
+    {
+      "number": 216,
+      "pali": "“Idha, bhikkhu, ekaccassa evaṁ diṭṭhi hoti: ",
+      "english": "“It’s when someone has such a view: "
+    },
+    {
+      "number": 217,
+      "pali": "‘so loko so attā, so pecca bhavissāmi nicco dhuvo sassato avipariṇāmadhammo, sassatisamaṁ tatheva ṭhassāmī’ti. ",
+      "english": "‘The cosmos and the self are one and the same. After death I will be that, permanent, everlasting, eternal, imperishable, and will last forever and ever.’ "
+    },
+    {
+      "number": 218,
+      "pali": "So suṇāti tathāgatassa vā tathāgatasāvakassa vā sabbesaṁ diṭṭhiṭṭhānādhiṭṭhānapariyuṭṭhānābhinivesānusayānaṁ samugghātāya sabbasaṅkhārasamathāya sabbūpadhipaṭinissaggāya taṇhākkhayāya virāgāya nirodhāya nibbānāya dhammaṁ desentassa. ",
+      "english": "They hear the Realized One or their disciple teaching Dhamma for the uprooting of all grounds, fixations, obsessions, insistences, and underlying tendencies regarding views; for the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment. "
+    },
+    {
+      "number": 219,
+      "pali": "Tassa evaṁ hoti: ",
+      "english": "They think, "
+    },
+    {
+      "number": 220,
+      "pali": "‘ucchijjissāmi nāmassu, vinassissāmi nāmassu, nassu nāma bhavissāmī’ti. ",
+      "english": "‘Whoa, I’m going to be annihilated and destroyed! I won’t even exist any more!’ "
+    },
+    {
+      "number": 221,
+      "pali": "So socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati. ",
+      "english": "They sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 222,
+      "pali": "Evaṁ kho, bhikkhu, ajjhattaṁ asati paritassanā hotī”ti. ",
+      "english": "That’s how there is anxiety about what doesn’t exist internally.” "
+    },
+    {
+      "number": 223,
+      "pali": "“Siyā pana, bhante, ajjhattaṁ asati aparitassanā”ti? ",
+      "english": "“But can there be no anxiety about what doesn’t exist internally?” "
+    },
+    {
+      "number": 224,
+      "pali": "“Siyā, bhikkhū”ti bhagavā avoca. ",
+      "english": "“There can,” said the Buddha. "
+    },
+    {
+      "number": 225,
+      "pali": "“Idha, bhikkhu, ekaccassa na evaṁ diṭṭhi hoti: ",
+      "english": "“It’s when someone doesn’t have such a view: "
+    },
+    {
+      "number": 226,
+      "pali": "‘so loko so attā, so pecca bhavissāmi nicco dhuvo sassato avipariṇāmadhammo, sassatisamaṁ tatheva ṭhassāmī’ti. ",
+      "english": "‘The cosmos and the self are one and the same. After death I will be that, permanent, everlasting, eternal, imperishable, and will last forever and ever.’ "
+    },
+    {
+      "number": 227,
+      "pali": "So suṇāti tathāgatassa vā tathāgatasāvakassa vā sabbesaṁ diṭṭhiṭṭhānādhiṭṭhānapariyuṭṭhānābhinivesānusayānaṁ samugghātāya sabbasaṅkhārasamathāya sabbūpadhipaṭinissaggāya taṇhākkhayāya virāgāya nirodhāya nibbānāya dhammaṁ desentassa. ",
+      "english": "They hear the Realized One or their disciple teaching Dhamma for the uprooting of all grounds, fixations, obsessions, insistences, and underlying tendencies regarding views; for the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment. "
+    },
+    {
+      "number": 228,
+      "pali": "Tassa na evaṁ hoti: ",
+      "english": "They don’t think, "
+    },
+    {
+      "number": 229,
+      "pali": "‘ucchijjissāmi nāmassu, vinassissāmi nāmassu, nassu nāma bhavissāmī’ti. ",
+      "english": "‘Whoa, I’m going to be annihilated and destroyed! I won’t even exist any more!’ "
+    },
+    {
+      "number": 230,
+      "pali": "So na socati na kilamati na paridevati na urattāḷiṁ kandati na sammohaṁ āpajjati. ",
+      "english": "They don’t sorrow and wail and lament, beating their breast and falling into confusion. "
+    },
+    {
+      "number": 231,
+      "pali": "Evaṁ kho, bhikkhu, ajjhattaṁ asati aparitassanā hoti. ",
+      "english": "That’s how there is no anxiety about what doesn’t exist internally. "
+    },
+    {
+      "number": 232,
+      "pali": "Taṁ, bhikkhave, pariggahaṁ pariggaṇheyyātha, yvāssa pariggaho nicco dhuvo sassato avipariṇāmadhammo, sassatisamaṁ tatheva tiṭṭheyya. ",
+      "english": "Mendicants, it would make sense to be possessive about something that’s permanent, everlasting, eternal, imperishable, and will last forever and ever. "
+    },
+    {
+      "number": 233,
+      "pali": "Passatha no tumhe, bhikkhave, taṁ pariggahaṁ yvāssa pariggaho nicco dhuvo sassato avipariṇāmadhammo, sassatisamaṁ tatheva tiṭṭheyyā”ti? ",
+      "english": "But do you see any such possession?” "
+    },
+    {
+      "number": 234,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 235,
+      "pali": "“Sādhu, bhikkhave. ",
+      "english": "“Good, mendicants! "
+    },
+    {
+      "number": 236,
+      "pali": "Ahampi kho taṁ, bhikkhave, pariggahaṁ na samanupassāmi yvāssa pariggaho nicco dhuvo sassato avipariṇāmadhammo sassatisamaṁ tatheva tiṭṭheyya. ",
+      "english": "I also can’t see any such possession. "
+    },
+    {
+      "number": 237,
+      "pali": "Taṁ, bhikkhave, attavādupādānaṁ upādiyetha, yaṁsa attavādupādānaṁ upādiyato na uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā. ",
+      "english": "It would make sense to grasp at a theory of self that didn’t give rise to sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 238,
+      "pali": "Passatha no tumhe, bhikkhave, taṁ attavādupādānaṁ yaṁsa attavādupādānaṁ upādiyato na uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā”ti? ",
+      "english": "But do you see any such theory of self?” "
+    },
+    {
+      "number": 239,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 240,
+      "pali": "“Sādhu, bhikkhave. ",
+      "english": "“Good, mendicants! "
+    },
+    {
+      "number": 241,
+      "pali": "Ahampi kho taṁ, bhikkhave, attavādupādānaṁ na samanupassāmi yaṁsa attavādupādānaṁ upādiyato na uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā. ",
+      "english": "I also can’t see any such theory of self. "
+    },
+    {
+      "number": 242,
+      "pali": "Taṁ, bhikkhave, diṭṭhinissayaṁ nissayetha yaṁsa diṭṭhinissayaṁ nissayato na uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā. ",
+      "english": "It would make sense to rely on a view that didn’t give rise to sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 243,
+      "pali": "Passatha no tumhe, bhikkhave, taṁ diṭṭhinissayaṁ yaṁsa diṭṭhinissayaṁ nissayato na uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā”ti? ",
+      "english": "But do you see any such view to rely on?” "
+    },
+    {
+      "number": 244,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 245,
+      "pali": "“Sādhu, bhikkhave. ",
+      "english": "“Good, mendicants! "
+    },
+    {
+      "number": 246,
+      "pali": "Ahampi kho taṁ, bhikkhave, diṭṭhinissayaṁ na samanupassāmi yaṁsa diṭṭhinissayaṁ nissayato na uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā. ",
+      "english": "I also can’t see any such view to rely on. "
+    },
+    {
+      "number": 247,
+      "pali": "Attani vā, bhikkhave, sati ‘attaniyaṁ me’ti assā”ti? ",
+      "english": "Mendicants, were a self to exist, would there be the thought, ‘Belonging to my self’?” "
+    },
+    {
+      "number": 248,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 249,
+      "pali": "“Attaniye vā, bhikkhave, sati ‘attā me’ti assā”ti? ",
+      "english": "“Were what belongs to a self to exist, would there be the thought, ‘My self’?” "
+    },
+    {
+      "number": 250,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 251,
+      "pali": "“Attani ca, bhikkhave, attaniye ca saccato thetato anupalabbhamāne, yampi taṁ diṭṭhiṭṭhānaṁ: ",
+      "english": "“But since a self and what belongs to a self are not found as a genuine fact, is not the following a totally foolish teaching: "
+    },
+    {
+      "number": 252,
+      "pali": "‘so loko so attā, so pecca bhavissāmi nicco dhuvo sassato avipariṇāmadhammo, sassatisamaṁ tatheva ṭhassāmī’ti—",
+      "english": "‘The cosmos and the self are one and the same. After death I will be that, permanent, everlasting, eternal, imperishable, and will last forever and ever’?” "
+    },
+    {
+      "number": 253,
+      "pali": "nanāyaṁ, bhikkhave, kevalo paripūro bāladhammo”ti? ",
+      "english": ""
+    },
+    {
+      "number": 254,
+      "pali": "“Kiñhi no siyā, bhante, kevalo hi, bhante, paripūro bāladhammo”ti. ",
+      "english": "“How could it not, sir? It’s a totally foolish teaching.” "
+    },
+    {
+      "number": 255,
+      "pali": "“Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "“What do you think, mendicants? "
+    },
+    {
+      "number": 256,
+      "pali": "rūpaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Is form permanent or impermanent?” "
+    },
+    {
+      "number": 257,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 258,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 259,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 260,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ—",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 261,
+      "pali": "etaṁ mama, esohamasmi, eso me attā”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 262,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 263,
+      "pali": "“Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "“What do you think, mendicants? "
+    },
+    {
+      "number": 264,
+      "pali": "vedanā …pe… ",
+      "english": "Is feeling … "
+    },
+    {
+      "number": 265,
+      "pali": "saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 266,
+      "pali": "saṅkhārā … ",
+      "english": "choices … "
+    },
+    {
+      "number": 267,
+      "pali": "viññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "consciousness permanent or impermanent?” "
+    },
+    {
+      "number": 268,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 269,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 270,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 271,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ—",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 272,
+      "pali": "etaṁ mama, esohamasmi, eso me attā”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 273,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 274,
+      "pali": "“Tasmātiha, bhikkhave, yaṁ kiñci rūpaṁ atītānāgatapaccuppannaṁ, ajjhattaṁ vā bahiddhā vā, oḷārikaṁ vā sukhumaṁ vā, hīnaṁ vā paṇītaṁ vā, yaṁ dūre santike vā, sabbaṁ rūpaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti—evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "“So, mendicants, you should truly see any kind of form at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> form—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 275,
+      "pali": "Yā kāci vedanā …pe… ",
+      "english": "You should truly see any kind of feeling … "
+    },
+    {
+      "number": 276,
+      "pali": "yā kāci saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 277,
+      "pali": "ye keci saṅkhārā … ",
+      "english": "choices … "
+    },
+    {
+      "number": 278,
+      "pali": "yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ, ajjhattaṁ vā bahiddhā vā, oḷārikaṁ vā sukhumaṁ vā, hīnaṁ vā paṇītaṁ vā, yaṁ dūre santike vā, sabbaṁ viññāṇaṁ ‘netaṁ mama, nesohamasmi, na meso attā’ti—evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "consciousness at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> consciousness—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 279,
+      "pali": "Evaṁ passaṁ, bhikkhave, sutavā ariyasāvako rūpasmiṁ nibbindati, vedanāya nibbindati, saññāya nibbindati, saṅkhāresu nibbindati, viññāṇasmiṁ nibbindati, ",
+      "english": "Seeing this, a learned noble disciple grows disillusioned with form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 280,
+      "pali": "nibbidā virajjati, virāgā vimuccati, vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. ",
+      "english": "Being disillusioned, desire fades away. When desire fades away they’re freed. When they’re freed, they know they’re freed. "
+    },
+    {
+      "number": 281,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
+    },
+    {
+      "number": 282,
+      "pali": "Ayaṁ vuccati, bhikkhave, bhikkhu ukkhittapaligho itipi, saṅkiṇṇaparikkho itipi, abbūḷhesiko itipi, niraggaḷo itipi, ariyo pannaddhajo pannabhāro visaṁyutto itipi. ",
+      "english": "Such a mendicant is one who is called ‘one who has lifted the cross-bar’, ‘one who has filled in the moat’, ‘one who has pulled up the pillar’, ‘one who is unimpeded’, and also ‘a noble one with banner lowered and burden dropped, detached’. "
+    },
+    {
+      "number": 283,
+      "pali": "Kathañca, bhikkhave, bhikkhu ukkhittapaligho hoti? ",
+      "english": "And how has a mendicant raised the cross-bar? "
+    },
+    {
+      "number": 284,
+      "pali": "Idha, bhikkhave, bhikkhuno avijjā pahīnā hoti, ucchinnamūlā tālāvatthukatā anabhāvaṅkatā, āyatiṁ anuppādadhammā. ",
+      "english": "It’s when a mendicant has given up ignorance, cut it off at the root, made it like a palm stump, obliterated it, so it’s unable to arise in the future. "
+    },
+    {
+      "number": 285,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu ukkhittapaligho hoti. ",
+      "english": "That’s how a mendicant has lifted the cross-bar. "
+    },
+    {
+      "number": 286,
+      "pali": "Kathañca, bhikkhave, bhikkhu saṅkiṇṇaparikkho hoti? ",
+      "english": "And how has a mendicant filled in the moat? "
+    },
+    {
+      "number": 287,
+      "pali": "Idha, bhikkhave, bhikkhuno ponobbhaviko jātisaṁsāro pahīno hoti, ucchinnamūlo tālāvatthukato anabhāvaṅkato, āyatiṁ anuppādadhammo. ",
+      "english": "It’s when a mendicant has given up transmigrating through births in future lives, cut it off at the root, made it like a palm stump, obliterated it, so it’s unable to arise in the future. "
+    },
+    {
+      "number": 288,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu saṅkiṇṇaparikkho hoti. ",
+      "english": "That’s how a mendicant has filled in the moat. "
+    },
+    {
+      "number": 289,
+      "pali": "Kathañca, bhikkhave, bhikkhu abbūḷhesiko hoti? ",
+      "english": "And how has a mendicant pulled up the pillar? "
+    },
+    {
+      "number": 290,
+      "pali": "Idha, bhikkhave, bhikkhuno taṇhā pahīnā hoti, ucchinnamūlā tālāvatthukatā anabhāvaṅkatā, āyatiṁ anuppādadhammā. ",
+      "english": "It’s when a mendicant has given up craving, cut it off at the root, made it like a palm stump, obliterated it, so it’s unable to arise in the future. "
+    },
+    {
+      "number": 291,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu abbūḷhesiko hoti. ",
+      "english": "That’s how a mendicant has pulled up the pillar. "
+    },
+    {
+      "number": 292,
+      "pali": "Kathañca, bhikkhave, bhikkhu niraggaḷo hoti? ",
+      "english": "And how is a mendicant unimpeded? "
+    },
+    {
+      "number": 293,
+      "pali": "Idha, bhikkhave, bhikkhuno pañca orambhāgiyāni saṁyojanāni pahīnāni honti, ucchinnamūlāni tālāvatthukatāni anabhāvaṅkatāni, āyatiṁ anuppādadhammāni. ",
+      "english": "It’s when a mendicant has given up the five lower fetters, cut them off at the root, made them like a palm stump, obliterated them, so they’re unable to arise in the future. "
+    },
+    {
+      "number": 294,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu niraggaḷo hoti. ",
+      "english": "That’s how a mendicant is unimpeded. "
+    },
+    {
+      "number": 295,
+      "pali": "Kathañca, bhikkhave, bhikkhu ariyo pannaddhajo pannabhāro visaṁyutto hoti? ",
+      "english": "And how is a mendicant a noble one with with banner lowered and burden dropped, detached? "
+    },
+    {
+      "number": 296,
+      "pali": "Idha, bhikkhave, bhikkhuno asmimāno pahīno hoti, ucchinnamūlo tālāvatthukato anabhāvaṅkato, āyatiṁ anuppādadhammo. ",
+      "english": "It’s when a mendicant has given up the conceit ‘I am’, cut it off at the root, made it like a palm stump, obliterated it, so it’s unable to arise in the future. "
+    },
+    {
+      "number": 297,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu ariyo pannaddhajo pannabhāro visaṁyutto hoti. ",
+      "english": "That’s how a mendicant is a noble one with banner lowered and burden dropped, detached. "
+    },
+    {
+      "number": 298,
+      "pali": "Evaṁ vimuttacittaṁ kho, bhikkhave, bhikkhuṁ saindā devā sabrahmakā sapajāpatikā anvesaṁ nādhigacchanti: ",
+      "english": "When a mendicant’s mind was freed like this, the gods together with Indra, the Divinity, and the Progenitor, search as they may, will not discover: "
+    },
+    {
+      "number": 299,
+      "pali": "‘idaṁ nissitaṁ tathāgatassa viññāṇan’ti. ",
+      "english": "‘This is the basis of that realized one’s consciousness.’ "
+    },
+    {
+      "number": 300,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 301,
+      "pali": "Diṭṭhevāhaṁ, bhikkhave, dhamme tathāgataṁ ananuvijjoti vadāmi. ",
+      "english": "Because even in this very life that realized one is not found, I say. "
+    },
+    {
+      "number": 302,
+      "pali": "Evaṁvādiṁ kho maṁ, bhikkhave, evamakkhāyiṁ eke samaṇabrāhmaṇā asatā tucchā musā abhūtena abbhācikkhanti: ",
+      "english": "Though I state and assert this, certain ascetics and brahmins misrepresent me with the incorrect, hollow, false, untruthful claim: "
+    },
+    {
+      "number": 303,
+      "pali": "‘venayiko samaṇo gotamo, sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññāpetī’ti. ",
+      "english": "‘The ascetic Gotama is an exterminator. He advocates the annihilation, eradication, and nonexistence of an existing being.’ "
+    },
+    {
+      "number": 304,
+      "pali": "Yathā cāhaṁ na, bhikkhave, yathā cāhaṁ na vadāmi, tathā maṁ te bhonto samaṇabrāhmaṇā asatā tucchā musā abhūtena abbhācikkhanti: ",
+      "english": "They misrepresent me as what I am not, and saying what I do not say. "
+    },
+    {
+      "number": 305,
+      "pali": "‘venayiko samaṇo gotamo, sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññāpetī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 306,
+      "pali": "Pubbe cāhaṁ, bhikkhave, etarahi ca dukkhañceva paññāpemi, dukkhassa ca nirodhaṁ. ",
+      "english": "In the past, as today, what I describe is suffering and the cessation of suffering. "
+    },
+    {
+      "number": 307,
+      "pali": "Tatra ce, bhikkhave, pare tathāgataṁ akkosanti paribhāsanti rosenti vihesenti, tatra, bhikkhave, tathāgatassa na hoti āghāto na appaccayo na cetaso anabhiraddhi. ",
+      "english": "This being so, if others abuse, attack, harass, and trouble the Realized One, he doesn’t get resentful, bitter, and emotionally exasperated. "
+    },
+    {
+      "number": 308,
+      "pali": "Tatra ce, bhikkhave, pare tathāgataṁ sakkaronti garuṁ karonti mānenti pūjenti, tatra, bhikkhave, tathāgatassa na hoti ānando na somanassaṁ na cetaso uppilāvitattaṁ. ",
+      "english": "Or if others honor, respect, revere, or venerate him, he doesn’t get thrilled, elated, and emotionally excited. "
+    },
+    {
+      "number": 309,
+      "pali": "Tatra ce, bhikkhave, pare vā tathāgataṁ sakkaronti garuṁ karonti mānenti pūjenti, tatra, bhikkhave, tathāgatassa evaṁ hoti: ",
+      "english": "If they praise him, he just thinks, "
+    },
+    {
+      "number": 310,
+      "pali": "‘yaṁ kho idaṁ pubbe pariññātaṁ tattha me evarūpā kārā karīyantī’ti. ",
+      "english": "‘They do such things for me regarding what in the past was completely understood.’ "
+    },
+    {
+      "number": 311,
+      "pali": "Tasmātiha, bhikkhave, tumhe cepi pare akkoseyyuṁ paribhāseyyuṁ roseyyuṁ viheseyyuṁ, tatra tumhe hi na āghāto na appaccayo na cetaso anabhiraddhi karaṇīyā. ",
+      "english": "So, mendicants, if others abuse, attack, harass, and trouble you, don’t make yourselves resentful, bitter, and emotionally exasperated. "
+    },
+    {
+      "number": 312,
+      "pali": "Tasmātiha, bhikkhave, tumhe cepi pare sakkareyyuṁ garuṁ kareyyuṁ māneyyuṁ pūjeyyuṁ, tatra tumhehi na ānando na somanassaṁ na cetaso uppilāvitattaṁ karaṇīyaṁ. ",
+      "english": "Or if others honor, respect, revere, or venerate you, don’t make yourselves thrilled, elated, and emotionally excited. "
+    },
+    {
+      "number": 313,
+      "pali": "Tasmātiha, bhikkhave, tumhe cepi pare sakkareyyuṁ garuṁ kareyyuṁ māneyyuṁ pūjeyyuṁ, tatra tumhākaṁ evamassa: ",
+      "english": "If they praise you, just think, "
+    },
+    {
+      "number": 314,
+      "pali": "‘yaṁ kho idaṁ pubbe pariññātaṁ, tattha me evarūpā kārā karīyantī’ti. ",
+      "english": "‘They do such things for us regarding what in the past was completely understood.’ "
+    },
+    {
+      "number": 315,
+      "pali": "Tasmātiha, bhikkhave, yaṁ na tumhākaṁ taṁ pajahatha; ",
+      "english": "So, mendicants, give up what isn’t yours. "
+    },
+    {
+      "number": 316,
+      "pali": "taṁ vo pahīnaṁ dīgharattaṁ hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your lasting welfare and happiness. "
+    },
+    {
+      "number": 317,
+      "pali": "Kiñca, bhikkhave, na tumhākaṁ? ",
+      "english": "And what isn’t yours? "
+    },
+    {
+      "number": 318,
+      "pali": "Rūpaṁ, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+      "english": "Form isn’t yours: give it up. "
+    },
+    {
+      "number": 319,
+      "pali": "taṁ vo pahīnaṁ dīgharattaṁ hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your lasting welfare and happiness. "
+    },
+    {
+      "number": 320,
+      "pali": "Vedanā, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+      "english": "Feeling … "
+    },
+    {
+      "number": 321,
+      "pali": "sā vo pahīnā dīgharattaṁ hitāya sukhāya bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 322,
+      "pali": "Saññā, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+      "english": "perception … "
+    },
+    {
+      "number": 323,
+      "pali": "sā vo pahīnā dīgharattaṁ hitāya sukhāya bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 324,
+      "pali": "Saṅkhārā, bhikkhave, na tumhākaṁ, te pajahatha; ",
+      "english": "choices … "
+    },
+    {
+      "number": 325,
+      "pali": "te vo pahīnā dīgharattaṁ hitāya sukhāya bhavissanti. ",
+      "english": ""
+    },
+    {
+      "number": 326,
+      "pali": "Viññāṇaṁ, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+      "english": "consciousness isn’t yours: give it up. "
+    },
+    {
+      "number": 327,
+      "pali": "taṁ vo pahīnaṁ dīgharattaṁ hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your lasting welfare and happiness. "
+    },
+    {
+      "number": 328,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 329,
+      "pali": "yaṁ imasmiṁ jetavane tiṇakaṭṭhasākhāpalāsaṁ, taṁ jano hareyya vā daheyya vā yathāpaccayaṁ vā kareyya. ",
+      "english": "Suppose a person was to carry off the grass, sticks, branches, and leaves in this Jeta’s Grove, or burn them, or do what they want with them. "
+    },
+    {
+      "number": 330,
+      "pali": "Api nu tumhākaṁ evamassa: ",
+      "english": "Would you think, "
+    },
+    {
+      "number": 331,
+      "pali": "‘amhe jano harati vā dahati vā yathāpaccayaṁ vā karotī’”ti? ",
+      "english": "‘This person is carrying us off, burning us, or doing what they want with us’?” "
+    },
+    {
+      "number": 332,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 333,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 334,
+      "pali": "“Na hi no etaṁ, bhante, attā vā attaniyaṁ vā”ti. ",
+      "english": "Because  to us that’s neither self nor belonging to self.” "
+    },
+    {
+      "number": 335,
+      "pali": "“Evameva kho, bhikkhave, yaṁ na tumhākaṁ taṁ pajahatha; ",
+      "english": "“In the same way, mendicants, give up what isn’t yours. "
+    },
+    {
+      "number": 336,
+      "pali": "taṁ vo pahīnaṁ dīgharattaṁ hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your lasting welfare and happiness. "
+    },
+    {
+      "number": 337,
+      "pali": "Kiñca, bhikkhave, na tumhākaṁ? ",
+      "english": "And what isn’t yours? "
+    },
+    {
+      "number": 338,
+      "pali": "Rūpaṁ, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+      "english": "Form … "
+    },
+    {
+      "number": 339,
+      "pali": "taṁ vo pahīnaṁ dīgharattaṁ hitāya sukhāya bhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 340,
+      "pali": "Vedanā, bhikkhave …pe… ",
+      "english": "feeling … "
+    },
+    {
+      "number": 341,
+      "pali": "saññā, bhikkhave … ",
+      "english": "perception … "
+    },
+    {
+      "number": 342,
+      "pali": "saṅkhārā, bhikkhave …pe… ",
+      "english": "choices … "
+    },
+    {
+      "number": 343,
+      "pali": "viññāṇaṁ, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+      "english": "consciousness isn’t yours: give it up. "
+    },
+    {
+      "number": 344,
+      "pali": "taṁ vo pahīnaṁ dīgharattaṁ hitāya sukhāya bhavissati. ",
+      "english": "Giving it up will be for your lasting welfare and happiness. "
+    },
+    {
+      "number": 345,
+      "pali": "Evaṁ svākkhāto, bhikkhave, mayā dhammo uttāno vivaṭo pakāsito chinnapilotiko. ",
+      "english": "The teaching well-explained thus by me is clarified, revealed, illuminated, and stripped of patchwork. "
+    },
+    {
+      "number": 346,
+      "pali": "Evaṁ svākkhāte, bhikkhave, mayā dhamme uttāne vivaṭe pakāsite chinnapilotike ye te bhikkhū arahanto khīṇāsavā vusitavanto katakaraṇīyā ohitabhārā anuppattasadatthā parikkhīṇabhavasaṁyojanā sammadaññāvimuttā, vaṭṭaṁ tesaṁ natthi paññāpanāya. ",
+      "english": "In this teaching thus well-explained, for those mendicants who are perfected, who have ended the defilements, completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and are rightly freed through enlightenment, there is no cycle of rebirths to be found. … "
+    },
+    {
+      "number": 347,
+      "pali": "Evaṁ svākkhāto, bhikkhave, mayā dhammo uttāno vivaṭo pakāsito chinnapilotiko. ",
+      "english": ""
+    },
+    {
+      "number": 348,
+      "pali": "Evaṁ svākkhāte, bhikkhave, mayā dhamme uttāne vivaṭe pakāsite chinnapilotike yesaṁ bhikkhūnaṁ pañcorambhāgiyāni saṁyojanāni pahīnāni, sabbe te opapātikā, tattha parinibbāyino, anāvattidhammā tasmā lokā. ",
+      "english": "In this teaching thus well-explained, those mendicants who have given up the five lower fetters are all reborn spontaneously. They are extinguished there, and are not liable to return from that world. … "
+    },
+    {
+      "number": 349,
+      "pali": "Evaṁ svākkhāto, bhikkhave, mayā dhammo uttāno vivaṭo pakāsito chinnapilotiko. ",
+      "english": ""
+    },
+    {
+      "number": 350,
+      "pali": "Evaṁ svākkhāte, bhikkhave, mayā dhamme uttāne vivaṭe pakāsite chinnapilotike yesaṁ bhikkhūnaṁ tīṇi saṁyojanāni pahīnāni, rāgadosamohā tanubhūtā, sabbe te sakadāgāmino, sakideva imaṁ lokaṁ āgantvā dukkhassantaṁ karissanti. ",
+      "english": "In this teaching thus well-explained, those mendicants who, having given up three fetters, and weakened greed, hate, and delusion, are all once-returners. They come back to this world once only, then make an end of suffering. … "
+    },
+    {
+      "number": 351,
+      "pali": "Evaṁ svākkhāto, bhikkhave, mayā dhammo uttāno vivaṭo pakāsito chinnapilotiko. ",
+      "english": ""
+    },
+    {
+      "number": 352,
+      "pali": "Evaṁ svākkhāte, bhikkhave, mayā dhamme uttāne vivaṭe pakāsite chinnapilotike yesaṁ bhikkhūnaṁ tīṇi saṁyojanāni pahīnāni, sabbe te sotāpannā, avinipātadhammā, niyatā sambodhiparāyanā. ",
+      "english": "In this teaching thus well-explained, those mendicants who have ended three fetters are all stream-enterers, not liable to be reborn in the underworld, assured, destined for awakening. … "
+    },
+    {
+      "number": 353,
+      "pali": "Evaṁ svākkhāto, bhikkhave, mayā dhammo uttāno vivaṭo pakāsito chinnapilotiko. ",
+      "english": ""
+    },
+    {
+      "number": 354,
+      "pali": "Evaṁ svākkhāte, bhikkhave, mayā dhamme uttāne vivaṭe pakāsite chinnapilotike ye te bhikkhū dhammānusārino saddhānusārino sabbe te sambodhiparāyanā. ",
+      "english": "In this teaching thus well-explained, those mendicants who are followers of teachings or followers by faith are all are assured, destined for awakening. "
+    },
+    {
+      "number": 355,
+      "pali": "Evaṁ svākkhāto, bhikkhave, mayā dhammo uttāno vivaṭo pakāsito chinnapilotiko. ",
+      "english": "The teaching well-explained thus by me is clarified, revealed, illuminated, and stripped of patchwork. "
+    },
+    {
+      "number": 356,
+      "pali": "Evaṁ svākkhāte, bhikkhave, mayā dhamme uttāne vivaṭe pakāsite chinnapilotike yesaṁ mayi saddhāmattaṁ pemamattaṁ sabbe te saggaparāyanā”ti. ",
+      "english": "In this teaching thus well-explained, those who have a degree of faith and love for me are all bound for heaven.” "
+    },
+    {
+      "number": 357,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 358,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 359,
+      "pali": "Alagaddūpamasuttaṁ niṭṭhitaṁ dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

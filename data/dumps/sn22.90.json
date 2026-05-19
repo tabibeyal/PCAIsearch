@@ -1,0 +1,505 @@
+{
+  "sutta_id": "SN22.90",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 22.90 ",
+      "english": "Linked Discourses 22.90 "
+    },
+    {
+      "number": 2,
+      "pali": "9. Theravagga ",
+      "english": "9. Senior Mendicants "
+    },
+    {
+      "number": 3,
+      "pali": "Channasutta ",
+      "english": "With Channa "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ sambahulā therā bhikkhū bārāṇasiyaṁ viharanti isipatane migadāye. ",
+      "english": "At one time several senior mendicants were staying near Varanasi, in the deer park at Isipatana. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho āyasmā channo sāyanhasamayaṁ paṭisallānā vuṭṭhito avāpuraṇaṁ ādāya vihārena vihāraṁ upasaṅkamitvā there bhikkhū etadavoca: ",
+      "english": "Then in the late afternoon, Venerable Channa came out of retreat. Taking a latchkey, he went from dwelling to dwelling, going up to the senior mendicants and saying, "
+    },
+    {
+      "number": 6,
+      "pali": "“ovadantu maṁ āyasmanto therā, anusāsantu maṁ āyasmanto therā, karontu me āyasmanto therā dhammiṁ kathaṁ, yathāhaṁ dhammaṁ passeyyan”ti. ",
+      "english": "“May the venerable senior mendicants advise me and instruct me! May they give me a Dhamma talk so that I can see the teaching!” "
+    },
+    {
+      "number": 7,
+      "pali": "Evaṁ vutte, therā bhikkhū āyasmantaṁ channaṁ etadavocuṁ: ",
+      "english": "When he said this, the senior mendicants said to Venerable Channa: "
+    },
+    {
+      "number": 8,
+      "pali": "“rūpaṁ kho, āvuso channa, aniccaṁ; ",
+      "english": "“Reverend Channa, form, "
+    },
+    {
+      "number": 9,
+      "pali": "vedanā aniccā; ",
+      "english": "feeling, "
+    },
+    {
+      "number": 10,
+      "pali": "saññā aniccā; ",
+      "english": "perception, "
+    },
+    {
+      "number": 11,
+      "pali": "saṅkhārā aniccā; ",
+      "english": "choices, "
+    },
+    {
+      "number": 12,
+      "pali": "viññāṇaṁ aniccaṁ. ",
+      "english": "and consciousness are impermanent. "
+    },
+    {
+      "number": 13,
+      "pali": "Rūpaṁ anattā; ",
+      "english": "Form, "
+    },
+    {
+      "number": 14,
+      "pali": "vedanā … ",
+      "english": "feeling, "
+    },
+    {
+      "number": 15,
+      "pali": "saññā … ",
+      "english": "perception, "
+    },
+    {
+      "number": 16,
+      "pali": "saṅkhārā … ",
+      "english": "choices, "
+    },
+    {
+      "number": 17,
+      "pali": "viññāṇaṁ anattā. ",
+      "english": "and consciousness are not-self. "
+    },
+    {
+      "number": 18,
+      "pali": "Sabbe saṅkhārā aniccā; ",
+      "english": "All conditions are impermanent. "
+    },
+    {
+      "number": 19,
+      "pali": "sabbe dhammā anattā”ti. ",
+      "english": "All things are not-self.” "
+    },
+    {
+      "number": 20,
+      "pali": "Atha kho āyasmato channassa etadahosi: ",
+      "english": "Then Venerable Channa thought, "
+    },
+    {
+      "number": 21,
+      "pali": "“mayhampi kho etaṁ evaṁ hoti: ",
+      "english": "“I too think in this way. … "
+    },
+    {
+      "number": 22,
+      "pali": "‘rūpaṁ aniccaṁ, vedanā … ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "saññā … ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "saṅkhārā … ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "viññāṇaṁ aniccaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "rūpaṁ anattā, vedanā … ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "saññā … ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "saṅkhārā … ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "viññāṇaṁ anattā. ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Sabbe saṅkhārā aniccā, sabbe dhammā anattā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Atha ca pana me sabbasaṅkhārasamathe sabbūpadhipaṭinissagge taṇhākkhaye virāge nirodhe nibbāne cittaṁ na pakkhandati nappasīdati na santiṭṭhati nādhimuccati. ",
+      "english": "And yet my mind does not leap forth, gain confidence, settle down, and become decided about the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment. "
+    },
+    {
+      "number": 32,
+      "pali": "Paritassanā upādānaṁ uppajjati; ",
+      "english": "Because of anxiety, grasping arises "
+    },
+    {
+      "number": 33,
+      "pali": "paccudāvattati mānasaṁ: ",
+      "english": "and keeps turning back to the thought: "
+    },
+    {
+      "number": 34,
+      "pali": "‘atha ko carahi me attā’ti? ",
+      "english": "‘So who then is my self?’ "
+    },
+    {
+      "number": 35,
+      "pali": "Na kho panevaṁ dhammaṁ passato hoti. ",
+      "english": "But that doesn’t happen for someone who sees the teaching. "
+    },
+    {
+      "number": 36,
+      "pali": "Ko nu kho me tathā dhammaṁ deseyya yathāhaṁ dhammaṁ passeyyan”ti. ",
+      "english": "Who can teach me the Dhamma so that I can see the teaching?” "
+    },
+    {
+      "number": 37,
+      "pali": "Atha kho āyasmato channassa etadahosi: ",
+      "english": "Then Venerable Channa thought, "
+    },
+    {
+      "number": 38,
+      "pali": "“ayaṁ kho āyasmā ānando kosambiyaṁ viharati ghositārāme satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ, pahoti ca me āyasmā ānando tathā dhammaṁ desetuṁ yathāhaṁ dhammaṁ passeyyaṁ; ",
+      "english": "“The Venerable Ānanda is staying near Kosambī, in Ghosita’s Monastery. He’s praised by the Buddha and esteemed by his sensible spiritual companions. He’s quite capable of teaching me the Dhamma so that I can see the teaching. "
+    },
+    {
+      "number": 39,
+      "pali": "atthi ca me āyasmante ānande tāvatikā vissaṭṭhi. ",
+      "english": "Since I have so much trust in Venerable Ānanda, "
+    },
+    {
+      "number": 40,
+      "pali": "Yannūnāhaṁ yenāyasmā ānando tenupasaṅkameyyan”ti. ",
+      "english": "why don’t I go to see him?” "
+    },
+    {
+      "number": 41,
+      "pali": "Atha kho āyasmā channo senāsanaṁ saṁsāmetvā pattacīvaramādāya yena kosambī ghositārāmo yenāyasmā ānando tenupasaṅkami; upasaṅkamitvā āyasmatā ānandena saddhiṁ sammodi …pe… ekamantaṁ nisinno kho āyasmā channo āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "Then Channa set his lodgings in order and, taking his bowl and robe, set out for Kosambī. He went to see Ānanda in Ghosita’s Monastery, exchanged greetings with him, and told him what had happened. Then he said, "
+    },
+    {
+      "number": 42,
+      "pali": "“Ekamidāhaṁ, āvuso ānanda, samayaṁ bārāṇasiyaṁ viharāmi isipatane migadāye. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Atha khvāhaṁ, āvuso, sāyanhasamayaṁ paṭisallānā vuṭṭhito avāpuraṇaṁ ādāya vihārena vihāraṁ upasaṅkamiṁ; ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "upasaṅkamitvā there bhikkhū etadavocaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "‘ovadantu maṁ āyasmanto therā, anusāsantu maṁ āyasmanto therā, karontu me āyasmanto therā dhammiṁ kathaṁ yathāhaṁ dhammaṁ passeyyan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "Evaṁ vutte, maṁ, āvuso, therā bhikkhū etadavocuṁ: ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "‘rūpaṁ kho, āvuso channa, aniccaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "vedanā … ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "saññā … ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "saṅkhārā … ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "viññāṇaṁ aniccaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "rūpaṁ anattā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "viññāṇaṁ anattā. ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Sabbe saṅkhārā aniccā, sabbe dhammā anattā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Tassa mayhaṁ, āvuso, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "‘mayhampi kho etaṁ evaṁ hoti—",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "rūpaṁ aniccaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "viññāṇaṁ aniccaṁ, rūpaṁ anattā, vedanā … ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "saññā … ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "saṅkhārā … ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "viññāṇaṁ anattā. ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "Sabbe saṅkhārā aniccā, sabbe dhammā anattā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "Atha ca pana me sabbasaṅkhārasamathe sabbūpadhipaṭinissagge taṇhākkhaye virāge nirodhe nibbāne cittaṁ na pakkhandati nappasīdati na santiṭṭhati nādhimuccati. ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "Paritassanā upādānaṁ uppajjati; ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "paccudāvattati mānasaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "‘atha ko carahi me attā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "Na kho panevaṁ dhammaṁ passato hoti. ",
+      "english": ""
+    },
+    {
+      "number": 68,
+      "pali": "Ko nu kho me tathā dhammaṁ deseyya yathāhaṁ dhammaṁ passeyyanti. ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "Tassa mayhaṁ, āvuso, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "‘ayaṁ kho āyasmā ānando kosambiyaṁ viharati ghositārāme satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ, pahoti ca me āyasmā ānando tathā dhammaṁ desetuṁ yathāhaṁ dhammaṁ passeyyaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "Atthi ca me āyasmante ānande tāvatikā vissaṭṭhi. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "Yannūnāhaṁ yenāyasmā ānando tenupasaṅkameyyan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "Ovadatu maṁ, āyasmā ānando; ",
+      "english": "“May Venerable Ānanda advise me and instruct me! May he give me a Dhamma talk so that I can see the teaching!” "
+    },
+    {
+      "number": 74,
+      "pali": "anusāsatu maṁ, āyasmā ānando; ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "karotu me, āyasmā ānando dhammiṁ kathaṁ yathāhaṁ dhammaṁ passeyyan”ti. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "“Ettakenapi mayaṁ āyasmato channassa attamanā api nāma taṁ āyasmā channo āvi akāsi khīlaṁ chindi. ",
+      "english": "“I’m already delighted with Venerable Channa. Hopefully you’ve opened yourself up and severed your hard-heartedness. "
+    },
+    {
+      "number": 77,
+      "pali": "Odahāvuso channa, sotaṁ; ",
+      "english": "Listen well, Channa. "
+    },
+    {
+      "number": 78,
+      "pali": "bhabbosi dhammaṁ viññātun”ti. ",
+      "english": "You are capable of understanding the teaching.” "
+    },
+    {
+      "number": 79,
+      "pali": "Atha kho āyasmato channassa tāvatakeneva uḷāraṁ pītipāmojjaṁ uppajji: ",
+      "english": "Then right away Channa was filled with lofty rapture and joy, "
+    },
+    {
+      "number": 80,
+      "pali": "“bhabbo kirasmi dhammaṁ viññātun”ti. ",
+      "english": "“It seems I’m capable of understanding the teaching!” "
+    },
+    {
+      "number": 81,
+      "pali": "“Sammukhā metaṁ, āvuso channa, bhagavato sutaṁ, sammukhā paṭiggahitaṁ kaccānagottaṁ bhikkhuṁ ovadantassa—",
+      "english": "“Reverend Channa, I heard and learned in the presence of the Buddha his advice to the mendicant Kaccānagotta: "
+    },
+    {
+      "number": 82,
+      "pali": "dvayanissito khvāyaṁ, kaccāna, loko yebhuyyena atthitañceva natthitañca. ",
+      "english": "‘Kaccāna, this world mostly relies on the duality of existence and non-existence. "
+    },
+    {
+      "number": 83,
+      "pali": "Lokasamudayaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke natthitā, sā na hoti. ",
+      "english": "But for one who truly sees the origin of the world with right understanding, the concept of non-existence regarding the world does not occur. "
+    },
+    {
+      "number": 84,
+      "pali": "Lokanirodhaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke atthitā, sā na hoti. ",
+      "english": "And for one who truly sees the cessation of the world with right understanding, the concept of existence regarding the world does not occur. "
+    },
+    {
+      "number": 85,
+      "pali": "Upayupādānābhinivesavinibandho khvāyaṁ, kaccāna, loko yebhuyyena ",
+      "english": "This world is for the most part shackled by getting involved, grasping, and insisting. "
+    },
+    {
+      "number": 86,
+      "pali": "taṁ cāyaṁ upayupādānaṁ cetaso adhiṭṭhānābhinivesānusayaṁ na upeti na upādiyati nādhiṭṭhāti ‘attā me’ti. ",
+      "english": "But if—for all that getting involved and grasping, mental fixation, and insistence and underlying tendency—they do not get attracted, grasp, and fixate on the thought, ‘my self’, "
+    },
+    {
+      "number": 87,
+      "pali": "Dukkhameva uppajjamānaṁ uppajjati, dukkhaṁ nirujjhamānaṁ nirujjhatīti na kaṅkhati na vicikicchati. ",
+      "english": "they’ll have no doubt or uncertainty that what arises is just suffering arising, and what ceases is just suffering ceasing. "
+    },
+    {
+      "number": 88,
+      "pali": "Aparappaccayā ñāṇamevassa ettha hoti. ",
+      "english": "Their knowledge of this is independent of others. "
+    },
+    {
+      "number": 89,
+      "pali": "Ettāvatā kho, kaccāna, sammādiṭṭhi hoti. ",
+      "english": "This is how right view is defined. "
+    },
+    {
+      "number": 90,
+      "pali": "Sabbamatthīti kho, kaccāna, ayameko anto. ",
+      "english": "“All exists”: this is one extreme. "
+    },
+    {
+      "number": 91,
+      "pali": "Sabbaṁ natthīti ayaṁ dutiyo anto. ",
+      "english": "“All does not exist”: this is the second extreme. "
+    },
+    {
+      "number": 92,
+      "pali": "Ete te, kaccāna, ubho ante anupagamma majjhena tathāgato dhammaṁ deseti—",
+      "english": "Avoiding these two extremes, the Realized One teaches by the middle way: "
+    },
+    {
+      "number": 93,
+      "pali": "avijjāpaccayā saṅkhārā; ",
+      "english": "“Ignorance is a requirement for choices. "
+    },
+    {
+      "number": 94,
+      "pali": "saṅkhārapaccayā viññāṇaṁ …pe… ",
+      "english": "Choices are a requirement for consciousness. … "
+    },
+    {
+      "number": 95,
+      "pali": "evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
+      "english": "That is how this entire mass of suffering originates. "
+    },
+    {
+      "number": 96,
+      "pali": "Avijjāya tveva asesavirāganirodhā saṅkhāranirodho …pe… ",
+      "english": "When ignorance fades away and ceases with no residue left behind, choices cease. … "
+    },
+    {
+      "number": 97,
+      "pali": "evametassa kevalassa dukkhakkhandhassa nirodho hotī”ti. ",
+      "english": "That is how this entire mass of suffering ceases.”’” "
+    },
+    {
+      "number": 98,
+      "pali": "“Evametaṁ, āvuso ānanda, hoti yesaṁ āyasmantānaṁ tādisā sabrahmacārayo anukampakā atthakāmā ovādakā anusāsakā. ",
+      "english": "“Reverend Ānanda, this is how it is when you have such venerables as spiritual companions to advise and instruct you out of kindness and sympathy. "
+    },
+    {
+      "number": 99,
+      "pali": "Idañca pana me āyasmato ānandassa dhammadesanaṁ sutvā dhammo abhisamito”ti. ",
+      "english": "And now that I’ve heard this teaching from Venerable Ānanda, I’ve comprehended the teaching.” "
+    },
+    {
+      "number": 100,
+      "pali": "Aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

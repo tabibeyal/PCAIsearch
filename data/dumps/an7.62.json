@@ -1,0 +1,305 @@
+{
+  "sutta_id": "AN7.62",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 7.62 ",
+      "english": "Numbered Discourses 7.62 "
+    },
+    {
+      "number": 2,
+      "pali": "6. Abyākatavagga ",
+      "english": "6. The Undeclared Points "
+    },
+    {
+      "number": 3,
+      "pali": "Mettasutta ",
+      "english": "Don’t Fear Good Deeds "
+    },
+    {
+      "number": 4,
+      "pali": "“Mā, bhikkhave, puññānaṁ bhāyittha. ",
+      "english": "“Mendicants, don’t fear good deeds. "
+    },
+    {
+      "number": 5,
+      "pali": "Sukhassetaṁ, bhikkhave, adhivacanaṁ yadidaṁ puññāni. ",
+      "english": "For ‘good deeds’ is a term for happiness. "
+    },
+    {
+      "number": 6,
+      "pali": "Abhijānāmi kho panāhaṁ, bhikkhave, dīgharattaṁ katānaṁ puññānaṁ dīgharattaṁ iṭṭhaṁ kantaṁ manāpaṁ vipākaṁ paccanubhūtaṁ. ",
+      "english": "I recall undergoing for a long time the likable, desirable, and agreeable results of good deeds performed over a long time. "
+    },
+    {
+      "number": 7,
+      "pali": "Satta vassāni mettacittaṁ bhāvesiṁ. ",
+      "english": "I developed a mind of love for seven years. "
+    },
+    {
+      "number": 8,
+      "pali": "Satta vassāni mettacittaṁ bhāvetvā satta saṁvaṭṭavivaṭṭakappe nayimaṁ lokaṁ punāgamāsiṁ. ",
+      "english": "As a result, for seven eons of the cosmos contracting and expanding I didn’t return to this world again. "
+    },
+    {
+      "number": 9,
+      "pali": "Saṁvaṭṭamāne sudāhaṁ, bhikkhave, loke ābhassarūpago homi, ",
+      "english": "As the cosmos contracted I went to the realm of streaming radiance. "
+    },
+    {
+      "number": 10,
+      "pali": "vivaṭṭamāne loke suññaṁ brahmavimānaṁ upapajjāmi. ",
+      "english": "As it expanded I was reborn in an empty mansion of divinity. "
+    },
+    {
+      "number": 11,
+      "pali": "Tatra sudaṁ, bhikkhave, brahmā homi mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī. ",
+      "english": "There I was the Divinity, the Great Divinity, the vanquisher, the unvanquished, the universal seer, the wielder of power. "
+    },
+    {
+      "number": 12,
+      "pali": "Chattiṁsakkhattuṁ kho panāhaṁ, bhikkhave, sakko ahosiṁ devānamindo; ",
+      "english": "I was Sakka, lord of gods, thirty-six times. "
+    },
+    {
+      "number": 13,
+      "pali": "anekasatakkhattuṁ rājā ahosiṁ cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+      "english": "Many hundreds of times I was a king, a wheel-turning monarch, a just and principled king. My dominion extended to all four sides, I achieved stability in the country, and I possessed the seven treasures. "
+    },
+    {
+      "number": 14,
+      "pali": "Tassa mayhaṁ, bhikkhave, imāni satta ratanāni ahesuṁ, seyyathidaṁ—",
+      "english": "These were my seven treasures: "
+    },
+    {
+      "number": 15,
+      "pali": "cakkaratanaṁ, hatthiratanaṁ, assaratanaṁ, maṇiratanaṁ, itthiratanaṁ, gahapatiratanaṁ, pariṇāyakaratanameva sattamaṁ. ",
+      "english": "the wheel, the elephant, the horse, the jewel, the woman, the householder, and the commander as the seventh treasure. "
+    },
+    {
+      "number": 16,
+      "pali": "Parosahassaṁ kho pana me, bhikkhave, puttā ahesuṁ sūrā vīraṅgarūpā parasenappamaddanā. ",
+      "english": "I had over a thousand sons who were valiant and heroic, crushing the armies of my enemies. "
+    },
+    {
+      "number": 17,
+      "pali": "So imaṁ pathaviṁ sāgarapariyantaṁ adaṇḍena asatthena dhammena abhivijiya ajjhāvasinti. ",
+      "english": "After conquering this land girt by sea, I reigned by principle, without rod or sword. "
+    },
+    {
+      "number": 18,
+      "pali": "Passa puññānaṁ vipākaṁ, ",
+      "english": "See the result of good deeds, "
+    },
+    {
+      "number": 19,
+      "pali": "Kusalānaṁ sukhesino; ",
+      "english": "of skillful deeds, for one seeking happiness. "
+    },
+    {
+      "number": 20,
+      "pali": "Mettaṁ cittaṁ vibhāvetvā, ",
+      "english": "I developed a mind of love "
+    },
+    {
+      "number": 21,
+      "pali": "Satta vassāni bhikkhavo; ",
+      "english": "for seven years, mendicants. "
+    },
+    {
+      "number": 22,
+      "pali": "Sattasaṁvaṭṭavivaṭṭakappe, ",
+      "english": "For seven eons of expansion and contraction "
+    },
+    {
+      "number": 23,
+      "pali": "Nayimaṁ lokaṁ punāgamiṁ. ",
+      "english": "I didn’t return to this world again. "
+    },
+    {
+      "number": 24,
+      "pali": "Saṁvaṭṭamāne lokamhi, ",
+      "english": "As the world contracted "
+    },
+    {
+      "number": 25,
+      "pali": "homi ābhassarūpago; ",
+      "english": "I went to the realm of streaming radiance. "
+    },
+    {
+      "number": 26,
+      "pali": "Vivaṭṭamāne lokasmiṁ, ",
+      "english": "And when it expanded "
+    },
+    {
+      "number": 27,
+      "pali": "suññabrahmūpago ahuṁ. ",
+      "english": "I went to an empty mansion of divinity. "
+    },
+    {
+      "number": 28,
+      "pali": "Sattakkhattuṁ mahābrahmā, ",
+      "english": "Seven times I was a Great Divinity, "
+    },
+    {
+      "number": 29,
+      "pali": "vasavattī tadā ahuṁ; ",
+      "english": "and at that time I was the wielder of power. "
+    },
+    {
+      "number": 30,
+      "pali": "Chattiṁsakkhattuṁ devindo, ",
+      "english": "Thirty-six times I was lord of gods, "
+    },
+    {
+      "number": 31,
+      "pali": "devarajjamakārayiṁ. ",
+      "english": "acting as ruler of the gods. "
+    },
+    {
+      "number": 32,
+      "pali": "Cakkavattī ahuṁ rājā, ",
+      "english": "Then I was king, a wheel-turning monarch, "
+    },
+    {
+      "number": 33,
+      "pali": "jambumaṇḍassa issaro; ",
+      "english": "lord of the Black Plum Tree Land. "
+    },
+    {
+      "number": 34,
+      "pali": "Muddhāvasitto khattiyo, ",
+      "english": "An anointed aristocrat, "
+    },
+    {
+      "number": 35,
+      "pali": "manussādhipatī ahuṁ. ",
+      "english": "I was sovereign of all humans. "
+    },
+    {
+      "number": 36,
+      "pali": "Adaṇḍena asatthena, ",
+      "english": "Without rod or sword, "
+    },
+    {
+      "number": 37,
+      "pali": "vijeyya pathaviṁ imaṁ; ",
+      "english": "I conquered this land. "
+    },
+    {
+      "number": 38,
+      "pali": "Asāhasena kammena, ",
+      "english": "Through non-violent action "
+    },
+    {
+      "number": 39,
+      "pali": "samena manusāsi taṁ. ",
+      "english": "I guided it justly. "
+    },
+    {
+      "number": 40,
+      "pali": "Dhammena rajjaṁ kāretvā, ",
+      "english": "After ruling this vast territory "
+    },
+    {
+      "number": 41,
+      "pali": "asmiṁ pathavimaṇḍale; ",
+      "english": "by means of principle, "
+    },
+    {
+      "number": 42,
+      "pali": "Mahaddhane mahābhoge, ",
+      "english": "I was born in a rich family, "
+    },
+    {
+      "number": 43,
+      "pali": "aḍḍhe ajāyihaṁ kule. ",
+      "english": "affluent and wealthy. "
+    },
+    {
+      "number": 44,
+      "pali": "Sabbakāmehi sampanne, ",
+      "english": "It was replete with all sense pleasures, "
+    },
+    {
+      "number": 45,
+      "pali": "ratanehi ca sattahi; ",
+      "english": "and the seven treasures. "
+    },
+    {
+      "number": 46,
+      "pali": "Buddhā saṅgāhakā loke, ",
+      "english": "This was well taught by the Buddhas, "
+    },
+    {
+      "number": 47,
+      "pali": "tehi etaṁ sudesitaṁ. ",
+      "english": "who bring the world together. "
+    },
+    {
+      "number": 48,
+      "pali": "Eso hetu mahantassa, ",
+      "english": "This is the cause of greatness "
+    },
+    {
+      "number": 49,
+      "pali": "pathabyo me na vipajjati; ",
+      "english": "by which one is called a lord of the land. "
+    },
+    {
+      "number": 50,
+      "pali": "Pahūtavittūpakaraṇo, ",
+      "english": "I was a majestic king, "
+    },
+    {
+      "number": 51,
+      "pali": "rājā hoti patāpavā. ",
+      "english": "with lots of property and assets. "
+    },
+    {
+      "number": 52,
+      "pali": "Iddhimā yasavā hoti, ",
+      "english": "successful and glorious, "
+    },
+    {
+      "number": 53,
+      "pali": "jambumaṇḍassa issaro; ",
+      "english": "lord of the Black Plum Tree Land. "
+    },
+    {
+      "number": 54,
+      "pali": "Ko sutvā nappasīdeyya, ",
+      "english": "Who would not be inspired by this, "
+    },
+    {
+      "number": 55,
+      "pali": "api kaṇhābhijātiyo. ",
+      "english": "even someone of dark birth. "
+    },
+    {
+      "number": 56,
+      "pali": "Tasmā hi attakāmena, ",
+      "english": "Therefore someone who desires self-knowledge, "
+    },
+    {
+      "number": 57,
+      "pali": "mahattamabhikaṅkhatā; ",
+      "english": "and aspires to greatness themselves, "
+    },
+    {
+      "number": 58,
+      "pali": "Saddhammo garukātabbo, ",
+      "english": "should respect the true teaching, "
+    },
+    {
+      "number": 59,
+      "pali": "saraṁ buddhānasāsanan”ti. ",
+      "english": "remembering the instructions of the Buddhas.” "
+    },
+    {
+      "number": 60,
+      "pali": "Navamaṁ. ",
+      "english": ""
+    }
+  ]
+}

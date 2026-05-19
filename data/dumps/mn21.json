@@ -1,0 +1,1140 @@
+{
+  "sutta_id": "MN21",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 21 ",
+      "english": "Middle Discourses 21 "
+    },
+    {
+      "number": 2,
+      "pali": "Kakacūpamasutta ",
+      "english": "The Simile of the Saw "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena āyasmā moḷiyaphagguno bhikkhunīhi saddhiṁ ativelaṁ saṁsaṭṭho viharati. ",
+      "english": "Now at that time, Venerable Phagguna of the Top-Knot was spending too long mixing closely with some nuns. "
+    },
+    {
+      "number": 6,
+      "pali": "Evaṁ saṁsaṭṭho āyasmā moḷiyaphagguno bhikkhunīhi saddhiṁ viharati—",
+      "english": "So much so that "
+    },
+    {
+      "number": 7,
+      "pali": "sace koci bhikkhu āyasmato moḷiyaphaggunassa sammukhā tāsaṁ bhikkhunīnaṁ avaṇṇaṁ bhāsati, tenāyasmā moḷiyaphagguno kupito anattamano adhikaraṇampi karoti. ",
+      "english": "if any mendicant criticized those nuns in his presence, Phagguna of the Top-Knot got angry and upset, and even instigated disciplinary proceedings. "
+    },
+    {
+      "number": 8,
+      "pali": "Sace pana koci bhikkhu tāsaṁ bhikkhunīnaṁ sammukhā āyasmato moḷiyaphaggunassa avaṇṇaṁ bhāsati, tena tā bhikkhuniyo kupitā anattamanā adhikaraṇampi karonti. ",
+      "english": "And if any mendicant criticized Phagguna of the Top-Knot in their presence, those nuns got angry and upset, and even instigated disciplinary proceedings. "
+    },
+    {
+      "number": 9,
+      "pali": "Evaṁ saṁsaṭṭho āyasmā moḷiyaphagguno bhikkhunīhi saddhiṁ viharati. ",
+      "english": "That’s how close Phagguna of the Top-Knot was with those nuns. "
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho aññataro bhikkhu yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho so bhikkhu bhagavantaṁ etadavoca: ",
+      "english": "Then a mendicant went up to the Buddha, bowed, sat down to one side, and told him what was going on. "
+    },
+    {
+      "number": 11,
+      "pali": "“āyasmā, bhante, moḷiyaphagguno bhikkhunīhi saddhiṁ ativelaṁ saṁsaṭṭho viharati. ",
+      "english": ""
+    },
+    {
+      "number": 12,
+      "pali": "Evaṁ saṁsaṭṭho, bhante, āyasmā moḷiyaphagguno bhikkhunīhi saddhiṁ viharati—",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "sace koci bhikkhu āyasmato moḷiyaphaggunassa sammukhā tāsaṁ bhikkhunīnaṁ avaṇṇaṁ bhāsati, tenāyasmā moḷiyaphagguno kupito anattamano adhikaraṇampi karoti. ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "Sace pana koci bhikkhu tāsaṁ bhikkhunīnaṁ sammukhā āyasmato moḷiyaphaggunassa avaṇṇaṁ bhāsati, tena tā bhikkhuniyo kupitā anattamanā adhikaraṇampi karonti. ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "Evaṁ saṁsaṭṭho, bhante, āyasmā moḷiyaphagguno bhikkhunīhi saddhiṁ viharatī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "Atha kho bhagavā aññataraṁ bhikkhuṁ āmantesi: ",
+      "english": "So the Buddha addressed one of the monks, "
+    },
+    {
+      "number": 17,
+      "pali": "“ehi tvaṁ, bhikkhu, mama vacanena moḷiyaphaggunaṁ bhikkhuṁ āmantehi: ",
+      "english": "“Please, monk, in my name tell the mendicant Phagguna of the Top-Knot that "
+    },
+    {
+      "number": 18,
+      "pali": "‘satthā taṁ, āvuso phagguna, āmantetī’”ti. ",
+      "english": "the teacher summons him.” "
+    },
+    {
+      "number": 19,
+      "pali": "“Evaṁ, bhante”ti kho so bhikkhu bhagavato paṭissutvā yenāyasmā moḷiyaphagguno tenupasaṅkami; upasaṅkamitvā āyasmantaṁ moḷiyaphaggunaṁ etadavoca: ",
+      "english": "“Yes, sir,” that monk replied. He went to Phagguna of the Top-Knot and said to him, "
+    },
+    {
+      "number": 20,
+      "pali": "“satthā taṁ, āvuso phagguna, āmantetī”ti. ",
+      "english": "“Reverend Phagguna, the teacher summons you.” "
+    },
+    {
+      "number": 21,
+      "pali": "“Evamāvuso”ti kho āyasmā moḷiyaphagguno tassa bhikkhuno paṭissutvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho āyasmantaṁ moḷiyaphaggunaṁ bhagavā etadavoca: ",
+      "english": "“Yes, reverend,” Phagguna replied. He went to the Buddha, bowed, and sat down to one side. The Buddha said to him: "
+    },
+    {
+      "number": 22,
+      "pali": "“Saccaṁ kira tvaṁ, phagguna, bhikkhunīhi saddhiṁ ativelaṁ saṁsaṭṭho viharasi? ",
+      "english": "“Is it really true, Phagguna, that you’ve been spending too long mixing closely with some nuns? "
+    },
+    {
+      "number": 23,
+      "pali": "Evaṁ saṁsaṭṭho kira tvaṁ, phagguna, bhikkhunīhi saddhiṁ viharasi—",
+      "english": "So much so that "
+    },
+    {
+      "number": 24,
+      "pali": "sace koci bhikkhu tuyhaṁ sammukhā tāsaṁ bhikkhunīnaṁ avaṇṇaṁ bhāsati, tena tvaṁ kupito anattamano adhikaraṇampi karosi. ",
+      "english": "if any mendicant criticizes those nuns in your presence, you get angry and upset, and even instigate disciplinary proceedings? "
+    },
+    {
+      "number": 25,
+      "pali": "Sace pana koci bhikkhu tāsaṁ bhikkhunīnaṁ sammukhā tuyhaṁ avaṇṇaṁ bhāsati, tena tā bhikkhuniyo kupitā anattamanā adhikaraṇampi karonti. ",
+      "english": "And if any mendicant criticizes you in those nuns’ presence, they get angry and upset, and even instigate disciplinary proceedings? "
+    },
+    {
+      "number": 26,
+      "pali": "Evaṁ saṁsaṭṭho kira tvaṁ, phagguna, bhikkhunīhi saddhiṁ viharasī”ti? ",
+      "english": "Is that how close you’ve become with those nuns?” "
+    },
+    {
+      "number": 27,
+      "pali": "“Evaṁ, bhante”ti. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 28,
+      "pali": "“Nanu tvaṁ, phagguna, kulaputto saddhā agārasmā anagāriyaṁ pabbajito”ti? ",
+      "english": "“Phagguna, are you not a gentleman who has gone forth out of faith from the lay life to homelessness?” "
+    },
+    {
+      "number": 29,
+      "pali": "“Evaṁ, bhante”ti. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 30,
+      "pali": "“Na kho te etaṁ, phagguna, patirūpaṁ kulaputtassa saddhā agārasmā anagāriyaṁ pabbajitassa, yaṁ tvaṁ bhikkhunīhi saddhiṁ ativelaṁ saṁsaṭṭho vihareyyāsi. ",
+      "english": "“As such, it’s not appropriate for you to mix so closely with those nuns. "
+    },
+    {
+      "number": 31,
+      "pali": "Tasmātiha, phagguna, tava cepi koci sammukhā tāsaṁ bhikkhunīnaṁ avaṇṇaṁ bhāseyya, tatrāpi tvaṁ, phagguna, ye gehasitā chandā ye gehasitā vitakkā te pajaheyyāsi. ",
+      "english": "So if anyone criticizes those nuns in your presence, you should give up any desires or thoughts of domestic life. "
+    },
+    {
+      "number": 32,
+      "pali": "Tatrāpi te, phagguna, evaṁ sikkhitabbaṁ: ",
+      "english": "If that happens, you should train like this: "
+    },
+    {
+      "number": 33,
+      "pali": "‘na ceva me cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāmi, hitānukampī ca viharissāmi mettacitto, na dosantaro’ti. ",
+      "english": "‘My mind will not degenerate. I will blurt out no bad words. I will remain full of sympathy, with a heart of love and no secret hate.’ "
+    },
+    {
+      "number": 34,
+      "pali": "Evañhi te, phagguna, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 35,
+      "pali": "Tasmātiha, phagguna, tava cepi koci sammukhā tāsaṁ bhikkhunīnaṁ pāṇinā pahāraṁ dadeyya, leḍḍunā pahāraṁ dadeyya, daṇḍena pahāraṁ dadeyya, satthena pahāraṁ dadeyya. Tatrāpi tvaṁ, phagguna, ye gehasitā chandā ye gehasitā vitakkā te pajaheyyāsi. ",
+      "english": "So even if someone strikes those nuns with fists, stones, rods, and swords in your presence, you should give up any desires or thoughts of domestic life. "
+    },
+    {
+      "number": 36,
+      "pali": "Tatrāpi te, phagguna, evaṁ sikkhitabbaṁ ",
+      "english": "If that happens, you should train like this: "
+    },
+    {
+      "number": 37,
+      "pali": "‘na ceva me cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāmi, hitānukampī ca viharissāmi mettacitto, na dosantaro’ti. ",
+      "english": "‘My mind will not degenerate. I will blurt out no bad words. I will remain full of sympathy, with a heart of love and no secret hate.’ "
+    },
+    {
+      "number": 38,
+      "pali": "Evañhi te, phagguna, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 39,
+      "pali": "Tasmātiha, phagguna, tava cepi koci sammukhā avaṇṇaṁ bhāseyya, tatrāpi tvaṁ, phagguna, ye gehasitā chandā ye gehasitā vitakkā te pajaheyyāsi. ",
+      "english": "So if anyone criticizes you in your presence, you should give up any desires or thoughts of domestic life. "
+    },
+    {
+      "number": 40,
+      "pali": "Tatrāpi te, phagguna, evaṁ sikkhitabbaṁ ‘na ceva me cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāmi, hitānukampī ca viharissāmi mettacitto, na dosantaro’ti. ",
+      "english": "If that happens, you should train like this: ‘My mind will not degenerate. I will blurt out no bad words. I will remain full of sympathy, with a heart of love and no secret hate.’ "
+    },
+    {
+      "number": 41,
+      "pali": "Evañhi te, phagguna, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 42,
+      "pali": "Tasmātiha, phagguna, tava cepi koci pāṇinā pahāraṁ dadeyya, leḍḍunā pahāraṁ dadeyya, daṇḍena pahāraṁ dadeyya, satthena pahāraṁ dadeyya, tatrāpi tvaṁ, phagguna, ye gehasitā chandā ye gehasitā vitakkā te pajaheyyāsi. ",
+      "english": "So Phagguna, even if someone strikes you with fists, stones, rods, and swords, you should give up any desires or thoughts of domestic life. "
+    },
+    {
+      "number": 43,
+      "pali": "Tatrāpi te, phagguna, evaṁ sikkhitabbaṁ ‘na ceva me cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāmi, hitānukampī ca viharissāmi mettacitto, na dosantaro’ti. ",
+      "english": "If that happens, you should train like this: ‘My mind will not degenerate. I will blurt out no bad words. I will remain full of sympathy, with a heart of love and no secret hate.’ "
+    },
+    {
+      "number": 44,
+      "pali": "Evañhi te, phagguna, sikkhitabban”ti. ",
+      "english": "That’s how you should train.” "
+    },
+    {
+      "number": 45,
+      "pali": "Atha kho bhagavā bhikkhū āmantesi: ",
+      "english": "Then the Buddha said to the mendicants: "
+    },
+    {
+      "number": 46,
+      "pali": "“ārādhayiṁsu vata me, bhikkhave, bhikkhū ekaṁ samayaṁ cittaṁ. ",
+      "english": "“Mendicants, I used to be satisfied with the mendicants. "
+    },
+    {
+      "number": 47,
+      "pali": "Idhāhaṁ, bhikkhave, bhikkhū āmantesiṁ—",
+      "english": "Once, I addressed them: "
+    },
+    {
+      "number": 48,
+      "pali": "ahaṁ kho, bhikkhave, ekāsanabhojanaṁ bhuñjāmi. ",
+      "english": "‘I eat my food in one sitting per day. "
+    },
+    {
+      "number": 49,
+      "pali": "Ekāsanabhojanaṁ kho ahaṁ, bhikkhave, bhuñjamāno appābādhatañca sañjānāmi appātaṅkatañca lahuṭṭhānañca balañca phāsuvihārañca. ",
+      "english": "Doing so, I find that I’m healthy and well, nimble, strong, and living comfortably. "
+    },
+    {
+      "number": 50,
+      "pali": "Etha tumhepi, bhikkhave, ekāsanabhojanaṁ bhuñjatha. ",
+      "english": "You too should eat your food in one sitting per day. "
+    },
+    {
+      "number": 51,
+      "pali": "Ekāsanabhojanaṁ kho, bhikkhave, tumhepi bhuñjamānā appābādhatañca sañjānissatha appātaṅkatañca lahuṭṭhānañca balañca phāsuvihārañcāti. ",
+      "english": "Doing so, you’ll find that you’re healthy and well, nimble, strong, and living comfortably.’ "
+    },
+    {
+      "number": 52,
+      "pali": "Na me, bhikkhave, tesu bhikkhūsu anusāsanī karaṇīyā ahosi; ",
+      "english": "I didn’t have to keep on instructing those mendicants; "
+    },
+    {
+      "number": 53,
+      "pali": "satuppādakaraṇīyameva me, bhikkhave, tesu bhikkhūsu ahosi. ",
+      "english": "I just had to prompt their mindfulness. "
+    },
+    {
+      "number": 54,
+      "pali": "Seyyathāpi, bhikkhave, subhūmiyaṁ catumahāpathe ājaññaratho yutto assa ṭhito odhastapatodo. ",
+      "english": "Suppose a chariot stood harnessed to thoroughbreds at a level crossroads, with a goad ready. "
+    },
+    {
+      "number": 55,
+      "pali": "Tamenaṁ dakkho yoggācariyo assadammasārathi abhiruhitvā, vāmena hatthena rasmiyo gahetvā, dakkhiṇena hatthena patodaṁ gahetvā, yenicchakaṁ yadicchakaṁ sāreyyapi paccāsāreyyapi. ",
+      "english": "A deft horse trainer, a master charioteer, might mount the chariot, taking the reins in his right hand and goad in the left. He’d drive out and back wherever he wishes, whenever he wishes. "
+    },
+    {
+      "number": 56,
+      "pali": "Evameva kho, bhikkhave, na me tesu bhikkhūsu anusāsanī karaṇīyā ahosi, ",
+      "english": "In the same way, I didn’t have to keep on instructing those mendicants; "
+    },
+    {
+      "number": 57,
+      "pali": "satuppādakaraṇīyameva me, bhikkhave, tesu bhikkhūsu ahosi. ",
+      "english": "I just had to prompt their mindfulness. "
+    },
+    {
+      "number": 58,
+      "pali": "Tasmātiha, bhikkhave, tumhepi akusalaṁ pajahatha, kusalesu dhammesu āyogaṁ karotha. ",
+      "english": "So, mendicants, you too should give up what’s unskillful and devote yourselves to skillful qualities. "
+    },
+    {
+      "number": 59,
+      "pali": "Evañhi tumhepi imasmiṁ dhammavinaye vuddhiṁ virūḷhiṁ vepullaṁ āpajjissatha. ",
+      "english": "In this way you’ll achieve growth, improvement, and maturity in this teaching and training. "
+    },
+    {
+      "number": 60,
+      "pali": "Seyyathāpi, bhikkhave, gāmassa vā nigamassa vā avidūre mahantaṁ sālavanaṁ. ",
+      "english": "Suppose that not far from a town or village there was a large grove of sal trees "
+    },
+    {
+      "number": 61,
+      "pali": "Tañcassa eḷaṇḍehi sañchannaṁ. ",
+      "english": "that was choked with castor-oil weeds. "
+    },
+    {
+      "number": 62,
+      "pali": "Tassa kocideva puriso uppajjeyya atthakāmo hitakāmo yogakkhemakāmo. ",
+      "english": "Then along comes a person who wants to help protect and nurture that grove. "
+    },
+    {
+      "number": 63,
+      "pali": "So yā tā sālalaṭṭhiyo kuṭilā ojāpaharaṇiyo tā chetvā bahiddhā nīhareyya, antovanaṁ suvisodhitaṁ visodheyya. ",
+      "english": "They’d cut down the crooked sal saplings that were robbing the sap, and throw them out. They’d clean up the interior of the grove, "
+    },
+    {
+      "number": 64,
+      "pali": "Yā pana tā sālalaṭṭhiyo ujukā sujātā tā sammā parihareyya. ",
+      "english": "and properly care for the straight, well-formed sal saplings. "
+    },
+    {
+      "number": 65,
+      "pali": "Evañhetaṁ, bhikkhave, sālavanaṁ aparena samayena vuddhiṁ virūḷhiṁ vepullaṁ āpajjeyya. ",
+      "english": "In this way, in due course, that sal grove would grow, increase, and mature. "
+    },
+    {
+      "number": 66,
+      "pali": "Evameva kho, bhikkhave, tumhepi akusalaṁ pajahatha, kusalesu dhammesu āyogaṁ karotha. ",
+      "english": "In the same way, mendicants, you too should give up what’s unskillful and devote yourselves to skillful qualities. "
+    },
+    {
+      "number": 67,
+      "pali": "Evañhi tumhepi imasmiṁ dhammavinaye vuddhiṁ virūḷhiṁ vepullaṁ āpajjissatha. ",
+      "english": "In this way you’ll achieve growth, improvement, and maturity in this teaching and training. "
+    },
+    {
+      "number": 68,
+      "pali": "Bhūtapubbaṁ, bhikkhave, imissāyeva sāvatthiyā vedehikā nāma gahapatānī ahosi. ",
+      "english": "Once upon a time, mendicants, right here in Sāvatthī there was a housewife named Vedehikā. "
+    },
+    {
+      "number": 69,
+      "pali": "Vedehikāya, bhikkhave, gahapatāniyā evaṁ kalyāṇo kittisaddo abbhuggato: ",
+      "english": "She had this good reputation: "
+    },
+    {
+      "number": 70,
+      "pali": "‘soratā vedehikā gahapatānī, nivātā vedehikā gahapatānī, upasantā vedehikā gahapatānī’ti. ",
+      "english": "‘The housewife Vedehikā is gentle, placid, and calm.’ "
+    },
+    {
+      "number": 71,
+      "pali": "Vedehikāya kho pana, bhikkhave, gahapatāniyā kāḷī nāma dāsī ahosi dakkhā analasā susaṁvihitakammantā. ",
+      "english": "Now, Vedehikā had a bonded maid named Kāḷī who was deft, tireless, and well-organized in her work. "
+    },
+    {
+      "number": 72,
+      "pali": "Atha kho, bhikkhave, kāḷiyā dāsiyā etadahosi: ",
+      "english": "Then Kāḷī thought, "
+    },
+    {
+      "number": 73,
+      "pali": "‘mayhaṁ kho ayyāya evaṁ kalyāṇo kittisaddo abbhuggato: ",
+      "english": "‘My mistress has a good reputation as being "
+    },
+    {
+      "number": 74,
+      "pali": "“soratā vedehikā gahapatānī, nivātā vedehikā gahapatānī, upasantā vedehikā gahapatānī”ti. ",
+      "english": "gentle, placid, and calm. "
+    },
+    {
+      "number": 75,
+      "pali": "Kiṁ nu kho me ayyā santaṁyeva nu kho ajjhattaṁ kopaṁ na pātukaroti udāhu asantaṁ ",
+      "english": "But does she actually have anger in her and just not show it? Or does she have no anger? "
+    },
+    {
+      "number": 76,
+      "pali": "udāhu mayhamevete kammantā susaṁvihitā yena me ayyā santaṁyeva ajjhattaṁ kopaṁ na pātukaroti, no asantaṁ? ",
+      "english": "Or is it just because my work is well-organized that she doesn’t show anger, even though she still has it inside? "
+    },
+    {
+      "number": 77,
+      "pali": "Yannūnāhaṁ ayyaṁ vīmaṁseyyan’ti. ",
+      "english": "Why don’t I test my mistress?’ "
+    },
+    {
+      "number": 78,
+      "pali": "Atha kho, bhikkhave, kāḷī dāsī divā uṭṭhāsi. ",
+      "english": "So Kāḷī got up during the day. "
+    },
+    {
+      "number": 79,
+      "pali": "Atha kho, bhikkhave, vedehikā gahapatānī kāḷiṁ dāsiṁ etadavoca: ",
+      "english": "Vedehikā said to her, "
+    },
+    {
+      "number": 80,
+      "pali": "‘he je kāḷī’ti. ",
+      "english": "‘Oi wench, Kāḷī!’ "
+    },
+    {
+      "number": 81,
+      "pali": "‘Kiṁ, ayye’ti? ",
+      "english": "‘What is it, ma’am?’ "
+    },
+    {
+      "number": 82,
+      "pali": "‘Kiṁ, je, divā uṭṭhāsī’ti? ",
+      "english": "‘You’re getting up in the day—what’s up with you, wench?’ "
+    },
+    {
+      "number": 83,
+      "pali": "‘Na khvayye, kiñcī’ti. ",
+      "english": "‘Nothing, ma’am.’ "
+    },
+    {
+      "number": 84,
+      "pali": "‘No vata re kiñci, pāpi dāsi, divā uṭṭhāsī’ti kupitā anattamanā bhākuṭiṁ akāsi. ",
+      "english": "‘Oh, so nothing’s up, you naughty maid, but you get up in the day!’ Angry and upset, she scowled. "
+    },
+    {
+      "number": 85,
+      "pali": "Atha kho, bhikkhave, kāḷiyā dāsiyā etadahosi: ",
+      "english": "Then Kāḷī thought, "
+    },
+    {
+      "number": 86,
+      "pali": "‘santaṁyeva kho me ayyā ajjhattaṁ kopaṁ na pātukaroti, no asantaṁ; ",
+      "english": "‘My mistress actually has anger in her and just doesn’t show it; it’s not that she has no anger. "
+    },
+    {
+      "number": 87,
+      "pali": "mayhamevete kammantā susaṁvihitā, yena me ayyā santaṁyeva ajjhattaṁ kopaṁ na pātukaroti, no asantaṁ. ",
+      "english": "It’s just because my work is well-organized that she doesn’t show anger, even though she still has it inside. "
+    },
+    {
+      "number": 88,
+      "pali": "Yannūnāhaṁ bhiyyoso mattāya ayyaṁ vīmaṁseyyan’ti. ",
+      "english": "Why don’t I test my mistress further?’ "
+    },
+    {
+      "number": 89,
+      "pali": "Atha kho, bhikkhave, kāḷī dāsī divātaraṁyeva uṭṭhāsi. ",
+      "english": "So Kāḷī got up later in the day. "
+    },
+    {
+      "number": 90,
+      "pali": "Atha kho, bhikkhave, vedehikā gahapatānī kāḷiṁ dāsiṁ etadavoca: ",
+      "english": "Vedehikā said to her, "
+    },
+    {
+      "number": 91,
+      "pali": "‘he je kāḷī’ti. ",
+      "english": "‘Oi wench, Kāḷī!’ "
+    },
+    {
+      "number": 92,
+      "pali": "‘Kiṁ, ayye’ti? ",
+      "english": "‘What is it, ma’am?’ "
+    },
+    {
+      "number": 93,
+      "pali": "‘Kiṁ, je, divātaraṁ uṭṭhāsī’ti? ",
+      "english": "‘You’re getting up later in the day—what’s up with you, wench?’ "
+    },
+    {
+      "number": 94,
+      "pali": "‘Na khvayye, kiñcī’ti. ",
+      "english": "‘Nothing, ma’am.’ "
+    },
+    {
+      "number": 95,
+      "pali": "‘No vata re kiñci, pāpi dāsi, divātaraṁ uṭṭhāsī’ti kupitā anattamanā anattamanavācaṁ nicchāresi. ",
+      "english": "‘Oh, so nothing’s up, you naughty maid, but you get up later in the day!’ Angry and upset, she blurted out angry words. "
+    },
+    {
+      "number": 96,
+      "pali": "Atha kho, bhikkhave, kāḷiyā dāsiyā etadahosi: ",
+      "english": "Then Kāḷī thought, "
+    },
+    {
+      "number": 97,
+      "pali": "‘santaṁyeva kho me ayyā ajjhattaṁ kopaṁ na pātukaroti, no asantaṁ. ",
+      "english": "‘My mistress actually has anger in her and just doesn’t show it; it’s not that she has no anger. "
+    },
+    {
+      "number": 98,
+      "pali": "Mayhamevete kammantā susaṁvihitā, yena me ayyā santaṁyeva ajjhattaṁ kopaṁ na pātukaroti, no asantaṁ. ",
+      "english": "It’s just because my work is well-organized that she doesn’t show anger, even though she still has it inside. "
+    },
+    {
+      "number": 99,
+      "pali": "Yannūnāhaṁ bhiyyoso mattāya ayyaṁ vīmaṁseyyan’ti. ",
+      "english": "Why don’t I test my mistress further?’ "
+    },
+    {
+      "number": 100,
+      "pali": "Atha kho, bhikkhave, kāḷī dāsī divātaraṁyeva uṭṭhāsi. ",
+      "english": "So Kāḷī got up even later in the day. "
+    },
+    {
+      "number": 101,
+      "pali": "Atha kho, bhikkhave, vedehikā gahapatānī kāḷiṁ dāsiṁ etadavoca: ",
+      "english": "Vedehikā said to her, "
+    },
+    {
+      "number": 102,
+      "pali": "‘he je kāḷī’ti. ",
+      "english": "‘Oi wench, Kāḷī!’ "
+    },
+    {
+      "number": 103,
+      "pali": "‘Kiṁ, ayye’ti? ",
+      "english": "‘What is it, ma’am?’ "
+    },
+    {
+      "number": 104,
+      "pali": "‘Kiṁ, je, divā uṭṭhāsī’ti? ",
+      "english": "‘You’re getting up even later in the day—what’s up with you, wench?’ "
+    },
+    {
+      "number": 105,
+      "pali": "‘Na khvayye, kiñcī’ti. ",
+      "english": "‘Nothing, ma’am.’ "
+    },
+    {
+      "number": 106,
+      "pali": "‘No vata re kiñci, pāpi dāsi, divā uṭṭhāsī’ti kupitā anattamanā aggaḷasūciṁ gahetvā sīse pahāraṁ adāsi, sīsaṁ vobhindi. ",
+      "english": "‘Oh, so nothing’s up, you naughty maid, but you get up even later in the day!’ Angry and upset, she grabbed a door-pin and hit Kāḷī on the head, cracking it open. "
+    },
+    {
+      "number": 107,
+      "pali": "Atha kho, bhikkhave, kāḷī dāsī bhinnena sīsena lohitena galantena paṭivissakānaṁ ujjhāpesi: ",
+      "english": "Then Kāḷī, with blood pouring from her cracked skull, denounced her mistress to the neighbors, "
+    },
+    {
+      "number": 108,
+      "pali": "‘passathayye, soratāya kammaṁ; ",
+      "english": "‘See, ladies, what the gentle one did! "
+    },
+    {
+      "number": 109,
+      "pali": "passathayye, nivātāya kammaṁ, passathayye, upasantāya kammaṁ. ",
+      "english": "See what the placid one did! See what the calm one did! "
+    },
+    {
+      "number": 110,
+      "pali": "Kathañhi nāma ekadāsikāya divā uṭṭhāsīti kupitā anattamanā aggaḷasūciṁ gahetvā sīse pahāraṁ dassati, sīsaṁ vobhindissatī’ti. ",
+      "english": "How on earth can she grab a door-pin and hit her only maid on the head, cracking it open, just for getting up late?’ "
+    },
+    {
+      "number": 111,
+      "pali": "Atha kho, bhikkhave, vedehikāya gahapatāniyā aparena samayena evaṁ pāpako kittisaddo abbhuggacchi: ",
+      "english": "Then after some time the housewife Vedehikā got this bad reputation: "
+    },
+    {
+      "number": 112,
+      "pali": "‘caṇḍī vedehikā gahapatānī, anivātā vedehikā gahapatānī, anupasantā vedehikā gahapatānī’ti. ",
+      "english": "‘The housewife Vedehikā is fierce, ill-tempered, and not calm at all.’ "
+    },
+    {
+      "number": 113,
+      "pali": "Evameva kho, bhikkhave, idhekacco bhikkhu tāvadeva soratasorato hoti nivātanivāto hoti upasantūpasanto hoti yāva na amanāpā vacanapathā phusanti. ",
+      "english": "In the same way, a mendicant may be the gentlest of the gentle, the most placid of the placid, the calmest of the calm, so long as they don’t encounter any disagreeable criticism. "
+    },
+    {
+      "number": 114,
+      "pali": "Yato ca, bhikkhave, bhikkhuṁ amanāpā vacanapathā phusanti, atha bhikkhu ‘sorato’ti veditabbo, ‘nivāto’ti veditabbo, ‘upasanto’ti veditabbo. ",
+      "english": "But it’s when they encounter disagreeable criticism that you’ll know whether they’re really gentle, placid, and calm. "
+    },
+    {
+      "number": 115,
+      "pali": "Nāhaṁ taṁ, bhikkhave, bhikkhuṁ ‘suvaco’ti vadāmi yo cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārahetu suvaco hoti, sovacassataṁ āpajjati. ",
+      "english": "I don’t say that a mendicant is easy to admonish if they make themselves easy to admonish only for the sake of robes, almsfood, lodgings, and medicines and supplies for the sick. "
+    },
+    {
+      "number": 116,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 117,
+      "pali": "Tañhi so, bhikkhave, bhikkhu cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhāraṁ alabhamāno na suvaco hoti, na sovacassataṁ āpajjati. ",
+      "english": "Because when they don’t get robes, almsfood, lodgings, and medicines and supplies for the sick, they’re no longer easy to admonish. "
+    },
+    {
+      "number": 118,
+      "pali": "Yo ca kho, bhikkhave, bhikkhu dhammaṁyeva sakkaronto, dhammaṁ garuṁ karonto, dhammaṁ mānento, dhammaṁ pūjento, dhammaṁ apacāyamāno suvaco hoti, sovacassataṁ āpajjati, tamahaṁ ‘suvaco’ti vadāmi. ",
+      "english": "But when a mendicant is easy to admonish purely because they honor, respect, revere, worship, and venerate the teaching, then I say that they’re easy to admonish. "
+    },
+    {
+      "number": 119,
+      "pali": "Tasmātiha, bhikkhave, ‘dhammaṁyeva sakkarontā, dhammaṁ garuṁ karontā, dhammaṁ mānentā, dhammaṁ pūjentā, dhammaṁ apacāyamānā suvacā bhavissāma, sovacassataṁ āpajjissāmā’ti. ",
+      "english": "So, mendicants, you should train yourselves: ‘We will be easy to admonish purely because we honor, respect, revere, worship, and venerate the teaching.’ "
+    },
+    {
+      "number": 120,
+      "pali": "Evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 121,
+      "pali": "Pañcime, bhikkhave, vacanapathā yehi vo pare vadamānā vadeyyuṁ—",
+      "english": "Mendicants, there are these five ways in which others might criticize you. "
+    },
+    {
+      "number": 122,
+      "pali": "kālena vā akālena vā; ",
+      "english": "Their speech may be timely or untimely, "
+    },
+    {
+      "number": 123,
+      "pali": "bhūtena vā abhūtena vā; ",
+      "english": "true or false, "
+    },
+    {
+      "number": 124,
+      "pali": "saṇhena vā pharusena vā; ",
+      "english": "gentle or harsh, "
+    },
+    {
+      "number": 125,
+      "pali": "atthasaṁhitena vā anatthasaṁhitena vā; ",
+      "english": "beneficial or harmful, "
+    },
+    {
+      "number": 126,
+      "pali": "mettacittā vā dosantarā vā. ",
+      "english": "from a heart of love or from secret hate. "
+    },
+    {
+      "number": 127,
+      "pali": "Kālena vā, bhikkhave, pare vadamānā vadeyyuṁ akālena vā; ",
+      "english": "When others criticize you, they may do so in any of these ways. "
+    },
+    {
+      "number": 128,
+      "pali": "bhūtena vā, bhikkhave, pare vadamānā vadeyyuṁ abhūtena vā; ",
+      "english": ""
+    },
+    {
+      "number": 129,
+      "pali": "saṇhena vā, bhikkhave, pare vadamānā vadeyyuṁ pharusena vā; ",
+      "english": ""
+    },
+    {
+      "number": 130,
+      "pali": "atthasaṁhitena vā, bhikkhave, pare vadamānā vadeyyuṁ anatthasaṁhitena vā; ",
+      "english": ""
+    },
+    {
+      "number": 131,
+      "pali": "mettacittā vā, bhikkhave, pare vadamānā vadeyyuṁ dosantarā vā. ",
+      "english": ""
+    },
+    {
+      "number": 132,
+      "pali": "Tatrāpi vo, bhikkhave, evaṁ sikkhitabbaṁ: ",
+      "english": "If that happens, you should train like this: "
+    },
+    {
+      "number": 133,
+      "pali": "‘na ceva no cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāma, hitānukampī ca viharissāma mettacittā, na dosantarā. ",
+      "english": "‘Our minds will not degenerate. We will blurt out no bad words. We will remain full of sympathy, with a heart of love and no secret hate. "
+    },
+    {
+      "number": 134,
+      "pali": "Tañca puggalaṁ mettāsahagatena cetasā pharitvā viharissāma, tadārammaṇañca sabbāvantaṁ lokaṁ mettāsahagatena cittena vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharissāmā’ti. ",
+      "english": "We will meditate spreading a heart of love to that individual. And with them as a basis, we will meditate spreading a heart full of love to everyone in the world—abundant, expansive, limitless, free of enmity and ill will.’ "
+    },
+    {
+      "number": 135,
+      "pali": "Evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 136,
+      "pali": "Seyyathāpi, bhikkhave, puriso āgaccheyya kudālapiṭakaṁ ādāya. ",
+      "english": "Suppose a person was to come along carrying a spade and basket "
+    },
+    {
+      "number": 137,
+      "pali": "So evaṁ vadeyya: ",
+      "english": "and say, "
+    },
+    {
+      "number": 138,
+      "pali": "‘ahaṁ imaṁ mahāpathaviṁ apathaviṁ karissāmī’ti. ",
+      "english": "‘I shall make this great earth be without earth!’ "
+    },
+    {
+      "number": 139,
+      "pali": "So tatra tatra vikhaṇeyya, tatra tatra vikireyya, tatra tatra oṭṭhubheyya, tatra tatra omutteyya: ",
+      "english": "And they’d dig all over, scatter all over, spit all over, and urinate all over, saying, "
+    },
+    {
+      "number": 140,
+      "pali": "‘apathavī bhavasi, apathavī bhavasī’ti. ",
+      "english": "‘Be without earth! Be without earth!’ "
+    },
+    {
+      "number": 141,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 142,
+      "pali": "api nu so puriso imaṁ mahāpathaviṁ apathaviṁ kareyyā”ti? ",
+      "english": "Could that person make this great earth be without earth?” "
+    },
+    {
+      "number": 143,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 144,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 145,
+      "pali": "“Ayañhi, bhante, mahāpathavī gambhīrā appameyyā. ",
+      "english": "Because this great earth is deep and limitless. "
+    },
+    {
+      "number": 146,
+      "pali": "Sā na sukarā apathavī kātuṁ; ",
+      "english": "It’s not easy to make it be without earth. "
+    },
+    {
+      "number": 147,
+      "pali": "yāvadeva ca pana so puriso kilamathassa vighātassa bhāgī assā”ti. ",
+      "english": "That person will eventually get weary and frustrated.” "
+    },
+    {
+      "number": 148,
+      "pali": "“Evameva kho, bhikkhave, pañcime vacanapathā yehi vo pare vadamānā vadeyyuṁ—",
+      "english": "“In the same way, there are these five ways in which others might criticize you. "
+    },
+    {
+      "number": 149,
+      "pali": "kālena vā akālena vā; ",
+      "english": "Their speech may be timely or untimely, "
+    },
+    {
+      "number": 150,
+      "pali": "bhūtena vā abhūtena vā; ",
+      "english": "true or false, "
+    },
+    {
+      "number": 151,
+      "pali": "saṇhena vā pharusena vā; ",
+      "english": "gentle or harsh, "
+    },
+    {
+      "number": 152,
+      "pali": "atthasaṁhitena vā anatthasaṁhitena vā; ",
+      "english": "beneficial or harmful, "
+    },
+    {
+      "number": 153,
+      "pali": "mettacittā vā dosantarā vā. ",
+      "english": "from a heart of love or from secret hate. "
+    },
+    {
+      "number": 154,
+      "pali": "Kālena vā, bhikkhave, pare vadamānā vadeyyuṁ akālena vā; ",
+      "english": "When others criticize you, they may do so in any of these ways. "
+    },
+    {
+      "number": 155,
+      "pali": "bhūtena vā bhikkhave, pare vadamānā vadeyyuṁ abhūtena vā; ",
+      "english": ""
+    },
+    {
+      "number": 156,
+      "pali": "saṇhena vā, bhikkhave, pare vadamānā vadeyyuṁ pharusena vā; ",
+      "english": ""
+    },
+    {
+      "number": 157,
+      "pali": "atthasaṁhitena vā, bhikkhave, pare vadamānā vadeyyuṁ anatthasaṁhitena vā; ",
+      "english": ""
+    },
+    {
+      "number": 158,
+      "pali": "mettacittā vā, bhikkhave, pare vadamānā vadeyyuṁ dosantarā vā. ",
+      "english": ""
+    },
+    {
+      "number": 159,
+      "pali": "Tatrāpi vo, bhikkhave, evaṁ sikkhitabbaṁ: ",
+      "english": "If that happens, you should train like this: "
+    },
+    {
+      "number": 160,
+      "pali": "‘na ceva no cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāma, hitānukampī ca viharissāma mettacittā na dosantarā. ",
+      "english": "‘Our minds will not degenerate. We will blurt out no bad words. We will remain full of sympathy, with a heart of love and no secret hate. "
+    },
+    {
+      "number": 161,
+      "pali": "Tañca puggalaṁ mettāsahagatena cetasā pharitvā viharissāma, tadārammaṇañca sabbāvantaṁ lokaṁ pathavisamena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharissāmā’ti. ",
+      "english": "We will meditate spreading a heart of love to that individual. And with them as a basis, we will meditate spreading a heart like the earth to everyone in the world—abundant, expansive, limitless, free of enmity and ill will.’ "
+    },
+    {
+      "number": 162,
+      "pali": "Evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 163,
+      "pali": "Seyyathāpi, bhikkhave, puriso āgaccheyya lākhaṁ vā haliddiṁ vā nīlaṁ vā mañjiṭṭhaṁ vā ādāya. ",
+      "english": "Suppose a person was to come along with dye such as red lac, turmeric, indigo, or rose madder, "
+    },
+    {
+      "number": 164,
+      "pali": "So evaṁ vadeyya: ",
+      "english": "and say, "
+    },
+    {
+      "number": 165,
+      "pali": "‘ahaṁ imasmiṁ ākāse rūpaṁ likhissāmi, rūpapātubhāvaṁ karissāmī’ti. ",
+      "english": "‘I shall draw pictures in space, making pictures appear there.’ "
+    },
+    {
+      "number": 166,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 167,
+      "pali": "api nu so puriso imasmiṁ ākāse rūpaṁ likheyya, rūpapātubhāvaṁ kareyyā”ti? ",
+      "english": "Could that person draw pictures in space?” "
+    },
+    {
+      "number": 168,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 169,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 170,
+      "pali": "“Ayañhi, bhante, ākāso arūpī anidassano. ",
+      "english": "Because space has no form or appearance. "
+    },
+    {
+      "number": 171,
+      "pali": "Tattha na sukaraṁ rūpaṁ likhituṁ, rūpapātubhāvaṁ kātuṁ; ",
+      "english": "It’s not easy to draw pictures there. "
+    },
+    {
+      "number": 172,
+      "pali": "yāvadeva ca pana so puriso kilamathassa vighātassa bhāgī assā”ti. ",
+      "english": "That person will eventually get weary and frustrated.” "
+    },
+    {
+      "number": 173,
+      "pali": "“Evameva kho, bhikkhave, pañcime vacanapathā yehi vo pare vadamānā vadeyyuṁ kālena vā akālena vā …pe… ",
+      "english": "“In the same way, if others criticize you in any of these five ways … you should train like this: "
+    },
+    {
+      "number": 174,
+      "pali": "tadārammaṇañca sabbāvantaṁ lokaṁ ākāsasamena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharissāmā’ti. ",
+      "english": "‘… We will meditate spreading a heart of love to that person. And with them as a basis, we will meditate spreading a heart like space to everyone in the world—abundant, expansive, limitless, free of enmity and ill will.’ "
+    },
+    {
+      "number": 175,
+      "pali": "Evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 176,
+      "pali": "Seyyathāpi, bhikkhave, puriso āgaccheyya ādittaṁ tiṇukkaṁ ādāya. ",
+      "english": "Suppose a person was to come along carrying a blazing grass torch, "
+    },
+    {
+      "number": 177,
+      "pali": "So evaṁ vadeyya: ",
+      "english": "and say, "
+    },
+    {
+      "number": 178,
+      "pali": "‘ahaṁ imāya ādittāya tiṇukkāya gaṅgaṁ nadiṁ santāpessāmi samparitāpessāmī’ti. ",
+      "english": "‘I shall burn and scorch the river Ganges with this blazing grass torch.’ "
+    },
+    {
+      "number": 179,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 180,
+      "pali": "api nu so puriso ādittāya tiṇukkāya gaṅgaṁ nadiṁ santāpeyya samparitāpeyyā”ti? ",
+      "english": "Could that person burn and scorch the river Ganges with a blazing grass torch?” "
+    },
+    {
+      "number": 181,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 182,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 183,
+      "pali": "“Gaṅgā hi, bhante, nadī gambhīrā appameyyā. ",
+      "english": "Because the river Ganges is deep and limitless. "
+    },
+    {
+      "number": 184,
+      "pali": "Sā na sukarā ādittāya tiṇukkāya santāpetuṁ samparitāpetuṁ; ",
+      "english": "It’s not easy to burn and scorch it with a blazing grass torch. "
+    },
+    {
+      "number": 185,
+      "pali": "yāvadeva ca pana so puriso kilamathassa vighātassa bhāgī assā”ti. ",
+      "english": "That person will eventually get weary and frustrated.” "
+    },
+    {
+      "number": 186,
+      "pali": "“Evameva kho, bhikkhave, pañcime vacanapathā yehi vo pare vadamānā vadeyyuṁ kālena vā akālena vā …pe… ",
+      "english": "“In the same way, if others criticize you in any of these five ways … you should train like this: "
+    },
+    {
+      "number": 187,
+      "pali": "tadārammaṇañca sabbāvantaṁ lokaṁ gaṅgāsamena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharissāmā’ti. ",
+      "english": "‘… We will meditate spreading a heart of love to that individual. And with them as a basis, we will meditate spreading a heart like the Ganges to everyone in the world—abundant, expansive, limitless, free of enmity and ill will.’ "
+    },
+    {
+      "number": 188,
+      "pali": "Evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 189,
+      "pali": "Seyyathāpi, bhikkhave, biḷārabhastā madditā sumadditā suparimadditā, mudukā tūlinī chinnasassarā chinnabhabbharā. ",
+      "english": "Suppose there was a catskin bag that was rubbed, well-rubbed, very well-rubbed, soft, silky, rid of rustling and crackling. "
+    },
+    {
+      "number": 190,
+      "pali": "Atha puriso āgaccheyya kaṭṭhaṁ vā kathalaṁ vā ādāya. ",
+      "english": "Then a person comes along carrying a stick or a stone, "
+    },
+    {
+      "number": 191,
+      "pali": "So evaṁ vadeyya: ",
+      "english": "and says, "
+    },
+    {
+      "number": 192,
+      "pali": "‘ahaṁ imaṁ biḷārabhastaṁ madditaṁ sumadditaṁ suparimadditaṁ, mudukaṁ tūliniṁ, chinnasassaraṁ chinnabhabbharaṁ kaṭṭhena vā kathalena vā sarasaraṁ karissāmi bharabharaṁ karissāmī’ti. ",
+      "english": "‘I shall make this soft catskin bag rustle and crackle with this stick or stone.’ "
+    },
+    {
+      "number": 193,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 194,
+      "pali": "api nu so puriso amuṁ biḷārabhastaṁ madditaṁ sumadditaṁ suparimadditaṁ, mudukaṁ tūliniṁ, chinnasassaraṁ chinnabhabbharaṁ kaṭṭhena vā kathalena vā sarasaraṁ kareyya, bharabharaṁ kareyyā”ti? ",
+      "english": "Could that person make that soft catskin bag rustle and crackle with that stick or stone?” "
+    },
+    {
+      "number": 195,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir. "
+    },
+    {
+      "number": 196,
+      "pali": "“Taṁ kissa hetu”? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 197,
+      "pali": "“Amu hi, bhante, biḷārabhastā madditā sumadditā suparimadditā, mudukā tūlinī, chinnasassarā chinnabhabbharā. ",
+      "english": "Because that catskin bag is rubbed, well-rubbed, very well-rubbed, soft, silky, rid of rustling and crackling. "
+    },
+    {
+      "number": 198,
+      "pali": "Sā na sukarā kaṭṭhena vā kathalena vā sarasaraṁ kātuṁ bharabharaṁ kātuṁ; ",
+      "english": "It’s not easy to make it rustle or crackle with a stick or stone. "
+    },
+    {
+      "number": 199,
+      "pali": "yāvadeva ca pana so puriso kilamathassa vighātassa bhāgī assā”ti. ",
+      "english": "That person will eventually get weary and frustrated.” "
+    },
+    {
+      "number": 200,
+      "pali": "“Evameva kho, bhikkhave, pañcime vacanapathā yehi vo pare vadamānā vadeyyuṁ ",
+      "english": "“In the same way, there are these five ways in which others might criticize you. "
+    },
+    {
+      "number": 201,
+      "pali": "kālena vā akālena vā; ",
+      "english": "Their speech may be timely or untimely, "
+    },
+    {
+      "number": 202,
+      "pali": "bhūtena vā abhūtena vā; ",
+      "english": "true or false, "
+    },
+    {
+      "number": 203,
+      "pali": "saṇhena vā pharusena vā; ",
+      "english": "gentle or harsh, "
+    },
+    {
+      "number": 204,
+      "pali": "atthasaṁhitena vā anatthasaṁhitena vā; ",
+      "english": "beneficial or harmful, "
+    },
+    {
+      "number": 205,
+      "pali": "mettacittā vā dosantarā vā. ",
+      "english": "from a heart of love or from secret hate. "
+    },
+    {
+      "number": 206,
+      "pali": "Kālena vā, bhikkhave, pare vadamānā vadeyyuṁ akālena vā; ",
+      "english": "When others criticize you, they may do so in any of these ways. "
+    },
+    {
+      "number": 207,
+      "pali": "bhūtena vā, bhikkhave, pare vadamānā vadeyyuṁ abhūtena vā; ",
+      "english": ""
+    },
+    {
+      "number": 208,
+      "pali": "saṇhena vā, bhikkhave, pare vadamānā vadeyyuṁ pharusena vā; ",
+      "english": ""
+    },
+    {
+      "number": 209,
+      "pali": "atthasaṁhitena vā, bhikkhave, pare vadamānā vadeyyuṁ anatthasaṁhitena vā; ",
+      "english": ""
+    },
+    {
+      "number": 210,
+      "pali": "mettacittā vā, bhikkhave, pare vadamānā vadeyyuṁ dosantarā vā. ",
+      "english": ""
+    },
+    {
+      "number": 211,
+      "pali": "Tatrāpi vo, bhikkhave, evaṁ sikkhitabbaṁ: ",
+      "english": "If that happens, you should train like this: "
+    },
+    {
+      "number": 212,
+      "pali": "‘na ceva no cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāma hitānukampī ca viharissāma mettacittā na dosantarā. ",
+      "english": "‘Our minds will not degenerate. We will blurt out no bad words. We will remain full of sympathy, with a heart of love and no secret hate. "
+    },
+    {
+      "number": 213,
+      "pali": "Tañca puggalaṁ mettāsahagatena cetasā pharitvā viharissāma, tadārammaṇañca sabbāvantaṁ lokaṁ biḷārabhastāsamena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharissāmā’ti. ",
+      "english": "We will meditate spreading a heart of love to that individual. And with them as a basis, we will meditate spreading a heart like a catskin bag to everyone in the world—abundant, expansive, limitless, free of enmity and ill will.’ "
+    },
+    {
+      "number": 214,
+      "pali": "Evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 215,
+      "pali": "Ubhatodaṇḍakena cepi, bhikkhave, kakacena corā ocarakā aṅgamaṅgāni okanteyyuṁ, tatrāpi yo mano padūseyya, na me so tena sāsanakaro. ",
+      "english": "Even if low-down bandits were to sever you limb from limb with a two-handed saw, anyone who had a malevolent thought on that account would not be following my instructions. "
+    },
+    {
+      "number": 216,
+      "pali": "Tatrāpi vo, bhikkhave, evaṁ sikkhitabbaṁ: ",
+      "english": "If that happens, you should train like this: "
+    },
+    {
+      "number": 217,
+      "pali": "‘na ceva no cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāma, hitānukampī ca viharissāma mettacittā na dosantarā. ",
+      "english": "‘Our minds will not degenerate. We will blurt out no bad words. We will remain full of sympathy, with a heart of love and no secret hate. "
+    },
+    {
+      "number": 218,
+      "pali": "Tañca puggalaṁ mettāsahagatena cetasā pharitvā viharissāma tadārammaṇañca sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharissāmā’ti. ",
+      "english": "We will meditate spreading a heart of love to that individual. And with them as a basis, we will meditate spreading a heart full of love to everyone in the world—abundant, expansive, limitless, free of enmity and ill will.’ "
+    },
+    {
+      "number": 219,
+      "pali": "Evañhi vo, bhikkhave, sikkhitabbaṁ. ",
+      "english": "That’s how you should train. "
+    },
+    {
+      "number": 220,
+      "pali": "Imañca tumhe, bhikkhave, kakacūpamaṁ ovādaṁ abhikkhaṇaṁ manasi kareyyātha. ",
+      "english": "If you frequently reflect on this advice on the simile of the saw, "
+    },
+    {
+      "number": 221,
+      "pali": "Passatha no tumhe, bhikkhave, taṁ vacanapathaṁ, aṇuṁ vā thūlaṁ vā, yaṁ tumhe nādhivāseyyāthā”ti? ",
+      "english": "do you see any criticism, large or small, that you could not endure?” "
+    },
+    {
+      "number": 222,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 223,
+      "pali": "“Tasmātiha, bhikkhave, imaṁ kakacūpamaṁ ovādaṁ abhikkhaṇaṁ manasikarotha. ",
+      "english": "“So, mendicants, you should frequently reflect on this advice on the simile of the saw. "
+    },
+    {
+      "number": 224,
+      "pali": "Taṁ vo bhavissati dīgharattaṁ hitāya sukhāyā”ti. ",
+      "english": "This will be for your lasting welfare and happiness.” "
+    },
+    {
+      "number": 225,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 226,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 227,
+      "pali": "Kakacūpamasuttaṁ niṭṭhitaṁ paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

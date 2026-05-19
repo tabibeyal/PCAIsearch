@@ -1,0 +1,725 @@
+{
+  "sutta_id": "SN22.87",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 22.87 ",
+      "english": "Linked Discourses 22.87 "
+    },
+    {
+      "number": 2,
+      "pali": "9. Theravagga ",
+      "english": "9. Senior Mendicants "
+    },
+    {
+      "number": 3,
+      "pali": "Vakkalisutta ",
+      "english": "With Vakkali "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā rājagahe viharati veḷuvane kalandakanivāpe. ",
+      "english": "At one time the Buddha was staying near Rājagaha, in the Bamboo Grove, the squirrels’ feeding ground. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena āyasmā vakkali kumbhakāranivesane viharati ābādhiko dukkhito bāḷhagilāno. ",
+      "english": "Now at that time Venerable Vakkali was staying in a potter’s shed, and he was sick, suffering, gravely ill. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho āyasmā vakkali upaṭṭhāke āmantesi: ",
+      "english": "Then he addressed his carers, "
+    },
+    {
+      "number": 7,
+      "pali": "“etha tumhe, āvuso, yena bhagavā tenupasaṅkamatha; upasaṅkamitvā mama vacanena bhagavato pāde sirasā vandatha: ",
+      "english": "“Please, reverends, go to the Buddha, and in my name bow with your head to his feet. Say to him: "
+    },
+    {
+      "number": 8,
+      "pali": "‘vakkali, bhante, bhikkhu ābādhiko dukkhito bāḷhagilāno, so bhagavato pāde sirasā vandatī’ti. ",
+      "english": "‘Sir, the mendicant Vakkali is sick, suffering, and gravely ill. He bows with his head to your feet.’ "
+    },
+    {
+      "number": 9,
+      "pali": "Evañca vadetha: ",
+      "english": "And then say: "
+    },
+    {
+      "number": 10,
+      "pali": "‘sādhu kira, bhante, bhagavā yena vakkali bhikkhu tenupasaṅkamatu anukampaṁ upādāyā’”ti. ",
+      "english": "‘Sir, please go to the mendicant Vakkali out of sympathy.’” "
+    },
+    {
+      "number": 11,
+      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato vakkalissa paṭissutvā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū bhagavantaṁ etadavocuṁ: ",
+      "english": "“Yes, reverend,” those monks replied. They did as he asked. "
+    },
+    {
+      "number": 12,
+      "pali": "“vakkali, bhante, bhikkhu ābādhiko dukkhito bāḷhagilāno, so bhagavato pāde sirasā vandati; ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "evañca pana vadeti: ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "‘sādhu kira, bhante, bhagavā yena vakkali bhikkhu tenupasaṅkamatu anukampaṁ upādāyā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "Adhivāsesi bhagavā tuṇhībhāvena. ",
+      "english": "The Buddha consented with silence. "
+    },
+    {
+      "number": 16,
+      "pali": "Atha kho bhagavā nivāsetvā pattacīvaramādāya yenāyasmā vakkali tenupasaṅkami. ",
+      "english": "Then the Buddha robed up and, taking his bowl and robes, went to Venerable Vakkali. "
+    },
+    {
+      "number": 17,
+      "pali": "Addasā kho āyasmā vakkali bhagavantaṁ dūratova āgacchantaṁ. Disvāna mañcake samadhosi. ",
+      "english": "Venerable Vakkali saw the Buddha coming off in the distance and stirred in his cot. "
+    },
+    {
+      "number": 18,
+      "pali": "Atha kho bhagavā āyasmantaṁ vakkaliṁ etadavoca: ",
+      "english": "But the Buddha said to him, "
+    },
+    {
+      "number": 19,
+      "pali": "“alaṁ, vakkali, mā tvaṁ mañcake samadhosi. ",
+      "english": "“It’s all right, Vakkali, don’t get up. "
+    },
+    {
+      "number": 20,
+      "pali": "Santimāni āsanāni paññattāni; tatthāhaṁ nisīdissāmī”ti. ",
+      "english": "There are some seats spread out, I will sit there.” "
+    },
+    {
+      "number": 21,
+      "pali": "Nisīdi bhagavā paññatte āsane. Nisajja kho bhagavā āyasmantaṁ vakkaliṁ etadavoca: ",
+      "english": "He sat on the seat spread out and said to Vakkali, "
+    },
+    {
+      "number": 22,
+      "pali": "“kacci te, vakkali, khamanīyaṁ, kacci yāpanīyaṁ, kacci dukkhā vedanā paṭikkamanti, no abhikkamanti; paṭikkamosānaṁ paññāyati, no abhikkamo”ti? ",
+      "english": "“I hope you’re keeping well, Vakkali; I hope you’re all right. And I hope the pain is fading, not growing, that its fading is evident, not its growing.” "
+    },
+    {
+      "number": 23,
+      "pali": "“Na me, bhante, khamanīyaṁ, na yāpanīyaṁ; bāḷhā me dukkhā vedanā abhikkamanti, no paṭikkamanti; abhikkamosānaṁ paññāyati, no paṭikkamo”ti. ",
+      "english": "“Sir, I’m not all right, I’m not getting by. My pain is terrible and growing, not fading; its growing is apparent, not its fading.” "
+    },
+    {
+      "number": 24,
+      "pali": "“Kacci te, vakkali, na kiñci kukkuccaṁ, na koci vippaṭisāro”ti? ",
+      "english": "“I hope you don’t have any remorse or regret?” "
+    },
+    {
+      "number": 25,
+      "pali": "“Taggha me, bhante, anappakaṁ kukkuccaṁ, anappako vippaṭisāro”ti. ",
+      "english": "“Indeed, sir, I have no little remorse and regret.” "
+    },
+    {
+      "number": 26,
+      "pali": "“Kacci pana taṁ, vakkali, attā sīlato na upavadatī”ti? ",
+      "english": "“I hope you have no reason to blame yourself when it comes to ethical conduct?” "
+    },
+    {
+      "number": 27,
+      "pali": "“Na kho maṁ, bhante, attā sīlato upavadatī”ti. ",
+      "english": "“No sir, I have no reason to blame myself when it comes to ethical conduct.” "
+    },
+    {
+      "number": 28,
+      "pali": "“No ce kira taṁ, vakkali, attā sīlato upavadati; atha kiñca te kukkuccaṁ ko ca vippaṭisāro”ti? ",
+      "english": "“In that case, Vakkali, why do you have remorse and regret?” "
+    },
+    {
+      "number": 29,
+      "pali": "“Cirapaṭikāhaṁ, bhante, bhagavantaṁ dassanāya upasaṅkamitukāmo, natthi ca me kāyasmiṁ tāvatikā balamattā, yāvatāhaṁ bhagavantaṁ dassanāya upasaṅkameyyan”ti. ",
+      "english": "“For a long time I’ve wanted to go and see the Buddha, but I was physically too weak.” "
+    },
+    {
+      "number": 30,
+      "pali": "“Alaṁ, vakkali, kiṁ te iminā pūtikāyena diṭṭhena? ",
+      "english": "“Enough, Vakkali! Why would you want to see this rotting body? "
+    },
+    {
+      "number": 31,
+      "pali": "Yo kho, vakkali, dhammaṁ passati so maṁ passati; ",
+      "english": "One who sees the teaching sees me. "
+    },
+    {
+      "number": 32,
+      "pali": "yo maṁ passati so dhammaṁ passati. ",
+      "english": "One who sees me sees the teaching. "
+    },
+    {
+      "number": 33,
+      "pali": "Dhammañhi, vakkali, passanto maṁ passati; ",
+      "english": "Seeing the teaching, you see me. "
+    },
+    {
+      "number": 34,
+      "pali": "maṁ passanto dhammaṁ passati. ",
+      "english": "Seeing me, you see the teaching. "
+    },
+    {
+      "number": 35,
+      "pali": "Taṁ kiṁ maññasi, vakkali, ",
+      "english": "What do you think, Vakkali? "
+    },
+    {
+      "number": 36,
+      "pali": "rūpaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Is form permanent or impermanent?” "
+    },
+    {
+      "number": 37,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 38,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 39,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 40,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 41,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 42,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 43,
+      "pali": "“Vedanā … ",
+      "english": "“Is feeling … "
+    },
+    {
+      "number": 44,
+      "pali": "saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 45,
+      "pali": "saṅkhārā … ",
+      "english": "choices … "
+    },
+    {
+      "number": 46,
+      "pali": "viññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "consciousness permanent or impermanent?” "
+    },
+    {
+      "number": 47,
+      "pali": "“Aniccaṁ, bhante” …pe… ",
+      "english": "“Impermanent, sir.” … "
+    },
+    {
+      "number": 48,
+      "pali": "eso me attāti? ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "“Tasmātiha …pe… ",
+      "english": "“So you should truly see … "
+    },
+    {
+      "number": 51,
+      "pali": "evaṁ passaṁ …pe… ",
+      "english": "Seeing this … "
+    },
+    {
+      "number": 52,
+      "pali": "nāparaṁ itthattāyāti pajānātī”ti. ",
+      "english": "They understand: ‘… there is nothing further for this place.’” "
+    },
+    {
+      "number": 53,
+      "pali": "Atha kho bhagavā āyasmantaṁ vakkaliṁ iminā ovādena ovaditvā uṭṭhāyāsanā yena gijjhakūṭo pabbato tena pakkāmi. ",
+      "english": "And then, after giving Venerable Vakkali this advice, the Buddha got up from his seat and went to the Vulture’s Peak Mountain. "
+    },
+    {
+      "number": 54,
+      "pali": "Atha kho āyasmā vakkali acirapakkantassa bhagavato upaṭṭhāke āmantesi: ",
+      "english": "Then Venerable Vakkali addressed his carers, "
+    },
+    {
+      "number": 55,
+      "pali": "“etha maṁ, āvuso, mañcakaṁ āropetvā yena isigilipassaṁ kāḷasilā tenupasaṅkamatha. ",
+      "english": "“Come on, reverends, lift my cot and take me to the Black Rock on the slopes of Isigili. "
+    },
+    {
+      "number": 56,
+      "pali": "Kathañhi nāma mādiso antaraghare kālaṁ kattabbaṁ maññeyyā”ti? ",
+      "english": "For how on earth could one such as I imagine dying in an inhabited area!” "
+    },
+    {
+      "number": 57,
+      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato vakkalissa paṭissutvā āyasmantaṁ vakkaliṁ mañcakaṁ āropetvā yena isigilipassaṁ kāḷasilā tenupasaṅkamiṁsu. ",
+      "english": "“Yes, reverend,” replied those mendicants, and did as he asked. "
+    },
+    {
+      "number": 58,
+      "pali": "Atha kho bhagavā tañca rattiṁ tañca divāvasesaṁ gijjhakūṭe pabbate vihāsi. ",
+      "english": "Meanwhile, the Buddha spent the rest of that night and day on Vulture’s Peak Mountain. "
+    },
+    {
+      "number": 59,
+      "pali": "Atha kho dve devatāyo abhikkantāya rattiyā abhikkantavaṇṇā kevalakappaṁ gijjhakūṭaṁ obhāsetvā yena bhagavā tenupasaṅkamiṁsu …pe… ekamantaṁ aṭṭhaṁsu. ",
+      "english": "Then, late at night, two glorious deities, lighting up the entire Vulture’s Peak, went up to the Buddha, bowed, and stood to one side. "
+    },
+    {
+      "number": 60,
+      "pali": "Ekamantaṁ ṭhitā kho ekā devatā bhagavantaṁ etadavoca: ",
+      "english": "One deity said to him, "
+    },
+    {
+      "number": 61,
+      "pali": "“vakkali, bhante, bhikkhu vimokkhāya cetetī”ti. ",
+      "english": "“Sir, the mendicant Vakkali is intent on liberation!” "
+    },
+    {
+      "number": 62,
+      "pali": "Aparā devatā bhagavantaṁ etadavoca: ",
+      "english": "And another deity said to him, "
+    },
+    {
+      "number": 63,
+      "pali": "“so hi nūna, bhante, suvimutto vimuccissatī”ti. ",
+      "english": "“He’ll definitely be well freed!” "
+    },
+    {
+      "number": 64,
+      "pali": "Idamavocuṁ tā devatāyo. ",
+      "english": "This is what those deities said. "
+    },
+    {
+      "number": 65,
+      "pali": "Idaṁ vatvā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā tatthevantaradhāyiṁsu. ",
+      "english": "Then they bowed and respectfully circled the Buddha, keeping him on their right side, before vanishing right there. "
+    },
+    {
+      "number": 66,
+      "pali": "Atha kho bhagavā tassā rattiyā accayena bhikkhū āmantesi: ",
+      "english": "Then, when the night had passed, the Buddha addressed the mendicants: "
+    },
+    {
+      "number": 67,
+      "pali": "“etha tumhe, bhikkhave, yena vakkali bhikkhu tenupasaṅkamatha; upasaṅkamitvā vakkaliṁ bhikkhuṁ evaṁ vadetha: ",
+      "english": "“Come, mendicants, go to the mendicant Vakkali and tell him: "
+    },
+    {
+      "number": 68,
+      "pali": "‘Suṇāvuso tvaṁ, vakkali, bhagavato vacanaṁ dvinnañca devatānaṁ. ",
+      "english": "‘Vakkali, hear the word of the Buddha and two deities. "
+    },
+    {
+      "number": 69,
+      "pali": "Imaṁ, āvuso, rattiṁ dve devatāyo abhikkantāya rattiyā abhikkantavaṇṇā kevalakappaṁ gijjhakūṭaṁ obhāsetvā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhaṁsu. ",
+      "english": "Late last night, two glorious deities, lighting up the entire Vulture’s Peak, went up to the Buddha, bowed, and stood to one side. "
+    },
+    {
+      "number": 70,
+      "pali": "Ekamantaṁ ṭhitā kho, āvuso, ekā devatā bhagavantaṁ etadavoca—",
+      "english": "One deity said to him, "
+    },
+    {
+      "number": 71,
+      "pali": "vakkali, bhante, bhikkhu vimokkhāya cetetīti. ",
+      "english": "“Sir, the mendicant Vakkali is intent on liberation!” "
+    },
+    {
+      "number": 72,
+      "pali": "Aparā devatā bhagavantaṁ etadavoca—",
+      "english": "The other deity said to him, "
+    },
+    {
+      "number": 73,
+      "pali": "so hi nūna, bhante, suvimutto vimuccissatīti. ",
+      "english": "“He’ll definitely be well freed!” "
+    },
+    {
+      "number": 74,
+      "pali": "Bhagavā ca taṁ, āvuso vakkali, evamāha—",
+      "english": "And the Buddha said, "
+    },
+    {
+      "number": 75,
+      "pali": "mā bhāyi, vakkali; ",
+      "english": "“Do not fear, Vakkali, "
+    },
+    {
+      "number": 76,
+      "pali": "mā bhāyi, vakkali. ",
+      "english": "do not fear! "
+    },
+    {
+      "number": 77,
+      "pali": "Apāpakaṁ te maraṇaṁ bhavissati, apāpikā kālakiriyā’”ti. ",
+      "english": "Your death will not be a bad one; your passing will not be a bad one.”’” "
+    },
+    {
+      "number": 78,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paṭissutvā yenāyasmā vakkali tenupasaṅkamiṁsu; upasaṅkamitvā āyasmantaṁ vakkaliṁ etadavocuṁ: ",
+      "english": "“Yes, sir,” those monks replied. They went to Vakkali and said to him: "
+    },
+    {
+      "number": 79,
+      "pali": "“suṇāvuso vakkali, bhagavato vacanaṁ dvinnañca devatānan”ti. ",
+      "english": "“Vakkali, hear the word of the Buddha and two deities.” "
+    },
+    {
+      "number": 80,
+      "pali": "Atha kho āyasmā vakkali upaṭṭhāke āmantesi: ",
+      "english": "Then Vakkali addressed his carers, "
+    },
+    {
+      "number": 81,
+      "pali": "“etha maṁ, āvuso, mañcakā oropetha. ",
+      "english": "“Please, reverends, help me off my cot. "
+    },
+    {
+      "number": 82,
+      "pali": "Kathañhi nāma mādiso ucce āsane nisīditvā tassa bhagavato sāsanaṁ sotabbaṁ maññeyyā”ti. ",
+      "english": "For how on earth could one such as I presume to listen to the Buddha’s instructions sitting on a high seat?” "
+    },
+    {
+      "number": 83,
+      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato vakkalissa paṭissutvā āyasmantaṁ vakkaliṁ mañcakā oropesuṁ. ",
+      "english": "“Yes, reverend,” replied those mendicants, and helped him off his cot. "
+    },
+    {
+      "number": 84,
+      "pali": "“Imaṁ, āvuso, rattiṁ dve devatāyo abhikkantāya rattiyā …pe… ekamantaṁ aṭṭhaṁsu. ",
+      "english": "They repeated what the Buddha had said. "
+    },
+    {
+      "number": 85,
+      "pali": "Ekamantaṁ ṭhitā kho, āvuso, ekā devatā bhagavantaṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "‘vakkali, bhante, bhikkhu vimokkhāya cetetī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "Aparā devatā bhagavantaṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "‘so hi nūna, bhante, suvimutto vimuccissatī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 89,
+      "pali": "Bhagavā ca taṁ, āvuso vakkali, evamāha: ",
+      "english": ""
+    },
+    {
+      "number": 90,
+      "pali": "‘mā bhāyi, vakkali; ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "mā bhāyi, vakkali. ",
+      "english": ""
+    },
+    {
+      "number": 92,
+      "pali": "Apāpakaṁ te maraṇaṁ bhavissati, apāpikā kālakiriyā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "“Tena hāvuso, mama vacanena bhagavato pāde sirasā vandatha: ",
+      "english": "Vakkali said, “Well then, reverends, in my name bow with your head at the Buddha’s feet. Say to him: "
+    },
+    {
+      "number": 94,
+      "pali": "‘vakkali, bhante, bhikkhu ābādhiko dukkhito bāḷhagilāno. ",
+      "english": "‘Sir, the mendicant Vakkali is sick, suffering, gravely ill. "
+    },
+    {
+      "number": 95,
+      "pali": "So bhagavato pāde sirasā vandatī’ti. ",
+      "english": "He bows with his head to your feet.’ "
+    },
+    {
+      "number": 96,
+      "pali": "Evañca vadetha: ",
+      "english": "And then say: "
+    },
+    {
+      "number": 97,
+      "pali": "‘rūpaṁ aniccaṁ. ",
+      "english": "‘Form is impermanent. "
+    },
+    {
+      "number": 98,
+      "pali": "Tāhaṁ, bhante, na kaṅkhāmi. ",
+      "english": "I have no doubt of that. "
+    },
+    {
+      "number": 99,
+      "pali": "Yadaniccaṁ taṁ dukkhanti na vicikicchāmi. ",
+      "english": "I’m certain that what is impermanent is suffering. "
+    },
+    {
+      "number": 100,
+      "pali": "Yadaniccaṁ dukkhaṁ vipariṇāmadhammaṁ, natthi me tattha chando vā rāgo vā pemaṁ vāti na vicikicchāmi. ",
+      "english": "And I’m certain that I have no desire or greed or fondness for what is impermanent, suffering, and perishable. "
+    },
+    {
+      "number": 101,
+      "pali": "Vedanā aniccā. ",
+      "english": "Feeling is impermanent … "
+    },
+    {
+      "number": 102,
+      "pali": "Tāhaṁ, bhante, na kaṅkhāmi. ",
+      "english": ""
+    },
+    {
+      "number": 103,
+      "pali": "Yadaniccaṁ taṁ dukkhanti na vicikicchāmi. ",
+      "english": ""
+    },
+    {
+      "number": 104,
+      "pali": "Yadaniccaṁ dukkhaṁ vipariṇāmadhammaṁ, natthi me tattha chando vā rāgo vā pemaṁ vāti na vicikicchāmi. ",
+      "english": ""
+    },
+    {
+      "number": 105,
+      "pali": "Saññā … ",
+      "english": "Perception is impermanent … "
+    },
+    {
+      "number": 106,
+      "pali": "saṅkhārā aniccā. ",
+      "english": "Choices are impermanent … "
+    },
+    {
+      "number": 107,
+      "pali": "Tāhaṁ, bhante, na kaṅkhāmi. ",
+      "english": ""
+    },
+    {
+      "number": 108,
+      "pali": "Yadaniccaṁ taṁ dukkhanti na vicikicchāmi. ",
+      "english": ""
+    },
+    {
+      "number": 109,
+      "pali": "Yadaniccaṁ dukkhaṁ vipariṇāmadhammaṁ, natthi me tattha chando vā rāgo vā pemaṁ vāti na vicikicchāmi. ",
+      "english": ""
+    },
+    {
+      "number": 110,
+      "pali": "Viññāṇaṁ aniccaṁ. ",
+      "english": "Consciousness is impermanent. "
+    },
+    {
+      "number": 111,
+      "pali": "Tāhaṁ, bhante, na kaṅkhāmi. ",
+      "english": "I have no doubt of that. "
+    },
+    {
+      "number": 112,
+      "pali": "Yadaniccaṁ taṁ dukkhanti na vicikicchāmi. ",
+      "english": "I’m certain that what is impermanent is suffering. "
+    },
+    {
+      "number": 113,
+      "pali": "Yadaniccaṁ dukkhaṁ vipariṇāmadhammaṁ, natthi me tattha chando vā rāgo vā pemaṁ vāti na vicikicchāmī’”ti. ",
+      "english": "And I’m certain that I have no desire or greed or fondness for what is impermanent, suffering, and perishable.’” "
+    },
+    {
+      "number": 114,
+      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato vakkalissa paṭissutvā pakkamiṁsu. ",
+      "english": "“Yes, reverend,” those monks replied, and left. "
+    },
+    {
+      "number": 115,
+      "pali": "Atha kho āyasmā vakkali acirapakkantesu tesu bhikkhūsu satthaṁ āharesi. ",
+      "english": "And then, not long after those mendicants had left, Venerable Vakkali committed suicide. "
+    },
+    {
+      "number": 116,
+      "pali": "Atha kho te bhikkhū yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū bhagavantaṁ etadavocuṁ: ",
+      "english": "Then those mendicants went up to the Buddha and told him Vakkali’s message. "
+    },
+    {
+      "number": 117,
+      "pali": "“vakkali, bhante, bhikkhu ābādhiko dukkhito bāḷhagilāno; ",
+      "english": ""
+    },
+    {
+      "number": 118,
+      "pali": "so bhagavato pāde sirasā vandati; ",
+      "english": ""
+    },
+    {
+      "number": 119,
+      "pali": "evañca vadeti: ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "‘rūpaṁ aniccaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 121,
+      "pali": "Tāhaṁ, bhante, na kaṅkhāmi. ",
+      "english": ""
+    },
+    {
+      "number": 122,
+      "pali": "Yadaniccaṁ taṁ dukkhanti na vicikicchāmi. ",
+      "english": ""
+    },
+    {
+      "number": 123,
+      "pali": "Yadaniccaṁ dukkhaṁ vipariṇāmadhammaṁ, natthi me tattha chando vā rāgo vā pemaṁ vāti na vicikicchāmi. ",
+      "english": ""
+    },
+    {
+      "number": 124,
+      "pali": "Vedanā … ",
+      "english": ""
+    },
+    {
+      "number": 125,
+      "pali": "saññā … ",
+      "english": ""
+    },
+    {
+      "number": 126,
+      "pali": "saṅkhārā … ",
+      "english": ""
+    },
+    {
+      "number": 127,
+      "pali": "viññāṇaṁ aniccaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 128,
+      "pali": "Tāhaṁ, bhante, na kaṅkhāmi. ",
+      "english": ""
+    },
+    {
+      "number": 129,
+      "pali": "Yadaniccaṁ taṁ dukkhanti na vicikicchāmi. ",
+      "english": ""
+    },
+    {
+      "number": 130,
+      "pali": "Yadaniccaṁ dukkhaṁ vipariṇāmadhammaṁ, natthi me tattha chando vā rāgo vā pemaṁ vāti na vicikicchāmī’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 131,
+      "pali": "Atha kho bhagavā bhikkhū āmantesi: ",
+      "english": "Then the Buddha said to the mendicants, "
+    },
+    {
+      "number": 132,
+      "pali": "“āyāma, bhikkhave, yena isigilipassaṁ kāḷasilā tenupasaṅkamissāma; ",
+      "english": "“Come, mendicants, let’s go to the Black Rock on the slopes of Isigili, "
+    },
+    {
+      "number": 133,
+      "pali": "yattha vakkalinā kulaputtena satthamāharitan”ti. ",
+      "english": "where Vakkali, the gentleman, committed suicide.” "
+    },
+    {
+      "number": 134,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 135,
+      "pali": "Atha kho bhagavā sambahulehi bhikkhūhi saddhiṁ yena isigilipassaṁ kāḷasilā tenupasaṅkami. ",
+      "english": "Then the Buddha together with several mendicants went to the Black Rock on the slopes of Isigili. "
+    },
+    {
+      "number": 136,
+      "pali": "Addasā kho bhagavā āyasmantaṁ vakkaliṁ dūratova mañcake vivattakkhandhaṁ semānaṁ. ",
+      "english": "The Buddha saw Vakkali off in the distance on his cot, lying with aggregates cast off. "
+    },
+    {
+      "number": 137,
+      "pali": "Tena kho pana samayena dhūmāyitattaṁ timirāyitattaṁ gacchateva purimaṁ disaṁ, gacchati pacchimaṁ disaṁ, gacchati uttaraṁ disaṁ, gacchati dakkhiṇaṁ disaṁ, gacchati uddhaṁ disaṁ, gacchati adho disaṁ, gacchati anudisaṁ. ",
+      "english": "Now at that time a cloud of black smoke was moving east, west, north, south, above, below, and in-between. "
+    },
+    {
+      "number": 138,
+      "pali": "Atha kho bhagavā bhikkhū āmantesi: ",
+      "english": "The Buddha said to the mendicants, "
+    },
+    {
+      "number": 139,
+      "pali": "“passatha no tumhe, bhikkhave, etaṁ dhūmāyitattaṁ timirāyitattaṁ gacchateva purimaṁ disaṁ …pe… gacchati anudisan”ti. ",
+      "english": "“Mendicants, do you see that cloud of black smoke moving east, west, north, south, above, below, and in-between?” "
+    },
+    {
+      "number": 140,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 141,
+      "pali": "“Eso kho, bhikkhave, māro pāpimā vakkalissa kulaputtassa viññāṇaṁ samanvesati: ",
+      "english": "“That’s Māra the Wicked searching for Vakkali’s consciousness, wondering: "
+    },
+    {
+      "number": 142,
+      "pali": "‘kattha vakkalissa kulaputtassa viññāṇaṁ patiṭṭhitan’ti? ",
+      "english": "‘Where is Vakkali’s consciousness established?’ "
+    },
+    {
+      "number": 143,
+      "pali": "Appatiṭṭhitena ca, bhikkhave, viññāṇena vakkali kulaputto parinibbuto”ti. ",
+      "english": "But since his consciousness is not established, Vakkali is quenched.” "
+    },
+    {
+      "number": 144,
+      "pali": "Pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

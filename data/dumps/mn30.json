@@ -1,0 +1,820 @@
+{
+  "sutta_id": "MN30",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 30 ",
+      "english": "Middle Discourses 30 "
+    },
+    {
+      "number": 2,
+      "pali": "Cūḷasāropamasutta ",
+      "english": "The Shorter Simile of the Heartwood "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho piṅgalakoccho brāhmaṇo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "Then the brahmin Piṅgalakoccha went up to the Buddha, and exchanged greetings with him. "
+    },
+    {
+      "number": 6,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho piṅgalakoccho brāhmaṇo bhagavantaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to the Buddha: "
+    },
+    {
+      "number": 7,
+      "pali": "“yeme, bho gotama, samaṇabrāhmaṇā saṅghino gaṇino gaṇācariyā ñātā yasassino titthakarā sādhusammatā, bahujanassa, ",
+      "english": "“Worthy Gotama, there are those ascetics and brahmins who lead an order and a community, and tutor a community. They’re well-known and famous religious founders, deemed holy by many people. "
+    },
+    {
+      "number": 8,
+      "pali": "seyyathidaṁ—pūraṇo kassapo, makkhali gosālo, ajito kesakambalo, pakudho kaccāyano, sañcayo belaṭṭhaputto, nigaṇṭho nāṭaputto, ",
+      "english": "Namely: Pūraṇa Kassapa, the bamboo-staffed ascetic Gosāla, Ajita of the hair blanket, Pakudha Kaccāyana, Sañjaya Belaṭṭhiputta, and the Jain ascetic of the Ñātika clan. "
+    },
+    {
+      "number": 9,
+      "pali": "sabbete sakāya paṭiññāya abbhaññaṁsu sabbeva nābbhaññaṁsu, udāhu ekacce abbhaññaṁsu ekacce nābbhaññaṁsū”ti? ",
+      "english": "According to their own claims, did all of them have direct knowledge, or none of them, or only some?” "
+    },
+    {
+      "number": 10,
+      "pali": "“Alaṁ, brāhmaṇa, tiṭṭhatetaṁ—",
+      "english": "“Enough, brahmin, let this be: "
+    },
+    {
+      "number": 11,
+      "pali": "sabbete sakāya paṭiññāya abbhaññaṁsu sabbeva nābbhaññaṁsu, udāhu ekacce abbhaññaṁsu ekacce nābbhaññaṁsūti. ",
+      "english": "‘According to their own claims, did all of them have direct knowledge, or none of them, or only some?’ "
+    },
+    {
+      "number": 12,
+      "pali": "Dhammaṁ te, brāhmaṇa, desessāmi, ",
+      "english": "I will teach you the Dhamma. "
+    },
+    {
+      "number": 13,
+      "pali": "taṁ suṇāhi, sādhukaṁ manasi karohi, bhāsissāmī”ti. ",
+      "english": "Listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 14,
+      "pali": "“Evaṁ, bho”ti kho piṅgalakoccho brāhmaṇo bhagavato paccassosi. ",
+      "english": "“Yes, worthy sir,” Piṅgalakoccha replied. "
+    },
+    {
+      "number": 15,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 16,
+      "pali": "“Seyyathāpi, brāhmaṇa, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ atikkamma phegguṁ atikkamma tacaṁ atikkamma papaṭikaṁ, sākhāpalāsaṁ chetvā ādāya pakkameyya ‘sāran’ti maññamāno. ",
+      "english": "“Suppose there was a person in need of heartwood. And while wandering in search of heartwood he’d come across a large tree standing with heartwood. But, passing over the heartwood, softwood, bark, and shoots, he’d cut off the branches and leaves and leave imagining they were heartwood. "
+    },
+    {
+      "number": 17,
+      "pali": "Tamenaṁ cakkhumā puriso disvā evaṁ vadeyya: ",
+      "english": "If a person with clear eyes saw him they’d say: "
+    },
+    {
+      "number": 18,
+      "pali": "‘na vatāyaṁ bhavaṁ puriso aññāsi sāraṁ, na aññāsi phegguṁ, na aññāsi tacaṁ, na aññāsi papaṭikaṁ, na aññāsi sākhāpalāsaṁ. ",
+      "english": "‘This gentleman doesn’t know what heartwood, softwood, bark, shoots, or branches and leaves are. "
+    },
+    {
+      "number": 19,
+      "pali": "Tathā hayaṁ bhavaṁ puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ atikkamma phegguṁ atikkamma tacaṁ atikkamma papaṭikaṁ, sākhāpalāsaṁ chetvā ādāya pakkanto “sāran”ti maññamāno. ",
+      "english": "That’s why he passed them over, cut off the branches and leaves, and left imagining they were heartwood. "
+    },
+    {
+      "number": 20,
+      "pali": "Yañcassa sārena sārakaraṇīyaṁ tañcassa atthaṁ nānubhavissatī’ti. ",
+      "english": "Whatever he needs to make from heartwood, he won’t succeed.’ "
+    },
+    {
+      "number": 21,
+      "pali": "Seyyathāpi vā pana, brāhmaṇa, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ atikkamma phegguṁ atikkamma tacaṁ, papaṭikaṁ chetvā ādāya pakkameyya ‘sāran’ti maññamāno. ",
+      "english": "Suppose there was another person in need of heartwood … he’d cut off the shoots and leave imagining they were heartwood … "
+    },
+    {
+      "number": 22,
+      "pali": "Tamenaṁ cakkhumā puriso disvā evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "‘na vatāyaṁ bhavaṁ puriso aññāsi sāraṁ, na aññāsi phegguṁ, na aññāsi tacaṁ, na aññāsi papaṭikaṁ, na aññāsi sākhāpalāsaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "Tathā hayaṁ bhavaṁ puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ atikkamma phegguṁ atikkamma tacaṁ papaṭikaṁ chetvā ādāya pakkanto “sāran”ti maññamāno. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Yañcassa sārena sārakaraṇīyaṁ tañcassa atthaṁ nānubhavissatī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "Seyyathāpi vā pana, brāhmaṇa, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ atikkamma phegguṁ, tacaṁ chetvā ādāya pakkameyya ‘sāran’ti maññamāno. ",
+      "english": "Suppose there was another person in need of heartwood … he’d cut off the bark and leave imagining it was heartwood … "
+    },
+    {
+      "number": 27,
+      "pali": "Tamenaṁ cakkhumā puriso disvā evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "‘na vatāyaṁ bhavaṁ puriso aññāsi sāraṁ, na aññāsi phegguṁ, na aññāsi tacaṁ, na aññāsi papaṭikaṁ, na aññāsi sākhāpalāsaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Tathā hayaṁ bhavaṁ puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ atikkamma phegguṁ, tacaṁ chetvā ādāya pakkanto “sāran”ti maññamāno. ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Yañcassa sārena sārakaraṇīyaṁ tañcassa atthaṁ nānubhavissatī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Seyyathāpi vā pana, brāhmaṇa, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ, phegguṁ chetvā ādāya pakkameyya ‘sāran’ti maññamāno. ",
+      "english": "Suppose there was another person in need of heartwood … he’d cut out the softwood and leave imagining it was heartwood … "
+    },
+    {
+      "number": 32,
+      "pali": "Tamenaṁ cakkhumā puriso disvā evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "‘na vatāyaṁ bhavaṁ puriso aññāsi sāraṁ, na aññāsi phegguṁ, na aññāsi tacaṁ, na aññāsi papaṭikaṁ, na aññāsi sākhāpalāsaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "Tathā hayaṁ bhavaṁ puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ, phegguṁ chetvā ādāya pakkanto “sāran”ti maññamāno. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Yañcassa sārena sārakaraṇīyaṁ tañcassa atthaṁ nānubhavissatī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "Seyyathāpi vā pana, brāhmaṇa, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato sāraññeva chetvā ādāya pakkameyya ‘sāran’ti jānamāno. ",
+      "english": "Suppose there was another person in need of heartwood. And while wandering in search of heartwood he’d come across a large tree standing with heartwood. He’d cut out just the heartwood and leave knowing it was heartwood. "
+    },
+    {
+      "number": 37,
+      "pali": "Tamenaṁ cakkhumā puriso disvā evaṁ vadeyya: ",
+      "english": "If a person with clear eyes saw him they’d say: "
+    },
+    {
+      "number": 38,
+      "pali": "‘aññāsi vatāyaṁ bhavaṁ puriso sāraṁ, aññāsi phegguṁ, aññāsi tacaṁ, aññāsi papaṭikaṁ, aññāsi sākhāpalāsaṁ. ",
+      "english": "‘This gentleman knows what heartwood, softwood, bark, shoots, or branches and leaves are. "
+    },
+    {
+      "number": 39,
+      "pali": "Tathā hayaṁ bhavaṁ puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato sāraññeva chetvā ādāya pakkanto “sāran”ti jānamāno. ",
+      "english": "That’s why he cut out just the heartwood and left knowing it was heartwood. "
+    },
+    {
+      "number": 40,
+      "pali": "Yañcassa sārena sārakaraṇīyaṁ tañcassa atthaṁ anubhavissatī’ti. ",
+      "english": "Whatever he needs to make from heartwood, he will succeed.’ "
+    },
+    {
+      "number": 41,
+      "pali": "Evameva kho, brāhmaṇa, idhekacco puggalo saddhā agārasmā anagāriyaṁ pabbajito hoti: ",
+      "english": "In the same way, take a certain individual who goes forth from the lay life to homelessness, thinking: "
+    },
+    {
+      "number": 42,
+      "pali": "‘otiṇṇomhi jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto, ",
+      "english": "‘I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, mired in suffering. "
+    },
+    {
+      "number": 43,
+      "pali": "appeva nāma imassa kevalassa dukkhakkhandhassa antakiriyā paññāyethā’ti. ",
+      "english": "Hopefully I can make an end to this entire mass of suffering.’ "
+    },
+    {
+      "number": 44,
+      "pali": "So evaṁ pabbajito samāno lābhasakkārasilokaṁ abhinibbatteti. ",
+      "english": "When they’ve gone forth they generate possessions, honor, and popularity. "
+    },
+    {
+      "number": 45,
+      "pali": "So tena lābhasakkārasilokena attamano hoti paripuṇṇasaṅkappo. ",
+      "english": "They’re happy with that, and they’ve got all they wished for. "
+    },
+    {
+      "number": 46,
+      "pali": "So tena lābhasakkārasilokena attānukkaṁseti, paraṁ vambheti: ",
+      "english": "And they glorify themselves and put others down on account of that: "
+    },
+    {
+      "number": 47,
+      "pali": "‘ahamasmi lābhasakkārasilokavā, ime panaññe bhikkhū appaññātā appesakkhā’ti. ",
+      "english": "‘I’m the one with possessions, honor, and popularity. These other mendicants are obscure and insignificant.’ "
+    },
+    {
+      "number": 48,
+      "pali": "Lābhasakkārasilokena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
+      "english": "They become lazy and slack on account of their possessions, honor, and popularity, not generating enthusiasm or trying to realize those things that are better and finer. … "
+    },
+    {
+      "number": 49,
+      "pali": "Seyyathāpi so, brāhmaṇa, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ atikkamma phegguṁ atikkamma tacaṁ atikkamma papaṭikaṁ, sākhāpalāsaṁ chetvā ādāya pakkanto ‘sāran’ti maññamāno. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Yañcassa sārena sārakaraṇīyaṁ tañcassa atthaṁ nānubhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Tathūpamāhaṁ, brāhmaṇa, imaṁ puggalaṁ vadāmi. ",
+      "english": "They’re like the individual who mistakes branches and leaves for heartwood, I say. "
+    },
+    {
+      "number": 52,
+      "pali": "Idha pana, brāhmaṇa, ekacco puggalo saddhā agārasmā anagāriyaṁ pabbajito hoti: ",
+      "english": "Next, take an individual who has gone forth out of faith from the lay life to homelessness … "
+    },
+    {
+      "number": 53,
+      "pali": "‘otiṇṇomhi jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto, ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "appeva nāma imassa kevalassa dukkhakkhandhassa antakiriyā paññāyethā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "So evaṁ pabbajito samāno lābhasakkārasilokaṁ abhinibbatteti. ",
+      "english": "When they’ve gone forth they generate possessions, honor, and popularity. "
+    },
+    {
+      "number": 56,
+      "pali": "So tena lābhasakkārasilokena na attamano hoti na paripuṇṇasaṅkappo. ",
+      "english": "They’re not happy with that, and haven’t got all they wished for. "
+    },
+    {
+      "number": 57,
+      "pali": "So tena lābhasakkārasilokena na attānukkaṁseti, na paraṁ vambheti. ",
+      "english": "They don’t glorify themselves and put others down on account of that. "
+    },
+    {
+      "number": 58,
+      "pali": "Lābhasakkārasilokena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+      "english": "They don’t become lazy and slack regarding their possessions, honor, and popularity, but generate enthusiasm and try to realize those things that are better and finer. "
+    },
+    {
+      "number": 59,
+      "pali": "So sīlasampadaṁ ārādheti. ",
+      "english": "They achieve accomplishment in ethics. "
+    },
+    {
+      "number": 60,
+      "pali": "So tāya sīlasampadāya attamano hoti, paripuṇṇasaṅkappo. ",
+      "english": "They’re happy with that, and they’ve got all they wished for. "
+    },
+    {
+      "number": 61,
+      "pali": "So tāya sīlasampadāya attānukkaṁseti, paraṁ vambheti: ",
+      "english": "And they glorify themselves and put others down on account of that: "
+    },
+    {
+      "number": 62,
+      "pali": "‘ahamasmi sīlavā kalyāṇadhammo, ime panaññe bhikkhū dussīlā pāpadhammā’ti. ",
+      "english": "‘I’m the one who is ethical, of good character. These other mendicants are unethical, of bad character.’ "
+    },
+    {
+      "number": 63,
+      "pali": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
+      "english": "They become lazy and slack regarding their accomplishment in ethics, not generating enthusiasm or trying to realize those things that are better and finer. … "
+    },
+    {
+      "number": 64,
+      "pali": "Seyyathāpi so, brāhmaṇa, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ atikkamma phegguṁ atikkamma tacaṁ, papaṭikaṁ chetvā ādāya pakkanto ‘sāran’ti maññamāno. ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "Yañcassa sārena sārakaraṇīyaṁ, tañcassa atthaṁ nānubhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "Tathūpamāhaṁ, brāhmaṇa, imaṁ puggalaṁ vadāmi. ",
+      "english": "They’re like the individual who mistakes shoots for heartwood, I say. "
+    },
+    {
+      "number": 67,
+      "pali": "Idha pana, brāhmaṇa, ekacco puggalo saddhā agārasmā anagāriyaṁ pabbajito hoti: ",
+      "english": "Next, take an individual who has gone forth out of faith from the lay life to homelessness … "
+    },
+    {
+      "number": 68,
+      "pali": "‘otiṇṇomhi jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto, ",
+      "english": ""
+    },
+    {
+      "number": 69,
+      "pali": "appeva nāma imassa kevalassa dukkhakkhandhassa antakiriyā paññāyethā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "So evaṁ pabbajito samāno lābhasakkārasilokaṁ abhinibbatteti. ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "So tena lābhasakkārasilokena na attamano hoti, na paripuṇṇasaṅkappo. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "So tena lābhasakkārasilokena na attānukkaṁseti, na paraṁ vambheti. ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "Lābhasakkārasilokena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "So sīlasampadaṁ ārādheti. ",
+      "english": "They achieve accomplishment in ethics … "
+    },
+    {
+      "number": 75,
+      "pali": "So tāya sīlasampadāya attamano hoti no ca kho paripuṇṇasaṅkappo. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "So tāya sīlasampadāya na attānukkaṁseti, na paraṁ vambheti. ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "So samādhisampadaṁ ārādheti. ",
+      "english": "and immersion. … "
+    },
+    {
+      "number": 79,
+      "pali": "So tāya samādhisampadāya attamano hoti, paripuṇṇasaṅkappo. ",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "So tāya samādhisampadāya attānukkaṁseti, paraṁ vambheti: ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "‘ahamasmi samāhito ekaggacitto, ime panaññe bhikkhū asamāhitā vibbhantacittā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "Samādhisampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca, tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
+      "english": "They become lazy and slack regarding their accomplishment in immersion, not generating enthusiasm or trying to realize those things that are better and finer. … "
+    },
+    {
+      "number": 83,
+      "pali": "Seyyathāpi so, brāhmaṇa, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ atikkamma phegguṁ, tacaṁ chetvā ādāya pakkanto ‘sāran’ti maññamāno. ",
+      "english": ""
+    },
+    {
+      "number": 84,
+      "pali": "Yañcassa sārena sārakaraṇīyaṁ tañcassa atthaṁ nānubhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 85,
+      "pali": "Tathūpamāhaṁ, brāhmaṇa, imaṁ puggalaṁ vadāmi. ",
+      "english": "They’re like the individual who mistakes bark for heartwood, I say. "
+    },
+    {
+      "number": 86,
+      "pali": "Idha pana, brāhmaṇa, ekacco puggalo saddhā agārasmā anagāriyaṁ pabbajito hoti: ",
+      "english": "Next, take an individual who has gone forth out of faith from the lay life to homelessness … "
+    },
+    {
+      "number": 87,
+      "pali": "‘otiṇṇomhi jātiyā jarāya maraṇena …pe… ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "antakiriyā paññāyethā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 89,
+      "pali": "So evaṁ pabbajito samāno lābhasakkārasilokaṁ abhinibbatteti. ",
+      "english": ""
+    },
+    {
+      "number": 90,
+      "pali": "So tena lābhasakkārasilokena na attamano hoti na paripuṇṇasaṅkappo. ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "So tena lābhasakkārasilokena na attānukkaṁseti, na paraṁ vambheti. ",
+      "english": ""
+    },
+    {
+      "number": 92,
+      "pali": "Lābhasakkārasilokena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "So sīlasampadaṁ ārādheti. ",
+      "english": "They achieve accomplishment in ethics … "
+    },
+    {
+      "number": 94,
+      "pali": "So tāya sīlasampadāya attamano hoti, no ca kho paripuṇṇasaṅkappo. ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "So tāya sīlasampadāya na attānukkaṁseti, na paraṁ vambheti. ",
+      "english": ""
+    },
+    {
+      "number": 96,
+      "pali": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "So samādhisampadaṁ ārādheti. ",
+      "english": "immersion … "
+    },
+    {
+      "number": 98,
+      "pali": "So tāya samādhisampadāya attamano hoti, no ca kho paripuṇṇasaṅkappo. ",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "So tāya samādhisampadāya na attānukkaṁseti, na paraṁ vambheti. ",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "Samādhisampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "So ñāṇadassanaṁ ārādheti. ",
+      "english": "and knowledge and vision. "
+    },
+    {
+      "number": 102,
+      "pali": "So tena ñāṇadassanena attamano hoti, paripuṇṇasaṅkappo. ",
+      "english": ""
+    },
+    {
+      "number": 103,
+      "pali": "So tena ñāṇadassanena attānukkaṁseti, paraṁ vambheti: ",
+      "english": ""
+    },
+    {
+      "number": 104,
+      "pali": "‘ahamasmi jānaṁ passaṁ viharāmi, ime panaññe bhikkhū ajānaṁ apassaṁ viharantī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 105,
+      "pali": "Ñāṇadassanena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
+      "english": "They become lazy and slack regarding their knowledge and vision, not generating enthusiasm or trying to realize those things that are better and finer. … "
+    },
+    {
+      "number": 106,
+      "pali": "Seyyathāpi so, brāhmaṇa, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva sāraṁ, phegguṁ chetvā ādāya pakkanto ‘sāran’ti maññamāno. ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "Yañcassa sārena sārakaraṇīyaṁ tañcassa atthaṁ nānubhavissati. ",
+      "english": ""
+    },
+    {
+      "number": 108,
+      "pali": "Tathūpamāhaṁ, brāhmaṇa, imaṁ puggalaṁ vadāmi. ",
+      "english": "They’re like the individual who mistakes softwood for heartwood, I say. "
+    },
+    {
+      "number": 109,
+      "pali": "Idha pana, brāhmaṇa, ekacco puggalo saddhā agārasmā anagāriyaṁ pabbajito hoti: ",
+      "english": "Next, take an individual who has gone forth out of faith from the lay life to homelessness, thinking: "
+    },
+    {
+      "number": 110,
+      "pali": "‘otiṇṇomhi jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto, ",
+      "english": "‘I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, mired in suffering. "
+    },
+    {
+      "number": 111,
+      "pali": "appeva nāma imassa kevalassa dukkhakkhandhassa antakiriyā paññāyethā’ti. ",
+      "english": "Hopefully I can find an end to this entire mass of suffering.’ "
+    },
+    {
+      "number": 112,
+      "pali": "So evaṁ pabbajito samāno lābhasakkārasilokaṁ abhinibbatteti. ",
+      "english": "When they’ve gone forth they generate possessions, honor, and popularity. "
+    },
+    {
+      "number": 113,
+      "pali": "So tena lābhasakkārasilokena na attamano hoti, na paripuṇṇasaṅkappo. ",
+      "english": "They’re not happy with that, and haven’t got all they wished for. "
+    },
+    {
+      "number": 114,
+      "pali": "So tena lābhasakkārasilokena na attānukkaṁseti, na paraṁ vambheti. ",
+      "english": "They don’t glorify themselves and put others down on account of that. "
+    },
+    {
+      "number": 115,
+      "pali": "Lābhasakkārasilokena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+      "english": "They don’t become lazy and slack on account of their possessions, honor, and popularity, but generate enthusiasm and try to realize those things that are better and finer. "
+    },
+    {
+      "number": 116,
+      "pali": "So sīlasampadaṁ ārādheti. ",
+      "english": "They become accomplished in ethics. "
+    },
+    {
+      "number": 117,
+      "pali": "So tāya sīlasampadāya attamano hoti, no ca kho paripuṇṇasaṅkappo. ",
+      "english": "They’re happy with that, but they haven’t got all they wished for. "
+    },
+    {
+      "number": 118,
+      "pali": "So tāya sīlasampadāya na attānukkaṁseti, na paraṁ vambheti. ",
+      "english": "They don’t glorify themselves and put others down on account of that. "
+    },
+    {
+      "number": 119,
+      "pali": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+      "english": "They don’t become lazy and slack regarding their accomplishment in ethics, but generate enthusiasm and try to realize those things that are better and finer. "
+    },
+    {
+      "number": 120,
+      "pali": "So samādhisampadaṁ ārādheti. ",
+      "english": "They become accomplished in immersion. "
+    },
+    {
+      "number": 121,
+      "pali": "So tāya samādhisampadāya attamano hoti, no ca kho paripuṇṇasaṅkappo. ",
+      "english": "They’re happy with that, but they haven’t got all they wished for. "
+    },
+    {
+      "number": 122,
+      "pali": "So tāya samādhisampadāya na attānukkaṁseti, na paraṁ vambheti. ",
+      "english": "They don’t glorify themselves and put others down on account of that. "
+    },
+    {
+      "number": 123,
+      "pali": "Samādhisampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+      "english": "They don’t become lazy and slack regarding their accomplishment in immersion, but generate enthusiasm and try to realize those things that are better and finer. "
+    },
+    {
+      "number": 124,
+      "pali": "So ñāṇadassanaṁ ārādheti. ",
+      "english": "They achieve knowledge and vision. "
+    },
+    {
+      "number": 125,
+      "pali": "So tena ñāṇadassanena attamano hoti, no ca kho paripuṇṇasaṅkappo. ",
+      "english": "They’re happy with that, but they haven’t got all they wished for. "
+    },
+    {
+      "number": 126,
+      "pali": "So tena ñāṇadassanena na attānukkaṁseti, na paraṁ vambheti. ",
+      "english": "They don’t glorify themselves and put others down on account of that. "
+    },
+    {
+      "number": 127,
+      "pali": "Ñāṇadassanena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+      "english": "They don’t become lazy and slack regarding their knowledge and vision, but generate enthusiasm and try to realize those things that are better and finer. "
+    },
+    {
+      "number": 128,
+      "pali": "Katame ca, brāhmaṇa, dhammā ñāṇadassanena uttaritarā ca paṇītatarā ca? ",
+      "english": "And what are those things that are better and finer than knowledge and vision? "
+    },
+    {
+      "number": 129,
+      "pali": "Idha, brāhmaṇa, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Take a mendicant who, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 130,
+      "pali": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+      "english": "This is something better and finer than knowledge and vision. "
+    },
+    {
+      "number": 131,
+      "pali": "Puna caparaṁ, brāhmaṇa, bhikkhu vitakkavicārānaṁ vūpasamā ajjhattaṁ sampasādanaṁ cetaso ekodibhāvaṁ avitakkaṁ avicāraṁ samādhijaṁ pītisukhaṁ dutiyaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Furthermore, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without placing the mind and keeping it connected. "
+    },
+    {
+      "number": 132,
+      "pali": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+      "english": "This too is something better and finer than knowledge and vision. "
+    },
+    {
+      "number": 133,
+      "pali": "Puna caparaṁ, brāhmaṇa, bhikkhu pītiyā ca virāgā upekkhako ca viharati, sato ca sampajāno sukhañca kāyena paṭisaṁvedeti, yaṁ taṁ ariyā ācikkhanti: ‘upekkhako satimā sukhavihārī’ti tatiyaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Furthermore, with the fading away of rapture, a mendicant enters and remains in the third absorption, where they meditate with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ "
+    },
+    {
+      "number": 134,
+      "pali": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+      "english": "This too is something better and finer than knowledge and vision. "
+    },
+    {
+      "number": 135,
+      "pali": "Puna caparaṁ, brāhmaṇa, bhikkhu sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "Furthermore, with the giving up of pleasure and pain and the disappearance of former happiness and sadness, a mendicant enters and remains in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. "
+    },
+    {
+      "number": 136,
+      "pali": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+      "english": "This too is something better and finer than knowledge and vision. "
+    },
+    {
+      "number": 137,
+      "pali": "Puna caparaṁ, brāhmaṇa, bhikkhu sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanaṁ upasampajja viharati. ",
+      "english": "Furthermore, a mendicant, going totally beyond perceptions of form, with the disappearance of perceptions of impingement, not focusing on perceptions of diversity, aware that ‘space is infinite’, enters and remains in the dimension of infinite space. "
+    },
+    {
+      "number": 138,
+      "pali": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+      "english": "This too is something better and finer than knowledge and vision. "
+    },
+    {
+      "number": 139,
+      "pali": "Puna caparaṁ, brāhmaṇa, bhikkhu sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanaṁ upasampajja viharati. ",
+      "english": "Furthermore, a mendicant, going totally beyond the dimension of infinite space, aware that ‘consciousness is infinite’, enters and remains in the dimension of infinite consciousness. "
+    },
+    {
+      "number": 140,
+      "pali": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+      "english": "This too is something better and finer than knowledge and vision. "
+    },
+    {
+      "number": 141,
+      "pali": "Puna caparaṁ, brāhmaṇa, bhikkhu sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanaṁ upasampajja viharati. ",
+      "english": "Furthermore, a mendicant, going totally beyond the dimension of infinite consciousness, aware that ‘there is nothing at all’, enters and remains in the dimension of nothingness. "
+    },
+    {
+      "number": 142,
+      "pali": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+      "english": "This too is something better and finer than knowledge and vision. "
+    },
+    {
+      "number": 143,
+      "pali": "Puna caparaṁ, brāhmaṇa, bhikkhu sabbaso ākiñcaññāyatanaṁ samatikkamma nevasaññānāsaññāyatanaṁ upasampajja viharati. ",
+      "english": "Furthermore, take a mendicant who, going totally beyond the dimension of nothingness, enters and remains in the dimension of neither perception nor non-perception. "
+    },
+    {
+      "number": 144,
+      "pali": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+      "english": "This too is something better and finer than knowledge and vision. "
+    },
+    {
+      "number": 145,
+      "pali": "Puna caparaṁ, brāhmaṇa, bhikkhu sabbaso nevasaññānāsaññāyatanaṁ samatikkamma saññāvedayitanirodhaṁ upasampajja viharati, paññāya cassa disvā āsavā parikkhīṇā honti. ",
+      "english": "Furthermore, take a mendicant who, going totally beyond the dimension of neither perception nor non-perception, enters and remains in the cessation of perception and feeling. And, having seen with wisdom, their defilements come to an end. "
+    },
+    {
+      "number": 146,
+      "pali": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+      "english": "This too is something better and finer than knowledge and vision. "
+    },
+    {
+      "number": 147,
+      "pali": "Ime kho, brāhmaṇa, dhammā ñāṇadassanena uttaritarā ca paṇītatarā ca. ",
+      "english": "These are the things that are better and finer than knowledge and vision. "
+    },
+    {
+      "number": 148,
+      "pali": "Seyyathāpi so, brāhmaṇa, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato sāraṁyeva chetvā ādāya pakkanto ‘sāran’ti jānamāno. ",
+      "english": "Suppose there was a person in need of heartwood. And while wandering in search of heartwood he’d come across a large tree standing with heartwood. He’d cut out just the heartwood and leave knowing it was heartwood. "
+    },
+    {
+      "number": 149,
+      "pali": "Yañcassa sārena sārakaraṇīyaṁ tañcassa atthaṁ anubhavissati. ",
+      "english": "Whatever he needs to make from heartwood, he will succeed. "
+    },
+    {
+      "number": 150,
+      "pali": "Tathūpamāhaṁ, brāhmaṇa, imaṁ puggalaṁ vadāmi. ",
+      "english": "That’s what this individual is like, I say. "
+    },
+    {
+      "number": 151,
+      "pali": "Iti kho, brāhmaṇa, nayidaṁ brahmacariyaṁ lābhasakkārasilokānisaṁsaṁ, na sīlasampadānisaṁsaṁ, na samādhisampadānisaṁsaṁ, na ñāṇadassanānisaṁsaṁ. ",
+      "english": "And so, brahmin, this spiritual life is not lived for the sake of possessions, honor, and popularity, or for accomplishment in ethics, or for accomplishment in immersion, or for knowledge and vision. "
+    },
+    {
+      "number": 152,
+      "pali": "Yā ca kho ayaṁ, brāhmaṇa, akuppā cetovimutti—",
+      "english": "It is this unshakable freedom of heart "
+    },
+    {
+      "number": 153,
+      "pali": "etadatthamidaṁ, brāhmaṇa, brahmacariyaṁ, etaṁ sāraṁ etaṁ pariyosānan”ti. ",
+      "english": "that is the goal of the spiritual life, the core and the final end.” "
+    },
+    {
+      "number": 154,
+      "pali": "Evaṁ vutte, piṅgalakoccho brāhmaṇo bhagavantaṁ etadavoca: ",
+      "english": "When he had spoken, the brahmin Piṅgalakoccha said to the Buddha, "
+    },
+    {
+      "number": 155,
+      "pali": "“abhikkantaṁ, bho gotama, abhikkantaṁ, bho gotama …pe… ",
+      "english": "“Excellent, worthy Gotama! Excellent! … "
+    },
+    {
+      "number": 156,
+      "pali": "upāsakaṁ maṁ bhavaṁ gotamo dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
+      "english": "From this day forth, may the worthy Gotama remember me as a lay follower who has gone for refuge for life.” "
+    },
+    {
+      "number": 157,
+      "pali": "Cūḷasāropamasuttaṁ niṭṭhitaṁ dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 158,
+      "pali": "Opammavaggo niṭṭhito tatiyo. ",
+      "english": ""
+    },
+    {
+      "number": 159,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 160,
+      "pali": "Moḷiyaphaggunariṭṭhañca nāmo, ",
+      "english": ""
+    },
+    {
+      "number": 161,
+      "pali": "Andhavane kathipuṇṇaṁ nivāpo; ",
+      "english": ""
+    },
+    {
+      "number": 162,
+      "pali": "Rāsikaṇerumahāgajanāmo, ",
+      "english": ""
+    },
+    {
+      "number": 163,
+      "pali": "Sārūpamo puna piṅgalakoccho. ",
+      "english": ""
+    }
+  ]
+}

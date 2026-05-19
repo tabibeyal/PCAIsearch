@@ -1,0 +1,755 @@
+{
+  "sutta_id": "MN18",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 18 ",
+      "english": "Middle Discourses 18 "
+    },
+    {
+      "number": 2,
+      "pali": "Madhupiṇḍikasutta ",
+      "english": "The Honey-Cake "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sakkesu viharati kapilavatthusmiṁ nigrodhārāme. ",
+      "english": "At one time the Buddha was staying in the land of the Sakyans, near Kapilavatthu in the Banyan Tree Monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho bhagavā pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya kapilavatthuṁ piṇḍāya pāvisi. ",
+      "english": "Then the Buddha robed up in the morning and, taking his bowl and robe, entered Kapilavatthu for alms. "
+    },
+    {
+      "number": 6,
+      "pali": "Kapilavatthusmiṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto yena mahāvanaṁ tenupasaṅkami divāvihārāya. ",
+      "english": "He wandered for alms in Kapilavatthu. After the meal, on his return from almsround, he went to the Great Wood for the day’s meditation, "
+    },
+    {
+      "number": 7,
+      "pali": "Mahāvanaṁ ajjhogāhetvā beluvalaṭṭhikāya mūle divāvihāraṁ nisīdi. ",
+      "english": "plunged deep into it, and sat at the root of a young wood-apple tree to meditate. "
+    },
+    {
+      "number": 8,
+      "pali": "Daṇḍapāṇipi kho sakko jaṅghāvihāraṁ anucaṅkamamāno anuvicaramāno yena mahāvanaṁ tenupasaṅkami. ",
+      "english": "Daṇḍapāṇi the Sakyan, while going for a walk, "
+    },
+    {
+      "number": 9,
+      "pali": "Mahāvanaṁ ajjhogāhetvā yena beluvalaṭṭhikā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "plunged deep into the Great Wood. He approached the Buddha and exchanged greetings with him. "
+    },
+    {
+      "number": 10,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā daṇḍamolubbha ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho daṇḍapāṇi sakko bhagavantaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he stood to one side leaning on his staff, and said to the Buddha, "
+    },
+    {
+      "number": 11,
+      "pali": "“kiṁvādī samaṇo kimakkhāyī”ti? ",
+      "english": "“What is the ascetic’s doctrine? What does he assert?” "
+    },
+    {
+      "number": 12,
+      "pali": "“Yathāvādī kho, āvuso, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya na kenaci loke viggayha tiṭṭhati, yathā ca pana kāmehi visaṁyuttaṁ viharantaṁ taṁ brāhmaṇaṁ akathaṅkathiṁ chinnakukkuccaṁ bhavābhave vītataṇhaṁ saññā nānusenti—",
+      "english": "“Respectable sir, my doctrine is such that one does not argue with anyone in this world with its gods, Māras, and Divinities, this population with its ascetics and brahmins, its gods and humans. And it is such that perceptions do not underlie the brahmin who lives detached from sensual pleasures, without indecision, stripped of worry, and rid of craving for rebirth in this or that state. "
+    },
+    {
+      "number": 13,
+      "pali": "evaṁvādī kho ahaṁ, āvuso, evamakkhāyī”ti. ",
+      "english": "That is my doctrine, and that is what I assert.” "
+    },
+    {
+      "number": 14,
+      "pali": "Evaṁ vutte, daṇḍapāṇi sakko sīsaṁ okampetvā, jivhaṁ nillāḷetvā, tivisākhaṁ nalāṭikaṁ nalāṭe vuṭṭhāpetvā daṇḍamolubbha pakkāmi. ",
+      "english": "When he had spoken, Daṇḍapāṇi shook his head, waggled his tongue, raised his eyebrows until his brow puckered in three furrows, and left leaning on his staff. "
+    },
+    {
+      "number": 15,
+      "pali": "Atha kho bhagavā sāyanhasamayaṁ paṭisallānā vuṭṭhito yena nigrodhārāmo tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi. ",
+      "english": "Then in the late afternoon, the Buddha came out of retreat and went to the Banyan Tree Monastery, sat down on the seat spread out, "
+    },
+    {
+      "number": 16,
+      "pali": "Nisajja kho bhagavā bhikkhū āmantesi: ",
+      "english": "and told the mendicants what had happened. "
+    },
+    {
+      "number": 17,
+      "pali": "“idhāhaṁ, bhikkhave, pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya kapilavatthuṁ piṇḍāya pāvisiṁ. ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "Kapilavatthusmiṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto yena mahāvanaṁ tenupasaṅkamiṁ divāvihārāya. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "Mahāvanaṁ ajjhogāhetvā beluvalaṭṭhikāya mūle divāvihāraṁ nisīdiṁ. ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "Daṇḍapāṇipi kho, bhikkhave, sakko jaṅghāvihāraṁ anucaṅkamamāno anuvicaramāno yena mahāvanaṁ tenupasaṅkami. ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "Mahāvanaṁ ajjhogāhetvā yena beluvalaṭṭhikā yenāhaṁ tenupasaṅkami; upasaṅkamitvā mayā saddhiṁ sammodi. ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā daṇḍamolubbha ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho, bhikkhave, daṇḍapāṇi sakko maṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "‘kiṁvādī samaṇo kimakkhāyī’ti? ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "Evaṁ vutte, ahaṁ, bhikkhave, daṇḍapāṇiṁ sakkaṁ etadavocaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "‘yathāvādī kho, āvuso, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya na kenaci loke viggayha tiṭṭhati, yathā ca pana kāmehi visaṁyuttaṁ viharantaṁ taṁ brāhmaṇaṁ akathaṅkathiṁ chinnakukkuccaṁ bhavābhave vītataṇhaṁ saññā nānusenti—",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "evaṁvādī kho ahaṁ, āvuso, evamakkhāyī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "Evaṁ vutte, bhikkhave, daṇḍapāṇi sakko sīsaṁ okampetvā, jivhaṁ nillāḷetvā, tivisākhaṁ nalāṭikaṁ nalāṭe vuṭṭhāpetvā daṇḍamolubbha pakkāmī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "Evaṁ vutte, aññataro bhikkhu bhagavantaṁ etadavoca: ",
+      "english": "When he had spoken, one of the mendicants said to him, "
+    },
+    {
+      "number": 29,
+      "pali": "“kiṁvādī pana, bhante, bhagavā sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya na kenaci loke viggayha tiṭṭhati? ",
+      "english": "“But sir, asserting what doctrine does the Buddha not argue with anyone in this world with its gods, Māras, and Divinities, this population with its ascetics and brahmins, its gods and humans? "
+    },
+    {
+      "number": 30,
+      "pali": "Kathañca pana, bhante, bhagavantaṁ kāmehi visaṁyuttaṁ viharantaṁ taṁ brāhmaṇaṁ akathaṅkathiṁ chinnakukkuccaṁ bhavābhave vītataṇhaṁ saññā nānusentī”ti? ",
+      "english": "And how is it that perceptions do not underlie the Buddha, the brahmin who lives detached from sensual pleasures, without indecision, stripped of worry, and rid of craving for rebirth in this or that state?” "
+    },
+    {
+      "number": 31,
+      "pali": "“Yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
+      "english": "“Mendicant, judgments driven by proliferating perceptions beset a person. "
+    },
+    {
+      "number": 32,
+      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
+      "english": "If they don’t find anything worth approving, welcoming, or getting attached to in the source from which these arise, "
+    },
+    {
+      "number": 33,
+      "pali": "Esevanto rāgānusayānaṁ, esevanto paṭighānusayānaṁ, esevanto diṭṭhānusayānaṁ, esevanto vicikicchānusayānaṁ, esevanto mānānusayānaṁ, esevanto bhavarāgānusayānaṁ, esevanto avijjānusayānaṁ, esevanto daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādānaṁ. ",
+      "english": "just this is the end of the underlying tendencies to desire, aversion, views, doubt, conceit, the desire for continued existence, and ignorance. This is the end of taking up the rod and the sword, the end of quarrels, arguments, and disputes, of accusations, divisive speech, and lies. "
+    },
+    {
+      "number": 34,
+      "pali": "Etthete pāpakā akusalā dhammā aparisesā nirujjhantī”ti. ",
+      "english": "This is where these bad, unskillful qualities cease without remainder.” "
+    },
+    {
+      "number": 35,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 36,
+      "pali": "Idaṁ vatvāna sugato uṭṭhāyāsanā vihāraṁ pāvisi. ",
+      "english": "When he had spoken, the Holy One got up from his seat and entered his dwelling. "
+    },
+    {
+      "number": 37,
+      "pali": "Atha kho tesaṁ bhikkhūnaṁ acirapakkantassa bhagavato etadahosi: ",
+      "english": "Soon after the Buddha left, those mendicants considered, "
+    },
+    {
+      "number": 38,
+      "pali": "“idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā, vitthārena atthaṁ avibhajitvā, uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": "“The Buddha gave this brief summary recital, then entered his dwelling without explaining the meaning in detail. "
+    },
+    {
+      "number": 39,
+      "pali": "‘yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "Esevanto rāgānusayānaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyā”ti? ",
+      "english": "Who can explain in detail the meaning of this brief summary recital given by the Buddha?” "
+    },
+    {
+      "number": 44,
+      "pali": "Atha kho tesaṁ bhikkhūnaṁ etadahosi: ",
+      "english": "Then those mendicants thought, "
+    },
+    {
+      "number": 45,
+      "pali": "“ayaṁ kho āyasmā mahākaccāno satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ. ",
+      "english": "“This Venerable Mahākaccāna is praised by the Buddha and esteemed by his sensible spiritual companions. "
+    },
+    {
+      "number": 46,
+      "pali": "Pahoti cāyasmā mahākaccāno imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": "He is capable of explaining in detail the meaning of this brief summary recital given by the Buddha. "
+    },
+    {
+      "number": 47,
+      "pali": "Yannūna mayaṁ yenāyasmā mahākaccāno tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ mahākaccānaṁ etamatthaṁ paṭipuccheyyāmā”ti. ",
+      "english": "Let’s go to him, and ask him about this matter.” "
+    },
+    {
+      "number": 48,
+      "pali": "Atha kho te bhikkhū yenāyasmā mahākaccāno tenupasaṅkamiṁsu; upasaṅkamitvā āyasmatā mahākaccānena saddhiṁ sammodiṁsu. ",
+      "english": "Then those mendicants went to Mahākaccāna, and exchanged greetings with him. "
+    },
+    {
+      "number": 49,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū āyasmantaṁ mahākaccānaṁ etadavocuṁ: ",
+      "english": "When the greetings and polite conversation were over, they sat down to one side. They told him what had happened, and said: "
+    },
+    {
+      "number": 50,
+      "pali": "“idaṁ kho no, āvuso kaccāna, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "‘yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Esevanto rāgānusayānaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Tesaṁ no, āvuso kaccāna, amhākaṁ acirapakkantassa bhagavato etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "‘idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "“yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "Esevanto rāgānusayānaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī”’ti. ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyāti? ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "Tesaṁ no, āvuso kaccāna, amhākaṁ etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "‘ayaṁ kho āyasmā mahākaccāno satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ, pahoti cāyasmā mahākaccāno imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "Yannūna mayaṁ yenāyasmā mahākaccāno tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ mahākaccānaṁ etamatthaṁ paṭipuccheyyāmā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "Vibhajatāyasmā mahākaccāno”ti. ",
+      "english": "“May Venerable Mahākaccāna please explain this.” "
+    },
+    {
+      "number": 66,
+      "pali": "“Seyyathāpi, āvuso, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva mūlaṁ, atikkamma khandhaṁ, sākhāpalāse sāraṁ pariyesitabbaṁ maññeyya; ",
+      "english": "“Reverends, suppose there was a person in need of heartwood. And while wandering in search of heartwood he’d come across a large tree standing with heartwood. But he’d pass over the roots and trunk, imagining that the heartwood should be sought in the branches and leaves. "
+    },
+    {
+      "number": 67,
+      "pali": "evaṁsampadamidaṁ āyasmantānaṁ satthari sammukhībhūte, taṁ bhagavantaṁ atisitvā, amhe etamatthaṁ paṭipucchitabbaṁ maññatha. ",
+      "english": "Such is the consequence for the venerables. Though you were face to face with the Buddha, you bypassed him, imagining that you should ask me about this matter. "
+    },
+    {
+      "number": 68,
+      "pali": "So hāvuso, bhagavā jānaṁ jānāti, passaṁ passati, cakkhubhūto ñāṇabhūto dhammabhūto brahmabhūto, vattā pavattā, atthassa ninnetā, amatassa dātā, dhammassāmī tathāgato. ",
+      "english": "For he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. "
+    },
+    {
+      "number": 69,
+      "pali": "So ceva panetassa kālo ahosi, yaṁ bhagavantaṁyeva etamatthaṁ paṭipuccheyyātha. ",
+      "english": "That was the time to approach the Buddha and ask about this matter. "
+    },
+    {
+      "number": 70,
+      "pali": "Yathā vo bhagavā byākareyya tathā naṁ dhāreyyāthā”ti. ",
+      "english": "You should have remembered it in line with the Buddha’s answer.” "
+    },
+    {
+      "number": 71,
+      "pali": "“Addhāvuso kaccāna, bhagavā jānaṁ jānāti, passaṁ passati, cakkhubhūto ñāṇabhūto dhammabhūto brahmabhūto, vattā pavattā, atthassa ninnetā, amatassa dātā, dhammassāmī tathāgato. ",
+      "english": "“Certainly he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. "
+    },
+    {
+      "number": 72,
+      "pali": "So ceva panetassa kālo ahosi, yaṁ bhagavantaṁyeva etamatthaṁ paṭipuccheyyāma. ",
+      "english": "That was the time to approach the Buddha and ask about this matter. "
+    },
+    {
+      "number": 73,
+      "pali": "Yathā no bhagavā byākareyya tathā naṁ dhāreyyāma. ",
+      "english": "We should have remembered it in line with the Buddha’s answer. "
+    },
+    {
+      "number": 74,
+      "pali": "Api cāyasmā mahākaccāno satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ, ",
+      "english": "Still, Mahākaccāna is praised by the Buddha and esteemed by his sensible spiritual companions. "
+    },
+    {
+      "number": 75,
+      "pali": "pahoti cāyasmā mahākaccāno imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
+      "english": "You are capable of explaining in detail the meaning of this brief summary recital given by the Buddha. "
+    },
+    {
+      "number": 76,
+      "pali": "Vibhajatāyasmā mahākaccāno agaruṁ katvā”ti. ",
+      "english": "Please explain this, if it’s no trouble.” "
+    },
+    {
+      "number": 77,
+      "pali": "“Tena hāvuso, suṇātha, sādhukaṁ manasikarotha, bhāsissāmī”ti. ",
+      "english": "“Well then, reverends, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 78,
+      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato mahākaccānassa paccassosuṁ. ",
+      "english": "“Yes, reverend,” they replied. "
+    },
+    {
+      "number": 79,
+      "pali": "Āyasmā mahākaccāno etadavoca: ",
+      "english": "Venerable Mahākaccāna said this: "
+    },
+    {
+      "number": 80,
+      "pali": "“Yaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": "“Reverends, the Buddha gave this brief summary recital, then entered his dwelling without explaining the meaning in detail: "
+    },
+    {
+      "number": 81,
+      "pali": "‘yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
+      "english": "‘Judgments driven by proliferating perceptions beset a person. "
+    },
+    {
+      "number": 82,
+      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ, esevanto rāgānusayānaṁ …pe… ",
+      "english": "If they don’t find anything worth approving, welcoming, or getting attached to in the source from which these arise, "
+    },
+    {
+      "number": 83,
+      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti, imassa kho ahaṁ, āvuso, bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa evaṁ vitthārena atthaṁ ājānāmi—",
+      "english": "just this is the end of the underlying tendencies to desire, repulsion, views, doubt, conceit, the desire to be reborn, and ignorance. This is the end of taking up the rod and the sword, the end of quarrels, arguments, and disputes, of accusations, backbiting, and lies. This is where these bad, unskillful qualities cease without remainder.’ This is how I understand the detailed meaning of this summary recital. "
+    },
+    {
+      "number": 84,
+      "pali": "Cakkhuñcāvuso, paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā, yaṁ vedeti taṁ sañjānāti, yaṁ sañjānāti taṁ vitakketi, yaṁ vitakketi taṁ papañceti, yaṁ papañceti tatonidānaṁ purisaṁ papañcasaññāsaṅkhā samudācaranti atītānāgatapaccuppannesu cakkhuviññeyyesu rūpesu. ",
+      "english": "Eye consciousness arises dependent on the eye and sights. The meeting of the three is contact. Contact is a requirement for feeling. What you feel, you perceive. What you perceive, you think about. What you think about, you proliferate. What you proliferate is the source from which judgments driven by proliferating perceptions beset a person. This occurs with respect to sights known by the eye in the past, future, and present. "
+    },
+    {
+      "number": 85,
+      "pali": "Sotañcāvuso, paṭicca sadde ca uppajjati sotaviññāṇaṁ …pe… ",
+      "english": "Ear consciousness arises dependent on the ear and sounds. … "
+    },
+    {
+      "number": 86,
+      "pali": "ghānañcāvuso, paṭicca gandhe ca uppajjati ghānaviññāṇaṁ …pe… ",
+      "english": "Nose consciousness arises dependent on the nose and smells. … "
+    },
+    {
+      "number": 87,
+      "pali": "jivhañcāvuso, paṭicca rase ca uppajjati jivhāviññāṇaṁ …pe… ",
+      "english": "Tongue consciousness arises dependent on the tongue and tastes. … "
+    },
+    {
+      "number": 88,
+      "pali": "kāyañcāvuso, paṭicca phoṭṭhabbe ca uppajjati kāyaviññāṇaṁ …pe… ",
+      "english": "Body consciousness arises dependent on the body and touches. … "
+    },
+    {
+      "number": 89,
+      "pali": "manañcāvuso, paṭicca dhamme ca uppajjati manoviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā, yaṁ vedeti taṁ sañjānāti, yaṁ sañjānāti taṁ vitakketi, yaṁ vitakketi taṁ papañceti, yaṁ papañceti tatonidānaṁ purisaṁ papañcasaññāsaṅkhā samudācaranti atītānāgatapaccuppannesu manoviññeyyesu dhammesu. ",
+      "english": "Mind consciousness arises dependent on the mind and ideas. The meeting of the three is contact. Contact is a requirement for feeling. What you feel, you perceive. What you perceive, you think about. What you think about, you proliferate. What you proliferate is the source from which judgments driven by proliferating perceptions beset a person. This occurs with respect to ideas known by the mind in the past, future, and present. "
+    },
+    {
+      "number": 90,
+      "pali": "So vatāvuso, cakkhusmiṁ sati rūpe sati cakkhuviññāṇe sati phassapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
+      "english": "Where there is the eye, sights, and eye consciousness, it will be possible to discover evidence of contact. "
+    },
+    {
+      "number": 91,
+      "pali": "Phassapaññattiyā sati vedanāpaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
+      "english": "Where there is evidence of contact, it will be possible to discover evidence of feeling. "
+    },
+    {
+      "number": 92,
+      "pali": "Vedanāpaññattiyā sati saññāpaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
+      "english": "Where there is evidence of feeling, it will be possible to discover evidence of perception. "
+    },
+    {
+      "number": 93,
+      "pali": "Saññāpaññattiyā sati vitakkapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
+      "english": "Where there is evidence of perception, it will be possible to discover evidence of thought. "
+    },
+    {
+      "number": 94,
+      "pali": "Vitakkapaññattiyā sati papañcasaññāsaṅkhāsamudācaraṇapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
+      "english": "Where there is evidence of thought, it will be possible to discover evidence of being beset by judgments driven by proliferating perceptions. "
+    },
+    {
+      "number": 95,
+      "pali": "So vatāvuso, sotasmiṁ sati sadde sati …pe… ",
+      "english": "Where there is the ear … "
+    },
+    {
+      "number": 96,
+      "pali": "ghānasmiṁ sati gandhe sati …pe… ",
+      "english": "nose … "
+    },
+    {
+      "number": 97,
+      "pali": "jivhāya sati rase sati …pe… ",
+      "english": "tongue … "
+    },
+    {
+      "number": 98,
+      "pali": "kāyasmiṁ sati phoṭṭhabbe sati …pe… ",
+      "english": "body … "
+    },
+    {
+      "number": 99,
+      "pali": "manasmiṁ sati dhamme sati manoviññāṇe sati phassapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
+      "english": "mind, ideas, and mind consciousness, it will be possible to discover evidence of contact. "
+    },
+    {
+      "number": 100,
+      "pali": "Phassapaññattiyā sati vedanāpaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
+      "english": "Where there is evidence of contact, it will be possible to discover evidence of feeling. "
+    },
+    {
+      "number": 101,
+      "pali": "Vedanāpaññattiyā sati saññāpaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
+      "english": "Where there is evidence of feeling, it will be possible to discover evidence of perception. "
+    },
+    {
+      "number": 102,
+      "pali": "Saññāpaññattiyā sati vitakkapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
+      "english": "Where there is evidence of perception, it will be possible to discover evidence of thinking. "
+    },
+    {
+      "number": 103,
+      "pali": "Vitakkapaññattiyā sati papañcasaññāsaṅkhāsamudācaraṇapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
+      "english": "Where there is evidence of thinking, it will be possible to discover evidence of being beset by judgments driven by proliferating perceptions. "
+    },
+    {
+      "number": 104,
+      "pali": "So vatāvuso, cakkhusmiṁ asati rūpe asati cakkhuviññāṇe asati phassapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Where there is no eye, no sights, and no eye consciousness, it will not be possible to discover evidence of contact. "
+    },
+    {
+      "number": 105,
+      "pali": "Phassapaññattiyā asati vedanāpaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Where there is no evidence of contact, it will not be possible to discover evidence of feeling. "
+    },
+    {
+      "number": 106,
+      "pali": "Vedanāpaññattiyā asati saññāpaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Where there is no evidence of feeling, it will not be possible to discover evidence of perception. "
+    },
+    {
+      "number": 107,
+      "pali": "Saññāpaññattiyā asati vitakkapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Where there is no evidence of perception, it will not be possible to discover evidence of thinking. "
+    },
+    {
+      "number": 108,
+      "pali": "Vitakkapaññattiyā asati papañcasaññāsaṅkhāsamudācaraṇapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Where there is no evidence of thinking, it will not be possible to discover evidence of being beset by judgments driven by proliferating perceptions. "
+    },
+    {
+      "number": 109,
+      "pali": "So vatāvuso, sotasmiṁ asati sadde asati …pe… ",
+      "english": "Where there is no ear … "
+    },
+    {
+      "number": 110,
+      "pali": "ghānasmiṁ asati gandhe asati …pe… ",
+      "english": "no nose … "
+    },
+    {
+      "number": 111,
+      "pali": "jivhāya asati rase asati …pe… ",
+      "english": "no tongue … "
+    },
+    {
+      "number": 112,
+      "pali": "kāyasmiṁ asati phoṭṭhabbe asati …pe… ",
+      "english": "no body … "
+    },
+    {
+      "number": 113,
+      "pali": "manasmiṁ asati dhamme asati manoviññāṇe asati phassapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "no mind, no ideas, and no mind consciousness, it will not be possible to discover evidence of contact. "
+    },
+    {
+      "number": 114,
+      "pali": "Phassapaññattiyā asati vedanāpaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Where there is no evidence of contact, it will not be possible to discover evidence of feeling. "
+    },
+    {
+      "number": 115,
+      "pali": "Vedanāpaññattiyā asati saññāpaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Where there is no evidence of feeling, it will not be possible to discover evidence of perception. "
+    },
+    {
+      "number": 116,
+      "pali": "Saññāpaññattiyā asati vitakkapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Where there is no evidence of perception, it will not be possible to discover evidence of thinking. "
+    },
+    {
+      "number": 117,
+      "pali": "Vitakkapaññattiyā asati papañcasaññāsaṅkhāsamudācaraṇapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "Where there is no evidence of thinking, it will not be possible to discover evidence of being beset by judgments driven by proliferating perceptions. "
+    },
+    {
+      "number": 118,
+      "pali": "Yaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": "This is how I understand the detailed meaning of that brief summary recital given by the Buddha. "
+    },
+    {
+      "number": 119,
+      "pali": "‘yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ esevanto rāgānusayānaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti, imassa kho ahaṁ, āvuso, bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa evaṁ vitthārena atthaṁ ājānāmi. ",
+      "english": ""
+    },
+    {
+      "number": 121,
+      "pali": "Ākaṅkhamānā ca pana tumhe āyasmanto bhagavantaṁyeva upasaṅkamitvā etamatthaṁ paṭipuccheyyātha. ",
+      "english": "If you wish, you may go to the Buddha and ask him about this. "
+    },
+    {
+      "number": 122,
+      "pali": "Yathā vo bhagavā byākaroti tathā naṁ dhāreyyāthā”ti. ",
+      "english": "You should remember it in line with the Buddha’s answer.” "
+    },
+    {
+      "number": 123,
+      "pali": "Atha kho te bhikkhū āyasmato mahākaccānassa bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū bhagavantaṁ etadavocuṁ: ",
+      "english": "Then those mendicants, approving and agreeing with what Mahākaccāna said, rose from their seats and went to the Buddha, bowed, sat down to one side, and told him what had happened, adding: "
+    },
+    {
+      "number": 124,
+      "pali": "“yaṁ kho no, bhante, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": ""
+    },
+    {
+      "number": 125,
+      "pali": "‘yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
+      "english": ""
+    },
+    {
+      "number": 126,
+      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 127,
+      "pali": "Esevanto rāgānusayānaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 128,
+      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 129,
+      "pali": "Tesaṁ no, bhante, amhākaṁ acirapakkantassa bhagavato etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 130,
+      "pali": "‘idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+      "english": ""
+    },
+    {
+      "number": 131,
+      "pali": "“yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
+      "english": ""
+    },
+    {
+      "number": 132,
+      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 133,
+      "pali": "Esevanto rāgānusayānaṁ, esevanto paṭighānusayānaṁ, esevanto diṭṭhānusayānaṁ, esevanto vicikicchānusayānaṁ, esevanto mānānusayānaṁ, esevanto bhavarāgānusayānaṁ, esevanto avijjānusayānaṁ, esevanto daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 134,
+      "pali": "Etthete pāpakā akusalā dhammā aparisesā nirujjhantī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 135,
+      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyā’ti? ",
+      "english": ""
+    },
+    {
+      "number": 136,
+      "pali": "Tesaṁ no, bhante, amhākaṁ etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 137,
+      "pali": "‘ayaṁ kho āyasmā mahākaccāno satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ, pahoti cāyasmā mahākaccāno imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ, yannūna mayaṁ yenāyasmā mahākaccāno tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ mahākaccānaṁ etamatthaṁ paṭipuccheyyāmā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 138,
+      "pali": "Atha kho mayaṁ, bhante, yenāyasmā mahākaccāno tenupasaṅkamimha; upasaṅkamitvā āyasmantaṁ mahākaccānaṁ etamatthaṁ paṭipucchimha. ",
+      "english": ""
+    },
+    {
+      "number": 139,
+      "pali": "Tesaṁ no, bhante, āyasmatā mahākaccānena imehi ākārehi imehi padehi imehi byañjanehi attho vibhatto”ti. ",
+      "english": "“Mahākaccāna clearly explained the meaning to us in this manner, with these words and phrases.” "
+    },
+    {
+      "number": 140,
+      "pali": "“Paṇḍito, bhikkhave, mahākaccāno; mahāpañño, bhikkhave, mahākaccāno. ",
+      "english": "“Mahākaccāna is astute, mendicants, he has great wisdom. "
+    },
+    {
+      "number": 141,
+      "pali": "Mañcepi tumhe, bhikkhave, etamatthaṁ paṭipuccheyyātha, ahampi taṁ evamevaṁ byākareyyaṁ yathā taṁ mahākaccānena byākataṁ. ",
+      "english": "If you came to me and asked this question, I would answer it in exactly the same way as Mahākaccāna. "
+    },
+    {
+      "number": 142,
+      "pali": "Eso cevetassa attho. Evañca naṁ dhārethā”ti. ",
+      "english": "That is what it means, and that’s how you should remember it.” "
+    },
+    {
+      "number": 143,
+      "pali": "Evaṁ vutte, āyasmā ānando bhagavantaṁ etadavoca: ",
+      "english": "When he said this, Venerable Ānanda said to the Buddha, "
+    },
+    {
+      "number": 144,
+      "pali": "“seyyathāpi, bhante, puriso jighacchādubbalyapareto madhupiṇḍikaṁ adhigaccheyya, so yato yato sāyeyya, labhetheva sādurasaṁ asecanakaṁ. ",
+      "english": "“Sir, suppose a person who was weak with hunger was to obtain a honey-cake. Wherever they taste it, they would enjoy a sweet, delectable flavor. "
+    },
+    {
+      "number": 145,
+      "pali": "Evameva kho, bhante, cetaso bhikkhu dabbajātiko, yato yato imassa dhammapariyāyassa paññāya atthaṁ upaparikkheyya, labhetheva attamanataṁ, labhetheva cetaso pasādaṁ. ",
+      "english": "In the same way, wherever a sincere, capable mendicant might examine with wisdom the meaning of this exposition of the teaching they would only gain joy and clarity. "
+    },
+    {
+      "number": 146,
+      "pali": "Ko nāmo ayaṁ, bhante, dhammapariyāyo”ti? ",
+      "english": "Sir, what is the name of this exposition of the teaching?” "
+    },
+    {
+      "number": 147,
+      "pali": "“Tasmātiha tvaṁ, ānanda, imaṁ dhammapariyāyaṁ madhupiṇḍikapariyāyotveva naṁ dhārehī”ti. ",
+      "english": "“Well then, Ānanda, you may remember this exposition of the teaching as ‘The Honey-Cake Discourse’.” "
+    },
+    {
+      "number": 148,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 149,
+      "pali": "Attamano āyasmā ānando bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Ānanda approved what the Buddha said. "
+    },
+    {
+      "number": 150,
+      "pali": "Madhupiṇḍikasuttaṁ niṭṭhitaṁ aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

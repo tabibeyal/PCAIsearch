@@ -1,0 +1,540 @@
+{
+  "sutta_id": "MN123",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 123 ",
+      "english": "Middle Discourses 123 "
+    },
+    {
+      "number": 2,
+      "pali": "Acchariyaabbhutasutta ",
+      "english": "Incredible and Amazing "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho sambahulānaṁ bhikkhūnaṁ pacchābhattaṁ piṇḍapātapaṭikkantānaṁ upaṭṭhānasālāyaṁ sannisinnānaṁ sannipatitānaṁ ayamantarākathā udapādi: ",
+      "english": "Then after the meal, on return from almsround, several mendicants sat together in the assembly hall and this discussion came up among them: "
+    },
+    {
+      "number": 6,
+      "pali": "“acchariyaṁ, āvuso, abbhutaṁ, āvuso. Tathāgatassa mahiddhikatā mahānubhāvatā, ",
+      "english": "“It’s incredible, reverends, it’s amazing! The Realized One has such psychic power and might! "
+    },
+    {
+      "number": 7,
+      "pali": "yatra hi nāma tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jānissati: ",
+      "english": "For he is able to know the Buddhas of the past who have become completely quenched, cut off proliferation, cut off the course, finished off the cycle, and passed beyond all suffering. "
+    },
+    {
+      "number": 8,
+      "pali": "‘evaṁjaccā te bhagavanto ahesuṁ’ itipi, ‘evaṁnāmā te bhagavanto ahesuṁ’ itipi, ‘evaṅgottā te bhagavanto ahesuṁ’ itipi, ‘evaṁsīlā te bhagavanto ahesuṁ’ itipi, ‘evaṁdhammā te bhagavanto ahesuṁ’ itipi, ‘evaṁpaññā te bhagavanto ahesuṁ’ itipi, ‘evaṁvihārī te bhagavanto ahesuṁ’ itipi, ‘evaṁvimuttā te bhagavanto ahesuṁ’ itipī”ti. ",
+      "english": "He knows their birth, names, clans, conduct, teaching, wisdom, meditation, and freedom.” "
+    },
+    {
+      "number": 9,
+      "pali": "Evaṁ vutte, āyasmā ānando te bhikkhū etadavoca: ",
+      "english": "When they said this, Venerable Ānanda said, "
+    },
+    {
+      "number": 10,
+      "pali": "“acchariyā ceva, āvuso, tathāgatā acchariyadhammasamannāgatā ca; ",
+      "english": "“The Realized Ones are incredible, reverends, and they have incredible qualities. "
+    },
+    {
+      "number": 11,
+      "pali": "abbhutā ceva, āvuso, tathāgatā abbhutadhammasamannāgatā cā”ti. ",
+      "english": "They’re amazing, and they have amazing qualities.” "
+    },
+    {
+      "number": 12,
+      "pali": "Ayañca hidaṁ tesaṁ bhikkhūnaṁ antarākathā vippakatā hoti. ",
+      "english": "But this conversation among those mendicants was left unfinished. "
+    },
+    {
+      "number": 13,
+      "pali": "Atha kho bhagavā sāyanhasamayaṁ paṭisallānā vuṭṭhito yenupaṭṭhānasālā tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi. ",
+      "english": "Then in the late afternoon, the Buddha came out of retreat, went to the assembly hall, sat down on the seat spread out, "
+    },
+    {
+      "number": 14,
+      "pali": "Nisajja kho bhagavā bhikkhū āmantesi: ",
+      "english": "and addressed the mendicants: "
+    },
+    {
+      "number": 15,
+      "pali": "“kāya nuttha, bhikkhave, etarahi kathāya sannisinnā, kā ca pana vo antarākathā vippakatā”ti? ",
+      "english": "“Mendicants, what were you sitting talking about just now? What conversation was left unfinished?” "
+    },
+    {
+      "number": 16,
+      "pali": "“Idha, bhante, amhākaṁ pacchābhattaṁ piṇḍapātapaṭikkantānaṁ upaṭṭhānasālāyaṁ sannisinnānaṁ sannipatitānaṁ ayamantarākathā udapādi: ",
+      "english": "So the mendicants told him what they had been talking about. The Buddha said, "
+    },
+    {
+      "number": 17,
+      "pali": "‘acchariyaṁ, āvuso, abbhutaṁ, āvuso, tathāgatassa mahiddhikatā mahānubhāvatā, yatra hi nāma tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jānissati—",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "evaṁjaccā te bhagavanto ahesuṁ itipi, evaṁnāmā … evaṅgottā … evaṁsīlā … evaṁdhammā … evaṁpaññā … evaṁvihārī … evaṁvimuttā te bhagavanto ahesuṁ itipī’ti. Evaṁ vutte, bhante, āyasmā ānando amhe etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "‘acchariyā ceva, āvuso, tathāgatā acchariyadhammasamannāgatā ca; ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "abbhutā ceva, āvuso, tathāgatā abbhutadhammasamannāgatā cā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "Ayaṁ kho no, bhante, antarākathā vippakatā; atha bhagavā anuppatto”ti. ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "Atha kho bhagavā āyasmantaṁ ānandaṁ āmantesi: ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "“tasmātiha taṁ, ānanda, bhiyyoso mattāya paṭibhantu tathāgatassa acchariyā abbhutadhammā”ti. ",
+      "english": "“Well then, Ānanda, say some more about the incredible and amazing qualities of the Realized One.” "
+    },
+    {
+      "number": 24,
+      "pali": "“Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "“Sir, I have heard and learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 25,
+      "pali": "‘sato sampajāno, ānanda, bodhisatto tusitaṁ kāyaṁ upapajjī’ti. ",
+      "english": "‘Mindful and aware, the being intent on awakening was reborn in the host of joyful gods.’ "
+    },
+    {
+      "number": 26,
+      "pali": "Yampi, bhante, sato sampajāno bodhisatto tusitaṁ kāyaṁ upapajji idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 27,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 28,
+      "pali": "‘sato sampajāno, ānanda, bodhisatto tusite kāye aṭṭhāsī’ti. ",
+      "english": "‘Mindful and aware, the being intent on awakening remained in the host of joyful gods.’ "
+    },
+    {
+      "number": 29,
+      "pali": "Yampi, bhante, sato sampajāno bodhisatto tusite kāye aṭṭhāsi idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 30,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 31,
+      "pali": "‘yāvatāyukaṁ, ānanda, bodhisatto tusite kāye aṭṭhāsī’ti. ",
+      "english": "‘For the whole of that life, the being intent on awakening remained in the host of joyful gods.’ "
+    },
+    {
+      "number": 32,
+      "pali": "Yampi, bhante, yāvatāyukaṁ bodhisatto tusite kāye aṭṭhāsi idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 33,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 34,
+      "pali": "‘sato sampajāno, ānanda, bodhisatto tusitā, kāyā cavitvā mātukucchiṁ okkamī’ti. ",
+      "english": "‘Mindful and aware, the being intent on awakening passed away from the host of joyful gods and was conceived in his mother’s womb.’ "
+    },
+    {
+      "number": 35,
+      "pali": "Yampi, bhante, sato sampajāno bodhisatto tusitā kāyā cavitvā mātukucchiṁ okkami idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 36,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 37,
+      "pali": "‘yadā, ānanda, bodhisatto tusitā kāyā cavitvā mātukucchiṁ okkamati, ",
+      "english": "‘When the being intent on awakening passes away from the host of joyful gods, he is conceived in his mother’s womb. "
+    },
+    {
+      "number": 38,
+      "pali": "atha sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya appamāṇo uḷāro obhāso loke pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+      "english": "And then—in this world with its gods, Māras, and divinities, this population with its ascetics and brahmins, gods and humans—an immeasurable, magnificent light appears, surpassing the glory of the gods. "
+    },
+    {
+      "number": 39,
+      "pali": "Yāpi tā lokantarikā aghā asaṁvutā andhakārā andhakāratimisā, yatthapime candimasūriyā evaṁmahiddhikā evaṁmahānubhāvā ābhāya nānubhonti tatthapi appamāṇo uḷāro obhāso loke pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+      "english": "Even in the boundless gloom of interstellar space—so utterly dark that even the luminosity of the moon and the sun, so mighty and powerful, makes no impression—an immeasurable, magnificent light appears, surpassing the glory of the gods. "
+    },
+    {
+      "number": 40,
+      "pali": "Yepi tattha sattā upapannā tepi tenobhāsena aññamaññaṁ sañjānanti—aññepi kira, bho, santi sattā idhūpapannāti. ",
+      "english": "And even the sentient beings reborn there recognize each other by that light: “So, it seems other sentient beings have been reborn here!” "
+    },
+    {
+      "number": 41,
+      "pali": "Ayañca dasasahassī lokadhātu saṅkampati sampakampati sampavedhati appamāṇo ca uḷāro obhāso loke pātubhavati atikkammeva devānaṁ devānubhāvan’ti. ",
+      "english": "And this ten-thousandfold galaxy shakes and rocks and trembles. And an immeasurable, magnificent light appears in the world, surpassing the glory of the gods.’ "
+    },
+    {
+      "number": 42,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 43,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 44,
+      "pali": "‘yadā, ānanda, bodhisatto mātukucchiṁ okkanto hoti, cattāro devaputtā catuddisaṁ ārakkhāya upagacchanti—mā naṁ bodhisattaṁ vā bodhisattamātaraṁ vā manusso vā amanusso vā koci vā viheṭhesī’ti. ",
+      "english": "‘When the being intent on awakening is conceived in his mother’s belly, four godlings approach to guard the four quarters, so that no human or non-human or anyone at all shall harm the being intent on awakening or his mother.’ "
+    },
+    {
+      "number": 45,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 46,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 47,
+      "pali": "‘yadā, ānanda, bodhisatto mātukucchiṁ okkanto hoti, pakatiyā sīlavatī bodhisattamātā hoti viratā pāṇātipātā viratā adinnādānā viratā kāmesumicchācārā viratā musāvādā viratā surāmerayamajjapamādaṭṭhānā’ti. ",
+      "english": "‘When the being intent on awakening is conceived in his mother’s belly, she becomes naturally ethical. She refrains from killing living creatures, stealing, sexual misconduct, lying, and beer, wine, and liquor intoxicants.’ "
+    },
+    {
+      "number": 48,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 49,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 50,
+      "pali": "‘yadā, ānanda, bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu purisesu mānasaṁ uppajjati kāmaguṇūpasaṁhitaṁ, anatikkamanīyā ca bodhisattamātā hoti kenaci purisena rattacittenā’ti. ",
+      "english": "‘When the being intent on awakening is conceived in his mother’s belly, she no longer thinks of men in a sexual way, and she cannot be violated by a man of lustful intent.’ "
+    },
+    {
+      "number": 51,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 52,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 53,
+      "pali": "‘yadā, ānanda, bodhisatto mātukucchiṁ okkanto hoti, lābhinī bodhisattamātā hoti pañcannaṁ kāmaguṇānaṁ. Sā pañcahi kāmaguṇehi samappitā samaṅgībhūtā paricāretī’ti. ",
+      "english": "‘When the being intent on awakening is conceived in his mother’s belly, she obtains the five kinds of sensual stimulation and amuses herself, supplied and provided with them.’ "
+    },
+    {
+      "number": 54,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 55,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 56,
+      "pali": "‘yadā, ānanda, bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu kocideva ābādho uppajjati; sukhinī bodhisattamātā hoti akilantakāyā; bodhisattañca bodhisattamātā tirokucchigataṁ passati sabbaṅgapaccaṅgaṁ ahīnindriyaṁ. ",
+      "english": "‘When the being intent on awakening is conceived in his mother’s belly, no afflictions beset her. She’s happy and free of bodily fatigue. And she sees the being intent on awakening in her womb, whole in his major and minor limbs, not deficient in any faculty. "
+    },
+    {
+      "number": 57,
+      "pali": "Seyyathāpi, ānanda, maṇi veḷuriyo subho jātimā aṭṭhaṁso suparikammakato. Tatrāssa suttaṁ āvutaṁ nīlaṁ vā pītaṁ vā lohitaṁ vā odātaṁ vā paṇḍusuttaṁ vā. ",
+      "english": "Suppose there was a beryl gem that was naturally lustrous, eight-faceted, well-worked. And it was strung with a thread of blue, yellow, red, white, or golden brown. "
+    },
+    {
+      "number": 58,
+      "pali": "Tamenaṁ cakkhumā puriso hatthe karitvā paccavekkheyya—ayaṁ kho maṇi veḷuriyo subho jātimā aṭṭhaṁso suparikammakato, tatridaṁ suttaṁ āvutaṁ nīlaṁ vā pītaṁ vā lohitaṁ vā odātaṁ vā paṇḍusuttaṁ vāti. ",
+      "english": "And a person with clear eyes were to take it in their hand and examine it: “This beryl gem is naturally lustrous, eight-faceted, well-worked. And it’s strung with a thread of blue, yellow, red, white, or golden brown.” "
+    },
+    {
+      "number": 59,
+      "pali": "Evameva kho, ānanda, yadā bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu kocideva ābādho uppajjati; sukhinī bodhisattamātā hoti akilantakāyā; bodhisattañca bodhisattamātā tirokucchigataṁ passati sabbaṅgapaccaṅgaṁ ahīnindriyan’ti. ",
+      "english": "In the same way, when the being intent on awakening is conceived in his mother’s belly, no afflictions beset her. She’s happy and free of bodily fatigue. And she sees the being intent on awakening in her womb, whole in his major and minor limbs, not deficient in any faculty.’ "
+    },
+    {
+      "number": 60,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 61,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 62,
+      "pali": "‘sattāhajāte, ānanda, bodhisatte bodhisattamātā kālaṁ karoti, tusitaṁ kāyaṁ upapajjatī’ti. ",
+      "english": "‘Seven days after the being intent on awakening is born, his mother passes away and is reborn in the host of joyful gods.’ "
+    },
+    {
+      "number": 63,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 64,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 65,
+      "pali": "‘yathā kho panānanda, aññā itthikā nava vā dasa vā māse gabbhaṁ kucchinā pariharitvā vijāyanti, na hevaṁ bodhisattaṁ bodhisattamātā vijāyati. Daseva māsāni bodhisattaṁ bodhisattamātā kucchinā pariharitvā vijāyatī’ti. ",
+      "english": "‘Other women carry the infant in the womb for nine or ten months before giving birth. Not so the mother of the being intent on awakening. She gives birth after exactly ten months.’ "
+    },
+    {
+      "number": 66,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 67,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 68,
+      "pali": "‘yathā kho panānanda, aññā itthikā nisinnā vā nipannā vā vijāyanti, na hevaṁ bodhisattaṁ bodhisattamātā vijāyati. Ṭhitāva bodhisattaṁ bodhisattamātā vijāyatī’ti. ",
+      "english": "‘Other women give birth while sitting or lying down. Not so the mother of the being intent on awakening. She only gives birth standing up.’ "
+    },
+    {
+      "number": 69,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 70,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 71,
+      "pali": "‘yadā, ānanda, bodhisatto mātukucchimhā nikkhamati, devā naṁ paṭhamaṁ paṭiggaṇhanti pacchā manussā’ti. ",
+      "english": "‘When the being intent on awakening emerges from his mother’s womb, gods receive him first, then humans.’ "
+    },
+    {
+      "number": 72,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 73,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 74,
+      "pali": "‘yadā, ānanda, bodhisatto mātukucchimhā nikkhamati, appattova bodhisatto pathaviṁ hoti, cattāro naṁ devaputtā paṭiggahetvā mātu purato ṭhapenti—attamanā, devi, hohi; mahesakkho te putto uppanno’ti. ",
+      "english": "‘When the being intent on awakening emerges from his mother’s womb, before he reaches the ground, four godlings receive him and place him before his mother, saying: “Rejoice, O Queen! An illustrious son is born to you.”’ "
+    },
+    {
+      "number": 75,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 76,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 77,
+      "pali": "‘yadā, ānanda, bodhisatto mātukucchimhā nikkhamati, visadova nikkhamati amakkhito udena amakkhito semhena amakkhito ruhirena amakkhito kenaci asucinā suddho visado. ",
+      "english": "‘When the being intent on awakening emerges from his mother’s womb, he emerges already clean, unsoiled by waters, mucus, blood, or any other kind of impurity, pure and clean. "
+    },
+    {
+      "number": 78,
+      "pali": "Seyyathāpi, ānanda, maṇiratanaṁ kāsike vatthe nikkhittaṁ neva maṇiratanaṁ kāsikaṁ vatthaṁ makkheti nāpi kāsikaṁ vatthaṁ maṇiratanaṁ makkheti. ",
+      "english": "Suppose a jewel-treasure was placed on a cloth from Kāsi. The jewel would not soil the cloth, nor would the cloth soil the jewel. "
+    },
+    {
+      "number": 79,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 80,
+      "pali": "Ubhinnaṁ suddhattā. ",
+      "english": "Because of the cleanliness of them both. "
+    },
+    {
+      "number": 81,
+      "pali": "Evameva kho, ānanda, yadā bodhisatto mātukucchimhā nikkhamati, visadova nikkhamati amakkhito udena amakkhito semhena amakkhito ruhirena amakkhito kenaci asucinā suddho visado’ti. ",
+      "english": "In the same way, when the being intent on awakening emerges from his mother’s womb, he emerges already clean, unsoiled by waters, mucus, blood, or any other kind of impurity, pure and clean.’ "
+    },
+    {
+      "number": 82,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 83,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 84,
+      "pali": "‘yadā, ānanda, bodhisatto mātukucchimhā nikkhamati, dve udakassa dhārā antalikkhā pātubhavanti—ekā sītassa, ekā uṇhassa; yena bodhisattassa udakakiccaṁ karonti mātu cā’ti. ",
+      "english": "‘When the being intent on awakening emerges from his mother’s womb, two showers of water appear from the sky, one cool, one warm, for bathing the being intent on awakening and his mother.’ "
+    },
+    {
+      "number": 85,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 86,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 87,
+      "pali": "‘sampatijāto, ānanda, bodhisatto samehi pādehi pathaviyaṁ patiṭṭhahitvā uttarābhimukho sattapadavītihārena gacchati, setamhi chatte anudhāriyamāne, sabbā ca disā viloketi, āsabhiñca vācaṁ bhāsati—aggohamasmi lokassa, jeṭṭhohamasmi lokassa, seṭṭhohamasmi lokassa. Ayamantimā jāti, natthi dāni punabbhavo’ti. ",
+      "english": "‘As soon as he’s born, the being intent on awakening stands firm with his own feet on the ground. Facing north, he takes seven strides with a white parasol held above him, surveys all quarters, and makes this dramatic proclamation: “I am the foremost in the world! I am the eldest in the world! I am the first in the world! This is my last rebirth; now there’ll be no more future lives.”’ "
+    },
+    {
+      "number": 88,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremi. ",
+      "english": "This too I remember as an incredible quality of the Buddha. "
+    },
+    {
+      "number": 89,
+      "pali": "Sammukhā metaṁ, bhante, bhagavato sutaṁ, sammukhā paṭiggahitaṁ: ",
+      "english": "I have learned this in the presence of the Buddha: "
+    },
+    {
+      "number": 90,
+      "pali": "‘yadā, ānanda, bodhisatto mātukucchimhā nikkhamati, atha sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya appamāṇo uḷāro obhāso loke pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+      "english": "‘When the being intent on awakening emerges from his mother’s womb, then—in this world with its gods, Māras, and divinities, this population with its ascetics and brahmins, gods and humans—an immeasurable, magnificent light appears, surpassing the glory of the gods. "
+    },
+    {
+      "number": 91,
+      "pali": "Yāpi tā lokantarikā aghā asaṁvutā andhakārā andhakāratimisā yatthapime candimasūriyā evaṁmahiddhikā evaṁmahānubhāvā ābhāya nānubhonti tatthapi appamāṇo uḷāro obhāso loke pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+      "english": "Even in the boundless gloom of interstellar space—so utterly dark that even the luminosity of the moon and the sun, so mighty and powerful, makes no impression—an immeasurable, magnificent light appears, surpassing the glory of the gods. "
+    },
+    {
+      "number": 92,
+      "pali": "Yepi tattha sattā upapannā tepi tenobhāsena aññamaññaṁ sañjānanti—aññepi kira, bho, santi sattā idhūpapannāti. ",
+      "english": "And the sentient beings reborn there recognize each other by that light: “So, it seems other sentient beings have been reborn here!” "
+    },
+    {
+      "number": 93,
+      "pali": "Ayañca dasasahassī lokadhātu saṅkampati sampakampati sampavedhati, appamāṇo ca uḷāro obhāso loke pātubhavati atikkammeva devānaṁ devānubhāvan’ti. ",
+      "english": "And this ten-thousandfold galaxy shakes and rocks and trembles. And an immeasurable, magnificent light appears in the world, surpassing the glory of the gods.’ "
+    },
+    {
+      "number": 94,
+      "pali": "Yampi, bhante …pe… idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremī”ti. ",
+      "english": "This too I remember as an incredible and amazing quality of the Buddha.” "
+    },
+    {
+      "number": 95,
+      "pali": "“Tasmātiha tvaṁ, ānanda, idampi tathāgatassa acchariyaṁ abbhutadhammaṁ dhārehi. ",
+      "english": "“Well then, Ānanda, you should also remember this as an incredible and amazing quality of the Realized One. "
+    },
+    {
+      "number": 96,
+      "pali": "Idhānanda, tathāgatassa viditā vedanā uppajjanti, viditā upaṭṭhahanti, viditā abbhatthaṁ gacchanti; ",
+      "english": "It’s that the Realized One knows feelings as they arise, as they remain, and as they go away. "
+    },
+    {
+      "number": 97,
+      "pali": "viditā saññā uppajjanti …pe… ",
+      "english": "He knows perceptions as they arise, as they remain, and as they go away. "
+    },
+    {
+      "number": 98,
+      "pali": "viditā vitakkā uppajjanti, viditā upaṭṭhahanti, viditā abbhatthaṁ gacchanti. ",
+      "english": "He knows thoughts as they arise, as they remain, and as they go away. "
+    },
+    {
+      "number": 99,
+      "pali": "Idampi kho tvaṁ, ānanda, tathāgatassa acchariyaṁ abbhutadhammaṁ dhārehī”ti. ",
+      "english": "This too you should remember as an incredible and amazing quality of the Realized One.” "
+    },
+    {
+      "number": 100,
+      "pali": "“Yampi, bhante, bhagavato viditā vedanā uppajjanti, viditā upaṭṭhahanti, viditā abbhatthaṁ gacchanti; ",
+      "english": "“Sir, the Buddha knows feelings as they arise, as they remain, and as they go away. "
+    },
+    {
+      "number": 101,
+      "pali": "viditā saññā … ",
+      "english": "He knows perceptions as they arise, as they remain, and as they go away. "
+    },
+    {
+      "number": 102,
+      "pali": "viditā vitakkā uppajjanti, viditā upaṭṭhahanti, viditā abbhatthaṁ gacchanti. ",
+      "english": "He knows thoughts as they arise, as they remain, and as they go away. "
+    },
+    {
+      "number": 103,
+      "pali": "Idampāhaṁ, bhante, bhagavato acchariyaṁ abbhutadhammaṁ dhāremī”ti. ",
+      "english": "This too I remember as an incredible and amazing quality of the Buddha.” "
+    },
+    {
+      "number": 104,
+      "pali": "Idamavoca āyasmā ānando. ",
+      "english": "That’s what Ānanda said, "
+    },
+    {
+      "number": 105,
+      "pali": "Samanuñño satthā ahosi; ",
+      "english": "and the teacher approved. "
+    },
+    {
+      "number": 106,
+      "pali": "attamanā ca te bhikkhū āyasmato ānandassa bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, those mendicants approved what Venerable Ānanda said. "
+    },
+    {
+      "number": 107,
+      "pali": "Acchariyaabbhutasuttaṁ niṭṭhitaṁ tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

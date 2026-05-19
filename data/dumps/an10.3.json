@@ -1,0 +1,155 @@
+{
+  "sutta_id": "AN10.3",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.3 ",
+      "english": "Numbered Discourses 10.3 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Ānisaṁsavagga ",
+      "english": "1. Benefits "
+    },
+    {
+      "number": 3,
+      "pali": "Paṭhamaupanisasutta ",
+      "english": "Vital Conditions (1st) "
+    },
+    {
+      "number": 4,
+      "pali": "“Dussīlassa, bhikkhave, sīlavipannassa hatūpaniso hoti avippaṭisāro; ",
+      "english": "“Mendicants, an unethical person, who lacks ethics, has destroyed a vital condition for having no regrets. "
+    },
+    {
+      "number": 5,
+      "pali": "avippaṭisāre asati avippaṭisāravipannassa hatūpanisaṁ hoti pāmojjaṁ; ",
+      "english": "When there are regrets, one who has regrets has destroyed a vital condition for joy. "
+    },
+    {
+      "number": 6,
+      "pali": "pāmojje asati pāmojjavipannassa hatūpanisā hoti pīti; ",
+      "english": "When there is no joy, one who lacks joy has destroyed a vital condition for rapture. "
+    },
+    {
+      "number": 7,
+      "pali": "pītiyā asati pītivipannassa hatūpanisā hoti passaddhi; ",
+      "english": "When there is no rapture, one who lacks rapture has destroyed a vital condition for tranquility. "
+    },
+    {
+      "number": 8,
+      "pali": "passaddhiyā asati passaddhivipannassa hatūpanisaṁ hoti sukhaṁ; ",
+      "english": "When there is no tranquility, one who lacks tranquility has destroyed a vital condition for bliss. "
+    },
+    {
+      "number": 9,
+      "pali": "sukhe asati sukhavipannassa hatūpaniso hoti sammāsamādhi; ",
+      "english": "When there is no bliss, one who lacks bliss has destroyed a vital condition for right immersion. "
+    },
+    {
+      "number": 10,
+      "pali": "sammāsamādhimhi asati sammāsamādhivipannassa hatūpanisaṁ hoti yathābhūtañāṇadassanaṁ; ",
+      "english": "When there is no right immersion, one who lacks right immersion has destroyed a vital condition for true knowledge and vision. "
+    },
+    {
+      "number": 11,
+      "pali": "yathābhūtañāṇadassane asati yathābhūtañāṇadassanavipannassa hatūpaniso hoti nibbidāvirāgo; ",
+      "english": "When there is no true knowledge and vision, one who lacks true knowledge and vision has destroyed a vital condition for disillusionment and dispassion. "
+    },
+    {
+      "number": 12,
+      "pali": "nibbidāvirāge asati nibbidāvirāgavipannassa hatūpanisaṁ hoti vimuttiñāṇadassanaṁ. ",
+      "english": "When there is no disillusionment and dispassion, one who lacks disillusionment and dispassion has destroyed a vital condition for knowledge and vision of freedom. "
+    },
+    {
+      "number": 13,
+      "pali": "Seyyathāpi, bhikkhave, rukkho sākhāpalāsavipanno. Tassa papaṭikāpi na pāripūriṁ gacchati, tacopi … pheggupi … sāropi na pāripūriṁ gacchati. ",
+      "english": "Suppose there was a tree that lacked branches and foliage. Its shoots, bark, softwood, and heartwood would not grow to fullness. "
+    },
+    {
+      "number": 14,
+      "pali": "Evamevaṁ kho, bhikkhave, dussīlassa sīlavipannassa hatūpaniso hoti avippaṭisāro; ",
+      "english": "In the same way, an unethical person, who lacks ethics, has destroyed a vital condition for having no regrets. "
+    },
+    {
+      "number": 15,
+      "pali": "avippaṭisāre asati avippaṭisāravipannassa hatūpanisaṁ hoti …pe… ",
+      "english": "When there are regrets, one who has regrets has destroyed a vital condition for joy. … "
+    },
+    {
+      "number": 16,
+      "pali": "vimuttiñāṇadassanaṁ. ",
+      "english": "One who lacks disillusionment and dispassion has destroyed a vital condition for knowledge and vision of freedom. "
+    },
+    {
+      "number": 17,
+      "pali": "Sīlavato, bhikkhave, sīlasampannassa upanisasampanno hoti avippaṭisāro; ",
+      "english": "An ethical person, who has fulfilled ethics, has fulfilled a vital condition for not having regrets. "
+    },
+    {
+      "number": 18,
+      "pali": "avippaṭisāre sati avippaṭisārasampannassa upanisasampannaṁ hoti pāmojjaṁ; ",
+      "english": "When there are no regrets, one who has no regrets has fulfilled a vital condition for joy. "
+    },
+    {
+      "number": 19,
+      "pali": "pāmojje sati pāmojjasampannassa upanisasampannā hoti pīti; ",
+      "english": "When there is joy, one who has fulfilled joy has fulfilled a vital condition for rapture. "
+    },
+    {
+      "number": 20,
+      "pali": "pītiyā sati pītisampannassa upanisasampannā hoti passaddhi; ",
+      "english": "When there is rapture, one who has fulfilled rapture has fulfilled a vital condition for tranquility. "
+    },
+    {
+      "number": 21,
+      "pali": "passaddhiyā sati passaddhisampannassa upanisasampannaṁ hoti sukhaṁ; ",
+      "english": "When there is tranquility, one who has fulfilled tranquility has fulfilled a vital condition for bliss. "
+    },
+    {
+      "number": 22,
+      "pali": "sukhe sati sukhasampannassa upanisasampanno hoti sammāsamādhi; ",
+      "english": "When there is bliss, one who has fulfilled bliss has fulfilled a vital condition for right immersion. "
+    },
+    {
+      "number": 23,
+      "pali": "sammāsamādhimhi sati sammāsamādhisampannassa upanisasampannaṁ hoti yathābhūtañāṇadassanaṁ; ",
+      "english": "When there is right immersion, one who has fulfilled right immersion has fulfilled a vital condition for true knowledge and vision. "
+    },
+    {
+      "number": 24,
+      "pali": "yathābhūtañāṇadassane sati yathābhūtañāṇadassanasampannassa upanisasampanno hoti nibbidāvirāgo; ",
+      "english": "When there is true knowledge and vision, one who has fulfilled true knowledge and vision has fulfilled a vital condition for disillusionment and dispassion. "
+    },
+    {
+      "number": 25,
+      "pali": "nibbidāvirāge sati nibbidāvirāgasampannassa upanisasampannaṁ hoti vimuttiñāṇadassanaṁ. ",
+      "english": "When there is disillusionment and dispassion, one who has fulfilled disillusionment and dispassion has fulfilled a vital condition for knowledge and vision of freedom. "
+    },
+    {
+      "number": 26,
+      "pali": "Seyyathāpi, bhikkhave, rukkho sākhāpalāsasampanno. Tassa papaṭikāpi pāripūriṁ gacchati, tacopi … pheggupi … sāropi pāripūriṁ gacchati. ",
+      "english": "Suppose there was a tree that was complete with branches and foliage. Its shoots, bark, softwood, and heartwood would grow to fullness. "
+    },
+    {
+      "number": 27,
+      "pali": "Evamevaṁ kho, bhikkhave, sīlavato sīlasampannassa upanisasampanno hoti avippaṭisāro; ",
+      "english": "In the same way, an ethical person, who has fulfilled ethics, has fulfilled a vital condition for not having regrets. "
+    },
+    {
+      "number": 28,
+      "pali": "avippaṭisāre sati avippaṭisārasampannassa upanisasampannaṁ hoti …pe… ",
+      "english": "When there are no regrets, one who has no regrets has fulfilled a vital condition for joy. … "
+    },
+    {
+      "number": 29,
+      "pali": "vimuttiñāṇadassanan”ti. ",
+      "english": "One who has fulfilled disillusionment and dispassion has fulfilled a vital condition for knowledge and vision of freedom.” "
+    },
+    {
+      "number": 30,
+      "pali": "Tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

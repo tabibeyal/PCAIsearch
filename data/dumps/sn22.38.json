@@ -1,0 +1,360 @@
+{
+  "sutta_id": "SN22.38",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 22.38 ",
+      "english": "Linked Discourses 22.38 "
+    },
+    {
+      "number": 2,
+      "pali": "4. Natumhākavagga ",
+      "english": "4. It’s Not Yours "
+    },
+    {
+      "number": 3,
+      "pali": "Dutiyaānandasutta ",
+      "english": "With Ānanda (2nd) "
+    },
+    {
+      "number": 4,
+      "pali": "Sāvatthinidānaṁ. ",
+      "english": "At Sāvatthī. "
+    },
+    {
+      "number": 5,
+      "pali": "Ekamantaṁ nisinnaṁ kho āyasmantaṁ ānandaṁ bhagavā etadavoca: ",
+      "english": "Sitting to one side, the Buddha said to Ānanda: "
+    },
+    {
+      "number": 6,
+      "pali": "“Sace taṁ, ānanda, evaṁ puccheyyuṁ: ",
+      "english": "“Ānanda, suppose they were to ask you: "
+    },
+    {
+      "number": 7,
+      "pali": "‘katamesaṁ, āvuso ānanda, dhammānaṁ uppādo paññāyittha, vayo paññāyittha, ṭhitassa aññathattaṁ paññāyittha? ",
+      "english": "‘Reverend Ānanda, what are the things for which arising, vanishing, and change while persisting were evident? "
+    },
+    {
+      "number": 8,
+      "pali": "Katamesaṁ dhammānaṁ uppādo paññāyissati, vayo paññāyissati, ṭhitassa aññathattaṁ paññāyissati? ",
+      "english": "What are the things for which arising, vanishing, and change while persisting will be evident? "
+    },
+    {
+      "number": 9,
+      "pali": "Katamesaṁ dhammānaṁ uppādo paññāyati, vayo paññāyati, ṭhitassa aññathattaṁ paññāyatī’ti? ",
+      "english": "What are the things for which arising, vanishing, and change while persisting are evident?’ "
+    },
+    {
+      "number": 10,
+      "pali": "Evaṁ puṭṭho tvaṁ, ānanda, kinti byākareyyāsī”ti? ",
+      "english": "How would you answer?” "
+    },
+    {
+      "number": 11,
+      "pali": "“Sace maṁ, bhante, evaṁ puccheyyuṁ: ",
+      "english": "“Sir, suppose they were to ask me: "
+    },
+    {
+      "number": 12,
+      "pali": "‘katamesaṁ, āvuso ānanda, dhammānaṁ uppādo paññāyittha, vayo paññāyittha, ṭhitassa aññathattaṁ paññāyittha? ",
+      "english": "‘Reverend Ānanda, what are the things for which arising, vanishing, and change while persisting were evident? "
+    },
+    {
+      "number": 13,
+      "pali": "Katamesaṁ dhammānaṁ uppādo paññāyissati, vayo paññāyissati, ṭhitassa aññathattaṁ paññāyissati? ",
+      "english": "What are the things for which arising, vanishing, and change while persisting will be evident? "
+    },
+    {
+      "number": 14,
+      "pali": "Katamesaṁ dhammānaṁ uppādo paññāyati, vayo paññāyati, ṭhitassa aññathattaṁ paññāyatī’ti? ",
+      "english": "What are the things for which arising, vanishing, and change while persisting are evident?’ "
+    },
+    {
+      "number": 15,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyaṁ: ",
+      "english": "I’d answer like this: "
+    },
+    {
+      "number": 16,
+      "pali": "‘yaṁ kho, āvuso, rūpaṁ atītaṁ niruddhaṁ vipariṇataṁ; ",
+      "english": "‘Whatever form has passed, ceased, and perished, "
+    },
+    {
+      "number": 17,
+      "pali": "tassa uppādo paññāyittha, vayo paññāyittha, ṭhitassa aññathattaṁ paññāyittha. ",
+      "english": "its arising, vanishing, and change while persisting were evident. "
+    },
+    {
+      "number": 18,
+      "pali": "Yā vedanā atītā niruddhā vipariṇatā; ",
+      "english": "Whatever feeling … "
+    },
+    {
+      "number": 19,
+      "pali": "tassā uppādo paññāyittha, vayo paññāyittha, ṭhitāya aññathattaṁ paññāyittha. ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "Yā saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 21,
+      "pali": "ye saṅkhārā atītā niruddhā vipariṇatā; ",
+      "english": "choices … "
+    },
+    {
+      "number": 22,
+      "pali": "tesaṁ uppādo paññāyittha, vayo paññāyittha, ṭhitassa aññathattaṁ paññāyittha. ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "Yaṁ viññāṇaṁ atītaṁ niruddhaṁ vipariṇataṁ; ",
+      "english": "consciousness has passed, ceased, and perished, "
+    },
+    {
+      "number": 24,
+      "pali": "tassa uppādo paññāyittha, vayo paññāyittha, ṭhitassa aññathattaṁ paññāyittha. ",
+      "english": "its arising, vanishing, and change while persisting were evident. "
+    },
+    {
+      "number": 25,
+      "pali": "Imesaṁ kho, āvuso, dhammānaṁ uppādo paññāyittha, vayo paññāyittha, ṭhitassa aññathattaṁ paññāyittha. ",
+      "english": "These the things for which arising, vanishing, and change while persisting were evident. "
+    },
+    {
+      "number": 26,
+      "pali": "Yaṁ kho, āvuso, rūpaṁ ajātaṁ apātubhūtaṁ; ",
+      "english": "Whatever form is not yet born, and has not yet appeared, "
+    },
+    {
+      "number": 27,
+      "pali": "tassa uppādo paññāyissati, vayo paññāyissati, ṭhitassa aññathattaṁ paññāyissati. ",
+      "english": "its arising, vanishing, and change while persisting will be evident. "
+    },
+    {
+      "number": 28,
+      "pali": "Yā vedanā ajātā apātubhūtā; ",
+      "english": "Whatever feeling … "
+    },
+    {
+      "number": 29,
+      "pali": "tassā uppādo paññāyissati, vayo paññāyissati, ṭhitāya aññathattaṁ paññāyissati. ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Yā saññā …pe… ",
+      "english": "perception … "
+    },
+    {
+      "number": 31,
+      "pali": "ye saṅkhārā ajātā apātubhūtā; ",
+      "english": "choices … "
+    },
+    {
+      "number": 32,
+      "pali": "tesaṁ uppādo paññāyissati, vayo paññāyissati, ṭhitassa aññathattaṁ paññāyissati. ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Yaṁ viññāṇaṁ ajātaṁ apātubhūtaṁ; ",
+      "english": "consciousness is not yet born, and has not yet appeared, "
+    },
+    {
+      "number": 34,
+      "pali": "tassa uppādo paññāyissati, vayo paññāyissati, ṭhitassa aññathattaṁ paññāyissati. ",
+      "english": "its arising, vanishing, and change while persisting will be evident. "
+    },
+    {
+      "number": 35,
+      "pali": "Imesaṁ kho, āvuso, dhammānaṁ uppādo paññāyissati, vayo paññāyissati, ṭhitassa aññathattaṁ paññāyissati. ",
+      "english": "These are the things for which arising, vanishing, and change while persisting will be evident. "
+    },
+    {
+      "number": 36,
+      "pali": "Yaṁ kho, āvuso, rūpaṁ jātaṁ pātubhūtaṁ; ",
+      "english": "Whatever form has been born, and has appeared, "
+    },
+    {
+      "number": 37,
+      "pali": "tassa uppādo paññāyati, vayo paññāyati, ṭhitassa aññathattaṁ paññāyati. ",
+      "english": "its arising, vanishing, and change while persisting is evident. "
+    },
+    {
+      "number": 38,
+      "pali": "Yā vedanā jātā pātubhūtā …pe… ",
+      "english": "Whatever feeling … "
+    },
+    {
+      "number": 39,
+      "pali": "yā saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 40,
+      "pali": "ye saṅkhārā jātā pātubhūtā; ",
+      "english": "choices … "
+    },
+    {
+      "number": 41,
+      "pali": "tesaṁ uppādo paññāyati, vayo paññāyati, ṭhitassa aññathattaṁ paññāyati. ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "Yaṁ viññāṇaṁ jātaṁ pātubhūtaṁ tassa uppādo paññāyati, vayo paññāyati, ṭhitassa aññathattaṁ paññāyati. ",
+      "english": "consciousness has been born, and has appeared, its arising, vanishing, and change while persisting are evident. "
+    },
+    {
+      "number": 43,
+      "pali": "Imesaṁ kho, āvuso, dhammānaṁ uppādo paññāyati, vayo paññāyati, ṭhitassa aññathattaṁ paññāyatī’ti. ",
+      "english": "These are the things for which arising is evident, vanishing is evident, and change while persisting is evident.’ "
+    },
+    {
+      "number": 44,
+      "pali": "Evaṁ puṭṭhohaṁ, bhante, evaṁ byākareyyan”ti. ",
+      "english": "That’s how I’d answer such a question.” "
+    },
+    {
+      "number": 45,
+      "pali": "“Sādhu sādhu, ānanda. ",
+      "english": "“Good, good, Ānanda. "
+    },
+    {
+      "number": 46,
+      "pali": "Yaṁ kho, ānanda, rūpaṁ atītaṁ niruddhaṁ vipariṇataṁ; ",
+      "english": "Whatever form has passed, ceased, and perished, "
+    },
+    {
+      "number": 47,
+      "pali": "tassa uppādo paññāyittha, vayo paññāyittha, ṭhitassa aññathattaṁ paññāyittha. ",
+      "english": "its arising, vanishing, and change while persisting were evident. "
+    },
+    {
+      "number": 48,
+      "pali": "Yā vedanā … ",
+      "english": "Whatever feeling … "
+    },
+    {
+      "number": 49,
+      "pali": "yā saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 50,
+      "pali": "ye saṅkhārā … ",
+      "english": "choices … "
+    },
+    {
+      "number": 51,
+      "pali": "yaṁ viññāṇaṁ atītaṁ niruddhaṁ vipariṇataṁ; ",
+      "english": "consciousness has passed, ceased, and perished, "
+    },
+    {
+      "number": 52,
+      "pali": "tassa uppādo paññāyittha, vayo paññāyittha, ṭhitassa aññathattaṁ paññāyittha. ",
+      "english": "its arising, vanishing, and change while persisting were evident. "
+    },
+    {
+      "number": 53,
+      "pali": "Imesaṁ kho, ānanda, dhammānaṁ uppādo paññāyittha, vayo paññāyittha, ṭhitassa aññathattaṁ paññāyittha. ",
+      "english": "These the things for which arising, vanishing, and change while persisting were evident. "
+    },
+    {
+      "number": 54,
+      "pali": "Yaṁ kho, ānanda, rūpaṁ ajātaṁ apātubhūtaṁ; ",
+      "english": "Whatever form is not yet born, and has not yet appeared, "
+    },
+    {
+      "number": 55,
+      "pali": "tassa uppādo paññāyissati, vayo paññāyissati, ṭhitassa aññathattaṁ paññāyissati. ",
+      "english": "its arising, vanishing, and change while persisting will be evident. "
+    },
+    {
+      "number": 56,
+      "pali": "Yā vedanā … ",
+      "english": "Whatever feeling … "
+    },
+    {
+      "number": 57,
+      "pali": "yā saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 58,
+      "pali": "ye saṅkhārā … ",
+      "english": "choices … "
+    },
+    {
+      "number": 59,
+      "pali": "yaṁ viññāṇaṁ ajātaṁ apātubhūtaṁ; ",
+      "english": "consciousness is not yet born, and has not yet appeared, "
+    },
+    {
+      "number": 60,
+      "pali": "tassa uppādo paññāyissati, vayo paññāyissati, ṭhitassa aññathattaṁ paññāyissati. ",
+      "english": "its arising, vanishing, and change while persisting will be evident. "
+    },
+    {
+      "number": 61,
+      "pali": "Imesaṁ kho, ānanda, dhammānaṁ uppādo paññāyissati, vayo paññāyissati, ṭhitassa aññathattaṁ paññāyissati. ",
+      "english": "These are the things for which arising, vanishing, and change while persisting will be evident. "
+    },
+    {
+      "number": 62,
+      "pali": "Yaṁ kho, ānanda, rūpaṁ jātaṁ pātubhūtaṁ; ",
+      "english": "Whatever form has been born, and has appeared, "
+    },
+    {
+      "number": 63,
+      "pali": "tassa uppādo paññāyati, vayo paññāyati, ṭhitassa aññathattaṁ paññāyati. ",
+      "english": "its arising, vanishing, and change while persisting are evident. "
+    },
+    {
+      "number": 64,
+      "pali": "Yā vedanā jātā pātubhūtā … ",
+      "english": "Whatever feeling … "
+    },
+    {
+      "number": 65,
+      "pali": "yā saññā … ",
+      "english": "perception … "
+    },
+    {
+      "number": 66,
+      "pali": "ye saṅkhārā … ",
+      "english": "choices … "
+    },
+    {
+      "number": 67,
+      "pali": "yaṁ viññāṇaṁ jātaṁ pātubhūtaṁ; ",
+      "english": "consciousness has been born, and has appeared, "
+    },
+    {
+      "number": 68,
+      "pali": "tassa uppādo paññāyati, vayo paññāyati, ṭhitassa aññathattaṁ paññāyati. ",
+      "english": "its arising, vanishing, and change while persisting are evident. "
+    },
+    {
+      "number": 69,
+      "pali": "Imesaṁ kho, ānanda, dhammānaṁ uppādo paññāyati, vayo paññāyati, ṭhitassa aññathattaṁ paññāyatīti. ",
+      "english": "These are the things for which arising is evident, vanishing is evident, and change while persisting is evident. "
+    },
+    {
+      "number": 70,
+      "pali": "Evaṁ puṭṭho tvaṁ, ānanda, evaṁ byākareyyāsī”ti. ",
+      "english": "That’s how you should answer such a question.” "
+    },
+    {
+      "number": 71,
+      "pali": "Chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

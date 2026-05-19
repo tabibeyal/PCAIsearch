@@ -1,0 +1,340 @@
+{
+  "sutta_id": "AN6.30",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 6.30 ",
+      "english": "Numbered Discourses 6.30 "
+    },
+    {
+      "number": 2,
+      "pali": "3. Anuttariyavagga ",
+      "english": "3. Unsurpassable "
+    },
+    {
+      "number": 3,
+      "pali": "Anuttariyasutta ",
+      "english": "Unsurpassable "
+    },
+    {
+      "number": 4,
+      "pali": "“Chayimāni, bhikkhave, anuttariyāni. ",
+      "english": "“Mendicants, these six things are unsurpassable. "
+    },
+    {
+      "number": 5,
+      "pali": "Katamāni cha? ",
+      "english": "What six? "
+    },
+    {
+      "number": 6,
+      "pali": "Dassanānuttariyaṁ, savanānuttariyaṁ, lābhānuttariyaṁ, sikkhānuttariyaṁ, pāricariyānuttariyaṁ, anussatānuttariyanti. ",
+      "english": "The unsurpassable seeing, listening, acquisition, training, service, and recollection. "
+    },
+    {
+      "number": 7,
+      "pali": "Katamañca, bhikkhave, dassanānuttariyaṁ? ",
+      "english": "And what is the unsurpassable seeing? "
+    },
+    {
+      "number": 8,
+      "pali": "Idha, bhikkhave, ekacco hatthiratanampi dassanāya gacchati, assaratanampi dassanāya gacchati, maṇiratanampi dassanāya gacchati, uccāvacaṁ vā pana dassanāya gacchati, samaṇaṁ vā brāhmaṇaṁ vā micchādiṭṭhikaṁ micchāpaṭipannaṁ dassanāya gacchati. ",
+      "english": "Some people go to see an elephant-treasure, a horse-treasure, a jewel-treasure, or a diverse spectrum of sights; or ascetics and brahmins of wrong view and wrong practice. "
+    },
+    {
+      "number": 9,
+      "pali": "Atthetaṁ, bhikkhave, dassanaṁ; netaṁ natthīti vadāmi. ",
+      "english": "There is such a seeing, I don’t deny it. "
+    },
+    {
+      "number": 10,
+      "pali": "Tañca kho etaṁ, bhikkhave, dassanaṁ hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, na nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati. ",
+      "english": "That seeing is low, crude, ordinary, ignoble, and pointless. It doesn’t lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. "
+    },
+    {
+      "number": 11,
+      "pali": "Yo ca kho, bhikkhave, tathāgataṁ vā tathāgatasāvakaṁ vā dassanāya gacchati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, dassanānaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgataṁ vā tathāgatasāvakaṁ vā dassanāya gacchati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+      "english": "The unsurpassable seeing is when someone with settled faith and fondness, sure and devoted, goes to see a Realized One or their disciple. This is in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness, to discover the system, and to realize extinguishment. "
+    },
+    {
+      "number": 12,
+      "pali": "Idaṁ vuccati, bhikkhave, dassanānuttariyaṁ. ",
+      "english": "This is called the unsurpassable seeing. "
+    },
+    {
+      "number": 13,
+      "pali": "Iti dassanānuttariyaṁ. ",
+      "english": "Such is the unsurpassable seeing. "
+    },
+    {
+      "number": 14,
+      "pali": "Savanānuttariyañca kathaṁ hoti? ",
+      "english": "But what of the unsurpassable hearing? "
+    },
+    {
+      "number": 15,
+      "pali": "Idha, bhikkhave, ekacco bherisaddampi savanāya gacchati, vīṇāsaddampi savanāya gacchati, gītasaddampi savanāya gacchati, uccāvacaṁ vā pana savanāya gacchati, samaṇassa vā brāhmaṇassa vā micchādiṭṭhikassa micchāpaṭipannassa dhammassavanāya gacchati. ",
+      "english": "Some people go to hear the sound of drums, arched harps, singing, or a diverse spectrum of sounds; or ascetics and brahmins of wrong view and wrong practice. "
+    },
+    {
+      "number": 16,
+      "pali": "Atthetaṁ, bhikkhave, savanaṁ; netaṁ natthīti vadāmi. ",
+      "english": "There is such a hearing, I don’t deny it. "
+    },
+    {
+      "number": 17,
+      "pali": "Tañca kho etaṁ, bhikkhave, savanaṁ hīnaṁ gammaṁ pothujjanikaṁ anariyaṁ anatthasaṁhitaṁ, na nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati. ",
+      "english": "That hearing … doesn’t lead to extinguishment. "
+    },
+    {
+      "number": 18,
+      "pali": "Yo ca kho, bhikkhave, tathāgatassa vā tathāgatasāvakassa vā dhammassavanāya gacchati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, savanānaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgatassa vā tathāgatasāvakassa vā dhammassavanāya gacchati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+      "english": "The unsurpassable hearing is when someone with settled faith and fondness, sure and devoted, goes to hear the teaching of a Realized One or one of his disciples. … "
+    },
+    {
+      "number": 19,
+      "pali": "Idaṁ vuccati, bhikkhave, savanānuttariyaṁ. ",
+      "english": "This is called the unsurpassable hearing. "
+    },
+    {
+      "number": 20,
+      "pali": "Iti dassanānuttariyaṁ, savanānuttariyaṁ. ",
+      "english": "Such is the unsurpassable seeing and hearing. "
+    },
+    {
+      "number": 21,
+      "pali": "Lābhānuttariyañca kathaṁ hoti? ",
+      "english": "But what of the unsurpassable acquisition? "
+    },
+    {
+      "number": 22,
+      "pali": "Idha, bhikkhave, ekacco puttalābhampi labhati, dāralābhampi labhati, dhanalābhampi labhati, uccāvacaṁ vā pana lābhaṁ labhati, samaṇe vā brāhmaṇe vā micchādiṭṭhike micchāpaṭipanne saddhaṁ paṭilabhati. ",
+      "english": "Some people acquire a child, a wife, wealth, or a diverse spectrum of things; or they acquire faith in an ascetic or brahmin of wrong view and wrong practice. "
+    },
+    {
+      "number": 23,
+      "pali": "Attheso, bhikkhave, lābho; neso natthīti vadāmi. ",
+      "english": "There is such an acquisition, I don’t deny it. "
+    },
+    {
+      "number": 24,
+      "pali": "So ca kho eso, bhikkhave, lābho hīno gammo pothujjaniko anariyo anatthasaṁhito, na nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati. ",
+      "english": "That acquisition … doesn’t lead to extinguishment. "
+    },
+    {
+      "number": 25,
+      "pali": "Yo ca kho, bhikkhave, tathāgate vā tathāgatasāvake vā saddhaṁ paṭilabhati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, lābhānaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgate vā tathāgatasāvake vā saddhaṁ paṭilabhati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+      "english": "The unsurpassable acquisition is when someone with settled faith and fondness, sure and devoted, acquires faith in a Realized One or their disciple. … "
+    },
+    {
+      "number": 26,
+      "pali": "Idaṁ vuccati, bhikkhave, lābhānuttariyaṁ. ",
+      "english": "This is called the unsurpassable acquisition. "
+    },
+    {
+      "number": 27,
+      "pali": "Iti dassanānuttariyaṁ, savanānuttariyaṁ, lābhānuttariyaṁ. ",
+      "english": "Such is the unsurpassable seeing, hearing, and acquisition. "
+    },
+    {
+      "number": 28,
+      "pali": "Sikkhānuttariyañca kathaṁ hoti? ",
+      "english": "But what of the unsurpassable training? "
+    },
+    {
+      "number": 29,
+      "pali": "Idha, bhikkhave, ekacco hatthismimpi sikkhati, assasmimpi sikkhati, rathasmimpi sikkhati, dhanusmimpi sikkhati, tharusmimpi sikkhati, uccāvacaṁ vā pana sikkhati, samaṇassa vā brāhmaṇassa vā micchādiṭṭhikassa micchāpaṭipannassa sikkhati. ",
+      "english": "Some people train in elephant riding, horse riding, chariot driving, archery, swordsmanship, or a diverse spectrum of things; or they train under an ascetic or brahmin of wrong view and wrong practice. "
+    },
+    {
+      "number": 30,
+      "pali": "Atthesā, bhikkhave, sikkhā; nesā natthīti vadāmi. ",
+      "english": "There is such a training, I don’t deny it. "
+    },
+    {
+      "number": 31,
+      "pali": "Sā ca kho esā, bhikkhave, sikkhā hīnā gammā pothujjanikā anariyā anatthasaṁhitā, na nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati. ",
+      "english": "That training … doesn’t lead to extinguishment. "
+    },
+    {
+      "number": 32,
+      "pali": "Yo ca kho, bhikkhave, tathāgatappavedite dhammavinaye adhisīlampi sikkhati, adhicittampi sikkhati, adhipaññampi sikkhati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, sikkhānaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgatappavedite dhammavinaye adhisīlampi sikkhati, adhicittampi sikkhati, adhipaññampi sikkhati, niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+      "english": "The unsurpassable training is when someone with settled faith and fondness, sure and devoted, trains in the higher ethics, the higher mind, and the higher wisdom in the teaching and training proclaimed by a Realized One. … "
+    },
+    {
+      "number": 33,
+      "pali": "Idaṁ vuccati, bhikkhave, sikkhānuttariyaṁ. ",
+      "english": "This is called the unsurpassable training. "
+    },
+    {
+      "number": 34,
+      "pali": "Iti dassanānuttariyaṁ, savanānuttariyaṁ, lābhānuttariyaṁ, sikkhānuttariyaṁ. ",
+      "english": "Such is the unsurpassable seeing, hearing, acquisition, and training. "
+    },
+    {
+      "number": 35,
+      "pali": "Pāricariyānuttariyañca kathaṁ hoti? ",
+      "english": "But what of the unsurpassable service? "
+    },
+    {
+      "number": 36,
+      "pali": "Idha, bhikkhave, ekacco khattiyampi paricarati, brāhmaṇampi paricarati, gahapatimpi paricarati, uccāvacaṁ vā pana paricarati, samaṇaṁ vā brāhmaṇaṁ vā micchādiṭṭhikaṁ micchāpaṭipannaṁ paricarati. ",
+      "english": "Some people serve an aristocrat, a brahmin, a householder, or a diverse spectrum of people; or they serve ascetics and brahmins of wrong view and wrong practice. "
+    },
+    {
+      "number": 37,
+      "pali": "Atthesā, bhikkhave, pāricariyā; nesā natthīti vadāmi. ",
+      "english": "There is such service, I don’t deny it. "
+    },
+    {
+      "number": 38,
+      "pali": "Sā ca kho esā, bhikkhave, pāricariyā hīnā gammā pothujjanikā anariyā anatthasaṁhitā, na nibbidāya …pe… na nibbānāya saṁvattati. ",
+      "english": "That service … doesn’t lead to extinguishment. "
+    },
+    {
+      "number": 39,
+      "pali": "Yo ca kho, bhikkhave, tathāgataṁ vā tathāgatasāvakaṁ vā paricarati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, pāricariyānaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgataṁ vā tathāgatasāvakaṁ vā paricarati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+      "english": "The unsurpassable service is when someone with settled faith and fondness, sure and devoted, serves a Realized One or their disciple. … "
+    },
+    {
+      "number": 40,
+      "pali": "Idaṁ vuccati, bhikkhave, pāricariyānuttariyaṁ. ",
+      "english": "This is called the unsurpassable service. "
+    },
+    {
+      "number": 41,
+      "pali": "Iti dassanānuttariyaṁ, savanānuttariyaṁ, lābhānuttariyaṁ, sikkhānuttariyaṁ, pāricariyānuttariyaṁ. ",
+      "english": "Such is the unsurpassable seeing, listening, acquisition, training, and service. "
+    },
+    {
+      "number": 42,
+      "pali": "Anussatānuttariyañca kathaṁ hoti? ",
+      "english": "But what of the unsurpassable recollection? "
+    },
+    {
+      "number": 43,
+      "pali": "Idha, bhikkhave, ekacco puttalābhampi anussarati, dāralābhampi anussarati, dhanalābhampi anussarati, uccāvacaṁ vā pana lābhaṁ anussarati, samaṇaṁ vā brāhmaṇaṁ vā micchādiṭṭhikaṁ micchāpaṭipannaṁ anussarati. ",
+      "english": "Some people recollect a child, a wife, wealth, or a diverse spectrum of things; or they recollect an ascetic or brahmin of wrong view and wrong practice. "
+    },
+    {
+      "number": 44,
+      "pali": "Atthesā, bhikkhave, anussati; nesā natthīti vadāmi. ",
+      "english": "There is such recollection, I don’t deny it. "
+    },
+    {
+      "number": 45,
+      "pali": "Sā ca kho esā, bhikkhave, anussati hīnā gammā pothujjanikā anariyā anatthasaṁhitā, na nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati. ",
+      "english": "That recollection is low, crude, ordinary, ignoble, and pointless. It doesn’t lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. "
+    },
+    {
+      "number": 46,
+      "pali": "Yo ca kho, bhikkhave, tathāgataṁ vā tathāgatasāvakaṁ vā anussarati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno, etadānuttariyaṁ, bhikkhave, anussatīnaṁ sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya, yadidaṁ tathāgataṁ vā tathāgatasāvakaṁ vā anussarati niviṭṭhasaddho niviṭṭhapemo ekantagato abhippasanno. ",
+      "english": "The unsurpassable recollection is when someone with settled faith and fondness, sure and devoted, recollects a Realized One or their disciple. … "
+    },
+    {
+      "number": 47,
+      "pali": "Idaṁ vuccati, bhikkhave, anussatānuttariyaṁ. ",
+      "english": "This is called the unsurpassable recollection. "
+    },
+    {
+      "number": 48,
+      "pali": "Imāni kho, bhikkhave, cha anuttariyānīti. ",
+      "english": "These are the six unsurpassable things. "
+    },
+    {
+      "number": 49,
+      "pali": "Ye dassanānuttaraṁ laddhā, ",
+      "english": "They’ve gained the unsurpassed seeing, "
+    },
+    {
+      "number": 50,
+      "pali": "savanañca anuttaraṁ; ",
+      "english": "the unsurpassed hearing, "
+    },
+    {
+      "number": 51,
+      "pali": "Lābhānuttariyaṁ laddhā, ",
+      "english": "and the unsurpassable acquisition. "
+    },
+    {
+      "number": 52,
+      "pali": "sikkhānuttariye ratā. ",
+      "english": "They enjoy the unsurpassable training "
+    },
+    {
+      "number": 53,
+      "pali": "Upaṭṭhitā pāricariyā, ",
+      "english": "and serve with care. "
+    },
+    {
+      "number": 54,
+      "pali": "bhāvayanti anussatiṁ; ",
+      "english": "Then they develop recollection "
+    },
+    {
+      "number": 55,
+      "pali": "Vivekappaṭisaṁyuttaṁ, ",
+      "english": "connected with seclusion, "
+    },
+    {
+      "number": 56,
+      "pali": "khemaṁ amatagāminiṁ. ",
+      "english": "which is safe, and leads to freedom from death. "
+    },
+    {
+      "number": 57,
+      "pali": "Appamāde pamuditā, ",
+      "english": "They rejoice in diligence, "
+    },
+    {
+      "number": 58,
+      "pali": "nipakā sīlasaṁvutā; ",
+      "english": "alert and ethically restrained. "
+    },
+    {
+      "number": 59,
+      "pali": "Te ve kālena paccenti, ",
+      "english": "And in time they arrive "
+    },
+    {
+      "number": 60,
+      "pali": "yattha dukkhaṁ nirujjhatī”ti. ",
+      "english": "at the place where suffering ceases.” "
+    },
+    {
+      "number": 61,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "Anuttariyavaggo tatiyo. ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "Sāmako aparihāniyo, ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "Bhayaṁ himavānussati; ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "Kaccāno dve ca samayā, ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "Udāyī anuttariyenāti. ",
+      "english": ""
+    }
+  ]
+}

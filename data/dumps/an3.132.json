@@ -1,0 +1,170 @@
+{
+  "sutta_id": "AN3.132",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 3.132 ",
+      "english": "Numbered Discourses 3.132 "
+    },
+    {
+      "number": 2,
+      "pali": "13. Kusināravagga ",
+      "english": "13. Kusinārā "
+    },
+    {
+      "number": 3,
+      "pali": "Lekhasutta ",
+      "english": "Etchings "
+    },
+    {
+      "number": 4,
+      "pali": "“Tayome, bhikkhave, puggalā santo saṁvijjamānā lokasmiṁ. ",
+      "english": "“Mendicants, these three individuals are found in the world. "
+    },
+    {
+      "number": 5,
+      "pali": "Katame tayo? ",
+      "english": "What three? "
+    },
+    {
+      "number": 6,
+      "pali": "Pāsāṇalekhūpamo puggalo, pathavilekhūpamo puggalo, udakalekhūpamo puggalo. ",
+      "english": "An individual like a line drawn in stone, an individual like a line drawn in sand, and an individual like a line drawn in water. "
+    },
+    {
+      "number": 7,
+      "pali": "Katamo ca, bhikkhave, pāsāṇalekhūpamo puggalo? ",
+      "english": "And who is the individual like a line drawn in stone? "
+    },
+    {
+      "number": 8,
+      "pali": "Idha, bhikkhave, ekacco puggalo abhiṇhaṁ kujjhati. ",
+      "english": "It’s an individual who is often angry, "
+    },
+    {
+      "number": 9,
+      "pali": "So ca khvassa kodho dīgharattaṁ anuseti. ",
+      "english": "and their anger lingers for a long time. "
+    },
+    {
+      "number": 10,
+      "pali": "Seyyathāpi, bhikkhave, pāsāṇe lekhā na khippaṁ lujjati vātena vā udakena vā, ciraṭṭhitikā hoti; ",
+      "english": "It’s like a line drawn in stone, which isn’t quickly worn away by wind and water, but lasts for a long time. "
+    },
+    {
+      "number": 11,
+      "pali": "evamevaṁ kho, bhikkhave, idhekacco puggalo abhiṇhaṁ kujjhati. ",
+      "english": "In the same way, an individual is often angry, "
+    },
+    {
+      "number": 12,
+      "pali": "So ca khvassa kodho dīgharattaṁ anuseti. ",
+      "english": "and their anger lingers for a long time. "
+    },
+    {
+      "number": 13,
+      "pali": "Ayaṁ vuccati, bhikkhave, pāsāṇalekhūpamo puggalo. ",
+      "english": "This is called an individual like a line drawn in stone. "
+    },
+    {
+      "number": 14,
+      "pali": "Katamo ca, bhikkhave, pathavilekhūpamo puggalo? ",
+      "english": "And who is the individual like a line drawn in sand? "
+    },
+    {
+      "number": 15,
+      "pali": "Idha, bhikkhave, ekacco puggalo abhiṇhaṁ kujjhati. ",
+      "english": "It’s an individual who is often angry, "
+    },
+    {
+      "number": 16,
+      "pali": "So ca khvassa kodho na dīgharattaṁ anuseti. ",
+      "english": "but their anger doesn’t linger long. "
+    },
+    {
+      "number": 17,
+      "pali": "Seyyathāpi, bhikkhave, pathaviyā lekhā khippaṁ lujjati vātena vā udakena vā, na ciraṭṭhitikā hoti; ",
+      "english": "It’s like a line drawn in sand, which is quickly worn away by wind and water, and doesn’t last long. "
+    },
+    {
+      "number": 18,
+      "pali": "evamevaṁ kho, bhikkhave, idhekacco puggalo abhiṇhaṁ kujjhati. ",
+      "english": "In the same way, an individual is often angry, "
+    },
+    {
+      "number": 19,
+      "pali": "So ca khvassa kodho na dīgharattaṁ anuseti. ",
+      "english": "but their anger doesn’t linger long. "
+    },
+    {
+      "number": 20,
+      "pali": "Ayaṁ vuccati, bhikkhave, pathavilekhūpamo puggalo. ",
+      "english": "This is called an individual like a line drawn in sand. "
+    },
+    {
+      "number": 21,
+      "pali": "Katamo ca, bhikkhave, udakalekhūpamo puggalo? ",
+      "english": "And who is the individual like a line drawn in water? "
+    },
+    {
+      "number": 22,
+      "pali": "Idha, bhikkhave, ekacco puggalo āgāḷhenapi vuccamāno pharusenapi vuccamāno amanāpenapi vuccamāno sandhiyatimeva saṁsandatimeva sammodatimeva. ",
+      "english": "It’s an individual who, though spoken to by someone in a rough, harsh, and disagreeable manner, still stays in touch, interacts with, and greets them. "
+    },
+    {
+      "number": 23,
+      "pali": "Seyyathāpi, bhikkhave, udake lekhā khippaṁyeva paṭivigacchati, na ciraṭṭhitikā hoti; ",
+      "english": "It’s like a line drawn in water, which vanishes right away, and doesn’t last long. "
+    },
+    {
+      "number": 24,
+      "pali": "evamevaṁ kho, bhikkhave, idhekacco puggalo āgāḷhenapi vuccamāno pharusenapi vuccamāno amanāpenapi vuccamāno sandhiyatimeva saṁsandatimeva sammodatimeva. ",
+      "english": "In the same way, an individual, though spoken to by someone in a rough, harsh, and disagreeable manner, still stays in touch, interacts with, and greets them. "
+    },
+    {
+      "number": 25,
+      "pali": "Ayaṁ vuccati, bhikkhave, udakalekhūpamo puggalo. ",
+      "english": "This is called an individual like a line drawn in water. "
+    },
+    {
+      "number": 26,
+      "pali": "Ime kho, bhikkhave, tayo puggalā santo saṁvijjamānā lokasmin”ti. ",
+      "english": "These are the three individuals found in the world.” "
+    },
+    {
+      "number": 27,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "Kusināravaggo tatiyo. ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "Kusinārabhaṇḍanā ceva, ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Gotamabharaṇḍuhatthako; ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "Kaṭuviyaṁ dve anuruddhā, ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "Paṭicchannaṁ lekhena te dasāti. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "sutta_id": "MN58",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 58 ",
+      "english": "Middle Discourses 58 "
+    },
+    {
+      "number": 2,
+      "pali": "Abhayarājakumārasutta ",
+      "english": "With Prince Abhaya "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā rājagahe viharati veḷuvane kalandakanivāpe. ",
+      "english": "At one time the Buddha was staying near Rājagaha, in the Bamboo Grove, the squirrels’ feeding ground. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho abhayo rājakumāro yena nigaṇṭho nāṭaputto tenupasaṅkami; upasaṅkamitvā nigaṇṭhaṁ nāṭaputtaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho abhayaṁ rājakumāraṁ nigaṇṭho nāṭaputto etadavoca: ",
+      "english": "Then Prince Abhaya went up to the Jain ascetic of the Ñātika clan, bowed, and sat down to one side. The Jain Ñātika said to him, "
+    },
+    {
+      "number": 6,
+      "pali": "“ehi tvaṁ, rājakumāra, samaṇassa gotamassa vādaṁ āropehi. ",
+      "english": "“Come, prince, refute the ascetic Gotama’s doctrine. "
+    },
+    {
+      "number": 7,
+      "pali": "Evaṁ te kalyāṇo kittisaddo abbhuggacchissati: ",
+      "english": "Then you will get a good reputation: "
+    },
+    {
+      "number": 8,
+      "pali": "‘abhayena rājakumārena samaṇassa gotamassa evaṁ mahiddhikassa evaṁ mahānubhāvassa vādo āropito’”ti. ",
+      "english": "‘Prince Abhaya refuted the doctrine of the ascetic Gotama, so mighty and powerful!’” "
+    },
+    {
+      "number": 9,
+      "pali": "“Yathā kathaṁ panāhaṁ, bhante, samaṇassa gotamassa evaṁ mahiddhikassa evaṁ mahānubhāvassa vādaṁ āropessāmī”ti? ",
+      "english": "“But sir, how am I to do this?” "
+    },
+    {
+      "number": 10,
+      "pali": "“Ehi tvaṁ, rājakumāra, yena samaṇo gotamo tenupasaṅkama; upasaṅkamitvā samaṇaṁ gotamaṁ evaṁ vadehi: ",
+      "english": "“Here, prince, go to the ascetic Gotama and say to him: "
+    },
+    {
+      "number": 11,
+      "pali": "‘bhāseyya nu kho, bhante, tathāgato taṁ vācaṁ yā sā vācā paresaṁ appiyā amanāpā’ti? ",
+      "english": "‘Sir, may the Realized One utter speech that is disliked by others?’ "
+    },
+    {
+      "number": 12,
+      "pali": "Sace te samaṇo gotamo evaṁ puṭṭho evaṁ byākaroti: ",
+      "english": "When he’s asked this, if he answers: "
+    },
+    {
+      "number": 13,
+      "pali": "‘bhāseyya, rājakumāra, tathāgato taṁ vācaṁ yā sā vācā paresaṁ appiyā amanāpā’ti, tamenaṁ tvaṁ evaṁ vadeyyāsi: ",
+      "english": "‘He may, prince,’ say this to him, "
+    },
+    {
+      "number": 14,
+      "pali": "‘atha kiñcarahi te, bhante, puthujjanena nānākaraṇaṁ? ",
+      "english": "‘So what then, sir, is the difference between you and an ordinary person? "
+    },
+    {
+      "number": 15,
+      "pali": "Puthujjanopi hi taṁ vācaṁ bhāseyya yā sā vācā paresaṁ appiyā amanāpā’ti. ",
+      "english": "For even an ordinary person may utter speech that is disliked by others.’ "
+    },
+    {
+      "number": 16,
+      "pali": "Sace pana te samaṇo gotamo evaṁ puṭṭho evaṁ byākaroti: ",
+      "english": "But if he answers, "
+    },
+    {
+      "number": 17,
+      "pali": "‘na, rājakumāra, tathāgato taṁ vācaṁ bhāseyya yā sā vācā paresaṁ appiyā amanāpā’ti, tamenaṁ tvaṁ evaṁ vadeyyāsi: ",
+      "english": "‘He may not, prince,’ say this to him: "
+    },
+    {
+      "number": 18,
+      "pali": "‘atha kiñcarahi te, bhante, devadatto byākato: ",
+      "english": "‘So why then, sir, did you declare of Devadatta: "
+    },
+    {
+      "number": 19,
+      "pali": "“āpāyiko devadatto, nerayiko devadatto, kappaṭṭho devadatto, atekiccho devadatto”ti? ",
+      "english": "“Devadatta is going to a place of loss, to hell, there to remain for an eon, irredeemable”? "
+    },
+    {
+      "number": 20,
+      "pali": "Tāya ca pana te vācāya devadatto kupito ahosi anattamano’ti. ",
+      "english": "Devadatta was angry and upset with what you said.’ "
+    },
+    {
+      "number": 21,
+      "pali": "Imaṁ kho te, rājakumāra, samaṇo gotamo ubhatokoṭikaṁ pañhaṁ puṭṭho samāno neva sakkhiti uggilituṁ na sakkhiti ogilituṁ. ",
+      "english": "When you put this dilemma to him, the Buddha won’t be able to either spit it out or swallow it down. "
+    },
+    {
+      "number": 22,
+      "pali": "Seyyathāpi nāma purisassa ayosiṅghāṭakaṁ kaṇṭhe vilaggaṁ, so neva sakkuṇeyya uggilituṁ na sakkuṇeyya ogilituṁ; ",
+      "english": "He’ll be like a man with an iron cross stuck in his throat, unable to either spit it out or swallow it down.” "
+    },
+    {
+      "number": 23,
+      "pali": "evameva kho te, rājakumāra, samaṇo gotamo imaṁ ubhatokoṭikaṁ pañhaṁ puṭṭho samāno neva sakkhiti uggilituṁ na sakkhiti ogilitun”ti. ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "“Evaṁ, bhante”ti kho abhayo rājakumāro nigaṇṭhassa nāṭaputtassa paṭissutvā uṭṭhāyāsanā nigaṇṭhaṁ nāṭaputtaṁ abhivādetvā padakkhiṇaṁ katvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "“Yes, sir,” replied Abhaya. He got up from his seat, bowed, and respectfully circled the Jain Ñātika, keeping him on his right. Then he went to the Buddha, bowed, and sat down to one side. "
+    },
+    {
+      "number": 25,
+      "pali": "Ekamantaṁ nisinnassa kho abhayassa rājakumārassa sūriyaṁ ulloketvā etadahosi: ",
+      "english": "Then he looked up at the sun and thought, "
+    },
+    {
+      "number": 26,
+      "pali": "“akālo kho ajja bhagavato vādaṁ āropetuṁ. ",
+      "english": "“It’s too late to refute the Buddha’s doctrine today. "
+    },
+    {
+      "number": 27,
+      "pali": "Sve dānāhaṁ sake nivesane bhagavato vādaṁ āropessāmī”ti bhagavantaṁ etadavoca: ",
+      "english": "I shall refute his doctrine in my own home tomorrow.” He said to the Buddha, "
+    },
+    {
+      "number": 28,
+      "pali": "“adhivāsetu me, bhante, bhagavā svātanāya attacatuttho bhattan”ti. ",
+      "english": "“Sir, would the Buddha, together with three other monks, please accept tomorrow’s meal from me?” "
+    },
+    {
+      "number": 29,
+      "pali": "Adhivāsesi bhagavā tuṇhībhāvena. ",
+      "english": "The Buddha consented with silence. "
+    },
+    {
+      "number": 30,
+      "pali": "Atha kho abhayo rājakumāro bhagavato adhivāsanaṁ viditvā uṭṭhāyāsanā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā pakkāmi. ",
+      "english": "Then, knowing that the Buddha had consented, Abhaya got up from his seat, bowed, and respectfully circled the Buddha, keeping him on his right, before leaving. "
+    },
+    {
+      "number": 31,
+      "pali": "Atha kho bhagavā tassā rattiyā accayena pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya yena abhayassa rājakumārassa nivesanaṁ tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi. ",
+      "english": "Then when the night had passed, the Buddha robed up in the morning and, taking his bowl and robe, went to Abhaya’s home, and sat down on the seat spread out. "
+    },
+    {
+      "number": 32,
+      "pali": "Atha kho abhayo rājakumāro bhagavantaṁ paṇītena khādanīyena bhojanīyena sahatthā santappesi sampavāresi. ",
+      "english": "Then Abhaya served and satisfied the Buddha with his own hands with delicious fresh and cooked foods. "
+    },
+    {
+      "number": 33,
+      "pali": "Atha kho abhayo rājakumāro bhagavantaṁ bhuttāviṁ onītapattapāṇiṁ aññataraṁ nīcaṁ āsanaṁ gahetvā ekamantaṁ nisīdi. ",
+      "english": "When the Buddha had eaten and washed his hand and bowl, Abhaya took a low seat, sat to one side, "
+    },
+    {
+      "number": 34,
+      "pali": "Ekamantaṁ nisinno kho abhayo rājakumāro bhagavantaṁ etadavoca: ",
+      "english": "and said to him, "
+    },
+    {
+      "number": 35,
+      "pali": "“bhāseyya nu kho, bhante, tathāgato taṁ vācaṁ yā sā vācā paresaṁ appiyā amanāpā”ti? ",
+      "english": "“Sir, may the Realized One utter speech that is disliked by others?” "
+    },
+    {
+      "number": 36,
+      "pali": "“Na khvettha, rājakumāra, ekaṁsenā”ti. ",
+      "english": "“This matter is not categorical, prince.” "
+    },
+    {
+      "number": 37,
+      "pali": "“Ettha, bhante, anassuṁ nigaṇṭhā”ti. ",
+      "english": "“Then the Jains have lost in this, sir.” "
+    },
+    {
+      "number": 38,
+      "pali": "“Kiṁ pana tvaṁ, rājakumāra, evaṁ vadesi: ",
+      "english": "“But prince, why do you say that "
+    },
+    {
+      "number": 39,
+      "pali": "‘ettha, bhante, anassuṁ nigaṇṭhā’”ti? ",
+      "english": "the Jains have lost in this?” "
+    },
+    {
+      "number": 40,
+      "pali": "“Idhāhaṁ, bhante, yena nigaṇṭho nāṭaputto tenupasaṅkami; upasaṅkamitvā nigaṇṭhaṁ nāṭaputtaṁ abhivādetvā ekamantaṁ nisīdiṁ. Ekamantaṁ nisinnaṁ kho maṁ, bhante, nigaṇṭho nāṭaputto etadavoca: ",
+      "english": "Then Abhaya told the Buddha all that had happened. "
+    },
+    {
+      "number": 41,
+      "pali": "‘ehi tvaṁ, rājakumāra, samaṇassa gotamassa vādaṁ āropehi. ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "Evaṁ te kalyāṇo kittisaddo abbhuggacchissati—",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "abhayena rājakumārena samaṇassa gotamassa evaṁ mahiddhikassa evaṁ mahānubhāvassa vādo āropito’ti. ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "Evaṁ vutte, ahaṁ, bhante, nigaṇṭhaṁ nāṭaputtaṁ etadavocaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "‘yathā kathaṁ panāhaṁ, bhante, samaṇassa gotamassa evaṁ mahiddhikassa evaṁ mahānubhāvassa vādaṁ āropessāmī’ti? ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "‘Ehi tvaṁ, rājakumāra, yena samaṇo gotamo tenupasaṅkama; upasaṅkamitvā samaṇaṁ gotamaṁ evaṁ vadehi: ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "“bhāseyya nu kho, bhante, tathāgato taṁ vācaṁ yā sā vācā paresaṁ appiyā amanāpā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "Sace te samaṇo gotamo evaṁ puṭṭho evaṁ byākaroti: ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "“bhāseyya, rājakumāra, tathāgato taṁ vācaṁ yā sā vācā paresaṁ appiyā amanāpā”ti, tamenaṁ tvaṁ evaṁ vadeyyāsi: ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "“atha kiñcarahi te, bhante, puthujjanena nānākaraṇaṁ? ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Puthujjanopi hi taṁ vācaṁ bhāseyya yā sā vācā paresaṁ appiyā amanāpā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Sace pana te samaṇo gotamo evaṁ puṭṭho evaṁ byākaroti: ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "“na, rājakumāra, tathāgato taṁ vācaṁ bhāseyya yā sā vācā paresaṁ appiyā amanāpā”ti, tamenaṁ tvaṁ evaṁ vadeyyāsi—",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "atha kiñcarahi te, bhante, devadatto byākato: ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "“āpāyiko devadatto, nerayiko devadatto, kappaṭṭho devadatto, atekiccho devadatto”ti? ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Tāya ca pana te vācāya devadatto kupito ahosi anattamano’ti. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "Imaṁ kho te, rājakumāra, samaṇo gotamo ubhatokoṭikaṁ pañhaṁ puṭṭho samāno neva sakkhiti uggilituṁ na sakkhiti ogilituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 58,
+      "pali": "Seyyathāpi nāma purisassa ayosiṅghāṭakaṁ kaṇṭhe vilaggaṁ, so neva sakkuṇeyya uggilituṁ na sakkuṇeyya ogilituṁ; ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "evameva kho te, rājakumāra, samaṇo gotamo imaṁ ubhatokoṭikaṁ pañhaṁ puṭṭho samāno neva sakkhiti uggilituṁ na sakkhiti ogilitun”ti. ",
+      "english": ""
+    },
+    {
+      "number": 60,
+      "pali": "Tena kho pana samayena daharo kumāro mando uttānaseyyako abhayassa rājakumārassa aṅke nisinno hoti. ",
+      "english": "Now at that time a little baby boy was sitting in Prince Abhaya’s lap. "
+    },
+    {
+      "number": 61,
+      "pali": "Atha kho bhagavā abhayaṁ rājakumāraṁ etadavoca: ",
+      "english": "Then the Buddha said to Abhaya, "
+    },
+    {
+      "number": 62,
+      "pali": "“Taṁ kiṁ maññasi, rājakumāra, ",
+      "english": "“What do you think, prince? "
+    },
+    {
+      "number": 63,
+      "pali": "sacāyaṁ kumāro tuyhaṁ vā pamādamanvāya dhātiyā vā pamādamanvāya kaṭṭhaṁ vā kaṭhalaṁ vā mukhe āhareyya, kinti naṁ kareyyāsī”ti? ",
+      "english": "If—because of your negligence or his nursemaid’s negligence—your boy were to put a stick or stone in his mouth, what would you do to him?” "
+    },
+    {
+      "number": 64,
+      "pali": "“Āhareyyassāhaṁ, bhante. ",
+      "english": "“I’d try to take it out, sir. "
+    },
+    {
+      "number": 65,
+      "pali": "Sace, bhante, na sakkuṇeyyaṁ ādikeneva āhattuṁ, vāmena hatthena sīsaṁ pariggahetvā dakkhiṇena hatthena vaṅkaṅguliṁ karitvā salohitampi āhareyyaṁ. ",
+      "english": "If that didn’t work, I’d cradle his head with my left hand and take it out using a hooked finger of my right hand, even if it drew blood. "
+    },
+    {
+      "number": 66,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 67,
+      "pali": "Atthi me, bhante, kumāre anukampā”ti. ",
+      "english": "Because I have sympathy for the boy, sir.” "
+    },
+    {
+      "number": 68,
+      "pali": "“Evameva kho, rājakumāra, yaṁ tathāgato vācaṁ jānāti abhūtaṁ atacchaṁ anatthasaṁhitaṁ sā ca paresaṁ appiyā amanāpā, na taṁ tathāgato vācaṁ bhāsati. ",
+      "english": "“In the same way, prince, the Realized One does not utter speech that he knows to be untrue, false, and pointless, and which is disliked by others. "
+    },
+    {
+      "number": 69,
+      "pali": "Yampi tathāgato vācaṁ jānāti bhūtaṁ tacchaṁ anatthasaṁhitaṁ sā ca paresaṁ appiyā amanāpā, tampi tathāgato vācaṁ na bhāsati. ",
+      "english": "The Realized One does not utter speech that he knows to be true and correct, but which is harmful and disliked by others. "
+    },
+    {
+      "number": 70,
+      "pali": "Yañca kho tathāgato vācaṁ jānāti bhūtaṁ tacchaṁ atthasaṁhitaṁ sā ca paresaṁ appiyā amanāpā, tatra kālaññū tathāgato hoti tassā vācāya veyyākaraṇāya. ",
+      "english": "The Realized One knows the right time to speak so as to explain what he knows to be true, correct, and beneficial, but which is disliked by others. "
+    },
+    {
+      "number": 71,
+      "pali": "Yaṁ tathāgato vācaṁ jānāti abhūtaṁ atacchaṁ anatthasaṁhitaṁ sā ca paresaṁ piyā manāpā, na taṁ tathāgato vācaṁ bhāsati. ",
+      "english": "The Realized One does not utter speech that he knows to be untrue, false, and pointless, but which is liked by others. "
+    },
+    {
+      "number": 72,
+      "pali": "Yampi tathāgato vācaṁ jānāti bhūtaṁ tacchaṁ anatthasaṁhitaṁ sā ca paresaṁ piyā manāpā tampi tathāgato vācaṁ na bhāsati. ",
+      "english": "The Realized One does not utter speech that he knows to be true and correct, but which is harmful, even if it is liked by others. "
+    },
+    {
+      "number": 73,
+      "pali": "Yañca tathāgato vācaṁ jānāti bhūtaṁ tacchaṁ atthasaṁhitaṁ sā ca paresaṁ piyā manāpā, tatra kālaññū tathāgato hoti tassā vācāya veyyākaraṇāya. ",
+      "english": "The Realized One knows the right time to speak so as to explain what he knows to be true, correct, and beneficial, and which is liked by others. "
+    },
+    {
+      "number": 74,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 75,
+      "pali": "Atthi, rājakumāra, tathāgatassa sattesu anukampā”ti. ",
+      "english": "Because the Realized One has sympathy for sentient beings.” "
+    },
+    {
+      "number": 76,
+      "pali": "“Yeme, bhante, khattiyapaṇḍitāpi brāhmaṇapaṇḍitāpi gahapatipaṇḍitāpi samaṇapaṇḍitāpi pañhaṁ abhisaṅkharitvā tathāgataṁ upasaṅkamitvā pucchanti, ",
+      "english": "“Sir, there are clever aristocrats, brahmins, householders, or ascetics who come to see you with a question already planned. "
+    },
+    {
+      "number": 77,
+      "pali": "pubbeva nu kho, etaṁ, bhante, bhagavato cetaso parivitakkitaṁ hoti ‘ye maṁ upasaṅkamitvā evaṁ pucchissanti tesāhaṁ evaṁ puṭṭho evaṁ byākarissāmī’ti, udāhu ṭhānasovetaṁ tathāgataṁ paṭibhātī”ti? ",
+      "english": "Do you think beforehand that if they ask you like this, you’ll answer like that, or does the answer just strike you on the spot?” "
+    },
+    {
+      "number": 78,
+      "pali": "“Tena hi, rājakumāra, taññevettha paṭipucchissāmi, yathā te khameyya tathā naṁ byākareyyāsi. ",
+      "english": "“Well then, prince, I’ll ask you about this in return, and you can answer as you like. "
+    },
+    {
+      "number": 79,
+      "pali": "Taṁ kiṁ maññasi, rājakumāra, ",
+      "english": "What do you think, prince? "
+    },
+    {
+      "number": 80,
+      "pali": "kusalo tvaṁ rathassa aṅgapaccaṅgānan”ti? ",
+      "english": "Are you skilled in the various parts of a chariot?” "
+    },
+    {
+      "number": 81,
+      "pali": "“Evaṁ, bhante, kusalo ahaṁ rathassa aṅgapaccaṅgānan”ti. ",
+      "english": "“I am, sir.” "
+    },
+    {
+      "number": 82,
+      "pali": "“Taṁ kiṁ maññasi, rājakumāra, ",
+      "english": "“What do you think, prince? "
+    },
+    {
+      "number": 83,
+      "pali": "ye taṁ upasaṅkamitvā evaṁ puccheyyuṁ: ",
+      "english": "When they come to you and ask: "
+    },
+    {
+      "number": 84,
+      "pali": "‘kiṁ nāmidaṁ rathassa aṅgapaccaṅgan’ti? ",
+      "english": "‘What’s the name of this chariot part?’ "
+    },
+    {
+      "number": 85,
+      "pali": "Pubbeva nu kho te etaṁ cetaso parivitakkitaṁ assa ‘ye maṁ upasaṅkamitvā evaṁ pucchissanti tesāhaṁ evaṁ puṭṭho evaṁ byākarissāmī’ti, udāhu ṭhānasovetaṁ paṭibhāseyyā”ti? ",
+      "english": "Do you think beforehand that if they ask you like this, you’ll answer like that, or does the answer appear to you on the spot?” "
+    },
+    {
+      "number": 86,
+      "pali": "“Ahañhi, bhante, rathiko saññāto kusalo rathassa aṅgapaccaṅgānaṁ. ",
+      "english": "“Sir, I’m well-known as a charioteer skilled in a chariot’s parts. "
+    },
+    {
+      "number": 87,
+      "pali": "Sabbāni me rathassa aṅgapaccaṅgāni suviditāni. ",
+      "english": "All the major and minor parts are well-known to me. "
+    },
+    {
+      "number": 88,
+      "pali": "Ṭhānasovetaṁ maṁ paṭibhāseyyā”ti. ",
+      "english": "The answer just appears to me on the spot.” "
+    },
+    {
+      "number": 89,
+      "pali": "“Evameva kho, rājakumāra, ye te khattiyapaṇḍitāpi brāhmaṇapaṇḍitāpi gahapatipaṇḍitāpi samaṇapaṇḍitāpi pañhaṁ abhisaṅkharitvā tathāgataṁ upasaṅkamitvā pucchanti, ṭhānasovetaṁ tathāgataṁ paṭibhāti. ",
+      "english": "“In the same way, when clever aristocrats, brahmins, householders, or ascetics come to see me with a question already planned, the answer just strikes me on the spot. "
+    },
+    {
+      "number": 90,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 91,
+      "pali": "Sā hi, rājakumāra, tathāgatassa dhammadhātu suppaṭividdhā yassā dhammadhātuyā suppaṭividdhattā ṭhānasovetaṁ tathāgataṁ paṭibhātī”ti. ",
+      "english": "Because the Realized One has clearly comprehended the principle of the teachings, so that the answer just strikes him on the spot.” "
+    },
+    {
+      "number": 92,
+      "pali": "Evaṁ vutte, abhayo rājakumāro bhagavantaṁ etadavoca: ",
+      "english": "When he had spoken, Prince Abhaya said to the Buddha, "
+    },
+    {
+      "number": 93,
+      "pali": "“abhikkantaṁ, bhante, abhikkantaṁ, bhante …pe… ",
+      "english": "“Excellent, sir! Excellent! … "
+    },
+    {
+      "number": 94,
+      "pali": "ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
+      "english": "From this day forth, may the Buddha remember me as a lay follower who has gone for refuge for life.” "
+    },
+    {
+      "number": 95,
+      "pali": "Abhayarājakumārasuttaṁ niṭṭhitaṁ aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "sutta_id": "SN35.232",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 35.232 ",
+      "english": "Linked Discourses 35.232 "
+    },
+    {
+      "number": 2,
+      "pali": "18. Samuddavagga ",
+      "english": "18. The Ocean "
+    },
+    {
+      "number": 3,
+      "pali": "Koṭṭhikasutta ",
+      "english": "With Koṭṭhita "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ āyasmā ca sāriputto āyasmā ca mahākoṭṭhiko bārāṇasiyaṁ viharanti isipatane migadāye. ",
+      "english": "At one time Venerable Sāriputta and Venerable Mahākoṭṭhita were staying near Varanasi, in the deer park at Isipatana. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho āyasmā mahākoṭṭhiko sāyanhasamayaṁ paṭisallānā vuṭṭhito yenāyasmā sāriputto tenupasaṅkami; upasaṅkamitvā āyasmatā sāriputtena saddhiṁ sammodi. ",
+      "english": "Then in the late afternoon, Venerable Mahākoṭṭhita came out of retreat, went to Venerable Sāriputta, and exchanged greetings with him. "
+    },
+    {
+      "number": 6,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā mahākoṭṭhiko āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to Sāriputta: "
+    },
+    {
+      "number": 7,
+      "pali": "“Kiṁ nu kho, āvuso sāriputta, cakkhu rūpānaṁ saṁyojanaṁ, rūpā cakkhussa saṁyojanaṁ …pe… ",
+      "english": "“Reverend Sāriputta, which is it? Is the eye the fetter of sights, or are sights the fetter of the eye? "
+    },
+    {
+      "number": 8,
+      "pali": "jivhā rasānaṁ saṁyojanaṁ, rasā jivhāya saṁyojanaṁ …pe… ",
+      "english": "Is the ear … nose … tongue … body … "
+    },
+    {
+      "number": 9,
+      "pali": "mano dhammānaṁ saṁyojanaṁ, dhammā manassa saṁyojanan”ti? ",
+      "english": "mind the fetter of ideas, or are ideas the fetter of the mind?” "
+    },
+    {
+      "number": 10,
+      "pali": "“Na kho, āvuso koṭṭhika, cakkhu rūpānaṁ saṁyojanaṁ, na rūpā cakkhussa saṁyojanaṁ. ",
+      "english": "“Reverend Koṭṭhita, the eye is not the fetter of sights, nor are sights the fetter of the eye. "
+    },
+    {
+      "number": 11,
+      "pali": "Yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo taṁ tattha saṁyojanaṁ …pe… ",
+      "english": "The fetter there is the desire and greed that arises from the pair of them. "
+    },
+    {
+      "number": 12,
+      "pali": "na jivhā rasānaṁ saṁyojanaṁ, na rasā jivhāya saṁyojanaṁ. ",
+      "english": "The ear … nose … tongue … body … "
+    },
+    {
+      "number": 13,
+      "pali": "Yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo taṁ tattha saṁyojanaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "na mano dhammānaṁ saṁyojanaṁ, na dhammā manassa saṁyojanaṁ. ",
+      "english": "mind is not the fetter of ideas, nor are ideas the fetter of the mind. "
+    },
+    {
+      "number": 15,
+      "pali": "Yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo taṁ tattha saṁyojanaṁ. ",
+      "english": "The fetter there is the desire and greed that arises from the pair of them. "
+    },
+    {
+      "number": 16,
+      "pali": "Seyyathāpi, āvuso, kāḷo ca balībaddo odāto ca balībaddo ekena dāmena vā yottena vā saṁyuttā assu. ",
+      "english": "Suppose there was a black ox and a white ox yoked by a single harness or yoke. "
+    },
+    {
+      "number": 17,
+      "pali": "Yo nu kho evaṁ vadeyya: ",
+      "english": "Would it be right to say that "
+    },
+    {
+      "number": 18,
+      "pali": "‘kāḷo balībaddo odātassa balībaddassa saṁyojanaṁ, odāto balībaddo kāḷassa balībaddassa saṁyojanan’ti, sammā nu kho so vadamāno vadeyyā”ti? ",
+      "english": "the black ox is the yoke of the white ox, or the white ox is the yoke of the black ox?” "
+    },
+    {
+      "number": 19,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend. "
+    },
+    {
+      "number": 20,
+      "pali": "“Na kho, āvuso, kāḷo balībaddo odātassa balībaddassa saṁyojanaṁ, na odāto balībaddo kāḷassa balībaddassa saṁyojanaṁ. ",
+      "english": "The black ox is not the yoke of the white ox, nor is the white ox the yoke of the black ox. "
+    },
+    {
+      "number": 21,
+      "pali": "Yena ca kho te ekena dāmena vā yottena vā saṁyuttā taṁ tattha saṁyojanaṁ. ",
+      "english": "The yoke there is the single harness or yoke that they’re yoked by.” "
+    },
+    {
+      "number": 22,
+      "pali": "Evameva kho, āvuso, na cakkhu rūpānaṁ saṁyojanaṁ, na rūpā cakkhussa saṁyojanaṁ. ",
+      "english": "“In the same way, the eye is not the fetter of sights, nor are sights the fetter of the eye. "
+    },
+    {
+      "number": 23,
+      "pali": "Yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo taṁ tattha saṁyojanaṁ …pe… ",
+      "english": "The fetter there is the desire and greed that arises from the pair of them. "
+    },
+    {
+      "number": 24,
+      "pali": "na jivhā rasānaṁ saṁyojanaṁ …pe… ",
+      "english": "The ear … nose … tongue … body … "
+    },
+    {
+      "number": 25,
+      "pali": "na mano dhammānaṁ saṁyojanaṁ, na dhammā manassa saṁyojanaṁ. ",
+      "english": "mind is not the fetter of ideas, nor are ideas the fetter of the mind. "
+    },
+    {
+      "number": 26,
+      "pali": "Yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo, taṁ tattha saṁyojanaṁ. ",
+      "english": "The fetter there is the desire and greed that arises from the pair of them. "
+    },
+    {
+      "number": 27,
+      "pali": "Cakkhu vā, āvuso, rūpānaṁ saṁyojanaṁ abhavissa, rūpā vā cakkhussa saṁyojanaṁ, nayidaṁ brahmacariyavāso paññāyetha sammā dukkhakkhayāya. ",
+      "english": "If the eye were the fetter of sights, or if sights were the fetter of the eye, this living of the spiritual life for the complete ending of suffering would not be found. "
+    },
+    {
+      "number": 28,
+      "pali": "Yasmā ca kho, āvuso, na cakkhu rūpānaṁ saṁyojanaṁ, na rūpā cakkhussa saṁyojanaṁ; ",
+      "english": "However, since this is not the case, but "
+    },
+    {
+      "number": 29,
+      "pali": "yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo, taṁ tattha saṁyojanaṁ, tasmā brahmacariyavāso paññāyati sammā dukkhakkhayāya …pe…. ",
+      "english": "the fetter there is the desire and greed that arises from the pair of them, this living of the spiritual life for the complete ending of suffering is found. "
+    },
+    {
+      "number": 30,
+      "pali": "Jivhā, āvuso, rasānaṁ saṁyojanaṁ abhavissa, rasā vā jivhāya saṁyojanaṁ, nayidaṁ brahmacariyavāso paññāyetha sammā dukkhakkhayāya. ",
+      "english": "If the ear … nose … tongue … body … "
+    },
+    {
+      "number": 31,
+      "pali": "Yasmā ca kho, āvuso, na jivhā rasānaṁ saṁyojanaṁ, na rasā jivhāya saṁyojanaṁ; yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo, taṁ tattha saṁyojanaṁ, tasmā brahmacariyavāso paññāyati sammā dukkhakkhayāya …pe…. ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "Mano vā, āvuso, dhammānaṁ saṁyojanaṁ abhavissa, dhammā vā manassa saṁyojanaṁ, nayidaṁ brahmacariyavāso paññāyetha sammā dukkhakkhayāya. ",
+      "english": "mind were the fetter of ideas, or if ideas were the fetter of the mind, this living of the spiritual life for the complete ending of suffering would not be found. "
+    },
+    {
+      "number": 33,
+      "pali": "Yasmā ca kho, āvuso, na mano dhammānaṁ saṁyojanaṁ, na dhammā manassa saṁyojanaṁ; ",
+      "english": "However, since this is not the case, but "
+    },
+    {
+      "number": 34,
+      "pali": "yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo, taṁ tattha saṁyojanaṁ, tasmā brahmacariyavāso paññāyati sammā dukkhakkhayāya. ",
+      "english": "the fetter there is the desire and greed that arises from the pair of them, this living of the spiritual life for the complete ending of suffering is found. "
+    },
+    {
+      "number": 35,
+      "pali": "Imināpetaṁ, āvuso, pariyāyena veditabbaṁ yathā na cakkhu rūpānaṁ saṁyojanaṁ, na rūpā cakkhussa saṁyojanaṁ. ",
+      "english": "This too is a way to understand how this is so. "
+    },
+    {
+      "number": 36,
+      "pali": "Yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo, taṁ tattha saṁyojanaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 37,
+      "pali": "na jivhā rasānaṁ saṁyojanaṁ …pe… ",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "na mano dhammānaṁ saṁyojanaṁ, na dhammā manassa saṁyojanaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "Yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo, taṁ tattha saṁyojanaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "Saṁvijjati kho, āvuso, bhagavato cakkhu. ",
+      "english": "The Buddha has an eye "
+    },
+    {
+      "number": 41,
+      "pali": "Passati bhagavā cakkhunā rūpaṁ. ",
+      "english": "with which he sees a sight. "
+    },
+    {
+      "number": 42,
+      "pali": "Chandarāgo bhagavato natthi. ",
+      "english": "But he has no desire and greed, "
+    },
+    {
+      "number": 43,
+      "pali": "Suvimuttacitto bhagavā. ",
+      "english": "for his mind is well freed. "
+    },
+    {
+      "number": 44,
+      "pali": "Saṁvijjati kho, āvuso, bhagavato sotaṁ. ",
+      "english": "The Buddha has an ear … "
+    },
+    {
+      "number": 45,
+      "pali": "Suṇāti bhagavā sotena saddaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "Chandarāgo bhagavato natthi. ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "Suvimuttacitto bhagavā. ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "Saṁvijjati kho, āvuso, bhagavato ghānaṁ. ",
+      "english": "nose … "
+    },
+    {
+      "number": 49,
+      "pali": "Ghāyati bhagavā ghānena gandhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Chandarāgo bhagavato natthi. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Suvimuttacitto bhagavā. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Saṁvijjati kho, āvuso, bhagavato jivhā. ",
+      "english": "tongue … "
+    },
+    {
+      "number": 53,
+      "pali": "Sāyati bhagavā jivhāya rasaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Chandarāgo bhagavato natthi. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Suvimuttacitto bhagavā. ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Saṁvijjati kho, āvuso, bhagavato kāyo. ",
+      "english": "The Buddha has a body "
+    },
+    {
+      "number": 57,
+      "pali": "Phusati bhagavā kāyena phoṭṭhabbaṁ. ",
+      "english": "with which he senses touch. "
+    },
+    {
+      "number": 58,
+      "pali": "Chandarāgo bhagavato natthi. ",
+      "english": "But he has no desire and greed, "
+    },
+    {
+      "number": 59,
+      "pali": "Suvimuttacitto bhagavā. ",
+      "english": "for his mind is well freed. "
+    },
+    {
+      "number": 60,
+      "pali": "Saṁvijjati kho, āvuso, bhagavato mano. ",
+      "english": "The Buddha has a mind "
+    },
+    {
+      "number": 61,
+      "pali": "Vijānāti bhagavā manasā dhammaṁ. ",
+      "english": "with which he knows ideas. "
+    },
+    {
+      "number": 62,
+      "pali": "Chandarāgo bhagavato natthi. ",
+      "english": "But he has no desire and greed, "
+    },
+    {
+      "number": 63,
+      "pali": "Suvimuttacitto bhagavā. ",
+      "english": "for his mind is well freed. "
+    },
+    {
+      "number": 64,
+      "pali": "Iminā kho etaṁ, āvuso, pariyāyena veditabbaṁ yathā na cakkhu rūpānaṁ saṁyojanaṁ, na rūpā cakkhussa saṁyojanaṁ; ",
+      "english": "This too is a way to understand how the eye is not the fetter of sights, nor are sights the fetter of the eye. "
+    },
+    {
+      "number": 65,
+      "pali": "yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo, taṁ tattha saṁyojanaṁ. ",
+      "english": "The fetter there is the desire and greed that arises from the pair of them. "
+    },
+    {
+      "number": 66,
+      "pali": "Na sotaṁ … ",
+      "english": "The ear … "
+    },
+    {
+      "number": 67,
+      "pali": "na ghānaṁ … ",
+      "english": "nose … "
+    },
+    {
+      "number": 68,
+      "pali": "na jivhā rasānaṁ saṁyojanaṁ, na rasā jivhāya saṁyojanaṁ; ",
+      "english": "tongue … "
+    },
+    {
+      "number": 69,
+      "pali": "yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo taṁ tattha saṁyojanaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 70,
+      "pali": "Na kāyo … ",
+      "english": "body … "
+    },
+    {
+      "number": 71,
+      "pali": "na mano dhammānaṁ saṁyojanaṁ, na dhammā manassa saṁyojanaṁ; ",
+      "english": "mind is not the fetter of ideas, nor are ideas the fetter of the mind. "
+    },
+    {
+      "number": 72,
+      "pali": "yañca tattha tadubhayaṁ paṭicca uppajjati chandarāgo, taṁ tattha saṁyojanan”ti. ",
+      "english": "The fetter there is the desire and greed that arises from the pair of them.” "
+    },
+    {
+      "number": 73,
+      "pali": "Pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "sutta_id": "AN10.20",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.20 ",
+      "english": "Numbered Discourses 10.20 "
+    },
+    {
+      "number": 2,
+      "pali": "2. Nāthavagga ",
+      "english": "2. A Protector "
+    },
+    {
+      "number": 3,
+      "pali": "Dutiyaariyāvāsasutta ",
+      "english": "Abodes of the Noble Ones (2nd) "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā kurūsu viharati kammāsadhammaṁ nāma kurūnaṁ nigamo. ",
+      "english": "At one time the Buddha was staying in the land of the Kurus, near the Kuru town named Kammāsadamma. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi …pe…. ",
+      "english": "There the Buddha addressed the mendicants: "
+    },
+    {
+      "number": 6,
+      "pali": "“Dasayime, bhikkhave, ariyāvāsā, ye ariyā āvasiṁsu vā āvasanti vā āvasissanti vā. ",
+      "english": "“There are these ten abodes of the noble ones in which the noble ones of the past, present, and future abide. "
+    },
+    {
+      "number": 7,
+      "pali": "Katame dasa? ",
+      "english": "What ten? "
+    },
+    {
+      "number": 8,
+      "pali": "Idha, bhikkhave, bhikkhu pañcaṅgavippahīno hoti, chaḷaṅgasamannāgato, ekārakkho, caturāpasseno, paṇunnapaccekasacco, samavayasaṭṭhesano, anāvilasaṅkappo, passaddhakāyasaṅkhāro, suvimuttacitto, suvimuttapañño. ",
+      "english": "A mendicant has given up five factors, possesses six factors, has a single guard, has four supports, has cast aside idiosyncratic interpretations of the truth, has totally given up searching, has unsullied intentions, has stilled the physical process, and is well freed in mind and well freed by wisdom. "
+    },
+    {
+      "number": 9,
+      "pali": "Kathañca, bhikkhave, bhikkhu pañcaṅgavippahīno hoti? ",
+      "english": "And how has a mendicant given up five factors? "
+    },
+    {
+      "number": 10,
+      "pali": "Idha, bhikkhave, bhikkhuno kāmacchando pahīno hoti, byāpādo pahīno hoti, thinamiddhaṁ pahīnaṁ hoti, uddhaccakukkuccaṁ pahīnaṁ hoti, vicikicchā pahīnā hoti. ",
+      "english": "It’s when a mendicant has given up sensual desire, ill will, dullness and drowsiness, restlessness and remorse, and doubt. "
+    },
+    {
+      "number": 11,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu pañcaṅgavippahīno hoti. ",
+      "english": "That’s how a mendicant has given up five factors. "
+    },
+    {
+      "number": 12,
+      "pali": "Kathañca, bhikkhave, bhikkhu chaḷaṅgasamannāgato hoti? ",
+      "english": "And how does a mendicant possess six factors? "
+    },
+    {
+      "number": 13,
+      "pali": "Idha, bhikkhave, bhikkhu cakkhunā rūpaṁ disvā neva sumano hoti na dummano, upekkhako viharati sato sampajāno. ",
+      "english": "It’s when a mendicant, seeing a sight with their eyes, is neither happy nor sad. They remain equanimous, mindful and aware. "
+    },
+    {
+      "number": 14,
+      "pali": "Sotena saddaṁ sutvā … ",
+      "english": "Hearing a sound with their ears … "
+    },
+    {
+      "number": 15,
+      "pali": "ghānena gandhaṁ ghāyitvā … ",
+      "english": "Smelling an odor with their nose … "
+    },
+    {
+      "number": 16,
+      "pali": "jivhāya rasaṁ sāyitvā … ",
+      "english": "Tasting a flavor with their tongue … "
+    },
+    {
+      "number": 17,
+      "pali": "kāyena phoṭṭhabbaṁ phusitvā … ",
+      "english": "Feeling a touch with their body … "
+    },
+    {
+      "number": 18,
+      "pali": "manasā dhammaṁ viññāya neva sumano hoti na dummano, upekkhako viharati sato sampajāno. ",
+      "english": "Knowing an idea with their mind, they’re neither happy nor sad. They remain equanimous, mindful and aware. "
+    },
+    {
+      "number": 19,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu chaḷaṅgasamannāgato hoti. ",
+      "english": "That’s how a mendicant possesses six factors. "
+    },
+    {
+      "number": 20,
+      "pali": "Kathañca, bhikkhave, bhikkhu ekārakkho hoti? ",
+      "english": "And how does a mendicant have a single guard? "
+    },
+    {
+      "number": 21,
+      "pali": "Idha, bhikkhave, bhikkhu satārakkhena cetasā samannāgato hoti. ",
+      "english": "It’s when a mendicant’s heart is guarded by mindfulness. "
+    },
+    {
+      "number": 22,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu ekārakkho hoti. ",
+      "english": "That’s how a mendicant has a single guard. "
+    },
+    {
+      "number": 23,
+      "pali": "Kathañca, bhikkhave, bhikkhu caturāpasseno hoti? ",
+      "english": "And how does a mendicant have four supports? "
+    },
+    {
+      "number": 24,
+      "pali": "Idha, bhikkhave, bhikkhu saṅkhāyekaṁ paṭisevati, saṅkhāyekaṁ adhivāseti, saṅkhāyekaṁ parivajjeti, saṅkhāyekaṁ vinodeti. ",
+      "english": "After appraisal, a mendicant uses some things, endures some things, avoids some things, and gets rid of some things. "
+    },
+    {
+      "number": 25,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu caturāpasseno hoti. ",
+      "english": "That’s how a mendicant has four supports. "
+    },
+    {
+      "number": 26,
+      "pali": "Kathañca, bhikkhave, bhikkhu paṇunnapaccekasacco hoti? ",
+      "english": "And how has a mendicant cast aside idiosyncratic interpretations of the truth? "
+    },
+    {
+      "number": 27,
+      "pali": "Idha, bhikkhave, bhikkhuno yāni tāni puthusamaṇabrāhmaṇānaṁ puthupaccekasaccāni, seyyathidaṁ: ",
+      "english": "Different ascetics and brahmins have different idiosyncratic interpretations of the truth. For example: "
+    },
+    {
+      "number": 28,
+      "pali": "‘sassato loko’ti vā, ‘asassato loko’ti vā, ‘antavā loko’ti vā, ‘anantavā loko’ti vā, ‘taṁ jīvaṁ taṁ sarīran’ti vā, ‘aññaṁ jīvaṁ aññaṁ sarīran’ti vā, ‘hoti tathāgato paraṁ maraṇā’ti vā, ‘na hoti tathāgato paraṁ maraṇā’ti vā, ‘hoti ca na ca hoti tathāgato paraṁ maraṇā’ti vā, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā, ",
+      "english": "the cosmos is eternal, or not eternal, or finite, or infinite; the soul and the body are one and the same, or the soul is one thing, the body another; after death, a realized one still exists, or no longer exists, or both still exists and no longer exists, or neither still exists nor no longer exists. "
+    },
+    {
+      "number": 29,
+      "pali": "sabbāni tāni nunnāni honti paṇunnāni cattāni vantāni muttāni pahīnāni paṭinissaṭṭhāni. ",
+      "english": "A mendicant has cast out, cast aside, thrown out, discarded, let go of, given up, and relinquished all these. "
+    },
+    {
+      "number": 30,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu paṇunnapaccekasacco hoti. ",
+      "english": "That’s how a mendicant has cast aside idiosyncratic interpretations of the truth. "
+    },
+    {
+      "number": 31,
+      "pali": "Kathañca, bhikkhave, bhikkhu samavayasaṭṭhesano hoti? ",
+      "english": "And how has a mendicant totally given up searching? "
+    },
+    {
+      "number": 32,
+      "pali": "Idha, bhikkhave, bhikkhuno kāmesanā pahīnā hoti, bhavesanā pahīnā hoti, brahmacariyesanā paṭippassaddhā. ",
+      "english": "It’s when they’ve given up searching for sensual pleasures, for continued existence, and for a spiritual life. "
+    },
+    {
+      "number": 33,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu samavayasaṭṭhesano hoti. ",
+      "english": "That’s how a mendicant has totally given up searching. "
+    },
+    {
+      "number": 34,
+      "pali": "Kathañca, bhikkhave, bhikkhu anāvilasaṅkappo hoti? ",
+      "english": "And how does a mendicant have unsullied intentions? "
+    },
+    {
+      "number": 35,
+      "pali": "Idha, bhikkhave, bhikkhuno kāmasaṅkappo pahīno hoti, byāpādasaṅkappo pahīno hoti, vihiṁsāsaṅkappo pahīno hoti. ",
+      "english": "It’s when a mendicant has given up intentions of sensuality, malice, and cruelty. "
+    },
+    {
+      "number": 36,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu anāvilasaṅkappo hoti. ",
+      "english": "That’s how a mendicant has unsullied intentions. "
+    },
+    {
+      "number": 37,
+      "pali": "Kathañca, bhikkhave, bhikkhu passaddhakāyasaṅkhāro hoti? ",
+      "english": "And how has a mendicant stilled the physical process? "
+    },
+    {
+      "number": 38,
+      "pali": "Idha, bhikkhave, bhikkhu sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "It’s when, with the giving up of pleasure and pain and the disappearance of former happiness and sadness, they enter and remain in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. "
+    },
+    {
+      "number": 39,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu passaddhakāyasaṅkhāro hoti. ",
+      "english": "That’s how a mendicant has stilled the physical process. "
+    },
+    {
+      "number": 40,
+      "pali": "Kathañca, bhikkhave, bhikkhu suvimuttacitto hoti? ",
+      "english": "And how is a mendicant well freed in mind? "
+    },
+    {
+      "number": 41,
+      "pali": "Idha, bhikkhave, bhikkhuno rāgā cittaṁ vimuttaṁ hoti, dosā cittaṁ vimuttaṁ hoti, mohā cittaṁ vimuttaṁ hoti. ",
+      "english": "It’s when a mendicant’s mind is freed from greed, hate, and delusion. "
+    },
+    {
+      "number": 42,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu suvimuttacitto hoti. ",
+      "english": "That’s how a mendicant is well freed in mind. "
+    },
+    {
+      "number": 43,
+      "pali": "Kathañca, bhikkhave, bhikkhu suvimuttapañño hoti? ",
+      "english": "And how is a mendicant well freed by wisdom? "
+    },
+    {
+      "number": 44,
+      "pali": "Idha, bhikkhave, bhikkhu ‘rāgo me pahīno ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṁ anuppādadhammo’ti pajānāti, doso me pahīno …pe… ‘moho me pahīno ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṁ anuppādadhammo’ti pajānāti. ",
+      "english": "It’s when a mendicant understands: ‘I’ve given up greed, hate, and delusion, cut them off at the root, made them like a palm stump, obliterated them, so they’re unable to arise in the future.’ "
+    },
+    {
+      "number": 45,
+      "pali": "Evaṁ kho, bhikkhave, bhikkhu suvimuttapañño hoti. ",
+      "english": "That’s how a mendicant’s mind is well freed by wisdom. "
+    },
+    {
+      "number": 46,
+      "pali": "Ye hi keci, bhikkhave, atītamaddhānaṁ ariyā ariyāvāse āvasiṁsu, sabbe te imeva dasa ariyāvāse āvasiṁsu; ",
+      "english": "Mendicants, whether in the past, future, or present, all noble ones abide in these same ten abodes of the noble ones. "
+    },
+    {
+      "number": 47,
+      "pali": "ye hi keci, bhikkhave, anāgatamaddhānaṁ ariyā ariyāvāse āvasissanti, sabbe te imeva dasa ariyāvāse āvasissanti; ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "ye hi keci, bhikkhave, etarahi ariyā ariyāvāse āvasanti, sabbe te imeva dasa ariyāvāse āvasanti. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Ime kho, bhikkhave, dasa ariyāvāsā, ye ariyā āvasiṁsu vā āvasanti vā āvasissanti vā”ti. ",
+      "english": "These are the ten abodes of the noble ones in which the noble ones of the past, present, and future abide.” "
+    },
+    {
+      "number": 50,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Nāthavaggo dutiyo. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Senāsanañca pañcaṅgaṁ, ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "Saṁyojanākhilena ca; ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Appamādo āhuneyyo, ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Dve nāthā dve ariyāvāsāti. ",
+      "english": ""
+    }
+  ]
+}

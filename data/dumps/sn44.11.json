@@ -1,0 +1,270 @@
+{
+  "sutta_id": "SN44.11",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 44.11 ",
+      "english": "Linked Discourses 44.11 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Abyākatavagga ",
+      "english": "1. The Undeclared Points "
+    },
+    {
+      "number": 3,
+      "pali": "Sabhiyakaccānasutta ",
+      "english": "With Sabhiya Kaccāna "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ āyasmā sabhiyo kaccāno ñātike viharati giñjakāvasathe. ",
+      "english": "At one time Venerable Sabhiya Kaccāna was staying at Ñātika in the brick house. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho vacchagotto paribbājako yenāyasmā sabhiyo kaccāno tenupasaṅkami; upasaṅkamitvā āyasmatā sabhiyena kaccānena saddhiṁ sammodi. ",
+      "english": "Then the wanderer Vacchagotta went up to him, and exchanged greetings with him. "
+    },
+    {
+      "number": 6,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho vacchagotto paribbājako āyasmantaṁ sabhiyaṁ kaccānaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side, and said to Sabhiya Kaccāna: "
+    },
+    {
+      "number": 7,
+      "pali": "“kiṁ nu kho bho, kaccāna, hoti tathāgato paraṁ maraṇā”ti? ",
+      "english": "“Worthy Kaccāna, does a realized one still exist after death?” "
+    },
+    {
+      "number": 8,
+      "pali": "“Abyākataṁ kho etaṁ, vaccha, bhagavatā: ",
+      "english": "“Vaccha, this has not been declared by the Buddha.” "
+    },
+    {
+      "number": 9,
+      "pali": "‘hoti tathāgato paraṁ maraṇā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 10,
+      "pali": "“Kiṁ pana, bho kaccāna, na hoti tathāgato paraṁ maraṇā”ti? ",
+      "english": "“Well then, does a realized one no longer exist after death?” "
+    },
+    {
+      "number": 11,
+      "pali": "“Etampi kho, vaccha, abyākataṁ bhagavatā: ",
+      "english": "“This too has not been declared by the Buddha.” "
+    },
+    {
+      "number": 12,
+      "pali": "‘na hoti tathāgato paraṁ maraṇā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "“Kiṁ nu kho, bho kaccāna, hoti ca na ca hoti tathāgato paraṁ maraṇā”ti? ",
+      "english": "“Well then, does a realized one both exist and not exist after death?” "
+    },
+    {
+      "number": 14,
+      "pali": "“Abyākataṁ kho etaṁ, vaccha, bhagavatā: ",
+      "english": "“This has not been declared by the Buddha.” "
+    },
+    {
+      "number": 15,
+      "pali": "‘hoti ca na ca hoti tathāgato paraṁ maraṇā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "“Kiṁ pana, bho kaccāna, neva hoti na na hoti tathāgato paraṁ maraṇā”ti? ",
+      "english": "“Well then, does a realized one neither exist nor not exist after death?” "
+    },
+    {
+      "number": 17,
+      "pali": "“Etampi kho, vaccha, abyākataṁ bhagavatā: ",
+      "english": "“This too has not been declared by the Buddha.” "
+    },
+    {
+      "number": 18,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "“‘Kiṁ nu kho, bho kaccāna, hoti tathāgato paraṁ maraṇā’ti, iti puṭṭho samāno: ",
+      "english": "“Worthy Kaccāna, when asked these questions, you say that this has not been declared by the Buddha. "
+    },
+    {
+      "number": 20,
+      "pali": "‘abyākataṁ kho etaṁ, vaccha, bhagavatā—",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "hoti tathāgato paraṁ maraṇā’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "‘Kiṁ pana, bho kaccāna, na hoti tathāgato paraṁ maraṇā’ti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "‘abyākataṁ kho etaṁ, vaccha, bhagavatā—",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "na hoti tathāgato paraṁ maraṇā’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "‘Kiṁ nu kho, bho kaccāna, hoti ca na ca hoti tathāgato paraṁ maraṇā’ti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "‘abyākataṁ kho etaṁ, vaccha, bhagavatā—",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "hoti ca na ca hoti tathāgato paraṁ maraṇā’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "‘Kiṁ pana, bho kaccāna, neva hoti na na hoti tathāgato paraṁ maraṇā’ti, iti puṭṭho samāno: ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "‘etampi kho, vaccha, abyākataṁ bhagavatā—",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "neva hoti na na hoti tathāgato paraṁ maraṇā’ti vadesi. ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Ko nu kho, bho kaccāna, hetu, ko paccayo, yenetaṁ abyākataṁ samaṇena gotamenā”ti? ",
+      "english": "What’s the cause, what’s the reason why this has not been declared by the Buddha?” "
+    },
+    {
+      "number": 32,
+      "pali": "“Yo ca, vaccha, hetu, yo ca paccayo paññāpanāya rūpīti vā arūpīti vā saññīti vā asaññīti vā nevasaññīnāsaññīti vā, so ca hetu, so ca paccayo sabbena sabbaṁ sabbathā sabbaṁ aparisesaṁ nirujjheyya. ",
+      "english": "“In order to describe him as ‘formed’ or ‘formless’ or ‘percipient’ or ‘non-percipient’ or ‘neither percipient nor non-percipient’, there must be some cause or reason for doing so. But if that cause and reason were to totally and utterly cease without remainder, "
+    },
+    {
+      "number": 33,
+      "pali": "Kena naṁ paññāpayamāno paññāpeyya rūpīti vā arūpīti vā saññīti vā asaññīti vā nevasaññīnāsaññīti vā”ti. ",
+      "english": "how could you describe him in any such terms?” "
+    },
+    {
+      "number": 34,
+      "pali": "“Kīvaciraṁ pabbajitosi, bho kaccānā”ti? ",
+      "english": "“Worthy Kaccāna, how long has it been since you went forth?” "
+    },
+    {
+      "number": 35,
+      "pali": "“Naciraṁ, āvuso, tīṇi vassānī”ti. ",
+      "english": "“Not long, reverend: three years.” "
+    },
+    {
+      "number": 36,
+      "pali": "“Yassapassa, āvuso, etamettakena ettakameva tampassa bahu, ko pana vādo evaṁ abhikkante”ti. ",
+      "english": "“One who has learned this much in this time, reverend, has learned a lot, who can say what lies ahead!” "
+    },
+    {
+      "number": 37,
+      "pali": "Ekādasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "Abyākatavaggo paṭhamo. ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "Khemātherī anurādho, ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "sāriputtoti koṭṭhiko; ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "Moggallāno ca vaccho ca, ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "kutūhalasālānando; ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "Sabhiyo ekādasamanti. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Abyākatasaṁyuttaṁ samattaṁ. ",
+      "english": "The Linked Discourses on undeclared questions are complete. "
+    },
+    {
+      "number": 46,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "Saḷāyatanavedanā, ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "mātugāmo jambukhādako; ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Sāmaṇḍako moggallāno, ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "citto gāmaṇi saṅkhataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Abyākatanti dasadhāti. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Saḷāyatanavaggo catuttho. ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "Saḷāyatanavaggasaṁyuttapāḷi niṭṭhitā. ",
+      "english": "The Book of the Six Sense Fields is finished. "
+    }
+  ]
+}

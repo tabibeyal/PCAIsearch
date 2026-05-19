@@ -1,0 +1,495 @@
+{
+  "sutta_id": "AN6.43",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 6.43 ",
+      "english": "Numbered Discourses 6.43 "
+    },
+    {
+      "number": 2,
+      "pali": "5. Dhammikavagga ",
+      "english": "5. About Dhammika "
+    },
+    {
+      "number": 3,
+      "pali": "Nāgasutta ",
+      "english": "The Giant "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho bhagavā pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya sāvatthiyaṁ piṇḍāya pāvisi. ",
+      "english": "Then the Buddha robed up in the morning and, taking his bowl and robe, entered Sāvatthī for alms. "
+    },
+    {
+      "number": 6,
+      "pali": "Sāvatthiyaṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto āyasmantaṁ ānandaṁ āmantesi: ",
+      "english": "Then, after the meal, on his return from almsround, he addressed Venerable Ānanda, "
+    },
+    {
+      "number": 7,
+      "pali": "“āyāmānanda, yena pubbārāmo migāramātupāsādo tenupasaṅkamissāma divāvihārāyā”ti. ",
+      "english": "“Come, Ānanda, let’s go to the stilt longhouse of Migāra’s mother in the Eastern Monastery for the day’s meditation.” "
+    },
+    {
+      "number": 8,
+      "pali": "“Evaṁ, bhante”ti kho āyasmā ānando bhagavato paccassosi. ",
+      "english": "“Yes, sir,” Ānanda replied. "
+    },
+    {
+      "number": 9,
+      "pali": "Atha kho bhagavā āyasmatā ānandena saddhiṁ yena pubbārāmo migāramātupāsādo tenupasaṅkami. ",
+      "english": "So the Buddha went with Ānanda to the Eastern Monastery. "
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho bhagavā sāyanhasamayaṁ paṭisallānā vuṭṭhito āyasmantaṁ ānandaṁ āmantesi: ",
+      "english": "In the late afternoon the Buddha came out of retreat and addressed Ānanda, "
+    },
+    {
+      "number": 11,
+      "pali": "“āyāmānanda, yena pubbakoṭṭhako tenupasaṅkamissāma gattāni parisiñcitun”ti. ",
+      "english": "“Come, Ānanda, let’s go to the eastern gate to bathe.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Evaṁ, bhante”ti kho āyasmā ānando bhagavato paccassosi. ",
+      "english": "“Yes, sir,” Ānanda replied. "
+    },
+    {
+      "number": 13,
+      "pali": "Atha kho bhagavā āyasmatā ānandena saddhiṁ yena pubbakoṭṭhako tenupasaṅkami gattāni parisiñcituṁ. ",
+      "english": "So the Buddha went with Ānanda to the eastern gate to bathe. "
+    },
+    {
+      "number": 14,
+      "pali": "Pubbakoṭṭhake gattāni parisiñcitvā paccuttaritvā ekacīvaro aṭṭhāsi gattāni pubbāpayamāno. ",
+      "english": "When he had bathed and emerged from the water he stood in one robe drying his limbs. "
+    },
+    {
+      "number": 15,
+      "pali": "Tena kho pana samayena rañño pasenadissa kosalassa seto nāma nāgo mahātūriyatāḷitavāditena pubbakoṭṭhakā paccuttarati. ",
+      "english": "Now, at that time King Pasenadi had a giant bull elephant called “White”. It emerged from the eastern gate to the beating and playing of musical instruments. "
+    },
+    {
+      "number": 16,
+      "pali": "Apissu taṁ jano disvā evamāha: ",
+      "english": "When people saw it they said, "
+    },
+    {
+      "number": 17,
+      "pali": "“abhirūpo vata bho rañño nāgo; dassanīyo vata bho rañño nāgo; pāsādiko vata, bho, rañño nāgo, kāyupapanno vata bho rañño nāgo”ti. ",
+      "english": "“The royal giant is so handsome! The royal giant is so good-looking! The royal giant is so lovely! The royal giant has such a huge body!” "
+    },
+    {
+      "number": 18,
+      "pali": "Evaṁ vutte, āyasmā udāyī bhagavantaṁ etadavoca: ",
+      "english": "When they said this, Venerable Udāyī said to the Buddha, "
+    },
+    {
+      "number": 19,
+      "pali": "“hatthimeva nu kho, bhante, mahantaṁ brahantaṁ kāyupapannaṁ jano disvā evamāha: ",
+      "english": "“Sir, is it only when they see elephants with such a huge, formidable body that people say: "
+    },
+    {
+      "number": 20,
+      "pali": "‘nāgo vata bho nāgo’ti, udāhu aññampi kañci mahantaṁ brahantaṁ kāyupapannaṁ jano disvā evamāha: ‘nāgo vata bho nāgo’”ti? ",
+      "english": "‘A giant, such a giant’? Or do they say it when they see any other creatures with huge, formidable bodies?” "
+    },
+    {
+      "number": 21,
+      "pali": "“Hatthimpi kho, udāyi, mahantaṁ brahantaṁ kāyupapannaṁ jano disvā evamāha: ",
+      "english": "“Udāyī, when they see elephants with such a huge, formidable body people say: "
+    },
+    {
+      "number": 22,
+      "pali": "‘nāgo vata bho nāgo’ti. ",
+      "english": "‘A giant, such a giant!’ "
+    },
+    {
+      "number": 23,
+      "pali": "Assampi kho, udāyi, mahantaṁ brahantaṁ …pe… ",
+      "english": "And also when they see a horse with a huge, formidable body … "
+    },
+    {
+      "number": 24,
+      "pali": "goṇampi kho, udāyi, mahantaṁ brahantaṁ …pe… ",
+      "english": "When they see a bull with a huge, formidable body … "
+    },
+    {
+      "number": 25,
+      "pali": "uragampi kho, udāyi, mahantaṁ brahantaṁ …pe… ",
+      "english": "When they see a serpent with a huge, formidable body … "
+    },
+    {
+      "number": 26,
+      "pali": "rukkhampi kho, udāyi, mahantaṁ brahantaṁ …pe… ",
+      "english": "When they see a tree with a huge, formidable body … "
+    },
+    {
+      "number": 27,
+      "pali": "manussampi kho, udāyi, mahantaṁ brahantaṁ kāyupapannaṁ jano disvā evamāha: ",
+      "english": "And when they see a human being with such a huge, formidable body people say: "
+    },
+    {
+      "number": 28,
+      "pali": "‘nāgo vata, bho, nāgo’ti. ",
+      "english": "‘A giant, such a giant!’ "
+    },
+    {
+      "number": 29,
+      "pali": "Api ca, udāyi, yo sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya āguṁ na karoti kāyena vācāya manasā, tamahaṁ ‘nāgo’ti brūmī”ti. ",
+      "english": "But Udāyī, one who does nothing monstrous by way of body, speech, and mind is who I call a ‘giant’ in this world with its gods, Māras, and Divinities, this population with its ascetics and brahmins, its gods and humans.” "
+    },
+    {
+      "number": 30,
+      "pali": "“Acchariyaṁ, bhante, abbhutaṁ, bhante. ",
+      "english": "“It’s incredible, sir, it’s amazing! "
+    },
+    {
+      "number": 31,
+      "pali": "Yāva subhāsitañcidaṁ, bhante, bhagavatā—",
+      "english": "How well said this was by the Buddha: "
+    },
+    {
+      "number": 32,
+      "pali": "api ca, udāyi, yo sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya āguṁ na karoti kāyena vācāya manasā, tamahaṁ ‘nāgo’ti brūmīti. ",
+      "english": "‘But Udāyī, one who does nothing monstrous by way of body, speech, and mind is who I call a “giant” in this world with its gods, Māras, and Divinities, this population with its ascetics and brahmins, its gods and humans.’ "
+    },
+    {
+      "number": 33,
+      "pali": "Idañca panāhaṁ, bhante, bhagavatā subhāsitaṁ imāhi gāthāhi anumodāmi—",
+      "english": "And I celebrate the well-spoken words of the Buddha with these verses: "
+    },
+    {
+      "number": 34,
+      "pali": "Manussabhūtaṁ sambuddhaṁ, ",
+      "english": "Awakened as a human being, "
+    },
+    {
+      "number": 35,
+      "pali": "attadantaṁ samāhitaṁ; ",
+      "english": "self-tamed and immersed in samādhi, "
+    },
+    {
+      "number": 36,
+      "pali": "Iriyamānaṁ brahmapathe, ",
+      "english": "following the spiritual path, "
+    },
+    {
+      "number": 37,
+      "pali": "cittassūpasame rataṁ. ",
+      "english": "he loves peace of mind. "
+    },
+    {
+      "number": 38,
+      "pali": "Yaṁ manussā namassanti, ",
+      "english": "Revered by people, "
+    },
+    {
+      "number": 39,
+      "pali": "sabbadhammāna pāraguṁ; ",
+      "english": "gone beyond all things, "
+    },
+    {
+      "number": 40,
+      "pali": "Devāpi taṁ namassanti, ",
+      "english": "even the gods revere him; "
+    },
+    {
+      "number": 41,
+      "pali": "iti me arahato sutaṁ. ",
+      "english": "so I’ve heard from the perfected one. "
+    },
+    {
+      "number": 42,
+      "pali": "Sabbasaṁyojanātītaṁ, ",
+      "english": "He has transcended all fetters "
+    },
+    {
+      "number": 43,
+      "pali": "vanā nibbanamāgataṁ; ",
+      "english": "and escaped from entanglements. "
+    },
+    {
+      "number": 44,
+      "pali": "Kāmehi nekkhammarataṁ, ",
+      "english": "Delighting to renounce sensual pleasures, "
+    },
+    {
+      "number": 45,
+      "pali": "muttaṁ selāva kañcanaṁ. ",
+      "english": "he’s freed like lustrous gold from stone. "
+    },
+    {
+      "number": 46,
+      "pali": "Sabbe accarucī nāgo, ",
+      "english": "That giant outshines all, "
+    },
+    {
+      "number": 47,
+      "pali": "himavāññe siluccaye; ",
+      "english": "like the Himalaya beside other mountains. "
+    },
+    {
+      "number": 48,
+      "pali": "Sabbesaṁ nāganāmānaṁ, ",
+      "english": "Of all those named ‘giant’, "
+    },
+    {
+      "number": 49,
+      "pali": "saccanāmo anuttaro. ",
+      "english": "he is truly named, supreme. "
+    },
+    {
+      "number": 50,
+      "pali": "Nāgaṁ vo kittayissāmi, ",
+      "english": "I shall extol the giant for you, "
+    },
+    {
+      "number": 51,
+      "pali": "na hi āguṁ karoti so; ",
+      "english": "for he does nothing monstrous. "
+    },
+    {
+      "number": 52,
+      "pali": "Soraccaṁ avihiṁsā ca, ",
+      "english": "Gentleness and harmlessness "
+    },
+    {
+      "number": 53,
+      "pali": "pādā nāgassa te duve. ",
+      "english": "are two feet of the giant. "
+    },
+    {
+      "number": 54,
+      "pali": "Tapo ca brahmacariyaṁ, ",
+      "english": "Fervor and chastity "
+    },
+    {
+      "number": 55,
+      "pali": "caraṇā nāgassa tyāpare; ",
+      "english": "are his two other feet. "
+    },
+    {
+      "number": 56,
+      "pali": "Saddhāhattho mahānāgo, ",
+      "english": "Faith is the giant’s trunk, "
+    },
+    {
+      "number": 57,
+      "pali": "upekkhāsetadantavā. ",
+      "english": "and equanimity his white tusks. "
+    },
+    {
+      "number": 58,
+      "pali": "Sati gīvā siro paññā, ",
+      "english": "Mindfulness is his neck, his head is wisdom—"
+    },
+    {
+      "number": 59,
+      "pali": "vīmaṁsā dhammacintanā; ",
+      "english": "inquiry and thinking about principles. "
+    },
+    {
+      "number": 60,
+      "pali": "Dhammakucchisamātapo, ",
+      "english": "His belly is the sacred hearth of the Dhamma, "
+    },
+    {
+      "number": 61,
+      "pali": "viveko tassa vāladhi. ",
+      "english": "and his tail is seclusion. "
+    },
+    {
+      "number": 62,
+      "pali": "So jhāyī assāsarato, ",
+      "english": "Practicing absorption, enjoying the breath, "
+    },
+    {
+      "number": 63,
+      "pali": "ajjhattaṁ susamāhito; ",
+      "english": "he is serene within. "
+    },
+    {
+      "number": 64,
+      "pali": "Gacchaṁ samāhito nāgo, ",
+      "english": "The giant is serene when walking, "
+    },
+    {
+      "number": 65,
+      "pali": "ṭhito nāgo samāhito. ",
+      "english": "the giant is serene when standing, "
+    },
+    {
+      "number": 66,
+      "pali": "Seyyaṁ samāhito nāgo, ",
+      "english": "the giant is serene when lying down, "
+    },
+    {
+      "number": 67,
+      "pali": "nisinnopi samāhito; ",
+      "english": "and when sitting, the giant is serene. "
+    },
+    {
+      "number": 68,
+      "pali": "Sabbattha saṁvuto nāgo, ",
+      "english": "The giant is restrained everywhere: "
+    },
+    {
+      "number": 69,
+      "pali": "esā nāgassa sampadā. ",
+      "english": "this is the accomplishment of the giant. "
+    },
+    {
+      "number": 70,
+      "pali": "Bhuñjati anavajjāni, ",
+      "english": "He eats blameless things, "
+    },
+    {
+      "number": 71,
+      "pali": "sāvajjāni na bhuñjati; ",
+      "english": "he doesn’t eat blameworthy things. "
+    },
+    {
+      "number": 72,
+      "pali": "Ghāsamacchādanaṁ laddhā, ",
+      "english": "When he gets food and clothes, "
+    },
+    {
+      "number": 73,
+      "pali": "sannidhiṁ parivajjayaṁ. ",
+      "english": "he avoids storing them up. "
+    },
+    {
+      "number": 74,
+      "pali": "Saṁyojanaṁ aṇuṁ thūlaṁ, ",
+      "english": "Having severed all bonds, "
+    },
+    {
+      "number": 75,
+      "pali": "sabbaṁ chetvāna bandhanaṁ; ",
+      "english": "fetters large and small, "
+    },
+    {
+      "number": 76,
+      "pali": "Yena yeneva gacchati, ",
+      "english": "wherever he goes, "
+    },
+    {
+      "number": 77,
+      "pali": "anapekkhova gacchati. ",
+      "english": "he goes without concern. "
+    },
+    {
+      "number": 78,
+      "pali": "Yathāpi udake jātaṁ, ",
+      "english": "A white lotus, "
+    },
+    {
+      "number": 79,
+      "pali": "puṇḍarīkaṁ pavaḍḍhati; ",
+      "english": "fragrant and delightful, "
+    },
+    {
+      "number": 80,
+      "pali": "Nupalippati toyena, ",
+      "english": "sprouts in water and grows there, "
+    },
+    {
+      "number": 81,
+      "pali": "sucigandhaṁ manoramaṁ. ",
+      "english": "but water does not stick to it. "
+    },
+    {
+      "number": 82,
+      "pali": "Tatheva loke sujāto, ",
+      "english": "Just so the Buddha is born in the world, "
+    },
+    {
+      "number": 83,
+      "pali": "buddho loke viharati; ",
+      "english": "and lives in the world, "
+    },
+    {
+      "number": 84,
+      "pali": "Nupalippati lokena, ",
+      "english": "but the world does not stick to him, "
+    },
+    {
+      "number": 85,
+      "pali": "toyena padumaṁ yathā. ",
+      "english": "as water does not stick to the lotus. "
+    },
+    {
+      "number": 86,
+      "pali": "Mahāginīva jalito, ",
+      "english": "A great blazing fire "
+    },
+    {
+      "number": 87,
+      "pali": "anāhārūpasammati; ",
+      "english": "dies down when the fuel runs out. "
+    },
+    {
+      "number": 88,
+      "pali": "Saṅkhāresūpasantesu, ",
+      "english": "When the coals have gone out "
+    },
+    {
+      "number": 89,
+      "pali": "nibbutoti pavuccati. ",
+      "english": "it’s said to be ‘quenched’. "
+    },
+    {
+      "number": 90,
+      "pali": "Atthassāyaṁ viññāpanī, ",
+      "english": "This simile is taught by the discerning "
+    },
+    {
+      "number": 91,
+      "pali": "upamā viññūhi desitā; ",
+      "english": "to express the meaning clearly. "
+    },
+    {
+      "number": 92,
+      "pali": "Viññassanti mahānāgā, ",
+      "english": "Great giants will understand "
+    },
+    {
+      "number": 93,
+      "pali": "nāgaṁ nāgena desitaṁ. ",
+      "english": "what the giant taught the giant. "
+    },
+    {
+      "number": 94,
+      "pali": "Vītarāgo vītadoso, ",
+      "english": "Free of greed, free of hate, "
+    },
+    {
+      "number": 95,
+      "pali": "Vītamoho anāsavo; ",
+      "english": "free of delusion, undefiled; "
+    },
+    {
+      "number": 96,
+      "pali": "Sarīraṁ vijahaṁ nāgo, ",
+      "english": "the giant, giving up his body, "
+    },
+    {
+      "number": 97,
+      "pali": "Parinibbissati anāsavo”ti. ",
+      "english": "being undefiled, will be fully quenched.” "
+    },
+    {
+      "number": 98,
+      "pali": "Paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

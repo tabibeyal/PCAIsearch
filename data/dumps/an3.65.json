@@ -1,0 +1,545 @@
+{
+  "sutta_id": "AN3.65",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 3.65 ",
+      "english": "Numbered Discourses 3.65 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Mahāvagga ",
+      "english": "7. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Kesamuttisutta ",
+      "english": "With the Kālāmas of Kesamutta "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā kosalesu cārikaṁ caramāno mahatā bhikkhusaṅghena saddhiṁ yena kesamuttaṁ nāma kālāmānaṁ nigamo tadavasari. ",
+      "english": "At one time the Buddha was wandering in the land of the Kosalans together with a large Saṅgha of mendicants when he arrived at a town of the Kālāmas named Kesamutta. "
+    },
+    {
+      "number": 6,
+      "pali": "Assosuṁ kho kesamuttiyā kālāmā: ",
+      "english": "The Kālāmas of Kesamutta heard: "
+    },
+    {
+      "number": 7,
+      "pali": "“samaṇo khalu, bho, gotamo sakyaputto sakyakulā pabbajito kesamuttaṁ anuppatto. ",
+      "english": "“It seems the ascetic Gotama—a Sakyan, gone forth from a Sakyan family—has arrived at Kesamutta. "
+    },
+    {
+      "number": 8,
+      "pali": "Taṁ kho pana bhavantaṁ gotamaṁ evaṁ kalyāṇo kittisaddo abbhuggato: ",
+      "english": "He has this good reputation: "
+    },
+    {
+      "number": 9,
+      "pali": "‘itipi so bhagavā …pe… ",
+      "english": "‘That Blessed One is perfected, a fully awakened Buddha …’ "
+    },
+    {
+      "number": 10,
+      "pali": "sādhu kho pana tathārūpānaṁ arahataṁ dassanaṁ hotī’”ti. ",
+      "english": "It’s good to see such perfected ones.” "
+    },
+    {
+      "number": 11,
+      "pali": "Atha kho kesamuttiyā kālāmā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā appekacce bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu, appekacce bhagavatā saddhiṁ sammodiṁsu, sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdiṁsu, appekacce yena bhagavā tenañjaliṁ paṇāmetvā ekamantaṁ nisīdiṁsu, appekacce nāmagottaṁ sāvetvā ekamantaṁ nisīdiṁsu, appekacce tuṇhībhūtā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te kesamuttiyā kālāmā bhagavantaṁ etadavocuṁ: ",
+      "english": "Then the Kālāmas went up to the Buddha. Before sitting down to one side, some bowed, some exchanged greetings and polite conversation, some held up their cupped palms toward the Buddha, some announced their name and clan, while some kept silent. Seated to one side the Kālāmas said to the Buddha: "
+    },
+    {
+      "number": 12,
+      "pali": "“Santi, bhante, eke samaṇabrāhmaṇā kesamuttaṁ āgacchanti. ",
+      "english": "“There are, sir, some ascetics and brahmins who come to Kesamutta. "
+    },
+    {
+      "number": 13,
+      "pali": "Te sakaṁyeva vādaṁ dīpenti jotenti, parappavādaṁ pana khuṁsenti vambhenti paribhavanti omakkhiṁ karonti. ",
+      "english": "They explain and promote only their own doctrine, while they attack, badmouth, disparage, and smear the doctrines of others. "
+    },
+    {
+      "number": 14,
+      "pali": "Aparepi, bhante, eke samaṇabrāhmaṇā kesamuttaṁ āgacchanti. ",
+      "english": "Then some other ascetics and brahmins come to Kesamutta. "
+    },
+    {
+      "number": 15,
+      "pali": "Tepi sakaṁyeva vādaṁ dīpenti jotenti, parappavādaṁ pana khuṁsenti vambhenti paribhavanti omakkhiṁ karonti. ",
+      "english": "They too explain and promote only their own doctrine, while they attack, badmouth, disparage, and smear the doctrines of others. "
+    },
+    {
+      "number": 16,
+      "pali": "Tesaṁ no, bhante, amhākaṁ hoteva kaṅkhā hoti vicikicchā: ",
+      "english": "So, sir, we’re doubting and uncertain: "
+    },
+    {
+      "number": 17,
+      "pali": "‘ko su nāma imesaṁ bhavataṁ samaṇabrāhmaṇānaṁ saccaṁ āha, ko musā’”ti? ",
+      "english": "‘I wonder who of these respected ascetics and brahmins speaks the truth, and who speaks falsehood?’” "
+    },
+    {
+      "number": 18,
+      "pali": "“Alañhi vo, kālāmā, kaṅkhituṁ alaṁ vicikicchituṁ. ",
+      "english": "“It is enough, Kālāmas, for you to be doubting and uncertain. "
+    },
+    {
+      "number": 19,
+      "pali": "Kaṅkhanīyeva pana vo ṭhāne vicikicchā uppannā. ",
+      "english": "Doubt has come up in you about an uncertain matter. "
+    },
+    {
+      "number": 20,
+      "pali": "Etha tumhe, kālāmā, mā anussavena, mā paramparāya, mā itikirāya, mā piṭakasampadānena, mā takkahetu, mā nayahetu, mā ākāraparivitakkena, mā diṭṭhinijjhānakkhantiyā, mā bhabbarūpatāya, mā samaṇo no garūti. ",
+      "english": "Please, Kālāmas, don’t go by oral transmission, don’t go by lineage, don’t go by testament, don’t go by canonical authority, don’t rely on logic, don’t rely on inference, don’t go by reasoned train of thought, don’t go by the acceptance of a view after deliberation, don’t go by the appearance of competence, and don’t think ‘The ascetic is our respected teacher.’ "
+    },
+    {
+      "number": 21,
+      "pali": "Yadā tumhe, kālāmā, attanāva jāneyyātha: ",
+      "english": "But when you know for yourselves: "
+    },
+    {
+      "number": 22,
+      "pali": "‘ime dhammā akusalā, ime dhammā sāvajjā, ime dhammā viññugarahitā, ime dhammā samattā samādinnā ahitāya dukkhāya saṁvattantī’ti, atha tumhe, kālāmā, pajaheyyātha. ",
+      "english": "‘These things are unskillful, blameworthy, criticized by sensible people, and when you undertake them, they lead to harm and suffering’, then you should give them up. "
+    },
+    {
+      "number": 23,
+      "pali": "Taṁ kiṁ maññatha, kālāmā, ",
+      "english": "What do you think, Kālāmas? "
+    },
+    {
+      "number": 24,
+      "pali": "lobho purisassa ajjhattaṁ uppajjamāno uppajjati hitāya vā ahitāya vā”ti? ",
+      "english": "Does greed come up in a person for their welfare or harm?” "
+    },
+    {
+      "number": 25,
+      "pali": "“Ahitāya, bhante”. ",
+      "english": "“Harm, sir.” "
+    },
+    {
+      "number": 26,
+      "pali": "“Luddho panāyaṁ, kālāmā, purisapuggalo lobhena abhibhūto pariyādinnacitto pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti, yaṁ sa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+      "english": "“A greedy individual, overcome by greed, kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” "
+    },
+    {
+      "number": 27,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 28,
+      "pali": "“Taṁ kiṁ maññatha, kālāmā, ",
+      "english": "“What do you think, Kālāmas? "
+    },
+    {
+      "number": 29,
+      "pali": "doso purisassa ajjhattaṁ uppajjamāno uppajjati hitāya vā ahitāya vā”ti? ",
+      "english": "Does hate come up in a person for their welfare or harm?” "
+    },
+    {
+      "number": 30,
+      "pali": "“Ahitāya, bhante”. ",
+      "english": "“Harm, sir.” "
+    },
+    {
+      "number": 31,
+      "pali": "“Duṭṭho panāyaṁ, kālāmā, purisapuggalo dosena abhibhūto pariyādinnacitto pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti, yaṁ sa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+      "english": "“A hateful individual, overcome by hate, kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” "
+    },
+    {
+      "number": 32,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 33,
+      "pali": "“Taṁ kiṁ maññatha, kālāmā, ",
+      "english": "“What do you think, Kālāmas? "
+    },
+    {
+      "number": 34,
+      "pali": "moho purisassa ajjhattaṁ uppajjamāno uppajjati hitāya vā ahitāya vā”ti? ",
+      "english": "Does delusion come up in a person for their welfare or harm?” "
+    },
+    {
+      "number": 35,
+      "pali": "“Ahitāya, bhante”. ",
+      "english": "“Harm, sir.” "
+    },
+    {
+      "number": 36,
+      "pali": "“Mūḷho panāyaṁ, kālāmā, purisapuggalo mohena abhibhūto pariyādinnacitto pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti, yaṁ sa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+      "english": "“A deluded individual, overcome by delusion, kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” "
+    },
+    {
+      "number": 37,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 38,
+      "pali": "“Taṁ kiṁ maññatha, kālāmā, ime dhammā kusalā vā akusalā vā”ti? ",
+      "english": "“What do you think, Kālāmas, are these things skillful or unskillful?” "
+    },
+    {
+      "number": 39,
+      "pali": "“Akusalā, bhante”. ",
+      "english": "“Unskillful, sir.” "
+    },
+    {
+      "number": 40,
+      "pali": "“Sāvajjā vā anavajjā vā”ti? ",
+      "english": "“Blameworthy or blameless?” "
+    },
+    {
+      "number": 41,
+      "pali": "“Sāvajjā, bhante”. ",
+      "english": "“Blameworthy, sir.” "
+    },
+    {
+      "number": 42,
+      "pali": "“Viññugarahitā vā viññuppasatthā vā”ti? ",
+      "english": "“Criticized or praised by sensible people?” "
+    },
+    {
+      "number": 43,
+      "pali": "“Viññugarahitā, bhante”. ",
+      "english": "“Criticized by sensible people, sir.” "
+    },
+    {
+      "number": 44,
+      "pali": "“Samattā samādinnā ahitāya dukkhāya saṁvattanti, no vā? ",
+      "english": "“When you undertake them, do they lead to harm and suffering, or not? "
+    },
+    {
+      "number": 45,
+      "pali": "Kathaṁ vā ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 46,
+      "pali": "“Samattā, bhante, samādinnā ahitāya dukkhāya saṁvattantīti. ",
+      "english": "“When you undertake them, they lead to harm and suffering. "
+    },
+    {
+      "number": 47,
+      "pali": "Evaṁ no ettha hotī”ti. ",
+      "english": "That’s how we see it.” "
+    },
+    {
+      "number": 48,
+      "pali": "“Iti kho, kālāmā, yaṁ taṁ avocumhā: ",
+      "english": "“So, Kālāmas, when I said: "
+    },
+    {
+      "number": 49,
+      "pali": "‘etha tumhe, kālāmā. ",
+      "english": "‘Please, "
+    },
+    {
+      "number": 50,
+      "pali": "Mā anussavena, mā paramparāya, mā itikirāya, mā piṭakasampadānena, mā takkahetu, mā nayahetu, mā ākāraparivitakkena, mā diṭṭhinijjhānakkhantiyā, mā bhabbarūpatāya, mā samaṇo no garūti. ",
+      "english": "don’t go by oral transmission, don’t go by lineage, don’t go by testament, don’t go by canonical authority, don’t rely on logic, don’t rely on inference, don’t go by reasoned train of thought, don’t go by the acceptance of a view after deliberation, don’t go by the appearance of competence, and don’t think “The ascetic is our respected teacher.” "
+    },
+    {
+      "number": 51,
+      "pali": "Yadā tumhe kālāmā attanāva jāneyyātha: ",
+      "english": "But when you know for yourselves: "
+    },
+    {
+      "number": 52,
+      "pali": "“ime dhammā akusalā, ime dhammā sāvajjā, ime dhammā viññugarahitā, ime dhammā samattā samādinnā ahitāya dukkhāya saṁvattantīti, atha tumhe, kālāmā, pajaheyyāthā”’ti, ",
+      "english": "“These things are unskillful, blameworthy, criticized by sensible people, and when you undertake them, they lead to harm and suffering”, then you should give them up.’ "
+    },
+    {
+      "number": 53,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 54,
+      "pali": "Etha tumhe, kālāmā, mā anussavena, mā paramparāya, mā itikirāya, mā piṭakasampadānena, mā takkahetu, mā nayahetu, mā ākāraparivitakkena, mā diṭṭhinijjhānakkhantiyā, mā bhabbarūpatāya, mā samaṇo no garūti. ",
+      "english": "Please, Kālāmas, don’t go by oral transmission, don’t go by lineage, don’t go by testament, don’t go by canonical authority, don’t rely on logic, don’t rely on inference, don’t go by reasoned train of thought, don’t go by the acceptance of a view after deliberation, don’t go by the appearance of competence, and don’t think ‘The ascetic is our respected teacher.’ "
+    },
+    {
+      "number": 55,
+      "pali": "Yadā tumhe, kālāmā, attanāva jāneyyātha: ",
+      "english": "But when you know for yourselves: "
+    },
+    {
+      "number": 56,
+      "pali": "‘ime dhammā kusalā, ime dhammā anavajjā, ime dhammā viññuppasatthā, ime dhammā samattā samādinnā hitāya sukhāya saṁvattantī’ti, atha tumhe, kālāmā, upasampajja vihareyyātha. ",
+      "english": "‘These things are skillful, blameless, praised by sensible people, and when you undertake them, they lead to welfare and happiness’, then you should acquire them and keep them. "
+    },
+    {
+      "number": 57,
+      "pali": "Taṁ kiṁ maññatha, kālāmā, ",
+      "english": "What do you think, Kālāmas? "
+    },
+    {
+      "number": 58,
+      "pali": "alobho purisassa ajjhattaṁ uppajjamāno uppajjati hitāya vā ahitāya vā”ti? ",
+      "english": "Does contentment come up in a person for their welfare or harm?” "
+    },
+    {
+      "number": 59,
+      "pali": "“Hitāya, bhante”. ",
+      "english": "“Welfare, sir.” "
+    },
+    {
+      "number": 60,
+      "pali": "“Aluddho panāyaṁ, kālāmā, purisapuggalo lobhena anabhibhūto apariyādinnacitto neva pāṇaṁ hanati, na adinnaṁ ādiyati, na paradāraṁ gacchati, na musā bhaṇati, na parampi tathattāya samādapeti, yaṁ sa hoti dīgharattaṁ hitāya sukhāyā”ti. ",
+      "english": "“An individual who is content, not overcome by greed, doesn’t kill living creatures, steal, commit adultery, lie, or encourage others to do the same. Is that for their lasting welfare and happiness?” "
+    },
+    {
+      "number": 61,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 62,
+      "pali": "“Taṁ kiṁ maññatha, kālāmā, ",
+      "english": "“What do you think, Kālāmas? "
+    },
+    {
+      "number": 63,
+      "pali": "adoso purisassa ajjhattaṁ uppajjamāno uppajjati …pe… ",
+      "english": "Does love come up in a person for their welfare or harm? … "
+    },
+    {
+      "number": 64,
+      "pali": "amoho purisassa ajjhattaṁ uppajjamāno uppajjati …pe… ",
+      "english": "Does understanding come up in a person for their welfare or harm? … "
+    },
+    {
+      "number": 65,
+      "pali": "hitāya sukhāyā”ti. ",
+      "english": "Is that for their lasting welfare and happiness?” "
+    },
+    {
+      "number": 66,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 67,
+      "pali": "“Taṁ kiṁ maññatha, kālāmā, ime dhammā kusalā vā akusalā vā”ti? ",
+      "english": "“What do you think, Kālāmas, are these things skillful or unskillful?” "
+    },
+    {
+      "number": 68,
+      "pali": "“Kusalā, bhante”. ",
+      "english": "“Skillful, sir.” "
+    },
+    {
+      "number": 69,
+      "pali": "“Sāvajjā vā anavajjā vā”ti? ",
+      "english": "“Blameworthy or blameless?” "
+    },
+    {
+      "number": 70,
+      "pali": "“Anavajjā, bhante”. ",
+      "english": "“Blameless, sir.” "
+    },
+    {
+      "number": 71,
+      "pali": "“Viññugarahitā vā viññuppasatthā vā”ti? ",
+      "english": "“Criticized or praised by sensible people?” "
+    },
+    {
+      "number": 72,
+      "pali": "“Viññuppasatthā, bhante”. ",
+      "english": "“Praised by sensible people, sir.” "
+    },
+    {
+      "number": 73,
+      "pali": "“Samattā samādinnā hitāya sukhāya saṁvattanti no vā? ",
+      "english": "“When you undertake them, do they lead to welfare and happiness, or not? "
+    },
+    {
+      "number": 74,
+      "pali": "Kathaṁ vā ettha hotī”ti? ",
+      "english": "Or how do you see this?” "
+    },
+    {
+      "number": 75,
+      "pali": "“Samattā, bhante, samādinnā hitāya sukhāya saṁvattanti. ",
+      "english": "“When you undertake them, they lead to welfare and happiness. "
+    },
+    {
+      "number": 76,
+      "pali": "Evaṁ no ettha hotī”ti. ",
+      "english": "That’s how we see it.” "
+    },
+    {
+      "number": 77,
+      "pali": "“Iti kho, kālāmā, yaṁ taṁ avocumhā: ",
+      "english": "“So, Kālāmas, when I said: "
+    },
+    {
+      "number": 78,
+      "pali": "‘etha tumhe, kālāmā. ",
+      "english": "‘Please, "
+    },
+    {
+      "number": 79,
+      "pali": "Mā anussavena, mā paramparāya, mā itikirāya, mā piṭakasampadānena, mā takkahetu, mā nayahetu, mā ākāraparivitakkena, mā diṭṭhinijjhānakkhantiyā, mā bhabbarūpatāya, mā samaṇo no garūti. ",
+      "english": "don’t go by oral transmission, don’t go by lineage, don’t go by testament, don’t go by canonical authority, don’t rely on logic, don’t rely on inference, don’t go by reasoned train of thought, don’t go by the acceptance of a view after deliberation, don’t go by the appearance of competence, and don’t think “The ascetic is our respected teacher.” "
+    },
+    {
+      "number": 80,
+      "pali": "Yadā tumhe, kālāmā, attanāva jāneyyātha—",
+      "english": "But when you know for yourselves: "
+    },
+    {
+      "number": 81,
+      "pali": "ime dhammā kusalā, ime dhammā anavajjā, ime dhammā viññuppasatthā, ime dhammā samattā samādinnā hitāya sukhāya saṁvattantīti, atha tumhe, kālāmā, upasampajja vihareyyāthā’ti, ",
+      "english": "“These things are skillful, blameless, praised by sensible people, and when you undertake them, they lead to welfare and happiness”, then you should acquire them and keep them.’ "
+    },
+    {
+      "number": 82,
+      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 83,
+      "pali": "Sa kho so, kālāmā, ariyasāvako evaṁ vigatābhijjho vigatabyāpādo asammūḷho sampajāno patissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjhena pharitvā viharati. ",
+      "english": "Then that noble disciple is rid of desire, rid of ill will, unconfused, aware, and mindful. They meditate spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 84,
+      "pali": "Karuṇāsahagatena cetasā …pe… ",
+      "english": "They meditate spreading a heart full of compassion to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of compassion to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 85,
+      "pali": "muditāsahagatena cetasā …pe… ",
+      "english": "They meditate spreading a heart full of rejoicing to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of rejoicing to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 86,
+      "pali": "upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjhena pharitvā viharati. ",
+      "english": "They meditate spreading a heart full of equanimity to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of equanimity to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 87,
+      "pali": "Sa kho so, kālāmā, ariyasāvako evaṁ averacitto evaṁ abyāpajjhacitto evaṁ asaṅkiliṭṭhacitto evaṁ visuddhacitto. ",
+      "english": "When that noble disciple has a mind that’s free of enmity and ill will, uncorrupted and purified, "
+    },
+    {
+      "number": 88,
+      "pali": "Tassa diṭṭheva dhamme cattāro assāsā adhigatā honti. ",
+      "english": "they’ve won four consolations in this very life. "
+    },
+    {
+      "number": 89,
+      "pali": "‘Sace kho pana atthi paro loko, atthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, athāhaṁ kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti, ayamassa paṭhamo assāso adhigato hoti. ",
+      "english": "‘If it turns out there is another world, and good and bad deeds have a result, then—when the body breaks up, after death—I’ll be reborn in a good place, a heavenly realm.’ This is the first consolation they’ve won. "
+    },
+    {
+      "number": 90,
+      "pali": "‘Sace kho pana natthi paro loko, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, athāhaṁ diṭṭheva dhamme averaṁ abyāpajjhaṁ anīghaṁ sukhiṁ attānaṁ pariharāmī’ti, ayamassa dutiyo assāso adhigato hoti. ",
+      "english": "‘If it turns out there is no other world, and good and bad deeds don’t have a result, then in this very life I’ll keep myself free of enmity and ill will, untroubled and happy.’ This is the second consolation they’ve won. "
+    },
+    {
+      "number": 91,
+      "pali": "‘Sace kho pana karoto karīyati pāpaṁ, na kho panāhaṁ kassaci pāpaṁ cetemi. ",
+      "english": "‘If it turns out that bad things happen to people who do bad things, then since I have no bad intentions, "
+    },
+    {
+      "number": 92,
+      "pali": "Akarontaṁ kho pana maṁ pāpakammaṁ kuto dukkhaṁ phusissatī’ti, ayamassa tatiyo assāso adhigato hoti. ",
+      "english": "and since I’m not doing anything bad, how can suffering touch me?’ This is the third consolation they’ve won. "
+    },
+    {
+      "number": 93,
+      "pali": "‘Sace kho pana karoto na karīyati pāpaṁ, athāhaṁ ubhayeneva visuddhaṁ attānaṁ samanupassāmī’ti, ayamassa catuttho assāso adhigato hoti. ",
+      "english": "‘If it turns out that bad things don’t happen to people who do bad things, then I still see myself pure on both sides.’ This is the fourth consolation they’ve won. "
+    },
+    {
+      "number": 94,
+      "pali": "Sa kho so, kālāmā, ariyasāvako evaṁ averacitto evaṁ abyāpajjhacitto evaṁ asaṅkiliṭṭhacitto evaṁ visuddhacitto. ",
+      "english": "When that noble disciple has a mind that’s free of enmity and ill will, undefiled and purified, "
+    },
+    {
+      "number": 95,
+      "pali": "Tassa diṭṭheva dhamme ime cattāro assāsā adhigatā hontī”ti. ",
+      "english": "they’ve won these four consolations in this very life.” "
+    },
+    {
+      "number": 96,
+      "pali": "“Evametaṁ, bhagavā, evametaṁ, sugata. ",
+      "english": "“That’s so true, Blessed One! That’s so true, Holy One! "
+    },
+    {
+      "number": 97,
+      "pali": "Sa kho so, bhante, ariyasāvako evaṁ averacitto evaṁ abyāpajjhacitto evaṁ asaṅkiliṭṭhacitto evaṁ visuddhacitto. ",
+      "english": "When that noble disciple has a mind that’s free of enmity and ill will, undefiled and purified, "
+    },
+    {
+      "number": 98,
+      "pali": "Tassa diṭṭheva dhamme cattāro assāsā adhigatā honti. ",
+      "english": "they’ve won these four consolations in this very life. … "
+    },
+    {
+      "number": 99,
+      "pali": "‘Sace kho pana atthi paro loko, atthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, athāhaṁ kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti, ayamassa paṭhamo assāso adhigato hoti. ",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "‘Sace kho pana natthi paro loko, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, athāhaṁ diṭṭheva dhamme averaṁ abyāpajjhaṁ anīghaṁ sukhiṁ attānaṁ pariharāmī’ti, ayamassa dutiyo assāso adhigato hoti. ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "‘Sace kho pana karoto karīyati pāpaṁ, na kho panāhaṁ kassaci pāpaṁ cetemi, akarontaṁ kho pana maṁ pāpakammaṁ kuto dukkhaṁ phusissatī’ti, ayamassa tatiyo assāso adhigato hoti. ",
+      "english": ""
+    },
+    {
+      "number": 102,
+      "pali": "‘Sace kho pana karoto na karīyati pāpaṁ, athāhaṁ ubhayeneva visuddhaṁ attānaṁ samanupassāmī’ti, ayamassa catuttho assāso adhigato hoti. ",
+      "english": ""
+    },
+    {
+      "number": 103,
+      "pali": "Sa kho so, bhante, ariyasāvako evaṁ averacitto evaṁ abyāpajjhacitto evaṁ asaṅkiliṭṭhacitto evaṁ visuddhacitto. ",
+      "english": ""
+    },
+    {
+      "number": 104,
+      "pali": "Tassa diṭṭheva dhamme ime cattāro assāsā adhigatā honti. ",
+      "english": ""
+    },
+    {
+      "number": 105,
+      "pali": "Abhikkantaṁ, bhante …pe… ",
+      "english": "Excellent, sir! Excellent! … "
+    },
+    {
+      "number": 106,
+      "pali": "ete mayaṁ, bhante, bhagavantaṁ saraṇaṁ gacchāma dhammañca bhikkhusaṅghañca. ",
+      "english": "We go for refuge to the Buddha, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 107,
+      "pali": "Upāsake no, bhante, bhagavā dhāretu ajjatagge pāṇupete saraṇaṁ gate”ti. ",
+      "english": "From this day forth, may the Buddha remember us as lay followers who have gone for refuge for life.” "
+    },
+    {
+      "number": 108,
+      "pali": "Pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

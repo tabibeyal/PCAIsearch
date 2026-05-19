@@ -1,0 +1,810 @@
+{
+  "sutta_id": "MN102",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 102 ",
+      "english": "Middle Discourses 102 "
+    },
+    {
+      "number": 2,
+      "pali": "Pañcattayasutta ",
+      "english": "The Five and Three "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“santi, bhikkhave, eke samaṇabrāhmaṇā aparantakappikā aparantānudiṭṭhino aparantaṁ ārabbha anekavihitāni adhivuttipadāni abhivadanti. ",
+      "english": "“Mendicants, there are some ascetics and brahmins who speculate and theorize about the final end, and assert various hypotheses concerning the final end. "
+    },
+    {
+      "number": 10,
+      "pali": "‘Saññī attā hoti arogo paraṁ maraṇā’ti—",
+      "english": "Some propose this: ‘The self is percipient and healthy after death.’ "
+    },
+    {
+      "number": 11,
+      "pali": "ittheke abhivadanti; ",
+      "english": ""
+    },
+    {
+      "number": 12,
+      "pali": "‘asaññī attā hoti arogo paraṁ maraṇā’ti—",
+      "english": "Some propose this: ‘The self is non-percipient and healthy after death.’ "
+    },
+    {
+      "number": 13,
+      "pali": "ittheke abhivadanti; ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "‘nevasaññīnāsaññī attā hoti arogo paraṁ maraṇā’ti—",
+      "english": "Some propose this: ‘The self is neither percipient nor non-percipient and healthy after death.’ "
+    },
+    {
+      "number": 15,
+      "pali": "ittheke abhivadanti; ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "sato vā pana sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti, diṭṭhadhammanibbānaṁ vā paneke abhivadanti. ",
+      "english": "But some assert the annihilation, eradication, and nonexistence of an existing being, while others propose extinguishment in this life. "
+    },
+    {
+      "number": 17,
+      "pali": "Iti santaṁ vā attānaṁ paññapenti arogaṁ paraṁ maraṇā, sato vā pana sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti, diṭṭhadhammanibbānaṁ vā paneke abhivadanti. ",
+      "english": "Thus they assert an existent self that is free of disease after death; or they assert the annihilation of an existing being; while some propose extinguishment in this life. "
+    },
+    {
+      "number": 18,
+      "pali": "Iti imāni pañca hutvā tīṇi honti, tīṇi hutvā pañca honti—",
+      "english": "In this way five become three, and three become five. "
+    },
+    {
+      "number": 19,
+      "pali": "ayamuddeso pañcattayassa. ",
+      "english": "This is the summary recital of the five and three. "
+    },
+    {
+      "number": 20,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, arūpiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiñca arūpiñca vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, nevarūpiṁ nārūpiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, ekattasaññiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, nānattasaññiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, parittasaññiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, appamāṇasaññiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, etaṁ vā panekesaṁ upātivattataṁ viññāṇakasiṇameke abhivadanti appamāṇaṁ āneñjaṁ. ",
+      "english": "Now, the ascetics and brahmins who assert a self that is percipient and healthy after death describe it as formed, or formless, or both formed and formless, or neither formed nor formless. Or they describe it as of unified perception, or of diverse perception, or of limited perception, or of limitless perception. Or some among those who go beyond this propose universal consciousness, limitless and imperturbable. "
+    },
+    {
+      "number": 21,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato abhijānāti. ",
+      "english": "The Realized One understands this as follows. "
+    },
+    {
+      "number": 22,
+      "pali": "Ye kho te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, arūpiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiñca arūpiñca vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, nevarūpiṁ nārūpiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, ekattasaññiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, nānattasaññiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, parittasaññiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, appamāṇasaññiṁ vā te bhonto samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, yā vā panetāsaṁ saññānaṁ parisuddhā paramā aggā anuttariyā akkhāyati—",
+      "english": "There are ascetics and brahmins who assert a self that is percipient and healthy after death, describing it as formed, or formless, or both formed and formless, or neither formed nor formless. Or they describe it as of unified perception, or of diverse perception, or of limited perception, or of limitless perception. "
+    },
+    {
+      "number": 23,
+      "pali": "yadi rūpasaññānaṁ yadi arūpasaññānaṁ yadi ekattasaññānaṁ yadi nānattasaññānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "‘Natthi kiñcī’ti ākiñcaññāyatanameke abhivadanti appamāṇaṁ āneñjaṁ. ",
+      "english": "Or some, aware that ‘there is nothing at all’, propose the dimension of nothingness, limitless and imperturbable. They declare that this is the purest, highest, best, and supreme of all those perceptions, whether of form or of formlessness or of unity or of diversity. "
+    },
+    {
+      "number": 25,
+      "pali": "‘Tayidaṁ saṅkhataṁ oḷārikaṁ atthi kho pana saṅkhārānaṁ nirodho atthetan’ti—",
+      "english": "‘That much is conditioned and crude. But there is the cessation of conditions—<em>that</em> is real.’ "
+    },
+    {
+      "number": 26,
+      "pali": "iti viditvā tassa nissaraṇadassāvī tathāgato tadupātivatto. ",
+      "english": "Understanding this and seeing the escape from it, the Realized One has gone beyond all that. "
+    },
+    {
+      "number": 27,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiṁ vā te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, arūpiṁ vā te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiñca arūpiñca vā te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, nevarūpiṁ nārūpiṁ vā te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā. ",
+      "english": "Now, the ascetics and brahmins who assert a self that is non-percipient and healthy after death describe it as formed, or formless, or both formed and formless, or neither formed nor formless. "
+    },
+    {
+      "number": 28,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā tesamete paṭikkosanti. ",
+      "english": "So they reject those who assert a self that is percipient and healthy after death. "
+    },
+    {
+      "number": 29,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 30,
+      "pali": "Saññā rogo saññā gaṇḍo saññā sallaṁ, etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ: ‘asaññan’ti. ",
+      "english": "Because they believe that perception is a disease, a boil, a dart, and that the state of non-perception is peaceful and sublime. "
+    },
+    {
+      "number": 31,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato abhijānāti ",
+      "english": "The Realized One understands this as follows. "
+    },
+    {
+      "number": 32,
+      "pali": "ye kho te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiṁ vā te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, arūpiṁ vā te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiñca arūpiñca vā te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, nevarūpiṁ nārūpiṁ vā te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā. ",
+      "english": "There are ascetics and brahmins who assert a self that is non-percipient and healthy after death, describing it as formed, or formless, or both formed and formless, or neither formed nor formless. "
+    },
+    {
+      "number": 33,
+      "pali": "Yo hi koci, bhikkhave, samaṇo vā brāhmaṇo vā evaṁ vadeyya: ",
+      "english": "But if any ascetic or brahmin should say this: "
+    },
+    {
+      "number": 34,
+      "pali": "‘ahamaññatra rūpā, aññatra vedanāya, aññatra saññāya, aññatra saṅkhārehi, viññāṇassa āgatiṁ vā gatiṁ vā cutiṁ vā upapattiṁ vā vuddhiṁ vā virūḷhiṁ vā vepullaṁ vā paññapessāmī’ti—",
+      "english": "‘Apart from form, feeling, perception, and choices, I will describe the coming and going of consciousness, its passing away and reappearing, its growth, increase, and maturity.’ "
+    },
+    {
+      "number": 35,
+      "pali": "netaṁ ṭhānaṁ vijjati. ",
+      "english": "That is not possible. "
+    },
+    {
+      "number": 36,
+      "pali": "‘Tayidaṁ saṅkhataṁ oḷārikaṁ atthi kho pana saṅkhārānaṁ nirodho atthetan’ti—",
+      "english": "‘All that is conditioned and crude. But there is the cessation of conditions—<em>that</em> is real.’ "
+    },
+    {
+      "number": 37,
+      "pali": "iti viditvā tassa nissaraṇadassāvī tathāgato tadupātivatto. ",
+      "english": "Understanding this and seeing the escape from it, the Realized One has gone beyond all that. "
+    },
+    {
+      "number": 38,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiṁ vā te bhonto samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, arūpiṁ vā te bhonto samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiñca arūpiñca vā te bhonto samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, nevarūpiṁ nārūpiṁ vā te bhonto samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā. ",
+      "english": "Now, the ascetics and brahmins who assert a self that is neither percipient nor non-percipient and healthy after death describe it as formed, or formless, or both formed and formless, or neither formed nor formless. "
+    },
+    {
+      "number": 39,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā tesamete paṭikkosanti, yepi te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā tesamete paṭikkosanti. ",
+      "english": "So they reject those who assert a self that is percipient and healthy after death, as well as those who assert a self that is non-percipient and healthy after death. "
+    },
+    {
+      "number": 40,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 41,
+      "pali": "Saññā rogo saññā gaṇḍo saññā sallaṁ, asaññā sammoho, etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ: ",
+      "english": "Because they believe that perception is a disease, a boil, a dart; that non-perception is a stupor; and that the state of neither perception nor non-perception is peaceful and sublime. "
+    },
+    {
+      "number": 42,
+      "pali": "‘nevasaññānāsaññan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato abhijānāti. ",
+      "english": "The Realized One understands this as follows. "
+    },
+    {
+      "number": 44,
+      "pali": "Ye kho te bhonto samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiṁ vā te bhonto samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, arūpiṁ vā te bhonto samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, rūpiñca arūpiñca vā te bhonto samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā, nevarūpiṁ nārūpiṁ vā te bhonto samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā. ",
+      "english": "There are ascetics and brahmins who assert a self that is neither percipient nor non-percipient and healthy after death, describing it as formed, or formless, or both formed and formless, or neither formed nor formless. "
+    },
+    {
+      "number": 45,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā diṭṭhasutamutaviññātabbasaṅkhāramattena etassa āyatanassa upasampadaṁ paññapenti, byasanañhetaṁ, bhikkhave, akkhāyati etassa āyatanassa upasampadāya. ",
+      "english": "Some ascetics or brahmins assert the embracing of that dimension merely through the conditioned phenomena of what ought be seen, heard, thought, and known. But that is said to be a disastrous approach. "
+    },
+    {
+      "number": 46,
+      "pali": "Na hetaṁ, bhikkhave, āyatanaṁ saṅkhārasamāpattipattabbamakkhāyati; ",
+      "english": "For that dimension is said to be not attainable by means of conditioned phenomena, "
+    },
+    {
+      "number": 47,
+      "pali": "saṅkhārāvasesasamāpattipattabbametaṁ, bhikkhave, āyatanamakkhāyati. ",
+      "english": "but only with a residue of conditioned phenomena. "
+    },
+    {
+      "number": 48,
+      "pali": "‘Tayidaṁ saṅkhataṁ oḷārikaṁ atthi kho pana saṅkhārānaṁ nirodho atthetan’ti—",
+      "english": "‘All that is conditioned and crude. But there is the cessation of conditions—<em>that</em> is real.’ "
+    },
+    {
+      "number": 49,
+      "pali": "iti viditvā tassa nissaraṇadassāvī tathāgato tadupātivatto. ",
+      "english": "Understanding this and seeing the escape from it, the Realized One has gone beyond all that. "
+    },
+    {
+      "number": 50,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti, tatra, bhikkhave, ye te samaṇabrāhmaṇā saññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā tesamete paṭikkosanti, yepi te bhonto samaṇabrāhmaṇā asaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā tesamete paṭikkosanti, yepi te bhonto samaṇabrāhmaṇā nevasaññīnāsaññiṁ attānaṁ paññapenti arogaṁ paraṁ maraṇā tesamete paṭikkosanti. ",
+      "english": "Now, the ascetics and brahmins who assert the annihilation, eradication, and nonexistence of an existing being reject those who assert a self that is free of disease after death, whether percipient or non-percipient or neither percipient non-percipient. "
+    },
+    {
+      "number": 51,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 52,
+      "pali": "Sabbepime bhonto samaṇabrāhmaṇā uddhaṁ saraṁ āsattiṁyeva abhivadanti: ",
+      "english": "Because they think: ‘All of those ascetics and brahmins only assert their attachment to heading upstream: "
+    },
+    {
+      "number": 53,
+      "pali": "‘iti pecca bhavissāma, iti pecca bhavissāmā’ti. ",
+      "english": "“After death we shall be like this! After death we shall be like that!” "
+    },
+    {
+      "number": 54,
+      "pali": "Seyyathāpi nāma vāṇijassa vāṇijjāya gacchato evaṁ hoti: ",
+      "english": "Suppose a trader was going to market, thinking: "
+    },
+    {
+      "number": 55,
+      "pali": "‘ito me idaṁ bhavissati, iminā idaṁ lacchāmī’ti; ",
+      "english": "“With this, that shall be mine! This way, I shall get that!” "
+    },
+    {
+      "number": 56,
+      "pali": "evamevime bhonto samaṇabrāhmaṇā vāṇijūpamā maññe paṭibhanti: ",
+      "english": "In the same way, those ascetics and brahmins seem to be like traders when they say: "
+    },
+    {
+      "number": 57,
+      "pali": "‘iti pecca bhavissāma, iti pecca bhavissāmā’ti. ",
+      "english": "“After death we shall be like this! After death we shall be like that!”’ "
+    },
+    {
+      "number": 58,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato abhijānāti. ",
+      "english": "The Realized One understands this as follows. "
+    },
+    {
+      "number": 59,
+      "pali": "Ye kho te bhonto samaṇabrāhmaṇā sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññapenti te sakkāyabhayā sakkāyaparijegucchā sakkāyaññeva anuparidhāvanti anuparivattanti. ",
+      "english": "The ascetics and brahmins who assert the annihilation, eradication, and nonexistence of an existing being; from fear and disgust with substantial reality, they just keep running and circling around substantial reality. "
+    },
+    {
+      "number": 60,
+      "pali": "Seyyathāpi nāma sā gaddulabaddho daḷhe thambhe vā khile vā upanibaddho, tameva thambhaṁ vā khilaṁ vā anuparidhāvati anuparivattati; ",
+      "english": "Suppose a hound on a leash was tethered to a strong post or pillar. It would just keeping running and circling around that post or pillar. "
+    },
+    {
+      "number": 61,
+      "pali": "evamevime bhonto samaṇabrāhmaṇā sakkāyabhayā sakkāyaparijegucchā sakkāyaññeva anuparidhāvanti anuparivattanti. ",
+      "english": "In the same way, those ascetics and brahmins, from fear and disgust with substantial reality, just keep running and circling around substantial reality. "
+    },
+    {
+      "number": 62,
+      "pali": "‘Tayidaṁ saṅkhataṁ oḷārikaṁ atthi kho pana saṅkhārānaṁ nirodho atthetan’ti—",
+      "english": "‘All that is conditioned and crude. But there is the cessation of conditions—<em>that</em> is real.’ "
+    },
+    {
+      "number": 63,
+      "pali": "iti viditvā tassa nissaraṇadassāvī tathāgato tadupātivatto. ",
+      "english": "Understanding this and seeing the escape from it, the Realized One has gone beyond all that. "
+    },
+    {
+      "number": 64,
+      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā aparantakappikā aparantānudiṭṭhino aparantaṁ ārabbha anekavihitāni adhivuttipadāni abhivadanti, sabbe te imāneva pañcāyatanāni abhivadanti etesaṁ vā aññataraṁ. ",
+      "english": "Whatever ascetics and brahmins speculate and theorize about the final end, and propose various hypotheses concerning the final end, all of them propose one or other of these five theses. "
+    },
+    {
+      "number": 65,
+      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā pubbantakappikā pubbantānudiṭṭhino pubbantaṁ ārabbha anekavihitāni adhivuttipadāni abhivadanti. ",
+      "english": "There are some ascetics and brahmins who theorize about the first beginning, and propose various hypotheses concerning the first beginning. They propose the following, each insisting that theirs is the only truth and that everything else is wrong. "
+    },
+    {
+      "number": 66,
+      "pali": "‘Sassato attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos are eternal.’ "
+    },
+    {
+      "number": 67,
+      "pali": "ittheke abhivadanti, ‘asassato attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos are not eternal.’ "
+    },
+    {
+      "number": 68,
+      "pali": "ittheke abhivadanti, ‘sassato ca asassato ca attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos are both eternal and not eternal.’ "
+    },
+    {
+      "number": 69,
+      "pali": "ittheke abhivadanti, ‘nevasassato nāsassato attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos are neither eternal nor not eternal.’ "
+    },
+    {
+      "number": 70,
+      "pali": "ittheke abhivadanti, ‘antavā attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos are finite.’ "
+    },
+    {
+      "number": 71,
+      "pali": "ittheke abhivadanti, ‘anantavā attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos are infinite.’ "
+    },
+    {
+      "number": 72,
+      "pali": "ittheke abhivadanti, ‘antavā ca anantavā ca attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos are both finite and infinite.’ "
+    },
+    {
+      "number": 73,
+      "pali": "ittheke abhivadanti, ‘nevantavā nānantavā attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos are neither finite nor infinite.’ "
+    },
+    {
+      "number": 74,
+      "pali": "ittheke abhivadanti, ‘ekattasaññī attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos are unified in perception.’ "
+    },
+    {
+      "number": 75,
+      "pali": "ittheke abhivadanti, ‘nānattasaññī attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos are diverse in perception.’ "
+    },
+    {
+      "number": 76,
+      "pali": "ittheke abhivadanti, ‘parittasaññī attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos have limited perception.’ "
+    },
+    {
+      "number": 77,
+      "pali": "ittheke abhivadanti, ‘appamāṇasaññī attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos have limitless perception.’ "
+    },
+    {
+      "number": 78,
+      "pali": "ittheke abhivadanti, ‘ekantasukhī attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos experience nothing but happiness.’ "
+    },
+    {
+      "number": 79,
+      "pali": "ittheke abhivadanti, ‘ekantadukkhī attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos experience nothing but suffering.’ "
+    },
+    {
+      "number": 80,
+      "pali": "ittheke abhivadanti, ‘sukhadukkhī attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos experience both happiness and suffering.’ "
+    },
+    {
+      "number": 81,
+      "pali": "ittheke abhivadanti, ‘adukkhamasukhī attā ca loko ca, idameva saccaṁ moghamaññan’ti—",
+      "english": "‘The self and the cosmos experience neither happiness nor suffering.’ "
+    },
+    {
+      "number": 82,
+      "pali": "ittheke abhivadanti. ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "Now, consider the ascetics and brahmins whose view is as follows. "
+    },
+    {
+      "number": 84,
+      "pali": "‘sassato attā ca loko ca, idameva saccaṁ moghamaññan’ti, tesaṁ vata aññatreva saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā paccattaṁyeva ñāṇaṁ bhavissati parisuddhaṁ pariyodātanti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "‘The self and the cosmos are eternal. This is the only truth, anything else is futile.’ It’s simply not possible for them to have personal knowledge of this that is pure and bright, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation. "
+    },
+    {
+      "number": 85,
+      "pali": "Paccattaṁ kho pana, bhikkhave, ñāṇe asati parisuddhe pariyodāte yadapi te bhonto samaṇabrāhmaṇā tattha ñāṇabhāgamattameva pariyodapenti tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ upādānamakkhāyati. ",
+      "english": "But in the absence of personal knowledge that is pure and bright, even the portion of knowledge they illuminate is said to be grasping on their part. "
+    },
+    {
+      "number": 86,
+      "pali": "‘Tayidaṁ saṅkhataṁ oḷārikaṁ atthi kho pana saṅkhārānaṁ nirodho atthetan’ti—",
+      "english": "‘All that is conditioned and crude. But there is the cessation of conditions—<em>that</em> is real.’ "
+    },
+    {
+      "number": 87,
+      "pali": "iti viditvā tassa nissaraṇadassāvī tathāgato tadupātivatto. ",
+      "english": "Understanding this and seeing the escape from it, the Realized One has gone beyond all that. "
+    },
+    {
+      "number": 88,
+      "pali": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā evaṁvādino evaṁdiṭṭhino: ",
+      "english": "Now, consider the ascetics and brahmins whose view is as follows. "
+    },
+    {
+      "number": 89,
+      "pali": "‘asassato attā ca loko ca, idameva saccaṁ moghamaññan’ti …pe… ",
+      "english": "The self and the cosmos are not eternal, "
+    },
+    {
+      "number": 90,
+      "pali": "sassato ca asassato ca attā ca loko ca … ",
+      "english": "or both eternal and not eternal, "
+    },
+    {
+      "number": 91,
+      "pali": "nevasassato nāsassato attā ca loko ca … ",
+      "english": "or neither eternal nor not-eternal, "
+    },
+    {
+      "number": 92,
+      "pali": "antavā attā ca loko ca … ",
+      "english": "or finite, "
+    },
+    {
+      "number": 93,
+      "pali": "anantavā attā ca loko ca … ",
+      "english": "or infinite, "
+    },
+    {
+      "number": 94,
+      "pali": "antavā ca anantavā ca attā ca loko ca … ",
+      "english": "or both finite and infinite, "
+    },
+    {
+      "number": 95,
+      "pali": "nevantavā nānantavā attā ca loko ca … ",
+      "english": "or neither finite nor infinite, "
+    },
+    {
+      "number": 96,
+      "pali": "ekattasaññī attā ca loko ca … ",
+      "english": "or of unified perception, "
+    },
+    {
+      "number": 97,
+      "pali": "nānattasaññī attā ca loko ca … ",
+      "english": "or of diverse perception, "
+    },
+    {
+      "number": 98,
+      "pali": "parittasaññī attā ca loko ca … ",
+      "english": "or of limited perception, "
+    },
+    {
+      "number": 99,
+      "pali": "appamāṇasaññī attā ca loko ca … ",
+      "english": "or of limitless perception, "
+    },
+    {
+      "number": 100,
+      "pali": "ekantasukhī attā ca loko ca … ",
+      "english": "or experience nothing but happiness, "
+    },
+    {
+      "number": 101,
+      "pali": "ekantadukkhī attā ca loko ca … ",
+      "english": "or experience nothing but suffering, "
+    },
+    {
+      "number": 102,
+      "pali": "sukhadukkhī attā ca loko ca … ",
+      "english": "or experience both happiness and suffering, "
+    },
+    {
+      "number": 103,
+      "pali": "adukkhamasukhī attā ca loko ca, idameva saccaṁ moghamaññanti, tesaṁ vata aññatreva saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā paccattaṁyeva ñāṇaṁ bhavissati parisuddhaṁ pariyodātanti—netaṁ ṭhānaṁ vijjati. ",
+      "english": "or experience neither happiness nor suffering. It’s simply not possible for them to have personal knowledge of this that is pure and bright, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation. "
+    },
+    {
+      "number": 104,
+      "pali": "Paccattaṁ kho pana, bhikkhave, ñāṇe asati parisuddhe pariyodāte yadapi te bhonto samaṇabrāhmaṇā tattha ñāṇabhāgamattameva pariyodapenti tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ upādānamakkhāyati. ",
+      "english": "But in the absence of personal knowledge that is pure and bright, even the portion of knowledge they illuminate is said to be grasping on their part. "
+    },
+    {
+      "number": 105,
+      "pali": "‘Tayidaṁ saṅkhataṁ oḷārikaṁ atthi kho pana saṅkhārānaṁ nirodho atthetan’ti—",
+      "english": "‘All that is conditioned and crude. But there is the cessation of conditions—<em>that</em> is real.’ "
+    },
+    {
+      "number": 106,
+      "pali": "iti viditvā tassa nissaraṇadassāvī tathāgato tadupātivatto. ",
+      "english": "Understanding this and seeing the escape from it, the Realized One has gone beyond all that. "
+    },
+    {
+      "number": 107,
+      "pali": "Idha, bhikkhave, ekacco samaṇo vā brāhmaṇo vā pubbantānudiṭṭhīnañca paṭinissaggā, aparantānudiṭṭhīnañca paṭinissaggā, sabbaso kāmasaṁyojanānaṁ anadhiṭṭhānā, pavivekaṁ pītiṁ upasampajja viharati: ",
+      "english": "Now, some ascetics and brahmins, letting go of theories about the first beginning and the final end, not fixating on the fetters of sensuality, enter and remain in the rapture of seclusion: "
+    },
+    {
+      "number": 108,
+      "pali": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ pavivekaṁ pītiṁ upasampajja viharāmī’ti. ",
+      "english": "‘This is peaceful, this is sublime, that is, entering and remaining in the rapture of seclusion.’ "
+    },
+    {
+      "number": 109,
+      "pali": "Tassa sā pavivekā pīti nirujjhati. ",
+      "english": "But that rapture of seclusion of theirs ceases. "
+    },
+    {
+      "number": 110,
+      "pali": "Pavivekāya pītiyā nirodhā uppajjati domanassaṁ, domanassassa nirodhā uppajjati pavivekā pīti. ",
+      "english": "When the rapture of seclusion ceases, sadness arises; and when sadness ceases, the rapture of seclusion arises. "
+    },
+    {
+      "number": 111,
+      "pali": "Seyyathāpi, bhikkhave, yaṁ chāyā jahati taṁ ātapo pharati, yaṁ ātapo jahati taṁ chāyā pharati; ",
+      "english": "It’s like how the sunlight fills the space when the shadow leaves, or the shadow fills the space when the sunshine leaves. "
+    },
+    {
+      "number": 112,
+      "pali": "evameva kho, bhikkhave, pavivekāya pītiyā nirodhā uppajjati domanassaṁ, domanassassa nirodhā uppajjati pavivekā pīti. ",
+      "english": "In the same way, when the rapture of seclusion ceases, sadness arises; and when sadness ceases, the rapture of seclusion arises. "
+    },
+    {
+      "number": 113,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato abhijānāti. ",
+      "english": "The Realized One understands this as follows. "
+    },
+    {
+      "number": 114,
+      "pali": "Ayaṁ kho bhavaṁ samaṇo vā brāhmaṇo vā pubbantānudiṭṭhīnañca paṭinissaggā, aparantānudiṭṭhīnañca paṭinissaggā, sabbaso kāmasaṁyojanānaṁ anadhiṭṭhānā, pavivekaṁ pītiṁ upasampajja viharati: ",
+      "english": "This good ascetic or brahmin, letting go of theories about the first beginning and the final end, not fixating on the fetters of sensuality, enters and remains in the rapture of seclusion: "
+    },
+    {
+      "number": 115,
+      "pali": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ pavivekaṁ pītiṁ upasampajja viharāmī’ti. ",
+      "english": "‘This is peaceful, this is sublime, that is, entering and remaining in the rapture of seclusion.’ "
+    },
+    {
+      "number": 116,
+      "pali": "Tassa sā pavivekā pīti nirujjhati. ",
+      "english": "But that rapture of seclusion of theirs ceases. "
+    },
+    {
+      "number": 117,
+      "pali": "Pavivekāya pītiyā nirodhā uppajjati domanassaṁ, domanassassa nirodhā uppajjati pavivekā pīti. ",
+      "english": "When the rapture of seclusion ceases, sadness arises; and when sadness ceases, the rapture of seclusion arises. "
+    },
+    {
+      "number": 118,
+      "pali": "‘Tayidaṁ saṅkhataṁ oḷārikaṁ atthi kho pana saṅkhārānaṁ nirodho atthetan’ti—",
+      "english": "‘All that is conditioned and crude. But there is the cessation of conditions—<em>that</em> is real.’ "
+    },
+    {
+      "number": 119,
+      "pali": "iti viditvā tassa nissaraṇadassāvī tathāgato tadupātivatto. ",
+      "english": "Understanding this and seeing the escape from it, the Realized One has gone beyond all that. "
+    },
+    {
+      "number": 120,
+      "pali": "Idha pana, bhikkhave, ekacco samaṇo vā brāhmaṇo vā pubbantānudiṭṭhīnañca paṭinissaggā, aparantānudiṭṭhīnañca paṭinissaggā, sabbaso kāmasaṁyojanānaṁ anadhiṭṭhānā, pavivekāya pītiyā samatikkamā nirāmisaṁ sukhaṁ upasampajja viharati: ",
+      "english": "Now, some ascetics and brahmins, letting go of theories about the first beginning and the final end, not fixating on the fetters of sensuality, going beyond the rapture of seclusion, enter and remain in pleasure not of the flesh. "
+    },
+    {
+      "number": 121,
+      "pali": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ nirāmisaṁ sukhaṁ upasampajja viharāmī’ti. ",
+      "english": "‘This is peaceful, this is sublime, that is, entering and remaining in pleasure not of the flesh.’ "
+    },
+    {
+      "number": 122,
+      "pali": "Tassa taṁ nirāmisaṁ sukhaṁ nirujjhati. ",
+      "english": "But that pleasure not of the flesh of theirs ceases. "
+    },
+    {
+      "number": 123,
+      "pali": "Nirāmisassa sukhassa nirodhā uppajjati pavivekā pīti, pavivekāya pītiyā nirodhā uppajjati nirāmisaṁ sukhaṁ. ",
+      "english": "When pleasure not of the flesh ceases, the rapture of seclusion arises; and when the rapture of seclusion ceases, pleasure not of the flesh arises. "
+    },
+    {
+      "number": 124,
+      "pali": "Seyyathāpi, bhikkhave, yaṁ chāyā jahati taṁ ātapo pharati, yaṁ ātapo jahati taṁ chāyā pharati; ",
+      "english": "It’s like how the sunlight fills the space when the shadow leaves, or the shadow fills the space when the sunshine leaves. … "
+    },
+    {
+      "number": 125,
+      "pali": "evameva kho, bhikkhave, nirāmisassa sukhassa nirodhā uppajjati pavivekā pīti, pavivekāya pītiyā nirodhā uppajjati nirāmisaṁ sukhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 126,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato abhijānāti. ",
+      "english": "The Realized One understands this as follows. "
+    },
+    {
+      "number": 127,
+      "pali": "Ayaṁ kho bhavaṁ samaṇo vā brāhmaṇo vā pubbantānudiṭṭhīnañca paṭinissaggā, aparantānudiṭṭhīnañca paṭinissaggā, sabbaso kāmasaṁyojanānaṁ anadhiṭṭhānā, pavivekāya pītiyā samatikkamā, nirāmisaṁ sukhaṁ upasampajja viharati: ",
+      "english": "This good ascetic or brahmin, letting go of theories about the first beginning and the final end, not fixating on the fetters of sensuality, going beyond the rapture of seclusion, enters and remains in pleasure not of the flesh. "
+    },
+    {
+      "number": 128,
+      "pali": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ nirāmisaṁ sukhaṁ upasampajja viharāmī’ti. ",
+      "english": "‘This is peaceful, this is sublime, that is, entering and remaining in pleasure not of the flesh.’ "
+    },
+    {
+      "number": 129,
+      "pali": "Tassa taṁ nirāmisaṁ sukhaṁ nirujjhati. ",
+      "english": "But that pleasure not of the flesh of theirs ceases. "
+    },
+    {
+      "number": 130,
+      "pali": "Nirāmisassa sukhassa nirodhā uppajjati pavivekā pīti, pavivekāya pītiyā nirodhā uppajjati nirāmisaṁ sukhaṁ. ",
+      "english": "When pleasure not of the flesh ceases, the rapture of seclusion arises; and when the rapture of seclusion ceases, pleasure not of the flesh arises. "
+    },
+    {
+      "number": 131,
+      "pali": "‘Tayidaṁ saṅkhataṁ oḷārikaṁ atthi kho pana saṅkhārānaṁ nirodho atthetan’ti—",
+      "english": "‘All that is conditioned and crude. But there is the cessation of conditions—<em>that</em> is real.’ "
+    },
+    {
+      "number": 132,
+      "pali": "iti viditvā tassa nissaraṇadassāvī tathāgato tadupātivatto. ",
+      "english": "Understanding this and seeing the escape from it, the Realized One has gone beyond all that. "
+    },
+    {
+      "number": 133,
+      "pali": "Idha pana, bhikkhave, ekacco samaṇo vā brāhmaṇo vā pubbantānudiṭṭhīnañca paṭinissaggā, aparantānudiṭṭhīnañca paṭinissaggā, sabbaso kāmasaṁyojanānaṁ anadhiṭṭhānā, pavivekāya pītiyā samatikkamā, nirāmisassa sukhassa samatikkamā, adukkhamasukhaṁ vedanaṁ upasampajja viharati: ",
+      "english": "Now, some ascetics and brahmins, letting go of theories about the first beginning and the final end, not fixating on the fetters of sensuality, going beyond the rapture of seclusion and pleasure not of the flesh, enter and remain in neutral feeling. "
+    },
+    {
+      "number": 134,
+      "pali": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ adukkhamasukhaṁ vedanaṁ upasampajja viharāmī’ti. ",
+      "english": "‘This is peaceful, this is sublime, that is, entering and remaining in neutral feeling.’ "
+    },
+    {
+      "number": 135,
+      "pali": "Tassa sā adukkhamasukhā vedanā nirujjhati. ",
+      "english": "Then that neutral feeling ceases. "
+    },
+    {
+      "number": 136,
+      "pali": "Adukkhamasukhāya vedanāya nirodhā uppajjati nirāmisaṁ sukhaṁ, nirāmisassa sukhassa nirodhā uppajjati adukkhamasukhā vedanā. ",
+      "english": "When neutral feeling ceases, pleasure not of the flesh arises; and when pleasure not of the flesh ceases, neutral feelings arises. "
+    },
+    {
+      "number": 137,
+      "pali": "Seyyathāpi, bhikkhave, yaṁ chāyā jahati taṁ ātapo pharati, yaṁ ātapo jahati taṁ chāyā pharati; ",
+      "english": "It’s like how the sunlight fills the space when the shadow leaves, or the shadow fills the space when the sunshine leaves. … "
+    },
+    {
+      "number": 138,
+      "pali": "evameva kho, bhikkhave, adukkhamasukhāya vedanāya nirodhā uppajjati nirāmisaṁ sukhaṁ, nirāmisassa sukhassa nirodhā uppajjati adukkhamasukhā vedanā. ",
+      "english": ""
+    },
+    {
+      "number": 139,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato abhijānāti. ",
+      "english": "The Realized One understands this as follows. "
+    },
+    {
+      "number": 140,
+      "pali": "Ayaṁ kho bhavaṁ samaṇo vā brāhmaṇo vā pubbantānudiṭṭhīnañca paṭinissaggā, aparantānudiṭṭhīnañca paṭinissaggā, sabbaso kāmasaṁyojanānaṁ anadhiṭṭhānā, pavivekāya pītiyā samatikkamā, nirāmisassa sukhassa samatikkamā, adukkhamasukhaṁ vedanaṁ upasampajja viharati: ",
+      "english": "This good ascetic or brahmin, letting go of theories about the first beginning and the final end, not fixating on the fetters of sensuality, going beyond the rapture of seclusion and pleasure not of the flesh, enters and remains in neutral feeling. "
+    },
+    {
+      "number": 141,
+      "pali": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ adukkhamasukhaṁ vedanaṁ upasampajja viharāmī’ti. ",
+      "english": "‘This is peaceful, this is sublime, that is, entering and remaining in neutral feeling.’ "
+    },
+    {
+      "number": 142,
+      "pali": "Tassa sā adukkhamasukhā vedanā nirujjhati. ",
+      "english": "Then that neutral feeling ceases. "
+    },
+    {
+      "number": 143,
+      "pali": "Adukkhamasukhāya vedanāya nirodhā uppajjati nirāmisaṁ sukhaṁ, nirāmisassa sukhassa nirodhā uppajjati adukkhamasukhā vedanā. ",
+      "english": "When neutral feeling ceases, pleasure not of the flesh arises; and when pleasure not of the flesh ceases, neutral feelings arises. "
+    },
+    {
+      "number": 144,
+      "pali": "‘Tayidaṁ saṅkhataṁ oḷārikaṁ atthi kho pana saṅkhārānaṁ nirodho atthetan’ti—",
+      "english": "‘All that is conditioned and crude. But there is the cessation of conditions—<em>that</em> is real.’ "
+    },
+    {
+      "number": 145,
+      "pali": "iti viditvā tassa nissaraṇadassāvī tathāgato tadupātivatto. ",
+      "english": "Understanding this and seeing the escape from it, the Realized One has gone beyond all that. "
+    },
+    {
+      "number": 146,
+      "pali": "Idha pana, bhikkhave, ekacco samaṇo vā brāhmaṇo vā pubbantānudiṭṭhīnañca paṭinissaggā, aparantānudiṭṭhīnañca paṭinissaggā, sabbaso kāmasaṁyojanānaṁ anadhiṭṭhānā, pavivekāya pītiyā samatikkamā, nirāmisassa sukhassa samatikkamā, adukkhamasukhāya vedanāya samatikkamā: ",
+      "english": "Now, some ascetics and brahmins, letting go of theories about the first beginning and the final end, not fixating on the fetters of sensuality, go beyond the rapture of seclusion, pleasure not of the flesh, and neutral feeling. "
+    },
+    {
+      "number": 147,
+      "pali": "‘santohamasmi, nibbutohamasmi, anupādānohamasmī’ti samanupassati. ",
+      "english": "They regard themselves like this: ‘I am at peace; I am quenched; I am free of grasping.’ "
+    },
+    {
+      "number": 148,
+      "pali": "Tayidaṁ, bhikkhave, tathāgato abhijānāti. ",
+      "english": "The Realized One understands this as follows. "
+    },
+    {
+      "number": 149,
+      "pali": "Ayaṁ kho bhavaṁ samaṇo vā brāhmaṇo vā pubbantānudiṭṭhīnañca paṭinissaggā, aparantānudiṭṭhīnañca paṭinissaggā, sabbaso kāmasaṁyojanānaṁ anadhiṭṭhānā, pavivekāya pītiyā samatikkamā, nirāmisassa sukhassa samatikkamā, adukkhamasukhāya vedanāya samatikkamā: ",
+      "english": "This good ascetic or brahmin, letting go of theories about the first beginning and the final end, not fixating on the fetters of sensuality, goes beyond the rapture of seclusion, pleasure not of the flesh, and neutral feeling. "
+    },
+    {
+      "number": 150,
+      "pali": "‘santohamasmi, nibbutohamasmi, anupādānohamasmī’ti samanupassati; ",
+      "english": "They regard themselves like this: ‘I am at peace; I am quenched; I am free of grasping.’ "
+    },
+    {
+      "number": 151,
+      "pali": "addhā ayamāyasmā nibbānasappāyaṁyeva paṭipadaṁ abhivadati. ",
+      "english": "Clearly this venerable speaks of a practice that’s conducive to extinguishment. "
+    },
+    {
+      "number": 152,
+      "pali": "Atha ca panāyaṁ bhavaṁ samaṇo vā brāhmaṇo vā pubbantānudiṭṭhiṁ vā upādiyamāno upādiyati, aparantānudiṭṭhiṁ vā upādiyamāno upādiyati, kāmasaṁyojanaṁ vā upādiyamāno upādiyati, pavivekaṁ vā pītiṁ upādiyamāno upādiyati, nirāmisaṁ vā sukhaṁ upādiyamāno upādiyati, adukkhamasukhaṁ vā vedanaṁ upādiyamāno upādiyati. ",
+      "english": "Nevertheless, they still grasp at theories about the first beginning or the final end, or the fetters of sensuality, or the rapture of seclusion, or pleasure not of the flesh, or neutral feeling. "
+    },
+    {
+      "number": 153,
+      "pali": "Yañca kho ayamāyasmā: ",
+      "english": "And when they regard themselves like this: "
+    },
+    {
+      "number": 154,
+      "pali": "‘santohamasmi, nibbutohamasmi, anupādānohamasmī’ti samanupassati tadapi imassa bhoto samaṇassa brāhmaṇassa upādānamakkhāyati. ",
+      "english": "‘I am at peace; I am quenched; I am free of grasping,’ that’s also said to be grasping on their part. "
+    },
+    {
+      "number": 155,
+      "pali": "‘Tayidaṁ saṅkhataṁ oḷārikaṁ atthi kho pana saṅkhārānaṁ nirodho atthetan’ti—",
+      "english": "‘All that is conditioned and crude. But there is the cessation of conditions—<em>that</em> is real.’ "
+    },
+    {
+      "number": 156,
+      "pali": "iti viditvā tassa nissaraṇadassāvī tathāgato tadupātivatto. ",
+      "english": "Understanding this and seeing the escape from it, the Realized One has gone beyond all that. "
+    },
+    {
+      "number": 157,
+      "pali": "Idaṁ kho pana, bhikkhave, tathāgatena anuttaraṁ santivarapadaṁ abhisambuddhaṁ yadidaṁ—",
+      "english": "But the Realized One has awakened to the supreme state of sublime peace, that is, "
+    },
+    {
+      "number": 158,
+      "pali": "channaṁ phassāyatanānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā anupādāvimokkho”ti. ",
+      "english": "liberation by not grasping after truly understanding the six fields of contact’s origin, disappearance, gratification, drawback, and escape.” "
+    },
+    {
+      "number": 159,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 160,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 161,
+      "pali": "Pañcattayasuttaṁ niṭṭhitaṁ dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

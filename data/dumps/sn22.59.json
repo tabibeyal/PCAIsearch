@@ -1,0 +1,300 @@
+{
+  "sutta_id": "SN22.59",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 22.59 ",
+      "english": "Linked Discourses 22.59 "
+    },
+    {
+      "number": 2,
+      "pali": "6. Upayavagga ",
+      "english": "6. Involvement "
+    },
+    {
+      "number": 3,
+      "pali": "Anattalakkhaṇasutta ",
+      "english": "The Characteristic of Not-Self "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā bārāṇasiyaṁ viharati isipatane migadāye. ",
+      "english": "At one time the Buddha was staying near Varanasi, in the deer park at Isipatana. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā pañcavaggiye bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the group of five mendicants: "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“Rūpaṁ, bhikkhave, anattā. ",
+      "english": "“Mendicants, form is not-self. "
+    },
+    {
+      "number": 10,
+      "pali": "Rūpañca hidaṁ, bhikkhave, attā abhavissa, nayidaṁ rūpaṁ ābādhāya saṁvatteyya, labbhetha ca rūpe: ",
+      "english": "For if form were self, it wouldn’t lead to affliction. And you could compel form: "
+    },
+    {
+      "number": 11,
+      "pali": "‘evaṁ me rūpaṁ hotu, evaṁ me rūpaṁ mā ahosī’ti. ",
+      "english": "‘May my form be like this! May it not be like that!’ "
+    },
+    {
+      "number": 12,
+      "pali": "Yasmā ca kho, bhikkhave, rūpaṁ anattā, tasmā rūpaṁ ābādhāya saṁvattati, na ca labbhati rūpe: ",
+      "english": "But because form is not-self, it leads to affliction. And you can’t compel form: "
+    },
+    {
+      "number": 13,
+      "pali": "‘evaṁ me rūpaṁ hotu, evaṁ me rūpaṁ mā ahosī’ti. ",
+      "english": "‘May my form be like this! May it not be like that!’ "
+    },
+    {
+      "number": 14,
+      "pali": "Vedanā anattā. ",
+      "english": "Feeling is not-self … "
+    },
+    {
+      "number": 15,
+      "pali": "Vedanā ca hidaṁ, bhikkhave, attā abhavissa, nayidaṁ vedanā ābādhāya saṁvatteyya, labbhetha ca vedanāya: ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "‘evaṁ me vedanā hotu, evaṁ me vedanā mā ahosī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "Yasmā ca kho, bhikkhave, vedanā anattā, tasmā vedanā ābādhāya saṁvattati, na ca labbhati vedanāya: ",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "‘evaṁ me vedanā hotu, evaṁ me vedanā mā ahosī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "Saññā anattā …pe… ",
+      "english": "Perception is not-self … "
+    },
+    {
+      "number": 20,
+      "pali": "saṅkhārā anattā. ",
+      "english": "Choices are not-self … "
+    },
+    {
+      "number": 21,
+      "pali": "Saṅkhārā ca hidaṁ, bhikkhave, attā abhavissaṁsu, nayidaṁ saṅkhārā ābādhāya saṁvatteyyuṁ, labbhetha ca saṅkhāresu: ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "‘evaṁ me saṅkhārā hontu, evaṁ me saṅkhārā mā ahesun’ti. ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "Yasmā ca kho, bhikkhave, saṅkhārā anattā, tasmā saṅkhārā ābādhāya saṁvattanti, na ca labbhati saṅkhāresu: ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "‘evaṁ me saṅkhārā hontu, evaṁ me saṅkhārā mā ahesun’ti. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Viññāṇaṁ anattā. ",
+      "english": "Consciousness is not-self. "
+    },
+    {
+      "number": 26,
+      "pali": "Viññāṇañca hidaṁ, bhikkhave, attā abhavissa, nayidaṁ viññāṇaṁ ābādhāya saṁvatteyya, labbhetha ca viññāṇe: ",
+      "english": "For if consciousness were self, it wouldn’t lead to affliction. And you could compel consciousness: "
+    },
+    {
+      "number": 27,
+      "pali": "‘evaṁ me viññāṇaṁ hotu, evaṁ me viññāṇaṁ mā ahosī’ti. ",
+      "english": "‘May my consciousness be like this! May it not be like that!’ "
+    },
+    {
+      "number": 28,
+      "pali": "Yasmā ca kho, bhikkhave, viññāṇaṁ anattā, tasmā viññāṇaṁ ābādhāya saṁvattati, na ca labbhati viññāṇe: ",
+      "english": "But because consciousness is not-self, it leads to affliction. And you can’t compel consciousness: "
+    },
+    {
+      "number": 29,
+      "pali": "‘evaṁ me viññāṇaṁ hotu, evaṁ me viññāṇaṁ mā ahosī’ti. ",
+      "english": "‘May my consciousness be like this! May it not be like that!’ "
+    },
+    {
+      "number": 30,
+      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
+      "english": "What do you think, mendicants? "
+    },
+    {
+      "number": 31,
+      "pali": "rūpaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Is form permanent or impermanent?” "
+    },
+    {
+      "number": 32,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 33,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 34,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 35,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 36,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 37,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 38,
+      "pali": "“Vedanā … ",
+      "english": "“Is feeling permanent or impermanent?” … "
+    },
+    {
+      "number": 39,
+      "pali": "saññā … ",
+      "english": "“Is perception permanent or impermanent?” … "
+    },
+    {
+      "number": 40,
+      "pali": "saṅkhārā … ",
+      "english": "“Are choices permanent or impermanent?” … "
+    },
+    {
+      "number": 41,
+      "pali": "viññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "“Is consciousness permanent or impermanent?” "
+    },
+    {
+      "number": 42,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 43,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 44,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 45,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 46,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 47,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 48,
+      "pali": "“Tasmātiha, bhikkhave, yaṁ kiñci rūpaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ rūpaṁ: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "“So you should truly see any kind of form at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> form—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 49,
+      "pali": "Yā kāci vedanā atītānāgatapaccuppannā ajjhattā vā bahiddhā vā …pe… yā dūre santike vā, sabbā vedanā: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "Any kind of feeling at all … "
+    },
+    {
+      "number": 50,
+      "pali": "Yā kāci saññā …pe… ",
+      "english": "Any kind of perception at all … "
+    },
+    {
+      "number": 51,
+      "pali": "ye keci saṅkhārā atītānāgatapaccuppannā ajjhattaṁ vā bahiddhā vā …pe… ye dūre santike vā, sabbe saṅkhārā: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "Any kind of choices at all … "
+    },
+    {
+      "number": 52,
+      "pali": "Yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ viññāṇaṁ: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "You should truly see any kind of consciousness at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> consciousness—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 53,
+      "pali": "Evaṁ passaṁ, bhikkhave, sutavā ariyasāvako rūpasmimpi nibbindati, vedanāyapi nibbindati, saññāyapi nibbindati, saṅkhāresupi nibbindati, viññāṇasmimpi nibbindati. ",
+      "english": "Seeing this, a learned noble disciple grows disillusioned with form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 54,
+      "pali": "Nibbindaṁ virajjati; virāgā vimuccati. Vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. ",
+      "english": "Being disillusioned, desire fades away. When desire fades away they’re freed. When they’re freed, they know they’re freed. "
+    },
+    {
+      "number": 55,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānātī”ti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’” "
+    },
+    {
+      "number": 56,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 57,
+      "pali": "Attamanā pañcavaggiyā bhikkhū bhagavato bhāsitaṁ abhinanduṁ. ",
+      "english": "Satisfied, the group of five mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 58,
+      "pali": "Imasmiñca pana veyyākaraṇasmiṁ bhaññamāne pañcavaggiyānaṁ bhikkhūnaṁ anupādāya āsavehi cittāni vimucciṁsūti. ",
+      "english": "And while this discourse was being spoken, the minds of the group of five mendicants were freed from defilements by not grasping. "
+    },
+    {
+      "number": 59,
+      "pali": "Sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

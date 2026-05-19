@@ -1,0 +1,1320 @@
+{
+  "sutta_id": "MN75",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 75 ",
+      "english": "Middle Discourses 75 "
+    },
+    {
+      "number": 2,
+      "pali": "Māgaṇḍiyasutta ",
+      "english": "With Māgaṇḍiya "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā kurūsu viharati kammāsadhammaṁ nāma kurūnaṁ nigamo, bhāradvājagottassa brāhmaṇassa agyāgāre tiṇasanthārake. ",
+      "english": "At one time the Buddha was staying in the land of the Kurus, near the Kuru town named Kammāsadamma, on a grass mat in the fire chamber of a brahmin of the Bhāradvāja clan. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho bhagavā pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya kammāsadhammaṁ piṇḍāya pāvisi. ",
+      "english": "Then the Buddha robed up in the morning and, taking his bowl and robe, entered Kammāsadamma for alms. "
+    },
+    {
+      "number": 6,
+      "pali": "Kammāsadhammaṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto yena aññataro vanasaṇḍo tenupasaṅkami divāvihārāya. ",
+      "english": "He wandered for alms in Kammāsadamma. After the meal, on his return from almsround, he went to a certain forest grove for the day’s meditation. "
+    },
+    {
+      "number": 7,
+      "pali": "Taṁ vanasaṇḍaṁ ajjhogāhetvā aññatarasmiṁ rukkhamūle divāvihāraṁ nisīdi. ",
+      "english": "Having plunged deep into it, he sat at the root of a certain tree to meditate. "
+    },
+    {
+      "number": 8,
+      "pali": "Atha kho māgaṇḍiyo paribbājako jaṅghāvihāraṁ anucaṅkamamāno anuvicaramāno yena bhāradvājagottassa brāhmaṇassa agyāgāraṁ tenupasaṅkami. ",
+      "english": "Then as the wanderer Māgaṇḍiya was going for a walk he approached that fire chamber. "
+    },
+    {
+      "number": 9,
+      "pali": "Addasā kho māgaṇḍiyo paribbājako bhāradvājagottassa brāhmaṇassa agyāgāre tiṇasanthārakaṁ paññattaṁ. ",
+      "english": "He saw the grass mat spread out there "
+    },
+    {
+      "number": 10,
+      "pali": "Disvāna bhāradvājagottaṁ brāhmaṇaṁ etadavoca: ",
+      "english": "and asked the brahmin of the Bhāradvāja clan, "
+    },
+    {
+      "number": 11,
+      "pali": "“kassa nvayaṁ bhoto bhāradvājassa agyāgāre tiṇasanthārako paññatto, samaṇaseyyānurūpaṁ maññe”ti? ",
+      "english": "“Worthy Bhāradvāja, who has this grass mat been spread out for? It looks like an ascetic’s bed.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Atthi, bho māgaṇḍiya, samaṇo gotamo sakyaputto sakyakulā pabbajito. ",
+      "english": "“There is the ascetic Gotama, a Sakyan, gone forth from a Sakyan family. "
+    },
+    {
+      "number": 13,
+      "pali": "Taṁ kho pana bhavantaṁ gotamaṁ evaṁ kalyāṇo kittisaddo abbhuggato: ",
+      "english": "He has this good reputation: "
+    },
+    {
+      "number": 14,
+      "pali": "‘itipi so bhagavā arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā’ti. ",
+      "english": "‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ "
+    },
+    {
+      "number": 15,
+      "pali": "Tassesā bhoto gotamassa seyyā paññattā”ti. ",
+      "english": "This bed has been spread for that worthy Gotama.” "
+    },
+    {
+      "number": 16,
+      "pali": "“Duddiṭṭhaṁ vata, bho bhāradvāja, addasāma; ",
+      "english": "“Well, it’s a sad sight, worthy Bhāradvāja, "
+    },
+    {
+      "number": 17,
+      "pali": "duddiṭṭhaṁ vata, bho bhāradvāja, addasāma. ",
+      "english": "a very sad sight indeed, "
+    },
+    {
+      "number": 18,
+      "pali": "Ye mayaṁ tassa bhoto gotamassa bhūnahuno seyyaṁ addasāmā”ti. ",
+      "english": "to see a bed for the worthy Gotama, that baby-killer!” "
+    },
+    {
+      "number": 19,
+      "pali": "“Rakkhassetaṁ, māgaṇḍiya, vācaṁ; ",
+      "english": "“Be careful what you say, Māgaṇḍiya, "
+    },
+    {
+      "number": 20,
+      "pali": "rakkhassetaṁ, māgaṇḍiya, vācaṁ. ",
+      "english": "be careful what you say. "
+    },
+    {
+      "number": 21,
+      "pali": "Bahū hi tassa bhoto gotamassa khattiyapaṇḍitāpi brāhmaṇapaṇḍitāpi gahapatipaṇḍitāpi samaṇapaṇḍitāpi abhippasannā vinītā ariye ñāye dhamme kusale”ti. ",
+      "english": "Many astute aristocrats, brahmins, householders, and ascetics are devoted to the worthy Gotama. They’ve been guided by him in the noble system, the skillful teaching.” "
+    },
+    {
+      "number": 22,
+      "pali": "“Sammukhā cepi mayaṁ, bho bhāradvāja, taṁ bhavantaṁ gotamaṁ passeyyāma, sammukhāpi naṁ vadeyyāma: ",
+      "english": "“Even if I was to see the worthy Gotama face to face, worthy Bhāradvāja, I would say to his face: "
+    },
+    {
+      "number": 23,
+      "pali": "‘bhūnahu samaṇo gotamo’ti. ",
+      "english": "‘The ascetic Gotama is a baby-killer.’ "
+    },
+    {
+      "number": 24,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 25,
+      "pali": "Evañhi no sutte ocaratī”ti. ",
+      "english": "For so it came to me while sleeping.” "
+    },
+    {
+      "number": 26,
+      "pali": "“Sace taṁ bhoto māgaṇḍiyassa agaru āroceyyāmi taṁ samaṇassa gotamassā”ti. ",
+      "english": "“If you don’t mind, I’ll tell the ascetic Gotama about this.” "
+    },
+    {
+      "number": 27,
+      "pali": "“Appossukko bhavaṁ bhāradvājo vuttova naṁ vadeyyā”ti. ",
+      "english": "“Don’t worry, worthy Bhāradvāja. You may tell him exactly what I’ve said.” "
+    },
+    {
+      "number": 28,
+      "pali": "Assosi kho bhagavā dibbāya sotadhātuyā visuddhāya atikkantamānusikāya bhāradvājagottassa brāhmaṇassa māgaṇḍiyena paribbājakena saddhiṁ imaṁ kathāsallāpaṁ. ",
+      "english": "With clairaudience that is purified and superhuman, the Buddha heard this discussion between the brahmin of the Bhāradvāja clan and the wanderer Māgaṇḍiya. "
+    },
+    {
+      "number": 29,
+      "pali": "Atha kho bhagavā sāyanhasamayaṁ paṭisallānā vuṭṭhito yena bhāradvājagottassa brāhmaṇassa agyāgāraṁ tenupasaṅkami; upasaṅkamitvā nisīdi bhagavā paññatte tiṇasanthārake. ",
+      "english": "Coming out of retreat, he went to the brahmin’s fire chamber and sat on the grass mat. "
+    },
+    {
+      "number": 30,
+      "pali": "Atha kho bhāradvājagotto brāhmaṇo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "Then the brahmin of the Bhāradvāja clan went to the Buddha and exchanged greetings with him. "
+    },
+    {
+      "number": 31,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho bhāradvājagottaṁ brāhmaṇaṁ bhagavā etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side. The Buddha said to him, "
+    },
+    {
+      "number": 32,
+      "pali": "“ahu pana te, bhāradvāja, māgaṇḍiyena paribbājakena saddhiṁ imaṁyeva tiṇasanthārakaṁ ārabbha kocideva kathāsallāpo”ti? ",
+      "english": "“Bhāradvāja, did you have a discussion with the wanderer Māgaṇḍiya about this grass mat?” "
+    },
+    {
+      "number": 33,
+      "pali": "Evaṁ vutte, bhāradvājagotto brāhmaṇo saṁviggo lomahaṭṭhajāto bhagavantaṁ etadavoca: ",
+      "english": "When he said this, the brahmin, shocked and awestruck, said to the Buddha, "
+    },
+    {
+      "number": 34,
+      "pali": "“etadeva kho pana mayaṁ bhoto gotamassa ārocetukāmā. ",
+      "english": "“I wanted to mention this very thing to the worthy Gotama, "
+    },
+    {
+      "number": 35,
+      "pali": "Atha ca pana bhavaṁ gotamo anakkhātaṁyeva akkhāsī”ti. ",
+      "english": "but you brought it up before I had a chance.” "
+    },
+    {
+      "number": 36,
+      "pali": "Ayañca hi bhagavato bhāradvājagottena brāhmaṇena saddhiṁ antarākathā vippakatā hoti. ",
+      "english": "But this conversation between the Buddha and the brahmin was left unfinished. "
+    },
+    {
+      "number": 37,
+      "pali": "Atha kho māgaṇḍiyo paribbājako jaṅghāvihāraṁ anucaṅkamamāno anuvicaramāno yena bhāradvājagottassa brāhmaṇassa agyāgāraṁ yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
+      "english": "Then as the wanderer Māgaṇḍiya was going for a walk he approached that fire chamber. He went up to the Buddha, and exchanged greetings with him. "
+    },
+    {
+      "number": 38,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho māgaṇḍiyaṁ paribbājakaṁ bhagavā etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side, and the Buddha said to him: "
+    },
+    {
+      "number": 39,
+      "pali": "“Cakkhuṁ kho, māgaṇḍiya, rūpārāmaṁ rūparataṁ rūpasammuditaṁ. ",
+      "english": "“Māgaṇḍiya, the eye likes sights, it loves them and enjoys them. "
+    },
+    {
+      "number": 40,
+      "pali": "Taṁ tathāgatassa dantaṁ guttaṁ rakkhitaṁ saṁvutaṁ, tassa ca saṁvarāya dhammaṁ deseti. ",
+      "english": "That’s been tamed, guarded, protected and restrained by the Realized One, and he teaches Dhamma for its restraint. "
+    },
+    {
+      "number": 41,
+      "pali": "Idaṁ nu te etaṁ, māgaṇḍiya, sandhāya bhāsitaṁ: ",
+      "english": "Is that what you were referring to when you called me "
+    },
+    {
+      "number": 42,
+      "pali": "‘bhūnahu samaṇo gotamo’”ti? ",
+      "english": "a baby-killer?” "
+    },
+    {
+      "number": 43,
+      "pali": "“Etadeva kho pana me, bho gotama, sandhāya bhāsitaṁ: ",
+      "english": "“That’s exactly what I was referring to. "
+    },
+    {
+      "number": 44,
+      "pali": "‘bhūnahu samaṇo gotamo’ti. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 46,
+      "pali": "Evañhi no sutte ocaratī”ti. ",
+      "english": "For so it came to me while sleeping.” "
+    },
+    {
+      "number": 47,
+      "pali": "“Sotaṁ kho, māgaṇḍiya, saddārāmaṁ …pe… ",
+      "english": "“The ear likes sounds … "
+    },
+    {
+      "number": 48,
+      "pali": "ghānaṁ kho, māgaṇḍiya gandhārāmaṁ … ",
+      "english": "The nose likes smells … "
+    },
+    {
+      "number": 49,
+      "pali": "jivhā kho, māgaṇḍiya, rasārāmā rasaratā rasasammuditā. ",
+      "english": "The tongue likes tastes … "
+    },
+    {
+      "number": 50,
+      "pali": "Sā tathāgatassa dantā guttā rakkhitā saṁvutā, tassā ca saṁvarāya dhammaṁ deseti. ",
+      "english": ""
+    },
+    {
+      "number": 51,
+      "pali": "Idaṁ nu te etaṁ, māgaṇḍiya, sandhāya bhāsitaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "‘bhūnahu samaṇo gotamo’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 53,
+      "pali": "“Etadeva kho pana me, bho gotama, sandhāya bhāsitaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "‘bhūnahu samaṇo gotamo’ti. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Taṁ kissa hetu? ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Evañhi no sutte ocaratī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "“Kāyo kho, māgaṇḍiya, phoṭṭhabbārāmo phoṭṭhabbarato …pe… ",
+      "english": "The body likes touches … "
+    },
+    {
+      "number": 58,
+      "pali": "mano kho, māgaṇḍiya, dhammārāmo dhammarato dhammasammudito. ",
+      "english": "The mind likes ideas, it loves them and enjoys them. "
+    },
+    {
+      "number": 59,
+      "pali": "So tathāgatassa danto gutto rakkhito saṁvuto, tassa ca saṁvarāya dhammaṁ deseti. ",
+      "english": "That’s been tamed, guarded, protected and restrained by the Realized One, and he teaches Dhamma for its restraint. "
+    },
+    {
+      "number": 60,
+      "pali": "Idaṁ nu te etaṁ, māgaṇḍiya, sandhāya bhāsitaṁ: ",
+      "english": "Is that what you were referring to when you called me "
+    },
+    {
+      "number": 61,
+      "pali": "‘bhūnahu samaṇo gotamo’”ti? ",
+      "english": "a baby-killer?” "
+    },
+    {
+      "number": 62,
+      "pali": "“Etadeva kho pana me, bho gotama, sandhāya bhāsitaṁ: ",
+      "english": "“That’s exactly what I was referring to. "
+    },
+    {
+      "number": 63,
+      "pali": "‘bhūnahu samaṇo gotamo’ti. ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 65,
+      "pali": "Evañhi no sutte ocaratī”ti. ",
+      "english": "For so it came to me while sleeping.” "
+    },
+    {
+      "number": 66,
+      "pali": "“Taṁ kiṁ maññasi, māgaṇḍiya: ",
+      "english": "“What do you think, Māgaṇḍiya? "
+    },
+    {
+      "number": 67,
+      "pali": "‘idhekacco cakkhuviññeyyehi rūpehi paricāritapubbo assa iṭṭhehi kantehi manāpehi piyarūpehi kāmūpasaṁhitehi rajanīyehi, so aparena samayena rūpānaṁyeva samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā rūpataṇhaṁ pahāya rūpapariḷāhaṁ paṭivinodetvā vigatapipāso ajjhattaṁ vūpasantacitto vihareyya. ",
+      "english": "Take someone who used to amuse themselves with sights known by the eye, which are likable, desirable, agreeable, pleasant, sensual, and arousing. Some time later—having truly understood the origin, disappearance, gratification, drawback, and escape of sights, and having given up craving and dispelled passion for sights—they would live rid of thirst, their mind peaceful inside. "
+    },
+    {
+      "number": 68,
+      "pali": "Imassa pana te, māgaṇḍiya, kimassa vacanīyan’”ti? ",
+      "english": "What would you have to say to them, Māgaṇḍiya?” "
+    },
+    {
+      "number": 69,
+      "pali": "“Na kiñci, bho gotama”. ",
+      "english": "“Nothing, worthy Gotama.” "
+    },
+    {
+      "number": 70,
+      "pali": "“Taṁ kiṁ maññasi, māgaṇḍiya: ",
+      "english": "“What do you think, Māgaṇḍiya? "
+    },
+    {
+      "number": 71,
+      "pali": "‘idhekacco sotaviññeyyehi saddehi …pe… ",
+      "english": "Take someone who used to amuse themselves with sounds known by the ear … "
+    },
+    {
+      "number": 72,
+      "pali": "ghānaviññeyyehi gandhehi … ",
+      "english": "smells known by the nose … "
+    },
+    {
+      "number": 73,
+      "pali": "jivhāviññeyyehi rasehi … ",
+      "english": "tastes known by the tongue … "
+    },
+    {
+      "number": 74,
+      "pali": "kāyaviññeyyehi phoṭṭhabbehi paricāritapubbo assa iṭṭhehi kantehi manāpehi piyarūpehi kāmūpasaṁhitehi rajanīyehi, ",
+      "english": "touches known by the body, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 75,
+      "pali": "so aparena samayena phoṭṭhabbānaṁyeva samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā phoṭṭhabbataṇhaṁ pahāya phoṭṭhabbapariḷāhaṁ paṭivinodetvā vigatapipāso ajjhattaṁ vūpasantacitto vihareyya. ",
+      "english": "Some time later—having truly understood the origin, disappearance, gratification, drawback, and escape of touches, and having given up craving and dispelled passion for touches—they would live rid of thirst, their mind peaceful inside. "
+    },
+    {
+      "number": 76,
+      "pali": "Imassa pana te, māgaṇḍiya, kimassa vacanīyan’”ti? ",
+      "english": "What would you have to say to them, Māgaṇḍiya?” "
+    },
+    {
+      "number": 77,
+      "pali": "“Na kiñci, bho gotama”. ",
+      "english": "“Nothing, worthy Gotama.” "
+    },
+    {
+      "number": 78,
+      "pali": "“Ahaṁ kho pana, māgaṇḍiya, pubbe agāriyabhūto samāno pañcahi kāmaguṇehi samappito samaṅgībhūto paricāresiṁ cakkhuviññeyyehi rūpehi iṭṭhehi kantehi manāpehi piyarūpehi kāmūpasaṁhitehi rajanīyehi, sotaviññeyyehi saddehi …pe… ",
+      "english": "“Well, when I was still a layperson I used to amuse myself, supplied and provided with sights known by the eye … sounds known by the ear … "
+    },
+    {
+      "number": 79,
+      "pali": "ghānaviññeyyehi gandhehi … ",
+      "english": "smells known by the nose … "
+    },
+    {
+      "number": 80,
+      "pali": "jivhāviññeyyehi rasehi … ",
+      "english": "tastes known by the tongue … "
+    },
+    {
+      "number": 81,
+      "pali": "kāyaviññeyyehi phoṭṭhabbehi iṭṭhehi kantehi manāpehi piyarūpehi kāmūpasaṁhitehi rajanīyehi. ",
+      "english": "touches known by the body, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 82,
+      "pali": "Tassa mayhaṁ, māgaṇḍiya, tayo pāsādā ahesuṁ—",
+      "english": "I had three stilt longhouses—"
+    },
+    {
+      "number": 83,
+      "pali": "eko vassiko, eko hemantiko, eko gimhiko. ",
+      "english": "one for the rainy season, one for the winter, and one for the summer. "
+    },
+    {
+      "number": 84,
+      "pali": "So kho ahaṁ, māgaṇḍiya, vassike pāsāde vassike cattāro māse nippurisehi tūriyehi paricārayamāno na heṭṭhāpāsādaṁ orohāmi. ",
+      "english": "I stayed in a stilt longhouse without coming downstairs for the four months of the rainy season, where I was entertained by musicians—none of them men. "
+    },
+    {
+      "number": 85,
+      "pali": "So aparena samayena kāmānaṁyeva samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā kāmataṇhaṁ pahāya kāmapariḷāhaṁ paṭivinodetvā vigatapipāso ajjhattaṁ vūpasantacitto viharāmi. ",
+      "english": "Some time later—having truly understood the origin, disappearance, gratification, drawback, and escape of sensual pleasures, and having given up craving and dispelled passion for sensual pleasures—I live rid of thirst, my mind peaceful inside. "
+    },
+    {
+      "number": 86,
+      "pali": "So aññe satte passāmi kāmesu avītarāge kāmataṇhāhi khajjamāne kāmapariḷāhena pariḍayhamāne kāme paṭisevante. ",
+      "english": "I see other sentient beings who are not free from sensual pleasures being consumed by craving for sensual pleasures, burning with passion for sensual pleasures, indulging in sensual pleasures. "
+    },
+    {
+      "number": 87,
+      "pali": "So tesaṁ na pihemi, na tattha abhiramāmi. ",
+      "english": "I don’t envy them, nor do I hope to enjoy that. "
+    },
+    {
+      "number": 88,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 89,
+      "pali": "Yāhayaṁ, māgaṇḍiya, rati, aññatreva kāmehi aññatra akusalehi dhammehi—",
+      "english": "Because there is a satisfaction that is apart from sensual pleasures and unskillful qualities, "
+    },
+    {
+      "number": 90,
+      "pali": "api dibbaṁ sukhaṁ samadhigayha tiṭṭhati—",
+      "english": "which even equals heavenly pleasure. "
+    },
+    {
+      "number": 91,
+      "pali": "tāya ratiyā ramamāno hīnassa na pihemi, na tattha abhiramāmi. ",
+      "english": "Enjoying that satisfaction, I don’t envy what is inferior, nor do I hope to enjoy it. "
+    },
+    {
+      "number": 92,
+      "pali": "Seyyathāpi, māgaṇḍiya, gahapati vā gahapatiputto vā aḍḍho mahaddhano mahābhogo pañcahi kāmaguṇehi samappito samaṅgībhūto paricāreyya cakkhuviññeyyehi rūpehi … ",
+      "english": "Suppose there was a householder or a householder’s child who was rich, affluent, and wealthy. And they would amuse themselves, supplied and provided with the five kinds of sensual stimulation. That is, sights known by the eye … "
+    },
+    {
+      "number": 93,
+      "pali": "pe… ",
+      "english": "sounds … smells … tastes … "
+    },
+    {
+      "number": 94,
+      "pali": "phoṭṭhabbehi iṭṭhehi kantehi manāpehi piyarūpehi kāmūpasaṁhitehi rajanīyehi. ",
+      "english": "touches known by the body, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 95,
+      "pali": "So kāyena sucaritaṁ caritvā vācāya sucaritaṁ caritvā manasā sucaritaṁ caritvā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjeyya devānaṁ tāvatiṁsānaṁ sahabyataṁ. ",
+      "english": "Having practiced good conduct by way of body, speech, and mind, when their body breaks up, after death, they’d be reborn in a good place, a heavenly realm, in the company of the gods of the thirty-three. "
+    },
+    {
+      "number": 96,
+      "pali": "So tattha nandane vane accharāsaṅghaparivuto dibbehi pañcahi kāmaguṇehi samappito samaṅgībhūto paricāreyya. ",
+      "english": "There they’d amuse themselves in the Garden of Delight, escorted by a band of nymphs, supplied and provided with the five kinds of heavenly sensual stimulation. "
+    },
+    {
+      "number": 97,
+      "pali": "So passeyya gahapatiṁ vā gahapatiputtaṁ vā pañcahi kāmaguṇehi samappitaṁ samaṅgībhūtaṁ paricārayamānaṁ. ",
+      "english": "Then they’d see a householder or a householder’s child amusing themselves, supplied and provided with the five kinds of sensual stimulation. "
+    },
+    {
+      "number": 98,
+      "pali": "Taṁ kiṁ maññasi, māgaṇḍiya, api nu so devaputto nandane vane accharāsaṅghaparivuto dibbehi pañcahi kāmaguṇehi samappito samaṅgībhūto paricārayamāno amussa gahapatissa vā gahapatiputtassa vā piheyya, mānusakānaṁ vā pañcannaṁ kāmaguṇānaṁ mānusakehi vā kāmehi āvaṭṭeyyā”ti? ",
+      "english": "What do you think, Māgaṇḍiya? Would that god—amusing themselves in the Garden of Delight, escorted by a band of nymphs, supplied and provided with the five kinds of heavenly sensual stimulation—envy that householder or householder’s child their five kinds of human sensual stimulation, or return to human sensual pleasures?” "
+    },
+    {
+      "number": 99,
+      "pali": "“No hidaṁ, bho gotama. ",
+      "english": "“No, worthy Gotama. "
+    },
+    {
+      "number": 100,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 101,
+      "pali": "Mānusakehi, bho gotama, kāmehi dibbakāmā abhikkantatarā ca paṇītatarā cā”ti. ",
+      "english": "Because heavenly sensual pleasures are better than human sensual pleasures.” "
+    },
+    {
+      "number": 102,
+      "pali": "“Evameva kho ahaṁ, māgaṇḍiya, pubbe agāriyabhūto samāno pañcahi kāmaguṇehi samappito samaṅgībhūto paricāresiṁ cakkhuviññeyyehi rūpehi iṭṭhehi kantehi manāpehi piyarūpehi kāmūpasaṁhitehi rajanīyehi, sotaviññeyyehi saddehi …pe… ",
+      "english": "“In the same way, Māgaṇḍiya, when I was still a layperson I used to entertain myself with sights … sounds … "
+    },
+    {
+      "number": 103,
+      "pali": "ghānaviññeyyehi gandhehi … ",
+      "english": "smells … "
+    },
+    {
+      "number": 104,
+      "pali": "jivhāviññeyyehi rasehi … ",
+      "english": "tastes … "
+    },
+    {
+      "number": 105,
+      "pali": "kāyaviññeyyehi phoṭṭhabbehi iṭṭhehi kantehi manāpehi piyarūpehi kāmūpasaṁhitehi rajanīyehi. ",
+      "english": "touches known by the body, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 106,
+      "pali": "So aparena samayena kāmānaṁyeva samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā kāmataṇhaṁ pahāya kāmapariḷāhaṁ paṭivinodetvā vigatapipāso ajjhattaṁ vūpasantacitto viharāmi. ",
+      "english": "Some time later—having truly understood the origin, disappearance, gratification, drawback, and escape of sensual pleasures, and having given up craving and dispelled passion for sensual pleasures—I live rid of thirst, my mind peaceful inside. "
+    },
+    {
+      "number": 107,
+      "pali": "So aññe satte passāmi kāmesu avītarāge kāmataṇhāhi khajjamāne kāmapariḷāhena pariḍayhamāne kāme paṭisevante, so tesaṁ na pihemi, na tattha abhiramāmi. ",
+      "english": "I see other sentient beings who are not free from sensual pleasures being consumed by craving for sensual pleasures, burning with passion for sensual pleasures, indulging in sensual pleasures. I don’t envy them, nor do I hope to enjoy that. "
+    },
+    {
+      "number": 108,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 109,
+      "pali": "Yāhayaṁ, māgaṇḍiya, rati aññatreva kāmehi aññatra akusalehi dhammehi—",
+      "english": "Because there is a satisfaction that is apart from sensual pleasures and unskillful qualities, "
+    },
+    {
+      "number": 110,
+      "pali": "api dibbaṁ sukhaṁ samadhigayha tiṭṭhati—",
+      "english": "which even equals heavenly pleasure. "
+    },
+    {
+      "number": 111,
+      "pali": "tāya ratiyā ramamāno hīnassa na pihemi, na tattha abhiramāmi. ",
+      "english": "Enjoying that satisfaction, I don’t envy what is inferior, nor do I hope to enjoy it. "
+    },
+    {
+      "number": 112,
+      "pali": "Seyyathāpi, māgaṇḍiya, kuṭṭhī puriso arugatto pakkagatto kimīhi khajjamāno nakhehi vaṇamukhāni vippatacchamāno aṅgārakāsuyā kāyaṁ paritāpeyya. ",
+      "english": "Suppose there was a person affected by leprosy, with sores and blisters on their limbs. Being devoured by worms, scratching with their nails at the opening of their wounds, they’d cauterize their body over a pit of glowing coals. "
+    },
+    {
+      "number": 113,
+      "pali": "Tassa mittāmaccā ñātisālohitā bhisakkaṁ sallakattaṁ upaṭṭhāpeyyuṁ. ",
+      "english": "Their friends and colleagues, relatives and kin would get a surgeon to treat them. "
+    },
+    {
+      "number": 114,
+      "pali": "Tassa so bhisakko sallakatto bhesajjaṁ kareyya. ",
+      "english": "The surgeon would make medicine for them, "
+    },
+    {
+      "number": 115,
+      "pali": "So taṁ bhesajjaṁ āgamma kuṭṭhehi parimucceyya, arogo assa sukhī serī sayaṁvasī yena kāmaṁ gamo. ",
+      "english": "and by using that they’d be cured of leprosy. They’d be healthy, happy, autonomous, master of themselves, able to go where they wanted. "
+    },
+    {
+      "number": 116,
+      "pali": "So aññaṁ kuṭṭhiṁ purisaṁ passeyya arugattaṁ pakkagattaṁ kimīhi khajjamānaṁ nakhehi vaṇamukhāni vippatacchamānaṁ aṅgārakāsuyā kāyaṁ paritāpentaṁ. ",
+      "english": "Then they’d see another person affected by leprosy, with sores and blisters on their limbs, being devoured by worms, scratching with their nails at the opening of their wounds, cauterizing their body over a pit of glowing coals. "
+    },
+    {
+      "number": 117,
+      "pali": "Taṁ kiṁ maññasi, māgaṇḍiya, ",
+      "english": "What do you think, Māgaṇḍiya? "
+    },
+    {
+      "number": 118,
+      "pali": "api nu so puriso amussa kuṭṭhissa purisassa piheyya aṅgārakāsuyā vā bhesajjaṁ paṭisevanāya vā”ti? ",
+      "english": "Would that person envy that other person affected by leprosy for their pit of glowing coals or for taking medicine?” "
+    },
+    {
+      "number": 119,
+      "pali": "“No hidaṁ, bho gotama. ",
+      "english": "“No, worthy Gotama. "
+    },
+    {
+      "number": 120,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 121,
+      "pali": "Roge hi, bho gotama, sati bhesajjena karaṇīyaṁ hoti, roge asati na bhesajjena karaṇīyaṁ hotī”ti. ",
+      "english": "Because you need to take medicine only when there’s a disease. When there’s no disease, there’s no need for medicine.” "
+    },
+    {
+      "number": 122,
+      "pali": "“Evameva kho ahaṁ, māgaṇḍiya, pubbe agāriyabhūto samāno pañcahi kāmaguṇehi samappito samaṅgībhūto paricāresiṁ, cakkhuviññeyyehi rūpehi iṭṭhehi kantehi manāpehi piyarūpehi kāmūpasaṁhitehi rajanīyehi, sotaviññeyyehi saddehi …pe… ",
+      "english": "“In the same way, Māgaṇḍiya, when I was still a layperson I used to entertain myself with sights … sounds … "
+    },
+    {
+      "number": 123,
+      "pali": "ghānaviññeyyehi gandhehi … ",
+      "english": "smells … "
+    },
+    {
+      "number": 124,
+      "pali": "jivhāviññeyyehi rasehi … ",
+      "english": "tastes … "
+    },
+    {
+      "number": 125,
+      "pali": "kāyaviññeyyehi phoṭṭhabbehi iṭṭhehi kantehi manāpehi piyarūpehi kāmūpasaṁhitehi rajanīyehi. ",
+      "english": "touches known by the body, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+    },
+    {
+      "number": 126,
+      "pali": "So aparena samayena kāmānaṁyeva samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā kāmataṇhaṁ pahāya kāmapariḷāhaṁ paṭivinodetvā vigatapipāso ajjhattaṁ vūpasantacitto viharāmi. ",
+      "english": "Some time later—having truly understood the origin, disappearance, gratification, drawback, and escape of sensual pleasures, and having given up craving and dispelled passion for sensual pleasures—I live rid of thirst, my mind peaceful inside. "
+    },
+    {
+      "number": 127,
+      "pali": "So aññe satte passāmi kāmesu avītarāge kāmataṇhāhi khajjamāne kāmapariḷāhena pariḍayhamāne kāme paṭisevante. ",
+      "english": "I see other sentient beings who are not free from sensual pleasures being consumed by craving for sensual pleasures, burning with passion for sensual pleasures, indulging in sensual pleasures. "
+    },
+    {
+      "number": 128,
+      "pali": "So tesaṁ na pihemi, na tattha abhiramāmi. ",
+      "english": "I don’t envy them, nor do I hope to enjoy that. "
+    },
+    {
+      "number": 129,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 130,
+      "pali": "Yāhayaṁ, māgaṇḍiya, rati, aññatreva kāmehi aññatra akusalehi dhammehi—",
+      "english": "Because there is a satisfaction that is apart from sensual pleasures and unskillful qualities, "
+    },
+    {
+      "number": 131,
+      "pali": "api dibbaṁ sukhaṁ samadhigayha tiṭṭhati—",
+      "english": "which even equals heavenly pleasure. "
+    },
+    {
+      "number": 132,
+      "pali": "tāya ratiyā ramamāno hīnassa na pihemi, na tattha abhiramāmi. ",
+      "english": "Enjoying that satisfaction, I don’t envy what is inferior, nor do I hope to enjoy it. "
+    },
+    {
+      "number": 133,
+      "pali": "Seyyathāpi, māgaṇḍiya, kuṭṭhī puriso arugatto pakkagatto kimīhi khajjamāno nakhehi vaṇamukhāni vippatacchamāno aṅgārakāsuyā kāyaṁ paritāpeyya. ",
+      "english": "Suppose there was a person affected by leprosy, with sores and blisters on their limbs. Being devoured by worms, scratching with their nails at the opening of their wounds, they’d cauterize their body over a pit of glowing coals. "
+    },
+    {
+      "number": 134,
+      "pali": "Tassa mittāmaccā ñātisālohitā bhisakkaṁ sallakattaṁ upaṭṭhāpeyyuṁ. ",
+      "english": "Their friends and colleagues, relatives and kin would get a surgeon to treat them. "
+    },
+    {
+      "number": 135,
+      "pali": "Tassa so bhisakko sallakatto bhesajjaṁ kareyya. ",
+      "english": "The surgeon would make medicine for them, "
+    },
+    {
+      "number": 136,
+      "pali": "So taṁ bhesajjaṁ āgamma kuṭṭhehi parimucceyya, arogo assa sukhī serī sayaṁvasī yena kāmaṁ gamo. ",
+      "english": "and by using that they’d be cured of leprosy. They’d be healthy, happy, autonomous, master of themselves, able to go where they wanted. "
+    },
+    {
+      "number": 137,
+      "pali": "Tamenaṁ dve balavanto purisā nānābāhāsu gahetvā aṅgārakāsuṁ upakaḍḍheyyuṁ. ",
+      "english": "Two strong men would grab them by the arms and drag them towards the pit of glowing coals. "
+    },
+    {
+      "number": 138,
+      "pali": "Taṁ kiṁ maññasi, māgaṇḍiya, ",
+      "english": "What do you think, Māgaṇḍiya? "
+    },
+    {
+      "number": 139,
+      "pali": "api nu so puriso iti citiceva kāyaṁ sannāmeyyā”ti? ",
+      "english": "Wouldn’t that person writhe and struggle to and fro?” "
+    },
+    {
+      "number": 140,
+      "pali": "“Evaṁ, bho gotama. ",
+      "english": "“Yes, worthy Gotama. "
+    },
+    {
+      "number": 141,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 142,
+      "pali": "Asu hi, bho gotama, aggi dukkhasamphasso ceva mahābhitāpo ca mahāpariḷāho cā”ti. ",
+      "english": "Because that fire is really painful to touch, fiercely burning and scorching.” "
+    },
+    {
+      "number": 143,
+      "pali": "“Taṁ kiṁ maññasi, māgaṇḍiya, ",
+      "english": "“What do you think, Māgaṇḍiya? "
+    },
+    {
+      "number": 144,
+      "pali": "idāneva nu kho so aggi dukkhasamphasso ceva mahābhitāpo ca mahāpariḷāho ca udāhu pubbepi so aggi dukkhasamphasso ceva mahābhitāpo ca mahāpariḷāho cā”ti? ",
+      "english": "Is it only now that the fire is really painful to touch, fiercely burning and scorching, or was it painful previously as well?” "
+    },
+    {
+      "number": 145,
+      "pali": "“Idāni ceva, bho gotama, so aggi dukkhasamphasso ceva mahābhitāpo ca mahāpariḷāho ca, pubbepi so aggi dukkhasamphasso ceva mahābhitāpo ca mahāpariḷāho ca. ",
+      "english": "“That fire is painful now and it was also painful previously. "
+    },
+    {
+      "number": 146,
+      "pali": "Asu ca, bho gotama, kuṭṭhī puriso arugatto pakkagatto kimīhi khajjamāno nakhehi vaṇamukhāni vippatacchamāno upahatindriyo dukkhasamphasseyeva aggismiṁ sukhamiti viparītasaññaṁ paccalatthā”ti. ",
+      "english": "That person was affected by leprosy, with sores and blisters on their limbs. Being devoured by worms, scratching with their nails at the opening of their wounds, their sense faculties were impaired. So even though the fire was actually painful to touch, they had a distorted perception that it was pleasant.” "
+    },
+    {
+      "number": 147,
+      "pali": "“Evameva kho, māgaṇḍiya, atītampi addhānaṁ kāmā dukkhasamphassā ceva mahābhitāpā ca mahāpariḷāhā ca, anāgatampi addhānaṁ kāmā dukkhasamphassā ceva mahābhitāpā ca mahāpariḷāhā ca, etarahipi paccuppannaṁ addhānaṁ kāmā dukkhasamphassā ceva mahābhitāpā ca mahāpariḷāhā ca. ",
+      "english": "“In the same way, sensual pleasures of the past, future, and present are painful to touch, fiercely burning and scorching. "
+    },
+    {
+      "number": 148,
+      "pali": "Ime ca, māgaṇḍiya, sattā kāmesu avītarāgā kāmataṇhāhi khajjamānā kāmapariḷāhena pariḍayhamānā upahatindriyā dukkhasamphassesuyeva kāmesu sukhamiti viparītasaññaṁ paccalatthuṁ. ",
+      "english": "These sentient beings who are not free from sensual pleasures—being consumed by craving for sensual pleasures, burning with passion for sensual pleasures—have impaired sense faculties. So even though sensual pleasures are actually painful to touch, they have a distorted perception that they are pleasant. "
+    },
+    {
+      "number": 149,
+      "pali": "Seyyathāpi, māgaṇḍiya, kuṭṭhī puriso arugatto pakkagatto kimīhi khajjamāno nakhehi vaṇamukhāni vippatacchamāno aṅgārakāsuyā kāyaṁ paritāpeti. ",
+      "english": "Suppose there was a person affected by leprosy, with sores and blisters on their limbs. Being devoured by worms, scratching with their nails at the opening of their wounds, they’re cauterizing their body over a pit of glowing coals. "
+    },
+    {
+      "number": 150,
+      "pali": "Yathā yathā kho, māgaṇḍiya, asu kuṭṭhī puriso arugatto pakkagatto kimīhi khajjamāno nakhehi vaṇamukhāni vippatacchamāno aṅgārakāsuyā kāyaṁ paritāpeti tathā tathāssa tāni vaṇamukhāni asucitarāni ceva honti duggandhatarāni ca pūtikatarāni ca, hoti ceva kāci sātamattā assādamattā—yadidaṁ vaṇamukhānaṁ kaṇḍūvanahetu; ",
+      "english": "The more they scratch their wounds and cauterize their body, the more their wounds become foul, stinking, and infected. But still, they derive a degree of pleasure and gratification from the itchiness of their wounds. "
+    },
+    {
+      "number": 151,
+      "pali": "evameva kho, māgaṇḍiya, sattā kāmesu avītarāgā kāmataṇhāhi khajjamānā kāmapariḷāhena ca pariḍayhamānā kāme paṭisevanti. ",
+      "english": "In the same way, I see other sentient beings who are not free from sensual pleasures being consumed by craving for sensual pleasures, burning with passion for sensual pleasures, indulging in sensual pleasures. "
+    },
+    {
+      "number": 152,
+      "pali": "Yathā yathā kho, māgaṇḍiya, sattā kāmesu avītarāgā kāmataṇhāhi khajjamānā kāmapariḷāhena ca pariḍayhamānā kāme paṭisevanti tathā tathā tesaṁ tesaṁ sattānaṁ kāmataṇhā ceva pavaḍḍhati, kāmapariḷāhena ca pariḍayhanti, hoti ceva sātamattā assādamattā—yadidaṁ pañcakāmaguṇe paṭicca. ",
+      "english": "The more they indulge in sensual pleasures, the more their craving for sensual pleasures grows, and the more they burn with passion for sensual pleasures. But still, they derive a degree of pleasure and gratification from the five kinds of sensual stimulation. "
+    },
+    {
+      "number": 153,
+      "pali": "Taṁ kiṁ maññasi, māgaṇḍiya, ",
+      "english": "What do you think, Māgaṇḍiya? "
+    },
+    {
+      "number": 154,
+      "pali": "api nu te diṭṭho vā suto vā rājā vā rājamahāmatto vā pañcahi kāmaguṇehi samappito samaṅgībhūto paricārayamāno kāmataṇhaṁ appahāya kāmapariḷāhaṁ appaṭivinodetvā vigatapipāso ajjhattaṁ vūpasantacitto vihāsi vā viharati vā viharissati vā”ti? ",
+      "english": "Have you seen or heard of a king or a royal minister of the past, future, or present, amusing themselves supplied and provided with the five kinds of sensual stimulation, who—without giving up craving for sensual pleasures and dispelling passion for sensual pleasures—lives rid of thirst, their mind peaceful inside?” "
+    },
+    {
+      "number": 155,
+      "pali": "“No hidaṁ, bho gotama”. ",
+      "english": "“No, worthy Gotama.” "
+    },
+    {
+      "number": 156,
+      "pali": "“Sādhu, māgaṇḍiya. ",
+      "english": "“Good, Māgaṇḍiya. "
+    },
+    {
+      "number": 157,
+      "pali": "Mayāpi kho etaṁ, māgaṇḍiya, neva diṭṭhaṁ na sutaṁ rājā vā rājamahāmatto vā pañcahi kāmaguṇehi samappito samaṅgībhūto paricārayamāno kāmataṇhaṁ appahāya kāmapariḷāhaṁ appaṭivinodetvā vigatapipāso ajjhattaṁ vūpasantacitto vihāsi vā viharati vā viharissati vā. ",
+      "english": "Neither have I. "
+    },
+    {
+      "number": 158,
+      "pali": "Atha kho, māgaṇḍiya, ye hi keci samaṇā vā brāhmaṇā vā vigatapipāsā ajjhattaṁ vūpasantacittā vihāsuṁ vā viharanti vā viharissanti vā sabbe te kāmānaṁyeva samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā kāmataṇhaṁ pahāya kāmapariḷāhaṁ paṭivinodetvā vigatapipāsā ajjhattaṁ vūpasantacittā vihāsuṁ vā viharanti vā viharissanti vā”ti. ",
+      "english": "On the contrary, all the ascetics or brahmins of the past, future, or present who live rid of thirst, their minds peaceful inside, do so after truly understanding the origin, disappearance, gratification, drawback, and escape of sensual pleasures, and after giving up craving and dispelling passion for sensual pleasures.” "
+    },
+    {
+      "number": 159,
+      "pali": "Atha kho bhagavā tāyaṁ velāyaṁ imaṁ udānaṁ udānesi: ",
+      "english": "Then on that occasion the Buddha expressed this heartfelt sentiment: "
+    },
+    {
+      "number": 160,
+      "pali": "“Ārogyaparamā lābhā, ",
+      "english": "“Health is the ultimate blessing; "
+    },
+    {
+      "number": 161,
+      "pali": "nibbānaṁ paramaṁ sukhaṁ; ",
+      "english": "extinguishment, the ultimate happiness. "
+    },
+    {
+      "number": 162,
+      "pali": "Aṭṭhaṅgiko ca maggānaṁ, ",
+      "english": "Of paths, the ultimate is eightfold—"
+    },
+    {
+      "number": 163,
+      "pali": "khemaṁ amatagāminan”ti. ",
+      "english": "it’s safe, and leads to freedom from death.” "
+    },
+    {
+      "number": 164,
+      "pali": "Evaṁ vutte, māgaṇḍiyo paribbājako bhagavantaṁ etadavoca: ",
+      "english": "When he said this, Māgaṇḍiya said to him, "
+    },
+    {
+      "number": 165,
+      "pali": "“acchariyaṁ, bho gotama, abbhutaṁ, bho gotama. ",
+      "english": "“It’s incredible, worthy Gotama, it’s amazing! "
+    },
+    {
+      "number": 166,
+      "pali": "Yāva subhāsitañcidaṁ bhotā gotamena: ",
+      "english": "How well said this was by the worthy Gotama! "
+    },
+    {
+      "number": 167,
+      "pali": "‘ārogyaparamā lābhā, nibbānaṁ paramaṁ sukhan’ti. ",
+      "english": "‘Health is the ultimate blessing; extinguishment, the ultimate happiness.’ "
+    },
+    {
+      "number": 168,
+      "pali": "Mayāpi kho etaṁ, bho gotama, sutaṁ pubbakānaṁ paribbājakānaṁ ācariyapācariyānaṁ bhāsamānānaṁ: ",
+      "english": "I’ve also heard that wanderers of the past, the tutors of tutors, said: "
+    },
+    {
+      "number": 169,
+      "pali": "‘ārogyaparamā lābhā, nibbānaṁ paramaṁ sukhan’ti; ",
+      "english": "‘Health is the ultimate blessing; extinguishment, the ultimate happiness.’ "
+    },
+    {
+      "number": 170,
+      "pali": "tayidaṁ, bho gotama, sametī”ti. ",
+      "english": "And it agrees, worthy Gotama.” "
+    },
+    {
+      "number": 171,
+      "pali": "“Yaṁ pana te etaṁ, māgaṇḍiya, sutaṁ pubbakānaṁ paribbājakānaṁ ācariyapācariyānaṁ bhāsamānānaṁ: ",
+      "english": "“But Māgaṇḍiya, when you heard that wanderers of the past said this, "
+    },
+    {
+      "number": 172,
+      "pali": "‘ārogyaparamā lābhā, nibbānaṁ paramaṁ sukhan’ti, katamaṁ taṁ ārogyaṁ, katamaṁ taṁ nibbānan”ti? ",
+      "english": "what is that health? And what is that extinguishment?” "
+    },
+    {
+      "number": 173,
+      "pali": "Evaṁ vutte, māgaṇḍiyo paribbājako sakāneva sudaṁ gattāni pāṇinā anomajjati: ",
+      "english": "When he said this, Māgaṇḍiya stroked his own limbs with his hands, saying: "
+    },
+    {
+      "number": 174,
+      "pali": "“idantaṁ, bho gotama, ārogyaṁ, idantaṁ nibbānaṁ. ",
+      "english": "“This is that health, worthy Gotama, this is that extinguishment! "
+    },
+    {
+      "number": 175,
+      "pali": "Ahañhi, bho gotama, etarahi arogo sukhī, na maṁ kiñci ābādhatī”ti. ",
+      "english": "For I am now healthy and happy, and have no afflictions.” "
+    },
+    {
+      "number": 176,
+      "pali": "“Seyyathāpi, māgaṇḍiya, jaccandho puriso; ",
+      "english": "“Māgaṇḍiya, suppose a person was blind from birth. "
+    },
+    {
+      "number": 177,
+      "pali": "so na passeyya kaṇhasukkāni rūpāni, na passeyya nīlakāni rūpāni, na passeyya pītakāni rūpāni, na passeyya lohitakāni rūpāni, na passeyya mañjiṭṭhakāni rūpāni, na passeyya samavisamaṁ, na passeyya tārakarūpāni, na passeyya candimasūriye. ",
+      "english": "They couldn’t see sights that are dark or bright, or blue, yellow, red, or magenta. They couldn’t see even and uneven ground, or the stars, or the moon and sun. "
+    },
+    {
+      "number": 178,
+      "pali": "So suṇeyya cakkhumato bhāsamānassa: ",
+      "english": "They might hear a sighted person saying: "
+    },
+    {
+      "number": 179,
+      "pali": "‘chekaṁ vata, bho, odātaṁ vatthaṁ abhirūpaṁ nimmalaṁ sucī’ti. ",
+      "english": "‘White cloth is really nice, it’s attractive, stainless, and clean.’ "
+    },
+    {
+      "number": 180,
+      "pali": "So odātapariyesanaṁ careyya. ",
+      "english": "They’d go in search of white cloth. "
+    },
+    {
+      "number": 181,
+      "pali": "Tamenaṁ aññataro puriso telamalikatena sāhuḷicīrena vañceyya: ",
+      "english": "But someone would cheat them with a dirty, soiled garment, saying: "
+    },
+    {
+      "number": 182,
+      "pali": "‘idaṁ te, ambho purisa, odātaṁ vatthaṁ abhirūpaṁ nimmalaṁ sucī’ti. ",
+      "english": "‘My friend, here is a white cloth for you, it’s attractive, stainless, and clean.’ "
+    },
+    {
+      "number": 183,
+      "pali": "So taṁ paṭiggaṇheyya, paṭiggahetvā pārupeyya, pārupetvā attamano attamanavācaṁ nicchāreyya: ",
+      "english": "They’d take it and put it on, expressing their gladness: "
+    },
+    {
+      "number": 184,
+      "pali": "‘chekaṁ vata, bho, odātaṁ vatthaṁ abhirūpaṁ nimmalaṁ sucī’ti. ",
+      "english": "‘White cloth is really nice, it’s attractive, stainless, and clean.’ "
+    },
+    {
+      "number": 185,
+      "pali": "Taṁ kiṁ maññasi, māgaṇḍiya, ",
+      "english": "What do you think, Māgaṇḍiya? "
+    },
+    {
+      "number": 186,
+      "pali": "api nu so jaccandho puriso jānanto passanto amuṁ telamalikataṁ sāhuḷicīraṁ paṭiggaṇheyya, paṭiggahetvā pārupeyya, pārupetvā attamano attamanavācaṁ nicchāreyya: ",
+      "english": "Did that person blind from birth do this knowing and seeing, "
+    },
+    {
+      "number": 187,
+      "pali": "‘chekaṁ vata, bho, odātaṁ vatthaṁ abhirūpaṁ nimmalaṁ sucī’ti udāhu cakkhumato saddhāyā”ti? ",
+      "english": "or out of faith in the sighted person?” "
+    },
+    {
+      "number": 188,
+      "pali": "“Ajānanto hi, bho gotama, apassanto so jaccandho puriso amuṁ telamalikataṁ sāhuḷicīraṁ paṭiggaṇheyya, paṭiggahetvā pārupeyya, pārupetvā attamano attamanavācaṁ nicchāreyya: ",
+      "english": "“They did so not knowing or seeing, "
+    },
+    {
+      "number": 189,
+      "pali": "‘chekaṁ vata, bho, odātaṁ vatthaṁ abhirūpaṁ nimmalaṁ sucī’ti, cakkhumato saddhāyā”ti. ",
+      "english": "but out of faith in the sighted person.” "
+    },
+    {
+      "number": 190,
+      "pali": "“Evameva kho, māgaṇḍiya, aññatitthiyā paribbājakā andhā acakkhukā ajānantā ārogyaṁ, apassantā nibbānaṁ, atha ca panimaṁ gāthaṁ bhāsanti: ",
+      "english": "“In the same way, the wanderers of other religions are blind and sightless. Not knowing health and not seeing extinguishment, they still recite this verse: "
+    },
+    {
+      "number": 191,
+      "pali": "‘ārogyaparamā lābhā, nibbānaṁ paramaṁ sukhan’ti. ",
+      "english": "‘Health is the ultimate blessing; extinguishment, the ultimate happiness.’ "
+    },
+    {
+      "number": 192,
+      "pali": "Pubbakehesā, māgaṇḍiya, arahantehi sammāsambuddhehi gāthā bhāsitā: ",
+      "english": "For this verse was recited by the perfected ones, fully awakened Buddhas of the past: "
+    },
+    {
+      "number": 193,
+      "pali": "‘Ārogyaparamā lābhā, ",
+      "english": "‘Health is the ultimate blessing; "
+    },
+    {
+      "number": 194,
+      "pali": "nibbānaṁ paramaṁ sukhaṁ; ",
+      "english": "extinguishment, the ultimate happiness. "
+    },
+    {
+      "number": 195,
+      "pali": "Aṭṭhaṅgiko ca maggānaṁ, ",
+      "english": "Of paths, the ultimate is eightfold—"
+    },
+    {
+      "number": 196,
+      "pali": "khemaṁ amatagāminan’ti. ",
+      "english": "it’s safe, and leads to freedom from death.’ "
+    },
+    {
+      "number": 197,
+      "pali": "Sā etarahi anupubbena puthujjanagāthā. ",
+      "english": "These days it has gradually become a verse used by ordinary people. "
+    },
+    {
+      "number": 198,
+      "pali": "Ayaṁ kho pana, māgaṇḍiya, kāyo rogabhūto gaṇḍabhūto sallabhūto aghabhūto ābādhabhūto, so tvaṁ imaṁ kāyaṁ rogabhūtaṁ gaṇḍabhūtaṁ sallabhūtaṁ aghabhūtaṁ ābādhabhūtaṁ: ",
+      "english": "But Māgaṇḍiya, this body is a disease, a boil, a dart, a gloom, an affliction. Yet you say of this body: "
+    },
+    {
+      "number": 199,
+      "pali": "‘idantaṁ, bho gotama, ārogyaṁ, idantaṁ nibbānan’ti vadesi. ",
+      "english": "‘This is that health, this is that extinguishment!’ "
+    },
+    {
+      "number": 200,
+      "pali": "Tañhi te, māgaṇḍiya, ariyaṁ cakkhuṁ natthi yena tvaṁ ariyena cakkhunā ārogyaṁ jāneyyāsi, nibbānaṁ passeyyāsī”ti. ",
+      "english": "Māgaṇḍiya, you don’t have the noble vision by which you might know health and see extinguishment.” "
+    },
+    {
+      "number": 201,
+      "pali": "“Evaṁ pasanno ahaṁ bhoto gotamassa. ",
+      "english": "“I am quite confident that the worthy Gotama "
+    },
+    {
+      "number": 202,
+      "pali": "Pahoti me bhavaṁ gotamo tathā dhammaṁ desetuṁ yathāhaṁ ārogyaṁ jāneyyaṁ, nibbānaṁ passeyyan”ti. ",
+      "english": "is capable of teaching me so that I can know health and see extinguishment.” "
+    },
+    {
+      "number": 203,
+      "pali": "“Seyyathāpi, māgaṇḍiya, jaccandho puriso; ",
+      "english": "“Māgaṇḍiya, suppose a person was blind from birth. "
+    },
+    {
+      "number": 204,
+      "pali": "so na passeyya kaṇhasukkāni rūpāni, na passeyya nīlakāni rūpāni, na passeyya pītakāni rūpāni, na passeyya lohitakāni rūpāni, na passeyya mañjiṭṭhakāni rūpāni, na passeyya samavisamaṁ, na passeyya tārakarūpāni, na passeyya candimasūriye. ",
+      "english": "They couldn’t see sights that are dark or bright, or blue, yellow, red, or magenta. They couldn’t see even and uneven ground, or the stars, or the moon and sun. "
+    },
+    {
+      "number": 205,
+      "pali": "Tassa mittāmaccā ñātisālohitā bhisakkaṁ sallakattaṁ upaṭṭhāpeyyuṁ. ",
+      "english": "Their friends and colleagues, relatives and kin would get a surgeon to treat them. "
+    },
+    {
+      "number": 206,
+      "pali": "Tassa so bhisakko sallakatto bhesajjaṁ kareyya. ",
+      "english": "The surgeon would make medicine for them, "
+    },
+    {
+      "number": 207,
+      "pali": "So taṁ bhesajjaṁ āgamma na cakkhūni uppādeyya, na cakkhūni visodheyya. ",
+      "english": "but when they used it their eyes were not cured and they still could not see clearly. "
+    },
+    {
+      "number": 208,
+      "pali": "Taṁ kiṁ maññasi, māgaṇḍiya, ",
+      "english": "What do you think, Māgaṇḍiya? "
+    },
+    {
+      "number": 209,
+      "pali": "nanu so vejjo yāvadeva kilamathassa vighātassa bhāgī assā”ti? ",
+      "english": "Wouldn’t that doctor just get weary and frustrated?” "
+    },
+    {
+      "number": 210,
+      "pali": "“Evaṁ, bho gotama”. ",
+      "english": "“Yes, worthy Gotama.” "
+    },
+    {
+      "number": 211,
+      "pali": "“Evameva kho, māgaṇḍiya, ahañce te dhammaṁ deseyyaṁ: ",
+      "english": "“In the same way, suppose I were to teach you the Dhamma, saying: "
+    },
+    {
+      "number": 212,
+      "pali": "‘idantaṁ ārogyaṁ, idantaṁ nibbānan’ti, so tvaṁ ārogyaṁ na jāneyyāsi, nibbānaṁ na passeyyāsi. ",
+      "english": "‘This is that health, this is that extinguishment.’ But you might not know health or see extinguishment, "
+    },
+    {
+      "number": 213,
+      "pali": "So mamassa kilamatho, sā mamassa vihesā”ti. ",
+      "english": "which would be wearying and troublesome for me.” "
+    },
+    {
+      "number": 214,
+      "pali": "“Evaṁ pasanno ahaṁ bhoto gotamassa. ",
+      "english": "“I am quite confident that the worthy Gotama "
+    },
+    {
+      "number": 215,
+      "pali": "Pahoti me bhavaṁ gotamo tathā dhammaṁ desetuṁ yathāhaṁ ārogyaṁ jāneyyaṁ, nibbānaṁ passeyyan”ti. ",
+      "english": "is capable of teaching me so that I can know health and see extinguishment.” "
+    },
+    {
+      "number": 216,
+      "pali": "“Seyyathāpi, māgaṇḍiya, jaccandho puriso; ",
+      "english": "“Māgaṇḍiya, suppose a person was blind from birth. "
+    },
+    {
+      "number": 217,
+      "pali": "so na passeyya kaṇhasukkāni rūpāni, na passeyya nīlakāni rūpāni, na passeyya pītakāni rūpāni, na passeyya lohitakāni rūpāni, na passeyya mañjiṭṭhakāni rūpāni, na passeyya samavisamaṁ, na passeyya tārakarūpāni, na passeyya candimasūriye. ",
+      "english": "They couldn’t see sights that are dark or bright, or blue, yellow, red, or magenta. They couldn’t see even and uneven ground, or the stars, or the moon and sun. "
+    },
+    {
+      "number": 218,
+      "pali": "So suṇeyya cakkhumato bhāsamānassa: ",
+      "english": "They might hear a sighted person saying: "
+    },
+    {
+      "number": 219,
+      "pali": "‘chekaṁ vata, bho, odātaṁ vatthaṁ abhirūpaṁ nimmalaṁ sucī’ti. ",
+      "english": "‘White cloth is really nice, it’s attractive, stainless, and clean.’ "
+    },
+    {
+      "number": 220,
+      "pali": "So odātapariyesanaṁ careyya. ",
+      "english": "They’d go in search of white cloth. "
+    },
+    {
+      "number": 221,
+      "pali": "Tamenaṁ aññataro puriso telamalikatena sāhuḷicīrena vañceyya: ",
+      "english": "But someone would cheat them with a dirty, soiled garment, saying: "
+    },
+    {
+      "number": 222,
+      "pali": "‘idaṁ te, ambho purisa, odātaṁ vatthaṁ abhirūpaṁ nimmalaṁ sucī’ti. ",
+      "english": "‘My friend, here is a white cloth for you, it’s attractive, stainless, and clean.’ "
+    },
+    {
+      "number": 223,
+      "pali": "So taṁ paṭiggaṇheyya, paṭiggahetvā pārupeyya. ",
+      "english": "They’d take it and put it on. "
+    },
+    {
+      "number": 224,
+      "pali": "Tassa mittāmaccā ñātisālohitā bhisakkaṁ sallakattaṁ upaṭṭhāpeyyuṁ. ",
+      "english": "Their friends and colleagues, relatives and kin would get a surgeon to treat them. "
+    },
+    {
+      "number": 225,
+      "pali": "Tassa so bhisakko sallakatto bhesajjaṁ kareyya—",
+      "english": "The surgeon would make medicine for them: "
+    },
+    {
+      "number": 226,
+      "pali": "uddhaṁvirecanaṁ adhovirecanaṁ añjanaṁ paccañjanaṁ natthukammaṁ. ",
+      "english": "emetics, purgatives, ointment, counter-ointment, or nasal treatment. "
+    },
+    {
+      "number": 227,
+      "pali": "So taṁ bhesajjaṁ āgamma cakkhūni uppādeyya, cakkhūni visodheyya. ",
+      "english": "And when they used it their eyes would be cured so that they could see clearly. "
+    },
+    {
+      "number": 228,
+      "pali": "Tassa saha cakkhuppādā yo amusmiṁ telamalikate sāhuḷicīre chandarāgo so pahīyetha. ",
+      "english": "As soon as their eyes were cured they’d lose all desire for that dirty, soiled garment. "
+    },
+    {
+      "number": 229,
+      "pali": "Tañca naṁ purisaṁ amittatopi daheyya, paccatthikatopi daheyya, api ca jīvitā voropetabbaṁ maññeyya: ",
+      "english": "Then they would consider that person to be no friend, but an enemy, and might even think of murdering them: "
+    },
+    {
+      "number": 230,
+      "pali": "‘dīgharattaṁ vata, bho, ahaṁ iminā purisena telamalikatena sāhuḷicīrena nikato vañcito paluddho—",
+      "english": "‘For such a long time I’ve been cheated, tricked, and deceived by that person with this dirty, soiled garment when he said, "
+    },
+    {
+      "number": 231,
+      "pali": "idaṁ te, ambho purisa, odātaṁ vatthaṁ abhirūpaṁ nimmalaṁ sucī’ti. ",
+      "english": "“My friend, here is a white cloth for you, it’s attractive, stainless, and clean.”’ "
+    },
+    {
+      "number": 232,
+      "pali": "Evameva kho, māgaṇḍiya, ahañce te dhammaṁ deseyyaṁ: ",
+      "english": "In the same way, Māgaṇḍiya, suppose I were to teach you the Dhamma, saying: "
+    },
+    {
+      "number": 233,
+      "pali": "‘idantaṁ ārogyaṁ, idantaṁ nibbānan’ti. ",
+      "english": "‘This is that health, this is that extinguishment.’ "
+    },
+    {
+      "number": 234,
+      "pali": "So tvaṁ ārogyaṁ jāneyyāsi, nibbānaṁ passeyyāsi. ",
+      "english": "You might know health and see extinguishment. "
+    },
+    {
+      "number": 235,
+      "pali": "Tassa te saha cakkhuppādā yo pañcasupādānakkhandhesu chandarāgo so pahīyetha; ",
+      "english": "And as soon as your vision arises you might give up desire for the five grasping aggregates. "
+    },
+    {
+      "number": 236,
+      "pali": "api ca te evamassa: ",
+      "english": "And you might even think: "
+    },
+    {
+      "number": 237,
+      "pali": "‘dīgharattaṁ vata bho ahaṁ iminā cittena nikato vañcito paluddho. ",
+      "english": "‘For such a long time I’ve been cheated, tricked, and deceived by this mind. "
+    },
+    {
+      "number": 238,
+      "pali": "Ahañhi rūpaṁyeva upādiyamāno upādiyiṁ, vedanaṁyeva upādiyamāno upādiyiṁ, saññaṁyeva upādiyamāno upādiyiṁ, saṅkhāreyeva upādiyamāno upādiyiṁ, viññāṇaṁyeva upādiyamāno upādiyiṁ. ",
+      "english": "For what I have been grasping is only form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 239,
+      "pali": "Tassa me upādānapaccayā bhavo, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti; ",
+      "english": "My grasping is a requirement for continued existence. Continued existence is a requirement for rebirth. Rebirth is a requirement for old age and death, sorrow, lamentation, pain, sadness, and distress to come to be. "
+    },
+    {
+      "number": 240,
+      "pali": "evametassa kevalassa dukkhakkhandhassa samudayo hotī’”ti. ",
+      "english": "That is how this entire mass of suffering originates.’” "
+    },
+    {
+      "number": 241,
+      "pali": "“Evaṁ pasanno ahaṁ bhoto gotamassa. ",
+      "english": "“I am quite confident that the worthy Gotama "
+    },
+    {
+      "number": 242,
+      "pali": "Pahoti me bhavaṁ gotamo tathā dhammaṁ desetuṁ yathāhaṁ imamhā āsanā anandho vuṭṭhaheyyan”ti. ",
+      "english": "is capable of teaching me so that I can rise from this seat cured of blindness.” "
+    },
+    {
+      "number": 243,
+      "pali": "“Tena hi tvaṁ, māgaṇḍiya, sappurise bhajeyyāsi. ",
+      "english": "“Well then, Māgaṇḍiya, you should associate with true persons. "
+    },
+    {
+      "number": 244,
+      "pali": "Yato kho tvaṁ, māgaṇḍiya, sappurise bhajissasi tato tvaṁ, māgaṇḍiya, saddhammaṁ sossasi; ",
+      "english": "When you associate with true persons, you will hear the true teaching. "
+    },
+    {
+      "number": 245,
+      "pali": "yato kho tvaṁ, māgaṇḍiya, saddhammaṁ sossasi tato tvaṁ, māgaṇḍiya, dhammānudhammaṁ paṭipajjissasi; ",
+      "english": "When you hear the true teaching, you’ll practice in line with the teaching. "
+    },
+    {
+      "number": 246,
+      "pali": "yato kho tvaṁ, māgaṇḍiya, dhammānudhammaṁ paṭipajjissasi tato tvaṁ, māgaṇḍiya, sāmaṁyeva ñassasi, sāmaṁ dakkhissasi—",
+      "english": "When you practice in line with the teaching, you’ll know and see for yourself: "
+    },
+    {
+      "number": 247,
+      "pali": "ime rogā gaṇḍā sallā; ",
+      "english": "‘These are diseases, boils, and darts. "
+    },
+    {
+      "number": 248,
+      "pali": "idha rogā gaṇḍā sallā aparisesā nirujjhanti. ",
+      "english": "And here is where diseases, boils, and darts cease without remainder.’ "
+    },
+    {
+      "number": 249,
+      "pali": "Tassa me upādānanirodhā bhavanirodho, bhavanirodhā jātinirodho, jātinirodhā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā nirujjhanti; ",
+      "english": "When my grasping ceases, continued existence ceases. When continued existence ceases, rebirth ceases. When rebirth ceases, old age and death, sorrow, lamentation, pain, sadness, and distress cease. "
+    },
+    {
+      "number": 250,
+      "pali": "evametassa kevalassa dukkhakkhandhassa nirodho hotī”ti. ",
+      "english": "That is how this entire mass of suffering ceases.” "
+    },
+    {
+      "number": 251,
+      "pali": "Evaṁ vutte, māgaṇḍiyo paribbājako bhagavantaṁ etadavoca: ",
+      "english": "When he said this, Māgaṇḍiya said to him, "
+    },
+    {
+      "number": 252,
+      "pali": "“abhikkantaṁ, bho gotama, abhikkantaṁ, bho gotama. ",
+      "english": "“Excellent, worthy Gotama! Excellent! "
+    },
+    {
+      "number": 253,
+      "pali": "Seyyathāpi, bho gotama, nikkujjitaṁ vā ukkujjeyya, paṭicchannaṁ vā vivareyya, mūḷhassa vā maggaṁ ācikkheyya, andhakāre vā telapajjotaṁ dhāreyya: ‘cakkhumanto rūpāni dakkhantī’ti; evamevaṁ bhotā gotamena anekapariyāyena dhammo pakāsito. ",
+      "english": "As if he were righting the overturned, or revealing the hidden, or pointing out the path to the lost, or lighting a lamp in the dark so people with clear eyes can see what’s there, worthy Gotama has made the teaching clear in many ways. "
+    },
+    {
+      "number": 254,
+      "pali": "Esāhaṁ bhavantaṁ gotamaṁ saraṇaṁ gacchāmi dhammañca bhikkhusaṅghañca. ",
+      "english": "I go for refuge to the worthy Gotama, to the teaching, and to the mendicant Saṅgha. "
+    },
+    {
+      "number": 255,
+      "pali": "Labheyyāhaṁ bhoto gotamassa santike pabbajjaṁ, labheyyaṁ upasampadan”ti. ",
+      "english": "May I receive the going forth, the ordination in the worthy Gotama’s presence?” "
+    },
+    {
+      "number": 256,
+      "pali": "“Yo kho, māgaṇḍiya, aññatitthiyapubbo imasmiṁ dhammavinaye ākaṅkhati pabbajjaṁ, ākaṅkhati upasampadaṁ, so cattāro māse parivasati; catunnaṁ māsānaṁ accayena āraddhacittā bhikkhū pabbājenti, upasampādenti bhikkhubhāvāya. ",
+      "english": "“Māgaṇḍiya, if someone formerly ordained in another sect wishes to take the going forth, the ordination in this teaching and training, they must spend four months on probation. When four months have passed, if the mendicants are satisfied, they’ll give the going forth, the ordination into monkhood. "
+    },
+    {
+      "number": 257,
+      "pali": "Api ca mettha puggalavemattatā viditā”ti. ",
+      "english": "However, I recognize individual differences in this matter.” "
+    },
+    {
+      "number": 258,
+      "pali": "“Sace, bhante, aññatitthiyapubbā imasmiṁ dhammavinaye ākaṅkhantā pabbajjaṁ, ākaṅkhantā upasampadaṁ cattāro māse parivasanti, catunnaṁ māsānaṁ accayena āraddhacittā bhikkhū pabbājenti upasampādenti bhikkhubhāvāya; ahaṁ cattāri vassāni parivasissāmi, catunnaṁ vassānaṁ accayena āraddhacittā bhikkhū pabbājentu, upasampādentu bhikkhubhāvāyā”ti. ",
+      "english": "“Sir, if four months probation are required in such a case, I’ll spend four years on probation. When four years have passed, if the mendicants are satisfied, let them give me the going forth, the ordination into monkhood.” "
+    },
+    {
+      "number": 259,
+      "pali": "Alattha kho māgaṇḍiyo paribbājako bhagavato santike pabbajjaṁ, alattha upasampadaṁ. ",
+      "english": "And the wanderer Māgaṇḍiya received the going forth, the ordination in the Buddha’s presence. "
+    },
+    {
+      "number": 260,
+      "pali": "Acirūpasampanno kho panāyasmā māgaṇḍiyo eko vūpakaṭṭho appamatto ātāpī pahitatto viharanto nacirasseva—yassatthāya kulaputtā sammadeva agārasmā anagāriyaṁ pabbajanti, tadanuttaraṁ—brahmacariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja vihāsi. ",
+      "english": "Not long after his ordination, Venerable Māgaṇḍiya, living alone, withdrawn, diligent, keen, and resolute, realized the supreme culmination of the spiritual path in this very life. He lived having achieved with his own insight the goal for which gentlemen rightly go forth from the lay life to homelessness. "
+    },
+    {
+      "number": 261,
+      "pali": "“Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti abbhaññāsi. ",
+      "english": "He understood: “Rebirth is ended; the spiritual journey has been completed; what had to be done has been done; there is nothing further for this place.” "
+    },
+    {
+      "number": 262,
+      "pali": "Aññataro kho panāyasmā māgaṇḍiyo arahataṁ ahosīti. ",
+      "english": "And Venerable Māgaṇḍiya became one of the perfected. "
+    },
+    {
+      "number": 263,
+      "pali": "Māgaṇḍiyasuttaṁ niṭṭhitaṁ pañcamaṁ. ",
+      "english": ""
+    }
+  ]
+}

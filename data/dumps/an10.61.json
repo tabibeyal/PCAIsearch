@@ -1,0 +1,350 @@
+{
+  "sutta_id": "AN10.61",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 10.61 ",
+      "english": "Numbered Discourses 10.61 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Yamakavagga ",
+      "english": "7. Pairs "
+    },
+    {
+      "number": 3,
+      "pali": "Avijjāsutta ",
+      "english": "Ignorance "
+    },
+    {
+      "number": 4,
+      "pali": "“Purimā, bhikkhave, koṭi na paññāyati avijjāya: ‘ito pubbe avijjā nāhosi, atha pacchā samabhavī’ti. ",
+      "english": "“Mendicants, it is said that no prior point of ignorance is evident, before which there was no ignorance, and afterwards it came to be. "
+    },
+    {
+      "number": 5,
+      "pali": "Evañcetaṁ, bhikkhave, vuccati, atha ca pana paññāyati: ‘idappaccayā avijjā’ti. ",
+      "english": "And yet it is evident that there is a specific condition for ignorance. "
+    },
+    {
+      "number": 6,
+      "pali": "Avijjampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that ignorance is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 7,
+      "pali": "Ko cāhāro avijjāya? ",
+      "english": "And what is the fuel for ignorance? "
+    },
+    {
+      "number": 8,
+      "pali": "‘Pañca nīvaraṇā’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘The five hindrances.’ "
+    },
+    {
+      "number": 9,
+      "pali": "Pañcapāhaṁ, bhikkhave, nīvaraṇe sāhāre vadāmi, no anāhāre. ",
+      "english": "I say that the five hindrances are fueled by something, they’re not unfueled. "
+    },
+    {
+      "number": 10,
+      "pali": "Ko cāhāro pañcannaṁ nīvaraṇānaṁ? ",
+      "english": "And what is the fuel for the five hindrances? "
+    },
+    {
+      "number": 11,
+      "pali": "‘Tīṇi duccaritānī’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘The three kinds of misconduct.’ "
+    },
+    {
+      "number": 12,
+      "pali": "Tīṇipāhaṁ, bhikkhave, duccaritāni sāhārāni vadāmi, no anāhārāni. ",
+      "english": "I say that the three kinds of misconduct are fueled by something, they’re not unfueled. "
+    },
+    {
+      "number": 13,
+      "pali": "Ko cāhāro tiṇṇaṁ duccaritānaṁ? ",
+      "english": "And what is the fuel for the three kinds of misconduct? "
+    },
+    {
+      "number": 14,
+      "pali": "‘Indriyaasaṁvaro’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Lack of sense restraint.’ "
+    },
+    {
+      "number": 15,
+      "pali": "Indriyaasaṁvarampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that lack of sense restraint is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 16,
+      "pali": "Ko cāhāro indriyaasaṁvarassa? ",
+      "english": "And what is the fuel for lack of sense restraint? "
+    },
+    {
+      "number": 17,
+      "pali": "‘Asatāsampajaññan’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Lack of mindfulness and situational awareness.’ "
+    },
+    {
+      "number": 18,
+      "pali": "Asatāsampajaññampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that lack of mindfulness and situational awareness is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 19,
+      "pali": "Ko cāhāro asatāsampajaññassa? ",
+      "english": "And what is the fuel for lack of mindfulness and situational awareness? "
+    },
+    {
+      "number": 20,
+      "pali": "‘Ayonisomanasikāro’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Irrational application of mind.’ "
+    },
+    {
+      "number": 21,
+      "pali": "Ayonisomanasikārampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that irrational application of mind is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 22,
+      "pali": "Ko cāhāro ayonisomanasikārassa? ",
+      "english": "And what is the fuel for irrational application of mind? "
+    },
+    {
+      "number": 23,
+      "pali": "‘Assaddhiyan’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Lack of faith.’ "
+    },
+    {
+      "number": 24,
+      "pali": "Assaddhiyampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that lack of faith is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 25,
+      "pali": "Ko cāhāro assaddhiyassa? ",
+      "english": "And what is the fuel for lack of faith? "
+    },
+    {
+      "number": 26,
+      "pali": "‘Asaddhammassavanan’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Listening to an untrue teaching.’ "
+    },
+    {
+      "number": 27,
+      "pali": "Asaddhammassavanampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that listening to an untrue teaching is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 28,
+      "pali": "Ko cāhāro asaddhammassavanassa? ",
+      "english": "And what is the fuel for listening to an untrue teaching? "
+    },
+    {
+      "number": 29,
+      "pali": "‘Asappurisasaṁsevo’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Associating with untrue persons.’ "
+    },
+    {
+      "number": 30,
+      "pali": "Iti kho, bhikkhave, asappurisasaṁsevo paripūro asaddhammassavanaṁ paripūreti, asaddhammassavanaṁ paripūraṁ assaddhiyaṁ paripūreti, assaddhiyaṁ paripūraṁ ayonisomanasikāraṁ paripūreti, ayonisomanasikāro paripūro asatāsampajaññaṁ paripūreti, asatāsampajaññaṁ paripūraṁ indriyaasaṁvaraṁ paripūreti, indriyaasaṁvaro paripūro tīṇi duccaritāni paripūreti, tīṇi duccaritāni paripūrāni pañca nīvaraṇe paripūrenti, pañca nīvaraṇā paripūrā avijjaṁ paripūrenti; ",
+      "english": "In this way, when the factor of associating with untrue persons is fulfilled, it fulfills the factor of listening to an untrue teaching. When the factor of listening to an untrue teaching is fulfilled, it fulfills the factor of lack of faith … irrational application of mind … lack of mindfulness and situational awareness … lack of sense restraint …the three kinds of misconduct … the five hindrances. When the five hindrances are fulfilled, they fulfill ignorance. "
+    },
+    {
+      "number": 31,
+      "pali": "evametissā avijjāya āhāro hoti, evañca pāripūri. ",
+      "english": "That’s the fuel for ignorance, and that’s how it’s fulfilled. "
+    },
+    {
+      "number": 32,
+      "pali": "Seyyathāpi, bhikkhave, uparipabbate thullaphusitake deve vassante (…) taṁ udakaṁ yathāninnaṁ pavattamānaṁ pabbatakandarapadarasākhā paripūreti, pabbatakandarapadarasākhā paripūrā kusobbhe paripūrenti. Kusobbhā paripūrā mahāsobbhe paripūrenti, mahāsobbhā paripūrā kunnadiyo paripūrenti, kunnadiyo paripūrā mahānadiyo paripūrenti, mahānadiyo paripūrā mahāsamuddaṁ sāgaraṁ paripūrenti; ",
+      "english": "It’s like when the heavens rain heavily on a mountain top, and the water flows downhill to fill the hollows, crevices, and creeks. As they become full, they fill up the pools. The pools fill up the lakes, the lakes fill up the streams, and the streams fill up the rivers. And as the rivers become full, they fill up the ocean. "
+    },
+    {
+      "number": 33,
+      "pali": "evametassa mahāsamuddassa sāgarassa āhāro hoti, evañca pāripūri. ",
+      "english": "That’s the fuel for the ocean, and that’s how it’s filled up. "
+    },
+    {
+      "number": 34,
+      "pali": "Evamevaṁ kho, bhikkhave, asappurisasaṁsevo paripūro asaddhammassavanaṁ paripūreti, asaddhammassavanaṁ paripūraṁ assaddhiyaṁ paripūreti, assaddhiyaṁ paripūraṁ ayonisomanasikāraṁ paripūreti, ayonisomanasikāro paripūro asatāsampajaññaṁ paripūreti, asatāsampajaññaṁ paripūraṁ indriyaasaṁvaraṁ paripūreti, indriyaasaṁvaro paripūro tīṇi duccaritāni paripūreti, tīṇi duccaritāni paripūrāni pañca nīvaraṇe paripūrenti, pañca nīvaraṇā paripūrā avijjaṁ paripūrenti; ",
+      "english": "In the same way, when the factor of associating with untrue persons is fulfilled, it fulfills the factor of listening to an untrue teaching. When the factor of listening to an untrue teaching is fulfilled, it fulfills the factor of lack of faith … irrational application of mind … lack of mindfulness and situational awareness … lack of sense restraint …the three kinds of misconduct … the five hindrances. When the five hindrances are fulfilled, they fulfill ignorance. "
+    },
+    {
+      "number": 35,
+      "pali": "evametissā avijjāya āhāro hoti, evañca pāripūri. ",
+      "english": "That’s the fuel for ignorance, and that’s how it’s fulfilled. "
+    },
+    {
+      "number": 36,
+      "pali": "Vijjāvimuttimpāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that knowledge and freedom are fueled by something, they’re not unfueled. "
+    },
+    {
+      "number": 37,
+      "pali": "Ko cāhāro vijjāvimuttiyā? ",
+      "english": "And what is the fuel for knowledge and freedom? "
+    },
+    {
+      "number": 38,
+      "pali": "‘Satta bojjhaṅgā’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘The seven awakening factors.’ "
+    },
+    {
+      "number": 39,
+      "pali": "Sattapāhaṁ, bhikkhave, bojjhaṅge sāhāre vadāmi, no anāhāre. ",
+      "english": "I say that the seven awakening factors are fueled by something, they’re not unfueled. "
+    },
+    {
+      "number": 40,
+      "pali": "Ko cāhāro sattannaṁ bojjhaṅgānaṁ? ",
+      "english": "And what is the fuel for the seven awakening factors? "
+    },
+    {
+      "number": 41,
+      "pali": "‘Cattāro satipaṭṭhānā’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘The four kinds of mindfulness meditation.’ "
+    },
+    {
+      "number": 42,
+      "pali": "Cattāropāhaṁ, bhikkhave, satipaṭṭhāne sāhāre vadāmi, no anāhāre. ",
+      "english": "I say that the four kinds of mindfulness meditation are fueled by something, they’re not unfueled. "
+    },
+    {
+      "number": 43,
+      "pali": "Ko cāhāro catunnaṁ satipaṭṭhānānaṁ? ",
+      "english": "And what is the fuel for the four kinds of mindfulness meditation? "
+    },
+    {
+      "number": 44,
+      "pali": "‘Tīṇi sucaritānī’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘The three kinds of good conduct.’ "
+    },
+    {
+      "number": 45,
+      "pali": "Tīṇipāhaṁ, bhikkhave, sucaritāni sāhārāni vadāmi, no anāhārāni. ",
+      "english": "I say that the three kinds of good conduct are fueled by something, they’re not unfueled. "
+    },
+    {
+      "number": 46,
+      "pali": "Ko cāhāro tiṇṇaṁ sucaritānaṁ? ",
+      "english": "And what is the fuel for the three kinds of good conduct? "
+    },
+    {
+      "number": 47,
+      "pali": "‘Indriyasaṁvaro’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Sense restraint.’ "
+    },
+    {
+      "number": 48,
+      "pali": "Indriyasaṁvarampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that sense restraint is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 49,
+      "pali": "Ko cāhāro indriyasaṁvarassa? ",
+      "english": "And what is the fuel for sense restraint? "
+    },
+    {
+      "number": 50,
+      "pali": "‘Satisampajaññan’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Mindfulness and situational awareness.’ "
+    },
+    {
+      "number": 51,
+      "pali": "Satisampajaññampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that mindfulness and situational awareness is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 52,
+      "pali": "Ko cāhāro satisampajaññassa? ",
+      "english": "And what is the fuel for mindfulness and situational awareness? "
+    },
+    {
+      "number": 53,
+      "pali": "‘Yonisomanasikāro’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Rational application of mind.’ "
+    },
+    {
+      "number": 54,
+      "pali": "Yonisomanasikārampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that rational application of mind is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 55,
+      "pali": "Ko cāhāro yonisomanasikārassa? ",
+      "english": "And what is the fuel for rational application of mind? "
+    },
+    {
+      "number": 56,
+      "pali": "‘Saddhā’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Faith.’ "
+    },
+    {
+      "number": 57,
+      "pali": "Saddhampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that faith is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 58,
+      "pali": "Ko cāhāro saddhāya? ",
+      "english": "And what is the fuel for faith? "
+    },
+    {
+      "number": 59,
+      "pali": "‘Saddhammassavanan’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Listening to the true teaching.’ "
+    },
+    {
+      "number": 60,
+      "pali": "Saddhammassavanampāhaṁ, bhikkhave, sāhāraṁ vadāmi, no anāhāraṁ. ",
+      "english": "I say that listening to the true teaching is fueled by something, it’s not unfueled. "
+    },
+    {
+      "number": 61,
+      "pali": "Ko cāhāro saddhammassavanassa? ",
+      "english": "And what is the fuel for listening to the true teaching? "
+    },
+    {
+      "number": 62,
+      "pali": "‘Sappurisasaṁsevo’tissa vacanīyaṁ. ",
+      "english": "You should say: ‘Associating with true persons.’ "
+    },
+    {
+      "number": 63,
+      "pali": "Iti kho, bhikkhave, sappurisasaṁsevo paripūro saddhammassavanaṁ paripūreti, saddhammassavanaṁ paripūraṁ saddhaṁ paripūreti, saddhā paripūrā yonisomanasikāraṁ paripūreti, yonisomanasikāro paripūro satisampajaññaṁ paripūreti, satisampajaññaṁ paripūraṁ indriyasaṁvaraṁ paripūreti, indriyasaṁvaro paripūro tīṇi sucaritāni paripūreti, tīṇi sucaritāni paripūrāni cattāro satipaṭṭhāne paripūrenti, cattāro satipaṭṭhānā paripūrā satta bojjhaṅge paripūrenti, satta bojjhaṅgā paripūrā vijjāvimuttiṁ paripūrenti; ",
+      "english": "In this way, when the factor of associating with true persons is fulfilled, it fulfills the factor of listening to the true teaching. When the factor of listening to the true teaching is fulfilled, it fulfills the factor of faith … rational application of mind … mindfulness and situational awareness … sense restraint …the three kinds of good conduct … the four kinds of mindfulness meditation … the seven awakening factors. When the seven awakening factors are fulfilled, they fulfill knowledge and freedom. "
+    },
+    {
+      "number": 64,
+      "pali": "evametissā vijjāvimuttiyā āhāro hoti, evañca pāripūri. ",
+      "english": "That’s the fuel for knowledge and freedom, and that’s how it’s fulfilled. "
+    },
+    {
+      "number": 65,
+      "pali": "Seyyathāpi, bhikkhave, uparipabbate thullaphusitake deve vassante taṁ udakaṁ yathāninnaṁ pavattamānaṁ pabbatakandarapadarasākhā paripūreti, pabbatakandarapadarasākhā paripūrā kusobbhe paripūrenti, kusobbhā paripūrā mahāsobbhe paripūrenti, mahāsobbhā paripūrā kunnadiyo paripūrenti, kunnadiyo paripūrā mahānadiyo paripūrenti, mahānadiyo paripūrā mahāsamuddaṁ sāgaraṁ paripūrenti; ",
+      "english": "It’s like when the heavens rain heavily on a mountain top, and the water flows downhill to fill the hollows, crevices, and creeks. As they become full, they fill up the pools. The pools fill up the lakes, the lakes fill up the streams, and the streams fill up the rivers. And as the rivers become full, they fill up the ocean. "
+    },
+    {
+      "number": 66,
+      "pali": "evametassa mahāsamuddassa sāgarassa āhāro hoti, evañca pāripūri. ",
+      "english": "That’s the fuel for the ocean, and that’s how it’s filled up. "
+    },
+    {
+      "number": 67,
+      "pali": "Evamevaṁ kho, bhikkhave, sappurisasaṁsevo paripūro saddhammassavanaṁ paripūreti, saddhammassavanaṁ paripūraṁ saddhaṁ paripūreti, saddhā paripūrā yonisomanasikāraṁ paripūreti, yonisomanasikāro paripūro satisampajaññaṁ paripūreti, satisampajaññaṁ paripūraṁ indriyasaṁvaraṁ paripūreti, indriyasaṁvaro paripūro tīṇi sucaritāni paripūreti, tīṇi sucaritāni paripūrāni cattāro satipaṭṭhāne paripūrenti, cattāro satipaṭṭhānā paripūrā satta bojjhaṅge paripūrenti, satta bojjhaṅgā paripūrā vijjāvimuttiṁ paripūrenti; ",
+      "english": "In the same way, when the factor of associating with true persons is fulfilled, it fulfills the factor of listening to the true teaching. When the factor of listening to the true teaching is fulfilled, it fulfills the factor of faith … rational application of mind … mindfulness and situational awareness … sense restraint …the three kinds of good conduct … the four kinds of mindfulness meditation … the seven awakening factors. When the seven awakening factors are fulfilled, they fulfill knowledge and freedom. "
+    },
+    {
+      "number": 68,
+      "pali": "evametissā vijjāvimuttiyā āhāro hoti, evañca pāripūrī”ti. ",
+      "english": "That’s the fuel for knowledge and freedom, and that’s how it’s fulfilled.” "
+    },
+    {
+      "number": 69,
+      "pali": "Paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "sutta_id": "SN22.2",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 22.2 ",
+      "english": "Linked Discourses 22.2 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Nakulapituvagga ",
+      "english": "1. Nakula’s Father "
+    },
+    {
+      "number": 3,
+      "pali": "Devadahasutta ",
+      "english": "At Devadaha "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā sakkesu viharati devadahaṁ nāma sakyānaṁ nigamo. ",
+      "english": "At one time the Buddha was staying in the land of the Sakyans, where they have a town named Devadaha. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho sambahulā pacchābhūmagamikā bhikkhū yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū bhagavantaṁ etadavocuṁ: ",
+      "english": "Then several mendicants who were heading for the west went up to the Buddha, bowed, sat down to one side, and said to him, "
+    },
+    {
+      "number": 7,
+      "pali": "“icchāma mayaṁ, bhante, pacchābhūmaṁ janapadaṁ gantuṁ, pacchābhūme janapade nivāsaṁ kappetun”ti. ",
+      "english": "“Sir, we wish to go to a western land to take up residence there.” "
+    },
+    {
+      "number": 8,
+      "pali": "“Apalokito pana vo, bhikkhave, sāriputto”ti? ",
+      "english": "“But mendicants, have you taken leave of Sāriputta?” "
+    },
+    {
+      "number": 9,
+      "pali": "“Na kho no, bhante, apalokito āyasmā sāriputto”ti. ",
+      "english": "“No, sir, we haven’t.” "
+    },
+    {
+      "number": 10,
+      "pali": "“Apaloketha, bhikkhave, sāriputtaṁ. ",
+      "english": "“You should take leave of Sāriputta. "
+    },
+    {
+      "number": 11,
+      "pali": "Sāriputto, bhikkhave, paṇḍito, bhikkhūnaṁ anuggāhako sabrahmacārīnan”ti. ",
+      "english": "He’s astute, and supports his spiritual companions, the mendicants.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 13,
+      "pali": "Tena kho pana samayena āyasmā sāriputto bhagavato avidūre aññatarasmiṁ eḷagalāgumbe nisinno hoti. ",
+      "english": "Now at that time Venerable Sāriputta was sitting not far from the Buddha in a clump of golden shower trees. "
+    },
+    {
+      "number": 14,
+      "pali": "Atha kho te bhikkhū bhagavato bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā yenāyasmā sāriputto tenupasaṅkamiṁsu; upasaṅkamitvā āyasmatā sāriputtena saddhiṁ sammodiṁsu. ",
+      "english": "And then those mendicants approved and agreed with what the Buddha said. They got up from their seat, bowed, and respectfully circled the Buddha, keeping him on their right. Then they went up to Venerable Sāriputta, and exchanged greetings with him. "
+    },
+    {
+      "number": 15,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū āyasmantaṁ sāriputtaṁ etadavocuṁ: ",
+      "english": "When the greetings and polite conversation were over, they sat down to one side and said to him, "
+    },
+    {
+      "number": 16,
+      "pali": "“icchāma mayaṁ, āvuso sāriputta, pacchābhūmaṁ janapadaṁ gantuṁ, pacchābhūme janapade nivāsaṁ kappetuṁ. ",
+      "english": "“Reverend Sāriputta, we wish to go to a western land to take up residence there. "
+    },
+    {
+      "number": 17,
+      "pali": "Apalokito no satthā”ti. ",
+      "english": "We have taken leave of the Teacher.” "
+    },
+    {
+      "number": 18,
+      "pali": "“Santi hāvuso, nānāverajjagataṁ bhikkhuṁ pañhaṁ pucchitāro—",
+      "english": "“Reverends, there are those who question a mendicant who has gone abroad—"
+    },
+    {
+      "number": 19,
+      "pali": "khattiyapaṇḍitāpi brāhmaṇapaṇḍitāpi gahapatipaṇḍitāpi samaṇapaṇḍitāpi. ",
+      "english": "astute aristocrats, brahmins, householders, and ascetics—"
+    },
+    {
+      "number": 20,
+      "pali": "Paṇḍitā hāvuso, manussā vīmaṁsakā: ",
+      "english": "for astute people are inquisitive: "
+    },
+    {
+      "number": 21,
+      "pali": "‘kiṁvādī panāyasmantānaṁ satthā kimakkhāyī’ti, kacci vo āyasmantānaṁ dhammā sussutā suggahitā sumanasikatā sūpadhāritā suppaṭividdhā paññāya, yathā byākaramānā āyasmanto vuttavādino ceva bhagavato assatha, na ca bhagavantaṁ abhūtena abbhācikkheyyātha, dhammassa cānudhammaṁ byākareyyātha, na ca koci sahadhammiko vādānuvādo gārayhaṁ ṭhānaṁ āgaccheyyā”ti? ",
+      "english": "‘But what does the venerables’ Teacher teach? What does he explain?’ I trust the venerables have properly heard, learned, applied the mind, and remembered the teachings, and penetrated them with wisdom. That way, when answering you will repeat what the Buddha has said and not misrepresent him with an untruth. You will explain in line with the teaching, with no legitimate grounds for rebuttal and criticism.” "
+    },
+    {
+      "number": 22,
+      "pali": "“Dūratopi kho mayaṁ, āvuso, āgaccheyyāma āyasmato sāriputtassa santike etassa bhāsitassa atthamaññātuṁ. ",
+      "english": "“Reverend, we would travel a long way to learn the meaning of this statement in the presence of Venerable Sāriputta. "
+    },
+    {
+      "number": 23,
+      "pali": "Sādhu vatāyasmantaṁyeva sāriputtaṁ paṭibhātu etassa bhāsitassa attho”ti. ",
+      "english": "May Venerable Sāriputta himself please clarify the meaning of this.” "
+    },
+    {
+      "number": 24,
+      "pali": "“Tena hāvuso, suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "“Well then, reverends, listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 25,
+      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato sāriputtassa paccassosuṁ. ",
+      "english": "“Yes, reverend,” they replied. "
+    },
+    {
+      "number": 26,
+      "pali": "Āyasmā sāriputto etadavoca: ",
+      "english": "Sāriputta said this: "
+    },
+    {
+      "number": 27,
+      "pali": "“Santi hāvuso, nānāverajjagataṁ bhikkhuṁ pañhaṁ pucchitāro—",
+      "english": "“Reverends, there are those who question a mendicant who has gone abroad—"
+    },
+    {
+      "number": 28,
+      "pali": "khattiyapaṇḍitāpi …pe… samaṇapaṇḍitāpi. ",
+      "english": "astute aristocrats, brahmins, householders, and ascetics—"
+    },
+    {
+      "number": 29,
+      "pali": "Paṇḍitā hāvuso, manussā vīmaṁsakā: ",
+      "english": "for astute people are inquisitive: "
+    },
+    {
+      "number": 30,
+      "pali": "‘kiṁvādī panāyasmantānaṁ satthā kimakkhāyī’ti? ",
+      "english": "‘But what does the venerables’ Teacher teach? What does he explain?’ "
+    },
+    {
+      "number": 31,
+      "pali": "Evaṁ puṭṭhā tumhe, āvuso, evaṁ byākareyyātha: ",
+      "english": "When questioned like this, reverends, you should answer: "
+    },
+    {
+      "number": 32,
+      "pali": "‘chandarāgavinayakkhāyī kho no, āvuso, satthā’ti. ",
+      "english": "‘Reverend, our Teacher explained the removal of desire and lust.’ "
+    },
+    {
+      "number": 33,
+      "pali": "Evaṁ byākatepi kho, āvuso, assuyeva uttariṁ pañhaṁ pucchitāro—",
+      "english": "When you answer like this, such astute people may inquire further: "
+    },
+    {
+      "number": 34,
+      "pali": "khattiyapaṇḍitāpi …pe… samaṇapaṇḍitāpi. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Paṇḍitā hāvuso, manussā vīmaṁsakā: ",
+      "english": ""
+    },
+    {
+      "number": 36,
+      "pali": "‘kismiṁ panāyasmantānaṁ chandarāgavinayakkhāyī satthā’ti? ",
+      "english": "‘But regarding what does the venerables’ teacher explain the removal of desire and lust?’ "
+    },
+    {
+      "number": 37,
+      "pali": "Evaṁ puṭṭhā tumhe, āvuso, evaṁ byākareyyātha: ",
+      "english": "When questioned like this, reverends, you should answer: "
+    },
+    {
+      "number": 38,
+      "pali": "‘rūpe kho, āvuso, chandarāgavinayakkhāyī satthā, ",
+      "english": "‘Our teacher explains the removal of desire and lust for form, "
+    },
+    {
+      "number": 39,
+      "pali": "vedanāya … ",
+      "english": "feeling, "
+    },
+    {
+      "number": 40,
+      "pali": "saññāya … ",
+      "english": "perception, "
+    },
+    {
+      "number": 41,
+      "pali": "saṅkhāresu … ",
+      "english": "choices, "
+    },
+    {
+      "number": 42,
+      "pali": "viññāṇe chandarāgavinayakkhāyī satthā’ti. ",
+      "english": "and consciousness.’ "
+    },
+    {
+      "number": 43,
+      "pali": "Evaṁ byākatepi kho, āvuso, assuyeva uttariṁ pañhaṁ pucchitāro—",
+      "english": "When you answer like this, such astute people may inquire further: "
+    },
+    {
+      "number": 44,
+      "pali": "khattiyapaṇḍitāpi …pe… samaṇapaṇḍitāpi. ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "Paṇḍitā hāvuso, manussā vīmaṁsakā: ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "‘kiṁ panāyasmantānaṁ ādīnavaṁ disvā rūpe chandarāgavinayakkhāyī satthā, ",
+      "english": "‘But what drawback has he seen that he teaches the removal of desire and lust for form, "
+    },
+    {
+      "number": 47,
+      "pali": "vedanāya … ",
+      "english": "feeling, "
+    },
+    {
+      "number": 48,
+      "pali": "saññāya … ",
+      "english": "perception, "
+    },
+    {
+      "number": 49,
+      "pali": "saṅkhāresu … ",
+      "english": "choices, "
+    },
+    {
+      "number": 50,
+      "pali": "viññāṇe chandarāgavinayakkhāyī satthā’ti? ",
+      "english": "and consciousness?’ "
+    },
+    {
+      "number": 51,
+      "pali": "Evaṁ puṭṭhā tumhe, āvuso, evaṁ byākareyyātha: ",
+      "english": "When questioned like this, reverends, you should answer: "
+    },
+    {
+      "number": 52,
+      "pali": "‘rūpe kho, āvuso, avigatarāgassa avigatacchandassa avigatapemassa avigatapipāsassa avigatapariḷāhassa avigatataṇhassa tassa rūpassa vipariṇāmaññathābhāvā uppajjanti sokaparidevadukkhadomanassupāyāsā. ",
+      "english": "‘If you’re not free of greed, desire, fondness, thirst, passion, and craving for form, when that form decays and perishes it gives rise to sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 53,
+      "pali": "Vedanāya … ",
+      "english": "If you’re not free of greed, desire, fondness, thirst, passion, and craving for feeling … "
+    },
+    {
+      "number": 54,
+      "pali": "saññāya … ",
+      "english": "perception … "
+    },
+    {
+      "number": 55,
+      "pali": "saṅkhāresu avigatarāgassa …pe… ",
+      "english": "choices … "
+    },
+    {
+      "number": 56,
+      "pali": "avigatataṇhassa tesaṁ saṅkhārānaṁ vipariṇāmaññathābhāvā uppajjanti sokaparidevadukkhadomanassupāyāsā. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "Viññāṇe avigatarāgassa avigatacchandassa avigatapemassa avigatapipāsassa avigatapariḷāhassa avigatataṇhassa tassa viññāṇassa vipariṇāmaññathābhāvā uppajjanti sokaparidevadukkhadomanassupāyāsā. ",
+      "english": "consciousness, when that consciousness decays and perishes it gives rise to sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 58,
+      "pali": "Idaṁ kho no, āvuso, ādīnavaṁ disvā rūpe chandarāgavinayakkhāyī satthā, ",
+      "english": "This is the drawback our Teacher has seen that he teaches the removal of desire and lust for form, "
+    },
+    {
+      "number": 59,
+      "pali": "vedanāya … ",
+      "english": "feeling, "
+    },
+    {
+      "number": 60,
+      "pali": "saññāya … ",
+      "english": "perception, "
+    },
+    {
+      "number": 61,
+      "pali": "saṅkhāresu … ",
+      "english": "choices, "
+    },
+    {
+      "number": 62,
+      "pali": "viññāṇe chandarāgavinayakkhāyī satthā’ti. ",
+      "english": "and consciousness.’ "
+    },
+    {
+      "number": 63,
+      "pali": "Evaṁ byākatepi kho, āvuso, assuyeva uttariṁ pañhaṁ pucchitāro—",
+      "english": "When you answer like this, such astute people may inquire further: "
+    },
+    {
+      "number": 64,
+      "pali": "khattiyapaṇḍitāpi brāhmaṇapaṇḍitāpi gahapatipaṇḍitāpi samaṇapaṇḍitāpi. ",
+      "english": ""
+    },
+    {
+      "number": 65,
+      "pali": "Paṇḍitā hāvuso, manussā vīmaṁsakā: ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "‘kiṁ panāyasmantānaṁ ānisaṁsaṁ disvā rūpe chandarāgavinayakkhāyī satthā, ",
+      "english": "‘But what benefit has he seen that he teaches the removal of desire and lust for form, "
+    },
+    {
+      "number": 67,
+      "pali": "vedanāya … ",
+      "english": "feeling, "
+    },
+    {
+      "number": 68,
+      "pali": "saññāya … ",
+      "english": "perception, "
+    },
+    {
+      "number": 69,
+      "pali": "saṅkhāresu … ",
+      "english": "choices, "
+    },
+    {
+      "number": 70,
+      "pali": "viññāṇe chandarāgavinayakkhāyī satthā’ti? ",
+      "english": "and consciousness?’ "
+    },
+    {
+      "number": 71,
+      "pali": "Evaṁ puṭṭhā tumhe, āvuso, evaṁ byākareyyātha: ",
+      "english": "When questioned like this, reverends, you should answer: "
+    },
+    {
+      "number": 72,
+      "pali": "‘rūpe kho, āvuso, vigatarāgassa vigatacchandassa vigatapemassa vigatapipāsassa vigatapariḷāhassa vigatataṇhassa tassa rūpassa vipariṇāmaññathābhāvā nuppajjanti sokaparidevadukkhadomanassupāyāsā. ",
+      "english": "‘If you are rid of greed, desire, fondness, thirst, passion, and craving for form, when that form decays and perishes it doesn’t give rise to sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 73,
+      "pali": "Vedanāya … ",
+      "english": "If you are rid of greed, desire, fondness, thirst, passion, and craving for feeling … "
+    },
+    {
+      "number": 74,
+      "pali": "saññāya … ",
+      "english": "perception … "
+    },
+    {
+      "number": 75,
+      "pali": "saṅkhāresu vigatarāgassa vigatacchandassa vigatapemassa vigatapipāsassa vigatapariḷāhassa vigatataṇhassa tesaṁ saṅkhārānaṁ vipariṇāmaññathābhāvā nuppajjanti sokaparidevadukkhadomanassupāyāsā. ",
+      "english": "choices … "
+    },
+    {
+      "number": 76,
+      "pali": "Viññāṇe vigatarāgassa vigatacchandassa vigatapemassa vigatapipāsassa vigatapariḷāhassa vigatataṇhassa tassa viññāṇassa vipariṇāmaññathābhāvā nuppajjanti sokaparidevadukkhadomanassupāyāsā. ",
+      "english": "consciousness, when that consciousness decays and perishes it doesn’t give rise to sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 77,
+      "pali": "Idaṁ kho no, āvuso, ānisaṁsaṁ disvā rūpe chandarāgavinayakkhāyī satthā, vedanāya … ",
+      "english": "This is the benefit our Teacher has seen that he teaches the removal of desire and lust for form, feeling, "
+    },
+    {
+      "number": 78,
+      "pali": "saññāya … ",
+      "english": "perception, "
+    },
+    {
+      "number": 79,
+      "pali": "saṅkhāresu … ",
+      "english": "choices, "
+    },
+    {
+      "number": 80,
+      "pali": "viññāṇe chandarāgavinayakkhāyī satthā’ti. ",
+      "english": "and consciousness.’ "
+    },
+    {
+      "number": 81,
+      "pali": "Akusale cāvuso, dhamme upasampajja viharato diṭṭhe ceva dhamme sukho vihāro abhavissa avighāto anupāyāso apariḷāho, kāyassa ca bhedā paraṁ maraṇā sugati pāṭikaṅkhā, nayidaṁ bhagavā akusalānaṁ dhammānaṁ pahānaṁ vaṇṇeyya. ",
+      "english": "If those who acquired and kept unskillful qualities were to live happily in the present life, free of distress, anguish, and fever; and if, when their body breaks up, after death, they could expect to go to a good place, the Buddha would not praise giving up unskillful qualities. "
+    },
+    {
+      "number": 82,
+      "pali": "Yasmā ca kho, āvuso, akusale dhamme upasampajja viharato diṭṭhe ceva dhamme dukkho vihāro savighāto saupāyāso sapariḷāho, kāyassa ca bhedā paraṁ maraṇā duggati pāṭikaṅkhā, tasmā bhagavā akusalānaṁ dhammānaṁ pahānaṁ vaṇṇeti. ",
+      "english": "But since those who acquire and keep unskillful qualities live unhappily in the present life, full of distress, anguish, and fever; and since, when their body breaks up, after death, they can expect to go to a bad place, the Buddha praises giving up unskillful qualities. "
+    },
+    {
+      "number": 83,
+      "pali": "Kusale cāvuso, dhamme upasampajja viharato diṭṭhe ceva dhamme dukkho vihāro abhavissa savighāto saupāyāso sapariḷāho, kāyassa ca bhedā paraṁ maraṇā duggati pāṭikaṅkhā, nayidaṁ bhagavā kusalānaṁ dhammānaṁ upasampadaṁ vaṇṇeyya. ",
+      "english": "If those who embraced and kept skillful qualities were to live unhappily in the present life, full of distress, anguish, and fever; and if, when their body breaks up, after death, they could expect to go to a bad place, the Buddha would not praise embracing skillful qualities. "
+    },
+    {
+      "number": 84,
+      "pali": "Yasmā ca kho, āvuso, kusale dhamme upasampajja viharato diṭṭhe ceva dhamme sukho vihāro avighāto anupāyāso apariḷāho, kāyassa ca bhedā paraṁ maraṇā sugati pāṭikaṅkhā, tasmā bhagavā kusalānaṁ dhammānaṁ upasampadaṁ vaṇṇetī”ti. ",
+      "english": "But since those who embrace and keep skillful qualities live happily in the present life, free of distress, anguish, and fever; and since, when their body breaks up, after death, they can expect to go to a good place, the Buddha praises embracing skillful qualities.” "
+    },
+    {
+      "number": 85,
+      "pali": "Idamavocāyasmā sāriputto. ",
+      "english": "This is what Venerable Sāriputta said. "
+    },
+    {
+      "number": 86,
+      "pali": "Attamanā te bhikkhū āyasmato sāriputtassa bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what Sāriputta said. "
+    },
+    {
+      "number": 87,
+      "pali": "Dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

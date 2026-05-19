@@ -1,0 +1,1400 @@
+{
+  "sutta_id": "MN128",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 128 ",
+      "english": "Middle Discourses 128 "
+    },
+    {
+      "number": 2,
+      "pali": "Upakkilesasutta ",
+      "english": "Corruptions "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā kosambiyaṁ viharati ghositārāme. ",
+      "english": "At one time the Buddha was staying near Kosambī, in Ghosita’s Monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena kosambiyaṁ bhikkhū bhaṇḍanajātā kalahajātā vivādāpannā aññamaññaṁ mukhasattīhi vitudantā viharanti. ",
+      "english": "Now at that time the mendicants of Kosambī were fighting, quarreling, and disputing, continually wounding each other with barbed words. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho aññataro bhikkhu yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho so bhikkhu bhagavantaṁ etadavoca: ",
+      "english": "Then a mendicant went up to the Buddha, bowed, stood to one side, and told him what was happening, adding: "
+    },
+    {
+      "number": 7,
+      "pali": "“idha, bhante, kosambiyaṁ bhikkhū bhaṇḍanajātā kalahajātā vivādāpannā aññamaññaṁ mukhasattīhi vitudantā viharanti. ",
+      "english": ""
+    },
+    {
+      "number": 8,
+      "pali": "Sādhu, bhante, bhagavā yena te bhikkhū tenupasaṅkamatu anukampaṁ upādāyā”ti. ",
+      "english": "“Please, sir go to those mendicants out of sympathy.” "
+    },
+    {
+      "number": 9,
+      "pali": "Adhivāsesi bhagavā tuṇhībhāvena. ",
+      "english": "The Buddha consented with silence. "
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho bhagavā yena te bhikkhū tenupasaṅkami; upasaṅkamitvā te bhikkhū etadavoca: ",
+      "english": "Then the Buddha went up to those mendicants and said, "
+    },
+    {
+      "number": 11,
+      "pali": "“alaṁ, bhikkhave, mā bhaṇḍanaṁ, mā kalahaṁ, mā viggahaṁ, mā vivādan”ti. ",
+      "english": "“Enough, mendicants! Stop fighting, quarreling, and disputing.” "
+    },
+    {
+      "number": 12,
+      "pali": "Evaṁ vutte, aññataro bhikkhu bhagavantaṁ etadavoca: ",
+      "english": "When he said this, one of the mendicants said to the Buddha, "
+    },
+    {
+      "number": 13,
+      "pali": "“āgametu, bhante. ",
+      "english": "“Wait, sir! "
+    },
+    {
+      "number": 14,
+      "pali": "Bhagavā dhammassāmī; ",
+      "english": "Let the Buddha, the Lord of the Dhamma, "
+    },
+    {
+      "number": 15,
+      "pali": "appossukko, bhante, bhagavā diṭṭhadhammasukhavihāraṁ anuyutto viharatu; ",
+      "english": "remain passive, dwelling in blissful meditation in this life. "
+    },
+    {
+      "number": 16,
+      "pali": "mayametena bhaṇḍanena kalahena viggahena vivādena paññāyissāmā”ti. ",
+      "english": "We will be known for this fighting, quarreling, arguing, and disputing.” "
+    },
+    {
+      "number": 17,
+      "pali": "Dutiyampi kho bhagavā te bhikkhū etadavoca: ",
+      "english": "For a second time … "
+    },
+    {
+      "number": 18,
+      "pali": "“alaṁ, bhikkhave, mā bhaṇḍanaṁ, mā kalahaṁ, mā viggahaṁ, mā vivādan”ti. ",
+      "english": ""
+    },
+    {
+      "number": 19,
+      "pali": "Dutiyampi kho so bhikkhu bhagavantaṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 20,
+      "pali": "“āgametu, bhante. ",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "Bhagavā dhammassāmī; ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "appossukko, bhante, bhagavā diṭṭhadhammasukhavihāraṁ anuyutto viharatu; ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "mayametena bhaṇḍanena kalahena viggahena vivādena paññāyissāmā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "Tatiyampi kho bhagavā te bhikkhū etadavoca: ",
+      "english": "and a third time the Buddha said to those mendicants, "
+    },
+    {
+      "number": 25,
+      "pali": "“alaṁ, bhikkhave, mā bhaṇḍanaṁ, mā kalahaṁ, mā viggahaṁ, mā vivādan”ti. ",
+      "english": "“Enough, mendicants! Stop fighting, quarreling, and disputing.” "
+    },
+    {
+      "number": 26,
+      "pali": "Tatiyampi kho so bhikkhu bhagavantaṁ etadavoca: ",
+      "english": "For a third time that mendicant said to the Buddha, "
+    },
+    {
+      "number": 27,
+      "pali": "“āgametu, bhante. ",
+      "english": "“Wait, sir! "
+    },
+    {
+      "number": 28,
+      "pali": "Bhagavā dhammassāmī; ",
+      "english": "Let the Buddha, the Lord of the Dhamma, "
+    },
+    {
+      "number": 29,
+      "pali": "appossukko, bhante, bhagavā diṭṭhadhammasukhavihāraṁ anuyutto viharatu; ",
+      "english": "remain passive, dwelling in blissful meditation in this life. "
+    },
+    {
+      "number": 30,
+      "pali": "mayametena bhaṇḍanena kalahena viggahena vivādena paññāyissāmā”ti. ",
+      "english": "We will be known for this fighting, quarreling, arguing, and disputing.” "
+    },
+    {
+      "number": 31,
+      "pali": "Atha kho bhagavā pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya kosambiṁ piṇḍāya pāvisi. ",
+      "english": "Then the Buddha robed up in the morning and, taking his bowl and robe, entered Kosambī for alms. "
+    },
+    {
+      "number": 32,
+      "pali": "Kosambiyaṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto senāsanaṁ saṁsāmetvā pattacīvaramādāya ṭhitakova imā gāthā abhāsi: ",
+      "english": "After the meal, on his return from almsround, he set his lodgings in order. Taking his bowl and robe, he recited these verses while standing right there: "
+    },
+    {
+      "number": 33,
+      "pali": "“Puthusaddo samajano, ",
+      "english": "“Many voices shout at once, "
+    },
+    {
+      "number": 34,
+      "pali": "na bālo koci maññatha; ",
+      "english": "yet no-one thinks that they’re the fool. "
+    },
+    {
+      "number": 35,
+      "pali": "Saṅghasmiṁ bhijjamānasmiṁ, ",
+      "english": "Even as the Saṅgha splits, "
+    },
+    {
+      "number": 36,
+      "pali": "nāññaṁ bhiyyo amaññaruṁ. ",
+      "english": "they think no better of the other. "
+    },
+    {
+      "number": 37,
+      "pali": "Parimuṭṭhā paṇḍitābhāsā, ",
+      "english": "Dolts pretending to be astute, "
+    },
+    {
+      "number": 38,
+      "pali": "vācāgocarabhāṇino; ",
+      "english": "they talk, their words out of bounds. "
+    },
+    {
+      "number": 39,
+      "pali": "Yāvicchanti mukhāyāmaṁ, ",
+      "english": "They blab at will, their mouths agape, "
+    },
+    {
+      "number": 40,
+      "pali": "yena nītā na taṁ vidū. ",
+      "english": "and not one knows what leads them on. "
+    },
+    {
+      "number": 41,
+      "pali": "Akkocchi maṁ avadhi maṁ, ",
+      "english": "‘They abused me, they hit me! "
+    },
+    {
+      "number": 42,
+      "pali": "ajini maṁ ahāsi me; ",
+      "english": "They beat me, they robbed me!’ "
+    },
+    {
+      "number": 43,
+      "pali": "Ye ca taṁ upanayhanti, ",
+      "english": "For those bearing such a grudge, "
+    },
+    {
+      "number": 44,
+      "pali": "veraṁ tesaṁ na sammati. ",
+      "english": "hatred is never laid to rest. "
+    },
+    {
+      "number": 45,
+      "pali": "Akkocchi maṁ avadhi maṁ, ",
+      "english": "‘They abused me, they hit me! "
+    },
+    {
+      "number": 46,
+      "pali": "ajini maṁ ahāsi me; ",
+      "english": "They beat me, they robbed me!’ "
+    },
+    {
+      "number": 47,
+      "pali": "Ye ca taṁ nupanayhanti, ",
+      "english": "For those who bear no such grudge, "
+    },
+    {
+      "number": 48,
+      "pali": "veraṁ tesūpasammati. ",
+      "english": "hatred is laid to rest. "
+    },
+    {
+      "number": 49,
+      "pali": "Na hi verena verāni, ",
+      "english": "For never is hatred "
+    },
+    {
+      "number": 50,
+      "pali": "sammantīdha kudācanaṁ; ",
+      "english": "laid to rest by hate, "
+    },
+    {
+      "number": 51,
+      "pali": "Averena ca sammanti, ",
+      "english": "it’s laid to rest by love: "
+    },
+    {
+      "number": 52,
+      "pali": "esa dhammo sanantano. ",
+      "english": "this is an ancient teaching. "
+    },
+    {
+      "number": 53,
+      "pali": "Pare ca na vijānanti, ",
+      "english": "When others do not understand, "
+    },
+    {
+      "number": 54,
+      "pali": "mayamettha yamāmase; ",
+      "english": "let us, who do understand this, "
+    },
+    {
+      "number": 55,
+      "pali": "Ye ca tattha vijānanti, ",
+      "english": "restrain ourselves in this regard; "
+    },
+    {
+      "number": 56,
+      "pali": "tato sammanti medhagā. ",
+      "english": "for that is how conflicts are laid to rest. "
+    },
+    {
+      "number": 57,
+      "pali": "Aṭṭhicchinnā pāṇaharā, ",
+      "english": "Breakers of bones and takers of life, "
+    },
+    {
+      "number": 58,
+      "pali": "gavassadhanahārino; ",
+      "english": "thieves of cattle, horses, wealth, "
+    },
+    {
+      "number": 59,
+      "pali": "Raṭṭhaṁ vilumpamānānaṁ, ",
+      "english": "those who plunder the nation: "
+    },
+    {
+      "number": 60,
+      "pali": "tesampi hoti saṅgati; ",
+      "english": "even they can come together, "
+    },
+    {
+      "number": 61,
+      "pali": "Kasmā tumhākaṁ no siyā. ",
+      "english": "so why can’t you? "
+    },
+    {
+      "number": 62,
+      "pali": "Sace labhetha nipakaṁ sahāyaṁ, ",
+      "english": "If you find an alert companion, "
+    },
+    {
+      "number": 63,
+      "pali": "Saddhiṁ caraṁ sādhuvihāri dhīraṁ; ",
+      "english": "an attentive friend to live happily together, "
+    },
+    {
+      "number": 64,
+      "pali": "Abhibhuyya sabbāni parissayāni, ",
+      "english": "then, overcoming all adversities, "
+    },
+    {
+      "number": 65,
+      "pali": "Careyya tenattamano satīmā. ",
+      "english": "wander with them, joyful and mindful. "
+    },
+    {
+      "number": 66,
+      "pali": "No ce labhetha nipakaṁ sahāyaṁ, ",
+      "english": "If you find no alert companion, "
+    },
+    {
+      "number": 67,
+      "pali": "Saddhiṁ caraṁ sādhuvihāri dhīraṁ; ",
+      "english": "no attentive friend to live happily together, "
+    },
+    {
+      "number": 68,
+      "pali": "Rājāva raṭṭhaṁ vijitaṁ pahāya, ",
+      "english": "then, like a king who flees his conquered realm, "
+    },
+    {
+      "number": 69,
+      "pali": "Eko care mātaṅgaraññeva nāgo. ",
+      "english": "wander alone like a tusker in the wilds. "
+    },
+    {
+      "number": 70,
+      "pali": "Ekassa caritaṁ seyyo, ",
+      "english": "It’s better to wander alone, "
+    },
+    {
+      "number": 71,
+      "pali": "Natthi bāle sahāyatā; ",
+      "english": "there’s no fellowship with fools. "
+    },
+    {
+      "number": 72,
+      "pali": "Eko care na ca pāpāni kayirā, ",
+      "english": "Wander alone and do no wrong, "
+    },
+    {
+      "number": 73,
+      "pali": "Appossukko mātaṅgaraññeva nāgo”ti. ",
+      "english": "at ease like a tusker in the wilds.” "
+    },
+    {
+      "number": 74,
+      "pali": "Atha kho bhagavā ṭhitakova imā gāthā bhāsitvā yena bālakaloṇakāragāmo tenupasaṅkami. ",
+      "english": "After speaking these verses while standing, the Buddha went to the village of the child salt-miners, "
+    },
+    {
+      "number": 75,
+      "pali": "Tena kho pana samayena āyasmā bhagu bālakaloṇakāragāme viharati. ",
+      "english": "where Venerable Bhagu was staying at the time. "
+    },
+    {
+      "number": 76,
+      "pali": "Addasā kho āyasmā bhagu bhagavantaṁ dūratova āgacchantaṁ. ",
+      "english": "Bhagu saw the Buddha coming off in the distance, "
+    },
+    {
+      "number": 77,
+      "pali": "Disvāna āsanaṁ paññapesi udakañca pādānaṁ dhovanaṁ. ",
+      "english": "so he spread out a seat and placed water for washing the feet. "
+    },
+    {
+      "number": 78,
+      "pali": "Nisīdi bhagavā paññatte āsane. ",
+      "english": "The Buddha sat on the seat spread out, "
+    },
+    {
+      "number": 79,
+      "pali": "Nisajja pāde pakkhālesi. ",
+      "english": "and washed his feet. "
+    },
+    {
+      "number": 80,
+      "pali": "Āyasmāpi kho bhagu bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "Bhagu bowed to the Buddha and sat down to one side. "
+    },
+    {
+      "number": 81,
+      "pali": "Ekamantaṁ nisinnaṁ kho āyasmantaṁ bhaguṁ bhagavā etadavoca: ",
+      "english": "The Buddha said to him, "
+    },
+    {
+      "number": 82,
+      "pali": "“kacci, bhikkhu, khamanīyaṁ, kacci yāpanīyaṁ, kacci piṇḍakena na kilamasī”ti? ",
+      "english": "“I hope you’re keeping well, mendicant; I hope you’re all right. And I hope you’re having no trouble getting almsfood.” "
+    },
+    {
+      "number": 83,
+      "pali": "“Khamanīyaṁ bhagavā, yāpanīyaṁ bhagavā, na cāhaṁ, bhante, piṇḍakena kilamāmī”ti. ",
+      "english": "“I’m keeping well, Blessed One; I’m all right. And I’m having no trouble getting almsfood.” "
+    },
+    {
+      "number": 84,
+      "pali": "Atha kho bhagavā āyasmantaṁ bhaguṁ dhammiyā kathāya sandassetvā samādapetvā samuttejetvā sampahaṁsetvā uṭṭhāyāsanā yena pācīnavaṁsadāyo tenupasaṅkami. ",
+      "english": "Then the Buddha educated, encouraged, fired up, and inspired Bhagu with a Dhamma talk, after which he got up from his seat and set out for the Park of the East-Raftered Hall. "
+    },
+    {
+      "number": 85,
+      "pali": "Tena kho pana samayena āyasmā ca anuruddho āyasmā ca nandiyo āyasmā ca kimilo pācīnavaṁsadāye viharanti. ",
+      "english": "Now at that time the venerables Anuruddha, Nandiya, and Kimbila were staying in the Park of the East-Raftered Hall. "
+    },
+    {
+      "number": 86,
+      "pali": "Addasā kho dāyapālo bhagavantaṁ dūratova āgacchantaṁ. ",
+      "english": "The park keeper saw the Buddha coming off in the distance "
+    },
+    {
+      "number": 87,
+      "pali": "Disvāna bhagavantaṁ etadavoca: ",
+      "english": "and said to the Buddha, "
+    },
+    {
+      "number": 88,
+      "pali": "“mā, mahāsamaṇa, etaṁ dāyaṁ pāvisi. ",
+      "english": "“Don’t come into this park, ascetic. "
+    },
+    {
+      "number": 89,
+      "pali": "Santettha tayo kulaputtā attakāmarūpā viharanti. ",
+      "english": "There are three gentlemen staying here whose nature is to desire only the self. "
+    },
+    {
+      "number": 90,
+      "pali": "Mā tesaṁ aphāsumakāsī”ti. ",
+      "english": "Don’t disturb them.” "
+    },
+    {
+      "number": 91,
+      "pali": "Assosi kho āyasmā anuruddho dāyapālassa bhagavatā saddhiṁ mantayamānassa. ",
+      "english": "Anuruddha heard the park keeper conversing with the Buddha, "
+    },
+    {
+      "number": 92,
+      "pali": "Sutvāna dāyapālaṁ etadavoca: ",
+      "english": "and said to him, "
+    },
+    {
+      "number": 93,
+      "pali": "“mā, āvuso dāyapāla, bhagavantaṁ vāresi. ",
+      "english": "“Don’t keep the Buddha out, good park keeper! "
+    },
+    {
+      "number": 94,
+      "pali": "Satthā no bhagavā anuppatto”ti. ",
+      "english": "Our Teacher, the Blessed One, has arrived.” "
+    },
+    {
+      "number": 95,
+      "pali": "Atha kho āyasmā anuruddho yenāyasmā ca nandiyo yenāyasmā ca kimilo tenupasaṅkami; upasaṅkamitvā āyasmantañca nandiyaṁ āyasmantañca kimilaṁ etadavoca: ",
+      "english": "Then Anuruddha went to Nandiya and Kimbila, and said to them, "
+    },
+    {
+      "number": 96,
+      "pali": "“abhikkamathāyasmanto, abhikkamathāyasmanto, satthā no bhagavā anuppatto”ti. ",
+      "english": "“Come forth, venerables, come forth! Our Teacher, the Blessed One, has arrived!” "
+    },
+    {
+      "number": 97,
+      "pali": "Atha kho āyasmā ca anuruddho āyasmā ca nandiyo āyasmā ca kimilo bhagavantaṁ paccuggantvā ",
+      "english": "Then Anuruddha, Nandiya, and Kimbila came out to greet the Buddha. "
+    },
+    {
+      "number": 98,
+      "pali": "eko bhagavato pattacīvaraṁ paṭiggahesi, eko āsanaṁ paññapesi, eko pādodakaṁ upaṭṭhapesi. ",
+      "english": "One received his bowl and robe, one spread out a seat, and one set out water for washing his feet. "
+    },
+    {
+      "number": 99,
+      "pali": "Nisīdi bhagavā paññatte āsane. ",
+      "english": "The Buddha sat on the seat spread out "
+    },
+    {
+      "number": 100,
+      "pali": "Nisajja pāde pakkhālesi. ",
+      "english": "and washed his feet. "
+    },
+    {
+      "number": 101,
+      "pali": "Tepi kho āyasmanto bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. ",
+      "english": "Those venerables bowed and sat down to one side. "
+    },
+    {
+      "number": 102,
+      "pali": "Ekamantaṁ nisinnaṁ kho āyasmantaṁ anuruddhaṁ bhagavā etadavoca: ",
+      "english": "The Buddha said to Anuruddha, "
+    },
+    {
+      "number": 103,
+      "pali": "“kacci vo, anuruddhā, khamanīyaṁ, kacci yāpanīyaṁ, kacci piṇḍakena na kilamathā”ti? ",
+      "english": "“I hope you’re keeping well, Anuruddha and friends; I hope you’re all right. And I hope you’re having no trouble getting almsfood.” "
+    },
+    {
+      "number": 104,
+      "pali": "“Khamanīyaṁ bhagavā, yāpanīyaṁ bhagavā, na ca mayaṁ, bhante, piṇḍakena kilamāmā”ti. ",
+      "english": "“We’re keeping well, Blessed One; we’re all right. And we’re having no trouble getting almsfood.” "
+    },
+    {
+      "number": 105,
+      "pali": "“Kacci pana vo, anuruddhā, samaggā sammodamānā avivadamānā khīrodakībhūtā aññamaññaṁ piyacakkhūhi sampassantā viharathā”ti? ",
+      "english": "“I hope you’re living in harmony, appreciating each other, without quarreling, blending like milk and water, and regarding each other with kindly eyes?” "
+    },
+    {
+      "number": 106,
+      "pali": "“Taggha mayaṁ, bhante, samaggā sammodamānā avivadamānā khīrodakībhūtā aññamaññaṁ piyacakkhūhi sampassantā viharāmā”ti. ",
+      "english": "“Indeed, sir, we live in harmony as you say.” "
+    },
+    {
+      "number": 107,
+      "pali": "“Yathā kathaṁ pana tumhe, anuruddhā, samaggā sammodamānā avivadamānā khīrodakībhūtā aññamaññaṁ piyacakkhūhi sampassantā viharathā”ti? ",
+      "english": "“But how do you live this way?” "
+    },
+    {
+      "number": 108,
+      "pali": "“Idha mayhaṁ, bhante, evaṁ hoti: ",
+      "english": "“In this case, sir, I think: "
+    },
+    {
+      "number": 109,
+      "pali": "‘lābhā vata me, suladdhaṁ vata me ",
+      "english": "‘I’m fortunate, so very fortunate, "
+    },
+    {
+      "number": 110,
+      "pali": "yohaṁ evarūpehi sabrahmacārīhi saddhiṁ viharāmī’ti. ",
+      "english": "to live together with spiritual companions such as these.’ "
+    },
+    {
+      "number": 111,
+      "pali": "Tassa mayhaṁ, bhante, imesu āyasmantesu mettaṁ kāyakammaṁ paccupaṭṭhitaṁ āvi ceva raho ca, ",
+      "english": "I consistently treat these venerables with kindness by way of body, speech, and mind, both in public and in private. "
+    },
+    {
+      "number": 112,
+      "pali": "mettaṁ vacīkammaṁ paccupaṭṭhitaṁ āvi ceva raho ca, ",
+      "english": ""
+    },
+    {
+      "number": 113,
+      "pali": "mettaṁ manokammaṁ paccupaṭṭhitaṁ āvi ceva raho ca. ",
+      "english": ""
+    },
+    {
+      "number": 114,
+      "pali": "Tassa, mayhaṁ, bhante, evaṁ hoti: ",
+      "english": "I think: "
+    },
+    {
+      "number": 115,
+      "pali": "‘yannūnāhaṁ sakaṁ cittaṁ nikkhipitvā imesaṁyeva āyasmantānaṁ cittassa vasena vatteyyan’ti. ",
+      "english": "‘Why don’t I set aside my own ideas and just go along with these venerables’ ideas?’ "
+    },
+    {
+      "number": 116,
+      "pali": "So kho ahaṁ, bhante, sakaṁ cittaṁ nikkhipitvā imesaṁyeva āyasmantānaṁ cittassa vasena vattāmi. ",
+      "english": "And that’s what I do. "
+    },
+    {
+      "number": 117,
+      "pali": "Nānā hi kho no, bhante, kāyā, ekañca pana maññe cittan”ti. ",
+      "english": "Though we’re different in body, sir, we’re one in mind, it seems to me.” "
+    },
+    {
+      "number": 118,
+      "pali": "Āyasmāpi kho nandiyo …pe… ",
+      "english": "And the venerables Nandiya and Kimbila spoke likewise, and they added: "
+    },
+    {
+      "number": 119,
+      "pali": "āyasmāpi kho kimilo bhagavantaṁ etadavoca: ",
+      "english": ""
+    },
+    {
+      "number": 120,
+      "pali": "“mayhampi kho, bhante, evaṁ hoti: ",
+      "english": ""
+    },
+    {
+      "number": 121,
+      "pali": "‘lābhā vata me, suladdhaṁ vata me ",
+      "english": ""
+    },
+    {
+      "number": 122,
+      "pali": "yohaṁ evarūpehi sabrahmacārīhi saddhiṁ viharāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 123,
+      "pali": "Tassa mayhaṁ, bhante, imesu āyasmantesu mettaṁ kāyakammaṁ paccupaṭṭhitaṁ āvi ceva raho ca, ",
+      "english": ""
+    },
+    {
+      "number": 124,
+      "pali": "mettaṁ vacīkammaṁ paccupaṭṭhitaṁ āvi ceva raho ca, ",
+      "english": ""
+    },
+    {
+      "number": 125,
+      "pali": "mettaṁ manokammaṁ paccupaṭṭhitaṁ āvi ceva raho ca. ",
+      "english": ""
+    },
+    {
+      "number": 126,
+      "pali": "Tassa mayhaṁ, bhante, evaṁ hoti: ",
+      "english": ""
+    },
+    {
+      "number": 127,
+      "pali": "‘yannūnāhaṁ sakaṁ cittaṁ nikkhipitvā imesaṁyeva āyasmantānaṁ cittassa vasena vatteyyan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 128,
+      "pali": "So kho ahaṁ, bhante, sakaṁ cittaṁ nikkhipitvā imesaṁyeva āyasmantānaṁ cittassa vasena vattāmi. ",
+      "english": ""
+    },
+    {
+      "number": 129,
+      "pali": "Nānā hi kho no, bhante, kāyā, ekañca pana maññe cittanti. ",
+      "english": ""
+    },
+    {
+      "number": 130,
+      "pali": "Evaṁ kho mayaṁ, bhante, samaggā sammodamānā avivadamānā khīrodakībhūtā aññamaññaṁ piyacakkhūhi sampassantā viharāmā”ti. ",
+      "english": "“That’s how we live in harmony, appreciating each other, without dispute, blending like milk and water, and regarding each other with kindly eyes.” "
+    },
+    {
+      "number": 131,
+      "pali": "“Sādhu sādhu, anuruddhā. ",
+      "english": "“Good, good, Anuruddha and friends! "
+    },
+    {
+      "number": 132,
+      "pali": "Kacci pana vo, anuruddhā, appamattā ātāpino pahitattā viharathā”ti? ",
+      "english": "But I hope you’re living diligently, keen, and resolute?” "
+    },
+    {
+      "number": 133,
+      "pali": "“Taggha mayaṁ, bhante, appamattā ātāpino pahitattā viharāmā”ti. ",
+      "english": "“Indeed, sir, we live diligently.” "
+    },
+    {
+      "number": 134,
+      "pali": "“Yathā kathaṁ pana tumhe, anuruddhā, appamattā ātāpino pahitattā viharathā”ti? ",
+      "english": "“But how do you live this way?” "
+    },
+    {
+      "number": 135,
+      "pali": "“Idha, bhante, amhākaṁ yo paṭhamaṁ gāmato piṇḍāya paṭikkamati, so āsanāni paññapeti, pānīyaṁ paribhojanīyaṁ upaṭṭhāpeti, avakkārapātiṁ upaṭṭhāpeti. ",
+      "english": "“In this case, sir, whoever returns first from almsround prepares the seats, and puts out the drinking water and the rubbish bin. "
+    },
+    {
+      "number": 136,
+      "pali": "Yo pacchā gāmato piṇḍāya paṭikkamati—sace hoti bhuttāvaseso, sace ākaṅkhati, bhuñjati; no ce ākaṅkhati, appaharite vā chaḍḍeti apāṇake vā udake opilāpeti—",
+      "english": "If there’s remainder, whoever returns last eats it if they like. Otherwise they throw it out where there is little that grows, or drop it into water that has no living creatures. "
+    },
+    {
+      "number": 137,
+      "pali": "so āsanāni paṭisāmeti, pānīyaṁ paribhojanīyaṁ paṭisāmeti, avakkārapātiṁ dhovitvā paṭisāmeti, bhattaggaṁ sammajjati. ",
+      "english": "Then they put away the seats, drinking water, and rubbish bin, and sweep the refectory. "
+    },
+    {
+      "number": 138,
+      "pali": "Yo passati pānīyaghaṭaṁ vā paribhojanīyaghaṭaṁ vā vaccaghaṭaṁ vā rittaṁ tucchaṁ so upaṭṭhāpeti. ",
+      "english": "If someone sees that the pot of water for washing, drinking, or the toilet is empty they set it up. "
+    },
+    {
+      "number": 139,
+      "pali": "Sacassa hoti avisayhaṁ, hatthavikārena dutiyaṁ āmantetvā hatthavilaṅghakena upaṭṭhāpema, na tveva mayaṁ, bhante, tappaccayā vācaṁ bhindāma. ",
+      "english": "If he can’t do it, he summons another with a wave of the hand, and they set it up by lending each other a hand to lift. But we don’t break into speech for that reason. "
+    },
+    {
+      "number": 140,
+      "pali": "Pañcāhikaṁ kho pana mayaṁ, bhante, sabbarattiṁ dhammiyā kathāya sannisīdāma. ",
+      "english": "And every five days we sit together for the whole night and discuss the teachings. "
+    },
+    {
+      "number": 141,
+      "pali": "Evaṁ kho mayaṁ, bhante, appamattā ātāpino pahitattā viharāmā”ti. ",
+      "english": "That’s how we live diligently, keen, and resolute.” "
+    },
+    {
+      "number": 142,
+      "pali": "“Sādhu sādhu, anuruddhā. ",
+      "english": "“Good, good, Anuruddha and friends! "
+    },
+    {
+      "number": 143,
+      "pali": "Atthi pana vo, anuruddhā, evaṁ appamattānaṁ ātāpīnaṁ pahitattānaṁ viharataṁ uttari manussadhammā alamariyañāṇadassanaviseso adhigato phāsuvihāro”ti? ",
+      "english": "But as you live diligently like this, have you achieved any superhuman distinction in knowledge and vision worthy of the noble ones, a comfortable meditation?” "
+    },
+    {
+      "number": 144,
+      "pali": "“Idha mayaṁ, bhante, appamattā ātāpino pahitattā viharantā obhāsañceva sañjānāma dassanañca rūpānaṁ. ",
+      "english": "“Well, sir, while meditating diligent, keen, and resolute, we perceive both light and vision of forms. "
+    },
+    {
+      "number": 145,
+      "pali": "So kho pana no obhāso nacirasseva antaradhāyati dassanañca rūpānaṁ; ",
+      "english": "But before long the light and the vision of forms vanish. "
+    },
+    {
+      "number": 146,
+      "pali": "tañca nimittaṁ nappaṭivijjhāmā”ti. ",
+      "english": "We haven’t worked out the basis of that.” "
+    },
+    {
+      "number": 147,
+      "pali": "“Taṁ kho pana vo, anuruddhā, nimittaṁ paṭivijjhitabbaṁ. ",
+      "english": "“Well, you should work out the basis of that. "
+    },
+    {
+      "number": 148,
+      "pali": "Ahampi sudaṁ, anuruddhā, pubbeva sambodhā anabhisambuddho bodhisattova samāno obhāsañceva sañjānāmi dassanañca rūpānaṁ. ",
+      "english": "Before my awakening—when I was still unawakened but intent on awakening—I too perceived light and vision of forms. "
+    },
+    {
+      "number": 149,
+      "pali": "So kho pana me obhāso nacirasseva antaradhāyati dassanañca rūpānaṁ. ",
+      "english": "But before long my light and vision of forms vanished. "
+    },
+    {
+      "number": 150,
+      "pali": "Tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": "It occurred to me: "
+    },
+    {
+      "number": 151,
+      "pali": "‘ko nu kho hetu ko paccayo yena me obhāso antaradhāyati dassanañca rūpānan’ti? ",
+      "english": "‘What’s the cause, what’s the reason why my light and vision of forms vanish?’ "
+    },
+    {
+      "number": 152,
+      "pali": "Tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": "It occurred to me: "
+    },
+    {
+      "number": 153,
+      "pali": "‘vicikicchā kho me udapādi, vicikicchādhikaraṇañca pana me samādhi cavi. ",
+      "english": "‘Doubt arose in me, and because of that my immersion fell away. "
+    },
+    {
+      "number": 154,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": "When immersion falls away, the light and vision of forms vanish. "
+    },
+    {
+      "number": 155,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissatī’ti. ",
+      "english": "I’ll make sure that doubt will not arise in me again.’ "
+    },
+    {
+      "number": 156,
+      "pali": "So kho ahaṁ, anuruddhā, appamatto ātāpī pahitatto viharanto obhāsañceva sañjānāmi dassanañca rūpānaṁ. ",
+      "english": "While meditating diligent, keen, and resolute, I perceived light and vision of forms. "
+    },
+    {
+      "number": 157,
+      "pali": "So kho pana me obhāso nacirasseva antaradhāyati dassanañca rūpānaṁ. ",
+      "english": "But before long my light and vision of forms vanished. "
+    },
+    {
+      "number": 158,
+      "pali": "Tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": "It occurred to me: "
+    },
+    {
+      "number": 159,
+      "pali": "‘ko nu kho hetu ko paccayo yena me obhāso antaradhāyati dassanañca rūpānan’ti? ",
+      "english": "‘What’s the cause, what’s the reason why my light and vision of forms vanish?’ "
+    },
+    {
+      "number": 160,
+      "pali": "Tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": "It occurred to me: "
+    },
+    {
+      "number": 161,
+      "pali": "‘amanasikāro kho me udapādi, amanasikārādhikaraṇañca pana me samādhi cavi. ",
+      "english": "‘Loss of focus arose in me, and because of that my immersion fell away. "
+    },
+    {
+      "number": 162,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": "When immersion falls away, the light and vision of forms vanish. "
+    },
+    {
+      "number": 163,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissati, na amanasikāro’ti. ",
+      "english": "I’ll make sure that neither doubt nor loss of focus will arise in me again.’ "
+    },
+    {
+      "number": 164,
+      "pali": "So kho ahaṁ, anuruddhā …pe… ",
+      "english": "While meditating … "
+    },
+    {
+      "number": 165,
+      "pali": "tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 166,
+      "pali": "‘thinamiddhaṁ kho me udapādi, thinamiddhādhikaraṇañca pana me samādhi cavi. ",
+      "english": "‘Dullness and drowsiness arose in me … "
+    },
+    {
+      "number": 167,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 168,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissati, na amanasikāro, na thinamiddhan’ti. ",
+      "english": "I’ll make sure that neither doubt nor loss of focus nor dullness and drowsiness will arise in me again.’ "
+    },
+    {
+      "number": 169,
+      "pali": "So kho ahaṁ, anuruddhā …pe… ",
+      "english": "While meditating … "
+    },
+    {
+      "number": 170,
+      "pali": "tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 171,
+      "pali": "‘chambhitattaṁ kho me udapādi, chambhitattādhikaraṇañca pana me samādhi cavi. ",
+      "english": "‘Terror arose in me, and because of that my immersion fell away. "
+    },
+    {
+      "number": 172,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": "When immersion falls away, the light and vision of forms vanish. "
+    },
+    {
+      "number": 173,
+      "pali": "Seyyathāpi, anuruddhā, puriso addhānamaggappaṭipanno, tassa ubhatopasse vaṭṭakā uppateyyuṁ, tassa tatonidānaṁ chambhitattaṁ uppajjeyya; ",
+      "english": "Suppose a person was traveling along a road, and killers were to spring out at them from both sides. They’d feel terrified because of that. "
+    },
+    {
+      "number": 174,
+      "pali": "evameva kho me, anuruddhā, chambhitattaṁ udapādi, chambhitattādhikaraṇañca pana me samādhi cavi. ",
+      "english": "In the same way, terror arose in me … "
+    },
+    {
+      "number": 175,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 176,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissati, na amanasikāro, na thinamiddhaṁ, na chambhitattan’ti. ",
+      "english": "I’ll make sure that neither doubt nor loss of focus nor dullness and drowsiness nor terror will arise in me again.’ "
+    },
+    {
+      "number": 177,
+      "pali": "So kho ahaṁ, anuruddhā …pe… ",
+      "english": "While meditating … "
+    },
+    {
+      "number": 178,
+      "pali": "tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 179,
+      "pali": "‘uppilaṁ kho me udapādi, uppilādhikaraṇañca pana me samādhi cavi. ",
+      "english": "‘Elation arose in me, and because of that my immersion fell away. "
+    },
+    {
+      "number": 180,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": "When immersion falls away, the light and vision of forms vanish. "
+    },
+    {
+      "number": 181,
+      "pali": "Seyyathāpi, anuruddhā, puriso ekaṁ nidhimukhaṁ gavesanto sakideva pañcanidhimukhāni adhigaccheyya, tassa tatonidānaṁ uppilaṁ uppajjeyya; ",
+      "english": "Suppose a person was looking for the entrance to a treasure trove. And all at once they’d come across five entrances! They’d feel excited because of that. "
+    },
+    {
+      "number": 182,
+      "pali": "evameva kho me, anuruddhā, uppilaṁ udapādi, uppilādhikaraṇañca pana me samādhi cavi. ",
+      "english": "In the same way, elation arose in me … "
+    },
+    {
+      "number": 183,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 184,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissati, na amanasikāro, na thinamiddhaṁ, na chambhitattaṁ, na uppilan’ti. ",
+      "english": "I’ll make sure that neither doubt nor loss of focus nor dullness and drowsiness nor terror nor elation will arise in me again.’ "
+    },
+    {
+      "number": 185,
+      "pali": "So kho ahaṁ, anuruddhā …pe… ",
+      "english": "While meditating … "
+    },
+    {
+      "number": 186,
+      "pali": "tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 187,
+      "pali": "‘duṭṭhullaṁ kho me udapādi, duṭṭhullādhikaraṇañca pana me samādhi cavi. ",
+      "english": "‘Discomfort arose in me … "
+    },
+    {
+      "number": 188,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 189,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissati, na amanasikāro, na thinamiddhaṁ, na chambhitattaṁ, na uppilaṁ, na duṭṭhullan’ti. ",
+      "english": "I’ll make sure that neither doubt nor loss of focus nor dullness and drowsiness nor terror nor elation nor discomfort will arise in me again.’ "
+    },
+    {
+      "number": 190,
+      "pali": "So kho ahaṁ, anuruddhā …pe… ",
+      "english": "While meditating … "
+    },
+    {
+      "number": 191,
+      "pali": "tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 192,
+      "pali": "‘accāraddhavīriyaṁ kho me udapādi, accāraddhavīriyādhikaraṇañca pana me samādhi cavi. ",
+      "english": "‘Excessive energy arose in me, and because of that my immersion fell away. "
+    },
+    {
+      "number": 193,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": "When immersion falls away, the light and vision of forms vanish. "
+    },
+    {
+      "number": 194,
+      "pali": "Seyyathāpi, anuruddhā, puriso ubhohi hatthehi vaṭṭakaṁ gāḷhaṁ gaṇheyya, so tattheva patameyya; ",
+      "english": "Suppose a person was to grip a quail too tightly in their hands—it would die right there. "
+    },
+    {
+      "number": 195,
+      "pali": "evameva kho me, anuruddhā, accāraddhavīriyaṁ udapādi, accāraddhavīriyādhikaraṇañca pana me samādhi cavi. ",
+      "english": ""
+    },
+    {
+      "number": 196,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 197,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissati, na amanasikāro, na thinamiddhaṁ, na chambhitattaṁ, na uppilaṁ, na duṭṭhullaṁ, na accāraddhavīriyan’ti. ",
+      "english": "I’ll make sure that neither doubt nor loss of focus nor dullness and drowsiness nor terror nor elation nor discomfort nor excessive energy will arise in me again.’ "
+    },
+    {
+      "number": 198,
+      "pali": "So kho ahaṁ, anuruddhā …pe… ",
+      "english": "While meditating … "
+    },
+    {
+      "number": 199,
+      "pali": "tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 200,
+      "pali": "‘atilīnavīriyaṁ kho me udapādi, atilīnavīriyādhikaraṇañca pana me samādhi cavi. ",
+      "english": "‘Overly lax energy arose in me, and because of that my immersion fell away. "
+    },
+    {
+      "number": 201,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": "When immersion falls away, the light and vision of forms vanish. "
+    },
+    {
+      "number": 202,
+      "pali": "Seyyathāpi, anuruddhā, puriso vaṭṭakaṁ sithilaṁ gaṇheyya, so tassa hatthato uppateyya; ",
+      "english": "Suppose a person was to grip a quail too loosely—it would fly out of their hands. "
+    },
+    {
+      "number": 203,
+      "pali": "evameva kho me, anuruddhā, atilīnavīriyaṁ udapādi, atilīnavīriyādhikaraṇañca pana me samādhi cavi. ",
+      "english": ""
+    },
+    {
+      "number": 204,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 205,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissati, na amanasikāro, na thinamiddhaṁ, na chambhitattaṁ, na uppilaṁ, na duṭṭhullaṁ, na accāraddhavīriyaṁ, na atilīnavīriyan’ti. ",
+      "english": "I’ll make sure that neither doubt nor loss of focus nor dullness and drowsiness nor terror nor elation nor discomfort nor excessive energy nor overly lax energy will arise in me again.’ "
+    },
+    {
+      "number": 206,
+      "pali": "So kho ahaṁ, anuruddhā …pe… ",
+      "english": "While meditating … "
+    },
+    {
+      "number": 207,
+      "pali": "tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 208,
+      "pali": "‘abhijappā kho me udapādi, abhijappādhikaraṇañca pana me samādhi cavi. ",
+      "english": "‘Longing arose in me … "
+    },
+    {
+      "number": 209,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 210,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissati, na amanasikāro, na thinamiddhaṁ, na chambhitattaṁ, na uppilaṁ, na duṭṭhullaṁ, na accāraddhavīriyaṁ, na atilīnavīriyaṁ, na abhijappā’ti. ",
+      "english": "I’ll make sure that neither doubt nor loss of focus nor dullness and drowsiness nor terror nor elation nor discomfort nor excessive energy nor overly lax energy nor longing will arise in me again.’ "
+    },
+    {
+      "number": 211,
+      "pali": "So kho ahaṁ, anuruddhā …pe… ",
+      "english": "While meditating … "
+    },
+    {
+      "number": 212,
+      "pali": "tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": ""
+    },
+    {
+      "number": 213,
+      "pali": "‘nānattasaññā kho me udapādi, nānattasaññādhikaraṇañca pana me samādhi cavi. ",
+      "english": "‘Perceptions of diversity arose in me … "
+    },
+    {
+      "number": 214,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 215,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissati, na amanasikāro, na thinamiddhaṁ, na chambhitattaṁ, na uppilaṁ, na duṭṭhullaṁ, na accāraddhavīriyaṁ, na atilīnavīriyaṁ, na abhijappā, na nānattasaññā’ti. ",
+      "english": "I’ll make sure that neither doubt nor loss of focus nor dullness and drowsiness nor terror nor elation nor discomfort nor excessive energy nor overly lax energy nor longing nor perception of diversity will arise in me again.’ "
+    },
+    {
+      "number": 216,
+      "pali": "So kho ahaṁ, anuruddhā, appamatto ātāpī pahitatto viharanto obhāsañceva sañjānāmi dassanañca rūpānaṁ. ",
+      "english": "While meditating diligent, keen, and resolute, I perceived light and vision of forms. "
+    },
+    {
+      "number": 217,
+      "pali": "So kho pana me obhāso nacirasseva antaradhāyati dassanañca rūpānaṁ. ",
+      "english": "But before long my light and vision of forms vanished. "
+    },
+    {
+      "number": 218,
+      "pali": "Tassa mayhaṁ anuruddhā etadahosi: ",
+      "english": "It occurred to me: "
+    },
+    {
+      "number": 219,
+      "pali": "‘ko nu kho hetu ko paccayo yena me obhāso antaradhāyati dassanañca rūpānan’ti. ",
+      "english": "‘What’s the cause, what’s the reason why my light and vision of forms vanish?’ "
+    },
+    {
+      "number": 220,
+      "pali": "Tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": "It occurred to me: "
+    },
+    {
+      "number": 221,
+      "pali": "‘atinijjhāyitattaṁ kho me rūpānaṁ udapādi, atinijjhāyitattādhikaraṇañca pana me rūpānaṁ samādhi cavi. ",
+      "english": "‘Excessive concentration on forms arose in me, and because of that my immersion fell away. "
+    },
+    {
+      "number": 222,
+      "pali": "Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṁ. ",
+      "english": "When immersion falls away, the light and vision of forms vanish. "
+    },
+    {
+      "number": 223,
+      "pali": "Sohaṁ tathā karissāmi yathā me puna na vicikicchā uppajjissati, na amanasikāro, na thinamiddhaṁ, na chambhitattaṁ, na uppilaṁ, na duṭṭhullaṁ, na accāraddhavīriyaṁ, na atilīnavīriyaṁ, na abhijappā, na nānattasaññā, na atinijjhāyitattaṁ rūpānan’ti. ",
+      "english": "I’ll make sure that neither doubt nor loss of focus nor dullness and drowsiness nor terror nor elation nor discomfort nor excessive energy nor overly lax energy nor longing nor perception of diversity nor excessive concentration on forms will arise in me again.’ "
+    },
+    {
+      "number": 224,
+      "pali": "So kho ahaṁ, anuruddhā, ‘vicikicchā cittassa upakkileso’ti—iti viditvā vicikicchaṁ cittassa upakkilesaṁ pajahiṁ, ",
+      "english": "When I understood that doubt is a corruption of the mind, I gave it up. "
+    },
+    {
+      "number": 225,
+      "pali": "‘amanasikāro cittassa upakkileso’ti—iti viditvā amanasikāraṁ cittassa upakkilesaṁ pajahiṁ, ",
+      "english": "When I understood that loss of focus, "
+    },
+    {
+      "number": 226,
+      "pali": "‘thinamiddhaṁ cittassa upakkileso’ti—iti viditvā thinamiddhaṁ cittassa upakkilesaṁ pajahiṁ, ",
+      "english": "dullness and drowsiness, "
+    },
+    {
+      "number": 227,
+      "pali": "‘chambhitattaṁ cittassa upakkileso’ti—iti viditvā chambhitattaṁ cittassa upakkilesaṁ pajahiṁ, ",
+      "english": "terror, "
+    },
+    {
+      "number": 228,
+      "pali": "‘uppilaṁ cittassa upakkileso’ti—iti viditvā uppilaṁ cittassa upakkilesaṁ pajahiṁ, ",
+      "english": "elation, "
+    },
+    {
+      "number": 229,
+      "pali": "‘duṭṭhullaṁ cittassa upakkileso’ti—iti viditvā duṭṭhullaṁ cittassa upakkilesaṁ pajahiṁ, ",
+      "english": "discomfort, "
+    },
+    {
+      "number": 230,
+      "pali": "‘accāraddhavīriyaṁ cittassa upakkileso’ti—iti viditvā accāraddhavīriyaṁ cittassa upakkilesaṁ pajahiṁ, ",
+      "english": "excessive energy, "
+    },
+    {
+      "number": 231,
+      "pali": "‘atilīnavīriyaṁ cittassa upakkileso’ti—iti viditvā atilīnavīriyaṁ cittassa upakkilesaṁ pajahiṁ, ",
+      "english": "overly lax energy, "
+    },
+    {
+      "number": 232,
+      "pali": "‘abhijappā cittassa upakkileso’ti—iti viditvā abhijappaṁ cittassa upakkilesaṁ pajahiṁ, ",
+      "english": "longing, "
+    },
+    {
+      "number": 233,
+      "pali": "‘nānattasaññā cittassa upakkileso’ti—iti viditvā nānattasaññaṁ cittassa upakkilesaṁ pajahiṁ, ",
+      "english": "perception of diversity, "
+    },
+    {
+      "number": 234,
+      "pali": "‘atinijjhāyitattaṁ rūpānaṁ cittassa upakkileso’ti—iti viditvā atinijjhāyitattaṁ rūpānaṁ cittassa upakkilesaṁ pajahiṁ. ",
+      "english": "and excessive concentration on forms are corruptions of the mind, I gave them up. "
+    },
+    {
+      "number": 235,
+      "pali": "So kho ahaṁ, anuruddhā, appamatto ātāpī pahitatto viharanto obhāsañhi kho sañjānāmi, na ca rūpāni passāmi; ",
+      "english": "While meditating diligent, keen, and resolute, I perceived light but did not see forms, "
+    },
+    {
+      "number": 236,
+      "pali": "rūpāni hi kho passāmi, na ca obhāsaṁ sañjānāmi: ",
+      "english": "or I saw forms, but did not see light. "
+    },
+    {
+      "number": 237,
+      "pali": "‘kevalampi rattiṁ, kevalampi divaṁ, kevalampi rattindivaṁ’. ",
+      "english": "And this went on for a whole night, a whole day, even a whole night and day. "
+    },
+    {
+      "number": 238,
+      "pali": "Tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": "I thought: "
+    },
+    {
+      "number": 239,
+      "pali": "‘ko nu kho hetu ko paccayo yvāhaṁ obhāsañhi kho sañjānāmi na ca rūpāni passāmi; ",
+      "english": "‘What is the cause, what is the reason for this?’ "
+    },
+    {
+      "number": 240,
+      "pali": "rūpāni hi kho passāmi na ca obhāsaṁ sañjānāmi—",
+      "english": ""
+    },
+    {
+      "number": 241,
+      "pali": "kevalampi rattiṁ, kevalampi divaṁ, kevalampi rattindivan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 242,
+      "pali": "Tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": "It occurred to me: "
+    },
+    {
+      "number": 243,
+      "pali": "‘yasmiñhi kho ahaṁ samaye rūpanimittaṁ amanasikaritvā obhāsanimittaṁ manasi karomi, obhāsañhi kho tasmiṁ samaye sañjānāmi, na ca rūpāni passāmi. ",
+      "english": "‘When I don’t focus on the basis of the forms, but focus on the basis of the light, then I perceive light and do not see forms. "
+    },
+    {
+      "number": 244,
+      "pali": "Yasmiṁ panāhaṁ samaye obhāsanimittaṁ amanasikaritvā rūpanimittaṁ manasi karomi, rūpāni hi kho tasmiṁ samaye passāmi na ca obhāsaṁ sañjānāmi—",
+      "english": "But when I don’t focus on the basis of the light, but focus on the basis of the forms, then I see forms and do not perceive light. "
+    },
+    {
+      "number": 245,
+      "pali": "kevalampi rattiṁ, kevalampi divaṁ, kevalampi rattindivan’ti. ",
+      "english": "And this goes on for a whole night, a whole day, even a whole night and day.’ "
+    },
+    {
+      "number": 246,
+      "pali": "So kho ahaṁ, anuruddhā, appamatto ātāpī pahitatto viharanto parittañceva obhāsaṁ sañjānāmi, parittāni ca rūpāni passāmi; ",
+      "english": "While meditating diligent, keen, and resolute, I perceived limited light and saw limited forms, "
+    },
+    {
+      "number": 247,
+      "pali": "appamāṇañceva obhāsaṁ sañjānāmi, appamāṇāni ca rūpāni passāmi: ",
+      "english": "or I perceived limitless light and saw limitless forms. "
+    },
+    {
+      "number": 248,
+      "pali": "‘kevalampi rattiṁ, kevalampi divaṁ, kevalampi rattindivaṁ’. ",
+      "english": "And this went on for a whole night, a whole day, even a whole night and day. "
+    },
+    {
+      "number": 249,
+      "pali": "Tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": "I thought: "
+    },
+    {
+      "number": 250,
+      "pali": "‘ko nu kho hetu ko paccayo yvāhaṁ parittañceva obhāsaṁ sañjānāmi, parittāni ca rūpāni passāmi; ",
+      "english": "‘What is the cause, what is the reason for this?’ "
+    },
+    {
+      "number": 251,
+      "pali": "appamāṇañceva obhāsaṁ sañjānāmi, appamāṇāni ca rūpāni passāmi—",
+      "english": ""
+    },
+    {
+      "number": 252,
+      "pali": "kevalampi rattiṁ, kevalampi divaṁ, kevalampi rattindivan’ti. ",
+      "english": ""
+    },
+    {
+      "number": 253,
+      "pali": "Tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": "It occurred to me: "
+    },
+    {
+      "number": 254,
+      "pali": "‘yasmiṁ kho me samaye paritto samādhi hoti, parittaṁ me tasmiṁ samaye cakkhu hoti. ",
+      "english": "‘When my immersion is limited, then my vision is limited, "
+    },
+    {
+      "number": 255,
+      "pali": "Sohaṁ parittena cakkhunā parittañceva obhāsaṁ sañjānāmi, parittāni ca rūpāni passāmi. ",
+      "english": "and with limited vision I perceive limited light and see limited forms. "
+    },
+    {
+      "number": 256,
+      "pali": "Yasmiṁ pana me samaye appamāṇo samādhi hoti, appamāṇaṁ me tasmiṁ samaye cakkhu hoti. ",
+      "english": "But when my immersion is limitless, then my vision is limitless, "
+    },
+    {
+      "number": 257,
+      "pali": "Sohaṁ appamāṇena cakkhunā appamāṇañceva obhāsaṁ sañjānāmi, appamāṇāni ca rūpāni passāmi—",
+      "english": "and with limitless vision I perceive limitless light and see limitless forms. "
+    },
+    {
+      "number": 258,
+      "pali": "kevalampi rattiṁ, kevalampi divaṁ, kevalampi rattindivan’ti. ",
+      "english": "And this goes on for a whole night, a whole day, even a whole night and day.’ "
+    },
+    {
+      "number": 259,
+      "pali": "Yato kho me, anuruddhā, ‘vicikicchā cittassa upakkileso’ti—iti viditvā vicikicchā cittassa upakkileso pahīno ahosi, ",
+      "english": "After understanding that doubt, "
+    },
+    {
+      "number": 260,
+      "pali": "‘amanasikāro cittassa upakkileso’ti—iti viditvā amanasikāro cittassa upakkileso pahīno ahosi, ",
+      "english": "loss of focus, "
+    },
+    {
+      "number": 261,
+      "pali": "‘thinamiddhaṁ cittassa upakkileso’ti—iti viditvā thinamiddhaṁ cittassa upakkileso pahīno ahosi, ",
+      "english": "dullness and drowsiness, "
+    },
+    {
+      "number": 262,
+      "pali": "‘chambhitattaṁ cittassa upakkileso’ti—iti viditvā chambhitattaṁ cittassa upakkileso pahīno ahosi, ",
+      "english": "terror, "
+    },
+    {
+      "number": 263,
+      "pali": "‘uppilaṁ cittassa upakkileso’ti—iti viditvā uppilaṁ cittassa upakkileso pahīno ahosi, ",
+      "english": "excitement, "
+    },
+    {
+      "number": 264,
+      "pali": "‘duṭṭhullaṁ cittassa upakkileso’ti—iti viditvā duṭṭhullaṁ cittassa upakkileso pahīno ahosi, ",
+      "english": "discomfort, "
+    },
+    {
+      "number": 265,
+      "pali": "‘accāraddhavīriyaṁ cittassa upakkileso’ti—iti viditvā accāraddhavīriyaṁ cittassa upakkileso pahīno ahosi, ",
+      "english": "excessive energy, "
+    },
+    {
+      "number": 266,
+      "pali": "‘atilīnavīriyaṁ cittassa upakkileso’ti—iti viditvā atilīnavīriyaṁ cittassa upakkileso pahīno ahosi, ",
+      "english": "overly lax energy, "
+    },
+    {
+      "number": 267,
+      "pali": "‘abhijappā cittassa upakkileso’ti—iti viditvā abhijappā cittassa upakkileso pahīno ahosi, ",
+      "english": "longing, "
+    },
+    {
+      "number": 268,
+      "pali": "‘nānattasaññā cittassa upakkileso’ti—iti viditvā nānattasaññā cittassa upakkileso pahīno ahosi, ",
+      "english": "perception of diversity, "
+    },
+    {
+      "number": 269,
+      "pali": "‘atinijjhāyitattaṁ rūpānaṁ cittassa upakkileso’ti—iti viditvā atinijjhāyitattaṁ rūpānaṁ cittassa upakkileso pahīno ahosi. ",
+      "english": "and excessive concentration on forms are corruptions of the mind, I had given them up. "
+    },
+    {
+      "number": 270,
+      "pali": "Tassa mayhaṁ, anuruddhā, etadahosi: ",
+      "english": "I thought: "
+    },
+    {
+      "number": 271,
+      "pali": "‘ye kho me cittassa upakkilesā te me pahīnā. ",
+      "english": "‘I’ve given up my mental corruptions. "
+    },
+    {
+      "number": 272,
+      "pali": "Handa dānāhaṁ tividhena samādhiṁ bhāvemī’ti. ",
+      "english": "Now let me develop immersion in three ways.’ "
+    },
+    {
+      "number": 273,
+      "pali": "So kho ahaṁ, anuruddhā, savitakkampi savicāraṁ samādhiṁ bhāvesiṁ, avitakkampi vicāramattaṁ samādhiṁ bhāvesiṁ, avitakkampi avicāraṁ samādhiṁ bhāvesiṁ, sappītikampi samādhiṁ bhāvesiṁ, nippītikampi samādhiṁ bhāvesiṁ, sātasahagatampi samādhiṁ bhāvesiṁ, upekkhāsahagatampi samādhiṁ bhāvesiṁ. ",
+      "english": "I developed immersion while placing the mind and keeping it connected; without placing the mind, merely keeping it connected; without placing the mind or keeping it connected; with rapture; without rapture; with pleasure; with equanimity. "
+    },
+    {
+      "number": 274,
+      "pali": "Yato kho me, anuruddhā, savitakkopi savicāro samādhi bhāvito ahosi, avitakkopi vicāramatto samādhi bhāvito ahosi, avitakkopi avicāro samādhi bhāvito ahosi, sappītikopi samādhi bhāvito ahosi, nippītikopi samādhi bhāvito ahosi, sātasahagatopi samādhi bhāvito ahosi, upekkhāsahagatopi samādhi bhāvito ahosi. ",
+      "english": "When I had developed immersion in these ways, "
+    },
+    {
+      "number": 275,
+      "pali": "Ñāṇañca pana me dassanaṁ udapādi, ",
+      "english": "the knowledge and vision arose in me: "
+    },
+    {
+      "number": 276,
+      "pali": "akuppā me cetovimutti. Ayamantimā jāti, natthi dāni punabbhavo”ti. ",
+      "english": "‘My freedom is unshakable; this is my last rebirth; now there’ll be no more future lives.’” "
+    },
+    {
+      "number": 277,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 278,
+      "pali": "Attamano āyasmā anuruddho bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Anuruddha approved what the Buddha said. "
+    },
+    {
+      "number": 279,
+      "pali": "Upakkilesasuttaṁ niṭṭhitaṁ aṭṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

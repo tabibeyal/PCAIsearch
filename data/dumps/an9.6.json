@@ -1,0 +1,450 @@
+{
+  "sutta_id": "AN9.6",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 9.6 ",
+      "english": "Numbered Discourses 9.6 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Sambodhivagga ",
+      "english": "1. Awakening "
+    },
+    {
+      "number": 3,
+      "pali": "Sevanāsutta ",
+      "english": "Association "
+    },
+    {
+      "number": 4,
+      "pali": "Tatra kho āyasmā sāriputto bhikkhū āmantesi …pe… āyasmā sāriputto etadavoca: ",
+      "english": "There Sāriputta addressed the mendicants: "
+    },
+    {
+      "number": 5,
+      "pali": "“Puggalopi, āvuso, duvidhena veditabbo—",
+      "english": "“Reverends, you should distinguish two two kinds of individual: "
+    },
+    {
+      "number": 6,
+      "pali": "sevitabbopi asevitabbopi. ",
+      "english": "those you should associate with, and those you shouldn’t associate with. "
+    },
+    {
+      "number": 7,
+      "pali": "Cīvarampi, āvuso, duvidhena veditabbaṁ—",
+      "english": "You should distinguish two kinds of robes: "
+    },
+    {
+      "number": 8,
+      "pali": "sevitabbampi asevitabbampi. ",
+      "english": "those you should wear, and those you shouldn’t wear. "
+    },
+    {
+      "number": 9,
+      "pali": "Piṇḍapātopi, āvuso, duvidhena veditabbo—",
+      "english": "You should distinguish two kinds of almsfood: "
+    },
+    {
+      "number": 10,
+      "pali": "sevitabbopi asevitabbopi. ",
+      "english": "that which you should eat, and that which you shouldn’t eat. "
+    },
+    {
+      "number": 11,
+      "pali": "Senāsanampi, āvuso, duvidhena veditabbaṁ—",
+      "english": "You should distinguish two kinds of lodging: "
+    },
+    {
+      "number": 12,
+      "pali": "sevitabbampi asevitabbampi. ",
+      "english": "those you should frequent, and those you shouldn’t frequent. "
+    },
+    {
+      "number": 13,
+      "pali": "Gāmanigamopi, āvuso, duvidhena veditabbo—",
+      "english": "You should distinguish two kinds of village or town: "
+    },
+    {
+      "number": 14,
+      "pali": "sevitabbopi asevitabbopi. ",
+      "english": "those you should frequent, and those you shouldn’t frequent. "
+    },
+    {
+      "number": 15,
+      "pali": "Janapadapadesopi, āvuso, duvidhena veditabbo—",
+      "english": "You should distinguish two kinds of country: "
+    },
+    {
+      "number": 16,
+      "pali": "sevitabbopi asevitabbopi. ",
+      "english": "those you should frequent, and those you shouldn’t frequent. "
+    },
+    {
+      "number": 17,
+      "pali": "‘Puggalopi, āvuso, duvidhena veditabbo—",
+      "english": "You should distinguish two two kinds of individual: "
+    },
+    {
+      "number": 18,
+      "pali": "sevitabbopi asevitabbopī’ti, ",
+      "english": "those you should associate with, and those you shouldn’t associate with.’ "
+    },
+    {
+      "number": 19,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 20,
+      "pali": "Tattha yaṁ jaññā puggalaṁ: ",
+      "english": "Well, should you know of an individual: "
+    },
+    {
+      "number": 21,
+      "pali": "‘imaṁ kho me puggalaṁ sevato akusalā dhammā abhivaḍḍhanti, kusalā dhammā parihāyanti; ",
+      "english": "‘When I associate with this individual, unskillful qualities grow, and skillful qualities decline. "
+    },
+    {
+      "number": 22,
+      "pali": "ye ca kho me pabbajitena jīvitaparikkhārā samudānetabbā cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārā te ca kasirena samudāgacchanti; ",
+      "english": "And the necessities of life that a renunciate requires—robes, almsfood, lodgings, and medicines and supplies for the sick—are hard to come by. "
+    },
+    {
+      "number": 23,
+      "pali": "yassa camhi atthāya agārasmā anagāriyaṁ pabbajito so ca me sāmaññattho na bhāvanāpāripūriṁ gacchatī’ti, tenāvuso, puggalena so puggalo rattibhāgaṁ vā divasabhāgaṁ vā saṅkhāpi anāpucchā pakkamitabbaṁ nānubandhitabbo. ",
+      "english": "And the goal of the ascetic life for which I went forth from the lay life to homelessness is not being fully developed.’ In this case you should leave that individual at that very time of the day or night, without asking. You shouldn’t follow them. "
+    },
+    {
+      "number": 24,
+      "pali": "Tattha yaṁ jaññā puggalaṁ: ",
+      "english": "Whereas, should you know of an individual: "
+    },
+    {
+      "number": 25,
+      "pali": "‘imaṁ kho me puggalaṁ sevato akusalā dhammā abhivaḍḍhanti, kusalā dhammā parihāyanti; ",
+      "english": "‘When I associate with this individual, unskillful qualities grow, and skillful qualities decline. "
+    },
+    {
+      "number": 26,
+      "pali": "ye ca kho me pabbajitena jīvitaparikkhārā samudānetabbā cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārā te ca appakasirena samudāgacchanti; ",
+      "english": "But the necessities of life that a renunciate requires—robes, almsfood, lodgings, and medicines and supplies for the sick—are easy to come by. "
+    },
+    {
+      "number": 27,
+      "pali": "yassa camhi atthāya agārasmā anagāriyaṁ pabbajito so ca me sāmaññattho na bhāvanāpāripūriṁ gacchatī’ti, tenāvuso, puggalena so puggalo saṅkhāpi anāpucchā pakkamitabbaṁ nānubandhitabbo. ",
+      "english": "However, the goal of the ascetic life for which I went forth from the lay life to homelessness is not being fully developed.’ In this case you should leave that individual after reflecting, without asking. You shouldn’t follow them. "
+    },
+    {
+      "number": 28,
+      "pali": "Tattha yaṁ jaññā puggalaṁ: ",
+      "english": "Well, should you know of an individual: "
+    },
+    {
+      "number": 29,
+      "pali": "‘imaṁ kho me puggalaṁ sevato akusalā dhammā parihāyanti, kusalā dhammā abhivaḍḍhanti; ",
+      "english": "‘When I associate with this individual, unskillful qualities decline, and skillful qualities grow. "
+    },
+    {
+      "number": 30,
+      "pali": "ye ca kho me pabbajitena jīvitaparikkhārā samudānetabbā cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārā te ca kasirena samudāgacchanti; ",
+      "english": "And the necessities of life that a renunciate requires—robes, almsfood, lodgings, and medicines and supplies for the sick—are hard to come by. "
+    },
+    {
+      "number": 31,
+      "pali": "yassa camhi atthāya agārasmā anagāriyaṁ pabbajito so ca me sāmaññattho bhāvanāpāripūriṁ gacchatī’ti, tenāvuso, puggalena so puggalo saṅkhāpi anubandhitabbo na pakkamitabbaṁ. ",
+      "english": "But the goal of the ascetic life for which I went forth from the lay life to homelessness is being fully developed.’ In this case you should follow that individual after appraisal. You shouldn’t leave them. "
+    },
+    {
+      "number": 32,
+      "pali": "Tattha yaṁ jaññā puggalaṁ: ",
+      "english": "Whereas, should you know of an individual: "
+    },
+    {
+      "number": 33,
+      "pali": "‘imaṁ kho me puggalaṁ sevato akusalā dhammā parihāyanti, kusalā dhammā abhivaḍḍhanti; ",
+      "english": "‘When I associate with this individual, unskillful qualities decline, and skillful qualities grow. "
+    },
+    {
+      "number": 34,
+      "pali": "ye ca kho me pabbajitena jīvitaparikkhārā samudānetabbā cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārā te ca appakasirena samudāgacchanti; ",
+      "english": "And the necessities of life that a renunciate requires—robes, almsfood, lodgings, and medicines and supplies for the sick—are easy to come by. "
+    },
+    {
+      "number": 35,
+      "pali": "yassa camhi atthāya agārasmā anagāriyaṁ pabbajito so ca me sāmaññattho bhāvanāpāripūriṁ gacchatī’ti, tenāvuso, puggalena so puggalo yāvajīvaṁ anubandhitabbo na pakkamitabbaṁ api panujjamānena. ",
+      "english": "And the goal of the ascetic life for which I went forth from the lay life to homelessness is being fully developed.’ In this case you should follow that individual. You shouldn’t leave them, even if they send you away. "
+    },
+    {
+      "number": 36,
+      "pali": "‘Puggalopi, āvuso, duvidhena veditabbo—",
+      "english": "‘You should distinguish two kinds of individual: "
+    },
+    {
+      "number": 37,
+      "pali": "sevitabbopi asevitabbopī’ti, ",
+      "english": "those you should associate with, and those you shouldn’t associate with.’ "
+    },
+    {
+      "number": 38,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 39,
+      "pali": "‘Cīvarampi, āvuso, duvidhena veditabbaṁ—",
+      "english": "‘You should distinguish two kinds of robes: "
+    },
+    {
+      "number": 40,
+      "pali": "sevitabbampi asevitabbampī’ti, ",
+      "english": "those you should wear, and those you shouldn’t wear.’ "
+    },
+    {
+      "number": 41,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 42,
+      "pali": "Tattha yaṁ jaññā cīvaraṁ: ",
+      "english": "Well, should you know of a robe: "
+    },
+    {
+      "number": 43,
+      "pali": "‘idaṁ kho me cīvaraṁ sevato akusalā dhammā abhivaḍḍhanti, kusalā dhammā parihāyantī’ti, evarūpaṁ cīvaraṁ na sevitabbaṁ. ",
+      "english": "‘When I wear this robe, unskillful qualities grow, and skillful qualities decline.’ You should not wear that kind of robe. "
+    },
+    {
+      "number": 44,
+      "pali": "Tattha yaṁ jaññā cīvaraṁ: ",
+      "english": "Whereas, should you know of a robe: "
+    },
+    {
+      "number": 45,
+      "pali": "‘idaṁ kho me cīvaraṁ sevato akusalā dhammā parihāyanti, kusalā dhammā abhivaḍḍhantī’ti, evarūpaṁ cīvaraṁ sevitabbaṁ. ",
+      "english": "‘When I wear this robe, unskillful qualities decline, and skillful qualities grow.’ You should wear that kind of robe. "
+    },
+    {
+      "number": 46,
+      "pali": "‘Cīvarampi, āvuso, duvidhena veditabbaṁ—",
+      "english": "‘You should distinguish two kinds of robes: "
+    },
+    {
+      "number": 47,
+      "pali": "sevitabbampi asevitabbampī’ti, ",
+      "english": "those you should wear, and those you shouldn’t wear.’ "
+    },
+    {
+      "number": 48,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 49,
+      "pali": "‘Piṇḍapātopi, āvuso, duvidhena veditabbo—",
+      "english": "‘You should distinguish two kinds of almsfood: "
+    },
+    {
+      "number": 50,
+      "pali": "sevitabbopi asevitabbopī’ti, ",
+      "english": "that which you should eat, and that which you shouldn’t eat.’ "
+    },
+    {
+      "number": 51,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 52,
+      "pali": "Tattha yaṁ jaññā piṇḍapātaṁ: ",
+      "english": "Well, should you know of almsfood: "
+    },
+    {
+      "number": 53,
+      "pali": "‘imaṁ kho me piṇḍapātaṁ sevato akusalā dhammā abhivaḍḍhanti, kusalā dhammā parihāyantī’ti, evarūpo piṇḍapāto na sevitabbo. ",
+      "english": "‘When I eat this almsfood, unskillful qualities grow, and skillful qualities decline.’ You should not eat that kind of almsfood. "
+    },
+    {
+      "number": 54,
+      "pali": "Tattha yaṁ jaññā piṇḍapātaṁ: ",
+      "english": "Whereas, should you know of almsfood: "
+    },
+    {
+      "number": 55,
+      "pali": "‘imaṁ kho me piṇḍapātaṁ sevato akusalā dhammā parihāyanti, kusalā dhammā abhivaḍḍhantī’ti, evarūpo piṇḍapāto sevitabbo. ",
+      "english": "‘When I eat this almsfood, unskillful qualities decline, and skillful qualities grow.’ You should eat that kind of almsfood. "
+    },
+    {
+      "number": 56,
+      "pali": "‘Piṇḍapātopi, āvuso, duvidhena veditabbo—",
+      "english": "‘You should distinguish two kinds of almsfood: "
+    },
+    {
+      "number": 57,
+      "pali": "sevitabbopi asevitabbopī’ti, ",
+      "english": "that which you should eat, and that which you shouldn’t eat.’ "
+    },
+    {
+      "number": 58,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 59,
+      "pali": "‘Senāsanampi, āvuso, duvidhena veditabbaṁ—",
+      "english": "‘You should distinguish two kinds of lodging: "
+    },
+    {
+      "number": 60,
+      "pali": "sevitabbampi asevitabbampī’ti, ",
+      "english": "those you should frequent, and those you shouldn’t frequent.’ "
+    },
+    {
+      "number": 61,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 62,
+      "pali": "Tattha yaṁ jaññā senāsanaṁ: ",
+      "english": "Well, should you know of a lodging: "
+    },
+    {
+      "number": 63,
+      "pali": "‘idaṁ kho me senāsanaṁ sevato akusalā dhammā abhivaḍḍhanti, kusalā dhammā parihāyantī’ti, evarūpaṁ senāsanaṁ na sevitabbaṁ. ",
+      "english": "‘When I frequent this lodging, unskillful qualities grow, and skillful qualities decline.’ You should not frequent that kind of lodging. "
+    },
+    {
+      "number": 64,
+      "pali": "Tattha yaṁ jaññā senāsanaṁ: ",
+      "english": "Whereas, should you know of a lodging: "
+    },
+    {
+      "number": 65,
+      "pali": "‘idaṁ kho me senāsanaṁ sevato akusalā dhammā parihāyanti, kusalā dhammā abhivaḍḍhantī’ti, evarūpaṁ senāsanaṁ sevitabbaṁ. ",
+      "english": "‘When I frequent this lodging, unskillful qualities decline, and skillful qualities grow.’ You should frequent that kind of lodging. "
+    },
+    {
+      "number": 66,
+      "pali": "‘Senāsanampi, āvuso, duvidhena veditabbaṁ—",
+      "english": "‘You should distinguish two kinds of lodging: "
+    },
+    {
+      "number": 67,
+      "pali": "sevitabbampi asevitabbampī’ti, ",
+      "english": "those you should frequent, and those you shouldn’t frequent.’ "
+    },
+    {
+      "number": 68,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 69,
+      "pali": "‘Gāmanigamopi, āvuso, duvidhena veditabbo—",
+      "english": "‘You should distinguish two kinds of village or town: "
+    },
+    {
+      "number": 70,
+      "pali": "sevitabbopi asevitabbopī’ti, ",
+      "english": "those you should frequent, and those you shouldn’t frequent.’ "
+    },
+    {
+      "number": 71,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 72,
+      "pali": "Tattha yaṁ jaññā gāmanigamaṁ: ",
+      "english": "Well, should you know of a village or town: "
+    },
+    {
+      "number": 73,
+      "pali": "‘imaṁ kho me gāmanigamaṁ sevato akusalā dhammā abhivaḍḍhanti, kusalā dhammā parihāyantī’ti, evarūpo gāmanigamo na sevitabbo. ",
+      "english": "‘When I frequent this village or town, unskillful qualities grow, and skillful qualities decline.’ You should not frequent that kind of village or town. "
+    },
+    {
+      "number": 74,
+      "pali": "Tattha yaṁ jaññā gāmanigamaṁ: ",
+      "english": "Whereas, should you know of a village or town: "
+    },
+    {
+      "number": 75,
+      "pali": "‘imaṁ kho me gāmanigamaṁ sevato akusalā dhammā parihāyanti, kusalā dhammā abhivaḍḍhantī’ti, evarūpo gāmanigamo sevitabbo. ",
+      "english": "‘When I frequent this village or town, unskillful qualities decline, and skillful qualities grow.’ You should frequent that kind of village or town. "
+    },
+    {
+      "number": 76,
+      "pali": "‘Gāmanigamopi, āvuso, duvidhena veditabbo—",
+      "english": "‘You should distinguish two kinds of village or town: "
+    },
+    {
+      "number": 77,
+      "pali": "sevitabbopi asevitabbopī’ti, ",
+      "english": "those you should frequent, and those you shouldn’t frequent.’ "
+    },
+    {
+      "number": 78,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
+      "english": "That’s what I said, and this is why I said it. "
+    },
+    {
+      "number": 79,
+      "pali": "‘Janapadapadesopi, āvuso, duvidhena veditabbo—",
+      "english": "‘You should distinguish two kinds of country: "
+    },
+    {
+      "number": 80,
+      "pali": "sevitabbopi asevitabbopī’ti, ",
+      "english": "those you should frequent, and those you shouldn’t frequent.’ "
+    },
+    {
+      "number": 81,
+      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
+      "english": "That’s what I said, but why did I say it? "
+    },
+    {
+      "number": 82,
+      "pali": "Tattha yaṁ jaññā janapadapadesaṁ: ",
+      "english": "Well, should you know of a country: "
+    },
+    {
+      "number": 83,
+      "pali": "‘imaṁ kho me janapadapadesaṁ sevato akusalā dhammā abhivaḍḍhanti, kusalā dhammā parihāyantī’ti, evarūpo janapadapadeso na sevitabbo. ",
+      "english": "‘When I frequent this country, unskillful qualities grow, and skillful qualities decline.’ You should not frequent that kind of country. "
+    },
+    {
+      "number": 84,
+      "pali": "Tattha yaṁ jaññā janapadapadesaṁ: ",
+      "english": "Whereas, should you know of a country: "
+    },
+    {
+      "number": 85,
+      "pali": "‘imaṁ kho me janapadapadesaṁ sevato akusalā dhammā parihāyanti, kusalā dhammā abhivaḍḍhantī’ti, evarūpo janapadapadeso sevitabbo. ",
+      "english": "‘When I frequent this country, unskillful qualities decline, and skillful qualities grow.’ You should frequent that kind of country. "
+    },
+    {
+      "number": 86,
+      "pali": "‘Janapadapadesopi, āvuso, duvidhena veditabbo—",
+      "english": "‘You should distinguish two kinds of country: "
+    },
+    {
+      "number": 87,
+      "pali": "sevitabbopi asevitabbopī’ti, ",
+      "english": "those you should frequent, and those you shouldn’t frequent.’ "
+    },
+    {
+      "number": 88,
+      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttan”ti. ",
+      "english": "That’s what I said, and this is why I said it.” "
+    },
+    {
+      "number": 89,
+      "pali": "Chaṭṭhaṁ. ",
+      "english": ""
+    }
+  ]
+}

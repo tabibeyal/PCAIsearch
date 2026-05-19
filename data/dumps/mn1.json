@@ -1,0 +1,1675 @@
+{
+  "sutta_id": "MN1",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 1 ",
+      "english": "Middle Discourses 1 "
+    },
+    {
+      "number": 2,
+      "pali": "Mūlapariyāyasutta ",
+      "english": "The Root of All Things "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā ukkaṭṭhāyaṁ viharati subhagavane sālarājamūle. ",
+      "english": "At one time the Buddha was staying near Ukkaṭṭhā, in the Subhaga Forest at the root of a magnificent sal tree. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“sabbadhammamūlapariyāyaṁ vo, bhikkhave, desessāmi. ",
+      "english": "“Mendicants, I will teach you the explanation of the root of all things. "
+    },
+    {
+      "number": 10,
+      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "Listen and apply your minds well, I will speak.” "
+    },
+    {
+      "number": 11,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 12,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 13,
+      "pali": "“Idha, bhikkhave, assutavā puthujjano ariyānaṁ adassāvī ariyadhammassa akovido ariyadhamme avinīto, sappurisānaṁ adassāvī sappurisadhammassa akovido sappurisadhamme avinīto—",
+      "english": "“Take an unlearned ordinary person who has not seen the noble ones, and is neither skilled nor trained in the teaching of the noble ones. They’ve not seen true persons, and are neither skilled nor trained in the teaching of the true persons. "
+    },
+    {
+      "number": 14,
+      "pali": "pathaviṁ pathavito sañjānāti; ",
+      "english": "They perceive earth as earth. "
+    },
+    {
+      "number": 15,
+      "pali": "pathaviṁ pathavito saññatvā pathaviṁ maññati, pathaviyā maññati, pathavito maññati, pathaviṁ meti maññati, pathaviṁ abhinandati. ",
+      "english": "Having perceived earth as earth, they conceive it to be earth, they conceive it in earth, they conceive it as earth, they conceive that ‘earth is mine’, they approve earth. "
+    },
+    {
+      "number": 16,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 17,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 18,
+      "pali": "Āpaṁ āpato sañjānāti; ",
+      "english": "They perceive water as water. "
+    },
+    {
+      "number": 19,
+      "pali": "āpaṁ āpato saññatvā āpaṁ maññati, āpasmiṁ maññati, āpato maññati, āpaṁ meti maññati, āpaṁ abhinandati. ",
+      "english": "Having perceived water as water, they conceive it to be water … "
+    },
+    {
+      "number": 20,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 21,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 22,
+      "pali": "Tejaṁ tejato sañjānāti; ",
+      "english": "They perceive fire as fire. "
+    },
+    {
+      "number": 23,
+      "pali": "tejaṁ tejato saññatvā tejaṁ maññati, tejasmiṁ maññati, tejato maññati, tejaṁ meti maññati, tejaṁ abhinandati. ",
+      "english": "Having perceived fire as fire, they conceive it to be fire … "
+    },
+    {
+      "number": 24,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 25,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 26,
+      "pali": "Vāyaṁ vāyato sañjānāti; ",
+      "english": "They perceive air as air. "
+    },
+    {
+      "number": 27,
+      "pali": "vāyaṁ vāyato saññatvā vāyaṁ maññati, vāyasmiṁ maññati, vāyato maññati, vāyaṁ meti maññati, vāyaṁ abhinandati. ",
+      "english": "Having perceived air as air, they conceive it to be air … "
+    },
+    {
+      "number": 28,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 29,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 30,
+      "pali": "Bhūte bhūtato sañjānāti; ",
+      "english": "They perceive creatures as creatures. "
+    },
+    {
+      "number": 31,
+      "pali": "bhūte bhūtato saññatvā bhūte maññati, bhūtesu maññati, bhūtato maññati, bhūte meti maññati, bhūte abhinandati. ",
+      "english": "Having perceived creatures as creatures, they conceive them to be creatures … "
+    },
+    {
+      "number": 32,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 33,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 34,
+      "pali": "Deve devato sañjānāti; ",
+      "english": "They perceive gods as gods. "
+    },
+    {
+      "number": 35,
+      "pali": "deve devato saññatvā deve maññati, devesu maññati, devato maññati, deve meti maññati, deve abhinandati. ",
+      "english": "Having perceived gods as gods, they conceive them to be gods … "
+    },
+    {
+      "number": 36,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 37,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 38,
+      "pali": "Pajāpatiṁ pajāpatito sañjānāti; ",
+      "english": "They perceive the Progenitor as the Progenitor. "
+    },
+    {
+      "number": 39,
+      "pali": "pajāpatiṁ pajāpatito saññatvā pajāpatiṁ maññati, pajāpatismiṁ maññati, pajāpatito maññati, pajāpatiṁ meti maññati, pajāpatiṁ abhinandati. ",
+      "english": "Having perceived the Progenitor as the Progenitor, they conceive him to be the Progenitor … "
+    },
+    {
+      "number": 40,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 41,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 42,
+      "pali": "Brahmaṁ brahmato sañjānāti; ",
+      "english": "They perceive the Divinity as the Divinity. "
+    },
+    {
+      "number": 43,
+      "pali": "brahmaṁ brahmato saññatvā brahmaṁ maññati, brahmasmiṁ maññati, brahmato maññati, brahmaṁ meti maññati, brahmaṁ abhinandati. ",
+      "english": "Having perceived the Divinity as the Divinity, they conceive him to be the Divinity … "
+    },
+    {
+      "number": 44,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 45,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 46,
+      "pali": "Ābhassare ābhassarato sañjānāti; ",
+      "english": "They perceive those of streaming radiance as those of streaming radiance. "
+    },
+    {
+      "number": 47,
+      "pali": "ābhassare ābhassarato saññatvā ābhassare maññati, ābhassaresu maññati, ābhassarato maññati, ābhassare meti maññati, ābhassare abhinandati. ",
+      "english": "Having perceived those of streaming radiance as those of streaming radiance, they conceive them to be those of streaming radiance … "
+    },
+    {
+      "number": 48,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 49,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 50,
+      "pali": "Subhakiṇhe subhakiṇhato sañjānāti; ",
+      "english": "They perceive those of universal beauty as those of universal beauty. "
+    },
+    {
+      "number": 51,
+      "pali": "subhakiṇhe subhakiṇhato saññatvā subhakiṇhe maññati, subhakiṇhesu maññati, subhakiṇhato maññati, subhakiṇhe meti maññati, subhakiṇhe abhinandati. ",
+      "english": "But then they conceive them to be those of universal beauty … "
+    },
+    {
+      "number": 52,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 53,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 54,
+      "pali": "Vehapphale vehapphalato sañjānāti; ",
+      "english": "They perceive those of abundant fruit as those of abundant fruit. "
+    },
+    {
+      "number": 55,
+      "pali": "vehapphale vehapphalato saññatvā vehapphale maññati, vehapphalesu maññati, vehapphalato maññati, vehapphale meti maññati, vehapphale abhinandati. ",
+      "english": "Having perceived those of abundant fruit as those of abundant fruit, they conceive them to be those of abundant fruit … "
+    },
+    {
+      "number": 56,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 57,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 58,
+      "pali": "Abhibhuṁ abhibhuto sañjānāti; ",
+      "english": "They perceive the Vanquisher as the Vanquisher. "
+    },
+    {
+      "number": 59,
+      "pali": "abhibhuṁ abhibhuto saññatvā abhibhuṁ maññati, abhibhusmiṁ maññati, abhibhuto maññati, abhibhuṁ meti maññati, abhibhuṁ abhinandati. ",
+      "english": "Having perceived the Vanquisher as the Vanquisher, they conceive him to be the Vanquisher … "
+    },
+    {
+      "number": 60,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 61,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 62,
+      "pali": "Ākāsānañcāyatanaṁ ākāsānañcāyatanato sañjānāti; ",
+      "english": "They perceive the dimension of infinite space as the dimension of infinite space. "
+    },
+    {
+      "number": 63,
+      "pali": "ākāsānañcāyatanaṁ ākāsānañcāyatanato saññatvā ākāsānañcāyatanaṁ maññati, ākāsānañcāyatanasmiṁ maññati, ākāsānañcāyatanato maññati, ākāsānañcāyatanaṁ meti maññati, ākāsānañcāyatanaṁ abhinandati. ",
+      "english": "Having perceived the dimension of infinite space as the dimension of infinite space, they conceive it to be the dimension of infinite space … "
+    },
+    {
+      "number": 64,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 65,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 66,
+      "pali": "Viññāṇañcāyatanaṁ viññāṇañcāyatanato sañjānāti; ",
+      "english": "They perceive the dimension of infinite consciousness as the dimension of infinite consciousness. "
+    },
+    {
+      "number": 67,
+      "pali": "viññāṇañcāyatanaṁ viññāṇañcāyatanato saññatvā viññāṇañcāyatanaṁ maññati, viññāṇañcāyatanasmiṁ maññati, viññāṇañcāyatanato maññati, viññāṇañcāyatanaṁ meti maññati, viññāṇañcāyatanaṁ abhinandati. ",
+      "english": "Having perceived the dimension of infinite consciousness as the dimension of infinite consciousness, they conceive it to be the dimension of infinite consciousness … "
+    },
+    {
+      "number": 68,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 69,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 70,
+      "pali": "Ākiñcaññāyatanaṁ ākiñcaññāyatanato sañjānāti; ",
+      "english": "They perceive the dimension of nothingness as the dimension of nothingness. "
+    },
+    {
+      "number": 71,
+      "pali": "ākiñcaññāyatanaṁ ākiñcaññāyatanato saññatvā ākiñcaññāyatanaṁ maññati, ākiñcaññāyatanasmiṁ maññati, ākiñcaññāyatanato maññati, ākiñcaññāyatanaṁ meti maññati, ākiñcaññāyatanaṁ abhinandati. ",
+      "english": "Having perceived the dimension of nothingness as the dimension of nothingness, they conceive it to be the dimension of nothingness … "
+    },
+    {
+      "number": 72,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 73,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 74,
+      "pali": "Nevasaññānāsaññāyatanaṁ nevasaññānāsaññāyatanato sañjānāti; ",
+      "english": "They perceive the dimension of neither perception nor non-perception as the dimension of neither perception nor non-perception. "
+    },
+    {
+      "number": 75,
+      "pali": "nevasaññānāsaññāyatanaṁ nevasaññānāsaññāyatanato saññatvā nevasaññānāsaññāyatanaṁ maññati, nevasaññānāsaññāyatanasmiṁ maññati, nevasaññānāsaññāyatanato maññati, nevasaññānāsaññāyatanaṁ meti maññati, nevasaññānāsaññāyatanaṁ abhinandati. ",
+      "english": "Having perceived the dimension of neither perception nor non-perception as the dimension of neither perception nor non-perception, they conceive it to be the dimension of neither perception nor non-perception … "
+    },
+    {
+      "number": 76,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 77,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 78,
+      "pali": "Diṭṭhaṁ diṭṭhato sañjānāti; ",
+      "english": "They perceive the seen as the seen. "
+    },
+    {
+      "number": 79,
+      "pali": "diṭṭhaṁ diṭṭhato saññatvā diṭṭhaṁ maññati, diṭṭhasmiṁ maññati, diṭṭhato maññati, diṭṭhaṁ meti maññati, diṭṭhaṁ abhinandati. ",
+      "english": "Having perceived the seen as the seen, they conceive it to be the seen … "
+    },
+    {
+      "number": 80,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 81,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 82,
+      "pali": "Sutaṁ sutato sañjānāti; ",
+      "english": "They perceive the heard as the heard. "
+    },
+    {
+      "number": 83,
+      "pali": "sutaṁ sutato saññatvā sutaṁ maññati, sutasmiṁ maññati, sutato maññati, sutaṁ meti maññati, sutaṁ abhinandati. ",
+      "english": "Having perceived the heard as the heard, they conceive it to be the heard … "
+    },
+    {
+      "number": 84,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 85,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 86,
+      "pali": "Mutaṁ mutato sañjānāti; ",
+      "english": "They perceive the thought as the thought. "
+    },
+    {
+      "number": 87,
+      "pali": "mutaṁ mutato saññatvā mutaṁ maññati, mutasmiṁ maññati, mutato maññati, mutaṁ meti maññati, mutaṁ abhinandati. ",
+      "english": "Having perceived the thought as the thought, they conceive it to be the thought … "
+    },
+    {
+      "number": 88,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 89,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 90,
+      "pali": "Viññātaṁ viññātato sañjānāti; ",
+      "english": "They perceive the known as the known. "
+    },
+    {
+      "number": 91,
+      "pali": "viññātaṁ viññātato saññatvā viññātaṁ maññati, viññātasmiṁ maññati, viññātato maññati, viññātaṁ meti maññati, viññātaṁ abhinandati. ",
+      "english": "Having perceived the known as the known, they conceive it to be the known … "
+    },
+    {
+      "number": 92,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 93,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 94,
+      "pali": "Ekattaṁ ekattato sañjānāti; ",
+      "english": "They perceive oneness as oneness. "
+    },
+    {
+      "number": 95,
+      "pali": "ekattaṁ ekattato saññatvā ekattaṁ maññati, ekattasmiṁ maññati, ekattato maññati, ekattaṁ meti maññati, ekattaṁ abhinandati. ",
+      "english": "Having perceived oneness as oneness, they conceive it to be oneness … "
+    },
+    {
+      "number": 96,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 97,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 98,
+      "pali": "Nānattaṁ nānattato sañjānāti; ",
+      "english": "They perceive diversity as diversity. "
+    },
+    {
+      "number": 99,
+      "pali": "nānattaṁ nānattato saññatvā nānattaṁ maññati, nānattasmiṁ maññati, nānattato maññati, nānattaṁ meti maññati, nānattaṁ abhinandati. ",
+      "english": "Having perceived diversity as diversity, they conceive it to be diversity … "
+    },
+    {
+      "number": 100,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 101,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 102,
+      "pali": "Sabbaṁ sabbato sañjānāti; ",
+      "english": "They perceive all as all. "
+    },
+    {
+      "number": 103,
+      "pali": "sabbaṁ sabbato saññatvā sabbaṁ maññati, sabbasmiṁ maññati, sabbato maññati, sabbaṁ meti maññati, sabbaṁ abhinandati. ",
+      "english": "Having perceived all as all, they conceive it to be all … "
+    },
+    {
+      "number": 104,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 105,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 106,
+      "pali": "Nibbānaṁ nibbānato sañjānāti; ",
+      "english": "They perceive extinguishment as extinguishment. "
+    },
+    {
+      "number": 107,
+      "pali": "nibbānaṁ nibbānato saññatvā nibbānaṁ maññati, nibbānasmiṁ maññati, nibbānato maññati, nibbānaṁ meti maññati, nibbānaṁ abhinandati. ",
+      "english": "Having perceived extinguishment as extinguishment, they conceive it to be extinguishment, they conceive it in extinguishment, they conceive it as extinguishment, they conceive that ‘extinguishment is mine’, they approve extinguishment. "
+    },
+    {
+      "number": 108,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 109,
+      "pali": "‘Apariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they haven’t completely understood it, I say. "
+    },
+    {
+      "number": 110,
+      "pali": "Puthujjanavasena paṭhamanayabhūmiparicchedo niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 111,
+      "pali": "Yopi so, bhikkhave, bhikkhu sekkho appattamānaso anuttaraṁ yogakkhemaṁ patthayamāno viharati, sopi pathaviṁ pathavito abhijānāti; ",
+      "english": "A mendicant who is a trainee, who hasn’t achieved their heart’s desire, but lives aspiring to the supreme sanctuary from the yoke, directly knows earth as earth. "
+    },
+    {
+      "number": 112,
+      "pali": "pathaviṁ pathavito abhiññāya pathaviṁ mā maññi, pathaviyā mā maññi, pathavito mā maññi, pathaviṁ meti mā maññi, pathaviṁ mābhinandi. ",
+      "english": "Having directly known earth as earth, let them not conceive it to be earth, let them not conceive it in earth, let them not conceive it as earth, let them not conceive that ‘earth is mine’, let them not approve earth. "
+    },
+    {
+      "number": 113,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 114,
+      "pali": "‘Pariññeyyaṁ tassā’ti vadāmi. ",
+      "english": "So that they may completely understand it, I say. "
+    },
+    {
+      "number": 115,
+      "pali": "Āpaṁ …pe… ",
+      "english": "They directly know water … "
+    },
+    {
+      "number": 116,
+      "pali": "tejaṁ … ",
+      "english": "fire … "
+    },
+    {
+      "number": 117,
+      "pali": "vāyaṁ … ",
+      "english": "air … "
+    },
+    {
+      "number": 118,
+      "pali": "bhūte … ",
+      "english": "creatures … "
+    },
+    {
+      "number": 119,
+      "pali": "deve … ",
+      "english": "gods … "
+    },
+    {
+      "number": 120,
+      "pali": "pajāpatiṁ … ",
+      "english": "the Progenitor … "
+    },
+    {
+      "number": 121,
+      "pali": "brahmaṁ … ",
+      "english": "the Divinity … "
+    },
+    {
+      "number": 122,
+      "pali": "ābhassare … ",
+      "english": "those of streaming radiance … "
+    },
+    {
+      "number": 123,
+      "pali": "subhakiṇhe … ",
+      "english": "those replete with glory … "
+    },
+    {
+      "number": 124,
+      "pali": "vehapphale … ",
+      "english": "those of abundant fruit … "
+    },
+    {
+      "number": 125,
+      "pali": "abhibhuṁ … ",
+      "english": "the Vanquisher … "
+    },
+    {
+      "number": 126,
+      "pali": "ākāsānañcāyatanaṁ … ",
+      "english": "the dimension of infinite space … "
+    },
+    {
+      "number": 127,
+      "pali": "viññāṇañcāyatanaṁ … ",
+      "english": "the dimension of infinite consciousness … "
+    },
+    {
+      "number": 128,
+      "pali": "ākiñcaññāyatanaṁ … ",
+      "english": "the dimension of nothingness … "
+    },
+    {
+      "number": 129,
+      "pali": "nevasaññānāsaññāyatanaṁ … ",
+      "english": "the dimension of neither perception nor non-perception … "
+    },
+    {
+      "number": 130,
+      "pali": "diṭṭhaṁ … ",
+      "english": "the seen … "
+    },
+    {
+      "number": 131,
+      "pali": "sutaṁ … ",
+      "english": "the heard … "
+    },
+    {
+      "number": 132,
+      "pali": "mutaṁ … ",
+      "english": "the thought … "
+    },
+    {
+      "number": 133,
+      "pali": "viññātaṁ … ",
+      "english": "the known … "
+    },
+    {
+      "number": 134,
+      "pali": "ekattaṁ … ",
+      "english": "oneness … "
+    },
+    {
+      "number": 135,
+      "pali": "nānattaṁ … ",
+      "english": "diversity … "
+    },
+    {
+      "number": 136,
+      "pali": "sabbaṁ … ",
+      "english": "all … "
+    },
+    {
+      "number": 137,
+      "pali": "nibbānaṁ nibbānato abhijānāti; ",
+      "english": "They directly know extinguishment as extinguishment. "
+    },
+    {
+      "number": 138,
+      "pali": "nibbānaṁ nibbānato abhiññāya nibbānaṁ mā maññi, nibbānasmiṁ mā maññi, nibbānato mā maññi, nibbānaṁ meti mā maññi, nibbānaṁ mābhinandi. ",
+      "english": "Having directly known extinguishment as extinguishment, let them not conceive it to be extinguishment, let them not conceive it in extinguishment, let them not conceive it as extinguishment, let them not conceive that ‘extinguishment is mine’, let them not approve extinguishment. "
+    },
+    {
+      "number": 139,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 140,
+      "pali": "‘Pariññeyyaṁ tassā’ti vadāmi. ",
+      "english": "So that they may completely understand it, I say. "
+    },
+    {
+      "number": 141,
+      "pali": "Sekkhavasena dutiyanayabhūmiparicchedo niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 142,
+      "pali": "Yopi so, bhikkhave, bhikkhu arahaṁ khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṁyojano sammadaññāvimutto, sopi pathaviṁ pathavito abhijānāti; ",
+      "english": "A mendicant who is perfected—with defilements ended, who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment—directly knows earth as earth. "
+    },
+    {
+      "number": 143,
+      "pali": "pathaviṁ pathavito abhiññāya pathaviṁ na maññati, pathaviyā na maññati, pathavito na maññati, pathaviṁ meti na maññati, pathaviṁ nābhinandati. ",
+      "english": "Having directly known earth as earth, they do not conceive it to be earth, they do not conceive it in earth, they do not conceive it as earth, they do not conceive that ‘earth is mine’, they do not approve earth. "
+    },
+    {
+      "number": 144,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 145,
+      "pali": "‘Pariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they have completely understood it, I say. "
+    },
+    {
+      "number": 146,
+      "pali": "Āpaṁ …pe… ",
+      "english": "They directly know water … "
+    },
+    {
+      "number": 147,
+      "pali": "tejaṁ … ",
+      "english": "fire … "
+    },
+    {
+      "number": 148,
+      "pali": "vāyaṁ … ",
+      "english": "air … "
+    },
+    {
+      "number": 149,
+      "pali": "bhūte … ",
+      "english": "creatures … "
+    },
+    {
+      "number": 150,
+      "pali": "deve … ",
+      "english": "gods … "
+    },
+    {
+      "number": 151,
+      "pali": "pajāpatiṁ … ",
+      "english": "the Progenitor … "
+    },
+    {
+      "number": 152,
+      "pali": "brahmaṁ … ",
+      "english": "the Divinity … "
+    },
+    {
+      "number": 153,
+      "pali": "ābhassare … ",
+      "english": "those of streaming radiance … "
+    },
+    {
+      "number": 154,
+      "pali": "subhakiṇhe … ",
+      "english": "those replete with glory … "
+    },
+    {
+      "number": 155,
+      "pali": "vehapphale … ",
+      "english": "those of abundant fruit … "
+    },
+    {
+      "number": 156,
+      "pali": "abhibhuṁ … ",
+      "english": "the Vanquisher … "
+    },
+    {
+      "number": 157,
+      "pali": "ākāsānañcāyatanaṁ … ",
+      "english": "the dimension of infinite space … "
+    },
+    {
+      "number": 158,
+      "pali": "viññāṇañcāyatanaṁ … ",
+      "english": "the dimension of infinite consciousness … "
+    },
+    {
+      "number": 159,
+      "pali": "ākiñcaññāyatanaṁ … ",
+      "english": "the dimension of nothingness … "
+    },
+    {
+      "number": 160,
+      "pali": "nevasaññānāsaññāyatanaṁ … ",
+      "english": "the dimension of neither perception nor non-perception … "
+    },
+    {
+      "number": 161,
+      "pali": "diṭṭhaṁ … ",
+      "english": "the seen … "
+    },
+    {
+      "number": 162,
+      "pali": "sutaṁ … ",
+      "english": "the heard … "
+    },
+    {
+      "number": 163,
+      "pali": "mutaṁ … ",
+      "english": "the thought … "
+    },
+    {
+      "number": 164,
+      "pali": "viññātaṁ … ",
+      "english": "the known … "
+    },
+    {
+      "number": 165,
+      "pali": "ekattaṁ … ",
+      "english": "oneness … "
+    },
+    {
+      "number": 166,
+      "pali": "nānattaṁ … ",
+      "english": "diversity … "
+    },
+    {
+      "number": 167,
+      "pali": "sabbaṁ … ",
+      "english": "all … "
+    },
+    {
+      "number": 168,
+      "pali": "nibbānaṁ nibbānato abhijānāti; ",
+      "english": "They directly know extinguishment as extinguishment. "
+    },
+    {
+      "number": 169,
+      "pali": "nibbānaṁ nibbānato abhiññāya nibbānaṁ na maññati, nibbānasmiṁ na maññati, nibbānato na maññati, nibbānaṁ meti na maññati, nibbānaṁ nābhinandati. ",
+      "english": "Having directly known extinguishment as extinguishment, they do not conceive it to be extinguishment, they do not conceive it in extinguishment, they do not conceive it as extinguishment, they do not conceive that ‘extinguishment is mine’, they do not approve extinguishment. "
+    },
+    {
+      "number": 170,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 171,
+      "pali": "‘Pariññātaṁ tassā’ti vadāmi. ",
+      "english": "Because they have completely understood it, I say. "
+    },
+    {
+      "number": 172,
+      "pali": "Khīṇāsavavasena tatiyanayabhūmiparicchedo niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 173,
+      "pali": "Yopi so, bhikkhave, bhikkhu arahaṁ khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṁyojano sammadaññā vimutto, sopi pathaviṁ pathavito abhijānāti; ",
+      "english": "A mendicant who is perfected—with defilements ended, who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment—directly knows earth as earth. "
+    },
+    {
+      "number": 174,
+      "pali": "pathaviṁ pathavito abhiññāya pathaviṁ na maññati, pathaviyā na maññati, pathavito na maññati, pathaviṁ meti na maññati, pathaviṁ nābhinandati. ",
+      "english": "Having directly known earth as earth, they do not conceive it to be earth, they do not conceive it in earth, they do not conceive it as earth, they do not conceive that ‘earth is mine’, they do not approve earth. "
+    },
+    {
+      "number": 175,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 176,
+      "pali": "Khayā rāgassa, vītarāgattā. ",
+      "english": "Because they’re free of greed due to the ending of greed. "
+    },
+    {
+      "number": 177,
+      "pali": "Āpaṁ …pe… ",
+      "english": "They directly know water … "
+    },
+    {
+      "number": 178,
+      "pali": "tejaṁ … ",
+      "english": "fire … "
+    },
+    {
+      "number": 179,
+      "pali": "vāyaṁ … ",
+      "english": "air … "
+    },
+    {
+      "number": 180,
+      "pali": "bhūte … ",
+      "english": "creatures … "
+    },
+    {
+      "number": 181,
+      "pali": "deve … ",
+      "english": "gods … "
+    },
+    {
+      "number": 182,
+      "pali": "pajāpatiṁ … ",
+      "english": "the Progenitor … "
+    },
+    {
+      "number": 183,
+      "pali": "brahmaṁ … ",
+      "english": "the Divinity … "
+    },
+    {
+      "number": 184,
+      "pali": "ābhassare … ",
+      "english": "those of streaming radiance … "
+    },
+    {
+      "number": 185,
+      "pali": "subhakiṇhe … ",
+      "english": "those replete with glory … "
+    },
+    {
+      "number": 186,
+      "pali": "vehapphale … ",
+      "english": "those of abundant fruit … "
+    },
+    {
+      "number": 187,
+      "pali": "abhibhuṁ … ",
+      "english": "the Vanquisher … "
+    },
+    {
+      "number": 188,
+      "pali": "ākāsānañcāyatanaṁ … ",
+      "english": "the dimension of infinite space … "
+    },
+    {
+      "number": 189,
+      "pali": "viññāṇañcāyatanaṁ … ",
+      "english": "the dimension of infinite consciousness … "
+    },
+    {
+      "number": 190,
+      "pali": "ākiñcaññāyatanaṁ … ",
+      "english": "the dimension of nothingness … "
+    },
+    {
+      "number": 191,
+      "pali": "nevasaññānāsaññāyatanaṁ … ",
+      "english": "the dimension of neither perception nor non-perception … "
+    },
+    {
+      "number": 192,
+      "pali": "diṭṭhaṁ … ",
+      "english": "the seen … "
+    },
+    {
+      "number": 193,
+      "pali": "sutaṁ … ",
+      "english": "the heard … "
+    },
+    {
+      "number": 194,
+      "pali": "mutaṁ … ",
+      "english": "the thought … "
+    },
+    {
+      "number": 195,
+      "pali": "viññātaṁ … ",
+      "english": "the known … "
+    },
+    {
+      "number": 196,
+      "pali": "ekattaṁ … ",
+      "english": "oneness … "
+    },
+    {
+      "number": 197,
+      "pali": "nānattaṁ … ",
+      "english": "diversity … "
+    },
+    {
+      "number": 198,
+      "pali": "sabbaṁ … ",
+      "english": "all … "
+    },
+    {
+      "number": 199,
+      "pali": "nibbānaṁ nibbānato abhijānāti; ",
+      "english": "They directly know extinguishment as extinguishment. "
+    },
+    {
+      "number": 200,
+      "pali": "nibbānaṁ nibbānato abhiññāya nibbānaṁ na maññati, nibbānasmiṁ na maññati, nibbānato na maññati, nibbānaṁ meti na maññati, nibbānaṁ nābhinandati. ",
+      "english": "Having directly known extinguishment as extinguishment, they do not conceive it to be extinguishment, they do not conceive it in extinguishment, they do not conceive it as extinguishment, they do not conceive that ‘extinguishment is mine’, they do not approve extinguishment. "
+    },
+    {
+      "number": 201,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 202,
+      "pali": "Khayā rāgassa, vītarāgattā. ",
+      "english": "Because they’re free of greed due to the ending of greed. "
+    },
+    {
+      "number": 203,
+      "pali": "Khīṇāsavavasena catutthanayabhūmiparicchedo niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 204,
+      "pali": "Yopi so, bhikkhave, bhikkhu arahaṁ khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṁyojano sammadaññāvimutto, sopi pathaviṁ pathavito abhijānāti; ",
+      "english": "A mendicant who is perfected—with defilements ended, who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment—directly knows earth as earth. "
+    },
+    {
+      "number": 205,
+      "pali": "pathaviṁ pathavito abhiññāya pathaviṁ na maññati, pathaviyā na maññati, pathavito na maññati, pathaviṁ meti na maññati, pathaviṁ nābhinandati. ",
+      "english": "Having directly known earth as earth, they do not conceive it to be earth, they do not conceive it in earth, they do not conceive it as earth, they do not conceive that ‘earth is mine’, they do not approve earth. "
+    },
+    {
+      "number": 206,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 207,
+      "pali": "Khayā dosassa, vītadosattā. ",
+      "english": "Because they’re free of hate due to the ending of hate. "
+    },
+    {
+      "number": 208,
+      "pali": "Āpaṁ …pe… ",
+      "english": "They directly know water … "
+    },
+    {
+      "number": 209,
+      "pali": "tejaṁ … ",
+      "english": "fire … "
+    },
+    {
+      "number": 210,
+      "pali": "vāyaṁ … ",
+      "english": "air … "
+    },
+    {
+      "number": 211,
+      "pali": "bhūte … ",
+      "english": "creatures … "
+    },
+    {
+      "number": 212,
+      "pali": "deve … ",
+      "english": "gods … "
+    },
+    {
+      "number": 213,
+      "pali": "pajāpatiṁ … ",
+      "english": "the Progenitor … "
+    },
+    {
+      "number": 214,
+      "pali": "brahmaṁ … ",
+      "english": "the Divinity … "
+    },
+    {
+      "number": 215,
+      "pali": "ābhassare … ",
+      "english": "those of streaming radiance … "
+    },
+    {
+      "number": 216,
+      "pali": "subhakiṇhe … ",
+      "english": "those replete with glory … "
+    },
+    {
+      "number": 217,
+      "pali": "vehapphale … ",
+      "english": "those of abundant fruit … "
+    },
+    {
+      "number": 218,
+      "pali": "abhibhuṁ … ",
+      "english": "the Vanquisher … "
+    },
+    {
+      "number": 219,
+      "pali": "ākāsānañcāyatanaṁ … ",
+      "english": "the dimension of infinite space … "
+    },
+    {
+      "number": 220,
+      "pali": "viññāṇañcāyatanaṁ … ",
+      "english": "the dimension of infinite consciousness … "
+    },
+    {
+      "number": 221,
+      "pali": "ākiñcaññāyatanaṁ … ",
+      "english": "the dimension of nothingness … "
+    },
+    {
+      "number": 222,
+      "pali": "nevasaññānāsaññāyatanaṁ … ",
+      "english": "the dimension of neither perception nor non-perception … "
+    },
+    {
+      "number": 223,
+      "pali": "diṭṭhaṁ … ",
+      "english": "the seen … "
+    },
+    {
+      "number": 224,
+      "pali": "sutaṁ … ",
+      "english": "the heard … "
+    },
+    {
+      "number": 225,
+      "pali": "mutaṁ … ",
+      "english": "the thought … "
+    },
+    {
+      "number": 226,
+      "pali": "viññātaṁ … ",
+      "english": "the known … "
+    },
+    {
+      "number": 227,
+      "pali": "ekattaṁ … ",
+      "english": "oneness … "
+    },
+    {
+      "number": 228,
+      "pali": "nānattaṁ … ",
+      "english": "diversity … "
+    },
+    {
+      "number": 229,
+      "pali": "sabbaṁ … ",
+      "english": "all … "
+    },
+    {
+      "number": 230,
+      "pali": "nibbānaṁ nibbānato abhijānāti; ",
+      "english": "They directly know extinguishment as extinguishment. "
+    },
+    {
+      "number": 231,
+      "pali": "nibbānaṁ nibbānato abhiññāya nibbānaṁ na maññati, nibbānasmiṁ na maññati, nibbānato na maññati, nibbānaṁ meti na maññati, nibbānaṁ nābhinandati. ",
+      "english": "Having directly known extinguishment as extinguishment, they do not conceive it to be extinguishment, they do not conceive it in extinguishment, they do not conceive it as extinguishment, they do not conceive that ‘extinguishment is mine’, they do not approve extinguishment. "
+    },
+    {
+      "number": 232,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 233,
+      "pali": "Khayā dosassa, vītadosattā. ",
+      "english": "Because they’re free of hate due to the ending of hate. "
+    },
+    {
+      "number": 234,
+      "pali": "Khīṇāsavavasena pañcamanayabhūmiparicchedo niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 235,
+      "pali": "Yopi so, bhikkhave, bhikkhu arahaṁ khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṁyojano sammadaññāvimutto, sopi pathaviṁ pathavito abhijānāti; ",
+      "english": "A mendicant who is perfected—with defilements ended, who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment—directly knows earth as earth. "
+    },
+    {
+      "number": 236,
+      "pali": "pathaviṁ pathavito abhiññāya pathaviṁ na maññati, pathaviyā na maññati, pathavito na maññati, pathaviṁ meti na maññati, pathaviṁ nābhinandati. ",
+      "english": "Having directly known earth as earth, they do not conceive it to be earth, they do not conceive it in earth, they do not conceive it as earth, they do not conceive that ‘earth is mine’, they do not approve earth. "
+    },
+    {
+      "number": 237,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 238,
+      "pali": "Khayā mohassa, vītamohattā. ",
+      "english": "Because they’re free of delusion due to the ending of delusion. "
+    },
+    {
+      "number": 239,
+      "pali": "Āpaṁ …pe… ",
+      "english": "They directly know water … "
+    },
+    {
+      "number": 240,
+      "pali": "tejaṁ … ",
+      "english": "fire … "
+    },
+    {
+      "number": 241,
+      "pali": "vāyaṁ … ",
+      "english": "air … "
+    },
+    {
+      "number": 242,
+      "pali": "bhūte … ",
+      "english": "creatures … "
+    },
+    {
+      "number": 243,
+      "pali": "deve … ",
+      "english": "gods … "
+    },
+    {
+      "number": 244,
+      "pali": "pajāpatiṁ … ",
+      "english": "the Progenitor … "
+    },
+    {
+      "number": 245,
+      "pali": "brahmaṁ … ",
+      "english": "the Divinity … "
+    },
+    {
+      "number": 246,
+      "pali": "ābhassare … ",
+      "english": "those of streaming radiance … "
+    },
+    {
+      "number": 247,
+      "pali": "subhakiṇhe … ",
+      "english": "those replete with glory … "
+    },
+    {
+      "number": 248,
+      "pali": "vehapphale … ",
+      "english": "those of abundant fruit … "
+    },
+    {
+      "number": 249,
+      "pali": "abhibhuṁ … ",
+      "english": "the Vanquisher … "
+    },
+    {
+      "number": 250,
+      "pali": "ākāsānañcāyatanaṁ … ",
+      "english": "the dimension of infinite space … "
+    },
+    {
+      "number": 251,
+      "pali": "viññāṇañcāyatanaṁ … ",
+      "english": "the dimension of infinite consciousness … "
+    },
+    {
+      "number": 252,
+      "pali": "ākiñcaññāyatanaṁ … ",
+      "english": "the dimension of nothingness … "
+    },
+    {
+      "number": 253,
+      "pali": "nevasaññānāsaññāyatanaṁ … ",
+      "english": "the dimension of neither perception nor non-perception … "
+    },
+    {
+      "number": 254,
+      "pali": "diṭṭhaṁ … ",
+      "english": "the seen … "
+    },
+    {
+      "number": 255,
+      "pali": "sutaṁ … ",
+      "english": "the heard … "
+    },
+    {
+      "number": 256,
+      "pali": "mutaṁ … ",
+      "english": "the thought … "
+    },
+    {
+      "number": 257,
+      "pali": "viññātaṁ … ",
+      "english": "the known … "
+    },
+    {
+      "number": 258,
+      "pali": "ekattaṁ … ",
+      "english": "oneness … "
+    },
+    {
+      "number": 259,
+      "pali": "nānattaṁ … ",
+      "english": "diversity … "
+    },
+    {
+      "number": 260,
+      "pali": "sabbaṁ … ",
+      "english": "all … "
+    },
+    {
+      "number": 261,
+      "pali": "nibbānaṁ nibbānato abhijānāti; ",
+      "english": "They directly know extinguishment as extinguishment. "
+    },
+    {
+      "number": 262,
+      "pali": "nibbānaṁ nibbānato abhiññāya nibbānaṁ na maññati, nibbānasmiṁ na maññati, nibbānato na maññati, nibbānaṁ meti na maññati, nibbānaṁ nābhinandati. ",
+      "english": "Having directly known extinguishment as extinguishment, they do not conceive it to be extinguishment, they do not conceive it in extinguishment, they do not conceive it as extinguishment, they do not conceive that ‘extinguishment is mine’, they do not approve extinguishment. "
+    },
+    {
+      "number": 263,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 264,
+      "pali": "Khayā mohassa, vītamohattā. ",
+      "english": "Because they’re free of delusion due to the ending of delusion. "
+    },
+    {
+      "number": 265,
+      "pali": "Khīṇāsavavasena chaṭṭhanayabhūmiparicchedo niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 266,
+      "pali": "Tathāgatopi, bhikkhave, arahaṁ sammāsambuddho pathaviṁ pathavito abhijānāti; ",
+      "english": "The Realized One, the perfected one, the fully awakened Buddha directly knows earth as earth. "
+    },
+    {
+      "number": 267,
+      "pali": "pathaviṁ pathavito abhiññāya pathaviṁ na maññati, pathaviyā na maññati, pathavito na maññati, pathaviṁ meti na maññati, pathaviṁ nābhinandati. ",
+      "english": "Having directly known earth as earth, he does not conceive it to be earth, he does not conceive it in earth, he does not conceive it as earth, he does not conceive that ‘earth is mine’, he does not approve earth. "
+    },
+    {
+      "number": 268,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 269,
+      "pali": "‘Pariññātantaṁ tathāgatassā’ti vadāmi. ",
+      "english": "Because the Realized One has completely understood it to the end, I say. "
+    },
+    {
+      "number": 270,
+      "pali": "Āpaṁ …pe… ",
+      "english": "He directly knows water … "
+    },
+    {
+      "number": 271,
+      "pali": "tejaṁ … ",
+      "english": "fire … "
+    },
+    {
+      "number": 272,
+      "pali": "vāyaṁ … ",
+      "english": "air … "
+    },
+    {
+      "number": 273,
+      "pali": "bhūte … ",
+      "english": "creatures … "
+    },
+    {
+      "number": 274,
+      "pali": "deve … ",
+      "english": "gods … "
+    },
+    {
+      "number": 275,
+      "pali": "pajāpatiṁ … ",
+      "english": "the Progenitor … "
+    },
+    {
+      "number": 276,
+      "pali": "brahmaṁ … ",
+      "english": "the Divinity … "
+    },
+    {
+      "number": 277,
+      "pali": "ābhassare … ",
+      "english": "those of streaming radiance … "
+    },
+    {
+      "number": 278,
+      "pali": "subhakiṇhe … ",
+      "english": "those replete with glory … "
+    },
+    {
+      "number": 279,
+      "pali": "vehapphale … ",
+      "english": "those of abundant fruit … "
+    },
+    {
+      "number": 280,
+      "pali": "abhibhuṁ … ",
+      "english": "the Vanquisher … "
+    },
+    {
+      "number": 281,
+      "pali": "ākāsānañcāyatanaṁ … ",
+      "english": "the dimension of infinite space … "
+    },
+    {
+      "number": 282,
+      "pali": "viññāṇañcāyatanaṁ … ",
+      "english": "the dimension of infinite consciousness … "
+    },
+    {
+      "number": 283,
+      "pali": "ākiñcaññāyatanaṁ … ",
+      "english": "the dimension of nothingness … "
+    },
+    {
+      "number": 284,
+      "pali": "nevasaññānāsaññāyatanaṁ … ",
+      "english": "the dimension of neither perception nor non-perception … "
+    },
+    {
+      "number": 285,
+      "pali": "diṭṭhaṁ … ",
+      "english": "the seen … "
+    },
+    {
+      "number": 286,
+      "pali": "sutaṁ … ",
+      "english": "the heard … "
+    },
+    {
+      "number": 287,
+      "pali": "mutaṁ … ",
+      "english": "the thought … "
+    },
+    {
+      "number": 288,
+      "pali": "viññātaṁ … ",
+      "english": "the known … "
+    },
+    {
+      "number": 289,
+      "pali": "ekattaṁ … ",
+      "english": "oneness … "
+    },
+    {
+      "number": 290,
+      "pali": "nānattaṁ … ",
+      "english": "diversity … "
+    },
+    {
+      "number": 291,
+      "pali": "sabbaṁ … ",
+      "english": "all … "
+    },
+    {
+      "number": 292,
+      "pali": "nibbānaṁ nibbānato abhijānāti; ",
+      "english": "He directly knows extinguishment as extinguishment. "
+    },
+    {
+      "number": 293,
+      "pali": "nibbānaṁ nibbānato abhiññāya nibbānaṁ na maññati, nibbānasmiṁ na maññati, nibbānato na maññati, nibbānaṁ meti na maññati, nibbānaṁ nābhinandati. ",
+      "english": "Having directly known extinguishment as extinguishment, he does not conceive it to be extinguishment, he does not conceive it in extinguishment, he does not conceive it as extinguishment, he does not conceive that ‘extinguishment is mine’, he does not approve extinguishment. "
+    },
+    {
+      "number": 294,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 295,
+      "pali": "‘Pariññātantaṁ tathāgatassā’ti vadāmi. ",
+      "english": "Because the Realized One has completely understood it to the end, I say. "
+    },
+    {
+      "number": 296,
+      "pali": "Tathāgatavasena sattamanayabhūmiparicchedo niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 297,
+      "pali": "Tathāgatopi, bhikkhave, arahaṁ sammāsambuddho pathaviṁ pathavito abhijānāti; ",
+      "english": "The Realized One, the perfected one, the fully awakened Buddha directly knows earth as earth. "
+    },
+    {
+      "number": 298,
+      "pali": "pathaviṁ pathavito abhiññāya pathaviṁ na maññati, pathaviyā na maññati, pathavito na maññati, pathaviṁ meti na maññati, pathaviṁ nābhinandati. ",
+      "english": "Having directly known earth as earth, he does not conceive it to be earth, he does not conceive it in earth, he does not conceive it as earth, he does not conceive that ‘earth is mine’, he does not approve earth. "
+    },
+    {
+      "number": 299,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 300,
+      "pali": "‘Nandī dukkhassa mūlan’ti—",
+      "english": "Because he has understood that approval is the root of suffering, "
+    },
+    {
+      "number": 301,
+      "pali": "iti viditvā ‘bhavā jāti bhūtassa jarāmaraṇan’ti. ",
+      "english": "and that rebirth comes from continued existence; whoever has come to be gets old and dies. "
+    },
+    {
+      "number": 302,
+      "pali": "Tasmātiha, bhikkhave, ‘tathāgato sabbaso taṇhānaṁ khayā virāgā nirodhā cāgā paṭinissaggā anuttaraṁ sammāsambodhiṁ abhisambuddho’ti vadāmi. ",
+      "english": "That’s why the Realized One—with the ending, fading away, cessation, giving up, and letting go of all cravings—has awakened to the supreme perfect awakening, I say. "
+    },
+    {
+      "number": 303,
+      "pali": "Āpaṁ …pe… ",
+      "english": "He directly knows water … "
+    },
+    {
+      "number": 304,
+      "pali": "tejaṁ … ",
+      "english": "fire … "
+    },
+    {
+      "number": 305,
+      "pali": "vāyaṁ … ",
+      "english": "air … "
+    },
+    {
+      "number": 306,
+      "pali": "bhūte … ",
+      "english": "creatures … "
+    },
+    {
+      "number": 307,
+      "pali": "deve … ",
+      "english": "gods … "
+    },
+    {
+      "number": 308,
+      "pali": "pajāpatiṁ … ",
+      "english": "the Progenitor … "
+    },
+    {
+      "number": 309,
+      "pali": "brahmaṁ … ",
+      "english": "the Divinity … "
+    },
+    {
+      "number": 310,
+      "pali": "ābhassare … ",
+      "english": "those of streaming radiance … "
+    },
+    {
+      "number": 311,
+      "pali": "subhakiṇhe … ",
+      "english": "those replete with glory … "
+    },
+    {
+      "number": 312,
+      "pali": "vehapphale … ",
+      "english": "those of abundant fruit … "
+    },
+    {
+      "number": 313,
+      "pali": "abhibhuṁ … ",
+      "english": "the Vanquisher … "
+    },
+    {
+      "number": 314,
+      "pali": "ākāsānañcāyatanaṁ … ",
+      "english": "the dimension of infinite space … "
+    },
+    {
+      "number": 315,
+      "pali": "viññāṇañcāyatanaṁ … ",
+      "english": "the dimension of infinite consciousness … "
+    },
+    {
+      "number": 316,
+      "pali": "ākiñcaññāyatanaṁ … ",
+      "english": "the dimension of nothingness … "
+    },
+    {
+      "number": 317,
+      "pali": "nevasaññānāsaññāyatanaṁ … ",
+      "english": "the dimension of neither perception nor non-perception … "
+    },
+    {
+      "number": 318,
+      "pali": "diṭṭhaṁ … ",
+      "english": "the seen … "
+    },
+    {
+      "number": 319,
+      "pali": "sutaṁ … ",
+      "english": "the heard … "
+    },
+    {
+      "number": 320,
+      "pali": "mutaṁ … ",
+      "english": "the thought … "
+    },
+    {
+      "number": 321,
+      "pali": "viññātaṁ … ",
+      "english": "the known … "
+    },
+    {
+      "number": 322,
+      "pali": "ekattaṁ … ",
+      "english": "oneness … "
+    },
+    {
+      "number": 323,
+      "pali": "nānattaṁ … ",
+      "english": "diversity … "
+    },
+    {
+      "number": 324,
+      "pali": "sabbaṁ … ",
+      "english": "all … "
+    },
+    {
+      "number": 325,
+      "pali": "nibbānaṁ nibbānato abhijānāti; ",
+      "english": "He directly knows extinguishment as extinguishment. "
+    },
+    {
+      "number": 326,
+      "pali": "nibbānaṁ nibbānato abhiññāya nibbānaṁ na maññati, nibbānasmiṁ na maññati, nibbānato na maññati, nibbānaṁ meti na maññati, nibbānaṁ nābhinandati. ",
+      "english": "Having directly known extinguishment as extinguishment, he does not conceive it to be extinguishment, he does not conceive it in extinguishment, he does not conceive it as extinguishment, he does not conceive that ‘extinguishment is mine’, he does not approve extinguishment. "
+    },
+    {
+      "number": 327,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 328,
+      "pali": "‘Nandī dukkhassa mūlan’ti—",
+      "english": "Because he has understood that approval is the root of suffering, "
+    },
+    {
+      "number": 329,
+      "pali": "iti viditvā ‘bhavā jāti bhūtassa jarāmaraṇan’ti. ",
+      "english": "and that rebirth comes from continued existence; whoever has come to be gets old and dies. "
+    },
+    {
+      "number": 330,
+      "pali": "Tasmātiha, bhikkhave, ‘tathāgato sabbaso taṇhānaṁ khayā virāgā nirodhā cāgā paṭinissaggā anuttaraṁ sammāsambodhiṁ abhisambuddho’ti vadāmī”ti. ",
+      "english": "That’s why the Realized One—with the ending, fading away, cessation, giving up, and letting go of all cravings—has awakened to the supreme perfect Awakening, I say.” "
+    },
+    {
+      "number": 331,
+      "pali": "Tathāgatavasena aṭṭhamanayabhūmiparicchedo niṭṭhito. ",
+      "english": ""
+    },
+    {
+      "number": 332,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 333,
+      "pali": "Na te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "But the mendicants did not approve what the Buddha said. "
+    },
+    {
+      "number": 334,
+      "pali": "Mūlapariyāyasuttaṁ niṭṭhitaṁ paṭhamaṁ. ",
+      "english": ""
+    }
+  ]
+}

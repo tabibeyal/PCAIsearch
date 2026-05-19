@@ -1,0 +1,915 @@
+{
+  "sutta_id": "MN63",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 63 ",
+      "english": "Middle Discourses 63 "
+    },
+    {
+      "number": 2,
+      "pali": "Cūḷamālukyasutta ",
+      "english": "The Shorter Discourse With Māluṅkyaputta "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho āyasmato mālukyaputtassa rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
+      "english": "Then as Venerable Māluṅkyaputta was in private retreat this thought came to his mind: "
+    },
+    {
+      "number": 6,
+      "pali": "“yānimāni diṭṭhigatāni bhagavatā abyākatāni ṭhapitāni paṭikkhittāni: ",
+      "english": "“There are several convictions that the Buddha has left undeclared; he has set them aside and turned them down. "
+    },
+    {
+      "number": 7,
+      "pali": "‘sassato loko’tipi, ‘asassato loko’tipi, ‘antavā loko’tipi, ‘anantavā loko’tipi, ‘taṁ jīvaṁ taṁ sarīran’tipi, ‘aññaṁ jīvaṁ aññaṁ sarīran’tipi, ‘hoti tathāgato paraṁ maraṇā’tipi, ‘na hoti tathāgato paraṁ maraṇā’tipi, ‘hoti ca na ca hoti tathāgato paraṁ maraṇā’tipi, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipi—",
+      "english": "For example: the cosmos is eternal, or not eternal, or finite, or infinite; the soul and the body are one and the same, or the soul is one thing, the body another; after death, a realized one still exists, or no longer exists, or both still exists and no longer exists, or neither still exists nor no longer exists. "
+    },
+    {
+      "number": 8,
+      "pali": "tāni me bhagavā na byākaroti. ",
+      "english": "The Buddha does not explain these points to me. "
+    },
+    {
+      "number": 9,
+      "pali": "Yāni me bhagavā na byākaroti taṁ me na ruccati, taṁ me nakkhamati. ",
+      "english": "I don’t endorse that, and do not accept it. "
+    },
+    {
+      "number": 10,
+      "pali": "Sohaṁ bhagavantaṁ upasaṅkamitvā etamatthaṁ pucchissāmi. ",
+      "english": "I’ll go to him and ask him about this. "
+    },
+    {
+      "number": 11,
+      "pali": "Sace me bhagavā byākarissati: ",
+      "english": "If he gives me a straight answer on any of these points, "
+    },
+    {
+      "number": 12,
+      "pali": "‘sassato loko’ti vā ‘asassato loko’ti vā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 13,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā—",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "evāhaṁ bhagavati brahmacariyaṁ carissāmi; ",
+      "english": "I will lead the spiritual life under him. "
+    },
+    {
+      "number": 15,
+      "pali": "no ce me bhagavā byākarissati: ",
+      "english": "If he does not explain these points to me, "
+    },
+    {
+      "number": 16,
+      "pali": "‘sassato loko’ti vā ‘asassato loko’ti vā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā—",
+      "english": ""
+    },
+    {
+      "number": 18,
+      "pali": "evāhaṁ sikkhaṁ paccakkhāya hīnāyāvattissāmī”ti. ",
+      "english": "I shall disavow the training and return to a lesser life.” "
+    },
+    {
+      "number": 19,
+      "pali": "Atha kho āyasmā mālukyaputto sāyanhasamayaṁ paṭisallānā vuṭṭhito yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā mālukyaputto bhagavantaṁ etadavoca: ",
+      "english": "Then in the late afternoon, Māluṅkyaputta came out of retreat and went to the Buddha. He bowed, sat down to one side, and told the Buddha of his thoughts. He then continued: "
+    },
+    {
+      "number": 20,
+      "pali": "“Idha mayhaṁ, bhante, rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi—",
+      "english": ""
+    },
+    {
+      "number": 21,
+      "pali": "yānimāni diṭṭhigatāni bhagavatā abyākatāni ṭhapitāni paṭikkhittāni: ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "‘sassato loko’tipi, ‘asassato loko’tipi …pe… ",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipi—",
+      "english": ""
+    },
+    {
+      "number": 24,
+      "pali": "tāni me bhagavā na byākaroti. ",
+      "english": ""
+    },
+    {
+      "number": 25,
+      "pali": "Yāni me bhagavā na byākaroti taṁ me na ruccati, taṁ me nakkhamati. ",
+      "english": ""
+    },
+    {
+      "number": 26,
+      "pali": "Sohaṁ bhagavantaṁ upasaṅkamitvā etamatthaṁ pucchissāmi. ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "Sace me bhagavā byākarissati: ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "‘sassato loko’ti vā, ‘asassato loko’ti vā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā—",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "evāhaṁ bhagavati, brahmacariyaṁ carissāmi. ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "No ce me bhagavā byākarissati: ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "‘sassato loko’ti vā, ‘asassato loko’ti vā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 33,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā—",
+      "english": ""
+    },
+    {
+      "number": 34,
+      "pali": "evāhaṁ sikkhaṁ paccakkhāya hīnāyāvattissāmīti. ",
+      "english": ""
+    },
+    {
+      "number": 35,
+      "pali": "Sace bhagavā jānāti: ",
+      "english": "“If the Buddha knows "
+    },
+    {
+      "number": 36,
+      "pali": "‘sassato loko’ti, ‘sassato loko’ti me bhagavā byākarotu; ",
+      "english": "that the cosmos is eternal, please tell me. "
+    },
+    {
+      "number": 37,
+      "pali": "sace bhagavā jānāti: ",
+      "english": "If you know "
+    },
+    {
+      "number": 38,
+      "pali": "‘asassato loko’ti, ‘asassato loko’ti me bhagavā byākarotu. ",
+      "english": "that the cosmos is not eternal, tell me. "
+    },
+    {
+      "number": 39,
+      "pali": "No ce bhagavā jānāti: ",
+      "english": "If you don’t know "
+    },
+    {
+      "number": 40,
+      "pali": "‘sassato loko’ti vā, ‘asassato loko’ti vā, ajānato kho pana apassato etadeva ujukaṁ hoti yadidaṁ: ",
+      "english": "whether the cosmos is eternal or not, then it is straightforward to simply say: "
+    },
+    {
+      "number": 41,
+      "pali": "‘na jānāmi, na passāmī’ti. ",
+      "english": "‘I neither know nor see.’ "
+    },
+    {
+      "number": 42,
+      "pali": "Sace bhagavā jānāti: ",
+      "english": "If you know "
+    },
+    {
+      "number": 43,
+      "pali": "‘antavā loko’ti, ‘anantavā loko’ti me bhagavā byākarotu; ",
+      "english": "that the cosmos is finite, "
+    },
+    {
+      "number": 44,
+      "pali": "sace bhagavā jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 45,
+      "pali": "‘anantavā loko’ti, ‘anantavā loko’ti me bhagavā byākarotu. ",
+      "english": "or infinite; "
+    },
+    {
+      "number": 46,
+      "pali": "No ce bhagavā jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "‘antavā loko’ti vā, ‘anantavā loko’ti vā, ajānato kho pana apassato etadeva ujukaṁ hoti yadidaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "‘na jānāmi, na passāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Sace bhagavā jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "‘taṁ jīvaṁ taṁ sarīran’ti, ‘taṁ jīvaṁ taṁ sarīran’ti me bhagavā byākarotu; ",
+      "english": "that the soul and the body are one and the same, "
+    },
+    {
+      "number": 51,
+      "pali": "sace bhagavā jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "‘aññaṁ jīvaṁ aññaṁ sarīran’ti, ‘aññaṁ jīvaṁ aññaṁ sarīran’ti me bhagavā byākarotu. ",
+      "english": "or is the soul one thing, the body another; "
+    },
+    {
+      "number": 53,
+      "pali": "No ce bhagavā jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 54,
+      "pali": "‘taṁ jīvaṁ taṁ sarīran’ti vā, ‘aññaṁ jīvaṁ aññaṁ sarīran’ti vā, ajānato kho pana apassato etadeva ujukaṁ hoti yadidaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "‘na jānāmi, na passāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "Sace bhagavā jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "‘hoti tathāgato paraṁ maraṇā’ti, ‘hoti tathāgato paraṁ maraṇā’ti me bhagavā byākarotu; ",
+      "english": "that after death, a realized one still exists, "
+    },
+    {
+      "number": 58,
+      "pali": "sace bhagavā jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 59,
+      "pali": "‘na hoti tathāgato paraṁ maraṇā’ti, ‘na hoti tathāgato paraṁ maraṇā’ti me bhagavā byākarotu. ",
+      "english": "or no longer exists, "
+    },
+    {
+      "number": 60,
+      "pali": "No ce bhagavā jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 61,
+      "pali": "‘hoti tathāgato paraṁ maraṇā’ti vā, ‘na hoti tathāgato paraṁ maraṇā’ti vā, ajānato kho pana apassato etadeva ujukaṁ hoti yadidaṁ: ",
+      "english": ""
+    },
+    {
+      "number": 62,
+      "pali": "‘na jānāmi na passāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 63,
+      "pali": "Sace bhagavā jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 64,
+      "pali": "‘hoti ca na ca hoti tathāgato paraṁ maraṇā’ti, ‘hoti ca na ca hoti tathāgato paraṁ maraṇā’ti me bhagavā byākarotu; ",
+      "english": "or both still exists and no longer exists, or neither still exists nor no longer exists, please tell me. "
+    },
+    {
+      "number": 65,
+      "pali": "sace bhagavā jānāti: ",
+      "english": ""
+    },
+    {
+      "number": 66,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti me bhagavā byākarotu. ",
+      "english": ""
+    },
+    {
+      "number": 67,
+      "pali": "No ce bhagavā jānāti: ",
+      "english": "If you don’t know "
+    },
+    {
+      "number": 68,
+      "pali": "‘hoti ca na ca hoti tathāgato paraṁ maraṇā’ti vā, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā, ajānato kho pana apassato etadeva ujukaṁ hoti yadidaṁ: ",
+      "english": "any of these things, then it is straightforward to simply say: "
+    },
+    {
+      "number": 69,
+      "pali": "‘na jānāmi, na passāmī’”ti. ",
+      "english": "‘I neither know nor see.’” "
+    },
+    {
+      "number": 70,
+      "pali": "“Kiṁ nu tāhaṁ, mālukyaputta, evaṁ avacaṁ: ",
+      "english": "“What, Māluṅkyaputta, did I ever say to you: "
+    },
+    {
+      "number": 71,
+      "pali": "‘ehi tvaṁ, mālukyaputta, mayi brahmacariyaṁ cara, ahaṁ te byākarissāmi: ",
+      "english": "‘Come, Māluṅkyaputta, lead the spiritual life under me, and I will declare these things to you’?” "
+    },
+    {
+      "number": 72,
+      "pali": "“sassato loko”ti vā, “asassato loko”ti vā, “antavā loko”ti vā, “anantavā loko”ti vā, “taṁ jīvaṁ taṁ sarīran”ti vā, “aññaṁ jīvaṁ aññaṁ sarīran”ti vā, “hoti tathāgato paraṁ maraṇā”ti vā, “na hoti tathāgato paraṁ maraṇā”ti vā, “hoti ca na ca hoti tathāgato paraṁ maraṇā”ti vā, “neva hoti na na hoti tathāgato paraṁ maraṇā”ti vā’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 74,
+      "pali": "“Tvaṁ vā pana maṁ evaṁ avaca: ",
+      "english": "“Or did you ever say to me: "
+    },
+    {
+      "number": 75,
+      "pali": "‘ahaṁ, bhante, bhagavati brahmacariyaṁ carissāmi, bhagavā me byākarissati: ",
+      "english": "‘Sir, I will lead the spiritual life under the Buddha, and the Buddha will declare these things to me’?” "
+    },
+    {
+      "number": 76,
+      "pali": "“sassato loko”ti vā, “asassato loko”ti vā, “antavā loko”ti vā, “anantavā loko”ti vā, “taṁ jīvaṁ taṁ sarīran”ti vā, “aññaṁ jīvaṁ aññaṁ sarīran”ti vā, “hoti tathāgato paraṁ maraṇā”ti vā, “na hoti tathāgato paraṁ maraṇā”ti vā, “hoti ca na ca hoti tathāgato paraṁ maraṇā”ti vā, “neva hoti na na hoti tathāgato paraṁ maraṇā”ti vā’”ti? ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 78,
+      "pali": "“Iti kira, mālukyaputta, nevāhaṁ taṁ vadāmi: ",
+      "english": "“So it seems that I did not say to you: "
+    },
+    {
+      "number": 79,
+      "pali": "‘ehi tvaṁ, mālukyaputta, mayi brahmacariyaṁ cara, ahaṁ te byākarissāmi: ",
+      "english": "‘Come, Māluṅkyaputta, lead the spiritual life under me, and I will declare these things to you.’ "
+    },
+    {
+      "number": 80,
+      "pali": "“sassato loko”ti vā, “asassato loko”ti vā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "“neva hoti na na hoti tathāgato paraṁ maraṇāti vā”’ti; ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "napi kira maṁ tvaṁ vadesi: ",
+      "english": "And you never said to me: "
+    },
+    {
+      "number": 83,
+      "pali": "‘ahaṁ, bhante, bhagavati brahmacariyaṁ carissāmi, bhagavā me byākarissati: ",
+      "english": "‘Sir, I will lead the spiritual life under the Buddha, and the Buddha will declare these things to me.’ "
+    },
+    {
+      "number": 84,
+      "pali": "“sassato loko”ti vā “asassato loko”ti vā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 85,
+      "pali": "“neva hoti na na hoti tathāgato paraṁ maraṇā”ti vā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "Evaṁ sante, moghapurisa, ko santo kaṁ paccācikkhasi? ",
+      "english": "In that case, you futile man, who are you and what do you want to disavow? "
+    },
+    {
+      "number": 87,
+      "pali": "Yo kho, mālukyaputta, evaṁ vadeyya: ",
+      "english": "Suppose someone were to say this: "
+    },
+    {
+      "number": 88,
+      "pali": "‘na tāvāhaṁ bhagavati brahmacariyaṁ carissāmi yāva me bhagavā na byākarissati: ",
+      "english": "‘I will not lead the spiritual life under the Buddha until the Buddha declares to me "
+    },
+    {
+      "number": 89,
+      "pali": "“sassato loko”ti vā, “asassato loko”ti vā …pe… ",
+      "english": "that the cosmos is eternal, or that the cosmos is not eternal … "
+    },
+    {
+      "number": 90,
+      "pali": "“neva hoti na na hoti tathāgato paraṁ maraṇā”ti vā’ti, ",
+      "english": "or that after death a realized one neither still exists nor no longer exists.’ "
+    },
+    {
+      "number": 91,
+      "pali": "abyākatameva taṁ, mālukyaputta, tathāgatena assa, atha so puggalo kālaṁ kareyya. ",
+      "english": "That would still remain undeclared by the Realized One, and meanwhile that individual would die. "
+    },
+    {
+      "number": 92,
+      "pali": "Seyyathāpi, mālukyaputta, puriso sallena viddho assa savisena gāḷhapalepanena. ",
+      "english": "Suppose a man was struck by an arrow thickly smeared with poison. "
+    },
+    {
+      "number": 93,
+      "pali": "Tassa mittāmaccā ñātisālohitā bhisakkaṁ sallakattaṁ upaṭṭhapeyyuṁ. ",
+      "english": "His friends and colleagues, relatives and kin would get a surgeon to treat him. "
+    },
+    {
+      "number": 94,
+      "pali": "So evaṁ vadeyya: ",
+      "english": "But the man would say: "
+    },
+    {
+      "number": 95,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ purisaṁ jānāmi yenamhi viddho, khattiyo vā brāhmaṇo vā vesso vā suddo vā’ti; ",
+      "english": "‘I won’t extract this arrow as long as I don’t know whether the man who wounded me was an aristocrat, a brahmin, a peasant, or a menial.’ "
+    },
+    {
+      "number": 96,
+      "pali": "so evaṁ vadeyya: ",
+      "english": "He’d say: "
+    },
+    {
+      "number": 97,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ purisaṁ jānāmi yenamhi viddho, evaṁnāmo evaṅgotto iti vā’ti; ",
+      "english": "‘I won’t extract this arrow as long as I don’t know the following things about the man who wounded me: his name and clan; "
+    },
+    {
+      "number": 98,
+      "pali": "so evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ purisaṁ jānāmi yenamhi viddho, dīgho vā rasso vā majjhimo vā’ti; ",
+      "english": "whether he’s tall, short, or medium; "
+    },
+    {
+      "number": 100,
+      "pali": "so evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ purisaṁ jānāmi yenamhi viddho, kāḷo vā sāmo vā maṅguracchavī vā’ti; ",
+      "english": "whether his skin is black, brown, or dingy; "
+    },
+    {
+      "number": 102,
+      "pali": "so evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 103,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ purisaṁ jānāmi yenamhi viddho, amukasmiṁ gāme vā nigame vā nagare vā’ti; ",
+      "english": "and what village, town, or city he comes from. "
+    },
+    {
+      "number": 104,
+      "pali": "so evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 105,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ dhanuṁ jānāmi yenamhi viddho, yadi vā cāpo yadi vā kodaṇḍo’ti; ",
+      "english": "I won’t extract this arrow as long as I don’t know whether the bow that wounded me was straight or recurved; "
+    },
+    {
+      "number": 106,
+      "pali": "so evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ jiyaṁ jānāmi yāyamhi viddho, yadi vā akkassa yadi vā saṇhassa yadi vā nhārussa yadi vā maruvāya yadi vā khīrapaṇṇino’ti; ",
+      "english": "whether the bow-string is made of swallow-wort fibre, sunn hemp fibre, sinew, sanseveria fibre, or spurge fibre; "
+    },
+    {
+      "number": 108,
+      "pali": "so evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 109,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ kaṇḍaṁ jānāmi yenamhi viddho, yadi vā gacchaṁ yadi vā ropiman’ti; ",
+      "english": "whether the shaft is made from a bush or a plantation tree; "
+    },
+    {
+      "number": 110,
+      "pali": "so evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 111,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ kaṇḍaṁ jānāmi yenamhi viddho, yassa pattehi vājitaṁ yadi vā gijjhassa yadi vā kaṅkassa yadi vā kulalassa yadi vā morassa yadi vā sithilahanuno’ti; ",
+      "english": "whether the shaft was fitted with feathers from a vulture, a heron, a hawk, a peacock, or a stork; "
+    },
+    {
+      "number": 112,
+      "pali": "so evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 113,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ kaṇḍaṁ jānāmi yenamhi viddho, yassa nhārunā parikkhittaṁ yadi vā gavassa yadi vā mahiṁsassa yadi vā bheravassa yadi vā semhārassā’ti; ",
+      "english": "whether the shaft was bound with sinews of a cow, a buffalo, a black lion, or an ape; "
+    },
+    {
+      "number": 114,
+      "pali": "so evaṁ vadeyya: ",
+      "english": ""
+    },
+    {
+      "number": 115,
+      "pali": "‘na tāvāhaṁ imaṁ sallaṁ āharissāmi yāva na taṁ sallaṁ jānāmi yenamhi viddho, yadi vā sallaṁ yadi vā khurappaṁ yadi vā vekaṇḍaṁ yadi vā nārācaṁ yadi vā vacchadantaṁ yadi vā karavīrapattan’ti—",
+      "english": "and whether the arrowhead was spiked, razor-tipped, barbed, made of iron or a calf’s tooth, or lancet-shaped.’ "
+    },
+    {
+      "number": 116,
+      "pali": "aññātameva taṁ, mālukyaputta, tena purisena assa, atha so puriso kālaṁ kareyya. ",
+      "english": "That man would still not have learned these things, and meanwhile they’d die. "
+    },
+    {
+      "number": 117,
+      "pali": "Evameva kho, mālukyaputta, yo evaṁ vadeyya: ",
+      "english": "In the same way, suppose someone was to say: "
+    },
+    {
+      "number": 118,
+      "pali": "‘na tāvāhaṁ bhagavati brahmacariyaṁ carissāmi yāva me bhagavā na byākarissati: ",
+      "english": "‘I will not lead the spiritual life under the Buddha until the Buddha declares to me "
+    },
+    {
+      "number": 119,
+      "pali": "“sassato loko”ti vā “asassato loko”ti vā …pe… ",
+      "english": "that the cosmos is eternal, or that the cosmos is not eternal … "
+    },
+    {
+      "number": 120,
+      "pali": "“neva hoti na na hoti tathāgato paraṁ maraṇā”ti vā’ti—",
+      "english": "or that after death a realized one neither still exists nor no longer exists.’ "
+    },
+    {
+      "number": 121,
+      "pali": "abyākatameva taṁ, mālukyaputta, tathāgatena assa, atha so puggalo kālaṁ kareyya. ",
+      "english": "That would still remain undeclared by the Realized One, and meanwhile that individual would die. "
+    },
+    {
+      "number": 122,
+      "pali": "‘Sassato loko’ti, mālukyaputta, diṭṭhiyā sati brahmacariyavāso abhavissāti, evaṁ no. ",
+      "english": "It’s not true that if there were the view ‘the cosmos is eternal’ there would be the living of the spiritual life. "
+    },
+    {
+      "number": 123,
+      "pali": "‘Asassato loko’ti, mālukyaputta, diṭṭhiyā sati brahmacariyavāso abhavissāti, evampi no. ",
+      "english": "It’s not true that if there were the view ‘the cosmos is not eternal’ there would be the living of the spiritual life. "
+    },
+    {
+      "number": 124,
+      "pali": "‘Sassato loko’ti vā, mālukyaputta, diṭṭhiyā sati, ‘asassato loko’ti vā diṭṭhiyā sati attheva jāti, atthi jarā, atthi maraṇaṁ, santi sokaparidevadukkhadomanassupāyāsā; ",
+      "english": "When there is the view that the cosmos is eternal or that the cosmos is not eternal, there is rebirth, there is old age, there is death, and there is sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 125,
+      "pali": "yesāhaṁ diṭṭheva dhamme nighātaṁ paññapemi. ",
+      "english": "And it is the defeat of these things in this very life that I advocate. "
+    },
+    {
+      "number": 126,
+      "pali": "‘Antavā loko’ti, mālukyaputta, diṭṭhiyā sati brahmacariyavāso abhavissāti, evaṁ no. ",
+      "english": "It’s not true that if there were the view ‘the cosmos is finite’ … "
+    },
+    {
+      "number": 127,
+      "pali": "‘Anantavā loko’ti, mālukyaputta, diṭṭhiyā sati brahmacariyavāso abhavissāti, evampi no. ",
+      "english": "‘the cosmos is infinite’ … "
+    },
+    {
+      "number": 128,
+      "pali": "‘Antavā loko’ti vā, mālukyaputta, diṭṭhiyā sati, ‘anantavā loko’ti vā diṭṭhiyā sati attheva jāti, atthi jarā, atthi maraṇaṁ, santi sokaparidevadukkhadomanassupāyāsā; ",
+      "english": ""
+    },
+    {
+      "number": 129,
+      "pali": "yesāhaṁ diṭṭheva dhamme nighātaṁ paññapemi. ",
+      "english": ""
+    },
+    {
+      "number": 130,
+      "pali": "‘Taṁ jīvaṁ taṁ sarīran’ti, mālukyaputta, diṭṭhiyā sati brahmacariyavāso abhavissāti, evaṁ no. ",
+      "english": "‘the soul and the body are one and the same’ … "
+    },
+    {
+      "number": 131,
+      "pali": "‘Aññaṁ jīvaṁ aññaṁ sarīran’ti, mālukyaputta, diṭṭhiyā sati brahmacariyavāso abhavissāti, evampi no. ",
+      "english": "‘the soul is one thing, the body another’ … "
+    },
+    {
+      "number": 132,
+      "pali": "‘Taṁ jīvaṁ taṁ sarīran’ti vā, mālukyaputta, diṭṭhiyā sati, ‘aññaṁ jīvaṁ aññaṁ sarīran’ti vā diṭṭhiyā sati attheva jāti …pe… ",
+      "english": ""
+    },
+    {
+      "number": 133,
+      "pali": "nighātaṁ paññapemi. ",
+      "english": ""
+    },
+    {
+      "number": 134,
+      "pali": "‘Hoti tathāgato paraṁ maraṇā’ti, mālukyaputta, diṭṭhiyā sati brahmacariyavāso abhavissāti, evaṁ no. ",
+      "english": "‘a realized one still exists after death’ … "
+    },
+    {
+      "number": 135,
+      "pali": "‘Na hoti tathāgato paraṁ maraṇā’ti, mālukyaputta, diṭṭhiyā sati brahmacariyavāso abhavissāti, evampi no. ",
+      "english": "‘A realized one no longer exists after death’ … "
+    },
+    {
+      "number": 136,
+      "pali": "‘Hoti tathāgato paraṁ maraṇā’ti vā, mālukyaputta, diṭṭhiyā sati, ‘na hoti tathāgato paraṁ maraṇā’ti vā diṭṭhiyā sati attheva jāti …pe… ",
+      "english": ""
+    },
+    {
+      "number": 137,
+      "pali": "yesāhaṁ diṭṭheva dhamme nighātaṁ paññapemi. ",
+      "english": ""
+    },
+    {
+      "number": 138,
+      "pali": "‘Hoti ca na ca hoti tathāgato paraṁ maraṇā’ti, mālukyaputta, diṭṭhiyā sati brahmacariyavāso abhavissāti, evaṁ no. ",
+      "english": "‘a realized one both still exists and no longer exists after death’ … "
+    },
+    {
+      "number": 139,
+      "pali": "‘Neva hoti na na hoti tathāgato paraṁ maraṇā’ti, mālukyaputta, diṭṭhiyā sati brahmacariyavāso abhavissāti, evampi no. ",
+      "english": "‘a realized one neither still exists nor no longer exists after death’ there would be the living of the spiritual life. "
+    },
+    {
+      "number": 140,
+      "pali": "‘Hoti ca na ca hoti tathāgato paraṁ maraṇā’ti, mālukyaputta, diṭṭhiyā sati, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā diṭṭhiyā sati attheva jāti …pe… ",
+      "english": "When there are any of these views there is rebirth, there is old age, there is death, and there is sorrow, lamentation, pain, sadness, and distress. "
+    },
+    {
+      "number": 141,
+      "pali": "yesāhaṁ diṭṭheva dhamme nighātaṁ paññapemi. ",
+      "english": "And it is the defeat of these things in this very life that I advocate. "
+    },
+    {
+      "number": 142,
+      "pali": "Tasmātiha, mālukyaputta, abyākatañca me abyākatato dhāretha; ",
+      "english": "So, Māluṅkyaputta, you should remember what I have not declared as undeclared, "
+    },
+    {
+      "number": 143,
+      "pali": "byākatañca me byākatato dhāretha. ",
+      "english": "and what I have declared as declared. "
+    },
+    {
+      "number": 144,
+      "pali": "Kiñca, mālukyaputta, mayā abyākataṁ? ",
+      "english": "And what have I not declared? "
+    },
+    {
+      "number": 145,
+      "pali": "‘Sassato loko’ti mālukyaputta, mayā abyākataṁ; ",
+      "english": "I have not declared the following: ‘the cosmos is eternal,’ "
+    },
+    {
+      "number": 146,
+      "pali": "‘asassato loko’ti—",
+      "english": "‘the cosmos is not eternal,’ "
+    },
+    {
+      "number": 147,
+      "pali": "mayā abyākataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 148,
+      "pali": "‘antavā loko’ti—",
+      "english": "‘the cosmos is finite,’ "
+    },
+    {
+      "number": 149,
+      "pali": "mayā abyākataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 150,
+      "pali": "‘anantavā loko’ti—",
+      "english": "‘the world is infinite,’ "
+    },
+    {
+      "number": 151,
+      "pali": "mayā abyākataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 152,
+      "pali": "‘taṁ jīvaṁ taṁ sarīran’ti—",
+      "english": "‘the soul and the body are one and the same,’ "
+    },
+    {
+      "number": 153,
+      "pali": "mayā abyākataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 154,
+      "pali": "‘aññaṁ jīvaṁ aññaṁ sarīran’ti—",
+      "english": "‘the soul is one thing, the body another,’ "
+    },
+    {
+      "number": 155,
+      "pali": "mayā abyākataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 156,
+      "pali": "‘hoti tathāgato paraṁ maraṇā’ti—",
+      "english": "‘a realized one still exists after death,’ "
+    },
+    {
+      "number": 157,
+      "pali": "mayā abyākataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 158,
+      "pali": "‘na hoti tathāgato paraṁ maraṇā’ti—",
+      "english": "‘A realized one no longer exists after death,’ "
+    },
+    {
+      "number": 159,
+      "pali": "mayā abyākataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 160,
+      "pali": "‘hoti ca na ca hoti tathāgato paraṁ maraṇā’ti—",
+      "english": "‘a realized one both still exists and no longer exists after death,’ "
+    },
+    {
+      "number": 161,
+      "pali": "mayā abyākataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 162,
+      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti—",
+      "english": "‘a realized one neither still exists nor no longer exists after death.’ "
+    },
+    {
+      "number": 163,
+      "pali": "mayā abyākataṁ. ",
+      "english": ""
+    },
+    {
+      "number": 164,
+      "pali": "Kasmā cetaṁ, mālukyaputta, mayā abyākataṁ? ",
+      "english": "And why haven’t I declared these things? "
+    },
+    {
+      "number": 165,
+      "pali": "Na hetaṁ, mālukyaputta, atthasaṁhitaṁ na ādibrahmacariyakaṁ na nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati. ",
+      "english": "Because they aren’t beneficial or relevant to the fundamentals of the spiritual life. They don’t lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. "
+    },
+    {
+      "number": 166,
+      "pali": "Tasmā taṁ mayā abyākataṁ. ",
+      "english": "That’s why I haven’t declared them. "
+    },
+    {
+      "number": 167,
+      "pali": "Kiñca, mālukyaputta, mayā byākataṁ? ",
+      "english": "And what have I declared? "
+    },
+    {
+      "number": 168,
+      "pali": "‘Idaṁ dukkhan’ti, mālukyaputta, mayā byākataṁ; ",
+      "english": "I have declared the following: ‘this is suffering,’ "
+    },
+    {
+      "number": 169,
+      "pali": "‘ayaṁ dukkhasamudayo’ti—",
+      "english": "‘this is the origin of suffering,’ "
+    },
+    {
+      "number": 170,
+      "pali": "mayā byākataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 171,
+      "pali": "‘ayaṁ dukkhanirodho’ti—",
+      "english": "‘this is the cessation of suffering,’ "
+    },
+    {
+      "number": 172,
+      "pali": "mayā byākataṁ; ",
+      "english": ""
+    },
+    {
+      "number": 173,
+      "pali": "‘ayaṁ dukkhanirodhagāminī paṭipadā’ti—",
+      "english": "‘this is the practice that leads to the cessation of suffering.’ "
+    },
+    {
+      "number": 174,
+      "pali": "mayā byākataṁ. ",
+      "english": ""
+    },
+    {
+      "number": 175,
+      "pali": "Kasmā cetaṁ, mālukyaputta, mayā byākataṁ? ",
+      "english": "And why have I declared these things? "
+    },
+    {
+      "number": 176,
+      "pali": "Etañhi, mālukyaputta, atthasaṁhitaṁ etaṁ ādibrahmacariyakaṁ nibbidāya virāgāya nirodhāya upasamāya abhiññāya sambodhāya nibbānāya saṁvattati. ",
+      "english": "Because they are beneficial and relevant to the fundamentals of the spiritual life. They lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. "
+    },
+    {
+      "number": 177,
+      "pali": "Tasmā taṁ mayā byākataṁ. ",
+      "english": "That’s why I have declared them. "
+    },
+    {
+      "number": 178,
+      "pali": "Tasmātiha, mālukyaputta, abyākatañca me abyākatato dhāretha; ",
+      "english": "So, Māluṅkyaputta, you should remember what I have not declared as undeclared, "
+    },
+    {
+      "number": 179,
+      "pali": "byākatañca me byākatato dhārethā”ti. ",
+      "english": "and what I have declared as declared.” "
+    },
+    {
+      "number": 180,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 181,
+      "pali": "Attamano āyasmā mālukyaputto bhagavato bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Māluṅkyaputta approved what the Buddha said. "
+    },
+    {
+      "number": 182,
+      "pali": "Cūḷamālukyasuttaṁ niṭṭhitaṁ tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

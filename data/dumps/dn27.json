@@ -1,0 +1,1620 @@
+{
+  "sutta_id": "DN27",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Dīgha Nikāya 27 ",
+      "english": "Long Discourses 27 "
+    },
+    {
+      "number": 2,
+      "pali": "Aggaññasutta ",
+      "english": "What Came First "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati pubbārāme migāramātupāsāde. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in the stilt longhouse of Migāra’s mother in the Eastern Monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena vāseṭṭhabhāradvājā bhikkhūsu parivasanti bhikkhubhāvaṁ ākaṅkhamānā. ",
+      "english": "Now at that time Vāseṭṭha and Bhāradvāja were living on probation among the mendicants in hopes of being ordained. "
+    },
+    {
+      "number": 6,
+      "pali": "Atha kho bhagavā sāyanhasamayaṁ paṭisallānā vuṭṭhito pāsādā orohitvā pāsādapacchāyāyaṁ abbhokāse caṅkamati. ",
+      "english": "Then in the late afternoon, the Buddha came downstairs from the longhouse and was walking mindfully in the open air, beneath the shade of the longhouse. "
+    },
+    {
+      "number": 7,
+      "pali": "Addasā kho vāseṭṭho bhagavantaṁ sāyanhasamayaṁ paṭisallānā vuṭṭhitaṁ pāsādā orohitvā pāsādapacchāyāyaṁ abbhokāse caṅkamantaṁ. ",
+      "english": "Vāseṭṭha saw him "
+    },
+    {
+      "number": 8,
+      "pali": "Disvāna bhāradvājaṁ āmantesi: ",
+      "english": "and said to Bhāradvāja, "
+    },
+    {
+      "number": 9,
+      "pali": "“ayaṁ, āvuso bhāradvāja, bhagavā sāyanhasamayaṁ paṭisallānā vuṭṭhito pāsādā orohitvā pāsādapacchāyāyaṁ abbhokāse caṅkamati. ",
+      "english": "“Reverend Bhāradvāja, the Buddha is walking mindfully in the open air, beneath the shade of the longhouse. "
+    },
+    {
+      "number": 10,
+      "pali": "Āyāmāvuso bhāradvāja, yena bhagavā tenupasaṅkamissāma; ",
+      "english": "Come, reverend, let’s go to the Buddha. "
+    },
+    {
+      "number": 11,
+      "pali": "appeva nāma labheyyāma bhagavato santikā dhammiṁ kathaṁ savanāyā”ti. ",
+      "english": "Hopefully we’ll get to hear a Dhamma talk from him.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Evamāvuso”ti kho bhāradvājo vāseṭṭhassa paccassosi. ",
+      "english": "“Yes, reverend,” replied Bhāradvāja. "
+    },
+    {
+      "number": 13,
+      "pali": "Atha kho vāseṭṭhabhāradvājā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā bhagavantaṁ caṅkamantaṁ anucaṅkamiṁsu. ",
+      "english": "So they went to the Buddha, bowed, and walked beside him. "
+    },
+    {
+      "number": 14,
+      "pali": "Atha kho bhagavā vāseṭṭhaṁ āmantesi: ",
+      "english": "Then the Buddha said to Vāseṭṭha, "
+    },
+    {
+      "number": 15,
+      "pali": "“tumhe khvattha, vāseṭṭha, brāhmaṇajaccā brāhmaṇakulīnā brāhmaṇakulā agārasmā anagāriyaṁ pabbajitā, kacci vo, vāseṭṭha, brāhmaṇā na akkosanti na paribhāsantī”ti? ",
+      "english": "“Vāseṭṭha, you are both brahmins by birth and family, and have gone forth from the lay life to homelessness from a brahmin family. I hope you don’t have to suffer abuse and insults from the brahmins.” "
+    },
+    {
+      "number": 16,
+      "pali": "“Taggha no, bhante, brāhmaṇā akkosanti paribhāsanti attarūpāya paribhāsāya paripuṇṇāya, no aparipuṇṇāyā”ti. ",
+      "english": "“Actually, sir, the brahmins do insult and abuse us with their typical insults to the fullest extent, holding nothing back.” "
+    },
+    {
+      "number": 17,
+      "pali": "“Yathā kathaṁ pana vo, vāseṭṭha, brāhmaṇā akkosanti paribhāsanti attarūpāya paribhāsāya paripuṇṇāya, no aparipuṇṇāyā”ti? ",
+      "english": "“But how do the brahmins insult you?” "
+    },
+    {
+      "number": 18,
+      "pali": "“Brāhmaṇā, bhante, evamāhaṁsu: ",
+      "english": "“Sir, the brahmins say: "
+    },
+    {
+      "number": 19,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīnā aññe vaṇṇā. ",
+      "english": "‘Only brahmins are the best class; other classes are inferior. "
+    },
+    {
+      "number": 20,
+      "pali": "Brāhmaṇova sukko vaṇṇo, kaṇhā aññe vaṇṇā. ",
+      "english": "Only brahmins are the light class; other classes are dark. "
+    },
+    {
+      "number": 21,
+      "pali": "Brāhmaṇāva sujjhanti, no abrāhmaṇā. ",
+      "english": "Only brahmins are purified, not others. "
+    },
+    {
+      "number": 22,
+      "pali": "Brāhmaṇāva brahmuno puttā orasā mukhato jātā brahmajā brahmanimmitā brahmadāyādā. ",
+      "english": "Only brahmins are the Divinity’s true-born sons, born from his mouth, born of the Divinity, created by the Divinity, heirs of the Divinity. "
+    },
+    {
+      "number": 23,
+      "pali": "Te tumhe seṭṭhaṁ vaṇṇaṁ hitvā hīnamattha vaṇṇaṁ ajjhupagatā, yadidaṁ muṇḍake samaṇake ibbhe kaṇhe bandhupādāpacce. ",
+      "english": "You’ve both abandoned the best class to join an inferior class, namely these shavelings, fake ascetics, primitives, black spawn from the feet of our kinsman. "
+    },
+    {
+      "number": 24,
+      "pali": "Tayidaṁ na sādhu, tayidaṁ nappatirūpaṁ, yaṁ tumhe seṭṭhaṁ vaṇṇaṁ hitvā hīnamattha vaṇṇaṁ ajjhupagatā yadidaṁ muṇḍake samaṇake ibbhe kaṇhe bandhupādāpacce’ti. ",
+      "english": "This is not right, it’s not proper!’ "
+    },
+    {
+      "number": 25,
+      "pali": "Evaṁ kho no, bhante, brāhmaṇā akkosanti paribhāsanti attarūpāya paribhāsāya paripuṇṇāya, no aparipuṇṇāyā”ti. ",
+      "english": "That’s how the brahmins insult us.” "
+    },
+    {
+      "number": 26,
+      "pali": "“Taggha vo, vāseṭṭha, brāhmaṇā porāṇaṁ assarantā evamāhaṁsu: ",
+      "english": "“Actually, Vāseṭṭha, the brahmins are forgetting their tradition when they say this to you. "
+    },
+    {
+      "number": 27,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīnā aññe vaṇṇā; ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "brāhmaṇova sukko vaṇṇo, kaṇhā aññe vaṇṇā; ",
+      "english": ""
+    },
+    {
+      "number": 29,
+      "pali": "brāhmaṇāva sujjhanti, no abrāhmaṇā; ",
+      "english": ""
+    },
+    {
+      "number": 30,
+      "pali": "brāhmaṇāva brahmuno puttā orasā mukhato jātā brahmajā brahmanimmitā brahmadāyādā’ti. ",
+      "english": ""
+    },
+    {
+      "number": 31,
+      "pali": "Dissanti kho pana, vāseṭṭha, brāhmaṇānaṁ brāhmaṇiyo utuniyopi gabbhiniyopi vijāyamānāpi pāyamānāpi. ",
+      "english": "For brahmin women are seen menstruating, being pregnant, giving birth, and breast-feeding. "
+    },
+    {
+      "number": 32,
+      "pali": "Te ca brāhmaṇā yonijāva samānā evamāhaṁsu: ",
+      "english": "Yet even though they’re born from a brahmin womb they say: "
+    },
+    {
+      "number": 33,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīnā aññe vaṇṇā; ",
+      "english": "‘Only brahmins are the best class; other classes are inferior. "
+    },
+    {
+      "number": 34,
+      "pali": "brāhmaṇova sukko vaṇṇo, kaṇhā aññe vaṇṇā; ",
+      "english": "Only brahmins are the light class; other classes are dark. "
+    },
+    {
+      "number": 35,
+      "pali": "brāhmaṇāva sujjhanti, no abrāhmaṇā; ",
+      "english": "Only brahmins are purified, not others. "
+    },
+    {
+      "number": 36,
+      "pali": "brāhmaṇāva brahmuno puttā orasā mukhato jātā brahmajā brahmanimmitā brahmadāyādā’ti. ",
+      "english": "Only brahmins are the Divinity’s true-born sons, born from his mouth, born of the Divinity, created by the Divinity, heirs of the Divinity.’ "
+    },
+    {
+      "number": 37,
+      "pali": "Te brahmānañceva abbhācikkhanti, musā ca bhāsanti, bahuñca apuññaṁ pasavanti. ",
+      "english": "They misrepresent the brahmins, speak falsely, and brim with much wickedness. "
+    },
+    {
+      "number": 38,
+      "pali": "1. Catuvaṇṇasuddhi ",
+      "english": "1. Purification in the Four Classes "
+    },
+    {
+      "number": 39,
+      "pali": "Cattārome, vāseṭṭha, vaṇṇā—",
+      "english": "Vāseṭṭha, there are these four classes: "
+    },
+    {
+      "number": 40,
+      "pali": "khattiyā, brāhmaṇā, vessā, suddā. ",
+      "english": "aristocrats, brahmins, peasants, and menials. "
+    },
+    {
+      "number": 41,
+      "pali": "Khattiyopi kho, vāseṭṭha, idhekacco pāṇātipātī hoti adinnādāyī kāmesumicchācārī musāvādī pisuṇavāco pharusavāco samphappalāpī abhijjhālu byāpannacitto micchādiṭṭhī. ",
+      "english": "Some aristocrats kill living creatures, steal, and commit sexual misconduct. They use speech that’s false, backbiting, harsh, and nonsensical. And they’re covetous, malicious, with wrong view. "
+    },
+    {
+      "number": 42,
+      "pali": "Iti kho, vāseṭṭha, yeme dhammā akusalā akusalasaṅkhātā sāvajjā sāvajjasaṅkhātā asevitabbā asevitabbasaṅkhātā naalamariyā naalamariyasaṅkhātā kaṇhā kaṇhavipākā viññugarahitā, khattiyepi te idhekacce sandissanti. ",
+      "english": "These things are unskillful, blameworthy, not to be cultivated, unworthy of the noble ones—and are reckoned as such. They are dark deeds with dark results, criticized by sensible people. Such things are exhibited in some aristocrats. "
+    },
+    {
+      "number": 43,
+      "pali": "Brāhmaṇopi kho, vāseṭṭha …pe… ",
+      "english": "And they are also seen among some brahmins, "
+    },
+    {
+      "number": 44,
+      "pali": "vessopi kho, vāseṭṭha …pe… ",
+      "english": "peasants, "
+    },
+    {
+      "number": 45,
+      "pali": "suddopi kho, vāseṭṭha, idhekacco pāṇātipātī hoti adinnādāyī kāmesumicchācārī musāvādī pisuṇavāco pharusavāco samphappalāpī abhijjhālu byāpannacitto micchādiṭṭhī. ",
+      "english": "and menials. "
+    },
+    {
+      "number": 46,
+      "pali": "Iti kho, vāseṭṭha, yeme dhammā akusalā akusalasaṅkhātā …pe… ",
+      "english": ""
+    },
+    {
+      "number": 47,
+      "pali": "kaṇhā kaṇhavipākā viññugarahitā; ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "suddepi te idhekacce sandissanti. ",
+      "english": ""
+    },
+    {
+      "number": 49,
+      "pali": "Khattiyopi kho, vāseṭṭha, idhekacco pāṇātipātā paṭivirato hoti, adinnādānā paṭivirato, kāmesumicchācārā paṭivirato, musāvādā paṭivirato, pisuṇāya vācāya paṭivirato, pharusāya vācāya paṭivirato, samphappalāpā paṭivirato, anabhijjhālu abyāpannacitto, sammādiṭṭhī. ",
+      "english": "But some aristocrats refrain from killing living creatures, stealing, and committing sexual misconduct. They refrain from speech that’s false, backbiting, harsh, and nonsensical. And they’re content, kind-hearted, with right view. "
+    },
+    {
+      "number": 50,
+      "pali": "Iti kho, vāseṭṭha, yeme dhammā kusalā kusalasaṅkhātā anavajjā anavajjasaṅkhātā sevitabbā sevitabbasaṅkhātā alamariyā alamariyasaṅkhātā sukkā sukkavipākā viññuppasatthā, khattiyepi te idhekacce sandissanti. ",
+      "english": "These things are skillful, blameless, to be cultivated, worthy of the noble ones—and are reckoned as such. They are bright deeds with bright results, praised by sensible people. Such things are exhibited in some aristocrats. "
+    },
+    {
+      "number": 51,
+      "pali": "Brāhmaṇopi kho, vāseṭṭha …pe… ",
+      "english": "And they are also seen among some brahmins, "
+    },
+    {
+      "number": 52,
+      "pali": "vessopi kho, vāseṭṭha …pe… ",
+      "english": "peasants, "
+    },
+    {
+      "number": 53,
+      "pali": "suddopi kho, vāseṭṭha, idhekacco pāṇātipātā paṭivirato hoti …pe… ",
+      "english": "and menials. "
+    },
+    {
+      "number": 54,
+      "pali": "anabhijjhālu, abyāpannacitto, sammādiṭṭhī. ",
+      "english": ""
+    },
+    {
+      "number": 55,
+      "pali": "Iti kho, vāseṭṭha, yeme dhammā kusalā kusalasaṅkhātā anavajjā anavajjasaṅkhātā sevitabbā sevitabbasaṅkhātā alamariyā alamariyasaṅkhātā sukkā sukkavipākā viññuppasatthā; ",
+      "english": ""
+    },
+    {
+      "number": 56,
+      "pali": "suddepi te idhekacce sandissanti. ",
+      "english": ""
+    },
+    {
+      "number": 57,
+      "pali": "Imesu kho, vāseṭṭha, catūsu vaṇṇesu evaṁ ubhayavokiṇṇesu vattamānesu kaṇhasukkesu dhammesu viññugarahitesu ceva viññuppasatthesu ca yadettha brāhmaṇā evamāhaṁsu: ",
+      "english": "Both these things occur like this, mixed up in these four classes—the dark and the bright, that which is praised and that which is criticized by sensible people. Yet of this the brahmins say: "
+    },
+    {
+      "number": 58,
+      "pali": "‘brāhmaṇova seṭṭho vaṇṇo, hīnā aññe vaṇṇā; ",
+      "english": "‘Only brahmins are the best class; other classes are inferior. "
+    },
+    {
+      "number": 59,
+      "pali": "brāhmaṇova sukko vaṇṇo, kaṇhā aññe vaṇṇā; ",
+      "english": "Only brahmins are the light class; other classes are dark. "
+    },
+    {
+      "number": 60,
+      "pali": "brāhmaṇāva sujjhanti, no abrāhmaṇā; ",
+      "english": "Only brahmins are purified, not others. "
+    },
+    {
+      "number": 61,
+      "pali": "brāhmaṇāva brahmuno puttā orasā mukhato jātā brahmajā brahmanimmitā brahmadāyādā’ti. ",
+      "english": "Only brahmins are the Divinity’s true-born sons, born from his mouth, born of the Divinity, created by the Divinity, heirs of the Divinity.’ "
+    },
+    {
+      "number": 62,
+      "pali": "Taṁ tesaṁ viññū nānujānanti. ",
+      "english": "Sensible people don’t grant this. "
+    },
+    {
+      "number": 63,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 64,
+      "pali": "Imesañhi, vāseṭṭha, catunnaṁ vaṇṇānaṁ yo hoti bhikkhu arahaṁ khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṁyojano sammadaññāvimutto, so nesaṁ aggamakkhāyati dhammeneva, no adhammena. ",
+      "english": "Because any mendicant from these four classes who is perfected—with defilements ended, who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment—is said to be foremost by virtue of principle, not against principle. "
+    },
+    {
+      "number": 65,
+      "pali": "Dhammo hi, vāseṭṭha, seṭṭho janetasmiṁ, diṭṭhe ceva dhamme abhisamparāyañca. ",
+      "english": "For principle, Vāseṭṭha, is the best thing for people in both this life and the next. "
+    },
+    {
+      "number": 66,
+      "pali": "Tadamināpetaṁ, vāseṭṭha, pariyāyena veditabbaṁ, yathā dhammova seṭṭho janetasmiṁ, diṭṭhe ceva dhamme abhisamparāyañca. ",
+      "english": "And here’s a way to understand how this is so. "
+    },
+    {
+      "number": 67,
+      "pali": "Jānāti kho, vāseṭṭha, rājā pasenadi kosalo: ",
+      "english": "King Pasenadi of Kosala knows that "
+    },
+    {
+      "number": 68,
+      "pali": "‘samaṇo gotamo anantarā sakyakulā pabbajito’ti. ",
+      "english": "the ascetic Gotama has gone forth from the neighboring clan of the Sakyans. "
+    },
+    {
+      "number": 69,
+      "pali": "Sakyā kho pana, vāseṭṭha, rañño pasenadissa kosalassa anuyuttā bhavanti. ",
+      "english": "And the Sakyans are his vassals. "
+    },
+    {
+      "number": 70,
+      "pali": "Karonti kho, vāseṭṭha, sakyā raññe pasenadimhi kosale nipaccakāraṁ abhivādanaṁ paccuṭṭhānaṁ añjalikammaṁ sāmīcikammaṁ. ",
+      "english": "The Sakyans show deference to King Pasenadi by bowing down, rising up, greeting him with cupped palms, and observing proper etiquette for him. "
+    },
+    {
+      "number": 71,
+      "pali": "Iti kho, vāseṭṭha, yaṁ karonti sakyā raññe pasenadimhi kosale nipaccakāraṁ abhivādanaṁ paccuṭṭhānaṁ añjalikammaṁ sāmīcikammaṁ, karoti taṁ rājā pasenadi kosalo tathāgate nipaccakāraṁ abhivādanaṁ paccuṭṭhānaṁ añjalikammaṁ sāmīcikammaṁ, na naṁ ‘sujāto samaṇo gotamo, dujjātohamasmi. ",
+      "english": "Now, King Pasenadi shows the same kind of deference to the Realized One. But he doesn’t think: ‘The ascetic Gotama is well-born, I am ill-born. "
+    },
+    {
+      "number": 72,
+      "pali": "Balavā samaṇo gotamo, dubbalohamasmi. ",
+      "english": "He is powerful, I am weak. "
+    },
+    {
+      "number": 73,
+      "pali": "Pāsādiko samaṇo gotamo, dubbaṇṇohamasmi. ",
+      "english": "He is handsome, I am ugly. "
+    },
+    {
+      "number": 74,
+      "pali": "Mahesakkho samaṇo gotamo, appesakkhohamasmī’ti. ",
+      "english": "He is illustrious, I am insignificant.’ "
+    },
+    {
+      "number": 75,
+      "pali": "Atha kho naṁ dhammaṁyeva sakkaronto dhammaṁ garuṁ karonto dhammaṁ mānento dhammaṁ pūjento dhammaṁ apacāyamāno evaṁ rājā pasenadi kosalo tathāgate nipaccakāraṁ karoti, abhivādanaṁ paccuṭṭhānaṁ añjalikammaṁ sāmīcikammaṁ. ",
+      "english": "Rather, in showing such deference to the Realized One he is only honoring, respecting, and venerating principle. "
+    },
+    {
+      "number": 76,
+      "pali": "Imināpi kho etaṁ, vāseṭṭha, pariyāyena veditabbaṁ, yathā dhammova seṭṭho janetasmiṁ, diṭṭhe ceva dhamme abhisamparāyañca. ",
+      "english": "And here’s another way to understand how principle is the best thing for people in both this life and the next. "
+    },
+    {
+      "number": 77,
+      "pali": "Tumhe khvattha, vāseṭṭha, nānājaccā nānānāmā nānāgottā nānākulā agārasmā anagāriyaṁ pabbajitā. ",
+      "english": "Vāseṭṭha, you have different births, names, clans, and families, yet have gone forth from the lay life to homelessness. "
+    },
+    {
+      "number": 78,
+      "pali": "‘Ke tumhe’ti—puṭṭhā samānā ‘samaṇā sakyaputtiyāmhā’ti—paṭijānātha. ",
+      "english": "When they ask you what you are, you claim to be ascetics who follow the Sakyan. "
+    },
+    {
+      "number": 79,
+      "pali": "Yassa kho panassa, vāseṭṭha, tathāgate saddhā niviṭṭhā mūlajātā patiṭṭhitā daḷhā asaṁhāriyā samaṇena vā brāhmaṇena vā devena vā mārena vā brahmunā vā kenaci vā lokasmiṁ, tassetaṁ kallaṁ vacanāya: ",
+      "english": "But only when someone has faith in the Realized One—settled, rooted, and planted deep, strong, not to be shifted by any ascetic or brahmin or god or Māra or divinity or by anyone in the world—is it appropriate for them to say: "
+    },
+    {
+      "number": 80,
+      "pali": "‘bhagavatomhi putto oraso mukhato jāto dhammajo dhammanimmito dhammadāyādo’ti. ",
+      "english": "‘I am the Buddha’s true-born son, born from his mouth, born of principle, created by principle, heir to principle.’ "
+    },
+    {
+      "number": 81,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 82,
+      "pali": "Tathāgatassa hetaṁ, vāseṭṭha, adhivacanaṁ ‘dhammakāyo’ itipi, ‘brahmakāyo’ itipi, ‘dhammabhūto’ itipi, ‘brahmabhūto’ itipi. ",
+      "english": "For these are terms for the Realized One: ‘the embodiment of principle’, and ‘the embodiment of divinity’, and ‘the manifestation of principle’, and ‘the manifestation of divinity’. "
+    },
+    {
+      "number": 83,
+      "pali": "Hoti kho so, vāseṭṭha, samayo yaṁ kadāci karahaci dīghassa addhuno accayena ayaṁ loko saṁvaṭṭati. ",
+      "english": "There comes a time when, Vāseṭṭha, after a very long period has passed, this cosmos contracts. "
+    },
+    {
+      "number": 84,
+      "pali": "Saṁvaṭṭamāne loke yebhuyyena sattā ābhassarasaṁvattanikā honti. ",
+      "english": "As the cosmos contracts, sentient beings are mostly headed for the realm of streaming radiance. "
+    },
+    {
+      "number": 85,
+      "pali": "Te tattha honti manomayā pītibhakkhā sayaṁpabhā antalikkhacarā subhaṭṭhāyino ciraṁ dīghamaddhānaṁ tiṭṭhanti. ",
+      "english": "There they are mind-made, feeding on rapture, self-luminous, wandering in midair, steadily glorious, and they remain like that for a very long time. "
+    },
+    {
+      "number": 86,
+      "pali": "Hoti kho so, vāseṭṭha, samayo yaṁ kadāci karahaci dīghassa addhuno accayena ayaṁ loko vivaṭṭati. ",
+      "english": "There comes a time when, after a very long period has passed, this cosmos expands. "
+    },
+    {
+      "number": 87,
+      "pali": "Vivaṭṭamāne loke yebhuyyena sattā ābhassarakāyā cavitvā itthattaṁ āgacchanti. ",
+      "english": "As the cosmos expands, sentient beings mostly pass away from that host of radiant deities and come back to this realm. "
+    },
+    {
+      "number": 88,
+      "pali": "Tedha honti manomayā pītibhakkhā sayaṁpabhā antalikkhacarā subhaṭṭhāyino ciraṁ dīghamaddhānaṁ tiṭṭhanti. ",
+      "english": "Here they are mind-made, feeding on rapture, self-luminous, wandering in midair, steadily glorious, and they remain like that for a very long time. "
+    },
+    {
+      "number": 89,
+      "pali": "2. Rasapathavipātubhāva ",
+      "english": "2. The Earth’s Nectar Appears "
+    },
+    {
+      "number": 90,
+      "pali": "Ekodakībhūtaṁ kho pana, vāseṭṭha, tena samayena hoti andhakāro andhakāratimisā. ",
+      "english": "But the single mass of water at that time was utterly dark. "
+    },
+    {
+      "number": 91,
+      "pali": "Na candimasūriyā paññāyanti, na nakkhattāni tārakarūpāni paññāyanti, na rattindivā paññāyanti, na māsaḍḍhamāsā paññāyanti, na utusaṁvaccharā paññāyanti, na itthipumā paññāyanti, sattā sattātveva saṅkhyaṁ gacchanti. ",
+      "english": "The moon and sun were not found, nor were stars and constellations, day and night, months and fortnights, years and seasons, or male and female. Beings were simply known as ‘beings’. "
+    },
+    {
+      "number": 92,
+      "pali": "Atha kho tesaṁ, vāseṭṭha, sattānaṁ kadāci karahaci dīghassa addhuno accayena rasapathavī udakasmiṁ samatani; ",
+      "english": "After a very long period had passed, the earth’s nectar curdled in the water. "
+    },
+    {
+      "number": 93,
+      "pali": "seyyathāpi nāma payaso tattassa nibbāyamānassa upari santānakaṁ hoti; ",
+      "english": "It appeared just like the curd on top of hot milk-rice as it cools. "
+    },
+    {
+      "number": 94,
+      "pali": "evameva pāturahosi. ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "Sā ahosi vaṇṇasampannā gandhasampannā rasasampannā, seyyathāpi nāma sampannaṁ vā sappi sampannaṁ vā navanītaṁ evaṁvaṇṇā ahosi. ",
+      "english": "It was beautiful, fragrant, and delicious, like ghee or butter. "
+    },
+    {
+      "number": 96,
+      "pali": "Seyyathāpi nāma khuddamadhuṁ aneḷakaṁ; ",
+      "english": "And it was as sweet as pure dwarf-bee honey. "
+    },
+    {
+      "number": 97,
+      "pali": "evamassādā ahosi. ",
+      "english": ""
+    },
+    {
+      "number": 98,
+      "pali": "Atha kho, vāseṭṭha, aññataro satto lolajātiko: ",
+      "english": "Now, one of those beings was reckless. "
+    },
+    {
+      "number": 99,
+      "pali": "‘ambho, kimevidaṁ bhavissatī’ti rasapathaviṁ aṅguliyā sāyi. ",
+      "english": "Thinking, ‘Oh my, what might this be?’ they tasted the earth’s nectar with their finger. "
+    },
+    {
+      "number": 100,
+      "pali": "Tassa rasapathaviṁ aṅguliyā sāyato acchādesi, taṇhā cassa okkami. ",
+      "english": "They enjoyed it, and craving was born in them. "
+    },
+    {
+      "number": 101,
+      "pali": "Aññepi kho, vāseṭṭha, sattā tassa sattassa diṭṭhānugatiṁ āpajjamānā rasapathaviṁ aṅguliyā sāyiṁsu. ",
+      "english": "And other beings, following that being’s example, tasted the earth’s nectar with their fingers. "
+    },
+    {
+      "number": 102,
+      "pali": "Tesaṁ rasapathaviṁ aṅguliyā sāyataṁ acchādesi, taṇhā ca tesaṁ okkami. ",
+      "english": "They too enjoyed it, and craving was born in them. "
+    },
+    {
+      "number": 103,
+      "pali": "3. Candimasūriyādipātubhāva ",
+      "english": "3. The Moon and Sun Appear "
+    },
+    {
+      "number": 104,
+      "pali": "Atha kho te, vāseṭṭha, sattā rasapathaviṁ hatthehi āluppakārakaṁ upakkamiṁsu paribhuñjituṁ. ",
+      "english": "Then those beings started to eat the earth’s nectar, breaking it into lumps. "
+    },
+    {
+      "number": 105,
+      "pali": "Yato kho te, vāseṭṭha, sattā rasapathaviṁ hatthehi āluppakārakaṁ upakkamiṁsu paribhuñjituṁ. ",
+      "english": "But when they did this "
+    },
+    {
+      "number": 106,
+      "pali": "Atha tesaṁ sattānaṁ sayaṁpabhā antaradhāyi. ",
+      "english": "their luminosity vanished. "
+    },
+    {
+      "number": 107,
+      "pali": "Sayaṁpabhāya antarahitāya candimasūriyā pāturahesuṁ. ",
+      "english": "And with the vanishing of their luminosity the moon and sun appeared, "
+    },
+    {
+      "number": 108,
+      "pali": "Candimasūriyesu pātubhūtesu nakkhattāni tārakarūpāni pāturahesuṁ. ",
+      "english": "stars and constellations appeared, "
+    },
+    {
+      "number": 109,
+      "pali": "Nakkhattesu tārakarūpesu pātubhūtesu rattindivā paññāyiṁsu. ",
+      "english": "days and nights were distinguished, "
+    },
+    {
+      "number": 110,
+      "pali": "Rattindivesu paññāyamānesu māsaḍḍhamāsā paññāyiṁsu. ",
+      "english": "and so were months and fortnights, "
+    },
+    {
+      "number": 111,
+      "pali": "Māsaḍḍhamāsesu paññāyamānesu utusaṁvaccharā paññāyiṁsu. ",
+      "english": "and years and seasons. "
+    },
+    {
+      "number": 112,
+      "pali": "Ettāvatā kho, vāseṭṭha, ayaṁ loko puna vivaṭṭo hoti. ",
+      "english": "So far had the world evolved once more. "
+    },
+    {
+      "number": 113,
+      "pali": "Atha kho te, vāseṭṭha, sattā rasapathaviṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhaṁsu. ",
+      "english": "Then those beings eating the earth’s nectar, with that as their food and nourishment, remained for a very long time. "
+    },
+    {
+      "number": 114,
+      "pali": "Yathā yathā kho te, vāseṭṭha, sattā rasapathaviṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhaṁsu tathā tathā tesaṁ sattānaṁ rasapathaviṁ paribhuñjantānaṁ kharattañceva kāyasmiṁ okkami, vaṇṇavevaṇṇatā ca paññāyittha. ",
+      "english": "But so long as they ate that earth’s nectar, their bodies became more solid and they diverged in appearance; "
+    },
+    {
+      "number": 115,
+      "pali": "Ekidaṁ sattā vaṇṇavanto honti, ekidaṁ sattā dubbaṇṇā. ",
+      "english": "some beautiful, some ugly. "
+    },
+    {
+      "number": 116,
+      "pali": "Tattha ye te sattā vaṇṇavanto, te dubbaṇṇe satte atimaññanti: ",
+      "english": "And the beautiful beings looked down on the ugly ones: "
+    },
+    {
+      "number": 117,
+      "pali": "‘mayametehi vaṇṇavantatarā, amhehete dubbaṇṇatarā’ti. ",
+      "english": "‘We’re more beautiful, they’re the ugly ones!’ "
+    },
+    {
+      "number": 118,
+      "pali": "Tesaṁ vaṇṇātimānapaccayā mānātimānajātikānaṁ rasapathavī antaradhāyi. ",
+      "english": "And the vanity of the beautiful ones made the earth’s nectar vanish. "
+    },
+    {
+      "number": 119,
+      "pali": "Rasāya pathaviyā antarahitāya sannipatiṁsu. ",
+      "english": "They gathered together and bemoaned, "
+    },
+    {
+      "number": 120,
+      "pali": "Sannipatitvā anutthuniṁsu: ",
+      "english": ""
+    },
+    {
+      "number": 121,
+      "pali": "‘aho rasaṁ, aho rasan’ti. ",
+      "english": "‘Oh, what a taste! Oh, what a taste!’ "
+    },
+    {
+      "number": 122,
+      "pali": "Tadetarahipi manussā kañcideva surasaṁ labhitvā evamāhaṁsu: ",
+      "english": "And even today when people get something tasty they say: "
+    },
+    {
+      "number": 123,
+      "pali": "‘aho rasaṁ, aho rasan’ti. ",
+      "english": "‘Oh, what a taste! Oh, what a taste!’ "
+    },
+    {
+      "number": 124,
+      "pali": "Tadeva porāṇaṁ aggaññaṁ akkharaṁ anusaranti, na tvevassa atthaṁ ājānanti. ",
+      "english": "They’re just remembering an ancient primordial saying, but they don’t understand what it means. "
+    },
+    {
+      "number": 125,
+      "pali": "4. Bhūmipappaṭakapātubhāva ",
+      "english": "4. Ground-Fungus "
+    },
+    {
+      "number": 126,
+      "pali": "Atha kho tesaṁ, vāseṭṭha, sattānaṁ rasāya pathaviyā antarahitāya bhūmipappaṭako pāturahosi. ",
+      "english": "When the earth’s nectar had vanished, ground-fungus appeared to those beings. "
+    },
+    {
+      "number": 127,
+      "pali": "Seyyathāpi nāma ahicchattako; evameva pāturahosi. ",
+      "english": "It appeared just like a mushroom. "
+    },
+    {
+      "number": 128,
+      "pali": "So ahosi vaṇṇasampanno gandhasampanno rasasampanno, seyyathāpi nāma sampannaṁ vā sappi sampannaṁ vā navanītaṁ evaṁvaṇṇo ahosi. ",
+      "english": "It was beautiful, fragrant, and delicious, like ghee or butter. "
+    },
+    {
+      "number": 129,
+      "pali": "Seyyathāpi nāma khuddamadhuṁ aneḷakaṁ; evamassādo ahosi. ",
+      "english": "And it was as sweet as pure dwarf-bee honey. "
+    },
+    {
+      "number": 130,
+      "pali": "Atha kho te, vāseṭṭha, sattā bhūmipappaṭakaṁ upakkamiṁsu paribhuñjituṁ. ",
+      "english": "Then those beings started to eat the ground-fungus. "
+    },
+    {
+      "number": 131,
+      "pali": "Te taṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhaṁsu. ",
+      "english": "With that as their food and nourishment, they remained for a very long time. "
+    },
+    {
+      "number": 132,
+      "pali": "Yathā yathā kho te, vāseṭṭha, sattā bhūmipappaṭakaṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhaṁsu tathā tathā tesaṁ sattānaṁ bhiyyoso mattāya kharattañceva kāyasmiṁ okkami, vaṇṇavevaṇṇatā ca paññāyittha. ",
+      "english": "But so long as they ate that ground-fungus, their bodies became more solid and they diverged in appearance; "
+    },
+    {
+      "number": 133,
+      "pali": "Ekidaṁ sattā vaṇṇavanto honti, ekidaṁ sattā dubbaṇṇā. ",
+      "english": "some beautiful, some ugly. "
+    },
+    {
+      "number": 134,
+      "pali": "Tattha ye te sattā vaṇṇavanto, te dubbaṇṇe satte atimaññanti: ",
+      "english": "And the beautiful beings looked down on the ugly ones: "
+    },
+    {
+      "number": 135,
+      "pali": "‘mayametehi vaṇṇavantatarā, amhehete dubbaṇṇatarā’ti. ",
+      "english": "‘We’re more beautiful, they’re the ugly ones!’ "
+    },
+    {
+      "number": 136,
+      "pali": "Tesaṁ vaṇṇātimānapaccayā mānātimānajātikānaṁ bhūmipappaṭako antaradhāyi. ",
+      "english": "And the vanity of the beautiful ones made the ground-fungus vanish. "
+    },
+    {
+      "number": 137,
+      "pali": "5. Padālatāpātubhāva ",
+      "english": "5. Bursting Pods "
+    },
+    {
+      "number": 138,
+      "pali": "Bhūmipappaṭake antarahite padālatā pāturahosi, seyyathāpi nāma kalambukā; evameva pāturahosi. ",
+      "english": "When the ground-fungus had vanished, bursting pods appeared, like the fruit of the kadam tree. "
+    },
+    {
+      "number": 139,
+      "pali": "Sā ahosi vaṇṇasampannā gandhasampannā rasasampannā, seyyathāpi nāma sampannaṁ vā sappi sampannaṁ vā navanītaṁ evaṁvaṇṇā ahosi. ",
+      "english": "They were beautiful, fragrant, and delicious, like ghee or butter. "
+    },
+    {
+      "number": 140,
+      "pali": "Seyyathāpi nāma khuddamadhuṁ aneḷakaṁ; evamassādā ahosi. ",
+      "english": "And they were as sweet as pure dwarf-bee honey. "
+    },
+    {
+      "number": 141,
+      "pali": "Atha kho te, vāseṭṭha, sattā padālataṁ upakkamiṁsu paribhuñjituṁ. ",
+      "english": "Then those beings started to eat the bursting pods. "
+    },
+    {
+      "number": 142,
+      "pali": "Te taṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhaṁsu. ",
+      "english": "With that as their food and nourishment, they remained for a very long time. "
+    },
+    {
+      "number": 143,
+      "pali": "Yathā yathā kho te, vāseṭṭha, sattā padālataṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhaṁsu tathā tathā tesaṁ sattānaṁ bhiyyoso mattāya kharattañceva kāyasmiṁ okkami, vaṇṇavevaṇṇatā ca paññāyittha. ",
+      "english": "But so long as they ate those bursting pods, their bodies became more solid and they diverged in appearance; "
+    },
+    {
+      "number": 144,
+      "pali": "Ekidaṁ sattā vaṇṇavanto honti, ekidaṁ sattā dubbaṇṇā. ",
+      "english": "some beautiful, some ugly. "
+    },
+    {
+      "number": 145,
+      "pali": "Tattha ye te sattā vaṇṇavanto, te dubbaṇṇe satte atimaññanti: ",
+      "english": "And the beautiful beings looked down on the ugly ones: "
+    },
+    {
+      "number": 146,
+      "pali": "‘mayametehi vaṇṇavantatarā, amhehete dubbaṇṇatarā’ti. ",
+      "english": "‘We’re more beautiful, they’re the ugly ones!’ "
+    },
+    {
+      "number": 147,
+      "pali": "Tesaṁ vaṇṇātimānapaccayā mānātimānajātikānaṁ padālatā antaradhāyi. ",
+      "english": "And the vanity of the beautiful ones made the bursting pods vanish. "
+    },
+    {
+      "number": 148,
+      "pali": "Padālatāya antarahitāya sannipatiṁsu. Sannipatitvā anutthuniṁsu: ",
+      "english": "They gathered together and bemoaned, "
+    },
+    {
+      "number": 149,
+      "pali": "‘ahu vata no, ahāyi vata no padālatā’ti. ",
+      "english": "‘Oh, what we’ve lost! Oh, what we’ve lost—those bursting pods!’ "
+    },
+    {
+      "number": 150,
+      "pali": "Tadetarahipi manussā kenaci dukkhadhammena phuṭṭhā evamāhaṁsu: ",
+      "english": "And even today when people experience suffering they say: "
+    },
+    {
+      "number": 151,
+      "pali": "‘ahu vata no, ahāyi vata no’ti. ",
+      "english": "‘Oh, what we’ve lost! Oh, what we’ve lost!’ "
+    },
+    {
+      "number": 152,
+      "pali": "Tadeva porāṇaṁ aggaññaṁ akkharaṁ anusaranti, na tvevassa atthaṁ ājānanti. ",
+      "english": "They’re just remembering an ancient primordial saying, but they don’t understand what it means. "
+    },
+    {
+      "number": 153,
+      "pali": "6. Akaṭṭhapākasālipātubhāva ",
+      "english": "6. Ripe Untilled Rice "
+    },
+    {
+      "number": 154,
+      "pali": "Atha kho tesaṁ, vāseṭṭha, sattānaṁ padālatāya antarahitāya akaṭṭhapāko sāli pāturahosi akaṇo athuso suddho sugandho taṇḍulapphalo. ",
+      "english": "When the bursting pods had vanished, ripe untilled rice appeared to those beings. It had no powder or husk, pure and fragrant, with only the rice-grain. "
+    },
+    {
+      "number": 155,
+      "pali": "Yaṁ taṁ sāyaṁ sāyamāsāya āharanti, pāto taṁ hoti pakkaṁ paṭivirūḷhaṁ. ",
+      "english": "What they took for supper at dusk, by daybreak had grown back and ripened. "
+    },
+    {
+      "number": 156,
+      "pali": "Yaṁ taṁ pāto pātarāsāya āharanti, sāyaṁ taṁ hoti pakkaṁ paṭivirūḷhaṁ; ",
+      "english": "And what they took for breakfast at daybreak had grown back and ripened by the evening, "
+    },
+    {
+      "number": 157,
+      "pali": "nāpadānaṁ paññāyati. ",
+      "english": "leaving no trace showing. "
+    },
+    {
+      "number": 158,
+      "pali": "Atha kho te, vāseṭṭha, sattā akaṭṭhapākaṁ sāliṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhaṁsu. ",
+      "english": "Then those beings eating the ripe untilled rice, with that as their food and nourishment, remained for a very long time. "
+    },
+    {
+      "number": 159,
+      "pali": "7. Itthipurisaliṅgapātubhāva ",
+      "english": "7. Sex Appears "
+    },
+    {
+      "number": 160,
+      "pali": "Yathā yathā kho te, vāseṭṭha, sattā akaṭṭhapākaṁ sāliṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhaṁsu tathā tathā tesaṁ sattānaṁ bhiyyoso mattāya kharattañceva kāyasmiṁ okkami, vaṇṇavevaṇṇatā ca paññāyittha, itthiyā ca itthiliṅgaṁ pāturahosi purisassa ca purisaliṅgaṁ. ",
+      "english": "But so long as they ate that ripe untilled rice, their bodies became more solid and they diverged in appearance. And female characteristics appeared on women, while male characteristics appeared on men. "
+    },
+    {
+      "number": 161,
+      "pali": "Itthī ca purisaṁ ativelaṁ upanijjhāyati puriso ca itthiṁ. ",
+      "english": "Women spent too much time gazing at men, and men at women. "
+    },
+    {
+      "number": 162,
+      "pali": "Tesaṁ ativelaṁ aññamaññaṁ upanijjhāyataṁ sārāgo udapādi, pariḷāho kāyasmiṁ okkami. ",
+      "english": "They became lustful, and their bodies burned with fever. "
+    },
+    {
+      "number": 163,
+      "pali": "Te pariḷāhapaccayā methunaṁ dhammaṁ paṭiseviṁsu. ",
+      "english": "Due to this fever they had sex with each other. "
+    },
+    {
+      "number": 164,
+      "pali": "Ye kho pana te, vāseṭṭha, tena samayena sattā passanti methunaṁ dhammaṁ paṭisevante, aññe paṁsuṁ khipanti, aññe seṭṭhiṁ khipanti, aññe gomayaṁ khipanti: ",
+      "english": "Those who saw them having sex pelted them with dirt, clods, or cow-dung, saying, "
+    },
+    {
+      "number": 165,
+      "pali": "‘nassa asuci, nassa asucī’ti. ",
+      "english": "‘Get lost, filth! Get lost, filth! "
+    },
+    {
+      "number": 166,
+      "pali": "‘Kathañhi nāma satto sattassa evarūpaṁ karissatī’ti. ",
+      "english": "How on earth can one being do that to another?’ "
+    },
+    {
+      "number": 167,
+      "pali": "Tadetarahipi manussā ekaccesu janapadesu vadhuyā nibbuyhamānāya aññe paṁsuṁ khipanti, aññe seṭṭhiṁ khipanti, aññe gomayaṁ khipanti. ",
+      "english": "And even today people in some countries, when carrying a bride off, pelt her with dirt, clods, or cow-dung. "
+    },
+    {
+      "number": 168,
+      "pali": "Tadeva porāṇaṁ aggaññaṁ akkharaṁ anusaranti, na tvevassa atthaṁ ājānanti. ",
+      "english": "They’re just remembering an ancient primordial saying, but they don’t understand what it means. "
+    },
+    {
+      "number": 169,
+      "pali": "8. Methunadhammasamācāra ",
+      "english": "8. Sexual Intercourse "
+    },
+    {
+      "number": 170,
+      "pali": "Adhammasammataṁ kho pana, vāseṭṭha, tena samayena hoti, tadetarahi dhammasammataṁ. ",
+      "english": "What was deemed as unprincipled at that time, these days is deemed as principled. "
+    },
+    {
+      "number": 171,
+      "pali": "Ye kho pana, vāseṭṭha, tena samayena sattā methunaṁ dhammaṁ paṭisevanti, te māsampi dvemāsampi na labhanti gāmaṁ vā nigamaṁ vā pavisituṁ. ",
+      "english": "The beings who had sex together weren’t allowed to enter a village or town for one or two months. "
+    },
+    {
+      "number": 172,
+      "pali": "Yato kho te, vāseṭṭha, sattā tasmiṁ asaddhamme ativelaṁ pātabyataṁ āpajjiṁsu. ",
+      "english": "Ever since they excessively threw themselves into immorality, "
+    },
+    {
+      "number": 173,
+      "pali": "Atha agārāni upakkamiṁsu kātuṁ tasseva asaddhammassa paṭicchādanatthaṁ. ",
+      "english": "they started to make buildings to hide their immoral deeds. "
+    },
+    {
+      "number": 174,
+      "pali": "Atha kho, vāseṭṭha, aññatarassa sattassa alasajātikassa etadahosi: ",
+      "english": "Then one of those beings of idle disposition thought, "
+    },
+    {
+      "number": 175,
+      "pali": "‘ambho, kimevāhaṁ vihaññāmi sāliṁ āharanto sāyaṁ sāyamāsāya pāto pātarāsāya. ",
+      "english": "‘Oh my, why should I be bothered to gather rice at dusk for supper, and at daybreak for breakfast? "
+    },
+    {
+      "number": 176,
+      "pali": "Yannūnāhaṁ sāliṁ āhareyyaṁ sakideva sāyapātarāsāyā’ti. ",
+      "english": "Why don’t I gather rice for supper and breakfast all at once?’ "
+    },
+    {
+      "number": 177,
+      "pali": "Atha kho so, vāseṭṭha, satto sāliṁ āhāsi sakideva sāyapātarāsāya. ",
+      "english": "So that’s what he did. "
+    },
+    {
+      "number": 178,
+      "pali": "Atha kho, vāseṭṭha, aññataro satto yena so satto tenupasaṅkami; upasaṅkamitvā taṁ sattaṁ etadavoca: ",
+      "english": "Then one of the other beings approached that being and said, "
+    },
+    {
+      "number": 179,
+      "pali": "‘ehi, bho satta, sālāhāraṁ gamissāmā’ti. ",
+      "english": "‘Come, good being, we shall go to gather rice.’ "
+    },
+    {
+      "number": 180,
+      "pali": "‘Alaṁ, bho satta, āhato me sāli sakideva sāyapātarāsāyā’ti. ",
+      "english": "‘There’s no need, good being! I gathered rice for supper and breakfast all at once.’ "
+    },
+    {
+      "number": 181,
+      "pali": "Atha kho so, vāseṭṭha, satto tassa sattassa diṭṭhānugatiṁ āpajjamāno sāliṁ āhāsi sakideva dvīhāya. ‘Evampi kira, bho, sādhū’ti. ",
+      "english": "So that being, following their example, gathered rice for two days all at once, thinking: ‘This seems fine.’ "
+    },
+    {
+      "number": 182,
+      "pali": "Atha kho, vāseṭṭha, aññataro satto yena so satto tenupasaṅkami; upasaṅkamitvā taṁ sattaṁ etadavoca: ",
+      "english": "Then one of the other beings approached that being and said, "
+    },
+    {
+      "number": 183,
+      "pali": "‘ehi, bho satta, sālāhāraṁ gamissāmā’ti. ",
+      "english": "‘Come, good being, we shall go to gather rice.’ "
+    },
+    {
+      "number": 184,
+      "pali": "‘Alaṁ, bho satta, āhato me sāli sakideva dvīhāyā’ti. ",
+      "english": "‘There’s no need, good being! I gathered rice for two days all at once.’ "
+    },
+    {
+      "number": 185,
+      "pali": "Atha kho so, vāseṭṭha, satto tassa sattassa diṭṭhānugatiṁ āpajjamāno sāliṁ āhāsi sakideva catūhāya, ‘evampi kira, bho, sādhū’ti. ",
+      "english": "So that being, following their example, gathered rice for four days all at once, thinking: ‘This seems fine.’ "
+    },
+    {
+      "number": 186,
+      "pali": "Atha kho, vāseṭṭha, aññataro satto yena so satto tenupasaṅkami; upasaṅkamitvā taṁ sattaṁ etadavoca: ",
+      "english": "Then one of the other beings approached that being and said, "
+    },
+    {
+      "number": 187,
+      "pali": "‘ehi, bho satta, sālāhāraṁ gamissāmā’ti. ",
+      "english": "‘Come, good being, we shall go to gather rice.’ "
+    },
+    {
+      "number": 188,
+      "pali": "‘Alaṁ, bho satta, āhato me sāli sakideva catūhāyā’ti. ",
+      "english": "‘There’s no need, good being! I gathered rice for four days all at once.’ "
+    },
+    {
+      "number": 189,
+      "pali": "Atha kho so, vāseṭṭha, satto tassa sattassa diṭṭhānugatiṁ āpajjamāno sāliṁ āhāsi sakideva aṭṭhāhāya, ‘evampi kira, bho, sādhū’ti. ",
+      "english": "So that being, following their example, gathered rice for eight days all at once, thinking: ‘This seems fine.’ "
+    },
+    {
+      "number": 190,
+      "pali": "Yato kho te, vāseṭṭha, sattā sannidhikārakaṁ sāliṁ upakkamiṁsu paribhuñjituṁ. ",
+      "english": "But when they started to store up rice to eat, "
+    },
+    {
+      "number": 191,
+      "pali": "Atha kaṇopi taṇḍulaṁ pariyonandhi, thusopi taṇḍulaṁ pariyonandhi; ",
+      "english": "the rice grains became wrapped in powder and husk, "
+    },
+    {
+      "number": 192,
+      "pali": "lūnampi nappaṭivirūḷhaṁ, apadānaṁ paññāyittha, saṇḍasaṇḍā sālayo aṭṭhaṁsu. ",
+      "english": "it didn’t grow back after reaping, leaving a trace showing, and the rice stood in clumps. "
+    },
+    {
+      "number": 193,
+      "pali": "9. Sālivibhāga ",
+      "english": "9. Dividing the Rice "
+    },
+    {
+      "number": 194,
+      "pali": "Atha kho te, vāseṭṭha, sattā sannipatiṁsu, sannipatitvā anutthuniṁsu: ",
+      "english": "Then those beings gathered together and bemoaned, "
+    },
+    {
+      "number": 195,
+      "pali": "‘pāpakā vata, bho, dhammā sattesu pātubhūtā. ",
+      "english": "‘Oh, how wicked things have appeared among beings! "
+    },
+    {
+      "number": 196,
+      "pali": "Mayañhi pubbe manomayā ahumhā pītibhakkhā sayaṁpabhā antalikkhacarā subhaṭṭhāyino, ciraṁ dīghamaddhānaṁ aṭṭhamhā. ",
+      "english": "For we used to be mind-made, feeding on rapture, self-luminous, wandering in midair, steadily glorious, and we remained like that for a very long time. "
+    },
+    {
+      "number": 197,
+      "pali": "Tesaṁ no amhākaṁ kadāci karahaci dīghassa addhuno accayena rasapathavī udakasmiṁ samatani. ",
+      "english": "After a very long period had passed, the earth’s nectar curdled in the water. "
+    },
+    {
+      "number": 198,
+      "pali": "Sā ahosi vaṇṇasampannā gandhasampannā rasasampannā. ",
+      "english": ""
+    },
+    {
+      "number": 199,
+      "pali": "Te mayaṁ rasapathaviṁ hatthehi āluppakārakaṁ upakkamimha paribhuñjituṁ, tesaṁ no rasapathaviṁ hatthehi āluppakārakaṁ upakkamataṁ paribhuñjituṁ sayaṁpabhā antaradhāyi. ",
+      "english": ""
+    },
+    {
+      "number": 200,
+      "pali": "Sayaṁpabhāya antarahitāya candimasūriyā pāturahesuṁ, candimasūriyesu pātubhūtesu nakkhattāni tārakarūpāni pāturahesuṁ, nakkhattesu tārakarūpesu pātubhūtesu rattindivā paññāyiṁsu, rattindivesu paññāyamānesu māsaḍḍhamāsā paññāyiṁsu. ",
+      "english": ""
+    },
+    {
+      "number": 201,
+      "pali": "Māsaḍḍhamāsesu paññāyamānesu utusaṁvaccharā paññāyiṁsu. ",
+      "english": ""
+    },
+    {
+      "number": 202,
+      "pali": "Te mayaṁ rasapathaviṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhamhā. ",
+      "english": ""
+    },
+    {
+      "number": 203,
+      "pali": "Tesaṁ no pāpakānaṁyeva akusalānaṁ dhammānaṁ pātubhāvā rasapathavī antaradhāyi. ",
+      "english": "But due to bad, unskillful things among us, the earth’s nectar vanished, "
+    },
+    {
+      "number": 204,
+      "pali": "Rasapathaviyā antarahitāya bhūmipappaṭako pāturahosi. ",
+      "english": ""
+    },
+    {
+      "number": 205,
+      "pali": "So ahosi vaṇṇasampanno gandhasampanno rasasampanno. ",
+      "english": ""
+    },
+    {
+      "number": 206,
+      "pali": "Te mayaṁ bhūmipappaṭakaṁ upakkamimha paribhuñjituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 207,
+      "pali": "Te mayaṁ taṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhamhā. ",
+      "english": ""
+    },
+    {
+      "number": 208,
+      "pali": "Tesaṁ no pāpakānaṁyeva akusalānaṁ dhammānaṁ pātubhāvā bhūmipappaṭako antaradhāyi. ",
+      "english": "then the ground-fungus vanished, "
+    },
+    {
+      "number": 209,
+      "pali": "Bhūmipappaṭake antarahite padālatā pāturahosi. ",
+      "english": ""
+    },
+    {
+      "number": 210,
+      "pali": "Sā ahosi vaṇṇasampannā gandhasampannā rasasampannā. ",
+      "english": ""
+    },
+    {
+      "number": 211,
+      "pali": "Te mayaṁ padālataṁ upakkamimha paribhuñjituṁ. ",
+      "english": ""
+    },
+    {
+      "number": 212,
+      "pali": "Te mayaṁ taṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhamhā. ",
+      "english": ""
+    },
+    {
+      "number": 213,
+      "pali": "Tesaṁ no pāpakānaṁyeva akusalānaṁ dhammānaṁ pātubhāvā padālatā antaradhāyi. ",
+      "english": "the bursting pods vanished, "
+    },
+    {
+      "number": 214,
+      "pali": "Padālatāya antarahitāya akaṭṭhapāko sāli pāturahosi akaṇo athuso suddho sugandho taṇḍulapphalo. ",
+      "english": ""
+    },
+    {
+      "number": 215,
+      "pali": "Yaṁ taṁ sāyaṁ sāyamāsāya āharāma, pāto taṁ hoti pakkaṁ paṭivirūḷhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 216,
+      "pali": "Yaṁ taṁ pāto pātarāsāya āharāma, sāyaṁ taṁ hoti pakkaṁ paṭivirūḷhaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 217,
+      "pali": "Nāpadānaṁ paññāyittha. ",
+      "english": ""
+    },
+    {
+      "number": 218,
+      "pali": "Te mayaṁ akaṭṭhapākaṁ sāliṁ paribhuñjantā tambhakkhā tadāhārā ciraṁ dīghamaddhānaṁ aṭṭhamhā. ",
+      "english": ""
+    },
+    {
+      "number": 219,
+      "pali": "Tesaṁ no pāpakānaṁyeva akusalānaṁ dhammānaṁ pātubhāvā kaṇopi taṇḍulaṁ pariyonandhi, thusopi taṇḍulaṁ pariyonandhi, lūnampi nappaṭivirūḷhaṁ, apadānaṁ paññāyittha, saṇḍasaṇḍā sālayo ṭhitā. ",
+      "english": "and now the rice grains have become wrapped in powder and husk, it doesn’t grow back after reaping, traces are left showing, and the rice stands in clumps. "
+    },
+    {
+      "number": 220,
+      "pali": "Yannūna mayaṁ sāliṁ vibhajeyyāma, mariyādaṁ ṭhapeyyāmā’ti. ",
+      "english": "We’d better divide up the rice and lay down boundaries.’ "
+    },
+    {
+      "number": 221,
+      "pali": "Atha kho te, vāseṭṭha, sattā sāliṁ vibhajiṁsu, mariyādaṁ ṭhapesuṁ. ",
+      "english": "So that’s what they did. "
+    },
+    {
+      "number": 222,
+      "pali": "Atha kho, vāseṭṭha, aññataro satto lolajātiko sakaṁ bhāgaṁ parirakkhanto aññataraṁ bhāgaṁ adinnaṁ ādiyitvā paribhuñji. ",
+      "english": "Now, one of those beings was reckless. While guarding their own share they took another’s share without it being given, and ate it. "
+    },
+    {
+      "number": 223,
+      "pali": "Tamenaṁ aggahesuṁ, gahetvā etadavocuṁ: ",
+      "english": "They grabbed the one who had done this and said, "
+    },
+    {
+      "number": 224,
+      "pali": "‘pāpakaṁ vata, bho satta, karosi, yatra hi nāma sakaṁ bhāgaṁ parirakkhanto aññataraṁ bhāgaṁ adinnaṁ ādiyitvā paribhuñjasi. ",
+      "english": "‘You have done a bad thing, good being, in that while guarding your own share you took another’s share without it being given, and ate it. "
+    },
+    {
+      "number": 225,
+      "pali": "Māssu, bho satta, punapi evarūpamakāsī’ti. ",
+      "english": "Do not do such a thing again.’ "
+    },
+    {
+      "number": 226,
+      "pali": "‘Evaṁ, bho’ti kho, vāseṭṭha, so satto tesaṁ sattānaṁ paccassosi. ",
+      "english": "‘Yes, worthy sirs,’ replied that being. "
+    },
+    {
+      "number": 227,
+      "pali": "Dutiyampi kho, vāseṭṭha, so satto …pe… ",
+      "english": "But for a second time, "
+    },
+    {
+      "number": 228,
+      "pali": "tatiyampi kho, vāseṭṭha, so satto sakaṁ bhāgaṁ parirakkhanto aññataraṁ bhāgaṁ adinnaṁ ādiyitvā paribhuñji. ",
+      "english": "and a third time they did the same thing, and were told not to continue. "
+    },
+    {
+      "number": 229,
+      "pali": "Tamenaṁ aggahesuṁ, gahetvā etadavocuṁ: ",
+      "english": ""
+    },
+    {
+      "number": 230,
+      "pali": "‘pāpakaṁ vata, bho satta, karosi, yatra hi nāma sakaṁ bhāgaṁ parirakkhanto aññataraṁ bhāgaṁ adinnaṁ ādiyitvā paribhuñjasi. ",
+      "english": ""
+    },
+    {
+      "number": 231,
+      "pali": "Māssu, bho satta, punapi evarūpamakāsī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 232,
+      "pali": "Aññe pāṇinā pahariṁsu, aññe leḍḍunā pahariṁsu, aññe daṇḍena pahariṁsu. ",
+      "english": "And then they struck that being, some with fists, others with stones, and still others with rods. "
+    },
+    {
+      "number": 233,
+      "pali": "Tadagge kho, vāseṭṭha, adinnādānaṁ paññāyati, garahā paññāyati, musāvādo paññāyati, daṇḍādānaṁ paññāyati. ",
+      "english": "From that day on stealing was found, and blame, and lying, and the taking up of rods. "
+    },
+    {
+      "number": 234,
+      "pali": "10. Mahāsammatarājā ",
+      "english": "10. The Elected King "
+    },
+    {
+      "number": 235,
+      "pali": "Atha kho te, vāseṭṭha, sattā sannipatiṁsu, sannipatitvā anutthuniṁsu: ",
+      "english": "Then those beings gathered together and bemoaned, "
+    },
+    {
+      "number": 236,
+      "pali": "‘pāpakā vata bho dhammā sattesu pātubhūtā, yatra hi nāma adinnādānaṁ paññāyissati, garahā paññāyissati, musāvādo paññāyissati, daṇḍādānaṁ paññāyissati. ",
+      "english": "‘Oh, how wicked things have appeared among beings, in that stealing is found, and blaming and lying and the taking up of rods! "
+    },
+    {
+      "number": 237,
+      "pali": "Yannūna mayaṁ ekaṁ sattaṁ sammanneyyāma, yo no sammā khīyitabbaṁ khīyeyya, sammā garahitabbaṁ garaheyya, sammā pabbājetabbaṁ pabbājeyya. ",
+      "english": "Why don’t we elect one being who would rightly accuse those who deserve it, blame those who deserve it, and expel those who deserve it? "
+    },
+    {
+      "number": 238,
+      "pali": "Mayaṁ panassa sālīnaṁ bhāgaṁ anuppadassāmā’ti. ",
+      "english": "We shall pay them with a share of rice.’ "
+    },
+    {
+      "number": 239,
+      "pali": "Atha kho te, vāseṭṭha, sattā yo nesaṁ satto abhirūpataro ca dassanīyataro ca pāsādikataro ca mahesakkhataro ca taṁ sattaṁ upasaṅkamitvā etadavocuṁ: ",
+      "english": "Then those beings approached the being among them who was most attractive, good-looking, lovely, and illustrious, and said, "
+    },
+    {
+      "number": 240,
+      "pali": "‘ehi, bho satta, sammā khīyitabbaṁ khīya, sammā garahitabbaṁ garaha, sammā pabbājetabbaṁ pabbājehi. ",
+      "english": "‘Come, good being, rightly accuse those who deserve it, blame those who deserve it, and banish those who deserve it. "
+    },
+    {
+      "number": 241,
+      "pali": "Mayaṁ pana te sālīnaṁ bhāgaṁ anuppadassāmā’ti. ",
+      "english": "We shall pay you with a share of rice.’ "
+    },
+    {
+      "number": 242,
+      "pali": "‘Evaṁ, bho’ti kho, vāseṭṭha, so satto tesaṁ sattānaṁ paṭissuṇitvā sammā khīyitabbaṁ khīyi, sammā garahitabbaṁ garahi, sammā pabbājetabbaṁ pabbājesi. ",
+      "english": "‘Yes, worthy sirs,’ replied that being. They acted accordingly, "
+    },
+    {
+      "number": 243,
+      "pali": "Te panassa sālīnaṁ bhāgaṁ anuppadaṁsu. ",
+      "english": "and were paid with a share of rice. "
+    },
+    {
+      "number": 244,
+      "pali": "Mahājanasammatoti kho, vāseṭṭha, ‘mahāsammato, mahāsammato’ tveva paṭhamaṁ akkharaṁ upanibbattaṁ. ",
+      "english": "‘Elected by the populace’, Vāseṭṭha, is the meaning of ‘popularly elected’, the first term applied to them. "
+    },
+    {
+      "number": 245,
+      "pali": "Khettānaṁ adhipatīti kho, vāseṭṭha, ‘khattiyo, khattiyo’ tveva dutiyaṁ akkharaṁ upanibbattaṁ. ",
+      "english": "‘Lord of the fields’ is the meaning of ‘aristocrat’, the second term applied to them. "
+    },
+    {
+      "number": 246,
+      "pali": "Dhammena pare rañjetīti kho, vāseṭṭha, ‘rājā, rājā’ tveva tatiyaṁ akkharaṁ upanibbattaṁ. ",
+      "english": "‘They please others with principle’ is the meaning of ‘king’, the third term applied to them. "
+    },
+    {
+      "number": 247,
+      "pali": "Iti kho, vāseṭṭha, evametassa khattiyamaṇḍalassa porāṇena aggaññena akkharena abhinibbatti ahosi tesaṁyeva sattānaṁ, anaññesaṁ. Sadisānaṁyeva, no asadisānaṁ. Dhammeneva, no adhammena. ",
+      "english": "And that, Vāseṭṭha, is how the ancient primordial terms for the circle of aristocrats were created; for those very beings, not others; for those like them, not unlike; by virtue of principle, not against principle. "
+    },
+    {
+      "number": 248,
+      "pali": "Dhammo hi, vāseṭṭha, seṭṭho janetasmiṁ diṭṭhe ceva dhamme abhisamparāyañca. ",
+      "english": "For principle, Vāseṭṭha, is the best thing for people in both this life and the next. "
+    },
+    {
+      "number": 249,
+      "pali": "11. Brāhmaṇamaṇḍala ",
+      "english": "11. The Circle of Brahmins "
+    },
+    {
+      "number": 250,
+      "pali": "Atha kho tesaṁ, vāseṭṭha, sattānaṁyeva ekaccānaṁ etadahosi: ",
+      "english": "Then some of those same beings thought, "
+    },
+    {
+      "number": 251,
+      "pali": "‘pāpakā vata, bho, dhammā sattesu pātubhūtā, yatra hi nāma adinnādānaṁ paññāyissati, garahā paññāyissati, musāvādo paññāyissati, daṇḍādānaṁ paññāyissati, pabbājanaṁ paññāyissati. ",
+      "english": "‘Oh, how wicked things have appeared among beings, in that stealing is found, and blaming and lying and the taking up of rods and banishment! "
+    },
+    {
+      "number": 252,
+      "pali": "Yannūna mayaṁ pāpake akusale dhamme vāheyyāmā’ti. ",
+      "english": "Why don’t we set aside bad, unskillful things?’ "
+    },
+    {
+      "number": 253,
+      "pali": "Te pāpake akusale dhamme vāhesuṁ. ",
+      "english": "So that’s what they did. "
+    },
+    {
+      "number": 254,
+      "pali": "Pāpake akusale dhamme vāhentīti kho, vāseṭṭha, ‘brāhmaṇā, brāhmaṇā’ tveva paṭhamaṁ akkharaṁ upanibbattaṁ. ",
+      "english": "‘They set aside bad, unskillful things’ is the meaning of ‘brahmin’, the first term applied to them. "
+    },
+    {
+      "number": 255,
+      "pali": "Te araññāyatane paṇṇakuṭiyo karitvā paṇṇakuṭīsu jhāyanti vītaṅgārā vītadhūmā pannamusalā sāyaṁ sāyamāsāya pāto pātarāsāya gāmanigamarājadhāniyo osaranti ghāsamesamānā. ",
+      "english": "They built leaf huts in a wilderness region where they meditated pure and bright, without lighting cooking fires or digging the soil. They came down at daybreak for breakfast and at dusk for supper to the village, town, or royal capital seeking a meal. "
+    },
+    {
+      "number": 256,
+      "pali": "Te ghāsaṁ paṭilabhitvā punadeva araññāyatane paṇṇakuṭīsu jhāyanti. ",
+      "english": "When they had obtained food they continued to meditate in the leaf huts. "
+    },
+    {
+      "number": 257,
+      "pali": "Tamenaṁ manussā disvā evamāhaṁsu: ",
+      "english": "When people noticed this they said, "
+    },
+    {
+      "number": 258,
+      "pali": "‘ime kho, bho, sattā araññāyatane paṇṇakuṭiyo karitvā paṇṇakuṭīsu jhāyanti, vītaṅgārā vītadhūmā pannamusalā sāyaṁ sāyamāsāya pāto pātarāsāya gāmanigamarājadhāniyo osaranti ghāsamesamānā. ",
+      "english": "‘These beings build leaf huts in a wilderness region where they meditate pure and bright, without lighting cooking fires or digging the soil. They come down at daybreak for breakfast and at dusk for supper to the village, town, or royal capital seeking a meal. "
+    },
+    {
+      "number": 259,
+      "pali": "Te ghāsaṁ paṭilabhitvā punadeva araññāyatane paṇṇakuṭīsu jhāyantī’ti, ",
+      "english": "When they have obtained food they continue to meditate in the leaf huts.’ "
+    },
+    {
+      "number": 260,
+      "pali": "jhāyantīti kho, vāseṭṭha, ‘jhāyakā, jhāyakā’ tveva dutiyaṁ akkharaṁ upanibbattaṁ. ",
+      "english": "‘They meditate’ is the meaning of ‘meditator’, the second term applied to them. "
+    },
+    {
+      "number": 261,
+      "pali": "Tesaṁyeva kho, vāseṭṭha, sattānaṁ ekacce sattā araññāyatane paṇṇakuṭīsu taṁ jhānaṁ anabhisambhuṇamānā gāmasāmantaṁ nigamasāmantaṁ osaritvā ganthe karontā acchanti. ",
+      "english": "But some of those beings were unable to keep up with their meditation in the leaf huts in the wilderness. They came down to the neighborhood of a village or town where they dwelt compiling texts. "
+    },
+    {
+      "number": 262,
+      "pali": "Tamenaṁ manussā disvā evamāhaṁsu: ",
+      "english": "When people noticed this they said, "
+    },
+    {
+      "number": 263,
+      "pali": "‘ime kho, bho, sattā araññāyatane paṇṇakuṭīsu taṁ jhānaṁ anabhisambhuṇamānā gāmasāmantaṁ nigamasāmantaṁ osaritvā ganthe karontā acchanti, na dānime jhāyantī’ti. ",
+      "english": "‘These beings were unable to keep up with their meditation in the leaf huts in the wilderness. They came down to the neighborhood of a village or town where they dwelt compiling texts. Now they don’t meditate.’ "
+    },
+    {
+      "number": 264,
+      "pali": "Na dānime jhāyantīti kho, vāseṭṭha, ‘ajjhāyakā, ajjhāyakā’ tveva tatiyaṁ akkharaṁ upanibbattaṁ. ",
+      "english": "‘Now they don’t meditate’ is the meaning of ‘reciter’, the third term applied to them. "
+    },
+    {
+      "number": 265,
+      "pali": "Hīnasammataṁ kho pana, vāseṭṭha, tena samayena hoti, tadetarahi seṭṭhasammataṁ. ",
+      "english": "What was deemed as worse at that time, these days is deemed as best. "
+    },
+    {
+      "number": 266,
+      "pali": "Iti kho, vāseṭṭha, evametassa brāhmaṇamaṇḍalassa porāṇena aggaññena akkharena abhinibbatti ahosi tesaṁyeva sattānaṁ, anaññesaṁ sadisānaṁyeva no asadisānaṁ dhammeneva, no adhammena. ",
+      "english": "And that, Vāseṭṭha, is how the ancient primordial terms for the circle of brahmins were created; for those very beings, not others; for those like them, not unlike; by virtue of principle, not against principle. "
+    },
+    {
+      "number": 267,
+      "pali": "Dhammo hi, vāseṭṭha, seṭṭho janetasmiṁ diṭṭhe ceva dhamme abhisamparāyañca. ",
+      "english": "For principle, Vāseṭṭha, is the best thing for people in both this life and the next. "
+    },
+    {
+      "number": 268,
+      "pali": "12. Vessamaṇḍala ",
+      "english": "12. The Circle of Peasants "
+    },
+    {
+      "number": 269,
+      "pali": "Tesaṁyeva kho, vāseṭṭha, sattānaṁ ekacce sattā methunaṁ dhammaṁ samādāya visukammante payojesuṁ. ",
+      "english": "Some of those same beings, taking up an active sex life, applied themselves to various jobs. "
+    },
+    {
+      "number": 270,
+      "pali": "Methunaṁ dhammaṁ samādāya visukammante payojentīti kho, vāseṭṭha, ‘vessā, vessā’ tveva akkharaṁ upanibbattaṁ. ",
+      "english": "‘Having taken up an active sex life, they apply themselves to various jobs’ is the meaning of ‘peasant’, the term applied to them. "
+    },
+    {
+      "number": 271,
+      "pali": "Iti kho, vāseṭṭha, evametassa vessamaṇḍalassa porāṇena aggaññena akkharena abhinibbatti ahosi tesaññeva sattānaṁ anaññesaṁ sadisānaṁyeva, no asadisānaṁ, dhammeneva no adhammena. ",
+      "english": "And that, Vāseṭṭha, is how the ancient primordial term for the circle of peasants was created; for those very beings, not others; for those like them, not unlike; by virtue of principle, not against principle. "
+    },
+    {
+      "number": 272,
+      "pali": "Dhammo hi, vāseṭṭha, seṭṭho janetasmiṁ diṭṭhe ceva dhamme abhisamparāyañca. ",
+      "english": "For principle, Vāseṭṭha, is the best thing for people in both this life and the next. "
+    },
+    {
+      "number": 273,
+      "pali": "13. Suddamaṇḍala ",
+      "english": "13. The Circle of Menials "
+    },
+    {
+      "number": 274,
+      "pali": "Tesaññeva kho, vāseṭṭha, sattānaṁ ye te sattā avasesā te luddācārā khuddācārā ahesuṁ. ",
+      "english": "The remaining beings lived by venal hunting and minor tasks. "
+    },
+    {
+      "number": 275,
+      "pali": "Luddācārā khuddācārāti kho, vāseṭṭha, ‘suddā, suddā’ tveva akkharaṁ upanibbattaṁ. ",
+      "english": "‘They live by venal hunting and minor tasks’ is the meaning of ‘menial’, the term applied to them. "
+    },
+    {
+      "number": 276,
+      "pali": "Iti kho, vāseṭṭha, evametassa suddamaṇḍalassa porāṇena aggaññena akkharena abhinibbatti ahosi tesaṁyeva sattānaṁ anaññesaṁ, sadisānaṁyeva no asadisānaṁ, dhammeneva, no adhammena. ",
+      "english": "And that, Vāseṭṭha, is how the ancient primordial term for the circle of menials was created; for those very beings, not others; for those like them, not unlike; by virtue of principle, not against principle. "
+    },
+    {
+      "number": 277,
+      "pali": "Dhammo hi, vāseṭṭha, seṭṭho janetasmiṁ diṭṭhe ceva dhamme abhisamparāyañca. ",
+      "english": "For principle, Vāseṭṭha, is the best thing for people in both this life and the next. "
+    },
+    {
+      "number": 278,
+      "pali": "Ahu kho so, vāseṭṭha, samayo, yaṁ khattiyopi sakaṁ dhammaṁ garahamāno agārasmā anagāriyaṁ pabbajati: ",
+      "english": "There came a time when an aristocrat, "
+    },
+    {
+      "number": 279,
+      "pali": "‘samaṇo bhavissāmī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 280,
+      "pali": "Brāhmaṇopi kho, vāseṭṭha …pe… ",
+      "english": "brahmin, "
+    },
+    {
+      "number": 281,
+      "pali": "vessopi kho, vāseṭṭha …pe… ",
+      "english": "peasant, "
+    },
+    {
+      "number": 282,
+      "pali": "suddopi kho, vāseṭṭha, sakaṁ dhammaṁ garahamāno agārasmā anagāriyaṁ pabbajati: ",
+      "english": "or menial, deprecating their own vocation, went forth from the lay life to homelessness, thinking, "
+    },
+    {
+      "number": 283,
+      "pali": "‘samaṇo bhavissāmī’ti. ",
+      "english": "‘I will be an ascetic.’ "
+    },
+    {
+      "number": 284,
+      "pali": "Imehi kho, vāseṭṭha, catūhi maṇḍalehi samaṇamaṇḍalassa abhinibbatti ahosi, tesaṁyeva sattānaṁ anaññesaṁ, sadisānaṁyeva no asadisānaṁ, dhammeneva no adhammena. ",
+      "english": "From these four circles, Vāseṭṭha, the circle of ascetics was created; for those very beings, not others; for those like them, not unlike; by virtue of principle, not against principle. "
+    },
+    {
+      "number": 285,
+      "pali": "Dhammo hi, vāseṭṭha, seṭṭho janetasmiṁ diṭṭhe ceva dhamme abhisamparāyañca. ",
+      "english": "For principle, Vāseṭṭha, is the best thing for people in both this life and the next. "
+    },
+    {
+      "number": 286,
+      "pali": "14. Duccaritādikathā ",
+      "english": "14. On Bad Conduct "
+    },
+    {
+      "number": 287,
+      "pali": "Khattiyopi kho, vāseṭṭha, kāyena duccaritaṁ caritvā vācāya duccaritaṁ caritvā manasā duccaritaṁ caritvā micchādiṭṭhiko micchādiṭṭhikammasamādāno micchādiṭṭhikammasamādānahetu kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati. ",
+      "english": "An aristocrat, "
+    },
+    {
+      "number": 288,
+      "pali": "Brāhmaṇopi kho, vāseṭṭha …pe… ",
+      "english": "brahmin, "
+    },
+    {
+      "number": 289,
+      "pali": "vessopi kho, vāseṭṭha … ",
+      "english": "peasant, "
+    },
+    {
+      "number": 290,
+      "pali": "suddopi kho, vāseṭṭha … ",
+      "english": "menial, "
+    },
+    {
+      "number": 291,
+      "pali": "samaṇopi kho, vāseṭṭha, kāyena duccaritaṁ caritvā vācāya duccaritaṁ caritvā manasā duccaritaṁ caritvā micchādiṭṭhiko micchādiṭṭhikammasamādāno micchādiṭṭhikammasamādānahetu kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati. ",
+      "english": "or ascetic may do bad things by way of body, speech, and mind. They have wrong view, and they act out of that wrong view. And because of that, when their body breaks up, after death, they’re reborn in a place of loss, a bad place, the underworld, hell. "
+    },
+    {
+      "number": 292,
+      "pali": "Khattiyopi kho, vāseṭṭha, kāyena sucaritaṁ caritvā vācāya sucaritaṁ caritvā manasā sucaritaṁ caritvā sammādiṭṭhiko sammādiṭṭhikammasamādāno sammādiṭṭhikammasamādānahetu kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjati. ",
+      "english": "An aristocrat, "
+    },
+    {
+      "number": 293,
+      "pali": "Brāhmaṇopi kho, vāseṭṭha …pe… ",
+      "english": "brahmin, "
+    },
+    {
+      "number": 294,
+      "pali": "vessopi kho, vāseṭṭha … ",
+      "english": "peasant, "
+    },
+    {
+      "number": 295,
+      "pali": "suddopi kho, vāseṭṭha … ",
+      "english": "menial, "
+    },
+    {
+      "number": 296,
+      "pali": "samaṇopi kho, vāseṭṭha, kāyena sucaritaṁ caritvā vācāya sucaritaṁ caritvā manasā sucaritaṁ caritvā sammādiṭṭhiko sammādiṭṭhikammasamādāno sammādiṭṭhikammasamādānahetu kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjati. ",
+      "english": "or ascetic may do good things by way of body, speech, and mind. They have right view, and they act out of that right view. And because of that, when their body breaks up, after death, they’re reborn in a good place, a heavenly realm. "
+    },
+    {
+      "number": 297,
+      "pali": "Khattiyopi kho, vāseṭṭha, kāyena dvayakārī, vācāya dvayakārī, manasā dvayakārī, vimissadiṭṭhiko vimissadiṭṭhikammasamādāno vimissadiṭṭhikammasamādānahetu kāyassa bhedā paraṁ maraṇā sukhadukkhappaṭisaṁvedī hoti. ",
+      "english": "An aristocrat, "
+    },
+    {
+      "number": 298,
+      "pali": "Brāhmaṇopi kho, vāseṭṭha …pe… ",
+      "english": "brahmin, "
+    },
+    {
+      "number": 299,
+      "pali": "vessopi kho, vāseṭṭha … ",
+      "english": "peasant, "
+    },
+    {
+      "number": 300,
+      "pali": "suddopi kho, vāseṭṭha … ",
+      "english": "menial, "
+    },
+    {
+      "number": 301,
+      "pali": "samaṇopi kho, vāseṭṭha, kāyena dvayakārī, vācāya dvayakārī, manasā dvayakārī, vimissadiṭṭhiko vimissadiṭṭhikammasamādāno vimissadiṭṭhikammasamādānahetu kāyassa bhedā paraṁ maraṇā sukhadukkhappaṭisaṁvedī hoti. ",
+      "english": "or ascetic may do mixed things by way of body, speech, and mind. They have mixed view, and they act out of that mixed view. And because of that, when their body breaks up, after death, they experience both pleasure and pain. "
+    },
+    {
+      "number": 302,
+      "pali": "15. Bodhipakkhiyabhāvanā ",
+      "english": "15. The Qualities on the Side of Awakening "
+    },
+    {
+      "number": 303,
+      "pali": "Khattiyopi kho, vāseṭṭha, kāyena saṁvuto vācāya saṁvuto manasā saṁvuto sattannaṁ bodhipakkhiyānaṁ dhammānaṁ bhāvanamanvāya diṭṭheva dhamme parinibbāyati. ",
+      "english": "An aristocrat, "
+    },
+    {
+      "number": 304,
+      "pali": "Brāhmaṇopi kho, vāseṭṭha …pe… ",
+      "english": "brahmin, "
+    },
+    {
+      "number": 305,
+      "pali": "vessopi kho, vāseṭṭha … ",
+      "english": "peasant, "
+    },
+    {
+      "number": 306,
+      "pali": "suddopi kho, vāseṭṭha … ",
+      "english": "menial, "
+    },
+    {
+      "number": 307,
+      "pali": "samaṇopi kho, vāseṭṭha, kāyena saṁvuto vācāya saṁvuto manasā saṁvuto sattannaṁ bodhipakkhiyānaṁ dhammānaṁ bhāvanamanvāya diṭṭheva dhamme parinibbāyati. ",
+      "english": "or ascetic who is restrained in body, speech, and mind, and develops the seven qualities on the side of awakening, becomes extinguished in this very life. "
+    },
+    {
+      "number": 308,
+      "pali": "Imesañhi, vāseṭṭha, catunnaṁ vaṇṇānaṁ yo hoti bhikkhu arahaṁ khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṁyojano sammadaññāvimutto, so nesaṁ aggamakkhāyati dhammeneva, no adhammena. ",
+      "english": "Any mendicant from these four classes who is perfected—with defilements ended, who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment—is said to be the foremost by virtue of principle, not against principle. "
+    },
+    {
+      "number": 309,
+      "pali": "Dhammo hi, vāseṭṭha, seṭṭho janetasmiṁ diṭṭhe ceva dhamme abhisamparāyañca. ",
+      "english": "For principle, Vāseṭṭha, is the best thing for people in both this life and the next. "
+    },
+    {
+      "number": 310,
+      "pali": "Brahmunā pesā, vāseṭṭha, sanaṅkumārena gāthā bhāsitā: ",
+      "english": "The divinity Sanaṅkumāra also spoke this verse: "
+    },
+    {
+      "number": 311,
+      "pali": "‘Khattiyo seṭṭho janetasmiṁ, ",
+      "english": "‘The aristocrat is best among people "
+    },
+    {
+      "number": 312,
+      "pali": "ye gottapaṭisārino; ",
+      "english": "who take clan as the standard. "
+    },
+    {
+      "number": 313,
+      "pali": "Vijjācaraṇasampanno, ",
+      "english": "But one accomplished in knowledge and conduct "
+    },
+    {
+      "number": 314,
+      "pali": "so seṭṭho devamānuse’ti. ",
+      "english": "is first among gods and humans.’ "
+    },
+    {
+      "number": 315,
+      "pali": "Sā kho panesā, vāseṭṭha, brahmunā sanaṅkumārena gāthā sugītā, no duggītā. Subhāsitā, no dubbhāsitā. Atthasaṁhitā, no anatthasaṁhitā. Anumatā mayā. ",
+      "english": "That verse was well sung by the Divinity Sanaṅkumāra, not poorly sung; well spoken, not poorly spoken; beneficial, not harmful, and I agree with it. "
+    },
+    {
+      "number": 316,
+      "pali": "Ahampi, vāseṭṭha, evaṁ vadāmi—",
+      "english": "I also say: "
+    },
+    {
+      "number": 317,
+      "pali": "Khattiyo seṭṭho janetasmiṁ, ",
+      "english": "The aristocrat is best among people "
+    },
+    {
+      "number": 318,
+      "pali": "ye gottapaṭisārino; ",
+      "english": "who take clan as the standard. "
+    },
+    {
+      "number": 319,
+      "pali": "Vijjācaraṇasampanno, ",
+      "english": "But one accomplished in knowledge and conduct "
+    },
+    {
+      "number": 320,
+      "pali": "so seṭṭho devamānuse”ti. ",
+      "english": "is first among gods and humans.” "
+    },
+    {
+      "number": 321,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 322,
+      "pali": "Attamanā vāseṭṭhabhāradvājā bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, Vāseṭṭha and Bhāradvāja approved what the Buddha said. "
+    },
+    {
+      "number": 323,
+      "pali": "Aggaññasuttaṁ niṭṭhitaṁ catutthaṁ. ",
+      "english": ""
+    }
+  ]
+}

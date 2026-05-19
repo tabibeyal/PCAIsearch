@@ -1,0 +1,245 @@
+{
+  "sutta_id": "AN11.12",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 11.12 ",
+      "english": "Numbered Discourses 11.12 "
+    },
+    {
+      "number": 2,
+      "pali": "2. Anussativagga ",
+      "english": "2. Recollection "
+    },
+    {
+      "number": 3,
+      "pali": "Dutiyamahānāmasutta ",
+      "english": "With Mahānāma (2nd) "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā sakkesu viharati kapilavatthusmiṁ nigrodhārāme. ",
+      "english": "At one time the Buddha was staying in the land of the Sakyans, near Kapilavatthu in the Banyan Tree Monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena mahānāmo sakko gilānā vuṭṭhito hoti aciravuṭṭhito gelaññā. ",
+      "english": "Now at that time Mahānāma the Sakyan had recently recovered from an illness. "
+    },
+    {
+      "number": 6,
+      "pali": "Tena kho pana samayena sambahulā bhikkhū bhagavato cīvarakammaṁ karonti: ",
+      "english": "At that time several mendicants were making a robe for the Buddha … "
+    },
+    {
+      "number": 7,
+      "pali": "“niṭṭhitacīvaro bhagavā temāsaccayena cārikaṁ pakkamissatī”ti. ",
+      "english": ""
+    },
+    {
+      "number": 8,
+      "pali": "Assosi kho mahānāmo sakko: ",
+      "english": "Mahānāma the Sakyan heard about this. "
+    },
+    {
+      "number": 9,
+      "pali": "“sambahulā kira bhikkhū bhagavato cīvarakammaṁ karonti: ",
+      "english": ""
+    },
+    {
+      "number": 10,
+      "pali": "‘niṭṭhitacīvaro bhagavā temāsaccayena cārikaṁ pakkamissatī’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 11,
+      "pali": "Atha kho mahānāmo sakko yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho mahānāmo sakko bhagavantaṁ etadavoca: ",
+      "english": "He went up to the Buddha, bowed, sat down to one side, and said to him: "
+    },
+    {
+      "number": 12,
+      "pali": "“sutaṁ metaṁ, bhante: ",
+      "english": "“Sir, I have heard that "
+    },
+    {
+      "number": 13,
+      "pali": "‘sambahulā kira bhikkhū bhagavato cīvarakammaṁ karonti—",
+      "english": "several mendicants are making a robe for the Buddha, thinking that "
+    },
+    {
+      "number": 14,
+      "pali": "niṭṭhitacīvaro bhagavā temāsaccayena cārikaṁ pakkamissatī’ti. ",
+      "english": "when his robe was finished and the three months of the rains residence had passed the Buddha would set out wandering. "
+    },
+    {
+      "number": 15,
+      "pali": "Tesaṁ no, bhante, nānāvihārehi viharataṁ kenassa vihārena vihātabban”ti? ",
+      "english": "Now, we spend our life in various ways. Which of these should we practice?” "
+    },
+    {
+      "number": 16,
+      "pali": "“Sādhu sādhu, mahānāma. ",
+      "english": "“Good, good, Mahānāma! "
+    },
+    {
+      "number": 17,
+      "pali": "Etaṁ kho, mahānāma, tumhākaṁ patirūpaṁ kulaputtānaṁ yaṁ tumhe tathāgataṁ upasaṅkamitvā puccheyyātha: ",
+      "english": "It’s appropriate that gentlemen such as you come to me and ask: "
+    },
+    {
+      "number": 18,
+      "pali": "‘tesaṁ no, bhante, nānāvihārehi viharataṁ kenassa vihārena vihātabban’ti? ",
+      "english": "‘We spend our life in various ways. Which of these should we practice?’ "
+    },
+    {
+      "number": 19,
+      "pali": "Saddho kho, mahānāma, ārādhako hoti, no assaddho; ",
+      "english": "The faithful succeed, not the faithless. "
+    },
+    {
+      "number": 20,
+      "pali": "āraddhavīriyo ārādhako hoti, no kusīto; ",
+      "english": "The energetic succeed, not the lazy. "
+    },
+    {
+      "number": 21,
+      "pali": "upaṭṭhitassati ārādhako hoti, no muṭṭhassati; ",
+      "english": "The mindful succeed, not the unmindful. "
+    },
+    {
+      "number": 22,
+      "pali": "samāhito ārādhako hoti, no asamāhito; ",
+      "english": "Those with immersion succeed, not those without immersion. "
+    },
+    {
+      "number": 23,
+      "pali": "paññavā ārādhako hoti, no duppañño. ",
+      "english": "The wise succeed, not the witless. "
+    },
+    {
+      "number": 24,
+      "pali": "Imesu kho tvaṁ, mahānāma, pañcasu dhammesu patiṭṭhāya cha dhamme uttari bhāveyyāsi. ",
+      "english": "When you’re grounded on these five things, go on to develop six further things. "
+    },
+    {
+      "number": 25,
+      "pali": "Idha tvaṁ, mahānāma, tathāgataṁ anussareyyāsi: ",
+      "english": "Firstly, you should recollect the Realized One: "
+    },
+    {
+      "number": 26,
+      "pali": "‘itipi so bhagavā …pe… satthā devamanussānaṁ buddho bhagavā’ti. ",
+      "english": "‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ "
+    },
+    {
+      "number": 27,
+      "pali": "Yasmiṁ, mahānāma, samaye ariyasāvako tathāgataṁ anussarati, nevassa tasmiṁ samaye rāgapariyuṭṭhitaṁ cittaṁ hoti, na dosapariyuṭṭhitaṁ cittaṁ hoti, na mohapariyuṭṭhitaṁ cittaṁ hoti; ",
+      "english": "When a noble disciple recollects the Realized One their mind is not full of greed, hate, and delusion. "
+    },
+    {
+      "number": 28,
+      "pali": "ujugatamevassa tasmiṁ samaye cittaṁ hoti tathāgataṁ ārabbha. ",
+      "english": "At that time their mind is quite unswerving, based on the Realized One. "
+    },
+    {
+      "number": 29,
+      "pali": "Ujugatacitto kho pana, mahānāma, ariyasāvako labhati atthavedaṁ, labhati dhammavedaṁ, labhati dhammūpasaṁhitaṁ pāmojjaṁ. ",
+      "english": "A noble disciple whose mind is unswerving finds inspiration in the meaning and the teaching, and finds joy connected with the teaching. "
+    },
+    {
+      "number": 30,
+      "pali": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vediyati, sukhino cittaṁ samādhiyati. ",
+      "english": "When they’re joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when they’re blissful, the mind becomes immersed in samādhi. "
+    },
+    {
+      "number": 31,
+      "pali": "Imaṁ kho tvaṁ, mahānāma, buddhānussatiṁ gacchantopi bhāveyyāsi, ṭhitopi bhāveyyāsi, nisinnopi bhāveyyāsi, sayānopi bhāveyyāsi, kammantaṁ adhiṭṭhahantopi bhāveyyāsi, puttasambādhasayanaṁ ajjhāvasantopi bhāveyyāsi. ",
+      "english": "You should develop this recollection of the Buddha while walking, standing, sitting, lying down, while working, and while at home with your children. "
+    },
+    {
+      "number": 32,
+      "pali": "Puna caparaṁ tvaṁ, mahānāma, dhammaṁ anussareyyāsi …pe… ",
+      "english": "Furthermore, you should recollect the teaching … "
+    },
+    {
+      "number": 33,
+      "pali": "saṅghaṁ anussareyyāsi …pe… ",
+      "english": "the Saṅgha … "
+    },
+    {
+      "number": 34,
+      "pali": "attano sīlaṁ anussareyyāsi …pe… ",
+      "english": "your own ethical conduct … "
+    },
+    {
+      "number": 35,
+      "pali": "attano cāgaṁ anussareyyāsi …pe… ",
+      "english": "your own generosity … "
+    },
+    {
+      "number": 36,
+      "pali": "devatā anussareyyāsi: ",
+      "english": "the deities … "
+    },
+    {
+      "number": 37,
+      "pali": "‘santi devā cātumahārājikā …pe… santi devā tatuttari. ",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "Yathārūpāya saddhāya samannāgatā tā devatā ito cutā tatthūpapannā, mayhampi tathārūpā saddhā saṁvijjati. ",
+      "english": ""
+    },
+    {
+      "number": 39,
+      "pali": "Yathārūpena sīlena … ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "sutena … ",
+      "english": ""
+    },
+    {
+      "number": 41,
+      "pali": "cāgena … ",
+      "english": ""
+    },
+    {
+      "number": 42,
+      "pali": "paññāya samannāgatā tā devatā ito cutā tatthūpapannā, mayhampi tathārūpā paññā saṁvijjatī’ti. ",
+      "english": ""
+    },
+    {
+      "number": 43,
+      "pali": "Yasmiṁ, mahānāma, samaye ariyasāvako attano ca tāsañca devatānaṁ saddhañca sīlañca sutañca cāgañca paññañca anussarati, nevassa tasmiṁ samaye rāgapariyuṭṭhitaṁ cittaṁ hoti, na dosapariyuṭṭhitaṁ cittaṁ hoti, na mohapariyuṭṭhitaṁ cittaṁ hoti; ",
+      "english": "When a noble disciple recollects the faith, ethics, learning, generosity, and wisdom of both themselves and the deities their mind is not full of greed, hate, and delusion. "
+    },
+    {
+      "number": 44,
+      "pali": "ujugatamevassa tasmiṁ samaye cittaṁ hoti devatā ārabbha. ",
+      "english": "At that time their mind is quite unswerving, based on the deities. "
+    },
+    {
+      "number": 45,
+      "pali": "Ujugatacitto kho pana, mahānāma, ariyasāvako labhati atthavedaṁ, labhati dhammavedaṁ, labhati dhammūpasaṁhitaṁ pāmojjaṁ. ",
+      "english": "A noble disciple whose mind is unswerving finds inspiration in the meaning and the teaching, and finds joy connected with the teaching. "
+    },
+    {
+      "number": 46,
+      "pali": "Pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vediyati, sukhino cittaṁ samādhiyati. ",
+      "english": "When they’re joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when they’re blissful, the mind becomes immersed in samādhi. "
+    },
+    {
+      "number": 47,
+      "pali": "Imaṁ kho tvaṁ, mahānāma, devatānussatiṁ gacchantopi bhāveyyāsi, ṭhitopi bhāveyyāsi, nisinnopi bhāveyyāsi, sayānopi bhāveyyāsi, kammantaṁ adhiṭṭhahantopi bhāveyyāsi, puttasambādhasayanaṁ ajjhāvasantopi bhāveyyāsī”ti. ",
+      "english": "You should develop this recollection of the deities while walking, standing, sitting, lying down, while working, and while at home with your children.” "
+    },
+    {
+      "number": 48,
+      "pali": "Dutiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

@@ -1,0 +1,920 @@
+{
+  "sutta_id": "MN43",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 43 ",
+      "english": "Middle Discourses 43 "
+    },
+    {
+      "number": 2,
+      "pali": "Mahāvedallasutta ",
+      "english": "The Great Elaboration "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho āyasmā mahākoṭṭhiko sāyanhasamayaṁ paṭisallānā vuṭṭhito yenāyasmā sāriputto tenupasaṅkami; upasaṅkamitvā āyasmatā sāriputtena saddhiṁ sammodi. ",
+      "english": "Then in the late afternoon, Venerable Mahākoṭṭhita came out of retreat, went to Venerable Sāriputta, and exchanged greetings with him. "
+    },
+    {
+      "number": 6,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā mahākoṭṭhiko āyasmantaṁ sāriputtaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to Sāriputta: "
+    },
+    {
+      "number": 7,
+      "pali": "“‘Duppañño duppañño’ti, āvuso, vuccati. ",
+      "english": "“Reverend, they speak of ‘a witless person’. "
+    },
+    {
+      "number": 8,
+      "pali": "Kittāvatā nu kho, āvuso, duppaññoti vuccatī”ti? ",
+      "english": "How is a witless person defined?” "
+    },
+    {
+      "number": 9,
+      "pali": "“‘Nappajānāti nappajānātī’ti kho, āvuso, tasmā duppaññoti vuccati. ",
+      "english": "“Reverend, they’re called witless because they don’t understand. "
+    },
+    {
+      "number": 10,
+      "pali": "Kiñca nappajānāti? ",
+      "english": "And what don’t they understand? "
+    },
+    {
+      "number": 11,
+      "pali": "‘Idaṁ dukkhan’ti nappajānāti, ‘ayaṁ dukkhasamudayo’ti nappajānāti, ‘ayaṁ dukkhanirodho’ti nappajānāti, ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti nappajānāti. ",
+      "english": "They don’t understand: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering.’ "
+    },
+    {
+      "number": 12,
+      "pali": "‘Nappajānāti nappajānātī’ti kho, āvuso, tasmā duppaññoti vuccatī”ti. ",
+      "english": "They’re called witless because they don’t understand.” "
+    },
+    {
+      "number": 13,
+      "pali": "“Sādhāvuso”ti kho āyasmā mahākoṭṭhiko āyasmato sāriputtassa bhāsitaṁ abhinanditvā anumoditvā āyasmantaṁ sāriputtaṁ uttariṁ pañhaṁ apucchi: ",
+      "english": "Saying “Good, reverend,” Mahākoṭṭhita approved and agreed with what Sāriputta said. Then he asked another question: "
+    },
+    {
+      "number": 14,
+      "pali": "“‘Paññavā paññavā’ti, āvuso, vuccati. ",
+      "english": "“They speak of ‘a wise person’. "
+    },
+    {
+      "number": 15,
+      "pali": "Kittāvatā nu kho, āvuso, paññavāti vuccatī”ti? ",
+      "english": "How is a wise person defined?” "
+    },
+    {
+      "number": 16,
+      "pali": "“‘Pajānāti pajānātī’ti kho, āvuso, tasmā paññavāti vuccati. ",
+      "english": "“They’re called wise because they understand. "
+    },
+    {
+      "number": 17,
+      "pali": "Kiñca pajānāti? ",
+      "english": "And what do they understand? "
+    },
+    {
+      "number": 18,
+      "pali": "‘Idaṁ dukkhan’ti pajānāti, ‘ayaṁ dukkhasamudayo’ti pajānāti, ‘ayaṁ dukkhanirodho’ti pajānāti, ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti pajānāti. ",
+      "english": "They understand: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering.’ "
+    },
+    {
+      "number": 19,
+      "pali": "‘Pajānāti pajānātī’ti kho, āvuso, tasmā paññavāti vuccatī”ti. ",
+      "english": "They’re called wise because they understand.” "
+    },
+    {
+      "number": 20,
+      "pali": "“‘Viññāṇaṁ viññāṇan’ti, āvuso, vuccati. ",
+      "english": "“They speak of ‘consciousness’. "
+    },
+    {
+      "number": 21,
+      "pali": "Kittāvatā nu kho, āvuso, viññāṇanti vuccatī”ti? ",
+      "english": "How is consciousness defined?” "
+    },
+    {
+      "number": 22,
+      "pali": "“‘Vijānāti vijānātī’ti kho, āvuso, tasmā viññāṇanti vuccati. ",
+      "english": "“It’s called consciousness because it cognizes. "
+    },
+    {
+      "number": 23,
+      "pali": "Kiñca vijānāti? ",
+      "english": "And what does it cognize? "
+    },
+    {
+      "number": 24,
+      "pali": "Sukhantipi vijānāti, dukkhantipi vijānāti, adukkhamasukhantipi vijānāti. ",
+      "english": "It cognizes ‘pleasure’ and ‘pain’ and ‘neutral’. "
+    },
+    {
+      "number": 25,
+      "pali": "‘Vijānāti vijānātī’ti kho, āvuso, tasmā viññāṇanti vuccatī”ti. ",
+      "english": "It’s called consciousness because it cognizes.” "
+    },
+    {
+      "number": 26,
+      "pali": "“Yā cāvuso, paññā yañca viññāṇaṁ—",
+      "english": "“Wisdom and consciousness—"
+    },
+    {
+      "number": 27,
+      "pali": "ime dhammā saṁsaṭṭhā udāhu visaṁsaṭṭhā? ",
+      "english": "are these things mixed or separate? "
+    },
+    {
+      "number": 28,
+      "pali": "Labbhā ca panimesaṁ dhammānaṁ vinibbhujitvā vinibbhujitvā nānākaraṇaṁ paññāpetun”ti? ",
+      "english": "And can we completely disentangle them so as to describe the difference between them?” "
+    },
+    {
+      "number": 29,
+      "pali": "“Yā cāvuso, paññā yañca viññāṇaṁ—",
+      "english": "“Wisdom and consciousness—"
+    },
+    {
+      "number": 30,
+      "pali": "ime dhammā saṁsaṭṭhā, no visaṁsaṭṭhā. ",
+      "english": "these things are mixed, not separate. "
+    },
+    {
+      "number": 31,
+      "pali": "Na ca labbhā imesaṁ dhammānaṁ vinibbhujitvā vinibbhujitvā nānākaraṇaṁ paññāpetuṁ. ",
+      "english": "And you can never completely disentangle them so as to describe the difference between them. "
+    },
+    {
+      "number": 32,
+      "pali": "Yaṁ hāvuso, pajānāti taṁ vijānāti, yaṁ vijānāti taṁ pajānāti. ",
+      "english": "For you understand what you cognize, and you cognize what you understand. "
+    },
+    {
+      "number": 33,
+      "pali": "Tasmā ime dhammā saṁsaṭṭhā, no visaṁsaṭṭhā. ",
+      "english": "That’s why these things are mixed, not separate. "
+    },
+    {
+      "number": 34,
+      "pali": "Na ca labbhā imesaṁ dhammānaṁ vinibbhujitvā vinibbhujitvā nānākaraṇaṁ paññāpetun”ti. ",
+      "english": "And you can never completely disentangle them so as to describe the difference between them.” "
+    },
+    {
+      "number": 35,
+      "pali": "“Yā cāvuso, paññā yañca viññāṇaṁ—",
+      "english": "“Wisdom and consciousness—"
+    },
+    {
+      "number": 36,
+      "pali": "imesaṁ dhammānaṁ saṁsaṭṭhānaṁ no visaṁsaṭṭhānaṁ kiṁ nānākaraṇan”ti? ",
+      "english": "what is the difference between these things that are mixed, not separate?” "
+    },
+    {
+      "number": 37,
+      "pali": "“Yā cāvuso, paññā yañca viññāṇaṁ—",
+      "english": ""
+    },
+    {
+      "number": 38,
+      "pali": "imesaṁ dhammānaṁ saṁsaṭṭhānaṁ no visaṁsaṭṭhānaṁ paññā bhāvetabbā, viññāṇaṁ pariññeyyaṁ. ",
+      "english": "“The difference between these things is that wisdom should be developed, while consciousness should be completely understood.” "
+    },
+    {
+      "number": 39,
+      "pali": "Idaṁ nesaṁ nānākaraṇan”ti. ",
+      "english": ""
+    },
+    {
+      "number": 40,
+      "pali": "“‘Vedanā vedanā’ti, āvuso, vuccati. ",
+      "english": "“They speak of this thing called ‘feeling’. "
+    },
+    {
+      "number": 41,
+      "pali": "Kittāvatā nu kho, āvuso, vedanāti vuccatī”ti? ",
+      "english": "How is feeling defined?” "
+    },
+    {
+      "number": 42,
+      "pali": "“‘Vedeti vedetī’ti kho, āvuso, tasmā vedanāti vuccati. ",
+      "english": "“It’s called feeling because it feels. "
+    },
+    {
+      "number": 43,
+      "pali": "Kiñca vedeti? ",
+      "english": "And what does it feel? "
+    },
+    {
+      "number": 44,
+      "pali": "Sukhampi vedeti, dukkhampi vedeti, adukkhamasukhampi vedeti. ",
+      "english": "It feels pleasure, pain, and neutral. "
+    },
+    {
+      "number": 45,
+      "pali": "‘Vedeti vedetī’ti kho, āvuso, tasmā vedanāti vuccatī”ti. ",
+      "english": "It’s called feeling because it feels.” "
+    },
+    {
+      "number": 46,
+      "pali": "“‘Saññā saññā’ti, āvuso, vuccati. ",
+      "english": "“They speak of this thing called ‘perception’. "
+    },
+    {
+      "number": 47,
+      "pali": "Kittāvatā nu kho, āvuso, saññāti vuccatī”ti? ",
+      "english": "How is perception defined?” "
+    },
+    {
+      "number": 48,
+      "pali": "“‘Sañjānāti sañjānātī’ti kho, āvuso, tasmā saññāti vuccati. ",
+      "english": "“It’s called perception because it perceives. "
+    },
+    {
+      "number": 49,
+      "pali": "Kiñca sañjānāti? ",
+      "english": "And what does it perceive? "
+    },
+    {
+      "number": 50,
+      "pali": "Nīlakampi sañjānāti, pītakampi sañjānāti, lohitakampi sañjānāti, odātampi sañjānāti. ",
+      "english": "It perceives blue, yellow, red, and white. "
+    },
+    {
+      "number": 51,
+      "pali": "‘Sañjānāti sañjānātī’ti kho, āvuso, tasmā saññāti vuccatī”ti. ",
+      "english": "It’s called perception because it perceives.” "
+    },
+    {
+      "number": 52,
+      "pali": "“Yā cāvuso, vedanā yā ca saññā yañca viññāṇaṁ—",
+      "english": "“Feeling, perception, and consciousness—"
+    },
+    {
+      "number": 53,
+      "pali": "ime dhammā saṁsaṭṭhā udāhu visaṁsaṭṭhā? ",
+      "english": "are these things mixed or separate? "
+    },
+    {
+      "number": 54,
+      "pali": "Labbhā ca panimesaṁ dhammānaṁ vinibbhujitvā vinibbhujitvā nānākaraṇaṁ paññāpetun”ti? ",
+      "english": "And can we completely disentangle them so as to describe the difference between them?” "
+    },
+    {
+      "number": 55,
+      "pali": "“Yā cāvuso, vedanā yā ca saññā yañca viññāṇaṁ—",
+      "english": "“Feeling, perception, and consciousness—"
+    },
+    {
+      "number": 56,
+      "pali": "ime dhammā saṁsaṭṭhā, no visaṁsaṭṭhā. ",
+      "english": "these things are mixed, not separate. "
+    },
+    {
+      "number": 57,
+      "pali": "Na ca labbhā imesaṁ dhammānaṁ vinibbhujitvā vinibbhujitvā nānākaraṇaṁ paññāpetuṁ. ",
+      "english": "And you can never completely disentangle them so as to describe the difference between them. "
+    },
+    {
+      "number": 58,
+      "pali": "Yaṁ hāvuso, vedeti taṁ sañjānāti, yaṁ sañjānāti taṁ vijānāti. ",
+      "english": "For you perceive what you feel, and you cognize what you perceive. "
+    },
+    {
+      "number": 59,
+      "pali": "Tasmā ime dhammā saṁsaṭṭhā no visaṁsaṭṭhā. ",
+      "english": "That’s why these things are mixed, not separate. "
+    },
+    {
+      "number": 60,
+      "pali": "Na ca labbhā imesaṁ dhammānaṁ vinibbhujitvā vinibbhujitvā nānākaraṇaṁ paññāpetun”ti. ",
+      "english": "And you can never completely disentangle them so as to describe the difference between them.” "
+    },
+    {
+      "number": 61,
+      "pali": "“Nissaṭṭhena hāvuso, pañcahi indriyehi parisuddhena manoviññāṇena kiṁ neyyan”ti? ",
+      "english": "“What can be known by purified mind consciousness released from the five senses?” "
+    },
+    {
+      "number": 62,
+      "pali": "“Nissaṭṭhena, āvuso, pañcahi indriyehi parisuddhena manoviññāṇena ‘ananto ākāso’ti ākāsānañcāyatanaṁ neyyaṁ, ‘anantaṁ viññāṇan’ti viññāṇañcāyatanaṁ neyyaṁ, ‘natthi kiñcī’ti ākiñcaññāyatanaṁ neyyan”ti. ",
+      "english": "“Aware that ‘space is infinite’ it can know the dimension of infinite space. Aware that ‘consciousness is infinite’ it can know the dimension of infinite consciousness. Aware that ‘there is nothing at all’ it can know the dimension of nothingness.” "
+    },
+    {
+      "number": 63,
+      "pali": "“Neyyaṁ panāvuso, dhammaṁ kena pajānātī”ti? ",
+      "english": "“How do you understand something that can be known?” "
+    },
+    {
+      "number": 64,
+      "pali": "“Neyyaṁ kho, āvuso, dhammaṁ paññācakkhunā pajānātī”ti. ",
+      "english": "“You understand something that can be known with the eye of wisdom.” "
+    },
+    {
+      "number": 65,
+      "pali": "“Paññā panāvuso, kimatthiyā”ti? ",
+      "english": "“What is the goal of wisdom?” "
+    },
+    {
+      "number": 66,
+      "pali": "“Paññā kho, āvuso, abhiññatthā pariññatthā pahānatthā”ti. ",
+      "english": "“The goal of wisdom is direct knowledge, complete understanding, and giving up.” "
+    },
+    {
+      "number": 67,
+      "pali": "“Kati panāvuso, paccayā sammādiṭṭhiyā uppādāyā”ti? ",
+      "english": "“How many conditions are there for the arising of right view?” "
+    },
+    {
+      "number": 68,
+      "pali": "“Dve kho, āvuso, paccayā sammādiṭṭhiyā uppādāya—",
+      "english": "“There are two conditions for the arising of right view: "
+    },
+    {
+      "number": 69,
+      "pali": "parato ca ghoso, yoniso ca manasikāro. ",
+      "english": "the voice of another and rational application of mind. "
+    },
+    {
+      "number": 70,
+      "pali": "Ime kho, āvuso, dve paccayā sammādiṭṭhiyā uppādāyā”ti. ",
+      "english": "These are the two conditions for the arising of right view.” "
+    },
+    {
+      "number": 71,
+      "pali": "“Katihi panāvuso, aṅgehi anuggahitā sammādiṭṭhi cetovimuttiphalā ca hoti cetovimuttiphalānisaṁsā ca, paññāvimuttiphalā ca hoti paññāvimuttiphalānisaṁsā cā”ti? ",
+      "english": "“When right view is supported by how many factors does it have freedom of heart and freedom by wisdom as its fruit and benefit?” "
+    },
+    {
+      "number": 72,
+      "pali": "“Pañcahi kho, āvuso, aṅgehi anuggahitā sammādiṭṭhi cetovimuttiphalā ca hoti cetovimuttiphalānisaṁsā ca, paññāvimuttiphalā ca hoti paññāvimuttiphalānisaṁsā ca. ",
+      "english": "“When right view is supported by five factors it has freedom of heart and freedom by wisdom as its fruit and benefit. "
+    },
+    {
+      "number": 73,
+      "pali": "Idhāvuso, sammādiṭṭhi sīlānuggahitā ca hoti, sutānuggahitā ca hoti, sākacchānuggahitā ca hoti, samathānuggahitā ca hoti, vipassanānuggahitā ca hoti. ",
+      "english": "It’s when right view is supported by ethics, learning, discussion, serenity, and discernment. "
+    },
+    {
+      "number": 74,
+      "pali": "Imehi kho, āvuso, pañcahaṅgehi anuggahitā sammādiṭṭhi cetovimuttiphalā ca hoti cetovimuttiphalānisaṁsā ca, paññāvimuttiphalā ca hoti paññāvimuttiphalānisaṁsā cā”ti. ",
+      "english": "When right view is supported by these five factors it has freedom of heart and freedom by wisdom as its fruit and benefit.” "
+    },
+    {
+      "number": 75,
+      "pali": "“Kati panāvuso, bhavā”ti? ",
+      "english": "“How many states of existence are there?” "
+    },
+    {
+      "number": 76,
+      "pali": "“Tayome, āvuso, bhavā—",
+      "english": "“Reverend, there are these three states of existence. "
+    },
+    {
+      "number": 77,
+      "pali": "kāmabhavo, rūpabhavo, arūpabhavo”ti. ",
+      "english": "Existence in the sensual realm, the realm of luminous form, and the formless realm.” "
+    },
+    {
+      "number": 78,
+      "pali": "“Kathaṁ panāvuso, āyatiṁ punabbhavābhinibbatti hotī”ti? ",
+      "english": "“But how is there regeneration into a new state of existence in the future?” "
+    },
+    {
+      "number": 79,
+      "pali": "“Avijjānīvaraṇānaṁ kho, āvuso, sattānaṁ taṇhāsaṁyojanānaṁ tatratatrābhinandanā—",
+      "english": "“It’s because of sentient beings—shrouded by ignorance and fettered by craving—taking pleasure wherever they land. "
+    },
+    {
+      "number": 80,
+      "pali": "evaṁ āyatiṁ punabbhavābhinibbatti hotī”ti. ",
+      "english": "That’s how there is regeneration into a new state of existence in the future.” "
+    },
+    {
+      "number": 81,
+      "pali": "“Kathaṁ panāvuso, āyatiṁ punabbhavābhinibbatti na hotī”ti? ",
+      "english": "“But how is there no regeneration into a new state of existence in the future?” "
+    },
+    {
+      "number": 82,
+      "pali": "“Avijjāvirāgā kho, āvuso, vijjuppādā taṇhānirodhā—",
+      "english": "“It’s when ignorance fades away, knowledge arises, and craving ceases. "
+    },
+    {
+      "number": 83,
+      "pali": "evaṁ āyatiṁ punabbhavābhinibbatti na hotī”ti. ",
+      "english": "That’s how there is no regeneration into a new state of existence in the future.” "
+    },
+    {
+      "number": 84,
+      "pali": "“Katamaṁ panāvuso, paṭhamaṁ jhānan”ti? ",
+      "english": "“But what, reverend, is the first absorption?” "
+    },
+    {
+      "number": 85,
+      "pali": "“Idhāvuso, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati—",
+      "english": "“Reverend, it’s when a mendicant, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
+    },
+    {
+      "number": 86,
+      "pali": "idaṁ vuccati, āvuso, paṭhamaṁ jhānan”ti. ",
+      "english": "This is called the first absorption.” "
+    },
+    {
+      "number": 87,
+      "pali": "“Paṭhamaṁ panāvuso, jhānaṁ katiaṅgikan”ti? ",
+      "english": "“But how many factors does the first absorption have?” "
+    },
+    {
+      "number": 88,
+      "pali": "“Paṭhamaṁ kho, āvuso, jhānaṁ pañcaṅgikaṁ. ",
+      "english": "“The first absorption has five factors. "
+    },
+    {
+      "number": 89,
+      "pali": "Idhāvuso, paṭhamaṁ jhānaṁ samāpannassa bhikkhuno vitakko ca vattati, vicāro ca pīti ca sukhañca cittekaggatā ca. ",
+      "english": "When a mendicant has entered the first absorption, placing the mind, keeping it connected, rapture, bliss, and unification of mind are present. "
+    },
+    {
+      "number": 90,
+      "pali": "Paṭhamaṁ kho, āvuso, jhānaṁ evaṁ pañcaṅgikan”ti. ",
+      "english": "That’s how the first absorption has five factors.” "
+    },
+    {
+      "number": 91,
+      "pali": "“Paṭhamaṁ panāvuso, jhānaṁ kataṅgavippahīnaṁ kataṅgasamannāgatan”ti? ",
+      "english": "“But how many factors has the first absorption given up and how many does it possess?” "
+    },
+    {
+      "number": 92,
+      "pali": "“Paṭhamaṁ kho, āvuso, jhānaṁ pañcaṅgavippahīnaṁ, pañcaṅgasamannāgataṁ. ",
+      "english": "“The first absorption has given up five factors and possesses five factors. "
+    },
+    {
+      "number": 93,
+      "pali": "Idhāvuso, paṭhamaṁ jhānaṁ samāpannassa bhikkhuno kāmacchando pahīno hoti, byāpādo pahīno hoti, thinamiddhaṁ pahīnaṁ hoti, uddhaccakukkuccaṁ pahīnaṁ hoti, vicikicchā pahīnā hoti; ",
+      "english": "When a mendicant has entered the first absorption, sensual desire, ill will, dullness and drowsiness, restlessness and remorse, and doubt are given up. "
+    },
+    {
+      "number": 94,
+      "pali": "vitakko ca vattati, vicāro ca pīti ca sukhañca cittekaggatā ca. ",
+      "english": "Placing the mind, keeping it connected, rapture, bliss, and unification of mind are present. "
+    },
+    {
+      "number": 95,
+      "pali": "Paṭhamaṁ kho, āvuso, jhānaṁ evaṁ pañcaṅgavippahīnaṁ pañcaṅgasamannāgatan”ti. ",
+      "english": "That’s how the first absorption has given up five factors and possesses five factors.” "
+    },
+    {
+      "number": 96,
+      "pali": "“Pañcimāni, āvuso, indriyāni nānāvisayāni nānāgocarāni, na aññamaññassa gocaravisayaṁ paccanubhonti, seyyathidaṁ—",
+      "english": "“Reverend, these five faculties have different domains and different ranges, and don’t experience each others’ domain and range. That is, "
+    },
+    {
+      "number": 97,
+      "pali": "cakkhundriyaṁ, sotindriyaṁ, ghānindriyaṁ, jivhindriyaṁ, kāyindriyaṁ. ",
+      "english": "the faculties of the eye, ear, nose, tongue, and body. "
+    },
+    {
+      "number": 98,
+      "pali": "Imesaṁ kho, āvuso, pañcannaṁ indriyānaṁ nānāvisayānaṁ nānāgocarānaṁ, na aññamaññassa gocaravisayaṁ paccanubhontānaṁ, kiṁ paṭisaraṇaṁ, ko ca nesaṁ gocaravisayaṁ paccanubhotī”ti? ",
+      "english": "What do these five faculties, with their different domains and ranges, have recourse to? What experiences their domains and ranges?” "
+    },
+    {
+      "number": 99,
+      "pali": "“Pañcimāni, āvuso, indriyāni nānāvisayāni nānāgocarāni, na aññamaññassa gocaravisayaṁ paccanubhonti, seyyathidaṁ—",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "cakkhundriyaṁ, sotindriyaṁ, ghānindriyaṁ, jivhindriyaṁ, kāyindriyaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "Imesaṁ kho, āvuso, pañcannaṁ indriyānaṁ nānāvisayānaṁ nānāgocarānaṁ, na aññamaññassa gocaravisayaṁ paccanubhontānaṁ, mano paṭisaraṇaṁ, mano ca nesaṁ gocaravisayaṁ paccanubhotī”ti. ",
+      "english": "“These five faculties, with their different domains and ranges, have recourse to the mind. And the mind experiences their domains and ranges.” "
+    },
+    {
+      "number": 102,
+      "pali": "“Pañcimāni, āvuso, indriyāni, seyyathidaṁ—",
+      "english": ""
+    },
+    {
+      "number": 103,
+      "pali": "cakkhundriyaṁ, sotindriyaṁ, ghānindriyaṁ, jivhindriyaṁ, kāyindriyaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 104,
+      "pali": "Imāni kho, āvuso, pañcindriyāni kiṁ paṭicca tiṭṭhantī”ti? ",
+      "english": "“These five faculties depend on what to continue?” "
+    },
+    {
+      "number": 105,
+      "pali": "“Pañcimāni, āvuso, indriyāni, seyyathidaṁ—",
+      "english": ""
+    },
+    {
+      "number": 106,
+      "pali": "cakkhundriyaṁ, sotindriyaṁ, ghānindriyaṁ, jivhindriyaṁ, kāyindriyaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "Imāni kho, āvuso, pañcindriyāni āyuṁ paṭicca tiṭṭhantī”ti. ",
+      "english": "“These five faculties depend on vitality to continue.” "
+    },
+    {
+      "number": 108,
+      "pali": "“Āyu panāvuso, kiṁ paṭicca tiṭṭhatī”ti? ",
+      "english": "“But what does vitality depend on to continue?” "
+    },
+    {
+      "number": 109,
+      "pali": "“Āyu usmaṁ paṭicca tiṭṭhatī”ti. ",
+      "english": "“Vitality depends on warmth to continue.” "
+    },
+    {
+      "number": 110,
+      "pali": "“Usmā panāvuso, kiṁ paṭicca tiṭṭhatī”ti? ",
+      "english": "“But what does warmth depend on to continue?” "
+    },
+    {
+      "number": 111,
+      "pali": "“Usmā āyuṁ paṭicca tiṭṭhatī”ti. ",
+      "english": "“Warmth depends on vitality to continue.” "
+    },
+    {
+      "number": 112,
+      "pali": "“Idāneva kho mayaṁ, āvuso, āyasmato sāriputtassa bhāsitaṁ evaṁ ājānāma: ",
+      "english": "“Just now I understood you to say: "
+    },
+    {
+      "number": 113,
+      "pali": "‘āyu usmaṁ paṭicca tiṭṭhatī’ti. ",
+      "english": "‘Vitality depends on warmth to continue.’ "
+    },
+    {
+      "number": 114,
+      "pali": "Idāneva pana mayaṁ, āvuso, āyasmato sāriputtassa bhāsitaṁ evaṁ ājānāma: ",
+      "english": "But I also understood you to say: "
+    },
+    {
+      "number": 115,
+      "pali": "‘usmā āyuṁ paṭicca tiṭṭhatī’ti. ",
+      "english": "‘Warmth depends on vitality to continue.’ "
+    },
+    {
+      "number": 116,
+      "pali": "Yathā kathaṁ panāvuso, imassa bhāsitassa attho daṭṭhabbo”ti? ",
+      "english": "How then should we see the meaning of this statement?” "
+    },
+    {
+      "number": 117,
+      "pali": "“Tena hāvuso, upamaṁ te karissāmi; ",
+      "english": "“Well then, reverend, I shall give you a simile. "
+    },
+    {
+      "number": 118,
+      "pali": "upamāyapidhekacce viññū purisā bhāsitassa atthaṁ ājānanti. ",
+      "english": "For by means of a simile some sensible people understand the meaning of what is said. "
+    },
+    {
+      "number": 119,
+      "pali": "Seyyathāpi, āvuso, telappadīpassa jhāyato acciṁ paṭicca ābhā paññāyati, ābhaṁ paṭicca acci paññāyati; ",
+      "english": "Suppose there was an oil lamp burning. The luminosity appears dependent on the flame, and the flame appears dependent on the luminosity. "
+    },
+    {
+      "number": 120,
+      "pali": "evameva kho, āvuso, āyu usmaṁ paṭicca tiṭṭhati, usmā āyuṁ paṭicca tiṭṭhatī”ti. ",
+      "english": "In the same way, vitality depends on warmth to continue, and warmth depends on vitality to continue.” "
+    },
+    {
+      "number": 121,
+      "pali": "“Teva nu kho, āvuso, āyusaṅkhārā, te vedaniyā dhammā udāhu aññe āyusaṅkhārā aññe vedaniyā dhammā”ti? ",
+      "english": "“Are the vital forces and the phenomena that are felt one and the same? Or are the vital forces one thing, and the phenomena that are felt another?” "
+    },
+    {
+      "number": 122,
+      "pali": "“Na kho, āvuso, teva āyusaṅkhārā te vedaniyā dhammā. ",
+      "english": "“The vital forces are not the same things as the phenomena that are felt. "
+    },
+    {
+      "number": 123,
+      "pali": "Te ca hāvuso, āyusaṅkhārā abhaviṁsu te vedaniyā dhammā, na yidaṁ saññāvedayitanirodhaṁ samāpannassa bhikkhuno vuṭṭhānaṁ paññāyetha. ",
+      "english": "For if the vital forces and the phenomena that are felt were the same things, a mendicant who had attained the cessation of perception and feeling would not emerge from it. "
+    },
+    {
+      "number": 124,
+      "pali": "Yasmā ca kho, āvuso, aññe āyusaṅkhārā aññe vedaniyā dhammā, tasmā saññāvedayitanirodhaṁ samāpannassa bhikkhuno vuṭṭhānaṁ paññāyatī”ti. ",
+      "english": "But because the vital forces and the phenomena that are felt are different things, a mendicant who has attained the cessation of perception and feeling can emerge from it.” "
+    },
+    {
+      "number": 125,
+      "pali": "“Yadā nu kho, āvuso, imaṁ kāyaṁ kati dhammā jahanti; athāyaṁ kāyo ujjhito avakkhitto seti, yathā kaṭṭhaṁ acetanan”ti? ",
+      "english": "“How many things must this body lose before it lies abandoned, tossed aside like an insentient log?” "
+    },
+    {
+      "number": 126,
+      "pali": "“Yadā kho, āvuso, imaṁ kāyaṁ tayo dhammā jahanti—āyu usmā ca viññāṇaṁ; athāyaṁ kāyo ujjhito avakkhitto seti, yathā kaṭṭhaṁ acetanan”ti. ",
+      "english": "“This body must lose three things before it lies abandoned, tossed aside like an insentient log: vitality, warmth, and consciousness.” "
+    },
+    {
+      "number": 127,
+      "pali": "“Yvāyaṁ, āvuso, mato kālaṅkato, yo cāyaṁ bhikkhu saññāvedayitanirodhaṁ samāpanno—imesaṁ kiṁ nānākaraṇan”ti? ",
+      "english": "“What’s the difference between someone who has passed away and a mendicant who has attained the cessation of perception and feeling?” "
+    },
+    {
+      "number": 128,
+      "pali": "“Yvāyaṁ, āvuso, mato kālaṅkato tassa kāyasaṅkhārā niruddhā paṭippassaddhā, vacīsaṅkhārā niruddhā paṭippassaddhā, cittasaṅkhārā niruddhā paṭippassaddhā, āyu parikkhīṇo, usmā vūpasantā, indriyāni paribhinnāni. ",
+      "english": "“When someone dies, their physical, verbal, and mental processes have ceased and stilled; their vitality is spent; their warmth is dissipated; and their faculties have disintegrated. "
+    },
+    {
+      "number": 129,
+      "pali": "Yo cāyaṁ bhikkhu saññāvedayitanirodhaṁ samāpanno tassapi kāyasaṅkhārā niruddhā paṭippassaddhā, vacīsaṅkhārā niruddhā paṭippassaddhā, cittasaṅkhārā niruddhā paṭippassaddhā, āyu na parikkhīṇo, usmā avūpasantā, indriyāni vippasannāni. ",
+      "english": "When a mendicant has attained the cessation of perception and feeling, their physical, verbal, and mental processes have ceased and stilled. But their vitality is not spent; their warmth is not dissipated; and their faculties are very clear. "
+    },
+    {
+      "number": 130,
+      "pali": "Yvāyaṁ, āvuso, mato kālaṅkato, yo cāyaṁ bhikkhu saññāvedayitanirodhaṁ samāpanno—idaṁ nesaṁ nānākaraṇan”ti. ",
+      "english": "That’s the difference between someone who has passed away and a mendicant who has attained the cessation of perception and feeling.” "
+    },
+    {
+      "number": 131,
+      "pali": "“Kati panāvuso, paccayā adukkhamasukhāya cetovimuttiyā samāpattiyā”ti? ",
+      "english": "“How many conditions are necessary to attain the neutral release of the heart?” "
+    },
+    {
+      "number": 132,
+      "pali": "“Cattāro kho, āvuso, paccayā adukkhamasukhāya cetovimuttiyā samāpattiyā. ",
+      "english": "“Four conditions are necessary to attain the neutral release of the heart. "
+    },
+    {
+      "number": 133,
+      "pali": "Idhāvuso, bhikkhu sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharati. ",
+      "english": "With the giving up of pleasure and pain and the disappearance of former happiness and sadness, a mendicant enters and remains in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. "
+    },
+    {
+      "number": 134,
+      "pali": "Ime kho, āvuso, cattāro paccayā adukkhamasukhāya cetovimuttiyā samāpattiyā”ti. ",
+      "english": "These four conditions are necessary to attain the neutral release of the heart.” "
+    },
+    {
+      "number": 135,
+      "pali": "“Kati panāvuso, paccayā animittāya cetovimuttiyā samāpattiyā”ti? ",
+      "english": "“How many conditions are necessary to attain the signless release of the heart?” "
+    },
+    {
+      "number": 136,
+      "pali": "“Dve kho, āvuso, paccayā animittāya cetovimuttiyā samāpattiyā—",
+      "english": "“Two conditions are necessary to attain the signless release of the heart: "
+    },
+    {
+      "number": 137,
+      "pali": "sabbanimittānañca amanasikāro, animittāya ca dhātuyā manasikāro. ",
+      "english": "not focusing on any signs, and focusing on the signless. "
+    },
+    {
+      "number": 138,
+      "pali": "Ime kho, āvuso, dve paccayā animittāya cetovimuttiyā samāpattiyā”ti. ",
+      "english": "These two conditions are necessary to attain the signless release of the heart.” "
+    },
+    {
+      "number": 139,
+      "pali": "“Kati panāvuso, paccayā animittāya cetovimuttiyā ṭhitiyā”ti? ",
+      "english": "“How many conditions are necessary to remain in the signless release of the heart?” "
+    },
+    {
+      "number": 140,
+      "pali": "“Tayo kho, āvuso, paccayā animittāya cetovimuttiyā ṭhitiyā—",
+      "english": "“Three conditions are necessary to remain in the signless release of the heart: "
+    },
+    {
+      "number": 141,
+      "pali": "sabbanimittānañca amanasikāro, animittāya ca dhātuyā manasikāro, pubbe ca abhisaṅkhāro. ",
+      "english": "not focusing on any signs, focusing on the signless, and a previous determination. "
+    },
+    {
+      "number": 142,
+      "pali": "Ime kho, āvuso, tayo paccayā animittāya cetovimuttiyā ṭhitiyā”ti. ",
+      "english": "These three conditions are necessary to remain in the signless release of the heart.” "
+    },
+    {
+      "number": 143,
+      "pali": "“Kati panāvuso, paccayā animittāya cetovimuttiyā vuṭṭhānāyā”ti? ",
+      "english": "“How many conditions are necessary to emerge from the signless release of the heart?” "
+    },
+    {
+      "number": 144,
+      "pali": "“Dve kho, āvuso, paccayā animittāya cetovimuttiyā vuṭṭhānāya—",
+      "english": "“Two conditions are necessary to emerge from the signless release of the heart: "
+    },
+    {
+      "number": 145,
+      "pali": "sabbanimittānañca manasikāro, animittāya ca dhātuyā amanasikāro. ",
+      "english": "focusing on all signs, and not focusing on the signless. "
+    },
+    {
+      "number": 146,
+      "pali": "Ime kho, āvuso, dve paccayā animittāya cetovimuttiyā vuṭṭhānāyā”ti. ",
+      "english": "These two conditions are necessary to emerge from the signless release of the heart.” "
+    },
+    {
+      "number": 147,
+      "pali": "“Yā cāyaṁ, āvuso, appamāṇā cetovimutti, yā ca ākiñcaññā cetovimutti, yā ca suññatā cetovimutti, yā ca animittā cetovimutti—ime dhammā nānātthā ceva nānābyañjanā ca udāhu ekatthā byañjanameva nānan”ti? ",
+      "english": "“The limitless release of the heart, and the release of the heart through nothingness, and the release of the heart through emptiness, and the signless release of the heart: do these things differ in both meaning and phrasing? Or do they mean the same thing, and differ only in the phrasing?” "
+    },
+    {
+      "number": 148,
+      "pali": "“Yā cāyaṁ, āvuso, appamāṇā cetovimutti, yā ca ākiñcaññā cetovimutti, yā ca suññatā cetovimutti, yā ca animittā cetovimutti—atthi kho, āvuso, pariyāyo yaṁ pariyāyaṁ āgamma ime dhammā nānātthā ceva nānābyañjanā ca; ",
+      "english": "“There is a way in which these things differ in both meaning and phrasing. "
+    },
+    {
+      "number": 149,
+      "pali": "atthi ca kho, āvuso, pariyāyo yaṁ pariyāyaṁ āgamma ime dhammā ekatthā, byañjanameva nānaṁ. ",
+      "english": "But there’s also a way in which they mean the same thing, and differ only in the phrasing. "
+    },
+    {
+      "number": 150,
+      "pali": "Katamo cāvuso, pariyāyo yaṁ pariyāyaṁ āgamma ime dhammā nānātthā ceva nānābyañjanā ca? ",
+      "english": "And what’s the way in which these things differ in both meaning and phrasing? "
+    },
+    {
+      "number": 151,
+      "pali": "Idhāvuso, bhikkhu mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ. Iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharati. ",
+      "english": "Firstly, a mendicant meditates spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 152,
+      "pali": "Karuṇāsahagatena cetasā …pe… ",
+      "english": "They meditate spreading a heart full of compassion … "
+    },
+    {
+      "number": 153,
+      "pali": "muditāsahagatena cetasā … ",
+      "english": "They meditate spreading a heart full of rejoicing … "
+    },
+    {
+      "number": 154,
+      "pali": "upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ. Iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharati. ",
+      "english": "They meditate spreading a heart full of equanimity to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of equanimity to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 155,
+      "pali": "Ayaṁ vuccatāvuso, appamāṇā cetovimutti. ",
+      "english": "This is called the limitless release of the heart. "
+    },
+    {
+      "number": 156,
+      "pali": "Katamā cāvuso, ākiñcaññā cetovimutti? ",
+      "english": "And what is the release of the heart through nothingness? "
+    },
+    {
+      "number": 157,
+      "pali": "Idhāvuso, bhikkhu sabbaso viññāṇañcāyatanaṁ samatikkamma natthi kiñcīti ākiñcaññāyatanaṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, going totally beyond the dimension of infinite consciousness, aware that ‘there is nothing at all’, enters and remains in the dimension of nothingness. "
+    },
+    {
+      "number": 158,
+      "pali": "Ayaṁ vuccatāvuso, ākiñcaññā cetovimutti. ",
+      "english": "This is called the heart’s release through nothingness. "
+    },
+    {
+      "number": 159,
+      "pali": "Katamā cāvuso, suññatā cetovimutti? ",
+      "english": "And what is the release of the heart through emptiness? "
+    },
+    {
+      "number": 160,
+      "pali": "Idhāvuso, bhikkhu araññagato vā rukkhamūlagato vā suññāgāragato vā iti paṭisañcikkhati: ",
+      "english": "It’s when a mendicant has gone to a wilderness, or to the root of a tree, or to an empty hut, and reflects like this: "
+    },
+    {
+      "number": 161,
+      "pali": "‘suññamidaṁ attena vā attaniyena vā’ti. ",
+      "english": "‘This is empty of a self or what belongs to a self.’ "
+    },
+    {
+      "number": 162,
+      "pali": "Ayaṁ vuccatāvuso, suññatā cetovimutti. ",
+      "english": "This is called the release of the heart through emptiness. "
+    },
+    {
+      "number": 163,
+      "pali": "Katamā cāvuso, animittā cetovimutti? ",
+      "english": "And what is the signless release of the heart? "
+    },
+    {
+      "number": 164,
+      "pali": "Idhāvuso, bhikkhu sabbanimittānaṁ amanasikārā animittaṁ cetosamādhiṁ upasampajja viharati. ",
+      "english": "It’s when a mendicant, not focusing on any signs, enters and remains in the signless immersion of the heart. "
+    },
+    {
+      "number": 165,
+      "pali": "Ayaṁ vuccatāvuso, animittā cetovimutti. ",
+      "english": "This is called the signless release of the heart. "
+    },
+    {
+      "number": 166,
+      "pali": "Ayaṁ kho, āvuso, pariyāyo yaṁ pariyāyaṁ āgamma ime dhammā nānātthā ceva nānābyañjanā ca. ",
+      "english": "This is the way in which these things differ in both meaning and phrasing. "
+    },
+    {
+      "number": 167,
+      "pali": "Katamo cāvuso, pariyāyo yaṁ pariyāyaṁ āgamma ime dhammā ekatthā byañjanameva nānaṁ? ",
+      "english": "And what’s the way in which they mean the same thing, and differ only in the phrasing? "
+    },
+    {
+      "number": 168,
+      "pali": "Rāgo kho, āvuso, pamāṇakaraṇo, doso pamāṇakaraṇo, moho pamāṇakaraṇo. ",
+      "english": "Greed, hate, and delusion are makers of limits. "
+    },
+    {
+      "number": 169,
+      "pali": "Te khīṇāsavassa bhikkhuno pahīnā ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
+      "english": "A mendicant who has ended the defilements has given these up, cut them off at the root, made them like a palm stump, and obliterated them, so they are unable to arise in the future. "
+    },
+    {
+      "number": 170,
+      "pali": "Yāvatā kho, āvuso, appamāṇā cetovimuttiyo, akuppā tāsaṁ cetovimutti aggamakkhāyati. ",
+      "english": "The unshakable release of the heart is said to be the best kind of limitless release of the heart. "
+    },
+    {
+      "number": 171,
+      "pali": "Sā kho panākuppā cetovimutti suññā rāgena, suññā dosena, suññā mohena. ",
+      "english": "That unshakable release of the heart is empty of greed, hate, and delusion. "
+    },
+    {
+      "number": 172,
+      "pali": "Rāgo kho, āvuso, kiñcano, doso kiñcano, moho kiñcano. ",
+      "english": "Greed is something, hate is something, and delusion is something. "
+    },
+    {
+      "number": 173,
+      "pali": "Te khīṇāsavassa bhikkhuno pahīnā ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
+      "english": "A mendicant who has ended the defilements has given these up, cut them off at the root, made them like a palm stump, and obliterated them, so they are unable to arise in the future. "
+    },
+    {
+      "number": 174,
+      "pali": "Yāvatā kho, āvuso, ākiñcaññā cetovimuttiyo, akuppā tāsaṁ cetovimutti aggamakkhāyati. ",
+      "english": "The unshakable release of the heart is said to be the best kind of release of the heart through nothingness. "
+    },
+    {
+      "number": 175,
+      "pali": "Sā kho panākuppā cetovimutti suññā rāgena, suññā dosena, suññā mohena. ",
+      "english": "That unshakable release of the heart is empty of greed, hate, and delusion. "
+    },
+    {
+      "number": 176,
+      "pali": "Rāgo kho, āvuso, nimittakaraṇo, doso nimittakaraṇo, moho nimittakaraṇo. ",
+      "english": "Greed, hate, and delusion are makers of signs. "
+    },
+    {
+      "number": 177,
+      "pali": "Te khīṇāsavassa bhikkhuno pahīnā ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
+      "english": "A mendicant who has ended the defilements has given these up, cut them off at the root, made them like a palm stump, and obliterated them, so they are unable to arise in the future. "
+    },
+    {
+      "number": 178,
+      "pali": "Yāvatā kho, āvuso, animittā cetovimuttiyo, akuppā tāsaṁ cetovimutti aggamakkhāyati. ",
+      "english": "The unshakable release of the heart is said to be the best kind of signless release of the heart. "
+    },
+    {
+      "number": 179,
+      "pali": "Sā kho panākuppā cetovimutti suññā rāgena, suññā dosena, suññā mohena. ",
+      "english": "That unshakable release of the heart is empty of greed, hate, and delusion. "
+    },
+    {
+      "number": 180,
+      "pali": "Ayaṁ kho, āvuso, pariyāyo yaṁ pariyāyaṁ āgamma ime dhammā ekatthā byañjanameva nānan”ti. ",
+      "english": "This is the way in which they mean the same thing, and differ only in the phrasing.” "
+    },
+    {
+      "number": 181,
+      "pali": "Idamavocāyasmā sāriputto. ",
+      "english": "This is what Venerable Sāriputta said. "
+    },
+    {
+      "number": 182,
+      "pali": "Attamano āyasmā mahākoṭṭhiko āyasmato sāriputtassa bhāsitaṁ abhinandīti. ",
+      "english": "Satisfied, Venerable Mahākoṭṭhita approved what Sāriputta said. "
+    },
+    {
+      "number": 183,
+      "pali": "Mahāvedallasuttaṁ niṭṭhitaṁ tatiyaṁ. ",
+      "english": ""
+    }
+  ]
+}

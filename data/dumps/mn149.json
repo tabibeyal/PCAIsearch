@@ -1,0 +1,530 @@
+{
+  "sutta_id": "MN149",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 149 ",
+      "english": "Middle Discourses 149 "
+    },
+    {
+      "number": 2,
+      "pali": "Mahāsaḷāyatanikasutta ",
+      "english": "The Great Discourse on What Relates to the Six Sense Fields "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
+      "english": "There the Buddha addressed the mendicants, "
+    },
+    {
+      "number": 6,
+      "pali": "“bhikkhavo”ti. ",
+      "english": "“Mendicants!” "
+    },
+    {
+      "number": 7,
+      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Venerable sir,” they replied. "
+    },
+    {
+      "number": 8,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 9,
+      "pali": "“mahāsaḷāyatanikaṁ vo, bhikkhave, desessāmi. ",
+      "english": "“Mendicants, I shall teach you the great discourse on what relates to the six sense fields. "
+    },
+    {
+      "number": 10,
+      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
+      "english": "Listen and apply your mind well, I will speak.” "
+    },
+    {
+      "number": 11,
+      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
+      "english": "“Yes, sir,” they replied. "
+    },
+    {
+      "number": 12,
+      "pali": "Bhagavā etadavoca: ",
+      "english": "The Buddha said this: "
+    },
+    {
+      "number": 13,
+      "pali": "“Cakkhuṁ, bhikkhave, ajānaṁ apassaṁ yathābhūtaṁ, rūpe ajānaṁ apassaṁ yathābhūtaṁ, cakkhuviññāṇaṁ ajānaṁ apassaṁ yathābhūtaṁ, cakkhusamphassaṁ ajānaṁ apassaṁ yathābhūtaṁ, yamidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi ajānaṁ apassaṁ yathābhūtaṁ, cakkhusmiṁ sārajjati, rūpesu sārajjati, cakkhuviññāṇe sārajjati, cakkhusamphasse sārajjati, yamidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tasmimpi sārajjati. ",
+      "english": "“Mendicants, when you don’t truly know and see the eye, sights, eye consciousness, eye contact, and what is felt as pleasant, painful, or neutral that arises dependent on eye contact, you’re aroused by these things. "
+    },
+    {
+      "number": 14,
+      "pali": "Tassa sārattassa saṁyuttassa sammūḷhassa assādānupassino viharato āyatiṁ pañcupādānakkhandhā upacayaṁ gacchanti. ",
+      "english": "Someone who lives aroused like this—fettered, confused, concentrating on gratification—accumulates the five grasping aggregates for themselves in the future. "
+    },
+    {
+      "number": 15,
+      "pali": "Taṇhā cassa ponobbhavikā nandīrāgasahagatā tatratatrābhinandinī, sā cassa pavaḍḍhati. ",
+      "english": "And their craving—which leads to future lives, mixed up with relishing and greed, taking pleasure there wherever it alights—grows. "
+    },
+    {
+      "number": 16,
+      "pali": "Tassa kāyikāpi darathā pavaḍḍhanti, cetasikāpi darathā pavaḍḍhanti; ",
+      "english": "Their physical and mental stress, "
+    },
+    {
+      "number": 17,
+      "pali": "kāyikāpi santāpā pavaḍḍhanti, cetasikāpi santāpā pavaḍḍhanti; ",
+      "english": "torment, "
+    },
+    {
+      "number": 18,
+      "pali": "kāyikāpi pariḷāhā pavaḍḍhanti, cetasikāpi pariḷāhā pavaḍḍhanti. ",
+      "english": "and fever grow. "
+    },
+    {
+      "number": 19,
+      "pali": "So kāyadukkhampi cetodukkhampi paṭisaṁvedeti. ",
+      "english": "And they experience physical and mental suffering. "
+    },
+    {
+      "number": 20,
+      "pali": "Sotaṁ, bhikkhave, ajānaṁ apassaṁ yathābhūtaṁ …pe… ",
+      "english": "When you don’t truly know and see the ear … "
+    },
+    {
+      "number": 21,
+      "pali": "ghānaṁ, bhikkhave, ajānaṁ apassaṁ yathābhūtaṁ …pe… ",
+      "english": "nose … "
+    },
+    {
+      "number": 22,
+      "pali": "jivhaṁ, bhikkhave, ajānaṁ apassaṁ yathābhūtaṁ …pe… ",
+      "english": "tongue … "
+    },
+    {
+      "number": 23,
+      "pali": "kāyaṁ, bhikkhave, ajānaṁ apassaṁ yathābhūtaṁ …pe… ",
+      "english": "body … "
+    },
+    {
+      "number": 24,
+      "pali": "manaṁ, bhikkhave, ajānaṁ apassaṁ yathābhūtaṁ, dhamme, bhikkhave, ajānaṁ apassaṁ yathābhūtaṁ, manoviññāṇaṁ, bhikkhave, ajānaṁ apassaṁ yathābhūtaṁ, manosamphassaṁ, bhikkhave, ajānaṁ apassaṁ yathābhūtaṁ, yamidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi ajānaṁ apassaṁ yathābhūtaṁ, manasmiṁ sārajjati, dhammesu sārajjati, manoviññāṇe sārajjati, manosamphasse sārajjati, yamidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tasmimpi sārajjati. ",
+      "english": "mind, ideas, mind consciousness, mind contact, and what is felt as pleasant, painful, or neutral that arises dependent on mind contact, you’re aroused by these things. "
+    },
+    {
+      "number": 25,
+      "pali": "Tassa sārattassa saṁyuttassa sammūḷhassa assādānupassino viharato āyatiṁ pañcupādānakkhandhā upacayaṁ gacchanti. ",
+      "english": "Someone who lives aroused like this—fettered, confused, concentrating on gratification—accumulates the five grasping aggregates for themselves in the future. "
+    },
+    {
+      "number": 26,
+      "pali": "Taṇhā cassa ponobbhavikā nandīrāgasahagatā tatratatrābhinandinī, sā cassa pavaḍḍhati. ",
+      "english": "And their craving—which leads to future lives, mixed up with relishing and greed, taking pleasure there wherever it alights—grows. "
+    },
+    {
+      "number": 27,
+      "pali": "Tassa kāyikāpi darathā pavaḍḍhanti, cetasikāpi darathā pavaḍḍhanti; ",
+      "english": "Their physical and mental stress, "
+    },
+    {
+      "number": 28,
+      "pali": "kāyikāpi santāpā pavaḍḍhanti, cetasikāpi santāpā pavaḍḍhanti; ",
+      "english": "torment, "
+    },
+    {
+      "number": 29,
+      "pali": "kāyikāpi pariḷāhā pavaḍḍhanti, cetasikāpi pariḷāhā pavaḍḍhanti. ",
+      "english": "and fever grow. "
+    },
+    {
+      "number": 30,
+      "pali": "So kāyadukkhampi cetodukkhampi paṭisaṁvedeti. ",
+      "english": "And they experience physical and mental suffering. "
+    },
+    {
+      "number": 31,
+      "pali": "Cakkhuñca kho, bhikkhave, jānaṁ passaṁ yathābhūtaṁ, rūpe jānaṁ passaṁ yathābhūtaṁ, cakkhuviññāṇaṁ jānaṁ passaṁ yathābhūtaṁ, cakkhusamphassaṁ jānaṁ passaṁ yathābhūtaṁ, yamidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi jānaṁ passaṁ yathābhūtaṁ, cakkhusmiṁ na sārajjati, rūpesu na sārajjati, cakkhuviññāṇe na sārajjati, cakkhusamphasse na sārajjati, yamidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tasmimpi na sārajjati. ",
+      "english": "When you do truly know and see the eye, sights, eye consciousness, eye contact, and what is felt as pleasant, painful, or neutral that arises dependent on eye contact, you’re not aroused by these things. "
+    },
+    {
+      "number": 32,
+      "pali": "Tassa asārattassa asaṁyuttassa asammūḷhassa ādīnavānupassino viharato āyatiṁ pañcupādānakkhandhā apacayaṁ gacchanti. ",
+      "english": "Someone who lives unaroused like this—unfettered, unconfused, concentrating on drawbacks—disperses the five grasping aggregates for themselves in the future. "
+    },
+    {
+      "number": 33,
+      "pali": "Taṇhā cassa ponobbhavikā nandīrāgasahagatā tatratatrābhinandinī, sā cassa pahīyati. ",
+      "english": "And their craving—which leads to future lives, mixed up with relishing and greed, taking pleasure there wherever it alights—is given up. "
+    },
+    {
+      "number": 34,
+      "pali": "Tassa kāyikāpi darathā pahīyanti, cetasikāpi darathā pahīyanti; ",
+      "english": "Their physical and mental stress, "
+    },
+    {
+      "number": 35,
+      "pali": "kāyikāpi santāpā pahīyanti, cetasikāpi santāpā pahīyanti; ",
+      "english": "torment, "
+    },
+    {
+      "number": 36,
+      "pali": "kāyikāpi pariḷāhā pahīyanti, cetasikāpi pariḷāhā pahīyanti. ",
+      "english": "and fever are given up. "
+    },
+    {
+      "number": 37,
+      "pali": "So kāyasukhampi cetosukhampi paṭisaṁvedeti. ",
+      "english": "And they experience physical and mental pleasure. "
+    },
+    {
+      "number": 38,
+      "pali": "Yā tathābhūtassa diṭṭhi sāssa hoti sammādiṭṭhi; ",
+      "english": "The view of such a person is right view. "
+    },
+    {
+      "number": 39,
+      "pali": "yo tathābhūtassa saṅkappo svāssa hoti sammāsaṅkappo; ",
+      "english": "Their intention is right intention, "
+    },
+    {
+      "number": 40,
+      "pali": "yo tathābhūtassa vāyāmo svāssa hoti sammāvāyāmo; ",
+      "english": "their effort is right effort, "
+    },
+    {
+      "number": 41,
+      "pali": "yā tathābhūtassa sati sāssa hoti sammāsati; ",
+      "english": "their mindfulness is right mindfulness, "
+    },
+    {
+      "number": 42,
+      "pali": "yo tathābhūtassa samādhi svāssa hoti sammāsamādhi. ",
+      "english": "and their immersion is right immersion. "
+    },
+    {
+      "number": 43,
+      "pali": "Pubbeva kho panassa kāyakammaṁ vacīkammaṁ ājīvo suparisuddho hoti. ",
+      "english": "And their actions of body and speech, and their livelihood, have already been fully purified before. "
+    },
+    {
+      "number": 44,
+      "pali": "Evamassāyaṁ ariyo aṭṭhaṅgiko maggo bhāvanāpāripūriṁ gacchati. ",
+      "english": "So this noble eightfold path is fully developed. "
+    },
+    {
+      "number": 45,
+      "pali": "Tassa evaṁ imaṁ ariyaṁ aṭṭhaṅgikaṁ maggaṁ bhāvayato cattāropi satipaṭṭhānā bhāvanāpāripūriṁ gacchanti, cattāropi sammappadhānā bhāvanāpāripūriṁ gacchanti, cattāropi iddhipādā bhāvanāpāripūriṁ gacchanti, pañcapi indriyāni bhāvanāpāripūriṁ gacchanti, pañcapi balāni bhāvanāpāripūriṁ gacchanti, sattapi bojjhaṅgā bhāvanāpāripūriṁ gacchanti. ",
+      "english": "When the noble eightfold path is developed, the following are fully developed: the four kinds of mindfulness meditation, the four right efforts, the four bases of psychic power, the five faculties, the five powers, and the seven awakening factors. "
+    },
+    {
+      "number": 46,
+      "pali": "Tassime dve dhammā yuganandhā vattanti—",
+      "english": "And these two qualities proceed in conjunction: "
+    },
+    {
+      "number": 47,
+      "pali": "samatho ca vipassanā ca. ",
+      "english": "serenity and discernment. "
+    },
+    {
+      "number": 48,
+      "pali": "So ye dhammā abhiññā pariññeyyā te dhamme abhiññā parijānāti. ",
+      "english": "They completely understand by direct knowledge those things that should be completely understood by direct knowledge. "
+    },
+    {
+      "number": 49,
+      "pali": "Ye dhammā abhiññā pahātabbā te dhamme abhiññā pajahati. ",
+      "english": "They give up by direct knowledge those things that should be given up by direct knowledge. "
+    },
+    {
+      "number": 50,
+      "pali": "Ye dhammā abhiññā bhāvetabbā te dhamme abhiññā bhāveti. ",
+      "english": "They develop by direct knowledge those things that should be developed by direct knowledge. "
+    },
+    {
+      "number": 51,
+      "pali": "Ye dhammā abhiññā sacchikātabbā te dhamme abhiññā sacchikaroti. ",
+      "english": "They realize by direct knowledge those things that should be realized by direct knowledge. "
+    },
+    {
+      "number": 52,
+      "pali": "Katame ca, bhikkhave, dhammā abhiññā pariññeyyā? ",
+      "english": "And what are the things that should be completely understood by direct knowledge? "
+    },
+    {
+      "number": 53,
+      "pali": "‘Pañcupādānakkhandhā’ tissa vacanīyaṁ, ",
+      "english": "You should say: ‘The five grasping aggregates.’ "
+    },
+    {
+      "number": 54,
+      "pali": "seyyathidaṁ—rūpupādānakkhandho, vedanupādānakkhandho, saññupādānakkhandho, saṅkhārupādānakkhandho, viññāṇupādānakkhandho. ",
+      "english": "That is: form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 55,
+      "pali": "Ime dhammā abhiññā pariññeyyā. ",
+      "english": "These are the things that should be completely understood by direct knowledge. "
+    },
+    {
+      "number": 56,
+      "pali": "Katame ca, bhikkhave, dhammā abhiññā pahātabbā? ",
+      "english": "And what are the things that should be given up by direct knowledge? "
+    },
+    {
+      "number": 57,
+      "pali": "Avijjā ca bhavataṇhā ca—",
+      "english": "Ignorance and craving for continued existence. "
+    },
+    {
+      "number": 58,
+      "pali": "ime dhammā abhiññā pahātabbā. ",
+      "english": "These are the things that should be given up by direct knowledge. "
+    },
+    {
+      "number": 59,
+      "pali": "Katame ca, bhikkhave, dhammā abhiññā bhāvetabbā? ",
+      "english": "And what are the things that should be developed by direct knowledge? "
+    },
+    {
+      "number": 60,
+      "pali": "Samatho ca vipassanā ca—",
+      "english": "Serenity and discernment. "
+    },
+    {
+      "number": 61,
+      "pali": "ime dhammā abhiññā bhāvetabbā. ",
+      "english": "These are the things that should be developed by direct knowledge. "
+    },
+    {
+      "number": 62,
+      "pali": "Katame ca, bhikkhave, dhammā abhiññā sacchikātabbā? ",
+      "english": "And what are the things that should be realized by direct knowledge? "
+    },
+    {
+      "number": 63,
+      "pali": "Vijjā ca vimutti ca—",
+      "english": "Knowledge and freedom. "
+    },
+    {
+      "number": 64,
+      "pali": "ime dhammā abhiññā sacchikātabbā. ",
+      "english": "These are the things that should be realized by direct knowledge. "
+    },
+    {
+      "number": 65,
+      "pali": "Sotaṁ, bhikkhave, jānaṁ passaṁ yathābhūtaṁ …pe… ",
+      "english": "When you truly know and see the ear … "
+    },
+    {
+      "number": 66,
+      "pali": "ghānaṁ bhikkhave, jānaṁ passaṁ yathābhūtaṁ …pe… ",
+      "english": "nose … "
+    },
+    {
+      "number": 67,
+      "pali": "jivhaṁ, bhikkhave, jānaṁ passaṁ yathābhūtaṁ …pe… ",
+      "english": "tongue … "
+    },
+    {
+      "number": 68,
+      "pali": "kāyaṁ, bhikkhave, jānaṁ passaṁ yathābhūtaṁ …pe… ",
+      "english": "body … "
+    },
+    {
+      "number": 69,
+      "pali": "manaṁ, bhikkhave, jānaṁ passaṁ yathābhūtaṁ, dhamme jānaṁ passaṁ yathābhūtaṁ, manoviññāṇaṁ jānaṁ passaṁ yathābhūtaṁ, manosamphassaṁ jānaṁ passaṁ yathābhūtaṁ, yamidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi jānaṁ passaṁ yathābhūtaṁ, manasmiṁ na sārajjati, dhammesu na sārajjati, manoviññāṇe na sārajjati, manosamphasse na sārajjati, yamidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tasmimpi na sārajjati. ",
+      "english": "mind, ideas, mind consciousness, mind contact, and what is felt as pleasant, painful, or neutral that arises dependent on mind contact, you are not aroused by these things. … "
+    },
+    {
+      "number": 70,
+      "pali": "Tassa asārattassa asaṁyuttassa asammūḷhassa ādīnavānupassino viharato āyatiṁ pañcupādānakkhandhā apacayaṁ gacchanti. ",
+      "english": ""
+    },
+    {
+      "number": 71,
+      "pali": "Taṇhā cassa ponobbhavikā nandīrāgasahagatā tatratatrābhinandinī, sā cassa pahīyati. ",
+      "english": ""
+    },
+    {
+      "number": 72,
+      "pali": "Tassa kāyikāpi darathā pahīyanti, cetasikāpi darathā pahīyanti; ",
+      "english": ""
+    },
+    {
+      "number": 73,
+      "pali": "kāyikāpi santāpā pahīyanti, cetasikāpi santāpā pahīyanti; ",
+      "english": ""
+    },
+    {
+      "number": 74,
+      "pali": "kāyikāpi pariḷāhā pahīyanti, cetasikāpi pariḷāhā pahīyanti. ",
+      "english": ""
+    },
+    {
+      "number": 75,
+      "pali": "So kāyasukhampi cetosukhampi paṭisaṁvedeti. ",
+      "english": ""
+    },
+    {
+      "number": 76,
+      "pali": "Yā tathābhūtassa diṭṭhi sāssa hoti sammādiṭṭhi; ",
+      "english": ""
+    },
+    {
+      "number": 77,
+      "pali": "yo tathābhūtassa saṅkappo svāssa hoti sammāsaṅkappo; ",
+      "english": ""
+    },
+    {
+      "number": 78,
+      "pali": "yo tathābhūtassa vāyāmo svāssa hoti sammāvāyāmo; ",
+      "english": ""
+    },
+    {
+      "number": 79,
+      "pali": "yā tathābhūtassa sati sāssa hoti sammāsati; ",
+      "english": ""
+    },
+    {
+      "number": 80,
+      "pali": "yo tathābhūtassa samādhi svāssa hoti sammāsamādhi. ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "Pubbeva kho panassa kāyakammaṁ vacīkammaṁ ājīvo suparisuddho hoti. ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "Evamassāyaṁ ariyo aṭṭhaṅgiko maggo bhāvanāpāripūriṁ gacchati. ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "Tassa evaṁ imaṁ ariyaṁ aṭṭhaṅgikaṁ maggaṁ bhāvayato cattāropi satipaṭṭhānā bhāvanāpāripūriṁ gacchanti, cattāropi sammappadhānā bhāvanāpāripūriṁ gacchanti, cattāropi iddhipādā bhāvanāpāripūriṁ gacchanti, pañcapi indriyāni bhāvanāpāripūriṁ gacchanti, pañcapi balāni bhāvanāpāripūriṁ gacchanti, sattapi bojjhaṅgā bhāvanāpāripūriṁ gacchanti. ",
+      "english": ""
+    },
+    {
+      "number": 84,
+      "pali": "Tassime dve dhammā yuganandhā vattanti—",
+      "english": ""
+    },
+    {
+      "number": 85,
+      "pali": "samatho ca vipassanā ca. ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "So ye dhammā abhiññā pariññeyyā te dhamme abhiññā parijānāti. ",
+      "english": ""
+    },
+    {
+      "number": 87,
+      "pali": "Ye dhammā abhiññā pahātabbā te dhamme abhiññā pajahati. ",
+      "english": ""
+    },
+    {
+      "number": 88,
+      "pali": "Ye dhammā abhiññā bhāvetabbā te dhamme abhiññā bhāveti. ",
+      "english": ""
+    },
+    {
+      "number": 89,
+      "pali": "Ye dhammā abhiññā sacchikātabbā te dhamme abhiññā sacchikaroti. ",
+      "english": ""
+    },
+    {
+      "number": 90,
+      "pali": "Katame ca, bhikkhave, dhammā abhiññā pariññeyyā? ",
+      "english": ""
+    },
+    {
+      "number": 91,
+      "pali": "‘Pañcupādānakkhandhā’ tissa vacanīyaṁ, seyyathidaṁ—",
+      "english": ""
+    },
+    {
+      "number": 92,
+      "pali": "rūpupādānakkhandho, vedanupādānakkhandho, saññupādānakkhandho, saṅkhārupādānakkhandho, viññāṇupādānakkhandho. ",
+      "english": ""
+    },
+    {
+      "number": 93,
+      "pali": "Ime dhammā abhiññā pariññeyyā. ",
+      "english": ""
+    },
+    {
+      "number": 94,
+      "pali": "Katame ca, bhikkhave, dhammā abhiññā pahātabbā? ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "Avijjā ca bhavataṇhā ca—",
+      "english": ""
+    },
+    {
+      "number": 96,
+      "pali": "ime dhammā abhiññā pahātabbā. ",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "Katame ca, bhikkhave, dhammā abhiññā bhāvetabbā? ",
+      "english": ""
+    },
+    {
+      "number": 98,
+      "pali": "Samatho ca vipassanā ca—",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "ime dhammā abhiññā bhāvetabbā. ",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "Katame ca, bhikkhave, dhammā abhiññā sacchikātabbā? ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "Vijjā ca vimutti ca—",
+      "english": ""
+    },
+    {
+      "number": 102,
+      "pali": "ime dhammā abhiññā sacchikātabbā”ti. ",
+      "english": "These are the things that should be realized by direct knowledge.” "
+    },
+    {
+      "number": 103,
+      "pali": "Idamavoca bhagavā. ",
+      "english": "That is what the Buddha said. "
+    },
+    {
+      "number": 104,
+      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
+      "english": "Satisfied, the mendicants approved what the Buddha said. "
+    },
+    {
+      "number": 105,
+      "pali": "Mahāsaḷāyatanikasuttaṁ niṭṭhitaṁ sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

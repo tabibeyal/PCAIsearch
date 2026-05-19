@@ -1,0 +1,435 @@
+{
+  "sutta_id": "AN8.10",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Aṅguttara Nikāya 8.10 ",
+      "english": "Numbered Discourses 8.10 "
+    },
+    {
+      "number": 2,
+      "pali": "1. Mettāvagga ",
+      "english": "1. Love "
+    },
+    {
+      "number": 3,
+      "pali": "Kāraṇḍavasutta ",
+      "english": "Trash "
+    },
+    {
+      "number": 4,
+      "pali": "Ekaṁ samayaṁ bhagavā campāyaṁ viharati gaggarāya pokkharaṇiyā tīre. ",
+      "english": "At one time the Buddha was staying near Campā on the banks of the Gaggarā Lotus Pond. "
+    },
+    {
+      "number": 5,
+      "pali": "Tena kho pana samayena bhikkhū bhikkhuṁ āpattiyā codenti. ",
+      "english": "Now at that time the mendicants accused a mendicant of an offense. "
+    },
+    {
+      "number": 6,
+      "pali": "So bhikkhu bhikkhūhi āpattiyā codiyamāno aññenāññaṁ paṭicarati, bahiddhā kathaṁ apanāmeti, kopañca dosañca appaccayañca pātukaroti. ",
+      "english": "The accused mendicant dodged the issue, distracted the discussion with irrelevant points, and displayed annoyance, hate, and bitterness. "
+    },
+    {
+      "number": 7,
+      "pali": "Atha kho bhagavā bhikkhū āmantesi: ",
+      "english": "Then the Buddha said to the mendicants, "
+    },
+    {
+      "number": 8,
+      "pali": "“niddhamathetaṁ, bhikkhave, puggalaṁ; ",
+      "english": "“Mendicants, throw this individual out! "
+    },
+    {
+      "number": 9,
+      "pali": "niddhamathetaṁ, bhikkhave, puggalaṁ. ",
+      "english": "Throw this individual out! "
+    },
+    {
+      "number": 10,
+      "pali": "Apaneyyeso, bhikkhave, puggalo. ",
+      "english": "This individual should be shown the door. "
+    },
+    {
+      "number": 11,
+      "pali": "Kiṁ vo tena paraputtena visodhitena. ",
+      "english": "Why should you be vexed by an outsider? "
+    },
+    {
+      "number": 12,
+      "pali": "Idha, bhikkhave, ekaccassa puggalassa tādisaṁyeva hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ, seyyathāpi aññesaṁ bhaddakānaṁ bhikkhūnaṁ—",
+      "english": "Take a case where a certain individual looks just the same as other good-natured mendicants when going out and coming back, when looking ahead and aside, when bending and extending the limbs, and when bearing the outer robe, bowl and robes. "
+    },
+    {
+      "number": 13,
+      "pali": "yāvassa bhikkhū āpattiṁ na passanti. ",
+      "english": "That is, so long as the mendicants don’t notice his offense. "
+    },
+    {
+      "number": 14,
+      "pali": "Yato ca khvassa bhikkhū āpattiṁ passanti, tamenaṁ evaṁ jānanti: ",
+      "english": "But when the mendicants notice the offense, they know that he’s "
+    },
+    {
+      "number": 15,
+      "pali": "‘samaṇadūsīvāyaṁ samaṇapalāpo samaṇakāraṇḍavo’ti. ",
+      "english": "a corrupt ascetic, just useless trash. "
+    },
+    {
+      "number": 16,
+      "pali": "Tamenaṁ iti viditvā bahiddhā nāsenti. ",
+      "english": "When they realize this they send him away. "
+    },
+    {
+      "number": 17,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 18,
+      "pali": "Mā aññe bhaddake bhikkhū dūsesīti. ",
+      "english": "So that he doesn’t corrupt good-natured mendicants. "
+    },
+    {
+      "number": 19,
+      "pali": "Seyyathāpi, bhikkhave, sampanne yavakaraṇe yavadūsī jāyetha yavapalāpo yavakāraṇḍavoti. ",
+      "english": "Suppose in a growing field of barley some bad barley appeared, just useless trash. "
+    },
+    {
+      "number": 20,
+      "pali": "Tassa tādisaṁyeva mūlaṁ hoti, seyyathāpi aññesaṁ bhaddakānaṁ yavānaṁ; ",
+      "english": "Its roots, stem, and leaves would look just the same as the healthy barley. "
+    },
+    {
+      "number": 21,
+      "pali": "tādisaṁyeva nāḷaṁ hoti, seyyathāpi aññesaṁ bhaddakānaṁ yavānaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 22,
+      "pali": "tādisaṁyeva pattaṁ hoti, seyyathāpi aññesaṁ bhaddakānaṁ yavānaṁ—",
+      "english": ""
+    },
+    {
+      "number": 23,
+      "pali": "yāvassa sīsaṁ na nibbattati. ",
+      "english": "That is, so long as the head doesn’t appear. "
+    },
+    {
+      "number": 24,
+      "pali": "Yato ca khvassa sīsaṁ nibbattati, tamenaṁ evaṁ jānanti: ",
+      "english": "But when the head appears, they know that it’s "
+    },
+    {
+      "number": 25,
+      "pali": "‘yavadūsīvāyaṁ yavapalāpo yavakāraṇḍavo’ti. ",
+      "english": "bad barley, just useless trash. "
+    },
+    {
+      "number": 26,
+      "pali": "Tamenaṁ iti viditvā samūlaṁ uppāṭetvā bahiddhā yavakaraṇassa chaḍḍenti. ",
+      "english": "When they realize this they pull it up by the roots and throw it outside the field. "
+    },
+    {
+      "number": 27,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 28,
+      "pali": "Mā aññe bhaddake yave dūsesīti. ",
+      "english": "So that it doesn’t spoil the good barley. "
+    },
+    {
+      "number": 29,
+      "pali": "Evamevaṁ kho, bhikkhave, idhekaccassa puggalassa tādisaṁyeva hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ, seyyathāpi aññesaṁ bhaddakānaṁ bhikkhūnaṁ—",
+      "english": "In the same way, take a case where a certain individual looks just the same as other good-natured mendicants when going out and coming back, when looking ahead and aside, when bending and extending the limbs, and when bearing the outer robe, bowl and robes. "
+    },
+    {
+      "number": 30,
+      "pali": "yāvassa bhikkhū āpattiṁ na passanti. ",
+      "english": "That is, so long as the mendicants don’t notice his offense. "
+    },
+    {
+      "number": 31,
+      "pali": "Yato ca khvassa bhikkhū āpattiṁ passanti, tamenaṁ evaṁ jānanti: ",
+      "english": "But when the mendicants notice the offense, they know that he’s "
+    },
+    {
+      "number": 32,
+      "pali": "‘samaṇadūsīvāyaṁ samaṇapalāpo samaṇakāraṇḍavo’ti. ",
+      "english": "a corrupt ascetic, just useless trash. "
+    },
+    {
+      "number": 33,
+      "pali": "Tamenaṁ iti viditvā bahiddhā nāsenti. ",
+      "english": "When they realize this they send him away. "
+    },
+    {
+      "number": 34,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 35,
+      "pali": "Mā aññe bhaddake bhikkhū dūsesīti. ",
+      "english": "So that he doesn’t corrupt good-natured mendicants. "
+    },
+    {
+      "number": 36,
+      "pali": "Seyyathāpi, bhikkhave, mahato dhaññarāsissa phuṇamānassa tattha yāni tāni dhaññāni daḷhāni sāravantāni tāni ekamantaṁ puñjaṁ hoti, yāni pana tāni dhaññāni dubbalāni palāpāni tāni vāto ekamantaṁ apavahati. ",
+      "english": "Suppose that a large heap of grain is being winnowed. The grains that are firm and solid form a heap on one side. And the grains that are flimsy and insubstantial are blown over to the other side. "
+    },
+    {
+      "number": 37,
+      "pali": "Tamenaṁ sāmikā sammajjaniṁ gahetvā bhiyyoso mattāya apasammajjanti. ",
+      "english": "The owners take a broom and sweep them even further away. "
+    },
+    {
+      "number": 38,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 39,
+      "pali": "Mā aññe bhaddake dhaññe dūsesīti. ",
+      "english": "So that it doesn’t spoil the good grain. "
+    },
+    {
+      "number": 40,
+      "pali": "Evamevaṁ kho, bhikkhave, idhekaccassa puggalassa tādisaṁyeva hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ, seyyathāpi aññesaṁ bhaddakānaṁ bhikkhūnaṁ—",
+      "english": "In the same way, take a case where a certain individual looks just the same as other good-natured mendicants when going out and coming back, when looking ahead and aside, when bending and extending the limbs, and when bearing the outer robe, bowl and robes. "
+    },
+    {
+      "number": 41,
+      "pali": "yāvassa bhikkhū āpattiṁ na passanti. ",
+      "english": "That is, so long as the mendicants don’t notice his offense. "
+    },
+    {
+      "number": 42,
+      "pali": "Yato ca khvassa bhikkhū āpattiṁ passanti, tamenaṁ evaṁ jānanti: ",
+      "english": "But when the mendicants notice the offense, they know that he’s "
+    },
+    {
+      "number": 43,
+      "pali": "‘samaṇadūsīvāyaṁ samaṇapalāpo samaṇakāraṇḍavo’ti. ",
+      "english": "a corrupt ascetic, just useless trash. "
+    },
+    {
+      "number": 44,
+      "pali": "Tamenaṁ iti viditvā bahiddhā nāsenti. ",
+      "english": "When they realize this they send him away. "
+    },
+    {
+      "number": 45,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 46,
+      "pali": "Mā aññe bhaddake bhikkhū dūsesīti. ",
+      "english": "So that he doesn’t corrupt good-natured mendicants. "
+    },
+    {
+      "number": 47,
+      "pali": "Seyyathāpi, bhikkhave, puriso udapānapanāḷiyatthiko tiṇhaṁ kuṭhāriṁ ādāya vanaṁ paviseyya. ",
+      "english": "Suppose a man needs an irrigation gutter for a well. He’d take a sharp axe and enter the wood, "
+    },
+    {
+      "number": 48,
+      "pali": "So yaṁ yadeva rukkhaṁ kuṭhāripāsena ākoṭeyya tattha yāni tāni rukkhāni daḷhāni sāravantāni tāni kuṭhāripāsena ākoṭitāni kakkhaḷaṁ paṭinadanti; ",
+      "english": "where he’d knock various trees with the axe. The trees that were firm and solid made a cracking sound. "
+    },
+    {
+      "number": 49,
+      "pali": "yāni pana tāni rukkhāni antopūtīni avassutāni kasambujātāni tāni kuṭhāripāsena ākoṭitāni daddaraṁ paṭinadanti. ",
+      "english": "But the trees that were rotten inside, decomposing and decayed, made a thud. "
+    },
+    {
+      "number": 50,
+      "pali": "Tamenaṁ mūle chindati, mūle chinditvā agge chindati, agge chinditvā anto suvisodhitaṁ visodheti, anto suvisodhitaṁ visodhetvā udapānapanāḷiṁ yojeti. ",
+      "english": "He’d cut down such a tree at the root, lop off the crown, and thoroughly clear out the insides. Then he’d use it as an irrigation gutter for the well. "
+    },
+    {
+      "number": 51,
+      "pali": "Evamevaṁ kho, bhikkhave, idhekaccassa puggalassa tādisaṁyeva hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ, seyyathāpi aññesaṁ bhaddakānaṁ bhikkhūnaṁ—",
+      "english": "In the same way, take a case where a certain individual looks just the same as other good-natured mendicants when going out and coming back, when looking ahead and aside, when bending and extending the limbs, and when bearing the outer robe, bowl and robes. "
+    },
+    {
+      "number": 52,
+      "pali": "yāvassa bhikkhū āpattiṁ na passanti. ",
+      "english": "That is, so long as the mendicants don’t notice his offense. "
+    },
+    {
+      "number": 53,
+      "pali": "Yato ca khvassa bhikkhū āpattiṁ passanti, tamenaṁ evaṁ jānanti: ",
+      "english": "But when the mendicants notice the offense, they know that he’s "
+    },
+    {
+      "number": 54,
+      "pali": "‘samaṇadūsīvāyaṁ samaṇapalāpo samaṇakāraṇḍavo’ti. ",
+      "english": "a corrupt ascetic, just useless trash. "
+    },
+    {
+      "number": 55,
+      "pali": "Tamenaṁ iti viditvā bahiddhā nāsenti. ",
+      "english": "When they realize this they send him away. "
+    },
+    {
+      "number": 56,
+      "pali": "Taṁ kissa hetu? ",
+      "english": "Why is that? "
+    },
+    {
+      "number": 57,
+      "pali": "Mā aññe bhaddake bhikkhū dūsesīti. ",
+      "english": "So that he doesn’t corrupt good-natured mendicants. "
+    },
+    {
+      "number": 58,
+      "pali": "Saṁvāsāyaṁ vijānātha, ",
+      "english": "By living together, know that "
+    },
+    {
+      "number": 59,
+      "pali": "pāpiccho kodhano iti; ",
+      "english": "they’re irritable, with corrupt wishes, "
+    },
+    {
+      "number": 60,
+      "pali": "Makkhī thambhī paḷāsī ca, ",
+      "english": "offensive, stubborn, and contemptuous, "
+    },
+    {
+      "number": 61,
+      "pali": "issukī maccharī saṭho. ",
+      "english": "jealous, stingy, and devious. "
+    },
+    {
+      "number": 62,
+      "pali": "Santavāco janavati, ",
+      "english": "They speak to people with a voice "
+    },
+    {
+      "number": 63,
+      "pali": "samaṇo viya bhāsati; ",
+      "english": "so smooth, just like an ascetic. "
+    },
+    {
+      "number": 64,
+      "pali": "Raho karoti karaṇaṁ, ",
+      "english": "But they act in secret, with their bad views "
+    },
+    {
+      "number": 65,
+      "pali": "pāpadiṭṭhi anādaro. ",
+      "english": "and their lack of regard for others. "
+    },
+    {
+      "number": 66,
+      "pali": "Saṁsappī ca musāvādī, ",
+      "english": "You should recognize them for what they are: "
+    },
+    {
+      "number": 67,
+      "pali": "taṁ viditvā yathātathaṁ; ",
+      "english": "a creep and liar. "
+    },
+    {
+      "number": 68,
+      "pali": "Sabbe samaggā hutvāna, ",
+      "english": "Then having gathered in harmony, "
+    },
+    {
+      "number": 69,
+      "pali": "abhinibbajjayātha naṁ. ",
+      "english": "you should expel them. "
+    },
+    {
+      "number": 70,
+      "pali": "Kāraṇḍavaṁ niddhamatha, ",
+      "english": "Throw out the trash! "
+    },
+    {
+      "number": 71,
+      "pali": "Kasambuṁ apakassatha; ",
+      "english": "Get rid of the rubbish! "
+    },
+    {
+      "number": 72,
+      "pali": "Tato palāpe vāhetha, ",
+      "english": "And sweep away the scraps—"
+    },
+    {
+      "number": 73,
+      "pali": "Assamaṇe samaṇamānine. ",
+      "english": "they’re not ascetics, they just think they are. "
+    },
+    {
+      "number": 74,
+      "pali": "Niddhamitvāna pāpicche, ",
+      "english": "When you’ve thrown out those of corrupt wishes, "
+    },
+    {
+      "number": 75,
+      "pali": "pāpaācāragocare; ",
+      "english": "of bad behavior and alms-resort, "
+    },
+    {
+      "number": 76,
+      "pali": "Suddhāsuddhehi saṁvāsaṁ, ",
+      "english": "dwell in communion, ever mindful, "
+    },
+    {
+      "number": 77,
+      "pali": "kappayavho patissatā; ",
+      "english": "the pure with the pure. "
+    },
+    {
+      "number": 78,
+      "pali": "Tato samaggā nipakā, ",
+      "english": "Then in harmony, alert, "
+    },
+    {
+      "number": 79,
+      "pali": "dukkhassantaṁ karissathā”ti. ",
+      "english": "make an end of suffering.” "
+    },
+    {
+      "number": 80,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 81,
+      "pali": "Mettāvaggo paṭhamo. ",
+      "english": ""
+    },
+    {
+      "number": 82,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 83,
+      "pali": "Mettaṁ paññā ca dve piyā, ",
+      "english": ""
+    },
+    {
+      "number": 84,
+      "pali": "dve lokā dve vipattiyo; ",
+      "english": ""
+    },
+    {
+      "number": 85,
+      "pali": "Devadatto ca uttaro, ",
+      "english": ""
+    },
+    {
+      "number": 86,
+      "pali": "nando kāraṇḍavena cāti. ",
+      "english": ""
+    }
+  ]
+}

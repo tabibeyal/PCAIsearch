@@ -1,0 +1,740 @@
+{
+  "sutta_id": "MN127",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Majjhima Nikāya 127 ",
+      "english": "Middle Discourses 127 "
+    },
+    {
+      "number": 2,
+      "pali": "Anuruddhasutta ",
+      "english": "With Anuruddha "
+    },
+    {
+      "number": 3,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 4,
+      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
+      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+    },
+    {
+      "number": 5,
+      "pali": "Atha kho pañcakaṅgo thapati aññataraṁ purisaṁ āmantesi: ",
+      "english": "And then the chamberlain Pañcakaṅga addressed a man, "
+    },
+    {
+      "number": 6,
+      "pali": "“ehi tvaṁ, ambho purisa, yenāyasmā anuruddho tenupasaṅkama; upasaṅkamitvā mama vacanena āyasmato anuruddhassa pāde sirasā vandāhi: ",
+      "english": "“Please, my friend, go to Venerable Anuruddha, and in my name bow with your head to his feet. Say to him, "
+    },
+    {
+      "number": 7,
+      "pali": "‘pañcakaṅgo, bhante, thapati āyasmato anuruddhassa pāde sirasā vandatī’ti; ",
+      "english": "‘Sir, the chamberlain Pañcakaṅga bows with his head to your feet.’ "
+    },
+    {
+      "number": 8,
+      "pali": "evañca vadehi: ",
+      "english": "And then ask him whether he "
+    },
+    {
+      "number": 9,
+      "pali": "‘adhivāsetu kira, bhante, āyasmā anuruddho pañcakaṅgassa thapatissa svātanāya attacatuttho bhattaṁ; ",
+      "english": "would please accept tomorrow’s meal from Pañcakaṅga together with the mendicant Saṅgha. "
+    },
+    {
+      "number": 10,
+      "pali": "yena ca kira, bhante, āyasmā anuruddho pagevataraṁ āgaccheyya; ",
+      "english": "And ask whether he might please come earlier than usual, "
+    },
+    {
+      "number": 11,
+      "pali": "pañcakaṅgo, bhante, thapati bahukicco bahukaraṇīyo rājakaraṇīyenā’”ti. ",
+      "english": "for Pañcakaṅga has many duties, and much work to do for the king.” "
+    },
+    {
+      "number": 12,
+      "pali": "“Evaṁ, bhante”ti kho so puriso pañcakaṅgassa thapatissa paṭissutvā yenāyasmā anuruddho tenupasaṅkami; upasaṅkamitvā āyasmantaṁ anuruddhaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho so puriso āyasmantaṁ anuruddhaṁ etadavoca: ",
+      "english": "“Yes, sir,” that man replied. He did as Pañcakaṅga asked, and "
+    },
+    {
+      "number": 13,
+      "pali": "“pañcakaṅgo, bhante, thapati āyasmato anuruddhassa pāde sirasā vandati, evañca vadeti: ",
+      "english": ""
+    },
+    {
+      "number": 14,
+      "pali": "‘adhivāsetu kira, bhante, āyasmā anuruddho pañcakaṅgassa thapatissa svātanāya attacatuttho bhattaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 15,
+      "pali": "yena ca kira, bhante, āyasmā anuruddho pagevataraṁ āgaccheyya; ",
+      "english": ""
+    },
+    {
+      "number": 16,
+      "pali": "pañcakaṅgo, bhante, thapati bahukicco bahukaraṇīyo rājakaraṇīyenā’”ti. ",
+      "english": ""
+    },
+    {
+      "number": 17,
+      "pali": "Adhivāsesi kho āyasmā anuruddho tuṇhībhāvena. ",
+      "english": "Venerable Anuruddha consented with silence. "
+    },
+    {
+      "number": 18,
+      "pali": "Atha kho āyasmā anuruddho tassā rattiyā accayena pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya yena pañcakaṅgassa thapatissa nivesanaṁ tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi. ",
+      "english": "Then when the night had passed, Anuruddha robed up in the morning and, taking his bowl and robe, went to Pañcakaṅga’s home, where he sat on the seat spread out. "
+    },
+    {
+      "number": 19,
+      "pali": "Atha kho pañcakaṅgo thapati āyasmantaṁ anuruddhaṁ paṇītena khādanīyena bhojanīyena sahatthā santappesi sampavāresi. ",
+      "english": "Then Pañcakaṅga served and satisfied Anuruddha with his own hands with delicious fresh and cooked foods. "
+    },
+    {
+      "number": 20,
+      "pali": "Atha kho pañcakaṅgo thapati āyasmantaṁ anuruddhaṁ bhuttāviṁ onītapattapāṇiṁ aññataraṁ nīcaṁ āsanaṁ gahetvā ekamantaṁ nisīdi. ",
+      "english": "When Anuruddha had eaten and washed his hands and bowl, Pañcakaṅga took a low seat, sat to one side, "
+    },
+    {
+      "number": 21,
+      "pali": "Ekamantaṁ nisinno kho pañcakaṅgo thapati āyasmantaṁ anuruddhaṁ etadavoca: ",
+      "english": "and said to him: "
+    },
+    {
+      "number": 22,
+      "pali": "“Idha maṁ, bhante, therā bhikkhū upasaṅkamitvā evamāhaṁsu: ",
+      "english": "“Sir, some senior mendicants have come to me and said, "
+    },
+    {
+      "number": 23,
+      "pali": "‘appamāṇaṁ, gahapati, cetovimuttiṁ bhāvehī’ti. ",
+      "english": "‘Householder, develop the limitless release of heart.’ "
+    },
+    {
+      "number": 24,
+      "pali": "Ekacce therā evamāhaṁsu: ",
+      "english": "Others have said, "
+    },
+    {
+      "number": 25,
+      "pali": "‘mahaggataṁ, gahapati, cetovimuttiṁ bhāvehī’ti. ",
+      "english": "‘Householder, develop the expansive release of heart.’ "
+    },
+    {
+      "number": 26,
+      "pali": "Yā cāyaṁ, bhante, appamāṇā cetovimutti yā ca mahaggatā cetovimutti—",
+      "english": "Now, the limitless release of the heart and the expansive release of the heart: "
+    },
+    {
+      "number": 27,
+      "pali": "ime dhammā nānatthā ceva nānābyañjanā ca, udāhu ekatthā byañjanameva nānan”ti? ",
+      "english": "do these things differ in both meaning and phrasing? Or do they mean the same thing, and differ only in the phrasing?” "
+    },
+    {
+      "number": 28,
+      "pali": "“Tena hi, gahapati, taṁyevettha paṭibhātu, apaṇṇakante ito bhavissatī”ti. ",
+      "english": "“Well then, householder, let me know what you think about this. Afterwards, it’s a sure bet that you’ll get it.” "
+    },
+    {
+      "number": 29,
+      "pali": "“Mayhaṁ kho, bhante, evaṁ hoti: ",
+      "english": "“Sir, this is what I think. "
+    },
+    {
+      "number": 30,
+      "pali": "‘yā cāyaṁ appamāṇā cetovimutti yā ca mahaggatā cetovimutti ime dhammā ekatthā byañjanameva nānan’”ti. ",
+      "english": "The limitless release of the heart and the expansive release of the heart mean the same thing, and differ only in the phrasing.” "
+    },
+    {
+      "number": 31,
+      "pali": "“Yā cāyaṁ, gahapati, appamāṇā cetovimutti yā ca mahaggatā cetovimutti ime dhammā nānatthā ceva nānābyañjanā ca. ",
+      "english": "“The limitless release of the heart and the expansive release of the heart differ in both meaning and phrasing. "
+    },
+    {
+      "number": 32,
+      "pali": "Tadamināpetaṁ, gahapati, pariyāyena veditabbaṁ yathā ime dhammā nānatthā ceva nānābyañjanā ca. ",
+      "english": "This is a way to understand how these things differ in both meaning and phrasing. "
+    },
+    {
+      "number": 33,
+      "pali": "Katamā ca, gahapati, appamāṇā cetovimutti? ",
+      "english": "And what is the limitless release of the heart? "
+    },
+    {
+      "number": 34,
+      "pali": "Idha, gahapati, bhikkhu mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ tathā tatiyaṁ tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharati. ",
+      "english": "It’s when a mendicant meditates spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 35,
+      "pali": "Karuṇāsahagatena cetasā … ",
+      "english": "They meditate spreading a heart full of compassion … "
+    },
+    {
+      "number": 36,
+      "pali": "muditāsahagatena cetasā … ",
+      "english": "They meditate spreading a heart full of rejoicing … "
+    },
+    {
+      "number": 37,
+      "pali": "upekkhāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ tathā tatiyaṁ tathā catutthaṁ; iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyābajjhena pharitvā viharati. ",
+      "english": "They meditate spreading a heart full of equanimity to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of equanimity to the whole world—abundant, expansive, limitless, free of enmity and ill will. "
+    },
+    {
+      "number": 38,
+      "pali": "Ayaṁ vuccati, gahapati, appamāṇā cetovimutti. ",
+      "english": "This is called the limitless release of the heart. "
+    },
+    {
+      "number": 39,
+      "pali": "Katamā ca, gahapati, mahaggatā cetovimutti? ",
+      "english": "And what is the expansive release of the heart? "
+    },
+    {
+      "number": 40,
+      "pali": "Idha, gahapati, bhikkhu yāvatā ekaṁ rukkhamūlaṁ mahaggatanti pharitvā adhimuccitvā viharati. ",
+      "english": "It’s when a mendicant meditates focused on pervading the extent of a single tree root as expansive. "
+    },
+    {
+      "number": 41,
+      "pali": "Ayaṁ vuccati, gahapati, mahaggatā cetovimutti. ",
+      "english": "This is called the expansive release of the heart. "
+    },
+    {
+      "number": 42,
+      "pali": "Idha pana, gahapati, bhikkhu yāvatā dve vā tīṇi vā rukkhamūlāni mahaggatanti pharitvā adhimuccitvā viharati. ",
+      "english": "Also, a mendicant meditates focused on pervading the extent of two or three tree roots … "
+    },
+    {
+      "number": 43,
+      "pali": "Ayampi vuccati, gahapati, mahaggatā cetovimutti. ",
+      "english": ""
+    },
+    {
+      "number": 44,
+      "pali": "Idha pana, gahapati, bhikkhu yāvatā ekaṁ gāmakkhettaṁ mahaggatanti pharitvā adhimuccitvā viharati. ",
+      "english": "a single village district … "
+    },
+    {
+      "number": 45,
+      "pali": "Ayampi vuccati, gahapati, mahaggatā cetovimutti. ",
+      "english": ""
+    },
+    {
+      "number": 46,
+      "pali": "Idha pana, gahapati, bhikkhu yāvatā dve vā tīṇi vā gāmakkhettāni mahaggatanti pharitvā adhimuccitvā viharati. ",
+      "english": "two or three village districts … "
+    },
+    {
+      "number": 47,
+      "pali": "Ayampi vuccati, gahapati, mahaggatā cetovimutti. ",
+      "english": ""
+    },
+    {
+      "number": 48,
+      "pali": "Idha pana, gahapati, bhikkhu yāvatā ekaṁ mahārajjaṁ mahaggatanti pharitvā adhimuccitvā viharati. ",
+      "english": "a single kingdom … "
+    },
+    {
+      "number": 49,
+      "pali": "Ayampi vuccati, gahapati, mahaggatā cetovimutti. ",
+      "english": ""
+    },
+    {
+      "number": 50,
+      "pali": "Idha pana, gahapati, bhikkhu yāvatā dve vā tīṇi vā mahārajjāni mahaggatanti pharitvā adhimuccitvā viharati. ",
+      "english": "two or three kingdoms … "
+    },
+    {
+      "number": 51,
+      "pali": "Ayampi vuccati, gahapati, mahaggatā cetovimutti. ",
+      "english": ""
+    },
+    {
+      "number": 52,
+      "pali": "Idha pana, gahapati, bhikkhu yāvatā samuddapariyantaṁ pathaviṁ mahaggatanti pharitvā adhimuccitvā viharati. ",
+      "english": "this land surrounded by ocean. "
+    },
+    {
+      "number": 53,
+      "pali": "Ayampi vuccati, gahapati, mahaggatā cetovimutti. ",
+      "english": "This too is called the expansive release of the heart. "
+    },
+    {
+      "number": 54,
+      "pali": "Iminā kho etaṁ, gahapati, pariyāyena veditabbaṁ yathā ime dhammā nānatthā ceva nānābyañjanā ca. ",
+      "english": "This is a way to understand how these things differ in both meaning and phrasing. "
+    },
+    {
+      "number": 55,
+      "pali": "Catasso kho imā gahapati, bhavūpapattiyo. ",
+      "english": "Householder, there are these four kinds of rebirth in a future life. "
+    },
+    {
+      "number": 56,
+      "pali": "Katamā catasso? ",
+      "english": "What four? "
+    },
+    {
+      "number": 57,
+      "pali": "Idha, gahapati, ekacco ‘parittābhā’ti pharitvā adhimuccitvā viharati. ",
+      "english": "Take someone who meditates focused on pervading ‘limited radiance’. "
+    },
+    {
+      "number": 58,
+      "pali": "So kāyassa bhedā paraṁ maraṇā parittābhānaṁ devānaṁ sahabyataṁ upapajjati. ",
+      "english": "When their body breaks up, after death, they’re reborn in the company of the gods of limited radiance. "
+    },
+    {
+      "number": 59,
+      "pali": "Idha pana, gahapati, ekacco ‘appamāṇābhā’ti pharitvā adhimuccitvā viharati. ",
+      "english": "Next, take someone who meditates focused on pervading ‘limitless radiance’. "
+    },
+    {
+      "number": 60,
+      "pali": "So kāyassa bhedā paraṁ maraṇā appamāṇābhānaṁ devānaṁ sahabyataṁ upapajjati. ",
+      "english": "When their body breaks up, after death, they’re reborn in the company of the gods of limitless radiance. "
+    },
+    {
+      "number": 61,
+      "pali": "Idha pana, gahapati, ekacco ‘saṅkiliṭṭhābhā’ti pharitvā adhimuccitvā viharati. ",
+      "english": "Next, take someone who meditates focused on pervading ‘corrupted radiance’. "
+    },
+    {
+      "number": 62,
+      "pali": "So kāyassa bhedā paraṁ maraṇā saṅkiliṭṭhābhānaṁ devānaṁ sahabyataṁ upapajjati. ",
+      "english": "When their body breaks up, after death, they’re reborn in the company of the gods of corrupted radiance. "
+    },
+    {
+      "number": 63,
+      "pali": "Idha pana, gahapati, ekacco ‘parisuddhābhā’ti pharitvā adhimuccitvā viharati. ",
+      "english": "Next, take someone who meditates focused on pervading ‘pure radiance’. "
+    },
+    {
+      "number": 64,
+      "pali": "So kāyassa bhedā paraṁ maraṇā parisuddhābhānaṁ devānaṁ sahabyataṁ upapajjati. ",
+      "english": "When their body breaks up, after death, they’re reborn in the company of the gods of pure radiance. "
+    },
+    {
+      "number": 65,
+      "pali": "Imā kho, gahapati, catasso bhavūpapattiyo. ",
+      "english": "These are the four kinds of rebirth in a future life. "
+    },
+    {
+      "number": 66,
+      "pali": "Hoti kho so, gahapati, samayo, yā tā devatā ekajjhaṁ sannipatanti, tāsaṁ ekajjhaṁ sannipatitānaṁ vaṇṇanānattañhi kho paññāyati no ca ābhānānattaṁ. ",
+      "english": "There comes a time, householder, when the deities gather together as one. When they do so, a difference in their color is evident, but not in their radiance. "
+    },
+    {
+      "number": 67,
+      "pali": "Seyyathāpi, gahapati, puriso sambahulāni telappadīpāni ekaṁ gharaṁ paveseyya. ",
+      "english": "It’s like when a person brings several oil lamps into one house. "
+    },
+    {
+      "number": 68,
+      "pali": "Tesaṁ ekaṁ gharaṁ pavesitānaṁ accinānattañhi kho paññāyetha, no ca ābhānānattaṁ; ",
+      "english": "You can detect a difference in their flames, but not in their radiance. "
+    },
+    {
+      "number": 69,
+      "pali": "evameva kho, gahapati, hoti kho so samayo, yā tā devatā ekajjhaṁ sannipatanti tāsaṁ ekajjhaṁ sannipatitānaṁ vaṇṇanānattañhi kho paññāyati, no ca ābhānānattaṁ. ",
+      "english": "In the same way, when the deities gather together as one, a difference in their color is evident, but not in their radiance. "
+    },
+    {
+      "number": 70,
+      "pali": "Hoti kho so, gahapati, samayo, yā tā devatā tato vipakkamanti, tāsaṁ tato vipakkamantīnaṁ vaṇṇanānattañceva paññāyati ābhānānattañca. ",
+      "english": "There comes a time when those deities go their separate ways. When they do so, a difference both in their color and also in their radiance is evident. "
+    },
+    {
+      "number": 71,
+      "pali": "Seyyathāpi, gahapati, puriso tāni sambahulāni telappadīpāni tamhā gharā nīhareyya. ",
+      "english": "It’s like when a person takes those several oil lamps out of that house. "
+    },
+    {
+      "number": 72,
+      "pali": "Tesaṁ tato nīhatānaṁ accinānattañceva paññāyetha ābhānānattañca; ",
+      "english": "You can detect a difference both in their flames and also in their radiance. "
+    },
+    {
+      "number": 73,
+      "pali": "evameva kho, gahapati, hoti kho so samayo, yā tā devatā tato vipakkamanti, tāsaṁ tato vipakkamantīnaṁ vaṇṇanānattañceva paññāyati ābhānānattañca. ",
+      "english": "In the same way, when the deities go their separate ways, a difference both in their color and also in their radiance is evident. "
+    },
+    {
+      "number": 74,
+      "pali": "Na kho, gahapati, tāsaṁ devatānaṁ evaṁ hoti: ",
+      "english": "It’s not that those deities think, "
+    },
+    {
+      "number": 75,
+      "pali": "‘idaṁ amhākaṁ niccanti vā dhuvanti vā sassatanti vā’, api ca yattha yattheva tā devatā abhinivisanti tattha tattheva tā devatā abhiramanti. ",
+      "english": "‘What we have is permanent, lasting, and eternal.’ Rather, wherever those deities cling, that’s where they take pleasure. "
+    },
+    {
+      "number": 76,
+      "pali": "Seyyathāpi, gahapati, makkhikānaṁ kājena vā piṭakena vā harīyamānānaṁ na evaṁ hoti: ",
+      "english": "It’s like when flies are being carried along on a carrying-pole or basket. It’s not that they think, "
+    },
+    {
+      "number": 77,
+      "pali": "‘idaṁ amhākaṁ niccanti vā dhuvanti vā sassatanti vā’, api ca yattha yattheva tā makkhikā abhinivisanti tattha tattheva tā makkhikā abhiramanti; ",
+      "english": "‘What we have is permanent, lasting, and eternal.’ Rather, wherever those flies cling, that’s where they take pleasure. "
+    },
+    {
+      "number": 78,
+      "pali": "evameva kho, gahapati, tāsaṁ devatānaṁ na evaṁ hoti: ",
+      "english": "In the same way, it’s not that those deities think, "
+    },
+    {
+      "number": 79,
+      "pali": "‘idaṁ amhākaṁ niccanti vā dhuvanti vā sassatanti vā’, api ca yattha yattheva tā devatā abhinivisanti tattha tattheva tā devatā abhiramantī”ti. ",
+      "english": "‘What we have is permanent, lasting, and eternal.’ Rather, wherever those deities cling, that’s where they take pleasure.” "
+    },
+    {
+      "number": 80,
+      "pali": "Evaṁ vutte, āyasmā sabhiyo kaccāno āyasmantaṁ anuruddhaṁ etadavoca: ",
+      "english": "When he had spoken, Venerable Sabhiya Kaccāna said to Venerable Anuruddha: "
+    },
+    {
+      "number": 81,
+      "pali": "“sādhu, bhante anuruddha. ",
+      "english": "“Good, Honorable Anuruddha! "
+    },
+    {
+      "number": 82,
+      "pali": "Atthi ca me ettha uttariṁ paṭipucchitabbaṁ. ",
+      "english": "I have a further question about this. "
+    },
+    {
+      "number": 83,
+      "pali": "Yā tā, bhante, devatā ābhā sabbā tā parittābhā udāhu santettha ekaccā devatā appamāṇābhā”ti? ",
+      "english": "Do all the radiant deities have limited radiance, or do some there have limitless radiance?” "
+    },
+    {
+      "number": 84,
+      "pali": "“Tadaṅgena kho, āvuso kaccāna, santettha ekaccā devatā parittābhā, santi panettha ekaccā devatā appamāṇābhā”ti. ",
+      "english": "“In that respect, Reverend Kaccāna, some deities there have limited radiance, while some have limitless radiance.” "
+    },
+    {
+      "number": 85,
+      "pali": "“Ko nu kho, bhante anuruddha, hetu ko paccayo yena tāsaṁ devatānaṁ ekaṁ devanikāyaṁ upapannānaṁ santettha ekaccā devatā parittābhā, santi panettha ekaccā devatā appamāṇābhā”ti? ",
+      "english": "“What is the cause, Honorable Anuruddha, what is the reason why, when those deities have been reborn in a single order of gods, some deities there have limited radiance, while some have limitless radiance?” "
+    },
+    {
+      "number": 86,
+      "pali": "“Tena hāvuso kaccāna, taṁyevettha paṭipucchissāmi. Yathā te khameyya tathā naṁ byākareyyāsi. ",
+      "english": "“Well then, Reverend Kaccāna, I’ll ask you about this in return, and you can answer as you like. "
+    },
+    {
+      "number": 87,
+      "pali": "Taṁ kiṁ maññasi, āvuso kaccāna, ",
+      "english": "What do you think, Reverend Kaccāna? "
+    },
+    {
+      "number": 88,
+      "pali": "yvāyaṁ bhikkhu yāvatā ekaṁ rukkhamūlaṁ ‘mahaggatan’ti pharitvā adhimuccitvā viharati, yo cāyaṁ bhikkhu yāvatā dve vā tīṇi vā rukkhamūlāni ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": "Which of these two kinds of mental development is more expansive: when a mendicant meditates focused on pervading as expansive the extent of a single tree root, or two or three tree roots?” "
+    },
+    {
+      "number": 89,
+      "pali": "imāsaṁ ubhinnaṁ cittabhāvanānaṁ katamā cittabhāvanā mahaggatatarā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 90,
+      "pali": "“Yvāyaṁ, bhante, bhikkhu yāvatā dve vā tīṇi vā rukkhamūlāni ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": "“When a mendicant meditates on two or three tree roots.” "
+    },
+    {
+      "number": 91,
+      "pali": "ayaṁ imāsaṁ ubhinnaṁ cittabhāvanānaṁ mahaggatatarā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 92,
+      "pali": "“Taṁ kiṁ maññasi, āvuso kaccāna, ",
+      "english": "“What do you think, Reverend Kaccāna? "
+    },
+    {
+      "number": 93,
+      "pali": "yvāyaṁ bhikkhu yāvatā dve vā tīṇi vā rukkhamūlāni ‘mahaggatan’ti pharitvā adhimuccitvā viharati, yo cāyaṁ bhikkhu yāvatā ekaṁ gāmakkhettaṁ ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": "Which of these two kinds of mental development is more expansive: when a mendicant meditates focused on pervading as expansive the extent of two or three tree roots, or a single village district … "
+    },
+    {
+      "number": 94,
+      "pali": "imāsaṁ ubhinnaṁ cittabhāvanānaṁ katamā cittabhāvanā mahaggatatarā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 95,
+      "pali": "“Yvāyaṁ, bhante, bhikkhu yāvatā ekaṁ gāmakkhettaṁ ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": ""
+    },
+    {
+      "number": 96,
+      "pali": "ayaṁ imāsaṁ ubhinnaṁ cittabhāvanānaṁ mahaggatatarā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 97,
+      "pali": "“Taṁ kiṁ maññasi, āvuso kaccāna, yvāyaṁ bhikkhu yāvatā ekaṁ gāmakkhettaṁ ‘mahaggatan’ti pharitvā adhimuccitvā viharati, yo cāyaṁ bhikkhu yāvatā dve vā tīṇi vā gāmakkhettāni ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": "two or three village districts … "
+    },
+    {
+      "number": 98,
+      "pali": "imāsaṁ ubhinnaṁ cittabhāvanānaṁ katamā cittabhāvanā mahaggatatarā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 99,
+      "pali": "“Yvāyaṁ, bhante, bhikkhu yāvatā dve vā tīṇi vā gāmakkhettāni ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": ""
+    },
+    {
+      "number": 100,
+      "pali": "ayaṁ imāsaṁ ubhinnaṁ cittabhāvanānaṁ mahaggatatarā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 101,
+      "pali": "“Taṁ kiṁ maññasi, āvuso kaccāna, yvāyaṁ bhikkhu yāvatā dve vā tīṇi vā gāmakkhettāni ‘mahaggatan’ti pharitvā adhimuccitvā viharati, yo cāyaṁ bhikkhu yāvatā ekaṁ mahārajjaṁ ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": "a single kingdom … "
+    },
+    {
+      "number": 102,
+      "pali": "imāsaṁ ubhinnaṁ cittabhāvanānaṁ katamā cittabhāvanā mahaggatatarā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 103,
+      "pali": "“Yvāyaṁ, bhante, bhikkhu yāvatā ekaṁ mahārajjaṁ ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": ""
+    },
+    {
+      "number": 104,
+      "pali": "ayaṁ imāsaṁ ubhinnaṁ cittabhāvanānaṁ mahaggatatarā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 105,
+      "pali": "“Taṁ kiṁ maññasi, āvuso kaccāna, yvāyaṁ bhikkhu yāvatā ekaṁ mahārajjaṁ ‘mahaggatan’ti pharitvā adhimuccitvā viharati, yo cāyaṁ bhikkhu yāvatā dve vā tīṇi vā mahārajjāni ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": "two or three kingdoms … "
+    },
+    {
+      "number": 106,
+      "pali": "imāsaṁ ubhinnaṁ cittabhāvanānaṁ katamā cittabhāvanā mahaggatatarā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 107,
+      "pali": "“Yvāyaṁ, bhante, bhikkhu yāvatā dve vā tīṇi vā mahārajjāni ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": ""
+    },
+    {
+      "number": 108,
+      "pali": "ayaṁ imāsaṁ ubhinnaṁ cittabhāvanānaṁ mahaggatatarā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 109,
+      "pali": "“Taṁ kiṁ maññasi, āvuso kaccāna, yvāyaṁ bhikkhu yāvatā dve vā tīṇi vā mahārajjāni ‘mahaggatan’ti pharitvā adhimuccitvā viharati, yo cāyaṁ bhikkhu yāvatā samuddapariyantaṁ pathaviṁ ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": "this land surrounded by ocean?” "
+    },
+    {
+      "number": 110,
+      "pali": "imāsaṁ ubhinnaṁ cittabhāvanānaṁ katamā cittabhāvanā mahaggatatarā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 111,
+      "pali": "“Yvāyaṁ, bhante, bhikkhu yāvatā samuddapariyantaṁ pathaviṁ ‘mahaggatan’ti pharitvā adhimuccitvā viharati—",
+      "english": "“When a mendicant meditates on this land surrounded by ocean.” "
+    },
+    {
+      "number": 112,
+      "pali": "ayaṁ imāsaṁ ubhinnaṁ cittabhāvanānaṁ mahaggatatarā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 113,
+      "pali": "“Ayaṁ kho, āvuso kaccāna, hetu ayaṁ paccayo, yena tāsaṁ devatānaṁ ekaṁ devanikāyaṁ upapannānaṁ santettha ekaccā devatā parittābhā, santi panettha ekaccā devatā appamāṇābhā”ti. ",
+      "english": "“This is the cause, Reverend Kaccāna, this is the reason why, when those deities have been reborn in a single order of gods, some deities there have limited radiance, while some have limitless radiance.” "
+    },
+    {
+      "number": 114,
+      "pali": "“Sādhu, bhante anuruddha. ",
+      "english": "“Good, Honorable Anuruddha! "
+    },
+    {
+      "number": 115,
+      "pali": "Atthi ca me ettha uttariṁ paṭipucchitabbaṁ. ",
+      "english": "I have a further question about this. "
+    },
+    {
+      "number": 116,
+      "pali": "Yāvatā, bhante, devatā ābhā sabbā tā saṅkiliṭṭhābhā udāhu santettha ekaccā devatā parisuddhābhā”ti? ",
+      "english": "Do all the radiant deities have corrupted radiance, or do some there have pure radiance?” "
+    },
+    {
+      "number": 117,
+      "pali": "“Tadaṅgena kho, āvuso kaccāna, santettha ekaccā devatā saṅkiliṭṭhābhā, santi panettha ekaccā devatā parisuddhābhā”ti. ",
+      "english": "“In that respect, Reverend Kaccāna, some deities there have corrupted radiance, while some have pure radiance.” "
+    },
+    {
+      "number": 118,
+      "pali": "“Ko nu kho, bhante, anuruddha, hetu ko paccayo, yena tāsaṁ devatānaṁ ekaṁ devanikāyaṁ upapannānaṁ santettha ekaccā devatā saṅkiliṭṭhābhā, santi panettha ekaccā devatā parisuddhābhā”ti? ",
+      "english": "“What is the cause, Venerable Anuruddha, what is the reason why, when those deities have been reborn in a single order of gods, some deities there have corrupted radiance, while some have pure radiance?” "
+    },
+    {
+      "number": 119,
+      "pali": "“Tena hāvuso kaccāna, upamaṁ te karissāmi. ",
+      "english": "“Well then, Reverend Kaccāna, I shall give you a simile. "
+    },
+    {
+      "number": 120,
+      "pali": "Upamāyapidhekacce viññū purisā bhāsitassa atthaṁ ājānanti. ",
+      "english": "For by means of a simile some sensible people understand the meaning of what is said. "
+    },
+    {
+      "number": 121,
+      "pali": "Seyyathāpi, āvuso kaccāna, telappadīpassa jhāyato telampi aparisuddhaṁ vaṭṭipi aparisuddhā. ",
+      "english": "Suppose an oil lamp was burning with impure oil and impure wick. "
+    },
+    {
+      "number": 122,
+      "pali": "So telassapi aparisuddhattā vaṭṭiyāpi aparisuddhattā andhandhaṁ viya jhāyati; ",
+      "english": "Because of the impurity of the oil and the wick it burns dimly, as it were. "
+    },
+    {
+      "number": 123,
+      "pali": "evameva kho, āvuso kaccāna, idhekacco bhikkhu ‘saṅkiliṭṭhābhā’ti pharitvā adhimuccitvā viharati, ",
+      "english": "In the same way, take some mendicant who meditates focused on pervading ‘corrupted radiance’. "
+    },
+    {
+      "number": 124,
+      "pali": "tassa kāyaduṭṭhullampi na suppaṭippassaddhaṁ hoti, thinamiddhampi na susamūhataṁ hoti, uddhaccakukkuccampi na suppaṭivinītaṁ hoti. ",
+      "english": "Their physical discomfort is not completely settled, their dullness and drowsiness is not completely eradicated, and their restlessness and remorse are not completely eliminated. "
+    },
+    {
+      "number": 125,
+      "pali": "So kāyaduṭṭhullassapi na suppaṭippassaddhattā thinamiddhassapi na susamūhatattā uddhaccakukkuccassapi na suppaṭivinītattā andhandhaṁ viya jhāyati. ",
+      "english": "Because of this they practice absorption dimly, as it were. "
+    },
+    {
+      "number": 126,
+      "pali": "So kāyassa bhedā paraṁ maraṇā saṅkiliṭṭhābhānaṁ devānaṁ sahabyataṁ upapajjati. ",
+      "english": "When their body breaks up, after death, they’re reborn in the company of the gods of corrupted radiance. "
+    },
+    {
+      "number": 127,
+      "pali": "Seyyathāpi, āvuso kaccāna, telappadīpassa jhāyato telampi parisuddhaṁ vaṭṭipi parisuddhā. ",
+      "english": "Suppose an oil lamp was burning with pure oil and pure wick. "
+    },
+    {
+      "number": 128,
+      "pali": "So telassapi parisuddhattā vaṭṭiyāpi parisuddhattā na andhandhaṁ viya jhāyati; ",
+      "english": "Because of the purity of the oil and the wick it doesn’t burn dimly, as it were. "
+    },
+    {
+      "number": 129,
+      "pali": "evameva kho, āvuso kaccāna, idhekacco bhikkhu ‘parisuddhābhā’ti pharitvā adhimuccitvā viharati. ",
+      "english": "In the same way, take some mendicant who meditates focused on pervading ‘pure radiance’. "
+    },
+    {
+      "number": 130,
+      "pali": "Tassa kāyaduṭṭhullampi suppaṭippassaddhaṁ hoti, thinamiddhampi susamūhataṁ hoti, uddhaccakukkuccampi suppaṭivinītaṁ hoti. ",
+      "english": "Their physical discomfort is completely settled, their dullness and drowsiness is completely eradicated, and their restlessness and remorse is completely eliminated. "
+    },
+    {
+      "number": 131,
+      "pali": "So kāyaduṭṭhullassapi suppaṭippassaddhattā thinamiddhassapi susamūhatattā uddhaccakukkuccassapi suppaṭivinītattā na andhandhaṁ viya jhāyati. ",
+      "english": "Because of this they don’t practice absorption dimly, as it were. "
+    },
+    {
+      "number": 132,
+      "pali": "So kāyassa bhedā paraṁ maraṇā parisuddhābhānaṁ devānaṁ sahabyataṁ upapajjati. ",
+      "english": "When their body breaks up, after death, they’re reborn in the company of the gods of pure radiance. "
+    },
+    {
+      "number": 133,
+      "pali": "Ayaṁ kho, āvuso kaccāna, hetu ayaṁ paccayo yena tāsaṁ devatānaṁ ekaṁ devanikāyaṁ upapannānaṁ santettha ekaccā devatā saṅkiliṭṭhābhā, santi panettha ekaccā devatā parisuddhābhā”ti. ",
+      "english": "“This is the cause, Reverend Kaccāna, this is the reason why, when those deities have been reborn in a single order of gods, some deities there have corrupted radiance, while some have pure radiance.” "
+    },
+    {
+      "number": 134,
+      "pali": "Evaṁ vutte, āyasmā sabhiyo kaccāno āyasmantaṁ anuruddhaṁ etadavoca: ",
+      "english": "When he had spoken, Venerable Sabhiya Kaccāna said to Venerable Anuruddha, "
+    },
+    {
+      "number": 135,
+      "pali": "“sādhu, bhante anuruddha. ",
+      "english": "“Good, Honorable Anuruddha! "
+    },
+    {
+      "number": 136,
+      "pali": "Na, bhante, āyasmā anuruddho evamāha: ",
+      "english": "Venerable Anuruddha, you don’t say, "
+    },
+    {
+      "number": 137,
+      "pali": "‘evaṁ me sutan’ti vā ‘evaṁ arahati bhavitun’ti vā; ",
+      "english": "‘So I have heard’ or ‘It ought to be like this.’ "
+    },
+    {
+      "number": 138,
+      "pali": "atha ca pana, bhante, āyasmā anuruddho ‘evampi tā devatā, itipi tā devatā’tveva bhāsati. ",
+      "english": "Rather, you say: ‘These deities are like this, those deities are like that.’ "
+    },
+    {
+      "number": 139,
+      "pali": "Tassa mayhaṁ, bhante, evaṁ hoti: ",
+      "english": "Sir, it occurs to me, "
+    },
+    {
+      "number": 140,
+      "pali": "‘addhā āyasmatā anuruddhena tāhi devatāhi saddhiṁ sannivutthapubbañceva sallapitapubbañca sākacchā ca samāpajjitapubbā’”ti. ",
+      "english": "‘Clearly, Venerable Anuruddha has previously lived together with those deities, conversed, and engaged in discussion.’” "
+    },
+    {
+      "number": 141,
+      "pali": "“Addhā kho ayaṁ, āvuso kaccāna, āsajja upanīya vācā bhāsitā, ",
+      "english": "“Your words are clearly invasive and intrusive, Reverend Kaccāna. "
+    },
+    {
+      "number": 142,
+      "pali": "api ca te ahaṁ byākarissāmi: ",
+      "english": "Nevertheless, I will answer you. "
+    },
+    {
+      "number": 143,
+      "pali": "‘dīgharattaṁ kho me, āvuso kaccāna, tāhi devatāhi saddhiṁ sannivutthapubbañceva sallapitapubbañca sākacchā ca samāpajjitapubbā’”ti. ",
+      "english": "For a long time I have previously lived together with those deities, conversed, and engaged in discussion.” "
+    },
+    {
+      "number": 144,
+      "pali": "Evaṁ vutte, āyasmā sabhiyo kaccāno pañcakaṅgaṁ thapatiṁ etadavoca: ",
+      "english": "When he had spoken, Venerable Sabhiya Kaccāna said to Pañcakaṅga the chamberlain, "
+    },
+    {
+      "number": 145,
+      "pali": "“lābhā te, gahapati, suladdhaṁ te, gahapati, ",
+      "english": "“You’re fortunate, householder, so very fortunate, "
+    },
+    {
+      "number": 146,
+      "pali": "yaṁ tvañceva taṁ kaṅkhādhammaṁ pahāsi, mayañcimaṁ dhammapariyāyaṁ alatthamhā savanāyā”ti. ",
+      "english": "to have given up your state of uncertainty, and to have got the chance to listen to this exposition of the teaching.” "
+    },
+    {
+      "number": 147,
+      "pali": "Anuruddhasuttaṁ niṭṭhitaṁ sattamaṁ. ",
+      "english": ""
+    }
+  ]
+}

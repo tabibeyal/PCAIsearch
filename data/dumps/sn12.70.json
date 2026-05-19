@@ -1,0 +1,905 @@
+{
+  "sutta_id": "SN12.70",
+  "verses": [
+    {
+      "number": 1,
+      "pali": "Saṁyutta Nikāya 12.70 ",
+      "english": "Linked Discourses 12.70 "
+    },
+    {
+      "number": 2,
+      "pali": "7. Mahāvagga ",
+      "english": "7. The Great Chapter "
+    },
+    {
+      "number": 3,
+      "pali": "Susimaparibbājakasutta ",
+      "english": "The Wanderer Susīma "
+    },
+    {
+      "number": 4,
+      "pali": "Evaṁ me sutaṁ—",
+      "english": "So I have heard. "
+    },
+    {
+      "number": 5,
+      "pali": "ekaṁ samayaṁ bhagavā rājagahe viharati veḷuvane kalandakanivāpe. ",
+      "english": "At one time the Buddha was staying near Rājagaha, in the Bamboo Grove, the squirrels’ feeding ground. "
+    },
+    {
+      "number": 6,
+      "pali": "Tena kho pana samayena bhagavā sakkato hoti garukato mānito pūjito apacito lābhī cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
+      "english": "Now at that time the Buddha was honored, respected, revered, venerated, and esteemed. And he received robes, almsfood, lodgings, and medicines and supplies for the sick. "
+    },
+    {
+      "number": 7,
+      "pali": "Bhikkhusaṅghopi sakkato hoti garukato mānito pūjito apacito lābhī cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
+      "english": "And the mendicant Saṅgha was also honored, respected, revered, venerated, and esteemed. And they received robes, almsfood, lodgings, and medicines and supplies for the sick. "
+    },
+    {
+      "number": 8,
+      "pali": "Aññatitthiyā pana paribbājakā asakkatā honti agarukatā amānitā apūjitā anapacitā, na lābhino cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānaṁ. ",
+      "english": "But the wanderers who followed other religions were not honored, respected, revered, venerated, and esteemed. And they didn’t receive robes, almsfood, lodgings, and medicines and supplies for the sick. "
+    },
+    {
+      "number": 9,
+      "pali": "Tena kho pana samayena susimo paribbājako rājagahe paṭivasati mahatiyā paribbājakaparisāya saddhiṁ. ",
+      "english": "Now at that time the wanderer Susīma was residing at Rājagaha together with a large community of wanderers. "
+    },
+    {
+      "number": 10,
+      "pali": "Atha kho susimassa paribbājakassa parisā susimaṁ paribbājakaṁ etadavocuṁ: ",
+      "english": "Then his community said to Susīma, "
+    },
+    {
+      "number": 11,
+      "pali": "“ehi tvaṁ, āvuso susima, samaṇe gotame brahmacariyaṁ cara. ",
+      "english": "“Reverend Susīma, please lead the spiritual life with the ascetic Gotama. "
+    },
+    {
+      "number": 12,
+      "pali": "Tvaṁ dhammaṁ pariyāpuṇitvā amhe vāceyyāsi. ",
+      "english": "Memorize that teaching and have us recite it with you. "
+    },
+    {
+      "number": 13,
+      "pali": "Taṁ mayaṁ dhammaṁ pariyāpuṇitvā gihīnaṁ bhāsissāma. ",
+      "english": "When we’ve memorized it we’ll recite it to the laity. "
+    },
+    {
+      "number": 14,
+      "pali": "Evaṁ mayampi sakkatā bhavissāma garukatā mānitā pūjitā apacitā lābhino cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānan”ti. ",
+      "english": "In this way we too will be honored, respected, revered, venerated, and esteemed. And we’ll receive robes, almsfood, lodgings, and medicines and supplies for the sick.” "
+    },
+    {
+      "number": 15,
+      "pali": "“Evamāvuso”ti kho susimo paribbājako sakāya parisāya paṭissuṇitvā yenāyasmā ānando tenupasaṅkami; upasaṅkamitvā āyasmatā ānandena saddhiṁ sammodi. ",
+      "english": "“Yes, reverends,” replied Susīma to his own assembly. Then he went to Venerable Ānanda, and exchanged greetings with him. "
+    },
+    {
+      "number": 16,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho susimo paribbājako āyasmantaṁ ānandaṁ etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to Ānanda, "
+    },
+    {
+      "number": 17,
+      "pali": "“icchāmahaṁ, āvuso ānanda, imasmiṁ dhammavinaye brahmacariyaṁ caritun”ti. ",
+      "english": "“Reverend Ānanda, I wish to lead the spiritual life in this teaching and training.” "
+    },
+    {
+      "number": 18,
+      "pali": "Atha kho āyasmā ānando susimaṁ paribbājakaṁ ādāya yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā ānando bhagavantaṁ etadavoca: ",
+      "english": "Then Ānanda took Susīma to the Buddha, bowed, sat down to one side, and said to him, "
+    },
+    {
+      "number": 19,
+      "pali": "“ayaṁ, bhante, susimo paribbājako evamāha: ",
+      "english": "“Sir, this wanderer Susīma says that "
+    },
+    {
+      "number": 20,
+      "pali": "‘icchāmahaṁ, āvuso ānanda, imasmiṁ dhammavinaye brahmacariyaṁ caritun’”ti. ",
+      "english": "he wishes to lead the spiritual life in this teaching and training.” "
+    },
+    {
+      "number": 21,
+      "pali": "“Tenahānanda, susimaṁ pabbājethā”ti. ",
+      "english": "“Well then, Ānanda, give Susīma the going forth.” "
+    },
+    {
+      "number": 22,
+      "pali": "Alattha kho susimo paribbājako bhagavato santike pabbajjaṁ, alattha upasampadaṁ. ",
+      "english": "And the wanderer Susīma received the going forth, the ordination in the Buddha’s presence. "
+    },
+    {
+      "number": 23,
+      "pali": "Tena kho pana samayena sambahulehi bhikkhūhi bhagavato santike aññā byākatā hoti: ",
+      "english": "Now at that time several mendicants had declared their enlightenment in the Buddha’s presence: "
+    },
+    {
+      "number": 24,
+      "pali": "“khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmā”ti. ",
+      "english": "“We understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’” "
+    },
+    {
+      "number": 25,
+      "pali": "Assosi kho āyasmā susimo: ",
+      "english": "Venerable Susīma heard about this. "
+    },
+    {
+      "number": 26,
+      "pali": "“sambahulehi kira bhikkhūhi bhagavato santike aññā byākatā: ",
+      "english": ""
+    },
+    {
+      "number": 27,
+      "pali": "‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāmā”ti. ",
+      "english": ""
+    },
+    {
+      "number": 28,
+      "pali": "Atha kho āyasmā susimo yena te bhikkhū tenupasaṅkami; upasaṅkamitvā tehi bhikkhūhi saddhiṁ sammodi. ",
+      "english": "He went up to those mendicants, and exchanged greetings with them. "
+    },
+    {
+      "number": 29,
+      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā susimo te bhikkhū etadavoca: ",
+      "english": "When the greetings and polite conversation were over, he sat down to one side and said to those mendicants, "
+    },
+    {
+      "number": 30,
+      "pali": "“saccaṁ kirāyasmantehi bhagavato santike aññā byākatā: ",
+      "english": "“Is it really true that the venerables have declared enlightenment in the Buddha’s presence?” "
+    },
+    {
+      "number": 31,
+      "pali": "‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāmā”ti? ",
+      "english": ""
+    },
+    {
+      "number": 32,
+      "pali": "“Evamāvuso”ti. ",
+      "english": "“Yes, reverend.” "
+    },
+    {
+      "number": 33,
+      "pali": "“Api pana tumhe āyasmanto evaṁ jānantā evaṁ passantā anekavihitaṁ iddhividhaṁ paccanubhotha—ekopi hutvā bahudhā hotha, bahudhāpi hutvā eko hotha; āvibhāvaṁ, tirobhāvaṁ, tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamānā gacchatha, seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karotha, seyyathāpi udake; udakepi abhijjamāne gacchatha, seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamatha, seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parimasatha parimajjatha, yāva brahmalokāpi kāyena vasaṁ vattethā”ti? ",
+      "english": "“But knowing and seeing thus, do you wield the many kinds of psychic power? That is, multiplying yourselves and becoming one again; materializing and dematerializing; going unobstructed through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with the hand the sun and moon, so mighty and powerful. Do you control the body as far as the realm of divinity?” "
+    },
+    {
+      "number": 34,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 35,
+      "pali": "“Api pana tumhe āyasmanto evaṁ jānantā evaṁ passantā dibbāya sotadhātuyā visuddhāya atikkantamānusikāya ubho sadde suṇātha dibbe ca mānuse ca ye dūre santike cā”ti? ",
+      "english": "“Well, knowing and seeing thus do you, with clairaudience that is purified and superhuman, hear both kinds of sounds, human and heavenly, whether near or far?” "
+    },
+    {
+      "number": 36,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 37,
+      "pali": "“Api pana tumhe āyasmanto evaṁ jānantā evaṁ passantā parasattānaṁ parapuggalānaṁ cetasā ceto paricca pajānātha—",
+      "english": "“Well, knowing and seeing thus, do you understand the minds of other beings and individuals, having encompassed them with your mind? "
+    },
+    {
+      "number": 38,
+      "pali": "sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajānātha; ",
+      "english": "Do you understand mind with greed as ‘mind with greed’, "
+    },
+    {
+      "number": 39,
+      "pali": "vītarāgaṁ vā cittaṁ vītarāgaṁ cittanti pajānātha; ",
+      "english": "and mind without greed as ‘mind without greed’? "
+    },
+    {
+      "number": 40,
+      "pali": "sadosaṁ vā cittaṁ sadosaṁ cittanti pajānātha; ",
+      "english": "Do you understand mind with hate as ‘mind with hate’, "
+    },
+    {
+      "number": 41,
+      "pali": "vītadosaṁ vā cittaṁ vītadosaṁ cittanti pajānātha; ",
+      "english": "and mind without hate as ‘mind without hate’? "
+    },
+    {
+      "number": 42,
+      "pali": "samohaṁ vā cittaṁ samohaṁ cittanti pajānātha; ",
+      "english": "Do you understand mind with delusion as ‘mind with delusion’, "
+    },
+    {
+      "number": 43,
+      "pali": "vītamohaṁ vā cittaṁ vītamohaṁ cittanti pajānātha; ",
+      "english": "and mind without delusion as ‘mind without delusion’? "
+    },
+    {
+      "number": 44,
+      "pali": "saṅkhittaṁ vā cittaṁ saṅkhittaṁ cittanti pajānātha; ",
+      "english": "Do you understand constricted mind as ‘constricted mind’, "
+    },
+    {
+      "number": 45,
+      "pali": "vikkhittaṁ vā cittaṁ vikkhittaṁ cittanti pajānātha; ",
+      "english": "and scattered mind as ‘scattered mind’? "
+    },
+    {
+      "number": 46,
+      "pali": "mahaggataṁ vā cittaṁ mahaggataṁ cittanti pajānātha; ",
+      "english": "Do you understand expansive mind as ‘expansive mind’, "
+    },
+    {
+      "number": 47,
+      "pali": "amahaggataṁ vā cittaṁ amahaggataṁ cittanti pajānātha; ",
+      "english": "and unexpansive mind as ‘unexpansive mind’? "
+    },
+    {
+      "number": 48,
+      "pali": "sauttaraṁ vā cittaṁ sauttaraṁ cittanti pajānātha; ",
+      "english": "Do you understand mind that is not supreme as ‘mind that is not supreme’, "
+    },
+    {
+      "number": 49,
+      "pali": "anuttaraṁ vā cittaṁ anuttaraṁ cittanti pajānātha; ",
+      "english": "and mind that is supreme as ‘mind that is supreme’? "
+    },
+    {
+      "number": 50,
+      "pali": "samāhitaṁ vā cittaṁ samāhitaṁ cittanti pajānātha; ",
+      "english": "Do you understand mind immersed in samādhi as ‘mind immersed in samādhi’, "
+    },
+    {
+      "number": 51,
+      "pali": "asamāhitaṁ vā cittaṁ asamāhitaṁ cittanti pajānātha; ",
+      "english": "and mind not immersed in samādhi as ‘mind not immersed in samādhi’? "
+    },
+    {
+      "number": 52,
+      "pali": "vimuttaṁ vā cittaṁ vimuttaṁ cittanti pajānātha; ",
+      "english": "Do you understand freed mind as ‘freed mind’, "
+    },
+    {
+      "number": 53,
+      "pali": "avimuttaṁ vā cittaṁ avimuttaṁ cittanti pajānāthā”ti? ",
+      "english": "and unfreed mind as ‘unfreed mind’?” "
+    },
+    {
+      "number": 54,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 55,
+      "pali": "“Api pana tumhe āyasmanto evaṁ jānantā evaṁ passantā anekavihitaṁ pubbenivāsaṁ anussaratha, seyyathidaṁ—ekampi jātiṁ dvepi jātiyo tissopi jātiyo catassopi jātiyo pañcapi jātiyo dasapi jātiyo vīsampi jātiyo tiṁsampi jātiyo cattārīsampi jātiyo paññāsampi jātiyo jātisatampi jātisahassampi jātisatasahassampi, anekepi saṁvaṭṭakappe anekepi vivaṭṭakappe anekepi saṁvaṭṭavivaṭṭakappe: ‘amutrāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhapaṭisaṁvedī evamāyupariyanto, so tato cuto amutra udapādiṁ; tatrāpāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhapaṭisaṁvedī evamāyupariyanto, so tato cuto idhūpapanno’ti. Iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarathā”ti? ",
+      "english": "“Well, knowing and seeing thus, do you recollect many kinds of past lives? That is: one, two, three, four, five, ten, twenty, thirty, forty, fifty, a hundred, a thousand, a hundred thousand rebirths; many eons of the world contracting, many eons of the world expanding, many eons of the world contracting and expanding? Do you remember: ‘There, I was named this, my clan was that, I looked like this, and that was my food. This was how I felt pleasure and pain, and that was how my life ended. When I passed away from that place I was reborn somewhere else. There, too, I was named this, my clan was that, I looked like this, and that was my food. This was how I felt pleasure and pain, and that was how my life ended. When I passed away from that place I was reborn here.’ Do you recollect your many kinds of past lives, with features and details?” "
+    },
+    {
+      "number": 56,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 57,
+      "pali": "“Api pana tumhe āyasmanto evaṁ jānantā evaṁ passantā dibbena cakkhunā visuddhena atikkantamānusakena satte passatha cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe, sugate duggate yathākammūpage satte pajānātha: ‘ime vata bhonto sattā kāyaduccaritena samannāgatā vacīduccaritena samannāgatā manoduccaritena samannāgatā, ariyānaṁ upavādakā micchādiṭṭhikā micchādiṭṭhikammasamādānā, te kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapannā; ime vā pana bhonto sattā kāyasucaritena samannāgatā vacīsucaritena samannāgatā manosucaritena samannāgatā, ariyānaṁ anupavādakā sammādiṭṭhikā sammādiṭṭhikammasamādānā te kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapannā’ti, iti dibbena cakkhunā visuddhena atikkantamānusakena satte passatha cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe, sugate duggate yathākammūpage satte pajānāthā”ti? ",
+      "english": "“Well, knowing and seeing thus, do you, with clairvoyance that is purified and superhuman, see sentient beings passing away and being reborn—inferior and superior, beautiful and ugly, in a good place or a bad place—and understand how sentient beings pass on according to their deeds? ‘These dear beings did bad things by way of body, speech, and mind. They denounced the noble ones; they had wrong view; and they chose to act out of that wrong view. When their body breaks up, after death, they’re reborn in a place of loss, a bad place, the underworld, hell. These dear beings, however, did good things by way of body, speech, and mind. They never denounced the noble ones; they had right view; and they chose to act out of that right view. When their body breaks up, after death, they’re reborn in a good place, a heavenly realm.’ And so, with clairvoyance that is purified and superhuman, do you see sentient beings passing away and being reborn—inferior and superior, beautiful and ugly, in a good place or a bad place. And do you understand how sentient beings pass on according to their deeds?” "
+    },
+    {
+      "number": 58,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 59,
+      "pali": "“Api pana tumhe āyasmanto evaṁ jānantā evaṁ passantā ye te santā vimokkhā atikkamma rūpe āruppā, te kāyena phusitvā viharathā”ti? ",
+      "english": "“Well, knowing and seeing thus, do you have direct meditative experience of the peaceful liberations that are formless, transcending form?” "
+    },
+    {
+      "number": 60,
+      "pali": "“No hetaṁ, āvuso”. ",
+      "english": "“No, reverend.” "
+    },
+    {
+      "number": 61,
+      "pali": "“Ettha dāni āyasmanto idañca veyyākaraṇaṁ imesañca dhammānaṁ asamāpatti; idaṁ no, āvuso, kathan”ti? ",
+      "english": "“Well now, venerables, how could there be such a declaration when these things are not attained?” "
+    },
+    {
+      "number": 62,
+      "pali": "“Paññāvimuttā kho mayaṁ, āvuso susimā”ti. ",
+      "english": "“Reverend Susīma, we are freed by wisdom.” "
+    },
+    {
+      "number": 63,
+      "pali": "“Na khvāhaṁ imassa āyasmantānaṁ saṅkhittena bhāsitassa vitthārena atthaṁ ājānāmi. ",
+      "english": "“I don’t understand the detailed meaning of what you have said in brief. "
+    },
+    {
+      "number": 64,
+      "pali": "Sādhu me āyasmanto tathā bhāsantu yathāhaṁ imassa āyasmantānaṁ saṅkhittena bhāsitassa vitthārena atthaṁ ājāneyyan”ti. ",
+      "english": "Please teach me this matter so I can understand the detailed meaning.” "
+    },
+    {
+      "number": 65,
+      "pali": "“Ājāneyyāsi vā tvaṁ, āvuso susima, na vā tvaṁ ājāneyyāsi atha kho paññāvimuttā mayan”ti. ",
+      "english": "“Reverend Susīma, whether you understand or not, we are freed by wisdom.” "
+    },
+    {
+      "number": 66,
+      "pali": "Atha kho āyasmā susimo uṭṭhāyāsanā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. ",
+      "english": "Then Susīma went to the Buddha, bowed, sat down to one side, "
+    },
+    {
+      "number": 67,
+      "pali": "Ekamantaṁ nisinno kho āyasmā susimo yāvatako tehi bhikkhūhi saddhiṁ ahosi kathāsallāpo taṁ sabbaṁ bhagavato ārocesi. ",
+      "english": "and informed the Buddha of all he had discussed with those mendicants. "
+    },
+    {
+      "number": 68,
+      "pali": "“Pubbe kho, susima, dhammaṭṭhitiñāṇaṁ, pacchā nibbāne ñāṇan”ti. ",
+      "english": "“Susīma, first comes knowledge of the stability of natural principles. Afterwards there is knowledge of extinguishment.” "
+    },
+    {
+      "number": 69,
+      "pali": "“Na khvāhaṁ, bhante, imassa bhagavatā saṅkhittena bhāsitassa vitthārena atthaṁ ājānāmi. ",
+      "english": "“Sir, I don’t understand the detailed meaning of what you have said in brief. "
+    },
+    {
+      "number": 70,
+      "pali": "Sādhu me, bhante, bhagavā tathā bhāsatu yathāhaṁ imassa bhagavatā saṅkhittena bhāsitassa vitthārena atthaṁ ājāneyyan”ti. ",
+      "english": "Please teach me this matter so I can understand the detailed meaning.” "
+    },
+    {
+      "number": 71,
+      "pali": "“Ājāneyyāsi vā tvaṁ, susima, na vā tvaṁ ājāneyyāsi, atha kho dhammaṭṭhitiñāṇaṁ pubbe, pacchā nibbāne ñāṇaṁ. ",
+      "english": "“Susīma, whether you understand or not, first comes knowledge of the stability of natural principles. Afterwards there is knowledge of extinguishment. "
+    },
+    {
+      "number": 72,
+      "pali": "Taṁ kiṁ maññasi, susima, ",
+      "english": "What do you think, Susīma? "
+    },
+    {
+      "number": 73,
+      "pali": "rūpaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "Is form permanent or impermanent?” "
+    },
+    {
+      "number": 74,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 75,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 76,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 77,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 78,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 79,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 80,
+      "pali": "“Vedanā niccā vā aniccā vā”ti? ",
+      "english": "“Is feeling permanent or impermanent?” "
+    },
+    {
+      "number": 81,
+      "pali": "“Aniccā, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 82,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 83,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 84,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 85,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 86,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 87,
+      "pali": "“Saññā niccā vā aniccā vā”ti? ",
+      "english": "“Is perception permanent or impermanent?” "
+    },
+    {
+      "number": 88,
+      "pali": "“Aniccā, bhante” …pe… ",
+      "english": "“Impermanent, sir.” … "
+    },
+    {
+      "number": 89,
+      "pali": "“saṅkhārā niccā vā aniccā vā”ti? ",
+      "english": "“Are choices permanent or impermanent?” "
+    },
+    {
+      "number": 90,
+      "pali": "“Aniccā, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 91,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if they’re impermanent, are they suffering or happiness?” "
+    },
+    {
+      "number": 92,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 93,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if they’re impermanent, suffering, and perishable, are they fit to be regarded thus: "
+    },
+    {
+      "number": 94,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 95,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 96,
+      "pali": "“Viññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
+      "english": "“Is consciousness permanent or impermanent?” "
+    },
+    {
+      "number": 97,
+      "pali": "“Aniccaṁ, bhante”. ",
+      "english": "“Impermanent, sir.” "
+    },
+    {
+      "number": 98,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
+      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+    },
+    {
+      "number": 99,
+      "pali": "“Dukkhaṁ, bhante”. ",
+      "english": "“Suffering, sir.” "
+    },
+    {
+      "number": 100,
+      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
+      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+    },
+    {
+      "number": 101,
+      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
+      "english": "‘This is mine, I am this, this is my self’?” "
+    },
+    {
+      "number": 102,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 103,
+      "pali": "“Tasmātiha, susima, yaṁ kiñci rūpaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ rūpaṁ netaṁ mama nesohamasmi na meso attāti; evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "“So, Susīma, you should truly see any kind of form at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> form—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 104,
+      "pali": "Yā kāci vedanā atītānāgatapaccuppannā ajjhattaṁ vā bahiddhā vā oḷārikā vā sukhumā vā hīnā vā paṇītā vā yā dūre santike vā, sabbā vedanā netaṁ mama nesohamasmi na meso attāti; evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "You should truly see any kind of feeling at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> feeling—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 105,
+      "pali": "Yā kāci saññā …pe… ",
+      "english": "You should truly see any kind of perception at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> perception—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 106,
+      "pali": "ye keci saṅkhārā atītānāgatapaccuppannā ajjhattaṁ vā bahiddhā vā oḷārikā vā sukhumā vā hīnā vā paṇītā vā ye dūre santike vā, sabbe saṅkhārā netaṁ mama nesohamasmi na meso attāti; evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "You should truly see any kind of choices at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> choices—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 107,
+      "pali": "Yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ viññāṇaṁ netaṁ mama nesohamasmi na meso attāti; evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
+      "english": "You should truly see any kind of consciousness at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> consciousness—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
+    },
+    {
+      "number": 108,
+      "pali": "Evaṁ passaṁ, susima, sutavā ariyasāvako rūpasmimpi nibbindati, vedanāyapi nibbindati, saññāyapi nibbindati, saṅkhāresupi nibbindati, viññāṇasmimpi nibbindati. ",
+      "english": "Seeing this, a learned noble disciple grows disillusioned with form, feeling, perception, choices, and consciousness. "
+    },
+    {
+      "number": 109,
+      "pali": "Nibbindaṁ virajjati, virāgā vimuccati, vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. ",
+      "english": "Being disillusioned, desire fades away. When desire fades away they’re freed. When they’re freed, they know they’re freed. "
+    },
+    {
+      "number": 110,
+      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ",
+      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
+    },
+    {
+      "number": 111,
+      "pali": "‘Jātipaccayā jarāmaraṇan’ti, susima, passasī”ti? ",
+      "english": "Susīma, do you see that rebirth is a requirement for old age and death?” "
+    },
+    {
+      "number": 112,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 113,
+      "pali": "“‘Bhavapaccayā jātī’ti, susima, passasī”ti? ",
+      "english": "“Do you see that continued existence is a requirement for rebirth?” "
+    },
+    {
+      "number": 114,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 115,
+      "pali": "“‘Upādānapaccayā bhavo’ti, susima, passasī”ti? ",
+      "english": "“Do you see that grasping is a requirement for continued existence?” "
+    },
+    {
+      "number": 116,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 117,
+      "pali": "“‘Taṇhāpaccayā upādānan’ti, susima, passasī”ti? ",
+      "english": "“Do you see that craving is a requirement for grasping?” "
+    },
+    {
+      "number": 118,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 119,
+      "pali": "“Vedanāpaccayā taṇhāti … ",
+      "english": "“Do you see that feeling is a requirement for craving … "
+    },
+    {
+      "number": 120,
+      "pali": "phassapaccayā vedanāti … ",
+      "english": "contact is a requirement for feeling … "
+    },
+    {
+      "number": 121,
+      "pali": "saḷāyatanapaccayā phassoti … ",
+      "english": "the six sense fields are requirements for contact … "
+    },
+    {
+      "number": 122,
+      "pali": "nāmarūpapaccayā saḷāyatananti … ",
+      "english": "name and form are requirements for the six sense fields … "
+    },
+    {
+      "number": 123,
+      "pali": "viññāṇapaccayā nāmarūpanti … ",
+      "english": "consciousness is a requirement for name and form … "
+    },
+    {
+      "number": 124,
+      "pali": "saṅkhārapaccayā viññāṇanti … ",
+      "english": "choices are a requirement for consciousness … "
+    },
+    {
+      "number": 125,
+      "pali": "avijjāpaccayā saṅkhārāti, susima, passasī”ti? ",
+      "english": "ignorance is a requirement for choices?” "
+    },
+    {
+      "number": 126,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 127,
+      "pali": "“‘Jātinirodhā jarāmaraṇanirodho’ti, susima, passasī”ti? ",
+      "english": "“Do you see that when rebirth ceases old age and death cease?” "
+    },
+    {
+      "number": 128,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 129,
+      "pali": "“‘Bhavanirodhā jātinirodho’ti susima, passasī”ti? ",
+      "english": "“Do you see that when continued existence ceases rebirth ceases?” "
+    },
+    {
+      "number": 130,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 131,
+      "pali": "“Upādānanirodhā bhavanirodhoti … ",
+      "english": "“Do you see that when grasping ceases continued existence ceases … "
+    },
+    {
+      "number": 132,
+      "pali": "taṇhānirodhā upādānanirodhoti … ",
+      "english": "when craving ceases, grasping ceases … "
+    },
+    {
+      "number": 133,
+      "pali": "vedanānirodhā taṇhānirodhoti … ",
+      "english": "when feeling ceases, craving ceases … "
+    },
+    {
+      "number": 134,
+      "pali": "phassanirodhā vedanānirodhoti … ",
+      "english": "when contact ceases, feeling ceases … "
+    },
+    {
+      "number": 135,
+      "pali": "saḷāyatananirodhā phassanirodhoti … ",
+      "english": "when the six sense fields cease, contact ceases … "
+    },
+    {
+      "number": 136,
+      "pali": "nāmarūpanirodhā saḷāyatananirodhoti … ",
+      "english": "when name and form cease, the six sense fields cease … "
+    },
+    {
+      "number": 137,
+      "pali": "viññāṇanirodhā nāmarūpanirodhoti … ",
+      "english": "when consciousness ceases name and form cease … "
+    },
+    {
+      "number": 138,
+      "pali": "saṅkhāranirodhā viññāṇanirodhoti … ",
+      "english": "when choices cease consciousness ceases … "
+    },
+    {
+      "number": 139,
+      "pali": "avijjānirodhā saṅkhāranirodhoti, susima, passasī”ti? ",
+      "english": "when ignorance ceases choices cease?” "
+    },
+    {
+      "number": 140,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 141,
+      "pali": "“Api pana tvaṁ, susima, evaṁ jānanto evaṁ passanto anekavihitaṁ iddhividhaṁ paccanubhosi—ekopi hutvā bahudhā hosi, bahudhāpi hutvā eko hosi; āvibhāvaṁ, tirobhāvaṁ, tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamāno gacchasi, seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karosi, seyyathāpi udake; udakepi abhijjamāno gacchasi, seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamasi, seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parimasasi parimajjasi, yāva brahmalokāpi kāyena vasaṁ vattesī”ti? ",
+      "english": "“But knowing and seeing thus, do you wield the many kinds of psychic power? …” "
+    },
+    {
+      "number": 142,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 143,
+      "pali": "“Api pana tvaṁ, susima, evaṁ jānanto evaṁ passanto dibbāya sotadhātuyā visuddhāya atikkantamānusikāya ubho sadde suṇasi dibbe ca mānuse ca ye dūre santike cā”ti? ",
+      "english": "“Well, knowing and seeing thus do you, with clairaudience that is purified and superhuman, hear both kinds of sounds, human and heavenly, whether near or far?” "
+    },
+    {
+      "number": 144,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 145,
+      "pali": "“Api pana tvaṁ, susima, evaṁ jānanto evaṁ passanto parasattānaṁ parapuggalānaṁ cetasā ceto paricca pajānāsi—",
+      "english": "“Well, knowing and seeing thus, do you understand the minds of other beings and individuals, having encompassed them with your mind? …” "
+    },
+    {
+      "number": 146,
+      "pali": "sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajānāsi …pe… ",
+      "english": ""
+    },
+    {
+      "number": 147,
+      "pali": "vimuttaṁ vā cittaṁ vimuttaṁ cittanti pajānāsī”ti? ",
+      "english": ""
+    },
+    {
+      "number": 148,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 149,
+      "pali": "“Api pana tvaṁ, susima, evaṁ jānanto evaṁ passanto anekavihitaṁ pubbenivāsaṁ anussarasi, seyyathidaṁ—ekampi jātiṁ …pe… iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarasī”ti? ",
+      "english": "“Well, knowing and seeing thus, do you recollect many kinds of past lives, with features and details?” "
+    },
+    {
+      "number": 150,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 151,
+      "pali": "“Api pana tvaṁ, susima, evaṁ jānanto evaṁ passanto dibbena cakkhunā visuddhena atikkantamānusakena satte passasi cavamāne …pe… yathākammūpage satte pajānāsī”ti? ",
+      "english": "“Well, knowing and seeing thus, do you, with clairvoyance that is purified and superhuman, see sentient beings passing away and being reborn … according to their deeds?” "
+    },
+    {
+      "number": 152,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 153,
+      "pali": "“Api pana tvaṁ, susima, evaṁ jānanto evaṁ passanto ye te santā vimokkhā atikkamma rūpe āruppā, te kāyena phusitvā viharasī”ti? ",
+      "english": "“Well, knowing and seeing thus, do you have direct meditative experience of the peaceful liberations that are formless, transcending form?” "
+    },
+    {
+      "number": 154,
+      "pali": "“No hetaṁ, bhante”. ",
+      "english": "“No, sir.” "
+    },
+    {
+      "number": 155,
+      "pali": "“Ettha dāni, susima, idañca veyyākaraṇaṁ imesañca dhammānaṁ asamāpatti, idaṁ no, susima, kathan”ti? ",
+      "english": "“Well now, Susīma, how could there be such a declaration when these things are not attained?” "
+    },
+    {
+      "number": 156,
+      "pali": "Atha kho āyasmā susimo bhagavato pādesu sirasā nipatitvā bhagavantaṁ etadavoca: ",
+      "english": "Then Venerable Susīma bowed with his head at the Buddha’s feet and said, "
+    },
+    {
+      "number": 157,
+      "pali": "“accayo maṁ, bhante, accagamā yathābālaṁ yathāmūḷhaṁ yathāakusalaṁ, yvāhaṁ evaṁ svākkhāte dhammavinaye dhammatthenako pabbajito. ",
+      "english": "“I made a mistake, sir. It was foolish, stupid, and unskillful of me to go forth as a thief in such a well-explained teaching and training. "
+    },
+    {
+      "number": 158,
+      "pali": "Tassa me, bhante, bhagavā accayaṁ accayato paṭiggaṇhātu āyatiṁ saṁvarāyā”ti. ",
+      "english": "Please, sir, accept my mistake for what it is, so I will restrain myself in future.” "
+    },
+    {
+      "number": 159,
+      "pali": "“Taggha tvaṁ, susima, accayo accagamā yathābālaṁ yathāmūḷhaṁ yathāakusalaṁ, yo tvaṁ evaṁ svākkhāte dhammavinaye dhammatthenako pabbajito. ",
+      "english": "“Indeed, Susīma, you made a mistake. It was foolish, stupid, and unskillful of you to go forth as a thief of the teachings in such a well-explained teaching and training. "
+    },
+    {
+      "number": 160,
+      "pali": "Seyyathāpi, susima, coraṁ āgucāriṁ gahetvā rañño dasseyyuṁ: ",
+      "english": "Suppose they were to arrest a bandit, a criminal and present him to the king, saying: "
+    },
+    {
+      "number": 161,
+      "pali": "‘ayaṁ te, deva, coro āgucārī, imassa yaṁ icchasi taṁ daṇḍaṁ paṇehī’ti. ",
+      "english": "‘Your Majesty, this is a bandit, a criminal. Punish him as you will.’ "
+    },
+    {
+      "number": 162,
+      "pali": "Tamenaṁ rājā evaṁ vadeyya: ",
+      "english": "The king would say: "
+    },
+    {
+      "number": 163,
+      "pali": "‘gacchatha, bho, imaṁ purisaṁ daḷhāya rajjuyā pacchābāhaṁ gāḷhabandhanaṁ bandhitvā khuramuṇḍaṁ karitvā kharassarena paṇavena rathiyāya rathiyaṁ siṅghāṭakena siṅghāṭakaṁ parinetvā dakkhiṇena dvārena nikkhāmetvā dakkhiṇato nagarassa sīsaṁ chindathā’ti. ",
+      "english": "‘Go, my men, and tie this man’s arms tightly behind his back with a strong rope. Shave his head and march him from street to street and from square to square to the beating of a harsh drum. Then take him out the south gate and there, to the south of the city, chop off his head.’ "
+    },
+    {
+      "number": 164,
+      "pali": "Tamenaṁ rañño purisā daḷhāya rajjuyā pacchābāhaṁ gāḷhabandhanaṁ bandhitvā khuramuṇḍaṁ karitvā kharassarena paṇavena rathiyāya rathiyaṁ siṅghāṭakena siṅghāṭakaṁ parinetvā dakkhiṇena dvārena nikkhāmetvā dakkhiṇato nagarassa sīsaṁ chindeyyuṁ. ",
+      "english": "The king’s men would do as they were told. "
+    },
+    {
+      "number": 165,
+      "pali": "Taṁ kiṁ maññasi, susima, ",
+      "english": "What do you think, Susīma? "
+    },
+    {
+      "number": 166,
+      "pali": "api nu so puriso tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvediyethā”ti? ",
+      "english": "Wouldn’t that man experience pain and distress because of that?” "
+    },
+    {
+      "number": 167,
+      "pali": "“Evaṁ, bhante”. ",
+      "english": "“Yes, sir.” "
+    },
+    {
+      "number": 168,
+      "pali": "“Yaṁ kho so, susima, puriso tatonidānaṁ dukkhaṁ domanassaṁ paṭisaṁvediyetha. ",
+      "english": "“Although that man would experience pain and distress because of that, "
+    },
+    {
+      "number": 169,
+      "pali": "Yā evaṁ svākkhāte dhammavinaye dhammatthenakassa pabbajjā, ayaṁ tato dukkhavipākatarā ca kaṭukavipākatarā ca, api ca vinipātāya saṁvattati. ",
+      "english": "going forth as a thief of the teachings in such a well-explained teaching and training has a more painful and bitter result. And it even leads to the underworld. "
+    },
+    {
+      "number": 170,
+      "pali": "Yato ca kho tvaṁ, susima, accayaṁ accayato disvā yathādhammaṁ paṭikarosi taṁ te mayaṁ paṭiggaṇhāma. ",
+      "english": "But since you have recognized your mistake for what it is, and have dealt with it properly, I accept it. "
+    },
+    {
+      "number": 171,
+      "pali": "Vuddhi hesā, susima, ariyassa vinaye yo accayaṁ accayato disvā yathādhammaṁ paṭikaroti, āyatiñca saṁvaraṁ āpajjatī”ti. ",
+      "english": "For it is growth in the training of the Noble One to recognize a mistake for what it is, deal with it properly, and commit to restraint in the future.” "
+    },
+    {
+      "number": 172,
+      "pali": "Dasamaṁ. ",
+      "english": ""
+    },
+    {
+      "number": 173,
+      "pali": "Mahāvaggo sattamo. ",
+      "english": ""
+    },
+    {
+      "number": 174,
+      "pali": "Tassuddānaṁ ",
+      "english": ""
+    },
+    {
+      "number": 175,
+      "pali": "Dve assutavatā vuttā, ",
+      "english": ""
+    },
+    {
+      "number": 176,
+      "pali": "puttamaṁsena cāparaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 177,
+      "pali": "Atthirāgo ca nagaraṁ, ",
+      "english": ""
+    },
+    {
+      "number": 178,
+      "pali": "sammasaṁ naḷakalāpiyaṁ; ",
+      "english": ""
+    },
+    {
+      "number": 179,
+      "pali": "Kosambī upayanti ca, ",
+      "english": ""
+    },
+    {
+      "number": 180,
+      "pali": "dasamo susimena cāti. ",
+      "english": ""
+    }
+  ]
+}
