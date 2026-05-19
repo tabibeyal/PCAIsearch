@@ -1,0 +1,13 @@
+.git
+frontend/
+tests/
+analysis/
+docs/
+*.md
+.env*
+qdrant_storage/
+data/parallels*.sqlite
+.claude/
+.superpowers/
+netlify.toml
+vercel.json
