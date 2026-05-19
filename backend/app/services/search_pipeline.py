@@ -269,7 +269,10 @@ class SearchPipeline:
         bm25_retriever: Optional[BM25Retriever] = None,
     ):
         self._executor = ThreadPoolExecutor(max_workers=4)
-        client = AsyncQdrantClient(url=qdrant_url)
+        client = AsyncQdrantClient(
+            url=qdrant_url,
+            api_key=os.environ.get("QDRANT_API_KEY"),
+        )
         embedding_mgr = EmbeddingManager(model_name=model_name)
         self.collection_name = "pali_canon"
         self.retriever = Retriever(client, embedding_mgr, self.collection_name, self._executor)
