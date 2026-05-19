@@ -33,6 +33,15 @@ The current goal. Parallel passage detection is being built first; word clusteri
 - **Shingle** — a window of *k* consecutive normalised tokens, hashed. Used by the detector to seed matches before extending to maximal spans. Fixed at *k* = 7 tokens.
 - **Parallel-passage artifact** — the output of a detector run. A SQLite file `data/parallels.sqlite` with `span` and `occurrence` tables. Regenerable; gitignored.
 
+## Deployment
+
+- **Hosting target** — Fly.io (backend), Vercel (frontend), Qdrant Cloud (vector DB). See ADR-0003.
+- **QDRANT_URL** — environment variable controlling the Qdrant connection in `SearchPipeline`. Must be set to the Qdrant Cloud cluster URL on deployment; defaults to `http://localhost:6333` for local dev.
+- **NVIDIA_API_KEY** — environment variable for LLM inference (Gemma 3n expansion + Llama 3.3 synthesis). Free tier, 40 rpm limit. Set as a secret in Fly.io and Vercel environments.
+- **CORS_ORIGINS** — comma-separated list of allowed frontend origins. Set to the Vercel deployment URL on production. Already reads from env in `main.py`.
+- **data/dumps/** — 38MB of source JSON (4,691 files) committed to the repo. Loaded at startup by BM25Retriever, CitationOracle, and SuttaTitleIndex. Gitignored locally but must be present on the server.
+- **Qdrant collection** — 134,102 vectors, 384 dims, ~320MB RAM. Migrated once to Qdrant Cloud free tier via snapshot; not rebuilt on every deploy.
+
 ## Conventions
 
 - **Nikāya** — used loosely throughout the code as the prefix tag in chunk IDs (`DN`, `MN`, `SN`, `AN`, `KN`). Strictly speaking applies only to the Sutta Piṭaka; when Vinaya is ingested the same field will carry tags like `VIN-BU`, `VIN-KD`, which is a slight abuse of the term but preserves a single payload field.

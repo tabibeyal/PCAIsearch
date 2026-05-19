@@ -259,7 +259,7 @@ class SearchPipeline:
     """
     def __init__(
         self,
-        qdrant_url: str = "http://localhost:6333",
+        qdrant_url: str = os.environ.get("QDRANT_URL", "http://localhost:6333"),
         model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         llm_model: str = os.environ.get("LLM_MODEL", "meta/llama-3.3-70b-instruct"),
         expansion_model: str = os.environ.get("EXPANSION_MODEL", "google/gemma-3n-e4b-it"),

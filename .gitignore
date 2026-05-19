@@ -17,7 +17,6 @@ build/
 !.env.example
 
 # Data
-data/dumps/
 data/parallels*.sqlite
 /tmp/bilara-data/
 
