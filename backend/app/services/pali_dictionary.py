@@ -457,6 +457,18 @@ _ENTRIES: List[DictionaryEntry] = [
         ],
         pali="vedanā sukha dukkha adukkhamasukha",
     ),
+    DictionaryEntry(
+        label="Craving / addiction / compulsion",
+        keywords=[
+            "addiction", "addicted", "overcome addiction", "compulsion",
+            "obsession", "overcome craving", "uncontrollable desire",
+            "enslaved by desire", "consumed by desire", "hooked on",
+            "can't stop", "intoxication", "bondage to desire",
+            "mental ferment", "ferments", "āsava", "asava",
+        ],
+        pali="taṇhā rāga āsava nīvaraṇa kāmacchanda upādāna",
+        english_hint="consumed by craving overwhelmed by desire not freed from ferment taint sensual pleasure clinging overcome",
+    ),
 ]
 
 

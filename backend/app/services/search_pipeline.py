@@ -158,6 +158,7 @@ class ExpansionPrompt:
             "- nibbāna / liberation: unborn unconditioned deathless → nibbāna vimutti asaṅkhata vimokkha\n"
             "- brahmavihārās / loving-kindness: loving-kindness compassion sympathetic joy equanimity → mettā karuṇā muditā upekkhā brahmavihāra\n"
             "- precepts / ethics: abstain killing stealing lying intoxicants → sīla pāṇātipātā musāvādā adinnādānā\n"
+            "- craving / addiction / compulsion: consumed overwhelmed desire sensual pleasure ferment taint clinging not freed → taṇhā rāga āsava kāmacchanda upādāna\n"
             "- three marks of existence: impermanent suffering not-self → tilakkhaṇa anicca dukkha anattā\n"
             "- kamma / intention / rebirth: intention action result rebirth wandering → kamma cetanā vipāka punabbhava saṃsāra\n"
             "- middle way: avoid extremes pleasure pain indulgence asceticism moderation → majjhimā paṭipadā atitta atilīna"
