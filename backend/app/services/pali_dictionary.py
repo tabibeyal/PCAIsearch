@@ -41,7 +41,7 @@ _ENTRIES: List[DictionaryEntry] = [
     ),
     DictionaryEntry(
         label="Suffering / dukkha",
-        keywords=["suffering", "unsatisfactoriness", "cause of suffering", "origin of suffering"],
+        keywords=["stress", "suffering", "unsatisfactoriness", "cause of suffering", "origin of suffering", "cause of stress"],
         pali="dukkha samudaya taṇhā upādāna bhava",
     ),
     DictionaryEntry(
@@ -74,7 +74,7 @@ _ENTRIES: List[DictionaryEntry] = [
         label="Three Marks of Existence",
         keywords=[
             "inconstant", "inconstancy", "impermanent", "impermanence", "three marks", "anicca",
-            "not-self", "no self", "anatta", "three characteristics",
+            "stress", "suffering", "not-self", "no self", "anatta", "three characteristics",
             "unsatisfactory nature",
         ],
         pali="tilakkhaṇa anicca dukkha anattā sabbe saṅkhārā vipariṇāma",
