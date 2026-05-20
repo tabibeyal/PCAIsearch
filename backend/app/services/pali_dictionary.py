@@ -36,8 +36,15 @@ _ENTRIES: List[DictionaryEntry] = [
     ),
     DictionaryEntry(
         label="Four Noble Truths",
-        keywords=["four noble truths", "noble truth", "truth of suffering", "four truths"],
+        keywords=[
+            "four noble truths", "noble truth", "four truths", "ariyasaccani", "cattāri ariyasaccāni",
+            "truth of stress", "truth of suffering", "noble truth of stress",
+            "origination of stress", "origin of suffering", "samudaya", "arising of craving",
+            "cessation of stress", "cessation of suffering", "nirodha", "unbinding",
+            "path of practice", "path leading to cessation", "magga ariyasacca",
+        ],
         pali="cattāri ariyasaccāni dukkha samudaya nirodha magga",
+        english_hint="noble truth stress suffering origination cessation path of practice craving clinging becoming birth aging death sorrow lamentation pain grief despair",
     ),
     DictionaryEntry(
         label="Suffering / dukkha",
