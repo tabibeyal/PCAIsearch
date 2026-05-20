@@ -39,7 +39,25 @@
       "Bash(PYTHONPATH=/home/eyal/PCAIsearch python -m pytest /home/eyal/PCAIsearch/tests/backend/ -q --tb=no)",
       "Bash(pip list *)",
       "Bash(pip install *)",
-      "Bash(env)"
+      "Bash(env)",
+      "Skill(grill-with-docs)",
+      "Bash(pkill *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Read(//home/eyal/**)",
+      "Bash(printenv)",
+      "Bash(PYTHONPATH=. timeout 180 python3 -m pytest tests/backend/ -q)",
+      "Bash(wait 103997)",
+      "Bash(xdg-open *)",
+      "Skill(superpowers:subagent-driven-development)",
+      "Bash(DISPLAY=:0 firefox --screenshot /tmp/homepage.png http://localhost:3000 --window-size=1280,900)",
+      "Read(//tmp/**)",
+      "Bash(firefox --screenshot /tmp/homepage.png --window-size=1280,900 http://localhost:3000)",
+      "Bash(xargs cat -n)",
+      "Bash(xargs cat)",
+      "Bash(bash *)",
+      "Bash(npx --yes netlify-cli status)",
+      "Bash(npx netlify-cli@latest *)",
+      "Bash(PYTHONPATH=. timeout 60 python3 -m pytest tests/backend/ -q --tb=short --ignore=tests/backend/retrieval_benchmark.py)"
     ]
   }
 }

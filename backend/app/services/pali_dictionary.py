@@ -73,7 +73,7 @@ _ENTRIES: List[DictionaryEntry] = [
     DictionaryEntry(
         label="Three Marks of Existence",
         keywords=[
-            "impermanent", "impermanence", "three marks", "anicca",
+            "inconstant", "inconstancy", "impermanent", "impermanence", "three marks", "anicca",
             "not-self", "no self", "anatta", "three characteristics",
             "unsatisfactory nature",
         ],
@@ -160,7 +160,7 @@ _ENTRIES: List[DictionaryEntry] = [
     DictionaryEntry(
         label="Brahmavihārās / four immeasurables",
         keywords=[
-            "loving kindness", "lovingkindness", "metta", "compassion",
+            "good will", "goodwill", "loving kindness", "lovingkindness", "metta", "compassion",
             "sympathetic joy", "equanimity", "four immeasurables",
             "brahmaviharas", "divine abiding", "radiate goodwill",
             "boundless heart", "immeasurable mind",
@@ -169,7 +169,7 @@ _ENTRIES: List[DictionaryEntry] = [
     ),
     DictionaryEntry(
         label="Mettā / loving-kindness practice",
-        keywords=["metta meditation", "loving kindness meditation", "goodwill to all"],
+        keywords=["metta meditation", "loving kindness meditation", "good will meditation", "goodwill to all"],
         pali="mettā sattā sukhī hontu brahmavihāra pharaṇa",
     ),
     DictionaryEntry(
@@ -345,7 +345,7 @@ _ENTRIES: List[DictionaryEntry] = [
     DictionaryEntry(
         label="Not-self / anattā",
         keywords=[
-            "not self", "not-self", "no self", "anatta", "anattā",
+            "not-self", "not self", "no self", "anatta", "anattā", "anata",
             "what is the self", "is there a self", "self and non-self",
         ],
         pali="anattā sabbe dhammā anattā khandha ahaṃkāra",
