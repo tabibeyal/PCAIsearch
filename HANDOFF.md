@@ -1,6 +1,51 @@
-# Handoff — Session 2026-05-17
+# Handoff — Session 2026-05-20 (latest)
 
-## What happened this session
+## What happened this session (2026-05-20)
+
+**Sub-session 6 — Deployment + citation/streaming fixes:**
+- Deployed live: Netlify (frontend, manual deploy) + DigitalOcean 2GB Droplet (backend) + Qdrant Cloud (134K vectors) + NVIDIA API. See ADR-0003.
+- Added `/health` endpoint to backend.
+- Fixed streaming latency: added `X-Accel-Buffering: no` + `Cache-Control: no-cache` headers to SSE endpoint — disables nginx proxy buffering on DigitalOcean.
+- System prompt tightened: require responses to paraphrase passage content (not just cite), cap 3 citations per bracket, place citations immediately (no end-paragraph dumps).
+- Passage filter: switched from 30-char to 4-word minimum — fixes "No source verses found" regression caused by BM25 returning chapter headers like "7. Overcome" (2 words) that the old 30-char filter wiped out.
+- Added craving/addiction cluster to ExpansionPrompt v6 reference table and `pali_dictionary.py` — āsava/taṇhā/rāga keywords, english_hint with "consumed by craving overwhelmed by desire ferment taint clinging".
+
+**Sub-session 7 — Thanissaro Bhikkhu translations across pali_dictionary:**
+
+Added Thanissaro's primary translations as first-class keywords and expansion prompt terms for all major doctrinal lists. Each list now has every member as its own searchable keyword (Pali + English).
+
+| Pali term | Thanissaro prime | Previously |
+|-----------|-----------------|------------|
+| mettā | good will | loving-kindness |
+| anicca | inconstant | impermanent |
+| anattā | not-self | no-self |
+| dukkha | stress | suffering |
+| saṅkhāra | fabrications | formations |
+| sammā-saṅkappa | right resolve | right intention |
+| vicikicchā | uncertainty | doubt |
+| saḷāyatana | six sense media | six sense bases |
+| vitakka | directed thought | applied thought |
+| vicāra | evaluation | sustained thought |
+| ekaggatā | singleness of preoccupation | unification of mind |
+
+New full-list entries added or expanded:
+- **Seven awakening factors** (bojjhaṅgā) — inserted before nibbāna entry to avoid "awakening" keyword collision; all 7 factors individually keyworded.
+- **Five hindrances** — all 5 individually keyworded; "uncertainty" as prime for vicikicchā.
+- **Noble Eightfold Path** — all 8 factors individually keyworded with Pali transliterations.
+- **Four Noble Truths** — all 4 truths individually keyworded; "origination of stress", "cessation of stress", "unbinding", "path of practice".
+- **Dependent Origination** — all 12 links individually keyworded; "six sense media", "fabrications", "becoming", "aging-and-death".
+- **Four Brahmavihārās** — all 4 individually keyworded; english_hints added.
+- **Jhāna factors** — all 5 form-jhāna factors + all 4 immaterial attainments keyworded.
+- **Five Aggregates** — all 5 aggregates individually keyworded.
+
+**Structural fix — word-boundary lookup:**
+- `lookup()` and `lookup_english()` now use `re.search(r"\b" + re.escape(kw) + r"\b", q)` instead of plain `kw in q`.
+- Prevents false substring matches: "form" no longer matches "formless jhana"; "consciousness" no longer matches "infinite consciousness" (jhāna attainment) when the aggregates entry comes first.
+- `"perception aggregate"` and `"consciousness aggregate"` used in the aggregates entry to preserve specificity without stealing broad jhāna queries.
+
+---
+
+## What happened previous sessions
 
 **Recall pushed from 60% → 93% (14/15).**
 
@@ -49,7 +94,24 @@ Only remaining miss: SN 12.1 — paṭicca-samuppāda passage not retrievable by
 
 ---
 
-## Recent commits (this session)
+## Recent commits (2026-05-20)
+
+- `d351a67` — `feat: add jhāna factors with Thanissaro translations + word-boundary lookup fix`
+- `89ccf6f` — `feat: expand four brahmavihārās with Thanissaro translations`
+- `514087c` — `feat: expand Dependent Origination entry with Thanissaro translations`
+- `ccd2013` — `feat: expand Four Noble Truths entry with Thanissaro translations`
+- `f761a29` — `feat: expand Noble Eightfold Path with Thanissaro translations`
+- `56079c5` — `feat: expand five hindrances entry with Thanissaro translations`
+- `aabc400` — `feat: add seven awakening factors (bojjhaṅgā) with Thanissaro translations`
+- `02a74e9` — `feat: add individual aggregate keywords and 'fabrications' to Five Aggregates entry`
+- `a3c1540` — `feat: add 'stress' as prime translation for dukkha (Thanissaro)`
+- `37eaa02` — `feat: add Thanissaro translations as primary terms for metta/anicca/anatta`
+- `4330531` — `feat: add craving/addiction cluster to expansion prompt and pali dictionary`
+- `cc176aa` — `fix: switch passage filter from character count to word count (>=4 words)`
+- `9aced1e` — `fix: disable nginx proxy buffering on SSE stream endpoint`
+- `212192e` — `fix: cap citations per bracket at 3, forbid end-of-paragraph dumps`
+
+## Earlier commits (2026-05-17)
 
 - `85675fb` — `docs: update CONTEXT.md retrieval pipeline with new components`
 - `d905a56` — `docs: update CLAUDE.md with current test command, benchmark, and architecture`
@@ -152,6 +214,7 @@ Parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match `pli-tv-bu-vb-pj1` IDs — nee
 - **Light normalisation** — NFC + lower + strip punctuation + collapse whitespace + ṁ→ṃ
 - **Shingle** — k=7 consecutive normalised tokens; used to seed span detection
 - **retrieval_k** — internal candidate pool = `max(top_k * 3, 30)`; used for dense and BM25 per query
-- **PaliDictionary / lookup** — `pali_dictionary.py`; ~55 `DictionaryEntry` objects (label, keywords, pali, english_hint); `lookup(query)` returns `(pali_cluster, english_hint)` when keyword-matched; pali used in expansion, english_hint fed to `rerank_multi`
+- **PaliDictionary / lookup** — `pali_dictionary.py`; ~65 `DictionaryEntry` objects (label, keywords, pali, english_hint); `lookup(query)` / `lookup_english(query)` use word-boundary regex (`\b...\b`) — not substring — to avoid false matches like "form" → "formless"; pali cluster used in expansion, english_hint fed to `rerank_multi`; all major doctrinal lists have each member as an individual keyword using Thanissaro Bhikkhu's primary translations
 - **english_hint** — verbatim passage fragment stored in `DictionaryEntry`; bridges vocabulary gap between query and sutta text for the cross-encoder
+- **Thanissaro primes** — primary translations used throughout: good will (mettā), inconstant (anicca), not-self (anattā), stress (dukkha), fabrications (saṅkhāra), directed thought (vitakka), evaluation (vicāra), singleness of preoccupation (ekaggatā), right resolve (sammā-saṅkappa), uncertainty (vicikicchā), six sense media (saḷāyatana)
 - **expansion_model** — model for `expand_query`; separate from `llm_model` (synthesis)
