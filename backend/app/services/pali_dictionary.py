@@ -52,12 +52,18 @@ _ENTRIES: List[DictionaryEntry] = [
     DictionaryEntry(
         label="Noble Eightfold Path",
         keywords=[
-            "eightfold path", "eight fold path", "noble eightfold",
-            "path factors", "right view", "right intention", "right speech",
-            "right action", "right livelihood", "right effort",
-            "right mindfulness", "right concentration",
+            "eightfold path", "eight fold path", "noble eightfold", "path factors", "ariya magga", "atthangika",
+            "right view", "samma-ditthi", "sammā-diṭṭhi",
+            "right resolve", "right intention", "samma-sankappa", "sammā-saṅkappa",
+            "right speech", "samma-vaca", "sammā-vācā",
+            "right action", "samma-kammanta", "sammā-kammanta",
+            "right livelihood", "samma-ajiva", "sammā-ājīva",
+            "right effort", "samma-vayama", "sammā-vāyāma",
+            "right mindfulness", "samma-sati", "sammā-sati",
+            "right concentration", "samma-samadhi", "sammā-samādhi",
         ],
         pali="ariyo aṭṭhaṅgiko maggo sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi",
+        english_hint="right view right resolve right speech right action right livelihood right effort right mindfulness right concentration noble eightfold path",
     ),
     DictionaryEntry(
         label="Five Aggregates",
