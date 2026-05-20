@@ -18,25 +18,26 @@ The application needs to move from local hardware to public web hosting. Constra
 
 | Component | Platform | Cost |
 |-----------|----------|------|
-| Frontend (Next.js) | Vercel | Free |
+| Frontend (Next.js) | Netlify | Free |
 | Vector DB | Qdrant Cloud free tier | Free |
 | LLM inference | NVIDIA API | Free |
-| Backend (FastAPI + ML models) | Fly.io | ~$7–10/month |
+| Backend (FastAPI + ML models) | DigitalOcean (2GB Droplet) | ~$7–12/month |
 
 ## Alternatives Considered
 
 **Hugging Face Spaces (CPU free tier):** 16GB RAM, free for public spaces. Rejected because HF's HTTP proxy buffers responses, which breaks SSE streaming on the `/stream` endpoint.
 
-**Render Standard ($25/month):** Sufficient RAM and reliable, but 2.5–3.5× more expensive than Fly.io for the same workload.
+**Render Standard ($25/month):** Sufficient RAM and reliable, but 2.5–3.5× more expensive for the same workload.
 
-**Railway:** Billed by RAM/CPU minutes. A 1GB always-on container costs ~$20/month — more expensive than Fly.io.
+**Railway:** Billed by RAM/CPU minutes. A 1GB always-on container costs ~$20/month.
 
-**Single VPS (DigitalOcean/Hetzner):** Cheapest raw compute (~$6–12/month) but requires manual OS management, patching, and crash recovery. Rejected in favour of managed platforms to reduce ongoing maintenance.
+**Fly.io:** Considered initially but switched to DigitalOcean — simpler Docker deployment, straightforward health-check integration, and predictable flat pricing.
 
 ## Consequences
 
-- Backend is deployed as a Docker container on Fly.io with a 1GB RAM machine
-- `QDRANT_URL` must be set as an environment variable (currently hardcoded to `localhost:6333`)
-- `data/dumps/` must be committed to the repo (currently gitignored) so it is present in the Docker image
+- Backend is deployed as a Docker container on a DigitalOcean 2GB Droplet
+- `/health` endpoint is required for DigitalOcean health checks (added to `main.py`)
+- `QDRANT_URL` and `QDRANT_API_KEY` must be set as environment variables on the Droplet
+- `data/dumps/` is committed to the repo so it is present in the Docker image
 - Qdrant collection is migrated once via snapshot upload; not rebuilt on every deploy
-- Free subdomains used initially (`*.vercel.app`, `*.fly.dev`); custom domain can be added later for ~$10–15/year
+- Free subdomains used initially (`*.netlify.app`, DigitalOcean IP); custom domain can be added later for ~$10–15/year

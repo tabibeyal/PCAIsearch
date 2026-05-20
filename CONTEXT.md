@@ -35,10 +35,11 @@ The current goal. Parallel passage detection is being built first; word clusteri
 
 ## Deployment
 
-- **Hosting target** — Fly.io (backend), Vercel (frontend), Qdrant Cloud (vector DB). See ADR-0003.
+- **Hosting target** — DigitalOcean 2GB Droplet (backend Docker container), Netlify (frontend), Qdrant Cloud (vector DB). See ADR-0003.
 - **QDRANT_URL** — environment variable controlling the Qdrant connection in `SearchPipeline`. Must be set to the Qdrant Cloud cluster URL on deployment; defaults to `http://localhost:6333` for local dev.
-- **NVIDIA_API_KEY** — environment variable for LLM inference (Gemma 3n expansion + Llama 3.3 synthesis). Free tier, 40 rpm limit. Set as a secret in Fly.io and Vercel environments.
-- **CORS_ORIGINS** — comma-separated list of allowed frontend origins. Set to the Vercel deployment URL on production. Already reads from env in `main.py`.
+- **QDRANT_API_KEY** — environment variable for Qdrant Cloud authentication. Set on the DigitalOcean Droplet.
+- **NVIDIA_API_KEY** — environment variable for LLM inference (Gemma 3n expansion + Llama 3.3 synthesis). Free tier, 40 rpm limit. Set as a secret in DigitalOcean and Netlify environments.
+- **CORS_ORIGINS** — comma-separated list of allowed frontend origins. Set to the Netlify deployment URL on production. Already reads from env in `main.py`.
 - **data/dumps/** — 38MB of source JSON (4,691 files) committed to the repo. Loaded at startup by BM25Retriever, CitationOracle, and SuttaTitleIndex. Gitignored locally but must be present on the server.
 - **Qdrant collection** — 134,102 vectors, 384 dims, ~320MB RAM. Migrated once to Qdrant Cloud free tier via snapshot; not rebuilt on every deploy.
 
