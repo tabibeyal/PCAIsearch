@@ -11,10 +11,10 @@ A Claude.ai-style thumbs up / thumbs down feedback mechanism attached to every s
 
 ## User Flow
 
-1. After the synthesis answer finishes streaming, a "Was this helpful?" row appears below the answer text (above the answer body's bottom edge, separated by a thin divider).
-2. Two buttons are shown: 👍 and 👎.
-3. **Thumbs up:** clicking immediately registers a positive signal. The button turns active (dark brown fill, white icon). The label changes to "Thank you for your feedback." No panel opens.
-4. **Thumbs down:** clicking highlights the 👎 button (dark brown fill) and opens a panel directly below the buttons containing:
+1. After the synthesis answer finishes streaming, a "Was this helpful?" row appears below the answer text, separated by a thin divider.
+2. Two buttons are shown: 👍 and 👎. Below them, a persistent disclaimer reads: *"Feedback includes your question and this full answer."*
+3. **Thumbs up:** clicking immediately registers a positive signal. The button turns active (dark brown fill). The label changes to "Thank you for your feedback." No panel opens.
+4. **Thumbs down:** clicking highlights the 👎 button (dark brown fill) and opens a panel directly below containing:
    - A "What was the problem?" heading
    - Five selectable category chips (toggle, one at a time):
      - Doctrinally inaccurate
@@ -24,7 +24,7 @@ A Claude.ai-style thumbs up / thumbs down feedback mechanism attached to every s
      - Too vague
    - An optional free-text textarea ("Add a comment (optional)")
    - A send button with a paper airplane SVG icon (no text label)
-5. After submitting, the panel collapses. The 👎 button stays highlighted (dimmed active state). The label changes to "Thank you for your feedback."
+5. After submitting, the panel collapses. The 👎 button stays highlighted (dimmed). The label changes to "Thank you for your feedback."
 6. Once a rating is submitted, both buttons are disabled — no re-rating in the same session.
 
 ---
