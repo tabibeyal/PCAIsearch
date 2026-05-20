@@ -188,12 +188,17 @@ _ENTRIES: List[DictionaryEntry] = [
     DictionaryEntry(
         label="Mindfulness / satipaṭṭhāna",
         keywords=[
-            "mindfulness", "four foundations of mindfulness", "satipatthana",
-            "contemplation of body", "mindfulness of breathing",
-            "breath awareness", "anapanasati", "ānāpānasati",
-            "body mind contemplation",
+            "four foundations of mindfulness", "establishings of mindfulness",
+            "satipatthana", "satipaṭṭhāna", "four frames of reference",
+            "contemplation of the body", "contemplation of body", "kayanupassana", "kāyānupassanā",
+            "contemplation of feelings", "contemplation of feeling", "feeling tone contemplation", "vedananupassana", "vedanānupassanā",
+            "contemplation of the mind", "contemplation of mind", "cittanupassana", "cittānupassanā",
+            "contemplation of mental qualities", "contemplation of dhammas", "dhammanupassana", "dhammānupassanā",
+            "mindfulness of breathing", "breath awareness", "anapanasati", "ānāpānasati",
+            "mindfulness of body", "mindfulness of feelings", "mindfulness of mind",
         ],
         pali="satipaṭṭhāna kāyānupassanā vedanānupassanā cittānupassanā dhammānupassanā ānāpānasati",
+        english_hint="contemplation of body feelings mind mental qualities ardent alert mindful setting aside covetousness grief world establishing of mindfulness",
     ),
     DictionaryEntry(
         label="Brahmavihārās / four immeasurables",
