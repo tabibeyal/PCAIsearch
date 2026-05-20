@@ -254,6 +254,7 @@ def _build_messages(query: str, chunks: List[Dict[str, Any]]) -> List[Dict[str, 
     context_text = "\n\n".join(
         f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
         for c in chunks
+        if len(c.get("english", "").strip().split()) >= 4
     )
     return [
         {"role": "system", "content": _SYSTEM_PROMPT},

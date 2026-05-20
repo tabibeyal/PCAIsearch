@@ -102,7 +102,7 @@ async def stream(
         try:
             yield f"data: {json.dumps({'type': 'status', 'text': 'Searching the Canon…'})}\n\n"
             context = await request.app.state.pipeline.search(q, top_k=top_k, nikayas=nikayas or None)
-            context = [c for c in context if len(c.get("english", "").strip()) >= 30]
+            context = [c for c in context if len(c.get("english", "").strip().split()) >= 4]
             yield f"data: {json.dumps({'type': 'status', 'text': 'Composing answer…'})}\n\n"
             async for event in request.app.state.pipeline.stream_synthesize(q, context):
                 if event["type"] == "chunk":
