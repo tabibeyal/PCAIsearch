@@ -185,17 +185,26 @@ _ENTRIES: List[DictionaryEntry] = [
     DictionaryEntry(
         label="Brahmavihārās / four immeasurables",
         keywords=[
-            "good will", "goodwill", "loving kindness", "lovingkindness", "metta", "compassion",
-            "sympathetic joy", "equanimity", "four immeasurables",
-            "brahmaviharas", "divine abiding", "radiate goodwill",
-            "boundless heart", "immeasurable mind",
+            "four brahmavihāras", "brahmavihara", "brahmaviharas", "brahmavihārā", "four immeasurables",
+            "divine abiding", "boundless heart", "immeasurable mind", "sublime attitude",
+            "good will", "goodwill", "loving kindness", "lovingkindness", "metta", "mettā",
+            "compassion", "karuna", "karuṇā",
+            "sympathetic joy", "appreciative joy", "mudita", "muditā",
+            "equanimity", "upekkha", "upekkhā",
+            "radiate goodwill", "suffuse with good will", "pervade with compassion",
         ],
         pali="brahmavihāra mettā karuṇā muditā upekkhā pharaṇa sattā",
+        english_hint="good will compassion sympathetic joy equanimity radiate suffuse pervade all beings immeasurable boundless brahmavihara divine abiding",
     ),
     DictionaryEntry(
-        label="Mettā / loving-kindness practice",
-        keywords=["metta meditation", "loving kindness meditation", "good will meditation", "goodwill to all"],
+        label="Mettā / good will practice",
+        keywords=[
+            "metta meditation", "good will meditation", "loving kindness meditation",
+            "goodwill to all", "goodwill to all beings", "metta practice",
+            "may all beings be happy", "may they be free from suffering",
+        ],
         pali="mettā sattā sukhī hontu brahmavihāra pharaṇa",
+        english_hint="good will loving kindness may all beings be happy free from suffering at ease radiate suffuse unlimited",
     ),
     DictionaryEntry(
         label="Saw simile / patience under abuse",
