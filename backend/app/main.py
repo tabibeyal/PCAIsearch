@@ -48,6 +48,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
+
 @app.get("/search")
 @limiter.limit("30/minute")
 async def search(
