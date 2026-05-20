@@ -330,11 +330,16 @@ _ENTRIES: List[DictionaryEntry] = [
     DictionaryEntry(
         label="Five hindrances",
         keywords=[
-            "five hindrances", "mental hindrances", "hindrance", "nīvaraṇa",
-            "sloth torpor", "restlessness worry", "sensual desire",
-            "ill will", "doubt as hindrance",
+            "five hindrances", "mental hindrances", "hindrance", "nīvaraṇa", "nivarana",
+            "sensual desire", "kamacchanda", "kāmacchanda", "sensuality hindrance",
+            "ill will", "byapada", "vyāpāda", "aversion hindrance",
+            "sloth", "torpor", "thina-middha", "thīnamiddha", "laziness meditation",
+            "restlessness", "worry", "anxiety meditation", "uddhacca", "kukkucca",
+            "uncertainty", "vicikiccha", "vicikicchā", "doubt hindrance",
+            "overcome hindrance", "abandon hindrance", "suppress hindrance",
         ],
         pali="nīvaraṇa kāmacchanda vyāpāda thīnamiddha uddhacca-kukkucca vicikicchā",
+        english_hint="sensual desire ill will sloth torpor restlessness worry uncertainty five hindrances abandon suppress overcome nīvaraṇa not arisen arisen removed",
     ),
     DictionaryEntry(
         label="Defilements / kilesa",
