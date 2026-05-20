@@ -250,14 +250,10 @@ _SYSTEM_PROMPT = (
 )
 
 
-_MIN_ENGLISH_LEN = 30
-
-
 def _build_messages(query: str, chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    usable = [c for c in chunks if len(c.get("english", "").strip()) >= _MIN_ENGLISH_LEN]
     context_text = "\n\n".join(
         f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
-        for c in usable
+        for c in chunks
     )
     return [
         {"role": "system", "content": _SYSTEM_PROMPT},
