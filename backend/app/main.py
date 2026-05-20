@@ -9,6 +9,7 @@ from fastapi.responses import StreamingResponse
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
+from qdrant_client.http import models as qdrant_models
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.citation_oracle import CitationOracle
@@ -26,11 +27,17 @@ async def lifespan(app: FastAPI):
     relations = SuttaRelations(oracle.known_suttas)
     title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
     bm25_retriever = BM25Retriever.from_directory(_DUMPS_DIR)
-    app.state.pipeline = SearchPipeline(
+    pipeline = SearchPipeline(
         sutta_relations=relations,
         title_index=title_index,
         bm25_retriever=bm25_retriever,
     )
+    await pipeline.retriever.client.create_payload_index(
+        collection_name=pipeline.collection_name,
+        field_name="nikaya",
+        field_schema=qdrant_models.PayloadSchemaType.KEYWORD,
+    )
+    app.state.pipeline = pipeline
     app.state.guardrail = CitationGuardrail(oracle=oracle)
     yield
     if pipeline := getattr(app.state, "pipeline", None):
