@@ -72,9 +72,9 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
 
   if (visible) {
     return (
-      <div className="h-full overflow-y-auto p-6 bg-[#faf9f7]">
+      <div className="h-full overflow-y-auto p-6 bg-[#fef9f0]">
         <div className="max-w-2xl mx-auto">
-          <div className="text-[15px] leading-[1.85] whitespace-pre-wrap text-[#1a1a1a]" style={{ fontFamily: 'Georgia, serif' }}>
+          <div className="text-[17px] leading-[1.85] whitespace-pre-wrap text-[#1a1a1a]" style={{ fontFamily: 'Georgia, serif' }}>
             {visible.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((seg, i) =>
               seg.startsWith('**') && seg.endsWith('**')
                 ? <strong key={i}>{seg.slice(2, -2)}</strong>
