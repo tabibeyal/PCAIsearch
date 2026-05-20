@@ -259,6 +259,22 @@ _ENTRIES: List[DictionaryEntry] = [
         english_hint="deep hard to see hard to realize peaceful subtle against the stream this generation delights in attachment Brahma Sahampati teach",
     ),
     DictionaryEntry(
+        label="Seven factors of awakening / bojjhaṅgā",
+        keywords=[
+            "seven awakening factors", "seven factors of awakening", "bojjhanga", "bojjhaṅgā",
+            "awakening factors", "factors of enlightenment",
+            "mindfulness awakening factor", "sati bojjhanga",
+            "analysis of qualities", "dhamma-vicaya", "dhammavicaya", "investigation of phenomena",
+            "persistence", "persistence awakening factor", "viriya bojjhanga", "energy awakening factor",
+            "rapture", "piti", "pīti",
+            "passaddhi", "tranquility awakening factor",
+            "concentration awakening factor",
+            "equanimity awakening factor",
+        ],
+        pali="bojjhaṅgā sati dhammavicaya viriya pīti passaddhi samādhi upekkhā",
+        english_hint="mindfulness analysis of qualities persistence rapture serenity concentration equanimity factors of awakening bojjhanga cultivated developed fulfilled",
+    ),
+    DictionaryEntry(
         label="Nibbāna / liberation",
         keywords=[
             "nibbana", "nirvana", "awakening", "enlightenment",
