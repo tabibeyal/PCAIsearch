@@ -1,3 +1,4 @@
+import re
 from dataclasses import dataclass
 from typing import List, Optional
 
@@ -88,9 +89,9 @@ _ENTRIES: List[DictionaryEntry] = [
             "are the aggregates", "lack a self",
             "form", "rupa", "rūpa",
             "feeling", "vedana", "vedanā",
-            "perception", "sanna", "saññā",
+            "perception aggregate", "sanna", "saññā",
             "fabrications", "formations", "mental formations", "sankhara", "saṅkhāra",
-            "consciousness", "vinnana", "viññāṇa",
+            "consciousness aggregate", "vinnana", "viññāṇa",
         ],
         pali="khandha rūpa vedanā saññā saṅkhārā viññāṇa anicca dukkha anattā",
         english_hint="form is not-self if form were self form would not lead to affliction feeling perception fabrications formations consciousness not-self",
@@ -157,11 +158,23 @@ _ENTRIES: List[DictionaryEntry] = [
     DictionaryEntry(
         label="Jhāna / absorption",
         keywords=[
-            "jhana", "jhāna", "meditative absorption", "four jhanas",
+            "jhana", "jhāna", "meditative absorption", "four jhanas", "meditative states",
             "first jhana", "second jhana", "third jhana", "fourth jhana",
-            "enter jhana", "meditative states",
+            "enter jhana", "attain jhana", "jhana factor",
+            "directed thought", "vitakka",
+            "evaluation", "vicara", "vicāra",
+            "rapture", "piti", "pīti",
+            "pleasure jhana", "sukha jhana",
+            "singleness of preoccupation", "unification of mind", "ekaggatā", "ekaggata",
+            "internal assurance", "ajjhattam sampasadanam",
+            "infinite space", "akasanancayatana", "ākāsānañcāyatana",
+            "infinite consciousness", "vinnānancāyatana", "viññāṇañcāyatana",
+            "nothingness", "akincannayatana", "ākiñcaññāyatana",
+            "neither perception nor non-perception", "nevasannānāsaññāyatana",
+            "immaterial attainment", "formless jhana", "arupa jhana", "arūpa jhāna",
         ],
-        pali="jhāna samādhi vitakka vicāra pīti sukha ekaggatā upekkhā",
+        pali="jhāna samādhi vitakka vicāra pīti sukha ekaggatā upekkhā ākāsānañcāyatana viññāṇañcāyatana ākiñcaññāyatana nevasaññānāsaññāyatana",
+        english_hint="directed thought evaluation rapture pleasure singleness of preoccupation equanimity first second third fourth jhana seclusion unarisen arisen abandoned",
     ),
     DictionaryEntry(
         label="Concentration / samādhi",
@@ -527,10 +540,14 @@ _ENTRIES: List[DictionaryEntry] = [
 ]
 
 
+def _matches(kw: str, q: str) -> bool:
+    return bool(re.search(r"\b" + re.escape(kw) + r"\b", q))
+
+
 def lookup(query: str) -> Optional[str]:
     q = query.lower()
     for entry in _ENTRIES:
-        if any(kw in q for kw in entry.keywords):
+        if any(_matches(kw, q) for kw in entry.keywords):
             return entry.pali
     return None
 
@@ -538,6 +555,6 @@ def lookup(query: str) -> Optional[str]:
 def lookup_english(query: str) -> Optional[str]:
     q = query.lower()
     for entry in _ENTRIES:
-        if any(kw in q for kw in entry.keywords):
+        if any(_matches(kw, q) for kw in entry.keywords):
             return entry.english_hint
     return None
