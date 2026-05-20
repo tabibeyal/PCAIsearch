@@ -244,16 +244,20 @@ _SYSTEM_PROMPT = (
     "Each bullet should be a complete sentence or two — not a single word or embedded list.\n"
     "- End with a closing paragraph (max 5 sentences) that draws the threads together and notes any nuance or limitation in the retrieved texts.\n"
     "\n"
-    "Aim for a thorough, well-developed answer — roughly three times longer than a minimal response would be. "
+    "Be thorough but never repeat a point already made. "
     "If you have more to say than fits in 5 sentences, split into multiple short paragraphs rather than writing one long one. "
     "Let there be visual breathing room between sections."
 )
 
 
+_MIN_ENGLISH_LEN = 30
+
+
 def _build_messages(query: str, chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    usable = [c for c in chunks if len(c.get("english", "").strip()) >= _MIN_ENGLISH_LEN]
     context_text = "\n\n".join(
         f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
-        for c in chunks
+        for c in usable
     )
     return [
         {"role": "system", "content": _SYSTEM_PROMPT},
