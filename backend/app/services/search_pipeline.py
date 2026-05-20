@@ -224,6 +224,8 @@ _SYSTEM_PROMPT = (
     "directly after the sentence, e.g. '...all conditioned things are impermanent. [SN 22.12:3]' "
     "Use the exact ID string from the context (the part before the word 'Pali:'). "
     "Multiple citations go in one bracket, comma-separated: [SN 22.12:3, AN 6.98:3]. "
+    "HARD LIMIT: never put more than 3 citations in a single bracket. "
+    "Cite immediately after the sentence — never accumulate citations at the end of a paragraph. "
     "NEVER use parentheses () for citations — square brackets [] only. "
     "\n\n"
     "PARAGRAPH LENGTH (HARD LIMIT): Every paragraph MUST contain AT MOST 5 sentences. "
