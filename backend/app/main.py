@@ -1,8 +1,11 @@
 import json
 import os
+import sqlite3
 from contextlib import asynccontextmanager
+from datetime import datetime
 from pathlib import Path
 from typing import List, Optional
+from pydantic import BaseModel
 from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -20,9 +23,37 @@ from backend.app.services.bm25_retriever import BM25Retriever
 limiter = Limiter(key_func=get_remote_address)
 
 _DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
+_FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
+
+
+class FeedbackBody(BaseModel):
+    query: str
+    answer: str
+    rating: str
+    category: Optional[str] = None
+    comment: Optional[str] = None
+
+
+def _init_feedback_db() -> None:
+    con = sqlite3.connect(_FEEDBACK_DB)
+    con.execute("""
+        CREATE TABLE IF NOT EXISTS feedback (
+            id         INTEGER PRIMARY KEY AUTOINCREMENT,
+            query      TEXT NOT NULL,
+            answer     TEXT NOT NULL,
+            rating     TEXT NOT NULL,
+            category   TEXT,
+            comment    TEXT,
+            created_at TEXT NOT NULL
+        )
+    """)
+    con.commit()
+    con.close()
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    _init_feedback_db()
     oracle = CitationOracle(_DUMPS_DIR)
     relations = SuttaRelations(oracle.known_suttas)
     title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
@@ -51,13 +82,25 @@ _allowed_origins = [o.strip() for o in os.environ.get("CORS_ORIGINS", "http://lo
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_allowed_origins,
-    allow_methods=["GET"],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
 @app.get("/health")
 async def health():
     return {"status": "ok"}
+
+@app.post("/feedback")
+async def post_feedback(body: FeedbackBody):
+    con = sqlite3.connect(_FEEDBACK_DB)
+    con.execute(
+        "INSERT INTO feedback (query, answer, rating, category, comment, created_at) VALUES (?, ?, ?, ?, ?, ?)",
+        (body.query, body.answer, body.rating, body.category, body.comment, datetime.utcnow().isoformat()),
+    )
+    con.commit()
+    con.close()
+    return {"ok": True}
+
 
 @app.get("/search")
 @limiter.limit("30/minute")
