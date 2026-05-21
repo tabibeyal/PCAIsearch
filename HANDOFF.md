@@ -2,6 +2,12 @@
 
 ## What happened this session (2026-05-21)
 
+**Sub-session 10 — Mobile donation banner:**
+
+- `SupportBanner` converted to a client component. On mobile (< 768px) it is hidden by default and slides in from the bottom when the user scrolls within 80px of the end of any large scroll container (captured via `document.addEventListener('scroll', ..., { capture: true })`). Scrolling back up hides it. Desktop behavior unchanged — always visible in flow.
+- **Bug fix (fast-scroll):** in-flow positioning caused the banner's ~141px height to shrink the `main` flex container when it appeared, pushing `FeedbackBar` out of the `SynthesisView` scroll container. Switched to `position: fixed bottom-0` on mobile (`md:static` returns it to flow on desktop). Added a `--banner-h` CSS variable + `data-banner-open` attribute on `<html>` so a global CSS rule pads all `div.overflow-y-auto` / `div.overflow-auto` containers on mobile, keeping bottom content reachable above the fixed banner.
+- Files changed: `frontend/components/SupportBanner.tsx`, `frontend/app/globals.css`.
+
 **Sub-session 8 — Feedback mechanism:**
 
 Built a full thumbs up/down feedback mechanism attached to every synthesis answer.
@@ -115,7 +121,13 @@ Only remaining miss: SN 12.1 — paṭicca-samuppāda passage not retrievable by
 
 ---
 
-## Recent commits (2026-05-20)
+## Recent commits (2026-05-21)
+
+- `550c9d4` — `fix: prevent donation banner from pushing FeedbackBar out of view on mobile`
+- `fffdebd` — `feat: hide donation banner on mobile until user scrolls to bottom`
+- `63a8a81` — `fix: restore mobile scroll by adding min-h-0 to flex height chain`
+
+## Earlier commits (2026-05-20)
 
 - `d351a67` — `feat: add jhāna factors with Thanissaro translations + word-boundary lookup fix`
 - `89ccf6f` — `feat: expand four brahmavihārās with Thanissaro translations`
