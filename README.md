@@ -1,5 +1,7 @@
 # Ask the Pali Canon
 
+**Live:** https://illustrious-biscotti-f60464.netlify.app
+
 Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, Dhammapada, Itivuttaka), grounded in the original bilingual texts from SuttaCentral.
 
 ## Features
@@ -110,6 +112,7 @@ Open [http://localhost:3000](http://localhost:3000).
 | `GET /search?q=…&top_k=10&nikayas=MN&nikayas=SN` | Semantic search; returns ranked verses + `related_suttas`. `nikayas` is optional, repeatable. |
 | `GET /synthesize?q=…&top_k=10` | AI answer with citations, `hallucinations`, `canonical_misses`, and `is_faithful` flag |
 | `GET /stream?q=…&top_k=10&nikayas=DN` | Streaming synthesis (SSE); same `nikayas` filter supported |
+| `POST /feedback` | Submit thumbs-up/down feedback on a synthesis answer, with optional category and notes |
 
 Rate limits: 30 req/min for search, 10 req/min for synthesis.
 
