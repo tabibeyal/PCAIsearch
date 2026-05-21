@@ -2,6 +2,19 @@
 
 ## What happened this session (2026-05-21)
 
+**Sub-session 11 — Mobile background/foreground bug + double-request fix:**
+
+- **Root cause diagnosed:** backgrounding the app on mobile caused two problems:
+  1. If the stream was still in progress, the mobile browser killed the fetch → `setError` fired → "Search Error" shown on return.
+  2. React StrictMode (enabled in `npm run dev`) double-invokes effects synchronously. Both invocations sent a fetch to the backend → NVIDIA API serialised them → ~60s response time instead of ~30s.
+- **Fix 1 — `setTimeout(0)` debounce** (`SynthesisLoader.tsx`): stream start is deferred by one event-loop tick. StrictMode's cleanup fires synchronously within the same tick and calls `clearTimeout`, so the phantom request is never sent. Only one request reaches the backend.
+- **Fix 2 — `AbortController`** (`SynthesisLoader.tsx`, `lib/api.ts`): signal threaded through `streamSynthesis(query, nikayas, signal)`. On effect cleanup, `controller.abort()` is called — browser cancels the in-flight connection so the backend can stop sooner.
+- **Fix 3 — sessionStorage cache**: completed `SynthesisResponse` written to `sessionStorage` on `done` event (key: `synthesis:<query>:<nikayas>`). On mount, cache is checked first; if hit, answer is shown instantly with no stream request. Handles the page-reload-on-return case.
+- **Fix 4 — visibility-based auto-retry**: if the stream was killed mid-flight (component still mounted, error state set), a `visibilitychange` listener fires when the page becomes visible again and increments `retryCount`, re-running the streaming effect.
+- **Fix 5 — "Try again" button**: error screen now has a one-tap retry button (non-rate-limit errors only) alongside "Return to home".
+- Files changed: `frontend/components/deep-dive/SynthesisLoader.tsx`, `frontend/lib/api.ts`.
+- Commit: `e410ff1`.
+
 **Sub-session 10 — Mobile donation banner:**
 
 - `SupportBanner` converted to a client component. On mobile (< 768px) it is hidden by default and slides in from the bottom when the user scrolls within 80px of the end of any large scroll container (captured via `document.addEventListener('scroll', ..., { capture: true })`). Scrolling back up hides it. Desktop behavior unchanged — always visible in flow.
