@@ -1,5 +1,6 @@
 import React from 'react';
 import { SynthesisResponse } from '@/types/api';
+import { FeedbackBar } from './FeedbackBar';
 
 interface SynthesisViewProps {
   data: SynthesisResponse;
@@ -10,7 +11,7 @@ interface SynthesisViewProps {
 }
 
 export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle, onCitationClick }: SynthesisViewProps) {
-  const { answer, is_faithful } = data;
+  const { answer, is_faithful, query } = data;
 
   const renderCitation = (ref: string, key: React.Key) => {
     const lower = ref.toLowerCase();
@@ -103,6 +104,7 @@ export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle
         >
           {renderText(answer)}
         </div>
+        <FeedbackBar query={query} answer={answer} />
       </div>
     </div>
   );
