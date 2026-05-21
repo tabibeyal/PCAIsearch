@@ -23,10 +23,10 @@ export async function getSynthesis(query: string): Promise<SynthesisResponse> {
   return res.json();
 }
 
-export async function* streamSynthesis(query: string, nikayas?: string[]) {
+export async function* streamSynthesis(query: string, nikayas?: string[], signal?: AbortSignal) {
   const params = new URLSearchParams({ q: query });
   nikayas?.forEach(n => params.append('nikayas', n));
-  const res = await fetch(`${API_BASE}/stream?${params}`);
+  const res = await fetch(`${API_BASE}/stream?${params}`, { signal });
   if (!res.ok) throw apiError('Stream request failed', res.status);
 
   const reader = res.body!.getReader();

@@ -17,7 +17,7 @@ function LoadingState({ status }: { status: string }) {
   );
 }
 
-function ErrorMessage({ isRateLimit, detail }: { isRateLimit: boolean; detail?: string }) {
+function ErrorMessage({ isRateLimit, detail, onRetry }: { isRateLimit: boolean; detail?: string; onRetry: () => void }) {
   return (
     <div className="flex items-center justify-center p-8 text-red-500 text-center">
       <div>
@@ -30,10 +30,41 @@ function ErrorMessage({ isRateLimit, detail }: { isRateLimit: boolean; detail?: 
             : 'Unable to retrieve search data for this query. Please check if the backend is running.'}
         </p>
         {detail && <p className="mt-2 text-sm text-red-400 font-mono">{detail}</p>}
-        <a href="/" className="mt-4 inline-block text-[#6b4e35] underline">Return to home</a>
+        <div className="mt-4 flex items-center justify-center gap-4 flex-wrap">
+          {!isRateLimit && (
+            <button
+              onClick={onRetry}
+              className="text-[#6b4e35] border border-[#6b4e35] px-3 py-1.5 rounded text-sm hover:bg-[#ede8df] transition-colors"
+            >
+              Try again
+            </button>
+          )}
+          <a href="/" className="inline-block text-[#6b4e35] underline">Return to home</a>
+        </div>
       </div>
     </div>
   );
+}
+
+function cacheKey(query: string, nikayas?: string[]) {
+  return `synthesis:${query}:${nikayas?.join(',') ?? ''}`;
+}
+
+function readCache(query: string, nikayas?: string[]): SynthesisResponse | null {
+  try {
+    const raw = sessionStorage.getItem(cacheKey(query, nikayas));
+    return raw ? (JSON.parse(raw) as SynthesisResponse) : null;
+  } catch {
+    return null;
+  }
+}
+
+function writeCache(query: string, nikayas: string[] | undefined, data: SynthesisResponse) {
+  try {
+    sessionStorage.setItem(cacheKey(query, nikayas), JSON.stringify(data));
+  } catch {
+    // sessionStorage full or unavailable — ignore
+  }
 }
 
 export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: string[] }) {
@@ -41,32 +72,67 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
   const [status, setStatus] = React.useState('Searching the Canon…');
   const [data, setData] = React.useState<SynthesisResponse | null>(null);
   const [error, setError] = React.useState<{ status?: number } | null>(null);
+  const [retryCount, setRetryCount] = React.useState(0);
+
+  // When the page becomes visible again after being hidden and we're in error state, auto-retry once.
+  React.useEffect(() => {
+    if (!error) return;
+    const handleVisibility = () => {
+      if (!document.hidden) setRetryCount(c => c + 1);
+    };
+    document.addEventListener('visibilitychange', handleVisibility);
+    return () => document.removeEventListener('visibilitychange', handleVisibility);
+  }, [error]);
 
   React.useEffect(() => {
     setStreamText('');
     setStatus('Searching the Canon…');
     setData(null);
     setError(null);
+
+    const cached = readCache(query, nikayas);
+    if (cached) {
+      setData(cached);
+      return;
+    }
+
     let cancelled = false;
-    (async () => {
-      try {
-        for await (const event of streamSynthesis(query, nikayas)) {
-          if (cancelled) break;
-          if (event.type === 'status') setStatus(event.text);
-          else if (event.type === 'chunk') setStreamText(t => t + event.text);
-          else if (event.type === 'done') setData(event as SynthesisResponse);
-          else if (event.type === 'error') throw Object.assign(new Error(event.message), { status: 500 });
+    const controller = new AbortController();
+
+    // setTimeout(0) prevents the double-fetch from React StrictMode: cleanup clears the
+    // timer synchronously before the stream starts, so only one request reaches the backend.
+    const timerId = setTimeout(() => {
+      (async () => {
+        try {
+          for await (const event of streamSynthesis(query, nikayas, controller.signal)) {
+            if (cancelled) break;
+            if (event.type === 'status') setStatus(event.text);
+            else if (event.type === 'chunk') setStreamText(t => t + event.text);
+            else if (event.type === 'done') {
+              const response = event as SynthesisResponse;
+              writeCache(query, nikayas, response);
+              setData(response);
+            }
+            else if (event.type === 'error') throw Object.assign(new Error(event.message), { status: 500 });
+          }
+        } catch (e: any) {
+          if (!cancelled) setError(e);
         }
-      } catch (e: any) {
-        if (!cancelled) setError(e);
-      }
-    })();
-    return () => { cancelled = true; };
-  }, [query, nikayas?.join(',')]);
+      })();
+    }, 0);
+
+    return () => { cancelled = true; clearTimeout(timerId); controller.abort(); };
+  }, [query, nikayas?.join(','), retryCount]);
 
   const visible = streamText ? stripThinking(streamText) : '';
 
-  if (error) return <ErrorMessage isRateLimit={error.status === 429} detail={(error as any).message} />;
+  if (error) return (
+    <ErrorMessage
+      isRateLimit={error.status === 429}
+      detail={(error as any).message}
+      onRetry={() => setRetryCount(c => c + 1)}
+    />
+  );
 
   if (data) return <DualPaneContainer data={data} />;
 
