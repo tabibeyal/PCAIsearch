@@ -56,7 +56,7 @@ async function SearchPage({
     `px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${active ? 'bg-[#4a3728] text-white' : 'text-[#9c8c7a] hover:bg-[#ede8df]'}`;
 
   return (
-    <main className="h-screen w-full">
+    <main className="h-full w-full">
       <div className="flex flex-col h-full">
         <nav className="bg-[#faf9f7] border-b border-[#e8e4dc] sticky top-0 z-10">
           {/* Row 1: brand + search */}
