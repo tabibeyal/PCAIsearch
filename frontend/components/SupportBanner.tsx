@@ -1,9 +1,45 @@
-import React from 'react';
+'use client';
+
+import React, { useState, useEffect } from 'react';
 
 export function SupportBanner() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const isMobile = () => window.innerWidth < 768;
+    let lastScrollTop = 0;
+
+    const handleScroll = (e: Event) => {
+      if (!isMobile()) return;
+      const target = e.target as Element;
+      if (!(target instanceof Element) || target.clientHeight < 200) return;
+
+      const scrollTop = target.scrollTop;
+      const atBottom = target.scrollHeight - scrollTop - target.clientHeight < 80;
+      const scrollingUp = scrollTop < lastScrollTop;
+      lastScrollTop = scrollTop;
+
+      if (atBottom) {
+        setVisible(true);
+      } else if (scrollingUp) {
+        setVisible(false);
+      }
+    };
+
+    document.addEventListener('scroll', handleScroll, { capture: true, passive: true });
+    return () => document.removeEventListener('scroll', handleScroll, true);
+  }, []);
+
   return (
-    <footer className="w-full border-t border-gray-200 bg-white py-4 px-6">
-      <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-gray-500">
+    <footer
+      className={[
+        'w-full bg-white overflow-hidden transition-all duration-300',
+        visible
+          ? 'max-h-52 py-4 border-t border-gray-200'
+          : 'max-h-0 py-0 md:max-h-52 md:py-4 md:border-t md:border-gray-200',
+      ].join(' ')}
+    >
+      <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 px-6 text-sm text-gray-500">
         <p className="text-center sm:text-left">
           This tool runs on a free AI model, but hosting and infrastructure still cost money.
           If this tool is useful to you, consider supporting it.
