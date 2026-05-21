@@ -44,3 +44,18 @@ export async function* streamSynthesis(query: string, nikayas?: string[]) {
     }
   }
 }
+
+export async function submitFeedback(payload: {
+  query: string;
+  answer: string;
+  rating: 'up' | 'down';
+  category: string | null;
+  comment: string | null;
+}): Promise<void> {
+  const res = await fetch(`${API_BASE}/feedback`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) throw apiError('Feedback submission failed', res.status);
+}
