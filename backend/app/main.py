@@ -1,3 +1,4 @@
+import asyncio
 import json
 import os
 import sqlite3
@@ -5,7 +6,7 @@ from contextlib import asynccontextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Literal, Optional
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -27,28 +28,48 @@ _FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
 
 
 class FeedbackBody(BaseModel):
-    query: str
-    answer: str
+    query: str = Field(max_length=600)
+    answer: str = Field(max_length=20000)
     rating: Literal["up", "down"]
-    category: Optional[str] = None
-    comment: Optional[str] = None
+    category: Optional[Literal[
+        "Doctrinally inaccurate",
+        "Missing important nuance",
+        "Not relevant to my question",
+        "Sources don't support the answer",
+        "Too vague",
+    ]] = None
+    comment: Optional[str] = Field(default=None, max_length=2000)
 
 
 def _init_feedback_db() -> None:
     con = sqlite3.connect(_FEEDBACK_DB)
-    con.execute("""
-        CREATE TABLE IF NOT EXISTS feedback (
-            id         INTEGER PRIMARY KEY AUTOINCREMENT,
-            query      TEXT NOT NULL,
-            answer     TEXT NOT NULL,
-            rating     TEXT NOT NULL,
-            category   TEXT,
-            comment    TEXT,
-            created_at TEXT NOT NULL
+    try:
+        con.execute("""
+            CREATE TABLE IF NOT EXISTS feedback (
+                id         INTEGER PRIMARY KEY AUTOINCREMENT,
+                query      TEXT NOT NULL,
+                answer     TEXT NOT NULL,
+                rating     TEXT NOT NULL,
+                category   TEXT,
+                comment    TEXT,
+                created_at TEXT NOT NULL
+            )
+        """)
+        con.commit()
+    finally:
+        con.close()
+
+
+def _insert_feedback(query: str, answer: str, rating: str, category: Optional[str], comment: Optional[str]) -> None:
+    con = sqlite3.connect(_FEEDBACK_DB)
+    try:
+        con.execute(
+            "INSERT INTO feedback (query, answer, rating, category, comment, created_at) VALUES (?, ?, ?, ?, ?, ?)",
+            (query, answer, rating, category, comment, datetime.now(timezone.utc).isoformat()),
         )
-    """)
-    con.commit()
-    con.close()
+        con.commit()
+    finally:
+        con.close()
 
 
 @asynccontextmanager
@@ -93,13 +114,8 @@ async def health():
 @app.post("/feedback")
 @limiter.limit("20/minute")
 async def post_feedback(request: Request, body: FeedbackBody):
-    con = sqlite3.connect(_FEEDBACK_DB)
-    con.execute(
-        "INSERT INTO feedback (query, answer, rating, category, comment, created_at) VALUES (?, ?, ?, ?, ?, ?)",
-        (body.query, body.answer, body.rating, body.category, body.comment, datetime.now(timezone.utc).isoformat()),
-    )
-    con.commit()
-    con.close()
+    loop = asyncio.get_event_loop()
+    await loop.run_in_executor(None, _insert_feedback, body.query, body.answer, body.rating, body.category, body.comment)
     return {"ok": True}
 
 

@@ -25,9 +25,13 @@ export function FeedbackBar({ query, answer }: FeedbackBarProps) {
 
   const handleThumbsUp = async () => {
     if (submitted) return;
-    setRating('up');
-    setSubmitted(true);
-    await submitFeedback({ query, answer, rating: 'up', category: null, comment: null });
+    try {
+        await submitFeedback({ query, answer, rating: 'up', category: null, comment: null });
+        setRating('up');
+        setSubmitted(true);
+    } catch {
+        // feedback is optional — silently ignore failures
+    }
   };
 
   const handleThumbsDown = () => {
@@ -93,7 +97,16 @@ export function FeedbackBar({ query, answer }: FeedbackBarProps) {
 
       {panelOpen && (
         <div className="bg-white border border-[#e8e4dc] rounded-lg p-4 font-sans">
-          <p className="text-xs font-semibold text-[#4a3728] mb-2.5">What was the problem?</p>
+          <div className="flex items-center justify-between mb-2.5">
+              <p className="text-xs font-semibold text-[#4a3728]">What was the problem?</p>
+              <button
+                  onClick={() => { setPanelOpen(false); setRating(null); }}
+                  className="text-[#999] hover:text-[#4a3728] text-sm leading-none"
+                  aria-label="Dismiss feedback panel"
+              >
+                  ×
+              </button>
+          </div>
           <div className="flex flex-wrap gap-2 mb-3.5">
             {CATEGORIES.map((cat) => (
               <button
@@ -118,6 +131,7 @@ export function FeedbackBar({ query, answer }: FeedbackBarProps) {
           <div className="flex justify-end mt-2.5">
             <button
               onClick={handleSubmit}
+              aria-label="Submit feedback"
               className="bg-[#4a3728] text-white border-none rounded-md p-2 flex items-center justify-center hover:bg-[#6b4e35] transition-colors"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
