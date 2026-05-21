@@ -2,9 +2,9 @@ import json
 import os
 import sqlite3
 from contextlib import asynccontextmanager
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Literal, Optional
 from pydantic import BaseModel
 from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -29,7 +29,7 @@ _FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
 class FeedbackBody(BaseModel):
     query: str
     answer: str
-    rating: str
+    rating: Literal["up", "down"]
     category: Optional[str] = None
     comment: Optional[str] = None
 
@@ -91,11 +91,12 @@ async def health():
     return {"status": "ok"}
 
 @app.post("/feedback")
-async def post_feedback(body: FeedbackBody):
+@limiter.limit("20/minute")
+async def post_feedback(request: Request, body: FeedbackBody):
     con = sqlite3.connect(_FEEDBACK_DB)
     con.execute(
         "INSERT INTO feedback (query, answer, rating, category, comment, created_at) VALUES (?, ?, ?, ?, ?, ?)",
-        (body.query, body.answer, body.rating, body.category, body.comment, datetime.utcnow().isoformat()),
+        (body.query, body.answer, body.rating, body.category, body.comment, datetime.now(timezone.utc).isoformat()),
     )
     con.commit()
     con.close()
