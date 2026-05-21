@@ -1,6 +1,27 @@
-# Handoff — Session 2026-05-20 (latest)
+# Handoff — Session 2026-05-21 (latest)
 
-## What happened this session (2026-05-20)
+## What happened this session (2026-05-21)
+
+**Sub-session 8 — Feedback mechanism:**
+
+Built a full thumbs up/down feedback mechanism attached to every synthesis answer.
+
+- **Backend:** `POST /feedback` endpoint in `main.py`. Request body: `{query, answer, rating, category, comment}`. Stores to `feedback.db` (SQLite, initialized in the `lifespan` context manager at startup). Rate-limited. Validates `rating` as a literal type (`"up"` | `"down"`). Uses `datetime.now(UTC)` (not deprecated `utcnow()`).
+- **Frontend:** `FeedbackBar` component (`frontend/components/deep-dive/FeedbackBar.tsx`) — thumbs up/down buttons, 5-category downvote panel, optional free-text comment, paper airplane submit icon. Appears below the synthesis answer once streaming completes. `submitFeedback()` typed fetch wrapper added to `lib/api.ts`.
+- **Integration:** `FeedbackBar` rendered in `SynthesisView.tsx`. `query` prop threaded down: `SynthesisLoader` → `DualPaneContainer` → `SynthesisView` → `FeedbackBar`.
+- **Behavior:** thumbs up → immediate confirm, no panel. Thumbs down → opens category panel; submit collapses panel and shows "Thank you". Once submitted, both buttons disabled for the session. Disclaimer: *"Feedback includes your question and this full answer."*
+- Fixed double-scroll jank on results page (unrelated UI regression).
+
+**Sub-session 9 — Pāḷi dictionary expansion + nikaya filter fix:**
+
+- **Nikaya filter bug fixed:** Qdrant Cloud requires an explicit keyword payload index on any field used in filters. The `nikaya` field had no index, causing 400 errors when a nikaya filter was applied. Added idempotent index creation at startup in `main.py`.
+- **19 new pali_dictionary entries** across: Four Foundations of Mindfulness (satipaṭṭhāna, all 4 individually keyworded with Thanissaro translations); Five Spiritual Faculties / Five Powers (pañcaindriya / pañcabala); Four Bases of Power (iddhipāda); Six Sense Bases (āyatana, gratification/danger/escape keywords); Dāna / Generosity; Three Trainings (tisikkhā); Disenchantment chain (nibbidā → virāga → release); Liberation of mind / through discernment (cetovimutti / paññāvimutti); Body contemplation / asubha; 37 Wings to Awakening; Skillful / unskillful roots (kusala / akusala); Heedfulness (appamāda, last words of the Buddha); Anger / aversion (kodha / āghāta); Grief and loss (soka / parideva).
+
+---
+
+# Handoff — Session 2026-05-20
+
+## What happened this session
 
 **Sub-session 6 — Deployment + citation/streaming fixes:**
 - Deployed live: Netlify (frontend, manual deploy) + DigitalOcean 2GB Droplet (backend) + Qdrant Cloud (134K vectors) + NVIDIA API. See ADR-0003.
