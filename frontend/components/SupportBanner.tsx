@@ -1,9 +1,10 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 export function SupportBanner() {
   const [visible, setVisible] = useState(false);
+  const footerRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const isMobile = () => window.innerWidth < 768;
@@ -30,13 +31,28 @@ export function SupportBanner() {
     return () => document.removeEventListener('scroll', handleScroll, true);
   }, []);
 
+  // Keep scroll containers padded so content isn't hidden behind the fixed banner
+  useEffect(() => {
+    if (typeof window === 'undefined' || window.innerWidth >= 768) return;
+    const h = footerRef.current?.offsetHeight ?? 0;
+    document.documentElement.style.setProperty('--banner-h', visible ? `${h}px` : '0px');
+    if (visible) {
+      document.documentElement.setAttribute('data-banner-open', '');
+    } else {
+      document.documentElement.removeAttribute('data-banner-open');
+    }
+  }, [visible]);
+
   return (
     <footer
+      ref={footerRef}
       className={[
-        'w-full bg-white overflow-hidden transition-all duration-300',
-        visible
-          ? 'max-h-52 py-4 border-t border-gray-200'
-          : 'max-h-0 py-0 md:max-h-52 md:py-4 md:border-t md:border-gray-200',
+        'w-full bg-white border-t border-gray-200 py-4',
+        // Mobile: fixed at bottom, slide in/out
+        'fixed bottom-0 left-0 right-0 z-50 transition-transform duration-300',
+        // Desktop: back to normal flow, always visible
+        'md:static md:transform-none',
+        visible ? 'translate-y-0' : 'translate-y-full',
       ].join(' ')}
     >
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 px-6 text-sm text-gray-500">

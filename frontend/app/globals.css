@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+/* When the mobile donation banner is visible (fixed position), pad scroll
+   containers so bottom content stays reachable above the banner. */
+@media (max-width: 767px) {
+  [data-banner-open] div.overflow-y-auto,
+  [data-banner-open] div.overflow-auto {
+    padding-bottom: var(--banner-h, 0px);
+    transition: padding-bottom 0.3s;
+  }
+}
