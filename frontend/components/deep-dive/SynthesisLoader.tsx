@@ -112,6 +112,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
               const response = event as SynthesisResponse;
               writeCache(query, nikayas, response);
               setData(response);
+              break;
             }
             else if (event.type === 'error') throw Object.assign(new Error(event.message), { status: 500 });
           }
@@ -126,6 +127,8 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
 
   const visible = streamText ? stripThinking(streamText) : '';
 
+  if (data) return <DualPaneContainer data={data} />;
+
   if (error) return (
     <ErrorMessage
       isRateLimit={error.status === 429}
@@ -133,8 +136,6 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
       onRetry={() => setRetryCount(c => c + 1)}
     />
   );
-
-  if (data) return <DualPaneContainer data={data} />;
 
   if (visible) {
     return (
