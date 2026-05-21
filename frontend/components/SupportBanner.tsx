@@ -16,7 +16,9 @@ export function SupportBanner() {
       if (!(target instanceof Element) || target.clientHeight < 200) return;
 
       const scrollTop = target.scrollTop;
-      const atBottom = target.scrollHeight - scrollTop - target.clientHeight < 80;
+      // Only trigger on containers with meaningful content to scroll
+      if (target.scrollHeight <= target.clientHeight + 150) return;
+      const atBottom = target.scrollHeight - scrollTop - target.clientHeight < 20;
       const scrollingUp = scrollTop < lastScrollTop;
       lastScrollTop = scrollTop;
 

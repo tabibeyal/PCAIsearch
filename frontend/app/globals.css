@@ -6,6 +6,5 @@
   [data-banner-open] div.overflow-y-auto,
   [data-banner-open] div.overflow-auto {
     padding-bottom: var(--banner-h, 0px);
-    transition: padding-bottom 0.3s;
   }
 }
