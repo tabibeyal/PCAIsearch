@@ -206,10 +206,6 @@ PYTHONPATH=. python3 -m pytest tests/backend/ -q --ignore=tests/backend/test_e2e
 
 Paṭicca-samuppāda passage not retrievable via embedding model. Options: hand-crafted `english_hint` in pali_dictionary pointing at the dependent origination chain, or ingest a richer version of SN 12.1.
 
-### Phase 2.5 — Public read-only API + explorer UI
-
-`/parallels` route backed by 4–5 read-only endpoints over `data/parallels.sqlite`. Schema already shaped; ~20 LOC HTTP layer.
-
 ### Phase 2 — Vinaya ingestion (deferred)
 
 Parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match `pli-tv-bu-vb-pj1` IDs — needs extension before Vinaya can be ingested.
@@ -229,11 +225,6 @@ Parser regex `r"([a-zA-Z]+)([\d.]+)"` won't match `pli-tv-bu-vb-pj1` IDs — nee
 - **Guardrail** — post-generation citation verifier/redactor (`CitationGuardrail`)
 - **CitationOracle** — answers "does `[ID:Verse]` exist?"
 - **SuttaRelations** — answers "what is related to sutta X?"
-- **Span** — maximal recurring Pāḷi token sequence; content-addressed by SHA-256 of normalised text
-- **Occurrence** — `(span_id, sutta_id, verse_number, char_offset, char_length)`; char offsets index raw pali field
-- **Detector** — offline batch tool producing `data/parallels.sqlite`; versioned (`v1-k7-light`)
-- **Light normalisation** — NFC + lower + strip punctuation + collapse whitespace + ṁ→ṃ
-- **Shingle** — k=7 consecutive normalised tokens; used to seed span detection
 - **retrieval_k** — internal candidate pool = `max(top_k * 3, 30)`; used for dense and BM25 per query
 - **PaliDictionary / lookup** — `pali_dictionary.py`; ~65 `DictionaryEntry` objects (label, keywords, pali, english_hint); `lookup(query)` / `lookup_english(query)` use word-boundary regex (`\b...\b`) — not substring — to avoid false matches like "form" → "formless"; pali cluster used in expansion, english_hint fed to `rerank_multi`; all major doctrinal lists have each member as an individual keyword using Thanissaro Bhikkhu's primary translations
 - **english_hint** — verbatim passage fragment stored in `DictionaryEntry`; bridges vocabulary gap between query and sutta text for the cross-encoder
