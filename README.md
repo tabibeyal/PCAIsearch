@@ -14,7 +14,6 @@ Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, 
 - **Citation guardrail** — distinguishes true hallucinations (non-existent sutta) from canonical misses (real sutta not in retrieved context)
 - **Nikaya filter** — filter search and synthesis by collection (DN, MN, SN, AN, DHP, ITI); click to switch, ⌘/Ctrl-click to combine
 - **Canon cross-references** — `/search` returns `related_suttas`: doctrinally paired suttas and structural neighbors from the canon index
-- **Parallel-passage detector** — offline tool finds recurring Pāḷi formulas across the corpus (31,711 spans, 153,119 occurrences on the Sutta Piṭaka); queryable via CLI
 - **Resume-capable indexing** — indexing can be interrupted and resumed without re-embedding
 
 ## Architecture
@@ -30,17 +29,11 @@ backend/           FastAPI + asyncio
       search_pipeline.py  Query expansion → retrieval → reranking → related suttas
       guardrail.py        Citation verification (hallucination vs canonical miss)
       canon_graph.py      Canon index: citation oracle + doctrinal cross-references
-analysis/
-  parallels/       Offline parallel-passage detector
-    detector.py    k=7 shingle + maximal extension → SQLite artifact
-    normalise.py   Light Pāḷi normalisation (NFC, niggahita, punctuation)
-    cli.py         CLI: build / list-spans / show-span / spans-in-sutta / top-formulas / stats
 data/
   fetch_bilara.py  Sparse-clone SuttaCentral bilara-data → local JSON (DN/MN/AN/SN/DHP/ITI)
   process_dumps.py Embed & upsert into Qdrant
-  parallels.sqlite Parallel-passage artifact (generated; gitignored)
 docs/adr/          Architecture decision records
-tests/             pytest suites (backend + analysis)
+tests/             pytest suites (backend)
 ```
 
 **Stack:** FastAPI · Qdrant · fastembed (ONNX Runtime) · cross-encoder/ms-marco-MiniLM-L-6-v2 · Gemma 3N for query expansion · Llama 3.3 70B Instruct for synthesis (both via NVIDIA API) · Next.js · Tailwind CSS
@@ -116,37 +109,10 @@ Open [http://localhost:3000](http://localhost:3000).
 
 Rate limits: 30 req/min for search, 10 req/min for synthesis.
 
-## Parallel-passage detector
-
-After indexing, build the parallel-passage artifact:
-
-```bash
-python -m analysis.parallels build
-```
-
-Query examples:
-
-```bash
-# Top recurring formulas
-python -m analysis.parallels top-formulas --limit 20
-
-# All spans in a sutta
-python -m analysis.parallels spans-in-sutta MN36
-
-# Inspect one span
-python -m analysis.parallels show-span <span_id>
-
-# Summary statistics
-python -m analysis.parallels stats
-```
-
-All commands support `--json` for scripting. The artifact (`data/parallels.sqlite`) is gitignored and regenerable in ~20 seconds.
-
 ## Running Tests
 
 ```bash
-PYTHONPATH=. python -m pytest tests/backend/ -q   # backend (19 tests)
-PYTHONPATH=. python -m pytest tests/analysis/ -q  # detector (38 tests)
+PYTHONPATH=. python -m pytest tests/backend/ -q
 ```
 
 ## License
