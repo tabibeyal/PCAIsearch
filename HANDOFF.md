@@ -192,7 +192,7 @@ query
 
 ## Test suite
 
-**118 passed**, 6 pre-existing errors in `test_api.py` (missing `NVIDIA_API_KEY` in test env — unchanged).
+**144 passed**, 6 pre-existing errors in `test_api.py` (missing `NVIDIA_API_KEY` in test env — unchanged).
 
 ```bash
 PYTHONPATH=. python3 -m pytest tests/backend/ -q --ignore=tests/backend/test_e2e_pipeline.py
