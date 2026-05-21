@@ -2,6 +2,14 @@
 
 ## What happened this session (2026-05-21)
 
+**Sub-session 12 — Response disappears after ~2 minutes:**
+
+- **Root cause:** after the backend sends the `done` SSE event, the stream's `while(true)` read loop kept running, waiting for more data. After ~2 minutes a proxy/keep-alive timeout dropped the connection, throwing an error inside the loop. Because `if (error)` was checked before `if (data)` in the render, the error view replaced the already-complete response.
+- **Fix 1 — `break` after `done`** (`SynthesisLoader.tsx`): exits the `for await` loop immediately once the `done` event is processed. The connection closes cleanly; no subsequent error can be thrown.
+- **Fix 2 — render priority** (`SynthesisLoader.tsx`): moved `if (data)` before `if (error)`. A successful response now always takes visual priority over a late error — defence-in-depth against any future path that sets both.
+- Files changed: `frontend/components/deep-dive/SynthesisLoader.tsx`.
+- Commit: `91c38a1`.
+
 **Sub-session 11 — Mobile background/foreground bug + double-request fix:**
 
 - **Root cause diagnosed:** backgrounding the app on mobile caused two problems:
