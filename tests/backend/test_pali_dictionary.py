@@ -232,3 +232,54 @@ def test_lookup_english_middle_way():
     result = lookup_english("middle way")
     assert result is not None
     assert "two extremes" in result
+
+
+# --- Part 2: keyword additions to existing entries ---
+
+def test_lookup_three_fires():
+    # kilesa entry gets "three fires"
+    result = lookup("three fires")
+    assert result is not None
+    assert "kilesa" in result
+
+
+def test_lookup_fire_of_greed():
+    # kilesa entry gets "fire of greed"
+    result = lookup("fire of greed")
+    assert result is not None
+    assert "kilesa" in result
+
+
+def test_lookup_three_roots():
+    # kilesa entry gets "three roots"
+    result = lookup("three roots")
+    assert result is not None
+    assert "kilesa" in result
+
+
+def test_lookup_keen():
+    # appamāda entry gets "keen"
+    result = lookup("keen")
+    assert result is not None
+    assert "appamāda" in result
+
+
+def test_lookup_prudent():
+    # appamāda entry gets "prudent"
+    result = lookup("prudent")
+    assert result is not None
+    assert "appamāda" in result
+
+
+def test_lookup_good_conduct():
+    # skillful/unskillful entry gets "good conduct"
+    result = lookup("good conduct")
+    assert result is not None
+    assert "kusala" in result
+
+
+def test_lookup_bad_conduct():
+    # skillful/unskillful entry gets "bad conduct"
+    result = lookup("bad conduct")
+    assert result is not None
+    assert "kusala" in result
