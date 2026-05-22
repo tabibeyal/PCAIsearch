@@ -9,7 +9,7 @@ if [ -n "$GIT_ROOT" ]; then
   MEMORY_DIR="$GIT_ROOT/.memsearch/memory"
 else
   SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-  MEMORY_DIR="$(dirname "$SCRIPT_DIR")/.memsearch/memory"
+  MEMORY_DIR="$(dirname "$(dirname "$SCRIPT_DIR")")/.memsearch/memory"
 fi
 
 _json_encode() {
@@ -41,8 +41,8 @@ if [ "$count" -eq 0 ]; then
 fi
 
 status="[context] ${count} curated file(s) loaded"
-json_status=$(_json_encode <<< "$status")
-json_context=$(_json_encode <<< "$context")
+json_status=$(printf '%s' "$status" | _json_encode)
+json_context=$(printf '%s' "$context" | _json_encode)
 
 printf '{"systemMessage": %s, "hookSpecificOutput": {"hookEventName": "SessionStart", "additionalContext": %s}}\n' \
   "$json_status" "$json_context"
