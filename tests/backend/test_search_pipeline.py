@@ -402,3 +402,8 @@ def test_expansion_prompt_v7_has_named_similes():
     assert "paṭisota" in prompt
     assert "lump of salt" in prompt
     assert "rub two sticks" in prompt
+    assert "foolish cook" in prompt
+    assert "bathroom attendant" in prompt
+    assert "native gold" in prompt and "crucible" in prompt
+    assert "large peg finer peg" in prompt
+    assert "cow udder" in prompt or "pulling horn" in prompt

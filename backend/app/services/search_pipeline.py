@@ -216,7 +216,12 @@ class ExpansionPrompt:
             "- lute string simile / balanced energy: arched harp strings tuned too tight too slack even tension resonant playable Soṇa energy restlessness laziness → vīṇā\n"
             "- against the stream / four types of practitioners: goes with the stream goes against the stream steadfast crossed over far shore sensual pleasures bad deeds → paṭisota\n"
             "- salt in mug vs Ganges / kamma ripens by development: lump of salt mug of water Ganges river salty undrinkable big-hearted small-minded trivial bad deed → kamma cetanā\n"
-            "- fire sticks / contact produces feeling: rub two sticks together heat generated fire produced part sticks lay aside contact feeling pleasant painful equanimity → phassa vedanā samphassa"
+            "- fire sticks / contact produces feeling: rub two sticks together heat generated fire produced part sticks lay aside contact feeling pleasant painful equanimity → phassa vedanā samphassa\n"
+            "- cook simile / mindfulness reads the mind's hints: foolish cook master hint sauce sour bitter pungent sweet salty bland mindfulness immersion corruptions wages → satipaṭṭhāna\n"
+            "- bathman soap ball simile / jhāna pervades the body: bathroom attendant bath powder bronze dish kneads ball rapture bliss drench steep fill pervade body seclusion → jhāna pīti sukha\n"
+            "- goldsmith purifying mind / refining meditation: native gold crucible blow melt smelt pliable workable radiant dross ornament bracelet coarse fine corruptions → citta samādhi\n"
+            "- peg simile / replacing unskillful thoughts: deft mason large peg finer peg knock extract unskillful skillful thoughts desire hate delusion → vitakka\n"
+            "- cow udder simile / rational vs irrational practice: pulling horn newly-calved cow udder milk irrational rational wish fruit churning curds butter sesame oil → sammā paṭipadā"
         ),
     }
 
