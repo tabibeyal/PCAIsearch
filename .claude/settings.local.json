@@ -1,4 +1,17 @@
 {
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/eyal/PCAIsearch/.claude/hooks/inject-context.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
   "permissions": {
     "allow": [
       "Bash(pytest *)",
@@ -57,7 +70,12 @@
       "Bash(bash *)",
       "Bash(npx --yes netlify-cli status)",
       "Bash(npx netlify-cli@latest *)",
-      "Bash(PYTHONPATH=. timeout 60 python3 -m pytest tests/backend/ -q --tb=short --ignore=tests/backend/retrieval_benchmark.py)"
+      "Bash(PYTHONPATH=. timeout 60 python3 -m pytest tests/backend/ -q --tb=short --ignore=tests/backend/retrieval_benchmark.py)",
+      "Bash(grep -v \"^$\")",
+      "Bash(crontab -l)",
+      "Bash(uvx --from 'memsearch[onnx]' memsearch --version)",
+      "Bash(chmod +x *)",
+      "Bash(awk '{print $1}')"
     ]
   }
 }
