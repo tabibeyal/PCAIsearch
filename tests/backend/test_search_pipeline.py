@@ -384,3 +384,18 @@ def test_system_prompt_has_out_of_scope_guard():
     assert "outside the scope of this search engine" in _SYSTEM_PROMPT
     assert "arithmetic" in _SYSTEM_PROMPT or "cooking" in _SYSTEM_PROMPT
     assert "anger" in _SYSTEM_PROMPT or "grief" in _SYSTEM_PROMPT
+
+
+def test_expansion_prompt_v7_has_named_similes():
+    prompt = ExpansionPrompt("v7").get_prompt()
+    assert "near shore far shore raft" in prompt          # raft simile MN 22
+    assert "arrow thickly smeared poison" in prompt       # poisoned arrow MN 63
+    assert "arched harp strings tuned too tight" in prompt  # lute string AN 6.55
+    assert "one-eyed turtle" in prompt                    # blind turtle SN 56.48
+    assert "rosewood leaves handful" in prompt            # handful of leaves SN 56.31
+    assert "second arrow" in prompt                       # two arrows SN 36.6
+    assert "burning fire greed hate delusion" in prompt   # fire sermon SN 35.28
+    assert "kullūpama" in prompt
+    assert "salla" in prompt
+    assert "vīṇā" in prompt
+    assert "chiggaḷa" in prompt

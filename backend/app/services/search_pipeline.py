@@ -200,7 +200,20 @@ class ExpansionPrompt:
             "- middle way: avoid extremes pleasure pain indulgence asceticism moderation → majjhimā paṭipadā atitta atilīna\n"
             "- devas / heavenly beings: deva deity approached sat one side lord blessed → deva devaputta brahmā sakka\n"
             "- Mara / death / temptation: Mara evil one snare trap host armies flowers → māra pāpimā\n"
-            "- sense bases / contact: eye ear nose tongue body mind contact feeling → āyatana phassa vedanā salāyatana"
+            "- sense bases / contact: eye ear nose tongue body mind contact feeling → āyatana phassa vedanā salāyatana\n"
+            "- raft simile / do not cling to the teaching: near shore far shore raft grass sticks branches leaves carry head cross over → kullūpama\n"
+            "- snake/cobra simile / wrong grasp of teachings: cobra coil grasp wrong grasp cleft stick venom bite hand → alagaddūpama\n"
+            "- poisoned arrow simile / unanswered questions: arrow thickly smeared poison surgeon extract undeclared cosmos eternal soul body → salla\n"
+            "- relay chariots simile / stages of the path: chariots stationed ready Sāvatthī Sāketa mounted dismounted seven stages → rathavinīta\n"
+            "- stained cloth simile / purifying the mind: cloth dirty soiled dye blue yellow red magenta pure clean impure corrupt → vattha\n"
+            "- elephant's footprint simile / four noble truths encompass all: footprints creatures walk elephant footprint biggest includes four noble truths → hatthipadopama\n"
+            "- ancient path/city simile / rediscovering the Dhamma: ancient path ancient route forest person walking old road parks groves lotus ponds capital → nagara\n"
+            "- dog on leash simile / running around the aggregates: hound leash tethered post pillar running circling form feeling perception choices consciousness → gaddula\n"
+            "- everything is burning simile / fire of the senses: burning fire greed hate delusion eye ear nose tongue body mind contact → āditta\n"
+            "- two arrows simile / adding mental suffering to physical pain: struck arrow second arrow two feelings physical mental uninstructed wails laments → dvisalla\n"
+            "- handful of leaves simile / what the Buddha teaches vs what he knows: rosewood leaves handful forest tiny amount what I know what I teach → siṃsapā\n"
+            "- blind turtle simile / precious human birth: yoke single hole one-eyed turtle hundred years ocean east west north south winds → chiggaḷa\n"
+            "- lute string simile / balanced energy: arched harp strings tuned too tight too slack even tension resonant playable Soṇa energy restlessness laziness → vīṇā"
         ),
     }
 
