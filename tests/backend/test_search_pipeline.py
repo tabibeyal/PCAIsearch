@@ -216,10 +216,10 @@ def test_expansion_prompt_v2_forbids_sutta_numbers():
     assert "sutta number" in prompt.lower() or "sutta numbers" in prompt.lower()
 
 
-def test_search_pipeline_default_uses_v6():
+def test_search_pipeline_default_uses_v7():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
-    assert pipeline.expansion_prompt.version == "v6"
+    assert pipeline.expansion_prompt.version == "v7"
 
 
 def test_expansion_prompt_raises_on_unknown_version():
@@ -338,7 +338,7 @@ def test_expansion_prompt_v5_contains_english_passage_hints():
     assert "tradition hearsay scripture" in prompt
     assert "two-handled saw bandits" in prompt
     assert "six directions parents" in prompt
-    assert "form impermanent suffering not-self" in prompt
+    assert "form inconstant stress suffering not-self" in prompt
 
 
 def test_expansion_prompt_v6_has_second_example_and_rahula_entry():
@@ -350,7 +350,37 @@ def test_expansion_prompt_v6_has_second_example_and_rahula_entry():
     assert "NOT to rely on" in prompt or "not to rely on" in prompt.lower()
 
 
-def test_search_pipeline_uses_v6_by_default():
+def test_expansion_prompt_v7_translates_non_english():
+    prompt = ExpansionPrompt("v7").get_prompt()
+    assert "translate" in prompt.lower()
+    assert "English" in prompt
+    assert "deva" in prompt
+    assert "should a monk feel anger" in prompt
+
+
+def test_expansion_prompt_v7_has_foam_simile_entry():
+    prompt = ExpansionPrompt("v7").get_prompt()
+    assert "foam" in prompt
+    assert "bubble" in prompt
+    assert "vacuous" in prompt or "hollow" in prompt
+    assert "pheṇapiṇḍa" in prompt
+
+
+def test_system_prompt_prohibits_existence_denial():
+    from backend.app.services.search_pipeline import _SYSTEM_PROMPT
+    assert "NEVER DENY EXISTENCE" in _SYSTEM_PROMPT
+    assert "couldn't find this in the retrieved passages" in _SYSTEM_PROMPT
+
+
+def test_search_pipeline_uses_v7_by_default():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
-    assert pipeline.expansion_prompt.version == "v6"
+    assert pipeline.expansion_prompt.version == "v7"
+
+
+def test_system_prompt_has_out_of_scope_guard():
+    from backend.app.services.search_pipeline import _SYSTEM_PROMPT
+    assert "OUT OF SCOPE" in _SYSTEM_PROMPT
+    assert "outside the scope of this search engine" in _SYSTEM_PROMPT
+    assert "arithmetic" in _SYSTEM_PROMPT or "cooking" in _SYSTEM_PROMPT
+    assert "anger" in _SYSTEM_PROMPT or "grief" in _SYSTEM_PROMPT
