@@ -407,3 +407,9 @@ def test_expansion_prompt_v7_has_named_similes():
     assert "native gold" in prompt and "crucible" in prompt
     assert "large peg finer peg" in prompt
     assert "cow udder" in prompt or "pulling horn" in prompt
+    assert "pole acrobat" in prompt
+    assert "ocean one taste" in prompt or "taste of salt" in prompt
+    assert "blue water lilies" in prompt
+    assert "your own island" in prompt or "island refuge" in prompt
+    assert "six gates" in prompt and "gatekeeper" in prompt
+    assert "dyed water" in prompt or "red lac" in prompt

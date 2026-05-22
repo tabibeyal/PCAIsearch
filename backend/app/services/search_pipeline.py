@@ -221,7 +221,13 @@ class ExpansionPrompt:
             "- bathman soap ball simile / jhāna pervades the body: bathroom attendant bath powder bronze dish kneads ball rapture bliss drench steep fill pervade body seclusion → jhāna pīti sukha\n"
             "- goldsmith purifying mind / refining meditation: native gold crucible blow melt smelt pliable workable radiant dross ornament bracelet coarse fine corruptions → citta samādhi\n"
             "- peg simile / replacing unskillful thoughts: deft mason large peg finer peg knock extract unskillful skillful thoughts desire hate delusion → vitakka\n"
-            "- cow udder simile / rational vs irrational practice: pulling horn newly-calved cow udder milk irrational rational wish fruit churning curds butter sesame oil → sammā paṭipadā"
+            "- cow udder simile / rational vs irrational practice: pulling horn newly-calved cow udder milk irrational rational wish fruit churning curds butter sesame oil → sammā paṭipadā\n"
+            "- acrobat simile / guarding self and others: pole acrobat corpse-workers bamboo pole apprentice shoulders skill display fee safely mutual protection → satipaṭṭhāna\n"
+            "- ocean one taste / Dhamma has one taste of liberation: ocean one taste salt titans rivers lose names clans taste of freedom teaching training → dhamma vinaya vimutti\n"
+            "- lotus pool simile / jhāna pervades without gap: pool blue water lilies pink white lotuses sprout grow rising above thriving underwater no part body → jhāna pīti sukha\n"
+            "- island to yourself / be your own refuge: live as your own island refuge no other refuge teaching island Ānanda passed mendicant → attadīpa satipaṭṭhāna\n"
+            "- city with six gates / sense bases and mindfulness: frontier citadel fortified ramparts six gates gatekeeper astute body four principal states consciousness lord of city → āyatana sati\n"
+            "- dyed water simile / five hindrances obscure the mind: bowl water mixed dye red lac turmeric boiling bubbling moss aquatic plants stirred wind reflection see clearly → nīvaraṇa"
         ),
     }
 
