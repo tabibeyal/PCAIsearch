@@ -94,7 +94,8 @@ def test_lookup_english_dependent_origination():
 
 
 def test_lookup_english_no_hint_returns_none():
-    result = lookup_english("four noble truths")
+    # "five precepts" matches the entry but it has no english_hint
+    result = lookup_english("five precepts")
     assert result is None
 
 
