@@ -329,6 +329,17 @@ _ENTRIES: List[DictionaryEntry] = [
         english_hint="mindfulness analysis of qualities persistence rapture serenity concentration equanimity factors of awakening bojjhanga cultivated developed fulfilled",
     ),
     DictionaryEntry(
+        label="Two elements of nibbāna",
+        keywords=[
+            "nibbana element", "nibbāna element", "nibbanadhatu", "nibbānadhātu",
+            "with residue", "without residue", "extinguishment element",
+            "two elements of unbinding", "two nibbana elements",
+            "parinibbana", "parinibbāna",
+        ],
+        pali="nibbānadhātu saupādisesā anupādisesā nibbāna parinibbāna",
+        english_hint="two elements of unbinding with residue remaining the faculties still present but all suffering experienced here will fade away without residue remaining at death all that is felt not being relished will grow cold the destruction of passion aversion delusion",
+    ),
+    DictionaryEntry(
         label="Nibbāna / liberation",
         keywords=[
             "nibbana", "nirvana", "awakening", "enlightenment",
@@ -791,6 +802,54 @@ _ENTRIES: List[DictionaryEntry] = [
         ],
         pali="āhāra kabaḷīkāra mātrañña bhojane",
         english_hint="eating with moderation knowing the right measure support of the body not for amusement not for sport not for beautifying",
+    ),
+    DictionaryEntry(
+        label="Conscience and prudence / hirī-ottappa",
+        keywords=[
+            "hiri", "hirī", "ottappa", "conscience", "moral shame", "moral dread",
+            "two bright things", "bright qualities", "prudence",
+            "shame at wrongdoing", "fear of wrongdoing",
+        ],
+        pali="hirī ottappa lajjī lokapāla",
+        english_hint="conscience and prudence these two bright qualities protect the world conscience shame at doing evil prudence dread of doing evil without these no distinction of mother aunt sister wife of teacher monks mendicants",
+    ),
+    DictionaryEntry(
+        label="Three grounds for making merit / puññakiriyavatthu",
+        keywords=[
+            "grounds for merit", "puññakiriyavatthu", "punnakiriyavatthu",
+            "three grounds", "making merit", "merit making",
+            "generosity virtue meditation merit",
+        ],
+        pali="puññakiriyavatthu dāna sīla bhāvanā cāga puñña",
+        english_hint="three grounds for making merit giving ethical conduct meditation the wise person desiring happiness should train in these works of merit which have great fruit great benefit the wise give generously cultivate virtue develop meditation merit",
+    ),
+    DictionaryEntry(
+        label="Trainee / sekha",
+        keywords=[
+            "sekha", "trainee", "one in training", "learner",
+            "still training", "not yet complete", "in higher training",
+        ],
+        pali="sekha sikkhā adhisīla adhicitta adhipaññā sotāpanna",
+        english_hint="a trainee one in higher training who has not yet reached the goal longing for relief from the yoke a monk practicing to eliminate greed hate delusion will not return to this world",
+    ),
+    DictionaryEntry(
+        label="Elements of escape / nissaraṇadhātu",
+        keywords=[
+            "elements of escape", "nissarana", "nissaraṇa", "nissaraṇadhātu",
+            "escape from sensuality", "escape from form", "renunciation escapes",
+            "formless escapes sensuality", "cessation escapes form",
+        ],
+        pali="nissaraṇadhātu nekkhamma abyāpajjha nirodha nibbāna",
+        english_hint="renunciation is the escape from sensuality formlessness is the escape from form cessation is the escape from what is felt as fabricated whatever beings sense some measure of pleasure joy that is the allure the escape is nibbana",
+    ),
+    DictionaryEntry(
+        label="Bhikkhu / monk",
+        keywords=[
+            "bhikkhu", "bhikkhuni", "bhikkhunī", "monk", "nun", "monastic",
+            "mendicant", "gone forth", "homeless life", "ordained",
+        ],
+        pali="bhikkhu bhikkhunī pabbajita sāmaṇera brahmacariya sīla sikkhā",
+        english_hint="a monk a mendicant bhikkhu one gone forth from the home life into homelessness training in the higher virtue higher mind higher wisdom practicing the holy life living the celibate life bound for liberation nibbana",
     ),
 ]
 
