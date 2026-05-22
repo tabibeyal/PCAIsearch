@@ -146,3 +146,89 @@ def test_lookup_bare_raga():
     result = lookup("raga")
     assert result is not None
     assert "rāga" in result
+
+
+# --- Part 1: english_hint coverage ---
+
+def test_lookup_english_anicca():
+    # hits "Three Marks of Existence" — currently no english_hint
+    result = lookup_english("anicca")
+    assert result is not None
+    assert "impermanent" in result
+
+
+def test_lookup_english_dukkha():
+    # hits "Suffering / dukkha" — currently no english_hint
+    result = lookup_english("dukkha")
+    assert result is not None
+    assert "suffering" in result
+
+
+def test_lookup_english_nibbana():
+    # hits "Nibbāna / liberation" — currently no english_hint
+    result = lookup_english("nibbana")
+    assert result is not None
+    assert "unborn" in result
+
+
+def test_lookup_english_anatta_hits_three_marks():
+    # "anatta" hits Three Marks of Existence first (entry #8)
+    result = lookup_english("anatta")
+    assert result is not None
+    assert "not-self" in result
+
+
+def test_lookup_english_no_self_hits_not_self_entry():
+    # "no self" hits "Not-self / anattā" — currently no english_hint
+    result = lookup_english("no self")
+    assert result is not None
+    assert "not-self" in result
+
+
+def test_lookup_english_kamma():
+    # hits "Kamma / rebirth" — currently no english_hint
+    result = lookup_english("kamma")
+    assert result is not None
+    assert "actions" in result
+
+
+def test_lookup_english_samadhi():
+    # hits "Concentration / samādhi" — currently no english_hint
+    result = lookup_english("samadhi")
+    assert result is not None
+    assert "concentrated" in result
+
+
+def test_lookup_english_sila():
+    # hits "Ethical conduct / sīla" — currently no english_hint
+    result = lookup_english("sila")
+    assert result is not None
+    assert "virtue" in result
+
+
+def test_lookup_english_panna():
+    # hits "Wisdom / insight" — currently no english_hint
+    result = lookup_english("panna")
+    assert result is not None
+    assert "discernment" in result
+
+
+def test_lookup_english_citta():
+    # hits "Mind / citta" via its specific keyword — currently no english_hint
+    result = lookup_english("mind is the forerunner")
+    assert result is not None
+    assert "mind is the forerunner" in result
+
+
+def test_lookup_english_kilesa():
+    # hits "Defilements / kilesa" — currently no english_hint
+    result = lookup_english("kilesa")
+    assert result is not None
+    assert "greed" in result
+
+
+def test_lookup_english_middle_way():
+    # hits "Middle Way" — currently no english_hint
+    result = lookup_english("middle way")
+    assert result is not None
+    assert "two extremes" in result
