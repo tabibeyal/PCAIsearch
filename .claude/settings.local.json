@@ -75,7 +75,23 @@
       "Bash(crontab -l)",
       "Bash(uvx --from 'memsearch[onnx]' memsearch --version)",
       "Bash(chmod +x *)",
-      "Bash(awk '{print $1}')"
+      "Bash(awk '{print $1}')",
+      "Bash(MEMSEARCH_DIR=/home/eyal/PCAIsearch/.memsearch PATH=/home/eyal/.local/bin:/usr/local/bin:/usr/bin:/bin uvx *)",
+      "Bash(wait 494948)",
+      "Bash(echo \"Process exited with code: $?\")"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/eyal/PCAIsearch/.claude/hooks/inject-context.sh",
+            "timeout": 10
+          }
+        ]
+      }
     ]
   }
 }
