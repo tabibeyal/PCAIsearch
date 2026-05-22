@@ -108,3 +108,41 @@ def test_lookup_english_buddha_decision_to_teach():
     assert result is not None
     assert "deep" in result
     assert "Brahma" in result
+
+
+# --- Part 2: standalone Pali keyword coverage ---
+
+def test_lookup_bare_dukkha():
+    result = lookup("dukkha")
+    assert result is not None
+    assert "dukkha" in result
+
+
+def test_lookup_bare_samadhi():
+    result = lookup("samadhi")
+    assert result is not None
+    assert "samādhi" in result
+
+
+def test_lookup_bare_panna():
+    result = lookup("panna")
+    assert result is not None
+    assert "paññā" in result
+
+
+def test_lookup_bare_sati():
+    result = lookup("sati")
+    assert result is not None
+    assert "sati" in result
+
+
+def test_lookup_bare_tanha():
+    result = lookup("tanha")
+    assert result is not None
+    assert "taṇhā" in result
+
+
+def test_lookup_bare_raga():
+    result = lookup("raga")
+    assert result is not None
+    assert "rāga" in result
