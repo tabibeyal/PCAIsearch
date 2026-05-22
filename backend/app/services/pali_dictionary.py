@@ -333,7 +333,7 @@ _ENTRIES: List[DictionaryEntry] = [
         keywords=[
             "nibbana element", "nibbāna element", "nibbanadhatu", "nibbānadhātu",
             "with residue", "without residue", "extinguishment element",
-            "two elements of unbinding", "two nibbana elements",
+            "two elements of unbinding", "two nibbana elements", "two elements",
             "parinibbana", "parinibbāna",
         ],
         pali="nibbānadhātu saupādisesā anupādisesā nibbāna parinibbāna",
@@ -806,9 +806,9 @@ _ENTRIES: List[DictionaryEntry] = [
     DictionaryEntry(
         label="Conscience and prudence / hirī-ottappa",
         keywords=[
-            "hiri", "hirī", "ottappa", "conscience", "moral shame", "moral dread",
+            "hiri", "hirī", "ottappa", "conscience", "moral shame", "dread of doing evil",
             "two bright things", "bright qualities", "prudence",
-            "shame at wrongdoing", "fear of wrongdoing",
+            "shame at wrongdoing", "fear of doing evil",
         ],
         pali="hirī ottappa lajjī lokapāla",
         english_hint="conscience and prudence these two bright qualities protect the world conscience shame at doing evil prudence dread of doing evil without these no distinction of mother aunt sister wife of teacher monks mendicants",
@@ -835,7 +835,7 @@ _ENTRIES: List[DictionaryEntry] = [
     DictionaryEntry(
         label="Elements of escape / nissaraṇadhātu",
         keywords=[
-            "elements of escape", "nissarana", "nissaraṇa", "nissaraṇadhātu",
+            "elements of escape", "nissarana", "nissaraṇa", "nissaraṇadhātu", "nissaranadhatu",
             "escape from sensuality", "escape from form", "renunciation escapes",
             "formless escapes sensuality", "cessation escapes form",
         ],
