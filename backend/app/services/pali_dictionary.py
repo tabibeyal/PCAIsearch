@@ -59,6 +59,7 @@ _ENTRIES: List[DictionaryEntry] = [
         label="Suffering / dukkha",
         keywords=["stress", "suffering", "unsatisfactoriness", "cause of suffering", "origin of suffering", "cause of stress", "dukkha"],
         pali="dukkha samudaya taṇhā upādāna bhava",
+        english_hint="birth is suffering aging is suffering death is suffering sorrow lamentation pain grief despair not getting what one wants is suffering the five aggregates of clinging are suffering",
     ),
     DictionaryEntry(
         label="Ignorance / avijjā",
@@ -104,6 +105,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "unsatisfactory nature",
         ],
         pali="tilakkhaṇa anicca dukkha anattā sabbe saṅkhārā vipariṇāma",
+        english_hint="form is impermanent feeling is impermanent all fabrications are impermanent subject to change suffering not-self this is not mine I am not this this is not my self",
     ),
     DictionaryEntry(
         label="Five Precepts",
@@ -185,6 +187,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "samadhi", "samādhi",
         ],
         pali="samādhi samatha cetaso ekodibhāva",
+        english_hint="unified mind concentrated one-pointed seclusion rapture pleasure equanimity developed cultivated noble right concentration made much of",
     ),
     DictionaryEntry(
         label="Mindfulness / satipaṭṭhāna",
@@ -268,6 +271,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "avoid extremes", "moderate path",
         ],
         pali="majjhimā paṭipadā atitta atilīna soṇa vīṇā",
+        english_hint="avoiding these two extremes neither given over to sensual pleasure nor to self-mortification the middle path leading to calm direct knowledge awakening nibbana",
     ),
     DictionaryEntry(
         label="First Sermon / Dhammacakkappavattana",
@@ -332,6 +336,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "liberation", "deathless", "unconditioned",
         ],
         pali="nibbāna vimutti vimokkha sacchikiriyā asaṅkhata",
+        english_hint="unborn unbecome unmade unconditioned there would be no escape from what is born become made conditioned deathless cessation unbinding freed released",
     ),
     DictionaryEntry(
         label="Wisdom / insight",
@@ -341,6 +346,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "panna", "paññā",
         ],
         pali="paññā vijjā ñāṇa dassana yathābhūta",
+        english_hint="knowing and seeing things as they actually are discernment clear seeing understanding arising and passing away impermanent suffering not-self",
     ),
     DictionaryEntry(
         label="Kamma / rebirth",
@@ -350,6 +356,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "volitional action",
         ],
         pali="kamma cetanā vipāka punabbhava saṃsāra",
+        english_hint="beings are owners of their actions heirs of their actions actions are the womb from which they are born whatever actions they do good or bad they will inherit",
     ),
     DictionaryEntry(
         label="Three Jewels / Refuges",
@@ -413,6 +420,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "raga", "rāga",
         ],
         pali="kilesa lobha dosa moha rāga byāpāda avijjā",
+        english_hint="greed hate delusion contaminate the mind unwholesome roots defiled mind blameworthy leads to harm suffering not freed from rebirth",
     ),
     DictionaryEntry(
         label="Sense restraint",
@@ -438,6 +446,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "what is the self", "is there a self", "self and non-self",
         ],
         pali="anattā sabbe dhammā anattā khandha ahaṃkāra",
+        english_hint="form is not-self if form were self form would not lead to affliction this is not mine I am not this this is not my self feeling perception fabrications consciousness not-self",
     ),
     DictionaryEntry(
         label="Cessation of dependent origination",
@@ -463,6 +472,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "training in ethics", "ethical behaviour",
         ],
         pali="sīla pārisuddhisīla ājīvapārisuddhisīla",
+        english_hint="virtue training rule of training restraint refraining abstaining purified upright blameless praised by the wise bodily verbal mental conduct",
     ),
     DictionaryEntry(
         label="Monastic rules / Vinaya",
@@ -529,6 +539,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "taming the mind", "mind is the forerunner", "manopubbaṅgamā",
         ],
         pali="citta mano manopubbaṅgamā manomaya cetovimutti",
+        english_hint="mind is the forerunner of all actions with mind as chief mind-made if one speaks or acts with a corrupted mind suffering follows if with a clear mind happiness follows",
     ),
     DictionaryEntry(
         label="Mettāsutta",
