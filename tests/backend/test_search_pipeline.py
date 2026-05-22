@@ -399,3 +399,6 @@ def test_expansion_prompt_v7_has_named_similes():
     assert "salla" in prompt
     assert "vīṇā" in prompt
     assert "chiggaḷa" in prompt
+    assert "paṭisota" in prompt
+    assert "lump of salt" in prompt
+    assert "rub two sticks" in prompt

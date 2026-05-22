@@ -213,7 +213,10 @@ class ExpansionPrompt:
             "- two arrows simile / adding mental suffering to physical pain: struck arrow second arrow two feelings physical mental uninstructed wails laments → dvisalla\n"
             "- handful of leaves simile / what the Buddha teaches vs what he knows: rosewood leaves handful forest tiny amount what I know what I teach → siṃsapā\n"
             "- blind turtle simile / precious human birth: yoke single hole one-eyed turtle hundred years ocean east west north south winds → chiggaḷa\n"
-            "- lute string simile / balanced energy: arched harp strings tuned too tight too slack even tension resonant playable Soṇa energy restlessness laziness → vīṇā"
+            "- lute string simile / balanced energy: arched harp strings tuned too tight too slack even tension resonant playable Soṇa energy restlessness laziness → vīṇā\n"
+            "- against the stream / four types of practitioners: goes with the stream goes against the stream steadfast crossed over far shore sensual pleasures bad deeds → paṭisota\n"
+            "- salt in mug vs Ganges / kamma ripens by development: lump of salt mug of water Ganges river salty undrinkable big-hearted small-minded trivial bad deed → kamma cetanā\n"
+            "- fire sticks / contact produces feeling: rub two sticks together heat generated fire produced part sticks lay aside contact feeling pleasant painful equanimity → phassa vedanā samphassa"
         ),
     }
 
