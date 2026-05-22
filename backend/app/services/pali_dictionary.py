@@ -57,7 +57,7 @@ _ENTRIES: List[DictionaryEntry] = [
     ),
     DictionaryEntry(
         label="Suffering / dukkha",
-        keywords=["stress", "suffering", "unsatisfactoriness", "cause of suffering", "origin of suffering", "cause of stress"],
+        keywords=["stress", "suffering", "unsatisfactoriness", "cause of suffering", "origin of suffering", "cause of stress", "dukkha"],
         pali="dukkha samudaya taṇhā upādāna bhava",
     ),
     DictionaryEntry(
@@ -182,6 +182,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "concentration", "one-pointedness", "mental unification",
             "stillness of mind", "calm abiding", "serenity",
             "unified mind", "collected mind",
+            "samadhi", "samādhi",
         ],
         pali="samādhi samatha cetaso ekodibhāva",
     ),
@@ -196,6 +197,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "contemplation of mental qualities", "contemplation of dhammas", "dhammanupassana", "dhammānupassanā",
             "mindfulness of breathing", "breath awareness", "anapanasati", "ānāpānasati",
             "mindfulness of body", "mindfulness of feelings", "mindfulness of mind",
+            "sati",
         ],
         pali="satipaṭṭhāna kāyānupassanā vedanānupassanā cittānupassanā dhammānupassanā ānāpānasati",
         english_hint="contemplation of body feelings mind mental qualities ardent alert mindful setting aside covetousness grief world establishing of mindfulness",
@@ -336,6 +338,7 @@ _ENTRIES: List[DictionaryEntry] = [
         keywords=[
             "wisdom", "insight", "discernment", "clear seeing",
             "true knowledge", "seeing things as they are",
+            "panna", "paññā",
         ],
         pali="paññā vijjā ñāṇa dassana yathābhūta",
     ),
@@ -407,6 +410,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "defilement", "defilements", "kilesa", "mental defilement",
             "unwholesome", "roots of unwholesomeness", "greed hate delusion",
             "lobha dosa moha",
+            "raga", "rāga",
         ],
         pali="kilesa lobha dosa moha rāga byāpāda avijjā",
     ),
@@ -562,6 +566,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "craving for becoming", "bhavataṇhā", "bhavatanha", "craving for existence",
             "craving for non-becoming", "vibhavataṇhā", "vibhavatanha", "craving for annihilation",
             "craving for non-existence",
+            "tanha", "taṇhā",
         ],
         pali="taṇhā kāmataṇhā bhavataṇhā vibhavataṇhā samudaya",
         english_hint="craving for sensuality craving for becoming craving for non-becoming origin of stress noble truth origination",
