@@ -283,3 +283,85 @@ def test_lookup_bad_conduct():
     result = lookup("bad conduct")
     assert result is not None
     assert "kusala" in result
+
+
+# --- Part 1: six new Itivuttaka entries ---
+
+def test_lookup_two_nibbana_elements():
+    result = lookup("nibbana element")
+    assert result is not None
+    assert "nibbānadhātu" in result
+
+
+def test_lookup_english_two_nibbana_elements():
+    result = lookup_english("nibbana element")
+    assert result is not None
+    assert "residue" in result
+
+
+def test_lookup_hiri():
+    result = lookup("hiri")
+    assert result is not None
+    assert "hirī" in result
+
+
+def test_lookup_english_hiri():
+    result = lookup_english("hiri")
+    assert result is not None
+    assert "conscience" in result
+
+
+def test_lookup_grounds_for_merit():
+    result = lookup("grounds for merit")
+    assert result is not None
+    assert "puñña" in result
+
+
+def test_lookup_english_grounds_for_merit():
+    result = lookup_english("grounds for merit")
+    assert result is not None
+    assert "giving" in result
+
+
+def test_lookup_sekha():
+    result = lookup("sekha")
+    assert result is not None
+    assert "sekha" in result
+
+
+def test_lookup_english_sekha():
+    result = lookup_english("sekha")
+    assert result is not None
+    assert "trainee" in result
+
+
+def test_lookup_elements_of_escape():
+    result = lookup("elements of escape")
+    assert result is not None
+    assert "nissaraṇadhātu" in result
+
+
+def test_lookup_english_elements_of_escape():
+    result = lookup_english("elements of escape")
+    assert result is not None
+    assert "renunciation" in result
+
+
+def test_lookup_bhikkhu():
+    result = lookup("bhikkhu")
+    assert result is not None
+    assert "bhikkhu" in result
+
+
+def test_lookup_english_bhikkhu():
+    result = lookup_english("bhikkhu")
+    assert result is not None
+    assert "monk" in result
+    assert "mendicant" in result
+
+
+def test_lookup_monk():
+    # bare "monk" routes to bhikkhu entry
+    result = lookup("monk")
+    assert result is not None
+    assert "bhikkhu" in result
