@@ -212,17 +212,31 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
 
   if (visible) {
     return (
-      <div className="h-full overflow-y-auto p-6 bg-[#fef9f0]">
-        <div className="max-w-2xl mx-auto">
-          <div className="text-[17px] leading-[1.85] whitespace-pre-wrap text-[#1a1a1a]" style={{ fontFamily: 'Georgia, serif' }}>
-            {visible.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((seg, i) =>
-              seg.startsWith('**') && seg.endsWith('**')
-                ? <strong key={i}>{seg.slice(2, -2)}</strong>
-                : seg.startsWith('*') && seg.endsWith('*')
-                  ? <em key={i}>{seg.slice(1, -1)}</em>
-                  : seg
-            )}
-            <span className="inline-block w-0.5 h-5 animate-pulse ml-0.5 align-middle" style={{ backgroundColor: '#6b4e35' }} />
+      <div className="h-full flex flex-col bg-[#fef9f0]">
+        {/* Mobile: horizontal step bar */}
+        <div className="md:hidden flex-shrink-0">
+          <StepList currentStatus={status} horizontal />
+        </div>
+        {/* Desktop: sidebar + text / Mobile: text only (bar is above) */}
+        <div className="flex-1 flex overflow-hidden">
+          {/* Desktop sidebar */}
+          <div className="hidden md:flex flex-col w-32 flex-shrink-0 border-r border-[#e8e4dc] bg-[#faf9f7]">
+            <StepList currentStatus={status} />
+          </div>
+          {/* Streaming text */}
+          <div className="flex-1 overflow-y-auto p-6">
+            <div className="max-w-2xl mx-auto">
+              <div className="text-[17px] leading-[1.85] whitespace-pre-wrap text-[#1a1a1a]" style={{ fontFamily: 'Georgia, serif' }}>
+                {visible.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((seg, i) =>
+                  seg.startsWith('**') && seg.endsWith('**')
+                    ? <strong key={i}>{seg.slice(2, -2)}</strong>
+                    : seg.startsWith('*') && seg.endsWith('*')
+                      ? <em key={i}>{seg.slice(1, -1)}</em>
+                      : seg
+                )}
+                <span className="inline-block w-0.5 h-5 animate-pulse ml-0.5 align-middle" style={{ backgroundColor: '#6b4e35' }} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
