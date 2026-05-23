@@ -117,7 +117,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
             else if (event.type === 'error') throw Object.assign(new Error(event.message), { status: 500 });
           }
         } catch (e: any) {
-          if (!cancelled) setError(e);
+          if (!cancelled && e.name !== 'AbortError') setError(e);
         }
       })();
     }, 0);
