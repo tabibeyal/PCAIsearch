@@ -175,6 +175,7 @@ async def stream(
                 if event["type"] == "chunk":
                     yield f"data: {json.dumps(event)}\n\n"
                 else:
+                    yield f"data: {json.dumps({'type': 'status', 'text': 'Verifying sources…'})}\n\n"
                     verification = request.app.state.guardrail.process_response(event["text"], context)
                     yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'canonical_misses': verification['canonical_misses'], 'is_faithful': verification['is_faithful'], 'context': context})}\n\n"
         except Exception as exc:
