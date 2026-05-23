@@ -11,11 +11,13 @@ interface DualPaneContainerProps {
 
 export function DualPaneContainer({ data }: DualPaneContainerProps) {
   const [deepDive, setDeepDive] = React.useState(false);
+  const [sourcesVisible, setSourcesVisible] = React.useState(true);
   const [activeRef, setActiveRef] = React.useState<string | undefined>(undefined);
 
   const handleCitationClick = (ref: string) => {
     setActiveRef(ref);
     if (!deepDive) setDeepDive(true);
+    setSourcesVisible(true);
     const id = `verse-${ref.replace(/\s+/g, '-').toLowerCase()}`;
     setTimeout(() => {
       document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -23,8 +25,10 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
   };
 
   return (
-    <div className="flex h-screen w-full overflow-hidden bg-gray-200">
-      <div className={`h-full border-r border-gray-300 shadow-xl overflow-hidden transition-all duration-300 ${deepDive ? 'w-1/2' : 'w-full'}`}>
+    <div className={`flex h-screen w-full overflow-hidden bg-gray-200 ${deepDive ? 'flex-col md:flex-row' : ''}`}>
+      <div className={`h-full border-r border-gray-300 shadow-xl overflow-hidden transition-all duration-300 ${
+        deepDive ? 'w-full md:w-1/2 h-1/2 md:h-full' : 'w-full h-full'
+      }`}>
         <SynthesisView
           data={data}
           deepDive={deepDive}
@@ -33,9 +37,13 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
         />
       </div>
 
-      {deepDive && (
-        <div className="w-1/2 h-full overflow-hidden">
-          <SourceViewer context={data.context} activeRef={activeRef} />
+      {deepDive && sourcesVisible && (
+        <div className="w-full md:w-1/2 h-1/2 md:h-full overflow-hidden">
+          <SourceViewer
+            context={data.context}
+            activeRef={activeRef}
+            onClose={() => setSourcesVisible(false)}
+          />
         </div>
       )}
     </div>
