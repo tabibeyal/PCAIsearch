@@ -70,7 +70,11 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
 
       {showSources && (
         <div className="w-full md:w-1/2 h-1/2 md:h-full overflow-hidden">
-          <SourceViewer context={data.context} activeRef={activeRef} />
+          <SourceViewer
+            context={data.context}
+            activeRef={activeRef}
+            onClose={() => setSourcesVisible(false)}
+          />
         </div>
       )}
     </div>
