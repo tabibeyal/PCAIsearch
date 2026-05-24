@@ -56,6 +56,7 @@ export function SupportBanner() {
         'md:static md:transform-none',
         visible ? 'translate-y-0' : 'translate-y-full',
       ].join(' ')}
+      style={{ transitionTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)' }}
     >
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 px-6 text-sm text-gray-500">
         <p className="text-center sm:text-left">

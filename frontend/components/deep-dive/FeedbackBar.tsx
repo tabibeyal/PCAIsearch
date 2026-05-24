@@ -19,15 +19,10 @@ interface FeedbackBarProps {
 export function FeedbackBar({ query, answer }: FeedbackBarProps) {
   const [rating, setRating] = React.useState<'up' | 'down' | null>(null);
   const [panelOpen, setPanelOpen] = React.useState(false);
-  const [panelEverOpened, setPanelEverOpened] = React.useState(false);
   const [selectedCategory, setSelectedCategory] = React.useState<string | null>(null);
   const [comment, setComment] = React.useState('');
   const [submitted, setSubmitted] = React.useState(false);
   const [submittedFadeIn, setSubmittedFadeIn] = React.useState(false);
-
-  React.useEffect(() => {
-    if (panelOpen) setPanelEverOpened(true);
-  }, [panelOpen]);
 
   React.useEffect(() => {
     if (submitted) {
@@ -96,18 +91,11 @@ export function FeedbackBar({ query, answer }: FeedbackBarProps) {
           Feedback includes your question and this full answer.
         </p>
 
-        {/* Fix 3: panel stays in DOM after first open; transitions in/out */}
-        {panelEverOpened && (
+        {/* Fix 3: panel animates in on mount; exits by unmounting (no layout ghost) */}
+        {panelOpen && (
           <div
             className="bg-white border border-[#e8e4dc] rounded-lg p-4 font-sans"
-            style={{
-              opacity: panelOpen ? 1 : 0,
-              transform: panelOpen ? 'translateY(0)' : 'translateY(8px)',
-              pointerEvents: panelOpen ? 'auto' : 'none',
-              transition: panelOpen
-                ? 'opacity 300ms cubic-bezier(0.22,1,0.36,1), transform 300ms cubic-bezier(0.22,1,0.36,1)'
-                : 'opacity 200ms ease, transform 200ms ease',
-            }}
+            style={{ animation: 'fadeUp 300ms cubic-bezier(0.22, 1, 0.36, 1) forwards' }}
           >
             <div className="flex items-center justify-between mb-2.5">
               <p className="text-xs font-semibold text-[#4a3728]">What was the problem?</p>
