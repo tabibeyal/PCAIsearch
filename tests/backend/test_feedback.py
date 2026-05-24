@@ -13,7 +13,7 @@ def feedback_client(tmp_path, monkeypatch):
     monkeypatch.setenv("NVIDIA_API_KEY", "fake-key-for-tests")
     mock_qdrant = AsyncMock()
     mock_qdrant.create_payload_index = AsyncMock(return_value=None)
-    with patch("qdrant_client.AsyncQdrantClient", return_value=mock_qdrant):
+    with patch("backend.app.services.search_pipeline.AsyncQdrantClient", return_value=mock_qdrant):
         with TestClient(app) as c:
             yield c, db
 

@@ -1,17 +1,4 @@
 {
-  "hooks": {
-    "SessionStart": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash /home/eyal/PCAIsearch/.claude/hooks/inject-context.sh",
-            "timeout": 10
-          }
-        ]
-      }
-    ]
-  },
   "permissions": {
     "allow": [
       "Bash(pytest *)",
@@ -78,7 +65,24 @@
       "Bash(awk '{print $1}')",
       "Bash(MEMSEARCH_DIR=/home/eyal/PCAIsearch/.memsearch PATH=/home/eyal/.local/bin:/usr/local/bin:/usr/bin:/bin uvx *)",
       "Bash(wait 494948)",
-      "Bash(echo \"Process exited with code: $?\")"
+      "Bash(echo \"Process exited with code: $?\")",
+      "Bash(systemctl status *)",
+      "Bash(gsettings get *)",
+      "Read(//etc/systemd/**)",
+      "Bash(gsettings set *)",
+      "WebFetch(domain:www.dhammatalks.org)",
+      "Bash(timeout 60 tail -f /tmp/claude-1000/-home-eyal-PCAIsearch/fb81bd84-2acc-467a-8a4e-171e4b44f0d6/tasks/b0vzq2rov.output)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(awk '{print $2}')",
+      "Bash(wait)",
+      "Bash(tee test_output.txt)",
+      "Bash(sed -n '491,499p' /home/eyal/PCAIsearch/backend/app/services/pali_dictionary.py)",
+      "Bash(sed -n '500,506p' /home/eyal/PCAIsearch/backend/app/services/pali_dictionary.py)",
+      "Bash(sed -n '747,760p' /home/eyal/PCAIsearch/backend/app/services/pali_dictionary.py)",
+      "Bash(sed -n '807,815p' /home/eyal/PCAIsearch/backend/app/services/pali_dictionary.py)",
+      "Bash(tee /tmp/pytest_output.txt)",
+      "Bash(break)",
+      "Bash(xargs ls -la)"
     ]
   },
   "hooks": {
@@ -89,6 +93,18 @@
             "type": "command",
             "command": "bash /home/eyal/PCAIsearch/.claude/hooks/inject-context.sh",
             "timeout": 10
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/eyal/PCAIsearch/.claude/hooks/update-memory.sh",
+            "timeout": 120,
+            "async": true
           }
         ]
       }

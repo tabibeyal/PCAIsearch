@@ -30,6 +30,8 @@ CORPUS = [
 @pytest.fixture(scope="module")
 def live_pipeline():
     """Pipeline with real models + in-memory Qdrant; LLM mocked."""
+    mp = pytest.MonkeyPatch()
+    mp.setenv("NVIDIA_API_KEY", "fake-key-for-tests")
     from backend.app.services.search_pipeline import SearchPipeline
     p = SearchPipeline()
     client = AsyncQdrantClient(":memory:")
@@ -52,7 +54,8 @@ def live_pipeline():
 
     asyncio.run(_setup())
     p.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
-    return p
+    yield p
+    mp.undo()
 
 
 def _mock_synthesis(pipeline, text: str) -> None:
