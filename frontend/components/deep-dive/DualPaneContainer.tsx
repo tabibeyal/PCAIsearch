@@ -62,14 +62,19 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
       </div>
 
       {deepDive && (
-        <DividerToggle
-          sourcesVisible={sourcesVisible}
-          onClick={() => setSourcesVisible((v) => !v)}
-        />
+        <div key={String(deepDive)} style={{ animation: 'fadeIn 150ms ease forwards' }}>
+          <DividerToggle
+            sourcesVisible={sourcesVisible}
+            onClick={() => setSourcesVisible((v) => !v)}
+          />
+        </div>
       )}
 
       {showSources && (
-        <div className="w-full md:w-1/2 h-1/2 md:h-full overflow-hidden">
+        <div
+          className="w-full md:w-1/2 h-1/2 md:h-full overflow-hidden"
+          style={{ animation: 'paneEnter 300ms cubic-bezier(0.22, 1, 0.36, 1) forwards' }}
+        >
           <SourceViewer
             context={data.context}
             activeRef={activeRef}

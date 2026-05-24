@@ -146,6 +146,8 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
   const [data, setData] = React.useState<SynthesisResponse | null>(null);
   const [error, setError] = React.useState<{ status?: number; message?: string } | null>(null);
   const [retryCount, setRetryCount] = React.useState(0);
+  const [streamingFadeIn, setStreamingFadeIn] = React.useState(false);
+  const streamingStarted = React.useRef(false);
 
   // When the page becomes visible again after being hidden and we're in error state, auto-retry once.
   React.useEffect(() => {
@@ -200,6 +202,14 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
 
   const visible = streamText ? stripThinking(streamText) : '';
 
+  // Fix 6: cross-fade when streaming layout first appears
+  React.useEffect(() => {
+    if (visible && !streamingStarted.current) {
+      streamingStarted.current = true;
+      requestAnimationFrame(() => requestAnimationFrame(() => setStreamingFadeIn(true)));
+    }
+  }, [visible]);
+
   if (data) return <DualPaneContainer data={data} />;
 
   if (error) return (
@@ -212,7 +222,10 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
 
   if (visible) {
     return (
-      <div className="h-full flex flex-col bg-[#fef9f0]">
+      <div
+        className="h-full flex flex-col bg-[#fef9f0]"
+        style={{ opacity: streamingFadeIn ? 1 : 0, transition: 'opacity 200ms ease' }}
+      >
         {/* Mobile: horizontal step bar */}
         <div className="md:hidden flex-shrink-0">
           <StepList currentStatus={status} horizontal />

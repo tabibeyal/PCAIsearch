@@ -84,15 +84,31 @@ export function SearchBar() {
   }
 
   const showAnim = query === '';
+  const [animMounted, setAnimMounted] = useState(true);
+
+  useEffect(() => {
+    let t: ReturnType<typeof setTimeout>;
+    if (!showAnim) {
+      t = setTimeout(() => setAnimMounted(false), 200);
+    } else {
+      setAnimMounted(true);
+    }
+    return () => clearTimeout(t);
+  }, [showAnim]);
 
   return (
     <div className="w-full max-w-2xl mx-auto relative rounded-2xl border border-[#e8e4dc] bg-white px-4 pt-4 pb-14 focus-within:border-[#9c8c7a] focus-within:ring-2 focus-within:ring-[#e8e4dc] transition-all shadow-sm">
 
-      {/* animated placeholder */}
-      {showAnim && (
+      {/* Fix 5: animated placeholder fades out on first keystroke */}
+      {animMounted && (
         <div
           className="absolute top-4 left-4 right-14 text-base leading-relaxed text-[#b5a494] pointer-events-none select-none"
           aria-hidden="true"
+          style={{
+            opacity: showAnim ? 1 : 0,
+            transform: showAnim ? 'translateY(0)' : 'translateY(-4px)',
+            transition: 'opacity 200ms ease, transform 200ms ease',
+          }}
         >
           {animText}
           <span

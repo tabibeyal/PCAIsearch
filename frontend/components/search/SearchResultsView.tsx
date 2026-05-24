@@ -9,7 +9,7 @@ interface SearchResultsViewProps {
 
 export function SearchResultsView({ results, query }: SearchResultsViewProps) {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-6 space-y-4">
+    <div className="max-w-3xl mx-auto px-4 py-6 space-y-4" style={{ animation: 'fadeIn 300ms ease' }}>
       {results.length === 0 ? (
         <div className="text-center py-12 text-[#9c8c7a]">
           No results found for this query.

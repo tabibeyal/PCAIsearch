@@ -8,3 +8,42 @@
     padding-bottom: var(--banner-h, 0px);
   }
 }
+
+/* Fix 8: Override Tailwind's flat easing with a spring-like curve */
+:root {
+  --default-transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Fix 7: Button press scale feedback */
+button:active,
+[role="button"]:active,
+a[href]:active {
+  transform: scale(0.97);
+  transition: transform 80ms ease;
+}
+
+/* Keyframes for enter animations */
+@keyframes paneEnter {
+  from { opacity: 0; transform: translateX(20px); filter: blur(4px); }
+  to   { opacity: 1; transform: translateX(0);    filter: blur(0px); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Fix 1: Respect reduced motion preferences — covers all Tailwind utilities and every CSS transition */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
