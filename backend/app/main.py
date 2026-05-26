@@ -1,5 +1,6 @@
 import asyncio
 import json
+import logging
 import os
 import sqlite3
 from contextlib import asynccontextmanager
@@ -22,7 +23,9 @@ from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 
 limiter = Limiter(key_func=get_remote_address)
+logger = logging.getLogger(__name__)
 
+_VALID_NIKAYAS = {"DN", "MN", "SN", "AN", "DHP", "ITI"}
 _DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
 _FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
 
@@ -128,7 +131,8 @@ async def search(
     nikayas: Optional[List[str]] = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
 ):
     pipeline = request.app.state.pipeline
-    results = await pipeline.search(q, top_k=top_k, nikayas=nikayas or None)
+    filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
+    results = await pipeline.search(q, top_k=top_k, nikayas=filtered_nikayas)
     related_suttas = pipeline.get_related_suttas(results)
     return {"query": q, "results": results, "related_suttas": related_suttas}
 
@@ -165,10 +169,12 @@ async def stream(
     top_k: int = Query(default=10, ge=1, le=20, description="Number of context chunks to retrieve"),
     nikayas: Optional[List[str]] = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
 ):
+    filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
+
     async def event_stream():
         try:
             yield f"data: {json.dumps({'type': 'status', 'text': 'Searching the Canon…'})}\n\n"
-            context = await request.app.state.pipeline.search(q, top_k=top_k, nikayas=nikayas or None)
+            context = await request.app.state.pipeline.search(q, top_k=top_k, nikayas=filtered_nikayas)
             context = [c for c in context if len(c.get("english", "").strip().split()) >= 4]
             yield f"data: {json.dumps({'type': 'status', 'text': 'Composing answer…'})}\n\n"
             async for event in request.app.state.pipeline.stream_synthesize(q, context):
@@ -179,8 +185,7 @@ async def stream(
                     verification = request.app.state.guardrail.process_response(event["text"], context)
                     yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'canonical_misses': verification['canonical_misses'], 'is_faithful': verification['is_faithful'], 'context': context})}\n\n"
         except Exception as exc:
-            import logging
-            logging.getLogger(__name__).error("stream error: %s", exc, exc_info=True)
+            logger.error("stream error: %s", exc, exc_info=True)
             yield f"data: {json.dumps({'type': 'error', 'message': 'Search failed, please try again.'})}\n\n"
 
     return StreamingResponse(

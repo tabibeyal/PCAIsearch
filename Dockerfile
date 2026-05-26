@@ -15,8 +15,12 @@ RUN pip install --no-cache-dir \
     slowapi==0.1.9 \
     rank-bm25==0.2.2
 
-COPY backend/ backend/
-COPY data/dumps/ data/dumps/
+RUN useradd -m appuser
+
+COPY --chown=appuser:appuser backend/ backend/
+COPY --chown=appuser:appuser data/dumps/ data/dumps/
+
+USER appuser
 
 EXPOSE 8000
 
