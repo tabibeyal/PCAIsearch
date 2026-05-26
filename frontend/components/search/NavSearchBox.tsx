@@ -1,13 +1,15 @@
 'use client';
 
 import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export function NavSearchBox({ initialQuery }: { initialQuery: string }) {
   const [q, setQ] = useState(initialQuery);
+  const router = useRouter();
 
   function navigate() {
     const trimmed = q.trim();
-    if (trimmed) window.location.href = `/search/${encodeURIComponent(trimmed)}`;
+    if (trimmed) router.push(`/search/${encodeURIComponent(trimmed)}`);
   }
 
   function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
