@@ -317,6 +317,27 @@ async def test_expand_query_appends_english_hint():
     assert len(result) == 5  # original + 2 LLM lines + pali + english hint
 
 
+@pytest.mark.asyncio
+async def test_expand_query_falls_back_to_original_on_api_error():
+    """When the expansion model call fails, expand_query returns the original query
+    plus any dictionary hits — so search still works rather than crashing."""
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline()
+
+    async def failing_create(**kwargs):
+        raise RuntimeError("NVIDIA API unavailable")
+
+    pipeline.llm.chat.completions.create = failing_create
+
+    with patch("backend.app.services.search_pipeline.lookup", return_value="avijjā"), \
+         patch("backend.app.services.search_pipeline.lookup_english", return_value=None):
+        result = await pipeline.expand_query("how does ignorance cause suffering")
+
+    assert result[0] == "how does ignorance cause suffering"
+    assert "avijjā" in result
+    assert len(result) == 2
+
+
 def test_expansion_prompt_v3_contains_reference_block():
     prompt = ExpansionPrompt("v3").get_prompt()
     assert "paṭicca-samuppāda" in prompt

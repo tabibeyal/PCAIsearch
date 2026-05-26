@@ -5,7 +5,7 @@
 exec < /dev/null
 
 # Pull latest curated files from Google Drive (non-blocking; failures are silent)
-rclone sync pcai-memory: "$(git rev-parse --show-toplevel 2>/dev/null)/.memsearch/memory" \
+rclone copy pcai-memory: "$(git rev-parse --show-toplevel 2>/dev/null)/.memsearch/memory" \
   --include "0000-*.md" --quiet 2>/dev/null &
 
 GIT_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo "")"
