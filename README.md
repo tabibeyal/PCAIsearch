@@ -7,7 +7,7 @@ Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, 
 ## Features
 
 - **Semantic search** — multilingual embeddings (paraphrase-multilingual-MiniLM-L12-v2) retrieve relevant verses in English or Pali
-- **Sutta title BM25 boost** — canonical suttas matched by name (incl. body verses 3–15) are surfaced even when vector search misses
+- **Hybrid retrieval** — dense vector search fused with BM25 sparse retrieval via Reciprocal Rank Fusion; canonical suttas matched by title are surfaced even when vector search misses
 - **Query expansion** — LLM generates alternative phrasings to improve recall
 - **Cross-encoder reranking** — results reordered by relevance before display
 - **AI Synthesis** — LLM answers your question using only retrieved context, with inline citations (`[DN 1:1]`, `[SN 46.20:14]`)
@@ -26,9 +26,15 @@ backend/           FastAPI + asyncio
     core/
       indexing.py  SuttaParser, EmbeddingManager (fastembed / ONNX Runtime)
     services/
-      search_pipeline.py  Query expansion → retrieval → reranking → related suttas
-      guardrail.py        Citation verification (hallucination vs canonical miss)
-      canon_graph.py      Canon index: citation oracle + doctrinal cross-references
+      search_pipeline.py   Query expansion → retrieval → reranking → related suttas
+      retriever.py         Dense vector retrieval (Qdrant)
+      bm25_retriever.py    Sparse BM25 retrieval, fused via RRF
+      sutta_title_index.py Sutta title BM25 boost
+      fusion.py            Reciprocal Rank Fusion for hybrid retrieval
+      guardrail.py         Citation verification (hallucination vs canonical miss)
+      citation_oracle.py   Validates sutta IDs and verse numbers
+      sutta_relations.py   Doctrinal cross-references between suttas
+      pali_dictionary.py   Pāḷi term → English passage hints for reranking
 data/
   fetch_bilara.py  Sparse-clone SuttaCentral bilara-data → local JSON (DN/MN/AN/SN/DHP/ITI)
   process_dumps.py Embed & upsert into Qdrant
@@ -36,7 +42,7 @@ docs/adr/          Architecture decision records
 tests/             pytest suites (backend)
 ```
 
-**Stack:** FastAPI · Qdrant · fastembed (ONNX Runtime) · cross-encoder/ms-marco-MiniLM-L-6-v2 · Gemma 3N for query expansion · Llama 3.3 70B Instruct for synthesis (both via NVIDIA API) · Next.js · Tailwind CSS
+**Stack:** FastAPI · Qdrant (local or Qdrant Cloud) · fastembed (ONNX Runtime) · BM25 sparse retrieval · cross-encoder/ms-marco-MiniLM-L-6-v2 · Gemma 3N for query expansion · Llama 3.3 70B Instruct for synthesis (both via NVIDIA API) · Next.js · Tailwind CSS
 
 ## Prerequisites
 
@@ -49,9 +55,12 @@ tests/             pytest suites (backend)
 
 ### 1. Start Qdrant
 
+**Option A — local Docker:**
 ```bash
-docker run -d -p 6333:6333 qdrant/qdrant
+docker run -d -p 6333:6333 -v ~/qdrant_storage:/qdrant/storage qdrant/qdrant
 ```
+
+**Option B — Qdrant Cloud:** create a free cluster at [cloud.qdrant.io](https://cloud.qdrant.io), then set `QDRANT_URL` and `QDRANT_API_KEY` in your environment before running the backend or indexing scripts.
 
 ### 2. Install Python dependencies
 
