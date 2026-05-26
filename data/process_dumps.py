@@ -5,17 +5,23 @@ import uuid
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
 from backend.app.core.indexing import SuttaParser, EmbeddingManager
 
-def process_sutta_dumps(dump_dir: str, qdrant_url: str = "http://localhost:6333"):
+def process_sutta_dumps(
+    dump_dir: str,
+    qdrant_url: str = os.environ.get("QDRANT_URL", "http://localhost:6333"),
+):
     """
     Processes SuttaCentral JSON dumps and indexes them into Qdrant.
     """
     parser = SuttaParser()
     embedding_mgr = EmbeddingManager()
-    client = QdrantClient(url=qdrant_url)
+    client = QdrantClient(url=qdrant_url, api_key=os.environ.get("QDRANT_API_KEY"), timeout=60)
 
     collection_name = "pali_canon"
     embedding_mgr.setup_collection(client, collection_name)
@@ -78,7 +84,9 @@ def process_sutta_dumps(dump_dir: str, qdrant_url: str = "http://localhost:6333"
                 )
                 for pid, chunk, vec in zip(point_ids, chunks, vectors)
             ]
-            client.upsert(collection_name=collection_name, points=points)
+            batch_size = 100
+            for i in range(0, len(points), batch_size):
+                client.upsert(collection_name=collection_name, points=points[i:i + batch_size])
             indexed_ids.update(point_ids)
 
     print(f"Indexing complete. Collection {collection_name} is ready.")

@@ -15,6 +15,7 @@ from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 from qdrant_client.http import models as qdrant_models
+from qdrant_client.http.exceptions import UnexpectedResponse
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.citation_oracle import CitationOracle
@@ -87,11 +88,16 @@ async def lifespan(app: FastAPI):
         title_index=title_index,
         bm25_retriever=bm25_retriever,
     )
-    await pipeline.retriever.client.create_payload_index(
-        collection_name=pipeline.collection_name,
-        field_name="nikaya",
-        field_schema=qdrant_models.PayloadSchemaType.KEYWORD,
-    )
+    try:
+        await pipeline.retriever.client.create_payload_index(
+            collection_name=pipeline.collection_name,
+            field_name="nikaya",
+            field_schema=qdrant_models.PayloadSchemaType.KEYWORD,
+        )
+    except UnexpectedResponse as e:
+        # Qdrant Cloud free tier returns 403 for index management operations.
+        # The app works without this index — nikaya filtering just uses a scan.
+        logger.warning("Could not create nikaya payload index (skipping): %s", e)
     app.state.pipeline = pipeline
     app.state.guardrail = CitationGuardrail(oracle=oracle)
     await pipeline.warmup()
