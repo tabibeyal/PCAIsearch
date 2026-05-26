@@ -12,7 +12,8 @@ export async function GET(request: NextRequest) {
       headers: { Accept: 'text/event-stream' },
     });
   } catch (e) {
-    return new Response(`Backend unreachable: ${e}`, { status: 502 });
+    console.error('Backend unreachable:', e);
+    return new Response('Service temporarily unavailable', { status: 502 });
   }
   if (!upstream.ok || !upstream.body) {
     return new Response(`Backend error: ${upstream.status}`, { status: upstream.status });

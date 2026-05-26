@@ -179,7 +179,9 @@ async def stream(
                     verification = request.app.state.guardrail.process_response(event["text"], context)
                     yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'canonical_misses': verification['canonical_misses'], 'is_faithful': verification['is_faithful'], 'context': context})}\n\n"
         except Exception as exc:
-            yield f"data: {json.dumps({'type': 'error', 'message': str(exc)})}\n\n"
+            import logging
+            logging.getLogger(__name__).error("stream error: %s", exc, exc_info=True)
+            yield f"data: {json.dumps({'type': 'error', 'message': 'Search failed, please try again.'})}\n\n"
 
     return StreamingResponse(
         event_stream(),
