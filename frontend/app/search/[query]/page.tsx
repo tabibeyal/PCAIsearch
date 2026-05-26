@@ -1,4 +1,5 @@
 import React, { Suspense } from 'react';
+import Link from 'next/link';
 import { searchVerses } from '@/lib/api';
 import { SynthesisLoader } from '@/components/deep-dive/SynthesisLoader';
 import { SearchResultsView } from '@/components/search/SearchResultsView';
@@ -68,18 +69,20 @@ async function SearchPage({
           </div>
           {/* Row 2: tabs + filter */}
           <div className="flex items-center gap-2 px-3 sm:px-4 pb-3 flex-wrap">
-            <a
+            <Link
               href={`/search/${encodedQuery}?view=synthesis${nikayas.map(n => `&nikayas=${n}`).join('')}`}
               className={tabClass(view === 'synthesis')}
+              scroll={false}
             >
               AI Answer
-            </a>
-            <a
+            </Link>
+            <Link
               href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`}
               className={tabClass(view === 'results')}
+              scroll={false}
             >
               Passages
-            </a>
+            </Link>
             <div className="hidden sm:block w-px h-5 bg-[#e8e4dc]" />
             <NikayaFilter encodedQuery={encodedQuery} view={view} selected={nikayas} />
           </div>
