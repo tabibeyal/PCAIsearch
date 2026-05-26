@@ -395,6 +395,17 @@ class SearchPipeline:
     def shutdown(self):
         self._executor.shutdown(wait=True)
 
+    async def warmup(self) -> None:
+        """Pre-run one inference pass through both ONNX models so the JIT compiler
+        fires at startup rather than on the first real user request."""
+        loop = asyncio.get_event_loop()
+        await loop.run_in_executor(
+            self._executor, self.retriever.embedding_mgr.encode, "warmup"
+        )
+        await loop.run_in_executor(
+            self._executor, self.reranker.model.predict, [("warmup", "warmup")]
+        )
+
     async def expand_query(self, query: str) -> List[str]:
         prompt = self.expansion_prompt.get_prompt()
         message = await self.llm.chat.completions.create(

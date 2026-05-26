@@ -14,7 +14,7 @@ def pipeline():
 def sample_context():
     return [
         {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Thus have I heard"},
-        {"id": "MN 10:5", "pali": "sammā-sati", "english": "Right Mindfulness"},
+        {"id": "MN 10:5", "pali": "sammā-sati", "english": "Right mindfulness is awareness of the present moment"},
     ]
 
 

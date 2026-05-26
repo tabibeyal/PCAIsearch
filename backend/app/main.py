@@ -94,6 +94,8 @@ async def lifespan(app: FastAPI):
     )
     app.state.pipeline = pipeline
     app.state.guardrail = CitationGuardrail(oracle=oracle)
+    await pipeline.warmup()
+    logger.info("models warmed up")
     yield
     if pipeline := getattr(app.state, "pipeline", None):
         pipeline.shutdown()

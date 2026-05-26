@@ -1,7 +1,7 @@
 import { SearchResponse, SynthesisResponse } from '@/types/api';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL ??
-  (typeof window === 'undefined' ? 'http://localhost:8000' : '/api');
+  (typeof window === 'undefined' ? (process.env.API_URL ?? 'http://localhost:8000') : '/api');
 
 function apiError(message: string, status: number): Error {
   const err = new Error(message) as Error & { status: number };

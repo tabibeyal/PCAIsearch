@@ -113,13 +113,13 @@ def in_memory_pipeline():
 async def test_search_calls_reranker(in_memory_pipeline):
     p = in_memory_pipeline
     p.reranker = MagicMock()
-    p.reranker.rerank = MagicMock(return_value=[])
+    p.reranker.rerank_multi = MagicMock(return_value=[])
 
     await p.search("mindfulness", top_k=5)
 
-    p.reranker.rerank.assert_called_once()
-    call_args = p.reranker.rerank.call_args
-    assert call_args.args[0] == "mindfulness"
+    p.reranker.rerank_multi.assert_called_once()
+    call_args = p.reranker.rerank_multi.call_args
+    assert "mindfulness" in call_args.args[0]
 
 
 @pytest.mark.asyncio
@@ -149,7 +149,7 @@ async def test_search_result_order_follows_reranker(in_memory_pipeline):
         return result
 
     p.reranker = MagicMock()
-    p.reranker.rerank = MagicMock(side_effect=fake_rerank)
+    p.reranker.rerank_multi = MagicMock(side_effect=lambda queries, candidates: fake_rerank(queries[0], candidates))
 
     results = await p.search("Thus have I heard", top_k=10)
 
