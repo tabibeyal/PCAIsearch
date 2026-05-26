@@ -1,8 +1,10 @@
 from typing import List, Dict, Any, Optional, Set
 import asyncio
+import logging
 import os
 import re
 from concurrent.futures import ThreadPoolExecutor
+
 from openai import AsyncOpenAI
 from sentence_transformers import CrossEncoder
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
@@ -13,6 +15,8 @@ from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.fusion import rrf_fuse, rrf_fuse_multi
 from backend.app.services.pali_dictionary import lookup, lookup_english
+
+logger = logging.getLogger(__name__)
 
 
 class ExpansionPrompt:
@@ -407,24 +411,27 @@ class SearchPipeline:
         )
 
     async def expand_query(self, query: str) -> List[str]:
-        prompt = self.expansion_prompt.get_prompt()
-        message = await self.llm.chat.completions.create(
-            model=self.expansion_model,
-            max_tokens=256,
-            messages=[
-                {"role": "system", "content": prompt},
-                {"role": "user", "content": query},
-            ],
-        )
-        raw = _strip_thinking(message.choices[0].message.content)
-        extras = [_LABEL_RE.sub("", line).strip() for line in raw.splitlines() if line.strip()]
         seen: set = {query}
         variants = [query]
-        for v in extras:
-            if v not in seen:
-                seen.add(v)
-                variants.append(v)
-        variants = variants[:3]
+        try:
+            prompt = self.expansion_prompt.get_prompt()
+            message = await self.llm.chat.completions.create(
+                model=self.expansion_model,
+                max_tokens=256,
+                messages=[
+                    {"role": "system", "content": prompt},
+                    {"role": "user", "content": query},
+                ],
+            )
+            raw = _strip_thinking(message.choices[0].message.content)
+            extras = [_LABEL_RE.sub("", line).strip() for line in raw.splitlines() if line.strip()]
+            for v in extras:
+                if v not in seen:
+                    seen.add(v)
+                    variants.append(v)
+            variants = variants[:3]
+        except Exception as exc:
+            logger.warning("query expansion failed, using original query: %s", exc)
         pali_hit = lookup(query)
         if pali_hit:
             variants.append(pali_hit)
