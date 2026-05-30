@@ -9,10 +9,10 @@ function apiError(message: string, status: number): Error {
   return err;
 }
 
-export async function searchVerses(query: string, topK = 20, nikayas?: string[]): Promise<SearchResponse> {
+export async function searchVerses(query: string, topK = 20, nikayas?: string[], signal?: AbortSignal): Promise<SearchResponse> {
   const params = new URLSearchParams({ q: query, top_k: String(topK) });
   nikayas?.forEach(n => params.append('nikayas', n));
-  const res = await fetch(`${API_BASE}/search?${params}`);
+  const res = await fetch(`${API_BASE}/search?${params}`, signal ? { signal } : undefined);
   if (!res.ok) throw apiError('Search request failed', res.status);
   return res.json();
 }
