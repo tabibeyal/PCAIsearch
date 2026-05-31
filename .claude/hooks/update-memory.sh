@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SessionEnd hook: update curated memory files from today's session log.
+# Stop hook: update curated memory files from today's session log.
 exec < /dev/null
 
 REPO="$(git rev-parse --show-toplevel 2>/dev/null)"
@@ -13,6 +13,6 @@ done
 
 python3 "$SCRIPT_DIR/update_memory.py" "$REPO" 2>/dev/null
 
-# Push updated memory files and today's daily log back to Google Drive
-rclone sync "$REPO/.memsearch/memory" pcai-memory: --include "*.md" --quiet 2>/dev/null
+# Back up updated memory files to Google Drive (copy, never sync — never deletes)
+rclone copy "$REPO/.memsearch/memory" pcai-memory: --include "*.md" --quiet 2>/dev/null
 exit 0

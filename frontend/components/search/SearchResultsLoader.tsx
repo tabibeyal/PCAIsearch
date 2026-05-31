@@ -11,6 +11,8 @@ function LoadingState() {
       <div className="text-center">
         <div className="w-8 h-8 rounded-full animate-spin mx-auto mb-3" style={{ border: '2px solid #e8e4dc', borderTopColor: '#6b4e35' }} />
         <p className="text-sm">Searching the Canon…</p>
+        <p className="text-sm mt-1">Sifting through the Tipiṭaka…</p>
+        <p className="text-sm mt-1">We're almost there…</p>
       </div>
     </div>
   );
@@ -47,16 +49,20 @@ export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas
     let cancelled = false;
     const controller = new AbortController();
 
-    (async () => {
-      try {
-        const data = await searchVerses(query, 20, nikayas.length ? nikayas : undefined, controller.signal);
-        if (!cancelled) setResults(data.results);
-      } catch (e: any) {
-        if (!cancelled && e.name !== 'AbortError') setError(e);
-      }
-    })();
+    // setTimeout(0) prevents StrictMode's double-invocation from sending two
+    // requests to the backend: cleanup clears the timer before it fires.
+    const timerId = setTimeout(() => {
+      (async () => {
+        try {
+          const data = await searchVerses(query, 20, nikayas.length ? nikayas : undefined, controller.signal);
+          if (!cancelled) setResults(data.results);
+        } catch (e: any) {
+          if (!cancelled && e.name !== 'AbortError') setError(e);
+        }
+      })();
+    }, 0);
 
-    return () => { cancelled = true; controller.abort(); };
+    return () => { cancelled = true; clearTimeout(timerId); controller.abort(); };
   }, [query, nikayas.join(','), retryCount]);
 
   if (error) return <ErrorState isRateLimit={error.status === 429} onRetry={() => setRetryCount(c => c + 1)} />;
