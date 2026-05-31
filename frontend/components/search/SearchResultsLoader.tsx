@@ -5,14 +5,30 @@ import { searchVerses } from '@/lib/api';
 import { SearchResultsView } from './SearchResultsView';
 import { SearchResult } from '@/types/api';
 
+const LOADING_MESSAGES = [
+  'Starting your search…',
+  'Looking through the suttas…',
+  'Almost there…',
+];
+
 function LoadingState() {
+  const [index, setIndex] = React.useState(0);
+  const [visible, setVisible] = React.useState(true);
+
+  React.useEffect(() => {
+    if (index >= LOADING_MESSAGES.length - 1) return;
+    const fadeOut = setTimeout(() => setVisible(false), 2200);
+    const advance = setTimeout(() => { setIndex(i => i + 1); setVisible(true); }, 2500);
+    return () => { clearTimeout(fadeOut); clearTimeout(advance); };
+  }, [index]);
+
   return (
     <div className="flex items-center justify-center h-full text-[#9c8c7a]">
       <div className="text-center">
         <div className="w-8 h-8 rounded-full animate-spin mx-auto mb-3" style={{ border: '2px solid #e8e4dc', borderTopColor: '#6b4e35' }} />
-        <p className="text-sm">Searching the Canon…</p>
-        <p className="text-sm mt-1">Sifting through the Tipiṭaka…</p>
-        <p className="text-sm mt-1">We're almost there…</p>
+        <p className="text-sm transition-opacity duration-300" style={{ opacity: visible ? 1 : 0 }}>
+          {LOADING_MESSAGES[index]}
+        </p>
       </div>
     </div>
   );
