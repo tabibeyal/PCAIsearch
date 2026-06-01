@@ -1,6 +1,63 @@
+'use client';
+
+import React, { useState, useEffect, useRef } from 'react';
+
 export function SupportBanner() {
+  const [visible, setVisible] = useState(false);
+  const deepDiveOpenRef = useRef(false);
+
+  // Hide immediately when deep-dive panel opens
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const open = (e as CustomEvent<{ open: boolean }>).detail.open;
+      deepDiveOpenRef.current = open;
+      if (open) setVisible(false);
+    };
+    window.addEventListener('deepDiveChanged', handler);
+    return () => window.removeEventListener('deepDiveChanged', handler);
+  }, []);
+
+  // On mobile: show when the sentinel below FeedbackBar scrolls into view,
+  // hide when it scrolls back out. The sentinel is 144px below FeedbackBar
+  // so the banner never overlaps it.
+  useEffect(() => {
+    if (typeof window === 'undefined' || window.innerWidth >= 768) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (deepDiveOpenRef.current) return;
+        setVisible(entries.some((e) => e.isIntersecting));
+      },
+      { threshold: 0 }
+    );
+
+    const attach = () =>
+      document.querySelectorAll('[data-support-trigger]').forEach((el) => observer.observe(el));
+
+    attach();
+
+    // Re-attach when sentinels mount after initial render (route changes, lazy content)
+    const mo = new MutationObserver(attach);
+    mo.observe(document.body, { childList: true, subtree: true });
+
+    return () => {
+      observer.disconnect();
+      mo.disconnect();
+    };
+  }, []);
+
   return (
-    <footer className="w-full bg-white border-t border-gray-200 py-4">
+    <footer
+      className={[
+        'w-full bg-white border-t border-gray-200 py-4',
+        // Mobile: fixed at bottom, slide in/out
+        'fixed bottom-0 left-0 right-0 z-50 transition-transform duration-300',
+        // Desktop: normal flow, always visible
+        'md:static md:transform-none',
+        visible ? 'translate-y-0' : 'translate-y-full',
+      ].join(' ')}
+      style={{ transitionTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)' }}
+    >
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 px-6 text-sm text-gray-500">
         <p className="text-center sm:text-left">
           This tool runs on a free AI model, but hosting and infrastructure still cost money.

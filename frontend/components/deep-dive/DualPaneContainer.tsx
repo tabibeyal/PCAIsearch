@@ -36,6 +36,10 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
   const showSources = deepDive && sourcesVisible;
 
   React.useEffect(() => {
+    window.dispatchEvent(new CustomEvent('deepDiveChanged', { detail: { open: deepDive } }));
+  }, [deepDive]);
+
+  React.useEffect(() => {
     if (!showSources || !activeRef) return;
     const id = `verse-${activeRef.replace(/\s+/g, '-').toLowerCase()}`;
     setTimeout(() => {
