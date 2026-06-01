@@ -440,22 +440,16 @@ class SearchPipeline:
             variants.append(english_hit)
         return variants
 
-    async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
-        queries = await self.expand_query(query)
-
-        # Title boost: if a canonical sutta title matches the query, add its
-        # title text as an extra retrieval query so the reranker sees its verses.
-        if self.title_index:
-            title_hits = self.title_index.search(query, top_n=1)
-            if title_hits:
-                top_sutta_id, _ = title_hits[0]
-                title_text = self.title_index.get_title_text(top_sutta_id)
-                if title_text and title_text not in queries:
-                    queries = list(queries) + [title_text]
-
-        retrieval_k = max(top_k * 3, 30)
+    async def _run_pipeline(
+        self,
+        queries: List[str],
+        top_k: int,
+        retrieval_k: int,
+        nikayas: Optional[List[str]],
+        rerank_queries: List[str],
+    ) -> List[Dict[str, Any]]:
+        """Retrieve → fuse → BM25 → rerank for a fixed nikaya set."""
         per_query = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in queries])
-
         dense_fused = rrf_fuse_multi(list(per_query))
 
         if self.bm25_retriever:
@@ -470,6 +464,23 @@ class SearchPipeline:
         else:
             all_results = dense_fused
 
+        return self.reranker.rerank_multi(rerank_queries, all_results)[:top_k]
+
+    async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
+        queries = await self.expand_query(query)
+
+        # Title boost: if a canonical sutta title matches the query, add its
+        # title text as an extra retrieval query so the reranker sees its verses.
+        if self.title_index:
+            title_hits = self.title_index.search(query, top_n=1)
+            if title_hits:
+                top_sutta_id, _ = title_hits[0]
+                title_text = self.title_index.get_title_text(top_sutta_id)
+                if title_text and title_text not in queries:
+                    queries = list(queries) + [title_text]
+
+        retrieval_k = max(top_k * 3, 30)
+
         # Rerank against original + English passage hint only. The cross-encoder
         # is trained on English text and doesn't understand Pāḷi — adding the pali_hit
         # introduces noise. The english_hint (verbatim passage text) bridges vocabulary
@@ -479,7 +490,35 @@ class SearchPipeline:
         english_hit_str = lookup_english(query)
         if english_hit_str:
             rerank_queries.append(english_hit_str)
-        return self.reranker.rerank_multi(rerank_queries, all_results)[:top_k]
+
+        if nikayas and len(nikayas) > 1:
+            # Run the full pipeline (retrieve → fuse → rerank) per nikaya in
+            # parallel, then interleave results so each nikaya contributes.
+            # Without this, the cross-encoder reranker scores a large nikaya
+            # (e.g. SN) above a small one (e.g. DHP) and crowds it out entirely.
+            per_nikaya_k = -(-top_k // len(nikayas))  # ceiling division
+            nikaya_results = await asyncio.gather(*[
+                self._run_pipeline(queries, per_nikaya_k, retrieval_k, [n], rerank_queries)
+                for n in nikayas
+            ])
+            # Round-robin interleave: pick one result from each nikaya in turn
+            results: List[Dict[str, Any]] = []
+            iters = [iter(r) for r in nikaya_results]
+            active = list(iters)
+            while active and len(results) < top_k:
+                next_active = []
+                for it in active:
+                    try:
+                        results.append(next(it))
+                        next_active.append(it)
+                        if len(results) == top_k:
+                            break
+                    except StopIteration:
+                        pass
+                active = next_active
+            return results
+
+        return await self._run_pipeline(queries, top_k, retrieval_k, nikayas, rerank_queries)
 
     def get_related_suttas(self, results: List[Dict[str, Any]], top_n: int = 5) -> List[str]:
         """

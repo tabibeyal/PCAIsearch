@@ -407,6 +407,55 @@ def test_system_prompt_has_out_of_scope_guard():
     assert "anger" in _SYSTEM_PROMPT or "grief" in _SYSTEM_PROMPT
 
 
+@pytest.mark.asyncio
+async def test_multi_nikaya_search_includes_results_from_each_nikaya():
+    """Searching SN+DHP must include DHP passages in the retrieval pool.
+
+    Root cause fixed: combined filter let large nikayas (SN) crowd out small
+    ones (DHP) from the retrieval pool entirely. The fix retrieves per-nikaya
+    in parallel so each nikaya gets its own retrieval budget.
+
+    The reranker is stubbed to preserve insertion order so the test only
+    verifies retrieval behaviour, not cross-encoder scoring.
+    """
+    from unittest.mock import AsyncMock
+
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline()
+
+    pipeline.expand_query = AsyncMock(return_value=["meditation"])
+    # Stub reranker so ML scoring doesn't reorder the retrieval pool
+    pipeline.reranker.rerank_multi = lambda queries, chunks: [{**c, "rerank_score": 0.0} for c in chunks]
+
+    # 5 SN + 5 DHP results. Per-nikaya retrieval gives each its own 5-item pool.
+    # The combined pool of 10 fits within top_k=10 so both must appear.
+    sn_results = [
+        {"id": f"SN 1.{i}:1", "nikaya": "SN", "pali": "", "english": f"meditation mindfulness {i}", "score": 0.9 - i * 0.01}
+        for i in range(5)
+    ]
+    dhp_results = [
+        {"id": f"DHP {i}:1", "nikaya": "DHP", "pali": "", "english": f"mind calm verse {i}", "score": 0.85 - i * 0.01}
+        for i in range(5)
+    ]
+
+    async def fake_retrieve(query, top_k, nikayas=None):
+        if nikayas == ["SN"]:
+            return sn_results[:top_k]
+        if nikayas == ["DHP"]:
+            return dhp_results[:top_k]
+        # Combined path: would return only SN (simulates the old crowding bug)
+        return sn_results[:top_k]
+
+    pipeline.retriever.retrieve = AsyncMock(side_effect=fake_retrieve)
+
+    results = await pipeline.search("meditation", top_k=10, nikayas=["SN", "DHP"])
+    result_nikayas = {r["id"].split()[0] for r in results}
+    assert "DHP" in result_nikayas, (
+        f"DHP results absent from SN+DHP search; got nikaya prefixes: {result_nikayas}"
+    )
+    assert "SN" in result_nikayas
+
+
 def test_expansion_prompt_v7_has_named_similes():
     prompt = ExpansionPrompt("v7").get_prompt()
     assert "near shore far shore raft" in prompt          # raft simile MN 22
