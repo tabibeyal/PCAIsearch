@@ -1,63 +1,6 @@
-'use client';
-
-import React, { useState, useEffect, useRef } from 'react';
-
 export function SupportBanner() {
-  const [visible, setVisible] = useState(false);
-  const footerRef = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    const isMobile = () => window.innerWidth < 768;
-    let lastScrollTop = 0;
-
-    const handleScroll = (e: Event) => {
-      if (!isMobile()) return;
-      const target = e.target as Element;
-      if (!(target instanceof Element) || target.clientHeight < 200) return;
-
-      const scrollTop = target.scrollTop;
-      // Only trigger on containers with meaningful content to scroll
-      if (target.scrollHeight <= target.clientHeight + 150) return;
-      const atBottom = target.scrollHeight - scrollTop - target.clientHeight < 20;
-      const scrollingUp = scrollTop < lastScrollTop;
-      lastScrollTop = scrollTop;
-
-      if (atBottom) {
-        setVisible(true);
-      } else if (scrollingUp) {
-        setVisible(false);
-      }
-    };
-
-    document.addEventListener('scroll', handleScroll, { capture: true, passive: true });
-    return () => document.removeEventListener('scroll', handleScroll, true);
-  }, []);
-
-  // Keep scroll containers padded so content isn't hidden behind the fixed banner
-  useEffect(() => {
-    if (typeof window === 'undefined' || window.innerWidth >= 768) return;
-    const h = footerRef.current?.offsetHeight ?? 0;
-    document.documentElement.style.setProperty('--banner-h', visible ? `${h}px` : '0px');
-    if (visible) {
-      document.documentElement.setAttribute('data-banner-open', '');
-    } else {
-      document.documentElement.removeAttribute('data-banner-open');
-    }
-  }, [visible]);
-
   return (
-    <footer
-      ref={footerRef}
-      className={[
-        'w-full bg-white border-t border-gray-200 py-4',
-        // Mobile: fixed at bottom, slide in/out
-        'fixed bottom-0 left-0 right-0 z-50 transition-transform duration-300',
-        // Desktop: back to normal flow, always visible
-        'md:static md:transform-none',
-        visible ? 'translate-y-0' : 'translate-y-full',
-      ].join(' ')}
-      style={{ transitionTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)' }}
-    >
+    <footer className="w-full bg-white border-t border-gray-200 py-4">
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 px-6 text-sm text-gray-500">
         <p className="text-center sm:text-left">
           This tool runs on a free AI model, but hosting and infrastructure still cost money.
