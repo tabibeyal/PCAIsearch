@@ -4,6 +4,7 @@ import { SynthesisLoader } from '@/components/deep-dive/SynthesisLoader';
 import { SearchResultsLoader } from '@/components/search/SearchResultsLoader';
 import { NikayaFilter } from '@/components/search/NikayaFilter';
 import { NavSearchBox } from '@/components/search/NavSearchBox';
+import { SupportBanner } from '@/components/SupportBanner';
 
 async function SearchPage({
   params,
@@ -62,6 +63,7 @@ async function SearchPage({
             ? <SynthesisLoader query={query} nikayas={nikayas} />
             : <SearchResultsLoader query={query} nikayas={nikayas} />}
         </div>
+        <SupportBanner />
       </div>
     </main>
   );
