@@ -33,7 +33,7 @@ export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle
 
   const renderInline = (text: string, pIdx: number): React.ReactNode[] => {
     const result: React.ReactNode[] = [];
-    const re = /\*\*([^*]+)\*\*|\*([^*]+)\*|\[([A-Z\s\d:.,]+)\]/g;
+    const re = /\*\*([^*]+)\*\*|\*([^*]+)\*|\[([A-Za-z\s\d:.,\-]+)\]/g;
     let last = 0;
     let seg = 0;
     let match;
