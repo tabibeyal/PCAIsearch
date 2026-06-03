@@ -62,7 +62,7 @@ Rate limits: `/search` 30/min, `/stream` and `/synthesize` 10/min, `/feedback` 2
 | `GET` | `/stream` | Server-Sent Events stream of answer chunks + final verified payload |
 | `POST` | `/feedback` | Stores thumbs-up/down rating with optional category + comment |
 
-The `/stream` endpoint emits three SSE event types: `status` (progress text), `chunk` (incremental text delta), and `done` (full verified payload including `context`, `hallucinations`, `canonical_misses`, `is_faithful`).
+The `/stream` endpoint emits three SSE event types: `status` (progress text), `chunk` (incremental text delta), and `done` (full verified payload including `context`, `hallucinations`, `canonical_misses`, `is_faithful`). The three status messages emitted in order are: `"Searching the Canon…"`, `"Composing answer…"`, and `"Verifying sources…"` (the last is emitted just before the guardrail runs).
 
 ---
 
@@ -72,7 +72,7 @@ The RAG orchestrator. All retrieval and synthesis flows through this class.
 
 **Constructor dependencies (injectable):**
 - `qdrant_url` / `QDRANT_URL` env var — Qdrant Cloud cluster URL
-- `llm_model` / `LLM_MODEL` env var — synthesis model (default: `meta/llama-3.3-70b-instruct`)
+- `llm_model` / `LLM_MODEL` env var — synthesis model (default: `meta/llama-3.3-70b-instruct`; production override: `meta/llama-3.1-8b-instruct`)
 - `expansion_model` / `EXPANSION_MODEL` env var — expansion model (default: `google/gemma-3n-e4b-it`)
 - `sutta_relations` — `SuttaRelations` instance
 - `expansion_prompt` — `ExpansionPrompt` instance (default: v6)
@@ -93,16 +93,25 @@ Model output is stripped of `<think>...</think>` blocks and line-label prefixes 
 
 **`search(query, top_k, nikayas) → List[dict]`**
 
-Full retrieval pipeline:
-1. `expand_query` → list of query variants
-2. Optional title boost: `SuttaTitleIndex.search()` appends the top matching sutta's title text as an extra retrieval query
-3. Dense retrieval: `Retriever.retrieve()` called concurrently for all query variants via `asyncio.gather`
-4. `rrf_fuse_multi()` merges the per-query dense result lists
-5. BM25 retrieval: all query variants run through `BM25Retriever.retrieve()`, best score per ID kept, then `rrf_fuse()` merges with the dense-fused list
-6. Reranking: `rerank_multi([original_query, english_hint])` scores all candidates; Pāḷi variants are excluded from reranking since the cross-encoder is English-only
-7. Returns top-k by rerank score
+The pipeline takes two distinct paths depending on whether one or multiple nikāyas are selected.
 
-Retrieval over-fetches at `max(top_k * 3, 30)` candidates before reranking.
+**Single-nikaya path:**
+1. `expand_query` and the first `Retriever.retrieve()` run in parallel via `asyncio.gather` — the NVIDIA API wait overlaps with the Qdrant round-trip.
+2. Optional title boost: `SuttaTitleIndex.search()` appends the top matching sutta's title text as an extra retrieval query.
+3. Remaining query variants retrieved concurrently via `asyncio.gather`.
+4. `rrf_fuse_multi()` merges all dense result lists.
+5. BM25 retrieval: all query variants scored, best score per ID kept, then `rrf_fuse()` merges with the dense-fused list.
+6. Reranking: `rerank_multi([original_query, english_hint])` scores all candidates; Pāḷi variants excluded since the cross-encoder is English-only.
+7. Returns top-k by rerank score.
+
+**Multi-nikaya path:**
+1. `expand_query` and one initial `Retriever.retrieve()` per nikaya all run in parallel via `asyncio.gather` — expansion and all per-nikaya Qdrant calls overlap.
+2. Title boost applied (same as single-nikaya).
+3. BM25 runs once across all nikāyas (not once per nikaya), then results are split by nikaya — avoids ~6× redundant scoring of the full corpus.
+4. The full pipeline (retrieve → fuse → rerank) runs independently per nikaya in parallel via `asyncio.gather`, each receiving its share of pre-fetched BM25 results.
+5. Per-nikaya result lists are round-robin interleaved — one result from each nikaya in turn — so a large nikaya (e.g. SN) cannot crowd out a small one (e.g. DHP).
+
+Retrieval over-fetches at `max(top_k * 3, 30)` candidates per nikaya before reranking.
 
 **`stream_synthesize(query, context_chunks)`**
 
@@ -112,7 +121,7 @@ Builds the LLM context by formatting each chunk as `[ID] Pali: ... English: ...`
 
 ### `ExpansionPrompt` — `backend/app/services/search_pipeline.py`
 
-Versioned query expansion prompts (v1–v6). The current default is **v6**, which instructs the model to output exactly two unlabeled lines: English passage vocabulary and Pāḷi terminology. v6 adds a reference table mapping doctrinal topics to both English hint words (drawn from the actual sutta text) and Pāḷi terms, and instructs the model to use the hint words even when they seem unrelated to the query's surface form.
+Versioned query expansion prompts (v1–v7). The current default is **v7**, which instructs the model to output exactly two unlabeled lines: English passage vocabulary and Pāḷi terminology. v7 hardens the system prompt and adds 24 named canonical simile entries (raft simile, blind men, arrow simile, etc.) so simile queries expand correctly. It also includes a reference table mapping doctrinal topics to both English hint words (drawn from the actual sutta text) and Pāḷi terms, and instructs the model to use the hint words even when they seem unrelated to the query's surface form.
 
 ---
 
@@ -157,7 +166,7 @@ Cross-encoder reranking using `cross-encoder/ms-marco-MiniLM-L-6-v2`.
 
 ### `pali_dictionary` — `backend/app/services/pali_dictionary.py`
 
-Keyword-matched lookup table with ~84 `DictionaryEntry` records covering major doctrinal lists. Each entry has:
+Keyword-matched lookup table with ~77 `DictionaryEntry` records covering major doctrinal lists. Each entry has:
 - `keywords` — trigger strings (plain text, diacritics, abbreviations)
 - `pali` — space-separated Pāḷi term cluster for retrieval
 - `english_hint` — verbatim passage-level English text for reranking
@@ -279,10 +288,13 @@ app/search/[query]/page.tsx
        │    └─ NikayaFilter (DN/MN/SN/AN/DHP/ITI checkboxes)
        ├─ DividerToggle (collapse/expand left pane)
        └─ right pane: SynthesisLoader → SynthesisView
+            ├─ StepList (live pipeline step progress — pending/active/done states driven by SSE status events)
             ├─ streams answer text via streamSynthesis()
             ├─ FeedbackBar (thumbs up/down, 5-category downvote)
             └─ SourceViewer (cited chunk cards with SuttaCentral links)
 ```
+
+`StepList` — replaces the pre-streaming spinner. Displays the three pipeline steps ("Searching the Canon…", "Composing answer…", "Verifying sources…") as a step-by-step progress indicator. Each step transitions through pending → active → done states as SSE `status` events arrive. Renders horizontally on desktop and vertically on mobile; persists as a sidebar/topbar widget while the answer streams.
 
 `DividerToggle` — draggable/clickable divider that collapses the source pane to reveal the full synthesis pane.
 
@@ -301,7 +313,7 @@ Forces `dynamic = 'force-dynamic'` to prevent Next.js from caching. Proxies the 
 | DigitalOcean 2GB Droplet | Backend (Docker) | `NVIDIA_API_KEY`, `QDRANT_URL`, `QDRANT_API_KEY`, `CORS_ORIGINS` set as secrets |
 | Netlify | Frontend | `NEXT_PUBLIC_API_URL` (for non-stream endpoints), `API_URL` (for SSE proxy) |
 | Qdrant Cloud | Vector DB | 134,102 vectors, 384-dim, cosine; `pali_canon` collection; nikaya keyword payload index |
-| NVIDIA Inference API | LLM inference | Free tier, 40 rpm; Gemma 3n for expansion, Llama 3.3 70B for synthesis |
+| NVIDIA Inference API | LLM inference | Free tier, 40 rpm; Gemma 3n for expansion, Llama 3.1 8B for synthesis (set via `LLM_MODEL` env var) |
 
 Nginx buffering is disabled on the DigitalOcean Droplet via `X-Accel-Buffering: no` + `Cache-Control: no-cache` headers on the `/stream` response, which is required for SSE to flow without batching.
 
