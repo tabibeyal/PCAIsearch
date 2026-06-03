@@ -621,6 +621,8 @@ class SearchPipeline:
         )
         full_text = ""
         async for chunk in stream:
+            if not chunk.choices:
+                continue
             delta = chunk.choices[0].delta.content or ""
             if delta:
                 full_text += delta
