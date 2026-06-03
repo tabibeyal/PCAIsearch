@@ -1,5 +1,5 @@
 import React from 'react';
-import { SearchBar } from '@/components/search/SearchBar';
+import { SearchBarClient } from '@/components/search/SearchBarClient';
 
 export default function LandingPage() {
   return (
@@ -10,7 +10,7 @@ export default function LandingPage() {
           Type a question or topic — find the suttas that answer it.
         </p>
       </div>
-      <SearchBar />
+      <SearchBarClient />
     </div>
   );
 }

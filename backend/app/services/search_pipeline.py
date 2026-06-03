@@ -3,6 +3,7 @@ import asyncio
 import logging
 import os
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor
 
 from openai import AsyncOpenAI
@@ -415,6 +416,7 @@ class SearchPipeline:
         variants = [query]
         try:
             prompt = self.expansion_prompt.get_prompt()
+            t0 = time.perf_counter()
             message = await self.llm.chat.completions.create(
                 model=self.expansion_model,
                 max_tokens=256,
@@ -423,6 +425,7 @@ class SearchPipeline:
                     {"role": "user", "content": query},
                 ],
             )
+            logger.info("expand_query/nvidia: %.2fs", time.perf_counter() - t0)
             raw = _strip_thinking(message.choices[0].message.content)
             extras = [_LABEL_RE.sub("", line).strip() for line in raw.splitlines() if line.strip()]
             for v in extras:
@@ -447,38 +450,54 @@ class SearchPipeline:
         retrieval_k: int,
         nikayas: Optional[List[str]],
         rerank_queries: List[str],
+        prefetched_first: Optional[List[Dict[str, Any]]] = None,
     ) -> List[Dict[str, Any]]:
         """Retrieve → fuse → BM25 → rerank for a fixed nikaya set."""
-        per_query = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in queries])
-        dense_fused = rrf_fuse_multi(list(per_query))
+        t0 = time.perf_counter()
+        loop = asyncio.get_running_loop()
+
+        if prefetched_first is not None:
+            extra_queries = queries[1:]
+            if extra_queries:
+                extra = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in extra_queries])
+                dense_fused = rrf_fuse_multi([prefetched_first] + list(extra))
+            else:
+                dense_fused = rrf_fuse_multi([prefetched_first])
+        else:
+            per_query = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in queries])
+            dense_fused = rrf_fuse_multi(list(per_query))
+
+        logger.info("retrieve: %.2fs", time.perf_counter() - t0)
+        t1 = time.perf_counter()
 
         if self.bm25_retriever:
-            seen_bm25: dict = {}
-            for q in queries:
-                for item in self.bm25_retriever.retrieve(q, retrieval_k, nikayas):
-                    item_id = item["id"]
-                    if item_id not in seen_bm25 or item["bm25_score"] > seen_bm25[item_id]["bm25_score"]:
-                        seen_bm25[item_id] = item
-            bm25_results = sorted(seen_bm25.values(), key=lambda x: x["bm25_score"], reverse=True)
+            def _bm25_all():
+                seen_bm25: dict = {}
+                for q in queries:
+                    for item in self.bm25_retriever.retrieve(q, retrieval_k, nikayas):
+                        item_id = item["id"]
+                        if item_id not in seen_bm25 or item["bm25_score"] > seen_bm25[item_id]["bm25_score"]:
+                            seen_bm25[item_id] = item
+                return sorted(seen_bm25.values(), key=lambda x: x["bm25_score"], reverse=True)
+
+            bm25_results = await loop.run_in_executor(self._executor, _bm25_all)
             all_results = rrf_fuse(dense_fused, bm25_results)
         else:
             all_results = dense_fused
 
-        return self.reranker.rerank_multi(rerank_queries, all_results)[:top_k]
+        logger.info("bm25: %.2fs", time.perf_counter() - t1)
+        t2 = time.perf_counter()
+
+        reranked = await loop.run_in_executor(
+            self._executor,
+            lambda: self.reranker.rerank_multi(rerank_queries, all_results),
+        )
+
+        logger.info("rerank: %.2fs", time.perf_counter() - t2)
+        return reranked[:top_k]
 
     async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
-        queries = await self.expand_query(query)
-
-        # Title boost: if a canonical sutta title matches the query, add its
-        # title text as an extra retrieval query so the reranker sees its verses.
-        if self.title_index:
-            title_hits = self.title_index.search(query, top_n=1)
-            if title_hits:
-                top_sutta_id, _ = title_hits[0]
-                title_text = self.title_index.get_title_text(top_sutta_id)
-                if title_text and title_text not in queries:
-                    queries = list(queries) + [title_text]
-
+        t0 = time.perf_counter()
         retrieval_k = max(top_k * 3, 30)
 
         # Rerank against original + English passage hint only. The cross-encoder
@@ -492,15 +511,37 @@ class SearchPipeline:
             rerank_queries.append(english_hit_str)
 
         if nikayas and len(nikayas) > 1:
+            # Run expansion in parallel with initial per-nikaya retrieval so the
+            # NVIDIA API wait overlaps with Qdrant round-trips.
+            gather_out = await asyncio.gather(
+                self.expand_query(query),
+                *[self.retriever.retrieve(query, retrieval_k, [n]) for n in nikayas],
+            )
+            queries: List[str] = gather_out[0]
+            nikaya_initials: List[List[Dict[str, Any]]] = list(gather_out[1:])
+
+            logger.info("expand+initial_retrieve(multi): %.2fs", time.perf_counter() - t0)
+
+            # Title boost: if a canonical sutta title matches the query, add its
+            # title text as an extra retrieval query so the reranker sees its verses.
+            if self.title_index:
+                title_hits = self.title_index.search(query, top_n=1)
+                if title_hits:
+                    top_sutta_id, _ = title_hits[0]
+                    title_text = self.title_index.get_title_text(top_sutta_id)
+                    if title_text and title_text not in queries:
+                        queries = list(queries) + [title_text]
+
             # Run the full pipeline (retrieve → fuse → rerank) per nikaya in
             # parallel, then interleave results so each nikaya contributes.
             # Without this, the cross-encoder reranker scores a large nikaya
             # (e.g. SN) above a small one (e.g. DHP) and crowds it out entirely.
             per_nikaya_k = -(-top_k // len(nikayas))  # ceiling division
             nikaya_results = await asyncio.gather(*[
-                self._run_pipeline(queries, per_nikaya_k, retrieval_k, [n], rerank_queries)
-                for n in nikayas
+                self._run_pipeline(queries, per_nikaya_k, retrieval_k, [n], rerank_queries, prefetched_first=initial)
+                for n, initial in zip(nikayas, nikaya_initials)
             ])
+
             # Round-robin interleave: pick one result from each nikaya in turn
             results: List[Dict[str, Any]] = []
             iters = [iter(r) for r in nikaya_results]
@@ -516,9 +557,32 @@ class SearchPipeline:
                     except StopIteration:
                         pass
                 active = next_active
+
+            logger.info("search total: %.2fs", time.perf_counter() - t0)
             return results
 
-        return await self._run_pipeline(queries, top_k, retrieval_k, nikayas, rerank_queries)
+        # Single-nikaya (or no filter): overlap expansion with initial retrieval
+        # so the NVIDIA API wait runs alongside the first Qdrant round-trip.
+        queries, initial_results = await asyncio.gather(
+            self.expand_query(query),
+            self.retriever.retrieve(query, retrieval_k, nikayas),
+        )
+
+        logger.info("expand+initial_retrieve: %.2fs", time.perf_counter() - t0)
+
+        # Title boost: if a canonical sutta title matches the query, add its
+        # title text as an extra retrieval query so the reranker sees its verses.
+        if self.title_index:
+            title_hits = self.title_index.search(query, top_n=1)
+            if title_hits:
+                top_sutta_id, _ = title_hits[0]
+                title_text = self.title_index.get_title_text(top_sutta_id)
+                if title_text and title_text not in queries:
+                    queries = list(queries) + [title_text]
+
+        result = await self._run_pipeline(queries, top_k, retrieval_k, nikayas, rerank_queries, prefetched_first=initial_results)
+        logger.info("search total: %.2fs", time.perf_counter() - t0)
+        return result
 
     def get_related_suttas(self, results: List[Dict[str, Any]], top_n: int = 5) -> List[str]:
         """

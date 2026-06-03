@@ -158,7 +158,15 @@
       "Bash(dotfiles status *)",
       "Bash(rtk docker *)",
       "Bash(rtk ps *)",
-      "Bash(rtk tsc *)"
+      "Bash(rtk tsc *)",
+      "Bash(PYTHONPATH=. rtk pytest tests/backend/test_search_pipeline.py -q)",
+      "Bash(PYTHONPATH=. rtk pytest tests/backend/test_search_pipeline.py tests/backend/test_bm25_retriever.py -v --tb=short)",
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(rtk npx *)",
+      "Bash(tee /tmp/tunnel.log)",
+      "Bash(PYTHONPATH=. rtk pytest tests/backend/ -q)",
+      "Bash(ssh -o BatchMode=yes -o ConnectTimeout=5 root@pcaisearch 'echo connected')",
+      "Bash(ssh -o BatchMode=yes -o ConnectTimeout=5 eyal@pcaisearch 'echo connected')"
     ]
   },
   "hooks": {

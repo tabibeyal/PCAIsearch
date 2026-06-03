@@ -5,29 +5,65 @@ import { searchVerses } from '@/lib/api';
 import { SearchResultsView } from './SearchResultsView';
 import { SearchResult } from '@/types/api';
 
-const LOADING_MESSAGES = [
+const MESSAGES = [
   'Starting your search…',
   'Looking through the suttas…',
   'Almost there…',
 ];
 
-function LoadingState() {
-  const [index, setIndex] = React.useState(0);
+// v3: clears stale data from earlier uncapped measurements
+const TIMING_KEY = 'passages_avg_ms_v3';
+const TIMING_N = 10;
+const STEP3_FLOOR_MS = 600;
+const MIN_STEP_MS = 1200;
+const MAX_STEP_MS = 3000;
+const MAX_AVG_MS = 12000; // cap stored avg so very slow backend runs don't skew forever
+
+function getAvgMs(): number {
+  try {
+    const v = localStorage.getItem(TIMING_KEY);
+    return v ? Math.min(Math.max(parseFloat(v), 1500), MAX_AVG_MS) : 5000;
+  } catch { return 5000; }
+}
+
+function updateAvgMs(elapsedMs: number) {
+  try {
+    const clamped = Math.min(elapsedMs, MAX_AVG_MS);
+    const prev = getAvgMs();
+    const countRaw = localStorage.getItem(TIMING_KEY + '_n');
+    const count = countRaw ? Math.min(parseInt(countRaw), TIMING_N - 1) : 0;
+    const next = count === 0 ? clamped : (prev * count + clamped) / (count + 1);
+    localStorage.setItem(TIMING_KEY, String(next));
+    localStorage.setItem(TIMING_KEY + '_n', String(count + 1));
+  } catch {}
+}
+
+// Steps 1 and 2 each take 38% of expected time (total 76%); step 3 uses the
+// remaining ~24%, which is always shorter than either preceding step.
+// Hard caps prevent extreme averages from producing absurdly long messages.
+function stepDurations(): [number, number] {
+  const avg = getAvgMs();
+  const each = Math.min(Math.max(avg * 0.38, MIN_STEP_MS), MAX_STEP_MS);
+  return [each, each];
+}
+
+function LoadingState({ phase }: { phase: 0 | 1 | 2 }) {
+  const [displayPhase, setDisplayPhase] = React.useState<0 | 1 | 2>(phase);
   const [visible, setVisible] = React.useState(true);
 
   React.useEffect(() => {
-    if (index >= LOADING_MESSAGES.length - 1) return;
-    const fadeOut = setTimeout(() => setVisible(false), 2200);
-    const advance = setTimeout(() => { setIndex(i => i + 1); setVisible(true); }, 2500);
-    return () => { clearTimeout(fadeOut); clearTimeout(advance); };
-  }, [index]);
+    if (displayPhase === phase) return;
+    setVisible(false);
+    const t = setTimeout(() => { setDisplayPhase(phase); setVisible(true); }, 250);
+    return () => clearTimeout(t);
+  }, [phase]);
 
   return (
     <div className="flex items-center justify-center h-full text-[#9c8c7a]">
       <div className="text-center">
         <div className="w-8 h-8 rounded-full animate-spin mx-auto mb-3" style={{ border: '2px solid #e8e4dc', borderTopColor: '#6b4e35' }} />
-        <p className="text-sm transition-opacity duration-300" style={{ opacity: visible ? 1 : 0 }}>
-          {LOADING_MESSAGES[index]}
+        <p className="text-sm" style={{ opacity: visible ? 1 : 0, transition: 'opacity 250ms' }}>
+          {MESSAGES[displayPhase]}
         </p>
       </div>
     </div>
@@ -54,16 +90,28 @@ function ErrorState({ isRateLimit, onRetry }: { isRateLimit: boolean; onRetry: (
 }
 
 export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas: string[] }) {
-  const [results, setResults] = React.useState<SearchResult[] | null>(null);
+  const [phase, setPhase] = React.useState<0 | 1 | 2>(0);
+  const [resultsReady, setResultsReady] = React.useState(false);
+  const [showResults, setShowResults] = React.useState(false);
   const [error, setError] = React.useState<{ status?: number } | null>(null);
   const [retryCount, setRetryCount] = React.useState(0);
+  const resultsRef = React.useRef<SearchResult[] | null>(null);
+  const [durations] = React.useState<[number, number]>(() => stepDurations());
 
+  // Reset on new search
   React.useEffect(() => {
-    setResults(null);
+    setPhase(0);
+    setResultsReady(false);
+    setShowResults(false);
     setError(null);
+    resultsRef.current = null;
+  }, [query, nikayas.join(','), retryCount]);
 
+  // Fetch
+  React.useEffect(() => {
     let cancelled = false;
     const controller = new AbortController();
+    const startMs = Date.now();
 
     // setTimeout(0) prevents StrictMode's double-invocation from sending two
     // requests to the backend: cleanup clears the timer before it fires.
@@ -71,7 +119,11 @@ export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas
       (async () => {
         try {
           const data = await searchVerses(query, 20, nikayas.length ? nikayas : undefined, controller.signal);
-          if (!cancelled) setResults(data.results);
+          if (!cancelled) {
+            updateAvgMs(Date.now() - startMs);
+            resultsRef.current = data.results;
+            setResultsReady(true);
+          }
         } catch (e: any) {
           if (!cancelled && e.name !== 'AbortError') setError(e);
         }
@@ -81,7 +133,33 @@ export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas
     return () => { cancelled = true; clearTimeout(timerId); controller.abort(); };
   }, [query, nikayas.join(','), retryCount]);
 
+  // Advance phase 0→1→2 on timers; phase 2 has no timer (waits for results)
+  React.useEffect(() => {
+    if (showResults) return;
+    if (phase === 0) {
+      const t = setTimeout(() => setPhase(1), durations[0]);
+      return () => clearTimeout(t);
+    }
+    if (phase === 1) {
+      const t = setTimeout(() => setPhase(2), durations[1]);
+      return () => clearTimeout(t);
+    }
+  }, [phase, showResults, durations[0], durations[1]]);
+
+  // If results arrive before phase 2, skip straight to phase 2
+  React.useEffect(() => {
+    if (!resultsReady || showResults) return;
+    setPhase(p => (p < 2 ? 2 : p));
+  }, [resultsReady, showResults]);
+
+  // Once on phase 2 and results are ready, hold for STEP3_FLOOR_MS then reveal
+  React.useEffect(() => {
+    if (phase !== 2 || !resultsReady || showResults) return;
+    const t = setTimeout(() => setShowResults(true), STEP3_FLOOR_MS);
+    return () => clearTimeout(t);
+  }, [phase, resultsReady, showResults]);
+
   if (error) return <ErrorState isRateLimit={error.status === 429} onRetry={() => setRetryCount(c => c + 1)} />;
-  if (!results) return <LoadingState />;
-  return <SearchResultsView results={results} query={query} />;
+  if (showResults) return <SearchResultsView results={resultsRef.current!} query={query} />;
+  return <LoadingState phase={phase} />;
 }
