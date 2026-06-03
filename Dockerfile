@@ -17,15 +17,22 @@ RUN pip install --no-cache-dir \
 
 RUN useradd -m appuser
 
+# Explicit cache paths so build-time downloads land in the same place
+# the app reads at runtime (avoids $HOME ambiguity on App Platform).
+ENV FASTEMBED_CACHE_PATH=/app/model_cache
+ENV SENTENCE_TRANSFORMERS_HOME=/app/model_cache
+
 COPY --chown=appuser:appuser backend/ backend/
 COPY --chown=appuser:appuser data/dumps/ data/dumps/
+
+RUN mkdir -p /app/model_cache && chown appuser:appuser /app/model_cache
 
 USER appuser
 
 # Pre-download both ML models at build time so startup is instant.
-# Must run as appuser so cache lands in /home/appuser/.cache (readable at runtime).
 RUN python -c "from fastembed import TextEmbedding; TextEmbedding('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')" && \
-    python -c "from sentence_transformers import CrossEncoder; CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2')"
+    python -c "from sentence_transformers import CrossEncoder; CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2')" && \
+    echo "model cache:" && ls /app/model_cache/
 
 EXPOSE 8000
 
