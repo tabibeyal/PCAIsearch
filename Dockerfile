@@ -22,6 +22,11 @@ COPY --chown=appuser:appuser data/dumps/ data/dumps/
 
 USER appuser
 
+# Pre-download both ML models at build time so startup is instant.
+# Must run as appuser so cache lands in /home/appuser/.cache (readable at runtime).
+RUN python -c "from fastembed import TextEmbedding; TextEmbedding('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')" && \
+    python -c "from sentence_transformers import CrossEncoder; CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2')"
+
 EXPOSE 8000
 
 CMD ["uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8000"]
