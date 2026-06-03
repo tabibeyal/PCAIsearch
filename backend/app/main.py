@@ -24,6 +24,7 @@ from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 
+logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
 limiter = Limiter(key_func=get_remote_address)
 logger = logging.getLogger(__name__)
 
