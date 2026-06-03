@@ -605,7 +605,7 @@ class SearchPipeline:
     async def synthesize(self, query: str, context_chunks: List[Dict[str, Any]]) -> str:
         message = await self.llm.chat.completions.create(
             model=self.llm_model,
-            max_tokens=1024,
+            max_tokens=700,
             timeout=120.0,
             messages=_build_messages(query, context_chunks),
         )
@@ -614,7 +614,7 @@ class SearchPipeline:
     async def stream_synthesize(self, query: str, context_chunks: List[Dict[str, Any]]):
         stream = await self.llm.chat.completions.create(
             model=self.llm_model,
-            max_tokens=1024,
+            max_tokens=700,
             timeout=120.0,
             stream=True,
             messages=_build_messages(query, context_chunks),
