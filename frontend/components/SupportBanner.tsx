@@ -4,55 +4,55 @@ import React, { useState, useEffect, useRef } from 'react';
 
 export function SupportBanner() {
   const [visible, setVisible] = useState(false);
-  const footerRef = useRef<HTMLElement>(null);
+  const deepDiveOpenRef = useRef(false);
 
+  // Hide immediately when deep-dive panel opens
   useEffect(() => {
-    const isMobile = () => window.innerWidth < 768;
-    let lastScrollTop = 0;
-
-    const handleScroll = (e: Event) => {
-      if (!isMobile()) return;
-      const target = e.target as Element;
-      if (!(target instanceof Element) || target.clientHeight < 200) return;
-
-      const scrollTop = target.scrollTop;
-      // Only trigger on containers with meaningful content to scroll
-      if (target.scrollHeight <= target.clientHeight + 150) return;
-      const atBottom = target.scrollHeight - scrollTop - target.clientHeight < 20;
-      const scrollingUp = scrollTop < lastScrollTop;
-      lastScrollTop = scrollTop;
-
-      if (atBottom) {
-        setVisible(true);
-      } else if (scrollingUp) {
-        setVisible(false);
-      }
+    const handler = (e: Event) => {
+      const open = (e as CustomEvent<{ open: boolean }>).detail.open;
+      deepDiveOpenRef.current = open;
+      if (open) setVisible(false);
     };
-
-    document.addEventListener('scroll', handleScroll, { capture: true, passive: true });
-    return () => document.removeEventListener('scroll', handleScroll, true);
+    window.addEventListener('deepDiveChanged', handler);
+    return () => window.removeEventListener('deepDiveChanged', handler);
   }, []);
 
-  // Keep scroll containers padded so content isn't hidden behind the fixed banner
+  // On mobile: show when the sentinel below FeedbackBar scrolls into view,
+  // hide when it scrolls back out. The sentinel is 144px below FeedbackBar
+  // so the banner never overlaps it.
   useEffect(() => {
     if (typeof window === 'undefined' || window.innerWidth >= 768) return;
-    const h = footerRef.current?.offsetHeight ?? 0;
-    document.documentElement.style.setProperty('--banner-h', visible ? `${h}px` : '0px');
-    if (visible) {
-      document.documentElement.setAttribute('data-banner-open', '');
-    } else {
-      document.documentElement.removeAttribute('data-banner-open');
-    }
-  }, [visible]);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (deepDiveOpenRef.current) return;
+        setVisible(entries.some((e) => e.isIntersecting));
+      },
+      { threshold: 0 }
+    );
+
+    const attach = () =>
+      document.querySelectorAll('[data-support-trigger]').forEach((el) => observer.observe(el));
+
+    attach();
+
+    // Re-attach when sentinels mount after initial render (route changes, lazy content)
+    const mo = new MutationObserver(attach);
+    mo.observe(document.body, { childList: true, subtree: true });
+
+    return () => {
+      observer.disconnect();
+      mo.disconnect();
+    };
+  }, []);
 
   return (
     <footer
-      ref={footerRef}
       className={[
         'w-full bg-white border-t border-gray-200 py-4',
         // Mobile: fixed at bottom, slide in/out
         'fixed bottom-0 left-0 right-0 z-50 transition-transform duration-300',
-        // Desktop: back to normal flow, always visible
+        // Desktop: normal flow, always visible
         'md:static md:transform-none',
         visible ? 'translate-y-0' : 'translate-y-full',
       ].join(' ')}

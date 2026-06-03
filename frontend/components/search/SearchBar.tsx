@@ -125,9 +125,9 @@ export function SearchBar() {
         onChange={(e) => { setQuery(e.target.value); autoResize(e.target); }}
         onKeyDown={handleKeyDown}
         placeholder=""
-        autoFocus
         className="w-full bg-transparent resize-none outline-none text-[#2c1f14] text-base leading-relaxed max-h-64 overflow-y-auto relative z-10"
         style={{ minHeight: '28px', caretColor: query === '' ? 'transparent' : '#b5a494' }}
+        suppressHydrationWarning
       />
 
       <button

@@ -1,10 +1,10 @@
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
-import { SupportBanner } from '@/components/SupportBanner'
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
+  interactiveWidget: 'resizes-content',
 }
 
 export const metadata: Metadata = {
@@ -18,10 +18,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className="antialiased flex flex-col h-dvh overflow-hidden" suppressHydrationWarning>
         <main className="flex-1 min-h-0">{children}</main>
-        <SupportBanner />
       </body>
     </html>
   )

@@ -113,6 +113,19 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/update-memory.sh",
+            "timeout": 120000,
+            "statusMessage": "Updating project memory..."
+          }
+        ]
+      }
     ]
   }
 }

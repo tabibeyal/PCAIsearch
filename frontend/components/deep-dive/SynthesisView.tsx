@@ -105,6 +105,8 @@ export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle
           {renderText(answer)}
         </div>
         <FeedbackBar query={query} answer={answer} />
+        {/* Sentinel: banner only shows on mobile when this clears the viewport bottom */}
+        <div className="h-36 md:h-0" aria-hidden="true" data-support-trigger />
       </div>
     </div>
   );
