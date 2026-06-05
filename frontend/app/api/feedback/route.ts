@@ -1,8 +1,8 @@
 import { NextRequest } from 'next/server';
 
-export const dynamic = 'force-dynamic';
+import { BACKEND_URL } from '@/lib/backend';
 
-const BACKEND = process.env.API_URL ?? 'http://localhost:8000';
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: NextRequest) {
   let body: unknown;
@@ -13,7 +13,7 @@ export async function POST(request: NextRequest) {
   }
   let upstream: Response;
   try {
-    upstream = await fetch(`${BACKEND}/feedback`, {
+    upstream = await fetch(`${BACKEND_URL}/feedback`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body),

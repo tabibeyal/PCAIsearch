@@ -41,10 +41,9 @@ function updateAvgMs(elapsedMs: number) {
 // Steps 1 and 2 each take 38% of expected time (total 76%); step 3 uses the
 // remaining ~24%, which is always shorter than either preceding step.
 // Hard caps prevent extreme averages from producing absurdly long messages.
-function stepDurations(): [number, number] {
+function stepDurationMs(): number {
   const avg = getAvgMs();
-  const each = Math.min(Math.max(avg * 0.38, MIN_STEP_MS), MAX_STEP_MS);
-  return [each, each];
+  return Math.min(Math.max(avg * 0.38, MIN_STEP_MS), MAX_STEP_MS);
 }
 
 function LoadingState({ phase }: { phase: 0 | 1 | 2 }) {
@@ -96,7 +95,7 @@ export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas
   const [error, setError] = React.useState<{ status?: number } | null>(null);
   const [retryCount, setRetryCount] = React.useState(0);
   const resultsRef = React.useRef<SearchResult[] | null>(null);
-  const [durations] = React.useState<[number, number]>(() => stepDurations());
+  const [stepMs] = React.useState(stepDurationMs);
 
   // Reset on new search
   React.useEffect(() => {
@@ -137,14 +136,14 @@ export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas
   React.useEffect(() => {
     if (showResults) return;
     if (phase === 0) {
-      const t = setTimeout(() => setPhase(1), durations[0]);
+      const t = setTimeout(() => setPhase(1), stepMs);
       return () => clearTimeout(t);
     }
     if (phase === 1) {
-      const t = setTimeout(() => setPhase(2), durations[1]);
+      const t = setTimeout(() => setPhase(2), stepMs);
       return () => clearTimeout(t);
     }
-  }, [phase, showResults, durations[0], durations[1]]);
+  }, [phase, showResults, stepMs]);
 
   // If results arrive before phase 2, skip straight to phase 2
   React.useEffect(() => {

@@ -36,11 +36,20 @@ export function SupportBanner() {
 
     attach();
 
-    // Re-attach when sentinels mount after initial render (route changes, lazy content)
-    const mo = new MutationObserver(attach);
+    // Re-attach when sentinels mount after initial render (route changes, lazy
+    // content). Coalesce with rAF so a burst of mutations — e.g. answer text
+    // streaming in token by token — triggers at most one querySelectorAll per
+    // frame instead of one per token.
+    let rafId = 0;
+    const scheduleAttach = () => {
+      if (rafId) return;
+      rafId = requestAnimationFrame(() => { rafId = 0; attach(); });
+    };
+    const mo = new MutationObserver(scheduleAttach);
     mo.observe(document.body, { childList: true, subtree: true });
 
     return () => {
+      if (rafId) cancelAnimationFrame(rafId);
       observer.disconnect();
       mo.disconnect();
     };
