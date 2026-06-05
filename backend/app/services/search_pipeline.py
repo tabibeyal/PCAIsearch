@@ -470,27 +470,26 @@ class SearchPipeline:
     async def _run_pipeline(
         self,
         queries: List[str],
-        top_k: int,
         retrieval_k: int,
         nikayas: Optional[List[str]],
-        rerank_queries: List[str],
-        prefetched_first: Optional[List[Dict[str, Any]]] = None,
-        precomputed_bm25: Optional[List[Dict[str, Any]]] = None,
+        prefetched_first: List[Dict[str, Any]],
+        precomputed_bm25: Optional[List[Dict[str, Any]]],
     ) -> List[Dict[str, Any]]:
-        """Retrieve → fuse → BM25 → rerank for a fixed nikaya set."""
+        """Retrieve → fuse → BM25 for a single nikaya bucket.
+
+        Returns fused candidates (no rerank, no slicing). The caller reranks
+        the union of all buckets' candidates in a single pass and partitions
+        the scored list back per bucket for round-robin interleaving.
+        """
         t0 = time.perf_counter()
         loop = asyncio.get_running_loop()
 
-        if prefetched_first is not None:
-            extra_queries = queries[1:]
-            if extra_queries:
-                extra = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in extra_queries])
-                dense_fused = rrf_fuse_multi([prefetched_first] + list(extra))
-            else:
-                dense_fused = rrf_fuse_multi([prefetched_first])
+        extra_queries = queries[1:]
+        if extra_queries:
+            extra = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in extra_queries])
+            dense_fused = rrf_fuse_multi([prefetched_first] + list(extra))
         else:
-            per_query = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in queries])
-            dense_fused = rrf_fuse_multi(list(per_query))
+            dense_fused = rrf_fuse_multi([prefetched_first])
 
         logger.info("retrieve: %.2fs", time.perf_counter() - t0)
         t1 = time.perf_counter()
@@ -505,15 +504,7 @@ class SearchPipeline:
             all_results = dense_fused
 
         logger.info("bm25: %.2fs", time.perf_counter() - t1)
-        t2 = time.perf_counter()
-
-        reranked = await loop.run_in_executor(
-            self._executor,
-            lambda: self.reranker.rerank_multi(rerank_queries, all_results),
-        )
-
-        logger.info("rerank: %.2fs", time.perf_counter() - t2)
-        return reranked[:top_k]
+        return all_results
 
     async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         t0 = time.perf_counter()
@@ -529,81 +520,103 @@ class SearchPipeline:
         if english_hit_str:
             rerank_queries.append(english_hit_str)
 
-        if nikayas and len(nikayas) > 1:
-            # Run expansion in parallel with initial per-nikaya retrieval so the
-            # NVIDIA API wait overlaps with Qdrant round-trips.
-            gather_out = await asyncio.gather(
-                self.expand_query(query),
-                *[self.retriever.retrieve(query, retrieval_k, [n]) for n in nikayas],
-            )
-            queries: List[str] = gather_out[0]
-            nikaya_initials: List[List[Dict[str, Any]]] = list(gather_out[1:])
+        # Normalise nikayas into a list of buckets. No filter and single-nikaya
+        # both produce a one-element list — the per-bucket pipeline below is the
+        # identity for N=1.
+        buckets: List[Optional[str]] = list(nikayas) if nikayas else [None]
 
-            logger.info("expand+initial_retrieve(multi): %.2fs", time.perf_counter() - t0)
-
-            queries = self._apply_title_boost(query, queries)
-
-            # Run BM25 once across all nikayas, then split per-nikaya.
-            # Running BM25 inside each _run_pipeline would score 50k verses
-            # N_nikayas × N_queries times — ~6× redundant work.
-            loop = asyncio.get_running_loop()
-            if self.bm25_retriever:
-                shared_bm25 = await loop.run_in_executor(self._executor, self._bm25_dedup, queries, retrieval_k, None)
-                bm25_by_nikaya = {
-                    n: [item for item in shared_bm25 if item.get("nikaya") == n]
-                    for n in nikayas
-                }
-            else:
-                bm25_by_nikaya = {n: None for n in nikayas}
-
-            logger.info("bm25(shared): %.2fs", time.perf_counter() - t0)
-
-            # Run the full pipeline (retrieve → fuse → rerank) per nikaya in
-            # parallel, then interleave results so each nikaya contributes.
-            # Without this, the cross-encoder reranker scores a large nikaya
-            # (e.g. SN) above a small one (e.g. DHP) and crowds it out entirely.
-            per_nikaya_k = -(-top_k // len(nikayas))  # ceiling division
-            nikaya_results = await asyncio.gather(*[
-                self._run_pipeline(
-                    queries, per_nikaya_k, retrieval_k, [n], rerank_queries,
-                    prefetched_first=initial, precomputed_bm25=bm25_by_nikaya[n],
-                )
-                for n, initial in zip(nikayas, nikaya_initials)
-            ])
-
-            # Round-robin interleave: pick one result from each nikaya in turn
-            results: List[Dict[str, Any]] = []
-            iters = [iter(r) for r in nikaya_results]
-            active = list(iters)
-            while active and len(results) < top_k:
-                next_active = []
-                for it in active:
-                    try:
-                        results.append(next(it))
-                        next_active.append(it)
-                        if len(results) == top_k:
-                            break
-                    except StopIteration:
-                        pass
-                active = next_active
-
-            logger.info("search total: %.2fs", time.perf_counter() - t0)
-            return results
-
-        # Single-nikaya (or no filter): overlap expansion with initial retrieval
-        # so the NVIDIA API wait runs alongside the first Qdrant round-trip.
-        queries, initial_results = await asyncio.gather(
+        # Overlap expansion with initial per-bucket retrieval so the NVIDIA API
+        # wait runs alongside the first Qdrant round-trip per bucket.
+        gather_out = await asyncio.gather(
             self.expand_query(query),
-            self.retriever.retrieve(query, retrieval_k, nikayas),
+            *[self.retriever.retrieve(query, retrieval_k, [b] if b else None) for b in buckets],
         )
+        queries: List[str] = gather_out[0]
+        bucket_initials: List[List[Dict[str, Any]]] = list(gather_out[1:])
 
         logger.info("expand+initial_retrieve: %.2fs", time.perf_counter() - t0)
 
         queries = self._apply_title_boost(query, queries)
 
-        result = await self._run_pipeline(queries, top_k, retrieval_k, nikayas, rerank_queries, prefetched_first=initial_results)
+        # Run BM25 once across all nikayas, then split per bucket.
+        # Running BM25 inside each _run_pipeline would score 50k verses
+        # N_buckets × N_queries times — ~6× redundant work.
+        loop = asyncio.get_running_loop()
+        if self.bm25_retriever:
+            shared_bm25 = await loop.run_in_executor(self._executor, self._bm25_dedup, queries, retrieval_k, None)
+            bm25_by_bucket: Dict[Optional[str], Optional[List[Dict[str, Any]]]] = {
+                b: ([item for item in shared_bm25 if item.get("nikaya") == b] if b else shared_bm25)
+                for b in buckets
+            }
+        else:
+            bm25_by_bucket = {b: None for b in buckets}
+
+        logger.info("bm25(shared): %.2fs", time.perf_counter() - t0)
+
+        # Retrieve + fuse per bucket in parallel. Each bucket returns its full
+        # candidate list (up to retrieval_k) — we don't pre-trim, because the
+        # round-robin interleave below draws from the full ranked list.
+        bucket_candidates = await asyncio.gather(*[
+            self._run_pipeline(
+                queries, retrieval_k, ([b] if b else None),
+                prefetched_first=initial, precomputed_bm25=bm25_by_bucket[b],
+            )
+            for b, initial in zip(buckets, bucket_initials)
+        ])
+
+        # Union the per-bucket candidates, dedup by id keeping the first occurrence
+        # (RRF rank order means earlier = higher fusion rank).
+        seen_ids: Set[str] = set()
+        union: List[Dict[str, Any]] = []
+        for candidates in bucket_candidates:
+            for c in candidates:
+                if c["id"] not in seen_ids:
+                    seen_ids.add(c["id"])
+                    union.append(c)
+
+        # One batched rerank over the union. The cross-encoder scores each
+        # (query, chunk) pair independently, so per-chunk scores are identical
+        # to what per-bucket rerank would have produced — we just pay the
+        # model-load cost once instead of N times.
+        t_rerank = time.perf_counter()
+        scored = await loop.run_in_executor(
+            self._executor,
+            lambda: self.reranker.rerank_multi(rerank_queries, union),
+        )
+        logger.info("rerank: %.2fs", time.perf_counter() - t_rerank)
+
+        # Partition the scored list back per bucket. The retriever doesn't
+        # surface the nikaya field, so derive it from the chunk id prefix.
+        def _bucket_of(chunk: Dict[str, Any]) -> Optional[str]:
+            if len(buckets) == 1:
+                return buckets[0]
+            chunk_id = chunk.get("id", "")
+            prefix = chunk_id.split(":", 1)[0].split()[0] if chunk_id else ""
+            return prefix if prefix in buckets else None
+
+        scored_by_bucket: Dict[Optional[str], List[Dict[str, Any]]] = {b: [] for b in buckets}
+        for chunk in scored:
+            scored_by_bucket[_bucket_of(chunk)].append(chunk)
+
+        # Round-robin interleave: pick one result from each bucket in turn.
+        # Identity for N=1 (one bucket, take the top top_k).
+        results: List[Dict[str, Any]] = []
+        iters = [iter(r) for r in scored_by_bucket.values()]
+        active = list(iters)
+        while active and len(results) < top_k:
+            next_active = []
+            for it in active:
+                try:
+                    results.append(next(it))
+                    next_active.append(it)
+                    if len(results) == top_k:
+                        break
+                except StopIteration:
+                    pass
+            active = next_active
+
         logger.info("search total: %.2fs", time.perf_counter() - t0)
-        return result
+        return results
 
     def get_related_suttas(self, results: List[Dict[str, Any]], top_n: int = 5) -> List[str]:
         """
