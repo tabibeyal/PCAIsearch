@@ -92,9 +92,9 @@ BENCHMARK_CASES = [
     ),
     (
         "how does ignorance cause suffering step by step",
-        ["SN 12.1", "SN 12.2"],
+        ["SN 12."],
         "medium",
-        "SN 12.1 / SN 12.2 — dependent origination chain from ignorance to suffering",
+        "SN 12.* — any Nidāna-saṃyutta sutta covers the dependent origination chain",
     ),
     (
         "how do you know whether a religious teaching is worth following",
@@ -153,7 +153,10 @@ def _sutta_of(chunk_id: str) -> str:
 
 
 async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25: bool = False, no_rerank: bool = False, log_variants: bool = False) -> list[dict]:
-    client = AsyncQdrantClient(url="http://localhost:6333")
+    client = AsyncQdrantClient(
+        url=os.environ.get("QDRANT_URL", "http://localhost:6333"),
+        api_key=os.environ.get("QDRANT_API_KEY"),
+    )
     executor = ThreadPoolExecutor(max_workers=2)
 
     if with_expansion:
