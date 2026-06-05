@@ -1,14 +1,14 @@
 import { NextRequest } from 'next/server';
 
-export const dynamic = 'force-dynamic';
+import { BACKEND_URL } from '@/lib/backend';
 
-const BACKEND = process.env.API_URL ?? 'http://localhost:8000';
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   const params = request.nextUrl.searchParams.toString();
   let upstream: Response;
   try {
-    upstream = await fetch(`${BACKEND}/search?${params}`);
+    upstream = await fetch(`${BACKEND_URL}/search?${params}`);
   } catch (e) {
     console.error('Backend unreachable:', e);
     return new Response('Service temporarily unavailable', { status: 502 });
