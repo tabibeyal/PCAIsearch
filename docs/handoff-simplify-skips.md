@@ -8,7 +8,14 @@ trade-offs that need a focused session to do right.
 - ~~**Item 1: Unify `search()` paths~~ — **DONE.** Commit `435d674` on
   `main-branch` / `master` (PRs #14 and #15). recall@10 = 15/15 (100%);
   204/204 backend tests pass.
-- Item 2: Flatten `SearchResultsLoader` state machine — open.
+- ~~**Item 2: Flatten `SearchResultsLoader` state machine~~ — **DONE.**
+  Replaced `phase` + `resultsReady` + `showResults` + `resultsRef` (4 state
+  slots, 5 effects) with a `useReducer` state machine (`loading` / `ready` /
+  `shown`) and 3 effects. Results live in the reducer; the fetch effect
+  dispatches `{ type: 'results', data }` directly. The phase-timer effect
+  short-circuits on any non-loading state via a derived `tickKey`. The
+  localStorage timing model is preserved (separate decision, as the doc
+  noted). `npm run build` clean; lint went 9 → 6 issues.
 - Item 3: Replace SupportBanner ↔ deep-dive coupling with React context — open.
 - Item 4: Fix the landing-page hydration at the source — open.
 
@@ -35,9 +42,9 @@ harness for future before/after measurement.
 
 ---
 
-## 2. Flatten the `SearchResultsLoader` state machine
+## 2. ~~Flatten the `SearchResultsLoader` state machine~~ DONE
 
-**File:** `frontend/components/search/SearchResultsLoader.tsx` — lines 92–164
+**File:** `frontend/components/search/SearchResultsLoader.tsx`
 
 **What's wrong.**  
 The component carries three boolean/enum pieces of state (`phase`, `resultsReady`,

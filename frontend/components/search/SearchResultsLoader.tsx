@@ -88,26 +88,44 @@ function ErrorState({ isRateLimit, onRetry }: { isRateLimit: boolean; onRetry: (
   );
 }
 
+// Single state machine replaces phase + resultsReady + showResults + resultsRef.
+// 'ready' holds the data while STEP3_FLOOR_MS elapses; 'shown' triggers the
+// view swap. The phase timer short-circuits on any non-loading state.
+type State =
+  | { kind: 'loading'; phase: 0 | 1 | 2 }
+  | { kind: 'ready'; results: SearchResult[] }
+  | { kind: 'shown'; results: SearchResult[] };
+
+type Action =
+  | { type: 'reset' }
+  | { type: 'tick'; to: 0 | 1 | 2 }
+  | { type: 'results'; data: SearchResult[] }
+  | { type: 'shown' };
+
+function reducer(state: State, action: Action): State {
+  switch (action.type) {
+    case 'reset':
+      return { kind: 'loading', phase: 0 };
+    case 'results':
+      return { kind: 'ready', results: action.data };
+    case 'shown':
+      return state.kind === 'ready' ? { kind: 'shown', results: state.results } : state;
+    case 'tick':
+      if (state.kind !== 'loading') return state;
+      return { kind: 'loading', phase: action.to };
+  }
+}
+
 export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas: string[] }) {
-  const [phase, setPhase] = React.useState<0 | 1 | 2>(0);
-  const [resultsReady, setResultsReady] = React.useState(false);
-  const [showResults, setShowResults] = React.useState(false);
+  const [state, dispatch] = React.useReducer(reducer, { kind: 'loading', phase: 0 });
   const [error, setError] = React.useState<{ status?: number } | null>(null);
   const [retryCount, setRetryCount] = React.useState(0);
-  const resultsRef = React.useRef<SearchResult[] | null>(null);
   const [stepMs] = React.useState(stepDurationMs);
 
-  // Reset on new search
+  // Fetch (and reset on new query/retry)
   React.useEffect(() => {
-    setPhase(0);
-    setResultsReady(false);
-    setShowResults(false);
+    dispatch({ type: 'reset' });
     setError(null);
-    resultsRef.current = null;
-  }, [query, nikayas.join(','), retryCount]);
-
-  // Fetch
-  React.useEffect(() => {
     let cancelled = false;
     const controller = new AbortController();
     const startMs = Date.now();
@@ -120,8 +138,7 @@ export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas
           const data = await searchVerses(query, 20, nikayas.length ? nikayas : undefined, controller.signal);
           if (!cancelled) {
             updateAvgMs(Date.now() - startMs);
-            resultsRef.current = data.results;
-            setResultsReady(true);
+            dispatch({ type: 'results', data: data.results });
           }
         } catch (e: any) {
           if (!cancelled && e.name !== 'AbortError') setError(e);
@@ -132,33 +149,22 @@ export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas
     return () => { cancelled = true; clearTimeout(timerId); controller.abort(); };
   }, [query, nikayas.join(','), retryCount]);
 
-  // Advance phase 0→1→2 on timers; phase 2 has no timer (waits for results)
+  // Advance loading phase 0→1→2 on timers; phase 2 has no timer (waits for results)
+  const tickKey: number = state.kind === 'loading' ? state.phase : -1;
   React.useEffect(() => {
-    if (showResults) return;
-    if (phase === 0) {
-      const t = setTimeout(() => setPhase(1), stepMs);
-      return () => clearTimeout(t);
-    }
-    if (phase === 1) {
-      const t = setTimeout(() => setPhase(2), stepMs);
-      return () => clearTimeout(t);
-    }
-  }, [phase, showResults, stepMs]);
-
-  // If results arrive before phase 2, skip straight to phase 2
-  React.useEffect(() => {
-    if (!resultsReady || showResults) return;
-    setPhase(p => (p < 2 ? 2 : p));
-  }, [resultsReady, showResults]);
-
-  // Once on phase 2 and results are ready, hold for STEP3_FLOOR_MS then reveal
-  React.useEffect(() => {
-    if (phase !== 2 || !resultsReady || showResults) return;
-    const t = setTimeout(() => setShowResults(true), STEP3_FLOOR_MS);
+    if (tickKey === -1 || tickKey === 2) return;
+    const t = setTimeout(() => dispatch({ type: 'tick', to: (tickKey + 1) as 0 | 1 | 2 }), stepMs);
     return () => clearTimeout(t);
-  }, [phase, resultsReady, showResults]);
+  }, [tickKey, stepMs]);
+
+  // Once results are in, hold for STEP3_FLOOR_MS then reveal
+  React.useEffect(() => {
+    if (state.kind !== 'ready') return;
+    const t = setTimeout(() => dispatch({ type: 'shown' }), STEP3_FLOOR_MS);
+    return () => clearTimeout(t);
+  }, [state.kind]);
 
   if (error) return <ErrorState isRateLimit={error.status === 429} onRetry={() => setRetryCount(c => c + 1)} />;
-  if (showResults) return <SearchResultsView results={resultsRef.current!} query={query} />;
-  return <LoadingState phase={phase} />;
+  if (state.kind === 'shown') return <SearchResultsView results={state.results} query={query} />;
+  return <LoadingState phase={state.kind === 'loading' ? state.phase : 2} />;
 }
