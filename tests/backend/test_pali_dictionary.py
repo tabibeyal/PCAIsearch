@@ -90,7 +90,7 @@ def test_lookup_english_lying_precept():
 def test_lookup_english_dependent_origination():
     result = lookup_english("how does ignorance cause suffering step by step")
     assert result is not None
-    assert "with ignorance as condition" in result
+    assert "ignorance is a requirement for choices" in result
 
 
 def test_lookup_english_no_hint_returns_none():

@@ -30,7 +30,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "aging and death", "aging-and-death", "jaramarana", "jarāmaraṇa",
         ],
         pali="paṭicca-samuppāda avijjā saṅkhārā viññāṇa nāmarūpa salāyatana phassa vedanā taṇhā upādāna bhava jāti jarāmaraṇa",
-        english_hint="with ignorance as condition fabrications arise with fabrications consciousness name-and-form six sense media contact feeling craving clinging becoming birth aging-and-death",
+        english_hint="ignorance is a requirement for choices choices are a requirement for consciousness name and form six sense fields contact feeling craving grasping continued existence rebirth old age and death suffering originates dependent origination ceases",
     ),
     DictionaryEntry(
         label="Kālāma Sutta / epistemology",
@@ -80,7 +80,7 @@ _ENTRIES: List[DictionaryEntry] = [
             "right concentration", "samma-samadhi", "sammā-samādhi",
         ],
         pali="ariyo aṭṭhaṅgiko maggo sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi",
-        english_hint="right view right resolve right speech right action right livelihood right effort right mindfulness right concentration noble eightfold path",
+        english_hint="right view right purpose right speech right action right livelihood right effort right mindfulness right immersion noble eightfold path",
     ),
     DictionaryEntry(
         label="Five Aggregates",
