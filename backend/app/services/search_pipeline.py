@@ -443,6 +443,30 @@ class SearchPipeline:
             variants.append(english_hit)
         return variants
 
+    def _bm25_dedup(self, queries: List[str], retrieval_k: int, nikayas: Optional[List[str]]) -> List[Dict[str, Any]]:
+        """Run BM25 for each query, keep the highest-scoring copy of each verse, sort by score."""
+        seen: Dict[str, Dict[str, Any]] = {}
+        for q in queries:
+            for item in self.bm25_retriever.retrieve(q, retrieval_k, nikayas):
+                item_id = item["id"]
+                if item_id not in seen or item["bm25_score"] > seen[item_id]["bm25_score"]:
+                    seen[item_id] = item
+        return sorted(seen.values(), key=lambda x: x["bm25_score"], reverse=True)
+
+    def _apply_title_boost(self, query: str, queries: List[str]) -> List[str]:
+        """If a canonical sutta title matches the query, append its title text as an
+        extra retrieval query so the reranker sees that sutta's verses."""
+        if not self.title_index:
+            return queries
+        title_hits = self.title_index.search(query, top_n=1)
+        if not title_hits:
+            return queries
+        top_sutta_id, _ = title_hits[0]
+        title_text = self.title_index.get_title_text(top_sutta_id)
+        if title_text and title_text not in queries:
+            return list(queries) + [title_text]
+        return queries
+
     async def _run_pipeline(
         self,
         queries: List[str],
@@ -475,16 +499,7 @@ class SearchPipeline:
             # Shared BM25 results pre-filtered by nikaya — skip recomputing.
             all_results = rrf_fuse(dense_fused, precomputed_bm25)
         elif self.bm25_retriever:
-            def _bm25_all():
-                seen_bm25: dict = {}
-                for q in queries:
-                    for item in self.bm25_retriever.retrieve(q, retrieval_k, nikayas):
-                        item_id = item["id"]
-                        if item_id not in seen_bm25 or item["bm25_score"] > seen_bm25[item_id]["bm25_score"]:
-                            seen_bm25[item_id] = item
-                return sorted(seen_bm25.values(), key=lambda x: x["bm25_score"], reverse=True)
-
-            bm25_results = await loop.run_in_executor(self._executor, _bm25_all)
+            bm25_results = await loop.run_in_executor(self._executor, self._bm25_dedup, queries, retrieval_k, nikayas)
             all_results = rrf_fuse(dense_fused, bm25_results)
         else:
             all_results = dense_fused
@@ -526,31 +541,14 @@ class SearchPipeline:
 
             logger.info("expand+initial_retrieve(multi): %.2fs", time.perf_counter() - t0)
 
-            # Title boost: if a canonical sutta title matches the query, add its
-            # title text as an extra retrieval query so the reranker sees its verses.
-            if self.title_index:
-                title_hits = self.title_index.search(query, top_n=1)
-                if title_hits:
-                    top_sutta_id, _ = title_hits[0]
-                    title_text = self.title_index.get_title_text(top_sutta_id)
-                    if title_text and title_text not in queries:
-                        queries = list(queries) + [title_text]
+            queries = self._apply_title_boost(query, queries)
 
             # Run BM25 once across all nikayas, then split per-nikaya.
             # Running BM25 inside each _run_pipeline would score 50k verses
             # N_nikayas × N_queries times — ~6× redundant work.
             loop = asyncio.get_running_loop()
             if self.bm25_retriever:
-                def _bm25_shared():
-                    seen: dict = {}
-                    for q in queries:
-                        for item in self.bm25_retriever.retrieve(q, retrieval_k, None):
-                            item_id = item["id"]
-                            if item_id not in seen or item["bm25_score"] > seen[item_id]["bm25_score"]:
-                                seen[item_id] = item
-                    return sorted(seen.values(), key=lambda x: x["bm25_score"], reverse=True)
-
-                shared_bm25 = await loop.run_in_executor(self._executor, _bm25_shared)
+                shared_bm25 = await loop.run_in_executor(self._executor, self._bm25_dedup, queries, retrieval_k, None)
                 bm25_by_nikaya = {
                     n: [item for item in shared_bm25 if item.get("nikaya") == n]
                     for n in nikayas
@@ -601,15 +599,7 @@ class SearchPipeline:
 
         logger.info("expand+initial_retrieve: %.2fs", time.perf_counter() - t0)
 
-        # Title boost: if a canonical sutta title matches the query, add its
-        # title text as an extra retrieval query so the reranker sees its verses.
-        if self.title_index:
-            title_hits = self.title_index.search(query, top_n=1)
-            if title_hits:
-                top_sutta_id, _ = title_hits[0]
-                title_text = self.title_index.get_title_text(top_sutta_id)
-                if title_text and title_text not in queries:
-                    queries = list(queries) + [title_text]
+        queries = self._apply_title_boost(query, queries)
 
         result = await self._run_pipeline(queries, top_k, retrieval_k, nikayas, rerank_queries, prefetched_first=initial_results)
         logger.info("search total: %.2fs", time.perf_counter() - t0)
