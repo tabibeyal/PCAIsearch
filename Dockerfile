@@ -9,6 +9,7 @@ RUN pip install --no-cache-dir \
     fastapi==0.136.1 \
     uvicorn==0.46.0 \
     openai==2.33.0 \
+    httpx==0.28.1 \
     qdrant-client==1.17.1 \
     sentence-transformers==5.4.1 \
     fastembed==0.8.0 \
