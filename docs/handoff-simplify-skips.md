@@ -30,7 +30,7 @@ trade-offs that need a focused session to do right.
   and the sentinel is the single source of truth for "anchor point."
   `npm run build` clean; `npm run lint` 9 → 8 files (one new-error removed,
   no new errors added).
-- Item 4: Fix the landing-page hydration at the source — open.
+- ~~**Item 4: Fix the landing-page hydration at the source**~~ — **DONE.** `SearchBar` now gates animation state behind a `mounted` flag (server and first client render are identical — no animText, no cursor). `SearchBarClient.tsx` deleted; `page.tsx` renders `<SearchBar>` directly. `suppressHydrationWarning` removed from `<textarea>`, `<html>`, and `<body>`. Landing page builds as `○ (Static)` — fully server-rendered. `npm run build` clean.
 
 ---
 
