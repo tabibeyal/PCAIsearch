@@ -15,6 +15,7 @@ export function NikayaFilter({ encodedQuery, view, selected }: NikayaFilterProps
   const router = useRouter();
   const isAll = selected.length === 0;
   const [modKey, setModKey] = React.useState('⌘/Ctrl');
+  const [pending, setPending] = React.useState<string | null>(null);
 
   React.useEffect(() => {
     const t = setTimeout(() => setModKey(/Mac|iPhone|iPad|iPod/.test(navigator.platform) ? '⌘' : 'Ctrl'), 0);
@@ -28,6 +29,7 @@ export function NikayaFilter({ encodedQuery, view, selected }: NikayaFilterProps
   }
 
   function handlePillClick(nikaya: string, e: React.MouseEvent) {
+    setPending(nikaya);
     const addMode = e.metaKey || e.ctrlKey;
     if (addMode) {
       // Cmd/Ctrl+click: toggle this nikaya in/out of the selection
@@ -46,11 +48,13 @@ export function NikayaFilter({ encodedQuery, view, selected }: NikayaFilterProps
     }
   }
 
-  const pillClass = (active: boolean) =>
-    `px-3 py-1 rounded-full text-xs font-medium transition-colors cursor-pointer border ${
-      active
-        ? 'bg-[#ede8df] text-[#6b4e35] border-[#e8e4dc]'
-        : 'border-[#e8e4dc] text-[#9c8c7a] hover:bg-[#ede8df]'
+  const pillClass = (active: boolean, key: string) =>
+    `px-3 py-1 rounded-full text-xs font-medium transition-all cursor-pointer border active:scale-95 ${
+      pending === key
+        ? 'bg-[#d4c9b8] text-[#4a3728] border-[#c8bca8]'
+        : active
+          ? 'bg-[#ede8df] text-[#6b4e35] border-[#e8e4dc]'
+          : 'border-[#e8e4dc] text-[#9c8c7a] hover:bg-[#ede8df]'
     }`;
 
   return (
@@ -61,11 +65,11 @@ export function NikayaFilter({ encodedQuery, view, selected }: NikayaFilterProps
       >
         Nikāya:
       </span>
-      <button className={pillClass(isAll)} onClick={() => navigate([])}>
+      <button className={pillClass(isAll, 'All')} onClick={() => { setPending('All'); navigate([]); }}>
         All
       </button>
       {ALL_NIKAYAS.map(n => (
-        <button key={n} className={pillClass(selected.includes(n))} onClick={e => handlePillClick(n, e)}>
+        <button key={n} className={pillClass(selected.includes(n), n)} onClick={e => handlePillClick(n, e)}>
           {n}
         </button>
       ))}
