@@ -22,6 +22,7 @@ export function SearchBar() {
   const [animText, setAnimText] = useState('');
   const [cursorOn, setCursorOn] = useState(true);
   const [mounted, setMounted] = useState(false);
+  const [focused, setFocused] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => { setMounted(true); }, []);
@@ -32,8 +33,10 @@ export function SearchBar() {
     return () => clearInterval(id);
   }, []);
 
-  // typing animation
+  // typing animation — pauses while the box is focused
   useEffect(() => {
+    if (focused) return;
+
     let cancelled = false;
 
     const delay = (ms: number) =>
@@ -66,7 +69,7 @@ export function SearchBar() {
 
     run();
     return () => { cancelled = true; };
-  }, []);
+  }, [focused]);
 
   function autoResize(el: HTMLTextAreaElement) {
     el.style.height = 'auto';
@@ -86,17 +89,15 @@ export function SearchBar() {
     window.location.href = `/search/${encodeURIComponent(q)}`;
   }
 
-  const showAnim = query === '';
+  const showAnim = query === '' && !focused;
   const [animMounted, setAnimMounted] = useState(true);
 
   useEffect(() => {
-    let t: ReturnType<typeof setTimeout>;
     if (!showAnim) {
-      t = setTimeout(() => setAnimMounted(false), 200);
-    } else {
-      t = setTimeout(() => setAnimMounted(true), 0);
+      const t = setTimeout(() => setAnimMounted(false), 200);
+      return () => clearTimeout(t);
     }
-    return () => clearTimeout(t);
+    setAnimMounted(true);
   }, [showAnim]);
 
   return (
@@ -127,9 +128,11 @@ export function SearchBar() {
         value={query}
         onChange={(e) => { setQuery(e.target.value); autoResize(e.target); }}
         onKeyDown={handleKeyDown}
+        onFocus={() => { setFocused(true); setAnimText(''); }}
+        onBlur={() => setFocused(false)}
         placeholder=""
         className="w-full bg-transparent resize-none outline-none text-[#2c1f14] text-base leading-relaxed max-h-64 overflow-y-auto relative z-10"
-        style={{ minHeight: '28px', caretColor: query === '' ? 'transparent' : '#b5a494' }}
+        style={{ minHeight: '28px', caretColor: focused || query !== '' ? '#b5a494' : 'transparent' }}
       />
 
       <button
