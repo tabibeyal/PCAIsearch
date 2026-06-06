@@ -35,9 +35,9 @@ async function SearchPage({
           <nav className="bg-[#faf9f7] border-b border-[#e8e4dc] sticky top-0 z-10">
             {/* Row 1: brand + search */}
             <div className="flex items-center gap-3 px-3 sm:px-4 pt-3 pb-2">
-              <a href="/" className="text-sm text-[#9c8c7a] hover:text-[#6b4e35] whitespace-nowrap transition-colors">
+              <Link href="/" className="text-sm text-[#9c8c7a] hover:text-[#6b4e35] whitespace-nowrap transition-colors">
                 Home
-              </a>
+              </Link>
               <NavSearchBox initialQuery={query} />
             </div>
             {/* Row 2: tabs + filter */}

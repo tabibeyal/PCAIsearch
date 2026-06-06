@@ -47,7 +47,7 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
     setTimeout(() => {
       document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }, 50);
-  }, [showSources]);
+  }, [showSources, activeRef]);
 
   return (
     <div className={`relative flex h-full w-full overflow-hidden bg-gray-200 ${deepDive ? 'flex-col md:flex-row' : ''}`}>

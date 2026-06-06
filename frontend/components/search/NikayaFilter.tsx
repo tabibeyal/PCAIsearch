@@ -17,7 +17,8 @@ export function NikayaFilter({ encodedQuery, view, selected }: NikayaFilterProps
   const [modKey, setModKey] = React.useState('⌘/Ctrl');
 
   React.useEffect(() => {
-    setModKey(/Mac|iPhone|iPad|iPod/.test(navigator.platform) ? '⌘' : 'Ctrl');
+    const t = setTimeout(() => setModKey(/Mac|iPhone|iPad|iPod/.test(navigator.platform) ? '⌘' : 'Ctrl'), 0);
+    return () => clearTimeout(t);
   }, []);
 
   function navigate(next: string[]) {

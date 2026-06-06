@@ -91,7 +91,7 @@ export function SearchBar() {
     if (!showAnim) {
       t = setTimeout(() => setAnimMounted(false), 200);
     } else {
-      setAnimMounted(true);
+      t = setTimeout(() => setAnimMounted(true), 0);
     }
     return () => clearTimeout(t);
   }, [showAnim]);

@@ -7,7 +7,7 @@ interface SearchResultsViewProps {
   query: string;
 }
 
-export function SearchResultsView({ results, query }: SearchResultsViewProps) {
+export function SearchResultsView({ results }: SearchResultsViewProps) {
   return (
     <div className="max-w-3xl mx-auto px-4 py-6 space-y-4" style={{ animation: 'fadeIn 300ms ease' }}>
       {results.length === 0 ? (
