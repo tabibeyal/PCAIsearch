@@ -46,7 +46,7 @@ tests/             pytest suites (backend)
 
 ## Deployment
 
-The live app runs on **DigitalOcean App Platform** (`pcaisearch-jol64.ondigitalocean.app`), auto-deploying from the `master` branch on push. Vectors are stored in **Qdrant Cloud** (free tier). LLM calls go to the **NVIDIA API** (free tier). The `LLM_MODEL` env var is set in the App Platform dashboard.
+The live app runs on **DigitalOcean App Platform** (`pcaisearch-jol64.ondigitalocean.app`), auto-deploying from the `master` branch on push. Vectors are stored in **Qdrant Cloud** (free tier). LLM calls go to the **NVIDIA API** (free tier). User feedback is stored durably in **Supabase** (free tier) — survives redeploys. The `LLM_MODEL`, `SUPABASE_URL`, and `SUPABASE_KEY` env vars are set in the App Platform dashboard.
 
 ## Prerequisites
 
@@ -118,7 +118,7 @@ Open [http://localhost:3000](http://localhost:3000).
 | `GET /search?q=…&top_k=10&nikayas=MN&nikayas=SN` | Semantic search; returns ranked verses + `related_suttas`. `nikayas` is optional, repeatable. |
 | `GET /synthesize?q=…&top_k=10` | AI answer with citations, `hallucinations`, `canonical_misses`, and `is_faithful` flag |
 | `GET /stream?q=…&top_k=10&nikayas=DN` | Streaming synthesis (SSE); same `nikayas` filter supported |
-| `POST /feedback` | Submit thumbs-up/down feedback on a synthesis answer, with optional category and notes |
+| `POST /feedback` | Submit thumbs-up/down feedback on a synthesis answer, with optional category and notes; stored in Supabase (production) or local SQLite (dev) |
 
 Rate limits: 30 req/min for search, 10 req/min for synthesis.
 
