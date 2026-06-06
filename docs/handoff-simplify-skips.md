@@ -16,7 +16,20 @@ trade-offs that need a focused session to do right.
   short-circuits on any non-loading state via a derived `tickKey`. The
   localStorage timing model is preserved (separate decision, as the doc
   noted). `npm run build` clean; lint went 9 → 6 issues.
-- Item 3: Replace SupportBanner ↔ deep-dive coupling with React context — open.
+- ~~**Item 3: Replace SupportBanner ↔ deep-dive coupling with React context~~ — **DONE.**
+  Replaced `SupportBanner` ↔ `DualPaneContainer` coupling with a small
+  `SupportBannerContext` provided via a client boundary wrapper at the
+  search page. `DualPaneContainer` mirrors its `deepDive` state into the
+  context with a `useEffect`; `SupportBanner` reads `deepDiveOpen` from the
+  hook and derives `showBanner = visible && !deepDiveOpen` (no imperative
+  `setVisible(false)` cascade). The 144px sentinel is sourced from
+  `lib/banner.ts` (`SUPPORT_BANNER_SENTINEL_HEIGHT = 'h-36'` +
+  `SUPPORT_BANNER_SENTINEL_HEIGHT_PX = 144`); `SynthesisView` imports the
+  Tailwind class so drift is a compile error. `data-support-trigger` and
+  the IntersectionObserver/MutationObserver plumbing stay — they are stable
+  and the sentinel is the single source of truth for "anchor point."
+  `npm run build` clean; `npm run lint` 9 → 8 files (one new-error removed,
+  no new errors added).
 - Item 4: Fix the landing-page hydration at the source — open.
 
 ---
@@ -78,7 +91,7 @@ Deserves an intentional session, not a side-effect of a simplify run.
 
 ---
 
-## 3. Replace the SupportBanner ↔ deep-dive coupling with React context
+## 3. ~~Replace the SupportBanner ↔ deep-dive coupling with React context~~ DONE
 
 **Files:**
 - `frontend/components/SupportBanner.tsx` — lines 7–17 (event listener)
@@ -110,6 +123,29 @@ compile error rather than a visual glitch.
 Functional and isolated today. The coupling is fragile but not actively broken.
 Fixing it correctly means lifting state to a context at `page.tsx` — a small but
 deliberate design change.
+
+**Resolution.**  
+New files: `frontend/lib/banner.ts` (`SUPPORT_BANNER_SENTINEL_HEIGHT = 'h-36'`,
+`SUPPORT_BANNER_SENTINEL_HEIGHT_PX = 144`); `frontend/components/SupportBannerContext.tsx`
+(`SupportBannerProvider` + `useSupportBanner` hook); `frontend/components/SupportBannerProviderBoundary.tsx`
+(thin `'use client'` wrapper so the async server `page.tsx` keeps awaiting `params`).
+
+`page.tsx` wraps its existing flex column in the boundary. `DualPaneContainer`
+mirrors `deepDive` into the context via a `useEffect([deepDive])`; the `window`
+`CustomEvent('deepDiveChanged', ...)` dispatch and its `useEffect` are gone.
+`SupportBanner` reads `deepDiveOpen` from the hook, short-circuits the
+IntersectionObserver on it, and derives `showBanner = visible && !deepDiveOpen`
+(removing the original `setVisible(false)` cascade, which the new
+`react-hooks/set-state-in-effect` lint rule would now flag). `SynthesisView`
+imports the Tailwind class so the `h-36` ↔ 144px drift becomes a compile error
+if either side changes.
+
+Behaviour preserved: banner slide-in on mobile when sentinel scrolls into view,
+immediate hide on deep-dive open, desktop static visibility. `data-support-trigger`
++ IntersectionObserver/MutationObserver plumbing retained — the sentinel is the
+single source of truth for "anchor point," and the DOM query is a stable, scoped
+coupling. `npm run build` clean; `npm run lint` 9 → 8 files (the one new error
+was the `setState`-in-effect now eliminated by the derivation).
 
 ---
 

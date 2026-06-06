@@ -5,6 +5,7 @@ import { SearchResultsLoader } from '@/components/search/SearchResultsLoader';
 import { NikayaFilter } from '@/components/search/NikayaFilter';
 import { NavSearchBox } from '@/components/search/NavSearchBox';
 import { SupportBanner } from '@/components/SupportBanner';
+import { SupportBannerProviderBoundary } from '@/components/SupportBannerProviderBoundary';
 
 async function SearchPage({
   params,
@@ -29,42 +30,44 @@ async function SearchPage({
 
   return (
     <main className="h-full w-full">
-      <div className="flex flex-col h-full">
-        <nav className="bg-[#faf9f7] border-b border-[#e8e4dc] sticky top-0 z-10">
-          {/* Row 1: brand + search */}
-          <div className="flex items-center gap-3 px-3 sm:px-4 pt-3 pb-2">
-            <a href="/" className="text-sm text-[#9c8c7a] hover:text-[#6b4e35] whitespace-nowrap transition-colors">
-              Home
-            </a>
-            <NavSearchBox initialQuery={query} />
+      <SupportBannerProviderBoundary>
+        <div className="flex flex-col h-full">
+          <nav className="bg-[#faf9f7] border-b border-[#e8e4dc] sticky top-0 z-10">
+            {/* Row 1: brand + search */}
+            <div className="flex items-center gap-3 px-3 sm:px-4 pt-3 pb-2">
+              <a href="/" className="text-sm text-[#9c8c7a] hover:text-[#6b4e35] whitespace-nowrap transition-colors">
+                Home
+              </a>
+              <NavSearchBox initialQuery={query} />
+            </div>
+            {/* Row 2: tabs + filter */}
+            <div className="flex items-center gap-2 px-3 sm:px-4 pb-3 flex-wrap">
+              <Link
+                href={`/search/${encodedQuery}?view=synthesis${nikayas.map(n => `&nikayas=${n}`).join('')}`}
+                className={tabClass(view === 'synthesis')}
+                scroll={false}
+              >
+                AI Answer
+              </Link>
+              <Link
+                href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`}
+                className={tabClass(view === 'results')}
+                scroll={false}
+              >
+                Passages
+              </Link>
+              <div className="hidden sm:block w-px h-5 bg-[#e8e4dc]" />
+              <NikayaFilter encodedQuery={encodedQuery} view={view} selected={nikayas} />
+            </div>
+          </nav>
+          <div className="flex-1 min-h-0 overflow-auto">
+            {view === 'synthesis'
+              ? <SynthesisLoader query={query} nikayas={nikayas} />
+              : <SearchResultsLoader query={query} nikayas={nikayas} />}
           </div>
-          {/* Row 2: tabs + filter */}
-          <div className="flex items-center gap-2 px-3 sm:px-4 pb-3 flex-wrap">
-            <Link
-              href={`/search/${encodedQuery}?view=synthesis${nikayas.map(n => `&nikayas=${n}`).join('')}`}
-              className={tabClass(view === 'synthesis')}
-              scroll={false}
-            >
-              AI Answer
-            </Link>
-            <Link
-              href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`}
-              className={tabClass(view === 'results')}
-              scroll={false}
-            >
-              Passages
-            </Link>
-            <div className="hidden sm:block w-px h-5 bg-[#e8e4dc]" />
-            <NikayaFilter encodedQuery={encodedQuery} view={view} selected={nikayas} />
-          </div>
-        </nav>
-        <div className="flex-1 min-h-0 overflow-auto">
-          {view === 'synthesis'
-            ? <SynthesisLoader query={query} nikayas={nikayas} />
-            : <SearchResultsLoader query={query} nikayas={nikayas} />}
+          <SupportBanner />
         </div>
-        <SupportBanner />
-      </div>
+      </SupportBannerProviderBoundary>
     </main>
   );
 }
