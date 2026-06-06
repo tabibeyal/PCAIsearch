@@ -21,7 +21,10 @@ export function SearchBar() {
   const [query, setQuery] = useState('');
   const [animText, setAnimText] = useState('');
   const [cursorOn, setCursorOn] = useState(true);
+  const [mounted, setMounted] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  useEffect(() => { setMounted(true); }, []);
 
   // cursor blink
   useEffect(() => {
@@ -91,7 +94,7 @@ export function SearchBar() {
     if (!showAnim) {
       t = setTimeout(() => setAnimMounted(false), 200);
     } else {
-      setAnimMounted(true);
+      t = setTimeout(() => setAnimMounted(true), 0);
     }
     return () => clearTimeout(t);
   }, [showAnim]);
@@ -100,7 +103,7 @@ export function SearchBar() {
     <div className="w-full max-w-2xl mx-auto relative rounded-2xl border border-[#e8e4dc] bg-white px-4 pt-4 pb-14 focus-within:border-[#9c8c7a] focus-within:ring-2 focus-within:ring-[#e8e4dc] transition-all shadow-sm">
 
       {/* Fix 5: animated placeholder fades out on first keystroke */}
-      {animMounted && (
+      {mounted && animMounted && (
         <div
           className="absolute top-4 left-4 right-14 text-base leading-relaxed text-[#b5a494] pointer-events-none select-none"
           aria-hidden="true"
@@ -127,7 +130,6 @@ export function SearchBar() {
         placeholder=""
         className="w-full bg-transparent resize-none outline-none text-[#2c1f14] text-base leading-relaxed max-h-64 overflow-y-auto relative z-10"
         style={{ minHeight: '28px', caretColor: query === '' ? 'transparent' : '#b5a494' }}
-        suppressHydrationWarning
       />
 
       <button

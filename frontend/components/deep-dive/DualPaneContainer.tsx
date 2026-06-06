@@ -5,6 +5,7 @@ import { SynthesisView } from './SynthesisView';
 import { SourceViewer } from './SourceViewer';
 import { DividerToggle } from './DividerToggle';
 import { SynthesisResponse } from '@/types/api';
+import { useSupportBanner } from '@/components/SupportBannerContext';
 
 interface DualPaneContainerProps {
   data: SynthesisResponse;
@@ -14,6 +15,7 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
   const [deepDive, setDeepDive] = React.useState(false);
   const [sourcesVisible, setSourcesVisible] = React.useState(true);
   const [activeRef, setActiveRef] = React.useState<string | undefined>(undefined);
+  const { setDeepDiveOpen } = useSupportBanner();
 
   const handleCitationClick = (ref: string) => {
     setActiveRef(ref);
@@ -36,8 +38,8 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
   const showSources = deepDive && sourcesVisible;
 
   React.useEffect(() => {
-    window.dispatchEvent(new CustomEvent('deepDiveChanged', { detail: { open: deepDive } }));
-  }, [deepDive]);
+    setDeepDiveOpen(deepDive);
+  }, [deepDive, setDeepDiveOpen]);
 
   React.useEffect(() => {
     if (!showSources || !activeRef) return;
@@ -45,7 +47,7 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
     setTimeout(() => {
       document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }, 50);
-  }, [showSources]);
+  }, [showSources, activeRef]);
 
   return (
     <div className={`relative flex h-full w-full overflow-hidden bg-gray-200 ${deepDive ? 'flex-col md:flex-row' : ''}`}>

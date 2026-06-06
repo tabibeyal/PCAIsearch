@@ -1,31 +1,22 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useSupportBanner } from './SupportBannerContext';
 
 export function SupportBanner() {
   const [visible, setVisible] = useState(false);
-  const deepDiveOpenRef = useRef(false);
-
-  // Hide immediately when deep-dive panel opens
-  useEffect(() => {
-    const handler = (e: Event) => {
-      const open = (e as CustomEvent<{ open: boolean }>).detail.open;
-      deepDiveOpenRef.current = open;
-      if (open) setVisible(false);
-    };
-    window.addEventListener('deepDiveChanged', handler);
-    return () => window.removeEventListener('deepDiveChanged', handler);
-  }, []);
+  const { deepDiveOpen } = useSupportBanner();
 
   // On mobile: show when the sentinel below FeedbackBar scrolls into view,
-  // hide when it scrolls back out. The sentinel is 144px below FeedbackBar
-  // so the banner never overlaps it.
+  // hide when it scrolls back out. Sentinel size comes from
+  // SUPPORT_BANNER_SENTINEL_HEIGHT_PX in lib/banner.ts — keep the rendered
+  // spacer in SynthesisView aligned with that value.
   useEffect(() => {
     if (typeof window === 'undefined' || window.innerWidth >= 768) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
-        if (deepDiveOpenRef.current) return;
+        if (deepDiveOpen) return;
         setVisible(entries.some((e) => e.isIntersecting));
       },
       { threshold: 0 }
@@ -53,7 +44,9 @@ export function SupportBanner() {
       observer.disconnect();
       mo.disconnect();
     };
-  }, []);
+  }, [deepDiveOpen]);
+
+  const showBanner = visible && !deepDiveOpen;
 
   return (
     <footer
@@ -63,7 +56,7 @@ export function SupportBanner() {
         'fixed bottom-0 left-0 right-0 z-50 transition-transform duration-300',
         // Desktop: normal flow, always visible
         'md:static md:transform-none',
-        visible ? 'translate-y-0' : 'translate-y-full',
+        showBanner ? 'translate-y-0' : 'translate-y-full',
       ].join(' ')}
       style={{ transitionTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)' }}
     >

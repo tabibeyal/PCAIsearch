@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { streamSynthesis } from '@/lib/api';
 import { DualPaneContainer } from './DualPaneContainer';
 import { SynthesisResponse } from '@/types/api';
@@ -112,7 +113,7 @@ function ErrorMessage({ isRateLimit, detail, onRetry }: { isRateLimit: boolean; 
               Try again
             </button>
           )}
-          <a href="/" className="inline-block text-[#6b4e35] underline">Return to home</a>
+          <Link href="/" className="inline-block text-[#6b4e35] underline">Return to home</Link>
         </div>
       </div>
     </div>
@@ -140,34 +141,63 @@ function writeCache(query: string, nikayas: string[] | undefined, data: Synthesi
   }
 }
 
+const INITIAL_STATUS = 'Searching the Canon…';
+
+type StreamState =
+  | { kind: 'loading'; status: string }
+  | { kind: 'streaming'; status: string; text: string }
+  | { kind: 'done'; data: SynthesisResponse }
+  | { kind: 'error'; statusCode?: number; message?: string };
+
+type StreamAction =
+  | { type: 'reset' }
+  | { type: 'status'; text: string }
+  | { type: 'chunk'; text: string }
+  | { type: 'done'; data: SynthesisResponse }
+  | { type: 'error'; statusCode?: number; message?: string };
+
+function streamReducer(state: StreamState, action: StreamAction): StreamState {
+  switch (action.type) {
+    case 'reset':
+      return { kind: 'loading', status: INITIAL_STATUS };
+    case 'status':
+      if (state.kind !== 'loading' && state.kind !== 'streaming') return state;
+      return { ...state, status: action.text };
+    case 'chunk':
+      if (state.kind === 'loading') return { kind: 'streaming', status: state.status, text: action.text };
+      if (state.kind === 'streaming') return { ...state, text: state.text + action.text };
+      return state;
+    case 'done':
+      return { kind: 'done', data: action.data };
+    case 'error':
+      return { kind: 'error', statusCode: action.statusCode, message: action.message };
+  }
+}
+
 export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: string[] }) {
-  const [streamText, setStreamText] = React.useState('');
-  const [status, setStatus] = React.useState('Searching the Canon…');
-  const [data, setData] = React.useState<SynthesisResponse | null>(null);
-  const [error, setError] = React.useState<{ status?: number; message?: string } | null>(null);
+  const [stream, dispatch] = React.useReducer(streamReducer, { kind: 'loading', status: INITIAL_STATUS });
   const [retryCount, setRetryCount] = React.useState(0);
   const [streamingFadeIn, setStreamingFadeIn] = React.useState(false);
   const streamingStarted = React.useRef(false);
+  const nikayasKey = nikayas?.join(',') ?? '';
 
-  // When the page becomes visible again after being hidden and we're in error state, auto-retry once.
+  // When in error state and page becomes visible again, auto-retry once.
   React.useEffect(() => {
-    if (!error) return;
+    if (stream.kind !== 'error') return;
     const handleVisibility = () => {
       if (!document.hidden) setRetryCount(c => c + 1);
     };
     document.addEventListener('visibilitychange', handleVisibility);
     return () => document.removeEventListener('visibilitychange', handleVisibility);
-  }, [error]);
+  }, [stream.kind]);
 
   React.useEffect(() => {
-    setStreamText('');
-    setStatus('Searching the Canon…');
-    setData(null);
-    setError(null);
+    dispatch({ type: 'reset' });
 
-    const cached = readCache(query, nikayas);
+    const nikayaList = nikayasKey ? nikayasKey.split(',') : undefined;
+    const cached = readCache(query, nikayaList);
     if (cached) {
-      setData(cached);
+      dispatch({ type: 'done', data: cached });
       return;
     }
 
@@ -179,30 +209,33 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
     const timerId = setTimeout(() => {
       (async () => {
         try {
-          for await (const event of streamSynthesis(query, nikayas, controller.signal)) {
+          for await (const event of streamSynthesis(query, nikayaList, controller.signal)) {
             if (cancelled) break;
-            if (event.type === 'status') setStatus(event.text);
-            else if (event.type === 'chunk') setStreamText(t => t + event.text);
+            if (event.type === 'status') dispatch({ type: 'status', text: event.text });
+            else if (event.type === 'chunk') dispatch({ type: 'chunk', text: event.text });
             else if (event.type === 'done') {
               const response = event as SynthesisResponse;
-              writeCache(query, nikayas, response);
-              setData(response);
+              writeCache(query, nikayaList, response);
+              dispatch({ type: 'done', data: response });
               break;
             }
             else if (event.type === 'error') throw Object.assign(new Error(event.message), { status: 500 });
           }
-        } catch (e: any) {
-          if (!cancelled && e.name !== 'AbortError') setError(e);
+        } catch (e: unknown) {
+          const err = e as { name?: string; status?: number; message?: string };
+          if (!cancelled && err.name !== 'AbortError') {
+            dispatch({ type: 'error', statusCode: err.status, message: err.message });
+          }
         }
       })();
     }, 0);
 
     return () => { cancelled = true; clearTimeout(timerId); controller.abort(); };
-  }, [query, nikayas?.join(','), retryCount]);
+  }, [query, nikayasKey, retryCount]);
 
-  const visible = streamText ? stripThinking(streamText) : '';
+  const visible = stream.kind === 'streaming' ? stripThinking(stream.text) : '';
+  const currentStatus = stream.kind === 'loading' || stream.kind === 'streaming' ? stream.status : INITIAL_STATUS;
 
-  // Fix 6: cross-fade when streaming layout first appears
   React.useEffect(() => {
     if (visible && !streamingStarted.current) {
       streamingStarted.current = true;
@@ -210,12 +243,12 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
     }
   }, [visible]);
 
-  if (data) return <DualPaneContainer data={data} />;
+  if (stream.kind === 'done') return <DualPaneContainer data={stream.data} />;
 
-  if (error) return (
+  if (stream.kind === 'error') return (
     <ErrorMessage
-      isRateLimit={error.status === 429}
-      detail={error.message}
+      isRateLimit={stream.statusCode === 429}
+      detail={stream.message}
       onRetry={() => setRetryCount(c => c + 1)}
     />
   );
@@ -228,13 +261,13 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
       >
         {/* Mobile: horizontal step bar */}
         <div className="md:hidden flex-shrink-0">
-          <StepList currentStatus={status} horizontal />
+          <StepList currentStatus={currentStatus} horizontal />
         </div>
         {/* Desktop: sidebar + text / Mobile: text only (bar is above) */}
         <div className="flex-1 flex overflow-hidden">
           {/* Desktop sidebar */}
           <div className="hidden md:flex flex-col w-32 flex-shrink-0 border-r border-[#e8e4dc] bg-[#faf9f7]">
-            <StepList currentStatus={status} />
+            <StepList currentStatus={currentStatus} />
           </div>
           {/* Streaming text */}
           <div className="flex-1 overflow-y-auto p-6">
@@ -258,7 +291,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
 
   return (
     <div className="flex items-center justify-center h-full bg-[#fef9f0]">
-      <StepList currentStatus={status} />
+      <StepList currentStatus={currentStatus} />
     </div>
   );
 }

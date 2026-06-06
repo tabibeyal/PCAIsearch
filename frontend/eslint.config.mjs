@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Internal tooling state files, not source code:
+    ".remember/**",
   ]),
 ]);
 

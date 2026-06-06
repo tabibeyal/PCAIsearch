@@ -1,6 +1,6 @@
 # Ask the Pali Canon
 
-**Live:** https://illustrious-biscotti-f60464.netlify.app
+**Live:** https://pcaisearch-jol64.ondigitalocean.app
 
 Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, Dhammapada, Itivuttaka), grounded in the original bilingual texts from SuttaCentral.
 
@@ -19,7 +19,7 @@ Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, 
 ## Architecture
 
 ```
-frontend/          Next.js 15 (App Router)
+frontend/          Next.js 16 (App Router)
 backend/           FastAPI + asyncio
   app/
     main.py        API endpoints (/search, /synthesize), rate limiting
@@ -42,7 +42,11 @@ docs/adr/          Architecture decision records
 tests/             pytest suites (backend)
 ```
 
-**Stack:** FastAPI · Qdrant (local or Qdrant Cloud) · fastembed (ONNX Runtime) · BM25 sparse retrieval · cross-encoder/ms-marco-MiniLM-L-6-v2 · Gemma 3N for query expansion · Llama 3.3 70B Instruct for synthesis (both via NVIDIA API) · Next.js · Tailwind CSS
+**Stack:** FastAPI · Qdrant Cloud · fastembed (ONNX Runtime) · BM25 sparse retrieval · cross-encoder/ms-marco-MiniLM-L-6-v2 · Gemma 3N for query expansion · Llama for synthesis (via NVIDIA API; model set via `LLM_MODEL` env var, defaults to `meta/llama-3.3-70b-instruct`) · Next.js · Tailwind CSS
+
+## Deployment
+
+The live app runs on **DigitalOcean App Platform** (`pcaisearch-jol64.ondigitalocean.app`), auto-deploying from the `master` branch on push. Vectors are stored in **Qdrant Cloud** (free tier). LLM calls go to the **NVIDIA API** (free tier). The `LLM_MODEL` env var is set in the App Platform dashboard.
 
 ## Prerequisites
 

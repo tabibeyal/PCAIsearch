@@ -1,6 +1,7 @@
 import React from 'react';
 import { SynthesisResponse } from '@/types/api';
 import { FeedbackBar } from './FeedbackBar';
+import { SUPPORT_BANNER_SENTINEL_HEIGHT } from '@/lib/banner';
 
 interface SynthesisViewProps {
   data: SynthesisResponse;
@@ -106,7 +107,7 @@ export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle
         </div>
         <FeedbackBar query={query} answer={answer} />
         {/* Sentinel: banner only shows on mobile when this clears the viewport bottom */}
-        <div className="h-36 md:h-0" aria-hidden="true" data-support-trigger />
+        <div className={`${SUPPORT_BANNER_SENTINEL_HEIGHT} md:h-0`} aria-hidden="true" data-support-trigger />
       </div>
     </div>
   );
