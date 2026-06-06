@@ -1,6 +1,6 @@
 # Ask the Pali Canon
 
-**Live:** https://pcaisearch-jol64.ondigitalocean.app
+**Live:** https://illustrious-biscotti-f60464.netlify.app
 
 Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, Dhammapada, Itivuttaka), grounded in the original bilingual texts from SuttaCentral.
 
@@ -46,7 +46,7 @@ tests/             pytest suites (backend)
 
 ## Deployment
 
-The live app runs on **DigitalOcean App Platform** (`pcaisearch-jol64.ondigitalocean.app`), auto-deploying from the `master` branch on push. Vectors are stored in **Qdrant Cloud** (free tier). LLM calls go to the **NVIDIA API** (free tier). User feedback is stored durably in **Supabase** (free tier) — survives redeploys. The `LLM_MODEL`, `SUPABASE_URL`, and `SUPABASE_KEY` env vars are set in the App Platform dashboard.
+The frontend is on **Netlify** (`illustrious-biscotti-f60464.netlify.app`). The backend runs on **DigitalOcean App Platform**, auto-deploying from the `master` branch on push. Vectors are stored in **Qdrant Cloud** (free tier). LLM calls go to the **NVIDIA API** (free tier). User feedback is stored durably in **Supabase** (free tier) — survives redeploys. The `LLM_MODEL`, `SUPABASE_URL`, and `SUPABASE_KEY` env vars are set in the App Platform dashboard.
 
 ## Prerequisites
 
