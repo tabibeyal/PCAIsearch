@@ -5,11 +5,14 @@ import { useRouter } from 'next/navigation';
 
 export function NavSearchBox({ initialQuery }: { initialQuery: string }) {
   const [q, setQ] = useState(initialQuery);
+  const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
 
   function navigate() {
     const trimmed = q.trim();
-    if (trimmed) router.push(`/search/${encodeURIComponent(trimmed)}`);
+    if (!trimmed) return;
+    setIsLoading(true);
+    router.push(`/search/${encodeURIComponent(trimmed)}`);
   }
 
   function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
@@ -28,7 +31,7 @@ export function NavSearchBox({ initialQuery }: { initialQuery: string }) {
       <button
         onClick={navigate}
         disabled={!q.trim()}
-        className="ml-2 w-7 h-7 flex items-center justify-center rounded-lg bg-[#4a3728] text-white disabled:opacity-25 hover:bg-[#6b4e35] transition-colors shrink-0"
+        className={`ml-2 w-7 h-7 flex items-center justify-center rounded-lg text-white disabled:opacity-25 transition-all active:scale-95 shrink-0 ${isLoading ? 'bg-[#9c8c7a]' : 'bg-[#4a3728] hover:bg-[#6b4e35]'}`}
         title="Submit"
       >
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">

@@ -83,9 +83,12 @@ export function SearchBar() {
     }
   }
 
+  const [isLoading, setIsLoading] = useState(false);
+
   function submit() {
     const q = query.trim();
     if (!q) return;
+    setIsLoading(true);
     window.location.href = `/search/${encodeURIComponent(q)}`;
   }
 
@@ -138,7 +141,7 @@ export function SearchBar() {
       <button
         onClick={submit}
         disabled={!query.trim()}
-        className="absolute bottom-3 right-3 w-9 h-9 flex items-center justify-center rounded-xl bg-[#4a3728] text-white disabled:opacity-25 hover:bg-[#6b4e35] transition-all"
+        className={`absolute bottom-3 right-3 w-9 h-9 flex items-center justify-center rounded-xl text-white disabled:opacity-25 transition-all active:scale-95 ${isLoading ? 'bg-[#9c8c7a]' : 'bg-[#4a3728] hover:bg-[#6b4e35]'}`}
         title="Submit"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
