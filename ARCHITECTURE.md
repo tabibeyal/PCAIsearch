@@ -45,6 +45,10 @@ User query
 - **Recall@10 recovery**: After dropping to 86% following the 2026-06-03 changes, implemented per-nikaya pipeline with round-robin interleaving to restore performance; fix committed 2026-06-04 (b21fab8); awaiting re-benchmark to confirm recovery to 93%.
 - **Guardrail citation verification**: Post-generation check to prevent hallucinated sutta numbers; ensures answers are grounded in actual passages.
 
+## Key Updates (2026-06-06)
+
+- **Feedback persistence via Supabase**: Replaced ephemeral SQLite `feedback.db` (lost on every App Platform redeploy) with Supabase Postgres. When `SUPABASE_URL` and `SUPABASE_KEY` env vars are set the backend POSTs feedback rows to Supabase's PostgREST REST API via `httpx`. Falls back to local SQLite when those vars are absent, so local dev and the test suite require no Supabase account. Row Level Security is enabled on the feedback table with no public policies — the service_role key (stored as an encrypted App Platform secret) is the only write path.
+
 ---
 
 ## Backend
@@ -71,7 +75,7 @@ Rate limits: `/search` 30/min, `/stream` and `/synthesize` 10/min, `/feedback` 2
 | `GET` | `/search` | Returns ranked verse chunks + related suttas |
 | `GET` | `/synthesize` | Returns a complete grounded answer (non-streaming) |
 | `GET` | `/stream` | Server-Sent Events stream of answer chunks + final verified payload |
-| `POST` | `/feedback` | Stores thumbs-up/down rating with optional category + comment |
+| `POST` | `/feedback` | Stores thumbs-up/down rating with optional category + comment; writes to Supabase in production, local SQLite in dev |
 
 The `/stream` endpoint emits three SSE event types: `status` (progress text), `chunk` (incremental text delta), and `done` (full verified payload including `context`, `hallucinations`, `canonical_misses`, `is_faithful`). The three status messages emitted in order are: `"Searching the Canon…"`, `"Composing answer…"`, and `"Verifying sources…"` (the last is emitted just before the guardrail runs).
 
@@ -137,7 +141,8 @@ Builds the LLM context by formatting each chunk as `[ID] Pali: ... English: ...`
 | DigitalOcean App Platform | Backend | `pcaisearch-jol64.ondigitalocean.app`; auto-deploys from `main` branch; `LLM_MODEL` env var set to `meta/llama-3.1-8b-instruct` |
 | Netlify | Frontend | `NEXT_PUBLIC_API_URL` (for non-stream endpoints), `API_URL` (for SSE proxy) |
 | Qdrant Cloud | Vector DB | Free tier; 134,102 vectors, 384-dim, cosine; `pali_canon` collection; nikaya keyword payload index |
-| NVIDIA Inference API | LLM inference | Free tier; Gemma 3n for expansion, Llama 3.1 8B for specification |
+| NVIDIA Inference API | LLM inference | Free tier; Gemma 3n for expansion, Llama 3.1 8B for synthesis |
+| Supabase | Feedback store | Free tier; stores user feedback (query, answer, rating, category, comment); RLS enabled, service_role key only; read via Supabase dashboard |
 
 Nginx buffering is disabled via `X-Accel-Buffering: no` + `Cache-Control: no-cache` headers on the `/stream` response, which is required for SSE to flow without batching.
 
