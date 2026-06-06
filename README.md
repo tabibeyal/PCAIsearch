@@ -1,6 +1,6 @@
 # Ask the Pali Canon
 
-**Live:** https://pcaisearch-jol64.ondigitalocean.app
+**Live:** https://illustrious-biscotti-f60464.netlify.app
 
 Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, Dhammapada, Itivuttaka), grounded in the original bilingual texts from SuttaCentral.
 
