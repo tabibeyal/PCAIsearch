@@ -97,8 +97,15 @@ async def _insert_feedback_supabase(
         async with httpx.AsyncClient() as client:
             resp = await client.post(f"{_SUPABASE_URL}/rest/v1/feedback", headers=headers, json=payload)
             resp.raise_for_status()
+    except httpx.HTTPStatusError as exc:
+        logger.error(
+            "Supabase feedback insert failed: %s — response body: %s",
+            exc,
+            exc.response.text,
+        )
+        raise
     except httpx.HTTPError as exc:
-        logger.error("Supabase feedback insert failed: %s", exc)
+        logger.error("Supabase feedback insert failed (network): %s", exc)
         raise
 
 

@@ -32,12 +32,12 @@ export function FeedbackBar({ query, answer }: FeedbackBarProps) {
 
   const handleThumbsUp = async () => {
     if (submitted) return;
+    setRating('up');
+    setSubmitted(true);
     try {
-        await submitFeedback({ query, answer, rating: 'up', category: null, comment: null });
-        setRating('up');
-        setSubmitted(true);
+      await submitFeedback({ query, answer, rating: 'up', category: null, comment: null });
     } catch {
-        // feedback is optional — silently ignore failures
+      // feedback is optional — ignore submission failures
     }
   };
 
@@ -48,15 +48,19 @@ export function FeedbackBar({ query, answer }: FeedbackBarProps) {
   };
 
   const handleSubmit = async () => {
-    await submitFeedback({
-      query,
-      answer,
-      rating: 'down',
-      category: selectedCategory,
-      comment: comment || null,
-    });
     setSubmitted(true);
     setPanelOpen(false);
+    try {
+      await submitFeedback({
+        query,
+        answer,
+        rating: 'down',
+        category: selectedCategory,
+        comment: comment || null,
+      });
+    } catch {
+      // feedback is optional — ignore submission failures
+    }
   };
 
   return (
