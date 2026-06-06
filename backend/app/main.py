@@ -8,6 +8,8 @@ from contextlib import asynccontextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Literal, Optional
+
+import httpx
 from pydantic import BaseModel, Field
 from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -31,6 +33,8 @@ logger = logging.getLogger(__name__)
 _VALID_NIKAYAS = {"DN", "MN", "SN", "AN", "DHP", "ITI"}
 _DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
 _FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
+_SUPABASE_URL = os.environ.get("SUPABASE_URL")
+_SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
 
 
 class FeedbackBody(BaseModel):
@@ -78,9 +82,30 @@ def _insert_feedback(query: str, answer: str, rating: str, category: Optional[st
         con.close()
 
 
+async def _insert_feedback_supabase(
+    query: str, answer: str, rating: str, category: Optional[str], comment: Optional[str]
+) -> None:
+    # NOTE: created_at is filled by the DB default (now()), so it is omitted here.
+    headers = {
+        "apikey": _SUPABASE_KEY,
+        "Authorization": f"Bearer {_SUPABASE_KEY}",
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal",
+    }
+    payload = {"query": query, "answer": answer, "rating": rating, "category": category, "comment": comment}
+    try:
+        async with httpx.AsyncClient() as client:
+            resp = await client.post(f"{_SUPABASE_URL}/rest/v1/feedback", headers=headers, json=payload)
+            resp.raise_for_status()
+    except httpx.HTTPError as exc:
+        logger.error("Supabase feedback insert failed: %s", exc)
+        raise
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    _init_feedback_db()
+    if not (_SUPABASE_URL and _SUPABASE_KEY):
+        _init_feedback_db()
     oracle = CitationOracle(_DUMPS_DIR)
     relations = SuttaRelations(oracle.known_suttas)
     title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
@@ -127,8 +152,11 @@ async def health():
 @app.post("/feedback")
 @limiter.limit("20/minute")
 async def post_feedback(request: Request, body: FeedbackBody):
-    loop = asyncio.get_event_loop()
-    await loop.run_in_executor(None, _insert_feedback, body.query, body.answer, body.rating, body.category, body.comment)
+    if _SUPABASE_URL and _SUPABASE_KEY:
+        await _insert_feedback_supabase(body.query, body.answer, body.rating, body.category, body.comment)
+    else:
+        loop = asyncio.get_event_loop()
+        await loop.run_in_executor(None, _insert_feedback, body.query, body.answer, body.rating, body.category, body.comment)
     return {"ok": True}
 
 
