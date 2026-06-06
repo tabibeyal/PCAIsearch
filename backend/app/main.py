@@ -33,7 +33,8 @@ logger = logging.getLogger(__name__)
 _VALID_NIKAYAS = {"DN", "MN", "SN", "AN", "DHP", "ITI"}
 _DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
 _FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
-_SUPABASE_URL = os.environ.get("SUPABASE_URL")
+_raw_supabase_url = os.environ.get("SUPABASE_URL") or ""
+_SUPABASE_URL = _raw_supabase_url.split("/rest/")[0].rstrip("/") or None
 _SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
 
 
