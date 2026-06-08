@@ -30,7 +30,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message
 limiter = Limiter(key_func=get_remote_address)
 logger = logging.getLogger(__name__)
 
-_VALID_NIKAYAS = {"DN", "MN", "SN", "AN", "DHP", "ITI"}
+_VALID_NIKAYAS = {"DN", "MN", "SN", "AN", "DHP", "ITI", "UD", "STNP", "THAG", "THIG", "KHP"}
 _DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
 _FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
 _raw_supabase_url = os.environ.get("SUPABASE_URL") or ""

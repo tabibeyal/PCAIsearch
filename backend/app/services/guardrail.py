@@ -17,7 +17,7 @@ class CitationGuardrail:
     """
 
     def __init__(self, oracle: Optional[CitationOracle] = None):
-        self.citation_pattern = re.compile(r"\[([A-Z\s]+ \d+:\d+)\]")
+        self.citation_pattern = re.compile(r"\[([A-Z\s]+ [\d.]+:\d+)\]")
         self.oracle = oracle
 
     def verify_citations(

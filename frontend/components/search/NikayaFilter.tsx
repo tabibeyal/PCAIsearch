@@ -3,7 +3,7 @@
 import React from 'react';
 import { useRouter } from 'next/navigation';
 
-const ALL_NIKAYAS = ['DN', 'MN', 'SN', 'AN', 'DHP', 'ITI'];
+const ALL_NIKAYAS = ['DN', 'MN', 'SN', 'AN', 'DHP', 'ITI', 'UD', 'STNP', 'THAG', 'THIG', 'KHP'];
 
 interface NikayaFilterProps {
   encodedQuery: string;

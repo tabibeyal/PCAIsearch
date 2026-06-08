@@ -1,6 +1,6 @@
 import React from 'react';
 import { SearchResult } from '@/types/api';
-import { suttaCentralUrl } from '@/lib/suttacentral';
+import { dhammatalksUrl } from '@/lib/sourceUrl';
 
 interface SourceViewerProps {
   context: SearchResult[];
@@ -37,7 +37,7 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
             >
               <div className="text-xs font-bold mb-2 uppercase tracking-wider">
                 <a
-                  href={suttaCentralUrl(verse.id)}
+                  href={dhammatalksUrl(verse.id)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
