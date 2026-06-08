@@ -3,13 +3,16 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 const PROMPTS = [
-  'what were the Buddha\'s last words before he died?',
-  'why does loving someone lead to grief and suffering?',
-  'should a monk feel anger even if attacked with a saw?',
-  'is having a good spiritual friend the whole of the holy life?',
-  'what is the path between self-indulgence and harsh self-denial?',
-  'how should one treat parents family and friends according to the Buddha?',
-  'what did the Buddha consider after enlightenment before deciding to teach?',
+  'how does the Buddha define consciousness across the Nikayas?',
+  'what is the relationship between ethics and meditation in the suttas?',
+  'how do the different Nikayas formulate dependent origination?',
+  'how does the Buddha distinguish nibbana from other Indian liberation teachings?',
+  'what role does the middle way play beyond the first sermon?',
+  'how does the Canon describe the gradual training from lay life to liberation?',
+  'what does the Buddha say about the limits of metaphysical speculation?',
+  'how is the concept of not-self argued across different types of suttas?',
+  'what does the Pali Canon say about the spiritual capacity of women?',
+  'how does the Buddha characterize the relationship between concentration and insight?',
 ];
 
 const TYPE_MS = 55;
