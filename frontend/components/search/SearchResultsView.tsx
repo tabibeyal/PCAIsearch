@@ -1,6 +1,6 @@
 import React from 'react';
 import { SearchResult } from '@/types/api';
-import { suttaCentralUrl } from '@/lib/suttacentral';
+import { dhammatalksUrl } from '@/lib/sourceUrl';
 
 interface SearchResultsViewProps {
   results: SearchResult[];
@@ -16,7 +16,7 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
         </div>
       ) : (
         results.map((result) => {
-          const url = suttaCentralUrl(result.id);
+          const url = dhammatalksUrl(result.id);
           const pct = Math.round(result.score * 100);
           return (
             <div
@@ -55,7 +55,7 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
                 rel="noopener noreferrer"
                 className="text-[#c8bfb5] underline text-[10px] hover:text-[#9c8c7a]"
               >
-                View on SuttaCentral
+                View on dhammatalks.org
               </a>
             </div>
           );

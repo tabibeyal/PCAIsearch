@@ -80,6 +80,20 @@ def test_canon_guardrail_flags_nonexistent_sutta():
     assert "[Hallucinated]" in result["text"]
 
 
+def test_guardrail_compound_sutta_id():
+    # Compound IDs like SN 12.2:3 must be detected, not silently passed through.
+    oracle = CitationOracle(DUMPS_DIR)
+    guardrail = CitationGuardrail(oracle=oracle)
+    context_chunks = [{"id": "SN 12.2:3", "pali": "...", "english": "..."}]
+    response = "See [SN 12.2:3] and the invented [SN 12.2:999]."
+
+    result = guardrail.process_response(response, context_chunks)
+
+    assert "[SN 12.2:3]" in result["text"]       # retrieved: kept intact
+    assert "SN 12.2:999" in result["hallucinations"]  # verse doesn't exist
+    assert "[Hallucinated]" in result["text"]
+
+
 def test_canon_guardrail_is_faithful_no_hallucinations():
     # Retrieved citation + canonical miss → is_faithful True (no invented suttas)
     oracle = CitationOracle(DUMPS_DIR)
