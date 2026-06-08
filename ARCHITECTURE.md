@@ -139,7 +139,7 @@ Builds the LLM context by formatting each chunk as `[ID] Pali: ... English: ...`
 | Service | Role | Notes |
 |---------|------|-------|
 | DigitalOcean App Platform | Backend | `pcaisearch-jol64.ondigitalocean.app`; auto-deploys from `main` branch; `LLM_MODEL` env var set to `meta/llama-3.1-8b-instruct` |
-| Netlify | Frontend | `NEXT_PUBLIC_API_URL` (for non-stream endpoints), `API_URL` (for SSE proxy) |
+| Netlify | Frontend | `illustrious-biscotti-f60464.netlify.app`; `NEXT_PUBLIC_API_URL` (for non-stream endpoints), `API_URL` (for SSE proxy) |
 | Qdrant Cloud | Vector DB | Free tier; 134,102 vectors, 384-dim, cosine; `pali_canon` collection; nikaya keyword payload index |
 | NVIDIA Inference API | LLM inference | Free tier; Gemma 3n for expansion, Llama 3.1 8B for synthesis |
 | Supabase | Feedback store | Free tier; stores user feedback (query, answer, rating, category, comment); RLS enabled, service_role key only; read via Supabase dashboard |
