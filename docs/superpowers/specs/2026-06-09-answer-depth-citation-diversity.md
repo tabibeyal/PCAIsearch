@@ -45,7 +45,7 @@ In `_SYSTEM_PROMPT` in `search_pipeline.py`, extend the conceptual question form
 > For conceptual questions, write at least 6 cited bullet points — not fewer. If the context supports more, include them.
 
 **Nikāya diversity:**
-> When the provided context includes passages from more than one nikāya, your bullet points must draw from at least 2 different nikāyas.
+> When the provided context includes passages from more than one nikāya, your bullet points must draw from at least 3 different nikāyas.
 
 ### Existing limits (unchanged)
 
@@ -62,6 +62,6 @@ In `_SYSTEM_PROMPT` in `search_pipeline.py`, extend the conceptual question form
 
 ## Success criteria
 
-- A "meditation" query produces a structured answer with at least 6 cited bullet points drawing from at least 2 nikāyas.
+- A "meditation" query produces a structured answer with at least 6 cited bullet points drawing from at least 3 nikāyas.
 - A "how many precepts are there?" query is unaffected (factual path, no bullets required).
 - Latency increase stays under 5 seconds on average (Llama 8B at 1200 tokens vs 700).
