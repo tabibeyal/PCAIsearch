@@ -3,113 +3,73 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 10.80 ",
-      "english": "Numbered Discourses 10.80 "
+      "pali": "Numerical Discourses 10.80",
+      "english": "Numerical Discourses 10.80"
     },
     {
       "number": 2,
-      "pali": "8. Ākaṅkhavagga ",
-      "english": "8. If You Want "
+      "pali": "Āghāta Sutta",
+      "english": "Hatred"
     },
     {
       "number": 3,
-      "pali": "Āghātapaṭivinayasutta ",
-      "english": "Getting Rid of Resentment "
+      "pali": "",
+      "english": "“There are these ten ways of subduing hatred. Which ten?"
     },
     {
       "number": 4,
-      "pali": "“Dasayime, bhikkhave, āghātapaṭivinayā. ",
-      "english": "“Mendicants, there are these ten ways to get rid of resentment. "
+      "pali": "",
+      "english": "[1] “Thinking, ‘He has done me harm. But what should I expect?’ one subdues hatred."
     },
     {
       "number": 5,
-      "pali": "Katame dasa? ",
-      "english": "What ten? "
+      "pali": "",
+      "english": "[2] “Thinking, ‘He is doing me harm. But what should I expect?’ one subdues hatred."
     },
     {
       "number": 6,
-      "pali": "‘Anatthaṁ me acari, taṁ kutettha labbhā’ti āghātaṁ paṭivineti, ",
-      "english": "Thinking: ‘They harmed me, but what can I possibly do?’ you get rid of resentment. "
+      "pali": "",
+      "english": "[3] “Thinking, ‘He is going to do me harm. But what should I expect?’ one subdues hatred."
     },
     {
       "number": 7,
-      "pali": "‘anatthaṁ me carati, taṁ kutettha labbhā’ti āghātaṁ paṭivineti, ",
-      "english": "Thinking: ‘They are harming me …’ … "
+      "pali": "",
+      "english": "[4] “Thinking, ‘He has done harm to people who are dear & pleasing to me. But what should I expect?’ one subdues hatred."
     },
     {
       "number": 8,
-      "pali": "‘anatthaṁ me carissati, taṁ kutettha labbhā’ti āghātaṁ paṭivineti, ",
-      "english": "‘They will harm me …’ … "
+      "pali": "",
+      "english": "[5] “Thinking, ‘He is doing harm to people who are dear & pleasing to me. But what should I expect?’ one subdues hatred."
     },
     {
       "number": 9,
-      "pali": "piyassa me manāpassa anatthaṁ acari …pe… ",
-      "english": "‘They harmed someone I love …’ … "
+      "pali": "",
+      "english": "[6] “Thinking, ‘He is going to do harm to people who are dear & pleasing to me. But what should I expect?’ one subdues hatred."
     },
     {
       "number": 10,
-      "pali": "carati …pe… ",
-      "english": "‘They are harming someone I love …’ "
+      "pali": "",
+      "english": "[7] “Thinking, ‘He has aided people who are not dear or pleasing to me. But what should I expect?’ one subdues hatred."
     },
     {
       "number": 11,
-      "pali": "carissati, taṁ kutettha labbhāti āghātaṁ paṭivineti, appiyassa me amanāpassa atthaṁ acari …pe… ",
-      "english": "‘They will harm someone I love …’ … They helped someone I dislike …’ … "
+      "pali": "",
+      "english": "[8] “Thinking, ‘He is aiding people who are not dear or pleasing to me. But what should I expect?’ one subdues hatred."
     },
     {
       "number": 12,
-      "pali": "atthaṁ carati …pe… ",
-      "english": "‘They are helping someone I dislike …’ … "
+      "pali": "",
+      "english": "[9] “Thinking, ‘He is going to aid people who are not dear or pleasing to me. But what should I expect?’ one subdues hatred."
     },
     {
       "number": 13,
-      "pali": "atthaṁ carissati, taṁ kutettha labbhāti āghātaṁ paṭivineti, ",
-      "english": "Thinking: ‘They will help someone I dislike, but what can I possibly do?’ you get rid of resentment. "
+      "pali": "",
+      "english": "[10] “One does not get worked up over impossibilities."
     },
     {
       "number": 14,
-      "pali": "aṭṭhāne ca na kuppati—",
-      "english": "And you don’t get angry for no reason. "
-    },
-    {
-      "number": 15,
-      "pali": "ime kho, bhikkhave, dasa āghātapaṭivinayā”ti. ",
-      "english": "These are the ten ways of getting rid of resentment.” "
-    },
-    {
-      "number": 16,
-      "pali": "Dasamaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 17,
-      "pali": "Ākaṅkhavaggo tatiyo. ",
-      "english": ""
-    },
-    {
-      "number": 18,
-      "pali": "Tassuddānaṁ ",
-      "english": ""
-    },
-    {
-      "number": 19,
-      "pali": "Ākaṅkho kaṇṭako iṭṭhā, ",
-      "english": ""
-    },
-    {
-      "number": 20,
-      "pali": "vaḍḍhi ca migasālāya; ",
-      "english": ""
-    },
-    {
-      "number": 21,
-      "pali": "Tayo dhammā ca kāko ca, ",
-      "english": ""
-    },
-    {
-      "number": 22,
-      "pali": "nigaṇṭhā dve ca āghātāti. ",
-      "english": ""
+      "pali": "",
+      "english": "“These are ten ways of subduing hatred.”"
     }
   ]
 }

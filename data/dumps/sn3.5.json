@@ -3,213 +3,68 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 3.5 ",
-      "english": "Linked Discourses 3.5 "
+      "pali": "Linked Discourses 3.5",
+      "english": "Linked Discourses 3.5"
     },
     {
       "number": 2,
-      "pali": "1. Paṭhamavagga ",
-      "english": "1. Shackles "
+      "pali": "Atta-rakkhita Sutta",
+      "english": "Self-protected"
     },
     {
       "number": 3,
-      "pali": "Attarakkhitasutta ",
-      "english": "Self-Protected "
+      "pali": "",
+      "english": "Near Sāvatthī. As he was sitting to one side, King Pasenadi Kosala said to the Blessed One: “Just now, lord, while I was alone in seclusion, this train of thought arose in my awareness: ‘Who have themselves protected, and who leave themselves unprotected?’ Then it occurred to me: ‘Those who engage in bodily misconduct, verbal misconduct, & mental misconduct leave themselves unprotected. Even though a squadron of elephant troops might protect them, a squadron of cavalry troops, a squadron of chariot troops, a squadron of infantry troops might protect them, still they leave themselves unprotected. Why is that? Because that’s an external protection, not an internal one. Therefore they leave themselves unprotected. But those who engage in good bodily conduct, good verbal conduct, & good mental conduct have themselves protected. Even though neither a squadron of elephant troops, a squadron of cavalry troops, a squadron of chariot troops, nor a squadron of infantry troops might protect them, still they have themselves protected. Why is that? Because that’s an internal protection, not an external one. Therefore they have themselves protected.’”"
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“That’s the way it is, great king! That’s the way it is! Those who engage in bodily misconduct, verbal misconduct, & mental misconduct leave themselves unprotected. Even though a squadron of elephant troops might protect them, a squadron of cavalry troops, a squadron of chariot troops, a squadron of infantry troops might protect them, still they leave themselves unprotected. Why is that? Because that’s an external protection, not an internal one. Therefore they leave themselves unprotected. But those who engage in good bodily conduct, good verbal conduct, & good mental conduct have themselves protected. Even though neither a squadron of elephant troops, a squadron of cavalry troops, a squadron of chariot troops, nor a squadron of infantry troops might protect them, still they have themselves protected. Why is that? Because that’s an internal protection, not an external one. Therefore they have themselves protected.”"
     },
     {
       "number": 5,
-      "pali": "Ekamantaṁ nisinno kho rājā pasenadi kosalo bhagavantaṁ etadavoca: ",
-      "english": "Seated to one side, King Pasenadi said to the Buddha, "
+      "pali": "",
+      "english": "That is what the Blessed One said. Having said that, the One Well-Gone, the Teacher, said further:"
     },
     {
       "number": 6,
-      "pali": "“idha mayhaṁ, bhante, rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi: ",
-      "english": "“Just now, sir, as I was in private retreat this thought came to mind. "
+      "pali": "",
+      "english": "“Restraint with the body is good,"
     },
     {
       "number": 7,
-      "pali": "‘kesaṁ nu kho rakkhito attā, kesaṁ arakkhito attā’ti? ",
-      "english": "‘Who are those who protect themselves? And who are those who don’t protect themselves?’ "
+      "pali": "",
+      "english": "good is restraint with speech."
     },
     {
       "number": 8,
-      "pali": "Tassa mayhaṁ, bhante, etadahosi: ",
-      "english": "Then it occurred to me: "
+      "pali": "",
+      "english": "Restraint with the heart is good,"
     },
     {
       "number": 9,
-      "pali": "‘ye kho keci kāyena duccaritaṁ caranti, vācāya duccaritaṁ caranti, manasā duccaritaṁ caranti; ",
-      "english": "‘Those who do bad things by way of body, speech, and mind "
+      "pali": "",
+      "english": "good is restraint everywhere."
     },
     {
       "number": 10,
-      "pali": "tesaṁ arakkhito attā. ",
-      "english": "don’t protect themselves. "
+      "pali": "",
+      "english": "Restrained everywhere,"
     },
     {
       "number": 11,
-      "pali": "Kiñcāpi te hatthikāyo vā rakkheyya, assakāyo vā rakkheyya, rathakāyo vā rakkheyya, pattikāyo vā rakkheyya; ",
-      "english": "Even if they’re protected by a company of elephants, cavalry, chariots, or infantry, "
+      "pali": "",
+      "english": "conscientious,"
     },
     {
       "number": 12,
-      "pali": "atha kho tesaṁ arakkhito attā. ",
-      "english": "they still don’t protect themselves. "
+      "pali": "",
+      "english": "one is said to be"
     },
     {
       "number": 13,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 14,
-      "pali": "Bāhirā hesā rakkhā, nesā rakkhā ajjhattikā; ",
-      "english": "Because such protection is exterior, not interior. "
-    },
-    {
-      "number": 15,
-      "pali": "tasmā tesaṁ arakkhito attā. ",
-      "english": "That’s why they don’t protect themselves. "
-    },
-    {
-      "number": 16,
-      "pali": "Ye ca kho keci kāyena sucaritaṁ caranti, vācāya sucaritaṁ caranti, manasā sucaritaṁ caranti; ",
-      "english": "Those who do good things by way of body, speech, and mind "
-    },
-    {
-      "number": 17,
-      "pali": "tesaṁ rakkhito attā. ",
-      "english": "do protect themselves. "
-    },
-    {
-      "number": 18,
-      "pali": "Kiñcāpi te neva hatthikāyo rakkheyya, na assakāyo rakkheyya, na rathakāyo rakkheyya, na pattikāyo rakkheyya; ",
-      "english": "Even if they’re not protected by a company of elephants, cavalry, chariots, or infantry, "
-    },
-    {
-      "number": 19,
-      "pali": "atha kho tesaṁ rakkhito attā. ",
-      "english": "they still protect themselves. "
-    },
-    {
-      "number": 20,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 21,
-      "pali": "Ajjhattikā hesā rakkhā, nesā rakkhā bāhirā; ",
-      "english": "Because such protection is interior, not exterior. "
-    },
-    {
-      "number": 22,
-      "pali": "tasmā tesaṁ rakkhito attā’”ti. ",
-      "english": "That’s why they do protect themselves.’” "
-    },
-    {
-      "number": 23,
-      "pali": "“Evametaṁ, mahārāja, evametaṁ, mahārāja. ",
-      "english": "“That’s so true, great king! That’s so true!” said the Buddha. And he repeated the king’s statement, adding: "
-    },
-    {
-      "number": 24,
-      "pali": "Ye hi keci, mahārāja, kāyena duccaritaṁ caranti …pe… ",
-      "english": ""
-    },
-    {
-      "number": 25,
-      "pali": "tesaṁ arakkhito attā. ",
-      "english": ""
-    },
-    {
-      "number": 26,
-      "pali": "Taṁ kissa hetu? ",
-      "english": ""
-    },
-    {
-      "number": 27,
-      "pali": "Bāhirā hesā, mahārāja, rakkhā, nesā rakkhā ajjhattikā; ",
-      "english": ""
-    },
-    {
-      "number": 28,
-      "pali": "tasmā tesaṁ arakkhito attā. ",
-      "english": ""
-    },
-    {
-      "number": 29,
-      "pali": "Ye hi keci, mahārāja, kāyena sucaritaṁ caranti, vācāya sucaritaṁ caranti, manasā sucaritaṁ caranti; ",
-      "english": ""
-    },
-    {
-      "number": 30,
-      "pali": "tesaṁ rakkhito attā. ",
-      "english": ""
-    },
-    {
-      "number": 31,
-      "pali": "Kiñcāpi te neva hatthikāyo rakkheyya, na assakāyo rakkheyya, na rathakāyo rakkheyya, na pattikāyo rakkheyya; ",
-      "english": ""
-    },
-    {
-      "number": 32,
-      "pali": "atha kho tesaṁ rakkhito attā. ",
-      "english": ""
-    },
-    {
-      "number": 33,
-      "pali": "Taṁ kissa hetu? ",
-      "english": ""
-    },
-    {
-      "number": 34,
-      "pali": "Ajjhattikā hesā, mahārāja, rakkhā, nesā rakkhā bāhirā; ",
-      "english": ""
-    },
-    {
-      "number": 35,
-      "pali": "tasmā tesaṁ rakkhito attā”ti. ",
-      "english": ""
-    },
-    {
-      "number": 36,
-      "pali": "Idamavoca …pe… ",
-      "english": ""
-    },
-    {
-      "number": 37,
-      "pali": "“Kāyena saṁvaro sādhu, ",
-      "english": "“Restraint of the body is good; "
-    },
-    {
-      "number": 38,
-      "pali": "sādhu vācāya saṁvaro; ",
-      "english": "restraint of speech is good; "
-    },
-    {
-      "number": 39,
-      "pali": "Manasā saṁvaro sādhu, ",
-      "english": "restraint of mind is good; "
-    },
-    {
-      "number": 40,
-      "pali": "sādhu sabbattha saṁvaro; ",
-      "english": "everywhere, restraint is good. "
-    },
-    {
-      "number": 41,
-      "pali": "Sabbattha saṁvuto lajjī, ",
-      "english": "A sincere person, restrained everywhere, "
-    },
-    {
-      "number": 42,
-      "pali": "rakkhitoti pavuccatī”ti. ",
-      "english": "is said to be ‘protected’.” "
+      "pali": "",
+      "english": "protected.”"
     }
   ]
 }

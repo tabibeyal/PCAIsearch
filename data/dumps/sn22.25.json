@@ -3,78 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.25 ",
-      "english": "Linked Discourses 22.25 "
+      "pali": "Linked Discourses 22.25",
+      "english": "Linked Discourses 22.25"
     },
     {
       "number": 2,
-      "pali": "3. Bhāravagga ",
-      "english": "3. The Burden "
+      "pali": "Chanda-rāga Sutta",
+      "english": "Desire & Passion"
     },
     {
       "number": 3,
-      "pali": "Chandarāgasutta ",
-      "english": "Desire and Greed "
+      "pali": "",
+      "english": "Near Sāvatthī."
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“Monks, abandon any desire & passion for form. Thus that form will be abandoned, its root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising."
     },
     {
       "number": 5,
-      "pali": "“Yo, bhikkhave, rūpasmiṁ chandarāgo taṁ pajahatha. ",
-      "english": "“Mendicants, give up desire and greed for form. "
+      "pali": "",
+      "english": "“Abandon any desire & passion for feeling…"
     },
     {
       "number": 6,
-      "pali": "Evaṁ taṁ rūpaṁ pahīnaṁ bhavissati ucchinnamūlaṁ tālāvatthukataṁ anabhāvaṅkataṁ āyatiṁ anuppādadhammaṁ. ",
-      "english": "Thus that form will be given up, cut off at the root, made like a palm stump, obliterated, and unable to arise in the future. "
+      "pali": "",
+      "english": "“Abandon any desire & passion for perception…"
     },
     {
       "number": 7,
-      "pali": "Yo vedanāya chandarāgo taṁ pajahatha. ",
-      "english": "Give up desire and greed for feeling … "
+      "pali": "",
+      "english": "“Abandon any desire & passion for fabrications…"
     },
     {
       "number": 8,
-      "pali": "Evaṁ sā vedanā pahīnā bhavissati ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
-      "english": ""
-    },
-    {
-      "number": 9,
-      "pali": "Yo saññāya chandarāgo taṁ pajahatha. ",
-      "english": "perception … "
-    },
-    {
-      "number": 10,
-      "pali": "Evaṁ sā saññā pahīnā bhavissati ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
-      "english": ""
-    },
-    {
-      "number": 11,
-      "pali": "Yo saṅkhāresu chandarāgo taṁ pajahatha. ",
-      "english": "choices … "
-    },
-    {
-      "number": 12,
-      "pali": "Evaṁ te saṅkhārā pahīnā bhavissanti ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
-      "english": ""
-    },
-    {
-      "number": 13,
-      "pali": "Yo viññāṇasmiṁ chandarāgo taṁ pajahatha. ",
-      "english": "consciousness. "
-    },
-    {
-      "number": 14,
-      "pali": "Evaṁ taṁ viññāṇaṁ pahīnaṁ bhavissati ucchinnamūlaṁ tālāvatthukataṁ anabhāvaṅkataṁ āyatiṁ anuppādadhamman”ti. ",
-      "english": "Thus that consciousness will be given up, cut off at the root, made like a palm stump, obliterated, and unable to arise in the future.” "
-    },
-    {
-      "number": 15,
-      "pali": "Catutthaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Abandon any desire & passion for consciousness. Thus that consciousness will be abandoned, its root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising.”"
     }
   ]
 }

@@ -3,198 +3,83 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 7.35 ",
-      "english": "Numbered Discourses 7.35 "
+      "pali": "Numerical Discourses 7.35",
+      "english": "Numerical Discourses 7.35"
     },
     {
       "number": 2,
-      "pali": "4. Devatāvagga ",
-      "english": "4. Deities "
+      "pali": "Mitta Sutta",
+      "english": "A Friend"
     },
     {
       "number": 3,
-      "pali": "Dutiyasovacassatāsutta ",
-      "english": "Easy to Admonish (2nd) "
+      "pali": "",
+      "english": "“Monks, a friend endowed with seven qualities is worth associating with. Which seven? He gives what is hard to give. He does what is hard to do. He endures what is hard to endure. He reveals his secrets to you. He keeps your secrets. When misfortunes strike, he doesn’t abandon you. When you’re down & out, he doesn’t look down on you. A friend endowed with these seven qualities is worth associating with."
     },
     {
       "number": 4,
-      "pali": "“Imaṁ, bhikkhave, rattiṁ aññatarā devatā abhikkantāya rattiyā abhikkantavaṇṇā …pe… ",
-      "english": "“Mendicants, tonight a deity … said to me: "
+      "pali": "",
+      "english": "“He gives what is beautiful,"
     },
     {
       "number": 5,
-      "pali": "‘sattime, bhante, dhammā bhikkhuno aparihānāya saṁvattanti. ",
-      "english": "‘Sir, these seven things don’t lead to the decline of a mendicant trainee. "
+      "pali": "",
+      "english": "hard to give;"
     },
     {
       "number": 6,
-      "pali": "Katame satta? ",
-      "english": "What seven? "
+      "pali": "",
+      "english": "does what is hard to do;"
     },
     {
       "number": 7,
-      "pali": "Satthugāravatā, dhammagāravatā, saṅghagāravatā, sikkhāgāravatā, samādhigāravatā, sovacassatā, kalyāṇamittatā. ",
-      "english": "Respect for the Teacher, for the teaching, for the Saṅgha, for the training, for immersion; being easy to admonish, and good friendship. "
+      "pali": "",
+      "english": "endures painful, ill-spoken words."
     },
     {
       "number": 8,
-      "pali": "Ime kho, bhante, satta dhammā bhikkhuno aparihānāya saṁvattantī’ti. ",
-      "english": "These seven things don’t lead to the decline of a mendicant trainee.’ "
+      "pali": "",
+      "english": "His secrets he tells you;"
     },
     {
       "number": 9,
-      "pali": "Idamavoca, bhikkhave, sā devatā. ",
-      "english": "That is what that deity said. "
+      "pali": "",
+      "english": "your secrets he keeps."
     },
     {
       "number": 10,
-      "pali": "Idaṁ vatvā maṁ abhivādetvā padakkhiṇaṁ katvā tatthevantaradhāyī”ti. ",
-      "english": "Then he bowed and respectfully circled me, keeping me on his right side, before vanishing right there.” "
+      "pali": "",
+      "english": "When misfortunes strike,"
     },
     {
       "number": 11,
-      "pali": "Evaṁ vutte, āyasmā sāriputto bhagavantaṁ etadavoca: ",
-      "english": "When he said this, Venerable Sāriputta said to the Buddha: "
+      "pali": "",
+      "english": "he doesn’t abandon you;"
     },
     {
       "number": 12,
-      "pali": "“imassa kho ahaṁ, bhante, bhagavatā saṅkhittena bhāsitassa evaṁ vitthārena atthaṁ ājānāmi. ",
-      "english": "“Sir, this is how I understand the detailed meaning of the Buddha’s brief statement. "
+      "pali": "",
+      "english": "when you’re down & out,"
     },
     {
       "number": 13,
-      "pali": "Idha, bhante, bhikkhu attanā ca satthugāravo hoti, satthugāravatāya ca vaṇṇavādī. ",
-      "english": "It’s when a mendicant personally respects the Teacher and praises such respect. "
+      "pali": "",
+      "english": "doesn’t look down on you."
     },
     {
       "number": 14,
-      "pali": "Ye caññe bhikkhū na satthugāravā te ca satthugāravatāya samādapeti. ",
-      "english": "And they encourage other mendicants who lack such respect to respect the Teacher. "
+      "pali": "",
+      "english": "A person in whom these traits are found,"
     },
     {
       "number": 15,
-      "pali": "Ye caññe bhikkhū satthugāravā tesañca vaṇṇaṁ bhaṇati bhūtaṁ tacchaṁ kālena. ",
-      "english": "And they praise other mendicants who respect the Teacher at the right time, truthfully and correctly. "
+      "pali": "",
+      "english": "is a friend to be cultivated"
     },
     {
       "number": 16,
-      "pali": "Attanā ca dhammagāravo hoti …pe… ",
-      "english": "They personally respect the teaching … "
-    },
-    {
-      "number": 17,
-      "pali": "saṅghagāravo hoti … ",
-      "english": "They personally respect the Saṅgha … "
-    },
-    {
-      "number": 18,
-      "pali": "sikkhāgāravo hoti … ",
-      "english": "They personally respect the training … "
-    },
-    {
-      "number": 19,
-      "pali": "samādhigāravo hoti … ",
-      "english": "They personally respect immersion … "
-    },
-    {
-      "number": 20,
-      "pali": "suvaco hoti … ",
-      "english": "They are personally easy to admonish … "
-    },
-    {
-      "number": 21,
-      "pali": "kalyāṇamitto hoti, kalyāṇamittatāya ca vaṇṇavādī. ",
-      "english": "They personally have good friends, and praise such friendship. "
-    },
-    {
-      "number": 22,
-      "pali": "Ye caññe bhikkhū na kalyāṇamittā te ca kalyāṇamittatāya samādapeti. ",
-      "english": "And they encourage other mendicants who lack good friends to develop good friendship. "
-    },
-    {
-      "number": 23,
-      "pali": "Ye caññe bhikkhū kalyāṇamittā tesañca vaṇṇaṁ bhaṇati bhūtaṁ tacchaṁ kālenāti. ",
-      "english": "And they praise other mendicants who have good friends at the right time, truthfully and correctly. "
-    },
-    {
-      "number": 24,
-      "pali": "Imassa kho ahaṁ, bhante, bhagavatā saṅkhittena bhāsitassa evaṁ vitthārena atthaṁ ājānāmī”ti. ",
-      "english": "That’s how I understand the detailed meaning of the Buddha’s brief statement.” "
-    },
-    {
-      "number": 25,
-      "pali": "“Sādhu sādhu, sāriputta. ",
-      "english": "“Good, good, Sāriputta! "
-    },
-    {
-      "number": 26,
-      "pali": "Sādhu kho tvaṁ, sāriputta, imassa mayā saṅkhittena bhāsitassa evaṁ vitthārena atthaṁ ājānāsi. ",
-      "english": "It’s good that you understand the detailed meaning of what I’ve said in brief like this. "
-    },
-    {
-      "number": 27,
-      "pali": "Idha, sāriputta, bhikkhu attanā ca satthugāravo hoti, satthugāravatāya ca vaṇṇavādī. ",
-      "english": "It’s when a mendicant personally respects the Teacher … "
-    },
-    {
-      "number": 28,
-      "pali": "Ye caññe bhikkhū na satthugāravā te ca satthugāravatāya samādapeti. ",
-      "english": "And they encourage other mendicants who lack such respect to respect the Teacher. "
-    },
-    {
-      "number": 29,
-      "pali": "Ye caññe bhikkhū satthugāravā tesañca vaṇṇaṁ bhaṇati bhūtaṁ tacchaṁ kālena. ",
-      "english": "And they praise other mendicants who respect the Teacher at the right time, truthfully and correctly. "
-    },
-    {
-      "number": 30,
-      "pali": "Attanā ca dhammagāravo hoti …pe… ",
-      "english": "They personally respect the teaching … "
-    },
-    {
-      "number": 31,
-      "pali": "saṅghagāravo hoti … ",
-      "english": "They personally respect the Saṅgha … "
-    },
-    {
-      "number": 32,
-      "pali": "sikkhāgāravo hoti … ",
-      "english": "They personally respect the training … "
-    },
-    {
-      "number": 33,
-      "pali": "samādhigāravo hoti … ",
-      "english": "They personally respect immersion … "
-    },
-    {
-      "number": 34,
-      "pali": "suvaco hoti … ",
-      "english": "They are personally easy to admonish … "
-    },
-    {
-      "number": 35,
-      "pali": "kalyāṇamitto hoti, kalyāṇamittatāya ca vaṇṇavādī. ",
-      "english": "They personally have good friends, and praise such friendship. "
-    },
-    {
-      "number": 36,
-      "pali": "Ye caññe bhikkhū na kalyāṇamittā te ca kalyāṇamittatāya samādapeti. ",
-      "english": "And they encourage other mendicants who lack good friends to develop good friendship. "
-    },
-    {
-      "number": 37,
-      "pali": "Ye caññe bhikkhū kalyāṇamittā tesañca vaṇṇaṁ bhaṇati bhūtaṁ tacchaṁ kālenāti. ",
-      "english": "And they praise other mendicants who have good friends at the right time, truthfully and correctly. "
-    },
-    {
-      "number": 38,
-      "pali": "Imassa kho, sāriputta, mayā saṅkhittena bhāsitassa evaṁ vitthārena attho daṭṭhabbo”ti. ",
-      "english": "This is how to understand the detailed meaning of what I said in brief.” "
-    },
-    {
-      "number": 39,
-      "pali": "Catutthaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "by anyone wanting a friend.”"
     }
   ]
 }

@@ -3,143 +3,103 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 107 ",
-      "english": "So It Was Said 107 "
+      "pali": "Itivuttaka 107",
+      "english": "Itivuttaka 107"
     },
     {
       "number": 2,
-      "pali": "Catukkanipāta ",
-      "english": "The Book of the Fours "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Brāhmaṇadhammayāgavagga ",
-      "english": "The Chapter on the Brahmin’s Offering of the Teaching "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, brahmans & householders are very helpful to you, as they provide you with the requisites of robes, alms food, lodgings, & medical requisites for the sick. And you, monks, are very helpful to brahmans & householders, as you teach them the Dhamma admirable in the beginning, admirable in the middle, admirable in the end; as you expound the holy life both in its particulars & in its essence, entirely complete, surpassingly pure. In this way the holy life is lived in mutual dependence, for the purpose of crossing over the flood, for making a right end to stress.”"
     },
     {
       "number": 4,
-      "pali": "Bahukārasutta ",
-      "english": "Very Helpful "
+      "pali": "",
+      "english": "Householders & the homeless"
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "in mutual dependence"
     },
     {
       "number": 6,
-      "pali": "“Bahukārā, bhikkhave, brāhmaṇagahapatikā tumhākaṁ ye vo paccupaṭṭhitā cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārehi. ",
-      "english": "“Mendicants, brahmins and householders are very helpful to you, as they provide you with robes, almsfood, lodgings, and medicines and supplies for the sick. "
+      "pali": "",
+      "english": "both reach the true Dhamma:"
     },
     {
       "number": 7,
-      "pali": "Tumhepi, bhikkhave, bahukārā brāhmaṇagahapatikānaṁ yaṁ nesaṁ dhammaṁ desetha ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsetha. ",
-      "english": "And you are very helpful to brahmins and householders, as you teach them the Dhamma that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And you reveal a spiritual practice that’s entirely full and pure. "
+      "pali": "",
+      "english": "the unsurpassed safety from bondage."
     },
     {
       "number": 8,
-      "pali": "Evamidaṁ, bhikkhave, aññamaññaṁ nissāya brahmacariyaṁ vussati oghassa nittharaṇatthāya sammā dukkhassa antakiriyāyā”ti. ",
-      "english": "That is how this spiritual path is lived supporting each other in order to cross over the flood and make a complete end of suffering.” "
+      "pali": "",
+      "english": "From householders, the homeless"
     },
     {
       "number": 9,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "receive requisites: robes, lodgings,"
     },
     {
       "number": 10,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "protection from inclemencies."
     },
     {
       "number": 11,
-      "pali": "“Sāgārā anagārā ca, ",
-      "english": "“The home-dweller and the homeless, "
+      "pali": "",
+      "english": "While in dependence on those well-gone,"
     },
     {
       "number": 12,
-      "pali": "ubho aññoññanissitā; ",
-      "english": "supporting each other, "
+      "pali": "",
+      "english": "home-loving householders"
     },
     {
       "number": 13,
-      "pali": "Ārādhayanti saddhammaṁ, ",
-      "english": "find success in the true teaching, "
+      "pali": "",
+      "english": "have conviction in Arahants"
     },
     {
       "number": 14,
-      "pali": "yogakkhemaṁ anuttaraṁ. ",
-      "english": "the supreme sanctuary from the yoke. "
+      "pali": "",
+      "english": "of noble discernment,"
     },
     {
       "number": 15,
-      "pali": "Sāgāresu ca cīvaraṁ, ",
-      "english": "The homeless receive requisites "
+      "pali": "",
+      "english": "absorbed in jhāna."
     },
     {
       "number": 16,
-      "pali": "paccayaṁ sayanāsanaṁ; ",
-      "english": "from the home-dwellers: "
+      "pali": "",
+      "english": "Having practiced the Dhamma here–"
     },
     {
       "number": 17,
-      "pali": "Anagārā paṭicchanti, ",
-      "english": "robes and lodgings "
+      "pali": "",
+      "english": "the path leading to good destinations–"
     },
     {
       "number": 18,
-      "pali": "parissayavinodanaṁ. ",
-      "english": "to shelter from harsh conditions. "
+      "pali": "",
+      "english": "delighting in the deva world,"
     },
     {
       "number": 19,
-      "pali": "Sugataṁ pana nissāya, ",
-      "english": "Relying on the Holy One, "
+      "pali": "",
+      "english": "they rejoice,"
     },
     {
       "number": 20,
-      "pali": "gahaṭṭhā gharamesino; ",
-      "english": "layfolk and householders of discernment "
-    },
-    {
-      "number": 21,
-      "pali": "Saddahānā arahataṁ, ",
-      "english": "place faith in the perfected ones, "
-    },
-    {
-      "number": 22,
-      "pali": "ariyapaññāya jhāyino. ",
-      "english": "meditators of noble wisdom. "
-    },
-    {
-      "number": 23,
-      "pali": "Idha dhammaṁ caritvāna, ",
-      "english": "Having practiced the teaching here, "
-    },
-    {
-      "number": 24,
-      "pali": "maggaṁ sugatigāminaṁ; ",
-      "english": "the path that goes to a good place, "
-    },
-    {
-      "number": 25,
-      "pali": "Nandino devalokasmiṁ, ",
-      "english": "they delight in the heavenly realm, "
-    },
-    {
-      "number": 26,
-      "pali": "modanti kāmakāmino”ti. ",
-      "english": "enjoying all the pleasures they desire.” "
-    },
-    {
-      "number": 27,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 28,
-      "pali": "Aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "enjoying sensual pleasures."
     }
   ]
 }

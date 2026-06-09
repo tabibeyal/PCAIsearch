@@ -3,138 +3,48 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 5.2 ",
-      "english": "Numbered Discourses 5.2 "
+      "pali": "Numerical Discourses 5.2",
+      "english": "Numerical Discourses 5.2"
     },
     {
       "number": 2,
-      "pali": "1. Sekhabalavagga ",
-      "english": "1. Powers of a Trainee "
+      "pali": "Vitthata Sutta",
+      "english": "(Strengths) In Detail"
     },
     {
       "number": 3,
-      "pali": "Vitthatasutta ",
-      "english": "In Detail "
+      "pali": "",
+      "english": "“Monks, there are these five strengths for one in training. Which five? Strength of conviction, strength of a sense of shame, strength of a sense of compunction, strength of persistence, & strength of discernment."
     },
     {
       "number": 4,
-      "pali": "“Pañcimāni, bhikkhave, sekhabalāni. ",
-      "english": "“Mendicants, there are these five powers of a trainee. "
+      "pali": "",
+      "english": "“And what is strength of conviction? There is the case where a monk, a disciple of the noble ones, has conviction, is convinced of the Tathāgata’s awakening: ‘Indeed, the Blessed One is worthy & rightly self-awakened, consummate in clear-knowing & conduct, well-gone, an expert with regard to the cosmos, unexcelled trainer of people fit to be tamed, teacher of devas & human beings, awakened, blessed.’ This, monks, is called the strength of conviction."
     },
     {
       "number": 5,
-      "pali": "Katamāni pañca? ",
-      "english": "What five? "
+      "pali": "",
+      "english": "“And what is the strength of a sense of shame? There is the case where a disciple of the noble ones feels shame at (the thought of engaging in) bodily misconduct, verbal misconduct, mental misconduct. He feels shame at falling into evil, unskillful actions. This is called the strength of a sense of shame."
     },
     {
       "number": 6,
-      "pali": "Saddhābalaṁ, hirībalaṁ, ottappabalaṁ, vīriyabalaṁ, paññābalaṁ. ",
-      "english": "The powers of faith, conscience, prudence, energy, and wisdom. "
+      "pali": "",
+      "english": "“And what is the strength of a sense of compunction? There is the case where a monk, a disciple of the noble ones feels compunction at (the suffering that would result from) bodily misconduct, verbal misconduct, mental misconduct. He feels compunction at falling into evil, unskillful actions. This is called the strength of a sense of compunction."
     },
     {
       "number": 7,
-      "pali": "Katamañca, bhikkhave, saddhābalaṁ? ",
-      "english": "And what is the power of faith? "
+      "pali": "",
+      "english": "“And what is the strength of persistence? There is the case where a monk, a disciple of the noble ones, keeps his persistence aroused for abandoning unskillful qualities and taking on skillful qualities. He is steadfast, solid in his effort, not shirking his duties with regard to skillful qualities. This is called the strength of persistence."
     },
     {
       "number": 8,
-      "pali": "Idha, bhikkhave, ariyasāvako saddho hoti, saddahati tathāgatassa bodhiṁ: ",
-      "english": "It’s when a noble disciple has faith in the Realized One’s awakening: "
+      "pali": "",
+      "english": "“And what is the strength of discernment? There is the case where a monk, a disciple of the noble ones, is discerning, endowed with discernment of arising & passing away—noble, penetrating, leading to the right ending of stress. This is called the strength of discernment."
     },
     {
       "number": 9,
-      "pali": "‘itipi so bhagavā arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā’ti. ",
-      "english": "‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ "
-    },
-    {
-      "number": 10,
-      "pali": "Idaṁ vuccati, bhikkhave, saddhābalaṁ. ",
-      "english": "This is called the power of faith. "
-    },
-    {
-      "number": 11,
-      "pali": "Katamañca, bhikkhave, hirībalaṁ? ",
-      "english": "And what is the power of conscience? "
-    },
-    {
-      "number": 12,
-      "pali": "Idha, bhikkhave, ariyasāvako hirīmā hoti, hirīyati kāyaduccaritena vacīduccaritena manoduccaritena, hirīyati pāpakānaṁ akusalānaṁ dhammānaṁ samāpattiyā. ",
-      "english": "It’s when a noble disciple has a conscience. They’re conscientious about bad conduct by way of body, speech, and mind, and conscientious about having any bad, unskillful qualities. "
-    },
-    {
-      "number": 13,
-      "pali": "Idaṁ vuccati, bhikkhave, hirībalaṁ. ",
-      "english": "This is called the power of conscience. "
-    },
-    {
-      "number": 14,
-      "pali": "Katamañca, bhikkhave, ottappabalaṁ? ",
-      "english": "And what is the power of prudence? "
-    },
-    {
-      "number": 15,
-      "pali": "Idha, bhikkhave, ariyasāvako ottappī hoti, ottappati kāyaduccaritena vacīduccaritena manoduccaritena, ottappati pāpakānaṁ akusalānaṁ dhammānaṁ samāpattiyā. ",
-      "english": "It’s when a noble disciple is prudent. They’re prudent when it comes to bad conduct by way of body, speech, and mind, and prudent when it comes to acquiring any bad, unskillful qualities. "
-    },
-    {
-      "number": 16,
-      "pali": "Idaṁ vuccati, bhikkhave, ottappabalaṁ. ",
-      "english": "This is called the power of prudence. "
-    },
-    {
-      "number": 17,
-      "pali": "Katamañca, bhikkhave, vīriyabalaṁ? ",
-      "english": "And what is the power of energy? "
-    },
-    {
-      "number": 18,
-      "pali": "Idha, bhikkhave, ariyasāvako āraddhavīriyo viharati akusalānaṁ dhammānaṁ pahānāya, kusalānaṁ dhammānaṁ upasampadāya, thāmavā daḷhaparakkamo anikkhittadhuro kusalesu dhammesu. ",
-      "english": "It’s when a noble disciple lives with energy roused up for giving up unskillful qualities and embracing skillful qualities. They’re strong, staunchly vigorous, not slacking off when it comes to developing skillful qualities. "
-    },
-    {
-      "number": 19,
-      "pali": "Idaṁ vuccati, bhikkhave, vīriyabalaṁ. ",
-      "english": "This is called the power of energy. "
-    },
-    {
-      "number": 20,
-      "pali": "Katamañca, bhikkhave, paññābalaṁ? ",
-      "english": "And what is the power of wisdom? "
-    },
-    {
-      "number": 21,
-      "pali": "Idha, bhikkhave, ariyasāvako paññavā hoti udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā. ",
-      "english": "It’s when a noble disciple is wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. "
-    },
-    {
-      "number": 22,
-      "pali": "Idaṁ vuccati, bhikkhave, paññābalaṁ. ",
-      "english": "This is called the power of wisdom. "
-    },
-    {
-      "number": 23,
-      "pali": "Imāni kho, bhikkhave, pañca sekhabalāni. ",
-      "english": "These are the five powers of a trainee. "
-    },
-    {
-      "number": 24,
-      "pali": "Tasmātiha, bhikkhave, evaṁ sikkhitabbaṁ: ",
-      "english": "So you should train like this: "
-    },
-    {
-      "number": 25,
-      "pali": "‘saddhābalena samannāgatā bhavissāma sekhabalena, hirībalena … ottappabalena … vīriyabalena … paññābalena samannāgatā bhavissāma sekhabalenā’ti. ",
-      "english": "‘We will have the trainee’s powers of faith, conscience, prudence, energy, and wisdom.’ "
-    },
-    {
-      "number": 26,
-      "pali": "Evañhi kho, bhikkhave, sikkhitabban”ti. ",
-      "english": "That’s how you should train.” "
-    },
-    {
-      "number": 27,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“These, monks, are the five strengths of one in training. Thus you should train yourselves, ‘We will be endowed with the strength of conviction that is the strength of one in training; with the strength of a sense of shame… the strength of a sense of compunction… the strength of persistence… the strength of discernment that is the strength of one in training.’ That’s how you should train yourselves.”"
     }
   ]
 }

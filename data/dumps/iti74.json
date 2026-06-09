@@ -3,238 +3,93 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 74 ",
-      "english": "So It Was Said 74 "
+      "pali": "Itivuttaka 74",
+      "english": "Itivuttaka 74"
     },
     {
       "number": 2,
-      "pali": "Tikanipāta ",
-      "english": "The Book of the Threes "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Tatiyavagga ",
-      "english": "Chapter Three "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, there are these three types of sons & daughters existing in the world. Which three? One of heightened birth, one of similar birth, one of lowered birth."
     },
     {
       "number": 4,
-      "pali": "Puttasutta ",
-      "english": "A Child "
+      "pali": "",
+      "english": "“And how is a son or daughter of heightened birth? There is the case where a son or daughter’s parents have not gone to the Buddha for refuge, have not gone to the Dhamma for refuge, have not gone to the Saṅgha for refuge. They do not abstain from taking life, from stealing, from sexual misconduct, from false speech, from fermented & distilled liquors that cause heedlessness. They are unprincipled & evil by nature. However, their son or daughter has gone to the Buddha for refuge, has gone to the Dhamma for refuge, has gone to the Saṅgha for refuge. He/she abstains from taking life, from stealing, from sexual misconduct, from false speech, from fermented & distilled liquors that cause heedlessness. He/she is principled & admirable by nature. This is called a son or daughter of heightened birth."
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "“And how is a son or daughter of similar birth? There is the case where a son or daughter’s parents have gone to the Buddha for refuge, have gone to the Dhamma for refuge, have gone to the Saṅgha for refuge. They abstain from taking life, from stealing, from sexual misconduct, from false speech, from fermented & distilled liquors that cause heedlessness. They are principled & admirable by nature. Their son or daughter has also gone to the Buddha for refuge, has gone to the Dhamma for refuge, has gone to the Saṅgha for refuge. He/she abstains from taking life, from stealing, from sexual misconduct, from false speech, from fermented & distilled liquors that cause heedlessness. He/she is principled & admirable by nature. This is called a son or daughter of similar birth."
     },
     {
       "number": 6,
-      "pali": "“Tayome, bhikkhave, puttā santo saṁvijjamānā lokasmiṁ. ",
-      "english": "“These three kinds of children are found in the world. "
+      "pali": "",
+      "english": "“And how is a son or daughter of lowered birth? There is the case where a son or daughter’s parents have gone to the Buddha for refuge, have gone to the Dhamma for refuge, have gone to the Saṅgha for refuge. They abstain from taking life, from stealing, from sexual misconduct, from false speech, from fermented & distilled liquors that cause heedlessness. They are principled & admirable by nature. However, their son or daughter has not gone to the Buddha for refuge, has not gone to the Dhamma for refuge, has not gone to the Saṅgha for refuge. He/she does not abstain from taking life, from stealing, from sexual misconduct, from false speech, from fermented & distilled liquors that cause heedlessness. He/she is unprincipled & evil by nature. This is called a son or daughter of lowered birth.”"
     },
     {
       "number": 7,
-      "pali": "Katame tayo? ",
-      "english": "What three? "
+      "pali": "",
+      "english": "The wise hope for a child"
     },
     {
       "number": 8,
-      "pali": "Atijāto, anujāto, avajātoti. ",
-      "english": "One who betters their birth, one who equals their birth, one who fails their birth. "
+      "pali": "",
+      "english": "of heightened or similar birth,"
     },
     {
       "number": 9,
-      "pali": "Kathañca, bhikkhave, putto atijāto hoti? ",
-      "english": "And how does a child better their birth? "
+      "pali": "",
+      "english": "not for one"
     },
     {
       "number": 10,
-      "pali": "Idha, bhikkhave, puttassa mātāpitaro honti—",
-      "english": "It’s when a child’s parents "
+      "pali": "",
+      "english": "of lowered birth,"
     },
     {
       "number": 11,
-      "pali": "na buddhaṁ saraṇaṁ gatā, na dhammaṁ saraṇaṁ gatā, na saṅghaṁ saraṇaṁ gatā; ",
-      "english": "have not gone for refuge to the Buddha, the teaching, and the Saṅgha. "
+      "pali": "",
+      "english": "a destroyer of the family."
     },
     {
       "number": 12,
-      "pali": "pāṇātipātā appaṭiviratā, adinnādānā appaṭiviratā, kāmesumicchācārā appaṭiviratā, musāvādā appaṭiviratā, surāmerayamajjapamādaṭṭhānā appaṭiviratā, dussīlā pāpadhammā. ",
-      "english": "They kill living creatures, steal, commit sexual misconduct, lie, and consume beer, wine, and liquor intoxicants. They’re immoral, of bad character. "
+      "pali": "",
+      "english": "These children in the world,"
     },
     {
       "number": 13,
-      "pali": "Putto ca nesaṁ hoti—",
-      "english": "But their child "
+      "pali": "",
+      "english": "lay followers"
     },
     {
       "number": 14,
-      "pali": "buddhaṁ saraṇaṁ gato, dhammaṁ saraṇaṁ gato, saṅghaṁ saraṇaṁ gato; ",
-      "english": "has gone for refuge to the Buddha, the teaching, and the Saṅgha. "
+      "pali": "",
+      "english": "–consummate in virtue, conviction;"
     },
     {
       "number": 15,
-      "pali": "pāṇātipātā paṭivirato, adinnādānā paṭivirato, kāmesumicchācārā paṭivirato, musāvādā paṭivirato, surāmerayamajjapamādaṭṭhānā paṭivirato, sīlavā kalyāṇadhammo. ",
-      "english": "They don’t kill living creatures, steal, commit sexual misconduct, lie, or consume beer, wine, and liquor intoxicants. They’re ethical, of good character. "
+      "pali": "",
+      "english": "generous, free from stinginess–"
     },
     {
       "number": 16,
-      "pali": "Evaṁ kho, bhikkhave, putto atijāto hoti. ",
-      "english": "That’s how a child betters their birth. "
+      "pali": "",
+      "english": "shine forth in any gathering"
     },
     {
       "number": 17,
-      "pali": "Kathañca, bhikkhave, putto anujāto hoti? ",
-      "english": "And how does a child equal their birth? "
+      "pali": "",
+      "english": "like the moon"
     },
     {
       "number": 18,
-      "pali": "Idha, bhikkhave, puttassa mātāpitaro honti—",
-      "english": "It’s when a child’s parents "
-    },
-    {
-      "number": 19,
-      "pali": "buddhaṁ saraṇaṁ gatā, dhammaṁ saraṇaṁ gatā, saṅghaṁ saraṇaṁ gatā; ",
-      "english": "have gone for refuge to the Buddha, the teaching, and the Saṅgha. "
-    },
-    {
-      "number": 20,
-      "pali": "pāṇātipātā paṭiviratā, adinnādānā paṭiviratā, kāmesumicchācārā paṭiviratā, musāvādā paṭiviratā, surāmerayamajjapamādaṭṭhānā paṭiviratā, sīlavanto kalyāṇadhammā. ",
-      "english": "They don’t kill living creatures, steal, commit sexual misconduct, lie, or consume beer, wine, and liquor intoxicants. They’re ethical, of good character. "
-    },
-    {
-      "number": 21,
-      "pali": "Puttopi nesaṁ hoti—",
-      "english": "And their child "
-    },
-    {
-      "number": 22,
-      "pali": "buddhaṁ saraṇaṁ gato, dhammaṁ saraṇaṁ gato, saṅghaṁ saraṇaṁ gato; ",
-      "english": "has gone for refuge to the Buddha, the teaching, and the Saṅgha. "
-    },
-    {
-      "number": 23,
-      "pali": "pāṇātipātā paṭivirato, adinnādānā paṭivirato, kāmesumicchācārā paṭivirato, musāvādā paṭivirato, surāmerayamajjapamādaṭṭhānā paṭivirato, sīlavā kalyāṇadhammo. ",
-      "english": "They don’t kill living creatures, steal, commit sexual misconduct, lie, or consume beer, wine, and liquor intoxicants. They’re ethical, of good character. "
-    },
-    {
-      "number": 24,
-      "pali": "Evaṁ kho, bhikkhave, putto anujāto hoti. ",
-      "english": "That’s how a child equals their birth. "
-    },
-    {
-      "number": 25,
-      "pali": "Kathañca, bhikkhave, putto avajāto hoti? ",
-      "english": "And how does a child fail their birth? "
-    },
-    {
-      "number": 26,
-      "pali": "Idha, bhikkhave, puttassa mātāpitaro honti—",
-      "english": "It’s when a child’s parents "
-    },
-    {
-      "number": 27,
-      "pali": "buddhaṁ saraṇaṁ gatā, dhammaṁ saraṇaṁ gatā, saṅghaṁ saraṇaṁ gatā; ",
-      "english": "have gone for refuge to the Buddha, the teaching, and the Saṅgha. "
-    },
-    {
-      "number": 28,
-      "pali": "pāṇātipātā paṭiviratā, adinnādānā paṭiviratā, kāmesumicchācārā paṭiviratā, musāvādā paṭiviratā, surāmerayamajjapamādaṭṭhānā paṭiviratā, sīlavanto kalyāṇadhammā. ",
-      "english": "They don’t kill living creatures, steal, commit sexual misconduct, lie, or consume beer, wine, and liquor intoxicants. They’re ethical, of good character. "
-    },
-    {
-      "number": 29,
-      "pali": "Putto ca nesaṁ hoti—",
-      "english": "But their child "
-    },
-    {
-      "number": 30,
-      "pali": "na buddhaṁ saraṇaṁ gato, na dhammaṁ saraṇaṁ gato, na saṅghaṁ saraṇaṁ gato; ",
-      "english": "has not gone for refuge to the Buddha, the teaching, and the Saṅgha. "
-    },
-    {
-      "number": 31,
-      "pali": "pāṇātipātā appaṭivirato, adinnādānā appaṭivirato, kāmesumicchācārā appaṭivirato, musāvādā appaṭivirato, surāmerayamajjapamādaṭṭhānā appaṭivirato, dussīlo pāpadhammo. ",
-      "english": "They kill living creatures, steal, commit sexual misconduct, lie, and consume beer, wine, and liquor intoxicants. They’re immoral, of bad character. "
-    },
-    {
-      "number": 32,
-      "pali": "Evaṁ kho, bhikkhave, putto avajāto hoti. ",
-      "english": "That’s how a child fails their birth. "
-    },
-    {
-      "number": 33,
-      "pali": "Ime kho, bhikkhave, tayo puttā santo saṁvijjamānā lokasmin”ti. ",
-      "english": "These are the three kinds of children found in the world.” "
-    },
-    {
-      "number": 34,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
-    },
-    {
-      "number": 35,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
-    },
-    {
-      "number": 36,
-      "pali": "“Atijātaṁ anujātaṁ, ",
-      "english": "“The astute wish for a child "
-    },
-    {
-      "number": 37,
-      "pali": "puttamicchanti paṇḍitā; ",
-      "english": "who betters or equals their birth; "
-    },
-    {
-      "number": 38,
-      "pali": "Avajātaṁ na icchanti, ",
-      "english": "not one who fails their birth, "
-    },
-    {
-      "number": 39,
-      "pali": "yo hoti kulagandhano. ",
-      "english": "disgracing their family. "
-    },
-    {
-      "number": 40,
-      "pali": "Ete kho puttā lokasmiṁ, ",
-      "english": "These are the children in the world "
-    },
-    {
-      "number": 41,
-      "pali": "ye bhavanti upāsakā; ",
-      "english": "who become lay devotees; "
-    },
-    {
-      "number": 42,
-      "pali": "Saddhā sīlena sampannā, ",
-      "english": "faithful, accomplished in ethics, "
-    },
-    {
-      "number": 43,
-      "pali": "vadaññū vītamaccharā; ",
-      "english": "bountiful, rid of stinginess. "
-    },
-    {
-      "number": 44,
-      "pali": "Cando abbhaghanā mutto, ",
-      "english": "Like the moon freed from clouds, "
-    },
-    {
-      "number": 45,
-      "pali": "parisāsu virocare”ti. ",
-      "english": "they shine in the assemblies.” "
-    },
-    {
-      "number": 46,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 47,
-      "pali": "Pañcamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "when freed from a cloud."
     }
   ]
 }

@@ -3,118 +3,83 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 35.80 ",
-      "english": "Linked Discourses 35.80 "
+      "pali": "Linked Discourses 35.80",
+      "english": "Linked Discourses 35.80"
     },
     {
       "number": 2,
-      "pali": "8. Gilānavagga ",
-      "english": "8. Sick "
+      "pali": "Avijjā Sutta",
+      "english": "Ignorance"
     },
     {
       "number": 3,
-      "pali": "Dutiyaavijjāpahānasutta ",
-      "english": "Giving Up Ignorance (2nd) "
+      "pali": "",
+      "english": "Then a certain monk went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there, he said to the Blessed One:"
     },
     {
       "number": 4,
-      "pali": "Atha kho aññataro bhikkhu …pe… etadavoca: ",
-      "english": "Then a mendicant went up to the Buddha … and asked him, "
+      "pali": "",
+      "english": "“Lord, is there any one thing with whose abandoning in a monk ignorance is abandoned and clear knowing arises?”"
     },
     {
       "number": 5,
-      "pali": "“atthi nu kho, bhante, eko dhammo yassa pahānā bhikkhuno avijjā pahīyati, vijjā uppajjatī”ti? ",
-      "english": "“Sir, is there one thing such that by giving it up a mendicant gives up ignorance and gives rise to knowledge?” "
+      "pali": "",
+      "english": "“Yes, monk, there is one thing with whose abandoning in a monk ignorance is abandoned and clear knowing arises.”"
     },
     {
       "number": 6,
-      "pali": "“Atthi kho, bhikkhu, eko dhammo yassa pahānā bhikkhuno avijjā pahīyati, vijjā uppajjatī”ti. ",
-      "english": "“There is, mendicant.” "
+      "pali": "",
+      "english": "“What is that one thing?”"
     },
     {
       "number": 7,
-      "pali": "“Katamo pana, bhante, eko dhammo yassa pahānā bhikkhuno avijjā pahīyati, vijjā uppajjatī”ti? ",
-      "english": "“But what is that one thing?” "
+      "pali": "",
+      "english": "“Ignorance, monk, is the one thing with whose abandoning in a monk ignorance is abandoned and clear knowing arises.”"
     },
     {
       "number": 8,
-      "pali": "“Avijjā kho, bhikkhu, eko dhammo yassa pahānā bhikkhuno avijjā pahīyati, vijjā uppajjatī”ti. ",
-      "english": "“Ignorance is one thing such that by giving it up a mendicant gives up ignorance and gives rise to knowledge.” "
+      "pali": "",
+      "english": "“But how does a monk know, how does a monk see, so that ignorance is abandoned and clear knowing arises?”"
     },
     {
       "number": 9,
-      "pali": "“Kathaṁ pana, bhante, jānato, kathaṁ passato avijjā pahīyati, vijjā uppajjatī”ti? ",
-      "english": "“But how does a mendicant know and see so as to give up ignorance and give rise to knowledge?” "
+      "pali": "",
+      "english": "“There is the case, monk, where a monk has heard, ‘All dhammas are unworthy of attachment.’ Having heard that all dhammas are unworthy of attachment, he directly knows every dhamma. Directly knowing every dhamma, he comprehends every dhamma. Comprehending every dhamma, he sees all themes [all objects] as something separate."
     },
     {
       "number": 10,
-      "pali": "“Idha, bhikkhu, bhikkhuno sutaṁ hoti: ",
-      "english": "“Take a mendicant who has heard: "
+      "pali": "",
+      "english": "“He sees the eye as something separate. He sees forms as something separate. He sees eye-consciousness as something separate. He sees eye-contact as something separate. And whatever arises in dependence on eye-contact—experienced either as pleasure, as pain, or as neither-pleasure-nor-pain—that too he sees as something separate."
     },
     {
       "number": 11,
-      "pali": "‘sabbe dhammā nālaṁ abhinivesāyā’ti. ",
-      "english": "‘Nothing is worth insisting on.’ "
+      "pali": "",
+      "english": "“He sees the ear as something separate.…"
     },
     {
       "number": 12,
-      "pali": "Evañcetaṁ, bhikkhu, bhikkhuno sutaṁ hoti: ",
-      "english": "When a mendicant has heard that "
+      "pali": "",
+      "english": "“He sees the nose as something separate.…"
     },
     {
       "number": 13,
-      "pali": "‘sabbe dhammā nālaṁ abhinivesāyā’ti. ",
-      "english": "nothing is worth insisting on, "
+      "pali": "",
+      "english": "“He sees the tongue as something separate.…"
     },
     {
       "number": 14,
-      "pali": "So sabbaṁ dhammaṁ abhijānāti, sabbaṁ dhammaṁ abhiññāya sabbaṁ dhammaṁ parijānāti, sabbaṁ dhammaṁ pariññāya sabbanimittāni aññato passati, cakkhuṁ aññato passati, rūpe … ",
-      "english": "they directly know all things. Directly knowing all things, they completely understand all things. Completely understanding all things, they see all signs as other. They see the eye, sights, "
+      "pali": "",
+      "english": "“He sees the body as something separate.…"
     },
     {
       "number": 15,
-      "pali": "cakkhuviññāṇaṁ … ",
-      "english": "eye consciousness, "
+      "pali": "",
+      "english": "“He sees the intellect as something separate. He sees ideas as something separate. He sees intellect-consciousness as something separate. He sees intellect-contact as something separate. And whatever arises in dependence on intellect-contact—experienced either as pleasure, as pain, or as neither-pleasure-nor-pain—that too he sees as something separate."
     },
     {
       "number": 16,
-      "pali": "cakkhusamphassaṁ … ",
-      "english": "and eye contact as other. "
-    },
-    {
-      "number": 17,
-      "pali": "yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi aññato passati …pe… ",
-      "english": "And they also see the pleasant, painful, or neutral feeling that arises dependent on eye contact as other. … "
-    },
-    {
-      "number": 18,
-      "pali": "manaṁ aññato passati, dhamme … ",
-      "english": "They see the mind, ideas, "
-    },
-    {
-      "number": 19,
-      "pali": "manoviññāṇaṁ … ",
-      "english": "mind consciousness, "
-    },
-    {
-      "number": 20,
-      "pali": "manosamphassaṁ … ",
-      "english": "and mind contact as other. "
-    },
-    {
-      "number": 21,
-      "pali": "yampidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi aññato passati. ",
-      "english": "And they also see the pleasant, painful, or neutral feeling that arises dependent on mind contact as other. "
-    },
-    {
-      "number": 22,
-      "pali": "Evaṁ kho, bhikkhu, jānato evaṁ passato bhikkhuno avijjā pahīyati, vijjā uppajjatī”ti. ",
-      "english": "That’s how a mendicant knows and sees so as to give up ignorance and give rise to knowledge.” "
-    },
-    {
-      "number": 23,
-      "pali": "Sattamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“This is how a monk knows, this is how a monk sees, so that ignorance is abandoned and clear knowing arises.”"
     }
   ]
 }

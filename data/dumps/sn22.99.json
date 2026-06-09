@@ -3,163 +3,93 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.99 ",
-      "english": "Linked Discourses 22.99 "
+      "pali": "Linked Discourses 22.99",
+      "english": "Linked Discourses 22.99"
     },
     {
       "number": 2,
-      "pali": "10. Pupphavagga ",
-      "english": "10. Flowers "
+      "pali": "Gaddūla Sutta",
+      "english": "The Leash (1)"
     },
     {
       "number": 3,
-      "pali": "Gaddulabaddhasutta ",
-      "english": "A Leash "
+      "pali": "",
+      "english": "Near Sāvatthī. There the Blessed One said: “Monks, from an inconceivable beginning comes transmigration. A beginning point is not evident, although beings hindered by ignorance and fettered by craving are transmigrating & wandering on."
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“There comes a time when the great ocean evaporates, dries up, & does not exist. But for beings—as long as they are hindered by ignorance, fettered by craving, transmigrating & wandering on—I don’t say that there is an end of suffering & stress."
     },
     {
       "number": 5,
-      "pali": "“Anamataggoyaṁ, bhikkhave, saṁsāro. ",
-      "english": "“Mendicants, this transmigration has no known beginning. "
+      "pali": "",
+      "english": "“There comes a time when Sineru, king of mountains, is consumed with flame, is destroyed, & does not exist. But for beings—as long as they are hindered by ignorance, fettered by craving, transmigrating & wandering on—I don’t say that there is an end of suffering & stress."
     },
     {
       "number": 6,
-      "pali": "Pubbā koṭi na paññāyati avijjānīvaraṇānaṁ sattānaṁ taṇhāsaṁyojanānaṁ sandhāvataṁ saṁsarataṁ. ",
-      "english": "No first point is found of sentient beings roaming and transmigrating, shrouded by ignorance and fettered by craving. "
+      "pali": "",
+      "english": "“There comes a time when the great earth is consumed with flame, is destroyed, & does not exist. But for beings—as long as they are hindered by ignorance, fettered by craving, transmigrating & wandering on—I don’t say that there is an end of suffering & stress."
     },
     {
       "number": 7,
-      "pali": "Hoti so, bhikkhave, samayo yaṁ mahāsamuddo ussussati visussati na bhavati; ",
-      "english": "There comes a time when the ocean dries up and evaporates and is no more. "
+      "pali": "",
+      "english": "“Just as a dog, tied by a leash to a post or stake, keeps running around and circling around that very post or stake; in the same way, an uninstructed, run-of-the-mill person—who has no regard for noble ones, is not well-versed or disciplined in their Dhamma; who has no regard for people of integrity, is not well-versed or disciplined in their Dhamma—assumes form to be the self, or the self as possessing form, or form as in the self, or the self as in form."
     },
     {
       "number": 8,
-      "pali": "na tvevāhaṁ, bhikkhave, avijjānīvaraṇānaṁ sattānaṁ taṇhāsaṁyojanānaṁ sandhāvataṁ saṁsarataṁ dukkhassa antakiriyaṁ vadāmi. ",
-      "english": "But in any case, there is no making an end of suffering for sentient beings roaming and transmigrating, shrouded by ignorance and fettered by craving, I say. "
+      "pali": "",
+      "english": "“He assumes feeling to be the self.…"
     },
     {
       "number": 9,
-      "pali": "Hoti so, bhikkhave, samayo yaṁ sineru pabbatarājā ḍayhati vinassati na bhavati; ",
-      "english": "There comes a time when Sineru the king of mountains is burned up and destroyed, and is no more. "
+      "pali": "",
+      "english": "“He assumes perception to be the self.…"
     },
     {
       "number": 10,
-      "pali": "na tvevāhaṁ, bhikkhave, avijjānīvaraṇānaṁ sattānaṁ taṇhāsaṁyojanānaṁ sandhāvataṁ saṁsarataṁ dukkhassa antakiriyaṁ vadāmi. ",
-      "english": "But in any case, there is no making an end of suffering for sentient beings roaming and transmigrating, shrouded by ignorance and fettered by craving, I say . "
+      "pali": "",
+      "english": "“He assumes fabrications to be the self.…"
     },
     {
       "number": 11,
-      "pali": "Hoti so, bhikkhave, samayo yaṁ mahāpathavī ḍayhati vinassati na bhavati; ",
-      "english": "There comes a time when the great earth is burned up and destroyed, and is no more. "
+      "pali": "",
+      "english": "“He assumes consciousness to be the self, or the self as possessing consciousness, or consciousness as in the self, or the self as in consciousness."
     },
     {
       "number": 12,
-      "pali": "na tvevāhaṁ, bhikkhave, avijjānīvaraṇānaṁ sattānaṁ taṇhāsaṁyojanānaṁ sandhāvataṁ saṁsarataṁ dukkhassa antakiriyaṁ vadāmi. ",
-      "english": "But in any case, there is no making an end of suffering for sentient beings roaming and transmigrating, shrouded by ignorance and fettered by craving, I say . "
+      "pali": "",
+      "english": "“He keeps running around and circling around that very form… that very feeling… that very perception… those very fabrications… that very consciousness. Running and circling around form… feeling… perception… fabrications… consciousness, he is not set loose from form, not set loose from feeling… from perception… from fabrications… not set loose from consciousness. He is not set loose from birth, aging, & death; from sorrows, lamentations, pains, distresses, & despairs. He is not set loose, I tell you, from suffering & stress."
     },
     {
       "number": 13,
-      "pali": "Seyyathāpi, bhikkhave, sā gaddulabaddho daḷhe khīle vā thambhe vā upanibaddho tameva khīlaṁ vā thambhaṁ vā anuparidhāvati anuparivattati; ",
-      "english": "Suppose a hound on a leash was tethered to a strong post or pillar. It would just keep running and circling around that post or pillar. "
+      "pali": "",
+      "english": "“But a well-instructed disciple of the noble ones—who has regard for noble ones, is well-versed & disciplined in their Dhamma; who has regard for people of integrity, is well-versed & disciplined in their Dhamma—doesn’t assume form to be the self, or the self as possessing form, or form as in the self, or the self as in form."
     },
     {
       "number": 14,
-      "pali": "evameva kho, bhikkhave, assutavā puthujjano ariyānaṁ adassāvī …pe… ",
-      "english": "In the same way, take an unlearned ordinary person who has not seen the noble ones, and is neither skilled nor trained in their teaching. They’ve not seen true persons, and are neither skilled nor trained in their teaching. "
+      "pali": "",
+      "english": "“He doesn’t assume feeling to be the self.…"
     },
     {
       "number": 15,
-      "pali": "sappurisadhamme avinīto rūpaṁ attato samanupassati …pe… ",
-      "english": "They regard form … "
+      "pali": "",
+      "english": "“He doesn’t assume perception to be the self.…"
     },
     {
       "number": 16,
-      "pali": "vedanaṁ attato samanupassati … ",
-      "english": "feeling … "
+      "pali": "",
+      "english": "“He doesn’t assume fabrications to be the self.…"
     },
     {
       "number": 17,
-      "pali": "saññaṁ attato samanupassati … ",
-      "english": "perception … "
+      "pali": "",
+      "english": "“He doesn’t assume consciousness to be the self, or the self as possessing consciousness, or consciousness as in the self, or the self as in consciousness."
     },
     {
       "number": 18,
-      "pali": "saṅkhāre attato samanupassati … ",
-      "english": "choices … "
-    },
-    {
-      "number": 19,
-      "pali": "viññāṇaṁ attato samanupassati, viññāṇavantaṁ vā attānaṁ; attani vā viññāṇaṁ, viññāṇasmiṁ vā attānaṁ. ",
-      "english": "consciousness as self, self as having consciousness, consciousness in self, or self in consciousness. "
-    },
-    {
-      "number": 20,
-      "pali": "So rūpaññeva anuparidhāvati anuparivattati, vedanaññeva …pe… saññaññeva … saṅkhāreyeva … viññāṇaññeva anuparidhāvati anuparivattati. ",
-      "english": "They just keep running and circling around form, feeling, perception, choices, and consciousness. "
-    },
-    {
-      "number": 21,
-      "pali": "So rūpaṁ anuparidhāvaṁ anuparivattaṁ, vedanaṁ …pe… saññaṁ … saṅkhāre … viññāṇaṁ anuparidhāvaṁ anuparivattaṁ, na parimuccati rūpamhā, na parimuccati vedanāya, na parimuccati saññāya, na parimuccati saṅkhārehi, na parimuccati viññāṇamhā, na parimuccati jātiyā jarāmaraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi. ",
-      "english": "Doing so, they’re not freed from form, feeling, perception, choices, and consciousness. They’re not freed from rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 22,
-      "pali": "‘Na parimuccati dukkhasmā’ti vadāmi. ",
-      "english": "They’re not freed from suffering, I say. "
-    },
-    {
-      "number": 23,
-      "pali": "Sutavā ca kho, bhikkhave, ariyasāvako ariyānaṁ dassāvī …pe… sappurisadhamme suvinīto, ",
-      "english": "A learned noble disciple has seen the noble ones, and is skilled and trained in the teaching of the noble ones. They’ve seen true persons, and are skilled and trained in the teaching of the true persons. "
-    },
-    {
-      "number": 24,
-      "pali": "na rūpaṁ attato samanupassati …pe… ",
-      "english": "They don’t regard form … "
-    },
-    {
-      "number": 25,
-      "pali": "na vedanaṁ … ",
-      "english": "feeling … "
-    },
-    {
-      "number": 26,
-      "pali": "na saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 27,
-      "pali": "na saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 28,
-      "pali": "na viññāṇaṁ attato samanupassati, na viññāṇavantaṁ vā attānaṁ; na attani vā viññāṇaṁ, na viññāṇasmiṁ vā attānaṁ. ",
-      "english": "or consciousness as self, self as having consciousness, consciousness in self, or self in consciousness. "
-    },
-    {
-      "number": 29,
-      "pali": "So rūpaṁ nānuparidhāvati nānuparivattati, vedanaṁ … saññaṁ … saṅkhāre … viññāṇaṁ nānuparidhāvati nānuparivattati. ",
-      "english": "They don’t keep running and circling around form, feeling, perception, choices, and consciousness. "
-    },
-    {
-      "number": 30,
-      "pali": "So rūpaṁ ananuparidhāvaṁ ananuparivattaṁ, vedanaṁ … saññaṁ … saṅkhāre … viññāṇaṁ ananuparidhāvaṁ ananuparivattaṁ; parimuccati rūpamhā, parimuccati vedanāya, parimuccati saññāya, parimuccati saṅkhārehi, parimuccati viññāṇamhā, parimuccati jātiyā jarāmaraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi. ",
-      "english": "By not doing so, they’re freed from form, feeling, perception, choices, and consciousness. They’re freed from rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 31,
-      "pali": "‘Parimuccati dukkhasmā’ti vadāmī”ti. ",
-      "english": "They’re freed from suffering, I say.” "
-    },
-    {
-      "number": 32,
-      "pali": "Sattamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“He doesn’t run around or circle around that very form… that very feeling… that very perception… those very fabrications… that very consciousness. He is set loose from form, set loose from feeling… from perception… from fabrications… set loose from consciousness. He is set loose from birth, aging, & death; from sorrows, lamentations, pains, distresses, & despairs. He is set loose, I tell you, from suffering & stress.”"
     }
   ]
 }

@@ -3,163 +3,143 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 44 ",
-      "english": "So It Was Said 44 "
+      "pali": "Itivuttaka 44",
+      "english": "Itivuttaka 44"
     },
     {
       "number": 2,
-      "pali": "Dukanipāta ",
-      "english": "The Book of the Twos "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Dutiyavagga ",
-      "english": "Chapter Two "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, there are these two forms of the Unbinding property. Which two? The Unbinding property with fuel remaining, & the Unbinding property with no fuel remaining."
     },
     {
       "number": 4,
-      "pali": "Nibbānadhātusutta ",
-      "english": "Elements of Extinguishment "
+      "pali": "",
+      "english": "“And what is the Unbinding property with fuel remaining? There is the case where a monk is an Arahant whose effluents have ended, who has reached fulfillment, finished the task, laid down the burden, attained the true goal, destroyed the fetter of becoming, and is released through right gnosis. His five sense faculties still remain and, owing to their being intact, he experiences the pleasing & the displeasing, and is sensitive to pleasure & pain. His ending of passion, aversion, & delusion is termed the Unbinding property with fuel remaining."
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "“And what is the Unbinding property with no fuel remaining? There is the case where a monk is an Arahant whose effluents have ended, who has reached fulfillment, finished the task, laid down the burden, attained the true goal, destroyed the fetter of becoming, and is released through right gnosis. For him, all that is sensed, being unrelished, will grow cold right here. This is termed the Unbinding property with no fuel remaining.”"
     },
     {
       "number": 6,
-      "pali": "“Dvemā, bhikkhave, nibbānadhātuyo. ",
-      "english": "“There are, mendicants, these two elements of extinguishment. "
+      "pali": "",
+      "english": "These two"
     },
     {
       "number": 7,
-      "pali": "Katamā dve? ",
-      "english": "What two? "
+      "pali": "",
+      "english": "proclaimed"
     },
     {
       "number": 8,
-      "pali": "Saupādisesā ca nibbānadhātu, anupādisesā ca nibbānadhātu. ",
-      "english": "The element of extinguishment with residue, and the element of extinguishment with no residue. "
+      "pali": "",
+      "english": "by the one with vision,"
     },
     {
       "number": 9,
-      "pali": "Katamā ca, bhikkhave, saupādisesā nibbānadhātu? ",
-      "english": "And what is the element of extinguishment with residue? "
+      "pali": "",
+      "english": "Unbinding properties"
     },
     {
       "number": 10,
-      "pali": "Idha, bhikkhave, bhikkhu arahaṁ hoti khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṁyojano sammadaññāvimutto. ",
-      "english": "It’s when a mendicant is a perfected one, with defilements ended, who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment. "
+      "pali": "",
+      "english": "the one independent,"
     },
     {
       "number": 11,
-      "pali": "Tassa tiṭṭhanteva pañcindriyāni yesaṁ avighātattā manāpāmanāpaṁ paccanubhoti, sukhadukkhaṁ paṭisaṁvedeti. ",
-      "english": "Their five sense faculties still remain. So long as their senses have not gone they continue to experience the agreeable and disagreeable, to feel pleasure and pain. "
+      "pali": "",
+      "english": "the one who is Such:"
     },
     {
       "number": 12,
-      "pali": "Tassa yo rāgakkhayo, dosakkhayo, mohakkhayo—",
-      "english": "The ending of greed, hate, and delusion in them "
+      "pali": "",
+      "english": "one property, here in this life,"
     },
     {
       "number": 13,
-      "pali": "ayaṁ vuccati, bhikkhave, saupādisesā nibbānadhātu. ",
-      "english": "is called the element of extinguishment with residue. "
+      "pali": "",
+      "english": "with fuel remaining"
     },
     {
       "number": 14,
-      "pali": "Katamā ca, bhikkhave, anupādisesā nibbānadhātu? ",
-      "english": "And what is the element of extinguishment with no residue? "
+      "pali": "",
+      "english": "from the destruction of [craving],"
     },
     {
       "number": 15,
-      "pali": "Idha, bhikkhave, bhikkhu arahaṁ hoti khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṁyojano sammadaññāvimutto. ",
-      "english": "It’s when a mendicant is a perfected one, with defilements ended, who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment. "
+      "pali": "",
+      "english": "the guide to becoming,"
     },
     {
       "number": 16,
-      "pali": "Tassa idheva, bhikkhave, sabbavedayitāni anabhinanditāni sīti bhavissanti. ",
-      "english": "For them, everything that’s felt, being no longer relished, will become cool right here. "
+      "pali": "",
+      "english": "and that with no fuel remaining,"
     },
     {
       "number": 17,
-      "pali": "Ayaṁ vuccati, bhikkhave, anupādisesā nibbānadhātu. ",
-      "english": "This is called the element of extinguishment with no residue. "
+      "pali": "",
+      "english": "after this life,"
     },
     {
       "number": 18,
-      "pali": "Imā kho, bhikkhave, dve nibbānadhātuyo”ti. ",
-      "english": "These are the two elements of extinguishment.” "
+      "pali": "",
+      "english": "in which all becoming"
     },
     {
       "number": 19,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "totally ceases."
     },
     {
       "number": 20,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "Those who know"
     },
     {
       "number": 21,
-      "pali": "“Duve imā cakkhumatā pakāsitā, ",
-      "english": "“These two elements of extinguishment <j>have been explained "
+      "pali": "",
+      "english": "this unfabricated state,"
     },
     {
       "number": 22,
-      "pali": "Nibbānadhātū anissitena tādinā; ",
-      "english": "by the Clear-eyed One, <j>the unattached, the unaffected. "
+      "pali": "",
+      "english": "their minds released"
     },
     {
       "number": 23,
-      "pali": "Ekā hi dhātu idha diṭṭhadhammikā, ",
-      "english": "One element pertains to this life—"
+      "pali": "",
+      "english": "through the destruction of [craving],"
     },
     {
       "number": 24,
-      "pali": "Saupādisesā bhavanettisaṅkhayā; ",
-      "english": "that with residue though the leash to existence has ended; "
+      "pali": "",
+      "english": "the guide to becoming,"
     },
     {
       "number": 25,
-      "pali": "Anupādisesā pana samparāyikā, ",
-      "english": "and that with no residue, <j>which pertains to what follows this life, "
+      "pali": "",
+      "english": "they, attaining the Dhamma’s heartwood,"
     },
     {
       "number": 26,
-      "pali": "Yamhi nirujjhanti bhavāni sabbaso. ",
-      "english": "where all states of existence cease. "
+      "pali": "",
+      "english": "delighting in ending,"
     },
     {
       "number": 27,
-      "pali": "Ye etadaññāya padaṁ asaṅkhataṁ, ",
-      "english": "Those who have fully understood <j>the unconditioned state—"
+      "pali": "",
+      "english": "have abandoned all becoming:"
     },
     {
       "number": 28,
-      "pali": "Vimuttacittā bhavanettisaṅkhayā; ",
-      "english": "their minds freed, the leash to existence ended—"
-    },
-    {
-      "number": 29,
-      "pali": "Te dhammasārādhigamā khaye ratā, ",
-      "english": "attained to the heart of the Dhamma, <j>they delight in ending, "
-    },
-    {
-      "number": 30,
-      "pali": "Pahaṁsu te sabbabhavāni tādino”ti. ",
-      "english": "the unaffected ones have given up <j>all states of existence.” "
-    },
-    {
-      "number": 31,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 32,
-      "pali": "Sattamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "they, the Such."
     }
   ]
 }

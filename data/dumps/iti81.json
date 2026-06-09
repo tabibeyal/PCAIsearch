@@ -3,128 +3,83 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 81 ",
-      "english": "So It Was Said 81 "
+      "pali": "Itivuttaka 81",
+      "english": "Itivuttaka 81"
     },
     {
       "number": 2,
-      "pali": "Tikanipāta ",
-      "english": "The Book of the Threes "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Catutthavagga ",
-      "english": "Chapter Four "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, I have seen beings conquered by receiving offerings–their minds overwhelmed–at the break-up of the body, after death, reappearing in a plane of deprivation, a bad destination, a lower realm, hell. I have seen beings conquered by not receiving offerings–their minds overwhelmed–at the break-up of the body, after death, reappearing in a plane of deprivation, a bad destination, a lower realm, hell. I have seen beings conquered both by receiving offerings & by not receiving offerings–their minds overwhelmed–at the break-up of the body, after death, reappearing in a plane of deprivation, a bad destination, a lower realm, hell."
     },
     {
       "number": 4,
-      "pali": "Sakkārasutta ",
-      "english": "Esteem "
+      "pali": "",
+      "english": "“It’s not through having heard it from another contemplative or brahman that I say, ‘I have seen beings conquered by receiving offerings–their minds overwhelmed–at the break-up of the body, after death, reappearing in a plane of deprivation, a bad destination, a lower realm, hell. I have seen beings conquered by not receiving offerings–their minds overwhelmed–at the break-up of the body, after death, reappearing in a plane of deprivation, a bad destination, a lower realm, hell. I have seen beings conquered both by receiving offerings & by not receiving offerings–their minds overwhelmed–at the break-up of the body, after death, reappearing in a plane of deprivation, a bad destination, a lower realm, hell.’"
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "“Instead, it’s from having known it myself, seen it myself, observed it myself that I say, ‘I have seen beings conquered by receiving offerings–their minds overwhelmed–at the break-up of the body, after death, reappearing in a plane of deprivation, a bad destination, a lower realm, hell. I have seen beings conquered by not receiving offerings–their minds overwhelmed–at the break-up of the body, after death, reappearing in a plane of deprivation, a bad destination, a lower realm, hell. I have seen beings conquered both by receiving offerings & by not receiving offerings–their minds overwhelmed–at the break-up of the body, after death, reappearing in a plane of deprivation, a bad destination, a lower realm, hell.’”"
     },
     {
       "number": 6,
-      "pali": "“Diṭṭhā mayā, bhikkhave, sattā sakkārena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapannā. ",
-      "english": "“I’ve seen, mendicants, sentient beings whose minds are overcome and overwhelmed by honor. When their body breaks up, after death, they’re reborn in a place of loss, a bad place, the underworld, hell. "
+      "pali": "",
+      "english": "Both when receiving offerings"
     },
     {
       "number": 7,
-      "pali": "Diṭṭhā mayā, bhikkhave, sattā asakkārena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapannā. ",
-      "english": "I’ve seen sentient beings whose minds are overcome and overwhelmed by not being honored. When their body breaks up, after death, they’re reborn in a place of loss, a bad place, the underworld, hell. "
+      "pali": "",
+      "english": "& not,"
     },
     {
       "number": 8,
-      "pali": "Diṭṭhā mayā, bhikkhave, sattā sakkārena ca asakkārena ca tadubhayena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapannā. ",
-      "english": "I’ve seen sentient beings whose minds are overcome and overwhelmed by both honor and by not being honored. When their body breaks up, after death, they’re reborn in a place of loss, a bad place, the underworld, hell. "
+      "pali": "",
+      "english": "his concentration"
     },
     {
       "number": 9,
-      "pali": "Taṁ kho panāhaṁ, bhikkhave, nāññassa samaṇassa vā brāhmaṇassa vā sutvā vadāmi; ",
-      "english": "Now, I don’t say this because I’ve heard it from some other ascetic or brahmin. "
+      "pali": "",
+      "english": "doesn’t waver;"
     },
     {
       "number": 10,
-      "pali": "(…) api ca, bhikkhave, yadeva me sāmaṁ ñātaṁ sāmaṁ diṭṭhaṁ sāmaṁ viditaṁ tamevāhaṁ vadāmi. ",
-      "english": "I only say it because I’ve known, seen, and realized it for myself.” "
+      "pali": "",
+      "english": "he remains"
     },
     {
       "number": 11,
-      "pali": "Diṭṭhā mayā, bhikkhave, sattā sakkārena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapannā. ",
-      "english": ""
+      "pali": "",
+      "english": "heedful:"
     },
     {
       "number": 12,
-      "pali": "Diṭṭhā mayā, bhikkhave, sattā asakkārena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapannā. ",
-      "english": ""
+      "pali": "",
+      "english": "he–continually absorbed in jhāna,"
     },
     {
       "number": 13,
-      "pali": "Diṭṭhā mayā, bhikkhave, sattā sakkārena ca asakkārena ca tadubhayena abhibhūtā, pariyādinnacittā, kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapannā”ti. ",
-      "english": ""
+      "pali": "",
+      "english": "subtle in view & clear-seeing,"
     },
     {
       "number": 14,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "enjoying the ending of clinging–"
     },
     {
       "number": 15,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "is called a man"
     },
     {
       "number": 16,
-      "pali": "“Yassa sakkariyamānassa, ",
-      "english": "“Whether they’re honored "
-    },
-    {
-      "number": 17,
-      "pali": "asakkārena cūbhayaṁ; ",
-      "english": "or not honored, or both, "
-    },
-    {
-      "number": 18,
-      "pali": "Samādhi na vikampati, ",
-      "english": "their immersion doesn’t waver "
-    },
-    {
-      "number": 19,
-      "pali": "appamādavihārino. ",
-      "english": "as they abide in the immeasurables. "
-    },
-    {
-      "number": 20,
-      "pali": "Taṁ jhāyinaṁ sātatikaṁ, ",
-      "english": "They persistently practice absorption "
-    },
-    {
-      "number": 21,
-      "pali": "sukhumadiṭṭhivipassakaṁ; ",
-      "english": "with subtle view and discernment. "
-    },
-    {
-      "number": 22,
-      "pali": "Upādānakkhayārāmaṁ, ",
-      "english": "Rejoicing in the ending of grasping, "
-    },
-    {
-      "number": 23,
-      "pali": "āhu sappuriso itī”ti. ",
-      "english": "they’re said to be a true person.” "
-    },
-    {
-      "number": 24,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 25,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "of integrity."
     }
   ]
 }

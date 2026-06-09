@@ -3,338 +3,108 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 44.8 ",
-      "english": "Linked Discourses 44.8 "
+      "pali": "Linked Discourses 44.8",
+      "english": "Linked Discourses 44.8"
     },
     {
       "number": 2,
-      "pali": "1. Abyākatavagga ",
-      "english": "1. The Undeclared Points "
+      "pali": "Vacchagotta Sutta",
+      "english": "With Vacchagotta"
     },
     {
       "number": 3,
-      "pali": "Vacchagottasutta ",
-      "english": "With Vacchagotta "
+      "pali": "",
+      "english": "Then Vacchagotta the wanderer went to the Blessed One and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings & courtesies, he sat to one side. As he was sitting there, he said to the Blessed One, “Now then, Master Gotama, is the cosmos eternal?”"
     },
     {
       "number": 4,
-      "pali": "Atha kho vacchagotto paribbājako yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
-      "english": "Then the wanderer Vacchagotta went up to the Buddha and exchanged greetings with him. "
+      "pali": "",
+      "english": "“That has not been declared by me, Vaccha: ‘The cosmos is eternal.’”"
     },
     {
       "number": 5,
-      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho vacchagotto paribbājako bhagavantaṁ etadavoca: ",
-      "english": "When the greetings and polite conversation were over, he sat down to one side, and said to the Buddha: "
+      "pali": "",
+      "english": "“Well then, Master Gotama, is the cosmos not eternal?”"
     },
     {
       "number": 6,
-      "pali": "“kiṁ nu kho, bho gotama, sassato loko”ti? ",
-      "english": "“Worthy Gotama, is this right: ‘the cosmos is eternal’?” "
+      "pali": "",
+      "english": "“Vaccha, that too has not been declared by me: ‘The cosmos is not eternal.’”"
     },
     {
       "number": 7,
-      "pali": "“Abyākataṁ kho etaṁ, vaccha, mayā: ‘sassato loko’ti …pe…. ",
-      "english": "“This has not been declared by me, Vaccha.” … "
+      "pali": "",
+      "english": "“Then is the cosmos finite?” … “Is the cosmos infinite?” … “Is the body the same as the soul?” … “Is the body one thing, and the soul another?” … “Does the Tathāgata exist after death?” … “Does the Tathāgata not exist after death?” … “Does the Tathāgata both exist and not exist after death?” … “Does the Tathāgata neither exist nor not exist after death?”"
     },
     {
       "number": 8,
-      "pali": "“Kiṁ pana, bho gotama, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’”ti? ",
-      "english": "“Then is this right: ‘a realized one neither still exists nor no longer exists after death’?” "
+      "pali": "",
+      "english": "“Vaccha, that too has not been declared by me: ‘The Tathāgata neither exists nor does not exist after death.”"
     },
     {
       "number": 9,
-      "pali": "“Etampi kho, vaccha, abyākataṁ mayā: ",
-      "english": "“This too has not been declared by me.” "
+      "pali": "",
+      "english": "“Now, Master Gotama, what is the cause, what is the reason why—when wanderers of other sects are asked in this way, they answer that ‘The cosmos is eternal’ or ‘The cosmos is not eternal’ or ‘The cosmos is finite’ or ‘The cosmos is infinite’ or ‘The body is the same as the soul’ or ‘The body is one thing and the soul another’ or ‘The Tathāgata exists after death’ or ‘The Tathāgata does not exist after death’ or ‘The Tathāgata both exists and does not exist after death” or ‘The Tathāgata neither exists nor does not exist after death,’ yet when Master Gotama is asked in this way, he does not answer that ‘The cosmos is eternal’ or ‘The cosmos is not eternal’ or ‘The cosmos is finite’ or ‘The cosmos is infinite’ or ‘The body is the same as the soul’ or ‘The body is one thing and the soul another’ or ‘The Tathāgata exists after death’ or ‘The Tathāgata does not exist after death’ or ‘The Tathāgata both exists and does not exist after death” or ‘The Tathāgata neither exists nor does not exist after death’?”"
     },
     {
       "number": 10,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’”ti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Vaccha, the members of other sects assume form to be the self, or the self as possessing form, or form as in the self, or the self as in form."
     },
     {
       "number": 11,
-      "pali": "“Ko nu kho, bho gotama, hetu, ko paccayo, yena aññatitthiyānaṁ paribbājakānaṁ evaṁ puṭṭhānaṁ evaṁ veyyākaraṇaṁ hoti: ",
-      "english": "“What’s the cause, worthy Gotama, what’s the reason why, when the wanderers of other religions are asked these questions, they declare one of these to be true? "
+      "pali": "",
+      "english": "“They assume feeling to be the self…"
     },
     {
       "number": 12,
-      "pali": "‘sassato loko’ti vā …pe… ",
-      "english": ""
+      "pali": "",
+      "english": "“They assume perception to be the self…"
     },
     {
       "number": 13,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā? ",
-      "english": ""
+      "pali": "",
+      "english": "“They assume fabrications to be the self…"
     },
     {
       "number": 14,
-      "pali": "Ko pana, bho gotama, hetu, ko paccayo, yena bhoto gotamassa evaṁ puṭṭhassa na evaṁ veyyākaraṇaṁ hoti: ",
-      "english": "And what’s the reason why, when the worthy Gotama is asked these questions, he does not declare one of these to be true?” "
+      "pali": "",
+      "english": "“They assume consciousness to be the self, or the self as possessing consciousness, or consciousness as in the self, or the self as in consciousness. That is why, when asked in this way, they answer that ‘The cosmos is eternal’ … or that ‘The Tathāgata neither exists nor does not exist after death.’"
     },
     {
       "number": 15,
-      "pali": "‘sassato loko’tipi …pe… ",
-      "english": ""
+      "pali": "",
+      "english": "“But the Tathāgata, worthy & rightly self-awakened, doesn’t assume form to be the self, or the self as possessing form, or form as in the self, or the self as in form."
     },
     {
       "number": 16,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipī”ti? ",
-      "english": ""
+      "pali": "",
+      "english": "“He doesn’t assume feeling to be the self…"
     },
     {
       "number": 17,
-      "pali": "“Aññatitthiyā kho, vaccha, paribbājakā rūpaṁ attato samanupassanti, rūpavantaṁ vā attānaṁ, attani vā rūpaṁ, rūpasmiṁ vā attānaṁ. ",
-      "english": "“Vaccha, the wanderers of other religions regard form as self, self as having form, form in self, or self in form. "
+      "pali": "",
+      "english": "“He doesn’t assume perception to be the self…"
     },
     {
       "number": 18,
-      "pali": "Vedanaṁ attato samanupassanti …pe… ",
-      "english": "They regard feeling … "
+      "pali": "",
+      "english": "“He doesn’t assume fabrications to be the self…"
     },
     {
       "number": 19,
-      "pali": "saññaṁ …pe… ",
-      "english": "perception … "
+      "pali": "",
+      "english": "“He doesn’t assume consciousness to be the self, or the self as possessing consciousness, or consciousness as in the self, or the self as in consciousness. That is why, when asked in this way, he does not answer that ‘The cosmos is eternal’ … or that ‘The Tathāgata neither exists nor does not exist after death.’”"
     },
     {
       "number": 20,
-      "pali": "saṅkhāre …pe… ",
-      "english": "choices … "
+      "pali": "",
+      "english": "The Vacchagotta the wanderer, getting up from his seat, went to Ven. Mahā Moggallāna and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings & courtesies, he sat to one side. As he was sitting there, he (addressed the same questions to Ven. Mahā Moggallāna and received exactly the same explanation)."
     },
     {
       "number": 21,
-      "pali": "viññāṇaṁ attato samanupassanti, viññāṇavantaṁ vā attānaṁ, attani vā viññāṇaṁ, viññāṇasmiṁ vā attānaṁ. ",
-      "english": "consciousness as self, self as having consciousness, consciousness in self, or self in consciousness. "
-    },
-    {
-      "number": 22,
-      "pali": "Tasmā aññatitthiyānaṁ paribbājakānaṁ evaṁ puṭṭhānaṁ evaṁ veyyākaraṇaṁ hoti: ",
-      "english": "That’s why, when asked, they declare one of those answers to be true. "
-    },
-    {
-      "number": 23,
-      "pali": "‘sassato loko’ti vā …pe… ",
-      "english": ""
-    },
-    {
-      "number": 24,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā. ",
-      "english": ""
-    },
-    {
-      "number": 25,
-      "pali": "Tathāgato ca kho, vaccha, arahaṁ sammāsambuddho na rūpaṁ attato samanupassati, na rūpavantaṁ vā attānaṁ, na attani vā rūpaṁ, na rūpasmiṁ vā attānaṁ. ",
-      "english": "The Realized One doesn’t regard form as self, self as having form, form in self, or self in form. "
-    },
-    {
-      "number": 26,
-      "pali": "Na vedanaṁ attato samanupassati …pe… ",
-      "english": "He doesn’t regard feeling … "
-    },
-    {
-      "number": 27,
-      "pali": "na saññaṁ …pe… ",
-      "english": "perception … "
-    },
-    {
-      "number": 28,
-      "pali": "na saṅkhāre …pe… ",
-      "english": "choices … "
-    },
-    {
-      "number": 29,
-      "pali": "na viññāṇaṁ attato samanupassati, na viññāṇavantaṁ vā attānaṁ, na attani vā viññāṇaṁ, na viññāṇasmiṁ vā attānaṁ. ",
-      "english": "consciousness as self, self as having consciousness, consciousness in self, or self in consciousness. "
-    },
-    {
-      "number": 30,
-      "pali": "Tasmā tathāgatassa evaṁ puṭṭhassa na evaṁ veyyākaraṇaṁ hoti: ",
-      "english": "That’s why, when asked, he does not declare one of those answers to be true.” "
-    },
-    {
-      "number": 31,
-      "pali": "‘sassato loko’tipi …pe… ",
-      "english": ""
-    },
-    {
-      "number": 32,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipī”ti. ",
-      "english": ""
-    },
-    {
-      "number": 33,
-      "pali": "Atha kho vacchagotto paribbājako uṭṭhāyāsanā yenāyasmā mahāmoggallāno tenupasaṅkami; upasaṅkamitvā āyasmatā mahāmoggallānena saddhiṁ sammodi. ",
-      "english": "Then the wanderer Vacchagotta got up from his seat and went to Venerable Mahāmoggallāna, and exchanged greetings with him. "
-    },
-    {
-      "number": 34,
-      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho vacchagotto paribbājako āyasmantaṁ mahāmoggallānaṁ etadavoca: ",
-      "english": "When the greetings and polite conversation were over, he sat down to one side. He asked Mahāmoggallāna the same questions, and received the same answers. "
-    },
-    {
-      "number": 35,
-      "pali": "“kiṁ nu kho, bho moggallāna, sassato loko”ti? ",
-      "english": ""
-    },
-    {
-      "number": 36,
-      "pali": "“Abyākataṁ kho etaṁ, vaccha, bhagavatā: ‘sassato loko’ti …pe…. ",
-      "english": ""
-    },
-    {
-      "number": 37,
-      "pali": "“Kiṁ pana, bho moggallāna, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’”ti? ",
-      "english": ""
-    },
-    {
-      "number": 38,
-      "pali": "“Etampi kho, vaccha, abyākataṁ bhagavatā: ",
-      "english": ""
-    },
-    {
-      "number": 39,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 40,
-      "pali": "“Ko nu kho, bho moggallāna, hetu, ko paccayo, yena aññatitthiyānaṁ paribbājakānaṁ evaṁ puṭṭhānaṁ evaṁ veyyākaraṇaṁ hoti: ",
-      "english": ""
-    },
-    {
-      "number": 41,
-      "pali": "‘sassato loko’ti vā …pe… ",
-      "english": ""
-    },
-    {
-      "number": 42,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā? ",
-      "english": ""
-    },
-    {
-      "number": 43,
-      "pali": "Ko pana, bho moggallāna, hetu, ko paccayo yena samaṇassa gotamassa evaṁ puṭṭhassa na evaṁ veyyākaraṇaṁ hoti: ",
-      "english": ""
-    },
-    {
-      "number": 44,
-      "pali": "‘sassato loko’tipi …pe… ",
-      "english": ""
-    },
-    {
-      "number": 45,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipī”ti? ",
-      "english": ""
-    },
-    {
-      "number": 46,
-      "pali": "“Aññatitthiyā kho, vaccha, paribbājakā rūpaṁ attato samanupassanti, rūpavantaṁ vā attānaṁ, attani vā rūpaṁ, rūpasmiṁ vā attānaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 47,
-      "pali": "Vedanaṁ attato samanupassanti …pe… ",
-      "english": ""
-    },
-    {
-      "number": 48,
-      "pali": "saññaṁ …pe… ",
-      "english": ""
-    },
-    {
-      "number": 49,
-      "pali": "saṅkhāre …pe… ",
-      "english": ""
-    },
-    {
-      "number": 50,
-      "pali": "viññāṇaṁ attato samanupassanti, viññāṇavantaṁ vā attānaṁ, attani vā viññāṇaṁ, viññāṇasmiṁ vā attānaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 51,
-      "pali": "Tasmā aññatitthiyānaṁ paribbājakānaṁ evaṁ puṭṭhānaṁ evaṁ veyyākaraṇaṁ hoti: ",
-      "english": ""
-    },
-    {
-      "number": 52,
-      "pali": "‘sassato loko’ti vā …pe… ",
-      "english": ""
-    },
-    {
-      "number": 53,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā. ",
-      "english": ""
-    },
-    {
-      "number": 54,
-      "pali": "Tathāgato ca kho, vaccha, arahaṁ sammāsambuddho na rūpaṁ attato samanupassati, na rūpavantaṁ vā attānaṁ, na attani vā rūpaṁ, na rūpasmiṁ vā attānaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 55,
-      "pali": "Na vedanaṁ attato samanupassati …pe… ",
-      "english": ""
-    },
-    {
-      "number": 56,
-      "pali": "na saññaṁ …pe… ",
-      "english": ""
-    },
-    {
-      "number": 57,
-      "pali": "na saṅkhāre …pe… ",
-      "english": ""
-    },
-    {
-      "number": 58,
-      "pali": "na viññāṇaṁ attato samanupassati, na viññāṇavantaṁ vā attānaṁ, na attani vā viññāṇaṁ, na viññāṇasmiṁ vā attānaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 59,
-      "pali": "Tasmā tathāgatassa evaṁ puṭṭhassa na evaṁ veyyākaraṇaṁ hoti: ",
-      "english": ""
-    },
-    {
-      "number": 60,
-      "pali": "‘sassato loko’tipi, ‘asassato loko’tipi, ‘antavā loko’tipi, ‘anantavā loko’tipi, ‘taṁ jīvaṁ taṁ sarīran’tipi, ‘aññaṁ jīvaṁ aññaṁ sarīran’tipi, ‘hoti tathāgato paraṁ maraṇā’tipi, ‘na hoti tathāgato paraṁ maraṇā’tipi, ‘hoti ca na ca hoti tathāgato paraṁ maraṇā’tipi, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipī”ti. ",
-      "english": ""
-    },
-    {
-      "number": 61,
-      "pali": "“Acchariyaṁ, bho moggallāna, abbhutaṁ, bho moggallāna. ",
-      "english": "He said, “It’s incredible, worthy Moggallāna, it’s amazing. "
-    },
-    {
-      "number": 62,
-      "pali": "Yatra hi nāma satthu ca sāvakassa ca atthena attho byañjanena byañjanaṁ saṁsandissati, samessati, na virodhayissati, yadidaṁ aggapadasmiṁ. ",
-      "english": "How the meaning and the phrasing of the teacher and the disciple fit together and agree without contradiction when it comes to the chief matter! "
-    },
-    {
-      "number": 63,
-      "pali": "Idānāhaṁ, bho moggallāna, samaṇaṁ gotamaṁ upasaṅkamitvā etamatthaṁ apucchiṁ. ",
-      "english": "Just now I went to the ascetic Gotama and asked him about this matter. "
-    },
-    {
-      "number": 64,
-      "pali": "Samaṇopi me gotamo etehi padehi etehi byañjanehi etamatthaṁ byākāsi, seyyathāpi bhavaṁ moggallāno. ",
-      "english": "And he explained it to me with these words and phrases, just like the worthy Moggallāna. "
-    },
-    {
-      "number": 65,
-      "pali": "Acchariyaṁ, bho moggallāna, abbhutaṁ, bho moggallāna. ",
-      "english": "It’s incredible, worthy Moggallāna, it’s amazing! "
-    },
-    {
-      "number": 66,
-      "pali": "Yatra hi nāma satthu ca sāvakassa ca atthena attho byañjanena byañjanaṁ saṁsandissati samessati na virodhayissati, yadidaṁ aggapadasmin”ti. ",
-      "english": "How the meaning and the phrasing of the teacher and the disciple fit together and agree without contradiction when it comes to the chief matter!” "
-    },
-    {
-      "number": 67,
-      "pali": "Aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Amazing, Master Moggallāna! Astounding! How the meaning and phrasing of the teacher and disciple agree, coincide, and do not diverge from one another with regard to the supreme teaching! Just now, Master Moggallāna, I went to the contemplative Gotama and, on arrival, asked him about this matter, and he answered me with the same words, the same phrasing, as Master Moggallāna. Amazing, Master Moggallāna! Astounding! How the meaning and phrasing of the teacher and disciple agree, coincide, and do not diverge from one another with regard to the supreme teaching!”"
     }
   ]
 }

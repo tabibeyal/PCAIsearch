@@ -3,88 +3,63 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 9 ",
-      "english": "So It Was Said 9 "
+      "pali": "Itivuttaka 9",
+      "english": "Itivuttaka 9"
     },
     {
       "number": 2,
-      "pali": "Ekakanipāta ",
-      "english": "The Book of the Ones "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Paṭhamavagga ",
-      "english": "Chapter One "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, one who has not fully known & fully understood greed, whose mind has not been cleansed of passion for it, has not abandoned it, is incapable of putting an end to stress. But one who has fully known & fully understood greed, who has detached his mind from it and let go of it, is capable of putting an end to stress.”"
     },
     {
       "number": 4,
-      "pali": "Lobhapariññāsutta ",
-      "english": "Complete Understanding of Greed "
+      "pali": "",
+      "english": "The greed with which"
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "beings go to a bad destination,"
     },
     {
       "number": 6,
-      "pali": "“Lobhaṁ, bhikkhave, anabhijānaṁ aparijānaṁ tattha cittaṁ avirājayaṁ appajahaṁ abhabbo dukkhakkhayāya. ",
-      "english": "“Mendicants, without directly knowing and completely understanding greed, without dispassion for it and giving it up, you can’t end suffering. "
+      "pali": "",
+      "english": "coveting:"
     },
     {
       "number": 7,
-      "pali": "Lobhañca kho, bhikkhave, abhijānaṁ parijānaṁ tattha cittaṁ virājayaṁ pajahaṁ bhabbo dukkhakkhayāyā”ti. ",
-      "english": "By directly knowing and completely understanding greed, having dispassion for it and giving it up, you can end suffering.” "
+      "pali": "",
+      "english": "from rightly knowing that greed,"
     },
     {
       "number": 8,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "those who see clearly"
     },
     {
       "number": 9,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "let go."
     },
     {
       "number": 10,
-      "pali": "“Yena lobhena luddhāse, ",
-      "english": "“When overcome by greed "
+      "pali": "",
+      "english": "Letting go,"
     },
     {
       "number": 11,
-      "pali": "sattā gacchanti duggatiṁ; ",
-      "english": "beings go to a bad place. "
+      "pali": "",
+      "english": "they never come to this world"
     },
     {
       "number": 12,
-      "pali": "Taṁ lobhaṁ sammadaññāya, ",
-      "english": "Having rightly understood that greed, "
-    },
-    {
-      "number": 13,
-      "pali": "pajahanti vipassino; ",
-      "english": "the discerning give it up. "
-    },
-    {
-      "number": 14,
-      "pali": "Pahāya na punāyanti, ",
-      "english": "Once they’ve given it up, "
-    },
-    {
-      "number": 15,
-      "pali": "imaṁ lokaṁ kudācanan”ti. ",
-      "english": "they never return to this world.” "
-    },
-    {
-      "number": 16,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 17,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "again."
     }
   ]
 }

@@ -3,113 +3,73 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 35.18 ",
-      "english": "Linked Discourses 35.18 "
+      "pali": "Linked Discourses 35.18",
+      "english": "Linked Discourses 35.18"
     },
     {
       "number": 2,
-      "pali": "2. Yamakavagga ",
-      "english": "2. Pairs "
+      "pali": "No Cedaṁ Sutta",
+      "english": "If There Were Not This (2)"
     },
     {
       "number": 3,
-      "pali": "Dutiyanoceassādasutta ",
-      "english": "If There Were No Gratification (Exterior) "
+      "pali": "",
+      "english": "“Monks, if there were not this allure to forms, beings would not become impassioned with forms. But because there is an allure to forms, beings become impassioned with forms."
     },
     {
       "number": 4,
-      "pali": "“No cedaṁ, bhikkhave, rūpānaṁ assādo abhavissa, nayidaṁ sattā rūpesu sārajjeyyuṁ. ",
-      "english": "“Mendicants, if there were no gratification in sights, sentient beings wouldn’t be aroused by them. …” "
+      "pali": "",
+      "english": "“If there were not these drawbacks to forms, beings would not become disenchanted with forms. But because there are drawbacks to forms, beings become disenchanted with forms."
     },
     {
       "number": 5,
-      "pali": "Yasmā ca kho, bhikkhave, atthi rūpānaṁ assādo, tasmā sattā rūpesu sārajjanti. ",
-      "english": ""
+      "pali": "",
+      "english": "“If there were not this escape from forms, beings would not escape from forms. But because there is an escape from forms, beings escape from forms."
     },
     {
       "number": 6,
-      "pali": "No cedaṁ, bhikkhave, rūpānaṁ ādīnavo abhavissa, nayidaṁ sattā rūpesu nibbindeyyuṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“If there were not this allure to sounds…"
     },
     {
       "number": 7,
-      "pali": "Yasmā ca kho, bhikkhave, atthi rūpānaṁ ādīnavo, tasmā sattā rūpesu nibbindanti. ",
-      "english": ""
+      "pali": "",
+      "english": "“If there were not this allure to aromas…"
     },
     {
       "number": 8,
-      "pali": "No cedaṁ, bhikkhave, rūpānaṁ nissaraṇaṁ abhavissa, nayidaṁ sattā rūpehi nissareyyuṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“If there were not this allure to flavors…"
     },
     {
       "number": 9,
-      "pali": "Yasmā ca kho, bhikkhave, atthi rūpānaṁ nissaraṇaṁ, tasmā sattā rūpehi nissaranti. ",
-      "english": ""
+      "pali": "",
+      "english": "“If there were not this allure to tactile sensations…"
     },
     {
       "number": 10,
-      "pali": "No cedaṁ, bhikkhave, saddānaṁ … ",
-      "english": ""
+      "pali": "",
+      "english": "“If there were not this allure to ideas, beings would not become impassioned with ideas. But because there is an allure to ideas, beings become impassioned with ideas."
     },
     {
       "number": 11,
-      "pali": "gandhānaṁ … ",
-      "english": ""
+      "pali": "",
+      "english": "“If there were not these drawbacks to ideas, beings would not become disenchanted with ideas. But because there are drawbacks to ideas, beings become disenchanted with ideas."
     },
     {
       "number": 12,
-      "pali": "rasānaṁ … ",
-      "english": ""
+      "pali": "",
+      "english": "“If there were not this escape from ideas, beings would not escape from ideas. But because there is an escape from ideas, beings escape from ideas."
     },
     {
       "number": 13,
-      "pali": "phoṭṭhabbānaṁ … ",
-      "english": ""
+      "pali": "",
+      "english": "“And, monks, as long as beings don’t know as it has come to be—with regard to these six external sense media—the allure as the allure, the drawbacks as the drawbacks, and the escape as the escape, they have not escaped from this cosmos with its devas, Māras, & Brahmās, this generation with its contemplatives & brahmans, its royalty & commonfolk, nor do they dwell disjoined from it, released from it, with unrestricted awareness."
     },
     {
       "number": 14,
-      "pali": "dhammānaṁ assādo abhavissa, nayidaṁ sattā dhammesu sārajjeyyuṁ. ",
-      "english": ""
-    },
-    {
-      "number": 15,
-      "pali": "Yasmā ca kho, bhikkhave, atthi dhammānaṁ assādo, tasmā sattā dhammesu sārajjanti. ",
-      "english": ""
-    },
-    {
-      "number": 16,
-      "pali": "No cedaṁ, bhikkhave, dhammānaṁ ādīnavo abhavissa, nayidaṁ sattā dhammesu nibbindeyyuṁ. ",
-      "english": ""
-    },
-    {
-      "number": 17,
-      "pali": "Yasmā ca kho, bhikkhave, atthi dhammānaṁ ādīnavo, tasmā sattā dhammesu nibbindanti. ",
-      "english": ""
-    },
-    {
-      "number": 18,
-      "pali": "No cedaṁ, bhikkhave, dhammānaṁ nissaraṇaṁ abhavissa, nayidaṁ sattā dhammehi nissareyyuṁ. ",
-      "english": ""
-    },
-    {
-      "number": 19,
-      "pali": "Yasmā ca kho, bhikkhave, atthi dhammānaṁ nissaraṇaṁ, tasmā sattā dhammehi nissaranti. ",
-      "english": ""
-    },
-    {
-      "number": 20,
-      "pali": "Yāvakīvañca, bhikkhave, sattā imesaṁ channaṁ bāhirānaṁ āyatanānaṁ assādañca assādato, ādīnavañca ādīnavato, nissaraṇañca nissaraṇato yathābhūtaṁ nābbhaññaṁsu, neva tāva, bhikkhave, sattā sadevakā lokā samārakā sabrahmakā sassamaṇabrāhmaṇiyā pajāya sadevamanussāya nissaṭā visaññuttā vippamuttā vimariyādīkatena cetasā vihariṁsu. ",
-      "english": ""
-    },
-    {
-      "number": 21,
-      "pali": "Yato ca kho, bhikkhave, sattā imesaṁ channaṁ bāhirānaṁ āyatanānaṁ assādañca assādato, ādīnavañca ādīnavato, nissaraṇañca nissaraṇato yathābhūtaṁ abbhaññaṁsu, atha, bhikkhave, sattā sadevakā lokā samārakā sabrahmakā sassamaṇabrāhmaṇiyā pajāya sadevamanussāya nissaṭā visaññuttā vippamuttā vimariyādīkatena cetasā viharantī”ti. ",
-      "english": ""
-    },
-    {
-      "number": 22,
-      "pali": "Chaṭṭhaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“But when beings know as it has come to be—with regard to these six external sense media—the allure as the allure, the drawbacks as the drawbacks, and the escape as the escape, they have escaped from this cosmos with its devas, Māras, & Brahmās, this generation with its contemplatives & brahmans, its royalty & commonfolk, and they dwell disjoined from it, released from it, with unrestricted awareness.”"
     }
   ]
 }

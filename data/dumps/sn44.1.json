@@ -3,603 +3,133 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 44.1 ",
-      "english": "Linked Discourses 44.1 "
+      "pali": "Linked Discourses 44.1",
+      "english": "Linked Discourses 44.1"
     },
     {
       "number": 2,
-      "pali": "1. Abyākatavagga ",
-      "english": "1. The Undeclared Points "
+      "pali": "Khema Sutta",
+      "english": "With Khemā"
     },
     {
       "number": 3,
-      "pali": "Khemāsutta ",
-      "english": "With Khemā "
+      "pali": "",
+      "english": "On one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion Khemā the nun, wandering on tour among the Kosalans, had taken up residence between Sāvatthī and Sāketa at Toraṇavatthu. Then King Pasenadi Kosala, while traveling from Sāketa to Sāvatthī, took up a one-night residence between Sāvatthī and Sāketa at Toraṇavatthu. Then he addressed a certain man, “Come, now, my good man. Find out if in Toraṇavatthu there’s the sort contemplative or brahman I might visit today.”"
     },
     {
       "number": 4,
-      "pali": "Ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
-      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+      "pali": "",
+      "english": "“As you say, sire,” the man responded to the king, but having roamed all over Toraṇavatthu he did not see the sort of contemplative or brahman the king might visit. But he did see Khemā the nun residing in Toraṇavatthu. On seeing her, he went to King Pasenadi Kosala and on arrival said to him, “Sire, in Toraṇavatthu there is no contemplative or brahman of the sort your majesty might visit. But there is, however, a nun named Khemā, a disciple of the Blessed One, worthy & rightly self-awakened. And of this lady, this admirable report has spread about: ‘She is wise, competent, intelligent, learned, a fluent speaker, admirable in her ingenuity.’ Let your majesty visit her.”"
     },
     {
       "number": 5,
-      "pali": "Tena kho pana samayena khemā bhikkhunī kosalesu cārikaṁ caramānā antarā ca sāvatthiṁ antarā ca sāketaṁ toraṇavatthusmiṁ vāsaṁ upagatā hoti. ",
-      "english": "Now at that time the nun Khemā was wandering in the land of the Kosalans between Sāvatthī and Sāketa when she took up residence in Toraṇavatthu. "
+      "pali": "",
+      "english": "Then King Pasenadi Kosala went to the Khemā the nun and, on arrival, having bowed down to her, sat to one side. As he was sitting there he said to her, “Now then, lady, does the Tathāgata exist after death?”"
     },
     {
       "number": 6,
-      "pali": "Atha kho rājā pasenadi kosalo sāketā sāvatthiṁ gacchanto, antarā ca sāketaṁ antarā ca sāvatthiṁ toraṇavatthusmiṁ ekarattivāsaṁ upagacchi. ",
-      "english": "Then King Pasenadi was traveling from Sāketa to Sāvatthī, and he too stayed in Toraṇavatthu for a single night. "
+      "pali": "",
+      "english": "“That, great king, has not been declared by the Blessed One: ‘The Tathāgata exists after death.’”"
     },
     {
       "number": 7,
-      "pali": "Atha kho rājā pasenadi kosalo aññataraṁ purisaṁ āmantesi: ",
-      "english": "Then King Pasenadi addressed a man, "
+      "pali": "",
+      "english": "“Well then, lady, does the Tathāgata not exist after death?”"
     },
     {
       "number": 8,
-      "pali": "“ehi tvaṁ, ambho purisa, toraṇavatthusmiṁ tathārūpaṁ samaṇaṁ vā brāhmaṇaṁ vā jāna yamahaṁ ajja payirupāseyyan”ti. ",
-      "english": "“Please, my friend, check if there’s a suitable (male) ascetic or brahmin in Toraṇavatthu to whom I can pay homage.” "
+      "pali": "",
+      "english": "“Great king, that too has not been declared by the Blessed One: ‘The Tathāgata does not exist after death.’”"
     },
     {
       "number": 9,
-      "pali": "“Evaṁ, devā”ti kho so puriso rañño pasenadissa kosalassa paṭissutvā kevalakappaṁ toraṇavatthuṁ āhiṇḍanto nāddasa tathārūpaṁ samaṇaṁ vā brāhmaṇaṁ vā yaṁ rājā pasenadi kosalo payirupāseyya. ",
-      "english": "“Yes, Your Majesty,” replied that man. He searched all over Toraṇavatthu, but he couldn’t see a suitable ascetic or brahmin for the king to pay homage to. "
+      "pali": "",
+      "english": "“Then does the Tathāgata both exist and not exist after death?”"
     },
     {
       "number": 10,
-      "pali": "Addasā kho so puriso khemaṁ bhikkhuniṁ toraṇavatthusmiṁ vāsaṁ upagataṁ. ",
-      "english": "But he saw that the nun Khemā was staying there, "
+      "pali": "",
+      "english": "“That has not been declared by the Blessed One: ‘The Tathāgata both exists and does not exist after death.’”"
     },
     {
       "number": 11,
-      "pali": "Disvāna yena rājā pasenadi kosalo tenupasaṅkami; upasaṅkamitvā rājānaṁ pasenadiṁ kosalaṁ etadavoca: ",
-      "english": "so he went to the king and said to him, "
+      "pali": "",
+      "english": "“Well then, does the Tathāgata neither exist nor not exist after death?”"
     },
     {
       "number": 12,
-      "pali": "“Natthi kho, deva, toraṇavatthusmiṁ tathārūpo samaṇo vā brāhmaṇo vā yaṁ devo payirupāseyya. ",
-      "english": "“Your Majesty, there’s no (male) ascetic or brahmin in Toraṇavatthu for the king to pay homage to. "
+      "pali": "",
+      "english": "“That too has not been declared by the Blessed One: ‘The Tathāgata neither exists nor does not exist after death.’”"
     },
     {
       "number": 13,
-      "pali": "Atthi ca kho, deva, khemā nāma bhikkhunī, tassa bhagavato sāvikā arahato sammāsambuddhassa. ",
-      "english": "But there is the nun Khemā, who’s a disciple of the Blessed One, the perfected one, the fully awakened Buddha. "
+      "pali": "",
+      "english": "“Now, lady, when asked if the Tathāgata exists after death, you say, ‘That has not been declared by the Blessed One: “The Tathāgata exists after death.”’ When asked if the Tathāgata does not exist after death… both exists and does not exist after death… neither exists nor does not exist after death, you say, ‘That too has not been declared by the Blessed One: “The Tathāgata neither exists nor does not exist after death.”’ Now, what is the cause, what is the reason, why that has not been declared by the Blessed One?”"
     },
     {
       "number": 14,
-      "pali": "Tassā kho pana ayyāya evaṁ kalyāṇo kittisaddo abbhuggato: ",
-      "english": "She has a good reputation as being "
+      "pali": "",
+      "english": "“Very well, then, great king, I will question you in return about this very same matter. Answer as you see fit. What do you think, great king? Do you have an accountant or calculator or mathematician who can count the grains of sand in the river Ganges as ‘so many grains of sand’ or ‘so many hundreds of grains of sand’ or ‘so many thousands of grains of sand’ or ‘so many hundreds of thousands of grains of sand’?”"
     },
     {
       "number": 15,
-      "pali": "‘paṇḍitā, viyattā medhāvinī bahussutā cittakathā kalyāṇapaṭibhānā’ti. ",
-      "english": "astute, competent, clever, learned, a brilliant speaker, and eloquent. "
+      "pali": "",
+      "english": "“No, lady.”"
     },
     {
       "number": 16,
-      "pali": "Taṁ devo payirupāsatū”ti. ",
-      "english": "Your Majesty may pay homage to her.” "
+      "pali": "",
+      "english": "“Then do you have an accountant or calculator or mathematician who can count the water in the great ocean as ‘so many buckets of water’ or ‘so many hundreds of buckets of water’ or ‘so many thousands of buckets of water’ or ‘so many hundreds of thousands of buckets of water’?”"
     },
     {
       "number": 17,
-      "pali": "Atha kho rājā pasenadi kosalo yena khemā bhikkhunī tenupasaṅkami; upasaṅkamitvā khemaṁ bhikkhuniṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho rājā pasenadi kosalo khemaṁ bhikkhuniṁ etadavoca: ",
-      "english": "Then King Pasenadi of Kosala went up to the nun Khemā, bowed, sat down to one side, and said to her: "
+      "pali": "",
+      "english": "“No, lady. Why is that? The great ocean is deep, boundless, hard to fathom.”"
     },
     {
       "number": 18,
-      "pali": "“kiṁ nu kho, ayye, hoti tathāgato paraṁ maraṇā”ti? ",
-      "english": "“Ma’am, does a realized one still exist after death?” "
+      "pali": "",
+      "english": "“Even so, great king, any physical form by which one describing the Tathāgata would describe him: That the Tathāgata has abandoned, its root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising. Freed from the classification of form, great king, the Tathāgata is deep, boundless, hard to fathom, like the ocean. ‘The Tathāgata exists after death’ doesn’t apply. ‘The Tathāgata doesn’t exist after death’ doesn’t apply. ‘The Tathāgata both exists and doesn’t exist after death’ doesn’t apply. ‘The Tathāgata neither exists nor doesn’t exist after death’ doesn’t apply."
     },
     {
       "number": 19,
-      "pali": "“Abyākataṁ kho etaṁ, mahārāja, bhagavatā: ",
-      "english": "“Great king, this has not been declared by the Buddha.” "
+      "pali": "",
+      "english": "“Any feeling… Any perception… Any fabrications…"
     },
     {
       "number": 20,
-      "pali": "‘hoti tathāgato paraṁ maraṇā’”ti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Any consciousness by which one describing the Tathāgata would describe him: That the Tathāgata has abandoned, its root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising. Freed from the classification of consciousness, great king, the Tathāgata is deep, boundless, hard to fathom, like the ocean. ‘The Tathāgata exists after death’ doesn’t apply. ‘The Tathāgata doesn’t exist after death doesn’t apply. ‘The Tathāgata both exists and doesn’t exist after death’ doesn’t apply. ‘The Tathāgata neither exists nor doesn’t exist after death’ doesn’t apply.”"
     },
     {
       "number": 21,
-      "pali": "“Kiṁ panayye, na hoti tathāgato paraṁ maraṇā”ti? ",
-      "english": "“Well then, does a realized one no longer exist after death?” "
+      "pali": "",
+      "english": "Then King Pasenadi Kosala, delighting in & approving of Khemā the nun’s words, got up from his seat, bowed down to her and—keeping her to his right—departed."
     },
     {
       "number": 22,
-      "pali": "“Etampi kho, mahārāja, abyākataṁ bhagavatā: ",
-      "english": "“This too has not been declared by the Buddha.” "
+      "pali": "",
+      "english": "Then at another time he went to the Blessed One and, on arrival, having bowed down to the Blessed One, sat to one side. As he was sitting there [he asked the Blessed One the same questions he had asked Khemā the nun, and received precisely the same responses and analogies. Then he exclaimed:]"
     },
     {
       "number": 23,
-      "pali": "‘na hoti tathāgato paraṁ maraṇā’”ti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Amazing, lord! Astounding! How the meaning and phrasing of the teacher and disciple agree, coincide, and do not diverge from one another with regard to the supreme teaching! Recently, lord, I went to Khemā the nun and, on arrival, asked her about this matter, and she answered me with the same words, the same phrasing, as the Blessed One. Amazing, lord! Astounding! How the meaning and phrasing of the teacher and disciple agree, coincide, and do not diverge from one another with regard to the supreme teaching!"
     },
     {
       "number": 24,
-      "pali": "“Kiṁ nu kho, ayye, hoti ca na ca hoti tathāgato paraṁ maraṇā”ti? ",
-      "english": "“Well then, does a realized one both exist and not exist after death?” "
+      "pali": "",
+      "english": "“Now, lord, we must go. Many are our duties, many our responsibilities.”"
     },
     {
       "number": 25,
-      "pali": "“Abyākataṁ kho etaṁ, mahārāja, bhagavatā: ",
-      "english": "“This has not been declared by the Buddha.” "
+      "pali": "",
+      "english": "“Then do, great king, what you think it is now time to do.”"
     },
     {
       "number": 26,
-      "pali": "‘hoti ca na ca hoti tathāgato paraṁ maraṇā’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 27,
-      "pali": "“Kiṁ panayye, neva hoti na na hoti tathāgato paraṁ maraṇā”ti. ",
-      "english": "“Well then, does a realized one neither exist nor not exist after death?” "
-    },
-    {
-      "number": 28,
-      "pali": "“Etampi kho, mahārāja, abyākataṁ bhagavatā: ",
-      "english": "“This too has not been declared by the Buddha.” "
-    },
-    {
-      "number": 29,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 30,
-      "pali": "“‘Kiṁ nu kho, ayye, hoti tathāgato paraṁ maraṇā’ti, iti puṭṭhā samānā: ",
-      "english": "“Ma’am, when asked these questions, you say "
-    },
-    {
-      "number": 31,
-      "pali": "‘abyākataṁ kho etaṁ, mahārāja, bhagavatā—",
-      "english": "that this has not been declared by the Buddha. "
-    },
-    {
-      "number": 32,
-      "pali": "hoti tathāgato paraṁ maraṇā’ti vadesi. ",
-      "english": ""
-    },
-    {
-      "number": 33,
-      "pali": "‘Kiṁ panayye, na hoti tathāgato paraṁ maraṇā’ti iti puṭṭhā samānā: ",
-      "english": ""
-    },
-    {
-      "number": 34,
-      "pali": "‘etampi kho, mahārāja, abyākataṁ bhagavatā—",
-      "english": ""
-    },
-    {
-      "number": 35,
-      "pali": "na hoti tathāgato paraṁ maraṇā’ti vadesi. ",
-      "english": ""
-    },
-    {
-      "number": 36,
-      "pali": "‘Kiṁ nu kho, ayye, hoti ca na ca hoti tathāgato paraṁ maraṇā’ti iti puṭṭhā samānā: ",
-      "english": ""
-    },
-    {
-      "number": 37,
-      "pali": "‘abyākataṁ kho etaṁ, mahārāja, bhagavatā—",
-      "english": ""
-    },
-    {
-      "number": 38,
-      "pali": "hoti ca na ca hoti tathāgato paraṁ maraṇā’ti vadesi. ",
-      "english": ""
-    },
-    {
-      "number": 39,
-      "pali": "‘Kiṁ panayye, neva hoti na na hoti tathāgato paraṁ maraṇā’ti iti puṭṭhā samānā: ",
-      "english": ""
-    },
-    {
-      "number": 40,
-      "pali": "‘etampi kho, mahārāja, abyākataṁ bhagavatā—",
-      "english": ""
-    },
-    {
-      "number": 41,
-      "pali": "neva hoti na na hoti tathāgato paraṁ maraṇā’ti vadesi. ",
-      "english": ""
-    },
-    {
-      "number": 42,
-      "pali": "Ko nu kho, ayye, hetu, ko paccayo yenetaṁ abyākataṁ bhagavatā”ti? ",
-      "english": "What’s the cause, what’s the reason why this has not been declared by the Buddha?” "
-    },
-    {
-      "number": 43,
-      "pali": "“Tena hi, mahārāja, taññevettha paṭipucchissāmi. Yathā te khameyya tathā naṁ byākareyyāsi. ",
-      "english": "“Well then, great king, I’ll ask you about this in return, and you can answer as you like. "
-    },
-    {
-      "number": 44,
-      "pali": "Taṁ kiṁ maññasi, mahārāja, ",
-      "english": "What do you think, great king? "
-    },
-    {
-      "number": 45,
-      "pali": "atthi te koci gaṇako vā muddiko vā saṅkhāyako vā yo pahoti gaṅgāya vālukaṁ gaṇetuṁ—",
-      "english": "Do you have any accountant or finger-tallier or reckoner who can count the grains of sand in the Ganges, that is, "
-    },
-    {
-      "number": 46,
-      "pali": "ettakā vālukā iti vā, ettakāni vālukasatāni iti vā, ettakāni vālukasahassāni iti vā, ettakāni vālukasatasahassāni iti vā”ti? ",
-      "english": "how many grains of sand there are, how many hundreds or thousands or hundreds of thousands of grains of sand?” "
-    },
-    {
-      "number": 47,
-      "pali": "“No hetaṁ, ayye”. ",
-      "english": "“No, ma’am.” "
-    },
-    {
-      "number": 48,
-      "pali": "“Atthi pana te koci gaṇako vā muddiko vā saṅkhāyako vā yo pahoti mahāsamudde udakaṁ gaṇetuṁ—",
-      "english": "“Do you have any accountant or finger-tallier or reckoner who can count the water in the ocean, that is, "
-    },
-    {
-      "number": 49,
-      "pali": "ettakāni udakāḷhakāni iti vā, ettakāni udakāḷhakasatāni iti vā, ettakāni udakāḷhakasahassāni iti vā, ettakāni udakāḷhakasatasahassāni iti vā”ti? ",
-      "english": "how many gallons of water there are, how many hundreds or thousands or hundreds of thousands of gallons of water?” "
-    },
-    {
-      "number": 50,
-      "pali": "“No hetaṁ, ayye”. ",
-      "english": "“No, ma’am. "
-    },
-    {
-      "number": 51,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 52,
-      "pali": "“Mahāyye, samuddo gambhīro appameyyo duppariyogāho”ti. ",
-      "english": "Because the ocean is deep, immeasurable, and hard to fathom.” "
-    },
-    {
-      "number": 53,
-      "pali": "“Evameva kho, mahārāja, yena rūpena tathāgataṁ paññāpayamāno paññāpeyya taṁ rūpaṁ tathāgatassa pahīnaṁ ucchinnamūlaṁ tālāvatthukataṁ anabhāvaṅkataṁ āyatiṁ anuppādadhammaṁ. ",
-      "english": "“In the same way, great king, any form by which a realized one might be described has been cut off at the root, made like a palm stump, obliterated, and unable to arise in the future. "
-    },
-    {
-      "number": 54,
-      "pali": "Rūpasaṅkhāyavimutto kho, mahārāja, tathāgato gambhīro appameyyo duppariyogāho—",
-      "english": "A realized one is freed from reckoning in terms of form. They’re deep, immeasurable, and hard to fathom, "
-    },
-    {
-      "number": 55,
-      "pali": "seyyathāpi mahāsamuddo. ",
-      "english": "like the ocean. "
-    },
-    {
-      "number": 56,
-      "pali": "‘Hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘na hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘hoti ca na ca hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipi na upeti. ",
-      "english": "To say that after death, a realized one still exists, or no longer exists, or both still exists and no longer exists, or neither still exists nor no longer exists: none of these apply. "
-    },
-    {
-      "number": 57,
-      "pali": "Yāya vedanāya tathāgataṁ paññāpayamāno paññāpeyya, sā vedanā tathāgatassa pahīnā ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
-      "english": "Any feeling … "
-    },
-    {
-      "number": 58,
-      "pali": "Vedanāsaṅkhāyavimutto, mahārāja, tathāgato gambhīro appameyyo duppariyogāho—",
-      "english": ""
-    },
-    {
-      "number": 59,
-      "pali": "seyyathāpi mahāsamuddo. ",
-      "english": ""
-    },
-    {
-      "number": 60,
-      "pali": "‘Hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘na hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘hoti ca na ca hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipi na upeti. ",
-      "english": ""
-    },
-    {
-      "number": 61,
-      "pali": "Yāya saññāya tathāgataṁ …pe… ",
-      "english": "perception … "
-    },
-    {
-      "number": 62,
-      "pali": "yehi saṅkhārehi tathāgataṁ paññāpayamāno paññāpeyya, te saṅkhārā tathāgatassa pahīnā ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
-      "english": "choices … "
-    },
-    {
-      "number": 63,
-      "pali": "Saṅkhārasaṅkhāyavimutto kho, mahārāja, tathāgato gambhīro appameyyo duppariyogāho—",
-      "english": ""
-    },
-    {
-      "number": 64,
-      "pali": "seyyathāpi mahāsamuddo. ",
-      "english": ""
-    },
-    {
-      "number": 65,
-      "pali": "‘Hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘na hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘hoti ca na ca hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipi na upeti. ",
-      "english": ""
-    },
-    {
-      "number": 66,
-      "pali": "Yena viññāṇena tathāgataṁ paññāpayamāno paññāpeyya taṁ viññāṇaṁ tathāgatassa pahīnaṁ ucchinnamūlaṁ tālāvatthukataṁ anabhāvaṅkataṁ āyatiṁ anuppādadhammaṁ. ",
-      "english": "consciousness by which a realized one might be described has been cut off at the root, made like a palm stump, obliterated, and unable to arise in the future. "
-    },
-    {
-      "number": 67,
-      "pali": "Viññāṇasaṅkhāyavimutto kho, mahārāja, tathāgato gambhīro appameyyo duppariyogāho—",
-      "english": "A realized one is freed from reckoning in terms of consciousness. They’re deep, immeasurable, and hard to fathom, "
-    },
-    {
-      "number": 68,
-      "pali": "seyyathāpi mahāsamuddo. ",
-      "english": "like the ocean. "
-    },
-    {
-      "number": 69,
-      "pali": "‘Hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘na hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘hoti ca na ca hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipi na upetī”ti. ",
-      "english": "To say that after death, a realized one still exists, or no longer exists, or both still exists and no longer exists, or neither still exists nor no longer exists: none of these apply.” "
-    },
-    {
-      "number": 70,
-      "pali": "Atha kho rājā pasenadi kosalo khemāya bhikkhuniyā bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā khemaṁ bhikkhuniṁ abhivādetvā padakkhiṇaṁ katvā pakkāmi. ",
-      "english": "Then King Pasenadi approved and agreed with what the nun Khemā said. Then he got up from his seat, bowed, and respectfully circled her, keeping her on his right, before leaving. "
-    },
-    {
-      "number": 71,
-      "pali": "Atha kho rājā pasenadi kosalo aparena samayena yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho rājā pasenadi kosalo bhagavantaṁ etadavoca: ",
-      "english": "Then on a later occasion King Pasenadi of Kosala went up to the Buddha, bowed, and sat down to one side. He asked the Buddha exactly the same questions he had asked the nun Khemā, and received the same answers. "
-    },
-    {
-      "number": 72,
-      "pali": "“kiṁ nu kho, bhante, hoti tathāgato paraṁ maraṇā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 73,
-      "pali": "“Abyākataṁ kho etaṁ, mahārāja, mayā: ",
-      "english": ""
-    },
-    {
-      "number": 74,
-      "pali": "‘hoti tathāgato paraṁ maraṇā’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 75,
-      "pali": "“Kiṁ pana, bhante, na hoti tathāgato paraṁ maraṇā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 76,
-      "pali": "“Etampi kho, mahārāja, abyākataṁ mayā: ",
-      "english": ""
-    },
-    {
-      "number": 77,
-      "pali": "‘na hoti tathāgato paraṁ maraṇā’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 78,
-      "pali": "“Kiṁ nu kho, bhante, hoti ca na ca hoti tathāgato paraṁ maraṇā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 79,
-      "pali": "“Abyākataṁ kho etaṁ, mahārāja, mayā: ",
-      "english": ""
-    },
-    {
-      "number": 80,
-      "pali": "‘hoti ca na ca hoti tathāgato paraṁ maraṇā’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 81,
-      "pali": "“Kiṁ pana, bhante, neva hoti na na hoti tathāgato paraṁ maraṇā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 82,
-      "pali": "“Etampi kho, mahārāja, abyākataṁ mayā: ",
-      "english": ""
-    },
-    {
-      "number": 83,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 84,
-      "pali": "“‘Kiṁ nu kho, bhante, hoti tathāgato paraṁ maraṇā’ti iti puṭṭho samāno: ",
-      "english": ""
-    },
-    {
-      "number": 85,
-      "pali": "‘abyākataṁ kho etaṁ, mahārāja, mayā—hoti tathāgato paraṁ maraṇā’ti vadesi …pe…. ",
-      "english": ""
-    },
-    {
-      "number": 86,
-      "pali": "“‘Kiṁ pana, bhante, neva hoti na na hoti tathāgato paraṁ maraṇā’ti iti puṭṭho samāno: ",
-      "english": ""
-    },
-    {
-      "number": 87,
-      "pali": "‘etampi kho, mahārāja, abyākataṁ mayā—",
-      "english": ""
-    },
-    {
-      "number": 88,
-      "pali": "neva hoti na na hoti tathāgato paraṁ maraṇā’ti vadesi. ",
-      "english": ""
-    },
-    {
-      "number": 89,
-      "pali": "Ko nu kho, bhante, hetu, ko paccayo, yenetaṁ abyākataṁ bhagavatā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 90,
-      "pali": "“Tena hi, mahārāja, taññevettha paṭipucchissāmi. Yathā te khameyya tathā naṁ byākareyyāsi. ",
-      "english": ""
-    },
-    {
-      "number": 91,
-      "pali": "Taṁ kiṁ maññasi, mahārāja, atthi te koci gaṇako vā muddiko vā saṅkhāyako vā yo pahoti gaṅgāya vālukaṁ gaṇetuṁ—",
-      "english": ""
-    },
-    {
-      "number": 92,
-      "pali": "ettakā vālukā iti vā …pe… ettakāni vālukasatasahassāni iti vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 93,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 94,
-      "pali": "“Atthi pana te koci gaṇako vā muddiko vā saṅkhāyako vā yo pahoti mahāsamudde udakaṁ gaṇetuṁ—",
-      "english": ""
-    },
-    {
-      "number": 95,
-      "pali": "ettakāni udakāḷhakāni iti vā …pe… ettakāni udakāḷhakasatasahassāni iti vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 96,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 97,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": ""
-    },
-    {
-      "number": 98,
-      "pali": "“Mahā, bhante, samuddo gambhīro appameyyo duppariyogāho. ",
-      "english": ""
-    },
-    {
-      "number": 99,
-      "pali": "Evameva kho, mahārāja, yena rūpena tathāgataṁ paññāpayamāno paññāpeyya, taṁ rūpaṁ tathāgatassa pahīnaṁ ucchinnamūlaṁ tālāvatthukataṁ anabhāvaṅkataṁ āyatiṁ anuppādadhammaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 100,
-      "pali": "Rūpasaṅkhāyavimutto kho, mahārāja, tathāgato gambhīro appameyyo duppariyogāho—",
-      "english": ""
-    },
-    {
-      "number": 101,
-      "pali": "seyyathāpi mahāsamuddo. ",
-      "english": ""
-    },
-    {
-      "number": 102,
-      "pali": "‘Hoti tathāgato paraṁ maraṇā’tipi na upeti …pe… ",
-      "english": ""
-    },
-    {
-      "number": 103,
-      "pali": "‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipi na upeti. ",
-      "english": ""
-    },
-    {
-      "number": 104,
-      "pali": "Yāya vedanāya …pe… ",
-      "english": ""
-    },
-    {
-      "number": 105,
-      "pali": "yāya saññāya …pe… yehi saṅkhārehi …pe…. ",
-      "english": ""
-    },
-    {
-      "number": 106,
-      "pali": "Yena viññāṇena tathāgataṁ paññāpayamāno paññāpeyya, taṁ viññāṇaṁ tathāgatassa pahīnaṁ ucchinnamūlaṁ tālāvatthukataṁ anabhāvaṅkataṁ āyatiṁ anuppādadhammaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 107,
-      "pali": "Viññāṇasaṅkhāyavimutto kho, mahārāja, tathāgato gambhīro appameyyo duppariyogāho—",
-      "english": ""
-    },
-    {
-      "number": 108,
-      "pali": "seyyathāpi mahāsamuddo. ",
-      "english": ""
-    },
-    {
-      "number": 109,
-      "pali": "‘Hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘na hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘hoti ca na ca hoti tathāgato paraṁ maraṇā’tipi na upeti, ‘neva hoti na na hoti tathāgato paraṁ maraṇā’tipi na upetī”ti. ",
-      "english": ""
-    },
-    {
-      "number": 110,
-      "pali": "“Acchariyaṁ, bhante, abbhutaṁ, bhante. ",
-      "english": "He said, “It’s incredible, sir, it’s amazing! "
-    },
-    {
-      "number": 111,
-      "pali": "Yatra hi nāma satthu ceva sāvikāya ca atthena attho byañjanena byañjanaṁ saṁsandissati, samessati, na virodhayissati yadidaṁ aggapadasmiṁ. ",
-      "english": "How the meaning and the phrasing of the teacher and the disciple fit together and agree without contradiction when it comes to the chief matter! "
-    },
-    {
-      "number": 112,
-      "pali": "Ekamidāhaṁ, bhante, samayaṁ khemaṁ bhikkhuniṁ upasaṅkamitvā etamatthaṁ apucchiṁ. ",
-      "english": "This one time I went to the nun Khemā and asked her about this matter. "
-    },
-    {
-      "number": 113,
-      "pali": "Sāpi me ayyā etehi padehi etehi byañjanehi etamatthaṁ byākāsi, seyyathāpi bhagavā. ",
-      "english": "And she explained it to me with these words and phrases, just like the Buddha. "
-    },
-    {
-      "number": 114,
-      "pali": "Acchariyaṁ, bhante, abbhutaṁ, bhante. ",
-      "english": "It’s incredible, sir, it’s amazing! "
-    },
-    {
-      "number": 115,
-      "pali": "Yatra hi nāma satthu ceva sāvikāya ca atthena attho byañjanena byañjanaṁ saṁsandissati, samessati, na virodhayissati yadidaṁ aggapadasmiṁ. ",
-      "english": "How the meaning and the phrasing of the teacher and the disciple fit together and agree without contradiction when it comes to the chief matter! "
-    },
-    {
-      "number": 116,
-      "pali": "Handa dāni mayaṁ, bhante, gacchāma. ",
-      "english": "Well, now, sir, I must go. "
-    },
-    {
-      "number": 117,
-      "pali": "Bahukiccā mayaṁ bahukaraṇīyā”ti. ",
-      "english": "I have many duties, and much to do.” "
-    },
-    {
-      "number": 118,
-      "pali": "“Yassadāni tvaṁ, mahārāja, kālaṁ maññasī”ti. ",
-      "english": "“Please, great king, go at your convenience.” "
-    },
-    {
-      "number": 119,
-      "pali": "Atha kho rājā pasenadi kosalo bhagavato bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā pakkāmīti. ",
-      "english": "Then King Pasenadi approved and agreed with what the Buddha said. Then he got up from his seat, bowed, and respectfully circled him, keeping him on his right, before leaving. "
-    },
-    {
-      "number": 120,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "So King Pasenadi Kosala, delighting in and approving of the Blessed One’s words, got up from his seat, bowed down to the Blessed One and—keeping him to his right—departed."
     }
   ]
 }

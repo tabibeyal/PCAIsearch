@@ -3,383 +3,108 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 4.192 ",
-      "english": "Numbered Discourses 4.192 "
+      "pali": "Numerical Discourses 4.192",
+      "english": "Numerical Discourses 4.192"
     },
     {
       "number": 2,
-      "pali": "20. Mahāvagga ",
-      "english": "20. The Great Chapter "
+      "pali": "Ṭhāna Sutta",
+      "english": "Traits"
     },
     {
       "number": 3,
-      "pali": "Ṭhānasutta ",
-      "english": "Facts "
+      "pali": "",
+      "english": "“Monks, these four traits may be known by means of four (other) traits. Which four?"
     },
     {
       "number": 4,
-      "pali": "“Cattārimāni, bhikkhave, ṭhānāni catūhi ṭhānehi veditabbāni. ",
-      "english": "“Mendicants, these four things can be known in four situations. "
+      "pali": "",
+      "english": "“It’s through living together that a person’s virtue may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning."
     },
     {
       "number": 5,
-      "pali": "Katamāni cattāri? ",
-      "english": "What four? "
+      "pali": "",
+      "english": "“It’s through dealing with a person that his purity may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning."
     },
     {
       "number": 6,
-      "pali": "Saṁvāsena, bhikkhave, sīlaṁ veditabbaṁ, tañca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññena. ",
-      "english": "You can get to know a person’s ethics by living with them. But only after a long time, not casually; only when attentive, not when inattentive; and only by the wise, not the witless. "
+      "pali": "",
+      "english": "“It’s through adversity that a person’s endurance may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning."
     },
     {
       "number": 7,
-      "pali": "Saṁvohārena, bhikkhave, soceyyaṁ veditabbaṁ, tañca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññena. ",
-      "english": "You can get to know a person’s purity by dealing with them. … "
+      "pali": "",
+      "english": "“It’s through discussion that a person’s discernment may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning."
     },
     {
       "number": 8,
-      "pali": "Āpadāsu, bhikkhave, thāmo veditabbo, so ca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññena. ",
-      "english": "You can get to know a person’s resilience in times of trouble. … "
+      "pali": "",
+      "english": "[1] “‘It’s through living together that a person’s virtue may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning’: Thus it was said. And in reference to what was it said?"
     },
     {
       "number": 9,
-      "pali": "Sākacchāya, bhikkhave, paññā veditabbā, sā ca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenāti. ",
-      "english": "You can get to know a person’s wisdom by discussion. But only after a long time, not casually; only when attentive, not when inattentive; and only by the wise, not the witless. "
+      "pali": "",
+      "english": "“There is the case where one individual, through living with another, knows this: ‘For a long time this person has been torn, broken, spotted, splattered in his actions. He hasn’t been consistent in his actions. He hasn’t practiced consistently with regard to the precepts. He is an unprincipled person, not a virtuous, principled one.’ And then there is the case where one individual, through living with another, knows this: ‘For a long time this person has been untorn, unbroken, unspotted, unsplattered in his actions. He has been consistent in his actions. He has practiced consistently with regard to the precepts. He is a virtuous, principled person, not an unprincipled one.’"
     },
     {
       "number": 10,
-      "pali": "‘Saṁvāsena, bhikkhave, sīlaṁ veditabbaṁ, tañca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenā’ti, ",
-      "english": "‘You can get to know a person’s ethics by living with them. But only after a long time, not casually; only when attentive, not when inattentive; and only by the wise, not the witless.’ "
+      "pali": "",
+      "english": "“‘It’s through living together that a person’s virtue may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning’: Thus it was said. And in reference to this was it said."
     },
     {
       "number": 11,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
+      "pali": "",
+      "english": "[2] “‘It’s through dealing with a person that his purity may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning’: Thus it was said. And in reference to what was it said?"
     },
     {
       "number": 12,
-      "pali": "Idha, bhikkhave, puggalo puggalena saddhiṁ saṁvasamāno evaṁ jānāti: ",
-      "english": "Take an individual who’s living with someone else. They come to know: "
+      "pali": "",
+      "english": "“There is the case where one individual, through dealing with another, knows this: ‘This person deals one way when one-on-one, another way when with two, another way when with three, another way when with many. His earlier dealings do not jibe with his later dealings. He is impure in his dealings, not pure.’ And then there is the case where one individual, through dealing with another, knows this: ‘The way this person deals when one-on-one, is the same way he deals when with two, when with three, when with many. His earlier dealings jibe with his later dealings. He is pure in his dealings, not impure.’"
     },
     {
       "number": 13,
-      "pali": "‘dīgharattaṁ kho ayamāyasmā khaṇḍakārī chiddakārī sabalakārī kammāsakārī, na santatakārī na santatavutti; ",
-      "english": "‘For a long time this venerable’s deeds have been broken, tainted, spotty, and marred. Their deeds and behavior are inconsistent. "
+      "pali": "",
+      "english": "“‘It’s through dealing with a person that his purity may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning’: Thus it was said. And in reference to this was it said."
     },
     {
       "number": 14,
-      "pali": "sīlesu dussīlo ayamāyasmā, nāyamāyasmā sīlavā’ti. ",
-      "english": "This venerable is unethical, not ethical.’ "
+      "pali": "",
+      "english": "[3] “‘It’s through adversity that a person’s endurance may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning’: Thus it was said. And in reference to what was it said?"
     },
     {
       "number": 15,
-      "pali": "Idha pana, bhikkhave, puggalo puggalena saddhiṁ saṁvasamāno evaṁ jānāti: ",
-      "english": "Take another individual who’s living with someone else. They come to know: "
+      "pali": "",
+      "english": "“There is the case where a person, suffering loss of relatives, loss of wealth, or loss through disease, doesn’t reflect: ‘That’s how it is when living together in the world. That’s how it is when gaining a personal identity [atta-bhāva , literally “self-state”]. When there is living in the world, when there is the gaining of a personal identity, these eight worldly conditions spin after the world, and the world spins after these eight worldly conditions: gain, loss, status, disgrace, censure, praise, pleasure, & pain.’ Suffering loss of relatives, loss of wealth, or loss through disease, he sorrows, grieves, & laments, beats his breast, becomes distraught. And then there is the case where a person, suffering loss of relatives, loss of wealth, or loss through disease, reflects: ‘That’s how it is when living together in the world. That’s how it is when gaining a personal identity. When there is living in the world, when there is the gaining of a personal identity, these eight worldly conditions spin after the world, and the world spins after these eight worldly conditions: gain, loss, status, disgrace, censure, praise, pleasure, & pain.’ Suffering loss of relatives, loss of wealth, or loss through disease, he doesn’t sorrow, grieve, or lament, doesn’t beat his breast or become distraught."
     },
     {
       "number": 16,
-      "pali": "‘dīgharattaṁ kho ayamāyasmā akhaṇḍakārī acchiddakārī asabalakārī akammāsakārī santatakārī santatavutti; ",
-      "english": "‘For a long time this venerable’s deeds have been intact, impeccable, spotless, and unmarred. Their deeds and behavior are consistent. "
+      "pali": "",
+      "english": "“‘It’s through adversity that a person’s endurance may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning’: Thus it was said. And in reference to this was it said."
     },
     {
       "number": 17,
-      "pali": "sīlesu sīlavā ayamāyasmā, nāyamāyasmā dussīlo’ti. ",
-      "english": "This venerable is ethical, not unethical.’ "
+      "pali": "",
+      "english": "[4] “‘It’s through discussion that a person’s discernment may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning’: Thus it was said. And in reference to what was it said?"
     },
     {
       "number": 18,
-      "pali": "‘Saṁvāsena, bhikkhave, sīlaṁ veditabbaṁ, tañca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenā’ti, iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s why I said that you can get to know a person’s ethics by living with them. But only after a long time, not a short time; only when attentive, not when inattentive; and only by the wise, not the witless. "
+      "pali": "",
+      "english": "“There is the case where one individual, through discussion with another, knows this: ‘From the way this person rises to an issue, from the way he applies (his reasoning), from the way he addresses a question, he is dull, not discerning. Why is that? He doesn’t make statements that are deep, tranquil, refined, beyond the scope of conjecture, subtle, to-be-experienced by the wise. He cannot declare the meaning, teach it, describe it, set it forth, reveal it, explain it, or make it plain. He is dull, not discerning.’ Just as if a man with good eyesight standing on the shore of a body of water were to see a small fish rise. The thought would occur to him, ‘From the rise of this fish, from the break of its ripples, from its speed, it is a small fish, not a large one.’ In the same way, one individual, in discussion with another, knows this: ‘From the way this person rises to an issue, from the way he applies (his reasoning), from the way he addresses a question… he is dull, not discerning.’"
     },
     {
       "number": 19,
-      "pali": "‘Saṁvohārena, bhikkhave, soceyyaṁ veditabbaṁ, tañca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenā’ti, ",
-      "english": "‘You can get to know a person’s purity by dealing with them. …’ "
+      "pali": "",
+      "english": "“And then there is the case where one individual, through discussion with another, knows this: ‘From the way this person rises to an issue, from the way he applies (his reasoning), from the way he addresses a question, he is discerning, not dull. Why is that? He makes statements that are deep, tranquil, refined, beyond the scope of conjecture, subtle, to-be-experienced by the wise. He can declare the meaning, teach it, describe it, set it forth, reveal it, explain it, & make it plain. He is discerning, not dull.’ Just as if a man with good eyesight standing on the shore of a body of water were to see a large fish rise. The thought would occur to him, ‘From the rise of this fish, from the break of its ripples, from its speed, it is a large fish, not a small one.’ In the same way, one individual, in discussion with another, knows this: ‘From the way this person rises to an issue, from the way he applies (his reasoning), from the way he addresses a question… he is discerning, not dull.’"
     },
     {
       "number": 20,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
+      "pali": "",
+      "english": "“‘It’s through discussion that a person’s discernment may be known, and then only after a long period, not a short period; by one who is attentive, not by one who is inattentive; by one who is discerning, not by one who is not discerning’: Thus it was said. And in reference to this was it said."
     },
     {
       "number": 21,
-      "pali": "Idha, bhikkhave, puggalo puggalena saddhiṁ saṁvoharamāno evaṁ jānāti: ",
-      "english": "Take an individual who has dealings with someone else. They come to know: "
-    },
-    {
-      "number": 22,
-      "pali": "‘aññathā kho ayamāyasmā ekena eko voharati, aññathā dvīhi, aññathā tīhi, aññathā sambahulehi; ",
-      "english": "‘This venerable deals with one person in one way. Then they deal with two, three, or many people each in different ways. "
-    },
-    {
-      "number": 23,
-      "pali": "vokkamati ayamāyasmā purimavohārā pacchimavohāraṁ; ",
-      "english": "They’re not consistent from one deal to the next. "
-    },
-    {
-      "number": 24,
-      "pali": "aparisuddhavohāro ayamāyasmā, nāyamāyasmā parisuddhavohāro’ti. ",
-      "english": "This venerable’s dealings are impure, not pure.’ "
-    },
-    {
-      "number": 25,
-      "pali": "Idha pana, bhikkhave, puggalo puggalena saddhiṁ saṁvoharamāno evaṁ jānāti: ",
-      "english": "Take another individual who has dealings with someone else. They come to know: "
-    },
-    {
-      "number": 26,
-      "pali": "‘yatheva kho ayamāyasmā ekena eko voharati, tathā dvīhi, tathā tīhi, tathā sambahulehi. ",
-      "english": "‘This venerable deals with one person in one way. Then they deal with two, three, or many people each in the same way. "
-    },
-    {
-      "number": 27,
-      "pali": "Nāyamāyasmā vokkamati purimavohārā pacchimavohāraṁ; ",
-      "english": "They’re consistent from one deal to the next. "
-    },
-    {
-      "number": 28,
-      "pali": "parisuddhavohāro ayamāyasmā, nāyamāyasmā aparisuddhavohāro’ti. ",
-      "english": "This venerable’s dealings are pure, not impure.’ "
-    },
-    {
-      "number": 29,
-      "pali": "‘Saṁvohārena, bhikkhave, soceyyaṁ veditabbaṁ, tañca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenā’ti, iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s why I said that you can get to know a person’s purity by dealing with them. … "
-    },
-    {
-      "number": 30,
-      "pali": "‘Āpadāsu, bhikkhave, thāmo veditabbo, so ca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenā’ti, ",
-      "english": "‘You can get to know a person’s resilience in times of trouble. …’ "
-    },
-    {
-      "number": 31,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
-    },
-    {
-      "number": 32,
-      "pali": "Idha, bhikkhave, ekacco ñātibyasanena vā phuṭṭho samāno, bhogabyasanena vā phuṭṭho samāno, rogabyasanena vā phuṭṭho samāno na iti paṭisañcikkhati: ",
-      "english": "Take someone who experiences loss of family, wealth, or health. But they don’t reflect: "
-    },
-    {
-      "number": 33,
-      "pali": "‘tathābhūto kho ayaṁ lokasannivāso tathābhūto ayaṁ attabhāvapaṭilābho yathābhūte lokasannivāse yathābhūte attabhāvapaṭilābhe aṭṭha lokadhammā lokaṁ anuparivattanti loko ca aṭṭha lokadhamme anuparivattati—",
-      "english": "‘Worldly life is like that. Incarnation is like that. That’s why the eight worldly conditions revolve around the world, and the world revolves around the eight worldly conditions: "
-    },
-    {
-      "number": 34,
-      "pali": "lābho ca, alābho ca, yaso ca, ayaso ca, nindā ca, pasaṁsā ca, sukhañca, dukkhañcā’ti. ",
-      "english": "gain and loss, fame and disgrace, blame and praise, pleasure and pain.’ "
-    },
-    {
-      "number": 35,
-      "pali": "So ñātibyasanena vā phuṭṭho samāno bhogabyasanena vā phuṭṭho samāno rogabyasanena vā phuṭṭho samāno socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati. ",
-      "english": "They sorrow and wail and lament, beating their breast and falling into confusion. "
-    },
-    {
-      "number": 36,
-      "pali": "Idha pana, bhikkhave, ekacco ñātibyasanena vā phuṭṭho samāno bhogabyasanena vā phuṭṭho samāno rogabyasanena vā phuṭṭho samāno iti paṭisañcikkhati: ",
-      "english": "Take someone else who experiences loss of family, wealth, or health. But they reflect: "
-    },
-    {
-      "number": 37,
-      "pali": "‘tathābhūto kho ayaṁ lokasannivāso tathābhūto ayaṁ attabhāvapaṭilābho yathābhūte lokasannivāse yathābhūte attabhāvapaṭilābhe aṭṭha lokadhammā lokaṁ anuparivattanti loko ca aṭṭha lokadhamme anuparivattati—",
-      "english": "‘Worldly life is like that. Incarnation is like that. That’s why the eight worldly conditions revolve around the world, and the world revolves around the eight worldly conditions: "
-    },
-    {
-      "number": 38,
-      "pali": "lābho ca, alābho ca, yaso ca, ayaso ca, nindā ca, pasaṁsā ca, sukhañca, dukkhañcā’ti. ",
-      "english": "gain and loss, fame and disgrace, blame and praise, pleasure and pain.’ "
-    },
-    {
-      "number": 39,
-      "pali": "So ñātibyasanena vā phuṭṭho samāno bhogabyasanena vā phuṭṭho samāno rogabyasanena vā phuṭṭho samāno na socati na kilamati na paridevati, na urattāḷiṁ kandati, na sammohaṁ āpajjati. ",
-      "english": "They don’t sorrow or wail or lament, beating their breast and falling into confusion. "
-    },
-    {
-      "number": 40,
-      "pali": "‘Āpadāsu, bhikkhave, thāmo veditabbo, so ca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenā’ti, ",
-      "english": "That’s why I said that you can get to know a person’s resilience in times of trouble. … "
-    },
-    {
-      "number": 41,
-      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 42,
-      "pali": "‘Sākacchāya, bhikkhave, paññā veditabbā, sā ca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenā’ti, ",
-      "english": "‘You can get to know a person’s wisdom by discussion. But only after a long time, not casually; only when attentive, not when inattentive; and only by the wise, not the witless.’ "
-    },
-    {
-      "number": 43,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
-    },
-    {
-      "number": 44,
-      "pali": "Idha, bhikkhave, puggalo puggalena saddhiṁ sākacchāyamāno evaṁ jānāti: ",
-      "english": "Take an individual who is discussing with someone else. They come to know: "
-    },
-    {
-      "number": 45,
-      "pali": "‘yathā kho imassa āyasmato ummaggo yathā ca abhinīhāro yathā ca pañhāsamudāhāro, duppañño ayamāyasmā, nāyamāyasmā paññavā. ",
-      "english": "‘Judging by this venerable’s approach, by what they’re getting at, and by how they discuss a question, they’re witless, not wise. "
-    },
-    {
-      "number": 46,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 47,
-      "pali": "Tathā hi ayamāyasmā na ceva gambhīraṁ atthapadaṁ udāharati santaṁ paṇītaṁ atakkāvacaraṁ nipuṇaṁ paṇḍitavedanīyaṁ. ",
-      "english": "This venerable does not bring up a deep and meaningful saying that is peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. "
-    },
-    {
-      "number": 48,
-      "pali": "Yañca ayamāyasmā dhammaṁ bhāsati tassa ca nappaṭibalo saṅkhittena vā vitthārena vā atthaṁ ācikkhituṁ desetuṁ paññāpetuṁ paṭṭhapetuṁ vivarituṁ vibhajituṁ uttānīkātuṁ. ",
-      "english": "When this venerable speaks on Dhamma they’re not able to explain the meaning, either briefly or in detail. They can’t teach it, assert it, establish it, clarify it, analyze it, or reveal it. "
-    },
-    {
-      "number": 49,
-      "pali": "Duppañño ayamāyasmā, nāyamāyasmā paññavā’ti. ",
-      "english": "This venerable is witless, not wise.’ "
-    },
-    {
-      "number": 50,
-      "pali": "Seyyathāpi, bhikkhave, cakkhumā puriso udakarahadassa tīre ṭhito passeyya parittaṁ macchaṁ ummujjamānaṁ. ",
-      "english": "Suppose a person with clear eyes was standing on the bank of a lake. They’d see a little fish rising, "
-    },
-    {
-      "number": 51,
-      "pali": "Tassa evamassa: ",
-      "english": "and think: "
-    },
-    {
-      "number": 52,
-      "pali": "‘yathā kho imassa macchassa ummaggo yathā ca ūmighāto yathā ca vegāyitattaṁ, paritto ayaṁ maccho, nāyaṁ maccho mahanto’ti. ",
-      "english": "‘Judging by this fish’s approach, by the ripples it makes, and by its force, it’s a little fish, not a big one.’ "
-    },
-    {
-      "number": 53,
-      "pali": "Evamevaṁ kho, bhikkhave, puggalo puggalena saddhiṁ sākacchāyamāno evaṁ jānāti: ",
-      "english": "In the same way, an individual who is discussing with someone else would come to know: "
-    },
-    {
-      "number": 54,
-      "pali": "‘yathā kho imassa āyasmato ummaggo yathā ca abhinīhāro yathā ca pañhāsamudāhāro, duppañño ayamāyasmā, nāyamāyasmā paññavā. ",
-      "english": "‘Judging by this venerable’s approach, by what they’re getting at, and by how they discuss a question, they’re witless, not wise. …’ "
-    },
-    {
-      "number": 55,
-      "pali": "Taṁ kissa hetu? ",
-      "english": ""
-    },
-    {
-      "number": 56,
-      "pali": "Tathā hi ayamāyasmā na ceva gambhīraṁ atthapadaṁ udāharati santaṁ paṇītaṁ atakkāvacaraṁ nipuṇaṁ paṇḍitavedanīyaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 57,
-      "pali": "Yañca ayamāyasmā dhammaṁ bhāsati, tassa ca na paṭibalo saṅkhittena vā vitthārena vā atthaṁ ācikkhituṁ desetuṁ paññāpetuṁ paṭṭhapetuṁ vivarituṁ vibhajituṁ uttānīkātuṁ. ",
-      "english": ""
-    },
-    {
-      "number": 58,
-      "pali": "Duppañño ayamāyasmā, nāyamāyasmā paññavā’ti. ",
-      "english": ""
-    },
-    {
-      "number": 59,
-      "pali": "Idha pana, bhikkhave, puggalo puggalena saddhiṁ sākacchāyamāno evaṁ jānāti: ",
-      "english": "Take another individual who is discussing with someone else. They come to know: "
-    },
-    {
-      "number": 60,
-      "pali": "‘yathā kho imassa āyasmato ummaggo yathā ca abhinīhāro yathā ca pañhāsamudāhāro, paññavā ayamāyasmā, nāyamāyasmā duppañño. ",
-      "english": "‘Judging by this venerable’s approach, by what they’re getting at, and by how they discuss a question, they’re wise, not witless. "
-    },
-    {
-      "number": 61,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 62,
-      "pali": "Tathā hi ayamāyasmā gambhīrañceva atthapadaṁ udāharati santaṁ paṇītaṁ atakkāvacaraṁ nipuṇaṁ paṇḍitavedanīyaṁ. ",
-      "english": "This venerable brings up a deep and meaningful saying that is peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. "
-    },
-    {
-      "number": 63,
-      "pali": "Yañca ayamāyasmā dhammaṁ bhāsati, tassa ca paṭibalo saṅkhittena vā vitthārena vā atthaṁ ācikkhituṁ desetuṁ paññāpetuṁ paṭṭhapetuṁ vivarituṁ vibhajituṁ uttānīkātuṁ. ",
-      "english": "When this venerable speaks on Dhamma they’re able to explain the meaning, either briefly or in detail. They teach it, assert it, establish it, clarify it, analyze it, and reveal it. "
-    },
-    {
-      "number": 64,
-      "pali": "Paññavā ayamāyasmā, nāyamāyasmā duppañño’ti. ",
-      "english": "This venerable is wise, not witless.’ "
-    },
-    {
-      "number": 65,
-      "pali": "Seyyathāpi, bhikkhave, cakkhumā puriso udakarahadassa tīre ṭhito passeyya mahantaṁ macchaṁ ummujjamānaṁ. ",
-      "english": "Suppose a man with clear eyes was standing on the bank of a lake. He’d see a big fish rising, "
-    },
-    {
-      "number": 66,
-      "pali": "Tassa evamassa: ",
-      "english": "and think: "
-    },
-    {
-      "number": 67,
-      "pali": "‘yathā kho imassa macchassa ummaggo yathā ca ūmighāto yathā ca vegāyitattaṁ, mahanto ayaṁ maccho, nāyaṁ maccho paritto’ti. ",
-      "english": "‘Judging by this fish’s approach, by the ripples it makes, and by its force, it’s a big fish, not a little one.’ "
-    },
-    {
-      "number": 68,
-      "pali": "Evamevaṁ kho, bhikkhave, puggalo puggalena saddhiṁ sākacchāyamāno evaṁ jānāti: ",
-      "english": "In the same way, an individual who is discussing with someone else would come to know: "
-    },
-    {
-      "number": 69,
-      "pali": "‘yathā kho imassa āyasmato ummaggo yathā ca abhinīhāro yathā ca pañhāsamudāhāro, paññavā ayamāyasmā, nāyamāyasmā duppañño. ",
-      "english": "‘Judging by this venerable’s approach, by what they’re getting at, and by how they articulate a question, they’re wise, not witless. …’ "
-    },
-    {
-      "number": 70,
-      "pali": "Taṁ kissa hetu? ",
-      "english": ""
-    },
-    {
-      "number": 71,
-      "pali": "Tathā hi ayamāyasmā gambhīrañceva atthapadaṁ udāharati santaṁ paṇītaṁ atakkāvacaraṁ nipuṇaṁ paṇḍitavedanīyaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 72,
-      "pali": "Yañca ayamāyasmā dhammaṁ bhāsati, tassa ca paṭibalo saṅkhittena vā vitthārena vā atthaṁ ācikkhituṁ desetuṁ paññāpetuṁ paṭṭhapetuṁ vivarituṁ vibhajituṁ uttānīkātuṁ. ",
-      "english": ""
-    },
-    {
-      "number": 73,
-      "pali": "Paññavā ayamāyasmā, nāyamāyasmā duppañño’ti. ",
-      "english": ""
-    },
-    {
-      "number": 74,
-      "pali": "‘Sākacchāya, bhikkhave, paññā veditabbā, sā ca kho dīghena addhunā, na ittaraṁ; manasikarotā, no amanasikarotā; paññavatā, no duppaññenā’ti, iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s why I said that you can get to know a person’s wisdom by discussion. But only after a long time, not casually; only when attentive, not when inattentive; and only by the wise, not the witless. "
-    },
-    {
-      "number": 75,
-      "pali": "Imāni kho, bhikkhave, cattāri ṭhānāni imehi catūhi ṭhānehi veditabbānī”ti. ",
-      "english": "These are the four things that can be known in four situations.” "
-    },
-    {
-      "number": 76,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“These, monks, are the four traits that may be known by means of these four (other) traits.”"
     }
   ]
 }

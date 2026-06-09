@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import sys
@@ -15,6 +16,7 @@ from backend.app.core.indexing import SuttaParser, EmbeddingManager
 def process_sutta_dumps(
     dump_dir: str,
     qdrant_url: str = os.environ.get("QDRANT_URL", "http://localhost:6333"),
+    wipe: bool = False,
 ):
     """
     Processes SuttaCentral JSON dumps and indexes them into Qdrant.
@@ -24,6 +26,14 @@ def process_sutta_dumps(
     client = QdrantClient(url=qdrant_url, api_key=os.environ.get("QDRANT_API_KEY"), timeout=60)
 
     collection_name = "pali_canon"
+
+    if wipe:
+        try:
+            client.delete_collection(collection_name)
+            print(f"Wiped existing collection '{collection_name}'.")
+        except Exception:
+            pass  # collection didn't exist
+
     embedding_mgr.setup_collection(client, collection_name)
 
     # Build set of already-indexed point IDs to allow resume after interruption
@@ -92,10 +102,13 @@ def process_sutta_dumps(
     print(f"Indexing complete. Collection {collection_name} is ready.")
 
 if __name__ == "__main__":
-    # Default to a 'data/dumps' directory
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--wipe", action="store_true", help="Delete the existing collection before indexing")
+    args = parser.parse_args()
+
     DUMP_DIR = "data/dumps"
     if not os.path.exists(DUMP_DIR):
         os.makedirs(DUMP_DIR)
         print(f"Created {DUMP_DIR}. Please place SuttaCentral JSON dumps here.")
     else:
-        process_sutta_dumps(DUMP_DIR)
+        process_sutta_dumps(DUMP_DIR, wipe=args.wipe)

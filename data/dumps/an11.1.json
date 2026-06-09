@@ -3,193 +3,123 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 11.1 ",
-      "english": "Numbered Discourses 11.1 "
+      "pali": "Numerical Discourses 11.1",
+      "english": "Numerical Discourses 11.1"
     },
     {
       "number": 2,
-      "pali": "1. Nissayavagga ",
-      "english": "1. Dependence "
+      "pali": "Kimattha Sutta",
+      "english": "What is the Purpose?"
     },
     {
       "number": 3,
-      "pali": "Kimatthiyasutta ",
-      "english": "What’s the Goal? "
+      "pali": "",
+      "english": "I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. Then Ven. Ānanda went to the Blessed One and on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One: “What is the purpose of skillful virtues? What is their reward?”"
     },
     {
       "number": 4,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "“Skillful virtues have freedom from remorse as their purpose, Ānanda, and freedom from remorse as their reward.”"
     },
     {
       "number": 5,
-      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
-      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+      "pali": "",
+      "english": "“And what is the purpose of freedom from remorse? What is its reward?”"
     },
     {
       "number": 6,
-      "pali": "Atha kho āyasmā ānando yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā ānando bhagavantaṁ etadavoca: ",
-      "english": "Then Venerable Ānanda went up to the Buddha, bowed, sat down to one side, and said to him: "
+      "pali": "",
+      "english": "“Freedom from remorse has joy as its purpose, joy as its reward.”"
     },
     {
       "number": 7,
-      "pali": "“kimatthiyāni, bhante, kusalāni sīlāni kimānisaṁsānī”ti? ",
-      "english": "“Sir, what is the goal and benefit of skillful ethics?” "
+      "pali": "",
+      "english": "“And what is the purpose of joy? What is its reward?”"
     },
     {
       "number": 8,
-      "pali": "“Avippaṭisāratthāni kho, ānanda, kusalāni sīlāni avippaṭisārānisaṁsānī”ti. ",
-      "english": "“Ānanda, having no regrets is the goal and benefit of skillful ethics.” "
+      "pali": "",
+      "english": "“Joy has rapture as its purpose, rapture as its reward.”"
     },
     {
       "number": 9,
-      "pali": "“Avippaṭisāro pana, bhante, kimatthiyo kimānisaṁso”? ",
-      "english": "“But what is the goal and benefit of having no regrets?” "
+      "pali": "",
+      "english": "“And what is the purpose of rapture? What is its reward?”"
     },
     {
       "number": 10,
-      "pali": "“Avippaṭisāro kho, ānanda, pāmojjattho pāmojjānisaṁso”. ",
-      "english": "“Joy is the goal and benefit of having no regrets.” "
+      "pali": "",
+      "english": "“Rapture has calm as its purpose, calm as its reward.”"
     },
     {
       "number": 11,
-      "pali": "“Pāmojjaṁ pana, bhante, kimatthiyaṁ kimānisaṁsaṁ”? ",
-      "english": "“But what is the goal and benefit of joy?” "
+      "pali": "",
+      "english": "“And what is the purpose of calm? What is its reward?”"
     },
     {
       "number": 12,
-      "pali": "“Pāmojjaṁ kho, ānanda, pītatthaṁ pītānisaṁsaṁ”. ",
-      "english": "“Rapture …” "
+      "pali": "",
+      "english": "“Calm has pleasure as its purpose, pleasure as its reward.”"
     },
     {
       "number": 13,
-      "pali": "“Pīti pana, bhante, kimatthiyā kimānisaṁsā”? ",
-      "english": "“But what is the goal and benefit of rapture?” "
+      "pali": "",
+      "english": "“And what is the purpose of pleasure? What is its reward?”"
     },
     {
       "number": 14,
-      "pali": "“Pīti kho, ānanda, passaddhatthā passaddhānisaṁsā”. ",
-      "english": "“Tranquility …” "
+      "pali": "",
+      "english": "“Pleasure has concentration as its purpose, concentration as its reward.”"
     },
     {
       "number": 15,
-      "pali": "“Passaddhi pana, bhante, kimatthiyā kimānisaṁsā”? ",
-      "english": "“But what is the goal and benefit of tranquility?” "
+      "pali": "",
+      "english": "“And what is the purpose of concentration? What is its reward?”"
     },
     {
       "number": 16,
-      "pali": "“Passaddhi kho, ānanda, sukhatthā sukhānisaṁsā”. ",
-      "english": "“Bliss …” "
+      "pali": "",
+      "english": "“Concentration has knowledge & vision of things as they have come to be as its purpose, knowledge & vision of things as they have come to be as its reward.”"
     },
     {
       "number": 17,
-      "pali": "“Sukhaṁ pana, bhante, kimatthiyaṁ kimānisaṁsaṁ”? ",
-      "english": "“But what is the goal and benefit of bliss?” "
+      "pali": "",
+      "english": "“And what is the purpose of knowledge & vision of things as they have come to be? What is its reward?”"
     },
     {
       "number": 18,
-      "pali": "“Sukhaṁ kho, ānanda, samādhatthaṁ samādhānisaṁsaṁ”. ",
-      "english": "“Immersion …” "
+      "pali": "",
+      "english": "“Knowledge & vision of things as they have come to be has disenchantment as its purpose, disenchantment as its reward.”"
     },
     {
       "number": 19,
-      "pali": "“Samādhi pana, bhante, kimatthiyo kimānisaṁso”? ",
-      "english": "“But what is the goal and benefit of immersion?” "
+      "pali": "",
+      "english": "“And what is the purpose of disenchantment? What is its reward?”"
     },
     {
       "number": 20,
-      "pali": "“Samādhi kho, ānanda, yathābhūtañāṇadassanattho yathābhūtañāṇadassanānisaṁso”. ",
-      "english": "“Truly knowing and seeing …” "
+      "pali": "",
+      "english": "“Disenchantment has dispassion as its purpose, dispassion as its reward.”"
     },
     {
       "number": 21,
-      "pali": "“Yathābhūtañāṇadassanaṁ pana, bhante, kimatthiyaṁ kimānisaṁsaṁ”? ",
-      "english": "“But what is the goal and benefit of truly knowing and seeing?” "
+      "pali": "",
+      "english": "“And what is the purpose of dispassion? What is its reward?”"
     },
     {
       "number": 22,
-      "pali": "“Yathābhūtañāṇadassanaṁ kho, ānanda, nibbidatthaṁ nibbidānisaṁsaṁ”. ",
-      "english": "“Disillusionment …” "
+      "pali": "",
+      "english": "“Dispassion has knowledge & vision of release as its purpose, knowledge & vision of release as its reward."
     },
     {
       "number": 23,
-      "pali": "“Nibbidā pana, bhante, kimatthiyā kimānisaṁsā”? ",
-      "english": "“But what is the goal and benefit of disillusionment?” "
+      "pali": "",
+      "english": "“Thus in this way, Ānanda, skillful virtues have freedom from remorse as their purpose, freedom from remorse as their reward. Freedom from remorse has joy as its purpose, joy as its reward. Joy has rapture as its purpose, rapture as its reward. Rapture has calm as its purpose, calm as its reward. Calm has pleasure as its purpose, pleasure as its reward. Pleasure has concentration as its purpose, concentration as its reward. Concentration has knowledge & vision of things as they have come to be as its purpose, knowledge & vision of things as they have come to be as its reward. Knowledge & vision of things as they have come to be has disenchantment as its purpose, disenchantment as its reward. Disenchantment has dispassion as its purpose, dispassion as its reward. Dispassion has knowledge & vision of release as its purpose, knowledge & vision of release as its reward."
     },
     {
       "number": 24,
-      "pali": "“Nibbidā kho, ānanda, virāgatthā virāgānisaṁsā”. ",
-      "english": "“Dispassion …” "
-    },
-    {
-      "number": 25,
-      "pali": "“Virāgo pana, bhante, kimatthiyo kimānisaṁso”? ",
-      "english": "“But what is the goal and benefit of dispassion?” "
-    },
-    {
-      "number": 26,
-      "pali": "“Virāgo kho, ānanda, vimuttiñāṇadassanattho vimuttiñāṇadassanānisaṁso. ",
-      "english": "“Knowledge and vision of freedom is the goal and benefit of dispassion. "
-    },
-    {
-      "number": 27,
-      "pali": "Iti kho, ānanda, kusalāni sīlāni avippaṭisāratthāni avippaṭisārānisaṁsāni, ",
-      "english": "So, Ānanda, the goal and benefit of skillful ethics is not having regrets. "
-    },
-    {
-      "number": 28,
-      "pali": "avippaṭisāro pāmojjattho pāmojjānisaṁso, ",
-      "english": "Joy is the goal and benefit of not having regrets. "
-    },
-    {
-      "number": 29,
-      "pali": "pāmojjaṁ pītatthaṁ pītānisaṁsaṁ, ",
-      "english": "Rapture is the goal and benefit of joy. "
-    },
-    {
-      "number": 30,
-      "pali": "pīti passaddhatthā passaddhānisaṁsā, ",
-      "english": "Tranquility is the goal and benefit of rapture. "
-    },
-    {
-      "number": 31,
-      "pali": "passaddhi sukhatthā sukhānisaṁsā, ",
-      "english": "Bliss is the goal and benefit of tranquility. "
-    },
-    {
-      "number": 32,
-      "pali": "sukhaṁ samādhatthaṁ samādhānisaṁsaṁ, ",
-      "english": "Immersion is the goal and benefit of bliss. "
-    },
-    {
-      "number": 33,
-      "pali": "samādhi yathābhūtañāṇadassanattho yathābhūtañāṇadassanānisaṁso, ",
-      "english": "Truly knowing and seeing is the goal and benefit of immersion. "
-    },
-    {
-      "number": 34,
-      "pali": "yathābhūtañāṇadassanaṁ nibbidatthaṁ nibbidānisaṁsaṁ, ",
-      "english": "Disillusionment is the goal and benefit of truly knowing and seeing. "
-    },
-    {
-      "number": 35,
-      "pali": "nibbidā virāgatthā virāgānisaṁsā, ",
-      "english": "Dispassion is the goal and benefit of disillusionment. "
-    },
-    {
-      "number": 36,
-      "pali": "virāgo vimuttiñāṇadassanattho vimuttiñāṇadassanānisaṁso. ",
-      "english": "And knowledge and vision of freedom is the goal and benefit of dispassion. "
-    },
-    {
-      "number": 37,
-      "pali": "Iti kho, ānanda, kusalāni sīlāni anupubbena aggāya parentī”ti. ",
-      "english": "So, Ānanda, skillful ethics progressively lead up to the highest.” "
-    },
-    {
-      "number": 38,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“In this way, Ānanda, skillful virtues lead step-by-step to the consummation of arahantship.”"
     }
   ]
 }

@@ -3,113 +3,28 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 5.130 ",
-      "english": "Numbered Discourses 5.130 "
+      "pali": "Numerical Discourses 5.130",
+      "english": "Numerical Discourses 5.130"
     },
     {
       "number": 2,
-      "pali": "13. Gilānavagga ",
-      "english": "13. Sick "
+      "pali": "Sampadā Sutta",
+      "english": "Being Consummate"
     },
     {
       "number": 3,
-      "pali": "Byasanasutta ",
-      "english": "Loss "
+      "pali": "",
+      "english": "This discourse serves as a strong reminder not to break the precepts even for the sake of people or things one holds dear."
     },
     {
       "number": 4,
-      "pali": "“Pañcimāni, bhikkhave, byasanāni. ",
-      "english": "“Mendicants, there are these five losses. "
+      "pali": "",
+      "english": "“Monks, there are these five kinds of loss. Which five? Loss of relatives, loss of wealth, loss through disease, loss in terms of virtue, loss in terms of views. It’s not by reason of loss of relatives, loss of wealth, or loss through disease that beings—with the break-up of the body, after death—reappear in a plane of deprivation, a bad destination, a lower realm, hell. It’s by reason of loss in terms of virtue and loss in terms of views that beings—with the break-up of the body, after death—reappear in a plane of deprivation, a bad destination, a lower realm, hell. These are the five kinds of loss."
     },
     {
       "number": 5,
-      "pali": "Katamāni pañca? ",
-      "english": "What five? "
-    },
-    {
-      "number": 6,
-      "pali": "Ñātibyasanaṁ, bhogabyasanaṁ, rogabyasanaṁ, sīlabyasanaṁ, diṭṭhibyasanaṁ. ",
-      "english": "Loss of relatives, wealth, health, ethics, and view. "
-    },
-    {
-      "number": 7,
-      "pali": "Na, bhikkhave, sattā ñātibyasanahetu vā bhogabyasanahetu vā rogabyasanahetu vā kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjanti. ",
-      "english": "It is not because of loss of relatives, wealth, or health that sentient beings, when their body breaks up, after death, are reborn in a place of loss, a bad place, the underworld, hell. "
-    },
-    {
-      "number": 8,
-      "pali": "Sīlabyasanahetu vā, bhikkhave, sattā diṭṭhibyasanahetu vā kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjanti. ",
-      "english": "It is because of loss of ethics or view that sentient beings, when their body breaks up, after death, are reborn in a place of loss, a bad place, the underworld, hell. "
-    },
-    {
-      "number": 9,
-      "pali": "Imāni kho, bhikkhave, pañca byasanāni. ",
-      "english": "These are the five losses. "
-    },
-    {
-      "number": 10,
-      "pali": "Pañcimā, bhikkhave, sampadā. ",
-      "english": "There are these five endowments. "
-    },
-    {
-      "number": 11,
-      "pali": "Katamā pañca? ",
-      "english": "What five? "
-    },
-    {
-      "number": 12,
-      "pali": "Ñātisampadā, bhogasampadā, ārogyasampadā, sīlasampadā, diṭṭhisampadā. ",
-      "english": "Endowment with relatives, wealth, health, ethics, and view. "
-    },
-    {
-      "number": 13,
-      "pali": "Na, bhikkhave, sattā ñātisampadāhetu vā bhogasampadāhetu vā ārogyasampadāhetu vā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjanti. ",
-      "english": "It is not because of endowment with relatives, wealth, or health that sentient beings, when their body breaks up, after death, are reborn in a good place, a heavenly realm. "
-    },
-    {
-      "number": 14,
-      "pali": "Sīlasampadāhetu vā, bhikkhave, sattā diṭṭhisampadāhetu vā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjanti. ",
-      "english": "It is because of endowment with ethics or view that sentient beings, when their body breaks up, after death, are reborn in a good place, a heavenly realm. "
-    },
-    {
-      "number": 15,
-      "pali": "Imā kho, bhikkhave, pañca sampadā”ti. ",
-      "english": "These are the five endowments.” "
-    },
-    {
-      "number": 16,
-      "pali": "Dasamaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 17,
-      "pali": "Gilānavaggo tatiyo. ",
-      "english": ""
-    },
-    {
-      "number": 18,
-      "pali": "Tassuddānaṁ ",
-      "english": ""
-    },
-    {
-      "number": 19,
-      "pali": "Gilāno satisūpaṭṭhi, ",
-      "english": ""
-    },
-    {
-      "number": 20,
-      "pali": "Dve upaṭṭhākā duvāyusā; ",
-      "english": ""
-    },
-    {
-      "number": 21,
-      "pali": "Vapakāsasamaṇasukhā, ",
-      "english": ""
-    },
-    {
-      "number": 22,
-      "pali": "Parikuppaṁ byasanena cāti. ",
-      "english": ""
+      "pali": "",
+      "english": "“There are these five ways of being consummate. Which five? Being consummate in terms of relatives, being consummate in terms of wealth, being consummate in terms of freedom from disease, being consummate in terms of virtue, being consummate in terms of views. It’s not by reason of being consummate in terms of relatives, being consummate in terms of wealth, or being consummate in terms of freedom from disease that beings—with the break-up of the body, after death—reappear in a good destination, a heavenly world. It’s by reason of being consummate in virtue and being consummate in terms of views that beings—with the break-up of the body, after death—reappear in a good destination, a heavenly world. These are the five ways of being consummate.”"
     }
   ]
 }

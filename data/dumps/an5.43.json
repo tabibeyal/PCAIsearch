@@ -3,238 +3,138 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 5.43 ",
-      "english": "Numbered Discourses 5.43 "
+      "pali": "Numerical Discourses 5.43",
+      "english": "Numerical Discourses 5.43"
     },
     {
       "number": 2,
-      "pali": "5. Muṇḍarājavagga ",
-      "english": "5. With King Muṇḍa "
+      "pali": "Iṭṭha Sutta",
+      "english": "What is Welcome"
     },
     {
       "number": 3,
-      "pali": "Iṭṭhasutta ",
-      "english": "Likable "
+      "pali": "",
+      "english": "Then Anāthapiṇḍika the householder went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there the Blessed One said to him: “These five things, householder, are welcome, agreeable, pleasant, & hard to obtain in the world. Which five?"
     },
     {
       "number": 4,
-      "pali": "Atha kho anāthapiṇḍiko gahapati yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho anāthapiṇḍikaṁ gahapatiṁ bhagavā etadavoca: ",
-      "english": "Then the householder Anāthapiṇḍika went up to the Buddha, bowed, and sat down to one side. The Buddha said to him: "
+      "pali": "",
+      "english": "“Long life is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 5,
-      "pali": "“Pañcime, gahapati, dhammā iṭṭhā kantā manāpā dullabhā lokasmiṁ. ",
-      "english": "“Householder, these five things, which are likable, desirable, and agreeable are hard to get in the world. "
+      "pali": "",
+      "english": "“Beauty is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 6,
-      "pali": "Katame pañca? ",
-      "english": "What five? "
+      "pali": "",
+      "english": "“Happiness is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 7,
-      "pali": "Āyu, gahapati, iṭṭho kanto manāpo dullabho lokasmiṁ; ",
-      "english": "Long life, "
+      "pali": "",
+      "english": "“Status is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 8,
-      "pali": "vaṇṇo iṭṭho kanto manāpo dullabho lokasmiṁ; ",
-      "english": "beauty, "
+      "pali": "",
+      "english": "“Rebirth in heaven is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 9,
-      "pali": "sukhaṁ iṭṭhaṁ kantaṁ manāpaṁ dullabhaṁ lokasmiṁ; ",
-      "english": "happiness, "
+      "pali": "",
+      "english": "“Now, I tell you, these five things are not to be obtained by reason of prayers or wishes. If they were to be obtained by reason of prayers or wishes, who here would lack them? It’s not fitting for the disciple of the noble ones who desires long life to pray for it or to delight in doing so. Instead, the disciple of the noble ones who desires long life should follow the path of practice leading to long life. In so doing, he will attain long life, either human or divine."
     },
     {
       "number": 10,
-      "pali": "yaso iṭṭho kanto manāpo dullabho lokasmiṁ; ",
-      "english": "fame, "
+      "pali": "",
+      "english": "“It’s not fitting for the disciple of the noble ones who desires beauty to pray for it or to delight in doing so. Instead, the disciple of the noble ones who desires beauty should follow the path of practice leading to beauty. In so doing, he will attain beauty, either human or divine."
     },
     {
       "number": 11,
-      "pali": "saggā iṭṭhā kantā manāpā dullabhā lokasmiṁ. ",
-      "english": "and heaven. "
+      "pali": "",
+      "english": "“It’s not fitting for the disciple of the noble ones who desires happiness to pray for it or to delight in doing so. Instead, the disciple of the noble ones who desires happiness should follow the path of practice leading to happiness. In so doing, he will attain happiness, either human or divine."
     },
     {
       "number": 12,
-      "pali": "Ime kho, gahapati, pañca dhammā iṭṭhā kantā manāpā dullabhā lokasmiṁ. ",
-      "english": "These are the five things, which are likable, desirable, and agreeable, but hard to get in the world. "
+      "pali": "",
+      "english": "“It’s not fitting for the disciple of the noble ones who desires status to pray for it or to delight in doing so. Instead, the disciple of the noble ones who desires status should follow the path of practice leading to status. In so doing, he will attain status, either human or divine."
     },
     {
       "number": 13,
-      "pali": "Imesaṁ kho, gahapati, pañcannaṁ dhammānaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ dullabhānaṁ lokasmiṁ na āyācanahetu vā patthanāhetu vā paṭilābhaṁ vadāmi. ",
-      "english": "And I say that these five things are not got by supplication or wishing for them. "
+      "pali": "",
+      "english": "“It’s not fitting for the disciple of the noble ones who desires rebirth in heaven to pray for it or to delight in doing so. Instead, the disciple of the noble ones who desires rebirth in heaven should follow the path of practice leading to rebirth in heaven. In so doing, he will attain rebirth in heaven.”"
     },
     {
       "number": 14,
-      "pali": "Imesaṁ kho, gahapati, pañcannaṁ dhammānaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ dullabhānaṁ lokasmiṁ āyācanahetu vā patthanāhetu vā paṭilābho abhavissa, ko idha kena hāyetha? ",
-      "english": "If they were, who would lack them? "
+      "pali": "",
+      "english": "Long life, beauty, status, honor,"
     },
     {
       "number": 15,
-      "pali": "Na kho, gahapati, arahati ariyasāvako āyukāmo āyuṁ āyācituṁ vā abhinandituṁ vā āyussa vāpi hetu. ",
-      "english": "A noble disciple who wants to live long ought not pray for it, or hope for it, or pine for it. "
+      "pali": "",
+      "english": "heaven, high birth:"
     },
     {
       "number": 16,
-      "pali": "Āyukāmena, gahapati, ariyasāvakena āyusaṁvattanikā paṭipadā paṭipajjitabbā. ",
-      "english": "Instead, they should practice the way that leads to long life. "
+      "pali": "",
+      "english": "To those who delight"
     },
     {
       "number": 17,
-      "pali": "Āyusaṁvattanikā hissa paṭipadā paṭipannā āyupaṭilābhāya saṁvattati. ",
-      "english": "For by practicing that way they gain long life "
+      "pali": "",
+      "english": "in aspiring for these things"
     },
     {
       "number": 18,
-      "pali": "So lābhī hoti āyussa dibbassa vā mānusassa vā. ",
-      "english": "as a god or a human being. "
+      "pali": "",
+      "english": "in great measure, continuously,"
     },
     {
       "number": 19,
-      "pali": "Na kho, gahapati, arahati ariyasāvako vaṇṇakāmo vaṇṇaṁ āyācituṁ vā abhinandituṁ vā vaṇṇassa vāpi hetu. ",
-      "english": "A noble disciple who wants to be beautiful ought not pray for it, or hope for it, or pine for it. "
+      "pali": "",
+      "english": "the wise praise heedfulness"
     },
     {
       "number": 20,
-      "pali": "Vaṇṇakāmena, gahapati, ariyasāvakena vaṇṇasaṁvattanikā paṭipadā paṭipajjitabbā. ",
-      "english": "Instead, they should practice the way that leads to beauty. "
+      "pali": "",
+      "english": "in making merit."
     },
     {
       "number": 21,
-      "pali": "Vaṇṇasaṁvattanikā hissa paṭipadā paṭipannā vaṇṇapaṭilābhāya saṁvattati. ",
-      "english": "For by practicing that way they gain beauty "
+      "pali": "",
+      "english": "The wise person, heedful,"
     },
     {
       "number": 22,
-      "pali": "So lābhī hoti vaṇṇassa dibbassa vā mānusassa vā. ",
-      "english": "as a god or a human being. "
+      "pali": "",
+      "english": "acquires a two-fold welfare:"
     },
     {
       "number": 23,
-      "pali": "Na kho, gahapati, arahati ariyasāvako sukhakāmo sukhaṁ āyācituṁ vā abhinandituṁ vā sukhassa vāpi hetu. ",
-      "english": "A noble disciple who wants to be happy ought not pray for it, or hope for it, or pine for it. "
+      "pali": "",
+      "english": "welfare in this life &"
     },
     {
       "number": 24,
-      "pali": "Sukhakāmena, gahapati, ariyasāvakena sukhasaṁvattanikā paṭipadā paṭipajjitabbā. ",
-      "english": "Instead, they should practice the way that leads to happiness. "
+      "pali": "",
+      "english": "welfare in the next."
     },
     {
       "number": 25,
-      "pali": "Sukhasaṁvattanikā hissa paṭipadā paṭipannā sukhapaṭilābhāya saṁvattati. ",
-      "english": "For by practicing that way they gain happiness "
+      "pali": "",
+      "english": "By breaking through to his welfare"
     },
     {
       "number": 26,
-      "pali": "So lābhī hoti sukhassa dibbassa vā mānusassa vā. ",
-      "english": "as a god or a human being. "
+      "pali": "",
+      "english": "he’s called enlightened,"
     },
     {
       "number": 27,
-      "pali": "Na kho, gahapati, arahati ariyasāvako yasakāmo yasaṁ āyācituṁ vā abhinandituṁ vā yasassa vāpi hetu. ",
-      "english": "A noble disciple who wants to be famous ought not pray for it, or hope for it, or pine for it. "
-    },
-    {
-      "number": 28,
-      "pali": "Yasakāmena, gahapati, ariyasāvakena yasasaṁvattanikā paṭipadā paṭipajjitabbā. ",
-      "english": "Instead, they should practice the way that leads to fame. "
-    },
-    {
-      "number": 29,
-      "pali": "Yasasaṁvattanikā hissa paṭipadā paṭipannā yasapaṭilābhāya saṁvattati. ",
-      "english": "For by practicing that way they gain fame "
-    },
-    {
-      "number": 30,
-      "pali": "So lābhī hoti yasassa dibbassa vā mānusassa vā. ",
-      "english": "as a god or a human being. "
-    },
-    {
-      "number": 31,
-      "pali": "Na kho, gahapati, arahati ariyasāvako saggakāmo saggaṁ āyācituṁ vā abhinandituṁ vā saggānaṁ vāpi hetu. ",
-      "english": "A noble disciple who wants to go to heaven ought not pray for it, or hope for it, or pine for it. "
-    },
-    {
-      "number": 32,
-      "pali": "Saggakāmena, gahapati, ariyasāvakena saggasaṁvattanikā paṭipadā paṭipajjitabbā. ",
-      "english": "Instead, they should practice the way that leads to heaven. "
-    },
-    {
-      "number": 33,
-      "pali": "Saggasaṁvattanikā hissa paṭipadā paṭipannā saggapaṭilābhāya saṁvattati. ",
-      "english": "For by practicing that way they gain heaven, "
-    },
-    {
-      "number": 34,
-      "pali": "So lābhī hoti saggānanti. ",
-      "english": "they are one who gains the heavens. "
-    },
-    {
-      "number": 35,
-      "pali": "Āyuṁ vaṇṇaṁ yasaṁ kittiṁ, ",
-      "english": "For one who desires lofty delights "
-    },
-    {
-      "number": 36,
-      "pali": "Saggaṁ uccākulīnataṁ; ",
-      "english": "again and again—"
-    },
-    {
-      "number": 37,
-      "pali": "Ratiyo patthayānena, ",
-      "english": "long life, beauty, fame and reputation, "
-    },
-    {
-      "number": 38,
-      "pali": "Uḷārā aparāparā. ",
-      "english": "heaven, and an eminent family—"
-    },
-    {
-      "number": 39,
-      "pali": "Appamādaṁ pasaṁsanti, ",
-      "english": "the astute praise diligence "
-    },
-    {
-      "number": 40,
-      "pali": "puññakiriyāsu paṇḍitā; ",
-      "english": "in making merit. "
-    },
-    {
-      "number": 41,
-      "pali": "Appamatto ubho atthe, ",
-      "english": "Being diligent, an astute person "
-    },
-    {
-      "number": 42,
-      "pali": "adhigaṇhāti paṇḍito. ",
-      "english": "secures both benefits: "
-    },
-    {
-      "number": 43,
-      "pali": "Diṭṭhe dhamme ca yo attho, ",
-      "english": "the benefit in this life, "
-    },
-    {
-      "number": 44,
-      "pali": "yo cattho samparāyiko; ",
-      "english": "and in lives to come. "
-    },
-    {
-      "number": 45,
-      "pali": "Atthābhisamayā dhīro, ",
-      "english": "An attentive one, comprehending the meaning, "
-    },
-    {
-      "number": 46,
-      "pali": "paṇḍitoti pavuccatī”ti. ",
-      "english": "is called ‘astute’.” "
-    },
-    {
-      "number": 47,
-      "pali": "Tatiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "wise."
     }
   ]
 }

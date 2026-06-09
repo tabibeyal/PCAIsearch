@@ -3,103 +3,33 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 12.38 ",
-      "english": "Linked Discourses 12.38 "
+      "pali": "Linked Discourses 12.38",
+      "english": "Linked Discourses 12.38"
     },
     {
       "number": 2,
-      "pali": "4. Kaḷārakhattiyavagga ",
-      "english": "4. Kaḷāra the Aristocrat "
+      "pali": "Cetanā Sutta",
+      "english": "Intention"
     },
     {
       "number": 3,
-      "pali": "Cetanāsutta ",
-      "english": "Intention "
+      "pali": "",
+      "english": "This discourse describes the link between fabrications and consciousness in dependent co-arising, and shows how intention and underlying obsessions—with ignorance of the four noble truths being the basis for all obsessions—play a role in constituting awareness of the present moment."
     },
     {
       "number": 4,
-      "pali": "Sāvatthiyaṁ viharati. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "Staying near Sāvatthī … (the Blessed One said,) “Monks, what one intends, what one arranges, and what one obsesses about : This is a support for the stationing of consciousness. There being a support, there is a landing of consciousness. When that consciousness lands and grows, there is the production of renewed becoming in the future. When there is the production of renewed becoming in the future, there is future birth, aging-&-death, sorrow, lamentation, pain, distress, & despair. Such is the origination of this entire mass of suffering & stress."
     },
     {
       "number": 5,
-      "pali": "“Yañca, bhikkhave, ceteti yañca pakappeti yañca anuseti, ārammaṇametaṁ hoti viññāṇassa ṭhitiyā. ",
-      "english": "“Mendicants, what you intend or plan, and what you have underlying tendencies for become a support for the continuation of consciousness. "
+      "pali": "",
+      "english": "“If one doesn’t intend and doesn’t arrange, but one still obsesses (about something), this is a support for the stationing of consciousness. There being a support, there is a landing of consciousness. When that consciousness lands and grows, there is the production of renewed becoming in the future. When there is the production of renewed becoming in the future, there is future birth, aging-&-death, sorrow, lamentation, pain, distress, & despair. Such (too) is the origination of this entire mass of suffering & stress."
     },
     {
       "number": 6,
-      "pali": "Ārammaṇe sati patiṭṭhā viññāṇassa hoti. ",
-      "english": "When this support exists, consciousness becomes established. "
-    },
-    {
-      "number": 7,
-      "pali": "Tasmiṁ patiṭṭhite viññāṇe virūḷhe āyatiṁ punabbhavābhinibbatti hoti. ",
-      "english": "When consciousness is established and grows, there is regeneration into a new state of existence in the future. "
-    },
-    {
-      "number": 8,
-      "pali": "Āyatiṁ punabbhavābhinibbattiyā sati āyatiṁ jāti jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti. ",
-      "english": "When there is regeneration into a new state of existence in the future, future rebirth, old age, and death come to be, as do sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 9,
-      "pali": "Evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
-      "english": "That is how this entire mass of suffering originates. "
-    },
-    {
-      "number": 10,
-      "pali": "No ce, bhikkhave, ceteti no ce pakappeti, atha ce anuseti, ārammaṇametaṁ hoti viññāṇassa ṭhitiyā. ",
-      "english": "If you don’t intend or plan, but still have underlying tendencies, this becomes a support for the continuation of consciousness. "
-    },
-    {
-      "number": 11,
-      "pali": "Ārammaṇe sati patiṭṭhā viññāṇassa hoti. ",
-      "english": "When this support exists, consciousness becomes established. "
-    },
-    {
-      "number": 12,
-      "pali": "Tasmiṁ patiṭṭhite viññāṇe virūḷhe āyatiṁ punabbhavābhinibbatti hoti. ",
-      "english": "When consciousness is established and grows, there is regeneration into a new state of existence in the future. "
-    },
-    {
-      "number": 13,
-      "pali": "Āyatiṁ punabbhavābhinibbattiyā sati āyatiṁ jāti jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti. ",
-      "english": "When there is regeneration into a new state of existence in the future, future rebirth, old age, and death come to be, as do sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 14,
-      "pali": "Evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
-      "english": "That is how this entire mass of suffering originates. "
-    },
-    {
-      "number": 15,
-      "pali": "Yato ca kho, bhikkhave, no ceva ceteti no ca pakappeti no ca anuseti, ārammaṇametaṁ na hoti viññāṇassa ṭhitiyā. ",
-      "english": "If you don’t intend or plan or have underlying tendencies, this doesn’t become a support for the continuation of consciousness. "
-    },
-    {
-      "number": 16,
-      "pali": "Ārammaṇe asati patiṭṭhā viññāṇassa na hoti. ",
-      "english": "With no support, consciousness is not established. "
-    },
-    {
-      "number": 17,
-      "pali": "Tadappatiṭṭhite viññāṇe avirūḷhe āyatiṁ punabbhavābhinibbatti na hoti. ",
-      "english": "When consciousness is not established and doesn’t grow, there’s no regeneration into a new state of existence in the future. "
-    },
-    {
-      "number": 18,
-      "pali": "Āyatiṁ punabbhavābhinibbattiyā asati āyatiṁ jāti jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā nirujjhanti. ",
-      "english": "When there is no regeneration into a new state of existence in the future, future rebirth, old age, and death cease, as do sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 19,
-      "pali": "Evametassa kevalassa dukkhakkhandhassa nirodho hotī”ti. ",
-      "english": "That is how this entire mass of suffering ceases.” "
-    },
-    {
-      "number": 20,
-      "pali": "Aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“But when one doesn’t intend, arrange, or obsess (about anything), there is no support for the stationing of consciousness. There being no support, there is no landing of consciousness. When that consciousness doesn’t land & grow, there is no production of renewed becoming in the future. When there is no production of renewed becoming in the future, there is no future birth, aging-&-death, sorrow, lamentation, pain, distress, or despair. Such is the cessation of this entire mass of suffering & stress.”"
     }
   ]
 }

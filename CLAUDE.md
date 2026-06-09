@@ -2,7 +2,7 @@
 
 ## Commands
 `PYTHONPATH=. python3 -m pytest tests/backend/ -q` — run backend tests
-`PYTHONPATH=. NVIDIA_API_KEY=... uvicorn backend.app.main:app --reload` — backend dev server
+`set -a && source .env && set +a && PYTHONPATH=. uvicorn backend.app.main:app --reload` — backend dev server (loads NVIDIA_API_KEY, QDRANT_URL, QDRANT_API_KEY from .env)
 `PYTHONPATH=. NVIDIA_API_KEY=... python3 tests/backend/retrieval_benchmark.py --with-expansion --log-variants` — recall@10 benchmark (currently 93%)
 
 ## Architecture vocabulary

@@ -3,78 +3,53 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 47.42 ",
-      "english": "Linked Discourses 47.42 "
+      "pali": "Linked Discourses 47.42",
+      "english": "Linked Discourses 47.42"
     },
     {
       "number": 2,
-      "pali": "5. Amatavagga ",
-      "english": "5. Freedom From Death "
+      "pali": "Samudaya Sutta",
+      "english": "Origination"
     },
     {
       "number": 3,
-      "pali": "Samudayasutta ",
-      "english": "Origin "
+      "pali": "",
+      "english": "I have heard that at one time the Blessed One was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. There he addressed the monks, “Monks!”"
     },
     {
       "number": 4,
-      "pali": "“Catunnaṁ, bhikkhave, satipaṭṭhānānaṁ samudayañca atthaṅgamañca desessāmi. ",
-      "english": "“Mendicants, I will teach you the origin and ending of the four kinds of mindfulness meditation. "
+      "pali": "",
+      "english": "“Yes, lord,” the monks responded to him."
     },
     {
       "number": 5,
-      "pali": "Taṁ suṇātha. ",
-      "english": "Listen … "
+      "pali": "",
+      "english": "The Blessed One said, “I will teach & analyze for you the origination and subsiding of the four establishings of mindfulness. Listen & pay close attention. I will speak.”"
     },
     {
       "number": 6,
-      "pali": "Ko ca, bhikkhave, kāyassa samudayo? ",
-      "english": "What is the origin of the body? "
+      "pali": "",
+      "english": "“As you say, lord,” the monks responded to him."
     },
     {
       "number": 7,
-      "pali": "Āhārasamudayā kāyassa samudayo; ",
-      "english": "The body originates from fuel. "
+      "pali": "",
+      "english": "The Blessed One said, “And what, monks, is the origination of the body? From the origination of nutriment is the origination of the body. From the cessation of nutriment is the subsiding of the body."
     },
     {
       "number": 8,
-      "pali": "āhāranirodhā kāyassa atthaṅgamo. ",
-      "english": "When fuel ceases, the body ends. "
+      "pali": "",
+      "english": "“From the origination of contact is the origination of feeling. From the cessation of contact is the subsiding of feeling."
     },
     {
       "number": 9,
-      "pali": "Phassasamudayā vedanānaṁ samudayo; ",
-      "english": "Feelings originate from contact. "
+      "pali": "",
+      "english": "“From the origination of name-&-form is the origination of the mind. From the cessation of name-&-form is the cessation of the mind."
     },
     {
       "number": 10,
-      "pali": "phassanirodhā vedanānaṁ atthaṅgamo. ",
-      "english": "When contact ceases, feelings end. "
-    },
-    {
-      "number": 11,
-      "pali": "Nāmarūpasamudayā cittassa samudayo; ",
-      "english": "The mind originates from name and form. "
-    },
-    {
-      "number": 12,
-      "pali": "nāmarūpanirodhā cittassa atthaṅgamo. ",
-      "english": "When name and form cease, the mind ends. "
-    },
-    {
-      "number": 13,
-      "pali": "Manasikārasamudayā dhammānaṁ samudayo; ",
-      "english": "Principles originate from application of mind. "
-    },
-    {
-      "number": 14,
-      "pali": "manasikāranirodhā dhammānaṁ atthaṅgamo”ti. ",
-      "english": "When application of mind ends, principles end.” "
-    },
-    {
-      "number": 15,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“From the origination of attention is the origination of mental qualities. From the cessation of attention is the subsiding of mental qualities.”"
     }
   ]
 }

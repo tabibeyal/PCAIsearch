@@ -3,278 +3,293 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 35.136 ",
-      "english": "Linked Discourses 35.136 "
+      "pali": "Linked Discourses 35.136",
+      "english": "Linked Discourses 35.136"
     },
     {
       "number": 2,
-      "pali": "14. Devadahavagga ",
-      "english": "14. At Devadaha "
+      "pali": "Rūpārāma Sutta",
+      "english": "Delight in Forms"
     },
     {
       "number": 3,
-      "pali": "Paṭhamarūpārāmasutta ",
-      "english": "Liking Sights (1st) "
+      "pali": "",
+      "english": "“Monks, devas & human beings take pleasure in forms, delight in forms, rejoice in forms. With the change, fading away, & cessation of forms, devas & human beings dwell in suffering & stress."
     },
     {
       "number": 4,
-      "pali": "“Rūpārāmā, bhikkhave, devamanussā rūparatā rūpasammuditā. ",
-      "english": "“Mendicants, gods and humans like sights, they love them and enjoy them. "
+      "pali": "",
+      "english": "“Devas & human beings take pleasure in sounds… take pleasure in aromas… take pleasure in flavors… take pleasure in tactile sensations…"
     },
     {
       "number": 5,
-      "pali": "Rūpavipariṇāmavirāganirodhā dukkhā, bhikkhave, devamanussā viharanti. ",
-      "english": "But when sights perish, fade away, and cease, gods and humans live in suffering. "
+      "pali": "",
+      "english": "“Devas & human beings take pleasure in ideas, delight in ideas, rejoice in ideas. With the change, fading away, & cessation of ideas, devas & human beings dwell in suffering & stress."
     },
     {
       "number": 6,
-      "pali": "Saddārāmā, bhikkhave, devamanussā saddaratā saddasammuditā. ",
-      "english": "Gods and humans like sounds … "
+      "pali": "",
+      "english": "“But the Tathāgata, monks—worthy & rightly self-awakened—knowing, as they have come to be, the origination, the disappearance, the allure, the drawbacks of—and escape from—forms, doesn’t take pleasure in forms, delight in forms, rejoice in forms. With the change, fading away, & cessation of forms, the Tathāgata dwells happily."
     },
     {
       "number": 7,
-      "pali": "Saddavipariṇāmavirāganirodhā dukkhā, bhikkhave, devamanussā viharanti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Knowing, as they have come to be, the origination, the disappearance, the allure, the drawbacks of—and escape from—sounds… aromas… flavors… tactile sensations…"
     },
     {
       "number": 8,
-      "pali": "Gandhārāmā … ",
-      "english": "smells … "
+      "pali": "",
+      "english": "“Knowing, as they have come to be, the origination, the disappearance, the allure, the drawbacks of—and escape from—ideas, he doesn’t take pleasure in ideas, delight in ideas, rejoice in ideas. With the change, fading away, & cessation of ideas, the Tathāgata dwells happily.”"
     },
     {
       "number": 9,
-      "pali": "rasārāmā … ",
-      "english": "tastes … "
+      "pali": "",
+      "english": "“All sights, sounds, aromas, flavors,"
     },
     {
       "number": 10,
-      "pali": "phoṭṭhabbārāmā … ",
-      "english": "touches … "
+      "pali": "",
+      "english": "tactile sensations, & ideas"
     },
     {
       "number": 11,
-      "pali": "dhammārāmā, bhikkhave, devamanussā dhammaratā dhammasammuditā. ",
-      "english": "ideas, they love them and enjoy them. "
+      "pali": "",
+      "english": "that are welcome,"
     },
     {
       "number": 12,
-      "pali": "Dhammavipariṇāmavirāganirodhā dukkhā, bhikkhave, devamanussā viharanti. ",
-      "english": "But when ideas perish, fade away, and cease, gods and humans live in suffering. "
+      "pali": "",
+      "english": "appealing,"
     },
     {
       "number": 13,
-      "pali": "Tathāgato ca kho, bhikkhave, arahaṁ sammāsambuddho rūpānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā na rūpārāmo na rūparato na rūpasammudito. ",
-      "english": "The Realized One has truly understood the origin, disappearance, gratification, drawback, and escape of sights, so he doesn’t like, love, or enjoy them. "
+      "pali": "",
+      "english": "agreeable—"
     },
     {
       "number": 14,
-      "pali": "Rūpavipariṇāmavirāganirodhā sukho, bhikkhave, tathāgato viharati. ",
-      "english": "When sights perish, fade away, and cease, the Realized One lives happily. "
+      "pali": "",
+      "english": "as long as they’re said"
     },
     {
       "number": 15,
-      "pali": "Saddānaṁ … ",
-      "english": "The Realized One has truly understood the origin, disappearance, gratification, drawback, and escape of sounds … "
+      "pali": "",
+      "english": "to exist,"
     },
     {
       "number": 16,
-      "pali": "gandhānaṁ … ",
-      "english": "smells … "
+      "pali": "",
+      "english": "are supposed by the world"
     },
     {
       "number": 17,
-      "pali": "rasānaṁ … ",
-      "english": "tastes … "
+      "pali": "",
+      "english": "together with its devas"
     },
     {
       "number": 18,
-      "pali": "phoṭṭhabbānaṁ … ",
-      "english": "touches … "
+      "pali": "",
+      "english": "to be bliss."
     },
     {
       "number": 19,
-      "pali": "dhammānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā na dhammārāmo, na dhammarato, na dhammasammudito. ",
-      "english": "ideas, so he doesn’t like, love, or enjoy them. "
+      "pali": "",
+      "english": "But when they cease,"
     },
     {
       "number": 20,
-      "pali": "Dhammavipariṇāmavirāganirodhā sukho, bhikkhave, tathāgato viharati”. ",
-      "english": "When ideas perish, fade away, and cease, the Realized One lives happily.” "
+      "pali": "",
+      "english": "that’s supposed by them"
     },
     {
       "number": 21,
-      "pali": "Idamavoca bhagavā. ",
-      "english": "That is what the Buddha said. "
+      "pali": "",
+      "english": "to be stress."
     },
     {
       "number": 22,
-      "pali": "Idaṁ vatvāna sugato athāparaṁ etadavoca satthā: ",
-      "english": "Then the Holy One, the Teacher, went on to say: "
+      "pali": "",
+      "english": "The stopping of self-identity"
     },
     {
       "number": 23,
-      "pali": "“Rūpā saddā rasā gandhā, ",
-      "english": "“Sights, sounds, tastes, smells, "
+      "pali": "",
+      "english": "is viewed by the noble ones"
     },
     {
       "number": 24,
-      "pali": "phassā dhammā ca kevalā; ",
-      "english": "touches and ideas, the lot of them—"
+      "pali": "",
+      "english": "as bliss."
     },
     {
       "number": 25,
-      "pali": "Iṭṭhā kantā manāpā ca, ",
-      "english": "they’re likable, desirable, and pleasurable "
+      "pali": "",
+      "english": "This, when seen,"
     },
     {
       "number": 26,
-      "pali": "yāvatatthīti vuccati. ",
-      "english": "as long as you can say that they exist. "
+      "pali": "",
+      "english": "runs counter"
     },
     {
       "number": 27,
-      "pali": "Sadevakassa lokassa, ",
-      "english": "For all the world with its gods, "
+      "pali": "",
+      "english": "to the whole world."
     },
     {
       "number": 28,
-      "pali": "ete vo sukhasammatā; ",
-      "english": "this is what they deem happiness. "
+      "pali": "",
+      "english": "What others say is blissful,"
     },
     {
       "number": 29,
-      "pali": "Yattha cete nirujjhanti, ",
-      "english": "And where they cease "
+      "pali": "",
+      "english": "the noble ones say is stress."
     },
     {
       "number": 30,
-      "pali": "taṁ tesaṁ dukkhasammataṁ. ",
-      "english": "is deemed as suffering for them. "
+      "pali": "",
+      "english": "What others say is stressful,"
     },
     {
       "number": 31,
-      "pali": "Sukhaṁ diṭṭhamariyebhi, ",
-      "english": "The noble ones have seen that happiness "
+      "pali": "",
+      "english": "the noble know as bliss."
     },
     {
       "number": 32,
-      "pali": "sakkāyassa nirodhanaṁ; ",
-      "english": "is the cessation of substantial reality. "
+      "pali": "",
+      "english": "See the Dhamma, hard to understand!"
     },
     {
       "number": 33,
-      "pali": "Paccanīkamidaṁ hoti, ",
-      "english": "This insight by those who see "
+      "pali": "",
+      "english": "Here those who don’t know"
     },
     {
       "number": 34,
-      "pali": "sabbalokena passataṁ. ",
-      "english": "contradicts the whole world. "
+      "pali": "",
+      "english": "are confused."
     },
     {
       "number": 35,
-      "pali": "Yaṁ pare sukhato āhu, ",
-      "english": "What others say is happiness "
+      "pali": "",
+      "english": "For those who are veiled,"
     },
     {
       "number": 36,
-      "pali": "tadariyā āhu dukkhato; ",
-      "english": "the noble ones say is suffering. "
+      "pali": "",
+      "english": "it’s darkness,"
     },
     {
       "number": 37,
-      "pali": "Yaṁ pare dukkhato āhu, ",
-      "english": "What others say is suffering "
+      "pali": "",
+      "english": "blindness"
     },
     {
       "number": 38,
-      "pali": "tadariyā sukhato vidū. ",
-      "english": "the noble ones know as happiness. "
+      "pali": "",
+      "english": "for those who don’t see."
     },
     {
       "number": 39,
-      "pali": "Passa dhammaṁ durājānaṁ, ",
-      "english": "See, this teaching is hard to understand, "
+      "pali": "",
+      "english": "But for the good it’s blatant,"
     },
     {
       "number": 40,
-      "pali": "sammūḷhettha aviddasu; ",
-      "english": "it confuses the ignorant. "
+      "pali": "",
+      "english": "like light for those who see."
     },
     {
       "number": 41,
-      "pali": "Nivutānaṁ tamo hoti, ",
-      "english": "There is darkness for the shrouded; "
+      "pali": "",
+      "english": "Though in its very presence,"
     },
     {
       "number": 42,
-      "pali": "andhakāro apassataṁ. ",
-      "english": "blackness for those who don’t see. "
+      "pali": "",
+      "english": "they don’t understand it—"
     },
     {
       "number": 43,
-      "pali": "Satañca vivaṭaṁ hoti, ",
-      "english": "But the good are open; "
+      "pali": "",
+      "english": "dumb animals, unadept in the Dhamma."
     },
     {
       "number": 44,
-      "pali": "āloko passatāmiva; ",
-      "english": "like light for those who see. "
+      "pali": "",
+      "english": "It’s not easy"
     },
     {
       "number": 45,
-      "pali": "Santike na vijānanti, ",
-      "english": "Though close, they do not understand, "
+      "pali": "",
+      "english": "for those overcome"
     },
     {
       "number": 46,
-      "pali": "maggā dhammassa akovidā. ",
-      "english": "the seekers inexpert in the teaching. "
+      "pali": "",
+      "english": "by passion for becoming,"
     },
     {
       "number": 47,
-      "pali": "Bhavarāgaparetebhi, ",
-      "english": "They’re mired in desire for continued existence, "
+      "pali": "",
+      "english": "flowing along"
     },
     {
       "number": 48,
-      "pali": "bhavarāgānusārībhi; ",
-      "english": "flowing along the stream of lives, "
+      "pali": "",
+      "english": "in the stream of becoming,"
     },
     {
       "number": 49,
-      "pali": "Māradheyyānupannehi, ",
-      "english": "mired in Māra’s dominion: "
+      "pali": "",
+      "english": "falling under Māra’s sway,"
     },
     {
       "number": 50,
-      "pali": "nāyaṁ dhammo susambudho. ",
-      "english": "this teaching isn’t easy for them to understand. "
+      "pali": "",
+      "english": "to wake up"
     },
     {
       "number": 51,
-      "pali": "Ko nu aññatra mariyebhi, ",
-      "english": "Who, apart from the noble ones, "
+      "pali": "",
+      "english": "to this Dhamma."
     },
     {
       "number": 52,
-      "pali": "Padaṁ sambuddhumarahati; ",
-      "english": "is qualified to understand this state? "
+      "pali": "",
+      "english": "Who, apart from the noble,"
     },
     {
       "number": 53,
-      "pali": "Yaṁ padaṁ sammadaññāya, ",
-      "english": "Having rightly understood this state, "
+      "pali": "",
+      "english": "is worthy to wake up"
     },
     {
       "number": 54,
-      "pali": "Parinibbanti anāsavā”ti. ",
-      "english": "the undefiled are fully extinguished.” "
+      "pali": "",
+      "english": "to this state?—"
     },
     {
       "number": 55,
-      "pali": "Tatiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "the state that,"
+    },
+    {
+      "number": 56,
+      "pali": "",
+      "english": "through rightly knowing it,"
+    },
+    {
+      "number": 57,
+      "pali": "",
+      "english": "they totally unbind,"
+    },
+    {
+      "number": 58,
+      "pali": "",
+      "english": "effluent-free.”"
     }
   ]
 }

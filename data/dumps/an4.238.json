@@ -3,73 +3,48 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 4.238 ",
-      "english": "Numbered Discourses 4.238 "
+      "pali": "Numerical Discourses 4.238",
+      "english": "Numerical Discourses 4.238"
     },
     {
       "number": 2,
-      "pali": "24. Kammavagga ",
-      "english": "24. Deeds "
+      "pali": "Bojjhaṅga Sutta",
+      "english": "Factors for Awakening"
     },
     {
       "number": 3,
-      "pali": "Bojjhaṅgasutta ",
-      "english": "Awakening Factors "
+      "pali": "",
+      "english": "“Monks, these four types of kamma have been directly known, verified, & made known by me. Which four? There is kamma that is dark with dark result. There is kamma that is bright with bright result. There is kamma that is dark & bright with dark & bright result. There is kamma that is neither dark nor bright with neither dark nor bright result, leading to the ending of kamma."
     },
     {
       "number": 4,
-      "pali": "“Cattārimāni, bhikkhave, kammāni …pe… kaṇhaṁ kaṇhavipākaṁ …pe… ",
-      "english": "“Mendicants, I declare these four kinds of deeds, having realized them with my own insight…. "
+      "pali": "",
+      "english": "“And what is kamma that is dark with dark result? There is the case where a certain person fabricates an injurious bodily fabrication, fabricates an injurious verbal fabrication, fabricates an injurious mental fabrication. Having fabricated an injurious bodily fabrication, having fabricated an injurious verbal fabrication, having fabricated an injurious mental fabrication, he rearises in an injurious world. On rearising in an injurious world, there he is touched by injurious contacts. Touched by injurious contacts, he experiences feelings that are exclusively painful, like those of the beings in hell. This is called kamma that is dark with dark result."
     },
     {
       "number": 5,
-      "pali": "idha, bhikkhave, ekacco sabyābajjhaṁ kāyasaṅkhāraṁ abhisaṅkharoti …pe… idaṁ vuccati, bhikkhave, kammaṁ kaṇhaṁ kaṇhavipākaṁ. ",
-      "english": "And what are dark deeds with dark results? It’s when someone makes hurtful choices by way of body, speech, and mind. These are called dark deeds with dark results. "
+      "pali": "",
+      "english": "“And what is kamma that is bright with bright result? There is the case where a certain person fabricates a non-injurious bodily fabrication… a non-injurious verbal fabrication… a non-injurious mental fabrication.… He rearises in a non-injurious world.… There he is touched by non-injurious contacts.… He experiences feelings that are exclusively pleasant, like those of the Beautiful Dark Devas. This is called kamma that is bright with bright result."
     },
     {
       "number": 6,
-      "pali": "Katamañca, bhikkhave, kammaṁ sukkaṁ sukkavipākaṁ? ",
-      "english": "And what are bright deeds with bright results? "
+      "pali": "",
+      "english": "“And what is kamma that is dark & bright with dark & bright result? There is the case where a certain person fabricates a bodily fabrication that is injurious & non-injurious… a verbal fabrication that is injurious & non-injurious… a mental fabrication that is injurious & non-injurious.… He rearises in an injurious & non-injurious world.… There he is touched by injurious & non-injurious contacts.… He experiences injurious & non-injurious feelings, pleasure mingled with pain, like those of human beings, some devas, and some beings in the lower realms. This is called kamma that is dark & bright with dark & bright result."
     },
     {
       "number": 7,
-      "pali": "Idha, bhikkhave, ekacco abyābajjhaṁ kāyasaṅkhāraṁ abhisaṅkharoti …pe… idaṁ vuccati, bhikkhave, kammaṁ sukkaṁ sukkavipākaṁ. ",
-      "english": "It’s when someone makes pleasing choices by way of body, speech, and mind. These are called bright deeds with bright results. "
+      "pali": "",
+      "english": "“And what is kamma that is neither dark nor bright with neither dark nor bright result, leading to the ending of kamma? Mindfulness as a factor for awakening, analysis of qualities as a factor for awakening, persistence as a factor for awakening, rapture as a factor for awakening, calm as a factor for awakening, concentration as a factor for awakening, equanimity as a factor for awakening. This is called kamma that is neither dark nor bright with neither dark nor bright result, leading to the ending of kamma."
     },
     {
       "number": 8,
-      "pali": "Katamañca, bhikkhave, kammaṁ kaṇhasukkaṁ kaṇhasukkavipākaṁ? ",
-      "english": "And what are dark and bright deeds with dark and bright results? "
+      "pali": "",
+      "english": "“These, monks, are the four types of kamma directly known, verified, & made known by me.”"
     },
     {
       "number": 9,
-      "pali": "Idha, bhikkhave, ekacco sabyābajjhampi abyābajjhampi kāyasaṅkhāraṁ abhisaṅkharoti …pe… idaṁ vuccati, bhikkhave, kammaṁ kaṇhasukkaṁ kaṇhasukkavipākaṁ. ",
-      "english": "It’s when someone makes both hurtful and pleasing choices by way of body, speech, and mind. These are called dark and bright deeds with dark and bright results. "
-    },
-    {
-      "number": 10,
-      "pali": "Katamañca, bhikkhave, kammaṁ akaṇhaasukkaṁ akaṇhaasukkavipākaṁ kammakkhayāya saṁvattati? ",
-      "english": "And what are neither dark nor bright deeds with neither dark nor bright results, which lead to the ending of deeds? "
-    },
-    {
-      "number": 11,
-      "pali": "Satisambojjhaṅgo, dhammavicayasambojjhaṅgo, vīriyasambojjhaṅgo, pītisambojjhaṅgo, passaddhisambojjhaṅgo, samādhisambojjhaṅgo, upekkhāsambojjhaṅgo—",
-      "english": "The awakening factors of mindfulness, investigation of principles, energy, rapture, tranquility, immersion, and equanimity. "
-    },
-    {
-      "number": 12,
-      "pali": "idaṁ vuccati, bhikkhave, kammaṁ akaṇhaasukkaṁ akaṇhaasukkavipākaṁ kammakkhayāya saṁvattati. ",
-      "english": "These are called neither dark nor bright deeds with neither dark nor bright results, which lead to the ending of deeds. "
-    },
-    {
-      "number": 13,
-      "pali": "Imāni kho, bhikkhave, cattāri kammāni mayā sayaṁ abhiññā sacchikatvā paveditānī”ti. ",
-      "english": "These are the four kinds of deeds that I declare, having realized them with my own insight.” "
-    },
-    {
-      "number": 14,
-      "pali": "Sattamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "See also: MN 135 ; MN 136 ; SN 42:8 ; SN 46:51 ; SN 46:52 ; AN 2:18 ; AN 6:63"
     }
   ]
 }

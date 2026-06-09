@@ -3,133 +3,48 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 48.38 ",
-      "english": "Linked Discourses 48.38 "
+      "pali": "Linked Discourses 48.38",
+      "english": "Linked Discourses 48.38"
     },
     {
       "number": 2,
-      "pali": "4. Sukhindriyavagga ",
-      "english": "4. The Pleasure Faculty "
+      "pali": "Vibhaṅga Sutta",
+      "english": "An Analysis (of the Feeling Faculties) (3)"
     },
     {
       "number": 3,
-      "pali": "Tatiyavibhaṅgasutta ",
-      "english": "Analysis (3rd) "
+      "pali": "",
+      "english": "“Monks, there are these five faculties. Which five? The pleasure-faculty, the pain-faculty, the happiness-faculty, the distress-faculty, the equanimity-faculty."
     },
     {
       "number": 4,
-      "pali": "“Pañcimāni, bhikkhave, indriyāni. ",
-      "english": "“Mendicants, there are these five faculties. "
+      "pali": "",
+      "english": "“And what is the pleasure-faculty? Any physical pleasure, physical comfort born of body-contact to be experienced as pleasure & comfort. That is called the pleasure-faculty."
     },
     {
       "number": 5,
-      "pali": "Katamāni pañca? ",
-      "english": "What five? "
+      "pali": "",
+      "english": "“And what is the pain-faculty? Any physical pain, physical discomfort born of body-contact to be experienced as pain & discomfort. That is called the pain-faculty."
     },
     {
       "number": 6,
-      "pali": "Sukhindriyaṁ, dukkhindriyaṁ, somanassindriyaṁ, domanassindriyaṁ, upekkhindriyaṁ. ",
-      "english": "The faculties of pleasure, pain, happiness, sadness, and equanimity. "
+      "pali": "",
+      "english": "“And what is the happiness-faculty? Any mental pleasure, mental comfort born of intellect-contact to be experienced as pleasure & comfort. That is called the happiness -faculty."
     },
     {
       "number": 7,
-      "pali": "Katamañca, bhikkhave, sukhindriyaṁ? ",
-      "english": "And what is the faculty of pleasure? "
+      "pali": "",
+      "english": "“And what is the distress-faculty? Any mental pain, mental discomfort born of intellect-contact to be experienced as pain & discomfort. That is called the distress-faculty."
     },
     {
       "number": 8,
-      "pali": "Yaṁ kho, bhikkhave, kāyikaṁ sukhaṁ, kāyikaṁ sātaṁ, kāyasamphassajaṁ sukhaṁ sātaṁ vedayitaṁ—",
-      "english": "Physical enjoyment, physical pleasure, the enjoyable, pleasant feeling that’s born from physical contact. "
+      "pali": "",
+      "english": "“And what is the equanimity-faculty? Anything, physical or mental, to be experienced as neither comfort nor discomfort. That is called the equanimity-faculty."
     },
     {
       "number": 9,
-      "pali": "idaṁ vuccati, bhikkhave, sukhindriyaṁ. ",
-      "english": "This is called the faculty of pleasure. "
-    },
-    {
-      "number": 10,
-      "pali": "Katamañca, bhikkhave, dukkhindriyaṁ? ",
-      "english": "And what is the faculty of pain? "
-    },
-    {
-      "number": 11,
-      "pali": "Yaṁ kho, bhikkhave, kāyikaṁ dukkhaṁ, kāyikaṁ asātaṁ, kāyasamphassajaṁ dukkhaṁ asātaṁ vedayitaṁ—",
-      "english": "Physical pain, physical unpleasantness, the painful, unpleasant feeling that’s born from physical contact. "
-    },
-    {
-      "number": 12,
-      "pali": "idaṁ vuccati, bhikkhave, dukkhindriyaṁ. ",
-      "english": "This is called the faculty of pain. "
-    },
-    {
-      "number": 13,
-      "pali": "Katamañca, bhikkhave, somanassindriyaṁ? ",
-      "english": "And what is the faculty of happiness? "
-    },
-    {
-      "number": 14,
-      "pali": "Yaṁ kho, bhikkhave, cetasikaṁ sukhaṁ, cetasikaṁ sātaṁ, manosamphassajaṁ sukhaṁ sātaṁ vedayitaṁ—",
-      "english": "Mental enjoyment, mental pleasure, the enjoyable, pleasant feeling that’s born from mind contact. "
-    },
-    {
-      "number": 15,
-      "pali": "idaṁ vuccati, bhikkhave, somanassindriyaṁ. ",
-      "english": "This is called the faculty of happiness. "
-    },
-    {
-      "number": 16,
-      "pali": "Katamañca, bhikkhave, domanassindriyaṁ? ",
-      "english": "And what is the faculty of sadness? "
-    },
-    {
-      "number": 17,
-      "pali": "Yaṁ kho, bhikkhave, cetasikaṁ dukkhaṁ, cetasikaṁ asātaṁ, manosamphassajaṁ dukkhaṁ asātaṁ vedayitaṁ—",
-      "english": "Mental pain, mental displeasure, the painful, unpleasant feeling that’s born from mind contact. "
-    },
-    {
-      "number": 18,
-      "pali": "idaṁ vuccati, bhikkhave, domanassindriyaṁ. ",
-      "english": "This is called the faculty of sadness. "
-    },
-    {
-      "number": 19,
-      "pali": "Katamañca, bhikkhave, upekkhindriyaṁ? ",
-      "english": "And what is the faculty of equanimity? "
-    },
-    {
-      "number": 20,
-      "pali": "Yaṁ kho, bhikkhave, kāyikaṁ vā cetasikaṁ vā neva sātaṁ nāsātaṁ vedayitaṁ—",
-      "english": "Neither pleasant nor unpleasant feeling, whether physical or mental. "
-    },
-    {
-      "number": 21,
-      "pali": "idaṁ vuccati, bhikkhave, upekkhindriyaṁ. ",
-      "english": "This is the faculty of equanimity. "
-    },
-    {
-      "number": 22,
-      "pali": "Tatra, bhikkhave, yañca sukhindriyaṁ yañca somanassindriyaṁ, sukhā sā vedanā daṭṭhabbā. ",
-      "english": "In this context, the faculties of pleasure and happiness should be seen as pleasant feeling. "
-    },
-    {
-      "number": 23,
-      "pali": "Tatra, bhikkhave, yañca dukkhindriyaṁ yañca domanassindriyaṁ, dukkhā sā vedanā daṭṭhabbā. ",
-      "english": "The faculties of pain and sadness should be seen as painful feeling. "
-    },
-    {
-      "number": 24,
-      "pali": "Tatra, bhikkhave, yadidaṁ upekkhindriyaṁ, adukkhamasukhā sā vedanā daṭṭhabbā. ",
-      "english": "The faculty of equanimity should be seen as neutral feeling. "
-    },
-    {
-      "number": 25,
-      "pali": "Iti kho, bhikkhave, imāni pañcindriyāni pañca hutvā tīṇi honti, tīṇi hutvā pañca honti pariyāyenā”ti. ",
-      "english": "That’s how these five faculties, depending on how they’re explained, having been five become three, and having been three become five.” "
-    },
-    {
-      "number": 26,
-      "pali": "Aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“With regard to this, the pleasure-faculty & happiness-faculty are to be seen as a feeling of pleasure. The pain-faculty & distress-faculty are to be seen as a feeling of pain. The equanimity-faculty is to be seen as a feeling of neither pleasure nor pain. Thus, by this exposition, the five are three; and the three, five.”"
     }
   ]
 }

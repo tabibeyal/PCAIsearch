@@ -3,213 +3,113 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 7.6 ",
-      "english": "Numbered Discourses 7.6 "
+      "pali": "Numerical Discourses 7.6",
+      "english": "Numerical Discourses 7.6"
     },
     {
       "number": 2,
-      "pali": "1. Dhanavagga ",
-      "english": "1. Wealth "
+      "pali": "Dhana Sutta",
+      "english": "Treasure"
     },
     {
       "number": 3,
-      "pali": "Vitthatadhanasutta ",
-      "english": "Wealth in Detail "
+      "pali": "",
+      "english": "“Monks, there are these seven treasures. Which seven? The treasure of conviction, the treasure of virtue, the treasure of a sense of shame, the treasure of a sense of compunction, the treasure of listening, the treasure of generosity, the treasure of discernment."
     },
     {
       "number": 4,
-      "pali": "“Sattimāni, bhikkhave, dhanāni. ",
-      "english": "“Mendicants, there are these seven kinds of wealth. "
+      "pali": "",
+      "english": "“And what is the treasure of conviction? There is the case where a disciple of the noble ones has conviction, is convinced of the Tathāgata’s awakening: ‘Indeed, the Blessed One is worthy & rightly self-awakened, consummate in clear-knowing & conduct, well-gone, an expert with regard to the cosmos, unexcelled trainer of people fit to be tamed, teacher of devas & human beings, awakened, blessed.’ This is called the treasure of conviction."
     },
     {
       "number": 5,
-      "pali": "Katamāni satta? ",
-      "english": "What seven? "
+      "pali": "",
+      "english": "“And what is the treasure of virtue? There is the case where a disciple of the noble ones abstains from taking life, abstains from stealing, abstains from sexual misconduct, abstains from lying, abstains from taking intoxicants that cause heedlessness. This, monks, is called the treasure of virtue."
     },
     {
       "number": 6,
-      "pali": "Saddhādhanaṁ, sīladhanaṁ, hirīdhanaṁ, ottappadhanaṁ, sutadhanaṁ, cāgadhanaṁ, paññādhanaṁ. ",
-      "english": "The wealth of faith, ethics, conscience, prudence, learning, generosity, and wisdom. "
+      "pali": "",
+      "english": "“And what is the treasure of a sense of shame? There is the case where a disciple of the noble ones feels shame at (the thought of engaging in) bodily misconduct, verbal misconduct, mental misconduct. He feels shame at falling into evil, unskillful actions. This is called the treasure of a sense of shame."
     },
     {
       "number": 7,
-      "pali": "Katamañca, bhikkhave, saddhādhanaṁ? ",
-      "english": "And what is the wealth of faith? "
+      "pali": "",
+      "english": "“And what is the treasure of a sense of compunction? There is the case where a monk, a disciple of the noble ones feels compunction at (the suffering that would result from) bodily misconduct, verbal misconduct, mental misconduct. He feels compunction at falling into evil, unskillful actions. This is called the treasure of a sense of compunction."
     },
     {
       "number": 8,
-      "pali": "Idha, bhikkhave, ariyasāvako saddho hoti, saddahati tathāgatassa bodhiṁ: ",
-      "english": "It’s when a noble disciple has faith in the Realized One’s awakening … "
+      "pali": "",
+      "english": "“And what is the treasure of listening? There is the case where a disciple of the noble ones has heard much, has retained what he/she has heard, has stored what he/she has heard. Whatever teachings are admirable in the beginning, admirable in the middle, admirable in the end, that—in their meaning & expression—proclaim the holy life that is entirely perfect, surpassingly pure: Those he/she has listened to often, retained, discussed, accumulated, examined with his/her mind, and well-penetrated in terms of his/her views. This is called the treasure of listening."
     },
     {
       "number": 9,
-      "pali": "‘itipi so bhagavā arahaṁ sammāsambuddho …pe… buddho bhagavā’ti. ",
-      "english": ""
+      "pali": "",
+      "english": "“And what is the treasure of generosity? There is the case of a disciple of the noble ones, his awareness cleansed of the stain of stinginess, living at home, is freely generous, openhanded, delighting in being magnanimous, responsive to requests, delighting in the distribution of alms. This is called the treasure of generosity."
     },
     {
       "number": 10,
-      "pali": "Idaṁ vuccati, bhikkhave, saddhādhanaṁ. ",
-      "english": "This is called the wealth of faith. "
+      "pali": "",
+      "english": "“And what is the treasure of discernment? There is the case where a disciple of the noble ones is discerning, endowed with discernment of arising & passing away—noble, penetrating, leading to the right ending of stress. This is called the treasure of discernment. These, monks, are the seven treasures.”"
     },
     {
       "number": 11,
-      "pali": "Katamañca, bhikkhave, sīladhanaṁ? ",
-      "english": "And what is the wealth of ethical conduct? "
+      "pali": "",
+      "english": "The treasure of conviction,"
     },
     {
       "number": 12,
-      "pali": "Idha, bhikkhave, ariyasāvako pāṇātipātā paṭivirato hoti …pe… surāmerayamajjapamādaṭṭhānā paṭivirato hoti. ",
-      "english": "It’s when a noble disciple doesn’t kill living creatures, steal, commit sexual misconduct, use speech that’s false, backbiting, harsh, or nonsensical, or consume beer, wine, and liquor intoxicants. "
+      "pali": "",
+      "english": "the treasure of virtue,"
     },
     {
       "number": 13,
-      "pali": "Idaṁ vuccati, bhikkhave, sīladhanaṁ. ",
-      "english": "This is called the wealth of ethical conduct. "
+      "pali": "",
+      "english": "the treasure of a sense of shame & compunction,"
     },
     {
       "number": 14,
-      "pali": "Katamañca, bhikkhave, hirīdhanaṁ? ",
-      "english": "And what is the wealth of conscience? "
+      "pali": "",
+      "english": "the treasure of listening, generosity,"
     },
     {
       "number": 15,
-      "pali": "Idha, bhikkhave, ariyasāvako hirīmā hoti, hirīyati kāyaduccaritena vacīduccaritena manoduccaritena, hirīyati pāpakānaṁ akusalānaṁ dhammānaṁ samāpattiyā. ",
-      "english": "It’s when a noble disciple has a conscience. They’re conscientious about bad conduct by way of body, speech, and mind, and conscientious about having any bad, unskillful qualities. "
+      "pali": "",
+      "english": "& discernment as the seventh treasure."
     },
     {
       "number": 16,
-      "pali": "Idaṁ vuccati, bhikkhave, hirīdhanaṁ. ",
-      "english": "This is called the wealth of conscience. "
+      "pali": "",
+      "english": "Whoever, man or woman, has these treasures"
     },
     {
       "number": 17,
-      "pali": "Katamañca, bhikkhave, ottappadhanaṁ? ",
-      "english": "And what is the wealth of prudence? "
+      "pali": "",
+      "english": "is said not to be poor,"
     },
     {
       "number": 18,
-      "pali": "Idha, bhikkhave, ariyasāvako ottappī hoti, ottappati kāyaduccaritena vacīduccaritena manoduccaritena, ottappati pāpakānaṁ akusalānaṁ dhammānaṁ samāpattiyā. ",
-      "english": "It’s when a noble disciple is prudent. They’re prudent when it comes to bad conduct by way of body, speech, and mind, and prudent when it comes to the acquiring of any bad, unskillful qualities. "
+      "pali": "",
+      "english": "has not lived in vain."
     },
     {
       "number": 19,
-      "pali": "Idaṁ vuccati, bhikkhave, ottappadhanaṁ. ",
-      "english": "This is called the wealth of prudence. "
+      "pali": "",
+      "english": "So conviction & virtue,"
     },
     {
       "number": 20,
-      "pali": "Katamañca, bhikkhave, sutadhanaṁ? ",
-      "english": "And what is the wealth of learning? "
+      "pali": "",
+      "english": "faith & Dhamma-vision"
     },
     {
       "number": 21,
-      "pali": "Idha, bhikkhave, ariyasāvako bahussuto hoti sutadharo sutasannicayo. Ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ abhivadanti. Tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā. ",
-      "english": "It’s when a noble disciple is very learned, remembering and keeping what they’ve learned. These teachings are good in the beginning, good in the middle, and good in the end, meaningful and well-phrased, describing a spiritual practice that’s entirely full and pure. They are very learned in such teachings, remembering them, rehearsing them, mentally scrutinizing them, and penetrating them theoretically. "
+      "pali": "",
+      "english": "should be cultivated by the intelligent,"
     },
     {
       "number": 22,
-      "pali": "Idaṁ vuccati, bhikkhave, sutadhanaṁ. ",
-      "english": "This is called the wealth of learning. "
-    },
-    {
-      "number": 23,
-      "pali": "Katamañca, bhikkhave, cāgadhanaṁ? ",
-      "english": "And what is the wealth of generosity? "
-    },
-    {
-      "number": 24,
-      "pali": "Idha, bhikkhave, ariyasāvako vigatamalamaccherena cetasā agāraṁ ajjhāvasati muttacāgo payatapāṇi vosaggarato yācayogo dānasaṁvibhāgarato. ",
-      "english": "It’s when a noble disciple lives at home rid of the stain of stinginess, freely generous, open-handed, loving to let go, committed to charity, loving to give and to share. "
-    },
-    {
-      "number": 25,
-      "pali": "Idaṁ vuccati, bhikkhave, cāgadhanaṁ. ",
-      "english": "This is called the wealth of generosity. "
-    },
-    {
-      "number": 26,
-      "pali": "Katamañca, bhikkhave, paññādhanaṁ? ",
-      "english": "And what is the wealth of wisdom? "
-    },
-    {
-      "number": 27,
-      "pali": "Idha, bhikkhave, ariyasāvako paññavā hoti …pe… sammā dukkhakkhayagāminiyā. ",
-      "english": "It’s when a noble disciple is wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. "
-    },
-    {
-      "number": 28,
-      "pali": "Idaṁ vuccati, bhikkhave, paññādhanaṁ. ",
-      "english": "This is called the wealth of wisdom. "
-    },
-    {
-      "number": 29,
-      "pali": "Imāni kho, bhikkhave, sattadhanānīti. ",
-      "english": "These are the seven kinds of wealth. "
-    },
-    {
-      "number": 30,
-      "pali": "Saddhādhanaṁ sīladhanaṁ, ",
-      "english": "Faith and ethical conduct are kinds of wealth, "
-    },
-    {
-      "number": 31,
-      "pali": "hirī ottappiyaṁ dhanaṁ; ",
-      "english": "as are conscience and prudence, "
-    },
-    {
-      "number": 32,
-      "pali": "Sutadhanañca cāgo ca, ",
-      "english": "learning and generosity, "
-    },
-    {
-      "number": 33,
-      "pali": "paññā ve sattamaṁ dhanaṁ. ",
-      "english": "and wisdom is the seventh kind of wealth. "
-    },
-    {
-      "number": 34,
-      "pali": "Yassa ete dhanā atthi, ",
-      "english": "When a woman or man "
-    },
-    {
-      "number": 35,
-      "pali": "itthiyā purisassa vā; ",
-      "english": "has these kinds of wealth, "
-    },
-    {
-      "number": 36,
-      "pali": "Adaliddoti taṁ āhu, ",
-      "english": "they’re said to be prosperous, "
-    },
-    {
-      "number": 37,
-      "pali": "amoghaṁ tassa jīvitaṁ. ",
-      "english": "their life is not in vain. "
-    },
-    {
-      "number": 38,
-      "pali": "Tasmā saddhañca sīlañca, ",
-      "english": "So let the wise devote themselves "
-    },
-    {
-      "number": 39,
-      "pali": "pasādaṁ dhammadassanaṁ; ",
-      "english": "to faith, ethical behavior, "
-    },
-    {
-      "number": 40,
-      "pali": "Anuyuñjetha medhāvī, ",
-      "english": "confidence, and insight into the teaching, "
-    },
-    {
-      "number": 41,
-      "pali": "saraṁ buddhāna sāsanan”ti. ",
-      "english": "remembering the instructions of the Buddhas.” "
-    },
-    {
-      "number": 42,
-      "pali": "Chaṭṭhaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "remembering the Buddhas’ instruction."
     }
   ]
 }

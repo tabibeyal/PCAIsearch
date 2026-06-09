@@ -3,168 +3,78 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 4.62 ",
-      "english": "Numbered Discourses 4.62 "
+      "pali": "Numerical Discourses 4.62",
+      "english": "Numerical Discourses 4.62"
     },
     {
       "number": 2,
-      "pali": "7. Pattakammavagga ",
-      "english": "7. Fitting Deeds "
+      "pali": "Anaṇa Sutta",
+      "english": "Debtlessness"
     },
     {
       "number": 3,
-      "pali": "Ānaṇyasutta ",
-      "english": "Debtlessness "
+      "pali": "",
+      "english": "Then Anāthapiṇḍika the householder went to the Blessed One and, on arrival, having bowed down to the Blessed One, sat to one side. As he was sitting there, the Blessed One said to him, “Householder, there are these four types of bliss that—depending on time & occasion—can be experienced by a householder partaking of sensuality. Which four? The bliss of having, the bliss of partaking, the bliss of debtlessness, & the bliss of blamelessness."
     },
     {
       "number": 4,
-      "pali": "Atha kho anāthapiṇḍiko gahapati yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho anāthapiṇḍikaṁ gahapatiṁ bhagavā etadavoca: ",
-      "english": "Then the householder Anāthapiṇḍika went up to the Buddha, bowed, and sat down to one side. The Buddha said to him: "
+      "pali": "",
+      "english": "“And which is the bliss of having? There is the case where a son of a good family has wealth earned through his efforts & enterprise, amassed through the strength of his arms and piled up through the sweat of his brow, righteous wealth righteously gained. [Thinking,] ‘I have wealth earned through my efforts & enterprise, amassed through the strength of my arms and piled up through the sweat of my brow, righteous wealth righteously gained,’ he experiences bliss, experiences joy. This is called the bliss of having."
     },
     {
       "number": 5,
-      "pali": "“Cattārimāni, gahapati, sukhāni adhigamanīyāni gihinā kāmabhoginā kālena kālaṁ samayena samayaṁ upādāya. ",
-      "english": "“Householder, these four kinds of happiness can be earned by a layperson who enjoys sensual pleasures, depending on time and occasion. "
+      "pali": "",
+      "english": "“And which is the bliss of partaking? There is the case where a son of a good family, using the wealth earned through his efforts & enterprise, amassed through the strength of his arms and piled up through the sweat of his brow—righteous wealth righteously gained—partakes of his wealth & makes merit. [Thinking,] ‘Using the wealth earned through my efforts & enterprise, amassed through the strength of my arms and piled up through the sweat of my brow—righteous wealth righteously gained—I partake of my wealth & make merit,’ he experiences bliss, experiences joy. This is called the bliss of partaking."
     },
     {
       "number": 6,
-      "pali": "Katamāni cattāri? ",
-      "english": "What four? "
+      "pali": "",
+      "english": "“And which is the bliss of debtlessness? There is the case where a son of a good family owes nothing—large or small—to anyone at all. [Thinking,] ‘I owe nothing—large or small—to anyone at all,’ he experiences bliss, experiences joy. This is called the bliss of debtlessness."
     },
     {
       "number": 7,
-      "pali": "Atthisukhaṁ, bhogasukhaṁ, ānaṇyasukhaṁ, anavajjasukhaṁ. ",
-      "english": "The happiness of ownership, using wealth, debtlessness, and blamelessness. "
+      "pali": "",
+      "english": "“And which is the bliss of blamelessness? There is the case where the disciple of the noble ones is endowed with blameless bodily action, blameless verbal action, blameless mental action. [Thinking,] ‘I am endowed with blameless bodily action, blameless verbal action, blameless mental action,’ he experiences bliss, experiences joy. This is called the bliss of blamelessness."
     },
     {
       "number": 8,
-      "pali": "Katamañca, gahapati, atthisukhaṁ? ",
-      "english": "And what is the happiness of ownership? "
+      "pali": "",
+      "english": "“Householder, these are four types of bliss that—depending on time & occasion—can be experienced by a householder partaking of sensuality.”"
     },
     {
       "number": 9,
-      "pali": "Idha, gahapati, kulaputtassa bhogā honti uṭṭhānavīriyādhigatā bāhābalaparicitā sedāvakkhittā dhammikā dhammaladdhā. ",
-      "english": "It’s when a gentleman owns legitimate wealth that he has earned by his own efforts and initiative, built up with his own hands, gathered by the sweat of the brow. "
+      "pali": "",
+      "english": "Knowing the bliss of debtlessness,"
     },
     {
       "number": 10,
-      "pali": "So ‘bhogā me atthi uṭṭhānavīriyādhigatā bāhābalaparicitā sedāvakkhittā dhammikā dhammaladdhā’ti adhigacchati sukhaṁ, adhigacchati somanassaṁ. ",
-      "english": "When he reflects on this, he’s filled with pleasure and happiness. "
+      "pali": "",
+      "english": "remembering the bliss of having,"
     },
     {
       "number": 11,
-      "pali": "Idaṁ vuccati, gahapati, atthisukhaṁ. ",
-      "english": "This is called ‘the happiness of ownership’. "
+      "pali": "",
+      "english": "partaking of the bliss of partaking,"
     },
     {
       "number": 12,
-      "pali": "Katamañca, gahapati, bhogasukhaṁ? ",
-      "english": "And what is the happiness of using wealth? "
+      "pali": "",
+      "english": "a mortal then sees clearly with discernment."
     },
     {
       "number": 13,
-      "pali": "Idha, gahapati, kulaputto uṭṭhānavīriyādhigatehi bhogehi bāhābalaparicitehi sedāvakkhittehi dhammikehi dhammaladdhehi paribhuñjati puññāni ca karoti. ",
-      "english": "It’s when a gentleman uses his legitimate wealth, and makes merit with it. "
+      "pali": "",
+      "english": "Seeing clearly, the wise one knows both sides:"
     },
     {
       "number": 14,
-      "pali": "So ‘uṭṭhānavīriyādhigatehi bhogehi bāhābalaparicitehi sedāvakkhittehi dhammikehi dhammaladdhehi paribhuñjāmi puññāni ca karomī’ti adhigacchati sukhaṁ, adhigacchati somanassaṁ. ",
-      "english": "When he reflects on this, he’s filled with pleasure and happiness. "
+      "pali": "",
+      "english": "That side isn’t worth one sixteenth"
     },
     {
       "number": 15,
-      "pali": "Idaṁ vuccati, gahapati, bhogasukhaṁ. ",
-      "english": "This is called ‘the happiness of using wealth’. "
-    },
-    {
-      "number": 16,
-      "pali": "Katamañca, gahapati, ānaṇyasukhaṁ? ",
-      "english": "And what is the happiness of debtlessness? "
-    },
-    {
-      "number": 17,
-      "pali": "Idha, gahapati, kulaputto na kassaci kiñci dhāreti appaṁ vā bahuṁ vā. ",
-      "english": "It’s when a gentleman owes no debt, large or small, to anyone. "
-    },
-    {
-      "number": 18,
-      "pali": "So ‘na kassaci kiñci dhāremi appaṁ vā bahuṁ vā’ti adhigacchati sukhaṁ, adhigacchati somanassaṁ. ",
-      "english": "When he reflects on this, he’s filled with pleasure and happiness. "
-    },
-    {
-      "number": 19,
-      "pali": "Idaṁ vuccati, gahapati, ānaṇyasukhaṁ. ",
-      "english": "This is called ‘the happiness of debtlessness’. "
-    },
-    {
-      "number": 20,
-      "pali": "Katamañca, gahapati, anavajjasukhaṁ? ",
-      "english": "And what is the happiness of blamelessness? "
-    },
-    {
-      "number": 21,
-      "pali": "Idha, gahapati, ariyasāvako anavajjena kāyakammena samannāgato hoti, anavajjena vacīkammena samannāgato hoti, anavajjena manokammena samannāgato hoti. ",
-      "english": "It’s when a noble disciple has blameless conduct by way of body, speech, and mind. "
-    },
-    {
-      "number": 22,
-      "pali": "So ‘anavajjenamhi kāyakammena samannāgato, anavajjena vacīkammena samannāgato, anavajjena manokammena samannāgato’ti adhigacchati sukhaṁ, adhigacchati somanassaṁ. ",
-      "english": "When he reflects on this, he’s filled with pleasure and happiness. "
-    },
-    {
-      "number": 23,
-      "pali": "Idaṁ vuccati, gahapati, anavajjasukhaṁ. ",
-      "english": "This is called ‘the happiness of blamelessness’. "
-    },
-    {
-      "number": 24,
-      "pali": "Imāni kho, gahapati, cattāri sukhāni adhigamanīyāni gihinā kāmabhoginā kālena kālaṁ samayena samayaṁ upādāyāti. ",
-      "english": "These four kinds of happiness can be earned by a layperson who enjoys sensual pleasures, depending on time and occasion. "
-    },
-    {
-      "number": 25,
-      "pali": "Ānaṇyasukhaṁ ñatvāna, ",
-      "english": "Knowing the happiness of debtlessness, "
-    },
-    {
-      "number": 26,
-      "pali": "Atho atthisukhaṁ paraṁ; ",
-      "english": "and the extra happiness of possession, "
-    },
-    {
-      "number": 27,
-      "pali": "Bhuñjaṁ bhogasukhaṁ macco, ",
-      "english": "a mortal enjoying the happiness of using wealth, "
-    },
-    {
-      "number": 28,
-      "pali": "Tato paññā vipassati. ",
-      "english": "then discerns clearly with wisdom. "
-    },
-    {
-      "number": 29,
-      "pali": "Vipassamāno jānāti, ",
-      "english": "Discerning clearly, a clever person knows "
-    },
-    {
-      "number": 30,
-      "pali": "ubho bhoge sumedhaso; ",
-      "english": "both kinds of happiness: "
-    },
-    {
-      "number": 31,
-      "pali": "Anavajjasukhassetaṁ, ",
-      "english": "the other kind is not worth a sixteenth part "
-    },
-    {
-      "number": 32,
-      "pali": "kalaṁ nāgghati soḷasin”ti. ",
-      "english": "of the happiness of blamelessness.” "
-    },
-    {
-      "number": 33,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "of the bliss of blamelessness."
     }
   ]
 }

@@ -3,193 +3,148 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.83 ",
-      "english": "Linked Discourses 22.83 "
+      "pali": "Linked Discourses 22.83",
+      "english": "Linked Discourses 22.83"
     },
     {
       "number": 2,
-      "pali": "9. Theravagga ",
-      "english": "9. Senior Mendicants "
+      "pali": "Ānanda Sutta",
+      "english": "Ānanda"
     },
     {
       "number": 3,
-      "pali": "Ānandasutta ",
-      "english": "With Ānanda "
+      "pali": "",
+      "english": "Near Sāvatthī. There Ven. Ānanda addressed the monks, “Friend monks!”"
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“Yes, friend,” the monks responded to him."
     },
     {
       "number": 5,
-      "pali": "Tatra kho āyasmā ānando bhikkhū āmantesi: ",
-      "english": "There Ānanda addressed the mendicants: "
+      "pali": "",
+      "english": "Ven. Ānanda said, “Friends, Ven. Puṇṇa Mantāṇiputta was very helpful to us when we were newly ordained. He exhorted us with this exhortation:"
     },
     {
       "number": 6,
-      "pali": "“āvuso bhikkhave”ti. ",
-      "english": "“Reverends, mendicants!” "
+      "pali": "",
+      "english": "“‘It’s with possessiveness, friend Ānanda, that there is “I am,” not without possessiveness. And through possessiveness of what is there “I am,” not without possessiveness? Through possessiveness of form there is “I am,” not without possessiveness. Through possessiveness of feeling… perception… fabrications… Through possessiveness of consciousness there is “I am,” not without possessiveness."
     },
     {
       "number": 7,
-      "pali": "“Āvuso”ti kho te bhikkhū āyasmato ānandassa paccassosuṁ. ",
-      "english": "“Reverend,” they replied. "
+      "pali": "",
+      "english": "“‘Just as if a young woman—or a man—youthful, fond of adornment, contemplating the image of her face in a mirror, pure & bright, or in a bowl of clear water, would look with possessiveness, not without possessiveness. In the same way, through possessiveness of form there is “I am,” not without possessiveness. Through possessiveness of feeling… perception… fabrications… Through possessiveness of consciousness there is “I am,” not without possessiveness."
     },
     {
       "number": 8,
-      "pali": "Āyasmā ānando etadavoca: ",
-      "english": "Ānanda said this: "
+      "pali": "",
+      "english": "“‘What do you think, friend Ānanda? Is form constant or inconstant?’"
     },
     {
       "number": 9,
-      "pali": "“Puṇṇo nāma, āvuso, āyasmā mantāṇiputto amhākaṁ navakānaṁ sataṁ bahūpakāro hoti. ",
-      "english": "“Reverends, the venerable named Puṇṇa son of Mantāṇī was very helpful to me when I was just ordained. "
+      "pali": "",
+      "english": "“‘Inconstant, friend.’"
     },
     {
       "number": 10,
-      "pali": "So amhe iminā ovādena ovadati: ",
-      "english": "He gave me this advice: "
+      "pali": "",
+      "english": "“‘And is that which is inconstant easeful or stressful?’"
     },
     {
       "number": 11,
-      "pali": "‘upādāya, āvuso ānanda, asmīti hoti, no anupādāya. ",
-      "english": "‘Reverend Ānanda, the thought “I am” occurs because of grasping, not without grasping. "
+      "pali": "",
+      "english": "“‘Stressful, friend.’"
     },
     {
       "number": 12,
-      "pali": "Kiñca upādāya asmīti hoti, no anupādāya? ",
-      "english": "Grasping what? "
+      "pali": "",
+      "english": "“‘And is it fitting to regard what is inconstant, stressful, subject to change as: “This is mine. This is my self. This is what I am”?‘"
     },
     {
       "number": 13,
-      "pali": "Rūpaṁ upādāya asmīti hoti, no anupādāya. ",
-      "english": "The thought “I am” occurs because of grasping form, "
+      "pali": "",
+      "english": "“‘No, friend.’"
     },
     {
       "number": 14,
-      "pali": "Vedanaṁ … ",
-      "english": "feeling, "
+      "pali": "",
+      "english": "“‘… Is feeling constant or inconstant?’—‘Inconstant, friend.’ …"
     },
     {
       "number": 15,
-      "pali": "saññaṁ … ",
-      "english": "perception, "
+      "pali": "",
+      "english": "“‘… Is perception constant or inconstant?’—‘Inconstant, friend.’ …"
     },
     {
       "number": 16,
-      "pali": "saṅkhāre … ",
-      "english": "choices, "
+      "pali": "",
+      "english": "“‘… Are fabrications constant or inconstant?’—‘Inconstant, friend.’ …"
     },
     {
       "number": 17,
-      "pali": "viññāṇaṁ upādāya asmīti hoti, no anupādāya. ",
-      "english": "and consciousness, not without grasping. "
+      "pali": "",
+      "english": "“‘What do you think, friend Ānanda? Is consciousness constant or inconstant?’"
     },
     {
       "number": 18,
-      "pali": "Seyyathāpi, āvuso ānanda, itthī vā puriso vā daharo yuvā maṇḍanakajātiko ādāse vā parisuddhe pariyodāte acche vā udakapatte sakaṁ mukhanimittaṁ paccavekkhamāno upādāya passeyya, no anupādāya; ",
-      "english": "Suppose there was a woman or man who was young, youthful, and fond of adornments, and they check their own reflection in a clean bright mirror or a clear bowl of water. They’d look because of grasping, not without grasping. "
+      "pali": "",
+      "english": "“‘Inconstant, friend.’"
     },
     {
       "number": 19,
-      "pali": "evameva kho, āvuso ānanda, rūpaṁ upādāya asmīti hoti, no anupādāya. ",
-      "english": "In the same way, the thought “I am” occurs because of grasping form, "
+      "pali": "",
+      "english": "“‘And is that which is inconstant easeful or stressful?’"
     },
     {
       "number": 20,
-      "pali": "Vedanaṁ … ",
-      "english": "feeling, "
+      "pali": "",
+      "english": "“‘Stressful, friend.’"
     },
     {
       "number": 21,
-      "pali": "saññaṁ … ",
-      "english": "perception, "
+      "pali": "",
+      "english": "“‘And is it fitting to regard what is inconstant, stressful, subject to change as: “This is mine. This is my self. This is what I am”?’"
     },
     {
       "number": 22,
-      "pali": "saṅkhāre … ",
-      "english": "choices, "
+      "pali": "",
+      "english": "“‘No, friend.’"
     },
     {
       "number": 23,
-      "pali": "viññāṇaṁ upādāya asmīti hoti, no anupādāya. ",
-      "english": "and consciousness, not without grasping. "
+      "pali": "",
+      "english": "“‘Thus, friend Ānanda, any form whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: Every form is to be seen as it has come to be with right discernment as: “This is not mine. This is not my self. This is not what I am.”"
     },
     {
       "number": 24,
-      "pali": "Taṁ kiṁ maññasi, āvuso ānanda, ",
-      "english": "What do you think, Reverend Ānanda? "
+      "pali": "",
+      "english": "“‘Any feeling whatsoever.…"
     },
     {
       "number": 25,
-      "pali": "rūpaṁ niccaṁ vā aniccaṁ vā’ti? ",
-      "english": "Is form permanent or impermanent?’ "
+      "pali": "",
+      "english": "“‘Any perception whatsoever.…"
     },
     {
       "number": 26,
-      "pali": "‘Aniccaṁ, āvuso’. ",
-      "english": "‘Impermanent, reverend.’ "
+      "pali": "",
+      "english": "“‘Any fabrications whatsoever.…"
     },
     {
       "number": 27,
-      "pali": "‘Vedanā … ",
-      "english": "‘Is feeling … "
+      "pali": "",
+      "english": "“‘Any consciousness whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: Every consciousness is to be seen as it has come to be with right discernment as: “This is not mine. This is not my self. This is not what I am.”"
     },
     {
       "number": 28,
-      "pali": "saññā … ",
-      "english": "perception … "
+      "pali": "",
+      "english": "“‘Seeing thus, the instructed disciple of the noble ones grows disenchanted with form, disenchanted with feeling, disenchanted with perception, disenchanted with fabrications, disenchanted with consciousness. Disenchanted, he becomes dispassionate. Through dispassion, he is released. With release, there is the knowledge, “Released.” He discerns that “Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.”’"
     },
     {
       "number": 29,
-      "pali": "saṅkhārā … ",
-      "english": "choices … "
-    },
-    {
-      "number": 30,
-      "pali": "viññāṇaṁ niccaṁ vā aniccaṁ vā’ti? ",
-      "english": "consciousness permanent or impermanent?’ "
-    },
-    {
-      "number": 31,
-      "pali": "‘Aniccaṁ, āvuso’ …pe…. ",
-      "english": "‘Impermanent, reverend.’ … "
-    },
-    {
-      "number": 32,
-      "pali": "Tasmātiha …pe… ",
-      "english": "‘So you should truly see … "
-    },
-    {
-      "number": 33,
-      "pali": "evaṁ passaṁ …pe… ",
-      "english": "Seeing this … "
-    },
-    {
-      "number": 34,
-      "pali": "nāparaṁ itthattāyāti pajānātīti. ",
-      "english": "They understand: “… there is nothing further for this place.”’ "
-    },
-    {
-      "number": 35,
-      "pali": "Puṇṇo nāma, āvuso, āyasmā mantāṇiputto amhākaṁ navakānaṁ sataṁ bahūpakāro hoti. ",
-      "english": "Reverends, the venerable named Puṇṇa son of Mantāṇī was very helpful to me when I was just ordained. "
-    },
-    {
-      "number": 36,
-      "pali": "So amhe iminā ovādena ovadati. ",
-      "english": "He gave me this advice. "
-    },
-    {
-      "number": 37,
-      "pali": "Idañca pana me āyasmato puṇṇassa mantāṇiputtassa dhammadesanaṁ sutvā dhammo abhisamito”ti. ",
-      "english": "And when I heard this teaching from Venerable Puṇṇa son of Mantāṇī, I comprehended the teaching.” "
-    },
-    {
-      "number": 38,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Friends, Ven. Puṇṇa Maṇtāniputta was very helpful to us when we were newly ordained. He exhorted us with this exhortation. And when I had heard this Dhamma-explanation from Ven. Puṇṇa Maṇtāniputta, I broke through to the Dhamma.”"
     }
   ]
 }

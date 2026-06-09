@@ -3,663 +3,288 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Majjhima Nikāya 11 ",
-      "english": "Middle Discourses 11 "
+      "pali": "Middle Length Discourses 11",
+      "english": "Middle Length Discourses 11"
     },
     {
       "number": 2,
-      "pali": "Cūḷasīhanādasutta ",
-      "english": "The Shorter Discourse on the Lion’s Roar "
+      "pali": "Cūḷasīhanāda Sutta",
+      "english": "The Shorter Lion’s Roar Discourse"
     },
     {
       "number": 3,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "In this sutta, the Buddha focuses on two points that, he says, distinguish his Dhamma from the teachings of all others. These points are so important that they account for why awakening can be found by following his teachings, but not the teachings of other contemplatives and brahmans."
     },
     {
       "number": 4,
-      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
-      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+      "pali": "",
+      "english": "The first point is his explanation of how to escape from two types of view: a view of becoming—one that teaches the survival of the self, in one form or another, after death—and a view of non-becoming: one that teaches the annihilation of the self after death."
     },
     {
       "number": 5,
-      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
-      "english": "There the Buddha addressed the mendicants, "
+      "pali": "",
+      "english": "The second point is the complete comprehension of clinging that his teaching provides. Other teachings, the Buddha says, may teach the comprehension of up to three types of clinging—sensuality clinging, view clinging, habit-&-practice clinging—but none of them teach the comprehension of a fourth: doctrine-of-self clinging. It’s because he teaches the comprehension of all four types of clinging that those who follow his teachings can achieve the various stages of awakening."
     },
     {
       "number": 6,
-      "pali": "“bhikkhavo”ti. ",
-      "english": "“Mendicants!” "
+      "pali": "",
+      "english": "When we look more closely at his discussion of these two points, however, we find that the first point derives from the second: You can escape from views of becoming and non-becoming only by comprehending doctrine-of-self clinging. At the same time, this act of comprehending is nothing other than seeing experience in terms of another one of the Buddha’s teachings: dependent co-arising (paṭicca samuppada). This way of seeing experience is, ultimately, what sets his Dhamma apart."
     },
     {
       "number": 7,
-      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Venerable sir,” they replied. "
+      "pali": "",
+      "english": "Dependent co-arising focuses on the decisive role played by knowledge in terms of the four noble truths in putting an end to clinging, and it’s in light of these truths—and the duties appropriate to each—that the importance of the two points highlighted in this sutta is best understood."
     },
     {
       "number": 8,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
+      "pali": "",
+      "english": "The second noble truth provides the context for the first point. It describes how suffering is caused by any form of craving that leads to further becoming—“becoming” meaning the assumption of an identity in a particular world of experience. There are three types of craving that play this role: craving for sensuality, craving for becoming, and craving for non-becoming. It’s easy to see how the first two types of craving might result in becoming, but the way in which craving for non-becoming would also function in this way is less intuitive. Nevertheless, the Buddha stated that one of the most important insights of his awakening was that the act of searching for non-becoming actually entailed further becoming ( MN 49 )."
     },
     {
       "number": 9,
-      "pali": "“Idheva, bhikkhave, samaṇo, idha dutiyo samaṇo, idha tatiyo samaṇo, idha catuttho samaṇo; ",
-      "english": "“‘Only here is there a true ascetic, here a second ascetic, here a third ascetic, and here a fourth ascetic. "
+      "pali": "",
+      "english": "Two passages in the Canon that quote views of non-becoming give a clue as to why: Both define annihilation in terms of the annihilation of a self ( MN 102 ; Iti 49 ). The fact that both assume a self—a definition of an identity—shows that those who formulate these desires are still thinking in terms of becoming, and these terms will lead them to cling at death, assuming an identity around annihilation and oblivion, which could easily lead them to be reborn in a state of non-perception. This state, though oblivious, nevertheless counts as a state of becoming. On leaving it, the individual then resumes becoming on more conscious levels ( DN 1 ; DN 15 )."
     },
     {
       "number": 10,
-      "pali": "suññā parappavādā samaṇebhi aññehīti. ",
-      "english": "Other sects are empty of ascetics.’ "
+      "pali": "",
+      "english": "The role played by the concept of self in these views of becoming and non-becoming leads to the second point—the importance of comprehending doctrine-of-self clinging—as does the Buddha’s statement in this sutta that a person who has escaped from views of becoming and non-becoming has to be someone who is without clinging. The first noble truth defines suffering as clinging to any of the five aggregates, and SN 56:11 points out that the duty with regard to suffering is to comprehend it. Only then can it be transcended. According to SN 22:23 , comprehension means understanding in a way that ends passion, aversion, and delusion for what is comprehended. This means that suffering cannot be ended until passion, aversion, and delusion around clinging in all forms related to the aggregates is brought to an end. Now, given the role played by an assumption of self in leading to further becoming, it’s obvious that clinging cannot be fully comprehended unless the act of clinging to an assumption framed in terms of “self” is encompassed as well."
     },
     {
       "number": 11,
-      "pali": "Evametaṁ, bhikkhave, sammā sīhanādaṁ nadatha. ",
-      "english": "This, mendicants, is how you should rightly roar your lion’s roar. "
+      "pali": "",
+      "english": "Thus the importance of these two points."
     },
     {
       "number": 12,
-      "pali": "Ṭhānaṁ kho panetaṁ, bhikkhave, vijjati yaṁ aññatitthiyā paribbājakā evaṁ vadeyyuṁ: ",
-      "english": "It’s possible that wanderers of other religions might say: "
+      "pali": "",
+      "english": "This leads, however, to a further question: What is the Buddha’s strategy for implementing these two points? In other words, how does he avoid views of becoming and non-becoming? And how does he propose to end passion, aversion, and delusion for all doctrines of the self? Both issues present tactical challenges, for it would be all too easy to end passion for a particular view or doctrine by developing aversion for it, which would mean that it wasn’t fully comprehended. At the same time, adopting an agnostic position toward views and doctrines—saying, for instance, that one doesn’t know what happens to the self after death—would count as delusion. And as the Buddha himself points out in DN 1 and SN 22:81 , agnosticism is a view that can be an object of clinging as much as any other view."
     },
     {
       "number": 13,
-      "pali": "‘ko panāyasmantānaṁ assāso, kiṁ balaṁ, yena tumhe āyasmanto evaṁ vadetha—",
-      "english": "‘But what is the source of the venerables’ certainty and forcefulness that they say this?’ "
+      "pali": "",
+      "english": "With regard to the first point: The Buddha follows at least two strategies in dealing with views about what happens at death. On a basic level, he explains the process of rebirth without reference to a self. In other words, he discusses how rebirth happens without defining what gets reborn ( SN 44:9 ), for knowledge of the how is sufficient for putting an end to the process. On a more subtle level, he focuses not on the position taken by a view about survival after death, but on the act of creating and clinging to such a view."
     },
     {
       "number": 14,
-      "pali": "idheva samaṇo, idha dutiyo samaṇo, idha tatiyo samaṇo, idha catuttho samaṇo; ",
-      "english": ""
+      "pali": "",
+      "english": "He explains this approach in a variety of ways in different suttas. Here in MN 11, he divides his analysis into two parts. The first part comes right after the definition of the two types of views. There he states simply that those who discern, as they have come to be, the origination, the passing away, the allure, the drawbacks of—and the escape from—these two views are free from clinging and craving, and so are released from suffering and stress."
     },
     {
       "number": 15,
-      "pali": "suññā parappavādā samaṇebhi aññehī’ti? ",
-      "english": ""
+      "pali": "",
+      "english": "The second part of this analysis comes at the end of the sutta, where the Buddha analyzes the origination and passing away of views by listing the causal factors in dependent co-arising that lead to the act of clinging—including the act of clinging to views—tracing them back to ignorance. According to SN 12:2 , ignorance in this context means “not knowing stress, not knowing the origination of stress, not knowing the cessation of stress, not knowing the way of practice leading to the cessation of stress,” i.e., not knowing the four noble truths. Because all clinging ends when ignorance ends and clear-knowing arises, clinging to views ends when one has mastered the duties appropriate to each of these truths (see SN 56:11 ). In other words, the true abandoning of views comes not through agnosticism but through knowledge of the processes by which views are formed and of the way to bring those processes to an end. The escape from views occurs when there is dispassion for ignorance and all the factors it engenders."
     },
     {
       "number": 16,
-      "pali": "Evaṁvādino, bhikkhave, aññatitthiyā paribbājakā evamassu vacanīyā: ",
-      "english": "You should say to them: "
+      "pali": "",
+      "english": "Other suttas help to further flesh out the four steps leading to escape from views. MN 102 , for instance, lists various views of becoming and non-becoming, explaining the allure of some of those views by quoting the arguments their proponents give for them. It also points out the major drawback of views of non-becoming, observing that they inevitably lead to further becoming. DN 1 explains that all views originate in contact, and pass away when contact ceases. This is a step in dependent co-arising. The same sutta also discusses the drawbacks of views in terms of the destination to which they lead. This relates to the Buddha’s insight on the night of his awakening, that views influence actions, and actions influence the way beings are reborn ( MN 4 ). AN 10:93 points out the present-moment drawbacks of clinging to views: Given that all views are fabricated, and all fabrications are inconstant and stressful, to cling to a view is to subject oneself to stress. The implication in all cases is that, no matter how alluring a view may be, its allure is far outweighed by its drawbacks. When this realization hits home, dispassion arises, which in turn provides the escape from views."
     },
     {
       "number": 17,
-      "pali": "‘atthi kho no, āvuso, tena bhagavatā jānatā passatā arahatā sammāsambuddhena cattāro dhammā akkhātā ye mayaṁ attani sampassamānā evaṁ vadema—",
-      "english": "‘There are four things explained by the Blessed One, who knows and sees, the perfected one, the fully awakened Buddha. Seeing these things in ourselves we say that: "
+      "pali": "",
+      "english": "It’s in this way, by focusing on views as actions and avoiding the terms in which the views are expressed, that the Buddha can teach the ending of passion, aversion, and delusion with regard to all views."
     },
     {
       "number": 18,
-      "pali": "idheva samaṇo, idha dutiyo samaṇo, idha tatiyo samaṇo, idha catuttho samaṇo; ",
-      "english": "“Only here is there a true ascetic, here a second ascetic, here a third ascetic, and here a fourth ascetic. "
+      "pali": "",
+      "english": "Now, the way in which he avoids the concept of “self” central to views of becoming and non-becoming derives from his strategic approach to the second point. Instead of offering, as an alternative to doctrines of the self, a doctrine that there is no self, he rejects the questions that frame such views to begin with. In MN 2 , he says that such questions as, “What am I? Do I exist? Do I not exist” are not appropriate objects of attention. Further, MN 2 lists the view “I have no self” together with the view “I have a self” as “a thicket of views, a wilderness of views, a contortion of views, a writhing of views, a fetter of views. Bound by a fetter of views, the uninstructed run-of-the-mill person is not freed from birth, aging, & death, from sorrow, lamentation, pain, distress, & despair. He is not freed, I tell you, from suffering & stress.” In other words, the doctrine that there is no self can act as an object of clinging just as much as the doctrine that there is a self. As an object of clinging, it can just as easily lead to further becoming."
     },
     {
       "number": 19,
-      "pali": "suññā parappavādā samaṇebhi aññehīti. ",
-      "english": "Other sects are empty of ascetics.” "
+      "pali": "",
+      "english": "So instead of counteracting doctrine-of-self clinging with a doctrine that there is no self, the Buddha does something much more radical: He offers a way of viewing experience in which questions concerning the existence or non-existence of the self are put aside. His most elaborate exposition of this view is dependent co-arising, part of which—the part tracing the causal factors for clinging back to ignorance—is given at the conclusion of this sutta. This view, instead of requiring a framework of “self” or “world” to explain it, provides a framework for understanding how views of “self” and “world” develop to begin with, and how they can be brought to an end. In this way, dependent co-arising provides an escape from the terms that would lead to views of becoming, non-becoming, and any doctrine of the self."
     },
     {
       "number": 20,
-      "pali": "Katame cattāro? ",
-      "english": "What four? "
+      "pali": "",
+      "english": "And, as Anāthapiṇḍika—one of the Buddha’s lay followers—explains in AN 10:93 , the right view that puts an end to ignorance in turn provides the seeds for its own transcendence, undercutting any temptation to treat it, too, as an object of clinging: “Venerable sirs, whatever has been brought into being, is fabricated, willed, dependently co-arisen: That is inconstant. Whatever is inconstant is stress. Whatever is stress is not me, is not what I am, is not my self. Having seen this well with right discernment as it has come to be, I also discern the higher escape from it as it has come to be.”"
     },
     {
       "number": 21,
-      "pali": "Atthi kho no, āvuso, satthari pasādo, atthi dhamme pasādo, atthi sīlesu paripūrakāritā; ",
-      "english": "We have confidence in the Teacher, we have confidence in the teaching, and we have fulfilled the precepts. "
+      "pali": "",
+      "english": "So in both cases—his treatment of views of becoming and non-becoming, and his treatment of doctrine-of-self clinging—the Buddha shows what is truly distinctive in his approach to freeing the mind: avoiding clinging not only to the objects of views but also to the process of view-making itself, as explained in the terms of dependent co-arising. It does this by focusing on comprehending that process in a way that develops dispassion for it. That dispassion then provides the only escape: the opening to the experience of awakening."
     },
     {
       "number": 22,
-      "pali": "sahadhammikā kho pana piyā manāpā—",
-      "english": "And we have love and affection for those who share our path, "
+      "pali": "",
+      "english": "This is why awakening occurs only in a Dhamma that teaches the points highlighted in this sutta."
     },
     {
       "number": 23,
-      "pali": "gahaṭṭhā ceva pabbajitā ca. ",
-      "english": "both laypeople and renunciates. "
+      "pali": "",
+      "english": "I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta's Grove, Anāthapiṇḍika's monastery. There he addressed the monks: “Monks!”"
     },
     {
       "number": 24,
-      "pali": "Ime kho no, āvuso, tena bhagavatā jānatā passatā arahatā sammāsambuddhena cattāro dhammā akkhātā ye mayaṁ attani sampassamānā evaṁ vadema—",
-      "english": "These are the four things.’ "
+      "pali": "",
+      "english": "“Yes, lord,” the monks responded to him."
     },
     {
       "number": 25,
-      "pali": "idheva samaṇo, idha dutiyo samaṇo, idha tatiyo samaṇo, idha catuttho samaṇo; ",
-      "english": ""
+      "pali": "",
+      "english": "The Blessed One said, “Monks, ‘Right here there is the contemplative, here there is the contemplative of the second order, here there is the contemplative of the third order, here there is the contemplative of the fourth order. Other teachings are empty of knowledgeable contemplatives’: Thus you rightly roar a lion’s roar."
     },
     {
       "number": 26,
-      "pali": "suññā parappavādā samaṇebhi aññehī’ti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Now, there exists the possibility, monks, that wanderers of other sects might say, ‘But what is your assurance, what is your strength, on the basis of which, seeing it within yourselves, you venerable ones say, “Right here there is the contemplative, here there is the contemplative of the second order, here there is the contemplative of the third order, here there is the contemplative of the fourth order. Other teachings are empty of knowledgeable contemplatives”?’"
     },
     {
       "number": 27,
-      "pali": "Ṭhānaṁ kho panetaṁ, bhikkhave, vijjati yaṁ aññatitthiyā paribbājakā evaṁ vadeyyuṁ: ",
-      "english": "It’s possible that wanderers of other religions might say: "
+      "pali": "",
+      "english": "“The wanderers of other sects saying that should be told this: ‘Friends, there are four qualities pointed out by the Blessed One—the One Who Knows, the One Who Sees, the Worthy One, Rightly Self-awakened—that, seeing them within ourselves, we say, “Right here there is the contemplative, here there is the contemplative of the second order, here there is the contemplative of the third order, here there is the contemplative of the fourth order. Other teachings are empty of knowledgeable contemplatives.” Which four? We have confidence in our Teacher, we have confidence in the Dhamma, we have virtues that we have made complete, and our companions in the Dhamma—both lay & those gone forth—are dear and agreeable to us. These are the four qualities pointed out by the Blessed One—the One Who Knows, the One Who Sees, the Worthy One, Rightly Self-awakened—that, seeing them within ourselves, we say, “Right here there is the contemplative, here there is the contemplative of the second order, here there is the contemplative of the third order, here there is the contemplative of the fourth order. Other teachings are empty of knowledgeable contemplatives.”’"
     },
     {
       "number": 28,
-      "pali": "‘amhākampi kho, āvuso, atthi satthari pasādo yo amhākaṁ satthā, amhākampi atthi dhamme pasādo yo amhākaṁ dhammo, mayampi sīlesu paripūrakārino yāni amhākaṁ sīlāni, ",
-      "english": "‘We too have confidence in the Teacher—our Teacher; we have confidence in the teaching—our teaching; and we have fulfilled the precepts—our precepts. "
+      "pali": "",
+      "english": "“Now, there exists the possibility, monks, that wanderers of other sects might say, ‘But we, too, friends, have confidence in our Teacher, we, too, have confidence in the Dhamma, we, too, have virtues that we have made complete, and our companions in the Dhamma—both lay & those gone forth—are dear and agreeable to us as well. So what difference, what distinction, what distinguishing factor is there between you and us?’"
     },
     {
       "number": 29,
-      "pali": "amhākampi sahadhammikā piyā manāpā—",
-      "english": "And we have love and affection for those who share our path, "
+      "pali": "",
+      "english": "“The wanderers of other sects saying that should be told this: ‘But, friends, is the goal one or many?’ Rightly answering, the wanderers of other sects would answer, ‘The goal is one, not many.’"
     },
     {
       "number": 30,
-      "pali": "gahaṭṭhā ceva pabbajitā ca. ",
-      "english": "both laypeople and renunciates. "
+      "pali": "",
+      "english": "“‘And friends, is that goal for one with passion or for one without passion?’ Rightly answering, the wanderers of other sects would answer, ‘The goal is for one without passion, not for one with passion.’"
     },
     {
       "number": 31,
-      "pali": "Idha no, āvuso, ko viseso ko adhippayāso kiṁ nānākaraṇaṁ yadidaṁ tumhākañceva amhākañcā’ti? ",
-      "english": "What, then, is the difference between you and us?’ "
+      "pali": "",
+      "english": "“‘And friends, is that goal for one with aversion or for one without aversion?’ Rightly answering, the wanderers of other sects would answer, ‘The goal is for one without aversion, not for one with aversion.’"
     },
     {
       "number": 32,
-      "pali": "Evaṁvādino, bhikkhave, aññatitthiyā paribbājakā evamassu vacanīyā: ",
-      "english": "You should say to them: "
+      "pali": "",
+      "english": "“‘And friends, is that goal for one with delusion or for one without delusion?’ Rightly answering, the wanderers of other sects would answer, ‘The goal is for one without delusion, not for one with delusion.’"
     },
     {
       "number": 33,
-      "pali": "‘kiṁ panāvuso, ekā niṭṭhā, udāhu puthu niṭṭhā’ti? ",
-      "english": "‘Well, reverends, is the goal one or many?’ "
+      "pali": "",
+      "english": "“‘And friends, is that goal for one with craving or for one without craving?’ Rightly answering, the wanderers of other sects would answer, ‘The goal is for one without craving, not for one with craving.’"
     },
     {
       "number": 34,
-      "pali": "Sammā byākaramānā, bhikkhave, aññatitthiyā paribbājakā evaṁ byākareyyuṁ: ",
-      "english": "Answering rightly, the wanderers would say: "
+      "pali": "",
+      "english": "“‘And friends, is that goal for one with clinging or for one without clinging?’ Rightly answering, the wanderers of other sects would answer, ‘The goal is for one without clinging, not for one with clinging.’"
     },
     {
       "number": 35,
-      "pali": "‘ekāvuso, niṭṭhā, na puthu niṭṭhā’ti. ",
-      "english": "‘The goal is one, reverends, not many.’ "
+      "pali": "",
+      "english": "“‘And friends, is that goal for one who is wise or for one who is foolish?’ Rightly answering, the wanderers of other sects would answer, ‘The goal is for one who is wise, not for one who is foolish.’"
     },
     {
       "number": 36,
-      "pali": "‘Sā panāvuso, niṭṭhā sarāgassa udāhu vītarāgassā’ti? ",
-      "english": "‘But is that goal for the greedy or for those free of greed?’ "
+      "pali": "",
+      "english": "“‘And friends, is that goal for one who embraces & rejects or for one who doesn’t embrace & reject?’ Rightly answering, the wanderers of other sects would answer, ‘The goal is for one who doesn’t embrace & reject, not for one who embraces & rejects.’"
     },
     {
       "number": 37,
-      "pali": "Sammā byākaramānā, bhikkhave, aññatitthiyā paribbājakā evaṁ byākareyyuṁ: ",
-      "english": "Answering rightly, the wanderers would say: "
+      "pali": "",
+      "english": "“‘And friends, is that goal for one who finds pleasure & delight in objectification or for one who finds pleasure & delight in non-objectification?’ Rightly answering, the wanderers of other sects would answer, ‘The goal is for one who finds pleasure & delight in non-objectification, not for one who finds pleasure and delight in objectification.’"
     },
     {
       "number": 38,
-      "pali": "‘vītarāgassāvuso, sā niṭṭhā, na sā niṭṭhā sarāgassā’ti. ",
-      "english": "‘That goal is for those free of greed, not for the greedy.’ "
+      "pali": "",
+      "english": "“Monks, there are these two views: the view of becoming and the view of non-becoming. Now, those contemplatives & brahmans who are attached to the view of becoming, who hold to the view of becoming, who relish the view of becoming reject the view of non-becoming. Whereas those contemplatives & brahmans who are attached to the view of non-becoming, who hold to the view of non-becoming, who relish the view of non-becoming reject the view of becoming."
     },
     {
       "number": 39,
-      "pali": "‘Sā panāvuso, niṭṭhā sadosassa udāhu vītadosassā’ti? ",
-      "english": "‘Is it for the hateful or those free of hate?’ "
+      "pali": "",
+      "english": "“And those contemplatives & brahmans who don’t discern, as they have come to be, the origination, the passing away, the allure, the drawbacks of—or the escape from—these two views: They are with passion, with aversion, with delusion, with craving, with clinging. They are foolish; they embrace & reject; they find pleasure & delight in objectification. They are not released, from birth, aging, & death, from sorrows, lamentations, pains, distresses, & despairs. They are not released, I tell you, from suffering & stress."
     },
     {
       "number": 40,
-      "pali": "Sammā byākaramānā, bhikkhave, aññatitthiyā paribbājakā evaṁ byākareyyuṁ: ",
-      "english": ""
+      "pali": "",
+      "english": "“Whereas those contemplatives & brahmans who do discern, as they have come to be, the origination, the passing away, the allure, the drawbacks of—and the escape from—these two views: They are without passion, without aversion, without delusion, without craving, without clinging. They are wise; they don’t embrace & reject; they find pleasure & delight in non-objectification. They are released, from birth, aging, & death, from sorrows, lamentations, pains, distresses, & despairs. They are released, I tell you, from suffering & stress."
     },
     {
       "number": 41,
-      "pali": "‘vītadosassāvuso, sā niṭṭhā, na sā niṭṭhā sadosassā’ti. ",
-      "english": "‘It’s for those free of hate.’ "
+      "pali": "",
+      "english": "“Monks, there are these four clingings. Which four? Sensuality clinging, view clinging, habit-&-practice clinging, and doctrine-of-self clinging."
     },
     {
       "number": 42,
-      "pali": "‘Sā panāvuso, niṭṭhā samohassa udāhu vītamohassā’ti? ",
-      "english": "‘Is it for the delusional or those free of delusion?’ "
+      "pali": "",
+      "english": "“There are some contemplatives & brahmans who, though claiming doctrines that comprehend all types of clinging, don’t rightly describe the comprehension of all types of clinging. They describe the comprehension of sensuality clinging, but not the comprehension of view clinging, habit-&-practice clinging, or doctrine-of-self clinging. Why is that? Because these contemplatives & brahmans don’t discern these three instances as they have come to be. That’s why, though claiming doctrines that comprehend all types of clinging, they don’t rightly describe the comprehension of all types of clinging. They describe the comprehension of sensuality clinging, but not the comprehension of view clinging, habit-&-practice clinging, or doctrine-of-self clinging."
     },
     {
       "number": 43,
-      "pali": "Sammā byākaramānā, bhikkhave, aññatitthiyā paribbājakā evaṁ byākareyyuṁ: ",
-      "english": ""
+      "pali": "",
+      "english": "“There are some contemplatives & brahmans who, though claiming doctrines that comprehend all types of clinging, don’t rightly describe the comprehension of all types of clinging. They describe the comprehension of sensuality clinging and view clinging, but not the comprehension of habit-&-practice clinging or doctrine-of-self clinging. Why is that? Because these contemplatives & brahmans don’t discern these two instances as they have come to be. That’s why, though claiming doctrines that comprehend all types of clinging, they don’t rightly describe the comprehension of all types of clinging. They describe the comprehension of sensuality clinging and view clinging, but not the comprehension of habit-&-practice clinging or doctrine-of-self clinging."
     },
     {
       "number": 44,
-      "pali": "‘vītamohassāvuso, sā niṭṭhā, na sā niṭṭhā samohassā’ti. ",
-      "english": "‘It’s for those free of delusion.’ "
+      "pali": "",
+      "english": "“There are some contemplatives & brahmans who, though claiming doctrines that comprehend all types of clinging, don’t rightly describe the comprehension of all types of clinging. They describe the comprehension of sensuality clinging, view clinging, and habit-&-practice clinging, but not the comprehension of doctrine-of-self clinging. Why is that? Because these contemplatives & brahmans don’t discern that one instance as it has come to be. That’s why, though claiming doctrines that comprehend all types of clinging, they don’t rightly describe the comprehension of all types of clinging. They describe the comprehension of sensuality clinging, view clinging, and habit-&-practice clinging, but not the comprehension of doctrine-of-self clinging."
     },
     {
       "number": 45,
-      "pali": "‘Sā panāvuso, niṭṭhā sataṇhassa udāhu vītataṇhassā’ti? ",
-      "english": "‘Is it for those who crave or those rid of craving?’ "
+      "pali": "",
+      "english": "“In a doctrine & discipline of this sort, monks, it’s obvious that confidence in the teacher is not rightly directed, confidence in the doctrine is not rightly directed, the completion of virtues is not rightly directed, and the dearness & agreeability of one’s companions is not rightly directed. Why is that? Because that’s how it is, monks, in a poorly proclaimed doctrine & discipline—poorly expounded, not leading out, not leading to calm, expounded by one not rightly self-awakened."
     },
     {
       "number": 46,
-      "pali": "Sammā byākaramānā, bhikkhave, aññatitthiyā paribbājakā evaṁ byākareyyuṁ: ",
-      "english": ""
+      "pali": "",
+      "english": "“But the Tathāgata, monks—the Worthy One, the Rightly Self-awakened One—claiming a doctrine that comprehends all types of clinging, rightly describes the comprehension of all types of clinging. He describes the comprehension of sensuality clinging, view clinging, habit-&-practice clinging, and doctrine-of-self clinging."
     },
     {
       "number": 47,
-      "pali": "‘vītataṇhassāvuso, sā niṭṭhā, na sā niṭṭhā sataṇhassā’ti. ",
-      "english": "‘It’s for those rid of craving.’ "
+      "pali": "",
+      "english": "“In a Dhamma & Vinaya of this sort, monks, it’s obvious that confidence in the teacher is rightly directed, confidence in the doctrine is rightly directed, the completion of virtues is rightly directed, and the dearness & agreeability of one’s companions is rightly directed. Why is that? Because that’s how it is, monks, in a well-proclaimed Dhamma & Vinaya—well expounded, leading out, leading to calm, expounded by One Rightly Self-awakened."
     },
     {
       "number": 48,
-      "pali": "‘Sā panāvuso, niṭṭhā saupādānassa udāhu anupādānassā’ti? ",
-      "english": "‘Is it for those who have fuel for grasping or those who do not?’ "
+      "pali": "",
+      "english": "“Now, these four clingings, monks, have what as their cause, what as their origination, what as their birth, what as their coming-into-existence? These four clingings have craving as their cause, craving as their origination, craving as their birth, craving as their coming-into-existence."
     },
     {
       "number": 49,
-      "pali": "Sammā byākaramānā, bhikkhave, aññatitthiyā paribbājakā evaṁ byākareyyuṁ: ",
-      "english": ""
+      "pali": "",
+      "english": "“And this craving has what as its cause, what as its origination, what as its birth, what as its coming-into-existence? Craving has feeling as its cause, feeling as its origination, feeling as its birth, feeling as its coming-into-existence."
     },
     {
       "number": 50,
-      "pali": "‘anupādānassāvuso, sā niṭṭhā, na sā niṭṭhā saupādānassā’ti. ",
-      "english": "‘It’s for those who do not have fuel for grasping.’ "
+      "pali": "",
+      "english": "“And this feeling has what as its cause, what as its origination, what as its birth, what as its coming-into-existence? Feeling has contact as its cause, contact as its origination, contact as its birth, contact as its coming-into-existence."
     },
     {
       "number": 51,
-      "pali": "‘Sā panāvuso, niṭṭhā viddasuno udāhu aviddasuno’ti? ",
-      "english": "‘Is it for the knowledgeable or the ignorant?’ "
+      "pali": "",
+      "english": "“And this contact has what as its cause, what as its origination, what as its birth, what as its coming-into-existence? Contact has the six sense media as its cause, the six sense media as its origination, the six sense media as its birth, the six sense media as its coming-into-existence."
     },
     {
       "number": 52,
-      "pali": "Sammā byākaramānā, bhikkhave, aññatitthiyā paribbājakā evaṁ byākareyyuṁ: ",
-      "english": ""
+      "pali": "",
+      "english": "“And these six sense media have what as their cause, what as their origination, what as their birth, what as their coming-into-existence? The six sense media have name-&-form as their cause, name-&-form as their origination, name-&-form as their birth, name-&-form as their coming-into-existence."
     },
     {
       "number": 53,
-      "pali": "‘viddasuno, āvuso, sā niṭṭhā, na sā niṭṭhā aviddasuno’ti. ",
-      "english": "‘It’s for the knowledgeable.’ "
+      "pali": "",
+      "english": "“And this name-&-form has what as its cause, what as its origination, what as its birth, what as its coming-into-existence? Name-&-form has consciousness as its cause, consciousness as its origination, consciousness as its birth, consciousness as its coming-into-existence."
     },
     {
       "number": 54,
-      "pali": "‘Sā panāvuso, niṭṭhā anuruddhappaṭiviruddhassa udāhu ananuruddhaappaṭiviruddhassā’ti? ",
-      "english": "‘Is it for those who favor and oppose or for those who don’t favor and oppose?’ "
+      "pali": "",
+      "english": "“And this consciousness has what as its cause, what as its origination, what as its birth, what as its coming-into-existence? Consciousness has fabrications as its cause, fabrications as its origination, fabrications as its birth, fabrications as its coming-into-existence."
     },
     {
       "number": 55,
-      "pali": "Sammā byākaramānā, bhikkhave, aññatitthiyā paribbājakā evaṁ byākareyyuṁ: ",
-      "english": ""
+      "pali": "",
+      "english": "“And these fabrications have what as their cause, what as their origination, what as their birth, what as their coming-into-existence? Fabrications have ignorance as their cause, ignorance as their origination, ignorance as their birth, ignorance as their coming-into-existence."
     },
     {
       "number": 56,
-      "pali": "‘ananuruddhaappaṭiviruddhassāvuso, sā niṭṭhā, na sā niṭṭhā anuruddhappaṭiviruddhassā’ti. ",
-      "english": "‘It’s for those who don’t favor and oppose.’ "
+      "pali": "",
+      "english": "“Now, when ignorance has been abandoned and clear-knowing has arisen in a monk, then from dispassion for ignorance and from the arising of clear-knowing, he clings neither to sensuality clinging, to view clinging, to habit-&-practice clinging, nor to doctrine-of-self clinging. Not clinging, he is not agitated. Not agitated, he fully unbinds right within. He discerns: ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for the sake of this world.’”"
     },
     {
       "number": 57,
-      "pali": "‘Sā panāvuso, niṭṭhā papañcārāmassa papañcaratino udāhu nippapañcārāmassa nippapañcaratino’ti? ",
-      "english": "‘But is that goal for those who enjoy proliferation or for those who enjoy non-proliferation?’ "
-    },
-    {
-      "number": 58,
-      "pali": "Sammā byākaramānā, bhikkhave, aññatitthiyā paribbājakā evaṁ byākareyyuṁ: ",
-      "english": "Answering rightly, the wanderers would say: "
-    },
-    {
-      "number": 59,
-      "pali": "‘nippapañcārāmassāvuso, sā niṭṭhā nippapañcaratino, na sā niṭṭhā papañcārāmassa papañcaratino’ti. ",
-      "english": "‘It’s for those who enjoy non-proliferation, not for those who enjoy proliferation.’ "
-    },
-    {
-      "number": 60,
-      "pali": "Dvemā, bhikkhave, diṭṭhiyo—",
-      "english": "Mendicants, there are these two views: "
-    },
-    {
-      "number": 61,
-      "pali": "bhavadiṭṭhi ca vibhavadiṭṭhi ca. ",
-      "english": "views favoring existence and views favoring nonexistence. "
-    },
-    {
-      "number": 62,
-      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā bhavadiṭṭhiṁ allīnā bhavadiṭṭhiṁ upagatā bhavadiṭṭhiṁ ajjhositā, vibhavadiṭṭhiyā te paṭiviruddhā. ",
-      "english": "Any ascetics or brahmins who resort to, draw near to, and cling to a view favoring existence will oppose a view favoring nonexistence. "
-    },
-    {
-      "number": 63,
-      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā vibhavadiṭṭhiṁ allīnā vibhavadiṭṭhiṁ upagatā vibhavadiṭṭhiṁ ajjhositā, bhavadiṭṭhiyā te paṭiviruddhā. ",
-      "english": "Any ascetics or brahmins who resort to, draw near to, and cling to a view favoring nonexistence will oppose a view favoring existence. "
-    },
-    {
-      "number": 64,
-      "pali": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā imāsaṁ dvinnaṁ diṭṭhīnaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ nappajānanti, te sarāgā te sadosā te samohā te sataṇhā te saupādānā te aviddasuno te anuruddhappaṭiviruddhā te papañcārāmā papañcaratino; ",
-      "english": "There are some ascetics and brahmins who don’t truly understand these two views’ origin, disappearance, gratification, drawback, and escape. They’re greedy, hateful, delusional, craving, grasping, and ignorant. They favor and oppose, and they enjoy proliferation. "
-    },
-    {
-      "number": 65,
-      "pali": "te na parimuccanti jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi; ",
-      "english": "They’re not freed from rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 66,
-      "pali": "‘na parimuccanti dukkhasmā’ti vadāmi. ",
-      "english": "They’re not freed from suffering, I say. "
-    },
-    {
-      "number": 67,
-      "pali": "Ye ca kho keci, bhikkhave, samaṇā vā brāhmaṇā vā imāsaṁ dvinnaṁ diṭṭhīnaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ pajānanti, te vītarāgā te vītadosā te vītamohā te vītataṇhā te anupādānā te viddasuno te ananuruddhaappaṭiviruddhā te nippapañcārāmā nippapañcaratino; ",
-      "english": "There are some ascetics and brahmins who do truly understand these two views’ origin, disappearance, gratification, drawback, and escape. They’re rid of greed, hate, delusion, craving, grasping, and ignorance. They don’t favor and oppose, and they enjoy non-proliferation. "
-    },
-    {
-      "number": 68,
-      "pali": "te parimuccanti jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi; ",
-      "english": "They’re freed from rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 69,
-      "pali": "‘parimuccanti dukkhasmā’ti vadāmi. ",
-      "english": "They’re freed from suffering, I say. "
-    },
-    {
-      "number": 70,
-      "pali": "Cattārimāni, bhikkhave, upādānāni. ",
-      "english": "There are these four kinds of grasping. "
-    },
-    {
-      "number": 71,
-      "pali": "Katamāni cattāri? ",
-      "english": "What four? "
-    },
-    {
-      "number": 72,
-      "pali": "Kāmupādānaṁ, diṭṭhupādānaṁ, sīlabbatupādānaṁ, attavādupādānaṁ. ",
-      "english": "Grasping at sensual pleasures, views, precepts and observances, and theories of a self. "
-    },
-    {
-      "number": 73,
-      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā sabbupādānapariññāvādā paṭijānamānā. ",
-      "english": "There are some ascetics and brahmins who claim to propound the complete understanding of all kinds of grasping. "
-    },
-    {
-      "number": 74,
-      "pali": "Te na sammā sabbupādānapariññaṁ paññapenti—",
-      "english": "But they don’t correctly describe the complete understanding of all kinds of grasping. "
-    },
-    {
-      "number": 75,
-      "pali": "kāmupādānassa pariññaṁ paññapenti, na diṭṭhupādānassa pariññaṁ paññapenti, na sīlabbatupādānassa pariññaṁ paññapenti, na attavādupādānassa pariññaṁ paññapenti. ",
-      "english": "They describe the complete understanding of grasping at sensual pleasures, but not views, precepts and observances, and theories of a self. "
-    },
-    {
-      "number": 76,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 77,
-      "pali": "Imāni hi te bhonto samaṇabrāhmaṇā tīṇi ṭhānāni yathābhūtaṁ nappajānanti. ",
-      "english": "Because those gentlemen don’t truly understand these three things. "
-    },
-    {
-      "number": 78,
-      "pali": "Tasmā te bhonto samaṇabrāhmaṇā sabbupādānapariññāvādā paṭijānamānā; ",
-      "english": "That’s why they claim to propound the complete understanding of all kinds of grasping, "
-    },
-    {
-      "number": 79,
-      "pali": "te na sammā sabbupādānapariññaṁ paññapenti—",
-      "english": "but they don’t really. "
-    },
-    {
-      "number": 80,
-      "pali": "kāmupādānassa pariññaṁ paññapenti, na diṭṭhupādānassa pariññaṁ paññapenti, na sīlabbatupādānassa pariññaṁ paññapenti, na attavādupādānassa pariññaṁ paññapenti. ",
-      "english": ""
-    },
-    {
-      "number": 81,
-      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā sabbupādānapariññāvādā paṭijānamānā. ",
-      "english": "There are some other ascetics and brahmins who claim to propound the complete understanding of all kinds of grasping, "
-    },
-    {
-      "number": 82,
-      "pali": "Te na sammā sabbupādānapariññaṁ paññapenti—",
-      "english": "but they don’t really. "
-    },
-    {
-      "number": 83,
-      "pali": "kāmupādānassa pariññaṁ paññapenti, diṭṭhupādānassa pariññaṁ paññapenti, na sīlabbatupādānassa pariññaṁ paññapenti, na attavādupādānassa pariññaṁ paññapenti. ",
-      "english": "They describe the complete understanding of grasping at sensual pleasures and views, but not precepts and observances, and theories of a self. "
-    },
-    {
-      "number": 84,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 85,
-      "pali": "Imāni hi te bhonto samaṇabrāhmaṇā dve ṭhānāni yathābhūtaṁ nappajānanti. ",
-      "english": "Because those gentlemen don’t truly understand these two things. "
-    },
-    {
-      "number": 86,
-      "pali": "Tasmā te bhonto samaṇabrāhmaṇā sabbupādānapariññāvādā paṭijānamānā; ",
-      "english": "That’s why they claim to propound the complete understanding of all kinds of grasping, "
-    },
-    {
-      "number": 87,
-      "pali": "te na sammā sabbupādānapariññaṁ paññapenti—",
-      "english": "but they don’t really. "
-    },
-    {
-      "number": 88,
-      "pali": "kāmupādānassa pariññaṁ paññapenti, diṭṭhupādānassa pariññaṁ paññapenti, na sīlabbatupādānassa pariññaṁ paññapenti, na attavādupādānassa pariññaṁ paññapenti. ",
-      "english": ""
-    },
-    {
-      "number": 89,
-      "pali": "Santi, bhikkhave, eke samaṇabrāhmaṇā sabbupādānapariññāvādā paṭijānamānā. ",
-      "english": "There are some other ascetics and brahmins who claim to propound the complete understanding of all kinds of grasping, "
-    },
-    {
-      "number": 90,
-      "pali": "Te na sammā sabbupādānapariññaṁ paññapenti—",
-      "english": "but they don’t really. "
-    },
-    {
-      "number": 91,
-      "pali": "kāmupādānassa pariññaṁ paññapenti, diṭṭhupādānassa pariññaṁ paññapenti, sīlabbatupādānassa pariññaṁ paññapenti, na attavādupādānassa pariññaṁ paññapenti. ",
-      "english": "They describe the complete understanding of grasping at sensual pleasures, views, and precepts and observances, but not theories of a self. "
-    },
-    {
-      "number": 92,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 93,
-      "pali": "Imañhi te bhonto samaṇabrāhmaṇā ekaṁ ṭhānaṁ yathābhūtaṁ nappajānanti. ",
-      "english": "Because those gentlemen don’t truly understand this one thing. "
-    },
-    {
-      "number": 94,
-      "pali": "Tasmā te bhonto samaṇabrāhmaṇā sabbupādānapariññāvādā paṭijānamānā; ",
-      "english": "That’s why they claim to propound the complete understanding of all kinds of grasping, "
-    },
-    {
-      "number": 95,
-      "pali": "te na sammā sabbupādānapariññaṁ paññapenti—",
-      "english": "but they don’t really. "
-    },
-    {
-      "number": 96,
-      "pali": "kāmupādānassa pariññaṁ paññapenti, diṭṭhupādānassa pariññaṁ paññapenti, sīlabbatupādānassa pariññaṁ paññapenti, na attavādupādānassa pariññaṁ paññapenti. ",
-      "english": ""
-    },
-    {
-      "number": 97,
-      "pali": "Evarūpe kho, bhikkhave, dhammavinaye yo satthari pasādo so na sammaggato akkhāyati; ",
-      "english": "In such a teaching and training, confidence in the Teacher is said to be not rightly placed. "
-    },
-    {
-      "number": 98,
-      "pali": "yo dhamme pasādo so na sammaggato akkhāyati; ",
-      "english": "Likewise, confidence in the teaching, "
-    },
-    {
-      "number": 99,
-      "pali": "yā sīlesu paripūrakāritā sā na sammaggatā akkhāyati; ",
-      "english": "fulfillment of the precepts, "
-    },
-    {
-      "number": 100,
-      "pali": "yā sahadhammikesu piyamanāpatā sā na sammaggatā akkhāyati. ",
-      "english": "and love and affection for those sharing the same path are said to be not rightly placed. "
-    },
-    {
-      "number": 101,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 102,
-      "pali": "Evañhetaṁ, bhikkhave, hoti yathā taṁ durakkhāte dhammavinaye duppavedite aniyyānike anupasamasaṁvattanike asammāsambuddhappavedite. ",
-      "english": "It’s because that teaching and training is poorly explained and poorly propounded, not emancipating, not leading to peace, proclaimed by someone who is not a fully awakened Buddha. "
-    },
-    {
-      "number": 103,
-      "pali": "Tathāgato ca kho, bhikkhave, arahaṁ sammāsambuddho sabbupādānapariññāvādo paṭijānamāno sammā sabbupādānapariññaṁ paññapeti—",
-      "english": "The Realized One, the perfected one, the fully awakened Buddha claims to propound the complete understanding of all kinds of grasping. "
-    },
-    {
-      "number": 104,
-      "pali": "kāmupādānassa pariññaṁ paññapeti, diṭṭhupādānassa pariññaṁ paññapeti, sīlabbatupādānassa pariññaṁ paññapeti, attavādupādānassa pariññaṁ paññapeti. ",
-      "english": "He describes the complete understanding of grasping at sensual pleasures, views, precepts and observances, and theories of a self. "
-    },
-    {
-      "number": 105,
-      "pali": "Evarūpe kho, bhikkhave, dhammavinaye yo satthari pasādo so sammaggato akkhāyati; ",
-      "english": "In such a teaching and training, confidence in the Teacher is said to be rightly placed. "
-    },
-    {
-      "number": 106,
-      "pali": "yo dhamme pasādo so sammaggato akkhāyati; ",
-      "english": "Likewise, confidence in the teaching, "
-    },
-    {
-      "number": 107,
-      "pali": "yā sīlesu paripūrakāritā sā sammaggatā akkhāyati; ",
-      "english": "fulfillment of the precepts, "
-    },
-    {
-      "number": 108,
-      "pali": "yā sahadhammikesu piyamanāpatā sā sammaggatā akkhāyati. ",
-      "english": "and love and affection for those sharing the same path are said to be rightly placed. "
-    },
-    {
-      "number": 109,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 110,
-      "pali": "Evañhetaṁ, bhikkhave, hoti yathā taṁ svākkhāte dhammavinaye suppavedite niyyānike upasamasaṁvattanike sammāsambuddhappavedite. ",
-      "english": "It’s because that teaching and training is well explained and well propounded, emancipating, leading to peace, proclaimed by a fully awakened Buddha. "
-    },
-    {
-      "number": 111,
-      "pali": "Ime ca, bhikkhave, cattāro upādānā. Kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā? ",
-      "english": "What is the source, origin, birthplace, and inception of these four kinds of grasping? "
-    },
-    {
-      "number": 112,
-      "pali": "Ime cattāro upādānā taṇhānidānā taṇhāsamudayā taṇhājātikā taṇhāpabhavā. ",
-      "english": "Craving. "
-    },
-    {
-      "number": 113,
-      "pali": "Taṇhā cāyaṁ, bhikkhave, kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā? ",
-      "english": "And what is the source, origin, birthplace, and inception of craving? "
-    },
-    {
-      "number": 114,
-      "pali": "Taṇhā vedanānidānā vedanāsamudayā vedanājātikā vedanāpabhavā. ",
-      "english": "Feeling. "
-    },
-    {
-      "number": 115,
-      "pali": "Vedanā cāyaṁ, bhikkhave, kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā? ",
-      "english": "And what is the source of feeling? "
-    },
-    {
-      "number": 116,
-      "pali": "Vedanā phassanidānā phassasamudayā phassajātikā phassapabhavā. ",
-      "english": "Contact. "
-    },
-    {
-      "number": 117,
-      "pali": "Phasso cāyaṁ, bhikkhave, kiṁnidāno kiṁsamudayo kiṁjātiko kiṁpabhavo? ",
-      "english": "And what is the source of contact? "
-    },
-    {
-      "number": 118,
-      "pali": "Phasso saḷāyatananidāno saḷāyatanasamudayo saḷāyatanajātiko saḷāyatanapabhavo. ",
-      "english": "The six sense fields. "
-    },
-    {
-      "number": 119,
-      "pali": "Saḷāyatanañcidaṁ, bhikkhave, kiṁnidānaṁ kiṁsamudayaṁ kiṁjātikaṁ kiṁpabhavaṁ? ",
-      "english": "And what is the source of the six sense fields? "
-    },
-    {
-      "number": 120,
-      "pali": "Saḷāyatanaṁ nāmarūpanidānaṁ nāmarūpasamudayaṁ nāmarūpajātikaṁ nāmarūpapabhavaṁ. ",
-      "english": "Name and form. "
-    },
-    {
-      "number": 121,
-      "pali": "Nāmarūpañcidaṁ, bhikkhave, kiṁnidānaṁ kiṁsamudayaṁ kiṁjātikaṁ kiṁpabhavaṁ? ",
-      "english": "And what is the source of name and form? "
-    },
-    {
-      "number": 122,
-      "pali": "Nāmarūpaṁ viññāṇanidānaṁ viññāṇasamudayaṁ viññāṇajātikaṁ viññāṇapabhavaṁ. ",
-      "english": "Consciousness. "
-    },
-    {
-      "number": 123,
-      "pali": "Viññāṇañcidaṁ, bhikkhave, kiṁnidānaṁ kiṁsamudayaṁ kiṁjātikaṁ kiṁpabhavaṁ? ",
-      "english": "And what is the source of consciousness? "
-    },
-    {
-      "number": 124,
-      "pali": "Viññāṇaṁ saṅkhāranidānaṁ saṅkhārasamudayaṁ saṅkhārajātikaṁ saṅkhārapabhavaṁ. ",
-      "english": "Choices. "
-    },
-    {
-      "number": 125,
-      "pali": "Saṅkhārā cime, bhikkhave, kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā? ",
-      "english": "And what is the source of choices? "
-    },
-    {
-      "number": 126,
-      "pali": "Saṅkhārā avijjānidānā avijjāsamudayā avijjājātikā avijjāpabhavā. ",
-      "english": "Ignorance. "
-    },
-    {
-      "number": 127,
-      "pali": "Yato ca kho, bhikkhave, bhikkhuno avijjā pahīnā hoti vijjā uppannā, so avijjāvirāgā vijjuppādā neva kāmupādānaṁ upādiyati, na diṭṭhupādānaṁ upādiyati, na sīlabbatupādānaṁ upādiyati, na attavādupādānaṁ upādiyati. ",
-      "english": "When that mendicant has given up ignorance and given rise to knowledge, with the fading away of ignorance and the arising of knowledge they don’t grasp at sensual pleasures, views, precepts and observances, or theories of a self. "
-    },
-    {
-      "number": 128,
-      "pali": "Anupādiyaṁ na paritassati, aparitassaṁ paccattaññeva parinibbāyati. ",
-      "english": "Not grasping, they’re not anxious. Not being anxious, they personally become extinguished. "
-    },
-    {
-      "number": 129,
-      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānātī”ti. ",
-      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’” "
-    },
-    {
-      "number": 130,
-      "pali": "Idamavoca bhagavā. ",
-      "english": "That is what the Buddha said. "
-    },
-    {
-      "number": 131,
-      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
-      "english": "Satisfied, the mendicants approved what the Buddha said. "
-    },
-    {
-      "number": 132,
-      "pali": "Cūḷasīhanādasuttaṁ niṭṭhitaṁ paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "That is what the Blessed One said. Gratified, the monks delighted in the Blessed One’s words."
     }
   ]
 }

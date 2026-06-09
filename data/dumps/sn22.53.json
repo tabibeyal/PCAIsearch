@@ -3,113 +3,63 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.53 ",
-      "english": "Linked Discourses 22.53 "
+      "pali": "Linked Discourses 22.53",
+      "english": "Linked Discourses 22.53"
     },
     {
       "number": 2,
-      "pali": "6. Upayavagga ",
-      "english": "6. Involvement "
+      "pali": "Upaya Sutta",
+      "english": "Attached"
     },
     {
       "number": 3,
-      "pali": "Upayasutta ",
-      "english": "Involvement "
+      "pali": "",
+      "english": "Near Sāvatthī. There the Blessed One said, “One attached is unreleased; one unattached is released. Should consciousness, when standing, stand attached to (a physical) form, supported by form (as its object), landing on form, watered with delight, it would exhibit growth, increase, & proliferation."
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“Should consciousness, when standing, stand attached to feeling, supported by feeling (as its object), landing on feeling, watered with delight, it would exhibit growth, increase, & proliferation."
     },
     {
       "number": 5,
-      "pali": "“Upayo, bhikkhave, avimutto, anupayo vimutto. ",
-      "english": "“Mendicants, if you get involved, you’re not free. If you’re not involved, you’re free. "
+      "pali": "",
+      "english": "“Should consciousness, when standing, stand attached to perception, supported by perception (as its object), landing on perception, watered with delight, it would exhibit growth, increase, & proliferation."
     },
     {
       "number": 6,
-      "pali": "Rūpupayaṁ vā, bhikkhave, viññāṇaṁ tiṭṭhamānaṁ tiṭṭheyya, rūpārammaṇaṁ rūpappatiṭṭhaṁ nandūpasecanaṁ vuddhiṁ virūḷhiṁ vepullaṁ āpajjeyya. ",
-      "english": "As long as consciousness continues, it would get involved with form, supported by form, established on form. And with a sprinkle of relishing, it would grow, increase, and mature. "
+      "pali": "",
+      "english": "“Should consciousness, when standing, stand attached to fabrications, supported by fabrications (as its object), landing on fabrications, watered with delight, it would exhibit growth, increase, & proliferation."
     },
     {
       "number": 7,
-      "pali": "Vedanupayaṁ vā …pe… ",
-      "english": "Or consciousness would get involved with feeling … "
+      "pali": "",
+      "english": "“Were someone to say, ‘I will describe a coming, a going, a passing away, an arising, a growth, an increase, or a proliferation of consciousness apart from form, from feeling, from perception, from fabrications,’ that would be impossible."
     },
     {
       "number": 8,
-      "pali": "saññupayaṁ vā …pe… ",
-      "english": "Or consciousness would get involved with perception … "
+      "pali": "",
+      "english": "“If a monk abandons passion for the property of form.…"
     },
     {
       "number": 9,
-      "pali": "saṅkhārupayaṁ vā, bhikkhave, viññāṇaṁ tiṭṭhamānaṁ tiṭṭheyya, saṅkhārārammaṇaṁ saṅkhārappatiṭṭhaṁ nandūpasecanaṁ vuddhiṁ virūḷhiṁ vepullaṁ āpajjeyya. ",
-      "english": "Or as long as consciousness continues, it would get involved with choices, supported by choices, established on choices. And with a sprinkle of relishing, it would grow, increase, and mature. "
+      "pali": "",
+      "english": "“If a monk abandons passion for the property of feeling.…"
     },
     {
       "number": 10,
-      "pali": "Yo, bhikkhave, evaṁ vadeyya: ",
-      "english": "Mendicants, suppose you say: "
+      "pali": "",
+      "english": "“If a monk abandons passion for the property of perception.…"
     },
     {
       "number": 11,
-      "pali": "‘ahamaññatra rūpā aññatra vedanāya aññatra saññāya aññatra saṅkhārehi viññāṇassa āgatiṁ vā gatiṁ vā cutiṁ vā upapattiṁ vā vuddhiṁ vā virūḷhiṁ vā vepullaṁ vā paññāpessāmī’ti, netaṁ ṭhānaṁ vijjati. ",
-      "english": "‘Apart from form, feeling, perception, and choices, I will describe the coming and going of consciousness, its passing away and reappearing, its growth, increase, and maturity.’ That is not possible. "
+      "pali": "",
+      "english": "“If a monk abandons passion for the property of fabrications.…"
     },
     {
       "number": 12,
-      "pali": "Rūpadhātuyā ce, bhikkhave, bhikkhuno rāgo pahīno hoti. ",
-      "english": "If a mendicant has given up greed for the form element, "
-    },
-    {
-      "number": 13,
-      "pali": "Rāgassa pahānā vocchijjatārammaṇaṁ patiṭṭhā viññāṇassa na hoti. ",
-      "english": "the support is cut off, and there is no establishment of consciousness. "
-    },
-    {
-      "number": 14,
-      "pali": "Vedanādhātuyā ce, bhikkhave … ",
-      "english": "If a mendicant has given up greed for the feeling element … "
-    },
-    {
-      "number": 15,
-      "pali": "saññādhātuyā ce, bhikkhave … ",
-      "english": "perception element … "
-    },
-    {
-      "number": 16,
-      "pali": "saṅkhāradhātuyā ce, bhikkhave … ",
-      "english": "choices element … "
-    },
-    {
-      "number": 17,
-      "pali": "viññāṇadhātuyā ce, bhikkhave, bhikkhuno rāgo pahīno hoti. ",
-      "english": "consciousness element, "
-    },
-    {
-      "number": 18,
-      "pali": "Rāgassa pahānā vocchijjatārammaṇaṁ patiṭṭhā viññāṇassa na hoti. ",
-      "english": "the support is cut off, and there is no establishment of consciousness. "
-    },
-    {
-      "number": 19,
-      "pali": "Tadappatiṭṭhitaṁ viññāṇaṁ avirūḷhaṁ anabhisaṅkhacca vimuttaṁ. ",
-      "english": "Since that consciousness does not become established and does not grow, not making choices, it is freed. "
-    },
-    {
-      "number": 20,
-      "pali": "Vimuttattā ṭhitaṁ. Ṭhitattā santusitaṁ. Santusitattā na paritassati. Aparitassaṁ paccattaññeva parinibbāyati. ",
-      "english": "Being free, it’s stable. Being stable, it’s content. Being content, they’re not anxious. Not being anxious, they personally become extinguished. "
-    },
-    {
-      "number": 21,
-      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānātī”ti. ",
-      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’” "
-    },
-    {
-      "number": 22,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“If a monk abandons passion for the property of consciousness, then owing to the abandonment of passion, the support is cut off, and there is no landing of consciousness. Consciousness, thus not having landed, not increasing, not concocting, is released. Owing to its release, it is steady. Owing to its steadiness, it is contented. Owing to its contentment, it is not agitated. Not agitated, he (the monk) is totally unbound right within. He discerns that ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.’”"
     }
   ]
 }

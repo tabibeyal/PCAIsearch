@@ -3,123 +3,93 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 43 ",
-      "english": "So It Was Said 43 "
+      "pali": "Itivuttaka 43",
+      "english": "Itivuttaka 43"
     },
     {
       "number": 2,
-      "pali": "Dukanipāta ",
-      "english": "The Book of the Twos "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Dutiyavagga ",
-      "english": "Chapter Two "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “There is, monks, an unborn –unbecome–unmade–unfabricated. If there were not that unborn–unbecome–unmade–unfabricated, there would not be the case that escape from the born–become–made–fabricated would be discerned. But precisely because there is an unborn–unbecome–unmade–unfabricated, escape from the born–become–made–fabricated is thus discerned.”"
     },
     {
       "number": 4,
-      "pali": "Ajātasutta ",
-      "english": "Free of Rebirth "
+      "pali": "",
+      "english": "The born, become, produced,"
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "made, fabricated, impermanent,"
     },
     {
       "number": 6,
-      "pali": "“Atthi, bhikkhave, ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ. ",
-      "english": "“There is, mendicants, freedom from rebirth, freedom from what has been produced, made, and conditioned. "
+      "pali": "",
+      "english": "fabricated of aging & death,"
     },
     {
       "number": 7,
-      "pali": "No cetaṁ, bhikkhave, abhavissa ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, nayidha jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyetha. ",
-      "english": "If there were no freedom from rebirth, freedom from what has been produced, made, and conditioned, then you would find no escape here from rebirth, from what has been produced, made, and conditioned. "
+      "pali": "",
+      "english": "a nest of illnesses, perishing,"
     },
     {
       "number": 8,
-      "pali": "Yasmā ca kho, bhikkhave, atthi ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, tasmā jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyatī”ti. ",
-      "english": "But since there is freedom from rebirth, freedom from what has been produced, made, and conditioned, an escape is found from rebirth, from what has been produced, made, and conditioned.” "
+      "pali": "",
+      "english": "come-into-being through nourishment"
     },
     {
       "number": 9,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "and the guide [that is craving]–"
     },
     {
       "number": 10,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "is unfit for delight."
     },
     {
       "number": 11,
-      "pali": "“Jātaṁ bhūtaṁ samuppannaṁ, ",
-      "english": "“What’s reborn, produced, and arisen, "
+      "pali": "",
+      "english": "The escape from that"
     },
     {
       "number": 12,
-      "pali": "kataṁ saṅkhatamaddhuvaṁ; ",
-      "english": "made, conditioned, not lasting, "
+      "pali": "",
+      "english": "is"
     },
     {
       "number": 13,
-      "pali": "Jarāmaraṇasaṅghāṭaṁ, ",
-      "english": "wrapped in old age and death, "
+      "pali": "",
+      "english": "peaceful, permanent,"
     },
     {
       "number": 14,
-      "pali": "roganīḷaṁ pabhaṅguraṁ. ",
-      "english": "frail, a nest of disease, "
+      "pali": "",
+      "english": "a sphere beyond conjecture,"
     },
     {
       "number": 15,
-      "pali": "Āhāranettippabhavaṁ, ",
-      "english": "whose inception is the leash to food: "
+      "pali": "",
+      "english": "unborn, unproduced,"
     },
     {
       "number": 16,
-      "pali": "nālaṁ tadabhinandituṁ; ",
-      "english": "that’s not fit to delight in. "
+      "pali": "",
+      "english": "the sorrowless, stainless state,"
     },
     {
       "number": 17,
-      "pali": "Tassa nissaraṇaṁ santaṁ, ",
-      "english": "The escape from that is peaceful, "
+      "pali": "",
+      "english": "the cessation of stressful qualities,"
     },
     {
       "number": 18,
-      "pali": "atakkāvacaraṁ dhuvaṁ. ",
-      "english": "beyond the scope of logic, everlasting, "
-    },
-    {
-      "number": 19,
-      "pali": "Ajātaṁ asamuppannaṁ, ",
-      "english": "where nothing is reborn or arisen, "
-    },
-    {
-      "number": 20,
-      "pali": "asokaṁ virajaṁ padaṁ; ",
-      "english": "the sorrowless, stainless state, "
-    },
-    {
-      "number": 21,
-      "pali": "Nirodho dukkhadhammānaṁ, ",
-      "english": "the cessation of all painful things, "
-    },
-    {
-      "number": 22,
-      "pali": "saṅkhārūpasamo sukho”ti. ",
-      "english": "the blissful stilling of conditions.” "
-    },
-    {
-      "number": 23,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 24,
-      "pali": "Chaṭṭhaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "stilling-of-fabrications bliss."
     }
   ]
 }

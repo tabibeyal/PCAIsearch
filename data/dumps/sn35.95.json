@@ -3,908 +3,403 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 35.95 ",
-      "english": "Linked Discourses 35.95 "
+      "pali": "Linked Discourses 35.95",
+      "english": "Linked Discourses 35.95"
     },
     {
       "number": 2,
-      "pali": "10. Saḷavagga ",
-      "english": "10. The Sixes "
+      "pali": "Māluṅkyaputta Sutta",
+      "english": "To Māluṅkyaputta"
     },
     {
       "number": 3,
-      "pali": "Mālukyaputtasutta ",
-      "english": "Māluṅkyaputta "
+      "pali": "",
+      "english": "Then Ven. Māluṅkyaputta, who was ardent & resolute, went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there, he said to the Blessed One: “It would be good, lord, if the Blessed One would teach me the Dhamma in brief so that, having heard the Dhamma from the Blessed One, I might dwell alone in seclusion: heedful, ardent, & resolute.”"
     },
     {
       "number": 4,
-      "pali": "Atha kho āyasmā mālukyaputto yena bhagavā tenupasaṅkami …pe… ekamantaṁ nisinno kho āyasmā mālukyaputto bhagavantaṁ etadavoca: ",
-      "english": "Then Venerable Māluṅkyaputta went up to the Buddha … and asked him, "
+      "pali": "",
+      "english": "“Here now, Māluṅkyaputta: What will I say to the young monks when you—aged, old, elderly, along in years, come to the last stage of life—ask for an admonition in brief?”"
     },
     {
       "number": 5,
-      "pali": "“sādhu me, bhante, bhagavā saṅkhittena dhammaṁ desetu, yamahaṁ bhagavato dhammaṁ sutvā eko vūpakaṭṭho appamatto ātāpī pahitatto vihareyyan”ti. ",
-      "english": "“Sir, may the Buddha please teach me Dhamma in brief. When I’ve heard it, I’ll live alone, withdrawn, diligent, keen, and resolute.” "
+      "pali": "",
+      "english": "“Lord, even though I’m aged, old, elderly, along in years, come to the last stage of life, may the Blessed One teach me the Dhamma in brief! May the One Well-Gone teach me the Dhamma in brief! It may well be that I’ll understand the Blessed One’s words. It may well be that I’ll become an heir to the Blessed One’s words.”"
     },
     {
       "number": 6,
-      "pali": "“Ettha dāni, mālukyaputta, kiṁ dahare bhikkhū vakkhāma. ",
-      "english": "“Well now, Māluṅkyaputta, what are we to say to the young monks, "
+      "pali": "",
+      "english": "“What do you think, Māluṅkyaputta? The forms cognizable via the eye that are unseen by you—that you have never before seen, that you don’t see, and that are not to be seen by you: Do you have any desire or passion or love there?”"
     },
     {
       "number": 7,
-      "pali": "Yatra hi nāma tvaṁ, bhikkhu, jiṇṇo vuddho mahallako addhagato vayoanuppatto saṅkhittena ovādaṁ yācasī”ti. ",
-      "english": "when even an old man like you, elderly and senior, advanced in years, having reached the final stage of life, asks for brief advice?” "
+      "pali": "",
+      "english": "“No, lord.”"
     },
     {
       "number": 8,
-      "pali": "“Kiñcāpāhaṁ, bhante, jiṇṇo vuddho mahallako addhagato vayoanuppatto. ",
-      "english": "“Sir, even though I’m an old man, elderly and senior, "
+      "pali": "",
+      "english": "“The sounds cognizable via the ear…"
     },
     {
       "number": 9,
-      "pali": "Desetu me, bhante, bhagavā saṅkhittena dhammaṁ, desetu sugato saṅkhittena dhammaṁ, appeva nāmāhaṁ bhagavato bhāsitassa atthaṁ ājāneyyaṁ. Appeva nāmāhaṁ bhagavato bhāsitassa dāyādo assan”ti. ",
-      "english": "may the Buddha please teach me Dhamma in brief! May the Holy one please teach me in brief! Hopefully I can understand the meaning of what the Buddha says. Hopefully I can be an heir of the Buddha’s teaching!” "
+      "pali": "",
+      "english": "“The aromas cognizable via the nose…"
     },
     {
       "number": 10,
-      "pali": "“Taṁ kiṁ maññasi, mālukyaputta, ",
-      "english": "“What do you think, Māluṅkyaputta? "
+      "pali": "",
+      "english": "“The flavors cognizable via the tongue…"
     },
     {
       "number": 11,
-      "pali": "ye te cakkhuviññeyyā rūpā adiṭṭhā adiṭṭhapubbā, na ca passasi, na ca te hoti passeyyanti? Atthi te tattha chando vā rāgo vā pemaṁ vā”ti? ",
-      "english": "Do you have any desire or greed or fondness for sights known by the eye that are unseen, unseen before, and which you neither see nor think might be seen?” "
+      "pali": "",
+      "english": "“The tactile sensations cognizable via the body…"
     },
     {
       "number": 12,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
+      "pali": "",
+      "english": "“The ideas cognizable via the intellect that are uncognized by you–the you have never before cognized, that you don’t cognize, and that are not to be cognized by you: Do you have any desire or passion or love there?”"
     },
     {
       "number": 13,
-      "pali": "“Ye te sotaviññeyyā saddā assutā assutapubbā, na ca suṇāsi, na ca te hoti suṇeyyanti? Atthi te tattha chando vā rāgo vā pemaṁ vā”ti? ",
-      "english": "“Do you have any desire or greed or affection for sounds known by the ear … "
+      "pali": "",
+      "english": "“No, lord.”"
     },
     {
       "number": 14,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
+      "pali": "",
+      "english": "“Then, Māluṅkyaputta, with regard to phenomena to be seen, heard, sensed, or cognized: In reference to the seen, there will be only the seen. In reference to the heard, only the heard. In reference to the sensed, only the sensed. In reference to the cognized, only the cognized. That is how you should train yourself. When for you there will be only the seen in reference to the seen, only the heard in reference to the heard, only the sensed in reference to the sensed, only the cognized in reference to the cognized, then, Māluṅkyaputta, there is no you in connection with that. When there is no you in connection with that, there is no you there. When there is no you there, you are neither here nor yonder nor between the two. This, just this, is the end of stress.”"
     },
     {
       "number": 15,
-      "pali": "“Ye te ghānaviññeyyā gandhā aghāyitā aghāyitapubbā, na ca ghāyasi, na ca te hoti ghāyeyyanti? Atthi te tattha chando vā rāgo vā pemaṁ vā”ti? ",
-      "english": "smells known by the nose … "
+      "pali": "",
+      "english": "“I understand in detail, lord, the meaning of what the Blessed One has said in brief:"
     },
     {
       "number": 16,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
+      "pali": "",
+      "english": "Seeing a form"
     },
     {
       "number": 17,
-      "pali": "“Ye te jivhāviññeyyā rasā asāyitā asāyitapubbā, na ca sāyasi, na ca te hoti sāyeyyanti? Atthi te tattha chando vā rāgo vā pemaṁ vā”ti? ",
-      "english": "tastes known by the tongue … "
+      "pali": "",
+      "english": "—mindfulness lapsed—"
     },
     {
       "number": 18,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
+      "pali": "",
+      "english": "attending"
     },
     {
       "number": 19,
-      "pali": "“Ye te kāyaviññeyyā phoṭṭhabbā asamphuṭṭhā asamphuṭṭhapubbā, na ca phusasi, na ca te hoti phuseyyanti? Atthi te tattha chando vā rāgo vā pemaṁ vā”ti? ",
-      "english": "touches known by the body … "
+      "pali": "",
+      "english": "to the theme of ‘endearing,’"
     },
     {
       "number": 20,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
+      "pali": "",
+      "english": "impassioned in mind,"
     },
     {
       "number": 21,
-      "pali": "“Ye te manoviññeyyā dhammā aviññātā aviññātapubbā, na ca vijānāsi, na ca te hoti vijāneyyanti? Atthi te tattha chando vā rāgo vā pemaṁ vā”ti? ",
-      "english": "ideas known by the mind that are unknown, unknown before, and which you neither know nor think might be known?” "
+      "pali": "",
+      "english": "one feels"
     },
     {
       "number": 22,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
+      "pali": "",
+      "english": "and remains fastened on it."
     },
     {
       "number": 23,
-      "pali": "“Ettha ca te, mālukyaputta, diṭṭhasutamutaviññātabbesu dhammesu diṭṭhe diṭṭhamattaṁ bhavissati, sute sutamattaṁ bhavissati, mute mutamattaṁ bhavissati, viññāte viññātamattaṁ bhavissati. ",
-      "english": "“In that case, when it comes to things that ought be seen, heard, thought, and known: in the seen will be merely the seen; in the heard will be merely the heard; in the thought will be merely the thought; in the known will be merely the known. "
+      "pali": "",
+      "english": "One’s feelings, born of the form,"
     },
     {
       "number": 24,
-      "pali": "Yato kho te, mālukyaputta, diṭṭhasutamutaviññātabbesu dhammesu diṭṭhe diṭṭhamattaṁ bhavissati, sute sutamattaṁ bhavissati, mute mutamattaṁ bhavissati, viññāte viññātamattaṁ bhavissati; ",
-      "english": "When this is the case, "
+      "pali": "",
+      "english": "grow numerous,"
     },
     {
       "number": 25,
-      "pali": "tato tvaṁ, mālukyaputta, na tena. ",
-      "english": "you won’t be ‘by that’. "
+      "pali": "",
+      "english": "Greed & annoyance"
     },
     {
       "number": 26,
-      "pali": "Yato tvaṁ, mālukyaputta, na tena; ",
-      "english": "When you’re not ‘by that’, "
+      "pali": "",
+      "english": "injure one’s mind."
     },
     {
       "number": 27,
-      "pali": "tato tvaṁ, mālukyaputta, na tattha. ",
-      "english": "you won’t be ‘in that’. "
+      "pali": "",
+      "english": "Thus amassing stress,"
     },
     {
       "number": 28,
-      "pali": "Yato tvaṁ, mālukyaputta, na tattha; ",
-      "english": "When you’re not ‘in that’, "
+      "pali": "",
+      "english": "one is said to be far"
     },
     {
       "number": 29,
-      "pali": "tato tvaṁ, mālukyaputta, nevidha, na huraṁ, na ubhayamantarena. ",
-      "english": "you won’t be in this life or the next or in between the two. "
+      "pali": "",
+      "english": "from unbinding."
     },
     {
       "number": 30,
-      "pali": "Esevanto dukkhassā”ti. ",
-      "english": "Just this is the end of suffering.” "
+      "pali": "",
+      "english": "Hearing a sound…"
     },
     {
       "number": 31,
-      "pali": "“Imassa khvāhaṁ, bhante, bhagavatā saṅkhittena bhāsitassa vitthārena atthaṁ ājānāmi: ",
-      "english": "“This is how I understand the detailed meaning of the Buddha’s brief statement: "
+      "pali": "",
+      "english": "Smelling an aroma…"
     },
     {
       "number": 32,
-      "pali": "‘Rūpaṁ disvā sati muṭṭhā, ",
-      "english": "‘When you see a sight, mindfulness is lost "
+      "pali": "",
+      "english": "Tasting a flavor…"
     },
     {
       "number": 33,
-      "pali": "Piyaṁ nimittaṁ manasi karoto; ",
-      "english": "as you focus on a pleasant feature. "
+      "pali": "",
+      "english": "Touching a tactile sensation…"
     },
     {
       "number": 34,
-      "pali": "Sārattacitto vedeti, ",
-      "english": "Experiencing it with a mind full of desire, "
+      "pali": "",
+      "english": "Knowing an idea"
     },
     {
       "number": 35,
-      "pali": "Tañca ajjhosa tiṭṭhati. ",
-      "english": "you keep clinging to it. "
+      "pali": "",
+      "english": "—mindfulness lapsed—"
     },
     {
       "number": 36,
-      "pali": "Tassa vaḍḍhanti vedanā, ",
-      "english": "Many feelings grow "
+      "pali": "",
+      "english": "attending"
     },
     {
       "number": 37,
-      "pali": "anekā rūpasambhavā; ",
-      "english": "arising from sights. "
+      "pali": "",
+      "english": "to the theme of ‘endearing,’"
     },
     {
       "number": 38,
-      "pali": "Abhijjhā ca vihesā ca, ",
-      "english": "The mind is damaged "
+      "pali": "",
+      "english": "impassioned in mind,"
     },
     {
       "number": 39,
-      "pali": "cittamassūpahaññati; ",
-      "english": "by covetousness and cruelty. "
+      "pali": "",
+      "english": "one feels"
     },
     {
       "number": 40,
-      "pali": "Evaṁ ācinato dukkhaṁ, ",
-      "english": "Heaping up suffering like this, "
+      "pali": "",
+      "english": "and remains fastened on it."
     },
     {
       "number": 41,
-      "pali": "ārā nibbāna vuccati. ",
-      "english": "you’re said to be far from extinguishment. "
+      "pali": "",
+      "english": "One’s feelings, born of the idea,"
     },
     {
       "number": 42,
-      "pali": "Saddaṁ sutvā sati muṭṭhā, ",
-      "english": "When you hear a sound, mindfulness is lost "
+      "pali": "",
+      "english": "grow numerous,"
     },
     {
       "number": 43,
-      "pali": "Piyaṁ nimittaṁ manasi karoto; ",
-      "english": "as you focus on a pleasant feature. "
+      "pali": "",
+      "english": "Greed & annoyance"
     },
     {
       "number": 44,
-      "pali": "Sārattacitto vedeti, ",
-      "english": "Experiencing it with a mind full of desire, "
+      "pali": "",
+      "english": "injure one’s mind."
     },
     {
       "number": 45,
-      "pali": "Tañca ajjhosa tiṭṭhati. ",
-      "english": "you keep clinging to it. "
+      "pali": "",
+      "english": "Thus amassing stress,"
     },
     {
       "number": 46,
-      "pali": "Tassa vaḍḍhanti vedanā, ",
-      "english": "Many feelings grow "
+      "pali": "",
+      "english": "one is said to be far"
     },
     {
       "number": 47,
-      "pali": "anekā saddasambhavā; ",
-      "english": "arising from sounds. "
+      "pali": "",
+      "english": "from unbinding."
     },
     {
       "number": 48,
-      "pali": "Abhijjhā ca vihesā ca, ",
-      "english": "The mind is damaged "
+      "pali": "",
+      "english": "Not impassioned with forms"
     },
     {
       "number": 49,
-      "pali": "cittamassūpahaññati; ",
-      "english": "by covetousness and cruelty. "
+      "pali": "",
+      "english": "—seeing a form with mindfulness firm—"
     },
     {
       "number": 50,
-      "pali": "Evaṁ ācinato dukkhaṁ, ",
-      "english": "Heaping up suffering like this, "
+      "pali": "",
+      "english": "dispassioned in mind,"
     },
     {
       "number": 51,
-      "pali": "ārā nibbāna vuccati. ",
-      "english": "you’re said to be far from extinguishment. "
+      "pali": "",
+      "english": "one knows"
     },
     {
       "number": 52,
-      "pali": "Gandhaṁ ghatvā sati muṭṭhā, ",
-      "english": "When you smell an odor, mindfulness is lost "
+      "pali": "",
+      "english": "and doesn’t remain fastened on it."
     },
     {
       "number": 53,
-      "pali": "Piyaṁ nimittaṁ manasi karoto; ",
-      "english": "as you focus on a pleasant feature. "
+      "pali": "",
+      "english": "While one is seeing a form"
     },
     {
       "number": 54,
-      "pali": "Sārattacitto vedeti, ",
-      "english": "Experiencing it with a mind full of desire, "
+      "pali": "",
+      "english": "—and even experiencing feeling—"
     },
     {
       "number": 55,
-      "pali": "Tañca ajjhosa tiṭṭhati. ",
-      "english": "you keep clinging to it. "
+      "pali": "",
+      "english": "it falls away and doesn’t accumulate."
     },
     {
       "number": 56,
-      "pali": "Tassa vaḍḍhanti vedanā, ",
-      "english": "Many feelings grow "
+      "pali": "",
+      "english": "Thus one fares mindfully."
     },
     {
       "number": 57,
-      "pali": "anekā gandhasambhavā; ",
-      "english": "arising from smells. "
+      "pali": "",
+      "english": "Thus not amassing stress,"
     },
     {
       "number": 58,
-      "pali": "Abhijjhā ca vihesā ca, ",
-      "english": "The mind is damaged "
+      "pali": "",
+      "english": "one is said to be"
     },
     {
       "number": 59,
-      "pali": "cittamassūpahaññati; ",
-      "english": "by covetousness and cruelty. "
+      "pali": "",
+      "english": "in the presence of unbinding."
     },
     {
       "number": 60,
-      "pali": "Evaṁ ācinato dukkhaṁ, ",
-      "english": "Heaping up suffering like this, "
+      "pali": "",
+      "english": "Not impassioned with sounds…"
     },
     {
       "number": 61,
-      "pali": "ārā nibbāna vuccati. ",
-      "english": "you’re said to be far from extinguishment. "
+      "pali": "",
+      "english": "Not impassioned with aromas…"
     },
     {
       "number": 62,
-      "pali": "Rasaṁ bhotvā sati muṭṭhā, ",
-      "english": "When you enjoy a taste, mindfulness is lost "
+      "pali": "",
+      "english": "Not impassioned with flavors…"
     },
     {
       "number": 63,
-      "pali": "Piyaṁ nimittaṁ manasi karoto; ",
-      "english": "as you focus on a pleasant feature. "
+      "pali": "",
+      "english": "Not impassioned with tactile sensations…"
     },
     {
       "number": 64,
-      "pali": "Sārattacitto vedeti, ",
-      "english": "Experiencing it with a mind full of desire, "
+      "pali": "",
+      "english": "Not impassioned with ideas"
     },
     {
       "number": 65,
-      "pali": "Tañca ajjhosa tiṭṭhati. ",
-      "english": "you keep clinging to it. "
+      "pali": "",
+      "english": "—knowing an idea with mindfulness firm—"
     },
     {
       "number": 66,
-      "pali": "Tassa vaḍḍhanti vedanā, ",
-      "english": "Many feelings grow "
+      "pali": "",
+      "english": "dispassioned in mind,"
     },
     {
       "number": 67,
-      "pali": "anekā rasasambhavā; ",
-      "english": "arising from tastes. "
+      "pali": "",
+      "english": "one knows"
     },
     {
       "number": 68,
-      "pali": "Abhijjhā ca vihesā ca, ",
-      "english": "The mind is damaged "
+      "pali": "",
+      "english": "and doesn’t remain fastened on it."
     },
     {
       "number": 69,
-      "pali": "cittamassūpahaññati; ",
-      "english": "by covetousness and cruelty. "
+      "pali": "",
+      "english": "While one is knowing an idea"
     },
     {
       "number": 70,
-      "pali": "Evaṁ ācinato dukkhaṁ, ",
-      "english": "Heaping up suffering like this, "
+      "pali": "",
+      "english": "—and even experiencing feeling—"
     },
     {
       "number": 71,
-      "pali": "ārā nibbāna vuccati. ",
-      "english": "you’re said to be far from extinguishment. "
+      "pali": "",
+      "english": "it falls away and doesn’t accumulate."
     },
     {
       "number": 72,
-      "pali": "Phassaṁ phussa sati muṭṭhā, ",
-      "english": "When you sense a touch, mindfulness is lost "
+      "pali": "",
+      "english": "Thus one fares mindfully."
     },
     {
       "number": 73,
-      "pali": "Piyaṁ nimittaṁ manasi karoto; ",
-      "english": "as you focus on a pleasant feature. "
+      "pali": "",
+      "english": "Thus not amassing stress,"
     },
     {
       "number": 74,
-      "pali": "Sārattacitto vedeti, ",
-      "english": "Experiencing it with a mind full of desire, "
+      "pali": "",
+      "english": "one is said to be"
     },
     {
       "number": 75,
-      "pali": "Tañca ajjhosa tiṭṭhati. ",
-      "english": "you keep clinging to it. "
+      "pali": "",
+      "english": "in the presence of unbinding."
     },
     {
       "number": 76,
-      "pali": "Tassa vaḍḍhanti vedanā, ",
-      "english": "Many feelings grow "
+      "pali": "",
+      "english": "“It’s in this way, lord, that I understand in detail the meaning of what the Blessed One said in brief.”"
     },
     {
       "number": 77,
-      "pali": "anekā phassasambhavā; ",
-      "english": "arising from touches. "
+      "pali": "",
+      "english": "“Good, Māluṅkyaputta. Very good. It’s good that you understand in detail this way the meaning of what I said in brief.”"
     },
     {
       "number": 78,
-      "pali": "Abhijjhā ca vihesā ca, ",
-      "english": "The mind is damaged "
+      "pali": "",
+      "english": "[The Buddha then repeats the verses.]"
     },
     {
       "number": 79,
-      "pali": "cittamassūpahaññati; ",
-      "english": "by covetousness and cruelty. "
+      "pali": "",
+      "english": "“It’s in this way, Māluṅkyaputta, that the meaning of what I said in brief should be regarded in detail.”"
     },
     {
       "number": 80,
-      "pali": "Evaṁ ācinato dukkhaṁ, ",
-      "english": "Heaping up suffering like this, "
-    },
-    {
-      "number": 81,
-      "pali": "ārā nibbāna vuccati. ",
-      "english": "you’re said to be far from extinguishment. "
-    },
-    {
-      "number": 82,
-      "pali": "Dhammaṁ ñatvā sati muṭṭhā, ",
-      "english": "When you know an idea, mindfulness is lost "
-    },
-    {
-      "number": 83,
-      "pali": "Piyaṁ nimittaṁ manasi karoto; ",
-      "english": "as you focus on a pleasant feature. "
-    },
-    {
-      "number": 84,
-      "pali": "Sārattacitto vedeti, ",
-      "english": "Experiencing it with a mind full of desire, "
-    },
-    {
-      "number": 85,
-      "pali": "Tañca ajjhosa tiṭṭhati. ",
-      "english": "you keep clinging to it. "
-    },
-    {
-      "number": 86,
-      "pali": "Tassa vaḍḍhanti vedanā, ",
-      "english": "Many feelings grow "
-    },
-    {
-      "number": 87,
-      "pali": "anekā dhammasambhavā; ",
-      "english": "arising from ideas. "
-    },
-    {
-      "number": 88,
-      "pali": "Abhijjhā ca vihesā ca, ",
-      "english": "The mind is damaged "
-    },
-    {
-      "number": 89,
-      "pali": "cittamassūpahaññati; ",
-      "english": "by covetousness and cruelty. "
-    },
-    {
-      "number": 90,
-      "pali": "Evaṁ ācinato dukkhaṁ, ",
-      "english": "Heaping up suffering like this, "
-    },
-    {
-      "number": 91,
-      "pali": "ārā nibbāna vuccati. ",
-      "english": "you’re said to be far from extinguishment. "
-    },
-    {
-      "number": 92,
-      "pali": "Na so rajjati rūpesu, ",
-      "english": "There’s no desire for sights "
-    },
-    {
-      "number": 93,
-      "pali": "rūpaṁ disvā paṭissato; ",
-      "english": "when you see a sight with mindfulness. "
-    },
-    {
-      "number": 94,
-      "pali": "Virattacitto vedeti, ",
-      "english": "Experiencing it with a mind free of desire, "
-    },
-    {
-      "number": 95,
-      "pali": "tañca nājjhosa tiṭṭhati. ",
-      "english": "you don’t keep clinging to it. "
-    },
-    {
-      "number": 96,
-      "pali": "Yathāssa passato rūpaṁ, ",
-      "english": "Even as you see a sight "
-    },
-    {
-      "number": 97,
-      "pali": "sevato cāpi vedanaṁ; ",
-      "english": "and get familiar with how it feels, "
-    },
-    {
-      "number": 98,
-      "pali": "Khīyati nopacīyati, ",
-      "english": "you wear away, you don’t heap up: "
-    },
-    {
-      "number": 99,
-      "pali": "evaṁ so caratī sato; ",
-      "english": "that’s how to live mindfully. "
-    },
-    {
-      "number": 100,
-      "pali": "Evaṁ apacinato dukkhaṁ, ",
-      "english": "Eroding suffering like this, "
-    },
-    {
-      "number": 101,
-      "pali": "santike nibbāna vuccati. ",
-      "english": "you’re said to be in the presence of extinguishment. "
-    },
-    {
-      "number": 102,
-      "pali": "Na so rajjati saddesu, ",
-      "english": "There’s no desire for sounds "
-    },
-    {
-      "number": 103,
-      "pali": "saddaṁ sutvā paṭissato; ",
-      "english": "when you hear a sound with mindfulness. "
-    },
-    {
-      "number": 104,
-      "pali": "Virattacitto vedeti, ",
-      "english": "Experiencing it with a mind free of desire, "
-    },
-    {
-      "number": 105,
-      "pali": "tañca nājjhosa tiṭṭhati. ",
-      "english": "you don’t keep clinging to it. "
-    },
-    {
-      "number": 106,
-      "pali": "Yathāssa suṇato saddaṁ, ",
-      "english": "Even as you hear a sound "
-    },
-    {
-      "number": 107,
-      "pali": "sevato cāpi vedanaṁ; ",
-      "english": "and get familiar with how it feels, "
-    },
-    {
-      "number": 108,
-      "pali": "Khīyati nopacīyati, ",
-      "english": "you wear away, you don’t heap up: "
-    },
-    {
-      "number": 109,
-      "pali": "evaṁ so caratī sato; ",
-      "english": "that’s how to live mindfully. "
-    },
-    {
-      "number": 110,
-      "pali": "Evaṁ apacinato dukkhaṁ, ",
-      "english": "Eroding suffering like this, "
-    },
-    {
-      "number": 111,
-      "pali": "santike nibbāna vuccati. ",
-      "english": "you’re said to be in the presence of extinguishment. "
-    },
-    {
-      "number": 112,
-      "pali": "Na so rajjati gandhesu, ",
-      "english": "There’s no desire for odors "
-    },
-    {
-      "number": 113,
-      "pali": "gandhaṁ ghatvā paṭissato; ",
-      "english": "when you smell an odor with mindfulness. "
-    },
-    {
-      "number": 114,
-      "pali": "Virattacitto vedeti, ",
-      "english": "Experiencing it with a mind free of desire, "
-    },
-    {
-      "number": 115,
-      "pali": "tañca nājjhosa tiṭṭhati. ",
-      "english": "you don’t keep clinging to it. "
-    },
-    {
-      "number": 116,
-      "pali": "Yathāssa ghāyato gandhaṁ, ",
-      "english": "Even as you smell an odor "
-    },
-    {
-      "number": 117,
-      "pali": "sevato cāpi vedanaṁ; ",
-      "english": "and get familiar with how it feels, "
-    },
-    {
-      "number": 118,
-      "pali": "Khīyati nopacīyati, ",
-      "english": "you wear away, you don’t heap up: "
-    },
-    {
-      "number": 119,
-      "pali": "evaṁ so caratī sato; ",
-      "english": "that’s how to live mindfully. "
-    },
-    {
-      "number": 120,
-      "pali": "Evaṁ apacinato dukkhaṁ, ",
-      "english": "Eroding suffering like this, "
-    },
-    {
-      "number": 121,
-      "pali": "santike nibbāna vuccati. ",
-      "english": "you’re said to be in the presence of extinguishment. "
-    },
-    {
-      "number": 122,
-      "pali": "Na so rajjati rasesu, ",
-      "english": "There’s no desire for tastes "
-    },
-    {
-      "number": 123,
-      "pali": "rasaṁ bhotvā paṭissato; ",
-      "english": "when you enjoy a taste with mindfulness. "
-    },
-    {
-      "number": 124,
-      "pali": "Virattacitto vedeti, ",
-      "english": "Experiencing it with a mind free of desire, "
-    },
-    {
-      "number": 125,
-      "pali": "tañca nājjhosa tiṭṭhati. ",
-      "english": "you don’t keep clinging to it. "
-    },
-    {
-      "number": 126,
-      "pali": "Yathāssa sāyato rasaṁ, ",
-      "english": "Even as you savor a taste "
-    },
-    {
-      "number": 127,
-      "pali": "sevato cāpi vedanaṁ; ",
-      "english": "and get familiar with how it feels, "
-    },
-    {
-      "number": 128,
-      "pali": "Khīyati nopacīyati, ",
-      "english": "you wear away, you don’t heap up: "
-    },
-    {
-      "number": 129,
-      "pali": "evaṁ so caratī sato; ",
-      "english": "that’s how to live mindfully. "
-    },
-    {
-      "number": 130,
-      "pali": "Evaṁ apacinato dukkhaṁ, ",
-      "english": "Eroding suffering like this, "
-    },
-    {
-      "number": 131,
-      "pali": "santike nibbāna vuccati. ",
-      "english": "you’re said to be in the presence of extinguishment. "
-    },
-    {
-      "number": 132,
-      "pali": "Na so rajjati phassesu, ",
-      "english": "There’s no desire for touches "
-    },
-    {
-      "number": 133,
-      "pali": "phassaṁ phussa paṭissato; ",
-      "english": "when you sense a touch with mindfulness. "
-    },
-    {
-      "number": 134,
-      "pali": "Virattacitto vedeti, ",
-      "english": "Experiencing it with a mind free of desire, "
-    },
-    {
-      "number": 135,
-      "pali": "tañca nājjhosa tiṭṭhati. ",
-      "english": "you don’t keep clinging to it. "
-    },
-    {
-      "number": 136,
-      "pali": "Yathāssa phusato phassaṁ, ",
-      "english": "Even as you sense a touch "
-    },
-    {
-      "number": 137,
-      "pali": "sevato cāpi vedanaṁ; ",
-      "english": "and get familiar with how it feels, "
-    },
-    {
-      "number": 138,
-      "pali": "Khīyati nopacīyati, ",
-      "english": "you wear away, you don’t heap up: "
-    },
-    {
-      "number": 139,
-      "pali": "evaṁ so caratī sato; ",
-      "english": "that’s how to live mindfully. "
-    },
-    {
-      "number": 140,
-      "pali": "Evaṁ apacinato dukkhaṁ, ",
-      "english": "Eroding suffering like this, "
-    },
-    {
-      "number": 141,
-      "pali": "santike nibbāna vuccati. ",
-      "english": "you’re said to be in the presence of extinguishment. "
-    },
-    {
-      "number": 142,
-      "pali": "Na so rajjati dhammesu, ",
-      "english": "There’s no desire for ideas "
-    },
-    {
-      "number": 143,
-      "pali": "dhammaṁ ñatvā paṭissato; ",
-      "english": "when you know an idea with mindfulness. "
-    },
-    {
-      "number": 144,
-      "pali": "Virattacitto vedeti, ",
-      "english": "Experiencing it with a mind free of desire, "
-    },
-    {
-      "number": 145,
-      "pali": "tañca nājjhosa tiṭṭhati. ",
-      "english": "you don’t keep clinging to it. "
-    },
-    {
-      "number": 146,
-      "pali": "Yathāssa jānato dhammaṁ, ",
-      "english": "Even as you know an idea "
-    },
-    {
-      "number": 147,
-      "pali": "Sevato cāpi vedanaṁ; ",
-      "english": "and get familiar with how it feels, "
-    },
-    {
-      "number": 148,
-      "pali": "Khīyati nopacīyati, ",
-      "english": "you wear away, you don’t heap up: "
-    },
-    {
-      "number": 149,
-      "pali": "Evaṁ so caratī sato; ",
-      "english": "that’s how to live mindfully. "
-    },
-    {
-      "number": 150,
-      "pali": "Evaṁ apacinato dukkhaṁ, ",
-      "english": "Eroding suffering like this, "
-    },
-    {
-      "number": 151,
-      "pali": "Santike nibbāna vuccatī’ti. ",
-      "english": "you’re said to be in the presence of extinguishment.’ "
-    },
-    {
-      "number": 152,
-      "pali": "Imassa khvāhaṁ, bhante, bhagavatā saṅkhittena bhāsitassa evaṁ vitthārena atthaṁ ājānāmī”ti. ",
-      "english": "That’s how I understand the detailed meaning of the Buddha’s brief statement.” "
-    },
-    {
-      "number": 153,
-      "pali": "“Sādhu sādhu, mālukyaputta. ",
-      "english": "“Good, good, Māluṅkyaputta! "
-    },
-    {
-      "number": 154,
-      "pali": "Sādhu kho tvaṁ, mālukyaputta, mayā saṅkhittena bhāsitassa vitthārena atthaṁ ājānāsi: ",
-      "english": "It’s good that you understand the detailed meaning of what I’ve said in brief like this.” And he repeated the verses in full. "
-    },
-    {
-      "number": 155,
-      "pali": "‘Rūpaṁ disvā sati muṭṭhā, ",
-      "english": ""
-    },
-    {
-      "number": 156,
-      "pali": "Piyaṁ nimittaṁ manasi karoto; ",
-      "english": ""
-    },
-    {
-      "number": 157,
-      "pali": "Sārattacitto vedeti, ",
-      "english": ""
-    },
-    {
-      "number": 158,
-      "pali": "Tañca ajjhosa tiṭṭhati. ",
-      "english": ""
-    },
-    {
-      "number": 159,
-      "pali": "Tassa vaḍḍhanti vedanā, ",
-      "english": ""
-    },
-    {
-      "number": 160,
-      "pali": "anekā rūpasambhavā; ",
-      "english": ""
-    },
-    {
-      "number": 161,
-      "pali": "Abhijjhā ca vihesā ca, ",
-      "english": ""
-    },
-    {
-      "number": 162,
-      "pali": "cittamassūpahaññati; ",
-      "english": ""
-    },
-    {
-      "number": 163,
-      "pali": "Evaṁ ācinato dukkhaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 164,
-      "pali": "ārā nibbāna vuccati. ",
-      "english": ""
-    },
-    {
-      "number": 165,
-      "pali": "…pe… ",
-      "english": ""
-    },
-    {
-      "number": 166,
-      "pali": "Na so rajjati dhammesu, ",
-      "english": ""
-    },
-    {
-      "number": 167,
-      "pali": "dhammaṁ ñatvā paṭissato; ",
-      "english": ""
-    },
-    {
-      "number": 168,
-      "pali": "Virattacitto vedeti, ",
-      "english": ""
-    },
-    {
-      "number": 169,
-      "pali": "tañca nājjhosa tiṭṭhati. ",
-      "english": ""
-    },
-    {
-      "number": 170,
-      "pali": "Yathāssa vijānato dhammaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 171,
-      "pali": "Sevato cāpi vedanaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 172,
-      "pali": "Khīyati nopacīyati, ",
-      "english": ""
-    },
-    {
-      "number": 173,
-      "pali": "Evaṁ so caratī sato; ",
-      "english": ""
-    },
-    {
-      "number": 174,
-      "pali": "Evaṁ apacinato dukkhaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 175,
-      "pali": "Santike nibbāna vuccatī’ti. ",
-      "english": ""
-    },
-    {
-      "number": 176,
-      "pali": "Imassa kho, mālukyaputta, mayā saṅkhittena bhāsitassa evaṁ vitthārena attho daṭṭhabbo”ti. ",
-      "english": "“This is how to understand the detailed meaning of what I said in brief.” "
-    },
-    {
-      "number": 177,
-      "pali": "Atha kho āyasmā mālukyaputto bhagavato bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā pakkāmi. ",
-      "english": "And then Venerable Māluṅkyaputta approved and agreed with what the Buddha said. He got up from his seat, bowed, and respectfully circled the Buddha, keeping him on his right, before leaving. "
-    },
-    {
-      "number": 178,
-      "pali": "Atha kho āyasmā mālukyaputto eko vūpakaṭṭho appamatto ātāpī pahitatto viharanto nacirasseva—yassatthāya kulaputtā sammadeva agārasmā anagāriyaṁ pabbajanti, tadanuttaraṁ—brahmacariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja vihāsi. ",
-      "english": "Then Māluṅkyaputta, living alone, withdrawn, diligent, keen, and resolute, soon realized the supreme end of the spiritual path in this very life. He lived having achieved with his own insight the goal for which gentlemen rightly go forth from the lay life to homelessness. "
-    },
-    {
-      "number": 179,
-      "pali": "“Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti abbhaññāsi. ",
-      "english": "He understood: “Rebirth is ended; the spiritual journey has been completed; what had to be done has been done; there is nothing further for this place.” "
-    },
-    {
-      "number": 180,
-      "pali": "Aññataro ca panāyasmā mālukyaputto arahataṁ ahosīti. ",
-      "english": "And Venerable Māluṅkyaputta became one of the perfected. "
-    },
-    {
-      "number": 181,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "Then Ven. Māluṅkyaputta, having been admonished by the admonishment from the Blessed One, got up from his seat and bowed down to the Blessed One, circled around him, keeping the Blessed One to his right side, and left. Then, dwelling alone, secluded, heedful, ardent, & resolute, he in no long time entered & remained in the supreme goal of the holy life for which clansmen rightly go forth from home into homelessness, directly knowing & realizing it for himself in the here & now. He knew: “Birth is ended, the holy life fulfilled, the task done. There is nothing further for the sake of this world.” And thus Ven. Māluṅkyaputta became another one of the arahants."
     }
   ]
 }

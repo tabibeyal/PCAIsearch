@@ -3,138 +3,83 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 28 ",
-      "english": "So It Was Said 28 "
+      "pali": "Itivuttaka 28",
+      "english": "Itivuttaka 28"
     },
     {
       "number": 2,
-      "pali": "Dukanipāta ",
-      "english": "The Book of the Twos "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Paṭhamavagga ",
-      "english": "Chapter One "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Endowed with two things, monks, a monk lives in stress in the present life–troubled, distressed, & feverish–and at the break-up of the body, after death, a bad destination can be expected. Which two? A lack of guarding of the doors of the sense faculties, and knowing no moderation in food. Endowed with these two things, a monk lives in stress in the present life–troubled, distressed, & feverish–and at the break-up of the body, after death, a bad destination can be expected.”"
     },
     {
       "number": 4,
-      "pali": "Dukkhavihārasutta ",
-      "english": "Living in Suffering "
+      "pali": "",
+      "english": "Eye & ear & nose,"
     },
     {
       "number": 5,
-      "pali": "(…) Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "tongue, body & mind:"
     },
     {
       "number": 6,
-      "pali": "“Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu diṭṭheva dhamme dukkhaṁ viharati savighātaṁ saupāyāsaṁ sapariḷāhaṁ; ",
-      "english": "“Mendicants, when a mendicant has two qualities they live unhappily in this very life—with distress, anguish, and fever—"
+      "pali": "",
+      "english": "when a monk leaves these doors unguarded"
     },
     {
       "number": 7,
-      "pali": "kāyassa bhedā paraṁ maraṇā duggati pāṭikaṅkhā. ",
-      "english": "and when the body breaks up, after death, they can expect a bad rebirth. "
+      "pali": "",
+      "english": "–knowing no moderation in food,"
     },
     {
       "number": 8,
-      "pali": "Katamehi dvīhi? ",
-      "english": "What two? "
+      "pali": "",
+      "english": "not restraining his senses–"
     },
     {
       "number": 9,
-      "pali": "Indriyesu aguttadvāratāya ca, bhojane amattaññutāya ca. ",
-      "english": "Not guarding the sense doors and eating too much. "
+      "pali": "",
+      "english": "he experiences stress:"
     },
     {
       "number": 10,
-      "pali": "Imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu diṭṭheva dhamme dukkhaṁ viharati savighātaṁ saupāyāsaṁ sapariḷāhaṁ; ",
-      "english": "When a mendicant possesses these two qualities they live unhappily in this very life—with distress, anguish, and fever—"
+      "pali": "",
+      "english": "stress in body, stress"
     },
     {
       "number": 11,
-      "pali": "kāyassa bhedā paraṁ maraṇā duggati pāṭikaṅkhā”ti. ",
-      "english": "and when the body breaks up, after death, they can expect a bad rebirth.” "
+      "pali": "",
+      "english": "in mind."
     },
     {
       "number": 12,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "Burning in body,"
     },
     {
       "number": 13,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "burning in mind,"
     },
     {
       "number": 14,
-      "pali": "“Cakkhu sotañca ghānañca, ",
-      "english": "“Eye, ear, nose, "
+      "pali": "",
+      "english": "whether by day or by night,"
     },
     {
       "number": 15,
-      "pali": "jivhā kāyo tathā mano; ",
-      "english": "tongue, body, and likewise mind: "
+      "pali": "",
+      "english": "one like this"
     },
     {
       "number": 16,
-      "pali": "Etāni yassa dvārāni, ",
-      "english": "a mendicant who leaves these "
-    },
-    {
-      "number": 17,
-      "pali": "aguttāni ca bhikkhuno. ",
-      "english": "sense doors unguarded—"
-    },
-    {
-      "number": 18,
-      "pali": "Bhojanamhi amattaññū, ",
-      "english": "immoderate in eating, "
-    },
-    {
-      "number": 19,
-      "pali": "indriyesu asaṁvuto; ",
-      "english": "sense faculties unrestrained—"
-    },
-    {
-      "number": 20,
-      "pali": "Kāyadukkhaṁ cetodukkhaṁ, ",
-      "english": "reaps suffering "
-    },
-    {
-      "number": 21,
-      "pali": "dukkhaṁ so adhigacchati. ",
-      "english": "both physical and mental. "
-    },
-    {
-      "number": 22,
-      "pali": "Ḍayhamānena kāyena, ",
-      "english": "Burning in body, "
-    },
-    {
-      "number": 23,
-      "pali": "Ḍayhamānena cetasā; ",
-      "english": "burning in mind, "
-    },
-    {
-      "number": 24,
-      "pali": "Divā vā yadi vā rattiṁ, ",
-      "english": "by day or by night "
-    },
-    {
-      "number": 25,
-      "pali": "Dukkhaṁ viharati tādiso”ti. ",
-      "english": "such a person lives in suffering.” "
-    },
-    {
-      "number": 26,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 27,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "lives in suffering & stress."
     }
   ]
 }

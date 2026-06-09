@@ -3,118 +3,28 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 56.44 ",
-      "english": "Linked Discourses 56.44 "
+      "pali": "Linked Discourses 56.44",
+      "english": "Linked Discourses 56.44"
     },
     {
       "number": 2,
-      "pali": "5. Papātavagga ",
-      "english": "5. A Cliff "
+      "pali": "Kūṭa Sutta",
+      "english": "Gabled"
     },
     {
       "number": 3,
-      "pali": "Kūṭāgārasutta ",
-      "english": "A Bungalow "
+      "pali": "",
+      "english": "“Monks, if anyone were to say, ‘Without having broken through to the noble truth of stress as it has come to be, without having broken through to the noble truth of the origination of stress… the cessation of stress… the path of practice leading to the cessation of stress, as it has come to be, I will bring about the right ending of stress,’ that would be an impossibility. Just as if someone were to say, ‘Without having built the lower story of a gabled building, I will put up the upper story,’ that would be an impossibility; in the same way, if anyone were to say, ‘Without having broken through to the noble truth of stress as it has come to be, without having broken through to the noble truth of the origination of stress… the cessation of stress… the path of practice leading to the cessation of stress, as it has come to be, I will bring about the right ending of stress,’ that would be an impossibility."
     },
     {
       "number": 4,
-      "pali": "“Yo hi, bhikkhave, evaṁ vadeyya: ",
-      "english": "“Mendicants, suppose someone were to say: "
+      "pali": "",
+      "english": "“If anyone were to say, ‘Having broken through to the noble truth of stress as it has come to be, having broken through to the noble truth of the origination of stress… the cessation of stress… the path of practice leading to the cessation of stress, as it has come to be, I will bring about the right ending of stress,’ that would be a possibility. Just as if someone were to say, ‘Having built the lower story of a gabled building, I will put up the upper story,’ that would be a possibility; in the same way, if anyone were to say, ‘Having broken through to the noble truth of stress as it has come to be, having broken through to the noble truth of the origination of stress… the cessation of stress… the path of practice leading to the cessation of stress, as it has come to be, I will bring about the right ending of stress,’ that would be a possibility."
     },
     {
       "number": 5,
-      "pali": "‘ahaṁ dukkhaṁ ariyasaccaṁ yathābhūtaṁ anabhisamecca …pe… dukkhanirodhagāminiṁ paṭipadaṁ ariyasaccaṁ yathābhūtaṁ anabhisamecca sammā dukkhassantaṁ karissāmī’ti—",
-      "english": "‘Without truly comprehending the noble truths of suffering, its origin, its cessation, and the path, I will completely make an end of suffering.’ "
-    },
-    {
-      "number": 6,
-      "pali": "netaṁ ṭhānaṁ vijjati. ",
-      "english": "That is not possible. "
-    },
-    {
-      "number": 7,
-      "pali": "Seyyathāpi, bhikkhave, yo evaṁ vadeyya: ",
-      "english": "It’s as if someone were to say: "
-    },
-    {
-      "number": 8,
-      "pali": "‘ahaṁ kūṭāgārassa heṭṭhimaṁ gharaṁ akaritvā uparimaṁ gharaṁ āropessāmī’ti—",
-      "english": "‘Before the lower story of a bungalow is built, I will hoist up the upper story.’ "
-    },
-    {
-      "number": 9,
-      "pali": "netaṁ ṭhānaṁ vijjati; ",
-      "english": "That is not possible. "
-    },
-    {
-      "number": 10,
-      "pali": "evameva kho, bhikkhave, yo evaṁ vadeyya: ",
-      "english": "In the same way, suppose someone were to say: "
-    },
-    {
-      "number": 11,
-      "pali": "‘ahaṁ dukkhaṁ ariyasaccaṁ yathābhūtaṁ anabhisamecca …pe… dukkhanirodhagāminiṁ paṭipadaṁ ariyasaccaṁ yathābhūtaṁ anabhisamecca sammā dukkhassantaṁ karissāmī’ti—",
-      "english": "‘Without truly comprehending the noble truths of suffering, its origin, its cessation, and the path, I will completely make an end of suffering.’ "
-    },
-    {
-      "number": 12,
-      "pali": "netaṁ ṭhānaṁ vijjati. ",
-      "english": "That is not possible. "
-    },
-    {
-      "number": 13,
-      "pali": "Yo ca kho, bhikkhave, evaṁ vadeyya: ",
-      "english": "But suppose someone were to say: "
-    },
-    {
-      "number": 14,
-      "pali": "‘ahaṁ dukkhaṁ ariyasaccaṁ yathābhūtaṁ abhisamecca …pe… dukkhanirodhagāminiṁ paṭipadaṁ ariyasaccaṁ yathābhūtaṁ abhisamecca sammā dukkhassantaṁ karissāmī’ti—",
-      "english": "‘After truly comprehending the noble truths of suffering, its origin, its cessation, and the path, I will completely make an end of suffering.’ "
-    },
-    {
-      "number": 15,
-      "pali": "ṭhānametaṁ vijjati. ",
-      "english": "That is possible. "
-    },
-    {
-      "number": 16,
-      "pali": "Seyyathāpi, bhikkhave, yo evaṁ vadeyya: ",
-      "english": "It’s as if someone were to say: "
-    },
-    {
-      "number": 17,
-      "pali": "‘ahaṁ kūṭāgārassa heṭṭhimaṁ gharaṁ karitvā uparimaṁ gharaṁ āropessāmī’ti—",
-      "english": "‘After the lower story of a bungalow is built, I will hoist up the upper story.’ "
-    },
-    {
-      "number": 18,
-      "pali": "ṭhānametaṁ vijjati; ",
-      "english": "That is possible. "
-    },
-    {
-      "number": 19,
-      "pali": "evameva kho, bhikkhave, yo evaṁ vadeyya: ",
-      "english": "In the same way, suppose someone were to say: "
-    },
-    {
-      "number": 20,
-      "pali": "‘ahaṁ dukkhaṁ ariyasaccaṁ yathābhūtaṁ abhisamecca …pe… dukkhanirodhagāminiṁ paṭipadaṁ ariyasaccaṁ yathābhūtaṁ abhisamecca sammā dukkhassantaṁ karissāmī’ti—",
-      "english": "‘After truly comprehending the noble truths of suffering, its origin, its cessation, and the path, I will completely make an end of suffering.’ "
-    },
-    {
-      "number": 21,
-      "pali": "ṭhānametaṁ vijjati. ",
-      "english": "That is possible. "
-    },
-    {
-      "number": 22,
-      "pali": "Tasmātiha, bhikkhave, ‘idaṁ dukkhan’ti yogo karaṇīyo …pe… ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yogo karaṇīyo”ti. ",
-      "english": "That’s why you should practice meditation …” "
-    },
-    {
-      "number": 23,
-      "pali": "Catutthaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Therefore, monks, your duty is the contemplation, ‘This is stress … This is the origination of stress … This is the cessation of stress.’ Your duty is the contemplation, ‘This is the path of practice leading to the cessation of stress.’”"
     }
   ]
 }

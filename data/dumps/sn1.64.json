@@ -3,58 +3,78 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 1.64 ",
-      "english": "Linked Discourses 1.64 "
+      "pali": "Linked Discourses 1.64",
+      "english": "Linked Discourses 1.64"
     },
     {
       "number": 2,
-      "pali": "7. Addhavagga ",
-      "english": "7. Overcome "
+      "pali": "Saññojana Sutta",
+      "english": "Fettered"
     },
     {
       "number": 3,
-      "pali": "Saṁyojanasutta ",
-      "english": "Fetter "
+      "pali": "",
+      "english": "“With what is the world fettered?"
     },
     {
       "number": 4,
-      "pali": "“Kiṁsu saṁyojano loko, ",
-      "english": "“What fetters the world? "
+      "pali": "",
+      "english": "What is its exploration?"
     },
     {
       "number": 5,
-      "pali": "kiṁsu tassa vicāraṇaṁ; ",
-      "english": "How does it travel about? "
+      "pali": "",
+      "english": "With the abandoning"
     },
     {
       "number": 6,
-      "pali": "Kissassu vippahānena, ",
-      "english": "With the giving up of what "
+      "pali": "",
+      "english": "of what"
     },
     {
       "number": 7,
-      "pali": "nibbānaṁ iti vuccatī”ti. ",
-      "english": "is extinguishment spoken of?” "
+      "pali": "",
+      "english": "is there said,"
     },
     {
       "number": 8,
-      "pali": "“Nandīsaṁyojano loko, ",
-      "english": "“Delight fetters the world. "
+      "pali": "",
+      "english": "‘unbinding’?”"
     },
     {
       "number": 9,
-      "pali": "vitakkassa vicāraṇaṁ; ",
-      "english": "It travels about by means of thought. "
+      "pali": "",
+      "english": "The Buddha:"
     },
     {
       "number": 10,
-      "pali": "Taṇhāya vippahānena, ",
-      "english": "With the giving up of craving "
+      "pali": "",
+      "english": "“Fettered with delight is the world."
     },
     {
       "number": 11,
-      "pali": "nibbānaṁ iti vuccatī”ti. ",
-      "english": "extinguishment is spoken of.” "
+      "pali": "",
+      "english": "Directed thought is its exploration."
+    },
+    {
+      "number": 12,
+      "pali": "",
+      "english": "With the abandoning"
+    },
+    {
+      "number": 13,
+      "pali": "",
+      "english": "of craving"
+    },
+    {
+      "number": 14,
+      "pali": "",
+      "english": "is there said,"
+    },
+    {
+      "number": 15,
+      "pali": "",
+      "english": "‘unbinding.’”"
     }
   ]
 }

@@ -3,88 +3,98 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 1.42 ",
-      "english": "Linked Discourses 1.42 "
+      "pali": "Linked Discourses 1.42",
+      "english": "Linked Discourses 1.42"
     },
     {
       "number": 2,
-      "pali": "5. Ādittavagga ",
-      "english": "5. On Fire "
+      "pali": "Kindada Sutta",
+      "english": "A Giver of What"
     },
     {
       "number": 3,
-      "pali": "Kiṁdadasutta ",
-      "english": "Giving What? "
+      "pali": "",
+      "english": "A deva:"
     },
     {
       "number": 4,
-      "pali": "“Kiṁdado balado hoti, ",
-      "english": "“Giving what do you give strength? "
+      "pali": "",
+      "english": "“A giver of what is a giver of strength?"
     },
     {
       "number": 5,
-      "pali": "kiṁdado hoti vaṇṇado; ",
-      "english": "Giving what do you give beauty? "
+      "pali": "",
+      "english": "A giver of what, a giver of beauty?"
     },
     {
       "number": 6,
-      "pali": "Kiṁdado sukhado hoti, ",
-      "english": "Giving what do you give happiness? "
+      "pali": "",
+      "english": "A giver of what, a giver of ease?"
     },
     {
       "number": 7,
-      "pali": "kiṁdado hoti cakkhudo; ",
-      "english": "Giving what do you give vision? "
+      "pali": "",
+      "english": "A giver of what, a giver of vision?"
     },
     {
       "number": 8,
-      "pali": "Ko ca sabbadado hoti, ",
-      "english": "And who is the giver of all? "
+      "pali": "",
+      "english": "And who is a giver of everything?"
     },
     {
       "number": 9,
-      "pali": "taṁ me akkhāhi pucchito”ti. ",
-      "english": "Please answer my question.” "
+      "pali": "",
+      "english": "Being asked, please explain this to me.”"
     },
     {
       "number": 10,
-      "pali": "“Annado balado hoti, ",
-      "english": "“Giving food you give strength. "
+      "pali": "",
+      "english": "The Buddha:"
     },
     {
       "number": 11,
-      "pali": "vatthado hoti vaṇṇado; ",
-      "english": "Giving clothes you give beauty. "
+      "pali": "",
+      "english": "“A giver of food is a giver of strength."
     },
     {
       "number": 12,
-      "pali": "Yānado sukhado hoti, ",
-      "english": "Giving a vehicle you give happiness. "
+      "pali": "",
+      "english": "A giver of clothes, a giver of beauty."
     },
     {
       "number": 13,
-      "pali": "dīpado hoti cakkhudo. ",
-      "english": "Giving a lamp you give vision. "
+      "pali": "",
+      "english": "A giver of a vehicle, a giver of ease."
     },
     {
       "number": 14,
-      "pali": "So ca sabbadado hoti, ",
-      "english": "And the giver of all "
+      "pali": "",
+      "english": "A giver of a lamp, a giver of vision."
     },
     {
       "number": 15,
-      "pali": "yo dadāti upassayaṁ; ",
-      "english": "is the one who gives monastic quarters. "
+      "pali": "",
+      "english": "And the one who gives a residence"
     },
     {
       "number": 16,
-      "pali": "Amataṁ dado ca so hoti, ",
-      "english": "But one who teaches the Dhamma "
+      "pali": "",
+      "english": "is the one who’s a giver of everything."
     },
     {
       "number": 17,
-      "pali": "yo dhammamanusāsatī”ti. ",
-      "english": "gives the gift of freedom from death.” "
+      "pali": "",
+      "english": "But the one who teaches the Dhamma"
+    },
+    {
+      "number": 18,
+      "pali": "",
+      "english": "is a giver of"
+    },
+    {
+      "number": 19,
+      "pali": "",
+      "english": "the Deathless.”"
     }
   ]
 }

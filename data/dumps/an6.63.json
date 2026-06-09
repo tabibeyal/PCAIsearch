@@ -3,713 +3,343 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 6.63 ",
-      "english": "Numbered Discourses 6.63 "
+      "pali": "Numerical Discourses 6.63",
+      "english": "Numerical Discourses 6.63"
     },
     {
       "number": 2,
-      "pali": "6. Mahāvagga ",
-      "english": "6. The Great Chapter "
+      "pali": "Nibbedhika Sutta",
+      "english": "Penetrative"
     },
     {
       "number": 3,
-      "pali": "Nibbedhikasutta ",
-      "english": "Penetrative "
+      "pali": "",
+      "english": "“Monks, I will teach you the penetrative explanation that is a Dhamma explanation. Listen & pay close attention. I will speak.”"
     },
     {
       "number": 4,
-      "pali": "“Nibbedhikapariyāyaṁ vo, bhikkhave, dhammapariyāyaṁ desessāmi. ",
-      "english": "“Mendicants, I will teach you a penetrative exposition of the teaching. "
+      "pali": "",
+      "english": "“As you say, lord,” the monks responded to the Blessed One."
     },
     {
       "number": 5,
-      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
-      "english": "Listen and apply your mind well, I will speak.” "
+      "pali": "",
+      "english": "The Blessed One said: “And which penetrative explanation is a Dhamma explanation?"
     },
     {
       "number": 6,
-      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Yes, sir,” they replied. "
+      "pali": "",
+      "english": "“Sensuality should be known. The cause by which sensuality comes into play should be known. The diversity in sensuality should be known. The result of sensuality should be known. The cessation of sensuality should be known. The path of practice for the cessation of sensuality should be known."
     },
     {
       "number": 7,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
+      "pali": "",
+      "english": "“Feeling should be known. The cause by which feeling comes into play should be known. The diversity in feeling should be known. The result of feeling should be known. The cessation of feeling should be known. The path of practice for the cessation of feeling should be known."
     },
     {
       "number": 8,
-      "pali": "“Katamo ca so, bhikkhave, nibbedhikapariyāyo dhammapariyāyo? ",
-      "english": "“Mendicants, what is the penetrative exposition of the teaching? "
+      "pali": "",
+      "english": "“Perception should be known. The cause by which perception comes into play should be known. The diversity in perception should be known. The result of perception should be known. The cessation of perception should be known. The path of practice for the cessation of perception should be known."
     },
     {
       "number": 9,
-      "pali": "Kāmā, bhikkhave, veditabbā, kāmānaṁ nidānasambhavo veditabbo, kāmānaṁ vemattatā veditabbā, kāmānaṁ vipāko veditabbo, kāmanirodho veditabbo, kāmanirodhagāminī paṭipadā veditabbā. ",
-      "english": "Sensual pleasures should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known. "
+      "pali": "",
+      "english": "“Effluents [āsava] should be known. The cause by which effluents come into play should be known. The diversity in effluents should be known. The result of effluents should be known. The cessation of effluents should be known. The path of practice for the cessation of effluents should be known"
     },
     {
       "number": 10,
-      "pali": "Vedanā, bhikkhave, veditabbā, vedanānaṁ nidānasambhavo veditabbo, vedanānaṁ vemattatā veditabbā, vedanānaṁ vipāko veditabbo, vedanānirodho veditabbo, vedanānirodhagāminī paṭipadā veditabbā. ",
-      "english": "Feelings should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known. "
+      "pali": "",
+      "english": "“Kamma should be known. The cause by which kamma comes into play should be known. The diversity in kamma should be known. The result of kamma should be known. The cessation of kamma should be known. The path of practice for the cessation of kamma should be known."
     },
     {
       "number": 11,
-      "pali": "Saññā, bhikkhave, veditabbā, saññānaṁ nidānasambhavo veditabbo, saññānaṁ vemattatā veditabbā, saññānaṁ vipāko veditabbo, saññānirodho veditabbo, saññānirodhagāminī paṭipadā veditabbā. ",
-      "english": "Perceptions should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known. "
+      "pali": "",
+      "english": "“Stress should be known. The cause by which stress comes into play should be known. The diversity in stress should be known. The result of stress should be known. The cessation of stress should be known. The path of practice for the cessation of stress should be known."
     },
     {
       "number": 12,
-      "pali": "Āsavā, bhikkhave, veditabbā, āsavānaṁ nidānasambhavo veditabbo, āsavānaṁ vemattatā veditabbā, āsavānaṁ vipāko veditabbo, āsavanirodho veditabbo, āsavanirodhagāminī paṭipadā veditabbā. ",
-      "english": "Defilements should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known. "
+      "pali": "",
+      "english": "[1] “‘Sensuality should be known. The cause by which sensuality comes into play… The diversity in sensuality… The result of sensuality… The cessation of sensuality… The path of practice for the cessation of sensuality should be known.’ Thus it has been said. In reference to what was it said?"
     },
     {
       "number": 13,
-      "pali": "Kammaṁ, bhikkhave, veditabbaṁ, kammānaṁ nidānasambhavo veditabbo, kammānaṁ vemattatā veditabbā, kammānaṁ vipāko veditabbo, kammanirodho veditabbo, kammanirodhagāminī paṭipadā veditabbā. ",
-      "english": "Deeds should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known. "
+      "pali": "",
+      "english": "“There are these five strings of sensuality: forms cognizable via the eye—agreeable, pleasing, charming, endearing, enticing, linked to sensual desire; sounds cognizable via the ear… aromas cognizable via the nose… flavors cognizable via the tongue… tactile sensations cognizable via the body—agreeable, pleasing, charming, endearing, enticing, linked to sensual desire. But these are not sensuality. They are called strings of sensuality in the discipline of the noble ones."
     },
     {
       "number": 14,
-      "pali": "Dukkhaṁ, bhikkhave, veditabbaṁ, dukkhassa nidānasambhavo veditabbo, dukkhassa vemattatā veditabbā, dukkhassa vipāko veditabbo, dukkhanirodho veditabbo, dukkhanirodhagāminī paṭipadā veditabbā. ",
-      "english": "Suffering should be known. And its source, diversity, result, cessation, and the practice that leads to its cessation should be known. "
+      "pali": "",
+      "english": "The passion for his resolves is a man’s sensuality,"
     },
     {
       "number": 15,
-      "pali": "‘Kāmā, bhikkhave, veditabbā, kāmānaṁ nidānasambhavo veditabbo, kāmānaṁ vemattatā veditabbā, kāmānaṁ vipāko veditabbo, kāmanirodho veditabbo, kāmanirodhagāminī paṭipadā veditabbā’ti, iti kho panetaṁ vuttaṁ. ",
-      "english": "‘Sensual pleasures should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known.’ That’s what I said, "
+      "pali": "",
+      "english": "not the beautiful sensual pleasures"
     },
     {
       "number": 16,
-      "pali": "Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "but why did I say it? "
+      "pali": "",
+      "english": "found in the world."
     },
     {
       "number": 17,
-      "pali": "Pañcime, bhikkhave, kāmaguṇā—",
-      "english": "There are these five kinds of sensual stimulation. "
+      "pali": "",
+      "english": "The passion for his resolves is a man’s sensuality."
     },
     {
       "number": 18,
-      "pali": "cakkhuviññeyyā rūpā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā, ",
-      "english": "Sights known by the eye, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+      "pali": "",
+      "english": "The beauties remain as they are in the world,"
     },
     {
       "number": 19,
-      "pali": "sotaviññeyyā saddā … ",
-      "english": "Sounds known by the ear … "
+      "pali": "",
+      "english": "while, in this regard,"
     },
     {
       "number": 20,
-      "pali": "ghānaviññeyyā gandhā … ",
-      "english": "Smells known by the nose … "
+      "pali": "",
+      "english": "the enlightened"
     },
     {
       "number": 21,
-      "pali": "jivhāviññeyyā rasā … ",
-      "english": "Tastes known by the tongue … "
+      "pali": "",
+      "english": "subdue their desire."
     },
     {
       "number": 22,
-      "pali": "kāyaviññeyyā phoṭṭhabbā iṭṭhā kantā manāpā piyarūpā kāmūpasaṁhitā rajanīyā. ",
-      "english": "Touches known by the body, which are likable, desirable, agreeable, pleasant, sensual, and arousing. "
+      "pali": "",
+      "english": "“And what is the cause by which sensuality comes into play? Contact is the cause by which sensuality comes into play."
     },
     {
       "number": 23,
-      "pali": "Api ca kho, bhikkhave, nete kāmā kāmaguṇā nāmete ariyassa vinaye vuccanti—",
-      "english": "However, these are not sensual pleasures. In the training of the Noble One they’re called ‘kinds of sensual stimulation’. "
+      "pali": "",
+      "english": "“And what is the diversity in sensuality? Sensuality with regard to forms is one thing, sensuality with regard to sounds is another, sensuality with regard to aromas is another, sensuality with regard to flavors is another, sensuality with regard to tactile sensations is another. This is called the diversity in sensuality."
     },
     {
       "number": 24,
-      "pali": "Saṅkapparāgo purisassa kāmo, ",
-      "english": "Greedy intention is a person’s sensual pleasure. "
+      "pali": "",
+      "english": "“And what is the result of sensuality? One who wants sensuality produces a corresponding state of existence, on the side of merit or demerit. This is called the result of sensuality."
     },
     {
       "number": 25,
-      "pali": "Nete kāmā yāni citrāni loke; ",
-      "english": "The world’s pretty things aren’t sensual pleasures. "
+      "pali": "",
+      "english": "“And what is the cessation of sensuality? From the cessation of contact is the cessation of sensuality; and just this noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration—is the way leading to the cessation of sensuality."
     },
     {
       "number": 26,
-      "pali": "Saṅkapparāgo purisassa kāmo, ",
-      "english": "Greedy intention is a person’s sensual pleasure. "
+      "pali": "",
+      "english": "“Now when a disciple of the noble ones discerns sensuality in this way, the cause by which sensuality comes into play in this way, the diversity in sensuality in this way, the result of sensuality in this way, the cessation of sensuality in this way, & the path of practice leading to the cessation of sensuality in this way, then he discerns this penetrative holy life as the cessation of sensuality."
     },
     {
       "number": 27,
-      "pali": "Tiṭṭhanti citrāni tatheva loke; ",
-      "english": "The world’s pretty things stay just as they are, "
+      "pali": "",
+      "english": "“‘Sensuality should be known. The cause by which sensuality comes into play… The diversity in sensuality… The result of sensuality… The cessation of sensuality… The path of practice for the cessation of sensuality should be known.’ Thus it has been said, and in reference to this was it said."
     },
     {
       "number": 28,
-      "pali": "Athettha dhīrā vinayanti chandanti. ",
-      "english": "but the attentive remove desire for them. "
+      "pali": "",
+      "english": "[2] “‘Feeling should be known. The cause by which feeling comes into play… The diversity in feeling… The result of feeling… The cessation of feeling… The path of practice for the cessation of feeling should be known.’ Thus it has been said. In reference to what was it said?"
     },
     {
       "number": 29,
-      "pali": "Katamo ca, bhikkhave, kāmānaṁ nidānasambhavo? ",
-      "english": "And what is the source of sensual pleasures? "
+      "pali": "",
+      "english": "“There are these three kinds of feeling: a feeling of pleasure, a feeling of pain, & feeling of neither pleasure nor pain."
     },
     {
       "number": 30,
-      "pali": "Phasso, bhikkhave, kāmānaṁ nidānasambhavo. ",
-      "english": "Contact is their source. "
+      "pali": "",
+      "english": "“And what is the cause by which feeling comes into play? Contact is the cause by which feeling comes into play."
     },
     {
       "number": 31,
-      "pali": "Katamā ca, bhikkhave, kāmānaṁ vemattatā? ",
-      "english": "And what is the diversity of sensual pleasures? "
+      "pali": "",
+      "english": "“And what is the diversity in feeling? There is the feeling of pleasure connected with the baits of the world. There is the feeling of pleasure not connected with the baits of the world. There is the feeling of pain connected with the baits of the world. There is the feeling of pain not connected with the baits of the world. There is the feeling of neither pleasure nor pain connected with the baits of the world. There is the feeling of neither pleasure nor pain not connected with the baits of the world. This is called the diversity in feeling."
     },
     {
       "number": 32,
-      "pali": "Añño, bhikkhave, kāmo rūpesu, añño kāmo saddesu, añño kāmo gandhesu, añño kāmo rasesu, añño kāmo phoṭṭhabbesu. ",
-      "english": "The sensual desire for sights, sounds, smells, tastes, and touches are all different. "
+      "pali": "",
+      "english": "“And what is the result of feeling? One who feels a feeling produces a corresponding state of existence, on the side of merit or demerit. This is called the result of feeling."
     },
     {
       "number": 33,
-      "pali": "Ayaṁ vuccati, bhikkhave, kāmānaṁ vemattatā. ",
-      "english": "This is called the diversity of sensual pleasures. "
+      "pali": "",
+      "english": "“And what is the cessation of feeling? From the cessation of contact is the cessation of feeling; and just this noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration—is the way leading to the cessation of feeling."
     },
     {
       "number": 34,
-      "pali": "Katamo ca, bhikkhave, kāmānaṁ vipāko? ",
-      "english": "And what is the result of sensual pleasures? "
+      "pali": "",
+      "english": "“Now when a disciple of the noble ones discerns feeling in this way, the cause by which feeling comes into play in this way, the diversity in feeling in this way, the result of feeling in this way, the cessation of feeling in this way, & the path of practice leading to the cessation of feeling in this way, then he discerns this penetrative holy life as the cessation of feeling."
     },
     {
       "number": 35,
-      "pali": "Yaṁ kho, bhikkhave, kāmayamāno tajjaṁ tajjaṁ attabhāvaṁ abhinibbatteti puññabhāgiyaṁ vā apuññabhāgiyaṁ vā, ayaṁ vuccati, bhikkhave, kāmānaṁ vipāko. ",
-      "english": "When one who desires sensual pleasures generates a corresponding incarnation, partaking of either good or bad deeds—this is called the result of sensual pleasures. "
+      "pali": "",
+      "english": "“‘Feeling should be known. The cause by which feeling comes into play… The diversity in feeling… The result of feeling… The cessation of feeling… The path of practice for the cessation of feeling should be known.’ Thus it has been said, and in reference to this was it said."
     },
     {
       "number": 36,
-      "pali": "Katamo ca, bhikkhave, kāmanirodho? ",
-      "english": "And what is the cessation of sensual pleasures? "
+      "pali": "",
+      "english": "[3] “‘Perception should be known. The cause by which perception comes into play… The diversity in perception… The result of perception… The cessation of perception… The path of practice for the cessation of perception should be known.’ Thus it has been said. In reference to what was it said?"
     },
     {
       "number": 37,
-      "pali": "Phassanirodho, bhikkhave, kāmanirodho. ",
-      "english": "When contact ceases, sensual pleasures cease. "
+      "pali": "",
+      "english": "“There are these six kinds of perception: the perception of form, the perception of sound, the perception of aroma, the perception of flavor, the perception of tactile sensation, the perception of ideas."
     },
     {
       "number": 38,
-      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo kāmanirodhagāminī paṭipadā, seyyathidaṁ—",
-      "english": "The practice that leads to the cessation of sensual pleasures is simply this noble eightfold path, that is: "
+      "pali": "",
+      "english": "“And what is the cause by which perception comes into play? Contact is the cause by which perception comes into play."
     },
     {
       "number": 39,
-      "pali": "sammādiṭṭhi, sammāsaṅkappo, sammāvācā, sammākammanto, sammāājīvo, sammāvāyāmo, sammāsati, sammāsamādhi. ",
-      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+      "pali": "",
+      "english": "“And what is the diversity in perception? Perception with regard to forms is one thing, perception with regard to sounds is another, perception with regard to aromas is another, perception with regard to flavors is another, perception with regard to tactile sensations is another, perception with regard to ideas is another. This is called the diversity in perception."
     },
     {
       "number": 40,
-      "pali": "Yato kho, bhikkhave, ariyasāvako evaṁ kāme pajānāti, evaṁ kāmānaṁ nidānasambhavaṁ pajānāti, evaṁ kāmānaṁ vemattataṁ pajānāti, evaṁ kāmānaṁ vipākaṁ pajānāti, evaṁ kāmanirodhaṁ pajānāti, evaṁ kāmanirodhagāminiṁ paṭipadaṁ pajānāti, so imaṁ nibbedhikaṁ brahmacariyaṁ pajānāti kāmanirodhaṁ. ",
-      "english": "When a noble disciple understands sensual pleasures in this way—and understands their source, diversity, result, cessation, and the practice that leads to their cessation—they understand that this penetrative spiritual life is the cessation of sensual pleasures. "
+      "pali": "",
+      "english": "“And what is the result of perception? Perception has expression as its result, I tell you. However a person perceives something, that is how he expresses it: ‘I have this sort of perception.’ This is called the result of perception."
     },
     {
       "number": 41,
-      "pali": "Kāmā, bhikkhave, veditabbā …pe… kāmanirodhagāminī paṭipadā veditabbāti, ",
-      "english": "‘Sensual pleasures should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known.’ "
+      "pali": "",
+      "english": "“And what is the cessation of perception? From the cessation of contact is the cessation of perception; and just this noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration—is the way leading to the cessation of perception."
     },
     {
       "number": 42,
-      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
+      "pali": "",
+      "english": "“Now when a disciple of the noble ones discerns perception in this way, the cause by which perception comes into play in this way, the diversity in perception in this way, the result of perception in this way, the cessation of perception in this way, & the path of practice leading to the cessation of perception in this way, then he discerns this penetrative holy life as the cessation of perception."
     },
     {
       "number": 43,
-      "pali": "Vedanā, bhikkhave, veditabbā …pe… vedanānirodhagāminī paṭipadā veditabbāti, ",
-      "english": "‘Feelings should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known.’ "
+      "pali": "",
+      "english": "“‘Perception should be known. The cause by which perception comes into play… The diversity in perception… The result of perception… The cessation of perception… The path of practice for the cessation of perception should be known.’ Thus it has been said, and in reference to this was it said."
     },
     {
       "number": 44,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
+      "pali": "",
+      "english": "[4] “‘Effluents should be known. The cause by which effluents come into play… The diversity in effluents… The result of effluents… The cessation of effluents… The path of practice for the cessation of effluents should be known.’ Thus it has been said. In reference to what was it said?"
     },
     {
       "number": 45,
-      "pali": "Tisso imā, bhikkhave, vedanā—",
-      "english": "There are these three feelings: "
+      "pali": "",
+      "english": "“There are these three kinds of effluents: the effluent of sensuality, the effluent of becoming, the effluent of ignorance."
     },
     {
       "number": 46,
-      "pali": "sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā. ",
-      "english": "pleasant, painful, and neutral. "
+      "pali": "",
+      "english": "“And what is the cause by which effluents come into play? Ignorance is the cause by which effluents come into play."
     },
     {
       "number": 47,
-      "pali": "Katamo ca, bhikkhave, vedanānaṁ nidānasambhavo? ",
-      "english": "And what is the source of feelings? "
+      "pali": "",
+      "english": "“And what is the diversity in effluents? There are effluents that lead to hell, those that lead to the animal womb, those that lead to the realm of the hungry ghosts, those that lead to the human world, those that lead to the world of the devas. This is called the diversity in effluents."
     },
     {
       "number": 48,
-      "pali": "Phasso, bhikkhave, vedanānaṁ nidānasambhavo. ",
-      "english": "Contact is their source. "
+      "pali": "",
+      "english": "“And what is the result of effluents? One who is immersed in ignorance produces a corresponding state of existence, on the side of merit or demerit. This is called the result of effluents."
     },
     {
       "number": 49,
-      "pali": "Katamā ca, bhikkhave, vedanānaṁ vemattatā? ",
-      "english": "And what is the diversity of feelings? "
+      "pali": "",
+      "english": "“And what is the cessation of effluents? From the cessation of ignorance is the cessation of effluents; and just this noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration—is the way leading to the cessation of effluents."
     },
     {
       "number": 50,
-      "pali": "Atthi, bhikkhave, sāmisā sukhā vedanā, atthi nirāmisā sukhā vedanā, atthi sāmisā dukkhā vedanā, atthi nirāmisā dukkhā vedanā, atthi sāmisā adukkhamasukhā vedanā, atthi nirāmisā adukkhamasukhā vedanā. ",
-      "english": "There are pleasant feelings of the flesh, pleasant feelings not of the flesh, painful feelings of the flesh, painful feelings not of the flesh, neutral feelings of the flesh, and neutral feelings not of the flesh. "
+      "pali": "",
+      "english": "“Now when a disciple of the noble ones discerns effluents in this way, the cause by which effluents come into play in this way, the diversity in effluents in this way, the result of effluents in this way, the cessation of effluents in this way, & the path of practice leading to the cessation of effluents in this way, then he discerns this penetrative holy life as the cessation of effluents."
     },
     {
       "number": 51,
-      "pali": "Ayaṁ vuccati, bhikkhave, vedanānaṁ vemattatā. ",
-      "english": "This is called the disparity of feelings. "
+      "pali": "",
+      "english": "“‘Effluents should be known. The cause by which effluents come into play… The diversity in effluents… The result of effluents… The cessation of effluents… The path of practice for the cessation of effluents should be known.’ Thus it has been said, and in reference to this was it said."
     },
     {
       "number": 52,
-      "pali": "Katamo ca, bhikkhave, vedanānaṁ vipāko? ",
-      "english": "And what is the result of feelings? "
+      "pali": "",
+      "english": "[5] “‘Kamma should be known. The cause by which kamma comes into play should be known. The diversity in kamma should be known. The result of kamma should be known. The cessation of kamma should be known. The path of practice for the cessation of kamma should be known.’ Thus it has been said. In reference to what was it said?"
     },
     {
       "number": 53,
-      "pali": "Yaṁ kho, bhikkhave, vediyamāno tajjaṁ tajjaṁ attabhāvaṁ abhinibbatteti puññabhāgiyaṁ vā apuññabhāgiyaṁ vā, ",
-      "english": "When one who feels generates a corresponding incarnation, partaking of either good or bad deeds—"
+      "pali": "",
+      "english": "“Intention, I tell you, is kamma. Intending, one does kamma by way of body, speech, & intellect."
     },
     {
       "number": 54,
-      "pali": "ayaṁ vuccati, bhikkhave, vedanānaṁ vipāko. ",
-      "english": "this is called the result of feelings. "
+      "pali": "",
+      "english": "“And what is the cause by which kamma comes into play? Contact is the cause by which kamma comes into play."
     },
     {
       "number": 55,
-      "pali": "Katamo ca, bhikkhave, vedanānirodho? ",
-      "english": "And what is the cessation of feelings? "
+      "pali": "",
+      "english": "“And what is the diversity in kamma? There is kamma to be experienced in hell, kamma to be experienced in the realm of common animals, kamma to be experienced in the realm of the hungry ghosts, kamma to be experienced in the human world, kamma to be experienced in the world of the devas. This is called the diversity in kamma."
     },
     {
       "number": 56,
-      "pali": "Phassanirodho, bhikkhave, vedanānirodho. ",
-      "english": "When contact ceases, feelings cease. "
+      "pali": "",
+      "english": "“And what is the result of kamma? The result of kamma is of three sorts, I tell you: that which arises right here & now, that which arises later (in this lifetime), and that which arises following that. This is called the result of kamma."
     },
     {
       "number": 57,
-      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo vedanānirodhagāminī paṭipadā, seyyathidaṁ—",
-      "english": "The practice that leads to the cessation of feelings is simply this noble eightfold path, that is: "
+      "pali": "",
+      "english": "“And what is the cessation of kamma? From the cessation of contact is the cessation of kamma; and just this noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration—is the way leading to the cessation of kamma."
     },
     {
       "number": 58,
-      "pali": "sammādiṭṭhi …pe… sammāsamādhi. ",
-      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+      "pali": "",
+      "english": "“Now when a disciple of the noble ones discerns kamma in this way, the cause by which kamma comes into play in this way, the diversity in kamma in this way, the result of kamma in this way, the cessation of kamma in this way, & the path of practice leading to the cessation of kamma in this way, then he discerns this penetrative holy life as the cessation of kamma."
     },
     {
       "number": 59,
-      "pali": "Yato kho, bhikkhave, ariyasāvako evaṁ vedanaṁ pajānāti, evaṁ vedanānaṁ nidānasambhavaṁ pajānāti, evaṁ vedanānaṁ vemattataṁ pajānāti, evaṁ vedanānaṁ vipākaṁ pajānāti, evaṁ vedanānirodhaṁ pajānāti, evaṁ vedanānirodhagāminiṁ paṭipadaṁ pajānāti. So imaṁ nibbedhikaṁ brahmacariyaṁ pajānāti vedanānirodhaṁ. ",
-      "english": "When a noble disciple understands feelings in this way … they understand that this penetrative spiritual life is the cessation of feelings. "
+      "pali": "",
+      "english": "“‘Kamma should be known. The cause by which kamma comes into play… The diversity in kamma… The result of kamma… The cessation of kamma… The path of practice for the cessation of kamma should be known.’ Thus it has been said, and in reference to this was it said."
     },
     {
       "number": 60,
-      "pali": "Vedanā, bhikkhave, veditabbā …pe… vedanānirodhagāminī paṭipadā veditabbāti, ",
-      "english": "‘Feelings should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known.’ "
+      "pali": "",
+      "english": "[6] “‘Stress should be known. The cause by which stress comes into play should be known. The diversity in stress should be known. The result of stress should be known. The cessation of stress should be known. The path of practice for the cessation of stress should be known.’ Thus it has been said. In reference to what was it said?"
     },
     {
       "number": 61,
-      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
+      "pali": "",
+      "english": "“Birth is stress, aging is stress, death is stress; sorrow, lamentation, pain, distress, & despair are stress; association with what is not loved is stress, separation from what is loved is stress, not getting what is wanted is stress. In short, the five clinging-aggregates are stress."
     },
     {
       "number": 62,
-      "pali": "Saññā, bhikkhave, veditabbā …pe… saññānirodhagāminī paṭipadā veditabbāti, ",
-      "english": "‘Perceptions should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known.’ "
+      "pali": "",
+      "english": "“And what is the cause by which stress comes into play? Craving is the cause by which stress comes into play."
     },
     {
       "number": 63,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
+      "pali": "",
+      "english": "“And what is the diversity in stress? There is major stress & minor, slowly fading & quickly fading. This is called the diversity in stress."
     },
     {
       "number": 64,
-      "pali": "Chayimā, bhikkhave, saññā—",
-      "english": "There are these six perceptions: "
+      "pali": "",
+      "english": "“And what is the result of stress? There are some cases in which a person overcome with pain, his mind exhausted, grieves, mourns, laments, beats his breast, & becomes bewildered. Or one overcome with pain, his mind exhausted, comes to search outside, ‘Who knows a way or two to the cessation of this pain?’ I tell you, monks, that stress results either in bewilderment or in search. This is called the result of stress."
     },
     {
       "number": 65,
-      "pali": "rūpasaññā, saddasaññā, gandhasaññā, rasasaññā, phoṭṭhabbasaññā, dhammasaññā. ",
-      "english": "perceptions of sights, sounds, smells, tastes, touches, and ideas. "
+      "pali": "",
+      "english": "“And what is the cessation of stress? From the cessation of craving is the cessation of stress; and just this noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration—is the path of practice leading to the cessation of stress."
     },
     {
       "number": 66,
-      "pali": "Katamo ca, bhikkhave, saññānaṁ nidānasambhavo? ",
-      "english": "And what is the source of perceptions? "
+      "pali": "",
+      "english": "“Now when a disciple of the noble ones discerns stress in this way, the cause by which stress comes into play in this way, the diversity in stress in this way, the result of stress in this way, the cessation of stress in this way, & the path of practice leading to the cessation of stress in this way, then he discerns this penetrative holy life as the cessation of stress."
     },
     {
       "number": 67,
-      "pali": "Phasso, bhikkhave, saññānaṁ nidānasambhavo. ",
-      "english": "Contact is their source. "
+      "pali": "",
+      "english": "“‘Stress should be known. The cause by which stress comes into play… The diversity in stress… The result of stress… The cessation of stress… The path of practice for the cessation of stress should be known.’ Thus it has been said, and in reference to this was it said."
     },
     {
       "number": 68,
-      "pali": "Katamā ca, bhikkhave, saññānaṁ vemattatā? ",
-      "english": "And what is the diversity of perceptions? "
-    },
-    {
-      "number": 69,
-      "pali": "Aññā, bhikkhave, saññā rūpesu, aññā saññā saddesu, aññā saññā gandhesu, aññā saññā rasesu, aññā saññā phoṭṭhabbesu, aññā saññā dhammesu. ",
-      "english": "The perceptions of sights, sounds, smells, tastes, touches, and ideas are all different. "
-    },
-    {
-      "number": 70,
-      "pali": "Ayaṁ vuccati, bhikkhave, saññānaṁ vemattatā. ",
-      "english": "This is called the diversity of perceptions. "
-    },
-    {
-      "number": 71,
-      "pali": "Katamo ca, bhikkhave, saññānaṁ vipāko? ",
-      "english": "And what is the result of perceptions? "
-    },
-    {
-      "number": 72,
-      "pali": "Vohāravepakkaṁ, bhikkhave, saññaṁ vadāmi. ",
-      "english": "Communication is the result of perception, I say. "
-    },
-    {
-      "number": 73,
-      "pali": "Yathā yathā naṁ sañjānāti tathā tathā voharati, evaṁ saññī ahosinti. ",
-      "english": "You communicate something in whatever manner you perceive it, saying ‘That’s what I perceived.’ "
-    },
-    {
-      "number": 74,
-      "pali": "Ayaṁ vuccati, bhikkhave, saññānaṁ vipāko. ",
-      "english": "This is called the result of perceptions. "
-    },
-    {
-      "number": 75,
-      "pali": "Katamo ca, bhikkhave, saññānirodho? ",
-      "english": "And what is the cessation of perception? "
-    },
-    {
-      "number": 76,
-      "pali": "Phassanirodho, bhikkhave, saññānirodho. ",
-      "english": "When contact ceases, perception ceases. "
-    },
-    {
-      "number": 77,
-      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo saññānirodhagāminī paṭipadā, seyyathidaṁ—",
-      "english": "The practice that leads to the cessation of perceptions is simply this noble eightfold path, that is: "
-    },
-    {
-      "number": 78,
-      "pali": "sammādiṭṭhi …pe… sammāsamādhi. ",
-      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
-    },
-    {
-      "number": 79,
-      "pali": "Yato kho, bhikkhave, ariyasāvako evaṁ saññaṁ pajānāti, evaṁ saññānaṁ nidānasambhavaṁ pajānāti, evaṁ saññānaṁ vemattataṁ pajānāti, evaṁ saññānaṁ vipākaṁ pajānāti, evaṁ saññānirodhaṁ pajānāti, evaṁ saññānirodhagāminiṁ paṭipadaṁ pajānāti, so imaṁ nibbedhikaṁ brahmacariyaṁ pajānāti saññānirodhaṁ. ",
-      "english": "When a noble disciple understands perception in this way … they understand that this penetrative spiritual life is the cessation of perception. "
-    },
-    {
-      "number": 80,
-      "pali": "Saññā, bhikkhave, veditabbā …pe… saññānirodhagāminī paṭipadā veditabbāti. ",
-      "english": "‘Perceptions should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known.’ "
-    },
-    {
-      "number": 81,
-      "pali": "Iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
-    },
-    {
-      "number": 82,
-      "pali": "Āsavā, bhikkhave, veditabbā …pe… āsavanirodhagāminī paṭipadā veditabbāti, ",
-      "english": "‘Defilements should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known.’ "
-    },
-    {
-      "number": 83,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
-    },
-    {
-      "number": 84,
-      "pali": "Tayome, bhikkhave, āsavā—",
-      "english": "There are these three defilements: "
-    },
-    {
-      "number": 85,
-      "pali": "kāmāsavo, bhavāsavo, avijjāsavo. ",
-      "english": "the defilements of sensuality, desire to be reborn, and ignorance. "
-    },
-    {
-      "number": 86,
-      "pali": "Katamo ca, bhikkhave, āsavānaṁ nidānasambhavo? ",
-      "english": "And what is the source of defilements? "
-    },
-    {
-      "number": 87,
-      "pali": "Avijjā, bhikkhave, āsavānaṁ nidānasambhavo. ",
-      "english": "Ignorance is the source of defilements. "
-    },
-    {
-      "number": 88,
-      "pali": "Katamā ca, bhikkhave, āsavānaṁ vemattatā? ",
-      "english": "And what is the disparity of defilements? "
-    },
-    {
-      "number": 89,
-      "pali": "Atthi, bhikkhave, āsavā nirayagamanīyā, atthi āsavā tiracchānayonigamanīyā, atthi āsavā pettivisayagamanīyā, atthi āsavā manussalokagamanīyā, atthi āsavā devalokagamanīyā. ",
-      "english": "There are defilements that lead to rebirth in hell, the animal realm, the ghost realm, the human world, and the world of the gods. "
-    },
-    {
-      "number": 90,
-      "pali": "Ayaṁ vuccati, bhikkhave, āsavānaṁ vemattatā. ",
-      "english": "This is called the disparity of defilements. "
-    },
-    {
-      "number": 91,
-      "pali": "Katamo ca, bhikkhave, āsavānaṁ vipāko? ",
-      "english": "And what is the result of defilements? "
-    },
-    {
-      "number": 92,
-      "pali": "Yaṁ kho, bhikkhave, avijjāgato tajjaṁ tajjaṁ attabhāvaṁ abhinibbatteti puññabhāgiyaṁ vā apuññabhāgiyaṁ vā, ayaṁ vuccati, bhikkhave, āsavānaṁ vipāko. ",
-      "english": "When one who is ignorant generates a corresponding incarnation, partaking of either good or bad deeds—this is called the result of defilements. "
-    },
-    {
-      "number": 93,
-      "pali": "Katamo ca, bhikkhave, āsavanirodho? ",
-      "english": "And what is the cessation of defilements? "
-    },
-    {
-      "number": 94,
-      "pali": "Avijjānirodho, bhikkhave, āsavanirodho. ",
-      "english": "When ignorance ceases, defilements cease. "
-    },
-    {
-      "number": 95,
-      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo āsavanirodhagāminī paṭipadā, seyyathidaṁ—",
-      "english": "The practice that leads to the cessation of defilements is simply this noble eightfold path, that is: "
-    },
-    {
-      "number": 96,
-      "pali": "sammādiṭṭhi …pe… sammāsamādhi. ",
-      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
-    },
-    {
-      "number": 97,
-      "pali": "Yato kho, bhikkhave, ariyasāvako evaṁ āsave pajānāti, evaṁ āsavānaṁ nidānasambhavaṁ pajānāti, evaṁ āsavānaṁ vemattataṁ pajānāti, evaṁ āsavānaṁ vipākaṁ pajānāti, evaṁ āsavānaṁ nirodhaṁ pajānāti, evaṁ āsavānaṁ nirodhagāminiṁ paṭipadaṁ pajānāti, so imaṁ nibbedhikaṁ brahmacariyaṁ pajānāti āsavanirodhaṁ. ",
-      "english": "When a noble disciple understands defilements in this way … they understand that this penetrative spiritual life is the cessation of defilements. "
-    },
-    {
-      "number": 98,
-      "pali": "Āsavā, bhikkhave, veditabbā …pe… āsavanirodhagāminī paṭipadā veditabbāti. ",
-      "english": "‘Defilements should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known.’ "
-    },
-    {
-      "number": 99,
-      "pali": "Iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
-    },
-    {
-      "number": 100,
-      "pali": "Kammaṁ, bhikkhave, veditabbaṁ …pe… kammanirodhagāminī paṭipadā veditabbāti, iti kho panetaṁ vuttaṁ. ",
-      "english": "‘Deeds should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known.’ That’s what I said, "
-    },
-    {
-      "number": 101,
-      "pali": "Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "but why did I say it? "
-    },
-    {
-      "number": 102,
-      "pali": "Cetanāhaṁ, bhikkhave, kammaṁ vadāmi. ",
-      "english": "It is intention that I call deeds. "
-    },
-    {
-      "number": 103,
-      "pali": "Cetayitvā kammaṁ karoti—",
-      "english": "For after making a choice one acts "
-    },
-    {
-      "number": 104,
-      "pali": "kāyena vācāya manasā. ",
-      "english": "by way of body, speech, and mind. "
-    },
-    {
-      "number": 105,
-      "pali": "Katamo ca, bhikkhave, kammānaṁ nidānasambhavo? ",
-      "english": "And what is the source of deeds? "
-    },
-    {
-      "number": 106,
-      "pali": "Phasso, bhikkhave, kammānaṁ nidānasambhavo. ",
-      "english": "Contact is their source. "
-    },
-    {
-      "number": 107,
-      "pali": "Katamā ca, bhikkhave, kammānaṁ vemattatā? ",
-      "english": "And what is the disparity of deeds? "
-    },
-    {
-      "number": 108,
-      "pali": "Atthi, bhikkhave, kammaṁ nirayavedanīyaṁ, atthi kammaṁ tiracchānayonivedanīyaṁ, atthi kammaṁ pettivisayavedanīyaṁ, atthi kammaṁ manussalokavedanīyaṁ, atthi kammaṁ devalokavedanīyaṁ. ",
-      "english": "There are deeds that lead to rebirth in hell, the animal realm, the ghost realm, the human world, and the world of the gods. "
-    },
-    {
-      "number": 109,
-      "pali": "Ayaṁ vuccati, bhikkhave, kammānaṁ vemattatā. ",
-      "english": "This is called the disparity of deeds. "
-    },
-    {
-      "number": 110,
-      "pali": "Katamo ca, bhikkhave, kammānaṁ vipāko? ",
-      "english": "And what is the result of deeds? "
-    },
-    {
-      "number": 111,
-      "pali": "Tividhāhaṁ, bhikkhave, kammānaṁ vipākaṁ vadāmi—",
-      "english": "The result of deeds is threefold, I say: "
-    },
-    {
-      "number": 112,
-      "pali": "diṭṭheva dhamme, upapajje vā, apare vā pariyāye. ",
-      "english": "in this very life, on rebirth in the next life, or at some later time. "
-    },
-    {
-      "number": 113,
-      "pali": "Ayaṁ vuccati, bhikkhave, kammānaṁ vipāko. ",
-      "english": "This is called the result of deeds. "
-    },
-    {
-      "number": 114,
-      "pali": "Katamo ca, bhikkhave, kammanirodho? ",
-      "english": "And what is the cessation of deeds? "
-    },
-    {
-      "number": 115,
-      "pali": "Phassanirodho, bhikkhave, kammanirodho. ",
-      "english": "When contact ceases, deeds cease. "
-    },
-    {
-      "number": 116,
-      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo kammanirodhagāminī paṭipadā, seyyathidaṁ—",
-      "english": "The practice that leads to the cessation of deeds is simply this noble eightfold path, that is: "
-    },
-    {
-      "number": 117,
-      "pali": "sammādiṭṭhi …pe… sammāsamādhi. ",
-      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
-    },
-    {
-      "number": 118,
-      "pali": "Yato kho, bhikkhave, ariyasāvako evaṁ kammaṁ pajānāti, evaṁ kammānaṁ nidānasambhavaṁ pajānāti, evaṁ kammānaṁ vemattataṁ pajānāti, evaṁ kammānaṁ vipākaṁ pajānāti, evaṁ kammanirodhaṁ pajānāti, evaṁ kammanirodhagāminiṁ paṭipadaṁ pajānāti, so imaṁ nibbedhikaṁ brahmacariyaṁ pajānāti kammanirodhaṁ. ",
-      "english": "When a noble disciple understands deeds in this way … they understand that this penetrative spiritual life is the cessation of deeds. "
-    },
-    {
-      "number": 119,
-      "pali": "Kammaṁ, bhikkhave, veditabbaṁ …pe… kammanirodhagāminī paṭipadā veditabbāti, ",
-      "english": "‘Deeds should be known. And their source, diversity, result, cessation, and the practice that leads to their cessation should be known.’ "
-    },
-    {
-      "number": 120,
-      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
-    },
-    {
-      "number": 121,
-      "pali": "Dukkhaṁ, bhikkhave, veditabbaṁ, dukkhassa nidānasambhavo veditabbo, dukkhassa vemattatā veditabbā, dukkhassa vipāko veditabbo, dukkhanirodho veditabbo, dukkhanirodhagāminī paṭipadā veditabbāti. ",
-      "english": "‘Suffering should be known. And its source, disparity, result, cessation, and the practice that leads to its cessation should be known.’ "
-    },
-    {
-      "number": 122,
-      "pali": "Iti kho panetaṁ vuttaṁ, kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
-    },
-    {
-      "number": 123,
-      "pali": "Jātipi dukkhā, jarāpi dukkhā, byādhipi dukkho, maraṇampi dukkhaṁ, sokaparidevadukkhadomanassupāyāsāpi dukkhā, yampicchaṁ na labhati tampi dukkhaṁ, saṅkhittena pañcupādānakkhandhā dukkhā. ",
-      "english": "Rebirth is suffering; old age is suffering; illness is suffering; death is suffering; sorrow, lamentation, pain, sadness, and distress are suffering; not getting what you wish for is suffering. In brief, the five grasping aggregates are suffering. "
-    },
-    {
-      "number": 124,
-      "pali": "Katamo ca, bhikkhave, dukkhassa nidānasambhavo? ",
-      "english": "And what is the source of suffering? "
-    },
-    {
-      "number": 125,
-      "pali": "Taṇhā, bhikkhave, dukkhassa nidānasambhavo. ",
-      "english": "Craving is the source of suffering. "
-    },
-    {
-      "number": 126,
-      "pali": "Katamā ca, bhikkhave, dukkhassa vemattatā? ",
-      "english": "And what is the disparity of suffering? "
-    },
-    {
-      "number": 127,
-      "pali": "Atthi, bhikkhave, dukkhaṁ adhimattaṁ, atthi parittaṁ, atthi dandhavirāgi, atthi khippavirāgi. ",
-      "english": "There is suffering that is severe, mild, slow to fade, and quick to fade. "
-    },
-    {
-      "number": 128,
-      "pali": "Ayaṁ vuccati, bhikkhave, dukkhassa vemattatā. ",
-      "english": "This is called the disparity of suffering. "
-    },
-    {
-      "number": 129,
-      "pali": "Katamo ca, bhikkhave, dukkhassa vipāko? ",
-      "english": "And what is the result of suffering? "
-    },
-    {
-      "number": 130,
-      "pali": "Idha, bhikkhave, ekacco yena dukkhena abhibhūto pariyādinnacitto socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati, yena vā pana dukkhena abhibhūto pariyādinnacitto bahiddhā pariyeṭṭhiṁ āpajjati: ",
-      "english": "It’s when someone who is overcome and overwhelmed by suffering sorrows and wails and laments, beating their breast and falling into confusion. Or else, overcome by that suffering, they begin an external search, wondering: "
-    },
-    {
-      "number": 131,
-      "pali": "‘ko ekapadaṁ dvipadaṁ jānāti imassa dukkhassa nirodhāyā’ti? ",
-      "english": "‘Who knows one or two phrases to stop this suffering?’ "
-    },
-    {
-      "number": 132,
-      "pali": "Sammohavepakkaṁ vāhaṁ, bhikkhave, dukkhaṁ vadāmi pariyeṭṭhivepakkaṁ vā. ",
-      "english": "The result of suffering is either confusion or a search, I say. "
-    },
-    {
-      "number": 133,
-      "pali": "Ayaṁ vuccati, bhikkhave, dukkhassa vipāko. ",
-      "english": "This is called the result of suffering. "
-    },
-    {
-      "number": 134,
-      "pali": "Katamo ca, bhikkhave, dukkhanirodho? ",
-      "english": "And what is the cessation of suffering? "
-    },
-    {
-      "number": 135,
-      "pali": "Taṇhānirodho, bhikkhave, dukkhanirodho. ",
-      "english": "When craving ceases, suffering ceases. "
-    },
-    {
-      "number": 136,
-      "pali": "Ayameva ariyo aṭṭhaṅgiko maggo dukkhassa nirodhagāminī paṭipadā, seyyathidaṁ—",
-      "english": "The practice that leads to the cessation of suffering is simply this noble eightfold path, that is: "
-    },
-    {
-      "number": 137,
-      "pali": "sammādiṭṭhi …pe… sammāsamādhi. ",
-      "english": "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
-    },
-    {
-      "number": 138,
-      "pali": "Yato kho, bhikkhave, ariyasāvako evaṁ dukkhaṁ pajānāti, evaṁ dukkhassa nidānasambhavaṁ pajānāti, evaṁ dukkhassa vemattataṁ pajānāti, evaṁ dukkhassa vipākaṁ pajānāti, evaṁ dukkhanirodhaṁ pajānāti, evaṁ dukkhanirodhagāminiṁ paṭipadaṁ pajānāti, so imaṁ nibbedhikaṁ brahmacariyaṁ pajānāti dukkhanirodhaṁ. ",
-      "english": "When a noble disciple understands suffering in this way … they understand that this penetrative spiritual life is the cessation of suffering. "
-    },
-    {
-      "number": 139,
-      "pali": "Dukkhaṁ, bhikkhave, veditabbaṁ, dukkhassa nidānasambhavo veditabbo, dukkhassa vemattatā veditabbā, dukkhassa vipāko veditabbo, dukkhanirodho veditabbo, dukkhanirodhagāminī paṭipadā veditabbāti. ",
-      "english": "‘Suffering should be known. And its source, diversity, result, cessation, and the practice that leads to its cessation should be known.’ "
-    },
-    {
-      "number": 140,
-      "pali": "Iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
-    },
-    {
-      "number": 141,
-      "pali": "Ayaṁ kho so, bhikkhave, nibbedhikapariyāyo dhammapariyāyo”ti. ",
-      "english": "This is the penetrative exposition of the teaching.” "
-    },
-    {
-      "number": 142,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“And this is the penetrative explanation that is a Dhamma explanation.”"
     }
   ]
 }

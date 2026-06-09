@@ -3,118 +3,38 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 56.32 ",
-      "english": "Linked Discourses 56.32 "
+      "pali": "Linked Discourses 56.32",
+      "english": "Linked Discourses 56.32"
     },
     {
       "number": 2,
-      "pali": "4. Sīsapāvanavagga ",
-      "english": "4. In a Rosewood Forest "
+      "pali": "Khadira Sutta",
+      "english": "Acacia"
     },
     {
       "number": 3,
-      "pali": "Khadirapattasutta ",
-      "english": "Acacia Leaves "
+      "pali": "",
+      "english": "“Monks, if anyone were to say, ‘Without having broken through to the noble truth of stress as it has come to be, without having broken through to the noble truth of the origination of stress… the cessation of stress… the path of practice leading to the cessation of stress, as it has come to be, I will bring about the right ending of stress,’ that would be an impossibility."
     },
     {
       "number": 4,
-      "pali": "“Yo, bhikkhave, evaṁ vadeyya: ",
-      "english": "“Mendicants, suppose someone were to say: "
+      "pali": "",
+      "english": "“Just as if anyone were to say, ‘Having made a basket of acacia leaves or pine needles or myrobalan leaves, I will carry water or a palm fruit,’ that would be an impossibility; in the same way, if anyone were to say, ‘Without having broken through to the noble truth of stress as it has come to be, without having broken through to the noble truth of the origination of stress… the cessation of stress… the path of practice leading to the cessation of stress, as it has come to be, I will bring about the right ending of stress,’ that would be an impossibility."
     },
     {
       "number": 5,
-      "pali": "‘ahaṁ dukkhaṁ ariyasaccaṁ yathābhūtaṁ anabhisamecca, dukkhasamudayaṁ ariyasaccaṁ yathābhūtaṁ anabhisamecca, dukkhanirodhaṁ ariyasaccaṁ yathābhūtaṁ anabhisamecca, dukkhanirodhagāminiṁ paṭipadaṁ ariyasaccaṁ yathābhūtaṁ anabhisamecca sammā dukkhassantaṁ karissāmī’ti—",
-      "english": "‘Without truly comprehending the noble truths of suffering, its origin, its cessation, and the path, I will completely make an end of suffering.’ "
+      "pali": "",
+      "english": "“But, monks, if anyone were to say, ‘Having broken through to the noble truth of stress as it has come to be, having broken through to the noble truth of the origination of stress… the cessation of stress… the path of practice leading to the cessation of stress, as it has come to be, I will bring about the right ending of stress,’ that would be a possibility."
     },
     {
       "number": 6,
-      "pali": "netaṁ ṭhānaṁ vijjati. ",
-      "english": "That is not possible. "
+      "pali": "",
+      "english": "“Just as if anyone were to say, ‘Having made a basket of lotus leaves or kino leaves or māluva leaves, I will carry water or a palm fruit,’ that would be a possibility; in the same way, if anyone were to say, ‘Having broken through to the noble truth of stress as it has come to be, having broken through to the noble truth of the origination of stress… the cessation of stress… the path of practice leading to the cessation of stress, as it has come to be, I will bring about the right ending of stress,’ that would be a possibility."
     },
     {
       "number": 7,
-      "pali": "Seyyathāpi, bhikkhave, yo evaṁ vadeyya: ",
-      "english": "It’s as if someone were to say: "
-    },
-    {
-      "number": 8,
-      "pali": "‘ahaṁ khadirapattānaṁ vā saralapattānaṁ vā āmalakapattānaṁ vā puṭaṁ karitvā udakaṁ vā tālapattaṁ vā āharissāmī’ti—",
-      "english": "‘I’ll make a basket out of acacia leaves or pine needles or myrobalan leaves, and use it to carry water or ripe palmyra fruit.’ "
-    },
-    {
-      "number": 9,
-      "pali": "netaṁ ṭhānaṁ vijjati; ",
-      "english": "That is not possible. "
-    },
-    {
-      "number": 10,
-      "pali": "evameva kho, bhikkhave, yo evaṁ vadeyya: ",
-      "english": "In the same way, suppose someone were to say: "
-    },
-    {
-      "number": 11,
-      "pali": "‘ahaṁ dukkhaṁ ariyasaccaṁ yathābhūtaṁ anabhisamecca …pe… dukkhanirodhagāminiṁ paṭipadaṁ ariyasaccaṁ yathābhūtaṁ anabhisamecca sammā dukkhassantaṁ karissāmī’ti—",
-      "english": "‘Without truly comprehending the noble truths of suffering, its origin, its cessation, and the path, I will completely make an end of suffering.’ "
-    },
-    {
-      "number": 12,
-      "pali": "netaṁ ṭhānaṁ vijjati. ",
-      "english": "That is not possible. "
-    },
-    {
-      "number": 13,
-      "pali": "Yo ca kho, bhikkhave, evaṁ vadeyya: ",
-      "english": "But suppose someone were to say: "
-    },
-    {
-      "number": 14,
-      "pali": "‘ahaṁ dukkhaṁ ariyasaccaṁ yathābhūtaṁ abhisamecca, dukkhasamudayaṁ ariyasaccaṁ yathābhūtaṁ abhisamecca, dukkhanirodhaṁ ariyasaccaṁ yathābhūtaṁ abhisamecca, dukkhanirodhagāminiṁ paṭipadaṁ ariyasaccaṁ yathābhūtaṁ abhisamecca sammā dukkhassantaṁ karissāmī’ti—",
-      "english": "‘After truly comprehending the noble truths of suffering, its origin, its cessation, and the path, I will completely make an end of suffering.’ "
-    },
-    {
-      "number": 15,
-      "pali": "ṭhānametaṁ vijjati. ",
-      "english": "That is possible. "
-    },
-    {
-      "number": 16,
-      "pali": "Seyyathāpi, bhikkhave, yo evaṁ vadeyya: ",
-      "english": "It’s as if someone were to say: "
-    },
-    {
-      "number": 17,
-      "pali": "‘ahaṁ padumapattānaṁ vā palāsapattānaṁ vā māluvapattānaṁ vā puṭaṁ karitvā udakaṁ vā tālapattaṁ vā āharissāmī’ti—",
-      "english": "‘I’ll make a basket out of lotus leaves or flame-of-the-forest leaves or camel’s foot creeper leaves, and use it to carry water or ripe palmyra fruit.’ "
-    },
-    {
-      "number": 18,
-      "pali": "ṭhānametaṁ vijjati; ",
-      "english": "That is possible. "
-    },
-    {
-      "number": 19,
-      "pali": "evameva kho, bhikkhave, yo evaṁ vadeyya: ",
-      "english": "In the same way, suppose someone were to say: "
-    },
-    {
-      "number": 20,
-      "pali": "‘ahaṁ dukkhaṁ ariyasaccaṁ yathābhūtaṁ abhisamecca …pe… dukkhanirodhagāminiṁ paṭipadaṁ ariyasaccaṁ yathābhūtaṁ abhisamecca sammā dukkhassantaṁ karissāmī’ti—",
-      "english": "‘After truly comprehending the noble truths of suffering, its origin, its cessation, and the path, I will completely make an end of suffering.’ "
-    },
-    {
-      "number": 21,
-      "pali": "ṭhānametaṁ vijjati. ",
-      "english": "That is possible. "
-    },
-    {
-      "number": 22,
-      "pali": "Tasmātiha, bhikkhave, ‘idaṁ dukkhan’ti yogo karaṇīyo …pe… ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yogo karaṇīyo”ti. ",
-      "english": "That’s why you should practice meditation …” "
-    },
-    {
-      "number": 23,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Therefore, monks, your duty is the contemplation, ‘This is stress … This is the origination of stress … This is the cessation of stress.’ Your duty is the contemplation, ‘This is the path of practice leading to the cessation of stress.’”"
     }
   ]
 }

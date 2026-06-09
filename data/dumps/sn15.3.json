@@ -3,123 +3,48 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 15.3 ",
-      "english": "Linked Discourses 15.3 "
+      "pali": "Linked Discourses 15.3",
+      "english": "Linked Discourses 15.3"
     },
     {
       "number": 2,
-      "pali": "1. Paṭhamavagga ",
-      "english": "Chapter One "
+      "pali": "Assu Sutta",
+      "english": "Tears"
     },
     {
       "number": 3,
-      "pali": "Assusutta ",
-      "english": "Tears "
+      "pali": "",
+      "english": "Near Sāvatthī. There the Blessed One said: “From an inconceivable beginning comes the wandering-on. A beginning point is not discernible, though beings hindered by ignorance and fettered by craving are transmigrating & wandering on. What do you think, monks? Which is greater, the tears you have shed while transmigrating & wandering this long, long time—crying & weeping from being joined with what is displeasing, being separated from what is pleasing—or the water in the four great oceans?”"
     },
     {
       "number": 4,
-      "pali": "Sāvatthiyaṁ viharati. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“As we understand the Dhamma taught to us by the Blessed One, this is the greater: the tears we have shed while transmigrating & wandering this long, long time—crying & weeping from being joined with what is displeasing, being separated from what is pleasing—not the water in the four great oceans.”"
     },
     {
       "number": 5,
-      "pali": "“Anamataggoyaṁ, bhikkhave, saṁsāro. ",
-      "english": "“Mendicants, this transmigration has no known beginning. "
+      "pali": "",
+      "english": "“Excellent, monks. Excellent. It is excellent that you thus understand the Dhamma taught by me."
     },
     {
       "number": 6,
-      "pali": "Pubbā koṭi na paññāyati avijjānīvaraṇānaṁ sattānaṁ taṇhāsaṁyojanānaṁ sandhāvataṁ saṁsarataṁ. ",
-      "english": "No first point is found of sentient beings roaming and transmigrating, shrouded by ignorance and fettered by craving. "
+      "pali": "",
+      "english": "“This is the greater: the tears you have shed while transmigrating & wandering this long, long time—crying & weeping from being joined with what is displeasing, being separated from what is pleasing—not the water in the four great oceans."
     },
     {
       "number": 7,
-      "pali": "Taṁ kiṁ maññatha, bhikkhave, katamaṁ nu kho bahutaraṁ, yaṁ vā vo iminā dīghena addhunā sandhāvataṁ saṁsarataṁ amanāpasampayogā manāpavippayogā kandantānaṁ rodantānaṁ assu passannaṁ paggharitaṁ, yaṁ vā catūsu mahāsamuddesu udakan”ti? ",
-      "english": "What do you think? Which is more: the flow of tears you’ve shed while roaming and transmigrating for such a very long time—weeping and wailing from being coupled with the unloved and separated from the loved—or the water in the four oceans?” "
+      "pali": "",
+      "english": "“Long have you (repeatedly) experienced the death of a mother. The tears you have shed over the death of a mother while transmigrating & wandering this long, long time—crying & weeping from being joined with what is displeasing, being separated from what is pleasing—are greater than the water in the four great oceans."
     },
     {
       "number": 8,
-      "pali": "“Yathā kho mayaṁ, bhante, bhagavatā dhammaṁ desitaṁ ājānāma, etadeva, bhante, bahutaraṁ yaṁ no iminā dīghena addhunā sandhāvataṁ saṁsarataṁ amanāpasampayogā manāpavippayogā kandantānaṁ rodantānaṁ assu passannaṁ paggharitaṁ, na tveva catūsu mahāsamuddesu udakan”ti. ",
-      "english": "“As we understand the Buddha’s teaching, the flow of tears we’ve shed while roaming and transmigrating is more than the water in the four oceans.” "
+      "pali": "",
+      "english": "“Long have you (repeatedly) experienced the death of a father… the death of a brother… the death of a sister… the death of a son… the death of a daughter… loss with regard to relatives… loss with regard to wealth… loss with regard to disease. The tears you have shed over loss with regard to disease while transmigrating & wandering this long, long time—crying & weeping from being joined with what is displeasing, being separated from what is pleasing—are greater than the water in the four great oceans."
     },
     {
       "number": 9,
-      "pali": "“Sādhu sādhu, bhikkhave, sādhu kho me tumhe, bhikkhave, evaṁ dhammaṁ desitaṁ ājānātha. ",
-      "english": "“Good, good, mendicants! It’s good that you understand my teaching like this. "
-    },
-    {
-      "number": 10,
-      "pali": "Etadeva, bhikkhave, bahutaraṁ yaṁ vo iminā dīghena addhunā sandhāvataṁ saṁsarataṁ amanāpasampayogā manāpavippayogā kandantānaṁ rodantānaṁ assu passannaṁ paggharitaṁ, na tveva catūsu mahāsamuddesu udakaṁ. ",
-      "english": "The flow of tears you’ve shed while roaming and transmigrating is indeed more than the water in the four oceans. "
-    },
-    {
-      "number": 11,
-      "pali": "Dīgharattaṁ vo, bhikkhave, mātumaraṇaṁ paccanubhūtaṁ; ",
-      "english": "For a long time you’ve undergone the death of a mother … "
-    },
-    {
-      "number": 12,
-      "pali": "tesaṁ vo mātumaraṇaṁ paccanubhontānaṁ amanāpasampayogā manāpavippayogā kandantānaṁ rodantānaṁ assu passannaṁ paggharitaṁ, na tveva catūsu mahāsamuddesu udakaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 13,
-      "pali": "Dīgharattaṁ vo, bhikkhave, pitumaraṇaṁ paccanubhūtaṁ …pe… ",
-      "english": "father … "
-    },
-    {
-      "number": 14,
-      "pali": "bhātumaraṇaṁ paccanubhūtaṁ … ",
-      "english": "brother … "
-    },
-    {
-      "number": 15,
-      "pali": "bhaginimaraṇaṁ paccanubhūtaṁ … ",
-      "english": "sister … "
-    },
-    {
-      "number": 16,
-      "pali": "puttamaraṇaṁ paccanubhūtaṁ … ",
-      "english": "son … "
-    },
-    {
-      "number": 17,
-      "pali": "dhītumaraṇaṁ paccanubhūtaṁ … ",
-      "english": "daughter … "
-    },
-    {
-      "number": 18,
-      "pali": "ñātibyasanaṁ paccanubhūtaṁ … ",
-      "english": "loss of relatives … "
-    },
-    {
-      "number": 19,
-      "pali": "bhogabyasanaṁ paccanubhūtaṁ. ",
-      "english": "loss of wealth … "
-    },
-    {
-      "number": 20,
-      "pali": "Dīgharattaṁ vo, bhikkhave, rogabyasanaṁ paccanubhūtaṁ, tesaṁ vo rogabyasanaṁ paccanubhontānaṁ amanāpasampayogā manāpavippayogā kandantānaṁ rodantānaṁ assu passannaṁ paggharitaṁ, na tveva catūsu mahāsamuddesu udakaṁ. ",
-      "english": "or loss through illness. From being coupled with the unloved and separated from the loved, the flow of tears you’ve shed while roaming and transmigrating is indeed more than the water in the four oceans. "
-    },
-    {
-      "number": 21,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 22,
-      "pali": "Anamataggoyaṁ, bhikkhave, saṁsāro …pe… ",
-      "english": "This transmigration has no known beginning. … "
-    },
-    {
-      "number": 23,
-      "pali": "yāvañcidaṁ, bhikkhave, alameva sabbasaṅkhāresu nibbindituṁ, alaṁ virajjituṁ, alaṁ vimuccitun”ti. ",
-      "english": "This is quite enough for you to become disillusioned, dispassionate, and freed regarding all conditions.” "
-    },
-    {
-      "number": 24,
-      "pali": "Tatiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Why is that? From an inconceivable beginning comes transmigration. A beginning point is not evident, though beings hindered by ignorance and fettered by craving are transmigrating & wandering on. Long have you thus experienced stress, experienced pain, experienced loss, swelling the cemeteries—enough to become disenchanted with all fabricated things, enough to become dispassionate, enough to be released.”"
     }
   ]
 }

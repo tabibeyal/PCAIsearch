@@ -3,28 +3,33 @@
   "verses": [
     {
       "number": 1,
-      "pali": "50 ",
-      "english": "50 "
+      "pali": "Numerical Discourses 1.50",
+      "english": "Numerical Discourses 1.50"
     },
     {
       "number": 2,
-      "pali": "“Pabhassaramidaṁ, bhikkhave, cittaṁ. ",
-      "english": "“This mind, mendicants, is radiant. "
+      "pali": "Pabhassara Suttas",
+      "english": "–53 Luminous"
     },
     {
       "number": 3,
-      "pali": "Tañca kho āgantukehi upakkilesehi vippamuttan”ti. ",
-      "english": "And it is freed from passing corruptions.” "
+      "pali": "",
+      "english": "“Luminous, monks, is the mind. And it is defiled by incoming defilements.”"
     },
     {
       "number": 4,
-      "pali": "Dasamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Luminous, monks, is the mind. And it is freed from incoming defilements.”"
     },
     {
       "number": 5,
-      "pali": "Paṇihitaacchavaggo pañcamo. ",
-      "english": ""
+      "pali": "",
+      "english": "“Luminous, monks, is the mind. And it is defiled by incoming defilements. The uninstructed run-of-the-mill person doesn’t discern that as it has come to be, which is why I tell you that—for the uninstructed run-of-the-mill person—there is no development of the mind.”"
+    },
+    {
+      "number": 6,
+      "pali": "",
+      "english": "“Luminous, monks, is the mind. And it is freed from incoming defilements. The well-instructed disciple of the noble ones discerns that as it has come to be, which is why I tell you that—for the well-instructed disciple of the noble ones—there is development of the mind.”"
     }
   ]
 }

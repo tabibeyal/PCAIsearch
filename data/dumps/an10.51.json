@@ -3,118 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 10.51 ",
-      "english": "Numbered Discourses 10.51 "
+      "pali": "Numerical Discourses 10.51",
+      "english": "Numerical Discourses 10.51"
     },
     {
       "number": 2,
-      "pali": "6. Sacittavagga ",
-      "english": "6. Your Own Mind "
+      "pali": "Sacitta Sutta",
+      "english": "One’s Own Mind"
     },
     {
       "number": 3,
-      "pali": "Sacittasutta ",
-      "english": "Your Own Mind "
+      "pali": "",
+      "english": "I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. There he addressed the monks: “Monks!”"
     },
     {
       "number": 4,
-      "pali": "Ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
-      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+      "pali": "",
+      "english": "“Yes, lord,” the monks responded to him."
     },
     {
       "number": 5,
-      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
-      "english": "There the Buddha addressed the mendicants, "
+      "pali": "",
+      "english": "The Blessed One said: “Even if a monk is not skilled in the ways of the minds of others [not skilled in reading the minds of others], he should train himself: ‘I will be skilled in reading my own mind.’"
     },
     {
       "number": 6,
-      "pali": "“bhikkhavo”ti. ",
-      "english": "“Mendicants!” "
+      "pali": "",
+      "english": "“And how is a monk skilled in reading his own mind? Imagine a young woman—or man—youthful, fond of adornment, examining the image of her own face in a bright, clean mirror or bowl of clear water: If she saw any dirt or blemish there, she would try to remove it. If she saw no dirt or blemish there, she would be pleased, her resolves fulfilled: ‘How fortunate I am! How clean I am!’ In the same way, a monk’s self-examination is very productive in terms of skillful qualities (if he conducts it in this way): ‘Do I usually remain covetous or not? With thoughts of ill will or not? Overcome by sloth & drowsiness or not? Restless or not? Uncertain or gone beyond uncertainty? Angry or not? With soiled thoughts or unsoiled thoughts? With my body aroused or unaroused? Lazy or with persistence aroused? Unconcentrated or concentrated?’"
     },
     {
       "number": 7,
-      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Venerable sir,” they replied. "
+      "pali": "",
+      "english": "“If, on examination, a monk knows, ‘I usually remain covetous, with thoughts of ill will, overcome by sloth & drowsiness, restless, uncertain, angry, with soiled thoughts, with my body aroused, lazy, or unconcentrated,’ then he should put forth extra desire, effort, diligence, endeavor, relentlessness, mindfulness, & alertness for the abandoning of those very same evil, unskillful qualities. Just as when a person whose turban or head was on fire would put forth extra desire, effort, diligence, endeavor, relentlessness, mindfulness, & alertness to put out the fire on his turban or head; in the same way, the monk should put forth extra desire, effort, diligence, endeavor, relentlessness, mindfulness, & alertness for the abandoning of those very same evil, unskillful qualities."
     },
     {
       "number": 8,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
-    },
-    {
-      "number": 9,
-      "pali": "“No ce, bhikkhave, bhikkhu paracittapariyāyakusalo hoti, atha ‘sacittapariyāyakusalo bhavissāmī’ti—",
-      "english": "“Mendicants, if a mendicant isn’t skilled in encompassing another’s mind, then they should train themselves: ‘I will be skilled in encompassing my own mind.’ "
-    },
-    {
-      "number": 10,
-      "pali": "evañhi vo, bhikkhave, sikkhitabbaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 11,
-      "pali": "Kathañca, bhikkhave, bhikkhu sacittapariyāyakusalo hoti? ",
-      "english": "And how is a mendicant skilled in encompassing their own mind? "
-    },
-    {
-      "number": 12,
-      "pali": "Seyyathāpi, bhikkhave, itthī vā puriso vā daharo yuvā maṇḍanakajātiko ādāse vā parisuddhe pariyodāte acche vā udakapatte sakaṁ mukhanimittaṁ paccavekkhamāno sace tattha passati rajaṁ vā aṅgaṇaṁ vā, tasseva rajassa vā aṅgaṇassa vā pahānāya vāyamati. ",
-      "english": "Suppose there was a woman or man who was young, youthful, and fond of adornments, and they check their own reflection in a clean bright mirror or a clear bowl of water. If they see any dirt or blemish there, they’d try to remove it. "
-    },
-    {
-      "number": 13,
-      "pali": "No ce tattha passati rajaṁ vā aṅgaṇaṁ vā, tenevattamano hoti paripuṇṇasaṅkappo: ",
-      "english": "But if they don’t see any dirt or blemish there, they’re happy with that, as they’ve got all they wished for: "
-    },
-    {
-      "number": 14,
-      "pali": "‘lābhā vata me, parisuddhaṁ vata me’ti. ",
-      "english": "‘How fortunate that I’m clean!’ "
-    },
-    {
-      "number": 15,
-      "pali": "Evamevaṁ kho, bhikkhave, bhikkhuno paccavekkhaṇā bahukārā hoti kusalesu dhammesu: ",
-      "english": "In the same way, checking is very helpful for a mendicant’s skillful qualities. "
-    },
-    {
-      "number": 16,
-      "pali": "‘abhijjhālu nu kho bahulaṁ viharāmi, anabhijjhālu nu kho bahulaṁ viharāmi, byāpannacitto nu kho bahulaṁ viharāmi, abyāpannacitto nu kho bahulaṁ viharāmi, thinamiddhapariyuṭṭhito nu kho bahulaṁ viharāmi, vigatathinamiddho nu kho bahulaṁ viharāmi, uddhato nu kho bahulaṁ viharāmi, anuddhato nu kho bahulaṁ viharāmi, vicikiccho nu kho bahulaṁ viharāmi, tiṇṇavicikiccho nu kho bahulaṁ viharāmi, kodhano nu kho bahulaṁ viharāmi, akkodhano nu kho bahulaṁ viharāmi, saṅkiliṭṭhacitto nu kho bahulaṁ viharāmi, asaṅkiliṭṭhacitto nu kho bahulaṁ viharāmi, sāraddhakāyo nu kho bahulaṁ viharāmi, asāraddhakāyo nu kho bahulaṁ viharāmi, kusīto nu kho bahulaṁ viharāmi, āraddhavīriyo nu kho bahulaṁ viharāmi, asamāhito nu kho bahulaṁ viharāmi, samāhito nu kho bahulaṁ viharāmī’ti. ",
-      "english": "‘Am I often covetous or not? Am I often malicious or not? Am I often overcome with dullness and drowsiness or not? Am I often restless or not? Am I often doubtful or not? Am I often irritable or not? Am I often corrupted in mind or not? Am I often disturbed in body or not? Am I often energetic or not? Am I often immersed in samādhi or not?’ "
-    },
-    {
-      "number": 17,
-      "pali": "Sace, bhikkhave, bhikkhu paccavekkhamāno evaṁ jānāti: ",
-      "english": "Suppose that, upon checking, a mendicant knows this: "
-    },
-    {
-      "number": 18,
-      "pali": "‘abhijjhālu bahulaṁ viharāmi, byāpannacitto bahulaṁ viharāmi, thinamiddhapariyuṭṭhito bahulaṁ viharāmi, uddhato bahulaṁ viharāmi, vicikiccho bahulaṁ viharāmi, kodhano bahulaṁ viharāmi, saṅkiliṭṭhacitto bahulaṁ viharāmi, sāraddhakāyo bahulaṁ viharāmi, kusīto bahulaṁ viharāmi, asamāhito bahulaṁ viharāmī’ti, tena, bhikkhave, bhikkhunā tesaṁyeva pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya adhimatto chando ca vāyāmo ca ussāho ca ussoḷhī ca appaṭivānī ca sati ca sampajaññañca karaṇīyaṁ. ",
-      "english": "‘I am often covetous, malicious, overcome with dullness and drowsiness, restless, doubtful, irritable, defiled in mind, disturbed in body, lazy, and not immersed in samādhi.’ In order to give up those bad, unskillful qualities, they should apply extraordinary enthusiasm, effort, zeal, vigor, perseverance, mindfulness, and situational awareness. "
-    },
-    {
-      "number": 19,
-      "pali": "Seyyathāpi, bhikkhave, ādittacelo vā ādittasīso vā. Tasseva celassa vā sīsassa vā nibbāpanāya adhimattaṁ chandañca vāyāmañca ussāhañca ussoḷhiñca appaṭivāniñca satiñca sampajaññañca kareyya. ",
-      "english": "Suppose your clothes or head were on fire. In order to extinguish it, you’d apply extraordinary enthusiasm, effort, zeal, vigor, perseverance, mindfulness, and situational awareness. "
-    },
-    {
-      "number": 20,
-      "pali": "Evamevaṁ kho tena, bhikkhave, bhikkhunā tesaṁyeva pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya adhimatto chando ca vāyāmo ca ussāho ca ussoḷhī ca appaṭivānī ca sati ca sampajaññañca karaṇīyaṁ. ",
-      "english": "In the same way, in order to give up those bad, unskillful qualities, that mendicant should apply extraordinary enthusiasm … "
-    },
-    {
-      "number": 21,
-      "pali": "Sace pana, bhikkhave, bhikkhu paccavekkhamāno evaṁ jānāti: ",
-      "english": "But suppose that, upon checking, a mendicant knows this: "
-    },
-    {
-      "number": 22,
-      "pali": "‘anabhijjhālu bahulaṁ viharāmi, abyāpannacitto bahulaṁ viharāmi, vigatathinamiddho bahulaṁ viharāmi, anuddhato bahulaṁ viharāmi, tiṇṇavicikiccho bahulaṁ viharāmi, akkodhano bahulaṁ viharāmi, asaṅkiliṭṭhacitto bahulaṁ viharāmi, asāraddhakāyo bahulaṁ viharāmi, āraddhavīriyo bahulaṁ viharāmi, samāhito bahulaṁ viharāmī’ti, tena, bhikkhave, bhikkhunā tesuyeva kusalesu dhammesu patiṭṭhāya uttari āsavānaṁ khayāya yogo karaṇīyo”ti. ",
-      "english": "‘I am often content, kind-hearted, free of dullness and drowsiness, calm, confident, loving, pure in mind, undisturbed in body, energetic, and immersed in samādhi.’ Grounded on those skillful qualities, they should practice meditation further to end the defilements.” "
-    },
-    {
-      "number": 23,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“But if, on examination, a monk knows, ‘I usually remain uncovetous, without thoughts of ill will, free of sloth & drowsiness, not restless, gone beyond uncertainty, not angry, with unsoiled thoughts, with my body unaroused, with persistence aroused, & concentrated,’ then his duty is to make an effort in maintaining those very same skillful qualities to a higher degree for the ending of the effluents.”"
     }
   ]
 }

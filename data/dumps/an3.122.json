@@ -3,138 +3,78 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 3.122 ",
-      "english": "Numbered Discourses 3.122 "
+      "pali": "Numerical Discourses 3.122",
+      "english": "Numerical Discourses 3.122"
     },
     {
       "number": 2,
-      "pali": "12. Āpāyikavagga ",
-      "english": "12. Bound for Loss "
+      "pali": "Soceyya Sutta",
+      "english": "Purities (2)"
     },
     {
       "number": 3,
-      "pali": "Moneyyasutta ",
-      "english": "Sagacity "
+      "pali": "",
+      "english": "Monks, there are these three purities. Which three? Bodily purity, verbal purity, & mental purity."
     },
     {
       "number": 4,
-      "pali": "“Tīṇimāni, bhikkhave, moneyyāni. ",
-      "english": "“Mendicants, there are these three kinds of sagacity. "
+      "pali": "",
+      "english": "“And what is bodily purity? There is the case where a monk abstains from taking life, abstains from theft, abstains from uncelibacy. This is called bodily purity."
     },
     {
       "number": 5,
-      "pali": "Katamāni tīṇi? ",
-      "english": "What three? "
+      "pali": "",
+      "english": "“And what is verbal purity? There is the case where a monk abstains from telling lies, abstains from divisive speech, abstains from harsh speech, abstains from idle chatter. This is called verbal purity."
     },
     {
       "number": 6,
-      "pali": "Kāyamoneyyaṁ, vacīmoneyyaṁ, manomoneyyaṁ. ",
-      "english": "Sagacity of body, speech, and mind. "
+      "pali": "",
+      "english": "“And what is mental purity? There is the case where, there being sensual desire present within, a monk discerns, ‘There is sensual desire present within me.’ Or, there being no sensual desire present within, he discerns, ‘There is no sensual desire present within me.’ He discerns how there is the arising of unarisen sensual desire. And he discerns how there is the abandoning of sensual desire once it has arisen. And he discerns how there is no further appearance in the future of sensual desire that has been abandoned."
     },
     {
       "number": 7,
-      "pali": "Katamañca, bhikkhave, kāyamoneyyaṁ? ",
-      "english": "And what is sagacity of body? "
+      "pali": "",
+      "english": "“There being ill will present within…"
     },
     {
       "number": 8,
-      "pali": "Idha, bhikkhave, bhikkhu pāṇātipātā paṭivirato hoti, adinnādānā paṭivirato hoti, abrahmacariyā paṭivirato hoti. ",
-      "english": "It’s when a mendicant doesn’t kill living creatures, steal, or have sex. "
+      "pali": "",
+      "english": "“There being sloth & drowsiness present within…"
     },
     {
       "number": 9,
-      "pali": "Idaṁ vuccati, bhikkhave, kāyamoneyyaṁ. ",
-      "english": "This is called ‘sagacity of body’. "
+      "pali": "",
+      "english": "“There being restlessness & anxiety present within…"
     },
     {
       "number": 10,
-      "pali": "Katamañca, bhikkhave, vacīmoneyyaṁ? ",
-      "english": "And what is sagacity of speech? "
+      "pali": "",
+      "english": "“There being uncertainty present within, a monk discerns, ‘There is uncertainty present within me.’ Or, there being no uncertainty present within, he discerns, ‘There is no uncertainty present within me.’ He discerns how there is the arising of unarisen uncertainty. And he discerns how there is the abandoning of uncertainty once it has arisen. And he discerns how there is no further appearance in the future of uncertainty that has been abandoned. This is called mental purity.”"
     },
     {
       "number": 11,
-      "pali": "Idha, bhikkhave, bhikkhu musāvādā paṭivirato hoti, pisuṇāya vācāya paṭivirato hoti, pharusāya vācāya paṭivirato hoti, samphappalāpā paṭivirato hoti. ",
-      "english": "It’s when a mendicant doesn’t use speech that’s false, backbiting, harsh, or nonsensical. "
+      "pali": "",
+      "english": "“These, monks, are the three purities.”"
     },
     {
       "number": 12,
-      "pali": "Idaṁ vuccati, bhikkhave, vacīmoneyyaṁ. ",
-      "english": "This is called ‘sagacity of speech’. "
+      "pali": "",
+      "english": "Bodily pure, verbally pure,"
     },
     {
       "number": 13,
-      "pali": "Katamañca, bhikkhave, manomoneyyaṁ? ",
-      "english": "And what is sagacity of mind? "
+      "pali": "",
+      "english": "mentally pure, without effluent:"
     },
     {
       "number": 14,
-      "pali": "Idha, bhikkhave, bhikkhu āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. ",
-      "english": "It’s when a mendicant realizes the undefiled freedom of heart and freedom by wisdom in this very life. And they live having realized it with their own insight due to the ending of defilements. "
+      "pali": "",
+      "english": "A pure one, consummate in purity,"
     },
     {
       "number": 15,
-      "pali": "Idaṁ vuccati, bhikkhave, manomoneyyaṁ. ",
-      "english": "This is called ‘sagacity of mind’. "
-    },
-    {
-      "number": 16,
-      "pali": "Imāni kho, bhikkhave, tīṇi moneyyānīti. ",
-      "english": "These are the three kinds of sagacity. "
-    },
-    {
-      "number": 17,
-      "pali": "Kāyamuniṁ vacīmuniṁ, ",
-      "english": "A sage in body, a sage in speech, "
-    },
-    {
-      "number": 18,
-      "pali": "cetomuniṁ anāsavaṁ; ",
-      "english": "a sage undefiled in heart; "
-    },
-    {
-      "number": 19,
-      "pali": "Muniṁ moneyyasampannaṁ, ",
-      "english": "a sage, blessed with sagacity, "
-    },
-    {
-      "number": 20,
-      "pali": "āhu sabbappahāyinan”ti. ",
-      "english": "has given up everything, they say.” "
-    },
-    {
-      "number": 21,
-      "pali": "Dasamaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 22,
-      "pali": "Āpāyikavaggo dutiyo. ",
-      "english": ""
-    },
-    {
-      "number": 23,
-      "pali": "Tassuddānaṁ ",
-      "english": ""
-    },
-    {
-      "number": 24,
-      "pali": "Āpāyiko dullabho appameyyaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 25,
-      "pali": "Āneñjavipattisampadā; ",
-      "english": ""
-    },
-    {
-      "number": 26,
-      "pali": "Apaṇṇako ca kammanto, ",
-      "english": ""
-    },
-    {
-      "number": 27,
-      "pali": "Dve soceyyāni moneyyanti. ",
-      "english": ""
+      "pali": "",
+      "english": "is said to be cleansed of evil."
     }
   ]
 }

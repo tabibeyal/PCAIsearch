@@ -3,118 +3,38 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 20.8 ",
-      "english": "Linked Discourses 20.8 "
+      "pali": "Linked Discourses 20.8",
+      "english": "Linked Discourses 20.8"
     },
     {
       "number": 2,
-      "pali": "1. Opammavagga ",
-      "english": "1. Similes "
+      "pali": "Kaliṅgara Sutta",
+      "english": "Blocks of Wood"
     },
     {
       "number": 3,
-      "pali": "Kaliṅgarasutta ",
-      "english": "Wood Blocks "
+      "pali": "",
+      "english": "I have heard that on one occasion the Blessed One was staying was staying near Vesālī, at the Gabled Hall in the Great Forest. There he addressed the monks: “Monks!”"
     },
     {
       "number": 4,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "“Yes, lord,” the monks responded to him."
     },
     {
       "number": 5,
-      "pali": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
-      "english": "At one time the Buddha was staying near Vesālī, at the Great Wood, in the hall with the peaked roof. "
+      "pali": "",
+      "english": "The Blessed One said, “The Licchavis now live heedfully, ardent in exercise, with blocks of wood for pillows. King Ajātasattu of Māgadha, Vedehi’s son, doesn’t gain an opening among them, doesn’t gain a foothold. But there will come a time in the future when the Licchavis grow delicate, with soft palms of their hands & soles of their feet. They will sleep until sunrise on soft beds with pillows of cotton wool. King Ajātasattu of Māgadha, Vedehi’s son, will gain an opening among them, will gain a foothold."
     },
     {
       "number": 6,
-      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
-      "english": "There the Buddha addressed the mendicants, "
+      "pali": "",
+      "english": "“The monks now live heedfully, ardent in exertion, with blocks of wood for pillows. Māra the Evil One doesn’t gain an opening among them, doesn’t gain a foothold. But there will come a time in the future when the monks grow delicate, with soft palms of their hands & soles of their feet. They will sleep until sunrise on soft beds with pillows of cotton wool. Māra the Evil One will gain an opening among them, will gain a foothold."
     },
     {
       "number": 7,
-      "pali": "“bhikkhavo”ti. ",
-      "english": "“Mendicants!” "
-    },
-    {
-      "number": 8,
-      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Venerable sir,” they replied. "
-    },
-    {
-      "number": 9,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
-    },
-    {
-      "number": 10,
-      "pali": "“Kaliṅgarūpadhānā, bhikkhave, etarahi licchavī viharanti appamattā ātāpino upāsanasmiṁ. ",
-      "english": "“Mendicants, these days the Licchavis live using wood blocks as pillows, and they exercise diligently and keenly. "
-    },
-    {
-      "number": 11,
-      "pali": "Tesaṁ rājā māgadho ajātasattu vedehiputto na labhati otāraṁ na labhati ārammaṇaṁ. ",
-      "english": "King Ajātasattu of Magadha, son of the princess of Videha, finds no vulnerability, he’s got no opportunity. "
-    },
-    {
-      "number": 12,
-      "pali": "Bhavissanti, bhikkhave, anāgatamaddhānaṁ licchavī sukhumālā mudutalunahatthapādā ",
-      "english": "But in the future the Licchavis will become delicate, with soft and tender hands and feet. "
-    },
-    {
-      "number": 13,
-      "pali": "te mudukāsu seyyāsu tūlabibbohanāsu yāvasūriyuggamanā seyyaṁ kappissanti. ",
-      "english": "They’ll sleep on soft beds with down pillows until the sun comes up. "
-    },
-    {
-      "number": 14,
-      "pali": "Tesaṁ rājā māgadho ajātasattu vedehiputto lacchati otāraṁ lacchati ārammaṇaṁ. ",
-      "english": "King Ajātasattu of Magadha, son of the princess of Videha, will find a vulnerability and get an opportunity. "
-    },
-    {
-      "number": 15,
-      "pali": "Kaliṅgarūpadhānā, bhikkhave, etarahi bhikkhū viharanti appamattā ātāpino padhānasmiṁ. ",
-      "english": "These days the mendicants live using wood blocks as pillows, and they meditate diligently and keenly. "
-    },
-    {
-      "number": 16,
-      "pali": "Tesaṁ māro pāpimā na labhati otāraṁ na labhati ārammaṇaṁ. ",
-      "english": "Māra the Wicked finds no vulnerability, he’s got no opportunity. "
-    },
-    {
-      "number": 17,
-      "pali": "Bhavissanti, bhikkhave, anāgatamaddhānaṁ bhikkhū sukhumā mudutalunahatthapādā. ",
-      "english": "But in the future the mendicants will become delicate, with soft and tender hands and feet. "
-    },
-    {
-      "number": 18,
-      "pali": "Te mudukāsu seyyāsu tūlabibbohanāsu yāvasūriyuggamanā seyyaṁ kappissanti. ",
-      "english": "They’ll sleep on soft beds with down pillows until the sun comes up. "
-    },
-    {
-      "number": 19,
-      "pali": "Tesaṁ māro pāpimā lacchati otāraṁ lacchati ārammaṇaṁ. ",
-      "english": "Māra the Wicked will find a vulnerability and get an opportunity. "
-    },
-    {
-      "number": 20,
-      "pali": "Tasmātiha, bhikkhave, evaṁ sikkhitabbaṁ: ",
-      "english": "So you should train like this: "
-    },
-    {
-      "number": 21,
-      "pali": "‘kaliṅgarūpadhānā viharissāma appamattā ātāpino padhānasmin’ti. ",
-      "english": "‘We will live using wood blocks as pillows, and we will meditate diligently and keenly.’ "
-    },
-    {
-      "number": 22,
-      "pali": "Evañhi vo, bhikkhave, sikkhitabban”ti. ",
-      "english": "That’s how you should train.” "
-    },
-    {
-      "number": 23,
-      "pali": "Aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Therefore, monks, you should train yourselves: ‘We will live heedfully, ardent in exertion, with blocks of wood for pillows.’ That’s how you should train yourselves.”"
     }
   ]
 }

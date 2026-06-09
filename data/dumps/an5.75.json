@@ -3,523 +3,123 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 5.75 ",
-      "english": "Numbered Discourses 5.75 "
+      "pali": "Numerical Discourses 5.75",
+      "english": "Numerical Discourses 5.75"
     },
     {
       "number": 2,
-      "pali": "8. Yodhājīvavagga ",
-      "english": "8. Warriors "
+      "pali": "Yodhājīva Sutta",
+      "english": "The Professional Warrior (1)"
     },
     {
       "number": 3,
-      "pali": "Paṭhamayodhājīvasutta ",
-      "english": "Warriors (1st) "
+      "pali": "",
+      "english": "This discourse is addressed to monks, and deals with their battle to maintain their celibacy and to come out victorious in the practice. The Buddha compares the victorious monk to a victorious warrior, an analogy that was probably intended to appeal to the monks’ masculine pride (see AN 7:48 ). In this analogy, a celibate is not a wimp, but is instead a warrior to the highest degree. Because the first confrontation for a man trying to maintain his celibacy involves his attraction to women, women play the role of first-line enemy in this discourse."
     },
     {
       "number": 4,
-      "pali": "“Pañcime, bhikkhave, yodhājīvā santo saṁvijjamānā lokasmiṁ. ",
-      "english": "“Mendicants, these five warriors are found in the world. "
+      "pali": "",
+      "english": "Unfortunately, we have no record of how the Buddha advised his nun followers on how to maintain their celibacy, so we don’t know if he would have used a woman-warrior analogy when teaching them to resist their attraction to men, or if he would have replaced it with another analogy to appeal more specifically to their feminine pride (again, see AN 7:48 ). However, there are discourses in the Pali Canon that depict nuns as successfully maintaining their celibacy when confronted by men in the forest. A prime example is Therīgāthā 14; there are other examples of nuns resisting temptation in the Bhikkhunī Saṁyutta ( SN 5 )."
     },
     {
       "number": 5,
-      "pali": "Katame pañca? ",
-      "english": "What five? "
+      "pali": "",
+      "english": "Ultimately, of course, the true enemy lies not without but within. This is shown by the fact that the monk in this discourse has to go off alone and put an end to the effluent of sensual passion in his own mind before he can be considered truly victorious."
     },
     {
       "number": 6,
-      "pali": "Idha, bhikkhave, ekacco yodhājīvo rajaggaññeva disvā saṁsīdati visīdati na santhambhati na sakkoti saṅgāmaṁ otarituṁ. ",
-      "english": "Firstly, one warrior falters and founders at the mere sight of a cloud of dust. He doesn’t stay firm, and fails to plunge into battle. "
+      "pali": "",
+      "english": "“Monks, there are these five types of warriors who can be found existing in the world. Which five?"
     },
     {
       "number": 7,
-      "pali": "Evarūpopi, bhikkhave, idhekacco yodhājīvo hoti. ",
-      "english": "Some warriors are like that. "
+      "pali": "",
+      "english": "“There is the case of a warrior who, on seeing a cloud of dust (stirred up by the enemy army), falters, faints, doesn’t steel himself, can’t engage in the battle. Some warriors are like this. This is the first type of warrior who can be found existing in the world."
     },
     {
       "number": 8,
-      "pali": "Ayaṁ, bhikkhave, paṭhamo yodhājīvo santo saṁvijjamāno lokasmiṁ. ",
-      "english": "This is the first warrior found in the world. "
+      "pali": "",
+      "english": "“Then there is the warrior who can handle the cloud of dust, but on seeing the top of the enemy’s banner, he falters, faints, doesn’t steel himself, can’t engage in the battle. Some warriors are like this. This is the second type of warrior who can be found existing in the world."
     },
     {
       "number": 9,
-      "pali": "Puna caparaṁ, bhikkhave, idhekacco yodhājīvo sahati rajaggaṁ; ",
-      "english": "Furthermore, one warrior can prevail over a cloud of dust, "
+      "pali": "",
+      "english": "“Then there is the warrior who can handle the cloud of dust & the top of the enemy’s banner, but on hearing the tumult (of the approaching forces), he falters, faints, doesn’t steel himself, can’t engage in the battle. Some warriors are like this. This is the third type of warrior who can be found existing in the world."
     },
     {
       "number": 10,
-      "pali": "api ca kho dhajaggaññeva disvā saṁsīdati visīdati, na santhambhati, na sakkoti saṅgāmaṁ otarituṁ. ",
-      "english": "but he falters and founders at the mere sight of a banner’s crest. He doesn’t stay firm, and fails to plunge into battle. "
+      "pali": "",
+      "english": "“Then there is the warrior who can handle the cloud of dust, the top of the enemy’s banner, & the tumult, but when in hand-to-hand combat he is struck and falls wounded. Some warriors are like this. This is the fourth type of warrior who can be found existing in the world."
     },
     {
       "number": 11,
-      "pali": "Evarūpopi, bhikkhave, idhekacco yodhājīvo hoti. ",
-      "english": "Some warriors are like that. "
+      "pali": "",
+      "english": "“Then there is the warrior who can handle the cloud of dust, the top of the enemy’s banner, the tumult, & the hand-to-hand combat. On winning the battle, victorious in battle, he comes out at the very head of the battle. Some warriors are like this. This is the fifth type of warrior who can be found existing in the world."
     },
     {
       "number": 12,
-      "pali": "Ayaṁ, bhikkhave, dutiyo yodhājīvo santo saṁvijjamāno lokasmiṁ. ",
-      "english": "This is the second warrior found in the world. "
+      "pali": "",
+      "english": "“These are the five types of warriors who can be found existing in the world."
     },
     {
       "number": 13,
-      "pali": "Puna caparaṁ, bhikkhave, idhekacco yodhājīvo sahati rajaggaṁ sahati dhajaggaṁ; ",
-      "english": "Furthermore, one warrior can prevail over a cloud of dust and a banner’s crest, "
+      "pali": "",
+      "english": "“In the same way, monks, there are these five warrior-like individuals who can be found existing among the monks. Which five?"
     },
     {
       "number": 14,
-      "pali": "api ca kho ussāraṇaññeva sutvā saṁsīdati visīdati, na santhambhati, na sakkoti saṅgāmaṁ otarituṁ. ",
-      "english": "but he falters and founders at the mere sound of turmoil. He doesn’t stay firm, and fails to plunge into battle. "
+      "pali": "",
+      "english": "[1] “There is the case of the monk who, on seeing a cloud of dust, falters, faints, doesn’t steel himself, can’t continue in the holy life. Declaring his weakness in the training, he leaves the training and returns to the lower life. What is the cloud of dust for him? There is the case of the monk who hears, ‘In that village or town over there is a woman or girl who is shapely, good-looking, charming, endowed with the foremost lotus-like complexion.’ On hearing this, he falters, faints, doesn’t steel himself, can’t continue in the holy life. Declaring his weakness in the training, he leaves the training and returns to the lower life. That, for him, is the cloud of dust. This individual, I tell you, is like the warrior who, on seeing a cloud of dust, falters, faints, doesn’t steel himself, can’t engage in the battle. Some individuals are like this. This is the first type of warrior-like individual who can be found existing among the monks."
     },
     {
       "number": 15,
-      "pali": "Evarūpopi, bhikkhave, idhekacco yodhājīvo hoti. ",
-      "english": "Some warriors are like that. "
+      "pali": "",
+      "english": "[2] “And further, there is the case of the monk who can handle the cloud of dust, but on seeing the top of the enemy’s banner, he falters, faints, doesn’t steel himself, can’t continue in the holy life. Declaring his weakness in the training, he leaves the training and returns to the lower life. What is the top of the banner for him? There is the case of the monk who not only hears that ‘In that village or town over there is a woman or girl who is shapely, good-looking, charming, endowed with the foremost lotus-like complexion.’ He sees for himself that in that village or town over there is a woman or girl who is shapely, good-looking, charming, endowed with the foremost lotus-like complexion. On seeing her, he falters, faints, doesn’t steel himself, can’t continue in the holy life. Declaring his weakness in the training, he leaves the training and returns to the lower life. That, for him, is the top of the banner. This individual, I tell you, is like the warrior who can handle the cloud of dust, but on seeing the top of the enemy’s banner, he falters, faints, doesn’t steel himself, can’t engage in the battle. Some individuals are like this. This is the second type of warrior-like individual who can be found existing among the monks."
     },
     {
       "number": 16,
-      "pali": "Ayaṁ, bhikkhave, tatiyo yodhājīvo santo saṁvijjamāno lokasmiṁ. ",
-      "english": "This is the third warrior found in the world. "
+      "pali": "",
+      "english": "[3] “And further, there is the case of the monk who can handle the cloud of dust & the top of the enemy’s banner, but on hearing the tumult (of the approaching forces), he falters, faints, doesn’t steel himself, can’t continue in the holy life. Declaring his weakness in the training, he leaves the training and returns to the lower life. What is the tumult for him? There is the case of the monk who has gone to the wilderness, to the foot of a tree, or to an empty building. A woman approaches him and giggles at him, calls out to him, laughs aloud, & teases him. On being giggled at, called out to, laughed at, & teased by the woman, he falters, faints, doesn’t steel himself, can’t continue in the holy life. Declaring his weakness in the training, he leaves the training and returns to the lower life. That, for him, is the tumult. This individual, I tell you, is like the warrior who can handle the cloud of dust & the top of the enemy’s banner, but on hearing the tumult he falters, faints, doesn’t steel himself, can’t engage in the battle. Some individuals are like this. This is the third type of warrior-like individual who can be found existing among the monks."
     },
     {
       "number": 17,
-      "pali": "Puna caparaṁ, bhikkhave, idhekacco yodhājīvo sahati rajaggaṁ, sahati dhajaggaṁ, sahati ussāraṇaṁ; ",
-      "english": "Furthermore, one warrior can prevail over a cloud of dust and a banner’s crest and turmoil, "
+      "pali": "",
+      "english": "[4] “And further, there is the case of the monk who can handle the cloud of dust, the top of the enemy’s banner, & the tumult, but when in hand-to-hand combat he is struck and falls wounded. What is the hand-to-hand combat for him? There is the case of the monk who has gone to the wilderness, to the foot of a tree, or to an empty building. A woman approaches him and sits down right next to him, lies down right next to him, throws herself all over him. When she sits down right next to him, lies down right next to him, and throws herself all over him, he—without renouncing the training, without declaring his weakness—engages in sexual intercourse. This, for him, is hand-to-hand combat. This individual, I tell you, is like the warrior who can handle the cloud of dust, the top of the enemy’s banner, & the tumult, but when in hand-to-hand combat he is struck and falls wounded. Some individuals are like this. This is the fourth type of warrior-like individual who can be found existing among the monks."
     },
     {
       "number": 18,
-      "pali": "api ca kho sampahāre haññati byāpajjati. ",
-      "english": "but he’s killed or injured when blows are struck. "
+      "pali": "",
+      "english": "[5] “And further, there is the case of the monk who can handle the cloud of dust, the top of the enemy’s banner, the tumult, & hand-to-hand combat. On winning the battle, victorious in battle, he comes out at the very head of the battle. What is victory in the battle for him? There is the case of the monk who has gone to the wilderness, to the foot of a tree, or to an empty dwelling. A woman approaches him and sits down right next to him, lies down right next to him, throws herself all over him. When she sits down right next to him, lies down right next to him, and throws herself all over him, he extricates himself, frees himself, and goes off where he will."
     },
     {
       "number": 19,
-      "pali": "Evarūpopi, bhikkhave, idhekacco yodhājīvo hoti. ",
-      "english": "Some warriors are like that. "
+      "pali": "",
+      "english": "“He resorts to a secluded dwelling place: the wilderness, the foot of a tree, a mountain, a glen, a hillside cave, a charnel ground, a forest grove, the open air, a haystack. Having gone to the wilderness, the foot of a tree, or an empty building, he sits down, crosses his legs, holds his body erect, and brings mindfulness to the fore."
     },
     {
       "number": 20,
-      "pali": "Ayaṁ, bhikkhave, catuttho yodhājīvo santo saṁvijjamāno lokasmiṁ. ",
-      "english": "This is the fourth warrior found in the world. "
+      "pali": "",
+      "english": "“Abandoning covetousness with regard to the world, he dwells with an awareness devoid of covetousness. He cleanses his mind of covetousness. Abandoning ill will & anger, he dwells with an awareness devoid of ill will, sympathetic with the welfare of all living beings. He cleanses his mind of ill will & anger. Abandoning sloth & drowsiness, he dwells with an awareness devoid of sloth & drowsiness, mindful, alert, percipient of light. He cleanses his mind of sloth & drowsiness. Abandoning restlessness & anxiety, he dwells undisturbed, his mind inwardly stilled. He cleanses his mind of restlessness & anxiety. Abandoning uncertainty, he dwells having crossed over uncertainty, with no perplexity with regard to skillful qualities. He cleanses his mind of uncertainty."
     },
     {
       "number": 21,
-      "pali": "Puna caparaṁ, bhikkhave, idhekacco yodhājīvo sahati rajaggaṁ, sahati dhajaggaṁ, sahati ussāraṇaṁ, sahati sampahāraṁ. ",
-      "english": "Furthermore, one warrior can prevail over a cloud of dust and a banner’s crest and turmoil and being struck. "
+      "pali": "",
+      "english": "“Having abandoned these five hindrances, corruptions of awareness that weaken discernment, then—quite secluded from sensuality, secluded from unskillful qualities—he enters & remains in the first jhāna: rapture & pleasure born of seclusion, accompanied by directed thought & evaluation. With the stilling of directed thoughts & evaluations, he enters & remains in the second jhāna: rapture & pleasure born of concentration, unification of awareness free from directed thought & evaluation—internal assurance. With the fading of rapture, he remains equanimous, mindful, & alert, and senses pleasure with the body. He enters & remains in the third jhāna, of which the noble ones declare, ‘Equanimous & mindful, he has a pleasant abiding.’ With the abandoning of pleasure & pain—as with the earlier disappearance of elation & distress—he enters & remains in the fourth jhāna: purity of equanimity & mindfulness, neither pleasure nor pain."
     },
     {
       "number": 22,
-      "pali": "So taṁ saṅgāmaṁ abhivijinitvā vijitasaṅgāmo tameva saṅgāmasīsaṁ ajjhāvasati. ",
-      "english": "He wins victory in battle, establishing himself as foremost in battle. "
+      "pali": "",
+      "english": "“With his mind thus concentrated, purified, & bright, unblemished, free from defects, pliant, malleable, steady, & attained to imperturbability, he directs and inclines it to the knowledge of the ending of the effluents. He discerns, as it has come to be, that ‘ This is stress … This is the origination of stress … This is the cessation of stress … This is the way leading to the cessation of stress … These are effluents … This is the origination of effluents … This is the cessation of effluents … This is the way leading to the cessation of effluents.’ His heart, thus knowing, thus seeing, is released from the effluent of sensuality, released from the effluent of becoming, released from the effluent of ignorance. With release, there is the knowledge, ‘Released.’ He discerns that ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.’"
     },
     {
       "number": 23,
-      "pali": "Evarūpopi, bhikkhave, idhekacco yodhājīvo hoti. ",
-      "english": "Some warriors are like that. "
+      "pali": "",
+      "english": "“This, for him, is victory in the battle. This individual, I tell you, is like the warrior who can handle the cloud of dust, the top of the enemy’s banner, the tumult, & hand-to-hand combat. On winning the battle, victorious in battle, he comes out at the very head of the battle. Some individuals are like this. This is the fifth type of warrior-like individual who can be found existing among the monks."
     },
     {
       "number": 24,
-      "pali": "Ayaṁ, bhikkhave, pañcamo yodhājīvo santo saṁvijjamāno lokasmiṁ. ",
-      "english": "This is the fifth warrior found in the world. "
-    },
-    {
-      "number": 25,
-      "pali": "Ime kho, bhikkhave, pañca yodhājīvā santo saṁvijjamānā lokasmiṁ. ",
-      "english": "These are the five warriors found in the world. "
-    },
-    {
-      "number": 26,
-      "pali": "Evamevaṁ kho, bhikkhave, pañcime yodhājīvūpamā puggalā santo saṁvijjamānā bhikkhūsu. ",
-      "english": "In the same way, these five individuals similar to warriors are found among the monks. "
-    },
-    {
-      "number": 27,
-      "pali": "Katame pañca? ",
-      "english": "What five? "
-    },
-    {
-      "number": 28,
-      "pali": "Idha, bhikkhave, bhikkhu rajaggaññeva disvā saṁsīdati visīdati, na santhambhati, na sakkoti brahmacariyaṁ sandhāretuṁ. ",
-      "english": "Firstly, one monk falters and founders at the mere sight of a cloud of dust. He doesn’t stay firm, and fails to keep up the spiritual life. "
-    },
-    {
-      "number": 29,
-      "pali": "Sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. ",
-      "english": "Declaring his inability to continue training, he disavows it and returns to a lesser life. "
-    },
-    {
-      "number": 30,
-      "pali": "Kimassa rajaggasmiṁ? ",
-      "english": "What is his ‘cloud of dust’? "
-    },
-    {
-      "number": 31,
-      "pali": "Idha, bhikkhave, bhikkhu suṇāti: ",
-      "english": "It’s when a monk hears: "
-    },
-    {
-      "number": 32,
-      "pali": "‘amukasmiṁ nāma gāme vā nigame vā itthī vā kumārī vā abhirūpā dassanīyā pāsādikā paramāya vaṇṇapokkharatāya samannāgatā’ti. ",
-      "english": "‘In such and such a village or town there’s a women or a girl who is attractive, good-looking, lovely, of surpassing beauty.’ "
-    },
-    {
-      "number": 33,
-      "pali": "So taṁ sutvā saṁsīdati visīdati, na santhambhati, na sakkoti brahmacariyaṁ sandhāretuṁ. ",
-      "english": "Hearing this, he falters and founders. He doesn’t stay firm, and fails to keep up the spiritual life. "
-    },
-    {
-      "number": 34,
-      "pali": "Sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. ",
-      "english": "Declaring his inability to continue training, he disavows it and returns to a lesser life. "
-    },
-    {
-      "number": 35,
-      "pali": "Idamassa rajaggasmiṁ. ",
-      "english": "This is his ‘cloud of dust’. "
-    },
-    {
-      "number": 36,
-      "pali": "Seyyathāpi so, bhikkhave, yodhājīvo rajaggaññeva disvā saṁsīdati visīdati, na santhambhati, na sakkoti saṅgāmaṁ otarituṁ; ",
-      "english": "I say that this individual is like the warrior who falters and founders at the mere sight of a cloud of dust. "
-    },
-    {
-      "number": 37,
-      "pali": "tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
-      "english": ""
-    },
-    {
-      "number": 38,
-      "pali": "Evarūpopi, bhikkhave, idhekacco puggalo hoti. ",
-      "english": "Some individuals are like that. "
-    },
-    {
-      "number": 39,
-      "pali": "Ayaṁ, bhikkhave, paṭhamo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. ",
-      "english": "This is the first individual similar to a warrior found among the monks. "
-    },
-    {
-      "number": 40,
-      "pali": "Puna caparaṁ, bhikkhave, bhikkhu sahati rajaggaṁ; ",
-      "english": "Furthermore, one monk can prevail over a cloud of dust, "
-    },
-    {
-      "number": 41,
-      "pali": "api ca kho dhajaggaññeva disvā saṁsīdati visīdati, na santhambhati, na sakkoti brahmacariyaṁ sandhāretuṁ. ",
-      "english": "but at the mere sight of a banner’s crest he falters and founders. He doesn’t stay firm, and fails to keep up the spiritual life. "
-    },
-    {
-      "number": 42,
-      "pali": "Sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. ",
-      "english": "Declaring his inability to continue training, he disavows it and returns to a lesser life. "
-    },
-    {
-      "number": 43,
-      "pali": "Kimassa dhajaggasmiṁ? ",
-      "english": "What is his ‘banner’s crest’? "
-    },
-    {
-      "number": 44,
-      "pali": "Idha, bhikkhave, bhikkhu na heva kho suṇāti: ",
-      "english": "It’s when a monk doesn’t hear: "
-    },
-    {
-      "number": 45,
-      "pali": "‘amukasmiṁ nāma gāme vā nigame vā itthī vā kumārī vā abhirūpā dassanīyā pāsādikā paramāya vaṇṇapokkharatāya samannāgatā’ti; ",
-      "english": "‘In such and such a village or town there’s a women or a girl who is attractive, good-looking, lovely, of surpassing beauty.’ "
-    },
-    {
-      "number": 46,
-      "pali": "api ca kho sāmaṁ passati itthiṁ vā kumāriṁ vā abhirūpaṁ dassanīyaṁ pāsādikaṁ paramāya vaṇṇapokkharatāya samannāgataṁ. ",
-      "english": "But he sees for himself a women or a girl who is attractive, good-looking, lovely, of surpassing beauty. "
-    },
-    {
-      "number": 47,
-      "pali": "So taṁ disvā saṁsīdati visīdati, na santhambhati, na sakkoti brahmacariyaṁ sandhāretuṁ. ",
-      "english": "Seeing her, he falters and founders. He doesn’t stay firm, and fails to keep up the spiritual life. "
-    },
-    {
-      "number": 48,
-      "pali": "Sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. ",
-      "english": "Declaring his inability to continue training, he disavows it and returns to a lesser life. "
-    },
-    {
-      "number": 49,
-      "pali": "Idamassa dhajaggasmiṁ. ",
-      "english": "This is his ‘banner’s crest’. "
-    },
-    {
-      "number": 50,
-      "pali": "Seyyathāpi so, bhikkhave, yodhājīvo sahati rajaggaṁ; ",
-      "english": "I say that this individual is like the warrior who can prevail over a cloud of dust, "
-    },
-    {
-      "number": 51,
-      "pali": "api ca kho dhajaggaññeva disvā saṁsīdati visīdati, na santhambhati, na sakkoti saṅgāmaṁ otarituṁ; ",
-      "english": "but he falters and founders at the mere sight of a banner’s crest. "
-    },
-    {
-      "number": 52,
-      "pali": "tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
-      "english": ""
-    },
-    {
-      "number": 53,
-      "pali": "Evarūpopi, bhikkhave, idhekacco puggalo hoti. ",
-      "english": "Some individuals are like that. "
-    },
-    {
-      "number": 54,
-      "pali": "Ayaṁ, bhikkhave, dutiyo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. ",
-      "english": "This is the second individual similar to a warrior found among the monks. "
-    },
-    {
-      "number": 55,
-      "pali": "Puna caparaṁ, bhikkhave, bhikkhu sahati rajaggaṁ, sahati dhajaggaṁ; ",
-      "english": "Furthermore, one monk can prevail over a cloud of dust and a banner’s crest, "
-    },
-    {
-      "number": 56,
-      "pali": "api ca kho ussāraṇaññeva sutvā saṁsīdati visīdati, na santhambhati, na sakkoti brahmacariyaṁ sandhāretuṁ. ",
-      "english": "but he falters and founders at the mere sound of turmoil. He doesn’t stay firm, and fails to keep up the spiritual life. "
-    },
-    {
-      "number": 57,
-      "pali": "Sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. ",
-      "english": "Declaring his inability to continue training, he disavows it and returns to a lesser life. "
-    },
-    {
-      "number": 58,
-      "pali": "Kimassa ussāraṇāya? ",
-      "english": "What is his ‘turmoil’? "
-    },
-    {
-      "number": 59,
-      "pali": "Idha, bhikkhave, bhikkhuṁ araññagataṁ vā rukkhamūlagataṁ vā suññāgāragataṁ vā mātugāmo upasaṅkamitvā ūhasati ullapati ujjagghati uppaṇḍeti. ",
-      "english": "It’s when a mendicant who has gone to a wilderness, or to the root of a tree, or to an empty hut is approached by a lady. She smiles, chats, laughs, and teases him. "
-    },
-    {
-      "number": 60,
-      "pali": "So mātugāmena ūhasiyamāno ullapiyamāno ujjagghiyamāno uppaṇḍiyamāno saṁsīdati visīdati, na santhambhati, na sakkoti brahmacariyaṁ sandhāretuṁ. ",
-      "english": "He falters and founders. He doesn’t stay firm, and fails to keep up the spiritual life. "
-    },
-    {
-      "number": 61,
-      "pali": "Sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. ",
-      "english": "Declaring his inability to continue training, he disavows it and returns to a lesser life. "
-    },
-    {
-      "number": 62,
-      "pali": "Idamassa ussāraṇāya. ",
-      "english": "This is his ‘turmoil’. "
-    },
-    {
-      "number": 63,
-      "pali": "Seyyathāpi so, bhikkhave, yodhājīvo sahati rajaggaṁ, sahati dhajaggaṁ; ",
-      "english": "I say that this individual is like the warrior who can prevail over a cloud of dust and a banner’s crest, "
-    },
-    {
-      "number": 64,
-      "pali": "api ca kho ussāraṇaññeva sutvā saṁsīdati visīdati, na santhambhati, na sakkoti saṅgāmaṁ otarituṁ; ",
-      "english": "but he falters and founders at the mere sound of turmoil. "
-    },
-    {
-      "number": 65,
-      "pali": "tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
-      "english": ""
-    },
-    {
-      "number": 66,
-      "pali": "Evarūpopi, bhikkhave, idhekacco puggalo hoti. ",
-      "english": "Some individuals are like that. "
-    },
-    {
-      "number": 67,
-      "pali": "Ayaṁ, bhikkhave, tatiyo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. ",
-      "english": "This is the third individual similar to a warrior found among the monks. "
-    },
-    {
-      "number": 68,
-      "pali": "Puna caparaṁ, bhikkhave, bhikkhu sahati rajaggaṁ, sahati dhajaggaṁ, sahati ussāraṇaṁ; ",
-      "english": "Furthermore, one monk can prevail over a cloud of dust and a banner’s crest and turmoil, "
-    },
-    {
-      "number": 69,
-      "pali": "api ca kho sampahāre haññati byāpajjati. ",
-      "english": "but he’s killed or injured when blows are struck. "
-    },
-    {
-      "number": 70,
-      "pali": "Kimassa sampahārasmiṁ? ",
-      "english": "What is his ‘blows are struck’? "
-    },
-    {
-      "number": 71,
-      "pali": "Idha, bhikkhave, bhikkhuṁ araññagataṁ vā rukkhamūlagataṁ vā suññāgāragataṁ vā mātugāmo upasaṅkamitvā abhinisīdati abhinipajjati ajjhottharati. ",
-      "english": "It’s when a mendicant who has gone to a wilderness, or to the root of a tree, or to an empty hut is approached by a lady. She sits right by him, lies down, or embraces him. "
-    },
-    {
-      "number": 72,
-      "pali": "So mātugāmena abhinisīdiyamāno abhinipajjiyamāno ajjhotthariyamāno sikkhaṁ apaccakkhāya dubbalyaṁ anāvikatvā methunaṁ dhammaṁ paṭisevati. ",
-      "english": "Without resigning the training and declaring his inability to continue, he indulges in sex. "
-    },
-    {
-      "number": 73,
-      "pali": "Idamassa sampahārasmiṁ. ",
-      "english": "This is his ‘blows are struck’. "
-    },
-    {
-      "number": 74,
-      "pali": "Seyyathāpi so, bhikkhave, yodhājīvo sahati rajaggaṁ, sahati dhajaggaṁ, sahati ussāraṇaṁ, api ca kho sampahāre haññati byāpajjati; ",
-      "english": "I say that this individual is like the warrior who can prevail over a cloud of dust and a banner’s crest and turmoil, but is killed or injured when blows are struck. "
-    },
-    {
-      "number": 75,
-      "pali": "tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
-      "english": ""
-    },
-    {
-      "number": 76,
-      "pali": "Evarūpopi, bhikkhave, idhekacco puggalo hoti. ",
-      "english": "Some individuals are like that. "
-    },
-    {
-      "number": 77,
-      "pali": "Ayaṁ, bhikkhave, catuttho yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. ",
-      "english": "This is the fourth individual similar to a warrior found among the monks. "
-    },
-    {
-      "number": 78,
-      "pali": "Puna caparaṁ, bhikkhave, bhikkhu sahati rajaggaṁ, sahati dhajaggaṁ, sahati ussāraṇaṁ, sahati sampahāraṁ, so taṁ saṅgāmaṁ abhivijinitvā vijitasaṅgāmo tameva saṅgāmasīsaṁ ajjhāvasati. ",
-      "english": "Furthermore, one monk can prevail over a cloud of dust and a banner’s crest and turmoil, and being struck. He wins victory in battle, establishing himself as foremost in battle. "
-    },
-    {
-      "number": 79,
-      "pali": "Kimassa saṅgāmavijayasmiṁ? ",
-      "english": "What is his ‘victory in battle’? "
-    },
-    {
-      "number": 80,
-      "pali": "Idha, bhikkhave, bhikkhuṁ araññagataṁ vā rukkhamūlagataṁ vā suññāgāragataṁ vā mātugāmo upasaṅkamitvā abhinisīdati abhinipajjati ajjhottharati. ",
-      "english": "It’s when a mendicant who has gone to a wilderness, or to the root of a tree, or to an empty hut is approached by a lady. She sits right by him, lies down, or embraces him. "
-    },
-    {
-      "number": 81,
-      "pali": "So mātugāmena abhinisīdiyamāno abhinipajjiyamāno ajjhotthariyamāno viniveṭhetvā vinimocetvā yena kāmaṁ pakkamati. ",
-      "english": "But he disentangles and frees himself, and goes wherever he wants. "
-    },
-    {
-      "number": 82,
-      "pali": "So vivittaṁ senāsanaṁ bhajati araññaṁ rukkhamūlaṁ pabbataṁ kandaraṁ giriguhaṁ susānaṁ vanapatthaṁ abbhokāsaṁ palālapuñjaṁ. ",
-      "english": "He frequents a secluded lodging—a wilderness, the root of a tree, a hill, a ravine, a mountain cave, a charnel ground, a forest, the open air, a heap of straw. "
-    },
-    {
-      "number": 83,
-      "pali": "So araññagato vā rukkhamūlagato vā suññāgāragato vā nisīdati pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā. ",
-      "english": "Gone to a wilderness, or to the root of a tree, or to an empty hut, he sits down cross-legged, sets his body straight, and brings mindfulness to the present. "
-    },
-    {
-      "number": 84,
-      "pali": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; ",
-      "english": "Giving up covetousness for the world, he meditates with a heart rid of covetousness, cleansing the mind of covetousness. "
-    },
-    {
-      "number": 85,
-      "pali": "byāpādapadosaṁ pahāya abyāpannacitto viharati, sabbapāṇabhūtahitānukampī byāpādapadosā cittaṁ parisodheti; ",
-      "english": "Giving up ill will and malevolence, he meditates with a mind rid of ill will, full of sympathy for all living beings, cleansing the mind of ill will. "
-    },
-    {
-      "number": 86,
-      "pali": "thinamiddhaṁ pahāya vigatathinamiddho viharati ālokasaññī sato sampajāno, thinamiddhā cittaṁ parisodheti; ",
-      "english": "Giving up dullness and drowsiness, he meditates with a mind rid of dullness and drowsiness, perceiving light, mindful and aware, cleansing the mind of dullness and drowsiness. "
-    },
-    {
-      "number": 87,
-      "pali": "uddhaccakukkuccaṁ pahāya anuddhato viharati ajjhattaṁ vūpasantacitto, uddhaccakukkuccā cittaṁ parisodheti; ",
-      "english": "Giving up restlessness and remorse, he meditates without restlessness, his mind peaceful inside, cleansing the mind of restlessness and remorse. "
-    },
-    {
-      "number": 88,
-      "pali": "vicikicchaṁ pahāya tiṇṇavicikiccho viharati akathaṅkathī kusalesu dhammesu, vicikicchāya cittaṁ parisodheti. ",
-      "english": "Giving up doubt, he meditates having gone beyond doubt, not undecided about skillful qualities, cleansing the mind of doubt. "
-    },
-    {
-      "number": 89,
-      "pali": "So ime pañca nīvaraṇe pahāya cetaso upakkilese paññāya dubbalīkaraṇe ",
-      "english": "He gives up these five hindrances, corruptions of the heart that weaken wisdom. "
-    },
-    {
-      "number": 90,
-      "pali": "vivicceva kāmehi …pe… ",
-      "english": "Then, quite secluded from sensual pleasures, secluded from unskillful qualities, he enters and remains in the first absorption … "
-    },
-    {
-      "number": 91,
-      "pali": "catutthaṁ jhānaṁ upasampajja viharati. ",
-      "english": "second absorption … third absorption … fourth absorption. "
-    },
-    {
-      "number": 92,
-      "pali": "So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte āsavānaṁ khayañāṇāya cittaṁ abhininnāmeti. ",
-      "english": "When his mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—he extends it toward knowledge of the ending of defilements. "
-    },
-    {
-      "number": 93,
-      "pali": "So ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhasamudayo’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodho’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti, ",
-      "english": "He truly understands: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’. "
-    },
-    {
-      "number": 94,
-      "pali": "‘ime āsavā’ti yathābhūtaṁ pajānāti, ‘ayaṁ āsavasamudayo’ti yathābhūtaṁ pajānāti, ‘ayaṁ āsavanirodho’ti yathābhūtaṁ pajānāti, ‘ayaṁ āsavanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti. ",
-      "english": "He truly understands: ‘These are defilements’ … ‘This is the origin of defilements’ … ‘This is the cessation of defilements’ … ‘This is the practice that leads to the cessation of defilements’. "
-    },
-    {
-      "number": 95,
-      "pali": "Tassa evaṁ jānato evaṁ passato kāmāsavāpi cittaṁ vimuccati, bhavāsavāpi cittaṁ vimuccati, avijjāsavāpi cittaṁ vimuccati, ",
-      "english": "Knowing and seeing like this, his mind is freed from the defilements of sensuality, desire to be reborn, and ignorance. "
-    },
-    {
-      "number": 96,
-      "pali": "vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. ",
-      "english": "When it is freed, he knows it is freed. "
-    },
-    {
-      "number": 97,
-      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ",
-      "english": "He understands: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
-    },
-    {
-      "number": 98,
-      "pali": "Idamassa saṅgāmavijayasmiṁ. ",
-      "english": "This is his ‘victory in battle’. "
-    },
-    {
-      "number": 99,
-      "pali": "Seyyathāpi so, bhikkhave, yodhājīvo sahati rajaggaṁ, sahati dhajaggaṁ, sahati ussāraṇaṁ, sahati sampahāraṁ, so taṁ saṅgāmaṁ abhivijinitvā vijitasaṅgāmo tameva saṅgāmasīsaṁ ajjhāvasati; ",
-      "english": "I say that this individual is like the warrior who can prevail over a cloud of dust and a banner’s crest and turmoil and being struck. He wins victory in battle, establishing himself as foremost in battle. "
-    },
-    {
-      "number": 100,
-      "pali": "tathūpamāhaṁ, bhikkhave, imaṁ puggalaṁ vadāmi. ",
-      "english": ""
-    },
-    {
-      "number": 101,
-      "pali": "Evarūpopi, bhikkhave, idhekacco puggalo hoti. ",
-      "english": "Some individuals are like that. "
-    },
-    {
-      "number": 102,
-      "pali": "Ayaṁ, bhikkhave, pañcamo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. ",
-      "english": "This is the fifth individual similar to a warrior found among the monks. "
-    },
-    {
-      "number": 103,
-      "pali": "Ime kho, bhikkhave, pañca yodhājīvūpamā puggalā santo saṁvijjamānā bhikkhūsū”ti. ",
-      "english": "These five individuals similar to warriors are found among the monks.” "
-    },
-    {
-      "number": 104,
-      "pali": "Pañcamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“These are the five warrior-like individuals who can be found existing among the monks.”"
     }
   ]
 }

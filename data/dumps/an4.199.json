@@ -3,113 +3,48 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 4.199 ",
-      "english": "Numbered Discourses 4.199 "
+      "pali": "Numerical Discourses 4.199",
+      "english": "Numerical Discourses 4.199"
     },
     {
       "number": 2,
-      "pali": "20. Mahāvagga ",
-      "english": "20. The Great Chapter "
+      "pali": "Taṇhā Sutta",
+      "english": "Craving"
     },
     {
       "number": 3,
-      "pali": "Taṇhāsutta ",
-      "english": "Craving, the Weaver "
+      "pali": "",
+      "english": "“Monks, I will teach you craving: the ensnarer that has flowed along, spread out, and caught hold, with which this world is smothered & enveloped like a tangled skein, a knotted ball of string, like matted rushes and reeds, and does not go beyond transmigration, beyond the planes of deprivation, woe, & bad destinations. Listen well, and I will speak.”"
     },
     {
       "number": 4,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
+      "pali": "",
+      "english": "“Yes, lord,” the monks responded to him."
     },
     {
       "number": 5,
-      "pali": "“taṇhaṁ vo, bhikkhave, desessāmi jāliniṁ saritaṁ visaṭaṁ visattikaṁ, yāya ayaṁ loko uddhasto pariyonaddho tantākulakajāto gulāguṇṭhikajāto muñjapabbajabhūto apāyaṁ duggatiṁ vinipātaṁ saṁsāraṁ nātivattati. ",
-      "english": "“Mendicants, I will teach you about craving—the weaver, the migrant, the creeping, the clinging. This world is choked by it, engulfed by it. It makes the world tangled like yarn, knotted like a ball of thread, and matted like rushes and reeds, not escaping the places of loss, the bad places, the underworld, transmigration. "
+      "pali": "",
+      "english": "The Blessed One said: “And which craving is the ensnarer that has flowed along, spread out, and caught hold, with which this world is smothered & enveloped like a tangled skein, a knotted ball of string, like matted rushes and reeds, and does not go beyond transmigration, beyond the planes of deprivation, woe, & bad destinations? These 18 craving-verbalizations dependent on what is internal and 18 craving-verbalizations dependent on what is external."
     },
     {
       "number": 6,
-      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
-      "english": "Listen and apply your mind well, I will speak.” "
+      "pali": "",
+      "english": "“And which are the 18 craving-verbalizations dependent on what is internal? There being ‘I am,’ there comes to be ‘I am here,’ there comes to be ‘I am like this’ … ‘I am otherwise’ … ‘I am bad’ … ‘I am good’ … ‘I might be’ … ‘I might be here’ … ‘I might be like this’ … ‘I might be otherwise’ … ‘May I be’ … ‘May I be here’ … ‘May I be like this’ … ‘May I be otherwise’ … ‘I will be’ … ‘I will be here’ … ‘I will be like this’ … ‘I will be otherwise.’ These are the 18 craving-verbalizations dependent on what is internal."
     },
     {
       "number": 7,
-      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Yes, sir,” they replied. "
+      "pali": "",
+      "english": "“And which are the 18 craving-verbalizations dependent on what is external? There being ‘I am because of this [or: by means of this],’ there comes to be ‘I am here because of this,’ there comes to be ‘I am like this because of this’ … ‘I am otherwise because of this’ … ‘I am bad because of this’ … ‘I am good because of this’ … ‘I might be because of this’ … ‘I might be here because of this’ … ‘I might be like this because of this’ … ‘I might be otherwise because of this’ … ‘May I be because of this’ … ‘May I be here because of this’ … ‘May I be like this because of this’ … ‘May I be otherwise because of this’ … ‘I will be because of this’ … ‘I will be here because of this’ … ‘I will be like this because of this’ … ‘I will be otherwise because of this.’ These are the 18 craving-verbalizations dependent on what is external."
     },
     {
       "number": 8,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
+      "pali": "",
+      "english": "“Thus there are 18 craving-verbalizations dependent on what is internal and 18 craving-verbalizations dependent on what is external. These are called the 36 craving-verbalizations. Thus, with 36 craving-verbalizations of this sort in the past, 36 in the future, and 36 in the present, there are 108 craving-verbalizations."
     },
     {
       "number": 9,
-      "pali": "“Katamā ca sā, bhikkhave, taṇhā jālinī saritā visaṭā visattikā, yāya ayaṁ loko uddhasto pariyonaddho tantākulakajāto gulāguṇṭhikajāto muñjapabbajabhūto apāyaṁ duggatiṁ vinipātaṁ saṁsāraṁ nātivattati? ",
-      "english": "“And what is that craving …? "
-    },
-    {
-      "number": 10,
-      "pali": "Aṭṭhārasa kho panimāni, bhikkhave, taṇhāvicaritāni ajjhattikassa upādāya, aṭṭhārasa taṇhāvicaritāni bāhirassa upādāya. ",
-      "english": "There are eighteen currents of craving that derive from the interior, and eighteen that derive from the exterior. "
-    },
-    {
-      "number": 11,
-      "pali": "Katamāni aṭṭhārasa taṇhāvicaritāni ajjhattikassa upādāya? ",
-      "english": "What are the eighteen currents of craving that derive from the interior? "
-    },
-    {
-      "number": 12,
-      "pali": "Asmīti, bhikkhave, sati itthasmīti hoti, evaṁsmīti hoti, aññathāsmīti hoti, asasmīti hoti, satasmīti hoti, santi hoti, itthaṁ santi hoti, evaṁ santi hoti, aññathā santi hoti, apihaṁ santi hoti, apihaṁ itthaṁ santi hoti, apihaṁ evaṁ santi hoti, apihaṁ aññathā santi hoti, bhavissanti hoti, itthaṁ bhavissanti hoti, evaṁ bhavissanti hoti, aññathā bhavissanti hoti. ",
-      "english": "When there is the concept ‘I am’, there are the concepts ‘I am such’, ‘I am thus’, ‘I am otherwise’; ‘I am fleeting’, ‘I am lasting’; ‘mine’, ‘such is mine’, ‘thus is mine’, ‘otherwise is mine’; ‘also mine’, ‘such is also mine’, ‘thus is also mine’, ‘otherwise is also mine’; ‘I will be’, ‘I will be such’, ‘I will be thus’, ‘I will be otherwise’. "
-    },
-    {
-      "number": 13,
-      "pali": "Imāni aṭṭhārasa taṇhāvicaritāni ajjhattikassa upādāya. ",
-      "english": "These are the eighteen currents of craving that derive from the interior. "
-    },
-    {
-      "number": 14,
-      "pali": "Katamāni aṭṭhārasa taṇhāvicaritāni bāhirassa upādāya? ",
-      "english": "What are the eighteen currents of craving that derive from the exterior? "
-    },
-    {
-      "number": 15,
-      "pali": "Imināsmīti, bhikkhave, sati iminā itthasmīti hoti, iminā evaṁsmīti hoti, iminā aññathāsmīti hoti, iminā asasmīti hoti, iminā satasmīti hoti, iminā santi hoti, iminā itthaṁ santi hoti, iminā evaṁ santi hoti, iminā aññathā santi hoti, iminā apihaṁ santi hoti, iminā apihaṁ itthaṁ santi hoti, iminā apihaṁ evaṁ santi hoti, iminā apihaṁ aññathā santi hoti, iminā bhavissanti hoti, iminā itthaṁ bhavissanti hoti, iminā evaṁ bhavissanti hoti, iminā aññathā bhavissanti hoti. ",
-      "english": "When there is the concept ‘I am because of this’, there are the concepts ‘I am such because of this’, ‘I am thus because of this’, ‘I am otherwise because of this’; ‘I am fleeting because of this’, ‘I am lasting because of this’; ‘mine because of this’, ‘such is mine because of this’, ‘thus is mine because of this’, ‘otherwise is mine because of this’; ‘also mine because of this’, ‘such is also mine because of this’, ‘thus is also mine because of this’, ‘otherwise is also mine because of this’; ‘I will be because of this’, ‘I will be such because of this’, ‘I will be thus because of this’, ‘I will be otherwise because of this’. "
-    },
-    {
-      "number": 16,
-      "pali": "Imāni aṭṭhārasa taṇhāvicaritāni bāhirassa upādāya. ",
-      "english": "These are the eighteen currents of craving that derive from the exterior. "
-    },
-    {
-      "number": 17,
-      "pali": "Iti aṭṭhārasa taṇhāvicaritāni ajjhattikassa upādāya, aṭṭhārasa taṇhāvicaritāni bāhirassa upādāya. ",
-      "english": "So there are eighteen currents of craving that derive from the interior, and eighteen that derive from the exterior. "
-    },
-    {
-      "number": 18,
-      "pali": "Imāni vuccanti, bhikkhave, chattiṁsa taṇhāvicaritāni. ",
-      "english": "These are called the thirty-six currents of craving. "
-    },
-    {
-      "number": 19,
-      "pali": "Iti evarūpāni atītāni chattiṁsa taṇhāvicaritāni, anāgatāni chattiṁsa taṇhāvicaritāni, paccuppannāni chattiṁsa taṇhāvicaritāni. ",
-      "english": "Each of these pertain to the past, future, and present, "
-    },
-    {
-      "number": 20,
-      "pali": "Evaṁ aṭṭhasataṁ taṇhāvicaritaṁ honti. ",
-      "english": "making one hundred and eight currents of craving. "
-    },
-    {
-      "number": 21,
-      "pali": "Ayaṁ kho sā, bhikkhave, taṇhā jālinī saritā visaṭā visattikā, yāya ayaṁ loko uddhasto pariyonaddho tantākulakajāto guṇāguṇṭhikajāto muñjapabbajabhūto apāyaṁ duggatiṁ vinipātaṁ saṁsāraṁ nātivattatī”ti. ",
-      "english": "This is that craving—the weaver, the migrant, the creeping, the clinging. This world is choked by it, engulfed by it. It makes the world tangled like yarn, knotted like a ball of thread, and matted like rushes and reeds, not escaping the places of loss, the bad places, the underworld, transmigration.” "
-    },
-    {
-      "number": 22,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“This, monks, is craving: the ensnarer that has flowed along, spread out, and caught hold, with which this world is smothered & enveloped like a tangled skein, a knotted ball of string, like matted rushes and reeds, and does not go beyond transmigration, beyond the planes of deprivation, woe, & bad destinations.”"
     }
   ]
 }

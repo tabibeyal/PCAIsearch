@@ -3,233 +3,158 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.36 ",
-      "english": "Linked Discourses 22.36 "
+      "pali": "Linked Discourses 22.36",
+      "english": "Linked Discourses 22.36"
     },
     {
       "number": 2,
-      "pali": "4. Natumhākavagga ",
-      "english": "4. It’s Not Yours "
+      "pali": "Bhikkhu Sutta",
+      "english": "The Monk"
     },
     {
       "number": 3,
-      "pali": "Dutiyaaññatarabhikkhusutta ",
-      "english": "A Mendicant (2nd) "
+      "pali": "",
+      "english": "Some people have said that the Buddha’s teachings on the aggregates constitute his analysis of what we truly are; and that because the aggregates are impermanent and interdependent, we have an impermanent, interdependent self. This sutta, however, shows that we can be analyzed into the aggregates only if we feel obsession or attachment for them. If we don’t feel these things, there’s no way we can be measured, classified, or defined."
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "Near Sāvatthī. Then a certain monk went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there, he said to the Blessed One: “It would be good, venerable sir, if the Blessed One would teach me the Dhamma in brief such that, having heard the Dhamma from the Blessed One, I might dwell alone, secluded, heedful, ardent, & resolute.”"
     },
     {
       "number": 5,
-      "pali": "Atha kho aññataro bhikkhu yena bhagavā …pe… ekamantaṁ nisinno kho so bhikkhu bhagavantaṁ etadavoca: ",
-      "english": "Then a mendicant went up to the Buddha … and asked him, "
+      "pali": "",
+      "english": "“Monk, whatever one stays obsessed with, that’s what one is measured by. Whatever one is measured by, that’s how one is classified. Whatever one doesn’t stay obsessed with, that’s not what one is measured by. Whatever one isn’t measured by, that’s not how one is classified.”"
     },
     {
       "number": 6,
-      "pali": "“sādhu me, bhante, bhagavā saṅkhittena dhammaṁ desetu yamahaṁ bhagavato dhammaṁ sutvā eko vūpakaṭṭho appamatto ātāpī pahitatto vihareyyan”ti. ",
-      "english": "“Sir, may the Buddha please teach me Dhamma in brief. When I’ve heard it, I’ll live alone, withdrawn, diligent, keen, and resolute.” "
+      "pali": "",
+      "english": "“I understand, O Blessed One! I understand, O One Well-Gone!”"
     },
     {
       "number": 7,
-      "pali": "“Yaṁ kho, bhikkhu, anuseti taṁ anumīyati; ",
-      "english": "“Mendicant, you’re measured against what you have an underlying tendency for, "
+      "pali": "",
+      "english": "“And how, monk, do you understand the detailed meaning of what I have said in brief?”"
     },
     {
       "number": 8,
-      "pali": "yaṁ anumīyati tena saṅkhaṁ gacchati. ",
-      "english": "and you’re reckoned by what you’re measured against. "
+      "pali": "",
+      "english": "“If one stays obsessed with form, lord, that’s what one is measured by. Whatever one is measured by, that’s how one is classified."
     },
     {
       "number": 9,
-      "pali": "Yaṁ nānuseti na taṁ anumīyati; ",
-      "english": "You’re not measured against what you have no underlying tendency for, "
+      "pali": "",
+      "english": "“If one stays obsessed with feeling.…"
     },
     {
       "number": 10,
-      "pali": "yaṁ nānumīyati na tena saṅkhaṁ gacchatī”ti. ",
-      "english": "and you’re not reckoned by what you’re not measured against.” "
+      "pali": "",
+      "english": "“If one stays obsessed with perception.…"
     },
     {
       "number": 11,
-      "pali": "“Aññātaṁ, bhagavā, aññātaṁ, sugatā”ti. ",
-      "english": "“Understood, Blessed One! Understood, Holy One!” "
+      "pali": "",
+      "english": "“If one stays obsessed with fabrications.…"
     },
     {
       "number": 12,
-      "pali": "“Yathā kathaṁ pana tvaṁ, bhikkhu, mayā saṅkhittena bhāsitassa vitthārena atthaṁ ājānāsī”ti? ",
-      "english": "“But how do you see the detailed meaning of my brief statement?” "
+      "pali": "",
+      "english": "“If one stays obsessed with consciousness, that’s what one is measured by. Whatever one is measured by, that’s how one is classified."
     },
     {
       "number": 13,
-      "pali": "“Rūpañce, bhante, anuseti taṁ anumīyati; ",
-      "english": "“If you have an underlying tendency for form, you’re measured against that, "
+      "pali": "",
+      "english": "“But if one doesn’t stay obsessed with form, lord, that’s not what one is measured by. Whatever one isn’t measured by, that’s not how one is classified."
     },
     {
       "number": 14,
-      "pali": "yaṁ anumīyati tena saṅkhaṁ gacchati. ",
-      "english": "and you’re reckoned by what you’re measured against. "
+      "pali": "",
+      "english": "“If one doesn’t stay obsessed with feeling.…"
     },
     {
       "number": 15,
-      "pali": "Vedanañce anuseti … ",
-      "english": "If you have an underlying tendency for feeling … "
+      "pali": "",
+      "english": "“If one doesn’t stay obsessed with perception.…"
     },
     {
       "number": 16,
-      "pali": "saññañce anuseti … ",
-      "english": "perception … "
+      "pali": "",
+      "english": "“If one doesn’t stay obsessed with fabrications.…"
     },
     {
       "number": 17,
-      "pali": "saṅkhāre ce anuseti … ",
-      "english": "choices … "
+      "pali": "",
+      "english": "“If one doesn’t stay obsessed with consciousness, that’s not what one is measured by. Whatever one isn’t measured by, that’s not how one is classified."
     },
     {
       "number": 18,
-      "pali": "viññāṇañce anuseti taṁ anumīyati; ",
-      "english": "consciousness, you’re measured against that, "
+      "pali": "",
+      "english": "“Lord, this is how I understand the detailed meaning of what you have said in brief.”"
     },
     {
       "number": 19,
-      "pali": "yaṁ anumīyati tena saṅkhaṁ gacchati. ",
-      "english": "and you’re reckoned by what you’re measured against. "
+      "pali": "",
+      "english": "“Good, monk. Very good. It’s good that this is how you understand the detailed meaning of what I have said in brief."
     },
     {
       "number": 20,
-      "pali": "Rūpañce, bhante, nānuseti na taṁ anumīyati; ",
-      "english": "If you have no underlying tendency for form, you’re not measured against that, "
+      "pali": "",
+      "english": "“If one stays obsessed with form, monk, that’s what one is measured by. Whatever one is measured by, that’s how one is classified."
     },
     {
       "number": 21,
-      "pali": "yaṁ nānumīyati na tena saṅkhaṁ gacchati. ",
-      "english": "and you’re not reckoned by what you’re not measured against. "
+      "pali": "",
+      "english": "“If one stays obsessed with feeling.…"
     },
     {
       "number": 22,
-      "pali": "Vedanañce nānuseti … ",
-      "english": "If you have no underlying tendency for feeling … "
+      "pali": "",
+      "english": "“If one stays obsessed with perception.…"
     },
     {
       "number": 23,
-      "pali": "saññañce nānuseti … ",
-      "english": "perception … "
+      "pali": "",
+      "english": "“If one stays obsessed with fabrications.…"
     },
     {
       "number": 24,
-      "pali": "saṅkhāre ce nānuseti … ",
-      "english": "choices … "
+      "pali": "",
+      "english": "“If one stays obsessed with consciousness, that’s what one is measured by. Whatever one is measured by, that’s how one is classified."
     },
     {
       "number": 25,
-      "pali": "viññāṇañce nānuseti na taṁ anumīyati; ",
-      "english": "consciousness, you’re not measured against that, "
+      "pali": "",
+      "english": "“But if one doesn’t stay obsessed with form, monk, that’s not what one is measured by. Whatever one isn’t measured by, that’s not how one is classified."
     },
     {
       "number": 26,
-      "pali": "yaṁ nānumīyati na tena saṅkhaṁ gacchati. ",
-      "english": "and you’re not reckoned by what you’re not measured against. "
+      "pali": "",
+      "english": "“If one doesn’t stay obsessed with feeling.…"
     },
     {
       "number": 27,
-      "pali": "Imassa khvāhaṁ, bhante, bhagavatā saṅkhittena bhāsitassa evaṁ vitthārena atthaṁ ājānāmī”ti. ",
-      "english": "That’s how I understand the detailed meaning of the Buddha’s brief statement.” "
+      "pali": "",
+      "english": "“If one doesn’t stay obsessed with perception.…"
     },
     {
       "number": 28,
-      "pali": "“Sādhu sādhu, bhikkhu. ",
-      "english": "“Good, good, mendicant! "
+      "pali": "",
+      "english": "“If one doesn’t stay obsessed with fabrications.…"
     },
     {
       "number": 29,
-      "pali": "Sādhu kho tvaṁ, bhikkhu, mayā saṅkhittena bhāsitassa vitthārena atthaṁ ājānāsi. ",
-      "english": "It’s good that you understand the detailed meaning of what I’ve said in brief like this. "
+      "pali": "",
+      "english": "“If one doesn’t stay obsessed with consciousness, that’s not what one is measured by. Whatever one isn’t measured by, that’s not how one is classified."
     },
     {
       "number": 30,
-      "pali": "Rūpañce, bhikkhu, anuseti taṁ anumīyati; ",
-      "english": "If you have an underlying tendency for form, you’re measured against that, "
+      "pali": "",
+      "english": "“This is how the detailed meaning of what I have said in brief should be seen.”"
     },
     {
       "number": 31,
-      "pali": "yaṁ anumīyati tena saṅkhaṁ gacchati. ",
-      "english": "and you’re reckoned by what you’re measured against. "
-    },
-    {
-      "number": 32,
-      "pali": "Vedanañce, bhikkhu … ",
-      "english": "If you have an underlying tendency for feeling … "
-    },
-    {
-      "number": 33,
-      "pali": "saññañce, bhikkhu … ",
-      "english": "perception … "
-    },
-    {
-      "number": 34,
-      "pali": "saṅkhāre ce, bhikkhu … ",
-      "english": "choices … "
-    },
-    {
-      "number": 35,
-      "pali": "viññāṇañce, bhikkhu, anuseti taṁ anumīyati; ",
-      "english": "consciousness, you’re measured against that, "
-    },
-    {
-      "number": 36,
-      "pali": "yaṁ anumīyati tena saṅkhaṁ gacchati. ",
-      "english": "and you’re reckoned by what you’re measured against. "
-    },
-    {
-      "number": 37,
-      "pali": "Rūpañce, bhikkhu, nānuseti na taṁ anumīyati; ",
-      "english": "If you have no underlying tendency for form, you’re not measured against that, "
-    },
-    {
-      "number": 38,
-      "pali": "yaṁ nānumīyati na tena saṅkhaṁ gacchati. ",
-      "english": "and you’re not reckoned by what you’re not measured against. "
-    },
-    {
-      "number": 39,
-      "pali": "Vedanañce nānuseti … ",
-      "english": "If you have no underlying tendency for feeling … "
-    },
-    {
-      "number": 40,
-      "pali": "saññañce nānuseti … ",
-      "english": "perception … "
-    },
-    {
-      "number": 41,
-      "pali": "saṅkhāre ce nānuseti … ",
-      "english": "choices … "
-    },
-    {
-      "number": 42,
-      "pali": "viññāṇañce nānuseti na taṁ anumīyati; ",
-      "english": "consciousness, you’re not measured against that, "
-    },
-    {
-      "number": 43,
-      "pali": "yaṁ nānumīyati na tena saṅkhaṁ gacchati. ",
-      "english": "and you’re not reckoned by what you’re not measured against. "
-    },
-    {
-      "number": 44,
-      "pali": "Imassa kho, bhikkhu, mayā saṅkhittena bhāsitassa evaṁ vitthārena attho daṭṭhabbo”ti …pe… ",
-      "english": "This is how to understand the detailed meaning of what I said in brief.” … "
-    },
-    {
-      "number": 45,
-      "pali": "aññataro ca pana so bhikkhu arahataṁ ahosīti. ",
-      "english": "And that mendicant became one of the perfected. "
-    },
-    {
-      "number": 46,
-      "pali": "Catutthaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "Then the monk, delighting in and approving of the Blessed One’s words, got up from his seat and bowed down to the Blessed One, circled around him, keeping the Blessed One to his right, and departed. Then, dwelling alone, secluded, heedful, ardent, & resolute, he in no long time entered & remained in the supreme goal of the holy life for which clansmen rightly go forth from home into homelessness, directly knowing & realizing it for himself in the here & now. He knew: “Birth is ended, the holy life fulfilled, the task done. There is nothing further for the sake of this world.” And thus he became another one of the arahants."
     }
   ]
 }

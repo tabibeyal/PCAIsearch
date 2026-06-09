@@ -3,93 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 5.210 ",
-      "english": "Numbered Discourses 5.210 "
+      "pali": "Numerical Discourses 5.210",
+      "english": "Numerical Discourses 5.210"
     },
     {
       "number": 2,
-      "pali": "21. Kimilavagga ",
-      "english": "21. With Kimbila "
+      "pali": "Muṭṭhassati Sutta",
+      "english": "Muddled Mindfulness"
     },
     {
       "number": 3,
-      "pali": "Muṭṭhassatisutta ",
-      "english": "Unmindful "
+      "pali": "",
+      "english": "“Monks, there are these five drawbacks for one who falls asleep unalert & with muddled mindfulness. Which five?"
     },
     {
       "number": 4,
-      "pali": "“Pañcime, bhikkhave, ādīnavā muṭṭhassatissa asampajānassa niddaṁ okkamayato. ",
-      "english": "“Mendicants, there are these five drawbacks of falling asleep unmindful and unaware. "
+      "pali": "",
+      "english": "“One sleeps badly, wakes up badly, dreams evil dreams. The devas don’t protect one. Semen is emitted."
     },
     {
       "number": 5,
-      "pali": "Katame pañca? ",
-      "english": "What five? "
+      "pali": "",
+      "english": "“These, monks, are the five drawbacks for one who falls asleep unalert & with muddled mindfulness."
     },
     {
       "number": 6,
-      "pali": "Dukkhaṁ supati, dukkhaṁ paṭibujjhati, pāpakaṁ supinaṁ passati, devatā na rakkhanti, asuci muccati. ",
-      "english": "You sleep badly and wake miserably. You have bad dreams. The deities don’t protect you. And you emit semen. "
+      "pali": "",
+      "english": "“There are these five rewards for one who falls asleep alert & with mindfulness established. Which five?"
     },
     {
       "number": 7,
-      "pali": "Ime kho, bhikkhave, pañca ādīnavā muṭṭhassatissa asampajānassa niddaṁ okkamayato. ",
-      "english": "These are the five drawbacks of falling asleep unmindful and unaware. "
+      "pali": "",
+      "english": "“One sleeps easily, wakes up easily, dreams no evil dreams. The devas protect one. Semen is not emitted."
     },
     {
       "number": 8,
-      "pali": "Pañcime, bhikkhave, ānisaṁsā upaṭṭhitassatissa sampajānassa niddaṁ okkamayato. ",
-      "english": "There are these five benefits of falling asleep mindful and aware. "
-    },
-    {
-      "number": 9,
-      "pali": "Katame pañca? ",
-      "english": "What five? "
-    },
-    {
-      "number": 10,
-      "pali": "Sukhaṁ supati, sukhaṁ paṭibujjhati, na pāpakaṁ supinaṁ passati, devatā rakkhanti, asuci na muccati. ",
-      "english": "You sleep at ease and wake happily. You don’t have bad dreams. The deities protect you. And you don’t emit semen. "
-    },
-    {
-      "number": 11,
-      "pali": "Ime kho, bhikkhave, pañca ānisaṁsā upaṭṭhitassatissa sampajānassa niddaṁ okkamayato”ti. ",
-      "english": "These are the five benefits of falling asleep mindful and aware.” "
-    },
-    {
-      "number": 12,
-      "pali": "Dasamaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 13,
-      "pali": "Kimilavaggo paṭhamo. ",
-      "english": ""
-    },
-    {
-      "number": 14,
-      "pali": "Tassuddānaṁ ",
-      "english": ""
-    },
-    {
-      "number": 15,
-      "pali": "Kimilo dhammassavanaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 16,
-      "pali": "ājānīyo balaṁ khilaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 17,
-      "pali": "Vinibandhaṁ yāgu kaṭṭhaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 18,
-      "pali": "gītaṁ muṭṭhassatinā cāti. ",
-      "english": ""
+      "pali": "",
+      "english": "“These, monks, are the five rewards for one who falls asleep alert & with mindfulness established.”"
     }
   ]
 }

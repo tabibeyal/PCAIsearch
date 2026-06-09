@@ -3,113 +3,193 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 10.73 ",
-      "english": "Numbered Discourses 10.73 "
+      "pali": "Numerical Discourses 10.73",
+      "english": "Numerical Discourses 10.73"
     },
     {
       "number": 2,
-      "pali": "8. Ākaṅkhavagga ",
-      "english": "8. If You Want "
+      "pali": "Iṭṭhā Sutta",
+      "english": "Wished For"
     },
     {
       "number": 3,
-      "pali": "Iṭṭhadhammasutta ",
-      "english": "Likable "
+      "pali": "",
+      "english": "“Monks, these ten things are welcome, agreeable, pleasant, & hard to obtain in the world. Which ten?"
     },
     {
       "number": 4,
-      "pali": "“Dasayime, bhikkhave, dhammā iṭṭhā kantā manāpā dullabhā lokasmiṁ. ",
-      "english": "“Mendicants, these ten likable, desirable, and agreeable things are rare in the world. "
+      "pali": "",
+      "english": "“Wealth is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 5,
-      "pali": "Katame dasa? ",
-      "english": "What ten? "
+      "pali": "",
+      "english": "“Beauty is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 6,
-      "pali": "Bhogā iṭṭhā kantā manāpā dullabhā lokasmiṁ; ",
-      "english": "Wealth, "
+      "pali": "",
+      "english": "“Freedom from disease is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 7,
-      "pali": "vaṇṇo iṭṭho kanto manāpo dullabho lokasmiṁ; ",
-      "english": "beauty, "
+      "pali": "",
+      "english": "“Virtues are welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 8,
-      "pali": "ārogyaṁ iṭṭhaṁ kantaṁ manāpaṁ dullabhaṁ lokasmiṁ; ",
-      "english": "health, "
+      "pali": "",
+      "english": "“Celibacy is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 9,
-      "pali": "sīlaṁ iṭṭhaṁ kantaṁ manāpaṁ dullabhaṁ lokasmiṁ; ",
-      "english": "ethical conduct, "
+      "pali": "",
+      "english": "“Friends are welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 10,
-      "pali": "brahmacariyaṁ iṭṭhaṁ kantaṁ manāpaṁ dullabhaṁ lokasmiṁ; ",
-      "english": "the spiritual life, "
+      "pali": "",
+      "english": "“Learning is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 11,
-      "pali": "mittā iṭṭhā kantā manāpā dullabhā lokasmiṁ; ",
-      "english": "friends, "
+      "pali": "",
+      "english": "“Discernment is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 12,
-      "pali": "bāhusaccaṁ iṭṭhaṁ kantaṁ manāpaṁ dullabhaṁ lokasmiṁ; ",
-      "english": "learning, "
+      "pali": "",
+      "english": "“The Dhamma is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 13,
-      "pali": "paññā iṭṭhā kantā manāpā dullabhā lokasmiṁ; ",
-      "english": "wisdom, "
+      "pali": "",
+      "english": "“Heaven is welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 14,
-      "pali": "dhammā iṭṭhā kantā manāpā dullabhā lokasmiṁ; ",
-      "english": "good qualities, "
+      "pali": "",
+      "english": "“These, monks, are ten things that are welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 15,
-      "pali": "saggā iṭṭhā kantā manāpā dullabhā lokasmiṁ. ",
-      "english": "and heaven are likable, desirable, and agreeable things that are rare in the world. "
+      "pali": "",
+      "english": "“These ten (other) things are obstacles to these ten things that are welcome, agreeable, pleasant, & hard to obtain in the world."
     },
     {
       "number": 16,
-      "pali": "Imesaṁ kho, bhikkhave, dasannaṁ dhammānaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ dullabhānaṁ lokasmiṁ dasa dhammā paripanthā—",
-      "english": "Ten things are roadblocks for these ten likable, desirable, and agreeable things that are rare in the world. "
+      "pali": "",
+      "english": "“Indolence & lack of initiative are obstacles to wealth."
     },
     {
       "number": 17,
-      "pali": "ālasyaṁ anuṭṭhānaṁ bhogānaṁ paripantho, amaṇḍanā avibhūsanā vaṇṇassa paripantho, asappāyakiriyā ārogyassa paripantho, pāpamittatā sīlānaṁ paripantho, indriyaasaṁvaro brahmacariyassa paripantho, visaṁvādanā mittānaṁ paripantho, asajjhāyakiriyā bāhusaccassa paripantho, asussūsā aparipucchā paññāya paripantho, ananuyogo apaccavekkhaṇā dhammānaṁ paripantho, micchāpaṭipatti saggānaṁ paripantho. ",
-      "english": "Sloth and lack of initiative are a roadblock for wealth. Lack of adornment and decoration are a roadblock for beauty. Unsuitable activity is a roadblock for health. Bad friendship is a roadblock for ethical conduct. Lack of sense restraint is a roadblock for the spiritual life. Dishonesty is a roadblock for friends. Not rehearsing is a roadblock for learning. Not wanting to listen and ask questions are roadblocks for wisdom. Lack of commitment and reviewing are roadblocks for good qualities. Wrong practice hinders heaven. "
+      "pali": "",
+      "english": "“Lack of adornment & lack of embellishment are obstacles to beauty."
     },
     {
       "number": 18,
-      "pali": "Imesaṁ kho, bhikkhave, dasannaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ dullabhānaṁ lokasmiṁ ime dasa dhammā paripanthā. ",
-      "english": "These ten things are roadblocks for these ten likable, desirable, and agreeable things that are rare in the world. "
+      "pali": "",
+      "english": "“Unsuitable actions are obstacles to freedom from disease."
     },
     {
       "number": 19,
-      "pali": "Imesaṁ kho, bhikkhave, dasannaṁ dhammānaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ dullabhānaṁ lokasmiṁ dasa dhammā āhārā—",
-      "english": "Ten things nourish these ten likable, desirable, and agreeable things that are rare in the world. "
+      "pali": "",
+      "english": "“Evil friendships are obstacles to virtues."
     },
     {
       "number": 20,
-      "pali": "uṭṭhānaṁ anālasyaṁ bhogānaṁ āhāro, maṇḍanā vibhūsanā vaṇṇassa āhāro, sappāyakiriyā ārogyassa āhāro, kalyāṇamittatā sīlānaṁ āhāro, indriyasaṁvaro brahmacariyassa āhāro, avisaṁvādanā mittānaṁ āhāro, sajjhāyakiriyā bāhusaccassa āhāro, sussūsā paripucchā paññāya āhāro, anuyogo paccavekkhaṇā dhammānaṁ āhāro, sammāpaṭipatti saggānaṁ āhāro. ",
-      "english": "Application and initiative nourish wealth. Adornment and decoration nourish beauty. Suitable activity nourishes health. Good friendship nourishes ethical conduct. Sense restraint nourishes the spiritual life. Honesty nourishes friends. Rehearsing nourishes learning. Eagerness to listen and ask questions nourishes wisdom. Commitment and reviewing nourish good qualities. Right practice nourishes heaven. "
+      "pali": "",
+      "english": "“Lack of sense restraint is an obstacle to celibacy."
     },
     {
       "number": 21,
-      "pali": "Imesaṁ kho, bhikkhave, dasannaṁ dhammānaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ dullabhānaṁ lokasmiṁ ime dasa dhammā āhārā”ti. ",
-      "english": "These ten things nourish these ten likable, desirable, and agreeable things that are rare in the world.” "
+      "pali": "",
+      "english": "“Duplicity is an obstacle to friendships."
     },
     {
       "number": 22,
-      "pali": "Tatiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Lack of repetition is an obstacle to learning."
+    },
+    {
+      "number": 23,
+      "pali": "",
+      "english": "“An unwillingness to listen or to engage in questioning is an obstacle to discernment."
+    },
+    {
+      "number": 24,
+      "pali": "",
+      "english": "“Lack of commitment & lack of reflection are obstacles to Dhammas."
+    },
+    {
+      "number": 25,
+      "pali": "",
+      "english": "“Wrong practice is an obstacle to heaven."
+    },
+    {
+      "number": 26,
+      "pali": "",
+      "english": "“These ten (other) things are obstacles to these ten things that are welcome, agreeable, pleasant, & hard to obtain in the world."
+    },
+    {
+      "number": 27,
+      "pali": "",
+      "english": "“These ten (other) things are food for these ten things that are welcome, agreeable, pleasant, & hard to obtain in the world."
+    },
+    {
+      "number": 28,
+      "pali": "",
+      "english": "“Non-indolence & initiative are food for wealth."
+    },
+    {
+      "number": 29,
+      "pali": "",
+      "english": "“Adornment & embellishment are food for beauty."
+    },
+    {
+      "number": 30,
+      "pali": "",
+      "english": "“Suitable actions are food for freedom from disease."
+    },
+    {
+      "number": 31,
+      "pali": "",
+      "english": "“Admirable friendships are food for virtues."
+    },
+    {
+      "number": 32,
+      "pali": "",
+      "english": "“Sense restraint is food for celibacy."
+    },
+    {
+      "number": 33,
+      "pali": "",
+      "english": "“Lack of duplicity is food for friendships."
+    },
+    {
+      "number": 34,
+      "pali": "",
+      "english": "“Repetition is food for learning."
+    },
+    {
+      "number": 35,
+      "pali": "",
+      "english": "“A willingness to listen & to engage in questioning is food for discernment."
+    },
+    {
+      "number": 36,
+      "pali": "",
+      "english": "“Commitment & reflection are food for Dhammas."
+    },
+    {
+      "number": 37,
+      "pali": "",
+      "english": "“Right practice is food for heaven."
+    },
+    {
+      "number": 38,
+      "pali": "",
+      "english": "“These ten (other) things are food for these ten things that are welcome, agreeable, pleasant, & hard to obtain in the world."
     }
   ]
 }

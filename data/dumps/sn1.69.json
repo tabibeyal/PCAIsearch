@@ -3,58 +3,88 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 1.69 ",
-      "english": "Linked Discourses 1.69 "
+      "pali": "Linked Discourses 1.69",
+      "english": "Linked Discourses 1.69"
     },
     {
       "number": 2,
-      "pali": "7. Addhavagga ",
-      "english": "7. Overcome "
+      "pali": "Icchā Sutta",
+      "english": "Desire"
     },
     {
       "number": 3,
-      "pali": "Icchāsutta ",
-      "english": "Desire "
+      "pali": "",
+      "english": "“With what is the world tied down?"
     },
     {
       "number": 4,
-      "pali": "“Kenassu bajjhatī loko, ",
-      "english": "“What is it that binds the world? "
+      "pali": "",
+      "english": "With the subduing"
     },
     {
       "number": 5,
-      "pali": "kissa vinayāya muccati; ",
-      "english": "By removing what is it freed? "
+      "pali": "",
+      "english": "of what is it freed?"
     },
     {
       "number": 6,
-      "pali": "Kissassu vippahānena, ",
-      "english": "With the giving up of what "
+      "pali": "",
+      "english": "With the abandoning"
     },
     {
       "number": 7,
-      "pali": "sabbaṁ chindati bandhanan”ti. ",
-      "english": "are all bonds severed?” "
+      "pali": "",
+      "english": "of what"
     },
     {
       "number": 8,
-      "pali": "“Icchāya bajjhatī loko, ",
-      "english": "“Desire is what binds the world. "
+      "pali": "",
+      "english": "are all bonds"
     },
     {
       "number": 9,
-      "pali": "icchāvinayāya muccati; ",
-      "english": "By the removing of desire it’s freed. "
+      "pali": "",
+      "english": "cut through?”"
     },
     {
       "number": 10,
-      "pali": "Icchāya vippahānena, ",
-      "english": "With the giving up of desire, "
+      "pali": "",
+      "english": "The Buddha:"
     },
     {
       "number": 11,
-      "pali": "sabbaṁ chindati bandhanan”ti. ",
-      "english": "all bonds are severed.” "
+      "pali": "",
+      "english": "“With desire the world is tied down."
+    },
+    {
+      "number": 12,
+      "pali": "",
+      "english": "With the subduing"
+    },
+    {
+      "number": 13,
+      "pali": "",
+      "english": "of desire it’s freed."
+    },
+    {
+      "number": 14,
+      "pali": "",
+      "english": "With the abandoning"
+    },
+    {
+      "number": 15,
+      "pali": "",
+      "english": "of desire"
+    },
+    {
+      "number": 16,
+      "pali": "",
+      "english": "all bonds"
+    },
+    {
+      "number": 17,
+      "pali": "",
+      "english": "are cut through.”"
     }
   ]
 }

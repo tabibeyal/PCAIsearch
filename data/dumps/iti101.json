@@ -3,138 +3,78 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 101 ",
-      "english": "So It Was Said 101 "
+      "pali": "Itivuttaka 101",
+      "english": "Itivuttaka 101"
     },
     {
       "number": 2,
-      "pali": "Catukkanipāta ",
-      "english": "The Book of the Fours "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Brāhmaṇadhammayāgavagga ",
-      "english": "The Chapter on the Brahmin’s Offering of the Teaching "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, these four things are next to nothing, both easy to gain & blameless. Which four? Cast-off cloth is next to nothing, both easy to gain & blameless. Alms food is next to nothing, both easy to gain & blameless. The root of a tree as a dwelling place is next to nothing, both easy to gain & blameless. Medicine made of smelly urine is next to nothing, both easy to gain & blameless. These are the four things that are next to nothing, both easy to gain & blameless. When a monk is content with what is next to nothing, easy to gain & blameless, then I say that he has one of the component factors of the contemplative life.”"
     },
     {
       "number": 4,
-      "pali": "Sulabhasutta ",
-      "english": "Easy to Find "
+      "pali": "",
+      "english": "Content with what’s blameless,"
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "next to nothing,"
     },
     {
       "number": 6,
-      "pali": "“Cattārimāni, bhikkhave, appāni ceva sulabhāni ca, tāni ca anavajjāni. ",
-      "english": "“Mendicants, these four trifles are easy to find and are blameless. "
+      "pali": "",
+      "english": "easy to gain,"
     },
     {
       "number": 7,
-      "pali": "Katamāni cattāri? ",
-      "english": "What four? "
+      "pali": "",
+      "english": "his mind not vexed over"
     },
     {
       "number": 8,
-      "pali": "Paṁsukūlaṁ, bhikkhave, cīvarānaṁ appañca sulabhañca, tañca anavajjaṁ. ",
-      "english": "Rag-robes … "
+      "pali": "",
+      "english": "lodging, clothing,"
     },
     {
       "number": 9,
-      "pali": "Piṇḍiyālopo, bhikkhave, bhojanānaṁ appañca sulabhañca, tañca anavajjaṁ. ",
-      "english": "A lump of almsfood … "
+      "pali": "",
+      "english": "food, or drink:"
     },
     {
       "number": 10,
-      "pali": "Rukkhamūlaṁ, bhikkhave, senāsanānaṁ appañca sulabhañca, tañca anavajjaṁ. ",
-      "english": "Lodgings at the root of a tree … "
+      "pali": "",
+      "english": "the four directions offer him"
     },
     {
       "number": 11,
-      "pali": "Pūtimuttaṁ, bhikkhave, bhesajjānaṁ appañca sulabhañca tañca anavajjaṁ. ",
-      "english": "Rancid urine as medicine … "
+      "pali": "",
+      "english": "no obstruction."
     },
     {
       "number": 12,
-      "pali": "Imāni kho, bhikkhave, cattāri appāni ceva sulabhāni ca, tāni ca anavajjāni. ",
-      "english": "These four trifles are easy to find and are blameless. "
+      "pali": "",
+      "english": "These things, declared congenial"
     },
     {
       "number": 13,
-      "pali": "Yato kho, bhikkhave, bhikkhu appena ca tuṭṭho hoti sulabhena ca anavajjena ca, idamassāhaṁ aññataraṁ sāmaññaṅganti vadāmī”ti. ",
-      "english": "When a mendicant is content with trifles that are easy to find, they have one of the factors of the ascetic life, I say.” "
+      "pali": "",
+      "english": "for the contemplative life,"
     },
     {
       "number": 14,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "are possessed by the monk"
     },
     {
       "number": 15,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
-    },
-    {
-      "number": 16,
-      "pali": "“Anavajjena tuṭṭhassa, ",
-      "english": "“When one is content with what’s blameless, "
-    },
-    {
-      "number": 17,
-      "pali": "appena sulabhena ca; ",
-      "english": "trifling, and easy to find, "
-    },
-    {
-      "number": 18,
-      "pali": "Na senāsanamārabbha, ",
-      "english": "they don’t get distressed "
-    },
-    {
-      "number": 19,
-      "pali": "cīvaraṁ pānabhojanaṁ; ",
-      "english": "about lodgings, robes, "
-    },
-    {
-      "number": 20,
-      "pali": "Vighāto hoti cittassa, ",
-      "english": "food, and drink, "
-    },
-    {
-      "number": 21,
-      "pali": "disā nappaṭihaññati. ",
-      "english": "and they’re not obstructed anywhere. "
-    },
-    {
-      "number": 22,
-      "pali": "Ye cassa dhammā akkhātā, ",
-      "english": "These qualities are said to be "
-    },
-    {
-      "number": 23,
-      "pali": "sāmaññassānulomikā; ",
-      "english": "integral to the ascetic life. "
-    },
-    {
-      "number": 24,
-      "pali": "Adhiggahitā tuṭṭhassa, ",
-      "english": "They’re mastered by a mendicant, "
-    },
-    {
-      "number": 25,
-      "pali": "appamattassa bhikkhuno”ti. ",
-      "english": "content and diligent.” "
-    },
-    {
-      "number": 26,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 27,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "heedful, content."
     }
   ]
 }

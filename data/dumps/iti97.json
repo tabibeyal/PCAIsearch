@@ -3,193 +3,128 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 97 ",
-      "english": "So It Was Said 97 "
+      "pali": "Itivuttaka 97",
+      "english": "Itivuttaka 97"
     },
     {
       "number": 2,
-      "pali": "Tikanipāta ",
-      "english": "The Book of the Threes "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Pañcamavagga ",
-      "english": "Chapter Five "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, a monk who has admirable virtue, admirable qualities, & admirable discernment is called, in this Dhamma-&-Vinaya, one who is complete, fulfilled, a superlative person."
     },
     {
       "number": 4,
-      "pali": "Kalyāṇasīlasutta ",
-      "english": "Good Morals "
+      "pali": "",
+      "english": "“And how is a monk a person with admirable virtue? There is the case where a monk is virtuous. He dwells restrained in accordance with the Pāṭimokkha, consummate in his behavior & sphere of activity. He trains himself, having undertaken the training rules, seeing danger in the slightest faults. In this way a monk is a person with admirable virtue. Thus he is of admirable virtue."
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "“And how is a monk a person with admirable qualities? There is the case where a monk lives devoted to developing the seven [sets of] qualities that are wings to awakening. In this way a monk is a person with admirable qualities. Thus he is of admirable virtue & admirable qualities."
     },
     {
       "number": 6,
-      "pali": "“Kalyāṇasīlo, bhikkhave, bhikkhu kalyāṇadhammo kalyāṇapañño imasmiṁ dhammavinaye ‘kevalī vusitavā uttamapuriso’ti vuccati—",
-      "english": "“Mendicants, in this teaching and training a mendicant of good morals, good practice, and good wisdom is called consummate, accomplished, a supreme person. "
+      "pali": "",
+      "english": "“And how is a monk a person with admirable discernment? There is the case where a monk–with the ending of effluents–remains in the effluent-free awareness-release & discernment-release, directly knowing & realizing it for himself right in the here-&-now. In this way a monk is a person with admirable discernment. Thus he is of admirable virtue, admirable qualities, admirable discernment. In this Dhamma-&-Vinaya he is called one who is complete, fulfilled, a superlative person.”"
     },
     {
       "number": 7,
-      "pali": "Kathañca, bhikkhave, bhikkhu kalyāṇasīlo hoti? ",
-      "english": "And how does a mendicant have good morals? "
+      "pali": "",
+      "english": "Devoid of wrong-doing"
     },
     {
       "number": 8,
-      "pali": "Idha, bhikkhave, bhikkhu sīlavā hoti, pātimokkhasaṁvarasaṁvuto viharati, ācāragocarasampanno aṇumattesu vajjesu bhayadassāvī, samādāya sikkhati sikkhāpadesu. ",
-      "english": "It’s when a mendicant is ethical, restrained in the monastic code, conducting themselves well and resorting for alms in suitable places. Seeing danger in the slightest fault, they keep the rules they’ve undertaken. "
+      "pali": "",
+      "english": "in thought, word, or deed,"
     },
     {
       "number": 9,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu kalyāṇasīlo hoti. ",
-      "english": "That’s how a mendicant has good morals. "
+      "pali": "",
+      "english": "he’s called a person of admirable virtue:"
     },
     {
       "number": 10,
-      "pali": "Iti kalyāṇasīlo. ",
-      "english": "Such is one of good morality. "
+      "pali": "",
+      "english": "the monk conscientious."
     },
     {
       "number": 11,
-      "pali": "Kalyāṇadhammo ca kathaṁ hoti? ",
-      "english": "And how does one have good practice? "
+      "pali": "",
+      "english": "Well-developed in the qualities"
     },
     {
       "number": 12,
-      "pali": "Idha, bhikkhave, bhikkhu sattannaṁ bodhipakkhiyānaṁ dhammānaṁ bhāvanānuyogamanuyutto viharati. ",
-      "english": "It’s when a mendicant meditates pursuing the development of the seven qualities on the side of awakening. "
+      "pali": "",
+      "english": "that go to the attainment of self-awakening,"
     },
     {
       "number": 13,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu kalyāṇadhammo hoti. ",
-      "english": "That’s how a mendicant has good practice. "
+      "pali": "",
+      "english": "he’s called a person of admirable qualities:"
     },
     {
       "number": 14,
-      "pali": "Iti kalyāṇasīlo, kalyāṇadhammo. ",
-      "english": "Such is one of good morality and good practice. "
+      "pali": "",
+      "english": "the monk unassuming."
     },
     {
       "number": 15,
-      "pali": "Kalyāṇapañño ca kathaṁ hoti? ",
-      "english": "And how does one have good wisdom? "
+      "pali": "",
+      "english": "Discerning right here for himself,"
     },
     {
       "number": 16,
-      "pali": "Idha, bhikkhave, bhikkhu āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. ",
-      "english": "It’s when a mendicant realizes the undefiled freedom of heart and freedom by wisdom in this very life. And they live having realized it with their own insight due to the ending of defilements. "
+      "pali": "",
+      "english": "in himself,"
     },
     {
       "number": 17,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu kalyāṇapañño hoti. ",
-      "english": "That’s how a mendicant has good wisdom; "
+      "pali": "",
+      "english": "the ending of stress"
     },
     {
       "number": 18,
-      "pali": "Iti kalyāṇasīlo kalyāṇadhammo kalyāṇapañño imasmiṁ dhammavinaye ‘kevalī vusitavā uttamapuriso’ti vuccatī”ti. ",
-      "english": "Such is one of good morals, good practice, and good wisdom, who in this teaching and training is called consummate, accomplished, a supreme person.” "
+      "pali": "",
+      "english": "he’s called a person of admirable discernment:"
     },
     {
       "number": 19,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "the monk with no effluent."
     },
     {
       "number": 20,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "Consummate in"
     },
     {
       "number": 21,
-      "pali": "“Yassa kāyena vācāya, ",
-      "english": "“Who does nothing wrong "
+      "pali": "",
+      "english": "these things,"
     },
     {
       "number": 22,
-      "pali": "manasā natthi dukkaṭaṁ; ",
-      "english": "by body, speech or mind, "
+      "pali": "",
+      "english": "untroubled, with doubt cut away,"
     },
     {
       "number": 23,
-      "pali": "Taṁ ve kalyāṇasīloti, ",
-      "english": "is said to be one of good morals, "
+      "pali": "",
+      "english": "unattached in all the world,"
     },
     {
       "number": 24,
-      "pali": "āhu bhikkhuṁ hirīmanaṁ. ",
-      "english": "a conscientious mendicant. "
+      "pali": "",
+      "english": "he’s said to have abandoned"
     },
     {
       "number": 25,
-      "pali": "Yassa dhammā subhāvitā, ",
-      "english": "Who has well developed the seven "
-    },
-    {
-      "number": 26,
-      "pali": "satta sambodhigāmino; ",
-      "english": "factors that lead to awakening "
-    },
-    {
-      "number": 27,
-      "pali": "Taṁ ve kalyāṇadhammoti, ",
-      "english": "is said to be one good practice, "
-    },
-    {
-      "number": 28,
-      "pali": "āhu bhikkhuṁ anussadaṁ. ",
-      "english": "an unpretentious mendicant. "
-    },
-    {
-      "number": 29,
-      "pali": "Yo dukkhassa pajānāti, ",
-      "english": "Who understands for themselves "
-    },
-    {
-      "number": 30,
-      "pali": "idheva khayamattano; ",
-      "english": "the end of suffering in this life "
-    },
-    {
-      "number": 31,
-      "pali": "Taṁ ve kalyāṇapaññoti, ",
-      "english": "is said to be one good wisdom, "
-    },
-    {
-      "number": 32,
-      "pali": "āhu bhikkhuṁ anāsavaṁ. ",
-      "english": "an undefiled mendicant. "
-    },
-    {
-      "number": 33,
-      "pali": "Tehi dhammehi sampannaṁ, ",
-      "english": "One accomplished in these three things, "
-    },
-    {
-      "number": 34,
-      "pali": "anīghaṁ chinnasaṁsayaṁ; ",
-      "english": "untroubled, with doubts cut off, "
-    },
-    {
-      "number": 35,
-      "pali": "Asitaṁ sabbalokassa, ",
-      "english": "unattached to anything in the world, "
-    },
-    {
-      "number": 36,
-      "pali": "āhu sabbapahāyinan”ti. ",
-      "english": "has given up everything, they say.” "
-    },
-    {
-      "number": 37,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 38,
-      "pali": "Aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "the All."
     }
   ]
 }

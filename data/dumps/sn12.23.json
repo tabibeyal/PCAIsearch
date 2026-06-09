@@ -3,468 +3,248 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 12.23 ",
-      "english": "Linked Discourses 12.23 "
+      "pali": "Linked Discourses 12.23",
+      "english": "Linked Discourses 12.23"
     },
     {
       "number": 2,
-      "pali": "3. Dasabalavagga ",
-      "english": "3. The Ten Powers "
+      "pali": "Upanisa Sutta",
+      "english": "Prerequisites"
     },
     {
       "number": 3,
-      "pali": "Upanisasutta ",
-      "english": "Vital Conditions "
+      "pali": "",
+      "english": "Staying near Sāvatthī … “Monks, the ending of effluents is for one who knows & sees, I tell you, not for one who does not know & does not see. For one who knows what & sees what is there the ending of effluents? ‘Such is form, such its origination, such its disappearance. Such is feeling, such its origination, such its disappearance. Such is perception, such its origination, such its disappearance. Such are fabrications, such their origination, such their disappearance. Such is consciousness, such its origination, such its disappearance.’ The ending of effluents is for one who knows in this way & sees in this way."
     },
     {
       "number": 4,
-      "pali": "Sāvatthiyaṁ viharati. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“The knowledge of ending in the presence of ending has its prerequisite, I tell you. It is not without a prerequisite. And what is the prerequisite for the knowledge of ending? Release, it should be said. Release has its prerequisite, I tell you. It is not without a prerequisite. And what is its prerequisite? Dispassion.… Disenchantment.… Knowledge & vision of things as they have come to be.… Concentration.… Pleasure.… Serenity.… Rapture.… Joy.… Conviction.… Stress.… Birth.… Becoming.… Clinging.… Craving.… Feeling.… Contact.… The six sense media.… Name-&-form.… Consciousness.… Fabrications.… Fabrications have their prerequisite, I tell you. They are not without a prerequisite. And what is their prerequisite? Ignorance, it should be said."
     },
     {
       "number": 5,
-      "pali": "“Jānato ahaṁ, bhikkhave, passato āsavānaṁ khayaṁ vadāmi, no ajānato no apassato. ",
-      "english": "“Mendicants, I say that the ending of defilements is for one who knows and sees, not for one who does not know or see. "
+      "pali": "",
+      "english": "“Thus fabrications have ignorance as their prerequisite,"
     },
     {
       "number": 6,
-      "pali": "Kiñca, bhikkhave, jānato kiṁ passato āsavānaṁ khayo hoti? ",
-      "english": "For one who knows and sees what? "
+      "pali": "",
+      "english": "consciousness has fabrications as its prerequisite,"
     },
     {
       "number": 7,
-      "pali": "Iti rūpaṁ iti rūpassa samudayo iti rūpassa atthaṅgamo, ",
-      "english": "‘Such is form, such is the origin of form, such is the ending of form. "
+      "pali": "",
+      "english": "name-&-form has consciousness as its prerequisite,"
     },
     {
       "number": 8,
-      "pali": "iti vedanā …pe… ",
-      "english": "Such is feeling … "
+      "pali": "",
+      "english": "the six sense media have name-&-form as their prerequisite,"
     },
     {
       "number": 9,
-      "pali": "iti saññā … ",
-      "english": "Such is perception … "
+      "pali": "",
+      "english": "contact has the six sense media as its prerequisite,"
     },
     {
       "number": 10,
-      "pali": "iti saṅkhārā … ",
-      "english": "Such are choices … "
+      "pali": "",
+      "english": "feeling has contact as its prerequisite,"
     },
     {
       "number": 11,
-      "pali": "iti viññāṇaṁ iti viññāṇassa samudayo iti viññāṇassa atthaṅgamoti. ",
-      "english": "Such is consciousness, such is the origin of consciousness, such is the ending of consciousness.’ "
+      "pali": "",
+      "english": "craving has feeling as its prerequisite,"
     },
     {
       "number": 12,
-      "pali": "Evaṁ kho, bhikkhave, jānato evaṁ passato āsavānaṁ khayo hoti. ",
-      "english": "The ending of the defilements is for one who knows and sees this. "
+      "pali": "",
+      "english": "clinging has craving as its prerequisite,"
     },
     {
       "number": 13,
-      "pali": "Yampissa taṁ, bhikkhave, khayasmiṁ khaye ñāṇaṁ, tampi saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that this knowledge of ending has a vital condition, it doesn’t lack a vital condition. "
+      "pali": "",
+      "english": "becoming has clinging as its prerequisite,"
     },
     {
       "number": 14,
-      "pali": "Kā ca, bhikkhave, khaye ñāṇassa upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "birth has becoming as its prerequisite,"
     },
     {
       "number": 15,
-      "pali": "‘Vimuttī’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Freedom.’ "
+      "pali": "",
+      "english": "stress has birth as its prerequisite,"
     },
     {
       "number": 16,
-      "pali": "Vimuttimpāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that freedom has a vital condition, it doesn’t lack a vital condition. "
+      "pali": "",
+      "english": "conviction has stress as its prerequisite,"
     },
     {
       "number": 17,
-      "pali": "Kā ca, bhikkhave, vimuttiyā upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "joy has conviction as its prerequisite,"
     },
     {
       "number": 18,
-      "pali": "‘Virāgo’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Dispassion.’ "
+      "pali": "",
+      "english": "rapture has joy as its prerequisite,"
     },
     {
       "number": 19,
-      "pali": "Virāgampāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that dispassion has a vital condition. "
+      "pali": "",
+      "english": "calm has rapture as its prerequisite,"
     },
     {
       "number": 20,
-      "pali": "Kā ca, bhikkhave, virāgassa upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "pleasure has calm as its prerequisite,"
     },
     {
       "number": 21,
-      "pali": "‘Nibbidā’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Disillusionment.’ "
+      "pali": "",
+      "english": "concentration has pleasure as its prerequisite,"
     },
     {
       "number": 22,
-      "pali": "Nibbidampāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that disillusionment has a vital condition. "
+      "pali": "",
+      "english": "knowledge & vision of things as they have come to be has concentration as its prerequisite,"
     },
     {
       "number": 23,
-      "pali": "Kā ca, bhikkhave, nibbidāya upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "disenchantment has knowledge & vision of things as they have come to be as its prerequisite,"
     },
     {
       "number": 24,
-      "pali": "‘Yathābhūtañāṇadassanan’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Truly knowing and seeing.’ "
+      "pali": "",
+      "english": "dispassion has disenchantment as its prerequisite,"
     },
     {
       "number": 25,
-      "pali": "Yathābhūtañāṇadassanampāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that truly knowing and seeing has a vital condition. "
+      "pali": "",
+      "english": "release has dispassion as its prerequisite,"
     },
     {
       "number": 26,
-      "pali": "Kā ca, bhikkhave, yathābhūtañāṇadassanassa upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "knowledge of ending has release as its prerequisite."
     },
     {
       "number": 27,
-      "pali": "‘Samādhī’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Immersion.’ "
+      "pali": "",
+      "english": "“Just as when the devas pour rain in heavy drops & crash thunder on the upper mountains: The water, flowing down along the slopes, fills the branches of the mountain ravines & gullies. When the branches of the mountain ravines & gullies are full, they fill the little lakes. When the little lakes are full, they fill the big lakes… the little rivers… the big rivers. When the big rivers are full, they fill the great ocean. In the same way:"
     },
     {
       "number": 28,
-      "pali": "Samādhimpāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that immersion has a vital condition. "
+      "pali": "",
+      "english": "fabrications have ignorance as their prerequisite,"
     },
     {
       "number": 29,
-      "pali": "Kā ca, bhikkhave, samādhissa upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "consciousness has fabrications as its prerequisite,"
     },
     {
       "number": 30,
-      "pali": "‘Sukhan’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Bliss.’ "
+      "pali": "",
+      "english": "name-&-form has consciousness as their prerequisite,"
     },
     {
       "number": 31,
-      "pali": "Sukhampāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that bliss has a vital condition. "
+      "pali": "",
+      "english": "the six sense media have name-&-form as their prerequisite,"
     },
     {
       "number": 32,
-      "pali": "Kā ca, bhikkhave, sukhassa upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "contact has the six sense media as its prerequisite,"
     },
     {
       "number": 33,
-      "pali": "‘Passaddhī’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Tranquility.’ "
+      "pali": "",
+      "english": "feeling has contact as its prerequisite,"
     },
     {
       "number": 34,
-      "pali": "Passaddhimpāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that tranquility has a vital condition. "
+      "pali": "",
+      "english": "craving has feeling as its prerequisite,"
     },
     {
       "number": 35,
-      "pali": "Kā ca, bhikkhave, passaddhiyā upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "clinging has craving as its prerequisite,"
     },
     {
       "number": 36,
-      "pali": "‘Pītī’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Rapture.’ "
+      "pali": "",
+      "english": "becoming has clinging as its prerequisite,"
     },
     {
       "number": 37,
-      "pali": "Pītimpāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that rapture has a vital condition. "
+      "pali": "",
+      "english": "birth has becoming as its prerequisite,"
     },
     {
       "number": 38,
-      "pali": "Kā ca, bhikkhave, pītiyā upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "stress has birth as its prerequisite,"
     },
     {
       "number": 39,
-      "pali": "‘Pāmojjan’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Joy.’ "
+      "pali": "",
+      "english": "conviction has stress as its prerequisite,"
     },
     {
       "number": 40,
-      "pali": "Pāmojjampāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that joy has a vital condition. "
+      "pali": "",
+      "english": "joy has conviction as its prerequisite,"
     },
     {
       "number": 41,
-      "pali": "Kā ca, bhikkhave, pāmojjassa upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "rapture has joy as its prerequisite,"
     },
     {
       "number": 42,
-      "pali": "‘Saddhā’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Faith.’ "
+      "pali": "",
+      "english": "calm has rapture as its prerequisite,"
     },
     {
       "number": 43,
-      "pali": "Saddhampāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that faith has a vital condition. "
+      "pali": "",
+      "english": "pleasure has calm as its prerequisite,"
     },
     {
       "number": 44,
-      "pali": "Kā ca, bhikkhave, saddhāya upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "concentration has pleasure as its prerequisite,"
     },
     {
       "number": 45,
-      "pali": "‘Dukkhan’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Suffering.’ "
+      "pali": "",
+      "english": "knowledge & vision of things as they have come to be has concentration as its prerequisite,"
     },
     {
       "number": 46,
-      "pali": "Dukkhampāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that suffering has a vital condition. "
+      "pali": "",
+      "english": "disenchantment has knowledge & vision of things as they have come to be as its prerequisite,"
     },
     {
       "number": 47,
-      "pali": "Kā ca, bhikkhave, dukkhassa upanisā? ",
-      "english": "And what is it? "
+      "pali": "",
+      "english": "dispassion has disenchantment as its prerequisite,"
     },
     {
       "number": 48,
-      "pali": "‘Jātī’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Rebirth.’ "
+      "pali": "",
+      "english": "release has dispassion as its prerequisite,"
     },
     {
       "number": 49,
-      "pali": "Jātimpāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that rebirth has a vital condition. "
-    },
-    {
-      "number": 50,
-      "pali": "Kā ca, bhikkhave, jātiyā upanisā? ",
-      "english": "And what is it? "
-    },
-    {
-      "number": 51,
-      "pali": "‘Bhavo’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Continued existence.’ "
-    },
-    {
-      "number": 52,
-      "pali": "Bhavampāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that continued existence has a vital condition. "
-    },
-    {
-      "number": 53,
-      "pali": "Kā ca, bhikkhave, bhavassa upanisā? ",
-      "english": "And what is it? "
-    },
-    {
-      "number": 54,
-      "pali": "‘Upādānan’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Grasping.’ "
-    },
-    {
-      "number": 55,
-      "pali": "Upādānampāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that grasping has a vital condition. "
-    },
-    {
-      "number": 56,
-      "pali": "Kā ca, bhikkhave, upādānassa upanisā? ",
-      "english": "And what is it? "
-    },
-    {
-      "number": 57,
-      "pali": "‘Taṇhā’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Craving.’ "
-    },
-    {
-      "number": 58,
-      "pali": "Taṇhampāhaṁ, bhikkhave, saupanisaṁ vadāmi, no anupanisaṁ. ",
-      "english": "I say that craving has a vital condition. "
-    },
-    {
-      "number": 59,
-      "pali": "Kā ca, bhikkhave, taṇhāya upanisā? ",
-      "english": "And what is it? "
-    },
-    {
-      "number": 60,
-      "pali": "‘Vedanā’tissa vacanīyaṁ …pe… ",
-      "english": "You should say: ‘Feeling.’ … "
-    },
-    {
-      "number": 61,
-      "pali": "‘phasso’tissa vacanīyaṁ … ",
-      "english": "You should say: ‘Contact.’ … "
-    },
-    {
-      "number": 62,
-      "pali": "‘saḷāyatanan’tissa vacanīyaṁ … ",
-      "english": "You should say: ‘The six sense fields.’ … "
-    },
-    {
-      "number": 63,
-      "pali": "‘nāmarūpan’tissa vacanīyaṁ … ",
-      "english": "You should say: ‘Name and form.’ … "
-    },
-    {
-      "number": 64,
-      "pali": "‘viññāṇan’tissa vacanīyaṁ … ",
-      "english": "You should say: ‘Consciousness.’ … "
-    },
-    {
-      "number": 65,
-      "pali": "‘saṅkhārā’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Choices.’ … "
-    },
-    {
-      "number": 66,
-      "pali": "Saṅkhārepāhaṁ, bhikkhave, saupanise vadāmi, no anupanise. ",
-      "english": "I say that choices have a vital condition, they don’t lack a vital condition. "
-    },
-    {
-      "number": 67,
-      "pali": "Kā ca, bhikkhave, saṅkhārānaṁ upanisā? ",
-      "english": "And what is the vital condition for choices? "
-    },
-    {
-      "number": 68,
-      "pali": "‘Avijjā’tissa vacanīyaṁ. ",
-      "english": "You should say: ‘Ignorance.’ "
-    },
-    {
-      "number": 69,
-      "pali": "Iti kho, bhikkhave, avijjūpanisā saṅkhārā, ",
-      "english": "So, mendicants: ignorance is the vital condition for choices. "
-    },
-    {
-      "number": 70,
-      "pali": "saṅkhārūpanisaṁ viññāṇaṁ, ",
-      "english": "Choices are the vital condition for consciousness. "
-    },
-    {
-      "number": 71,
-      "pali": "viññāṇūpanisaṁ nāmarūpaṁ, ",
-      "english": "Consciousness is the vital condition for name and form. "
-    },
-    {
-      "number": 72,
-      "pali": "nāmarūpūpanisaṁ saḷāyatanaṁ, ",
-      "english": "Name and form are the vital conditions for the six sense fields. "
-    },
-    {
-      "number": 73,
-      "pali": "saḷāyatanūpaniso phasso, ",
-      "english": "The six sense fields are the vital conditions for contact. "
-    },
-    {
-      "number": 74,
-      "pali": "phassūpanisā vedanā, ",
-      "english": "Contact is the vital condition for feeling. "
-    },
-    {
-      "number": 75,
-      "pali": "vedanūpanisā taṇhā, ",
-      "english": "Feeling is the vital condition for craving. "
-    },
-    {
-      "number": 76,
-      "pali": "taṇhūpanisaṁ upādānaṁ, ",
-      "english": "Craving is the vital condition for grasping. "
-    },
-    {
-      "number": 77,
-      "pali": "upādānūpaniso bhavo, ",
-      "english": "Grasping is the vital condition for continued existence. "
-    },
-    {
-      "number": 78,
-      "pali": "bhavūpanisā jāti, ",
-      "english": "Continued existence is the vital condition for rebirth. "
-    },
-    {
-      "number": 79,
-      "pali": "jātūpanisaṁ dukkhaṁ, ",
-      "english": "Rebirth is the vital condition for suffering. "
-    },
-    {
-      "number": 80,
-      "pali": "dukkhūpanisā saddhā, ",
-      "english": "Suffering is the vital condition for faith. "
-    },
-    {
-      "number": 81,
-      "pali": "saddhūpanisaṁ pāmojjaṁ, ",
-      "english": "Faith is the vital condition for joy. "
-    },
-    {
-      "number": 82,
-      "pali": "pāmojjūpanisā pīti, ",
-      "english": "Joy is the vital condition for rapture. "
-    },
-    {
-      "number": 83,
-      "pali": "pītūpanisā passaddhi, ",
-      "english": "Rapture is the vital condition for tranquility. "
-    },
-    {
-      "number": 84,
-      "pali": "passaddhūpanisaṁ sukhaṁ, ",
-      "english": "Tranquility is the vital condition for bliss. "
-    },
-    {
-      "number": 85,
-      "pali": "sukhūpaniso samādhi, ",
-      "english": "Bliss is the vital condition for immersion. "
-    },
-    {
-      "number": 86,
-      "pali": "samādhūpanisaṁ yathābhūtañāṇadassanaṁ, ",
-      "english": "Immersion is the vital condition for truly knowing and seeing. "
-    },
-    {
-      "number": 87,
-      "pali": "yathābhūtañāṇadassanūpanisā nibbidā, ",
-      "english": "Truly knowing and seeing is the vital condition for disillusionment. "
-    },
-    {
-      "number": 88,
-      "pali": "nibbidūpaniso virāgo, ",
-      "english": "Disillusionment is the vital condition for dispassion. "
-    },
-    {
-      "number": 89,
-      "pali": "virāgūpanisā vimutti, ",
-      "english": "Dispassion is the vital condition for freedom. "
-    },
-    {
-      "number": 90,
-      "pali": "vimuttūpanisaṁ khaye ñāṇaṁ. ",
-      "english": "Freedom is the vital condition for the knowledge of ending. "
-    },
-    {
-      "number": 91,
-      "pali": "Seyyathāpi, bhikkhave, uparipabbate thullaphusitake deve vassante taṁ udakaṁ yathāninnaṁ pavattamānaṁ pabbatakandarapadarasākhā paripūreti. Pabbatakandarapadarasākhāparipūrā kusobbhe paripūrenti. Kusobbhā paripūrā mahāsobbhe paripūrenti. Mahāsobbhā paripūrā kunnadiyo paripūrenti. Kunnadiyo paripūrā mahānadiyo paripūrenti. Mahānadiyo paripūrā mahāsamuddaṁ paripūrenti. ",
-      "english": "It’s like when the heavens rain heavily on a mountain top, and the water flows downhill to fill the hollows, crevices, and creeks. As they become full, they fill up the pools. The pools fill up the lakes, the lakes fill up the streams, and the streams fill up the rivers. And as the rivers become full, they fill up the ocean. "
-    },
-    {
-      "number": 92,
-      "pali": "Evameva kho, bhikkhave, avijjūpanisā saṅkhārā, saṅkhārūpanisaṁ viññāṇaṁ, viññāṇūpanisaṁ nāmarūpaṁ, nāmarūpūpanisaṁ saḷāyatanaṁ, saḷāyatanūpaniso phasso, phassūpanisā vedanā, vedanūpanisā taṇhā, taṇhūpanisaṁ upādānaṁ, upādānūpaniso bhavo, bhavūpanisā jāti, jātūpanisaṁ dukkhaṁ, dukkhūpanisā saddhā, saddhūpanisaṁ pāmojjaṁ, pāmojjūpanisā pīti, pītūpanisā passaddhi, passaddhūpanisaṁ sukhaṁ, sukhūpaniso samādhi, samādhūpanisaṁ yathābhūtañāṇadassanaṁ, yathābhūtañāṇadassanūpanisā nibbidā, nibbidūpaniso virāgo, virāgūpanisā vimutti, vimuttūpanisaṁ khaye ñāṇan”ti. ",
-      "english": "In the same way, ignorance is the vital condition for choices. … Freedom is the vital condition for the knowledge of ending.” "
-    },
-    {
-      "number": 93,
-      "pali": "Tatiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "knowledge of ending has release as its prerequisite.”"
     }
   ]
 }

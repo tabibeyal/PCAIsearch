@@ -3,193 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 8.9 ",
-      "english": "Numbered Discourses 8.9 "
+      "pali": "Numerical Discourses 8.9",
+      "english": "Numerical Discourses 8.9"
     },
     {
       "number": 2,
-      "pali": "1. Mettāvagga ",
-      "english": "1. Love "
+      "pali": "Nanda Sutta",
+      "english": "About Nanda"
     },
     {
       "number": 3,
-      "pali": "Nandasutta ",
-      "english": "Nanda "
+      "pali": "",
+      "english": "“Monks, speaking rightly of Nanda, one could say, ‘He is a son of a good family.’ Speaking rightly of Nanda, one could say, ‘He is strong.’ Speaking rightly of Nanda, one could say, ‘He is handsome.’ Speaking rightly of Nanda, one could say, ‘He is fiercely passionate.’ If Nanda did not guard the doors of his senses, did not know moderation in eating, was not devoted to wakefulness, and was not endowed with mindfulness & alertness, how would he be able to follow the holy life, perfect & pure?"
     },
     {
       "number": 4,
-      "pali": "“‘kulaputto’ti, bhikkhave, nandaṁ sammā vadamāno vadeyya. ",
-      "english": "“Mendicants, you could rightly call Nanda ‘Gentleman’, "
+      "pali": "",
+      "english": "“This is Nanda’s guarding of the doors of his senses: If he should look to the east, he looks focusing his entire awareness, (thinking,) ‘As I am looking thus to the east, greed & distress, evil unskillful qualities, will not flow out.’ That’s how he is alert there. If he should look to the west… the north… the south… above… below… to the intermediate directions, he looks focusing his entire awareness, (thinking,) ‘As I am looking thus to the intermediate directions, greed & distress, evil unskillful qualities, will not flow out.’ That’s how he is alert there. This is Nanda’s guarding of the doors of his senses."
     },
     {
       "number": 5,
-      "pali": "‘Balavā’ti, bhikkhave, nandaṁ sammā vadamāno vadeyya. ",
-      "english": "‘strong’, "
+      "pali": "",
+      "english": "“This is Nanda’s knowledge of moderation in eating: Nanda takes his food reflecting appropriately, not playfully, nor for intoxication, nor for putting on bulk, nor for beautification, but simply for the survival & continuance of this body, for ending its afflictions, for the support of the holy life, (thinking,) ‘I will destroy old feelings (of hunger) & not create new feelings (from overeating). Thus I will maintain myself, be blameless, & live in comfort.’ This is Nanda’s knowledge of moderation in eating."
     },
     {
       "number": 6,
-      "pali": "‘Pāsādiko’ti, bhikkhave, nandaṁ sammā vadamāno vadeyya. ",
-      "english": "‘lovely’, "
+      "pali": "",
+      "english": "“This is Nanda’s devotion to wakefulness: There is the case where Nanda during the day, sitting & pacing back & forth, cleanses his mind of any qualities that would hold the mind in check. During the first watch of the night [dusk to 10 p.m.], sitting & pacing back & forth, he cleanses his mind of any qualities that would hold the mind in check. During the second watch of the night [10 p.m. to 2 a.m.], reclining on his right side, he takes up the lion’s posture, one foot placed on top of the other, mindful, alert, with his mind set on getting up [either as soon as he awakens or at a particular time]. During the last watch of the night [2 a.m. to dawn], sitting & pacing back & forth, he cleanses his mind of any qualities that would hold the mind in check. This is Nanda’s devotion to wakefulness."
     },
     {
       "number": 7,
-      "pali": "‘Tibbarāgo’ti, bhikkhave, nandaṁ sammā vadamāno vadeyya. ",
-      "english": "and ‘lustful’. "
+      "pali": "",
+      "english": "“This is Nanda’s being in mindfulness & alertness: There is the case where feelings are known to Nanda as they arise, known as they persist, known as they subside. Perceptions are known as they arise, known as they persist, known as they subside. Thoughts are known as they arise, known as they persist, known as they subside. This is Nanda’s being in mindfulness & alertness."
     },
     {
       "number": 8,
-      "pali": "Kimaññatra, bhikkhave, nando indriyesu guttadvāro, bhojane mattaññū, jāgariyaṁ anuyutto, satisampajaññena samannāgato, yehi nando sakkoti paripuṇṇaṁ parisuddhaṁ brahmacariyaṁ carituṁ. ",
-      "english": "How could he live the full and pure spiritual life unless he guards the sense doors, eats in moderation, is dedicated to wakefulness, and has mindfulness and situational awareness? "
-    },
-    {
-      "number": 9,
-      "pali": "Tatridaṁ, bhikkhave, nandassa indriyesu guttadvāratāya hoti. ",
-      "english": "This is how Nanda guards the sense doors. "
-    },
-    {
-      "number": 10,
-      "pali": "Sace, bhikkhave, nandassa puratthimā disā āloketabbā hoti, sabbaṁ cetasā samannāharitvā nando puratthimaṁ disaṁ āloketi: ",
-      "english": "If he has to look to the east, he wholeheartedly concentrates before looking, thinking: "
-    },
-    {
-      "number": 11,
-      "pali": "‘evaṁ me puratthimaṁ disaṁ ālokayato nābhijjhādomanassā pāpakā akusalā dhammā anvāssavissantī’ti. ",
-      "english": "‘When I look to the east, bad, unskillful qualities of covetousness and displeasure will not overwhelm me.’ "
-    },
-    {
-      "number": 12,
-      "pali": "Itiha tattha sampajāno hoti. ",
-      "english": "In this way he’s aware of the situation. "
-    },
-    {
-      "number": 13,
-      "pali": "Sace, bhikkhave, nandassa pacchimā disā āloketabbā hoti …pe… ",
-      "english": "If he has to look to the west … "
-    },
-    {
-      "number": 14,
-      "pali": "uttarā disā āloketabbā hoti … ",
-      "english": "north … "
-    },
-    {
-      "number": 15,
-      "pali": "dakkhiṇā disā āloketabbā hoti … ",
-      "english": "south … "
-    },
-    {
-      "number": 16,
-      "pali": "uddhaṁ ulloketabbā hoti … ",
-      "english": "up … "
-    },
-    {
-      "number": 17,
-      "pali": "adho oloketabbā hoti … ",
-      "english": "down … "
-    },
-    {
-      "number": 18,
-      "pali": "anudisā anuviloketabbā hoti, sabbaṁ cetasā samannāharitvā nando anudisaṁ anuviloketi: ",
-      "english": "If he has to survey the intermediate directions, he wholeheartedly concentrates before looking, thinking: "
-    },
-    {
-      "number": 19,
-      "pali": "‘evaṁ me anudisaṁ anuvilokayato nābhijjhādomanassā pāpakā akusalā dhammā anvāssavissantī’ti. ",
-      "english": "‘When I survey the intermediate directions, bad, unskillful qualities of covetousness and displeasure will not overwhelm me.’ "
-    },
-    {
-      "number": 20,
-      "pali": "Itiha tattha sampajāno hoti. ",
-      "english": "In this way he’s aware of the situation. "
-    },
-    {
-      "number": 21,
-      "pali": "Idaṁ kho, bhikkhave, nandassa indriyesu guttadvāratāya hoti. ",
-      "english": "This is how Nanda guards the sense doors. "
-    },
-    {
-      "number": 22,
-      "pali": "Tatridaṁ, bhikkhave, nandassa bhojane mattaññutāya hoti. ",
-      "english": "This is how Nanda eats in moderation. "
-    },
-    {
-      "number": 23,
-      "pali": "Idha, bhikkhave, nando paṭisaṅkhā yoniso āhāraṁ āhāreti: ",
-      "english": "Nanda reflects rationally on the food he eats: "
-    },
-    {
-      "number": 24,
-      "pali": "‘neva davāya na madāya na maṇḍanāya na vibhūsanāya, yāvadeva imassa kāyassa ṭhitiyā yāpanāya vihiṁsūparatiyā brahmacariyānuggahāya iti purāṇañca vedanaṁ paṭihaṅkhāmi, navañca vedanaṁ na uppādessāmi, yātrā ca me bhavissati anavajjatā ca phāsuvihāro cā’ti. ",
-      "english": "‘Not for fun, indulgence, adornment, or decoration, but only to sustain this body, to avoid harm, and to support spiritual practice. In this way, I shall put an end to old discomfort and not give rise to new discomfort, and I will have the means to keep going, blamelessness, and a comfortable abiding.’ "
-    },
-    {
-      "number": 25,
-      "pali": "Idaṁ kho, bhikkhave, nandassa bhojane mattaññutāya hoti. ",
-      "english": "This is how Nanda eats in moderation. "
-    },
-    {
-      "number": 26,
-      "pali": "Tatridaṁ, bhikkhave, nandassa jāgariyānuyogasmiṁ hoti. ",
-      "english": "This is how Nanda is committed to wakefulness. "
-    },
-    {
-      "number": 27,
-      "pali": "Idha, bhikkhave, nando divasaṁ caṅkamena nisajjāya āvaraṇīyehi dhammehi cittaṁ parisodheti; ",
-      "english": "Nanda practices walking and sitting meditation by day, purifying his mind from obstacles. "
-    },
-    {
-      "number": 28,
-      "pali": "rattiyā paṭhamaṁ yāmaṁ caṅkamena nisajjāya āvaraṇīyehi dhammehi cittaṁ parisodheti; ",
-      "english": "In the first watch of the night, he continues to practice walking and sitting meditation. "
-    },
-    {
-      "number": 29,
-      "pali": "rattiyā majjhimaṁ yāmaṁ dakkhiṇena passena sīhaseyyaṁ kappeti pāde pādaṁ accādhāya sato sampajāno uṭṭhānasaññaṁ manasi karitvā; ",
-      "english": "In the middle watch, he lies down in the lion’s posture—on the right side, placing one foot on top of the other—mindful and aware, and focused on the time of getting up. "
-    },
-    {
-      "number": 30,
-      "pali": "rattiyā pacchimaṁ yāmaṁ paccuṭṭhāya caṅkamena nisajjāya āvaraṇīyehi dhammehi cittaṁ parisodheti. ",
-      "english": "In the last watch, he gets up and continues to practice walking and sitting meditation, purifying his mind from obstacles. "
-    },
-    {
-      "number": 31,
-      "pali": "Idaṁ kho, bhikkhave, nandassa jāgariyānuyogasmiṁ hoti. ",
-      "english": "This is how Nanda is committed to wakefulness. "
-    },
-    {
-      "number": 32,
-      "pali": "Tatridaṁ, bhikkhave, nandassa satisampajaññasmiṁ hoti. ",
-      "english": "This is how Nanda has mindfulness and situational awareness. "
-    },
-    {
-      "number": 33,
-      "pali": "Idha, bhikkhave, nandassa viditā vedanā uppajjanti, viditā upaṭṭhahanti, viditā abbhatthaṁ gacchanti; ",
-      "english": "Nanda knows feelings as they arise, as they remain, and as they go away. "
-    },
-    {
-      "number": 34,
-      "pali": "viditā saññā …pe… ",
-      "english": "He knows perceptions as they arise, as they remain, and as they go away. "
-    },
-    {
-      "number": 35,
-      "pali": "viditā vitakkā …pe… abbhatthaṁ gacchanti. ",
-      "english": "He knows thoughts as they arise, as they remain, and as they go away. "
-    },
-    {
-      "number": 36,
-      "pali": "Idaṁ kho, bhikkhave, nandassa satisampajaññasmiṁ hoti. ",
-      "english": "This is how Nanda has mindfulness and situational awareness. "
-    },
-    {
-      "number": 37,
-      "pali": "Kimaññatra, bhikkhave, nando indriyesu guttadvāro, bhojane mattaññū, jāgariyaṁ anuyutto, satisampajaññena samannāgato, yehi nando sakkoti paripuṇṇaṁ parisuddhaṁ brahmacariyaṁ caritun”ti. ",
-      "english": "How could Nanda live the full and pure spiritual life unless he guards the sense doors, eats in moderation, is dedicated to wakefulness, and has mindfulness and situational awareness?” "
-    },
-    {
-      "number": 38,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Monks, if Nanda did not guard the doors of his senses, did not know moderation in eating, was not devoted to wakefulness, and was not endowed with mindfulness & alertness, how would he be able to follow the holy life, perfect & pure?”"
     }
   ]
 }

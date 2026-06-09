@@ -3,103 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 35.134 ",
-      "english": "Linked Discourses 35.134 "
+      "pali": "Linked Discourses 35.134",
+      "english": "Linked Discourses 35.134"
     },
     {
       "number": 2,
-      "pali": "14. Devadahavagga ",
-      "english": "14. At Devadaha "
+      "pali": "Devadaha Sutta",
+      "english": "At Devadaha"
     },
     {
       "number": 3,
-      "pali": "Devadahasutta ",
-      "english": "At Devadaha "
+      "pali": "",
+      "english": "On one occasion the Blessed One was staying among the Sakyans near a Sakyan town named Devadaha. There he addressed the monks, “Monks, I don’t say of all monks that they have work to do with heedfulness with regard to the six contact-media. But I don’t say of all monks that they don’t have work to do with heedfulness with regard to the six contact-media."
     },
     {
       "number": 4,
-      "pali": "Ekaṁ samayaṁ bhagavā sakkesu viharati devadahaṁ nāma sakyānaṁ nigamo. ",
-      "english": "At one time the Buddha was staying in the land of the Sakyans, near the Sakyan town named Devadaha. "
+      "pali": "",
+      "english": "“Those monks who are arahants—whose effluents are ended, who have reached fulfillment, done the task, laid down the burden, attained the true goal, laid to waste the fetter of becoming, and who are released through right gnosis: Of them I say that they don’t have work to do with heedfulness with regard to the six contact-media. Why is that? They have completed their work with heedfulness. They are incapable of falling back."
     },
     {
       "number": 5,
-      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
-      "english": "There the Buddha addressed the mendicants: "
+      "pali": "",
+      "english": "“But as for those monks who are in training, who have not attained the heart’s goal but remain intent on the unsurpassed safety from bondage: Of them I say that they still have work to do with heedfulness with regard to the six contact-media. Why is that?"
     },
     {
       "number": 6,
-      "pali": "“nāhaṁ, bhikkhave, sabbesaṁyeva bhikkhūnaṁ chasu phassāyatanesu appamādena karaṇīyanti vadāmi, na ca panāhaṁ, bhikkhave, sabbesaṁyeva bhikkhūnaṁ chasu phassāyatanesu nāppamādena karaṇīyanti vadāmi. ",
-      "english": "“When it comes to the six fields of contact, mendicants, I don’t say that all mendicants have work to do with diligence, nor do I say that none of them have work to do with diligence. "
+      "pali": "",
+      "english": "“There are forms cognizable via the eye that are agreeable & disagreeable. [When one is heedful] they don’t persist in consuming the mind, even when contacted again & again. When awareness isn’t consumed, persistence is aroused & untiring, the mind concentrated & gathered into singleness. Seeing this fruit of heedfulness, I say of those monks that they still have work to do with heedfulness with regard to the six contact-media."
     },
     {
       "number": 7,
-      "pali": "Ye te, bhikkhave, bhikkhū arahanto khīṇāsavā vusitavanto katakaraṇīyā ohitabhārā anuppattasadatthā parikkhīṇabhavasaṁyojanā sammadaññāvimuttā, tesāhaṁ, bhikkhave, bhikkhūnaṁ chasu phassāyatanesu nāppamādena karaṇīyanti vadāmi. ",
-      "english": "I say that, when it comes to the six fields of contact, mendicants don’t have work to do with diligence if they are perfected, with defilements ended, having completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and become rightly freed through enlightenment. "
+      "pali": "",
+      "english": "“There are sounds cognizable via the ear… aromas cognizable via the nose… flavors cognizable via the tongue… tactile sensations cognizable via the body…"
     },
     {
       "number": 8,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 9,
-      "pali": "Kataṁ tesaṁ appamādena, abhabbā te pamajjituṁ. ",
-      "english": "They’ve done their work with diligence, and are incapable of negligence. "
-    },
-    {
-      "number": 10,
-      "pali": "Ye ca kho te, bhikkhave, bhikkhū sekkhā appattamānasā anuttaraṁ yogakkhemaṁ patthayamānā viharanti, tesāhaṁ, bhikkhave, bhikkhūnaṁ chasu phassāyatanesu appamādena karaṇīyanti vadāmi. ",
-      "english": "I say that, when it comes to the six fields of contact, mendicants do have work to do with diligence if they are trainees, who haven’t achieved their heart’s desire, but live aspiring to the supreme sanctuary from the yoke. "
-    },
-    {
-      "number": 11,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 12,
-      "pali": "Santi, bhikkhave, cakkhuviññeyyā rūpā manoramāpi, amanoramāpi. ",
-      "english": "There are sights known by the eye that are pleasant and also those that are unpleasant. "
-    },
-    {
-      "number": 13,
-      "pali": "Tyāssa phussa phussa cittaṁ na pariyādāya tiṭṭhanti. ",
-      "english": "Though experiencing them again and again they don’t occupy the mind. "
-    },
-    {
-      "number": 14,
-      "pali": "Cetaso apariyādānā āraddhaṁ hoti vīriyaṁ asallīnaṁ, upaṭṭhitā sati asammuṭṭhā, passaddho kāyo asāraddho, samāhitaṁ cittaṁ ekaggaṁ. ",
-      "english": "Their energy is roused up and unflagging, their mindfulness is established and lucid, their body is tranquil and undisturbed, and their mind is immersed in samādhi and unified. "
-    },
-    {
-      "number": 15,
-      "pali": "Imaṁ khvāhaṁ, bhikkhave, appamādaphalaṁ sampassamāno tesaṁ bhikkhūnaṁ chasu phassāyatanesu appamādena karaṇīyanti vadāmi …pe… ",
-      "english": "Seeing this fruit of diligence, I say that those mendicants have work to do with diligence when it comes to the six fields of contact. … "
-    },
-    {
-      "number": 16,
-      "pali": "santi, bhikkhave, manoviññeyyā dhammā manoramāpi amanoramāpi. ",
-      "english": "There are ideas known by the mind that are pleasant and also those that are unpleasant. "
-    },
-    {
-      "number": 17,
-      "pali": "Tyāssa phussa phussa cittaṁ na pariyādāya tiṭṭhanti. ",
-      "english": "Though experiencing them again and again they don’t occupy the mind. "
-    },
-    {
-      "number": 18,
-      "pali": "Cetaso apariyādānā āraddhaṁ hoti vīriyaṁ asallīnaṁ, upaṭṭhitā sati asammuṭṭhā, passaddho kāyo asāraddho, samāhitaṁ cittaṁ ekaggaṁ. ",
-      "english": "Their energy is roused up and unflagging, their mindfulness is established and lucid, their body is tranquil and undisturbed, and their mind is immersed in samādhi and unified. "
-    },
-    {
-      "number": 19,
-      "pali": "Imaṁ khvāhaṁ, bhikkhave, appamādaphalaṁ sampassamāno tesaṁ bhikkhūnaṁ chasu phassāyatanesu appamādena karaṇīyanti vadāmī”ti. ",
-      "english": "Seeing this fruit of diligence, I say that those mendicants have work to do with diligence when it comes to the six fields of contact.” "
-    },
-    {
-      "number": 20,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“There are ideas cognizable via the intellect that are agreeable & disagreeable. [When one is heedful] they don’t persist in consuming the mind, even when contacted again & again. When awareness isn’t consumed, persistence is aroused & untiring, the mind concentrated & gathered into singleness. Seeing this fruit of heedfulness, I say of those monks that they still have work to do with heedfulness with regard to the six contact-media.”"
     }
   ]
 }

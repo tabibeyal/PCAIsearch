@@ -3,108 +3,63 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.58 ",
-      "english": "Linked Discourses 22.58 "
+      "pali": "Linked Discourses 22.58",
+      "english": "Linked Discourses 22.58"
     },
     {
       "number": 2,
-      "pali": "6. Upayavagga ",
-      "english": "6. Involvement "
+      "pali": "Buddha Sutta",
+      "english": "Awakened"
     },
     {
       "number": 3,
-      "pali": "Sammāsambuddhasutta ",
-      "english": "The Fully Awakened Buddha "
+      "pali": "",
+      "english": "Some schools of Buddhism teach that there is a qualitative difference between the liberation of a Buddha and that of an arahant disciple. This sutta, however, shows that the Buddha saw the distinction in different terms."
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "Near Sāvatthī… “Monks, the Tathāgata—the worthy one, the rightly self-awakened one, who from disenchantment with form, from dispassion, from cessation, from lack of clinging (for form) is released—is termed ‘rightly self-awakened.’ And a discernment-released monk—who from disenchantment with form, from dispassion, from cessation, from lack of clinging (for form) is released—is termed ‘discernment-released.’"
     },
     {
       "number": 5,
-      "pali": "“Tathāgato, bhikkhave, arahaṁ sammāsambuddho rūpassa nibbidā virāgā nirodhā anupādā vimutto sammāsambuddhoti vuccati. ",
-      "english": "“Mendicants, a Realized One, a perfected one, a fully awakened Buddha is freed by not grasping, due to disillusionment, dispassion, and cessation regarding form. They’re called a fully awakened Buddha. "
+      "pali": "",
+      "english": "“The Tathāgata—the worthy one, the rightly self-awakened one, who from disenchantment with feeling… perception… fabrication, from dispassion, from cessation, from lack of clinging (for feeling… perception… fabrication) is released—is termed ‘rightly self-awakened.’ And a discernment-released monk—who from disenchantment with feeling… perception… fabrication, from dispassion, from cessation, from lack of clinging (for feeling… perception… fabrication) is released—is termed ‘discernment-released.’"
     },
     {
       "number": 6,
-      "pali": "Bhikkhupi, bhikkhave, paññāvimutto rūpassa nibbidā virāgā nirodhā anupādā vimutto paññāvimuttoti vuccati. ",
-      "english": "A mendicant freed by wisdom is also freed by not grasping, due to disillusionment, dispassion, and cessation regarding form. They’re called a mendicant freed by wisdom. "
+      "pali": "",
+      "english": "“The Tathāgata—the worthy one, the rightly self-awakened one, who from disenchantment with consciousness, from dispassion, from cessation, from lack of clinging (for consciousness) is released—is termed ‘rightly self-awakened.’ And a discernment-released monk—who from disenchantment with consciousness, from dispassion, from cessation, from lack of clinging (for consciousness) is released—is termed ‘discernment-released.’"
     },
     {
       "number": 7,
-      "pali": "Tathāgato, bhikkhave, arahaṁ sammāsambuddho vedanāya nibbidā virāgā nirodhā anupādā vimutto sammāsambuddhoti vuccati. ",
-      "english": "A Realized One, a perfected one, a fully awakened Buddha is freed by not grasping, due to disillusionment, dispassion, and cessation regarding feeling … "
+      "pali": "",
+      "english": "“So what difference, what distinction, what distinguishing factor is there between one rightly self-awakened and a monk discernment-released?”"
     },
     {
       "number": 8,
-      "pali": "Bhikkhupi, bhikkhave, paññāvimutto vedanāya nibbidā …pe… paññāvimuttoti vuccati. ",
-      "english": ""
+      "pali": "",
+      "english": "“For us, lord, the teachings have the Blessed One as their root, their guide, & their arbitrator. It would be good if the Blessed One himself would elaborate on the meaning of this statement. Having heard it from the Blessed One, the monks will remember it.”"
     },
     {
       "number": 9,
-      "pali": "Tathāgato, bhikkhave, arahaṁ sammāsambuddho saññāya … ",
-      "english": "perception … "
+      "pali": "",
+      "english": "“In that case, monks, listen & pay close attention. I will speak.”"
     },
     {
       "number": 10,
-      "pali": "saṅkhārānaṁ … ",
-      "english": "choices … "
+      "pali": "",
+      "english": "“As you say, lord,” the monks responded to him."
     },
     {
       "number": 11,
-      "pali": "viññāṇassa nibbidā virāgā nirodhā anupādā vimutto sammāsambuddhoti vuccati. ",
-      "english": "consciousness. They’re called a fully awakened Buddha. "
+      "pali": "",
+      "english": "The Blessed One said, “The Tathāgata—the worthy one, the rightly self-awakened one—is the one who gives rise to the path (previously) unarisen, who engenders the path (previously) unengendered, who points out the path (previously) not pointed out. He knows the path, is expert in the path, is adept at the path. And his disciples now keep following the path and afterward become endowed with the path."
     },
     {
       "number": 12,
-      "pali": "Bhikkhupi, bhikkhave, paññāvimutto viññāṇassa nibbidā virāgā nirodhā anupādā vimutto paññāvimuttoti vuccati. ",
-      "english": "A mendicant freed by wisdom is also freed by not grasping, due to disillusionment, dispassion, and cessation regarding consciousness. They’re called a mendicant freed by wisdom. "
-    },
-    {
-      "number": 13,
-      "pali": "Tatra kho, bhikkhave, ko viseso, ko adhippayāso, kiṁ nānākaraṇaṁ, tathāgatassa arahato sammāsambuddhassa paññāvimuttena bhikkhunā”ti? ",
-      "english": "What, then, is the difference between a Realized One, a perfected one, a fully awakened Buddha, and a mendicant freed by wisdom?” "
-    },
-    {
-      "number": 14,
-      "pali": "“Bhagavaṁmūlakā no, bhante, dhammā bhagavaṁnettikā bhagavaṁpaṭisaraṇā. Sādhu vata, bhante, bhagavantaññeva paṭibhātu etassa bhāsitassa attho. Bhagavato sutvā bhikkhū dhāressantī”ti. ",
-      "english": "“Our teachings are rooted in the Buddha. He is our guide and our refuge. Sir, may the Buddha himself please clarify the meaning of this. The mendicants will listen and remember it.” "
-    },
-    {
-      "number": 15,
-      "pali": "“Tena hi, bhikkhave, suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
-      "english": "“Well then, mendicants, listen and apply your mind well, I will speak.” "
-    },
-    {
-      "number": 16,
-      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Yes, sir,” they replied. "
-    },
-    {
-      "number": 17,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
-    },
-    {
-      "number": 18,
-      "pali": "“Tathāgato, bhikkhave, arahaṁ sammāsambuddho anuppannassa maggassa uppādetā, asañjātassa maggassa sañjanetā, anakkhātassa maggassa akkhātā maggaññū, maggavidū, maggakovido; ",
-      "english": "“The Realized One, the perfected one, the fully awakened Buddha gave rise to the unarisen path, gave birth to the unborn path, and explained the unexplained path. He is the knower of the path, the discoverer of the path, the expert on the path. "
-    },
-    {
-      "number": 19,
-      "pali": "maggānugā ca, bhikkhave, etarahi sāvakā viharanti pacchā samannāgatā. ",
-      "english": "And now the disciples live following the path; they acquire it later. "
-    },
-    {
-      "number": 20,
-      "pali": "Ayaṁ kho, bhikkhave, viseso, ayaṁ adhippayāso, idaṁ nānākaraṇaṁ tathāgatassa arahato sammāsambuddhassa paññāvimuttena bhikkhunā”ti. ",
-      "english": "This is the difference between a Realized One, a perfected one, a fully awakened Buddha, and a mendicant freed by wisdom.” "
-    },
-    {
-      "number": 21,
-      "pali": "Chaṭṭhaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“This is the difference, this the distinction, this the distinguishing factor between one rightly self-awakened and a monk discernment-released.”"
     }
   ]
 }

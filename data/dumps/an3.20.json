@@ -3,218 +3,63 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 3.20 ",
-      "english": "Numbered Discourses 3.20 "
+      "pali": "Numerical Discourses 3.20",
+      "english": "Numerical Discourses 3.20"
     },
     {
       "number": 2,
-      "pali": "2. Rathakāravagga ",
-      "english": "2. The Chariot-Maker "
+      "pali": "Pāpaṇika Sutta",
+      "english": "The Shopkeeper"
     },
     {
       "number": 3,
-      "pali": "Dutiyapāpaṇikasutta ",
-      "english": "A Shopkeeper (2nd) "
+      "pali": "",
+      "english": "“Monks, a shopkeeper endowed with three factors will, in no long time, achieve greatness & abundance in terms of wealth. Which three? There is the case where a shopkeeper has a good eye, is astute, & is consummate in his backing."
     },
     {
       "number": 4,
-      "pali": "“Tīhi, bhikkhave, aṅgehi samannāgato pāpaṇiko nacirasseva mahattaṁ vepullattaṁ pāpuṇāti bhogesu. ",
-      "english": "“Mendicants, a shopkeeper who has three factors soon acquires great and abundant wealth. "
+      "pali": "",
+      "english": "“And how does a shopkeeper have a good eye? There is the case where a shopkeeper knows of an item: ‘This item can be bought at this price and sold at this price; the cost will be this much, and the profit this much.’ This is how a shopkeeper has a good eye."
     },
     {
       "number": 5,
-      "pali": "Katamehi tīhi? ",
-      "english": "What three? "
+      "pali": "",
+      "english": "“And how is a shopkeeper astute? There is the case where a shopkeeper is skilled in buying & selling an item. This is how a shopkeeper is astute."
     },
     {
       "number": 6,
-      "pali": "Idha, bhikkhave, pāpaṇiko cakkhumā ca hoti vidhuro ca nissayasampanno ca. ",
-      "english": "It’s when a shopkeeper sees clearly, is indefatigable, and has supporters. "
+      "pali": "",
+      "english": "“And how is a shopkeeper consummate in his backing? There is the case where householders or householders’ sons know of a shopkeeper, ‘This shopkeeper has a good eye & is astute. He is capable of supporting his wife & children and repaying our investment at regular intervals.’ They offer him wealth, [saying,] ‘Here, my friend, having made wealth from this, support your wife & children and repay us at regular intervals.’ This is how a shopkeeper is consummate in his backing."
     },
     {
       "number": 7,
-      "pali": "Kathañca, bhikkhave, pāpaṇiko cakkhumā hoti? ",
-      "english": "And how does a shopkeeper see clearly? "
+      "pali": "",
+      "english": "“A shopkeeper endowed with these three factors will, in no long time, achieve greatness & abundance in terms of wealth."
     },
     {
       "number": 8,
-      "pali": "Idha, bhikkhave, pāpaṇiko paṇiyaṁ jānāti: ",
-      "english": "It’s when a shopkeeper knows of a product: "
+      "pali": "",
+      "english": "“Monks, a monk endowed with three factors will, in no long time, achieve greatness & abundance in terms of skillful qualities. Which three? There is the case where a monk has a good eye, is astute, & is consummate in his backing."
     },
     {
       "number": 9,
-      "pali": "‘idaṁ paṇiyaṁ evaṁ kītaṁ, evaṁ vikkayamānaṁ, ettakaṁ mūlaṁ bhavissati, ettako udayo’ti. ",
-      "english": "‘This product is bought at this price and is selling at this price. With this much investment, it’ll bring this much profit.’ "
+      "pali": "",
+      "english": "“And how does a monk have a good eye? There is the case where a monk discerns, as it has come to be, that ‘This is stress’… ‘This is the origination of stress’… ‘This is the cessation of stress’… ‘This is the path of practice leading to the cessation of stress.’ This is how a monk has a good eye."
     },
     {
       "number": 10,
-      "pali": "Evaṁ kho, bhikkhave, pāpaṇiko cakkhumā hoti. ",
-      "english": "That’s how a shopkeeper sees clearly. "
+      "pali": "",
+      "english": "“And how is a monk astute? There is the case where a monk keeps his persistence aroused for abandoning unskillful qualities and taking on skillful qualities. He is steadfast, solid in his effort, not shirking his duties with regard to skillful qualities. This is how a monk is astute."
     },
     {
       "number": 11,
-      "pali": "Kathañca, bhikkhave, pāpaṇiko vidhuro hoti? ",
-      "english": "And how is a shopkeeper indefatigable? "
+      "pali": "",
+      "english": "“And how is a monk consummate in his backing? There is the case where a monk—approaching at regular intervals those monks who are learned, to whom the tradition has come down, who have memorized the suttas, memorized the Vinaya, memorized the mātikas [lists of Dhamma topics]—asks & questions them, ‘How is this, venerable sirs? What is the meaning of this?’ Those venerable ones make open what isn’t open, make plain what isn’t plain, dispel doubt on various doubtful points. This is how a monk is consummate in his backing."
     },
     {
       "number": 12,
-      "pali": "Idha, bhikkhave, pāpaṇiko kusalo hoti paṇiyaṁ ketuñca vikketuñca. ",
-      "english": "It’s when a shopkeeper is skilled in buying and selling products. "
-    },
-    {
-      "number": 13,
-      "pali": "Evaṁ kho, bhikkhave, pāpaṇiko vidhuro hoti. ",
-      "english": "That’s how a shopkeeper is indefatigable. "
-    },
-    {
-      "number": 14,
-      "pali": "Kathañca, bhikkhave, pāpaṇiko nissayasampanno hoti? ",
-      "english": "And how does a shopkeeper have supporters? "
-    },
-    {
-      "number": 15,
-      "pali": "Idha, bhikkhave, pāpaṇikaṁ ye te gahapatī vā gahapatiputtā vā aḍḍhā mahaddhanā mahābhogā te evaṁ jānanti: ",
-      "english": "It’s when rich, affluent, and wealthy householders or householders’ children know of him: "
-    },
-    {
-      "number": 16,
-      "pali": "‘ayaṁ kho bhavaṁ pāpaṇiko cakkhumā vidhuro ca paṭibalo puttadārañca posetuṁ, amhākañca kālena kālaṁ anuppadātun’ti. ",
-      "english": "‘This good shopkeeper sees clearly and is indefatigable. They are capable of providing for their wives and children, and paying us back from time to time.’ "
-    },
-    {
-      "number": 17,
-      "pali": "Te naṁ bhogehi nipatanti: ",
-      "english": "They deposit money with the shopkeeper, saying: "
-    },
-    {
-      "number": 18,
-      "pali": "‘ito, samma pāpaṇika, bhoge karitvā puttadārañca posehi, amhākañca kālena kālaṁ anuppadehī’ti. ",
-      "english": "‘With this, my good shopkeeper, earn money to provide for your wives and children, and pay us back from time to time.’ "
-    },
-    {
-      "number": 19,
-      "pali": "Evaṁ kho, bhikkhave, pāpaṇiko nissayasampanno hoti. ",
-      "english": "That’s how a shopkeeper has supporters. "
-    },
-    {
-      "number": 20,
-      "pali": "Imehi kho, bhikkhave, tīhi aṅgehi samannāgato pāpaṇiko nacirasseva mahattaṁ vepullattaṁ pāpuṇāti bhogesu. ",
-      "english": "A shopkeeper who has these three factors soon acquires great and abundant wealth. "
-    },
-    {
-      "number": 21,
-      "pali": "Evamevaṁ kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu nacirasseva mahattaṁ vepullattaṁ pāpuṇāti kusalesu dhammesu. ",
-      "english": "In the same way, a mendicant who has three qualities soon acquires great and abundant skillful qualities. "
-    },
-    {
-      "number": 22,
-      "pali": "Katamehi tīhi? ",
-      "english": "What three? "
-    },
-    {
-      "number": 23,
-      "pali": "Idha, bhikkhave, bhikkhu cakkhumā ca hoti vidhuro ca nissayasampanno ca. ",
-      "english": "It’s when a mendicant sees clearly, is indefatigable, and has supporters. "
-    },
-    {
-      "number": 24,
-      "pali": "Kathañca, bhikkhave, bhikkhu cakkhumā hoti? ",
-      "english": "And how does a mendicant see clearly? "
-    },
-    {
-      "number": 25,
-      "pali": "Idha, bhikkhave, bhikkhu ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhasamudayo’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodho’ti yathābhūtaṁ pajānāti, ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti. ",
-      "english": "It’s when a mendicant truly understands: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’. "
-    },
-    {
-      "number": 26,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu cakkhumā hoti. ",
-      "english": "That’s how a mendicant sees clearly. "
-    },
-    {
-      "number": 27,
-      "pali": "Kathañca, bhikkhave, bhikkhu vidhuro hoti? ",
-      "english": "And how is a mendicant indefatigable? "
-    },
-    {
-      "number": 28,
-      "pali": "Idha, bhikkhave, bhikkhu āraddhavīriyo viharati akusalānaṁ dhammānaṁ pahānāya, kusalānaṁ dhammānaṁ upasampadāya, thāmavā daḷhaparakkamo anikkhittadhuro kusalesu dhammesu. ",
-      "english": "It’s when a mendicant lives with energy roused up for giving up unskillful qualities and embracing skillful qualities. They are strong, staunchly vigorous, not slacking off when it comes to developing skillful qualities. "
-    },
-    {
-      "number": 29,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu vidhuro hoti. ",
-      "english": "That’s how a mendicant is indefatigable. "
-    },
-    {
-      "number": 30,
-      "pali": "Kathañca, bhikkhave, bhikkhu nissayasampanno hoti? ",
-      "english": "And how does a mendicant have supporters? "
-    },
-    {
-      "number": 31,
-      "pali": "Idha, bhikkhave, bhikkhu ye te bhikkhū bahussutā āgatāgamā dhammadharā vinayadharā mātikādharā te kālena kālaṁ upasaṅkamitvā paripucchati paripañhati: ",
-      "english": "It’s when from time to time a mendicant goes up to those mendicants who are very learned—inheritors of the heritage, who have memorized the teachings, the monastic law, and the outlines—and asks them questions: "
-    },
-    {
-      "number": 32,
-      "pali": "‘idaṁ, bhante, kathaṁ, imassa ko attho’ti? ",
-      "english": "‘Why, sir, does it say this? What does that mean?’ "
-    },
-    {
-      "number": 33,
-      "pali": "Tassa te āyasmanto avivaṭañceva vivaranti, anuttānīkatañca uttānīkaronti, anekavihitesu ca kaṅkhāṭhāniyesu dhammesu kaṅkhaṁ paṭivinodenti. ",
-      "english": "Those venerables reveal what is hidden, clarify what is unclear, and dispel doubt regarding the many doubtful matters. "
-    },
-    {
-      "number": 34,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu nissayasampanno hoti. ",
-      "english": "That’s how a mendicant has supporters. "
-    },
-    {
-      "number": 35,
-      "pali": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu nacirasseva mahattaṁ vepullattaṁ pāpuṇāti kusalesu dhammesū”ti. ",
-      "english": "A mendicant who possesses these three qualities soon acquires great and abundant skillful qualities.” "
-    },
-    {
-      "number": 36,
-      "pali": "Dasamaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 37,
-      "pali": "Paṭhamabhāṇavāro niṭṭhito. ",
-      "english": ""
-    },
-    {
-      "number": 38,
-      "pali": "Rathakāravaggo dutiyo. ",
-      "english": ""
-    },
-    {
-      "number": 39,
-      "pali": "Tassuddānaṁ ",
-      "english": ""
-    },
-    {
-      "number": 40,
-      "pali": "Ñāto sāraṇīyo bhikkhu, ",
-      "english": ""
-    },
-    {
-      "number": 41,
-      "pali": "cakkavattī sacetano; ",
-      "english": ""
-    },
-    {
-      "number": 42,
-      "pali": "Apaṇṇakattā devo ca, ",
-      "english": ""
-    },
-    {
-      "number": 43,
-      "pali": "duve pāpaṇikena cāti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Monks, a monk endowed with these three factors will, in no long time, achieve greatness & abundance in terms of skillful qualities.”"
     }
   ]
 }

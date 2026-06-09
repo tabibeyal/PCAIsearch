@@ -3,53 +3,133 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 10.59 ",
-      "english": "Numbered Discourses 10.59 "
+      "pali": "Numerical Discourses 10.59",
+      "english": "Numerical Discourses 10.59"
     },
     {
       "number": 2,
-      "pali": "6. Sacittavagga ",
-      "english": "6. Your Own Mind "
+      "pali": "Pabbajita Sutta",
+      "english": "Gone Forth"
     },
     {
       "number": 3,
-      "pali": "Pabbajjāsutta ",
-      "english": "Going Forth "
+      "pali": "",
+      "english": "“Therefore, monks, you should train yourselves, ‘Our mind will be strengthened in keeping with the Going Forth, and we will not remain with our mind overcome by any arisen unskillful qualities."
     },
     {
       "number": 4,
-      "pali": "“Tasmātiha, bhikkhave, evaṁ sikkhitabbaṁ: ",
-      "english": "“So you should train like this: "
+      "pali": "",
+      "english": "“‘Our mind will be strengthened with the perception of inconstancy. 1"
     },
     {
       "number": 5,
-      "pali": "‘yathāpabbajjāparicitañca no cittaṁ bhavissati, na cuppannā pāpakā akusalā dhammā cittaṁ pariyādāya ṭhassanti; ",
-      "english": "‘Our minds will be consolidated as they were when we went forth, and arisen bad unskillful qualities will not occupy our minds. "
+      "pali": "",
+      "english": "“‘Our mind will be strengthened with the perception of not-self."
     },
     {
       "number": 6,
-      "pali": "aniccasaññāparicitañca no cittaṁ bhavissati, anattasaññāparicitañca no cittaṁ bhavissati, asubhasaññāparicitañca no cittaṁ bhavissati, ādīnavasaññāparicitañca no cittaṁ bhavissati, lokassa samañca visamañca ñatvā taṁsaññāparicitañca no cittaṁ bhavissati, lokassa bhavañca vibhavañca ñatvā taṁsaññāparicitañca no cittaṁ bhavissati, lokassa samudayañca atthaṅgamañca ñatvā taṁsaññāparicitañca no cittaṁ bhavissati, pahānasaññāparicitañca no cittaṁ bhavissati, virāgasaññāparicitañca no cittaṁ bhavissati, nirodhasaññāparicitañca no cittaṁ bhavissatī’ti—",
-      "english": "Our minds will be consolidated in the perceptions of impermanence, not-self, ugliness, and drawbacks. Knowing what is fair and unfair in the world, our minds will be consolidated in that perception. Knowing  existence and nonexistence in the world, our minds will be consolidated in that perception. Knowing the origin and disappearance of the world, our minds will be consolidated in that perception. Our minds will be consolidated in the perceptions of giving up, fading away, and cessation.’ "
+      "pali": "",
+      "english": "“‘Our mind will be strengthened with the perception of unattractiveness."
     },
     {
       "number": 7,
-      "pali": "evañhi vo, bhikkhave, sikkhitabbaṁ. ",
-      "english": "That’s how you should train. "
+      "pali": "",
+      "english": "“‘Our mind will be strengthened with the perception of drawbacks."
     },
     {
       "number": 8,
-      "pali": "Yato kho, bhikkhave, bhikkhuno yathāpabbajjāparicitañca cittaṁ hoti na cuppannā pāpakā akusalā dhammā cittaṁ pariyādāya tiṭṭhanti, aniccasaññāparicitañca cittaṁ hoti, anattasaññāparicitañca cittaṁ hoti, asubhasaññāparicitañca cittaṁ hoti, ādīnavasaññāparicitañca cittaṁ hoti, lokassa samañca visamañca ñatvā taṁsaññāparicitañca cittaṁ hoti, lokassa bhavañca vibhavañca ñatvā taṁsaññāparicitañca cittaṁ hoti, lokassa samudayañca atthaṅgamañca ñatvā taṁsaññāparicitañca cittaṁ hoti, pahānasaññāparicitañca cittaṁ hoti, virāgasaññāparicitañca cittaṁ hoti, nirodhasaññāparicitañca cittaṁ hoti, tassa dvinnaṁ phalānaṁ aññataraṁ phalaṁ pāṭikaṅkhaṁ—",
-      "english": "When your minds are consolidated in these ten perceptions, you can expect one of two results: "
+      "pali": "",
+      "english": "“‘Having known the in-tune and out-of-tune 2 of the world, 3 our mind will be strengthened with that perception."
     },
     {
       "number": 9,
-      "pali": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti. ",
-      "english": "enlightenment in this very life, or if there’s residue left behind, non-return.” "
+      "pali": "",
+      "english": "“‘Having known the coming into being and non-becoming of the world, our mind will be strengthened with that perception."
     },
     {
       "number": 10,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“‘Having known the origination and passing away of the world, 4 our mind will be strengthened with that perception."
+    },
+    {
+      "number": 11,
+      "pali": "",
+      "english": "“‘Our mind will be strengthened with the perception of abandoning."
+    },
+    {
+      "number": 12,
+      "pali": "",
+      "english": "“‘Our mind will be strengthened with the perception of dispassion."
+    },
+    {
+      "number": 13,
+      "pali": "",
+      "english": "“‘Our mind will be strengthened with the perception of cessation.’"
+    },
+    {
+      "number": 14,
+      "pali": "",
+      "english": "“That is how you should train yourselves."
+    },
+    {
+      "number": 15,
+      "pali": "",
+      "english": "“When the mind of a monk is strengthened in keeping with the Going Forth, and doesn’t remain overcome by any arisen unskillful qualities,"
+    },
+    {
+      "number": 16,
+      "pali": "",
+      "english": "when his mind is strengthened with the perception of inconstancy,"
+    },
+    {
+      "number": 17,
+      "pali": "",
+      "english": "when his mind is strengthened with the perception of not-self,"
+    },
+    {
+      "number": 18,
+      "pali": "",
+      "english": "when his mind is strengthened with the perception of unattractiveness,"
+    },
+    {
+      "number": 19,
+      "pali": "",
+      "english": "when his mind is strengthened with the perception of drawbacks,"
+    },
+    {
+      "number": 20,
+      "pali": "",
+      "english": "when, having known the in-tune and out-of-tune of the world, his mind is strengthened with that perception,"
+    },
+    {
+      "number": 21,
+      "pali": "",
+      "english": "when, having known the coming into being and non-becoming of the world, his mind is strengthened with that perception,"
+    },
+    {
+      "number": 22,
+      "pali": "",
+      "english": "when, having known the origination and passing away of the world, his mind is strengthened with that perception,"
+    },
+    {
+      "number": 23,
+      "pali": "",
+      "english": "when his mind is strengthened with the perception of abandoning,"
+    },
+    {
+      "number": 24,
+      "pali": "",
+      "english": "when his mind is strengthened with the perception of dispassion,"
+    },
+    {
+      "number": 25,
+      "pali": "",
+      "english": "when his mind is strengthened with the perception of cessation,"
+    },
+    {
+      "number": 26,
+      "pali": "",
+      "english": "then one of two fruits can be expected for him: either gnosis right here & now, or—if there be any remnant of clinging-sustenance—non-return.” 5"
     }
   ]
 }

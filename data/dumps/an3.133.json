@@ -3,128 +3,38 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 3.133 ",
-      "english": "Numbered Discourses 3.133 "
+      "pali": "Numerical Discourses 3.133",
+      "english": "Numerical Discourses 3.133"
     },
     {
       "number": 2,
-      "pali": "14. Yodhājīvavagga ",
-      "english": "14. A Warrior "
+      "pali": "Lekha Sutta",
+      "english": "Inscriptions"
     },
     {
       "number": 3,
-      "pali": "Yodhājīvasutta ",
-      "english": "A Warrior "
+      "pali": "",
+      "english": "“Monks, there are these three types of individuals to be found existing in the world. Which three? An individual like an inscription in rock, an individual like an inscription in soil, and an individual like an inscription in water."
     },
     {
       "number": 4,
-      "pali": "“Tīhi, bhikkhave, aṅgehi samannāgato yodhājīvo rājāraho hoti rājabhoggo, rañño aṅganteva saṅkhyaṁ gacchati. ",
-      "english": "“Mendicants, a warrior with three factors is worthy of a king, fit to serve a king, and is reckoned as a factor of kingship. "
+      "pali": "",
+      "english": "“And how is an individual like an inscription in rock? There is the case where a certain individual is often angered and his anger stays with him a long time. Just as an inscription in rock is not quickly effaced by wind or water and lasts a long time, in the same way a certain individual is often angered, and his anger stays with him a long time. This is called an individual like an inscription in rock."
     },
     {
       "number": 5,
-      "pali": "Katamehi tīhi? ",
-      "english": "What three? "
+      "pali": "",
+      "english": "“And how is an individual like an inscription in soil? There is the case where a certain individual is often angered, but his anger doesn’t stay with him a long time. Just as an inscription in soil is quickly effaced by wind or water and doesn’t last a long time, in the same way a certain individual is often angered, but his anger doesn’t stay with him a long time. This is called an individual like an inscription in soil."
     },
     {
       "number": 6,
-      "pali": "Idha, bhikkhave, yodhājīvo dūre pātī ca hoti akkhaṇavedhī ca mahato ca kāyassa padāletā. ",
-      "english": "He’s a long-distance shooter, a marksman, one who shatters large objects. "
+      "pali": "",
+      "english": "“And how is an individual like an inscription in water? There is the case where a certain individual—when spoken to roughly, spoken to harshly, spoken to in an unpleasing way—is nevertheless congenial, companionable, & courteous. Just as an inscription in water immediately disappears and doesn’t last a long time, in the same way a certain individual—when spoken to roughly, spoken to harshly, spoken to in an unpleasing way—is nevertheless congenial, companionable, & courteous. This is called an individual like an inscription in water."
     },
     {
       "number": 7,
-      "pali": "Imehi, kho, bhikkhave, tīhi aṅgehi samannāgato yodhājīvo rājāraho hoti rājabhoggo, rañño aṅganteva saṅkhyaṁ gacchati. ",
-      "english": "A warrior with these three factors is worthy of a king, fit to serve a king, and is reckoned as a factor of kingship. "
-    },
-    {
-      "number": 8,
-      "pali": "Evamevaṁ kho, bhikkhave, tīhi aṅgehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassa. ",
-      "english": "In the same way, a mendicant with three factors is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, worthy of veneration with cupped palms, and is the supreme field of merit for the world. "
-    },
-    {
-      "number": 9,
-      "pali": "Katamehi tīhi? ",
-      "english": "What three? "
-    },
-    {
-      "number": 10,
-      "pali": "Idha, bhikkhave, bhikkhu dūre pātī ca hoti akkhaṇavedhī ca mahato ca kāyassa padāletā. ",
-      "english": "They’re a long-distance shooter, a marksman, and one who shatters large objects. "
-    },
-    {
-      "number": 11,
-      "pali": "Kathañca, bhikkhave, bhikkhu dūre pātī hoti? ",
-      "english": "And how is a mendicant a long-distance shooter? "
-    },
-    {
-      "number": 12,
-      "pali": "Idha, bhikkhave, bhikkhu yaṁ kiñci rūpaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ rūpaṁ: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya passati. ",
-      "english": "It’s when a mendicant truly sees any kind of form at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> form—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 13,
-      "pali": "Yā kāci vedanā atītānāgatapaccuppannā ajjhattā vā bahiddhā vā oḷārikā vā sukhumā vā hīnā vā paṇītā vā yā dūre santike vā, sabbaṁ vedanaṁ: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya passati. ",
-      "english": "They truly see any kind of feeling at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> feeling—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 14,
-      "pali": "Yā kāci saññā atītānāgatapaccuppannā ajjhattā vā bahiddhā vā oḷārikā vā sukhumā vā hīnā vā paṇītā vā yā dūre santike vā, sabbaṁ saññaṁ: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya passati. ",
-      "english": "They truly see any kind of perception at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> perception—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 15,
-      "pali": "Ye keci saṅkhārā atītānāgatapaccuppannā ajjhattā vā bahiddhā vā oḷārikā vā sukhumā vā hīnā vā paṇītā vā ye dūre santike vā, sabbe saṅkhāre: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya passati. ",
-      "english": "They truly see any kind of choices at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> choices—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 16,
-      "pali": "Yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ viññāṇaṁ: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya passati. ",
-      "english": "They truly see any kind of consciousness at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near, <em>all</em> consciousness—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 17,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu dūre pātī hoti. ",
-      "english": "That’s how a mendicant is a long-distance shooter. "
-    },
-    {
-      "number": 18,
-      "pali": "Kathañca, bhikkhave, bhikkhu akkhaṇavedhī hoti? ",
-      "english": "And how is a mendicant a marksman? "
-    },
-    {
-      "number": 19,
-      "pali": "Idha, bhikkhave, bhikkhu ‘idaṁ dukkhan’ti yathābhūtaṁ pajānāti; ‘ayaṁ dukkhasamudayo’ti yathābhūtaṁ pajānāti; ‘ayaṁ dukkhanirodho’ti yathābhūtaṁ pajānāti; ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānāti. ",
-      "english": "It’s when a mendicant truly understands: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’. "
-    },
-    {
-      "number": 20,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu akkhaṇavedhī hoti. ",
-      "english": "That’s how a mendicant is a marksman. "
-    },
-    {
-      "number": 21,
-      "pali": "Kathañca, bhikkhave, bhikkhu mahato kāyassa padāletā hoti? ",
-      "english": "And how does a mendicant shatter large objects? "
-    },
-    {
-      "number": 22,
-      "pali": "Idha, bhikkhave, bhikkhu mahantaṁ avijjākkhandhaṁ padāleti. ",
-      "english": "It’s when a mendicant shatters the great mass of ignorance. "
-    },
-    {
-      "number": 23,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu mahato kāyassa padāletā hoti. ",
-      "english": "That’s how a mendicant shatters large objects. "
-    },
-    {
-      "number": 24,
-      "pali": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassā”ti. ",
-      "english": "A mendicant with these three qualities is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, worthy of veneration with cupped palms, and is the supreme field of merit for the world.” "
-    },
-    {
-      "number": 25,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“These are the three types of individuals to be found existing in the world.”"
     }
   ]
 }

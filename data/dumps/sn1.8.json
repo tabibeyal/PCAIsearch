@@ -3,68 +3,28 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 1.8 ",
-      "english": "Linked Discourses 1.8 "
+      "pali": "Linked Discourses 1.8",
+      "english": "Linked Discourses 1.8"
     },
     {
       "number": 2,
-      "pali": "1. Naḷavagga ",
-      "english": "1. A Reed "
+      "pali": "Susammuṭṭha Sutta",
+      "english": "Thoroughly Confused"
     },
     {
       "number": 3,
-      "pali": "Susammuṭṭhasutta ",
-      "english": "Very Confused "
+      "pali": "",
+      "english": "Like the similar sutta SN 1:7 , this sutta offers evidence in support of the translation, “awakened” for the Pali term, Buddha. The verses draw a direct connection between two words derived from the same root: the adjective sambuddha, a variant of buddha, and the verb pābujjhati, which in context clearly means to awaken from sleep."
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "Standing to one side, a devatā addressed the Blessed One with a verse:"
     },
     {
       "number": 5,
-      "pali": "Ekamantaṁ ṭhitā kho sā devatā bhagavato santike imaṁ gāthaṁ abhāsi: ",
-      "english": "Standing to one side, that deity spoke this verse in the Buddha’s presence: "
-    },
-    {
-      "number": 6,
-      "pali": "“Yesaṁ dhammā susammuṭṭhā, ",
-      "english": "“Those who are very confused about the teachings "
-    },
-    {
-      "number": 7,
-      "pali": "paravādesu nīyare; ",
-      "english": "may be led astray by the doctrines of others. "
-    },
-    {
-      "number": 8,
-      "pali": "Suttā te nappabujjhanti, ",
-      "english": "Asleep, they have not woken up: "
-    },
-    {
-      "number": 9,
-      "pali": "kālo tesaṁ pabujjhitun”ti. ",
-      "english": "it is time for them to wake!” "
-    },
-    {
-      "number": 10,
-      "pali": "“Yesaṁ dhammā asammuṭṭhā, ",
-      "english": "“Those who are unconfused about the teachings, "
-    },
-    {
-      "number": 11,
-      "pali": "paravādesu na nīyare; ",
-      "english": "won’t be led astray by the doctrines of others. "
-    },
-    {
-      "number": 12,
-      "pali": "Te sambuddhā sammadaññā, ",
-      "english": "They have woken up, they rightly know, "
-    },
-    {
-      "number": 13,
-      "pali": "caranti visame saman”ti. ",
-      "english": "smoothly they walk in the rough.” "
+      "pali": "",
+      "english": "The Buddha:"
     }
   ]
 }

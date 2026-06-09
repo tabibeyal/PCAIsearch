@@ -3,128 +3,68 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 48.41 ",
-      "english": "Linked Discourses 48.41 "
+      "pali": "Linked Discourses 48.41",
+      "english": "Linked Discourses 48.41"
     },
     {
       "number": 2,
-      "pali": "5. Jarāvagga ",
-      "english": "5. Old Age "
+      "pali": "Jarā Sutta",
+      "english": "Old Age"
     },
     {
       "number": 3,
-      "pali": "Jarādhammasutta ",
-      "english": "Old Age "
+      "pali": "",
+      "english": "I have heard that on one occasion the Blessed One was staying near Sāvatthī in the Eastern Monastery, the palace of Migāra’s mother. Now on that occasion the Blessed One, on emerging from his seclusion in the evening, sat warming his back in the western sun. Then Ven. Ānanda went to the Blessed One and, on arrival, having bowed down to the Blessed One, massaged the Blessed One’s limbs with his hand and said, “It’s amazing, lord. It’s astounding, how the Blessed One’s complexion is no longer so clear & bright; his limbs are flabby & wrinkled; his back, bent forward; there’s a discernible change in his faculties—the faculty of the eye, the faculty of the ear, the faculty of the nose, the faculty of the tongue, the faculty of the body.”"
     },
     {
       "number": 4,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "“That’s the way it is, Ānanda. When young, one is subject to aging; when healthy, subject to illness; when alive, subject to death. The complexion is no longer so clear & bright; the limbs are flabby & wrinkled; the back, bent forward; there’s a discernible change in the faculties—the faculty of the eye, the faculty of the ear, the faculty of the nose, the faculty of the tongue, the faculty of the body.”"
     },
     {
       "number": 5,
-      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati pubbārāme migāramātupāsāde. ",
-      "english": "At one time the Buddha was staying near Sāvatthī in the stilt longhouse of Migāra’s mother in the Eastern Monastery. "
+      "pali": "",
+      "english": "That is what the Blessed One said. Having said that, the One Well-Gone, the Teacher, said further:"
     },
     {
       "number": 6,
-      "pali": "Tena kho pana samayena bhagavā sāyanhasamayaṁ paṭisallānā vuṭṭhito pacchātape nisinno hoti piṭṭhiṁ otāpayamāno. ",
-      "english": "Then in the late afternoon, the Buddha came out of retreat and sat warming his back in the last rays of the sun. "
+      "pali": "",
+      "english": "“I spit on you, wretched old age—"
     },
     {
       "number": 7,
-      "pali": "Atha kho āyasmā ānando yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā bhagavato gattāni pāṇinā anomajjanto bhagavantaṁ etadavoca: ",
-      "english": "Then Venerable Ānanda went up to the Buddha, bowed, and while massaging the Buddha’s limbs he said: "
+      "pali": "",
+      "english": "old age that makes for ugliness."
     },
     {
       "number": 8,
-      "pali": "“acchariyaṁ, bhante, abbhutaṁ, bhante. ",
-      "english": "“It’s incredible, sir, it’s amazing, "
+      "pali": "",
+      "english": "The bodily image, so charming,"
     },
     {
       "number": 9,
-      "pali": "Na cevaṁ dāni, bhante, bhagavato tāva parisuddho chavivaṇṇo pariyodāto, sithilāni ca gattāni sabbāni valiyajātāni, purato pabbhāro ca kāyo, dissati ca indriyānaṁ aññathattaṁ—",
-      "english": "how the complexion of your skin is no longer pure and bright. Your limbs are flaccid and wrinkled, and your body is stooped. And it’s apparent that there has been a deterioration in your faculties "
+      "pali": "",
+      "english": "is trampled by old age."
     },
     {
       "number": 10,
-      "pali": "cakkhundriyassa sotindriyassa ghānindriyassa jivhindriyassa kāyindriyassā”ti. ",
-      "english": "of eye, ear, nose, tongue, and body.” "
+      "pali": "",
+      "english": "Even those who live to a hundred"
     },
     {
       "number": 11,
-      "pali": "“Evañhetaṁ, ānanda, hoti—",
-      "english": "“That’s how it is, Ānanda. "
+      "pali": "",
+      "english": "are headed—all—to an end in death,"
     },
     {
       "number": 12,
-      "pali": "jarādhammo yobbaññe, byādhidhammo ārogye, maraṇadhammo jīvite. ",
-      "english": "When young you’re liable to grow old; when healthy you’re liable to get sick; and when alive you’re liable to die. "
+      "pali": "",
+      "english": "which spares no one,"
     },
     {
       "number": 13,
-      "pali": "Na ceva tāva parisuddho hoti chavivaṇṇo pariyodāto, sithilāni ca honti gattāni sabbāni valiyajātāni, purato pabbhāro ca kāyo, dissati ca indriyānaṁ aññathattaṁ—",
-      "english": "The complexion of the skin is no longer pure and bright. The limbs are flaccid and wrinkled, and the body is stooped. And it’s apparent that there has been a deterioration in the faculties "
-    },
-    {
-      "number": 14,
-      "pali": "cakkhundriyassa sotindriyassa ghānindriyassa jivhindriyassa kāyindriyassā”ti. ",
-      "english": "of eye, ear, nose, tongue, and body.” "
-    },
-    {
-      "number": 15,
-      "pali": "Idamavoca bhagavā. ",
-      "english": "That is what the Buddha said. "
-    },
-    {
-      "number": 16,
-      "pali": "Idaṁ vatvā ca sugato athāparaṁ etadavoca satthā: ",
-      "english": "Then the Holy One, the Teacher, went on to say: "
-    },
-    {
-      "number": 17,
-      "pali": "“Dhī taṁ jammi jare atthu, ",
-      "english": "“Curse this wretched old age, "
-    },
-    {
-      "number": 18,
-      "pali": "dubbaṇṇakaraṇī jare; ",
-      "english": "which makes you so ugly. "
-    },
-    {
-      "number": 19,
-      "pali": "Tāva manoramaṁ bimbaṁ, ",
-      "english": "That’s how much this delightful puppet "
-    },
-    {
-      "number": 20,
-      "pali": "jarāya abhimadditaṁ. ",
-      "english": "is ground down by old age. "
-    },
-    {
-      "number": 21,
-      "pali": "Yopi vassasataṁ jīve, ",
-      "english": "Even if you live for a hundred years, "
-    },
-    {
-      "number": 22,
-      "pali": "sopi maccuparāyaṇo; ",
-      "english": "you’ll still end up dying. "
-    },
-    {
-      "number": 23,
-      "pali": "Na kiñci parivajjeti, ",
-      "english": "Death spares no-one, "
-    },
-    {
-      "number": 24,
-      "pali": "sabbamevābhimaddatī”ti. ",
-      "english": "but crushes all underfoot.” "
-    },
-    {
-      "number": 25,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "which tramples all.”"
     }
   ]
 }

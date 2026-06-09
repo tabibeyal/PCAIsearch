@@ -3,753 +3,298 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Majjhima Nikāya 18 ",
-      "english": "Middle Discourses 18 "
+      "pali": "Middle Length Discourses 18",
+      "english": "Middle Length Discourses 18"
     },
     {
       "number": 2,
-      "pali": "Madhupiṇḍikasutta ",
-      "english": "The Honey-Cake "
+      "pali": "Madhupiṇḍika Sutta",
+      "english": "The Ball of Honey"
     },
     {
       "number": 3,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "This discourse plays a central role in the early Buddhist analysis of conflict. As might be expected, the blame for conflict lies within, in the unskillful habits of the mind, rather than without. The culprit in this case is a habit called papañca. Unfortunately, none of the early texts give a clear definition of what the word papañca means, so it’s hard to find a precise English equivalent for the term. However, they do give a clear analysis of how papañca arises, how it leads to conflict, and how it can be ended. In the final analysis, these are the questions that matter—more than the precise definition of terms—so we will deal with them first before proposing a few possible translation equivalents for the word."
     },
     {
       "number": 4,
-      "pali": "ekaṁ samayaṁ bhagavā sakkesu viharati kapilavatthusmiṁ nigrodhārāme. ",
-      "english": "At one time the Buddha was staying in the land of the Sakyans, near Kapilavatthu in the Banyan Tree Monastery. "
+      "pali": "",
+      "english": "Three passages in the discourses— DN 21 , MN 18 , and Sn 4:11 —map the causal processes that give rise to papañca and lead from papañca to conflict. Because the Buddhist analysis of causality is generally non-linear, with plenty of room for feedback loops, the maps vary in some of their details. In DN 21 , the map reads like this:"
     },
     {
       "number": 5,
-      "pali": "Atha kho bhagavā pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya kapilavatthuṁ piṇḍāya pāvisi. ",
-      "english": "Then the Buddha robed up in the morning and, taking his bowl and robe, entered Kapilavatthu for alms. "
+      "pali": "",
+      "english": "the perceptions & categories of papañca > thinking > desire > dear-&-not-dear > envy & stinginess > rivalry & hostility"
     },
     {
       "number": 6,
-      "pali": "Kapilavatthusmiṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto yena mahāvanaṁ tenupasaṅkami divāvihārāya. ",
-      "english": "He wandered for alms in Kapilavatthu. After the meal, on his return from almsround, he went to the Great Wood for the day’s meditation, "
+      "pali": "",
+      "english": "In Sn 4:11 , the map is less linear and can be diagrammed like this:"
     },
     {
       "number": 7,
-      "pali": "Mahāvanaṁ ajjhogāhetvā beluvalaṭṭhikāya mūle divāvihāraṁ nisīdi. ",
-      "english": "plunged deep into it, and sat at the root of a young wood-apple tree to meditate. "
+      "pali": "",
+      "english": "perception > the categories of papañca"
     },
     {
       "number": 8,
-      "pali": "Daṇḍapāṇipi kho sakko jaṅghāvihāraṁ anucaṅkamamāno anuvicaramāno yena mahāvanaṁ tenupasaṅkami. ",
-      "english": "Daṇḍapāṇi the Sakyan, while going for a walk, "
+      "pali": "",
+      "english": "perception > name & form > contact > appealing & unappealing > desire > dear-&-not-dear > stinginess/divisiveness/quarrels/disputes"
     },
     {
       "number": 9,
-      "pali": "Mahāvanaṁ ajjhogāhetvā yena beluvalaṭṭhikā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
-      "english": "plunged deep into the Great Wood. He approached the Buddha and exchanged greetings with him. "
+      "pali": "",
+      "english": "In MN 18 , the map is this:"
     },
     {
       "number": 10,
-      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā daṇḍamolubbha ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho daṇḍapāṇi sakko bhagavantaṁ etadavoca: ",
-      "english": "When the greetings and polite conversation were over, he stood to one side leaning on his staff, and said to the Buddha, "
+      "pali": "",
+      "english": "contact > feeling > perception > thinking > the perceptions & categories of papañca"
     },
     {
       "number": 11,
-      "pali": "“kiṁvādī samaṇo kimakkhāyī”ti? ",
-      "english": "“What is the ascetic’s doctrine? What does he assert?” "
+      "pali": "",
+      "english": "In this last case, however, the bare outline misses some of the important implications of the way this process is phrased. In the full passage, the analysis starts out in an impersonal tone:"
     },
     {
       "number": 12,
-      "pali": "“Yathāvādī kho, āvuso, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya na kenaci loke viggayha tiṭṭhati, yathā ca pana kāmehi visaṁyuttaṁ viharantaṁ taṁ brāhmaṇaṁ akathaṅkathiṁ chinnakukkuccaṁ bhavābhave vītataṇhaṁ saññā nānusenti—",
-      "english": "“Respectable sir, my doctrine is such that one does not argue with anyone in this world with its gods, Māras, and Divinities, this population with its ascetics and brahmins, its gods and humans. And it is such that perceptions do not underlie the brahmin who lives detached from sensual pleasures, without indecision, stripped of worry, and rid of craving for rebirth in this or that state. "
+      "pali": "",
+      "english": "“Dependent on eye & forms, eye-consciousness arises [similarly with the rest of the six senses]. The meeting of the three is contact. With contact as a requisite condition, there is feeling.”"
     },
     {
       "number": 13,
-      "pali": "evaṁvādī kho ahaṁ, āvuso, evamakkhāyī”ti. ",
-      "english": "That is my doctrine, and that is what I assert.” "
+      "pali": "",
+      "english": "Starting with feeling, the notion of an “agent”—in this case, the feeler—acting on “objects,” is introduced:"
     },
     {
       "number": 14,
-      "pali": "Evaṁ vutte, daṇḍapāṇi sakko sīsaṁ okampetvā, jivhaṁ nillāḷetvā, tivisākhaṁ nalāṭikaṁ nalāṭe vuṭṭhāpetvā daṇḍamolubbha pakkāmi. ",
-      "english": "When he had spoken, Daṇḍapāṇi shook his head, waggled his tongue, raised his eyebrows until his brow puckered in three furrows, and left leaning on his staff. "
+      "pali": "",
+      "english": "“What one feels, one perceives [labels in the mind]. What one perceives, one thinks about. What one thinks about, one ‘papañcizes.’”"
     },
     {
       "number": 15,
-      "pali": "Atha kho bhagavā sāyanhasamayaṁ paṭisallānā vuṭṭhito yena nigrodhārāmo tenupasaṅkami; upasaṅkamitvā paññatte āsane nisīdi. ",
-      "english": "Then in the late afternoon, the Buddha came out of retreat and went to the Banyan Tree Monastery, sat down on the seat spread out, "
+      "pali": "",
+      "english": "Through the process of papañca, the agent then becomes a victim of his/her own patterns of thinking:"
     },
     {
       "number": 16,
-      "pali": "Nisajja kho bhagavā bhikkhū āmantesi: ",
-      "english": "and told the mendicants what had happened. "
+      "pali": "",
+      "english": "“Based on what a person papañcizes, the perceptions & categories of papañca assail him/her with regard to past, present, & future forms cognizable via the eye [as with the remaining senses].”"
     },
     {
       "number": 17,
-      "pali": "“idhāhaṁ, bhikkhave, pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya kapilavatthuṁ piṇḍāya pāvisiṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "What are these perceptions & categories that assail the person who papañcizes? Sn 4:14 states that the root of the categories of papañca is the perception, “I am the thinker.” From this self-reflexive thought—in which one objectifies a “self,” a thing corresponding to the concept of “I”— a number of categories can be derived: being/not-being, me/not-me, mine/not-mine, doer/done-to, signifier/signified. Once one’s self becomes a thing under the rubric of these categories, it’s impossible not to be assailed by the perceptions & categories derived from these basic distinctions. When there’s the sense of identification as a being that needs to feed (see Khp 4 ), then based on the feelings arising from sensory contact, some feelings will seem appealing—worth feeding on—and others will seem worth pushing away. From this there grows desire, which comes into conflict with the desires of others who are also feeding because they, too, engage in papañca. This is how inner objectification breeds external contention."
     },
     {
       "number": 18,
-      "pali": "Kapilavatthusmiṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto yena mahāvanaṁ tenupasaṅkamiṁ divāvihārāya. ",
-      "english": ""
+      "pali": "",
+      "english": "How can this process be ended? Through a shift in perception, caused by the way one attends to feelings, using the categories of appropriate attention (see MN 2 ). As the Buddha states in DN 21 , rather than viewing a feeling as an appealing or unappealing thing, one should look at it as part of a causal process: When a particular feeling is pursued, do skillful or unskillful qualities increase in the mind? If skillful qualities increase, the feeling may be pursued. If unskillful qualities increase, it shouldn’t. When comparing feelings that lead to skillful qualities, notice that those endowed with thinking (directed thought) and evaluation are less refined than those free of thinking and evaluation, as in the higher stages of mental absorption, or jhāna. When seeing this, there is a tendency to opt for the more refined feelings, and this cuts through the act of thinking that, according to MN 18 , provides the basis for papañca."
     },
     {
       "number": 19,
-      "pali": "Mahāvanaṁ ajjhogāhetvā beluvalaṭṭhikāya mūle divāvihāraṁ nisīdiṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "In following this program, the notion of agent and victim is avoided, as is self-reflexive thinking in general. There is simply the analysis of cause-effect processes. One is still making use of dualities—distinguishing between unskillful and skillful (and affliction/lack of affliction, the results of unskillful and skillful qualities)—but the distinction is between processes, not things. Thus one’s analysis avoids the type of thinking that, according to DN 21 , depends on the perceptions and categories of papañca, and in this way the vicious cycle by which thinking and papañca keep feeding each other is cut."
     },
     {
       "number": 20,
-      "pali": "Daṇḍapāṇipi kho, bhikkhave, sakko jaṅghāvihāraṁ anucaṅkamamāno anuvicaramāno yena mahāvanaṁ tenupasaṅkami. ",
-      "english": ""
+      "pali": "",
+      "english": "Ultimately, by following this program to greater and greater levels of refinement through the higher levels of mental absorption, one finds less and less to relish and enjoy in the six senses and the mental processes based on them. With this sense of disenchantment, the processes of feeling and thought are stilled, and there is a breakthrough to the cessation of the six sense spheres. When these spheres cease, is there anything else left? Ven. Sāriputta, in AN 4:173 warns us not to ask, for to ask if there is, isn’t, both-is-and-isn’t, neither-is-nor-isn’t anything left in that dimension is to papañcize what is free from papañca. However, this dimension is not a total annihilation of experience. It’s a type of experience that DN 11 calls consciousness without surface, luminous all around, where water, earth, fire, & wind have no footing, where long/short, coarse/fine, fair/foul, name/form are all brought to an end. This is the fruit of the path of arahantship—a path that makes use of dualities but leads to a fruit beyond them."
     },
     {
       "number": 21,
-      "pali": "Mahāvanaṁ ajjhogāhetvā yena beluvalaṭṭhikā yenāhaṁ tenupasaṅkami; upasaṅkamitvā mayā saddhiṁ sammodi. ",
-      "english": ""
+      "pali": "",
+      "english": "It may come as cold comfort to realize that conflict can be totally overcome only with the realization of arahantship, but it’s important to note that by following the path recommended in DN 21 —learning to avoid references to any notion of “self” and learning to view feelings not as things but as parts of a causal process affecting the qualities in the mind—the basis for papañca is gradually undercut, and there are fewer and fewer occasions for conflict. In following this path, one reaps its increasing benefits all along the way."
     },
     {
       "number": 22,
-      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā daṇḍamolubbha ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhito kho, bhikkhave, daṇḍapāṇi sakko maṁ etadavoca: ",
-      "english": ""
+      "pali": "",
+      "english": "Translating papañca: As one writer has noted, the word papañca has had a wide variety of meanings in Indian thought, with only one constant: In Buddhist philosophical discourse it carries negative connotations, usually of falsification and distortion. The word itself is derived from a root that means diffuseness, spreading, proliferating. The Pali Commentaries define papañca as covering three types of thought: craving, conceit, and views. They also note that it functions to slow the mind down in its escape from saṁsāra. Because its categories begin with the objectifying thought, “I am the thinker,” I have chosen to render the word as “objectification,” although some of the following alternatives might be acceptable as well: self-reflexive thinking, reification, proliferation, complication, elaboration, distortion. The word offers some interesting parallels to the postmodern notion of logocentric thinking, but it’s important to note that the Buddha’s program of deconstructing this process differs sharply from that of postmodern thought."
     },
     {
       "number": 23,
-      "pali": "‘kiṁvādī samaṇo kimakkhāyī’ti? ",
-      "english": ""
+      "pali": "",
+      "english": "I have heard that on one occasion the Blessed One was staying among the Sakyans near Kapilavatthu in the Banyan Park. Then in the early morning, having adjusted his lower robe and taking his bowl & outer robe, he went into Kapilavatthu for alms. Having gone for alms in Kapilavatthu, after the meal, returning from his alms round, he went to the Great Forest for the day’s abiding. Plunging into the Great Forest, he sat down at the root of a young clump of bamboo for the day’s abiding."
     },
     {
       "number": 24,
-      "pali": "Evaṁ vutte, ahaṁ, bhikkhave, daṇḍapāṇiṁ sakkaṁ etadavocaṁ: ",
-      "english": ""
+      "pali": "",
+      "english": "Daṇḍapānin [“Stick-in-hand”] the Sakyan, out roaming & rambling for exercise, also went to the Great Forest. Plunging into the Great Forest, he went to the Blessed One under the young clump of bamboo. On arrival, he exchanged courteous greetings with him. After an exchange of friendly greetings & courtesies, he stood to one side. As he was standing there, he said to the Blessed One, “What is the contemplative’s doctrine? What does he proclaim?”"
     },
     {
       "number": 25,
-      "pali": "‘yathāvādī kho, āvuso, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya na kenaci loke viggayha tiṭṭhati, yathā ca pana kāmehi visaṁyuttaṁ viharantaṁ taṁ brāhmaṇaṁ akathaṅkathiṁ chinnakukkuccaṁ bhavābhave vītataṇhaṁ saññā nānusenti—",
-      "english": ""
+      "pali": "",
+      "english": "“The sort of doctrine, friend, where one does not keep quarreling with anyone in the cosmos with its devas, Māras, & Brahmās, with its contemplatives & brahmans, its royalty & commonfolk; the sort (of doctrine) where perceptions no longer obsess the brahman who remains dissociated from sensuality, free from perplexity, his uncertainty cut away, devoid of craving for becoming & non-. Such is my doctrine; such is what I proclaim.”"
     },
     {
       "number": 26,
-      "pali": "evaṁvādī kho ahaṁ, āvuso, evamakkhāyī’ti. ",
-      "english": ""
+      "pali": "",
+      "english": "When this was said, Daṇḍapānin the Sakyan—shaking his head, wagging his tongue, raising his eyebrows so that his forehead was wrinkled in three furrows—left, leaning on his stick."
     },
     {
       "number": 27,
-      "pali": "Evaṁ vutte, bhikkhave, daṇḍapāṇi sakko sīsaṁ okampetvā, jivhaṁ nillāḷetvā, tivisākhaṁ nalāṭikaṁ nalāṭe vuṭṭhāpetvā daṇḍamolubbha pakkāmī”ti. ",
-      "english": ""
+      "pali": "",
+      "english": "Then the Blessed One, emerging from his seclusion in the evening, went to the Banyan Park and, on arrival, sat down on a seat made ready. Having sat down, he [told the monks what had happened]. When this was said, a certain monk said to the Blessed One, “Lord, what sort of doctrine is it where one does not keep quarreling with anyone in the cosmos with its devas, Māras, & Brahmās, with its contemplatives & brahmans, its royalty & commonfolk; where perceptions no longer obsess the brahman who remains dissociated from sensuality, free from perplexity, his uncertainty cut away, devoid of craving for becoming & non-?”"
     },
     {
       "number": 28,
-      "pali": "Evaṁ vutte, aññataro bhikkhu bhagavantaṁ etadavoca: ",
-      "english": "When he had spoken, one of the mendicants said to him, "
+      "pali": "",
+      "english": "“If, monk, with regard to the cause whereby the perceptions & categories of objectification assail a person, there is nothing there to relish, welcome, or remain fastened to, then that is the end of the obsessions of passion, the obsessions of resistance, the obsessions of views, the obsessions of uncertainty, the obsessions of conceit, the obsessions of passion for becoming, & the obsessions of ignorance. That is the end of taking up rods & bladed weapons, of arguments, quarrels, disputes, accusations, divisive speech, & false speech. That is where these evil, unskillful things cease without remainder.” That is what the Blessed One said. Having said it, he—the One Well-Gone—got up from his seat and went into his dwelling."
     },
     {
       "number": 29,
-      "pali": "“kiṁvādī pana, bhante, bhagavā sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya na kenaci loke viggayha tiṭṭhati? ",
-      "english": "“But sir, asserting what doctrine does the Buddha not argue with anyone in this world with its gods, Māras, and Divinities, this population with its ascetics and brahmins, its gods and humans? "
+      "pali": "",
+      "english": "Then, not long after the Blessed One had left, this thought occurred to the monks: “This brief statement the Blessed One made, after which he went into his dwelling without analyzing the detailed meaning—i.e., ‘If, with regard to the cause whereby the perceptions & categories of objectification assail a person, there is nothing to relish… that is where these evil, unskillful things cease without remainder’: Now who might analyze the unanalyzed detailed meaning of this brief statement?” Then the thought occurred to them, “Ven. Mahā Kaccāna is praised by the Teacher and esteemed by his observant companions in the holy life. He is capable of analyzing the unanalyzed detailed meaning of this brief statement. Suppose we were to go to him and, on arrival, cross-question him about this matter.”"
     },
     {
       "number": 30,
-      "pali": "Kathañca pana, bhante, bhagavantaṁ kāmehi visaṁyuttaṁ viharantaṁ taṁ brāhmaṇaṁ akathaṅkathiṁ chinnakukkuccaṁ bhavābhave vītataṇhaṁ saññā nānusentī”ti? ",
-      "english": "And how is it that perceptions do not underlie the Buddha, the brahmin who lives detached from sensual pleasures, without indecision, stripped of worry, and rid of craving for rebirth in this or that state?” "
+      "pali": "",
+      "english": "So the monks went to Ven. Mahā Kaccāna and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings & courtesies, they sat to one side. As they were sitting there, they [told him what had happened, and added,] “Analyze the meaning, Ven. Mahā Kaccāna!”"
     },
     {
       "number": 31,
-      "pali": "“Yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
-      "english": "“Mendicant, judgments driven by proliferating perceptions beset a person. "
+      "pali": "",
+      "english": "(He replied:) “Friends, it’s as if a man needing heartwood, looking for heartwood, wandering in search of heartwood—passing over the root & trunk of a standing tree possessing heartwood—were to imagine that heartwood should be sought among its branches & leaves. So it is with you, who—having bypassed the Blessed One when you were face to face with him, the Teacher—imagine that I should be asked about this matter. For knowing, the Blessed One knows; seeing, he sees. He is the Eye, he is Knowledge, he is Dhamma, he is Brahmā. He is the speaker, the proclaimer, the elucidator of meaning, the giver of the deathless, the lord of the Dhamma, the Tathāgata. That was the time when you should have cross-questioned him about this matter. However he answered, that was how you should have remembered it.”"
     },
     {
       "number": 32,
-      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
-      "english": "If they don’t find anything worth approving, welcoming, or getting attached to in the source from which these arise, "
+      "pali": "",
+      "english": "“Yes, friend Kaccāna: Knowing, the Blessed One knows; seeing, he sees. He is the Eye, he is Knowledge, he is Dhamma, he is Brahmā. He is the speaker, the proclaimer, the elucidator of meaning, the giver of the deathless, the lord of the Dhamma, the Tathāgata. That was the time when we should have cross-questioned him about this matter. However he answered, that was how we should have remembered it. But you are praised by the Teacher and esteemed by your observant companions in the holy life. You are capable of analyzing the unanalyzed detailed meaning of this brief statement. Analyze the meaning, Ven. Mahā Kaccāna, without making it difficult!”"
     },
     {
       "number": 33,
-      "pali": "Esevanto rāgānusayānaṁ, esevanto paṭighānusayānaṁ, esevanto diṭṭhānusayānaṁ, esevanto vicikicchānusayānaṁ, esevanto mānānusayānaṁ, esevanto bhavarāgānusayānaṁ, esevanto avijjānusayānaṁ, esevanto daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādānaṁ. ",
-      "english": "just this is the end of the underlying tendencies to desire, aversion, views, doubt, conceit, the desire for continued existence, and ignorance. This is the end of taking up the rod and the sword, the end of quarrels, arguments, and disputes, of accusations, divisive speech, and lies. "
+      "pali": "",
+      "english": "“In that case, my friends, listen & pay close attention. I will speak.”"
     },
     {
       "number": 34,
-      "pali": "Etthete pāpakā akusalā dhammā aparisesā nirujjhantī”ti. ",
-      "english": "This is where these bad, unskillful qualities cease without remainder.” "
+      "pali": "",
+      "english": "“As you say, friend,” the monks responded to him."
     },
     {
       "number": 35,
-      "pali": "Idamavoca bhagavā. ",
-      "english": "That is what the Buddha said. "
+      "pali": "",
+      "english": "Ven. Mahā Kaccāna said this: “Friends, concerning the brief statement the Blessed One made, after which he went into his dwelling without analyzing the detailed meaning—i.e., ‘If, with regard to the cause whereby the perceptions & categories of objectification assail a person, there is nothing there to relish, welcome, or remain fastened to, then that is the end of the obsessions of passion, the obsessions of resistance, the obsessions of views, the obsessions of uncertainty, the obsessions of conceit, the obsessions of passion for becoming, & the obsessions of ignorance. That is the end of taking up rods & bladed weapons, of arguments, quarrels, disputes, accusations, divisive speech, & false speech. That is where these evil, unskillful things cease without remainder’—I understand the detailed meaning to be this:"
     },
     {
       "number": 36,
-      "pali": "Idaṁ vatvāna sugato uṭṭhāyāsanā vihāraṁ pāvisi. ",
-      "english": "When he had spoken, the Holy One got up from his seat and entered his dwelling. "
+      "pali": "",
+      "english": "“Dependent on eye & forms, eye-consciousness arises. The meeting of the three is contact. With contact as a requisite condition, there is feeling. What one feels, one perceives [labels in the mind]. What one perceives, one thinks about. What one thinks about, one complicates. Based on what a person complicates, the perceptions & categories of objectification assail him/her with regard to past, present, & future forms cognizable via the eye."
     },
     {
       "number": 37,
-      "pali": "Atha kho tesaṁ bhikkhūnaṁ acirapakkantassa bhagavato etadahosi: ",
-      "english": "Soon after the Buddha left, those mendicants considered, "
+      "pali": "",
+      "english": "“Dependent on ear & sounds, ear-consciousness arises.…"
     },
     {
       "number": 38,
-      "pali": "“idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā, vitthārena atthaṁ avibhajitvā, uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
-      "english": "“The Buddha gave this brief summary recital, then entered his dwelling without explaining the meaning in detail. "
+      "pali": "",
+      "english": "“Dependent on nose & aromas, nose-consciousness arises.…"
     },
     {
       "number": 39,
-      "pali": "‘yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Dependent on tongue & flavors, tongue-consciousness arises.…"
     },
     {
       "number": 40,
-      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Dependent on body & tactile sensations, body-consciousness arises.…"
     },
     {
       "number": 41,
-      "pali": "Esevanto rāgānusayānaṁ …pe… ",
-      "english": ""
+      "pali": "",
+      "english": "“Dependent on intellect & ideas, intellect-consciousness arises. The meeting of the three is contact. With contact as a requisite condition, there is feeling. What one feels, one perceives. What one perceives, one thinks about. What one thinks about, one complicates. Based on what a person complicates, the perceptions & categories of objectification assail him/her with regard to past, present, & future ideas cognizable via the intellect."
     },
     {
       "number": 42,
-      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Now, when there is the eye, when there are forms, when there is eye-consciousness, it is possible that one will delineate a delineation of contact. When there is a delineation of contact, it is possible that one will delineate a delineation of feeling. When there is a delineation of feeling, it is possible that one will delineate a delineation of perception. When there is a delineation of perception, it is possible that one will delineate a delineation of thinking. When there is a delineation of thinking, it is possible that one will delineate a delineation of being assailed by the perceptions & categories of objectification."
     },
     {
       "number": 43,
-      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyā”ti? ",
-      "english": "Who can explain in detail the meaning of this brief summary recital given by the Buddha?” "
+      "pali": "",
+      "english": "“When there is the ear.…"
     },
     {
       "number": 44,
-      "pali": "Atha kho tesaṁ bhikkhūnaṁ etadahosi: ",
-      "english": "Then those mendicants thought, "
+      "pali": "",
+      "english": "“When there is the nose.…"
     },
     {
       "number": 45,
-      "pali": "“ayaṁ kho āyasmā mahākaccāno satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ. ",
-      "english": "“This Venerable Mahākaccāna is praised by the Buddha and esteemed by his sensible spiritual companions. "
+      "pali": "",
+      "english": "“When there is the tongue.…"
     },
     {
       "number": 46,
-      "pali": "Pahoti cāyasmā mahākaccāno imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
-      "english": "He is capable of explaining in detail the meaning of this brief summary recital given by the Buddha. "
+      "pali": "",
+      "english": "“When there is the body.…"
     },
     {
       "number": 47,
-      "pali": "Yannūna mayaṁ yenāyasmā mahākaccāno tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ mahākaccānaṁ etamatthaṁ paṭipuccheyyāmā”ti. ",
-      "english": "Let’s go to him, and ask him about this matter.” "
+      "pali": "",
+      "english": "“When there is the intellect, when there are ideas, when there is intellect-consciousness, it is possible that one will delineate a delineation of contact. When there is a delineation of contact, it is possible that one will delineate a delineation of feeling. When there is a delineation of feeling, it is possible that one will delineate a delineation of perception. When there is a delineation of perception, it is possible that one will delineate a delineation of thinking. When there is a delineation of thinking, it is possible that one will delineate a delineation of being assailed by the perceptions & categories of objectification."
     },
     {
       "number": 48,
-      "pali": "Atha kho te bhikkhū yenāyasmā mahākaccāno tenupasaṅkamiṁsu; upasaṅkamitvā āyasmatā mahākaccānena saddhiṁ sammodiṁsu. ",
-      "english": "Then those mendicants went to Mahākaccāna, and exchanged greetings with him. "
+      "pali": "",
+      "english": "“Now, when there is no eye, when there are no forms, when there is no eye-consciousness, it is impossible that one will delineate a delineation of contact. When there is no delineation of contact, it is impossible that one will delineate a delineation of feeling. When there is no delineation of feeling, it is impossible that one will delineate a delineation of perception. When there is no delineation of perception, it is impossible that one will delineate a delineation of thinking. When there is no delineation of thinking, it is impossible that one will delineate a delineation of being assailed by the perceptions & categories of objectification."
     },
     {
       "number": 49,
-      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū āyasmantaṁ mahākaccānaṁ etadavocuṁ: ",
-      "english": "When the greetings and polite conversation were over, they sat down to one side. They told him what had happened, and said: "
+      "pali": "",
+      "english": "“When there is no ear.…"
     },
     {
       "number": 50,
-      "pali": "“idaṁ kho no, āvuso kaccāna, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
-      "english": ""
+      "pali": "",
+      "english": "“When there is no nose.…"
     },
     {
       "number": 51,
-      "pali": "‘yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
-      "english": ""
+      "pali": "",
+      "english": "“When there is no tongue.…"
     },
     {
       "number": 52,
-      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“When there is no body.…"
     },
     {
       "number": 53,
-      "pali": "Esevanto rāgānusayānaṁ …pe… ",
-      "english": ""
+      "pali": "",
+      "english": "“When there is no intellect, when there are no ideas, when there is no intellect-consciousness, it is impossible that one will delineate a delineation of contact. When there is no delineation of contact, it is impossible that one will delineate a delineation of feeling. When there is no delineation of feeling, it is impossible that one will delineate a delineation of perception. When there is no delineation of perception, it is impossible that one will delineate a delineation of thinking. When there is no delineation of thinking, it is impossible that one will delineate a delineation of being assailed by the perceptions & categories of objectification."
     },
     {
       "number": 54,
-      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti. ",
-      "english": ""
+      "pali": "",
+      "english": "“So, concerning the brief statement the Blessed One made, after which he entered his dwelling without analyzing the detailed meaning—i.e., ‘If, with regard to the cause whereby the perceptions & categories of objectification assail a person, there is nothing there to relish, welcome, or remain fastened to, then that is the end of the obsessions of passion, the obsessions of resistance, the obsessions of views, the obsessions of uncertainty, the obsessions of conceit, the obsessions of passion for becoming, & the obsessions of ignorance. That is the end of taking up rods & bladed weapons, of arguments, quarrels, disputes, accusations, divisive speech, & false speech. That is where these evil, unskillful things cease without remainder’—this is how I understand the detailed meaning. Now, friends, if you wish, having gone to the Blessed One, cross-question him about this matter. However he answers is how you should remember it.”"
     },
     {
       "number": 55,
-      "pali": "Tesaṁ no, āvuso kaccāna, amhākaṁ acirapakkantassa bhagavato etadahosi: ",
-      "english": ""
+      "pali": "",
+      "english": "Then the monks, delighting in & approving of Ven. Mahā Kaccāna’s words, got up from their seats and went to the Blessed One. On arrival, having bowed down to him, they sat to one side. As they were sitting there, they [told him what had happened after he had gone into his dwelling, and ended by saying,] “Then Ven. Mahā Kaccāna analyzed the meaning using these words, these statements, these phrases.”"
     },
     {
       "number": 56,
-      "pali": "‘idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
-      "english": ""
+      "pali": "",
+      "english": "“Mahā Kaccāna is wise, monks. He is a person of great discernment. If you had asked me about this matter, I too would have answered in the same way he did. That is its meaning, and that is how you should remember it.”"
     },
     {
       "number": 57,
-      "pali": "“yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
-      "english": ""
+      "pali": "",
+      "english": "When this was said, Ven. Ānanda said to the Blessed One, “Lord, it’s as if a man—overcome with hunger, weakness, & thirst—were to come across a ball of honey. Wherever he might taste it, he would experience a sweet, delectable flavor. In the same way, wherever a monk of capable awareness might investigate the meaning of this Dhamma discourse with his discernment, he would experience gratification, he would experience confidence. What is the name of this Dhamma discourse?”"
     },
     {
       "number": 58,
-      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Then, Ānanda, you can remember this Dhamma discourse as the ‘Ball of Honey Discourse.’”"
     },
     {
       "number": 59,
-      "pali": "Esevanto rāgānusayānaṁ …pe… ",
-      "english": ""
-    },
-    {
-      "number": 60,
-      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī”’ti. ",
-      "english": ""
-    },
-    {
-      "number": 61,
-      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyāti? ",
-      "english": ""
-    },
-    {
-      "number": 62,
-      "pali": "Tesaṁ no, āvuso kaccāna, amhākaṁ etadahosi: ",
-      "english": ""
-    },
-    {
-      "number": 63,
-      "pali": "‘ayaṁ kho āyasmā mahākaccāno satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ, pahoti cāyasmā mahākaccāno imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
-      "english": ""
-    },
-    {
-      "number": 64,
-      "pali": "Yannūna mayaṁ yenāyasmā mahākaccāno tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ mahākaccānaṁ etamatthaṁ paṭipuccheyyāmā’ti. ",
-      "english": ""
-    },
-    {
-      "number": 65,
-      "pali": "Vibhajatāyasmā mahākaccāno”ti. ",
-      "english": "“May Venerable Mahākaccāna please explain this.” "
-    },
-    {
-      "number": 66,
-      "pali": "“Seyyathāpi, āvuso, puriso sāratthiko sāragavesī sārapariyesanaṁ caramāno mahato rukkhassa tiṭṭhato sāravato atikkammeva mūlaṁ, atikkamma khandhaṁ, sākhāpalāse sāraṁ pariyesitabbaṁ maññeyya; ",
-      "english": "“Reverends, suppose there was a person in need of heartwood. And while wandering in search of heartwood he’d come across a large tree standing with heartwood. But he’d pass over the roots and trunk, imagining that the heartwood should be sought in the branches and leaves. "
-    },
-    {
-      "number": 67,
-      "pali": "evaṁsampadamidaṁ āyasmantānaṁ satthari sammukhībhūte, taṁ bhagavantaṁ atisitvā, amhe etamatthaṁ paṭipucchitabbaṁ maññatha. ",
-      "english": "Such is the consequence for the venerables. Though you were face to face with the Buddha, you bypassed him, imagining that you should ask me about this matter. "
-    },
-    {
-      "number": 68,
-      "pali": "So hāvuso, bhagavā jānaṁ jānāti, passaṁ passati, cakkhubhūto ñāṇabhūto dhammabhūto brahmabhūto, vattā pavattā, atthassa ninnetā, amatassa dātā, dhammassāmī tathāgato. ",
-      "english": "For he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. "
-    },
-    {
-      "number": 69,
-      "pali": "So ceva panetassa kālo ahosi, yaṁ bhagavantaṁyeva etamatthaṁ paṭipuccheyyātha. ",
-      "english": "That was the time to approach the Buddha and ask about this matter. "
-    },
-    {
-      "number": 70,
-      "pali": "Yathā vo bhagavā byākareyya tathā naṁ dhāreyyāthā”ti. ",
-      "english": "You should have remembered it in line with the Buddha’s answer.” "
-    },
-    {
-      "number": 71,
-      "pali": "“Addhāvuso kaccāna, bhagavā jānaṁ jānāti, passaṁ passati, cakkhubhūto ñāṇabhūto dhammabhūto brahmabhūto, vattā pavattā, atthassa ninnetā, amatassa dātā, dhammassāmī tathāgato. ",
-      "english": "“Certainly he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. "
-    },
-    {
-      "number": 72,
-      "pali": "So ceva panetassa kālo ahosi, yaṁ bhagavantaṁyeva etamatthaṁ paṭipuccheyyāma. ",
-      "english": "That was the time to approach the Buddha and ask about this matter. "
-    },
-    {
-      "number": 73,
-      "pali": "Yathā no bhagavā byākareyya tathā naṁ dhāreyyāma. ",
-      "english": "We should have remembered it in line with the Buddha’s answer. "
-    },
-    {
-      "number": 74,
-      "pali": "Api cāyasmā mahākaccāno satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ, ",
-      "english": "Still, Mahākaccāna is praised by the Buddha and esteemed by his sensible spiritual companions. "
-    },
-    {
-      "number": 75,
-      "pali": "pahoti cāyasmā mahākaccāno imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ. ",
-      "english": "You are capable of explaining in detail the meaning of this brief summary recital given by the Buddha. "
-    },
-    {
-      "number": 76,
-      "pali": "Vibhajatāyasmā mahākaccāno agaruṁ katvā”ti. ",
-      "english": "Please explain this, if it’s no trouble.” "
-    },
-    {
-      "number": 77,
-      "pali": "“Tena hāvuso, suṇātha, sādhukaṁ manasikarotha, bhāsissāmī”ti. ",
-      "english": "“Well then, reverends, listen and apply your mind well, I will speak.” "
-    },
-    {
-      "number": 78,
-      "pali": "“Evamāvuso”ti kho te bhikkhū āyasmato mahākaccānassa paccassosuṁ. ",
-      "english": "“Yes, reverend,” they replied. "
-    },
-    {
-      "number": 79,
-      "pali": "Āyasmā mahākaccāno etadavoca: ",
-      "english": "Venerable Mahākaccāna said this: "
-    },
-    {
-      "number": 80,
-      "pali": "“Yaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
-      "english": "“Reverends, the Buddha gave this brief summary recital, then entered his dwelling without explaining the meaning in detail: "
-    },
-    {
-      "number": 81,
-      "pali": "‘yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
-      "english": "‘Judgments driven by proliferating perceptions beset a person. "
-    },
-    {
-      "number": 82,
-      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ, esevanto rāgānusayānaṁ …pe… ",
-      "english": "If they don’t find anything worth approving, welcoming, or getting attached to in the source from which these arise, "
-    },
-    {
-      "number": 83,
-      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti, imassa kho ahaṁ, āvuso, bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa evaṁ vitthārena atthaṁ ājānāmi—",
-      "english": "just this is the end of the underlying tendencies to desire, repulsion, views, doubt, conceit, the desire to be reborn, and ignorance. This is the end of taking up the rod and the sword, the end of quarrels, arguments, and disputes, of accusations, backbiting, and lies. This is where these bad, unskillful qualities cease without remainder.’ This is how I understand the detailed meaning of this summary recital. "
-    },
-    {
-      "number": 84,
-      "pali": "Cakkhuñcāvuso, paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā, yaṁ vedeti taṁ sañjānāti, yaṁ sañjānāti taṁ vitakketi, yaṁ vitakketi taṁ papañceti, yaṁ papañceti tatonidānaṁ purisaṁ papañcasaññāsaṅkhā samudācaranti atītānāgatapaccuppannesu cakkhuviññeyyesu rūpesu. ",
-      "english": "Eye consciousness arises dependent on the eye and sights. The meeting of the three is contact. Contact is a requirement for feeling. What you feel, you perceive. What you perceive, you think about. What you think about, you proliferate. What you proliferate is the source from which judgments driven by proliferating perceptions beset a person. This occurs with respect to sights known by the eye in the past, future, and present. "
-    },
-    {
-      "number": 85,
-      "pali": "Sotañcāvuso, paṭicca sadde ca uppajjati sotaviññāṇaṁ …pe… ",
-      "english": "Ear consciousness arises dependent on the ear and sounds. … "
-    },
-    {
-      "number": 86,
-      "pali": "ghānañcāvuso, paṭicca gandhe ca uppajjati ghānaviññāṇaṁ …pe… ",
-      "english": "Nose consciousness arises dependent on the nose and smells. … "
-    },
-    {
-      "number": 87,
-      "pali": "jivhañcāvuso, paṭicca rase ca uppajjati jivhāviññāṇaṁ …pe… ",
-      "english": "Tongue consciousness arises dependent on the tongue and tastes. … "
-    },
-    {
-      "number": 88,
-      "pali": "kāyañcāvuso, paṭicca phoṭṭhabbe ca uppajjati kāyaviññāṇaṁ …pe… ",
-      "english": "Body consciousness arises dependent on the body and touches. … "
-    },
-    {
-      "number": 89,
-      "pali": "manañcāvuso, paṭicca dhamme ca uppajjati manoviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā, yaṁ vedeti taṁ sañjānāti, yaṁ sañjānāti taṁ vitakketi, yaṁ vitakketi taṁ papañceti, yaṁ papañceti tatonidānaṁ purisaṁ papañcasaññāsaṅkhā samudācaranti atītānāgatapaccuppannesu manoviññeyyesu dhammesu. ",
-      "english": "Mind consciousness arises dependent on the mind and ideas. The meeting of the three is contact. Contact is a requirement for feeling. What you feel, you perceive. What you perceive, you think about. What you think about, you proliferate. What you proliferate is the source from which judgments driven by proliferating perceptions beset a person. This occurs with respect to ideas known by the mind in the past, future, and present. "
-    },
-    {
-      "number": 90,
-      "pali": "So vatāvuso, cakkhusmiṁ sati rūpe sati cakkhuviññāṇe sati phassapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
-      "english": "Where there is the eye, sights, and eye consciousness, it will be possible to discover evidence of contact. "
-    },
-    {
-      "number": 91,
-      "pali": "Phassapaññattiyā sati vedanāpaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
-      "english": "Where there is evidence of contact, it will be possible to discover evidence of feeling. "
-    },
-    {
-      "number": 92,
-      "pali": "Vedanāpaññattiyā sati saññāpaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
-      "english": "Where there is evidence of feeling, it will be possible to discover evidence of perception. "
-    },
-    {
-      "number": 93,
-      "pali": "Saññāpaññattiyā sati vitakkapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
-      "english": "Where there is evidence of perception, it will be possible to discover evidence of thought. "
-    },
-    {
-      "number": 94,
-      "pali": "Vitakkapaññattiyā sati papañcasaññāsaṅkhāsamudācaraṇapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
-      "english": "Where there is evidence of thought, it will be possible to discover evidence of being beset by judgments driven by proliferating perceptions. "
-    },
-    {
-      "number": 95,
-      "pali": "So vatāvuso, sotasmiṁ sati sadde sati …pe… ",
-      "english": "Where there is the ear … "
-    },
-    {
-      "number": 96,
-      "pali": "ghānasmiṁ sati gandhe sati …pe… ",
-      "english": "nose … "
-    },
-    {
-      "number": 97,
-      "pali": "jivhāya sati rase sati …pe… ",
-      "english": "tongue … "
-    },
-    {
-      "number": 98,
-      "pali": "kāyasmiṁ sati phoṭṭhabbe sati …pe… ",
-      "english": "body … "
-    },
-    {
-      "number": 99,
-      "pali": "manasmiṁ sati dhamme sati manoviññāṇe sati phassapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
-      "english": "mind, ideas, and mind consciousness, it will be possible to discover evidence of contact. "
-    },
-    {
-      "number": 100,
-      "pali": "Phassapaññattiyā sati vedanāpaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
-      "english": "Where there is evidence of contact, it will be possible to discover evidence of feeling. "
-    },
-    {
-      "number": 101,
-      "pali": "Vedanāpaññattiyā sati saññāpaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
-      "english": "Where there is evidence of feeling, it will be possible to discover evidence of perception. "
-    },
-    {
-      "number": 102,
-      "pali": "Saññāpaññattiyā sati vitakkapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
-      "english": "Where there is evidence of perception, it will be possible to discover evidence of thinking. "
-    },
-    {
-      "number": 103,
-      "pali": "Vitakkapaññattiyā sati papañcasaññāsaṅkhāsamudācaraṇapaññattiṁ paññāpessatīti—ṭhānametaṁ vijjati. ",
-      "english": "Where there is evidence of thinking, it will be possible to discover evidence of being beset by judgments driven by proliferating perceptions. "
-    },
-    {
-      "number": 104,
-      "pali": "So vatāvuso, cakkhusmiṁ asati rūpe asati cakkhuviññāṇe asati phassapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
-      "english": "Where there is no eye, no sights, and no eye consciousness, it will not be possible to discover evidence of contact. "
-    },
-    {
-      "number": 105,
-      "pali": "Phassapaññattiyā asati vedanāpaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
-      "english": "Where there is no evidence of contact, it will not be possible to discover evidence of feeling. "
-    },
-    {
-      "number": 106,
-      "pali": "Vedanāpaññattiyā asati saññāpaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
-      "english": "Where there is no evidence of feeling, it will not be possible to discover evidence of perception. "
-    },
-    {
-      "number": 107,
-      "pali": "Saññāpaññattiyā asati vitakkapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
-      "english": "Where there is no evidence of perception, it will not be possible to discover evidence of thinking. "
-    },
-    {
-      "number": 108,
-      "pali": "Vitakkapaññattiyā asati papañcasaññāsaṅkhāsamudācaraṇapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
-      "english": "Where there is no evidence of thinking, it will not be possible to discover evidence of being beset by judgments driven by proliferating perceptions. "
-    },
-    {
-      "number": 109,
-      "pali": "So vatāvuso, sotasmiṁ asati sadde asati …pe… ",
-      "english": "Where there is no ear … "
-    },
-    {
-      "number": 110,
-      "pali": "ghānasmiṁ asati gandhe asati …pe… ",
-      "english": "no nose … "
-    },
-    {
-      "number": 111,
-      "pali": "jivhāya asati rase asati …pe… ",
-      "english": "no tongue … "
-    },
-    {
-      "number": 112,
-      "pali": "kāyasmiṁ asati phoṭṭhabbe asati …pe… ",
-      "english": "no body … "
-    },
-    {
-      "number": 113,
-      "pali": "manasmiṁ asati dhamme asati manoviññāṇe asati phassapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
-      "english": "no mind, no ideas, and no mind consciousness, it will not be possible to discover evidence of contact. "
-    },
-    {
-      "number": 114,
-      "pali": "Phassapaññattiyā asati vedanāpaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
-      "english": "Where there is no evidence of contact, it will not be possible to discover evidence of feeling. "
-    },
-    {
-      "number": 115,
-      "pali": "Vedanāpaññattiyā asati saññāpaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
-      "english": "Where there is no evidence of feeling, it will not be possible to discover evidence of perception. "
-    },
-    {
-      "number": 116,
-      "pali": "Saññāpaññattiyā asati vitakkapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
-      "english": "Where there is no evidence of perception, it will not be possible to discover evidence of thinking. "
-    },
-    {
-      "number": 117,
-      "pali": "Vitakkapaññattiyā asati papañcasaññāsaṅkhāsamudācaraṇapaññattiṁ paññāpessatīti—netaṁ ṭhānaṁ vijjati. ",
-      "english": "Where there is no evidence of thinking, it will not be possible to discover evidence of being beset by judgments driven by proliferating perceptions. "
-    },
-    {
-      "number": 118,
-      "pali": "Yaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
-      "english": "This is how I understand the detailed meaning of that brief summary recital given by the Buddha. "
-    },
-    {
-      "number": 119,
-      "pali": "‘yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ esevanto rāgānusayānaṁ …pe… ",
-      "english": ""
-    },
-    {
-      "number": 120,
-      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti, imassa kho ahaṁ, āvuso, bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa evaṁ vitthārena atthaṁ ājānāmi. ",
-      "english": ""
-    },
-    {
-      "number": 121,
-      "pali": "Ākaṅkhamānā ca pana tumhe āyasmanto bhagavantaṁyeva upasaṅkamitvā etamatthaṁ paṭipuccheyyātha. ",
-      "english": "If you wish, you may go to the Buddha and ask him about this. "
-    },
-    {
-      "number": 122,
-      "pali": "Yathā vo bhagavā byākaroti tathā naṁ dhāreyyāthā”ti. ",
-      "english": "You should remember it in line with the Buddha’s answer.” "
-    },
-    {
-      "number": 123,
-      "pali": "Atha kho te bhikkhū āyasmato mahākaccānassa bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū bhagavantaṁ etadavocuṁ: ",
-      "english": "Then those mendicants, approving and agreeing with what Mahākaccāna said, rose from their seats and went to the Buddha, bowed, sat down to one side, and told him what had happened, adding: "
-    },
-    {
-      "number": 124,
-      "pali": "“yaṁ kho no, bhante, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
-      "english": ""
-    },
-    {
-      "number": 125,
-      "pali": "‘yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
-      "english": ""
-    },
-    {
-      "number": 126,
-      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 127,
-      "pali": "Esevanto rāgānusayānaṁ …pe… ",
-      "english": ""
-    },
-    {
-      "number": 128,
-      "pali": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti. ",
-      "english": ""
-    },
-    {
-      "number": 129,
-      "pali": "Tesaṁ no, bhante, amhākaṁ acirapakkantassa bhagavato etadahosi: ",
-      "english": ""
-    },
-    {
-      "number": 130,
-      "pali": "‘idaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
-      "english": ""
-    },
-    {
-      "number": 131,
-      "pali": "“yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti. ",
-      "english": ""
-    },
-    {
-      "number": 132,
-      "pali": "Ettha ce natthi abhinanditabbaṁ abhivaditabbaṁ ajjhositabbaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 133,
-      "pali": "Esevanto rāgānusayānaṁ, esevanto paṭighānusayānaṁ, esevanto diṭṭhānusayānaṁ, esevanto vicikicchānusayānaṁ, esevanto mānānusayānaṁ, esevanto bhavarāgānusayānaṁ, esevanto avijjānusayānaṁ, esevanto daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādānaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 134,
-      "pali": "Etthete pāpakā akusalā dhammā aparisesā nirujjhantī”ti. ",
-      "english": ""
-    },
-    {
-      "number": 135,
-      "pali": "Ko nu kho imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajeyyā’ti? ",
-      "english": ""
-    },
-    {
-      "number": 136,
-      "pali": "Tesaṁ no, bhante, amhākaṁ etadahosi: ",
-      "english": ""
-    },
-    {
-      "number": 137,
-      "pali": "‘ayaṁ kho āyasmā mahākaccāno satthu ceva saṁvaṇṇito sambhāvito ca viññūnaṁ sabrahmacārīnaṁ, pahoti cāyasmā mahākaccāno imassa bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa vitthārena atthaṁ vibhajituṁ, yannūna mayaṁ yenāyasmā mahākaccāno tenupasaṅkameyyāma; upasaṅkamitvā āyasmantaṁ mahākaccānaṁ etamatthaṁ paṭipuccheyyāmā’ti. ",
-      "english": ""
-    },
-    {
-      "number": 138,
-      "pali": "Atha kho mayaṁ, bhante, yenāyasmā mahākaccāno tenupasaṅkamimha; upasaṅkamitvā āyasmantaṁ mahākaccānaṁ etamatthaṁ paṭipucchimha. ",
-      "english": ""
-    },
-    {
-      "number": 139,
-      "pali": "Tesaṁ no, bhante, āyasmatā mahākaccānena imehi ākārehi imehi padehi imehi byañjanehi attho vibhatto”ti. ",
-      "english": "“Mahākaccāna clearly explained the meaning to us in this manner, with these words and phrases.” "
-    },
-    {
-      "number": 140,
-      "pali": "“Paṇḍito, bhikkhave, mahākaccāno; mahāpañño, bhikkhave, mahākaccāno. ",
-      "english": "“Mahākaccāna is astute, mendicants, he has great wisdom. "
-    },
-    {
-      "number": 141,
-      "pali": "Mañcepi tumhe, bhikkhave, etamatthaṁ paṭipuccheyyātha, ahampi taṁ evamevaṁ byākareyyaṁ yathā taṁ mahākaccānena byākataṁ. ",
-      "english": "If you came to me and asked this question, I would answer it in exactly the same way as Mahākaccāna. "
-    },
-    {
-      "number": 142,
-      "pali": "Eso cevetassa attho. Evañca naṁ dhārethā”ti. ",
-      "english": "That is what it means, and that’s how you should remember it.” "
-    },
-    {
-      "number": 143,
-      "pali": "Evaṁ vutte, āyasmā ānando bhagavantaṁ etadavoca: ",
-      "english": "When he said this, Venerable Ānanda said to the Buddha, "
-    },
-    {
-      "number": 144,
-      "pali": "“seyyathāpi, bhante, puriso jighacchādubbalyapareto madhupiṇḍikaṁ adhigaccheyya, so yato yato sāyeyya, labhetheva sādurasaṁ asecanakaṁ. ",
-      "english": "“Sir, suppose a person who was weak with hunger was to obtain a honey-cake. Wherever they taste it, they would enjoy a sweet, delectable flavor. "
-    },
-    {
-      "number": 145,
-      "pali": "Evameva kho, bhante, cetaso bhikkhu dabbajātiko, yato yato imassa dhammapariyāyassa paññāya atthaṁ upaparikkheyya, labhetheva attamanataṁ, labhetheva cetaso pasādaṁ. ",
-      "english": "In the same way, wherever a sincere, capable mendicant might examine with wisdom the meaning of this exposition of the teaching they would only gain joy and clarity. "
-    },
-    {
-      "number": 146,
-      "pali": "Ko nāmo ayaṁ, bhante, dhammapariyāyo”ti? ",
-      "english": "Sir, what is the name of this exposition of the teaching?” "
-    },
-    {
-      "number": 147,
-      "pali": "“Tasmātiha tvaṁ, ānanda, imaṁ dhammapariyāyaṁ madhupiṇḍikapariyāyotveva naṁ dhārehī”ti. ",
-      "english": "“Well then, Ānanda, you may remember this exposition of the teaching as ‘The Honey-Cake Discourse’.” "
-    },
-    {
-      "number": 148,
-      "pali": "Idamavoca bhagavā. ",
-      "english": "That is what the Buddha said. "
-    },
-    {
-      "number": 149,
-      "pali": "Attamano āyasmā ānando bhagavato bhāsitaṁ abhinandīti. ",
-      "english": "Satisfied, Venerable Ānanda approved what the Buddha said. "
-    },
-    {
-      "number": 150,
-      "pali": "Madhupiṇḍikasuttaṁ niṭṭhitaṁ aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "That is what the Blessed One said. Gratified, Ven. Ānanda delighted in the Blessed One’s words."
     }
   ]
 }

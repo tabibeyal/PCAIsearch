@@ -3,143 +3,53 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 17.3 ",
-      "english": "Linked Discourses 17.3 "
+      "pali": "Linked Discourses 17.3",
+      "english": "Linked Discourses 17.3"
     },
     {
       "number": 2,
-      "pali": "1. Paṭhamavagga ",
-      "english": "Chapter One "
+      "pali": "Kumma Sutta",
+      "english": "The Turtle"
     },
     {
       "number": 3,
-      "pali": "Kummasutta ",
-      "english": "A Turtle "
+      "pali": "",
+      "english": "Staying near Sāvatthī. “Monks, gains, offerings, & fame are a cruel thing, a harsh, bitter obstacle to the attainment of the unexcelled rest from bondage."
     },
     {
       "number": 4,
-      "pali": "Sāvatthiyaṁ viharati. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“Once, monks, a large family of turtles had lived for a long time in a certain freshwater lake. Then one turtle said to another, ‘My dear turtle, don’t go to that area.’ But the turtle went to that area, and because of that a hunter lanced him with a harpoon. So he went back to the first turtle. The first turtle saw him coming from afar, and on seeing him said to him, ‘I hope, dear turtle, that you didn’t go to area.’"
     },
     {
       "number": 5,
-      "pali": "“Dāruṇo, bhikkhave, lābhasakkārasiloko …pe… adhigamāya. ",
-      "english": "“Possessions, honor, and popularity are grim … "
+      "pali": "",
+      "english": "“‘I went to that area, dear turtle.’"
     },
     {
       "number": 6,
-      "pali": "Bhūtapubbaṁ, bhikkhave, aññatarasmiṁ udakarahade mahākummakulaṁ ciranivāsi ahosi. ",
-      "english": "Once upon a time in a certain lake there was a large family of turtles that had lived there for a long time. "
+      "pali": "",
+      "english": "“‘Then I hope you haven’t been wounded or hurt.’"
     },
     {
       "number": 7,
-      "pali": "Atha kho, bhikkhave, aññataro kummo aññataraṁ kummaṁ etadavoca: ",
-      "english": "Then one of the turtles said to another, "
+      "pali": "",
+      "english": "“‘I haven’t been wounded or hurt, but there’s this cord that keeps dragging behind me.’"
     },
     {
       "number": 8,
-      "pali": "‘mā kho tvaṁ, tāta kumma, etaṁ padesaṁ agamāsī’ti. ",
-      "english": "‘My dear turtle, don’t you go to that place.’ "
+      "pali": "",
+      "english": "“‘Yes, dear turtle, you’re wounded, you’re hurt. It was because of that cord that your father & grandfather fell into misfortune & disaster. Now go, dear turtle. You are no longer one of us.’"
     },
     {
       "number": 9,
-      "pali": "Agamāsi kho, bhikkhave, so kummo taṁ padesaṁ. ",
-      "english": "But that turtle did go to that place, "
+      "pali": "",
+      "english": "“The hunter, monks, stands for Māra, the Evil One. The harpoon stands for gains, offerings, & fame. The cord stands for delight & passion. Any monk who relishes & revels in gains, offerings, & fame that have arisen is called a monk lanced by the harpoon, who has fallen into misfortune & disaster. The Evil One can do with him as he will. That’s how cruel gains, offerings, & fame are: a harsh, bitter obstacle to the attainment of the unexcelled rest from bondage."
     },
     {
       "number": 10,
-      "pali": "Tamenaṁ luddo papatāya vijjhi. ",
-      "english": "and a hunter pierced her with a harpoon. "
-    },
-    {
-      "number": 11,
-      "pali": "Atha kho, bhikkhave, so kummo yena so kummo tenupasaṅkami. ",
-      "english": "Then that turtle went back to the other turtle. "
-    },
-    {
-      "number": 12,
-      "pali": "Addasā kho, bhikkhave, so kummo taṁ kummaṁ dūratova āgacchantaṁ. ",
-      "english": "When the other turtle saw her coming off in the distance, "
-    },
-    {
-      "number": 13,
-      "pali": "Disvāna taṁ kummaṁ etadavoca: ",
-      "english": "he said, "
-    },
-    {
-      "number": 14,
-      "pali": "‘kacci tvaṁ, tāta kumma, na taṁ padesaṁ agamāsī’ti? ",
-      "english": "‘My dear turtle, I hope you didn’t go to that place!’ "
-    },
-    {
-      "number": 15,
-      "pali": "‘Agamāsiṁ khvāhaṁ, tāta kumma, taṁ padesan’ti. ",
-      "english": "‘I did.’ "
-    },
-    {
-      "number": 16,
-      "pali": "‘Kacci panāsi, tāta kumma, akkhato anupahato’ti? ",
-      "english": "‘But my dear turtle, I hope you’re not hurt or injured!’ "
-    },
-    {
-      "number": 17,
-      "pali": "‘Akkhato khomhi, tāta kumma, anupahato, atthi ca me idaṁ suttakaṁ piṭṭhito piṭṭhito anubandhan’ti. ",
-      "english": "‘I’m not hurt or injured. But this cord keeps dragging behind me.’ "
-    },
-    {
-      "number": 18,
-      "pali": "‘Tagghasi, tāta kumma, khato, taggha upahato. ",
-      "english": "‘Indeed, my dear turtle, you’re hurt and injured! "
-    },
-    {
-      "number": 19,
-      "pali": "Etena hi te, tāta kumma, suttakena pitaro ca pitāmahā ca anayaṁ āpannā byasanaṁ āpannā. ",
-      "english": "Your father and grandfather met with tragedy and disaster because of such a cord. "
-    },
-    {
-      "number": 20,
-      "pali": "Gaccha dāni tvaṁ, tāta kumma, na dāni tvaṁ amhākan’ti. ",
-      "english": "Go now, you are no longer one of us.’ "
-    },
-    {
-      "number": 21,
-      "pali": "Luddoti kho, bhikkhave, mārassetaṁ pāpimato adhivacanaṁ. ",
-      "english": "‘Hunter’ is a term for Māra the Wicked. "
-    },
-    {
-      "number": 22,
-      "pali": "Papatāti kho, bhikkhave, lābhasakkārasilokassetaṁ adhivacanaṁ. ",
-      "english": "‘Harpoon’ is a term for possessions, honor, and popularity. "
-    },
-    {
-      "number": 23,
-      "pali": "Suttakanti kho, bhikkhave, nandīrāgassetaṁ adhivacanaṁ. ",
-      "english": "‘Cord’ is a term for greed and relishing. "
-    },
-    {
-      "number": 24,
-      "pali": "Yo hi koci, bhikkhave, bhikkhu uppannaṁ lābhasakkārasilokaṁ assādeti nikāmeti—",
-      "english": "Whoever enjoys and likes arisen possessions, honor, and popularity is called a mendicant who has been pierced with a harpoon. They’ve met with tragedy and disaster, and the Wicked One can do with them what he wants. "
-    },
-    {
-      "number": 25,
-      "pali": "ayaṁ vuccati, bhikkhave, bhikkhu giddho papatāya anayaṁ āpanno byasanaṁ āpanno yathākāmakaraṇīyo pāpimato. ",
-      "english": ""
-    },
-    {
-      "number": 26,
-      "pali": "Evaṁ dāruṇo kho, bhikkhave, lābhasakkārasiloko …pe… ",
-      "english": "So grim are possessions, honor, and popularity. …” "
-    },
-    {
-      "number": 27,
-      "pali": "evañhi vo, bhikkhave, sikkhitabban”ti. ",
-      "english": ""
-    },
-    {
-      "number": 28,
-      "pali": "Tatiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“So you should train yourselves: ‘We will put aside any gains, offerings, & fame that have arisen; and we will not let any gains, offerings, & fame that have arisen keep our minds consumed.’ That’s how you should train yourselves.”"
     }
   ]
 }
