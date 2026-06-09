@@ -14,7 +14,7 @@ The round-robin interleave in the retrieval layer already ensures diverse nikāy
 ## Goals
 
 - Conceptual queries produce a structured breakdown with 6–8+ cited bullet points.
-- Answers draw from at least 2 nikāyas when the context contains passages from multiple nikāyas.
+- Answers draw from at least 3 nikāyas when the context contains passages from multiple nikāyas.
 - Narrow factual queries (how many, yes/no) are unaffected.
 
 ## Non-goals
