@@ -212,7 +212,7 @@ async def synthesize(
 async def stream(
     request: Request,
     q: str = Query(..., min_length=1, max_length=500, description="The question to answer"),
-    top_k: int = Query(default=10, ge=1, le=20, description="Number of context chunks to retrieve"),
+    top_k: int = Query(default=15, ge=1, le=20, description="Number of context chunks to retrieve"),
     nikayas: Optional[List[str]] = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
 ):
     filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
