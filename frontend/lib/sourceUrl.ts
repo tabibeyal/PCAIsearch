@@ -10,11 +10,11 @@ export function dhammatalksUrl(id: string): string {
   const numU = num.replace('.', '_');
 
   switch (prefix) {
-    case 'DN':   return `${BASE}/DN/DN${num}.html`;
+    case 'DN':   return `${BASE}/DN/DN${num.padStart(2, '0')}.html`;
     case 'MN':   return `${BASE}/MN/MN${num}.html`;
     case 'SN':   return `${BASE}/SN/SN${numU}.html`;
     case 'AN':   return `${BASE}/AN/AN${numU}.html`;
-    case 'DHP':  return `${BASE}/KN/Dhp/Ch${num}.html`;
+    case 'DHP':  return `${BASE}/KN/Dhp/Ch${num.padStart(2, '0')}.html`;
     case 'ITI':  return `${BASE}/KN/Iti/iti${num}.html`;
     case 'UD':   return `${BASE}/KN/Ud/ud${numU}.html`;
     case 'STNP': return `${BASE}/KN/StNp/StNp${numU}.html`;

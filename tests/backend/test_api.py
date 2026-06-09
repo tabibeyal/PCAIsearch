@@ -77,3 +77,23 @@ def test_synthesize_guardrail_flags_hallucinations(client):
 def test_synthesize_requires_q_param(client):
     response = client.get("/synthesize")
     assert response.status_code == 422
+
+
+def test_stream_default_top_k_is_15(client):
+    captured = {}
+
+    async def fake_search(query, top_k=10, nikayas=None):
+        captured["top_k"] = top_k
+        return []
+
+    async def fake_stream(query, chunks):
+        yield {"type": "done", "text": "", "hallucinations": [], "canonical_misses": [], "is_faithful": True}
+
+    with patch.object(app.state.pipeline, "search", side_effect=fake_search), \
+         patch.object(app.state.pipeline, "stream_synthesize", side_effect=fake_stream), \
+         patch.object(app.state.guardrail, "process_response", return_value={
+             "text": "", "hallucinations": [], "canonical_misses": [], "is_faithful": True
+         }):
+        client.get("/stream?q=meditation")
+
+    assert captured.get("top_k") == 15

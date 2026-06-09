@@ -88,3 +88,23 @@ async def test_synthesize_sends_system_and_user_messages(pipeline, sample_contex
     roles = [m["role"] for m in messages]
     assert "system" in roles, "Must include a system message"
     assert "user" in roles, "Must include a user message"
+
+
+@pytest.mark.asyncio
+async def test_synthesize_uses_1200_max_tokens(pipeline, sample_context):
+    mock_client = _mock_llm(pipeline, "Answer")
+
+    await pipeline.synthesize("query", sample_context)
+
+    kwargs = mock_client.chat.completions.create.call_args.kwargs
+    assert kwargs["max_tokens"] == 1200
+
+
+def test_system_prompt_requires_minimum_bullet_points():
+    from backend.app.services.search_pipeline import _SYSTEM_PROMPT
+    assert "at least 6 cited bullet points" in _SYSTEM_PROMPT
+
+
+def test_system_prompt_requires_nikaya_diversity():
+    from backend.app.services.search_pipeline import _SYSTEM_PROMPT
+    assert "at least 3 different nikāyas" in _SYSTEM_PROMPT

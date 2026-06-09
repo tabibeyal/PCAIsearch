@@ -337,6 +337,8 @@ _SYSTEM_PROMPT = (
     "- Write a full introductory paragraph that situates the topic in its doctrinal context (max 5 sentences).\n"
     "- Follow with a bullet-point section that breaks down the key teachings, one idea per bullet. "
     "Each bullet should be a complete sentence or two — not a single word or embedded list.\n"
+    "- Write at least 6 cited bullet points — not fewer. If the context supports more, include them.\n"
+    "- When the context includes passages from more than one nikāya, draw from at least 3 different nikāyas.\n"
     "- End with a closing paragraph (max 5 sentences) that draws the threads together and notes any nuance or limitation in the retrieved texts.\n"
     "\n"
     "PARAGRAPH LENGTH (HARD LIMIT): Every paragraph MUST contain AT MOST 5 sentences. "
@@ -639,7 +641,7 @@ class SearchPipeline:
     async def synthesize(self, query: str, context_chunks: List[Dict[str, Any]]) -> str:
         message = await self.llm.chat.completions.create(
             model=self.llm_model,
-            max_tokens=700,
+            max_tokens=1200,
             timeout=120.0,
             messages=_build_messages(query, context_chunks),
         )
@@ -648,7 +650,7 @@ class SearchPipeline:
     async def stream_synthesize(self, query: str, context_chunks: List[Dict[str, Any]]):
         stream = await self.llm.chat.completions.create(
             model=self.llm_model,
-            max_tokens=700,
+            max_tokens=1200,
             timeout=120.0,
             stream=True,
             messages=_build_messages(query, context_chunks),
