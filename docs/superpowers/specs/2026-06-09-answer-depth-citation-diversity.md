@@ -45,7 +45,7 @@ In `_SYSTEM_PROMPT` in `search_pipeline.py`, extend the conceptual question form
 > For conceptual questions, write at least 6 cited bullet points — not fewer. If the context supports more, include them.
 
 **Nikāya diversity:**
-> When the provided context includes passages from more than one nikāya (DN, MN, SN, AN, Khuddaka), your bullet points must draw from at least 2 different nikāyas.
+> When the provided context includes passages from more than one nikāya, your bullet points must draw from at least 2 different nikāyas.
 
 ### Existing limits (unchanged)
 
