@@ -12,7 +12,7 @@ from typing import List, Literal, Optional
 
 import httpx
 from pydantic import BaseModel, Field, field_validator
-from fastapi import FastAPI, Query, Request
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from slowapi import Limiter, _rate_limit_exceeded_handler
@@ -188,7 +188,7 @@ async def contact(request: Request, body: ContactBody):
     api_key = os.environ.get("RESEND_API_KEY")
     if not api_key:
         logger.error("RESEND_API_KEY not set")
-        return {"ok": False}, 500
+        raise HTTPException(status_code=500, detail="Email service unavailable")
 
     import resend as resend_client
     resend_client.api_key = api_key
@@ -200,7 +200,11 @@ async def contact(request: Request, body: ContactBody):
         "subject": f"[PCAIsearch] Message from {body.name}",
         "text": f"Name: {body.name}\nEmail: {body.email}\n\nMessage:\n{body.message}",
     }
-    resend_client.Emails.send(params)
+    try:
+        await asyncio.get_event_loop().run_in_executor(None, resend_client.Emails.send, params)
+    except Exception as exc:
+        logger.error("Resend error: %s", exc)
+        raise HTTPException(status_code=500, detail="Failed to send message")
     return {"ok": True}
 
 
