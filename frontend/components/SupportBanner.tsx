@@ -14,7 +14,15 @@ export function SupportBanner() {
   // SUPPORT_BANNER_SENTINEL_HEIGHT_PX in lib/banner.ts — keep the rendered
   // spacer in SynthesisView aligned with that value.
   useEffect(() => {
-    if (typeof window === 'undefined' || window.innerWidth >= 768) return;
+    if (typeof window === 'undefined') return;
+
+    // Tailwind v4 uses the CSS `translate` property for translate-y-*, which
+    // md:transform-none does not reset. On desktop, force visible so
+    // translate-y-0 is applied instead of translate-y-full.
+    if (window.innerWidth >= 768) {
+      setVisible(true);
+      return;
+    }
 
     const observer = new IntersectionObserver(
       (entries) => {
