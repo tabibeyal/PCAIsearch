@@ -3,148 +3,68 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 7.21 ",
-      "english": "Numbered Discourses 7.21 "
+      "pali": "Numerical Discourses 7.21",
+      "english": "Numerical Discourses 7.21"
     },
     {
       "number": 2,
-      "pali": "3. Vajjisattakavagga ",
-      "english": "3. The Vajji Seven "
+      "pali": "Bhikkhu-aparihāniya Sutta",
+      "english": "Conditions for No Decline among the Monks"
     },
     {
       "number": 3,
-      "pali": "Sārandadasutta ",
-      "english": "At Sārandada "
+      "pali": "",
+      "english": "I have heard that on one occasion the Blessed One was staying near Rājagaha on Vulture Peak Mountain. There he addressed the monks: “Monks, I will teach you the seven conditions that lead to no decline. Listen & pay close attention. I will speak.”"
     },
     {
       "number": 4,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "“As you say, lord,” the monks responded to the Blessed One."
     },
     {
       "number": 5,
-      "pali": "ekaṁ samayaṁ bhagavā vesāliyaṁ viharati sārandade cetiye. ",
-      "english": "At one time the Buddha was staying near Vesālī, at the Sārandada Shrine. "
+      "pali": "",
+      "english": "The Blessed One said: “And which seven are the conditions that lead to no decline?"
     },
     {
       "number": 6,
-      "pali": "Atha kho sambahulā licchavī yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinne kho te licchavī bhagavā etadavoca: ",
-      "english": "Then several Licchavis went up to the Buddha, bowed, sat down to one side, and the Buddha said to these Licchavis: "
+      "pali": "",
+      "english": "[1] “As long as the monks meet often, meet a great deal, their growth can be expected, not their decline."
     },
     {
       "number": 7,
-      "pali": "“satta vo, licchavī, aparihāniye dhamme desessāmi. ",
-      "english": "“Licchavis, I will teach you these seven principles that prevent decline. "
+      "pali": "",
+      "english": "[2] “As long as the monks meet in harmony, adjourn from their meetings in harmony, and conduct Saṅgha business in harmony, their growth can be expected, not their decline."
     },
     {
       "number": 8,
-      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
-      "english": "Listen and apply your mind well, I will speak.” "
+      "pali": "",
+      "english": "[3] “As long as the monks neither decree what has been undecreed nor repeal what has been decreed, but practice undertaking the training rules as they have been decreed, their growth can be expected, not their decline."
     },
     {
       "number": 9,
-      "pali": "“Evaṁ, bhante”ti kho te licchavī bhagavato paccassosuṁ. ",
-      "english": "“Yes, sir,” they replied. "
+      "pali": "",
+      "english": "[4] “As long as the monks honor, respect, venerate, and do homage to the elder monks—those with seniority who have long been ordained, the fathers of the Saṅgha, leaders of the Saṅgha—regarding them as worth listening to, their growth can be expected, not their decline."
     },
     {
       "number": 10,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
+      "pali": "",
+      "english": "[5] “As long as the monks do not submit to the power of any arisen craving that leads to further becoming, their growth can be expected, not their decline."
     },
     {
       "number": 11,
-      "pali": "“Katame ca, licchavī, satta aparihāniyā dhammā? ",
-      "english": "“And what are the seven principles that prevent decline? "
+      "pali": "",
+      "english": "[6] “As long as the monks see their own benefit in wilderness dwellings, their growth can be expected, not their decline."
     },
     {
       "number": 12,
-      "pali": "Yāvakīvañca, licchavī, vajjī abhiṇhaṁ sannipātā bhavissanti sannipātabahulā; ",
-      "english": "As long as the Vajjis meet frequently and have many meetings, "
+      "pali": "",
+      "english": "[7] “As long as the monks each keep firmly in mind: ‘If there are any well-behaved companions in the holy life who have yet to come, may they come; and may the well-behaved companions in the holy life who have come live in comfort,’ their growth can be expected, not their decline."
     },
     {
       "number": 13,
-      "pali": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
-      "english": "they can expect growth, not decline. "
-    },
-    {
-      "number": 14,
-      "pali": "Yāvakīvañca, licchavī, vajjī samaggā sannipatissanti, samaggā vuṭṭhahissanti, samaggā vajjikaraṇīyāni karissanti; ",
-      "english": "As long as the Vajjis meet in harmony, leave in harmony, and carry on their business in harmony, "
-    },
-    {
-      "number": 15,
-      "pali": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
-      "english": "they can expect growth, not decline. "
-    },
-    {
-      "number": 16,
-      "pali": "Yāvakīvañca, licchavī, vajjī apaññattaṁ na paññāpessanti, paññattaṁ na samucchindissanti, yathāpaññatte porāṇe vajjidhamme samādāya vattissanti; ",
-      "english": "As long as the Vajjis don’t make new decrees or abolish existing decrees, but undertake and follow the ancient Vajjian traditions as they have been decreed, "
-    },
-    {
-      "number": 17,
-      "pali": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
-      "english": "they can expect growth, not decline. "
-    },
-    {
-      "number": 18,
-      "pali": "Yāvakīvañca, licchavī, vajjī ye te vajjīnaṁ vajjimahallakā te sakkarissanti garuṁ karissanti mānessanti pūjessanti, tesañca sotabbaṁ maññissanti; ",
-      "english": "As long as the Vajjis honor, respect, esteem, and venerate Vajjian elders, and think them worth listening to, "
-    },
-    {
-      "number": 19,
-      "pali": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
-      "english": "they can expect growth, not decline. "
-    },
-    {
-      "number": 20,
-      "pali": "Yāvakīvañca, licchavī, vajjī yā tā kulitthiyo kulakumāriyo tā na okassa pasayha vāsessanti; ",
-      "english": "As long as the Vajjis don’t forcibly abduct the women or girls of the clans and make them live with them, "
-    },
-    {
-      "number": 21,
-      "pali": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
-      "english": "they can expect growth, not decline. "
-    },
-    {
-      "number": 22,
-      "pali": "Yāvakīvañca, licchavī, vajjī yāni tāni vajjīnaṁ vajjicetiyāni abbhantarāni ceva bāhirāni ca tāni sakkarissanti garuṁ karissanti mānessanti pūjessanti, tesañca dinnapubbaṁ katapubbaṁ dhammikaṁ baliṁ no parihāpessanti; ",
-      "english": "As long as the Vajjis honor, respect, esteem, and venerate the Vajjian shrines, whether inner or outer, not neglecting the proper spirit-offerings that were given and made in the past, "
-    },
-    {
-      "number": 23,
-      "pali": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
-      "english": "they can expect growth, not decline. "
-    },
-    {
-      "number": 24,
-      "pali": "Yāvakīvañca, licchavī, vajjīnaṁ arahantesu dhammikā rakkhāvaraṇagutti susaṁvihitā bhavissati: ",
-      "english": "As long as the Vajjis organize proper protection, shelter, and security for perfected ones, so that "
-    },
-    {
-      "number": 25,
-      "pali": "‘kinti anāgatā ca arahanto vijitaṁ āgaccheyyuṁ, āgatā ca arahanto vijite phāsuṁ vihareyyun’ti; ",
-      "english": "more perfected ones might come to the realm and those already here may live in comfort, "
-    },
-    {
-      "number": 26,
-      "pali": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
-      "english": "they can expect growth, not decline. "
-    },
-    {
-      "number": 27,
-      "pali": "Yāvakīvañca, licchavī, ime satta aparihāniyā dhammā vajjīsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu vajjī sandississanti; ",
-      "english": "As long as these seven principles that prevent decline last among the Vajjis, and as long as the Vajjis are seen following them, "
-    },
-    {
-      "number": 28,
-      "pali": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihānī”ti. ",
-      "english": "they can expect growth, not decline.” "
-    },
-    {
-      "number": 29,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“As long as the monks remain steadfast in these seven conditions, and as long as these seven conditions endure among the monks, the monks’ growth can be expected, not their decline.”"
     }
   ]
 }

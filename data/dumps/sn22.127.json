@@ -3,83 +3,48 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.127 ",
-      "english": "Linked Discourses 22.127 "
+      "pali": "Linked Discourses 22.127",
+      "english": "Linked Discourses 22.127"
     },
     {
       "number": 2,
-      "pali": "13. Avijjāvagga ",
-      "english": "13. Ignorance "
+      "pali": "Samudaya-dhamma Sutta",
+      "english": "Subject to Origination (2)"
     },
     {
       "number": 3,
-      "pali": "Dutiyasamudayadhammasutta ",
-      "english": "Liable To Originate (2nd) "
+      "pali": "",
+      "english": "At Sāvatthī. Then a certain monk went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “‘Clear knowing, clear knowing,’ it is said, lord. Which clear knowing? And to what extent is one immersed in clear knowing?”"
     },
     {
       "number": 4,
-      "pali": "Ekaṁ samayaṁ āyasmā ca sāriputto āyasmā ca mahākoṭṭhiko bārāṇasiyaṁ viharanti isipatane migadāye. ",
-      "english": "At one time Venerable Sāriputta and Venerable Mahākoṭṭhita were staying near Varanasi, in the deer park at Isipatana. … "
+      "pali": "",
+      "english": "“There is the case, monk, where an instructed disciple of the noble ones discerns, as it has come to be, form subject to origination as form subject to origination. He discerns, as it has come to be, form subject to passing away as form subject to passing away. He discerns, as it has come to be, form subject to origination & passing away as form subject to origination & passing away."
     },
     {
       "number": 5,
-      "pali": "Atha kho āyasmā mahākoṭṭhiko sāyanhasamayaṁ paṭisallānā vuṭṭhito …pe… ekamantaṁ nisinno kho āyasmā mahākoṭṭhiko āyasmantaṁ sāriputtaṁ etadavoca: ",
-      "english": "Mahākoṭṭhita said to Sāriputta: "
+      "pali": "",
+      "english": "“He discerns, as it has come to be, feeling subject to origination as feeling subject to origination. He discerns, as it has come to be, feeling subject to passing away as feeling subject to passing away. He discerns, as it has come to be, feeling subject to origination & passing away as feeling subject to origination & passing away."
     },
     {
       "number": 6,
-      "pali": "“‘avijjā, avijjā’ti, āvuso sāriputta, vuccati. ",
-      "english": "“Reverend Sāriputta, they speak of this thing called ‘ignorance’. "
+      "pali": "",
+      "english": "“He discerns, as it has come to be, perception subject to origination as perception subject to origination. He discerns, as it has come to be, perception subject to passing away as perception subject to passing away. He discerns, as it has come to be, perception subject to origination & passing away as perception subject to origination & passing away."
     },
     {
       "number": 7,
-      "pali": "Katamā nu kho, āvuso, avijjā; ",
-      "english": "What is ignorance? "
+      "pali": "",
+      "english": "“He discerns, as it they have come to be, fabrications subject to origination as fabrications subject to origination. He discerns, as they have come to be, fabrications subject to passing away as fabrications subject to passing away. He discerns, as they have come to be, fabrications subject to origination & passing away as fabrications subject to origination & passing away."
     },
     {
       "number": 8,
-      "pali": "kittāvatā ca avijjāgato hotī”ti? ",
-      "english": "And how is an ignoramus defined?” "
+      "pali": "",
+      "english": "“He discerns, as it has come to be, consciousness subject to origination as consciousness subject to origination. He discerns, as it has come to be, consciousness subject to passing away as consciousness subject to passing away. He discerns, as it has come to be, consciousness subject to origination & passing away as consciousness subject to origination & passing away."
     },
     {
       "number": 9,
-      "pali": "“Idhāvuso assutavā puthujjano samudayadhammaṁ rūpaṁ ‘samudayadhammaṁ rūpan’ti yathābhūtaṁ nappajānāti; vayadhammaṁ rūpaṁ …pe… ‘samudayavayadhammaṁ rūpan’ti yathābhūtaṁ nappajānāti. ",
-      "english": "“Reverend, it’s when an unlearned ordinary person doesn’t truly understand form, which is liable to originate … liable to vanish … liable to originate and vanish, as form which is liable to originate and vanish. "
-    },
-    {
-      "number": 10,
-      "pali": "Samudayadhammaṁ vedanaṁ …pe… vayadhammaṁ vedanaṁ …pe… ‘samudayavayadhammā vedanā’ti yathābhūtaṁ nappajānāti. ",
-      "english": "They don’t truly understand feeling … "
-    },
-    {
-      "number": 11,
-      "pali": "Samudayadhammaṁ saññaṁ …pe… ",
-      "english": "perception … "
-    },
-    {
-      "number": 12,
-      "pali": "samudayadhamme saṅkhāre …pe… vayadhamme saṅkhāre …pe… samudayavayadhamme saṅkhāre ‘samudayavayadhammā saṅkhārā’ti yathābhūtaṁ nappajānāti. ",
-      "english": "choices … "
-    },
-    {
-      "number": 13,
-      "pali": "Samudayadhammaṁ viññāṇaṁ …pe… samudayavayadhammaṁ viññāṇaṁ ‘samudayavayadhammaṁ viññāṇan’ti yathābhūtaṁ nappajānāti. ",
-      "english": "consciousness, which is liable to originate … liable to vanish … liable to originate and vanish, as consciousness which is liable to originate and vanish. "
-    },
-    {
-      "number": 14,
-      "pali": "Ayaṁ vuccati, āvuso, avijjā; ",
-      "english": "This is called ignorance. "
-    },
-    {
-      "number": 15,
-      "pali": "ettāvatā ca avijjāgato hotī”ti. ",
-      "english": "And this is how an ignoramus is defined.” "
-    },
-    {
-      "number": 16,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“This, monk, is called clear knowing, and it’s to this extent that one is immersed in clear knowing.”"
     }
   ]
 }

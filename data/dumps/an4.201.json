@@ -3,148 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 4.201 ",
-      "english": "Numbered Discourses 4.201 "
+      "pali": "Numerical Discourses 4.201",
+      "english": "Numerical Discourses 4.201"
     },
     {
       "number": 2,
-      "pali": "21. Sappurisavagga ",
-      "english": "21. A True Person "
+      "pali": "Sikkhāpada Sutta",
+      "english": "Training Rules"
     },
     {
       "number": 3,
-      "pali": "Sikkhāpadasutta ",
-      "english": "Training Rules "
+      "pali": "",
+      "english": "“Monks, I will teach you the person of no integrity, the person of less integrity than the person of no integrity, the person of integrity, & the person of more integrity than the person of integrity. Listen & pay careful attention. I will speak.”"
     },
     {
       "number": 4,
-      "pali": "“Asappurisañca vo, bhikkhave, desessāmi, asappurisena asappurisatarañca; ",
-      "english": "“Mendicants, I will teach you an untrue person and an even more untrue person, "
+      "pali": "",
+      "english": "“As you say, lord,” the monks responded to the Blessed One."
     },
     {
       "number": 5,
-      "pali": "sappurisañca, sappurisena sappurisatarañca. ",
-      "english": "a true person and an even truer person. "
+      "pali": "",
+      "english": "The Blessed One said, “And which, monks, is the person of no integrity? There is the case where a certain individual is one who takes life, takes what is not given [steals], engages in sexual misconduct, tells lies, and takes distilled & fermented drinks that cause heedlessness. This is called a person of no integrity."
     },
     {
       "number": 6,
-      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
-      "english": "Listen and apply your mind well, I will speak.” "
+      "pali": "",
+      "english": "“And which is the person of less integrity than the person of no integrity? There is the case where a certain individual himself is one who takes life and he encourages another in undertaking the taking of life. He himself is one who takes what is not given and he encourages another in undertaking the taking of what is not given. He himself is one who engages in sexual misconduct and he encourages another in undertaking sexual misconduct. He himself is one who tells lies and he encourages another in undertaking the telling of lies. He himself is one who takes distilled & fermented drinks that cause heedlessness and he encourages another in undertaking the taking of distilled & fermented drinks that cause heedlessness. This is called a person of less integrity than the person of no integrity."
     },
     {
       "number": 7,
-      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Yes, sir,” they replied. "
+      "pali": "",
+      "english": "“And which is the person of integrity? There is the case where a certain individual abstains from taking life, abstains from taking what is not given, abstains from sexual misconduct, abstains from telling lies, and abstains from taking distilled & fermented drinks that cause heedlessness. This is called a person of integrity."
     },
     {
       "number": 8,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
-    },
-    {
-      "number": 9,
-      "pali": "“Katamo ca, bhikkhave, asappuriso? ",
-      "english": "“And what is an untrue person? "
-    },
-    {
-      "number": 10,
-      "pali": "Idha, bhikkhave, ekacco pāṇātipātī hoti, adinnādāyī hoti, kāmesumicchācārī hoti, musāvādī hoti, surāmerayamajjapamādaṭṭhāyī hoti. ",
-      "english": "It’s someone who kills living creatures, steals, commits sexual misconduct, lies, and consumes beer, wine, and liquor intoxicants. "
-    },
-    {
-      "number": 11,
-      "pali": "Ayaṁ vuccati, bhikkhave, asappuriso. ",
-      "english": "This is called an untrue person. "
-    },
-    {
-      "number": 12,
-      "pali": "Katamo ca, bhikkhave, asappurisena asappurisataro? ",
-      "english": "And what is an even more untrue person? "
-    },
-    {
-      "number": 13,
-      "pali": "Idha, bhikkhave, ekacco attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti; ",
-      "english": "It’s someone who kills living creatures, steals, commits sexual misconduct, lies, and consumes beer, wine, and liquor intoxicants. And they encourage others to do these things. "
-    },
-    {
-      "number": 14,
-      "pali": "attanā ca adinnādāyī hoti, parañca adinnādāne samādapeti; ",
-      "english": ""
-    },
-    {
-      "number": 15,
-      "pali": "attanā ca kāmesumicchācārī hoti, parañca kāmesumicchācāre samādapeti; ",
-      "english": ""
-    },
-    {
-      "number": 16,
-      "pali": "attanā ca musāvādī hoti, parañca musāvāde samādapeti; ",
-      "english": ""
-    },
-    {
-      "number": 17,
-      "pali": "attanā ca surāmerayamajjapamādaṭṭhāyī hoti, parañca surāmerayamajjapamādaṭṭhāne samādapeti. ",
-      "english": ""
-    },
-    {
-      "number": 18,
-      "pali": "Ayaṁ vuccati, bhikkhave, asappurisena asappurisataro. ",
-      "english": "This is called an even more untrue person. "
-    },
-    {
-      "number": 19,
-      "pali": "Katamo ca, bhikkhave, sappuriso? ",
-      "english": "And what is a true person? "
-    },
-    {
-      "number": 20,
-      "pali": "Idha, bhikkhave, ekacco pāṇātipātā paṭivirato hoti, adinnādānā paṭivirato hoti, kāmesumicchācārā paṭivirato hoti, musāvādā paṭivirato hoti, surāmerayamajjapamādaṭṭhānā paṭivirato hoti. ",
-      "english": "It’s someone who doesn’t kill living creatures, steal, commit sexual misconduct, lie, or consume beer, wine, and liquor intoxicants. "
-    },
-    {
-      "number": 21,
-      "pali": "Ayaṁ vuccati, bhikkhave, sappuriso. ",
-      "english": "This is called a true person. "
-    },
-    {
-      "number": 22,
-      "pali": "Katamo ca, bhikkhave, sappurisena sappurisataro? ",
-      "english": "And what is an even truer person? "
-    },
-    {
-      "number": 23,
-      "pali": "Idha, bhikkhave, ekacco attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti; ",
-      "english": "It’s someone who doesn’t kill living creatures, steal, commit sexual misconduct, lie, or consume beer, wine, and liquor intoxicants. And they encourage others to refrain from these things. "
-    },
-    {
-      "number": 24,
-      "pali": "attanā ca adinnādānā paṭivirato hoti, parañca adinnādānā veramaṇiyā samādapeti; ",
-      "english": ""
-    },
-    {
-      "number": 25,
-      "pali": "attanā ca kāmesumicchācārā paṭivirato hoti, parañca kāmesumicchācārā veramaṇiyā samādapeti; ",
-      "english": ""
-    },
-    {
-      "number": 26,
-      "pali": "attanā ca musāvādā paṭivirato hoti, parañca musāvādā veramaṇiyā samādapeti; ",
-      "english": ""
-    },
-    {
-      "number": 27,
-      "pali": "attanā ca surāmerayamajjapamādaṭṭhānā paṭivirato hoti, parañca surāmerayamajjapamādaṭṭhānā veramaṇiyā samādapeti. ",
-      "english": ""
-    },
-    {
-      "number": 28,
-      "pali": "Ayaṁ vuccati, bhikkhave, sappurisena sappurisataro”ti. ",
-      "english": "This is called an even truer person.” "
-    },
-    {
-      "number": 29,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“And which is the person of more integrity than the person of integrity? There is the case where a certain individual himself abstains from taking life and he encourages another in undertaking abstinence from taking life. He himself abstains from taking what is not given and he encourages another in undertaking abstinence from taking what is not given. He himself abstains from sexual misconduct and he encourages another in undertaking abstinence from sexual misconduct. He himself abstains from telling lies and he encourages another in undertaking abstinence from telling lies. He himself abstains from taking distilled & fermented drinks that cause heedlessness and he encourages another in undertaking abstinence from taking distilled & fermented drinks that cause heedlessness. This is called a person of more integrity than the person of integrity.”"
     }
   ]
 }

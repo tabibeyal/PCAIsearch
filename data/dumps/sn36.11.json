@@ -3,253 +3,38 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 36.11 ",
-      "english": "Linked Discourses 36.11 "
+      "pali": "Linked Discourses 36.11",
+      "english": "Linked Discourses 36.11"
     },
     {
       "number": 2,
-      "pali": "2. Rahogatavagga ",
-      "english": "2. In Private "
+      "pali": "Rahogata Sutta",
+      "english": "Alone"
     },
     {
       "number": 3,
-      "pali": "Rahogatasutta ",
-      "english": "In Private "
+      "pali": "",
+      "english": "Then a certain monk went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One: “Just now, lord, while I was alone in seclusion, this train of thought arose in my awareness: ‘Three feelings have been spoken of by the Blessed One: a feeling of pleasure, a feeling of pain (stress), & a feeling of neither pleasure nor pain. These are the three feelings spoken of by the Blessed One. But the Blessed One has said: “Whatever is felt comes under stress (pain).” Now in what connection was this stated by the Blessed One: “Whatever is felt comes under stress (pain)?”’”"
     },
     {
       "number": 4,
-      "pali": "Atha kho aññataro bhikkhu yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho so bhikkhu bhagavantaṁ etadavoca: ",
-      "english": "Then a mendicant went up to the Buddha, bowed, sat down to one side, and said to him: "
+      "pali": "",
+      "english": "“Excellent, monk. Excellent. These three feelings have been spoken of by me: a feeling of pleasure, a feeling of pain (stress), & a feeling of neither pleasure nor pain. These are the three feelings spoken of by me. But I have also said: ‘Whatever is felt comes under stress (pain).’ That I have stated simply in connection with the inconstancy of fabrications. That I have stated simply in connection with the nature of fabrications to end… in connection with the nature of fabrications to fall away… to fade away… to cease… in connection with the nature of fabrications to change."
     },
     {
       "number": 5,
-      "pali": "“idha mayhaṁ, bhante, rahogatassa paṭisallīnassa evaṁ cetaso parivitakko udapādi—",
-      "english": "“Just now, sir, as I was in private retreat this thought came to mind. "
+      "pali": "",
+      "english": "“And I have also taught the step-by-step cessation of fabrications. When one has attained the first jhāna, speech has ceased. When one has attained the second jhāna, directed thought & evaluation have ceased. When one has attained the third jhāna, rapture has ceased. When one has attained the fourth jhāna, in-and-out breathing has ceased. When one has attained the dimension of the infinitude of space, the perception of forms has ceased. When one has attained the dimension of the infinitude of consciousness, the perception of the dimension of the infinitude of space has ceased. When one has attained the dimension of nothingness, the perception of the dimension of the infinitude of consciousness has ceased. When one has attained the dimension of neither perception nor non-perception, the perception of the dimension of nothingness has ceased. When one has attained the cessation of perception & feeling, perception & feeling have ceased. When a monk’s effluents have ended, passion has ceased, aversion has ceased, delusion has ceased."
     },
     {
       "number": 6,
-      "pali": "tisso vedanā vuttā bhagavatā. ",
-      "english": "The Buddha has spoken of three feelings. "
+      "pali": "",
+      "english": "“Then, monk, I have also taught the step-by-step total stilling of fabrications. When one has attained the first jhāna, speech has been totally stilled. When one has attained the second jhāna, directed thought & evaluation have been totally stilled. When one has attained the third jhāna, rapture has been totally stilled. When one has attained the fourth jhāna, in-and-out breathing has been totally stilled. When one has attained the dimension of the infinitude of space, the perception of forms has been totally stilled. When one has attained the dimension of the infinitude of consciousness, the perception of the dimension of the infinitude of space has been totally stilled. When one has attained the dimension of nothingness, the perception of the dimension of the infinitude of consciousness has been totally stilled. When one has attained the dimension of neither perception nor non-perception, the perception of the dimension of nothingness has been totally stilled. When one has attained the cessation of perception & feeling, perception & feeling have been totally stilled. When a monk’s effluents have ended, passion has been totally stilled, aversion has been totally stilled, delusion has been totally stilled."
     },
     {
       "number": 7,
-      "pali": "Sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā—",
-      "english": "Pleasant, painful, and neutral feeling. "
-    },
-    {
-      "number": 8,
-      "pali": "imā tisso vedanā vuttā bhagavatā. ",
-      "english": "These are the three feelings the Buddha has spoken of. "
-    },
-    {
-      "number": 9,
-      "pali": "Vuttaṁ kho panetaṁ bhagavatā: ",
-      "english": "But the Buddha has also said: "
-    },
-    {
-      "number": 10,
-      "pali": "‘yaṁ kiñci vedayitaṁ taṁ dukkhasmin’ti. ",
-      "english": "‘Suffering includes whatever is felt.’ "
-    },
-    {
-      "number": 11,
-      "pali": "Kiṁ nu kho etaṁ bhagavatā sandhāya bhāsitaṁ: ",
-      "english": "What was the Buddha referring to when he said this?” "
-    },
-    {
-      "number": 12,
-      "pali": "‘yaṁ kiñci vedayitaṁ taṁ dukkhasmin’”ti? ",
-      "english": ""
-    },
-    {
-      "number": 13,
-      "pali": "“Sādhu sādhu, bhikkhu. ",
-      "english": "“Good, good, mendicant! "
-    },
-    {
-      "number": 14,
-      "pali": "Tisso imā, bhikkhu, vedanā vuttā mayā. ",
-      "english": "I have spoken of these three feelings. "
-    },
-    {
-      "number": 15,
-      "pali": "Sukhā vedanā, dukkhā vedanā, adukkhamasukhā vedanā—",
-      "english": "Pleasant, painful, and neutral feeling. "
-    },
-    {
-      "number": 16,
-      "pali": "imā tisso vedanā vuttā mayā. ",
-      "english": "These are the three feelings I have spoken of. "
-    },
-    {
-      "number": 17,
-      "pali": "Vuttaṁ kho panetaṁ, bhikkhu, mayā: ",
-      "english": "But I have also said: "
-    },
-    {
-      "number": 18,
-      "pali": "‘yaṁ kiñci vedayitaṁ, taṁ dukkhasmin’ti. ",
-      "english": "‘Suffering includes whatever is felt.’ "
-    },
-    {
-      "number": 19,
-      "pali": "Taṁ kho panetaṁ, bhikkhu, mayā saṅkhārānaṁyeva aniccataṁ sandhāya bhāsitaṁ: ",
-      "english": "When I said this I was referring to the impermanence of conditions, to the fact that conditions are "
-    },
-    {
-      "number": 20,
-      "pali": "‘yaṁ kiñci vedayitaṁ taṁ dukkhasmin’ti. ",
-      "english": ""
-    },
-    {
-      "number": 21,
-      "pali": "Taṁ kho panetaṁ, bhikkhu, mayā saṅkhārānaṁyeva khayadhammataṁ …pe… ",
-      "english": "liable to end, "
-    },
-    {
-      "number": 22,
-      "pali": "vayadhammataṁ …pe… ",
-      "english": "vanish, "
-    },
-    {
-      "number": 23,
-      "pali": "virāgadhammataṁ …pe… ",
-      "english": "fade away, "
-    },
-    {
-      "number": 24,
-      "pali": "nirodhadhammataṁ …pe… ",
-      "english": "cease, "
-    },
-    {
-      "number": 25,
-      "pali": "vipariṇāmadhammataṁ sandhāya bhāsitaṁ: ",
-      "english": "and perish. "
-    },
-    {
-      "number": 26,
-      "pali": "‘yaṁ kiñci vedayitaṁ taṁ dukkhasmin’ti. ",
-      "english": ""
-    },
-    {
-      "number": 27,
-      "pali": "Atha kho pana, bhikkhu, mayā anupubbasaṅkhārānaṁ nirodho akkhāto. ",
-      "english": "But I have also explained the progressive cessation of activities. "
-    },
-    {
-      "number": 28,
-      "pali": "Paṭhamaṁ jhānaṁ samāpannassa vācā niruddhā hoti. ",
-      "english": "For someone who has attained the first absorption, speech has ceased. "
-    },
-    {
-      "number": 29,
-      "pali": "Dutiyaṁ jhānaṁ samāpannassa vitakkavicārā niruddhā honti. ",
-      "english": "For someone who has attained the second absorption, the placing of the mind and keeping it connected have ceased. "
-    },
-    {
-      "number": 30,
-      "pali": "Tatiyaṁ jhānaṁ samāpannassa pīti niruddhā hoti. ",
-      "english": "For someone who has attained the third absorption, rapture has ceased. "
-    },
-    {
-      "number": 31,
-      "pali": "Catutthaṁ jhānaṁ samāpannassa assāsapassāsā niruddhā honti. ",
-      "english": "For someone who has attained the fourth absorption, breathing has ceased. "
-    },
-    {
-      "number": 32,
-      "pali": "Ākāsānañcāyatanaṁ samāpannassa rūpasaññā niruddhā hoti. ",
-      "english": "For someone who has attained the dimension of infinite space, the perception of form has ceased. "
-    },
-    {
-      "number": 33,
-      "pali": "Viññāṇañcāyatanaṁ samāpannassa ākāsānañcāyatanasaññā niruddhā hoti. ",
-      "english": "For someone who has attained the dimension of infinite consciousness, the perception of the dimension of infinite space has ceased. "
-    },
-    {
-      "number": 34,
-      "pali": "Ākiñcaññāyatanaṁ samāpannassa viññāṇañcāyatanasaññā niruddhā hoti. ",
-      "english": "For someone who has attained the dimension of nothingness, the perception of the dimension of infinite consciousness has ceased. "
-    },
-    {
-      "number": 35,
-      "pali": "Nevasaññānāsaññāyatanaṁ samāpannassa ākiñcaññāyatanasaññā niruddhā hoti. ",
-      "english": "For someone who has attained the dimension of neither perception nor non-perception, the perception of the dimension of nothingness has ceased. "
-    },
-    {
-      "number": 36,
-      "pali": "Saññāvedayitanirodhaṁ samāpannassa saññā ca vedanā ca niruddhā honti. ",
-      "english": "For someone who has attained the cessation of perception and feeling, perception and feeling have ceased. "
-    },
-    {
-      "number": 37,
-      "pali": "Khīṇāsavassa bhikkhuno rāgo niruddho hoti, doso niruddho hoti, moho niruddho hoti. ",
-      "english": "For a mendicant who has ended the defilements, greed, hate, and delusion have ceased. "
-    },
-    {
-      "number": 38,
-      "pali": "Atha kho, bhikkhu, mayā anupubbasaṅkhārānaṁ vūpasamo akkhāto. ",
-      "english": "And I have also explained the progressive settling of activities. "
-    },
-    {
-      "number": 39,
-      "pali": "Paṭhamaṁ jhānaṁ samāpannassa vācā vūpasantā hoti. ",
-      "english": "For someone who has attained the first absorption, speech has stilled. "
-    },
-    {
-      "number": 40,
-      "pali": "Dutiyaṁ jhānaṁ samāpannassa vitakkavicārā vūpasantā honti …pe… ",
-      "english": "For someone who has attained the second absorption, the placing of the mind and keeping it connected have stilled. … "
-    },
-    {
-      "number": 41,
-      "pali": "saññāvedayitanirodhaṁ samāpannassa saññā ca vedanā ca vūpasantā honti. ",
-      "english": "For someone who has attained the cessation of perception and feeling, perception and feeling have stilled. "
-    },
-    {
-      "number": 42,
-      "pali": "Khīṇāsavassa bhikkhuno rāgo vūpasanto hoti, doso vūpasanto hoti, moho vūpasanto hoti. ",
-      "english": "For a mendicant who has ended the defilements, greed, hate, and delusion have stilled. "
-    },
-    {
-      "number": 43,
-      "pali": "Chayimā, bhikkhu, passaddhiyo. ",
-      "english": "There are these six levels of tranquility. "
-    },
-    {
-      "number": 44,
-      "pali": "Paṭhamaṁ jhānaṁ samāpannassa vācā paṭippassaddhā hoti. ",
-      "english": "For someone who has attained the first absorption, speech has been tranquilized. "
-    },
-    {
-      "number": 45,
-      "pali": "Dutiyaṁ jhānaṁ samāpannassa vitakkavicārā paṭippassaddhā honti. ",
-      "english": "For someone who has attained the second absorption, the placing of the mind and keeping it connected have been tranquilized. "
-    },
-    {
-      "number": 46,
-      "pali": "Tatiyaṁ jhānaṁ samāpannassa pīti paṭippassaddhā hoti. ",
-      "english": "For someone who has attained the third absorption, rapture has been tranquilized. "
-    },
-    {
-      "number": 47,
-      "pali": "Catutthaṁ jhānaṁ samāpannassa assāsapassāsā paṭippassaddhā honti. ",
-      "english": "For someone who has attained the fourth absorption, breathing has been tranquilized. "
-    },
-    {
-      "number": 48,
-      "pali": "Saññāvedayitanirodhaṁ samāpannassa saññā ca vedanā ca paṭippassaddhā honti. ",
-      "english": "For someone who has attained the cessation of perception and feeling, perception and feeling have been tranquilized. "
-    },
-    {
-      "number": 49,
-      "pali": "Khīṇāsavassa bhikkhuno rāgo paṭippassaddho hoti, doso paṭippassaddho hoti, moho paṭippassaddho hotī”ti. ",
-      "english": "For a mendicant who has ended the defilements, greed, hate, and delusion have been tranquilized.” "
-    },
-    {
-      "number": 50,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“There are these six calmings. When one has attained the first jhāna, speech has been calmed. When one has attained the second jhāna, directed thought & evaluation have been calmed. When one has attained the third jhāna, rapture has been calmed. When one has attained the fourth jhāna, in-and-out breathing has been calmed. When one has attained the cessation of perception & feeling, perception & feeling have been calmed. When a monk’s effluents have ended, passion has been calmed, aversion has been calmed, delusion has been calmed.”"
     }
   ]
 }

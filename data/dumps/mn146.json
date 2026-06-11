@@ -3,1808 +3,433 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Majjhima Nikāya 146 ",
-      "english": "Middle Discourses 146 "
+      "pali": "Middle Length Discourses 146",
+      "english": "Middle Length Discourses 146"
     },
     {
       "number": 2,
-      "pali": "Nandakovādasutta ",
-      "english": "Advice from Nandaka "
+      "pali": "Nandakovāda Sutta",
+      "english": "Nandaka’s Exhortation"
     },
     {
       "number": 3,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. Then Mahāpajāpati Gotamī, together with about 500 other nuns, went to the Blessed One and, on arrival, having bowed down to him, stood to one side. As she was standing there she said to him, “Lord, may the Blessed One exhort the nuns. Lord, may the Blessed One instruct the nuns. Lord, may the Blessed One give the nuns a talk on Dhamma.”"
     },
     {
       "number": 4,
-      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
-      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+      "pali": "",
+      "english": "Now at that time the elder monks were taking turns in exhorting the nuns, but Ven. Nandaka didn’t want to exhort the nuns when his turn came. So the Blessed One addressed Ven. Ānanda: “Ānanda, whose turn is it to exhort the nuns today?”"
     },
     {
       "number": 5,
-      "pali": "Atha kho mahāpajāpatigotamī pañcamattehi bhikkhunisatehi saddhiṁ yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhitā kho mahāpajāpatigotamī bhagavantaṁ etadavoca: ",
-      "english": "Then Mahāpajāpati Gotamī together with around five hundred nuns approached the Buddha, bowed, stood to one side, and said to him, "
+      "pali": "",
+      "english": "“Lord, everyone has taken his turn in exhorting the nuns, except for Ven. Nandaka, here, who doesn’t want to exhort the nuns when his turn comes.”"
     },
     {
       "number": 6,
-      "pali": "“ovadatu, bhante, bhagavā bhikkhuniyo; ",
-      "english": "“Sir, may the Buddha please advise "
+      "pali": "",
+      "english": "Then the Blessed One addressed Ven. Nandaka: “Exhort the nuns, Nandaka. Instruct the nuns, Nandaka. Give the nuns a talk on Dhamma, you brahman.”"
     },
     {
       "number": 7,
-      "pali": "anusāsatu, bhante, bhagavā bhikkhuniyo; ",
-      "english": "and instruct the nuns. "
+      "pali": "",
+      "english": "“As you say, lord,” Ven. Nandaka responded to the Blessed One. Then, early in the morning—having adjusted his lower robe and taking his bowl & outer robe—he went into Sāvatthī for alms. After his meal, on returning from his alms round, he went with a companion to Rājaka Park. The nuns saw him coming from afar and, on seeing him, arranged a seat and set out water for his feet. Ven. Nandaka sat down on the arranged seat and washed his feet. The nuns, having bowed down to him, sat to one side."
     },
     {
       "number": 8,
-      "pali": "karotu, bhante, bhagavā bhikkhunīnaṁ dhammiṁ kathan”ti. ",
-      "english": "Please give the nuns a Dhamma talk.” "
+      "pali": "",
+      "english": "As they were sitting there, Ven. Nandaka said to them: “This will be a question-response talk, sisters. Where you understand, you should say, ‘We understand.’ Where you don’t, you should say, ‘We don’t understand.’ Where you are doubtful or perplexed, you should question me in response: ‘How is this, venerable sir? What is the meaning of this?’”"
     },
     {
       "number": 9,
-      "pali": "Tena kho pana samayena therā bhikkhū bhikkhuniyo ovadanti pariyāyena. ",
-      "english": "Now at that time the senior monks were taking turns to advise the nuns. "
+      "pali": "",
+      "english": "“Venerable sir, we are gratified & delighted that you invite us in this way.”"
     },
     {
       "number": 10,
-      "pali": "Āyasmā nandako na icchati bhikkhuniyo ovadituṁ pariyāyena. ",
-      "english": "But Venerable Nandaka didn’t want to take his turn. "
+      "pali": "",
+      "english": "“So then, sisters, what do you think? Is the eye constant or inconstant?”"
     },
     {
       "number": 11,
-      "pali": "Atha kho bhagavā āyasmantaṁ ānandaṁ āmantesi: ",
-      "english": "Then the Buddha said to Venerable Ānanda, "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.”"
     },
     {
       "number": 12,
-      "pali": "“kassa nu kho, ānanda, ajja pariyāyo bhikkhuniyo ovadituṁ pariyāyenā”ti? ",
-      "english": "“Ānanda, whose turn is it to advise the nuns today?” "
+      "pali": "",
+      "english": "“And is that which is inconstant easeful or stressful?”"
     },
     {
       "number": 13,
-      "pali": "“Sabbeheva, bhante, kato pariyāyo bhikkhuniyo ovadituṁ pariyāyena. ",
-      "english": "“It’s Nandaka’s turn, sir, "
+      "pali": "",
+      "english": "“Stressful, venerable sir.”"
     },
     {
       "number": 14,
-      "pali": "Ayaṁ, bhante, āyasmā nandako na icchati bhikkhuniyo ovadituṁ pariyāyenā”ti. ",
-      "english": "but he doesn’t want to do it.” "
+      "pali": "",
+      "english": "“And is it fitting to regard what is inconstant, stressful, subject to change as: ‘This is mine. This is my self. This is what I am’?”"
     },
     {
       "number": 15,
-      "pali": "Atha kho bhagavā āyasmantaṁ nandakaṁ āmantesi: ",
-      "english": "Then the Buddha said to Nandaka, "
+      "pali": "",
+      "english": "“No, venerable sir.”"
     },
     {
       "number": 16,
-      "pali": "“ovada, nandaka, bhikkhuniyo; ",
-      "english": "“Nandaka, please advise "
+      "pali": "",
+      "english": "“… Is the ear constant or inconstant?”"
     },
     {
       "number": 17,
-      "pali": "anusāsa, nandaka, bhikkhuniyo; ",
-      "english": "and instruct the nuns. "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 18,
-      "pali": "karohi tvaṁ, brāhmaṇa, bhikkhunīnaṁ dhammiṁ kathan”ti. ",
-      "english": "Please, brahmin, give the nuns a Dhamma talk.” "
+      "pali": "",
+      "english": "“… Is the nose constant or inconstant?”"
     },
     {
       "number": 19,
-      "pali": "“Evaṁ, bhante”ti kho āyasmā nandako bhagavato paṭissutvā pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya sāvatthiṁ piṇḍāya pāvisi. ",
-      "english": "“Yes, sir,” replied Nandaka. Then, in the morning, he robed up and, taking his bowl and robe, entered Sāvatthī for alms. "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 20,
-      "pali": "Sāvatthiyaṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto attadutiyo yena rājakārāmo tenupasaṅkami. ",
-      "english": "He wandered for alms in Sāvatthī. After the meal, on his return from almsround, he went to the Royal Monastery with a companion. "
+      "pali": "",
+      "english": "“… Is the tongue constant or inconstant?”"
     },
     {
       "number": 21,
-      "pali": "Addasaṁsu kho tā bhikkhuniyo āyasmantaṁ nandakaṁ dūratova āgacchantaṁ. ",
-      "english": "Those nuns saw him coming off in the distance, "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 22,
-      "pali": "Disvāna āsanaṁ paññāpesuṁ, udakañca pādānaṁ upaṭṭhapesuṁ. ",
-      "english": "so they spread out a seat and placed water for washing the feet. "
+      "pali": "",
+      "english": "“… Is the body constant or inconstant?”"
     },
     {
       "number": 23,
-      "pali": "Nisīdi kho āyasmā nandako paññatte āsane. ",
-      "english": "Nandaka sat down on the seat spread out, "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 24,
-      "pali": "Nisajja pāde pakkhālesi. ",
-      "english": "and washed his feet. "
+      "pali": "",
+      "english": "“What do you think, sisters? Is the intellect constant or inconstant?”"
     },
     {
       "number": 25,
-      "pali": "Tāpi kho bhikkhuniyo āyasmantaṁ nandakaṁ abhivādetvā ekamantaṁ nisīdiṁsu. ",
-      "english": "Those nuns bowed, and sat down to one side. "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.”"
     },
     {
       "number": 26,
-      "pali": "Ekamantaṁ nisinnā kho tā bhikkhuniyo āyasmā nandako etadavoca: ",
-      "english": "Nandaka said to them, "
+      "pali": "",
+      "english": "“And is that which is inconstant easeful or stressful?”"
     },
     {
       "number": 27,
-      "pali": "“paṭipucchakathā kho, bhaginiyo, bhavissati. ",
-      "english": "“Sisters, this talk shall be in the form of questions. "
+      "pali": "",
+      "english": "“Stressful, venerable sir.”"
     },
     {
       "number": 28,
-      "pali": "Tattha ājānantīhi: ‘ājānāmā’ tissa vacanīyaṁ, na ājānantīhi: ‘na ājānāmā’ tissa vacanīyaṁ. ",
-      "english": "When you understand, say so. When you don’t understand, say so. "
+      "pali": "",
+      "english": "“And is it fitting to regard what is inconstant, stressful, subject to change as: ‘This is mine. This is my self. This is what I am’?”"
     },
     {
       "number": 29,
-      "pali": "Yassā vā panassa kaṅkhā vā vimati vā ahameva tattha paṭipucchitabbo: ",
-      "english": "If anyone has a doubt or uncertainty, ask me about it: "
+      "pali": "",
+      "english": "“No, venerable sir. Why is that? Because we have already seen it well as it has come to be, with right discernment, that these six internal media are inconstant.”"
     },
     {
       "number": 30,
-      "pali": "‘idaṁ, bhante, kathaṁ; imassa kvattho’”ti? ",
-      "english": "‘Why, sir, does it say this? What does that mean?’” "
+      "pali": "",
+      "english": "“Good, good, sisters. That’s how it is for a disciple of the noble ones who has seen it as it has come to be with right discernment."
     },
     {
       "number": 31,
-      "pali": "“Ettakenapi mayaṁ, bhante, ayyassa nandakassa attamanā abhiraddhā yaṁ no ayyo nandako pavāretī”ti. ",
-      "english": "“We’re already delighted and satisfied with Master Nandaka, since he invites us like this.” "
+      "pali": "",
+      "english": "“Now what do you think, sisters? Are forms constant or inconstant?” “Inconstant, venerable sir.” “And is that which is inconstant easeful or stressful?” “Stressful, venerable sir.” “And is it fitting to regard what is inconstant, stressful, subject to change as: ‘This is mine. This is my self. This is what I am’?”"
     },
     {
       "number": 32,
-      "pali": "“Taṁ kiṁ maññatha, bhaginiyo, ",
-      "english": "“What do you think, sisters? "
+      "pali": "",
+      "english": "“No, venerable sir.”"
     },
     {
       "number": 33,
-      "pali": "cakkhu niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "Is the eye permanent or impermanent?” "
+      "pali": "",
+      "english": "“… Are sounds constant or inconstant?”"
     },
     {
       "number": 34,
-      "pali": "“Aniccaṁ, bhante”. ",
-      "english": "“Impermanent, sir.” "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 35,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+      "pali": "",
+      "english": "“… Are aromas constant or inconstant?”"
     },
     {
       "number": 36,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": "“Suffering, sir.” "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 37,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+      "pali": "",
+      "english": "“… Are flavors constant or inconstant?”"
     },
     {
       "number": 38,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": "‘This is mine, I am this, this is my self’?” "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 39,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
+      "pali": "",
+      "english": "“… Are tactile sensations constant or inconstant?”"
     },
     {
       "number": 40,
-      "pali": "“Taṁ kiṁ maññatha, bhaginiyo, ",
-      "english": "“What do you think, sisters? "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 41,
-      "pali": "sotaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "Is the ear … "
+      "pali": "",
+      "english": "“What do you think, sisters? Are ideas constant or inconstant?”"
     },
     {
       "number": 42,
-      "pali": "“Aniccaṁ, bhante …pe… ",
-      "english": ""
+      "pali": "",
+      "english": "“Inconstant, venerable sir.”"
     },
     {
       "number": 43,
-      "pali": "ghānaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "nose … "
+      "pali": "",
+      "english": "“And is that which is inconstant easeful or stressful?”"
     },
     {
       "number": 44,
-      "pali": "“Aniccaṁ, bhante” … ",
-      "english": ""
+      "pali": "",
+      "english": "“Stressful, venerable sir.”"
     },
     {
       "number": 45,
-      "pali": "“jivhā niccā vā aniccā vā”ti? ",
-      "english": "tongue … "
+      "pali": "",
+      "english": "“And is it fitting to regard what is inconstant, stressful, subject to change as: ‘This is mine. This is my self. This is what I am’?”"
     },
     {
       "number": 46,
-      "pali": "“Aniccā, bhante” … ",
-      "english": ""
+      "pali": "",
+      "english": "“No, venerable sir. Why is that? Because we have already seen it well as it has come to be, with right discernment, that these six external media are also inconstant.”"
     },
     {
       "number": 47,
-      "pali": "“kāyo nicco vā anicco vā”ti? ",
-      "english": "body … "
+      "pali": "",
+      "english": "“Good, good, sisters. That’s how it is for a disciple of the noble ones who has seen it as it has come to be with right discernment."
     },
     {
       "number": 48,
-      "pali": "“Anicco, bhante” … ",
-      "english": ""
+      "pali": "",
+      "english": "“Now what do you think, sisters? Is eye-consciousness constant or inconstant?”"
     },
     {
       "number": 49,
-      "pali": "“mano nicco vā anicco vā”ti? ",
-      "english": "mind permanent or impermanent?” "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.”"
     },
     {
       "number": 50,
-      "pali": "“Anicco, bhante”. ",
-      "english": "“Impermanent, sir.” "
+      "pali": "",
+      "english": "“And is that which is inconstant easeful or stressful?”"
     },
     {
       "number": 51,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": "“But if it’s impermanent, is it suffering or happiness?” "
+      "pali": "",
+      "english": "“Stressful, venerable sir.”"
     },
     {
       "number": 52,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": "“Suffering, sir.” "
+      "pali": "",
+      "english": "“And is it fitting to regard what is inconstant, stressful, subject to change as: ‘This is mine. This is my self. This is what I am’?”"
     },
     {
       "number": 53,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
+      "pali": "",
+      "english": "“No, venerable sir.”"
     },
     {
       "number": 54,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": "‘This is mine, I am this, this is my self’?” "
+      "pali": "",
+      "english": "“… Is ear-consciousness constant or inconstant?”"
     },
     {
       "number": 55,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir. "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 56,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": "Why is that? "
+      "pali": "",
+      "english": "“… Is nose-consciousness constant or inconstant?”"
     },
     {
       "number": 57,
-      "pali": "“Pubbeva no etaṁ, bhante, yathābhūtaṁ sammappaññāya sudiṭṭhaṁ: ",
-      "english": "Because we have already truly seen this with right wisdom: "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 58,
-      "pali": "‘itipime cha ajjhattikā āyatanā aniccā’”ti. ",
-      "english": "‘So these six interior sense fields are impermanent.’” "
+      "pali": "",
+      "english": "“… Is tongue-consciousness constant or inconstant?”"
     },
     {
       "number": 59,
-      "pali": "“Sādhu sādhu, bhaginiyo. ",
-      "english": "“Good, good, sisters! "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 60,
-      "pali": "Evañhetaṁ, bhaginiyo, hoti ariyasāvakassa yathābhūtaṁ sammappaññāya passato. ",
-      "english": "That’s how it is for a noble disciple who truly sees with right wisdom. "
+      "pali": "",
+      "english": "“… Is body-consciousness constant or inconstant?”"
     },
     {
       "number": 61,
-      "pali": "Taṁ kiṁ maññatha, bhaginiyo, ",
-      "english": "What do you think, sisters? "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.” …"
     },
     {
       "number": 62,
-      "pali": "rūpā niccā vā aniccā vā”ti? ",
-      "english": "Are sights permanent or impermanent?” "
+      "pali": "",
+      "english": "“What do you think, sisters? Is intellect-consciousness constant or inconstant?”"
     },
     {
       "number": 63,
-      "pali": "“Aniccā, bhante”. ",
-      "english": "“Impermanent, sir.” "
+      "pali": "",
+      "english": "“Inconstant, venerable sir.”"
     },
     {
       "number": 64,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": "“But if they’re impermanent, are they suffering or happiness?” "
+      "pali": "",
+      "english": "“And is that which is inconstant easeful or stressful?”"
     },
     {
       "number": 65,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": "“Suffering, sir.” "
+      "pali": "",
+      "english": "“Stressful, venerable sir.” “And is it fitting to regard what is inconstant, stressful, subject to change as: ‘This is mine. This is my self. This is what I am’?”"
     },
     {
       "number": 66,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": "“But if they’re impermanent, suffering, and perishable, are they fit to be regarded thus: "
+      "pali": "",
+      "english": "“No, venerable sir. Why is that? Because we have already seen it well as it has come to be, with right discernment, that these six consciousness-groups, too, are inconstant.”"
     },
     {
       "number": 67,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": "‘This is mine, I am this, this is my self’?” "
+      "pali": "",
+      "english": "“Good, good, sisters. That’s how it is for a disciple of the noble ones who has seen it as it has come to be with right discernment."
     },
     {
       "number": 68,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
+      "pali": "",
+      "english": "“Just as when the oil in a burning oil lamp is inconstant & subject to change, its wick is inconstant & subject to change, its flame is inconstant & subject to change, its light is inconstant & subject to change. If someone were to say, ‘The oil in that burning oil lamp is inconstant & subject to change, its wick is inconstant & subject to change, its flame is inconstant & subject to change, but as for its light, that is constant, everlasting, eternal, & not subject to change’: Would he be speaking rightly?”"
     },
     {
       "number": 69,
-      "pali": "“Taṁ kiṁ maññatha, bhaginiyo, ",
-      "english": "“What do you think, sisters? "
+      "pali": "",
+      "english": "“No, venerable sir. Why is that? Because the oil in that burning oil lamp is inconstant & subject to change, its wick is inconstant & subject to change, its flame is inconstant & subject to change, so how much more should its light be inconstant & subject to change.”"
     },
     {
       "number": 70,
-      "pali": "saddā niccā vā aniccā vā”ti? ",
-      "english": "Are sounds … "
+      "pali": "",
+      "english": "“In the same way, sisters, if someone were to say, ‘My six internal media are inconstant, but what I experience based on the six internal media—pleasure, pain, or neither pleasure nor pain—that is constant, everlasting, eternal, & not subject to change’: Would he be speaking rightly?”"
     },
     {
       "number": 71,
-      "pali": "“Aniccā, bhante …pe… ",
-      "english": ""
+      "pali": "",
+      "english": "“No, venerable sir. Why is that? Because each feeling arises dependent on its corresponding condition. With the cessation of its corresponding condition, it ceases.”"
     },
     {
       "number": 72,
-      "pali": "gandhā niccā vā aniccā vā”ti? ",
-      "english": "smells … "
+      "pali": "",
+      "english": "“Good, good, sisters. That’s how it is for a disciple of the noble ones who has seen it as it has come to be with right discernment."
     },
     {
       "number": 73,
-      "pali": "“Aniccā, bhante” … ",
-      "english": ""
+      "pali": "",
+      "english": "“Just as when the root of a great, standing tree—possessed of heartwood—is inconstant & subject to change, its trunk is inconstant & subject to change, its branches & foliage are inconstant & subject to change, its shadow is inconstant & subject to change. If someone were to say, ‘The root of that great, standing tree—possessed of heartwood—is inconstant & subject to change, its trunk is inconstant & subject to change, its branches & foliage are inconstant & subject to change, but as for its shadow, that is constant, everlasting, eternal, & not subject to change’: Would he be speaking rightly?”"
     },
     {
       "number": 74,
-      "pali": "“rasā niccā vā aniccā vā”ti? ",
-      "english": "tastes … "
+      "pali": "",
+      "english": "“No, venerable sir. Why is that? Because the root of that great, standing tree—possessed of heartwood—is inconstant & subject to change, its trunk is inconstant & subject to change, its branches & foliage are inconstant & subject to change, so how much more should its shadow be inconstant & subject to change.”"
     },
     {
       "number": 75,
-      "pali": "“Aniccā, bhante” … ",
-      "english": ""
+      "pali": "",
+      "english": "“In the same way, sisters, if someone were to say, ‘My six external media are inconstant, but what I experience based on the six external media—pleasure, pain, or neither pleasure nor pain—that is constant, everlasting, eternal, & not subject to change’: Would he be speaking rightly?”"
     },
     {
       "number": 76,
-      "pali": "“phoṭṭhabbā niccā vā aniccā vā”ti? ",
-      "english": "touches … "
+      "pali": "",
+      "english": "“No, venerable sir. Why is that? Because each feeling arises dependent on its corresponding condition. With the cessation of its corresponding condition, it ceases.”"
     },
     {
       "number": 77,
-      "pali": "“Aniccā, bhante” … ",
-      "english": ""
+      "pali": "",
+      "english": "“Good, good, sisters. That’s how it is for a disciple of the noble ones who has seen it as it has come to be with right discernment."
     },
     {
       "number": 78,
-      "pali": "“dhammā niccā vā aniccā vā”ti? ",
-      "english": "ideas permanent or impermanent?” "
+      "pali": "",
+      "english": "“Just as if a dexterous butcher or butcher’s apprentice, having killed a cow, were to carve it up with a sharp carving knife so that—without damaging the substance of the inner flesh, without damaging the substance of the outer hide—he would cut, sever, & detach only the skin muscles, connective tissues, & attachments in between. Having cut, severed, & detached the outer skin, and then covering the cow again with that very skin, if he were to say that the cow was joined to the skin just as it had been: Would he be speaking rightly?”"
     },
     {
       "number": 79,
-      "pali": "“Aniccā, bhante”. ",
-      "english": "“Impermanent, sir.” "
+      "pali": "",
+      "english": "“No, venerable sir. Why is that? Because if the dexterous butcher or butcher’s apprentice, having killed a cow, were to… cut, sever, & detach only the skin muscles, connective tissues, & attachments in between; and… having covered the cow again with that very skin, then no matter how much he might say that the cow was joined to the skin just as it had been, the cow would still be disjoined from the skin.“"
     },
     {
       "number": 80,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": "“But if they’re impermanent, are they suffering or happiness?” "
+      "pali": "",
+      "english": "“This simile, sisters, I have given to convey a message. The message is this: The substance of the inner flesh stands for the six internal media; the substance of the outer hide, for the six external media. The skin muscles, connective tissues, & attachments in between stand for passion & delight. And the sharp knife stands for noble discernment—the noble discernment that cuts, severs, & detaches the defilements, fetters, & bonds in between."
     },
     {
       "number": 81,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": "“Suffering, sir.” "
+      "pali": "",
+      "english": "“Sisters, there are these seven factors for awakening through whose development & pursuit a monk enters & remains in the effluent-free awareness-release & discernment-release, having directly known & realized them for himself right in the here & now. Which seven? There is the case where a monk develops mindfulness as a factor for awakening dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in relinquishment. He develops analysis of qualities as a factor for awakening… persistence as a factor for awakening… rapture as a factor for awakening… calm as a factor for awakening… concentration as a factor for awakening… equanimity as a factor for awakening dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in relinquishment. These are the seven factors for awakening through whose development & pursuit a monk enters & remains in the effluent-free awareness-release & discernment-release, having directly known & realized them for himself right in the here & now.”"
     },
     {
       "number": 82,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": "“But if they’re impermanent, suffering, and perishable, are they fit to be regarded thus: "
+      "pali": "",
+      "english": "Then, having exhorted the nuns with this exhortation, Ven. Nandaka dismissed them, saying, “Go, sisters. The time has come.” The nuns, delighting in and approving of Ven. Nandaka’s exhortation, got up from their seats, bowed down to him, circumambulated him—keeping him to the right—and went to the Blessed One. On arrival, having bowed down to the Blessed One, they stood to one side. As they were standing there, the Blessed One said to them, “Go, nuns. The time has come.” So the nuns, having bowed down to the Blessed One, circumambulated him—keeping him to the right—and departed."
     },
     {
       "number": 83,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": "‘This is mine, I am this, this is my self’?” "
+      "pali": "",
+      "english": "Then not long after the nuns’ departure the Blessed One addressed the monks: “Monks, just as on the uposatha day of the fourteenth, people at large are not doubtful or perplexed as to whether the moon is lacking or full, for it is clearly lacking ; in the same way, even though the nuns are gratified with Nandaka’s Dhamma-teaching, their resolves have not yet been fulfilled.” So he addressed Ven. Nandaka: “In that case, Nandaka, exhort the nuns again tomorrow with the exact same exhortation.”"
     },
     {
       "number": 84,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir. "
+      "pali": "",
+      "english": "“As you say, lord,” Ven. Nandaka replied. Then, after the night had passed, early in the morning—having adjusted his lower robe and taking his bowl & outer robe—he went into Sāvatthī for alms… [as before, up to:]"
     },
     {
       "number": 85,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": "Why is that? "
+      "pali": "",
+      "english": "Then not long after the nuns’ departure the Blessed One addressed the monks: “Monks, just as on the uposatha day of the fifteenth, people at large are not doubtful or perplexed as to whether the moon is lacking or full, for it is clearly full; in the same way, the nuns are gratified with Nandaka’s Dhamma-teaching, and their resolves have been fulfilled. Of these 500 nuns, the most backward is a stream-winner, not destined for the planes of deprivation, headed to self-awakening for sure.”"
     },
     {
       "number": 86,
-      "pali": "“Pubbeva no etaṁ, bhante, yathābhūtaṁ sammappaññāya sudiṭṭhaṁ: ",
-      "english": "Because we have already truly seen this with right wisdom: "
-    },
-    {
-      "number": 87,
-      "pali": "‘itipime cha bāhirā āyatanā aniccā’”ti. ",
-      "english": "‘So these six exterior sense fields are impermanent.’” "
-    },
-    {
-      "number": 88,
-      "pali": "“Sādhu sādhu, bhaginiyo. ",
-      "english": "“Good, good, sisters! "
-    },
-    {
-      "number": 89,
-      "pali": "Evañhetaṁ, bhaginiyo, hoti ariyasāvakassa yathābhūtaṁ sammappaññāya passato. ",
-      "english": "That’s how it is for a noble disciple who truly sees with right wisdom. "
-    },
-    {
-      "number": 90,
-      "pali": "Taṁ kiṁ maññatha, bhaginiyo, ",
-      "english": "What do you think, sisters? "
-    },
-    {
-      "number": 91,
-      "pali": "cakkhuviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "Is eye consciousness … "
-    },
-    {
-      "number": 92,
-      "pali": "“Aniccaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 93,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 94,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 95,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": ""
-    },
-    {
-      "number": 96,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": ""
-    },
-    {
-      "number": 97,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 98,
-      "pali": "“Taṁ kiṁ maññatha, bhaginiyo, sotaviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "ear consciousness … "
-    },
-    {
-      "number": 99,
-      "pali": "“Aniccaṁ, bhante …pe… ",
-      "english": ""
-    },
-    {
-      "number": 100,
-      "pali": "ghānaviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "nose consciousness … "
-    },
-    {
-      "number": 101,
-      "pali": "“Aniccaṁ, bhante” … ",
-      "english": ""
-    },
-    {
-      "number": 102,
-      "pali": "“jivhāviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "tongue consciousness … "
-    },
-    {
-      "number": 103,
-      "pali": "“Aniccaṁ, bhante” … ",
-      "english": ""
-    },
-    {
-      "number": 104,
-      "pali": "“kāyaviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "body consciousness … "
-    },
-    {
-      "number": 105,
-      "pali": "“Aniccaṁ, bhante” … ",
-      "english": ""
-    },
-    {
-      "number": 106,
-      "pali": "“manoviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "mind consciousness permanent or impermanent?” "
-    },
-    {
-      "number": 107,
-      "pali": "“Aniccaṁ, bhante”. ",
-      "english": "“Impermanent, sir.” "
-    },
-    {
-      "number": 108,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vāti”? ",
-      "english": "“But if it’s impermanent, is it suffering or happiness?” "
-    },
-    {
-      "number": 109,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": "“Suffering, sir.” "
-    },
-    {
-      "number": 110,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
-    },
-    {
-      "number": 111,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": "‘This is mine, I am this, this is my self’?” "
-    },
-    {
-      "number": 112,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir. "
-    },
-    {
-      "number": 113,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 114,
-      "pali": "“Pubbeva no etaṁ, bhante, yathābhūtaṁ sammappaññāya sudiṭṭhaṁ: ",
-      "english": "Because we have already truly seen this with right wisdom: "
-    },
-    {
-      "number": 115,
-      "pali": "‘itipime cha viññāṇakāyā aniccā’”ti. ",
-      "english": "‘So these six classes of consciousness are impermanent.’” "
-    },
-    {
-      "number": 116,
-      "pali": "“Sādhu sādhu, bhaginiyo. ",
-      "english": "“Good, good, sisters! "
-    },
-    {
-      "number": 117,
-      "pali": "Evañhetaṁ, bhaginiyo, hoti ariyasāvakassa yathābhūtaṁ sammappaññāya passato. ",
-      "english": "That’s how it is for a noble disciple who truly sees with right wisdom. "
-    },
-    {
-      "number": 118,
-      "pali": "Seyyathāpi, bhaginiyo, telappadīpassa jhāyato telampi aniccaṁ vipariṇāmadhammaṁ, vaṭṭipi aniccā vipariṇāmadhammā, accipi aniccā vipariṇāmadhammā, ābhāpi aniccā vipariṇāmadhammā. ",
-      "english": "Suppose there was an oil lamp burning. The oil, wick, flame, and light were all impermanent and perishable. "
-    },
-    {
-      "number": 119,
-      "pali": "Yo nu kho, bhaginiyo, evaṁ vadeyya: ",
-      "english": "Now, suppose someone was to say: "
-    },
-    {
-      "number": 120,
-      "pali": "‘amussa telappadīpassa jhāyato telampi aniccaṁ vipariṇāmadhammaṁ, vaṭṭipi aniccā vipariṇāmadhammā, accipi aniccā vipariṇāmadhammā; ",
-      "english": "‘While this oil lamp is burning, the oil, the wick, and the flame are all impermanent and perishable. "
-    },
-    {
-      "number": 121,
-      "pali": "yā ca khvāssa ābhā sā niccā dhuvā sassatā avipariṇāmadhammā’ti; ",
-      "english": "But the light is permanent, lasting, eternal, and imperishable.’ "
-    },
-    {
-      "number": 122,
-      "pali": "sammā nu kho so, bhaginiyo, vadamāno vadeyyā”ti? ",
-      "english": "Would they be speaking rightly?” "
-    },
-    {
-      "number": 123,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir. "
-    },
-    {
-      "number": 124,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 125,
-      "pali": "“Amussa hi, bhante, telappadīpassa jhāyato telampi aniccaṁ vipariṇāmadhammaṁ, vaṭṭipi aniccā vipariṇāmadhammā, accipi aniccā vipariṇāmadhammā; ",
-      "english": "Because that oil lamp’s oil, wick, and flame are all impermanent and perishable, "
-    },
-    {
-      "number": 126,
-      "pali": "pagevassa ābhā aniccā vipariṇāmadhammā”ti. ",
-      "english": "let alone the light.” "
-    },
-    {
-      "number": 127,
-      "pali": "“Evameva kho, bhaginiyo, yo nu kho evaṁ vadeyya: ",
-      "english": "“In the same way, suppose someone was to say: "
-    },
-    {
-      "number": 128,
-      "pali": "‘cha khome ajjhattikā āyatanā aniccā; ",
-      "english": "‘These six interior sense fields are impermanent. "
-    },
-    {
-      "number": 129,
-      "pali": "yañca kho cha ajjhattike āyatane paṭicca paṭisaṁvedeti sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā taṁ niccaṁ dhuvaṁ sassataṁ avipariṇāmadhamman’ti; ",
-      "english": "But the feeling—whether pleasant, painful, or neutral—that I experience due to these six interior sense fields is permanent, lasting, eternal, and imperishable.’ "
-    },
-    {
-      "number": 130,
-      "pali": "sammā nu kho so, bhaginiyo, vadamāno vadeyyā”ti? ",
-      "english": "Would they be speaking rightly?” "
-    },
-    {
-      "number": 131,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir. "
-    },
-    {
-      "number": 132,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 133,
-      "pali": "“Tajjaṁ tajjaṁ, bhante, paccayaṁ paṭicca tajjā tajjā vedanā uppajjanti. ",
-      "english": "Because each kind of feeling arises dependent on the corresponding condition. "
-    },
-    {
-      "number": 134,
-      "pali": "Tajjassa tajjassa paccayassa nirodhā tajjā tajjā vedanā nirujjhantī”ti. ",
-      "english": "When the corresponding condition ceases, the appropriate feeling ceases.” "
-    },
-    {
-      "number": 135,
-      "pali": "“Sādhu sādhu, bhaginiyo. ",
-      "english": "“Good, good, sisters! "
-    },
-    {
-      "number": 136,
-      "pali": "Evañhetaṁ, bhaginiyo, hoti ariyasāvakassa yathābhūtaṁ sammappaññāya passato. ",
-      "english": "That’s how it is for a noble disciple who truly sees with right wisdom. "
-    },
-    {
-      "number": 137,
-      "pali": "Seyyathāpi, bhaginiyo, mahato rukkhassa tiṭṭhato sāravato mūlampi aniccaṁ vipariṇāmadhammaṁ, khandhopi anicco vipariṇāmadhammo, sākhāpalāsampi aniccaṁ vipariṇāmadhammaṁ, chāyāpi aniccā vipariṇāmadhammā. ",
-      "english": "Suppose there was a large tree standing with heartwood. The roots, trunk, branches and leaves, and shadow were all impermanent and perishable. "
-    },
-    {
-      "number": 138,
-      "pali": "Yo nu kho, bhaginiyo, evaṁ vadeyya: ",
-      "english": "Now, suppose someone was to say: "
-    },
-    {
-      "number": 139,
-      "pali": "‘amussa mahato rukkhassa tiṭṭhato sāravato mūlampi aniccaṁ vipariṇāmadhammaṁ, khandhopi anicco vipariṇāmadhammo, sākhāpalāsampi aniccaṁ vipariṇāmadhammaṁ, yā ca khvāssa chāyā sā niccā dhuvā sassatā avipariṇāmadhammā’ti; ",
-      "english": "‘There’s a large tree standing with heartwood. The roots, trunk, and branches and leaves are all impermanent and perishable. But the shadow is permanent, lasting, eternal, and imperishable.’ "
-    },
-    {
-      "number": 140,
-      "pali": "sammā nu kho so, bhaginiyo, vadamāno vadeyyā”ti? ",
-      "english": "Would they be speaking rightly?” "
-    },
-    {
-      "number": 141,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir. "
-    },
-    {
-      "number": 142,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 143,
-      "pali": "“Amussa hi, bhante, mahato rukkhassa tiṭṭhato sāravato mūlampi aniccaṁ vipariṇāmadhammaṁ, khandhopi anicco vipariṇāmadhammo, sākhāpalāsampi aniccaṁ vipariṇāmadhammaṁ; ",
-      "english": "Because that large tree’s roots, trunk, and branches and leaves are all impermanent and perishable, "
-    },
-    {
-      "number": 144,
-      "pali": "pagevassa chāyā aniccā vipariṇāmadhammā”ti. ",
-      "english": "let alone the shadow.” "
-    },
-    {
-      "number": 145,
-      "pali": "“Evameva kho, bhaginiyo, yo nu kho evaṁ vadeyya: ",
-      "english": "“In the same way, suppose someone was to say: "
-    },
-    {
-      "number": 146,
-      "pali": "‘cha khome bāhirā āyatanā aniccā. ",
-      "english": "‘These six exterior sense fields are impermanent. "
-    },
-    {
-      "number": 147,
-      "pali": "Yañca kho cha bāhire āyatane paṭicca paṭisaṁvedeti sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā taṁ niccaṁ dhuvaṁ sassataṁ avipariṇāmadhamman’ti; ",
-      "english": "But the feeling—whether pleasant, painful, or neutral—that I experience due to these six exterior sense fields is permanent, lasting, eternal, and imperishable.’ "
-    },
-    {
-      "number": 148,
-      "pali": "sammā nu kho so, bhaginiyo, vadamāno vadeyyā”ti? ",
-      "english": "Would they be speaking rightly?” "
-    },
-    {
-      "number": 149,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir. "
-    },
-    {
-      "number": 150,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 151,
-      "pali": "“Tajjaṁ tajjaṁ, bhante, paccayaṁ paṭicca tajjā tajjā vedanā uppajjanti. ",
-      "english": "Because each kind of feeling arises dependent on the corresponding condition. "
-    },
-    {
-      "number": 152,
-      "pali": "Tajjassa tajjassa paccayassa nirodhā tajjā tajjā vedanā nirujjhantī”ti. ",
-      "english": "When the corresponding condition ceases, the appropriate feeling ceases.” "
-    },
-    {
-      "number": 153,
-      "pali": "“Sādhu sādhu, bhaginiyo. ",
-      "english": "“Good, good, sisters! "
-    },
-    {
-      "number": 154,
-      "pali": "Evañhetaṁ, bhaginiyo, hoti ariyasāvakassa yathābhūtaṁ sammappaññāya passato. ",
-      "english": "That’s how it is for a noble disciple who truly sees with right wisdom. "
-    },
-    {
-      "number": 155,
-      "pali": "Seyyathāpi, bhaginiyo, dakkho goghātako vā goghātakantevāsī vā gāviṁ vadhitvā tiṇhena govikantanena gāviṁ saṅkanteyya anupahacca antaraṁ maṁsakāyaṁ anupahacca bāhiraṁ cammakāyaṁ. ",
-      "english": "Suppose a deft butcher or their apprentice was to kill a cow and carve it with a sharp meat cleaver. Without damaging the flesh inside or the hide outside, "
-    },
-    {
-      "number": 156,
-      "pali": "Yaṁ yadeva tattha antarā vilimaṁsaṁ antarā nhāru antarā bandhanaṁ taṁ tadeva tiṇhena govikantanena sañchindeyya saṅkanteyya sampakanteyya samparikanteyya. ",
-      "english": "they’d cut, carve, sever, and slice through the connecting tendons, sinews, and ligaments with a sharp meat cleaver, "
-    },
-    {
-      "number": 157,
-      "pali": "Sañchinditvā saṅkantitvā sampakantitvā samparikantitvā vidhunitvā bāhiraṁ cammakāyaṁ teneva cammena taṁ gāviṁ paṭicchādetvā evaṁ vadeyya: ",
-      "english": "and then peel off the outer hide. Then they’d wrap that cow up in that very same hide and say: "
-    },
-    {
-      "number": 158,
-      "pali": "‘tathevāyaṁ gāvī saṁyuttā imināva cammenā’ti; ",
-      "english": "‘This cow is joined to its hide just like before.’ "
-    },
-    {
-      "number": 159,
-      "pali": "sammā nu kho so, bhaginiyo, vadamāno vadeyyā”ti? ",
-      "english": "Would they be speaking rightly?” "
-    },
-    {
-      "number": 160,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir. "
-    },
-    {
-      "number": 161,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 162,
-      "pali": "“Amu hi, bhante, dakkho goghātako vā goghātakantevāsī vā gāviṁ vadhitvā tiṇhena govikantanena gāviṁ saṅkanteyya anupahacca antaraṁ maṁsakāyaṁ anupahacca bāhiraṁ cammakāyaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 163,
-      "pali": "Yaṁ yadeva tattha antarā vilimaṁsaṁ antarā nhāru antarā bandhanaṁ taṁ tadeva tiṇhena govikantanena sañchindeyya saṅkanteyya sampakanteyya samparikanteyya. ",
-      "english": ""
-    },
-    {
-      "number": 164,
-      "pali": "Sañchinditvā saṅkantitvā sampakantitvā samparikantitvā vidhunitvā bāhiraṁ cammakāyaṁ teneva cammena taṁ gāviṁ paṭicchādetvā kiñcāpi so evaṁ vadeyya: ",
-      "english": "Because even if they wrap that cow up in that very same hide and say: "
-    },
-    {
-      "number": 165,
-      "pali": "‘tathevāyaṁ gāvī saṁyuttā imināva cammenā’ti; ",
-      "english": "‘This cow is joined to its hide just like before,’ "
-    },
-    {
-      "number": 166,
-      "pali": "atha kho sā gāvī visaṁyuttā teneva cammenā”ti. ",
-      "english": "still that cow is not joined to that hide.” "
-    },
-    {
-      "number": 167,
-      "pali": "“Upamā kho me ayaṁ, bhaginiyo, katā atthassa viññāpanāya. ",
-      "english": "“I’ve made up this simile to make a point. "
-    },
-    {
-      "number": 168,
-      "pali": "Ayamevettha attho; ",
-      "english": "And this is the point. "
-    },
-    {
-      "number": 169,
-      "pali": "‘antarā maṁsakāyo’ti kho, bhaginiyo, channetaṁ ajjhattikānaṁ āyatanānaṁ adhivacanaṁ; ",
-      "english": "‘The inner flesh’ is a term for the six interior sense fields. "
-    },
-    {
-      "number": 170,
-      "pali": "‘bāhiro cammakāyo’ti kho, bhaginiyo, channetaṁ bāhirānaṁ āyatanānaṁ adhivacanaṁ; ",
-      "english": "‘The outer hide’ is a term for the six exterior sense fields. "
-    },
-    {
-      "number": 171,
-      "pali": "‘antarā vilimaṁsaṁ, antarā nhāru, antarā bandhanan’ti kho, bhaginiyo, nandīrāgassetaṁ adhivacanaṁ; ",
-      "english": "‘The connecting tendons, sinews, and ligaments’ is a term for greed and relishing. "
-    },
-    {
-      "number": 172,
-      "pali": "‘tiṇhaṁ govikantanan’ti kho, bhaginiyo, ariyāyetaṁ paññāya adhivacanaṁ; ",
-      "english": "‘A sharp meat cleaver’ is a term for noble wisdom. "
-    },
-    {
-      "number": 173,
-      "pali": "yāyaṁ ariyā paññā antarā kilesaṁ antarā saṁyojanaṁ antarā bandhanaṁ sañchindati saṅkantati sampakantati samparikantati. ",
-      "english": "And it is that noble wisdom which cuts, carves, severs, and slices the connecting corruption, fetter, and bond. "
-    },
-    {
-      "number": 174,
-      "pali": "Satta kho panime, bhaginiyo, bojjhaṅgā, yesaṁ bhāvitattā bahulīkatattā bhikkhu āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. ",
-      "english": "Sisters, by developing and cultivating these seven awakening factors, a mendicant realizes the undefiled freedom of heart and freedom by wisdom in this very life. And they live having realized it with their own insight due to the ending of defilements. "
-    },
-    {
-      "number": 175,
-      "pali": "Katame satta? ",
-      "english": "What seven? "
-    },
-    {
-      "number": 176,
-      "pali": "Idha, bhaginiyo, bhikkhu satisambojjhaṅgaṁ bhāveti vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vossaggapariṇāmiṁ. ",
-      "english": "It’s when a mendicant develops the awakening factors of mindfulness, "
-    },
-    {
-      "number": 177,
-      "pali": "Dhammavicayasambojjhaṅgaṁ bhāveti …pe… ",
-      "english": "investigation of principles, "
-    },
-    {
-      "number": 178,
-      "pali": "vīriyasambojjhaṅgaṁ bhāveti … ",
-      "english": "energy, "
-    },
-    {
-      "number": 179,
-      "pali": "pītisambojjhaṅgaṁ bhāveti … ",
-      "english": "rapture, "
-    },
-    {
-      "number": 180,
-      "pali": "passaddhisambojjhaṅgaṁ bhāveti … ",
-      "english": "tranquility, "
-    },
-    {
-      "number": 181,
-      "pali": "samādhisambojjhaṅgaṁ bhāveti … ",
-      "english": "immersion, "
-    },
-    {
-      "number": 182,
-      "pali": "upekkhāsambojjhaṅgaṁ bhāveti vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vossaggapariṇāmiṁ. ",
-      "english": "and equanimity, which rely on seclusion, fading away, and cessation, and ripen as letting go. "
-    },
-    {
-      "number": 183,
-      "pali": "Ime kho, bhaginiyo, satta bojjhaṅgā, yesaṁ bhāvitattā bahulīkatattā bhikkhu āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharatī”ti. ",
-      "english": "It is by developing and cultivating these seven awakening factors that a mendicant realizes the undefiled freedom of heart and freedom by wisdom in this very life. And they live having realized it with their own insight due to the ending of defilements.” "
-    },
-    {
-      "number": 184,
-      "pali": "Atha kho āyasmā nandako tā bhikkhuniyo iminā ovādena ovaditvā uyyojesi: ",
-      "english": "Then after giving this advice to the nuns, Nandaka sent them off, saying, "
-    },
-    {
-      "number": 185,
-      "pali": "“gacchatha, bhaginiyo; kālo”ti. ",
-      "english": "“Go, sisters, it is time.” "
-    },
-    {
-      "number": 186,
-      "pali": "Atha kho tā bhikkhuniyo āyasmato nandakassa bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā āyasmantaṁ nandakaṁ abhivādetvā padakkhiṇaṁ katvā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhaṁsu. Ekamantaṁ ṭhitā kho tā bhikkhuniyo bhagavā etadavoca: ",
-      "english": "And then those nuns approved and agreed with what Nandaka had said. They got up from their seat, bowed, and respectfully circled him, keeping him on their right. Then they went up to the Buddha, bowed, and stood to one side. The Buddha said to them, "
-    },
-    {
-      "number": 187,
-      "pali": "“gacchatha, bhikkhuniyo; kālo”ti. ",
-      "english": "“Go, nuns, it is time.” "
-    },
-    {
-      "number": 188,
-      "pali": "Atha kho tā bhikkhuniyo bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā pakkamiṁsu. ",
-      "english": "Then those nuns bowed to the Buddha respectfully circled him, keeping him on their right, before leaving. "
-    },
-    {
-      "number": 189,
-      "pali": "Atha kho bhagavā acirapakkantīsu tāsu bhikkhunīsu bhikkhū āmantesi: ",
-      "english": "Soon after those nuns had left, the Buddha addressed the mendicants: "
-    },
-    {
-      "number": 190,
-      "pali": "“seyyathāpi, bhikkhave, tadahuposathe cātuddase na hoti bahuno janassa kaṅkhā vā vimati vā: ",
-      "english": "“Suppose, mendicants, it was the sabbath of the fourteenth day. You wouldn’t get lots of people "
-    },
-    {
-      "number": 191,
-      "pali": "‘ūno nu kho cando, puṇṇo nu kho cando’ti, atha kho ūno cando tveva hoti. ",
-      "english": "wondering whether the moon is full or not, since it is obviously not full. "
-    },
-    {
-      "number": 192,
-      "pali": "Evameva kho, bhikkhave, tā bhikkhuniyo nandakassa dhammadesanāya attamanā honti no ca kho paripuṇṇasaṅkappā”ti. ",
-      "english": "In the same way, those nuns were uplifted by Nandaka’s Dhamma teaching, but they still haven’t got all they wished for.” "
-    },
-    {
-      "number": 193,
-      "pali": "Atha kho bhagavā āyasmantaṁ nandakaṁ āmantesi: ",
-      "english": "Then the Buddha said to Nandaka, "
-    },
-    {
-      "number": 194,
-      "pali": "“tena hi tvaṁ, nandaka, svepi tā bhikkhuniyo tenevovādena ovadeyyāsī”ti. ",
-      "english": "“Well then, Nandaka, tomorrow you should give those nuns the same advice again.” "
-    },
-    {
-      "number": 195,
-      "pali": "“Evaṁ, bhante”ti kho āyasmā nandako bhagavato paccassosi. ",
-      "english": "“Yes, sir,” Nandaka replied. "
-    },
-    {
-      "number": 196,
-      "pali": "Atha kho āyasmā nandako tassā rattiyā accayena pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya sāvatthiṁ piṇḍāya pāvisi. ",
-      "english": "And the next day he went to those nuns, and all unfolded just like the previous day. "
-    },
-    {
-      "number": 197,
-      "pali": "Sāvatthiyaṁ piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto attadutiyo yena rājakārāmo tenupasaṅkami. ",
-      "english": ""
-    },
-    {
-      "number": 198,
-      "pali": "Addasaṁsu kho tā bhikkhuniyo āyasmantaṁ nandakaṁ dūratova āgacchantaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 199,
-      "pali": "Disvāna āsanaṁ paññāpesuṁ, udakañca pādānaṁ upaṭṭhapesuṁ. ",
-      "english": ""
-    },
-    {
-      "number": 200,
-      "pali": "Nisīdi kho āyasmā nandako paññatte āsane. ",
-      "english": ""
-    },
-    {
-      "number": 201,
-      "pali": "Nisajja pāde pakkhālesi. ",
-      "english": ""
-    },
-    {
-      "number": 202,
-      "pali": "Tāpi kho bhikkhuniyo āyasmantaṁ nandakaṁ abhivādetvā ekamantaṁ nisīdiṁsu. ",
-      "english": ""
-    },
-    {
-      "number": 203,
-      "pali": "Ekamantaṁ nisinnā kho tā bhikkhuniyo āyasmā nandako etadavoca: ",
-      "english": ""
-    },
-    {
-      "number": 204,
-      "pali": "“paṭipucchakathā kho, bhaginiyo, bhavissati. ",
-      "english": ""
-    },
-    {
-      "number": 205,
-      "pali": "Tattha ājānantīhi ‘ājānāmā’ tissa vacanīyaṁ, na ājānantīhi ‘na ājānāmā’ tissa vacanīyaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 206,
-      "pali": "Yassā vā panassa kaṅkhā vā vimati vā, ahameva tattha paṭipucchitabbo: ",
-      "english": ""
-    },
-    {
-      "number": 207,
-      "pali": "‘idaṁ, bhante, kathaṁ; imassa kvattho’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 208,
-      "pali": "“Ettakenapi mayaṁ, bhante, ayyassa nandakassa attamanā abhiraddhā yaṁ no ayyo nandako pavāretī”ti. ",
-      "english": ""
-    },
-    {
-      "number": 209,
-      "pali": "“Taṁ kiṁ maññatha, bhaginiyo, cakkhu niccaṁ vā aniccaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 210,
-      "pali": "“Aniccaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 211,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 212,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 213,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": ""
-    },
-    {
-      "number": 214,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": ""
-    },
-    {
-      "number": 215,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 216,
-      "pali": "“Taṁ kiṁ maññatha, bhaginiyo, sotaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 217,
-      "pali": "“Aniccaṁ, bhante …pe… ",
-      "english": ""
-    },
-    {
-      "number": 218,
-      "pali": "ghānaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 219,
-      "pali": "“Aniccaṁ, bhante … ",
-      "english": ""
-    },
-    {
-      "number": 220,
-      "pali": "jivhā … ",
-      "english": ""
-    },
-    {
-      "number": 221,
-      "pali": "kāyo … ",
-      "english": ""
-    },
-    {
-      "number": 222,
-      "pali": "mano nicco vā anicco vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 223,
-      "pali": "“Anicco, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 224,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 225,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 226,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": ""
-    },
-    {
-      "number": 227,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": ""
-    },
-    {
-      "number": 228,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 229,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": ""
-    },
-    {
-      "number": 230,
-      "pali": "“Pubbeva no etaṁ, bhante, yathābhūtaṁ sammappaññāya sudiṭṭhaṁ: ",
-      "english": ""
-    },
-    {
-      "number": 231,
-      "pali": "‘itipime cha ajjhattikā āyatanā aniccā’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 232,
-      "pali": "“Sādhu sādhu, bhaginiyo. ",
-      "english": ""
-    },
-    {
-      "number": 233,
-      "pali": "Evañhetaṁ, bhaginiyo, hoti ariyasāvakassa yathābhūtaṁ sammappaññāya passato. ",
-      "english": ""
-    },
-    {
-      "number": 234,
-      "pali": "Taṁ kiṁ maññatha, bhaginiyo, rūpā niccā vā aniccā vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 235,
-      "pali": "“Aniccā, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 236,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 237,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 238,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": ""
-    },
-    {
-      "number": 239,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": ""
-    },
-    {
-      "number": 240,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 241,
-      "pali": "“Taṁ kiṁ maññatha, bhaginiyo, saddā niccā vā aniccā vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 242,
-      "pali": "“Aniccā, bhante …pe… ",
-      "english": ""
-    },
-    {
-      "number": 243,
-      "pali": "gandhā niccā vā aniccā vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 244,
-      "pali": "“Aniccā, bhante … ",
-      "english": ""
-    },
-    {
-      "number": 245,
-      "pali": "rasā niccā vā aniccā vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 246,
-      "pali": "“Aniccā, bhante … ",
-      "english": ""
-    },
-    {
-      "number": 247,
-      "pali": "phoṭṭhabbā niccā vā aniccā vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 248,
-      "pali": "“Aniccā, bhante … ",
-      "english": ""
-    },
-    {
-      "number": 249,
-      "pali": "dhammā niccā vā aniccā vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 250,
-      "pali": "“Aniccā, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 251,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 252,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 253,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": ""
-    },
-    {
-      "number": 254,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": ""
-    },
-    {
-      "number": 255,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 256,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": ""
-    },
-    {
-      "number": 257,
-      "pali": "“Pubbeva no etaṁ, bhante, yathābhūtaṁ sammappaññāya sudiṭṭhaṁ: ",
-      "english": ""
-    },
-    {
-      "number": 258,
-      "pali": "‘itipime cha bāhirā āyatanā aniccā’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 259,
-      "pali": "“Sādhu sādhu, bhaginiyo. ",
-      "english": ""
-    },
-    {
-      "number": 260,
-      "pali": "Evañhetaṁ, bhaginiyo, hoti ariyasāvakassa yathābhūtaṁ sammappaññāya passato. ",
-      "english": ""
-    },
-    {
-      "number": 261,
-      "pali": "Taṁ kiṁ maññatha, bhaginiyo, cakkhuviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 262,
-      "pali": "“Aniccaṁ, bhante …pe… ",
-      "english": ""
-    },
-    {
-      "number": 263,
-      "pali": "sotaviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 264,
-      "pali": "“Aniccaṁ, bhante … ",
-      "english": ""
-    },
-    {
-      "number": 265,
-      "pali": "ghānaviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 266,
-      "pali": "“Aniccaṁ, bhante … ",
-      "english": ""
-    },
-    {
-      "number": 267,
-      "pali": "jivhāviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 268,
-      "pali": "“Aniccaṁ, bhante … ",
-      "english": ""
-    },
-    {
-      "number": 269,
-      "pali": "kāyaviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 270,
-      "pali": "“Aniccaṁ, bhante … ",
-      "english": ""
-    },
-    {
-      "number": 271,
-      "pali": "manoviññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 272,
-      "pali": "“Aniccaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 273,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 274,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 275,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": ""
-    },
-    {
-      "number": 276,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": ""
-    },
-    {
-      "number": 277,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 278,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": ""
-    },
-    {
-      "number": 279,
-      "pali": "“Pubbeva no etaṁ, bhante, yathābhūtaṁ sammappaññāya sudiṭṭhaṁ: ",
-      "english": ""
-    },
-    {
-      "number": 280,
-      "pali": "‘itipime cha viññāṇakāyā aniccā’”ti. ",
-      "english": ""
-    },
-    {
-      "number": 281,
-      "pali": "“Sādhu sādhu, bhaginiyo. ",
-      "english": ""
-    },
-    {
-      "number": 282,
-      "pali": "Evañhetaṁ, bhaginiyo, hoti ariyasāvakassa yathābhūtaṁ sammappaññāya passato. ",
-      "english": ""
-    },
-    {
-      "number": 283,
-      "pali": "Seyyathāpi, bhaginiyo, telappadīpassa jhāyato telampi aniccaṁ vipariṇāmadhammaṁ, vaṭṭipi aniccā vipariṇāmadhammā, accipi aniccā vipariṇāmadhammā, ābhāpi aniccā vipariṇāmadhammā. ",
-      "english": ""
-    },
-    {
-      "number": 284,
-      "pali": "Yo nu kho, bhaginiyo, evaṁ vadeyya: ",
-      "english": ""
-    },
-    {
-      "number": 285,
-      "pali": "‘amussa telappadīpassa jhāyato telampi aniccaṁ vipariṇāmadhammaṁ, vaṭṭipi aniccā vipariṇāmadhammā, accipi aniccā vipariṇāmadhammā; ",
-      "english": ""
-    },
-    {
-      "number": 286,
-      "pali": "yā ca khvāssa ābhā sā niccā dhuvā sassatā avipariṇāmadhammā’ti; ",
-      "english": ""
-    },
-    {
-      "number": 287,
-      "pali": "sammā nu kho so, bhaginiyo, vadamāno vadeyyā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 288,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 289,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": ""
-    },
-    {
-      "number": 290,
-      "pali": "“Amussa hi, bhante, telappadīpassa jhāyato telampi aniccaṁ vipariṇāmadhammaṁ, vaṭṭipi aniccā vipariṇāmadhammā, accipi aniccā vipariṇāmadhammā; ",
-      "english": ""
-    },
-    {
-      "number": 291,
-      "pali": "pagevassa ābhā aniccā vipariṇāmadhammā”ti. ",
-      "english": ""
-    },
-    {
-      "number": 292,
-      "pali": "“Evameva kho, bhaginiyo, yo nu kho evaṁ vadeyya: ",
-      "english": ""
-    },
-    {
-      "number": 293,
-      "pali": "‘cha khome ajjhattikā āyatanā aniccā. ",
-      "english": ""
-    },
-    {
-      "number": 294,
-      "pali": "Yañca kho cha ajjhattike āyatane paṭicca paṭisaṁvedeti sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā taṁ niccaṁ dhuvaṁ sassataṁ avipariṇāmadhamman’ti; ",
-      "english": ""
-    },
-    {
-      "number": 295,
-      "pali": "sammā nu kho so, bhaginiyo, vadamāno vadeyyā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 296,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 297,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": ""
-    },
-    {
-      "number": 298,
-      "pali": "“Tajjaṁ tajjaṁ, bhante, paccayaṁ paṭicca tajjā tajjā vedanā uppajjanti. ",
-      "english": ""
-    },
-    {
-      "number": 299,
-      "pali": "Tajjassa tajjassa paccayassa nirodhā tajjā tajjā vedanā nirujjhantī”ti. ",
-      "english": ""
-    },
-    {
-      "number": 300,
-      "pali": "“Sādhu sādhu, bhaginiyo. ",
-      "english": ""
-    },
-    {
-      "number": 301,
-      "pali": "Evañhetaṁ, bhaginiyo, hoti ariyasāvakassa yathābhūtaṁ sammappaññāya passato. ",
-      "english": ""
-    },
-    {
-      "number": 302,
-      "pali": "Seyyathāpi, bhaginiyo, mahato rukkhassa tiṭṭhato sāravato mūlampi aniccaṁ vipariṇāmadhammaṁ, khandhopi anicco vipariṇāmadhammo, sākhāpalāsampi aniccaṁ vipariṇāmadhammaṁ, chāyāpi aniccā vipariṇāmadhammā. ",
-      "english": ""
-    },
-    {
-      "number": 303,
-      "pali": "Yo nu kho, bhaginiyo, evaṁ vadeyya: ",
-      "english": ""
-    },
-    {
-      "number": 304,
-      "pali": "‘amussa mahato rukkhassa tiṭṭhato sāravato mūlampi aniccaṁ vipariṇāmadhammaṁ, khandhopi anicco vipariṇāmadhammo, sākhāpalāsampi aniccaṁ vipariṇāmadhammaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 305,
-      "pali": "yā ca khvāssa chāyā sā niccā dhuvā sassatā avipariṇāmadhammā’ti; ",
-      "english": ""
-    },
-    {
-      "number": 306,
-      "pali": "sammā nu kho so bhaginiyo, vadamāno vadeyyā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 307,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 308,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": ""
-    },
-    {
-      "number": 309,
-      "pali": "“Amussa hi, bhante, mahato rukkhassa tiṭṭhato sāravato mūlampi aniccaṁ vipariṇāmadhammaṁ, khandhopi anicco vipariṇāmadhammo, sākhāpalāsampi aniccaṁ vipariṇāmadhammaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 310,
-      "pali": "pagevassa chāyā aniccā vipariṇāmadhammā”ti. ",
-      "english": ""
-    },
-    {
-      "number": 311,
-      "pali": "“Evameva kho, bhaginiyo, yo nu kho evaṁ vadeyya: ",
-      "english": ""
-    },
-    {
-      "number": 312,
-      "pali": "‘cha khome bāhirā āyatanā aniccā. ",
-      "english": ""
-    },
-    {
-      "number": 313,
-      "pali": "Yañca kho bāhire āyatane paṭicca paṭisaṁvedeti sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā taṁ niccaṁ dhuvaṁ sassataṁ avipariṇāmadhamman’ti; ",
-      "english": ""
-    },
-    {
-      "number": 314,
-      "pali": "sammā nu kho so, bhaginiyo, vadamāno vadeyyā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 315,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 316,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": ""
-    },
-    {
-      "number": 317,
-      "pali": "“Tajjaṁ tajjaṁ, bhante, paccayaṁ paṭicca tajjā tajjā vedanā uppajjanti. ",
-      "english": ""
-    },
-    {
-      "number": 318,
-      "pali": "Tajjassa tajjassa paccayassa nirodhā tajjā tajjā vedanā nirujjhantī”ti. ",
-      "english": ""
-    },
-    {
-      "number": 319,
-      "pali": "“Sādhu sādhu, bhaginiyo. ",
-      "english": ""
-    },
-    {
-      "number": 320,
-      "pali": "Evañhetaṁ, bhaginiyo, hoti ariyasāvakassa yathābhūtaṁ sammappaññāya passato. ",
-      "english": ""
-    },
-    {
-      "number": 321,
-      "pali": "Seyyathāpi, bhaginiyo, dakkho goghātako vā goghātakantevāsī vā gāviṁ vadhitvā tiṇhena govikantanena gāviṁ saṅkanteyya anupahacca antaraṁ maṁsakāyaṁ anupahacca bāhiraṁ cammakāyaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 322,
-      "pali": "Yaṁ yadeva tattha antarā vilimaṁsaṁ antarā nhāru antarā bandhanaṁ taṁ tadeva tiṇhena govikantanena sañchindeyya saṅkanteyya sampakanteyya samparikanteyya. ",
-      "english": ""
-    },
-    {
-      "number": 323,
-      "pali": "Sañchinditvā saṅkantitvā sampakantitvā samparikantitvā vidhunitvā bāhiraṁ cammakāyaṁ teneva cammena taṁ gāviṁ paṭicchādetvā evaṁ vadeyya: ",
-      "english": ""
-    },
-    {
-      "number": 324,
-      "pali": "‘tathevāyaṁ gāvī saṁyuttā imināva cammenā’ti; ",
-      "english": ""
-    },
-    {
-      "number": 325,
-      "pali": "sammā nu kho so, bhaginiyo, vadamāno vadeyyā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 326,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 327,
-      "pali": "“Taṁ kissa hetu”? ",
-      "english": ""
-    },
-    {
-      "number": 328,
-      "pali": "“Amu hi, bhante, dakkho goghātako vā goghātakantevāsī vā gāviṁ vadhitvā tiṇhena govikantanena gāviṁ saṅkanteyya anupahacca antaraṁ maṁsakāyaṁ anupahacca bāhiraṁ cammakāyaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 329,
-      "pali": "Yaṁ yadeva tattha antarā vilimaṁsaṁ antarā nhāru antarā bandhanaṁ taṁ tadeva tiṇhena govikantanena sañchindeyya saṅkanteyya sampakanteyya samparikanteyya. ",
-      "english": ""
-    },
-    {
-      "number": 330,
-      "pali": "Sañchinditvā saṅkantitvā sampakantitvā samparikantitvā vidhunitvā bāhiraṁ cammakāyaṁ teneva cammena taṁ gāviṁ paṭicchādetvā kiñcāpi so evaṁ vadeyya: ",
-      "english": ""
-    },
-    {
-      "number": 331,
-      "pali": "‘tathevāyaṁ gāvī saṁyuttā imināva cammenā’ti; ",
-      "english": ""
-    },
-    {
-      "number": 332,
-      "pali": "atha kho sā gāvī visaṁyuttā teneva cammenā”ti. ",
-      "english": ""
-    },
-    {
-      "number": 333,
-      "pali": "“Upamā kho me ayaṁ, bhaginiyo, katā atthassa viññāpanāya ayamevettha attho. ",
-      "english": ""
-    },
-    {
-      "number": 334,
-      "pali": "‘Antarā maṁsakāyo’ti kho, bhaginiyo, channetaṁ ajjhattikānaṁ āyatanānaṁ adhivacanaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 335,
-      "pali": "‘bāhiro cammakāyo’ti kho, bhaginiyo, channetaṁ bāhirānaṁ āyatanānaṁ adhivacanaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 336,
-      "pali": "‘antarā vilimaṁsaṁ antarā nhāru antarā bandhanan’ti kho, bhaginiyo, nandīrāgassetaṁ adhivacanaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 337,
-      "pali": "‘tiṇhaṁ govikantanan’ti kho, bhaginiyo, ariyāyetaṁ paññāya adhivacanaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 338,
-      "pali": "yāyaṁ ariyā paññā antarā kilesaṁ antarā saṁyojanaṁ antarā bandhanaṁ sañchindati saṅkantati sampakantati samparikantati. ",
-      "english": ""
-    },
-    {
-      "number": 339,
-      "pali": "Satta kho panime, bhaginiyo, bojjhaṅgā, yesaṁ bhāvitattā bahulīkatattā bhikkhu āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. ",
-      "english": ""
-    },
-    {
-      "number": 340,
-      "pali": "Katame satta? ",
-      "english": ""
-    },
-    {
-      "number": 341,
-      "pali": "Idha, bhaginiyo, bhikkhu satisambojjhaṅgaṁ bhāveti vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vossaggapariṇāmiṁ. ",
-      "english": ""
-    },
-    {
-      "number": 342,
-      "pali": "Dhammavicayasambojjhaṅgaṁ bhāveti …pe… ",
-      "english": ""
-    },
-    {
-      "number": 343,
-      "pali": "vīriyasambojjhaṅgaṁ bhāveti … ",
-      "english": ""
-    },
-    {
-      "number": 344,
-      "pali": "pītisambojjhaṅgaṁ bhāveti … ",
-      "english": ""
-    },
-    {
-      "number": 345,
-      "pali": "passaddhisambojjhaṅgaṁ bhāveti … ",
-      "english": ""
-    },
-    {
-      "number": 346,
-      "pali": "samādhisambojjhaṅgaṁ bhāveti … ",
-      "english": ""
-    },
-    {
-      "number": 347,
-      "pali": "upekkhāsambojjhaṅgaṁ bhāveti vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vossaggapariṇāmiṁ. ",
-      "english": ""
-    },
-    {
-      "number": 348,
-      "pali": "Ime kho, bhaginiyo, satta bojjhaṅgā yesaṁ bhāvitattā bahulīkatattā bhikkhu āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharatī”ti. ",
-      "english": ""
-    },
-    {
-      "number": 349,
-      "pali": "Atha kho āyasmā nandako tā bhikkhuniyo iminā ovādena ovaditvā uyyojesi: ",
-      "english": ""
-    },
-    {
-      "number": 350,
-      "pali": "“gacchatha, bhaginiyo; kālo”ti. ",
-      "english": ""
-    },
-    {
-      "number": 351,
-      "pali": "Atha kho tā bhikkhuniyo āyasmato nandakassa bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā āyasmantaṁ nandakaṁ abhivādetvā padakkhiṇaṁ katvā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhaṁsu. Ekamantaṁ ṭhitā kho tā bhikkhuniyo bhagavā etadavoca: ",
-      "english": ""
-    },
-    {
-      "number": 352,
-      "pali": "“gacchatha, bhikkhuniyo; kālo”ti. ",
-      "english": ""
-    },
-    {
-      "number": 353,
-      "pali": "Atha kho tā bhikkhuniyo bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā pakkamiṁsu. ",
-      "english": ""
-    },
-    {
-      "number": 354,
-      "pali": "Atha kho bhagavā acirapakkantīsu tāsu bhikkhunīsu bhikkhū āmantesi: ",
-      "english": "Soon after those nuns had left, the Buddha addressed the mendicants: "
-    },
-    {
-      "number": 355,
-      "pali": "“seyyathāpi, bhikkhave, tadahuposathe pannarase na hoti bahuno janassa kaṅkhā vā vimati vā: ",
-      "english": "“Suppose, mendicants, it was the sabbath of the fifteenth day. You wouldn’t get lots of people "
-    },
-    {
-      "number": 356,
-      "pali": "‘ūno nu kho cando, puṇṇo nu kho cando’ti, atha kho puṇṇo cando tveva hoti; ",
-      "english": "wondering whether the moon is full or not, since it is obviously full. "
-    },
-    {
-      "number": 357,
-      "pali": "evameva kho, bhikkhave, tā bhikkhuniyo nandakassa dhammadesanāya attamanā ceva paripuṇṇasaṅkappā ca. ",
-      "english": "In the same way, those nuns were uplifted by Nandaka’s Dhamma teaching, and they got all they wished for. "
-    },
-    {
-      "number": 358,
-      "pali": "Tāsaṁ, bhikkhave, pañcannaṁ bhikkhunisatānaṁ yā pacchimikā bhikkhunī sā sotāpannā avinipātadhammā niyatā sambodhiparāyanā”ti. ",
-      "english": "Even the last of these five hundred nuns is a stream-enterer, not liable to be reborn in the underworld, assured, destined for awakening.” "
-    },
-    {
-      "number": 359,
-      "pali": "Idamavoca bhagavā. ",
-      "english": "That is what the Buddha said. "
-    },
-    {
-      "number": 360,
-      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
-      "english": "Satisfied, the mendicants approved what the Buddha said. "
-    },
-    {
-      "number": 361,
-      "pali": "Nandakovādasuttaṁ niṭṭhitaṁ catutthaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "That is what the Blessed One said. Gratified, the monks delighted in the Blessed One’s words."
     }
   ]
 }

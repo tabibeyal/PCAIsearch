@@ -3,163 +3,128 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 12.11 ",
-      "english": "Linked Discourses 12.11 "
+      "pali": "Linked Discourses 12.11",
+      "english": "Linked Discourses 12.11"
     },
     {
       "number": 2,
-      "pali": "2. Āhāravagga ",
-      "english": "2. Fuel "
+      "pali": "Āhāra Sutta",
+      "english": "Nutriment"
     },
     {
       "number": 3,
-      "pali": "Āhārasutta ",
-      "english": "Fuel "
+      "pali": "",
+      "english": "This discourse incorporates the teaching on the four nutriments (see SN 12:63–64 ) into the pattern for dependent co-arising, placing them in the position usually occupied by clinging: after craving and before becoming. Putting nutriment in this position highlights one of the connotations of the Pali word for clinging, upādāna, which can also mean “sustenance.” It also highlights one of the connotations of the Pali word for craving, taṇhā, which can also mean “thirst.”"
     },
     {
       "number": 4,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "The Commentary to this discourse tries to fit this teaching into the three-lifetime interpretation of dependent co-arising, emphasizing the role of the four nutriments in the mechanics of death and rebirth, but there is no need to limit the teaching to this interpretation. The teachings both in this discourse and in the following one show the complex interactions and feedback loops among the different factors of dependent co-arising, both between lifetimes and within a single lifetime—even a single moment. Craving is what takes material form, contact, intention, and consciousness—all of which precede it in the chain of dependent co-arising—and turns them into food for further becoming: continued becoming in this lifetime, and future becoming in the next."
     },
     {
       "number": 5,
-      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme … ",
-      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. … "
+      "pali": "",
+      "english": "I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. There he addressed the monks, “Monks, there are these four nutriments for the maintenance of beings who have come into being or for the support of those in search of a place to be born. Which four? Physical food, gross or refined; contact as the second; intellectual intention the third; and consciousness the fourth. These are the four nutriments for the maintenance of beings who have come into being or for the support of those in search of a place to be born."
     },
     {
       "number": 6,
-      "pali": "“cattārome, bhikkhave, āhārā bhūtānaṁ vā sattānaṁ ṭhitiyā sambhavesīnaṁ vā anuggahāya. ",
-      "english": "“Mendicants, these four fuels maintain sentient beings that have been born and help those about to be born. "
+      "pali": "",
+      "english": "“Now, these four nutriments have what as their cause, what as their origination, what as their source, what as that which brings them into play? These four nutriments have craving as their cause, craving as their origination, craving as their source, craving as that which brings them into play."
     },
     {
       "number": 7,
-      "pali": "Katame cattāro? ",
-      "english": "What four? "
+      "pali": "",
+      "english": "“And this craving has what as its cause, what as its origination, what as its source, what as that which brings it into play? … Feeling.…"
     },
     {
       "number": 8,
-      "pali": "Kabaḷīkāro āhāro oḷāriko vā sukhumo vā, phasso dutiyo, manosañcetanā tatiyā, viññāṇaṁ catutthaṁ. ",
-      "english": "Edible food, whether solid or subtle; contact is the second, mental intention the third, and consciousness the fourth. "
+      "pali": "",
+      "english": "“And this feeling has what as its cause…? … Contact.…"
     },
     {
       "number": 9,
-      "pali": "Ime kho, bhikkhave, cattāro āhārā bhūtānaṁ vā sattānaṁ ṭhitiyā sambhavesīnaṁ vā anuggahāya. ",
-      "english": "These are the four fuels that maintain sentient beings that have been born and help those about to be born. "
+      "pali": "",
+      "english": "“And this contact has what as its cause…? … The six sense media.…"
     },
     {
       "number": 10,
-      "pali": "Ime, bhikkhave, cattāro āhārā kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā? ",
-      "english": "What is the source, origin, birthplace, and inception of these four fuels? "
+      "pali": "",
+      "english": "“And these six sense media have what as their cause…? … Name-&-form.…"
     },
     {
       "number": 11,
-      "pali": "Ime cattāro āhārā taṇhānidānā taṇhāsamudayā taṇhājātikā taṇhāpabhavā. ",
-      "english": "Craving. "
+      "pali": "",
+      "english": "“And this name-&-form has what as its cause…? … Consciousness.…"
     },
     {
       "number": 12,
-      "pali": "Taṇhā cāyaṁ, bhikkhave, kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā? ",
-      "english": "And what is the source, origin, birthplace, and inception of craving? "
+      "pali": "",
+      "english": "“And this consciousness has what as its cause…? … Fabrication.…"
     },
     {
       "number": 13,
-      "pali": "Taṇhā vedanānidānā vedanāsamudayā vedanājātikā vedanāpabhavā. ",
-      "english": "Feeling. "
+      "pali": "",
+      "english": "“And this fabrication has what as its cause, what as its origination, what as its source, what as that which brings it into play? Fabrication has ignorance as its cause, ignorance as its origination, ignorance as its source, ignorance as that which brings it into play."
     },
     {
       "number": 14,
-      "pali": "Vedanā cāyaṁ, bhikkhave, kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā? ",
-      "english": "And what is the source of feeling? "
+      "pali": "",
+      "english": "“Thus, from ignorance as a requisite condition come fabrications."
     },
     {
       "number": 15,
-      "pali": "Vedanā phassanidānā phassasamudayā phassajātikā phassapabhavā. ",
-      "english": "Contact. "
+      "pali": "",
+      "english": "“From fabrications as a requisite condition comes consciousness."
     },
     {
       "number": 16,
-      "pali": "Phasso cāyaṁ, bhikkhave, kiṁnidāno kiṁsamudayo kiṁjātiko kiṁpabhavo? ",
-      "english": "And what is the source of contact? "
+      "pali": "",
+      "english": "“From consciousness as a requisite condition comes name-&-form."
     },
     {
       "number": 17,
-      "pali": "Phasso saḷāyatananidāno saḷāyatanasamudayo saḷāyatanajātiko saḷāyatanapabhavo. ",
-      "english": "The six sense fields. "
+      "pali": "",
+      "english": "“From name-&-form as a requisite condition come the six sense media."
     },
     {
       "number": 18,
-      "pali": "Saḷāyatanañcidaṁ, bhikkhave, kiṁnidānaṁ kiṁsamudayaṁ kiṁjātikaṁ kiṁpabhavaṁ? ",
-      "english": "And what is the source of the six sense fields? "
+      "pali": "",
+      "english": "“From the six sense media as a requisite condition comes contact."
     },
     {
       "number": 19,
-      "pali": "Saḷāyatanaṁ nāmarūpanidānaṁ nāmarūpasamudayaṁ nāmarūpajātikaṁ nāmarūpapabhavaṁ. ",
-      "english": "Name and form. "
+      "pali": "",
+      "english": "“From contact as a requisite condition comes feeling."
     },
     {
       "number": 20,
-      "pali": "Nāmarūpañcidaṁ, bhikkhave, kiṁnidānaṁ kiṁsamudayaṁ kiṁjātikaṁ kiṁpabhavaṁ? ",
-      "english": "And what is the source of name and form? "
+      "pali": "",
+      "english": "“From feeling as a requisite condition comes craving."
     },
     {
       "number": 21,
-      "pali": "Nāmarūpaṁ viññāṇanidānaṁ viññāṇasamudayaṁ viññāṇajātikaṁ viññāṇapabhavaṁ. ",
-      "english": "Consciousness. "
+      "pali": "",
+      "english": "“From craving as a requisite condition comes clinging/sustenance."
     },
     {
       "number": 22,
-      "pali": "Viññāṇañcidaṁ, bhikkhave, kiṁnidānaṁ kiṁsamudayaṁ kiṁjātikaṁ kiṁpabhavaṁ? ",
-      "english": "And what is the source of consciousness? "
+      "pali": "",
+      "english": "“From clinging/sustenance as a requisite condition comes becoming."
     },
     {
       "number": 23,
-      "pali": "Viññāṇaṁ saṅkhāranidānaṁ saṅkhārasamudayaṁ saṅkhārajātikaṁ saṅkhārapabhavaṁ. ",
-      "english": "Choices. "
+      "pali": "",
+      "english": "“From becoming as a requisite condition comes birth."
     },
     {
       "number": 24,
-      "pali": "Saṅkhārā cime, bhikkhave, kiṁnidānā kiṁsamudayā kiṁjātikā kiṁpabhavā? ",
-      "english": "And what is the source of choices? "
+      "pali": "",
+      "english": "“From birth as a requisite condition, then aging & death, sorrow, lamentation, pain, distress, & despair come into play. Such is the origination of this entire mass of stress & suffering."
     },
     {
       "number": 25,
-      "pali": "Saṅkhārā avijjānidānā avijjāsamudayā avijjājātikā avijjāpabhavā. ",
-      "english": "Ignorance. "
-    },
-    {
-      "number": 26,
-      "pali": "Iti kho, bhikkhave, avijjāpaccayā saṅkhārā; ",
-      "english": "And so, mendicants, ignorance is a requirement for choices. "
-    },
-    {
-      "number": 27,
-      "pali": "saṅkhārapaccayā viññāṇaṁ …pe… ",
-      "english": "Choices are a requirement for consciousness. … "
-    },
-    {
-      "number": 28,
-      "pali": "evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
-      "english": "That is how this entire mass of suffering originates. "
-    },
-    {
-      "number": 29,
-      "pali": "Avijjāya tveva asesavirāganirodhā saṅkhāranirodho; ",
-      "english": "When ignorance fades away and ceases with no residue left behind, choices cease. "
-    },
-    {
-      "number": 30,
-      "pali": "saṅkhāranirodhā viññāṇanirodho …pe… ",
-      "english": "When choices cease, consciousness ceases. … "
-    },
-    {
-      "number": 31,
-      "pali": "evametassa kevalassa dukkhakkhandhassa nirodho hotī”ti. ",
-      "english": "That is how this entire mass of suffering ceases.” "
-    },
-    {
-      "number": 32,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Now from the remainderless fading & cessation of that very ignorance comes the cessation of fabrications. From the cessation of fabrications comes the cessation of consciousness. From the cessation of consciousness comes the cessation of name-&-form. From the cessation of name-&-form comes the cessation of the six sense media. From the cessation of the six sense media comes the cessation of contact. From the cessation of contact comes the cessation of feeling. From the cessation of feeling comes the cessation of craving. From the cessation of craving comes the cessation of clinging/sustenance. From the cessation of clinging/sustenance comes the cessation of becoming. From the cessation of becoming comes the cessation of birth. From the cessation of birth, then aging-&-death, sorrow, lamentation, pain, distress, & despair all cease. Such is the cessation of this entire mass of stress & suffering.”"
     }
   ]
 }

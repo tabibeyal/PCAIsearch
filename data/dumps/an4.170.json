@@ -3,183 +3,53 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 4.170 ",
-      "english": "Numbered Discourses 4.170 "
+      "pali": "Numerical Discourses 4.170",
+      "english": "Numerical Discourses 4.170"
     },
     {
       "number": 2,
-      "pali": "17. Paṭipadāvagga ",
-      "english": "17. Practice "
+      "pali": "Yuganaddha Sutta",
+      "english": "In Tandem"
     },
     {
       "number": 3,
-      "pali": "Yuganaddhasutta ",
-      "english": "In Conjunction "
+      "pali": "",
+      "english": "On one occasion Ven. Ānanda was staying in Kosambī at Ghosita’s monastery. There he addressed the monks, “Friends!”"
     },
     {
       "number": 4,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "“Yes, friend,” the monks responded to him."
     },
     {
       "number": 5,
-      "pali": "ekaṁ samayaṁ āyasmā ānando kosambiyaṁ viharati ghositārāme. ",
-      "english": "At one time Venerable Ānanda was staying near Kosambī, in Ghosita’s Monastery. "
+      "pali": "",
+      "english": "Ven. Ānanda said: “Friends, whoever—monk or nun—declares the attainment of arahantship in my presence, they all do it by means of one or another of four paths. Which four?"
     },
     {
       "number": 6,
-      "pali": "Tatra kho āyasmā ānando bhikkhū āmantesi: ",
-      "english": "There Ānanda addressed the mendicants: "
+      "pali": "",
+      "english": "“There is the case where a monk has developed insight preceded by tranquility. As he develops insight preceded by tranquility, the path is born. He follows that path, develops it, pursues it. As he follows the path, developing it & pursuing it—his fetters are abandoned, his obsessions destroyed."
     },
     {
       "number": 7,
-      "pali": "“āvuso bhikkhave”ti. ",
-      "english": "“Reverends, mendicants!” "
+      "pali": "",
+      "english": "“Then there is the case where a monk has developed tranquility preceded by insight. As he develops tranquility preceded by insight, the path is born. He follows that path, develops it, pursues it. As he follows the path, developing it & pursuing it—his fetters are abandoned, his obsessions destroyed."
     },
     {
       "number": 8,
-      "pali": "“Āvuso”ti kho te bhikkhū āyasmato ānandassa paccassosuṁ. ",
-      "english": "“Reverend,” they replied. "
+      "pali": "",
+      "english": "“Then there is the case where a monk has developed tranquility in tandem with insight. As he develops tranquility in tandem with insight, the path is born. He follows that path, develops it, pursues it. As he follows the path, developing it & pursuing it—his fetters are abandoned, his obsessions destroyed."
     },
     {
       "number": 9,
-      "pali": "Āyasmā ānando etadavoca: ",
-      "english": "Ānanda said this: "
+      "pali": "",
+      "english": "“Then there is the case where a monk’s mind has its restlessness concerning the Dhamma [Comm: the corruptions of insight] well under control. There comes a time when his mind grows steady inwardly, settles down, and becomes unified & concentrated. In him the path is born. He follows that path, develops it, pursues it. As he follows the path, developing it & pursuing it—his fetters are abandoned, his obsessions destroyed."
     },
     {
       "number": 10,
-      "pali": "“Yo hi koci, āvuso, bhikkhu vā bhikkhunī vā mama santike arahattappattiṁ byākaroti, sabbo so catūhi maggehi, etesaṁ vā aññatarena. ",
-      "english": "“Reverends, all of the monks and nuns who declare in my presence that they have attained perfection, did so by one or other of four paths. "
-    },
-    {
-      "number": 11,
-      "pali": "Katamehi catūhi? ",
-      "english": "What four? "
-    },
-    {
-      "number": 12,
-      "pali": "Idha, āvuso, bhikkhu samathapubbaṅgamaṁ vipassanaṁ bhāveti. ",
-      "english": "Take a mendicant who develops serenity before discernment. "
-    },
-    {
-      "number": 13,
-      "pali": "Tassa samathapubbaṅgamaṁ vipassanaṁ bhāvayato maggo sañjāyati. ",
-      "english": "As they do so, the path is born in them. "
-    },
-    {
-      "number": 14,
-      "pali": "So taṁ maggaṁ āsevati bhāveti bahulīkaroti. ",
-      "english": "They cultivate, develop, and make much of it. "
-    },
-    {
-      "number": 15,
-      "pali": "Tassa taṁ maggaṁ āsevato bhāvayato bahulīkaroto saṁyojanāni pahīyanti, anusayā byantīhonti. ",
-      "english": "By doing so, they give up the fetters and eliminate the underlying tendencies. "
-    },
-    {
-      "number": 16,
-      "pali": "Puna caparaṁ, āvuso, bhikkhu vipassanāpubbaṅgamaṁ samathaṁ bhāveti. ",
-      "english": "Another mendicant develops discernment before serenity. "
-    },
-    {
-      "number": 17,
-      "pali": "Tassa vipassanāpubbaṅgamaṁ samathaṁ bhāvayato maggo sañjāyati. ",
-      "english": "As they do so, the path is born in them. "
-    },
-    {
-      "number": 18,
-      "pali": "So taṁ maggaṁ āsevati bhāveti bahulīkaroti. ",
-      "english": "They cultivate, develop, and make much of it. "
-    },
-    {
-      "number": 19,
-      "pali": "Tassa taṁ maggaṁ āsevato bhāvayato bahulīkaroto saṁyojanāni pahīyanti, anusayā byantīhonti. ",
-      "english": "By doing so, they give up the fetters and eliminate the underlying tendencies. "
-    },
-    {
-      "number": 20,
-      "pali": "Puna caparaṁ, āvuso, bhikkhu samathavipassanaṁ yuganaddhaṁ bhāveti. ",
-      "english": "Another mendicant develops serenity and discernment in conjunction. "
-    },
-    {
-      "number": 21,
-      "pali": "Tassa samathavipassanaṁ yuganaddhaṁ bhāvayato maggo sañjāyati. ",
-      "english": "As they do so, the path is born in them. "
-    },
-    {
-      "number": 22,
-      "pali": "So taṁ maggaṁ āsevati bhāveti bahulīkaroti. ",
-      "english": "They cultivate, develop, and make much of it. "
-    },
-    {
-      "number": 23,
-      "pali": "Tassa taṁ maggaṁ āsevato bhāvayato bahulīkaroto saṁyojanāni pahīyanti, anusayā byantīhonti. ",
-      "english": "By doing so, they give up the fetters and eliminate the underlying tendencies. "
-    },
-    {
-      "number": 24,
-      "pali": "Puna caparaṁ, āvuso, bhikkhuno dhammuddhaccaviggahitaṁ mānasaṁ hoti. ",
-      "english": "Another mendicant’s heart is seized by restlessness to realize the teaching. "
-    },
-    {
-      "number": 25,
-      "pali": "Hoti so, āvuso, samayo yaṁ taṁ cittaṁ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati. ",
-      "english": "But there comes a time when their mind is stilled internally; it settles, unifies, and becomes immersed in samādhi. "
-    },
-    {
-      "number": 26,
-      "pali": "Tassa maggo sañjāyati. ",
-      "english": "The path is born in them. "
-    },
-    {
-      "number": 27,
-      "pali": "So taṁ maggaṁ āsevati bhāveti bahulīkaroti. ",
-      "english": "They cultivate, develop, and make much of it. "
-    },
-    {
-      "number": 28,
-      "pali": "Tassa taṁ maggaṁ āsevato bhāvayato bahulīkaroto saṁyojanāni pahīyanti, anusayā byantīhonti. ",
-      "english": "By doing so, they give up the fetters and eliminate the underlying tendencies. "
-    },
-    {
-      "number": 29,
-      "pali": "Yo hi koci, āvuso, bhikkhu vā bhikkhunī vā mama santike arahattappattiṁ byākaroti, sabbo so imehi catūhi maggehi, etesaṁ vā aññatarenā”ti. ",
-      "english": "All of the monks and nuns who declare in my presence that they have attained perfection, did so by one or other of these four paths.” "
-    },
-    {
-      "number": 30,
-      "pali": "Dasamaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 31,
-      "pali": "Paṭipadāvaggo dutiyo. ",
-      "english": ""
-    },
-    {
-      "number": 32,
-      "pali": "Tassuddānaṁ ",
-      "english": ""
-    },
-    {
-      "number": 33,
-      "pali": "Saṅkhittaṁ vitthārāsubhaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 34,
-      "pali": "Dve khamā ubhayena ca; ",
-      "english": ""
-    },
-    {
-      "number": 35,
-      "pali": "Moggallāno sāriputto, ",
-      "english": ""
-    },
-    {
-      "number": 36,
-      "pali": "Sasaṅkhāraṁ yuganaddhena cāti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Whoever—monk or nun—declares the attainment of arahantship in my presence, they all do it by means of one or another of these four paths.”"
     }
   ]
 }

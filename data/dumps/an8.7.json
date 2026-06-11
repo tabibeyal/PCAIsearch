@@ -3,318 +3,88 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 8.7 ",
-      "english": "Numbered Discourses 8.7 "
+      "pali": "Numerical Discourses 8.7",
+      "english": "Numerical Discourses 8.7"
     },
     {
       "number": 2,
-      "pali": "1. Mettāvagga ",
-      "english": "1. Love "
+      "pali": "Devadatta Sutta",
+      "english": "About Devadatta"
     },
     {
       "number": 3,
-      "pali": "Devadattavipattisutta ",
-      "english": "Devadatta’s Failure "
+      "pali": "",
+      "english": "On one occasion the Blessed One was staying near Rājagaha on Vulture Peak Mountain, not long after Devadatta’s departure. There, referring to Devadatta, he addressed the monks: “Monks, it’s good for a monk periodically to have reflected on his own failings. It’s good for a monk periodically to have reflected on the failings of others. It’s good for a monk periodically to have reflected on his own attainments. It’s good for a monk periodically to have reflected on the attainments of others."
     },
     {
       "number": 4,
-      "pali": "Ekaṁ samayaṁ bhagavā rājagahe viharati gijjhakūṭe pabbate acirapakkante devadatte. ",
-      "english": "At one time the Buddha was staying near Rājagaha, on the Vulture’s Peak Mountain, not long after Devadatta had left. "
+      "pali": "",
+      "english": "“Conquered by eight untrue dhammas, his mind overcome, Devadatta is headed for a state of deprivation, headed for hell, there to stay for an eon, incurable. Which eight?"
     },
     {
       "number": 5,
-      "pali": "Tatra bhagavā devadattaṁ ārabbha bhikkhū āmantesi: ",
-      "english": "There the Buddha spoke to the mendicants about Devadatta: "
+      "pali": "",
+      "english": "“Conquered by material gain, his mind overcome, Devadatta is headed for a state of deprivation, headed for hell, there to stay for an eon, incurable."
     },
     {
       "number": 6,
-      "pali": "“sādhu, bhikkhave, bhikkhu kālena kālaṁ attavipattiṁ paccavekkhitā hoti. ",
-      "english": "“Mendicants, it’s good for a mendicant to check their own failings from time to time. "
+      "pali": "",
+      "english": "“Conquered by lack of material gain.…"
     },
     {
       "number": 7,
-      "pali": "Sādhu, bhikkhave, bhikkhu kālena kālaṁ paravipattiṁ paccavekkhitā hoti. ",
-      "english": "It’s good for a mendicant to check the failings of others from time to time. "
+      "pali": "",
+      "english": "“Conquered by status.…"
     },
     {
       "number": 8,
-      "pali": "Sādhu, bhikkhave, bhikkhu kālena kālaṁ attasampattiṁ paccavekkhitā hoti. ",
-      "english": "It’s good for a mendicant to check their own successes from time to time. "
+      "pali": "",
+      "english": "“Conquered by lack of status.…"
     },
     {
       "number": 9,
-      "pali": "Sādhu, bhikkhave, bhikkhu kālena kālaṁ parasampattiṁ paccavekkhitā hoti. ",
-      "english": "It’s good for a mendicant to check the successes of others from time to time. "
+      "pali": "",
+      "english": "“Conquered by offerings.…"
     },
     {
       "number": 10,
-      "pali": "Aṭṭhahi, bhikkhave, asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
-      "english": "Overcome and overwhelmed by eight things that oppose the true teaching, Devadatta is going to a place of loss, to hell, there to remain for an eon, irredeemable. "
+      "pali": "",
+      "english": "“Conquered by lack of offerings.…"
     },
     {
       "number": 11,
-      "pali": "Katamehi aṭṭhahi? ",
-      "english": "What eight? "
+      "pali": "",
+      "english": "“Conquered by evil ambition.…"
     },
     {
       "number": 12,
-      "pali": "Lābhena hi, bhikkhave, abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
-      "english": "Overcome and overwhelmed by gain … "
+      "pali": "",
+      "english": "“Conquered by evil friendship, his mind overcome, Devadatta is headed for a state of deprivation, headed for hell, there to stay for an eon, incurable."
     },
     {
       "number": 13,
-      "pali": "Alābhena, bhikkhave …pe… ",
-      "english": "loss … "
+      "pali": "",
+      "english": "“Monks, it’s good for a monk to keep conquering again & again any arisen material gain. It’s good for a monk to keep conquering again & again any arisen lack of material gain… any arisen status… any arisen lack of status… any arisen offerings… any arisen lack of offerings… any arisen evil ambition… any arisen evil friendship."
     },
     {
       "number": 14,
-      "pali": "yasena, bhikkhave … ",
-      "english": "fame … "
+      "pali": "",
+      "english": "“And for what compelling reason should a monk keep conquering again & again any arisen material gain… any arisen evil friendship? Because when one dwells not having conquered any arisen material gain, effluents arise, along with vexations & fevers. But when one dwells having conquered any arisen material gain, those effluents, vexations, & fevers are not."
     },
     {
       "number": 15,
-      "pali": "ayasena, bhikkhave … ",
-      "english": "disgrace … "
+      "pali": "",
+      "english": "[Similarly with any arisen lack of material gain, any arisen status, any arisen lack of status, any arisen offerings, any arisen lack of offerings, any arisen evil ambition, & any arisen evil friendship.]"
     },
     {
       "number": 16,
-      "pali": "sakkārena, bhikkhave … ",
-      "english": "honor … "
+      "pali": "",
+      "english": "“It’s for this compelling reason that a monk should keep conquering again & again any arisen material gain… any arisen evil friendship."
     },
     {
       "number": 17,
-      "pali": "asakkārena, bhikkhave … ",
-      "english": "dishonor … "
-    },
-    {
-      "number": 18,
-      "pali": "pāpicchatāya, bhikkhave … ",
-      "english": "corrupt wishes … "
-    },
-    {
-      "number": 19,
-      "pali": "pāpamittatāya, bhikkhave, abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
-      "english": "bad friendship, Devadatta is going to a place of loss, to hell, there to remain for an eon, irredeemable. "
-    },
-    {
-      "number": 20,
-      "pali": "Imehi kho, bhikkhave, aṭṭhahi asaddhammehi abhibhūto pariyādinnacitto devadatto āpāyiko nerayiko kappaṭṭho atekiccho. ",
-      "english": "Overcome and overwhelmed by these eight things that oppose the true teaching, Devadatta is going to a place of loss, to hell, there to remain for an eon, irredeemable. "
-    },
-    {
-      "number": 21,
-      "pali": "Sādhu, bhikkhave, bhikkhu uppannaṁ lābhaṁ abhibhuyya abhibhuyya vihareyya, ",
-      "english": "It’s good for a mendicant, whenever they encounter it, to overcome gain … "
-    },
-    {
-      "number": 22,
-      "pali": "uppannaṁ alābhaṁ …pe… ",
-      "english": "loss … "
-    },
-    {
-      "number": 23,
-      "pali": "uppannaṁ yasaṁ … ",
-      "english": "fame … "
-    },
-    {
-      "number": 24,
-      "pali": "uppannaṁ ayasaṁ … ",
-      "english": "disgrace … "
-    },
-    {
-      "number": 25,
-      "pali": "uppannaṁ sakkāraṁ … ",
-      "english": "honor … "
-    },
-    {
-      "number": 26,
-      "pali": "uppannaṁ asakkāraṁ … ",
-      "english": "dishonor … "
-    },
-    {
-      "number": 27,
-      "pali": "uppannaṁ pāpicchataṁ … ",
-      "english": "corrupt wishes … "
-    },
-    {
-      "number": 28,
-      "pali": "uppannaṁ pāpamittataṁ abhibhuyya abhibhuyya vihareyya. ",
-      "english": "bad friendship. "
-    },
-    {
-      "number": 29,
-      "pali": "Kiñca, bhikkhave, bhikkhu atthavasaṁ paṭicca uppannaṁ lābhaṁ abhibhuyya abhibhuyya vihareyya, ",
-      "english": "What advantage does a mendicant gain by overcoming these eight things? "
-    },
-    {
-      "number": 30,
-      "pali": "uppannaṁ alābhaṁ …pe… ",
-      "english": ""
-    },
-    {
-      "number": 31,
-      "pali": "uppannaṁ yasaṁ … ",
-      "english": ""
-    },
-    {
-      "number": 32,
-      "pali": "uppannaṁ ayasaṁ … ",
-      "english": ""
-    },
-    {
-      "number": 33,
-      "pali": "uppannaṁ sakkāraṁ … ",
-      "english": ""
-    },
-    {
-      "number": 34,
-      "pali": "uppannaṁ asakkāraṁ … ",
-      "english": ""
-    },
-    {
-      "number": 35,
-      "pali": "uppannaṁ pāpicchataṁ … ",
-      "english": ""
-    },
-    {
-      "number": 36,
-      "pali": "uppannaṁ pāpamittataṁ abhibhuyya abhibhuyya vihareyya? ",
-      "english": ""
-    },
-    {
-      "number": 37,
-      "pali": "Yaṁ hissa, bhikkhave, uppannaṁ lābhaṁ anabhibhuyya viharato uppajjeyyuṁ āsavā vighātapariḷāhā, uppannaṁ lābhaṁ abhibhuyya viharato evaṁsa te āsavā vighātapariḷāhā na honti. ",
-      "english": "The distressing and feverish defilements that might arise in someone who lives without overcoming these eight things do not arise when they have overcome them. "
-    },
-    {
-      "number": 38,
-      "pali": "Yaṁ hissa, bhikkhave, uppannaṁ alābhaṁ …pe… ",
-      "english": ""
-    },
-    {
-      "number": 39,
-      "pali": "uppannaṁ yasaṁ … ",
-      "english": ""
-    },
-    {
-      "number": 40,
-      "pali": "uppannaṁ ayasaṁ … ",
-      "english": ""
-    },
-    {
-      "number": 41,
-      "pali": "uppannaṁ sakkāraṁ … ",
-      "english": ""
-    },
-    {
-      "number": 42,
-      "pali": "uppannaṁ asakkāraṁ … ",
-      "english": ""
-    },
-    {
-      "number": 43,
-      "pali": "uppannaṁ pāpicchataṁ … ",
-      "english": ""
-    },
-    {
-      "number": 44,
-      "pali": "uppannaṁ pāpamittataṁ anabhibhuyya viharato uppajjeyyuṁ āsavā vighātapariḷāhā, uppannaṁ pāpamittataṁ abhibhuyya viharato evaṁsa te āsavā vighātapariḷāhā na honti. ",
-      "english": ""
-    },
-    {
-      "number": 45,
-      "pali": "Idaṁ kho, bhikkhave, bhikkhu atthavasaṁ paṭicca uppannaṁ lābhaṁ abhibhuyya abhibhuyya vihareyya, ",
-      "english": "This is the advantage that a mendicant gains by overcoming these eight things. "
-    },
-    {
-      "number": 46,
-      "pali": "uppannaṁ alābhaṁ …pe… ",
-      "english": ""
-    },
-    {
-      "number": 47,
-      "pali": "uppannaṁ yasaṁ … ",
-      "english": ""
-    },
-    {
-      "number": 48,
-      "pali": "uppannaṁ ayasaṁ … ",
-      "english": ""
-    },
-    {
-      "number": 49,
-      "pali": "uppannaṁ sakkāraṁ … ",
-      "english": ""
-    },
-    {
-      "number": 50,
-      "pali": "uppannaṁ asakkāraṁ … ",
-      "english": ""
-    },
-    {
-      "number": 51,
-      "pali": "uppannaṁ pāpicchataṁ … ",
-      "english": ""
-    },
-    {
-      "number": 52,
-      "pali": "uppannaṁ pāpamittataṁ abhibhuyya abhibhuyya vihareyya. ",
-      "english": ""
-    },
-    {
-      "number": 53,
-      "pali": "Tasmātiha, bhikkhave, evaṁ sikkhitabbaṁ: ",
-      "english": "So, mendicants, you should train like this: "
-    },
-    {
-      "number": 54,
-      "pali": "‘uppannaṁ lābhaṁ abhibhuyya abhibhuyya viharissāma, ",
-      "english": "‘Whenever we encounter it, we will overcome gain … "
-    },
-    {
-      "number": 55,
-      "pali": "uppannaṁ alābhaṁ …pe… ",
-      "english": "loss … "
-    },
-    {
-      "number": 56,
-      "pali": "uppannaṁ yasaṁ … ",
-      "english": "fame … "
-    },
-    {
-      "number": 57,
-      "pali": "uppannaṁ ayasaṁ … ",
-      "english": "disgrace … "
-    },
-    {
-      "number": 58,
-      "pali": "uppannaṁ sakkāraṁ … ",
-      "english": "honor … "
-    },
-    {
-      "number": 59,
-      "pali": "uppannaṁ asakkāraṁ … ",
-      "english": "dishonor … "
-    },
-    {
-      "number": 60,
-      "pali": "uppannaṁ pāpicchataṁ … ",
-      "english": "corrupt wishes … "
-    },
-    {
-      "number": 61,
-      "pali": "uppannaṁ pāpamittataṁ abhibhuyya abhibhuyya viharissāmā’ti. ",
-      "english": "bad friendship.’ "
-    },
-    {
-      "number": 62,
-      "pali": "Evañhi vo, bhikkhave, sikkhitabban”ti. ",
-      "english": "That’s how you should train.” "
-    },
-    {
-      "number": 63,
-      "pali": "Sattamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Therefore, monks, you should train yourselves: ‘We will keep conquering again & again any arisen material gain… any arisen lack of material gain… any arisen status… any arisen lack of status… any arisen offerings… any arisen lack of offerings… any arisen evil ambition… any arisen evil friendship.’ That’s how you should train yourselves.”"
     }
   ]
 }

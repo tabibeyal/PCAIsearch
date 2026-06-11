@@ -3,148 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 12.55 ",
-      "english": "Linked Discourses 12.55 "
+      "pali": "Linked Discourses 12.55",
+      "english": "Linked Discourses 12.55"
     },
     {
       "number": 2,
-      "pali": "6. Dukkhavagga ",
-      "english": "6. A Tree "
+      "pali": "Mahārukkha Sutta",
+      "english": "The Great Tree"
     },
     {
       "number": 3,
-      "pali": "Mahārukkhasutta ",
-      "english": "A Great Tree "
+      "pali": "",
+      "english": "Dwelling near Sāvatthī. “Monks, when one remains focused on the allure of phenomena that offer sustenance for clinging, craving grows. From craving as a requisite condition comes clinging/sustenance. From clinging/sustenance as a requisite condition comes becoming. From becoming as a requisite condition comes birth. From birth as a requisite condition, then aging-&-death, sorrow, lamentation, pain, distress, & despair come into play. Such is the origination of this entire mass of stress & suffering."
     },
     {
       "number": 4,
-      "pali": "Sāvatthiyaṁ viharati. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“Suppose that there were a great tree. All its roots growing downward & outward would provide it with water & nutriment, so that the great tree—thus nourished, thus sustained—would stand for a long, long time."
     },
     {
       "number": 5,
-      "pali": "“Upādāniyesu, bhikkhave, dhammesu assādānupassino viharato taṇhā pavaḍḍhati. ",
-      "english": "“There are things that fuel grasping. When you concentrate on the gratification provided by these things, your craving grows. "
+      "pali": "",
+      "english": "“In the same way, monks, when one remains focused on the allure of phenomena that offer sustenance for clinging, craving grows. From craving as a requisite condition comes clinging/sustenance. From clinging/sustenance as a requisite condition comes becoming. From becoming as a requisite condition comes birth. From birth as a requisite condition, then aging-&-death, sorrow, lamentation, pain, distress, & despair come into play. Such is the origination of this entire mass of stress & suffering."
     },
     {
       "number": 6,
-      "pali": "Taṇhāpaccayā upādānaṁ; ",
-      "english": "Craving is a requirement for grasping. "
+      "pali": "",
+      "english": "“But when one remains focused on the drawbacks of phenomena that offer sustenance for clinging, craving ceases. From the cessation of craving comes the cessation of clinging/sustenance. From the cessation of clinging/sustenance comes the cessation of becoming. From the cessation of becoming comes the cessation of birth. From the cessation of birth, then aging & death, sorrow, lamentation, pain, distress, & despair all cease. Such is the cessation of this entire mass of stress & suffering."
     },
     {
       "number": 7,
-      "pali": "upādānapaccayā bhavo …pe… ",
-      "english": "Grasping is a requirement for continued existence. … "
+      "pali": "",
+      "english": "“Suppose there were a great tree. A man would come, bringing a shovel & basket, and would cut down the tree at its root. Having cut it at the root, he would dig it up. Having dug it up, he would pull out the roots, down to the rootlets & root fibers. Then he would cut the tree into pieces; having cut the pieces, he would split them; having split them, he would make them into slivers. Having made the slivers, he would dry them in the wind & sun. Having dried them in the wind & sun, he would burn them in a fire. Having burned them in a fire, he would reduce them to ashes. Having reduced them to ashes, he would winnow them before a high wind or let them be washed away by a swift-flowing stream. Thus the great tree, cut at the root, would be made like a palmyra stump, deprived of the conditions of development, not destined for future arising."
     },
     {
       "number": 8,
-      "pali": "evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
-      "english": "That is how this entire mass of suffering originates. "
-    },
-    {
-      "number": 9,
-      "pali": "Seyyathāpi, bhikkhave, mahārukkho. ",
-      "english": "Suppose there was a great tree. "
-    },
-    {
-      "number": 10,
-      "pali": "Tassa yāni ceva mūlāni adhogamāni, yāni ca tiriyaṅgamāni, sabbāni tāni uddhaṁ ojaṁ abhiharanti. ",
-      "english": "And its roots going downwards and across all draw the sap upwards. "
-    },
-    {
-      "number": 11,
-      "pali": "Evañhi so, bhikkhave, mahārukkho tadāhāro tadupādāno ciraṁ dīghamaddhānaṁ tiṭṭheyya. ",
-      "english": "Fed and fuelled by that, the great tree would stand for a long time. "
-    },
-    {
-      "number": 12,
-      "pali": "Evameva kho, bhikkhave, upādāniyesu dhammesu assādānupassino viharato taṇhā pavaḍḍhati. ",
-      "english": "In the same way, there are things that fuel grasping. When you concentrate on the gratification provided by these things, your craving grows. "
-    },
-    {
-      "number": 13,
-      "pali": "Taṇhāpaccayā upādānaṁ …pe… ",
-      "english": "Craving is a requirement for grasping. … "
-    },
-    {
-      "number": 14,
-      "pali": "evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
-      "english": "That is how this entire mass of suffering originates. "
-    },
-    {
-      "number": 15,
-      "pali": "Upādāniyesu, bhikkhave, dhammesu ādīnavānupassino viharato taṇhā nirujjhati. ",
-      "english": "There are things that fuel grasping. When you concentrate on the drawbacks of these things, your craving ceases. "
-    },
-    {
-      "number": 16,
-      "pali": "Taṇhānirodhā upādānanirodho; ",
-      "english": "When craving ceases, grasping ceases. "
-    },
-    {
-      "number": 17,
-      "pali": "upādānanirodhā bhavanirodho …pe… ",
-      "english": "When grasping ceases, continued existence ceases. … "
-    },
-    {
-      "number": 18,
-      "pali": "evametassa kevalassa dukkhakkhandhassa nirodho hoti. ",
-      "english": "That is how this entire mass of suffering ceases. "
-    },
-    {
-      "number": 19,
-      "pali": "Seyyathāpi, bhikkhave, mahārukkho. ",
-      "english": "Suppose there was a great tree. "
-    },
-    {
-      "number": 20,
-      "pali": "Atha puriso āgaccheyya kuddālapiṭakaṁ ādāya. ",
-      "english": "Then a person comes along with a spade and basket. "
-    },
-    {
-      "number": 21,
-      "pali": "So taṁ rukkhaṁ mūle chindeyya, mūlaṁ chinditvā palikhaṇeyya, palikhaṇitvā mūlāni uddhareyya antamaso usīranāḷimattānipi. ",
-      "english": "They’d cut the tree down at the roots, dig it up, and pull the roots out, down to the fibers and stems. "
-    },
-    {
-      "number": 22,
-      "pali": "So taṁ rukkhaṁ khaṇḍākhaṇḍikaṁ chindeyya, khaṇḍākhaṇḍikaṁ chinditvā phāleyya, phāletvā sakalikaṁ sakalikaṁ kareyya, sakalikaṁ sakalikaṁ karitvā vātātape visoseyya; ",
-      "english": "They’d cut the tree apart, cut up the parts, and chop it into splinters. They’d dry the splinters in the wind and sun, burn them with fire, and reduce them to ashes. Then they’d winnow the ashes in a strong wind, or float them away down a swift stream. "
-    },
-    {
-      "number": 23,
-      "pali": "vātātape visosetvā agginā ḍaheyya, agginā ḍahetvā masiṁ kareyya, masiṁ karitvā mahāvāte vā ophuṇeyya nadiyā vā sīghasotāya pavāheyya. ",
-      "english": ""
-    },
-    {
-      "number": 24,
-      "pali": "Evañhi so, bhikkhave, mahārukkho ucchinnamūlo assa tālāvatthukato anabhāvaṅkato āyatiṁ anuppādadhammo. ",
-      "english": "In this way the great tree is cut off at the root, made like a palm stump, obliterated, and unable to arise in the future. "
-    },
-    {
-      "number": 25,
-      "pali": "Evameva kho, bhikkhave, upādāniyesu dhammesu ādīnavānupassino viharato taṇhā nirujjhati. ",
-      "english": "In the same way, there are things that fuel grasping. When you concentrate on the drawbacks of these things, your craving ceases. "
-    },
-    {
-      "number": 26,
-      "pali": "Taṇhānirodhā upādānanirodho; ",
-      "english": "When craving ceases, grasping ceases. "
-    },
-    {
-      "number": 27,
-      "pali": "upādānanirodhā bhavanirodho …pe… ",
-      "english": "When grasping ceases, continued existence ceases. … "
-    },
-    {
-      "number": 28,
-      "pali": "evametassa kevalassa dukkhakkhandhassa nirodho hotī”ti. ",
-      "english": "That is how this entire mass of suffering ceases.” "
-    },
-    {
-      "number": 29,
-      "pali": "Pañcamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“In the same way, monks, when one remains focused on the drawbacks of phenomena that offer sustenance for clinging, craving ceases. From the cessation of craving comes the cessation of clinging/sustenance. From the cessation of clinging/sustenance comes the cessation of becoming. From the cessation of becoming comes the cessation of birth. From the cessation of birth, then aging & death, sorrow, lamentation, pain, distress, & despair all cease. Such is the cessation of this entire mass of stress & suffering.”"
     }
   ]
 }

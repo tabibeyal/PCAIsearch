@@ -3,138 +3,48 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 5.73 ",
-      "english": "Numbered Discourses 5.73 "
+      "pali": "Numerical Discourses 5.73",
+      "english": "Numerical Discourses 5.73"
     },
     {
       "number": 2,
-      "pali": "8. Yodhājīvavagga ",
-      "english": "8. Warriors "
+      "pali": "Dhammavihārin Sutta",
+      "english": "Dwelling in the Dhamma (1)"
     },
     {
       "number": 3,
-      "pali": "Paṭhamadhammavihārīsutta ",
-      "english": "One Who Lives by the Teaching (1st) "
+      "pali": "",
+      "english": "Then a certain monk went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “‘One dwelling in the Dhamma, one dwelling in the Dhamma’: Thus it is said, lord. To what extent is a monk one dwelling in the Dhamma?”"
     },
     {
       "number": 4,
-      "pali": "Atha kho aññataro bhikkhu yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho so bhikkhu bhagavantaṁ etadavoca: ",
-      "english": "Then a mendicant went up to the Buddha, bowed, sat down to one side, and said to him: "
+      "pali": "",
+      "english": "“Monk, there is the case where a monk studies the Dhamma: dialogues, narratives of mixed prose & verse, explanations, verses, spontaneous exclamations [udāna], quotations [itivuttaka], birth stories [jātaka], amazing events, question & answer sessions [vedalla]. He spends the day in Dhamma-study. He neglects seclusion. He doesn’t devote himself to internal tranquility of awareness. This is called a monk keen on study, not one dwelling in the Dhamma."
     },
     {
       "number": 5,
-      "pali": "“‘dhammavihārī, dhammavihārī’ti, bhante, vuccati. ",
-      "english": "“Sir, they speak of ‘one who lives by the teaching’. "
+      "pali": "",
+      "english": "“Then there is the case where a monk takes the Dhamma—as he has heard & studied it—and teaches it in detail to others. He spends the day in Dhamma-description. He neglects seclusion. He doesn’t devote himself to internal tranquility of awareness. This is called a monk keen on description, not one dwelling in the Dhamma."
     },
     {
       "number": 6,
-      "pali": "Kittāvatā nu kho, bhante, bhikkhu dhammavihārī hotī”ti? ",
-      "english": "How is a mendicant who lives by the teaching defined?” "
+      "pali": "",
+      "english": "“Then there is the case where a monk takes the Dhamma—as he has heard & studied it—and recites it in full detail. He spends the day in Dhamma-recitation. He neglects seclusion. He doesn’t devote himself to internal tranquility of awareness. This is called a monk keen on recitation, not one dwelling in the Dhamma."
     },
     {
       "number": 7,
-      "pali": "“Idha, bhikkhu, bhikkhu dhammaṁ pariyāpuṇāti—",
-      "english": "“Mendicant, take a mendicant who memorizes the teaching—"
+      "pali": "",
+      "english": "“Then there is the case where a monk takes the Dhamma—as he has heard & studied it—and thinks about it, evaluates it, and examines it with his intellect. He spends the day in Dhamma-thinking. He neglects seclusion. He doesn’t devote himself to internal tranquility of awareness. This is called a monk keen on thinking, not one dwelling in the Dhamma."
     },
     {
       "number": 8,
-      "pali": "suttaṁ, geyyaṁ, veyyākaraṇaṁ, gāthaṁ, udānaṁ, itivuttakaṁ, jātakaṁ, abbhutadhammaṁ, vedallaṁ. ",
-      "english": "statements, mixed prose & verse, discussions, verses, inspired exclamations, legends, stories of past lives, amazing stories, and elaborations. "
+      "pali": "",
+      "english": "“Then there is the case where a monk studies the Dhamma: dialogues, narratives of mixed prose & verse, explanations, verses, spontaneous exclamations, quotations, birth stories, amazing events, question & answer sessions. He doesn’t spend the day in Dhamma-study. He doesn’t neglect seclusion. He devotes himself to internal tranquility of awareness. This is called a monk dwelling in the Dhamma."
     },
     {
       "number": 9,
-      "pali": "So tāya dhammapariyattiyā divasaṁ atināmeti, riñcati paṭisallānaṁ, nānuyuñjati ajjhattaṁ cetosamathaṁ. ",
-      "english": "They spend too much time studying that teaching. They neglect retreat, and are not committed to internal serenity of heart. "
-    },
-    {
-      "number": 10,
-      "pali": "Ayaṁ vuccati, bhikkhu: ‘bhikkhu pariyattibahulo, no dhammavihārī’. ",
-      "english": "That mendicant is called one who studies a lot, not one who lives by the teaching. "
-    },
-    {
-      "number": 11,
-      "pali": "Puna caparaṁ, bhikkhu, bhikkhu yathāsutaṁ yathāpariyattaṁ dhammaṁ vitthārena paresaṁ deseti. ",
-      "english": "Furthermore, a mendicant teaches Dhamma in detail to others as they learned and memorized it. "
-    },
-    {
-      "number": 12,
-      "pali": "So tāya dhammapaññattiyā divasaṁ atināmeti, riñcati paṭisallānaṁ, nānuyuñjati ajjhattaṁ cetosamathaṁ. ",
-      "english": "They spend too much time advocating that teaching. They neglect retreat, and are not committed to internal serenity of heart. "
-    },
-    {
-      "number": 13,
-      "pali": "Ayaṁ vuccati, bhikkhu: ‘bhikkhu paññattibahulo, no dhammavihārī’. ",
-      "english": "That mendicant is called one who advocates a lot, not one who lives by the teaching. "
-    },
-    {
-      "number": 14,
-      "pali": "Puna caparaṁ, bhikkhu, bhikkhu yathāsutaṁ yathāpariyattaṁ dhammaṁ vitthārena sajjhāyaṁ karoti. ",
-      "english": "Furthermore, a mendicant rehearses the teaching in detail as they learned and memorized it. "
-    },
-    {
-      "number": 15,
-      "pali": "So tena sajjhāyena divasaṁ atināmeti, riñcati paṭisallānaṁ, nānuyuñjati ajjhattaṁ cetosamathaṁ. ",
-      "english": "They spend too much time reciting that teaching. They neglect retreat, and are not committed to internal serenity of heart. "
-    },
-    {
-      "number": 16,
-      "pali": "Ayaṁ vuccati, bhikkhu: ‘bhikkhu sajjhāyabahulo, no dhammavihārī’. ",
-      "english": "That mendicant is called one who rehearses a lot, not one who lives by the teaching. "
-    },
-    {
-      "number": 17,
-      "pali": "Puna caparaṁ, bhikkhu, bhikkhu yathāsutaṁ yathāpariyattaṁ dhammaṁ cetasā anuvitakketi anuvicāreti manasānupekkhati. ",
-      "english": "Furthermore, a mendicant thinks about and considers the teaching in their heart, examining it with the mind as they learned and memorized it. "
-    },
-    {
-      "number": 18,
-      "pali": "So tehi dhammavitakkehi divasaṁ atināmeti, riñcati paṭisallānaṁ, nānuyuñjati ajjhattaṁ cetosamathaṁ. ",
-      "english": "They spend too much time thinking about that teaching. They neglect retreat, and are not committed to internal serenity of heart. "
-    },
-    {
-      "number": 19,
-      "pali": "Ayaṁ vuccati, bhikkhu: ‘bhikkhu vitakkabahulo, no dhammavihārī’. ",
-      "english": "That mendicant is called one who thinks a lot, not one who lives by the teaching. "
-    },
-    {
-      "number": 20,
-      "pali": "Idha, bhikkhu, bhikkhu dhammaṁ pariyāpuṇāti—",
-      "english": "Take a mendicant who memorizes the teaching—"
-    },
-    {
-      "number": 21,
-      "pali": "suttaṁ, geyyaṁ, veyyākaraṇaṁ, gāthaṁ, udānaṁ, itivuttakaṁ, jātakaṁ, abbhutadhammaṁ, vedallaṁ. ",
-      "english": "statements, mixed prose & verse, discussions, verses, inspired exclamations, legends, stories of past lives, amazing stories, and elaborations. "
-    },
-    {
-      "number": 22,
-      "pali": "So tāya dhammapariyattiyā na divasaṁ atināmeti, nāpi riñcati paṭisallānaṁ, anuyuñjati ajjhattaṁ cetosamathaṁ. ",
-      "english": "They don’t spend too much time studying that teaching. They don’t neglect retreat, and they’re committed to internal serenity of heart. "
-    },
-    {
-      "number": 23,
-      "pali": "Evaṁ kho, bhikkhu, bhikkhu dhammavihārī hoti. ",
-      "english": "That’s how a mendicant is one who lives by the teaching. "
-    },
-    {
-      "number": 24,
-      "pali": "Iti kho, bhikkhu, desito mayā pariyattibahulo, desito paññattibahulo, desito sajjhāyabahulo, desito vitakkabahulo, desito dhammavihārī. ",
-      "english": "So, mendicant, I’ve taught you the one who studies a lot, the one who advocates a lot, the one who rehearses a lot, the one who thinks a lot, and the one who lives by the teaching. "
-    },
-    {
-      "number": 25,
-      "pali": "Yaṁ kho, bhikkhu, satthārā karaṇīyaṁ sāvakānaṁ hitesinā anukampakena anukampaṁ upādāya, kataṁ vo taṁ mayā. ",
-      "english": "Out of sympathy, I’ve done what a teacher should do who wants what’s best for their disciples. "
-    },
-    {
-      "number": 26,
-      "pali": "Etāni, bhikkhu, rukkhamūlāni, etāni suññāgārāni. Jhāyatha, bhikkhu, mā pamādattha, mā pacchā vippaṭisārino ahuvattha. Ayaṁ vo amhākaṁ anusāsanī”ti. ",
-      "english": "Here are these roots of trees, and here are these empty huts. Practice absorption, mendicant! Don’t be negligent! Don’t regret it later! This is my instruction to you.” "
-    },
-    {
-      "number": 27,
-      "pali": "Tatiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Now, monk, I have taught you the one keen on study, the one keen on description, the one keen on recitation, the one keen on thinking, and the one dwelling in the Dhamma. Whatever a teacher should do—seeking the welfare of his disciples, out of sympathy for them—that have I done for you. Over there are the roots of trees; over there, empty dwellings. Practice jhāna, monk. Don’t be heedless. Don’t later fall into regret. This is our message to you.”"
     }
   ]
 }

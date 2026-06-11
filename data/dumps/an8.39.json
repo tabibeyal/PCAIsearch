@@ -3,158 +3,63 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 8.39 ",
-      "english": "Numbered Discourses 8.39 "
+      "pali": "Numerical Discourses 8.39",
+      "english": "Numerical Discourses 8.39"
     },
     {
       "number": 2,
-      "pali": "4. Dānavagga ",
-      "english": "4. Giving "
+      "pali": "Abhisanda Sutta",
+      "english": "Bonanzas"
     },
     {
       "number": 3,
-      "pali": "Abhisandasutta ",
-      "english": "Overflowing Merit "
+      "pali": "",
+      "english": "“Monks, there are these eight bonanzas of merit, rewards of skillfulness, nourishments of happiness, celestial, resulting in happiness, leading to heaven, leading to what is desirable, pleasurable, & appealing, to welfare & happiness. Which eight?"
     },
     {
       "number": 4,
-      "pali": "“Aṭṭhime, bhikkhave, puññābhisandā kusalābhisandā sukhassāhārā sovaggikā sukhavipākā saggasaṁvattanikā, iṭṭhāya kantāya manāpāya hitāya sukhāya saṁvattanti. ",
-      "english": "“Mendicants, there are these eight kinds of overflowing merit, overflowing goodness. They nurture happiness and are conducive to heaven, ripening in happiness and leading to heaven. They lead to what is likable, desirable, agreeable, to welfare and happiness. "
+      "pali": "",
+      "english": "“There is the case where a disciple of the noble ones has gone to the Buddha for refuge. This is the first bonanza of merit, bonanza of skillfulness, nourishment of happiness, celestial, resulting in happiness, leading to heaven, leading to what is desirable, pleasurable, & appealing; to welfare & to happiness."
     },
     {
       "number": 5,
-      "pali": "Katame aṭṭha? ",
-      "english": "What eight? "
+      "pali": "",
+      "english": "“And further, the disciple of the noble ones has gone to the Dhamma for refuge. This is the second bonanza of merit.…"
     },
     {
       "number": 6,
-      "pali": "Idha, bhikkhave, ariyasāvako buddhaṁ saraṇaṁ gato hoti. ",
-      "english": "Firstly, a noble disciple has gone for refuge to the Buddha. "
+      "pali": "",
+      "english": "“And further, the disciple of the noble ones has gone to the Saṅgha for refuge. This is the third bonanza of merit.…"
     },
     {
       "number": 7,
-      "pali": "Ayaṁ, bhikkhave, paṭhamo puññābhisando kusalābhisando sukhassāhāro sovaggiko sukhavipāko saggasaṁvattaniko, iṭṭhāya kantāya manāpāya hitāya sukhāya saṁvattati. ",
-      "english": "This is the first kind of overflowing merit … "
+      "pali": "",
+      "english": "“Now, there are these five gifts, five great gifts—original, long-standing, traditional, ancient, unadulterated, unadulterated from the beginning—that are not open to suspicion, will never be open to suspicion, and are unfaulted by knowledgeable contemplatives & brahmans. Which five?"
     },
     {
       "number": 8,
-      "pali": "Puna caparaṁ, bhikkhave, ariyasāvako dhammaṁ saraṇaṁ gato hoti. ",
-      "english": "Furthermore, a noble disciple has gone for refuge to the teaching. "
+      "pali": "",
+      "english": "“There is the case where a disciple of the noble ones, abandoning the taking of life, abstains from taking life. In doing so, he gives freedom from danger, freedom from animosity, freedom from oppression to limitless numbers of beings. In giving freedom from danger, freedom from animosity, freedom from oppression to limitless numbers of beings, he gains a share in limitless freedom from danger, freedom from animosity, and freedom from oppression. This is the first gift, the first great gift—original, long-standing, traditional, ancient, unadulterated, unadulterated from the beginning—that is not open to suspicion, will never be open to suspicion, and is unfaulted by knowledgeable contemplatives & brahmans. And this is the fourth bonanza of merit.…"
     },
     {
       "number": 9,
-      "pali": "Ayaṁ, bhikkhave, dutiyo puññābhisando …pe… saṁvattati. ",
-      "english": "This is the second kind of overflowing merit … "
+      "pali": "",
+      "english": "“And further, abandoning taking what is not given [stealing], the disciple of the noble ones abstains from taking what is not given. In doing so, he gives freedom from danger, freedom from animosity, freedom from oppression to limitless numbers of beings. In giving freedom from danger, freedom from animosity, freedom from oppression to limitless numbers of beings, he gains a share in limitless freedom from danger, freedom from animosity, and freedom from oppression. This is the second gift, the second great gift… and this is the fifth bonanza of merit.…"
     },
     {
       "number": 10,
-      "pali": "Puna caparaṁ, bhikkhave, ariyasāvako saṅghaṁ saraṇaṁ gato hoti. ",
-      "english": "Furthermore, a noble disciple has gone for refuge to the Saṅgha. "
+      "pali": "",
+      "english": "“And further, abandoning sexual misconduct, the disciple of the noble ones abstains from sexual misconduct. In doing so, he gives freedom from danger, freedom from animosity, freedom from oppression to limitless numbers of beings. In giving freedom from danger, freedom from animosity, freedom from oppression to limitless numbers of beings, he gains a share in limitless freedom from danger, freedom from animosity, and freedom from oppression. This is the third gift, the third great gift… and this is the sixth bonanza of merit.…"
     },
     {
       "number": 11,
-      "pali": "Ayaṁ, bhikkhave, tatiyo puññābhisando kusalābhisando sukhassāhāro sovaggiko sukhavipāko saggasaṁvattaniko, iṭṭhāya kantāya manāpāya hitāya sukhāya saṁvattati. ",
-      "english": "This is the third kind of overflowing merit … "
+      "pali": "",
+      "english": "“And further, abandoning the telling of lie, the disciple of the noble ones abstains from telling lies. In doing so, he gives freedom from danger, freedom from animosity, freedom from oppression to limitless numbers of beings. In giving freedom from danger, freedom from animosity, freedom from oppression to limitless numbers of beings, he gains a share in limitless freedom from danger, freedom from animosity, and freedom from oppression. This is the fourth gift, the fourth great gift… and this is the seventh bonanza of merit.…"
     },
     {
       "number": 12,
-      "pali": "Pañcimāni, bhikkhave, dānāni mahādānāni aggaññāni rattaññāni vaṁsaññāni porāṇāni asaṅkiṇṇāni asaṅkiṇṇapubbāni, na saṅkiyanti na saṅkiyissanti, appaṭikuṭṭhāni samaṇehi brāhmaṇehi viññūhi. ",
-      "english": "Mendicants, these five gifts are great, primordial, long-standing, traditional, and ancient. They are uncorrupted, as they have been since the beginning. They’re not being corrupted now nor will they be. Sensible ascetics and brahmins don’t look down on them. "
-    },
-    {
-      "number": 13,
-      "pali": "Katamāni pañca? ",
-      "english": "What five? "
-    },
-    {
-      "number": 14,
-      "pali": "Idha, bhikkhave, ariyasāvako pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti. ",
-      "english": "Firstly, a noble disciple gives up killing living creatures. "
-    },
-    {
-      "number": 15,
-      "pali": "Pāṇātipātā paṭivirato, bhikkhave, ariyasāvako aparimāṇānaṁ sattānaṁ abhayaṁ deti, averaṁ deti, abyābajjhaṁ deti. ",
-      "english": "By so doing they give to countless sentient beings the gift of freedom from fear, enmity, and ill will. "
-    },
-    {
-      "number": 16,
-      "pali": "Aparimāṇānaṁ sattānaṁ abhayaṁ datvā averaṁ datvā abyābajjhaṁ datvā aparimāṇassa abhayassa averassa abyābajjhassa bhāgī hoti. ",
-      "english": "And they themselves also enjoy unlimited freedom from fear, enmity, and ill will. "
-    },
-    {
-      "number": 17,
-      "pali": "Idaṁ, bhikkhave, paṭhamaṁ dānaṁ mahādānaṁ aggaññaṁ rattaññaṁ vaṁsaññaṁ porāṇaṁ asaṅkiṇṇaṁ asaṅkiṇṇapubbaṁ, na saṅkiyati na saṅkiyissati, appaṭikuṭṭhaṁ samaṇehi brāhmaṇehi viññūhi. ",
-      "english": "This is the first gift that is a great offering, primordial, long-standing, traditional, and ancient. It is uncorrupted, as it has been since the beginning. It’s not being corrupted now nor will it be. Sensible ascetics and brahmins don’t look down on it. "
-    },
-    {
-      "number": 18,
-      "pali": "Ayaṁ, bhikkhave, catuttho puññābhisando kusalābhisando sukhassāhāro sovaggiko sukhavipāko saggasaṁvattaniko, iṭṭhāya kantāya manāpāya hitāya sukhāya saṁvattati. ",
-      "english": "This is the fourth kind of overflowing merit … "
-    },
-    {
-      "number": 19,
-      "pali": "Puna caparaṁ, bhikkhave, ariyasāvako adinnādānaṁ pahāya adinnādānā paṭivirato hoti ",
-      "english": "Furthermore, a noble disciple gives up stealing. … "
-    },
-    {
-      "number": 20,
-      "pali": "…pe… ",
-      "english": "This is the fifth kind of overflowing merit … "
-    },
-    {
-      "number": 21,
-      "pali": "kāmesumicchācāraṁ pahāya kāmesumicchācārā paṭivirato hoti ",
-      "english": "Furthermore, a noble disciple gives up sexual misconduct. … "
-    },
-    {
-      "number": 22,
-      "pali": "…pe… ",
-      "english": "This is the sixth kind of overflowing merit … "
-    },
-    {
-      "number": 23,
-      "pali": "musāvādaṁ pahāya musāvādā paṭivirato hoti ",
-      "english": "Furthermore, a noble disciple gives up lying. … "
-    },
-    {
-      "number": 24,
-      "pali": "…pe… ",
-      "english": "This is the seventh kind of overflowing merit … "
-    },
-    {
-      "number": 25,
-      "pali": "surāmerayamajjapamādaṭṭhānaṁ pahāya surāmerayamajjapamādaṭṭhānā paṭivirato hoti. ",
-      "english": "Furthermore, a noble disciple gives up beer, wine, and liquor intoxicants. "
-    },
-    {
-      "number": 26,
-      "pali": "Surāmerayamajjapamādaṭṭhānā paṭivirato, bhikkhave, ariyasāvako aparimāṇānaṁ sattānaṁ abhayaṁ deti averaṁ deti abyābajjhaṁ deti. ",
-      "english": "By so doing they give to countless sentient beings the gift of freedom from fear, enmity, and ill will. "
-    },
-    {
-      "number": 27,
-      "pali": "Aparimāṇānaṁ sattānaṁ abhayaṁ datvā averaṁ datvā abyābajjhaṁ datvā, aparimāṇassa abhayassa averassa abyābajjhassa bhāgī hoti. ",
-      "english": "And they themselves also enjoy unlimited freedom from fear, enmity, and ill will. "
-    },
-    {
-      "number": 28,
-      "pali": "Idaṁ, bhikkhave, pañcamaṁ dānaṁ mahādānaṁ aggaññaṁ rattaññaṁ vaṁsaññaṁ porāṇaṁ asaṅkiṇṇaṁ asaṅkiṇṇapubbaṁ, na saṅkiyati na saṅkiyissati, appaṭikuṭṭhaṁ samaṇehi brāhmaṇehi viññūhi. ",
-      "english": "This is the fifth gift that is a great offering, primordial, long-standing, traditional, and ancient. It is uncorrupted, as it has been since the beginning. It’s not being corrupted now nor will it be. Sensible ascetics and brahmins don’t look down on it. "
-    },
-    {
-      "number": 29,
-      "pali": "Ayaṁ kho, bhikkhave, aṭṭhamo puññābhisando kusalābhisando sukhassāhāro sovaggiko sukhavipāko saggasaṁvattaniko, iṭṭhāya kantāya manāpāya hitāya sukhāya saṁvattati. ",
-      "english": "This is the eighth kind of overflowing merit … "
-    },
-    {
-      "number": 30,
-      "pali": "Ime kho, bhikkhave, aṭṭha puññābhisandā kusalābhisandā sukhassāhārā sovaggikā sukhavipākā saggasaṁvattanikā, iṭṭhāya kantāya manāpāya hitāya sukhāya saṁvattantī”ti. ",
-      "english": "These are the eight kinds of overflowing merit, overflowing goodness. They nurture happiness and are conducive to heaven, ripening in happiness and leading to heaven. They lead to what is likable, desirable, agreeable, to welfare and happiness.” "
-    },
-    {
-      "number": 31,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“And further, abandoning the use of intoxicants, the disciple of the noble ones abstains from taking intoxicants. In doing so, he gives freedom from danger, freedom from animosity, freedom from oppression to limitless numbers of beings. In giving freedom from danger, freedom from animosity, freedom from oppression to limitless numbers of beings, he gains a share in limitless freedom from danger, freedom from animosity, and freedom from oppression. This is the fifth gift, the fifth great gift—original, long-standing, traditional, ancient, unadulterated, unadulterated from the beginning—that is not open to suspicion, will never be open to suspicion, and is unfaulted by knowledgeable contemplatives & brahmans. And this is the eighth bonanza of merit, bonanza of skillfulness, nourishment of happiness, celestial, resulting in happiness, leading to heaven, leading to what is desirable, pleasurable, & appealing; to welfare & to happiness.”"
     }
   ]
 }

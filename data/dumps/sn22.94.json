@@ -3,178 +3,118 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.94 ",
-      "english": "Linked Discourses 22.94 "
+      "pali": "Linked Discourses 22.94",
+      "english": "Linked Discourses 22.94"
     },
     {
       "number": 2,
-      "pali": "10. Pupphavagga ",
-      "english": "10. Flowers "
+      "pali": "Puppha Sutta",
+      "english": "Flowers"
     },
     {
       "number": 3,
-      "pali": "Pupphasutta ",
-      "english": "Flowers "
+      "pali": "",
+      "english": "Many Indian Buddhist philosophers stated that conditioned phenomena can’t be described as existing, not existing, both, or neither. However, the Buddha actually stated that conditioned phenomena—inconstant, stressful, subject to change—do exist."
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "Near Sāvatthī. There the Blessed One said, “Monks, it’s not that I dispute with the world, but that the world disputes with me. A proponent of the Dhamma doesn’t dispute with anyone with regard to the world. Whatever is agreed upon by the wise as not existing in the world, of that I too say, ‘It doesn’t exist.’ Whatever is agreed upon by the wise as existing in the world, of that I too say, ‘It exists.’"
     },
     {
       "number": 5,
-      "pali": "“Nāhaṁ, bhikkhave, lokena vivadāmi, lokova mayā vivadati. ",
-      "english": "“Mendicants, I do not dispute with the world; it is the world that disputes with me. "
+      "pali": "",
+      "english": "“And what is agreed upon by the wise as not existing in the world that I too say, ‘It doesn’t exist’?"
     },
     {
       "number": 6,
-      "pali": "Na, bhikkhave, dhammavādī kenaci lokasmiṁ vivadati. ",
-      "english": "When your speech is in line with the teaching you do not dispute with anyone in the world. "
+      "pali": "",
+      "english": "“Form that’s constant, permanent, eternal, not subject to change is agreed upon by the wise as not existing in the world, and I too say, ‘It doesn’t exist.’"
     },
     {
       "number": 7,
-      "pali": "Yaṁ, bhikkhave, natthisammataṁ loke paṇḍitānaṁ, ahampi taṁ ‘natthī’ti vadāmi. ",
-      "english": "What the astute deem as not existing, I too say does not exist. "
+      "pali": "",
+      "english": "“Feeling that’s constant, permanent, eternal, not subject to change is agreed upon by the wise as not existing in the world, and I too say, ‘It doesn’t exist.’"
     },
     {
       "number": 8,
-      "pali": "Yaṁ, bhikkhave, atthisammataṁ loke paṇḍitānaṁ, ahampi taṁ ‘atthī’ti vadāmi. ",
-      "english": "What the astute deem as existing, I too say exists. "
+      "pali": "",
+      "english": "“Perception that’s constant, permanent, eternal, not subject to change is agreed upon by the wise as not existing in the world, and I too say, ‘It doesn’t exist.’"
     },
     {
       "number": 9,
-      "pali": "Kiñca, bhikkhave, natthisammataṁ loke paṇḍitānaṁ, yamahaṁ ‘natthī’ti vadāmi? ",
-      "english": "And what do the astute deem as not existing, which I too say does not exist? "
+      "pali": "",
+      "english": "“Fabrications that are constant, permanent, eternal, not subject to change are agreed upon by the wise as not existing in the world, and I too say, ‘They don’t exist.’"
     },
     {
       "number": 10,
-      "pali": "Rūpaṁ, bhikkhave, niccaṁ dhuvaṁ sassataṁ avipariṇāmadhammaṁ natthisammataṁ loke paṇḍitānaṁ; ahampi taṁ ‘natthī’ti vadāmi. ",
-      "english": "Form that is permanent, everlasting, eternal, and imperishable. "
+      "pali": "",
+      "english": "“Consciousness that’s constant, permanent, eternal, not subject to change is agreed upon by the wise as not existing in the world, and I too say, ‘It doesn’t exist.’"
     },
     {
       "number": 11,
-      "pali": "Vedanā … ",
-      "english": "Feeling … "
+      "pali": "",
+      "english": "“And what is agreed upon by the wise as existing in the world that I too say, ‘It exists’?"
     },
     {
       "number": 12,
-      "pali": "saññā … ",
-      "english": "Perception … "
+      "pali": "",
+      "english": "“Form that’s inconstant, stressful, subject to change is agreed upon by the wise as existing in the world, and I too say, ‘It exists.’"
     },
     {
       "number": 13,
-      "pali": "saṅkhārā … ",
-      "english": "Choices … "
+      "pali": "",
+      "english": "“Feeling that’s inconstant, stressful, subject to change is agreed upon by the wise as existing in the world, and I too say, ‘It exists.’"
     },
     {
       "number": 14,
-      "pali": "viññāṇaṁ niccaṁ dhuvaṁ sassataṁ avipariṇāmadhammaṁ natthisammataṁ loke paṇḍitānaṁ; ahampi taṁ ‘natthī’ti vadāmi. ",
-      "english": "Consciousness that is permanent, everlasting, eternal, and imperishable. "
+      "pali": "",
+      "english": "“Perception that’s inconstant, stressful, subject to change is agreed upon by the wise as existing in the world, and I too say, ‘It exists.’"
     },
     {
       "number": 15,
-      "pali": "Idaṁ kho, bhikkhave, natthisammataṁ loke paṇḍitānaṁ; ahampi taṁ ‘natthī’ti vadāmi. ",
-      "english": "This is what the astute deem as not existing, which I too say does not exist. "
+      "pali": "",
+      "english": "“Fabrications that are inconstant, stressful, subject to change are agreed upon by the wise as existing in the world, and I too say, ‘They exist.’"
     },
     {
       "number": 16,
-      "pali": "Kiñca, bhikkhave, atthisammataṁ loke paṇḍitānaṁ, yamahaṁ ‘atthī’ti vadāmi? ",
-      "english": "And what do the astute deem as existing, which I too say exists? "
+      "pali": "",
+      "english": "“Consciousness that’s inconstant, stressful, subject to change is agreed upon by the wise as existing in the world, and I too say, ‘It exists.’"
     },
     {
       "number": 17,
-      "pali": "Rūpaṁ, bhikkhave, aniccaṁ dukkhaṁ vipariṇāmadhammaṁ atthisammataṁ loke paṇḍitānaṁ; ahampi taṁ ‘atthī’ti vadāmi. ",
-      "english": "Form that is impermanent, suffering, and perishable. "
+      "pali": "",
+      "english": "“Monks, there is a world-phenomenon in the world that the Tathāgata directly awakens to, breaks through to. Directly awakening to & breaking through to that, he declares it, teaches it, describes it, sets it forth. He reveals it, explains it, makes it plain. And what is a world-phenomenon in the world that the Tathāgata directly awakens to, breaks through to, that—directly awakening to & breaking through to it—he declares, teaches, describes, sets forth, reveals, explains, makes plain?"
     },
     {
       "number": 18,
-      "pali": "Vedanā aniccā …pe… ",
-      "english": "Feeling … Perception … Choices … "
+      "pali": "",
+      "english": "“Form is a world-phenomenon in the world that the Tathāgata directly awakens to, breaks through to. Directly awakening to & breaking through to that, he declares it, teaches it, describes it, sets it forth. He reveals it, explains it, makes it plain. Whoever—when that is being declared, taught, described, set forth, revealed, explained, & made plain by the Tathāgata—doesn’t know, doesn’t see, then what can I do for that fool, that run-of-the-mill person: blind, without eye-sight, not knowing, not seeing?"
     },
     {
       "number": 19,
-      "pali": "viññāṇaṁ aniccaṁ dukkhaṁ vipariṇāmadhammaṁ atthisammataṁ loke paṇḍitānaṁ; ahampi taṁ ‘atthī’ti vadāmi. ",
-      "english": "Consciousness that is impermanent, suffering, and perishable. "
+      "pali": "",
+      "english": "“Feeling is a world-phenomenon in the world.…"
     },
     {
       "number": 20,
-      "pali": "Idaṁ kho, bhikkhave, atthisammataṁ loke paṇḍitānaṁ; ahampi taṁ ‘atthī’ti vadāmi. ",
-      "english": "This is what the astute deem as existing, which I too say exists. "
+      "pali": "",
+      "english": "“Perception is a world-phenomenon in the world.…"
     },
     {
       "number": 21,
-      "pali": "Atthi, bhikkhave, loke lokadhammo, taṁ tathāgato abhisambujjhati abhisameti; ",
-      "english": "There is a worldly phenomenon in the world that the Realized One understands and comprehends. "
+      "pali": "",
+      "english": "“Fabrications are world-phenomena in the world.…"
     },
     {
       "number": 22,
-      "pali": "abhisambujjhitvā abhisametvā taṁ ācikkhati deseti paññapeti paṭṭhapeti vivarati vibhajati uttānīkaroti. ",
-      "english": "Then he explains, teaches, asserts, establishes, clarifies, analyzes, and reveals it. "
+      "pali": "",
+      "english": "“Consciousness is a world-phenomenon in the world that the Tathāgata directly awakens to, breaks through to. Directly awakening to & breaking through to that, he declares it, teaches it, describes it, sets it forth. He reveals it, explains it, makes it plain. Whoever—when that is being declared, taught, described, set forth, revealed, explained, & made plain by the Tathāgata—doesn’t know, doesn’t see, then what can I do for that fool, that run-of-the-mill person: blind, without eye-sight, not knowing, not seeing?"
     },
     {
       "number": 23,
-      "pali": "Kiñca, bhikkhave, loke lokadhammo, taṁ tathāgato abhisambujjhati abhisameti, abhisambujjhitvā abhisametvā ācikkhati deseti paññapeti paṭṭhapeti vivarati vibhajati uttānīkaroti? ",
-      "english": "And what is that worldly phenomenon in the world? "
-    },
-    {
-      "number": 24,
-      "pali": "Rūpaṁ, bhikkhave, loke lokadhammo taṁ tathāgato abhisambujjhati abhisameti. ",
-      "english": "Form is a worldly phenomenon in the world that the Realized One understands and comprehends. "
-    },
-    {
-      "number": 25,
-      "pali": "Abhisambujjhitvā abhisametvā ācikkhati deseti paññapeti paṭṭhapeti vivarati vibhajati uttānīkaroti. ",
-      "english": "Then he explains, teaches, asserts, establishes, clarifies, analyzes, and reveals it. "
-    },
-    {
-      "number": 26,
-      "pali": "Yo, bhikkhave, tathāgatena evaṁ ācikkhiyamāne desiyamāne paññapiyamāne paṭṭhapiyamāne vivariyamāne vibhajiyamāne uttānīkariyamāne na jānāti na passati tamahaṁ, bhikkhave, bālaṁ puthujjanaṁ andhaṁ acakkhukaṁ ajānantaṁ apassantaṁ kinti karomi. ",
-      "english": "This being so, what can I do about a foolish ordinary person, blind and sightless, who does not know or see? "
-    },
-    {
-      "number": 27,
-      "pali": "Vedanā, bhikkhave, loke lokadhammo …pe… ",
-      "english": "Feeling … "
-    },
-    {
-      "number": 28,
-      "pali": "saññā, bhikkhave … ",
-      "english": "Perception … "
-    },
-    {
-      "number": 29,
-      "pali": "saṅkhārā, bhikkhave … ",
-      "english": "Choices … "
-    },
-    {
-      "number": 30,
-      "pali": "viññāṇaṁ, bhikkhave, loke lokadhammo taṁ tathāgato abhisambujjhati abhisameti. ",
-      "english": "Consciousness is a worldly phenomenon in the world that the Realized One understands and comprehends. "
-    },
-    {
-      "number": 31,
-      "pali": "Abhisambujjhitvā abhisametvā ācikkhati deseti paññapeti paṭṭhapeti vivarati vibhajati uttānīkaroti. ",
-      "english": "Then he explains, teaches, asserts, establishes, clarifies, analyzes, and reveals it. "
-    },
-    {
-      "number": 32,
-      "pali": "Yo, bhikkhave, tathāgatena evaṁ ācikkhiyamāne desiyamāne paññapiyamāne paṭṭhapiyamāne vivariyamāne vibhajiyamāne uttānīkariyamāne na jānāti na passati tamahaṁ, bhikkhave, bālaṁ puthujjanaṁ andhaṁ acakkhukaṁ ajānantaṁ apassantaṁ kinti karomi. ",
-      "english": "This being so, what can I do about a foolish ordinary person, blind and sightless, who does not know or see? "
-    },
-    {
-      "number": 33,
-      "pali": "Seyyathāpi, bhikkhave, uppalaṁ vā padumaṁ vā puṇḍarīkaṁ vā udake jātaṁ udake saṁvaḍḍhaṁ udakā accuggamma ṭhāti anupalittaṁ udakena; ",
-      "english": "Suppose there was a blue water lily, or a pink or white lotus. Though it sprouted and grew in the water, it would rise up above the water and stand with no water clinging to it. "
-    },
-    {
-      "number": 34,
-      "pali": "evameva kho, bhikkhave, tathāgato loke jāto loke saṁvaḍḍho lokaṁ abhibhuyya viharati anupalitto lokenā”ti. ",
-      "english": "In the same way, though I was born and grew up in the world, I live having mastered the world, unsullied by the world.” "
-    },
-    {
-      "number": 35,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Monks, just as a blue, red, or white lotus—born in the water, grown up in the water—stands having risen above the water, unsmeared by the water; in the same way, the Tathāgata—born in the world, grown up in the world—dwells having conquered the world, unsmeared by the world.”"
     }
   ]
 }

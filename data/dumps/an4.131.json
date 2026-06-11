@@ -3,118 +3,63 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 4.131 ",
-      "english": "Numbered Discourses 4.131 "
+      "pali": "Numerical Discourses 4.131",
+      "english": "Numerical Discourses 4.131"
     },
     {
       "number": 2,
-      "pali": "14. Puggalavagga ",
-      "english": "14. Individuals "
+      "pali": "Saṁyojana Sutta",
+      "english": "Fetters"
     },
     {
       "number": 3,
-      "pali": "Saṁyojanasutta ",
-      "english": "Fetters "
+      "pali": "",
+      "english": "“Monks, there are these four types of individuals to be found existing in the world. Which four?"
     },
     {
       "number": 4,
-      "pali": "“Cattārome, bhikkhave, puggalā santo saṁvijjamānā lokasmiṁ. ",
-      "english": "“Mendicants, these four individuals are found in the world. "
+      "pali": "",
+      "english": "“There is the case where, in a certain individual, the lower fetters are unabandoned, the fetters for gaining a spontaneous reappearance are unabandoned, the fetters for gaining a becoming are unabandoned."
     },
     {
       "number": 5,
-      "pali": "Katame cattāro? ",
-      "english": "What four? "
+      "pali": "",
+      "english": "“Then there is the case where, in a certain individual, the lower fetters are abandoned, the fetters for gaining a spontaneous reappearance are unabandoned, the fetters for gaining a becoming are unabandoned."
     },
     {
       "number": 6,
-      "pali": "Idha, bhikkhave, ekaccassa puggalassa orambhāgiyāni saṁyojanāni appahīnāni honti, upapattipaṭilābhiyāni saṁyojanāni appahīnāni honti, bhavapaṭilābhiyāni saṁyojanāni appahīnāni honti. ",
-      "english": "One individual hasn’t given up the lower fetters, the fetters for getting reborn, or the fetters for getting a continued existence. "
+      "pali": "",
+      "english": "“Then there is the case where, in a certain individual, the lower fetters are abandoned, the fetters for gaining a spontaneous reappearance are abandoned, the fetters for gaining a becoming are unabandoned."
     },
     {
       "number": 7,
-      "pali": "Idha pana, bhikkhave, ekaccassa puggalassa orambhāgiyāni saṁyojanāni pahīnāni honti, upapattipaṭilābhiyāni saṁyojanāni appahīnāni honti, bhavapaṭilābhiyāni saṁyojanāni appahīnāni honti. ",
-      "english": "One individual has given up the lower fetters, but not the fetters for getting reborn, or the fetters for getting a continued existence. "
+      "pali": "",
+      "english": "“Then there is the case where, in a certain individual, the lower fetters are abandoned, the fetters for gaining a spontaneous reappearance are abandoned, the fetters for gaining a becoming are abandoned."
     },
     {
       "number": 8,
-      "pali": "Idha pana, bhikkhave, ekaccassa puggalassa orambhāgiyāni saṁyojanāni pahīnāni honti, upapattipaṭilābhiyāni saṁyojanāni pahīnāni honti, bhavapaṭilābhiyāni saṁyojanāni appahīnāni honti. ",
-      "english": "One individual has given up the lower fetters and the fetters for getting reborn, but not the fetters for getting a continued existence. "
+      "pali": "",
+      "english": "“And which is the individual in which the lower fetters are unabandoned, the fetters for gaining a spontaneous reappearance are unabandoned, the fetters for gaining a becoming are unabandoned? A once-returner. In this individual the lower fetters are unabandoned, the fetters for gaining a spontaneous reappearance are unabandoned, the fetters for gaining a becoming are unabandoned."
     },
     {
       "number": 9,
-      "pali": "Idha pana, bhikkhave, ekaccassa puggalassa orambhāgiyāni saṁyojanāni pahīnāni honti, upapattipaṭilābhiyāni saṁyojanāni pahīnāni honti, bhavapaṭilābhiyāni saṁyojanāni pahīnāni honti. ",
-      "english": "One individual has given up the lower fetters, the fetters for getting reborn, and the fetters for getting a continued existence. "
+      "pali": "",
+      "english": "“And which is the individual in which the lower fetters are abandoned, the fetters for gaining a spontaneous reappearance are unabandoned, the fetters for gaining a becoming are unabandoned? One going upstream to the Peerless [i.e., a non-returner heading for the Akaniṭṭha heaven, the highest of the Pure Abodes]. In this individual the lower fetters are abandoned, the fetters for gaining a spontaneous reappearance are unabandoned, the fetters for gaining a becoming are unabandoned."
     },
     {
       "number": 10,
-      "pali": "Katamassa, bhikkhave, puggalassa orambhāgiyāni saṁyojanāni appahīnāni, upapattipaṭilābhiyāni saṁyojanāni appahīnāni, bhavapaṭilābhiyāni saṁyojanāni appahīnāni? ",
-      "english": "What individual hasn’t given up the lower fetters, the fetters for getting reborn, or the fetters for getting a continued existence? "
+      "pali": "",
+      "english": "“And which is the individual in which the lower fetters are abandoned, the fetters for gaining a spontaneous reappearance are abandoned, the fetters for gaining a becoming are unabandoned? One unbound in between [i.e., one who is destined to unbind after leaving the human realm but before reaching a Pure Abode]. In this individual the lower fetters are abandoned, the fetters for gaining a spontaneous reappearance are abandoned, the fetters for gaining a becoming are unabandoned."
     },
     {
       "number": 11,
-      "pali": "Sakadāgāmissa. ",
-      "english": "A once-returner. "
+      "pali": "",
+      "english": "“And which is the individual in which the lower fetters are abandoned, the fetters for gaining a spontaneous reappearance are abandoned, the fetters for gaining a becoming are abandoned? An arahant, one whose effluents are ended. In this individual the lower fetters are abandoned, the fetters for gaining a spontaneous reappearance are abandoned, the fetters for gaining a becoming are abandoned."
     },
     {
       "number": 12,
-      "pali": "Imassa kho, bhikkhave, puggalassa orambhāgiyāni saṁyojanāni appahīnāni, upapattipaṭilābhiyāni saṁyojanāni appahīnāni, bhavapaṭilābhiyāni saṁyojanāni appahīnāni. ",
-      "english": "This is the individual who hasn’t given up the lower fetters, the fetters for getting reborn, or the fetters for getting a continued existence. "
-    },
-    {
-      "number": 13,
-      "pali": "Katamassa, bhikkhave, puggalassa orambhāgiyāni saṁyojanāni pahīnāni, upapattipaṭilābhiyāni saṁyojanāni appahīnāni, bhavapaṭilābhiyāni saṁyojanāni appahīnāni? ",
-      "english": "What individual has given up the lower fetters, but not the fetters for getting reborn, or the fetters for getting a continued existence? "
-    },
-    {
-      "number": 14,
-      "pali": "Uddhaṁsotassa akaniṭṭhagāmino. ",
-      "english": "One heading upstream, going to the Akaniṭṭha realm. "
-    },
-    {
-      "number": 15,
-      "pali": "Imassa kho, bhikkhave, puggalassa orambhāgiyāni saṁyojanāni pahīnāni, upapattipaṭilābhiyāni saṁyojanāni appahīnāni, bhavapaṭilābhiyāni saṁyojanāni appahīnāni. ",
-      "english": ""
-    },
-    {
-      "number": 16,
-      "pali": "Katamassa, bhikkhave, puggalassa orambhāgiyāni saṁyojanāni pahīnāni, upapattipaṭilābhiyāni saṁyojanāni pahīnāni, bhavapaṭilābhiyāni saṁyojanāni appahīnāni? ",
-      "english": "What individual has given up the lower fetters and the fetters for getting reborn, but not the fetters for getting a continued existence? "
-    },
-    {
-      "number": 17,
-      "pali": "Antarāparinibbāyissa. ",
-      "english": "One extinguished between one life and the next. "
-    },
-    {
-      "number": 18,
-      "pali": "Imassa kho, bhikkhave, puggalassa orambhāgiyāni saṁyojanāni pahīnāni, upapattipaṭilābhiyāni saṁyojanāni pahīnāni, bhavapaṭilābhiyāni saṁyojanāni appahīnāni. ",
-      "english": ""
-    },
-    {
-      "number": 19,
-      "pali": "Katamassa, bhikkhave, puggalassa orambhāgiyāni saṁyojanāni pahīnāni, upapattipaṭilābhiyāni saṁyojanāni pahīnāni, bhavapaṭilābhiyāni saṁyojanāni pahīnāni? ",
-      "english": "What individual has given up the lower fetters, the fetters for getting reborn, and the fetters for getting a continued existence? "
-    },
-    {
-      "number": 20,
-      "pali": "Arahato. ",
-      "english": "A perfected one. "
-    },
-    {
-      "number": 21,
-      "pali": "Imassa kho, bhikkhave, puggalassa orambhāgiyāni saṁyojanāni pahīnāni, upapattipaṭilābhiyāni saṁyojanāni pahīnāni, bhavapaṭilābhiyāni saṁyojanāni pahīnāni. ",
-      "english": ""
-    },
-    {
-      "number": 22,
-      "pali": "Ime kho, bhikkhave, cattāro puggalā santo saṁvijjamānā lokasmin”ti. ",
-      "english": "These are the four individuals found in the world.” "
-    },
-    {
-      "number": 23,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“These are four types of individuals to be found existing in the world.”"
     }
   ]
 }

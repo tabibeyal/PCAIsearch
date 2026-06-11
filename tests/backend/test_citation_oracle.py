@@ -13,7 +13,7 @@ def test_known_suttas_loaded():
     assert len(o.known_suttas) > 0
     assert "DN 15" in o.known_suttas
     assert "MN 10" in o.known_suttas
-    assert "AN 10.100" in o.known_suttas  # dotted ID — previously missed by old regex
+    assert "AN 10.101" in o.known_suttas  # dotted ID — previously missed by old regex
 
 
 def test_sutta_exists():
@@ -34,7 +34,7 @@ def test_parse_citation_valid():
     o = _oracle()
     assert o.parse_citation("DN 15:3") == ("DN 15", 3)
     assert o.parse_citation("MN 109:1") == ("MN 109", 1)
-    assert o.parse_citation("AN 10.100:3") == ("AN 10.100", 3)  # dotted ID
+    assert o.parse_citation("AN 10.101:3") == ("AN 10.101", 3)  # dotted ID
 
 
 def test_parse_citation_invalid():

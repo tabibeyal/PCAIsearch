@@ -3,148 +3,38 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 8.53 ",
-      "english": "Numbered Discourses 8.53 "
+      "pali": "Numerical Discourses 8.53",
+      "english": "Numerical Discourses 8.53"
     },
     {
       "number": 2,
-      "pali": "6. Gotamīvagga ",
-      "english": "6. Gotamī "
+      "pali": "Saṅkhitta Sutta",
+      "english": "In Brief"
     },
     {
       "number": 3,
-      "pali": "Saṅkhittasutta ",
-      "english": "Brief Advice to Gotamī "
+      "pali": "",
+      "english": "I have heard that at on one occasion the Blessed One was staying near Vesāli at the Gabled Hall in the Great Forest."
     },
     {
       "number": 4,
-      "pali": "Ekaṁ samayaṁ bhagavā vesāliyaṁ viharati mahāvane kūṭāgārasālāyaṁ. ",
-      "english": "At one time the Buddha was staying near Vesālī, at the Great Wood, in the hall with the peaked roof. "
+      "pali": "",
+      "english": "Then Mahāpajāpati Gotamī went to the Blessed One and, on arrival, having bowed down to him, stood to one side. As she was standing there she said to him: “It would be good, lord, if the Blessed One would teach me the Dhamma in brief such that, having heard the Dhamma from the Blessed One, I might dwell alone, secluded, heedful, ardent, & resolute.”"
     },
     {
       "number": 5,
-      "pali": "Atha kho mahāpajāpatī gotamī yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi. Ekamantaṁ ṭhitā kho sā mahāpajāpatī gotamī bhagavantaṁ etadavoca: ",
-      "english": "Then Mahāpajāpati Gotamī went up to the Buddha, bowed, stood to one side, and said to him: "
+      "pali": "",
+      "english": "“Gotamī, the qualities of which you may know, ‘These qualities lead to passion, not to dispassion; to being fettered, not to being unfettered; to accumulating, not to shedding; to self-aggrandizement, not to modesty; to discontent, not to contentment; to entanglement, not to reclusiveness; to laziness, not to aroused persistence; to being burdensome, not to being unburdensome’: You may categorically hold, ‘This is not the Dhamma, this is not the Vinaya, this is not the Teacher’s instruction.’"
     },
     {
       "number": 6,
-      "pali": "“Sādhu me, bhante, bhagavā saṅkhittena dhammaṁ desetu, yamahaṁ bhagavato dhammaṁ sutvā ekā vūpakaṭṭhā appamattā ātāpinī pahitattā vihareyyan”ti. ",
-      "english": "“Sir, may the Buddha please teach me Dhamma in brief. When I’ve heard it, I’ll live alone, withdrawn, diligent, keen, and resolute.” "
+      "pali": "",
+      "english": "“As for the qualities of which you may know, ‘These qualities lead to dispassion, not to passion; to being unfettered, not to being fettered; to shedding, not to accumulating; to modesty, not to self-aggrandizement; to contentment, not to discontent; to reclusiveness, not to entanglement; to aroused persistence, not to laziness; to being unburdensome, not to being burdensome’: You may categorically hold, ‘This is the Dhamma, this is the Vinaya, this is the Teacher’s instruction.’”"
     },
     {
       "number": 7,
-      "pali": "“Ye kho tvaṁ, gotami, dhamme jāneyyāsi: ",
-      "english": "“Gotamī, you might know that certain things "
-    },
-    {
-      "number": 8,
-      "pali": "‘ime dhammā sarāgāya saṁvattanti, no virāgāya; ",
-      "english": "lead to passion, not dispassion; "
-    },
-    {
-      "number": 9,
-      "pali": "saṁyogāya saṁvattanti, no visaṁyogāya; ",
-      "english": "to yoking, not to unyoking; "
-    },
-    {
-      "number": 10,
-      "pali": "ācayāya saṁvattanti, no apacayāya; ",
-      "english": "to accumulation, not dispersal; "
-    },
-    {
-      "number": 11,
-      "pali": "mahicchatāya saṁvattanti, no appicchatāya; ",
-      "english": "to more desires, not fewer; "
-    },
-    {
-      "number": 12,
-      "pali": "asantuṭṭhiyā saṁvattanti, no santuṭṭhiyā; ",
-      "english": "to lack of contentment, not contentment; "
-    },
-    {
-      "number": 13,
-      "pali": "saṅgaṇikāya saṁvattanti, no pavivekāya; ",
-      "english": "to crowding, not seclusion; "
-    },
-    {
-      "number": 14,
-      "pali": "kosajjāya saṁvattanti, no vīriyārambhāya; ",
-      "english": "to laziness, not energy; "
-    },
-    {
-      "number": 15,
-      "pali": "dubbharatāya saṁvattanti, no subharatāyā’ti, ",
-      "english": "to being burdensome, not being unburdensome. "
-    },
-    {
-      "number": 16,
-      "pali": "ekaṁsena, gotami, dhāreyyāsi: ",
-      "english": "Categorically, you should remember these things as "
-    },
-    {
-      "number": 17,
-      "pali": "‘neso dhammo, neso vinayo, netaṁ satthusāsanan’ti. ",
-      "english": "not the teaching, not the training, and not the Teacher’s instructions. "
-    },
-    {
-      "number": 18,
-      "pali": "Ye ca kho tvaṁ, gotami, dhamme jāneyyāsi: ",
-      "english": "You might know that certain things "
-    },
-    {
-      "number": 19,
-      "pali": "‘ime dhammā virāgāya saṁvattanti, no sarāgāya; ",
-      "english": "lead to dispassion, not passion; "
-    },
-    {
-      "number": 20,
-      "pali": "visaṁyogāya saṁvattanti, no saṁyogāya; ",
-      "english": "to unyoking, not to yoking; "
-    },
-    {
-      "number": 21,
-      "pali": "apacayāya saṁvattanti, no ācayāya; ",
-      "english": "to dispersal, not accumulation; "
-    },
-    {
-      "number": 22,
-      "pali": "appicchatāya saṁvattanti, no mahicchatāya; ",
-      "english": "to fewer desires, not more; "
-    },
-    {
-      "number": 23,
-      "pali": "santuṭṭhiyā saṁvattanti, no asantuṭṭhiyā; ",
-      "english": "to contentment, not lack of contentment; "
-    },
-    {
-      "number": 24,
-      "pali": "pavivekāya saṁvattanti, no saṅgaṇikāya; ",
-      "english": "to seclusion, not crowding; "
-    },
-    {
-      "number": 25,
-      "pali": "vīriyārambhāya saṁvattanti, no kosajjāya; ",
-      "english": "to energy, not laziness; "
-    },
-    {
-      "number": 26,
-      "pali": "subharatāya saṁvattanti, no dubbharatāyā’ti, ",
-      "english": "to being unburdensome, not being burdensome. "
-    },
-    {
-      "number": 27,
-      "pali": "ekaṁsena, gotami, dhāreyyāsi: ",
-      "english": "Categorically, you should remember these things as "
-    },
-    {
-      "number": 28,
-      "pali": "‘eso dhammo, eso vinayo, etaṁ satthusāsanan’”ti. ",
-      "english": "the teaching, the training, and the Teacher’s instructions.” "
-    },
-    {
-      "number": 29,
-      "pali": "Tatiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "That is what the Blessed One said. Gratified, Mahāpājapati Gotamī delighted in his words."
     }
   ]
 }

@@ -3,123 +3,93 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 12.15 ",
-      "english": "Linked Discourses 12.15 "
+      "pali": "Linked Discourses 12.15",
+      "english": "Linked Discourses 12.15"
     },
     {
       "number": 2,
-      "pali": "2. Āhāravagga ",
-      "english": "2. Fuel "
+      "pali": "Kaccānagotta Sutta",
+      "english": "To Kaccāna Gotta"
     },
     {
       "number": 3,
-      "pali": "Kaccānagottasutta ",
-      "english": "Kaccānagotta "
+      "pali": "",
+      "english": "This sutta discusses a level of right view that apparently lies beyond the four noble truths, and applies to the point in the practice where the path has been fully developed, has done its work, and now has to be abandoned. Whereas the four noble truths carry four different duties, this level of right view reduces all arising and passing away—including, apparently, the arising and passing away of the path—to stress, thus involving only one duty: comprehension to the point of dispassion. It is in this way that all fabricated dhammas are abandoned and unbinding can be fully realized. Other suttas discussing this level of right view include AN 7:58 , AN 10:93 , and Ud 1:10 ,"
     },
     {
       "number": 4,
-      "pali": "Sāvatthiyaṁ viharati. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "Staying near Sāvatthī … Then Ven. Kaccāna Gotta went to the Blessed One and, on arrival, having bowed down, sat to one side. As he was sitting there he said to the Blessed One: “Lord, ‘Right view, right view,’ it is said. To what extent is there right view?”"
     },
     {
       "number": 5,
-      "pali": "Atha kho āyasmā kaccānagotto yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā kaccānagotto bhagavantaṁ etadavoca: ",
-      "english": "Then Venerable Kaccānagotta went up to the Buddha, bowed, sat down to one side, and said to him: "
+      "pali": "",
+      "english": "“By & large, Kaccāna, this world is supported by [takes as its object] a polarity, that of existence & non-existence. But when one sees the origination of the world as it has come to be with right discernment, ‘non-existence’ with reference to the world does not occur to one. When one sees the cessation of the world as it has come to be with right discernment, ‘existence’ with reference to the world does not occur to one."
     },
     {
       "number": 6,
-      "pali": "“‘sammādiṭṭhi sammādiṭṭhī’ti, bhante, vuccati. ",
-      "english": "“Sir, they speak of this thing called ‘right view’. "
+      "pali": "",
+      "english": "“By & large, Kaccāna, this world is in bondage to attachments, clingings [sustenances], & biases. But one such as this does not get involved with or cling to these attachments, clingings, fixations of awareness, biases, or obsessions; nor is he resolved on ‘my self.’ He has no uncertainty or doubt that mere stress, when arising, is arising; stress, when passing away, is passing away. In this, his knowledge is independent of others. It’s to this extent, Kaccāna, that there is right view."
     },
     {
       "number": 7,
-      "pali": "Kittāvatā nu kho, bhante, sammādiṭṭhi hotī”ti? ",
-      "english": "How is right view defined?” "
+      "pali": "",
+      "english": "“‘Everything exists’: That is one extreme. ‘Everything doesn’t exist’: That is a second extreme. Avoiding these two extremes, the Tathāgata teaches the Dhamma via the middle: From ignorance as a requisite condition come fabrications."
     },
     {
       "number": 8,
-      "pali": "“Dvayanissito khvāyaṁ, kaccāna, loko yebhuyyena—atthitañceva natthitañca. ",
-      "english": "“Kaccāna, this world mostly relies on the duality of existence and non-existence. "
+      "pali": "",
+      "english": "From fabrications as a requisite condition comes consciousness."
     },
     {
       "number": 9,
-      "pali": "Lokasamudayaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke natthitā sā na hoti. ",
-      "english": "But for one who truly sees the origin of the world with right understanding, the concept of non-existence regarding the world does not occur. "
+      "pali": "",
+      "english": "From consciousness as a requisite condition comes name-&-form."
     },
     {
       "number": 10,
-      "pali": "Lokanirodhaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke atthitā sā na hoti. ",
-      "english": "And for one who truly sees the cessation of the world with right understanding, the concept of existence regarding the world does not occur. "
+      "pali": "",
+      "english": "From name-&-form as a requisite condition come the six sense media."
     },
     {
       "number": 11,
-      "pali": "Upayupādānābhinivesavinibandho khvāyaṁ, kaccāna, loko yebhuyyena. ",
-      "english": "This world is for the most part shackled by getting involved, grasping, and insisting. "
+      "pali": "",
+      "english": "From the six sense media as a requisite condition comes contact."
     },
     {
       "number": 12,
-      "pali": "Tañcāyaṁ upayupādānaṁ cetaso adhiṭṭhānaṁ abhinivesānusayaṁ na upeti na upādiyati nādhiṭṭhāti: ‘attā me’ti. ",
-      "english": "But if—for all that getting involved and grasping, mental fixation, and insistence and underlying tendency—they do not get attracted, grasp, and fixate on the thought, ‘my self’, "
+      "pali": "",
+      "english": "From contact as a requisite condition comes feeling."
     },
     {
       "number": 13,
-      "pali": "‘Dukkhameva uppajjamānaṁ uppajjati, dukkhaṁ nirujjhamānaṁ nirujjhatī’ti na kaṅkhati na vicikicchati aparapaccayā ñāṇamevassa ettha hoti. ",
-      "english": "they’ll have no doubt or uncertainty that what arises is just suffering arising, and what ceases is just suffering ceasing. Their knowledge of this is independent of others. "
+      "pali": "",
+      "english": "From feeling as a requisite condition comes craving."
     },
     {
       "number": 14,
-      "pali": "Ettāvatā kho, kaccāna, sammādiṭṭhi hoti. ",
-      "english": "This is how right view is defined. "
+      "pali": "",
+      "english": "From craving as a requisite condition comes clinging/sustenance."
     },
     {
       "number": 15,
-      "pali": "‘Sabbamatthī’ti kho, kaccāna, ayameko anto. ",
-      "english": "‘All exists’: this is one extreme. "
+      "pali": "",
+      "english": "From clinging/sustenance as a requisite condition comes becoming."
     },
     {
       "number": 16,
-      "pali": "‘Sabbaṁ natthī’ti ayaṁ dutiyo anto. ",
-      "english": "‘All does not exist’: this is the second extreme. "
+      "pali": "",
+      "english": "From becoming as a requisite condition comes birth."
     },
     {
       "number": 17,
-      "pali": "Ete te, kaccāna, ubho ante anupagamma majjhena tathāgato dhammaṁ deseti: ",
-      "english": "Avoiding these two extremes, the Realized One teaches by the middle way: "
+      "pali": "",
+      "english": "From birth as a requisite condition, then aging-&-death, sorrow, lamentation, pain, distress, & despair come into play. Such is the origination of this entire mass of stress & suffering."
     },
     {
       "number": 18,
-      "pali": "‘avijjāpaccayā saṅkhārā; ",
-      "english": "‘Ignorance is a requirement for choices. "
-    },
-    {
-      "number": 19,
-      "pali": "saṅkhārapaccayā viññāṇaṁ …pe… ",
-      "english": "Choices are a requirement for consciousness. … "
-    },
-    {
-      "number": 20,
-      "pali": "evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
-      "english": "That is how this entire mass of suffering originates. "
-    },
-    {
-      "number": 21,
-      "pali": "Avijjāya tveva asesavirāganirodhā saṅkhāranirodho; ",
-      "english": "When ignorance fades away and ceases with no residue left behind, choices cease. "
-    },
-    {
-      "number": 22,
-      "pali": "saṅkhāranirodhā viññāṇanirodho …pe… ",
-      "english": "When choices cease, consciousness ceases. … "
-    },
-    {
-      "number": 23,
-      "pali": "evametassa kevalassa dukkhakkhandhassa nirodho hotī’”ti. ",
-      "english": "That is how this entire mass of suffering ceases.’” "
-    },
-    {
-      "number": 24,
-      "pali": "Pañcamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Now from the remainderless fading & cessation of that very ignorance comes the cessation of fabrications. From the cessation of fabrications comes the cessation of consciousness. From the cessation of consciousness comes the cessation of name-&-form. From the cessation of name-&-form comes the cessation of the six sense media. From the cessation of the six sense media comes the cessation of contact. From the cessation of contact comes the cessation of feeling. From the cessation of feeling comes the cessation of craving. From the cessation of craving comes the cessation of clinging/sustenance. From the cessation of clinging/sustenance comes the cessation of becoming. From the cessation of becoming comes the cessation of birth. From the cessation of birth, then aging-&-death, sorrow, lamentation, pain, distress, & despair all cease. Such is the cessation of this entire mass of stress & suffering.”"
     }
   ]
 }

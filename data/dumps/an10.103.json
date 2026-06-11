@@ -3,63 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 10.103 ",
-      "english": "Numbered Discourses 10.103 "
+      "pali": "Numerical Discourses 10.103",
+      "english": "Numerical Discourses 10.103"
     },
     {
       "number": 2,
-      "pali": "11. Samaṇasaññāvagga ",
-      "english": "11. Perceptions for Ascetics "
+      "pali": "Micchatta Sutta",
+      "english": "Wrongness"
     },
     {
       "number": 3,
-      "pali": "Micchattasutta ",
-      "english": "The Wrong Way "
+      "pali": "",
+      "english": "“From wrongness comes failure, not success. And how is it, monks, that from wrongness comes failure, not success?"
     },
     {
       "number": 4,
-      "pali": "“Micchattaṁ, bhikkhave, āgamma virādhanā hoti, no ārādhanā. ",
-      "english": "“Mendicants, relying on the wrong way leads to failure, not success. "
+      "pali": "",
+      "english": "“In a person of wrong view, wrong resolve comes into being. In a person of wrong resolve, wrong speech. In a person of wrong speech, wrong action. In a person of wrong action, wrong livelihood. In a person of wrong livelihood, wrong effort. In a person of wrong effort, wrong mindfulness. In a person of wrong mindfulness, wrong concentration. In a person of wrong concentration, wrong knowledge. In a person of wrong knowledge, wrong release."
     },
     {
       "number": 5,
-      "pali": "Kathañca, bhikkhave, micchattaṁ āgamma virādhanā hoti, no ārādhanā? ",
-      "english": "And how does relying on the wrong way lead to failure, not success? "
+      "pali": "",
+      "english": "“This is how from wrongness comes failure, not success."
     },
     {
       "number": 6,
-      "pali": "Micchādiṭṭhikassa, bhikkhave, micchāsaṅkappo pahoti, micchāsaṅkappassa micchāvācā pahoti, micchāvācassa micchākammanto pahoti, micchākammantassa micchāājīvo pahoti, micchāājīvassa micchāvāyāmo pahoti, micchāvāyāmassa micchāsati pahoti, micchāsatissa micchāsamādhi pahoti, micchāsamādhissa micchāñāṇaṁ pahoti, micchāñāṇissa micchāvimutti pahoti. ",
-      "english": "Wrong view produces wrong purpose. Wrong purpose produces wrong speech. Wrong speech produces wrong action. Wrong action produces wrong livelihood. Wrong livelihood produces wrong effort. Wrong effort produces wrong mindfulness. Wrong mindfulness produces wrong immersion. Wrong immersion produces wrong knowledge. Wrong knowledge produces wrong freedom. "
+      "pali": "",
+      "english": "“From rightness comes success, not failure. And how is it, monks, that from rightness comes success, not failure?"
     },
     {
       "number": 7,
-      "pali": "Evaṁ kho, bhikkhave, micchattaṁ āgamma virādhanā hoti, no ārādhanā. ",
-      "english": "That’s how relying on the wrong way leads to failure, not success. "
+      "pali": "",
+      "english": "“In a person of right view, right resolve comes into being. In a person of right resolve, right speech. In a person of right speech, right action. In a person of right action, right livelihood. In a person of right livelihood, right effort. In a person of right effort, right mindfulness. In a person of right mindfulness, right concentration. In a person of right concentration, right knowledge. In a person of right knowledge, right release."
     },
     {
       "number": 8,
-      "pali": "Sammattaṁ, bhikkhave, āgamma ārādhanā hoti, no virādhanā. ",
-      "english": "Relying on the right way leads to success, not failure. "
-    },
-    {
-      "number": 9,
-      "pali": "Kathañca, bhikkhave, sammattaṁ āgamma ārādhanā hoti, no virādhanā? ",
-      "english": "And how does relying on the right way lead to success, not failure? "
-    },
-    {
-      "number": 10,
-      "pali": "Sammādiṭṭhikassa, bhikkhave, sammāsaṅkappo pahoti, sammāsaṅkappassa sammāvācā pahoti, sammāvācassa sammākammanto pahoti, sammākammantassa sammāājīvo pahoti, sammāājīvassa sammāvāyāmo pahoti, sammāvāyāmassa sammāsati pahoti, sammāsatissa sammāsamādhi pahoti, sammāsamādhissa sammāñāṇaṁ pahoti, sammāñāṇissa sammāvimutti pahoti. ",
-      "english": "Right view produces right purpose. Right purpose produces right speech. Right speech produces right action. Right action produces right livelihood. Right livelihood produces right effort. Right effort produces right mindfulness. Right mindfulness produces right immersion. Right immersion produces right knowledge. Right knowledge produces right freedom. "
-    },
-    {
-      "number": 11,
-      "pali": "Evaṁ kho, bhikkhave, sammattaṁ āgamma ārādhanā hoti, no virādhanā”ti. ",
-      "english": "That’s how relying on the right way leads to success, not failure.” "
-    },
-    {
-      "number": 12,
-      "pali": "Tatiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“This is how from rightness comes success, not failure.”"
     }
   ]
 }

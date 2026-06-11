@@ -3,108 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 3.97 ",
-      "english": "Numbered Discourses 3.97 "
+      "pali": "Numerical Discourses 3.97",
+      "english": "Numerical Discourses 3.97"
     },
     {
       "number": 2,
-      "pali": "10. Loṇakapallavagga ",
-      "english": "10. A Lump of Salt "
+      "pali": "Ājāniya Sutta",
+      "english": "The Thoroughbred"
     },
     {
       "number": 3,
-      "pali": "Dutiyaājānīyasutta ",
-      "english": "The Thoroughbred (2nd) "
+      "pali": "",
+      "english": "“Endowed with three characteristics, a king’s excellent thoroughbred steed is worthy of a king, the wealth of a king, and counts as one of the king’s own limbs. Which three? There is the case where a king’s excellent thoroughbred steed is consummate in beauty, consummate in strength, and consummate in speed. Endowed with these three characteristics is a king’s excellent thoroughbred steed worthy of a king, the wealth of a king, and counts as one of the king’s own limbs."
     },
     {
       "number": 4,
-      "pali": "“Tīhi, bhikkhave, aṅgehi samannāgato rañño bhadro assājānīyo rājāraho hoti rājabhoggo, rañño aṅganteva saṅkhayaṁ gacchati. ",
-      "english": "“Mendicants, a fine royal thoroughbred with three factors is worthy of a king, fit to serve a king, and considered a factor of kingship. "
+      "pali": "",
+      "english": "“In the same way, a monk endowed with these three qualities is deserving of gifts, deserving of hospitality, deserving of offerings, deserving of respect, an unexcelled field of merit for the world. Which three? There is the case where a monk is consummate in beauty, consummate in strength, and consummate in speed."
     },
     {
       "number": 5,
-      "pali": "Katamehi tīhi? ",
-      "english": "What three? "
+      "pali": "",
+      "english": "“And how is a monk consummate in beauty? There is the case where a monk is virtuous. He dwells restrained in accordance with the Pāṭimokkha, consummate in his behavior & sphere of activity. He trains himself, having undertaken the training rules, seeing danger in the slightest fault. This is how a monk is consummate in beauty."
     },
     {
       "number": 6,
-      "pali": "Idha, bhikkhave, rañño bhadro assājānīyo vaṇṇasampanno ca hoti balasampanno ca javasampanno ca. ",
-      "english": "It’s when a fine royal thoroughbred is beautiful, strong, and fast. "
+      "pali": "",
+      "english": "“And how is a monk consummate in strength? There is the case where a monk keeps his persistence aroused for abandoning unskillful mental qualities and taking on skillful mental qualities. He is steadfast, solid in his effort, not shirking his duties with regard to skillful mental qualities. This is how a monk is consummate in strength."
     },
     {
       "number": 7,
-      "pali": "Imehi kho, bhikkhave, tīhi aṅgehi samannāgato rañño bhadro assājānīyo rājāraho hoti rājabhoggo, rañño aṅganteva saṅkhyaṁ gacchati. ",
-      "english": "A fine royal thoroughbred with these three factors is worthy of a king, … "
+      "pali": "",
+      "english": "“And how is a monk consummate in speed? There is the case where a monk discerns as it has come to be that ‘This is stress.’ He discerns as it has come to be that ‘This is the origination of stress.’ He discerns as it has come to be that ‘This is the cessation of stress.’ He discerns as it has come to be that ‘This is the path of practice leading to the cessation of stress.’ 1 This is how a monk is consummate in speed."
     },
     {
       "number": 8,
-      "pali": "Evamevaṁ kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassa. ",
-      "english": "In the same way, a mendicant with three qualities is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, worthy of veneration with cupped palms, and is the supreme field of merit for the world. "
-    },
-    {
-      "number": 9,
-      "pali": "Katamehi tīhi? ",
-      "english": "What three? "
-    },
-    {
-      "number": 10,
-      "pali": "Idha, bhikkhave, bhikkhu vaṇṇasampanno ca hoti balasampanno ca javasampanno ca. ",
-      "english": "It’s when a mendicant is beautiful, strong, and fast. "
-    },
-    {
-      "number": 11,
-      "pali": "Kathañca, bhikkhave, bhikkhu vaṇṇasampanno hoti? ",
-      "english": "And how is a mendicant beautiful? "
-    },
-    {
-      "number": 12,
-      "pali": "Idha, bhikkhave, bhikkhu sīlavā hoti …pe… samādāya sikkhati sikkhāpadesu. ",
-      "english": "It’s when a mendicant is ethical, restrained in the monastic code, conducting themselves well and resorting for alms in suitable places. Seeing danger in the slightest fault, they keep the rules they’ve undertaken. "
-    },
-    {
-      "number": 13,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu vaṇṇasampanno hoti. ",
-      "english": "That’s how a mendicant is beautiful. "
-    },
-    {
-      "number": 14,
-      "pali": "Kathañca, bhikkhave, bhikkhu balasampanno hoti? ",
-      "english": "And how is a mendicant strong? "
-    },
-    {
-      "number": 15,
-      "pali": "Idha, bhikkhave, bhikkhu āraddhavīriyo viharati akusalānaṁ dhammānaṁ pahānāya kusalānaṁ dhammānaṁ upasampadāya thāmavā daḷhaparakkamo anikkhittadhuro kusalesu dhammesu. ",
-      "english": "It’s when a mendicant lives with energy roused up for giving up unskillful qualities and embracing skillful qualities. They are strong, staunchly vigorous, not slacking off when it comes to developing skillful qualities. "
-    },
-    {
-      "number": 16,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu balasampanno hoti. ",
-      "english": "That’s how a mendicant is strong. "
-    },
-    {
-      "number": 17,
-      "pali": "Kathañca, bhikkhave, bhikkhu javasampanno hoti? ",
-      "english": "And how is a mendicant fast? "
-    },
-    {
-      "number": 18,
-      "pali": "Idha, bhikkhave, bhikkhu pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti tattha parinibbāyī anāvattidhammo tasmā lokā. ",
-      "english": "It’s when a mendicant, with the ending of the five lower fetters, is reborn spontaneously. They’re extinguished there, and are not liable to return from that world. "
-    },
-    {
-      "number": 19,
-      "pali": "Evaṁ kho, bhikkhave, bhikkhu javasampanno hoti. ",
-      "english": "That’s how a mendicant is fast. "
-    },
-    {
-      "number": 20,
-      "pali": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassā”ti. ",
-      "english": "A mendicant with these three qualities is worthy of offerings dedicated to the gods, worthy of hospitality, worthy of a religious donation, worthy of veneration with cupped palms, and is the supreme field of merit for the world.” "
-    },
-    {
-      "number": 21,
-      "pali": "Chaṭṭhaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Endowed with these three qualities is a monk deserving of gifts, deserving of hospitality, deserving of offerings, deserving of respect, an unexcelled field of merit for the world.”"
     }
   ]
 }

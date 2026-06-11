@@ -3,183 +3,63 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 5.106 ",
-      "english": "Numbered Discourses 5.106 "
+      "pali": "Numerical Discourses 5.106",
+      "english": "Numerical Discourses 5.106"
     },
     {
       "number": 2,
-      "pali": "11. Phāsuvihāravagga ",
-      "english": "11. Living Comfortably "
+      "pali": "Phāsu Sutta",
+      "english": "Comfortably"
     },
     {
       "number": 3,
-      "pali": "Ānandasutta ",
-      "english": "With Ānanda "
+      "pali": "",
+      "english": "On one occasion the Blessed One was staying near Kosambī in Ghosita’s monastery. Then Ven. Ānanda went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “To what extent, lord, might one, when living with the Saṅgha of monks, live comfortably?”"
     },
     {
       "number": 4,
-      "pali": "Ekaṁ samayaṁ bhagavā kosambiyaṁ viharati ghositārāme. ",
-      "english": "At one time the Buddha was staying near Kosambī, in Ghosita’s Monastery. "
+      "pali": "",
+      "english": "“Ānanda, when a monk is himself consummate in virtue, but is not one who confronts another with regard to heightened virtue, it’s to this extent that, when living with the Saṅgha of monks, he might live comfortably.”"
     },
     {
       "number": 5,
-      "pali": "Atha kho āyasmā ānando yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā ānando bhagavantaṁ etadavoca: ",
-      "english": "Then Venerable Ānanda went up to the Buddha, bowed, sat down to one side, and said to him, "
+      "pali": "",
+      "english": "“Would there be another way, lord, in which, when living with the Saṅgha of monks, one might live comfortably?”"
     },
     {
       "number": 6,
-      "pali": "“Kittāvatā nu kho, bhante, bhikkhu saṅghe viharanto phāsuṁ vihareyyā”ti? ",
-      "english": "“Sir, how could a mendicant live comfortably while staying in a monastic community?” "
+      "pali": "",
+      "english": "“There would, Ānanda,” the Blessed One said. “When a monk is himself consummate in virtue, but is not one who confronts another with regard to heightened virtue, and when he keeps watch over himself but does not keep watch over others, it’s to this extent that, when living with the Saṅgha of monks, he might live comfortably.”"
     },
     {
       "number": 7,
-      "pali": "“Yato kho, ānanda, bhikkhu attanā sīlasampanno hoti, no paraṁ adhisīle sampavattā; ",
-      "english": "“It’s when a mendicant is accomplished in their own ethical conduct, but they don’t urge others to be ethical. "
+      "pali": "",
+      "english": "“Would there be another way, lord, in which, when living with the Saṅgha of monks, one might live comfortably?”"
     },
     {
       "number": 8,
-      "pali": "ettāvatāpi kho, ānanda, bhikkhu saṅghe viharanto phāsuṁ vihareyyā”ti. ",
-      "english": "That’s how a mendicant could live comfortably while staying in a monastic community.” "
+      "pali": "",
+      "english": "“There would, Ānanda,” the Blessed One said. “When a monk is himself consummate in virtue, but is not one who confronts another with regard to heightened virtue; when he keeps watch over himself but does not keep watch over others; and when he is little-known but is not agitated over his lack of renown, it’s to this extent that, when living with the Saṅgha of monks, he might live comfortably.”"
     },
     {
       "number": 9,
-      "pali": "“Siyā pana, bhante, aññopi pariyāyo yathā bhikkhu saṅghe viharanto phāsuṁ vihareyyā”ti? ",
-      "english": "“But sir, could there be another way for a mendicant to live comfortably while staying in a monastic community?” "
+      "pali": "",
+      "english": "“Would there be another way, lord, in which, when living with the Saṅgha of monks, one might live comfortably?”"
     },
     {
       "number": 10,
-      "pali": "“Siyā, ānanda. ",
-      "english": "“There could, Ānanda. "
+      "pali": "",
+      "english": "“There would, Ānanda,” the Blessed One said. “When a monk is himself consummate in virtue, but is not one who confronts another with regard to heightened virtue; when he keeps watch over himself but does not keep watch over others; when he is little-known but is not agitated over his lack of renown; and when he can attain as he likes, without difficulty, without trouble, the four jhānas that are heightened mind-states and pleasant abidings in the here-&-now, it’s to this extent that, when living with the Saṅgha of monks, he might live comfortably.”"
     },
     {
       "number": 11,
-      "pali": "Yato kho, ānanda, bhikkhu attanā sīlasampanno hoti, no paraṁ adhisīle sampavattā; ",
-      "english": "It’s when a mendicant is accomplished in their own ethical conduct, but they don’t urge others to be ethical. "
+      "pali": "",
+      "english": "“Would there be another way, lord, in which, when living with the Saṅgha of monks, one might live comfortably?”"
     },
     {
       "number": 12,
-      "pali": "attānupekkhī ca hoti, no parānupekkhī; ",
-      "english": "And they watch themselves, but don’t watch others. "
-    },
-    {
-      "number": 13,
-      "pali": "ettāvatāpi kho, ānanda, bhikkhu saṅghe viharanto phāsuṁ vihareyyā”ti. ",
-      "english": "That’s how a mendicant could live comfortably while staying in a monastic community.” "
-    },
-    {
-      "number": 14,
-      "pali": "“Siyā pana, bhante, aññopi pariyāyo yathā bhikkhu saṅghe viharanto phāsuṁ vihareyyā”ti? ",
-      "english": "“But sir, could there be another way for a mendicant to live comfortably while staying in a monastic community?” "
-    },
-    {
-      "number": 15,
-      "pali": "“Siyā, ānanda. ",
-      "english": "“There could, Ānanda. "
-    },
-    {
-      "number": 16,
-      "pali": "Yato kho, ānanda, bhikkhu attanā sīlasampanno hoti, no paraṁ adhisīle sampavattā; ",
-      "english": "It’s when a mendicant is accomplished in their own ethical conduct, but they don’t urge others to be ethical. "
-    },
-    {
-      "number": 17,
-      "pali": "attānupekkhī ca hoti, no parānupekkhī; ",
-      "english": "And they watch themselves, but don’t watch others. "
-    },
-    {
-      "number": 18,
-      "pali": "apaññāto ca hoti, tena ca apaññātakena no paritassati; ",
-      "english": "And they’re not well-known, but aren’t bothered by that. "
-    },
-    {
-      "number": 19,
-      "pali": "ettāvatāpi kho, ānanda, bhikkhu saṅghe viharanto phāsuṁ vihareyyā”ti. ",
-      "english": "That’s how a mendicant could live comfortably while staying in a monastic community.” "
-    },
-    {
-      "number": 20,
-      "pali": "“Siyā pana, bhante, aññopi pariyāyo yathā bhikkhu saṅghe viharanto phāsuṁ vihareyyā”ti? ",
-      "english": "“But sir, could there be another way for a mendicant to live comfortably while staying in a monastic community?” "
-    },
-    {
-      "number": 21,
-      "pali": "“Siyā, ānanda. ",
-      "english": "“There could, Ānanda. "
-    },
-    {
-      "number": 22,
-      "pali": "Yato kho, ānanda, bhikkhu attanā sīlasampanno hoti, no paraṁ adhisīle sampavattā; ",
-      "english": "It’s when a mendicant is accomplished in their own ethical conduct, but they don’t urge others to be ethical. "
-    },
-    {
-      "number": 23,
-      "pali": "attānupekkhī ca hoti, no parānupekkhī; ",
-      "english": "And they watch themselves, but don’t watch others. "
-    },
-    {
-      "number": 24,
-      "pali": "apaññāto ca hoti, tena ca apaññātakena no paritassati; ",
-      "english": "And they’re not well-known, but aren’t bothered by that. "
-    },
-    {
-      "number": 25,
-      "pali": "catunnañca jhānānaṁ ābhicetasikānaṁ diṭṭhadhammasukhavihārānaṁ nikāmalābhī hoti akicchalābhī akasiralābhī; ",
-      "english": "And they get the four absorptions—blissful meditations in this life that belong to the higher mind—when they want, without trouble or difficulty. "
-    },
-    {
-      "number": 26,
-      "pali": "ettāvatāpi kho, ānanda, bhikkhu saṅghe viharanto phāsuṁ vihareyyā”ti. ",
-      "english": "That’s how a mendicant could live comfortably while staying in a monastic community.” "
-    },
-    {
-      "number": 27,
-      "pali": "“Siyā pana, bhante, aññopi pariyāyo yathā bhikkhu saṅghe viharanto phāsuṁ vihareyyā”ti? ",
-      "english": "“But sir, might there be another way for a mendicant to live comfortably while staying in a monastic community?” "
-    },
-    {
-      "number": 28,
-      "pali": "“Siyā, ānanda. ",
-      "english": "“There could, Ānanda. "
-    },
-    {
-      "number": 29,
-      "pali": "Yato kho, ānanda, bhikkhu attanā sīlasampanno hoti, no paraṁ adhisīle sampavattā; ",
-      "english": "It’s when a mendicant is accomplished in their own ethical conduct, but they don’t urge others to be ethical. "
-    },
-    {
-      "number": 30,
-      "pali": "attānupekkhī ca hoti, no parānupekkhī; ",
-      "english": "And they watch themselves, but don’t watch others. "
-    },
-    {
-      "number": 31,
-      "pali": "apaññāto ca hoti, tena ca apaññātakena no paritassati; ",
-      "english": "And they’re not well-known, but aren’t bothered by that. "
-    },
-    {
-      "number": 32,
-      "pali": "catunnañca jhānānaṁ ābhicetasikānaṁ diṭṭhadhammasukhavihārānaṁ nikāmalābhī hoti akicchalābhī akasiralābhī; ",
-      "english": "And they get the four absorptions—blissful meditations in this life that belong to the higher mind—when they want, without trouble or difficulty. "
-    },
-    {
-      "number": 33,
-      "pali": "āsavānañca khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati; ",
-      "english": "And they realize the undefiled freedom of heart and freedom by wisdom in this very life. And they live having realized it with their own insight due to the ending of defilements. "
-    },
-    {
-      "number": 34,
-      "pali": "ettāvatāpi kho, ānanda, bhikkhu saṅghe viharanto phāsuṁ vihareyya. ",
-      "english": "That’s how a mendicant could live comfortably while staying in a monastic community. "
-    },
-    {
-      "number": 35,
-      "pali": "Imamhā cāhaṁ, ānanda, phāsuvihārā añño phāsuvihāro uttaritaro vā paṇītataro vā natthīti vadāmī”ti. ",
-      "english": "And I say that there is no better or finer way of living comfortably than this.” "
-    },
-    {
-      "number": 36,
-      "pali": "Chaṭṭhaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“There would, Ānanda,” the Blessed One said. “When a monk is himself consummate in virtue, but is not one who confronts another with regard to heightened virtue; when he keeps watch over himself but does not keep watch over others; when he is little-known but is not agitated over his lack of renown; when he can attain as he likes, without difficulty, without trouble, the four jhānas that are heightened mind-states and pleasant abidings in the here-&-now; and when—with the ending of effluents—he enters & remains in the effluent-free awareness-release & discernment-release, having directly known & realized it for himself right in the here & now, it’s to this extent that, when living with the Saṅgha of monks, he might live comfortably. And I tell you, Ānanda, as for any other comfortable abiding higher or more sublime than this, there is none.”"
     }
   ]
 }

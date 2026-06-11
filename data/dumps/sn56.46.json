@@ -3,118 +3,48 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 56.46 ",
-      "english": "Linked Discourses 56.46 "
+      "pali": "Linked Discourses 56.46",
+      "english": "Linked Discourses 56.46"
     },
     {
       "number": 2,
-      "pali": "5. Papātavagga ",
-      "english": "5. A Cliff "
+      "pali": "Andhakāra Sutta",
+      "english": "Darkness"
     },
     {
       "number": 3,
-      "pali": "Andhakārasutta ",
-      "english": "Darkness "
+      "pali": "",
+      "english": "“There is, monks, an inter-cosmic [intergalactic?] void, an unrestrained darkness, a pitch-black darkness, where even the light of the sun & moon—so mighty, so powerful—doesn’t reach.”"
     },
     {
       "number": 4,
-      "pali": "“Atthi, bhikkhave, lokantarikā aghā asaṁvutā andhakārā andhakāratimisā, yatthamimesaṁ candimasūriyānaṁ evaṁmahiddhikānaṁ evaṁ mahānubhāvānaṁ ābhāya nānubhontī”ti. ",
-      "english": "“Mendicants, the boundless gloom of interstellar space is so utterly dark that even the luminosity of the moon and the sun, so mighty and powerful, makes no impression.” "
+      "pali": "",
+      "english": "When this was said, one of the monks said to the Blessed One, “Wow, what a great darkness! What a really great darkness! Is there any darkness greater & more frightening than that?”"
     },
     {
       "number": 5,
-      "pali": "Evaṁ vutte, aññataro bhikkhu bhagavantaṁ etadavoca: ",
-      "english": "When he said this, one of the mendicants asked the Buddha, "
+      "pali": "",
+      "english": "“There is, monk, a darkness greater & more frightening than that.”"
     },
     {
       "number": 6,
-      "pali": "“mahā vata so, bhante, andhakāro, sumahā vata so, bhante, andhakāro. ",
-      "english": "“Sir, that darkness really is mighty, so very mighty. "
+      "pali": "",
+      "english": "“And which darkness, lord, is greater & more frightening than that?”"
     },
     {
       "number": 7,
-      "pali": "Atthi nu kho, bhante, etamhā andhakārā añño andhakāro mahantataro ca bhayānakataro cā”ti? ",
-      "english": "Is there any other darkness more mighty and terrifying than this one?” "
+      "pali": "",
+      "english": "“Any contemplatives or brahmans who do not know, as it has come to be, that ‘This is stress’; who do not know, as it has come to be, that ‘This is the origination of stress’ … ‘This is the cessation of stress’ … ‘This is the path of practice leading to the cessation of stress’: They revel in fabrications leading to birth; they revel in fabrications leading to aging; they revel in fabrications leading to death; they revel in fabrications leading to sorrow, lamentation, pain, distress, & despair. Reveling in fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, & despair, they fabricate fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, & despair. Fabricating fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, & despair, they drop into the darkness of birth. They drop into the darkness of aging… the darkness of death… darkness of sorrow, lamentation, pain, distress, & despair. They are not totally released from birth, aging, death, sorrows, lamentations, pains, distresses, & despairs. They are not totally released, I tell you, from suffering & stress."
     },
     {
       "number": 8,
-      "pali": "“Atthi kho, bhikkhu, etamhā andhakārā añño andhakāro mahantataro ca bhayānakataro cā”ti. ",
-      "english": "“There is, mendicant.” "
+      "pali": "",
+      "english": "“But as for any contemplatives or brahmans who do know, as it has come to be, that ‘This is stress’; who know, as it has come to be, that ‘This is the origination of stress’ … ‘This is the cessation of stress’ … ‘This is the path of practice leading to the cessation of stress’: They don’t revel in fabrications leading to birth; don’t revel in fabrications leading to aging; don’t revel in fabrications leading to death; don’t revel in fabrications leading to sorrow, lamentation, pain, distress, & despair. Not reveling in fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, & despair, they don’t fabricate fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, & despair. Not fabricating fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, & despair, they don’t drop into the darkness of birth. They don’t drop into the darkness of aging, don’t drop into the darkness of death, don’t drop into the darkness of sorrow, lamentation, pain, distress, & despair. They are totally released from birth, aging, death, sorrows, lamentations, pains, distresses, & despairs. They are totally released, I tell you, from suffering & stress."
     },
     {
       "number": 9,
-      "pali": "“Katamo pana, bhante, etamhā andhakārā añño andhakāro mahantataro ca bhayānakataro cā”ti? ",
-      "english": "“But sir, what is it?” "
-    },
-    {
-      "number": 10,
-      "pali": "“Ye hi keci, bhikkhu, samaṇā vā brāhmaṇā vā ‘idaṁ dukkhan’ti yathābhūtaṁ nappajānanti …pe… ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ nappajānanti, ",
-      "english": "“There are ascetics and brahmins who don’t truly understand about suffering, its origin, its cessation, and the path. "
-    },
-    {
-      "number": 11,
-      "pali": "te jātisaṁvattanikesu saṅkhāresu abhiramanti …pe… ",
-      "english": "They take pleasure in choices that lead to rebirth … "
-    },
-    {
-      "number": 12,
-      "pali": "abhiratā …pe… abhisaṅkharonti …pe… ",
-      "english": "They continue to make such choices … "
-    },
-    {
-      "number": 13,
-      "pali": "abhisaṅkharitvā jātandhakārampi papatanti, jarandhakārampi papatanti, maraṇandhakārampi papatanti, sokaparidevadukkhadomanassupāyāsandhakārampi papatanti. ",
-      "english": "Having made such choices, they fall into the darkness of rebirth, old age, and death, of sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 14,
-      "pali": "Te na parimuccanti jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi. ",
-      "english": "They’re not freed from rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 15,
-      "pali": "‘Na parimuccanti dukkhasmā’ti vadāmi. ",
-      "english": "They’re not freed from suffering, I say. "
-    },
-    {
-      "number": 16,
-      "pali": "Ye ca kho keci, bhikkhu, samaṇā vā brāhmaṇā vā ‘idaṁ dukkhan’ti yathābhūtaṁ pajānanti …pe… ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yathābhūtaṁ pajānanti, ",
-      "english": "There are ascetics and brahmins who truly understand about suffering, its origin, its cessation, and the path. "
-    },
-    {
-      "number": 17,
-      "pali": "te jātisaṁvattanikesu saṅkhāresu nābhiramanti …pe… ",
-      "english": "They don’t take pleasure in choices that lead to rebirth … "
-    },
-    {
-      "number": 18,
-      "pali": "anabhiratā …pe… nābhisaṅkharonti …pe… ",
-      "english": "They stop making such choices … "
-    },
-    {
-      "number": 19,
-      "pali": "anabhisaṅkharitvā jātandhakārampi nappapatanti, jarandhakārampi nappapatanti, maraṇandhakārampi nappapatanti, sokaparidevadukkhadomanassupāyāsandhakārampi nappapatanti. ",
-      "english": "Having stopped making such choices, they don’t fall into the darkness of rebirth, old age, and death, of sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 20,
-      "pali": "Te parimuccanti jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi. ",
-      "english": "They’re freed from rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. "
-    },
-    {
-      "number": 21,
-      "pali": "‘Parimuccanti dukkhasmā’ti vadāmi. ",
-      "english": "They’re freed from suffering, I say. "
-    },
-    {
-      "number": 22,
-      "pali": "Tasmātiha, bhikkhave, ‘idaṁ dukkhan’ti yogo karaṇīyo …pe… ‘ayaṁ dukkhanirodhagāminī paṭipadā’ti yogo karaṇīyo”ti. ",
-      "english": "That’s why you should practice meditation …” "
-    },
-    {
-      "number": 23,
-      "pali": "Chaṭṭhaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Therefore, monks, your duty is the contemplation, ‘This is stress … This is the origination of stress … This is the cessation of stress.’ Your duty is the contemplation, ‘This is the path of practice leading to the cessation of stress.’”"
     }
   ]
 }

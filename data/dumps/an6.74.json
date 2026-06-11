@@ -3,93 +3,18 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 6.74 ",
-      "english": "Numbered Discourses 6.74 "
+      "pali": "Numerical Discourses 6.74",
+      "english": "Numerical Discourses 6.74"
     },
     {
       "number": 2,
-      "pali": "7. Devatāvagga ",
-      "english": "7. A God "
+      "pali": "Jhāna Sutta",
+      "english": "Jhāna (2)"
     },
     {
       "number": 3,
-      "pali": "Dutiyatajjhānasutta ",
-      "english": "First Absorption (2nd) "
-    },
-    {
-      "number": 4,
-      "pali": "“Cha, bhikkhave, dhamme appahāya abhabbo paṭhamaṁ jhānaṁ upasampajja viharituṁ. ",
-      "english": "“Mendicants, without giving up these six qualities you can’t enter and remain in the first absorption. "
-    },
-    {
-      "number": 5,
-      "pali": "Katame cha? ",
-      "english": "What six? "
-    },
-    {
-      "number": 6,
-      "pali": "Kāmavitakkaṁ, byāpādavitakkaṁ, vihiṁsāvitakkaṁ, kāmasaññaṁ, byāpādasaññaṁ, vihiṁsāsaññaṁ—",
-      "english": "Sensual, malicious, and cruel thoughts; and sensual, malicious, and cruel perceptions. "
-    },
-    {
-      "number": 7,
-      "pali": "ime kho, bhikkhave, cha dhamme appahāya abhabbo paṭhamaṁ jhānaṁ upasampajja viharituṁ. ",
-      "english": "Without giving up these six qualities you can’t enter and remain in the first absorption. "
-    },
-    {
-      "number": 8,
-      "pali": "Cha, bhikkhave, dhamme pahāya bhabbo paṭhamaṁ jhānaṁ upasampajja viharituṁ. ",
-      "english": "But after giving up these six qualities you can enter and remain in the first absorption. "
-    },
-    {
-      "number": 9,
-      "pali": "Katame cha? ",
-      "english": "What six? "
-    },
-    {
-      "number": 10,
-      "pali": "Kāmavitakkaṁ, byāpādavitakkaṁ, vihiṁsāvitakkaṁ, kāmasaññaṁ, byāpādasaññaṁ, vihiṁsāsaññaṁ—",
-      "english": "Sensual, malicious, and cruel thoughts; and sensual, malicious, and cruel perceptions. "
-    },
-    {
-      "number": 11,
-      "pali": "ime kho, bhikkhave, cha dhamme pahāya bhabbo paṭhamaṁ jhānaṁ upasampajja viharitun”ti. ",
-      "english": "After giving up these six qualities you can enter and remain in the first absorption.” "
-    },
-    {
-      "number": 12,
-      "pali": "Dasamaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 13,
-      "pali": "Devatāvaggo sattamo. ",
-      "english": ""
-    },
-    {
-      "number": 14,
-      "pali": "Tassuddānaṁ ",
-      "english": ""
-    },
-    {
-      "number": 15,
-      "pali": "Anāgāmi arahaṁ mittā, ",
-      "english": ""
-    },
-    {
-      "number": 16,
-      "pali": "saṅgaṇikārāmadevatā; ",
-      "english": ""
-    },
-    {
-      "number": 17,
-      "pali": "Samādhisakkhibhabbaṁ balaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 18,
-      "pali": "tajjhānā apare duveti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Monks, without abandoning six things, one is incapable of entering & remaining in the first jhāna. Which six? Thoughts of sensuality, thoughts of ill will, thoughts of harmfulness; perceptions of sensuality, perceptions of ill will, perceptions of harmfulness. Without abandoning these six things, one is incapable of entering & remaining in the first jhāna.”"
     }
   ]
 }

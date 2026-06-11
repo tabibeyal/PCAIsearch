@@ -3,108 +3,68 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 65 ",
-      "english": "So It Was Said 65 "
+      "pali": "Itivuttaka 65",
+      "english": "Itivuttaka 65"
     },
     {
       "number": 2,
-      "pali": "Tikanipāta ",
-      "english": "The Book of the Threes "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Dutiyavagga ",
-      "english": "Chapter Two "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, there are these three kinds of good conduct. Which three? Bodily good conduct, verbal good conduct, mental good conduct. These are the three kinds of good conduct.”"
     },
     {
       "number": 4,
-      "pali": "Sucaritasutta ",
-      "english": "Good Conduct "
+      "pali": "",
+      "english": "Having abandoned"
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "bodily misconduct,"
     },
     {
       "number": 6,
-      "pali": "“Tīṇimāni, bhikkhave, sucaritāni. ",
-      "english": "“Mendicants, there are these kinds of good conduct. "
+      "pali": "",
+      "english": "acts of verbal misconduct,"
     },
     {
       "number": 7,
-      "pali": "Katamāni tīṇi? ",
-      "english": "What three? "
+      "pali": "",
+      "english": "misconduct of mind,"
     },
     {
       "number": 8,
-      "pali": "Kāyasucaritaṁ, vacīsucaritaṁ, manosucaritaṁ—",
-      "english": "Good conduct by way of body, speech, and mind. "
+      "pali": "",
+      "english": "& whatever else is flawed,"
     },
     {
       "number": 9,
-      "pali": "imāni kho, bhikkhave, tīṇi sucaritānī”ti. ",
-      "english": "These are the three kinds of good conduct.” "
+      "pali": "",
+      "english": "not having done what’s not skillful,"
     },
     {
       "number": 10,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "having done much that is,"
     },
     {
       "number": 11,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "at the break-up of the body,"
     },
     {
       "number": 12,
-      "pali": "“Kāyaduccaritaṁ hitvā, ",
-      "english": "“Having given up bad conduct "
+      "pali": "",
+      "english": "the discerning one reappears"
     },
     {
       "number": 13,
-      "pali": "vacīduccaritāni ca; ",
-      "english": "by way of body, "
-    },
-    {
-      "number": 14,
-      "pali": "Manoduccaritaṁ hitvā, ",
-      "english": "speech, and mind, "
-    },
-    {
-      "number": 15,
-      "pali": "yañcaññaṁ dosasaṁhitaṁ. ",
-      "english": "and whatever else is corrupt; "
-    },
-    {
-      "number": 16,
-      "pali": "Akatvākusalaṁ kammaṁ, ",
-      "english": "not having done bad deeds, "
-    },
-    {
-      "number": 17,
-      "pali": "katvāna kusalaṁ bahuṁ; ",
-      "english": "and having done many good, "
-    },
-    {
-      "number": 18,
-      "pali": "Kāyassa bhedā sappañño, ",
-      "english": "when their body breaks up, that wise person "
-    },
-    {
-      "number": 19,
-      "pali": "saggaṁ so upapajjatī”ti. ",
-      "english": "is reborn in heaven.” "
-    },
-    {
-      "number": 20,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 21,
-      "pali": "Chaṭṭhaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "in heaven."
     }
   ]
 }

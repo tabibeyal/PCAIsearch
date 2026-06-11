@@ -3,103 +3,58 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 44.10 ",
-      "english": "Linked Discourses 44.10 "
+      "pali": "Linked Discourses 44.10",
+      "english": "Linked Discourses 44.10"
     },
     {
       "number": 2,
-      "pali": "1. Abyākatavagga ",
-      "english": "1. The Undeclared Points "
+      "pali": "Ānanda Sutta",
+      "english": "To Ānanda"
     },
     {
       "number": 3,
-      "pali": "Ānandasutta ",
-      "english": "With Ānanda "
+      "pali": "",
+      "english": "Then the wanderer Vacchagotta went to the Blessed One and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings & courtesies, he sat to one side. As he was sitting there he asked the Blessed One: “Now then, Master Gotama, is there a self?”"
     },
     {
       "number": 4,
-      "pali": "Atha kho vacchagotto paribbājako yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
-      "english": "Then the wanderer Vacchagotta went up to the Buddha and exchanged greetings with him. "
+      "pali": "",
+      "english": "When this was said, the Blessed One was silent."
     },
     {
       "number": 5,
-      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho vacchagotto paribbājako bhagavantaṁ etadavoca: ",
-      "english": "When the greetings and polite conversation were over, he sat down to one side and said to the Buddha: "
+      "pali": "",
+      "english": "“Then is there no self?”"
     },
     {
       "number": 6,
-      "pali": "“kiṁ nu kho, bho gotama, atthattā”ti? ",
-      "english": "“Worthy Gotama, does the self survive?” "
+      "pali": "",
+      "english": "A second time, the Blessed One was silent."
     },
     {
       "number": 7,
-      "pali": "Evaṁ vutte, bhagavā tuṇhī ahosi. ",
-      "english": "But when he said this, the Buddha kept silent. "
+      "pali": "",
+      "english": "Then Vacchagotta the wanderer got up from his seat and left."
     },
     {
       "number": 8,
-      "pali": "“Kiṁ pana, bho gotama, natthattā”ti? ",
-      "english": "“Then does the self not survive?” "
+      "pali": "",
+      "english": "Then, not long after Vacchagotta the wanderer had left, Ven. Ānanda said to the Blessed One, “Why, lord, did the Blessed One not answer when asked a question by Vacchagotta the wanderer?”"
     },
     {
       "number": 9,
-      "pali": "Dutiyampi kho bhagavā tuṇhī ahosi. ",
-      "english": "But for a second time the Buddha kept silent. "
+      "pali": "",
+      "english": "“Ānanda, if I—being asked by Vacchagotta the wanderer if there is a self—were to answer that there is a self, that would be conforming with those contemplatives & brahmans who are exponents of eternalism [the view that there is an eternal, unchanging soul]. If I—being asked by Vacchagotta the wanderer if there is no self—were to answer that there is no self, that would be conforming with those contemplatives & brahmans who are exponents of annihilationism [the view that death is the annihilation of consciousness]. If I—being asked by Vacchagotta the wanderer if there is a self—were to answer that there is a self, would that be in keeping with the arising of knowledge that all phenomena are not-self?”"
     },
     {
       "number": 10,
-      "pali": "Atha kho vacchagotto paribbājako uṭṭhāyāsanā pakkāmi. ",
-      "english": "Then the wanderer Vacchagotta got up from his seat and left. "
+      "pali": "",
+      "english": "“No, lord.”"
     },
     {
       "number": 11,
-      "pali": "Atha kho āyasmā ānando acirapakkante vacchagotte paribbājake bhagavantaṁ etadavoca: ",
-      "english": "And then, not long after Vacchagotta had left, Venerable Ānanda said to the Buddha: "
-    },
-    {
-      "number": 12,
-      "pali": "“kiṁ nu kho, bhante, bhagavā vacchagottassa paribbājakassa pañhaṁ puṭṭho na byākāsī”ti? ",
-      "english": "“Sir, why didn’t you answer Vacchagotta’s question?” "
-    },
-    {
-      "number": 13,
-      "pali": "“Ahañcānanda, vacchagottassa paribbājakassa ‘atthattā’ti puṭṭho samāno ‘atthattā’ti byākareyyaṁ, ye te, ānanda, samaṇabrāhmaṇā sassatavādā tesametaṁ saddhiṁ abhavissa. ",
-      "english": "“Ānanda, when Vacchagotta asked me whether the self survives, if I had answered that ‘the self survives’ I would have been siding with the ascetics and brahmins who are eternalists. "
-    },
-    {
-      "number": 14,
-      "pali": "Ahañcānanda, vacchagottassa paribbājakassa ‘natthattā’ti puṭṭho samāno ‘natthattā’ti byākareyyaṁ, ye te, ānanda, samaṇabrāhmaṇā ucchedavādā tesametaṁ saddhiṁ abhavissa. ",
-      "english": "When Vacchagotta asked me whether the self does not survive, if I had answered that ‘the self does not survive’ I would have been siding with the ascetics and brahmins who are annihilationists. "
-    },
-    {
-      "number": 15,
-      "pali": "Ahañcānanda, vacchagottassa paribbājakassa ‘atthattā’ti puṭṭho samāno ‘atthattā’ti byākareyyaṁ, api nu me taṁ, ānanda, anulomaṁ abhavissa ñāṇassa uppādāya: ",
-      "english": "When Vacchagotta asked me whether the self survives, if I had answered that ‘the self survives’, would that have facilitated the arising of the knowledge that "
-    },
-    {
-      "number": 16,
-      "pali": "‘sabbe dhammā anattā’”ti? ",
-      "english": "all things are not-self?” "
-    },
-    {
-      "number": 17,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
-    },
-    {
-      "number": 18,
-      "pali": "“Ahañcānanda, vacchagottassa paribbājakassa ‘natthattā’ti puṭṭho samāno ‘natthattā’ti byākareyyaṁ, sammūḷhassa, ānanda, vacchagottassa paribbājakassa bhiyyo sammohāya abhavissa: ",
-      "english": "“When Vacchagotta asked me whether the self does not survive, if I had answered that ‘the self does not survive’, Vacchagotta—who is already confused—would have got even more confused, thinking: "
-    },
-    {
-      "number": 19,
-      "pali": "‘ahuvā me nūna pubbe attā, so etarahi natthī’”ti. ",
-      "english": "‘It seems that the self that I once had no longer survives.’” "
-    },
-    {
-      "number": 20,
-      "pali": "Dasamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“And if I—being asked by Vacchagotta the wanderer if there is no self—were to answer that there is no self, the bewildered Vacchagotta would become even more bewildered: ‘Does the self I used to have now not exist?’”"
     }
   ]
 }

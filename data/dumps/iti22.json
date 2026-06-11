@@ -3,163 +3,73 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 22 ",
-      "english": "So It Was Said 22 "
+      "pali": "Itivuttaka 22",
+      "english": "Itivuttaka 22"
     },
     {
       "number": 2,
-      "pali": "Ekakanipāta ",
-      "english": "The Book of the Ones "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Tatiyavagga ",
-      "english": "Chapter Three "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, don’t be afraid of acts of merit. This is a synonym for what is blissful, desirable, pleasing, endearing, charming–i.e., acts of merit. I directly know that, having long performed meritorious deeds, I long experienced desirable, pleasing, endearing, charming results. Having developed a mind of good will for seven years, then for seven eons of contraction & expansion I didn’t return to this world. Whenever the eon was contracting, I entered the [realm of] Radiance. Whenever the eon was expanding, I reappeared in an empty Brahma-abode. There I was Brahma, the Great Brahma, the Unconquered Conqueror, Total Seer, Wielder of Power. Then for thirty-six times I was Sakka, ruler of the gods. For many hundreds of times I was a king, a wheel-turning emperor, a righteous king of Dhamma, conqueror of the four corners of the earth, maintaining stable control over the countryside, endowed with the seven treasures –to say nothing of the times I was a local king. The thought occurred to me, ‘Of what action of mine is this the fruit, of what action the result, that I now have such great power & might?’ Then the thought occurred to me, ‘This is the fruit of my three [types of] action, the result of three types of action, that I now have such great power & might: i.e., generosity, self-control, & restraint.’”"
     },
     {
       "number": 4,
-      "pali": "Mettasutta ",
-      "english": "The Benefits of Love "
+      "pali": "",
+      "english": "Train in acts of merit"
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "that yield the foremost profit of bliss–"
     },
     {
       "number": 6,
-      "pali": "“Mā, bhikkhave, puññānaṁ bhāyittha. ",
-      "english": "“Mendicants, don’t fear good deeds. "
+      "pali": "",
+      "english": "develop generosity,"
     },
     {
       "number": 7,
-      "pali": "Sukhassetaṁ, bhikkhave, adhivacanaṁ iṭṭhassa kantassa piyassa manāpassa yadidaṁ puññāni. ",
-      "english": "For ‘good deeds’ is a term for happiness, for what is likable, desirable, and agreeable. "
+      "pali": "",
+      "english": "a life in tune,"
     },
     {
       "number": 8,
-      "pali": "Abhijānāmi kho panāhaṁ, bhikkhave, dīgharattaṁ katānaṁ puññānaṁ iṭṭhaṁ kantaṁ piyaṁ manāpaṁ vipākaṁ paccanubhūtaṁ. ",
-      "english": "I recall undergoing for a long time the likable, desirable, and agreeable results of good deeds performed over a long time. "
+      "pali": "",
+      "english": "a mind of good will."
     },
     {
       "number": 9,
-      "pali": "Satta vassāni mettacittaṁ bhāvetvā satta saṁvaṭṭavivaṭṭakappe nayimaṁ lokaṁ punarāgamāsiṁ. ",
-      "english": "Having developed a mind of love for seven years, for seven eons of the cosmos contracting and expanding I didn’t return to this world again. "
+      "pali": "",
+      "english": "Developing these"
     },
     {
       "number": 10,
-      "pali": "Saṁvaṭṭamāne sudaṁ, bhikkhave, kappe ābhassarūpago homi; ",
-      "english": "As the eon contracted I went to the realm of streaming radiance. "
+      "pali": "",
+      "english": "three things"
     },
     {
       "number": 11,
-      "pali": "vivaṭṭamāne kappe suññaṁ brahmavimānaṁ upapajjāmi. ",
-      "english": "As it expanded I was reborn in an empty mansion of divinity. "
+      "pali": "",
+      "english": "that bring about bliss,"
     },
     {
       "number": 12,
-      "pali": "Tatra sudaṁ, bhikkhave, brahmā homi mahābrahmā abhibhū anabhibhūto aññadatthudaso vasavattī. ",
-      "english": "There I was the Divinity, the Great Divinity, the vanquisher, the unvanquished, the universal seer, the wielder of power. "
+      "pali": "",
+      "english": "the wise reappear"
     },
     {
       "number": 13,
-      "pali": "Chattiṁsakkhattuṁ kho panāhaṁ, bhikkhave, sakko ahosiṁ devānamindo; ",
-      "english": "I was Sakka, lord of gods, thirty-six times. "
+      "pali": "",
+      "english": "in a world of bliss"
     },
     {
       "number": 14,
-      "pali": "anekasatakkhattuṁ rājā ahosiṁ cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
-      "english": "Many hundreds of times I was a king, a wheel-turning monarch, a just and principled king. My dominion extended to all four sides, I achieved stability in the country, and I possessed the seven treasures. "
-    },
-    {
-      "number": 15,
-      "pali": "Ko pana vādo padesarajjassa. ",
-      "english": "Not to mention regional kingship! "
-    },
-    {
-      "number": 16,
-      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
-      "english": "Then I thought, "
-    },
-    {
-      "number": 17,
-      "pali": "‘kissa nu kho me idaṁ kammassa phalaṁ, kissa kammassa vipāko, yenāhaṁ etarahi evaṁmahiddhiko evaṁmahānubhāvo’ti? ",
-      "english": "‘Of what deed of mine is this the fruit and result, that I am now so mighty and powerful?’ "
-    },
-    {
-      "number": 18,
-      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
-      "english": "Then I thought, "
-    },
-    {
-      "number": 19,
-      "pali": "‘tiṇṇaṁ kho me idaṁ kammānaṁ phalaṁ, tiṇṇaṁ kammānaṁ vipāko, yenāhaṁ etarahi evaṁmahiddhiko evaṁmahānubhāvoti, seyyathidaṁ—",
-      "english": "‘It is the fruit and result of three kinds of deeds: "
-    },
-    {
-      "number": 20,
-      "pali": "dānassa, damassa, saññamassā’”ti. ",
-      "english": "giving, self-control, and restraint.’” "
-    },
-    {
-      "number": 21,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
-    },
-    {
-      "number": 22,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
-    },
-    {
-      "number": 23,
-      "pali": "“Puññameva so sikkheyya, ",
-      "english": "“One should practice only good deeds, "
-    },
-    {
-      "number": 24,
-      "pali": "āyataggaṁ sukhudrayaṁ; ",
-      "english": "whose happy outcome stretches ahead. "
-    },
-    {
-      "number": 25,
-      "pali": "Dānañca samacariyañca, ",
-      "english": "Giving and moral conduct, "
-    },
-    {
-      "number": 26,
-      "pali": "mettacittañca bhāvaye. ",
-      "english": "developing a mind of love: "
-    },
-    {
-      "number": 27,
-      "pali": "Ete dhamme bhāvayitvā, ",
-      "english": "having developed these "
-    },
-    {
-      "number": 28,
-      "pali": "tayo sukhasamuddaye; ",
-      "english": "three things yielding happiness, "
-    },
-    {
-      "number": 29,
-      "pali": "Abyāpajjaṁ sukhaṁ lokaṁ, ",
-      "english": "that astute one is reborn "
-    },
-    {
-      "number": 30,
-      "pali": "paṇḍito upapajjatī”ti. ",
-      "english": "in a happy, pleasing world.” "
-    },
-    {
-      "number": 31,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 32,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "unalloyed."
     }
   ]
 }

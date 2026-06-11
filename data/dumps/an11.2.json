@@ -3,183 +3,73 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 11.2 ",
-      "english": "Numbered Discourses 11.2 "
+      "pali": "Numerical Discourses 11.2",
+      "english": "Numerical Discourses 11.2"
     },
     {
       "number": 2,
-      "pali": "1. Nissayavagga ",
-      "english": "1. Dependence "
+      "pali": "Cetanā Sutta",
+      "english": "An Act of Will"
     },
     {
       "number": 3,
-      "pali": "Cetanākaraṇīyasutta ",
-      "english": "Making a Wish "
+      "pali": "",
+      "english": "“For a person endowed with virtue, consummate in virtue, there is no need for an act of will, ‘May freedom from remorse arise in me.’ It is in the nature of things that freedom from remorse arises in a person endowed with virtue, consummate in virtue."
     },
     {
       "number": 4,
-      "pali": "“Sīlavato, bhikkhave, sīlasampannassa na cetanāya karaṇīyaṁ: ",
-      "english": "“Mendicants, an ethical person, who has fulfilled ethical conduct, need not make a wish: "
+      "pali": "",
+      "english": "“For a person free from remorse, there is no need for an act of will, ‘May joy arise in me.’ It is in the nature of things that joy arises in a person free from remorse."
     },
     {
       "number": 5,
-      "pali": "‘avippaṭisāro me uppajjatū’ti. ",
-      "english": "‘May I have no regrets!’ "
+      "pali": "",
+      "english": "“For a joyful person, there is no need for an act of will, ‘May rapture arise in me.’ It is in the nature of things that rapture arises in a joyful person."
     },
     {
       "number": 6,
-      "pali": "Dhammatā esā, bhikkhave, yaṁ sīlavato sīlasampannassa avippaṭisāro uppajjati. ",
-      "english": "It’s only natural that an ethical person has no regrets. "
+      "pali": "",
+      "english": "“For a rapturous person, there is no need for an act of will, ‘May my body be calm.’ It is in the nature of things that a rapturous person grows calm in body."
     },
     {
       "number": 7,
-      "pali": "Avippaṭisārissa, bhikkhave, na cetanāya karaṇīyaṁ: ",
-      "english": "When you have no regrets you need not make a wish: "
+      "pali": "",
+      "english": "“For a person calm in body, there is no need for an act of will, ‘May I experience pleasure.’ It is in the nature of things that a person calm in body experiences pleasure."
     },
     {
       "number": 8,
-      "pali": "‘pāmojjaṁ me uppajjatū’ti. ",
-      "english": "‘May I feel joy!’ "
+      "pali": "",
+      "english": "“For a person experiencing pleasure, there is no need for an act of will, ‘May my mind grow concentrated.’ It is in the nature of things that the mind of a person experiencing pleasure grows concentrated."
     },
     {
       "number": 9,
-      "pali": "Dhammatā esā, bhikkhave, yaṁ avippaṭisārissa pāmojjaṁ uppajjati. ",
-      "english": "It’s only natural that joy springs up when you have no regrets. "
+      "pali": "",
+      "english": "“For a person whose mind is concentrated, there is no need for an act of will, ‘May I know & see things as they have come to be.’ It is in the nature of things that a person whose mind is concentrated knows & sees things as they have come to be."
     },
     {
       "number": 10,
-      "pali": "Pamuditassa, bhikkhave, na cetanāya karaṇīyaṁ: ",
-      "english": "When you feel joy you need not make a wish: "
+      "pali": "",
+      "english": "“For a person who knows & sees things as they have come to be, there is no need for an act of will, ‘May I feel disenchantment.’ It is in the nature of things that a person who knows & sees things as they have come to be feels disenchantment."
     },
     {
       "number": 11,
-      "pali": "‘pīti me uppajjatū’ti. ",
-      "english": "‘May I experience rapture!’ "
+      "pali": "",
+      "english": "“For a person who feels disenchantment, there is no need for an act of will, ‘May I grow dispassionate.’ It is in the nature of things that a person who feels disenchantment grows dispassionate."
     },
     {
       "number": 12,
-      "pali": "Dhammatā esā, bhikkhave, yaṁ pamuditassa pīti uppajjati. ",
-      "english": "It’s only natural that rapture arises when you’re joyful. "
+      "pali": "",
+      "english": "“For a dispassionate person, there is no need for an act of will, ‘May I realize the knowledge & vision of release.’ It is in the nature of things that a dispassionate person realizes the knowledge & vision of release."
     },
     {
       "number": 13,
-      "pali": "Pītimanassa, bhikkhave, na cetanāya karaṇīyaṁ: ",
-      "english": "When your mind is full of rapture you need not make a wish: "
+      "pali": "",
+      "english": "“In this way, dispassion has knowledge & vision of release as its purpose, knowledge & vision of release as its reward. Disenchantment has dispassion as its purpose, dispassion as its reward. Knowledge & vision of things as they have come to be has disenchantment as its purpose, disenchantment as its reward. Concentration has knowledge & vision of things as they have come to be as its purpose, knowledge & vision of things as they have come to be as its reward. Pleasure has concentration as its purpose, concentration as its reward. Calm has pleasure as its purpose, pleasure as its reward. Rapture has calm as its purpose, calm as its reward. Joy has rapture as its purpose, rapture as its reward. Freedom from remorse has joy as its purpose, joy as its reward. Skillful virtues have freedom from remorse as their purpose, freedom from remorse as their reward."
     },
     {
       "number": 14,
-      "pali": "‘kāyo me passambhatū’ti. ",
-      "english": "‘May my body become tranquil!’ "
-    },
-    {
-      "number": 15,
-      "pali": "Dhammatā esā, bhikkhave, yaṁ pītimanassa kāyo passambhati. ",
-      "english": "It’s only natural that your body becomes tranquil when your mind is full of rapture. "
-    },
-    {
-      "number": 16,
-      "pali": "Passaddhakāyassa, bhikkhave, na cetanāya karaṇīyaṁ: ",
-      "english": "When your body is tranquil you need not make a wish: "
-    },
-    {
-      "number": 17,
-      "pali": "‘sukhaṁ vediyāmī’ti. ",
-      "english": "‘May I feel bliss!’ "
-    },
-    {
-      "number": 18,
-      "pali": "Dhammatā esā, bhikkhave, yaṁ passaddhakāyo sukhaṁ vediyati. ",
-      "english": "It’s only natural to feel bliss when your body is tranquil. "
-    },
-    {
-      "number": 19,
-      "pali": "Sukhino, bhikkhave, na cetanāya karaṇīyaṁ: ",
-      "english": "When you feel bliss you need not make a wish: "
-    },
-    {
-      "number": 20,
-      "pali": "‘cittaṁ me samādhiyatū’ti. ",
-      "english": "‘May my mind be immersed in samādhi!’ "
-    },
-    {
-      "number": 21,
-      "pali": "Dhammatā esā, bhikkhave, yaṁ sukhino cittaṁ samādhiyati. ",
-      "english": "It’s only natural for the mind to become immersed in samādhi when you feel bliss. "
-    },
-    {
-      "number": 22,
-      "pali": "Samāhitassa, bhikkhave, na cetanāya karaṇīyaṁ: ",
-      "english": "When your mind is immersed in samādhi you need not make a wish: "
-    },
-    {
-      "number": 23,
-      "pali": "‘yathābhūtaṁ jānāmi passāmī’ti. ",
-      "english": "‘May I truly know and see!’ "
-    },
-    {
-      "number": 24,
-      "pali": "Dhammatā esā, bhikkhave, yaṁ samāhito yathābhūtaṁ jānāti passati. ",
-      "english": "It’s only natural to truly know and see when your mind is immersed in samādhi. "
-    },
-    {
-      "number": 25,
-      "pali": "Yathābhūtaṁ, bhikkhave, jānato passato na cetanāya karaṇīyaṁ: ",
-      "english": "When you truly know and see you need not make a wish: "
-    },
-    {
-      "number": 26,
-      "pali": "‘nibbindāmī’ti. ",
-      "english": "‘May I grow disillusioned!’ "
-    },
-    {
-      "number": 27,
-      "pali": "Dhammatā esā, bhikkhave, yaṁ yathābhūtaṁ jānaṁ passaṁ nibbindati. ",
-      "english": "It’s only natural to grow disillusioned when you truly know and see. "
-    },
-    {
-      "number": 28,
-      "pali": "Nibbinnassa, bhikkhave, na cetanāya karaṇīyaṁ: ",
-      "english": "When you’re disillusioned you need not make a wish: "
-    },
-    {
-      "number": 29,
-      "pali": "‘virajjāmī’ti. ",
-      "english": "‘May I become dispassionate!’ "
-    },
-    {
-      "number": 30,
-      "pali": "Dhammatā esā, bhikkhave, yaṁ nibbinno virajjati. ",
-      "english": "It’s only natural to grow dispassionate when you’re disillusioned. "
-    },
-    {
-      "number": 31,
-      "pali": "Virattassa, bhikkhave, na cetanāya karaṇīyaṁ: ",
-      "english": "When you’re dispassionate you need not make a wish: "
-    },
-    {
-      "number": 32,
-      "pali": "‘vimuttiñāṇadassanaṁ sacchikaromī’ti. ",
-      "english": "‘May I realize the knowledge and vision of freedom!’ "
-    },
-    {
-      "number": 33,
-      "pali": "Dhammatā esā, bhikkhave, yaṁ viratto vimuttiñāṇadassanaṁ sacchikaroti. ",
-      "english": "It’s only natural to realize the knowledge and vision of freedom when you’re dispassionate. "
-    },
-    {
-      "number": 34,
-      "pali": "Iti kho, bhikkhave, virāgo vimuttiñāṇadassanattho vimuttiñāṇadassanānisaṁso, nibbidā virāgatthā virāgānisaṁsā, yathābhūtañāṇadassanaṁ nibbidatthaṁ nibbidānisaṁsaṁ, samādhi yathābhūtañāṇadassanattho yathābhūtañāṇadassanānisaṁso, sukhaṁ samādhatthaṁ samādhānisaṁsaṁ, passaddhi sukhatthā sukhānisaṁsā, pīti passaddhatthā passaddhānisaṁsā, pāmojjaṁ pītatthaṁ pītānisaṁsaṁ, avippaṭisāro pāmojjattho pāmojjānisaṁso, kusalāni sīlāni avippaṭisāratthāni avippaṭisārānisaṁsāni. ",
-      "english": "And so, mendicants, the knowledge and vision of freedom is the goal and benefit of dispassion. Dispassion is the goal and benefit of disillusionment. Disillusionment is the goal and benefit of truly knowing and seeing. Truly knowing and seeing is the goal and benefit of immersion. Immersion is the goal and benefit of bliss. Bliss is the goal and benefit of tranquility. Tranquility is the goal and benefit of rapture. Rapture is the goal and benefit of joy. Joy is the goal and benefit of not having regrets. Not having regrets is the goal and benefit of skillful ethics. "
-    },
-    {
-      "number": 35,
-      "pali": "Iti kho, bhikkhave, dhammā dhamme abhisandenti, dhammā dhamme paripūrenti apārā pāraṁ gamanāyā”ti. ",
-      "english": "And so, mendicants, good qualities flow on and fill up from one to the other, for going from the near shore to the far shore.” "
-    },
-    {
-      "number": 36,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“In this way, mental qualities lead on to mental qualities, mental qualities bring mental qualities to their consummation, for the sake of going from the near to the Further Shore.”"
     }
   ]
 }

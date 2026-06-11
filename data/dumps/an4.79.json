@@ -3,108 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 4.79 ",
-      "english": "Numbered Discourses 4.79 "
+      "pali": "Numerical Discourses 4.79",
+      "english": "Numerical Discourses 4.79"
     },
     {
       "number": 2,
-      "pali": "8. Apaṇṇakavagga ",
-      "english": "8.  Sure Bet "
+      "pali": "Vaṇijja Sutta",
+      "english": "Trade"
     },
     {
       "number": 3,
-      "pali": "Vaṇijjasutta ",
-      "english": "Business "
+      "pali": "",
+      "english": "Then Ven. Sāriputta went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “What is the reason, lord, what is the cause why a certain trade, when engaged in by some people, turns out a failure? What is the reason, what is the cause why the same sort of trade, when engaged in by other people, turns out not as intended? What is the reason, what is the cause why the same sort of trade, when engaged in by other people, turns out as intended? What is the reason, what is the cause why the same sort of trade, when engaged in by other people, turns out better than intended?”"
     },
     {
       "number": 4,
-      "pali": "Atha kho āyasmā sāriputto yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā sāriputto bhagavantaṁ etadavoca: ",
-      "english": "Then Venerable Sāriputta went up to the Buddha, bowed, sat down to one side, and said to him: "
+      "pali": "",
+      "english": "“There is the case, Sāriputta, where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ But he doesn’t give what he offered. If he passes away from there and comes here, then whatever trade he engages in, it turns out a failure."
     },
     {
       "number": 5,
-      "pali": "“ko nu kho, bhante, hetu ko paccayo, yena midhekaccassa tādisāva vaṇijjā payuttā chedagāminī hoti? ",
-      "english": "“Sir, what is the cause, what is the reason why for different people the same kind of business undertaking might fail, "
+      "pali": "",
+      "english": "“Then there is the case where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ But he gives him something other than what he intended by his offer. If he passes away from there and comes here, then whatever trade he engages in, it turns out not as intended."
     },
     {
       "number": 6,
-      "pali": "Ko pana, bhante, hetu ko paccayo, yena midhekaccassa tādisāva vaṇijjā payuttā na yathādhippāyā hoti? ",
-      "english": "while another doesn’t meet expectations, "
+      "pali": "",
+      "english": "“Then there is the case where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ He gives him what he intended by his offer. If he passes away from there and comes here, then whatever trade he engages in, it turns out as intended."
     },
     {
       "number": 7,
-      "pali": "Ko nu kho, bhante, hetu ko paccayo, yena midhekaccassa tādisāva vaṇijjā payuttā yathādhippāyā hoti? ",
-      "english": "another meets expectations, "
+      "pali": "",
+      "english": "“Then there is the case where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ He gives him more than what he intended by his offer. If he passes away from there and comes here, then whatever trade he engages in, it turns out better than intended."
     },
     {
       "number": 8,
-      "pali": "Ko pana, bhante, hetu ko paccayo, yena midhekaccassa tādisāva vaṇijjā payuttā parādhippāyā hotī”ti? ",
-      "english": "and another exceeds expectations?” "
-    },
-    {
-      "number": 9,
-      "pali": "“Idha, sāriputta, ekacco samaṇaṁ vā brāhmaṇaṁ vā upasaṅkamitvā pavāreti: ‘vadatu, bhante, paccayenā’ti. So yena pavāreti taṁ na deti. ",
-      "english": "“Sāriputta, take a case where someone goes to an ascetic or brahmin and invites them to ask for what they need. But they fail to give what’s requested. "
-    },
-    {
-      "number": 10,
-      "pali": "So ce tato cuto itthattaṁ āgacchati, so yaññadeva vaṇijjaṁ payojeti, sāssa hoti chedagāminī. ",
-      "english": "When they’ve passed away from that life, if they’re reborn in this place, whatever business they undertake fails. "
-    },
-    {
-      "number": 11,
-      "pali": "Idha pana, sāriputta, ekacco samaṇaṁ vā brāhmaṇaṁ vā upasaṅkamitvā pavāreti: ‘vadatu, bhante, paccayenā’ti. So yena pavāreti taṁ na yathādhippāyaṁ deti. ",
-      "english": "Take a case where someone goes to an ascetic or brahmin and invites them to ask for what they need. They give what’s requested, but don’t meet expectations. "
-    },
-    {
-      "number": 12,
-      "pali": "So ce tato cuto itthattaṁ āgacchati, so yaññadeva vaṇijjaṁ payojeti, sāssa na hoti yathādhippāyā. ",
-      "english": "When they’ve passed away from that life, if they’re reborn in this place, whatever business they undertake doesn’t meet expectations. "
-    },
-    {
-      "number": 13,
-      "pali": "Idha pana, sāriputta, ekacco samaṇaṁ vā brāhmaṇaṁ vā upasaṅkamitvā pavāreti: ‘vadatu, bhante, paccayenā’ti. So yena pavāreti taṁ yathādhippāyaṁ deti. ",
-      "english": "Take a case where someone goes to an ascetic or brahmin and invites them to ask for what they need. They give what’s requested, meeting expectations. "
-    },
-    {
-      "number": 14,
-      "pali": "So ce tato cuto itthattaṁ āgacchati, so yaññadeva vaṇijjaṁ payojeti, sāssa hoti yathādhippāyā. ",
-      "english": "When they’ve passed away from that life, if they’re reborn in this place, whatever business they undertake meets expectations. "
-    },
-    {
-      "number": 15,
-      "pali": "Idha, sāriputta, ekacco samaṇaṁ vā brāhmaṇaṁ vā upasaṅkamitvā pavāreti: ‘vadatu, bhante, paccayenā’ti. So yena pavāreti taṁ parādhippāyaṁ deti. ",
-      "english": "Take a case where someone goes to an ascetic or brahmin and invites them to ask for what they need. They give what’s requested, exceeding expectations. "
-    },
-    {
-      "number": 16,
-      "pali": "So ce tato cuto itthattaṁ āgacchati, so yaññadeva vaṇijjaṁ payojeti, sāssa hoti parādhippāyā. ",
-      "english": "When they’ve passed away from that life, if they’re reborn in this place, whatever business they undertake exceeds expectations. "
-    },
-    {
-      "number": 17,
-      "pali": "Ayaṁ kho, sāriputta, hetu ayaṁ paccayo, yena midhekaccassa tādisāva vaṇijjā payuttā chedagāminī hoti. ",
-      "english": "This is the cause, this is the reason why for different people the same kind of business undertaking might fail, "
-    },
-    {
-      "number": 18,
-      "pali": "Ayaṁ pana, sāriputta, hetu ayaṁ paccayo, yena midhekaccassa tādisāva vaṇijjā payuttā na yathādhippāyā hoti. ",
-      "english": "while another doesn’t meet expectations, "
-    },
-    {
-      "number": 19,
-      "pali": "Ayaṁ kho pana, sāriputta, hetu ayaṁ paccayo, yena midhekaccassa tādisāva vaṇijjā payuttā yathādhippāyā hoti. ",
-      "english": "another meets expectations, "
-    },
-    {
-      "number": 20,
-      "pali": "Ayaṁ pana, sāriputta, hetu ayaṁ paccayo, yena midhekaccassa tādisāva vaṇijjā payuttā parādhippāyā hotī”ti. ",
-      "english": "and another exceeds expectations.” "
-    },
-    {
-      "number": 21,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“This is the reason, Sāriputta, this is the cause why a certain trade, when engaged in by some people, turns out a failure; why the same sort of trade, when engaged in by other people, turns out not as intended; why the same sort of trade, when engaged in by other people, turns out as intended; why the same sort of trade, when engaged in by other people, turns out better than intended.”"
     }
   ]
 }

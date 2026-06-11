@@ -3,38 +3,48 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.142 ",
-      "english": "Linked Discourses 22.142 "
+      "pali": "Linked Discourses 22.142",
+      "english": "Linked Discourses 22.142"
     },
     {
       "number": 2,
-      "pali": "14. Kukkuḷavagga ",
-      "english": "14. Burning Chaff "
+      "pali": "Dukkha Sutta",
+      "english": "Stressful"
     },
     {
       "number": 3,
-      "pali": "Tatiyadukkhasutta ",
-      "english": "Suffering (3rd) "
+      "pali": "",
+      "english": "Near Sāvatthī. “Monks, whatever is stressful, you should abandon desire-passion there. And what is stressful?"
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“Form, monks, is stressful. You should abandon desire-passion there."
     },
     {
       "number": 5,
-      "pali": "“Yaṁ, bhikkhave, dukkhaṁ; tatra vo chandarāgo pahātabbo …pe… ",
-      "english": "“Mendicants, you should give up desire and greed for what is suffering. …” "
+      "pali": "",
+      "english": "“Feeling is stressful. You should abandon desire-passion there."
     },
     {
       "number": 6,
-      "pali": "yaṁ, bhikkhave, dukkhaṁ; tatra vo chandarāgo pahātabbo”ti. ",
-      "english": ""
+      "pali": "",
+      "english": "“Perception is stressful. You should abandon desire-passion there."
     },
     {
       "number": 7,
-      "pali": "Sattamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Fabrications are stressful. You should abandon desire-passion there."
+    },
+    {
+      "number": 8,
+      "pali": "",
+      "english": "“Consciousness is stressful. You should abandon desire-passion there."
+    },
+    {
+      "number": 9,
+      "pali": "",
+      "english": "“Monks, whatever is stressful, you should abandon desire-passion there.”"
     }
   ]
 }

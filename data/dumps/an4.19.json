@@ -3,103 +3,113 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 4.19 ",
-      "english": "Numbered Discourses 4.19 "
+      "pali": "Numerical Discourses 4.19",
+      "english": "Numerical Discourses 4.19"
     },
     {
       "number": 2,
-      "pali": "2. Caravagga ",
-      "english": "2. Walking "
+      "pali": "Agati Sutta",
+      "english": "Off Course"
     },
     {
       "number": 3,
-      "pali": "Tatiyaagatisutta ",
-      "english": "Prejudice (3rd) "
+      "pali": "",
+      "english": "“There are these four ways of going off course. Which four? One goes off course through desire. One goes off course through aversion. One goes off course through delusion. One goes off course through fear. These are the four ways of going off course.”"
     },
     {
       "number": 4,
-      "pali": "“Cattārimāni, bhikkhave, agatigamanāni. ",
-      "english": "“Mendicants, there are these four ways of making prejudiced decisions. "
+      "pali": "",
+      "english": "If you—"
     },
     {
       "number": 5,
-      "pali": "Katamāni cattāri? ",
-      "english": "What four? "
+      "pali": "",
+      "english": "through desire,"
     },
     {
       "number": 6,
-      "pali": "Chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati—",
-      "english": "Making decisions prejudiced by favoritism, hostility, stupidity, and cowardice. "
+      "pali": "",
+      "english": "aversion,"
     },
     {
       "number": 7,
-      "pali": "Imāni kho, bhikkhave, cattāri agatigamanāni. ",
-      "english": "These are the four ways of making prejudiced decisions. "
+      "pali": "",
+      "english": "delusion,"
     },
     {
       "number": 8,
-      "pali": "Cattārimāni, bhikkhave, nāgatigamanāni. ",
-      "english": "There are these four ways of making unprejudiced decisions. "
+      "pali": "",
+      "english": "fear—"
     },
     {
       "number": 9,
-      "pali": "Katamāni cattāri? ",
-      "english": "What four? "
+      "pali": "",
+      "english": "transgress the Dhamma,"
     },
     {
       "number": 10,
-      "pali": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati—",
-      "english": "Making decisions unprejudiced by favoritism, hostility, stupidity, and cowardice. "
+      "pali": "",
+      "english": "your honor wanes,"
     },
     {
       "number": 11,
-      "pali": "Imāni kho, bhikkhave, cattāri nāgatigamanānīti. ",
-      "english": "These are the four ways of making unprejudiced decisions. "
+      "pali": "",
+      "english": "as in the dark fortnight,"
     },
     {
       "number": 12,
-      "pali": "Chandā dosā bhayā mohā, ",
-      "english": "If you act against the teaching "
+      "pali": "",
+      "english": "the moon."
     },
     {
       "number": 13,
-      "pali": "yo dhammaṁ ativattati; ",
-      "english": "out of favoritism, hostility, cowardice, or stupidity, "
+      "pali": "",
+      "english": "“There are these four ways of not going off course. Which four? One doesn’t go off course through desire. One doesn’t go off course through aversion. One doesn’t go off course through delusion. One doesn’t go off course through fear. These are the four ways of not going off course.”"
     },
     {
       "number": 14,
-      "pali": "Nihīyati tassa yaso, ",
-      "english": "your fame fades away, "
+      "pali": "",
+      "english": "If you don’t—"
     },
     {
       "number": 15,
-      "pali": "kāḷapakkheva candimā. ",
-      "english": "like the moon in the waning fortnight. "
+      "pali": "",
+      "english": "through desire,"
     },
     {
       "number": 16,
-      "pali": "Chandā dosā bhayā mohā, ",
-      "english": "If you don’t act against the teaching "
+      "pali": "",
+      "english": "aversion,"
     },
     {
       "number": 17,
-      "pali": "yo dhammaṁ nātivattati; ",
-      "english": "out of favoritism, hostility, cowardice, and stupidity, "
+      "pali": "",
+      "english": "delusion,"
     },
     {
       "number": 18,
-      "pali": "Āpūrati tassa yaso, ",
-      "english": "your fame swells, "
+      "pali": "",
+      "english": "fear—"
     },
     {
       "number": 19,
-      "pali": "sukkapakkheva candimā”ti. ",
-      "english": "like the moon in the waxing fortnight.” "
+      "pali": "",
+      "english": "transgress the Dhamma,"
     },
     {
       "number": 20,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "your honor waxes,"
+    },
+    {
+      "number": 21,
+      "pali": "",
+      "english": "as in the bright fortnight,"
+    },
+    {
+      "number": 22,
+      "pali": "",
+      "english": "the moon."
     }
   ]
 }

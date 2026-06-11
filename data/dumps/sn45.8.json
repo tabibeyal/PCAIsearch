@@ -3,223 +3,83 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 45.8 ",
-      "english": "Linked Discourses 45.8 "
+      "pali": "Linked Discourses 45.8",
+      "english": "Linked Discourses 45.8"
     },
     {
       "number": 2,
-      "pali": "1. Avijjāvagga ",
-      "english": "1. Ignorance "
+      "pali": "Magga-Vibhaṅga Sutta",
+      "english": "An Analysis of the Path"
     },
     {
       "number": 3,
-      "pali": "Vibhaṅgasutta ",
-      "english": "Analysis "
+      "pali": "",
+      "english": "I have heard that at one time the Blessed One was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. There he addressed the monks, “Monks!”"
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“Yes, lord,” the monks responded to him."
     },
     {
       "number": 5,
-      "pali": "“Ariyaṁ vo, bhikkhave, aṭṭhaṅgikaṁ maggaṁ desessāmi vibhajissāmi. ",
-      "english": "“Mendicants, I will teach and analyze for you the noble eightfold path. "
+      "pali": "",
+      "english": "The Blessed One said, “I will teach & analyze for you the noble eightfold path. Listen & pay close attention. I will speak.”"
     },
     {
       "number": 6,
-      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
-      "english": "Listen and apply your mind well, I will speak.” "
+      "pali": "",
+      "english": "“As you say, lord,” the monks responded to him."
     },
     {
       "number": 7,
-      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Yes, sir,” they replied. "
+      "pali": "",
+      "english": "The Blessed One said, “Now what, monks, is the noble eightfold path? Right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration."
     },
     {
       "number": 8,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
+      "pali": "",
+      "english": "“And what, monks, is right view? Knowledge with regard to [or: in terms of] stress, knowledge with regard to the origination of stress, knowledge with regard to the stopping of stress, knowledge with regard to the way of practice leading to the stopping of stress: This, monks, is called right view."
     },
     {
       "number": 9,
-      "pali": "“Katamo ca, bhikkhave, ariyo aṭṭhaṅgiko maggo? ",
-      "english": "“And what is the noble eightfold path? "
+      "pali": "",
+      "english": "“And what, monks, is right resolve? Resolve for renunciation, resolve for non-ill will, resolve for harmlessness: This, monks, is called right resolve."
     },
     {
       "number": 10,
-      "pali": "Seyyathidaṁ—sammādiṭṭhi …pe… sammāsamādhi. ",
-      "english": "It is right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion. "
+      "pali": "",
+      "english": "“And what, monks, is right speech? Abstaining from lying, abstaining from divisive speech, abstaining from harsh speech, abstaining from idle chatter: This, monks, is called right speech."
     },
     {
       "number": 11,
-      "pali": "Katamā ca, bhikkhave, sammādiṭṭhi? ",
-      "english": "And what is right view? "
+      "pali": "",
+      "english": "“And what, monks, is right action? Abstaining from taking life, abstaining from stealing, abstaining from sexual intercourse : This, monks, is called right action."
     },
     {
       "number": 12,
-      "pali": "Yaṁ kho, bhikkhave, dukkhe ñāṇaṁ, dukkhasamudaye ñāṇaṁ, dukkhanirodhe ñāṇaṁ, dukkhanirodhagāminiyā paṭipadāya ñāṇaṁ—",
-      "english": "Knowing about suffering, the origin of suffering, the cessation of suffering, and the practice that leads to the cessation of suffering. "
+      "pali": "",
+      "english": "“And what, monks, is right livelihood? There is the case where a disciple of the noble ones, having abandoned dishonest livelihood, keeps his life going with right livelihood. This, monks, is called right livelihood."
     },
     {
       "number": 13,
-      "pali": "ayaṁ vuccati, bhikkhave, sammādiṭṭhi. ",
-      "english": "This is called right view. "
+      "pali": "",
+      "english": "“And what, monks, is right effort? (i) There is the case where a monk generates desire, endeavors, activates persistence, upholds & exerts his intent for the sake of the non-arising of evil, unskillful qualities that have not yet arisen. (ii) He generates desire, endeavors, activates persistence, upholds & exerts his intent for the sake of the abandoning of evil, unskillful qualities that have arisen. (iii) He generates desire, endeavors, activates persistence, upholds & exerts his intent for the sake of the arising of skillful qualities that have not yet arisen. (iv) He generates desire, endeavors, activates persistence, upholds & exerts his intent for the maintenance, non-confusion, increase, plenitude, development, & culmination of skillful qualities that have arisen. This, monks, is called right effort."
     },
     {
       "number": 14,
-      "pali": "Katamo ca, bhikkhave, sammāsaṅkappo? ",
-      "english": "And what is right purpose? "
+      "pali": "",
+      "english": "“And what, monks, is right mindfulness? (i) There is the case where a monk remains focused on the body in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world. (ii) He remains focused on feelings in & of themselves—ardent, alert, & mindful—subduing greed & distress with reference to the world. (iii) He remains focused on the mind in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world. (iv) He remains focused on mental qualities in & of themselves—ardent, alert, & mindful—subduing greed & distress with reference to the world. This, monks, is called right mindfulness."
     },
     {
       "number": 15,
-      "pali": "Yo kho, bhikkhave, nekkhammasaṅkappo, abyāpādasaṅkappo, avihiṁsāsaṅkappo—",
-      "english": "It is the purpose of renunciation, good will, and harmlessness. "
+      "pali": "",
+      "english": "“And what, monks, is right concentration? (i) There is the case where a monk—quite secluded from sensuality, secluded from unskillful qualities —enters & remains in the first jhāna: rapture & pleasure born of seclusion, accompanied by directed thought & evaluation. (ii) With the stilling of directed thoughts & evaluations, he enters & remains in the second jhāna: rapture & pleasure born of concentration, unification of awareness free from directed thought & evaluation—internal assurance. (iii) With the fading of rapture, he remains equanimous, mindful, & alert, and senses pleasure with the body. He enters & remains in the third jhāna, of which the noble ones declare, ‘Equanimous & mindful, he has a pleasant abiding.’ (iv) With the abandoning of pleasure & pain—as with the earlier disappearance of elation & distress—he enters & remains in the fourth jhāna: purity of equanimity & mindfulness, neither pleasure nor pain. This, monks, is called right concentration.”"
     },
     {
       "number": 16,
-      "pali": "ayaṁ vuccati, bhikkhave, sammāsaṅkappo. ",
-      "english": "This is called right purpose. "
-    },
-    {
-      "number": 17,
-      "pali": "Katamā ca, bhikkhave, sammāvācā? ",
-      "english": "And what is right speech? "
-    },
-    {
-      "number": 18,
-      "pali": "Yā kho, bhikkhave, musāvādā veramaṇī, pisuṇāya vācāya veramaṇī, pharusāya vācāya veramaṇī, samphappalāpā veramaṇī—",
-      "english": "Refraining from speech that’s false, backbiting, harsh, or nonsensical. "
-    },
-    {
-      "number": 19,
-      "pali": "ayaṁ vuccati, bhikkhave, sammāvācā. ",
-      "english": "This is called right speech. "
-    },
-    {
-      "number": 20,
-      "pali": "Katamo ca, bhikkhave, sammākammanto? ",
-      "english": "And what is right action? "
-    },
-    {
-      "number": 21,
-      "pali": "Yā kho, bhikkhave, pāṇātipātā veramaṇī, adinnādānā veramaṇī, abrahmacariyā veramaṇī—",
-      "english": "Refraining from killing living creatures, stealing, and unchastity. "
-    },
-    {
-      "number": 22,
-      "pali": "ayaṁ vuccati, bhikkhave, sammākammanto. ",
-      "english": "This is called right action. "
-    },
-    {
-      "number": 23,
-      "pali": "Katamo ca, bhikkhave, sammāājīvo? ",
-      "english": "And what is right livelihood? "
-    },
-    {
-      "number": 24,
-      "pali": "Idha, bhikkhave, ariyasāvako micchāājīvaṁ pahāya sammāājīvena jīvitaṁ kappeti—",
-      "english": "It’s when a noble disciple gives up wrong livelihood and earns a living by right livelihood. "
-    },
-    {
-      "number": 25,
-      "pali": "ayaṁ vuccati, bhikkhave, sammāājīvo. ",
-      "english": "This is called right livelihood. "
-    },
-    {
-      "number": 26,
-      "pali": "Katamo ca, bhikkhave, sammāvāyāmo? ",
-      "english": "And what is right effort? "
-    },
-    {
-      "number": 27,
-      "pali": "Idha, bhikkhave, bhikkhu anuppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ anuppādāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati, ",
-      "english": "It’s when a mendicant generates enthusiasm, tries, makes an effort, exerts the mind, and strives so that bad, unskillful qualities don’t arise. "
-    },
-    {
-      "number": 28,
-      "pali": "uppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya chandaṁ janeti …pe… ",
-      "english": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that bad, unskillful qualities that have arisen are given up. "
-    },
-    {
-      "number": 29,
-      "pali": "anuppannānaṁ kusalānaṁ dhammānaṁ uppādāya chandaṁ janeti …pe… ",
-      "english": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities that have not arisen do arise. "
-    },
-    {
-      "number": 30,
-      "pali": "uppannānaṁ kusalānaṁ dhammānaṁ ṭhitiyā asammosāya bhiyyobhāvāya vepullāya bhāvanāya pāripūriyā chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati—",
-      "english": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities that have arisen remain, are not lost, but increase, mature, and are fulfilled by development. "
-    },
-    {
-      "number": 31,
-      "pali": "ayaṁ vuccati, bhikkhave, sammāvāyāmo. ",
-      "english": "This is called right effort. "
-    },
-    {
-      "number": 32,
-      "pali": "Katamā ca, bhikkhave, sammāsati? ",
-      "english": "And what is right mindfulness? "
-    },
-    {
-      "number": 33,
-      "pali": "Idha, bhikkhave, bhikkhu kāye kāyānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ; ",
-      "english": "It’s when a mendicant meditates by observing an aspect of the body—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
-    },
-    {
-      "number": 34,
-      "pali": "vedanāsu vedanānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ; ",
-      "english": "They meditate observing an aspect of feelings—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
-    },
-    {
-      "number": 35,
-      "pali": "citte cittānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ; ",
-      "english": "They meditate observing an aspect of the mind—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
-    },
-    {
-      "number": 36,
-      "pali": "dhammesu dhammānupassī viharati ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ—",
-      "english": "They meditate observing an aspect of principles—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
-    },
-    {
-      "number": 37,
-      "pali": "ayaṁ vuccati, bhikkhave, sammāsati. ",
-      "english": "This is called right mindfulness. "
-    },
-    {
-      "number": 38,
-      "pali": "Katamo ca, bhikkhave, sammāsamādhi? ",
-      "english": "And what is right immersion? "
-    },
-    {
-      "number": 39,
-      "pali": "Idha, bhikkhave, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati. ",
-      "english": "It’s when a mendicant, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. "
-    },
-    {
-      "number": 40,
-      "pali": "Vitakkavicārānaṁ vūpasamā ajjhattaṁ sampasādanaṁ cetaso ekodibhāvaṁ avitakkaṁ avicāraṁ samādhijaṁ pītisukhaṁ dutiyaṁ jhānaṁ upasampajja viharati. ",
-      "english": "As the placing of the mind and keeping it connected are stilled, they enter and remain in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without placing the mind and keeping it connected. "
-    },
-    {
-      "number": 41,
-      "pali": "Pītiyā ca virāgā upekkhako ca viharati sato ca sampajāno, sukhañca kāyena paṭisaṁvedeti, yaṁ taṁ ariyā ācikkhanti: ‘upekkhako satimā sukhavihārī’ti tatiyaṁ jhānaṁ upasampajja viharati. ",
-      "english": "And with the fading away of rapture, they enter and remain in the third absorption, where they meditate with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ "
-    },
-    {
-      "number": 42,
-      "pali": "Sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharati—",
-      "english": "With the giving up of pleasure and pain and the disappearance of former happiness and sadness, they enter and remain in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. "
-    },
-    {
-      "number": 43,
-      "pali": "ayaṁ vuccati, bhikkhave, sammāsamādhī”ti. ",
-      "english": "This is called right immersion.” "
-    },
-    {
-      "number": 44,
-      "pali": "Aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "That is what the Blessed One said. Gratified, the monks delighted in the Blessed One’s words."
     }
   ]
 }

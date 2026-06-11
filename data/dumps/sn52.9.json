@@ -3,93 +3,38 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 52.9 ",
-      "english": "Linked Discourses 52.9 "
+      "pali": "Linked Discourses 52.9",
+      "english": "Linked Discourses 52.9"
     },
     {
       "number": 2,
-      "pali": "1. Rahogatavagga ",
-      "english": "1. In Private "
+      "pali": "Ambapālī Sutta",
+      "english": "Ambapālī"
     },
     {
       "number": 3,
-      "pali": "Ambapālivanasutta ",
-      "english": "In Ambapālī’s Mango Grove "
+      "pali": "",
+      "english": "I have heard that on one occasion Ven. Anuruddha & Ven. Sāriputta were staying near Vesālī in Ambapālīs forest. Then Ven. Sāriputta, arising from his seclusion in the late afternoon, went to Ven. Anuruddha. On arrival, he exchanged courteous greetings with him. After an exchange of friendly greetings & courtesies, he sat to one side. As he was sitting there, he said to Ven. Anuruddha, “Bright are your faculties, friend Anuruddha; pure your complexion, and clear. By means of what dwelling do you now often dwell?”"
     },
     {
       "number": 4,
-      "pali": "Ekaṁ samayaṁ āyasmā ca anuruddho āyasmā ca sāriputto vesāliyaṁ viharanti ambapālivane. ",
-      "english": "At one time the venerables Anuruddha and Sāriputta were staying near Vesālī, in Ambapālī’s Mango Grove. "
+      "pali": "",
+      "english": "“I now often dwell, friend, with a mind well-established in the four establishings of mindfulness. Which four? There is the case where I remain focused on the body in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world. I remain focused on feelings in & of themselves… the mind in & of itself… mental qualities in & of themselves—ardent, alert, & mindful—subduing greed & distress with reference to the world."
     },
     {
       "number": 5,
-      "pali": "Atha kho āyasmā sāriputto sāyanhasamayaṁ paṭisallānā vuṭṭhito …pe… ekamantaṁ nisinno kho āyasmā sāriputto āyasmantaṁ anuruddhaṁ etadavoca: ",
-      "english": "Then in the late afternoon, Sāriputta came out of retreat, went to Anuruddha, and said to him: "
+      "pali": "",
+      "english": "“I now often dwell, friend, with a mind well-established in these four establishings of mindfulness."
     },
     {
       "number": 6,
-      "pali": "“Vippasannāni kho te, āvuso anuruddha, indriyāni, parisuddho mukhavaṇṇo pariyodāto. ",
-      "english": "“Reverend Anuruddha, your faculties are so very clear, and your complexion is pure and bright. "
+      "pali": "",
+      "english": "“Any monk whose effluents are ended—who has reached fulfillment, done the task, laid down the burden, attained the true goal, laid to waste the fetter of becoming, and who is released through right gnosis—often dwells with a mind well-established in these four establishings of mindfulness.”"
     },
     {
       "number": 7,
-      "pali": "Katamenāyasmā anuruddho vihārena etarahi bahulaṁ viharatī”ti? ",
-      "english": "What kind of meditation are you usually practicing these days?” "
-    },
-    {
-      "number": 8,
-      "pali": "“Catūsu khvāhaṁ, āvuso, satipaṭṭhānesu suppatiṭṭhitacitto etarahi bahulaṁ viharāmi. ",
-      "english": "“These days, reverend, I usually meditate with my mind firmly established in the four kinds of mindfulness meditation. "
-    },
-    {
-      "number": 9,
-      "pali": "Katamesu catūsu? ",
-      "english": "What four? "
-    },
-    {
-      "number": 10,
-      "pali": "Idhāhaṁ, āvuso, kāye kāyānupassī viharāmi ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ; ",
-      "english": "I meditate observing an aspect of the body … "
-    },
-    {
-      "number": 11,
-      "pali": "vedanāsu …pe… ",
-      "english": "feelings … "
-    },
-    {
-      "number": 12,
-      "pali": "citte …pe… ",
-      "english": "mind … "
-    },
-    {
-      "number": 13,
-      "pali": "dhammesu dhammānupassī viharāmi ātāpī sampajāno satimā, vineyya loke abhijjhādomanassaṁ—",
-      "english": "principles—keen, aware, and mindful, rid of covetousness and displeasure for the world. "
-    },
-    {
-      "number": 14,
-      "pali": "imesu khvāhaṁ, āvuso, catūsu satipaṭṭhānesu suppatiṭṭhitacitto etarahi bahulaṁ viharāmi. ",
-      "english": "These days I usually meditate with my mind firmly established in these four kinds of mindfulness meditation. "
-    },
-    {
-      "number": 15,
-      "pali": "Yo so, āvuso, bhikkhu arahaṁ khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho parikkhīṇabhavasaṁyojano sammadaññāvimutto, so imesu catūsu satipaṭṭhānesu suppatiṭṭhitacitto bahulaṁ viharatī”ti. ",
-      "english": "A mendicant who is perfected—with defilements ended, who has completed the spiritual journey, done what had to be done, laid down the burden, achieved their heart’s goal, utterly ended the fetter of continued existence, and is rightly freed through enlightenment—usually meditates with their mind firmly established in these four kinds of mindfulness meditation.” "
-    },
-    {
-      "number": 16,
-      "pali": "“Lābhā vata no, āvuso, suladdhaṁ vata no, āvuso. ",
-      "english": "“We’re so fortunate, reverend, so very fortunate, "
-    },
-    {
-      "number": 17,
-      "pali": "Ye mayaṁ āyasmato anuruddhassa sammukhāva assumha āsabhiṁ vācaṁ bhāsamānassā”ti. ",
-      "english": "to have heard such a dramatic statement in the presence of Venerable Anuruddha.” "
-    },
-    {
-      "number": 18,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“It is a gain for us, my friend, a great gain for us, that we were right in Ven. Anuruddha’s presence when he said this bull-like statement!”"
     }
   ]
 }

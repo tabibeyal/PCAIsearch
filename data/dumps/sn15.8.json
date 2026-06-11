@@ -3,133 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 15.8 ",
-      "english": "Linked Discourses 15.8 "
+      "pali": "Linked Discourses 15.8",
+      "english": "Linked Discourses 15.8"
     },
     {
       "number": 2,
-      "pali": "1. Paṭhamavagga ",
-      "english": "Chapter One "
+      "pali": "Gangā Sutta",
+      "english": "The Ganges"
     },
     {
       "number": 3,
-      "pali": "Gaṅgāsutta ",
-      "english": "The Ganges "
+      "pali": "",
+      "english": "On one occasion the Blessed One was staying near Rājagaha, in the Bamboo Forest, the Squirrels’ Sanctuary. Then a certain brahman went to the Blessed One and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings & courtesies, he sat to one side. As he was sitting there he said to the Blessed One, “How many eons, Master Gotama, have passed and gone by?”"
     },
     {
       "number": 4,
-      "pali": "Rājagahe viharati veḷuvane. ",
-      "english": "Near Rājagaha, in the Bamboo Grove. "
+      "pali": "",
+      "english": "“Many eons, brahman, have passed and gone by. They are not easy to count: ‘So many eons have passed and gone by’ or ‘So many hundreds of eons have passed and gone by’ or ‘So many thousands of eons have passed and gone by’ or ‘So many hundreds of thousands of eons have passed and gone by.’”"
     },
     {
       "number": 5,
-      "pali": "Atha kho aññataro brāhmaṇo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavatā saddhiṁ sammodi. ",
-      "english": "Then a certain brahmin went up to the Buddha, and exchanged greetings with him. "
+      "pali": "",
+      "english": "“But is it possible to give an analogy, Master Gotama?”"
     },
     {
       "number": 6,
-      "pali": "Sammodanīyaṁ kathaṁ sāraṇīyaṁ vītisāretvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho so brāhmaṇo bhagavantaṁ etadavoca: ",
-      "english": "When the greetings and polite conversation were over, he sat down to one side and asked the Buddha, "
+      "pali": "",
+      "english": "“It is, brahman,” the Blessed One said. “Just as, from where the River Ganges begins to where it goes to the ocean, the grains of sand in between are not easy to count as ‘so many grains of sand’ or ‘so many hundreds of grains of sand’ or ‘so many thousands of grains of sand’ or ‘so many hundreds of thousands of grains of sand.’ Even more than that are the eons that have passed and gone. They are not easy to count: ‘So many eons have passed and gone by’ or ‘So many hundreds of eons have passed and gone by’ or ‘So many thousands of eons have passed and gone by’ or ‘So many hundreds of thousands of eons have passed and gone by.’"
     },
     {
       "number": 7,
-      "pali": "“kīvabahukā nu kho, bho gotama, kappā abbhatītā atikkantā”ti? ",
-      "english": "“Worthy Gotama, how many eons have passed?” "
+      "pali": "",
+      "english": "“Why is that? From an inconceivable beginning comes the wandering-on, brahman. A beginning point is not discernible, though beings hindered by ignorance and fettered by craving are transmigrating & wandering on. Long have you thus experienced stress, experienced pain, experienced loss, swelling the cemeteries—enough to become disenchanted with all fabrications, enough to become dispassionate, enough to be released.”"
     },
     {
       "number": 8,
-      "pali": "“Bahukā kho, brāhmaṇa, kappā abbhatītā atikkantā. ",
-      "english": "“Brahmin, many eons have passed. "
-    },
-    {
-      "number": 9,
-      "pali": "Te na sukarā saṅkhātuṁ: ",
-      "english": "It’s not easy to calculate "
-    },
-    {
-      "number": 10,
-      "pali": "‘ettakā kappā iti vā, ettakāni kappasatāni iti vā, ettakāni kappasahassāni iti vā, ettakāni kappasatasahassāni iti vā’”ti. ",
-      "english": "how many eons have passed, how many hundreds or thousands or hundreds of thousands of eons.” "
-    },
-    {
-      "number": 11,
-      "pali": "“Sakkā pana, bho gotama, upamaṁ kātun”ti? ",
-      "english": "“But worthy Gotama, can you give a simile?” "
-    },
-    {
-      "number": 12,
-      "pali": "“Sakkā, brāhmaṇā”ti bhagavā avoca. ",
-      "english": "“I can,” said the Buddha. "
-    },
-    {
-      "number": 13,
-      "pali": "“Seyyathāpi, brāhmaṇa, yato cāyaṁ gaṅgā nadī pabhavati yattha ca mahāsamuddaṁ appeti, yā etasmiṁ antare vālikā sā na sukarā saṅkhātuṁ: ",
-      "english": "“Consider the Ganges river from where it originates to where it meets the ocean. Between these places it’s not easy to calculate "
-    },
-    {
-      "number": 14,
-      "pali": "‘ettakā vālikā iti vā, ettakāni vālikasatāni iti vā, ettakāni vālikasahassāni iti vā, ettakāni vālikasatasahassāni iti vā’ti. ",
-      "english": "how many grains of sand there are, how many hundreds or thousands or hundreds of thousands of grains of sand. "
-    },
-    {
-      "number": 15,
-      "pali": "Tato bahutarā kho, brāhmaṇa, kappā abbhatītā atikkantā. ",
-      "english": "The eons that have passed are more than this. "
-    },
-    {
-      "number": 16,
-      "pali": "Te na sukarā saṅkhātuṁ: ",
-      "english": "It’s not easy to calculate "
-    },
-    {
-      "number": 17,
-      "pali": "‘ettakā kappā iti vā, ettakāni kappasatāni iti vā, ettakāni kappasahassāni iti vā, ettakāni kappasatasahassāni iti vā’ti. ",
-      "english": "how many eons have passed, how many hundreds or thousands or hundreds of thousands of eons. "
-    },
-    {
-      "number": 18,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
-    },
-    {
-      "number": 19,
-      "pali": "Anamataggoyaṁ, brāhmaṇa, saṁsāro. ",
-      "english": "This transmigration has no known beginning. "
-    },
-    {
-      "number": 20,
-      "pali": "Pubbā koṭi na paññāyati avijjānīvaraṇānaṁ sattānaṁ taṇhāsaṁyojanānaṁ sandhāvataṁ saṁsarataṁ. ",
-      "english": "No first point is found of sentient beings roaming and transmigrating, shrouded by ignorance and fettered by craving. "
-    },
-    {
-      "number": 21,
-      "pali": "Evaṁ dīgharattaṁ kho, brāhmaṇa, dukkhaṁ paccanubhūtaṁ tibbaṁ paccanubhūtaṁ byasanaṁ paccanubhūtaṁ, kaṭasī vaḍḍhitā. ",
-      "english": "For such a long time you have undergone suffering, agony, and disaster, swelling the cemeteries. "
-    },
-    {
-      "number": 22,
-      "pali": "Yāvañcidaṁ, brāhmaṇa, alameva sabbasaṅkhāresu nibbindituṁ, alaṁ virajjituṁ, alaṁ vimuccitun”ti. ",
-      "english": "This is quite enough for you to become disillusioned, dispassionate, and freed regarding all conditions.” "
-    },
-    {
-      "number": 23,
-      "pali": "Evaṁ vutte, so brāhmaṇo bhagavantaṁ etadavoca: ",
-      "english": "When he said this, the brahmin said to the Buddha, "
-    },
-    {
-      "number": 24,
-      "pali": "“abhikkantaṁ, bho gotama, abhikkantaṁ, bho gotama …pe… ",
-      "english": "“Excellent, worthy Gotama! Excellent! … "
-    },
-    {
-      "number": 25,
-      "pali": "upāsakaṁ maṁ bhavaṁ gotamo dhāretu ajjatagge pāṇupetaṁ saraṇaṁ gatan”ti. ",
-      "english": "From this day forth, may the worthy Gotama remember me as a lay follower who has gone for refuge for life.” "
-    },
-    {
-      "number": 26,
-      "pali": "Aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "When this was said, the brahman said to the Blessed One, “Magnificent, Master Gotama! Magnificent! Just as if he were to place upright what was overturned, to reveal what was hidden, to show the way to one who was lost, or to carry a lamp into the dark so that those with eyes could see forms, in the same way has Master Gotama—through many lines of reasoning—made the Dhamma clear. I go to Master Gotama for refuge, to the Dhamma, & to the Saṅgha of monks. May Master Gotama remember me as a lay follower who has gone for refuge from this day forward, for life.”"
     }
   ]
 }

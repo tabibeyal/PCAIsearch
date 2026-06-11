@@ -3,398 +3,138 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 12.2 ",
-      "english": "Linked Discourses 12.2 "
+      "pali": "Linked Discourses 12.2",
+      "english": "Linked Discourses 12.2"
     },
     {
       "number": 2,
-      "pali": "1. Buddhavagga ",
-      "english": "1. The Buddhas "
+      "pali": "Paṭiccasamuppāda Vibhaṅga Sutta",
+      "english": "An Analysis of Dependent Co-arising"
     },
     {
       "number": 3,
-      "pali": "Vibhaṅgasutta ",
-      "english": "Analysis "
+      "pali": "",
+      "english": "Staying near Sāvatthī … “Monks, I will describe & analyze dependent co-arising for you. And what is dependent co-arising?"
     },
     {
       "number": 4,
-      "pali": "Sāvatthiyaṁ viharati. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "From ignorance as a requisite condition come fabrications."
     },
     {
       "number": 5,
-      "pali": "“Paṭiccasamuppādaṁ vo, bhikkhave, desessāmi vibhajissāmi. ",
-      "english": "“Mendicants, I will teach and analyze for you dependent origination. "
+      "pali": "",
+      "english": "From fabrications as a requisite condition comes consciousness."
     },
     {
       "number": 6,
-      "pali": "Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
-      "english": "Listen and apply your mind well, I will speak.” "
+      "pali": "",
+      "english": "From consciousness as a requisite condition comes name-&-form."
     },
     {
       "number": 7,
-      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Yes, sir,” they replied. "
+      "pali": "",
+      "english": "From name-&-form as a requisite condition come the six sense media."
     },
     {
       "number": 8,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
+      "pali": "",
+      "english": "From the six sense media as a requisite condition comes contact."
     },
     {
       "number": 9,
-      "pali": "“Katamo ca, bhikkhave, paṭiccasamuppādo? ",
-      "english": "“And what is dependent origination? "
+      "pali": "",
+      "english": "From contact as a requisite condition comes feeling."
     },
     {
       "number": 10,
-      "pali": "Avijjāpaccayā, bhikkhave, saṅkhārā; ",
-      "english": "Ignorance is a requirement for choices. "
+      "pali": "",
+      "english": "From feeling as a requisite condition comes craving."
     },
     {
       "number": 11,
-      "pali": "saṅkhārapaccayā viññāṇaṁ; ",
-      "english": "Choices are a requirement for consciousness. "
+      "pali": "",
+      "english": "From craving as a requisite condition comes clinging/sustenance."
     },
     {
       "number": 12,
-      "pali": "viññāṇapaccayā nāmarūpaṁ; ",
-      "english": "Consciousness is a requirement for name and form. "
+      "pali": "",
+      "english": "From clinging/sustenance as a requisite condition comes becoming."
     },
     {
       "number": 13,
-      "pali": "nāmarūpapaccayā saḷāyatanaṁ; ",
-      "english": "Name and form are requirements for the six sense fields. "
+      "pali": "",
+      "english": "From becoming as a requisite condition comes birth."
     },
     {
       "number": 14,
-      "pali": "saḷāyatanapaccayā phasso; ",
-      "english": "The six sense fields are requirements for contact. "
+      "pali": "",
+      "english": "From birth as a requisite condition, then aging-&-death, sorrow, lamentation, pain, distress, & despair come into play. Such is the origination of this entire mass of stress & suffering."
     },
     {
       "number": 15,
-      "pali": "phassapaccayā vedanā; ",
-      "english": "Contact is a requirement for feeling. "
+      "pali": "",
+      "english": "“Now which aging-&-death? Whatever aging, decrepitude, brokenness, graying, wrinkling, decline of life-force, weakening of the faculties of the various beings in this or that group of beings, that is called aging. Whatever deceasing, passing away, breaking up, disappearance, dying, death, completion of time, break up of the aggregates, casting off of the body, interruption in the life faculty of the various beings in this or that group of beings, that is called death."
     },
     {
       "number": 16,
-      "pali": "vedanāpaccayā taṇhā; ",
-      "english": "Feeling is a requirement for craving. "
+      "pali": "",
+      "english": "“And which birth? Whatever birth, taking birth, descent, coming-to-be, coming-forth, appearance of aggregates, & acquisition of (sense) media of the various beings in this or that group of beings, that is called birth."
     },
     {
       "number": 17,
-      "pali": "taṇhāpaccayā upādānaṁ; ",
-      "english": "Craving is a requirement for grasping. "
+      "pali": "",
+      "english": "“And which becoming? These three becomings: sensual becoming, form becoming, & formless becoming. This is called becoming."
     },
     {
       "number": 18,
-      "pali": "upādānapaccayā bhavo; ",
-      "english": "Grasping is a requirement for continued existence. "
+      "pali": "",
+      "english": "“And which clinging/sustenance? These four are clingings: sensuality-clinging, view-clinging, habit-&-practice-clinging, and doctrine-of-self-clinging. This is called clinging. [Or: These four are sustenances: sensuality-sustenance, view-sustenance, habit-&-practice-sustenance, and doctrine-of-self-sustenance.]"
     },
     {
       "number": 19,
-      "pali": "bhavapaccayā jāti; ",
-      "english": "Continued existence is a requirement for rebirth. "
+      "pali": "",
+      "english": "“And which craving? These six are classes of craving: craving for forms, craving for sounds, craving for smells, craving for tastes, craving for tactile sensations, craving for ideas. This is called craving."
     },
     {
       "number": 20,
-      "pali": "jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti. ",
-      "english": "Rebirth is a requirement for old age and death, sorrow, lamentation, pain, sadness, and distress to come to be. "
+      "pali": "",
+      "english": "“And which feeling? These six are classes of feeling: feeling born from eye-contact, feeling born from ear-contact, feeling born from nose-contact, feeling born from tongue-contact, feeling born from body-contact, feeling born from intellect-contact. This is called feeling."
     },
     {
       "number": 21,
-      "pali": "Evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
-      "english": "That is how this entire mass of suffering originates. "
+      "pali": "",
+      "english": "“And which contact? These six are classes of contact: eye-contact, ear-contact, nose-contact, tongue-contact, body-contact, intellect-contact. This is called contact."
     },
     {
       "number": 22,
-      "pali": "Katamañca, bhikkhave, jarāmaraṇaṁ? ",
-      "english": "And what is old age and death? "
+      "pali": "",
+      "english": "“And which six sense media? These six are sense media: the eye-medium, the ear-medium, the nose-medium, the tongue-medium, the body-medium, the intellect-medium. These are called the six sense media."
     },
     {
       "number": 23,
-      "pali": "Yā tesaṁ tesaṁ sattānaṁ tamhi tamhi sattanikāye jarā jīraṇatā khaṇḍiccaṁ pāliccaṁ valittacatā āyuno saṁhāni indriyānaṁ paripāko; ",
-      "english": "The old age, decrepitude, broken teeth, grey hair, wrinkly skin, diminished vitality, and failing faculties of the various sentient beings in the various orders of sentient beings. "
+      "pali": "",
+      "english": "“And which name-&-form? Feeling, perception, intention, contact, & attention: This is called name. The four great elements, and the form dependent on the four great elements: This is called form. This name & this form are called name-&-form."
     },
     {
       "number": 24,
-      "pali": "ayaṁ vuccati jarā. ",
-      "english": "This is called old age. "
+      "pali": "",
+      "english": "“And which consciousness? These six are classes of consciousness: eye-consciousness, ear-consciousness, nose-consciousness, tongue-consciousness, body-consciousness, intellect-consciousness. This is called consciousness."
     },
     {
       "number": 25,
-      "pali": "Yā tesaṁ tesaṁ sattānaṁ tamhā tamhā sattanikāyā cuti cavanatā bhedo antaradhānaṁ maccu maraṇaṁ kālakiriyā khandhānaṁ bhedo kaḷevarassa nikkhepo (…), ",
-      "english": "The passing away, passing on, disintegration, demise, mortality, death, decease, breaking up of the aggregates, and laying to rest of the corpse of the various sentient beings in the various orders of sentient beings. "
+      "pali": "",
+      "english": "“And which fabrications? These three are fabrications: bodily fabrications, verbal fabrications, mental fabrications. These are called fabrications."
     },
     {
       "number": 26,
-      "pali": "idaṁ vuccati maraṇaṁ. ",
-      "english": "This is called death. "
+      "pali": "",
+      "english": "“And which ignorance? Not knowing stress, not knowing the origination of stress, not knowing the cessation of stress, not knowing the way of practice leading to the cessation of stress: This is called ignorance."
     },
     {
       "number": 27,
-      "pali": "Iti ayañca jarā, idañca maraṇaṁ. ",
-      "english": "Such is old age, and such is death. "
-    },
-    {
-      "number": 28,
-      "pali": "Idaṁ vuccati, bhikkhave, jarāmaraṇaṁ. ",
-      "english": "This is called old age and death. "
-    },
-    {
-      "number": 29,
-      "pali": "Katamā ca, bhikkhave, jāti? ",
-      "english": "And what is rebirth? "
-    },
-    {
-      "number": 30,
-      "pali": "Yā tesaṁ tesaṁ sattānaṁ tamhi tamhi sattanikāye jāti sañjāti okkanti abhinibbatti khandhānaṁ pātubhāvo āyatanānaṁ paṭilābho. ",
-      "english": "The rebirth, inception, conception, regeneration, manifestation of the aggregates, and acquisition of the sense fields of the various sentient beings in the various orders of sentient beings. "
-    },
-    {
-      "number": 31,
-      "pali": "Ayaṁ vuccati, bhikkhave, jāti. ",
-      "english": "This is called rebirth. "
-    },
-    {
-      "number": 32,
-      "pali": "Katamo ca, bhikkhave, bhavo? ",
-      "english": "And what is continued existence? "
-    },
-    {
-      "number": 33,
-      "pali": "Tayome, bhikkhave, bhavā—",
-      "english": "There are these three states of existence. "
-    },
-    {
-      "number": 34,
-      "pali": "kāmabhavo, rūpabhavo, arūpabhavo. ",
-      "english": "Existence in the sensual realm, the realm of luminous form, and the formless realm. "
-    },
-    {
-      "number": 35,
-      "pali": "Ayaṁ vuccati, bhikkhave, bhavo. ",
-      "english": "This is called continued existence. "
-    },
-    {
-      "number": 36,
-      "pali": "Katamañca, bhikkhave, upādānaṁ? ",
-      "english": "And what is grasping? "
-    },
-    {
-      "number": 37,
-      "pali": "Cattārimāni, bhikkhave, upādānāni—",
-      "english": "There are these four kinds of grasping. "
-    },
-    {
-      "number": 38,
-      "pali": "kāmupādānaṁ, diṭṭhupādānaṁ, sīlabbatupādānaṁ, attavādupādānaṁ. ",
-      "english": "Grasping at sensual pleasures, views, precepts and observances, and theories of a self. "
-    },
-    {
-      "number": 39,
-      "pali": "Idaṁ vuccati, bhikkhave, upādānaṁ. ",
-      "english": "This is called grasping. "
-    },
-    {
-      "number": 40,
-      "pali": "Katamā ca, bhikkhave, taṇhā? ",
-      "english": "And what is craving? "
-    },
-    {
-      "number": 41,
-      "pali": "Chayime, bhikkhave, taṇhākāyā—",
-      "english": "There are these six classes of craving. "
-    },
-    {
-      "number": 42,
-      "pali": "rūpataṇhā, saddataṇhā, gandhataṇhā, rasataṇhā, phoṭṭhabbataṇhā, dhammataṇhā. ",
-      "english": "Craving for sights, sounds, smells, tastes, touches, and ideas. "
-    },
-    {
-      "number": 43,
-      "pali": "Ayaṁ vuccati, bhikkhave, taṇhā. ",
-      "english": "This is called craving. "
-    },
-    {
-      "number": 44,
-      "pali": "Katamā ca, bhikkhave, vedanā? ",
-      "english": "And what is feeling? "
-    },
-    {
-      "number": 45,
-      "pali": "Chayime, bhikkhave, vedanākāyā—",
-      "english": "There are these six classes of feeling. "
-    },
-    {
-      "number": 46,
-      "pali": "cakkhusamphassajā vedanā, sotasamphassajā vedanā, ghānasamphassajā vedanā, jivhāsamphassajā vedanā, kāyasamphassajā vedanā, manosamphassajā vedanā. ",
-      "english": "Feeling born of contact through the eye, ear, nose, tongue, body, and mind. "
-    },
-    {
-      "number": 47,
-      "pali": "Ayaṁ vuccati, bhikkhave, vedanā. ",
-      "english": "This is called feeling. "
-    },
-    {
-      "number": 48,
-      "pali": "Katamo ca, bhikkhave, phasso? ",
-      "english": "And what is contact? "
-    },
-    {
-      "number": 49,
-      "pali": "Chayime, bhikkhave, phassakāyā—",
-      "english": "There are these six classes of contact. "
-    },
-    {
-      "number": 50,
-      "pali": "cakkhusamphasso, sotasamphasso, ghānasamphasso, jivhāsamphasso, kāyasamphasso, manosamphasso. ",
-      "english": "Contact through the eye, ear, nose, tongue, body, and mind. "
-    },
-    {
-      "number": 51,
-      "pali": "Ayaṁ vuccati, bhikkhave, phasso. ",
-      "english": "This is called contact. "
-    },
-    {
-      "number": 52,
-      "pali": "Katamañca, bhikkhave, saḷāyatanaṁ? ",
-      "english": "And what are the six sense fields? "
-    },
-    {
-      "number": 53,
-      "pali": "Cakkhāyatanaṁ, sotāyatanaṁ, ghānāyatanaṁ, jivhāyatanaṁ, kāyāyatanaṁ, manāyatanaṁ—",
-      "english": "The sense fields of the eye, ear, nose, tongue, body, and mind. "
-    },
-    {
-      "number": 54,
-      "pali": "idaṁ vuccati, bhikkhave, saḷāyatanaṁ. ",
-      "english": "These are called the six sense fields. "
-    },
-    {
-      "number": 55,
-      "pali": "Katamañca, bhikkhave, nāmarūpaṁ? ",
-      "english": "And what are name and form? "
-    },
-    {
-      "number": 56,
-      "pali": "Vedanā, saññā, cetanā, phasso, manasikāro—",
-      "english": "Feeling, perception, intention, contact, and application of mind. "
-    },
-    {
-      "number": 57,
-      "pali": "idaṁ vuccati nāmaṁ. ",
-      "english": "This is called name. "
-    },
-    {
-      "number": 58,
-      "pali": "Cattāro ca mahābhūtā, catunnañca mahābhūtānaṁ upādāyarūpaṁ. ",
-      "english": "The four principal states, and form derived from the four principal states. "
-    },
-    {
-      "number": 59,
-      "pali": "Idaṁ vuccati rūpaṁ. ",
-      "english": "This is called form. "
-    },
-    {
-      "number": 60,
-      "pali": "Iti idañca nāmaṁ, idañca rūpaṁ. ",
-      "english": "Such is name and such is form. "
-    },
-    {
-      "number": 61,
-      "pali": "Idaṁ vuccati, bhikkhave, nāmarūpaṁ. ",
-      "english": "These are called name and form. "
-    },
-    {
-      "number": 62,
-      "pali": "Katamañca, bhikkhave, viññāṇaṁ? ",
-      "english": "And what is consciousness? "
-    },
-    {
-      "number": 63,
-      "pali": "Chayime, bhikkhave, viññāṇakāyā—",
-      "english": "There are these six classes of consciousness. "
-    },
-    {
-      "number": 64,
-      "pali": "cakkhuviññāṇaṁ, sotaviññāṇaṁ, ghānaviññāṇaṁ, jivhāviññāṇaṁ, kāyaviññāṇaṁ, manoviññāṇaṁ. ",
-      "english": "Eye, ear, nose, tongue, body, and mind consciousness. "
-    },
-    {
-      "number": 65,
-      "pali": "Idaṁ vuccati, bhikkhave, viññāṇaṁ. ",
-      "english": "This is called consciousness. "
-    },
-    {
-      "number": 66,
-      "pali": "Katame ca, bhikkhave, saṅkhārā? ",
-      "english": "And what are choices? "
-    },
-    {
-      "number": 67,
-      "pali": "Tayome, bhikkhave, saṅkhārā—",
-      "english": "There are three kinds of choices. "
-    },
-    {
-      "number": 68,
-      "pali": "kāyasaṅkhāro, vacīsaṅkhāro, cittasaṅkhāro. ",
-      "english": "Choices by way of body, speech, and mind. "
-    },
-    {
-      "number": 69,
-      "pali": "Ime vuccanti, bhikkhave, saṅkhārā. ",
-      "english": "These are called choices. "
-    },
-    {
-      "number": 70,
-      "pali": "Katamā ca, bhikkhave, avijjā? ",
-      "english": "And what is ignorance? "
-    },
-    {
-      "number": 71,
-      "pali": "Yaṁ kho, bhikkhave, dukkhe aññāṇaṁ, dukkhasamudaye aññāṇaṁ, dukkhanirodhe aññāṇaṁ, dukkhanirodhagāminiyā paṭipadāya aññāṇaṁ. ",
-      "english": "Not knowing about suffering, the origin of suffering, the cessation of suffering, and the practice that leads to the cessation of suffering. "
-    },
-    {
-      "number": 72,
-      "pali": "Ayaṁ vuccati, bhikkhave, avijjā. ",
-      "english": "This is called ignorance. "
-    },
-    {
-      "number": 73,
-      "pali": "Iti kho, bhikkhave, avijjāpaccayā saṅkhārā; ",
-      "english": "And so, ignorance is a requirement for choices. "
-    },
-    {
-      "number": 74,
-      "pali": "saṅkhārapaccayā viññāṇaṁ …pe… ",
-      "english": "Choices are a requirement for consciousness. … "
-    },
-    {
-      "number": 75,
-      "pali": "evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
-      "english": "That is how this entire mass of suffering originates. "
-    },
-    {
-      "number": 76,
-      "pali": "Avijjāya tveva asesavirāganirodhā saṅkhāranirodho; ",
-      "english": "When ignorance fades away and ceases with no residue left behind, choices cease. "
-    },
-    {
-      "number": 77,
-      "pali": "saṅkhāranirodhā viññāṇanirodho …pe… ",
-      "english": "When choices cease, consciousness ceases. … "
-    },
-    {
-      "number": 78,
-      "pali": "evametassa kevalassa dukkhakkhandhassa nirodho hotī”ti. ",
-      "english": "That is how this entire mass of suffering ceases.” "
-    },
-    {
-      "number": 79,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Now from the remainderless fading & cessation of that very ignorance comes the cessation of fabrications. From the cessation of fabrications comes the cessation of consciousness. From the cessation of consciousness comes the cessation of name-&-form. From the cessation of name-&-form comes the cessation of the six sense media. From the cessation of the six sense media comes the cessation of contact. From the cessation of contact comes the cessation of feeling. From the cessation of feeling comes the cessation of craving. From the cessation of craving comes the cessation of clinging/sustenance. From the cessation of clinging/sustenance comes the cessation of becoming. From the cessation of becoming comes the cessation of birth. From the cessation of birth, then aging & death, sorrow, lamentation, pain, distress, & despair all cease. Such is the cessation of this entire mass of stress & suffering.”"
     }
   ]
 }

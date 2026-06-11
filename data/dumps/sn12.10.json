@@ -3,283 +3,243 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 12.10 ",
-      "english": "Linked Discourses 12.10 "
+      "pali": "Linked Discourses 12.10",
+      "english": "Linked Discourses 12.10"
     },
     {
       "number": 2,
-      "pali": "1. Buddhavagga ",
-      "english": "1. The Buddhas "
+      "pali": "Gotama Sutta",
+      "english": "About Gotama"
     },
     {
       "number": 3,
-      "pali": "Gotamasutta ",
-      "english": "Gotama "
+      "pali": "",
+      "english": "“Monks, before my self-awakening, when I was still just an unawakened bodhisatta, the realization came to me: ‘How this world has fallen on difficulty! It is born, it ages, it dies, it falls away & rearises, but it doesn’t discern the escape from this stress, from this aging & death. O when will it discern the escape from this stress, from this aging & death?’"
     },
     {
       "number": 4,
-      "pali": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
-      "english": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: "
+      "pali": "",
+      "english": "“Then the thought occurred to me, ‘Aging-&-death exists when what exists? From what as a requisite condition comes aging-&-death?’ From my appropriate attention there came the breakthrough of discernment: ‘Aging-&-death exists when birth exists. From birth as a requisite condition comes aging-&-death.’"
     },
     {
       "number": 5,
-      "pali": "‘kicchaṁ vatāyaṁ loko āpanno jāyati ca jīyati ca mīyati ca cavati ca upapajjati ca. ",
-      "english": "‘Alas, this world has fallen into trouble. It’s born, grows old, dies, passes away, and is reborn, "
+      "pali": "",
+      "english": "Then the thought occurred to me, ‘Birth exists when what exists? From what as a requisite condition comes birth?’ From my appropriate attention there came the breakthrough of discernment: ‘Birth exists when becoming exists. From becoming as a requisite condition comes birth.’ …"
     },
     {
       "number": 6,
-      "pali": "Atha ca panimassa dukkhassa nissaraṇaṁ nappajānāti jarāmaraṇassa. ",
-      "english": "yet it doesn’t understand how to escape from this suffering, from old age and death. "
+      "pali": "",
+      "english": "“‘Becoming exists when clinging exists.…"
     },
     {
       "number": 7,
-      "pali": "Kudāssu nāma imassa dukkhassa nissaraṇaṁ paññāyissati jarāmaraṇassā’ti? ",
-      "english": "Oh, when will an escape be found from this suffering, from old age and death?’ "
+      "pali": "",
+      "english": "“‘Clinging exists when craving exists.…"
     },
     {
       "number": 8,
-      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
-      "english": "Then it occurred to me: "
+      "pali": "",
+      "english": "“‘Craving exists when feeling exists.…"
     },
     {
       "number": 9,
-      "pali": "‘kimhi nu kho sati jarāmaraṇaṁ hoti, kiṁpaccayā jarāmaraṇan’ti? ",
-      "english": "‘When what exists is there old age and death? What is a requirement for old age and death?’ "
+      "pali": "",
+      "english": "“‘Feeling exists when contact exists.…"
     },
     {
       "number": 10,
-      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
-      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+      "pali": "",
+      "english": "“‘Contact exists when the six sense media exist.…"
     },
     {
       "number": 11,
-      "pali": "‘jātiyā kho sati jarāmaraṇaṁ hoti, jātipaccayā jarāmaraṇan’ti. ",
-      "english": "‘When rebirth exists there’s old age and death. Rebirth is a requirement for old age and death.’ "
+      "pali": "",
+      "english": "“‘The six sense media exist when name-&-form exists.…"
     },
     {
       "number": 12,
-      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
-      "english": "Then it occurred to me: "
+      "pali": "",
+      "english": "“‘Name-&-form exists when consciousness exists.…"
     },
     {
       "number": 13,
-      "pali": "‘kimhi nu kho sati jāti hoti …pe… ",
-      "english": "‘When what exists is there rebirth? … "
+      "pali": "",
+      "english": "“‘Consciousness exists when fabrications exist.…"
     },
     {
       "number": 14,
-      "pali": "bhavo … ",
-      "english": "continued existence … "
+      "pali": "",
+      "english": "Then the thought occurred to me, ‘Fabrications exist when what exists? From what as a requisite condition come fabrications?’ From my appropriate attention there came the breakthrough of discernment: ‘Fabrications exist when ignorance exists. From ignorance as a requisite condition come fabrications."
     },
     {
       "number": 15,
-      "pali": "upādānaṁ … ",
-      "english": "grasping … "
+      "pali": "",
+      "english": "“‘Thus:"
     },
     {
       "number": 16,
-      "pali": "taṇhā … ",
-      "english": "craving … "
+      "pali": "",
+      "english": "From ignorance as a requisite condition come fabrications."
     },
     {
       "number": 17,
-      "pali": "vedanā … ",
-      "english": "feeling … "
+      "pali": "",
+      "english": "From fabrications as a requisite condition comes consciousness."
     },
     {
       "number": 18,
-      "pali": "phasso … ",
-      "english": "contact … "
+      "pali": "",
+      "english": "From consciousness as a requisite condition comes name-&-form."
     },
     {
       "number": 19,
-      "pali": "saḷāyatanaṁ … ",
-      "english": "the six sense fields … "
+      "pali": "",
+      "english": "From name-&-form as a requisite condition come the six sense media."
     },
     {
       "number": 20,
-      "pali": "nāmarūpaṁ … ",
-      "english": "name and form … "
+      "pali": "",
+      "english": "From the six sense media as a requisite condition comes contact."
     },
     {
       "number": 21,
-      "pali": "viññāṇaṁ … ",
-      "english": "consciousness … "
+      "pali": "",
+      "english": "From contact as a requisite condition comes feeling."
     },
     {
       "number": 22,
-      "pali": "saṅkhārā honti, kiṁpaccayā saṅkhārā’ti? ",
-      "english": "‘When what exists are there choices? What is a requirement for choices?’ "
+      "pali": "",
+      "english": "From feeling as a requisite condition comes craving."
     },
     {
       "number": 23,
-      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
-      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+      "pali": "",
+      "english": "From craving as a requisite condition comes clinging/sustenance."
     },
     {
       "number": 24,
-      "pali": "‘avijjāya kho sati saṅkhārā honti, avijjāpaccayā saṅkhārā’ti. ",
-      "english": "‘When ignorance exists there are choices. Ignorance is a requirement for choices.’ "
+      "pali": "",
+      "english": "From clinging/sustenance as a requisite condition comes becoming."
     },
     {
       "number": 25,
-      "pali": "Iti hidaṁ avijjāpaccayā saṅkhārā; ",
-      "english": "And so, ignorance is a requirement for choices. "
+      "pali": "",
+      "english": "From becoming as a requisite condition comes birth."
     },
     {
       "number": 26,
-      "pali": "saṅkhārapaccayā viññāṇaṁ …pe… ",
-      "english": "Choices are a requirement for consciousness. … "
+      "pali": "",
+      "english": "From birth as a requisite condition, then aging & death, sorrow, lamentation, pain, distress, & despair come into play. Such is the origination of this entire mass of stress & suffering. Origination, origination.’ Vision arose, clear knowing arose, discernment arose, knowledge arose, illumination arose within me with regard to things never before heard."
     },
     {
       "number": 27,
-      "pali": "evametassa kevalassa dukkhakkhandhassa samudayo hoti. ",
-      "english": "That is how this entire mass of suffering originates. "
+      "pali": "",
+      "english": "“Then the thought occurred to me, ‘Aging & death don’t exist when what doesn’t exist? From the cessation of what comes the cessation of aging & death?’ From my appropriate attention there came the breakthrough of discernment: ‘Aging-&-death doesn’t exist when birth doesn’t exist. From the cessation of birth comes the cessation of aging & death.’"
     },
     {
       "number": 28,
-      "pali": "‘Samudayo, samudayo’ti kho me, bhikkhave, pubbe ananussutesu dhammesu cakkhuṁ udapādi, ñāṇaṁ udapādi, paññā udapādi, vijjā udapādi, āloko udapādi. ",
-      "english": "‘Origination, origination.’ Such was the vision, knowledge, wisdom, realization, and light that arose in me regarding teachings not learned before from another. "
+      "pali": "",
+      "english": "“Then the thought occurred to me, ‘Birth doesn’t exist when what doesn’t exist? From the cessation of what comes the cessation of birth?’ From my appropriate attention there came the breakthrough of discernment: ‘Birth doesn’t exist when becoming doesn’t exist. From the cessation of becoming comes the cessation of birth.’ …"
     },
     {
       "number": 29,
-      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
-      "english": "Then it occurred to me: "
+      "pali": "",
+      "english": "“‘Becoming doesn’t exist when clinging doesn’t exist.…"
     },
     {
       "number": 30,
-      "pali": "‘kimhi nu kho asati jarāmaraṇaṁ na hoti, kissa nirodhā jarāmaraṇanirodho’ti? ",
-      "english": "‘When what doesn’t exist is there no old age and death? When what ceases do old age and death cease?’ "
+      "pali": "",
+      "english": "“‘Clinging doesn’t exist when craving doesn’t exist.…"
     },
     {
       "number": 31,
-      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
-      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+      "pali": "",
+      "english": "“‘Craving doesn’t exist when feeling doesn’t exist.…"
     },
     {
       "number": 32,
-      "pali": "‘jātiyā kho asati jarāmaraṇaṁ na hoti, jātinirodhā jarāmaraṇanirodho’ti. ",
-      "english": "‘When rebirth doesn’t exist there’s no old age and death. When rebirth ceases, old age and death cease.’ "
+      "pali": "",
+      "english": "“‘Feeling doesn’t exist when contact doesn’t exist.…"
     },
     {
       "number": 33,
-      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
-      "english": "Then it occurred to me: "
+      "pali": "",
+      "english": "“‘Contact doesn’t exist when the six sense media don’t exist.…"
     },
     {
       "number": 34,
-      "pali": "‘kimhi nu kho asati jāti na hoti …pe… ",
-      "english": "‘When what doesn’t exist is there no rebirth? … "
+      "pali": "",
+      "english": "“‘The six sense media don’t exist when name-&-form doesn’t exist.…"
     },
     {
       "number": 35,
-      "pali": "bhavo … ",
-      "english": "continued existence … "
+      "pali": "",
+      "english": "“‘Name-&-form doesn’t exist when consciousness doesn’t exist.…"
     },
     {
       "number": 36,
-      "pali": "upādānaṁ … ",
-      "english": "grasping … "
+      "pali": "",
+      "english": "“‘Consciousness doesn’t exist when fabrications don’t exist.…"
     },
     {
       "number": 37,
-      "pali": "taṇhā … ",
-      "english": "craving … "
+      "pali": "",
+      "english": "Then the thought occurred to me, ‘Fabrications don’t exist when what doesn’t exist? From the cessation of what comes the cessation of fabrications?’ From my appropriate attention there came the breakthrough of discernment: ‘Fabrications don’t exist when ignorance doesn’t exist. From the cessation of ignorance comes the cessation of fabrications."
     },
     {
       "number": 38,
-      "pali": "vedanā … ",
-      "english": "feeling … "
+      "pali": "",
+      "english": "“‘Thus:"
     },
     {
       "number": 39,
-      "pali": "phasso … ",
-      "english": "contact … "
+      "pali": "",
+      "english": "From the cessation of ignorance comes the cessation of fabrications."
     },
     {
       "number": 40,
-      "pali": "saḷāyatanaṁ … ",
-      "english": "the six sense fields … "
+      "pali": "",
+      "english": "From the cessation of fabrications comes the cessation of consciousness."
     },
     {
       "number": 41,
-      "pali": "nāmarūpaṁ … ",
-      "english": "name and form … "
+      "pali": "",
+      "english": "From the cessation of consciousness comes the cessation of name-&-form."
     },
     {
       "number": 42,
-      "pali": "viññāṇaṁ … ",
-      "english": "consciousness … "
+      "pali": "",
+      "english": "From the cessation of name-&-form comes the cessation of the six sense media."
     },
     {
       "number": 43,
-      "pali": "saṅkhārā na honti, kissa nirodhā saṅkhāranirodho’ti? ",
-      "english": "‘When what doesn’t exist are there no choices? When what ceases do choices cease?’ "
+      "pali": "",
+      "english": "From the cessation of the six sense media comes the cessation of contact."
     },
     {
       "number": 44,
-      "pali": "Tassa mayhaṁ, bhikkhave, yoniso manasikārā ahu paññāya abhisamayo: ",
-      "english": "Then, through rational application of mind, I penetrated with wisdom: "
+      "pali": "",
+      "english": "From the cessation of contact comes the cessation of feeling."
     },
     {
       "number": 45,
-      "pali": "‘avijjāya kho asati saṅkhārā na honti, avijjānirodhā saṅkhāranirodho’ti. ",
-      "english": "‘When ignorance doesn’t exist there are no choices. When ignorance ceases, choices cease.’ "
+      "pali": "",
+      "english": "From the cessation of feeling comes the cessation of craving."
     },
     {
       "number": 46,
-      "pali": "Iti hidaṁ avijjānirodhā saṅkhāranirodho; ",
-      "english": "And so, when ignorance ceases, choices cease. "
+      "pali": "",
+      "english": "From the cessation of craving comes the cessation of clinging/sustenance."
     },
     {
       "number": 47,
-      "pali": "saṅkhāranirodhā viññāṇanirodho …pe… ",
-      "english": "When choices cease, consciousness ceases. … "
+      "pali": "",
+      "english": "From the cessation of clinging/sustenance comes the cessation of becoming."
     },
     {
       "number": 48,
-      "pali": "evametassa kevalassa dukkhakkhandhassa nirodho hoti. ",
-      "english": "That is how this entire mass of suffering ceases. "
-    },
-    {
-      "number": 49,
-      "pali": "‘Nirodho, nirodho’ti kho me, bhikkhave, pubbe ananussutesu dhammesu cakkhuṁ udapādi, ñāṇaṁ udapādi, paññā udapādi, vijjā udapādi, āloko udapādī”ti. ",
-      "english": "‘Cessation, cessation.’ Such was the vision, knowledge, wisdom, realization, and light that arose in me regarding teachings not learned before from another.” "
-    },
-    {
-      "number": 50,
-      "pali": "Dasamo. ",
-      "english": ""
-    },
-    {
-      "number": 51,
-      "pali": "Buddhavaggo paṭhamo. ",
-      "english": ""
-    },
-    {
-      "number": 52,
-      "pali": "Tassuddānaṁ ",
-      "english": ""
-    },
-    {
-      "number": 53,
-      "pali": "Desanā vibhaṅgapaṭipadā ca, ",
-      "english": ""
-    },
-    {
-      "number": 54,
-      "pali": "Vipassī sikhī ca vessabhū; ",
-      "english": ""
-    },
-    {
-      "number": 55,
-      "pali": "Kakusandho koṇāgamano kassapo, ",
-      "english": ""
-    },
-    {
-      "number": 56,
-      "pali": "Mahāsakyamuni ca gotamoti. ",
-      "english": ""
+      "pali": "",
+      "english": "From the cessation of becoming comes the cessation of birth. From the cessation of birth, then aging & death, sorrow, lamentation, pain, distress, & despair all cease. Such is the cessation of this entire mass of stress & suffering. Cessation, cessation.’ Vision arose, clear knowing arose, discernment arose, knowledge arose, illumination arose within me with regard to things never before heard.”"
     }
   ]
 }

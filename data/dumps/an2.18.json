@@ -3,103 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "18 ",
-      "english": "18 "
+      "pali": "Numerical Discourses 2.18",
+      "english": "Numerical Discourses 2.18"
     },
     {
       "number": 2,
-      "pali": "Atha kho āyasmā ānando yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho āyasmantaṁ ānandaṁ bhagavā etadavoca: ",
-      "english": "Then Venerable Ānanda went up to the Buddha, bowed, and sat down to one side. The Buddha said to him, "
+      "pali": "Ekaṁsena Sutta",
+      "english": "Categorically"
     },
     {
       "number": 3,
-      "pali": "“ekaṁsenāhaṁ, ānanda, akaraṇīyaṁ vadāmi kāyaduccaritaṁ vacīduccaritaṁ manoduccaritan”ti. ",
-      "english": "“Ānanda, I absolutely say that you should not do bad things by way of body, speech, and mind.” "
+      "pali": "",
+      "english": "Then Ven. Ānanda went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there, the Blessed One said to him, “I say categorically, Ānanda, that bodily misconduct, verbal misconduct, & mental misconduct should not be done.”"
     },
     {
       "number": 4,
-      "pali": "“Yamidaṁ, bhante, bhagavatā ekaṁsena akaraṇīyaṁ akkhātaṁ kāyaduccaritaṁ vacīduccaritaṁ manoduccaritaṁ tasmiṁ akaraṇīye kayiramāne ko ādīnavo pāṭikaṅkho”ti? ",
-      "english": "“But, sir, if someone does these things that should not be done, what drawbacks should they expect?” "
+      "pali": "",
+      "english": "“Given that the Blessed One has declared, lord, that bodily misconduct, verbal misconduct, & mental misconduct should not be done, what drawbacks can one expect when doing what should not be done?”"
     },
     {
       "number": 5,
-      "pali": "“Yamidaṁ, ānanda, mayā ekaṁsena akaraṇīyaṁ akkhātaṁ kāyaduccaritaṁ vacīduccaritaṁ manoduccaritaṁ tasmiṁ akaraṇīye kayiramāne ayaṁ ādīnavo pāṭikaṅkho—",
-      "english": "“They should expect these drawbacks. "
+      "pali": "",
+      "english": "“Given that I have declared, Ānanda, that bodily misconduct, verbal misconduct, & mental misconduct should not be done, these are the drawbacks one can expect when doing what should not be done: One can fault oneself; observant people, on close examination, criticize one; one’s bad reputation gets spread about; one dies confused; and—on the break-up of the body, after death—one reappears in a plane of deprivation, a bad destination, a lower realm, hell. Given that I have declared, Ānanda, that bodily misconduct, verbal misconduct, & mental misconduct should not be done, these are the drawbacks one can expect when doing what should not be done."
     },
     {
       "number": 6,
-      "pali": "attāpi attānaṁ upavadati, ",
-      "english": "They blame themselves. "
+      "pali": "",
+      "english": "“I say categorically, Ānanda, that good bodily conduct, good verbal conduct, & good mental conduct should be done.”"
     },
     {
       "number": 7,
-      "pali": "anuvicca viññū garahanti, ",
-      "english": "After examination, sensible people criticize them. "
+      "pali": "",
+      "english": "“Given that the Blessed One has declared, lord, that good bodily conduct, good verbal conduct, & good mental conduct should be done, what rewards can one expect when doing what should be done?”"
     },
     {
       "number": 8,
-      "pali": "pāpako kittisaddo abbhuggacchati, ",
-      "english": "They get a bad reputation. "
-    },
-    {
-      "number": 9,
-      "pali": "sammūḷho kālaṁ karoti, ",
-      "english": "They feel lost when they die. "
-    },
-    {
-      "number": 10,
-      "pali": "kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati. ",
-      "english": "And when their body breaks up, after death, they are reborn in a place of loss, a bad place, the underworld, hell. "
-    },
-    {
-      "number": 11,
-      "pali": "Yamidaṁ, ānanda, mayā ekaṁsena akaraṇīyaṁ akkhātaṁ kāyaduccaritaṁ vacīduccaritaṁ manoduccaritaṁ tasmiṁ akaraṇīye kayiramāne ayaṁ ādīnavo pāṭikaṅkho”ti. ",
-      "english": "These are the drawbacks they should expect.” "
-    },
-    {
-      "number": 12,
-      "pali": "“Ekaṁsenāhaṁ, ānanda, karaṇīyaṁ vadāmi kāyasucaritaṁ vacīsucaritaṁ manosucaritan”ti. ",
-      "english": "“Ānanda, I absolutely say that you should do good things by way of body, speech, and mind.” "
-    },
-    {
-      "number": 13,
-      "pali": "“Yamidaṁ, bhante, bhagavatā ekaṁsena karaṇīyaṁ akkhātaṁ kāyasucaritaṁ vacīsucaritaṁ manosucaritaṁ tasmiṁ karaṇīye kayiramāne ko ānisaṁso pāṭikaṅkho”ti? ",
-      "english": "“But, sir, if someone does these things that should be done, what benefits should they expect?” "
-    },
-    {
-      "number": 14,
-      "pali": "“Yamidaṁ, ānanda, mayā ekaṁsena karaṇīyaṁ akkhātaṁ kāyasucaritaṁ vacīsucaritaṁ manosucaritaṁ tasmiṁ karaṇīye kayiramāne ayaṁ ānisaṁso pāṭikaṅkho—",
-      "english": "“They should expect these benefits. "
-    },
-    {
-      "number": 15,
-      "pali": "attāpi attānaṁ na upavadati, ",
-      "english": "They don’t blame themselves. "
-    },
-    {
-      "number": 16,
-      "pali": "anuvicca viññū pasaṁsanti, ",
-      "english": "After examination, sensible people praise them. "
-    },
-    {
-      "number": 17,
-      "pali": "kalyāṇo kittisaddo abbhuggacchati, ",
-      "english": "They get a good reputation. "
-    },
-    {
-      "number": 18,
-      "pali": "asammūḷho kālaṁ karoti, ",
-      "english": "They don’t feel lost when they die. "
-    },
-    {
-      "number": 19,
-      "pali": "kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjati. ",
-      "english": "And when the body breaks up, after death, they are reborn in a good place, a heavenly realm. "
-    },
-    {
-      "number": 20,
-      "pali": "Yamidaṁ, ānanda, mayā ekaṁsena karaṇīyaṁ akkhātaṁ kāyasucaritaṁ vacīsucaritaṁ manosucaritaṁ tasmiṁ karaṇīye kayiramāne ayaṁ ānisaṁso pāṭikaṅkho”ti. ",
-      "english": "These are the benefits they should expect.” "
+      "pali": "",
+      "english": "“Given that I have declared, Ānanda, that good bodily conduct, good verbal conduct, & good mental conduct should be done, these are the rewards one can expect when doing what should be done: One doesn’t fault oneself; observant people, on close examination, praise one; one’s good reputation gets spread about; one dies unconfused; and—on the break-up of the body, after death—one reappears in a good destination, a heavenly world. Given that I have declared, Ānanda, that good bodily conduct, good verbal conduct, & good mental conduct should be done, these are the rewards one can expect when doing what should be done.”"
     }
   ]
 }

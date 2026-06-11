@@ -3,368 +3,148 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 41.3 ",
-      "english": "Linked Discourses 41.3 "
+      "pali": "Linked Discourses 41.3",
+      "english": "Linked Discourses 41.3"
     },
     {
       "number": 2,
-      "pali": "1. Cittavagga ",
-      "english": "1. With Citta "
+      "pali": "Isidatta Sutta",
+      "english": "About Isidatta"
     },
     {
       "number": 3,
-      "pali": "Dutiyaisidattasutta ",
-      "english": "With Isidatta (2nd) "
+      "pali": "",
+      "english": "On one occasion a large number of senior monks were staying near Macchikāsaṇḍa in the Wild Mango Grove. Then Citta the householder went to them and, on arrival, having bowed down to them, sat to one side. As he was sitting there he said to them: “Venerable sirs, may the senior monks acquiesce to tomorrow’s meal from me.”"
     },
     {
       "number": 4,
-      "pali": "Ekaṁ samayaṁ sambahulā therā bhikkhū macchikāsaṇḍe viharanti ambāṭakavane. ",
-      "english": "At one time several senior mendicants were staying near Macchikāsaṇḍa in the Wild Mango Grove. "
+      "pali": "",
+      "english": "The senior monks acquiesced by silence. Then Citta the householder, sensing the senior monks’ acquiescence, got up from his seat and, having bowed down to them, circumambulated them—keeping them to his right—and left."
     },
     {
       "number": 5,
-      "pali": "Atha kho citto gahapati yena therā bhikkhū tenupasaṅkami; upasaṅkamitvā there bhikkhū abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho citto gahapati there bhikkhū etadavoca: ",
-      "english": "Then Citta the householder went up to them, bowed, sat down to one side, and said to them, "
+      "pali": "",
+      "english": "When the night had passed, the senior monks adjusted their lower robes in the early morning and, taking their bowls & outer robes, went to Citta’s residence. There they sat down on the appointed seats. Citta the householder went to them and, having bowed down to them, sat to one side. As he was sitting there, he said to the most senior monk:"
     },
     {
       "number": 6,
-      "pali": "“adhivāsentu me, bhante, therā svātanāya bhattan”ti. ",
-      "english": "“Sirs, would the senior monks please accept tomorrow’s meal from me?” "
+      "pali": "",
+      "english": "“Venerable sir, concerning the various views that arise in the world—‘The cosmos is eternal’ or ‘The cosmos isn’t eternal’; ‘The cosmos is finite’ or ‘The cosmos is infinite’; ‘The soul and the body are the same’ or ‘The soul is one thing, the body another’; ‘A Tathāgata exists after death’ or ‘A Tathāgata doesn’t exist after death’ or ‘A Tathāgata both exists & doesn’t exist after death’ or ‘A Tathāgata neither exists nor doesn’t exist after death’; these along with the sixty-two views mentioned in the Brahmajāla [ DN 1 ]—when what is present do these views come into being, and when what is absent do they not come into being?”"
     },
     {
       "number": 7,
-      "pali": "Adhivāsesuṁ kho therā bhikkhū tuṇhībhāvena. ",
-      "english": "They consented with silence. "
+      "pali": "",
+      "english": "When this was said, the senior monk was silent. A second time… A third time Citta the householder asked, “Concerning the various views that arise in the world… when what is present do they come into being, and what is absent do they not come into being?” A third time the senior monk was silent."
     },
     {
       "number": 8,
-      "pali": "Atha kho citto gahapati therānaṁ bhikkhūnaṁ adhivāsanaṁ viditvā uṭṭhāyāsanā there bhikkhū abhivādetvā padakkhiṇaṁ katvā pakkāmi. ",
-      "english": "Then, knowing that the senior mendicants had consented, Citta got up from his seat, bowed, and respectfully circled them, keeping them on his right, before leaving. "
+      "pali": "",
+      "english": "Now on that occasion Ven. Isidatta was the most junior of all the monks in that Saṅgha. Then he said to the senior monk: “Allow me, venerable sir, to answer Citta the householder’s question.”"
     },
     {
       "number": 9,
-      "pali": "Atha kho therā bhikkhū tassā rattiyā accayena pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya yena cittassa gahapatissa nivesanaṁ tenupasaṅkamiṁsu; upasaṅkamitvā paññatte āsane nisīdiṁsu. ",
-      "english": "Then when the night had passed, the senior mendicants robed up in the morning and, taking their bowls and robes, went to Citta’s home, and sat down on the seats spread out. "
+      "pali": "",
+      "english": "“Go ahead & answer it, friend Isidatta.”"
     },
     {
       "number": 10,
-      "pali": "Atha kho citto gahapati yena therā bhikkhū tenupasaṅkami; upasaṅkamitvā there bhikkhū abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho citto gahapati āyasmantaṁ theraṁ etadavoca: ",
-      "english": "So he went up to them, bowed, sat down to one side, and said to the senior venerable: "
+      "pali": "",
+      "english": "“Now, householder, are you asking this: ‘Concerning the various views that arise in the world… when what is present do they come into being, and what is absent do they not come into being?’?”"
     },
     {
       "number": 11,
-      "pali": "“yā imā, bhante thera, anekavihitā diṭṭhiyo loke uppajjanti: ",
-      "english": "“Honorable Senior, there are many different views that arise in the world. For example: "
+      "pali": "",
+      "english": "“Yes, venerable sir.”"
     },
     {
       "number": 12,
-      "pali": "‘sassato lokoti vā, asassato lokoti vā, antavā lokoti vā, anantavā lokoti vā, taṁ jīvaṁ taṁ sarīranti vā, aññaṁ jīvaṁ aññaṁ sarīranti vā, hoti tathāgato paraṁ maraṇāti vā, na hoti tathāgato paraṁ maraṇāti vā, hoti ca na ca hoti tathāgato paraṁ maraṇāti vā, neva hoti na na hoti tathāgato paraṁ maraṇā’ti vā. ",
-      "english": "the cosmos is eternal, or not eternal, or finite, or infinite; the soul and the body are one and the same, or the soul is one thing, the body another; after death, a realized one still exists, or no longer exists, or both still exists and no longer exists, or neither still exists nor no longer exists. "
+      "pali": "",
+      "english": "“Concerning the various views that arise in the world, householder… when self-identity view is present, these views come into being; when self-identity view is absent, they don’t come into being.”"
     },
     {
       "number": 13,
-      "pali": "Yāni cimāni dvāsaṭṭhi diṭṭhigatāni brahmajāle bhaṇitāni; ",
-      "english": "And also the sixty-two misconceptions spoken of in “The Divine Net”. "
+      "pali": "",
+      "english": "“But, venerable sir, how does self-identity view come into being?”"
     },
     {
       "number": 14,
-      "pali": "imā nu kho, bhante, diṭṭhiyo kismiṁ sati honti, kismiṁ asati na hontī”ti? ",
-      "english": "When what exists do these views come to be? When what doesn’t exist do these views not come to be?” "
+      "pali": "",
+      "english": "“There is the case, householder, where an uninstructed, run-of-the-mill person—who has no regard for noble ones, is not well-versed or disciplined in their Dhamma; who has no regard for people of integrity, is not well-versed or disciplined in their Dhamma—assumes form (the body) to be the self, or the self as possessing form, or form as in the self, or the self as in form. He assumes feeling to be the self, or the self as possessing feeling, or feeling as in the self, or the self as in feeling. He assumes perception to be the self, or the self as possessing perception, or perception as in the self, or the self as in perception. He assumes fabrications to be the self, or the self as possessing fabrications, or fabrications as in the self, or the self as in fabrications. He assumes consciousness to be the self, or the self as possessing consciousness, or consciousness as in the self, or the self as in consciousness. This is how self-identity view comes into being.”"
     },
     {
       "number": 15,
-      "pali": "Evaṁ vutte, āyasmā thero tuṇhī ahosi. ",
-      "english": "When he said this, the senior venerable kept silent. "
+      "pali": "",
+      "english": "“And, venerable sir, how does self-identity view not come into being?”"
     },
     {
       "number": 16,
-      "pali": "Dutiyampi kho citto gahapati …pe… ",
-      "english": "For a second time … "
+      "pali": "",
+      "english": "“There is the case, householder, where a well-instructed disciple of the noble ones—who has regard for noble ones, is well-versed & disciplined in their Dhamma; who has regard for people of integrity, is well-versed & disciplined in their Dhamma—doesn’t assume form to be the self, or the self as possessing form, or form as in the self, or the self as in form. He doesn’t assume feeling to be the self… He doesn’t assume perception to be the self… He doesn’t assume fabrications to be the self… He doesn’t assume consciousness to be the self, or the self as possessing consciousness, or consciousness as in the self, or the self as in consciousness. This is how self-identity view does not come into being.”"
     },
     {
       "number": 17,
-      "pali": "tatiyampi kho citto gahapati āyasmantaṁ theraṁ etadavoca: ",
-      "english": "And for a third time, Citta said to him: "
+      "pali": "",
+      "english": "“Venerable sir, where does Master Isidatta come from?”"
     },
     {
       "number": 18,
-      "pali": "“yā imā, bhante thera, anekavihitā diṭṭhiyo loke uppajjanti—",
-      "english": "“Honorable Senior, there are many different views that arise in the world. … "
+      "pali": "",
+      "english": "“I come from Avanti, householder.”"
     },
     {
       "number": 19,
-      "pali": "sassato lokoti vā, asassato lokoti vā, antavā lokoti vā, anantavā lokoti vā, taṁ jīvaṁ taṁ sarīranti vā, aññaṁ jīvaṁ aññaṁ sarīranti vā, hoti tathāgato paraṁ maraṇāti vā, na hoti tathāgato paraṁ maraṇāti vā, hoti ca na ca hoti tathāgato paraṁ maraṇāti vā, neva hoti na na hoti tathāgato paraṁ maraṇāti vā. ",
-      "english": ""
+      "pali": "",
+      "english": "“There is, venerable sir, a clansman from Avanti named Isidatta, an unseen friend of mine, who has gone forth. Have you ever seen him?”"
     },
     {
       "number": 20,
-      "pali": "Yāni cimāni dvāsaṭṭhi diṭṭhigatāni brahmajāle bhaṇitāni; ",
-      "english": ""
+      "pali": "",
+      "english": "“Yes, householder.”"
     },
     {
       "number": 21,
-      "pali": "imā nu kho, bhante, diṭṭhiyo kismiṁ sati honti, kismiṁ asati na hontī”ti? ",
-      "english": "When what exists do these views come to be? When what doesn’t exist do these views not come to be?” "
+      "pali": "",
+      "english": "“Where is he living now, venerable sir?”"
     },
     {
       "number": 22,
-      "pali": "Tatiyampi kho āyasmā thero tuṇhī ahosi. ",
-      "english": "And a second time and a third time the senior venerable kept silent. "
+      "pali": "",
+      "english": "When this was said, the Venerable Isidatta was silent."
     },
     {
       "number": 23,
-      "pali": "Tena kho pana samayena āyasmā isidatto tasmiṁ bhikkhusaṅghe sabbanavako hoti. ",
-      "english": "Now at that time Venerable Isidatta was the most junior mendicant in that Saṅgha. "
+      "pali": "",
+      "english": "“Are you my Isidatta?”"
     },
     {
       "number": 24,
-      "pali": "Atha kho āyasmā isidatto āyasmantaṁ theraṁ etadavoca: ",
-      "english": "He said to the senior venerable, "
+      "pali": "",
+      "english": "“Yes, householder.”"
     },
     {
       "number": 25,
-      "pali": "“byākaromahaṁ, bhante thera, cittassa gahapatino etaṁ pañhan”ti? ",
-      "english": "“Honorable Senior, may I answer Citta’s question?” "
+      "pali": "",
+      "english": "“Then may Master Isidatta delight in the charming Wild Mango Grove at Macchikāsaṇḍa. I will be responsible for your robes, almsfood, lodgings, & medicinal requisites.”"
     },
     {
       "number": 26,
-      "pali": "“Byākarohi tvaṁ, āvuso isidatta, cittassa gahapatino etaṁ pañhan”ti. ",
-      "english": "“Answer it, Reverend Isidatta.” "
+      "pali": "",
+      "english": "“That is admirably said, householder.”"
     },
     {
       "number": 27,
-      "pali": "“Evañhi tvaṁ, gahapati, pucchasi: ",
-      "english": "“Householder, is this your question: "
+      "pali": "",
+      "english": "Then Citta the householder—having delighted & rejoiced in the Venerable Isidatta’s words—with his own hand served & satisfied the senior monks with choice staple & non-staple foods. When the senior monks had finished eating and had rinsed their bowls & hands, they got up from their seats and left."
     },
     {
       "number": 28,
-      "pali": "‘yā imā, bhante thera, anekavihitā diṭṭhiyo loke uppajjanti—",
-      "english": "‘There are many different views that arise in the world … "
+      "pali": "",
+      "english": "Then the most senior monk said to the Venerable Isidatta: “It was excellent, friend Isidatta, the way that question inspired you to answer. It didn’t inspire an answer in me at all. Whenever a similar question comes up again, may it inspire you to answer as you did just now.”"
     },
     {
       "number": 29,
-      "pali": "sassato lokoti vā …pe…; ",
-      "english": ""
-    },
-    {
-      "number": 30,
-      "pali": "imā nu kho, bhante, diṭṭhiyo kismiṁ sati honti, kismiṁ asati na hontī’”ti? ",
-      "english": "When what exists do these views come to be? When what doesn’t exist do these views not come to be?’” "
-    },
-    {
-      "number": 31,
-      "pali": "“Evaṁ, bhante”. ",
-      "english": "“Yes, sir.” "
-    },
-    {
-      "number": 32,
-      "pali": "“Yā imā, gahapati, anekavihitā diṭṭhiyo loke uppajjanti: ",
-      "english": "“Householder, there are many different views that arise in the world. For example: "
-    },
-    {
-      "number": 33,
-      "pali": "‘sassato lokoti vā, asassato lokoti vā, antavā lokoti vā anantavā lokoti vā, taṁ jīvaṁ taṁ sarīranti vā, aññaṁ jīvaṁ aññaṁ sarīranti vā, hoti tathāgato paraṁ maraṇāti vā, na hoti tathāgato paraṁ maraṇāti vā, hoti ca na ca hoti tathāgato paraṁ maraṇāti vā, neva hoti na na hoti tathāgato paraṁ maraṇāti vā. ",
-      "english": "the cosmos is eternal, or not eternal, or finite, or infinite; the soul and the body are one and the same, or the soul is one thing, the body another; after death, a realized one still exists, or no longer exists, or both still exists and no longer exists, or neither still exists nor no longer exists. "
-    },
-    {
-      "number": 34,
-      "pali": "Yāni cimāni dvāsaṭṭhi diṭṭhigatāni brahmajāle bhaṇitāni; ",
-      "english": "And also the sixty-two misconceptions spoken of in “The Divine Net”. "
-    },
-    {
-      "number": 35,
-      "pali": "imā kho, gahapati, diṭṭhiyo sakkāyadiṭṭhiyā sati honti, sakkāyadiṭṭhiyā asati na hontī’”ti. ",
-      "english": "These views come to be when substantialist view exists. When substantialist view does not exist they do not come to be.” "
-    },
-    {
-      "number": 36,
-      "pali": "“Kathaṁ pana, bhante, sakkāyadiṭṭhi hotī”ti? ",
-      "english": "“But sir, how does substantialist view come about?” "
-    },
-    {
-      "number": 37,
-      "pali": "“Idha, gahapati, assutavā puthujjano ariyānaṁ adassāvī ariyadhammassa akovido ariyadhamme avinīto, sappurisānaṁ adassāvī sappurisadhammassa akovido sappurisadhamme avinīto ",
-      "english": "“It’s when an unlearned ordinary person has not seen the noble ones, and is neither skilled nor trained in the teaching of the noble ones. They’ve not seen true persons, and are neither skilled nor trained in the teaching of the true persons. "
-    },
-    {
-      "number": 38,
-      "pali": "rūpaṁ attato samanupassati, rūpavantaṁ vā attānaṁ, attani vā rūpaṁ, rūpasmiṁ vā attānaṁ; ",
-      "english": "They regard form as self, self as having form, form in self, or self in form. "
-    },
-    {
-      "number": 39,
-      "pali": "vedanaṁ attato samanupassati …pe… ",
-      "english": "They regard feeling … "
-    },
-    {
-      "number": 40,
-      "pali": "saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 41,
-      "pali": "saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 42,
-      "pali": "viññāṇaṁ attato samanupassati, viññāṇavantaṁ vā attānaṁ, attani vā viññāṇaṁ, viññāṇasmiṁ vā attānaṁ. ",
-      "english": "consciousness as self, self as having consciousness, consciousness in self, or self in consciousness. "
-    },
-    {
-      "number": 43,
-      "pali": "Evaṁ kho, gahapati, sakkāyadiṭṭhi hotī”ti. ",
-      "english": "That’s how substantialist view comes about.” "
-    },
-    {
-      "number": 44,
-      "pali": "“Kathaṁ pana, bhante, sakkāyadiṭṭhi na hotī”ti? ",
-      "english": "“But sir, how does substantialist view not come about?” "
-    },
-    {
-      "number": 45,
-      "pali": "“Idha, gahapati, sutavā ariyasāvako ariyānaṁ dassāvī ariyadhammassa kovido ariyadhamme suvinīto sappurisānaṁ dassāvī sappurisadhammassa kovido sappurisadhamme suvinīto ",
-      "english": "“It’s when a learned noble disciple has seen the noble ones, and is skilled and trained in the teaching of the noble ones. They’ve seen true persons, and are skilled and trained in the teaching of the true persons. "
-    },
-    {
-      "number": 46,
-      "pali": "na rūpaṁ attato samanupassati, na rūpavantaṁ vā attānaṁ, na attani vā rūpaṁ, na rūpasmiṁ vā attānaṁ; ",
-      "english": "They don’t regard form as self, self as having form, form in self, or self in form. "
-    },
-    {
-      "number": 47,
-      "pali": "na vedanaṁ … ",
-      "english": "They don’t regard feeling … "
-    },
-    {
-      "number": 48,
-      "pali": "na saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 49,
-      "pali": "na saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 50,
-      "pali": "na viññāṇaṁ attato samanupassati, na viññāṇavantaṁ vā attānaṁ, na attani vā viññāṇaṁ, na viññāṇasmiṁ vā attānaṁ. ",
-      "english": "consciousness as self, self as having consciousness, consciousness in self, or self in consciousness. "
-    },
-    {
-      "number": 51,
-      "pali": "Evaṁ kho, gahapati, sakkāyadiṭṭhi na hotī”ti. ",
-      "english": "That’s how substantialist view does not come about.” "
-    },
-    {
-      "number": 52,
-      "pali": "“Kuto, bhante, ayyo isidatto āgacchatī”ti? ",
-      "english": "“Sir, where has Master Isidatta come from?” "
-    },
-    {
-      "number": 53,
-      "pali": "“Avantiyā kho, gahapati, āgacchāmī”ti. ",
-      "english": "“I come from Avanti, householder.” "
-    },
-    {
-      "number": 54,
-      "pali": "“Atthi, bhante, avantiyā isidatto nāma kulaputto amhākaṁ adiṭṭhasahāyo pabbajito? ",
-      "english": "“Sir, there’s a friend of mine named Isidatta who I’ve never met. He’s gone forth from a good family in Avanti. "
-    },
-    {
-      "number": 55,
-      "pali": "Diṭṭho so āyasmatā”ti? ",
-      "english": "Have you met him?” "
-    },
-    {
-      "number": 56,
-      "pali": "“Evaṁ, gahapatī”ti. ",
-      "english": "“Yes, householder.” "
-    },
-    {
-      "number": 57,
-      "pali": "“Kahaṁ nu kho so, bhante, āyasmā etarahi viharatī”ti? ",
-      "english": "“Sir, where is that venerable now staying?” "
-    },
-    {
-      "number": 58,
-      "pali": "Evaṁ vutte, āyasmā isidatto tuṇhī ahosi. ",
-      "english": "When he said this, Isidatta kept silent. "
-    },
-    {
-      "number": 59,
-      "pali": "“Ayyo no, bhante, isidatto”ti? ",
-      "english": "“Sir, are you that Isidatta?” "
-    },
-    {
-      "number": 60,
-      "pali": "“Evaṁ, gahapatī”ti. ",
-      "english": "“Yes, householder.” "
-    },
-    {
-      "number": 61,
-      "pali": "“Abhiramatu, bhante, ayyo isidatto macchikāsaṇḍe. ",
-      "english": "“Sir, I hope Master Isidatta is happy here in Macchikāsaṇḍa, "
-    },
-    {
-      "number": 62,
-      "pali": "Ramaṇīyaṁ ambāṭakavanaṁ. ",
-      "english": "for the Wild Mango Grove is lovely. "
-    },
-    {
-      "number": 63,
-      "pali": "Ahaṁ ayyassa isidattassa ussukkaṁ karissāmi cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhārānan”ti. ",
-      "english": "I’ll make sure that Master Isidatta is provided with robes, almsfood, lodgings, and medicines and supplies for the sick.” "
-    },
-    {
-      "number": 64,
-      "pali": "“Kalyāṇaṁ vuccati, gahapatī”ti. ",
-      "english": "“That’s nice of you to say, householder.” "
-    },
-    {
-      "number": 65,
-      "pali": "Atha kho citto gahapati āyasmato isidattassa bhāsitaṁ abhinanditvā anumoditvā there bhikkhū paṇītena khādanīyena bhojanīyena sahatthā santappesi sampavāresi. ",
-      "english": "Then Citta, having approved and agreed with what Isidatta said, served and satisfied the senior mendicants with his own hands with delicious fresh and cooked foods. "
-    },
-    {
-      "number": 66,
-      "pali": "Atha kho therā bhikkhū bhuttāvino onītapattapāṇino uṭṭhāyāsanā pakkamiṁsu. ",
-      "english": "When the senior mendicants had eaten and washed their hands and bowls, they got up from their seats and left. "
-    },
-    {
-      "number": 67,
-      "pali": "Atha kho āyasmā thero āyasmantaṁ isidattaṁ etadavoca: ",
-      "english": "Then the senior venerable said to Venerable Isidatta, "
-    },
-    {
-      "number": 68,
-      "pali": "“sādhu kho taṁ, āvuso isidatta, eso pañho paṭibhāsi. ",
-      "english": "“Isidatta, it’s good that you felt inspired to answer that question, because I didn’t. "
-    },
-    {
-      "number": 69,
-      "pali": "Neso pañho maṁ paṭibhāsi. ",
-      "english": ""
-    },
-    {
-      "number": 70,
-      "pali": "Tenahāvuso isidatta, yadā aññathāpi evarūpo pañho āgaccheyya, taññevettha paṭibhāseyyā”ti. ",
-      "english": "So when a similar question comes up, you should also answer it as you feel inspired.” "
-    },
-    {
-      "number": 71,
-      "pali": "Atha kho āyasmā isidatto senāsanaṁ saṁsāmetvā pattacīvaramādāya macchikāsaṇḍamhā pakkāmi. ",
-      "english": "But Isidatta set his lodgings in order and, taking his bowl and robe, left Macchikāsaṇḍa, "
-    },
-    {
-      "number": 72,
-      "pali": "Yaṁ macchikāsaṇḍamhā pakkāmi, tathā pakkantova ahosi, na puna paccāgacchīti. ",
-      "english": "never to return. "
-    },
-    {
-      "number": 73,
-      "pali": "Tatiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "Then Ven. Isidatta—having set his lodging in order and taking his bowl & robes—left Macchikāsaṇḍa. And in leaving Macchikāsaṇḍa, he was gone for good and never returned."
     }
   ]
 }

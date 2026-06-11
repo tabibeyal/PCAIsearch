@@ -3,153 +3,68 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.26 ",
-      "english": "Linked Discourses 22.26 "
+      "pali": "Linked Discourses 22.26",
+      "english": "Linked Discourses 22.26"
     },
     {
       "number": 2,
-      "pali": "3. Bhāravagga ",
-      "english": "3. The Burden "
+      "pali": "Assāda Sutta",
+      "english": "Allure"
     },
     {
       "number": 3,
-      "pali": "Assādasutta ",
-      "english": "Gratification "
+      "pali": "",
+      "english": "Near Sāvatthī."
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“Monks, before my self-awakening, when I was still just an unawakened bodhisatta, the thought occurred to me: ‘What is the allure of form? What is its drawback? What is its escape?"
     },
     {
       "number": 5,
-      "pali": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
-      "english": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: "
+      "pali": "",
+      "english": "“‘What is the allure of feeling? What is its drawback? What is its escape?"
     },
     {
       "number": 6,
-      "pali": "‘ko nu kho rūpassa assādo, ko ādīnavo, kiṁ nissaraṇaṁ? ",
-      "english": "‘What’s the gratification, the drawback, and the escape when it comes to form … "
+      "pali": "",
+      "english": "“‘What is the allure of perception? What is its drawback? What is its escape?"
     },
     {
       "number": 7,
-      "pali": "Ko vedanāya assādo, ko ādīnavo, kiṁ nissaraṇaṁ? ",
-      "english": "feeling … "
+      "pali": "",
+      "english": "“‘What is the allure of fabrications? What is their drawback? What is their escape?"
     },
     {
       "number": 8,
-      "pali": "Ko saññāya assādo, ko ādīnavo, kiṁ nissaraṇaṁ? ",
-      "english": "perception … "
+      "pali": "",
+      "english": "“‘What is the allure of consciousness? What is its drawback? What is its escape?’"
     },
     {
       "number": 9,
-      "pali": "Ko saṅkhārānaṁ assādo, ko ādīnavo, kiṁ nissaraṇaṁ? ",
-      "english": "choices … "
+      "pali": "",
+      "english": "“Then the thought occurred to me, ‘Whatever pleasure & joy arises dependent on form: That is the allure of form. The fact that form is inconstant, stressful, subject to change: That is the drawback of form. The subduing of desire & passion, the abandoning of desire & passion for form: That is the escape from form."
     },
     {
       "number": 10,
-      "pali": "Ko viññāṇassa assādo, ko ādīnavo, kiṁ nissaraṇan’ti? ",
-      "english": "and consciousness?’ "
+      "pali": "",
+      "english": "[Similarly with feeling, perception, fabrications, & consciousness.]"
     },
     {
       "number": 11,
-      "pali": "Tassa mayhaṁ, bhikkhave, etadahosi: ",
-      "english": "Then it occurred to me: "
+      "pali": "",
+      "english": "“Monks, as long as I did not have direct knowledge, as it had come to be, of the allure as allure, of the drawback as drawback, and of the escape as escape, with regard to these five clinging-aggregates, I did not claim to have directly awakened to the right self-awakening unexcelled in the cosmos with its devas, Māras, & Brahmās, in this generation with its contemplatives & brahmans, its royalty & common people."
     },
     {
       "number": 12,
-      "pali": "‘yaṁ kho rūpaṁ paṭicca uppajjati sukhaṁ somanassaṁ, ayaṁ rūpassa assādo. ",
-      "english": "‘The pleasure and happiness that arise from form: this is its gratification. "
+      "pali": "",
+      "english": "“But when I did have direct knowledge, as it had come to be, of the allure as allure, the drawback as drawback, and the escape as escape, with regard to these five clinging-aggregates, then I did claim to have directly awakened to the right self-awakening unexcelled in the cosmos with its devas, Māras, & Brahmās, in this generation with its contemplatives & brahmans, its royalty & common people."
     },
     {
       "number": 13,
-      "pali": "Yaṁ rūpaṁ aniccaṁ dukkhaṁ vipariṇāmadhammaṁ, ayaṁ rūpassa ādīnavo. ",
-      "english": "That form is impermanent, suffering, and perishable: this is its drawback. "
-    },
-    {
-      "number": 14,
-      "pali": "Yo rūpasmiṁ chandarāgavinayo chandarāgappahānaṁ, idaṁ rūpassa nissaraṇaṁ. ",
-      "english": "Removing and giving up desire and greed for form: this is its escape. "
-    },
-    {
-      "number": 15,
-      "pali": "Yaṁ vedanaṁ paṭicca uppajjati sukhaṁ somanassaṁ, ayaṁ vedanāya assādo. ",
-      "english": "The pleasure and happiness that arise from feeling … "
-    },
-    {
-      "number": 16,
-      "pali": "Yaṁ vedanā aniccā dukkhā vipariṇāmadhammā, ayaṁ vedanāya ādīnavo. ",
-      "english": ""
-    },
-    {
-      "number": 17,
-      "pali": "Yo vedanāya chandarāgavinayo chandarāgappahānaṁ, idaṁ vedanāya nissaraṇaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 18,
-      "pali": "Yaṁ saññaṁ paṭicca uppajjati …pe… ",
-      "english": "perception … "
-    },
-    {
-      "number": 19,
-      "pali": "yaṁ saṅkhāre paṭicca uppajjati sukhaṁ somanassaṁ, ayaṁ saṅkhārānaṁ assādo. ",
-      "english": "choices … "
-    },
-    {
-      "number": 20,
-      "pali": "Yaṁ saṅkhārā aniccā dukkhā vipariṇāmadhammā, ayaṁ saṅkhārānaṁ ādīnavo. ",
-      "english": ""
-    },
-    {
-      "number": 21,
-      "pali": "Yo saṅkhāresu chandarāgavinayo chandarāgappahānaṁ, idaṁ saṅkhārānaṁ nissaraṇaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 22,
-      "pali": "Yaṁ viññāṇaṁ paṭicca uppajjati sukhaṁ somanassaṁ, ayaṁ viññāṇassa assādo. ",
-      "english": "consciousness: this is its gratification. "
-    },
-    {
-      "number": 23,
-      "pali": "Yaṁ viññāṇaṁ aniccaṁ dukkhaṁ vipariṇāmadhammaṁ, ayaṁ viññāṇassa ādīnavo. ",
-      "english": "That consciousness is impermanent, suffering, and perishable: this is its drawback. "
-    },
-    {
-      "number": 24,
-      "pali": "Yo viññāṇasmiṁ chandarāgavinayo chandarāgappahānaṁ, idaṁ viññāṇassa nissaraṇaṁ’. ",
-      "english": "Removing and giving up desire and greed for consciousness: this is its escape.’ "
-    },
-    {
-      "number": 25,
-      "pali": "Yāvakīvañcāhaṁ, bhikkhave, imesaṁ pañcannaṁ upādānakkhandhānaṁ evaṁ assādañca assādato ādīnavañca ādīnavato nissaraṇañca nissaraṇato yathābhūtaṁ nābbhaññāsiṁ, neva tāvāhaṁ, bhikkhave, ‘sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
-      "english": "As long as I didn’t truly understand these five grasping aggregates’ gratification, drawback, and escape in this way for what they are, I didn’t announce my supreme perfect awakening in this world with its gods, Māras, and Divinities, this population with its ascetics and brahmins, its gods and humans. "
-    },
-    {
-      "number": 26,
-      "pali": "Yato ca khvāhaṁ, bhikkhave, imesaṁ pañcannaṁ upādānakkhandhānaṁ evaṁ assādañca assādato ādīnavañca ādīnavato nissaraṇañca nissaraṇato yathābhūtaṁ abbhaññāsiṁ; ",
-      "english": "But when I did truly understand these five grasping aggregates’ gratification, drawback, and escape in this way for what they are, I announced my supreme perfect awakening in this world with its gods, Māras, and Divinities, this population with its ascetics and brahmins, its gods and humans. "
-    },
-    {
-      "number": 27,
-      "pali": "athāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya anuttaraṁ sammāsambodhiṁ abhisambuddhoti paccaññāsiṁ. ",
-      "english": ""
-    },
-    {
-      "number": 28,
-      "pali": "Ñāṇañca pana me dassanaṁ udapādi: ",
-      "english": "Knowledge and vision arose in me: "
-    },
-    {
-      "number": 29,
-      "pali": "‘akuppā me vimutti; ayamantimā jāti; natthi dāni punabbhavo’”ti. ",
-      "english": "‘My freedom is unshakable; this is my last rebirth; now there’ll be no more future lives.’” "
-    },
-    {
-      "number": 30,
-      "pali": "Pañcamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Knowledge & vision arose in me: ‘Unprovoked is my release. This is the last birth. There is now no further-becoming.’”"
     }
   ]
 }

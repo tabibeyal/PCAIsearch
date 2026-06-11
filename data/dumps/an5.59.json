@@ -3,43 +3,18 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 5.59 ",
-      "english": "Numbered Discourses 5.59 "
+      "pali": "Numerical Discourses 5.59",
+      "english": "Numerical Discourses 5.59"
     },
     {
       "number": 2,
-      "pali": "6. Nīvaraṇavagga ",
-      "english": "6. Hindrances "
+      "pali": "Dullabha Sutta",
+      "english": "Hard to Find (1)"
     },
     {
       "number": 3,
-      "pali": "Paṭhamavuḍḍhapabbajitasutta ",
-      "english": "Gone Forth When Old (1st) "
-    },
-    {
-      "number": 4,
-      "pali": "“Pañcahi, bhikkhave, dhammehi samannāgato dullabho vuḍḍhapabbajito. ",
-      "english": "“Mendicants, it’s hard to find someone gone forth when old who has five qualities. "
-    },
-    {
-      "number": 5,
-      "pali": "Katamehi pañcahi? ",
-      "english": "What five? "
-    },
-    {
-      "number": 6,
-      "pali": "Dullabho, bhikkhave, vuḍḍhapabbajito nipuṇo, dullabho ākappasampanno, dullabho bahussuto, dullabho dhammakathiko, dullabho vinayadharo. ",
-      "english": "It’s hard to find someone gone forth when old who is sophisticated, well-presented, and learned, who can teach Dhamma, and has memorized the monastic law. "
-    },
-    {
-      "number": 7,
-      "pali": "Imehi kho, bhikkhave, pañcahi dhammehi samannāgato dullabho vuḍḍhapabbajitoti. ",
-      "english": "It’s hard to find someone gone forth when old who possesses these five qualities.” "
-    },
-    {
-      "number": 8,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Monks, these five qualities are hard to find in one who has gone forth when old. Which five? It is hard to find one who has gone forth when old who is subtle, hard to find one who is consummate in his comportment, hard to find one who is learned, hard to find one who can teach the Dhamma, hard to find one who has mastered the Vinaya.”"
     }
   ]
 }

@@ -3,138 +3,83 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 29 ",
-      "english": "So It Was Said 29 "
+      "pali": "Itivuttaka 29",
+      "english": "Itivuttaka 29"
     },
     {
       "number": 2,
-      "pali": "Dukanipāta ",
-      "english": "The Book of the Twos "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Paṭhamavagga ",
-      "english": "Chapter One "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Endowed with two things, monks, a monk lives in ease in the present life–untroubled, undistressed, & unfeverish–and at the break-up of the body, after death, a good destination can be expected. Which two? A guarding of the doors of the sense faculties, and knowing moderation in food. Endowed with these two things, a monk lives in ease in the present life–untroubled, undistressed, & unfeverish–and at the break-up of the body, after death, a good destination can be expected.”"
     },
     {
       "number": 4,
-      "pali": "Sukhavihārasutta ",
-      "english": "Living in Happiness "
+      "pali": "",
+      "english": "Eye & ear & nose,"
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "tongue, body, & mind:"
     },
     {
       "number": 6,
-      "pali": "“Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu diṭṭheva dhamme sukhaṁ viharati avighātaṁ anupāyāsaṁ apariḷāhaṁ; ",
-      "english": "“Mendicants, when a mendicant has two qualities they live happily in this very life—without distress, anguish, and fever—"
+      "pali": "",
+      "english": "when a monk has these doors well guarded"
     },
     {
       "number": 7,
-      "pali": "kāyassa bhedā paraṁ maraṇā sugati pāṭikaṅkhā. ",
-      "english": "and when the body breaks up, after death, they can expect a good rebirth. "
+      "pali": "",
+      "english": "–knowing moderation in food,"
     },
     {
       "number": 8,
-      "pali": "Katamehi dvīhi? ",
-      "english": "What two? "
+      "pali": "",
+      "english": "restraining his senses–"
     },
     {
       "number": 9,
-      "pali": "Indriyesu guttadvāratāya ca, bhojane mattaññutāya ca. ",
-      "english": "Guarding the sense doors and moderation in eating. "
+      "pali": "",
+      "english": "he experiences ease:"
     },
     {
       "number": 10,
-      "pali": "Imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu diṭṭheva dhamme sukhaṁ viharati avighātaṁ anupāyāsaṁ apariḷāhaṁ; ",
-      "english": "When a mendicant possesses these two qualities they live happily in this very life—without distress, anguish, and fever—"
+      "pali": "",
+      "english": "ease in body, ease"
     },
     {
       "number": 11,
-      "pali": "kāyassa bhedā paraṁ maraṇā sugati pāṭikaṅkhā”ti. ",
-      "english": "and when the body breaks up, after death, they can expect a good rebirth.” "
+      "pali": "",
+      "english": "in mind."
     },
     {
       "number": 12,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "Not burning in body,"
     },
     {
       "number": 13,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "not burning in mind,"
     },
     {
       "number": 14,
-      "pali": "“Cakkhu sotañca ghānañca, ",
-      "english": "“Eye, ear, nose, "
+      "pali": "",
+      "english": "whether by day or by night,"
     },
     {
       "number": 15,
-      "pali": "jivhā kāyo tathā mano; ",
-      "english": "tongue, body, and likewise mind: "
+      "pali": "",
+      "english": "one like this"
     },
     {
       "number": 16,
-      "pali": "Etāni yassa dvārāni, ",
-      "english": "a mendicant who makes these "
-    },
-    {
-      "number": 17,
-      "pali": "suguttāni ca bhikkhuno. ",
-      "english": "sense doors well guarded—"
-    },
-    {
-      "number": 18,
-      "pali": "Bhojanamhi ca mattaññū, ",
-      "english": "eating in moderation, "
-    },
-    {
-      "number": 19,
-      "pali": "indriyesu ca saṁvuto; ",
-      "english": "restrained in the sense faculties—"
-    },
-    {
-      "number": 20,
-      "pali": "Kāyasukhaṁ cetosukhaṁ, ",
-      "english": "reaps happiness "
-    },
-    {
-      "number": 21,
-      "pali": "sukhaṁ so adhigacchati. ",
-      "english": "both physical and mental. "
-    },
-    {
-      "number": 22,
-      "pali": "Aḍayhamānena kāyena, ",
-      "english": "Not burning in body, "
-    },
-    {
-      "number": 23,
-      "pali": "Aḍayhamānena cetasā; ",
-      "english": "not burning in mind, "
-    },
-    {
-      "number": 24,
-      "pali": "Divā vā yadi vā rattiṁ, ",
-      "english": "by day or by night "
-    },
-    {
-      "number": 25,
-      "pali": "Sukhaṁ viharati tādiso”ti. ",
-      "english": "such a person lives in happiness.” "
-    },
-    {
-      "number": 26,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 27,
-      "pali": "Dutiyaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "lives in ease."
     }
   ]
 }

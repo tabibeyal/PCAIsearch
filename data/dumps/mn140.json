@@ -3,1198 +3,243 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Majjhima Nikāya 140 ",
-      "english": "Middle Discourses 140 "
+      "pali": "Middle Length Discourses 140",
+      "english": "Middle Length Discourses 140"
     },
     {
       "number": 2,
-      "pali": "Dhātuvibhaṅgasutta ",
-      "english": "The Analysis of the Elements "
+      "pali": "Dhātu-vibhaṅga Sutta",
+      "english": "An Analysis of the Properties"
     },
     {
       "number": 3,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "I have heard that on one occasion, as the Blessed One was wandering among the Magadhans, he entered Rājagaha, went to the potter Bhaggava, and on arrival said to him, “If it is no inconvenience for you, Bhaggava, I will stay for one night in your shed.”"
     },
     {
       "number": 4,
-      "pali": "ekaṁ samayaṁ bhagavā magadhesu cārikaṁ caramāno yena rājagahaṁ tadavasari; ",
-      "english": "At one time the Buddha was wandering in the Magadhan lands when he arrived at Rājagaha. "
+      "pali": "",
+      "english": "“It’s no inconvenience for me, lord, but there is a wanderer who has already taken up residence there. If he gives his permission, you may stay there as you like.”"
     },
     {
       "number": 5,
-      "pali": "yena bhaggavo kumbhakāro tenupasaṅkami; upasaṅkamitvā bhaggavaṁ kumbhakāraṁ etadavoca: ",
-      "english": "He went to see Bhaggava the potter, and said, "
+      "pali": "",
+      "english": "Now at that time a clansman named Pukkusāti had left home and gone forth into homelessness through faith, out of dedication to the Blessed One. He was the one who had already taken up residence in the potter’s shed. So the Blessed One approached Ven. Pukkusāti and, on arrival, said to him, “If it is no inconvenience for you, monk, I will stay one night in the shed.”"
     },
     {
       "number": 6,
-      "pali": "“sace te, bhaggava, agaru viharemu āvesane ekarattan”ti. ",
-      "english": "“Bhaggava, if it is no trouble, I’d like to spend a single night in your workshop.” "
+      "pali": "",
+      "english": "“The shed is roomy, my friend. Stay as you like.”"
     },
     {
       "number": 7,
-      "pali": "“Na kho me, bhante, garu. ",
-      "english": "“It’s no trouble, sir. "
+      "pali": "",
+      "english": "So the Blessed One, entering the potter’s shed and setting out a spread of grass to one side, sat down folding his legs crosswise, holding his body erect, and establishing mindfulness to the fore. He spent most of the night sitting (in meditation). Ven. Pukkusāti also spent most of the night sitting (in meditation). The thought occurred to the Blessed One, “How inspiring is the way this clansman behaves! What if I were to question him?” So he said to Ven. Pukkusāti, “Out of dedication to whom, monk, have you gone forth? Who is your teacher? Of whose Dhamma do you approve?”"
     },
     {
       "number": 8,
-      "pali": "Atthi cettha pabbajito paṭhamaṁ vāsūpagato. ",
-      "english": "But there’s a renunciate already staying there. "
+      "pali": "",
+      "english": "“There is, my friend, Gotama the contemplative, a son of the Sakyans, gone forth from a Sakyan clan. Now, this excellent report about Master Gotama has been spread about: ‘Indeed, the Blessed One is worthy & rightly self-awakened, consummate in clear-knowing & conduct, well-gone, an expert with regard to the cosmos, unexcelled trainer of people fit to be tamed, teacher of devas & human beings, awakened, blessed.’ I have gone forth out of dedication to that Blessed One. That Blessed One is my teacher. It is of that Blessed One’s Dhamma that I approve.”"
     },
     {
       "number": 9,
-      "pali": "Sace so anujānāti, viharatha, bhante, yathāsukhan”ti. ",
-      "english": "If he allows it, sir, you may stay as long as you please.” "
+      "pali": "",
+      "english": "“But where, monk, is that Blessed One—worthy & rightly self-awakened—staying now?”"
     },
     {
       "number": 10,
-      "pali": "Tena kho pana samayena pukkusāti nāma kulaputto bhagavantaṁ uddissa saddhāya agārasmā anagāriyaṁ pabbajito. ",
-      "english": "Now at that time a gentleman named Pukkusāti had gone forth out of faith from the lay life to homelessness in the Buddha’s name. "
+      "pali": "",
+      "english": "“There is, my friend, a city in the northern lands named Sāvatthī. That is where the Blessed One—worthy & rightly self-awakened—is staying now.”"
     },
     {
       "number": 11,
-      "pali": "So tasmiṁ kumbhakārāvesane paṭhamaṁ vāsūpagato hoti. ",
-      "english": "And it was he who had first taken up residence in the workshop. "
+      "pali": "",
+      "english": "“Have you ever seen that Blessed One before? On seeing him, would you recognize him?”"
     },
     {
       "number": 12,
-      "pali": "Atha kho bhagavā yenāyasmā pukkusāti tenupasaṅkami; upasaṅkamitvā āyasmantaṁ pukkusātiṁ etadavoca: ",
-      "english": "Then the Buddha approached Venerable Pukkusāti and said, "
+      "pali": "",
+      "english": "“No, my friend, I have never seen the Blessed One before, nor on seeing him would I recognize him.”"
     },
     {
       "number": 13,
-      "pali": "“sace te, bhikkhu, agaru viharemu āvesane ekarattan”ti. ",
-      "english": "“Mendicant, if it is no trouble, I’d like to spend a single night in the workshop.” "
+      "pali": "",
+      "english": "Then the thought occurred to the Blessed One: “It’s out of dedication to me that this clansman has gone forth. What if I were to teach him the Dhamma?” So he said to Ven. Pukkusāti, “I will teach you the Dhamma, monk. Listen & pay close attention. I will speak.”"
     },
     {
       "number": 14,
-      "pali": "“Urundaṁ, āvuso, kumbhakārāvesanaṁ. ",
-      "english": "“The potter’s workshop is spacious, reverend. "
+      "pali": "",
+      "english": "“As you say, friend,” Ven. Pukkusāti responded to the Blessed One."
     },
     {
       "number": 15,
-      "pali": "Viharatāyasmā yathāsukhan”ti. ",
-      "english": "Stay as long as you please.” "
+      "pali": "",
+      "english": "The Blessed One said: “A person has six properties, six media of sensory contact, eighteen considerations, & four determinations. He has been stilled where the currents of supposition do not flow. And when the currents of supposition do not flow, he is said to be a sage at peace. One should not be negligent of discernment, should guard the truth, be devoted to relinquishment, and train only for calm. This is the summary of the analysis of the six properties."
     },
     {
       "number": 16,
-      "pali": "Atha kho bhagavā kumbhakārāvesanaṁ pavisitvā ekamantaṁ tiṇasanthārakaṁ paññāpetvā nisīdi pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā. ",
-      "english": "Then the Buddha entered the workshop and spread out a grass mat to one side. He sat down cross-legged, set his body straight, and brought mindfulness to the present. "
+      "pali": "",
+      "english": "“‘A person has six properties.’ Thus it was said. In reference to what was it said? These are the six properties: the earth property, the liquid property, the fire property, the wind property, the space property, the consciousness property. ‘A person has six properties.’ Thus it was said, and in reference to this was it said."
     },
     {
       "number": 17,
-      "pali": "Atha kho bhagavā bahudeva rattiṁ nisajjāya vītināmesi. ",
-      "english": "He spent much of the night sitting in meditation, "
+      "pali": "",
+      "english": "“‘A person has six media of sensory contact.’ Thus it was said. In reference to what was it said? These are the six media of sensory contact: the eye as a medium of sensory contact, the ear… the nose… the tongue… the body… the intellect as a medium of sensory contact. ‘A person has six media of sensory contact.’ Thus it was said, and in reference to this was it said."
     },
     {
       "number": 18,
-      "pali": "Āyasmāpi kho pukkusāti bahudeva rattiṁ nisajjāya vītināmesi. ",
-      "english": "and so did Pukkusāti. "
+      "pali": "",
+      "english": "“‘A person has eighteen considerations.’ Thus it was said. In reference to what was it said? These are the eighteen considerations: On seeing a form with the eye, one considers a form that can act as a basis for joy, a form that can act as a basis for sadness, or a form that can act as a basis for equanimity. On hearing a sound with the ear.… On smelling an aroma with the nose.… On tasting a flavor with the tongue.… On touching a tactile sensation with the body.… On cognizing an idea with the intellect, one considers an idea that can act as a basis for joy, an idea that can act as a basis for sadness, or an idea that can act as a basis for equanimity. Thus there are six considerations conducive to joy, six conducive to sadness, & six conducive to equanimity. ‘A person has eighteen considerations.’ Thus it was said, and in reference to this was it said."
     },
     {
       "number": 19,
-      "pali": "Atha kho bhagavato etadahosi: ",
-      "english": "Then it occurred to the Buddha, "
+      "pali": "",
+      "english": "“‘A person has four determinations.’ Thus it was said. In reference to what was it said? These are the four determinations: the determination for discernment, the determination for truth, the determination for relinquishment, the determination for calm. ‘A person has four determinations.’ Thus it was said, and in reference to this was it said."
     },
     {
       "number": 20,
-      "pali": "“pāsādikaṁ kho ayaṁ kulaputto iriyati. ",
-      "english": "“This gentleman’s behavior is impressive. "
+      "pali": "",
+      "english": "“‘One should not be negligent of discernment, should guard the truth, be devoted to relinquishment, and train only for calm.’ Thus it was said. In reference to what was it said? And how is one not negligent of discernment? These are the six properties: the earth property, the liquid property, the fire property, the wind property, the space property, the consciousness property."
     },
     {
       "number": 21,
-      "pali": "Yannūnāhaṁ puccheyyan”ti. ",
-      "english": "Why don’t I question him?” "
+      "pali": "",
+      "english": "“And what is the earth property? The earth property can be either internal or external. What is the internal earth property? Anything internal, within oneself, that’s hard, solid, & sustained (by craving): head hairs, body hairs, nails, teeth, skin, flesh, tendons, bones, bone marrow, kidneys, heart, liver, membranes, spleen, lungs, large intestines, small intestines, contents of the stomach, feces, or anything else internal, within oneself, that’s hard, solid, and sustained: This is called the internal earth property. Now both the internal earth property & the external earth property are simply earth property. And that should be seen as it has come to be with right discernment: ‘This is not mine, this is not what I am, this is not my self.’ When one sees it thus as it has come to be with right discernment, one becomes disenchanted with the earth property and makes the earth property fade from the mind."
     },
     {
       "number": 22,
-      "pali": "Atha kho bhagavā āyasmantaṁ pukkusātiṁ etadavoca: ",
-      "english": "So the Buddha said to Pukkusāti, "
+      "pali": "",
+      "english": "“And what is the liquid property? The liquid property may be either internal or external. What is the internal liquid property? Anything internal, within oneself, that’s liquid, watery, & sustained: bile, phlegm, pus, blood, sweat, fat, tears, oil, saliva, mucus, oil-of-the-joints, urine, or anything else internal, within oneself, that’s liquid, watery, & sustained: This is called the internal liquid property. Now both the internal liquid property & the external liquid property are simply liquid property. And that should be seen as it has come to be with right discernment: ‘This is not mine, this is not what I am, this is not my self.’ When one sees it thus as it has come to be with right discernment, one becomes disenchanted with the liquid property and makes the liquid property fade from the mind."
     },
     {
       "number": 23,
-      "pali": "“kaṁsi tvaṁ, bhikkhu, uddissa pabbajito? Ko vā te satthā? Kassa vā tvaṁ dhammaṁ rocesī”ti? ",
-      "english": "“In whose name have you gone forth, mendicant? Who is your Teacher? Whose teaching do you believe in?” "
+      "pali": "",
+      "english": "“And what is the fire property? The fire property may be either internal or external. What is the internal fire property? Anything internal, within oneself, that’s fire, fiery, & sustained: that by which (the body) is warmed, aged, & consumed with fever; and that by which what is eaten, drunk, chewed, & savored gets properly digested; or anything else internal, within oneself, that’s fire, fiery, & sustained: This is called the internal fire property. Now both the internal fire property & the external fire property are simply fire property. And that should be seen as it has come to be with right discernment: ‘This is not mine, this is not what I am, this is not my self.’ When one sees it thus as it has come to be with right discernment, one becomes disenchanted with the fire property and makes the fire property fade from the mind."
     },
     {
       "number": 24,
-      "pali": "“Atthāvuso, samaṇo gotamo sakyaputto sakyakulā pabbajito. ",
-      "english": "“Reverend, there is the ascetic Gotama—a Sakyan, gone forth from a Sakyan family. "
+      "pali": "",
+      "english": "“And what is the wind property? The wind property may be either internal or external. What is the internal wind property? Anything internal, within oneself, that’s wind, windy, & sustained: up-going winds, down-going winds, winds in the stomach, winds in the intestines, winds that course through the body, in-and-out breathing, or anything else internal, within oneself, that’s wind, windy, & sustained: This is called the internal wind property. Now both the internal wind property & the external wind property are simply wind property. And that should be seen as it has come to be with right discernment: ‘This is not mine, this is not what I am, this is not my self.’ When one sees it thus as it has come to be with right discernment, one becomes disenchanted with the wind property and makes the wind property fade from the mind."
     },
     {
       "number": 25,
-      "pali": "Taṁ kho pana bhagavantaṁ gotamaṁ evaṁ kalyāṇo kittisaddo abbhuggato: ",
-      "english": "He has this good reputation: "
+      "pali": "",
+      "english": "“And what is the space property? The space property may be either internal or external. What is the internal space property? Anything internal, within oneself, that’s space, spatial, & sustained: the holes of the ears, the nostrils, the mouth, the (passage) whereby what is eaten, drunk, consumed, & tasted gets swallowed, and where it collects, and whereby it is excreted from below, or anything else internal, within oneself, that’s space, spatial, & sustained: This is called the internal space property. Now both the internal space property & the external space property are simply space property. And that should be seen as it has come to be with right discernment: ‘This is not mine, this is not what I am, this is not my self.’ When one sees it thus as it has come to be with right discernment, one becomes disenchanted with the space property and makes the space property fade from the mind."
     },
     {
       "number": 26,
-      "pali": "‘itipi so bhagavā arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā’ti. ",
-      "english": "‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ "
+      "pali": "",
+      "english": "“There remains only consciousness: pure & bright. What does one cognize with that consciousness? One cognizes ‘pleasure.’ One cognizes ‘pain.’ One cognizes ‘neither pleasure nor pain.’ In dependence on a sensory contact that is to be felt as pleasure, there arises a feeling of pleasure. When sensing a feeling of pleasure, one discerns that ‘I am sensing a feeling of pleasure.’ One discerns that ‘With the cessation of that very sensory contact that is to be felt as pleasure, the concomitant feeling—the feeling of pleasure that has arisen in dependence on the sensory contact that is to be felt as pleasure—ceases, is stilled.’ In dependence on a sensory contact that is to be felt as pain.… In dependence on a sensory contact that is to be felt as neither pleasure nor pain, there arises a feeling of neither pleasure nor pain. When sensing a feeling of neither pleasure nor pain, one discerns that ‘I am sensing a feeling of neither pleasure nor pain.’ One discerns that ‘With the cessation of that very sensory contact that is to be felt as neither pleasure nor pain, the concomitant feeling—the feeling of neither pleasure nor pain that has arisen in dependence on the sensory contact that is to be felt as neither pleasure nor pain—ceases, is stilled.’"
     },
     {
       "number": 27,
-      "pali": "Tāhaṁ bhagavantaṁ uddissa pabbajito. ",
-      "english": "I’ve gone forth in his name. "
+      "pali": "",
+      "english": "“Just as when, from the friction & conjunction of two fire sticks, heat is born and fire appears, and from the separation & disjunction of those very same fire sticks, the concomitant heat ceases, is stilled; in the same way, in dependence on a sensory contact that is to be felt as pleasure, there arises a feeling of pleasure.… In dependence on a sensory contact that is to be felt as pain.… In dependence on a sensory contact that is to be felt as neither pleasure nor pain, there arises a feeling of neither pleasure nor pain.… One discerns that ‘With the cessation of that very sensory contact that is to be felt as neither pleasure nor pain, the concomitant feeling… ceases, is stilled.’"
     },
     {
       "number": 28,
-      "pali": "So ca me bhagavā satthā. ",
-      "english": "That Blessed One is my Teacher, "
+      "pali": "",
+      "english": "“There remains only equanimity: pure & bright, pliant, malleable, & luminous. Just as if a dexterous goldsmith or goldsmith’s apprentice were to prepare a furnace, heat up a crucible, and, taking gold with a pair of tongs, place it in the crucible: He would blow on it time & again, sprinkle water on it time & again, examine it time & again, so that the gold would become refined, well-refined, thoroughly refined, flawless, free from dross, pliant, malleable, & luminous. Then whatever sort of ornament he had in mind—whether a belt, an earring, a necklace, or a gold chain—it would serve his purpose. In the same way, there remains only equanimity: pure & bright, pliant, malleable, & luminous. One discerns that ‘If I were to direct equanimity as pure & bright as this toward the dimension of the infinitude of space, I would develop the mind along those lines, and thus this equanimity of mine—thus supported, thus sustained—would last for a long time. One discerns that ‘If I were to direct equanimity as pure and bright as this toward the dimension of the infinitude of consciousness… the dimension of nothingness… the dimension of neither perception nor non-perception, I would develop the mind along those lines, and thus this equanimity of mine—thus supported, thus sustained—would last for a long time.’"
     },
     {
       "number": 29,
-      "pali": "Tassa cāhaṁ bhagavato dhammaṁ rocemī”ti. ",
-      "english": "and I believe in his teaching.” "
+      "pali": "",
+      "english": "“One discerns that ‘If I were to direct equanimity as pure & bright as this toward the dimension of the infinitude of space and to develop the mind along those lines, that would be fabricated. One discerns that ‘If I were to direct equanimity as pure and bright as this toward the dimension of the infinitude of consciousness… the dimension of nothingness… the dimension of neither perception nor non-perception and to develop the mind along those lines, that would be fabricated.’ One neither fabricates nor mentally fashions for the sake of becoming or un-becoming. This being the case, one is not sustained by anything [doesn’t cling to anything] in the world. Unsustained, one is not agitated. Unagitated, one is totally unbound right within. One discerns that ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.’"
     },
     {
       "number": 30,
-      "pali": "“Kahaṁ pana, bhikkhu, etarahi so bhagavā viharati arahaṁ sammāsambuddho”ti. ",
-      "english": "“But mendicant, where is the Blessed One at present, the perfected one, the fully awakened Buddha?” "
+      "pali": "",
+      "english": "“If sensing a feeling of pleasure, one discerns it as ‘inconstant.’ One discerns it as ‘not grasped at.’ One discerns it as ‘not relished.’ If sensing a feeling of pain, one discerns it as ‘inconstant.’ One discerns it as ‘not grasped at.’ One discerns it as ‘not relished.’ If sensing a feeling of neither pleasure nor pain, one discerns it as ‘inconstant.’ One discerns it as ‘not grasped at.’ One discerns it as ‘not relished.’"
     },
     {
       "number": 31,
-      "pali": "“Atthāvuso, uttaresu janapadesu sāvatthi nāma nagaraṁ. ",
-      "english": "“In the northern lands there is a city named Sāvatthī. "
+      "pali": "",
+      "english": "“If sensing a feeling of pleasure, one senses it disjoined from it. If sensing a feeling of pain, one senses it disjoined from it. If sensing a feeling of neither pleasure nor pain, one senses it disjoined from it. When sensing a feeling limited to the body, one discerns, ‘I am sensing a feeling limited to the body.’ When sensing a feeling limited to life, one discerns, ‘I am sensing a feeling limited to life.’ One discerns, ‘With the break-up of the body, after the termination of life, all that is experienced, not being relished, will grow cold right here.’"
     },
     {
       "number": 32,
-      "pali": "Tattha so bhagavā etarahi viharati arahaṁ sammāsambuddho”ti. ",
-      "english": "There the Blessed One is now staying, the perfected one, the fully awakened Buddha.” "
+      "pali": "",
+      "english": "“Just as an oil lamp would burn in dependence on oil & wick and, from the termination of the oil & wick, it would go out unnourished; in the same way, when sensing a feeling limited to the body, one discerns, ‘I am sensing a feeling limited to the body.’ When sensing a feeling limited to life, one discerns, ‘I am sensing a feeling limited to life.’ One discerns, ‘With the break-up of the body, after the termination of life, all that is experienced, not being relished, will grow cold right here.’"
     },
     {
       "number": 33,
-      "pali": "“Diṭṭhapubbo pana te, bhikkhu, so bhagavā; ",
-      "english": "“But have you ever seen that Buddha? "
+      "pali": "",
+      "english": "“Thus a monk so endowed is endowed with the highest determination for discernment, for this—the knowledge of the passing away of all suffering & stress—is the highest noble discernment."
     },
     {
       "number": 34,
-      "pali": "disvā ca pana jāneyyāsī”ti? ",
-      "english": "Would you recognize him if you saw him?” "
+      "pali": "",
+      "english": "“His release, being founded on truth, does not fluctuate, for whatever is deceptive is false; unbinding—the undeceptive—is true. Thus a monk so endowed is endowed with the highest determination for truth, for this—unbinding, the undeceptive—is the highest noble truth."
     },
     {
       "number": 35,
-      "pali": "“Na kho me, āvuso, diṭṭhapubbo so bhagavā; ",
-      "english": "“No, I’ve never seen him, "
+      "pali": "",
+      "english": "“Whereas formerly he foolishly had taken on mental acquisitions and brought them to completion, he has now abandoned them, their root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising. Thus a monk so endowed is endowed with the highest determination for relinquishment, for this—the renunciation of all mental acquisitions—is the highest noble relinquishment."
     },
     {
       "number": 36,
-      "pali": "disvā cāhaṁ na jāneyyan”ti. ",
-      "english": "and I wouldn’t recognize him if I did.” "
+      "pali": "",
+      "english": "“Whereas formerly he foolishly had greed—as well as desire & infatuation—he has now abandoned them, their root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising. Whereas formerly he foolishly had malice—as well as ill-will & hatred—he has now abandoned them.… Whereas formerly he foolishly had ignorance—as well as delusion & confusion—he has now abandoned them, their root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising. Thus a monk so endowed is endowed with the highest determination for calm, for this—the calming of passions, aversions, & delusions—is the highest noble calm. ‘One should not be negligent of discernment, should guard the truth, be devoted to relinquishment, and train only for calm.’ Thus it was said, and in reference to this was it said."
     },
     {
       "number": 37,
-      "pali": "Atha kho bhagavato etadahosi: ",
-      "english": "Then it occurred to the Buddha, "
+      "pali": "",
+      "english": "“‘He has been stilled where the currents of supposition do not flow. And when the currents of supposition do not flow, he is said to be a sage at peace.’ Thus it was said. With reference to what was it said? ‘I am’ is a supposition. ‘I am this’ is a supposition. ‘I shall be’ is a supposition. ‘I shall not be’ … ‘I shall be possessed of form’ … ‘I shall not be possessed of form’ … ‘I shall be percipient’ … ‘I shall not be percipient’ … ‘I shall be neither percipient nor non-percipient’ is a supposition. Supposition is a disease, supposition is a cancer, supposition is an arrow. By going beyond all supposition, he is called a sage at peace."
     },
     {
       "number": 38,
-      "pali": "“mamañca khvāyaṁ kulaputto uddissa pabbajito. ",
-      "english": "“This gentleman has gone forth in my name. "
+      "pali": "",
+      "english": "“And further, a sage at peace is not born, does not age, does not die, is unagitated, and is free from longing. He has nothing whereby he would be born. Not being born, will he age? Not aging, will he die? Not dying, will he be agitated? Not being agitated, for what will he long? It was in reference to this that it was said, ‘He has been stilled where the currents of supposition do not flow. And when the currents of supposition do not flow, he is said to be a sage at peace.’ Now, monk, you should remember this, my brief analysis of the six properties.”"
     },
     {
       "number": 39,
-      "pali": "Yannūnassāhaṁ dhammaṁ deseyyan”ti. ",
-      "english": "Why don’t I teach him the Dhamma?” "
+      "pali": "",
+      "english": "Then the thought occurred to Ven. Pukkusāti: “Surely, the Teacher has come to me! Surely, the One Well-Gone has come to me! Surely, the Rightly Self-awakened One has come to me!” Getting up from his seat, arranging his upper robe over one shoulder, and bowing down with his head at the Blessed One’s feet, he said, “A transgression has overcome me, lord, in that I was so foolish, so muddle-headed, and so unskilled as to assume that it was proper to address the Blessed One as ‘friend.’ May the Blessed One please accept this confession of my transgression as such, so that I may restrain myself in the future.”"
     },
     {
       "number": 40,
-      "pali": "Atha kho bhagavā āyasmantaṁ pukkusātiṁ āmantesi: ",
-      "english": "So the Buddha said to Pukkusāti, "
+      "pali": "",
+      "english": "“Yes, monk, a transgression overcame you in that you were so foolish, so muddle-headed, and so unskilled as to assume that it was proper to address me as ‘friend.’ But because you see your transgression as such and make amends in accordance with the Dhamma, we accept your confession. For it is a cause of growth in the discipline of the noble ones when, seeing a transgression as such, one makes amends in accordance with the Dhamma and exercises restraint in the future.”"
     },
     {
       "number": 41,
-      "pali": "“dhammaṁ te, bhikkhu, desessāmi. ",
-      "english": "“Mendicant, I shall teach you the Dhamma. "
+      "pali": "",
+      "english": "“Lord, may I receive full acceptance [ordination as a monk] from the Blessed One?”"
     },
     {
       "number": 42,
-      "pali": "Taṁ suṇāhi, sādhukaṁ manasi karohi; bhāsissāmī”ti. ",
-      "english": "Listen and apply your mind well, I will speak.” "
+      "pali": "",
+      "english": "“And are your robes & bowl complete?”"
     },
     {
       "number": 43,
-      "pali": "“Evamāvuso”ti kho āyasmā pukkusāti bhagavato paccassosi. ",
-      "english": "“Yes, reverend,” replied Pukkusāti. "
+      "pali": "",
+      "english": "“No, lord, my robes & bowl are not complete.”"
     },
     {
       "number": 44,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
+      "pali": "",
+      "english": "“Tathāgatas do not give full acceptance to one whose robes & bowl are incomplete.”"
     },
     {
       "number": 45,
-      "pali": "“‘Cha dhāturo ayaṁ, bhikkhu, puriso cha phassāyatano aṭṭhārasa manopavicāro caturādhiṭṭhāno; ",
-      "english": "“‘This person has six elements, six fields of contact, eighteen mental preoccupations, and four foundations. "
+      "pali": "",
+      "english": "Then Ven. Pukkusāti, delighting & rejoicing in the Blessed One’s words, got up from his seat, bowed down to the Blessed One and, keeping him on his right, left in search of robes & a bowl. And while he was searching for robes & a bowl, a runaway cow killed him."
     },
     {
       "number": 46,
-      "pali": "yattha ṭhitaṁ maññassavā nappavattanti, maññassave kho pana nappavattamāne muni santoti vuccati. ",
-      "english": "Where they stand, the streams of conceiving do not flow. And where the streams of conceiving do not flow, they are called a sage at peace. "
+      "pali": "",
+      "english": "Then a large number of monks approached the Blessed One and, on arrival, having bowed down to him, sat to one side. As they were sitting there, they said to the Blessed One, “Lord, the clansman Pukkusāti, whom the Blessed One instructed with a brief instruction, has died. What is his destination? What is his future state?”"
     },
     {
       "number": 47,
-      "pali": "Paññaṁ nappamajjeyya, saccamanurakkheyya, cāgamanubrūheyya, santimeva so sikkheyyā’ti—",
-      "english": "Do not neglect wisdom; preserve truth; foster generosity; and train only for peace.’ "
+      "pali": "",
+      "english": "“Monks, the clansman Pukkusāti was wise. He practiced the Dhamma in accordance with the Dhamma and did not pester me with issues related to the Dhamma. With the destruction of the five lower fetters, he has arisen spontaneously (in the Pure Abodes), there to be totally unbound, never again to return from that world.”"
     },
     {
       "number": 48,
-      "pali": "ayamuddeso dhātuvibhaṅgassa. ",
-      "english": "This is the summary recital for the analysis of the elements. "
-    },
-    {
-      "number": 49,
-      "pali": "‘Cha dhāturo ayaṁ, bhikkhu, puriso’ti—",
-      "english": "‘This person has six elements.’ "
-    },
-    {
-      "number": 50,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
-    },
-    {
-      "number": 51,
-      "pali": "Chayimā, bhikkhu, dhātuyo—",
-      "english": "There are these six elements: "
-    },
-    {
-      "number": 52,
-      "pali": "pathavīdhātu, āpodhātu, tejodhātu, vāyodhātu, ākāsadhātu, viññāṇadhātu. ",
-      "english": "the elements of earth, water, fire, air, space, and consciousness. "
-    },
-    {
-      "number": 53,
-      "pali": "‘Cha dhāturo ayaṁ, bhikkhu, puriso’ti—",
-      "english": "‘This person has six elements.’ "
-    },
-    {
-      "number": 54,
-      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
-    },
-    {
-      "number": 55,
-      "pali": "‘Cha phassāyatano ayaṁ, bhikkhu, puriso’ti—",
-      "english": "‘This person has six fields of contact.’ "
-    },
-    {
-      "number": 56,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
-    },
-    {
-      "number": 57,
-      "pali": "Cakkhusamphassāyatanaṁ, sotasamphassāyatanaṁ, ghānasamphassāyatanaṁ, jivhāsamphassāyatanaṁ, kāyasamphassāyatanaṁ, manosamphassāyatanaṁ. ",
-      "english": "The fields of contact of the eye, ear, nose, tongue, body, and mind. "
-    },
-    {
-      "number": 58,
-      "pali": "‘Cha phassāyatano ayaṁ, bhikkhu, puriso’ti—",
-      "english": "‘This person has six fields of contact.’ "
-    },
-    {
-      "number": 59,
-      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
-    },
-    {
-      "number": 60,
-      "pali": "‘Aṭṭhārasa manopavicāro ayaṁ, bhikkhu, puriso’ti—",
-      "english": "‘This person has eighteen mental preoccupations.’ "
-    },
-    {
-      "number": 61,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
-    },
-    {
-      "number": 62,
-      "pali": "Cakkhunā rūpaṁ disvā somanassaṭṭhāniyaṁ rūpaṁ upavicarati, domanassaṭṭhāniyaṁ rūpaṁ upavicarati, upekkhāṭṭhāniyaṁ rūpaṁ upavicarati; ",
-      "english": "Seeing a sight with the eye, one is preoccupied with a sight that’s a basis for happiness or sadness or equanimity. "
-    },
-    {
-      "number": 63,
-      "pali": "sotena saddaṁ sutvā …pe… ",
-      "english": "Hearing a sound with the ear … "
-    },
-    {
-      "number": 64,
-      "pali": "ghānena gandhaṁ ghāyitvā … ",
-      "english": "Smelling an odor with the nose … "
-    },
-    {
-      "number": 65,
-      "pali": "jivhāya rasaṁ sāyitvā … ",
-      "english": "Tasting a flavor with the tongue … "
-    },
-    {
-      "number": 66,
-      "pali": "kāyena phoṭṭhabbaṁ phusitvā … ",
-      "english": "Feeling a touch with the body … "
-    },
-    {
-      "number": 67,
-      "pali": "manasā dhammaṁ viññāya somanassaṭṭhāniyaṁ dhammaṁ upavicarati, domanassaṭṭhāniyaṁ dhammaṁ upavicarati, upekkhāṭṭhāniyaṁ dhammaṁ upavicarati—",
-      "english": "Becoming conscious of an idea with the mind, one is preoccupied with an idea that’s a basis for happiness or sadness or equanimity. "
-    },
-    {
-      "number": 68,
-      "pali": "iti cha somanassupavicārā, cha domanassupavicārā, cha upekkhupavicārā. ",
-      "english": "So there are six preoccupations with happiness, six preoccupations with sadness, and six preoccupations with equanimity. "
-    },
-    {
-      "number": 69,
-      "pali": "‘Aṭṭhārasa manopavicāro ayaṁ, bhikkhu, puriso’ti—",
-      "english": "‘This person has eighteen mental preoccupations.’ "
-    },
-    {
-      "number": 70,
-      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
-    },
-    {
-      "number": 71,
-      "pali": "‘Caturādhiṭṭhāno ayaṁ, bhikkhu, puriso’ti—",
-      "english": "‘This person has four foundations.’ "
-    },
-    {
-      "number": 72,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
-    },
-    {
-      "number": 73,
-      "pali": "Paññādhiṭṭhāno, saccādhiṭṭhāno, cāgādhiṭṭhāno, upasamādhiṭṭhāno. ",
-      "english": "The foundations of wisdom, truth, generosity, and peace. "
-    },
-    {
-      "number": 74,
-      "pali": "‘Caturādhiṭṭhāno ayaṁ, bhikkhu, puriso’ti—",
-      "english": "‘This person has four foundations.’ "
-    },
-    {
-      "number": 75,
-      "pali": "iti yaṁ taṁ vuttaṁ idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
-    },
-    {
-      "number": 76,
-      "pali": "‘Paññaṁ nappamajjeyya, saccamanurakkheyya, cāgamanubrūheyya, santimeva so sikkheyyā’ti—",
-      "english": "‘Do not neglect wisdom; preserve truth; foster generosity; and train only for peace.’ "
-    },
-    {
-      "number": 77,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
-    },
-    {
-      "number": 78,
-      "pali": "Kathañca, bhikkhu, paññaṁ nappamajjati? ",
-      "english": "And how does one not neglect wisdom? "
-    },
-    {
-      "number": 79,
-      "pali": "Chayimā, bhikkhu, dhātuyo—",
-      "english": "There are these six elements: "
-    },
-    {
-      "number": 80,
-      "pali": "pathavīdhātu, āpodhātu, tejodhātu, vāyodhātu, ākāsadhātu, viññāṇadhātu. ",
-      "english": "the elements of earth, water, fire, air, space, and consciousness. "
-    },
-    {
-      "number": 81,
-      "pali": "Katamā ca, bhikkhu, pathavīdhātu? ",
-      "english": "And what is the earth element? "
-    },
-    {
-      "number": 82,
-      "pali": "Pathavīdhātu siyā ajjhattikā siyā bāhirā. ",
-      "english": "The earth element may be interior or exterior. "
-    },
-    {
-      "number": 83,
-      "pali": "Katamā ca, bhikkhu, ajjhattikā pathavīdhātu? ",
-      "english": "And what is the interior earth element? "
-    },
-    {
-      "number": 84,
-      "pali": "Yaṁ ajjhattaṁ paccattaṁ kakkhaḷaṁ kharigataṁ upādinnaṁ, seyyathidaṁ—",
-      "english": "Anything internal, personal, that’s hard, solid, and appropriated. This includes: "
-    },
-    {
-      "number": 85,
-      "pali": "kesā lomā nakhā dantā taco maṁsaṁ nhāru aṭṭhi aṭṭhimiñjaṁ vakkaṁ hadayaṁ yakanaṁ kilomakaṁ pihakaṁ papphāsaṁ antaṁ antaguṇaṁ udariyaṁ karīsaṁ, yaṁ vā panaññampi kiñci ajjhattaṁ paccattaṁ kakkhaḷaṁ kharigataṁ upādinnaṁ—",
-      "english": "head hair, body hair, nails, teeth, skin, flesh, sinews, bones, bone marrow, kidneys, heart, liver, diaphragm, spleen, lungs, intestines, mesentery, undigested food, feces, or anything else internal, personal, that’s hard, solid, and appropriated. "
-    },
-    {
-      "number": 86,
-      "pali": "ayaṁ vuccati, bhikkhu, ajjhattikā pathavīdhātu. ",
-      "english": "This is called the interior earth element. "
-    },
-    {
-      "number": 87,
-      "pali": "Yā ceva kho pana ajjhattikā pathavīdhātu yā ca bāhirā pathavīdhātu pathavīdhāturevesā. ",
-      "english": "The interior earth element and the exterior earth element are just the earth element. "
-    },
-    {
-      "number": 88,
-      "pali": "‘Taṁ netaṁ mama nesohamasmi na meso attā’ti—evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
-      "english": "This should be truly seen with right understanding like this: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 89,
-      "pali": "Evametaṁ yathābhūtaṁ sammappaññāya disvā pathavīdhātuyā nibbindati, pathavīdhātuyā cittaṁ virājeti. ",
-      "english": "When you truly see with right understanding, you grow disillusioned with the earth element, detaching the mind from the earth element. "
-    },
-    {
-      "number": 90,
-      "pali": "Katamā ca, bhikkhu, āpodhātu? ",
-      "english": "And what is the water element? "
-    },
-    {
-      "number": 91,
-      "pali": "Āpodhātu siyā ajjhattikā siyā bāhirā. ",
-      "english": "The water element may be interior or exterior. "
-    },
-    {
-      "number": 92,
-      "pali": "Katamā ca, bhikkhu, ajjhattikā āpodhātu? ",
-      "english": "And what is the interior water element? "
-    },
-    {
-      "number": 93,
-      "pali": "Yaṁ ajjhattaṁ paccattaṁ āpo āpogataṁ upādinnaṁ seyyathidaṁ—",
-      "english": "Anything internal, personal, that’s water, watery, and appropriated. This includes: "
-    },
-    {
-      "number": 94,
-      "pali": "pittaṁ semhaṁ pubbo lohitaṁ sedo medo assu vasā kheḷo siṅghāṇikā lasikā muttaṁ, yaṁ vā panaññampi kiñci ajjhattaṁ paccattaṁ āpo āpogataṁ upādinnaṁ—",
-      "english": "bile, phlegm, pus, blood, sweat, fat, tears, grease, saliva, snot, synovial fluid, urine, or anything else internal, personal, that’s water, watery, and appropriated. "
-    },
-    {
-      "number": 95,
-      "pali": "ayaṁ vuccati, bhikkhu, ajjhattikā āpodhātu. ",
-      "english": "This is called the interior water element. "
-    },
-    {
-      "number": 96,
-      "pali": "Yā ceva kho pana ajjhattikā āpodhātu yā ca bāhirā āpodhātu āpodhāturevesā. ",
-      "english": "The interior water element and the exterior water element are just the water element. "
-    },
-    {
-      "number": 97,
-      "pali": "‘Taṁ netaṁ mama, nesohamasmi, na meso attā’ti—evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
-      "english": "This should be truly seen with right understanding like this: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 98,
-      "pali": "Evametaṁ yathābhūtaṁ sammappaññāya disvā āpodhātuyā nibbindati, āpodhātuyā cittaṁ virājeti. ",
-      "english": "When you truly see with right understanding, you grow disillusioned with the water element, detaching the mind from the water element. "
-    },
-    {
-      "number": 99,
-      "pali": "Katamā ca, bhikkhu, tejodhātu? ",
-      "english": "And what is the fire element? "
-    },
-    {
-      "number": 100,
-      "pali": "Tejodhātu siyā ajjhattikā siyā bāhirā. ",
-      "english": "The fire element may be interior or exterior. "
-    },
-    {
-      "number": 101,
-      "pali": "Katamā ca, bhikkhu, ajjhattikā tejodhātu? ",
-      "english": "And what is the interior fire element? "
-    },
-    {
-      "number": 102,
-      "pali": "Yaṁ ajjhattaṁ paccattaṁ tejo tejogataṁ upādinnaṁ, seyyathidaṁ—",
-      "english": "Anything internal, personal, that’s fire, fiery, and appropriated. This includes: "
-    },
-    {
-      "number": 103,
-      "pali": "yena ca santappati, yena ca jīrīyati, yena ca pariḍayhati, yena ca asitapītakhāyitasāyitaṁ sammā pariṇāmaṁ gacchati, yaṁ vā panaññampi kiñci ajjhattaṁ paccattaṁ tejo tejogataṁ upādinnaṁ—",
-      "english": "that which warms, that which ages, that which heats you up when feverish, that which properly digests food and drink; or anything else internal, personal, that’s fire, fiery, and appropriated. "
-    },
-    {
-      "number": 104,
-      "pali": "ayaṁ vuccati, bhikkhu, ajjhattikā tejodhātu. ",
-      "english": "This is called the interior fire element. "
-    },
-    {
-      "number": 105,
-      "pali": "Yā ceva kho pana ajjhattikā tejodhātu yā ca bāhirā tejodhātu tejodhāturevesā. ",
-      "english": "The interior fire element and the exterior fire element are just the fire element. "
-    },
-    {
-      "number": 106,
-      "pali": "‘Taṁ netaṁ mama, nesohamasmi, na meso attā’ti—evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
-      "english": "This should be truly seen with right understanding like this: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 107,
-      "pali": "Evametaṁ yathābhūtaṁ sammappaññāya disvā tejodhātuyā nibbindati, tejodhātuyā cittaṁ virājeti. ",
-      "english": "When you truly see with right understanding, you grow disillusioned with the fire element, detaching the mind from the fire element. "
-    },
-    {
-      "number": 108,
-      "pali": "Katamā ca, bhikkhu, vāyodhātu? ",
-      "english": "And what is the air element? "
-    },
-    {
-      "number": 109,
-      "pali": "Vāyodhātu siyā ajjhattikā siyā bāhirā. ",
-      "english": "The air element may be interior or exterior. "
-    },
-    {
-      "number": 110,
-      "pali": "Katamā ca, bhikkhu, ajjhattikā vāyodhātu? ",
-      "english": "And what is the interior air element? "
-    },
-    {
-      "number": 111,
-      "pali": "Yaṁ ajjhattaṁ paccattaṁ vāyo vāyogataṁ upādinnaṁ, seyyathidaṁ—",
-      "english": "Anything internal, personal, that’s air, airy, and appropriated. This includes: "
-    },
-    {
-      "number": 112,
-      "pali": "uddhaṅgamā vātā adhogamā vātā kucchisayā vātā koṭṭhāsayā vātā aṅgamaṅgānusārino vātā assāso passāso iti, yaṁ vā panaññampi kiñci ajjhattaṁ paccattaṁ vāyo vāyogataṁ upādinnaṁ—",
-      "english": "winds that go up or down, winds in the belly or the bowels, winds that flow through the limbs, in-breaths and out-breaths; or anything else internal, personal, that’s air, airy, and appropriated. "
-    },
-    {
-      "number": 113,
-      "pali": "ayaṁ vuccati, bhikkhu, ajjhattikā vāyodhātu. ",
-      "english": "This is called the interior air element. "
-    },
-    {
-      "number": 114,
-      "pali": "Yā ceva kho pana ajjhattikā vāyodhātu yā ca bāhirā vāyodhātu vāyodhāturevesā. ",
-      "english": "The interior air element and the exterior air element are just the air element. "
-    },
-    {
-      "number": 115,
-      "pali": "‘Taṁ netaṁ mama, nesohamasmi, na meso attā’ti—evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
-      "english": "This should be truly seen with right understanding like this: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 116,
-      "pali": "Evametaṁ yathābhūtaṁ sammappaññāya disvā vāyodhātuyā nibbindati, vāyodhātuyā cittaṁ virājeti. ",
-      "english": "When you truly see with right understanding, you grow disillusioned with the air element, detaching the mind from the air element. "
-    },
-    {
-      "number": 117,
-      "pali": "Katamā ca, bhikkhu, ākāsadhātu? ",
-      "english": "And what is the space element? "
-    },
-    {
-      "number": 118,
-      "pali": "Ākāsadhātu siyā ajjhattikā siyā bāhirā. ",
-      "english": "The space element may be interior or exterior. "
-    },
-    {
-      "number": 119,
-      "pali": "Katamā ca, bhikkhu, ajjhattikā ākāsadhātu? ",
-      "english": "And what is the interior space element? "
-    },
-    {
-      "number": 120,
-      "pali": "Yaṁ ajjhattaṁ paccattaṁ ākāsaṁ ākāsagataṁ upādinnaṁ, seyyathidaṁ—",
-      "english": "Anything internal, personal, that’s space, spacious, and appropriated. This includes: "
-    },
-    {
-      "number": 121,
-      "pali": "kaṇṇacchiddaṁ nāsacchiddaṁ mukhadvāraṁ yena ca asitapītakhāyitasāyitaṁ ajjhoharati, yattha ca asitapītakhāyitasāyitaṁ santiṭṭhati, yena ca asitapītakhāyitasāyitaṁ adhobhāgaṁ nikkhamati, yaṁ vā panaññampi kiñci ajjhattaṁ paccattaṁ ākāsaṁ ākāsagataṁ aghaṁ aghagataṁ vivaraṁ vivaragataṁ asamphuṭṭhaṁ maṁsalohitehi upādinnaṁ—",
-      "english": "the ear canals, nostrils, and mouth; and the space for swallowing what is eaten and drunk, the space where it stays, and the space for excreting it from the nether regions; or anything else internal, personal, that’s space, spacious, and appropriated. "
-    },
-    {
-      "number": 122,
-      "pali": "ayaṁ vuccati, bhikkhu, ajjhattikā ākāsadhātu. ",
-      "english": "This is called the interior space element. "
-    },
-    {
-      "number": 123,
-      "pali": "Yā ceva kho pana ajjhattikā ākāsadhātu yā ca bāhirā ākāsadhātu ākāsadhāturevesā. ",
-      "english": "The interior space element and the exterior space element are just the space element. "
-    },
-    {
-      "number": 124,
-      "pali": "‘Taṁ netaṁ mama, nesohamasmi, na meso attā’ti—evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
-      "english": "This should be truly seen with right understanding like this: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 125,
-      "pali": "Evametaṁ yathābhūtaṁ sammappaññāya disvā ākāsadhātuyā nibbindati, ākāsadhātuyā cittaṁ virājeti. ",
-      "english": "When you truly see with right understanding, you grow disillusioned with the space element, detaching the mind from the space element. "
-    },
-    {
-      "number": 126,
-      "pali": "Athāparaṁ viññāṇaṁyeva avasissati parisuddhaṁ pariyodātaṁ. ",
-      "english": "What remains is sheer consciousness, pure and bright. "
-    },
-    {
-      "number": 127,
-      "pali": "Tena ca viññāṇena kiṁ vijānāti? ",
-      "english": "And what does that consciousness know? "
-    },
-    {
-      "number": 128,
-      "pali": "‘Sukhan’tipi vijānāti, ‘dukkhan’tipi vijānāti, ‘adukkhamasukhan’tipi vijānāti. ",
-      "english": "It cognizes ‘pleasure’ and ‘pain’ and ‘neutral’. "
-    },
-    {
-      "number": 129,
-      "pali": "Sukhavedaniyaṁ, bhikkhu, phassaṁ paṭicca uppajjati sukhā vedanā. ",
-      "english": "Pleasant feeling arises dependent on a contact to be experienced as pleasant. "
-    },
-    {
-      "number": 130,
-      "pali": "So sukhaṁ vedanaṁ vedayamāno ‘sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
-      "english": "When they feel a pleasant feeling, they know: ‘I feel a pleasant feeling.’ "
-    },
-    {
-      "number": 131,
-      "pali": "‘Tasseva sukhavedaniyassa phassassa nirodhā yaṁ tajjaṁ vedayitaṁ sukhavedaniyaṁ phassaṁ paṭicca uppannā sukhā vedanā sā nirujjhati, sā vūpasammatī’ti pajānāti. ",
-      "english": "They know: ‘With the cessation of that contact to be experienced as pleasant, the corresponding pleasant feeling ceases and stops.’ "
-    },
-    {
-      "number": 132,
-      "pali": "Dukkhavedaniyaṁ, bhikkhu, phassaṁ paṭicca uppajjati dukkhā vedanā. ",
-      "english": "Painful feeling arises dependent on a contact to be experienced as painful. "
-    },
-    {
-      "number": 133,
-      "pali": "So dukkhaṁ vedanaṁ vedayamāno ‘dukkhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
-      "english": "When they feel a painful feeling, they know: ‘I feel a painful feeling.’ "
-    },
-    {
-      "number": 134,
-      "pali": "‘Tasseva dukkhavedaniyassa phassassa nirodhā yaṁ tajjaṁ vedayitaṁ dukkhavedaniyaṁ phassaṁ paṭicca uppannā dukkhā vedanā sā nirujjhati, sā vūpasammatī’ti pajānāti. ",
-      "english": "They know: ‘With the cessation of that contact to be experienced as painful, the corresponding painful feeling ceases and stops.’ "
-    },
-    {
-      "number": 135,
-      "pali": "Adukkhamasukhavedaniyaṁ, bhikkhu, phassaṁ paṭicca uppajjati adukkhamasukhā vedanā. ",
-      "english": "Neutral feeling arises dependent on a contact to be experienced as neutral. "
-    },
-    {
-      "number": 136,
-      "pali": "So adukkhamasukhaṁ vedanaṁ vedayamāno ‘adukkhamasukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
-      "english": "When they feel a neutral feeling, they know: ‘I feel a neutral feeling.’ "
-    },
-    {
-      "number": 137,
-      "pali": "‘Tasseva adukkhamasukhavedaniyassa phassassa nirodhā yaṁ tajjaṁ vedayitaṁ adukkhamasukhavedaniyaṁ phassaṁ paṭicca uppannā adukkhamasukhā vedanā sā nirujjhati, sā vūpasammatī’ti pajānāti. ",
-      "english": "They know: ‘With the cessation of that contact to be experienced as neutral, the corresponding neutral feeling ceases and stops.’ "
-    },
-    {
-      "number": 138,
-      "pali": "Seyyathāpi, bhikkhu, dvinnaṁ kaṭṭhānaṁ saṅghaṭṭā samodhānā usmā jāyati, tejo abhinibbattati, tesaṁyeva dvinnaṁ kaṭṭhānaṁ nānābhāvā vinikkhepā yā tajjā usmā sā nirujjhati, sā vūpasammati; ",
-      "english": "When you rub two sticks together, heat is generated and fire is produced. But when you part the sticks and lay them aside, any corresponding heat ceases and stops. "
-    },
-    {
-      "number": 139,
-      "pali": "evameva kho, bhikkhu, sukhavedaniyaṁ phassaṁ paṭicca uppajjati sukhā vedanā. ",
-      "english": "In the same way, pleasant feeling arises dependent on a contact to be experienced as pleasant. … "
-    },
-    {
-      "number": 140,
-      "pali": "So sukhaṁ vedanaṁ vedayamāno ‘sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
-      "english": ""
-    },
-    {
-      "number": 141,
-      "pali": "‘Tasseva sukhavedaniyassa phassassa nirodhā yaṁ tajjaṁ vedayitaṁ sukhavedaniyaṁ phassaṁ paṭicca uppannā sukhā vedanā sā nirujjhati, sā vūpasammatī’ti pajānāti. ",
-      "english": ""
-    },
-    {
-      "number": 142,
-      "pali": "Dukkhavedaniyaṁ, bhikkhu, phassaṁ paṭicca uppajjati dukkhā vedanā. ",
-      "english": ""
-    },
-    {
-      "number": 143,
-      "pali": "So dukkhaṁ vedanaṁ vedayamāno ‘dukkhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
-      "english": ""
-    },
-    {
-      "number": 144,
-      "pali": "‘Tasseva dukkhavedaniyassa phassassa nirodhā yaṁ tajjaṁ vedayitaṁ dukkhavedaniyaṁ phassaṁ paṭicca uppannā dukkhā vedanā sā nirujjhati, sā vūpasammatī’ti pajānāti. ",
-      "english": ""
-    },
-    {
-      "number": 145,
-      "pali": "Adukkhamasukhavedaniyaṁ, bhikkhu, phassaṁ paṭicca uppajjati adukkhamasukhā vedanā. ",
-      "english": ""
-    },
-    {
-      "number": 146,
-      "pali": "So adukkhamasukhaṁ vedanaṁ vedayamāno ‘adukkhamasukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
-      "english": ""
-    },
-    {
-      "number": 147,
-      "pali": "‘Tasseva adukkhamasukhavedaniyassa phassassa nirodhā yaṁ tajjaṁ vedayitaṁ adukkhamasukhavedaniyaṁ phassaṁ paṭicca uppannā adukkhamasukhā vedanā sā nirujjhati, sā vūpasammatī’ti pajānāti. ",
-      "english": "They know: ‘With the cessation of that contact to be experienced as neutral, the corresponding neutral feeling ceases and stops.’ "
-    },
-    {
-      "number": 148,
-      "pali": "Athāparaṁ upekkhāyeva avasissati parisuddhā pariyodātā mudu ca kammaññā ca pabhassarā ca. ",
-      "english": "There remains only equanimity, pure, bright, pliable, workable, and radiant. "
-    },
-    {
-      "number": 149,
-      "pali": "Seyyathāpi, bhikkhu, dakkho suvaṇṇakāro vā suvaṇṇakārantevāsī vā ukkaṁ bandheyya, ukkaṁ bandhitvā ukkāmukhaṁ ālimpeyya, ukkāmukhaṁ ālimpetvā saṇḍāsena jātarūpaṁ gahetvā ukkāmukhe pakkhipeyya, tamenaṁ kālena kālaṁ abhidhameyya, kālena kālaṁ udakena paripphoseyya, kālena kālaṁ ajjhupekkheyya, taṁ hoti jātarūpaṁ sudhantaṁ niddhantaṁ nīhaṭaṁ ninnītakasāvaṁ mudu ca kammaññañca pabhassarañca, yassā yassā ca piḷandhanavikatiyā ākaṅkhati—yadi paṭṭikāya yadi kuṇḍalāya yadi gīveyyakāya yadi suvaṇṇamālāya tañcassa atthaṁ anubhoti; ",
-      "english": "It’s like when a deft goldsmith or a goldsmith’s apprentice prepares a forge, fires the crucible, picks up some native gold with tongs and puts it in the crucible. From time to time they fan it, from time to time they sprinkle water on it, and from time to time they just watch over it. That native gold becomes pliable, workable, and radiant, not brittle, and is ready to be worked. Then the goldsmith can successfully create any kind of ornament they want, whether a bracelet, earrings, a necklace, or a golden garland. "
-    },
-    {
-      "number": 150,
-      "pali": "evameva kho, bhikkhu, athāparaṁ upekkhāyeva avasissati parisuddhā pariyodātā mudu ca kammaññā ca pabhassarā ca. ",
-      "english": "In the same way, there remains only equanimity, pure, bright, pliable, workable, and radiant. "
-    },
-    {
-      "number": 151,
-      "pali": "So evaṁ pajānāti: ",
-      "english": "They understand: "
-    },
-    {
-      "number": 152,
-      "pali": "‘imañce ahaṁ upekkhaṁ evaṁ parisuddhaṁ evaṁ pariyodātaṁ ākāsānañcāyatanaṁ upasaṁhareyyaṁ, tadanudhammañca cittaṁ bhāveyyaṁ. ",
-      "english": "‘If I were to apply this equanimity, so pure and bright, to the dimension of infinite space, and develop my mind accordingly, "
-    },
-    {
-      "number": 153,
-      "pali": "Evaṁ me ayaṁ upekkhā tannissitā tadupādānā ciraṁ dīghamaddhānaṁ tiṭṭheyya. ",
-      "english": "this equanimity of mine, relying on that and grasping it, would remain for a very long time. "
-    },
-    {
-      "number": 154,
-      "pali": "Imañce ahaṁ upekkhaṁ evaṁ parisuddhaṁ evaṁ pariyodātaṁ viññāṇañcāyatanaṁ upasaṁhareyyaṁ, tadanudhammañca cittaṁ bhāveyyaṁ. ",
-      "english": "If I were to apply this equanimity, so pure and bright, to the dimension of infinite consciousness, and develop my mind accordingly, "
-    },
-    {
-      "number": 155,
-      "pali": "Evaṁ me ayaṁ upekkhā tannissitā tadupādānā ciraṁ dīghamaddhānaṁ tiṭṭheyya. ",
-      "english": "this equanimity of mine, relying on that and grasping it, would remain for a very long time. "
-    },
-    {
-      "number": 156,
-      "pali": "Imañce ahaṁ upekkhaṁ evaṁ parisuddhaṁ evaṁ pariyodātaṁ ākiñcaññāyatanaṁ upasaṁhareyyaṁ, tadanudhammañca cittaṁ bhāveyyaṁ. ",
-      "english": "If I were to apply this equanimity, so pure and bright, to the dimension of nothingness, and develop my mind accordingly, "
-    },
-    {
-      "number": 157,
-      "pali": "Evaṁ me ayaṁ upekkhā tannissitā tadupādānā ciraṁ dīghamaddhānaṁ tiṭṭheyya. ",
-      "english": "this equanimity of mine, relying on that and grasping it, would remain for a very long time. "
-    },
-    {
-      "number": 158,
-      "pali": "Imañce ahaṁ upekkhaṁ evaṁ parisuddhaṁ evaṁ pariyodātaṁ nevasaññānāsaññāyatanaṁ upasaṁhareyyaṁ, tadanudhammañca cittaṁ bhāveyyaṁ. ",
-      "english": "If I were to apply this equanimity, so pure and bright, to the dimension of neither perception nor non-perception, and develop my mind accordingly, "
-    },
-    {
-      "number": 159,
-      "pali": "Evaṁ me ayaṁ upekkhā tannissitā tadupādānā ciraṁ dīghamaddhānaṁ tiṭṭheyyā’ti. ",
-      "english": "this equanimity of mine, relying on that and grasping it, would remain for a very long time.’ "
-    },
-    {
-      "number": 160,
-      "pali": "So evaṁ pajānāti: ",
-      "english": "They understand: "
-    },
-    {
-      "number": 161,
-      "pali": "‘imañce ahaṁ upekkhaṁ evaṁ parisuddhaṁ evaṁ pariyodātaṁ ākāsānañcāyatanaṁ upasaṁhareyyaṁ, tadanudhammañca cittaṁ bhāveyyaṁ; ",
-      "english": "‘If I were to apply this equanimity, so pure and bright, to the dimension of infinite space, my mind would develop accordingly. "
-    },
-    {
-      "number": 162,
-      "pali": "saṅkhatametaṁ. ",
-      "english": "But that is conditioned. "
-    },
-    {
-      "number": 163,
-      "pali": "Imañce ahaṁ upekkhaṁ evaṁ parisuddhaṁ evaṁ pariyodātaṁ viññāṇañcāyatanaṁ upasaṁhareyyaṁ, tadanudhammañca cittaṁ bhāveyyaṁ; ",
-      "english": "If I were to apply this equanimity, so pure and bright, to the dimension of infinite consciousness … "
-    },
-    {
-      "number": 164,
-      "pali": "saṅkhatametaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 165,
-      "pali": "Imañce ahaṁ upekkhaṁ evaṁ parisuddhaṁ evaṁ pariyodātaṁ ākiñcaññāyatanaṁ upasaṁhareyyaṁ, tadanudhammañca cittaṁ bhāveyyaṁ; ",
-      "english": "nothingness … "
-    },
-    {
-      "number": 166,
-      "pali": "saṅkhatametaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 167,
-      "pali": "Imañce ahaṁ upekkhaṁ evaṁ parisuddhaṁ evaṁ pariyodātaṁ nevasaññānāsaññāyatanaṁ upasaṁhareyyaṁ, tadanudhammañca cittaṁ bhāveyyaṁ; ",
-      "english": "neither perception nor non-perception, my mind would develop accordingly. "
-    },
-    {
-      "number": 168,
-      "pali": "saṅkhatametan’ti. ",
-      "english": "But that is conditioned.’ "
-    },
-    {
-      "number": 169,
-      "pali": "So neva taṁ abhisaṅkharoti, na abhisañcetayati bhavāya vā vibhavāya vā. ",
-      "english": "They neither make a choice nor form an intention for existence or nonexistence. "
-    },
-    {
-      "number": 170,
-      "pali": "So anabhisaṅkharonto anabhisañcetayanto bhavāya vā vibhavāya vā na kiñci loke upādiyati, ",
-      "english": "Because of this, they don’t grasp at anything in the world. "
-    },
-    {
-      "number": 171,
-      "pali": "anupādiyaṁ na paritassati, aparitassaṁ paccattaṁyeva parinibbāyati. ",
-      "english": "Not grasping, they’re not anxious. Not being anxious, they personally become extinguished. "
-    },
-    {
-      "number": 172,
-      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ",
-      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
-    },
-    {
-      "number": 173,
-      "pali": "So sukhañce vedanaṁ vedeti, ‘sā aniccā’ti pajānāti, ‘anajjhositā’ti pajānāti, ‘anabhinanditā’ti pajānāti. ",
-      "english": "If they feel a pleasant feeling, they understand that it’s impermanent, that they’re not attached to it, and that they don’t take pleasure in it. "
-    },
-    {
-      "number": 174,
-      "pali": "Dukkhañce vedanaṁ vedeti, ‘sā aniccā’ti pajānāti, ‘anajjhositā’ti pajānāti, ‘anabhinanditā’ti pajānāti. ",
-      "english": "If they feel a painful feeling, they understand that it’s impermanent, that they’re not attached to it, and that they don’t take pleasure in it. "
-    },
-    {
-      "number": 175,
-      "pali": "Adukkhamasukhañce vedanaṁ vedeti, ‘sā aniccā’ti pajānāti, ‘anajjhositā’ti pajānāti, ‘anabhinanditā’ti pajānāti. ",
-      "english": "If they feel a neutral feeling, they understand that it’s impermanent, that they’re not attached to it, and that they don’t take pleasure in it. "
-    },
-    {
-      "number": 176,
-      "pali": "So sukhañce vedanaṁ vedeti, visaṁyutto naṁ vedeti; ",
-      "english": "If they feel a pleasant feeling, they feel it detached. "
-    },
-    {
-      "number": 177,
-      "pali": "dukkhañce vedanaṁ vedeti, visaṁyutto naṁ vedeti; ",
-      "english": "If they feel a painful feeling, they feel it detached. "
-    },
-    {
-      "number": 178,
-      "pali": "adukkhamasukhañce vedanaṁ vedeti, visaṁyutto naṁ vedeti. ",
-      "english": "If they feel a neutral feeling, they feel it detached. "
-    },
-    {
-      "number": 179,
-      "pali": "So kāyapariyantikaṁ vedanaṁ vedayamāno ‘kāyapariyantikaṁ vedanaṁ vedayāmī’ti pajānāti, jīvitapariyantikaṁ vedanaṁ vedayamāno ‘jīvitapariyantikaṁ vedanaṁ vedayāmī’ti pajānāti, ",
-      "english": "Feeling the end of the body draw close, they understand: ‘I feel the end of the body draw close.’ Feeling the end of life draw close, they understand: ‘I feel the end of life draw close.’ "
-    },
-    {
-      "number": 180,
-      "pali": "‘kāyassa bhedā paraṁ maraṇā uddhaṁ jīvitapariyādānā idheva sabbavedayitāni anabhinanditāni sītībhavissantī’ti pajānāti. ",
-      "english": "They understand: ‘When my body breaks up and my life has come to an end, everything that’s felt, since I no longer take pleasure in it, will become cool right here.’ "
-    },
-    {
-      "number": 181,
-      "pali": "Seyyathāpi, bhikkhu, telañca paṭicca vaṭṭiñca paṭicca telappadīpo jhāyati; ",
-      "english": "Suppose an oil lamp depended on oil and a wick to burn. "
-    },
-    {
-      "number": 182,
-      "pali": "tasseva telassa ca vaṭṭiyā ca pariyādānā aññassa ca anupahārā anāhāro nibbāyati; ",
-      "english": "As the oil and the wick are used up, it would be extinguished due to not being fed. "
-    },
-    {
-      "number": 183,
-      "pali": "evameva kho, bhikkhu, kāyapariyantikaṁ vedanaṁ vedayamāno ‘kāyapariyantikaṁ vedanaṁ vedayāmī’ti pajānāti, jīvitapariyantikaṁ vedanaṁ vedayamāno ‘jīvitapariyantikaṁ vedanaṁ vedayāmī’ti pajānāti, ",
-      "english": "In the same way, feeling the end of the body draw close, they understand: ‘I feel the end of the body draw close.’ Feeling the end of life draw close, they understand: ‘I feel the end of life draw close.’ "
-    },
-    {
-      "number": 184,
-      "pali": "‘kāyassa bhedā paraṁ maraṇā uddhaṁ jīvitapariyādānā idheva sabbavedayitāni anabhinanditāni sītībhavissantī’ti pajānāti. ",
-      "english": "They understand: ‘When my body breaks up and my life has come to an end, everything that’s felt, since I no longer take pleasure in it, will become cool right here.’ "
-    },
-    {
-      "number": 185,
-      "pali": "Tasmā evaṁ samannāgato bhikkhu iminā paramena paññādhiṭṭhānena samannāgato hoti. ",
-      "english": "Therefore a mendicant thus endowed is endowed with the ultimate foundation of wisdom. "
-    },
-    {
-      "number": 186,
-      "pali": "Esā hi, bhikkhu, paramā ariyā paññā yadidaṁ—",
-      "english": "For this is the ultimate noble wisdom, namely, "
-    },
-    {
-      "number": 187,
-      "pali": "sabbadukkhakkhaye ñāṇaṁ. ",
-      "english": "the knowledge of the ending of all suffering. "
-    },
-    {
-      "number": 188,
-      "pali": "Tassa sā vimutti sacce ṭhitā akuppā hoti. ",
-      "english": "Their freedom, being founded on truth, is unshakable. "
-    },
-    {
-      "number": 189,
-      "pali": "Tañhi, bhikkhu, musā yaṁ mosadhammaṁ, taṁ saccaṁ yaṁ amosadhammaṁ nibbānaṁ. ",
-      "english": "For that which is false has a deceptive nature, while that which is true has an undeceptive nature—extinguishment. "
-    },
-    {
-      "number": 190,
-      "pali": "Tasmā evaṁ samannāgato bhikkhu iminā paramena saccādhiṭṭhānena samannāgato hoti. ",
-      "english": "Therefore a mendicant thus endowed is endowed with the ultimate foundation of truth. "
-    },
-    {
-      "number": 191,
-      "pali": "Etañhi, bhikkhu, paramaṁ ariyasaccaṁ yadidaṁ—",
-      "english": "For this is the ultimate noble truth, namely, "
-    },
-    {
-      "number": 192,
-      "pali": "amosadhammaṁ nibbānaṁ. ",
-      "english": "that which has an undeceptive nature—extinguishment. "
-    },
-    {
-      "number": 193,
-      "pali": "Tasseva kho pana pubbe aviddasuno upadhī honti samattā samādinnā. ",
-      "english": "In their ignorance, they used to acquire attachments. "
-    },
-    {
-      "number": 194,
-      "pali": "Tyāssa pahīnā honti ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā. ",
-      "english": "Those have been cut off at the root, made like a palm stump, obliterated so they are unable to arise in the future. "
-    },
-    {
-      "number": 195,
-      "pali": "Tasmā evaṁ samannāgato bhikkhu iminā paramena cāgādhiṭṭhānena samannāgato hoti. ",
-      "english": "Therefore a mendicant thus endowed is endowed with the ultimate foundation of generosity. "
-    },
-    {
-      "number": 196,
-      "pali": "Eso hi, bhikkhu, paramo ariyo cāgo yadidaṁ—",
-      "english": "For this is the ultimate noble generosity, namely, "
-    },
-    {
-      "number": 197,
-      "pali": "sabbūpadhipaṭinissaggo. ",
-      "english": "letting go of all attachments. "
-    },
-    {
-      "number": 198,
-      "pali": "Tasseva kho pana pubbe aviddasuno abhijjhā hoti chando sārāgo. ",
-      "english": "In their ignorance, they used to be covetous, full of desire and lust. "
-    },
-    {
-      "number": 199,
-      "pali": "Svāssa pahīno hoti ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṁ anuppādadhammo. ",
-      "english": "That has been cut off at the root, made like a palm stump, obliterated so it’s unable to arise in the future. "
-    },
-    {
-      "number": 200,
-      "pali": "Tasseva kho pana pubbe aviddasuno āghāto hoti byāpādo sampadoso. ",
-      "english": "In their ignorance, they used to be contemptuous, full of ill will and malevolence. "
-    },
-    {
-      "number": 201,
-      "pali": "Svāssa pahīno hoti ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṁ anuppādadhammo. ",
-      "english": "That has been cut off at the root, made like a palm stump, obliterated so it’s unable to arise in the future. "
-    },
-    {
-      "number": 202,
-      "pali": "Tasseva kho pana pubbe aviddasuno avijjā hoti sammoho. ",
-      "english": "In their ignorance, they used to be ignorant, full of delusion. "
-    },
-    {
-      "number": 203,
-      "pali": "Svāssa pahīno hoti ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṁ anuppādadhammo. ",
-      "english": "That has been cut off at the root, made like a palm stump, obliterated so it’s unable to arise in the future. "
-    },
-    {
-      "number": 204,
-      "pali": "Tasmā evaṁ samannāgato bhikkhu iminā paramena upasamādhiṭṭhānena samannāgato hoti. ",
-      "english": "Therefore a mendicant thus endowed is endowed with the ultimate foundation of peace. "
-    },
-    {
-      "number": 205,
-      "pali": "Eso hi, bhikkhu, paramo ariyo upasamo yadidaṁ—",
-      "english": "For this is the ultimate noble peace, namely, "
-    },
-    {
-      "number": 206,
-      "pali": "rāgadosamohānaṁ upasamo. ",
-      "english": "the pacification of greed, hate, and delusion. "
-    },
-    {
-      "number": 207,
-      "pali": "‘Paññaṁ nappamajjeyya, saccamanurakkheyya, cāgamanubrūheyya, santimeva so sikkheyyā’ti—",
-      "english": "‘Do not neglect wisdom; preserve truth; foster generosity; and train only for peace.’ "
-    },
-    {
-      "number": 208,
-      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
-    },
-    {
-      "number": 209,
-      "pali": "‘Yattha ṭhitaṁ maññassavā nappavattanti, maññassave kho pana nappavattamāne muni santoti vuccatī’ti—",
-      "english": "‘Where they stand, the streams of conceiving do not flow. And where the streams of conceiving do not flow, they are called a sage at peace.’ "
-    },
-    {
-      "number": 210,
-      "pali": "iti kho panetaṁ vuttaṁ. Kiñcetaṁ paṭicca vuttaṁ? ",
-      "english": "That’s what I said, but why did I say it? "
-    },
-    {
-      "number": 211,
-      "pali": "‘Asmī’ti, bhikkhu, maññitametaṁ, ‘ayamahamasmī’ti maññitametaṁ, ‘bhavissan’ti maññitametaṁ, ‘na bhavissan’ti maññitametaṁ, ‘rūpī bhavissan’ti maññitametaṁ, ‘arūpī bhavissan’ti maññitametaṁ, ‘saññī bhavissan’ti maññitametaṁ, ‘asaññī bhavissan’ti maññitametaṁ, ‘nevasaññīnāsaññī bhavissan’ti maññitametaṁ. ",
-      "english": "These are all forms of conceiving: ‘I am’, ‘I am this’, ‘I will be’, ‘I will not be’, ‘I will have form’, ‘I will be formless’, ‘I will be percipient’, ‘I will be non-percipient’, ‘I will be neither percipient nor non-percipient.’ "
-    },
-    {
-      "number": 212,
-      "pali": "Maññitaṁ, bhikkhu, rogo maññitaṁ gaṇḍo maññitaṁ sallaṁ. ",
-      "english": "Conceiving is a disease, a boil, a dart. "
-    },
-    {
-      "number": 213,
-      "pali": "Sabbamaññitānaṁ tveva, bhikkhu, samatikkamā muni santoti vuccati. ",
-      "english": "Having gone beyond all conceiving, one is called a sage at peace. "
-    },
-    {
-      "number": 214,
-      "pali": "Muni kho pana, bhikkhu, santo na jāyati, na jīyati, na mīyati, na kuppati, na piheti. ",
-      "english": "The sage at peace is not reborn, does not grow old, and does not die. They are not shaken, and do not yearn. "
-    },
-    {
-      "number": 215,
-      "pali": "Tañhissa, bhikkhu, natthi yena jāyetha, ajāyamāno kiṁ jīyissati, ajīyamāno kiṁ mīyissati, amīyamāno kiṁ kuppissati, akuppamāno kissa pihessati? ",
-      "english": "For they have nothing which would cause them to be reborn. Not being reborn, how could they grow old? Not growing old, how could they die? Not dying, how could they be shaken? Not shaking, for what could they yearn? "
-    },
-    {
-      "number": 216,
-      "pali": "‘Yattha ṭhitaṁ maññassavā nappavattanti, maññassave kho pana nappavattamāne muni santoti vuccatī’ti—",
-      "english": "‘Where they stand, the streams of conceiving do not flow. And where the streams of conceiving do not flow, they are called a sage at peace.’ "
-    },
-    {
-      "number": 217,
-      "pali": "iti yaṁ taṁ vuttaṁ, idametaṁ paṭicca vuttaṁ. ",
-      "english": "That’s what I said, and this is why I said it. "
-    },
-    {
-      "number": 218,
-      "pali": "Imaṁ kho me tvaṁ, bhikkhu, saṅkhittena chadhātuvibhaṅgaṁ dhārehī”ti. ",
-      "english": "Mendicant, you should remember this brief analysis of the six elements.” "
-    },
-    {
-      "number": 219,
-      "pali": "Atha kho āyasmā pukkusāti: ",
-      "english": "Then Venerable Pukkusāti thought, "
-    },
-    {
-      "number": 220,
-      "pali": "“satthā kira me anuppatto, sugato kira me anuppatto, sammāsambuddho kira me anuppatto”ti uṭṭhāyāsanā ekaṁsaṁ cīvaraṁ katvā bhagavato pādesu sirasā nipatitvā bhagavantaṁ etadavoca: ",
-      "english": "“It seems the Teacher has come to me! The Holy One has come to me! The fully awakened Buddha has come to me!” He got up from his seat, arranged his robe over one shoulder, bowed with his head at the Buddha’s feet, and said, "
-    },
-    {
-      "number": 221,
-      "pali": "“accayo maṁ, bhante, accagamā yathābālaṁ yathāmūḷhaṁ yathāakusalaṁ, yohaṁ bhagavantaṁ āvusovādena samudācaritabbaṁ amaññissaṁ. ",
-      "english": "“I made a mistake, sir. It was foolish, stupid, and unskillful of me to presume to address the Buddha as ‘reverend’. "
-    },
-    {
-      "number": 222,
-      "pali": "Tassa me, bhante, bhagavā accayaṁ accayato paṭiggaṇhātu āyatiṁ saṁvarāyā”ti. ",
-      "english": "Please, sir, accept my mistake for what it is, so I will restrain myself in future.” "
-    },
-    {
-      "number": 223,
-      "pali": "“Taggha tvaṁ, bhikkhu, accayo accagamā yathābālaṁ yathāmūḷhaṁ yathāakusalaṁ, yaṁ maṁ tvaṁ āvusovādena samudācaritabbaṁ amaññittha. ",
-      "english": "“Indeed, mendicant, you made a mistake. It was foolish, stupid, and unskillful of you to act in that way. "
-    },
-    {
-      "number": 224,
-      "pali": "Yato ca kho tvaṁ, bhikkhu, accayaṁ accayato disvā yathādhammaṁ paṭikarosi, taṁ te mayaṁ paṭiggaṇhāma. ",
-      "english": "But since you have recognized your mistake for what it is, and have dealt with it properly, I accept it. "
-    },
-    {
-      "number": 225,
-      "pali": "Vuddhihesā, bhikkhu, ariyassa vinaye yo accayaṁ accayato disvā yathādhammaṁ paṭikaroti, āyatiṁ saṁvaraṁ āpajjatī”ti. ",
-      "english": "For it is growth in the training of the Noble One to recognize a mistake for what it is, deal with it properly, and commit to restraint in the future.” "
-    },
-    {
-      "number": 226,
-      "pali": "“Labheyyāhaṁ, bhante, bhagavato santike upasampadan”ti. ",
-      "english": "“Sir, may I receive the going forth, the ordination in the Buddha’s presence?” "
-    },
-    {
-      "number": 227,
-      "pali": "“Paripuṇṇaṁ pana te, bhikkhu, pattacīvaran”ti? ",
-      "english": "“But mendicant, do you have a full set of bowl and robes?” "
-    },
-    {
-      "number": 228,
-      "pali": "“Na kho me, bhante, paripuṇṇaṁ pattacīvaran”ti. ",
-      "english": "“No, sir, I do not.” "
-    },
-    {
-      "number": 229,
-      "pali": "“Na kho, bhikkhu, tathāgatā aparipuṇṇapattacīvaraṁ upasampādentī”ti. ",
-      "english": "“The Realized Ones do not ordain those without a full set of bowl and robes.” "
-    },
-    {
-      "number": 230,
-      "pali": "Atha kho āyasmā pukkusāti bhagavato bhāsitaṁ abhinanditvā anumoditvā uṭṭhāyāsanā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā pattacīvarapariyesanaṁ pakkāmi. ",
-      "english": "And then Venerable Pukkusāti approved and agreed with what the Buddha said. He got up from his seat, bowed, and respectfully circled the Buddha, keeping him on his right, before leaving. "
-    },
-    {
-      "number": 231,
-      "pali": "Atha kho āyasmantaṁ pukkusātiṁ pattacīvarapariyesanaṁ carantaṁ vibbhantā gāvī jīvitā voropesi. ",
-      "english": "But while he was wandering in search of a bowl and robes, a stray cow took his life. "
-    },
-    {
-      "number": 232,
-      "pali": "Atha kho sambahulā bhikkhū yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdiṁsu. Ekamantaṁ nisinnā kho te bhikkhū bhagavantaṁ etadavocuṁ: ",
-      "english": "Then several mendicants went up to the Buddha, bowed, sat down to one side, and said to him, "
-    },
-    {
-      "number": 233,
-      "pali": "“yo so, bhante, pukkusāti nāma kulaputto bhagavatā saṅkhittena ovādena ovadito so kālaṅkato. ",
-      "english": "“Sir, the gentleman named Pukkusāti, who was advised in brief by the Buddha, has passed away. "
-    },
-    {
-      "number": 234,
-      "pali": "Tassa kā gati, ko abhisamparāyo”ti? ",
-      "english": "Where has he been reborn in his next life?” "
-    },
-    {
-      "number": 235,
-      "pali": "“Paṇḍito, bhikkhave, pukkusāti kulaputto paccapādi dhammassānudhammaṁ, na ca maṁ dhammādhikaraṇaṁ vihesesi. ",
-      "english": "“Mendicants, Pukkusāti was astute. He practiced in line with the teaching, and did not trouble me about the teachings. "
-    },
-    {
-      "number": 236,
-      "pali": "Pukkusāti, bhikkhave, kulaputto pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko tattha parinibbāyī anāvattidhammo tasmā lokā”ti. ",
-      "english": "With the ending of the five lower fetters, he’s been reborn spontaneously and will become extinguished there, not liable to return from that world.” "
-    },
-    {
-      "number": 237,
-      "pali": "Idamavoca bhagavā. ",
-      "english": "That is what the Buddha said. "
-    },
-    {
-      "number": 238,
-      "pali": "Attamanā te bhikkhū bhagavato bhāsitaṁ abhinandunti. ",
-      "english": "Satisfied, the mendicants approved what the Buddha said. "
-    },
-    {
-      "number": 239,
-      "pali": "Dhātuvibhaṅgasuttaṁ niṭṭhitaṁ dasamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "That is what the Blessed One said. Gratified, the monks delighted in the Blessed One’s words."
     }
   ]
 }

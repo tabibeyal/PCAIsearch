@@ -3,63 +3,83 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 5.151 ",
-      "english": "Numbered Discourses 5.151 "
+      "pali": "Numerical Discourses 5.151",
+      "english": "Numerical Discourses 5.151"
     },
     {
       "number": 2,
-      "pali": "16. Saddhammavagga ",
-      "english": "16. The True Teaching "
+      "pali": "Saddhamma-niyāma Sutta",
+      "english": "Assuredness in the True Dhamma (1)"
     },
     {
       "number": 3,
-      "pali": "Paṭhamasammattaniyāmasutta ",
-      "english": "The Sure Path (1st) "
+      "pali": "",
+      "english": "“Monks, endowed with five qualities, even though listening to the True Dhamma, one is incapable of alighting on the orderliness, on the rightness of skillful qualities. Which five?"
     },
     {
       "number": 4,
-      "pali": "“Pañcahi, bhikkhave, dhammehi samannāgato suṇantopi saddhammaṁ abhabbo niyāmaṁ okkamituṁ kusalesu dhammesu sammattaṁ. ",
-      "english": "“Mendicants, someone with five qualities is unable to step into the sure path with regards to skillful qualities even when listening to the true teaching. "
+      "pali": "",
+      "english": "”One holds the talk in contempt."
     },
     {
       "number": 5,
-      "pali": "Katamehi pañcahi? ",
-      "english": "What five? "
+      "pali": "",
+      "english": "“One holds the speaker in contempt."
     },
     {
       "number": 6,
-      "pali": "Kathaṁ paribhoti, kathikaṁ paribhoti, attānaṁ paribhoti, vikkhittacitto dhammaṁ suṇāti, anekaggacitto ayoniso ca manasi karoti. ",
-      "english": "They disparage the talk, the speaker, or themselves. They listen with scattered and disunified mind. They apply the mind irrationally. "
+      "pali": "",
+      "english": "“One holds oneself in contempt."
     },
     {
       "number": 7,
-      "pali": "Imehi kho, bhikkhave, pañcahi dhammehi samannāgato suṇantopi saddhammaṁ abhabbo niyāmaṁ okkamituṁ kusalesu dhammesu sammattaṁ. ",
-      "english": "Someone with these five qualities is unable to step into the sure path with regards to skillful qualities, even when listening to the true teaching. "
+      "pali": "",
+      "english": "“One listens to the Dhamma with a scattered mind, a mind not gathered into one [anek’agga-citto]."
     },
     {
       "number": 8,
-      "pali": "Pañcahi, bhikkhave, dhammehi samannāgato suṇanto saddhammaṁ bhabbo niyāmaṁ okkamituṁ kusalesu dhammesu sammattaṁ. ",
-      "english": "Someone with five qualities is able to step into the sure path with regards to skillful qualities when listening to the true teaching. "
+      "pali": "",
+      "english": "“One attends inappropriately.”"
     },
     {
       "number": 9,
-      "pali": "Katamehi pañcahi? ",
-      "english": "What five? "
+      "pali": "",
+      "english": "“Endowed with these five qualities, even though listening to the True Dhamma, one is incapable of alighting on the orderliness, on the rightness of skillful qualities."
     },
     {
       "number": 10,
-      "pali": "Na kathaṁ paribhoti, na kathikaṁ paribhoti, na attānaṁ paribhoti, avikkhittacitto dhammaṁ suṇāti, ekaggacitto yoniso ca manasi karoti. ",
-      "english": "They don’t disparage the talk, the speaker, or themselves. They listen with unscattered and unified mind. They apply the mind rationally. "
+      "pali": "",
+      "english": "“Endowed with (the) five (opposite) qualities when listening to the True Dhamma, one is capable of alighting on the orderliness, on the rightness of skillful qualities. Which five?"
     },
     {
       "number": 11,
-      "pali": "Imehi kho, bhikkhave, pañcahi dhammehi samannāgato suṇanto saddhammaṁ bhabbo niyāmaṁ okkamituṁ kusalesu dhammesu sammattan”ti. ",
-      "english": "Someone with these five qualities is able to step into the sure path with regards to skillful qualities when listening to the true teaching.” "
+      "pali": "",
+      "english": "“One doesn’t hold the talk in contempt."
     },
     {
       "number": 12,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“One doesn’t hold the speaker in contempt."
+    },
+    {
+      "number": 13,
+      "pali": "",
+      "english": "“One doesn’t hold oneself in contempt."
+    },
+    {
+      "number": 14,
+      "pali": "",
+      "english": "“One listens to the Dhamma with an unscattered mind, a mind gathered into one [ek’agga-citto]."
+    },
+    {
+      "number": 15,
+      "pali": "",
+      "english": "“One attends appropriately.”"
+    },
+    {
+      "number": 16,
+      "pali": "",
+      "english": "“Endowed with these five qualities when listening to the True Dhamma, one is capable of alighting on the orderliness, on the rightness of skillful qualities.”"
     }
   ]
 }

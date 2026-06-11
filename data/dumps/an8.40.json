@@ -3,133 +3,53 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 8.40 ",
-      "english": "Numbered Discourses 8.40 "
+      "pali": "Numerical Discourses 8.40",
+      "english": "Numerical Discourses 8.40"
     },
     {
       "number": 2,
-      "pali": "4. Dānavagga ",
-      "english": "4. Giving "
+      "pali": "Vipāka Sutta",
+      "english": "Results"
     },
     {
       "number": 3,
-      "pali": "Duccaritavipākasutta ",
-      "english": "The Results of Misconduct "
+      "pali": "",
+      "english": "“Monks, the taking of life—when indulged in, developed, & pursued—is something that leads to hell, leads to rebirth as a common animal, leads to the realm of the hungry ghosts. The slightest of all the results coming from the taking of life is that, when one becomes a human being, it leads to a short life span."
     },
     {
       "number": 4,
-      "pali": "“Pāṇātipāto, bhikkhave, āsevito bhāvito bahulīkato nirayasaṁvattaniko tiracchānayonisaṁvattaniko pettivisayasaṁvattaniko. ",
-      "english": "“Mendicants, the killing of living creatures, when cultivated, developed, and practiced, leads to hell, the animal realm, or the ghost realm. "
+      "pali": "",
+      "english": "“Stealing—when indulged in, developed, & pursued—is something that leads to hell, leads to rebirth as a common animal, leads to the realm of the hungry ghosts. The slightest of all the results coming from stealing is that, when one becomes a human being, it leads to the loss of one’s wealth."
     },
     {
       "number": 5,
-      "pali": "Yo sabbalahuso pāṇātipātassa vipāko, manussabhūtassa appāyukasaṁvattaniko hoti. ",
-      "english": "The minimum result it leads to for a human being is a short lifespan. "
+      "pali": "",
+      "english": "“Sexual misconduct—when indulged in, developed, & pursued—is something that leads to hell, leads to rebirth as a common animal, leads to the realm of the hungry ghosts. The slightest of all the results coming from sexual misconduct is that, when one becomes a human being, it leads to rivalry & revenge."
     },
     {
       "number": 6,
-      "pali": "Adinnādānaṁ, bhikkhave, āsevitaṁ bhāvitaṁ bahulīkataṁ nirayasaṁvattanikaṁ tiracchānayonisaṁvattanikaṁ pettivisayasaṁvattanikaṁ. ",
-      "english": "Stealing, when cultivated, developed, and practiced, leads to hell, the animal realm, or the ghost realm. "
+      "pali": "",
+      "english": "“Lying—when indulged in, developed, & pursued—is something that leads to hell, leads to rebirth as a common animal, leads to the realm of the hungry ghosts. The slightest of all the results coming from lying is that, when one becomes a human being, it leads to being falsely accused."
     },
     {
       "number": 7,
-      "pali": "Yo sabbalahuso adinnādānassa vipāko, manussabhūtassa bhogabyasanasaṁvattaniko hoti. ",
-      "english": "The minimum result it leads to for a human being is loss of wealth. "
+      "pali": "",
+      "english": "“Divisive speech—when indulged in, developed, & pursued—is something that leads to hell, leads to rebirth as a common animal, leads to the realm of the hungry ghosts. The slightest of all the results coming from divisive speech is that, when one becomes a human being, it leads to the breaking of one’s friendships."
     },
     {
       "number": 8,
-      "pali": "Kāmesumicchācāro, bhikkhave, āsevito bhāvito bahulīkato nirayasaṁvattaniko tiracchānayonisaṁvattaniko pettivisayasaṁvattaniko. ",
-      "english": "Sexual misconduct, when cultivated, developed, and practiced, leads to hell, the animal realm, or the ghost realm. "
+      "pali": "",
+      "english": "“Harsh speech—when indulged in, developed, & pursued—is something that leads to hell, leads to rebirth as a common animal, leads to the realm of the hungry ghosts. The slightest of all the results coming from harsh speech is that, when one becomes a human being, it leads to unappealing sounds."
     },
     {
       "number": 9,
-      "pali": "Yo sabbalahuso kāmesumicchācārassa vipāko, manussabhūtassa sapattaverasaṁvattaniko hoti. ",
-      "english": "The minimum result it leads to for a human being is rivalry and enmity. "
+      "pali": "",
+      "english": "“Idle chatter—when indulged in, developed, & pursued—is something that leads to hell, leads to rebirth as a common animal, leads to the realm of the hungry ghosts. The slightest of all the results coming from idle chatter is that, when one becomes a human being, it leads to words that aren’t worth taking to heart."
     },
     {
       "number": 10,
-      "pali": "Musāvādo, bhikkhave, āsevito bhāvito bahulīkato nirayasaṁvattaniko tiracchānayonisaṁvattaniko pettivisayasaṁvattaniko. ",
-      "english": "Lying, when cultivated, developed, and practiced, leads to hell, the animal realm, or the ghost realm. "
-    },
-    {
-      "number": 11,
-      "pali": "Yo sabbalahuso musāvādassa vipāko, manussabhūtassa abhūtabbhakkhānasaṁvattaniko hoti. ",
-      "english": "The minimum result it leads to for a human being is false accusations. "
-    },
-    {
-      "number": 12,
-      "pali": "Pisuṇā, bhikkhave, vācā āsevitā bhāvitā bahulīkatā nirayasaṁvattanikā tiracchānayonisaṁvattanikā pettivisayasaṁvattanikā. ",
-      "english": "Backbiting, when cultivated, developed, and practiced, leads to hell, the animal realm, or the ghost realm. "
-    },
-    {
-      "number": 13,
-      "pali": "Yo sabbalahuso pisuṇāya vācāya vipāko, manussabhūtassa mittehi bhedanasaṁvattaniko hoti. ",
-      "english": "The minimum result it leads to for a human being is being divided against friends. "
-    },
-    {
-      "number": 14,
-      "pali": "Pharusā, bhikkhave, vācā āsevitā bhāvitā bahulīkatā nirayasaṁvattanikā tiracchānayonisaṁvattanikā pettivisayasaṁvattanikā. ",
-      "english": "Harsh speech, when cultivated, developed, and practiced, leads to hell, the animal realm, or the ghost realm. "
-    },
-    {
-      "number": 15,
-      "pali": "Yo sabbalahuso pharusāya vācāya vipāko, manussabhūtassa amanāpasaddasaṁvattaniko hoti. ",
-      "english": "The minimum result it leads to for a human being is hearing disagreeable things. "
-    },
-    {
-      "number": 16,
-      "pali": "Samphappalāpo, bhikkhave, āsevito bhāvito bahulīkato nirayasaṁvattaniko tiracchānayonisaṁvattaniko pettivisayasaṁvattaniko. ",
-      "english": "Talking nonsense, when cultivated, developed, and practiced, leads to hell, the animal realm, or the ghost realm. "
-    },
-    {
-      "number": 17,
-      "pali": "Yo sabbalahuso samphappalāpassa vipāko, manussabhūtassa anādeyyavācāsaṁvattaniko hoti. ",
-      "english": "The minimum result it leads to for a human being is that no-one takes what you say seriously. "
-    },
-    {
-      "number": 18,
-      "pali": "Surāmerayapānaṁ, bhikkhave, āsevitaṁ bhāvitaṁ bahulīkataṁ nirayasaṁvattanikaṁ tiracchānayonisaṁvattanikaṁ pettivisayasaṁvattanikaṁ. ",
-      "english": "Drinking beer and wine, when cultivated, developed, and practiced, leads to hell, the animal realm, or the ghost realm. "
-    },
-    {
-      "number": 19,
-      "pali": "Yo sabbalahuso surāmerayapānassa vipāko, manussabhūtassa ummattakasaṁvattaniko hotī”ti. ",
-      "english": "The minimum result it leads to for a human being is madness.” "
-    },
-    {
-      "number": 20,
-      "pali": "Dasamaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 21,
-      "pali": "Dānavaggo catuttho. ",
-      "english": ""
-    },
-    {
-      "number": 22,
-      "pali": "Tassuddānaṁ ",
-      "english": ""
-    },
-    {
-      "number": 23,
-      "pali": "Dve dānāni vatthuñca, ",
-      "english": ""
-    },
-    {
-      "number": 24,
-      "pali": "khettaṁ dānūpapattiyo; ",
-      "english": ""
-    },
-    {
-      "number": 25,
-      "pali": "Kiriyaṁ dve sappurisā, ",
-      "english": ""
-    },
-    {
-      "number": 26,
-      "pali": "abhisando vipāko cāti. ",
-      "english": ""
+      "pali": "",
+      "english": "“The drinking of fermented & distilled liquors—when indulged in, developed, & pursued—is something that leads to hell, leads to rebirth as a common animal, leads to the realm of the hungry ghosts. The slightest of all the results coming from drinking fermented & distilled liquors is that, when one becomes a human being, it leads to mental derangement.”"
     }
   ]
 }

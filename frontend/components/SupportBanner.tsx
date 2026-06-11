@@ -62,7 +62,7 @@ export function SupportBanner() {
     >
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 px-6 text-sm text-gray-500">
         <p className="text-center sm:text-left">
-          This tool runs on a free AI model, but hosting and infrastructure still cost money.
+          This tool runs on a free AI model, but server hosting still costs money.
           If this tool is useful to you, consider supporting it.
         </p>
         <a

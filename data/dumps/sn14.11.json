@@ -3,113 +3,38 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 14.11 ",
-      "english": "Linked Discourses 14.11 "
+      "pali": "Linked Discourses 14.11",
+      "english": "Linked Discourses 14.11"
     },
     {
       "number": 2,
-      "pali": "2. Dutiyavagga ",
-      "english": "Chapter Two "
+      "pali": "Sattadhātu Sutta",
+      "english": "Seven Properties"
     },
     {
       "number": 3,
-      "pali": "Sattadhātusutta ",
-      "english": "Seven Elements "
+      "pali": "",
+      "english": "Near Sāvatthī. “Monks, there are these seven properties. Which seven? The property of light, the property of beauty, the property of the dimension of the infinitude of space, the property of the dimension of the infinitude of consciousness, the property of the dimension of nothingness, the property of the dimension of neither perception nor non-perception, the property of the cessation of feeling & perception. These are the seven properties.”"
     },
     {
       "number": 4,
-      "pali": "Sāvatthiyaṁ viharati. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "When this was said, a certain monk addressed the Blessed One: “Lord, with regard to the property of light… the property of the cessation of feeling & perception: In dependence on what are these properties discerned?”"
     },
     {
       "number": 5,
-      "pali": "“Sattimā, bhikkhave, dhātuyo. ",
-      "english": "“Mendicants, there are these seven elements. "
+      "pali": "",
+      "english": "“Monk, the property of light is discerned in dependence on darkness. The property of beauty is discerned in dependence on the unattractive. The property of the dimension of the infinitude of space is discerned in dependence on form. The property of the dimension of the infinitude of consciousness is discerned in dependence on the dimension of the infinitude of space. The property of the dimension of nothingness is discerned in dependence on the dimension of the infinitude of consciousness. The property of the dimension of neither perception nor non-perception is discerned in dependence on the dimension of nothingness. The property of the cessation of feeling & perception is discerned in dependence on cessation.”"
     },
     {
       "number": 6,
-      "pali": "Katamā satta? ",
-      "english": "What seven? "
+      "pali": "",
+      "english": "“But, lord, with regard to the property of light... the property of the cessation of feeling & perception: How is the attainment of these properties to be reached?”"
     },
     {
       "number": 7,
-      "pali": "Ābhādhātu, subhadhātu, ākāsānañcāyatanadhātu, viññāṇañcāyatanadhātu, ākiñcaññāyatanadhātu, nevasaññānāsaññāyatanadhātu, saññāvedayitanirodhadhātu—",
-      "english": "The element of luminosity, the element of beauty, the element of the dimension of infinite space, the element of the dimension of infinite consciousness, the element of the dimension of nothingness, the element of the dimension of neither perception nor non-perception, and the element of the cessation of perception and feeling. "
-    },
-    {
-      "number": 8,
-      "pali": "imā kho, bhikkhave, satta dhātuyo”ti. ",
-      "english": "These are the seven elements.” "
-    },
-    {
-      "number": 9,
-      "pali": "Evaṁ vutte, aññataro bhikkhu bhagavantaṁ etadavoca: ",
-      "english": "When he said this, one of the mendicants asked the Buddha, "
-    },
-    {
-      "number": 10,
-      "pali": "“yā cāyaṁ, bhante, ābhādhātu yā ca subhadhātu yā ca ākāsānañcāyatanadhātu yā ca viññāṇañcāyatanadhātu yā ca ākiñcaññāyatanadhātu yā ca nevasaññānāsaññāyatanadhātu yā ca saññāvedayitanirodhadhātu—imā nu kho, bhante, dhātuyo kiṁ paṭicca paññāyantī”ti? ",
-      "english": "“Sir, due to what does each of these elements appear?” "
-    },
-    {
-      "number": 11,
-      "pali": "“Yāyaṁ, bhikkhu, ābhādhātu—ayaṁ dhātu andhakāraṁ paṭicca paññāyati. ",
-      "english": "“Mendicant, the element of light appears due to the element of darkness. "
-    },
-    {
-      "number": 12,
-      "pali": "Yāyaṁ, bhikkhu, subhadhātu—ayaṁ dhātu asubhaṁ paṭicca paññāyati. ",
-      "english": "The element of beauty appears due to the element of ugliness. "
-    },
-    {
-      "number": 13,
-      "pali": "Yāyaṁ, bhikkhu, ākāsānañcāyatanadhātu—ayaṁ dhātu rūpaṁ paṭicca paññāyati. ",
-      "english": "The element of the dimension of infinite space appears due to the element of form. "
-    },
-    {
-      "number": 14,
-      "pali": "Yāyaṁ, bhikkhu, viññāṇañcāyatanadhātu—ayaṁ dhātu ākāsānañcāyatanaṁ paṭicca paññāyati. ",
-      "english": "The element of the dimension of infinite consciousness appears due to the element of the dimension of infinite space. "
-    },
-    {
-      "number": 15,
-      "pali": "Yāyaṁ, bhikkhu, ākiñcaññāyatanadhātu—ayaṁ dhātu viññāṇañcāyatanaṁ paṭicca paññāyati. ",
-      "english": "The element of the dimension of nothingness appears due to the element of the dimension of infinite consciousness. "
-    },
-    {
-      "number": 16,
-      "pali": "Yāyaṁ, bhikkhu, nevasaññānāsaññāyatanadhātu—ayaṁ dhātu ākiñcaññāyatanaṁ paṭicca paññāyati. ",
-      "english": "The element of the dimension of neither perception nor non-perception appears due to the element of the dimension of nothingness. "
-    },
-    {
-      "number": 17,
-      "pali": "Yāyaṁ, bhikkhu, saññāvedayitanirodhadhātu—ayaṁ dhātu nirodhaṁ paṭicca paññāyatī”ti. ",
-      "english": "The element of the cessation of perception and feeling appears due to the element of cessation.” "
-    },
-    {
-      "number": 18,
-      "pali": "“Yā cāyaṁ, bhante, ābhādhātu yā ca subhadhātu yā ca ākāsānañcāyatanadhātu yā ca viññāṇañcāyatanadhātu yā ca ākiñcaññāyatanadhātu yā ca nevasaññānāsaññāyatanadhātu yā ca saññāvedayitanirodhadhātu—imā nu kho, bhante, dhātuyo kathaṁ samāpatti pattabbā”ti? ",
-      "english": "“Sir, how is each of these elements to be attained?” "
-    },
-    {
-      "number": 19,
-      "pali": "“Yā cāyaṁ, bhikkhu, ābhādhātu yā ca subhadhātu yā ca ākāsānañcāyatanadhātu yā ca viññāṇañcāyatanadhātu yā ca ākiñcaññāyatanadhātu—imā dhātuyo saññāsamāpatti pattabbā. ",
-      "english": "“The elements of light, beauty, the dimension of infinite space, the dimension of infinite consciousness, and the dimension of nothingness are attainments with perception. "
-    },
-    {
-      "number": 20,
-      "pali": "Yāyaṁ, bhikkhu, nevasaññānāsaññāyatanadhātu—ayaṁ dhātu saṅkhārāvasesasamāpatti pattabbā. ",
-      "english": "The element of the dimension of neither perception nor non-perception is an attainment with residual conditioned phenomena. "
-    },
-    {
-      "number": 21,
-      "pali": "Yāyaṁ, bhikkhu, saññāvedayitanirodhadhātu—ayaṁ dhātu nirodhasamāpatti pattabbā”ti. ",
-      "english": "The element of the cessation of perception and feeling is an attainment of cessation.” "
-    },
-    {
-      "number": 22,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Monk, the property of light, the property of beauty, the property of the dimension of the infinitude of space, the property of the dimension of the infinitude of consciousness, the property of the dimension of nothingness: These properties are to be reached as perception attainments. The property of the dimension of neither perception nor non-perception is to be reached as a remnant-of-fabrications attainment. The property of the cessation of feeling & perception is to be reached as a cessation attainment.”"
     }
   ]
 }

@@ -3,108 +3,83 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 108 ",
-      "english": "So It Was Said 108 "
+      "pali": "Itivuttaka 108",
+      "english": "Itivuttaka 108"
     },
     {
       "number": 2,
-      "pali": "Catukkanipāta ",
-      "english": "The Book of the Fours "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Brāhmaṇadhammayāgavagga ",
-      "english": "The Chapter on the Brahmin’s Offering of the Teaching "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, any monks who are deceitful, stubborn, talkers, frauds, arrogant, & uncentered are not followers of mine. They have turned away from this Dhamma-&-Vinaya. They attain, in terms of this Dhamma-&-Vinaya, no growth, increase, or abundance."
     },
     {
       "number": 4,
-      "pali": "Kuhasutta ",
-      "english": "Deceivers "
+      "pali": "",
+      "english": "“But any monks who are not deceitful, not talkers, who are enlightened, pliant, & well-centered: they are followers of mine. They have not turned away from this Dhamma-&-Vinaya. They attain, in terms of this Dhamma-&-Vinaya, growth, increase, & abundance."
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "Deceitful, stubborn, talkers, frauds,"
     },
     {
       "number": 6,
-      "pali": "“Ye keci, bhikkhave, bhikkhū kuhā thaddhā lapā siṅgī unnaḷā asamāhitā, na me te, bhikkhave, bhikkhū māmakā. ",
-      "english": "“Mendicants, those mendicants who are deceivers and flatterers, pompous and fake, insolent and scattered: those mendicants are no followers of mine. "
+      "pali": "",
+      "english": "arrogant, uncentered:"
     },
     {
       "number": 7,
-      "pali": "Apagatā ca te, bhikkhave, bhikkhū imasmā dhammavinayā; na ca te imasmiṁ dhammavinaye vuddhiṁ virūḷhiṁ vepullaṁ āpajjanti. ",
-      "english": "They’ve left this teaching and training, and they don’t achieve growth, improvement, or maturity in this teaching and training. "
+      "pali": "",
+      "english": "they don’t grow in the Dhamma"
     },
     {
       "number": 8,
-      "pali": "Ye ca kho, bhikkhave, bhikkhū nikkuhā nillapā dhīrā atthaddhā susamāhitā, te kho me, bhikkhave, bhikkhū māmakā. ",
-      "english": "But those mendicants who are genuine, not flatterers, attentive, amenable, and serene: those mendicants are followers of mine. "
+      "pali": "",
+      "english": "taught by the Rightly"
     },
     {
       "number": 9,
-      "pali": "Anapagatā ca te, bhikkhave, bhikkhū imasmā dhammavinayā; te ca imasmiṁ dhammavinaye vuddhiṁ virūḷhiṁ vepullaṁ āpajjantī”ti. ",
-      "english": "They haven’t left this teaching and training, and they do achieve growth, improvement, or maturity in this teaching and training.” "
+      "pali": "",
+      "english": "Self-awakened One."
     },
     {
       "number": 10,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "Not deceitful, not talkers,"
     },
     {
       "number": 11,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "enlightened, pliant,"
     },
     {
       "number": 12,
-      "pali": "“Kuhā thaddhā lapā siṅgī, ",
-      "english": "“Those who are deceivers and flatterers, <j>pompous and fake, "
+      "pali": "",
+      "english": "well-centered:"
     },
     {
       "number": 13,
-      "pali": "unnaḷā asamāhitā; ",
-      "english": "insolent and scattered: "
+      "pali": "",
+      "english": "they grow in the Dhamma"
     },
     {
       "number": 14,
-      "pali": "Na te dhamme virūhanti, ",
-      "english": "these don’t grow in the teaching "
+      "pali": "",
+      "english": "taught by the One"
     },
     {
       "number": 15,
-      "pali": "sammāsambuddhadesite. ",
-      "english": "that was taught by the perfected Buddha. "
+      "pali": "",
+      "english": "Rightly"
     },
     {
       "number": 16,
-      "pali": "Nikkuhā nillapā dhīrā, ",
-      "english": "But those who are genuine, not flatterers, attentive, "
-    },
-    {
-      "number": 17,
-      "pali": "atthaddhā susamāhitā; ",
-      "english": "amenable, and serene: "
-    },
-    {
-      "number": 18,
-      "pali": "Te ve dhamme virūhanti, ",
-      "english": "these do grow in the teaching "
-    },
-    {
-      "number": 19,
-      "pali": "sammāsambuddhadesite”ti. ",
-      "english": "that was taught by the perfected Buddha.” "
-    },
-    {
-      "number": 20,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 21,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "Self-awakened."
     }
   ]
 }

@@ -3,178 +3,73 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 2 ",
-      "english": "Numbered Discourses 2.1–10 "
+      "pali": "Numerical Discourses 2.1",
+      "english": "Numerical Discourses 2.1"
     },
     {
       "number": 2,
-      "pali": "1. Kammakaraṇavagga ",
-      "english": "The Chapter on Punishments "
+      "pali": "Vajja Sutta",
+      "english": "Penalties"
     },
     {
       "number": 3,
-      "pali": "1. Vajjasutta ",
-      "english": "1. Faults "
+      "pali": "",
+      "english": "I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta's Grove, Anāthapiṇḍika’s monastery. There he addressed the monks: “Monks!”"
     },
     {
       "number": 4,
-      "pali": "Evaṁ me sutaṁ—",
-      "english": "So I have heard. "
+      "pali": "",
+      "english": "“Yes, lord,” the monks responded to him."
     },
     {
       "number": 5,
-      "pali": "ekaṁ samayaṁ bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme. ",
-      "english": "At one time the Buddha was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. "
+      "pali": "",
+      "english": "The Blessed One said, “Monks, there are these two penalties. Which two? Penalties in the present life and penalties in lives to come."
     },
     {
       "number": 6,
-      "pali": "Tatra kho bhagavā bhikkhū āmantesi: ",
-      "english": "There the Buddha addressed the mendicants, "
+      "pali": "",
+      "english": "“And which are penalties in the present life? There is the case where a certain person sees a thief, a criminal, who, when captured by a king, they torture in many ways. They flog him with whips, beat him with canes, beat him with clubs; they cut off his hands, cut off his feet, cut off his hands & feet; they cut off his ears, cut off his nose, cut off his ears & nose; they subject him to the ‘porridge pot,’ the ‘polished-shell shave,’ the ‘Rāhu’s mouth,’ the ‘flaming garland,’ the ‘blazing hand,’ the ‘grass-duty (ascetic),’ the ‘bark-dress (ascetic),’ the ‘burning antelope,’ the ‘meat hooks,’ the ‘coin-gouging,’ the ‘lye pickling,’ the ‘pivot on a stake,’ the ‘rolled-up bed’; they have him splashed with boiling oil, devoured by dogs, impaled alive on stakes; they have his head cut off with a sword."
     },
     {
       "number": 7,
-      "pali": "“bhikkhavo”ti. ",
-      "english": "“Mendicants!” "
+      "pali": "",
+      "english": "“The thought occurs to him [the first man], ‘It’s because of these sorts of evil actions that when a thief, a criminal, is captured by a king, they torture him in many ways. They flog him with whips … they have his head cut off with a sword. And if I were to do this sort of evil action and I, too, were captured by a king, they would torture me in many ways. They would flog me with whips … they would have my head cut off with a sword.’"
     },
     {
       "number": 8,
-      "pali": "“Bhadante”ti te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Venerable sir,” they replied. "
+      "pali": "",
+      "english": "“So, fearing penalties in the present life, he doesn’t go around plundering the belongings of others."
     },
     {
       "number": 9,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
+      "pali": "",
+      "english": "“These, monks, are called penalties in the present life."
     },
     {
       "number": 10,
-      "pali": "“Dvemāni, bhikkhave, vajjāni. ",
-      "english": "“There are, mendicants, these two faults. "
+      "pali": "",
+      "english": "“And which are penalties in lives to come?"
     },
     {
       "number": 11,
-      "pali": "Katamāni dve? ",
-      "english": "What two? "
+      "pali": "",
+      "english": "“There is the case where a certain man considers, ‘Bodily misconduct has an evil result in a life to come. Verbal misconduct has an evil result in a life to come. Mental misconduct has an evil result in a life to come. If I were to engage in bodily misconduct, verbal misconduct, & mental misconduct, then how could I not—on the break-up of the body, after death—re-appear in a plane of deprivation, a bad destination, a lower realm, in hell?’"
     },
     {
       "number": 12,
-      "pali": "Diṭṭhadhammikañca vajjaṁ samparāyikañca vajjaṁ. ",
-      "english": "The fault apparent in this life, and the fault to do with lives to come. "
+      "pali": "",
+      "english": "“So, fearing penalties in lives to come, he abandons bodily misconduct and develops right bodily conduct. He abandons verbal misconduct and develops right verbal conduct. He abandons mental misconduct and develops right mental conduct. He keeps himself pure."
     },
     {
       "number": 13,
-      "pali": "Katamañca, bhikkhave, diṭṭhadhammikaṁ vajjaṁ? ",
-      "english": "What is the fault apparent in this life? "
+      "pali": "",
+      "english": "“These, monks, are called penalties in lives to come."
     },
     {
       "number": 14,
-      "pali": "Idha, bhikkhave, ekacco passati coraṁ āgucāriṁ rājāno gahetvā vividhā kammakāraṇā kārente; ",
-      "english": "It’s when someone sees that kings have arrested a bandit, a criminal, and subjected them to various punishments—"
-    },
-    {
-      "number": 15,
-      "pali": "kasāhipi tāḷente, vettehipi tāḷente, addhadaṇḍakehipi tāḷente, hatthampi chindante, pādampi chindante, hatthapādampi chindante, kaṇṇampi chindante, nāsampi chindante, kaṇṇanāsampi chindante, bilaṅgathālikampi karonte, saṅkhamuṇḍikampi karonte, rāhumukhampi karonte, jotimālikampi karonte, hatthapajjotikampi karonte, erakavattikampi karonte, cīrakavāsikampi karonte, eṇeyyakampi karonte, baḷisamaṁsikampi karonte, kahāpaṇikampi karonte, khārāpatacchikampi karonte, palighaparivattikampi karonte, palālapīṭhakampi karonte, tattenapi telena osiñcante, sunakhehipi khādāpente, jīvantampi sūle uttāsente, asināpi sīsaṁ chindante. ",
-      "english": "whipping, caning, and clubbing; cutting off hands or feet, or both; cutting off ears or nose, or both; the ‘porridge pot’, the ‘shell-shave’, the ‘Rāhu’s mouth’, the ‘garland of fire’, the ‘burning hand’, the ‘bulrush twist’, the ‘bark dress’, the ‘antelope’, the ‘meat hook’, the ‘coins’, the ‘caustic pickle’, the ‘twisting bar’, the ‘straw mat’; being splashed with hot oil, being fed to the hounds, being impaled alive, and being beheaded. "
-    },
-    {
-      "number": 16,
-      "pali": "Tassa evaṁ hoti: ",
-      "english": "It occurs to them: "
-    },
-    {
-      "number": 17,
-      "pali": "‘yathārūpānaṁ kho pāpakānaṁ kammānaṁ hetu coraṁ āgucāriṁ rājāno gahetvā vividhā kammakāraṇā kārenti; ",
-      "english": "‘If I were to commit the kinds of bad deeds for which the kings arrested that bandit, that criminal, "
-    },
-    {
-      "number": 18,
-      "pali": "kasāhipi tāḷenti, vettehipi tāḷenti, addhadaṇḍakehipi tāḷenti, hatthampi chindanti, pādampi chindanti, hatthapādampi chindanti, kaṇṇampi chindanti, nāsampi chindanti, kaṇṇanāsampi chindanti, bilaṅgathālikampi karonti, saṅkhamuṇḍikampi karonti, rāhumukhampi karonti, jotimālikampi karonti, hatthapajjotikampi karonti, erakavattikampi karonti, cīrakavāsikampi karonti, eṇeyyakampi karonti, baḷisamaṁsikampi karonti, kahāpaṇikampi karonti, khārāpatacchikampi karonti, palighaparivattikampi karonti, palālapīṭhakampi karonti, tattenapi telena osiñcanti, sunakhehipi khādāpenti, jīvantampi sūle uttāsenti, asināpi sīsaṁ chindanti. ",
-      "english": ""
-    },
-    {
-      "number": 19,
-      "pali": "Ahañceva kho pana evarūpaṁ pāpakammaṁ kareyyaṁ, mampi rājāno gahetvā evarūpā vividhā kammakāraṇā kāreyyuṁ; ",
-      "english": "the rulers would arrest me and subject me to the same punishments. "
-    },
-    {
-      "number": 20,
-      "pali": "kasāhipi tāḷeyyuṁ …pe… asināpi sīsaṁ chindeyyun’ti. ",
-      "english": ""
-    },
-    {
-      "number": 21,
-      "pali": "So diṭṭhadhammikassa vajjassa bhīto na paresaṁ pābhataṁ vilumpanto carati. ",
-      "english": "Afraid of the fault apparent in this life, they do not steal the belongings of others. "
-    },
-    {
-      "number": 22,
-      "pali": "Idaṁ vuccati, bhikkhave, diṭṭhadhammikaṁ vajjaṁ. ",
-      "english": "This is called the fault apparent in this life. "
-    },
-    {
-      "number": 23,
-      "pali": "Katamañca, bhikkhave, samparāyikaṁ vajjaṁ? ",
-      "english": "What is the fault to do with lives to come? "
-    },
-    {
-      "number": 24,
-      "pali": "Idha, bhikkhave, ekacco iti paṭisañcikkhati: ",
-      "english": "It’s when someone reflects: "
-    },
-    {
-      "number": 25,
-      "pali": "‘kāyaduccaritassa kho pana pāpako dukkho vipāko abhisamparāyaṁ, vacīduccaritassa pāpako dukkho vipāko abhisamparāyaṁ, manoduccaritassa pāpako dukkho vipāko abhisamparāyaṁ. ",
-      "english": "‘Bad conduct of body, speech, or mind has a bad, painful result in the next life. "
-    },
-    {
-      "number": 26,
-      "pali": "Ahañceva kho pana kāyena duccaritaṁ careyyaṁ, vācāya duccaritaṁ careyyaṁ, manasā duccaritaṁ careyyaṁ. ",
-      "english": "If I conduct myself badly, "
-    },
-    {
-      "number": 27,
-      "pali": "Kiñca taṁ yāhaṁ na kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjeyyan’ti. ",
-      "english": "then, when my body breaks up, after death, won’t I be reborn in a place of loss, a bad place, the underworld, hell?’ "
-    },
-    {
-      "number": 28,
-      "pali": "So samparāyikassa vajjassa bhīto kāyaduccaritaṁ pahāya kāyasucaritaṁ bhāveti, vacīduccaritaṁ pahāya vacīsucaritaṁ bhāveti, manoduccaritaṁ pahāya manosucaritaṁ bhāveti, suddhaṁ attānaṁ pariharati. ",
-      "english": "Afraid of the fault to do with lives to come, they give up bad conduct by way of body, speech, and mind, and develop good conduct by way of body, speech, and mind, keeping themselves pure. "
-    },
-    {
-      "number": 29,
-      "pali": "Idaṁ vuccati, bhikkhave, samparāyikaṁ vajjaṁ. ",
-      "english": "This is called the fault to do with lives to come. "
-    },
-    {
-      "number": 30,
-      "pali": "Imāni kho, bhikkhave, dve vajjāni. ",
-      "english": "These are the two faults. "
-    },
-    {
-      "number": 31,
-      "pali": "Tasmātiha, bhikkhave, evaṁ sikkhitabbaṁ: ",
-      "english": "So you should train like this: "
-    },
-    {
-      "number": 32,
-      "pali": "‘diṭṭhadhammikassa vajjassa bhāyissāma, samparāyikassa vajjassa bhāyissāma, vajjabhīruno bhavissāma vajjabhayadassāvino’ti. ",
-      "english": "‘We will fear the fault apparent in this life, and we will fear the fault to do with lives to come. We will fear faults, seeing the danger in faults.’ "
-    },
-    {
-      "number": 33,
-      "pali": "Evañhi vo, bhikkhave, sikkhitabbaṁ. ",
-      "english": "That’s how you should train. "
-    },
-    {
-      "number": 34,
-      "pali": "Vajjabhīruno, bhikkhave, vajjabhayadassāvino etaṁ pāṭikaṅkhaṁ yaṁ parimuccissati sabbavajjehī”ti. ",
-      "english": "If you fear faults, seeing the danger in faults, you can expect to be freed from all faults.” "
-    },
-    {
-      "number": 35,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Therefore, monks, you should train yourselves: ‘We will fear penalties in the present life. We will fear penalties in lives to come. We will be wary of penalties, seeing danger in penalties.’ That’s how you should train yourselves. It is to be expected of one who is wary of penalties, who sees danger in penalties, that he will be released from all penalties.”"
     }
   ]
 }

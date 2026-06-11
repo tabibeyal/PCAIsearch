@@ -3,103 +3,63 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 3.77 ",
-      "english": "Numbered Discourses 3.77 "
+      "pali": "Numerical Discourses 3.77",
+      "english": "Numerical Discourses 3.77"
     },
     {
       "number": 2,
-      "pali": "8. Ānandavagga ",
-      "english": "8. Ānanda "
+      "pali": "Bhava Sutta",
+      "english": "Becoming (1)"
     },
     {
       "number": 3,
-      "pali": "Dutiyabhavasutta ",
-      "english": "Continued Existence (2nd) "
+      "pali": "",
+      "english": "Then Ven. Ānanda went to the Blessed One and, on arrival, bowed down to him and sat to one side. As he was sitting there he said to the Blessed One, “Lord, this word, ‘becoming, becoming’—to what extent is there becoming?”"
     },
     {
       "number": 4,
-      "pali": "Atha kho āyasmā ānando yena bhagavā tenupasaṅkami …pe… āyasmā ānando bhagavantaṁ etadavoca: ",
-      "english": "Then Venerable Ānanda went up to the Buddha, bowed, sat down to one side, and said to him: "
+      "pali": "",
+      "english": "“Ānanda, if there were no kamma ripening in the sensuality-property, would sensuality-becoming be discerned?”"
     },
     {
       "number": 5,
-      "pali": "“bhavo, bhavoti, bhante, vuccati. ",
-      "english": "“Sir, they speak of this thing called ‘continued existence’. "
+      "pali": "",
+      "english": "“No, lord.”"
     },
     {
       "number": 6,
-      "pali": "Kittāvatā nu kho, bhante, bhavo hotī”ti? ",
-      "english": "How is continued existence defined?” "
+      "pali": "",
+      "english": "“Thus kamma is the field, consciousness the seed, and craving the moisture. The consciousness of living beings hindered by ignorance & fettered by craving is established in/tuned to a lower property. Thus there is the production of renewed becoming in the future."
     },
     {
       "number": 7,
-      "pali": "“Kāmadhātuvepakkañca, ānanda, kammaṁ nābhavissa, api nu kho kāmabhavo paññāyethā”ti? ",
-      "english": "“If, Ānanda, there were no deeds to result in the sensual realm, would continued existence in the sensual realm still come about?” "
+      "pali": "",
+      "english": "“If there were no kamma ripening in the form-property, would form-becoming be discerned?”"
     },
     {
       "number": 8,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
+      "pali": "",
+      "english": "“No, lord.”"
     },
     {
       "number": 9,
-      "pali": "“Iti kho, ānanda, kammaṁ khettaṁ, viññāṇaṁ bījaṁ, taṇhā sneho. ",
-      "english": "“So, Ānanda, deeds are the field, consciousness is the seed, and craving is the moisture. "
+      "pali": "",
+      "english": "“Thus kamma is the field, consciousness the seed, and craving the moisture. The consciousness of living beings hindered by ignorance & fettered by craving is established in/tuned to a middling property. Thus there is the production of renewed becoming in the future."
     },
     {
       "number": 10,
-      "pali": "Avijjānīvaraṇānaṁ sattānaṁ taṇhāsaṁyojanānaṁ hīnāya dhātuyā cetanā patiṭṭhitā patthanā patiṭṭhitā evaṁ āyatiṁ punabbhavābhinibbatti hoti. ",
-      "english": "The intention and aim of sentient beings—shrouded by ignorance and fettered by craving—is established in a lower realm. That’s how there is regeneration into a new state of existence in the future. "
+      "pali": "",
+      "english": "“If there were no kamma ripening in the formless-property, would formless-becoming be discerned?”"
     },
     {
       "number": 11,
-      "pali": "Rūpadhātuvepakkañca, ānanda, kammaṁ nābhavissa, api nu kho rūpabhavo paññāyethā”ti? ",
-      "english": "If there were no deeds to result in the realm of luminous form, would continued existence in the realm of luminous form still come about?” "
+      "pali": "",
+      "english": "“No, lord.”"
     },
     {
       "number": 12,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
-    },
-    {
-      "number": 13,
-      "pali": "“Iti kho, ānanda, kammaṁ khettaṁ, viññāṇaṁ bījaṁ, taṇhā sneho. ",
-      "english": "“So, Ānanda, deeds are the field, consciousness is the seed, and craving is the moisture. "
-    },
-    {
-      "number": 14,
-      "pali": "Avijjānīvaraṇānaṁ sattānaṁ taṇhāsaṁyojanānaṁ majjhimāya dhātuyā cetanā patiṭṭhitā patthanā patiṭṭhitā evaṁ āyatiṁ punabbhavābhinibbatti hoti. ",
-      "english": "The intention and aim of sentient beings—shrouded by ignorance and fettered by craving—is established in a middle realm. That’s how there is regeneration into a new state of existence in the future. "
-    },
-    {
-      "number": 15,
-      "pali": "Arūpadhātuvepakkañca, ānanda, kammaṁ nābhavissa, api nu kho arūpabhavo paññāyethā”ti? ",
-      "english": "If there were no deeds to result in the formless realm, would continued existence in the formless realm still come about?” "
-    },
-    {
-      "number": 16,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
-    },
-    {
-      "number": 17,
-      "pali": "“Iti kho, ānanda, kammaṁ khettaṁ, viññāṇaṁ bījaṁ, taṇhā sneho. ",
-      "english": "“So, deeds are the field, consciousness is the seed, and craving is the moisture. "
-    },
-    {
-      "number": 18,
-      "pali": "Avijjānīvaraṇānaṁ sattānaṁ taṇhāsaṁyojanānaṁ paṇītāya dhātuyā cetanā patiṭṭhitā patthanā patiṭṭhitā evaṁ āyatiṁ punabbhavābhinibbatti hoti. ",
-      "english": "The intention and aim of sentient beings—shrouded by ignorance and fettered by craving—is established in a higher realm. That’s how there is regeneration into a new state of existence in the future. "
-    },
-    {
-      "number": 19,
-      "pali": "Evaṁ kho, ānanda, bhavo hotī”ti. ",
-      "english": "That’s how continued existence is defined.” "
-    },
-    {
-      "number": 20,
-      "pali": "Sattamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Thus kamma is the field, consciousness the seed, and craving the moisture. The consciousness of living beings hindered by ignorance & fettered by craving is established in/tuned to a refined property. Thus there is the production of renewed becoming in the future. This is how there is becoming.”"
     }
   ]
 }

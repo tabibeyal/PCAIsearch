@@ -3,353 +3,338 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 3.24 ",
-      "english": "Linked Discourses 3.24 "
+      "pali": "Linked Discourses 3.24",
+      "english": "Linked Discourses 3.24"
     },
     {
       "number": 2,
-      "pali": "3. Tatiyavagga ",
-      "english": "3. Kosala "
+      "pali": "Issattha Sutta",
+      "english": "Archery Skills"
     },
     {
       "number": 3,
-      "pali": "Issattasutta ",
-      "english": "Archery "
+      "pali": "",
+      "english": "Near Sāvatthī. As he was sitting to one side, King Pasenadi Kosala said to the Blessed One: “Where, lord, should a gift be given?”"
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“Wherever the mind feels confidence, great king.”"
     },
     {
       "number": 5,
-      "pali": "Ekamantaṁ nisinno kho rājā pasenadi kosalo bhagavantaṁ etadavoca: ",
-      "english": "Seated to one side, King Pasenadi said to the Buddha, "
+      "pali": "",
+      "english": "“But a gift given where, lord, bears great fruit?”"
     },
     {
       "number": 6,
-      "pali": "“kattha nu kho, bhante, dānaṁ dātabban”ti? ",
-      "english": "“Sir, where should a gift be given?” "
+      "pali": "",
+      "english": "“This (question) is one thing, great king—‘Where should a gift be given?’—while this—‘A gift given where bears great fruit?’—is something else entirely. What is given to a virtuous person—rather than to an unvirtuous one—bears great fruit. In that case, great king, I will ask you a counter-question. Answer as you see fit."
     },
     {
       "number": 7,
-      "pali": "“Yattha kho, mahārāja, cittaṁ pasīdatī”ti. ",
-      "english": "“Wherever your heart feels inspired, great king.” "
+      "pali": "",
+      "english": "“What do you think, great king? There is the case where you have a war at hand, a battle imminent. A noble-warrior youth would come along—untrained, unpracticed, undisciplined, undrilled, fearful, terrified, cowardly, quick to flee. Would you take him on? Would you have any use for a man like that?”"
     },
     {
       "number": 8,
-      "pali": "“Kattha pana, bhante, dinnaṁ mahapphalan”ti? ",
-      "english": "“But sir, where is a gift very fruitful?” "
+      "pali": "",
+      "english": "“No, lord, I wouldn’t take him on. I wouldn’t have any use for a man like that.”"
     },
     {
       "number": 9,
-      "pali": "“Aññaṁ kho etaṁ, mahārāja, kattha dānaṁ dātabbaṁ, aññaṁ panetaṁ kattha dinnaṁ mahapphalanti? ",
-      "english": "“Where a gift should be given is one thing, great king, but where a gift is very fruitful is another. "
+      "pali": "",
+      "english": "“Then a brahman youth… a merchant youth… a laborer youth would come along—untrained, unpracticed, undisciplined, undrilled, fearful, terrified, cowardly, quick to flee. Would you take him on? Would you have any use for a man like that?”"
     },
     {
       "number": 10,
-      "pali": "Sīlavato kho, mahārāja, dinnaṁ mahapphalaṁ, no tathā dussīle. ",
-      "english": "A gift is very fruitful when it’s given to an ethical person, not so much to an unethical person. "
+      "pali": "",
+      "english": "“No, lord, I wouldn’t take him on. I wouldn’t have any use for a man like that.”"
     },
     {
       "number": 11,
-      "pali": "Tena hi, mahārāja, taññevettha paṭipucchissāmi. Yathā, te khameyya, tathā naṁ byākareyyāsi. ",
-      "english": "Well then, great king, I’ll ask you about this in return, and you can answer as you like. "
+      "pali": "",
+      "english": "“Now, what do you think, great king? There is the case where you have a war at hand, a battle imminent. A noble-warrior youth would come along—trained, practiced, disciplined, drilled, fearless, unterrified, not cowardly, not quick to flee. Would you take him on? Would you have any use for a man like that?”"
     },
     {
       "number": 12,
-      "pali": "Taṁ kiṁ maññasi, mahārāja, ",
-      "english": "What do you think, great king? "
+      "pali": "",
+      "english": "“Yes, lord, I would take him on. I would have use for a man like that.”"
     },
     {
       "number": 13,
-      "pali": "idha tyassa yuddhaṁ paccupaṭṭhitaṁ saṅgāmo samupabyūḷho. ",
-      "english": "Suppose you were at war, ready to fight a battle. "
+      "pali": "",
+      "english": "“Then a brahman youth… a merchant youth… a laborer youth would come along—trained, practiced, disciplined, drilled, fearless, unterrified, not cowardly, not quick to flee. Would take you him on? Would you have any use for a man like that?”"
     },
     {
       "number": 14,
-      "pali": "Atha āgaccheyya khattiyakumāro asikkhito akatahattho akatayoggo akatūpāsano bhīru chambhī utrāsī palāyī. ",
-      "english": "Then along comes an aristocrat youth who is untrained, inexpert, unfit, inexperienced. And he’s fearful, scared, nervous, quick to flee. "
+      "pali": "",
+      "english": "“Yes, lord, I would take him on. I would have use for a man like that.”"
     },
     {
       "number": 15,
-      "pali": "Bhareyyāsi taṁ purisaṁ, attho ca te tādisena purisenā”ti? ",
-      "english": "Would you employ such a man? Would he be of any use to you?” "
+      "pali": "",
+      "english": "“In the same way, great king. When someone has gone forth from the home life into homelessness—no matter from what clan—and he has abandoned five factors and is endowed with five, what is given to him bears great fruit."
     },
     {
       "number": 16,
-      "pali": "“Nāhaṁ, bhante, bhareyyaṁ taṁ purisaṁ, na ca me attho tādisena purisenā”ti. ",
-      "english": "“No, sir, I would have no use for such a man.” "
+      "pali": "",
+      "english": "“And which five factors has he abandoned? He has abandoned sensual desire… ill will… sloth & drowsiness… restlessness & anxiety… uncertainty. These are the five factors he has abandoned. And with which five factors is he endowed? He is endowed with the aggregate of virtue of one beyond training… the aggregate of concentration of one beyond training… the aggregate of discernment of one beyond training… the aggregate of release of one beyond training… the aggregate of knowledge & vision of release of one beyond training. These are the five factors with which he is endowed."
     },
     {
       "number": 17,
-      "pali": "“Atha āgaccheyya brāhmaṇakumāro asikkhito …pe… ",
-      "english": "“What about a brahmin youth, "
+      "pali": "",
+      "english": "“What is given to one who has abandoned five factors and is endowed with five factors in this way bears great fruit.”"
     },
     {
       "number": 18,
-      "pali": "atha āgaccheyya vessakumāro asikkhito …pe… ",
-      "english": "a peasant youth, "
+      "pali": "",
+      "english": "That is what the Blessed One said. Having said that, the One Well-Gone, the Teacher, said further:"
     },
     {
       "number": 19,
-      "pali": "atha āgaccheyya suddakumāro asikkhito …pe… ",
-      "english": "or a menial youth who was similar?” "
+      "pali": "",
+      "english": "“As a king intent on battle"
     },
     {
       "number": 20,
-      "pali": "na ca me attho tādisena purisenā”ti. ",
-      "english": "“No, sir, I would have no use for such a man.” "
+      "pali": "",
+      "english": "would hire a youth"
     },
     {
       "number": 21,
-      "pali": "“Taṁ kiṁ maññasi, mahārāja, ",
-      "english": "“What do you think, great king? "
+      "pali": "",
+      "english": "in whom there are"
     },
     {
       "number": 22,
-      "pali": "idha tyassa yuddhaṁ paccupaṭṭhitaṁ saṅgāmo samupabyūḷho. ",
-      "english": "Suppose you were at war, ready to fight a battle. "
+      "pali": "",
+      "english": "archery skills,"
     },
     {
       "number": 23,
-      "pali": "Atha āgaccheyya khattiyakumāro susikkhito katahattho katayoggo katūpāsano abhīru acchambhī anutrāsī apalāyī. ",
-      "english": "Then along comes an aristocrat youth who is trained, expert, fit, experienced. And he’s fearless, brave, bold, standing his ground. "
+      "pali": "",
+      "english": "persistence,"
     },
     {
       "number": 24,
-      "pali": "Bhareyyāsi taṁ purisaṁ, attho ca te tādisena purisenā”ti? ",
-      "english": "Would you employ such a man? Would he be of any use to you?” "
+      "pali": "",
+      "english": "& strength,"
     },
     {
       "number": 25,
-      "pali": "“Bhareyyāhaṁ, bhante, taṁ purisaṁ, attho ca me tādisena purisenā”ti. ",
-      "english": "“Yes, sir, I would have a use for such a man.” "
+      "pali": "",
+      "english": "and not, on the basis of birth,"
     },
     {
       "number": 26,
-      "pali": "“Atha āgaccheyya brāhmaṇakumāro …pe… ",
-      "english": "“What about a brahmin youth, "
+      "pali": "",
+      "english": "a coward;"
     },
     {
       "number": 27,
-      "pali": "atha āgaccheyya vessakumāro …pe… ",
-      "english": "a peasant youth, "
+      "pali": "",
+      "english": "so, too, you should honor"
     },
     {
       "number": 28,
-      "pali": "atha āgaccheyya suddakumāro susikkhito katahattho katayoggo katūpāsano abhīru acchambhī anutrāsī apalāyī. ",
-      "english": "or a menial youth who was similar? "
+      "pali": "",
+      "english": "a person of noble conduct, wise,"
     },
     {
       "number": 29,
-      "pali": "Bhareyyāsi taṁ purisaṁ, attho ca te tādisena purisenā”ti? ",
-      "english": "Would you employ such a man? Would he be of any use to you?” "
+      "pali": "",
+      "english": "in whom are established"
     },
     {
       "number": 30,
-      "pali": "“Bhareyyāhaṁ, bhante, taṁ purisaṁ, attho ca me tādisena purisenā”ti. ",
-      "english": "“Yes, sir, I would have a use for such a man.” "
+      "pali": "",
+      "english": "composure"
     },
     {
       "number": 31,
-      "pali": "“Evameva kho, mahārāja, yasmā kasmā cepi kulā agārasmā anagāriyaṁ pabbajito hoti, so ca hoti pañcaṅgavippahīno pañcaṅgasamannāgato, tasmiṁ dinnaṁ mahapphalaṁ hoti. ",
-      "english": "“In the same way, a gift to anyone who has given up five factors and possesses five factors is very fruitful, no matter what family they’ve gone forth from. "
+      "pali": "",
+      "english": "& patience,"
     },
     {
       "number": 32,
-      "pali": "Katamāni pañcaṅgāni pahīnāni honti? ",
-      "english": "What are the five factors they’ve given up? "
+      "pali": "",
+      "english": "even though"
     },
     {
       "number": 33,
-      "pali": "Kāmacchando pahīno hoti, byāpādo pahīno hoti, thinamiddhaṁ pahīnaṁ hoti, uddhaccakukkuccaṁ pahīnaṁ hoti, vicikicchā pahīnā hoti. ",
-      "english": "Sensual desire, ill will, dullness and drowsiness, restlessness and remorse, and doubt. "
+      "pali": "",
+      "english": "his birth may be lowly."
     },
     {
       "number": 34,
-      "pali": "Imāni pañcaṅgāni pahīnāni honti. ",
-      "english": "These are the five factors they’ve given up. "
+      "pali": "",
+      "english": "Let donors build"
     },
     {
       "number": 35,
-      "pali": "Katamehi pañcahaṅgehi samannāgato hoti? ",
-      "english": "What are the five factors they possess? "
+      "pali": "",
+      "english": "pleasant hermitages"
     },
     {
       "number": 36,
-      "pali": "Asekkhena sīlakkhandhena samannāgato hoti, asekkhena samādhikkhandhena samannāgato hoti, asekkhena paññākkhandhena samannāgato hoti, asekkhena vimuttikkhandhena samannāgato hoti, asekkhena vimuttiñāṇadassanakkhandhena samannāgato hoti. ",
-      "english": "The entire spectrum of an adept’s ethics, immersion, wisdom, freedom, and knowledge and vision of freedom. "
+      "pali": "",
+      "english": "and there invite the learned to stay."
     },
     {
       "number": 37,
-      "pali": "Imehi pañcahaṅgehi samannāgato hoti. ",
-      "english": "These are the five factors they possess. "
+      "pali": "",
+      "english": "Let them make reservoirs"
     },
     {
       "number": 38,
-      "pali": "Iti pañcaṅgavippahīne pañcaṅgasamannāgate dinnaṁ mahapphalan”ti. ",
-      "english": "I say that a gift to anyone who has given up these five factors and possesses these five factors is very fruitful.” "
+      "pali": "",
+      "english": "in dry forests"
     },
     {
       "number": 39,
-      "pali": "Idamavoca bhagavā …pe… ",
-      "english": "That is what the Buddha said. "
+      "pali": "",
+      "english": "and walking paths"
     },
     {
       "number": 40,
-      "pali": "satthā: ",
-      "english": "Then the Holy One, the Teacher, went on to say: "
+      "pali": "",
+      "english": "where it’s rough."
     },
     {
       "number": 41,
-      "pali": "“Issattaṁ balavīriyañca, ",
-      "english": "“Any youth skilled at archery, "
+      "pali": "",
+      "english": "Let them, with a clear, calm awareness,"
     },
     {
       "number": 42,
-      "pali": "yasmiṁ vijjetha māṇave; ",
-      "english": "powerful and vigorous, "
+      "pali": "",
+      "english": "give food, drink, snacks,"
     },
     {
       "number": 43,
-      "pali": "Taṁ yuddhattho bhare rājā, ",
-      "english": "would be employed by a king going to war—"
+      "pali": "",
+      "english": "clothing, & lodgings"
     },
     {
       "number": 44,
-      "pali": "nāsūraṁ jātipaccayā. ",
-      "english": "one is not a coward by reason of birth. "
+      "pali": "",
+      "english": "to those who’ve become"
     },
     {
       "number": 45,
-      "pali": "Tatheva khantisoraccaṁ, ",
-      "english": "Just so, whoever is settled "
+      "pali": "",
+      "english": "straightforward."
     },
     {
       "number": 46,
-      "pali": "dhammā yasmiṁ patiṭṭhitā; ",
-      "english": "in the qualities of patience and gentleness, "
+      "pali": "",
+      "english": "Just as a hundred-billowed,"
     },
     {
       "number": 47,
-      "pali": "Ariyavuttiṁ medhāviṁ, ",
-      "english": "a clever person with noble conduct, "
+      "pali": "",
+      "english": "lightning-garlanded,"
     },
     {
       "number": 48,
-      "pali": "hīnajaccampi pūjaye. ",
-      "english": "should be venerated even if they’re low born. "
+      "pali": "",
+      "english": "thundering cloud,"
     },
     {
       "number": 49,
-      "pali": "Kāraye assame ramme, ",
-      "english": "You should build lovely hermitages "
+      "pali": "",
+      "english": "raining down on the wealth-bearing [earth],"
     },
     {
       "number": 50,
-      "pali": "vāsayettha bahussute; ",
-      "english": "and settle learned people in them. "
+      "pali": "",
+      "english": "fills the highlands & low,"
     },
     {
       "number": 51,
-      "pali": "Papañca vivane kayirā, ",
-      "english": "You should set up water supplies in barren regions "
+      "pali": "",
+      "english": "even so"
     },
     {
       "number": 52,
-      "pali": "dugge saṅkamanāni ca. ",
-      "english": "and passages in places hard to travel. "
+      "pali": "",
+      "english": "a person of conviction & learning,"
     },
     {
       "number": 53,
-      "pali": "Annaṁ pānaṁ khādanīyaṁ, ",
-      "english": "Food, drink, edibles, "
+      "pali": "",
+      "english": "wise,"
     },
     {
       "number": 54,
-      "pali": "vatthasenāsanāni ca; ",
-      "english": "clothes, and lodgings "
+      "pali": "",
+      "english": "having stored up provisions,"
     },
     {
       "number": 55,
-      "pali": "Dadeyya ujubhūtesu, ",
-      "english": "should be given to the upright ones, "
+      "pali": "",
+      "english": "satisfies wayfarers"
     },
     {
       "number": 56,
-      "pali": "vippasannena cetasā. ",
-      "english": "with a clear and confident heart. "
+      "pali": "",
+      "english": "with food & drink."
     },
     {
       "number": 57,
-      "pali": "Yathā hi megho thanayaṁ, ",
-      "english": "The thundering rain cloud, "
+      "pali": "",
+      "english": "Delighting in distributing alms,"
     },
     {
       "number": 58,
-      "pali": "vijjumālī satakkaku; ",
-      "english": "its hundred peaks wreathed in lightning, "
+      "pali": "",
+      "english": "‘Give to them!"
     },
     {
       "number": 59,
-      "pali": "Thalaṁ ninnañca pūreti, ",
-      "english": "pours down over the rich earth, "
+      "pali": "",
+      "english": "Give!’"
     },
     {
       "number": 60,
-      "pali": "abhivassaṁ vasundharaṁ. ",
-      "english": "soaking the uplands and valleys. "
+      "pali": "",
+      "english": "he says."
     },
     {
       "number": 61,
-      "pali": "Tatheva saddho sutavā, ",
-      "english": "So too an astute person, "
+      "pali": "",
+      "english": "That"
     },
     {
       "number": 62,
-      "pali": "abhisaṅkhacca bhojanaṁ; ",
-      "english": "faithful and learned, "
+      "pali": "",
+      "english": "is his thunder,"
     },
     {
       "number": 63,
-      "pali": "Vanibbake tappayati, ",
-      "english": "should prepare a meal to satisfy "
+      "pali": "",
+      "english": "like a raining cloud’s."
     },
     {
       "number": 64,
-      "pali": "annapānena paṇḍito. ",
-      "english": "supplicants with food and drink. "
+      "pali": "",
+      "english": "That shower of merit,"
     },
     {
       "number": 65,
-      "pali": "Āmodamāno pakireti, ",
-      "english": "Rejoicing, they strew gifts about, "
+      "pali": "",
+      "english": "abundant,"
     },
     {
       "number": 66,
-      "pali": "detha dethāti bhāsati; ",
-      "english": "crying ‘Give! give!’ "
+      "pali": "",
+      "english": "rains back on the one"
     },
     {
       "number": 67,
-      "pali": "Taṁ hissa gajjitaṁ hoti, ",
-      "english": "For that is their thunder, "
-    },
-    {
-      "number": 68,
-      "pali": "devasseva pavassato; ",
-      "english": "like rain sent from the heavens. "
-    },
-    {
-      "number": 69,
-      "pali": "Sā puññadhārā vipulā, ",
-      "english": "That stream of merit so abundant "
-    },
-    {
-      "number": 70,
-      "pali": "dātāraṁ abhivassatī”ti. ",
-      "english": "showers down on the giver.” "
+      "pali": "",
+      "english": "who gives.”"
     }
   ]
 }

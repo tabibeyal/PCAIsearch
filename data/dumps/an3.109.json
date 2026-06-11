@@ -3,138 +3,18 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 3.109 ",
-      "english": "Numbered Discourses 3.109 "
+      "pali": "Numerical Discourses 3.109",
+      "english": "Numerical Discourses 3.109"
     },
     {
       "number": 2,
-      "pali": "11. Sambodhavagga ",
-      "english": "11. Awakening "
+      "pali": "Atitta Sutta",
+      "english": "No Satiation"
     },
     {
       "number": 3,
-      "pali": "Arakkhitasutta ",
-      "english": "Unprotected "
-    },
-    {
-      "number": 4,
-      "pali": "Atha kho anāthapiṇḍiko gahapati yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinnaṁ kho anāthapiṇḍikaṁ gahapatiṁ bhagavā etadavoca: ",
-      "english": "Then the householder Anāthapiṇḍika went up to the Buddha, bowed, and sat down to one side. The Buddha said to him: "
-    },
-    {
-      "number": 5,
-      "pali": "“citte, gahapati, arakkhite kāyakammampi arakkhitaṁ hoti, vacīkammampi arakkhitaṁ hoti, manokammampi arakkhitaṁ hoti. ",
-      "english": "“Householder, when the mind is unprotected, deeds of body, speech, and mind are unprotected. "
-    },
-    {
-      "number": 6,
-      "pali": "Tassa arakkhitakāyakammantassa arakkhitavacīkammantassa arakkhitamanokammantassa kāyakammampi avassutaṁ hoti, vacīkammampi avassutaṁ hoti, manokammampi avassutaṁ hoti. ",
-      "english": "When deeds are unprotected, they fester. "
-    },
-    {
-      "number": 7,
-      "pali": "Tassa avassutakāyakammantassa avassutavacīkammantassa avassutamanokammantassa kāyakammampi pūtikaṁ hoti, vacīkammampi pūtikaṁ hoti, manokammampi pūtikaṁ hoti. ",
-      "english": "When deeds fester, they become rotten. "
-    },
-    {
-      "number": 8,
-      "pali": "Tassa pūtikāyakammantassa pūtivacīkammantassa pūtimanokammantassa na bhaddakaṁ maraṇaṁ hoti, na bhaddikā kālakiriyā. ",
-      "english": "Someone whose deeds of body, speech, and mind are rotten will not have a good death. "
-    },
-    {
-      "number": 9,
-      "pali": "Seyyathāpi, gahapati, kūṭāgāre ducchanne kūṭampi arakkhitaṁ hoti, gopānasiyopi arakkhitā honti, bhittipi arakkhitā hoti; ",
-      "english": "It’s like a bungalow with a bad roof. The roof peak, rafters, and walls are unprotected. "
-    },
-    {
-      "number": 10,
-      "pali": "kūṭampi avassutaṁ hoti, gopānasiyopi avassutā honti, bhittipi avassutā hoti; ",
-      "english": "They fester, "
-    },
-    {
-      "number": 11,
-      "pali": "kūṭampi pūtikaṁ hoti, gopānasiyopi pūtikā honti, bhittipi pūtikā hoti. ",
-      "english": "and become rotten. "
-    },
-    {
-      "number": 12,
-      "pali": "Evamevaṁ kho, gahapati, citte arakkhite kāyakammampi arakkhitaṁ hoti, vacīkammampi arakkhitaṁ hoti, manokammampi arakkhitaṁ hoti. ",
-      "english": "In the same way, when the mind is unprotected, bodily, verbal, and mental deeds are unprotected. … "
-    },
-    {
-      "number": 13,
-      "pali": "Tassa arakkhitakāyakammantassa arakkhitavacīkammantassa arakkhitamanokammantassa kāyakammampi avassutaṁ hoti, vacīkammampi avassutaṁ hoti, manokammampi avassutaṁ hoti. ",
-      "english": ""
-    },
-    {
-      "number": 14,
-      "pali": "Tassa avassutakāyakammantassa avassutavacīkammantassa avassutamanokammantassa kāyakammampi pūtikaṁ hoti, vacīkammampi pūtikaṁ hoti, manokammampi pūtikaṁ hoti. ",
-      "english": ""
-    },
-    {
-      "number": 15,
-      "pali": "Tassa pūtikāyakammantassa pūtivacīkammantassa pūtimanokammantassa na bhaddakaṁ maraṇaṁ hoti, na bhaddikā kālakiriyā. ",
-      "english": "Someone whose deeds of body, speech, and mind are rotten will not have a good death. "
-    },
-    {
-      "number": 16,
-      "pali": "Citte, gahapati, rakkhite kāyakammampi rakkhitaṁ hoti, vacīkammampi rakkhitaṁ hoti, manokammampi rakkhitaṁ hoti. ",
-      "english": "When the mind is protected, bodily, verbal, and mental deeds are protected. "
-    },
-    {
-      "number": 17,
-      "pali": "Tassa rakkhitakāyakammantassa rakkhitavacīkammantassa rakkhitamanokammantassa kāyakammampi anavassutaṁ hoti, vacīkammampi anavassutaṁ hoti, manokammampi anavassutaṁ hoti. ",
-      "english": "When deeds are protected, they don’t fester. "
-    },
-    {
-      "number": 18,
-      "pali": "Tassa anavassutakāyakammantassa anavassutavacīkammantassa anavassutamanokammantassa kāyakammampi apūtikaṁ hoti, vacīkammampi apūtikaṁ hoti, manokammampi apūtikaṁ hoti. ",
-      "english": "When deeds don’t fester, they don’t become rotten. "
-    },
-    {
-      "number": 19,
-      "pali": "Tassa apūtikāyakammantassa apūtivacīkammantassa apūtimanokammantassa bhaddakaṁ maraṇaṁ hoti, bhaddikā kālakiriyā. ",
-      "english": "Someone whose deeds of body, speech, and mind aren’t rotten will have a good death. "
-    },
-    {
-      "number": 20,
-      "pali": "Seyyathāpi, gahapati, kūṭāgāre succhanne kūṭampi rakkhitaṁ hoti, gopānasiyopi rakkhitā honti, bhittipi rakkhitā hoti; ",
-      "english": "It’s like a bungalow with a good roof. The roof peak, rafters, and walls are protected. "
-    },
-    {
-      "number": 21,
-      "pali": "kūṭampi anavassutaṁ hoti, gopānasiyopi anavassutā honti, bhittipi anavassutā hoti; ",
-      "english": "They don’t get soaked, "
-    },
-    {
-      "number": 22,
-      "pali": "kūṭampi apūtikaṁ hoti, gopānasiyopi apūtikā honti, bhittipi apūtikā hoti. ",
-      "english": "and they don’t become rotten. "
-    },
-    {
-      "number": 23,
-      "pali": "Evamevaṁ kho, gahapati, citte rakkhite kāyakammampi rakkhitaṁ hoti, vacīkammampi rakkhitaṁ hoti, manokammampi rakkhitaṁ hoti. ",
-      "english": "In the same way, when the mind is protected, bodily, verbal, and mental deeds are protected. … "
-    },
-    {
-      "number": 24,
-      "pali": "Tassa rakkhitakāyakammantassa rakkhitavacīkammantassa rakkhitamanokammantassa kāyakammampi anavassutaṁ hoti, vacīkammampi anavassutaṁ hoti, manokammampi anavassutaṁ hoti. ",
-      "english": ""
-    },
-    {
-      "number": 25,
-      "pali": "Tassa anavassutakāyakammantassa anavassutavacīkammantassa anavassutamanokammantassa kāyakammampi apūtikaṁ hoti, vacīkammampi apūtikaṁ hoti, manokammampi apūtikaṁ hoti. ",
-      "english": ""
-    },
-    {
-      "number": 26,
-      "pali": "Tassa apūtikāyakammantassa apūtivacīkammantassa apūtimanokammantassa bhaddakaṁ maraṇaṁ hoti, bhaddikā kālakiriyā”ti. ",
-      "english": "Someone whose deeds of body, speech, and mind aren’t rotten will have a good death.” "
-    },
-    {
-      "number": 27,
-      "pali": "Sattamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“There is no satiation through indulging in three things. Which three? There is no satiation through indulging in sleep. There is no satiation through indulging in distilled & fermented drinks. There is no satiation through indulging in the climax of sexual intercourse. There is no satiation through indulging in these three things.”"
     }
   ]
 }

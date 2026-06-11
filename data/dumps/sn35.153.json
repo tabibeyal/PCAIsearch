@@ -3,178 +3,28 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 35.153 ",
-      "english": "Linked Discourses 35.153 "
+      "pali": "Linked Discourses 35.153",
+      "english": "Linked Discourses 35.153"
     },
     {
       "number": 2,
-      "pali": "15. Navapurāṇavagga ",
-      "english": "15. The Old and the New "
+      "pali": "Indriya Sutta",
+      "english": "Faculties"
     },
     {
       "number": 3,
-      "pali": "Atthinukhopariyāyasutta ",
-      "english": "Is There a Method? "
+      "pali": "",
+      "english": "This sutta is based on a play on words. In everyday Pali, the term “consummate in faculties” is used to describe a person whose beauty and health are inspiring. Here the Buddha gives a different meaning to the term."
     },
     {
       "number": 4,
-      "pali": "“Atthi nu kho, bhikkhave, pariyāyo yaṁ pariyāyaṁ āgamma bhikkhu aññatreva saddhāya, aññatra ruciyā, aññatra anussavā, aññatra ākāraparivitakkā, aññatra diṭṭhinijjhānakkhantiyā aññaṁ byākareyya: ",
-      "english": "“Mendicants, is there a method—apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation—that a mendicant can rely on to declare their enlightenment? That is: "
+      "pali": "",
+      "english": "Then a certain monk went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “‘Consummate in faculties, consummate in faculties,’ it is said. To what extent is one consummate in faculties?”"
     },
     {
       "number": 5,
-      "pali": "‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāmī”ti? ",
-      "english": "‘I understand: “Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.”’” "
-    },
-    {
-      "number": 6,
-      "pali": "“Bhagavaṁmūlakā no, bhante, dhammā, bhagavaṁnettikā bhagavaṁpaṭisaraṇā. Sādhu vata, bhante, bhagavantaṁyeva paṭibhātu etassa bhāsitassa attho. Bhagavato sutvā bhikkhū dhāressantī”ti. ",
-      "english": "“Our teachings are rooted in the Buddha. He is our guide and our refuge. Sir, may the Buddha himself please clarify the meaning of this. The mendicants will listen and remember it.” "
-    },
-    {
-      "number": 7,
-      "pali": "“Tena hi, bhikkhave, suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ",
-      "english": "“Well then, mendicants, listen and apply your mind well, I will speak.” "
-    },
-    {
-      "number": 8,
-      "pali": "“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ",
-      "english": "“Yes, sir,” they replied. "
-    },
-    {
-      "number": 9,
-      "pali": "Bhagavā etadavoca: ",
-      "english": "The Buddha said this: "
-    },
-    {
-      "number": 10,
-      "pali": "“atthi, bhikkhave, pariyāyo yaṁ pariyāyaṁ āgamma bhikkhu aññatreva saddhāya, aññatra ruciyā, aññatra anussavā, aññatra ākāraparivitakkā, aññatra diṭṭhinijjhānakkhantiyā aññaṁ byākareyya: ",
-      "english": "“There is a method—apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation—that a mendicant can rely on to declare their enlightenment. That is: "
-    },
-    {
-      "number": 11,
-      "pali": "‘“khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti pajānāmī’ti. ",
-      "english": "‘I understand: “Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.”’ "
-    },
-    {
-      "number": 12,
-      "pali": "Katamo ca, bhikkhave, pariyāyo, yaṁ pariyāyaṁ āgamma bhikkhu aññatreva saddhāya …pe… aññatra diṭṭhinijjhānakkhantiyā aññaṁ byākaroti: ‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyāti pajānāmī’ti? ",
-      "english": "And what is that method? "
-    },
-    {
-      "number": 13,
-      "pali": "Idha, bhikkhave, bhikkhu cakkhunā rūpaṁ disvā santaṁ vā ajjhattaṁ rāgadosamohaṁ, atthi me ajjhattaṁ rāgadosamohoti pajānāti; ",
-      "english": "Take a mendicant who sees a sight with the eye. When they have greed, hate, and delusion in them, they understand ‘I have greed, hate, and delusion in me.’ "
-    },
-    {
-      "number": 14,
-      "pali": "asantaṁ vā ajjhattaṁ rāgadosamohaṁ, natthi me ajjhattaṁ rāgadosamohoti pajānāti. ",
-      "english": "When they don’t have greed, hate, and delusion in them, they understand ‘I don’t have greed, hate, and delusion in me.’ "
-    },
-    {
-      "number": 15,
-      "pali": "Yaṁ taṁ, bhikkhave, bhikkhu cakkhunā rūpaṁ disvā santaṁ vā ajjhattaṁ rāgadosamohaṁ, atthi me ajjhattaṁ rāgadosamohoti pajānāti; asantaṁ vā ajjhattaṁ rāgadosamohaṁ, natthi me ajjhattaṁ rāgadosamohoti pajānāti. Api nu me, bhikkhave, dhammā saddhāya vā veditabbā, ruciyā vā veditabbā, anussavena vā veditabbā, ākāraparivitakkena vā veditabbā, diṭṭhinijjhānakkhantiyā vā veditabbā”ti? ",
-      "english": "Since this is so, are these things understood by faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation?” "
-    },
-    {
-      "number": 16,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
-    },
-    {
-      "number": 17,
-      "pali": "“Nanume, bhikkhave, dhammā paññāya disvā veditabbā”ti? ",
-      "english": "“Aren’t they understood by seeing them with wisdom?” "
-    },
-    {
-      "number": 18,
-      "pali": "“Evaṁ, bhante”. ",
-      "english": "“Yes, sir.” "
-    },
-    {
-      "number": 19,
-      "pali": "“Ayaṁ kho, bhikkhave, pariyāyo yaṁ pariyāyaṁ āgamma bhikkhu aññatreva saddhāya, aññatra ruciyā, aññatra anussavā, aññatra ākāraparivitakkā, aññatra diṭṭhinijjhānakkhantiyā aññaṁ byākaroti: ",
-      "english": "“This is a method—apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation—that a mendicant can rely on to declare their enlightenment. That is: "
-    },
-    {
-      "number": 20,
-      "pali": "‘“khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti pajānāmī’ti …pe…. ",
-      "english": "‘I understand: “Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.”’ "
-    },
-    {
-      "number": 21,
-      "pali": "Puna caparaṁ, bhikkhave, bhikkhu jivhāya rasaṁ sāyitvā santaṁ vā ajjhattaṁ …pe… rāgadosamohoti pajānāti; asantaṁ vā ajjhattaṁ rāgadosamohaṁ, natthi me ajjhattaṁ rāgadosamohoti pajānāti. ",
-      "english": "Furthermore, a mendicant hears a sound … smells an odor … tastes a flavor … feels a touch … "
-    },
-    {
-      "number": 22,
-      "pali": "Yaṁ taṁ, bhikkhave, jivhāya rasaṁ sāyitvā santaṁ vā ajjhattaṁ rāgadosamohaṁ, atthi me ajjhattaṁ rāgadosamohoti pajānāti; asantaṁ vā ajjhattaṁ rāgadosamohaṁ, natthi me ajjhattaṁ rāgadosamohoti pajānāti; api nu me, bhikkhave, dhammā saddhāya vā veditabbā, ruciyā vā veditabbā, anussavena vā veditabbā, ākāraparivitakkena vā veditabbā, diṭṭhinijjhānakkhantiyā vā veditabbā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 23,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 24,
-      "pali": "“Nanume, bhikkhave, dhammā paññāya disvā veditabbā”ti? ",
-      "english": ""
-    },
-    {
-      "number": 25,
-      "pali": "“Evaṁ, bhante”. ",
-      "english": ""
-    },
-    {
-      "number": 26,
-      "pali": "“Ayampi kho, bhikkhave, pariyāyo yaṁ pariyāyaṁ āgamma bhikkhu aññatreva saddhāya, aññatra ruciyā, aññatra anussavā, aññatra ākāraparivitakkā, aññatra diṭṭhinijjhānakkhantiyā aññaṁ byākaroti: ‘“khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti pajānāmī’ti …pe…. ",
-      "english": ""
-    },
-    {
-      "number": 27,
-      "pali": "Puna caparaṁ, bhikkhave, bhikkhu manasā dhammaṁ viññāya santaṁ vā ajjhattaṁ rāgadosamohaṁ, atthi me ajjhattaṁ rāgadosamohoti pajānāti; ",
-      "english": "knows an idea with the mind. When they have greed, hate, and delusion in them, they understand ‘I have greed, hate, and delusion in me.’ "
-    },
-    {
-      "number": 28,
-      "pali": "asantaṁ vā ajjhattaṁ rāgadosamohaṁ, natthi me ajjhattaṁ rāgadosamohoti pajānāti. ",
-      "english": "When they don’t have greed, hate, and delusion in them, they understand ‘I don’t have greed, hate, and delusion in me.’ "
-    },
-    {
-      "number": 29,
-      "pali": "Yaṁ taṁ, bhikkhave, bhikkhu manasā dhammaṁ viññāya santaṁ vā ajjhattaṁ rāgadosamohaṁ, atthi me ajjhattaṁ rāgadosamohoti pajānāti; asantaṁ vā ajjhattaṁ rāgadosamohaṁ, natthi me ajjhattaṁ rāgadosamohoti pajānāti; api nu me, bhikkhave, dhammā saddhāya vā veditabbā, ruciyā vā veditabbā, anussavena vā veditabbā, ākāraparivitakkena vā veditabbā, diṭṭhinijjhānakkhantiyā vā veditabbā”ti? ",
-      "english": "Since this is so, are these things understood by faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation?” "
-    },
-    {
-      "number": 30,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
-    },
-    {
-      "number": 31,
-      "pali": "“Nanume, bhikkhave, dhammā paññāya disvā veditabbā”ti? ",
-      "english": "“Aren’t they understood by seeing them with wisdom?” "
-    },
-    {
-      "number": 32,
-      "pali": "“Evaṁ, bhante”. ",
-      "english": "“Yes, sir.” "
-    },
-    {
-      "number": 33,
-      "pali": "“Ayampi kho, bhikkhave, pariyāyo yaṁ pariyāyaṁ āgamma bhikkhu aññatreva saddhāya, aññatra ruciyā, aññatra anussavā, aññatra ākāraparivitakkā, aññatra diṭṭhinijjhānakkhantiyā aññaṁ byākaroti: ",
-      "english": "“This too is a method—apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation—that a mendicant can rely on to declare their enlightenment. That is: "
-    },
-    {
-      "number": 34,
-      "pali": "‘“khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti pajānāmī’ti. ",
-      "english": "‘I understand: “Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.”’” "
-    },
-    {
-      "number": 35,
-      "pali": "Aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“If a monk, while keeping track of arising & passing away with regard to the eye-faculty, becomes disenchanted with the eye-faculty; if, while keeping track of arising & passing away with regard to the ear-faculty… the nose-faculty… the tongue-faculty… the body faculty… the intellect-faculty, he becomes disenchanted with the intellect-faculty; and, disenchanted, he becomes dispassionate; through dispassion, he is released; with release, there is the knowledge, ‘Released’; he discerns that ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world,’ it is to this extent that one is consummate in faculties.”"
     }
   ]
 }

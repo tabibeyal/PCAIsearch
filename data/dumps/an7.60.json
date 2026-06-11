@@ -3,43 +3,373 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 7.60 ",
-      "english": "Numbered Discourses 7.60 "
+      "pali": "Numerical Discourses 7.60",
+      "english": "Numerical Discourses 7.60"
     },
     {
       "number": 2,
-      "pali": "6. Abyākatavagga ",
-      "english": "6. The Undeclared Points "
+      "pali": "Kodhana Sutta",
+      "english": "An Angry Person"
     },
     {
       "number": 3,
-      "pali": "Sattadhammasutta ",
-      "english": "Seven Qualities "
+      "pali": "",
+      "english": "“These seven things—pleasing to an enemy, bringing about an enemy’s aim—come to a man or woman who is angry. Which seven?"
     },
     {
       "number": 4,
-      "pali": "“Sattahi, bhikkhave, dhammehi samannāgato bhikkhu nacirasseva āsavānaṁ khayā …pe… sacchikatvā upasampajja vihareyya. ",
-      "english": "“Mendicants, a mendicant with seven qualities soon realizes the supreme culmination of the spiritual path in this very life. They live having achieved with their own insight the goal for which gentlemen rightly go forth from the lay life to homelessness. "
+      "pali": "",
+      "english": "“There is the case where an enemy wishes of an enemy, ‘O, may this person be ugly!’ Why is that? An enemy is not pleased with an enemy’s good looks. Now, when a person is angry—overcome with anger, oppressed with anger—then even though that he may be well-bathed, well-anointed, dressed in white clothes, his hair & beard neatly trimmed, he is ugly nevertheless, all because he is overcome with anger. This is the first thing pleasing to an enemy, bringing about an enemy’s aim, that comes to a man or woman who is angry."
     },
     {
       "number": 5,
-      "pali": "Katamehi sattahi? ",
-      "english": "What seven? "
+      "pali": "",
+      "english": "“And further, an enemy wishes of an enemy, ‘O, may this person sleep badly!’ Why is that? An enemy is not pleased with an enemy’s restful sleep. Now, when a person is angry—overcome with anger, oppressed with anger—then even though he sleeps on a bed spread with a white blanket, spread with a woolen coverlet, spread with a flower-embroidered bedspread, covered with a rug of deerskins, with a canopy overhead, or on a sofa with red cushions at either end, he sleeps badly nevertheless, all because he is overcome with anger. This is the second thing pleasing to an enemy, bringing about an enemy’s aim, that comes to a man or woman who is angry."
     },
     {
       "number": 6,
-      "pali": "Idha, bhikkhave, bhikkhu saddho hoti, sīlavā hoti, bahussuto hoti, paṭisallīno hoti, āraddhavīriyo hoti, satimā hoti, paññavā hoti. ",
-      "english": "It’s when a mendicant is faithful, ethical, learned, secluded, energetic, mindful, and wise. "
+      "pali": "",
+      "english": "“And further, an enemy wishes of an enemy, ‘O, may this person not profit!’ Why is that? An enemy is not pleased with an enemy’s profits. Now, when a person is angry—overcome with anger, oppressed with anger—then even when he suffers a loss, he thinks, ‘I’ve gained a profit’; and even when he gains a profit, he thinks, ‘I’ve suffered a loss.’ When he has grabbed hold of these ideas that work in mutual opposition (to the truth), they lead to his long-term suffering & loss, all because he is overcome with anger. This is the third thing pleasing to an enemy, bringing about an enemy’s aim, that comes to a man or woman who is angry."
     },
     {
       "number": 7,
-      "pali": "Imehi kho, bhikkhave, sattahi dhammehi samannāgato bhikkhu nacirasseva āsavānaṁ khayā …pe… sacchikatvā upasampajja vihareyyā”ti. ",
-      "english": "A mendicant with these seven qualities soon realizes the supreme culmination of the spiritual path in this very life. They live having achieved with their own insight the goal for which gentlemen rightly go forth from the lay life to homelessness.” "
+      "pali": "",
+      "english": "“And further, an enemy wishes of an enemy, ‘O, may this person not have any wealth!’ Why is that? An enemy is not pleased with an enemy’s wealth. Now, when a person is angry—overcome with anger, oppressed with anger—then whatever his wealth, earned through his efforts & enterprise, amassed through the strength of his arm, and piled up through the sweat of his brow—righteous wealth righteously gained—the king orders it sent to the royal treasury [in payment of fines levied for his behavior] all because he is overcome with anger. This is the fourth thing pleasing to an enemy, bringing about an enemy’s aim, that comes to a man or woman who is angry."
     },
     {
       "number": 8,
-      "pali": "Sattamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“And further, an enemy wishes of an enemy, ‘O, may this person not have any reputation!’ Why is that? An enemy is not pleased with an enemy’s reputation. Now, when a person is angry—overcome with anger, oppressed with anger—whatever reputation he has gained from being heedful, it falls away, all because he is overcome with anger. This is the fifth thing pleasing to an enemy, bringing about an enemy’s aim, that comes to a man or woman who is angry."
+    },
+    {
+      "number": 9,
+      "pali": "",
+      "english": "“And further, an enemy wishes of an enemy, ‘O, may this person not have any friends!’ Why is that? An enemy is not pleased with an enemy’s having friends. Now, when a person is angry—overcome with anger, oppressed with anger—his friends, companions, & relatives will avoid him from afar, all because he is overcome with anger. This is the sixth thing pleasing to an enemy, bringing about an enemy’s aim, that comes to a man or woman who is angry."
+    },
+    {
+      "number": 10,
+      "pali": "",
+      "english": "“And further, an enemy wishes of an enemy, ‘O, may this person, on the break-up of the body, after death, reappear in a plane of deprivation, a bad destination, a lower realm, hell!’ Why is that? An enemy is not pleased with an enemy’s going to heaven. Now, when a person is angry—overcome with anger, oppressed with anger—he engages in misconduct with the body, misconduct with speech, misconduct with the mind. Having engaged in misconduct with the body, misconduct with speech, misconduct with the mind, then—on the break-up of the body, after death—he reappears in a plane of deprivation, a bad destination, a lower realm, hell, all because he was overcome with anger. This is the seventh thing pleasing to an enemy, bringing about an enemy’s aim, that comes to a man or woman who is angry."
+    },
+    {
+      "number": 11,
+      "pali": "",
+      "english": "“These are the seven things—pleasing to an enemy, bringing about an enemy’s aim—that come to a man or woman who is angry.”"
+    },
+    {
+      "number": 12,
+      "pali": "",
+      "english": "An angry person is ugly & sleeps poorly."
+    },
+    {
+      "number": 13,
+      "pali": "",
+      "english": "Gaining a profit, he turns it into a loss,"
+    },
+    {
+      "number": 14,
+      "pali": "",
+      "english": "having done damage with word & deed."
+    },
+    {
+      "number": 15,
+      "pali": "",
+      "english": "A person overwhelmed with anger"
+    },
+    {
+      "number": 16,
+      "pali": "",
+      "english": "destroys his wealth."
+    },
+    {
+      "number": 17,
+      "pali": "",
+      "english": "Maddened with anger,"
+    },
+    {
+      "number": 18,
+      "pali": "",
+      "english": "he destroys his status."
+    },
+    {
+      "number": 19,
+      "pali": "",
+      "english": "Relatives, friends, & colleagues avoid him."
+    },
+    {
+      "number": 20,
+      "pali": "",
+      "english": "Anger brings loss."
+    },
+    {
+      "number": 21,
+      "pali": "",
+      "english": "Anger inflames the mind."
+    },
+    {
+      "number": 22,
+      "pali": "",
+      "english": "He doesn’t realize"
+    },
+    {
+      "number": 23,
+      "pali": "",
+      "english": "that his danger is born from within."
+    },
+    {
+      "number": 24,
+      "pali": "",
+      "english": "An angry person"
+    },
+    {
+      "number": 25,
+      "pali": "",
+      "english": "doesn’t know his own benefit."
+    },
+    {
+      "number": 26,
+      "pali": "",
+      "english": "An angry person"
+    },
+    {
+      "number": 27,
+      "pali": "",
+      "english": "doesn’t see the Dhamma."
+    },
+    {
+      "number": 28,
+      "pali": "",
+      "english": "A man conquered by anger"
+    },
+    {
+      "number": 29,
+      "pali": "",
+      "english": "is in a mass of darkness."
+    },
+    {
+      "number": 30,
+      "pali": "",
+      "english": "He takes pleasure in bad deeds"
+    },
+    {
+      "number": 31,
+      "pali": "",
+      "english": "as if they were good,"
+    },
+    {
+      "number": 32,
+      "pali": "",
+      "english": "but later, when his anger is gone,"
+    },
+    {
+      "number": 33,
+      "pali": "",
+      "english": "he suffers as if burned with fire."
+    },
+    {
+      "number": 34,
+      "pali": "",
+      "english": "He is spoiled, blotted out,"
+    },
+    {
+      "number": 35,
+      "pali": "",
+      "english": "like fire enveloped in smoke."
+    },
+    {
+      "number": 36,
+      "pali": "",
+      "english": "When anger spreads,"
+    },
+    {
+      "number": 37,
+      "pali": "",
+      "english": "when a man becomes angry,"
+    },
+    {
+      "number": 38,
+      "pali": "",
+      "english": "he has no shame, no compunction,"
+    },
+    {
+      "number": 39,
+      "pali": "",
+      "english": "is not respectful in speech."
+    },
+    {
+      "number": 40,
+      "pali": "",
+      "english": "For a person overcome with anger,"
+    },
+    {
+      "number": 41,
+      "pali": "",
+      "english": "nothing gives light."
+    },
+    {
+      "number": 42,
+      "pali": "",
+      "english": "I’ll list the deeds that bring remorse,"
+    },
+    {
+      "number": 43,
+      "pali": "",
+      "english": "that are far from the teachings."
+    },
+    {
+      "number": 44,
+      "pali": "",
+      "english": "Listen!"
+    },
+    {
+      "number": 45,
+      "pali": "",
+      "english": "An angry person"
+    },
+    {
+      "number": 46,
+      "pali": "",
+      "english": "kills his father,"
+    },
+    {
+      "number": 47,
+      "pali": "",
+      "english": "kills his mother,"
+    },
+    {
+      "number": 48,
+      "pali": "",
+      "english": "kills Brahmans"
+    },
+    {
+      "number": 49,
+      "pali": "",
+      "english": "& people run-of-the-mill."
+    },
+    {
+      "number": 50,
+      "pali": "",
+      "english": "It’s because of a mother’s devotion"
+    },
+    {
+      "number": 51,
+      "pali": "",
+      "english": "that one sees the world,"
+    },
+    {
+      "number": 52,
+      "pali": "",
+      "english": "yet an angry run-of-the-mill person"
+    },
+    {
+      "number": 53,
+      "pali": "",
+      "english": "can kill this giver of life."
+    },
+    {
+      "number": 54,
+      "pali": "",
+      "english": "Like oneself, all beings hold themselves most dear,"
+    },
+    {
+      "number": 55,
+      "pali": "",
+      "english": "yet an angry person, deranged,"
+    },
+    {
+      "number": 56,
+      "pali": "",
+      "english": "can kill himself in many ways:"
+    },
+    {
+      "number": 57,
+      "pali": "",
+      "english": "with a sword, taking poison,"
+    },
+    {
+      "number": 58,
+      "pali": "",
+      "english": "hanging himself by a rope in a mountain glen."
+    },
+    {
+      "number": 59,
+      "pali": "",
+      "english": "Doing these deeds"
+    },
+    {
+      "number": 60,
+      "pali": "",
+      "english": "that kill beings and do violence to himself,"
+    },
+    {
+      "number": 61,
+      "pali": "",
+      "english": "the angry person doesn’t realize he’s ruined."
+    },
+    {
+      "number": 62,
+      "pali": "",
+      "english": "This snare of Māra, in the form of anger,"
+    },
+    {
+      "number": 63,
+      "pali": "",
+      "english": "dwelling in the cave of the heart:"
+    },
+    {
+      "number": 64,
+      "pali": "",
+      "english": "Cut it out with self-control,"
+    },
+    {
+      "number": 65,
+      "pali": "",
+      "english": "discernment, persistence, right view."
+    },
+    {
+      "number": 66,
+      "pali": "",
+      "english": "The wise would cut out"
+    },
+    {
+      "number": 67,
+      "pali": "",
+      "english": "each & every form of unskillfulness."
+    },
+    {
+      "number": 68,
+      "pali": "",
+      "english": "Train yourselves:"
+    },
+    {
+      "number": 69,
+      "pali": "",
+      "english": "‘May we not be blotted out.’"
+    },
+    {
+      "number": 70,
+      "pali": "",
+      "english": "Free from anger & untroubled,"
+    },
+    {
+      "number": 71,
+      "pali": "",
+      "english": "free from greed, without longing,"
+    },
+    {
+      "number": 72,
+      "pali": "",
+      "english": "tamed, your anger abandoned,"
+    },
+    {
+      "number": 73,
+      "pali": "",
+      "english": "effluent-free, you will be"
+    },
+    {
+      "number": 74,
+      "pali": "",
+      "english": "unbound."
     }
   ]
 }

@@ -3,768 +3,198 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.79 ",
-      "english": "Linked Discourses 22.79 "
+      "pali": "Linked Discourses 22.79",
+      "english": "Linked Discourses 22.79"
     },
     {
       "number": 2,
-      "pali": "8. Khajjanīyavagga ",
-      "english": "8. Bitable "
+      "pali": "Khajjanīya Sutta",
+      "english": "Chewed Up"
     },
     {
       "number": 3,
-      "pali": "Khajjanīyasutta ",
-      "english": "Bitable "
+      "pali": "",
+      "english": "Near Sāvatthī. “Monks, any contemplatives or brahmans who recollect their manifold past lives all recollect the five clinging-aggregates, or one among them. Which five? When recollecting, ‘I was one with such a form in the past,’ one is recollecting just form. Or when recollecting, ‘I was one with such a feeling in the past,’ one is recollecting just feeling. Or when recollecting, ‘I was one with such a perception in the past,’ one is recollecting just perception. Or when recollecting, ‘I was one with such fabrications in the past,’ one is recollecting just fabrications. Or when recollecting, ‘I was one with such a consciousness in the past,’ one is recollecting just consciousness."
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“And why do you call it ‘form’ [rūpa]? ‘It is afflicted [ruppati],’ thus it is called ‘form.’ Afflicted with what? With cold & heat & hunger & thirst, with the touch of flies, mosquitoes, wind, sun, & reptiles. ‘It is afflicted,’ thus it is called ‘form.’"
     },
     {
       "number": 5,
-      "pali": "“Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā anekavihitaṁ pubbenivāsaṁ anussaramānā anussaranti sabbete pañcupādānakkhandhe anussaranti etesaṁ vā aññataraṁ. ",
-      "english": "“Mendicants, whatever ascetics and brahmins recollect many kinds of past lives, all recollect the five grasping aggregates, or one of them. "
+      "pali": "",
+      "english": "“And why do you call it ‘feeling’? ‘It feels,’ thus it is called ‘feeling.’ What does it feel? It feels pleasure, it feels pain, it feels neither-pleasure-nor-pain. ‘It feels,’ thus it is called ‘feeling.’"
     },
     {
       "number": 6,
-      "pali": "Katame pañca? ",
-      "english": "What five? "
+      "pali": "",
+      "english": "“And why do you call it ‘perception’? ‘It perceives,’ thus it is called ‘perception.’ What does it perceive? It perceives blue, it perceives yellow, it perceives red, & it perceives white. ‘It perceives,’ thus it is called ‘perception.’"
     },
     {
       "number": 7,
-      "pali": "‘Evaṁrūpo ahosiṁ atītamaddhānan’ti—",
-      "english": "‘I had such form in the past.’ "
+      "pali": "",
+      "english": "“And why do you call them ‘fabrications’? ‘They fabricate the fabricated,’ thus they are called ‘fabrications.’ And what is the fabricated that they fabricate? For the sake of form-ness, they fabricate fabricated form. For the sake of feeling-ness, they fabricate fabricated feeling. For the sake of perception-hood… For the sake of fabrication-hood… For the sake of consciousness-hood, they fabricate fabricated consciousness. ‘They fabricate the fabricated,’ thus they are called ‘fabrications.’"
     },
     {
       "number": 8,
-      "pali": "iti vā hi, bhikkhave, anussaramāno rūpaṁyeva anussarati. ",
-      "english": "Recollecting thus, it’s only form that they recollect. "
+      "pali": "",
+      "english": "“And why do you call it ‘consciousness’? ‘It cognizes,’ thus it is called ‘consciousness.’ What does it cognize? It cognizes sour, it cognizes bitter, it cognizes pungent, it cognizes sweet, it cognizes alkaline, it cognizes non-alkaline, it cognizes salty, & it cognizes unsalty. ‘It cognizes,’ thus it is called ‘consciousness.’"
     },
     {
       "number": 9,
-      "pali": "‘Evaṁvedano ahosiṁ atītamaddhānan’ti—",
-      "english": "‘I had such feeling … "
+      "pali": "",
+      "english": "“Thus an instructed disciple of the noble ones reflects in this way: ‘I am now being chewed up by form. But in the past I was also chewed up by form in the same way I am now being chewed up by present form. And if I delight in future form, then in the future I will be chewed up by form in the same way I am now being chewed up by present form.’ Having reflected in this way, he becomes indifferent to past form, does not delight in future form, and is practicing for the sake of disenchantment, dispassion, and cessation with regard to present form."
     },
     {
       "number": 10,
-      "pali": "iti vā hi, bhikkhave, anussaramāno vedanaṁyeva anussarati. ",
-      "english": ""
+      "pali": "",
+      "english": "“(He reflects:) ‘I am now being chewed up by feeling… perception… fabrications… consciousness. But in the past I was also chewed up by consciousness in the same way I am now being chewed up by present consciousness. And if I delight in future consciousness, then in the future I will be chewed up by consciousness in the same way I am now being chewed up by present consciousness.’ Having reflected in this way, he becomes indifferent to past consciousness, does not delight in future consciousness, and is practicing for the sake of disenchantment, dispassion, and cessation with regard to present consciousness."
     },
     {
       "number": 11,
-      "pali": "‘Evaṁsañño ahosiṁ atītamaddhānan’ti … ",
-      "english": "perception … "
+      "pali": "",
+      "english": "“What do you think, monks? Is form constant or inconstant?” “Inconstant, lord.” “And is that which is inconstant easeful or stressful?” “Stressful, lord.” “And is it fitting to regard what is inconstant, stressful, subject to change as: ‘This is mine. This is my self. This is what I am’?”"
     },
     {
       "number": 12,
-      "pali": "‘evaṁsaṅkhāro ahosiṁ atītamaddhānan’ti … ",
-      "english": "choices … "
+      "pali": "",
+      "english": "“No, lord.”"
     },
     {
       "number": 13,
-      "pali": "‘evaṁviññāṇo ahosiṁ atītamaddhānan’ti—",
-      "english": "consciousness in the past.’ "
+      "pali": "",
+      "english": "“… Is feeling constant or inconstant?”—“Inconstant, lord.” …"
     },
     {
       "number": 14,
-      "pali": "iti vā hi, bhikkhave, anussaramāno viññāṇameva anussarati. ",
-      "english": "Recollecting thus, it’s only consciousness that they recollect. "
+      "pali": "",
+      "english": "“… Is perception constant or inconstant?”—“Inconstant, lord.” …"
     },
     {
       "number": 15,
-      "pali": "Kiñca, bhikkhave, rūpaṁ vadetha? ",
-      "english": "And why do you call it form? "
+      "pali": "",
+      "english": "“… Are fabrications constant or inconstant?”—“Inconstant, lord.” …"
     },
     {
       "number": 16,
-      "pali": "Ruppatīti kho, bhikkhave, tasmā ‘rūpan’ti vuccati. ",
-      "english": "It’s deformed; that’s why it’s called ‘form’. "
+      "pali": "",
+      "english": "“What do you think, monks? Is consciousness constant or inconstant?” “Inconstant, lord.” “And is that which is inconstant easeful or stressful?” “Stressful, lord.” “And is it fitting to regard what is inconstant, stressful, subject to change as: ‘This is mine. This is my self. This is what I am’?”"
     },
     {
       "number": 17,
-      "pali": "Kena ruppati? ",
-      "english": "Deformed by what? "
+      "pali": "",
+      "english": "“No, lord.”"
     },
     {
       "number": 18,
-      "pali": "Sītenapi ruppati, uṇhenapi ruppati, jighacchāyapi ruppati, pipāsāyapi ruppati, ḍaṁsamakasavātātapasarīsapasamphassenapi ruppati. ",
-      "english": "Deformed by cold, heat, hunger, and thirst, and deformed by the touch of flies, mosquitoes, wind, sun, and reptiles. "
+      "pali": "",
+      "english": "“Thus, monks, any form whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: Every form is to be seen as it has come to be with right discernment as: ‘This is not mine. This is not my self. This is not what I am.’"
     },
     {
       "number": 19,
-      "pali": "Ruppatīti kho, bhikkhave, tasmā ‘rūpan’ti vuccati. ",
-      "english": "It’s deformed; that’s why it’s called ‘form’. "
+      "pali": "",
+      "english": "“Any feeling whatsoever.…"
     },
     {
       "number": 20,
-      "pali": "Kiñca, bhikkhave, vedanaṁ vadetha? ",
-      "english": "And why do you call it feeling? "
+      "pali": "",
+      "english": "“Any perception whatsoever.…"
     },
     {
       "number": 21,
-      "pali": "Vedayatīti kho, bhikkhave, tasmā ‘vedanā’ti vuccati. ",
-      "english": "It feels; that’s why it’s called ‘feeling’. "
+      "pali": "",
+      "english": "“Any fabrications whatsoever.…"
     },
     {
       "number": 22,
-      "pali": "Kiñca vedayati? ",
-      "english": "And what does it feel? "
+      "pali": "",
+      "english": "“Any consciousness whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: Every consciousness is to be seen as it has come to be with right discernment as: ‘This is not mine. This is not my self. This is not what I am.’"
     },
     {
       "number": 23,
-      "pali": "Sukhampi vedayati, dukkhampi vedayati, adukkhamasukhampi vedayati. ",
-      "english": "It feels pleasure, pain, and neutral. "
+      "pali": "",
+      "english": "“This, monks, is called a disciple of the noble ones who tears down and does not build up; who abandons and does not cling; who discards and does not pull in; who scatters and does not pile up."
     },
     {
       "number": 24,
-      "pali": "Vedayatīti kho, bhikkhave, tasmā ‘vedanā’ti vuccati. ",
-      "english": "It feels; that’s why it’s called ‘feeling’. "
+      "pali": "",
+      "english": "“And what does he tear down and not build up? He tears down form and does not build it up. He tears down feeling… perception… fabrications… consciousness and does not build it up."
     },
     {
       "number": 25,
-      "pali": "Kiñca, bhikkhave, saññaṁ vadetha? ",
-      "english": "And why do you call it perception? "
+      "pali": "",
+      "english": "“And what does he abandon and not cling to? He abandons form and does not cling to it. He abandons feeling… perception… fabrications… consciousness and does not cling to it."
     },
     {
       "number": 26,
-      "pali": "Sañjānātīti kho, bhikkhave, tasmā ‘saññā’ti vuccati. ",
-      "english": "It perceives; that’s why it’s called ‘perception’. "
+      "pali": "",
+      "english": "“And what does he discard and not pull in? He discards form and does not pull it in. He discards feeling… perception… fabrications… consciousness and does not pull it in."
     },
     {
       "number": 27,
-      "pali": "Kiñca sañjānāti? ",
-      "english": "And what does it perceive? "
+      "pali": "",
+      "english": "“And what does he scatter and not pile up? He scatters form and does not pile it up. He scatters feeling… perception… fabrications… consciousness and does not pile it up."
     },
     {
       "number": 28,
-      "pali": "Nīlampi sañjānāti, pītakampi sañjānāti, lohitakampi sañjānāti, odātampi sañjānāti. ",
-      "english": "It perceives blue, yellow, red, and white. "
+      "pali": "",
+      "english": "“Seeing thus, the instructed disciple of the noble ones grows disenchanted with form, disenchanted with feeling, disenchanted with perception, disenchanted with fabrications, disenchanted with consciousness. Disenchanted, he becomes dispassionate. Through dispassion, he is released. With release, there is the knowledge, ‘Released.’ He discerns that ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.’"
     },
     {
       "number": 29,
-      "pali": "Sañjānātīti kho, bhikkhave, tasmā ‘saññā’ti vuccati. ",
-      "english": "It perceives; that’s why it’s called ‘perception’. "
+      "pali": "",
+      "english": "“This, monks, is called a disciple of the noble ones who neither builds up nor tears down, but who stands having torn down; who neither clings nor abandons, but who stands having abandoned; who neither pulls in nor discards, but who stands having discarded; who neither piles up nor scatters, but who stands having scattered."
     },
     {
       "number": 30,
-      "pali": "Kiñca, bhikkhave, saṅkhāre vadetha? ",
-      "english": "And why do you call them choices? "
+      "pali": "",
+      "english": "“And what is it that he neither builds up nor tears down, but stands having torn it down? He neither builds up nor tears down form, but stands having torn it down. He neither builds up nor tears down feeling… perception… fabrications… consciousness, but stands having torn it down."
     },
     {
       "number": 31,
-      "pali": "Saṅkhatamabhisaṅkharontīti kho, bhikkhave, tasmā ‘saṅkhārā’ti vuccati. ",
-      "english": "Choices produce conditioned phenomena; that’s why they’re called ‘choices’. "
+      "pali": "",
+      "english": "“And what is it that he neither clings to nor abandons, but stands having abandoned it? He neither clings to nor abandons form, but stands having abandoned it. He neither clings to nor abandons feeling… perception… fabrications… consciousness, but stands having abandoned it."
     },
     {
       "number": 32,
-      "pali": "Kiñca saṅkhatamabhisaṅkharonti? ",
-      "english": "And what are the conditioned phenomena that they produce? "
+      "pali": "",
+      "english": "“And what is it that he neither pulls in nor discards, but stands having discarded it? He neither pulls in nor discards form, but stands having discarded it. He neither pulls in nor discards feeling… perception… fabrications… consciousness, but stands having discarded it."
     },
     {
       "number": 33,
-      "pali": "Rūpaṁ rūpattāya saṅkhatamabhisaṅkharonti, vedanaṁ vedanattāya saṅkhatamabhisaṅkharonti, saññaṁ saññattāya saṅkhatamabhisaṅkharonti, saṅkhāre saṅkhārattāya saṅkhatamabhisaṅkharonti, viññāṇaṁ viññāṇattāya saṅkhatamabhisaṅkharonti. ",
-      "english": "Form is a conditioned phenomenon; choices are what make it into form. Feeling is a conditioned phenomenon; choices are what make it into feeling. Perception is a conditioned phenomenon; choices are what make it into perception. Choices are conditioned phenomena; choices are what make them into choices. Consciousness is a conditioned phenomenon; choices are what make it into consciousness. "
+      "pali": "",
+      "english": "“And what is it that he neither piles up nor scatters, but stands having scattered it? He neither piles up nor scatters form, but stands having scattered it. He neither piles up nor scatters feeling… perception… fabrications… consciousness, but stands having scattered it."
     },
     {
       "number": 34,
-      "pali": "Saṅkhatamabhisaṅkharontīti kho, bhikkhave, tasmā ‘saṅkhārā’ti vuccati. ",
-      "english": "Choices produce conditioned phenomena; that’s why they’re called ‘choices’. "
+      "pali": "",
+      "english": "“And to the monk whose mind is thus released, the devas, together with Indra, the Brahmās, & Pajāpatis, pay homage even from afar:"
     },
     {
       "number": 35,
-      "pali": "Kiñca, bhikkhave, viññāṇaṁ vadetha? ",
-      "english": "And why do you call it consciousness? "
+      "pali": "",
+      "english": "‘Homage to you, O thoroughbred man."
     },
     {
       "number": 36,
-      "pali": "Vijānātīti kho, bhikkhave, tasmā ‘viññāṇan’ti vuccati. ",
-      "english": "It cognizes; that’s why it’s called ‘consciousness’. "
+      "pali": "",
+      "english": "Homage to you, O superlative man—"
     },
     {
       "number": 37,
-      "pali": "Kiñca vijānāti? ",
-      "english": "And what does it cognize? "
+      "pali": "",
+      "english": "you of whom we don’t know even what"
     },
     {
       "number": 38,
-      "pali": "Ambilampi vijānāti, tittakampi vijānāti, kaṭukampi vijānāti, madhurampi vijānāti, khārikampi vijānāti, akhārikampi vijānāti, loṇikampi vijānāti, aloṇikampi vijānāti. ",
-      "english": "It cognizes sour, bitter, pungent, sweet, hot, mild, salty, and bland. "
+      "pali": "",
+      "english": "dependent on which"
     },
     {
       "number": 39,
-      "pali": "Vijānātīti kho, bhikkhave, tasmā ‘viññāṇan’ti vuccati. ",
-      "english": "It cognizes; that’s why it’s called ‘consciousness’. "
-    },
-    {
-      "number": 40,
-      "pali": "Tatra, bhikkhave, sutavā ariyasāvako iti paṭisañcikkhati: ",
-      "english": "A learned noble disciple reflects on this: "
-    },
-    {
-      "number": 41,
-      "pali": "‘ahaṁ kho etarahi rūpena khajjāmi. ",
-      "english": "‘Currently I’m bitten by form. "
-    },
-    {
-      "number": 42,
-      "pali": "Atītampāhaṁ addhānaṁ evameva rūpena khajjiṁ, seyyathāpi etarahi paccuppannena rūpena khajjāmi. ",
-      "english": "In the past I was also bitten by form just like now. "
-    },
-    {
-      "number": 43,
-      "pali": "Ahañceva kho pana anāgataṁ rūpaṁ abhinandeyyaṁ, anāgatampāhaṁ addhānaṁ evameva rūpena khajjeyyaṁ, seyyathāpi etarahi paccuppannena rūpena khajjāmī’ti. ",
-      "english": "If I were to look forward to enjoying form in the future, I’d be bitten by form in the future just as I am today.’ "
-    },
-    {
-      "number": 44,
-      "pali": "So iti paṭisaṅkhāya atītasmiṁ rūpasmiṁ anapekkho hoti; ",
-      "english": "Reflecting like this they are not concerned with past form, "
-    },
-    {
-      "number": 45,
-      "pali": "anāgataṁ rūpaṁ nābhinandati; ",
-      "english": "they don’t look forward to enjoying future form, "
-    },
-    {
-      "number": 46,
-      "pali": "paccuppannassa rūpassa nibbidāya virāgāya nirodhāya paṭipanno hoti. ",
-      "english": "and they practice for disillusionment, dispassion, and cessation regarding present form. "
-    },
-    {
-      "number": 47,
-      "pali": "‘Ahaṁ kho etarahi vedanāya khajjāmi. ",
-      "english": "‘Currently I’m bitten by feeling … "
-    },
-    {
-      "number": 48,
-      "pali": "Atītampāhaṁ addhānaṁ evameva vedanāya khajjiṁ, seyyathāpi etarahi paccuppannāya vedanāya khajjāmi. ",
-      "english": ""
-    },
-    {
-      "number": 49,
-      "pali": "Ahañceva kho pana anāgataṁ vedanaṁ abhinandeyyaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 50,
-      "pali": "anāgatampāhaṁ addhānaṁ evameva vedanāya khajjeyyaṁ, seyyathāpi etarahi paccuppannāya vedanāya khajjāmī’ti. ",
-      "english": ""
-    },
-    {
-      "number": 51,
-      "pali": "So iti paṭisaṅkhāya atītāya vedanāya anapekkho hoti; ",
-      "english": ""
-    },
-    {
-      "number": 52,
-      "pali": "anāgataṁ vedanaṁ nābhinandati; ",
-      "english": ""
-    },
-    {
-      "number": 53,
-      "pali": "paccuppannāya vedanāya nibbidāya virāgāya nirodhāya paṭipanno hoti. ",
-      "english": ""
-    },
-    {
-      "number": 54,
-      "pali": "‘Ahaṁ kho etarahi saññāya khajjāmi …pe… ",
-      "english": "perception … "
-    },
-    {
-      "number": 55,
-      "pali": "ahaṁ kho etarahi saṅkhārehi khajjāmi. ",
-      "english": "choices … "
-    },
-    {
-      "number": 56,
-      "pali": "Atītampāhaṁ addhānaṁ evameva saṅkhārehi khajjiṁ, seyyathāpi etarahi paccuppannehi saṅkhārehi khajjāmīti. ",
-      "english": ""
-    },
-    {
-      "number": 57,
-      "pali": "Ahañceva kho pana anāgate saṅkhāre abhinandeyyaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 58,
-      "pali": "anāgatampāhaṁ addhānaṁ evameva saṅkhārehi khajjeyyaṁ, seyyathāpi etarahi paccuppannehi saṅkhārehi khajjāmī’ti. ",
-      "english": ""
-    },
-    {
-      "number": 59,
-      "pali": "So iti paṭisaṅkhāya atītesu saṅkhāresu anapekkho hoti; ",
-      "english": ""
-    },
-    {
-      "number": 60,
-      "pali": "anāgate saṅkhāre nābhinandati; ",
-      "english": ""
-    },
-    {
-      "number": 61,
-      "pali": "paccuppannānaṁ saṅkhārānaṁ nibbidāya virāgāya nirodhāya paṭipanno hoti. ",
-      "english": ""
-    },
-    {
-      "number": 62,
-      "pali": "‘Ahaṁ kho etarahi viññāṇena khajjāmi. ",
-      "english": "consciousness. "
-    },
-    {
-      "number": 63,
-      "pali": "Atītampi addhānaṁ evameva viññāṇena khajjiṁ, seyyathāpi etarahi paccuppannena viññāṇena khajjāmi. ",
-      "english": "In the past I was also bitten by consciousness just like now. "
-    },
-    {
-      "number": 64,
-      "pali": "Ahañceva kho pana anāgataṁ viññāṇaṁ abhinandeyyaṁ; ",
-      "english": "If I were to look forward to enjoying consciousness in the future, I’d be bitten by consciousness in the future just as I am today.’ "
-    },
-    {
-      "number": 65,
-      "pali": "anāgatampāhaṁ addhānaṁ evameva viññāṇena khajjeyyaṁ, seyyathāpi etarahi paccuppannena viññāṇena khajjāmī’ti. ",
-      "english": ""
-    },
-    {
-      "number": 66,
-      "pali": "So iti paṭisaṅkhāya atītasmiṁ viññāṇasmiṁ anapekkho hoti; ",
-      "english": "Reflecting like this they are not concerned with past consciousness, "
-    },
-    {
-      "number": 67,
-      "pali": "anāgataṁ viññāṇaṁ nābhinandati; ",
-      "english": "they don’t look forward to enjoying future consciousness, "
-    },
-    {
-      "number": 68,
-      "pali": "paccuppannassa viññāṇassa nibbidāya virāgāya nirodhāya paṭipanno hoti. ",
-      "english": "and they practice for disillusionment, dispassion, and cessation regarding present consciousness. "
-    },
-    {
-      "number": 69,
-      "pali": "Taṁ kiṁ maññatha, bhikkhave, ",
-      "english": "What do you think, mendicants? "
-    },
-    {
-      "number": 70,
-      "pali": "rūpaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "Is form permanent or impermanent?” "
-    },
-    {
-      "number": 71,
-      "pali": "“Aniccaṁ, bhante”. ",
-      "english": "“Impermanent, sir.” "
-    },
-    {
-      "number": 72,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": "“But if it’s impermanent, is it suffering or happiness?” "
-    },
-    {
-      "number": 73,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": "“Suffering, sir.” "
-    },
-    {
-      "number": 74,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
-    },
-    {
-      "number": 75,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": "‘This is mine, I am this, this is my self’?” "
-    },
-    {
-      "number": 76,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
-    },
-    {
-      "number": 77,
-      "pali": "“Vedanā … ",
-      "english": "“Is feeling … "
-    },
-    {
-      "number": 78,
-      "pali": "saññā … ",
-      "english": "perception … "
-    },
-    {
-      "number": 79,
-      "pali": "saṅkhārā … ",
-      "english": "choices … "
-    },
-    {
-      "number": 80,
-      "pali": "viññāṇaṁ niccaṁ vā aniccaṁ vā”ti? ",
-      "english": "consciousness permanent or impermanent?” "
-    },
-    {
-      "number": 81,
-      "pali": "“Aniccaṁ, bhante”. ",
-      "english": "“Impermanent, sir.” "
-    },
-    {
-      "number": 82,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā”ti? ",
-      "english": "“But if it’s impermanent, is it suffering or happiness?” "
-    },
-    {
-      "number": 83,
-      "pali": "“Dukkhaṁ, bhante”. ",
-      "english": "“Suffering, sir.” "
-    },
-    {
-      "number": 84,
-      "pali": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, kallaṁ nu taṁ samanupassituṁ: ",
-      "english": "“But if it’s impermanent, suffering, and perishable, is it fit to be regarded thus: "
-    },
-    {
-      "number": 85,
-      "pali": "‘etaṁ mama, esohamasmi, eso me attā’”ti? ",
-      "english": "‘This is mine, I am this, this is my self’?” "
-    },
-    {
-      "number": 86,
-      "pali": "“No hetaṁ, bhante”. ",
-      "english": "“No, sir.” "
-    },
-    {
-      "number": 87,
-      "pali": "“Tasmātiha, bhikkhave, yaṁ kiñci rūpaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, sabbaṁ rūpaṁ: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
-      "english": "“So you should truly see any kind of form at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> form—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 88,
-      "pali": "Yā kāci vedanā … ",
-      "english": "You should truly see any kind of feeling … "
-    },
-    {
-      "number": 89,
-      "pali": "yā kāci saññā … ",
-      "english": "perception … "
-    },
-    {
-      "number": 90,
-      "pali": "ye keci saṅkhārā … ",
-      "english": "choices … "
-    },
-    {
-      "number": 91,
-      "pali": "yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ …pe… yaṁ dūre santike vā, sabbaṁ viññāṇaṁ: ‘netaṁ mama, nesohamasmi, na meso attā’ti evametaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. ",
-      "english": "consciousness at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> consciousness—with right understanding: ‘This is not mine, I am not this, this is not my self.’ "
-    },
-    {
-      "number": 92,
-      "pali": "Ayaṁ vuccati, bhikkhave, ariyasāvako apacināti, no ācināti; ",
-      "english": "This is called a noble disciple who gets rid of and doesn’t accumulate; "
-    },
-    {
-      "number": 93,
-      "pali": "pajahati, na upādiyati; ",
-      "english": "who gives up and doesn’t grasp; "
-    },
-    {
-      "number": 94,
-      "pali": "visineti, na ussineti; ",
-      "english": "who umeshes and doesn’t enmesh; "
-    },
-    {
-      "number": 95,
-      "pali": "vidhūpeti, na sandhūpeti. ",
-      "english": "who dissipates and doesn’t get clouded. "
-    },
-    {
-      "number": 96,
-      "pali": "Kiñca apacināti, no ācināti? ",
-      "english": "And what things do they get rid of and not accumulate? "
-    },
-    {
-      "number": 97,
-      "pali": "Rūpaṁ apacināti, no ācināti; ",
-      "english": "They get rid of form and don’t accumulate it. "
-    },
-    {
-      "number": 98,
-      "pali": "vedanaṁ … ",
-      "english": "They get rid of feeling … "
-    },
-    {
-      "number": 99,
-      "pali": "saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 100,
-      "pali": "saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 101,
-      "pali": "viññāṇaṁ apacināti, no ācināti. ",
-      "english": "consciousness and don’t accumulate it. "
-    },
-    {
-      "number": 102,
-      "pali": "Kiñca pajahati, na upādiyati? ",
-      "english": "And what things do they give up and not grasp? "
-    },
-    {
-      "number": 103,
-      "pali": "Rūpaṁ pajahati, na upādiyati; ",
-      "english": "They give up form and don’t grasp it. "
-    },
-    {
-      "number": 104,
-      "pali": "vedanaṁ … ",
-      "english": "They give up feeling … "
-    },
-    {
-      "number": 105,
-      "pali": "saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 106,
-      "pali": "saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 107,
-      "pali": "viññāṇaṁ pajahati, na upādiyati. ",
-      "english": "consciousness and don’t grasp it. "
-    },
-    {
-      "number": 108,
-      "pali": "Kiñca visineti, na ussineti? ",
-      "english": "And what things do they unmesh and not enmesh? "
-    },
-    {
-      "number": 109,
-      "pali": "Rūpaṁ visineti, na ussineti; ",
-      "english": "They unmesh form and don’t enmesh it. "
-    },
-    {
-      "number": 110,
-      "pali": "vedanaṁ … ",
-      "english": "They unmesh feeling … "
-    },
-    {
-      "number": 111,
-      "pali": "saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 112,
-      "pali": "saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 113,
-      "pali": "viññāṇaṁ visineti, na ussineti. ",
-      "english": "consciousness and don’t enmesh it. "
-    },
-    {
-      "number": 114,
-      "pali": "Kiñca vidhūpeti, na sandhūpeti? ",
-      "english": "And what things do they dissipate and not get clouded by? "
-    },
-    {
-      "number": 115,
-      "pali": "Rūpaṁ vidhūpeti, na sandhūpeti; ",
-      "english": "They dissipate form and don’t get clouded by it. "
-    },
-    {
-      "number": 116,
-      "pali": "vedanaṁ … ",
-      "english": "They dissipate feeling … "
-    },
-    {
-      "number": 117,
-      "pali": "saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 118,
-      "pali": "saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 119,
-      "pali": "viññāṇaṁ vidhūpeti, na sandhūpeti. ",
-      "english": "consciousness and don’t get clouded by it. "
-    },
-    {
-      "number": 120,
-      "pali": "Evaṁ passaṁ, bhikkhave, sutavā ariyasāvako rūpasmimpi nibbindati, vedanāyapi … saññāyapi … saṅkhāresupi … viññāṇasmimpi nibbindati. ",
-      "english": "Seeing this, a learned noble disciple grows disillusioned with form, feeling, perception, choices, and consciousness. "
-    },
-    {
-      "number": 121,
-      "pali": "Nibbindaṁ virajjati; virāgā vimuccati. Vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. ",
-      "english": "Being disillusioned, desire fades away. When desire fades away they’re freed. When they’re freed, they know they’re freed. "
-    },
-    {
-      "number": 122,
-      "pali": "‘Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ",
-      "english": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ "
-    },
-    {
-      "number": 123,
-      "pali": "Ayaṁ vuccati, bhikkhave, bhikkhu nevācināti na apacināti, apacinitvā ṭhito; neva pajahati na upādiyati, pajahitvā ṭhito; neva visineti na ussineti, visinetvā ṭhito; neva vidhūpeti na sandhūpeti vidhūpetvā ṭhito ",
-      "english": "This is called a mendicant who neither gets rid of nor accumulates, but remains after getting rid. They neither give up nor grasp, but remain after giving up. They neither unmesh nor enmesh, but remain after unmeshing. They neither dissipate nor get clouded, but remain after dissipating. "
-    },
-    {
-      "number": 124,
-      "pali": "Kiñca nevācināti na apacināti, apacinitvā ṭhito? ",
-      "english": "And what things do they neither get rid of nor accumulate, but remain after getting rid of them? "
-    },
-    {
-      "number": 125,
-      "pali": "Rūpaṁ nevācināti na apacināti, apacinitvā ṭhito; ",
-      "english": "They neither get rid of nor accumulate form, but remain after getting rid of it. "
-    },
-    {
-      "number": 126,
-      "pali": "vedanaṁ … ",
-      "english": "They neither get rid of nor accumulate feeling … "
-    },
-    {
-      "number": 127,
-      "pali": "saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 128,
-      "pali": "saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 129,
-      "pali": "viññāṇaṁ nevācināti na apacināti, apacinitvā ṭhito. ",
-      "english": "consciousness, but remain after getting rid of it. "
-    },
-    {
-      "number": 130,
-      "pali": "Kiñca neva pajahati na upādiyati, pajahitvā ṭhito? ",
-      "english": "And what things do they neither give up nor grasp, but remain after giving them up? "
-    },
-    {
-      "number": 131,
-      "pali": "Rūpaṁ neva pajahati na upādiyati, pajahitvā ṭhito; ",
-      "english": "They neither give up nor grasp form, but remain after giving it up. "
-    },
-    {
-      "number": 132,
-      "pali": "vedanaṁ … ",
-      "english": "They neither give up nor grasp feeling … "
-    },
-    {
-      "number": 133,
-      "pali": "saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 134,
-      "pali": "saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 135,
-      "pali": "viññāṇaṁ neva pajahati na upādiyati, pajahitvā ṭhito. ",
-      "english": "consciousness, but remain after giving it up. "
-    },
-    {
-      "number": 136,
-      "pali": "Kiñca neva visineti na ussineti, visinetvā ṭhito? ",
-      "english": "And what things do they neither discard nor amass, but remain after discarding them? "
-    },
-    {
-      "number": 137,
-      "pali": "Rūpaṁ neva visineti na ussineti, visinetvā ṭhito; ",
-      "english": "They neither unmesh nor enmesh form, but remain after unmeshing it. "
-    },
-    {
-      "number": 138,
-      "pali": "vedanaṁ … ",
-      "english": "They neither unmesh nor enmesh feeling … "
-    },
-    {
-      "number": 139,
-      "pali": "saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 140,
-      "pali": "saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 141,
-      "pali": "viññāṇaṁ neva visineti na ussineti, visinetvā ṭhito. ",
-      "english": "consciousness, but remain after unmeshing it. "
-    },
-    {
-      "number": 142,
-      "pali": "Kiñca neva vidhūpeti na sandhūpeti, vidhūpetvā ṭhito? ",
-      "english": "And what things do they neither dissipate nor get clouded by, but remain after dissipating them? "
-    },
-    {
-      "number": 143,
-      "pali": "Rūpaṁ neva vidhūpeti na sandhūpeti, vidhūpetvā ṭhito; ",
-      "english": "They neither dissipate nor get clouded by form, but remain after dissipating it. "
-    },
-    {
-      "number": 144,
-      "pali": "vedanaṁ … ",
-      "english": "They neither dissipate nor get clouded by feeling … "
-    },
-    {
-      "number": 145,
-      "pali": "saññaṁ … ",
-      "english": "perception … "
-    },
-    {
-      "number": 146,
-      "pali": "saṅkhāre … ",
-      "english": "choices … "
-    },
-    {
-      "number": 147,
-      "pali": "viññāṇaṁ neva vidhūpeti na sandhūpeti, vidhūpetvā ṭhito. ",
-      "english": "consciousness, but remain after dissipating it. "
-    },
-    {
-      "number": 148,
-      "pali": "Evaṁvimuttacittaṁ kho, bhikkhave, bhikkhuṁ saindā devā sabrahmakā sapajāpatikā ārakāva namassanti: ",
-      "english": "When a mendicant’s mind is freed like this, the gods together with Indra, the Divinity, and the Progenitor worship them from afar: "
-    },
-    {
-      "number": 149,
-      "pali": "‘Namo te purisājañña, ",
-      "english": "‘Homage to you, O thoroughbred! "
-    },
-    {
-      "number": 150,
-      "pali": "namo te purisuttama; ",
-      "english": "Homage to you, supreme among men! "
-    },
-    {
-      "number": 151,
-      "pali": "Yassa te nābhijānāma, ",
-      "english": "We don’t understand "
-    },
-    {
-      "number": 152,
-      "pali": "yampi nissāya jhāyasī’”ti. ",
-      "english": "the basis of your absorption.’” "
-    },
-    {
-      "number": 153,
-      "pali": "Sattamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "you’re absorbed.’”"
     }
   ]
 }

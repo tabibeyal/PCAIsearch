@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased flex flex-col h-dvh overflow-hidden">
+      <body className="antialiased flex flex-col h-dvh overflow-hidden" suppressHydrationWarning>
         <main className="flex-1 min-h-0">{children}</main>
       </body>
     </html>

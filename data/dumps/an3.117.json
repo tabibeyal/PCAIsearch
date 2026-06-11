@@ -3,193 +3,38 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 3.117 ",
-      "english": "Numbered Discourses 3.117 "
+      "pali": "Numerical Discourses 3.117",
+      "english": "Numerical Discourses 3.117"
     },
     {
       "number": 2,
-      "pali": "12. Āpāyikavagga ",
-      "english": "12. Bound for Loss "
+      "pali": "Aneñjaka Sutta",
+      "english": "Imperturbable"
     },
     {
       "number": 3,
-      "pali": "Vipattisampadāsutta ",
-      "english": "Failures and Accomplishments "
+      "pali": "",
+      "english": "“Monks, these three persons are to be found existing in the world. Which three?"
     },
     {
       "number": 4,
-      "pali": "“Tisso imā, bhikkhave, vipattiyo. ",
-      "english": "“Mendicants, there are three failures. "
+      "pali": "",
+      "english": "“There is the case where a certain person who—with the complete transcending of perceptions of (physical) form, with the disappearance of perceptions of resistance, and not attending to perceptions of multiplicity—(perceiving,) ‘Infinite space,’ enters & remains in the dimension of the infinitude of space. He enjoys it, takes pleasure in it, & finds satisfaction in it. Staying firmly there, often remaining there, and dying without having abandoned it, he reappears in the company of the devas of the dimension of the infinitude of space. The life span of the devas of the dimension of the infinitude of space is 20,000 eons. A run-of-the-mill person, remaining there all his life, having completed the entire life span of those devas, goes to hell, to the animal womb, or to the realm of the hungry ghosts. But a disciple of the Blessed One, remaining there all his life, having completed the entire life span of those devas, is unbound in that very level of becoming. This, monks, is the difference, this the distinction, this the distinguishing factor, between an educated disciple of the noble ones and an uneducated run-of-the-mill person, when there is a destination, a reappearing."
     },
     {
       "number": 5,
-      "pali": "Katamā tisso? ",
-      "english": "What three? "
+      "pali": "",
+      "english": "“Then, monks, there is the case where a certain person who—with the complete transcending of the dimension of the infinitude of space—(perceiving,) ‘Infinite consciousness,’ enters & remains in the dimension of the infinitude of consciousness. He enjoys it, takes pleasure in it, & finds satisfaction in it. Staying firmly there, often remaining there, and dying without having abandoned it, he reappears in the company of the devas of the dimension of the infinitude of consciousness. The life span of the devas of the dimension of the infinitude of consciousness is 40,000 eons. A run-of-the-mill person, remaining there all his life, having completed the entire life span of those devas, goes to hell, to the animal womb, or to the realm of the hungry ghosts. But a disciple of the Blessed One, remaining there all his life, having completed the entire life span of those devas, is unbound in that very level of becoming. This, monks, is the difference, this the distinction, this the distinguishing factor, between an educated disciple of the noble ones and an uneducated run-of-the-mill person, when there is a destination, a reappearing."
     },
     {
       "number": 6,
-      "pali": "Sīlavipatti, cittavipatti, diṭṭhivipatti. ",
-      "english": "Failure in ethics, mind, and view. "
+      "pali": "",
+      "english": "“Then, monks, there is the case where a certain person who—with the complete transcending of the dimension of the infinitude of consciousness—(perceiving,) ‘There is nothing,’ enters & remains in the dimension of nothingness. He enjoys it, takes pleasure in it, & finds satisfaction in it. Staying firmly there, often remaining there, and dying without having abandoned it, he reappears in the company of the devas of the dimension of nothingness. The life span of the devas of the dimension of the nothingness is 60,000 eons. A run-of-the-mill person, remaining there all his life, having completed the entire life span of those devas, goes to hell, to the animal womb, or to the realm of the hungry ghosts. But a disciple of the Blessed One, remaining there all his life, having completed the entire life span of those devas, is unbound in that very level of becoming. This, monks, is the difference, this the distinction, this the distinguishing factor, between an educated disciple of the noble ones and an uneducated run-of-the-mill person, when there is a destination, a reappearing."
     },
     {
       "number": 7,
-      "pali": "Katamā ca, bhikkhave, sīlavipatti? ",
-      "english": "And what is failure in ethics? "
-    },
-    {
-      "number": 8,
-      "pali": "Idha, bhikkhave, ekacco pāṇātipātī hoti, adinnādāyī hoti, kāmesumicchācārī hoti, musāvādī hoti, pisuṇavāco hoti, pharusavāco hoti, samphappalāpī hoti. ",
-      "english": "It’s when someone kills living creatures, steals, commits sexual misconduct, and uses speech that’s false, backbiting, harsh, or nonsensical. "
-    },
-    {
-      "number": 9,
-      "pali": "Ayaṁ vuccati, bhikkhave, sīlavipatti. ",
-      "english": "This is called ‘failure in ethics’. "
-    },
-    {
-      "number": 10,
-      "pali": "Katamā ca, bhikkhave, cittavipatti? ",
-      "english": "And what is failure in mind? "
-    },
-    {
-      "number": 11,
-      "pali": "Idha, bhikkhave, ekacco abhijjhālu hoti byāpannacitto. ",
-      "english": "It’s when someone is covetous and malicious. "
-    },
-    {
-      "number": 12,
-      "pali": "Ayaṁ vuccati, bhikkhave, cittavipatti. ",
-      "english": "This is called ‘failure in mind’. "
-    },
-    {
-      "number": 13,
-      "pali": "Katamā ca, bhikkhave, diṭṭhivipatti? ",
-      "english": "And what is failure in view? "
-    },
-    {
-      "number": 14,
-      "pali": "Idha, bhikkhave, ekacco micchādiṭṭhiko hoti viparītadassano: ",
-      "english": "It’s when someone has wrong view, a distorted perspective, such as: "
-    },
-    {
-      "number": 15,
-      "pali": "‘natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ, natthi sukatadukkaṭānaṁ, kammānaṁ phalaṁ vipāko, natthi ayaṁ loko, natthi paro loko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti. ",
-      "english": "‘There’s no meaning in giving, sacrifice, or offerings. There’s no fruit or result of good and bad deeds. There’s no afterlife. There’s no such thing as mother and father, or beings that are reborn spontaneously. And there’s no ascetic or brahmin who is rightly comported and rightly practiced, and who describes the afterlife after realizing it with their own insight.’ "
-    },
-    {
-      "number": 16,
-      "pali": "Ayaṁ vuccati, bhikkhave, diṭṭhivipatti. ",
-      "english": "This is called ‘failure in view’. "
-    },
-    {
-      "number": 17,
-      "pali": "Sīlavipattihetu vā, bhikkhave, sattā kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjanti; ",
-      "english": "Some sentient beings, when their body breaks up, after death, are reborn in a place of loss, a bad place, the underworld, hell because of failure in ethics, "
-    },
-    {
-      "number": 18,
-      "pali": "cittavipattihetu vā, bhikkhave, sattā kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjanti; ",
-      "english": "mind, "
-    },
-    {
-      "number": 19,
-      "pali": "diṭṭhivipattihetu vā, bhikkhave, sattā kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjanti. ",
-      "english": "or view. "
-    },
-    {
-      "number": 20,
-      "pali": "Imā kho, bhikkhave, tisso vipattiyoti. ",
-      "english": "These are the three failures. "
-    },
-    {
-      "number": 21,
-      "pali": "Tisso imā, bhikkhave, sampadā. ",
-      "english": "There are three accomplishments. "
-    },
-    {
-      "number": 22,
-      "pali": "Katamā tisso? ",
-      "english": "What three? "
-    },
-    {
-      "number": 23,
-      "pali": "Sīlasampadā, cittasampadā, diṭṭhisampadā. ",
-      "english": "Accomplishment in ethics, mind, and view. "
-    },
-    {
-      "number": 24,
-      "pali": "Katamā ca, bhikkhave, sīlasampadā? ",
-      "english": "And what is accomplishment in ethics? "
-    },
-    {
-      "number": 25,
-      "pali": "Idha, bhikkhave, ekacco pāṇātipātā paṭivirato hoti, adinnādānā paṭivirato hoti, kāmesumicchācārā paṭivirato hoti, musāvādā paṭivirato hoti, pisuṇāya vācāya paṭivirato hoti, pharusāya vācāya paṭivirato hoti, samphappalāpā paṭivirato hoti. ",
-      "english": "It’s when someone doesn’t kill living creatures, steal, commit sexual misconduct, or use speech that’s false, backbiting, harsh, or nonsensical. "
-    },
-    {
-      "number": 26,
-      "pali": "Ayaṁ vuccati, bhikkhave, sīlasampadā. ",
-      "english": "This is called accomplishment in ethics. "
-    },
-    {
-      "number": 27,
-      "pali": "Katamā ca, bhikkhave, cittasampadā? ",
-      "english": "And what is accomplishment in mind? "
-    },
-    {
-      "number": 28,
-      "pali": "Idha, bhikkhave, ekacco anabhijjhālu hoti abyāpannacitto. ",
-      "english": "It’s when someone is content and kind-hearted. "
-    },
-    {
-      "number": 29,
-      "pali": "Ayaṁ vuccati, bhikkhave, cittasampadā. ",
-      "english": "This is called accomplishment in mind. "
-    },
-    {
-      "number": 30,
-      "pali": "Katamā ca, bhikkhave, diṭṭhisampadā? ",
-      "english": "And what is accomplishment in view? "
-    },
-    {
-      "number": 31,
-      "pali": "Idha, bhikkhave, ekacco sammādiṭṭhiko hoti aviparītadassano: ",
-      "english": "It’s when someone has right view, an undistorted perspective, such as: "
-    },
-    {
-      "number": 32,
-      "pali": "‘atthi dinnaṁ, atthi yiṭṭhaṁ, atthi hutaṁ, atthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, atthi ayaṁ loko, atthi paro loko, atthi mātā, atthi pitā, atthi sattā opapātikā, atthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti. ",
-      "english": "‘There is meaning in giving, sacrifice, and offerings. There are fruits and results of good and bad deeds. There is an afterlife. There are such things as mother and father, and beings that are reborn spontaneously. And there are ascetics and brahmins who are rightly comported and rightly practiced, and who describe the afterlife after realizing it with their own insight.’ "
-    },
-    {
-      "number": 33,
-      "pali": "Ayaṁ vuccati, bhikkhave, diṭṭhisampadā. ",
-      "english": "This is called accomplishment in view. "
-    },
-    {
-      "number": 34,
-      "pali": "Sīlasampadāhetu vā, bhikkhave, sattā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjanti; ",
-      "english": "Some sentient beings, when their body breaks up, after death, are reborn in a good place, a heavenly realm because of accomplishment in ethics, "
-    },
-    {
-      "number": 35,
-      "pali": "cittasampadāhetu vā, bhikkhave, sattā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjanti; ",
-      "english": "mind, "
-    },
-    {
-      "number": 36,
-      "pali": "diṭṭhisampadāhetu vā, bhikkhave, sattā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjanti. ",
-      "english": "or view. "
-    },
-    {
-      "number": 37,
-      "pali": "Imā kho, bhikkhave, tisso sampadā”ti. ",
-      "english": "These are the three accomplishments.” "
-    },
-    {
-      "number": 38,
-      "pali": "Pañcamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“These, monks, are three persons to be found existing in the world.”"
     }
   ]
 }

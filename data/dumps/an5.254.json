@@ -3,48 +3,73 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 5.254 ",
-      "english": "Numbered Discourses 5.254 "
+      "pali": "Numerical Discourses 5.254",
+      "english": "Numerical Discourses 5.254"
     },
     {
       "number": 2,
-      "pali": "26. Upasampadāvagga ",
-      "english": "26. Ordination "
+      "pali": "Macchariya Suttas",
+      "english": "–259 Stinginess"
     },
     {
       "number": 3,
-      "pali": "Pañcamacchariyasutta ",
-      "english": "Five Kinds of Stinginess "
+      "pali": "",
+      "english": "“Monks, there are these five forms of stinginess. Which five? Stinginess as to one’s monastery (lodgings), stinginess as to one’s family (of supporters), stinginess as to one’s gains, stinginess as to one’s status, and stinginess as to the Dhamma. These are the five forms of stinginess. And the meanest of these five is this: stinginess as to the Dhamma.”"
     },
     {
       "number": 4,
-      "pali": "“Pañcimāni, bhikkhave, macchariyāni. ",
-      "english": "“Mendicants, there are these five kinds of stinginess. "
+      "pali": "",
+      "english": "“With the abandoning and eradication of the five forms of stinginess, the holy life is fulfilled. Which five?"
     },
     {
       "number": 5,
-      "pali": "Katamāni pañca? ",
-      "english": "What five? "
+      "pali": "",
+      "english": "“With the abandoning and eradication of stinginess as to one’s monastery (lodgings), the holy life is fulfilled. With the abandoning and eradication of stinginess as to one’s family (of supporters)… stinginess as to one’s gains… stinginess as to one’s status… stinginess as to the Dhamma, the holy life is fulfilled."
     },
     {
       "number": 6,
-      "pali": "Āvāsamacchariyaṁ, kulamacchariyaṁ, lābhamacchariyaṁ, vaṇṇamacchariyaṁ, dhammamacchariyaṁ—",
-      "english": "Stinginess with dwellings, families, material things, praise, and the teachings. "
+      "pali": "",
+      "english": "“With the abandoning and eradication of these five forms of stinginess, the holy life is fulfilled.”"
     },
     {
       "number": 7,
-      "pali": "imāni kho, bhikkhave, pañca macchariyāni. ",
-      "english": "These are the five kinds of stinginess. "
+      "pali": "",
+      "english": "“Without abandoning these five qualities, one is incapable of entering & remaining in the first jhāna. Which five? Stinginess as to one’s monastery (lodgings), stinginess as to one’s family (of supporters), stinginess as to one’s gains, stinginess as to one’s status, and stinginess as to the Dhamma. Without abandoning these five qualities, one is incapable of entering & remaining in the first jhāna."
     },
     {
       "number": 8,
-      "pali": "Imesaṁ kho, bhikkhave, pañcannaṁ macchariyānaṁ etaṁ paṭikuṭṭhaṁ, yadidaṁ dhammamacchariyan”ti. ",
-      "english": "The most contemptible of these five kinds of stinginess is stinginess with the teaching.” "
+      "pali": "",
+      "english": "“With the abandoning of these five qualities, one is capable of entering & remaining in the first jhāna. Which five? Stinginess as to one’s monastery (lodgings)… one’s family (of supporters)… one’s gains… one’s status, and stinginess as to the Dhamma. With the abandoning of these five qualities, one is capable of entering & remaining in the first jhāna.”"
     },
     {
       "number": 9,
-      "pali": "Catutthaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“Without abandoning these five qualities, one is incapable of entering & remaining in the second jhāna… the third jhāna… the fourth jhāna; incapable of realizing the fruit of stream-entry… the fruit of once-returning… the fruit of non-returning… arahantship. Which five? Stinginess as to one’s monastery (lodgings)… one’s family (of supporters)… one’s gains… one’s status, and stinginess as to the Dhamma. Without abandoning these five qualities, one is incapable of entering & remaining in the second jhāna… the third jhāna… the fourth jhāna; one is incapable realizing the fruit of stream-entry… the fruit of once-returning… the fruit of non-returning… arahantship."
+    },
+    {
+      "number": 10,
+      "pali": "",
+      "english": "“With the abandoning of these five qualities, one is capable of entering & remaining in the second jhāna… the third jhāna… the fourth jhāna; capable of realizing the fruit of stream-entry… the fruit of once-returning… the fruit of non-returning… arahantship. Which five? Stinginess as to one’s monastery (lodgings)… one’s family (of supporters)… one’s gains… one’s status, and stinginess as to the Dhamma. With the abandoning of these five qualities, one is capable of entering & remaining in the second jhāna… the third jhāna… the fourth jhāna; capable realizing the fruit of stream-entry… the fruit of once-returning… the fruit of non-returning… arahantship.”"
+    },
+    {
+      "number": 11,
+      "pali": "",
+      "english": "“Without abandoning these five qualities, one is incapable of entering & remaining in the first jhāna. Which five? Stinginess as to one’s monastery (lodgings), stinginess as to one’s family (of supporters), stinginess as to one’s gains, stinginess as to one’s status, and ingratitude. Without abandoning these five qualities, one is incapable of entering & remaining in the first jhāna."
+    },
+    {
+      "number": 12,
+      "pali": "",
+      "english": "“With the abandoning of these five qualities, one is capable of entering & remaining in the first jhāna.…”"
+    },
+    {
+      "number": 13,
+      "pali": "",
+      "english": "“Without abandoning these five qualities, one is incapable of entering & remaining in the second jhāna… the third jhāna… the fourth jhāna; incapable of realizing the fruit of stream-entry… the fruit of once-returning… the fruit of non-returning… arahantship. Which five? Stinginess as to one’s monastery (lodgings), stinginess as to one’s family (of supporters), stinginess as to one’s gains, stinginess as to one’s status, and ingratitude. Without abandoning these five qualities, one is incapable of entering & remaining in the second jhāna… the third jhāna… the fourth jhāna; one is incapable realizing the fruit of stream-entry… the fruit of once-returning… the fruit of non-returning… arahantship."
+    },
+    {
+      "number": 14,
+      "pali": "",
+      "english": "“With the abandoning of these five qualities, one is capable of entering & remaining in the second jhāna… the third jhāna… the fourth jhāna; capable of realizing the fruit of stream-entry… the fruit of once-returning… the fruit of non-returning… arahantship.…”"
     }
   ]
 }

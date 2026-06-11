@@ -3,268 +3,68 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 3.112 ",
-      "english": "Numbered Discourses 3.112 "
+      "pali": "Numerical Discourses 3.112",
+      "english": "Numerical Discourses 3.112"
     },
     {
       "number": 2,
-      "pali": "11. Sambodhavagga ",
-      "english": "11. Awakening "
+      "pali": "Nidāna Sutta",
+      "english": "Causes (1)"
     },
     {
       "number": 3,
-      "pali": "Dutiyanidānasutta ",
-      "english": "Sources (2nd) "
+      "pali": "",
+      "english": "“Monks, there are three causes for the origination of action. Which three? Greed is a cause for the origination of action. Aversion is a cause for the origination of action. Delusion is a cause for the origination of action."
     },
     {
       "number": 4,
-      "pali": "“Tīṇimāni, bhikkhave, nidānāni kammānaṁ samudayāya. ",
-      "english": "“Mendicants, there are these three sources that give rise to deeds. "
+      "pali": "",
+      "english": "“Any action fashioned by greed, born of greed, caused by greed, originated through greed is unskillful, it’s blameworthy, it ripens in pain, it leads to the origination of (further) action, it doesn’t lead to the cessation of action."
     },
     {
       "number": 5,
-      "pali": "Katamāni tīṇi? ",
-      "english": "What three? "
+      "pali": "",
+      "english": "“Any action fashioned by aversion, born of aversion, caused by aversion, originated through aversion is unskillful, it’s blameworthy, it ripens in pain, it leads to the origination of (further) action, it doesn’t lead to the cessation of action."
     },
     {
       "number": 6,
-      "pali": "Atīte, bhikkhave, chandarāgaṭṭhāniye dhamme ārabbha chando jāyati; ",
-      "english": "Desire comes up for things that stimulate desire and greed in the past, future, or present. "
+      "pali": "",
+      "english": "“Any action fashioned by delusion, born of delusion, caused by delusion, originated through delusion is unskillful, it’s blameworthy, it ripens in pain, it leads to the origination of (further) action, it doesn’t lead to the cessation of action."
     },
     {
       "number": 7,
-      "pali": "anāgate, bhikkhave, chandarāgaṭṭhāniye dhamme ārabbha chando jāyati; ",
-      "english": ""
+      "pali": "",
+      "english": "“These, monks, are three causes for the origination of action."
     },
     {
       "number": 8,
-      "pali": "paccuppanne, bhikkhave, chandarāgaṭṭhāniye dhamme ārabbha chando jāyati. ",
-      "english": ""
+      "pali": "",
+      "english": "“There are three (other) causes for the origination of action."
     },
     {
       "number": 9,
-      "pali": "Kathañca, bhikkhave, atīte chandarāgaṭṭhāniye dhamme ārabbha chando jāyati? ",
-      "english": "And how does desire come up for things that stimulate desire and greed in the past, future, or present? "
+      "pali": "",
+      "english": "Which three? Non-greed is a cause for the origination of action. Non-aversion is a cause for the origination of action. Non-delusion is a cause for the origination of action."
     },
     {
       "number": 10,
-      "pali": "Atīte, bhikkhave, chandarāgaṭṭhāniye dhamme ārabbha cetasā anuvitakketi anuvicāreti. ",
-      "english": "In your heart you think about and consider things that stimulate desire and greed in the past, future, or present. "
+      "pali": "",
+      "english": "“Any action fashioned by non-greed, born of non-greed, caused by non-greed, originated through non-greed is skillful, it’s blameless, it ripens in pleasure, it leads to the cessation of action, it doesn’t lead to the origination of action."
     },
     {
       "number": 11,
-      "pali": "Tassa atīte chandarāgaṭṭhāniye dhamme ārabbha cetasā anuvitakkayato anuvicārayato chando jāyati. ",
-      "english": "When you do this, desire comes up, "
+      "pali": "",
+      "english": "“Any action fashioned by non-aversion, born of non-aversion, caused by non-aversion, originated through non-aversion is skillful, it’s blameless, it ripens in pleasure, it leads to the cessation of action, it doesn’t lead to the origination of action."
     },
     {
       "number": 12,
-      "pali": "Chandajāto tehi dhammehi saṁyutto hoti. ",
-      "english": "and you get attached to those things. "
+      "pali": "",
+      "english": "“Any action fashioned by non-delusion, born of non-delusion, caused by non-delusion, originated through non-delusion is skillful, it’s blameless, it ripens in pleasure, it leads to the cessation of action, it doesn’t lead to the origination of action."
     },
     {
       "number": 13,
-      "pali": "Etamahaṁ, bhikkhave, saṁyojanaṁ vadāmi yo cetaso sārāgo. ",
-      "english": "This lust in the heart is what I call a fetter. "
-    },
-    {
-      "number": 14,
-      "pali": "Evaṁ kho, bhikkhave, atīte chandarāgaṭṭhāniye dhamme ārabbha chando jāyati. ",
-      "english": "That’s how desire comes up for things that stimulate desire and greed in the past, future, or present. "
-    },
-    {
-      "number": 15,
-      "pali": "Kathañca, bhikkhave, anāgate chandarāgaṭṭhāniye dhamme ārabbha chando jāyati? ",
-      "english": ""
-    },
-    {
-      "number": 16,
-      "pali": "Anāgate, bhikkhave, chandarāgaṭṭhāniye dhamme ārabbha cetasā anuvitakketi anuvicāreti. ",
-      "english": ""
-    },
-    {
-      "number": 17,
-      "pali": "Tassa anāgate chandarāgaṭṭhāniye dhamme ārabbha cetasā anuvitakkayato anuvicārayato chando jāyati. ",
-      "english": ""
-    },
-    {
-      "number": 18,
-      "pali": "Chandajāto tehi dhammehi saṁyutto hoti. ",
-      "english": ""
-    },
-    {
-      "number": 19,
-      "pali": "Etamahaṁ, bhikkhave, saṁyojanaṁ vadāmi yo cetaso sārāgo. ",
-      "english": ""
-    },
-    {
-      "number": 20,
-      "pali": "Evaṁ kho, bhikkhave, anāgate chandarāgaṭṭhāniye dhamme ārabbha chando jāyati. ",
-      "english": ""
-    },
-    {
-      "number": 21,
-      "pali": "Kathañca, bhikkhave, paccuppanne chandarāgaṭṭhāniye dhamme ārabbha chando jāyati? ",
-      "english": ""
-    },
-    {
-      "number": 22,
-      "pali": "Paccuppanne, bhikkhave, chandarāgaṭṭhāniye dhamme ārabbha cetasā anuvitakketi anuvicāreti. ",
-      "english": ""
-    },
-    {
-      "number": 23,
-      "pali": "Tassa paccuppanne chandarāgaṭṭhāniye dhamme ārabbha cetasā anuvitakkayato anuvicārayato chando jāyati. ",
-      "english": ""
-    },
-    {
-      "number": 24,
-      "pali": "Chandajāto tehi dhammehi saṁyutto hoti. ",
-      "english": ""
-    },
-    {
-      "number": 25,
-      "pali": "Etamahaṁ, bhikkhave, saṁyojanaṁ vadāmi yo cetaso sārāgo. ",
-      "english": ""
-    },
-    {
-      "number": 26,
-      "pali": "Evaṁ kho, bhikkhave, paccuppanne chandarāgaṭṭhāniye dhamme ārabbha chando jāyati. ",
-      "english": ""
-    },
-    {
-      "number": 27,
-      "pali": "Imāni kho, bhikkhave, tīṇi nidānāni kammānaṁ samudayāya. ",
-      "english": "These are three sources that give rise to deeds. "
-    },
-    {
-      "number": 28,
-      "pali": "Tīṇimāni, bhikkhave, nidānāni kammānaṁ samudayāya. ",
-      "english": "There are these three sources that give rise to deeds. "
-    },
-    {
-      "number": 29,
-      "pali": "Katamāni tīṇi? ",
-      "english": "What three? "
-    },
-    {
-      "number": 30,
-      "pali": "Atīte, bhikkhave, chandarāgaṭṭhāniye dhamme ārabbha chando na jāyati; ",
-      "english": "Desire doesn’t come up for things that stimulate desire and greed in the past, future, or present. "
-    },
-    {
-      "number": 31,
-      "pali": "anāgate, bhikkhave, chandarāgaṭṭhāniye dhamme ārabbha chando na jāyati; ",
-      "english": ""
-    },
-    {
-      "number": 32,
-      "pali": "paccuppanne, bhikkhave, chandarāgaṭṭhāniye dhamme ārabbha chando na jāyati. ",
-      "english": ""
-    },
-    {
-      "number": 33,
-      "pali": "Kathañca, bhikkhave, atīte chandarāgaṭṭhāniye dhamme ārabbha chando na jāyati? ",
-      "english": "And how does desire not come up for things that stimulate desire and greed in the past, future, or present? "
-    },
-    {
-      "number": 34,
-      "pali": "Atītānaṁ, bhikkhave, chandarāgaṭṭhāniyānaṁ dhammānaṁ āyatiṁ vipākaṁ pajānāti. ",
-      "english": "You understand the future result of things that stimulate desire and greed in the past, future, or present. "
-    },
-    {
-      "number": 35,
-      "pali": "Āyatiṁ vipākaṁ viditvā tadabhinivatteti. ",
-      "english": "When you know this, you grow disillusioned, "
-    },
-    {
-      "number": 36,
-      "pali": "Tadabhinivattetvā cetasā abhinivijjhitvā paññāya ativijjha passati. ",
-      "english": "your heart becomes dispassionate, and you see it with penetrating wisdom. "
-    },
-    {
-      "number": 37,
-      "pali": "Evaṁ kho, bhikkhave, atīte chandarāgaṭṭhāniye dhamme ārabbha chando na jāyati. ",
-      "english": "That’s how desire doesn’t come up for things that stimulate desire and greed in the past, future, or present. "
-    },
-    {
-      "number": 38,
-      "pali": "Kathañca, bhikkhave, anāgate chandarāgaṭṭhāniye dhamme ārabbha chando na jāyati? ",
-      "english": ""
-    },
-    {
-      "number": 39,
-      "pali": "Anāgatānaṁ, bhikkhave, chandarāgaṭṭhāniyānaṁ dhammānaṁ āyatiṁ vipākaṁ pajānāti. ",
-      "english": ""
-    },
-    {
-      "number": 40,
-      "pali": "Āyatiṁ vipākaṁ viditvā tadabhinivatteti. ",
-      "english": ""
-    },
-    {
-      "number": 41,
-      "pali": "Tadabhinivattetvā cetasā abhinivijjhitvā paññāya ativijjha passati. ",
-      "english": ""
-    },
-    {
-      "number": 42,
-      "pali": "Evaṁ kho, bhikkhave, anāgate chandarāgaṭṭhāniye dhamme ārabbha chando na jāyati. ",
-      "english": ""
-    },
-    {
-      "number": 43,
-      "pali": "Kathañca, bhikkhave, paccuppanne chandarāgaṭṭhāniye dhamme ārabbha chando na jāyati? ",
-      "english": ""
-    },
-    {
-      "number": 44,
-      "pali": "Paccuppannānaṁ, bhikkhave, chandarāgaṭṭhāniyānaṁ dhammānaṁ āyatiṁ vipākaṁ pajānāti, āyatiṁ vipākaṁ viditvā tadabhinivatteti, tadabhinivattetvā cetasā abhinivijjhitvā paññāya ativijjha passati. ",
-      "english": ""
-    },
-    {
-      "number": 45,
-      "pali": "Evaṁ kho, bhikkhave, paccuppanne chandarāgaṭṭhāniye dhamme ārabbha chando na jāyati. ",
-      "english": ""
-    },
-    {
-      "number": 46,
-      "pali": "Imāni kho, bhikkhave, tīṇi nidānāni kammānaṁ samudayāyā”ti. ",
-      "english": "These are three sources that give rise to deeds.” "
-    },
-    {
-      "number": 47,
-      "pali": "Dasamaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 48,
-      "pali": "Sambodhavaggo paṭhamo. ",
-      "english": ""
-    },
-    {
-      "number": 49,
-      "pali": "Tassuddānaṁ ",
-      "english": ""
-    },
-    {
-      "number": 50,
-      "pali": "Pubbeva duve assādā, ",
-      "english": ""
-    },
-    {
-      "number": 51,
-      "pali": "Samaṇo ruṇṇapañcamaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 52,
-      "pali": "Atitti dve ca vuttāni, ",
-      "english": ""
-    },
-    {
-      "number": 53,
-      "pali": "Nidānāni apare duveti. ",
-      "english": ""
+      "pali": "",
+      "english": "“These, monks, are three causes for the origination of action.”"
     }
   ]
 }

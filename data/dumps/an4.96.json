@@ -3,158 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 4.96 ",
-      "english": "Numbered Discourses 4.96 "
+      "pali": "Numerical Discourses 4.96",
+      "english": "Numerical Discourses 4.96"
     },
     {
       "number": 2,
-      "pali": "10. Asuravagga ",
-      "english": "10. Titans "
+      "pali": "Rāga-vinaya Sutta",
+      "english": "The Subduing of Passion"
     },
     {
       "number": 3,
-      "pali": "Rāgavinayasutta ",
-      "english": "Removing Greed "
+      "pali": "",
+      "english": "“Monks, these four types of individuals are to be found existing in the world. Which four? The one who practices for his/her own benefit but not for that of others. The one who practices for the benefit of others but not for his/her own. The one who practices neither for his/her own benefit nor for that of others. The one who practices for his/her own benefit and for that of others."
     },
     {
       "number": 4,
-      "pali": "“Cattārome, bhikkhave, puggalā santo saṁvijjamānā lokasmiṁ. ",
-      "english": "“Mendicants, these four individuals are found in the world. "
+      "pali": "",
+      "english": "“And how is one an individual who practices for his/her own benefit but not for that of others? There is the case where a certain individual practices for the subduing of passion within him/herself but doesn’t encourage others in the subduing of passion; practices for the subduing of aversion within him/herself but doesn’t encourage others in the subduing of aversion; practices for the subduing of delusion within him/herself but doesn’t encourage others in the subduing of delusion. Such is the individual who practices for his/her own benefit but not for that of others."
     },
     {
       "number": 5,
-      "pali": "Katame cattāro? ",
-      "english": "What four? "
+      "pali": "",
+      "english": "“And how is one an individual who practices for the benefit of others but not for his/her own? There is the case where a certain individual doesn’t practice for the subduing of passion within him/herself but encourages others in the subduing of passion; he/she doesn’t practice for the subduing of aversion within him/herself but encourages others in the subduing of aversion; he/she doesn’t practice for the subduing of delusion within him/herself but encourages others in the subduing of delusion. Such is the individual who practices for the benefit of others but not for his/her own."
     },
     {
       "number": 6,
-      "pali": "Attahitāya paṭipanno no parahitāya, ",
-      "english": "One who practices to benefit themselves, but not others; "
+      "pali": "",
+      "english": "“And how is one an individual who practices neither for his/her own benefit nor for that of others? There is the case where a certain individual doesn’t practice for the subduing of passion within him/herself and doesn’t encourage others in the subduing of passion; he/she doesn’t practice for the subduing of aversion within him/herself and doesn’t encourage others in the subduing of aversion; he/she doesn’t practice for the subduing of delusion within him/herself and doesn’t encourage others in the subduing of delusion. Such is the individual who practices neither for his/her own benefit nor for that of others."
     },
     {
       "number": 7,
-      "pali": "parahitāya paṭipanno no attahitāya, ",
-      "english": "one who practices to benefit others, but not themselves; "
+      "pali": "",
+      "english": "“And how is one an individual who practices for his/her own benefit and for that of others? There is the case where a certain individual practices for the subduing of passion within him/herself and encourages others in the subduing of passion; practices for the subduing of aversion within him/herself and encourages others in the subduing of aversion; practices for the subduing of delusion within him/herself and encourages others in the subduing of delusion. Such is the individual who practices for his/her own benefit and for that of others."
     },
     {
       "number": 8,
-      "pali": "nevattahitāya paṭipanno no parahitāya, ",
-      "english": "one who practices to benefit neither themselves nor others; and "
-    },
-    {
-      "number": 9,
-      "pali": "attahitāya ceva paṭipanno parahitāya ca. ",
-      "english": "one who practices to benefit both themselves and others. "
-    },
-    {
-      "number": 10,
-      "pali": "Kathañca, bhikkhave, puggalo attahitāya paṭipanno hoti no parahitāya? ",
-      "english": "And how does an individual practice to benefit themselves, but not others? "
-    },
-    {
-      "number": 11,
-      "pali": "Idha, bhikkhave, ekacco puggalo attanā rāgavinayāya paṭipanno hoti, no paraṁ rāgavinayāya samādapeti; ",
-      "english": "It’s when an individual practices to remove their own greed, hate, and delusion, but doesn’t encourage others to do the same. "
-    },
-    {
-      "number": 12,
-      "pali": "attanā dosavinayāya paṭipanno hoti, no paraṁ dosavinayāya samādapeti; ",
-      "english": ""
-    },
-    {
-      "number": 13,
-      "pali": "attanā mohavinayāya paṭipanno hoti, no paraṁ mohavinayāya samādapeti. ",
-      "english": ""
-    },
-    {
-      "number": 14,
-      "pali": "Evaṁ kho, bhikkhave, puggalo attahitāya paṭipanno hoti, no parahitāya. ",
-      "english": "That’s how an individual practices to benefit themselves, but not others. "
-    },
-    {
-      "number": 15,
-      "pali": "Kathañca, bhikkhave, puggalo parahitāya paṭipanno hoti, no attahitāya? ",
-      "english": "And how does an individual practice to benefit others, but not themselves? "
-    },
-    {
-      "number": 16,
-      "pali": "Idha, bhikkhave, ekacco puggalo attanā na rāgavinayāya paṭipanno hoti, paraṁ rāgavinayāya samādapeti; ",
-      "english": "It’s when an individual doesn’t practice to remove their own greed, hate, and delusion, but encourages others to remove theirs. "
-    },
-    {
-      "number": 17,
-      "pali": "attanā na dosavinayāya paṭipanno hoti, paraṁ dosavinayāya samādapeti; ",
-      "english": ""
-    },
-    {
-      "number": 18,
-      "pali": "attanā na mohavinayāya paṭipanno hoti, paraṁ mohavinayāya samādapeti. ",
-      "english": ""
-    },
-    {
-      "number": 19,
-      "pali": "Evaṁ kho, bhikkhave, puggalo parahitāya paṭipanno hoti, no attahitāya. ",
-      "english": "That’s how an individual practices to benefit others, but not themselves. "
-    },
-    {
-      "number": 20,
-      "pali": "Kathañca, bhikkhave, puggalo nevattahitāya paṭipanno hoti, no parahitāya? ",
-      "english": "And how does an individual practice to benefit neither themselves nor others? "
-    },
-    {
-      "number": 21,
-      "pali": "Idha, bhikkhave, ekacco puggalo attanā na rāgavinayāya paṭipanno hoti, no paraṁ rāgavinayāya samādapeti; ",
-      "english": "It’s when an individual doesn’t practice to remove their own greed, hate, and delusion, nor do they encourage others to remove theirs. "
-    },
-    {
-      "number": 22,
-      "pali": "attanā na dosavinayāya paṭipanno hoti, no paraṁ dosavinayāya samādapeti; ",
-      "english": ""
-    },
-    {
-      "number": 23,
-      "pali": "attanā na mohavinayāya paṭipanno hoti, no paraṁ mohavinayāya samādapeti. ",
-      "english": ""
-    },
-    {
-      "number": 24,
-      "pali": "Evaṁ kho, bhikkhave, puggalo nevattahitāya paṭipanno hoti, no parahitāya. ",
-      "english": "That’s how an individual practices to benefit neither themselves nor others. "
-    },
-    {
-      "number": 25,
-      "pali": "Kathañca, bhikkhave, puggalo attahitāya ceva paṭipanno hoti parahitāya ca? ",
-      "english": "And how does an individual practice to benefit both themselves and others? "
-    },
-    {
-      "number": 26,
-      "pali": "Idha, bhikkhave, ekacco puggalo attanā ca rāgavinayāya paṭipanno hoti, parañca rāgavinayāya samādapeti; ",
-      "english": "It’s when an individual practices to remove their own greed, hate, and delusion, and encourages others to remove theirs. "
-    },
-    {
-      "number": 27,
-      "pali": "attanā ca dosavinayāya paṭipanno hoti, parañca dosavinayāya samādapeti; ",
-      "english": ""
-    },
-    {
-      "number": 28,
-      "pali": "attanā ca mohavinayāya paṭipanno hoti, parañca mohavinayāya samādapeti. ",
-      "english": ""
-    },
-    {
-      "number": 29,
-      "pali": "Evaṁ kho, bhikkhave, puggalo attahitāya ceva paṭipanno hoti parahitāya ca. ",
-      "english": "That’s how an individual practices to benefit both themselves and others. "
-    },
-    {
-      "number": 30,
-      "pali": "Ime kho, bhikkhave, cattāro puggalā santo saṁvijjamānā lokasmin”ti. ",
-      "english": "These are the four individuals found in the world.” "
-    },
-    {
-      "number": 31,
-      "pali": "Chaṭṭhaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“These are the four types of individuals to be found existing in the world.”"
     }
   ]
 }

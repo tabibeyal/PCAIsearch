@@ -3,163 +3,68 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 48.39 ",
-      "english": "Linked Discourses 48.39 "
+      "pali": "Linked Discourses 48.39",
+      "english": "Linked Discourses 48.39"
     },
     {
       "number": 2,
-      "pali": "4. Sukhindriyavagga ",
-      "english": "4. The Pleasure Faculty "
+      "pali": "Vibhaṅga Sutta",
+      "english": "An Analysis (of the Feeling Faculties) (4)"
     },
     {
       "number": 3,
-      "pali": "Kaṭṭhopamasutta ",
-      "english": "The Simile of the Fire Sticks "
+      "pali": "",
+      "english": "“Monks, there are these five faculties. Which five? The pleasure-faculty, the pain-faculty, the happiness-faculty, the distress-faculty, the equanimity-faculty."
     },
     {
       "number": 4,
-      "pali": "“Pañcimāni, bhikkhave, indriyāni. ",
-      "english": "“Mendicants, there are these five faculties. "
+      "pali": "",
+      "english": "“In dependence on a contact to be experienced as pleasure, the pleasure-faculty arises. Being eased, one discerns, ‘I am eased.’ With the cessation of that very contact to be experienced as pleasure, one discerns, ‘What was experienced as coming from that—the pleasure-faculty arising in dependence on a contact to be experienced as pleasure—ceases & grows still.’"
     },
     {
       "number": 5,
-      "pali": "Katamāni pañca? ",
-      "english": "What five? "
+      "pali": "",
+      "english": "“In dependence on a contact to be experienced as pain, the pain-faculty arises. Being pained, one discerns, ‘I am pained.’ With the cessation of that very contact to be experienced as pain, one discerns, ‘What was experienced as coming from that—the pain-faculty arising in dependence on a contact to be experienced as pain—ceases & grows still.’"
     },
     {
       "number": 6,
-      "pali": "Sukhindriyaṁ, dukkhindriyaṁ, somanassindriyaṁ, domanassindriyaṁ, upekkhindriyaṁ. ",
-      "english": "The faculties of pleasure, pain, happiness, sadness, and equanimity. "
+      "pali": "",
+      "english": "“In dependence on a contact to be experienced as happiness, the happiness-faculty arises. Being happy, one discerns, ‘I am happy.’ With the cessation of that very contact to be experienced as happiness, one discerns, ‘What was experienced as coming from that—the happiness-faculty arising in dependence on a contact to be experienced as happiness—ceases & grows still.’"
     },
     {
       "number": 7,
-      "pali": "Sukhavedaniyaṁ, bhikkhave, phassaṁ paṭicca uppajjati sukhindriyaṁ. ",
-      "english": "The faculty of pleasure arises dependent on a contact to be experienced as pleasant. "
+      "pali": "",
+      "english": "“In dependence on a contact to be experienced as distress, the distress-faculty arises. Being distressed, one discerns, ‘I am distressed.’ With the cessation of that very contact to be experienced as distress, one discerns, ‘What was experienced as coming from that—the distress-faculty arising in dependence on a contact to be experienced as distress—ceases & grows still.’"
     },
     {
       "number": 8,
-      "pali": "So sukhitova samāno ‘sukhitosmī’ti pajānāti. ",
-      "english": "When in a state of pleasure, you understand: ‘I’m in a state of pleasure.’ "
+      "pali": "",
+      "english": "“In dependence on a contact to be experienced as equanimity, the equanimity-faculty arises. Being equanimous, one discerns, ‘I am equanimous.’ With the cessation of that very contact to be experienced as equanimity, one discerns, ‘What was experienced as coming from that—the equanimity-faculty arising in dependence on a contact to be experienced as equanimity—ceases & grows still.’"
     },
     {
       "number": 9,
-      "pali": "Tasseva sukhavedaniyassa phassassa nirodhā ‘yaṁ tajjaṁ vedayitaṁ sukhavedaniyaṁ phassaṁ paṭicca uppannaṁ sukhindriyaṁ taṁ nirujjhati, taṁ vūpasammatī’ti pajānāti. ",
-      "english": "With the cessation of that contact to be experienced as pleasant, you understand that the corresponding faculty of pleasure that had arisen ceases and stops. "
+      "pali": "",
+      "english": "“Just as when, from the conjunction & combining of two fire sticks, heat is generated & fire produced, while from the separation & laying down of those fire sticks the heat coming from them ceases & grows still; in the same way, in dependence on a contact to be experienced as pleasure, the pleasure-faculty arises…"
     },
     {
       "number": 10,
-      "pali": "Dukkhavedaniyaṁ, bhikkhave, phassaṁ paṭicca uppajjati dukkhindriyaṁ. ",
-      "english": "The faculty of pain arises dependent on a contact to be experienced as painful. "
+      "pali": "",
+      "english": "“In dependence on a contact to be experienced as pain, the pain-faculty arises…"
     },
     {
       "number": 11,
-      "pali": "So dukkhitova samāno ‘dukkhitosmī’ti pajānāti. ",
-      "english": "When in a state of pain, you understand: ‘I’m in a state of pain.’ "
+      "pali": "",
+      "english": "“In dependence on a contact to be experienced as happiness, the happiness-faculty arises…"
     },
     {
       "number": 12,
-      "pali": "Tasseva dukkhavedaniyassa phassassa nirodhā ‘yaṁ tajjaṁ vedayitaṁ dukkhavedaniyaṁ phassaṁ paṭicca uppannaṁ dukkhindriyaṁ taṁ nirujjhati, taṁ vūpasammatī’ti pajānāti. ",
-      "english": "With the cessation of that contact to be experienced as painful, you understand that the corresponding faculty of pain that had arisen ceases and stops. "
+      "pali": "",
+      "english": "“In dependence on a contact to be experienced as distress, the distress-faculty arises…"
     },
     {
       "number": 13,
-      "pali": "Somanassavedaniyaṁ, bhikkhave, phassaṁ paṭicca uppajjati somanassindriyaṁ. ",
-      "english": "The faculty of happiness arises dependent on a contact to be experienced as happiness. "
-    },
-    {
-      "number": 14,
-      "pali": "So sumanova samāno ‘sumanosmī’ti pajānāti. ",
-      "english": "When in a state of happiness, you understand: ‘I’m in a state of happiness.’ "
-    },
-    {
-      "number": 15,
-      "pali": "Tasseva somanassavedaniyassa phassassa nirodhā ‘yaṁ tajjaṁ vedayitaṁ somanassavedaniyaṁ phassaṁ paṭicca uppannaṁ somanassindriyaṁ taṁ nirujjhati, taṁ vūpasammatī’ti pajānāti. ",
-      "english": "With the cessation of that contact to be experienced as happiness, you understand that the corresponding faculty of happiness that had arisen ceases and stops. "
-    },
-    {
-      "number": 16,
-      "pali": "Domanassavedaniyaṁ, bhikkhave, phassaṁ paṭicca uppajjati domanassindriyaṁ. ",
-      "english": "The faculty of sadness arises dependent on a contact to be experienced as sadness. "
-    },
-    {
-      "number": 17,
-      "pali": "So dummanova samāno ‘dummanosmī’ti pajānāti. ",
-      "english": "When in a state of sadness, you understand: ‘I’m in a state of sadness.’ "
-    },
-    {
-      "number": 18,
-      "pali": "Tasseva domanassavedaniyassa phassassa nirodhā ‘yaṁ tajjaṁ vedayitaṁ domanassavedaniyaṁ phassaṁ paṭicca uppannaṁ domanassindriyaṁ taṁ nirujjhati, taṁ vūpasammatī’ti pajānāti. ",
-      "english": "With the cessation of that contact to be experienced as sadness, you understand that the corresponding faculty of sadness that had arisen ceases and stops. "
-    },
-    {
-      "number": 19,
-      "pali": "Upekkhāvedaniyaṁ, bhikkhave, phassaṁ paṭicca uppajjati upekkhindriyaṁ. ",
-      "english": "The faculty of equanimity arises dependent on a contact to be experienced as equanimous. "
-    },
-    {
-      "number": 20,
-      "pali": "So upekkhakova samāno ‘upekkhakosmī’ti pajānāti. ",
-      "english": "When in a state of equanimity, you understand: ‘I’m in a state of equanimity.’ "
-    },
-    {
-      "number": 21,
-      "pali": "Tasseva upekkhāvedaniyassa phassassa nirodhā ‘yaṁ tajjaṁ vedayitaṁ upekkhāvedaniyaṁ phassaṁ paṭicca uppannaṁ upekkhindriyaṁ taṁ nirujjhati, taṁ vūpasammatī’ti pajānāti. ",
-      "english": "With the cessation of that contact to be experienced as equanimous, you understand that the corresponding faculty of equanimity that had arisen ceases and stops. "
-    },
-    {
-      "number": 22,
-      "pali": "Seyyathāpi, bhikkhave, dvinnaṁ kaṭṭhānaṁ saṅghaṭṭanasamodhānā usmā jāyati, tejo abhinibbattati; tesaṁyeva kaṭṭhānaṁ nānābhāvāvinikkhepā yā tajjā usmā sā nirujjhati sā vūpasammati; ",
-      "english": "When you rub two sticks together, heat is generated and fire is produced. But when you part the sticks and lay them aside, any corresponding heat ceases and stops. "
-    },
-    {
-      "number": 23,
-      "pali": "evameva kho, bhikkhave, sukhavedaniyaṁ phassaṁ paṭicca uppajjati sukhindriyaṁ. ",
-      "english": "In the same way, the faculty of pleasure arises dependent on a contact to be experienced as pleasant. "
-    },
-    {
-      "number": 24,
-      "pali": "So sukhitova samāno ‘sukhitosmī’ti pajānāti. ",
-      "english": "When in a state of pleasure, you understand: ‘I’m in a state of pleasure.’ "
-    },
-    {
-      "number": 25,
-      "pali": "Tasseva sukhavedaniyassa phassassa nirodhā ‘yaṁ tajjaṁ vedayitaṁ sukhavedaniyaṁ phassaṁ paṭicca uppajjati sukhindriyaṁ taṁ nirujjhati, taṁ vūpasammatī’ti pajānāti. ",
-      "english": "With the cessation of that contact to be experienced as pleasant, you understand that the corresponding faculty of pleasure that arises ceases and stops. "
-    },
-    {
-      "number": 26,
-      "pali": "Dukkhavedaniyaṁ, bhikkhave, phassaṁ paṭicca …pe… ",
-      "english": "The faculty of pain … "
-    },
-    {
-      "number": 27,
-      "pali": "somanassavedaniyaṁ, bhikkhave, phassaṁ paṭicca …pe… ",
-      "english": "happiness … "
-    },
-    {
-      "number": 28,
-      "pali": "domanassavedaniyaṁ, bhikkhave, phassaṁ paṭicca …pe… ",
-      "english": "sadness … "
-    },
-    {
-      "number": 29,
-      "pali": "upekkhāvedaniyaṁ, bhikkhave, phassaṁ paṭicca uppajjati upekkhindriyaṁ. ",
-      "english": "equanimity arises dependent on a contact to be experienced as equanimous. "
-    },
-    {
-      "number": 30,
-      "pali": "So upekkhakova samāno ‘upekkhakosmī’ti pajānāti. ",
-      "english": "When in a state of equanimity, you understand: ‘I’m in a state of equanimity.’ "
-    },
-    {
-      "number": 31,
-      "pali": "Tasseva upekkhāvedaniyassa phassassa nirodhā ‘yaṁ tajjaṁ vedayitaṁ upekkhāvedaniyaṁ phassaṁ paṭicca uppajjati upekkhindriyaṁ taṁ nirujjhati, taṁ vūpasammatī’ti pajānāti”. ",
-      "english": "With the cessation of that contact to be experienced as equanimous, you understand that the corresponding faculty of equanimity that arises ceases and stops.” "
-    },
-    {
-      "number": 32,
-      "pali": "Navamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“In dependence on a contact to be experienced as equanimity, the equanimity-faculty arises. Being equanimous, one discerns, ‘I am equanimous.’ With the cessation of that very contact to be experienced as equanimity, one discerns, ‘What was experienced as coming from that—the equanimity-faculty arising in dependence on a contact to be experienced as equanimity—ceases & grows still.’”"
     }
   ]
 }

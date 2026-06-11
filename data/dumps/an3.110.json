@@ -3,78 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 3.110 ",
-      "english": "Numbered Discourses 3.110 "
+      "pali": "Numerical Discourses 3.110",
+      "english": "Numerical Discourses 3.110"
     },
     {
       "number": 2,
-      "pali": "11. Sambodhavagga ",
-      "english": "11. Awakening "
+      "pali": "Kuta Sutta",
+      "english": "The Peak of the Roof"
     },
     {
       "number": 3,
-      "pali": "Byāpannasutta ",
-      "english": "Fallen "
+      "pali": "",
+      "english": "Then Anāthapiṇḍika the householder went to the Blessed One and, on arrival, having bowed to him, sat to one side. As he was sitting there, the Blessed One said to him: “Householder, when the mind is unprotected, bodily actions are unprotected as well, verbal actions are unprotected as well, mental actions are unprotected as well. When one’s bodily actions, verbal actions, & mental actions are unprotected, one’s bodily actions get soggy, one’s verbal actions get soggy, one’s mental actions get soggy. When one’s bodily actions, verbal actions, & mental actions are soggy, one’s bodily actions… verbal actions… mental actions rot. When one’s bodily actions, verbal actions, & mental actions rot, inauspicious is one’s death, inauspicious one’s passing away."
     },
     {
       "number": 4,
-      "pali": "Ekamantaṁ nisinnaṁ kho anāthapiṇḍikaṁ gahapatiṁ bhagavā etadavoca: ",
-      "english": "Seated to one side, the Buddha said to the householder Anāthapiṇḍika: "
+      "pali": "",
+      "english": "“Just as when a peak-roofed house is poorly roofed: The peak of the roof is unprotected, the roof beams are unprotected, the walls are unprotected. The peak of the roof… the roof beams… the walls get soggy. The peak of the roof… the roof beams… the walls then rot."
     },
     {
       "number": 5,
-      "pali": "“citte, gahapati, byāpanne kāyakammampi byāpannaṁ hoti, vacīkammampi byāpannaṁ hoti, manokammampi byāpannaṁ hoti. ",
-      "english": "“Householder, when the mind is fallen, bodily, verbal, and mental deeds are fallen. "
+      "pali": "",
+      "english": "“In the same way, when the mind is unprotected, bodily actions… verbal actions… mental actions are unprotected as well.… One’s bodily… verbal… mental actions get soggy… One’s bodily… verbal… mental actions rot. When one’s bodily actions, verbal actions, & mental actions rot, inauspicious is one’s death, inauspicious one’s passing away."
     },
     {
       "number": 6,
-      "pali": "Tassa byāpannakāyakammantassa byāpannavacīkammantassa byāpannamanokammantassa na bhaddakaṁ maraṇaṁ hoti, na bhaddikā kālakiriyā. ",
-      "english": "Someone whose deeds of body, speech, and mind are fallen will not have a good death. "
+      "pali": "",
+      "english": "“Now, when the mind is protected, bodily actions are protected as well, verbal actions are protected as well, mental actions are protected as well. When one’s bodily actions, verbal actions, & mental actions are protected, one’s bodily actions… verbal actions… mental actions don’t get soggy. When one’s bodily actions, verbal actions, & mental actions aren’t soggy, one’s bodily actions… verbal actions… mental actions don’t rot. When one’s bodily actions, verbal actions, & mental actions don’t rot, auspicious is one’s death, auspicious one’s passing away."
     },
     {
       "number": 7,
-      "pali": "Seyyathāpi, gahapati, kūṭāgāre ducchanne kūṭampi byāpannaṁ hoti, gopānasiyopi byāpannā honti, bhittipi byāpannā hoti; ",
-      "english": "It’s like a bungalow with a bad roof. The roof peak, rafters, and walls fall in. "
+      "pali": "",
+      "english": "“Just as when a peak-roofed house is well roofed: The peak of the roof is protected, the roof beams are protected, the walls are protected. The peak of the roof… the roof beams… the walls don’t get soggy. The peak of the roof… the roof beams… the walls don’t rot."
     },
     {
       "number": 8,
-      "pali": "evamevaṁ kho, gahapati, citte byāpanne kāyakammampi byāpannaṁ hoti, vacīkammampi byāpannaṁ hoti, manokammampi byāpannaṁ hoti. ",
-      "english": "In the same way, when the mind is fallen, bodily, verbal, and mental deeds are fallen. "
-    },
-    {
-      "number": 9,
-      "pali": "Tassa byāpannakāyakammantassa byāpannavacīkammantassa byāpannamanokammantassa na bhaddakaṁ maraṇaṁ hoti, na bhaddikā kālakiriyā. ",
-      "english": "Someone whose deeds of body, speech, and mind are fallen will not have a good death. "
-    },
-    {
-      "number": 10,
-      "pali": "Citte, gahapati, abyāpanne kāyakammampi abyāpannaṁ hoti, vacīkammampi abyāpannaṁ hoti, manokammampi abyāpannaṁ hoti. ",
-      "english": "When the mind is not fallen, bodily, verbal, and mental deeds are not fallen. "
-    },
-    {
-      "number": 11,
-      "pali": "Tassa abyāpannakāyakammantassa abyāpannavacīkammantassa abyāpannamanokammantassa bhaddakaṁ maraṇaṁ hoti, bhaddikā kālakiriyā. ",
-      "english": "Someone whose deeds of body, speech, and mind are not fallen will have a good death. "
-    },
-    {
-      "number": 12,
-      "pali": "Seyyathāpi, gahapati, kūṭāgāre succhanne kūṭampi abyāpannaṁ hoti, gopānasiyopi abyāpannā honti, bhittipi abyāpannā hoti; ",
-      "english": "It’s like a bungalow with a good roof. The roof peak, rafters, and walls are not fallen in. "
-    },
-    {
-      "number": 13,
-      "pali": "evamevaṁ kho, gahapati, citte abyāpanne kāyakammampi abyāpannaṁ hoti, vacīkammampi abyāpannaṁ hoti, manokammampi abyāpannaṁ hoti. ",
-      "english": "In the same way, when the mind is not fallen, bodily, verbal, and mental deeds are not fallen. "
-    },
-    {
-      "number": 14,
-      "pali": "Tassa abyāpannakāyakammantassa …pe… abyāpannamanokammantassa bhaddakaṁ maraṇaṁ hoti, bhaddikā kālakiriyā”ti. ",
-      "english": "Someone whose deeds of body, speech, and mind are not fallen will have a good death.” "
-    },
-    {
-      "number": 15,
-      "pali": "Aṭṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“In the same way, when the mind is protected, bodily actions… verbal actions… mental actions are protected as well… One’s bodily… verbal… mental actions don’t get soggy… One’s bodily… verbal… mental actions don’t rot. When one’s bodily actions, verbal actions, & mental actions don’t rot, auspicious is one’s death, auspicious one’s passing away.”"
     }
   ]
 }

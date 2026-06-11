@@ -3,133 +3,83 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Itivuttaka 21 ",
-      "english": "So It Was Said 21 "
+      "pali": "Itivuttaka 21",
+      "english": "Itivuttaka 21"
     },
     {
       "number": 2,
-      "pali": "Ekakanipāta ",
-      "english": "The Book of the Ones "
+      "pali": "",
+      "english": "Itivuttaka"
     },
     {
       "number": 3,
-      "pali": "Tatiyavagga ",
-      "english": "Chapter Three "
+      "pali": "",
+      "english": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, there is the case where a certain person is clear-minded. Having encompassed that mind with [my] awareness, I discern, ‘If this person were to die at this instant, then as if he were to be carried off, he would thus be placed in heaven.’ Why is that? Because his mind is clear. It’s because of clear-mindedness that there are cases where some beings–at the break-up of the body, after death–reappear in a heavenly world.”"
     },
     {
       "number": 4,
-      "pali": "Pasannacittasutta ",
-      "english": "A Pure Mind "
+      "pali": "",
+      "english": "Knowing the case"
     },
     {
       "number": 5,
-      "pali": "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ: ",
-      "english": "This was said by the Buddha, the Perfected One: that is what I heard. "
+      "pali": "",
+      "english": "of a clear-minded person,"
     },
     {
       "number": 6,
-      "pali": "“Idhāhaṁ, bhikkhave, ekaccaṁ puggalaṁ pasannacittaṁ evaṁ cetasā ceto paricca pajānāmi: ",
-      "english": "“Mendicants, when I’ve comprehended the mind of an individual whose mind is pure, I understand: "
+      "pali": "",
+      "english": "the One Awakened explained its meaning"
     },
     {
       "number": 7,
-      "pali": "‘imamhi cāyaṁ samaye puggalo kālaṁ kareyya yathābhataṁ nikkhitto evaṁ sagge’. ",
-      "english": "‘If this individual were to die right now, they would be placed in heaven as if delivered there.’ "
+      "pali": "",
+      "english": "in the presence of the monks."
     },
     {
       "number": 8,
-      "pali": "Taṁ kissa hetu? ",
-      "english": "Why is that? "
+      "pali": "",
+      "english": "If that person"
     },
     {
       "number": 9,
-      "pali": "Cittaṁ hissa, bhikkhave, pasannaṁ. ",
-      "english": "Because their mind is pure. "
+      "pali": "",
+      "english": "were to die at this instant,"
     },
     {
       "number": 10,
-      "pali": "Cetopasādahetu kho pana, bhikkhave, evam’idhekacce sattā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjantī”ti. ",
-      "english": "Purity of mind is the reason why some sentient beings, when their body breaks up, after death, are reborn in a good place, a heavenly realm.” "
+      "pali": "",
+      "english": "he’d reappear in heaven"
     },
     {
       "number": 11,
-      "pali": "Etamatthaṁ bhagavā avoca. ",
-      "english": "The Buddha spoke this matter. "
+      "pali": "",
+      "english": "because his mind is clear–"
     },
     {
       "number": 12,
-      "pali": "Tatthetaṁ iti vuccati: ",
-      "english": "On this it is said: "
+      "pali": "",
+      "english": "as if he were carried off"
     },
     {
       "number": 13,
-      "pali": "“Pasannacittaṁ ñatvāna, ",
-      "english": "“Knowing an individual’s "
+      "pali": "",
+      "english": "and placed there."
     },
     {
       "number": 14,
-      "pali": "ekaccaṁ idha puggalaṁ; ",
-      "english": "pure mind, "
+      "pali": "",
+      "english": "It’s because of clear-mindedness"
     },
     {
       "number": 15,
-      "pali": "Etamatthañca byākāsi, ",
-      "english": "the Buddha explained this matter "
+      "pali": "",
+      "english": "that beings go"
     },
     {
       "number": 16,
-      "pali": "buddho bhikkhūna santike. ",
-      "english": "in the mendicants’ presence. "
-    },
-    {
-      "number": 17,
-      "pali": "Imamhi cāyaṁ samaye, ",
-      "english": "If that individual "
-    },
-    {
-      "number": 18,
-      "pali": "kālaṁ kayirātha puggalo; ",
-      "english": "were to die at this time, "
-    },
-    {
-      "number": 19,
-      "pali": "Sugatiṁ upapajjeyya, ",
-      "english": "they’d be reborn in heaven, "
-    },
-    {
-      "number": 20,
-      "pali": "cittaṁ hissa pasāditaṁ. ",
-      "english": "for their mind is pure. "
-    },
-    {
-      "number": 21,
-      "pali": "Yathā haritvā nikkhipeyya, ",
-      "english": "That sort is raised up as surely "
-    },
-    {
-      "number": 22,
-      "pali": "evamevaṁ tathāvidho; ",
-      "english": "as if they’d been carried and put there. "
-    },
-    {
-      "number": 23,
-      "pali": "Cetopasādahetu hi, ",
-      "english": "For purity of mind is the reason "
-    },
-    {
-      "number": 24,
-      "pali": "sattā gacchanti suggatin”ti. ",
-      "english": "sentient beings go to a good place.” "
-    },
-    {
-      "number": 25,
-      "pali": "Ayampi attho vutto bhagavatā, iti me sutanti. ",
-      "english": "This too is a matter that was spoken by the Blessed One: that is what I heard. "
-    },
-    {
-      "number": 26,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "to a good destination."
     }
   ]
 }

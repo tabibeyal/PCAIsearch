@@ -3,33 +3,73 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Aṅguttara Nikāya 1 ",
-      "english": "Numbered Discourses 1.21–30 "
+      "pali": "Numerical Discourses 1.21",
+      "english": "Numerical Discourses 1.21"
     },
     {
       "number": 2,
-      "pali": "3. Akammaniyavagga ",
-      "english": "3. Unworkable "
+      "pali": "Ekadhamma Suttas",
+      "english": "–30, 39–40 A Single Thing"
     },
     {
       "number": 3,
-      "pali": "21 ",
-      "english": "21 "
+      "pali": "",
+      "english": "21. “I don’t envision a single thing that, when undeveloped, is as unpliant as the mind. The mind, when undeveloped, is unpliant.”"
     },
     {
       "number": 4,
-      "pali": "“Nāhaṁ, bhikkhave, aññaṁ ekadhammampi samanupassāmi yaṁ evaṁ abhāvitaṁ akammaniyaṁ hoti yathayidaṁ, bhikkhave, cittaṁ. ",
-      "english": "“Mendicants, I do not see a single thing that, when it’s not developed like this, is as unworkable as the mind. "
+      "pali": "",
+      "english": "22. “I don’t envision a single thing that, when developed, is as pliant as the mind. The mind, when developed, is pliant.”"
     },
     {
       "number": 5,
-      "pali": "Cittaṁ, bhikkhave, abhāvitaṁ akammaniyaṁ hotī”ti. ",
-      "english": "An undeveloped mind is unworkable.” "
+      "pali": "",
+      "english": "23. “I don’t envision a single thing that, when undeveloped, leads to such great harm as the mind. The mind, when undeveloped, leads to great harm.”"
     },
     {
       "number": 6,
-      "pali": "Paṭhamaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "24. “I don’t envision a single thing that, when developed, leads to such great benefit as the mind. The mind, when developed, leads to great benefit.”"
+    },
+    {
+      "number": 7,
+      "pali": "",
+      "english": "25. “I don’t envision a single thing that, when undeveloped & unapparent, leads to such great harm as the mind. The mind, when undeveloped & unapparent, leads to great harm.”"
+    },
+    {
+      "number": 8,
+      "pali": "",
+      "english": "26. “I don’t envision a single thing that, when developed & apparent, leads to such great benefit as the mind. The mind, when developed & apparent, leads to great benefit.”"
+    },
+    {
+      "number": 9,
+      "pali": "",
+      "english": "27. “I don’t envision a single thing that, when undeveloped & uncultivated, leads to such great harm as the mind. The mind, when undeveloped & uncultivated, leads to great harm.”"
+    },
+    {
+      "number": 10,
+      "pali": "",
+      "english": "28. “I don’t envision a single thing that, when developed & cultivated, leads to such great benefit as the mind. The mind, when developed & cultivated, leads to great benefit.”"
+    },
+    {
+      "number": 11,
+      "pali": "",
+      "english": "29. “I don’t envision a single thing that, when undeveloped & uncultivated, brings about such suffering & stress as the mind. The mind, when undeveloped & uncultivated, brings about suffering & stress.”"
+    },
+    {
+      "number": 12,
+      "pali": "",
+      "english": "30. “I don’t envision a single thing that, when developed & cultivated, brings about such happiness as the mind. The mind, when developed & cultivated, brings about happiness.”"
+    },
+    {
+      "number": 13,
+      "pali": "",
+      "english": "39. “I don’t envision a single thing that—when untamed, unguarded, unprotected, unrestrained—leads to such great harm as the mind. The mind—when untamed, unguarded, unprotected, unrestrained—leads to great harm.”"
+    },
+    {
+      "number": 14,
+      "pali": "",
+      "english": "40. “I don’t envision a single thing that—when tamed, guarded, protected, restrained—leads to such great benefit as the mind. The mind—when tamed, guarded, protected, restrained—leads to great benefit.”"
     }
   ]
 }

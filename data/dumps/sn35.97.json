@@ -3,238 +3,63 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 35.97 ",
-      "english": "Linked Discourses 35.97 "
+      "pali": "Linked Discourses 35.97",
+      "english": "Linked Discourses 35.97"
     },
     {
       "number": 2,
-      "pali": "10. Saḷavagga ",
-      "english": "10. The Sixes "
+      "pali": "Pamādavihārin Sutta",
+      "english": "Dwelling in Heedlessness"
     },
     {
       "number": 3,
-      "pali": "Pamādavihārīsutta ",
-      "english": "One Who Lives Negligently "
+      "pali": "",
+      "english": "“Monks, I will teach you about one who dwells in heedlessness and one who dwells in heedfulness. Listen & pay careful attention, I will speak.”"
     },
     {
       "number": 4,
-      "pali": "“Pamādavihāriñca vo, bhikkhave, desessāmi appamādavihāriñca. ",
-      "english": "“Mendicants, I will teach you who lives negligently and who lives diligently. "
+      "pali": "",
+      "english": "“As you say, lord,” the monks responded to the Blessed One."
     },
     {
       "number": 5,
-      "pali": "Taṁ suṇātha. ",
-      "english": "Listen … "
+      "pali": "",
+      "english": "The Blessed One said: “And how does one dwell in heedlessness? When a monk dwells without restraint over the faculty of the eye, the mind is stained with forms cognizable via the eye. When the mind is stained, there is no joy. There being no joy, there is no rapture. There being no rapture, there is no calm. There being no calm, he dwells in pain. When pained, the mind does not become centered. When the mind is uncentered, phenomena don’t become manifest. When phenomena aren’t manifest, he is reckoned simply as one who dwells in heedlessness."
     },
     {
       "number": 6,
-      "pali": "Kathañca, bhikkhave, pamādavihārī hoti? ",
-      "english": "And how does someone live negligently? "
+      "pali": "",
+      "english": "“When a monk dwells without restraint over the ear… nose… tongue… body…"
     },
     {
       "number": 7,
-      "pali": "Cakkhundriyaṁ asaṁvutassa, bhikkhave, viharato cittaṁ byāsiñcati cakkhuviññeyyesu rūpesu. ",
-      "english": "When you live with the eye faculty unrestrained, your mind becomes polluted when it comes to sights known by the eye. "
+      "pali": "",
+      "english": "“When a monk dwells without restraint over the faculty of the intellect, the mind is stained with ideas cognizable via the intellect. When the mind is stained, there is no joy. There being no joy, there is no rapture. There being no rapture, there is no calm. There being no calm, he dwells in pain. When pained, the mind does not become centered. When the mind is uncentered, phenomena don’t become manifest. When phenomena aren’t manifest, he is reckoned simply as one who dwells in heedlessness."
     },
     {
       "number": 8,
-      "pali": "tassa byāsittacittassa pāmojjaṁ na hoti. ",
-      "english": "When the mind is polluted, there’s no joy. "
+      "pali": "",
+      "english": "“This is how one dwells in heedlessness."
     },
     {
       "number": 9,
-      "pali": "Pāmojje asati pīti na hoti. ",
-      "english": "When there’s no joy, there’s no rapture. "
+      "pali": "",
+      "english": "“And how does one dwell in heedfulness? When a monk dwells with restraint over the faculty of the eye, the mind is not stained with forms cognizable via the eye. When the mind is not stained, joy is born. In one who has joy, rapture is born. The body of one enraptured at heart grows calm. When the body is calm, one feels pleasure. Feeling pleasure, the mind becomes centered. When the mind is centered, phenomena become manifest. When phenomena are manifest, he is reckoned as one who dwells in heedfulness."
     },
     {
       "number": 10,
-      "pali": "Pītiyā asati passaddhi na hoti. ",
-      "english": "When there’s no rapture, there’s no tranquility. "
+      "pali": "",
+      "english": "“When a monk dwells with restraint over the ear… nose… tongue… body…"
     },
     {
       "number": 11,
-      "pali": "Passaddhiyā asati dukkhaṁ hoti. ",
-      "english": "When there’s no tranquility, there’s suffering. "
+      "pali": "",
+      "english": "“When a monk dwells with restraint over the faculty of the intellect, the mind is not stained with ideas cognizable via the intellect. When the mind is not stained, joy is born. In one who has joy, rapture is born. The body of one enraptured at heart grows calm. When the body is calm, one feels pleasure. Feeling pleasure, the mind becomes centered. When the mind is centered, phenomena become manifest. When phenomena are manifest, he is reckoned as one who dwells in heedfulness."
     },
     {
       "number": 12,
-      "pali": "Dukkhino cittaṁ na samādhiyati. ",
-      "english": "When one is suffering, the mind does not become immersed in samādhi. "
-    },
-    {
-      "number": 13,
-      "pali": "Asamāhite citte dhammā na pātubhavanti. ",
-      "english": "When the mind is not immersed in samādhi, principles do not become clear. "
-    },
-    {
-      "number": 14,
-      "pali": "Dhammānaṁ apātubhāvā pamādavihārītveva saṅkhaṁ gacchati …pe… ",
-      "english": "Because principles have not become clear, you’re reckoned to live negligently. "
-    },
-    {
-      "number": 15,
-      "pali": "jivhindriyaṁ asaṁvutassa, bhikkhave, viharato cittaṁ byāsiñcati jivhāviññeyyesu rasesu, ",
-      "english": "When you live with the ear … nose … tongue … body … "
-    },
-    {
-      "number": 16,
-      "pali": "tassa byāsittacittassa …pe… ",
-      "english": ""
-    },
-    {
-      "number": 17,
-      "pali": "pamādavihārītveva saṅkhaṁ gacchati …pe… ",
-      "english": ""
-    },
-    {
-      "number": 18,
-      "pali": "manindriyaṁ asaṁvutassa, bhikkhave, viharato cittaṁ byāsiñcati manoviññeyyesu dhammesu, ",
-      "english": "mind faculty unrestrained, your mind becomes polluted when it comes to ideas known by the mind. "
-    },
-    {
-      "number": 19,
-      "pali": "tassa byāsittacittassa pāmojjaṁ na hoti. ",
-      "english": "When the mind is polluted, there’s no joy. "
-    },
-    {
-      "number": 20,
-      "pali": "Pāmojje asati pīti na hoti. ",
-      "english": "When there’s no joy, there’s no rapture. "
-    },
-    {
-      "number": 21,
-      "pali": "Pītiyā asati passaddhi na hoti. ",
-      "english": "When there’s no rapture, there’s no tranquility. "
-    },
-    {
-      "number": 22,
-      "pali": "Passaddhiyā asati dukkhaṁ hoti. ",
-      "english": "When there’s no tranquility, there’s suffering. "
-    },
-    {
-      "number": 23,
-      "pali": "Dukkhino cittaṁ na samādhiyati. ",
-      "english": "When one is suffering, the mind does not become immersed in samādhi. "
-    },
-    {
-      "number": 24,
-      "pali": "Asamāhite citte dhammā na pātubhavanti. ",
-      "english": "When the mind is not immersed in samādhi, principles do not become clear. "
-    },
-    {
-      "number": 25,
-      "pali": "Dhammānaṁ apātubhāvā pamādavihārītveva saṅkhaṁ gacchati. ",
-      "english": "Because principles have not become clear, you’re reckoned to live negligently. "
-    },
-    {
-      "number": 26,
-      "pali": "Evaṁ kho, bhikkhave, pamādavihārī hoti. ",
-      "english": "That’s how someone lives negligently. "
-    },
-    {
-      "number": 27,
-      "pali": "Kathañca, bhikkhave, appamādavihārī hoti? ",
-      "english": "And how does someone live diligently? "
-    },
-    {
-      "number": 28,
-      "pali": "Cakkhundriyaṁ saṁvutassa, bhikkhave, viharato cittaṁ na byāsiñcati cakkhuviññeyyesu rūpesu, ",
-      "english": "When you live with the eye faculty restrained, your mind doesn’t become polluted when it comes to sights known by the eye. "
-    },
-    {
-      "number": 29,
-      "pali": "tassa abyāsittacittassa pāmojjaṁ jāyati. ",
-      "english": "When the mind isn’t polluted, joy springs up. "
-    },
-    {
-      "number": 30,
-      "pali": "Pamuditassa pīti jāyati. ",
-      "english": "Being joyful, rapture springs up. "
-    },
-    {
-      "number": 31,
-      "pali": "Pītimanassa kāyo passambhati. ",
-      "english": "When the mind is full of rapture, the body becomes tranquil. "
-    },
-    {
-      "number": 32,
-      "pali": "Passaddhakāyo sukhaṁ viharati. ",
-      "english": "When the body is tranquil, one feels bliss. "
-    },
-    {
-      "number": 33,
-      "pali": "Sukhino cittaṁ samādhiyati. ",
-      "english": "And when blissful, the mind becomes immersed in samādhi. "
-    },
-    {
-      "number": 34,
-      "pali": "Samāhite citte dhammā pātubhavanti. ",
-      "english": "When the mind is immersed in samādhi, principles become clear. "
-    },
-    {
-      "number": 35,
-      "pali": "Dhammānaṁ pātubhāvā appamādavihārītveva saṅkhaṁ gacchati …pe… ",
-      "english": "Because principles have become clear, you’re reckoned to live diligently. "
-    },
-    {
-      "number": 36,
-      "pali": "jivhindriyaṁ saṁvutassa, bhikkhave, viharato cittaṁ na byāsiñcati …pe… ",
-      "english": "When you live with the ear … nose … tongue … body … "
-    },
-    {
-      "number": 37,
-      "pali": "appamādavihārītveva saṅkhaṁ gacchati. ",
-      "english": ""
-    },
-    {
-      "number": 38,
-      "pali": "Manindriyaṁ saṁvutassa, bhikkhave, viharato cittaṁ na byāsiñcati, manoviññeyyesu dhammesu, ",
-      "english": "mind faculty restrained, your mind doesn’t become polluted when it comes to ideas known by the mind. "
-    },
-    {
-      "number": 39,
-      "pali": "tassa abyāsittacittassa pāmojjaṁ jāyati. ",
-      "english": "When the mind isn’t polluted, joy springs up. "
-    },
-    {
-      "number": 40,
-      "pali": "Pamuditassa pīti jāyati. ",
-      "english": "Being joyful, rapture springs up. "
-    },
-    {
-      "number": 41,
-      "pali": "Pītimanassa kāyo passambhati. ",
-      "english": "When the mind is full of rapture, the body becomes tranquil. "
-    },
-    {
-      "number": 42,
-      "pali": "Passaddhakāyo sukhaṁ viharati. ",
-      "english": "When the body is tranquil, one feels bliss. "
-    },
-    {
-      "number": 43,
-      "pali": "Sukhino cittaṁ samādhiyati. ",
-      "english": "And when blissful, the mind becomes immersed in samādhi. "
-    },
-    {
-      "number": 44,
-      "pali": "Samāhite citte dhammā pātubhavanti. ",
-      "english": "When the mind is immersed in samādhi, principles become clear. "
-    },
-    {
-      "number": 45,
-      "pali": "Dhammānaṁ pātubhāvā appamādavihārītveva saṅkhaṁ gacchati. ",
-      "english": "Because principles have become clear, you’re reckoned to live diligently. "
-    },
-    {
-      "number": 46,
-      "pali": "Evaṁ kho, bhikkhave, appamādavihārī hotī”ti. ",
-      "english": "That’s how someone lives diligently.” "
-    },
-    {
-      "number": 47,
-      "pali": "Catutthaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“This is how one dwells in heedfulness.”"
     }
   ]
 }

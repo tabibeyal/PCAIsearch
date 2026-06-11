@@ -3,108 +3,93 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 22.48 ",
-      "english": "Linked Discourses 22.48 "
+      "pali": "Linked Discourses 22.48",
+      "english": "Linked Discourses 22.48"
     },
     {
       "number": 2,
-      "pali": "5. Attadīpavagga ",
-      "english": "5. Be Your Own Island "
+      "pali": "Khandha Sutta",
+      "english": "Aggregates"
     },
     {
       "number": 3,
-      "pali": "Khandhasutta ",
-      "english": "Aggregates "
+      "pali": "",
+      "english": "Near Sāvatthī. There the Blessed One said, “Monks, I will teach you the five aggregates & the five clinging-aggregates. Listen & pay close attention. I will speak.”"
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "“As you say, lord,” the monks responded to him."
     },
     {
       "number": 5,
-      "pali": "“Pañca, bhikkhave, khandhe desessāmi, pañcupādānakkhandhe ca. ",
-      "english": "“Mendicants, I will teach you the five aggregates and the five grasping aggregates. "
+      "pali": "",
+      "english": "The Blessed One said, “Now what, monks, are the five aggregates?"
     },
     {
       "number": 6,
-      "pali": "Taṁ suṇātha. ",
-      "english": "Listen … "
+      "pali": "",
+      "english": "“Any form whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: That is called the form aggregate."
     },
     {
       "number": 7,
-      "pali": "Katame ca, bhikkhave, pañcakkhandhā? ",
-      "english": "And what are the five aggregates? "
+      "pali": "",
+      "english": "“Any feeling whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: That is called the feeling aggregate."
     },
     {
       "number": 8,
-      "pali": "Yaṁ kiñci, bhikkhave, rūpaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, ayaṁ vuccati rūpakkhandho. ",
-      "english": "Any kind of form at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: this is called the aggregate of form. "
+      "pali": "",
+      "english": "“Any perception whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: That is called the perception aggregate."
     },
     {
       "number": 9,
-      "pali": "Yā kāci vedanā …pe… ",
-      "english": "Any kind of feeling at all … "
+      "pali": "",
+      "english": "“Any fabrications whatsoever that are past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: Those are called the fabrication aggregate."
     },
     {
       "number": 10,
-      "pali": "yā kāci saññā … ",
-      "english": "Any kind of perception at all … "
+      "pali": "",
+      "english": "“Any consciousness whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: That is called the consciousness aggregate."
     },
     {
       "number": 11,
-      "pali": "ye keci saṅkhārā atītānāgatapaccuppannā ajjhattaṁ vā bahiddhā vā oḷārikā vā sukhumā vā …pe… ayaṁ vuccati saṅkhārakkhandho. ",
-      "english": "Any kind of choices at all … "
+      "pali": "",
+      "english": "“These are called the five aggregates."
     },
     {
       "number": 12,
-      "pali": "Yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā yaṁ dūre santike vā, ayaṁ vuccati viññāṇakkhandho. ",
-      "english": "Any kind of consciousness at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: this is called the aggregate of consciousness. "
+      "pali": "",
+      "english": "“And what are the five clinging-aggregates?"
     },
     {
       "number": 13,
-      "pali": "Ime vuccanti, bhikkhave, pañcakkhandhā. ",
-      "english": "These are called the five aggregates. "
+      "pali": "",
+      "english": "“Any form whatsoever—past, future, or present; internal or external; blatant or subtle; common or sublime; far or near—that is clingable, offers sustenance, and is accompanied with effluents: That is called the form clinging-aggregate."
     },
     {
       "number": 14,
-      "pali": "Katame ca, bhikkhave, pañcupādānakkhandhā? ",
-      "english": "And what are the five grasping aggregates? "
+      "pali": "",
+      "english": "“Any feeling whatsoever—past, future, or present; internal or external; blatant or subtle; common or sublime; far or near—that is clingable, offers sustenance, and is accompanied with effluents: That is called the feeling clinging-aggregate."
     },
     {
       "number": 15,
-      "pali": "Yaṁ kiñci, bhikkhave, rūpaṁ atītānāgatapaccuppannaṁ …pe… yaṁ dūre santike vā sāsavaṁ upādāniyaṁ, ayaṁ vuccati rūpupādānakkhandho. ",
-      "english": "Any kind of form at all—past, future, or present; internal or external; coarse or fine; inferior or superior; far or near, which is accompanied by defilements and fuels grasping: this is called the grasping aggregate of form. "
+      "pali": "",
+      "english": "“Any perception whatsoever—past, future, or present; internal or external; blatant or subtle; common or sublime; far or near—that is clingable, offers sustenance, and is accompanied with effluents: That is called the perception clinging-aggregate."
     },
     {
       "number": 16,
-      "pali": "Yā kāci vedanā …pe… yā dūre santike vā sāsavā upādāniyā, ayaṁ vuccati vedanupādānakkhandho. ",
-      "english": "Any kind of feeling at all … "
+      "pali": "",
+      "english": "“Any fabrications whatsoever—past, future, or present; internal or external; blatant or subtle; common or sublime; far or near—that are clingable, offer sustenance, and are accompanied with effluents: Those are called the fabrication clinging-aggregate."
     },
     {
       "number": 17,
-      "pali": "Yā kāci saññā …pe… yā dūre santike vā sāsavā upādāniyā, ayaṁ vuccati saññupādānakkhandho. ",
-      "english": "Any kind of perception at all … "
+      "pali": "",
+      "english": "“Any consciousness whatsoever—past, future, or present; internal or external; blatant or subtle; common or sublime; far or near—that is clingable, offers sustenance, and is accompanied with effluents: That is called the consciousness clinging-aggregate."
     },
     {
       "number": 18,
-      "pali": "Ye keci saṅkhārā …pe… sāsavā upādāniyā, ayaṁ vuccati saṅkhārupādānakkhandho. ",
-      "english": "Any kind of choices at all … "
-    },
-    {
-      "number": 19,
-      "pali": "Yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ …pe… yaṁ dūre santike vā sāsavaṁ upādāniyaṁ, ayaṁ vuccati viññāṇupādānakkhandho. ",
-      "english": "Any kind of consciousness at all—past, future, or present; internal or external; coarse or fine; inferior or superior; far or near, which is accompanied by defilements and is fuels grasping: this is called the grasping aggregate of consciousness. "
-    },
-    {
-      "number": 20,
-      "pali": "Ime vuccanti, bhikkhave, pañcupādānakkhandhā”ti. ",
-      "english": "These are called the five grasping aggregates.” "
-    },
-    {
-      "number": 21,
-      "pali": "Chaṭṭhaṁ. ",
-      "english": ""
+      "pali": "",
+      "english": "“These are called the five clinging-aggregates.”"
     }
   ]
 }

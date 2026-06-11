@@ -3,283 +3,43 @@
   "verses": [
     {
       "number": 1,
-      "pali": "Saṁyutta Nikāya 2.8 ",
-      "english": "Linked Discourses 2.8 "
+      "pali": "Linked Discourses 2.8",
+      "english": "Linked Discourses 2.8"
     },
     {
       "number": 2,
-      "pali": "1. Paṭhamavagga ",
-      "english": "Chapter One "
+      "pali": "Tāyana Sutta",
+      "english": "Tāyana the Deva’s Son"
     },
     {
       "number": 3,
-      "pali": "Tāyanasutta ",
-      "english": "With Tāyana "
+      "pali": "",
+      "english": "The verses from this sutta are chanted throughout Thailand after the fortnightly recitation of the Pāṭimokkha."
     },
     {
       "number": 4,
-      "pali": "Sāvatthinidānaṁ. ",
-      "english": "At Sāvatthī. "
+      "pali": "",
+      "english": "Then Tāyana the deva’s son, formerly of another religious sect, in the far extreme of the night, his extreme radiance lighting up the entirety of Jeta’s Grove, went to the Blessed One and, on arrival, having bowed down to him, stood to one side. As he was standing there, he recited these verses in the Blessed One’s presence:"
     },
     {
       "number": 5,
-      "pali": "Atha kho tāyano devaputto purāṇatitthakaro abhikkantāya rattiyā abhikkantavaṇṇo kevalakappaṁ jetavanaṁ obhāsetvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi. ",
-      "english": "Then, late at night, the glorious godling Tāyana, formerly a religious founder, lighting up the entire Jeta’s Grove, went up to the Buddha, bowed, stood to one side, "
+      "pali": "",
+      "english": "That is what Tāyana the deva’s son said. Having said it, he bowed down to the Blessed One and, circling him on the right, vanished right there."
     },
     {
       "number": 6,
-      "pali": "Ekamantaṁ ṭhito kho tāyano devaputto bhagavato santike imā gāthāyo abhāsi: ",
-      "english": "and recited these verses in the Buddha’s presence: "
+      "pali": "",
+      "english": "Then, toward the end of the night, the Blessed One addressed the monks: “Last night, monks, Tāyana the deva’s son, formerly of another religious sect, in the far extreme of the night, his extreme radiance lighting up the entirety of Jeta’s Grove, came to me and, on arrival, having bowed down to me, stood to one side. As he was standing there, he recited these verses in my presence:"
     },
     {
       "number": 7,
-      "pali": "“Chinda sotaṁ parakkamma, ",
-      "english": "“Cut the stream after striving! "
+      "pali": "",
+      "english": "That is what Tāyana the deva’s son said. Having said it, he bowed down to me and, circling me on the right, vanished right there."
     },
     {
       "number": 8,
-      "pali": "kāme panuda brāhmaṇa; ",
-      "english": "Cast aside sensual pleasures, brahmin. "
-    },
-    {
-      "number": 9,
-      "pali": "Nappahāya munī kāme, ",
-      "english": "A sage who doesn’t give up sensual pleasures "
-    },
-    {
-      "number": 10,
-      "pali": "nekattamupapajjati. ",
-      "english": "is not reborn in a unified state. "
-    },
-    {
-      "number": 11,
-      "pali": "Kayirā ce kayirāthenaṁ, ",
-      "english": "If one is to do what should be done, "
-    },
-    {
-      "number": 12,
-      "pali": "daḷhamenaṁ parakkame; ",
-      "english": "one should staunchly strive. "
-    },
-    {
-      "number": 13,
-      "pali": "Sithilo hi paribbājo, ",
-      "english": "For the life gone forth when laxly led "
-    },
-    {
-      "number": 14,
-      "pali": "bhiyyo ākirate rajaṁ. ",
-      "english": "just stirs up dust all the more. "
-    },
-    {
-      "number": 15,
-      "pali": "Akataṁ dukkaṭaṁ seyyo, ",
-      "english": "A bad deed is better left undone, "
-    },
-    {
-      "number": 16,
-      "pali": "pacchā tapati dukkaṭaṁ; ",
-      "english": "for it will plague you later on. "
-    },
-    {
-      "number": 17,
-      "pali": "Katañca sukataṁ seyyo, ",
-      "english": "A good deed is better done, "
-    },
-    {
-      "number": 18,
-      "pali": "yaṁ katvā nānutappati. ",
-      "english": "one that does not plague you. "
-    },
-    {
-      "number": 19,
-      "pali": "Kuso yathā duggahito, ",
-      "english": "When kusa grass is wrongly grasped "
-    },
-    {
-      "number": 20,
-      "pali": "hatthamevānukantati; ",
-      "english": "it only cuts the hand. "
-    },
-    {
-      "number": 21,
-      "pali": "Sāmaññaṁ dupparāmaṭṭhaṁ, ",
-      "english": "So too, the ascetic life, when wrongly taken, "
-    },
-    {
-      "number": 22,
-      "pali": "nirayāyūpakaḍḍhati. ",
-      "english": "drags you to hell. "
-    },
-    {
-      "number": 23,
-      "pali": "Yaṁ kiñci sithilaṁ kammaṁ, ",
-      "english": "Any lax act, "
-    },
-    {
-      "number": 24,
-      "pali": "saṅkiliṭṭhañca yaṁ vataṁ; ",
-      "english": "any corrupt observance, "
-    },
-    {
-      "number": 25,
-      "pali": "Saṅkassaraṁ brahmacariyaṁ, ",
-      "english": "or suspicious spiritual life, "
-    },
-    {
-      "number": 26,
-      "pali": "na taṁ hoti mahapphalan”ti. ",
-      "english": "is not very fruitful.” "
-    },
-    {
-      "number": 27,
-      "pali": "Idamavoca tāyano devaputto; ",
-      "english": "That’s what the godling Tāyana said. "
-    },
-    {
-      "number": 28,
-      "pali": "idaṁ vatvā bhagavantaṁ abhivādetvā padakkhiṇaṁ katvā tatthevantaradhāyīti. ",
-      "english": "Then he bowed and respectfully circled the Buddha, keeping him on his right side, before vanishing right there. "
-    },
-    {
-      "number": 29,
-      "pali": "Atha kho bhagavā tassā rattiyā accayena bhikkhū āmantesi: ",
-      "english": "Then, when the night had passed, the Buddha told the mendicants all that had happened. "
-    },
-    {
-      "number": 30,
-      "pali": "“imaṁ, bhikkhave, rattiṁ tāyano nāma devaputto purāṇatitthakaro abhikkantāya rattiyā abhikkantavaṇṇo kevalakappaṁ jetavanaṁ obhāsetvā yenāhaṁ tenupasaṅkami; upasaṅkamitvā maṁ abhivādetvā ekamantaṁ aṭṭhāsi. ",
-      "english": "“Mendicants, tonight, the glorious godling Tāyana, formerly a religious founder, lighting up the entire Jeta’s Grove, came to me, bowed, stood to one side, "
-    },
-    {
-      "number": 31,
-      "pali": "Ekamantaṁ ṭhito kho, bhikkhave, tāyano devaputto mama santike imā gāthāyo abhāsi: ",
-      "english": "and recited these verses in my presence.” The Buddha repeated the verses in full, adding: "
-    },
-    {
-      "number": 32,
-      "pali": "‘Chinda sotaṁ parakkamma, ",
-      "english": ""
-    },
-    {
-      "number": 33,
-      "pali": "kāme panuda brāhmaṇa; ",
-      "english": ""
-    },
-    {
-      "number": 34,
-      "pali": "Nappahāya munī kāme, ",
-      "english": ""
-    },
-    {
-      "number": 35,
-      "pali": "nekattamupapajjati. ",
-      "english": ""
-    },
-    {
-      "number": 36,
-      "pali": "Kayirā ce kayirāthenaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 37,
-      "pali": "daḷhamenaṁ parakkame; ",
-      "english": ""
-    },
-    {
-      "number": 38,
-      "pali": "Sithilo hi paribbājo, ",
-      "english": ""
-    },
-    {
-      "number": 39,
-      "pali": "bhiyyo ākirate rajaṁ. ",
-      "english": ""
-    },
-    {
-      "number": 40,
-      "pali": "Akataṁ dukkaṭaṁ seyyo, ",
-      "english": ""
-    },
-    {
-      "number": 41,
-      "pali": "pacchā tapati dukkaṭaṁ; ",
-      "english": ""
-    },
-    {
-      "number": 42,
-      "pali": "Katañca sukataṁ seyyo, ",
-      "english": ""
-    },
-    {
-      "number": 43,
-      "pali": "yaṁ katvā nānutappati. ",
-      "english": ""
-    },
-    {
-      "number": 44,
-      "pali": "Kuso yathā duggahito, ",
-      "english": ""
-    },
-    {
-      "number": 45,
-      "pali": "hatthamevānukantati; ",
-      "english": ""
-    },
-    {
-      "number": 46,
-      "pali": "Sāmaññaṁ dupparāmaṭṭhaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 47,
-      "pali": "nirayāyūpakaḍḍhati. ",
-      "english": ""
-    },
-    {
-      "number": 48,
-      "pali": "Yaṁ kiñci sithilaṁ kammaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 49,
-      "pali": "saṅkiliṭṭhañca yaṁ vataṁ; ",
-      "english": ""
-    },
-    {
-      "number": 50,
-      "pali": "Saṅkassaraṁ brahmacariyaṁ, ",
-      "english": ""
-    },
-    {
-      "number": 51,
-      "pali": "na taṁ hoti mahapphalan’ti. ",
-      "english": ""
-    },
-    {
-      "number": 52,
-      "pali": "Idamavoca, bhikkhave, tāyano devaputto, idaṁ vatvā maṁ abhivādetvā padakkhiṇaṁ katvā tatthevantaradhāyi. ",
-      "english": "“That’s what the godling Tāyana said. Then he bowed and respectfully circled me, keeping me on his right side, before vanishing right there. "
-    },
-    {
-      "number": 53,
-      "pali": "Uggaṇhātha, bhikkhave, tāyanagāthā; ",
-      "english": "Mendicants, learn the verses of Tāyana! "
-    },
-    {
-      "number": 54,
-      "pali": "pariyāpuṇātha, bhikkhave, tāyanagāthā; ",
-      "english": "Memorize the verses of Tāyana! "
-    },
-    {
-      "number": 55,
-      "pali": "dhāretha, bhikkhave, tāyanagāthā. ",
-      "english": "Remember the verses of Tāyana! "
-    },
-    {
-      "number": 56,
-      "pali": "Atthasaṁhitā, bhikkhave, tāyanagāthā ādibrahmacariyikā”ti. ",
-      "english": "These verses are beneficial and relate to the fundamentals of the spiritual life.” "
+      "pali": "",
+      "english": "“Learn Tāyana’s verses, monks. Master Tāyana’s verses, monks. Remember Tāyana’s verses, monks. Connected with the goal are Tāyana’s verses, monks, and basic to the holy life.”"
     }
   ]
 }
