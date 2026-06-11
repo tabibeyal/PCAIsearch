@@ -59,3 +59,16 @@ export async function submitFeedback(payload: {
   });
   if (!res.ok) throw apiError('Feedback submission failed', res.status);
 }
+
+export async function submitContact(payload: {
+  name: string;
+  email: string;
+  message: string;
+}): Promise<void> {
+  const res = await fetch(`${API_BASE}/contact`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) throw apiError('Contact submission failed', res.status);
+}
