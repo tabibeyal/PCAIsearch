@@ -43,6 +43,7 @@ def test_contact_sends_email(contact_client):
     assert call_params["reply_to"] == "test@example.com"
     assert "Test User" in call_params["subject"]
     assert "This is a test message" in call_params["text"]
+    assert call_params["from"] == "PCAIsearch <onboarding@resend.dev>"
 
 
 def test_contact_rejects_missing_fields(contact_client):
