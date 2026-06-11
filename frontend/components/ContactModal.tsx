@@ -63,38 +63,41 @@ export function ContactModal({ onClose }: ContactModalProps) {
                 <h2 className="text-lg font-semibold text-gray-900 font-serif">Contact the developer</h2>
                 <p className="text-sm text-gray-500 mt-1">Questions, feedback, or bug reports welcome.</p>
               </div>
-              <button onClick={onClose} className="text-gray-400 hover:text-gray-600 text-xl leading-none ml-4">✕</button>
+              <button onClick={onClose} aria-label="Close" className="text-gray-400 hover:text-gray-600 text-xl leading-none ml-4">✕</button>
             </div>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
               <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">Name</label>
+                <label htmlFor="contact-name" className="block text-xs font-medium text-gray-700 mb-1">Name</label>
                 <input
+                  id="contact-name"
                   ref={firstInputRef}
                   type="text"
                   value={name}
-                  onChange={(e) => setName(e.target.value)}
+                  onChange={(e) => { setName(e.target.value); if (state === 'error') setState('form'); }}
                   placeholder="Your name"
                   className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400"
                   required
                 />
               </div>
               <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">Email</label>
+                <label htmlFor="contact-email" className="block text-xs font-medium text-gray-700 mb-1">Email</label>
                 <input
+                  id="contact-email"
                   type="email"
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => { setEmail(e.target.value); if (state === 'error') setState('form'); }}
                   placeholder="your@email.com"
                   className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400"
                   required
                 />
               </div>
               <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">Message</label>
+                <label htmlFor="contact-message" className="block text-xs font-medium text-gray-700 mb-1">Message</label>
                 <textarea
+                  id="contact-message"
                   value={message}
-                  onChange={(e) => setMessage(e.target.value)}
+                  onChange={(e) => { setMessage(e.target.value); if (state === 'error') setState('form'); }}
                   placeholder="What's on your mind?"
                   rows={4}
                   className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 resize-none"
