@@ -1,6 +1,8 @@
 # PCAIsearch — Architecture Reference
 
-A Retrieval-Augmented Generation (RAG) system for semantic search over the Pāḷi Canon (~4,691 suttas, ~134K verse-level chunks). Users submit natural-language or Pāḷi questions; the system retrieves relevant sutta verses and streams a grounded, cited signature.
+A Retrieval-Augmented Generation (RAG) system for semantic search over the Pāḷi Canon. Users submit natural-language or Pāḷi questions; the system retrieves relevant sutta verses and streams a grounded, cited answer.
+
+**Corpus:** 11 nikāyas (DN, MN, SN, AN, DHP, ITI, UD, STNP, THAG, THIG, KHP) translated by Thanissaro Bhikkhu, sourced from the dhammatalks.org epub. ~134K verse-level chunks stored in Qdrant Cloud.
 
 ---
 
@@ -11,43 +13,28 @@ User query
     │
     ▼
 [Frontend — Next.js]
-    │  GET /api/stream (SSE proxy)
+    │  GET /api/stream (SSE proxy route)
     ▼
 [Backend — FastAPI]
     │
-    ├─ expand_query()          ← Gemma 3n via NVIDIA API
+    ├─ expand_query()            ← Gemma 3n via NVIDIA API
     │      ├─ LLM expansion (English vocab + Pāḷi terms)
     │      ├─ pali_dictionary lookup (Pāḷi terms)
     │      └─ pali_dictionary English hint
     │
-    ├─ Retriever.retrieve()    ← Qdrant Cloud (134K vectors, 384-dim)
+    ├─ Retriever.retrieve()      ← Qdrant Cloud (134K vectors, 384-dim)
     │      └─ paraphrase-multilingual-MiniLM-L12-v2 embeddings
     │
-    ├─ BM25Retriever.retrieve() ← in-memory BM25Okapi over English text
+    ├─ BM25Retriever.retrieve()  ← in-memory BM25Okapi over English text
     │
-    ├─ rrf_fuse_multi()        ← Reciprocal Rank Fusion
+    ├─ rrf_fuse_multi()          ← Reciprocal Rank Fusion
     │
-    ├─ Reranker.rerank_multi() ← ms-marco-MiniLM-L-6-v2 cross-encoder
+    ├─ Reranker.rerank_multi()   ← ms-marco-MiniLM-L-6-v2 cross-encoder
     │
-    ├─ stream_synthesize()     ← Llama 3.1 8B via NVIDIA API
+    ├─ stream_synthesize()       ← Llama 3.1 8B via NVIDIA API
     │
-    └─ CitationGuardrail       ← deterministic citation verification
+    └─ CitationGuardrail         ← deterministic citation verification
 ```
-
----
-
-## Key Updates (2026-06-03)
-
-- **Migration to App Platform**: Moved from DigitalOcean Droplet to DigitalOcean App Platform for easier deploys and built-in model caching; prevents Docker timeout issues and simplifies scaling.
-- **Shared BM25 across nikayas**: Runs BM25 once across all nikayas instead of once per nikaya; reduces redundant computation and latency.
-- **Moved reranker/BM25 to thread pool**: Prevents blocking the event loop and allows concurrent nikaya passes; improves throughput under load.
-- **Switched synthesis model to Llama-3.1-8B**: Reduced latency from 32s to 12s per query while maintaining acceptable quality for the use case.
-- **Recall@10 recovery**: After dropping to 86% following the 2026-06-03 changes, implemented per-nikaya pipeline with round-robin interleaving to restore performance; fix committed 2026-06-04 (b21fab8); awaiting re-benchmark to confirm recovery to 93%.
-- **Guardrail citation verification**: Post-generation check to prevent hallucinated sutta numbers; ensures answers are grounded in actual passages.
-
-## Key Updates (2026-06-06)
-
-- **Feedback persistence via Supabase**: Replaced ephemeral SQLite `feedback.db` (lost on every App Platform redeploy) with Supabase Postgres. When `SUPABASE_URL` and `SUPABASE_KEY` env vars are set the backend POSTs feedback rows to Supabase's PostgREST REST API via `httpx`. Falls back to local SQLite when those vars are absent, so local dev and the test suite require no Supabase account. Row Level Security is enabled on the feedback table with no public policies — the service_role key (stored as an encrypted App Platform secret) is the only write path.
 
 ---
 
@@ -75,9 +62,11 @@ Rate limits: `/search` 30/min, `/stream` and `/synthesize` 10/min, `/feedback` 2
 | `GET` | `/search` | Returns ranked verse chunks + related suttas |
 | `GET` | `/synthesize` | Returns a complete grounded answer (non-streaming) |
 | `GET` | `/stream` | Server-Sent Events stream of answer chunks + final verified payload |
-| `POST` | `/feedback` | Stores thumbs-up/down rating with optional category + comment; writes to Supabase in production, local SQLite in dev |
+| `POST` | `/feedback` | Stores thumbs-up/down rating with optional category + comment |
 
-The `/stream` endpoint emits three SSE event types: `status` (progress text), `chunk` (incremental text delta), and `done` (full verified payload including `context`, `hallucinations`, `canonical_misses`, `is_faithful`). The three status messages emitted in order are: `"Searching the Canon…"`, `"Composing answer…"`, and `"Verifying sources…"` (the last is emitted just before the guardrail runs).
+The `/stream` endpoint emits three SSE event types: `status` (progress text), `chunk` (incremental text delta), and `done` (full verified payload including `context`, `hallucinations`, `canonical_misses`, `is_faithful`). The three status messages in order are: `"Searching the Canon…"`, `"Composing answer…"`, `"Verifying sources…"`.
+
+Nginx SSE buffering is disabled via `X-Accel-Buffering: no` + `Cache-Control: no-cache` headers on `/stream` responses.
 
 ---
 
@@ -86,7 +75,7 @@ The `/stream` endpoint emits three SSE event types: `status` (progress text), `c
 The RAG orchestrator. All retrieval and synthesis flows through this class.
 
 **Constructor dependencies (injectable):**
-- `qdrant_url` / `QDRANT_URL` env var — Qdrant Cloud cluster URL
+- `qdrant_url` / `QDRANT_URL` env var
 - `llm_model` / `LLM_MODEL` env var — synthesis model (production: `meta/llama-3.1-8b-instruct`)
 - `expansion_model` / `EXPANSION_MODEL` env var — expansion model (default: `google/gemma-3n-e4b-it`)
 - `sutta_relations` — `SuttaRelations` instance
@@ -104,27 +93,24 @@ Generates up to 5 query variants:
 4. Pāḷi term string from `pali_dictionary.lookup(query)` if matched
 5. English passage hint from `pali_dictionary.lookup_english(query)` if matched
 
-Model output is stripped of `\{...\\\}` blocks and line-label prefixes (e.g. `"Line 1: "`) before parsing.
-
 **`search(query, top_k, nikayas) → List[dict]`**
 
-The pipeline takes two distinct paths depending on whether one or multiple nikāyas are selected.
+Takes two paths depending on whether one or multiple nikāyas are selected.
 
 **Single-nikaya path:**
-1. `expand_query` and the first `Retriever.retrieve()` run in parallel via `asyncio.gather` — the NVIDIA API wait overlaps with the Qdrant round-trip.
+1. `expand_query` and the first `Retriever.retrieve()` run in parallel via `asyncio.gather`.
 2. Optional title boost: `SuttaTitleIndex.search()` appends the top matching sutta's title text as an extra retrieval query.
-3. Remaining query variants retrieved concurrently via `asyncio.gather`.
+3. Remaining query variants retrieved concurrently.
 4. `rrf_fuse_multi()` merges all dense result lists.
 5. BM25 retrieval: all query variants scored, best score per ID kept, then `rrf_fuse()` merges with the dense-fused list.
-6. Reranking: `rerank_multi([original_query, english_hint])` scores all candidates; Pāḷi variants excluded since the cross-encoder is English-only.
-7. Returns top-k by rerank score.
+6. Reranking: `rerank_multi([original_query, english_hint])` scores all candidates; Pāḷi variants excluded (cross-encoder is English-only).
 
-**Multi-nikaya path (post-2026-06-03 update):**
-1. `expand_query` and one initial `Retriever.retrieve()` per nikaya all run in parallel via `asyncio.gather` — expansion and all per-nikaya Qdrant calls overlap.
-2. Title boost applied (same as single-nikaya).
-3. **BM25 runs once across all nikayas** (not once per nikaya), then results are split by nikaya — avoids ~6× redundant scoring of the full corpus.
-4. The full pipeline (retrieve → fuse → rerank) runs independently per nikaya in parallel via `asyncio.gather`, each receiving its share of pre-fetched BM25 results.
-5. **Per-nikaya result lists are round-robin interleaved** — one result from each nikaya in turn — so a large nikaya (e.g. SN) cannot crowd out a small one (e.g. DHP).
+**Multi-nikaya path:**
+1. `expand_query` and one initial `Retriever.retrieve()` per nikaya all run in parallel.
+2. Title boost applied.
+3. BM25 runs once across all nikayas, then results are split by nikaya — avoids ~11× redundant scoring.
+4. The full pipeline (retrieve → fuse → rerank) runs independently per nikaya in parallel.
+5. Per-nikaya result lists are **round-robin interleaved** — one result from each nikaya in turn — so a large nikaya (SN) cannot crowd out a small one (KHP).
 
 Retrieval over-fetches at `max(top_k * 3, 30)` candidates per nikaya before reranking.
 
@@ -134,7 +120,73 @@ Builds the LLM context by formatting each chunk as `[ID] Pali: ... English: ...`
 
 ---
 
-### `Deployment`
+### `Retriever` — `backend/app/services/retriever.py`
+
+Wraps the Qdrant async client for dense vector retrieval.
+
+- Encodes the query string into a 384-dim vector using `EmbeddingManager` (run in a thread pool executor to avoid blocking the event loop).
+- Applies an optional `nikaya` keyword filter on the Qdrant `nikaya` payload field.
+- Returns a list of `{id, pali, english, score}` dicts, filtering out chunks with empty English text.
+
+The collection name is `pali_canon`. The embedding model is `paraphrase-multilingual-MiniLM-L12-v2` (via fastembed / ONNX Runtime, loaded once at startup into `EmbeddingManager`).
+
+---
+
+### `BM25Retriever` — `backend/app/services/bm25_retriever.py`
+
+In-memory BM25 (Okapi BM25) over all English verse text, loaded from `data/dumps/` at startup.
+
+- Runs in a thread pool executor (CPU-bound scoring).
+- In the multi-nikaya path, BM25 runs once across the full corpus and results are split by nikaya tag — avoids redundant scoring per nikaya.
+- Scores are fused with dense results via `rrf_fuse()` (Reciprocal Rank Fusion).
+
+---
+
+### `SuttaTitleIndex` — `backend/app/services/sutta_title_index.py`
+
+BM25 over sutta titles and their opening verses (verses 3–15). When the user's query matches a canonical title (e.g. "Satipatthana Sutta"), the matched sutta's title text is appended as an extra retrieval query to boost its verses to the top.
+
+---
+
+### `CitationOracle` — `backend/app/services/citation_oracle.py`
+
+Answers "does this `[ID:Verse]` citation exist in the canon?" by building a registry of all known sutta IDs and verse numbers from `data/dumps/` at startup. Used by `CitationGuardrail` to distinguish true hallucinations from canonical misses.
+
+---
+
+### `CitationGuardrail` — `backend/app/services/guardrail.py`
+
+Post-generation verification layer. After synthesis, scans the generated text for `[ID:Verse]` citations and classifies each:
+
+- **In retrieved context** → left as-is.
+- **In the canon but not retrieved** → relabelled `[Unverified]` (`canonical_miss`).
+- **Not in the canon at all** → relabelled `[Hallucinated]` (`hallucination`).
+
+Returns `{text, hallucinations, canonical_misses, is_faithful}`. `is_faithful` is `True` only when there are zero hallucinations.
+
+---
+
+### `SuttaRelations` — `backend/app/services/sutta_relations.py`
+
+Returns canonically related sutta IDs for the "see also" list returned by `/search`. Combines:
+- A hardcoded table of ~15 doctrinal pairs (e.g. DN 22 ↔ MN 10, MN 63 ↔ MN 72).
+- Structural adjacency: the ±2 numeric neighbors within the same nikāya.
+
+Only returns IDs that exist in the known sutta set (from `CitationOracle`).
+
+---
+
+### `PaliDictionary` — `backend/app/services/pali_dictionary.py`
+
+Keyword-matched lookup table with ~84 entries covering major doctrinal lists (e.g. eightfold path, five aggregates, dependent origination). Given a query, returns:
+- `lookup(query)` → Pāḷi terms string, used as a 4th search variant.
+- `lookup_english(query)` → verbatim English passage hint (Thanissaro-style), used as a 5th search variant and as the second reranking query.
+
+This bridges vocabulary gaps for the cross-encoder, which is English-only and would otherwise score Pāḷi terms as noise.
+
+---
+
+## Deployment
 
 | Service | Role | Notes |
 |---------|------|-------|
@@ -144,10 +196,84 @@ Builds the LLM context by formatting each chunk as `[ID] Pali: ... English: ...`
 | NVIDIA Inference API | LLM inference | Free tier; Gemma 3n for expansion, Llama 3.1 8B for synthesis |
 | Supabase | Feedback store | Free tier; stores user feedback (query, answer, rating, category, comment); RLS enabled, service_role key only; read via Supabase dashboard |
 
-Nginx buffering is disabled via `X-Accel-Buffering: no` + `Cache-Control: no-cache` headers on the `/stream` response, which is required for SSE to flow without batching.
+---
+
+## Frontend — `frontend/`
+
+Next.js (App Router). Two routes:
+
+- `/` — home page with `SearchBar`; submitting navigates to `/search/[query]`.
+- `/search/[query]` — results page. Fetches search results and streams synthesis in parallel.
+
+**Key components:**
+
+| Component | File | Role |
+|-----------|------|------|
+| `SearchBar` | `components/search/SearchBar.tsx` | Home search input |
+| `NavSearchBox` | `components/search/NavSearchBox.tsx` | In-page search box on the results page |
+| `NikayaFilter` | `components/search/NikayaFilter.tsx` | Nikaya selector; click = single, ⌘/Ctrl-click = multi |
+| `SearchResultsLoader` | `components/search/SearchResultsLoader.tsx` | Fetches `/search`, renders `SearchResultsView` |
+| `SearchResultsView` | `components/search/SearchResultsView.tsx` | Displays ranked verse cards |
+| `DualPaneContainer` | `components/deep-dive/DualPaneContainer.tsx` | Side-by-side synthesis + sources layout |
+| `SynthesisLoader` | `components/deep-dive/SynthesisLoader.tsx` | Manages SSE stream state, streams to `SynthesisView` |
+| `SynthesisView` | `components/deep-dive/SynthesisView.tsx` | Renders streamed answer text with citations |
+| `SourceViewer` | `components/deep-dive/SourceViewer.tsx` | Renders retrieved verse context cards |
+| `FeedbackBar` | `components/deep-dive/FeedbackBar.tsx` | Thumbs up/down; POSTs to `/feedback` |
+| `SupportBanner` | `components/SupportBanner.tsx` | Dismissable info banner; state in React context |
+| `ContactModal` | `components/ContactModal.tsx` | Modal for contacting the developer |
+
+The SSE stream (`GET /api/stream`) is proxied through a Next.js API route to avoid CORS issues. The frontend uses Tailwind CSS.
 
 ---
 
-### Remaining sections unchanged from original...
+## Data Pipeline
 
-[The rest of the document remains the same as the original, focusing on the technical details of components that haven't changed]
+### 1. Download — `data/fetch_thanissaro.py`
+
+Downloads Thanissaro Bhikkhu's translations from the dhammatalks.org epub and writes one JSON file per sutta to `data/dumps/`. Clears existing dumps before writing. Output format:
+
+```json
+{
+  "sutta_id": "MN1",
+  "verses": [
+    {"number": 1, "pali": "Middle Length Discourses 1", "english": "Middle Length Discourses 1"},
+    {"number": 2, "pali": "", "english": "The Root of All Things"},
+    {"number": 3, "pali": "", "english": "First prose paragraph..."},
+    ...
+  ]
+}
+```
+
+Body verses have empty `pali` fields — only English text is available from this source.
+
+### 2. Index — `data/process_dumps.py`
+
+Reads `data/dumps/*.json`, embeds verse-level chunks with `EmbeddingManager`, and upserts into the `pali_canon` Qdrant collection. Resume-capable: already-indexed sutta IDs are detected via a full scroll of the collection and skipped. Run with `--wipe` to drop and rebuild from scratch.
+
+Point IDs are deterministic `uuid5` hashes of the chunk's `id` field, so re-running is idempotent.
+
+### 3. Chunk format
+
+Each Qdrant point payload is a dict with:
+- `id` — verse-level identifier, e.g. `"MN 1:3"` (nikāya, sutta number, verse number)
+- `pali` — Pāḷi text (empty for Thanissaro-sourced data)
+- `english` — English text
+- `nikaya` — nikāya tag (e.g. `"MN"`), used for filtered queries
+
+---
+
+## Testing
+
+Backend tests live in `tests/backend/`. Run a single test file with:
+
+```bash
+PYTHONPATH=. python3 -m pytest tests/backend/test_foo.py -q
+```
+
+**Never run the full suite** — it freezes the OS when Firefox is open. Run the specific file you changed.
+
+The recall benchmark (`tests/backend/retrieval_benchmark.py`) runs 15 representative queries through the full pipeline and reports recall@10. It requires live Qdrant and NVIDIA API access:
+
+```bash
+PYTHONPATH=. NVIDIA_API_KEY=... python3 tests/backend/retrieval_benchmark.py --with-expansion --log-variants
+```

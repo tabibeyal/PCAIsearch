@@ -2,7 +2,7 @@
 
 **Live:** https://illustrious-biscotti-f60464.netlify.app
 
-Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, Dhammapada, Itivuttaka), grounded in the original bilingual texts from SuttaCentral.
+Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, Dhammapada, Itivuttaka, Udāna, Sutta Nipāta, Theragāthā, Therīgāthā, Khuddakapāṭha), grounded in Thanissaro Bhikkhu's English translations from dhammatalks.org.
 
 ## Features
 
@@ -12,7 +12,7 @@ Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, 
 - **Cross-encoder reranking** — results reordered by relevance before display
 - **AI Synthesis** — LLM answers your question using only retrieved context, with inline citations (`[DN 1:1]`, `[SN 46.20:14]`)
 - **Citation guardrail** — distinguishes true hallucinations (non-existent sutta) from canonical misses (real sutta not in retrieved context)
-- **Nikaya filter** — filter search and synthesis by collection (DN, MN, SN, AN, DHP, ITI); click to switch, ⌘/Ctrl-click to combine
+- **Nikaya filter** — filter search and synthesis by collection (DN, MN, SN, AN, DHP, ITI, UD, STNP, THAG, THIG, KHP); click to switch, ⌘/Ctrl-click to combine
 - **Canon cross-references** — `/search` returns `related_suttas`: doctrinally paired suttas and structural neighbors from the canon index
 - **Resume-capable indexing** — indexing can be interrupted and resumed without re-embedding
 
@@ -75,10 +75,10 @@ pip install -r backend/requirements.txt
 ### 3. Index the Pali Canon
 
 ```bash
-# Download DN, MN, AN, SN, Dhammapada, Itivuttaka from SuttaCentral (sparse git clone, ~80 MB)
-python3 data/fetch_bilara.py
+# Download all 11 nikayas from the dhammatalks.org epub (Thanissaro Bhikkhu translations)
+python3 data/fetch_thanissaro.py
 
-# Embed and index into Qdrant (DN/MN/AN/SN/DHP/ITI, takes several minutes)
+# Embed and index into Qdrant (takes several minutes)
 PYTHONPATH=. python3 data/process_dumps.py
 ```
 
