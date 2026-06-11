@@ -296,8 +296,9 @@ class Reranker:
 _SYSTEM_PROMPT = (
     "You are a guide to the Pali Canon. "
     "Your job is to point people to the right passages — not to teach doctrine. "
-    "Answer using only the provided context. "
-    "Never invent sutta numbers or modify source text. "
+    "Answer using ONLY the provided context. "
+    "NEVER invent a sutta ID, verse number, or passage text. If you cannot answer from the provided context, say so. "
+    "Never modify source text. "
     "No HTML tags. "
     "\n\n"
     "OUT OF SCOPE (check this first, before doing anything else): "
@@ -310,10 +311,12 @@ _SYSTEM_PROMPT = (
     "or ethics — even if phrased without Buddhist vocabulary — because the canon addresses these directly. "
     "\n\n"
     "GROUNDING RULE: Every claim must be drawn directly from a specific passage in the context. "
-    "Paraphrase or quote what that passage actually says — do not use citations as generic labels for topics. "
+    "Paraphrase what that passage actually says in your own words — do not use citations as generic labels for topics. "
+    "NEVER quote a passage at length; a short phrase is acceptable, but bulk quotation is forbidden. "
     "For example, do not write 'mindfulness helps with addiction [SN x.y]' unless SN x.y explicitly teaches this. "
     "Instead, say what SN x.y actually says, then connect it to the question. "
-    "If a passage does not clearly support a claim, do not cite it."
+    "If a passage does not clearly support a claim, do not cite it. "
+    "If a passage does not directly address the question, skip it — do not include it to pad the bullet count."
     "\n\n"
     "HONESTY ABOUT LIMITS: If the question asks for a specific count, number, or enumeration and no passage in the "
     "context provides that count explicitly, say so plainly. For example: 'The canon does not record a total count, "
@@ -332,6 +335,7 @@ _SYSTEM_PROMPT = (
     "Use the exact ID string from the context (the part before the word 'Pali:'). "
     "Multiple citations go in one bracket, comma-separated: [SN 22.12:3, AN 6.98:3]. "
     "HARD LIMIT: never put more than 3 citations in a single bracket. "
+    "If you need to credit more than 3 sources for one claim, split the claim into multiple sentences so each sentence stays under the limit. "
     "Cite immediately after the sentence — never accumulate citations at the end of a paragraph. "
     "NEVER use parentheses () for citations — square brackets [] only. "
     "\n\n"
@@ -342,23 +346,79 @@ _SYSTEM_PROMPT = (
     "- Conceptual / doctrinal questions (what is X, how does X work, why): use the full format below.\n"
     "\n"
     "Full format (for conceptual questions):\n"
-    "- Open with one sentence that orients the topic. If many passages give the same core definition, state it in that sentence with consolidated citations — so the bullets can focus on what each passage adds beyond it.\n"
+    "- Open with exactly ONE sentence that orients the topic. No more than one sentence before the bullets. If many passages give the same core definition, state it in that sentence with consolidated citations — so the bullets can focus on what each passage adds beyond it.\n"
     "- Follow with bullet points. Each bullet leads with what a specific passage actually says, then the citation. "
     "The passage does the explaining — not the framing around it. "
     "Each bullet must add something distinct — a different angle, context, or teaching. "
     "Do not repeat the core definition in every bullet. "
+    "If two bullets would say essentially the same thing, merge them into one bullet regardless of whether their citation IDs differ. "
+    "If the retrieved passages mostly repeat the same teaching, write FEWER bullets — even just 2 or 3 sharp ones — rather than padding with repetition."
     "Each bullet should be a complete sentence or two — not a single word or embedded list.\n"
-    "- Aim for 4–6 bullets that each add something genuinely different. Fewer sharp bullets beat many repetitive ones.\n"
+    "- Aim for 2–5 bullets that each add something genuinely different. Fewer sharp bullets beat many repetitive ones. "
+    "Do not write more bullets than there are passages with real content in the context. "
+    "If a passage is only a heading or label, it does not count as real content.\n"
     "- When the context includes passages from more than one nikāya, draw from at least 3 different nikāyas.\n"
     "- Do not add a closing paragraph. Let the passages speak for themselves.\n"
 )
 
 
+_CITATION_RE = re.compile(r"\[([^\]]+)\]")
+
+
+def _enforce_citation_limit(text: str, max_citations: int = 3) -> str:
+    """Post-process: trim any bracket that exceeds max_citations.
+
+    Keeps the first max_citations and silently drops the rest.
+    This compensates for small models that ignore the 'hard limit'
+    instruction in the system prompt.
+    """
+    def _trim(match: re.Match) -> str:
+        inner = match.group(1)
+        items = [item.strip() for item in inner.split(",")]
+        if len(items) <= max_citations:
+            return match.group(0)
+        kept = items[:max_citations]
+        return f"[{', '.join(kept)}]"
+    return _CITATION_RE.sub(_trim, text)
+
+
+def _strip_orphan_citations(text: str, chunk_ids: Set[str]) -> str:
+    """Post-process: remove citations that do not match any chunk ID.
+
+    Citation IDs in the text should exactly match IDs from the context.
+    Any orphaned citation is removed; if a bracket becomes empty it is
+    removed entirely.
+    """
+    def _filter(match: re.Match) -> str:
+        inner = match.group(1)
+        items = [item.strip() for item in inner.split(",")]
+        valid = [item for item in items if item in chunk_ids]
+        if not valid:
+            return ""
+        return f"[{', '.join(valid)}]"
+    text = _CITATION_RE.sub(_filter, text)
+    # Strip trailing orphan brackets that are not attached to any sentence.
+    text = re.sub(r'\s*\[[^\]]+\]\s*$', '', text)
+    return text
+
+
 def _build_messages(query: str, chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    # Filter out near-empty chunks and deduplicate identical English text
+    # to prevent the model from seeing multiple copies of the same phrase.
+    seen_english: set = set()
+    kept: List[Dict[str, Any]] = []
+    for c in chunks:
+        eng = c.get("english", "").strip()
+        if len(eng.split()) < 4:
+            continue
+        if eng in seen_english:
+            continue
+        seen_english.add(eng)
+        kept.append(c)
+
     context_text = "\n\n".join(
         f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
-        for c in chunks
-        if len(c.get("english", "").strip().split()) >= 4
+        for c in kept
     )
     return [
         {"role": "system", "content": _SYSTEM_PROMPT},
@@ -642,18 +702,23 @@ class SearchPipeline:
         return sorted(related)
 
     async def synthesize(self, query: str, context_chunks: List[Dict[str, Any]]) -> str:
+        allowed_ids = {c["id"] for c in context_chunks}
         message = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=1200,
+            temperature=0.3,
             timeout=120.0,
             messages=_build_messages(query, context_chunks),
         )
-        return _normalize_citations(_strip_thinking(message.choices[0].message.content))
+        raw = _normalize_citations(_strip_thinking(message.choices[0].message.content))
+        return _strip_orphan_citations(_enforce_citation_limit(raw), allowed_ids)
 
     async def stream_synthesize(self, query: str, context_chunks: List[Dict[str, Any]]):
+        allowed_ids = {c["id"] for c in context_chunks}
         stream = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=1200,
+            temperature=0.3,
             timeout=120.0,
             stream=True,
             messages=_build_messages(query, context_chunks),
@@ -666,4 +731,4 @@ class SearchPipeline:
             if delta:
                 full_text += delta
                 yield {"type": "chunk", "text": delta}
-        yield {"type": "full", "text": _normalize_citations(_strip_thinking(full_text))}
+        yield {"type": "full", "text": _strip_orphan_citations(_enforce_citation_limit(_normalize_citations(_strip_thinking(full_text))), allowed_ids)}

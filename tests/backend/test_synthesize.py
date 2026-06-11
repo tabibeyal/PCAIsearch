@@ -102,7 +102,7 @@ async def test_synthesize_uses_1200_max_tokens(pipeline, sample_context):
 
 def test_system_prompt_requires_bullet_count_guidance():
     from backend.app.services.search_pipeline import _SYSTEM_PROMPT
-    assert "4–6 bullets" in _SYSTEM_PROMPT
+    assert "2–5 bullets" in _SYSTEM_PROMPT
 
 
 def test_system_prompt_requires_nikaya_diversity():
