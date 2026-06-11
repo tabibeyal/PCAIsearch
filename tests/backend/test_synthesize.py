@@ -100,9 +100,9 @@ async def test_synthesize_uses_1200_max_tokens(pipeline, sample_context):
     assert kwargs["max_tokens"] == 1200
 
 
-def test_system_prompt_requires_minimum_bullet_points():
+def test_system_prompt_requires_bullet_count_guidance():
     from backend.app.services.search_pipeline import _SYSTEM_PROMPT
-    assert "at least 6 cited bullet points" in _SYSTEM_PROMPT
+    assert "4–6 bullets" in _SYSTEM_PROMPT
 
 
 def test_system_prompt_requires_nikaya_diversity():
