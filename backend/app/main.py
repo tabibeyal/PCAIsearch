@@ -2,6 +2,7 @@ import asyncio
 import json
 import logging
 import os
+import re
 import sqlite3
 import time
 from contextlib import asynccontextmanager
@@ -10,7 +11,7 @@ from pathlib import Path
 from typing import List, Literal, Optional
 
 import httpx
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 from fastapi import FastAPI, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -50,6 +51,19 @@ class FeedbackBody(BaseModel):
         "Too vague",
     ]] = None
     comment: Optional[str] = Field(default=None, max_length=2000)
+
+
+class ContactBody(BaseModel):
+    name: str = Field(min_length=1, max_length=200)
+    email: str = Field(min_length=1, max_length=200)
+    message: str = Field(min_length=10, max_length=5000)
+
+    @field_validator("email")
+    @classmethod
+    def validate_email_format(cls, v: str) -> str:
+        if not re.match(r"[^@]+@[^@]+\.[^@]+", v):
+            raise ValueError("Invalid email address")
+        return v
 
 
 def _init_feedback_db() -> None:
@@ -165,6 +179,28 @@ async def post_feedback(request: Request, body: FeedbackBody):
     else:
         loop = asyncio.get_event_loop()
         await loop.run_in_executor(None, _insert_feedback, body.query, body.answer, body.rating, body.category, body.comment)
+    return {"ok": True}
+
+
+@app.post("/contact")
+@limiter.limit("5/hour")
+async def contact(request: Request, body: ContactBody):
+    api_key = os.environ.get("RESEND_API_KEY")
+    if not api_key:
+        logger.error("RESEND_API_KEY not set")
+        return {"ok": False}, 500
+
+    import resend as resend_client
+    resend_client.api_key = api_key
+
+    params: resend_client.Emails.SendParams = {
+        "from": "PCAIsearch <onboarding@resend.dev>",
+        "to": ["pcaisearch@atomicmail.io"],
+        "reply_to": body.email,
+        "subject": f"[PCAIsearch] Message from {body.name}",
+        "text": f"Name: {body.name}\nEmail: {body.email}\n\nMessage:\n{body.message}",
+    }
+    resend_client.Emails.send(params)
     return {"ok": True}
 
 
