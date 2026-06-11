@@ -14,7 +14,8 @@ RUN pip install --no-cache-dir \
     sentence-transformers==5.4.1 \
     fastembed==0.8.0 \
     slowapi==0.1.9 \
-    rank-bm25==0.2.2
+    rank-bm25==0.2.2 \
+    resend==2.10.0
 
 RUN useradd -m appuser
 
