@@ -60,12 +60,12 @@ export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle
 
   const renderBlock = (block: string, pIdx: number) => {
     const lines = block.split('\n');
-    const bulletLines = lines.filter(l => /^[\*\-]\s/.test(l));
+    const bulletLines = lines.filter(l => /^[\*\-•]\s/.test(l));
     if (bulletLines.length > 0 && bulletLines.length === lines.filter(l => l.trim()).length) {
       return (
         <ul key={pIdx} className="list-disc list-outside ml-5 mb-3 space-y-1">
           {bulletLines.map((line, i) => (
-            <li key={i}>{renderInline(line.replace(/^[\*\-]\s+/, ''), pIdx * 1000 + i)}</li>
+            <li key={i}>{renderInline(line.replace(/^[\*\-•]\s+/, ''), pIdx * 1000 + i)}</li>
           ))}
         </ul>
       );
