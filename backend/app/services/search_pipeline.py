@@ -259,10 +259,17 @@ def _extract_sutta_id(chunk_id: str) -> Optional[str]:
 
 _THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL | re.IGNORECASE)
 _LABEL_RE = re.compile(r"^(?:Line\s*\d+\s*[-:—]+\s*|Line\s*\d+:\s*)", re.IGNORECASE)
+_PAREN_CITE_RE = re.compile(r"\(([A-Z]{1,4} [\d.]+:\d+)\)")
 
 
 def _strip_thinking(text: str) -> str:
     return _THINK_RE.sub("", text).strip()
+
+
+def _normalize_citations(text: str) -> str:
+    # Llama sometimes ignores the "square brackets only" instruction and outputs (MN 1.2:3).
+    # Convert to [MN 1.2:3] so the guardrail and frontend renderer can process them.
+    return _PAREN_CITE_RE.sub(r"[\1]", text)
 
 
 class Reranker:
@@ -645,7 +652,7 @@ class SearchPipeline:
             timeout=120.0,
             messages=_build_messages(query, context_chunks),
         )
-        return _strip_thinking(message.choices[0].message.content)
+        return _normalize_citations(_strip_thinking(message.choices[0].message.content))
 
     async def stream_synthesize(self, query: str, context_chunks: List[Dict[str, Any]]):
         stream = await self.llm.chat.completions.create(
@@ -663,4 +670,4 @@ class SearchPipeline:
             if delta:
                 full_text += delta
                 yield {"type": "chunk", "text": delta}
-        yield {"type": "full", "text": _strip_thinking(full_text)}
+        yield {"type": "full", "text": _normalize_citations(_strip_thinking(full_text))}
