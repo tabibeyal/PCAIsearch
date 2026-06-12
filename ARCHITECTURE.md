@@ -270,8 +270,6 @@ Backend tests live in `tests/backend/`. Run a single test file with:
 PYTHONPATH=. python3 -m pytest tests/backend/test_foo.py -q
 ```
 
-**Never run the full suite** — it freezes the OS when Firefox is open. Run the specific file you changed.
-
 The recall benchmark (`tests/backend/retrieval_benchmark.py`) runs 15 representative queries through the full pipeline and reports recall@10. It requires live Qdrant and NVIDIA API access:
 
 ```bash
