@@ -178,7 +178,7 @@ Only returns IDs that exist in the known sutta set (from `CitationOracle`).
 
 ### `PaliDictionary` — `backend/app/services/pali_dictionary.py`
 
-Keyword-matched lookup table with ~84 entries covering major doctrinal lists (e.g. eightfold path, five aggregates, dependent origination). Given a query, returns:
+Keyword-matched lookup table with 124 entries covering the full Thanissaro Bhikkhu glossary from dhammatalks.org — major doctrinal lists (eightfold path, five aggregates, dependent origination), Thanissaro-specific renderings (effluent/āsava, objectification/papañca, obsession/anusaya, non-fashioning/atammayatā, this/that conditionality), cosmological and monastic terms, and all remaining glossary entries. Given a query, returns:
 - `lookup(query)` → Pāḷi terms string, used as a 4th search variant.
 - `lookup_english(query)` → verbatim English passage hint (Thanissaro-style), used as a 5th search variant and as the second reranking query.
 
