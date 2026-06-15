@@ -10,6 +10,15 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: 'Ask the Pali Canon',
   description: 'Type a question or topic — find the suttas that answer it.',
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: '32x32' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
 }
 
 export default function RootLayout({
