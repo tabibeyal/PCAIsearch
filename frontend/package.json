@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate-icons": "NODE_PATH=./node_modules node ../scripts/generate-icons.js"
   },
   "dependencies": {
     "next": "16.2.6",

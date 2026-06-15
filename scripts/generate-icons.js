@@ -1,3 +1,4 @@
+// Run with: cd frontend && npm run generate-icons
 const sharp = require('sharp');
 const toIco = require('to-ico');
 const path = require('path');
