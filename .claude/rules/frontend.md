@@ -44,13 +44,13 @@ Pick one primary principle. Don't mix randomly.
 
 Use whatever the project already has. Don't mix competing libraries.
 
-| Category | Options (pick one) |
-|---|---|
-| CSS | Tailwind, vanilla CSS, CSS Modules, styled-components, Emotion, UnoCSS, Panda CSS |
-| Primitives | shadcn/ui, Radix, Headless UI, Ark UI, DaisyUI, Mantine, Chakra, Vuetify |
-| Animation | CSS transitions, Framer Motion, GSAP, View Transitions API, AutoAnimate |
-| Charts | Recharts, D3, Chart.js, Visx, ECharts, Nivo |
-| Icons | Lucide, Phosphor, Heroicons, Tabler Icons, Iconify |
+| Category | In use | Options (don't introduce) |
+|---|---|---|
+| CSS | **Tailwind CSS v4** | vanilla CSS, CSS Modules, styled-components, Emotion, UnoCSS |
+| Primitives | **none (custom components)** | shadcn/ui, Radix, Headless UI, Ark UI, DaisyUI, Mantine |
+| Animation | **CSS transitions (Tailwind built-ins)** | Framer Motion, GSAP, View Transitions API, AutoAnimate |
+| Charts | **none** | Recharts, D3, Chart.js, Visx, ECharts |
+| Icons | **none** | Lucide, Phosphor, Heroicons, Tabler Icons, Iconify |
 
 ## Layout
 
