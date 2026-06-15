@@ -195,7 +195,7 @@ async def contact(request: Request, body: ContactBody):
 
     params: resend_client.Emails.SendParams = {
         "from": "PCAIsearch <onboarding@resend.dev>",
-        "to": ["pcaisearch@atomicmail.io"],
+        "to": ["tabibeyal101@gmail.com"],
         "reply_to": body.email,
         "subject": f"[PCAIsearch] Message from {body.name}",
         "text": f"Name: {body.name}\nEmail: {body.email}\n\nMessage:\n{body.message}",
