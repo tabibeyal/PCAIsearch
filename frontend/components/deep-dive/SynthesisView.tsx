@@ -77,7 +77,7 @@ export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle
     text.split(/\n\n+/).map((block, pIdx) => renderBlock(block, pIdx));
 
   return (
-    <div className="h-full overflow-y-auto scroll-smooth p-6 bg-[#fef9f0] text-[#2c1f14]">
+    <div className="h-full overflow-y-auto scroll-smooth p-6 bg-[#faf9f7] text-[#2c1f14]">
       <div className="max-w-2xl mx-auto">
         <div className="flex items-start justify-end gap-3 mb-6 flex-wrap">
           <div className="flex items-center gap-2 flex-wrap">
@@ -100,7 +100,7 @@ export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle
         </div>
 
         <div
-          className="text-[17px] leading-[1.85] text-[#1a1a1a]"
+          className="text-[17px] leading-[1.85] text-[#2c1f14]"
           style={{ fontFamily: 'Georgia, serif' }}
         >
           {renderText(answer)}

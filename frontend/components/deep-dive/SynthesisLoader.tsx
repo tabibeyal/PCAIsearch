@@ -256,7 +256,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
   if (visible) {
     return (
       <div
-        className="h-full flex flex-col bg-[#fef9f0]"
+        className="h-full flex flex-col bg-[#faf9f7]"
         style={{ opacity: streamingFadeIn ? 1 : 0, transition: 'opacity 200ms ease' }}
       >
         {/* Mobile: horizontal step bar */}
@@ -272,7 +272,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
           {/* Streaming text */}
           <div className="flex-1 overflow-y-auto p-6">
             <div className="max-w-2xl mx-auto">
-              <div className="text-[17px] leading-[1.85] whitespace-pre-wrap text-[#1a1a1a]" style={{ fontFamily: 'Georgia, serif' }}>
+              <div className="text-[17px] leading-[1.85] whitespace-pre-wrap text-[#2c1f14]" style={{ fontFamily: 'Georgia, serif' }}>
                 {visible.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((seg, i) =>
                   seg.startsWith('**') && seg.endsWith('**')
                     ? <strong key={i}>{seg.slice(2, -2)}</strong>
@@ -290,7 +290,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
   }
 
   return (
-    <div className="flex items-center justify-center h-full bg-[#fef9f0]">
+    <div className="flex items-center justify-center h-full bg-[#faf9f7]">
       <StepList currentStatus={currentStatus} />
     </div>
   );
