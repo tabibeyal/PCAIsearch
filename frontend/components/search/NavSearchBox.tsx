@@ -25,12 +25,13 @@ export function NavSearchBox({ initialQuery }: { initialQuery: string }) {
   }
 
   return (
-    <div className="flex flex-1 min-w-0 items-center bg-white border border-[#e8e4dc] rounded-2xl px-4 py-2 focus-within:border-[#9c8c7a] transition-colors">
+    <div className="flex flex-1 min-w-0 items-center bg-white border border-[#e8e4dc] rounded-2xl px-4 py-2 focus-within:border-[#9c8c7a] focus-within:ring-2 focus-within:ring-[#9c8c7a] transition-colors">
       <input
         type="text"
         value={q}
         onChange={e => setQ(e.target.value)}
         onKeyDown={handleKeyDown}
+        aria-label="Search the Pali Canon"
         className="flex-1 min-w-0 bg-transparent text-sm text-[#2c1f14] placeholder-[#9c8c7a] outline-none"
       />
       <button

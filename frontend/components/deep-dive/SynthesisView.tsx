@@ -94,7 +94,7 @@ export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle
                   : 'bg-white text-[#6b4e35] border-[#e8e4dc] hover:bg-[#ede8df]'
               }`}
             >
-              {!deepDive ? 'Deep Dive' : sourcesVisible ? 'Hide Sources' : 'Show Sources'}
+              {!deepDive ? 'Deep Dive' : sourcesVisible ? 'Hide Sources' : 'Exit Deep Dive'}
             </button>
           </div>
         </div>

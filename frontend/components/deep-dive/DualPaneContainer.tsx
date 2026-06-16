@@ -30,8 +30,11 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
   const handleDeepDiveToggle = () => {
     if (!deepDive) {
       setDeepDive(true);
+    } else if (sourcesVisible) {
+      setSourcesVisible(false);
     } else {
-      setSourcesVisible((v) => !v);
+      setDeepDive(false);
+      setSourcesVisible(true);
     }
   };
 

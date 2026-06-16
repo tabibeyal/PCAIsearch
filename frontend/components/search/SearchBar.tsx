@@ -107,7 +107,7 @@ export function SearchBar() {
   }, [showAnim]);
 
   return (
-    <div className="w-full max-w-2xl mx-auto relative rounded-2xl border border-[#e8e4dc] bg-white px-4 pt-4 pb-14 focus-within:border-[#9c8c7a] focus-within:ring-2 focus-within:ring-[#e8e4dc] transition-all shadow-sm">
+    <div className="w-full max-w-2xl mx-auto relative rounded-2xl border border-[#e8e4dc] bg-white px-4 pt-4 pb-14 focus-within:border-[#9c8c7a] focus-within:ring-2 focus-within:ring-[#9c8c7a] transition-all shadow-sm">
 
       {/* Fix 5: animated placeholder fades out on first keystroke */}
       {mounted && animMounted && (
@@ -137,6 +137,7 @@ export function SearchBar() {
         onFocus={() => { setFocused(true); setAnimText(''); }}
         onBlur={() => setFocused(false)}
         placeholder=""
+        aria-label="Search the Pali Canon"
         className="w-full bg-transparent resize-none outline-none text-[#2c1f14] text-base leading-relaxed max-h-64 overflow-y-auto relative z-10"
         style={{ minHeight: '28px', caretColor: focused || query !== '' ? '#b5a494' : 'transparent' }}
       />
