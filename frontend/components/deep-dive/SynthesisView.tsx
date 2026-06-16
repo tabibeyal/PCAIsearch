@@ -21,10 +21,11 @@ export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle
       <button
         key={key}
         onClick={() => onCitationClick(ref)}
+        title={isUnverified ? 'This citation could not be verified' : 'View source passage'}
         className={`mx-1 px-1.5 py-0.5 rounded font-medium transition-colors ${
           isUnverified
             ? 'bg-red-100 text-red-600 hover:bg-red-200 cursor-not-allowed text-xs'
-            : 'bg-[#ede8df] text-[#6b4e35] hover:bg-[#e8e4dc] text-[11px] font-sans'
+            : 'bg-[#ede8df] text-[#6b4e35] hover:bg-[#e8e4dc] text-[11px] font-sans cursor-pointer underline decoration-dotted underline-offset-2'
         }`}
       >
         [{ref}]

@@ -61,7 +61,7 @@ function LoadingState({ phase }: { phase: 0 | 1 | 2 }) {
     <div className="flex items-center justify-center h-full text-[#9c8c7a]">
       <div className="text-center">
         <div className="w-8 h-8 rounded-full animate-spin mx-auto mb-3" style={{ border: '2px solid #e8e4dc', borderTopColor: '#6b4e35' }} />
-        <p className="text-sm" style={{ opacity: visible ? 1 : 0, transition: 'opacity 250ms' }}>
+        <p className="text-sm" aria-live="polite" aria-atomic="true" style={{ opacity: visible ? 1 : 0, transition: 'opacity 250ms' }}>
           {MESSAGES[displayPhase]}
         </p>
       </div>

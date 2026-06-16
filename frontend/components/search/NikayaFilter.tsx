@@ -59,11 +59,11 @@ export function NikayaFilter({ encodedQuery, view, selected }: NikayaFilterProps
 
   return (
     <div className="flex gap-2 items-center flex-wrap">
-      <span
-        className="text-xs text-[#9c8c7a] font-medium cursor-help"
-        title={`Click to switch · ${modKey}-click to add`}
-      >
+      <span className="text-xs text-[#9c8c7a] font-medium">
         Nikāya:
+      </span>
+      <span className="hidden sm:inline text-[10px] text-[#b5a494] -ml-1">
+        ({modKey}-click to add)
       </span>
       <button className={pillClass(isAll, 'All')} onClick={() => { setPending('All'); navigate([]); }}>
         All

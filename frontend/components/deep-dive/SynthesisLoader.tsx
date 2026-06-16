@@ -101,9 +101,8 @@ function ErrorMessage({ isRateLimit, detail, onRetry }: { isRateLimit: boolean; 
         <p>
           {isRateLimit
             ? 'You have sent too many requests. Please wait a moment and try again.'
-            : 'Unable to retrieve search data for this query. Please check if the backend is running.'}
+            : 'Something went wrong. Please try again or return to the home page.'}
         </p>
-        {detail && <p className="mt-2 text-sm text-amber-700 font-mono">{detail}</p>}
         <div className="mt-4 flex items-center justify-center gap-4 flex-wrap">
           {!isRateLimit && (
             <button
@@ -291,6 +290,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
 
   return (
     <div className="flex items-center justify-center h-full bg-[#faf9f7]">
+      <span className="sr-only" aria-live="polite" aria-atomic="true">{currentStatus}</span>
       <StepList currentStatus={currentStatus} />
     </div>
   );
