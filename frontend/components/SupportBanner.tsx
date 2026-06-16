@@ -63,7 +63,7 @@ export function SupportBanner() {
       {contactOpen && <ContactModal onClose={() => setContactOpen(false)} />}
       <footer
         className={[
-          'w-full bg-white border-t border-gray-200 py-4',
+          'w-full bg-white border-t border-[#e8e4dc] py-4',
           // Mobile: fixed at bottom, slide in/out
           'fixed bottom-0 left-0 right-0 z-50 transition-transform duration-300',
           // Desktop: normal flow, always visible
@@ -72,7 +72,7 @@ export function SupportBanner() {
         ].join(' ')}
         style={{ transitionTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)' }}
       >
-        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 px-6 text-sm text-gray-500">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 px-6 text-sm text-[#9c8c7a]">
           <p className="text-center sm:text-left">
             This tool runs on a free AI model, but server hosting still costs money.
             If this tool is useful to you, consider supporting it.
@@ -96,7 +96,7 @@ export function SupportBanner() {
             </a>
             <button
               onClick={() => setContactOpen(true)}
-              className="inline-flex items-center rounded-md border border-gray-300 bg-white hover:bg-gray-50 text-gray-700 font-medium px-4 py-2 transition-colors"
+              className="inline-flex items-center rounded-md border border-[#e8e4dc] bg-white hover:bg-[#ede8df] text-[#6b4e35] font-medium px-4 py-2 transition-colors"
             >
               Contact
             </button>

@@ -43,7 +43,7 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
               )}
 
               <p
-                className="border-l-2 border-[#e8e4dc] pl-4 text-[#6b5c4e] text-[13px] leading-[1.75] mb-2"
+                className="text-[#6b5c4e] text-[13px] leading-[1.75] mb-2"
                 style={{ fontFamily: 'Georgia, serif' }}
               >
                 {result.english}

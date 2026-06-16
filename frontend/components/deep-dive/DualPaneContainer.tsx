@@ -53,11 +53,11 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
   }, [showSources, activeRef]);
 
   return (
-    <div className={`relative flex h-full w-full overflow-hidden bg-gray-200 ${deepDive ? 'flex-col md:flex-row' : ''}`}>
-      <div className={`overflow-hidden shadow-xl transition-all duration-300 ${
+    <div className={`relative flex h-full w-full overflow-hidden bg-[#e8e4dc] ${deepDive ? 'flex-col md:flex-row' : ''}`}>
+      <div className={`overflow-hidden transition-all duration-300 ${
         deepDive
           ? showSources
-            ? 'w-full md:w-1/2 h-1/2 md:h-full border-b border-gray-300 md:border-b-0 md:border-r'
+            ? 'w-full md:w-1/2 h-1/2 md:h-full border-b border-[#e8e4dc] md:border-b-0 md:border-r'
             : 'w-full h-full'
           : 'w-full h-full'
       }`}>
