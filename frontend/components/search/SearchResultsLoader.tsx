@@ -71,7 +71,7 @@ function LoadingState({ phase }: { phase: 0 | 1 | 2 }) {
 
 function ErrorState({ isRateLimit, onRetry }: { isRateLimit: boolean; onRetry: () => void }) {
   return (
-    <div className="flex items-center justify-center p-8 text-red-500 text-center">
+    <div className="flex items-center justify-center p-8 text-amber-800 text-center">
       <div>
         <h2 className="text-xl font-bold mb-2">{isRateLimit ? 'Rate Limit Exceeded' : 'Search Error'}</h2>
         <p>{isRateLimit ? 'You have sent too many requests. Please wait a moment and try again.' : 'Unable to retrieve passages for this query.'}</p>

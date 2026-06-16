@@ -53,7 +53,7 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#c8bfb5] underline text-[10px] hover:text-[#9c8c7a]"
+                className="text-[#9c8c7a] underline text-[11px] hover:text-[#6b4e35]"
               >
                 View on dhammatalks.org
               </a>
