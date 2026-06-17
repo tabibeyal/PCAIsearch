@@ -42,9 +42,9 @@ export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle
     while ((match = re.exec(text)) !== null) {
       if (match.index > last) result.push(<span key={`${pIdx}-t${seg++}`}>{text.slice(last, match.index)}</span>);
       if (match[1] !== undefined) {
-        result.push(<strong key={`${pIdx}-b${seg++}`}>{match[1]}</strong>);
+        result.push(<strong key={`${pIdx}-b${seg}`}>{renderInline(match[1], pIdx * 100 + seg++)}</strong>);
       } else if (match[2] !== undefined) {
-        result.push(<em key={`${pIdx}-i${seg++}`}>{match[2]}</em>);
+        result.push(<em key={`${pIdx}-i${seg}`}>{renderInline(match[2], pIdx * 100 + seg++)}</em>);
       } else {
         const refs = match[3].split(',').map(r => r.trim()).filter(Boolean);
         result.push(
