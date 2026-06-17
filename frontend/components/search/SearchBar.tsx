@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useSyncExternalStore } from 'react';
 
 const PROMPTS = [
   'how does the Buddha define consciousness across the Nikayas?',
@@ -20,15 +20,17 @@ const DELETE_MS = 22;
 const HOLD_MS = 2000;
 const PAUSE_MS = 350;
 
+const subscribe = () => () => {};
+const getClientSnapshot = () => true;
+const getServerSnapshot = () => false;
+
 export function SearchBar() {
   const [query, setQuery] = useState('');
   const [animText, setAnimText] = useState('');
   const [cursorOn, setCursorOn] = useState(true);
-  const [mounted, setMounted] = useState(false);
   const [focused, setFocused] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
-
-  useEffect(() => { setMounted(true); }, []);
+  const mounted = useSyncExternalStore(subscribe, getClientSnapshot, getServerSnapshot);
 
   // cursor blink
   useEffect(() => {
@@ -96,21 +98,12 @@ export function SearchBar() {
   }
 
   const showAnim = query === '' && !focused;
-  const [animMounted, setAnimMounted] = useState(true);
-
-  useEffect(() => {
-    if (!showAnim) {
-      const t = setTimeout(() => setAnimMounted(false), 200);
-      return () => clearTimeout(t);
-    }
-    setAnimMounted(true);
-  }, [showAnim]);
 
   return (
     <div className="w-full max-w-2xl mx-auto relative rounded-2xl border border-[#e8e4dc] bg-white px-4 pt-4 pb-14 focus-within:border-[#9c8c7a] focus-within:ring-2 focus-within:ring-[#9c8c7a] transition-all shadow-sm">
 
-      {/* Fix 5: animated placeholder fades out on first keystroke */}
-      {mounted && animMounted && (
+      {/* Animated placeholder fades in/out based on whether the box has a query or focus */}
+      {mounted && (
         <div
           className="absolute top-4 left-4 right-14 text-base leading-relaxed text-[#b5a494] pointer-events-none select-none"
           aria-hidden="true"

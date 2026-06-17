@@ -5,7 +5,7 @@ import { SearchResultsLoader } from '@/components/search/SearchResultsLoader';
 import { NikayaFilter } from '@/components/search/NikayaFilter';
 import { NavSearchBox } from '@/components/search/NavSearchBox';
 import { SupportBanner } from '@/components/SupportBanner';
-import { SupportBannerProviderBoundary } from '@/components/SupportBannerProviderBoundary';
+import { SupportBannerProvider } from '@/components/SupportBannerContext';
 
 async function SearchPage({
   params,
@@ -30,7 +30,7 @@ async function SearchPage({
 
   return (
     <main className="h-full w-full">
-      <SupportBannerProviderBoundary>
+      <SupportBannerProvider>
         <div className="flex flex-col h-full">
           <nav className="bg-[#faf9f7] border-b border-[#e8e4dc] sticky top-0 z-10">
             {/* Row 1: brand + search */}
@@ -38,7 +38,7 @@ async function SearchPage({
               <Link href="/" className="text-sm text-[#9c8c7a] hover:text-[#6b4e35] whitespace-nowrap transition-colors">
                 Home
               </Link>
-              <NavSearchBox initialQuery={query} />
+              <NavSearchBox key={query} initialQuery={query} />
             </div>
             {/* Row 2: tabs + filter */}
             <div className="flex items-center gap-2 px-3 sm:px-4 pb-3 flex-wrap">
@@ -63,11 +63,11 @@ async function SearchPage({
           <div className="flex-1 min-h-0 overflow-auto">
             {view === 'synthesis'
               ? <SynthesisLoader query={query} nikayas={nikayas} />
-              : <SearchResultsLoader query={query} nikayas={nikayas} />}
+              : <SearchResultsLoader key={query + '|' + nikayas.join(',')} query={query} nikayas={nikayas} />}
           </div>
           <SupportBanner />
         </div>
-      </SupportBannerProviderBoundary>
+      </SupportBannerProvider>
     </main>
   );
 }

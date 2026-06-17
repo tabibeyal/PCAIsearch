@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import AsyncMock, patch
-from backend.app.services.search_pipeline import SearchPipeline, ExpansionPrompt
+from backend.app.services.search_pipeline import SearchPipeline, get_expansion_prompt
 from backend.app.services.bm25_retriever import BM25Retriever
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
@@ -187,44 +187,38 @@ async def test_search_reranks_with_original_plus_dict_hints():
          patch("backend.app.services.search_pipeline.lookup_english", return_value="not ashamed to tell a deliberate lie"):
         await pipeline.search("original", top_k=5)
 
-    assert "original" in captured["queries"]
-    assert "not ashamed to tell a deliberate lie" in captured["queries"]
+    assert captured["queries"] == ["original not ashamed to tell a deliberate lie"]
     assert "musāvādā sacca" not in captured["queries"], "Pāḷi terms must not reach the reranker (cross-encoder is English-only)"
     assert "llm variant 1" not in captured["queries"], "LLM variants must not reach the reranker"
     assert "llm variant 2" not in captured["queries"]
 
 
-def test_expansion_prompt_v2_exists():
-    prompt = ExpansionPrompt("v2").get_prompt()
+def test_expansion_prompt_is_string_and_nonempty():
+    prompt = get_expansion_prompt()
     assert isinstance(prompt, str)
     assert len(prompt) > 50
 
 
-def test_expansion_prompt_v2_has_two_line_structure():
-    prompt = ExpansionPrompt("v2").get_prompt()
+def test_expansion_prompt_has_two_line_structure():
+    prompt = get_expansion_prompt()
     assert "Line 1" in prompt
     assert "Line 2" in prompt
 
 
-def test_expansion_prompt_v2_mentions_pali_terms():
-    prompt = ExpansionPrompt("v2").get_prompt()
+def test_expansion_prompt_mentions_pali_terms():
+    prompt = get_expansion_prompt()
     assert "Pali" in prompt or "Pāli" in prompt or "Pāḷi" in prompt
 
 
-def test_expansion_prompt_v2_forbids_sutta_numbers():
-    prompt = ExpansionPrompt("v2").get_prompt()
+def test_expansion_prompt_forbids_sutta_numbers():
+    prompt = get_expansion_prompt()
     assert "sutta number" in prompt.lower() or "sutta numbers" in prompt.lower()
 
 
 def test_search_pipeline_default_uses_v7():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
-    assert pipeline.expansion_prompt.version == "v7"
-
-
-def test_expansion_prompt_raises_on_unknown_version():
-    with pytest.raises(ValueError, match="Unknown expansion prompt version"):
-        ExpansionPrompt("v99").get_prompt()
+    assert pipeline.expansion_prompt == get_expansion_prompt
 
 
 @pytest.mark.asyncio
@@ -338,41 +332,21 @@ async def test_expand_query_falls_back_to_original_on_api_error():
     assert len(result) == 2
 
 
-def test_expansion_prompt_v3_contains_reference_block():
-    prompt = ExpansionPrompt("v3").get_prompt()
+def test_expansion_prompt_v7_contains_reference_block():
+    prompt = get_expansion_prompt()
     assert "paṭicca-samuppāda" in prompt
     assert "kakacūpama" in prompt
     assert "sigālovāda" in prompt
 
 
-def test_expansion_prompt_v4_contains_example_and_reference_block():
-    prompt = ExpansionPrompt("v4").get_prompt()
-    assert "avoid extremes" in prompt
-    assert "paṭicca-samuppāda" in prompt
-    assert "kakacūpama" in prompt
-    assert "No labels" in prompt or "no labels" in prompt.lower()
-
-
-def test_expansion_prompt_v5_contains_english_passage_hints():
-    prompt = ExpansionPrompt("v5").get_prompt()
-    assert "with ignorance as condition" in prompt
-    assert "tradition hearsay scripture" in prompt
-    assert "two-handled saw bandits" in prompt
-    assert "six directions parents" in prompt
-    assert "form inconstant stress suffering not-self" in prompt
-
-
-def test_expansion_prompt_v6_has_second_example_and_rahula_entry():
-    prompt = ExpansionPrompt("v6").get_prompt()
-    assert "should a monk feel anger" in prompt
-    assert "two-handed saw bandits cut limbs" in prompt
+def test_expansion_prompt_v7_has_rahula_entry():
+    prompt = get_expansion_prompt()
     assert "Rahula" in prompt
     assert "speak false untruth" in prompt
-    assert "NOT to rely on" in prompt or "not to rely on" in prompt.lower()
 
 
 def test_expansion_prompt_v7_translates_non_english():
-    prompt = ExpansionPrompt("v7").get_prompt()
+    prompt = get_expansion_prompt()
     assert "translate" in prompt.lower()
     assert "English" in prompt
     assert "deva" in prompt
@@ -380,7 +354,7 @@ def test_expansion_prompt_v7_translates_non_english():
 
 
 def test_expansion_prompt_v7_has_foam_simile_entry():
-    prompt = ExpansionPrompt("v7").get_prompt()
+    prompt = get_expansion_prompt()
     assert "foam" in prompt
     assert "bubble" in prompt
     assert "vacuous" in prompt or "hollow" in prompt
@@ -396,7 +370,7 @@ def test_system_prompt_prohibits_existence_denial():
 def test_search_pipeline_uses_v7_by_default():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
-    assert pipeline.expansion_prompt.version == "v7"
+    assert pipeline.expansion_prompt == get_expansion_prompt
 
 
 def test_system_prompt_has_out_of_scope_guard():
@@ -457,7 +431,7 @@ async def test_multi_nikaya_search_includes_results_from_each_nikaya():
 
 
 def test_expansion_prompt_v7_has_named_similes():
-    prompt = ExpansionPrompt("v7").get_prompt()
+    prompt = get_expansion_prompt()
     assert "near shore far shore raft" in prompt          # raft simile MN 22
     assert "arrow thickly smeared poison" in prompt       # poisoned arrow MN 63
     assert "arched harp strings tuned too tight" in prompt  # lute string AN 6.55

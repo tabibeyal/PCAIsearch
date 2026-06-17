@@ -1,8 +1,7 @@
 import re
-from typing import Dict, List, Set
 
 # Well-known doctrinal cross-references in the Pali Canon
-_DOCTRINAL_PAIRS: Dict[str, List[str]] = {
+_DOCTRINAL_PAIRS: dict[str, list[str]] = {
     "DN 15": ["MN 38"],          # Mahānidāna ↔ Mahātaṇhāsankhaya (Dependent Origination)
     "MN 38": ["DN 15"],
     "DN 22": ["MN 10"],          # Mahāsatipaṭṭhāna ↔ Satipaṭṭhāna
@@ -30,11 +29,11 @@ class SuttaRelations:
     Combines hardcoded doctrinal pairs with structural adjacency (±2 within nikaya).
     """
 
-    def __init__(self, known_suttas: Set[str]):
+    def __init__(self, known_suttas: set[str]):
         self._known = frozenset(known_suttas)
 
-    def get_related(self, sutta_id: str) -> List[str]:
-        related: Set[str] = set()
+    def get_related(self, sutta_id: str) -> list[str]:
+        related: set[str] = set()
 
         for ref in _DOCTRINAL_PAIRS.get(sutta_id, []):
             if ref in self._known:

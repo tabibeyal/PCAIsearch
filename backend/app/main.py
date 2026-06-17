@@ -5,12 +5,13 @@ import os
 import re
 import sqlite3
 import time
+import urllib.error
+import urllib.request
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import List, Literal, Optional
+from typing import Literal
 
-import httpx
 from pydantic import BaseModel, Field, field_validator
 from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -43,14 +44,14 @@ class FeedbackBody(BaseModel):
     query: str = Field(max_length=600)
     answer: str = Field(max_length=20000)
     rating: Literal["up", "down"]
-    category: Optional[Literal[
+    category: Literal[
         "Doctrinally inaccurate",
         "Missing important nuance",
         "Not relevant to my question",
         "Sources don't support the answer",
         "Too vague",
-    ]] = None
-    comment: Optional[str] = Field(default=None, max_length=2000)
+    ] | None = None
+    comment: str | None = Field(default=None, max_length=2000)
 
 
 class ContactBody(BaseModel):
@@ -85,7 +86,7 @@ def _init_feedback_db() -> None:
         con.close()
 
 
-def _insert_feedback(query: str, answer: str, rating: str, category: Optional[str], comment: Optional[str]) -> None:
+def _insert_feedback(query: str, answer: str, rating: str, category: str | None, comment: str | None) -> None:
     con = sqlite3.connect(_FEEDBACK_DB)
     try:
         con.execute(
@@ -98,7 +99,7 @@ def _insert_feedback(query: str, answer: str, rating: str, category: Optional[st
 
 
 async def _insert_feedback_supabase(
-    query: str, answer: str, rating: str, category: Optional[str], comment: Optional[str]
+    query: str, answer: str, rating: str, category: str | None, comment: str | None
 ) -> None:
     # NOTE: created_at is filled by the DB default (now()), so it is omitted here.
     headers = {
@@ -107,19 +108,28 @@ async def _insert_feedback_supabase(
         "Content-Type": "application/json",
         "Prefer": "return=minimal",
     }
-    payload = {"query": query, "answer": answer, "rating": rating, "category": category, "comment": comment}
+    payload = json.dumps({"query": query, "answer": answer, "rating": rating, "category": category, "comment": comment}).encode()
+    req = urllib.request.Request(
+        f"{_SUPABASE_URL}/rest/v1/feedback",
+        data=payload,
+        headers=headers,
+        method="POST",
+    )
+
+    def _post():
+        return urllib.request.urlopen(req)
+
+    loop = asyncio.get_event_loop()
     try:
-        async with httpx.AsyncClient() as client:
-            resp = await client.post(f"{_SUPABASE_URL}/rest/v1/feedback", headers=headers, json=payload)
-            resp.raise_for_status()
-    except httpx.HTTPStatusError as exc:
+        await loop.run_in_executor(None, _post)
+    except urllib.error.HTTPError as exc:
         logger.error(
             "Supabase feedback insert failed: %s — response body: %s",
             exc,
-            exc.response.text,
+            exc.read().decode(errors="replace"),
         )
         raise
-    except httpx.HTTPError as exc:
+    except urllib.error.URLError as exc:
         logger.error("Supabase feedback insert failed (network): %s", exc)
         raise
 
@@ -214,7 +224,7 @@ async def search(
     request: Request,
     q: str = Query(..., min_length=1, max_length=500, description="The search query in English or Pali"),
     top_k: int = Query(default=10, ge=1, le=20, description="Number of results to return"),
-    nikayas: Optional[List[str]] = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
+    nikayas: list[str] | None = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
 ):
     pipeline = request.app.state.pipeline
     filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
@@ -253,7 +263,7 @@ async def stream(
     request: Request,
     q: str = Query(..., min_length=1, max_length=500, description="The question to answer"),
     top_k: int = Query(default=15, ge=1, le=20, description="Number of context chunks to retrieve"),
-    nikayas: Optional[List[str]] = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
+    nikayas: list[str] | None = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
 ):
     filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
 

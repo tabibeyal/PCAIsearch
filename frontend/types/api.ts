@@ -8,15 +8,10 @@ export interface SearchResult {
 export interface SynthesisResponse {
   query: string;
   answer: string;
-  hallucinations: string[];
-  canonical_misses: string[];
   is_faithful: boolean;
   context: SearchResult[];
 }
 
 export interface SearchResponse {
-  query: string;
   results: SearchResult[];
-  related_suttas: string[];
 }
-

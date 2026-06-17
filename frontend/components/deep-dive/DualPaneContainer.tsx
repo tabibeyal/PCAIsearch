@@ -62,7 +62,6 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
         <SynthesisView
           data={data}
           deepDive={deepDive}
-          sourcesVisible={sourcesVisible}
           onDeepDiveToggle={handleDeepDiveToggle}
           onCitationClick={handleCitationClick}
         />

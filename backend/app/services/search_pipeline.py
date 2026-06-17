@@ -1,5 +1,6 @@
-from typing import List, Dict, Any, Optional, Set
+from typing import Any
 import asyncio
+import itertools
 import logging
 import os
 import re
@@ -14,247 +15,83 @@ from backend.app.services.retriever import Retriever
 from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
-from backend.app.services.fusion import rrf_fuse, rrf_fuse_multi
+from backend.app.services.fusion import rrf_fuse_multi
 from backend.app.services.pali_dictionary import lookup, lookup_english
 
 logger = logging.getLogger(__name__)
 
 
-class ExpansionPrompt:
-    """Manages different versions of the query expansion prompt."""
-
-    VERSIONS = {
-        "v1": (
-            "You are a search query expander for a Pali Canon database. "
-            "Given a user query, output 2 keyword-focused search strings that will improve retrieval. "
-            "Rules: (1) include relevant Pali terms (e.g. musavada, anicca, dukkha, sila, samadhi); "
-            "(2) include concrete English keywords that would appear in the passage itself, not in the question; "
-            "(3) do NOT output sutta names or sutta numbers. "
-            "Output one string per line, no numbering, no explanation."
-        ),
-        "v2": (
-            "You are a search query expander for a Pali Canon database. "
-            "Given a user query, output exactly 2 search strings on separate lines.\n"
-            "Line 1 — English passage vocabulary: concrete words likely to appear verbatim in a sutta "
-            "verse. Do NOT rephrase the question. Think: what exact words would a monk say in this passage?\n"
-            "Line 2 — Pali doctrinal term cluster: the canonical Pali terminology for the concept, "
-            "space-separated and transliterated (e.g. avijja sankharā viññāna paticca-samuppāda). "
-            "Proper names of communities or persons are allowed (e.g. kālāmā). "
-            "Do NOT include sutta numbers.\n"
-            "Output exactly two lines, no numbering, no explanation. "
-            "The two lines must be maximally distinct from each other and from the original query."
-        ),
-        "v3": (
-            "You are a search query expander for a Pali Canon database. "
-            "Given a user query, output exactly 2 search strings on separate lines.\n"
-            "Line 1 — English passage vocabulary: concrete words likely to appear verbatim in a sutta "
-            "verse. Do NOT rephrase the question. Think: what exact words would a monk say in this passage?\n"
-            "Line 2 — Pali doctrinal term cluster: the canonical Pali terminology for the concept, "
-            "space-separated and transliterated (e.g. avijja sankharā viññāna paticca-samuppāda). "
-            "Proper names of communities or persons are allowed (e.g. kālāmā). "
-            "Do NOT include sutta numbers.\n"
-            "Output exactly two lines, no numbering, no explanation. "
-            "The two lines must be maximally distinct from each other and from the original query.\n\n"
-            "Pāḷi reference (use for Line 2):\n"
-            "- dependent origination / ignorance: paṭicca-samuppāda avijjā saṅkhārā viññāṇa taṇhā\n"
-            "- five aggregates / not-self: khandha rūpa vedanā saññā saṅkhārā viññāṇa anattā anicca\n"
-            "- Kālāma sutta / testing teachings: kālāmā anussava parampara itikirā takkahetu\n"
-            "- saw simile / patience under attack: kakacūpama khanti abyāpajjha mettā\n"
-            "- householder ethics / parents & family: sigālovāda mātāpitaro disa ācariya mitta\n"
-            "- four noble truths: cattāri ariyasaccāni dukkha samudaya nirodha magga\n"
-            "- noble eightfold path: sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta "
-            "sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi\n"
-            "- mindfulness / breath: satipaṭṭhāna kāyānupassanā ānāpānasati\n"
-            "- jhāna / absorption: jhāna samādhi vitakka vicāra pīti sukha ekaggatā\n"
-            "- nibbāna / liberation: nibbāna vimutti asaṅkhata vimokkha\n"
-            "- brahmavihārās / good will: good will goodwill mettā karuṇā muditā upekkhā brahmavihāra\n"
-            "- precepts / ethics: sīla pāṇātipātā musāvādā adinnādānā\n"
-            "- three marks of existence: inconstant inconstancy stress suffering tilakkhaṇa anicca dukkha anattā\n"
-            "- kamma / intention / rebirth: kamma cetanā vipāka punabbhava saṃsāra\n"
-            "- middle way: majjhimā paṭipadā atitta atilīna"
-        ),
-        "v4": (
-            "You are a search query expander for a Pali Canon database. "
-            "Given a user query, output exactly 2 lines. "
-            "No labels, no headings, no numbering, no explanation — output only the 2 lines.\n\n"
-            "Line 1: Concrete English words that would appear verbatim in the sutta passage. "
-            "Not a rephrasing of the question — think what exact words a monk would say.\n"
-            "Line 2: Canonical Pali terminology for the concept, space-separated. "
-            "Use the reference table below. Do NOT include sutta numbers.\n\n"
-            "Example:\n"
-            "Query: what is the middle way\n"
-            "Output:\n"
-            "avoid extremes pleasure pain indulgence asceticism moderation\n"
-            "majjhimā paṭipadā atitta atilīna\n\n"
-            "Pāḷi reference (use for Line 2):\n"
-            "- dependent origination / ignorance: paṭicca-samuppāda avijjā saṅkhārā viññāṇa taṇhā\n"
-            "- five aggregates / not-self: khandha rūpa vedanā saññā saṅkhārā viññāṇa anattā anicca\n"
-            "- Kālāma sutta / testing teachings: kālāmā anussava parampara itikirā takkahetu\n"
-            "- saw simile / patience under attack: kakacūpama khanti abyāpajjha mettā\n"
-            "- householder ethics / parents & family: sigālovāda mātāpitaro disa ācariya mitta\n"
-            "- four noble truths: cattāri ariyasaccāni dukkha samudaya nirodha magga\n"
-            "- noble eightfold path: sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta "
-            "sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi\n"
-            "- mindfulness / breath: satipaṭṭhāna kāyānupassanā ānāpānasati\n"
-            "- jhāna / absorption: jhāna samādhi vitakka vicāra pīti sukha ekaggatā\n"
-            "- nibbāna / liberation: nibbāna vimutti asaṅkhata vimokkha\n"
-            "- brahmavihārās / good will: good will goodwill mettā karuṇā muditā upekkhā brahmavihāra\n"
-            "- precepts / ethics: sīla pāṇātipātā musāvādā adinnādānā\n"
-            "- three marks of existence: inconstant inconstancy stress suffering tilakkhaṇa anicca dukkha anattā\n"
-            "- kamma / intention / rebirth: kamma cetanā vipāka punabbhava saṃsāra\n"
-            "- middle way: majjhimā paṭipadā atitta atilīna"
-        ),
-        "v5": (
-            "You are a search query expander for a Pali Canon database. "
-            "Given a user query, output exactly 2 lines. "
-            "No labels, no headings, no numbering, no explanation — output only the 2 lines.\n\n"
-            "Line 1: Concrete English words that would appear verbatim in the sutta passage. "
-            "Not a rephrasing of the question — think what exact words a monk would say.\n"
-            "Line 2: Canonical Pali terminology for the concept, space-separated. "
-            "Use the reference table below. Do NOT include sutta numbers.\n\n"
-            "Example:\n"
-            "Query: what is the middle way\n"
-            "Output:\n"
-            "avoid extremes pleasure pain indulgence asceticism moderation\n"
-            "majjhimā paṭipadā atitta atilīna\n\n"
-            "Pāḷi reference (English passage hints → Pāḷi terms):\n"
-            "- dependent origination / ignorance: with ignorance as condition formations arise consciousness → paṭicca-samuppāda avijjā saṅkhārā viññāṇa taṇhā\n"
-            "- five aggregates / not-self: form inconstant stress suffering not-self clinging → khandha rūpa vedanā saññā saṅkhārā viññāṇa anattā anicca\n"
-            "- Kālāma sutta / testing teachings: tradition hearsay scripture reasoning teacher → kālāmā anussava parampara itikirā takkahetu\n"
-            "- saw simile / patience under attack: two-handled saw bandits limb loving-kindness → kakacūpama khanti abyāpajjha mettā\n"
-            "- householder ethics / parents & family: six directions parents teacher friend servant ascetic → sigālovāda mātāpitaro disa ācariya mitta\n"
-            "- four noble truths: stress suffering origin cessation path → cattāri ariyasaccāni dukkha samudaya nirodha magga\n"
-            "- noble eightfold path: right view purpose speech action livelihood effort mindfulness immersion → sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta "
-            "sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi\n"
-            "- mindfulness / breath: body feelings mind phenomena → satipaṭṭhāna kāyānupassanā ānāpānasati\n"
-            "- jhāna / absorption: first second third fourth seclusion rapture pleasure equanimity → jhāna samādhi vitakka vicāra pīti sukha ekaggatā\n"
-            "- nibbāna / liberation: unborn unconditioned deathless → nibbāna vimutti asaṅkhata vimokkha\n"
-            "- brahmavihārās / good will: good will goodwill loving-kindness compassion sympathetic joy equanimity → mettā karuṇā muditā upekkhā brahmavihāra\n"
-            "- precepts / ethics: abstain killing stealing lying intoxicants → sīla pāṇātipātā musāvādā adinnādānā\n"
-            "- three marks of existence: inconstant impermanent stress suffering not-self → tilakkhaṇa anicca dukkha anattā\n"
-            "- kamma / intention / rebirth: intention action result rebirth wandering → kamma cetanā vipāka punabbhava saṃsāra\n"
-            "- middle way: avoid extremes pleasure pain indulgence asceticism moderation → majjhimā paṭipadā atitta atilīna"
-        ),
-        "v6": (
-            "You are a search query expander for a Pali Canon database. "
-            "Given a user query, output exactly 2 lines. "
-            "Do NOT write 'Line 1:' or 'Line 2:' or any label — output only the 2 lines of search terms.\n\n"
-            "Line 1: Concrete English words that would appear verbatim in the sutta passage. "
-            "IMPORTANT: if the topic matches a reference entry, use the English hint words from that entry for Line 1 — "
-            "even if they seem unrelated to the question surface. The hint words come from the actual sutta text.\n"
-            "Line 2: Canonical Pali terminology. Use the reference table below. Do NOT include sutta numbers.\n\n"
-            "Example:\n"
-            "Query: should a monk feel anger even if attacked with a saw\n"
-            "Output:\n"
-            "two-handed saw bandits cut limbs loving-kindness\n"
-            "kakacūpama khanti abyāpajjha mettā\n\n"
-            "Reference table (English passage hint → Pāḷi terms):\n"
-            "- dependent origination / ignorance: ignorance is a requirement for choices consciousness name and form six sense fields contact feeling craving grasping continued existence rebirth → paṭicca-samuppāda avijjā saṅkhārā viññāṇa taṇhā\n"
-            "- five aggregates / not-self: form feeling perception formation consciousness impermanent not-self → khandha rūpa vedanā saññā saṅkhārā viññāṇa anattā anicca\n"
-            "- Kālāma sutta / testing teachings: tradition hearsay scripture reasoning teacher [these words appear in text as what NOT to rely on] → kālāmā anussava parampara itikirā takkahetu\n"
-            "- saw simile / patience under attack: two-handed saw bandits cut limbs loving-kindness → kakacūpama khanti abyāpajjha mettā\n"
-            "- truthfulness / lying / one precept Rahula: speak false untruth Rahula mirror reflect → musāvādā sacca sammā-vācā\n"
-            "- householder ethics / parents & family: six directions parents teacher friend servant ascetic → sigālovāda mātāpitaro disa ācariya mitta\n"
-            "- four noble truths: stress suffering origin cessation path → cattāri ariyasaccāni dukkha samudaya nirodha magga\n"
-            "- noble eightfold path: right view purpose speech action livelihood effort mindfulness immersion → sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta "
-            "sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi\n"
-            "- mindfulness / breath: body feelings mind phenomena → satipaṭṭhāna kāyānupassanā ānāpānasati\n"
-            "- jhāna / absorption: first second third fourth seclusion rapture pleasure equanimity → jhāna samādhi vitakka vicāra pīti sukha ekaggatā\n"
-            "- nibbāna / liberation: unborn unconditioned deathless → nibbāna vimutti asaṅkhata vimokkha\n"
-            "- brahmavihārās / good will: good will goodwill loving-kindness compassion sympathetic joy equanimity → mettā karuṇā muditā upekkhā brahmavihāra\n"
-            "- precepts / ethics: abstain killing stealing lying intoxicants → sīla pāṇātipātā musāvādā adinnādānā\n"
-            "- craving / addiction / compulsion: consumed overwhelmed desire sensual pleasure ferment taint clinging not freed → taṇhā rāga āsava kāmacchanda upādāna\n"
-            "- three marks of existence: inconstant impermanent stress suffering not-self → tilakkhaṇa anicca dukkha anattā\n"
-            "- kamma / intention / rebirth: intention action result rebirth wandering → kamma cetanā vipāka punabbhava saṃsāra\n"
-            "- middle way: avoid extremes pleasure pain indulgence asceticism moderation → majjhimā paṭipadā atitta atilīna"
-        ),
-        "v7": (
-            "You are a search query expander for a Pali Canon database. "
-            "STEP 0 (silent): If the query is not in English, translate it to English first. "
-            "All output must be in English regardless of the query language.\n\n"
-            "Given the (possibly translated) query, output exactly 2 lines. "
-            "Do NOT write 'Line 1:' or 'Line 2:' or any label — output only the 2 lines of search terms.\n\n"
-            "Line 1: Concrete English words that would appear verbatim in the sutta passage. "
-            "IMPORTANT: if the topic matches a reference entry, use the English hint words from that entry for Line 1 — "
-            "even if they seem unrelated to the question surface. The hint words come from the actual sutta text.\n"
-            "Line 2: Canonical Pali terminology. Use the reference table below. Do NOT include sutta numbers.\n\n"
-            "Example:\n"
-            "Query: should a monk feel anger even if attacked with a saw\n"
-            "Output:\n"
-            "two-handed saw bandits cut limbs loving-kindness\n"
-            "kakacūpama khanti abyāpajjha mettā\n\n"
-            "Reference table (English passage hint → Pāḷi terms):\n"
-            "- dependent origination / ignorance: ignorance is a requirement for choices consciousness name and form six sense fields contact feeling craving grasping continued existence rebirth → paṭicca-samuppāda avijjā saṅkhārā viññāṇa taṇhā\n"
-            "- five aggregates / not-self: form feeling perception formation consciousness impermanent not-self → khandha rūpa vedanā saññā saṅkhārā viññāṇa anattā anicca\n"
-            "- five aggregates similes / lump of foam: lump foam bubble mirage banana trunk illusion vacuous hollow insubstantial Ganges → pheṇapiṇḍa khandha anicca anattā\n"
-            "- Kālāma sutta / testing teachings: tradition hearsay scripture reasoning teacher [these words appear in text as what NOT to rely on] → kālāmā anussava parampara itikirā takkahetu\n"
-            "- saw simile / patience under attack: two-handed saw bandits cut limbs loving-kindness → kakacūpama khanti abyāpajjha mettā\n"
-            "- truthfulness / lying / one precept Rahula: speak false untruth Rahula mirror reflect → musāvādā sacca sammā-vācā\n"
-            "- householder ethics / parents & family: six directions parents teacher friend servant ascetic → sigālovāda mātāpitaro disa ācariya mitta\n"
-            "- four noble truths: stress suffering origin cessation path → cattāri ariyasaccāni dukkha samudaya nirodha magga\n"
-            "- noble eightfold path: right view purpose speech action livelihood effort mindfulness immersion → sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta "
-            "sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi\n"
-            "- mindfulness / breath: body feelings mind phenomena → satipaṭṭhāna kāyānupassanā ānāpānasati\n"
-            "- jhāna / absorption: first second third fourth seclusion rapture pleasure equanimity → jhāna samādhi vitakka vicāra pīti sukha ekaggatā\n"
-            "- nibbāna / liberation: unborn unconditioned deathless → nibbāna vimutti asaṅkhata vimokkha\n"
-            "- brahmavihārās / good will: good will goodwill loving-kindness compassion sympathetic joy equanimity → mettā karuṇā muditā upekkhā brahmavihāra\n"
-            "- precepts / ethics: abstain killing stealing lying intoxicants → sīla pāṇātipātā musāvādā adinnādānā\n"
-            "- craving / addiction / compulsion: consumed overwhelmed desire sensual pleasure ferment taint clinging not freed → taṇhā rāga āsava kāmacchanda upādāna\n"
-            "- three marks of existence: inconstant impermanent stress suffering not-self → tilakkhaṇa anicca dukkha anattā\n"
-            "- kamma / intention / rebirth: intention action result rebirth wandering → kamma cetanā vipāka punabbhava saṃsāra\n"
-            "- middle way: avoid extremes pleasure pain indulgence asceticism moderation → majjhimā paṭipadā atitta atilīna\n"
-            "- devas / heavenly beings: deva deity approached sat one side lord blessed → deva devaputta brahmā sakka\n"
-            "- Mara / death / temptation: Mara evil one snare trap host armies flowers → māra pāpimā\n"
-            "- sense bases / contact: eye ear nose tongue body mind contact feeling → āyatana phassa vedanā salāyatana\n"
-            "- raft simile / do not cling to the teaching: near shore far shore raft grass sticks branches leaves carry head cross over → kullūpama\n"
-            "- snake/cobra simile / wrong grasp of teachings: cobra coil grasp wrong grasp cleft stick venom bite hand → alagaddūpama\n"
-            "- poisoned arrow simile / unanswered questions: arrow thickly smeared poison surgeon extract undeclared cosmos eternal soul body → salla\n"
-            "- relay chariots simile / stages of the path: chariots stationed ready Sāvatthī Sāketa mounted dismounted seven stages → rathavinīta\n"
-            "- stained cloth simile / purifying the mind: cloth dirty soiled dye blue yellow red magenta pure clean impure corrupt → vattha\n"
-            "- elephant's footprint simile / four noble truths encompass all: footprints creatures walk elephant footprint biggest includes four noble truths → hatthipadopama\n"
-            "- ancient path/city simile / rediscovering the Dhamma: ancient path ancient route forest person walking old road parks groves lotus ponds capital → nagara\n"
-            "- dog on leash simile / running around the aggregates: hound leash tethered post pillar running circling form feeling perception choices consciousness → gaddula\n"
-            "- everything is burning simile / fire of the senses: burning fire greed hate delusion eye ear nose tongue body mind contact → āditta\n"
-            "- two arrows simile / adding mental suffering to physical pain: struck arrow second arrow two feelings physical mental uninstructed wails laments → dvisalla\n"
-            "- handful of leaves simile / what the Buddha teaches vs what he knows: rosewood leaves handful forest tiny amount what I know what I teach → siṃsapā\n"
-            "- blind turtle simile / precious human birth: yoke single hole one-eyed turtle hundred years ocean east west north south winds → chiggaḷa\n"
-            "- lute string simile / balanced energy: arched harp strings tuned too tight too slack even tension resonant playable Soṇa energy restlessness laziness → vīṇā\n"
-            "- against the stream / four types of practitioners: goes with the stream goes against the stream steadfast crossed over far shore sensual pleasures bad deeds → paṭisota\n"
-            "- salt in mug vs Ganges / kamma ripens by development: lump of salt mug of water Ganges river salty undrinkable big-hearted small-minded trivial bad deed → kamma cetanā\n"
-            "- fire sticks / contact produces feeling: rub two sticks together heat generated fire produced part sticks lay aside contact feeling pleasant painful equanimity → phassa vedanā samphassa\n"
-            "- cook simile / mindfulness reads the mind's hints: foolish cook master hint sauce sour bitter pungent sweet salty bland mindfulness immersion corruptions wages → satipaṭṭhāna\n"
-            "- bathman soap ball simile / jhāna pervades the body: bathroom attendant bath powder bronze dish kneads ball rapture bliss drench steep fill pervade body seclusion → jhāna pīti sukha\n"
-            "- goldsmith purifying mind / refining meditation: native gold crucible blow melt smelt pliable workable radiant dross ornament bracelet coarse fine corruptions → citta samādhi\n"
-            "- peg simile / replacing unskillful thoughts: deft mason large peg finer peg knock extract unskillful skillful thoughts desire hate delusion → vitakka\n"
-            "- cow udder simile / rational vs irrational practice: pulling horn newly-calved cow udder milk irrational rational wish fruit churning curds butter sesame oil → sammā paṭipadā\n"
-            "- acrobat simile / guarding self and others: pole acrobat corpse-workers bamboo pole apprentice shoulders skill display fee safely mutual protection → satipaṭṭhāna\n"
-            "- ocean one taste / Dhamma has one taste of liberation: ocean one taste salt titans rivers lose names clans taste of freedom teaching training → dhamma vinaya vimutti\n"
-            "- lotus pool simile / jhāna pervades without gap: pool blue water lilies pink white lotuses sprout grow rising above thriving underwater no part body → jhāna pīti sukha\n"
-            "- island to yourself / be your own refuge: live as your own island refuge no other refuge teaching island Ānanda passed mendicant → attadīpa satipaṭṭhāna\n"
-            "- city with six gates / sense bases and mindfulness: frontier citadel fortified ramparts six gates gatekeeper astute body four principal states consciousness lord of city → āyatana sati\n"
-            "- dyed water simile / five hindrances obscure the mind: bowl water mixed dye red lac turmeric boiling bubbling moss aquatic plants stirred wind reflection see clearly → nīvaraṇa"
-        ),
-    }
-
-    def __init__(self, version: str = "v7"):
-        self.version = version
-
-    def get_prompt(self) -> str:
-        """Get the prompt for the selected version."""
-        if self.version not in self.VERSIONS:
-            raise ValueError(f"Unknown expansion prompt version: {self.version!r}. Available: {list(self.VERSIONS)}")
-        return self.VERSIONS[self.version]
-
-    @classmethod
-    def list_versions(cls) -> list[str]:
-        """List available prompt versions."""
-        return list(cls.VERSIONS.keys())
+_EXPANSION_PROMPT_V7 = (
+    "You are a search query expander for a Pali Canon database. "
+    "STEP 0 (silent): If the query is not in English, translate it to English first. "
+    "All output must be in English regardless of the query language.\n\n"
+    "Given the (possibly translated) query, output exactly 2 lines. "
+    "Do NOT write 'Line 1:' or 'Line 2:' or any label — output only the 2 lines of search terms.\n\n"
+    "Line 1: Concrete English words that would appear verbatim in the sutta passage. "
+    "IMPORTANT: if the topic matches a reference entry, use the English hint words from that entry for Line 1 — "
+    "even if they seem unrelated to the question surface. The hint words come from the actual sutta text.\n"
+    "Line 2: Canonical Pali terminology. Use the reference table below. Do NOT include sutta numbers.\n\n"
+    "Example:\n"
+    "Query: should a monk feel anger even if attacked with a saw\n"
+    "Output:\n"
+    "two-handed saw bandits cut limbs loving-kindness\n"
+    "kakacūpama khanti abyāpajjha mettā\n\n"
+    "Reference table (English passage hint → Pāḷi terms):\n"
+    "- dependent origination / ignorance: ignorance is a requirement for choices consciousness name and form six sense fields contact feeling craving grasping continued existence rebirth → paṭicca-samuppāda avijjā saṅkhārā viññāṇa taṇhā\n"
+    "- five aggregates / not-self: form feeling perception formation consciousness impermanent not-self → khandha rūpa vedanā saññā saṅkhārā viññāṇa anattā anicca\n"
+    "- five aggregates similes / lump of foam: lump foam bubble mirage banana trunk illusion vacuous hollow insubstantial Ganges → pheṇapiṇḍa khandha anicca anattā\n"
+    "- Kālāma sutta / testing teachings: tradition hearsay scripture reasoning teacher [these words appear in text as what NOT to rely on] → kālāmā anussava parampara itikirā takkahetu\n"
+    "- saw simile / patience under attack: two-handed saw bandits cut limbs loving-kindness → kakacūpama khanti abyāpajjha mettā\n"
+    "- truthfulness / lying / one precept Rahula: speak false untruth Rahula mirror reflect → musāvādā sacca sammā-vācā\n"
+    "- householder ethics / parents & family: six directions parents teacher friend servant ascetic → sigālovāda mātāpitaro disa ācariya mitta\n"
+    "- four noble truths: stress suffering origin cessation path → cattāri ariyasaccāni dukkha samudaya nirodha magga\n"
+    "- noble eightfold path: right view purpose speech action livelihood effort mindfulness immersion → sammā-diṭṭhi sammā-saṅkappa sammā-vācā sammā-kammanta "
+    "sammā-ājīva sammā-vāyāma sammā-sati sammā-samādhi\n"
+    "- mindfulness / breath: body feelings mind phenomena → satipaṭṭhāna kāyānupassanā ānāpānasati\n"
+    "- jhāna / absorption: first second third fourth seclusion rapture pleasure equanimity → jhāna samādhi vitakka vicāra pīti sukha ekaggatā\n"
+    "- nibbāna / liberation: unborn unconditioned deathless → nibbāna vimutti asaṅkhata vimokkha\n"
+    "- brahmavihārās / good will: good will goodwill loving-kindness compassion sympathetic joy equanimity → mettā karuṇā muditā upekkhā brahmavihāra\n"
+    "- precepts / ethics: abstain killing stealing lying intoxicants → sīla pāṇātipātā musāvādā adinnādānā\n"
+    "- craving / addiction / compulsion: consumed overwhelmed desire sensual pleasure ferment taint clinging not freed → taṇhā rāga āsava kāmacchanda upādāna\n"
+    "- three marks of existence: inconstant impermanent stress suffering not-self → tilakkhaṇa anicca dukkha anattā\n"
+    "- kamma / intention / rebirth: intention action result rebirth wandering → kamma cetanā vipāka punabbhava saṃsāra\n"
+    "- middle way: avoid extremes pleasure pain indulgence asceticism moderation → majjhimā paṭipadā atitta atilīna\n"
+    "- devas / heavenly beings: deva deity approached sat one side lord blessed → deva devaputta brahmā sakka\n"
+    "- Mara / death / temptation: Mara evil one snare trap host armies flowers → māra pāpimā\n"
+    "- sense bases / contact: eye ear nose tongue body mind contact feeling → āyatana phassa vedanā salāyatana\n"
+    "- raft simile / do not cling to the teaching: near shore far shore raft grass sticks branches leaves carry head cross over → kullūpama\n"
+    "- snake/cobra simile / wrong grasp of teachings: cobra coil grasp wrong grasp cleft stick venom bite hand → alagaddūpama\n"
+    "- poisoned arrow simile / unanswered questions: arrow thickly smeared poison surgeon extract undeclared cosmos eternal soul body → salla\n"
+    "- relay chariots simile / stages of the path: chariots stationed ready Sāvatthī Sāketa mounted dismounted seven stages → rathavinīta\n"
+    "- stained cloth simile / purifying the mind: cloth dirty soiled dye blue yellow red magenta pure clean impure corrupt → vattha\n"
+    "- elephant's footprint simile / four noble truths encompass all: footprints creatures walk elephant footprint biggest includes four noble truths → hatthipadopama\n"
+    "- ancient path/city simile / rediscovering the Dhamma: ancient path ancient route forest person walking old road parks groves lotus ponds capital → nagara\n"
+    "- dog on leash simile / running around the aggregates: hound leash tethered post pillar running circling form feeling perception choices consciousness → gaddula\n"
+    "- everything is burning simile / fire of the senses: burning fire greed hate delusion eye ear nose tongue body mind contact → āditta\n"
+    "- two arrows simile / adding mental suffering to physical pain: struck arrow second arrow two feelings physical mental uninstructed wails laments → dvisalla\n"
+    "- handful of leaves simile / what the Buddha teaches vs what he knows: rosewood leaves handful forest tiny amount what I know what I teach → siṃsapā\n"
+    "- blind turtle simile / precious human birth: yoke single hole one-eyed turtle hundred years ocean east west north south winds → chiggaḷa\n"
+    "- lute string simile / balanced energy: arched harp strings tuned too tight too slack even tension resonant playable Soṇa energy restlessness laziness → vīṇā\n"
+    "- against the stream / four types of practitioners: goes with the stream goes against the stream steadfast crossed over far shore sensual pleasures bad deeds → paṭisota\n"
+    "- salt in mug vs Ganges / kamma ripens by development: lump of salt mug of water Ganges river salty undrinkable big-hearted small-minded trivial bad deed → kamma cetanā\n"
+    "- fire sticks / contact produces feeling: rub two sticks together heat generated fire produced part sticks lay aside contact feeling pleasant painful equanimity → phassa vedanā samphassa\n"
+    "- cook simile / mindfulness reads the mind's hints: foolish cook master hint sauce sour bitter pungent sweet salty bland mindfulness immersion corruptions wages → satipaṭṭhāna\n"
+    "- bathman soap ball simile / jhāna pervades the body: bathroom attendant bath powder bronze dish kneads ball rapture bliss drench steep fill pervade body seclusion → jhāna pīti sukha\n"
+    "- goldsmith purifying mind / refining meditation: native gold crucible blow melt smelt pliable workable radiant dross ornament bracelet coarse fine corruptions → citta samādhi\n"
+    "- peg simile / replacing unskillful thoughts: deft mason large peg finer peg knock extract unskillful skillful thoughts desire hate delusion → vitakka\n"
+    "- cow udder simile / rational vs irrational practice: pulling horn newly-calved cow udder milk irrational rational wish fruit churning curds butter sesame oil → sammā paṭipadā\n"
+    "- acrobat simile / guarding self and others: pole acrobat corpse-workers bamboo pole apprentice shoulders skill display fee safely mutual protection → satipaṭṭhāna\n"
+    "- ocean one taste / Dhamma has one taste of liberation: ocean one taste salt titans rivers lose names clans taste of freedom teaching training → dhamma vinaya vimutti\n"
+    "- lotus pool simile / jhāna pervades without gap: pool blue water lilies pink white lotuses sprout grow rising above thriving underwater no part body → jhāna pīti sukha\n"
+    "- island to yourself / be your own refuge: live as your own island refuge no other refuge teaching island Ānanda passed mendicant → attadīpa satipaṭṭhāna\n"
+    "- city with six gates / sense bases and mindfulness: frontier citadel fortified ramparts six gates gatekeeper astute body four principal states consciousness lord of city → āyatana sati\n"
+    "- dyed water simile / five hindrances obscure the mind: bowl water mixed dye red lac turmeric boiling bubbling moss aquatic plants stirred wind reflection see clearly → nīvaraṇa"
+)
 
 
-def _extract_sutta_id(chunk_id: str) -> Optional[str]:
-    """Extract 'DN 15' from a chunk ID like 'DN 15:3'."""
-    parts = chunk_id.rsplit(":", 1)
-    return parts[0].strip() if len(parts) == 2 else None
+def get_expansion_prompt() -> str:
+    """Return the current v7 query-expansion prompt."""
+    return _EXPANSION_PROMPT_V7
 
 
 _THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL | re.IGNORECASE)
@@ -276,10 +113,7 @@ class Reranker:
     def __init__(self, model_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"):
         self.model = CrossEncoder(model_name)
 
-    def rerank(self, query: str, chunks: List[dict]) -> List[dict]:
-        return self.rerank_multi([query], chunks)
-
-    def rerank_multi(self, queries: List[str], chunks: List[dict]) -> List[dict]:
+    def rerank_multi(self, queries: list[str], chunks: list[dict]) -> list[dict]:
         if not chunks:
             return []
         best = [float("-inf")] * len(chunks)
@@ -382,7 +216,7 @@ def _enforce_citation_limit(text: str, max_citations: int = 3) -> str:
     return _CITATION_RE.sub(_trim, text)
 
 
-def _strip_orphan_citations(text: str, chunk_ids: Set[str]) -> str:
+def _strip_orphan_citations(text: str, chunk_ids: set[str]) -> str:
     """Post-process: remove citations that do not match any chunk ID.
 
     Citation IDs in the text should exactly match IDs from the context.
@@ -402,11 +236,11 @@ def _strip_orphan_citations(text: str, chunk_ids: Set[str]) -> str:
     return text
 
 
-def _build_messages(query: str, chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def _build_messages(query: str, chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
     # Filter out near-empty chunks and deduplicate identical English text
     # to prevent the model from seeing multiple copies of the same phrase.
-    seen_english: set = set()
-    kept: List[Dict[str, Any]] = []
+    seen_english: set[str] = set()
+    kept: list[dict[str, Any]] = []
     for c in chunks:
         eng = c.get("english", "").strip()
         if len(eng.split()) < 4:
@@ -436,10 +270,9 @@ class SearchPipeline:
         model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         llm_model: str = os.environ.get("LLM_MODEL", "meta/llama-3.3-70b-instruct"),
         expansion_model: str = os.environ.get("EXPANSION_MODEL", "google/gemma-3n-e4b-it"),
-        sutta_relations: Optional[SuttaRelations] = None,
-        expansion_prompt: Optional[ExpansionPrompt] = None,
-        title_index: Optional[SuttaTitleIndex] = None,
-        bm25_retriever: Optional[BM25Retriever] = None,
+        sutta_relations: SuttaRelations | None = None,
+        title_index: SuttaTitleIndex | None = None,
+        bm25_retriever: BM25Retriever | None = None,
     ):
         self._executor = ThreadPoolExecutor(max_workers=4)
         client = AsyncQdrantClient(
@@ -457,7 +290,7 @@ class SearchPipeline:
         )
         self.reranker = Reranker()
         self.sutta_relations = sutta_relations
-        self.expansion_prompt = expansion_prompt or ExpansionPrompt("v7")
+        self.expansion_prompt = get_expansion_prompt
         self.title_index = title_index
         self.expansion_model = expansion_model
         self.bm25_retriever = bm25_retriever
@@ -476,11 +309,11 @@ class SearchPipeline:
             self._executor, self.reranker.model.predict, [("warmup", "warmup")]
         )
 
-    async def expand_query(self, query: str) -> List[str]:
-        seen: set = {query}
-        variants = [query]
+    async def expand_query(self, query: str) -> list[str]:
+        seen: set[str] = {query}
+        variants: list[str] = [query]
         try:
-            prompt = self.expansion_prompt.get_prompt()
+            prompt = self.expansion_prompt()
             t0 = time.perf_counter()
             message = await self.llm.chat.completions.create(
                 model=self.expansion_model,
@@ -508,9 +341,9 @@ class SearchPipeline:
             variants.append(english_hit)
         return variants
 
-    def _bm25_dedup(self, queries: List[str], retrieval_k: int, nikayas: Optional[List[str]]) -> List[Dict[str, Any]]:
+    def _bm25_dedup(self, queries: list[str], retrieval_k: int, nikayas: list[str] | None) -> list[dict[str, Any]]:
         """Run BM25 for each query, keep the highest-scoring copy of each verse, sort by score."""
-        seen: Dict[str, Dict[str, Any]] = {}
+        seen: dict[str, dict[str, Any]] = {}
         for q in queries:
             for item in self.bm25_retriever.retrieve(q, retrieval_k, nikayas):
                 item_id = item["id"]
@@ -518,7 +351,7 @@ class SearchPipeline:
                     seen[item_id] = item
         return sorted(seen.values(), key=lambda x: x["bm25_score"], reverse=True)
 
-    def _apply_title_boost(self, query: str, queries: List[str]) -> List[str]:
+    def _apply_title_boost(self, query: str, queries: list[str]) -> list[str]:
         """If a canonical sutta title matches the query, append its title text as an
         extra retrieval query so the reranker sees that sutta's verses."""
         if not self.title_index:
@@ -534,12 +367,12 @@ class SearchPipeline:
 
     async def _run_pipeline(
         self,
-        queries: List[str],
+        queries: list[str],
         retrieval_k: int,
-        nikayas: Optional[List[str]],
-        prefetched_first: List[Dict[str, Any]],
-        precomputed_bm25: Optional[List[Dict[str, Any]]],
-    ) -> List[Dict[str, Any]]:
+        nikayas: list[str] | None,
+        prefetched_first: list[dict[str, Any]],
+        precomputed_bm25: list[dict[str, Any]] | None,
+    ) -> list[dict[str, Any]]:
         """Retrieve → fuse → BM25 for a single nikaya bucket.
 
         Returns fused candidates (no rerank, no slicing). The caller reranks
@@ -561,17 +394,17 @@ class SearchPipeline:
 
         if precomputed_bm25 is not None:
             # Shared BM25 results pre-filtered by nikaya — skip recomputing.
-            all_results = rrf_fuse(dense_fused, precomputed_bm25)
+            all_results = rrf_fuse_multi([dense_fused, precomputed_bm25])
         elif self.bm25_retriever:
             bm25_results = await loop.run_in_executor(self._executor, self._bm25_dedup, queries, retrieval_k, nikayas)
-            all_results = rrf_fuse(dense_fused, bm25_results)
+            all_results = rrf_fuse_multi([dense_fused, bm25_results])
         else:
             all_results = dense_fused
 
         logger.info("bm25: %.2fs", time.perf_counter() - t1)
         return all_results
 
-    async def search(self, query: str, top_k: int = 10, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
+    async def search(self, query: str, top_k: int = 10, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
         t0 = time.perf_counter()
         retrieval_k = max(top_k * 3, 30)
 
@@ -580,15 +413,13 @@ class SearchPipeline:
         # introduces noise. The english_hint (verbatim passage text) bridges vocabulary
         # gaps the cross-encoder can actually exploit (e.g. MN 61: 'deliberate lie' ≠
         # 'precept'). Pāḷi terms have already done their job during retrieval.
-        rerank_queries: List[str] = [query]
         english_hit_str = lookup_english(query)
-        if english_hit_str:
-            rerank_queries.append(english_hit_str)
+        rerank_queries: list[str] = [f"{query} {english_hit_str}" if english_hit_str else query]
 
         # Normalise nikayas into a list of buckets. No filter and single-nikaya
         # both produce a one-element list — the per-bucket pipeline below is the
         # identity for N=1.
-        buckets: List[Optional[str]] = list(nikayas) if nikayas else [None]
+        buckets: list[str | None] = list(nikayas) if nikayas else [None]
 
         # Overlap expansion with initial per-bucket retrieval so the NVIDIA API
         # wait runs alongside the first Qdrant round-trip per bucket.
@@ -596,8 +427,8 @@ class SearchPipeline:
             self.expand_query(query),
             *[self.retriever.retrieve(query, retrieval_k, [b] if b else None) for b in buckets],
         )
-        queries: List[str] = gather_out[0]
-        bucket_initials: List[List[Dict[str, Any]]] = list(gather_out[1:])
+        queries: list[str] = gather_out[0]
+        bucket_initials: list[list[dict[str, Any]]] = list(gather_out[1:])
 
         logger.info("expand+initial_retrieve: %.2fs", time.perf_counter() - t0)
 
@@ -609,7 +440,7 @@ class SearchPipeline:
         loop = asyncio.get_running_loop()
         if self.bm25_retriever:
             shared_bm25 = await loop.run_in_executor(self._executor, self._bm25_dedup, queries, retrieval_k, None)
-            bm25_by_bucket: Dict[Optional[str], Optional[List[Dict[str, Any]]]] = {
+            bm25_by_bucket: dict[str | None, list[dict[str, Any]] | None] = {
                 b: ([item for item in shared_bm25 if item.get("nikaya") == b] if b else shared_bm25)
                 for b in buckets
             }
@@ -631,8 +462,8 @@ class SearchPipeline:
 
         # Union the per-bucket candidates, dedup by id keeping the first occurrence
         # (RRF rank order means earlier = higher fusion rank).
-        seen_ids: Set[str] = set()
-        union: List[Dict[str, Any]] = []
+        seen_ids: set[str] = set()
+        union: list[dict[str, Any]] = []
         for candidates in bucket_candidates:
             for c in candidates:
                 if c["id"] not in seen_ids:
@@ -652,56 +483,49 @@ class SearchPipeline:
 
         # Partition the scored list back per bucket. The retriever doesn't
         # surface the nikaya field, so derive it from the chunk id prefix.
-        def _bucket_of(chunk: Dict[str, Any]) -> Optional[str]:
+        def _bucket_of(chunk: dict[str, Any]) -> str | None:
             if len(buckets) == 1:
                 return buckets[0]
             chunk_id = chunk.get("id", "")
             prefix = chunk_id.split(":", 1)[0].split()[0] if chunk_id else ""
             return prefix if prefix in buckets else None
 
-        scored_by_bucket: Dict[Optional[str], List[Dict[str, Any]]] = {b: [] for b in buckets}
+        scored_by_bucket: dict[str | None, list[dict[str, Any]]] = {b: [] for b in buckets}
         for chunk in scored:
             scored_by_bucket[_bucket_of(chunk)].append(chunk)
 
         # Round-robin interleave: pick one result from each bucket in turn.
         # Identity for N=1 (one bucket, take the top top_k).
-        results: List[Dict[str, Any]] = []
-        iters = [iter(r) for r in scored_by_bucket.values()]
-        active = list(iters)
-        while active and len(results) < top_k:
-            next_active = []
-            for it in active:
-                try:
-                    results.append(next(it))
-                    next_active.append(it)
-                    if len(results) == top_k:
-                        break
-                except StopIteration:
-                    pass
-            active = next_active
+        results: list[dict[str, Any]] = []
+        for chunk in itertools.chain(*itertools.zip_longest(*scored_by_bucket.values())):
+            if chunk is None or len(results) == top_k:
+                continue
+            results.append(chunk)
 
         logger.info("search total: %.2fs", time.perf_counter() - t0)
         return results
 
-    def get_related_suttas(self, results: List[Dict[str, Any]], top_n: int = 5) -> List[str]:
+    def get_related_suttas(self, results: list[dict[str, Any]], top_n: int = 5) -> list[str]:
         """
         Return canonically related sutta IDs not already in the top results.
         """
         if self.sutta_relations is None:
             return []
-        retrieved_suttas: Set[str] = set()
+        retrieved_suttas: set[str] = set()
         for r in results[:top_n]:
-            sid = _extract_sutta_id(r.get("id", ""))
+            chunk_id = r.get("id", "")
+            parts = chunk_id.rsplit(":", 1)
+            sid = parts[0].strip() if len(parts) == 2 else None
             if sid:
                 retrieved_suttas.add(sid)
-        related: Set[str] = set()
+        related: set[str] = set()
         for sutta_id in retrieved_suttas:
             for ref in self.sutta_relations.get_related(sutta_id):
                 if ref not in retrieved_suttas:
                     related.add(ref)
         return sorted(related)
 
-    async def synthesize(self, query: str, context_chunks: List[Dict[str, Any]]) -> str:
+    async def synthesize(self, query: str, context_chunks: list[dict[str, Any]]) -> str:
         allowed_ids = {c["id"] for c in context_chunks}
         message = await self.llm.chat.completions.create(
             model=self.llm_model,
@@ -713,7 +537,7 @@ class SearchPipeline:
         raw = _normalize_citations(_strip_thinking(message.choices[0].message.content))
         return _strip_orphan_citations(_enforce_citation_limit(raw), allowed_ids)
 
-    async def stream_synthesize(self, query: str, context_chunks: List[Dict[str, Any]]):
+    async def stream_synthesize(self, query: str, context_chunks: list[dict[str, Any]]):
         allowed_ids = {c["id"] for c in context_chunks}
         stream = await self.llm.chat.completions.create(
             model=self.llm_model,

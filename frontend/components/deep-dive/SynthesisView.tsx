@@ -6,12 +6,11 @@ import { SUPPORT_BANNER_SENTINEL_HEIGHT } from '@/lib/banner';
 interface SynthesisViewProps {
   data: SynthesisResponse;
   deepDive: boolean;
-  sourcesVisible: boolean;
   onDeepDiveToggle: () => void;
   onCitationClick: (ref: string) => void;
 }
 
-export function SynthesisView({ data, deepDive, sourcesVisible, onDeepDiveToggle, onCitationClick }: SynthesisViewProps) {
+export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClick }: SynthesisViewProps) {
   const { answer, is_faithful, query } = data;
 
   const renderCitation = (ref: string, key: React.Key) => {

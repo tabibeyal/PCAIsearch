@@ -29,13 +29,13 @@ def two_chunks():
 
 def test_reranker_preserves_all_chunks(reranker, two_chunks):
     reranker.model.predict = MagicMock(return_value=np.array([0.8, 0.4]))
-    result = reranker.rerank("mindfulness", two_chunks)
+    result = reranker.rerank_multi(["mindfulness"], two_chunks)
     assert len(result) == 2
 
 
 def test_reranker_adds_rerank_score(reranker, two_chunks):
     reranker.model.predict = MagicMock(return_value=np.array([0.8, 0.4]))
-    result = reranker.rerank("mindfulness", two_chunks)
+    result = reranker.rerank_multi(["mindfulness"], two_chunks)
     for chunk in result:
         assert "rerank_score" in chunk
         assert isinstance(chunk["rerank_score"], float)
@@ -44,28 +44,28 @@ def test_reranker_adds_rerank_score(reranker, two_chunks):
 def test_reranker_orders_highest_score_first(reranker, two_chunks):
     # MN 10:1 (index 1) scores higher; it should come first after reranking
     reranker.model.predict = MagicMock(return_value=np.array([0.3, 0.9]))
-    result = reranker.rerank("mindfulness", two_chunks)
+    result = reranker.rerank_multi(["mindfulness"], two_chunks)
     assert result[0]["id"] == "MN 10:1"
     assert result[1]["id"] == "DN 1:1"
 
 
 def test_reranker_scores_reflect_model_output(reranker, two_chunks):
     reranker.model.predict = MagicMock(return_value=np.array([0.3, 0.9]))
-    result = reranker.rerank("mindfulness", two_chunks)
+    result = reranker.rerank_multi(["mindfulness"], two_chunks)
     # After sorting: MN 10:1 (0.9) first, DN 1:1 (0.3) second
     assert abs(result[0]["rerank_score"] - 0.9) < 1e-5
     assert abs(result[1]["rerank_score"] - 0.3) < 1e-5
 
 
 def test_reranker_empty_input(reranker):
-    result = reranker.rerank("any query", [])
+    result = reranker.rerank_multi(["any query"], [])
     assert result == []
 
 
 def test_reranker_single_chunk(reranker):
     chunk = {"id": "SN 5:1", "pali": "...", "english": "..."}
     reranker.model.predict = MagicMock(return_value=np.array([0.7]))
-    result = reranker.rerank("query", [chunk])
+    result = reranker.rerank_multi(["query"], [chunk])
     assert len(result) == 1
     assert abs(result[0]["rerank_score"] - 0.7) < 1e-5
 
@@ -79,7 +79,7 @@ def test_reranker_real_model_orders_by_relevance():
         {"id": "A", "pali": "metta", "english": "Loving-kindness towards all beings."},
         {"id": "B", "pali": "sati", "english": "Mindfulness is awareness of the present moment."},
     ]
-    result = r.rerank(query, chunks)
+    result = r.rerank_multi([query], chunks)
     assert result[0]["id"] == "B", "Mindfulness chunk should rank above loving-kindness"
 
 
@@ -140,7 +140,7 @@ async def test_search_result_order_follows_reranker(in_memory_pipeline):
 
     reranked: list = []
 
-    def fake_rerank(query, candidates):
+    def fake_rerank(queries, candidates):
         result = [
             {**c, "rerank_score": 0.9 - i * 0.5}
             for i, c in enumerate(reversed(candidates))
@@ -149,7 +149,7 @@ async def test_search_result_order_follows_reranker(in_memory_pipeline):
         return result
 
     p.reranker = MagicMock()
-    p.reranker.rerank_multi = MagicMock(side_effect=lambda queries, candidates: fake_rerank(queries[0], candidates))
+    p.reranker.rerank_multi = MagicMock(side_effect=fake_rerank)
 
     results = await p.search("Thus have I heard", top_k=10)
 

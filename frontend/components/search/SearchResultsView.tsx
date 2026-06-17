@@ -4,7 +4,6 @@ import { dhammatalksUrl } from '@/lib/sourceUrl';
 
 interface SearchResultsViewProps {
   results: SearchResult[];
-  query: string;
 }
 
 export function SearchResultsView({ results }: SearchResultsViewProps) {

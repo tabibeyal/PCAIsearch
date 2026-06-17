@@ -1,5 +1,5 @@
 import re
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any
 
 from backend.app.services.citation_oracle import CitationOracle
 
@@ -16,13 +16,13 @@ class CitationGuardrail:
     is treated as a hallucination.
     """
 
-    def __init__(self, oracle: Optional[CitationOracle] = None):
+    def __init__(self, oracle: CitationOracle | None = None):
         self.citation_pattern = re.compile(r"\[([A-Z\s]+ [\d.]+:\d+)\]")
         self.oracle = oracle
 
     def verify_citations(
-        self, generated_text: str, retrieved_ids: List[str]
-    ) -> Tuple[str, List[str], List[str]]:
+        self, generated_text: str, retrieved_ids: list[str]
+    ) -> tuple[str, list[str], list[str]]:
         """
         Scan text for [ID:Verse] citations and classify each.
 
@@ -33,8 +33,8 @@ class CitationGuardrail:
         """
         found = self.citation_pattern.findall(generated_text)
         retrieved_set = set(retrieved_ids)
-        hallucinations: List[str] = []
-        canonical_misses: List[str] = []
+        hallucinations: list[str] = []
+        canonical_misses: list[str] = []
 
         for citation in found:
             if citation in retrieved_set:
@@ -59,8 +59,8 @@ class CitationGuardrail:
         return verified_text, hallucinations, canonical_misses
 
     def process_response(
-        self, response: str, context_chunks: List[Dict[str, Any]]
-    ) -> Dict[str, Any]:
+        self, response: str, context_chunks: list[dict[str, Any]]
+    ) -> dict[str, Any]:
         """Verify citations and return structured result."""
         retrieved_ids = [chunk["id"] for chunk in context_chunks]
         cleaned_text, hallucinations, canonical_misses = self.verify_citations(
