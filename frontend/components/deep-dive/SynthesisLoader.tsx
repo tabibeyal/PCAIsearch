@@ -77,7 +77,7 @@ function StepList({ currentStatus, horizontal = false }: { currentStatus: string
             className={`flex items-center gap-3 ${state === 'pending' ? 'opacity-30' : state === 'done' ? 'opacity-50' : ''}`}
           >
             <StepIcon state={state} />
-            <span className={`text-sm ${
+            <span className={`text-sm min-w-0 ${
               state === 'done'   ? 'text-[#6b4e35] line-through' :
               state === 'active' ? 'text-[#6b4e35] font-semibold' :
                                    'text-[#9c8c7a]'
@@ -265,7 +265,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
         {/* Desktop: sidebar + text / Mobile: text only (bar is above) */}
         <div className="flex-1 flex overflow-hidden">
           {/* Desktop sidebar */}
-          <div className="hidden md:flex flex-col w-32 flex-shrink-0 border-r border-[#e8e4dc] bg-[#faf9f7]">
+          <div className="hidden md:flex flex-col w-40 flex-shrink-0 border-r border-[#e8e4dc] bg-[#faf9f7]">
             <StepList currentStatus={currentStatus} />
           </div>
           {/* Streaming text */}
