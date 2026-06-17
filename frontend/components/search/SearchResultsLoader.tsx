@@ -88,65 +88,36 @@ function ErrorState({ isRateLimit, onRetry }: { isRateLimit: boolean; onRetry: (
   );
 }
 
-// Single state machine replaces phase + resultsReady + showResults + resultsRef.
-// 'ready' holds the data while STEP3_FLOOR_MS elapses; 'shown' triggers the
-// view swap. The phase timer short-circuits on any non-loading state.
 type State =
   | { kind: 'loading'; phase: 0 | 1 | 2 }
   | { kind: 'ready'; results: SearchResult[] }
   | { kind: 'shown'; results: SearchResult[] }
   | { kind: 'error'; status?: number };
 
-type Action =
-  | { type: 'reset' }
-  | { type: 'tick'; to: 0 | 1 | 2 }
-  | { type: 'results'; data: SearchResult[] }
-  | { type: 'shown' }
-  | { type: 'error'; status?: number };
-
-function reducer(state: State, action: Action): State {
-  switch (action.type) {
-    case 'reset':
-      return { kind: 'loading', phase: 0 };
-    case 'results':
-      return { kind: 'ready', results: action.data };
-    case 'shown':
-      return state.kind === 'ready' ? { kind: 'shown', results: state.results } : state;
-    case 'tick':
-      if (state.kind !== 'loading') return state;
-      return { kind: 'loading', phase: action.to };
-    case 'error':
-      return { kind: 'error', status: action.status };
-  }
-}
-
 export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas: string[] }) {
-  const [state, dispatch] = React.useReducer(reducer, { kind: 'loading', phase: 0 });
+  const [state, setState] = React.useState<State>({ kind: 'loading', phase: 0 });
   const [retryCount, setRetryCount] = React.useState(0);
   const [stepMs] = React.useState(stepDurationMs);
   const nikayasKey = nikayas.join(',');
 
-  // Fetch (and reset on new query/retry)
+  // Fetch on new query/retry
   React.useEffect(() => {
-    dispatch({ type: 'reset' });
     let cancelled = false;
     const controller = new AbortController();
     const startMs = Date.now();
     const nikayaList = nikayasKey ? nikayasKey.split(',') : undefined;
 
-    // setTimeout(0) prevents StrictMode's double-invocation from sending two
-    // requests to the backend: cleanup clears the timer before it fires.
     const timerId = setTimeout(() => {
       (async () => {
         try {
-          const data = await searchVerses(query, 20, nikayaList, controller.signal);
+          const data = await searchVerses(query, nikayaList, controller.signal);
           if (!cancelled) {
             updateAvgMs(Date.now() - startMs);
-            dispatch({ type: 'results', data: data.results });
+            setState({ kind: 'ready', results: data.results });
           }
         } catch (e: unknown) {
           const err = e as { name?: string; status?: number };
-          if (!cancelled && err.name !== 'AbortError') dispatch({ type: 'error', status: err.status });
+          if (!cancelled && err.name !== 'AbortError') setState({ kind: 'error', status: err.status });
         }
       })();
     }, 0);
@@ -158,18 +129,18 @@ export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas
   const tickKey: number = state.kind === 'loading' ? state.phase : -1;
   React.useEffect(() => {
     if (tickKey === -1 || tickKey === 2) return;
-    const t = setTimeout(() => dispatch({ type: 'tick', to: (tickKey + 1) as 0 | 1 | 2 }), stepMs);
+    const t = setTimeout(() => setState({ kind: 'loading', phase: (tickKey + 1) as 0 | 1 | 2 }), stepMs);
     return () => clearTimeout(t);
   }, [tickKey, stepMs]);
 
   // Once results are in, hold for STEP3_FLOOR_MS then reveal
   React.useEffect(() => {
     if (state.kind !== 'ready') return;
-    const t = setTimeout(() => dispatch({ type: 'shown' }), STEP3_FLOOR_MS);
+    const t = setTimeout(() => setState({ kind: 'shown', results: state.results }), STEP3_FLOOR_MS);
     return () => clearTimeout(t);
-  }, [state.kind]);
+  }, [state]);
 
   if (state.kind === 'error') return <ErrorState isRateLimit={state.status === 429} onRetry={() => setRetryCount(c => c + 1)} />;
-  if (state.kind === 'shown') return <SearchResultsView results={state.results} query={query} />;
+  if (state.kind === 'shown') return <SearchResultsView results={state.results} />;
   return <LoadingState phase={state.kind === 'loading' ? state.phase : 2} />;
 }

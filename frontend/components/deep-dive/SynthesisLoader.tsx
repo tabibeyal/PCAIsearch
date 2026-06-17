@@ -91,7 +91,7 @@ function StepList({ currentStatus, horizontal = false }: { currentStatus: string
   );
 }
 
-function ErrorMessage({ isRateLimit, detail, onRetry }: { isRateLimit: boolean; detail?: string; onRetry: () => void }) {
+function ErrorMessage({ isRateLimit, onRetry }: { isRateLimit: boolean; onRetry: () => void }) {
   return (
     <div className="flex items-center justify-center p-8 text-amber-800 text-center">
       <div>
@@ -247,7 +247,6 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
   if (stream.kind === 'error') return (
     <ErrorMessage
       isRateLimit={stream.statusCode === 429}
-      detail={stream.message}
       onRetry={() => setRetryCount(c => c + 1)}
     />
   );

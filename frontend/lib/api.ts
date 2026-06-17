@@ -4,44 +4,65 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL ??
   (typeof window === 'undefined' ? (process.env.API_URL ?? 'http://localhost:8000') : '/api');
 
 function apiError(message: string, status: number): Error {
-  const err = new Error(message) as Error & { status: number };
-  err.status = status;
-  return err;
+  return Object.assign(new Error(message), { status });
 }
 
-export async function searchVerses(query: string, topK = 20, nikayas?: string[], signal?: AbortSignal): Promise<SearchResponse> {
-  const params = new URLSearchParams({ q: query, top_k: String(topK) });
+export async function searchVerses(query: string, nikayas?: string[], signal?: AbortSignal): Promise<SearchResponse> {
+  const params = new URLSearchParams({ q: query, top_k: '20' });
   nikayas?.forEach(n => params.append('nikayas', n));
-  const res = await fetch(`${API_BASE}/search?${params}`, signal ? { signal } : undefined);
+  const res = await fetch(`${API_BASE}/search?${params}`, { signal });
   if (!res.ok) throw apiError('Search request failed', res.status);
   return res.json();
 }
 
-export async function getSynthesis(query: string): Promise<SynthesisResponse> {
-  const res = await fetch(`${API_BASE}/synthesize?q=${encodeURIComponent(query)}`);
-  if (!res.ok) throw apiError('Synthesis request failed', res.status);
-  return res.json();
+type StreamEvent =
+  | { type: 'status'; text: string }
+  | { type: 'chunk'; text: string }
+  | (SynthesisResponse & { type: 'done' })
+  | { type: 'error'; message: string };
+
+function isTerminalEvent(event: unknown): event is StreamEvent {
+  const e = event as StreamEvent;
+  return e.type === 'done' || e.type === 'error';
 }
 
 export async function* streamSynthesis(query: string, nikayas?: string[], signal?: AbortSignal) {
   const params = new URLSearchParams({ q: query });
   nikayas?.forEach(n => params.append('nikayas', n));
-  const res = await fetch(`${API_BASE}/stream?${params}`, { signal });
-  if (!res.ok) throw apiError('Stream request failed', res.status);
 
-  const reader = res.body!.getReader();
-  const decoder = new TextDecoder();
-  let buffer = '';
+  const url = `${API_BASE}/stream?${params}`;
+  const source = new EventSource(url, { signal } as EventSourceInit);
+  const queue: StreamEvent[] = [];
+  let notify: (() => void) | null = null;
 
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    buffer += decoder.decode(value, { stream: true });
-    const parts = buffer.split('\n\n');
-    buffer = parts.pop()!;
-    for (const part of parts) {
-      if (part.startsWith('data: ')) yield JSON.parse(part.slice(6));
+  source.onmessage = (event) => {
+    const data = JSON.parse(event.data) as StreamEvent;
+    queue.push(data);
+    notify?.();
+    notify = null;
+    if (isTerminalEvent(data)) {
+      source.close();
     }
+  };
+
+  source.onerror = () => {
+    queue.push({ type: 'error', message: 'Stream failed' });
+    notify?.();
+    notify = null;
+    source.close();
+  };
+
+  try {
+    while (true) {
+      if (queue.length === 0) {
+        await new Promise<void>((resolve) => { notify = resolve; });
+      }
+      const event = queue.shift()!;
+      yield event;
+      if (isTerminalEvent(event)) break;
+    }
+  } finally {
+    source.close();
   }
 }
 

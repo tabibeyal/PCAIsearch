@@ -3,29 +3,26 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
-from typing import List, Tuple
 
 from rank_bm25 import BM25Okapi
+
+from backend.app.core.tokenizer import tokenize
 
 
 _CHAPTER_HEADER_RE = re.compile(r"^\d+\.\s")
 
 
-def _tokenize(text: str) -> List[str]:
-    return re.findall(r"[a-z]+", text.lower())
-
-
 class SuttaTitleIndex:
     """BM25 index over sutta titles for canonical-source retrieval."""
 
-    def __init__(self, entries: List[dict]):
+    def __init__(self, entries: list[dict]):
         self._sutta_ids = [e["sutta_id"] for e in entries]
         self._title_texts = {
             e["sutta_id"]: self._build_title_text(e)
             for e in entries
         }
         corpus = [
-            _tokenize(f"{e['title_pali']} {e['title_english']} {e.get('body_text', '')}")
+            tokenize(f"{e['title_pali']} {e['title_english']} {e.get('body_text', '')}")
             for e in entries
         ]
         self._bm25 = BM25Okapi(corpus)
@@ -42,8 +39,8 @@ class SuttaTitleIndex:
     def get_title_text(self, sutta_id: str) -> str:
         return self._title_texts.get(sutta_id, "")
 
-    def search(self, query: str, top_n: int = 5) -> List[Tuple[str, float]]:
-        tokens = _tokenize(query)
+    def search(self, query: str, top_n: int = 5) -> list[tuple[str, float]]:
+        tokens = tokenize(query)
         scores = self._bm25.get_scores(tokens)
         ranked = sorted(
             zip(self._sutta_ids, scores.tolist()),

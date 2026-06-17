@@ -1,7 +1,6 @@
 import json
 import re
 from pathlib import Path
-from typing import Dict, Optional, Set, Tuple
 
 
 class CitationOracle:
@@ -15,7 +14,7 @@ class CitationOracle:
 
     def __init__(self, dumps_dir: Path):
         # registry["DN 15"] = {1, 2, 3, ...}
-        self.registry: Dict[str, Set[int]] = {}
+        self.registry: dict[str, set[int]] = {}
         self._load(dumps_dir)
 
     def _load(self, dumps_dir: Path) -> None:
@@ -39,13 +38,7 @@ class CitationOracle:
             if verse_numbers:
                 self.registry[sutta_id] = verse_numbers
 
-    def sutta_exists(self, sutta_id: str) -> bool:
-        return sutta_id in self.registry
-
-    def verse_exists(self, sutta_id: str, verse: int) -> bool:
-        return verse in self.registry.get(sutta_id, set())
-
-    def parse_citation(self, citation: str) -> Optional[Tuple[str, int]]:
+    def _parse_citation(self, citation: str) -> tuple[str, int] | None:
         """Parse 'DN 15:3' → ('DN 15', 3). Returns None if malformed."""
         m = self._ID_PARSE_RE.match(citation.strip())
         if not m:
@@ -55,12 +48,12 @@ class CitationOracle:
 
     def citation_in_canon(self, citation: str) -> bool:
         """True if the citation refers to a sutta+verse that exists in the index."""
-        parsed = self.parse_citation(citation)
+        parsed = self._parse_citation(citation)
         if parsed is None:
             return False
         sutta_id, verse = parsed
-        return self.verse_exists(sutta_id, verse)
+        return verse in self.registry.get(sutta_id, set())
 
     @property
-    def known_suttas(self) -> Set[str]:
+    def known_suttas(self) -> set[str]:
         return set(self.registry.keys())

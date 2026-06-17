@@ -8,11 +8,6 @@ export function NavSearchBox({ initialQuery }: { initialQuery: string }) {
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
 
-  // Reset loading state when navigation completes (initialQuery changes to the new route)
-  React.useEffect(() => {
-    setIsLoading(false);
-  }, [initialQuery]);
-
   function navigate() {
     const trimmed = q.trim();
     if (!trimmed) return;

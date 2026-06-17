@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Optional
+from typing import Any
 import asyncio
 from concurrent.futures import Executor
 
@@ -29,8 +29,8 @@ class Retriever:
         self,
         query: str,
         top_k: int,
-        nikayas: Optional[List[str]] = None,
-    ) -> List[Dict[str, Any]]:
+        nikayas: list[str] | None = None,
+    ) -> list[dict[str, Any]]:
         loop = asyncio.get_event_loop()
         query_vector = await loop.run_in_executor(self.executor, self.embedding_mgr.encode, query)
         qdrant_filter = None

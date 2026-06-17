@@ -1,29 +1,25 @@
 import json
-import re
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any
 
 from rank_bm25 import BM25Okapi
 
 from backend.app.core.indexing import SuttaParser
-
-
-def _tokenize(text: str) -> List[str]:
-    return re.findall(r"[a-z]+", text.lower())
+from backend.app.core.tokenizer import tokenize
 
 
 class BM25Retriever:
     """In-memory BM25 index over English verse text for exact-match retrieval."""
 
-    def __init__(self, verses: List[Dict[str, Any]]):
+    def __init__(self, verses: list[dict[str, Any]]):
         if not verses:
             raise ValueError("BM25Retriever requires at least one verse")
         self._verses = verses
-        corpus = [_tokenize(v.get("english", "")) for v in verses]
+        corpus = [tokenize(v.get("english", "")) for v in verses]
         self._bm25 = BM25Okapi(corpus)
 
-    def retrieve(self, query: str, top_k: int, nikayas: Optional[List[str]] = None) -> List[Dict[str, Any]]:
-        tokens = _tokenize(query)
+    def retrieve(self, query: str, top_k: int, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
+        tokens = tokenize(query)
         scores = self._bm25.get_scores(tokens)
         pairs = zip(self._verses, scores.tolist())
         if nikayas:
@@ -39,7 +35,7 @@ class BM25Retriever:
     @classmethod
     def from_directory(cls, dumps_dir: Path) -> "BM25Retriever":
         parser = SuttaParser()
-        verses: List[Dict[str, Any]] = []
+        verses: list[dict[str, Any]] = []
         for path in sorted(Path(dumps_dir).glob("*.json")):
             try:
                 data = json.loads(path.read_text())

@@ -1,5 +1,4 @@
 import re
-from typing import List
 from fastembed import TextEmbedding
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
@@ -32,6 +31,7 @@ class SuttaParser:
             })
         return chunks
 
+
 class EmbeddingManager:
     """
     Handles the multilingual embedding model and Qdrant collection setup.
@@ -44,7 +44,7 @@ class EmbeddingManager:
     def encode(self, text: str) -> list:
         return next(iter(self._model.embed([text]))).tolist()
 
-    def encode_batch(self, texts: List[str]) -> List[list]:
+    def encode_batch(self, texts: list[str]) -> list[list]:
         return [v.tolist() for v in self._model.embed(texts)]
 
     def setup_collection(self, client: QdrantClient, collection_name: str, recreate: bool = False):

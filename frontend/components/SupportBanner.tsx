@@ -1,28 +1,32 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useSyncExternalStore } from 'react';
 import { useSupportBanner } from './SupportBannerContext';
 import { ContactModal } from './ContactModal';
+
+function useIsDesktop() {
+  return useSyncExternalStore(
+    (callback) => {
+      if (typeof window === 'undefined') return () => {};
+      const onResize = () => callback();
+      window.addEventListener('resize', onResize);
+      return () => window.removeEventListener('resize', onResize);
+    },
+    () => typeof window !== 'undefined' && window.innerWidth >= 768,
+    () => false,
+  );
+}
 
 export function SupportBanner() {
   const [visible, setVisible] = useState(false);
   const [contactOpen, setContactOpen] = useState(false);
   const { deepDiveOpen } = useSupportBanner();
+  const isDesktop = useIsDesktop();
 
   // On mobile: show when the sentinel below FeedbackBar scrolls into view,
-  // hide when it scrolls back out. Sentinel size comes from
-  // SUPPORT_BANNER_SENTINEL_HEIGHT_PX in lib/banner.ts — keep the rendered
-  // spacer in SynthesisView aligned with that value.
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
-
-    // Tailwind v4 uses the CSS `translate` property for translate-y-*, which
-    // md:transform-none does not reset. On desktop, force visible so
-    // translate-y-0 is applied instead of translate-y-full.
-    if (window.innerWidth >= 768) {
-      setVisible(true);
-      return;
-    }
+  // hide when it scrolls back out. On desktop the banner is always visible.
+  React.useEffect(() => {
+    if (isDesktop || typeof window === 'undefined') return;
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -54,9 +58,9 @@ export function SupportBanner() {
       observer.disconnect();
       mo.disconnect();
     };
-  }, [deepDiveOpen]);
+  }, [deepDiveOpen, isDesktop]);
 
-  const showBanner = visible && !deepDiveOpen;
+  const showBanner = (isDesktop || visible) && !deepDiveOpen;
 
   return (
     <>

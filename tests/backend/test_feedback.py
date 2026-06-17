@@ -1,7 +1,9 @@
+import json
 import sqlite3
 import pytest
 from unittest.mock import AsyncMock, MagicMock, patch
 from fastapi.testclient import TestClient
+import urllib.request
 import backend.app.main as m
 from backend.app.main import app
 
@@ -72,26 +74,26 @@ def test_feedback_missing_required_field(feedback_client):
     assert r.status_code == 422
 
 
-def test_supabase_feedback_posts_correct_body(supabase_client):
-    mock_response = MagicMock()
-    mock_response.raise_for_status = MagicMock()
-    mock_http = AsyncMock()
-    mock_http.__aenter__ = AsyncMock(return_value=mock_http)
-    mock_http.__aexit__ = AsyncMock(return_value=None)
-    mock_http.post = AsyncMock(return_value=mock_response)
+@pytest.fixture
+def patched_urlopen():
+    fake_response = MagicMock()
+    with patch("urllib.request.urlopen", return_value=fake_response) as p:
+        yield p
 
-    with patch("backend.app.main.httpx.AsyncClient", return_value=mock_http):
-        r = supabase_client.post("/feedback", json={
-            "query": "What is nibbana?",
-            "answer": "Nibbana is the cessation of craving.",
-            "rating": "down",
-            "category": "Too vague",
-            "comment": "Needs more depth",
-        })
+
+def test_supabase_feedback_posts_correct_body(supabase_client, patched_urlopen):
+    r = supabase_client.post("/feedback", json={
+        "query": "What is nibbana?",
+        "answer": "Nibbana is the cessation of craving.",
+        "rating": "down",
+        "category": "Too vague",
+        "comment": "Needs more depth",
+    })
 
     assert r.status_code == 200
-    posted_json = mock_http.post.call_args.kwargs["json"]
-    assert posted_json == {
+    posted = patched_urlopen.call_args[0][0]
+    posted_body = json.loads(posted.data)
+    assert posted_body == {
         "query": "What is nibbana?",
         "answer": "Nibbana is the cessation of craving.",
         "rating": "down",
@@ -100,25 +102,16 @@ def test_supabase_feedback_posts_correct_body(supabase_client):
     }
 
 
-def test_supabase_feedback_uses_correct_url_and_headers(supabase_client):
-    mock_response = MagicMock()
-    mock_response.raise_for_status = MagicMock()
-    mock_http = AsyncMock()
-    mock_http.__aenter__ = AsyncMock(return_value=mock_http)
-    mock_http.__aexit__ = AsyncMock(return_value=None)
-    mock_http.post = AsyncMock(return_value=mock_response)
+def test_supabase_feedback_uses_correct_url_and_headers(supabase_client, patched_urlopen):
+    supabase_client.post("/feedback", json={
+        "query": "q",
+        "answer": "a",
+        "rating": "up",
+        "category": None,
+        "comment": None,
+    })
 
-    with patch("backend.app.main.httpx.AsyncClient", return_value=mock_http):
-        supabase_client.post("/feedback", json={
-            "query": "q",
-            "answer": "a",
-            "rating": "up",
-            "category": None,
-            "comment": None,
-        })
-
-    call_args = mock_http.post.call_args
-    assert call_args.args[0] == "https://test.supabase.co/rest/v1/feedback"
-    headers = call_args.kwargs["headers"]
-    assert headers["apikey"] == "fake-service-role-key"
-    assert headers["Authorization"] == "Bearer fake-service-role-key"
+    req = patched_urlopen.call_args[0][0]
+    assert req.full_url == "https://test.supabase.co/rest/v1/feedback"
+    assert req.headers["Apikey"] == "fake-service-role-key"
+    assert req.headers["Authorization"] == "Bearer fake-service-role-key"

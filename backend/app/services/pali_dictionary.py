@@ -1,17 +1,16 @@
 import re
 from dataclasses import dataclass
-from typing import List, Optional
 
 
 @dataclass
 class DictionaryEntry:
     label: str
-    keywords: List[str]
+    keywords: list[str]
     pali: str
-    english_hint: Optional[str] = None
+    english_hint: str | None = None
 
 
-_ENTRIES: List[DictionaryEntry] = [
+_ENTRIES: list[DictionaryEntry] = [
     DictionaryEntry(
         label="Dependent Origination (full chain)",
         keywords=[
@@ -1311,7 +1310,7 @@ def _matches(kw: str, q: str) -> bool:
     return bool(re.search(r"\b" + re.escape(kw) + r"\b", q))
 
 
-def lookup(query: str) -> Optional[str]:
+def lookup(query: str) -> str | None:
     q = query.lower()
     for entry in _ENTRIES:
         if any(_matches(kw, q) for kw in entry.keywords):
@@ -1319,7 +1318,7 @@ def lookup(query: str) -> Optional[str]:
     return None
 
 
-def lookup_english(query: str) -> Optional[str]:
+def lookup_english(query: str) -> str | None:
     q = query.lower()
     for entry in _ENTRIES:
         if any(_matches(kw, q) for kw in entry.keywords):
