@@ -28,13 +28,11 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
   };
 
   const handleDeepDiveToggle = () => {
-    if (!deepDive) {
-      setDeepDive(true);
-    } else if (sourcesVisible) {
-      setSourcesVisible(false);
-    } else {
+    if (deepDive) {
       setDeepDive(false);
       setSourcesVisible(true);
+    } else {
+      setDeepDive(true);
     }
   };
 
