@@ -418,11 +418,12 @@ class SearchPipeline:
         t0 = time.perf_counter()
         retrieval_k = max(top_k * 3, 30)
 
-        # Rerank against original + English passage hint only. The cross-encoder
-        # is trained on English text and doesn't understand Pāḷi — adding the pali_hit
-        # introduces noise. The english_hint (verbatim passage text) bridges vocabulary
-        # gaps the cross-encoder can actually exploit (e.g. MN 61: 'deliberate lie' ≠
-        # 'precept'). Pāḷi terms have already done their job during retrieval.
+        # Rerank against the original query plus any English passage hint. The
+        # cross-encoder is trained on English text and doesn't understand Pāḷi —
+        # adding the pali_hit introduces noise. The english_hint (verbatim passage
+        # text) bridges vocabulary gaps (e.g. MN 61: 'deliberate lie' ≠ 'precept').
+        # Concatenating it with the query keeps the hint vocabulary in a single
+        # scoring pass, halving the number of cross-encoder forward calls.
         english_hit_str = lookup_english(query)
         rerank_queries: list[str] = [f"{query} {english_hit_str}" if english_hit_str else query]
 
@@ -459,9 +460,12 @@ class SearchPipeline:
 
         logger.info("bm25(shared): %.2fs", time.perf_counter() - t0)
 
-        # Retrieve + fuse per bucket in parallel. Each bucket returns its full
-        # candidate list (up to retrieval_k) — we don't pre-trim, because the
-        # round-robin interleave below draws from the full ranked list.
+        # Retrieve + fuse per bucket in parallel. Trim each bucket before
+        # reranking: the cross-encoder is CPU-bound and scales linearly with the
+        # number of candidates. Reranking the full fused list (often 100+ items)
+        # dominates search latency, while the round-robin interleave only needs
+        # enough high-fusion candidates from each bucket to fill top_k.
+        budget_per_bucket = max(retrieval_k * 2, 100)
         bucket_candidates = await asyncio.gather(*[
             self._run_pipeline(
                 queries, retrieval_k, ([b] if b else None),
@@ -469,6 +473,7 @@ class SearchPipeline:
             )
             for b, initial in zip(buckets, bucket_initials)
         ])
+        bucket_candidates = [cands[:budget_per_bucket] for cands in bucket_candidates]
 
         # Union the per-bucket candidates, dedup by id keeping the first occurrence
         # (RRF rank order means earlier = higher fusion rank).
