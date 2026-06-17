@@ -168,8 +168,8 @@ def test_reranker_multi_uses_max_score_across_queries():
 
 @pytest.mark.asyncio
 async def test_search_reranks_with_original_plus_dict_hints():
-    """search must call rerank_multi with the original query and curated
-    dictionary hints only — NOT the LLM-expanded variants."""
+    """search must call rerank_multi with the original query merged with any
+    curated English dictionary hint — NOT the LLM-expanded variants or Pāḷi terms."""
     chunks = [{"id": "MN 61:36", "pali": "", "english": "deliberate lie bad deed"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.expand_query = AsyncMock(return_value=["original", "llm variant 1", "llm variant 2",
@@ -187,11 +187,12 @@ async def test_search_reranks_with_original_plus_dict_hints():
          patch("backend.app.services.search_pipeline.lookup_english", return_value="not ashamed to tell a deliberate lie"):
         await pipeline.search("original", top_k=5)
 
-    assert "original" in captured["queries"]
-    assert "not ashamed to tell a deliberate lie" in captured["queries"]
-    assert "musāvādā sacca" not in captured["queries"], "Pāḷi terms must not reach the reranker (cross-encoder is English-only)"
-    assert "llm variant 1" not in captured["queries"], "LLM variants must not reach the reranker"
-    assert "llm variant 2" not in captured["queries"]
+    combined = " ".join(captured["queries"])
+    assert "original" in combined
+    assert "not ashamed to tell a deliberate lie" in combined
+    assert "musāvādā sacca" not in combined, "Pāḷi terms must not reach the reranker (cross-encoder is English-only)"
+    assert "llm variant 1" not in combined, "LLM variants must not reach the reranker"
+    assert "llm variant 2" not in combined
 
 
 def test_expansion_prompt_v2_exists():
@@ -377,6 +378,39 @@ def test_expansion_prompt_v7_translates_non_english():
     assert "English" in prompt
     assert "deva" in prompt
     assert "should a monk feel anger" in prompt
+
+
+@pytest.mark.asyncio
+async def test_search_trims_candidates_before_reranking():
+    """The cross-encoder reranker must receive a bounded candidate set,
+    not the full fused result list, to keep CPU reranking fast."""
+    pipeline, _ = await _make_pipeline_with_client([])
+
+    # Return distinct chunks per retrieval call so the fused candidate list is
+    # far larger than the final top_k. Without trimming, the reranker scores all of them.
+    call_idx = 0
+    async def fake_retrieve(*args, **kwargs):
+        nonlocal call_idx
+        call_idx += 1
+        start = (call_idx - 1) * 50 + 1
+        return [{"id": f"DN {i}:1", "pali": "", "english": f"chunk {i}"} for i in range(start, start + 50)]
+
+    pipeline.retriever.retrieve = fake_retrieve
+    pipeline.expand_query = AsyncMock(return_value=["query", "variant one", "variant two"])
+
+    captured = {}
+
+    def fake_rerank_multi(queries, chunk_list):
+        captured["chunk_count"] = len(chunk_list)
+        return chunk_list
+
+    pipeline.reranker.rerank_multi = fake_rerank_multi
+
+    await pipeline.search("query", top_k=5)
+
+    # Per-bucket budget is max(retrieval_k*2, 100); with top_k=5 this means
+    # at most 100 chunks should reach the reranker.
+    assert captured["chunk_count"] <= 100
 
 
 def test_expansion_prompt_v7_has_foam_simile_entry():
