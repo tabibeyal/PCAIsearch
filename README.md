@@ -1,6 +1,6 @@
 # Ask the Pali Canon
 
-**Live:** https://illustrious-biscotti-f60464.netlify.app
+**Live:** https://pcaisearch.netlify.app
 
 Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, Dhammapada, Itivuttaka, Udāna, Sutta Nipāta, Theragāthā, Therīgāthā, Khuddakapāṭha), grounded in Thanissaro Bhikkhu's English translations from dhammatalks.org.
 
