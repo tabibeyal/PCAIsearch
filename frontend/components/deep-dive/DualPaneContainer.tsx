@@ -69,7 +69,10 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
       </div>
 
       {deepDive && (
-        <div key={String(deepDive)} style={{ animation: 'fadeIn 150ms ease forwards' }}>
+        <div
+          key={String(deepDive)}
+          style={{ position: 'absolute', inset: 0, zIndex: 20, pointerEvents: 'none', animation: 'fadeIn 150ms ease forwards' }}
+        >
           <DividerToggle
             sourcesVisible={sourcesVisible}
             onClick={() => setSourcesVisible((v) => !v)}
