@@ -2,6 +2,7 @@ from typing import Any
 import asyncio
 import itertools
 import logging
+import math
 import os
 import re
 import time
@@ -107,6 +108,15 @@ def _normalize_citations(text: str) -> str:
     # Llama sometimes ignores the "square brackets only" instruction and outputs (MN 1.2:3).
     # Convert to [MN 1.2:3] so the guardrail and frontend renderer can process them.
     return _PAREN_CITE_RE.sub(r"[\1]", text)
+
+
+def _sigmoid(x: float) -> float:
+    """Stable sigmoid mapping cross-encoder logits to (0, 1)."""
+    if x >= 0:
+        z = math.exp(-x)
+        return 1 / (1 + z)
+    z = math.exp(x)
+    return z / (1 + z)
 
 
 class Reranker:
@@ -500,6 +510,11 @@ class SearchPipeline:
         for chunk in itertools.chain(*itertools.zip_longest(*scored_by_bucket.values())):
             if chunk is None or len(results) == top_k:
                 continue
+            # The cross-encoder score is the final ranking signal; downstream
+            # consumers (frontend match %, synthesis ordering) only read `score`.
+            # Sigmoid maps the raw logits to a [0, 1] probability-like scale so
+            # the frontend can display a percentage without unbounded values.
+            chunk["score"] = _sigmoid(chunk.get("rerank_score", 0.0))
             results.append(chunk)
 
         logger.info("search total: %.2fs", time.perf_counter() - t0)

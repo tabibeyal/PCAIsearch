@@ -16,7 +16,8 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
       ) : (
         results.map((result) => {
           const url = dhammatalksUrl(result.id);
-          const pct = Math.round(result.score * 100);
+          const rawScore = Number.isFinite(result.score) ? result.score : 0;
+          const pct = Math.round(rawScore * 100);
           return (
             <div
               key={result.id}
