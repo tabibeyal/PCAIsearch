@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-17T00:00:00Z",
+  "title": "Design System: Ask the Pali Canon",
+  "extensions": {
+    "colorMeta": {
+      "pale-vellum": {
+        "role": "neutral",
+        "displayName": "Pale Vellum",
+        "canonical": "oklch(0.97 0.005 80)",
+        "tonalRamp": [
+          "oklch(0.40 0.010 80)",
+          "oklch(0.52 0.010 80)",
+          "oklch(0.63 0.009 78)",
+          "oklch(0.72 0.008 78)",
+          "oklch(0.80 0.007 79)",
+          "oklch(0.88 0.006 80)",
+          "oklch(0.93 0.005 81)",
+          "oklch(0.97 0.005 80)"
+        ]
+      },
+      "deep-ink": {
+        "role": "neutral",
+        "displayName": "Deep Ink",
+        "canonical": "oklch(0.17 0.05 48)",
+        "tonalRamp": [
+          "oklch(0.10 0.04 48)",
+          "oklch(0.17 0.05 48)",
+          "oklch(0.24 0.06 48)",
+          "oklch(0.33 0.07 48)",
+          "oklch(0.43 0.07 50)",
+          "oklch(0.55 0.06 52)",
+          "oklch(0.68 0.05 55)",
+          "oklch(0.82 0.03 60)"
+        ]
+      },
+      "deep-sandalwood": {
+        "role": "primary",
+        "displayName": "Deep Sandalwood",
+        "canonical": "oklch(0.28 0.07 48)",
+        "tonalRamp": [
+          "oklch(0.12 0.05 48)",
+          "oklch(0.20 0.06 48)",
+          "oklch(0.28 0.07 48)",
+          "oklch(0.37 0.08 48)",
+          "oklch(0.46 0.07 50)",
+          "oklch(0.56 0.05 54)",
+          "oklch(0.68 0.04 58)",
+          "oklch(0.82 0.02 65)"
+        ]
+      },
+      "sandalwood": {
+        "role": "primary",
+        "displayName": "Sandalwood",
+        "canonical": "oklch(0.37 0.08 48)",
+        "tonalRamp": [
+          "oklch(0.12 0.05 48)",
+          "oklch(0.20 0.06 48)",
+          "oklch(0.28 0.07 48)",
+          "oklch(0.37 0.08 48)",
+          "oklch(0.46 0.07 50)",
+          "oklch(0.56 0.05 54)",
+          "oklch(0.68 0.04 58)",
+          "oklch(0.82 0.02 65)"
+        ]
+      },
+      "pale-sandalwood": {
+        "role": "neutral",
+        "displayName": "Pale Sandalwood",
+        "canonical": "oklch(0.60 0.04 58)",
+        "tonalRamp": [
+          "oklch(0.20 0.06 48)",
+          "oklch(0.30 0.07 50)",
+          "oklch(0.40 0.07 52)",
+          "oklch(0.50 0.05 55)",
+          "oklch(0.60 0.04 58)",
+          "oklch(0.70 0.03 62)",
+          "oklch(0.80 0.02 66)",
+          "oklch(0.91 0.01 72)"
+        ]
+      },
+      "reed-line": {
+        "role": "neutral",
+        "displayName": "Reed Line",
+        "canonical": "oklch(0.90 0.015 79)",
+        "tonalRamp": [
+          "oklch(0.45 0.015 75)",
+          "oklch(0.56 0.015 76)",
+          "oklch(0.65 0.015 77)",
+          "oklch(0.73 0.015 78)",
+          "oklch(0.80 0.015 78)",
+          "oklch(0.87 0.015 79)",
+          "oklch(0.92 0.010 80)",
+          "oklch(0.96 0.005 82)"
+        ]
+      },
+      "vellum-wash": {
+        "role": "neutral",
+        "displayName": "Vellum Wash",
+        "canonical": "oklch(0.93 0.012 80)",
+        "tonalRamp": [
+          "oklch(0.50 0.015 75)",
+          "oklch(0.62 0.014 76)",
+          "oklch(0.72 0.013 77)",
+          "oklch(0.80 0.013 78)",
+          "oklch(0.86 0.013 79)",
+          "oklch(0.90 0.012 80)",
+          "oklch(0.93 0.012 80)",
+          "oklch(0.97 0.007 82)"
+        ]
+      },
+      "state-warning-bg": {
+        "role": "neutral",
+        "displayName": "Amber Warning Background",
+        "canonical": "oklch(0.96 0.05 90)",
+        "tonalRamp": [
+          "oklch(0.50 0.10 80)",
+          "oklch(0.60 0.10 83)",
+          "oklch(0.68 0.09 86)",
+          "oklch(0.76 0.08 88)",
+          "oklch(0.83 0.07 89)",
+          "oklch(0.88 0.06 90)",
+          "oklch(0.92 0.05 91)",
+          "oklch(0.96 0.05 90)"
+        ]
+      },
+      "state-error-bg": {
+        "role": "neutral",
+        "displayName": "Error Background",
+        "canonical": "oklch(0.94 0.06 20)",
+        "tonalRamp": [
+          "oklch(0.40 0.18 20)",
+          "oklch(0.50 0.18 20)",
+          "oklch(0.58 0.15 20)",
+          "oklch(0.66 0.12 20)",
+          "oklch(0.74 0.10 20)",
+          "oklch(0.82 0.08 20)",
+          "oklch(0.89 0.07 20)",
+          "oklch(0.94 0.06 20)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Landing page h1 only. 'Ask the Pali Canon.' Never reused elsewhere."
+      },
+      "synthesis": {
+        "displayName": "Synthesis",
+        "purpose": "AI-generated answer text in the synthesis pane. 17px/1.85 Georgia — the most generous reading setting in the system."
+      },
+      "source": {
+        "displayName": "Source",
+        "purpose": "English passage text in SourceViewer. 15px/1.75 Georgia — readable alongside synthesis, slightly subordinate."
+      },
+      "passage": {
+        "displayName": "Passage",
+        "purpose": "English passage text in result list cards. 13px/1.75 Georgia — compact scanning mode."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Search input, navigation prose, general UI copy. The workhorse."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Tab text, nav links, button labels."
+      },
+      "micro": {
+        "displayName": "Micro",
+        "purpose": "Nikāya chips, sutta ID badges, score percentages, external link text."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ambient-search",
+        "value": "0 1px 2px rgba(0,0,0,0.05), 0 0 0 1px #e8e4dc",
+        "purpose": "Primary landing search input only. Earned depth for the single action affordance on a flat page."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-spring",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Global default — baked into :root. All Tailwind transitions inherit it. Spring-like settle; avoids flat ease-in-out."
+      },
+      {
+        "name": "ease-press",
+        "value": "ease",
+        "purpose": "80ms, used only for scale(0.97) active-press feedback on buttons."
+      },
+      {
+        "name": "keyframe-pane-enter",
+        "value": "translateX(20px) blur(4px) → resting, 300ms ease-spring",
+        "purpose": "Source pane slides in from right with blur dissolve when deep dive opens."
+      },
+      {
+        "name": "keyframe-fade-up",
+        "value": "translateY(6px) opacity(0) → resting",
+        "purpose": "Content arriving after a wait."
+      },
+      {
+        "name": "keyframe-fade-in",
+        "value": "opacity(0) → opacity(1), 300ms",
+        "purpose": "Results list reveal and deep-dive divider toggle."
+      },
+      {
+        "name": "duration-state",
+        "value": "150ms",
+        "purpose": "Color/fill transitions on interactive elements (hover, active states)."
+      },
+      {
+        "name": "duration-reveal",
+        "value": "300ms",
+        "purpose": "Content reveal (fadeIn on search results, paneEnter on source pane)."
+      },
+      {
+        "name": "duration-crossfade",
+        "value": "250ms",
+        "purpose": "Loading message phase transitions."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px", "note": "Mobile nav collapses; search box resizes." },
+      { "name": "md", "value": "768px", "note": "Support banner switches from fixed-bottom to static flow. Deep dive splits horizontally instead of vertically." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The only fully filled button. Used for primary submit actions (search, nav search).",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"19\" x2=\"12\" y2=\"5\"/><polyline points=\"5 12 12 5 19 12\"/></svg></button>",
+      "css": ".ds-btn-primary { background: #4a3728; color: #fff; width: 36px; height: 36px; border-radius: 12px; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 150ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn-primary:hover { background: #6b4e35; } .ds-btn-primary:active { transform: scale(0.97); transition: background 150ms cubic-bezier(0.22, 1, 0.36, 1), transform 80ms ease; } .ds-btn-primary:disabled { opacity: 0.25; cursor: not-allowed; } .ds-btn-primary:focus-visible { outline: 2px solid #4a3728; outline-offset: 2px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Transparent fill, Reed Line border, Sandalwood text. Secondary/contact actions and Deep Dive toggle at rest.",
+      "html": "<button class=\"ds-btn-ghost\">Contact</button>",
+      "css": ".ds-btn-ghost { background: transparent; color: #6b4e35; border: 1px solid #e8e4dc; padding: 8px 16px; border-radius: 8px; font-size: 0.875rem; font-weight: 500; font-family: system-ui, -apple-system, sans-serif; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; transition: background 150ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn-ghost:hover { background: #ede8df; } .ds-btn-ghost:active { transform: scale(0.97); } .ds-btn-ghost:focus-visible { outline: 2px solid #4a3728; outline-offset: 2px; }"
+    },
+    {
+      "name": "View Switcher Tab",
+      "kind": "button",
+      "refersTo": "tab-active",
+      "description": "Pill-shaped tab switching between AI Answer and Passages views.",
+      "html": "<div style=\"display:flex;gap:8px;\"><button class=\"ds-tab ds-tab--active\">AI Answer</button><button class=\"ds-tab ds-tab--inactive\">Passages</button></div>",
+      "css": ".ds-tab { padding: 6px 16px; border-radius: 9999px; font-size: 0.875rem; font-weight: 500; font-family: system-ui, -apple-system, sans-serif; border: none; cursor: pointer; transition: background 150ms cubic-bezier(0.22, 1, 0.36, 1), color 150ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-tab--active { background: #4a3728; color: #fff; } .ds-tab--inactive { background: transparent; color: #9c8c7a; } .ds-tab--inactive:hover { background: #ede8df; } .ds-tab:focus-visible { outline: 2px solid #4a3728; outline-offset: 2px; }"
+    },
+    {
+      "name": "Nikāya Filter Pill",
+      "kind": "chip",
+      "refersTo": "nikaya-pill-active",
+      "description": "Filter pills for DN/MN/SN/AN etc. Three states: inactive, active, pending (navigating).",
+      "html": "<div style=\"display:flex;gap:8px;\"><button class=\"ds-nikaya-pill\">All</button><button class=\"ds-nikaya-pill ds-nikaya-pill--active\">MN</button><button class=\"ds-nikaya-pill ds-nikaya-pill--pending\">DN</button></div>",
+      "css": ".ds-nikaya-pill { padding: 4px 12px; border-radius: 9999px; border: 1px solid #e8e4dc; font-size: 0.75rem; font-weight: 500; font-family: system-ui, -apple-system, sans-serif; background: transparent; color: #9c8c7a; cursor: pointer; transition: background 150ms cubic-bezier(0.22, 1, 0.36, 1), transform 80ms ease; } .ds-nikaya-pill:hover { background: #ede8df; } .ds-nikaya-pill:active { transform: scale(0.95); } .ds-nikaya-pill--active { background: #ede8df; color: #6b4e35; border-color: #e8e4dc; } .ds-nikaya-pill--pending { background: #d4c9b8; color: #4a3728; border-color: #c8bca8; } .ds-nikaya-pill:focus-visible { outline: 2px solid #4a3728; outline-offset: 2px; }"
+    },
+    {
+      "name": "Citation Chip (Verified)",
+      "kind": "chip",
+      "refersTo": "citation-chip",
+      "description": "Inline button in synthesis answer text. Clicking opens the source pane and jumps to the passage.",
+      "html": "<button class=\"ds-citation\">MN 44</button>",
+      "css": ".ds-citation { display: inline; background: #ede8df; color: #6b4e35; font-size: 0.6875rem; font-weight: 500; font-family: system-ui, -apple-system, sans-serif; padding: 2px 6px; border-radius: 4px; border: none; cursor: pointer; text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 2px; margin: 0 2px; transition: background 150ms ease; } .ds-citation:hover { background: #e8e4dc; } .ds-citation:focus-visible { outline: 2px solid #4a3728; outline-offset: 2px; }"
+    },
+    {
+      "name": "Citation Chip (Unverified)",
+      "kind": "chip",
+      "refersTo": "citation-chip-unverified",
+      "description": "Guardrail-flagged citation — hallucinated sutta reference. Display only, not a link.",
+      "html": "<button class=\"ds-citation-unverified\" title=\"This citation could not be verified\" disabled>[MN 999]</button>",
+      "css": ".ds-citation-unverified { display: inline; background: #fee2e2; color: #dc2626; font-size: 0.75rem; font-weight: 500; font-family: system-ui, -apple-system, sans-serif; padding: 2px 6px; border-radius: 4px; border: none; cursor: not-allowed; margin: 0 2px; }"
+    },
+    {
+      "name": "Result Card",
+      "kind": "card",
+      "description": "Search result card with sutta ID chip, optional Pāḷi, passage text, and source link.",
+      "html": "<div class=\"ds-result-card\"><div class=\"ds-result-card__header\"><a href=\"#\" class=\"ds-sutta-chip\">MN 44</a><span class=\"ds-result-card__score\">87% match</span></div><p class=\"ds-result-card__pali\">Kāmānaṃ hi, visākhe, nandī dukkhassa mūlan ti.</p><p class=\"ds-result-card__passage\">For, Visākhā, delight in sensual pleasures is the root of suffering.</p><a href=\"#\" class=\"ds-result-card__link\">View on dhammatalks.org</a></div>",
+      "css": ".ds-result-card { background: #ffffff; border: 1px solid #e8e4dc; border-radius: 12px; padding: 14px; } .ds-result-card__header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; } .ds-result-card__score { color: #c8bfb5; font-size: 0.75rem; font-family: system-ui, -apple-system, sans-serif; } .ds-result-card__pali { color: #9c8c7a; font-style: italic; font-size: 0.75rem; line-height: 1.6; margin-bottom: 8px; font-family: Georgia, serif; } .ds-result-card__passage { color: #6b5c4e; font-size: 0.8125rem; line-height: 1.75; margin-bottom: 8px; font-family: Georgia, serif; } .ds-result-card__link { color: #c8bfb5; font-size: 0.6875rem; text-decoration: underline; font-family: system-ui, -apple-system, sans-serif; } .ds-result-card__link:hover { color: #9c8c7a; } .ds-sutta-chip { display: inline-block; background: #ede8df; color: #6b4e35; font-size: 0.75rem; font-weight: 500; font-family: system-ui, -apple-system, sans-serif; padding: 2px 8px; border-radius: 4px; text-decoration: none; } .ds-sutta-chip:hover { text-decoration: underline; }"
+    },
+    {
+      "name": "Search Input (Landing)",
+      "kind": "input",
+      "description": "Primary search surface. Expanding textarea, typewriter placeholder, inline submit button.",
+      "html": "<div class=\"ds-search\"><textarea class=\"ds-search__field\" rows=\"1\" placeholder=\"how does the Buddha define consciousness...\"></textarea><button class=\"ds-search__submit\" title=\"Submit\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"12\" y1=\"19\" x2=\"12\" y2=\"5\"/><polyline points=\"5 12 12 5 19 12\"/></svg></button></div>",
+      "css": ".ds-search { background: #ffffff; border: 1px solid #e8e4dc; border-radius: 16px; padding: 16px 16px 56px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); position: relative; width: 100%; max-width: 42rem; transition: border-color 150ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-search:focus-within { border-color: #9c8c7a; box-shadow: 0 0 0 2px #e8e4dc; } .ds-search__field { background: transparent; border: none; outline: none; width: 100%; resize: none; font-size: 1rem; line-height: 1.6; color: #2c1f14; font-family: system-ui, -apple-system, sans-serif; caret-color: #b5a494; min-height: 28px; overflow-y: auto; max-height: 256px; } .ds-search__field::placeholder { color: #b5a494; } .ds-search__submit { position: absolute; bottom: 12px; right: 12px; width: 36px; height: 36px; background: #4a3728; color: #fff; border: none; border-radius: 12px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 150ms cubic-bezier(0.22, 1, 0.36, 1), transform 80ms ease; } .ds-search__submit:hover { background: #6b4e35; } .ds-search__submit:active { transform: scale(0.97); } .ds-search__submit:disabled { opacity: 0.25; cursor: not-allowed; } .ds-search__submit:focus-visible { outline: 2px solid #4a3728; outline-offset: 2px; }"
+    },
+    {
+      "name": "Loading Spinner",
+      "kind": "custom",
+      "description": "Centered loading state with Sandalwood arc rotating on Reed Line track.",
+      "html": "<div class=\"ds-loading\"><div class=\"ds-loading__spinner\"></div><p class=\"ds-loading__message\">Looking through the suttas…</p></div>",
+      "css": ".ds-loading { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px; gap: 12px; } .ds-loading__spinner { width: 32px; height: 32px; border-radius: 50%; border: 2px solid #e8e4dc; border-top-color: #6b4e35; animation: ds-spin 0.8s linear infinite; } @keyframes ds-spin { to { transform: rotate(360deg); } } @media (prefers-reduced-motion: reduce) { .ds-loading__spinner { animation-duration: 0.01ms; } } .ds-loading__message { color: #9c8c7a; font-size: 0.875rem; font-family: system-ui, -apple-system, sans-serif; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Monastic Scriptorium",
+    "overview": "Quiet, orderly, ancient. The interface takes the posture of a scriptorium monk — precise, unhurried, completely in service to the text. Every surface steps aside so the suttas can speak. The design accumulates trust through restraint, not through personality.\n\nThe system is color-restrained: one sandalwood accent used only where it earns its place — primary actions, active navigation, citation affordances. The warm near-white ground is a vellum register, present but never demanding. Depth comes from border tone and tonal fill, not from shadows or elevation gestures. Typography does the heaviest lifting: Georgia serif is reserved for the display heading, the AI synthesis answer, and all extracted passage text — the things the user actually came to read.\n\nThe deep-dive experience (synthesis answer + source pane) is the typographic center of gravity. When a user opens sources, the synthesis text at 17px/1.85 and the source text at 15px/1.75 create a single reading surface — like consulting a commentary alongside the primary text. The reading gradient (17px synthesis / 15px source / 13px result card) communicates hierarchy between primary, supporting, and scanning contexts.\n\nThe system rejects four specific bad paths: the generic SaaS dashboard; the religious institution site (gold ornament, temple imagery); the academic filing cabinet (JSTOR-style density); and the wellness app (pastel gradients, peaceful performance).",
+    "keyCharacteristics": [
+      "One accent color (Deep Sandalwood) on ≤15% of any screen — rarity is the mechanism",
+      "Serif reserved for display headline, synthesis answer, and all passage text; system sans for all UI chrome",
+      "Flat-by-default elevation; only the primary search input earns a shadow",
+      "Three serif sizes — 17px synthesis, 15px source, 13px result card — each calibrated to its reading mode",
+      "Motion confined to pane reveal, loading feedback, and typewriter placeholder — nothing decorative",
+      "State colors (amber warning, red error) appear only for semantic alerts — never decoration"
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Deep Sandalwood (#4a3728) is the only saturated color on any screen. Deploy it on primary buttons and active states only. Never as decoration, never on inactive states.",
+        "section": "colors"
+      },
+      {
+        "name": "The Contrast Floor Rule",
+        "body": "River Taupe (#b5a494) and Stone Dust (#c8bfb5) do not meet WCAG AA for body text on Pale Vellum. Use them only for decorative roles (blinking cursor, score percentage). Real readable text uses Deep Ink, Sandalwood, or Pale Sandalwood as the minimum.",
+        "section": "colors"
+      },
+      {
+        "name": "The State Isolation Rule",
+        "body": "Amber and red appear only for semantic alert states (hallucination warning, unverified citation). Reaching for either color anywhere else is a design error.",
+        "section": "colors"
+      },
+      {
+        "name": "The Serif Reserve Rule",
+        "body": "Georgia appears in exactly four contexts: the display heading, synthesis answer, source viewer passages, and result card passages. Not in navigation, not in button labels, not in supporting copy.",
+        "section": "typography"
+      },
+      {
+        "name": "The Reading Gradient Rule",
+        "body": "Three serif sizes — 17px synthesis, 15px source, 13px result card — each calibrated to their reading mode. Do not flatten them to a single size 'for consistency'; the gradient communicates hierarchy between primary, supporting, and scanning contexts.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Shadows appear only on the primary search input. Everything else uses border-only depth. Adding a shadow to any card, nav, banner, or modal is almost certainly wrong.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Motion Restraint Rule",
+        "body": "Motion conveys one of three things: loading state, content arrival, or structural layout change (pane open/close). Decorative motion — hover flourishes, staggered list entrances, scroll choreography — is prohibited.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use Georgia serif for display heading, synthesis answer, source passages, and result card passages exclusively. Four contexts only.",
+      "Do keep Deep Sandalwood (#4a3728) on primary buttons and active states only. Rarity is the mechanism.",
+      "Do use Reed Line (#e8e4dc) borders as the sole depth mechanism on cards. No card shadows.",
+      "Do honour the reading gradient: 13px passage in result cards, 15px in source viewer, 17px in synthesis.",
+      "Do apply prefers-reduced-motion globally via the 0.01ms override in globals.css. Non-negotiable.",
+      "Do use the spring curve (cubic-bezier(0.22, 1, 0.36, 1)) for all transitions — baked into :root.",
+      "Do use Pale Sandalwood (#9c8c7a) as the minimum text color on Pale Vellum (4.5:1 WCAG AA).",
+      "Do isolate amber and red to their semantic roles: amber for hallucination warnings, red for unverified citations."
+    ],
+    "donts": [
+      "Don't use border-left or border-right greater than 1px as a colored accent stripe on cards, list items, or passage blocks.",
+      "Don't make the interface look like a generic SaaS tool. No dark sidebars, no white chat bubbles, no blue or purple accents.",
+      "Don't introduce religious imagery or ornamentation. No temple motifs, no gold decoration, no mandala geometry.",
+      "Don't reproduce the academic-database aesthetic. No JSTOR-style density, no color-coded category bars.",
+      "Don't signal wellness or mindfulness through design. No pastel gradients, no overtly peaceful rounded-everything softness.",
+      "Don't use gradient text (background-clip: text). Single solid color; emphasis via weight or size.",
+      "Don't add shadows to result cards, navigation bars, or banners. Only the primary landing search input earns depth.",
+      "Don't reuse the amber CTA (#f59e0b) for anything other than the external donation link.",
+      "Don't use River Taupe (#b5a494) or Stone Dust (#c8bfb5) for any text that carries real meaning.",
+      "Don't show orchestrated page-load sequences or staggered list entrances. Motion here is structural and functional.",
+      "Don't compress source passage text to result-card size (13px). Source text is being read, not scanned; it lives at 15px.",
+      "Don't use Georgia in UI labels, navigation items, or buttons — serif for heading and passage contexts only."
+    ]
+  }
+}

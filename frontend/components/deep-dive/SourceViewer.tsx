@@ -48,7 +48,7 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
               <div className="mb-3 text-base leading-relaxed italic text-[#9c8c7a]">
                 {verse.pali}
               </div>
-              <div className="text-[0.8125rem] leading-[1.75] text-[#2c1f14]">
+              <div className="text-[15px] leading-[1.75] text-[#2c1f14]">
                 {verse.english}
               </div>
             </div>
