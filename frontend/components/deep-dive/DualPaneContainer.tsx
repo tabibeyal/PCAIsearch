@@ -75,7 +75,14 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
         >
           <DividerToggle
             sourcesVisible={sourcesVisible}
-            onClick={() => setSourcesVisible((v) => !v)}
+            onClick={() => {
+              if (sourcesVisible) {
+                setDeepDive(false);
+                setSourcesVisible(true);
+              } else {
+                setSourcesVisible(true);
+              }
+            }}
           />
         </div>
       )}
