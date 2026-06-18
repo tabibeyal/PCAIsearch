@@ -130,6 +130,6 @@ PYTHONPATH=. python -m pytest tests/backend/ -q
 
 ## License
 
-Apache License 2.0 — see [LICENSE](LICENSE).
+CC BY-NC 4.0 — see [LICENSE](LICENSE).
 
-Sutta texts sourced from [SuttaCentral](https://suttacentral.net) bilara-data, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+Sutta texts © Thanissaro Bhikkhu, sourced from [dhammatalks.org](https://www.dhammatalks.org).
