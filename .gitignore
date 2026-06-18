@@ -30,6 +30,9 @@ frontend/.vercel/
 # Qdrant local storage
 qdrant_storage/
 
+# Playwright MCP browser snapshots
+.playwright-mcp/
+
 # OS
 .DS_Store
 Thumbs.db
