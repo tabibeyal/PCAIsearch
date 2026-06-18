@@ -23,7 +23,7 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
         title={isUnverified ? 'This citation could not be verified' : 'View source passage'}
         className={`mx-1 px-1.5 py-0.5 rounded font-medium transition-colors ${
           isUnverified
-            ? 'bg-red-100 text-red-600 hover:bg-red-200 cursor-not-allowed text-xs'
+            ? 'bg-red-100 text-red-800 hover:bg-red-200 cursor-not-allowed text-xs'
             : 'bg-[#ede8df] text-[#6b4e35] hover:bg-[#e8e4dc] text-[11px] font-sans cursor-pointer underline decoration-dotted underline-offset-2'
         }`}
       >
@@ -82,12 +82,13 @@ export function SynthesisView({ data, deepDive, onDeepDiveToggle, onCitationClic
         <div className="flex items-start justify-end gap-3 mb-6 flex-wrap">
           <div className="flex items-center gap-2 flex-wrap">
             {!is_faithful && (
-              <span className="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded font-medium">
+              <span className="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded font-medium">
                 Potential Hallucinations Flagged
               </span>
             )}
             <button
               onClick={onDeepDiveToggle}
+              title="Show the source passages this answer is drawn from"
               className={`text-xs px-3 py-1 rounded font-medium border transition-colors ${
                 deepDive
                   ? 'bg-[#4a3728] text-white border-[#4a3728] hover:bg-[#6b4e35]'

@@ -150,17 +150,18 @@ One warm-brown family, five lightness steps from espresso to vellum. No secondar
 - **Pale Vellum** (`#faf9f7`): Body background on all surfaces — landing, nav, synthesis pane, source pane. Warm but quiet. Never a design statement.
 - **Deep Ink** (`#2c1f14`): All primary text. Near-black with a warm cast; never pure black.
 - **Passage Ink** (`#6b5c4e`): English passage text in result cards. Slightly warmer than Sandalwood; subordinate to the UI but still readable.
-- **Pale Sandalwood** (`#9c8c7a`): Secondary text, labels, descriptors, inactive tab text, placeholder text. Minimum readable color on Pale Vellum (passes 4.5:1 WCAG AA).
+- **Muted Sandalwood** (`#76604a`): Secondary text, labels, descriptors, inactive tab text, placeholder text, Pāḷi supporting text, match-percentage label. The minimum AA-readable text color — passes 4.5:1 on Pale Vellum, white, and Vellum Wash. Use this for every small text role that carries meaning.
+- **Pale Sandalwood** (`#9c8c7a`): Focus rings and focus-within borders only (non-text UI indicator; meets the 3:1 non-text contrast minimum), and the primary-button loading fill. Not for text — at ~3.2:1 it fails WCAG AA for body text.
 - **Reed Line** (`#e8e4dc`): Borders, card outlines, dividers, spinner track, and the structural gap color between deep-dive panes. The primary depth signal.
 - **Vellum Wash** (`#ede8df`): Active chip/pill fills, hover tints on empty interactive surfaces, highlighted source card background.
-- **River Taupe** (`#b5a494`): Blinking cursor, typewriter placeholder. Decorative only — fails WCAG AA on Pale Vellum as body text.
-- **Stone Dust** (`#c8bfb5`): Match-percentage label. Whisper-level; acceptable only for non-critical decorative text.
+- **River Taupe** (`#b5a494`): Blinking cursor, typewriter placeholder. Decorative only (aria-hidden) — fails WCAG AA on Pale Vellum as body text.
+- **Stone Dust** (`#c8bfb5`): Whisper-level decorative only — fails WCAG AA. Not used for any meaning-carrying text (the match-percentage label uses Muted Sandalwood so the score is actually readable).
 - **Warm Stone** (`#d4c9b8`): Nikāya pill pending state during navigation. Clears on route settle.
 
 ### State (semantic only — never decorative)
 
-- **Amber Warning** (`#fef3c7` bg / `#b45309` text): Hallucination-flagged badge in the synthesis header.
-- **Error** (`#fee2e2` bg / `#dc2626` text): Unverified citation chips inside synthesis text. Signals "do not cite this."
+- **Amber Warning** (`#fef3c7` bg / `#92400e` text): Hallucination-flagged badge in the synthesis header.
+- **Error** (`#fee2e2` bg / `#991b1b` text): Unverified citation chips inside synthesis text. Signals "do not cite this."
 
 ### Accent (off-palette, single use)
 
@@ -170,7 +171,7 @@ One warm-brown family, five lightness steps from espresso to vellum. No secondar
 
 **The One Accent Rule.** Deep Sandalwood (`#4a3728`) is the only saturated color on any screen. Deploy it on primary buttons and active states only. Never as decoration, never on inactive states.
 
-**The Contrast Floor Rule.** River Taupe (`#b5a494`) and Stone Dust (`#c8bfb5`) do not meet WCAG AA for body text on Pale Vellum. Use them only for decorative roles (blinking cursor, score percentage). Real readable text uses Deep Ink, Sandalwood, or Pale Sandalwood as the minimum.
+**The Contrast Floor Rule.** River Taupe (`#b5a494`), Stone Dust (`#c8bfb5`), and Pale Sandalwood (`#9c8c7a`) do not meet WCAG AA for body text (each lands ~1.8–3.3:1). Use them only for non-text or decorative roles: River Taupe for the blinking cursor / typewriter placeholder (aria-hidden), Stone Dust for whisper-level decoration, Pale Sandalwood for focus rings/borders and the button loading fill. Real readable text uses Deep Ink, Sandalwood, or Muted Sandalwood (`#76604a`) as the minimum — Muted Sandalwood is the only secondary-text color that clears 4.5:1 on Pale Vellum, white, and Vellum Wash.
 
 **The State Isolation Rule.** Amber and red appear only for semantic alert states (hallucination warning, unverified citation). Reaching for either color anywhere else is a design error.
 
@@ -243,15 +244,19 @@ Understated. They do not announce themselves; they wait to be found.
 ### View Switcher Tabs
 
 - **Active:** Deep Sandalwood fill, white text, full-radius pill.
-- **Inactive:** No fill, Pale Sandalwood text. Hover: Vellum Wash fill.
+- **Inactive:** No fill, Muted Sandalwood text. Hover: Vellum Wash fill.
 - **Separator:** Reed Line 1px vertical rule between tabs and Nikāya filter (hidden on mobile).
 
 ### Nikāya Filter Pills
 
-- **Inactive:** Reed Line border, no fill, Pale Sandalwood text. Hover: Vellum Wash fill.
+Two tiers, so the row is a scannable five choices instead of twelve peer pills. The four main nikāyas (DN/MN/SN/AN) are always visible as pills alongside **All**. The seven Khuddaka-pāṭha sub-books (DHP/ITI/UD/STNP/THAG/THIG/KHP) sit behind a **Khuddaka** disclosure toggle.
+
+- **Primary row:** `All` + `DN` + `MN` + `SN` + `AN`, always visible.
+- **Khuddaka disclosure:** a pill-shaped toggle (not a filter selector). Chevron rotates 180° when open. Shows a count `(n)` when a sub-book is active, so the active selection is signaled even while closed. Opens automatically when a Khuddaka book is in the URL selection; closing is still allowed.
+- **Inactive:** Reed Line border, no fill, Muted Sandalwood text. Hover: Vellum Wash fill.
 - **Active:** Vellum Wash fill, Sandalwood text, Reed Line border.
 - **Pending:** Warm Stone fill, Deep Sandalwood text. Clears on route settle.
-- **Interaction:** Plain click = switch to this nikāya only. Re-clicking the sole active pill resets to All. Cmd/Ctrl-click toggles multi-selection.
+- **Interaction:** Plain click = switch to this nikāya only. Re-clicking the sole active pill resets to All. Cmd/Ctrl-click toggles multi-selection (works on main pills and Khuddaka sub-books alike).
 
 ### Search Input (Landing)
 
@@ -270,9 +275,10 @@ Same container vocabulary (white, `rounded-2xl`, Reed Line border) but compact (
 
 - **Shape:** 12px radius, Reed Line border, white fill, 14px all-sides padding.
 - **Header:** Sutta chip left, match score right.
-- **Pāḷi text (if present):** Italic, Pale Sandalwood, `text-xs`, system sans.
+- **Pāḷi text (if present):** Italic, Muted Sandalwood, `text-xs`, system sans.
 - **English passage:** Georgia regular, 13px / line-height 1.75, Passage Ink.
-- **Footer:** "View on dhammatalks.org" in Stone Dust, `text-[11px]`, underline on hover.
+- **Footer:** "View on dhammatalks.org" in Muted Sandalwood, `text-[11px]`, underline on hover.
+- **Match score:** Muted Sandalwood, `text-xs`. Right-aligned in the header. AA-readable so the score is legible, not whisper-level.
 
 ### Sutta ID Chip
 
@@ -283,13 +289,13 @@ Vellum Wash fill, Sandalwood text, 4px radius, `2px 8px` padding, Micro typograp
 Inline `<button>` elements rendered within synthesis answer text.
 
 - **Verified:** Vellum Wash fill, Sandalwood text, 4px radius, dotted underline, `text-[11px]`. Clicking opens the source pane and scrolls to the matching passage.
-- **Unverified:** Error-red fill and text (`#fee2e2` / `#dc2626`), `cursor-not-allowed`. The guardrail caught a hallucination — display only, never link.
+- **Unverified:** Error-red fill and text (`#fee2e2` / `#991b1b`), `cursor-not-allowed`. The guardrail caught a hallucination — display only, never link.
 
 ### Synthesis Pane (SynthesisView)
 
 - **Background:** Pale Vellum, full-height scroll, 24px padding.
 - **Answer text:** Georgia regular, 17px / line-height 1.85, Deep Ink. The typographic center of gravity.
-- **Hallucination warning badge:** Amber (`#fef3c7` bg / `#b45309` text), shown in the header row when the guardrail flags the answer.
+- **Hallucination warning badge:** Amber (`#fef3c7` bg / `#92400e` text), shown in the header row when the guardrail flags the answer.
 - **Deep Dive toggle:** Ghost style at rest; primary fill when deep dive is active.
 
 ### Deep Dive Layout (DualPaneContainer + SourceViewer)
@@ -298,14 +304,14 @@ Inline `<button>` elements rendered within synthesis answer text.
 - **Source pane enter:** `paneEnter` keyframe, 300ms, spring curve. Slides from right with a blur dissolve.
 - **Source cards:** White fill, Reed Line border, 8px radius, 16px padding.
 - **Active source card:** Vellum Wash fill, `#c8b89a` border — marks the cited passage in focus.
-- **Source Pāḷi text:** Italic, Pale Sandalwood, `text-base` (16px), system sans.
+- **Source Pāḷi text:** Italic, Muted Sandalwood, `text-base` (16px), system sans.
 - **Source English text:** Georgia regular, 15px / line-height 1.75, Deep Ink. Readable alongside synthesis — never compressed to result-card size.
 - **Mobile close handle:** Full-width, Pale Vellum bg, Sandalwood border and text, `text-xs font-semibold`.
 
 ### Loading State
 
 - **Spinner:** 32px circle, Reed Line track, Sandalwood arc. Centered in content area.
-- **Phase messages:** Pale Sandalwood, 14px. Three phases crossfade at 250ms; timing calibrated to stored latency average so phases feel measured, not theatrical.
+- **Phase messages:** Muted Sandalwood, 14px. Three phases crossfade at 250ms; timing calibrated to stored latency average so phases feel measured, not theatrical.
 
 ### Support Banner
 
@@ -336,7 +342,7 @@ Inline `<button>` elements rendered within synthesis answer text.
 - **Don't** use gradient text (`background-clip: text`). Single solid color; emphasis via weight or size.
 - **Don't** add shadows to result cards, navigation bars, or banners. Only the primary landing search input earns depth.
 - **Don't** reuse the amber CTA (`#f59e0b`) for anything other than the external donation link.
-- **Don't** use River Taupe (`#b5a494`) or Stone Dust (`#c8bfb5`) for any text that carries real meaning.
+- **Don't** use River Taupe (`#b5a494`), Stone Dust (`#c8bfb5`), or Pale Sandalwood (`#9c8c7a`) for any text that carries real meaning — all fail WCAG AA for body text. Muted Sandalwood (`#76604a`) is the floor for secondary text.
 - **Don't** show orchestrated page-load sequences or staggered list entrances. Motion here is structural and functional.
 - **Don't** compress source passage text to result-card size (13px). Source text is being read, not scanned; it lives at 15px.
 - **Don't** use Georgia in UI labels, navigation items, or buttons. It belongs exclusively in heading and passage contexts.
