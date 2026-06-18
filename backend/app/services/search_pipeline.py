@@ -2,7 +2,6 @@ from typing import Any
 import asyncio
 import itertools
 import logging
-import math
 import os
 import re
 import time
@@ -110,13 +109,26 @@ def _normalize_citations(text: str) -> str:
     return _PAREN_CITE_RE.sub(r"[\1]", text)
 
 
-def _sigmoid(x: float) -> float:
-    """Stable sigmoid mapping cross-encoder logits to (0, 1)."""
-    if x >= 0:
-        z = math.exp(-x)
-        return 1 / (1 + z)
-    z = math.exp(x)
-    return z / (1 + z)
+# Display band for the frontend "% match". The cross-encoder logits are
+# uncalibrated and mostly negative for this domain, so any absolute transform
+# (e.g. sigmoid) collapses every result to ~1%. Instead we rank-normalize the
+# logits within each result set: the best match sits near the ceiling, the rest
+# descend from it, and even the weakest shown passage keeps a non-alarming floor.
+_RELEVANCE_FLOOR = 0.5
+_RELEVANCE_CEIL = 0.99
+
+
+def _relevance_scores(rerank_scores: list[float]) -> list[float]:
+    if not rerank_scores:
+        return []
+    lo, hi = min(rerank_scores), max(rerank_scores)
+    spread = hi - lo
+    if not spread:
+        return [_RELEVANCE_CEIL] * len(rerank_scores)
+    return [
+        _RELEVANCE_FLOOR + (_RELEVANCE_CEIL - _RELEVANCE_FLOOR) * (s - lo) / spread
+        for s in rerank_scores
+    ]
 
 
 class Reranker:
@@ -515,12 +527,16 @@ class SearchPipeline:
         for chunk in itertools.chain(*itertools.zip_longest(*scored_by_bucket.values())):
             if chunk is None or len(results) == top_k:
                 continue
-            # The cross-encoder score is the final ranking signal; downstream
-            # consumers (frontend match %, synthesis ordering) only read `score`.
-            # Sigmoid maps the raw logits to a [0, 1] probability-like scale so
-            # the frontend can display a percentage without unbounded values.
-            chunk["score"] = _sigmoid(chunk.get("rerank_score", 0.0))
             results.append(chunk)
+
+        # The cross-encoder score is the final ranking signal; downstream
+        # consumers (frontend match %, synthesis ordering) only read `score`.
+        # Rank-normalize within the result set so the displayed percentage is
+        # meaningful despite the logits being uncalibrated (see _relevance_scores).
+        for chunk, score in zip(
+            results, _relevance_scores([c.get("rerank_score", 0.0) for c in results])
+        ):
+            chunk["score"] = score
 
         logger.info("search total: %.2fs", time.perf_counter() - t0)
         return results
