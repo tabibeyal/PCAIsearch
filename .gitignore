@@ -36,6 +36,8 @@ Thumbs.db
 
 # User data
 feedback.db
+run-local.txt
+run-reindex.txt
 
 # Hybrid memory (stored on Google Drive)
 .memsearch/
