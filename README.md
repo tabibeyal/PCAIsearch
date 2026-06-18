@@ -36,7 +36,7 @@ backend/           FastAPI + asyncio
       sutta_relations.py   Doctrinal cross-references between suttas
       pali_dictionary.py   Pāḷi term → English passage hints for reranking
 data/
-  fetch_bilara.py  Sparse-clone SuttaCentral bilara-data → local JSON (DN/MN/AN/SN/DHP/ITI)
+  fetch_thanissaro.py  Download Thanissaro Bhikkhu epub from dhammatalks.org → local JSON
   process_dumps.py Embed & upsert into Qdrant
 docs/adr/          Architecture decision records
 tests/             pytest suites (backend)
@@ -66,13 +66,7 @@ docker run -d -p 6333:6333 -v ~/qdrant_storage:/qdrant/storage qdrant/qdrant
 
 **Option B — Qdrant Cloud:** create a free cluster at [cloud.qdrant.io](https://cloud.qdrant.io), then set `QDRANT_URL` and `QDRANT_API_KEY` in your environment before running the backend or indexing scripts.
 
-### 2. Install Python dependencies
-
-```bash
-pip install -r backend/requirements.txt
-```
-
-### 3. Index the Pali Canon
+### 2. Index the Pali Canon
 
 ```bash
 # Download all 11 nikayas from the dhammatalks.org epub (Thanissaro Bhikkhu translations)
@@ -84,13 +78,13 @@ PYTHONPATH=. python3 data/process_dumps.py
 
 Indexing can be interrupted and resumed — already-indexed suttas are skipped automatically.
 
-### 4. Install frontend dependencies
+### 3. Install frontend dependencies
 
 ```bash
 cd frontend && npm install
 ```
 
-### 5. Configure environment
+### 4. Configure environment
 
 ```bash
 cp frontend/.env.local.example frontend/.env.local
