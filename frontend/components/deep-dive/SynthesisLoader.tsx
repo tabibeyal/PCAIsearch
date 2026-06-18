@@ -56,7 +56,7 @@ function StepList({ currentStatus, horizontal = false }: { currentStatus: string
               {i > 0 && <span className="text-[#d1cdc7] text-xs flex-shrink-0">›</span>}
               <div className={`flex items-center gap-1.5 ${state === 'pending' ? 'opacity-30' : state === 'done' ? 'opacity-50' : ''}`}>
                 <StepIcon state={state} size={14} />
-                <span className={`text-[10px] ${state === 'active' ? 'text-[#6b4e35] font-semibold' : 'text-[#9c8c7a]'}`}>
+                <span className={`text-[10px] ${state === 'active' ? 'text-[#6b4e35] font-semibold' : 'text-[#76604a]'}`}>
                   {step.label}
                 </span>
               </div>
@@ -80,7 +80,7 @@ function StepList({ currentStatus, horizontal = false }: { currentStatus: string
             <span className={`text-sm min-w-0 ${
               state === 'done'   ? 'text-[#6b4e35] line-through' :
               state === 'active' ? 'text-[#6b4e35] font-semibold' :
-                                   'text-[#9c8c7a]'
+                                   'text-[#76604a]'
             }`}>
               {step.label}
             </span>

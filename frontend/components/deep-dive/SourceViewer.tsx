@@ -23,7 +23,7 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
       )}
       <div className="flex-1 overflow-y-auto scroll-smooth p-6 space-y-8 font-serif text-[#2c1f14] bg-[#faf9f7]">
         {context.length === 0 ? (
-          <div className="text-[#9c8c7a] italic">No source verses found.</div>
+          <div className="text-[#76604a] italic">No source verses found.</div>
         ) : (
           context.map((verse) => (
             <div
@@ -45,7 +45,7 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
                   {verse.id}
                 </a>
               </div>
-              <div className="mb-3 text-base leading-relaxed italic text-[#9c8c7a]">
+              <div className="mb-3 text-base leading-relaxed italic text-[#76604a]">
                 {verse.pali}
               </div>
               <div className="text-[15px] leading-[1.75] text-[#2c1f14]">

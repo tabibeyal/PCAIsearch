@@ -69,7 +69,7 @@ export function FeedbackBar({ query, answer }: FeedbackBarProps) {
       {/* Fix 4: buttons + panel fade out when submitted */}
       <div style={{ opacity: submitted ? 0 : 1, transition: 'opacity 150ms ease', pointerEvents: submitted ? 'none' : 'auto' }}>
         <div className="flex items-center gap-3 mb-1.5">
-          <span className="text-xs text-[#9c8c7a] font-sans">Was this helpful?</span>
+          <span className="text-xs text-[#76604a] font-sans">Was this helpful?</span>
           <button
             onClick={handleThumbsUp}
             className={`border rounded-md px-2.5 py-1.5 text-base transition-colors ${
@@ -91,7 +91,7 @@ export function FeedbackBar({ query, answer }: FeedbackBarProps) {
             👎
           </button>
         </div>
-        <p className="text-[11px] text-[#b5a494] font-sans italic mb-3">
+        <p className="text-[11px] text-[#76604a] font-sans italic mb-3">
           Feedback includes your question and this full answer.
         </p>
 
@@ -105,7 +105,7 @@ export function FeedbackBar({ query, answer }: FeedbackBarProps) {
               <p className="text-xs font-semibold text-[#4a3728]">What was the problem?</p>
               <button
                 onClick={() => { setPanelOpen(false); setRating(null); }}
-                className="text-[#9c8c7a] hover:text-[#4a3728] text-sm leading-none"
+                className="text-[#76604a] hover:text-[#4a3728] text-sm leading-none"
                 aria-label="Dismiss feedback panel"
               >
                 ×
@@ -158,7 +158,7 @@ export function FeedbackBar({ query, answer }: FeedbackBarProps) {
             transition: 'opacity 200ms ease, transform 200ms ease',
           }}
         >
-          <span className="text-xs text-[#9c8c7a] font-sans">Thank you for your feedback.</span>
+          <span className="text-xs text-[#76604a] font-sans">Thank you for your feedback.</span>
           <button
             disabled
             className="border rounded-md px-2.5 py-1.5 text-base opacity-60 cursor-default bg-[#4a3728] border-[#4a3728] text-white"

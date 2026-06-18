@@ -138,10 +138,10 @@ export function SearchBar() {
       <button
         onClick={submit}
         disabled={!query.trim()}
-        className={`absolute bottom-3 right-3 w-9 h-9 flex items-center justify-center rounded-xl text-white disabled:opacity-25 transition-all active:scale-95 ${isLoading ? 'bg-[#9c8c7a]' : 'bg-[#4a3728] hover:bg-[#6b4e35]'}`}
+        className={`absolute bottom-3 right-3 w-11 h-11 flex items-center justify-center rounded-xl text-white disabled:opacity-25 transition-all active:scale-95 ${isLoading ? 'bg-[#9c8c7a]' : 'bg-[#4a3728] hover:bg-[#6b4e35]'}`}
         title="Submit"
       >
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
           <line x1="12" y1="19" x2="12" y2="5"/>
           <polyline points="5 12 12 5 19 12"/>
         </svg>

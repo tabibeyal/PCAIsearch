@@ -26,7 +26,7 @@ async function SearchPage({
     : [];
 
   const tabClass = (active: boolean) =>
-    `px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${active ? 'bg-[#4a3728] text-white' : 'text-[#9c8c7a] hover:bg-[#ede8df]'}`;
+    `px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${active ? 'bg-[#4a3728] text-white' : 'text-[#76604a] hover:bg-[#ede8df]'}`;
 
   return (
     <main className="h-full w-full">
@@ -35,7 +35,7 @@ async function SearchPage({
           <nav className="bg-[#faf9f7] border-b border-[#e8e4dc] sticky top-0 z-10">
             {/* Row 1: brand + search */}
             <div className="flex items-center gap-3 px-3 sm:px-4 pt-3 pb-2">
-              <Link href="/" className="text-sm text-[#9c8c7a] hover:text-[#6b4e35] whitespace-nowrap transition-colors">
+              <Link href="/" className="text-sm text-[#76604a] hover:text-[#6b4e35] whitespace-nowrap transition-colors">
                 Home
               </Link>
               <NavSearchBox key={query} initialQuery={query} />
@@ -46,6 +46,7 @@ async function SearchPage({
                 href={`/search/${encodedQuery}?view=synthesis${nikayas.map(n => `&nikayas=${n}`).join('')}`}
                 className={tabClass(view === 'synthesis')}
                 scroll={false}
+                title="A synthesized answer grounded in retrieved passages, with inline citations"
               >
                 AI Answer
               </Link>
@@ -53,6 +54,7 @@ async function SearchPage({
                 href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`}
                 className={tabClass(view === 'results')}
                 scroll={false}
+                title="Browse the individual source passages retrieved for your query"
               >
                 Passages
               </Link>

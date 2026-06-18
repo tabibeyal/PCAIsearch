@@ -10,7 +10,7 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
   return (
     <div className="max-w-3xl mx-auto px-4 py-6 space-y-4" style={{ animation: 'fadeIn 300ms ease' }}>
       {results.length === 0 ? (
-        <div className="text-center py-12 text-[#9c8c7a]">
+        <div className="text-center py-12 text-[#76604a]">
           No suttas matched your search. Try rephrasing your question, or clear the Nikāya filter to search all collections.
         </div>
       ) : (
@@ -33,11 +33,11 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
                 >
                   {result.id}
                 </a>
-                <span className="text-[#c8bfb5] text-xs">{pct}% match</span>
+                <span className="text-[#76604a] text-xs">{pct}% match</span>
               </div>
 
               {result.pali && (
-                <p className="italic text-[#9c8c7a] text-xs leading-[1.6] mb-2">
+                <p className="italic text-[#76604a] text-xs leading-[1.6] mb-2">
                   {result.pali}
                 </p>
               )}
@@ -53,7 +53,7 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#9c8c7a] underline text-[11px] hover:text-[#6b4e35]"
+                className="text-[#76604a] underline text-[11px] hover:text-[#6b4e35]"
               >
                 View on dhammatalks.org
               </a>
