@@ -47,9 +47,14 @@ if contains_cmd '(^|[;&|()]+[[:space:]]*)git[[:space:]]+push'; then
     emit_deny "Blocked: push to protected branch '${MATCHED_BRANCH:-main}' via refspec. Use a feature branch and open a PR."
   fi
   # Bare `git push` while on protected branch
-  if contains_cmd 'git[[:space:]]+push[[:space:]]*($|[;&|])'; then
+    if contains_cmd 'git[[:space:]]+push[[:space:]]*($|[;&|])'; then
     CURRENT=$(git branch --show-current 2>/dev/null || true)
     if [ -n "$CURRENT" ] && printf '%s' ",$PROTECTED_BRANCHES," | grep -q ",$CURRENT,"; then
+   # Allow README/docs-only commits through without a feature branch
+   PENDING=$(git diff --name-only @{u}..HEAD 2>/dev/null || true)
+   if [ -n "$PENDING" ] && ! printf '%s\n' $PENDING | grep -qvE '^(README|docs/)'; then
+     exit 0
+   fi
       emit_deny "Blocked: you are on '$CURRENT' (a protected branch). Switch to a feature branch."
     fi
   fi
@@ -121,6 +126,21 @@ if contains_cmd 'git[[:space:]]+reset[[:space:]]+--hard'; then
 fi
 if contains_cmd 'git[[:space:]]+clean[[:space:]]+-[a-zA-Z]*f'; then
   emit_deny "Blocked: git clean -f permanently deletes untracked files."
+fi
+
+# ── Full backend test suite guard ───────────────────────────────────────
+# ponytail: full suite exhausts RAM with Firefox open and freezes the OS; run specific files only
+if contains_cmd 'tests/backend/' && ! contains_cmd 'tests/backend/test_'; then
+  emit_deny "Blocked: full backend test suite freezes the OS (RAM + Firefox). Run a specific file: pytest tests/backend/test_<name>.py -q"
+fi
+
+# ── Impeccable-live artifact guard ───────────────────────────────────────
+# ponytail: /impeccable live injects localhost:8400 into layout.tsx; auto-deploy is instant on commit
+if contains_cmd 'git[[:space:]]+commit'; then
+  LAYOUT="${CLAUDE_PROJECT_DIR:-$PWD}/frontend/app/layout.tsx"
+  if [ -f "$LAYOUT" ] && grep -q 'localhost:8400' "$LAYOUT"; then
+    emit_deny "Blocked: frontend/app/layout.tsx contains a localhost:8400 impeccable-live injection. Remove it before committing."
+  fi
 fi
 
 # ── Accidental package publishing ───────────────────────────────────────

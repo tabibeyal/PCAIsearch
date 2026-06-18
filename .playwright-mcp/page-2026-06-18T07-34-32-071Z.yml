@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Ask the Pali Canon" [level=1] [ref=e5]
+        - paragraph [ref=e6]: Type a question or topic — find the suttas that answer it.
+      - generic [ref=e7]:
+        - generic: how does the Canon describe the gradual training from lay life to liberation?
+        - textbox "Search the Pali Canon" [ref=e8]:
+          - /placeholder: ""
+        - button "Submit" [disabled] [ref=e9]:
+          - img [ref=e10]
+  - alert [ref=e12]

@@ -6,7 +6,7 @@ from qdrant_client.http import models
 
 class SuttaParser:
     """
-    Parses SuttaCentral style raw data into canonical chunks.
+    Parses Thanissaro Bhikkhu JSON dumps into canonical chunks.
     """
     def parse(self, data: dict) -> list:
         sutta_id = data.get("sutta_id", "Unknown")

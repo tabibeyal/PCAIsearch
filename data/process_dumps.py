@@ -109,6 +109,6 @@ if __name__ == "__main__":
     DUMP_DIR = "data/dumps"
     if not os.path.exists(DUMP_DIR):
         os.makedirs(DUMP_DIR)
-        print(f"Created {DUMP_DIR}. Please place SuttaCentral JSON dumps here.")
+        print(f"Created {DUMP_DIR}. Please place Thanissaro JSON dumps here (run data/fetch_thanissaro.py).")
     else:
         process_sutta_dumps(DUMP_DIR, wipe=args.wipe)

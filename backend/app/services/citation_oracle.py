@@ -6,7 +6,7 @@ from pathlib import Path
 class CitationOracle:
     """
     Verifies that LLM-generated citations refer to real suttas and verses
-    in the local SuttaCentral dump index.
+    in the local dump index.
     """
 
     _ID_PARSE_RE = re.compile(r"^([A-Z]+)\s+([\d.]+):(\d+)$")

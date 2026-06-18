@@ -3,7 +3,7 @@
 ## Commands
 `PYTHONPATH=. python3 -m pytest tests/backend/test_<name>.py -q` — run a single backend test file (never the full suite)
 `set -a && source .env && set +a && PYTHONPATH=. uvicorn backend.app.main:app --reload` — backend dev server (loads NVIDIA_API_KEY, QDRANT_URL, QDRANT_API_KEY from .env)
-`PYTHONPATH=. NVIDIA_API_KEY=... python3 tests/backend/retrieval_benchmark.py --with-expansion --log-variants` — recall@10 benchmark (currently 93%)
+`PYTHONPATH=. NVIDIA_API_KEY=... python3 tests/backend/retrieval_benchmark.py --with-expansion --log-variants` — recall@10 benchmark (currently 100%, Thanissaro corpus, 2026-06-08)
 Backend deps declared inline in Dockerfile (lines 6–8). No requirements.txt or pyproject.toml.
 
 ## Architecture vocabulary
