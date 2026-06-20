@@ -27,6 +27,7 @@ from backend.app.services.citation_oracle import CitationOracle
 from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
+from backend.app.services.passage_context import PassageStore
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
 limiter = Limiter(key_func=get_remote_address)
@@ -159,6 +160,7 @@ async def lifespan(app: FastAPI):
         logger.warning("Could not create nikaya payload index (skipping): %s", e)
     app.state.pipeline = pipeline
     app.state.guardrail = CitationGuardrail(oracle=oracle)
+    app.state.passages = PassageStore.from_directory(_DUMPS_DIR)
     await pipeline.warmup()
     logger.info("models warmed up")
     yield
@@ -232,6 +234,17 @@ async def search(
     related_suttas = pipeline.get_related_suttas(results)
     return {"query": q, "results": results, "related_suttas": related_suttas}
 
+def _attach_passages(context: list[dict], store: PassageStore) -> list[dict]:
+    """Add a display-only `passage` field (cited verse + neighbors) where a
+    citation would otherwise show as a lone line. Leaves `english` untouched so
+    synthesis and the guardrail are unaffected."""
+    for chunk in context:
+        window = store.passage(chunk.get("id", ""))
+        if window:
+            chunk["passage"] = window
+    return context
+
+
 @app.get("/synthesize")
 @limiter.limit("10/minute")
 async def synthesize(
@@ -254,7 +267,7 @@ async def synthesize(
         "hallucinations": verification["hallucinations"],
         "canonical_misses": verification["canonical_misses"],
         "is_faithful": verification["is_faithful"],
-        "context": context
+        "context": _attach_passages(context, request.app.state.passages),
     }
 
 @app.get("/stream")
@@ -275,6 +288,7 @@ async def stream(
             t1 = time.perf_counter()
             logger.info("stream/search: %.2fs", t1 - t0)
             context = [c for c in context if len(c.get("english", "").strip().split()) >= 4]
+            _attach_passages(context, request.app.state.passages)
             yield f"data: {json.dumps({'type': 'status', 'text': 'Composing answer…'})}\n\n"
             async for event in request.app.state.pipeline.stream_synthesize(q, context):
                 if event["type"] == "chunk":

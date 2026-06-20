@@ -48,9 +48,22 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
               <div className="mb-3 text-base leading-relaxed italic text-[#76604a]">
                 {verse.pali}
               </div>
-              <div className="text-[15px] leading-[1.75] text-[#2c1f14]">
-                {verse.english}
-              </div>
+              {verse.passage ? (
+                <div className="space-y-2 text-[15px] leading-[1.75]">
+                  {verse.passage.map((line) => (
+                    <p
+                      key={line.id}
+                      className={line.isMatch ? 'text-[#2c1f14]' : 'text-[#76604a]'}
+                    >
+                      {line.english}
+                    </p>
+                  ))}
+                </div>
+              ) : (
+                <div className="text-[15px] leading-[1.75] text-[#2c1f14]">
+                  {verse.english}
+                </div>
+              )}
             </div>
           ))
         )}

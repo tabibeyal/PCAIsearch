@@ -55,7 +55,7 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
       <div className={`overflow-hidden transition-all duration-300 ${
         deepDive
           ? showSources
-            ? 'w-full md:w-1/2 h-[60%] md:h-full border-b border-[#e8e4dc] md:border-b-0 md:border-r'
+            ? 'w-full md:w-1/2 h-[54%] md:h-full border-b border-[#e8e4dc] md:border-b-0 md:border-r'
             : 'w-full h-full'
           : 'w-full h-full'
       }`}>
@@ -88,7 +88,7 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
 
       {showSources && (
         <div
-          className="w-full md:w-1/2 h-[40%] md:h-full overflow-hidden"
+          className="w-full md:w-1/2 h-[46%] md:h-full overflow-hidden"
           style={{ animation: 'paneEnter 300ms cubic-bezier(0.22, 1, 0.36, 1) forwards' }}
         >
           <SourceViewer
