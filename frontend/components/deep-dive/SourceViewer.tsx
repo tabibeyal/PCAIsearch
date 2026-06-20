@@ -1,4 +1,3 @@
-import React from 'react';
 import { SearchResult } from '@/types/api';
 import { dhammatalksUrl } from '@/lib/sourceUrl';
 
@@ -29,7 +28,7 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
             <div
               key={verse.id}
               id={`verse-${verse.id.replace(/\s+/g, '-').toLowerCase()}`}
-              className={`p-4 rounded-lg transition-all duration-300 border ${
+              className={`scroll-mt-4 p-4 rounded-lg transition-all duration-300 border ${
                 activeRef === verse.id
                   ? 'bg-[#ede8df] border-[#c8b89a]'
                   : 'bg-white border-[#e8e4dc]'
