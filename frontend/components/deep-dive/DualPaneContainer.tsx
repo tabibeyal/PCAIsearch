@@ -23,7 +23,7 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
     setSourcesVisible(true); // always reopen sources when jumping to a citation
     const id = `verse-${ref.replace(/\s+/g, '-').toLowerCase()}`;
     setTimeout(() => {
-      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 50);
   };
 
@@ -46,7 +46,7 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
     if (!showSources || !activeRef) return;
     const id = `verse-${activeRef.replace(/\s+/g, '-').toLowerCase()}`;
     setTimeout(() => {
-      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 50);
   }, [showSources, activeRef]);
 
