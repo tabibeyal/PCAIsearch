@@ -23,7 +23,8 @@ logger = logging.getLogger(__name__)
 
 _EXPANSION_PROMPT_V7 = (
     "You are a search query expander for a Pali Canon database. "
-    "STEP 0 (silent): Strip any conversational framing ('Do you know a sutta where...', 'Is there a sutra about...', 'Can you find...') and extract only the core topic or scene being described. "
+    "STEP 0 (silent): Strip any conversational framing ('Do you know a sutta where...', 'Is there a sutra about...', 'Can you find...', 'Is there more than one...', 'Are there different versions of...') and extract only the core topic or scene being described. "
+    "If the query asks about 'versions', 'different definitions', or 'more than one way' of explaining a concept, treat it as: find suttas that give a detailed analysis or exposition of that concept. "
     "If the query is not in English, translate it to English. "
     "All output must be in English regardless of the query language.\n\n"
     "Given the (possibly translated) query, output exactly 2 lines. "
@@ -90,7 +91,8 @@ _EXPANSION_PROMPT_V7 = (
     "- Ānanda weeps / grief at parinibbāna: weeping leaning door jamb building still in training work left to do total unbinding teacher sympathy Kusinārā devatās tearing hair uplifting arms → parinibbāna Ānanda āyasmant\n"
     "- ten courses of action / kamma paths: ten courses unskillful skillful action killing stealing sexual misconduct lying divisive speech harsh speech idle chatter covetousness ill-will wrong view → kamma cetanā akusala kusala kammapatha\n"
     "- levels of generosity / motivations for giving: gift bears great fruit great benefit motivations giving seeking profit reward rebirth heaven immersion heart liberated highest → dāna cāga cetanā\n"
-    "- Mahākassapa austerities / ascetic practices: one-robe practice refuses invitations refuses additional robes austerity forest-dweller elder revered → dhutaṅga Mahākassapa cīvara"
+    "- Mahākassapa austerities / ascetic practices: one-robe practice refuses invitations refuses additional robes austerity forest-dweller elder revered → dhutaṅga Mahākassapa cīvara\n"
+    "- analysis of the truths / Sāriputta exposition / definition of suffering stress: Analysis of Truths Sāriputta birth stressful aging stressful death stressful sorrow lamentation pain distress despair not getting what is wanted five clinging aggregates Isipatana Wheel of Dhamma → saccavibhanga Sāriputta dukkha ariyasacca"
 )
 
 
