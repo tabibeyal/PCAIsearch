@@ -99,7 +99,7 @@ _EXPANSION_PROMPT_V7 = (
     "- ten courses of action / kamma paths: ten courses unskillful skillful action killing stealing sexual misconduct lying divisive speech harsh speech idle chatter covetousness ill-will wrong view → kamma cetanā akusala kusala kammapatha\n"
     "- levels of generosity / motivations for giving: gift bears great fruit great benefit motivations giving seeking profit reward rebirth heaven immersion heart liberated highest → dāna cāga cetanā\n"
     "- Mahākassapa austerities / ascetic practices: one-robe practice refuses invitations refuses additional robes austerity forest-dweller elder revered → dhutaṅga Mahākassapa cīvara\n"
-    "- analysis of the truths / Sāriputta exposition / definition of suffering stress: Analysis of Truths Sāriputta birth stressful aging stressful death stressful sorrow lamentation pain distress despair not getting what is wanted five clinging aggregates Isipatana Wheel of Dhamma → saccavibhanga Sāriputta dukkha ariyasacca"
+    "- analysis of the truths / Sāriputta exposition / definition of suffering stress / different versions of definition / more than one version / who defines the truths / teachers who explain suffering: Analysis of Truths Sāriputta birth stressful aging stressful death stressful sorrow lamentation pain distress despair not getting what is wanted five clinging aggregates Isipatana Wheel of Dhamma → saccavibhanga Sāriputta dukkha ariyasacca"
 )
 
 
