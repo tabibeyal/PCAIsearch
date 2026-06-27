@@ -305,7 +305,7 @@ class SearchPipeline:
         qdrant_url: str = os.environ.get("QDRANT_URL", "http://localhost:6333"),
         model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         llm_model: str = os.environ.get("LLM_MODEL", "meta/llama-3.3-70b-instruct"),
-        expansion_model: str = os.environ.get("EXPANSION_MODEL", "google/gemma-3n-e4b-it"),
+        expansion_model: str = os.environ.get("EXPANSION_MODEL", "meta/llama-3.1-8b-instruct"),
         sutta_relations: SuttaRelations | None = None,
         title_index: SuttaTitleIndex | None = None,
         bm25_retriever: BM25Retriever | None = None,
@@ -354,6 +354,7 @@ class SearchPipeline:
             message = await self.llm.chat.completions.create(
                 model=self.expansion_model,
                 max_tokens=256,
+                timeout=10.0,
                 messages=[
                     {"role": "system", "content": prompt},
                     {"role": "user", "content": query},
