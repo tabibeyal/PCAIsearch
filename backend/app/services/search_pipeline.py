@@ -23,7 +23,8 @@ logger = logging.getLogger(__name__)
 
 _EXPANSION_PROMPT_V7 = (
     "You are a search query expander for a Pali Canon database. "
-    "STEP 0 (silent): If the query is not in English, translate it to English first. "
+    "STEP 0 (silent): Strip any conversational framing ('Do you know a sutta where...', 'Is there a sutra about...', 'Can you find...') and extract only the core topic or scene being described. "
+    "If the query is not in English, translate it to English. "
     "All output must be in English regardless of the query language.\n\n"
     "Given the (possibly translated) query, output exactly 2 lines. "
     "Do NOT write 'Line 1:' or 'Line 2:' or any label — output only the 2 lines of search terms.\n\n"
@@ -85,7 +86,11 @@ _EXPANSION_PROMPT_V7 = (
     "- lotus pool simile / jhāna pervades without gap: pool blue water lilies pink white lotuses sprout grow rising above thriving underwater no part body → jhāna pīti sukha\n"
     "- island to yourself / be your own refuge: live as your own island refuge no other refuge teaching island Ānanda passed mendicant → attadīpa satipaṭṭhāna\n"
     "- city with six gates / sense bases and mindfulness: frontier citadel fortified ramparts six gates gatekeeper astute body four principal states consciousness lord of city → āyatana sati\n"
-    "- dyed water simile / five hindrances obscure the mind: bowl water mixed dye red lac turmeric boiling bubbling moss aquatic plants stirred wind reflection see clearly → nīvaraṇa"
+    "- dyed water simile / five hindrances obscure the mind: bowl water mixed dye red lac turmeric boiling bubbling moss aquatic plants stirred wind reflection see clearly → nīvaraṇa\n"
+    "- Ānanda weeps / grief at parinibbāna: weeping leaning door jamb building still in training work left to do total unbinding teacher sympathy Kusinārā devatās tearing hair uplifting arms → parinibbāna Ānanda āyasmant\n"
+    "- ten courses of action / kamma paths: ten courses unskillful skillful action killing stealing sexual misconduct lying divisive speech harsh speech idle chatter covetousness ill-will wrong view → kamma cetanā akusala kusala kammapatha\n"
+    "- levels of generosity / motivations for giving: gift bears great fruit great benefit motivations giving seeking profit reward rebirth heaven immersion heart liberated highest → dāna cāga cetanā\n"
+    "- Mahākassapa austerities / ascetic practices: one-robe practice refuses invitations refuses additional robes austerity forest-dweller elder revered → dhutaṅga Mahākassapa cīvara"
 )
 
 
