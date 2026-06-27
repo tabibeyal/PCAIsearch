@@ -42,7 +42,7 @@ docs/adr/          Architecture decision records
 tests/             pytest suites (backend)
 ```
 
-**Stack:** FastAPI · Qdrant Cloud · fastembed (ONNX Runtime) · BM25 sparse retrieval · cross-encoder/ms-marco-MiniLM-L-6-v2 · Gemma 3N for query expansion · Llama for synthesis (via NVIDIA API; model set via `LLM_MODEL` env var, defaults to `meta/llama-3.3-70b-instruct`) · Next.js · Tailwind CSS
+**Stack:** FastAPI · Qdrant Cloud · fastembed (ONNX Runtime) · BM25 sparse retrieval · cross-encoder/ms-marco-MiniLM-L-6-v2 · Llama 3.1 8B for query expansion and synthesis (via NVIDIA API; synthesis model set via `LLM_MODEL` env var, defaults to `meta/llama-3.3-70b-instruct`) · Next.js · Tailwind CSS
 
 ## Deployment
 

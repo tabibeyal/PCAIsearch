@@ -12,7 +12,7 @@ Backend deps declared inline in Dockerfile (lines 6–8). No requirements.txt or
 - **Retriever** — Qdrant vector retrieval; injectable seam (`retriever.py`)
 - **BM25Retriever** — sparse keyword retrieval fused with dense via RRF (`bm25_retriever.py`)
 - **Reranker** — cross-encoder reranking; `rerank_multi` scores against multiple queries and takes max (`search_pipeline.py`)
-- **ExpansionPrompt** — versioned LLM query expansion prompts, currently v6 (`search_pipeline.py`)
+- **ExpansionPrompt** — versioned LLM query expansion prompts, currently v7 (`search_pipeline.py`)
 - **pali_dictionary** — keyword-matched lookup returning Pāḷi terms + verbatim English passage hints for reranking (`pali_dictionary.py`)
 - **Guardrail** — post-generation citation verifier/redactor (`guardrail.py`)
 - **CitationOracle** — answers "does `[ID:Verse]` exist?" (`citation_oracle.py`)

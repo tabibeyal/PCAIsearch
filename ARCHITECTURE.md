@@ -17,7 +17,7 @@ User query
     ▼
 [Backend — FastAPI]
     │
-    ├─ expand_query()            ← Gemma 3n via NVIDIA API
+    ├─ expand_query()            ← Llama 3.1 8B via NVIDIA API
     │      ├─ LLM expansion (English vocab + Pāḷi terms)
     │      ├─ pali_dictionary lookup (Pāḷi terms)
     │      └─ pali_dictionary English hint
@@ -77,7 +77,7 @@ The RAG orchestrator. All retrieval and synthesis flows through this class.
 **Constructor dependencies (injectable):**
 - `qdrant_url` / `QDRANT_URL` env var
 - `llm_model` / `LLM_MODEL` env var — synthesis model (production: `meta/llama-3.1-8b-instruct`)
-- `expansion_model` / `EXPANSION_MODEL` env var — expansion model (default: `google/gemma-3n-e4b-it`)
+- `expansion_model` / `EXPANSION_MODEL` env var — expansion model (default: `meta/llama-3.1-8b-instruct`)
 - `sutta_relations` — `SuttaRelations` instance
 - `expansion_prompt` — `ExpansionPrompt` instance (default: v6)
 - `title_index` — `SuttaTitleIndex` instance
@@ -89,7 +89,7 @@ Both LLMs are accessed via the OpenAI-compatible NVIDIA Inference API (`https://
 
 Generates up to 5 query variants:
 1. The original query (always first)
-2–3. Two LLM-generated lines (English passage vocabulary + Pāḷi terms) from Gemma 3n
+2–3. Two LLM-generated lines (English passage vocabulary + Pāḷi terms) from Llama 3.1 8B
 4. Pāḷi term string from `pali_dictionary.lookup(query)` if matched
 5. English passage hint from `pali_dictionary.lookup_english(query)` if matched
 
@@ -193,7 +193,7 @@ This bridges vocabulary gaps for the cross-encoder, which is English-only and wo
 | DigitalOcean App Platform | Backend | `pcaisearch-jol64.ondigitalocean.app`; auto-deploys from `main` branch; `LLM_MODEL` env var set to `meta/llama-3.1-8b-instruct` |
 | Netlify | Frontend | `pcaisearch.netlify.app`; `NEXT_PUBLIC_API_URL` (for non-stream endpoints), `API_URL` (for SSE proxy) |
 | Qdrant Cloud | Vector DB | Free tier; 134,102 vectors, 384-dim, cosine; `pali_canon` collection; nikaya keyword payload index |
-| NVIDIA Inference API | LLM inference | Free tier; Gemma 3n for expansion, Llama 3.1 8B for synthesis |
+| NVIDIA Inference API | LLM inference | Free tier; Llama 3.1 8B for expansion, Llama 3.3 70B for synthesis |
 | Supabase | Feedback store | Free tier; stores user feedback (query, answer, rating, category, comment); RLS enabled, service_role key only; read via Supabase dashboard |
 
 ---
