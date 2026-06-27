@@ -55,6 +55,17 @@ _ENTRIES: list[DictionaryEntry] = [
         english_hint="noble truth stress suffering origination cessation path of practice craving clinging becoming birth aging death sorrow lamentation pain grief despair",
     ),
     DictionaryEntry(
+        label="Sāriputta's Analysis of the Truths / different versions of definition",
+        keywords=[
+            "more than one version", "different versions", "more than one definition",
+            "different definitions", "who else defines", "sāriputta defines", "sariputta defines",
+            "analysis of the truths", "saccavibhanga", "saccavibhaṅga",
+            "who defines the truths", "teachers who explain suffering", "teachers explain suffering",
+        ],
+        pali="saccavibhaṅga Sāriputta ariyasacca dukkha",
+        english_hint="birth is stressful aging is stressful death is stressful sorrow lamentation pain distress despair not getting what is wanted five clinging-aggregates stressful Sāriputta Analysis of Truths Isipatana Wheel of Dhamma",
+    ),
+    DictionaryEntry(
         label="Suffering / dukkha",
         keywords=["stress", "suffering", "unsatisfactoriness", "cause of suffering", "origin of suffering", "cause of stress", "dukkha"],
         pali="dukkha samudaya taṇhā upādāna bhava",

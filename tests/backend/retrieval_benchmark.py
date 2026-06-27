@@ -133,6 +133,12 @@ BENCHMARK_CASES = [
         "easy",
         "MN 26 — Ariyapariyesanā; SN 6.1 — Brahmā's request to teach",
     ),
+    (
+        "is there more than one version of the definition of suffering",
+        ["MN 141"],
+        "hard",
+        "MN 141 — Sāriputta's analysis drops 'association with unbeloved / separation from loved' vs Buddha's definition in SN 56.11 / DN 22",
+    ),
 ]
 
 
