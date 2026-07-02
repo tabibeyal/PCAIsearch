@@ -48,7 +48,7 @@ async function SearchPage({
                 scroll={false}
                 title="A synthesized answer grounded in retrieved passages, with inline citations"
               >
-                AI Answer
+                Synthesis
               </Link>
               <Link
                 href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`}
