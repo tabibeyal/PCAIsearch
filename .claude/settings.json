@@ -40,6 +40,16 @@
       "Edit(**/*.key)"
     ]
   },
+  "skillOverrides": {
+    "design-motion-principles": "off",
+    "diagnose": "off",
+    "dotfiles": "off",
+    "find-skills": "off",
+    "lean-claudemd": "off",
+    "llm-council": "off",
+    "mutmut-iterate": "off",
+    "tdd": "off"
+  },
   "hooks": {
     "PreToolUse": [
       {
@@ -99,6 +109,24 @@
             "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/session-start.sh",
             "timeout": 5000,
             "statusMessage": "Loading project context..."
+          },
+          {
+            "type": "command",
+            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/inject-context.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/update-memory.sh",
+            "timeout": 120,
+            "async": true
           }
         ]
       }

@@ -94,7 +94,7 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
           <SourceViewer
             context={data.context}
             activeRef={activeRef}
-            onClose={() => setSourcesVisible(false)}
+            onClose={handleDeepDiveToggle}
           />
         </div>
       )}
