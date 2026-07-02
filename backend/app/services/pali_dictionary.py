@@ -1314,6 +1314,20 @@ _ENTRIES: list[DictionaryEntry] = [
         pali="bhikkhu bhikkhunī pabbajita sāmaṇera brahmacariya sīla sikkhā",
         english_hint="a monk a mendicant bhikkhu one gone forth from the home life into homelessness training in the higher virtue higher mind higher wisdom practicing the holy life living the celibate life bound for liberation nibbana",
     ),
+    DictionaryEntry(
+        label="Metaphors / similes for mindfulness (gatekeeper of the fortress)",
+        keywords=[
+            "metaphors for mindfulness", "metaphor for mindfulness",
+            "similes for mindfulness", "simile for mindfulness",
+            "images for mindfulness", "image for mindfulness",
+            "mindfulness metaphor", "mindfulness metaphors",
+            "mindfulness simile", "mindfulness similes",
+            "mindfulness as a gatekeeper", "mindfulness as gatekeeper",
+            "gatekeeper mindfulness", "gatekeeper simile",
+        ],
+        pali="nagarūpama dovārika sati satimā paccantimaṃ nagaraṃ",
+        english_hint="Just as the royal frontier fortress has a gatekeeper wise competent intelligent to keep out those he does not know and to let in those he does a disciple of the noble ones is mindful endowed with excellent proficiency in mindfulness remembering and able to call to mind even things that were done and said long ago with mindfulness as his gatekeeper the disciple of the noble ones abandons what is unskillful develops what is skillful",
+    ),
 ]
 
 

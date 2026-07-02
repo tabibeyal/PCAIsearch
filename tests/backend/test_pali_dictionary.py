@@ -365,3 +365,16 @@ def test_lookup_monk():
     result = lookup("monk")
     assert result is not None
     assert "bhikkhu" in result
+
+
+def test_lookup_metaphors_for_mindfulness():
+    result = lookup("What are the metaphors for mindfulness in the canon")
+    assert result is not None
+    assert "dovārika" in result
+
+
+def test_lookup_english_metaphors_for_mindfulness_surfaces_gatekeeper():
+    # verbatim AN 7.63:23 hint so retrieval reaches the gatekeeper simile
+    result = lookup_english("What are the metaphors for mindfulness in the canon")
+    assert result is not None
+    assert "mindfulness as his gatekeeper" in result
