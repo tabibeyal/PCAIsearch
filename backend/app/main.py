@@ -28,6 +28,7 @@ from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.passage_context import PassageStore
+from backend.app.services.supabase_client import SupabaseRestClient
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
 limiter = Limiter(key_func=get_remote_address)
@@ -103,26 +104,12 @@ async def _insert_feedback_supabase(
     query: str, answer: str, rating: str, category: str | None, comment: str | None
 ) -> None:
     # NOTE: created_at is filled by the DB default (now()), so it is omitted here.
-    headers = {
-        "apikey": _SUPABASE_KEY,
-        "Authorization": f"Bearer {_SUPABASE_KEY}",
-        "Content-Type": "application/json",
-        "Prefer": "return=minimal",
-    }
-    payload = json.dumps({"query": query, "answer": answer, "rating": rating, "category": category, "comment": comment}).encode()
-    req = urllib.request.Request(
-        f"{_SUPABASE_URL}/rest/v1/feedback",
-        data=payload,
-        headers=headers,
-        method="POST",
-    )
-
-    def _post():
-        return urllib.request.urlopen(req)
+    client = SupabaseRestClient(_SUPABASE_URL, _SUPABASE_KEY)
+    payload = {"query": query, "answer": answer, "rating": rating, "category": category, "comment": comment}
 
     loop = asyncio.get_event_loop()
     try:
-        await loop.run_in_executor(None, _post)
+        await loop.run_in_executor(None, client.post, "feedback", payload)
     except urllib.error.HTTPError as exc:
         logger.error(
             "Supabase feedback insert failed: %s — response body: %s",
