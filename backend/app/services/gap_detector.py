@@ -39,6 +39,14 @@ class IssueTracker(Protocol):
         """Files a new issue and returns its URL."""
         ...
 
+    def find_open_issue(self, query: str) -> str | None:
+        """Returns the URL of an open gap-detector issue already filed for this
+        query text, or None if none exists."""
+        ...
+
+    def comment(self, issue_url: str, body: str) -> None:
+        ...
+
 
 class GapDetector:
     """Scans down-voted feedback for likely retrieval gaps and files GitHub issues
@@ -66,10 +74,15 @@ class GapDetector:
         for candidate in self._qualifying_candidates():
             if len(filed) >= self._max_issues_per_run:
                 break
-            retrieved = await self._pipeline.search(candidate.query, top_k=self._candidate_top_k)
-            issue_url = self._issue_tracker.create_issue(
-                _issue_title(candidate.query), _issue_body(candidate, retrieved)
-            )
+            existing_url = self._issue_tracker.find_open_issue(candidate.query)
+            if existing_url:
+                self._issue_tracker.comment(existing_url, _followup_comment(candidate))
+                issue_url = existing_url
+            else:
+                retrieved = await self._pipeline.search(candidate.query, top_k=self._candidate_top_k)
+                issue_url = self._issue_tracker.create_issue(
+                    _issue_title(candidate.query), _issue_body(candidate, retrieved)
+                )
             self._feedback_store.mark_handled(candidate.id, issue_url)
             filed.append(issue_url)
         return filed
@@ -81,6 +94,15 @@ class GapDetector:
 def _issue_title(query: str) -> str:
     truncated = query if len(query) <= 80 else query[:77] + "..."
     return f"Possible retrieval gap: {truncated}"
+
+
+def _followup_comment(candidate: FeedbackCandidate) -> str:
+    return (
+        "Down-voted again for the same query.\n\n"
+        f"- **Category:** {candidate.category}\n"
+        f"- **Comment:** {candidate.comment or '(none)'}\n\n"
+        "_Filed automatically by the Gap Detector — see ADR-0004 and CONTEXT.md § Gap detection._"
+    )
 
 
 def _issue_body(candidate: FeedbackCandidate, retrieved: list[dict[str, Any]]) -> str:

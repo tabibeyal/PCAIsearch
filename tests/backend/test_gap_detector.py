@@ -25,8 +25,10 @@ class FakePipeline:
 
 
 class FakeIssueTracker:
-    def __init__(self) -> None:
+    def __init__(self, open_issue_url: str | None = None) -> None:
         self.created: list[tuple] = []
+        self.comments: list[tuple] = []
+        self._open_issue_url = open_issue_url
         self._next_id = 1
 
     def create_issue(self, title: str, body: str) -> str:
@@ -34,6 +36,12 @@ class FakeIssueTracker:
         url = f"https://github.com/tabibeyal/PCAIsearch/issues/{self._next_id}"
         self._next_id += 1
         return url
+
+    def find_open_issue(self, query: str) -> str | None:
+        return self._open_issue_url
+
+    def comment(self, issue_url: str, body: str) -> None:
+        self.comments.append((issue_url, body))
 
 
 def _candidate(**overrides) -> FeedbackCandidate:
@@ -124,3 +132,70 @@ async def test_run_returns_no_issues_when_no_candidates_qualify():
     filed = await detector.run()
 
     assert filed == []
+
+
+@pytest.mark.asyncio
+async def test_candidate_with_existing_open_issue_gets_commented_not_duplicated():
+    store = FakeFeedbackStore([_candidate()])
+    existing_url = "https://github.com/tabibeyal/PCAIsearch/issues/9"
+    tracker = FakeIssueTracker(open_issue_url=existing_url)
+    detector = GapDetector(store, FakePipeline([]), tracker)
+
+    filed = await detector.run()
+
+    assert tracker.created == []
+    assert filed == [existing_url]
+
+
+@pytest.mark.asyncio
+async def test_candidate_with_existing_open_issue_posts_a_comment():
+    store = FakeFeedbackStore([_candidate(category="Missing important nuance", comment="still wrong")])
+    existing_url = "https://github.com/tabibeyal/PCAIsearch/issues/9"
+    tracker = FakeIssueTracker(open_issue_url=existing_url)
+    detector = GapDetector(store, FakePipeline([]), tracker)
+
+    await detector.run()
+
+    assert len(tracker.comments) == 1
+    commented_url, body = tracker.comments[0]
+    assert commented_url == existing_url
+    assert "still wrong" in body
+
+
+@pytest.mark.asyncio
+async def test_candidate_with_existing_open_issue_marks_feedback_handled_with_existing_url():
+    store = FakeFeedbackStore([_candidate(id=42)])
+    existing_url = "https://github.com/tabibeyal/PCAIsearch/issues/9"
+    tracker = FakeIssueTracker(open_issue_url=existing_url)
+    detector = GapDetector(store, FakePipeline([]), tracker)
+
+    await detector.run()
+
+    assert store.handled == [(42, existing_url)]
+
+
+@pytest.mark.asyncio
+async def test_candidate_with_existing_open_issue_skips_the_live_pipeline_call():
+    store = FakeFeedbackStore([_candidate()])
+    pipeline = FakePipeline([])
+    tracker = FakeIssueTracker(open_issue_url="https://github.com/tabibeyal/PCAIsearch/issues/9")
+    detector = GapDetector(store, pipeline, tracker)
+
+    await detector.run()
+
+    assert pipeline.queries == []
+
+
+@pytest.mark.asyncio
+async def test_two_distinct_queries_with_no_existing_issue_both_get_filed():
+    store = FakeFeedbackStore([
+        _candidate(id=1, query="what is dukkha?"),
+        _candidate(id=2, query="what is anatta?"),
+    ])
+    tracker = FakeIssueTracker(open_issue_url=None)
+    detector = GapDetector(store, FakePipeline([]), tracker)
+
+    filed = await detector.run()
+
+    assert len(tracker.created) == 2
+    assert len(filed) == 2
