@@ -27,3 +27,17 @@ Access pipeline internals via `pipeline.retriever.client` / `pipeline.retriever.
 
 ## Known gap
 `_SYSTEM_PROMPT` in `search_pipeline.py` is a module-level constant — untestable in isolation. Extract a `PromptBuilder` only if prompt variants need testing.
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked in GitHub Issues (tabibeyal/PCAIsearch) via the `gh` CLI. External PRs are not treated as a triage surface. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default label vocabulary (needs-triage, needs-info, ready-for-agent, ready-for-human, wontfix). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one `CONTEXT.md` at the repo root; `docs/adr/` not yet started. See `docs/agents/domain.md`.
