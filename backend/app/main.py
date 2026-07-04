@@ -7,6 +7,7 @@ import sqlite3
 import time
 import urllib.error
 import urllib.request
+import uuid
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,6 +30,7 @@ from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.passage_context import PassageStore
 from backend.app.services.supabase_client import SupabaseRestClient
+from backend.app.services.share_receipt import generate_receipt, sanitize_context, verify_receipt
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
 limiter = Limiter(key_func=get_remote_address)
@@ -40,6 +42,7 @@ _FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
 _raw_supabase_url = os.environ.get("SUPABASE_URL") or ""
 _SUPABASE_URL = _raw_supabase_url.split("/rest/")[0].rstrip("/") or None
 _SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
+_SHARE_RECEIPT_SECRET = os.environ.get("SHARE_RECEIPT_SECRET", "")
 
 
 class FeedbackBody(BaseModel):
@@ -54,6 +57,13 @@ class FeedbackBody(BaseModel):
         "Too vague",
     ] | None = None
     comment: str | None = Field(default=None, max_length=2000)
+
+
+class ShareBody(BaseModel):
+    query: str = Field(max_length=600)
+    answer: str = Field(max_length=20000)
+    context: list[dict]
+    receipt: str
 
 
 class ContactBody(BaseModel):
@@ -122,10 +132,85 @@ async def _insert_feedback_supabase(
         raise
 
 
+def _init_share_db() -> None:
+    con = sqlite3.connect(_FEEDBACK_DB)
+    try:
+        con.execute("""
+            CREATE TABLE IF NOT EXISTS shared_answers (
+                id         TEXT PRIMARY KEY,
+                query      TEXT NOT NULL,
+                answer     TEXT NOT NULL,
+                context    TEXT NOT NULL,
+                created_at TEXT NOT NULL
+            )
+        """)
+        con.commit()
+    finally:
+        con.close()
+
+
+def _insert_share(share_id: str, query: str, answer: str, context: list[dict]) -> None:
+    con = sqlite3.connect(_FEEDBACK_DB)
+    try:
+        con.execute(
+            "INSERT INTO shared_answers (id, query, answer, context, created_at) VALUES (?, ?, ?, ?, ?)",
+            (share_id, query, answer, json.dumps(context), datetime.now(timezone.utc).isoformat()),
+        )
+        con.commit()
+    finally:
+        con.close()
+
+
+def _get_share(share_id: str) -> dict | None:
+    con = sqlite3.connect(_FEEDBACK_DB)
+    try:
+        row = con.execute(
+            "SELECT query, answer, context FROM shared_answers WHERE id = ?", (share_id,)
+        ).fetchone()
+    finally:
+        con.close()
+    if row is None:
+        return None
+    query, answer, context_json = row
+    return {"query": query, "answer": answer, "context": json.loads(context_json)}
+
+
+async def _insert_share_supabase(share_id: str, query: str, answer: str, context: list[dict]) -> None:
+    client = SupabaseRestClient(_SUPABASE_URL, _SUPABASE_KEY)
+    payload = {"id": share_id, "query": query, "answer": answer, "context": context}
+
+    loop = asyncio.get_event_loop()
+    try:
+        await loop.run_in_executor(None, client.post, "shared_answers", payload)
+    except urllib.error.HTTPError as exc:
+        logger.error(
+            "Supabase share insert failed: %s — response body: %s",
+            exc,
+            exc.read().decode(errors="replace"),
+        )
+        raise
+    except urllib.error.URLError as exc:
+        logger.error("Supabase share insert failed (network): %s", exc)
+        raise
+
+
+async def _get_share_supabase(share_id: str) -> dict | None:
+    client = SupabaseRestClient(_SUPABASE_URL, _SUPABASE_KEY)
+    loop = asyncio.get_event_loop()
+    rows = await loop.run_in_executor(
+        None, client.get, "shared_answers", f"id=eq.{share_id}&select=query,answer,context"
+    )
+    if not rows:
+        return None
+    row = rows[0]
+    return {"query": row["query"], "answer": row["answer"], "context": row["context"]}
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     if not (_SUPABASE_URL and _SUPABASE_KEY):
         _init_feedback_db()
+        _init_share_db()
     oracle = CitationOracle(_DUMPS_DIR)
     relations = SuttaRelations(oracle.known_suttas)
     title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
@@ -181,6 +266,32 @@ async def post_feedback(request: Request, body: FeedbackBody):
     return {"ok": True}
 
 
+@app.post("/share")
+async def post_share(body: ShareBody):
+    if not verify_receipt(body.query, body.answer, body.context, body.receipt, _SHARE_RECEIPT_SECRET):
+        raise HTTPException(status_code=400, detail="Invalid receipt")
+    context = sanitize_context(body.context)
+    share_id = uuid.uuid4().hex
+    if _SUPABASE_URL and _SUPABASE_KEY:
+        await _insert_share_supabase(share_id, body.query, body.answer, context)
+    else:
+        loop = asyncio.get_event_loop()
+        await loop.run_in_executor(None, _insert_share, share_id, body.query, body.answer, context)
+    return {"id": share_id}
+
+
+@app.get("/share/{share_id}")
+async def get_share(share_id: str):
+    if _SUPABASE_URL and _SUPABASE_KEY:
+        result = await _get_share_supabase(share_id)
+    else:
+        loop = asyncio.get_event_loop()
+        result = await loop.run_in_executor(None, _get_share, share_id)
+    if result is None:
+        raise HTTPException(status_code=404, detail="Not found")
+    return result
+
+
 @app.post("/contact")
 @limiter.limit("5/hour")
 async def contact(request: Request, body: ContactBody):
@@ -232,6 +343,18 @@ def _attach_passages(context: list[dict], store: PassageStore) -> list[dict]:
     return context
 
 
+def _attach_titles(context: list[dict], title_index: SuttaTitleIndex) -> list[dict]:
+    """Add a display-only `title` field (canonical sutta title) used by the
+    copy-to-clipboard feature to expand citations to `[ID:Verse — Title]`."""
+    for chunk in context:
+        chunk_id = chunk.get("id", "")
+        sutta_key = chunk_id.rsplit(":", 1)[0].replace(" ", "")
+        title = title_index.get_title_text(sutta_key)
+        if title:
+            chunk["title"] = title
+    return context
+
+
 @app.get("/synthesize")
 @limiter.limit("10/minute")
 async def synthesize(
@@ -248,13 +371,18 @@ async def synthesize(
     # 3. Verify citations using the guardrail
     verification = request.app.state.guardrail.process_response(answer, context)
 
+    context = _attach_passages(context, request.app.state.passages)
+    context = _attach_titles(context, request.app.state.pipeline.title_index)
+    receipt = generate_receipt(q, verification["text"], context, _SHARE_RECEIPT_SECRET)
+
     return {
         "query": q,
         "answer": verification["text"],
         "hallucinations": verification["hallucinations"],
         "canonical_misses": verification["canonical_misses"],
         "is_faithful": verification["is_faithful"],
-        "context": _attach_passages(context, request.app.state.passages),
+        "context": context,
+        "receipt": receipt,
     }
 
 @app.get("/stream")
@@ -276,6 +404,7 @@ async def stream(
             logger.info("stream/search: %.2fs", t1 - t0)
             context = [c for c in context if len(c.get("english", "").strip().split()) >= 4]
             _attach_passages(context, request.app.state.passages)
+            _attach_titles(context, request.app.state.pipeline.title_index)
             yield f"data: {json.dumps({'type': 'status', 'text': 'Composing answer…'})}\n\n"
             async for event in request.app.state.pipeline.stream_synthesize(q, context):
                 if event["type"] == "chunk":
@@ -284,7 +413,8 @@ async def stream(
                     logger.info("stream/synthesize: %.2fs", time.perf_counter() - t1)
                     yield f"data: {json.dumps({'type': 'status', 'text': 'Verifying sources…'})}\n\n"
                     verification = request.app.state.guardrail.process_response(event["text"], context)
-                    yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'canonical_misses': verification['canonical_misses'], 'is_faithful': verification['is_faithful'], 'context': context})}\n\n"
+                    receipt = generate_receipt(q, verification["text"], context, _SHARE_RECEIPT_SECRET)
+                    yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'canonical_misses': verification['canonical_misses'], 'is_faithful': verification['is_faithful'], 'context': context, 'receipt': receipt})}\n\n"
         except Exception as exc:
             logger.error("stream error: %s", exc, exc_info=True)
             yield f"data: {json.dumps({'type': 'error', 'message': 'Search failed, please try again.'})}\n\n"

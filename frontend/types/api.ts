@@ -10,6 +10,7 @@ export interface SearchResult {
   english: string;
   score: number;
   passage?: PassageLine[];
+  title?: string;
 }
 
 export interface SynthesisResponse {
@@ -17,6 +18,7 @@ export interface SynthesisResponse {
   answer: string;
   is_faithful: boolean;
   context: SearchResult[];
+  receipt: string;
 }
 
 export interface SearchResponse {

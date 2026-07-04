@@ -1,4 +1,4 @@
-import { SearchResponse, SynthesisResponse } from '@/types/api';
+import { SearchResponse, SearchResult, SynthesisResponse } from '@/types/api';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL ??
   (typeof window === 'undefined' ? (process.env.API_URL ?? 'http://localhost:8000') : '/api');
@@ -92,4 +92,29 @@ export async function submitContact(payload: {
     body: JSON.stringify(payload),
   });
   if (!res.ok) throw apiError('Contact submission failed', res.status);
+}
+
+export async function shareAnswer(payload: {
+  query: string;
+  answer: string;
+  context: SearchResult[];
+  receipt: string;
+}): Promise<{ id: string }> {
+  const res = await fetch(`${API_BASE}/share`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) throw apiError('Share failed', res.status);
+  return res.json();
+}
+
+export async function getSharedAnswer(id: string): Promise<{
+  query: string;
+  answer: string;
+  context: SearchResult[];
+}> {
+  const res = await fetch(`${API_BASE}/share/${id}`);
+  if (!res.ok) throw apiError('Shared answer not found', res.status);
+  return res.json();
 }
