@@ -1,0 +1,48 @@
+name: Gap Detector
+
+on:
+  schedule:
+    # 3am Asia/Jerusalem (UTC+3 in summer)
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: gap-detector-pip-${{ hashFiles('.github/workflows/gap-detector.yml') }}
+
+      - name: Install dependencies
+        run: |
+          pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+          pip install --no-cache-dir \
+            qdrant-client==1.17.1 \
+            sentence-transformers==5.4.1 \
+            fastembed==0.8.0 \
+            rank-bm25==0.2.2 \
+            openai==2.33.0
+
+      - name: Run Gap Detector
+        env:
+          PYTHONPATH: .
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          QDRANT_URL: ${{ secrets.QDRANT_URL }}
+          QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/run_gap_detector.py
