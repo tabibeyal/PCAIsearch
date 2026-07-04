@@ -5,6 +5,7 @@ Real components: embedding model, cross-encoder reranker, in-memory Qdrant, Cita
 Mocked: LLM (expand_query + synthesize) — tested in isolation elsewhere.
 """
 import asyncio
+import json
 import re
 import pytest
 from unittest.mock import AsyncMock, MagicMock, patch
@@ -13,6 +14,7 @@ from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models as qmodels
 
 from backend.app.services.guardrail import CitationGuardrail
+from backend.app.services.sutta_title_index import SuttaTitleIndex
 
 # ---------------------------------------------------------------------------
 # Corpus — distinct enough that the reranker reliably distinguishes them
@@ -54,6 +56,9 @@ def live_pipeline():
 
     asyncio.run(_setup())
     p.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
+    p.title_index = SuttaTitleIndex([
+        {"sutta_id": "MN10", "title_pali": "Satipaṭṭhānasutta", "title_english": "Mindfulness Meditation"},
+    ])
     yield p
     mp.undo()
 
@@ -63,6 +68,16 @@ def _mock_synthesis(pipeline, text: str) -> None:
     resp.choices = [MagicMock()]
     resp.choices[0].message.content = text
     pipeline.llm.chat.completions.create = AsyncMock(return_value=resp)
+
+
+def _mock_stream_synthesis(pipeline, text: str) -> None:
+    async def _stream():
+        chunk = MagicMock()
+        chunk.choices = [MagicMock()]
+        chunk.choices[0].delta.content = text
+        yield chunk
+
+    pipeline.llm.chat.completions.create = AsyncMock(return_value=_stream())
 
 
 # ---------------------------------------------------------------------------
@@ -166,6 +181,49 @@ def test_e2e_api_synthesize_faithful_answer(api_client, live_pipeline):
     assert "[MN 10:1]" in body["answer"]
     assert body["hallucinations"] == []
     assert len(body["context"]) > 0
+
+
+def test_e2e_api_synthesize_context_includes_sutta_title(api_client, live_pipeline):
+    _mock_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
+    response = api_client.get("/synthesize?q=mindfulness")
+    body = response.json()
+    context_by_id = {c["id"]: c for c in body["context"]}
+    assert context_by_id["MN 10:1"]["title"] == "Satipaṭṭhānasutta Mindfulness Meditation"
+
+
+def test_e2e_api_synthesize_includes_verifiable_receipt(api_client, live_pipeline, monkeypatch):
+    import backend.app.main as m
+    from backend.app.services.share_receipt import verify_receipt
+
+    monkeypatch.setattr(m, "_SHARE_RECEIPT_SECRET", "fake-signing-value-for-tests")
+    _mock_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
+    response = api_client.get("/synthesize?q=mindfulness")
+    body = response.json()
+    assert verify_receipt(
+        body["query"], body["answer"], body["context"], body["receipt"], "fake-signing-value-for-tests"
+    )
+
+
+def test_e2e_api_stream_includes_verifiable_receipt(api_client, live_pipeline, monkeypatch):
+    import backend.app.main as m
+    from backend.app.services.share_receipt import verify_receipt
+
+    monkeypatch.setattr(m, "_SHARE_RECEIPT_SECRET", "fake-signing-value-for-tests")
+    _mock_stream_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
+    response = api_client.get("/stream?q=mindfulness")
+    events = [
+        json.loads(line[len("data: "):])
+        for line in response.text.splitlines()
+        if line.startswith("data: ")
+    ]
+    done_event = next(e for e in events if e["type"] == "done")
+    assert verify_receipt(
+        done_event["query"],
+        done_event["answer"],
+        done_event["context"],
+        done_event["receipt"],
+        "fake-signing-value-for-tests",
+    )
 
 
 def test_e2e_api_synthesize_hallucination_flagged(api_client, live_pipeline):
