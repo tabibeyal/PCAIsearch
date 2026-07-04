@@ -3,13 +3,9 @@ import json
 import logging
 import os
 import re
-import sqlite3
 import time
-import urllib.error
-import urllib.request
 import uuid
 from contextlib import asynccontextmanager
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Literal
 
@@ -30,6 +26,8 @@ from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.passage_context import PassageStore
 from backend.app.services.supabase_client import SupabaseRestClient
+from backend.app.services.feedback_store import SQLiteFeedbackStore, SupabaseFeedbackStore
+from backend.app.services.share_store import SQLiteShareStore, SupabaseShareStore
 from backend.app.services.share_receipt import generate_receipt, sanitize_context, verify_receipt
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
@@ -79,138 +77,15 @@ class ContactBody(BaseModel):
         return v
 
 
-def _init_feedback_db() -> None:
-    con = sqlite3.connect(_FEEDBACK_DB)
-    try:
-        con.execute("""
-            CREATE TABLE IF NOT EXISTS feedback (
-                id         INTEGER PRIMARY KEY AUTOINCREMENT,
-                query      TEXT NOT NULL,
-                answer     TEXT NOT NULL,
-                rating     TEXT NOT NULL,
-                category   TEXT,
-                comment    TEXT,
-                created_at TEXT NOT NULL
-            )
-        """)
-        con.commit()
-    finally:
-        con.close()
-
-
-def _insert_feedback(query: str, answer: str, rating: str, category: str | None, comment: str | None) -> None:
-    con = sqlite3.connect(_FEEDBACK_DB)
-    try:
-        con.execute(
-            "INSERT INTO feedback (query, answer, rating, category, comment, created_at) VALUES (?, ?, ?, ?, ?, ?)",
-            (query, answer, rating, category, comment, datetime.now(timezone.utc).isoformat()),
-        )
-        con.commit()
-    finally:
-        con.close()
-
-
-async def _insert_feedback_supabase(
-    query: str, answer: str, rating: str, category: str | None, comment: str | None
-) -> None:
-    # NOTE: created_at is filled by the DB default (now()), so it is omitted here.
-    client = SupabaseRestClient(_SUPABASE_URL, _SUPABASE_KEY)
-    payload = {"query": query, "answer": answer, "rating": rating, "category": category, "comment": comment}
-
-    loop = asyncio.get_event_loop()
-    try:
-        await loop.run_in_executor(None, client.post, "feedback", payload)
-    except urllib.error.HTTPError as exc:
-        logger.error(
-            "Supabase feedback insert failed: %s — response body: %s",
-            exc,
-            exc.read().decode(errors="replace"),
-        )
-        raise
-    except urllib.error.URLError as exc:
-        logger.error("Supabase feedback insert failed (network): %s", exc)
-        raise
-
-
-def _init_share_db() -> None:
-    con = sqlite3.connect(_FEEDBACK_DB)
-    try:
-        con.execute("""
-            CREATE TABLE IF NOT EXISTS shared_answers (
-                id         TEXT PRIMARY KEY,
-                query      TEXT NOT NULL,
-                answer     TEXT NOT NULL,
-                context    TEXT NOT NULL,
-                created_at TEXT NOT NULL
-            )
-        """)
-        con.commit()
-    finally:
-        con.close()
-
-
-def _insert_share(share_id: str, query: str, answer: str, context: list[dict]) -> None:
-    con = sqlite3.connect(_FEEDBACK_DB)
-    try:
-        con.execute(
-            "INSERT INTO shared_answers (id, query, answer, context, created_at) VALUES (?, ?, ?, ?, ?)",
-            (share_id, query, answer, json.dumps(context), datetime.now(timezone.utc).isoformat()),
-        )
-        con.commit()
-    finally:
-        con.close()
-
-
-def _get_share(share_id: str) -> dict | None:
-    con = sqlite3.connect(_FEEDBACK_DB)
-    try:
-        row = con.execute(
-            "SELECT query, answer, context FROM shared_answers WHERE id = ?", (share_id,)
-        ).fetchone()
-    finally:
-        con.close()
-    if row is None:
-        return None
-    query, answer, context_json = row
-    return {"query": query, "answer": answer, "context": json.loads(context_json)}
-
-
-async def _insert_share_supabase(share_id: str, query: str, answer: str, context: list[dict]) -> None:
-    client = SupabaseRestClient(_SUPABASE_URL, _SUPABASE_KEY)
-    payload = {"id": share_id, "query": query, "answer": answer, "context": context}
-
-    loop = asyncio.get_event_loop()
-    try:
-        await loop.run_in_executor(None, client.post, "shared_answers", payload)
-    except urllib.error.HTTPError as exc:
-        logger.error(
-            "Supabase share insert failed: %s — response body: %s",
-            exc,
-            exc.read().decode(errors="replace"),
-        )
-        raise
-    except urllib.error.URLError as exc:
-        logger.error("Supabase share insert failed (network): %s", exc)
-        raise
-
-
-async def _get_share_supabase(share_id: str) -> dict | None:
-    client = SupabaseRestClient(_SUPABASE_URL, _SUPABASE_KEY)
-    loop = asyncio.get_event_loop()
-    rows = await loop.run_in_executor(
-        None, client.get, "shared_answers", f"id=eq.{share_id}&select=query,answer,context"
-    )
-    if not rows:
-        return None
-    row = rows[0]
-    return {"query": row["query"], "answer": row["answer"], "context": row["context"]}
-
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    if not (_SUPABASE_URL and _SUPABASE_KEY):
-        _init_feedback_db()
-        _init_share_db()
+    if _SUPABASE_URL and _SUPABASE_KEY:
+        supabase_client = SupabaseRestClient(_SUPABASE_URL, _SUPABASE_KEY)
+        feedback_store = SupabaseFeedbackStore(supabase_client)
+        share_store = SupabaseShareStore(supabase_client)
+    else:
+        feedback_store = SQLiteFeedbackStore(_FEEDBACK_DB)
+        share_store = SQLiteShareStore(_FEEDBACK_DB)
     oracle = CitationOracle(_DUMPS_DIR)
     relations = SuttaRelations(oracle.known_suttas)
     title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
@@ -233,6 +108,8 @@ async def lifespan(app: FastAPI):
     app.state.pipeline = pipeline
     app.state.guardrail = CitationGuardrail(oracle=oracle)
     app.state.passages = PassageStore.from_directory(_DUMPS_DIR)
+    app.state.feedback_store = feedback_store
+    app.state.share_store = share_store
     await pipeline.warmup()
     logger.info("models warmed up")
     yield
@@ -258,35 +135,32 @@ async def health():
 @app.post("/feedback")
 @limiter.limit("20/minute")
 async def post_feedback(request: Request, body: FeedbackBody):
-    if _SUPABASE_URL and _SUPABASE_KEY:
-        await _insert_feedback_supabase(body.query, body.answer, body.rating, body.category, body.comment)
-    else:
-        loop = asyncio.get_event_loop()
-        await loop.run_in_executor(None, _insert_feedback, body.query, body.answer, body.rating, body.category, body.comment)
+    loop = asyncio.get_event_loop()
+    await loop.run_in_executor(
+        None,
+        request.app.state.feedback_store.insert,
+        body.query, body.answer, body.rating, body.category, body.comment,
+    )
     return {"ok": True}
 
 
 @app.post("/share")
-async def post_share(body: ShareBody):
+async def post_share(request: Request, body: ShareBody):
     if not verify_receipt(body.query, body.answer, body.context, body.receipt, _SHARE_RECEIPT_SECRET):
         raise HTTPException(status_code=400, detail="Invalid receipt")
     context = sanitize_context(body.context)
     share_id = uuid.uuid4().hex
-    if _SUPABASE_URL and _SUPABASE_KEY:
-        await _insert_share_supabase(share_id, body.query, body.answer, context)
-    else:
-        loop = asyncio.get_event_loop()
-        await loop.run_in_executor(None, _insert_share, share_id, body.query, body.answer, context)
+    loop = asyncio.get_event_loop()
+    await loop.run_in_executor(
+        None, request.app.state.share_store.save, share_id, body.query, body.answer, context
+    )
     return {"id": share_id}
 
 
 @app.get("/share/{share_id}")
-async def get_share(share_id: str):
-    if _SUPABASE_URL and _SUPABASE_KEY:
-        result = await _get_share_supabase(share_id)
-    else:
-        loop = asyncio.get_event_loop()
-        result = await loop.run_in_executor(None, _get_share, share_id)
+async def get_share(request: Request, share_id: str):
+    loop = asyncio.get_event_loop()
+    result = await loop.run_in_executor(None, request.app.state.share_store.fetch, share_id)
     if result is None:
         raise HTTPException(status_code=404, detail="Not found")
     return result
