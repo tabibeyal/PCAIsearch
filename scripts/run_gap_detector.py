@@ -17,7 +17,7 @@ from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.supabase_client import SupabaseRestClient
-from backend.app.services.feedback_gap_store import SupabaseFeedbackStore
+from backend.app.services.feedback_store import SupabaseFeedbackStore
 from backend.app.services.github_issue_tracker import GhIssueTracker
 from backend.app.services.gap_detector import GapDetector
 
