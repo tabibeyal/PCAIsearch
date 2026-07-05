@@ -39,7 +39,7 @@ def test_search_empty_string_rejected(client):
 
 
 def test_synthesize_returns_structured_response(client):
-    mock_results = [{"id": "MN 10:1", "pali": "...", "english": "Mindfulness", "score": 0.95}]
+    mock_results = [{"id": "MN 10:1", "pali": "...", "english": "Mindfulness of breathing brings calm awareness", "score": 0.95}]
     mock_answer = "The teaching on mindfulness is found in [MN 10:1]."
 
     with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)), \
@@ -58,7 +58,7 @@ def test_synthesize_returns_structured_response(client):
 
 
 def test_synthesize_guardrail_flags_hallucinations(client):
-    mock_results = [{"id": "MN 10:1", "pali": "...", "english": "Mindfulness", "score": 0.95}]
+    mock_results = [{"id": "MN 10:1", "pali": "...", "english": "Mindfulness of breathing brings calm awareness", "score": 0.95}]
     # LLM cites DN 999:1 — a sutta that doesn't exist in the canon at all.
     mock_answer = "See [MN 10:1] and [DN 999:1] for details."
 

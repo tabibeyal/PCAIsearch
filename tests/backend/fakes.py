@@ -1,6 +1,8 @@
 from datetime import datetime, timezone
 from typing import Any
 
+from backend.app.services.search_pipeline import SearchPipeline
+
 
 class FakeSupabaseRestClient:
     """Behaves like the real Supabase PostgREST API against an in-memory
@@ -62,3 +64,32 @@ def _matches(row: dict[str, Any], conditions: list[tuple[str, str | None]]) -> b
         elif str(row.get(field)) != expected:
             return False
     return True
+
+
+class FakePipeline:
+    """Stands in for SearchPipeline's network boundary (Qdrant + LLM) in
+    AnswerComposer tests. prepare_context is the real, pure SearchPipeline
+    logic reused as-is — faking it would mean the kept-context invariant is
+    never really exercised."""
+
+    prepare_context = staticmethod(SearchPipeline.prepare_context)
+
+    def __init__(self, context: list[dict[str, Any]], answer: str) -> None:
+        self._context = context
+        self._answer = answer
+        self.search_calls: list[dict[str, Any]] = []
+
+    async def search(self, query: str, top_k: int, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
+        self.search_calls.append({"query": query, "top_k": top_k, "nikayas": nikayas})
+        return self._context
+
+    async def synthesize(self, query: str, context_chunks: list[dict[str, Any]]) -> str:
+        return self._answer
+
+
+class RaisingFakePipeline:
+    """FakePipeline whose search() raises, for asserting AnswerComposer
+    propagates failures instead of swallowing them."""
+
+    async def search(self, query: str, top_k: int, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
+        raise RuntimeError("search failed")

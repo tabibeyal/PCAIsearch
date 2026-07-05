@@ -20,6 +20,7 @@ from qdrant_client.http import models as qdrant_models
 from qdrant_client.http.exceptions import UnexpectedResponse
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
+from backend.app.services.answer_composer import AnswerComposer, _attach_passages, _attach_titles
 from backend.app.services.citation_oracle import CitationOracle
 from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
@@ -105,11 +106,14 @@ async def lifespan(app: FastAPI):
         # Qdrant Cloud free tier returns 403 for index management operations.
         # The app works without this index — nikaya filtering just uses a scan.
         logger.warning("Could not create nikaya payload index (skipping): %s", e)
+    guardrail = CitationGuardrail(oracle=oracle)
+    passages = PassageStore.from_directory(_DUMPS_DIR)
     app.state.pipeline = pipeline
-    app.state.guardrail = CitationGuardrail(oracle=oracle)
-    app.state.passages = PassageStore.from_directory(_DUMPS_DIR)
+    app.state.guardrail = guardrail
+    app.state.passages = passages
     app.state.feedback_store = feedback_store
     app.state.share_store = share_store
+    app.state.composer = AnswerComposer(pipeline, guardrail, passages, title_index, _SHARE_RECEIPT_SECRET)
     await pipeline.warmup()
     logger.info("models warmed up")
     yield
@@ -206,58 +210,16 @@ async def search(
     related_suttas = pipeline.get_related_suttas(results)
     return {"query": q, "results": results, "related_suttas": related_suttas}
 
-def _attach_passages(context: list[dict], store: PassageStore) -> list[dict]:
-    """Add a display-only `passage` field (cited verse + neighbors) where a
-    citation would otherwise show as a lone line. Leaves `english` untouched so
-    synthesis and the guardrail are unaffected."""
-    for chunk in context:
-        window = store.passage(chunk.get("id", ""))
-        if window:
-            chunk["passage"] = window
-    return context
-
-
-def _attach_titles(context: list[dict], title_index: SuttaTitleIndex) -> list[dict]:
-    """Add a display-only `title` field (canonical sutta title) used by the
-    copy-to-clipboard feature to expand citations to `[ID:Verse — Title]`."""
-    for chunk in context:
-        chunk_id = chunk.get("id", "")
-        sutta_key = chunk_id.rsplit(":", 1)[0].replace(" ", "")
-        title = title_index.get_title_text(sutta_key)
-        if title:
-            chunk["title"] = title
-    return context
-
-
 @app.get("/synthesize")
 @limiter.limit("10/minute")
 async def synthesize(
     request: Request,
     q: str = Query(..., min_length=1, max_length=500, description="The question to answer"),
     top_k: int = Query(default=10, ge=1, le=20, description="Number of context chunks to retrieve"),
+    nikayas: list[str] | None = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
 ):
-    # 1. Retrieve relevant context
-    context = await request.app.state.pipeline.search(q, top_k=top_k)
-
-    # 2. Synthesize answer
-    answer = await request.app.state.pipeline.synthesize(q, context)
-
-    # 3. Verify citations using the guardrail
-    verification = request.app.state.guardrail.process_response(answer, context)
-
-    context = _attach_passages(context, request.app.state.passages)
-    context = _attach_titles(context, request.app.state.pipeline.title_index)
-    receipt = generate_receipt(q, verification["text"], context, _SHARE_RECEIPT_SECRET)
-
-    return {
-        "query": q,
-        "answer": verification["text"],
-        "hallucinations": verification["hallucinations"],
-        "canonical_misses": verification["canonical_misses"],
-        "is_faithful": verification["is_faithful"],
-        "context": context,
-        "receipt": receipt,
-    }
+    filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
+    return await request.app.state.composer.answer(q, top_k=top_k, nikayas=filtered_nikayas)
 
 @app.get("/stream")
 @limiter.limit("10/minute")
