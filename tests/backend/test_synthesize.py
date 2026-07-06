@@ -119,11 +119,10 @@ def test_prepare_context_drops_short_english_chunk(pipeline):
     assert [c["id"] for c in kept] == ["MN 10:5"]
 
 
-def test_prepare_context_dedups_identical_english_keeping_first():
+def test_prepare_context_dedups_identical_english_keeping_first(pipeline):
     chunks = [
         {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Right mindfulness is awareness of the moment"},
         {"id": "MN 10:5", "pali": "sammā-sati", "english": "Right mindfulness is awareness of the moment"},
     ]
-    from backend.app.services.search_pipeline import SearchPipeline
-    kept = SearchPipeline.prepare_context(chunks)
+    kept = pipeline.prepare_context(chunks)
     assert [c["id"] for c in kept] == ["DN 1:1"]

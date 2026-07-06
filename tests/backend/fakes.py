@@ -78,15 +78,18 @@ class FakePipeline:
         self._context = context
         self._answer = answer
         self.search_calls: list[dict[str, Any]] = []
+        self.synthesize_contexts: list[list[dict[str, Any]]] = []
 
     async def search(self, query: str, top_k: int, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
         self.search_calls.append({"query": query, "top_k": top_k, "nikayas": nikayas})
         return self._context
 
     async def synthesize(self, query: str, context_chunks: list[dict[str, Any]]) -> str:
+        self.synthesize_contexts.append(context_chunks)
         return self._answer
 
     async def stream_synthesize(self, query: str, context_chunks: list[dict[str, Any]]):
+        self.synthesize_contexts.append(context_chunks)
         for word in self._answer.split(" "):
             yield {"type": "chunk", "text": word + " "}
         yield {"type": "full", "text": self._answer}

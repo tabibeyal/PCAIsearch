@@ -1,6 +1,9 @@
+import json
+
 import pytest
 
 from backend.app.services.answer_composer import AnswerComposer
+from backend.app.services.citation_oracle import CitationOracle
 from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.passage_context import PassageStore
 from backend.app.services.share_receipt import verify_receipt
@@ -10,17 +13,21 @@ from fakes import FakePipeline, MidStreamRaisingFakePipeline, RaisingFakePipelin
 
 RECEIPT_KEY = "fake-signing-value-for-tests"
 
-RAW_CONTEXT = [
-    {"id": "MN 10:1", "pali": "sammā-sati", "english": "Right mindfulness is awareness of the present moment"},
-    {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Too short"},
-]
+
+def _raw_context():
+    # Fresh dicts per call: _attach_titles/_attach_passages mutate chunks in
+    # place, so a shared module-level list would couple tests to each other.
+    return [
+        {"id": "MN 10:1", "pali": "sammā-sati", "english": "Right mindfulness is awareness of the present moment"},
+        {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Too short"},
+    ]
 
 
-def _composer(context=RAW_CONTEXT, answer="The teaching is in [MN 10:1]."):
-    pipeline = FakePipeline(context, answer)
+def _composer(context=None, answer="The teaching is in [MN 10:1].", guardrail=None):
+    pipeline = FakePipeline(_raw_context() if context is None else context, answer)
     composer = AnswerComposer(
         pipeline=pipeline,
-        guardrail=CitationGuardrail(),
+        guardrail=guardrail if guardrail is not None else CitationGuardrail(),
         passages=PassageStore(),
         title_index=SuttaTitleIndex([{"sutta_id": "MN10", "title_pali": "x", "title_english": "y"}]),
         receipt_secret=RECEIPT_KEY,
@@ -56,6 +63,24 @@ async def test_answer_forwards_nikayas_to_pipeline_search():
     composer, pipeline = _composer()
     await composer.answer("mindfulness", top_k=10, nikayas=["MN", "SN"])
     assert pipeline.search_calls[0]["nikayas"] == ["MN", "SN"]
+
+
+@pytest.mark.asyncio
+async def test_answer_context_is_exactly_what_llm_saw():
+    composer, pipeline = _composer()
+    result = await composer.answer("mindfulness", top_k=10)
+    assert [c["id"] for c in result["context"]] == [c["id"] for c in pipeline.synthesize_contexts[0]]
+
+
+@pytest.mark.asyncio
+async def test_answer_marks_real_but_unretrieved_citation_unverified(tmp_path):
+    (tmp_path / "sn45.json").write_text(
+        json.dumps({"sutta_id": "SN45", "verses": [{"number": 8}]}), encoding="utf-8"
+    )
+    guardrail = CitationGuardrail(oracle=CitationOracle(tmp_path))
+    composer, _ = _composer(answer="Also see [SN 45:8].", guardrail=guardrail)
+    result = await composer.answer("mindfulness", top_k=10)
+    assert "[Unverified]" in result["answer"]
 
 
 @pytest.mark.asyncio
@@ -117,6 +142,20 @@ async def test_answer_stream_done_matches_answer_for_same_inputs():
 
 
 @pytest.mark.asyncio
+async def test_answer_stream_forwards_nikayas_to_pipeline_search():
+    composer, pipeline = _composer()
+    await _collect(composer.answer_stream("mindfulness", top_k=10, nikayas=["MN", "SN"]))
+    assert pipeline.search_calls[0]["nikayas"] == ["MN", "SN"]
+
+
+@pytest.mark.asyncio
+async def test_answer_stream_drops_short_chunk_from_done_context():
+    composer, _ = _composer()
+    events = await _collect(composer.answer_stream("mindfulness", top_k=10))
+    assert [c["id"] for c in events[-1]["context"]] == ["MN 10:1"]
+
+
+@pytest.mark.asyncio
 async def test_answer_stream_marks_citation_to_nonexistent_sutta_as_not_faithful():
     composer, _ = _composer(answer="Also see [DN 99:99].")
     events = await _collect(composer.answer_stream("mindfulness", top_k=10))
@@ -146,7 +185,7 @@ async def test_answer_stream_propagates_pipeline_search_failure():
 @pytest.mark.asyncio
 async def test_answer_stream_propagates_mid_generator_failure():
     composer = AnswerComposer(
-        pipeline=MidStreamRaisingFakePipeline(RAW_CONTEXT),
+        pipeline=MidStreamRaisingFakePipeline(_raw_context()),
         guardrail=CitationGuardrail(),
         passages=PassageStore(),
         title_index=SuttaTitleIndex([{"sutta_id": "MN10", "title_pali": "x", "title_english": "y"}]),
