@@ -11,29 +11,6 @@ from backend.app.services.sutta_title_index import SuttaTitleIndex
 logger = logging.getLogger(__name__)
 
 
-def _attach_passages(context: list[dict[str, Any]], store: PassageStore) -> list[dict[str, Any]]:
-    """Add a display-only `passage` field (cited verse + neighbors) where a
-    citation would otherwise show as a lone line. Leaves `english` untouched so
-    synthesis and the guardrail are unaffected."""
-    for chunk in context:
-        window = store.passage(chunk.get("id", ""))
-        if window:
-            chunk["passage"] = window
-    return context
-
-
-def _attach_titles(context: list[dict[str, Any]], title_index: SuttaTitleIndex) -> list[dict[str, Any]]:
-    """Add a display-only `title` field (canonical sutta title) used by the
-    copy-to-clipboard feature to expand citations to `[ID:Verse — Title]`."""
-    for chunk in context:
-        chunk_id = chunk.get("id", "")
-        sutta_key = chunk_id.rsplit(":", 1)[0].replace(" ", "")
-        title = title_index.get_title_text(sutta_key)
-        if title:
-            chunk["title"] = title
-    return context
-
-
 class AnswerComposer:
     """Owns the compose flow shared by /synthesize and /stream: search ->
     prepare_context (kept context) -> synthesize -> Guardrail -> attach
@@ -61,23 +38,8 @@ class AnswerComposer:
     async def answer(self, query: str, top_k: int, nikayas: list[str] | None = None) -> dict[str, Any]:
         context = await self.pipeline.search(query, top_k=top_k, nikayas=nikayas)
         kept = self.pipeline.prepare_context(context)
-
         raw_answer = await self.pipeline.synthesize(query, kept)
-        verification = self.guardrail.process_response(raw_answer, kept)
-
-        _attach_passages(kept, self.passages)
-        _attach_titles(kept, self.title_index)
-        receipt = generate_receipt(query, verification["text"], kept, self.receipt_secret)
-
-        return {
-            "query": query,
-            "answer": verification["text"],
-            "hallucinations": verification["hallucinations"],
-            "canonical_misses": verification["canonical_misses"],
-            "is_faithful": verification["is_faithful"],
-            "context": kept,
-            "receipt": receipt,
-        }
+        return self._finalize(query, kept, raw_answer)
 
     async def answer_stream(self, query: str, top_k: int, nikayas: list[str] | None = None):
         """Streaming counterpart to answer(): yields typed status/chunk/done
@@ -105,13 +67,18 @@ class AnswerComposer:
         logger.info("stream/synthesize: %.2fs", time.perf_counter() - t1)
 
         yield {"type": "status", "text": "Verifying sources…"}
+        yield {"type": "done", **self._finalize(query, kept, raw_answer)}
+
+    def _finalize(self, query: str, kept: list[dict[str, Any]], raw_answer: str) -> dict[str, Any]:
+        """Shared tail of answer() and answer_stream(): verify citations,
+        attach display-only fields, and sign the receipt — same kept-context
+        list throughout."""
         verification = self.guardrail.process_response(raw_answer, kept)
-        _attach_passages(kept, self.passages)
-        _attach_titles(kept, self.title_index)
+        self._attach_passages(kept)
+        self._attach_titles(kept)
         receipt = generate_receipt(query, verification["text"], kept, self.receipt_secret)
 
-        yield {
-            "type": "done",
+        return {
             "query": query,
             "answer": verification["text"],
             "hallucinations": verification["hallucinations"],
@@ -120,3 +87,23 @@ class AnswerComposer:
             "context": kept,
             "receipt": receipt,
         }
+
+    def _attach_passages(self, context: list[dict[str, Any]]) -> None:
+        """Add a display-only `passage` field (cited verse + neighbors) where a
+        citation would otherwise show as a lone line. Leaves `english`
+        untouched so synthesis and the guardrail are unaffected."""
+        for chunk in context:
+            window = self.passages.passage(chunk.get("id", ""))
+            if window:
+                chunk["passage"] = window
+
+    def _attach_titles(self, context: list[dict[str, Any]]) -> None:
+        """Add a display-only `title` field (canonical sutta title) used by
+        the copy-to-clipboard feature to expand citations to
+        `[ID:Verse — Title]`."""
+        for chunk in context:
+            chunk_id = chunk.get("id", "")
+            sutta_key = chunk_id.rsplit(":", 1)[0].replace(" ", "")
+            title = self.title_index.get_title_text(sutta_key)
+            if title:
+                chunk["title"] = title

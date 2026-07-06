@@ -59,11 +59,17 @@ async def test_answer_forwards_nikayas_to_pipeline_search():
 
 
 @pytest.mark.asyncio
-async def test_answer_marks_unverified_citation_visibly():
+async def test_answer_marks_citation_to_nonexistent_sutta_as_not_faithful():
     composer, _ = _composer(answer="Also see [DN 99:99].")
     result = await composer.answer("mindfulness", top_k=10)
     assert result["is_faithful"] is False
-    assert "[Hallucinated]" in result["answer"] or "[Unverified]" in result["answer"]
+
+
+@pytest.mark.asyncio
+async def test_answer_marks_citation_to_nonexistent_sutta_hallucinated():
+    composer, _ = _composer(answer="Also see [DN 99:99].")
+    result = await composer.answer("mindfulness", top_k=10)
+    assert "[Hallucinated]" in result["answer"]
 
 
 @pytest.mark.asyncio
@@ -84,13 +90,11 @@ async def _collect(agen):
 
 
 @pytest.mark.asyncio
-async def test_answer_stream_yields_status_chunk_and_done_events():
-    composer, _ = _composer()
+async def test_answer_stream_yields_events_in_order():
+    composer, _ = _composer(answer="hi")
     events = await _collect(composer.answer_stream("mindfulness", top_k=10))
     types = [e["type"] for e in events]
-    assert types[0] == "status" and types[-1] == "done"
-    assert "chunk" in types
-    assert types[-2] == "status"
+    assert types == ["status", "status", "chunk", "status", "done"]
 
 
 @pytest.mark.asyncio
@@ -109,18 +113,21 @@ async def test_answer_stream_done_matches_answer_for_same_inputs():
     stream_events = await _collect(composer.answer_stream("mindfulness", top_k=10))
     done = stream_events[-1]
     direct = await composer.answer("mindfulness", top_k=10)
-    assert done["answer"] == direct["answer"]
-    assert done["context"] == direct["context"]
-    assert done["receipt"] == direct["receipt"]
+    assert {k: v for k, v in done.items() if k != "type"} == direct
 
 
 @pytest.mark.asyncio
-async def test_answer_stream_marks_unverified_citation_visibly():
+async def test_answer_stream_marks_citation_to_nonexistent_sutta_as_not_faithful():
     composer, _ = _composer(answer="Also see [DN 99:99].")
     events = await _collect(composer.answer_stream("mindfulness", top_k=10))
-    done = events[-1]
-    assert done["is_faithful"] is False
-    assert "[Hallucinated]" in done["answer"] or "[Unverified]" in done["answer"]
+    assert events[-1]["is_faithful"] is False
+
+
+@pytest.mark.asyncio
+async def test_answer_stream_marks_citation_to_nonexistent_sutta_hallucinated():
+    composer, _ = _composer(answer="Also see [DN 99:99].")
+    events = await _collect(composer.answer_stream("mindfulness", top_k=10))
+    assert "[Hallucinated]" in events[-1]["answer"]
 
 
 @pytest.mark.asyncio
