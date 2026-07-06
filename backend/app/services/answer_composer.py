@@ -1,3 +1,5 @@
+import logging
+import time
 from typing import Any
 
 from backend.app.services.guardrail import CitationGuardrail
@@ -5,6 +7,8 @@ from backend.app.services.passage_context import PassageStore
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.share_receipt import generate_receipt
 from backend.app.services.sutta_title_index import SuttaTitleIndex
+
+logger = logging.getLogger(__name__)
 
 
 def _attach_passages(context: list[dict[str, Any]], store: PassageStore) -> list[dict[str, Any]]:
@@ -66,6 +70,48 @@ class AnswerComposer:
         receipt = generate_receipt(query, verification["text"], kept, self.receipt_secret)
 
         return {
+            "query": query,
+            "answer": verification["text"],
+            "hallucinations": verification["hallucinations"],
+            "canonical_misses": verification["canonical_misses"],
+            "is_faithful": verification["is_faithful"],
+            "context": kept,
+            "receipt": receipt,
+        }
+
+    async def answer_stream(self, query: str, top_k: int, nikayas: list[str] | None = None):
+        """Streaming counterpart to answer(): yields typed status/chunk/done
+        event dicts, with done's payload matching answer()'s return shape.
+
+        Raises rather than yielding an error event itself — same contract as
+        answer(). An error event (or the stream simply ending without a done
+        event) is terminal: any chunk text already sent must be treated as
+        incomplete and discarded, never presented as the final answer.
+        """
+        t0 = time.perf_counter()
+        yield {"type": "status", "text": "Searching the Canon…"}
+        context = await self.pipeline.search(query, top_k=top_k, nikayas=nikayas)
+        kept = self.pipeline.prepare_context(context)
+        t1 = time.perf_counter()
+        logger.info("stream/search: %.2fs", t1 - t0)
+
+        yield {"type": "status", "text": "Composing answer…"}
+        raw_answer = ""
+        async for event in self.pipeline.stream_synthesize(query, kept):
+            if event["type"] == "chunk":
+                yield event
+            else:
+                raw_answer = event["text"]
+        logger.info("stream/synthesize: %.2fs", time.perf_counter() - t1)
+
+        yield {"type": "status", "text": "Verifying sources…"}
+        verification = self.guardrail.process_response(raw_answer, kept)
+        _attach_passages(kept, self.passages)
+        _attach_titles(kept, self.title_index)
+        receipt = generate_receipt(query, verification["text"], kept, self.receipt_secret)
+
+        yield {
+            "type": "done",
             "query": query,
             "answer": verification["text"],
             "hallucinations": verification["hallucinations"],

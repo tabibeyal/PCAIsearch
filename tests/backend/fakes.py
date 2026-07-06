@@ -86,6 +86,11 @@ class FakePipeline:
     async def synthesize(self, query: str, context_chunks: list[dict[str, Any]]) -> str:
         return self._answer
 
+    async def stream_synthesize(self, query: str, context_chunks: list[dict[str, Any]]):
+        for word in self._answer.split(" "):
+            yield {"type": "chunk", "text": word + " "}
+        yield {"type": "full", "text": self._answer}
+
 
 class RaisingFakePipeline:
     """FakePipeline whose search() raises, for asserting AnswerComposer
@@ -93,3 +98,21 @@ class RaisingFakePipeline:
 
     async def search(self, query: str, top_k: int, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
         raise RuntimeError("search failed")
+
+
+class MidStreamRaisingFakePipeline:
+    """FakePipeline whose stream_synthesize() raises after yielding a chunk,
+    for asserting AnswerComposer.answer_stream propagates mid-generator
+    failures instead of swallowing them."""
+
+    def __init__(self, context: list[dict[str, Any]]) -> None:
+        self._context = context
+
+    async def search(self, query: str, top_k: int, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
+        return self._context
+
+    prepare_context = staticmethod(SearchPipeline.prepare_context)
+
+    async def stream_synthesize(self, query: str, context_chunks: list[dict[str, Any]]):
+        yield {"type": "chunk", "text": "partial "}
+        raise RuntimeError("synthesis failed")

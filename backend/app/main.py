@@ -3,7 +3,6 @@ import json
 import logging
 import os
 import re
-import time
 import uuid
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -20,7 +19,7 @@ from qdrant_client.http import models as qdrant_models
 from qdrant_client.http.exceptions import UnexpectedResponse
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
-from backend.app.services.answer_composer import AnswerComposer, _attach_passages, _attach_titles
+from backend.app.services.answer_composer import AnswerComposer
 from backend.app.services.citation_oracle import CitationOracle
 from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
@@ -29,7 +28,7 @@ from backend.app.services.passage_context import PassageStore
 from backend.app.services.supabase_client import SupabaseRestClient
 from backend.app.services.feedback_store import SQLiteFeedbackStore, SupabaseFeedbackStore
 from backend.app.services.share_store import SQLiteShareStore, SupabaseShareStore
-from backend.app.services.share_receipt import generate_receipt, sanitize_context, verify_receipt
+from backend.app.services.share_receipt import sanitize_context, verify_receipt
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
 limiter = Limiter(key_func=get_remote_address)
@@ -233,24 +232,8 @@ async def stream(
 
     async def event_stream():
         try:
-            t0 = time.perf_counter()
-            yield f"data: {json.dumps({'type': 'status', 'text': 'Searching the Canon…'})}\n\n"
-            context = await request.app.state.pipeline.search(q, top_k=top_k, nikayas=filtered_nikayas)
-            t1 = time.perf_counter()
-            logger.info("stream/search: %.2fs", t1 - t0)
-            context = [c for c in context if len(c.get("english", "").strip().split()) >= 4]
-            _attach_passages(context, request.app.state.passages)
-            _attach_titles(context, request.app.state.pipeline.title_index)
-            yield f"data: {json.dumps({'type': 'status', 'text': 'Composing answer…'})}\n\n"
-            async for event in request.app.state.pipeline.stream_synthesize(q, context):
-                if event["type"] == "chunk":
-                    yield f"data: {json.dumps(event)}\n\n"
-                else:
-                    logger.info("stream/synthesize: %.2fs", time.perf_counter() - t1)
-                    yield f"data: {json.dumps({'type': 'status', 'text': 'Verifying sources…'})}\n\n"
-                    verification = request.app.state.guardrail.process_response(event["text"], context)
-                    receipt = generate_receipt(q, verification["text"], context, _SHARE_RECEIPT_SECRET)
-                    yield f"data: {json.dumps({'type': 'done', 'query': q, 'answer': verification['text'], 'hallucinations': verification['hallucinations'], 'canonical_misses': verification['canonical_misses'], 'is_faithful': verification['is_faithful'], 'context': context, 'receipt': receipt})}\n\n"
+            async for event in request.app.state.composer.answer_stream(q, top_k=top_k, nikayas=filtered_nikayas):
+                yield f"data: {json.dumps(event)}\n\n"
         except Exception as exc:
             logger.error("stream error: %s", exc, exc_info=True)
             yield f"data: {json.dumps({'type': 'error', 'message': 'Search failed, please try again.'})}\n\n"

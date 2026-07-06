@@ -212,10 +212,13 @@ def test_e2e_api_synthesize_includes_verifiable_receipt(api_client, live_pipelin
 
 
 def test_e2e_api_stream_includes_verifiable_receipt(api_client, live_pipeline, monkeypatch):
-    import backend.app.main as m
+    from backend.app.main import app
     from backend.app.services.share_receipt import verify_receipt
 
-    monkeypatch.setattr(m, "_SHARE_RECEIPT_SECRET", "fake-signing-value-for-tests")
+    # AnswerComposer captures the receipt secret as its own constructor
+    # dependency, not a live module-global lookup, so it must be patched on
+    # the composer instance directly.
+    monkeypatch.setattr(app.state.composer, "receipt_secret", "fake-signing-value-for-tests")
     _mock_stream_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
     response = api_client.get("/stream?q=mindfulness")
     events = [
