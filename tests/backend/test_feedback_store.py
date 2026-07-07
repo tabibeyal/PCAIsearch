@@ -13,7 +13,7 @@ class _SupabaseHarness:
         self.writer = SupabaseFeedbackStore(self.client)
 
     def all_rows(self) -> list[dict[str, Any]]:
-        return self.client.get("feedback", "")
+        return self.client.get("feedback")
 
 
 class _SQLiteHarness:

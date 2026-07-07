@@ -42,7 +42,10 @@ class SupabaseFeedbackStore:
 
     def fetch_down_votes(self) -> list[FeedbackCandidate]:
         rows: list[dict[str, Any]] = self._client.get(
-            "feedback", "rating=eq.down&gap_issue_url=is.null&order=created_at.desc"
+            "feedback",
+            eq={"rating": "down"},
+            is_null=["gap_issue_url"],
+            order=("created_at", "desc"),
         )
         return [
             FeedbackCandidate(
@@ -56,7 +59,7 @@ class SupabaseFeedbackStore:
         ]
 
     def mark_handled(self, feedback_id: Any, issue_url: str) -> None:
-        self._client.patch("feedback", f"id=eq.{feedback_id}", {"gap_issue_url": issue_url})
+        self._client.patch("feedback", {"gap_issue_url": issue_url}, eq={"id": feedback_id})
 
 
 class SQLiteFeedbackStore:

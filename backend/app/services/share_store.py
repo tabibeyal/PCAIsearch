@@ -42,7 +42,9 @@ class SupabaseShareStore:
             raise
 
     def fetch(self, share_id: str) -> dict | None:
-        rows = self._client.get("shared_answers", f"id=eq.{share_id}&select=query,answer,context")
+        rows = self._client.get(
+            "shared_answers", eq={"id": share_id}, select=["query", "answer", "context"]
+        )
         if not rows:
             return None
         row = rows[0]
