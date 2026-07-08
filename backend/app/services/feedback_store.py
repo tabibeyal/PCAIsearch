@@ -8,8 +8,8 @@ from backend.app.services.supabase_client import SupabaseRestClient
 
 
 class FeedbackWriter(Protocol):
-    # Returns None rather than the inserted row's id as originally spec'd
-    # (#63) — nothing consumes it, and SQLite's autoincrement id and
+    # NOTE: returns None rather than the inserted row's id as originally
+    # spec'd (#63) — nothing consumes it, and SQLite's autoincrement id and
     # Supabase's generated id aren't unified into one type worth returning.
     def insert(self, query: str, answer: str, rating: str, category: str | None, comment: str | None) -> None:
         ...
