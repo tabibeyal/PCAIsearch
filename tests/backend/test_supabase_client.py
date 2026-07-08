@@ -1,5 +1,11 @@
+import io
 import json
+import logging
+import urllib.error
 from unittest.mock import patch
+
+import pytest
+
 from backend.app.services.supabase_client import SupabaseRestClient
 
 
@@ -91,3 +97,31 @@ def test_patch_encodes_value_containing_postgrest_operators(mock_urlopen):
 
     req = mock_urlopen.call_args[0][0]
     assert req.full_url == "https://test.supabase.co/rest/v1/feedback?id=eq.42%26select%3D%2A"
+
+
+@patch("urllib.request.urlopen")
+def test_post_reraises_http_error_after_logging_response_body(mock_urlopen, caplog):
+    mock_urlopen.side_effect = urllib.error.HTTPError(
+        url="https://test.supabase.co/rest/v1/feedback",
+        code=500,
+        msg="Internal Server Error",
+        hdrs=None,
+        fp=io.BytesIO(b"constraint violation"),
+    )
+    client = SupabaseRestClient("https://test.supabase.co", "fake-key")
+
+    with caplog.at_level(logging.ERROR), pytest.raises(urllib.error.HTTPError):
+        client.post("feedback", {"query": "q"}, error_label="feedback")
+
+    assert "Supabase feedback insert failed" in caplog.text
+
+
+@patch("urllib.request.urlopen")
+def test_post_reraises_url_error_after_logging(mock_urlopen, caplog):
+    mock_urlopen.side_effect = urllib.error.URLError("connection refused")
+    client = SupabaseRestClient("https://test.supabase.co", "fake-key")
+
+    with caplog.at_level(logging.ERROR), pytest.raises(urllib.error.URLError):
+        client.post("shared_answers", {"id": "abc"}, error_label="share")
+
+    assert "Supabase share insert failed (network)" in caplog.text

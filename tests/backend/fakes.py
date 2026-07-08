@@ -16,7 +16,7 @@ class FakeSupabaseRestClient:
     def __init__(self) -> None:
         self._tables: dict[str, list[dict[str, Any]]] = {}
 
-    def post(self, table: str, payload: dict[str, Any]) -> None:
+    def post(self, table: str, payload: dict[str, Any], *, error_label: str) -> None:
         rows = self._tables.setdefault(table, [])
         row = dict(payload)
         row.setdefault("id", len(rows) + 1)

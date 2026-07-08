@@ -1,7 +1,11 @@
 import json
+import logging
+import urllib.error
 import urllib.request
 from typing import Any
 from urllib.parse import quote
+
+logger = logging.getLogger(__name__)
 
 
 class SupabaseRestClient:
@@ -27,14 +31,26 @@ class SupabaseRestClient:
             headers["Prefer"] = prefer
         return headers
 
-    def post(self, table: str, payload: dict[str, Any]) -> None:
+    def post(self, table: str, payload: dict[str, Any], *, error_label: str) -> None:
         req = urllib.request.Request(
             f"{self._base_url}/rest/v1/{table}",
             data=json.dumps(payload).encode(),
             headers=self._headers(prefer="return=minimal"),
             method="POST",
         )
-        urllib.request.urlopen(req)
+        try:
+            urllib.request.urlopen(req)
+        except urllib.error.HTTPError as exc:
+            logger.error(
+                "Supabase %s insert failed: %s — response body: %s",
+                error_label,
+                exc,
+                exc.read().decode(errors="replace"),
+            )
+            raise
+        except urllib.error.URLError as exc:
+            logger.error("Supabase %s insert failed (network): %s", error_label, exc)
+            raise
 
     def get(
         self,

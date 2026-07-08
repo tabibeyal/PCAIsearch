@@ -1,14 +1,10 @@
 import json
-import logging
 import sqlite3
-import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Protocol
 
 from backend.app.services.supabase_client import SupabaseRestClient
-
-logger = logging.getLogger(__name__)
 
 
 class ShareStore(Protocol):
@@ -28,18 +24,7 @@ class SupabaseShareStore:
 
     def save(self, share_id: str, query: str, answer: str, context: list[dict]) -> None:
         payload = {"id": share_id, "query": query, "answer": answer, "context": context}
-        try:
-            self._client.post("shared_answers", payload)
-        except urllib.error.HTTPError as exc:
-            logger.error(
-                "Supabase share insert failed: %s — response body: %s",
-                exc,
-                exc.read().decode(errors="replace"),
-            )
-            raise
-        except urllib.error.URLError as exc:
-            logger.error("Supabase share insert failed (network): %s", exc)
-            raise
+        self._client.post("shared_answers", payload, error_label="share")
 
     def fetch(self, share_id: str) -> dict | None:
         rows = self._client.get(

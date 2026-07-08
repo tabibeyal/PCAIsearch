@@ -180,19 +180,44 @@ def test_supabase_share_posts_generated_id(share_supabase_client):
     assert row["id"] == r.json()["id"]
 
 
-def test_supabase_share_get_returns_stored_answer(share_supabase_client):
-    client, fake = share_supabase_client
+def test_supabase_share_get_returns_200(share_supabase_client):
+    client, _ = share_supabase_client
     payload = _valid_payload()
     share_id = client.post("/share", json=payload).json()["id"]
 
     r = client.get(f"/share/{share_id}")
 
     assert r.status_code == 200
-    assert r.json() == {
-        "query": payload["query"],
-        "answer": payload["answer"],
-        "context": _sanitized(payload["context"]),
-    }
+
+
+def test_supabase_share_get_preserves_query(share_supabase_client):
+    client, _ = share_supabase_client
+    payload = _valid_payload()
+    share_id = client.post("/share", json=payload).json()["id"]
+
+    body = client.get(f"/share/{share_id}").json()
+
+    assert body["query"] == payload["query"]
+
+
+def test_supabase_share_get_preserves_answer(share_supabase_client):
+    client, _ = share_supabase_client
+    payload = _valid_payload()
+    share_id = client.post("/share", json=payload).json()["id"]
+
+    body = client.get(f"/share/{share_id}").json()
+
+    assert body["answer"] == payload["answer"]
+
+
+def test_supabase_share_get_preserves_context(share_supabase_client):
+    client, _ = share_supabase_client
+    payload = _valid_payload()
+    share_id = client.post("/share", json=payload).json()["id"]
+
+    body = client.get(f"/share/{share_id}").json()
+
+    assert body["context"] == _sanitized(payload["context"])
 
 
 def test_share_id_with_ampersand_rejected_404_without_storage_call(reject_client):
