@@ -26,8 +26,8 @@ from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.passage_context import PassageStore
 from backend.app.services.supabase_client import SupabaseRestClient
-from backend.app.services.feedback_store import SQLiteFeedbackStore, SupabaseFeedbackStore
-from backend.app.services.share_store import SQLiteShareStore, SupabaseShareStore
+from backend.app.services.feedback_store import FeedbackWriter, SQLiteFeedbackStore, SupabaseFeedbackStore
+from backend.app.services.share_store import ShareStore, SQLiteShareStore, SupabaseShareStore
 from backend.app.services.share_receipt import generate_receipt, sanitize_context, verify_receipt
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
@@ -83,6 +83,8 @@ class ContactBody(BaseModel):
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    feedback_store: FeedbackWriter
+    share_store: ShareStore
     if _SUPABASE_URL and _SUPABASE_KEY:
         supabase_client = SupabaseRestClient(_SUPABASE_URL, _SUPABASE_KEY)
         feedback_store = SupabaseFeedbackStore(supabase_client)

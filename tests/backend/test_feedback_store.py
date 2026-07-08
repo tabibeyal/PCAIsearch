@@ -1,3 +1,4 @@
+import sqlite3
 from typing import Any
 
 import pytest
@@ -22,8 +23,6 @@ class _SQLiteHarness:
         self._db_path = db_path
 
     def all_rows(self) -> list[dict[str, Any]]:
-        import sqlite3
-
         con = sqlite3.connect(self._db_path)
         try:
             cols = ("query", "answer", "rating", "category", "comment")

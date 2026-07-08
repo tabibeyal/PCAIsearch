@@ -73,19 +73,55 @@ def test_feedback_missing_required_field(feedback_client):
     assert r.status_code == 422
 
 
-def test_supabase_feedback_posts_correct_body(supabase_feedback_client):
-    client, fake = supabase_feedback_client
-    r = client.post("/feedback", json={
+def _supabase_feedback_payload() -> dict:
+    return {
         "query": "What is nibbana?",
         "answer": "Nibbana is the cessation of craving.",
         "rating": "down",
         "category": "Too vague",
         "comment": "Needs more depth",
-    })
+    }
+
+
+def test_supabase_feedback_post_returns_200(supabase_feedback_client):
+    client, _ = supabase_feedback_client
+
+    r = client.post("/feedback", json=_supabase_feedback_payload())
 
     assert r.status_code == 200
+
+
+def test_supabase_feedback_posts_query(supabase_feedback_client):
+    client, fake = supabase_feedback_client
+
+    client.post("/feedback", json=_supabase_feedback_payload())
+
     [row] = fake.get("feedback")
     assert row["query"] == "What is nibbana?"
+
+
+def test_supabase_feedback_posts_rating(supabase_feedback_client):
+    client, fake = supabase_feedback_client
+
+    client.post("/feedback", json=_supabase_feedback_payload())
+
+    [row] = fake.get("feedback")
     assert row["rating"] == "down"
+
+
+def test_supabase_feedback_posts_category(supabase_feedback_client):
+    client, fake = supabase_feedback_client
+
+    client.post("/feedback", json=_supabase_feedback_payload())
+
+    [row] = fake.get("feedback")
     assert row["category"] == "Too vague"
+
+
+def test_supabase_feedback_posts_comment(supabase_feedback_client):
+    client, fake = supabase_feedback_client
+
+    client.post("/feedback", json=_supabase_feedback_payload())
+
+    [row] = fake.get("feedback")
     assert row["comment"] == "Needs more depth"
