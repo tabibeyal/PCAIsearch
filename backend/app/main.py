@@ -35,6 +35,10 @@ limiter = Limiter(key_func=get_remote_address)
 logger = logging.getLogger(__name__)
 
 _VALID_NIKAYAS = {"DN", "MN", "SN", "AN", "DHP", "ITI", "UD", "STNP", "THAG", "THIG", "KHP"}
+# Share ids are uuid4().hex — exactly 32 lowercase hex chars. Anything else is
+# rejected at the boundary before any storage call, so a crafted id can never
+# reach the PostgREST filter string (defense-in-depth with the client encoding).
+_SHARE_ID_RE = re.compile(r"^[0-9a-f]{32}$")
 _DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
 _FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
 _raw_supabase_url = os.environ.get("SUPABASE_URL") or ""
@@ -159,6 +163,10 @@ async def post_share(request: Request, body: ShareBody):
 
 @app.get("/share/{share_id}")
 async def get_share(request: Request, share_id: str):
+    # Same 404 shape as a missing id — no hint that validation vs lookup failed,
+    # so a crafted id can't probe the difference (error-handling.md).
+    if not _SHARE_ID_RE.match(share_id):
+        raise HTTPException(status_code=404, detail="Not found")
     loop = asyncio.get_event_loop()
     result = await loop.run_in_executor(None, request.app.state.share_store.fetch, share_id)
     if result is None:

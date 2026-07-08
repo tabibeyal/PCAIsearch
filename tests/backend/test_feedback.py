@@ -84,7 +84,7 @@ def test_supabase_feedback_posts_correct_body(supabase_feedback_client):
     })
 
     assert r.status_code == 200
-    [row] = fake.get("feedback", "")
+    [row] = fake.get("feedback")
     assert row["query"] == "What is nibbana?"
     assert row["rating"] == "down"
     assert row["category"] == "Too vague"
