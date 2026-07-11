@@ -129,8 +129,27 @@ if contains_cmd 'git[[:space:]]+clean[[:space:]]+-[a-zA-Z]*f'; then
 fi
 
 # ── Full backend test suite guard ───────────────────────────────────────
-# ponytail: full suite exhausts RAM with Firefox open and freezes the OS; run specific files only
-if contains_cmd 'tests/backend/' && ! contains_cmd 'tests/backend/test_'; then
+# ponytail: full suite exhausts RAM with Firefox open and freezes the OS; run specific files only.
+# Checked per-statement (split on ; & |, plus awk's natural per-line handling of newlines) —
+# a bare `pytest`/`python -m pytest` run, or a directory-only path, is blocked unless that
+# SAME statement names a specific test_*.py file or ::nodeid. Per-statement matters: a naive
+# whole-command ".py" search lets a dangerous full-suite run hide behind any unrelated command
+# in the same chain that happens to mention a .py file (confirmed by testing: bundling the
+# full-suite run with a following `ls tests/backend/test_*.py` let it slip through).
+if printf '%s\n' "$COMMAND" | awk '
+  BEGIN { IGNORECASE=1 }
+  {
+    n = split($0, stmts, /[;&|]/)
+    for (i = 1; i <= n; i++) {
+      s = stmts[i]
+      if (s ~ /(^|[^a-zA-Z0-9_.-])pytest([[:space:]]|$)/ \
+          && s !~ /(pip[0-9]*|pipx|conda|poetry|uv)[[:space:]]+(install|add)/ \
+          && s !~ /\.py(::|[[:space:]]|$)/) {
+        print "BAD"; exit
+      }
+    }
+  }
+' | grep -q BAD; then
   emit_deny "Blocked: full backend test suite freezes the OS (RAM + Firefox). Run a specific file: pytest tests/backend/test_<name>.py -q"
 fi
 
