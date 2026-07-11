@@ -169,8 +169,9 @@ async def post_share(request: Request, body: ShareBody):
 
 @app.get("/share/{share_id}")
 async def get_share(request: Request, share_id: str):
-    # Same 404 shape as a missing id — no hint that validation vs lookup failed,
-    # so a crafted id can't probe the difference (error-handling.md).
+    # Reject malformed ids with the same 404 a genuine missing id gets, and do
+    # it before any storage call, so a crafted id can't be used to tell
+    # whether it was rejected here or merely not found in storage.
     if not _SHARE_ID_RE.match(share_id):
         raise HTTPException(status_code=404, detail="Not found")
     loop = asyncio.get_event_loop()

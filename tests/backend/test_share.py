@@ -219,51 +219,23 @@ def test_supabase_share_get_preserves_context(share_supabase_client):
     assert body["context"] == _sanitized(payload["context"])
 
 
-def test_share_id_with_ampersand_rejected_404_without_storage_call(reject_client):
+@pytest.mark.parametrize(
+    "share_id",
+    [
+        "abc&select=*",
+        "abc=eq.all",
+        "A" * 32,
+        "abc123",
+        "z" * 32,
+    ],
+    ids=["ampersand", "equals", "uppercase", "wrong_length", "non_hex"],
+)
+def test_share_id_rejected_404_without_storage_call(reject_client, share_id):
     client, store = reject_client
 
-    r = client.get("/share/abc&select=*")
+    r = client.get(f"/share/{share_id}")
 
-    assert r.status_code == 404
-    assert store.fetch_calls == []
-
-
-def test_share_id_with_equals_rejected_404_without_storage_call(reject_client):
-    client, store = reject_client
-
-    r = client.get("/share/abc=eq.all")
-
-    assert r.status_code == 404
-    assert store.fetch_calls == []
-
-
-def test_share_id_with_uppercase_rejected_404_without_storage_call(reject_client):
-    client, store = reject_client
-    upper = "A" * 32
-
-    r = client.get(f"/share/{upper}")
-
-    assert r.status_code == 404
-    assert store.fetch_calls == []
-
-
-def test_share_id_wrong_length_rejected_404_without_storage_call(reject_client):
-    client, store = reject_client
-
-    r = client.get("/share/abc123")
-
-    assert r.status_code == 404
-    assert store.fetch_calls == []
-
-
-def test_share_id_non_hex_rejected_404_without_storage_call(reject_client):
-    client, store = reject_client
-    non_hex = "z" * 32
-
-    r = client.get(f"/share/{non_hex}")
-
-    assert r.status_code == 404
-    assert store.fetch_calls == []
+    assert (r.status_code, store.fetch_calls) == (404, [])
 
 
 def test_share_valid_hex_id_reaches_storage(reject_client):
