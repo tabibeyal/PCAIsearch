@@ -40,7 +40,7 @@ _VALID_NIKAYAS = {"DN", "MN", "SN", "AN", "DHP", "ITI", "UD", "STNP", "THAG", "T
 # reach the PostgREST filter string (defense-in-depth with the client encoding).
 _SHARE_ID_RE = re.compile(r"^[0-9a-f]{32}$")
 _DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
-_FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
+_DEFAULT_FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
 _raw_supabase_url = os.environ.get("SUPABASE_URL") or ""
 _SUPABASE_URL = _raw_supabase_url.split("/rest/")[0].rstrip("/") or None
 _SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
@@ -90,8 +90,12 @@ async def lifespan(app: FastAPI):
         feedback_store = SupabaseFeedbackStore(supabase_client)
         share_store = SupabaseShareStore(supabase_client)
     else:
-        feedback_store = SQLiteFeedbackStore(_FEEDBACK_DB)
-        share_store = SQLiteShareStore(_FEEDBACK_DB)
+        # Resolved fresh on each startup (not a module-level constant) so a test
+        # fixture's env var, set before TestClient triggers startup, takes effect
+        # before any SQLite file is touched.
+        db_path = Path(os.environ.get("SQLITE_DB_PATH", str(_DEFAULT_FEEDBACK_DB)))
+        feedback_store = SQLiteFeedbackStore(db_path)
+        share_store = SQLiteShareStore(db_path)
     oracle = CitationOracle(_DUMPS_DIR)
     relations = SuttaRelations(oracle.known_suttas)
     title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
