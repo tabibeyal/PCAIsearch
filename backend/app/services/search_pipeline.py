@@ -268,22 +268,9 @@ def _enforce_citation_limit(text: str, max_citations: int = 3) -> str:
 
 
 def _build_messages(query: str, chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    # Filter out near-empty chunks and deduplicate identical English text
-    # to prevent the model from seeing multiple copies of the same phrase.
-    seen_english: set[str] = set()
-    kept: list[dict[str, Any]] = []
-    for c in chunks:
-        eng = c.get("english", "").strip()
-        if len(eng.split()) < 4:
-            continue
-        if eng in seen_english:
-            continue
-        seen_english.add(eng)
-        kept.append(c)
-
     context_text = "\n\n".join(
         f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
-        for c in kept
+        for c in chunks
     )
     return [
         {"role": "system", "content": _SYSTEM_PROMPT},
@@ -571,25 +558,45 @@ class SearchPipeline:
                     related.add(ref)
         return sorted(related)
 
+    @staticmethod
+    def prepare_context(chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        """Filter out near-empty chunks and deduplicate identical English text so
+        the model never sees multiple copies of the same phrase. This is the
+        "kept context" — synthesis, the Guardrail, the Receipt, and the API
+        response must all share this exact list, not the raw retrieved chunks."""
+        seen_english: set[str] = set()
+        kept: list[dict[str, Any]] = []
+        for c in chunks:
+            eng = c.get("english", "").strip()
+            if len(eng.split()) < 4:
+                continue
+            if eng in seen_english:
+                continue
+            seen_english.add(eng)
+            kept.append(c)
+        return kept
+
     async def synthesize(self, query: str, context_chunks: list[dict[str, Any]]) -> str:
+        kept = self.prepare_context(context_chunks)
         message = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=1200,
             temperature=0.3,
             timeout=120.0,
-            messages=_build_messages(query, context_chunks),
+            messages=_build_messages(query, kept),
         )
         raw = _normalize_citations(_strip_thinking(message.choices[0].message.content))
         return _enforce_citation_limit(raw)
 
     async def stream_synthesize(self, query: str, context_chunks: list[dict[str, Any]]):
+        kept = self.prepare_context(context_chunks)
         stream = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=1200,
             temperature=0.3,
             timeout=120.0,
             stream=True,
-            messages=_build_messages(query, context_chunks),
+            messages=_build_messages(query, kept),
         )
         full_text = ""
         async for chunk in stream:

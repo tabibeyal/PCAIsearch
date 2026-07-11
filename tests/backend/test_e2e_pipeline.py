@@ -156,6 +156,10 @@ def api_client(live_pipeline):
     from backend.app.main import app
     with patch("backend.app.main.SearchPipeline", return_value=live_pipeline):
         with TestClient(app) as c:
+            # AnswerComposer takes title_index as its own direct dependency
+            # (not reached through pipeline), so the fixture's title_index
+            # must be pushed onto the composer too.
+            app.state.composer.title_index = live_pipeline.title_index
             yield c
 
 
@@ -242,10 +246,13 @@ def test_e2e_api_synthesize_context_omits_title_fields_when_not_in_index(api_cli
 
 
 def test_e2e_api_synthesize_includes_verifiable_receipt(api_client, live_pipeline, monkeypatch):
-    import backend.app.main as m
+    from backend.app.main import app
     from backend.app.services.share_receipt import verify_receipt
 
-    monkeypatch.setattr(m, "_SHARE_RECEIPT_SECRET", "fake-signing-value-for-tests")
+    # AnswerComposer captures the receipt secret as its own constructor
+    # dependency, not a live module-global lookup, so it must be patched on
+    # the composer instance directly.
+    monkeypatch.setattr(app.state.composer, "receipt_secret", "fake-signing-value-for-tests")
     _mock_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
     response = api_client.get("/synthesize?q=mindfulness")
     body = response.json()
@@ -255,10 +262,13 @@ def test_e2e_api_synthesize_includes_verifiable_receipt(api_client, live_pipelin
 
 
 def test_e2e_api_stream_includes_verifiable_receipt(api_client, live_pipeline, monkeypatch):
-    import backend.app.main as m
+    from backend.app.main import app
     from backend.app.services.share_receipt import verify_receipt
 
-    monkeypatch.setattr(m, "_SHARE_RECEIPT_SECRET", "fake-signing-value-for-tests")
+    # AnswerComposer captures the receipt secret as its own constructor
+    # dependency, not a live module-global lookup, so it must be patched on
+    # the composer instance directly.
+    monkeypatch.setattr(app.state.composer, "receipt_secret", "fake-signing-value-for-tests")
     _mock_stream_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
     response = api_client.get("/stream?q=mindfulness")
     events = [
