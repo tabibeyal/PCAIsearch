@@ -5,13 +5,14 @@ import pytest
 from fastapi.testclient import TestClient
 
 from backend.app.main import app
-from backend.app.services.feedback_store import SQLiteFeedbackStore, SupabaseFeedbackStore
+from backend.app.services.feedback_store import SupabaseFeedbackStore
 from tests.backend.fakes import FakeSupabaseRestClient
 
 
 @pytest.fixture
-def client(monkeypatch):
+def client(monkeypatch, tmp_path):
     monkeypatch.setenv("NVIDIA_API_KEY", "fake-key-for-tests")
+    monkeypatch.setenv("SQLITE_DB_PATH", str(tmp_path / "feedback.db"))
     mock_qdrant = AsyncMock()
     mock_qdrant.create_payload_index = AsyncMock(return_value=None)
     with patch("backend.app.services.search_pipeline.AsyncQdrantClient", return_value=mock_qdrant):
@@ -21,9 +22,7 @@ def client(monkeypatch):
 
 @pytest.fixture
 def feedback_client(client, tmp_path):
-    db = tmp_path / "feedback.db"
-    client.app.state.feedback_store = SQLiteFeedbackStore(db)
-    return client, db
+    return client, tmp_path / "feedback.db"
 
 
 @pytest.fixture

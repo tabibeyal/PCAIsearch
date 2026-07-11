@@ -7,7 +7,7 @@ from fastapi.testclient import TestClient
 import backend.app.main as m
 from backend.app.main import app
 from backend.app.services.share_receipt import generate_receipt
-from backend.app.services.share_store import SQLiteShareStore, SupabaseShareStore
+from backend.app.services.share_store import SupabaseShareStore
 from tests.backend.fakes import FakeSupabaseRestClient
 
 SIGNING_KEY = "fake-signing-value-for-tests"
@@ -42,9 +42,10 @@ def _sanitized(context: list[dict]) -> list[dict]:
 
 
 @pytest.fixture
-def client(monkeypatch):
+def client(monkeypatch, tmp_path):
     monkeypatch.setattr(m, "_SHARE_RECEIPT_SECRET", SIGNING_KEY)
     monkeypatch.setenv("NVIDIA_API_KEY", "fake-key-for-tests")
+    monkeypatch.setenv("SQLITE_DB_PATH", str(tmp_path / "feedback.db"))
     mock_qdrant = AsyncMock()
     mock_qdrant.create_payload_index = AsyncMock(return_value=None)
     with patch("backend.app.services.search_pipeline.AsyncQdrantClient", return_value=mock_qdrant):
@@ -54,9 +55,7 @@ def client(monkeypatch):
 
 @pytest.fixture
 def share_client(client, tmp_path):
-    db = tmp_path / "feedback.db"
-    client.app.state.share_store = SQLiteShareStore(db)
-    return client, db
+    return client, tmp_path / "feedback.db"
 
 
 @pytest.fixture
