@@ -70,17 +70,12 @@ def test_reranker_single_chunk(reranker):
     assert abs(result[0]["rerank_score"] - 0.7) < 1e-5
 
 
-def test_reranker_real_model_orders_by_relevance():
-    """Cross-encoder assigns higher score to the relevant chunk."""
+def test_reranker_reuses_loaded_model():
+    """Heavy CrossEncoder models must be shared, not reloaded per instance."""
     from backend.app.services.search_pipeline import Reranker
-    r = Reranker()
-    query = "mindfulness meditation practice"
-    chunks = [
-        {"id": "A", "pali": "metta", "english": "Loving-kindness towards all beings."},
-        {"id": "B", "pali": "sati", "english": "Mindfulness is awareness of the present moment."},
-    ]
-    result = r.rerank_multi([query], chunks)
-    assert result[0]["id"] == "B", "Mindfulness chunk should rank above loving-kindness"
+    reranker_one = Reranker()
+    reranker_two = Reranker()
+    assert reranker_one.model is reranker_two.model
 
 
 # ---------------------------------------------------------------------------

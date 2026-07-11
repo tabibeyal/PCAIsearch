@@ -34,7 +34,21 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
                   : 'bg-white border-[#e8e4dc]'
               }`}
             >
-              <div className="text-xs font-semibold mb-2">
+              {(verse.title_english || verse.title_pali) && (
+                <div className="mb-2">
+                  {verse.title_english && (
+                    <div className="text-base font-semibold text-[#2c1f14]">
+                      {verse.title_english}
+                    </div>
+                  )}
+                  {verse.title_pali && (
+                    <div className="text-sm italic text-[#76604a]">
+                      {verse.title_pali}
+                    </div>
+                  )}
+                </div>
+              )}
+              <div className="text-xs font-semibold mb-3">
                 <a
                   href={dhammatalksUrl(verse.id)}
                   target="_blank"
@@ -43,9 +57,6 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
                 >
                   {verse.id}
                 </a>
-              </div>
-              <div className="mb-3 text-base leading-relaxed italic text-[#76604a]">
-                {verse.pali}
               </div>
               {verse.passage ? (
                 <div className="space-y-2 text-[15px] leading-[1.75]">

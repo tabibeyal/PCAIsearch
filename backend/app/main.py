@@ -214,6 +214,7 @@ async def search(
     filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
     results = await pipeline.search(q, top_k=top_k, nikayas=filtered_nikayas)
     related_suttas = pipeline.get_related_suttas(results)
+    results = _attach_titles(results, pipeline.title_index)
     return {"query": q, "results": results, "related_suttas": related_suttas}
 
 def _attach_passages(context: list[dict], store: PassageStore) -> list[dict]:
@@ -228,14 +229,18 @@ def _attach_passages(context: list[dict], store: PassageStore) -> list[dict]:
 
 
 def _attach_titles(context: list[dict], title_index: SuttaTitleIndex) -> list[dict]:
-    """Add a display-only `title` field (canonical sutta title) used by the
-    copy-to-clipboard feature to expand citations to `[ID:Verse — Title]`."""
+    """Add display-only `title`, `title_pali`, `title_english` fields (canonical sutta
+    title) used by the copy-to-clipboard feature (composite `title`) and the sources
+    pane (split `title_pali` / `title_english`)."""
     for chunk in context:
         chunk_id = chunk.get("id", "")
         sutta_key = chunk_id.rsplit(":", 1)[0].replace(" ", "")
         title = title_index.get_title_text(sutta_key)
         if title:
             chunk["title"] = title
+        parts = title_index.get_title_parts(sutta_key)
+        if parts:
+            chunk["title_pali"], chunk["title_english"] = parts
     return context
 
 

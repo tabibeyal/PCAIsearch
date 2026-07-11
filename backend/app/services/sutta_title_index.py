@@ -17,27 +17,30 @@ class SuttaTitleIndex:
 
     def __init__(self, entries: list[dict]):
         self._sutta_ids = [e["sutta_id"] for e in entries]
-        self._title_texts = {
-            e["sutta_id"]: self._build_title_text(e)
-            for e in entries
-        }
+        self._entries = {e["sutta_id"]: e for e in entries}
         corpus = [
             tokenize(f"{e['title_pali']} {e['title_english']} {e.get('body_text', '')}")
             for e in entries
         ]
         self._bm25 = BM25Okapi(corpus)
 
-    @staticmethod
-    def _build_title_text(entry: dict) -> str:
+    def get_title_parts(self, sutta_id: str) -> tuple[str, str] | None:
+        entry = self._entries.get(sutta_id)
+        if entry is None:
+            return None
         pali = entry["title_pali"]
         english = entry["title_english"]
         v3 = entry.get("v3_english", "")
         if _CHAPTER_HEADER_RE.match(english) and v3:
-            return f"{pali} {v3}"
-        return f"{pali} {english}"
+            english = v3
+        return pali, english
 
     def get_title_text(self, sutta_id: str) -> str:
-        return self._title_texts.get(sutta_id, "")
+        parts = self.get_title_parts(sutta_id)
+        if parts is None:
+            return ""
+        pali, english = parts
+        return f"{pali} {english}"
 
     def search(self, query: str, top_n: int = 5) -> list[tuple[str, float]]:
         tokens = tokenize(query)

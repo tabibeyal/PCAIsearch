@@ -32,13 +32,21 @@ class SuttaParser:
         return chunks
 
 
+_MODEL_CACHE: dict[str, TextEmbedding] = {}
+
+
 class EmbeddingManager:
     """
     Handles the multilingual embedding model and Qdrant collection setup.
     Uses fastembed (ONNX Runtime) for compatibility with older CPUs.
+
+    NOTE: the heavy TextEmbedding model is cached globally so that tests (and
+    multiple pipeline instances) do not reload it for every SearchPipeline().
     """
     def __init__(self, model_name: str = 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'):
-        self._model = TextEmbedding(model_name)
+        if model_name not in _MODEL_CACHE:
+            _MODEL_CACHE[model_name] = TextEmbedding(model_name)
+        self._model = _MODEL_CACHE[model_name]
         self.dimension = 384  # paraphrase-multilingual-MiniLM-L12-v2 output dim
 
     def encode(self, text: str) -> list:

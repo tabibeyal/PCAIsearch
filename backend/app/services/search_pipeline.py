@@ -145,9 +145,19 @@ def _relevance_scores(rerank_scores: list[float]) -> list[float]:
     ]
 
 
+_RERANKER_CACHE: dict[str, CrossEncoder] = {}
+
+
 class Reranker:
+    """
+    Cross-encoder reranker. The underlying model is cached globally because it
+    is large (~400 MB) and slow to load; without caching every SearchPipeline()
+    in tests reloads it and exhausts memory.
+    """
     def __init__(self, model_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"):
-        self.model = CrossEncoder(model_name)
+        if model_name not in _RERANKER_CACHE:
+            _RERANKER_CACHE[model_name] = CrossEncoder(model_name)
+        self.model = _RERANKER_CACHE[model_name]
 
     def rerank_multi(self, queries: list[str], chunks: list[dict]) -> list[dict]:
         if not chunks:
@@ -255,26 +265,6 @@ def _enforce_citation_limit(text: str, max_citations: int = 3) -> str:
         kept = items[:max_citations]
         return f"[{', '.join(kept)}]"
     return _CITATION_RE.sub(_trim, text)
-
-
-def _strip_orphan_citations(text: str, chunk_ids: set[str]) -> str:
-    """Post-process: remove citations that do not match any chunk ID.
-
-    Citation IDs in the text should exactly match IDs from the context.
-    Any orphaned citation is removed; if a bracket becomes empty it is
-    removed entirely.
-    """
-    def _filter(match: re.Match) -> str:
-        inner = match.group(1)
-        items = [item.strip() for item in inner.split(",")]
-        valid = [item for item in items if item in chunk_ids]
-        if not valid:
-            return ""
-        return f"[{', '.join(valid)}]"
-    text = _CITATION_RE.sub(_filter, text)
-    # Strip trailing orphan brackets that are not attached to any sentence.
-    text = re.sub(r'\s*\[[^\]]+\]\s*$', '', text)
-    return text
 
 
 def _build_messages(query: str, chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -582,7 +572,6 @@ class SearchPipeline:
         return sorted(related)
 
     async def synthesize(self, query: str, context_chunks: list[dict[str, Any]]) -> str:
-        allowed_ids = {c["id"] for c in context_chunks}
         message = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=1200,
@@ -591,10 +580,9 @@ class SearchPipeline:
             messages=_build_messages(query, context_chunks),
         )
         raw = _normalize_citations(_strip_thinking(message.choices[0].message.content))
-        return _strip_orphan_citations(_enforce_citation_limit(raw), allowed_ids)
+        return _enforce_citation_limit(raw)
 
     async def stream_synthesize(self, query: str, context_chunks: list[dict[str, Any]]):
-        allowed_ids = {c["id"] for c in context_chunks}
         stream = await self.llm.chat.completions.create(
             model=self.llm_model,
             max_tokens=1200,
@@ -611,4 +599,4 @@ class SearchPipeline:
             if delta:
                 full_text += delta
                 yield {"type": "chunk", "text": delta}
-        yield {"type": "full", "text": _strip_orphan_citations(_enforce_citation_limit(_normalize_citations(_strip_thinking(full_text))), allowed_ids)}
+        yield {"type": "full", "text": _enforce_citation_limit(_normalize_citations(_strip_thinking(full_text)))}

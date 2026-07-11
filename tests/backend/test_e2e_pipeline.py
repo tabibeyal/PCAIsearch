@@ -172,6 +172,31 @@ def test_e2e_api_search_top_result_is_most_relevant(api_client):
     assert response.json()["results"][0]["id"] == "MN 10:1"
 
 
+def test_e2e_api_search_results_include_sutta_title(api_client):
+    response = api_client.get("/search?q=mindfulness+breathing")
+    results_by_id = {r["id"]: r for r in response.json()["results"]}
+    assert results_by_id["MN 10:1"]["title"] == "Satipaṭṭhānasutta Mindfulness Meditation"
+
+
+def test_e2e_api_search_results_include_title_pali(api_client):
+    response = api_client.get("/search?q=mindfulness+breathing")
+    results_by_id = {r["id"]: r for r in response.json()["results"]}
+    assert results_by_id["MN 10:1"]["title_pali"] == "Satipaṭṭhānasutta"
+
+
+def test_e2e_api_search_results_include_title_english(api_client):
+    response = api_client.get("/search?q=mindfulness+breathing")
+    results_by_id = {r["id"]: r for r in response.json()["results"]}
+    assert results_by_id["MN 10:1"]["title_english"] == "Mindfulness Meditation"
+
+
+def test_e2e_api_search_omits_title_fields_when_not_in_index(api_client):
+    response = api_client.get("/search?q=teachings")
+    results_by_id = {r["id"]: r for r in response.json()["results"]}
+    assert "title_pali" not in results_by_id["DN 1:1"]
+    assert "title_english" not in results_by_id["DN 1:1"]
+
+
 def test_e2e_api_synthesize_faithful_answer(api_client, live_pipeline):
     _mock_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
     response = api_client.get("/synthesize?q=mindfulness")
@@ -189,6 +214,31 @@ def test_e2e_api_synthesize_context_includes_sutta_title(api_client, live_pipeli
     body = response.json()
     context_by_id = {c["id"]: c for c in body["context"]}
     assert context_by_id["MN 10:1"]["title"] == "Satipaṭṭhānasutta Mindfulness Meditation"
+
+
+def test_e2e_api_synthesize_context_includes_title_pali(api_client, live_pipeline):
+    _mock_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
+    response = api_client.get("/synthesize?q=mindfulness")
+    body = response.json()
+    context_by_id = {c["id"]: c for c in body["context"]}
+    assert context_by_id["MN 10:1"]["title_pali"] == "Satipaṭṭhānasutta"
+
+
+def test_e2e_api_synthesize_context_includes_title_english(api_client, live_pipeline):
+    _mock_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
+    response = api_client.get("/synthesize?q=mindfulness")
+    body = response.json()
+    context_by_id = {c["id"]: c for c in body["context"]}
+    assert context_by_id["MN 10:1"]["title_english"] == "Mindfulness Meditation"
+
+
+def test_e2e_api_synthesize_context_omits_title_fields_when_not_in_index(api_client, live_pipeline):
+    _mock_synthesis(live_pipeline, "See [MN 10:1].")
+    response = api_client.get("/synthesize?q=teachings")
+    body = response.json()
+    context_by_id = {c["id"]: c for c in body["context"]}
+    assert "title_pali" not in context_by_id["DN 1:1"]
+    assert "title_english" not in context_by_id["DN 1:1"]
 
 
 def test_e2e_api_synthesize_includes_verifiable_receipt(api_client, live_pipeline, monkeypatch):
@@ -224,6 +274,32 @@ def test_e2e_api_stream_includes_verifiable_receipt(api_client, live_pipeline, m
         done_event["receipt"],
         "fake-signing-value-for-tests",
     )
+
+
+def test_e2e_api_stream_context_includes_title_pali(api_client, live_pipeline):
+    _mock_stream_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
+    response = api_client.get("/stream?q=mindfulness")
+    events = [
+        json.loads(line[len("data: "):])
+        for line in response.text.splitlines()
+        if line.startswith("data: ")
+    ]
+    done_event = next(e for e in events if e["type"] == "done")
+    context_by_id = {c["id"]: c for c in done_event["context"]}
+    assert context_by_id["MN 10:1"]["title_pali"] == "Satipaṭṭhānasutta"
+
+
+def test_e2e_api_stream_context_includes_title_english(api_client, live_pipeline):
+    _mock_stream_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
+    response = api_client.get("/stream?q=mindfulness")
+    events = [
+        json.loads(line[len("data: "):])
+        for line in response.text.splitlines()
+        if line.startswith("data: ")
+    ]
+    done_event = next(e for e in events if e["type"] == "done")
+    context_by_id = {c["id"]: c for c in done_event["context"]}
+    assert context_by_id["MN 10:1"]["title_english"] == "Mindfulness Meditation"
 
 
 def test_e2e_api_synthesize_hallucination_flagged(api_client, live_pipeline):

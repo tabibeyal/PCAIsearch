@@ -11,6 +11,8 @@ export interface SearchResult {
   score: number;
   passage?: PassageLine[];
   title?: string;
+  title_pali?: string;
+  title_english?: string;
 }
 
 export interface SynthesisResponse {
