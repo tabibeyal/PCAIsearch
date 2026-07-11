@@ -49,3 +49,6 @@ CLAUDE.local.md
 
 # Personal Claude Code overrides (per-developer, not shared)
 .claude/settings.local.json
+
+# tokensave code-graph cache
+.tokensave/
