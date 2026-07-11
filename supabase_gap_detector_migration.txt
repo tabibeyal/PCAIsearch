@@ -1,6 +1,0 @@
--- Run this in the Supabase SQL editor for the PCAIsearch project.
--- Adds the column the Gap Detector uses to avoid reprocessing feedback rows
--- it has already turned into (or matched against) a GitHub issue.
--- See ADR-0004 and CONTEXT.md § Gap detection.
-
-ALTER TABLE feedback ADD COLUMN gap_issue_url text;
