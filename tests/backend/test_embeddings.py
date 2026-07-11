@@ -23,3 +23,10 @@ def test_qdrant_collection_setup():
 
     collections = client.get_collections()
     assert any(c.name == collection_name for c in collections.collections)
+
+
+def test_embedding_manager_reuses_loaded_model():
+    """Heavy TextEmbedding models must be shared, not reloaded per instance."""
+    manager_one = EmbeddingManager()
+    manager_two = EmbeddingManager()
+    assert manager_one._model is manager_two._model

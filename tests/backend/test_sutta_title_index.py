@@ -135,6 +135,51 @@ def test_get_title_text_keeps_v2_when_not_chapter_header():
     assert "So I have heard" not in text
 
 
+def test_get_title_parts_uses_v3_english_when_v2_is_chapter_header():
+    entries = [
+        {
+            "sutta_id": "SN22.59",
+            "title_pali": "Anattalakkhaṇasutta",
+            "title_english": "6. Involvement",
+            "v3_english": "The Characteristic of Not-Self",
+        }
+    ]
+    index = SuttaTitleIndex(entries)
+    _, english = index.get_title_parts("SN22.59")
+    assert english == "The Characteristic of Not-Self"
+
+
+def test_get_title_parts_keeps_v2_pali_when_not_chapter_header():
+    entries = [
+        {
+            "sutta_id": "MN10",
+            "title_pali": "Satipaṭṭhānasutta",
+            "title_english": "Mindfulness Meditation",
+        }
+    ]
+    index = SuttaTitleIndex(entries)
+    pali, _ = index.get_title_parts("MN10")
+    assert pali == "Satipaṭṭhānasutta"
+
+
+def test_get_title_parts_keeps_v2_english_when_not_chapter_header():
+    entries = [
+        {
+            "sutta_id": "MN10",
+            "title_pali": "Satipaṭṭhānasutta",
+            "title_english": "Mindfulness Meditation",
+        }
+    ]
+    index = SuttaTitleIndex(entries)
+    _, english = index.get_title_parts("MN10")
+    assert english == "Mindfulness Meditation"
+
+
+def test_get_title_parts_returns_none_for_unknown_sutta():
+    index = make_index()
+    assert index.get_title_parts("XX999") is None
+
+
 def test_from_directory_get_title_text_uses_v3_for_sn(tmp_path):
     import json
     verses = [

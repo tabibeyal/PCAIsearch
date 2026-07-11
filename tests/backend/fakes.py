@@ -7,61 +7,62 @@ from backend.app.services.search_pipeline import SearchPipeline
 class FakeSupabaseRestClient:
     """Behaves like the real Supabase PostgREST API against an in-memory
     table, instead of just recording calls — so tests can assert on actual
-    behavior rather than on the shape of the request made."""
+    behavior rather than on the shape of the request made.
+
+    Mirrors SupabaseRestClient's structured-filter signature: callers pass
+    `eq`/`is_null`/`select`/`order` kwargs, never a pre-assembled filter
+    string, so the fake filters in-memory the same way the real client
+    builds an encoded query string.
+    """
 
     def __init__(self) -> None:
         self._tables: dict[str, list[dict[str, Any]]] = {}
 
-    def post(self, table: str, payload: dict[str, Any]) -> None:
+    def post(self, table: str, payload: dict[str, Any], *, error_label: str) -> None:
         rows = self._tables.setdefault(table, [])
         row = dict(payload)
         row.setdefault("id", len(rows) + 1)
         row.setdefault("created_at", datetime.now(timezone.utc).isoformat())
         rows.append(row)
 
-    def get(self, table: str, query: str) -> list[dict[str, Any]]:
-        rows = list(self._tables.get(table, []))
-        if not query:
-            return rows
-        conditions: list[tuple[str, str | None]] = []
-        order_field: str | None = None
-        order_desc = False
-        select_fields: list[str] | None = None
-        for part in query.split("&"):
-            key, _, value = part.partition("=")
-            if key == "order":
-                field, _, direction = value.partition(".")
-                order_field, order_desc = field, direction == "desc"
-            elif key == "select":
-                select_fields = value.split(",")
-            elif value == "is.null":
-                conditions.append((key, None))
-            elif value.startswith("eq."):
-                conditions.append((key, value[len("eq."):]))
-        rows = [r for r in rows if _matches(r, conditions)]
-        if order_field:
-            rows.sort(key=lambda r: r.get(order_field), reverse=order_desc)
-        if select_fields:
-            rows = [{f: r.get(f) for f in select_fields} for r in rows]
+    def get(
+        self,
+        table: str,
+        *,
+        eq: dict[str, Any] | None = None,
+        is_null: list[str] | None = None,
+        select: list[str] | None = None,
+        order: tuple[str, str] | None = None,
+    ) -> list[dict[str, Any]]:
+        rows = [r for r in self._tables.get(table, []) if _matches(r, eq, is_null)]
+        if order:
+            field, direction = order
+            rows.sort(key=lambda r: r.get(field), reverse=direction == "desc")
+        if select:
+            rows = [{f: r.get(f) for f in select} for r in rows]
         return rows
 
-    def patch(self, table: str, query: str, payload: dict[str, Any]) -> None:
-        conditions = [
-            (key, value[len("eq."):])
-            for key, _, value in (part.partition("=") for part in query.split("&"))
-            if value.startswith("eq.")
-        ]
+    def patch(
+        self,
+        table: str,
+        payload: dict[str, Any],
+        *,
+        eq: dict[str, Any] | None = None,
+        is_null: list[str] | None = None,
+    ) -> None:
         for row in self._tables.get(table, []):
-            if _matches(row, conditions):
+            if _matches(row, eq, is_null):
                 row.update(payload)
 
 
-def _matches(row: dict[str, Any], conditions: list[tuple[str, str | None]]) -> bool:
-    for field, expected in conditions:
-        if expected is None:
-            if row.get(field) is not None:
-                return False
-        elif str(row.get(field)) != expected:
+def _matches(
+    row: dict[str, Any], eq: dict[str, Any] | None, is_null: list[str] | None
+) -> bool:
+    if eq:
+        if any(str(row.get(col)) != str(val) for col, val in eq.items()):
+            return False
+    if is_null:
+        if any(row.get(col) is not None for col in is_null):
             return False
     return True
 

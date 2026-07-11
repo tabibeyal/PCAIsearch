@@ -26,8 +26,8 @@ from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.passage_context import PassageStore
 from backend.app.services.supabase_client import SupabaseRestClient
-from backend.app.services.feedback_store import SQLiteFeedbackStore, SupabaseFeedbackStore
-from backend.app.services.share_store import SQLiteShareStore, SupabaseShareStore
+from backend.app.services.feedback_store import FeedbackWriter, SQLiteFeedbackStore, SupabaseFeedbackStore
+from backend.app.services.share_store import ShareStore, SQLiteShareStore, SupabaseShareStore
 from backend.app.services.share_receipt import sanitize_context, verify_receipt
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
@@ -35,8 +35,12 @@ limiter = Limiter(key_func=get_remote_address)
 logger = logging.getLogger(__name__)
 
 _VALID_NIKAYAS = {"DN", "MN", "SN", "AN", "DHP", "ITI", "UD", "STNP", "THAG", "THIG", "KHP"}
+# Share ids are uuid4().hex — exactly 32 lowercase hex chars. Anything else is
+# rejected at the boundary before any storage call, so a crafted id can never
+# reach the PostgREST filter string (defense-in-depth with the client encoding).
+_SHARE_ID_RE = re.compile(r"^[0-9a-f]{32}$")
 _DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
-_FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
+_DEFAULT_FEEDBACK_DB = Path(__file__).parent.parent.parent / "feedback.db"
 _raw_supabase_url = os.environ.get("SUPABASE_URL") or ""
 _SUPABASE_URL = _raw_supabase_url.split("/rest/")[0].rstrip("/") or None
 _SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
@@ -79,13 +83,19 @@ class ContactBody(BaseModel):
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    feedback_store: FeedbackWriter
+    share_store: ShareStore
     if _SUPABASE_URL and _SUPABASE_KEY:
         supabase_client = SupabaseRestClient(_SUPABASE_URL, _SUPABASE_KEY)
         feedback_store = SupabaseFeedbackStore(supabase_client)
         share_store = SupabaseShareStore(supabase_client)
     else:
-        feedback_store = SQLiteFeedbackStore(_FEEDBACK_DB)
-        share_store = SQLiteShareStore(_FEEDBACK_DB)
+        # Resolved fresh on each startup (not a module-level constant) so a test
+        # fixture's env var, set before TestClient triggers startup, takes effect
+        # before any SQLite file is touched.
+        db_path = Path(os.environ.get("SQLITE_DB_PATH", str(_DEFAULT_FEEDBACK_DB)))
+        feedback_store = SQLiteFeedbackStore(db_path)
+        share_store = SQLiteShareStore(db_path)
     oracle = CitationOracle(_DUMPS_DIR)
     relations = SuttaRelations(oracle.known_suttas)
     title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
@@ -162,6 +172,11 @@ async def post_share(request: Request, body: ShareBody):
 
 @app.get("/share/{share_id}")
 async def get_share(request: Request, share_id: str):
+    # Reject malformed ids with the same 404 a genuine missing id gets, and do
+    # it before any storage call, so a crafted id can't be used to tell
+    # whether it was rejected here or merely not found in storage.
+    if not _SHARE_ID_RE.match(share_id):
+        raise HTTPException(status_code=404, detail="Not found")
     loop = asyncio.get_event_loop()
     result = await loop.run_in_executor(None, request.app.state.share_store.fetch, share_id)
     if result is None:
@@ -207,7 +222,25 @@ async def search(
     filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
     results = await pipeline.search(q, top_k=top_k, nikayas=filtered_nikayas)
     related_suttas = pipeline.get_related_suttas(results)
+    results = _attach_titles(results, pipeline.title_index)
     return {"query": q, "results": results, "related_suttas": related_suttas}
+
+
+def _attach_titles(context: list[dict], title_index: SuttaTitleIndex) -> list[dict]:
+    """Add display-only `title`, `title_pali`, `title_english` fields (canonical sutta
+    title) used by the copy-to-clipboard feature (composite `title`) and the sources
+    pane (split `title_pali` / `title_english`)."""
+    for chunk in context:
+        chunk_id = chunk.get("id", "")
+        sutta_key = chunk_id.rsplit(":", 1)[0].replace(" ", "")
+        title = title_index.get_title_text(sutta_key)
+        if title:
+            chunk["title"] = title
+        parts = title_index.get_title_parts(sutta_key)
+        if parts:
+            chunk["title_pali"], chunk["title_english"] = parts
+    return context
+
 
 @app.get("/synthesize")
 @limiter.limit("10/minute")

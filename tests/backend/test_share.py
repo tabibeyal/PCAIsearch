@@ -7,10 +7,25 @@ from fastapi.testclient import TestClient
 import backend.app.main as m
 from backend.app.main import app
 from backend.app.services.share_receipt import generate_receipt
-from backend.app.services.share_store import SQLiteShareStore, SupabaseShareStore
+from backend.app.services.share_store import SupabaseShareStore
 from tests.backend.fakes import FakeSupabaseRestClient
 
 SIGNING_KEY = "fake-signing-value-for-tests"
+
+
+class _RecordingShareStore:
+    """Records `fetch` calls so a test can prove the route never reached
+    storage for a rejected id."""
+
+    def __init__(self) -> None:
+        self.fetch_calls: list[str] = []
+
+    def save(self, share_id, query, answer, context) -> None:
+        pass
+
+    def fetch(self, share_id):
+        self.fetch_calls.append(share_id)
+        return None
 
 
 def _valid_payload() -> dict:
@@ -27,9 +42,10 @@ def _sanitized(context: list[dict]) -> list[dict]:
 
 
 @pytest.fixture
-def client(monkeypatch):
+def client(monkeypatch, tmp_path):
     monkeypatch.setattr(m, "_SHARE_RECEIPT_SECRET", SIGNING_KEY)
     monkeypatch.setenv("NVIDIA_API_KEY", "fake-key-for-tests")
+    monkeypatch.setenv("SQLITE_DB_PATH", str(tmp_path / "feedback.db"))
     mock_qdrant = AsyncMock()
     mock_qdrant.create_payload_index = AsyncMock(return_value=None)
     with patch("backend.app.services.search_pipeline.AsyncQdrantClient", return_value=mock_qdrant):
@@ -39,9 +55,7 @@ def client(monkeypatch):
 
 @pytest.fixture
 def share_client(client, tmp_path):
-    db = tmp_path / "feedback.db"
-    client.app.state.share_store = SQLiteShareStore(db)
-    return client, db
+    return client, tmp_path / "feedback.db"
 
 
 @pytest.fixture
@@ -49,6 +63,13 @@ def share_supabase_client(client):
     fake = FakeSupabaseRestClient()
     client.app.state.share_store = SupabaseShareStore(fake)
     return client, fake
+
+
+@pytest.fixture
+def reject_client(client):
+    store = _RecordingShareStore()
+    client.app.state.share_store = store
+    return client, store
 
 
 def test_share_valid_receipt_creates_shareable_answer(share_client):
@@ -124,7 +145,7 @@ def test_supabase_share_posts_correct_query(share_supabase_client):
 
     client.post("/share", json=payload)
 
-    [row] = fake.get("shared_answers", "")
+    [row] = fake.get("shared_answers")
     assert row["query"] == payload["query"]
 
 
@@ -134,7 +155,7 @@ def test_supabase_share_posts_correct_answer(share_supabase_client):
 
     client.post("/share", json=payload)
 
-    [row] = fake.get("shared_answers", "")
+    [row] = fake.get("shared_answers")
     assert row["answer"] == payload["answer"]
 
 
@@ -144,7 +165,7 @@ def test_supabase_share_posts_sanitized_context(share_supabase_client):
 
     client.post("/share", json=payload)
 
-    [row] = fake.get("shared_answers", "")
+    [row] = fake.get("shared_answers")
     assert row["context"] == _sanitized(payload["context"])
 
 
@@ -154,20 +175,74 @@ def test_supabase_share_posts_generated_id(share_supabase_client):
 
     r = client.post("/share", json=payload)
 
-    [row] = fake.get("shared_answers", "")
+    [row] = fake.get("shared_answers")
     assert row["id"] == r.json()["id"]
 
 
-def test_supabase_share_get_returns_stored_answer(share_supabase_client):
-    client, fake = share_supabase_client
+def test_supabase_share_get_returns_200(share_supabase_client):
+    client, _ = share_supabase_client
     payload = _valid_payload()
     share_id = client.post("/share", json=payload).json()["id"]
 
     r = client.get(f"/share/{share_id}")
 
     assert r.status_code == 200
-    assert r.json() == {
-        "query": payload["query"],
-        "answer": payload["answer"],
-        "context": _sanitized(payload["context"]),
-    }
+
+
+def test_supabase_share_get_preserves_query(share_supabase_client):
+    client, _ = share_supabase_client
+    payload = _valid_payload()
+    share_id = client.post("/share", json=payload).json()["id"]
+
+    body = client.get(f"/share/{share_id}").json()
+
+    assert body["query"] == payload["query"]
+
+
+def test_supabase_share_get_preserves_answer(share_supabase_client):
+    client, _ = share_supabase_client
+    payload = _valid_payload()
+    share_id = client.post("/share", json=payload).json()["id"]
+
+    body = client.get(f"/share/{share_id}").json()
+
+    assert body["answer"] == payload["answer"]
+
+
+def test_supabase_share_get_preserves_context(share_supabase_client):
+    client, _ = share_supabase_client
+    payload = _valid_payload()
+    share_id = client.post("/share", json=payload).json()["id"]
+
+    body = client.get(f"/share/{share_id}").json()
+
+    assert body["context"] == _sanitized(payload["context"])
+
+
+@pytest.mark.parametrize(
+    "share_id",
+    [
+        "abc&select=*",
+        "abc=eq.all",
+        "A" * 32,
+        "abc123",
+        "z" * 32,
+    ],
+    ids=["ampersand", "equals", "uppercase", "wrong_length", "non_hex"],
+)
+def test_share_id_rejected_404_without_storage_call(reject_client, share_id):
+    client, store = reject_client
+
+    r = client.get(f"/share/{share_id}")
+
+    assert (r.status_code, store.fetch_calls) == (404, [])
+
+
+def test_share_valid_hex_id_reaches_storage(reject_client):
+    """A well-formed 32-hex id is not short-circuited — it reaches the store."""
+    client, store = reject_client
+    valid_id = "abc123def456abc123def456abc123de"
+
+    client.get(f"/share/{valid_id}")
+
+    assert store.fetch_calls == [valid_id]

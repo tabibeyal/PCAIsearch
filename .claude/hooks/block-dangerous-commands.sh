@@ -129,8 +129,52 @@ if contains_cmd 'git[[:space:]]+clean[[:space:]]+-[a-zA-Z]*f'; then
 fi
 
 # ── Full backend test suite guard ───────────────────────────────────────
-# ponytail: full suite exhausts RAM with Firefox open and freezes the OS; run specific files only
-if contains_cmd 'tests/backend/' && ! contains_cmd 'tests/backend/test_'; then
+# ponytail: full suite exhausts RAM with Firefox open and freezes the OS; run specific files only.
+# Checked per-statement (split on ; & |) — a bare `pytest`/`python -m pytest` run, or a
+# directory-only path, is blocked unless that SAME statement names a specific test_*.py file
+# or ::nodeid. Per-statement matters: a naive whole-command ".py" search lets a dangerous
+# full-suite run hide behind any unrelated command in the same chain that happens to mention
+# a .py file (confirmed by testing: bundling the full-suite run with a following
+# `ls tests/backend/test_*.py` let it slip through).
+# v3: strip heredoc bodies before scanning. awk processes $COMMAND per line, so a single
+# quoted argument that happens to span multiple lines (e.g. a git commit message passed via
+# `<<'EOF' ... EOF`) got fragmented at line boundaries, splitting "pytest" and its qualifying
+# .py reference onto separate "statements" and false-positive-blocking (confirmed live: a
+# commit message mentioning pytest on one line and a test_*.py file on the next tripped it).
+# Known gap: this also blinds the guard to a bare pytest run smuggled inside a heredoc that is
+# itself executed (e.g. `bash <<'EOF'` piping to a shell) rather than used as inert data — judged
+# an acceptable trade for closing the much more common false-positive on ordinary multi-line text.
+strip_heredoc_bodies() {
+  local in_heredoc=0 delim="" line trimmed
+  local heredoc_re="<<-?[[:space:]]*(['\"]?)([A-Za-z_][A-Za-z0-9_]*)\\1"
+  while IFS= read -r line; do
+    if [ "$in_heredoc" = 1 ]; then
+      trimmed=$(printf '%s' "$line" | sed 's/^[[:space:]]*//')
+      [ "$trimmed" = "$delim" ] && in_heredoc=0
+      continue
+    fi
+    if [[ "$line" =~ $heredoc_re ]]; then
+      delim="${BASH_REMATCH[2]}"
+      in_heredoc=1
+    fi
+    printf '%s\n' "$line"
+  done
+}
+CMD_NO_HEREDOC=$(printf '%s\n' "$COMMAND" | strip_heredoc_bodies)
+if printf '%s\n' "$CMD_NO_HEREDOC" | awk '
+  BEGIN { IGNORECASE=1 }
+  {
+    n = split($0, stmts, /[;&|]/)
+    for (i = 1; i <= n; i++) {
+      s = stmts[i]
+      if (s ~ /(^|[^a-zA-Z0-9_.-])pytest([[:space:]]|$)/ \
+          && s !~ /(pip[0-9]*|pipx|conda|poetry|uv)[[:space:]]+(install|add)/ \
+          && s !~ /\.py(::|[[:space:]]|$)/) {
+        print "BAD"; exit
+      }
+    }
+  }
+' | grep -q BAD; then
   emit_deny "Blocked: full backend test suite freezes the OS (RAM + Firefox). Run a specific file: pytest tests/backend/test_<name>.py -q"
 fi
 

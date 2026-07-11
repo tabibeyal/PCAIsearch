@@ -98,12 +98,16 @@ class AnswerComposer:
                 chunk["passage"] = window
 
     def _attach_titles(self, context: list[dict[str, Any]]) -> None:
-        """Add a display-only `title` field (canonical sutta title) used by
-        the copy-to-clipboard feature to expand citations to
-        `[ID:Verse — Title]`."""
+        """Add display-only `title`, `title_pali`, `title_english` fields
+        (canonical sutta title) used by the copy-to-clipboard feature
+        (composite `title`) and the sources pane (split `title_pali` /
+        `title_english`)."""
         for chunk in context:
             chunk_id = chunk.get("id", "")
             sutta_key = chunk_id.rsplit(":", 1)[0].replace(" ", "")
             title = self.title_index.get_title_text(sutta_key)
             if title:
                 chunk["title"] = title
+            parts = self.title_index.get_title_parts(sutta_key)
+            if parts:
+                chunk["title_pali"], chunk["title_english"] = parts

@@ -1,3 +1,4 @@
+import sqlite3
 from typing import Any
 
 import pytest
@@ -13,7 +14,7 @@ class _SupabaseHarness:
         self.writer = SupabaseFeedbackStore(self.client)
 
     def all_rows(self) -> list[dict[str, Any]]:
-        return self.client.get("feedback", "")
+        return self.client.get("feedback")
 
 
 class _SQLiteHarness:
@@ -22,8 +23,6 @@ class _SQLiteHarness:
         self._db_path = db_path
 
     def all_rows(self) -> list[dict[str, Any]]:
-        import sqlite3
-
         con = sqlite3.connect(self._db_path)
         try:
             cols = ("query", "answer", "rating", "category", "comment")
