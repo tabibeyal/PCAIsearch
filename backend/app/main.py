@@ -214,6 +214,7 @@ async def search(
     filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
     results = await pipeline.search(q, top_k=top_k, nikayas=filtered_nikayas)
     related_suttas = pipeline.get_related_suttas(results)
+    results = _attach_titles(results, pipeline.title_index)
     return {"query": q, "results": results, "related_suttas": related_suttas}
 
 def _attach_passages(context: list[dict], store: PassageStore) -> list[dict]:

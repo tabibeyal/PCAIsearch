@@ -23,6 +23,20 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
               key={result.id}
               className="bg-white border border-[#e8e4dc] rounded-xl p-[14px]"
             >
+              {(result.title_english || result.title_pali) && (
+                <div className="mb-2">
+                  {result.title_english && (
+                    <div className="text-base font-semibold text-[#2c1f14]">
+                      {result.title_english}
+                    </div>
+                  )}
+                  {result.title_pali && (
+                    <div className="text-sm italic text-[#76604a]">
+                      {result.title_pali}
+                    </div>
+                  )}
+                </div>
+              )}
               {/* Header row */}
               <div className="flex items-center justify-between mb-2">
                 <a
