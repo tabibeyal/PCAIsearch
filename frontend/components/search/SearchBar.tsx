@@ -105,7 +105,7 @@ export function SearchBar() {
       {/* Animated placeholder fades in/out based on whether the box has a query or focus */}
       {mounted && (
         <div
-          className="absolute top-4 left-4 right-14 text-base leading-relaxed text-[#b5a494] pointer-events-none select-none"
+          className="absolute top-4 left-4 right-16 text-base leading-relaxed text-[#b5a494] pointer-events-none select-none"
           aria-hidden="true"
           style={{
             opacity: showAnim ? 1 : 0,
@@ -131,7 +131,7 @@ export function SearchBar() {
         onBlur={() => setFocused(false)}
         placeholder=""
         aria-label="Search the Pali Canon"
-        className="w-full bg-transparent resize-none outline-none text-[#2c1f14] text-base leading-relaxed max-h-64 overflow-y-auto relative z-10"
+        className="w-full bg-transparent resize-none outline-none text-[#2c1f14] text-base leading-relaxed max-h-64 overflow-y-auto relative z-10 pr-12"
         style={{ minHeight: '28px', caretColor: focused || query !== '' ? '#b5a494' : 'transparent' }}
       />
 
