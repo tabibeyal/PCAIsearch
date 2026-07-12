@@ -79,6 +79,14 @@ def test_synthesize_requires_q_param(client):
     assert response.status_code == 422
 
 
+def test_synthesize_returns_500_on_pipeline_failure(client):
+    with patch.object(app.state.pipeline, "search", new=AsyncMock(side_effect=RuntimeError("search failed"))):
+        response = client.get("/synthesize?q=mindfulness")
+
+    assert response.status_code == 500
+    assert response.json()["detail"] == "Search failed, please try again."
+
+
 def test_stream_default_top_k_is_15(client):
     captured = {}
 

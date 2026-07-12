@@ -251,7 +251,11 @@ async def synthesize(
     nikayas: list[str] | None = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
 ):
     filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
-    return await request.app.state.composer.answer(q, top_k=top_k, nikayas=filtered_nikayas)
+    try:
+        return await request.app.state.composer.answer(q, top_k=top_k, nikayas=filtered_nikayas)
+    except Exception as exc:
+        logger.error("synthesize error: %s", exc, exc_info=True)
+        raise HTTPException(status_code=500, detail="Search failed, please try again.")
 
 @app.get("/stream")
 @limiter.limit("10/minute")

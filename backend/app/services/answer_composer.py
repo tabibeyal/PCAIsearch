@@ -70,9 +70,6 @@ class AnswerComposer:
         yield {"type": "done", **self._finalize(query, kept, raw_answer)}
 
     def _finalize(self, query: str, kept: list[dict[str, Any]], raw_answer: str) -> dict[str, Any]:
-        """Shared tail of answer() and answer_stream(): verify citations,
-        attach display-only fields, and sign the receipt — same kept-context
-        list throughout."""
         verification = self.guardrail.process_response(raw_answer, kept)
         self._attach_passages(kept)
         self._attach_titles(kept)
@@ -89,19 +86,13 @@ class AnswerComposer:
         }
 
     def _attach_passages(self, context: list[dict[str, Any]]) -> None:
-        """Add a display-only `passage` field (cited verse + neighbors) where a
-        citation would otherwise show as a lone line. Leaves `english`
-        untouched so synthesis and the guardrail are unaffected."""
+        # Leaves `english` untouched so synthesis and the guardrail are unaffected.
         for chunk in context:
             window = self.passages.passage(chunk.get("id", ""))
             if window:
                 chunk["passage"] = window
 
     def _attach_titles(self, context: list[dict[str, Any]]) -> None:
-        """Add display-only `title`, `title_pali`, `title_english` fields
-        (canonical sutta title) used by the copy-to-clipboard feature
-        (composite `title`) and the sources pane (split `title_pali` /
-        `title_english`)."""
         for chunk in context:
             chunk_id = chunk.get("id", "")
             sutta_key = chunk_id.rsplit(":", 1)[0].replace(" ", "")
