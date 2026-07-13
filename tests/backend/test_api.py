@@ -28,6 +28,29 @@ def test_search_returns_results(client):
     assert body["results"][0]["id"] == "DN 1:1"
 
 
+def test_search_passes_commentary_marker_through(client):
+    # A commentary-flagged chunk reaches the response with the marker intact,
+    # so the frontend has the data to render a "Translator's introduction" label (#101).
+    mock_results = [
+        {"id": "DN 1:3", "pali": "", "english": "This sutta introduces the Buddha.", "score": 0.97, "section": "commentary"}
+    ]
+    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
+        response = client.get("/search?q=introduces")
+
+    assert response.json()["results"][0]["section"] == "commentary"
+
+
+def test_search_canon_chunk_has_no_section_marker(client):
+    # Canon chunks carry no section key — absence means canon (#101).
+    mock_results = [
+        {"id": "DN 1:4", "pali": "evam", "english": "Thus have I heard", "score": 0.99}
+    ]
+    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
+        response = client.get("/search?q=Thus+have+I+heard")
+
+    assert "section" not in response.json()["results"][0]
+
+
 def test_search_requires_q_param(client):
     response = client.get("/search")
     assert response.status_code == 422

@@ -23,12 +23,18 @@ class SuttaParser:
         chunks = []
         for verse in data.get("verses", []):
             verse_num = verse.get("number")
-            chunks.append({
+            chunk = {
                 "id": f"{formatted_id}:{verse_num}",
                 "nikaya": nikaya,
                 "pali": verse.get("pali", ""),
-                "english": verse.get("english", "")
-            })
+                "english": verse.get("english", ""),
+            }
+            # Translator-commentary marker from the fetch step (#101). Absent
+            # on canon verses, so pre-marker dumps parse as all-canon.
+            section = verse.get("section")
+            if section:
+                chunk["section"] = section
+            chunks.append(chunk)
         return chunks
 
 

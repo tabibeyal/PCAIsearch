@@ -45,13 +45,20 @@ class Retriever:
             with_payload=True,
             query_filter=qdrant_filter,
         )
-        return [
-            {
+        results: list[dict[str, Any]] = []
+        for r in response.points:
+            if not r.payload.get("english", "").strip():
+                continue
+            chunk: dict[str, Any] = {
                 "id": r.payload.get("id"),
                 "pali": r.payload.get("pali"),
                 "english": r.payload.get("english"),
                 "score": r.score,
             }
-            for r in response.points
-            if r.payload.get("english", "").strip()
-        ]
+            # Translator-commentary marker, carried through so the results API
+            # can flag commentary and the answer flow can exclude it (#101).
+            section = r.payload.get("section")
+            if section:
+                chunk["section"] = section
+            results.append(chunk)
+        return results
