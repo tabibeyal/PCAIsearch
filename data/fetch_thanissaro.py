@@ -40,6 +40,28 @@ _SKIP_CLASSES = {"note", "seealso", "stars", "suttaCite", "notetitle", "chap"}
 # Collections where body is made of verse stanzas rather than prose paragraphs
 _VERSE_NIKAYAS = {"DHP", "THAG", "THIG", "STNP"}
 
+# Section marker written onto translator-commentary verses. Absent on canon
+# verses, so old dumps stay valid. See issue #101.
+_COMMENTARY = "commentary"
+
+# Heading tag → outline level (lower = more senior). Used to tell when an
+# "Introduction" section ends: the next heading at the same or higher level
+# (not itself an intro heading) closes it; deeper sub-headings do not.
+_HEADING_LEVEL = {"h2": 2, "h3": 3, "h4": 4}
+
+
+def _is_wholly_italic(elem) -> bool:
+    """True when the paragraph's entire text sits inside <em>/<i> — Thanissaro's
+    general marker for translator commentary (verified across the source epub)."""
+    full = re.sub(r"\s+", " ", elem.get_text(separator=" ")).strip()
+    if not full:
+        return False
+    italic_text = re.sub(
+        r"\s+", " ",
+        " ".join(e.get_text(separator=" ") for e in elem.find_all(["em", "i"])),
+    ).strip()
+    return italic_text == full
+
 
 def _make_sutta_id(prefix: str, match: re.Match) -> str:
     groups = [g for g in match.groups() if g is not None]
@@ -92,9 +114,29 @@ def _strip_noise(sutta_div: BeautifulSoup) -> None:
         span.decompose()
 
 
-def _extract_prose_chunks(sutta_div: BeautifulSoup) -> list[str]:
-    chunks = []
-    for elem in sutta_div.find_all("p"):
+def _extract_prose_chunks(sutta_div: BeautifulSoup) -> list[tuple[str, str | None]]:
+    """Return (text, section) per prose paragraph in document order.
+
+    section is _COMMENTARY for translator commentary — paragraphs wholly wrapped
+    in italics, or any paragraph under an "Introduction" heading — and None for
+    canon text. The two signals overlap (intro paragraphs are usually italic);
+    each catches what the other misses.
+    """
+    chunks: list[tuple[str, str | None]] = []
+    is_in_intro = False
+    intro_level: int | None = None
+    for elem in sutta_div.descendants:
+        name = getattr(elem, "name", None)
+        if name in _HEADING_LEVEL:
+            classes = elem.get("class") or []
+            if "intro" in classes:
+                is_in_intro = True
+                intro_level = _HEADING_LEVEL[name]
+            elif is_in_intro and _HEADING_LEVEL[name] <= (intro_level or 0):
+                is_in_intro = False
+            continue
+        if name != "p":
+            continue
         if elem.find_parent(
             class_=lambda c: c and any(sk in (c if isinstance(c, list) else [c]) for sk in _SKIP_CLASSES)
         ):
@@ -102,17 +144,21 @@ def _extract_prose_chunks(sutta_div: BeautifulSoup) -> list[str]:
         if any(sk in (elem.get("class") or []) for sk in _SKIP_CLASSES):
             continue
         text = re.sub(r"\s+", " ", elem.get_text(separator=" ")).strip()
-        if text:
-            chunks.append(text)
+        if not text:
+            continue
+        section = _COMMENTARY if (is_in_intro or _is_wholly_italic(elem)) else None
+        chunks.append((text, section))
     return chunks
 
 
-def _extract_verse_chunks(sutta_div: BeautifulSoup) -> list[str]:
+def _extract_verse_chunks(sutta_div: BeautifulSoup) -> list[tuple[str, str | None]]:
+    # Verse collections (DHP, THAG, THIG, STNP) capture only stanza divs — no
+    # translator commentary lives there, so every chunk is canon (section=None).
     chunks = []
     for elem in sutta_div.find_all("div", class_=re.compile(r"^verse(-add)?$")):
         text = re.sub(r"\s+", " ", elem.get_text(separator=" ")).strip()
         if text:
-            chunks.append(text)
+            chunks.append((text, None))
     return chunks
 
 
@@ -138,8 +184,11 @@ def convert_file(html_bytes: bytes, nikaya_prefix: str, sutta_id: str, header: s
         {"number": 1, "pali": header,      "english": header},
         {"number": 2, "pali": pali_title,   "english": english_title},
     ]
-    for i, chunk in enumerate(body_chunks, start=3):
-        verses.append({"number": i, "pali": "", "english": chunk})
+    for i, (chunk, section) in enumerate(body_chunks, start=3):
+        verse = {"number": i, "pali": "", "english": chunk}
+        if section:
+            verse["section"] = section
+        verses.append(verse)
 
     return {"sutta_id": sutta_id, "verses": verses}
 
