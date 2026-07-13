@@ -24,7 +24,9 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
         {context.length === 0 ? (
           <div className="text-[#76604a] italic">No source verses found.</div>
         ) : (
-          context.map((verse) => (
+          context.map((verse) => {
+            const hasTitle = Boolean(verse.title_english || verse.title_pali);
+            return (
             <div
               key={verse.id}
               id={`verse-${verse.id.replace(/\s+/g, '-').toLowerCase()}`}
@@ -34,7 +36,7 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
                   : 'bg-white border-[#e8e4dc]'
               }`}
             >
-              {(verse.title_english || verse.title_pali) && (
+              {hasTitle && (
                 <div className="mb-2">
                   {verse.title_english && (
                     <div className="text-base font-semibold text-[#2c1f14]">
@@ -48,12 +50,18 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
                   )}
                 </div>
               )}
-              <div className="text-xs font-semibold mb-3">
+              <div className="mb-2">
+                {/* Badge under a title; plain small link when there is none (#85).
+                    Border keeps the pill visible on the active card, whose bg matches the pill's. */}
                 <a
                   href={dhammatalksUrl(verse.id)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#6b4e35] hover:underline"
+                  className={
+                    hasTitle
+                      ? 'inline-block bg-[#ede8df] border border-[#d4c4a8] text-[#6b4e35] text-xs font-medium px-2 py-0.5 rounded hover:underline'
+                      : 'text-[#6b4e35] text-xs font-semibold hover:underline'
+                  }
                 >
                   {verse.id}
                 </a>
@@ -75,7 +83,8 @@ export function SourceViewer({ context, activeRef, onClose }: SourceViewerProps)
                 </div>
               )}
             </div>
-          ))
+            );
+          })
         )}
       </div>
     </div>
