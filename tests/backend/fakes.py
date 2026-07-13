@@ -81,8 +81,14 @@ class FakePipeline:
         self.search_calls: list[dict[str, Any]] = []
         self.synthesize_contexts: list[list[dict[str, Any]]] = []
 
-    async def search(self, query: str, top_k: int, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
-        self.search_calls.append({"query": query, "top_k": top_k, "nikayas": nikayas})
+    async def search(
+        self,
+        query: str,
+        top_k: int,
+        nikayas: list[str] | None = None,
+        exclude_commentary: bool = False,
+    ) -> list[dict[str, Any]]:
+        self.search_calls.append({"query": query, "top_k": top_k, "nikayas": nikayas, "exclude_commentary": exclude_commentary})
         return self._context
 
     async def synthesize(self, query: str, context_chunks: list[dict[str, Any]]) -> str:
@@ -100,7 +106,13 @@ class RaisingFakePipeline:
     """FakePipeline whose search() raises, for asserting AnswerComposer
     propagates failures instead of swallowing them."""
 
-    async def search(self, query: str, top_k: int, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
+    async def search(
+        self,
+        query: str,
+        top_k: int,
+        nikayas: list[str] | None = None,
+        exclude_commentary: bool = False,
+    ) -> list[dict[str, Any]]:
         raise RuntimeError("search failed")
 
 
@@ -112,7 +124,13 @@ class MidStreamRaisingFakePipeline:
     def __init__(self, context: list[dict[str, Any]]) -> None:
         self._context = context
 
-    async def search(self, query: str, top_k: int, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
+    async def search(
+        self,
+        query: str,
+        top_k: int,
+        nikayas: list[str] | None = None,
+        exclude_commentary: bool = False,
+    ) -> list[dict[str, Any]]:
         return self._context
 
     prepare_context = staticmethod(SearchPipeline.prepare_context)

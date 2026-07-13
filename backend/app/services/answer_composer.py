@@ -36,7 +36,9 @@ class AnswerComposer:
         self.receipt_secret = receipt_secret
 
     async def answer(self, query: str, top_k: int, nikayas: list[str] | None = None) -> dict[str, Any]:
-        context = await self.pipeline.search(query, top_k=top_k, nikayas=nikayas)
+        # The answer flow is canon-only: translator commentary is excluded at
+        # retrieval time so every context slot is a usable canon passage (#102).
+        context = await self.pipeline.search(query, top_k=top_k, nikayas=nikayas, exclude_commentary=True)
         kept = self.pipeline.prepare_context(context)
         raw_answer = await self.pipeline.synthesize(query, kept)
         return self._finalize(query, kept, raw_answer)
@@ -52,7 +54,7 @@ class AnswerComposer:
         """
         t0 = time.perf_counter()
         yield {"type": "status", "text": "Searching the Canon…"}
-        context = await self.pipeline.search(query, top_k=top_k, nikayas=nikayas)
+        context = await self.pipeline.search(query, top_k=top_k, nikayas=nikayas, exclude_commentary=True)
         kept = self.pipeline.prepare_context(context)
         t1 = time.perf_counter()
         logger.info("stream/search: %.2fs", t1 - t0)

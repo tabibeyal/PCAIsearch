@@ -18,13 +18,23 @@ class BM25Retriever:
         corpus = [tokenize(v.get("english", "")) for v in verses]
         self._bm25 = BM25Okapi(corpus)
 
-    def retrieve(self, query: str, top_k: int, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
+    def retrieve(
+        self,
+        query: str,
+        top_k: int,
+        nikayas: list[str] | None = None,
+        exclude_commentary: bool = False,
+    ) -> list[dict[str, Any]]:
         tokens = tokenize(query)
         scores = self._bm25.get_scores(tokens)
         pairs = zip(self._verses, scores.tolist())
         if nikayas:
             allowed = set(nikayas)
             pairs = ((v, s) for v, s in pairs if v.get("nikaya") in allowed)
+        if exclude_commentary:
+            # Canon verses omit `section`; commentary verses carry "commentary"
+            # (#101). Drop them so the answer flow's BM25 slots stay canon (#102).
+            pairs = ((v, s) for v, s in pairs if v.get("section") != "commentary")
         ranked = sorted(pairs, key=lambda x: x[1], reverse=True)
         return [
             {**verse, "bm25_score": score}

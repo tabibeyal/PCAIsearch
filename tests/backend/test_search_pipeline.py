@@ -93,6 +93,38 @@ async def test_canon_chunk_has_no_section_marker_in_search():
 
 
 @pytest.mark.asyncio
+async def test_answer_flow_excludes_commentary_from_results():
+    """The answer-flow search path (exclude_commentary=True) drops commentary
+    from both dense and BM25 retrieval, so context slots fill with canon (#102)."""
+    chunks = [
+        {"id": "DN 1:3", "pali": "", "english": "This sutta introduces the Buddha as a teacher", "section": "commentary"},
+        {"id": "DN 1:4", "pali": "evam", "english": "Thus have I heard the Blessed One was dwelling"},
+    ]
+    pipeline, _ = await _make_pipeline_with_client(chunks)
+    pipeline.bm25_retriever = BM25Retriever(chunks)
+
+    results = await pipeline.search("This sutta introduces the Buddha", top_k=2, exclude_commentary=True)
+
+    assert [r["id"] for r in results] == ["DN 1:4"]
+
+
+@pytest.mark.asyncio
+async def test_plain_search_still_returns_commentary_chunk():
+    """The plain search path (exclude_commentary defaults to False) still
+    surfaces commentary — only the answer flow is canon-only (#102)."""
+    chunks = [
+        {"id": "DN 1:3", "pali": "", "english": "This sutta introduces the Buddha as a teacher", "section": "commentary"},
+        {"id": "DN 1:4", "pali": "evam", "english": "Thus have I heard the Blessed One was dwelling"},
+    ]
+    pipeline, _ = await _make_pipeline_with_client(chunks)
+    pipeline.bm25_retriever = BM25Retriever(chunks)
+
+    results = await pipeline.search("This sutta introduces the Buddha", top_k=2)
+
+    assert "DN 1:3" in {r["id"] for r in results}
+
+
+@pytest.mark.asyncio
 async def test_search_with_bm25_surfaces_exact_match():
     """BM25 path surfaces a passage whose exact words match the query."""
     chunks = [
@@ -477,7 +509,7 @@ async def test_multi_nikaya_search_includes_results_from_each_nikaya():
         for i in range(5)
     ]
 
-    async def fake_retrieve(query, top_k, nikayas=None):
+    async def fake_retrieve(query, top_k, nikayas=None, exclude_commentary=False):
         if nikayas == ["SN"]:
             return sn_results[:top_k]
         if nikayas == ["DHP"]:

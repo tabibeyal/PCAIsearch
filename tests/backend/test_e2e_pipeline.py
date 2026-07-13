@@ -23,6 +23,14 @@ CORPUS = [
     {"id": "DN 1:1",  "pali": "evam me sutaṃ",  "english": "Thus have I heard"},
     {"id": "MN 10:1", "pali": "sammā-sati",      "english": "Right Mindfulness of breathing"},
     {"id": "SN 5:10", "pali": "dukkha",           "english": "The truth of suffering and its cessation"},
+    # Translator commentary on mettā/kindness — the answer flow must exclude this
+    # at retrieval time while plain /search still returns it (#102).
+    {
+        "id": "AN 4:1",
+        "pali": "",
+        "english": "The translator notes that metta means kindness or goodwill throughout this discourse",
+        "section": "commentary",
+    },
 ]
 
 
@@ -163,13 +171,21 @@ async def test_e2e_guardrail_catches_hallucinated_citation(live_pipeline):
 @pytest.fixture(scope="module")
 def api_client(live_pipeline):
     from backend.app.main import app
-    with patch("backend.app.main.SearchPipeline", return_value=live_pipeline):
-        with TestClient(app) as c:
-            # AnswerComposer takes title_index as its own direct dependency
-            # (not reached through pipeline), so the fixture's title_index
-            # must be pushed onto the composer too.
-            app.state.composer.title_index = live_pipeline.title_index
-            yield c
+    # Rate limiting is a production concern, not behaviour under test here;
+    # the module issues >10 /synthesize calls, which would otherwise trip the
+    # 10/minute limiter mid-suite. Disabled for the fixture's lifetime only.
+    limiter = app.state.limiter
+    limiter.enabled = False
+    try:
+        with patch("backend.app.main.SearchPipeline", return_value=live_pipeline):
+            with TestClient(app) as c:
+                # AnswerComposer takes title_index as its own direct dependency
+                # (not reached through pipeline), so the fixture's title_index
+                # must be pushed onto the composer too.
+                app.state.composer.title_index = live_pipeline.title_index
+                yield c
+    finally:
+        limiter.enabled = True
 
 
 def test_e2e_api_search_returns_reranked_results(api_client):
@@ -259,6 +275,59 @@ def test_e2e_api_synthesize_context_omits_title_english_when_not_in_index(api_cl
     body = response.json()
     context_by_id = {c["id"]: c for c in body["context"]}
     assert "title_english" not in context_by_id["DN 1:1"]
+
+
+def test_e2e_api_search_still_returns_commentary_chunk(api_client):
+    """Plain /search is unchanged by #102: commentary chunks still surface."""
+    response = api_client.get("/search?q=kindness+goodwill+metta")
+    results_by_id = {r["id"]: r for r in response.json()["results"]}
+    assert "AN 4:1" in results_by_id
+
+
+def test_e2e_api_search_preserves_commentary_marker(api_client):
+    """The commentary chunk that plain /search returns keeps its section marker
+    so the frontend can label it (#101, unchanged by #102)."""
+    response = api_client.get("/search?q=kindness+goodwill+metta")
+    results_by_id = {r["id"]: r for r in response.json()["results"]}
+    assert results_by_id["AN 4:1"]["section"] == "commentary"
+
+
+def test_e2e_api_synthesize_excludes_commentary_from_context(api_client, live_pipeline):
+    """The answer flow excludes commentary at retrieval time, so the context
+    fed to the LLM and returned to the sources pane is canon-only (#102)."""
+    _mock_synthesis(live_pipeline, "Kindness is in [MN 10:1].")
+    response = api_client.get("/synthesize?q=kindness+goodwill+metta")
+    context_ids = {c["id"] for c in response.json()["context"]}
+    assert "AN 4:1" not in context_ids
+
+
+def test_e2e_api_synthesize_keeps_canon_in_context(api_client, live_pipeline):
+    """Excluding commentary does not empty the answer-flow context — canon
+    passages still fill the slots (#102)."""
+    _mock_synthesis(live_pipeline, "Kindness is in [MN 10:1].")
+    response = api_client.get("/synthesize?q=kindness+goodwill+metta")
+    context_ids = {c["id"] for c in response.json()["context"]}
+    assert "MN 10:1" in context_ids
+
+
+def test_e2e_api_stream_excludes_commentary_from_done_context(api_client, live_pipeline):
+    """The streaming answer flow excludes commentary too — the done event's
+    context is canon-only (#102)."""
+    _mock_stream_synthesis(live_pipeline, "Kindness is in [MN 10:1].")
+    response = api_client.get("/stream?q=kindness+goodwill+metta")
+    done_event = _stream_done_event(response)
+    context_ids = {c["id"] for c in done_event["context"]}
+    assert "AN 4:1" not in context_ids
+
+
+def test_e2e_api_stream_keeps_canon_in_done_context(api_client, live_pipeline):
+    """The streaming answer flow still returns canon passages after commentary
+    is excluded (#102)."""
+    _mock_stream_synthesis(live_pipeline, "Kindness is in [MN 10:1].")
+    response = api_client.get("/stream?q=kindness+goodwill+metta")
+    done_event = _stream_done_event(response)
+    context_ids = {c["id"] for c in done_event["context"]}
+    assert "MN 10:1" in context_ids
 
 
 def test_e2e_api_synthesize_includes_verifiable_receipt(api_client, live_pipeline, monkeypatch):

@@ -360,11 +360,17 @@ class SearchPipeline:
             variants.append(english_hit)
         return variants
 
-    def _bm25_dedup(self, queries: list[str], retrieval_k: int, nikayas: list[str] | None) -> list[dict[str, Any]]:
+    def _bm25_dedup(
+        self,
+        queries: list[str],
+        retrieval_k: int,
+        nikayas: list[str] | None,
+        exclude_commentary: bool = False,
+    ) -> list[dict[str, Any]]:
         """Run BM25 for each query, keep the highest-scoring copy of each verse, sort by score."""
         seen: dict[str, dict[str, Any]] = {}
         for q in queries:
-            for item in self.bm25_retriever.retrieve(q, retrieval_k, nikayas):
+            for item in self.bm25_retriever.retrieve(q, retrieval_k, nikayas, exclude_commentary):
                 item_id = item["id"]
                 if item_id not in seen or item["bm25_score"] > seen[item_id]["bm25_score"]:
                     seen[item_id] = item
@@ -391,6 +397,7 @@ class SearchPipeline:
         nikayas: list[str] | None,
         prefetched_first: list[dict[str, Any]],
         precomputed_bm25: list[dict[str, Any]] | None,
+        exclude_commentary: bool = False,
     ) -> list[dict[str, Any]]:
         """Retrieve → fuse → BM25 for a single nikaya bucket.
 
@@ -403,7 +410,10 @@ class SearchPipeline:
 
         extra_queries = queries[1:]
         if extra_queries:
-            extra = await asyncio.gather(*[self.retriever.retrieve(q, retrieval_k, nikayas) for q in extra_queries])
+            extra = await asyncio.gather(*[
+                self.retriever.retrieve(q, retrieval_k, nikayas, exclude_commentary=exclude_commentary)
+                for q in extra_queries
+            ])
             dense_fused = rrf_fuse_multi([prefetched_first] + list(extra))
         else:
             dense_fused = rrf_fuse_multi([prefetched_first])
@@ -415,7 +425,9 @@ class SearchPipeline:
             # Shared BM25 results pre-filtered by nikaya — skip recomputing.
             all_results = rrf_fuse_multi([dense_fused, precomputed_bm25])
         elif self.bm25_retriever:
-            bm25_results = await loop.run_in_executor(self._executor, self._bm25_dedup, queries, retrieval_k, nikayas)
+            bm25_results = await loop.run_in_executor(
+                self._executor, self._bm25_dedup, queries, retrieval_k, nikayas, exclude_commentary
+            )
             all_results = rrf_fuse_multi([dense_fused, bm25_results])
         else:
             all_results = dense_fused
@@ -423,7 +435,13 @@ class SearchPipeline:
         logger.info("bm25: %.2fs", time.perf_counter() - t1)
         return all_results
 
-    async def search(self, query: str, top_k: int = 10, nikayas: list[str] | None = None) -> list[dict[str, Any]]:
+    async def search(
+        self,
+        query: str,
+        top_k: int = 10,
+        nikayas: list[str] | None = None,
+        exclude_commentary: bool = False,
+    ) -> list[dict[str, Any]]:
         t0 = time.perf_counter()
         retrieval_k = max(top_k * 3, 30)
 
@@ -445,7 +463,10 @@ class SearchPipeline:
         # wait runs alongside the first Qdrant round-trip per bucket.
         gather_out = await asyncio.gather(
             self.expand_query(query),
-            *[self.retriever.retrieve(query, retrieval_k, [b] if b else None) for b in buckets],
+            *[
+                self.retriever.retrieve(query, retrieval_k, [b] if b else None, exclude_commentary=exclude_commentary)
+                for b in buckets
+            ],
         )
         queries: list[str] = gather_out[0]
         bucket_initials: list[list[dict[str, Any]]] = list(gather_out[1:])
@@ -459,7 +480,9 @@ class SearchPipeline:
         # N_buckets × N_queries times — ~6× redundant work.
         loop = asyncio.get_running_loop()
         if self.bm25_retriever:
-            shared_bm25 = await loop.run_in_executor(self._executor, self._bm25_dedup, queries, retrieval_k, None)
+            shared_bm25 = await loop.run_in_executor(
+                self._executor, self._bm25_dedup, queries, retrieval_k, None, exclude_commentary
+            )
             bm25_by_bucket: dict[str | None, list[dict[str, Any]] | None] = {
                 b: ([item for item in shared_bm25 if item.get("nikaya") == b] if b else shared_bm25)
                 for b in buckets
@@ -479,6 +502,7 @@ class SearchPipeline:
             self._run_pipeline(
                 queries, retrieval_k, ([b] if b else None),
                 prefetched_first=initial, precomputed_bm25=bm25_by_bucket[b],
+                exclude_commentary=exclude_commentary,
             )
             for b, initial in zip(buckets, bucket_initials)
         ])
