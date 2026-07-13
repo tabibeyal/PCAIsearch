@@ -104,3 +104,28 @@ def test_nikaya_filter_none_is_unfiltered():
     unfiltered = r.retrieve("right view impermanent happiness", top_k=10)
     with_none = r.retrieve("right view impermanent happiness", top_k=10, nikayas=None)
     assert len(unfiltered) == len(with_none)
+
+
+SAMPLE_VERSES_WITH_COMMENTARY = [
+    {"id": "DN 1:1", "pali": "evam me sutam", "english": "Thus have I heard the Blessed One was dwelling"},
+    {
+        "id": "DN 1:2",
+        "pali": "",
+        "english": "This sutta introduces the Buddha as a teacher of devas",
+        "section": "commentary",
+    },
+    {"id": "MN 10:1", "pali": "sati", "english": "Right mindfulness of breathing in the present moment"},
+    {"id": "SN 22.59:1", "pali": "anicca", "english": "Form is impermanent suffering and not self"},
+]
+
+
+def test_exclude_commentary_drops_commentary_verses():
+    r = BM25Retriever(SAMPLE_VERSES_WITH_COMMENTARY)
+    results = r.retrieve("Thus have I heard sutta introduces Buddha", top_k=10, exclude_commentary=True)
+    assert [v["id"] for v in results] == ["DN 1:1"]
+
+
+def test_default_retrieve_still_returns_commentary():
+    r = BM25Retriever(SAMPLE_VERSES_WITH_COMMENTARY)
+    results = r.retrieve("Thus have I heard sutta introduces Buddha", top_k=10)
+    assert {v["id"] for v in results} == {"DN 1:1", "DN 1:2"}

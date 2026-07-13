@@ -30,14 +30,22 @@ class Retriever:
         query: str,
         top_k: int,
         nikayas: list[str] | None = None,
+        exclude_commentary: bool = False,
     ) -> list[dict[str, Any]]:
         loop = asyncio.get_event_loop()
         query_vector = await loop.run_in_executor(self.executor, self.embedding_mgr.encode, query)
-        qdrant_filter = None
+        must: list[models.FieldCondition] = []
+        must_not: list[models.FieldCondition] = []
         if nikayas:
-            qdrant_filter = models.Filter(
-                must=[models.FieldCondition(key="nikaya", match=models.MatchAny(any=nikayas))]
-            )
+            must.append(models.FieldCondition(key="nikaya", match=models.MatchAny(any=nikayas)))
+        if exclude_commentary:
+            # Canon verses omit `section`; commentary verses carry "commentary"
+            # (#101). must_not drops commentary while leaving canon intact, so
+            # the answer flow's context slots fill with canon passages (#102).
+            must_not.append(models.FieldCondition(key="section", match=models.MatchValue(value="commentary")))
+        qdrant_filter = None
+        if must or must_not:
+            qdrant_filter = models.Filter(must=must, must_not=must_not)
         response = await self.client.query_points(
             collection_name=self.collection_name,
             query=query_vector,

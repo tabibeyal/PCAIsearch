@@ -113,7 +113,7 @@ def test_synthesize_returns_500_on_pipeline_failure(client):
 def test_stream_default_top_k_is_15(client):
     captured = {}
 
-    async def fake_search(query, top_k=10, nikayas=None):
+    async def fake_search(query, top_k=10, nikayas=None, exclude_commentary=False):
         captured["top_k"] = top_k
         return []
 
