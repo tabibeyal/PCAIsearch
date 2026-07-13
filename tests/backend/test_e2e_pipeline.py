@@ -80,6 +80,15 @@ def _mock_stream_synthesis(pipeline, text: str) -> None:
     pipeline.llm.chat.completions.create = AsyncMock(return_value=_stream())
 
 
+def _stream_done_event(response) -> dict:
+    events = [
+        json.loads(line[len("data: "):])
+        for line in response.text.splitlines()
+        if line.startswith("data: ")
+    ]
+    return next(e for e in events if e["type"] == "done")
+
+
 # ---------------------------------------------------------------------------
 # Pipeline-level e2e tests (no HTTP)
 # ---------------------------------------------------------------------------
@@ -322,6 +331,36 @@ def test_e2e_api_synthesize_hallucination_flagged(api_client, live_pipeline):
     assert "DN 99:99" in body["hallucinations"]
     assert "[DN 99:99]" not in body["answer"]
     assert "[Hallucinated]" in body["answer"]
+
+
+def test_e2e_api_stream_hallucination_marks_is_faithful_false(api_client, live_pipeline):
+    # /stream runs the same Guardrail finalize step as /synthesize; DN 99:99
+    # doesn't exist in the canon, so the done event must flag it.
+    _mock_stream_synthesis(live_pipeline, "See [MN 10:1] and [DN 99:99].")
+    response = api_client.get("/stream?q=mindfulness")
+    done_event = _stream_done_event(response)
+    assert done_event["is_faithful"] is False
+
+
+def test_e2e_api_stream_hallucination_includes_hallucinated_id(api_client, live_pipeline):
+    _mock_stream_synthesis(live_pipeline, "See [MN 10:1] and [DN 99:99].")
+    response = api_client.get("/stream?q=mindfulness")
+    done_event = _stream_done_event(response)
+    assert "DN 99:99" in done_event["hallucinations"]
+
+
+def test_e2e_api_stream_hallucination_strips_raw_citation(api_client, live_pipeline):
+    _mock_stream_synthesis(live_pipeline, "See [MN 10:1] and [DN 99:99].")
+    response = api_client.get("/stream?q=mindfulness")
+    done_event = _stream_done_event(response)
+    assert "[DN 99:99]" not in done_event["answer"]
+
+
+def test_e2e_api_stream_hallucination_includes_marker(api_client, live_pipeline):
+    _mock_stream_synthesis(live_pipeline, "See [MN 10:1] and [DN 99:99].")
+    response = api_client.get("/stream?q=mindfulness")
+    done_event = _stream_done_event(response)
+    assert "[Hallucinated]" in done_event["answer"]
 
 
 # ---------------------------------------------------------------------------
