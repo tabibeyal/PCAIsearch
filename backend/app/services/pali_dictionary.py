@@ -220,7 +220,7 @@ _ENTRIES: list[DictionaryEntry] = [
         keywords=[
             "four brahmavihāras", "brahmavihara", "brahmaviharas", "brahmavihārā", "four immeasurables",
             "divine abiding", "boundless heart", "immeasurable mind", "sublime attitude",
-            "good will", "goodwill", "loving kindness", "lovingkindness", "metta", "mettā",
+            "good will", "goodwill", "loving kindness", "lovingkindness", "kindness", "metta", "mettā",
             "compassion", "karuna", "karuṇā",
             "sympathetic joy", "appreciative joy", "mudita", "muditā",
             "equanimity", "upekkha", "upekkhā",

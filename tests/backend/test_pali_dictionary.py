@@ -378,3 +378,27 @@ def test_lookup_english_metaphors_for_mindfulness_surfaces_gatekeeper():
     result = lookup_english("What are the metaphors for mindfulness in the canon")
     assert result is not None
     assert "mindfulness as his gatekeeper" in result
+
+
+# --- 'kindness' synonym for mettā/goodwill (#100) ---
+
+def test_lookup_bare_kindness_hits_metta():
+    result = lookup("how is kindness defined")
+    assert result is not None
+    assert "mettā" in result
+
+
+def test_lookup_english_bare_kindness_hits_metta_hint():
+    result = lookup_english("how is kindness defined")
+    assert result is not None
+    assert "good will" in result
+
+
+def test_lookup_kindness_matches_loving_kindness():
+    # Bare "kindness" produces the same Pāḷi expansion as "loving kindness" (#100).
+    assert lookup("kindness") == lookup("loving kindness")
+
+
+def test_lookup_kindness_matches_goodwill():
+    # Bare "kindness" produces the same Pāḷi expansion as "goodwill" (#100).
+    assert lookup("kindness") == lookup("goodwill")
