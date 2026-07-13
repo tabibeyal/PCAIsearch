@@ -236,12 +236,19 @@ def test_e2e_api_synthesize_context_includes_title_english(api_client, live_pipe
     assert context_by_id["MN 10:1"]["title_english"] == "Mindfulness Meditation"
 
 
-def test_e2e_api_synthesize_context_omits_title_fields_when_not_in_index(api_client, live_pipeline):
+def test_e2e_api_synthesize_context_omits_title_pali_when_not_in_index(api_client, live_pipeline):
     _mock_synthesis(live_pipeline, "See [MN 10:1].")
     response = api_client.get("/synthesize?q=teachings")
     body = response.json()
     context_by_id = {c["id"]: c for c in body["context"]}
     assert "title_pali" not in context_by_id["DN 1:1"]
+
+
+def test_e2e_api_synthesize_context_omits_title_english_when_not_in_index(api_client, live_pipeline):
+    _mock_synthesis(live_pipeline, "See [MN 10:1].")
+    response = api_client.get("/synthesize?q=teachings")
+    body = response.json()
+    context_by_id = {c["id"]: c for c in body["context"]}
     assert "title_english" not in context_by_id["DN 1:1"]
 
 
