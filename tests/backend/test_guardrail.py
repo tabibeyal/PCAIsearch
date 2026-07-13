@@ -1,9 +1,24 @@
 from pathlib import Path
+import json
 import pytest
 from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.citation_oracle import CitationOracle
 
 DUMPS_DIR = Path(__file__).parent.parent.parent / "data" / "dumps"
+
+
+def _write_mixed_sutta(tmp_path) -> Path:
+    """A sutta with a commentary verse and a canon verse, so a commentary
+    citation is unverifiable while a canon citation from the same sutta is
+    not (#101 marker, #103 registry exclusion)."""
+    verses = [
+        {"number": 1, "pali": "", "english": "intro paragraph", "section": "commentary"},
+        {"number": 2, "pali": "", "english": "Thus have I heard the Blessed One was dwelling"},
+    ]
+    (tmp_path / "mn99.json").write_text(
+        json.dumps({"sutta_id": "mn99", "verses": verses}), encoding="utf-8"
+    )
+    return tmp_path
 
 
 def test_guardrail_detects_hallucinations():
@@ -105,3 +120,18 @@ def test_canon_guardrail_is_faithful_no_hallucinations():
 
     assert result["is_faithful"] is True   # no hallucinations
     assert len(result["canonical_misses"]) == 1
+
+
+# ── Commentary safety net (#103) ───────────────────────────────────────────────
+
+def test_guardrail_redacts_commentary_citation(tmp_path):
+    # A citation aimed at a commentary verse is redacted as a hallucination,
+    # the same as an invented ID — commentary is never citable as canon.
+    oracle = CitationOracle(_write_mixed_sutta(tmp_path))
+    guardrail = CitationGuardrail(oracle=oracle)
+    context_chunks = [{"id": "MN 10:1", "pali": "...", "english": "..."}]
+    response = "The Buddha taught this in [MN 99:1]."
+
+    result = guardrail.process_response(response, context_chunks)
+
+    assert "[Hallucinated]" in result["text"]

@@ -25,8 +25,8 @@ class PassageStore:
     """
 
     def __init__(self) -> None:
-        # sutta_id -> ordered list of (verse_number, english)
-        self._verses: dict[str, list[tuple[int, str]]] = {}
+        # sutta_id -> ordered list of (verse_number, english, is_commentary)
+        self._verses: dict[str, list[tuple[int, str, bool]]] = {}
 
     @classmethod
     def from_directory(cls, dumps_dir: Path) -> "PassageStore":
@@ -41,7 +41,7 @@ class PassageStore:
                 continue
             sutta_id = f"{m.group(1).upper()} {m.group(2)}"
             verses = [
-                (v["number"], (v.get("english") or "").strip())
+                (v["number"], (v.get("english") or "").strip(), v.get("section") == "commentary")
                 for v in data.get("verses", [])
                 if isinstance(v.get("number"), int) and (v.get("english") or "").strip()
             ]
@@ -64,15 +64,23 @@ class PassageStore:
         if not verses:
             return None
 
-        idx = next((i for i, (n, _) in enumerate(verses) if n == number), None)
+        idx = next((i for i, (n, _e, _c) in enumerate(verses) if n == number), None)
         if idx is None or len(verses[idx][1]) >= _LONG_ENOUGH:
             return None
 
+        # A canon verse widens only into canon neighbors; a commentary verse
+        # only into commentary — the passage window never crosses the
+        # canon/commentary boundary (#103).
+        anchor_is_commentary = verses[idx][2]
         chosen = {idx}
         total = len(verses[idx][1])
         for step in range(1, _MAX_EACH_SIDE + 1):
             for j in (idx - step, idx + step):
-                if 0 <= j < len(verses) and verses[j][0] not in _META_NUMBERS:
+                if (
+                    0 <= j < len(verses)
+                    and verses[j][0] not in _META_NUMBERS
+                    and verses[j][2] == anchor_is_commentary
+                ):
                     chosen.add(j)
                     total += len(verses[j][1])
             if total >= _TARGET_CHARS:
