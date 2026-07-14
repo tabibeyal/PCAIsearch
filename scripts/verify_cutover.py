@@ -53,7 +53,7 @@ print(f"answer on-topic (kindness/metta/friendliness/goodwill): {on_topic}")
 # --- Check 3: results view surfaces a labeled commentary chunk ----------------
 print("\n=== Check 3: results-view commentary label ===")
 q3 = "kindness in the suttas"
-status, body = get(f"/search?q={urllib.parse.quote(q3)}&top_k=15", timeout=120)
+status, body = get(f"/search?q={urllib.parse.quote(q3)}&top_k=20", timeout=120)
 sr = json.loads(body)
 results = sr.get("results", [])
 commentary_hits = [r for r in results if r.get("section") == "commentary"]
