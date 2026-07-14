@@ -1,6 +1,7 @@
 import React from 'react';
 import { SearchResult } from '@/types/api';
 import { dhammatalksUrl } from '@/lib/sourceUrl';
+import { isCommentaryResult } from '@/lib/commentary';
 
 interface SearchResultsViewProps {
   results: SearchResult[];
@@ -18,6 +19,7 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
           const url = dhammatalksUrl(result.id);
           const rawScore = Number.isFinite(result.score) ? result.score : 0;
           const pct = Math.round(rawScore * 100);
+          const isCommentary = isCommentaryResult(result);
           return (
             <div
               key={result.id}
@@ -35,6 +37,14 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
                       {result.title_pali}
                     </div>
                   )}
+                </div>
+              )}
+              {isCommentary && (
+                <div className="mb-2">
+                  <span className="inline-flex items-center gap-1 bg-white border border-[#6b4e35] text-[#6b4e35] text-xs font-medium px-2 py-0.5 rounded">
+                    <span aria-hidden="true">✎</span>
+                    Translator&apos;s introduction
+                  </span>
                 </div>
               )}
               {/* Header row */}
