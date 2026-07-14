@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Callable
 import asyncio
 import itertools
 import logging
@@ -435,13 +435,80 @@ class SearchPipeline:
         logger.info("bm25: %.2fs", time.perf_counter() - t1)
         return all_results
 
+    def _bucket_of(self, chunk: dict[str, Any], buckets: list[str | None]) -> str | None:
+        """Derive a chunk's nikāya bucket from its ID prefix."""
+        if len(buckets) == 1:
+            return buckets[0]
+        chunk_id = chunk.get("id", "")
+        prefix = chunk_id.split(":", 1)[0].split()[0] if chunk_id else ""
+        return prefix if prefix in buckets else None
+
+    def _interleave(
+        self,
+        scored_by_bucket: dict[str | None, list[dict[str, Any]]],
+        top_k: int,
+        predicate: Callable[[dict[str, Any]], bool] | None = None,
+    ) -> list[dict[str, Any]]:
+        """Round-robin across buckets, optionally dropping chunks via predicate."""
+        results: list[dict[str, Any]] = []
+        for chunk in itertools.chain(*itertools.zip_longest(*scored_by_bucket.values())):
+            if chunk is None or len(results) == top_k:
+                continue
+            if predicate and not predicate(chunk):
+                continue
+            results.append(chunk)
+        return results
+
+    def _select_results(
+        self,
+        scored: list[dict[str, Any]],
+        buckets: list[str | None],
+        top_k: int,
+        policy: str,
+    ) -> list[dict[str, Any]]:
+        """Choose the final top-k results from the reranked union.
+
+        Supported ``policy`` values:
+        - ``round_robin`` (default): interleave one result per selected book.
+        - ``global_best``: take the globally highest rerank scores, ignoring book.
+        - ``relevance_floor:<ratio>``: round-robin, but a book only contributes
+          chunks whose raw rerank score is at least ``ratio`` of the best score.
+        """
+        if policy == "global_best":
+            return scored[:top_k]
+
+        scored_by_bucket: dict[str | None, list[dict[str, Any]]] = {b: [] for b in buckets}
+        for chunk in scored:
+            scored_by_bucket[self._bucket_of(chunk, buckets)].append(chunk)
+
+        if policy == "round_robin":
+            return self._interleave(scored_by_bucket, top_k)
+
+        if policy.startswith("relevance_floor:"):
+            try:
+                threshold_ratio = float(policy.split(":", 1)[1])
+            except (IndexError, ValueError) as exc:
+                raise ValueError(f"Invalid relevance_floor policy: {policy!r}") from exc
+            if scored:
+                max_score = max(c.get("rerank_score", float("-inf")) for c in scored)
+                min_allowed = max_score * threshold_ratio
+            else:
+                min_allowed = float("-inf")
+            return self._interleave(
+                scored_by_bucket, top_k, predicate=lambda c: c.get("rerank_score", 0.0) >= min_allowed
+            )
+
+        raise ValueError(f"Unknown search policy: {policy!r}")
+
     async def search(
         self,
         query: str,
         top_k: int = 10,
         nikayas: list[str] | None = None,
         exclude_commentary: bool = False,
+        policy: str = "round_robin",
     ) -> list[dict[str, Any]]:
+        """Run the full retrieval/fusion/rerank pipeline and return top-k results."""
         t0 = time.perf_counter()
         retrieval_k = max(top_k * 3, 30)
 
@@ -529,26 +596,7 @@ class SearchPipeline:
         )
         logger.info("rerank: %.2fs", time.perf_counter() - t_rerank)
 
-        # Partition the scored list back per bucket. The retriever doesn't
-        # surface the nikaya field, so derive it from the chunk id prefix.
-        def _bucket_of(chunk: dict[str, Any]) -> str | None:
-            if len(buckets) == 1:
-                return buckets[0]
-            chunk_id = chunk.get("id", "")
-            prefix = chunk_id.split(":", 1)[0].split()[0] if chunk_id else ""
-            return prefix if prefix in buckets else None
-
-        scored_by_bucket: dict[str | None, list[dict[str, Any]]] = {b: [] for b in buckets}
-        for chunk in scored:
-            scored_by_bucket[_bucket_of(chunk)].append(chunk)
-
-        # Round-robin interleave: pick one result from each bucket in turn.
-        # Identity for N=1 (one bucket, take the top top_k).
-        results: list[dict[str, Any]] = []
-        for chunk in itertools.chain(*itertools.zip_longest(*scored_by_bucket.values())):
-            if chunk is None or len(results) == top_k:
-                continue
-            results.append(chunk)
+        results = self._select_results(scored, buckets, top_k, policy)
 
         # The cross-encoder score is the final ranking signal; downstream
         # consumers (frontend match %, synthesis ordering) only read `score`.

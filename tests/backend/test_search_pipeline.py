@@ -554,3 +554,129 @@ def test_expansion_prompt_v7_has_named_similes():
     assert "your own island" in prompt or "island refuge" in prompt
     assert "six gates" in prompt and "gatekeeper" in prompt
     assert "dyed water" in prompt or "red lac" in prompt
+
+
+async def _make_pipeline_with_rerank_scores(
+    chunks: list,
+    scores_by_id: dict,
+) -> SearchPipeline:
+    """In-memory pipeline whose reranker returns deterministic scores.
+
+    BM25 is bypassed by default (empty results) so the small fixture does not
+    introduce fusion ties that would override the intended rerank order.
+    """
+    from unittest.mock import MagicMock
+
+    pipeline, _ = await _make_pipeline_with_client(chunks)
+    # Disable BM25 by setting it to None so fusion is dense-only and predictable.
+    pipeline.bm25_retriever = None
+
+    def fake_rerank_multi(queries, cands):
+        return sorted(
+            [{**c, "rerank_score": scores_by_id.get(c["id"], 0.0)} for c in cands],
+            key=lambda c: c["rerank_score"],
+            reverse=True,
+        )
+
+    pipeline.reranker = MagicMock()
+    pipeline.reranker.rerank_multi = fake_rerank_multi
+    return pipeline
+
+
+_POLICY_FIXTURE = {
+    "chunks": [
+        {"id": "DN 1:1", "nikaya": "DN", "pali": "", "english": "DN passage high"},
+        {"id": "MN 1:1", "nikaya": "MN", "pali": "", "english": "MN passage high"},
+        {"id": "MN 1:2", "nikaya": "MN", "pali": "", "english": "MN passage medium"},
+        {"id": "DN 1:2", "nikaya": "DN", "pali": "", "english": "DN passage low"},
+    ],
+    # BM25 is disabled so the final order is driven by the rerank score map alone.
+    "scores": {"DN 1:1": 4.0, "MN 1:1": 3.0, "MN 1:2": 2.0, "DN 1:2": 1.0},
+}
+
+
+@pytest.mark.asyncio
+async def test_round_robin_policy_interleaves_buckets():
+    """Default policy alternates one result from each selected nikāya."""
+    fixture = _POLICY_FIXTURE
+    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
+
+    results = await pipeline.search("passage", top_k=3, nikayas=["DN", "MN"])
+
+    assert [r["id"] for r in results] == ["DN 1:1", "MN 1:1", "DN 1:2"]
+
+
+@pytest.mark.asyncio
+async def test_global_best_policy_takes_top_reranked_chunks():
+    """global_best ignores nikāya buckets and takes the highest rerank scores."""
+    fixture = _POLICY_FIXTURE
+    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
+
+    results = await pipeline.search(
+        "passage", top_k=3, nikayas=["DN", "MN"], policy="global_best"
+    )
+
+    assert [r["id"] for r in results] == ["DN 1:1", "MN 1:1", "MN 1:2"]
+
+
+@pytest.mark.asyncio
+async def test_relevance_floor_policy_skips_weak_bucket_chunks():
+    """relevance_floor skips chunks whose score is below ratio * best_score."""
+    fixture = _POLICY_FIXTURE
+    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
+
+    results = await pipeline.search(
+        "passage", top_k=3, nikayas=["DN", "MN"], policy="relevance_floor:0.6"
+    )
+
+    # floor = 0.6 * 4.0 = 2.4; MN 1:2 (2.0) and DN 1:2 (1.0) are dropped.
+    assert [r["id"] for r in results] == ["DN 1:1", "MN 1:1"]
+
+
+@pytest.mark.asyncio
+async def test_relevance_floor_policy_with_high_threshold_can_empty_buckets():
+    """A strict floor may leave a selected nikāya with no qualifying chunks."""
+    fixture = _POLICY_FIXTURE
+    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
+
+    results = await pipeline.search(
+        "passage", top_k=3, nikayas=["DN", "MN"], policy="relevance_floor:0.9"
+    )
+
+    # floor = 0.9 * 4.0 = 3.6; only DN 1:1 qualifies.
+    assert [r["id"] for r in results] == ["DN 1:1"]
+
+
+@pytest.mark.asyncio
+@pytest.mark.parametrize("policy", ["round_robin", "global_best", "relevance_floor:0.3"])
+async def test_single_nikaya_policies_return_same_order(policy: str):
+    """With only one bucket all policies reduce to the reranked top-k."""
+    chunks = [
+        {"id": "MN 1:1", "nikaya": "MN", "pali": "", "english": "MN passage high"},
+        {"id": "MN 1:2", "nikaya": "MN", "pali": "", "english": "MN passage medium"},
+        {"id": "MN 1:3", "nikaya": "MN", "pali": "", "english": "MN passage low"},
+    ]
+    scores = {"MN 1:1": 3.0, "MN 1:2": 2.0, "MN 1:3": 1.0}
+    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
+
+    results = await pipeline.search("passage", top_k=3, nikayas=["MN"], policy=policy)
+
+    assert [r["id"] for r in results] == ["MN 1:1", "MN 1:2", "MN 1:3"]
+
+
+@pytest.mark.asyncio
+async def test_unknown_policy_raises_value_error():
+    chunks = [{"id": "MN 1:1", "nikaya": "MN", "pali": "", "english": "MN passage"}]
+    pipeline = await _make_pipeline_with_rerank_scores(chunks, {"MN 1:1": 1.0})
+
+    with pytest.raises(ValueError, match="Unknown search policy"):
+        await pipeline.search("passage", top_k=1, nikayas=["MN"], policy="bogus")
+
+
+@pytest.mark.asyncio
+async def test_invalid_relevance_floor_policy_raises_value_error():
+    chunks = [{"id": "MN 1:1", "nikaya": "MN", "pali": "", "english": "MN passage"}]
+    pipeline = await _make_pipeline_with_rerank_scores(chunks, {"MN 1:1": 1.0})
+
+    with pytest.raises(ValueError, match="Invalid relevance_floor policy"):
+        await pipeline.search("passage", top_k=1, nikayas=["MN"], policy="relevance_floor:bad")
