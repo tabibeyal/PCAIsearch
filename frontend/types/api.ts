@@ -13,6 +13,10 @@ export interface SearchResult {
   title?: string;
   title_pali?: string;
   title_english?: string;
+  // Translator-commentary marker from the search API (#101). Absent on canon
+  // verses; "commentary" on Thanissaro's introduction essays. The results view
+  // renders a "Translator's introduction" label on flagged chunks (#104).
+  section?: string;
 }
 
 export interface SynthesisResponse {
