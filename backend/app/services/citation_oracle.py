@@ -30,10 +30,14 @@ class CitationOracle:
                 continue
             sutta_id = f"{m.group(1).upper()} {m.group(2)}"
 
+            # Commentary verses carry "section": "commentary" (#101); the
+            # registry holds canon verse numbers only, so any citation the
+            # model aims at a commentary paragraph is unverifiable and the
+            # Guardrail redacts it (#103).
             verse_numbers = {
                 v["number"]
                 for v in data.get("verses", [])
-                if isinstance(v.get("number"), int)
+                if isinstance(v.get("number"), int) and v.get("section") != "commentary"
             }
             if verse_numbers:
                 self.registry[sutta_id] = verse_numbers
