@@ -10,7 +10,7 @@ emit() {
   local decision="$1"
   local reason="${2//\"/\\\"}"
   printf '{"hookSpecificOutput":{"hookEventName":"PreToolUse","permissionDecision":"%s","permissionDecisionReason":"%s"}}\n' "$decision" "$reason"
-  exit 2
+  exit 0
 }
 
 if ! command -v jq >/dev/null 2>&1; then

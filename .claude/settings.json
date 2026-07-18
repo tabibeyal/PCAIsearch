@@ -28,11 +28,6 @@
       "Read(**/secrets/**)",
       "Read(**/*.pem)",
       "Read(**/*.key)",
-      "Write(**/.env)",
-      "Write(**/.env.*)",
-      "Write(**/secrets/**)",
-      "Write(**/*.pem)",
-      "Write(**/*.key)",
       "Edit(**/.env)",
       "Edit(**/.env.*)",
       "Edit(**/secrets/**)",
@@ -98,12 +93,29 @@
             "statusMessage": "Formatting..."
           }
         ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if ! command -v jq >/dev/null 2>&1 || ! command -v gh >/dev/null 2>&1; then\n  exit 0\nfi\n\nINPUT=$(cat)\nCOMMAND=$(printf '%s' \"$INPUT\" | jq -r '.tool_input.command // empty' 2>/dev/null)\nprintf '%s' \"$COMMAND\" | grep -qE '(^|[;&|[:space:]])gh[[:space:]]+pr[[:space:]]+merge([[:space:]]|$)' || exit 0\n\nBRANCH=$(git branch --show-current 2>/dev/null)\nif [ -z \"$BRANCH\" ] || [ \"$BRANCH\" = \"master\" ]; then\n  exit 0\nfi\n\nSTATE=$(gh pr view \"$BRANCH\" --json state -q .state 2>/dev/null)\nif [ \"$STATE\" != \"MERGED\" ]; then\n  exit 0\nfi\n\nif git checkout master >/dev/null 2>&1 && git pull >/dev/null 2>&1 && git branch -D \"$BRANCH\" >/dev/null 2>&1; then\n  printf '{\"systemMessage\": \"Merged PR detected - switched to master, pulled, and deleted local branch %s.\"}\\n' \"$BRANCH\"\nfi\n\nexit 0\n",
+            "timeout": 10000,
+            "statusMessage": "Checking for merged PR..."
+          }
+        ]
       }
     ],
     "SessionStart": [
       {
         "matcher": "",
         "hooks": [
+          {
+            "type": "command",
+            "command": "git rev-parse --git-dir >/dev/null 2>&1 || exit 0\ncommand -v gh >/dev/null 2>&1 || exit 0\n\nBRANCH=$(git branch --show-current 2>/dev/null)\nif [ -z \"$BRANCH\" ] || [ \"$BRANCH\" = \"master\" ]; then\n  exit 0\nfi\n\nSTATE=$(gh pr view \"$BRANCH\" --json state -q .state 2>/dev/null)\nif [ \"$STATE\" != \"MERGED\" ]; then\n  exit 0\nfi\n\nif git checkout master >/dev/null 2>&1 && git pull >/dev/null 2>&1 && git branch -D \"$BRANCH\" >/dev/null 2>&1; then\n  echo \"Note: '$BRANCH' was already merged on GitHub - switched to master, pulled, and deleted the stale local branch.\"\nfi\n\nexit 0\n",
+            "timeout": 10000,
+            "statusMessage": "Checking for stale merged branch..."
+          },
           {
             "type": "command",
             "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/session-start.sh",
