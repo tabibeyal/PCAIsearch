@@ -1,0 +1,980 @@
+{
+  "queries": [
+    {
+      "query": "What did the Buddha say about anger?",
+      "nikayas": [
+        "DN",
+        "MN",
+        "SN",
+        "AN",
+        "DHP",
+        "ITI"
+      ],
+      "policies": {
+        "round_robin": {
+          "source_count": 10,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "DN 33:327",
+              "nikaya": "DN",
+              "title": "Saṅgīti Sutta The Discourse for Reciting Together",
+              "match_pct": 74.4,
+              "gist": "• “Eight grounds for the arousal of energy: There is the case, friends, where a monk has some work to do. The thought o…"
+            },
+            {
+              "rank": 2,
+              "id": "MN 12:7",
+              "nikaya": "MN",
+              "title": "Mahāsīhanāda Sutta The Great Lion’s Roar Discourse",
+              "match_pct": 74.2,
+              "gist": "“Sāriputta, this worthless man Sunakkhatta is angry. Out of anger, he has made this statement, (thinking,) ‘I will spea…"
+            },
+            {
+              "rank": 3,
+              "id": "SN 12.46:4",
+              "nikaya": "SN",
+              "title": "Aññatara Sutta A Certain Brahman",
+              "match_pct": 86.8,
+              "gist": "[The Buddha:] “(To say,) ‘The one who acts is the same one who experiences,’ is one extreme.”"
+            },
+            {
+              "rank": 4,
+              "id": "AN 10.75:23",
+              "nikaya": "AN",
+              "title": "Migāsālāya Sutta About Migāsālā",
+              "match_pct": 69.0,
+              "gist": "[8] “But then, Ānanda, there is the case where one individual is angry and yet he discerns, as it has come to be, the a…"
+            },
+            {
+              "rank": 5,
+              "id": "DHP 17:2",
+              "nikaya": "DHP",
+              "title": " VII : Anger",
+              "match_pct": 50.0,
+              "gist": "VII : Anger"
+            },
+            {
+              "rank": 6,
+              "id": "ITI 4:3",
+              "nikaya": "ITI",
+              "title": " Itivuttaka",
+              "match_pct": 99.0,
+              "gist": "This was said by the Blessed One, said by the Arahant, so I have heard: “Abandon one quality, monks, and I guarantee yo…"
+            },
+            {
+              "rank": 7,
+              "id": "DN 33:328",
+              "nikaya": "DN",
+              "title": "Saṅgīti Sutta The Discourse for Reciting Together",
+              "match_pct": 66.3,
+              "gist": "“Then there is the case where a monk has done some work. The thought occurs to him: ‘I have done some work. While I was…"
+            },
+            {
+              "rank": 8,
+              "id": "MN 86:18",
+              "nikaya": "MN",
+              "title": "Aṅgulimāla Sutta About Aṅgulimāla",
+              "match_pct": 63.4,
+              "gist": "The Buddha:"
+            },
+            {
+              "rank": 9,
+              "id": "SN 12.46:6",
+              "nikaya": "SN",
+              "title": "Aññatara Sutta A Certain Brahman",
+              "match_pct": 76.6,
+              "gist": "[The Buddha:] “(To say,) ‘The one who acts is someone other than the one who experiences,’ is the second extreme. Avoid…"
+            },
+            {
+              "rank": 10,
+              "id": "AN 8.30:30",
+              "nikaya": "AN",
+              "title": "Anuruddha Sutta To Anuruddha",
+              "match_pct": 54.0,
+              "gist": "The Buddha,"
+            }
+          ]
+        },
+        "global_best": {
+          "source_count": 10,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "ITI 4:3",
+              "nikaya": "ITI",
+              "title": " Itivuttaka",
+              "match_pct": 99.0,
+              "gist": "This was said by the Blessed One, said by the Arahant, so I have heard: “Abandon one quality, monks, and I guarantee yo…"
+            },
+            {
+              "rank": 2,
+              "id": "ITI 10:3",
+              "nikaya": "ITI",
+              "title": "10 13 Itivuttaka",
+              "match_pct": 93.5,
+              "gist": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, one who has not fully known & fully und…"
+            },
+            {
+              "rank": 3,
+              "id": "SN 12.46:4",
+              "nikaya": "SN",
+              "title": "Aññatara Sutta A Certain Brahman",
+              "match_pct": 82.2,
+              "gist": "[The Buddha:] “(To say,) ‘The one who acts is the same one who experiences,’ is one extreme.”"
+            },
+            {
+              "rank": 4,
+              "id": "SN 12.46:6",
+              "nikaya": "SN",
+              "title": "Aññatara Sutta A Certain Brahman",
+              "match_pct": 68.1,
+              "gist": "[The Buddha:] “(To say,) ‘The one who acts is someone other than the one who experiences,’ is the second extreme. Avoid…"
+            },
+            {
+              "rank": 5,
+              "id": "DN 33:327",
+              "nikaya": "DN",
+              "title": "Saṅgīti Sutta The Discourse for Reciting Together",
+              "match_pct": 65.1,
+              "gist": "• “Eight grounds for the arousal of energy: There is the case, friends, where a monk has some work to do. The thought o…"
+            },
+            {
+              "rank": 6,
+              "id": "MN 12:7",
+              "nikaya": "MN",
+              "title": "Mahāsīhanāda Sutta The Great Lion’s Roar Discourse",
+              "match_pct": 64.8,
+              "gist": "“Sāriputta, this worthless man Sunakkhatta is angry. Out of anger, he has made this statement, (thinking,) ‘I will spea…"
+            },
+            {
+              "rank": 7,
+              "id": "AN 10.75:23",
+              "nikaya": "AN",
+              "title": "Migāsālāya Sutta About Migāsālā",
+              "match_pct": 57.7,
+              "gist": "[8] “But then, Ānanda, there is the case where one individual is angry and yet he discerns, as it has come to be, the a…"
+            },
+            {
+              "rank": 8,
+              "id": "DN 33:328",
+              "nikaya": "DN",
+              "title": "Saṅgīti Sutta The Discourse for Reciting Together",
+              "match_pct": 53.9,
+              "gist": "“Then there is the case where a monk has done some work. The thought occurs to him: ‘I have done some work. While I was…"
+            },
+            {
+              "rank": 9,
+              "id": "DN 34:191",
+              "nikaya": "DN",
+              "title": "Dasuttara Sutta Progressing by Tens",
+              "match_pct": 53.9,
+              "gist": "“Then there is the case where a monk has done some work. The thought occurs to him: ‘I have done some work. While I was…"
+            },
+            {
+              "rank": 10,
+              "id": "MN 86:18",
+              "nikaya": "MN",
+              "title": "Aṅgulimāla Sutta About Aṅgulimāla",
+              "match_pct": 50.0,
+              "gist": "The Buddha:"
+            }
+          ]
+        },
+        "relevance_floor:0.60": {
+          "source_count": 1,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "ITI 4:3",
+              "nikaya": "ITI",
+              "title": " Itivuttaka",
+              "match_pct": 99.0,
+              "gist": "This was said by the Blessed One, said by the Arahant, so I have heard: “Abandon one quality, monks, and I guarantee yo…"
+            }
+          ]
+        },
+        "relevance_floor:0.75": {
+          "source_count": 1,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "ITI 4:3",
+              "nikaya": "ITI",
+              "title": " Itivuttaka",
+              "match_pct": 99.0,
+              "gist": "This was said by the Blessed One, said by the Arahant, so I have heard: “Abandon one quality, monks, and I guarantee yo…"
+            }
+          ]
+        },
+        "relevance_floor:0.90": {
+          "source_count": 1,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "ITI 4:3",
+              "nikaya": "ITI",
+              "title": " Itivuttaka",
+              "match_pct": 99.0,
+              "gist": "This was said by the Blessed One, said by the Arahant, so I have heard: “Abandon one quality, monks, and I guarantee yo…"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query": "How does one develop mindfulness in meditation?",
+      "nikayas": [
+        "DN",
+        "MN",
+        "SN",
+        "AN",
+        "DHP",
+        "ITI"
+      ],
+      "policies": {
+        "round_robin": {
+          "source_count": 10,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "DN 22:118",
+              "nikaya": "DN",
+              "title": "Mahā Satipaṭṭhāna Sutta The Great Establishing of Mindfulness Discourse",
+              "match_pct": 84.2,
+              "gist": "“Let alone half a month. If anyone would develop these four establishings of mindfulness in this way for seven days, on…"
+            },
+            {
+              "rank": 2,
+              "id": "MN 62:26",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 99.0,
+              "gist": "“Develop the meditation of mindfulness of in-&-out breathing. Mindfulness of in-&-out breathing, when developed & pursu…"
+            },
+            {
+              "rank": 3,
+              "id": "SN 35.206:21",
+              "nikaya": "SN",
+              "title": "Chappāṇa Sutta The Six Animals",
+              "match_pct": 96.0,
+              "gist": "“Thus you should train yourselves: ‘We will develop mindfulness immersed in the body. We will pursue it, give it a mean…"
+            },
+            {
+              "rank": 4,
+              "id": "AN 6.19:15",
+              "nikaya": "AN",
+              "title": "Maraṇassati Sutta Mindfulness of Death (1)",
+              "match_pct": 86.4,
+              "gist": "Then another monk addressed the Blessed One, “I, too, develop mindfulness of death.”… “I think, ‘O, that I might live f…"
+            },
+            {
+              "rank": 5,
+              "id": "DHP 21:6",
+              "nikaya": "DHP",
+              "title": " XI : Miscellany",
+              "match_pct": 50.0,
+              "gist": "But for those who are well-applied, constantly, to mindfulness immersed in the body; don’t indulge in what shouldn’t be…"
+            },
+            {
+              "rank": 6,
+              "id": "ITI 27:7",
+              "nikaya": "ITI",
+              "title": " Itivuttaka",
+              "match_pct": 62.4,
+              "gist": "When one develops–mindful–"
+            },
+            {
+              "rank": 7,
+              "id": "DN 33:148",
+              "nikaya": "DN",
+              "title": "Saṅgīti Sutta The Discourse for Reciting Together",
+              "match_pct": 84.2,
+              "gist": "“And which is the exertion to develop? There is the case where a monk develops mindfulness as a factor for awakening de…"
+            },
+            {
+              "rank": 8,
+              "id": "MN 62:19",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 96.3,
+              "gist": "“Develop the meditation in tune with space. For when you are developing the meditation in tune with space, agreeable & …"
+            },
+            {
+              "rank": 9,
+              "id": "SN 46.26:5",
+              "nikaya": "SN",
+              "title": "Khaya Sutta Ending",
+              "match_pct": 89.5,
+              "gist": "“There is the case, Udāyin, where a monk develops mindfulness as a factor for awakening dependent on seclusion, depende…"
+            },
+            {
+              "rank": 10,
+              "id": "AN 9.63:4",
+              "nikaya": "AN",
+              "title": "Sikkhā-dubbalya Sutta Things That Weaken the Training",
+              "match_pct": 83.7,
+              "gist": "“To abandon these five things that weaken the training, one should develop the four establishings of mindfulness. Which…"
+            }
+          ]
+        },
+        "global_best": {
+          "source_count": 10,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "MN 62:26",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 99.0,
+              "gist": "“Develop the meditation of mindfulness of in-&-out breathing. Mindfulness of in-&-out breathing, when developed & pursu…"
+            },
+            {
+              "rank": 2,
+              "id": "MN 62:19",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 90.5,
+              "gist": "“Develop the meditation in tune with space. For when you are developing the meditation in tune with space, agreeable & …"
+            },
+            {
+              "rank": 3,
+              "id": "SN 35.206:21",
+              "nikaya": "SN",
+              "title": "Chappāṇa Sutta The Six Animals",
+              "match_pct": 89.5,
+              "gist": "“Thus you should train yourselves: ‘We will develop mindfulness immersed in the body. We will pursue it, give it a mean…"
+            },
+            {
+              "rank": 4,
+              "id": "MN 62:7",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 89.0,
+              "gist": "Ven. Sāriputta saw Ven. Rāhula sitting at the foot of a tree, his legs folded crosswise, his body held erect, & with mi…"
+            },
+            {
+              "rank": 5,
+              "id": "MN 62:15",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 82.0,
+              "gist": "“Rāhula, develop the meditation in tune with earth. For when you are developing the meditation in tune with earth, agre…"
+            },
+            {
+              "rank": 6,
+              "id": "SN 46.26:5",
+              "nikaya": "SN",
+              "title": "Khaya Sutta Ending",
+              "match_pct": 68.7,
+              "gist": "“There is the case, Udāyin, where a monk develops mindfulness as a factor for awakening dependent on seclusion, depende…"
+            },
+            {
+              "rank": 7,
+              "id": "AN 6.19:15",
+              "nikaya": "AN",
+              "title": "Maraṇassati Sutta Mindfulness of Death (1)",
+              "match_pct": 58.7,
+              "gist": "Then another monk addressed the Blessed One, “I, too, develop mindfulness of death.”… “I think, ‘O, that I might live f…"
+            },
+            {
+              "rank": 8,
+              "id": "DN 22:118",
+              "nikaya": "DN",
+              "title": "Mahā Satipaṭṭhāna Sutta The Great Establishing of Mindfulness Discourse",
+              "match_pct": 51.7,
+              "gist": "“Let alone half a month. If anyone would develop these four establishings of mindfulness in this way for seven days, on…"
+            },
+            {
+              "rank": 9,
+              "id": "DN 33:148",
+              "nikaya": "DN",
+              "title": "Saṅgīti Sutta The Discourse for Reciting Together",
+              "match_pct": 51.6,
+              "gist": "“And which is the exertion to develop? There is the case where a monk develops mindfulness as a factor for awakening de…"
+            },
+            {
+              "rank": 10,
+              "id": "AN 9.63:4",
+              "nikaya": "AN",
+              "title": "Sikkhā-dubbalya Sutta Things That Weaken the Training",
+              "match_pct": 50.0,
+              "gist": "“To abandon these five things that weaken the training, one should develop the four establishings of mindfulness. Which…"
+            }
+          ]
+        },
+        "relevance_floor:0.60": {
+          "source_count": 6,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "MN 62:26",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 99.0,
+              "gist": "“Develop the meditation of mindfulness of in-&-out breathing. Mindfulness of in-&-out breathing, when developed & pursu…"
+            },
+            {
+              "rank": 2,
+              "id": "SN 35.206:21",
+              "nikaya": "SN",
+              "title": "Chappāṇa Sutta The Six Animals",
+              "match_pct": 83.7,
+              "gist": "“Thus you should train yourselves: ‘We will develop mindfulness immersed in the body. We will pursue it, give it a mean…"
+            },
+            {
+              "rank": 3,
+              "id": "MN 62:19",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 85.3,
+              "gist": "“Develop the meditation in tune with space. For when you are developing the meditation in tune with space, agreeable & …"
+            },
+            {
+              "rank": 4,
+              "id": "SN 46.26:5",
+              "nikaya": "SN",
+              "title": "Khaya Sutta Ending",
+              "match_pct": 50.0,
+              "gist": "“There is the case, Udāyin, where a monk develops mindfulness as a factor for awakening dependent on seclusion, depende…"
+            },
+            {
+              "rank": 5,
+              "id": "MN 62:7",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 82.9,
+              "gist": "Ven. Sāriputta saw Ven. Rāhula sitting at the foot of a tree, his legs folded crosswise, his body held erect, & with mi…"
+            },
+            {
+              "rank": 6,
+              "id": "MN 62:15",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 71.6,
+              "gist": "“Rāhula, develop the meditation in tune with earth. For when you are developing the meditation in tune with earth, agre…"
+            }
+          ]
+        },
+        "relevance_floor:0.75": {
+          "source_count": 5,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "MN 62:26",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 99.0,
+              "gist": "“Develop the meditation of mindfulness of in-&-out breathing. Mindfulness of in-&-out breathing, when developed & pursu…"
+            },
+            {
+              "rank": 2,
+              "id": "SN 35.206:21",
+              "nikaya": "SN",
+              "title": "Chappāṇa Sutta The Six Animals",
+              "match_pct": 71.6,
+              "gist": "“Thus you should train yourselves: ‘We will develop mindfulness immersed in the body. We will pursue it, give it a mean…"
+            },
+            {
+              "rank": 3,
+              "id": "MN 62:19",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 74.5,
+              "gist": "“Develop the meditation in tune with space. For when you are developing the meditation in tune with space, agreeable & …"
+            },
+            {
+              "rank": 4,
+              "id": "MN 62:7",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 70.2,
+              "gist": "Ven. Sāriputta saw Ven. Rāhula sitting at the foot of a tree, his legs folded crosswise, his body held erect, & with mi…"
+            },
+            {
+              "rank": 5,
+              "id": "MN 62:15",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 50.0,
+              "gist": "“Rāhula, develop the meditation in tune with earth. For when you are developing the meditation in tune with earth, agre…"
+            }
+          ]
+        },
+        "relevance_floor:0.90": {
+          "source_count": 3,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "MN 62:26",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 99.0,
+              "gist": "“Develop the meditation of mindfulness of in-&-out breathing. Mindfulness of in-&-out breathing, when developed & pursu…"
+            },
+            {
+              "rank": 2,
+              "id": "SN 35.206:21",
+              "nikaya": "SN",
+              "title": "Chappāṇa Sutta The Six Animals",
+              "match_pct": 50.0,
+              "gist": "“Thus you should train yourselves: ‘We will develop mindfulness immersed in the body. We will pursue it, give it a mean…"
+            },
+            {
+              "rank": 3,
+              "id": "MN 62:19",
+              "nikaya": "MN",
+              "title": "Mahā Rāhulovāda Sutta The Greater Exhortation to Rāhula",
+              "match_pct": 55.1,
+              "gist": "“Develop the meditation in tune with space. For when you are developing the meditation in tune with space, agreeable & …"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query": "What is the middle way between indulgence and asceticism?",
+      "nikayas": [
+        "DN",
+        "MN",
+        "SN",
+        "AN",
+        "DHP",
+        "ITI"
+      ],
+      "policies": {
+        "round_robin": {
+          "source_count": 10,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "DN 1:300",
+              "nikaya": "DN",
+              "title": "Brahmajāla Sutta The Brahmā Net",
+              "match_pct": 56.0,
+              "gist": "59. “Another says to him, ‘There is, my good man, that self of which you speak. I don’t say that there’s not. But it’s …"
+            },
+            {
+              "rank": 2,
+              "id": "MN 12:76",
+              "nikaya": "MN",
+              "title": "Mahāsīhanāda Sutta The Great Lion’s Roar Discourse",
+              "match_pct": 53.4,
+              "gist": "“Thus in a variety of ways I stayed devoted to the practice of tormenting & torturing the body. That’s how it was for m…"
+            },
+            {
+              "rank": 3,
+              "id": "SN 56.11:5",
+              "nikaya": "SN",
+              "title": "Dhammacakkappavattana Sutta Setting the Wheel of Dhamma in Motion",
+              "match_pct": 99.0,
+              "gist": "“There are these two extremes that are not to be indulged in by one who has gone forth. Which two? That which is devote…"
+            },
+            {
+              "rank": 4,
+              "id": "AN 3.33:8",
+              "nikaya": "AN",
+              "title": "Sāriputta Sutta To Sāriputta",
+              "match_pct": 52.8,
+              "gist": "both of sensual desires,"
+            },
+            {
+              "rank": 5,
+              "id": "DHP 2:9",
+              "nikaya": "DHP",
+              "title": " I : Heedfulness",
+              "match_pct": 54.3,
+              "gist": "Don’t give way to heedlessness or to intimacy with sensual delight– for a heedful person, absorbed in jhana, attains an…"
+            },
+            {
+              "rank": 6,
+              "id": "ITI 95:13",
+              "nikaya": "ITI",
+              "title": " Itivuttaka",
+              "match_pct": 54.0,
+              "gist": "in sensual pleasures, the wise"
+            },
+            {
+              "rank": 7,
+              "id": "DN 29:48",
+              "nikaya": "DN",
+              "title": "Pāsādika Sutta The Inspiring Discourse",
+              "match_pct": 55.8,
+              "gist": "“These are the four devotions to pleasure, Cunda, that are base, vulgar, common, ignoble, unprofitable, that do not lea…"
+            },
+            {
+              "rank": 8,
+              "id": "MN 101:104",
+              "nikaya": "MN",
+              "title": "Devadaha Sutta At Devadaha",
+              "match_pct": 50.0,
+              "gist": "“Having abandoned these five hindrances—imperfections of awareness that weaken discernment—then, quite secluded from se…"
+            },
+            {
+              "rank": 9,
+              "id": "SN 12.18:17",
+              "nikaya": "SN",
+              "title": "Timbarukkha Sutta To Timbarukkha",
+              "match_pct": 68.9,
+              "gist": "“Timbarukkha, I don’t say that—with the feeling being the same as the one who feels, existing from the beginning—pleasu…"
+            },
+            {
+              "rank": 10,
+              "id": "AN 3.35:21",
+              "nikaya": "AN",
+              "title": "Hatthaka Sutta To Hatthaka",
+              "match_pct": 52.7,
+              "gist": "to sensual pleasures,"
+            }
+          ]
+        },
+        "global_best": {
+          "source_count": 10,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "SN 56.11:5",
+              "nikaya": "SN",
+              "title": "Dhammacakkappavattana Sutta Setting the Wheel of Dhamma in Motion",
+              "match_pct": 99.0,
+              "gist": "“There are these two extremes that are not to be indulged in by one who has gone forth. Which two? That which is devote…"
+            },
+            {
+              "rank": 2,
+              "id": "SN 12.18:17",
+              "nikaya": "SN",
+              "title": "Timbarukkha Sutta To Timbarukkha",
+              "match_pct": 64.9,
+              "gist": "“Timbarukkha, I don’t say that—with the feeling being the same as the one who feels, existing from the beginning—pleasu…"
+            },
+            {
+              "rank": 3,
+              "id": "SN 12.15:7",
+              "nikaya": "SN",
+              "title": "Kaccānagotta Sutta To Kaccāna Gotta",
+              "match_pct": 60.4,
+              "gist": "“‘Everything exists’: That is one extreme. ‘Everything doesn’t exist’: That is a second extreme. Avoiding these two ext…"
+            },
+            {
+              "rank": 4,
+              "id": "SN 22.90:13",
+              "nikaya": "SN",
+              "title": "Channa Sutta To Channa",
+              "match_pct": 59.9,
+              "gist": "“‘“Everything exists”: That is one extreme. “Everything doesn’t exist”: That is a second extreme. Avoiding these two ex…"
+            },
+            {
+              "rank": 5,
+              "id": "SN 12.46:6",
+              "nikaya": "SN",
+              "title": "Aññatara Sutta A Certain Brahman",
+              "match_pct": 57.9,
+              "gist": "[The Buddha:] “(To say,) ‘The one who acts is someone other than the one who experiences,’ is the second extreme. Avoid…"
+            },
+            {
+              "rank": 6,
+              "id": "SN 12.17:22",
+              "nikaya": "SN",
+              "title": "Acela Sutta To the Clothless Ascetic",
+              "match_pct": 57.3,
+              "gist": "“Kassapa, the statement, ‘With the one who acts being the same as the one who experiences, existing from the beginning,…"
+            },
+            {
+              "rank": 7,
+              "id": "SN 12.48:11",
+              "nikaya": "SN",
+              "title": "Lokāyatika Sutta The Cosmologist",
+              "match_pct": 56.2,
+              "gist": "“‘Everything is a plurality is the fourth form of cosmology, brahman. Avoiding these two extremes, the Tathāgata teache…"
+            },
+            {
+              "rank": 8,
+              "id": "SN 56.11:6",
+              "nikaya": "SN",
+              "title": "Dhammacakkappavattana Sutta Setting the Wheel of Dhamma in Motion",
+              "match_pct": 52.9,
+              "gist": "“And what is the middle way realized by the Tathāgata that—producing vision, producing knowledge—leads to stilling, to …"
+            },
+            {
+              "rank": 9,
+              "id": "DN 1:300",
+              "nikaya": "DN",
+              "title": "Brahmajāla Sutta The Brahmā Net",
+              "match_pct": 50.2,
+              "gist": "59. “Another says to him, ‘There is, my good man, that self of which you speak. I don’t say that there’s not. But it’s …"
+            },
+            {
+              "rank": 10,
+              "id": "DN 29:48",
+              "nikaya": "DN",
+              "title": "Pāsādika Sutta The Inspiring Discourse",
+              "match_pct": 50.0,
+              "gist": "“These are the four devotions to pleasure, Cunda, that are base, vulgar, common, ignoble, unprofitable, that do not lea…"
+            }
+          ]
+        },
+        "relevance_floor:0.60": {
+          "source_count": 1,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "SN 56.11:5",
+              "nikaya": "SN",
+              "title": "Dhammacakkappavattana Sutta Setting the Wheel of Dhamma in Motion",
+              "match_pct": 99.0,
+              "gist": "“There are these two extremes that are not to be indulged in by one who has gone forth. Which two? That which is devote…"
+            }
+          ]
+        },
+        "relevance_floor:0.75": {
+          "source_count": 1,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "SN 56.11:5",
+              "nikaya": "SN",
+              "title": "Dhammacakkappavattana Sutta Setting the Wheel of Dhamma in Motion",
+              "match_pct": 99.0,
+              "gist": "“There are these two extremes that are not to be indulged in by one who has gone forth. Which two? That which is devote…"
+            }
+          ]
+        },
+        "relevance_floor:0.90": {
+          "source_count": 1,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "SN 56.11:5",
+              "nikaya": "SN",
+              "title": "Dhammacakkappavattana Sutta Setting the Wheel of Dhamma in Motion",
+              "match_pct": 99.0,
+              "gist": "“There are these two extremes that are not to be indulged in by one who has gone forth. Which two? That which is devote…"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query": "What happens after death according to the Buddha?",
+      "nikayas": [
+        "DN",
+        "MN",
+        "SN",
+        "AN",
+        "DHP",
+        "ITI"
+      ],
+      "policies": {
+        "round_robin": {
+          "source_count": 10,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "DN 16:518",
+              "nikaya": "DN",
+              "title": "Mahā Parinibbāna Sutta The Great Total Unbinding Discourse",
+              "match_pct": 99.0,
+              "gist": "“And for what reason is a Private Buddha worthy of a burial mound? (At the thought,) ‘This is the burial mound of a Pri…"
+            },
+            {
+              "rank": 2,
+              "id": "MN 41:6",
+              "nikaya": "MN",
+              "title": "Sāleyyaka Sutta (Brahmans) of Sāla",
+              "match_pct": 63.7,
+              "gist": "As they were sitting there, the brahman householders of Sāla said to the Blessed One, “What is the reason, Master Gotam…"
+            },
+            {
+              "rank": 3,
+              "id": "SN 22.86:5",
+              "nikaya": "SN",
+              "title": "Anurādha Sutta To Anurādha",
+              "match_pct": 64.4,
+              "gist": "When this was said, Ven. Anurādha said to the wandering sectarians, “Friends, the Tathāgata—the supreme man, the superl…"
+            },
+            {
+              "rank": 4,
+              "id": "AN 3.66:56",
+              "nikaya": "AN",
+              "title": "Kālāma Sutta To the Kālāmas",
+              "match_pct": 66.6,
+              "gist": "“‘If there is a world after death, if there is the fruit & result of actions rightly & wrongly done, then this is the b…"
+            },
+            {
+              "rank": 5,
+              "id": "DHP 22:3",
+              "nikaya": "DHP",
+              "title": " XII : Hell",
+              "match_pct": 50.0,
+              "gist": "He goes to hell, the one who asserts what didn’t take place, as does the one who, having done, says, ‘I didn’t.’ Both–l…"
+            },
+            {
+              "rank": 6,
+              "id": "ITI 106:21",
+              "nikaya": "ITI",
+              "title": " Itivuttaka",
+              "match_pct": 64.1,
+              "gist": "and after death"
+            },
+            {
+              "rank": 7,
+              "id": "DN 29:91",
+              "nikaya": "DN",
+              "title": "Pāsādika Sutta The Inspiring Discourse",
+              "match_pct": 60.2,
+              "gist": "“There are certain contemplatives & brahmans who are of this view, this opinion, ‘After death, the self is possessed of…"
+            },
+            {
+              "rank": 8,
+              "id": "MN 135:9",
+              "nikaya": "MN",
+              "title": "Cūḷa Kamma-vibhaṅga Sutta The Shorter Analysis of Action",
+              "match_pct": 53.9,
+              "gist": "“But then there is the case where a woman or man, having abandoned the killing of living beings, abstains from killing …"
+            },
+            {
+              "rank": 9,
+              "id": "SN 44.3:16",
+              "nikaya": "SN",
+              "title": "Sāriputta-Koṭṭhita Sutta Sāriputta and Koṭṭhita (1)",
+              "match_pct": 57.7,
+              "gist": "“‘The Tathāgata exists after death’ is immersed in consciousness. ‘The Tathāgata does not exist after death’ is immerse…"
+            },
+            {
+              "rank": 10,
+              "id": "AN 3.66:62",
+              "nikaya": "AN",
+              "title": "Kālāma Sutta To the Kālāmas",
+              "match_pct": 66.6,
+              "gist": "“‘If there is a world after death, if there is the fruit & result of actions rightly & wrongly done, then this is the b…"
+            }
+          ]
+        },
+        "global_best": {
+          "source_count": 10,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "DN 16:518",
+              "nikaya": "DN",
+              "title": "Mahā Parinibbāna Sutta The Great Total Unbinding Discourse",
+              "match_pct": 99.0,
+              "gist": "“And for what reason is a Private Buddha worthy of a burial mound? (At the thought,) ‘This is the burial mound of a Pri…"
+            },
+            {
+              "rank": 2,
+              "id": "AN 3.66:56",
+              "nikaya": "AN",
+              "title": "Kālāma Sutta To the Kālāmas",
+              "match_pct": 61.8,
+              "gist": "“‘If there is a world after death, if there is the fruit & result of actions rightly & wrongly done, then this is the b…"
+            },
+            {
+              "rank": 3,
+              "id": "AN 3.66:62",
+              "nikaya": "AN",
+              "title": "Kālāma Sutta To the Kālāmas",
+              "match_pct": 61.8,
+              "gist": "“‘If there is a world after death, if there is the fruit & result of actions rightly & wrongly done, then this is the b…"
+            },
+            {
+              "rank": 4,
+              "id": "SN 22.86:5",
+              "nikaya": "SN",
+              "title": "Anurādha Sutta To Anurādha",
+              "match_pct": 59.3,
+              "gist": "When this was said, Ven. Anurādha said to the wandering sectarians, “Friends, the Tathāgata—the supreme man, the superl…"
+            },
+            {
+              "rank": 5,
+              "id": "ITI 106:21",
+              "nikaya": "ITI",
+              "title": " Itivuttaka",
+              "match_pct": 59.0,
+              "gist": "and after death"
+            },
+            {
+              "rank": 6,
+              "id": "MN 41:6",
+              "nikaya": "MN",
+              "title": "Sāleyyaka Sutta (Brahmans) of Sāla",
+              "match_pct": 58.5,
+              "gist": "As they were sitting there, the brahman householders of Sāla said to the Blessed One, “What is the reason, Master Gotam…"
+            },
+            {
+              "rank": 7,
+              "id": "DN 29:91",
+              "nikaya": "DN",
+              "title": "Pāsādika Sutta The Inspiring Discourse",
+              "match_pct": 54.5,
+              "gist": "“There are certain contemplatives & brahmans who are of this view, this opinion, ‘After death, the self is possessed of…"
+            },
+            {
+              "rank": 8,
+              "id": "ITI 41:3",
+              "nikaya": "ITI",
+              "title": " Itivuttaka",
+              "match_pct": 53.4,
+              "gist": "This was said by the Blessed One, said by the Arahant, so I have heard: “Monks, those beings are truly deprived who are…"
+            },
+            {
+              "rank": 9,
+              "id": "SN 44.3:16",
+              "nikaya": "SN",
+              "title": "Sāriputta-Koṭṭhita Sutta Sāriputta and Koṭṭhita (1)",
+              "match_pct": 51.6,
+              "gist": "“‘The Tathāgata exists after death’ is immersed in consciousness. ‘The Tathāgata does not exist after death’ is immerse…"
+            },
+            {
+              "rank": 10,
+              "id": "SN 44.11:11",
+              "nikaya": "SN",
+              "title": "Sabhiya Sutta With Sabhiya",
+              "match_pct": 50.0,
+              "gist": "“Now, Master Kaccāna, when asked if the Tathāgata exists after death, you say, ‘That has not been declared by the Bless…"
+            }
+          ]
+        },
+        "relevance_floor:0.60": {
+          "source_count": 1,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "DN 16:518",
+              "nikaya": "DN",
+              "title": "Mahā Parinibbāna Sutta The Great Total Unbinding Discourse",
+              "match_pct": 99.0,
+              "gist": "“And for what reason is a Private Buddha worthy of a burial mound? (At the thought,) ‘This is the burial mound of a Pri…"
+            }
+          ]
+        },
+        "relevance_floor:0.75": {
+          "source_count": 1,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "DN 16:518",
+              "nikaya": "DN",
+              "title": "Mahā Parinibbāna Sutta The Great Total Unbinding Discourse",
+              "match_pct": 99.0,
+              "gist": "“And for what reason is a Private Buddha worthy of a burial mound? (At the thought,) ‘This is the burial mound of a Pri…"
+            }
+          ]
+        },
+        "relevance_floor:0.90": {
+          "source_count": 1,
+          "rows": [
+            {
+              "rank": 1,
+              "id": "DN 16:518",
+              "nikaya": "DN",
+              "title": "Mahā Parinibbāna Sutta The Great Total Unbinding Discourse",
+              "match_pct": 99.0,
+              "gist": "“And for what reason is a Private Buddha worthy of a burial mound? (At the thought,) ‘This is the burial mound of a Pri…"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
