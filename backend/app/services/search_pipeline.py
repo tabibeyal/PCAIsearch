@@ -149,6 +149,8 @@ def _relevance_scores(rerank_scores: list[float]) -> list[float]:
 class Reranker:
     """Cross-encoder reranker."""
     def __init__(self, model_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"):
+        # Cached: this model is ~400 MB and slow to load; without it, every
+        # SearchPipeline() in tests would reload it and exhaust memory.
         self.model = get_cached_model("reranker", model_name, lambda: CrossEncoder(model_name))
 
     def rerank_multi(self, queries: list[str], chunks: list[dict]) -> list[dict]:

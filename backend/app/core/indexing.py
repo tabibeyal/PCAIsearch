@@ -46,6 +46,8 @@ class EmbeddingManager:
     Uses fastembed (ONNX Runtime) for compatibility with older CPUs.
     """
     def __init__(self, model_name: str = 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'):
+        # Cached: this model is large and slow to load; without it, tests instantiating
+        # many EmbeddingManagers would reload it and exhaust memory.
         self._model = get_cached_model("embedding", model_name, lambda: TextEmbedding(model_name))
         self.dimension = 384  # paraphrase-multilingual-MiniLM-L12-v2 output dim
 
