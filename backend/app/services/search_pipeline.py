@@ -11,6 +11,7 @@ from openai import AsyncOpenAI
 from sentence_transformers import CrossEncoder
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from backend.app.core.indexing import EmbeddingManager
+from backend.app.core.model_cache import get_cached_model
 from backend.app.services.retriever import Retriever
 from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
@@ -145,19 +146,12 @@ def _relevance_scores(rerank_scores: list[float]) -> list[float]:
     ]
 
 
-_RERANKER_CACHE: dict[str, CrossEncoder] = {}
-
-
 class Reranker:
-    """
-    Cross-encoder reranker. The underlying model is cached globally because it
-    is large (~400 MB) and slow to load; without caching every SearchPipeline()
-    in tests reloads it and exhausts memory.
-    """
+    """Cross-encoder reranker."""
     def __init__(self, model_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"):
-        if model_name not in _RERANKER_CACHE:
-            _RERANKER_CACHE[model_name] = CrossEncoder(model_name)
-        self.model = _RERANKER_CACHE[model_name]
+        # Cached: this model is ~400 MB and slow to load; without it, every
+        # SearchPipeline() in tests would reload it and exhaust memory.
+        self.model = get_cached_model("reranker", model_name, lambda: CrossEncoder(model_name))
 
     def rerank_multi(self, queries: list[str], chunks: list[dict]) -> list[dict]:
         if not chunks:
