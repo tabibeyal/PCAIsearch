@@ -3,7 +3,7 @@ import { isCommentaryResult } from '@/lib/commentary';
 import { SearchResult } from '@/types/api';
 
 function makeResult(section?: string): SearchResult {
-  return { id: 'dn1:5', pali: '', english: '…', score: 0.9, section };
+  return { id: 'dn1:5', english: '…', score: 0.9, section };
 }
 
 describe('isCommentaryResult', () => {

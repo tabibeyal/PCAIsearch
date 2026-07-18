@@ -12,8 +12,8 @@ def _write_mixed_sutta(tmp_path) -> Path:
     citation is unverifiable while a canon citation from the same sutta is
     not (#101 marker, #103 registry exclusion)."""
     verses = [
-        {"number": 1, "pali": "", "english": "intro paragraph", "section": "commentary"},
-        {"number": 2, "pali": "", "english": "Thus have I heard the Blessed One was dwelling"},
+        {"number": 1, "english": "intro paragraph", "section": "commentary"},
+        {"number": 2, "english": "Thus have I heard the Blessed One was dwelling"},
     ]
     (tmp_path / "mn99.json").write_text(
         json.dumps({"sutta_id": "mn99", "verses": verses}), encoding="utf-8"
@@ -25,8 +25,8 @@ def test_guardrail_detects_hallucinations():
     # Without a CitationOracle: any citation not in retrieved chunks is a hallucination.
     guardrail = CitationGuardrail()
     context_chunks = [
-        {"id": "DN 1:1", "pali": "...", "english": "..."},
-        {"id": "DN 1:2", "pali": "...", "english": "..."},
+        {"id": "DN 1:1", "english": "..."},
+        {"id": "DN 1:2", "english": "..."},
     ]
     response = "The Buddha taught this in [DN 1:1] and also in [DN 5:10]."
 
@@ -41,7 +41,7 @@ def test_guardrail_detects_hallucinations():
 
 def test_guardrail_all_faithful():
     guardrail = CitationGuardrail()
-    context_chunks = [{"id": "MN 10:1", "pali": "...", "english": "..."}]
+    context_chunks = [{"id": "MN 10:1", "english": "..."}]
     response = "Check [MN 10:1] for details."
 
     result = guardrail.process_response(response, context_chunks)
@@ -53,7 +53,7 @@ def test_guardrail_all_faithful():
 
 def test_guardrail_no_citations():
     guardrail = CitationGuardrail()
-    context_chunks = [{"id": "DN 1:1", "pali": "...", "english": "..."}]
+    context_chunks = [{"id": "DN 1:1", "english": "..."}]
     response = "The Buddha taught the Four Noble Truths."
 
     result = guardrail.process_response(response, context_chunks)
@@ -69,7 +69,7 @@ def test_canon_guardrail_distinguishes_canonical_miss():
     # With an oracle it should be a canonical_miss, not a hallucination.
     oracle = CitationOracle(DUMPS_DIR)
     guardrail = CitationGuardrail(oracle=oracle)
-    context_chunks = [{"id": "MN 10:1", "pali": "...", "english": "..."}]
+    context_chunks = [{"id": "MN 10:1", "english": "..."}]
     response = "See also [DN 15:1] and [MN 10:1]."
 
     result = guardrail.process_response(response, context_chunks)
@@ -85,7 +85,7 @@ def test_canon_guardrail_flags_nonexistent_sutta():
     # DN 999:1 does not exist in the canon — should be a hallucination.
     oracle = CitationOracle(DUMPS_DIR)
     guardrail = CitationGuardrail(oracle=oracle)
-    context_chunks = [{"id": "MN 10:1", "pali": "...", "english": "..."}]
+    context_chunks = [{"id": "MN 10:1", "english": "..."}]
     response = "The text says [DN 999:1]."
 
     result = guardrail.process_response(response, context_chunks)
@@ -99,7 +99,7 @@ def test_guardrail_compound_sutta_id():
     # Compound IDs like SN 12.2:3 must be detected, not silently passed through.
     oracle = CitationOracle(DUMPS_DIR)
     guardrail = CitationGuardrail(oracle=oracle)
-    context_chunks = [{"id": "SN 12.2:3", "pali": "...", "english": "..."}]
+    context_chunks = [{"id": "SN 12.2:3", "english": "..."}]
     response = "See [SN 12.2:3] and the invented [SN 12.2:999]."
 
     result = guardrail.process_response(response, context_chunks)
@@ -113,7 +113,7 @@ def test_canon_guardrail_is_faithful_no_hallucinations():
     # Retrieved citation + canonical miss → is_faithful True (no invented suttas)
     oracle = CitationOracle(DUMPS_DIR)
     guardrail = CitationGuardrail(oracle=oracle)
-    context_chunks = [{"id": "MN 10:1", "pali": "...", "english": "..."}]
+    context_chunks = [{"id": "MN 10:1", "english": "..."}]
     response = "See [MN 10:1] and also [DN 15:1]."
 
     result = guardrail.process_response(response, context_chunks)
@@ -129,7 +129,7 @@ def test_guardrail_redacts_commentary_citation(tmp_path):
     # the same as an invented ID — commentary is never citable as canon.
     oracle = CitationOracle(_write_mixed_sutta(tmp_path))
     guardrail = CitationGuardrail(oracle=oracle)
-    context_chunks = [{"id": "MN 10:1", "pali": "...", "english": "..."}]
+    context_chunks = [{"id": "MN 10:1", "english": "..."}]
     response = "The Buddha taught this in [MN 99:1]."
 
     result = guardrail.process_response(response, context_chunks)

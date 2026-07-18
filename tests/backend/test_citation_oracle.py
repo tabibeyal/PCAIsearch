@@ -14,8 +14,8 @@ def _write_mixed_sutta(tmp_path) -> Path:
     commentary citation can be told apart from a canon citation in the
     same sutta (#101 section marker, #103 registry exclusion)."""
     verses = [
-        {"number": 1, "pali": "", "english": "intro paragraph", "section": "commentary"},
-        {"number": 2, "pali": "", "english": "Thus have I heard the Blessed One was dwelling"},
+        {"number": 1, "english": "intro paragraph", "section": "commentary"},
+        {"number": 2, "english": "Thus have I heard the Blessed One was dwelling"},
     ]
     (tmp_path / "mn99.json").write_text(
         json.dumps({"sutta_id": "mn99", "verses": verses}), encoding="utf-8"

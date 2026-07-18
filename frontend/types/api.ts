@@ -6,7 +6,6 @@ export interface PassageLine {
 
 export interface SearchResult {
   id: string;
-  pali: string;
   english: string;
   score: number;
   passage?: PassageLine[];

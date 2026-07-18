@@ -16,7 +16,7 @@ def client(monkeypatch):
 
 def test_search_returns_results(client):
     mock_results = [
-        {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Thus have I heard", "score": 0.99}
+        {"id": "DN 1:1", "english": "Thus have I heard", "score": 0.99}
     ]
     with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
         response = client.get("/search?q=Thus+have+I+heard")
@@ -32,7 +32,7 @@ def test_search_passes_commentary_marker_through(client):
     # A commentary-flagged chunk reaches the response with the marker intact,
     # so the frontend has the data to render a "Translator's introduction" label (#101).
     mock_results = [
-        {"id": "DN 1:3", "pali": "", "english": "This sutta introduces the Buddha.", "score": 0.97, "section": "commentary"}
+        {"id": "DN 1:3", "english": "This sutta introduces the Buddha.", "score": 0.97, "section": "commentary"}
     ]
     with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
         response = client.get("/search?q=introduces")
@@ -43,7 +43,7 @@ def test_search_passes_commentary_marker_through(client):
 def test_search_canon_chunk_has_no_section_marker(client):
     # Canon chunks carry no section key — absence means canon (#101).
     mock_results = [
-        {"id": "DN 1:4", "pali": "evam", "english": "Thus have I heard", "score": 0.99}
+        {"id": "DN 1:4", "english": "Thus have I heard", "score": 0.99}
     ]
     with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
         response = client.get("/search?q=Thus+have+I+heard")
@@ -62,7 +62,7 @@ def test_search_empty_string_rejected(client):
 
 
 def test_synthesize_returns_structured_response(client):
-    mock_results = [{"id": "MN 10:1", "pali": "...", "english": "Mindfulness of breathing brings calm awareness", "score": 0.95}]
+    mock_results = [{"id": "MN 10:1", "english": "Mindfulness of breathing brings calm awareness", "score": 0.95}]
     mock_answer = "The teaching on mindfulness is found in [MN 10:1]."
 
     with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)), \
@@ -81,7 +81,7 @@ def test_synthesize_returns_structured_response(client):
 
 
 def test_synthesize_guardrail_flags_hallucinations(client):
-    mock_results = [{"id": "MN 10:1", "pali": "...", "english": "Mindfulness of breathing brings calm awareness", "score": 0.95}]
+    mock_results = [{"id": "MN 10:1", "english": "Mindfulness of breathing brings calm awareness", "score": 0.95}]
     # LLM cites DN 999:1 — a sutta that doesn't exist in the canon at all.
     mock_answer = "See [MN 10:1] and [DN 999:1] for details."
 

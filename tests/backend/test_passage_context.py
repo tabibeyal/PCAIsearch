@@ -6,7 +6,7 @@ from backend.app.services.passage_context import PassageStore
 def _store(tmp_path, sutta_id, englishes, sections=None):
     verses = []
     for i, e in enumerate(englishes, start=1):
-        v = {"number": i, "pali": "", "english": e}
+        v = {"number": i, "english": e}
         if sections and sections[i - 1] is not None:
             v["section"] = sections[i - 1]
         verses.append(v)

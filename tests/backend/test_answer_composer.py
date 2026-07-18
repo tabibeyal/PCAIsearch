@@ -18,8 +18,8 @@ def _raw_context():
     # Fresh dicts per call: _attach_titles/_attach_passages mutate chunks in
     # place, so a shared module-level list would couple tests to each other.
     return [
-        {"id": "MN 10:1", "pali": "sammā-sati", "english": "Right mindfulness is awareness of the present moment"},
-        {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Too short"},
+        {"id": "MN 10:1", "english": "Right mindfulness is awareness of the present moment"},
+        {"id": "DN 1:1", "english": "Too short"},
     ]
 
 

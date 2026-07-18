@@ -22,8 +22,8 @@ def reranker():
 @pytest.fixture
 def two_chunks():
     return [
-        {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Thus have I heard"},
-        {"id": "MN 10:1", "pali": "sammā-sati", "english": "Right Mindfulness"},
+        {"id": "DN 1:1", "english": "Thus have I heard"},
+        {"id": "MN 10:1", "english": "Right Mindfulness"},
     ]
 
 
@@ -63,7 +63,7 @@ def test_reranker_empty_input(reranker):
 
 
 def test_reranker_single_chunk(reranker):
-    chunk = {"id": "SN 5:1", "pali": "...", "english": "..."}
+    chunk = {"id": "SN 5:1", "english": "..."}
     reranker.model.predict = MagicMock(return_value=np.array([0.7]))
     result = reranker.rerank_multi(["query"], [chunk])
     assert len(result) == 1
@@ -123,11 +123,11 @@ async def test_search_result_order_follows_reranker(in_memory_pipeline):
     p = in_memory_pipeline
 
     chunks = [
-        {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Thus have I heard"},
-        {"id": "MN 10:1", "pali": "sammā-sati", "english": "Right Mindfulness"},
+        {"id": "DN 1:1", "english": "Thus have I heard"},
+        {"id": "MN 10:1", "english": "Right Mindfulness"},
     ]
     for idx, c in enumerate(chunks):
-        vector = p.retriever.embedding_mgr.encode(f"{c['pali']} {c['english']}")
+        vector = p.retriever.embedding_mgr.encode(c['english'])
         await p.retriever.client.upsert(
             collection_name=p.collection_name,
             points=[models.PointStruct(id=idx, vector=vector, payload=c)],

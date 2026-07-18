@@ -15,12 +15,12 @@ from qdrant_client.http import models
 
 MINDFULNESS_CHUNKS = [
     # MN10 canonical source
-    {"id": "MN10:9", "pali": "Ekāyano ayaṃ maggo", "english": "The four kinds of mindfulness meditation are the path."},
-    {"id": "MN10:11", "pali": "kāye kāyānupassī", "english": "A mendicant meditates observing an aspect of the body."},
+    {"id": "MN10:9", "english": "The four kinds of mindfulness meditation are the path."},
+    {"id": "MN10:11", "english": "A mendicant meditates observing an aspect of the body."},
     # Generic mentions scattered across other suttas
-    {"id": "AN3.16:2", "pali": "sati sampajanna", "english": "One should practice mindfulness and clear comprehension."},
-    {"id": "SN47.1:3", "pali": "satipatthana bhavana", "english": "The cultivation of the establishments of mindfulness."},
-    {"id": "DN2:45", "pali": "satima sampajano", "english": "Mindful and clearly comprehending."},
+    {"id": "AN3.16:2", "english": "One should practice mindfulness and clear comprehension."},
+    {"id": "SN47.1:3", "english": "The cultivation of the establishments of mindfulness."},
+    {"id": "DN2:45", "english": "Mindful and clearly comprehending."},
 ]
 
 TITLE_ENTRIES = [
@@ -52,7 +52,7 @@ async def _make_pipeline(chunks, title_entries=None):
         points = [
             models.PointStruct(
                 id=idx,
-                vector=pipeline.retriever.embedding_mgr.encode(f"{c['pali']} {c['english']}"),
+                vector=pipeline.retriever.embedding_mgr.encode(c['english']),
                 payload=c,
             )
             for idx, c in enumerate(chunks)

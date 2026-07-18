@@ -26,7 +26,7 @@ async def _make_pipeline_with_client(chunks: list) -> tuple:
         points = [
             models.PointStruct(
                 id=idx,
-                vector=pipeline.retriever.embedding_mgr.encode(f"{c['pali']} {c['english']}"),
+                vector=pipeline.retriever.embedding_mgr.encode(c['english']),
                 payload=c,
             )
             for idx, c in enumerate(chunks)
@@ -39,9 +39,9 @@ async def _make_pipeline_with_client(chunks: list) -> tuple:
 @pytest.mark.asyncio
 async def test_search_pipeline_retrieval():
     chunks = [
-        {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Thus have I heard"},
-        {"id": "DN 1:2", "pali": "tada", "english": "then"},
-        {"id": "MN 10:1", "pali": "Samyutta", "english": "Connected Discourses"},
+        {"id": "DN 1:1", "english": "Thus have I heard"},
+        {"id": "DN 1:2", "english": "then"},
+        {"id": "MN 10:1", "english": "Connected Discourses"},
     ]
     pipeline, _ = await _make_pipeline_with_client(chunks)
 
@@ -65,8 +65,8 @@ async def test_commentary_marker_passes_through_search():
     """A commentary-flagged chunk surfaces in search results with the marker
     intact, so the results API can label it (#101)."""
     chunks = [
-        {"id": "DN 1:3", "pali": "", "english": "This sutta introduces the Buddha as a teacher", "section": "commentary"},
-        {"id": "DN 1:4", "pali": "evam", "english": "Thus have I heard the Blessed One was dwelling"},
+        {"id": "DN 1:3", "english": "This sutta introduces the Buddha as a teacher", "section": "commentary"},
+        {"id": "DN 1:4", "english": "Thus have I heard the Blessed One was dwelling"},
     ]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.bm25_retriever = BM25Retriever(chunks)
@@ -80,8 +80,8 @@ async def test_commentary_marker_passes_through_search():
 @pytest.mark.asyncio
 async def test_canon_chunk_has_no_section_marker_in_search():
     chunks = [
-        {"id": "DN 1:3", "pali": "", "english": "This sutta introduces the Buddha as a teacher", "section": "commentary"},
-        {"id": "DN 1:4", "pali": "evam", "english": "Thus have I heard the Blessed One was dwelling"},
+        {"id": "DN 1:3", "english": "This sutta introduces the Buddha as a teacher", "section": "commentary"},
+        {"id": "DN 1:4", "english": "Thus have I heard the Blessed One was dwelling"},
     ]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.bm25_retriever = BM25Retriever(chunks)
@@ -97,8 +97,8 @@ async def test_answer_flow_excludes_commentary_from_results():
     """The answer-flow search path (exclude_commentary=True) drops commentary
     from both dense and BM25 retrieval, so context slots fill with canon (#102)."""
     chunks = [
-        {"id": "DN 1:3", "pali": "", "english": "This sutta introduces the Buddha as a teacher", "section": "commentary"},
-        {"id": "DN 1:4", "pali": "evam", "english": "Thus have I heard the Blessed One was dwelling"},
+        {"id": "DN 1:3", "english": "This sutta introduces the Buddha as a teacher", "section": "commentary"},
+        {"id": "DN 1:4", "english": "Thus have I heard the Blessed One was dwelling"},
     ]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.bm25_retriever = BM25Retriever(chunks)
@@ -113,8 +113,8 @@ async def test_plain_search_still_returns_commentary_chunk():
     """The plain search path (exclude_commentary defaults to False) still
     surfaces commentary — only the answer flow is canon-only (#102)."""
     chunks = [
-        {"id": "DN 1:3", "pali": "", "english": "This sutta introduces the Buddha as a teacher", "section": "commentary"},
-        {"id": "DN 1:4", "pali": "evam", "english": "Thus have I heard the Blessed One was dwelling"},
+        {"id": "DN 1:3", "english": "This sutta introduces the Buddha as a teacher", "section": "commentary"},
+        {"id": "DN 1:4", "english": "Thus have I heard the Blessed One was dwelling"},
     ]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.bm25_retriever = BM25Retriever(chunks)
@@ -128,9 +128,9 @@ async def test_plain_search_still_returns_commentary_chunk():
 async def test_search_with_bm25_surfaces_exact_match():
     """BM25 path surfaces a passage whose exact words match the query."""
     chunks = [
-        {"id": "SN 56.11:1", "pali": "", "english": "noble eightfold path right view intention speech"},
-        {"id": "DN 1:1", "pali": "evam", "english": "Thus have I heard at one time"},
-        {"id": "MN 10:1", "pali": "citta", "english": "mindfulness contemplating body feelings mind"},
+        {"id": "SN 56.11:1", "english": "noble eightfold path right view intention speech"},
+        {"id": "DN 1:1", "english": "Thus have I heard at one time"},
+        {"id": "MN 10:1", "english": "mindfulness contemplating body feelings mind"},
     ]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.bm25_retriever = BM25Retriever(chunks)
@@ -144,10 +144,10 @@ async def test_search_with_bm25_surfaces_exact_match():
 async def test_nikaya_filter_excludes_other_nikayas_from_final_results():
     """nikayas=["MN"] must exclude non-MN verses even after BM25+RRF fusion."""
     chunks = [
-        {"id": "MN 10:1", "nikaya": "MN", "pali": "citta", "english": "right mindfulness body"},
-        {"id": "MN 10:2", "nikaya": "MN", "pali": "vedana", "english": "right mindfulness feelings"},
-        {"id": "DN 1:1", "nikaya": "DN", "pali": "evam", "english": "right view thus heard"},
-        {"id": "SN 22.59:1", "nikaya": "SN", "pali": "rupam", "english": "right mindfulness impermanent form"},
+        {"id": "MN 10:1", "nikaya": "MN", "english": "right mindfulness body"},
+        {"id": "MN 10:2", "nikaya": "MN", "english": "right mindfulness feelings"},
+        {"id": "DN 1:1", "nikaya": "DN", "english": "right view thus heard"},
+        {"id": "SN 22.59:1", "nikaya": "SN", "english": "right mindfulness impermanent form"},
     ]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.bm25_retriever = BM25Retriever(chunks)
@@ -161,7 +161,7 @@ async def test_nikaya_filter_excludes_other_nikayas_from_final_results():
 async def test_bm25_runs_on_all_expanded_queries():
     """BM25 must be called for every expanded query variant, not just the original."""
     from unittest.mock import MagicMock
-    chunks = [{"id": "MN 10:1", "pali": "", "english": "foundations of mindfulness"}]
+    chunks = [{"id": "MN 10:1", "english": "foundations of mindfulness"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
 
     mock_bm25 = MagicMock()
@@ -178,7 +178,7 @@ async def test_bm25_runs_on_all_expanded_queries():
 
 
 def test_search_pipeline_constructor_accepts_bm25_retriever():
-    verses = [{"id": "MN 1:1", "pali": "", "english": "test verse"}]
+    verses = [{"id": "MN 1:1", "english": "test verse"}]
     bm25 = BM25Retriever(verses)
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline(bm25_retriever=bm25)
@@ -188,7 +188,7 @@ def test_search_pipeline_constructor_accepts_bm25_retriever():
 @pytest.mark.asyncio
 async def test_dense_results_use_rrf_fuse_multi_not_first_seen():
     """Pipeline must call rrf_fuse_multi on per-query dense results, not first-seen dedup."""
-    chunks = [{"id": "MN 10:1", "pali": "", "english": "mindfulness body"}]
+    chunks = [{"id": "MN 10:1", "english": "mindfulness body"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.expand_query = AsyncMock(return_value=["query one", "query two"])
 
@@ -210,8 +210,8 @@ def test_reranker_multi_uses_max_score_across_queries():
         pipeline = SearchPipeline()
 
     chunks = [
-        {"id": "A", "pali": "", "english": "one"},
-        {"id": "B", "pali": "", "english": "two"},
+        {"id": "A", "english": "one"},
+        {"id": "B", "english": "two"},
     ]
     call_count = [0]
 
@@ -234,7 +234,7 @@ def test_reranker_multi_uses_max_score_across_queries():
 async def test_search_reranks_with_original_plus_dict_hints():
     """search must call rerank_multi with the original query merged with any
     curated English dictionary hint — NOT the LLM-expanded variants or Pāḷi terms."""
-    chunks = [{"id": "MN 61:36", "pali": "", "english": "deliberate lie bad deed"}]
+    chunks = [{"id": "MN 61:36", "english": "deliberate lie bad deed"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.expand_query = AsyncMock(return_value=["original", "llm variant 1", "llm variant 2",
                                                     "pali terms from dict", "english hint from dict"])
@@ -430,7 +430,7 @@ async def test_search_trims_candidates_before_reranking():
         nonlocal call_idx
         call_idx += 1
         start = (call_idx - 1) * 50 + 1
-        return [{"id": f"DN {i}:1", "pali": "", "english": f"chunk {i}"} for i in range(start, start + 50)]
+        return [{"id": f"DN {i}:1", "english": f"chunk {i}"} for i in range(start, start + 50)]
 
     pipeline.retriever.retrieve = fake_retrieve
     pipeline.expand_query = AsyncMock(return_value=["query", "variant one", "variant two"])
@@ -501,11 +501,11 @@ async def test_multi_nikaya_search_includes_results_from_each_nikaya():
     # 5 SN + 5 DHP results. Per-nikaya retrieval gives each its own 5-item pool.
     # The combined pool of 10 fits within top_k=10 so both must appear.
     sn_results = [
-        {"id": f"SN 1.{i}:1", "nikaya": "SN", "pali": "", "english": f"meditation mindfulness {i}", "score": 0.9 - i * 0.01}
+        {"id": f"SN 1.{i}:1", "nikaya": "SN", "english": f"meditation mindfulness {i}", "score": 0.9 - i * 0.01}
         for i in range(5)
     ]
     dhp_results = [
-        {"id": f"DHP {i}:1", "nikaya": "DHP", "pali": "", "english": f"mind calm verse {i}", "score": 0.85 - i * 0.01}
+        {"id": f"DHP {i}:1", "nikaya": "DHP", "english": f"mind calm verse {i}", "score": 0.85 - i * 0.01}
         for i in range(5)
     ]
 
@@ -554,3 +554,6 @@ def test_expansion_prompt_v7_has_named_similes():
     assert "your own island" in prompt or "island refuge" in prompt
     assert "six gates" in prompt and "gatekeeper" in prompt
     assert "dyed water" in prompt or "red lac" in prompt
+
+
+
