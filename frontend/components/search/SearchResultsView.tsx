@@ -60,12 +60,6 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
                 <span className="text-[#76604a] text-xs">{pct}% match</span>
               </div>
 
-              {result.pali && (
-                <p className="italic text-[#76604a] text-xs leading-[1.6] mb-2">
-                  {result.pali}
-                </p>
-              )}
-
               <p
                 className="text-[#6b5c4e] text-[13px] leading-[1.75] mb-2"
                 style={{ fontFamily: 'Georgia, serif' }}

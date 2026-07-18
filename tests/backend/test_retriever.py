@@ -107,3 +107,10 @@ async def test_default_retrieve_omits_section_on_canon():
     results = await r.retrieve("mindfulness kindness", top_k=5)
     by_id = {c["id"]: c for c in results}
     assert "section" not in by_id["MN 10:1"]
+
+
+@pytest.mark.asyncio
+async def test_retrieve_omits_raw_pali_field():
+    r = _retriever()
+    results = await r.retrieve("mindfulness kindness", top_k=5)
+    assert all("pali" not in c for c in results)

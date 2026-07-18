@@ -13,8 +13,8 @@ def pipeline():
 @pytest.fixture
 def sample_context():
     return [
-        {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Thus have I heard"},
-        {"id": "MN 10:5", "pali": "sammā-sati", "english": "Right mindfulness is awareness of the present moment"},
+        {"id": "DN 1:1", "english": "Thus have I heard"},
+        {"id": "MN 10:5", "english": "Right mindfulness is awareness of the present moment"},
     ]
 
 
@@ -112,8 +112,8 @@ def test_system_prompt_requires_nikaya_diversity():
 
 def test_prepare_context_drops_short_english_chunk(pipeline):
     chunks = [
-        {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Too short"},
-        {"id": "MN 10:5", "pali": "sammā-sati", "english": "Right mindfulness is awareness of the present moment"},
+        {"id": "DN 1:1", "english": "Too short"},
+        {"id": "MN 10:5", "english": "Right mindfulness is awareness of the present moment"},
     ]
     kept = pipeline.prepare_context(chunks)
     assert [c["id"] for c in kept] == ["MN 10:5"]
@@ -121,8 +121,8 @@ def test_prepare_context_drops_short_english_chunk(pipeline):
 
 def test_prepare_context_dedups_identical_english_keeping_first(pipeline):
     chunks = [
-        {"id": "DN 1:1", "pali": "evam me sutaṃ", "english": "Right mindfulness is awareness of the moment"},
-        {"id": "MN 10:5", "pali": "sammā-sati", "english": "Right mindfulness is awareness of the moment"},
+        {"id": "DN 1:1", "english": "Right mindfulness is awareness of the moment"},
+        {"id": "MN 10:5", "english": "Right mindfulness is awareness of the moment"},
     ]
     kept = pipeline.prepare_context(chunks)
     assert [c["id"] for c in kept] == ["DN 1:1"]

@@ -163,7 +163,7 @@ class Reranker:
         if not chunks:
             return []
         best = [float("-inf")] * len(chunks)
-        texts = [f"{c.get('pali', '')} {c.get('english', '')}" for c in chunks]
+        texts = [c.get("english", "") for c in chunks]
         for q in queries:
             scores = self.model.predict([(q, t) for t in texts])
             for i, s in enumerate(scores.tolist()):
@@ -212,7 +212,7 @@ _SYSTEM_PROMPT = (
     "\n\n"
     "CITATIONS: After every sentence that draws on a source, insert the citation ID in square brackets "
     "directly after the sentence, e.g. '...all conditioned things are impermanent. [SN 22.12:3]' "
-    "Use the exact ID string from the context (the part before the word 'Pali:'). "
+    "Use the exact ID string from the context (the text in square brackets). "
     "Multiple citations go in one bracket, comma-separated: [SN 22.12:3, AN 6.98:3]. "
     "HARD LIMIT: never put more than 3 citations in a single bracket. "
     "If you need to credit more than 3 sources for one claim, split the claim into multiple sentences so each sentence stays under the limit. "
@@ -269,7 +269,7 @@ def _enforce_citation_limit(text: str, max_citations: int = 3) -> str:
 
 def _build_messages(query: str, chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
     context_text = "\n\n".join(
-        f"[{c['id']}] Pali: {c['pali']}\nEnglish: {c['english']}"
+        f"[{c['id']}] {c.get('english', '')}"
         for c in chunks
     )
     return [

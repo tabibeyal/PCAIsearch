@@ -68,7 +68,6 @@ class Retriever:
                 continue
             chunk: dict[str, Any] = {
                 "id": r.payload.get("id"),
-                "pali": r.payload.get("pali"),
                 "english": r.payload.get("english"),
                 "score": r.score,
             }

@@ -20,14 +20,13 @@ from backend.app.services.sutta_title_index import SuttaTitleIndex
 # Corpus — distinct enough that the reranker reliably distinguishes them
 # ---------------------------------------------------------------------------
 CORPUS = [
-    {"id": "DN 1:1",  "pali": "evam me sutaṃ",  "english": "Thus have I heard"},
-    {"id": "MN 10:1", "pali": "sammā-sati",      "english": "Right Mindfulness of breathing"},
-    {"id": "SN 5:10", "pali": "dukkha",           "english": "The truth of suffering and its cessation"},
+    {"id": "DN 1:1",  "english": "Thus have I heard"},
+    {"id": "MN 10:1", "english": "Right Mindfulness of breathing"},
+    {"id": "SN 5:10", "english": "The truth of suffering and its cessation"},
     # Translator commentary on mettā/kindness — the answer flow must exclude this
     # at retrieval time while plain /search still returns it (#102).
     {
         "id": "AN 4:1",
-        "pali": "",
         "english": "The translator notes that metta means kindness or goodwill throughout this discourse",
         "section": "commentary",
     },
@@ -56,7 +55,7 @@ def live_pipeline():
             ),
         )
         for idx, chunk in enumerate(CORPUS):
-            vector = p.retriever.embedding_mgr.encode(f"{chunk['pali']} {chunk['english']}")
+            vector = p.retriever.embedding_mgr.encode(chunk['english'])
             await client.upsert(
                 collection_name=p.collection_name,
                 points=[qmodels.PointStruct(id=idx, vector=vector, payload=chunk)],

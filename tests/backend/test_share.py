@@ -37,7 +37,7 @@ def _valid_payload() -> dict:
 
 
 def _sanitized(context: list[dict]) -> list[dict]:
-    fields = ("id", "pali", "english", "score", "title", "passage")
+    fields = ("id", "english", "score", "title", "passage")
     return [{field: c.get(field) for field in fields} for c in context]
 
 

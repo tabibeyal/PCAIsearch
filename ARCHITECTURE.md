@@ -126,7 +126,7 @@ Wraps the Qdrant async client for dense vector retrieval.
 
 - Encodes the query string into a 384-dim vector using `EmbeddingManager` (run in a thread pool executor to avoid blocking the event loop).
 - Applies an optional `nikaya` keyword filter on the Qdrant `nikaya` payload field.
-- Returns a list of `{id, pali, english, score}` dicts, filtering out chunks with empty English text.
+- Returns a list of `{id, english, score}` dicts, filtering out chunks with empty English text.
 
 The collection name is `pali_canon`. The embedding model is `paraphrase-multilingual-MiniLM-L12-v2` (via fastembed / ONNX Runtime, loaded once at startup into `EmbeddingManager`).
 

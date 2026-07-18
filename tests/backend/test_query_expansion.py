@@ -56,7 +56,7 @@ async def test_synthesize_uses_llm_model_not_expansion_model(pipeline):
     mock_client = _mock_llm(pipeline, "The answer is impermanence.")
     pipeline.expansion_model = "google/gemma-3n-e4b-it"
     pipeline.llm_model = "meta/llama-3.3-70b-instruct"
-    await pipeline.synthesize("what is anicca?", [{"id": "SN1:1", "pali": "anicca", "english": "impermanence"}])
+    await pipeline.synthesize("what is anicca?", [{"id": "SN1:1", "english": "impermanence"}])
     call_kwargs = mock_client.chat.completions.create.call_args
     assert call_kwargs.kwargs["model"] == "meta/llama-3.3-70b-instruct"
 
@@ -135,7 +135,7 @@ async def test_search_deduplicates_results_across_variants(in_memory_pipeline):
     await p.retriever.client.upsert(
         collection_name=p.collection_name,
         points=[models.PointStruct(id=0, vector=vector, payload={
-            "id": "MN 10:1", "pali": "sammā-sati", "english": "Right Mindfulness"
+            "id": "MN 10:1", "english": "Right Mindfulness"
         })]
     )
 
