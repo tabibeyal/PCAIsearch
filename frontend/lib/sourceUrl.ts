@@ -1,12 +1,20 @@
 const BASE = 'https://www.dhammatalks.org/suttas';
 
-export function dhammatalksUrl(id: string): string {
+// The book code (DN, MN, DHP, …) is the first whitespace-delimited token of the
+// id's "<book> <num>:<verse>" prefix. Empty when the id has no space — callers
+// treat that as "no known book" (dhammatalksUrl falls back to the home page).
+export function bookCodeFromId(id: string): string {
   const suttaRef = id.split(':')[0].trim();
   const spaceIdx = suttaRef.indexOf(' ');
-  if (spaceIdx === -1) return 'https://www.dhammatalks.org';
+  return spaceIdx === -1 ? '' : suttaRef.slice(0, spaceIdx).toUpperCase();
+}
 
-  const prefix = suttaRef.slice(0, spaceIdx).toUpperCase();
-  const num = suttaRef.slice(spaceIdx + 1);
+export function dhammatalksUrl(id: string): string {
+  const prefix = bookCodeFromId(id);
+  if (!prefix) return 'https://www.dhammatalks.org';
+
+  const suttaRef = id.split(':')[0].trim();
+  const num = suttaRef.slice(suttaRef.indexOf(' ') + 1);
   const numU = num.replace('.', '_');
 
   switch (prefix) {
