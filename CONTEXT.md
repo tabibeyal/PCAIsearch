@@ -36,6 +36,8 @@ Vocabulary used in the codebase. Update inline as terms are resolved.
   _Avoid_: genuine result, real match
 - **Guarantee filler** — a results-view entry present only because `round_robin`'s book-representation policy forced its book to contribute a slot; would not appear under `global_best`. Shown with a book-attribution badge ("Included for `<Book>`") instead of a Match %, since its rank-normalized score would misrepresent relevance. See ADR-0008.
   _Avoid_: bucket-winner, weak bucket-winner (imprecise — doesn't distinguish from an organic result that happens to come from the same book)
+- **Weak pool** — a search where nothing retrieved is a strong match for the query (off-topic query, or topic absent from the selected books), detected by the best absolute reranker score falling below a floor. The results view shows a "no strong matches" notice and renders all cards without Match %; guarantee-filler badges still appear. The floor errs toward *not* firing — a good page falsely marked weak is the worse mistake. Weakness is a property of the whole search, not of an individual result. Deep-dive answer flow unaffected. See ADR-0009.
+  _Avoid_: no results (the closest passages are still shown), low confidence (per-result connotation)
 
 ## Deployment
 
