@@ -605,6 +605,27 @@ async def test_round_robin_policy_interleaves_buckets():
 
 
 @pytest.mark.asyncio
+async def test_round_robin_policy_marks_weak_bucket_entry_as_filler():
+    """The third round-robin slot is a weak DN passage forced in to give DN a
+    second slot; it ranks outside the top-3 by rerank score, so it is the only
+    guarantee filler. The two organic entries keep a numeric score; the filler
+    gets none (ADR-0008)."""
+    fixture = _POLICY_FIXTURE
+    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
+
+    results = await pipeline.search("passage", top_k=3, nikayas=["DN", "MN"])
+    by_id = {r["id"]: r for r in results}
+
+    assert by_id["DN 1:1"]["is_guarantee_filler"] is False
+    assert by_id["MN 1:1"]["is_guarantee_filler"] is False
+    assert by_id["DN 1:2"]["is_guarantee_filler"] is True
+    # The organic entries carry a displayed percentage; the filler does not.
+    assert by_id["DN 1:1"]["score"] is not None
+    assert by_id["MN 1:1"]["score"] is not None
+    assert by_id["DN 1:2"]["score"] is None
+
+
+@pytest.mark.asyncio
 async def test_global_best_policy_takes_top_reranked_chunks():
     """global_best ignores nikāya buckets and takes the highest rerank scores."""
     fixture = _POLICY_FIXTURE
@@ -615,6 +636,42 @@ async def test_global_best_policy_takes_top_reranked_chunks():
     )
 
     assert [r["id"] for r in results] == ["DN 1:1", "MN 1:1", "MN 1:2"]
+
+
+@pytest.mark.asyncio
+async def test_global_best_policy_never_classifies_results_as_filler():
+    """global_best's output IS the top-k by rerank score, so every result is
+    organic by construction — the deep-dive flow is unaffected by the filler
+    classification (ADR-0008)."""
+    fixture = _POLICY_FIXTURE
+    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
+
+    results = await pipeline.search(
+        "passage", top_k=3, nikayas=["DN", "MN"], policy="global_best"
+    )
+
+    assert [r["is_guarantee_filler"] for r in results] == [False, False, False]
+    assert all(r["score"] is not None for r in results)
+
+
+@pytest.mark.asyncio
+async def test_round_robin_all_filler_set_has_no_injected_percentage():
+    """When round-robin's first bucket contributes a weak passage that ranks
+    outside the top-k, every result in a small final set can be filler. No
+    artificial percentage is injected — ADR-0008 accepts an all-badged page."""
+    chunks = [
+        {"id": "SN 1:1", "nikaya": "SN", "english": "SN weak passage"},
+        {"id": "DN 1:1", "nikaya": "DN", "english": "DN strong passage"},
+    ]
+    scores = {"DN 1:1": 5.0, "SN 1:1": 1.0}
+    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
+
+    # Bucket order [SN, DN] forces SN's weak passage into the single top_k=1 slot.
+    results = await pipeline.search("passage", top_k=1, nikayas=["SN", "DN"])
+
+    assert [r["id"] for r in results] == ["SN 1:1"]
+    assert all(r["is_guarantee_filler"] for r in results)
+    assert all(r["score"] is None for r in results)
 
 
 @pytest.mark.asyncio
@@ -629,6 +686,36 @@ async def test_relevance_floor_policy_skips_weak_bucket_chunks():
 
     # floor = 0.6 * 4.0 = 2.4; MN 1:2 (2.0) and DN 1:2 (1.0) are dropped.
     assert [r["id"] for r in results] == ["DN 1:1", "MN 1:1"]
+    # Both survivors sit in the top-3 by rerank score, so neither is filler.
+    assert [r["is_guarantee_filler"] for r in results] == [False, False]
+
+
+@pytest.mark.asyncio
+async def test_relevance_floor_policy_classifies_surviving_filler():
+    """A loose floor can keep a weak bucket entry that ranks outside the top-k;
+    that survivor is still guarantee filler — relevance_floor matches round_robin's
+    filler semantics for the entries it keeps (ADR-0008)."""
+    chunks = [
+        {"id": "DN 1:1", "nikaya": "DN", "english": "DN high"},
+        {"id": "MN 1:1", "nikaya": "MN", "english": "MN high"},
+        {"id": "MN 1:2", "nikaya": "MN", "english": "MN medium"},
+        {"id": "DN 1:2", "nikaya": "DN", "english": "DN low"},
+    ]
+    scores = {"DN 1:1": 4.0, "MN 1:1": 3.0, "MN 1:2": 2.0, "DN 1:2": 1.5}
+    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
+
+    # floor = 0.3 * 4.0 = 1.2; all four pass. round_robin top_k=3 → [DN 1:1, MN 1:1, DN 1:2].
+    results = await pipeline.search(
+        "passage", top_k=3, nikayas=["DN", "MN"], policy="relevance_floor:0.3"
+    )
+
+    assert [r["id"] for r in results] == ["DN 1:1", "MN 1:1", "DN 1:2"]
+    by_id = {r["id"]: r for r in results}
+    assert by_id["DN 1:1"]["is_guarantee_filler"] is False
+    assert by_id["MN 1:1"]["is_guarantee_filler"] is False
+    # Survives the floor but ranks outside the top-3 → still filler.
+    assert by_id["DN 1:2"]["is_guarantee_filler"] is True
+    assert by_id["DN 1:2"]["score"] is None
 
 
 @pytest.mark.asyncio

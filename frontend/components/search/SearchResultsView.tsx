@@ -1,7 +1,8 @@
 import React from 'react';
 import { SearchResult } from '@/types/api';
-import { dhammatalksUrl } from '@/lib/sourceUrl';
+import { dhammatalksUrl, bookCodeFromId } from '@/lib/sourceUrl';
 import { isCommentaryResult } from '@/lib/commentary';
+import { isGuaranteeFillerResult } from '@/lib/guaranteeFiller';
 
 interface SearchResultsViewProps {
   results: SearchResult[];
@@ -17,9 +18,13 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
       ) : (
         results.map((result) => {
           const url = dhammatalksUrl(result.id);
-          const rawScore = Number.isFinite(result.score) ? result.score : 0;
-          const pct = Math.round(rawScore * 100);
           const isCommentary = isCommentaryResult(result);
+          const isFiller = isGuaranteeFillerResult(result);
+          const rawScore = result.score != null ? result.score : 0;
+          const pct = Math.round(rawScore * 100);
+          // Book code parsed from the id prefix via the same helper dhammatalksUrl
+          // uses, so no separate backend field carries the book name (ADR-0008).
+          const bookCode = bookCodeFromId(result.id);
           return (
             <div
               key={result.id}
@@ -57,7 +62,13 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
                 >
                   {result.id}
                 </a>
-                <span className="text-[#76604a] text-xs">{pct}% match</span>
+                {isFiller ? (
+                  <span className="inline-flex items-center bg-white border border-[#6b4e35] text-[#6b4e35] text-xs font-medium px-2 py-0.5 rounded">
+                    Included for {bookCode}
+                  </span>
+                ) : (
+                  <span className="text-[#76604a] text-xs">{pct}% match</span>
+                )}
               </div>
 
               <p

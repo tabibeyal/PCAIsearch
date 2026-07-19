@@ -133,16 +133,35 @@ _RELEVANCE_FLOOR = 0.5
 _RELEVANCE_CEIL = 0.99
 
 
-def _relevance_scores(rerank_scores: list[float]) -> list[float]:
+def _relevance_scores(
+    rerank_scores: list[float],
+    is_filler: list[bool] | None = None,
+) -> list[float | None]:
+    """Rank-normalize rerank scores into the [0.5, 0.99] display band.
+
+    Normalization uses only the organic subset (``is_filler`` False) for the
+    min/max range, so a guarantee-filler entry's weak raw score can't compress
+    the band shown on genuine results. Filler entries get ``None`` — they carry
+    no displayed percentage, only the book-attribution badge (ADR-0008).
+    """
     if not rerank_scores:
         return []
-    lo, hi = min(rerank_scores), max(rerank_scores)
+    if is_filler is None:
+        is_filler = [False] * len(rerank_scores)
+    organic = [s for s, f in zip(rerank_scores, is_filler) if not f]
+    if not organic:
+        # All-filler set: ADR-0008 rejects injecting an artificial percentage,
+        # so every entry is badged instead of scored.
+        return [None] * len(rerank_scores)
+    lo, hi = min(organic), max(organic)
     spread = hi - lo
     if not spread:
-        return [_RELEVANCE_CEIL] * len(rerank_scores)
+        return [None if f else _RELEVANCE_CEIL for f in is_filler]
     return [
-        _RELEVANCE_FLOOR + (_RELEVANCE_CEIL - _RELEVANCE_FLOOR) * (s - lo) / spread
-        for s in rerank_scores
+        None
+        if f
+        else _RELEVANCE_FLOOR + (_RELEVANCE_CEIL - _RELEVANCE_FLOOR) * (s - lo) / spread
+        for s, f in zip(rerank_scores, is_filler)
     ]
 
 
@@ -592,14 +611,27 @@ class SearchPipeline:
 
         results = self._select_results(scored, buckets, top_k, policy)
 
+        # Classify each final result as organic (it would appear in the top-k
+        # under pure rerank-score order, independent of book) or guarantee filler
+        # (present only because the book-representation policy forced its book
+        # in). Under global_best the final set IS scored[:top_k], so every result
+        # is organic by construction — the classification is policy-agnostic.
+        organic_ids = {c["id"] for c in scored[:top_k]}
+        is_filler = [c["id"] not in organic_ids for c in results]
+
         # The cross-encoder score is the final ranking signal; downstream
         # consumers (frontend match %, synthesis ordering) only read `score`.
-        # Rank-normalize within the result set so the displayed percentage is
-        # meaningful despite the logits being uncalibrated (see _relevance_scores).
-        for chunk, score in zip(
-            results, _relevance_scores([c.get("rerank_score", 0.0) for c in results])
+        # Rank-normalize within the organic subset so the displayed percentage
+        # is meaningful despite the logits being uncalibrated (see
+        # _relevance_scores). Filler entries get no score — the frontend shows a
+        # book-attribution badge instead (ADR-0008).
+        for chunk, score, filler in zip(
+            results,
+            _relevance_scores([c.get("rerank_score", 0.0) for c in results], is_filler),
+            is_filler,
         ):
             chunk["score"] = score
+            chunk["is_guarantee_filler"] = filler
 
         logger.info("search total: %.2fs", time.perf_counter() - t0)
         return results
