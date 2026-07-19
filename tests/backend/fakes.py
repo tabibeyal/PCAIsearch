@@ -87,8 +87,9 @@ class FakePipeline:
         top_k: int,
         nikayas: list[str] | None = None,
         exclude_commentary: bool = False,
+        policy: str = "round_robin",
     ) -> list[dict[str, Any]]:
-        self.search_calls.append({"query": query, "top_k": top_k, "nikayas": nikayas, "exclude_commentary": exclude_commentary})
+        self.search_calls.append({"query": query, "top_k": top_k, "nikayas": nikayas, "exclude_commentary": exclude_commentary, "policy": policy})
         return self._context
 
     async def synthesize(self, query: str, context_chunks: list[dict[str, Any]]) -> str:
@@ -112,6 +113,7 @@ class RaisingFakePipeline:
         top_k: int,
         nikayas: list[str] | None = None,
         exclude_commentary: bool = False,
+        policy: str = "round_robin",
     ) -> list[dict[str, Any]]:
         raise RuntimeError("search failed")
 
@@ -130,6 +132,7 @@ class MidStreamRaisingFakePipeline:
         top_k: int,
         nikayas: list[str] | None = None,
         exclude_commentary: bool = False,
+        policy: str = "round_robin",
     ) -> list[dict[str, Any]]:
         return self._context
 

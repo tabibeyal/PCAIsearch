@@ -43,7 +43,9 @@ Vocabulary used in the codebase. Update inline as terms are resolved.
 
 ## Conventions
 
-- **Nikāya** — used loosely throughout the code as the prefix tag in chunk IDs (`DN`, `MN`, `SN`, `AN`, `KN`). Strictly speaking applies only to the Sutta Piṭaka; when Vinaya is ingested the same field will carry tags like `VIN-BU`, `VIN-KD`, which is a slight abuse of the term but preserves a single payload field.
+- **Book** — the retrieval/filter granularity: one of `DN, MN, SN, AN, DHP, ITI, UD, STNP, THAG, THIG, KHP` (`_VALID_NIKAYAS` in `main.py`), derived from a chunk's ID prefix (`_bucket_of` in `search_pipeline.py`). Use this term for anything working at selection/bucket granularity — DHP and ITI are books, not nikāyas.
+  _Avoid_: nikāya (when the subject is bucket-level filtering or selection)
+- **Nikāya** — one of the four primary divisions of the Sutta Piṭaka (DN, MN, SN, AN), plus loosely the Khuddaka Nikāya collection. The code's `nikaya`-named params and fields (chunk ID prefix, the `nikayas` filter arg) actually operate at **book** granularity, not nikāya granularity — a legacy naming choice, not a modeling claim; when Vinaya is ingested the same field will carry book-like tags such as `VIN-BU`, `VIN-KD`.
 - **Phase** — Phase 2 = Vinaya ingestion (deferred; parser regex needs extension for `pli-tv-*` IDs). Phase 3 = Aṭṭhakathā ingestion + commentary-link edges.
 
 ## Gap detection (implemented and scheduled)
