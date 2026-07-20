@@ -9,7 +9,8 @@ export interface SearchResult {
   english: string;
   // Null on guarantee-filler entries (present only because the round-robin
   // book-representation policy forced their book in); the results view shows a
-  // book-attribution badge instead of a match % for those (ADR-0008).
+  // book-attribution badge instead of a match % for those (ADR-0008). Also
+  // null on every result when the response is a weak pool (ADR-0009).
   score: number | null;
   passage?: PassageLine[];
   title?: string;
@@ -35,4 +36,8 @@ export interface SynthesisResponse {
 
 export interface SearchResponse {
   results: SearchResult[];
+  // True when the search's best absolute cross-encoder score falls below a
+  // floor — every result's score is null in this case too. The results view
+  // shows a "no strong matches" notice instead of any % (ADR-0009).
+  is_weak_pool: boolean;
 }

@@ -90,8 +90,8 @@ function ErrorState({ isRateLimit, onRetry }: { isRateLimit: boolean; onRetry: (
 
 type State =
   | { kind: 'loading'; phase: 0 | 1 | 2 }
-  | { kind: 'ready'; results: SearchResult[] }
-  | { kind: 'shown'; results: SearchResult[] }
+  | { kind: 'ready'; results: SearchResult[]; isWeakPool: boolean }
+  | { kind: 'shown'; results: SearchResult[]; isWeakPool: boolean }
   | { kind: 'error'; status?: number };
 
 export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas: string[] }) {
@@ -113,7 +113,7 @@ export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas
           const data = await searchVerses(query, nikayaList, controller.signal);
           if (!cancelled) {
             updateAvgMs(Date.now() - startMs);
-            setState({ kind: 'ready', results: data.results });
+            setState({ kind: 'ready', results: data.results, isWeakPool: data.is_weak_pool });
           }
         } catch (e: unknown) {
           const err = e as { name?: string; status?: number };
@@ -136,11 +136,14 @@ export function SearchResultsLoader({ query, nikayas }: { query: string; nikayas
   // Once results are in, hold for STEP3_FLOOR_MS then reveal
   React.useEffect(() => {
     if (state.kind !== 'ready') return;
-    const t = setTimeout(() => setState({ kind: 'shown', results: state.results }), STEP3_FLOOR_MS);
+    const t = setTimeout(
+      () => setState({ kind: 'shown', results: state.results, isWeakPool: state.isWeakPool }),
+      STEP3_FLOOR_MS
+    );
     return () => clearTimeout(t);
   }, [state]);
 
   if (state.kind === 'error') return <ErrorState isRateLimit={state.status === 429} onRetry={() => setRetryCount(c => c + 1)} />;
-  if (state.kind === 'shown') return <SearchResultsView results={state.results} />;
+  if (state.kind === 'shown') return <SearchResultsView results={state.results} isWeakPool={state.isWeakPool} />;
   return <LoadingState phase={state.kind === 'loading' ? state.phase : 2} />;
 }

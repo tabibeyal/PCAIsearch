@@ -6,9 +6,10 @@ import { isGuaranteeFillerResult } from '@/lib/guaranteeFiller';
 
 interface SearchResultsViewProps {
   results: SearchResult[];
+  isWeakPool?: boolean;
 }
 
-export function SearchResultsView({ results }: SearchResultsViewProps) {
+export function SearchResultsView({ results, isWeakPool }: SearchResultsViewProps) {
   return (
     <div className="max-w-3xl mx-auto px-4 py-6 space-y-4" style={{ animation: 'fadeIn 300ms ease' }}>
       {results.length === 0 ? (
@@ -16,16 +17,21 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
           No suttas matched your search. Try rephrasing your question, or clear the Nikāya filter to search all collections.
         </div>
       ) : (
-        results.map((result) => {
-          const url = dhammatalksUrl(result.id);
-          const isCommentary = isCommentaryResult(result);
-          const isFiller = isGuaranteeFillerResult(result);
-          const rawScore = result.score != null ? result.score : 0;
-          const pct = Math.round(rawScore * 100);
-          // Book code parsed from the id prefix via the same helper dhammatalksUrl
-          // uses, so no separate backend field carries the book name (ADR-0008).
-          const bookCode = bookCodeFromId(result.id);
-          return (
+        <>
+          {isWeakPool && (
+            <div className="text-center text-sm text-[#76604a] bg-[#faf7f2] border border-[#e8e4dc] rounded-xl py-3 px-4">
+              No strong matches — showing the closest passages found
+            </div>
+          )}
+          {results.map((result) => {
+            const url = dhammatalksUrl(result.id);
+            const isCommentary = isCommentaryResult(result);
+            const isFiller = isGuaranteeFillerResult(result);
+            const pct = result.score != null ? Math.round(result.score * 100) : null;
+            // Book code parsed from the id prefix via the same helper dhammatalksUrl
+            // uses, so no separate backend field carries the book name (ADR-0008).
+            const bookCode = bookCodeFromId(result.id);
+            return (
             <div
               key={result.id}
               className="bg-white border border-[#e8e4dc] rounded-xl p-[14px]"
@@ -66,9 +72,9 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
                   <span className="inline-flex items-center bg-white border border-[#6b4e35] text-[#6b4e35] text-xs font-medium px-2 py-0.5 rounded">
                     Included for {bookCode}
                   </span>
-                ) : (
+                ) : pct != null ? (
                   <span className="text-[#76604a] text-xs">{pct}% match</span>
-                )}
+                ) : null}
               </div>
 
               <p
@@ -88,7 +94,8 @@ export function SearchResultsView({ results }: SearchResultsViewProps) {
               </a>
             </div>
           );
-        })
+          })}
+        </>
       )}
     </div>
   );

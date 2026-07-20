@@ -51,6 +51,36 @@ def test_search_canon_chunk_has_no_section_marker(client):
     assert "section" not in response.json()["results"][0]
 
 
+def test_search_response_exposes_weak_pool_flag_when_set(client):
+    # Every result carries the same is_weak_pool value (SearchPipeline.search
+    # sets it uniformly); the response surfaces it once at the top level so
+    # the frontend can show a page-level notice instead of a percentage on
+    # any card (ADR-0009, issue #128).
+    mock_results = [
+        {"id": "DN 1:1", "english": "Thus have I heard", "score": None, "is_weak_pool": True},
+        {"id": "DN 1:2", "english": "then", "score": None, "is_weak_pool": True},
+    ]
+    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
+        response = client.get("/search?q=off+topic+query")
+
+    assert response.json()["is_weak_pool"] is True
+
+
+def test_search_response_weak_pool_flag_false_for_strong_pool(client):
+    mock_results = [{"id": "DN 1:1", "english": "Thus have I heard", "score": 0.99, "is_weak_pool": False}]
+    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
+        response = client.get("/search?q=Thus+have+I+heard")
+
+    assert response.json()["is_weak_pool"] is False
+
+
+def test_search_response_weak_pool_flag_false_for_no_results(client):
+    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=[])):
+        response = client.get("/search?q=nothing+matches")
+
+    assert response.json()["is_weak_pool"] is False
+
+
 def test_search_requires_q_param(client):
     response = client.get("/search")
     assert response.status_code == 422
