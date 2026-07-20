@@ -132,6 +132,17 @@ def _normalize_citations(text: str) -> str:
 _RELEVANCE_FLOOR = 0.5
 _RELEVANCE_CEIL = 0.99
 
+# Below this floor, a search's best absolute cross-encoder rerank score is too
+# weak for a rank-normalized percentage to mean anything (issue #128): an
+# off-topic query, or a topic the selected books don't cover, would still
+# crown its top result near the display ceiling. Measured against the
+# deployed backend (2026-07-20): the retrieval benchmark's known-good queries
+# scored -4.25 to 7.51 (two "hard" vocabulary-gap cases pulled the low end
+# down); a deliberately off-topic / corpus-gap probe set scored -9.84 to
+# -0.53. ADR-0009 requires erring toward not firing, so the floor sits well
+# under the good cluster's minimum rather than splitting the narrow gap.
+_WEAK_POOL_FLOOR = -6.0
+
 
 def _relevance_scores(
     rerank_scores: list[float],
@@ -619,19 +630,29 @@ class SearchPipeline:
         organic_ids = {c["id"] for c in scored[:top_k]}
         is_filler = [c["id"] not in organic_ids for c in results]
 
+        # Weak pool: the search's best absolute score is the same number for
+        # the candidate pool and the displayed set (the top-scored candidate
+        # survives both book-representation policies), so this is one
+        # comparison over the final results (ADR-0009).
+        best_raw_score = max((c.get("rerank_score", float("-inf")) for c in results), default=float("-inf"))
+        is_weak_pool = best_raw_score < _WEAK_POOL_FLOOR
+
         # The cross-encoder score is the final ranking signal; downstream
         # consumers (frontend match %, synthesis ordering) only read `score`.
         # Rank-normalize within the organic subset so the displayed percentage
         # is meaningful despite the logits being uncalibrated (see
         # _relevance_scores). Filler entries get no score — the frontend shows a
-        # book-attribution badge instead (ADR-0008).
+        # book-attribution badge instead (ADR-0008). A weak pool suppresses
+        # every score regardless of filler status — a page-level notice
+        # explains the absence instead (ADR-0009).
         for chunk, score, filler in zip(
             results,
             _relevance_scores([c.get("rerank_score", 0.0) for c in results], is_filler),
             is_filler,
         ):
-            chunk["score"] = score
+            chunk["score"] = None if is_weak_pool else score
             chunk["is_guarantee_filler"] = filler
+            chunk["is_weak_pool"] = is_weak_pool
 
         logger.info("search total: %.2fs", time.perf_counter() - t0)
         return results

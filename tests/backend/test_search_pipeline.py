@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import AsyncMock, patch
-from backend.app.services.search_pipeline import SearchPipeline, get_expansion_prompt
+from backend.app.services.search_pipeline import SearchPipeline, get_expansion_prompt, _WEAK_POOL_FLOOR
 from backend.app.services.bm25_retriever import BM25Retriever
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
@@ -765,3 +765,90 @@ async def test_invalid_relevance_floor_policy_raises_value_error():
 
     with pytest.raises(ValueError, match="Invalid relevance_floor policy"):
         await pipeline.search("passage", top_k=1, nikayas=["MN"], policy="relevance_floor:bad")
+
+
+@pytest.mark.asyncio
+async def test_weak_pool_nulls_every_score_when_best_score_below_floor():
+    # A search whose best absolute rerank score falls below the floor gets no
+    # displayed percentage on any result — a page-level notice explains the
+    # absence, not a per-result number (ADR-0009, issue #128).
+    chunks = [
+        {"id": "MN 1:1", "nikaya": "MN", "english": "MN passage high"},
+        {"id": "MN 1:2", "nikaya": "MN", "english": "MN passage low"},
+    ]
+    scores = {"MN 1:1": _WEAK_POOL_FLOOR - 0.1, "MN 1:2": _WEAK_POOL_FLOOR - 1.0}
+    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
+
+    results = await pipeline.search("passage", top_k=2, nikayas=["MN"])
+
+    assert all(r["score"] is None for r in results)
+    assert all(r["is_weak_pool"] for r in results)
+    # Both entries are organic (single bucket, no interleaving forced anything
+    # in) — weak pool is an independent signal from guarantee filler.
+    assert all(r["is_guarantee_filler"] is False for r in results)
+
+
+@pytest.mark.asyncio
+async def test_strong_pool_search_keeps_scores_and_unweak_flag():
+    chunks = [
+        {"id": "MN 1:1", "nikaya": "MN", "english": "MN passage high"},
+        {"id": "MN 1:2", "nikaya": "MN", "english": "MN passage low"},
+    ]
+    scores = {"MN 1:1": _WEAK_POOL_FLOOR + 1.0, "MN 1:2": _WEAK_POOL_FLOOR + 0.5}
+    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
+
+    results = await pipeline.search("passage", top_k=2, nikayas=["MN"])
+
+    assert all(r["score"] is not None for r in results)
+    assert all(r["is_weak_pool"] is False for r in results)
+
+
+@pytest.mark.asyncio
+async def test_weak_pool_boundary_at_floor_does_not_fire():
+    # Exactly at the floor is not below it — the comparison is strict,
+    # matching ADR-0009's bias toward not firing.
+    chunks = [{"id": "MN 1:1", "nikaya": "MN", "english": "MN passage"}]
+    pipeline = await _make_pipeline_with_rerank_scores(chunks, {"MN 1:1": _WEAK_POOL_FLOOR})
+
+    results = await pipeline.search("passage", top_k=1, nikayas=["MN"])
+
+    assert results[0]["is_weak_pool"] is False
+    assert results[0]["score"] is not None
+
+
+@pytest.mark.asyncio
+async def test_weak_pool_boundary_just_below_floor_fires():
+    chunks = [{"id": "MN 1:1", "nikaya": "MN", "english": "MN passage"}]
+    pipeline = await _make_pipeline_with_rerank_scores(chunks, {"MN 1:1": _WEAK_POOL_FLOOR - 0.0001})
+
+    results = await pipeline.search("passage", top_k=1, nikayas=["MN"])
+
+    assert results[0]["is_weak_pool"] is True
+    assert results[0]["score"] is None
+
+
+@pytest.mark.asyncio
+async def test_weak_pool_and_guarantee_filler_flags_coexist():
+    # ADR-0009: a page can be simultaneously noticed (weak pool) and badged
+    # (guarantee filler) — the two signals are independent and compose.
+    chunks = [
+        {"id": "DN 1:1", "nikaya": "DN", "english": "DN passage high"},
+        {"id": "MN 1:1", "nikaya": "MN", "english": "MN passage high"},
+        {"id": "MN 1:2", "nikaya": "MN", "english": "MN passage medium"},
+        {"id": "DN 1:2", "nikaya": "DN", "english": "DN passage low"},
+    ]
+    scores = {
+        "DN 1:1": _WEAK_POOL_FLOOR - 1.0,
+        "MN 1:1": _WEAK_POOL_FLOOR - 2.0,
+        "MN 1:2": _WEAK_POOL_FLOOR - 3.0,
+        "DN 1:2": _WEAK_POOL_FLOOR - 4.0,
+    }
+    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
+
+    results = await pipeline.search("passage", top_k=3, nikayas=["DN", "MN"])
+    by_id = {r["id"]: r for r in results}
+
+    assert by_id["DN 1:2"]["is_guarantee_filler"] is True
+    assert by_id["DN 1:1"]["is_guarantee_filler"] is False
+    assert all(r["is_weak_pool"] for r in results)
+    assert all(r["score"] is None for r in results)

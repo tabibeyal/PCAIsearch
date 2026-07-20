@@ -223,7 +223,8 @@ async def search(
     results = await pipeline.search(q, top_k=top_k, nikayas=filtered_nikayas)
     related_suttas = pipeline.get_related_suttas(results)
     results = _attach_titles(results, pipeline.title_index)
-    return {"query": q, "results": results, "related_suttas": related_suttas}
+    is_weak_pool = bool(results[0].get("is_weak_pool", False)) if results else False
+    return {"query": q, "results": results, "related_suttas": related_suttas, "is_weak_pool": is_weak_pool}
 
 
 def _attach_titles(context: list[dict], title_index: SuttaTitleIndex) -> list[dict]:
