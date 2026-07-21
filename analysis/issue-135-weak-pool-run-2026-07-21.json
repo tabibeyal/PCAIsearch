@@ -1,0 +1,625 @@
+{
+  "backend": "https://pcaisearch-jol64.ondigitalocean.app",
+  "word_floor": 12,
+  "top_k": 10,
+  "strong_queries": [
+    {
+      "query": "what is the one precept you should never break",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        42,
+        46,
+        24,
+        19,
+        25,
+        25,
+        25,
+        30,
+        42,
+        79
+      ],
+      "top_ids": [
+        "MN 61:18",
+        "ITI 25:3",
+        "MN 61:10"
+      ]
+    },
+    {
+      "query": "what were the Buddha's last words before he died",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        154,
+        114,
+        25,
+        13,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "top_ids": [
+        "DN 16:5",
+        "DN 16:4",
+        "STNP 4.10:4"
+      ]
+    },
+    {
+      "query": "why does loving someone lead to grief and suffering",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        46,
+        53,
+        62,
+        29,
+        29,
+        29,
+        31,
+        52,
+        27,
+        31
+      ],
+      "top_ids": [
+        "AN 6.63:61",
+        "SN 56.11:7",
+        "AN 3.62:15"
+      ]
+    },
+    {
+      "query": "should a monk feel anger even if attacked with a saw",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        163,
+        163,
+        163,
+        167,
+        114,
+        37,
+        25,
+        76,
+        488,
+        83
+      ],
+      "top_ids": [
+        "MN 28:25",
+        "MN 28:32",
+        "MN 28:18"
+      ]
+    },
+    {
+      "query": "is having a good spiritual friend the whole of the holy life",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        46,
+        114,
+        35,
+        21,
+        94,
+        35,
+        51,
+        98,
+        5,
+        5
+      ],
+      "top_ids": [
+        "SN 45.2:4",
+        "SN 45.2:6",
+        "AN 9.13:24"
+      ]
+    },
+    {
+      "query": "what is the path between self-indulgence and harsh self-denial",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        76,
+        95,
+        67,
+        168,
+        4,
+        66,
+        4,
+        4,
+        96,
+        4
+      ],
+      "top_ids": [
+        "MN 148:26",
+        "THAG 5.8:3",
+        "MN 148:20"
+      ]
+    },
+    {
+      "query": "what is the deepest origin of all suffering",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        31
+      ],
+      "top_ids": [
+        "UD 1.1:17",
+        "UD 1.3:19",
+        "MN 38:143"
+      ]
+    },
+    {
+      "query": "how should one breathe mindfully during sitting meditation",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        161,
+        66,
+        157,
+        55,
+        62,
+        163,
+        153,
+        23,
+        153,
+        159
+      ],
+      "top_ids": [
+        "MN 125:42",
+        "SN 54.6:9",
+        "MN 107:9"
+      ]
+    },
+    {
+      "query": "how does ignorance cause suffering step by step",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        139,
+        139,
+        139,
+        139,
+        139,
+        139,
+        142,
+        76,
+        140,
+        139
+      ],
+      "top_ids": [
+        "SN 12.11:25",
+        "SN 12.15:18",
+        "SN 12.17:34"
+      ]
+    },
+    {
+      "query": "how do you know whether a religious teaching is worth following",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        123,
+        119,
+        37,
+        41,
+        39,
+        34,
+        32,
+        53,
+        146,
+        30
+      ],
+      "top_ids": [
+        "MN 122:39",
+        "MN 101:31",
+        "SN 12.68:14"
+      ]
+    },
+    {
+      "query": "what are the four foundations of mindfulness",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        72,
+        75,
+        117,
+        99,
+        107,
+        140,
+        71,
+        95,
+        79,
+        62
+      ],
+      "top_ids": [
+        "SN 47.29:9",
+        "SN 52.9:4",
+        "SN 52.10:4"
+      ]
+    },
+    {
+      "query": "what are the components of the noble eightfold path",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        40,
+        61,
+        20,
+        24,
+        39,
+        24,
+        40,
+        35,
+        38,
+        24
+      ],
+      "top_ids": [
+        "AN 3.72:22",
+        "MN 44:32",
+        "KHP 4:18"
+      ]
+    },
+    {
+      "query": "how should one treat parents family and friends according to the Buddha",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        24,
+        180,
+        38,
+        47,
+        52,
+        75,
+        48,
+        36,
+        2,
+        2
+      ],
+      "top_ids": [
+        "STNP 1.6:10",
+        "MN 38:8",
+        "MN 82:28"
+      ]
+    },
+    {
+      "query": "are the five aggregates permanent or do they lack a self",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        70,
+        43,
+        75,
+        74,
+        72,
+        33,
+        62,
+        79,
+        18,
+        125
+      ],
+      "top_ids": [
+        "SN 22.89:13",
+        "SN 22.89:9",
+        "SN 22.85:78"
+      ]
+    },
+    {
+      "query": "what did the Buddha consider after enlightenment before deciding to teach",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        156,
+        111,
+        111,
+        106,
+        139,
+        106,
+        53,
+        53,
+        53,
+        53
+      ],
+      "top_ids": [
+        "SN 6.1:3",
+        "MN 85:64",
+        "MN 26:44"
+      ]
+    },
+    {
+      "query": "is there more than one version of the definition of suffering",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        39,
+        53,
+        52,
+        52,
+        40,
+        61,
+        46,
+        62,
+        27,
+        29
+      ],
+      "top_ids": [
+        "MN 9:37",
+        "SN 56.11:7",
+        "MN 10:63"
+      ]
+    }
+  ],
+  "weak_queries": [
+    {
+      "query": "consentration",
+      "is_weak_pool": true,
+      "n_results": 10,
+      "result_words": [
+        6,
+        4,
+        7,
+        5,
+        3,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "top_ids": [
+        "AN 4.50:21",
+        "UD 2.9:6",
+        "DN 33:309"
+      ]
+    },
+    {
+      "query": "medtation technique",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        220,
+        220,
+        207,
+        29,
+        29,
+        29,
+        29,
+        32,
+        62,
+        20
+      ],
+      "top_ids": [
+        "MN 10:3",
+        "DN 22:3",
+        "AN 3.71:16"
+      ]
+    },
+    {
+      "query": "mindfulnes practice",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        84,
+        84,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "top_ids": [
+        "DN 22:13",
+        "MN 10:13",
+        "ITI 41:19"
+      ]
+    },
+    {
+      "query": "carburetor adjustment",
+      "is_weak_pool": true,
+      "n_results": 10,
+      "result_words": [
+        1,
+        472,
+        1,
+        1,
+        1,
+        1,
+        220,
+        220,
+        4,
+        2
+      ],
+      "top_ids": [
+        "ITI 38:12",
+        "STNP 2.12:3",
+        "AN 4.31:2"
+      ]
+    },
+    {
+      "query": "quantum field theory explained",
+      "is_weak_pool": true,
+      "n_results": 10,
+      "result_words": [
+        107,
+        36,
+        138,
+        2,
+        28,
+        3,
+        4,
+        93,
+        102,
+        7
+      ],
+      "top_ids": [
+        "DN 1:19",
+        "STNP 4.10:15",
+        "DN 1:204"
+      ]
+    },
+    {
+      "query": "how to bake sourdough bread",
+      "is_weak_pool": true,
+      "n_results": 10,
+      "result_words": [
+        2,
+        4,
+        2,
+        2,
+        1,
+        86,
+        1,
+        3,
+        175,
+        1
+      ],
+      "top_ids": [
+        "SN 47.8:2",
+        "ITI 75:29",
+        "AN 3.35:23"
+      ]
+    },
+    {
+      "query": "best pizza in naples",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "top_ids": [
+        "STNP 1.7:1",
+        "STNP 1.5:1",
+        "STNP 1.8:1"
+      ]
+    },
+    {
+      "query": "python decorator syntax",
+      "is_weak_pool": true,
+      "n_results": 10,
+      "result_words": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "top_ids": [
+        "UD 4.5:10",
+        "UD 5.2:8",
+        "UD 3.1:10"
+      ]
+    },
+    {
+      "query": "kubernetes pod crashloop backoff",
+      "is_weak_pool": true,
+      "n_results": 10,
+      "result_words": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        5,
+        5,
+        2,
+        4,
+        4
+      ],
+      "top_ids": [
+        "ITI 44:19",
+        "THIG 6.3:2",
+        "ITI 57:7"
+      ]
+    },
+    {
+      "query": "stock market prediction algorithm",
+      "is_weak_pool": false,
+      "n_results": 10,
+      "result_words": [
+        6,
+        6,
+        1,
+        5,
+        5,
+        2,
+        6,
+        6,
+        3,
+        3
+      ],
+      "top_ids": [
+        "DN 1:94",
+        "DN 2:108",
+        "THAG 1.84:2"
+      ]
+    },
+    {
+      "query": "what is the capital of france",
+      "is_weak_pool": true,
+      "n_results": 10,
+      "result_words": [
+        88,
+        1,
+        88,
+        177,
+        1,
+        1,
+        4,
+        2,
+        1,
+        2
+      ],
+      "top_ids": [
+        "AN 9.39:8",
+        "ITI 83:43",
+        "AN 9.39:5"
+      ]
+    },
+    {
+      "query": "how to fix a leaky faucet",
+      "is_weak_pool": true,
+      "n_results": 10,
+      "result_words": [
+        6,
+        4,
+        1,
+        4,
+        4,
+        5,
+        4,
+        1,
+        1,
+        1
+      ],
+      "top_ids": [
+        "MN 82:150",
+        "ITI 75:29",
+        "ITI 78:13"
+      ]
+    }
+  ]
+}
