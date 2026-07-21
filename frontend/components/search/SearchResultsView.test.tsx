@@ -59,3 +59,36 @@ describe('SearchResultsView match percentage', () => {
     expect(html).not.toContain('% match');
   });
 });
+
+describe('SearchResultsView passage context', () => {
+  it('renders passage lines instead of the english paragraph when passage is present', () => {
+    // The surrounding-line window from PassageStore (#138) replaces the
+    // single english paragraph: neighbor lines and the matched line all
+    // render, while the chunk's own english field is not shown.
+    const html = renderToStaticMarkup(
+      <SearchResultsView
+        results={[
+          makeResult({
+            english: 'the plain english field',
+            passage: [
+              { id: 'MN 27:13', english: 'previous neighbor line', isMatch: false },
+              { id: 'MN 27:14', english: 'the matched line', isMatch: true },
+              { id: 'MN 27:15', english: 'next neighbor line', isMatch: false },
+            ],
+          }),
+        ]}
+      />
+    );
+    expect(html).toContain('previous neighbor line');
+    expect(html).toContain('the matched line');
+    expect(html).toContain('next neighbor line');
+    expect(html).not.toContain('the plain english field');
+  });
+
+  it('renders the english paragraph when passage is absent', () => {
+    const html = renderToStaticMarkup(
+      <SearchResultsView results={[makeResult({ english: 'a standalone passage' })]} />
+    );
+    expect(html).toContain('a standalone passage');
+  });
+});

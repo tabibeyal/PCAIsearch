@@ -1,7 +1,28 @@
+import json
+
 import pytest
 from unittest.mock import AsyncMock, patch
 from fastapi.testclient import TestClient
 from backend.app.main import app
+from backend.app.services.passage_context import PassageStore
+
+
+def _passages_with_short_and_long(tmp_path) -> PassageStore:
+    # Verse 4 is short and sits between two non-meta canon verses, so widening
+    # pulls both neighbors. Verse 6 is long enough to stand alone, so passage()
+    # returns None for it. (Verses 1–2 are the meta header/title, never used.)
+    verses = [
+        {"number": 1, "english": "header"},
+        {"number": 2, "english": "title"},
+        {"number": 3, "english": "p" * 150},
+        {"number": 4, "english": "a" * 150},
+        {"number": 5, "english": "b" * 150},
+        {"number": 6, "english": "x" * 200},
+    ]
+    (tmp_path / "MN10.json").write_text(
+        json.dumps({"sutta_id": "MN10", "verses": verses}), encoding="utf-8"
+    )
+    return PassageStore.from_directory(tmp_path)
 
 
 @pytest.fixture
@@ -79,6 +100,39 @@ def test_search_response_weak_pool_flag_false_for_no_results(client):
         response = client.get("/search?q=nothing+matches")
 
     assert response.json()["is_weak_pool"] is False
+
+
+def test_search_attaches_passage_window_for_short_verse(client, tmp_path):
+    # A short verse surfaces with its surrounding lines, the same context
+    # widening the deep-dive flow already uses (#138).
+    original = app.state.passages
+    app.state.passages = _passages_with_short_and_long(tmp_path)
+    try:
+        mock_results = [{"id": "MN 10:4", "english": "a" * 150, "score": 0.9}]
+        with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
+            response = client.get("/search?q=short")
+
+        result = response.json()["results"][0]
+        assert "passage" in result
+        # The matched line sits between its neighbors.
+        assert [line["isMatch"] for line in result["passage"]] == [False, True, False]
+    finally:
+        app.state.passages = original
+
+
+def test_search_leaves_long_verse_without_passage(client, tmp_path):
+    # A verse long enough to stand alone gets no passage field — passage()
+    # returns None, so the endpoint leaves the chunk untouched (#138).
+    original = app.state.passages
+    app.state.passages = _passages_with_short_and_long(tmp_path)
+    try:
+        mock_results = [{"id": "MN 10:6", "english": "x" * 200, "score": 0.9}]
+        with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
+            response = client.get("/search?q=long")
+
+        assert "passage" not in response.json()["results"][0]
+    finally:
+        app.state.passages = original
 
 
 def test_search_requires_q_param(client):
