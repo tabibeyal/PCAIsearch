@@ -7,6 +7,23 @@ function makeResult(overrides: Partial<SearchResult> = {}): SearchResult {
   return { id: 'MN 27:14', english: 'passage text', score: 0.9, ...overrides };
 }
 
+function renderWithPassage(english: string): string {
+  return renderToStaticMarkup(
+    <SearchResultsView
+      results={[
+        makeResult({
+          english,
+          passage: [
+            { id: 'MN 27:13', english: 'previous neighbor line', isMatch: false },
+            { id: 'MN 27:14', english: 'the matched line', isMatch: true },
+            { id: 'MN 27:15', english: 'next neighbor line', isMatch: false },
+          ],
+        }),
+      ]}
+    />
+  );
+}
+
 describe('SearchResultsView weak-pool notice', () => {
   it('renders the notice when isWeakPool is true', () => {
     const html = renderToStaticMarkup(
@@ -61,27 +78,15 @@ describe('SearchResultsView match percentage', () => {
 });
 
 describe('SearchResultsView passage context', () => {
-  it('renders passage lines instead of the english paragraph when passage is present', () => {
+  it('renders passage lines when passage is present', () => {
     // The surrounding-line window from PassageStore (#138) replaces the
-    // single english paragraph: neighbor lines and the matched line all
-    // render, while the chunk's own english field is not shown.
-    const html = renderToStaticMarkup(
-      <SearchResultsView
-        results={[
-          makeResult({
-            english: 'the plain english field',
-            passage: [
-              { id: 'MN 27:13', english: 'previous neighbor line', isMatch: false },
-              { id: 'MN 27:14', english: 'the matched line', isMatch: true },
-              { id: 'MN 27:15', english: 'next neighbor line', isMatch: false },
-            ],
-          }),
-        ]}
-      />
-    );
-    expect(html).toContain('previous neighbor line');
-    expect(html).toContain('the matched line');
-    expect(html).toContain('next neighbor line');
+    // single english paragraph with the matched verse plus its neighbors.
+    const html = renderWithPassage('the plain english field');
+    expect(html).toMatch(/previous neighbor line[\s\S]*the matched line[\s\S]*next neighbor line/);
+  });
+
+  it('does not render the english paragraph when passage is present', () => {
+    const html = renderWithPassage('the plain english field');
     expect(html).not.toContain('the plain english field');
   });
 

@@ -1,8 +1,9 @@
 import json
+from unittest.mock import AsyncMock, patch
 
 import pytest
-from unittest.mock import AsyncMock, patch
 from fastapi.testclient import TestClient
+
 from backend.app.main import app
 from backend.app.services.passage_context import PassageStore
 
@@ -112,9 +113,21 @@ def test_search_attaches_passage_window_for_short_verse(client, tmp_path):
         with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
             response = client.get("/search?q=short")
 
+        assert "passage" in response.json()["results"][0]
+    finally:
+        app.state.passages = original
+
+
+def test_search_matched_line_sits_between_neighbors(client, tmp_path):
+    # The passage window places the matched verse between its neighbors (#138).
+    original = app.state.passages
+    app.state.passages = _passages_with_short_and_long(tmp_path)
+    try:
+        mock_results = [{"id": "MN 10:4", "english": "a" * 150, "score": 0.9}]
+        with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
+            response = client.get("/search?q=short")
+
         result = response.json()["results"][0]
-        assert "passage" in result
-        # The matched line sits between its neighbors.
         assert [line["isMatch"] for line in result["passage"]] == [False, True, False]
     finally:
         app.state.passages = original
