@@ -77,12 +77,29 @@ export function SearchResultsView({ results, isWeakPool }: SearchResultsViewProp
                 ) : null}
               </div>
 
-              <p
-                className="text-[#6b5c4e] text-[13px] leading-[1.75] mb-2"
-                style={{ fontFamily: 'Georgia, serif' }}
-              >
-                {result.english}
-              </p>
+              {result.passage ? (
+                <div className="space-y-2 mb-2" style={{ fontFamily: 'Georgia, serif' }}>
+                  {result.passage.map((line) => (
+                    <p
+                      key={line.id}
+                      className={
+                        line.isMatch
+                          ? 'text-[#6b5c4e] text-[13px] leading-[1.75]'
+                          : 'text-[#76604a] text-[13px] leading-[1.75]'
+                      }
+                    >
+                      {line.english}
+                    </p>
+                  ))}
+                </div>
+              ) : (
+                <p
+                  className="text-[#6b5c4e] text-[13px] leading-[1.75] mb-2"
+                  style={{ fontFamily: 'Georgia, serif' }}
+                >
+                  {result.english}
+                </p>
+              )}
 
               <a
                 href={url}

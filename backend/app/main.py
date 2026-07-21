@@ -223,8 +223,21 @@ async def search(
     results = await pipeline.search(q, top_k=top_k, nikayas=filtered_nikayas)
     related_suttas = pipeline.get_related_suttas(results)
     results = _attach_titles(results, pipeline.title_index)
+    results = _attach_passages(results, request.app.state.passages)
     is_weak_pool = bool(results[0].get("is_weak_pool", False)) if results else False
     return {"query": q, "results": results, "related_suttas": related_suttas, "is_weak_pool": is_weak_pool}
+
+
+def _attach_passages(context: list[dict], passages: PassageStore) -> list[dict]:
+    # Mirrors AnswerComposer._attach_passages: surface a surrounding-line window
+    # on short verse chunks so Passages results read as a passage instead of an
+    # isolated fragment (#138). passage() returns None for verses that need no
+    # widening, so applying to every result leaves long chunks untouched.
+    for chunk in context:
+        window = passages.passage(chunk.get("id", ""))
+        if window:
+            chunk["passage"] = window
+    return context
 
 
 def _attach_titles(context: list[dict], title_index: SuttaTitleIndex) -> list[dict]:
