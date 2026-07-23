@@ -1,4 +1,4 @@
-from backend.app.services.share_receipt import generate_receipt, verify_receipt
+from backend.app.services.share_receipt import generate_receipt, sanitize_context, verify_receipt
 
 SIGNING_KEY = "fake-signing-value-for-tests"
 
@@ -37,3 +37,16 @@ def test_receipt_ignores_non_canonical_fields_like_score():
 def test_wrong_key_fails_verification():
     receipt = generate_receipt(QUERY, ANSWER, CONTEXT, SIGNING_KEY)
     assert verify_receipt(QUERY, ANSWER, CONTEXT, receipt, "a-different-value") is False
+
+
+def test_sanitize_context_keeps_split_title_fields():
+    context = [{
+        **CONTEXT[0],
+        "title_pali": "Satipaṭṭhāna Sutta",
+        "title_english": "Mindfulness Meditation",
+    }]
+    [sanitized] = sanitize_context(context)
+    assert (sanitized["title_pali"], sanitized["title_english"]) == (
+        "Satipaṭṭhāna Sutta",
+        "Mindfulness Meditation",
+    )

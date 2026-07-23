@@ -6,8 +6,8 @@ import json
 from typing import Any
 
 
-_STORAGE_FIELDS = ("id", "english", "score", "title", "passage")
-_HASH_FIELDS = ("id", "english", "title", "passage")  # score excluded: float round-trip instability
+_STORAGE_FIELDS = ("id", "english", "score", "title", "title_pali", "title_english", "passage")
+_HASH_FIELDS = ("id", "english", "title", "title_pali", "title_english", "passage")  # score excluded: float round-trip instability
 
 
 def sanitize_context(context: list[dict[str, Any]]) -> list[dict[str, Any]]:

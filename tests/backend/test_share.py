@@ -31,13 +31,19 @@ class _RecordingShareStore:
 def _valid_payload() -> dict:
     query = "What is dukkha?"
     answer = "Dukkha means suffering [MN 10:1]."
-    context = [{"id": "MN 10:1", "english": "Suffering is...", "title": "Mindfulness Meditation"}]
+    context = [{
+        "id": "MN 10:1",
+        "english": "Suffering is...",
+        "title": "Mindfulness Meditation",
+        "title_pali": "Satipaṭṭhāna Sutta",
+        "title_english": "Mindfulness Meditation",
+    }]
     receipt = generate_receipt(query, answer, context, SIGNING_KEY)
     return {"query": query, "answer": answer, "context": context, "receipt": receipt}
 
 
 def _sanitized(context: list[dict]) -> list[dict]:
-    fields = ("id", "english", "score", "title", "passage")
+    fields = ("id", "english", "score", "title", "title_pali", "title_english", "passage")
     return [{field: c.get(field) for field in fields} for c in context]
 
 
