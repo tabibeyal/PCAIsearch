@@ -1,6 +1,6 @@
 # ADR-0009: Weak-Pool Searches Show a Notice and Hide All Match %
 
-**Status:** Accepted
+**Status:** Superseded by ADR-0011
 **Date:** 2026-07-19
 
 ## Context

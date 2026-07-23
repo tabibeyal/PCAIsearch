@@ -1,6 +1,5 @@
-from typing import Any, Callable
+from typing import Any
 import asyncio
-import itertools
 import logging
 import os
 import re
@@ -122,58 +121,6 @@ def _normalize_citations(text: str) -> str:
     # Llama sometimes ignores the "square brackets only" instruction and outputs (MN 1.2:3).
     # Convert to [MN 1.2:3] so the guardrail and frontend renderer can process them.
     return _PAREN_CITE_RE.sub(r"[\1]", text)
-
-
-# Display band for the frontend "% match". The cross-encoder logits are
-# uncalibrated and mostly negative for this domain, so any absolute transform
-# (e.g. sigmoid) collapses every result to ~1%. Instead we rank-normalize the
-# logits within each result set: the best match sits near the ceiling, the rest
-# descend from it, and even the weakest shown passage keeps a non-alarming floor.
-_RELEVANCE_FLOOR = 0.5
-_RELEVANCE_CEIL = 0.99
-
-# Below this floor, a search's best absolute cross-encoder rerank score is too
-# weak for a rank-normalized percentage to mean anything (issue #128): an
-# off-topic query, or a topic the selected books don't cover, would still
-# crown its top result near the display ceiling. Measured against the
-# deployed backend (2026-07-20): the retrieval benchmark's known-good queries
-# scored -4.25 to 7.51 (two "hard" vocabulary-gap cases pulled the low end
-# down); a deliberately off-topic / corpus-gap probe set scored -9.84 to
-# -0.53. ADR-0009 requires erring toward not firing, so the floor sits well
-# under the good cluster's minimum rather than splitting the narrow gap.
-_WEAK_POOL_FLOOR = -6.0
-
-
-def _relevance_scores(
-    rerank_scores: list[float],
-    is_filler: list[bool] | None = None,
-) -> list[float | None]:
-    """Rank-normalize rerank scores into the [0.5, 0.99] display band.
-
-    Normalization uses only the organic subset (``is_filler`` False) for the
-    min/max range, so a guarantee-filler entry's weak raw score can't compress
-    the band shown on genuine results. Filler entries get ``None`` — they carry
-    no displayed percentage, only the book-attribution badge (ADR-0008).
-    """
-    if not rerank_scores:
-        return []
-    if is_filler is None:
-        is_filler = [False] * len(rerank_scores)
-    organic = [s for s, f in zip(rerank_scores, is_filler) if not f]
-    if not organic:
-        # All-filler set: ADR-0008 rejects injecting an artificial percentage,
-        # so every entry is badged instead of scored.
-        return [None] * len(rerank_scores)
-    lo, hi = min(organic), max(organic)
-    spread = hi - lo
-    if not spread:
-        return [None if f else _RELEVANCE_CEIL for f in is_filler]
-    return [
-        None
-        if f
-        else _RELEVANCE_FLOOR + (_RELEVANCE_CEIL - _RELEVANCE_FLOOR) * (s - lo) / spread
-        for s, f in zip(rerank_scores, is_filler)
-    ]
 
 
 class Reranker:
@@ -426,8 +373,7 @@ class SearchPipeline:
         """Retrieve → fuse → BM25 for a single nikaya bucket.
 
         Returns fused candidates (no rerank, no slicing). The caller reranks
-        the union of all buckets' candidates in a single pass and partitions
-        the scored list back per bucket for round-robin interleaving.
+        the union of all buckets' candidates in a single pass.
         """
         t0 = time.perf_counter()
         loop = asyncio.get_running_loop()
@@ -459,78 +405,12 @@ class SearchPipeline:
         logger.info("bm25: %.2fs", time.perf_counter() - t1)
         return all_results
 
-    def _bucket_of(self, chunk: dict[str, Any], buckets: list[str | None]) -> str | None:
-        """Derive a chunk's nikāya bucket from its ID prefix."""
-        if len(buckets) == 1:
-            return buckets[0]
-        chunk_id = chunk.get("id", "")
-        prefix = chunk_id.split(":", 1)[0].split()[0] if chunk_id else ""
-        return prefix if prefix in buckets else None
-
-    def _interleave(
-        self,
-        scored_by_bucket: dict[str | None, list[dict[str, Any]]],
-        top_k: int,
-        predicate: Callable[[dict[str, Any]], bool] | None = None,
-    ) -> list[dict[str, Any]]:
-        """Round-robin across buckets, optionally dropping chunks via predicate."""
-        results: list[dict[str, Any]] = []
-        for chunk in itertools.chain(*itertools.zip_longest(*scored_by_bucket.values())):
-            if chunk is None or len(results) == top_k:
-                continue
-            if predicate and not predicate(chunk):
-                continue
-            results.append(chunk)
-        return results
-
-    def _select_results(
-        self,
-        scored: list[dict[str, Any]],
-        buckets: list[str | None],
-        top_k: int,
-        policy: str,
-    ) -> list[dict[str, Any]]:
-        """Choose the final top-k results from the reranked union.
-
-        Supported ``policy`` values:
-        - ``round_robin`` (default): interleave one result per selected book.
-        - ``global_best``: take the globally highest rerank scores, ignoring book.
-        - ``relevance_floor:<ratio>``: round-robin, but a book only contributes
-          chunks whose raw rerank score is at least ``ratio`` of the best score.
-        """
-        if policy == "global_best":
-            return scored[:top_k]
-
-        scored_by_bucket: dict[str | None, list[dict[str, Any]]] = {b: [] for b in buckets}
-        for chunk in scored:
-            scored_by_bucket[self._bucket_of(chunk, buckets)].append(chunk)
-
-        if policy == "round_robin":
-            return self._interleave(scored_by_bucket, top_k)
-
-        if policy.startswith("relevance_floor:"):
-            try:
-                threshold_ratio = float(policy.split(":", 1)[1])
-            except (IndexError, ValueError) as exc:
-                raise ValueError(f"Invalid relevance_floor policy: {policy!r}") from exc
-            if scored:
-                max_score = max(c.get("rerank_score", float("-inf")) for c in scored)
-                min_allowed = max_score * threshold_ratio
-            else:
-                min_allowed = float("-inf")
-            return self._interleave(
-                scored_by_bucket, top_k, predicate=lambda c: c.get("rerank_score", 0.0) >= min_allowed
-            )
-
-        raise ValueError(f"Unknown search policy: {policy!r}")
-
     async def search(
         self,
         query: str,
         top_k: int = 10,
         nikayas: list[str] | None = None,
         exclude_commentary: bool = False,
-        policy: str = "round_robin",
     ) -> list[dict[str, Any]]:
         """Run the full retrieval/fusion/rerank pipeline and return top-k results."""
         t0 = time.perf_counter()
@@ -586,8 +466,8 @@ class SearchPipeline:
         # Retrieve + fuse per bucket in parallel. Trim each bucket before
         # reranking: the cross-encoder is CPU-bound and scales linearly with the
         # number of candidates. Reranking the full fused list (often 100+ items)
-        # dominates search latency, while the round-robin interleave only needs
-        # enough high-fusion candidates from each bucket to fill top_k.
+        # dominates search latency, so cap how many high-fusion candidates each
+        # bucket contributes to the reranked union.
         budget_per_bucket = max(retrieval_k * 2, 100)
         bucket_candidates = await asyncio.gather(*[
             self._run_pipeline(
@@ -620,39 +500,7 @@ class SearchPipeline:
         )
         logger.info("rerank: %.2fs", time.perf_counter() - t_rerank)
 
-        results = self._select_results(scored, buckets, top_k, policy)
-
-        # Classify each final result as organic (it would appear in the top-k
-        # under pure rerank-score order, independent of book) or guarantee filler
-        # (present only because the book-representation policy forced its book
-        # in). Under global_best the final set IS scored[:top_k], so every result
-        # is organic by construction — the classification is policy-agnostic.
-        organic_ids = {c["id"] for c in scored[:top_k]}
-        is_filler = [c["id"] not in organic_ids for c in results]
-
-        # Weak pool: the search's best absolute score is the same number for
-        # the candidate pool and the displayed set (the top-scored candidate
-        # survives both book-representation policies), so this is one
-        # comparison over the final results (ADR-0009).
-        best_raw_score = max((c.get("rerank_score", float("-inf")) for c in results), default=float("-inf"))
-        is_weak_pool = best_raw_score < _WEAK_POOL_FLOOR
-
-        # The cross-encoder score is the final ranking signal; downstream
-        # consumers (frontend match %, synthesis ordering) only read `score`.
-        # Rank-normalize within the organic subset so the displayed percentage
-        # is meaningful despite the logits being uncalibrated (see
-        # _relevance_scores). Filler entries get no score — the frontend shows a
-        # book-attribution badge instead (ADR-0008). A weak pool suppresses
-        # every score regardless of filler status — a page-level notice
-        # explains the absence instead (ADR-0009).
-        for chunk, score, filler in zip(
-            results,
-            _relevance_scores([c.get("rerank_score", 0.0) for c in results], is_filler),
-            is_filler,
-        ):
-            chunk["score"] = None if is_weak_pool else score
-            chunk["is_guarantee_filler"] = filler
-            chunk["is_weak_pool"] = is_weak_pool
+        results = scored[:top_k]
 
         logger.info("search total: %.2fs", time.perf_counter() - t0)
         return results

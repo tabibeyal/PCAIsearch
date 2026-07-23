@@ -1,28 +1,7 @@
-import json
-
 import pytest
 from unittest.mock import AsyncMock, patch
 from fastapi.testclient import TestClient
 from backend.app.main import app
-from backend.app.services.passage_context import PassageStore
-
-
-def _passages_with_short_and_long(tmp_path) -> PassageStore:
-    # Verse 4 is short and sits between two non-meta canon verses, so widening
-    # pulls both neighbors. Verse 6 is long enough to stand alone, so passage()
-    # returns None for it. (Verses 1–2 are the meta header/title, never used.)
-    verses = [
-        {"number": 1, "english": "header"},
-        {"number": 2, "english": "title"},
-        {"number": 3, "english": "p" * 150},
-        {"number": 4, "english": "a" * 150},
-        {"number": 5, "english": "b" * 150},
-        {"number": 6, "english": "x" * 200},
-    ]
-    (tmp_path / "MN10.json").write_text(
-        json.dumps({"sutta_id": "MN10", "verses": verses}), encoding="utf-8"
-    )
-    return PassageStore.from_directory(tmp_path)
 
 
 @pytest.fixture
@@ -33,116 +12,6 @@ def client(monkeypatch):
     with patch("backend.app.services.search_pipeline.AsyncQdrantClient", return_value=mock_qdrant):
         with TestClient(app) as c:
             yield c
-
-
-def test_search_returns_results(client):
-    mock_results = [
-        {"id": "DN 1:1", "english": "Thus have I heard", "score": 0.99}
-    ]
-    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
-        response = client.get("/search?q=Thus+have+I+heard")
-
-    assert response.status_code == 200
-    body = response.json()
-    assert body["query"] == "Thus have I heard"
-    assert len(body["results"]) == 1
-    assert body["results"][0]["id"] == "DN 1:1"
-
-
-def test_search_passes_commentary_marker_through(client):
-    # A commentary-flagged chunk reaches the response with the marker intact,
-    # so the frontend has the data to render a "Translator's introduction" label (#101).
-    mock_results = [
-        {"id": "DN 1:3", "english": "This sutta introduces the Buddha.", "score": 0.97, "section": "commentary"}
-    ]
-    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
-        response = client.get("/search?q=introduces")
-
-    assert response.json()["results"][0]["section"] == "commentary"
-
-
-def test_search_canon_chunk_has_no_section_marker(client):
-    # Canon chunks carry no section key — absence means canon (#101).
-    mock_results = [
-        {"id": "DN 1:4", "english": "Thus have I heard", "score": 0.99}
-    ]
-    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
-        response = client.get("/search?q=Thus+have+I+heard")
-
-    assert "section" not in response.json()["results"][0]
-
-
-def test_search_response_exposes_weak_pool_flag_when_set(client):
-    # Every result carries the same is_weak_pool value (SearchPipeline.search
-    # sets it uniformly); the response surfaces it once at the top level so
-    # the frontend can show a page-level notice instead of a percentage on
-    # any card (ADR-0009, issue #128).
-    mock_results = [
-        {"id": "DN 1:1", "english": "Thus have I heard", "score": None, "is_weak_pool": True},
-        {"id": "DN 1:2", "english": "then", "score": None, "is_weak_pool": True},
-    ]
-    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
-        response = client.get("/search?q=off+topic+query")
-
-    assert response.json()["is_weak_pool"] is True
-
-
-def test_search_response_weak_pool_flag_false_for_strong_pool(client):
-    mock_results = [{"id": "DN 1:1", "english": "Thus have I heard", "score": 0.99, "is_weak_pool": False}]
-    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
-        response = client.get("/search?q=Thus+have+I+heard")
-
-    assert response.json()["is_weak_pool"] is False
-
-
-def test_search_response_weak_pool_flag_false_for_no_results(client):
-    with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=[])):
-        response = client.get("/search?q=nothing+matches")
-
-    assert response.json()["is_weak_pool"] is False
-
-
-def test_search_attaches_passage_window_for_short_verse(client, tmp_path):
-    # A short verse surfaces with its surrounding lines, the same context
-    # widening the deep-dive flow already uses (#138).
-    original = app.state.passages
-    app.state.passages = _passages_with_short_and_long(tmp_path)
-    try:
-        mock_results = [{"id": "MN 10:4", "english": "a" * 150, "score": 0.9}]
-        with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
-            response = client.get("/search?q=short")
-
-        result = response.json()["results"][0]
-        assert "passage" in result
-        # The matched line sits between its neighbors.
-        assert [line["isMatch"] for line in result["passage"]] == [False, True, False]
-    finally:
-        app.state.passages = original
-
-
-def test_search_leaves_long_verse_without_passage(client, tmp_path):
-    # A verse long enough to stand alone gets no passage field — passage()
-    # returns None, so the endpoint leaves the chunk untouched (#138).
-    original = app.state.passages
-    app.state.passages = _passages_with_short_and_long(tmp_path)
-    try:
-        mock_results = [{"id": "MN 10:6", "english": "x" * 200, "score": 0.9}]
-        with patch.object(app.state.pipeline, "search", new=AsyncMock(return_value=mock_results)):
-            response = client.get("/search?q=long")
-
-        assert "passage" not in response.json()["results"][0]
-    finally:
-        app.state.passages = original
-
-
-def test_search_requires_q_param(client):
-    response = client.get("/search")
-    assert response.status_code == 422
-
-
-def test_search_empty_string_rejected(client):
-    response = client.get("/search?q=")
-    assert response.status_code == 422
 
 
 def test_synthesize_returns_structured_response(client):

@@ -103,7 +103,7 @@ async def test_run_re_runs_the_query_live_through_the_pipeline():
 @pytest.mark.asyncio
 async def test_issue_body_includes_live_retrieval_candidates():
     store = FakeFeedbackStore([_candidate()])
-    pipeline = FakePipeline([{"id": "MN 27:14", "english": "...", "score": 0.842}])
+    pipeline = FakePipeline([{"id": "MN 27:14", "english": "...", "rerank_score": 0.842}])
     tracker = FakeIssueTracker()
     detector = GapDetector(store, pipeline, tracker)
 

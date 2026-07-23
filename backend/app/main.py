@@ -210,52 +210,6 @@ async def contact(request: Request, body: ContactBody):
     return {"ok": True}
 
 
-@app.get("/search")
-@limiter.limit("30/minute")
-async def search(
-    request: Request,
-    q: str = Query(..., min_length=1, max_length=500, description="The search query in English or Pali"),
-    top_k: int = Query(default=10, ge=1, le=20, description="Number of results to return"),
-    nikayas: list[str] | None = Query(default=None, description="Filter by Nikaya (DN, MN, SN, AN, DHP, ITI)"),
-):
-    pipeline = request.app.state.pipeline
-    filtered_nikayas = [n for n in nikayas if n in _VALID_NIKAYAS] if nikayas else None
-    results = await pipeline.search(q, top_k=top_k, nikayas=filtered_nikayas)
-    related_suttas = pipeline.get_related_suttas(results)
-    results = _attach_titles(results, pipeline.title_index)
-    results = _attach_passages(results, request.app.state.passages)
-    is_weak_pool = bool(results[0].get("is_weak_pool", False)) if results else False
-    return {"query": q, "results": results, "related_suttas": related_suttas, "is_weak_pool": is_weak_pool}
-
-
-def _attach_passages(context: list[dict], passages: PassageStore) -> list[dict]:
-    # Mirrors AnswerComposer._attach_passages: surface a surrounding-line window
-    # on short verse chunks so Passages results read as a passage instead of an
-    # isolated fragment (#138). passage() returns None for verses that need no
-    # widening, so applying to every result leaves long chunks untouched.
-    for chunk in context:
-        window = passages.passage(chunk.get("id", ""))
-        if window:
-            chunk["passage"] = window
-    return context
-
-
-def _attach_titles(context: list[dict], title_index: SuttaTitleIndex) -> list[dict]:
-    """Add display-only `title`, `title_pali`, `title_english` fields (canonical sutta
-    title) used by the copy-to-clipboard feature (composite `title`) and the sources
-    pane (split `title_pali` / `title_english`)."""
-    for chunk in context:
-        chunk_id = chunk.get("id", "")
-        sutta_key = chunk_id.rsplit(":", 1)[0].replace(" ", "")
-        title = title_index.get_title_text(sutta_key)
-        if title:
-            chunk["title"] = title
-        parts = title_index.get_title_parts(sutta_key)
-        if parts:
-            chunk["title_pali"], chunk["title_english"] = parts
-    return context
-
-
 @app.get("/synthesize")
 @limiter.limit("10/minute")
 async def synthesize(
