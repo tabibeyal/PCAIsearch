@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { SynthesisLoader } from '@/components/deep-dive/SynthesisLoader';
-import { SearchResultsLoader } from '@/components/search/SearchResultsLoader';
 import { NikayaFilter } from '@/components/search/NikayaFilter';
 import { NavSearchBox } from '@/components/search/NavSearchBox';
 import { SupportBanner } from '@/components/SupportBanner';
@@ -15,18 +14,14 @@ async function SearchPage({
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
   const { query: rawQuery } = await params;
-  const { view: viewParam, nikayas: nikayasParam } = await searchParams;
+  const { nikayas: nikayasParam } = await searchParams;
   const query = decodeURIComponent(rawQuery);
   const encodedQuery = encodeURIComponent(query);
-  const view = viewParam === 'results' ? 'results' : 'synthesis';
   const nikayas = Array.isArray(nikayasParam)
     ? nikayasParam
     : nikayasParam
     ? [nikayasParam]
     : [];
-
-  const tabClass = (active: boolean) =>
-    `px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${active ? 'bg-[#4a3728] text-white' : 'text-[#76604a] hover:bg-[#ede8df]'}`;
 
   return (
     <main className="h-full w-full">
@@ -40,32 +35,13 @@ async function SearchPage({
               </Link>
               <NavSearchBox key={query} initialQuery={query} />
             </div>
-            {/* Row 2: tabs + filter */}
+            {/* Row 2: filter */}
             <div className="flex items-center gap-2 px-3 sm:px-4 pb-3 flex-wrap">
-              <Link
-                href={`/search/${encodedQuery}?view=synthesis${nikayas.map(n => `&nikayas=${n}`).join('')}`}
-                className={tabClass(view === 'synthesis')}
-                scroll={false}
-                title="A synthesized answer grounded in retrieved passages, with inline citations"
-              >
-                Synthesis
-              </Link>
-              <Link
-                href={`/search/${encodedQuery}?view=results${nikayas.map(n => `&nikayas=${n}`).join('')}`}
-                className={tabClass(view === 'results')}
-                scroll={false}
-                title="Browse the individual source passages retrieved for your query"
-              >
-                Passages
-              </Link>
-              <div className="hidden sm:block w-px h-5 bg-[#e8e4dc]" />
-              <NikayaFilter encodedQuery={encodedQuery} view={view} selected={nikayas} />
+              <NikayaFilter encodedQuery={encodedQuery} selected={nikayas} />
             </div>
           </nav>
           <div className="flex-1 min-h-0 overflow-auto">
-            {view === 'synthesis'
-              ? <SynthesisLoader query={query} nikayas={nikayas} />
-              : <SearchResultsLoader key={query + '|' + nikayas.join(',')} query={query} nikayas={nikayas} />}
+            <SynthesisLoader query={query} nikayas={nikayas} />
           </div>
           <SupportBanner />
         </div>
