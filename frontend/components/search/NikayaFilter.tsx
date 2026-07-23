@@ -11,11 +11,10 @@ const KHUDDAKA = ['DHP', 'ITI', 'UD', 'STNP', 'THAG', 'THIG', 'KHP'];
 
 interface NikayaFilterProps {
   encodedQuery: string;
-  view: string;
   selected: string[];
 }
 
-export function NikayaFilter({ encodedQuery, view, selected }: NikayaFilterProps) {
+export function NikayaFilter({ encodedQuery, selected }: NikayaFilterProps) {
   const router = useRouter();
   const isAll = selected.length === 0;
   const [modKey, setModKey] = React.useState('⌘/Ctrl');
@@ -37,9 +36,10 @@ export function NikayaFilter({ encodedQuery, view, selected }: NikayaFilterProps
   }, [activeKhuddaka.length]);
 
   function navigate(next: string[]) {
-    const params = new URLSearchParams({ view });
+    const params = new URLSearchParams();
     next.forEach(n => params.append('nikayas', n));
-    router.push(`/search/${encodedQuery}?${params}`);
+    const qs = params.toString();
+    router.push(`/search/${encodedQuery}${qs ? `?${qs}` : ''}`);
   }
 
   function handlePillClick(nikaya: string, e: React.MouseEvent) {

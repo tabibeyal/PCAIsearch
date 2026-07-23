@@ -203,7 +203,7 @@ This bridges vocabulary gaps for the cross-encoder, which is English-only and wo
 Next.js (App Router). Two routes:
 
 - `/` — home page with `SearchBar`; submitting navigates to `/search/[query]`.
-- `/search/[query]` — results page. Fetches search results and streams synthesis in parallel.
+- `/search/[query]` — results page. Streams the synthesized answer (the passages view was removed; `/search` retrieval/rerank infra stays as shared backend).
 
 **Key components:**
 
@@ -212,8 +212,6 @@ Next.js (App Router). Two routes:
 | `SearchBar` | `components/search/SearchBar.tsx` | Home search input |
 | `NavSearchBox` | `components/search/NavSearchBox.tsx` | In-page search box on the results page |
 | `NikayaFilter` | `components/search/NikayaFilter.tsx` | Nikaya selector; click = single, ⌘/Ctrl-click = multi |
-| `SearchResultsLoader` | `components/search/SearchResultsLoader.tsx` | Fetches `/search`, renders `SearchResultsView` |
-| `SearchResultsView` | `components/search/SearchResultsView.tsx` | Displays ranked verse cards |
 | `DualPaneContainer` | `components/deep-dive/DualPaneContainer.tsx` | Side-by-side synthesis + sources layout |
 | `SynthesisLoader` | `components/deep-dive/SynthesisLoader.tsx` | Manages SSE stream state, streams to `SynthesisView` |
 | `SynthesisView` | `components/deep-dive/SynthesisView.tsx` | Renders streamed answer text with citations |
