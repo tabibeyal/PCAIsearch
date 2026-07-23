@@ -501,6 +501,8 @@ class SearchPipeline:
         logger.info("rerank: %.2fs", time.perf_counter() - t_rerank)
 
         results = scored[:top_k]
+        for chunk in results:
+            chunk.pop("score", None)
 
         logger.info("search total: %.2fs", time.perf_counter() - t0)
         return results
