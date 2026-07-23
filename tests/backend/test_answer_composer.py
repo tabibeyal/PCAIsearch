@@ -66,13 +66,6 @@ async def test_answer_forwards_nikayas_to_pipeline_search():
 
 
 @pytest.mark.asyncio
-async def test_answer_requests_global_best_policy():
-    composer, pipeline = _composer()
-    await composer.answer("mindfulness", top_k=10)
-    assert pipeline.search_calls[0]["policy"] == "global_best"
-
-
-@pytest.mark.asyncio
 async def test_answer_requests_canon_only_context():
     composer, pipeline = _composer()
     await composer.answer("mindfulness", top_k=10)
@@ -160,13 +153,6 @@ async def test_answer_stream_forwards_nikayas_to_pipeline_search():
     composer, pipeline = _composer()
     await _collect(composer.answer_stream("mindfulness", top_k=10, nikayas=["MN", "SN"]))
     assert pipeline.search_calls[0]["nikayas"] == ["MN", "SN"]
-
-
-@pytest.mark.asyncio
-async def test_answer_stream_requests_global_best_policy():
-    composer, pipeline = _composer()
-    await _collect(composer.answer_stream("mindfulness", top_k=10))
-    assert pipeline.search_calls[0]["policy"] == "global_best"
 
 
 @pytest.mark.asyncio

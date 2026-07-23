@@ -5,7 +5,7 @@ import { SearchResult } from '@/types/api';
 import { formatAnswerAsPlainText } from './formatAnswerAsPlainText';
 
 const context: SearchResult[] = [
-  { id: 'MN 27:14', english: 'lie english', score: 1, title: 'Cūḷahatthipadopamasutta The Shorter Discourse on the Elephant Footprint Simile' },
+  { id: 'MN 27:14', english: 'lie english', title: 'Cūḷahatthipadopamasutta The Shorter Discourse on the Elephant Footprint Simile' },
 ];
 
 describe('formatAnswerAsPlainText', () => {

@@ -27,18 +27,6 @@ Vocabulary used in the codebase. Update inline as terms are resolved.
 - **SuttaTitleIndex** — BM25 over sutta titles + body verses 3–15. Boosts retrieval when the query matches a canonical title (`backend/app/services/sutta_title_index.py`).
 - **Chunk ID** — verse-level identifier in the form `"<nikāya> <number>:<verse>"`, e.g. `"MN 27:14"`. Used end-to-end (Qdrant payload, citations, related-suttas API).
 
-## Results display
-
-- **Book-representation policy** — the `policy` argument to `SearchPipeline._select_results` (`search_pipeline.py`): `round_robin` (every selected book guaranteed a slot in the result set), `global_best` (pure rerank-score order, no guarantee), or `relevance_floor:<ratio>` (round-robin gated by a score ratio; empirically rejected, see ADR-0007). Results view uses `round_robin`; the deep-dive answer flow uses `global_best`. See ADR-0007.
-- **Match %** — the `score` field (0.5–0.99) shown on results-view cards as "N% match". Computed by rank-normalizing cross-encoder rerank scores within a reference set (`_relevance_scores` in `search_pipeline.py`), not an absolute confidence measure — the cross-encoder's logits are uncalibrated, so the percentage reflects standing within whatever set it's normalized against, not real-world match quality.
-  _Avoid_: confidence, relevance score (when the subject is this specific display value)
-- **Organic result** — a results-view entry that would appear in the top-*k* under `global_best` ordering, independent of book. Shown with its Match %. See ADR-0008.
-  _Avoid_: genuine result, real match
-- **Guarantee filler** — a results-view entry present only because `round_robin`'s book-representation policy forced its book to contribute a slot; would not appear under `global_best`. Shown with a book-attribution badge ("Included for `<Book>`") instead of a Match %, since its rank-normalized score would misrepresent relevance. See ADR-0008.
-  _Avoid_: bucket-winner, weak bucket-winner (imprecise — doesn't distinguish from an organic result that happens to come from the same book)
-- **Weak pool** — a search where nothing retrieved is a strong match for the query (off-topic query, or topic absent from the selected books), detected by the best absolute reranker score falling below a floor. The results view shows a "no strong matches" notice and renders all cards without Match %; guarantee-filler badges still appear. The floor errs toward *not* firing — a good page falsely marked weak is the worse mistake. Weakness is a property of the whole search, not of an individual result. Deep-dive answer flow unaffected. See ADR-0009.
-  _Avoid_: no results (the closest passages are still shown), low confidence (per-result connotation)
-
 ## Deployment
 
 - **Hosting target** — DigitalOcean App Platform (backend), Netlify (frontend), Qdrant Cloud (vector DB). See ADR-0003.

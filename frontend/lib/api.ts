@@ -1,18 +1,10 @@
-import { SearchResponse, SearchResult, SynthesisResponse } from '@/types/api';
+import { SearchResult, SynthesisResponse } from '@/types/api';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL ??
   (typeof window === 'undefined' ? (process.env.API_URL ?? 'http://localhost:8000') : '/api');
 
 function apiError(message: string, status: number): Error {
   return Object.assign(new Error(message), { status });
-}
-
-export async function searchVerses(query: string, nikayas?: string[], signal?: AbortSignal): Promise<SearchResponse> {
-  const params = new URLSearchParams({ q: query, top_k: '20' });
-  nikayas?.forEach(n => params.append('nikayas', n));
-  const res = await fetch(`${API_BASE}/search?${params}`, { signal });
-  if (!res.ok) throw apiError('Search request failed', res.status);
-  return res.json();
 }
 
 type StreamEvent =

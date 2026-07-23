@@ -107,7 +107,8 @@ def _followup_comment(candidate: FeedbackCandidate) -> str:
 
 def _issue_body(candidate: FeedbackCandidate, retrieved: list[dict[str, Any]]) -> str:
     candidates_lines = "\n".join(
-        f"{i}. `{r.get('id')}` — score {r.get('score'):.3f}" for i, r in enumerate(retrieved, start=1)
+        f"{i}. `{r.get('id')}` — rerank score {r.get('rerank_score', float('-inf')):.3f}"
+        for i, r in enumerate(retrieved, start=1)
     ) or "(no candidates retrieved)"
     return (
         "## Feedback\n\n"
