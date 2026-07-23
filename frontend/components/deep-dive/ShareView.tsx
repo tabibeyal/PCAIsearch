@@ -22,7 +22,7 @@ export function ShareView({ query, answer, context }: ShareViewProps) {
 
   return (
     <div className="flex flex-col md:flex-row h-full w-full overflow-hidden bg-[#e8e4dc]">
-      <div className="w-full md:w-1/2 h-1/2 md:h-full overflow-hidden border-b md:border-b-0 md:border-r border-[#e8e4dc]">
+      <div className="w-full md:w-1/2 h-[54%] md:h-full overflow-hidden border-b md:border-b-0 md:border-r border-[#e8e4dc]">
         <div className="h-full overflow-y-auto scroll-smooth p-6 bg-[#faf9f7] text-[#2c1f14]">
           <div className="max-w-2xl mx-auto">
             <p className="text-xs text-[#76604a] mb-1 font-sans uppercase tracking-wide">Shared answer</p>
@@ -33,7 +33,7 @@ export function ShareView({ query, answer, context }: ShareViewProps) {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-1/2 h-1/2 md:h-full overflow-hidden">
+      <div className="w-full md:w-1/2 h-[46%] md:h-full overflow-hidden">
         <SourceViewer context={context} activeRef={activeRef} />
       </div>
     </div>
