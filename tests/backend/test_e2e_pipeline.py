@@ -23,8 +23,8 @@ CORPUS = [
     {"id": "DN 1:1",  "english": "Thus have I heard"},
     {"id": "MN 10:1", "english": "Right Mindfulness of breathing"},
     {"id": "SN 5:10", "english": "The truth of suffering and its cessation"},
-    # Translator commentary on mettā/kindness — the answer flow must exclude this
-    # at retrieval time while plain /search still returns it (#102).
+    # Translator commentary on mettā/kindness — the answer flow (/synthesize,
+    # /stream) must exclude this at retrieval time (#102).
     {
         "id": "AN 4:1",
         "english": "The translator notes that metta means kindness or goodwill throughout this discourse",
@@ -188,44 +188,6 @@ def api_client(live_pipeline):
         limiter.enabled = True
 
 
-def test_e2e_api_search_returns_reranked_results(api_client):
-    response = api_client.get("/search?q=mindfulness+breathing")
-    assert response.status_code == 200
-    body = response.json()
-    assert len(body["results"]) > 0
-    assert all("rerank_score" in r for r in body["results"])
-
-
-def test_e2e_api_search_top_result_is_most_relevant(api_client):
-    response = api_client.get("/search?q=mindfulness+breathing")
-    assert response.json()["results"][0]["id"] == "MN 10:1"
-
-
-def test_e2e_api_search_results_include_sutta_title(api_client):
-    response = api_client.get("/search?q=mindfulness+breathing")
-    results_by_id = {r["id"]: r for r in response.json()["results"]}
-    assert results_by_id["MN 10:1"]["title"] == "Satipaṭṭhānasutta Mindfulness Meditation"
-
-
-def test_e2e_api_search_results_include_title_pali(api_client):
-    response = api_client.get("/search?q=mindfulness+breathing")
-    results_by_id = {r["id"]: r for r in response.json()["results"]}
-    assert results_by_id["MN 10:1"]["title_pali"] == "Satipaṭṭhānasutta"
-
-
-def test_e2e_api_search_results_include_title_english(api_client):
-    response = api_client.get("/search?q=mindfulness+breathing")
-    results_by_id = {r["id"]: r for r in response.json()["results"]}
-    assert results_by_id["MN 10:1"]["title_english"] == "Mindfulness Meditation"
-
-
-def test_e2e_api_search_omits_title_fields_when_not_in_index(api_client):
-    response = api_client.get("/search?q=teachings")
-    results_by_id = {r["id"]: r for r in response.json()["results"]}
-    assert "title_pali" not in results_by_id["DN 1:1"]
-    assert "title_english" not in results_by_id["DN 1:1"]
-
-
 def test_e2e_api_synthesize_faithful_answer(api_client, live_pipeline):
     _mock_synthesis(live_pipeline, "Mindfulness is in [MN 10:1].")
     response = api_client.get("/synthesize?q=mindfulness")
@@ -275,21 +237,6 @@ def test_e2e_api_synthesize_context_omits_title_english_when_not_in_index(api_cl
     body = response.json()
     context_by_id = {c["id"]: c for c in body["context"]}
     assert "title_english" not in context_by_id["DN 1:1"]
-
-
-def test_e2e_api_search_still_returns_commentary_chunk(api_client):
-    """Plain /search is unchanged by #102: commentary chunks still surface."""
-    response = api_client.get("/search?q=kindness+goodwill+metta")
-    results_by_id = {r["id"]: r for r in response.json()["results"]}
-    assert "AN 4:1" in results_by_id
-
-
-def test_e2e_api_search_preserves_commentary_marker(api_client):
-    """The commentary chunk that plain /search returns keeps its section marker
-    so the frontend can label it (#101, unchanged by #102)."""
-    response = api_client.get("/search?q=kindness+goodwill+metta")
-    results_by_id = {r["id"]: r for r in response.json()["results"]}
-    assert results_by_id["AN 4:1"]["section"] == "commentary"
 
 
 def test_e2e_api_synthesize_excludes_commentary_from_context(api_client, live_pipeline):
@@ -442,20 +389,6 @@ def test_e2e_api_stream_hallucination_includes_marker(api_client, live_pipeline)
 # ---------------------------------------------------------------------------
 # top_k parameter tests
 # ---------------------------------------------------------------------------
-
-def test_e2e_api_search_top_k_limits_results(api_client):
-    """Corpus has 3 chunks; top_k=1 must return at most 1."""
-    response = api_client.get("/search?q=teachings&top_k=1")
-    assert response.status_code == 200
-    assert len(response.json()["results"]) <= 1
-
-
-def test_e2e_api_search_top_k_default_is_ten(api_client):
-    """No top_k param → endpoint uses the default of 10 (returns all 3 in our corpus)."""
-    response = api_client.get("/search?q=teachings")
-    assert response.status_code == 200
-    assert len(response.json()["results"]) == len(CORPUS)
-
 
 def test_e2e_api_synthesize_top_k_limits_context(api_client, live_pipeline):
     """top_k=1 → only 1 chunk is passed as context to the LLM."""
