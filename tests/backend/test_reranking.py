@@ -85,11 +85,11 @@ def test_reranker_reuses_loaded_model():
 @pytest.fixture
 def in_memory_pipeline():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
-        from backend.app.services.search_pipeline import SearchPipeline
+        from backend.app.services.search_pipeline import SearchPipeline, ExpansionResult
         p = SearchPipeline()
     client = AsyncQdrantClient(":memory:")
     p.retriever.client = client
-    p.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
+    p.expand_query = AsyncMock(side_effect=lambda q, **_: ExpansionResult([q]))
 
     async def _setup():
         await client.create_collection(

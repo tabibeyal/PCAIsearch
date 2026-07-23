@@ -1,10 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
 import { SynthesisLoader } from '@/components/deep-dive/SynthesisLoader';
 import { NikayaFilter } from '@/components/search/NikayaFilter';
 import { NavSearchBox } from '@/components/search/NavSearchBox';
 import { SupportBanner } from '@/components/SupportBanner';
 import { SupportBannerProvider } from '@/components/SupportBannerContext';
+import { staleViewRedirectTarget } from './staleViewRedirect';
 
 async function SearchPage({
   params,
@@ -14,7 +16,7 @@ async function SearchPage({
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
   const { query: rawQuery } = await params;
-  const { nikayas: nikayasParam } = await searchParams;
+  const { view, nikayas: nikayasParam } = await searchParams;
   const query = decodeURIComponent(rawQuery);
   const encodedQuery = encodeURIComponent(query);
   const nikayas = Array.isArray(nikayasParam)
@@ -22,6 +24,12 @@ async function SearchPage({
     : nikayasParam
     ? [nikayasParam]
     : [];
+
+  // The Passages tab/view was removed (#143). Strip any stale `view` param
+  // (bookmarks, shared links, search indexes) by redirecting to the bare
+  // URL with `nikayas` preserved. (#147)
+  const redirectTarget = staleViewRedirectTarget(view, nikayas, encodedQuery);
+  if (redirectTarget) redirect(redirectTarget);
 
   return (
     <main className="h-full w-full">

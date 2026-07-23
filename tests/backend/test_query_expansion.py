@@ -3,6 +3,7 @@ import pytest
 from unittest.mock import MagicMock, AsyncMock, patch
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
+from backend.app.services.search_pipeline import ExpansionResult
 
 
 @pytest.fixture
@@ -120,7 +121,7 @@ def in_memory_pipeline():
 
 @pytest.mark.asyncio
 async def test_search_calls_expand_query(in_memory_pipeline):
-    in_memory_pipeline.expand_query = AsyncMock(return_value=["mindfulness"])
+    in_memory_pipeline.expand_query = AsyncMock(return_value=ExpansionResult(["mindfulness"]))
     await in_memory_pipeline.search("mindfulness", top_k=5)
     in_memory_pipeline.expand_query.assert_called_once_with("mindfulness")
 
@@ -139,7 +140,7 @@ async def test_search_deduplicates_results_across_variants(in_memory_pipeline):
         })]
     )
 
-    p.expand_query = AsyncMock(return_value=["right mindfulness", "sammā-sati meditation"])
+    p.expand_query = AsyncMock(return_value=ExpansionResult(["right mindfulness", "sammā-sati meditation"]))
     results = await p.search("mindfulness", top_k=10)
 
     in_memory_pipeline.expand_query.assert_called_once_with("mindfulness")

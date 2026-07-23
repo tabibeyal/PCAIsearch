@@ -249,6 +249,26 @@ def _build_messages(query: str, chunks: list[dict[str, Any]]) -> list[dict[str, 
     ]
 
 
+class ExpansionResult(list):
+    """Retrieval query variants returned by ``SearchPipeline.expand_query``.
+
+    Subclasses ``list`` so retrieval/BM25 callers iterate it unchanged: the items
+    are the raw query, up to two LLM-generated variants, then any Pāḷi and English
+    dictionary hits.
+
+    ``corrected`` is the first LLM-generated variant that differs from the raw
+    query, or ``None``. The search pipeline reranks against it as a second query
+    string so a typo in the raw query can't drag an on-topic passage's
+    cross-encoder score down (ADR-0010). It is sourced only from LLM variants —
+    never the Pāḷi dictionary hit, which the English-only cross-encoder can't
+    score — and is ``None`` when expansion failed or returned only the raw query.
+    """
+
+    def __init__(self, variants: list[str], corrected: str | None = None) -> None:
+        super().__init__(variants)
+        self.corrected = corrected
+
+
 class SearchPipeline:
     """
     Implements the RAG pipeline: Query Expansion -> Retrieval -> Synthesis.
@@ -298,9 +318,10 @@ class SearchPipeline:
             self._executor, self.reranker.model.predict, [("warmup", "warmup")]
         )
 
-    async def expand_query(self, query: str) -> list[str]:
+    async def expand_query(self, query: str) -> ExpansionResult:
         seen: set[str] = {query}
         variants: list[str] = [query]
+        corrected: str | None = None
         try:
             prompt = self.expansion_prompt()
             t0 = time.perf_counter()
@@ -320,6 +341,12 @@ class SearchPipeline:
                 if v not in seen:
                     seen.add(v)
                     variants.append(v)
+                    # The first LLM variant differing from the raw query is the
+                    # corrected reformulation used as a second rerank query string
+                    # (ADR-0010). Captured before the [:3] cap, which can only
+                    # drop later variants — the first extra sits at index 1.
+                    if corrected is None:
+                        corrected = v
             variants = variants[:3]
         except Exception as exc:
             logger.warning("query expansion failed, using original query: %s", exc)
@@ -329,7 +356,7 @@ class SearchPipeline:
         english_hit = lookup_english(query)
         if english_hit and english_hit not in seen:
             variants.append(english_hit)
-        return variants
+        return ExpansionResult(variants, corrected=corrected)
 
     def _bm25_dedup(
         self,
@@ -416,15 +443,6 @@ class SearchPipeline:
         t0 = time.perf_counter()
         retrieval_k = max(top_k * 3, 30)
 
-        # Rerank against the original query plus any English passage hint. The
-        # cross-encoder is trained on English text and doesn't understand Pāḷi —
-        # adding the pali_hit introduces noise. The english_hint (verbatim passage
-        # text) bridges vocabulary gaps (e.g. MN 61: 'deliberate lie' ≠ 'precept').
-        # Concatenating it with the query keeps the hint vocabulary in a single
-        # scoring pass, halving the number of cross-encoder forward calls.
-        english_hit_str = lookup_english(query)
-        rerank_queries: list[str] = [f"{query} {english_hit_str}" if english_hit_str else query]
-
         # Normalise nikayas into a list of buckets. No filter and single-nikaya
         # both produce a one-element list — the per-bucket pipeline below is the
         # identity for N=1.
@@ -439,12 +457,28 @@ class SearchPipeline:
                 for b in buckets
             ],
         )
-        queries: list[str] = gather_out[0]
+        expansion: ExpansionResult = gather_out[0]
+        # Capture the corrected variant before _apply_title_boost appends title
+        # text to the query list — title text must never be picked as the
+        # corrected rerank query (ADR-0010).
+        corrected = expansion.corrected
+        queries: list[str] = self._apply_title_boost(query, expansion)
         bucket_initials: list[list[dict[str, Any]]] = list(gather_out[1:])
 
         logger.info("expand+initial_retrieve: %.2fs", time.perf_counter() - t0)
 
-        queries = self._apply_title_boost(query, queries)
+        # Rerank against the raw query plus its English passage hint, and against
+        # the first LLM-corrected expansion variant plus the same hint when
+        # expansion produced one (ADR-0010). The cross-encoder is English-only, so
+        # the Pāḷi dictionary hit never reaches the rerank query set; rerank_multi
+        # takes the max score across query strings, letting a corrected spelling
+        # rescue an on-topic passage the misspelled raw query would have buried.
+        # The hint is looked up once and reused for both strings so the second
+        # query string costs one extra batched forward pass, not a second pass.
+        english_hint = lookup_english(query)
+        rerank_queries: list[str] = [f"{query} {english_hint}" if english_hint else query]
+        if corrected:
+            rerank_queries.append(f"{corrected} {english_hint}" if english_hint else corrected)
 
         # Run BM25 once across all nikayas, then split per bucket.
         # Running BM25 inside each _run_pipeline would score 50k verses

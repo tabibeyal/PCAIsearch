@@ -62,7 +62,8 @@ def live_pipeline():
             )
 
     asyncio.run(_setup())
-    p.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
+    from backend.app.services.search_pipeline import ExpansionResult
+    p.expand_query = AsyncMock(side_effect=lambda q, **_: ExpansionResult([q]))
     p.title_index = SuttaTitleIndex([
         {"sutta_id": "MN10", "title_pali": "Satipaṭṭhānasutta", "title_english": "Mindfulness Meditation"},
     ])

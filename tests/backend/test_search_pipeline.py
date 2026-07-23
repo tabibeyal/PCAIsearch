@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import AsyncMock, patch
-from backend.app.services.search_pipeline import SearchPipeline, get_expansion_prompt
+from backend.app.services.search_pipeline import SearchPipeline, get_expansion_prompt, ExpansionResult
 from backend.app.services.bm25_retriever import BM25Retriever
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
@@ -11,7 +11,7 @@ async def _make_pipeline_with_client(chunks: list) -> tuple:
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
     pipeline.retriever.client = client
-    pipeline.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
+    pipeline.expand_query = AsyncMock(side_effect=lambda q, **_: ExpansionResult([q]))
 
     collection_name = "pali_canon"
     await client.create_collection(
@@ -167,7 +167,7 @@ async def test_bm25_runs_on_all_expanded_queries():
     mock_bm25 = MagicMock()
     mock_bm25.retrieve.return_value = []
     pipeline.bm25_retriever = mock_bm25
-    pipeline.expand_query = AsyncMock(return_value=["original query", "satipatthana meditation"])
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(["original query", "satipatthana meditation"]))
 
     await pipeline.search("original query", top_k=5)
 
@@ -190,7 +190,7 @@ async def test_dense_results_use_rrf_fuse_multi_not_first_seen():
     """Pipeline must call rrf_fuse_multi on per-query dense results, not first-seen dedup."""
     chunks = [{"id": "MN 10:1", "english": "mindfulness body"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
-    pipeline.expand_query = AsyncMock(return_value=["query one", "query two"])
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(["query one", "query two"]))
 
     with patch("backend.app.services.search_pipeline.rrf_fuse_multi") as mock_multi:
         mock_multi.return_value = []
@@ -232,12 +232,17 @@ def test_reranker_multi_uses_max_score_across_queries():
 
 @pytest.mark.asyncio
 async def test_search_reranks_with_original_plus_dict_hints():
-    """search must call rerank_multi with the original query merged with any
-    curated English dictionary hint — NOT the LLM-expanded variants or Pāḷi terms."""
+    """search reranks against the raw query merged with its English dictionary
+    hint, and against the first LLM-corrected variant merged with the same hint
+    (ADR-0010). The Pāḷi dictionary hit and every LLM variant after the first are
+    excluded — the cross-encoder is English-only and rerank_multi takes the max
+    across query strings, so only the corrected first variant is worth the cost."""
     chunks = [{"id": "MN 61:36", "english": "deliberate lie bad deed"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
-    pipeline.expand_query = AsyncMock(return_value=["original", "llm variant 1", "llm variant 2",
-                                                    "pali terms from dict", "english hint from dict"])
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(
+        ["original", "llm variant 1", "llm variant 2", "pali terms from dict", "english hint from dict"],
+        corrected="llm variant 1",
+    ))
 
     captured = {}
 
@@ -251,10 +256,47 @@ async def test_search_reranks_with_original_plus_dict_hints():
          patch("backend.app.services.search_pipeline.lookup_english", return_value="not ashamed to tell a deliberate lie"):
         await pipeline.search("original", top_k=5)
 
-    assert captured["queries"] == ["original not ashamed to tell a deliberate lie"]
+    assert captured["queries"] == [
+        "original not ashamed to tell a deliberate lie",
+        "llm variant 1 not ashamed to tell a deliberate lie",
+    ]
     assert "musāvādā sacca" not in captured["queries"], "Pāḷi terms must not reach the reranker (cross-encoder is English-only)"
-    assert "llm variant 1" not in captured["queries"], "LLM variants must not reach the reranker"
-    assert "llm variant 2" not in captured["queries"]
+    assert "llm variant 2" not in captured["queries"], "Only the first LLM variant is reranked, not all of them"
+
+
+@pytest.mark.asyncio
+async def test_corrected_variant_rescues_typoed_query():
+    """A typo buries an on-topic passage under the raw query's score, but the
+    corrected expansion variant rescues it via rerank_multi's max-across-queries
+    (ADR-0010, issue #139). Without the corrected variant in the rerank set, the
+    on-topic passage would tie the filler at -8 and never surface."""
+    import numpy as np
+    chunks = [
+        {"id": "MN 19:5", "english": "developing concentration samadhi"},
+        {"id": "DN 1:1", "english": "totally unrelated filler text"},
+    ]
+    pipeline, _ = await _make_pipeline_with_client(chunks)
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(
+        ["consentration", "concentration"], corrected="concentration",
+    ))
+
+    # Fake cross-encoder: the misspelled query scores everything low; the
+    # corrected query only scores the on-topic passage high.
+    def fake_predict(pairs):
+        return np.array([
+            8.0 if ("concentration" in q and "concentration" in text)
+            else (0.0 if "concentration" in q else -8.0)
+            for q, text in pairs
+        ])
+
+    pipeline.reranker.model.predict = fake_predict
+
+    with patch("backend.app.services.search_pipeline.lookup_english", return_value=None):
+        results = await pipeline.search("consentration", top_k=2)
+
+    assert results[0]["id"] == "MN 19:5", (
+        "corrected variant must rescue the on-topic passage to rank 1, not leave it buried by the typo"
+    )
 
 
 def test_expansion_prompt_is_string_and_nonempty():
@@ -433,7 +475,7 @@ async def test_search_trims_candidates_before_reranking():
         return [{"id": f"DN {i}:1", "english": f"chunk {i}"} for i in range(start, start + 50)]
 
     pipeline.retriever.retrieve = fake_retrieve
-    pipeline.expand_query = AsyncMock(return_value=["query", "variant one", "variant two"])
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(["query", "variant one", "variant two"]))
 
     captured = {}
 
@@ -494,7 +536,7 @@ async def test_multi_nikaya_search_includes_results_from_each_nikaya():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
 
-    pipeline.expand_query = AsyncMock(return_value=["meditation"])
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(["meditation"]))
     # Stub reranker so ML scoring doesn't reorder the retrieval pool
     pipeline.reranker.rerank_multi = lambda queries, chunks: [{**c, "rerank_score": 0.0} for c in chunks]
 
