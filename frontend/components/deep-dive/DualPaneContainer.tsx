@@ -21,10 +21,6 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
     setActiveRef(ref);
     if (!deepDive) setDeepDive(true);
     setSourcesVisible(true); // always reopen sources when jumping to a citation
-    const id = `verse-${ref.replace(/\s+/g, '-').toLowerCase()}`;
-    setTimeout(() => {
-      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 50);
   };
 
   const handleDeepDiveToggle = () => {
@@ -42,12 +38,19 @@ export function DualPaneContainer({ data }: DualPaneContainerProps) {
     setDeepDiveOpen(deepDive);
   }, [deepDive, setDeepDiveOpen]);
 
+  // Scroll the cited verse to the top of the sources pane. Single source of truth: the
+  // click handler used to fire its own smooth scroll too, and the two competing smooth
+  // scrolls cancelled each other mid-flight, halting partway down the card with the verse
+  // title scrolled out of view. rAF waits for the pane to commit before scrolling once.
   React.useEffect(() => {
     if (!showSources || !activeRef) return;
     const id = `verse-${activeRef.replace(/\s+/g, '-').toLowerCase()}`;
-    setTimeout(() => {
+    let cancelled = false;
+    const raf = requestAnimationFrame(() => {
+      if (cancelled) return;
       document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 50);
+    });
+    return () => { cancelled = true; cancelAnimationFrame(raf); };
   }, [showSources, activeRef]);
 
   return (
