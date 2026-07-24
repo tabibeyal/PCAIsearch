@@ -21,7 +21,7 @@ Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, 
 frontend/          Next.js 16 (App Router)
 backend/           FastAPI + asyncio
   app/
-    main.py        API endpoints (/search, /synthesize), rate limiting
+    main.py        API endpoints (/synthesize, /stream), rate limiting
     core/
       indexing.py  SuttaParser, EmbeddingManager (fastembed / ONNX Runtime)
     services/
@@ -107,12 +107,11 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Endpoint | Description |
 |---|---|
-| `GET /search?q=…&top_k=10&nikayas=MN&nikayas=SN` | Semantic search; returns ranked verses. `nikayas` is optional, repeatable. |
 | `GET /synthesize?q=…&top_k=10` | AI answer with citations, `hallucinations`, `canonical_misses`, and `is_faithful` flag |
 | `GET /stream?q=…&top_k=10&nikayas=DN` | Streaming synthesis (SSE); same `nikayas` filter supported |
 | `POST /feedback` | Submit thumbs-up/down feedback on a synthesis answer, with optional category and notes; stored in Supabase (production) or local SQLite (dev) |
 
-Rate limits: 30 req/min for search, 10 req/min for synthesis.
+Rate limits: 10 req/min for synthesis and streaming.
 
 ## Running Tests
 
