@@ -23,9 +23,8 @@ Vocabulary used in the codebase. Update inline as terms are resolved.
 - **Shared answer snapshot** — a persisted copy of one synthesized answer (query + answer text + context), created only when a user clicks the Share button, kept forever, served read-only at `/share/{id}`. Distinct from re-sharing a live query link (`/search/{query}?view=synthesis`), which would re-run synthesis and could produce different text. See ADR-0005.
 - **Receipt** — an HMAC computed server-side over `(query, answer, context)` at synthesis time, returned to the client and required unchanged on `POST /share`. Proves a shared snapshot is byte-identical to something the pipeline actually generated, without re-running the (non-deterministic) LLM or holding server-side session state. See ADR-0005.
 - **AnswerComposer** — the deep module behind both `/synthesize` and `/stream`; owns the compose flow (kept context → synthesize → Guardrail → attach passages/titles → Receipt) so it's written once instead of drifting between the two routes. Depends on `Pipeline`, `Guardrail`, `PassageStore`, `SuttaTitleIndex`, and the share-receipt secret — each passed in directly, not reached-through via another collaborator. Raises on failure rather than swallowing; `answer_stream` yields typed `status`/`chunk`/`done` events, with SSE encoding and error-to-`error`-event conversion left to the route as transport glue.
-- **SuttaRelations** — hand-curated doctrinal pairs + ±2 numeric adjacency within a nikāya. Surfaces a "see also" sutta list per query (`backend/app/services/sutta_relations.py`).
 - **SuttaTitleIndex** — BM25 over sutta titles + body verses 3–15. Boosts retrieval when the query matches a canonical title (`backend/app/services/sutta_title_index.py`).
-- **Chunk ID** — verse-level identifier in the form `"<nikāya> <number>:<verse>"`, e.g. `"MN 27:14"`. Used end-to-end (Qdrant payload, citations, related-suttas API).
+- **Chunk ID** — verse-level identifier in the form `"<nikāya> <number>:<verse>"`, e.g. `"MN 27:14"`. Used end-to-end (Qdrant payload, citations).
 
 ## Deployment
 

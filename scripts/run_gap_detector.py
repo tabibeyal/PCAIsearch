@@ -11,8 +11,6 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from backend.app.services.citation_oracle import CitationOracle
-from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.search_pipeline import SearchPipeline
@@ -31,9 +29,7 @@ async def main() -> None:
     supabase_url = os.environ["SUPABASE_URL"].split("/rest/")[0].rstrip("/")
     supabase_key = os.environ["SUPABASE_KEY"]
 
-    oracle = CitationOracle(_DUMPS_DIR)
     pipeline = SearchPipeline(
-        sutta_relations=SuttaRelations(oracle.known_suttas),
         title_index=SuttaTitleIndex.from_directory(_DUMPS_DIR),
         bm25_retriever=BM25Retriever.from_directory(_DUMPS_DIR),
     )

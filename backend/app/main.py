@@ -21,7 +21,6 @@ from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.answer_composer import AnswerComposer
 from backend.app.services.citation_oracle import CitationOracle
-from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.passage_context import PassageStore
@@ -97,11 +96,9 @@ async def lifespan(app: FastAPI):
         feedback_store = SQLiteFeedbackStore(db_path)
         share_store = SQLiteShareStore(db_path)
     oracle = CitationOracle(_DUMPS_DIR)
-    relations = SuttaRelations(oracle.known_suttas)
     title_index = SuttaTitleIndex.from_directory(_DUMPS_DIR)
     bm25_retriever = BM25Retriever.from_directory(_DUMPS_DIR)
     pipeline = SearchPipeline(
-        sutta_relations=relations,
         title_index=title_index,
         bm25_retriever=bm25_retriever,
     )
