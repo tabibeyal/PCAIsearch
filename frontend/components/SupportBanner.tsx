@@ -70,8 +70,10 @@ export function SupportBanner() {
           'w-full bg-white border-t border-[#e8e4dc] py-4',
           // Mobile: fixed at bottom, slide in/out
           'fixed bottom-0 left-0 right-0 z-50 transition-transform duration-300',
-          // Desktop: normal flow, always visible
-          'md:static md:transform-none',
+          // Desktop: normal flow, always visible. Tailwind v4 compiles
+          // translate-y-* to the standalone `translate` property, which
+          // `transform-none` can't cancel — must reset with translate-y-0.
+          'md:static md:translate-y-0',
           showBanner ? 'translate-y-0' : 'translate-y-full',
         ].join(' ')}
         style={{ transitionTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)' }}
