@@ -39,7 +39,7 @@ class AnswerComposer:
         # The answer flow is canon-only: translator commentary is excluded at
         # retrieval time so every context slot is a usable canon passage (#102).
         context = await self.pipeline.search(
-            query, top_k=top_k, nikayas=nikayas, exclude_commentary=True, policy="global_best"
+            query, top_k=top_k, nikayas=nikayas, exclude_commentary=True
         )
         kept = self.pipeline.prepare_context(context)
         raw_answer = await self.pipeline.synthesize(query, kept)
@@ -57,7 +57,7 @@ class AnswerComposer:
         t0 = time.perf_counter()
         yield {"type": "status", "text": "Searching the Canon…"}
         context = await self.pipeline.search(
-            query, top_k=top_k, nikayas=nikayas, exclude_commentary=True, policy="global_best"
+            query, top_k=top_k, nikayas=nikayas, exclude_commentary=True
         )
         kept = self.pipeline.prepare_context(context)
         t1 = time.perf_counter()

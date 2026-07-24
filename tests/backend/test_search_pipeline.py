@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import AsyncMock, patch
-from backend.app.services.search_pipeline import SearchPipeline, get_expansion_prompt, _WEAK_POOL_FLOOR
+from backend.app.services.search_pipeline import SearchPipeline, get_expansion_prompt, ExpansionResult
 from backend.app.services.bm25_retriever import BM25Retriever
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
@@ -11,7 +11,7 @@ async def _make_pipeline_with_client(chunks: list) -> tuple:
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
     pipeline.retriever.client = client
-    pipeline.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
+    pipeline.expand_query = AsyncMock(side_effect=lambda q, **_: ExpansionResult([q]))
 
     collection_name = "pali_canon"
     await client.create_collection(
@@ -167,7 +167,7 @@ async def test_bm25_runs_on_all_expanded_queries():
     mock_bm25 = MagicMock()
     mock_bm25.retrieve.return_value = []
     pipeline.bm25_retriever = mock_bm25
-    pipeline.expand_query = AsyncMock(return_value=["original query", "satipatthana meditation"])
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(["original query", "satipatthana meditation"]))
 
     await pipeline.search("original query", top_k=5)
 
@@ -190,7 +190,7 @@ async def test_dense_results_use_rrf_fuse_multi_not_first_seen():
     """Pipeline must call rrf_fuse_multi on per-query dense results, not first-seen dedup."""
     chunks = [{"id": "MN 10:1", "english": "mindfulness body"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
-    pipeline.expand_query = AsyncMock(return_value=["query one", "query two"])
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(["query one", "query two"]))
 
     with patch("backend.app.services.search_pipeline.rrf_fuse_multi") as mock_multi:
         mock_multi.return_value = []
@@ -232,12 +232,17 @@ def test_reranker_multi_uses_max_score_across_queries():
 
 @pytest.mark.asyncio
 async def test_search_reranks_with_original_plus_dict_hints():
-    """search must call rerank_multi with the original query merged with any
-    curated English dictionary hint — NOT the LLM-expanded variants or Pāḷi terms."""
+    """search reranks against the raw query merged with its English dictionary
+    hint, and against the first LLM-corrected variant merged with the same hint
+    (ADR-0010). The Pāḷi dictionary hit and every LLM variant after the first are
+    excluded — the cross-encoder is English-only and rerank_multi takes the max
+    across query strings, so only the corrected first variant is worth the cost."""
     chunks = [{"id": "MN 61:36", "english": "deliberate lie bad deed"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
-    pipeline.expand_query = AsyncMock(return_value=["original", "llm variant 1", "llm variant 2",
-                                                    "pali terms from dict", "english hint from dict"])
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(
+        ["original", "llm variant 1", "llm variant 2", "pali terms from dict", "english hint from dict"],
+        corrected="llm variant 1",
+    ))
 
     captured = {}
 
@@ -251,10 +256,47 @@ async def test_search_reranks_with_original_plus_dict_hints():
          patch("backend.app.services.search_pipeline.lookup_english", return_value="not ashamed to tell a deliberate lie"):
         await pipeline.search("original", top_k=5)
 
-    assert captured["queries"] == ["original not ashamed to tell a deliberate lie"]
+    assert captured["queries"] == [
+        "original not ashamed to tell a deliberate lie",
+        "llm variant 1 not ashamed to tell a deliberate lie",
+    ]
     assert "musāvādā sacca" not in captured["queries"], "Pāḷi terms must not reach the reranker (cross-encoder is English-only)"
-    assert "llm variant 1" not in captured["queries"], "LLM variants must not reach the reranker"
-    assert "llm variant 2" not in captured["queries"]
+    assert "llm variant 2" not in captured["queries"], "Only the first LLM variant is reranked, not all of them"
+
+
+@pytest.mark.asyncio
+async def test_corrected_variant_rescues_typoed_query():
+    """A typo buries an on-topic passage under the raw query's score, but the
+    corrected expansion variant rescues it via rerank_multi's max-across-queries
+    (ADR-0010, issue #139). Without the corrected variant in the rerank set, the
+    on-topic passage would tie the filler at -8 and never surface."""
+    import numpy as np
+    chunks = [
+        {"id": "MN 19:5", "english": "developing concentration samadhi"},
+        {"id": "DN 1:1", "english": "totally unrelated filler text"},
+    ]
+    pipeline, _ = await _make_pipeline_with_client(chunks)
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(
+        ["consentration", "concentration"], corrected="concentration",
+    ))
+
+    # Fake cross-encoder: the misspelled query scores everything low; the
+    # corrected query only scores the on-topic passage high.
+    def fake_predict(pairs):
+        return np.array([
+            8.0 if ("concentration" in q and "concentration" in text)
+            else (0.0 if "concentration" in q else -8.0)
+            for q, text in pairs
+        ])
+
+    pipeline.reranker.model.predict = fake_predict
+
+    with patch("backend.app.services.search_pipeline.lookup_english", return_value=None):
+        results = await pipeline.search("consentration", top_k=2)
+
+    assert results[0]["id"] == "MN 19:5", (
+        "corrected variant must rescue the on-topic passage to rank 1, not leave it buried by the typo"
+    )
 
 
 def test_expansion_prompt_is_string_and_nonempty():
@@ -433,7 +475,7 @@ async def test_search_trims_candidates_before_reranking():
         return [{"id": f"DN {i}:1", "english": f"chunk {i}"} for i in range(start, start + 50)]
 
     pipeline.retriever.retrieve = fake_retrieve
-    pipeline.expand_query = AsyncMock(return_value=["query", "variant one", "variant two"])
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(["query", "variant one", "variant two"]))
 
     captured = {}
 
@@ -494,7 +536,7 @@ async def test_multi_nikaya_search_includes_results_from_each_nikaya():
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline()
 
-    pipeline.expand_query = AsyncMock(return_value=["meditation"])
+    pipeline.expand_query = AsyncMock(return_value=ExpansionResult(["meditation"]))
     # Stub reranker so ML scoring doesn't reorder the retrieval pool
     pipeline.reranker.rerank_multi = lambda queries, chunks: [{**c, "rerank_score": 0.0} for c in chunks]
 
@@ -554,301 +596,3 @@ def test_expansion_prompt_v7_has_named_similes():
     assert "your own island" in prompt or "island refuge" in prompt
     assert "six gates" in prompt and "gatekeeper" in prompt
     assert "dyed water" in prompt or "red lac" in prompt
-async def _make_pipeline_with_rerank_scores(
-    chunks: list,
-    scores_by_id: dict,
-) -> SearchPipeline:
-    """In-memory pipeline whose reranker returns deterministic scores.
-
-    BM25 is bypassed by default (empty results) so the small fixture does not
-    introduce fusion ties that would override the intended rerank order.
-    """
-    from unittest.mock import MagicMock
-
-    pipeline, _ = await _make_pipeline_with_client(chunks)
-    # Disable BM25 by setting it to None so fusion is dense-only and predictable.
-    pipeline.bm25_retriever = None
-
-    def fake_rerank_multi(queries, cands):
-        return sorted(
-            [{**c, "rerank_score": scores_by_id.get(c["id"], 0.0)} for c in cands],
-            key=lambda c: c["rerank_score"],
-            reverse=True,
-        )
-
-    pipeline.reranker = MagicMock()
-    pipeline.reranker.rerank_multi = fake_rerank_multi
-    return pipeline
-
-
-_POLICY_FIXTURE = {
-    "chunks": [
-        {"id": "DN 1:1", "nikaya": "DN", "english": "DN passage high"},
-        {"id": "MN 1:1", "nikaya": "MN", "english": "MN passage high"},
-        {"id": "MN 1:2", "nikaya": "MN", "english": "MN passage medium"},
-        {"id": "DN 1:2", "nikaya": "DN", "english": "DN passage low"},
-    ],
-    # BM25 is disabled so the final order is driven by the rerank score map alone.
-    "scores": {"DN 1:1": 4.0, "MN 1:1": 3.0, "MN 1:2": 2.0, "DN 1:2": 1.0},
-}
-
-
-@pytest.mark.asyncio
-async def test_round_robin_policy_interleaves_buckets():
-    """Default policy alternates one result from each selected nikāya."""
-    fixture = _POLICY_FIXTURE
-    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
-
-    results = await pipeline.search("passage", top_k=3, nikayas=["DN", "MN"])
-
-    assert [r["id"] for r in results] == ["DN 1:1", "MN 1:1", "DN 1:2"]
-
-
-@pytest.mark.asyncio
-async def test_round_robin_policy_marks_weak_bucket_entry_as_filler():
-    """The third round-robin slot is a weak DN passage forced in to give DN a
-    second slot; it ranks outside the top-3 by rerank score, so it is the only
-    guarantee filler. The two organic entries keep a numeric score; the filler
-    gets none (ADR-0008)."""
-    fixture = _POLICY_FIXTURE
-    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
-
-    results = await pipeline.search("passage", top_k=3, nikayas=["DN", "MN"])
-    by_id = {r["id"]: r for r in results}
-
-    assert by_id["DN 1:1"]["is_guarantee_filler"] is False
-    assert by_id["MN 1:1"]["is_guarantee_filler"] is False
-    assert by_id["DN 1:2"]["is_guarantee_filler"] is True
-    # The organic entries carry a displayed percentage; the filler does not.
-    assert by_id["DN 1:1"]["score"] is not None
-    assert by_id["MN 1:1"]["score"] is not None
-    assert by_id["DN 1:2"]["score"] is None
-
-
-@pytest.mark.asyncio
-async def test_global_best_policy_takes_top_reranked_chunks():
-    """global_best ignores nikāya buckets and takes the highest rerank scores."""
-    fixture = _POLICY_FIXTURE
-    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
-
-    results = await pipeline.search(
-        "passage", top_k=3, nikayas=["DN", "MN"], policy="global_best"
-    )
-
-    assert [r["id"] for r in results] == ["DN 1:1", "MN 1:1", "MN 1:2"]
-
-
-@pytest.mark.asyncio
-async def test_global_best_policy_never_classifies_results_as_filler():
-    """global_best's output IS the top-k by rerank score, so every result is
-    organic by construction — the deep-dive flow is unaffected by the filler
-    classification (ADR-0008)."""
-    fixture = _POLICY_FIXTURE
-    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
-
-    results = await pipeline.search(
-        "passage", top_k=3, nikayas=["DN", "MN"], policy="global_best"
-    )
-
-    assert [r["is_guarantee_filler"] for r in results] == [False, False, False]
-    assert all(r["score"] is not None for r in results)
-
-
-@pytest.mark.asyncio
-async def test_round_robin_all_filler_set_has_no_injected_percentage():
-    """When round-robin's first bucket contributes a weak passage that ranks
-    outside the top-k, every result in a small final set can be filler. No
-    artificial percentage is injected — ADR-0008 accepts an all-badged page."""
-    chunks = [
-        {"id": "SN 1:1", "nikaya": "SN", "english": "SN weak passage"},
-        {"id": "DN 1:1", "nikaya": "DN", "english": "DN strong passage"},
-    ]
-    scores = {"DN 1:1": 5.0, "SN 1:1": 1.0}
-    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
-
-    # Bucket order [SN, DN] forces SN's weak passage into the single top_k=1 slot.
-    results = await pipeline.search("passage", top_k=1, nikayas=["SN", "DN"])
-
-    assert [r["id"] for r in results] == ["SN 1:1"]
-    assert all(r["is_guarantee_filler"] for r in results)
-    assert all(r["score"] is None for r in results)
-
-
-@pytest.mark.asyncio
-async def test_relevance_floor_policy_skips_weak_bucket_chunks():
-    """relevance_floor skips chunks whose score is below ratio * best_score."""
-    fixture = _POLICY_FIXTURE
-    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
-
-    results = await pipeline.search(
-        "passage", top_k=3, nikayas=["DN", "MN"], policy="relevance_floor:0.6"
-    )
-
-    # floor = 0.6 * 4.0 = 2.4; MN 1:2 (2.0) and DN 1:2 (1.0) are dropped.
-    assert [r["id"] for r in results] == ["DN 1:1", "MN 1:1"]
-    # Both survivors sit in the top-3 by rerank score, so neither is filler.
-    assert [r["is_guarantee_filler"] for r in results] == [False, False]
-
-
-@pytest.mark.asyncio
-async def test_relevance_floor_policy_classifies_surviving_filler():
-    """A loose floor can keep a weak bucket entry that ranks outside the top-k;
-    that survivor is still guarantee filler — relevance_floor matches round_robin's
-    filler semantics for the entries it keeps (ADR-0008)."""
-    chunks = [
-        {"id": "DN 1:1", "nikaya": "DN", "english": "DN high"},
-        {"id": "MN 1:1", "nikaya": "MN", "english": "MN high"},
-        {"id": "MN 1:2", "nikaya": "MN", "english": "MN medium"},
-        {"id": "DN 1:2", "nikaya": "DN", "english": "DN low"},
-    ]
-    scores = {"DN 1:1": 4.0, "MN 1:1": 3.0, "MN 1:2": 2.0, "DN 1:2": 1.5}
-    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
-
-    # floor = 0.3 * 4.0 = 1.2; all four pass. round_robin top_k=3 → [DN 1:1, MN 1:1, DN 1:2].
-    results = await pipeline.search(
-        "passage", top_k=3, nikayas=["DN", "MN"], policy="relevance_floor:0.3"
-    )
-
-    assert [r["id"] for r in results] == ["DN 1:1", "MN 1:1", "DN 1:2"]
-    by_id = {r["id"]: r for r in results}
-    assert by_id["DN 1:1"]["is_guarantee_filler"] is False
-    assert by_id["MN 1:1"]["is_guarantee_filler"] is False
-    # Survives the floor but ranks outside the top-3 → still filler.
-    assert by_id["DN 1:2"]["is_guarantee_filler"] is True
-    assert by_id["DN 1:2"]["score"] is None
-
-
-@pytest.mark.asyncio
-async def test_relevance_floor_policy_with_high_threshold_can_empty_buckets():
-    """A strict floor may leave a selected nikāya with no qualifying chunks."""
-    fixture = _POLICY_FIXTURE
-    pipeline = await _make_pipeline_with_rerank_scores(fixture["chunks"], fixture["scores"])
-
-    results = await pipeline.search(
-        "passage", top_k=3, nikayas=["DN", "MN"], policy="relevance_floor:0.9"
-    )
-
-    # floor = 0.9 * 4.0 = 3.6; only DN 1:1 qualifies.
-    assert [r["id"] for r in results] == ["DN 1:1"]
-
-
-@pytest.mark.asyncio
-@pytest.mark.parametrize("policy", ["round_robin", "global_best", "relevance_floor:0.3"])
-async def test_single_nikaya_policies_return_same_order(policy: str):
-    """With only one bucket all policies reduce to the reranked top-k."""
-    chunks = [
-        {"id": "MN 1:1", "nikaya": "MN", "english": "MN passage high"},
-        {"id": "MN 1:2", "nikaya": "MN", "english": "MN passage medium"},
-        {"id": "MN 1:3", "nikaya": "MN", "english": "MN passage low"},
-    ]
-    scores = {"MN 1:1": 3.0, "MN 1:2": 2.0, "MN 1:3": 1.0}
-    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
-
-    results = await pipeline.search("passage", top_k=3, nikayas=["MN"], policy=policy)
-
-    assert [r["id"] for r in results] == ["MN 1:1", "MN 1:2", "MN 1:3"]
-
-
-@pytest.mark.asyncio
-async def test_unknown_policy_raises_value_error():
-    chunks = [{"id": "MN 1:1", "nikaya": "MN", "english": "MN passage"}]
-    pipeline = await _make_pipeline_with_rerank_scores(chunks, {"MN 1:1": 1.0})
-
-    with pytest.raises(ValueError, match="Unknown search policy"):
-        await pipeline.search("passage", top_k=1, nikayas=["MN"], policy="bogus")
-
-
-@pytest.mark.asyncio
-async def test_invalid_relevance_floor_policy_raises_value_error():
-    chunks = [{"id": "MN 1:1", "nikaya": "MN", "english": "MN passage"}]
-    pipeline = await _make_pipeline_with_rerank_scores(chunks, {"MN 1:1": 1.0})
-
-    with pytest.raises(ValueError, match="Invalid relevance_floor policy"):
-        await pipeline.search("passage", top_k=1, nikayas=["MN"], policy="relevance_floor:bad")
-
-
-@pytest.mark.asyncio
-async def test_weak_pool_nulls_every_score_when_best_score_below_floor():
-    # A search whose best absolute rerank score falls below the floor gets no
-    # displayed percentage on any result — a page-level notice explains the
-    # absence, not a per-result number (ADR-0009, issue #128).
-    chunks = [
-        {"id": "MN 1:1", "nikaya": "MN", "english": "MN passage high"},
-        {"id": "MN 1:2", "nikaya": "MN", "english": "MN passage low"},
-    ]
-    scores = {"MN 1:1": _WEAK_POOL_FLOOR - 0.1, "MN 1:2": _WEAK_POOL_FLOOR - 1.0}
-    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
-
-    results = await pipeline.search("passage", top_k=2, nikayas=["MN"])
-
-    assert all(r["score"] is None for r in results)
-    assert all(r["is_weak_pool"] for r in results)
-    # Both entries are organic (single bucket, no interleaving forced anything
-    # in) — weak pool is an independent signal from guarantee filler.
-    assert all(r["is_guarantee_filler"] is False for r in results)
-
-
-@pytest.mark.asyncio
-async def test_strong_pool_search_keeps_scores_and_unweak_flag():
-    chunks = [
-        {"id": "MN 1:1", "nikaya": "MN", "english": "MN passage high"},
-        {"id": "MN 1:2", "nikaya": "MN", "english": "MN passage low"},
-    ]
-    scores = {"MN 1:1": _WEAK_POOL_FLOOR + 1.0, "MN 1:2": _WEAK_POOL_FLOOR + 0.5}
-    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
-
-    results = await pipeline.search("passage", top_k=2, nikayas=["MN"])
-
-    assert all(r["score"] is not None for r in results)
-    assert all(r["is_weak_pool"] is False for r in results)
-
-
-@pytest.mark.asyncio
-async def test_weak_pool_boundary_at_floor_does_not_fire():
-    # Exactly at the floor is not below it — the comparison is strict,
-    # matching ADR-0009's bias toward not firing.
-    chunks = [{"id": "MN 1:1", "nikaya": "MN", "english": "MN passage"}]
-    pipeline = await _make_pipeline_with_rerank_scores(chunks, {"MN 1:1": _WEAK_POOL_FLOOR})
-
-    results = await pipeline.search("passage", top_k=1, nikayas=["MN"])
-
-    assert results[0]["is_weak_pool"] is False
-    assert results[0]["score"] is not None
-
-
-@pytest.mark.asyncio
-async def test_weak_pool_boundary_just_below_floor_fires():
-    chunks = [{"id": "MN 1:1", "nikaya": "MN", "english": "MN passage"}]
-    pipeline = await _make_pipeline_with_rerank_scores(chunks, {"MN 1:1": _WEAK_POOL_FLOOR - 0.0001})
-
-    results = await pipeline.search("passage", top_k=1, nikayas=["MN"])
-
-    assert results[0]["is_weak_pool"] is True
-    assert results[0]["score"] is None
-
-
-@pytest.mark.asyncio
-async def test_weak_pool_and_guarantee_filler_flags_coexist():
-    # ADR-0009: a page can be simultaneously noticed (weak pool) and badged
-    # (guarantee filler) — the two signals are independent and compose.
-    chunks = [
-        {"id": "DN 1:1", "nikaya": "DN", "english": "DN passage high"},
-        {"id": "MN 1:1", "nikaya": "MN", "english": "MN passage high"},
-        {"id": "MN 1:2", "nikaya": "MN", "english": "MN passage medium"},
-        {"id": "DN 1:2", "nikaya": "DN", "english": "DN passage low"},
-    ]
-    scores = {
-        "DN 1:1": _WEAK_POOL_FLOOR - 1.0,
-        "MN 1:1": _WEAK_POOL_FLOOR - 2.0,
-        "MN 1:2": _WEAK_POOL_FLOOR - 3.0,
-        "DN 1:2": _WEAK_POOL_FLOOR - 4.0,
-    }
-    pipeline = await _make_pipeline_with_rerank_scores(chunks, scores)
-
-    results = await pipeline.search("passage", top_k=3, nikayas=["DN", "MN"])
-    by_id = {r["id"]: r for r in results}
-
-    assert by_id["DN 1:2"]["is_guarantee_filler"] is True
-    assert by_id["DN 1:1"]["is_guarantee_filler"] is False
-    assert all(r["is_weak_pool"] for r in results)
-    assert all(r["score"] is None for r in results)

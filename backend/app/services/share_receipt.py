@@ -6,8 +6,8 @@ import json
 from typing import Any
 
 
-_STORAGE_FIELDS = ("id", "english", "score", "title", "passage")
-_HASH_FIELDS = ("id", "english", "title", "passage")  # score excluded: float round-trip instability
+_STORAGE_FIELDS = ("id", "english", "title", "title_pali", "title_english", "passage")
+_HASH_FIELDS = ("id", "english", "title", "title_pali", "title_english", "passage")
 
 
 def sanitize_context(context: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -17,9 +17,9 @@ def sanitize_context(context: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def _canonical_payload(query: str, answer: str, context: list[dict[str, Any]]) -> bytes:
-    """`score` is excluded from the hash — it can vary in JSON round-trip
-    representation (float formatting) without changing what was actually shown
-    to the user. Every other field rendered on the share page is covered."""
+    """Hash only the fields rendered on the share page, via a list kept separate
+    from `_STORAGE_FIELDS` so a future stored-but-unrendered field doesn't change
+    existing receipts."""
     canonical_context = [{field: c.get(field, "") for field in _HASH_FIELDS} for c in context]
     return json.dumps(
         {"query": query, "answer": answer, "context": canonical_context},

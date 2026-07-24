@@ -7,7 +7,7 @@ into the candidate pool so the reranker can promote them.
 """
 import pytest
 from unittest.mock import AsyncMock, patch, MagicMock
-from backend.app.services.search_pipeline import SearchPipeline
+from backend.app.services.search_pipeline import SearchPipeline, ExpansionResult
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from qdrant_client.http import models
@@ -38,7 +38,7 @@ async def _make_pipeline(chunks, title_entries=None):
     with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
         pipeline = SearchPipeline(title_index=title_index)
     pipeline.retriever.client = client
-    pipeline.expand_query = AsyncMock(side_effect=lambda q, **_: [q])
+    pipeline.expand_query = AsyncMock(side_effect=lambda q, **_: ExpansionResult([q]))
 
     collection_name = "pali_canon"
     await client.create_collection(

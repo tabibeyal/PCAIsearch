@@ -1,6 +1,6 @@
 # ADR-0008: Guarantee-Filler Results Hide Match %, Show Book Badge Instead
 
-**Status:** Accepted
+**Status:** Superseded by ADR-0011
 **Date:** 2026-07-19
 
 ## Context

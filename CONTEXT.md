@@ -16,7 +16,7 @@ Vocabulary used in the codebase. Update inline as terms are resolved.
 - **BM25Retriever** — sparse keyword retrieval over English text. Fused with dense results via RRF (`backend/app/services/bm25_retriever.py`).
 - **ExpansionPrompt** — versioned LLM prompts for query expansion; currently v6. Outputs English vocab line + Pāḷi terms line. Pāḷi terms are used for retrieval only — not passed to the reranker (`backend/app/services/search_pipeline.py`).
 - **pali_dictionary** — keyword-matched lookup returning Pāḷi terms (`lookup`) and verbatim English passage hints (`lookup_english`). The English hints are appended as a 5th search variant and also used as the second reranking query (`backend/app/services/pali_dictionary.py`). ~84 entries covering all major doctrinal lists with Thanissaro Bhikkhu's primary translations.
-- **Reranker** — cross-encoder (`ms-marco-MiniLM-L-6-v2`). `rerank_multi` scores each candidate against multiple queries and takes the max; currently called with `[original_query, english_hint]`. Pāḷi terms are excluded — the model is English-only (`backend/app/services/search_pipeline.py`).
+- **Reranker** — cross-encoder (`ms-marco-MiniLM-L-6-v2`). `rerank_multi` scores each candidate against multiple queries and takes the max; called with the raw query plus its English passage hint, and with the first corrected expansion variant plus the same English passage hint. Pāḷi terms are excluded — the model is English-only (`backend/app/services/search_pipeline.py`).
 - **Guardrail** — sole authority on citation validity in a synthesized answer (`backend/app/services/guardrail.py`). Scans the answer text for `[ID:Verse]` citations and marks each invalid one visibly in place: `[Hallucinated]` (ID doesn't exist in the canon — checked via `CitationOracle`) or `[Unverified]` (ID is real but wasn't in the retrieved kept context). Does not silently delete invalid citations — see ADR-0006.
 - **CitationOracle** — answers "does `[ID:Verse]` exist?" (`backend/app/services/citation_oracle.py`).
 - **Feedback** — `POST /feedback` endpoint in `main.py`. Stores thumbs-up/down ratings with optional category + comment to Supabase Postgres in production (via `SUPABASE_URL` / `SUPABASE_KEY` env vars); falls back to local SQLite when those vars are absent. No admin UI; review via Supabase dashboard in production.
@@ -26,18 +26,6 @@ Vocabulary used in the codebase. Update inline as terms are resolved.
 - **SuttaRelations** — hand-curated doctrinal pairs + ±2 numeric adjacency within a nikāya. Surfaces a "see also" sutta list per query (`backend/app/services/sutta_relations.py`).
 - **SuttaTitleIndex** — BM25 over sutta titles + body verses 3–15. Boosts retrieval when the query matches a canonical title (`backend/app/services/sutta_title_index.py`).
 - **Chunk ID** — verse-level identifier in the form `"<nikāya> <number>:<verse>"`, e.g. `"MN 27:14"`. Used end-to-end (Qdrant payload, citations, related-suttas API).
-
-## Results display
-
-- **Book-representation policy** — the `policy` argument to `SearchPipeline._select_results` (`search_pipeline.py`): `round_robin` (every selected book guaranteed a slot in the result set), `global_best` (pure rerank-score order, no guarantee), or `relevance_floor:<ratio>` (round-robin gated by a score ratio; empirically rejected, see ADR-0007). Results view uses `round_robin`; the deep-dive answer flow uses `global_best`. See ADR-0007.
-- **Match %** — the `score` field (0.5–0.99) shown on results-view cards as "N% match". Computed by rank-normalizing cross-encoder rerank scores within a reference set (`_relevance_scores` in `search_pipeline.py`), not an absolute confidence measure — the cross-encoder's logits are uncalibrated, so the percentage reflects standing within whatever set it's normalized against, not real-world match quality.
-  _Avoid_: confidence, relevance score (when the subject is this specific display value)
-- **Organic result** — a results-view entry that would appear in the top-*k* under `global_best` ordering, independent of book. Shown with its Match %. See ADR-0008.
-  _Avoid_: genuine result, real match
-- **Guarantee filler** — a results-view entry present only because `round_robin`'s book-representation policy forced its book to contribute a slot; would not appear under `global_best`. Shown with a book-attribution badge ("Included for `<Book>`") instead of a Match %, since its rank-normalized score would misrepresent relevance. See ADR-0008.
-  _Avoid_: bucket-winner, weak bucket-winner (imprecise — doesn't distinguish from an organic result that happens to come from the same book)
-- **Weak pool** — a search where nothing retrieved is a strong match for the query (off-topic query, or topic absent from the selected books), detected by the best absolute reranker score falling below a floor. The results view shows a "no strong matches" notice and renders all cards without Match %; guarantee-filler badges still appear. The floor errs toward *not* firing — a good page falsely marked weak is the worse mistake. Weakness is a property of the whole search, not of an individual result. Deep-dive answer flow unaffected. See ADR-0009.
-  _Avoid_: no results (the closest passages are still shown), low confidence (per-result connotation)
 
 ## Deployment
 

@@ -78,16 +78,6 @@ components:
     textColor: "{colors.sandalwood}"
     rounded: "{rounded.sm}"
     padding: "6px 12px"
-  tab-active:
-    backgroundColor: "{colors.deep-sandalwood}"
-    textColor: "#ffffff"
-    rounded: "{rounded.full}"
-    padding: "6px 16px"
-  tab-inactive:
-    backgroundColor: "transparent"
-    textColor: "{colors.pale-sandalwood}"
-    rounded: "{rounded.full}"
-    padding: "6px 16px"
   nikaya-pill-active:
     backgroundColor: "{colors.vellum-wash}"
     textColor: "{colors.sandalwood}"
@@ -142,7 +132,7 @@ One warm-brown family, five lightness steps from espresso to vellum. No secondar
 
 ### Primary
 
-- **Deep Sandalwood** (`#4a3728`): Button fills, active tab state, active nav. Used on ≤15% of any screen. Its rarity is what makes it read as "act here."
+- **Deep Sandalwood** (`#4a3728`): Button fills, active nav. Used on ≤15% of any screen. Its rarity is what makes it read as "act here."
 - **Sandalwood** (`#6b4e35`): Hover state for Deep Sandalwood surfaces, inline link text, citation chip text, secondary emphasis.
 
 ### Neutral
@@ -150,7 +140,7 @@ One warm-brown family, five lightness steps from espresso to vellum. No secondar
 - **Pale Vellum** (`#faf9f7`): Body background on all surfaces — landing, nav, synthesis pane, source pane. Warm but quiet. Never a design statement.
 - **Deep Ink** (`#2c1f14`): All primary text. Near-black with a warm cast; never pure black.
 - **Passage Ink** (`#6b5c4e`): English passage text in result cards. Slightly warmer than Sandalwood; subordinate to the UI but still readable.
-- **Muted Sandalwood** (`#76604a`): Secondary text, labels, descriptors, inactive tab text, placeholder text, Pāḷi supporting text, match-percentage label. The minimum AA-readable text color — passes 4.5:1 on Pale Vellum, white, and Vellum Wash. Use this for every small text role that carries meaning.
+- **Muted Sandalwood** (`#76604a`): Secondary text, labels, descriptors, placeholder text, Pāḷi supporting text, match-percentage label. The minimum AA-readable text color — passes 4.5:1 on Pale Vellum, white, and Vellum Wash. Use this for every small text role that carries meaning.
 - **Pale Sandalwood** (`#9c8c7a`): Focus rings and focus-within borders only (non-text UI indicator; meets the 3:1 non-text contrast minimum), and the primary-button loading fill. Not for text — at ~3.2:1 it fails WCAG AA for body text.
 - **Reed Line** (`#e8e4dc`): Borders, card outlines, dividers, spinner track, and the structural gap color between deep-dive panes. The primary depth signal.
 - **Vellum Wash** (`#ede8df`): Active chip/pill fills, hover tints on empty interactive surfaces, highlighted source card background.
@@ -189,7 +179,7 @@ One warm-brown family, five lightness steps from espresso to vellum. No secondar
 - **Source** (Georgia regular, `15px`, line-height 1.75): English passage text in SourceViewer cards. Slightly smaller than synthesis to signal supporting status, but readable for attentive reading. Color: Deep Ink.
 - **Passage** (Georgia regular, `0.8125rem` / 13px, line-height 1.75): English passage text in result list cards. Compact scanning mode. Color: Passage Ink (`#6b5c4e`).
 - **Body** (system sans regular, 1rem, line-height 1.6): Search input text, navigation prose, general UI copy.
-- **Label** (system sans medium, 0.875rem, line-height 1.4): Tab labels, nav links, button text.
+- **Label** (system sans medium, 0.875rem, line-height 1.4): Nav links, button text.
 - **Micro** (system sans regular, 0.75rem, line-height 1.4): Nikāya chip text, sutta ID badges, score percentages, "view on dhammatalks.org" link.
 
 ### Named Rules
@@ -243,9 +233,7 @@ Understated. They do not announce themselves; they wait to be found.
 
 ### View Switcher Tabs
 
-- **Active:** Deep Sandalwood fill, white text, full-radius pill.
-- **Inactive:** No fill, Muted Sandalwood text. Hover: Vellum Wash fill.
-- **Separator:** Reed Line 1px vertical rule between tabs and Nikāya filter (hidden on mobile).
+The Passages tab and `?view=results` route were removed; the results page now renders only the Synthesis view, so there is no tab switcher. Row 2 of the results nav holds only the Nikāya filter.
 
 ### Nikāya Filter Pills
 
