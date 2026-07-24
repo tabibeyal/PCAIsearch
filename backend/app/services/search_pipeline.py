@@ -12,7 +12,6 @@ from qdrant_client.async_qdrant_client import AsyncQdrantClient
 from backend.app.core.indexing import EmbeddingManager
 from backend.app.core.model_cache import get_cached_model
 from backend.app.services.retriever import Retriever
-from backend.app.services.sutta_relations import SuttaRelations
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
 from backend.app.services.fusion import rrf_fuse_multi
@@ -279,7 +278,6 @@ class SearchPipeline:
         model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         llm_model: str = os.environ.get("LLM_MODEL", "meta/llama-3.3-70b-instruct"),
         expansion_model: str = os.environ.get("EXPANSION_MODEL", "meta/llama-3.1-8b-instruct"),
-        sutta_relations: SuttaRelations | None = None,
         title_index: SuttaTitleIndex | None = None,
         bm25_retriever: BM25Retriever | None = None,
     ):
@@ -298,7 +296,6 @@ class SearchPipeline:
             timeout=60.0,
         )
         self.reranker = Reranker()
-        self.sutta_relations = sutta_relations
         self.expansion_prompt = get_expansion_prompt
         self.title_index = title_index
         self.expansion_model = expansion_model
@@ -540,26 +537,6 @@ class SearchPipeline:
 
         logger.info("search total: %.2fs", time.perf_counter() - t0)
         return results
-
-    def get_related_suttas(self, results: list[dict[str, Any]], top_n: int = 5) -> list[str]:
-        """
-        Return canonically related sutta IDs not already in the top results.
-        """
-        if self.sutta_relations is None:
-            return []
-        retrieved_suttas: set[str] = set()
-        for r in results[:top_n]:
-            chunk_id = r.get("id", "")
-            parts = chunk_id.rsplit(":", 1)
-            sid = parts[0].strip() if len(parts) == 2 else None
-            if sid:
-                retrieved_suttas.add(sid)
-        related: set[str] = set()
-        for sutta_id in retrieved_suttas:
-            for ref in self.sutta_relations.get_related(sutta_id):
-                if ref not in retrieved_suttas:
-                    related.add(ref)
-        return sorted(related)
 
     @staticmethod
     def prepare_context(chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:

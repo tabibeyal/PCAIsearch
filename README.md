@@ -13,7 +13,6 @@ Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, 
 - **AI Synthesis** — LLM answers your question using only retrieved context, with inline citations (`[DN 1:1]`, `[SN 46.20:14]`)
 - **Citation guardrail** — distinguishes true hallucinations (non-existent sutta) from canonical misses (real sutta not in retrieved context)
 - **Nikaya filter** — filter search and synthesis by collection (DN, MN, SN, AN, DHP, ITI, UD, STNP, THAG, THIG, KHP); click to switch, ⌘/Ctrl-click to combine
-- **Canon cross-references** — `/search` returns `related_suttas`: doctrinally paired suttas and structural neighbors from the canon index
 - **Resume-capable indexing** — indexing can be interrupted and resumed without re-embedding
 
 ## Architecture
@@ -26,14 +25,13 @@ backend/           FastAPI + asyncio
     core/
       indexing.py  SuttaParser, EmbeddingManager (fastembed / ONNX Runtime)
     services/
-      search_pipeline.py   Query expansion → retrieval → reranking → related suttas
+      search_pipeline.py   Query expansion → retrieval → reranking
       retriever.py         Dense vector retrieval (Qdrant)
       bm25_retriever.py    Sparse BM25 retrieval, fused via RRF
       sutta_title_index.py Sutta title BM25 boost
       fusion.py            Reciprocal Rank Fusion for hybrid retrieval
       guardrail.py         Citation verification (hallucination vs canonical miss)
       citation_oracle.py   Validates sutta IDs and verse numbers
-      sutta_relations.py   Doctrinal cross-references between suttas
       pali_dictionary.py   Pāḷi term → English passage hints for reranking
 data/
   fetch_thanissaro.py  Download Thanissaro Bhikkhu epub from dhammatalks.org → local JSON
@@ -109,7 +107,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Endpoint | Description |
 |---|---|
-| `GET /search?q=…&top_k=10&nikayas=MN&nikayas=SN` | Semantic search; returns ranked verses + `related_suttas`. `nikayas` is optional, repeatable. |
+| `GET /search?q=…&top_k=10&nikayas=MN&nikayas=SN` | Semantic search; returns ranked verses. `nikayas` is optional, repeatable. |
 | `GET /synthesize?q=…&top_k=10` | AI answer with citations, `hallucinations`, `canonical_misses`, and `is_faithful` flag |
 | `GET /stream?q=…&top_k=10&nikayas=DN` | Streaming synthesis (SSE); same `nikayas` filter supported |
 | `POST /feedback` | Submit thumbs-up/down feedback on a synthesis answer, with optional category and notes; stored in Supabase (production) or local SQLite (dev) |

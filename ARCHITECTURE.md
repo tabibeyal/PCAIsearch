@@ -45,7 +45,6 @@ User query
 FastAPI application with a `lifespan` context manager that initializes all stateful services at startup:
 
 - `CitationOracle` — loads the full sutta registry from `data/dumps/`
-- `SuttaRelations` — receives the set of known sutta IDs from the oracle
 - `SuttaTitleIndex` — BM25 over sutta titles, built from the same dumps
 - `BM25Retriever` — in-memory BM25 index over all English verse text
 - `SearchPipeline` — receives the above as dependencies
@@ -59,7 +58,7 @@ Rate limits: `/search` 30/min, `/stream` and `/synthesize` 10/min, `/feedback` 2
 | Method | Path | Description |
 |--------|------|-------------|
 | `GET` | `/health` | Liveness probe |
-| `GET` | `/search` | Returns ranked verse chunks + related suttas |
+| `GET` | `/search` | Returns ranked verse chunks |
 | `GET` | `/synthesize` | Returns a complete grounded answer (non-streaming) |
 | `GET` | `/stream` | Server-Sent Events stream of answer chunks + final verified payload |
 | `POST` | `/feedback` | Stores thumbs-up/down rating with optional category + comment |
@@ -78,7 +77,6 @@ The RAG orchestrator. All retrieval and synthesis flows through this class.
 - `qdrant_url` / `QDRANT_URL` env var
 - `llm_model` / `LLM_MODEL` env var — synthesis model (production: `meta/llama-3.1-8b-instruct`)
 - `expansion_model` / `EXPANSION_MODEL` env var — expansion model (default: `meta/llama-3.1-8b-instruct`)
-- `sutta_relations` — `SuttaRelations` instance
 - `expansion_prompt` — `ExpansionPrompt` instance (default: v6)
 - `title_index` — `SuttaTitleIndex` instance
 - `bm25_retriever` — `BM25Retriever` instance
@@ -163,16 +161,6 @@ Post-generation verification layer. After synthesis, scans the generated text fo
 - **Not in the canon at all** → relabelled `[Hallucinated]` (`hallucination`).
 
 Returns `{text, hallucinations, canonical_misses, is_faithful}`. `is_faithful` is `True` only when there are zero hallucinations.
-
----
-
-### `SuttaRelations` — `backend/app/services/sutta_relations.py`
-
-Returns canonically related sutta IDs for the "see also" list returned by `/search`. Combines:
-- A hardcoded table of ~15 doctrinal pairs (e.g. DN 22 ↔ MN 10, MN 63 ↔ MN 72).
-- Structural adjacency: the ±2 numeric neighbors within the same nikāya.
-
-Only returns IDs that exist in the known sutta set (from `CitationOracle`).
 
 ---
 

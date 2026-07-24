@@ -16,7 +16,6 @@ Backend deps declared inline in Dockerfile (lines 6–8). No requirements.txt or
 - **pali_dictionary** — keyword-matched lookup returning Pāḷi terms + verbatim English passage hints for reranking (`pali_dictionary.py`)
 - **Guardrail** — post-generation citation verifier/redactor (`guardrail.py`)
 - **CitationOracle** — answers "does `[ID:Verse]` exist?" (`citation_oracle.py`)
-- **SuttaRelations** — answers "what is related to sutta X?" (`sutta_relations.py`)
 - **Registry** — `Dict[str, Set[int]]` sutta ID → verse numbers, loaded from local dumps
 
 ## Reranking design
