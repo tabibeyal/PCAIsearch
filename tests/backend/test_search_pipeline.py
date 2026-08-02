@@ -569,6 +569,66 @@ async def test_multi_nikaya_search_includes_results_from_each_nikaya():
     assert "SN" in result_nikayas
 
 
+# Real Thanissaro wording for the "noble truth of stress" stock passage, as it
+# appears (near-verbatim) across DN 22, MN 10, MN 9, and SN 56.11 (#163).
+_STOCK_STRESS_DN22 = (
+    "Now what is the noble truth of stress? Birth is stressful, aging is "
+    "stressful, death is stressful; sorrow, lamentation, pain, distress, & "
+    "despair are stressful; association with the unbeloved is stressful; "
+    "separation from the loved is stressful; not getting what is wanted is "
+    "stressful. In short, the five clinging-aggregates are stressful."
+)
+_STOCK_STRESS_MN10 = _STOCK_STRESS_DN22
+_STOCK_STRESS_SN56_11 = (
+    "Now this, monks, is the noble truth of stress: Birth is stressful, aging "
+    "is stressful, death is stressful; sorrow, lamentation, pain, distress, & "
+    "despair are stressful; association with the unbeloved is stressful, "
+    "separation from the loved is stressful, not getting what is wanted is "
+    "stressful. In short, the five clinging-aggregates are stressful."
+)
+_STOCK_STRESS_MN9 = (
+    "And what is stress? Birth is stressful, aging is stressful, death is "
+    "stressful; sorrow, lamentation, pain, distress, & despair are stressful; "
+    "not getting what one wants is stressful. In short, the five "
+    "clinging-aggregates are stressful. This is called stress."
+)
+_STRESS_MN28_AGGREGATES = (
+    "And what is the noble truth of stress? Birth is stressful, aging is "
+    "stressful, death is stressful; sorrow, lamentation, pain, distress, & "
+    "despair are stressful; not getting what is wanted is stressful. In "
+    "short, the five clinging-aggregates are stressful. And which are the "
+    "five clinging-aggregates? The form clinging-aggregate, the feeling "
+    "clinging-aggregate, the perception clinging-aggregate, the fabrication "
+    "clinging-aggregate, and the consciousness clinging-aggregate."
+)
+
+
+def test_collapse_near_duplicates_keeps_highest_scored_member_of_group():
+    candidates = [
+        {"id": "DN 22:19", "english": _STOCK_STRESS_DN22, "rerank_score": 0.95},
+        {"id": "MN 10:31", "english": _STOCK_STRESS_MN10, "rerank_score": 0.93},
+        {"id": "SN 56.11:3", "english": _STOCK_STRESS_SN56_11, "rerank_score": 0.90},
+    ]
+
+    kept = SearchPipeline._collapse_near_duplicates(candidates, top_k=3)
+
+    assert [c["id"] for c in kept] == ["DN 22:19"]
+
+
+def test_collapse_near_duplicates_backfills_from_lower_ranked_candidates():
+    candidates = [
+        {"id": "DN 22:19", "english": _STOCK_STRESS_DN22, "rerank_score": 0.95},
+        {"id": "MN 10:31", "english": _STOCK_STRESS_MN10, "rerank_score": 0.93},
+        {"id": "SN 56.11:3", "english": _STOCK_STRESS_SN56_11, "rerank_score": 0.90},
+        {"id": "MN 28:6", "english": _STRESS_MN28_AGGREGATES, "rerank_score": 0.85},
+        {"id": "MN 9:15", "english": _STOCK_STRESS_MN9, "rerank_score": 0.80},
+    ]
+
+    kept = SearchPipeline._collapse_near_duplicates(candidates, top_k=3)
+
+    assert [c["id"] for c in kept] == ["DN 22:19", "MN 28:6", "MN 9:15"]
+
+
 def test_expansion_prompt_v7_has_named_similes():
     prompt = get_expansion_prompt()
     assert "near shore far shore raft" in prompt          # raft simile MN 22

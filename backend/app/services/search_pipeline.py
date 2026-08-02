@@ -5,6 +5,7 @@ import os
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor
+from difflib import SequenceMatcher
 
 from openai import AsyncOpenAI
 from sentence_transformers import CrossEncoder
@@ -120,6 +121,27 @@ def _normalize_citations(text: str) -> str:
     # Llama sometimes ignores the "square brackets only" instruction and outputs (MN 1.2:3).
     # Convert to [MN 1.2:3] so the guardrail and frontend renderer can process them.
     return _PAREN_CITE_RE.sub(r"[\1]", text)
+
+
+# Stock passages (e.g. the four noble truths of stress) recur near-verbatim
+# across a dozen+ suttas, differing only by a clause or two. Left uncollapsed,
+# several near-identical copies can occupy half the reranked context, crowding
+# out on-topic passages worded differently (#163).
+_NEAR_DUP_RATIO = 0.85
+_DEDUP_PUNCT_RE = re.compile(r"[^\w\s]")
+
+
+def _normalize_for_dedup(text: str) -> str:
+    text = text.replace("…", " ").replace("&", " and ")
+    text = _DEDUP_PUNCT_RE.sub(" ", text.casefold())
+    return " ".join(text.split())
+
+
+def _is_near_duplicate(a: str, b: str) -> bool:
+    # autojunk=True (the default) treats characters that recur often in a long
+    # string as noise, which tanks the ratio for exactly the long near-identical
+    # passages this check exists to catch.
+    return SequenceMatcher(None, a, b, autojunk=False).ratio() >= _NEAR_DUP_RATIO
 
 
 class Reranker:
@@ -658,12 +680,32 @@ class SearchPipeline:
         )
         logger.info("rerank: %.2fs", time.perf_counter() - t_rerank)
 
-        results = scored[:top_k]
+        results = self._collapse_near_duplicates(scored, top_k)
         for chunk in results:
             chunk.pop("score", None)
 
         logger.info("search total: %.2fs", time.perf_counter() - t0)
         return results
+
+    @staticmethod
+    def _collapse_near_duplicates(
+        scored: list[dict[str, Any]], top_k: int
+    ) -> list[dict[str, Any]]:
+        """Walk the reranked candidates highest-score-first, keeping the best
+        member of each near-duplicate group and backfilling from lower-ranked
+        candidates so top_k slots aren't spent on repeats of the same stock
+        passage (#163)."""
+        kept: list[dict[str, Any]] = []
+        kept_norms: list[str] = []
+        for chunk in scored:
+            if len(kept) >= top_k:
+                break
+            norm = _normalize_for_dedup(chunk.get("english", ""))
+            if any(_is_near_duplicate(norm, seen) for seen in kept_norms):
+                continue
+            kept.append(chunk)
+            kept_norms.append(norm)
+        return kept
 
     @staticmethod
     def prepare_context(chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
