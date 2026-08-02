@@ -110,6 +110,11 @@ def test_system_prompt_requires_nikaya_diversity():
     assert "at least 3 different nikāyas" in _SYSTEM_PROMPT
 
 
+def test_system_prompt_mandates_thanissaro_vocabulary():
+    from backend.app.services.search_pipeline import _SYSTEM_PROMPT
+    assert "'stress' / 'stressful' — never 'suffering'" in _SYSTEM_PROMPT
+
+
 def test_prepare_context_drops_short_english_chunk(pipeline):
     chunks = [
         {"id": "DN 1:1", "english": "Too short"},
