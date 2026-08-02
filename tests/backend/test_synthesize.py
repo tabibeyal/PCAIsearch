@@ -163,6 +163,68 @@ async def test_synthesize_applies_thanissaro_terms(pipeline, sample_context):
     assert result == "Cultivate good will towards all beings."
 
 
+def _mock_llm_stream(pipeline, deltas: list[str]) -> None:
+    async def _chunks():
+        for d in deltas:
+            chunk = MagicMock()
+            chunk.choices = [MagicMock()]
+            chunk.choices[0].delta.content = d
+            yield chunk
+
+    mock_client = AsyncMock()
+    mock_client.chat.completions.create = AsyncMock(return_value=_chunks())
+    pipeline.llm = mock_client
+
+
+@pytest.mark.asyncio
+async def test_stream_synthesize_rewrites_terms_in_streamed_chunks(pipeline, sample_context):
+    words = "Develop loving-kindness towards every being you meet today without exception".split()
+    _mock_llm_stream(pipeline, [w + " " for w in words])
+
+    events = [e async for e in pipeline.stream_synthesize("q", sample_context)]
+
+    streamed = "".join(e["text"] for e in events if e["type"] == "chunk")
+    assert "loving-kindness" not in streamed
+
+
+@pytest.mark.asyncio
+async def test_stream_synthesize_chunks_reassemble_to_final_text(pipeline, sample_context):
+    words = "Develop loving-kindness towards every being you meet today without exception".split()
+    _mock_llm_stream(pipeline, [w + " " for w in words])
+
+    events = [e async for e in pipeline.stream_synthesize("q", sample_context)]
+
+    streamed = "".join(e["text"] for e in events if e["type"] == "chunk")
+    full = next(e["text"] for e in events if e["type"] == "full")
+    assert streamed.strip() == full.strip()
+
+
+@pytest.mark.asyncio
+async def test_stream_synthesize_survives_rewrite_that_shortens_earlier_text(pipeline, sample_context):
+    # 'suffering and stress' collapses to 'stress' once both halves are rewritten,
+    # shortening text the stream may already have passed over.
+    words = "Stress and suffering and stress arise from attachment to the aggregates and cease with it".split()
+    _mock_llm_stream(pipeline, [w + " " for w in words])
+
+    events = [e async for e in pipeline.stream_synthesize("q", sample_context)]
+
+    streamed = "".join(e["text"] for e in events if e["type"] == "chunk")
+    full = next(e["text"] for e in events if e["type"] == "full")
+    assert streamed == full
+
+
+@pytest.mark.asyncio
+async def test_stream_synthesize_withholds_citation_bracket_until_closed(pipeline, sample_context):
+    deltas = ["Mindfulness is taught widely across the canon in many places ",
+              "[MN 10:1, DN 22:2, SN 47:3, AN 4.5:6]", " and beyond."]
+    _mock_llm_stream(pipeline, deltas)
+
+    events = [e async for e in pipeline.stream_synthesize("q", sample_context)]
+
+    streamed = "".join(e["text"] for e in events if e["type"] == "chunk")
+    assert streamed.count("MN 10:1") == 1 and "AN 4.5:6" not in streamed
+
+
 def test_prepare_context_drops_short_english_chunk(pipeline):
     chunks = [
         {"id": "DN 1:1", "english": "Too short"},

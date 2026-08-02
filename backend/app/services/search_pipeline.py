@@ -275,6 +275,10 @@ _WORD_RE = re.compile(r"\w+")
 
 _QUOTE_WINDOW_WORDS = 4
 
+# Streaming holds back this many trailing words before rewriting them, so a term
+# near the live edge still has the right-hand context the quote guard needs.
+_STREAM_TAIL_WORDS = 8
+
 # Thanissaro pairs near-synonyms as a stock phrase ('suffering & stress',
 # 'conviction & faith'). Rewriting one half leaves 'stress and stress'.
 _DUPLICATED_PAIR_RE = re.compile(r"\b(\w+)\s*(?:,\s*)?(?:and|&)\s+\1\b", re.IGNORECASE)
@@ -284,6 +288,23 @@ def _match_case(source: str, replacement: str) -> str:
     if source[:1].isupper():
         return replacement[:1].upper() + replacement[1:]
     return replacement
+
+
+def _stable_stream_prefix(text: str) -> str:
+    """The leading part of a partial answer that later tokens can no longer change.
+
+    Two things rewrite text after the fact: the quote guard reads four words to
+    the right of a term, and the citation limit only trims a bracket once it
+    closes. Holding both back keeps every emitted chunk final, so the stream
+    never has to retract what it already showed.
+    """
+    opened = text.rfind("[")
+    if opened != -1 and "]" not in text[opened:]:
+        text = text[:opened]
+    words = list(re.finditer(r"\S+", text))
+    if len(words) <= _STREAM_TAIL_WORDS:
+        return ""
+    return text[: words[-_STREAM_TAIL_WORDS].start()]
 
 
 def _to_words(text: str) -> str:
@@ -313,8 +334,21 @@ def _apply_thanissaro_terms(text: str, chunks: list[dict[str, Any]]) -> str:
     rewriting there would misquote the source rather than normalise the
     model's own prose.
     """
-    context_words = _to_words(" ".join(c.get("english", "") for c in chunks))
+    return _rewrite_terms(text, _context_words(chunks))
 
+
+def _clean_answer(text: str, context_words: str) -> str:
+    return _rewrite_terms(
+        _enforce_citation_limit(_normalize_citations(_strip_thinking(text))),
+        context_words,
+    )
+
+
+def _context_words(chunks: list[dict[str, Any]]) -> str:
+    return _to_words(" ".join(c.get("english", "") for c in chunks))
+
+
+def _rewrite_terms(text: str, context_words: str) -> str:
     def _substitute(match: re.Match, thanissaro: str, haystack: str) -> str:
         if _is_quoted(haystack, match.start(), match.end(), context_words):
             return match.group(0)
@@ -658,8 +692,7 @@ class SearchPipeline:
             timeout=120.0,
             messages=_build_messages(query, kept),
         )
-        raw = _normalize_citations(_strip_thinking(message.choices[0].message.content))
-        return _apply_thanissaro_terms(_enforce_citation_limit(raw), kept)
+        return _clean_answer(message.choices[0].message.content, _context_words(kept))
 
     async def stream_synthesize(self, query: str, context_chunks: list[dict[str, Any]]):
         kept = self.prepare_context(context_chunks)
@@ -672,12 +705,20 @@ class SearchPipeline:
             messages=_build_messages(query, kept),
         )
         full_text = ""
+        context_words = _context_words(kept)
+        emitted = ""
         async for chunk in stream:
             if not chunk.choices:
                 continue
             delta = chunk.choices[0].delta.content or ""
-            if delta:
-                full_text += delta
-                yield {"type": "chunk", "text": delta}
-        cleaned = _enforce_citation_limit(_normalize_citations(_strip_thinking(full_text)))
-        yield {"type": "full", "text": _apply_thanissaro_terms(cleaned, kept)}
+            if not delta:
+                continue
+            full_text += delta
+            stable = _stable_stream_prefix(_clean_answer(full_text, context_words))
+            if stable.startswith(emitted) and len(stable) > len(emitted):
+                yield {"type": "chunk", "text": stable[len(emitted):]}
+                emitted = stable
+        final = _clean_answer(full_text, context_words)
+        if final.startswith(emitted) and len(final) > len(emitted):
+            yield {"type": "chunk", "text": final[len(emitted):]}
+        yield {"type": "full", "text": final}
