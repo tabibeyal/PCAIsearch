@@ -110,6 +110,59 @@ def test_system_prompt_requires_nikaya_diversity():
     assert "at least 3 different nikāyas" in _SYSTEM_PROMPT
 
 
+def test_thanissaro_terms_rewrites_standard_rendering():
+    from backend.app.services.search_pipeline import _apply_thanissaro_terms
+    result = _apply_thanissaro_terms("Practise loving-kindness daily.", [])
+    assert result == "Practise good will daily."
+
+
+def test_thanissaro_terms_preserves_sentence_capitalisation():
+    from backend.app.services.search_pipeline import _apply_thanissaro_terms
+    result = _apply_thanissaro_terms("Wholesome acts bear fruit.", [])
+    assert result == "Skillful acts bear fruit."
+
+
+def test_thanissaro_terms_leaves_quoted_passage_wording_intact():
+    from backend.app.services.search_pipeline import _apply_thanissaro_terms
+    chunks = [{"english": "Such is the origination of this entire mass of stress & suffering."}]
+    quote = "Such is the origination of this entire mass of stress & suffering."
+    assert _apply_thanissaro_terms(quote, chunks) == quote
+
+
+def test_thanissaro_terms_rewrites_own_prose_despite_quoted_use_elsewhere():
+    from backend.app.services.search_pipeline import _apply_thanissaro_terms
+    chunks = [{"english": "Such is the origination of this entire mass of stress & suffering."}]
+    result = _apply_thanissaro_terms("The Buddha taught that suffering can end.", chunks)
+    assert result == "The Buddha taught that stress can end."
+
+
+def test_thanissaro_terms_collapses_pair_made_redundant_by_rewrite():
+    from backend.app.services.search_pipeline import _apply_thanissaro_terms
+    result = _apply_thanissaro_terms("The Buddha taught about suffering and stress.", [])
+    assert result == "The Buddha taught about stress."
+
+
+def test_thanissaro_terms_leaves_unlisted_words_alone():
+    from backend.app.services.search_pipeline import _apply_thanissaro_terms
+    result = _apply_thanissaro_terms("Right effort sustains the path.", [])
+    assert result == "Right effort sustains the path."
+
+
+def test_thanissaro_terms_does_not_match_inside_longer_word():
+    from backend.app.services.search_pipeline import _apply_thanissaro_terms
+    result = _apply_thanissaro_terms("The faithful lay followers gathered.", [])
+    assert result == "The faithful lay followers gathered."
+
+
+@pytest.mark.asyncio
+async def test_synthesize_applies_thanissaro_terms(pipeline, sample_context):
+    _mock_llm(pipeline, "Cultivate loving-kindness towards all beings.")
+
+    result = await pipeline.synthesize("query", sample_context)
+
+    assert result == "Cultivate good will towards all beings."
+
+
 def test_prepare_context_drops_short_english_chunk(pipeline):
     chunks = [
         {"id": "DN 1:1", "english": "Too short"},
