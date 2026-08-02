@@ -237,6 +237,133 @@ def _enforce_citation_limit(text: str, max_citations: int = 3) -> str:
     return _CITATION_RE.sub(_trim, text)
 
 
+_THANISSARO_TERMS: tuple[tuple[str, str], ...] = (
+    ("loving-kindness", "good will"),
+    ("loving kindness", "good will"),
+    ("unwholesome", "unskillful"),
+    ("wholesome", "skillful"),
+    ("sympathetic joy", "empathetic joy"),
+    ("altruistic joy", "empathetic joy"),
+    ("divine abiding", "sublime attitude"),
+    ("impermanence", "inconstancy"),
+    ("impermanent", "inconstant"),
+    ("no-self", "not-self"),
+    ("non-self", "not-self"),
+    ("suffering", "stress"),
+    ("wisdom", "discernment"),
+    ("faith", "conviction"),
+    ("taint", "fermentation"),
+    ("canker", "fermentation"),
+    ("mental formation", "fabrication"),
+    ("clear comprehension", "alertness"),
+    ("wise attention", "appropriate attention"),
+    ("foundation of mindfulness", "establishing of mindfulness"),
+    ("enlightenment factor", "factor for awakening"),
+    ("enlightenment", "awakening"),
+    ("personality view", "self-identity view"),
+    ("sense base", "sense medium"),
+    ("sense sphere", "sense medium"),
+    ("applied thought", "directed thought"),
+    ("sustained thought", "evaluation"),
+    ("objectless proliferation", "objectification"),
+    ("morality", "virtue"),
+    ("nirvana", "nibbāna"),
+)
+
+
+_WORD_RE = re.compile(r"\w+")
+
+_QUOTE_WINDOW_WORDS = 4
+
+# Streaming holds back this many trailing words before rewriting them, so a term
+# near the live edge still has the right-hand context the quote guard needs.
+_STREAM_TAIL_WORDS = 8
+
+# Thanissaro pairs near-synonyms as a stock phrase ('suffering & stress',
+# 'conviction & faith'). Rewriting one half leaves 'stress and stress'.
+_DUPLICATED_PAIR_RE = re.compile(r"\b(\w+)\s*(?:,\s*)?(?:and|&)\s+\1\b", re.IGNORECASE)
+
+
+def _match_case(source: str, replacement: str) -> str:
+    if source[:1].isupper():
+        return replacement[:1].upper() + replacement[1:]
+    return replacement
+
+
+def _stable_stream_prefix(text: str) -> str:
+    """The leading part of a partial answer that later tokens can no longer change.
+
+    Two things rewrite text after the fact: the quote guard reads four words to
+    the right of a term, and the citation limit only trims a bracket once it
+    closes. Holding both back keeps every emitted chunk final, so the stream
+    never has to retract what it already showed.
+    """
+    opened = text.rfind("[")
+    if opened != -1 and "]" not in text[opened:]:
+        text = text[:opened]
+    words = list(re.finditer(r"\S+", text))
+    if len(words) <= _STREAM_TAIL_WORDS:
+        return ""
+    return text[: words[-_STREAM_TAIL_WORDS].start()]
+
+
+def _to_words(text: str) -> str:
+    return " ".join(_WORD_RE.findall(text)).lower()
+
+
+def _is_quoted(text: str, start: int, end: int, context_words: str) -> bool:
+    before = _WORD_RE.findall(text[:start])[-_QUOTE_WINDOW_WORDS:]
+    after = _WORD_RE.findall(text[end:])[:_QUOTE_WINDOW_WORDS]
+    window = " ".join([*before, *_WORD_RE.findall(text[start:end]), *after]).lower()
+    return window in context_words
+
+
+def _apply_thanissaro_terms(text: str, chunks: list[dict[str, Any]]) -> str:
+    """Post-process: rewrite common English renderings into Thanissaro's.
+
+    The corpus is Thanissaro Bhikkhu's translation, so an answer that says
+    'loving-kindness' while the passage beside it says 'good will' reads as
+    two different teachings. Prompt instructions do not survive here — the
+    8B synthesis model mirrors whatever wording the question used, and
+    adding the rule to the system prompt displaced the out-of-scope guard
+    (#159).
+
+    Thanissaro does write some of these words himself ('the origination of
+    this entire mass of stress & suffering'), so an occurrence is left alone
+    when the words around it also appear verbatim in the retrieved context —
+    rewriting there would misquote the source rather than normalise the
+    model's own prose.
+    """
+    return _rewrite_terms(text, _context_words(chunks))
+
+
+def _clean_answer(text: str, context_words: str) -> str:
+    return _rewrite_terms(
+        _enforce_citation_limit(_normalize_citations(_strip_thinking(text))),
+        context_words,
+    )
+
+
+def _context_words(chunks: list[dict[str, Any]]) -> str:
+    return _to_words(" ".join(c.get("english", "") for c in chunks))
+
+
+def _rewrite_terms(text: str, context_words: str) -> str:
+    def _substitute(match: re.Match, thanissaro: str, haystack: str) -> str:
+        if _is_quoted(haystack, match.start(), match.end(), context_words):
+            return match.group(0)
+        return _match_case(match.group(0), thanissaro)
+
+    for standard, thanissaro in _THANISSARO_TERMS:
+        text = re.sub(
+            rf"\b{re.escape(standard)}\b",
+            lambda m, t=thanissaro, h=text: _substitute(m, t, h),
+            text,
+            flags=re.IGNORECASE,
+        )
+    return _DUPLICATED_PAIR_RE.sub(lambda m: m.group(1), text)
+
+
 def _build_messages(query: str, chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
     context_text = "\n\n".join(
         f"[{c['id']}] {c.get('english', '')}"
@@ -565,8 +692,7 @@ class SearchPipeline:
             timeout=120.0,
             messages=_build_messages(query, kept),
         )
-        raw = _normalize_citations(_strip_thinking(message.choices[0].message.content))
-        return _enforce_citation_limit(raw)
+        return _clean_answer(message.choices[0].message.content, _context_words(kept))
 
     async def stream_synthesize(self, query: str, context_chunks: list[dict[str, Any]]):
         kept = self.prepare_context(context_chunks)
@@ -579,11 +705,20 @@ class SearchPipeline:
             messages=_build_messages(query, kept),
         )
         full_text = ""
+        context_words = _context_words(kept)
+        emitted = ""
         async for chunk in stream:
             if not chunk.choices:
                 continue
             delta = chunk.choices[0].delta.content or ""
-            if delta:
-                full_text += delta
-                yield {"type": "chunk", "text": delta}
-        yield {"type": "full", "text": _enforce_citation_limit(_normalize_citations(_strip_thinking(full_text)))}
+            if not delta:
+                continue
+            full_text += delta
+            stable = _stable_stream_prefix(_clean_answer(full_text, context_words))
+            if stable.startswith(emitted) and len(stable) > len(emitted):
+                yield {"type": "chunk", "text": stable[len(emitted):]}
+                emitted = stable
+        final = _clean_answer(full_text, context_words)
+        if final.startswith(emitted) and len(final) > len(emitted):
+            yield {"type": "chunk", "text": final[len(emitted):]}
+        yield {"type": "full", "text": final}
