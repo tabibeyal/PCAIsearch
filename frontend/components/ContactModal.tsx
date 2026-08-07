@@ -115,7 +115,7 @@ export function ContactModal({ onClose }: ContactModalProps) {
             {state === 'error' && (
               <p className="text-sm text-red-800">
                 Something went wrong — please try again or email{' '}
-                <a href="mailto:pcaisearch@atomicmail.io" className="underline">pcaisearch@atomicmail.io</a> directly.
+                <a href="mailto:askthecanon@atomicmail.io" className="underline">askthecanon@atomicmail.io</a> directly.
               </p>
             )}
 
