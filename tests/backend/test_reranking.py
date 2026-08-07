@@ -57,6 +57,30 @@ def test_reranker_scores_reflect_model_output(reranker, two_chunks):
     assert abs(result[1]["rerank_score"] - 0.3) < 1e-5
 
 
+def test_reranker_rescues_a_query_top_hit_from_score_scale_mismatch(reranker):
+    """Cross-encoder scores are not comparable across query strings: a query that
+    overlaps the corpus lexically scores everything higher than a plainly-worded
+    one. Ranking on the raw max therefore lets the lexically-inflated query decide
+    the whole order, burying the passage that best answers the plain query (#170).
+    """
+    chunks = [
+        {"id": "DN 16:390", "english": "concentration nurtured with virtue, discernment nurtured with concentration"},
+        {"id": "AN 4.41:4", "english": "he enters and remains in the first jhana"},
+        {"id": "SN 48.10:7", "english": "he enters and remains in the fourth jhana"},
+    ]
+    # First call is the hinted query (jhana vocabulary, inflated scores), second
+    # is the plain query, on which DN 16:390 is the clear winner.
+    calls = [
+        np.array([-3.5, 1.7, 1.2]),
+        np.array([-2.0, -4.8, -4.1]),
+    ]
+    reranker.model.predict = MagicMock(side_effect=calls)
+
+    result = reranker.rerank_multi(["question jhana rapture", "question"], chunks)
+
+    assert result[1]["id"] == "DN 16:390", "plain query's top hit must not be buried by the inflated query"
+
+
 def test_reranker_empty_input(reranker):
     result = reranker.rerank_multi(["any query"], [])
     assert result == []
