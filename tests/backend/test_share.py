@@ -43,7 +43,9 @@ def _valid_payload() -> dict:
 
 
 def _sanitized(context: list[dict]) -> list[dict]:
-    fields = ("id", "english", "score", "title", "title_pali", "title_english", "passage")
+    # Mirrors _STORAGE_FIELDS in share_receipt.py, which drops the internal
+    # rerank score rather than persisting it into a shared answer.
+    fields = ("id", "english", "title", "title_pali", "title_english", "passage")
     return [{field: c.get(field) for field in fields} for c in context]
 
 
