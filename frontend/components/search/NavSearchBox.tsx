@@ -26,8 +26,8 @@ export function NavSearchBox({ initialQuery }: { initialQuery: string }) {
         value={q}
         onChange={e => setQ(e.target.value)}
         onKeyDown={handleKeyDown}
-        aria-label="Search the Pali Canon"
-        placeholder="Search the Pali Canon…"
+        aria-label="Ask again"
+        placeholder="Ask again…"
         className="flex-1 min-w-0 bg-transparent text-sm text-[#2c1f14] placeholder-[#76604a] outline-none"
       />
       <button

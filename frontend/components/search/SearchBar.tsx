@@ -130,7 +130,7 @@ export function SearchBar() {
         onFocus={() => { setFocused(true); setAnimText(''); }}
         onBlur={() => setFocused(false)}
         placeholder=""
-        aria-label="Search the Pali Canon"
+        aria-label="Ask the Pali Canon"
         className="w-full bg-transparent resize-none outline-none text-[#2c1f14] text-base leading-relaxed max-h-64 overflow-y-auto relative z-10 pr-12"
         style={{ minHeight: '28px', caretColor: focused || query !== '' ? '#b5a494' : 'transparent' }}
       />
