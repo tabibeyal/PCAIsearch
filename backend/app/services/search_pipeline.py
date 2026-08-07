@@ -159,6 +159,11 @@ def _is_near_duplicate(candidate: str, kept: str) -> bool:
 
 
 _RERANK_RRF_K = 60
+# Each rerank query string is a full cross-encoder pass over every candidate, so
+# reranking cost is (candidates x query strings). Keeping the plain query in the
+# set (#164) added a pass, and this budget pays for it: measured locally, 100
+# candidates x 2 queries ran 46s against 21s for the old 100 x 1.
+_RERANK_CANDIDATE_BUDGET = 60
 
 
 class Reranker:
@@ -683,8 +688,9 @@ class SearchPipeline:
         # reranking: the cross-encoder is CPU-bound and scales linearly with the
         # number of candidates. Reranking the full fused list (often 100+ items)
         # dominates search latency, so cap how many high-fusion candidates each
-        # bucket contributes to the reranked union.
-        budget_per_bucket = max(retrieval_k * 2, 100)
+        # bucket contributes to the reranked union. Never trim below one bucket's
+        # retrieval depth, so a bucket always offers everything it retrieved.
+        budget_per_bucket = max(retrieval_k, _RERANK_CANDIDATE_BUDGET)
         bucket_candidates = await asyncio.gather(*[
             self._run_pipeline(
                 queries, retrieval_k, ([b] if b else None),
