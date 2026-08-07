@@ -235,7 +235,7 @@ async def test_search_reranks_with_original_plus_dict_hints():
     """search reranks against the raw query on its own, the raw query merged with
     its English dictionary hint, and the first LLM-corrected variant merged with
     the same hint (ADR-0010). The unhinted string keeps the hint's vocabulary from
-    deciding the order by itself (#164). The Pāḷi dictionary hit and every LLM
+    deciding the order by itself (#170). The Pāḷi dictionary hit and every LLM
     variant after the first are excluded — the cross-encoder is English-only, so
     only the corrected first variant is worth the cost."""
     chunks = [{"id": "MN 61:36", "english": "deliberate lie bad deed"}]
@@ -632,7 +632,7 @@ def test_collapse_near_duplicates_backfills_from_lower_ranked_candidates():
 
 
 # DN 34:252 is the second-jhana pericope; it appears verbatim inside the longer
-# AN 4.41:4, which walks all four jhanas. Real corpus text (#164).
+# AN 4.41:4, which walks all four jhanas. Real corpus text (#170).
 _JHANA_SECOND_ONLY = (
     "“With the stilling of directed thoughts & evaluations, he enters & remains "
     "in the second jhāna: rapture & pleasure born of concentration, unification "
@@ -660,7 +660,7 @@ def test_collapse_near_duplicates_drops_chunk_already_contained_in_a_kept_chunk(
     """A short stock pericope adds nothing when a longer kept passage already
     quotes it verbatim. Whole-string similarity misses this because the length
     gap tanks the ratio (0.23 for identical text), so the copies survive and
-    crowd the context (#164)."""
+    crowd the context (#170)."""
     candidates = [
         {"id": "AN 4.41:4", "english": _JHANA_ALL_FOUR, "rerank_score": 0.95},
         {"id": "DN 34:252", "english": _JHANA_SECOND_ONLY, "rerank_score": 0.90},
@@ -674,7 +674,7 @@ def test_collapse_near_duplicates_drops_chunk_already_contained_in_a_kept_chunk(
 def test_collapse_near_duplicates_keeps_longer_chunk_that_adds_new_material():
     """Coverage is asymmetric: a long passage that merely happens to quote a
     shorter kept one still contributes material the shorter lacks, so it must
-    survive (#164)."""
+    survive (#170)."""
     candidates = [
         {"id": "DN 34:252", "english": _JHANA_SECOND_ONLY, "rerank_score": 0.95},
         {"id": "AN 4.41:4", "english": _JHANA_ALL_FOUR, "rerank_score": 0.90},
@@ -690,7 +690,7 @@ async def test_search_reranks_against_the_unhinted_query_too():
     """The dictionary hint is jhana/attainment vocabulary for concentration
     questions and drags the cross-encoder toward stock formula passages. Keeping
     the plain query in the rerank set gives relational passages a query string
-    they can win on (#164)."""
+    they can win on (#170)."""
     chunks = [{"id": "MN 61:36", "english": "deliberate lie bad deed"}]
     pipeline, _ = await _make_pipeline_with_client(chunks)
     pipeline.expand_query = AsyncMock(return_value=ExpansionResult(["original"], corrected=None))

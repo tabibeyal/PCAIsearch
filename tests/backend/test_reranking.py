@@ -61,7 +61,7 @@ def test_reranker_rescues_a_query_top_hit_from_score_scale_mismatch(reranker):
     """Cross-encoder scores are not comparable across query strings: a query that
     overlaps the corpus lexically scores everything higher than a plainly-worded
     one. Ranking on the raw max therefore lets the lexically-inflated query decide
-    the whole order, burying the passage that best answers the plain query (#164).
+    the whole order, burying the passage that best answers the plain query (#170).
     """
     chunks = [
         {"id": "DN 16:390", "english": "concentration nurtured with virtue, discernment nurtured with concentration"},

@@ -130,7 +130,7 @@ def _normalize_citations(text: str) -> str:
 _NEAR_DUP_RATIO = 0.85
 # A pericope quoted verbatim inside a much longer passage is still a repeat, but
 # the symmetric ratio divides by both lengths and scores it ~0.2, so it survived
-# the check above and kept crowding the context (#164).
+# the check above and kept crowding the context (#170).
 _DUP_COVERAGE_RATIO = 0.95
 _DEDUP_PUNCT_RE = re.compile(r"[^\w\s]")
 
@@ -161,7 +161,7 @@ def _is_near_duplicate(candidate: str, kept: str) -> bool:
 _RERANK_RRF_K = 60
 # Each rerank query string is a full cross-encoder pass over every candidate, so
 # reranking cost is (candidates x query strings). Keeping the plain query in the
-# set (#164) added a pass, and this budget pays for it: measured locally, 100
+# set (#170) added a pass, and this budget pays for it: measured locally, 100
 # candidates x 2 queries ran 46s against 21s for the old 100 x 1.
 _RERANK_CANDIDATE_BUDGET = 60
 
@@ -189,7 +189,7 @@ class Reranker:
             # that overlaps the corpus lexically scores every chunk far higher
             # than a plainly-worded one, so ranking on the raw max let it decide
             # the whole order and buried the passages another query ranked first
-            # (#164). Fusing on rank position makes each query an equal voter.
+            # (#170). Fusing on rank position makes each query an equal voter.
             for rank, i in enumerate(sorted(range(len(scores)), key=lambda j: -scores[j])):
                 fused[i] += 1.0 / (_RERANK_RRF_K + rank + 1)
 
@@ -659,7 +659,7 @@ class SearchPipeline:
         # The plain query stays in the set. The hint is attainment vocabulary for
         # a question like "concentration and insight", which pulls the
         # cross-encoder toward stock formula passages and buries the ones that
-        # describe a relationship; the unhinted string is where those win (#164).
+        # describe a relationship; the unhinted string is where those win (#170).
         english_hint = lookup_english(query)
         rerank_queries: list[str] = [query]
         if english_hint:
