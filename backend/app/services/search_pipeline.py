@@ -128,6 +128,10 @@ def _normalize_citations(text: str) -> str:
 # several near-identical copies can occupy half the reranked context, crowding
 # out on-topic passages worded differently (#163).
 _NEAR_DUP_RATIO = 0.85
+# A pericope quoted verbatim inside a much longer passage is still a repeat, but
+# the symmetric ratio divides by both lengths and scores it ~0.2, so it survived
+# the check above and kept crowding the context (#164).
+_DUP_COVERAGE_RATIO = 0.95
 _DEDUP_PUNCT_RE = re.compile(r"[^\w\s]")
 
 
@@ -137,11 +141,24 @@ def _normalize_for_dedup(text: str) -> str:
     return " ".join(text.split())
 
 
-def _is_near_duplicate(a: str, b: str) -> bool:
+def _covered_fraction(candidate: str, kept: str) -> float:
+    """Fraction of `candidate` that already appears, in order, inside `kept`."""
+    matcher = SequenceMatcher(None, candidate, kept, autojunk=False)
+    return sum(block.size for block in matcher.get_matching_blocks()) / max(len(candidate), 1)
+
+
+def _is_near_duplicate(candidate: str, kept: str) -> bool:
     # autojunk=True (the default) treats characters that recur often in a long
     # string as noise, which tanks the ratio for exactly the long near-identical
     # passages this check exists to catch.
-    return SequenceMatcher(None, a, b, autojunk=False).ratio() >= _NEAR_DUP_RATIO
+    if SequenceMatcher(None, candidate, kept, autojunk=False).ratio() >= _NEAR_DUP_RATIO:
+        return True
+    # Asymmetric on purpose: the subset adds nothing and goes, while the longer
+    # passage carrying it plus extra material stays.
+    return _covered_fraction(candidate, kept) >= _DUP_COVERAGE_RATIO
+
+
+_RERANK_RRF_K = 60
 
 
 class Reranker:
@@ -154,15 +171,28 @@ class Reranker:
     def rerank_multi(self, queries: list[str], chunks: list[dict]) -> list[dict]:
         if not chunks:
             return []
-        best = [float("-inf")] * len(chunks)
         texts = [c.get("english", "") for c in chunks]
+        best = [float("-inf")] * len(chunks)
+        fused = [0.0] * len(chunks)
+
         for q in queries:
-            scores = self.model.predict([(q, t) for t in texts])
-            for i, s in enumerate(scores.tolist()):
+            scores = self.model.predict([(q, t) for t in texts]).tolist()
+            for i, s in enumerate(scores):
                 if s > best[i]:
                     best[i] = s
-        ranked = sorted(zip(chunks, best), key=lambda x: x[1], reverse=True)
-        return [{**chunk, "rerank_score": score} for chunk, score in ranked]
+            # Cross-encoder scores are not comparable across query strings: one
+            # that overlaps the corpus lexically scores every chunk far higher
+            # than a plainly-worded one, so ranking on the raw max let it decide
+            # the whole order and buried the passages another query ranked first
+            # (#164). Fusing on rank position makes each query an equal voter.
+            for rank, i in enumerate(sorted(range(len(scores)), key=lambda j: -scores[j])):
+                fused[i] += 1.0 / (_RERANK_RRF_K + rank + 1)
+
+        # Raw score breaks ties: with one query it reproduces the old ordering
+        # exactly, and when two chunks each top a different query it prefers the
+        # more confident score.
+        order = sorted(range(len(chunks)), key=lambda i: (fused[i], best[i]), reverse=True)
+        return [{**chunks[i], "rerank_score": best[i]} for i in order]
 
 
 _SYSTEM_PROMPT = (
@@ -621,8 +651,14 @@ class SearchPipeline:
         # rescue an on-topic passage the misspelled raw query would have buried.
         # The hint is looked up once and reused for both strings so the second
         # query string costs one extra batched forward pass, not a second pass.
+        # The plain query stays in the set. The hint is attainment vocabulary for
+        # a question like "concentration and insight", which pulls the
+        # cross-encoder toward stock formula passages and buries the ones that
+        # describe a relationship; the unhinted string is where those win (#164).
         english_hint = lookup_english(query)
-        rerank_queries: list[str] = [f"{query} {english_hint}" if english_hint else query]
+        rerank_queries: list[str] = [query]
+        if english_hint:
+            rerank_queries.append(f"{query} {english_hint}")
         if corrected:
             rerank_queries.append(f"{corrected} {english_hint}" if english_hint else corrected)
 
