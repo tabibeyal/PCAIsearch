@@ -8,6 +8,10 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
+  // Resolves relative OG/twitter image URLs (opengraph-image routes) to an
+  // absolute URL. Without this Next bakes http://localhost:3000 into the
+  // prerendered HTML, so social platforms fetch localhost and show no banner.
+  metadataBase: new URL('https://askthecanon.netlify.app'),
   title: 'Ask the Pali Canon',
   description: 'Type a question or topic — find the suttas that answer it.',
   icons: {
