@@ -44,7 +44,10 @@ jobs:
 
       # Mirrors the Dockerfile (lines 6-8), which is where backend deps are
       # declared - there is no requirements.txt. pytest, pytest-asyncio and
-      # httpx are test-only and so are not in the image.
+      # httpx are test-only and so are not in the image. beautifulsoup4 is
+      # used only by the data pipeline (data/fetch_thanissaro.py), never by
+      # the backend, so it is absent from the image too - but its test module
+      # imports it, and without it that file fails collection.
       - name: Install dependencies
         run: |
           pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
@@ -60,7 +63,8 @@ jobs:
             resend==2.10.0 \
             pytest \
             pytest-asyncio \
-            httpx
+            httpx \
+            beautifulsoup4
 
       # The whole directory on purpose: the breakage this job exists to catch
       # was a test file that failed to import, which is invisible to any run
