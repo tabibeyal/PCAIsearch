@@ -1,0 +1,71 @@
+name: Backend Tests
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+# A superseded push should not keep burning a runner.
+concurrency:
+  group: backend-tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: backend-tests-pip-${{ hashFiles('.github/workflows/backend-tests.yml') }}
+
+      # The embedding and cross-encoder models are several hundred MB and are
+      # fetched on first use, not at install time. Without this the download
+      # dominates the run.
+      - name: Cache ML models
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/fastembed
+            ~/.cache/huggingface
+          key: backend-tests-models-${{ hashFiles('.github/workflows/backend-tests.yml') }}
+
+      # Mirrors the Dockerfile (lines 6-8), which is where backend deps are
+      # declared - there is no requirements.txt. pytest, pytest-asyncio and
+      # httpx are test-only and so are not in the image.
+      - name: Install dependencies
+        run: |
+          pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+          pip install --no-cache-dir \
+            fastapi==0.136.1 \
+            uvicorn==0.46.0 \
+            openai==2.33.0 \
+            qdrant-client==1.17.1 \
+            sentence-transformers==5.4.1 \
+            fastembed==0.8.0 \
+            slowapi==0.1.9 \
+            rank-bm25==0.2.2 \
+            resend==2.10.0 \
+            pytest \
+            pytest-asyncio \
+            httpx
+
+      # The whole directory on purpose: the breakage this job exists to catch
+      # was a test file that failed to import, which is invisible to any run
+      # that names files individually.
+      - name: Run backend tests
+        env:
+          PYTHONPATH: .
+        run: pytest tests/backend -q
