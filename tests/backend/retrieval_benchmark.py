@@ -190,7 +190,7 @@ async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25
             return chunks, list(_variant_sink[0])
     elif with_bm25:
         from backend.app.services.bm25_retriever import BM25Retriever
-        from backend.app.services.fusion import rrf_fuse
+        from backend.app.services.fusion import rrf_fuse_multi
         retriever = Retriever(client, EmbeddingManager(), COLLECTION, executor)
         bm25_retriever = BM25Retriever.from_directory(_DUMPS_DIR)
         retrieval_k = max(top_k * 3, 30)
@@ -200,7 +200,7 @@ async def run_benchmark(top_k: int = 10, with_expansion: bool = False, with_bm25
         async def retrieve(query):
             dense = await retriever.retrieve(query, retrieval_k)
             sparse = bm25_retriever.retrieve(query, retrieval_k)
-            return rrf_fuse(dense, sparse)[:top_k], []
+            return rrf_fuse_multi([dense, sparse])[:top_k], []
     else:
         retriever = Retriever(client, EmbeddingManager(), COLLECTION, executor)
         async def retrieve(query):
