@@ -1,89 +1,4 @@
-from backend.app.services.fusion import rrf_fuse, rrf_fuse_multi
-
-DENSE = [
-    {"id": "A", "english": "alpha", "score": 0.9},
-    {"id": "B", "english": "beta", "score": 0.8},
-    {"id": "C", "english": "gamma", "score": 0.7},
-]
-SPARSE = [
-    {"id": "C", "english": "gamma", "bm25_score": 5.0},
-    {"id": "D", "english": "delta", "bm25_score": 4.0},
-    {"id": "A", "english": "alpha", "bm25_score": 3.0},
-]
-
-
-def test_output_is_list_of_dicts():
-    result = rrf_fuse(DENSE, SPARSE)
-    assert isinstance(result, list)
-    assert all(isinstance(x, dict) for x in result)
-
-
-def test_fusion_score_field_present():
-    result = rrf_fuse(DENSE, SPARSE)
-    assert all("fusion_score" in x for x in result)
-
-
-def test_all_ids_present():
-    result = rrf_fuse(DENSE, SPARSE)
-    ids = {x["id"] for x in result}
-    assert ids == {"A", "B", "C", "D"}
-
-
-def test_item_in_both_lists_scores_higher():
-    result = rrf_fuse(DENSE, SPARSE)
-    scores = {x["id"]: x["fusion_score"] for x in result}
-    # A appears in both lists (rank 0 dense, rank 2 sparse)
-    # B only in dense (rank 1)
-    assert scores["A"] > scores["B"]
-    # C appears in both lists (rank 2 dense, rank 0 sparse)
-    # D only in sparse (rank 1)
-    assert scores["C"] > scores["D"]
-
-
-def test_sorted_descending_by_fusion_score():
-    result = rrf_fuse(DENSE, SPARSE)
-    scores = [x["fusion_score"] for x in result]
-    assert scores == sorted(scores, reverse=True)
-
-
-def test_empty_dense():
-    result = rrf_fuse([], SPARSE)
-    assert len(result) == len(SPARSE)
-
-
-def test_empty_sparse():
-    result = rrf_fuse(DENSE, [])
-    assert len(result) == len(DENSE)
-
-
-def test_both_empty():
-    result = rrf_fuse([], [])
-    assert result == []
-
-
-def test_custom_k_changes_scores():
-    scores_k60 = {x["id"]: x["fusion_score"] for x in rrf_fuse(DENSE, SPARSE, k=60)}
-    scores_k1 = {x["id"]: x["fusion_score"] for x in rrf_fuse(DENSE, SPARSE, k=1)}
-    assert scores_k60 != scores_k1
-
-
-def test_dense_payload_used_for_shared_ids():
-    dense = [{"id": "X", "english": "from dense", "score": 0.9}]
-    sparse = [{"id": "X", "english": "from sparse", "bm25_score": 5.0}]
-    result = rrf_fuse(dense, sparse)
-    assert result[0]["english"] == "from dense"
-
-
-def test_fusion_score_correct_value():
-    # A at rank 0 in dense, rank 2 in sparse with k=60:
-    # score = 1/(60+0+1) + 1/(60+2+1) = 1/61 + 1/63
-    dense = [{"id": "A", "english": "alpha"}]
-    sparse = [{"id": "B", "english": "beta"}, {"id": "C", "english": "gamma"}, {"id": "A", "english": "alpha"}]
-    result = rrf_fuse(dense, sparse, k=60)
-    score_a = next(x["fusion_score"] for x in result if x["id"] == "A")
-    expected = 1/61 + 1/63
-    assert abs(score_a - expected) < 1e-9
-
+from backend.app.services.fusion import rrf_fuse_multi
 
 LIST_A = [
     {"id": "A", "english": "alpha"},
@@ -147,12 +62,29 @@ def test_rrf_fuse_multi_three_lists_accumulates_correctly():
     assert abs(scores["A"] - expected_a) < 1e-9
 
 
-def test_rrf_fuse_multi_single_list_matches_one_side_of_rrf_fuse():
-    result_multi = rrf_fuse_multi([LIST_A])
-    result_rrf = rrf_fuse(LIST_A, [])
-    scores_multi = {x["id"]: x["fusion_score"] for x in result_multi}
-    scores_rrf = {x["id"]: x["fusion_score"] for x in result_rrf}
-    assert scores_multi == scores_rrf
+def test_rrf_fuse_multi_accumulates_across_differing_ranks():
+    # A at rank 0 in the first list, rank 2 in the second, with k=60:
+    # score = 1/(60+0+1) + 1/(60+2+1) = 1/61 + 1/63
+    first = [{"id": "A", "english": "alpha"}]
+    second = [{"id": "B", "english": "beta"}, {"id": "C", "english": "gamma"}, {"id": "A", "english": "alpha"}]
+    result = rrf_fuse_multi([first, second], k=60)
+    score_a = next(x["fusion_score"] for x in result if x["id"] == "A")
+    assert abs(score_a - (1 / 61 + 1 / 63)) < 1e-9
+
+
+def test_rrf_fuse_multi_single_list_preserves_its_order():
+    result = rrf_fuse_multi([LIST_A])
+    assert [x["id"] for x in result] == [x["id"] for x in LIST_A]
+
+
+def test_rrf_fuse_multi_empty_first_list_keeps_the_populated_one():
+    result = rrf_fuse_multi([[], LIST_A])
+    assert len(result) == len(LIST_A)
+
+
+def test_rrf_fuse_multi_empty_second_list_keeps_the_populated_one():
+    result = rrf_fuse_multi([LIST_A, []])
+    assert len(result) == len(LIST_A)
 
 
 def test_rrf_fuse_multi_empty_lists():
