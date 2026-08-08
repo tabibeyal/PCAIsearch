@@ -193,8 +193,12 @@ async def contact(request: Request, body: ContactBody):
     resend_client.api_key = api_key
 
     params: resend_client.Emails.SendParams = {
+        # onboarding@resend.dev is Resend's shared sandbox sender: it will only
+        # deliver to the Resend account owner's own verified address. Pointing
+        # "to" anywhere else makes every submission fail with a 500.
+        # TODO(eyal): switch to askthecanon@atomicmail.io once Resend is verified for it (#174)
         "from": "PCAIsearch <onboarding@resend.dev>",
-        "to": ["askthecanon@atomicmail.io"],
+        "to": ["tabibeyal101@gmail.com"],
         "reply_to": body.email,
         "subject": f"[PCAIsearch] Message from {body.name}",
         "text": f"Name: {body.name}\nEmail: {body.email}\n\nMessage:\n{body.message}",

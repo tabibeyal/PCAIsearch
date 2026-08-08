@@ -39,7 +39,7 @@ def test_contact_sends_email(contact_client):
     assert r.json() == {"ok": True}
     mock_send.assert_called_once()
     call_params = mock_send.call_args[0][0]
-    assert call_params["to"] == ["askthecanon@atomicmail.io"]
+    assert call_params["to"] == ["tabibeyal101@gmail.com"]
     assert call_params["reply_to"] == "test@example.com"
     assert "Test User" in call_params["subject"]
     assert "This is a test message" in call_params["text"]
