@@ -142,6 +142,11 @@ function writeCache(query: string, nikayas: string[] | undefined, data: Synthesi
 
 const INITIAL_STATUS = 'Searching the Canon…';
 
+// How long to wait after a query/filter change before starting the stream.
+// Coalesces a burst of filter clicks into one backend request, so rapid
+// re-filtering stays under the /stream rate limit instead of erroring.
+const FILTER_CHANGE_DEBOUNCE_MS = 400;
+
 type StreamState =
   | { kind: 'loading'; status: string }
   | { kind: 'streaming'; status: string; text: string }
@@ -203,8 +208,13 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
     let cancelled = false;
     const controller = new AbortController();
 
-    // setTimeout(0) prevents the double-fetch from React StrictMode: cleanup clears the
-    // timer synchronously before the stream starts, so only one request reaches the backend.
+    // The delay both prevents React StrictMode's double-fetch (cleanup clears the
+    // timer synchronously before the stream starts) and debounces rapid filter
+    // changes: each click re-runs this effect and resets the timer, so a burst of
+    // filter clicks ("click all the filters") sends ONE /stream request for the
+    // final selection instead of one per click. Without this, that burst blows
+    // past the backend's per-minute /stream rate limit and the last search fails
+    // with a generic "Search Error" (the limiter's 429 isn't logged as an error).
     const timerId = setTimeout(() => {
       (async () => {
         try {
@@ -227,7 +237,7 @@ export function SynthesisLoader({ query, nikayas }: { query: string; nikayas?: s
           }
         }
       })();
-    }, 0);
+    }, FILTER_CHANGE_DEBOUNCE_MS);
 
     return () => { cancelled = true; clearTimeout(timerId); controller.abort(); };
   }, [query, nikayasKey, retryCount]);
