@@ -1,6 +1,6 @@
 # Ask the Pali Canon
 
-**Live:** https://pcaisearch.netlify.app
+**Live:** https://askthecanon.netlify.app
 
 Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, Dhammapada, Itivuttaka, Udāna, Sutta Nipāta, Theragāthā, Therīgāthā, Khuddakapāṭha), grounded in Thanissaro Bhikkhu's English translations from dhammatalks.org.
 
@@ -44,7 +44,7 @@ tests/             pytest suites (backend)
 
 ## Deployment
 
-The frontend is on **Netlify** (`pcaisearch.netlify.app`). The backend runs on **DigitalOcean App Platform** (paid, ~$7–12/month), auto-deploying from the `master` branch on push. Vectors are stored in **Qdrant Cloud** (free tier). LLM calls go to the **NVIDIA API** (free tier). User feedback is stored durably in **Supabase** (free tier) — survives redeploys. The `LLM_MODEL`, `SUPABASE_URL`, and `SUPABASE_KEY` env vars are set in the App Platform dashboard.
+The frontend is on **Netlify** (`askthecanon.netlify.app`). The backend runs on **DigitalOcean App Platform** (paid, ~$7–12/month), auto-deploying from the `master` branch on push. Vectors are stored in **Qdrant Cloud** (free tier). LLM calls go to the **NVIDIA API** (free tier). User feedback is stored durably in **Supabase** (free tier) — survives redeploys. The `LLM_MODEL`, `SUPABASE_URL`, and `SUPABASE_KEY` env vars are set in the App Platform dashboard.
 
 ## Prerequisites
 
