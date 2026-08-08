@@ -12,7 +12,11 @@ export async function proxyToBackend(
 ) {
   const params = request.nextUrl.searchParams.toString();
   const url = `${BACKEND_URL}${path}${params ? `?${params}` : ''}`;
-  const init: RequestInit = { method: request.method };
+  // Forward the client's abort signal so a cancelled request (e.g. the user
+  // clicking a filter mid-stream) cancels the upstream too. Without this, an
+  // abandoned search keeps generating on the backend (and calling the LLM) for
+  // up to the full response, wasting budget and holding a connection.
+  const init: RequestInit = { method: request.method, signal: request.signal };
   const contentType = request.headers.get('Content-Type');
   if (contentType) {
     init.headers = { 'Content-Type': contentType, ...extraHeaders };
