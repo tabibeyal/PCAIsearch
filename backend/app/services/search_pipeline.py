@@ -421,6 +421,15 @@ def _rewrite_terms(text: str, context_words: str) -> str:
     return _DUPLICATED_PAIR_RE.sub(lambda m: m.group(1), text)
 
 
+def _reasoning_kwargs(model: str) -> dict[str, Any]:
+    """gpt-oss models stream their chain of thought into the answer unless the
+    reasoning effort is pinned low, and streamed synthesis emits it before any
+    cleanup can strip it."""
+    if "gpt-oss" in model:
+        return {"extra_body": {"reasoning_effort": "low"}}
+    return {}
+
+
 def _build_messages(query: str, chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
     context_text = "\n\n".join(
         f"[{c['id']}] {c.get('english', '')}"
@@ -514,6 +523,7 @@ class SearchPipeline:
                     {"role": "system", "content": prompt},
                     {"role": "user", "content": query},
                 ],
+                **_reasoning_kwargs(self.expansion_model),
             )
             logger.info("expand_query/nvidia: %.2fs", time.perf_counter() - t0)
             raw = _strip_thinking(message.choices[0].message.content)
@@ -775,6 +785,7 @@ class SearchPipeline:
             temperature=0.3,
             timeout=120.0,
             messages=_build_messages(query, kept),
+            **_reasoning_kwargs(self.llm_model),
         )
         return _clean_answer(message.choices[0].message.content, _context_words(kept))
 
@@ -787,6 +798,7 @@ class SearchPipeline:
             timeout=120.0,
             stream=True,
             messages=_build_messages(query, kept),
+            **_reasoning_kwargs(self.llm_model),
         )
         full_text = ""
         context_words = _context_words(kept)
