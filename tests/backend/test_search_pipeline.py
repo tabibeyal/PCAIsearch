@@ -737,3 +737,40 @@ def test_expansion_prompt_v7_has_named_similes():
     assert "your own island" in prompt or "island refuge" in prompt
     assert "six gates" in prompt and "gatekeeper" in prompt
     assert "dyed water" in prompt or "red lac" in prompt
+
+
+@pytest.mark.asyncio
+async def test_synthesize_pins_reasoning_effort_low_for_gpt_oss():
+    """gpt-oss streams its chain of thought into the answer unless effort is pinned low."""
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline(llm_model="openai/gpt-oss-20b")
+
+    captured = {}
+
+    async def fake_create(**kwargs):
+        from types import SimpleNamespace
+        captured.update(kwargs)
+        return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content="Anger harms. [MN1:5]"))])
+
+    pipeline.llm.chat.completions.create = fake_create
+    await pipeline.synthesize("anger", [{"id": "MN1:5", "english": "anger is a poison that harms"}])
+
+    assert captured["extra_body"] == {"reasoning_effort": "low"}
+
+
+@pytest.mark.asyncio
+async def test_synthesize_sends_no_reasoning_override_for_other_models():
+    with patch("backend.app.services.search_pipeline.AsyncOpenAI"):
+        pipeline = SearchPipeline(llm_model="meta/llama-3.3-70b-instruct")
+
+    captured = {}
+
+    async def fake_create(**kwargs):
+        from types import SimpleNamespace
+        captured.update(kwargs)
+        return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content="Anger harms. [MN1:5]"))])
+
+    pipeline.llm.chat.completions.create = fake_create
+    await pipeline.synthesize("anger", [{"id": "MN1:5", "english": "anger is a poison that harms"}])
+
+    assert "extra_body" not in captured
