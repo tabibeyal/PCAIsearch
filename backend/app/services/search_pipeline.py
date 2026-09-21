@@ -469,8 +469,8 @@ class SearchPipeline:
         self,
         qdrant_url: str = os.environ.get("QDRANT_URL", "http://localhost:6333"),
         model_name: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-        llm_model: str = os.environ.get("LLM_MODEL", "meta/llama-3.3-70b-instruct"),
-        expansion_model: str = os.environ.get("EXPANSION_MODEL", "meta/llama-3.1-8b-instruct"),
+        llm_model: str = os.environ.get("LLM_MODEL", "qwen/qwen3.8-27b"),
+        expansion_model: str = os.environ.get("EXPANSION_MODEL", "qwen/qwen3.8-27b"),
         title_index: SuttaTitleIndex | None = None,
         bm25_retriever: BM25Retriever | None = None,
     ):
@@ -483,9 +483,16 @@ class SearchPipeline:
         self.collection_name = "pali_canon"
         self.retriever = Retriever(client, embedding_mgr, self.collection_name, self._executor)
         self.llm_model = llm_model
+        # Groq, not NVIDIA: NVIDIA retired both models this pipeline used and
+        # sells no per-token path out of its free tier (#212). The model #212
+        # named for the job, `llama-3.1-8b-instant`, answers 404 on this account
+        # — only a real request tells you — so the default is the one reachable
+        # model that expands correctly (#213). ``api_key`` falls back to an empty
+        # string rather than raising so a missing key is a startup warning
+        # (_check_models), not a failure to boot.
         self.llm = AsyncOpenAI(
-            base_url="https://integrate.api.nvidia.com/v1",
-            api_key=os.environ.get("NVIDIA_API_KEY"),
+            base_url="https://api.groq.com/openai/v1",
+            api_key=os.environ.get("GROQ_API_KEY", ""),
             timeout=60.0,
         )
         self.reranker = Reranker()
@@ -499,7 +506,8 @@ class SearchPipeline:
 
     async def warmup(self) -> None:
         """Pre-run one inference pass through both ONNX models so the JIT compiler
-        fires at startup rather than on the first real user request."""
+        fires at startup rather than on the first real user request, then check
+        that both language models still answer."""
         loop = asyncio.get_event_loop()
         await loop.run_in_executor(
             self._executor, self.retriever.embedding_mgr.encode, "warmup"
@@ -507,6 +515,41 @@ class SearchPipeline:
         await loop.run_in_executor(
             self._executor, self.reranker.model.predict, [("warmup", "warmup")]
         )
+        await self._check_models()
+
+    async def _check_models(self) -> None:
+        """One throwaway call per language model, so a retired model is announced
+        at boot instead of being discovered as a silent fallback months later.
+
+        Providers retire models without notice and both of this pipeline's models
+        went at once (#211, #212). Warns, never raises: retrieval keeps working
+        without a language model, and a dead one should be impossible to miss
+        rather than fatal (#212).
+        """
+        if not os.environ.get("GROQ_API_KEY"):
+            logger.warning(
+                "GROQ_API_KEY is not set — query expansion and synthesis cannot run"
+            )
+            return
+        checks = (
+            ("expansion", self.expansion_model, "questions will be searched as typed"),
+            ("synthesis", self.llm_model, "searches will return passages with no answer"),
+        )
+        for role, model, consequence in checks:
+            try:
+                await self.llm.chat.completions.create(
+                    model=model,
+                    max_tokens=1,
+                    timeout=10.0,
+                    messages=[{"role": "user", "content": "Reply with the word ok."}],
+                )
+            except Exception as exc:
+                logger.warning(
+                    "the %s model %s is not answering (%s) — %s",
+                    role, model, exc, consequence,
+                )
+            else:
+                logger.info("model check: %s model %s answered", role, model)
 
     async def expand_query(self, query: str) -> ExpansionResult:
         seen: set[str] = {query}
@@ -525,7 +568,7 @@ class SearchPipeline:
                 ],
                 **_reasoning_kwargs(self.expansion_model),
             )
-            logger.info("expand_query/nvidia: %.2fs", time.perf_counter() - t0)
+            logger.info("expand_query/groq: %.2fs", time.perf_counter() - t0)
             raw = _strip_thinking(message.choices[0].message.content)
             extras = [_LABEL_RE.sub("", line).strip() for line in raw.splitlines() if line.strip()]
             for v in extras:
@@ -639,7 +682,7 @@ class SearchPipeline:
         # identity for N=1.
         buckets: list[str | None] = list(nikayas) if nikayas else [None]
 
-        # Overlap expansion with initial per-bucket retrieval so the NVIDIA API
+        # Overlap expansion with initial per-bucket retrieval so the Groq API
         # wait runs alongside the first Qdrant round-trip per bucket.
         gather_out = await asyncio.gather(
             self.expand_query(query),

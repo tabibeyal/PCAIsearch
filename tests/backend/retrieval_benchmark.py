@@ -10,8 +10,8 @@ Run standalone:
     # With BM25 + vector fusion (no API key needed):
     PYTHONPATH=. python3 tests/backend/retrieval_benchmark.py --with-bm25
 
-    # With LLM expansion (requires NVIDIA_API_KEY):
-    PYTHONPATH=. NVIDIA_API_KEY=... python3 tests/backend/retrieval_benchmark.py --with-expansion
+    # With LLM expansion (requires GROQ_API_KEY):
+    PYTHONPATH=. GROQ_API_KEY=... python3 tests/backend/retrieval_benchmark.py --with-expansion
 
 Raw mode (default) tests vector retrieval only — no API key needed, fast.
 BM25 mode tests vector + BM25 + RRF fusion — no API key needed.
@@ -266,15 +266,15 @@ async def _main():
     parser.add_argument("--with-bm25", action="store_true",
                         help="run vector + BM25 + RRF fusion (no API key needed)")
     parser.add_argument("--with-expansion", action="store_true",
-                        help="run full pipeline with LLM expansion (requires NVIDIA_API_KEY)")
+                        help="run full pipeline with LLM expansion (requires GROQ_API_KEY)")
     parser.add_argument("--no-rerank", action="store_true",
                         help="skip CrossEncoder reranking (only meaningful with --with-expansion)")
     parser.add_argument("--log-variants", action="store_true",
                         help="print generated query variants per case (only with --with-expansion)")
     args = parser.parse_args()
 
-    if args.with_expansion and not os.environ.get("NVIDIA_API_KEY"):
-        print("ERROR: --with-expansion requires NVIDIA_API_KEY to be set.")
+    if args.with_expansion and not os.environ.get("GROQ_API_KEY"):
+        print("ERROR: --with-expansion requires GROQ_API_KEY to be set.")
         return
 
     if args.log_variants and not args.with_expansion:

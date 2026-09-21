@@ -6,7 +6,9 @@ from backend.app.main import app
 
 @pytest.fixture
 def client(monkeypatch):
-    monkeypatch.setenv("NVIDIA_API_KEY", "fake-key-for-tests")
+    # No key: TestClient boots the app, and the startup model check only makes
+    # a real API call when GROQ_API_KEY is set.
+    monkeypatch.delenv("GROQ_API_KEY", raising=False)
     mock_qdrant = AsyncMock()
     mock_qdrant.create_payload_index = AsyncMock(return_value=None)
     with patch("backend.app.services.search_pipeline.AsyncQdrantClient", return_value=mock_qdrant):

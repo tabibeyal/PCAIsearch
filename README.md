@@ -91,7 +91,7 @@ cp frontend/.env.local.example frontend/.env.local
 
 **Terminal 1 — Backend:**
 ```bash
-PYTHONPATH=. NVIDIA_API_KEY=your_key uvicorn backend.app.main:app --reload
+PYTHONPATH=. GROQ_API_KEY=your_key uvicorn backend.app.main:app --reload
 ```
 
 **Terminal 2 — Frontend:**

@@ -39,7 +39,7 @@ jobs:
       - name: Run Gap Detector
         env:
           PYTHONPATH: .
-          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           QDRANT_URL: ${{ secrets.QDRANT_URL }}
           QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}

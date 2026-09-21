@@ -40,7 +40,7 @@ CORPUS = [
 def live_pipeline():
     """Pipeline with real models + in-memory Qdrant; LLM mocked."""
     mp = pytest.MonkeyPatch()
-    mp.setenv("NVIDIA_API_KEY", "fake-key-for-tests")
+    mp.setenv("GROQ_API_KEY", "fake-key-for-tests")
     from backend.app.services.search_pipeline import SearchPipeline
     p = SearchPipeline()
     client = AsyncQdrantClient(":memory:")
