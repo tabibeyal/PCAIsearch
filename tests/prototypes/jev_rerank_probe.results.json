@@ -1,0 +1,325 @@
+{
+  "baseline": [
+    {
+      "query": "what is the one precept you should never break",
+      "expected": "MN 61",
+      "difficulty": "hard",
+      "note": "MN 61:36 — 'not ashamed to lie → no bad deed they would not do'",
+      "hit": true,
+      "best_score": 0.025567754549556326,
+      "variants": []
+    },
+    {
+      "query": "what were the Buddha's last words before he died",
+      "expected": "DN 16",
+      "difficulty": "hard",
+      "note": "DN 16:1433 — 'Conditions fall apart. Persist with diligence.'",
+      "hit": true,
+      "best_score": 0.014925373134328358,
+      "variants": []
+    },
+    {
+      "query": "why does loving someone lead to grief and suffering",
+      "expected": "MN 87",
+      "difficulty": "hard",
+      "note": "MN 87:66 — 'our loved ones are a source of sorrow'",
+      "hit": false,
+      "best_score": 0.027651515151515153,
+      "variants": []
+    },
+    {
+      "query": "should a monk feel anger even if attacked with a saw",
+      "expected": "MN 21",
+      "difficulty": "hard",
+      "note": "MN 21:215 — even sawed limb from limb, show no malevolence",
+      "hit": true,
+      "best_score": 0.023973585989089864,
+      "variants": []
+    },
+    {
+      "query": "is having a good spiritual friend the whole of the holy life",
+      "expected": "SN 45.2 | SN 3.18",
+      "difficulty": "hard",
+      "note": "SN 45.2 — 'half the spiritual life' → Buddha says it is the whole; SN 3.18 parallel",
+      "hit": true,
+      "best_score": 0.015873015873015872,
+      "variants": []
+    },
+    {
+      "query": "what is the path between self-indulgence and harsh self-denial",
+      "expected": "SN 56.11",
+      "difficulty": "medium",
+      "note": "SN 56.11 — the middle way and the noble eightfold path",
+      "hit": false,
+      "best_score": 0.013513513513513514,
+      "variants": []
+    },
+    {
+      "query": "what is the deepest origin of all suffering",
+      "expected": "SN 56.11 | SN 12.",
+      "difficulty": "medium",
+      "note": "SN 56.11 — second noble truth: craving; SN 12.* — dependent origination",
+      "hit": true,
+      "best_score": 0.02921395544346364,
+      "variants": []
+    },
+    {
+      "query": "how should one breathe mindfully during sitting meditation",
+      "expected": "MN 118 | SN 54.",
+      "difficulty": "medium",
+      "note": "MN 118 — Ānāpānasati Sutta; SN 54 — Ānāpāna Saṃyutta",
+      "hit": true,
+      "best_score": 0.012987012987012988,
+      "variants": []
+    },
+    {
+      "query": "how does ignorance cause suffering step by step",
+      "expected": "SN 12.",
+      "difficulty": "medium",
+      "note": "SN 12.* — any Nidāna-saṃyutta sutta covers the dependent origination chain",
+      "hit": true,
+      "best_score": 0.015384615384615385,
+      "variants": []
+    },
+    {
+      "query": "how do you know whether a religious teaching is worth following",
+      "expected": "AN 3.65 | AN 3.66",
+      "difficulty": "medium",
+      "note": "AN 3.65/66 — Kālāma Sutta and parallel: don't believe by tradition alone",
+      "hit": false,
+      "best_score": 0.016129032258064516,
+      "variants": []
+    },
+    {
+      "query": "what are the four foundations of mindfulness",
+      "expected": "MN 10 | DN 22 | SN 47.",
+      "difficulty": "easy",
+      "note": "MN 10 / DN 22 — Satipaṭṭhāna Suttas; SN 47 — Satipaṭṭhāna Saṃyutta",
+      "hit": true,
+      "best_score": 0.02470238095238095,
+      "variants": []
+    },
+    {
+      "query": "what are the components of the noble eightfold path",
+      "expected": "MN 117 | SN 45.8 | SN 45.",
+      "difficulty": "easy",
+      "note": "MN 117 — Mahācattārīsaka; SN 45 — Magga Saṃyutta",
+      "hit": true,
+      "best_score": 0.019686353019686353,
+      "variants": []
+    },
+    {
+      "query": "how should one treat parents family and friends according to the Buddha",
+      "expected": "DN 31",
+      "difficulty": "easy",
+      "note": "DN 31 — Sigālovāda Sutta: duties to parents, spouse, friends, teachers",
+      "hit": false,
+      "best_score": 0.01639344262295082,
+      "variants": []
+    },
+    {
+      "query": "are the five aggregates permanent or do they lack a self",
+      "expected": "SN 22.59",
+      "difficulty": "easy",
+      "note": "SN 22.59 — Anattalakkhaṇa Sutta: form, feeling, etc. are not self",
+      "hit": true,
+      "best_score": 0.017862838915470493,
+      "variants": []
+    },
+    {
+      "query": "what did the Buddha consider after enlightenment before deciding to teach",
+      "expected": "MN 26 | SN 6.1",
+      "difficulty": "easy",
+      "note": "MN 26 — Ariyapariyesanā; SN 6.1 — Brahmā's request to teach",
+      "hit": true,
+      "best_score": 0.018863026737042488,
+      "variants": []
+    },
+    {
+      "query": "is there more than one version of the definition of suffering",
+      "expected": "MN 141",
+      "difficulty": "hard",
+      "note": "MN 141 — Sāriputta's analysis drops 'association with unbeloved / separation from loved' vs Buddha's definition in SN 56.11 / DN 22",
+      "hit": false,
+      "best_score": 0.02928692699490662,
+      "variants": []
+    }
+  ],
+  "jev": [
+    {
+      "query": "what is the one precept you should never break",
+      "expected": "MN 61",
+      "difficulty": "hard",
+      "note": "MN 61:36 — 'not ashamed to lie → no bad deed they would not do'",
+      "hit": true,
+      "best_score": 0.94,
+      "variants": []
+    },
+    {
+      "query": "what were the Buddha's last words before he died",
+      "expected": "DN 16",
+      "difficulty": "hard",
+      "note": "DN 16:1433 — 'Conditions fall apart. Persist with diligence.'",
+      "hit": true,
+      "best_score": 0.12,
+      "variants": []
+    },
+    {
+      "query": "why does loving someone lead to grief and suffering",
+      "expected": "MN 87",
+      "difficulty": "hard",
+      "note": "MN 87:66 — 'our loved ones are a source of sorrow'",
+      "hit": false,
+      "best_score": 0.55,
+      "variants": []
+    },
+    {
+      "query": "should a monk feel anger even if attacked with a saw",
+      "expected": "MN 21",
+      "difficulty": "hard",
+      "note": "MN 21:215 — even sawed limb from limb, show no malevolence",
+      "hit": true,
+      "best_score": 0.96,
+      "variants": []
+    },
+    {
+      "query": "is having a good spiritual friend the whole of the holy life",
+      "expected": "SN 45.2 | SN 3.18",
+      "difficulty": "hard",
+      "note": "SN 45.2 — 'half the spiritual life' → Buddha says it is the whole; SN 3.18 parallel",
+      "hit": true,
+      "best_score": 0.95,
+      "variants": []
+    },
+    {
+      "query": "what is the path between self-indulgence and harsh self-denial",
+      "expected": "SN 56.11",
+      "difficulty": "medium",
+      "note": "SN 56.11 — the middle way and the noble eightfold path",
+      "hit": false,
+      "best_score": 0.6,
+      "variants": []
+    },
+    {
+      "query": "what is the deepest origin of all suffering",
+      "expected": "SN 56.11 | SN 12.",
+      "difficulty": "medium",
+      "note": "SN 56.11 — second noble truth: craving; SN 12.* — dependent origination",
+      "hit": true,
+      "best_score": 0.79,
+      "variants": []
+    },
+    {
+      "query": "how should one breathe mindfully during sitting meditation",
+      "expected": "MN 118 | SN 54.",
+      "difficulty": "medium",
+      "note": "MN 118 — Ānāpānasati Sutta; SN 54 — Ānāpāna Saṃyutta",
+      "hit": true,
+      "best_score": 0.64,
+      "variants": []
+    },
+    {
+      "query": "how does ignorance cause suffering step by step",
+      "expected": "SN 12.",
+      "difficulty": "medium",
+      "note": "SN 12.* — any Nidāna-saṃyutta sutta covers the dependent origination chain",
+      "hit": true,
+      "best_score": 0.88,
+      "variants": []
+    },
+    {
+      "query": "how do you know whether a religious teaching is worth following",
+      "expected": "AN 3.65 | AN 3.66",
+      "difficulty": "medium",
+      "note": "AN 3.65/66 — Kālāma Sutta and parallel: don't believe by tradition alone",
+      "hit": false,
+      "best_score": 0.64,
+      "variants": []
+    },
+    {
+      "query": "what are the four foundations of mindfulness",
+      "expected": "MN 10 | DN 22 | SN 47.",
+      "difficulty": "easy",
+      "note": "MN 10 / DN 22 — Satipaṭṭhāna Suttas; SN 47 — Satipaṭṭhāna Saṃyutta",
+      "hit": true,
+      "best_score": 0.96,
+      "variants": []
+    },
+    {
+      "query": "what are the components of the noble eightfold path",
+      "expected": "MN 117 | SN 45.8 | SN 45.",
+      "difficulty": "easy",
+      "note": "MN 117 — Mahācattārīsaka; SN 45 — Magga Saṃyutta",
+      "hit": false,
+      "best_score": 0.98,
+      "variants": []
+    },
+    {
+      "query": "how should one treat parents family and friends according to the Buddha",
+      "expected": "DN 31",
+      "difficulty": "easy",
+      "note": "DN 31 — Sigālovāda Sutta: duties to parents, spouse, friends, teachers",
+      "hit": false,
+      "best_score": 0.57,
+      "variants": []
+    },
+    {
+      "query": "are the five aggregates permanent or do they lack a self",
+      "expected": "SN 22.59",
+      "difficulty": "easy",
+      "note": "SN 22.59 — Anattalakkhaṇa Sutta: form, feeling, etc. are not self",
+      "hit": true,
+      "best_score": 0.89,
+      "variants": []
+    },
+    {
+      "query": "what did the Buddha consider after enlightenment before deciding to teach",
+      "expected": "MN 26 | SN 6.1",
+      "difficulty": "easy",
+      "note": "MN 26 — Ariyapariyesanā; SN 6.1 — Brahmā's request to teach",
+      "hit": true,
+      "best_score": 0.87,
+      "variants": []
+    },
+    {
+      "query": "is there more than one version of the definition of suffering",
+      "expected": "MN 141",
+      "difficulty": "hard",
+      "note": "MN 141 — Sāriputta's analysis drops 'association with unbeloved / separation from loved' vs Buddha's definition in SN 56.11 / DN 22",
+      "hit": true,
+      "best_score": 0.2,
+      "variants": []
+    }
+  ],
+  "baseline_summary": {
+    "total": "11/16",
+    "hard": "4/6",
+    "medium": "3/5",
+    "easy": "4/5"
+  },
+  "jev_summary": {
+    "total": "11/16",
+    "hard": "5/6",
+    "medium": "3/5",
+    "easy": "3/5"
+  },
+  "flips": [
+    {
+      "query": "what are the components of the noble eightfold path",
+      "baseline_hit": true,
+      "jev_hit": false
+    },
+    {
+      "query": "is there more than one version of the definition of suffering",
+      "baseline_hit": false,
+      "jev_hit": true
+    }
+  ],
+  "usage": {
+    "input_tokens": 138525,
+    "output_tokens": 16992,
+    "requests": 48
+  },
+  "baseline_wall_seconds": 369.2740408726968,
+  "jev_wall_seconds": 70.25153548782691
+}

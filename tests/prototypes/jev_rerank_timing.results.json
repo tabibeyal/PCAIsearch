@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "variant": "baseline",
+    "warmup_seconds": 5.047856469172984,
+    "queries": 16,
+    "wall_seconds": 239.6288328669034,
+    "seconds_per_query": 14.976802054181462,
+    "usage": null
+  },
+  "jev": {
+    "variant": "jev",
+    "warmup_seconds": 3.859774278011173,
+    "queries": 16,
+    "wall_seconds": 66.55307056428865,
+    "seconds_per_query": 4.15956691026804,
+    "usage": {
+      "input_tokens": 144847,
+      "output_tokens": 18054,
+      "requests": 51
+    }
+  }
+}
