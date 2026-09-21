@@ -1,6 +1,6 @@
 """Entry point for the daily Gap Detector run (see ADR-0004, CONTEXT.md § Gap detection).
 
-Requires SUPABASE_URL / SUPABASE_KEY, QDRANT_URL / QDRANT_API_KEY, NVIDIA_API_KEY
+Requires SUPABASE_URL / SUPABASE_KEY, QDRANT_URL / QDRANT_API_KEY, GROQ_API_KEY
 in the environment, and an authenticated `gh` CLI in a clone of this repo.
 """
 import asyncio

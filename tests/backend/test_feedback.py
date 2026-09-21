@@ -11,7 +11,9 @@ from tests.backend.fakes import FakeSupabaseRestClient
 
 @pytest.fixture
 def client(monkeypatch, tmp_path):
-    monkeypatch.setenv("NVIDIA_API_KEY", "fake-key-for-tests")
+    # No key: TestClient boots the app, and the startup model check only makes
+    # a real API call when GROQ_API_KEY is set.
+    monkeypatch.delenv("GROQ_API_KEY", raising=False)
     monkeypatch.setenv("SQLITE_DB_PATH", str(tmp_path / "feedback.db"))
     mock_qdrant = AsyncMock()
     mock_qdrant.create_payload_index = AsyncMock(return_value=None)

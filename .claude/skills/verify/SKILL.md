@@ -18,7 +18,7 @@ set -a && source .env && set +a && PYTHONPATH=. \
 Run it backgrounded on a **non-default port** (8123+) so it never collides
 with a dev server the user already has on 8000.
 
-`.env` supplies `NVIDIA_API_KEY`, `QDRANT_URL`, `QDRANT_API_KEY`, `LLM_MODEL`,
+`.env` supplies `GROQ_API_KEY`, `QDRANT_URL`, `QDRANT_API_KEY`, `LLM_MODEL`,
 `SHARE_RECEIPT_SECRET`. Without them startup succeeds but every query 500s.
 
 **Memory gotcha:** startup calls `pipeline.warmup()`, which loads the ONNX
