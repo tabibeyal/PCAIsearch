@@ -10,7 +10,13 @@ from backend.app.services.scope_guard import OUT_OF_SCOPE_MESSAGE
 from backend.app.services.share_receipt import verify_receipt
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 
-from fakes import FakePipeline, FakeScopeGuard, MidStreamRaisingFakePipeline, RaisingFakePipeline
+from fakes import (
+    FakeCitationSupportCheck,
+    FakePipeline,
+    FakeScopeGuard,
+    MidStreamRaisingFakePipeline,
+    RaisingFakePipeline,
+)
 
 RECEIPT_KEY = "fake-signing-value-for-tests"
 
@@ -24,7 +30,13 @@ def _raw_context():
     ]
 
 
-def _composer(context=None, answer="The teaching is in [MN 10:1].", guardrail=None, scope_guard=None):
+def _composer(
+    context=None,
+    answer="The teaching is in [MN 10:1].",
+    guardrail=None,
+    scope_guard=None,
+    citation_support_check=None,
+):
     pipeline = FakePipeline(_raw_context() if context is None else context, answer)
     composer = AnswerComposer(
         pipeline=pipeline,
@@ -33,6 +45,7 @@ def _composer(context=None, answer="The teaching is in [MN 10:1].", guardrail=No
         title_index=SuttaTitleIndex([{"sutta_id": "MN10", "title_pali": "x", "title_english": "y"}]),
         receipt_secret=RECEIPT_KEY,
         scope_guard=scope_guard,
+        citation_support_check=citation_support_check,
     )
     return composer, pipeline
 
@@ -274,4 +287,88 @@ async def test_answer_stream_runs_pipeline_unguarded_when_guard_fails():
     composer, pipeline = _composer(scope_guard=FakeScopeGuard(raises=True))
     events = await _collect(composer.answer_stream("mindfulness", top_k=10))
     assert events[-1]["answer"] == "The teaching is in [MN 10:1]."
+
+
+# --- citation support check wiring (#208) ---------------------------------
+
+@pytest.mark.asyncio
+async def test_answer_leaves_citation_unmarked_when_check_disabled():
+    composer, _ = _composer()
+    result = await composer.answer("mindfulness", top_k=10)
+    assert result["answer"] == "The teaching is in [MN 10:1]."
+
+
+@pytest.mark.asyncio
+async def test_answer_leaves_supported_citation_unmarked():
+    check = FakeCitationSupportCheck(relation="supports")
+    composer, _ = _composer(citation_support_check=check)
+    result = await composer.answer("mindfulness", top_k=10)
+    assert result["answer"] == "The teaching is in [MN 10:1]."
+
+
+@pytest.mark.asyncio
+async def test_answer_flags_a_citation_the_check_says_contradicts():
+    check = FakeCitationSupportCheck(relation="contradicts")
+    composer, _ = _composer(citation_support_check=check)
+    result = await composer.answer("mindfulness", top_k=10)
+    assert "[MN 10:1 unsupported]" in result["answer"]
+
+
+@pytest.mark.asyncio
+async def test_answer_flags_a_citation_the_check_says_says_nothing():
+    check = FakeCitationSupportCheck(relation="says_nothing")
+    composer, _ = _composer(citation_support_check=check)
+    result = await composer.answer("mindfulness", top_k=10)
+    assert "[MN 10:1 unsupported]" in result["answer"]
+
+
+@pytest.mark.asyncio
+async def test_answer_flagged_citation_receipt_still_verifies():
+    check = FakeCitationSupportCheck(relation="contradicts")
+    composer, _ = _composer(citation_support_check=check)
+    result = await composer.answer("mindfulness", top_k=10)
+    assert verify_receipt(result["query"], result["answer"], result["context"], result["receipt"], RECEIPT_KEY)
+
+
+@pytest.mark.asyncio
+async def test_answer_publishes_citation_unmarked_when_check_fails():
+    check = FakeCitationSupportCheck(raises=True)
+    composer, _ = _composer(citation_support_check=check)
+    result = await composer.answer("mindfulness", top_k=10)
+    assert result["answer"] == "The teaching is in [MN 10:1]."
+
+
+@pytest.mark.asyncio
+async def test_answer_does_not_check_an_unverified_citation():
+    # A citation to an ID that wasn't retrieved this turn is guardrail.py's
+    # business ([Unverified]/[Hallucinated]), not this check's — it never
+    # reaches CitationSupportCheck.check() at all.
+    check = FakeCitationSupportCheck(relation="contradicts")
+    composer, _ = _composer(answer="Also see [DN 99:99].", citation_support_check=check)
+    await composer.answer("mindfulness", top_k=10)
+    assert check.batches == []
+
+
+@pytest.mark.asyncio
+async def test_answer_batches_multiple_citations_into_one_check_call():
+    check = FakeCitationSupportCheck(relation="supports")
+    composer, _ = _composer(
+        context=[
+            {"id": "MN 10:1", "english": "Right mindfulness is awareness of the present moment"},
+            {"id": "SN 45:8", "english": "The eightfold path leads to the end of suffering"},
+        ],
+        answer="One point is in [MN 10:1]. Another is in [SN 45:8].",
+        citation_support_check=check,
+    )
+    await composer.answer("mindfulness", top_k=10)
+    assert len(check.batches) == 1
+    assert len(check.batches[0]) == 2
+
+
+@pytest.mark.asyncio
+async def test_answer_stream_flags_a_citation_the_check_says_contradicts():
+    check = FakeCitationSupportCheck(relation="contradicts")
+    composer, _ = _composer(citation_support_check=check)
+    events = await _collect(composer.answer_stream("mindfulness", top_k=10))
+    assert "[MN 10:1 unsupported]" in events[-1]["answer"]
 

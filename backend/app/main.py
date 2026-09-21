@@ -21,6 +21,7 @@ from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.answer_composer import AnswerComposer
 from backend.app.services.scope_guard import ScopeGuard
+from backend.app.services.citation_support_check import CitationSupportCheck
 from backend.app.services.citation_oracle import CitationOracle
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
@@ -124,13 +125,24 @@ async def lifespan(app: FastAPI):
             scope_guard = ScopeGuard(api_key=typesafe_key)
         else:
             logger.warning("SCOPE_GUARD_ENABLED is set but TYPESAFE_API_KEY is missing; scope guard stays off")
+    # Off by default (#208): the check is designed and unit-tested but not
+    # yet measured against real traffic. Flip CITATION_SUPPORT_CHECK_ENABLED
+    # once the false-flag rate from the probe is judged acceptable.
+    citation_support_check = None
+    if os.environ.get("CITATION_SUPPORT_CHECK_ENABLED", "").lower() == "true":
+        typesafe_key = os.environ.get("TYPESAFE_API_KEY")
+        if typesafe_key:
+            citation_support_check = CitationSupportCheck(api_key=typesafe_key)
+        else:
+            logger.warning("CITATION_SUPPORT_CHECK_ENABLED is set but TYPESAFE_API_KEY is missing; citation support check stays off")
     app.state.pipeline = pipeline
     app.state.guardrail = guardrail
     app.state.passages = passages
     app.state.feedback_store = feedback_store
     app.state.share_store = share_store
     app.state.composer = AnswerComposer(
-        pipeline, guardrail, passages, title_index, _SHARE_RECEIPT_SECRET, scope_guard=scope_guard
+        pipeline, guardrail, passages, title_index, _SHARE_RECEIPT_SECRET,
+        scope_guard=scope_guard, citation_support_check=citation_support_check,
     )
     await pipeline.warmup()
     logger.info("models warmed up")

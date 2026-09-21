@@ -9,18 +9,34 @@ export function AnswerText({ text, onCitationClick }: AnswerTextProps) {
   const renderCitation = (ref: string, key: React.Key) => {
     const lower = ref.toLowerCase();
     const isUnverified = lower.includes('unverified') || lower.includes('hallucinated');
+    // " unsupported" (citation_support_check.py's UNSUPPORTED_MARKER) flags a
+    // citation whose ID is real and was retrieved, but whose passage doesn't
+    // back the sentence it's attached to (#207/#208) — a different problem
+    // from an unverified/hallucinated ID, so it gets its own amber state.
+    // Stripped before display and before onCitationClick so the citation
+    // stays exactly the ID SourceViewer matches on.
+    const isUnsupported = !isUnverified && lower.includes(' unsupported');
+    const cleanRef = isUnsupported ? ref.slice(0, -' unsupported'.length) : ref;
     return (
       <button
         key={key}
-        onClick={() => onCitationClick(ref)}
-        title={isUnverified ? 'This citation could not be verified' : 'View source passage'}
+        onClick={() => onCitationClick(cleanRef)}
+        title={
+          isUnverified
+            ? 'This citation could not be verified'
+            : isUnsupported
+            ? 'This passage may not support this sentence. Click to read it and judge for yourself.'
+            : 'View source passage'
+        }
         className={`mx-1 px-1.5 py-0.5 rounded font-medium transition-colors ${
           isUnverified
             ? 'bg-red-100 text-red-800 hover:bg-red-200 cursor-not-allowed text-xs'
+            : isUnsupported
+            ? 'bg-amber-100 text-amber-800 hover:bg-amber-200 text-xs cursor-pointer underline decoration-dotted underline-offset-2'
             : 'bg-[#ede8df] text-[#6b4e35] hover:bg-[#e8e4dc] text-[11px] font-sans cursor-pointer underline decoration-dotted underline-offset-2'
         }`}
       >
-        [{ref}]
+        [{cleanRef}]
       </button>
     );
   };

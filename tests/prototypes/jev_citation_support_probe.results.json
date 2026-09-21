@@ -1,0 +1,138 @@
+{
+  "false_flag_rate": 0.0,
+  "good_cases": [
+    {
+      "passage": "DN9:18",
+      "claim": "The monk sets aside sensual desire and unskillful states, then enters a state of rapture and pleasure born of that withdrawal.",
+      "note": "direct paraphrase, no jhāna word",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "AN10.17:4",
+      "claim": "A virtuous monk lives by the code of monastic training rules, careful even about minor faults.",
+      "note": "direct paraphrase, no Pāṭimokkha word",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "AN3.101:3",
+      "claim": "One who holds that the result of an action is shaped by how the deed was done can live the holy life and end suffering.",
+      "note": "indirect: the passage states this as one side of a contrast",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "AN10.15:3",
+      "claim": "Heedfulness is said to be the root and the highest of every skillful quality.",
+      "note": "direct restatement of the passage's second half",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "THIG9:6",
+      "claim": "The speaker was startled into urgent spiritual effort by words from their mother.",
+      "note": "paraphrase of saṁvega, Pali hinge word untranslated in source",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "MN61:7",
+      "claim": "Telling a deliberate lie without any shame shows someone is barely a contemplative at all.",
+      "note": "near-verbatim restatement",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "AN10.71:6",
+      "claim": "Monks are instructed to keep their conduct impeccable under the code of monastic rules, mindful of even trivial faults.",
+      "note": "direct paraphrase, no Pāṭimokkha word",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "AN2.35:7",
+      "claim": "A monk who keeps the precepts carefully but is reborn among the devas, then returns to this world, is called one 'fettered inside.'",
+      "note": "long passage, claim covers its whole arc",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "DHP1:3",
+      "claim": "An unwholesome state of mind brings suffering the way a cart wheel follows the ox that pulls it.",
+      "note": "short verse, simile-heavy",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "DHP1:4",
+      "claim": "A calm and bright state of mind is followed by happiness, the way a shadow never leaves its owner.",
+      "note": "short verse, simile-heavy",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "MN10:12",
+      "claim": "In the first stage of this practice, a monk stays mindfully aware of the body, working to set aside craving and aversion toward the world.",
+      "note": "single-sentence list-style passage (project's known weak chunk type)",
+      "relation": "supports",
+      "false_flag": false
+    },
+    {
+      "passage": "SN1.2:3",
+      "claim": "A deity radiant enough to light up the entire grove approached the Buddha at night and asked him about liberation.",
+      "note": "narrative passage, claim covers the frame story not the teaching",
+      "relation": "supports",
+      "false_flag": false
+    }
+  ],
+  "bad_case_controls": [
+    {
+      "passage": "DN9:18",
+      "claim": "The monk breaks the precept against killing.",
+      "note": "unrelated claim, same passage",
+      "relation": "says_nothing",
+      "caught": true
+    },
+    {
+      "passage": "MN61:7",
+      "claim": "The Buddha praised lying as a skillful quality.",
+      "note": "states the opposite of the passage",
+      "relation": "contradicts",
+      "caught": true
+    },
+    {
+      "passage": "AN10.15:3",
+      "claim": "The best way to cook rice is to steam it slowly.",
+      "note": "wholly unrelated claim",
+      "relation": "says_nothing",
+      "caught": true
+    },
+    {
+      "passage": "THIG9:6",
+      "claim": "Jhāna is the ultimate goal described in this passage.",
+      "note": "topically adjacent (meditation), but the passage never says this",
+      "relation": "says_nothing",
+      "caught": true
+    },
+    {
+      "passage": "DHP1:3",
+      "claim": "A pure heart leads to happiness.",
+      "note": "true of the very next verse (DHP1:4), not this one — same source, wrong verse",
+      "relation": "supports",
+      "caught": false
+    },
+    {
+      "passage": "AN2.35:7",
+      "claim": "This passage describes someone who has fully ended the cycle of rebirth.",
+      "note": "related vocabulary (rebirth), wrong outcome: a returner, not an arahant",
+      "relation": "contradicts",
+      "caught": true
+    }
+  ],
+  "batching_latency": {
+    "batched_seconds": 0.3103975597769022,
+    "sequential_seconds": 1.813547404948622,
+    "n_citations": 5
+  }
+}
