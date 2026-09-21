@@ -1,0 +1,56 @@
+HOW TO RUN THE JEV PROBE YOURSELF
+=================================
+
+What this is
+------------
+A small throwaway test. It sends 28 short questions to Jev, the new
+TypeSafe model, and prints how it answered. Every question has a right
+answer that we already know, so you can see at a glance whether Jev got
+it right.
+
+It costs about half a thousandth of a dollar per run, and takes about
+25 seconds.
+
+Before you start
+----------------
+The Jev key must already be in the file called .env in the PCAIsearch
+folder. It is there now. You do not have to do anything about it.
+
+
+STEP 1 - open a terminal window.
+
+STEP 2 - copy the line below, paste it into the terminal, press Enter.
+
+cd ~/PCAIsearch && python3 tests/prototypes/jev_pali_probe.py
+
+
+What you will see
+-----------------
+Three blocks of results, one under the other.
+
+PROBE A asks Jev: "is this question about the Pali Canon?"
+  Six questions really are, six really are not.
+  The number on the left is how sure Jev is that the answer is yes.
+  1.00 means completely sure it is about the Canon. 0.00 means
+  completely sure it is not.
+  The column marked "ok" says yes when Jev agreed with us.
+
+PROBE B takes real passages out of our own text collection. Each one
+  hides its meaning behind a Pali word that is never translated, such
+  as jhana or kamma. We then ask Jev a question in plain English that
+  never uses the Pali word. If Jev answers correctly, it knew what the
+  Pali word meant.
+
+PROBE C is a small ranking contest. We give Jev one search question and
+  five passages. One of the five is the right answer. The other four
+  were chosen because they share words with the question but do not
+  answer it. Jev has to put the right one on top. The line at the
+  bottom of each contest says where the right passage landed.
+
+At the very end you get the cost and the time.
+
+
+If something goes wrong
+-----------------------
+If you see the words "TYPESAFE_API_KEY is not set", the key has gone
+missing from the .env file. Tell Claude and it will put it back.
