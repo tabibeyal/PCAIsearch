@@ -25,4 +25,11 @@ describe('formatAnswerAsPlainText', () => {
     const result = formatAnswerAsPlainText('Something [Unverified].', []);
     expect(result).toBe('Something [Unverified].');
   });
+
+  it('drops the unsupported marker and still expands the citation by its real id', () => {
+    const result = formatAnswerAsPlainText('A deliberate lie [MN 27:14 unsupported].', context);
+    expect(result).toBe(
+      'A deliberate lie [MN 27:14 — Cūḷahatthipadopamasutta The Shorter Discourse on the Elephant Footprint Simile].'
+    );
+  });
 });

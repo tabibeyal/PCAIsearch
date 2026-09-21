@@ -1,6 +1,7 @@
 from datetime import datetime, timezone
 from typing import Any
 
+from backend.app.services.citation_support_check import CitationSupportCheckError
 from backend.app.services.scope_guard import ScopeGuardError
 from backend.app.services.search_pipeline import SearchPipeline
 
@@ -117,6 +118,23 @@ class FakeScopeGuard:
         if self._raises:
             raise ScopeGuardError("guard unavailable")
         return self._in_scope
+
+
+class FakeCitationSupportCheck:
+    """Stands in for CitationSupportCheck in AnswerComposer tests: returns a
+    fixed relation for every citation in the batch, or raises
+    CitationSupportCheckError if constructed with raises=True."""
+
+    def __init__(self, relation: str = "supports", raises: bool = False) -> None:
+        self._relation = relation
+        self._raises = raises
+        self.batches: list[list[dict[str, Any]]] = []
+
+    async def check(self, citations: list[dict[str, Any]]) -> list[str]:
+        self.batches.append(citations)
+        if self._raises:
+            raise CitationSupportCheckError("check unavailable")
+        return [self._relation] * len(citations)
 
 
 class RaisingFakePipeline:
