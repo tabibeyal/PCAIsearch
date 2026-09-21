@@ -1,0 +1,709 @@
+{
+  "results": [
+    {
+      "number": 163,
+      "title": "Near-duplicate stock passages consume half the retrieval budget, causing spurious \"couldn't find this\" refusals",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.99,
+      "probabilities": {
+        "ready-for-agent": 0.99,
+        "needs-triage": 0.0,
+        "needs-info": 0.0,
+        "wontfix": 0.0,
+        "ready-for-human": 0.01,
+        "unclear": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8606583410874009
+    },
+    {
+      "number": 161,
+      "title": "Add social preview (OG image) banners for homepage and shared answers",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.98,
+      "probabilities": {
+        "needs-info": 0.0,
+        "ready-for-human": 0.01,
+        "needs-triage": 0.0,
+        "unclear": 0.0,
+        "ready-for-agent": 0.99,
+        "wontfix": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8458179412409663
+    },
+    {
+      "number": 156,
+      "title": "Is user-facing messaging owed for the Passages tab removal?",
+      "true_label": "wontfix",
+      "predicted": "ready-for-human",
+      "confidence": 1.0,
+      "probabilities": {
+        "wontfix": 0.0,
+        "ready-for-human": 1.0,
+        "ready-for-agent": 0.0,
+        "unclear": 0.0,
+        "needs-triage": 0.0,
+        "needs-info": 0.0
+      },
+      "correct": false,
+      "seconds": 0.8479256681166589
+    },
+    {
+      "number": 152,
+      "title": "Deep Dive pane opens mid-card, hiding the sutta title (Pāli + English)",
+      "true_label": "needs-triage",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "needs-triage": 0.0,
+        "ready-for-human": 0.0,
+        "ready-for-agent": 1.0,
+        "needs-info": 0.0,
+        "unclear": 0.0,
+        "wontfix": 0.0
+      },
+      "correct": false,
+      "seconds": 0.8009902876801789
+    },
+    {
+      "number": 151,
+      "title": "SuttaRelations / get_related_suttas becomes dead code once Passages tab + /search are removed",
+      "true_label": "needs-triage",
+      "predicted": "ready-for-agent",
+      "confidence": 0.93,
+      "probabilities": {
+        "unclear": 0.0,
+        "needs-info": 0.0,
+        "ready-for-human": 0.03,
+        "wontfix": 0.0,
+        "ready-for-agent": 0.95,
+        "needs-triage": 0.02
+      },
+      "correct": false,
+      "seconds": 0.7932673268951476
+    },
+    {
+      "number": 147,
+      "title": "Handle stale ?view=results links after Passages tab removal",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-human",
+      "confidence": 1.0,
+      "probabilities": {
+        "needs-info": 0.0,
+        "needs-triage": 0.0,
+        "ready-for-agent": 0.0,
+        "ready-for-human": 1.0,
+        "wontfix": 0.0,
+        "unclear": 0.0
+      },
+      "correct": false,
+      "seconds": 0.88074284279719
+    },
+    {
+      "number": 144,
+      "title": "Fate of the Passages-only code once the tab is hidden (GET /search, searchVerses, round_robin/guarantee-filler/weak-pool)",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-human",
+      "confidence": 0.98,
+      "probabilities": {
+        "ready-for-agent": 0.01,
+        "ready-for-human": 0.99,
+        "wontfix": 0.0,
+        "unclear": 0.0,
+        "needs-triage": 0.0,
+        "needs-info": 0.0
+      },
+      "correct": false,
+      "seconds": 0.9037894024513662
+    },
+    {
+      "number": 143,
+      "title": "Remove the Passages tab and results view from the search page UI",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "wontfix": 0.0,
+        "unclear": 0.0,
+        "needs-triage": 0.0,
+        "ready-for-human": 0.0,
+        "ready-for-agent": 1.0,
+        "needs-info": 0.0
+      },
+      "correct": true,
+      "seconds": 1.1195412399247289
+    },
+    {
+      "number": 139,
+      "title": "Get the corrected query variant into reranking, not just retrieval, for typo'd searches",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-human",
+      "confidence": 0.98,
+      "probabilities": {
+        "ready-for-human": 0.98,
+        "unclear": 0.0,
+        "needs-info": 0.0,
+        "ready-for-agent": 0.02,
+        "wontfix": 0.0,
+        "needs-triage": 0.0
+      },
+      "correct": false,
+      "seconds": 1.397183891851455
+    },
+    {
+      "number": 129,
+      "title": "Spec: suppress match % for round-robin book-guarantee filler results (#114)",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "needs-triage": 0.0,
+        "ready-for-human": 0.0,
+        "unclear": 0.0,
+        "wontfix": 0.0,
+        "ready-for-agent": 1.0,
+        "needs-info": 0.0
+      },
+      "correct": true,
+      "seconds": 1.0693763559684157
+    },
+    {
+      "number": 128,
+      "title": "Off-topic top result can still show ~99% match on a single-book search",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-human",
+      "confidence": 1.0,
+      "probabilities": {
+        "unclear": 0.0,
+        "ready-for-human": 1.0,
+        "needs-info": 0.0,
+        "wontfix": 0.0,
+        "needs-triage": 0.0,
+        "ready-for-agent": 0.0
+      },
+      "correct": false,
+      "seconds": 1.2283628480508924
+    },
+    {
+      "number": 105,
+      "title": "Cutover: rebuild the vector index from tagged dumps and verify recall + the original bug",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-human",
+      "confidence": 0.4,
+      "probabilities": {
+        "ready-for-human": 0.51,
+        "ready-for-agent": 0.48,
+        "needs-info": 0.0,
+        "needs-triage": 0.01,
+        "wontfix": 0.0,
+        "unclear": 0.0
+      },
+      "correct": false,
+      "seconds": 1.7088293079286814
+    },
+    {
+      "number": 104,
+      "title": "Label commentary results as “Translator's introduction” in the results view",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.92,
+      "probabilities": {
+        "ready-for-agent": 0.93,
+        "ready-for-human": 0.05,
+        "needs-info": 0.0,
+        "needs-triage": 0.01,
+        "wontfix": 0.0,
+        "unclear": 0.0
+      },
+      "correct": true,
+      "seconds": 0.7881815447472036
+    },
+    {
+      "number": 103,
+      "title": "Citations and passage windows respect the commentary boundary",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.91,
+      "probabilities": {
+        "ready-for-human": 0.03,
+        "wontfix": 0.0,
+        "needs-info": 0.0,
+        "ready-for-agent": 0.93,
+        "needs-triage": 0.04,
+        "unclear": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8483706801198423
+    },
+    {
+      "number": 102,
+      "title": "Deep-dive answer flow retrieves canon text only",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.91,
+      "probabilities": {
+        "ready-for-human": 0.05,
+        "unclear": 0.0,
+        "needs-info": 0.0,
+        "ready-for-agent": 0.93,
+        "wontfix": 0.0,
+        "needs-triage": 0.02
+      },
+      "correct": true,
+      "seconds": 0.8550852402113378
+    },
+    {
+      "number": 101,
+      "title": "Tag translator commentary from source epub through to the search API",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "unclear": 0.0,
+        "wontfix": 0.0,
+        "ready-for-agent": 1.0,
+        "needs-triage": 0.0,
+        "needs-info": 0.0,
+        "ready-for-human": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8276921319775283
+    },
+    {
+      "number": 100,
+      "title": "Add 'kindness' as a dictionary synonym for mettā/goodwill",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.99,
+      "probabilities": {
+        "unclear": 0.0,
+        "needs-info": 0.0,
+        "ready-for-agent": 0.99,
+        "ready-for-human": 0.01,
+        "needs-triage": 0.0,
+        "wontfix": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8142890660092235
+    },
+    {
+      "number": 98,
+      "title": "PRD: Tag translator commentary — canon-only deep-dive sources, labeled commentary in results, 'kindness' synonym",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.35,
+      "probabilities": {
+        "wontfix": 0.31,
+        "ready-for-human": 0.16,
+        "ready-for-agent": 0.46,
+        "needs-triage": 0.03,
+        "unclear": 0.04,
+        "needs-info": 0.0
+      },
+      "correct": true,
+      "seconds": 1.0603790367022157
+    },
+    {
+      "number": 89,
+      "title": "Review: orphan-citation stripping removed from synthesize/stream (from #79 commit 047fbda)",
+      "true_label": "needs-triage",
+      "predicted": "ready-for-human",
+      "confidence": 0.79,
+      "probabilities": {
+        "needs-triage": 0.01,
+        "needs-info": 0.0,
+        "ready-for-agent": 0.16,
+        "ready-for-human": 0.83,
+        "unclear": 0.0,
+        "wontfix": 0.0
+      },
+      "correct": false,
+      "seconds": 0.7601747866719961
+    },
+    {
+      "number": 80,
+      "title": "Show sutta titles (Pāli + English) on the search-results list",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.96,
+      "probabilities": {
+        "needs-triage": 0.02,
+        "ready-for-agent": 0.97,
+        "wontfix": 0.0,
+        "ready-for-human": 0.01,
+        "needs-info": 0.0,
+        "unclear": 0.0
+      },
+      "correct": true,
+      "seconds": 0.7469860701821744
+    },
+    {
+      "number": 79,
+      "title": "Show sutta titles (Pāli + English) on the deep-dive sources pane",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "needs-info": 0.0,
+        "wontfix": 0.0,
+        "unclear": 0.0,
+        "ready-for-agent": 1.0,
+        "needs-triage": 0.0,
+        "ready-for-human": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8709345897659659
+    },
+    {
+      "number": 77,
+      "title": "Clean up 3 judgement-call nits from PR #72 code review",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "ready-for-agent": 1.0,
+        "ready-for-human": 0.0,
+        "needs-triage": 0.0,
+        "wontfix": 0.0,
+        "needs-info": 0.0,
+        "unclear": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8857168960385025
+    },
+    {
+      "number": 76,
+      "title": "Align /synthesize error handling with /stream; trim AnswerComposer private-helper docstrings",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "needs-triage": 0.0,
+        "wontfix": 0.0,
+        "ready-for-agent": 1.0,
+        "ready-for-human": 0.0,
+        "needs-info": 0.0,
+        "unclear": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8322489778511226
+    },
+    {
+      "number": 74,
+      "title": "Storage seam standards batch: test asserts, shared Supabase error helper, protocol wiring",
+      "true_label": "needs-triage",
+      "predicted": "ready-for-human",
+      "confidence": 0.47,
+      "probabilities": {
+        "needs-info": 0.0,
+        "wontfix": 0.0,
+        "needs-triage": 0.0,
+        "ready-for-agent": 0.43,
+        "ready-for-human": 0.5700000000000001,
+        "unclear": 0.0
+      },
+      "correct": false,
+      "seconds": 0.7502788370475173
+    },
+    {
+      "number": 73,
+      "title": "Route tests must not touch the real repo-root feedback DB at startup",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "ready-for-agent": 1.0,
+        "wontfix": 0.0,
+        "needs-info": 0.0,
+        "unclear": 0.0,
+        "needs-triage": 0.0,
+        "ready-for-human": 0.0
+      },
+      "correct": true,
+      "seconds": 1.1257403339259326
+    },
+    {
+      "number": 72,
+      "title": "Harden /share/{id} against PostgREST filter injection",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "ready-for-human": 0.0,
+        "wontfix": 0.0,
+        "needs-info": 0.0,
+        "needs-triage": 0.0,
+        "unclear": 0.0,
+        "ready-for-agent": 1.0
+      },
+      "correct": true,
+      "seconds": 0.822733273729682
+    },
+    {
+      "number": 70,
+      "title": "AnswerComposer.answer_stream() wired to /stream",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.99,
+      "probabilities": {
+        "needs-info": 0.0,
+        "needs-triage": 0.0,
+        "wontfix": 0.0,
+        "unclear": 0.0,
+        "ready-for-human": 0.0,
+        "ready-for-agent": 1.0
+      },
+      "correct": true,
+      "seconds": 0.8064283868297935
+    },
+    {
+      "number": 69,
+      "title": "AnswerComposer.answer() wired to /synthesize",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.96,
+      "probabilities": {
+        "needs-triage": 0.02,
+        "wontfix": 0.0,
+        "unclear": 0.0,
+        "ready-for-agent": 0.97,
+        "needs-info": 0.0,
+        "ready-for-human": 0.01
+      },
+      "correct": true,
+      "seconds": 0.792096605990082
+    },
+    {
+      "number": 68,
+      "title": "Guardrail becomes sole citation authority (ADR-0006)",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "unclear": 0.0,
+        "needs-info": 0.0,
+        "ready-for-agent": 1.0,
+        "ready-for-human": 0.0,
+        "needs-triage": 0.0,
+        "wontfix": 0.0
+      },
+      "correct": true,
+      "seconds": 0.7244774433784187
+    },
+    {
+      "number": 67,
+      "title": "Promote prepare_context to Pipeline's public interface",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "ready-for-agent": 1.0,
+        "ready-for-human": 0.0,
+        "unclear": 0.0,
+        "needs-triage": 0.0,
+        "needs-info": 0.0,
+        "wontfix": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8102531121112406
+    },
+    {
+      "number": 64,
+      "title": "Share storage seam: ShareStore + Supabase/SQLite adapters",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "ready-for-human": 0.0,
+        "ready-for-agent": 1.0,
+        "needs-info": 0.0,
+        "needs-triage": 0.0,
+        "wontfix": 0.0,
+        "unclear": 0.0
+      },
+      "correct": true,
+      "seconds": 0.852377159986645
+    },
+    {
+      "number": 63,
+      "title": "Feedback storage seam: FeedbackWriter + Supabase/SQLite adapters",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "ready-for-agent": 1.0,
+        "needs-triage": 0.0,
+        "ready-for-human": 0.0,
+        "unclear": 0.0,
+        "wontfix": 0.0,
+        "needs-info": 0.0
+      },
+      "correct": true,
+      "seconds": 1.0157293360680342
+    },
+    {
+      "number": 62,
+      "title": "Unify Feedback and Share storage behind one backend-selection seam",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.99,
+      "probabilities": {
+        "ready-for-agent": 0.99,
+        "ready-for-human": 0.01,
+        "needs-info": 0.0,
+        "wontfix": 0.0,
+        "needs-triage": 0.0,
+        "unclear": 0.0
+      },
+      "correct": true,
+      "seconds": 1.059254728257656
+    },
+    {
+      "number": 60,
+      "title": "Share a permanent read-only link to an exact answer",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.99,
+      "probabilities": {
+        "ready-for-agent": 0.99,
+        "needs-info": 0.0,
+        "needs-triage": 0.0,
+        "ready-for-human": 0.01,
+        "unclear": 0.0,
+        "wontfix": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8176194671541452
+    },
+    {
+      "number": 59,
+      "title": "Copy answer to clipboard with cited sutta titles",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 1.0,
+      "probabilities": {
+        "needs-info": 0.0,
+        "wontfix": 0.0,
+        "ready-for-agent": 1.0,
+        "needs-triage": 0.0,
+        "ready-for-human": 0.0,
+        "unclear": 0.0
+      },
+      "correct": true,
+      "seconds": 0.8621465368196368
+    },
+    {
+      "number": 58,
+      "title": "Add copy-text and share buttons to synthesized answers",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.94,
+      "probabilities": {
+        "needs-triage": 0.0,
+        "ready-for-agent": 0.96,
+        "wontfix": 0.0,
+        "unclear": 0.0,
+        "ready-for-human": 0.04,
+        "needs-info": 0.0
+      },
+      "correct": true,
+      "seconds": 1.0548536498099566
+    },
+    {
+      "number": 57,
+      "title": "Possible retrieval gap: the elements",
+      "true_label": "needs-triage",
+      "predicted": "needs-triage",
+      "confidence": 0.42,
+      "probabilities": {
+        "ready-for-human": 0.02,
+        "unclear": 0.01,
+        "needs-info": 0.08,
+        "ready-for-agent": 0.38,
+        "wontfix": 0.0,
+        "needs-triage": 0.51
+      },
+      "correct": true,
+      "seconds": 0.854890672955662
+    },
+    {
+      "number": 53,
+      "title": "Gap Detector: comment on existing open issue instead of duplicating",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.99,
+      "probabilities": {
+        "ready-for-human": 0.0,
+        "needs-info": 0.0,
+        "needs-triage": 0.01,
+        "unclear": 0.0,
+        "wontfix": 0.0,
+        "ready-for-agent": 0.99
+      },
+      "correct": true,
+      "seconds": 0.7944094110280275
+    },
+    {
+      "number": 52,
+      "title": "Gap Detector: detect qualifying down-votes and file needs-triage issues",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.99,
+      "probabilities": {
+        "needs-info": 0.0,
+        "wontfix": 0.0,
+        "ready-for-human": 0.01,
+        "unclear": 0.0,
+        "needs-triage": 0.0,
+        "ready-for-agent": 0.99
+      },
+      "correct": true,
+      "seconds": 0.7999964100308716
+    },
+    {
+      "number": 51,
+      "title": "Build Gap Detector: surface retrieval gaps from production feedback",
+      "true_label": "ready-for-agent",
+      "predicted": "ready-for-agent",
+      "confidence": 0.56,
+      "probabilities": {
+        "needs-triage": 0.23,
+        "wontfix": 0.0,
+        "unclear": 0.0,
+        "ready-for-agent": 0.63,
+        "needs-info": 0.0,
+        "ready-for-human": 0.14
+      },
+      "correct": true,
+      "seconds": 1.114746315870434
+    }
+  ],
+  "summary": {
+    "total": 40,
+    "correct": 30,
+    "accuracy": 0.75,
+    "no_match_count": 0,
+    "by_true_label": {
+      "ready-for-agent": {
+        "n": 34,
+        "correct": 29
+      },
+      "wontfix": {
+        "n": 1,
+        "correct": 0
+      },
+      "needs-triage": {
+        "n": 5,
+        "correct": 1
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 65633,
+    "output_tokens": 2881,
+    "requests": 40
+  }
+}
