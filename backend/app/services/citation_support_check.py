@@ -16,9 +16,8 @@ ID being real and retrieved says nothing about whether the passage actually
 backs the sentence it's attached to. That's a reading-comprehension
 judgment, not a lookup, which is what this module asks Jev to make.
 
-Not wired into the answer flow by default. AnswerComposer only builds one
-when CITATION_SUPPORT_CHECK_ENABLED is set, so nothing changes for users
-until then (#208).
+Wired into the answer flow by default since #217; set
+CITATION_SUPPORT_CHECK_ENABLED to "false" to switch it off (main.py).
 """
 
 import re

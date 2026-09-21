@@ -116,25 +116,23 @@ async def lifespan(app: FastAPI):
         logger.warning("Could not create nikaya payload index (skipping): %s", e)
     guardrail = CitationGuardrail(oracle=oracle)
     passages = PassageStore.from_directory(_DUMPS_DIR)
-    # Off by default (#198): the guard is proven in isolation but not yet
-    # trusted with live traffic. Flip SCOPE_GUARD_ENABLED once it is.
+    # On by default since #217. Both checks fail open, so a bad day at
+    # TypeSafe costs an unguarded search rather than a broken one, and a
+    # missing key degrades to the same place. Set either variable to "false"
+    # to switch one back off.
+    typesafe_key = os.environ.get("TYPESAFE_API_KEY")
     scope_guard = None
-    if os.environ.get("SCOPE_GUARD_ENABLED", "").lower() == "true":
-        typesafe_key = os.environ.get("TYPESAFE_API_KEY")
+    if os.environ.get("SCOPE_GUARD_ENABLED", "true").lower() != "false":
         if typesafe_key:
             scope_guard = ScopeGuard(api_key=typesafe_key)
         else:
-            logger.warning("SCOPE_GUARD_ENABLED is set but TYPESAFE_API_KEY is missing; scope guard stays off")
-    # Off by default (#208): the check is designed and unit-tested but not
-    # yet measured against real traffic. Flip CITATION_SUPPORT_CHECK_ENABLED
-    # once the false-flag rate from the probe is judged acceptable.
+            logger.warning("TYPESAFE_API_KEY is missing; scope guard stays off")
     citation_support_check = None
-    if os.environ.get("CITATION_SUPPORT_CHECK_ENABLED", "").lower() == "true":
-        typesafe_key = os.environ.get("TYPESAFE_API_KEY")
+    if os.environ.get("CITATION_SUPPORT_CHECK_ENABLED", "true").lower() != "false":
         if typesafe_key:
             citation_support_check = CitationSupportCheck(api_key=typesafe_key)
         else:
-            logger.warning("CITATION_SUPPORT_CHECK_ENABLED is set but TYPESAFE_API_KEY is missing; citation support check stays off")
+            logger.warning("TYPESAFE_API_KEY is missing; citation support check stays off")
     app.state.pipeline = pipeline
     app.state.guardrail = guardrail
     app.state.passages = passages
