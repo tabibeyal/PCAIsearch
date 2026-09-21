@@ -1,0 +1,95 @@
+{
+  "regression_case": "what is 17 times 23?",
+  "regression_runs": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "scope_set": [
+    {
+      "case": "what did the Buddha say about anger",
+      "note": "plain on-topic",
+      "expected": true,
+      "in_scope": true,
+      "correct": true
+    },
+    {
+      "case": "what were the Buddha's last words before he died",
+      "note": "on-topic, narrative",
+      "expected": true,
+      "in_scope": true,
+      "correct": true
+    },
+    {
+      "case": "is having a good spiritual friend the whole of the holy life",
+      "note": "on-topic with zero Buddhist marker words",
+      "expected": true,
+      "in_scope": true,
+      "correct": true
+    },
+    {
+      "case": "why does loving someone lead to grief and suffering",
+      "note": "on-topic, reads like a self-help question",
+      "expected": true,
+      "in_scope": true,
+      "correct": true
+    },
+    {
+      "case": "how should one breathe mindfully during sitting meditation",
+      "note": "on-topic",
+      "expected": true,
+      "in_scope": true,
+      "correct": true
+    },
+    {
+      "case": "what is anatta",
+      "note": "on-topic, bare Pali term",
+      "expected": true,
+      "in_scope": true,
+      "correct": true
+    },
+    {
+      "case": "what is the best way to cook rice",
+      "note": "plainly off-topic",
+      "expected": false,
+      "in_scope": false,
+      "correct": true
+    },
+    {
+      "case": "write me a python function that reverses a list",
+      "note": "plainly off-topic",
+      "expected": false,
+      "in_scope": false,
+      "correct": true
+    },
+    {
+      "case": "how do I cancel my Netflix subscription",
+      "note": "plainly off-topic",
+      "expected": false,
+      "in_scope": false,
+      "correct": true
+    },
+    {
+      "case": "what does the Bible say about forgiveness",
+      "note": "near miss: scripture, wrong canon",
+      "expected": false,
+      "in_scope": false,
+      "correct": true
+    },
+    {
+      "case": "what does the Dalai Lama teach about compassion",
+      "note": "near miss: Buddhist, but not the Pali Canon",
+      "expected": false,
+      "in_scope": false,
+      "correct": true
+    },
+    {
+      "case": "which meditation app should I install",
+      "note": "near miss: meditation, but not the Canon",
+      "expected": false,
+      "in_scope": false,
+      "correct": true
+    }
+  ]
+}
