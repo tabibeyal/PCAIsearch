@@ -4,9 +4,8 @@ Injectable seam in the style of Retriever (retriever.py) — the pieces that
 vary (api key, endpoint, model) are constructor arguments, so tests can swap
 in a fake transport instead of hitting the network.
 
-Not wired into the answer flow by default. answer_composer.py only builds one
-when SCOPE_GUARD_ENABLED is set, so nothing changes for users until then
-(#198).
+Wired into the answer flow by default since #217; set SCOPE_GUARD_ENABLED to
+"false" to switch it off (main.py).
 """
 
 import httpx
@@ -68,7 +67,12 @@ class ScopeGuard:
         api_key: str,
         endpoint: str = ENDPOINT,
         model: str = MODEL,
-        timeout: float = 10.0,
+        # The guard blocks the front of every search, before retrieval starts,
+        # and the caller fails open (#198). An observed call takes ~0.85s, so
+        # anything past 2s is a bad day at TypeSafe: giving up then costs one
+        # unguarded search, while waiting costs every user the full delay
+        # (#217).
+        timeout: float = 2.0,
         client: httpx.AsyncClient | None = None,
     ) -> None:
         self._api_key = api_key

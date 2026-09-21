@@ -137,8 +137,8 @@ class AnswerComposer:
 
     async def _check_citation_support(self, kept: list[dict[str, Any]], text: str) -> str:
         """Extends the one CitationGuardrail branch that runs no content check
-        at all: a citation whose ID was retrieved this turn. Off by default
-        (#208), same seam as _is_out_of_scope — a check failure publishes the
+        at all: a citation whose ID was retrieved this turn. Same seam as
+        _is_out_of_scope — a check failure publishes the
         citation unmarked rather than raising, because failing closed here
         would mean withholding an answer over a third-party outage, not over
         anything wrong with the answer itself.
