@@ -4,6 +4,7 @@ from typing import Any
 
 from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.passage_context import PassageStore
+from backend.app.services.scope_guard import OUT_OF_SCOPE_MESSAGE, ScopeGuard, ScopeGuardError
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.share_receipt import generate_receipt
 from backend.app.services.sutta_title_index import SuttaTitleIndex
@@ -12,13 +13,16 @@ logger = logging.getLogger(__name__)
 
 
 class AnswerComposer:
-    """Owns the compose flow shared by /synthesize and /stream: search ->
-    prepare_context (kept context) -> synthesize -> Guardrail -> attach
-    passages/titles -> Receipt. Guardrail, Receipt, and the returned context
-    all see the same kept-context list that was fed to synthesis.
+    """Owns the compose flow shared by /synthesize and /stream: scope guard ->
+    search -> prepare_context (kept context) -> synthesize -> Guardrail ->
+    attach passages/titles -> Receipt. Guardrail, Receipt, and the returned
+    context all see the same kept-context list that was fed to synthesis.
 
     Raises on failure rather than swallowing exceptions — each route applies
-    its own transport-appropriate error handling.
+    its own transport-appropriate error handling. The scope guard is the one
+    exception: a guard failure (Jev slow, down, or rate-limiting) falls back
+    to answering unguarded rather than raising, so a third party outage never
+    takes search down (#198).
     """
 
     def __init__(
@@ -28,14 +32,19 @@ class AnswerComposer:
         passages: PassageStore,
         title_index: SuttaTitleIndex,
         receipt_secret: str,
+        scope_guard: ScopeGuard | None = None,
     ) -> None:
         self.pipeline = pipeline
         self.guardrail = guardrail
         self.passages = passages
         self.title_index = title_index
         self.receipt_secret = receipt_secret
+        self.scope_guard = scope_guard
 
     async def answer(self, query: str, top_k: int, nikayas: list[str] | None = None) -> dict[str, Any]:
+        if await self._is_out_of_scope(query):
+            return self._out_of_scope_result(query)
+
         # The answer flow is canon-only: translator commentary is excluded at
         # retrieval time so every context slot is a usable canon passage (#102).
         context = await self.pipeline.search(
@@ -54,6 +63,10 @@ class AnswerComposer:
         event) is terminal: any chunk text already sent must be treated as
         incomplete and discarded, never presented as the final answer.
         """
+        if await self._is_out_of_scope(query):
+            yield {"type": "done", **self._out_of_scope_result(query)}
+            return
+
         t0 = time.perf_counter()
         yield {"type": "status", "text": "Searching the Canon…"}
         context = await self.pipeline.search(
@@ -74,6 +87,27 @@ class AnswerComposer:
 
         yield {"type": "status", "text": "Verifying sources…"}
         yield {"type": "done", **self._finalize(query, kept, raw_answer)}
+
+    async def _is_out_of_scope(self, query: str) -> bool:
+        if not self.scope_guard:
+            return False
+        try:
+            return not await self.scope_guard.is_in_scope(query)
+        except ScopeGuardError as exc:
+            logger.warning("scope guard failed, answering unguarded: %s", exc)
+            return False
+
+    def _out_of_scope_result(self, query: str) -> dict[str, Any]:
+        receipt = generate_receipt(query, OUT_OF_SCOPE_MESSAGE, [], self.receipt_secret)
+        return {
+            "query": query,
+            "answer": OUT_OF_SCOPE_MESSAGE,
+            "hallucinations": [],
+            "canonical_misses": [],
+            "is_faithful": True,
+            "context": [],
+            "receipt": receipt,
+        }
 
     def _finalize(self, query: str, kept: list[dict[str, Any]], raw_answer: str) -> dict[str, Any]:
         verification = self.guardrail.process_response(raw_answer, kept)

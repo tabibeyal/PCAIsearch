@@ -6,10 +6,11 @@ from backend.app.services.answer_composer import AnswerComposer
 from backend.app.services.citation_oracle import CitationOracle
 from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.passage_context import PassageStore
+from backend.app.services.scope_guard import OUT_OF_SCOPE_MESSAGE
 from backend.app.services.share_receipt import verify_receipt
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 
-from fakes import FakePipeline, MidStreamRaisingFakePipeline, RaisingFakePipeline
+from fakes import FakePipeline, FakeScopeGuard, MidStreamRaisingFakePipeline, RaisingFakePipeline
 
 RECEIPT_KEY = "fake-signing-value-for-tests"
 
@@ -23,7 +24,7 @@ def _raw_context():
     ]
 
 
-def _composer(context=None, answer="The teaching is in [MN 10:1].", guardrail=None):
+def _composer(context=None, answer="The teaching is in [MN 10:1].", guardrail=None, scope_guard=None):
     pipeline = FakePipeline(_raw_context() if context is None else context, answer)
     composer = AnswerComposer(
         pipeline=pipeline,
@@ -31,6 +32,7 @@ def _composer(context=None, answer="The teaching is in [MN 10:1].", guardrail=No
         passages=PassageStore(),
         title_index=SuttaTitleIndex([{"sutta_id": "MN10", "title_pali": "x", "title_english": "y"}]),
         receipt_secret=RECEIPT_KEY,
+        scope_guard=scope_guard,
     )
     return composer, pipeline
 
@@ -207,3 +209,69 @@ async def test_answer_stream_propagates_mid_generator_failure():
     )
     with pytest.raises(RuntimeError, match="synthesis failed"):
         await _collect(composer.answer_stream("mindfulness", top_k=10))
+
+
+# --- scope guard wiring (#198) --------------------------------------------
+
+@pytest.mark.asyncio
+async def test_answer_returns_refusal_when_guard_says_out_of_scope():
+    composer, pipeline = _composer(scope_guard=FakeScopeGuard(in_scope=False))
+    result = await composer.answer("what is the best way to cook rice", top_k=10)
+    assert result["answer"] == OUT_OF_SCOPE_MESSAGE
+
+
+@pytest.mark.asyncio
+async def test_answer_skips_pipeline_search_when_guard_says_out_of_scope():
+    composer, pipeline = _composer(scope_guard=FakeScopeGuard(in_scope=False))
+    await composer.answer("what is the best way to cook rice", top_k=10)
+    assert pipeline.search_calls == []
+
+
+@pytest.mark.asyncio
+async def test_answer_runs_pipeline_when_guard_says_in_scope():
+    composer, pipeline = _composer(scope_guard=FakeScopeGuard(in_scope=True))
+    result = await composer.answer("mindfulness", top_k=10)
+    assert result["answer"] == "The teaching is in [MN 10:1]."
+
+
+@pytest.mark.asyncio
+async def test_answer_runs_pipeline_unguarded_when_guard_fails():
+    composer, pipeline = _composer(scope_guard=FakeScopeGuard(raises=True))
+    result = await composer.answer("mindfulness", top_k=10)
+    assert result["answer"] == "The teaching is in [MN 10:1]."
+
+
+@pytest.mark.asyncio
+async def test_answer_without_a_guard_always_runs_the_pipeline():
+    composer, pipeline = _composer()
+    await composer.answer("what is the best way to cook rice", top_k=10)
+    assert len(pipeline.search_calls) == 1
+
+
+@pytest.mark.asyncio
+async def test_answer_stream_yields_only_a_done_event_when_out_of_scope():
+    composer, pipeline = _composer(scope_guard=FakeScopeGuard(in_scope=False))
+    events = await _collect(composer.answer_stream("what is the best way to cook rice", top_k=10))
+    assert [e["type"] for e in events] == ["done"]
+
+
+@pytest.mark.asyncio
+async def test_answer_stream_done_event_carries_the_refusal_when_out_of_scope():
+    composer, pipeline = _composer(scope_guard=FakeScopeGuard(in_scope=False))
+    events = await _collect(composer.answer_stream("what is the best way to cook rice", top_k=10))
+    assert events[-1]["answer"] == OUT_OF_SCOPE_MESSAGE
+
+
+@pytest.mark.asyncio
+async def test_answer_stream_skips_pipeline_search_when_out_of_scope():
+    composer, pipeline = _composer(scope_guard=FakeScopeGuard(in_scope=False))
+    await _collect(composer.answer_stream("what is the best way to cook rice", top_k=10))
+    assert pipeline.search_calls == []
+
+
+@pytest.mark.asyncio
+async def test_answer_stream_runs_pipeline_unguarded_when_guard_fails():
+    composer, pipeline = _composer(scope_guard=FakeScopeGuard(raises=True))
+    events = await _collect(composer.answer_stream("mindfulness", top_k=10))
+    assert events[-1]["answer"] == "The teaching is in [MN 10:1]."
+

@@ -20,6 +20,7 @@ from qdrant_client.http.exceptions import UnexpectedResponse
 from backend.app.services.search_pipeline import SearchPipeline
 from backend.app.services.guardrail import CitationGuardrail
 from backend.app.services.answer_composer import AnswerComposer
+from backend.app.services.scope_guard import ScopeGuard
 from backend.app.services.citation_oracle import CitationOracle
 from backend.app.services.sutta_title_index import SuttaTitleIndex
 from backend.app.services.bm25_retriever import BM25Retriever
@@ -114,12 +115,23 @@ async def lifespan(app: FastAPI):
         logger.warning("Could not create nikaya payload index (skipping): %s", e)
     guardrail = CitationGuardrail(oracle=oracle)
     passages = PassageStore.from_directory(_DUMPS_DIR)
+    # Off by default (#198): the guard is proven in isolation but not yet
+    # trusted with live traffic. Flip SCOPE_GUARD_ENABLED once it is.
+    scope_guard = None
+    if os.environ.get("SCOPE_GUARD_ENABLED", "").lower() == "true":
+        typesafe_key = os.environ.get("TYPESAFE_API_KEY")
+        if typesafe_key:
+            scope_guard = ScopeGuard(api_key=typesafe_key)
+        else:
+            logger.warning("SCOPE_GUARD_ENABLED is set but TYPESAFE_API_KEY is missing; scope guard stays off")
     app.state.pipeline = pipeline
     app.state.guardrail = guardrail
     app.state.passages = passages
     app.state.feedback_store = feedback_store
     app.state.share_store = share_store
-    app.state.composer = AnswerComposer(pipeline, guardrail, passages, title_index, _SHARE_RECEIPT_SECRET)
+    app.state.composer = AnswerComposer(
+        pipeline, guardrail, passages, title_index, _SHARE_RECEIPT_SECRET, scope_guard=scope_guard
+    )
     await pipeline.warmup()
     logger.info("models warmed up")
     yield

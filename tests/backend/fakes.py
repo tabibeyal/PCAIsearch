@@ -1,6 +1,7 @@
 from datetime import datetime, timezone
 from typing import Any
 
+from backend.app.services.scope_guard import ScopeGuardError
 from backend.app.services.search_pipeline import SearchPipeline
 
 
@@ -100,6 +101,22 @@ class FakePipeline:
         for word in self._answer.split(" "):
             yield {"type": "chunk", "text": word + " "}
         yield {"type": "full", "text": self._answer}
+
+
+class FakeScopeGuard:
+    """Stands in for ScopeGuard in AnswerComposer tests: returns a fixed
+    verdict, or raises ScopeGuardError if constructed with raises=True."""
+
+    def __init__(self, in_scope: bool = True, raises: bool = False) -> None:
+        self._in_scope = in_scope
+        self._raises = raises
+        self.queries: list[str] = []
+
+    async def is_in_scope(self, query: str) -> bool:
+        self.queries.append(query)
+        if self._raises:
+            raise ScopeGuardError("guard unavailable")
+        return self._in_scope
 
 
 class RaisingFakePipeline:
