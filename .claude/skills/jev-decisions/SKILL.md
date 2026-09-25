@@ -1,11 +1,11 @@
 ---
 name: jev-decisions
-description: Route wayfinder's recurring judgment calls (ticket type, fog vs ticket, next ticket, is-it-resolved, risk gate) through Jev typed questions instead of free-text reasoning. Use whenever wayfinder or you are about to make one of these five decisions on a PCAIsearch GitHub issue.
+description: Route wayfinder's recurring judgment calls (ticket type, fog vs ticket, is-it-resolved, risk gate) through Jev typed questions instead of free-text reasoning. Use whenever wayfinder or you are about to make one of these four decisions on a PCAIsearch GitHub issue.
 ---
 
 # Jev decisions
 
-PCAIsearch ("Ask the Pali Canon", FastAPI backend + Next.js frontend) runs its roadmap through wayfinder on GitHub issues. Five judgment calls come up again and again. Don't make them in free text. Ask Jev a typed question with `scripts/jev_decide.py`, read the `decision` field, and do what it says.
+PCAIsearch ("Ask the Pali Canon", FastAPI backend + Next.js frontend) runs its roadmap through wayfinder on GitHub issues. Four judgment calls come up again and again. Don't make them in free text. Ask Jev a typed question with `scripts/jev_decide.py`, read the `decision` field, and do what it says.
 
 Jev returns calibrated probabilities. Your code (the gates in the script) decides whether to act. You don't override a gate because you feel sure.
 
@@ -15,11 +15,10 @@ Call it when you are about to:
 
 1. **Classify a ticket** - decide which wayfinder label a new or unlabeled issue gets.
 2. **Decide fog or ticket** - decide whether something from a conversation or a note becomes an issue.
-3. **Pick the next ticket** - choose which open frontier issue to work on.
-4. **Decide if a ticket is resolved** - decide whether an issue can be closed.
-5. **Gate risk** - decide whether a change is safe to make without asking the human.
+3. **Decide if a ticket is resolved** - decide whether an issue can be closed.
+4. **Gate risk** - decide whether a change is safe to make without asking the human.
 
-Don't call it for anything else. Implementation, code review, writing, and debugging stay with you.
+Don't call it for anything else. Picking the next ticket is not a Jev call: follow wayfinder's rule and take the first frontier ticket in order, skipping any labelled `wayfinder:claimed`, because Jev would only be guessing from titles. Implementation, code review, writing, and debugging stay with you.
 
 ## How to call it
 
@@ -50,7 +49,7 @@ What to do with each decision:
 - `ask_human`: stop and ask Eyal. Show him the question, Jev's top answer, and the probabilities.
 - `fall_back_to_default`: use the default listed for that decision point below. Say in your output that you fell back and why.
 
-## The five decision points
+## The four decision points
 
 ### 1. `classify` - ticket type
 
@@ -73,18 +72,7 @@ What to do with each decision:
 - On `already-decided`: link the closed decision instead of opening an issue.
 - On `out-of-scope`: drop it and mention it once in your summary.
 
-### 3. `next` - pick next ticket
-
-- Type: Choice over the frontier issue ids, injected at call time
-- Flags: `--frontier "<id>=<title / one-line summary>"` (repeat), or a `frontier` array in the stdin state. The array can be `gh issue list --json number,title,labels` output as-is.
-- Gate: act if confidence >= 0.60
-- Default: the lowest issue number in the frontier
-
-**Exclude `wayfinder:claimed` issues from the frontier.** Someone else is on them. Filter them out before you call. The script also drops any frontier entry whose `labels` include `wayfinder:claimed`, as a backstop. If the frontier is empty after filtering, the script returns `ask_human`.
-
-With exactly one unclaimed issue, the script skips the API call and returns it.
-
-### 4. `resolved` - is the ticket resolved
+### 3. `resolved` - is the ticket resolved
 
 - Type: Noul
 - Flags: `--ticket "<issue title, body, and acceptance criteria>"` and `--evidence "<what was done: PR, test output, notes>"`
@@ -92,7 +80,7 @@ With exactly one unclaimed issue, the script skips the API call and returns it.
 - Noul has no confidence field. The bands do that job.
 - Default on API failure: not resolved. Keep the issue open.
 
-### 5. `risk` - risk gate
+### 4. `risk` - risk gate
 
 - Type: Score with 4 levels plus a Noul `contradicts_decision`
 - Flags: `--change "<what you are about to do>"`
@@ -102,7 +90,7 @@ With exactly one unclaimed issue, the script skips the API call and returns it.
 
 ## Thresholds are starting guesses
 
-Every number above (0.70, 0.60, 0.85 / 0.15, 0.10) is a first guess. They live in `questions.json` under each decision's `gate`. Change them there, not in this file or in the script. When Eyal overrides a result, note the case in the map so the thresholds can be tuned later.
+Every number above (0.70, 0.85 / 0.15, 0.10) is a first guess. They live in `questions.json` under each decision's `gate`. Change them there, not in this file or in the script. When Eyal overrides a result, note the case in the map so the thresholds can be tuned later.
 
 ## Failures
 

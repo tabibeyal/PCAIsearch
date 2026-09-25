@@ -1,5 +1,5 @@
 {
-  "_readme": "Fixed Jev questions for the jev-decisions skill. Each decision's `questions` object is sent as-is as the `questions` field of POST https://api.typesafe.ai/v1/systemone, together with `model` and a `state` built by scripts/jev_decide.py. The string \"{{FRONTIER}}\" is a placeholder: the script replaces it with an object of {issue_id: summary} for unclaimed frontier issues. `gate` values are starting guesses - tune them here.",
+  "_readme": "Fixed Jev questions for the jev-decisions skill. Each decision's `questions` object is sent as-is as the `questions` field of POST https://api.typesafe.ai/v1/systemone, together with `model` and a `state` built by scripts/jev_decide.py. `gate` values are starting guesses - tune them here.",
   "model": "jev-latest",
   "_model_note": "jev-latest is an alias and can change under you. After testing, pin the concrete version the API returns in the response `model` field (e.g. \"jev-1.13.0\") here, or set JEV_MODEL in the environment.",
   "decisions": {
@@ -72,26 +72,6 @@
         "on_low_confidence": "fall_back_to_default",
         "on_error": "fall_back_to_default",
         "default": "fog"
-      }
-    },
-    "next": {
-      "questions": {
-        "next_ticket": {
-          "type": "choice",
-          "instructions": "Which frontier issue should be worked on next to make the most progress toward the map destination, given the notes and closed decisions? Prefer issues that unblock others.",
-          "criteria": "{{FRONTIER}}"
-        }
-      },
-      "gate": {
-        "kind": "choice_confidence",
-        "question": "next_ticket",
-        "min_confidence": 0.6,
-        "on_low_confidence": "fall_back_to_default",
-        "on_error": "fall_back_to_default",
-        "default": "lowest_issue_number",
-        "exclude_labels": [
-          "wayfinder:claimed"
-        ]
       }
     },
     "resolved": {

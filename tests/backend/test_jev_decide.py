@@ -70,34 +70,11 @@ def api(monkeypatch):
     return install
 
 
-_GH_FRONTIER = {"frontier": [
-    {"number": 210, "title": "Claimed one", "labels": [{"name": "wayfinder:claimed"}]},
-    {"number": 211, "title": "Free one", "labels": [{"name": "wayfinder:task"}]},
-]}
-
-
-def test_gh_frontier_skips_claimed_issue(monkeypatch, capsys):
-    _, out = _run(monkeypatch, capsys, ["next", "--state", "-"], stdin=_GH_FRONTIER)
-    assert json.loads(out)["value"] == "211"
-
-
-def test_gh_frontier_title_becomes_choice_description(monkeypatch, capsys):
-    stdin = {"frontier": _GH_FRONTIER["frontier"] + [{"number": 212, "title": "Other", "labels": []}]}
-    _, out = _run(monkeypatch, capsys, ["next", "--state", "-", "--dry-run"], stdin=stdin)
-    assert json.loads(out)["questions"]["next_ticket"]["criteria"] == {"211": "Free one", "212": "Other"}
-
-
 def test_closed_decision_string_in_state_merges_with_flag(monkeypatch, capsys):
     _, out = _run(monkeypatch, capsys,
                   ["risk", "--state", "-", "--closed-decision", "second", "--dry-run"],
                   stdin={"closed_decisions": "first"})
     assert json.loads(out)["state"]["closed_decisions"] == ["first", "second"]
-
-
-def test_frontier_entry_without_id_asks_human_instead_of_crashing(monkeypatch, capsys):
-    code, _ = _run(monkeypatch, capsys, ["next", "--state", "-"],
-                   stdin={"frontier": [{"title": "no id"}, {"title": "no id either"}]})
-    assert code == jev_decide.EXIT["ask_human"]
 
 
 def test_overloaded_api_is_retried(api, monkeypatch, capsys):
