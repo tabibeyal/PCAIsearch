@@ -46,14 +46,22 @@
           "type": "choice",
           "instructions": {
             "question": "Where does `open_question` belong on the wayfinder map for `map_destination`?",
-            "test": "Judge whether the question can be stated precisely now, not whether it can be answered or worked on now."
+            "test": "A ticket is a precise question the current route needs answered. Fog is anything vaguer, or a precise question the owner is deliberately putting off until later."
           },
           "criteria": {
-            "ticket": "Relevant to the destination, and it can already be stated as one precise question: it is clear exactly what is being decided or found out. This holds even if it is blocked by other work and nobody can act on it yet.",
-            "fog": "Relevant to the destination, but it cannot yet be phrased as one precise question. It is a suspected question, an area to revisit later, or a risk being deferred.",
+            "ticket": "Relevant to the destination, stated as one precise question, and needed on the current route: work toward the destination depends on its answer now, or as soon as a specific open ticket it waits on is closed.",
+            "fog": {
+              "means": "Relevant to the destination, but not a ticket yet. Either it cannot yet be phrased as one precise question, or it is precise but deliberately put off: it matters only later, depends on a decision nobody has made yet, or is marked as parked, someday, or not needed now.",
+              "examples": [
+                "a suspected question",
+                "an area to revisit later",
+                "a risk being deferred",
+                "a sharp question that is out of scope for now but will come back"
+              ]
+            },
             "already-a-ticket": "One of `open_tickets` already covers the same question.",
             "already-decided": "One of `closed_decisions` already answers it.",
-            "out-of-scope": "Not needed to reach the map destination."
+            "out-of-scope": "Not needed to reach the map destination, now or later."
           }
         }
       },

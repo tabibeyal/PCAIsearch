@@ -65,7 +65,7 @@ What to do with each decision:
 ### 2. `fog` - fog or ticket
 
 - Type: Choice over `ticket`, `fog`, `already-a-ticket`, `already-decided`, `out-of-scope`
-- The test is wayfinder's: can the question be stated precisely now? Not: can someone work on it now. A sharp question that is blocked is still a `ticket`.
+- The test: a `ticket` is a precise question the current route needs, even if it waits on a specific open ticket. `fog` is anything vaguer, and also a precise question Eyal is deliberately putting off until later. This is stricter than wayfinder's own rule, on purpose: Eyal's maps park sharp-but-later questions in Fog.
 - Flags: `--question "<the idea, request, or open question>"` and `--open-ticket "#<id> <title>"` for every open ticket on the map (repeat). Without the open tickets, Jev cannot see duplicates.
 - Gate: act if confidence >= 0.70
 - Default: `fog` (write it into the map's Fog section, don't open an issue)
