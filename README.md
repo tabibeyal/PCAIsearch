@@ -10,6 +10,8 @@ Semantic search and AI-synthesized answers over the Pali Canon (DN, MN, AN, SN, 
 - **Cross-encoder reranking** — results reordered by relevance before display
 - **AI Synthesis** — LLM answers your question using only retrieved context, with inline citations (`[DN 1:1]`, `[SN 46.20:14]`)
 - **Citation guardrail** — distinguishes true hallucinations (non-existent sutta) from canonical misses (real sutta not in retrieved context)
+- **Citation support check** (optional, off by default) — asks Jev (TypeSafe System One) whether each cited passage actually backs its sentence; unsupported citations are shown in amber
+- **Scope guard** (optional, off by default) — asks Jev whether a question is about the Pali Canon before searching, and politely declines off-topic ones
 - **Nikaya filter** — filter search and synthesis by collection (DN, MN, SN, AN, DHP, ITI, UD, STNP, THAG, THIG, KHP); click to switch, ⌘/Ctrl-click to combine
 - **Resume-capable indexing** — indexing can be interrupted and resumed without re-embedding
 
@@ -31,25 +33,41 @@ backend/           FastAPI + asyncio
       guardrail.py         Citation verification (hallucination vs canonical miss)
       citation_oracle.py   Validates sutta IDs and verse numbers
       pali_dictionary.py   Pāḷi term → English passage hints for reranking
+      answer_composer.py   Runs scope guard → search → synthesis → citation checks
+      scope_guard.py       Optional Jev off-topic question filter
+      citation_support_check.py  Optional Jev check that citations back their claims
 data/
   fetch_thanissaro.py  Download Thanissaro Bhikkhu epub from dhammatalks.org → local JSON
   process_dumps.py Embed & upsert into Qdrant
+scripts/
+  jev_decide.py    Asks Jev the fixed wayfinder decision questions (dev tooling, used by the jev-decisions skill)
 docs/adr/          Architecture decision records
+docs/research/     Probe and benchmark write-ups
 tests/             pytest suites (backend)
 ```
 
-**Stack:** FastAPI · Qdrant Cloud · fastembed (ONNX Runtime) · BM25 sparse retrieval · cross-encoder/ms-marco-MiniLM-L-6-v2 · Llama 3.1 8B for query expansion and synthesis (via NVIDIA API; synthesis model set via `LLM_MODEL` env var, defaults to `meta/llama-3.3-70b-instruct`) · Next.js · Tailwind CSS
+**Stack:** FastAPI · Qdrant Cloud · fastembed (ONNX Runtime) · BM25 sparse retrieval · cross-encoder/ms-marco-MiniLM-L-6-v2 · `qwen/qwen3.8-27b` for query expansion and synthesis (via Groq's OpenAI-compatible API; override with the `EXPANSION_MODEL` and `LLM_MODEL` env vars) · Jev / TypeSafe System One for the optional scope guard and citation support check · Next.js · Tailwind CSS
 
 ## Deployment
 
-The frontend is on **Netlify** (`askthecanon.netlify.app`). The backend runs on **DigitalOcean App Platform** (paid, ~$7–12/month), auto-deploying from the `master` branch on push. Vectors are stored in **Qdrant Cloud** (free tier). LLM calls go to the **NVIDIA API** (free tier). User feedback is stored durably in **Supabase** (free tier) — survives redeploys. The `LLM_MODEL`, `SUPABASE_URL`, and `SUPABASE_KEY` env vars are set in the App Platform dashboard.
+The frontend is on **Netlify** (`askthecanon.netlify.app`). The backend runs on **DigitalOcean App Platform** (paid, ~$7–12/month), auto-deploying from the `master` branch on push. Vectors are stored in **Qdrant Cloud** (free tier). LLM calls go to **Groq**. At startup the backend makes one test call per model and logs a warning if a model has been retired or `GROQ_API_KEY` is missing, instead of failing silently later. User feedback is stored durably in **Supabase** (free tier) — survives redeploys. The `GROQ_API_KEY`, `LLM_MODEL`, `EXPANSION_MODEL`, `SUPABASE_URL`, and `SUPABASE_KEY` env vars are set in the App Platform dashboard.
+
+Optional Jev features are turned on with env vars and need `TYPESAFE_API_KEY`; if the key is missing they stay off. If Jev is down, the app answers without the check rather than failing:
+
+| Env var | Turns on |
+|---|---|
+| `SCOPE_GUARD_ENABLED=true` | Scope guard |
+| `CITATION_SUPPORT_CHECK_ENABLED=true` | Citation support check |
+
+CI runs the full backend test suite on every pull request.
 
 ## Prerequisites
 
 - Docker (for Qdrant)
 - Python 3.10+
 - Node.js 20+
-- An [NVIDIA API key](https://build.nvidia.com/)
+- A [Groq API key](https://console.groq.com/keys)
+- Optional: a TypeSafe API key (`TYPESAFE_API_KEY`) for the Jev features
 
 ## Setup
 
