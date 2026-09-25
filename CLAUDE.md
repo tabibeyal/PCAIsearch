@@ -29,6 +29,10 @@ Access pipeline internals via `pipeline.retriever.client` / `pipeline.retriever.
 
 ## Agent skills
 
+### Wayfinder decisions
+
+When running `/wayfinder` in this repo, load the `jev-decisions` skill. It replaces free-text judgment at five points: classifying a ticket's type, fog vs ticket, picking the next ticket, closing a ticket as resolved, and the risk check before a change.
+
 ### Issue tracker
 
 Issues are tracked in GitHub Issues (tabibeyal/PCAIsearch) via the `gh` CLI. External PRs are not treated as a triage surface. See `docs/agents/issue-tracker.md`.

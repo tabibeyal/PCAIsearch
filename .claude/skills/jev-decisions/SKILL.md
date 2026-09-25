@@ -97,12 +97,12 @@ With exactly one unclaimed issue, the script skips the API call and returns it.
 - Type: Score with 4 levels plus a Noul `contradicts_decision`
 - Flags: `--change "<what you are about to do>"`
 - Levels: 0 trivial and reversible, 1 local and easy to revert, 2 touches shared behavior (API contract, search ranking, index, data), 3 destructive, irreversible, or affects prod / secrets / canon data
-- Gate: act only if score is 0 or 1, score confidence >= 0.80, and `contradicts_decision` < 0.15. Otherwise `ask_human`.
+- Gate: act only if the chance of level 2 or 3 is below 0.10 and `contradicts_decision` < 0.15. Otherwise `ask_human`. The gate reads the level probabilities, not the score: the score is an average, and 75% level 0 plus 25% level 3 averages under 1. `value` is the most likely level.
 - Default on API failure: `ask_human`. The risk gate fails closed.
 
 ## Thresholds are starting guesses
 
-Every number above (0.70, 0.60, 0.85 / 0.15, 0.80) is a first guess. They live in `questions.json` under each decision's `gate`. Change them there, not in this file or in the script. When Eyal overrides a result, note the case in the map so the thresholds can be tuned later.
+Every number above (0.70, 0.60, 0.85 / 0.15, 0.10) is a first guess. They live in `questions.json` under each decision's `gate`. Change them there, not in this file or in the script. When Eyal overrides a result, note the case in the map so the thresholds can be tuned later.
 
 ## Failures
 

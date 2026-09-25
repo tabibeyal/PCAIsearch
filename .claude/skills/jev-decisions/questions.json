@@ -135,8 +135,8 @@
       "gate": {
         "kind": "risk",
         "score_question": "risk_level",
-        "max_level": 1,
-        "min_confidence": 0.8,
+        "min_high_level": 2,
+        "max_high_probability": 0.1,
         "contradiction_question": "contradicts_decision",
         "max_contradiction": 0.15,
         "on_fail": "ask_human",
