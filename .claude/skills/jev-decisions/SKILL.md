@@ -54,20 +54,22 @@ What to do with each decision:
 
 ### 1. `classify` - ticket type
 
-- Type: Choice over `research`, `prototype`, `grilling`, `task`
+- Type: Choice over `research`, `prototype`, `grilling`, `task`, with the same meanings as wayfinder's Ticket Types. `task` means manual work with nothing to decide (moving data, signing up, provisioning access), not building a feature.
 - Flags: `--ticket "<title and body>"`
 - Gate: act if confidence >= 0.70
-- Default: none. Low confidence on type means the ticket is unclear, so the script returns `ask_human`.
-- Apply the matching `wayfinder:<type>` label only on `act`.
+- Default: `grilling`, wayfinder's usual case. On low confidence or an error, the script returns `fall_back_to_default` with `value: "grilling"`.
+- Apply the matching `wayfinder:<type>` label on `act` and on `fall_back_to_default`.
 
-**Grilling tickets always pair with domain-modeling.** When the answer is `grilling`, the script sets `pair_with: "domain-modeling"`. Load the domain-modeling skill before you start the grilling session, and keep its glossary open while you question. This rule is code, not a Jev question. Never ask Jev whether to pair.
+**Grilling tickets always pair with domain-modeling.** When the value is `grilling`, whether Jev picked it or it is the fallback, the script sets `pair_with: "domain-modeling"`. Load the domain-modeling skill before you start the grilling session, and keep its glossary open while you question. This rule is code, not a Jev question. Never ask Jev whether to pair.
 
 ### 2. `fog` - fog or ticket
 
-- Type: Choice over `fog`, `ticket`, `out-of-scope`, `already-decided`
-- Flags: `--question "<the idea, request, or open question>"`
+- Type: Choice over `ticket`, `fog`, `already-a-ticket`, `already-decided`, `out-of-scope`
+- The test: a `ticket` is a precise question the current route needs, even if it waits on a specific open ticket. `fog` is anything vaguer, and also a precise question Eyal is deliberately putting off until later. This is stricter than wayfinder's own rule, on purpose: Eyal's maps park sharp-but-later questions in Fog.
+- Flags: `--question "<the idea, request, or open question>"` and `--open-ticket "#<id> <title>"` for every open ticket on the map (repeat). Without the open tickets, Jev cannot see duplicates.
 - Gate: act if confidence >= 0.70
-- Default: `fog` (write it into the map's notes, don't open an issue)
+- Default: `fog` (write it into the map's Fog section, don't open an issue)
+- On `already-a-ticket`: add anything new to that issue as a comment instead of opening another one.
 - On `already-decided`: link the closed decision instead of opening an issue.
 - On `out-of-scope`: drop it and mention it once in your summary.
 

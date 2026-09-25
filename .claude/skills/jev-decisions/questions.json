@@ -7,12 +7,24 @@
       "questions": {
         "ticket_type": {
           "type": "choice",
-          "instructions": "Given the map destination, notes, and closed decisions, which kind of wayfinder ticket is `ticket`?",
+          "instructions": "Given `map_destination`, `notes`, and `closed_decisions`, which kind of wayfinder ticket is `ticket`? Judge by what kind of work would resolve it.",
           "criteria": {
-            "research": "The main work is finding out something we don't know yet: reading sources, docs, papers, or data, comparing options. Output is findings, not code.",
-            "prototype": "The main work is building a throwaway or spike implementation to learn whether an approach works (e.g. a retrieval method, UI flow, or model).",
-            "grilling": "The main work is a structured Q&A with the human to pin down requirements, terms, or domain meaning before anything is built.",
-            "task": "The approach is already decided and the work is concrete implementation, fix, or chore with clear acceptance criteria."
+            "research": {
+              "means": "Resolving it needs knowledge from outside this repo: documentation, third-party APIs, papers, datasets, or knowledge bases. The output is a written summary of findings.",
+              "not": "A question the project owner can answer from their own intent or preferences."
+            },
+            "prototype": {
+              "means": "The key question is how something should look or behave, and it is best settled by making a cheap, rough artifact to react to: an outline, a rough draft, a stub, or rough UI or logic code.",
+              "not": "Production code for an approach that is already decided."
+            },
+            "grilling": {
+              "means": "The key question is a decision only the project owner can make: what they want, what a term means, which trade-off to accept. It is settled by a conversation that asks one question at a time.",
+              "note": "This is the usual case when the ticket asks what should be decided."
+            },
+            "task": {
+              "means": "Literal manual work that must be done before the discussion can move forward, with nothing to decide, prototype, or research. Examples: moving data, signing up for a service, provisioning access, rotating a key.",
+              "not": "Building a feature or fixing a bug where the approach is still open."
+            }
           }
         }
       },
@@ -20,21 +32,36 @@
         "kind": "choice_confidence",
         "question": "ticket_type",
         "min_confidence": 0.7,
-        "on_low_confidence": "ask_human",
-        "on_error": "ask_human",
-        "pair_with": { "grilling": "domain-modeling" }
+        "on_low_confidence": "fall_back_to_default",
+        "on_error": "fall_back_to_default",
+        "pair_with": {
+          "grilling": "domain-modeling"
+        },
+        "default": "grilling"
       }
     },
     "fog": {
       "questions": {
         "fog_or_ticket": {
           "type": "choice",
-          "instructions": "Should `open_question` become a GitHub issue on the wayfinder map, stay as fog (a note on the map), or neither?",
+          "instructions": {
+            "question": "Where does `open_question` belong on the wayfinder map for `map_destination`?",
+            "test": "A ticket is a precise question the current route needs answered. Fog is anything vaguer, or a precise question the owner is deliberately putting off until later."
+          },
           "criteria": {
-            "fog": "Relevant to the destination but too vague, early, or speculative to act on. Keep it as a note.",
-            "ticket": "Relevant to the destination and concrete enough that someone could start work on it now.",
-            "out-of-scope": "Not related to reaching the map destination.",
-            "already-decided": "One of the closed decisions already answers it."
+            "ticket": "Relevant to the destination, stated as one precise question, and needed on the current route: work toward the destination depends on its answer now, or as soon as a specific open ticket it waits on is closed.",
+            "fog": {
+              "means": "Relevant to the destination, but not a ticket yet. Either it cannot yet be phrased as one precise question, or it is precise but deliberately put off: it matters only later, depends on a decision nobody has made yet, or is marked as parked, someday, or not needed now.",
+              "examples": [
+                "a suspected question",
+                "an area to revisit later",
+                "a risk being deferred",
+                "a sharp question that is out of scope for now but will come back"
+              ]
+            },
+            "already-a-ticket": "One of `open_tickets` already covers the same question.",
+            "already-decided": "One of `closed_decisions` already answers it.",
+            "out-of-scope": "Not needed to reach the map destination, now or later."
           }
         }
       },
@@ -62,7 +89,9 @@
         "on_low_confidence": "fall_back_to_default",
         "on_error": "fall_back_to_default",
         "default": "lowest_issue_number",
-        "exclude_labels": ["wayfinder:claimed"]
+        "exclude_labels": [
+          "wayfinder:claimed"
+        ]
       }
     },
     "resolved": {
