@@ -115,3 +115,32 @@ def test_validation_error_is_not_retried(api, monkeypatch, capsys):
     api(_http_error(422), _RISK_OK)
     code, _ = _run(monkeypatch, capsys, ["risk", "--change", "fix a typo in README"])
     assert code == jev_decide.EXIT["ask_human"]
+
+
+def _classify_answer(choice: str, confidence: float) -> dict:
+    return {"model": "jev-test",
+            "answers": {"ticket_type": {"type": "choice", "choice": choice, "confidence": confidence}}}
+
+
+def test_unsure_classify_falls_back_to_grilling(api, monkeypatch, capsys):
+    api(_classify_answer("task", 0.30))
+    _, out = _run(monkeypatch, capsys, ["classify", "--ticket", "Decide how to rank sources"])
+    assert json.loads(out)["value"] == "grilling"
+
+
+def test_grilling_fallback_still_pairs_with_domain_modeling(api, monkeypatch, capsys):
+    api(_classify_answer("task", 0.30))
+    _, out = _run(monkeypatch, capsys, ["classify", "--ticket", "Decide how to rank sources"])
+    assert json.loads(out)["pair_with"] == "domain-modeling"
+
+
+def test_classify_error_falls_back_to_grilling(api, monkeypatch, capsys):
+    api(_http_error(500))
+    _, out = _run(monkeypatch, capsys, ["classify", "--ticket", "Decide how to rank sources"])
+    assert json.loads(out)["value"] == "grilling"
+
+
+def test_fog_sends_open_tickets_so_jev_can_spot_duplicates(monkeypatch, capsys):
+    _, out = _run(monkeypatch, capsys,
+                  ["fog", "--question", "Should BM25 weight titles?", "--open-ticket", "#14 Title boost", "--dry-run"])
+    assert json.loads(out)["state"]["open_tickets"] == ["#14 Title boost"]

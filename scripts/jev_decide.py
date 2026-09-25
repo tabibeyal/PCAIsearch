@@ -6,7 +6,7 @@ Standard library only. Requires TYPESAFE_API_KEY in the environment.
 
 Usage:
   python3 scripts/jev_decide.py classify --destination "..." --ticket "..."
-  python3 scripts/jev_decide.py fog      --destination "..." --question "..."
+  python3 scripts/jev_decide.py fog      --destination "..." --question "..." --open-ticket "#14 ..."
   python3 scripts/jev_decide.py next     --destination "..." --frontier "12=Add BM25 fallback" --frontier "15=..."
   python3 scripts/jev_decide.py resolved --ticket "..." --evidence "..."
   python3 scripts/jev_decide.py risk     --change "..." --closed-decision "..."
@@ -74,6 +74,8 @@ def build_state(args: argparse.Namespace) -> dict:
         state["ticket"] = args.ticket
     if args.question:
         state["open_question"] = args.question
+    if args.open_ticket:
+        state.setdefault("open_tickets", []).extend(args.open_ticket)
     if args.evidence:
         state["evidence"] = args.evidence
     if args.change:
@@ -161,17 +163,14 @@ def apply_gate(point: str, gate: dict, answers: dict, frontier: list[dict]) -> d
         a = answers[gate["question"]]
         choice, conf = a.get("choice"), float(a.get("confidence", 0.0))
         if conf >= gate["min_confidence"]:
-            result = {"decision": "act", "value": choice,
-                      "reason": f"confidence {conf:.2f} >= {gate['min_confidence']}"}
-            pair = (gate.get("pair_with") or {}).get(choice)
-            if pair:
-                result["pair_with"] = pair
-            return result
+            return with_pairing(gate, {"decision": "act", "value": choice,
+                                       "reason": f"confidence {conf:.2f} >= {gate['min_confidence']}"})
         fallback = gate["on_low_confidence"]
-        return {"decision": fallback,
-                "value": default_value(gate, frontier) if fallback == "fall_back_to_default" else None,
-                "top_answer": choice,
-                "reason": f"confidence {conf:.2f} < {gate['min_confidence']}"}
+        return with_pairing(gate, {
+            "decision": fallback,
+            "value": default_value(gate, frontier) if fallback == "fall_back_to_default" else None,
+            "top_answer": choice,
+            "reason": f"confidence {conf:.2f} < {gate['min_confidence']}"})
 
     if kind == "noul_bands":
         p = float(answers[gate["question"]]["noul"])
@@ -201,13 +200,21 @@ def apply_gate(point: str, gate: dict, answers: dict, frontier: list[dict]) -> d
     raise ValueError(f"unknown gate kind: {kind}")
 
 
+def with_pairing(gate: dict, result: dict) -> dict:
+    # Grilling pairs with domain-modeling whether Jev chose it or it is the fallback.
+    pair = (gate.get("pair_with") or {}).get(result["value"])
+    if pair:
+        result["pair_with"] = pair
+    return result
+
+
 def error_result(gate: dict, frontier: list[dict], reason: str) -> dict:
     decision = gate.get("on_error", "fall_back_to_default")
     value = default_value(gate, frontier) if decision == "fall_back_to_default" else None
     if decision == "fall_back_to_default" and value is None:
         # e.g. `next` failed before the frontier was known: there is no default to fall back to.
         decision = "ask_human"
-    return {"decision": decision, "value": value, "reason": reason}
+    return with_pairing(gate, {"decision": decision, "value": value, "reason": reason})
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
@@ -219,6 +226,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     p.add_argument("--closed-decision", action="append", help="A closed decision. Repeatable.")
     p.add_argument("--ticket", help="Ticket title/body (classify, resolved).")
     p.add_argument("--question", help="Open question or idea (fog).")
+    p.add_argument("--open-ticket", action="append", help="An open map ticket as '#id title' (fog). Repeatable.")
     p.add_argument("--frontier", action="append", help="Frontier issue as id=summary (next). Repeatable.")
     p.add_argument("--evidence", help="Evidence of completion (resolved).")
     p.add_argument("--change", help="Proposed change (risk).")
