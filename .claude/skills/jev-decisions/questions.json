@@ -1,0 +1,118 @@
+{
+  "_readme": "Fixed Jev questions for the jev-decisions skill. Each decision's `questions` object is sent as-is as the `questions` field of POST https://api.typesafe.ai/v1/systemone, together with `model` and a `state` built by scripts/jev_decide.py. The string \"{{FRONTIER}}\" is a placeholder: the script replaces it with an object of {issue_id: summary} for unclaimed frontier issues. `gate` values are starting guesses - tune them here.",
+  "model": "jev-latest",
+  "_model_note": "jev-latest is an alias and can change under you. After testing, pin the concrete version the API returns in the response `model` field (e.g. \"jev-1.13.0\") here, or set JEV_MODEL in the environment.",
+  "decisions": {
+    "classify": {
+      "questions": {
+        "ticket_type": {
+          "type": "choice",
+          "instructions": "Given the map destination, notes, and closed decisions, which kind of wayfinder ticket is `ticket`?",
+          "criteria": {
+            "research": "The main work is finding out something we don't know yet: reading sources, docs, papers, or data, comparing options. Output is findings, not code.",
+            "prototype": "The main work is building a throwaway or spike implementation to learn whether an approach works (e.g. a retrieval method, UI flow, or model).",
+            "grilling": "The main work is a structured Q&A with the human to pin down requirements, terms, or domain meaning before anything is built.",
+            "task": "The approach is already decided and the work is concrete implementation, fix, or chore with clear acceptance criteria."
+          }
+        }
+      },
+      "gate": {
+        "kind": "choice_confidence",
+        "question": "ticket_type",
+        "min_confidence": 0.7,
+        "on_low_confidence": "ask_human",
+        "on_error": "ask_human",
+        "pair_with": { "grilling": "domain-modeling" }
+      }
+    },
+    "fog": {
+      "questions": {
+        "fog_or_ticket": {
+          "type": "choice",
+          "instructions": "Should `open_question` become a GitHub issue on the wayfinder map, stay as fog (a note on the map), or neither?",
+          "criteria": {
+            "fog": "Relevant to the destination but too vague, early, or speculative to act on. Keep it as a note.",
+            "ticket": "Relevant to the destination and concrete enough that someone could start work on it now.",
+            "out-of-scope": "Not related to reaching the map destination.",
+            "already-decided": "One of the closed decisions already answers it."
+          }
+        }
+      },
+      "gate": {
+        "kind": "choice_confidence",
+        "question": "fog_or_ticket",
+        "min_confidence": 0.7,
+        "on_low_confidence": "fall_back_to_default",
+        "on_error": "fall_back_to_default",
+        "default": "fog"
+      }
+    },
+    "next": {
+      "questions": {
+        "next_ticket": {
+          "type": "choice",
+          "instructions": "Which frontier issue should be worked on next to make the most progress toward the map destination, given the notes and closed decisions? Prefer issues that unblock others.",
+          "criteria": "{{FRONTIER}}"
+        }
+      },
+      "gate": {
+        "kind": "choice_confidence",
+        "question": "next_ticket",
+        "min_confidence": 0.6,
+        "on_low_confidence": "fall_back_to_default",
+        "on_error": "fall_back_to_default",
+        "default": "lowest_issue_number",
+        "exclude_labels": ["wayfinder:claimed"]
+      }
+    },
+    "resolved": {
+      "questions": {
+        "is_resolved": {
+          "type": "noul",
+          "instructions": "Does the `evidence` show that `ticket` is fully resolved, meeting all of its acceptance criteria?",
+          "criteria": {
+            "true": "Every acceptance criterion in the ticket is met by the evidence, with nothing left open.",
+            "false": "At least one acceptance criterion is unmet, unverified, or only partly done."
+          }
+        }
+      },
+      "gate": {
+        "kind": "noul_bands",
+        "question": "is_resolved",
+        "yes_at_or_above": 0.85,
+        "no_below": 0.15,
+        "on_middle": "ask_human",
+        "on_error": "fall_back_to_default",
+        "default": false
+      }
+    },
+    "risk": {
+      "questions": {
+        "risk_level": {
+          "type": "score",
+          "instructions": "How risky is the proposed `change` to the PCAIsearch repo (FastAPI backend, Next.js frontend, Pali Canon search index)?",
+          "criteria": [
+            "Trivial and reversible: docs, comments, tests, local-only tweaks.",
+            "Local and easy to revert: one module or component, no shared contract changes.",
+            "Touches shared behavior: API contract, search ranking or retrieval, index build, data files, dependencies, CI.",
+            "Destructive or hard to undo: deletes data, rewrites history, touches production, deploys, secrets, or canon source text."
+          ]
+        },
+        "contradicts_decision": {
+          "type": "noul",
+          "instructions": "Does the proposed `change` contradict or undo any of the `closed_decisions`?"
+        }
+      },
+      "gate": {
+        "kind": "risk",
+        "score_question": "risk_level",
+        "max_level": 1,
+        "min_confidence": 0.8,
+        "contradiction_question": "contradicts_decision",
+        "max_contradiction": 0.15,
+        "on_fail": "ask_human",
+        "on_error": "ask_human"
+      }
+    }
+  }
+}

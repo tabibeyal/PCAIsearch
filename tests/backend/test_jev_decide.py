@@ -1,0 +1,117 @@
+import importlib.util
+import io
+import json
+import urllib.error
+from pathlib import Path
+
+import pytest
+
+_SCRIPT = Path(__file__).resolve().parents[2] / "scripts" / "jev_decide.py"
+_spec = importlib.util.spec_from_file_location("jev_decide", _SCRIPT)
+jev_decide = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(jev_decide)
+
+_RISK_OK = {
+    "model": "jev-test",
+    "answers": {
+        "risk_level": {"type": "score", "score": 0.0, "confidence": 0.95},
+        "contradicts_decision": {"type": "noul", "noul": 0.02},
+    },
+}
+
+
+class _FakeResponse:
+    def __init__(self, body: dict):
+        self._raw = json.dumps(body).encode("utf-8")
+
+    def read(self):
+        return self._raw
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *exc):
+        return False
+
+
+def _http_error(code: int) -> urllib.error.HTTPError:
+    return urllib.error.HTTPError(jev_decide.API_URL, code, "err", {}, io.BytesIO(b"{}"))
+
+
+def _fake_urlopen(*outcomes):
+    """Each call pops the next outcome: an exception to raise, or a body to return."""
+    queue = list(outcomes)
+
+    def urlopen(req, timeout):
+        outcome = queue.pop(0)
+        if isinstance(outcome, Exception):
+            raise outcome
+        return _FakeResponse(outcome)
+
+    return urlopen
+
+
+def _run(monkeypatch, capsys, argv, stdin=None):
+    if stdin is not None:
+        monkeypatch.setattr("sys.stdin", io.StringIO(json.dumps(stdin)))
+    code = jev_decide.main(argv)
+    return code, capsys.readouterr().out
+
+
+@pytest.fixture
+def api(monkeypatch):
+    monkeypatch.setenv("TYPESAFE_API_KEY", "test-key")
+    monkeypatch.setattr(jev_decide.time, "sleep", lambda s: None)
+
+    def install(*outcomes):
+        monkeypatch.setattr(jev_decide.urllib.request, "urlopen", _fake_urlopen(*outcomes))
+
+    return install
+
+
+_GH_FRONTIER = {"frontier": [
+    {"number": 210, "title": "Claimed one", "labels": [{"name": "wayfinder:claimed"}]},
+    {"number": 211, "title": "Free one", "labels": [{"name": "wayfinder:task"}]},
+]}
+
+
+def test_gh_frontier_skips_claimed_issue(monkeypatch, capsys):
+    _, out = _run(monkeypatch, capsys, ["next", "--state", "-"], stdin=_GH_FRONTIER)
+    assert json.loads(out)["value"] == "211"
+
+
+def test_gh_frontier_title_becomes_choice_description(monkeypatch, capsys):
+    stdin = {"frontier": _GH_FRONTIER["frontier"] + [{"number": 212, "title": "Other", "labels": []}]}
+    _, out = _run(monkeypatch, capsys, ["next", "--state", "-", "--dry-run"], stdin=stdin)
+    assert json.loads(out)["questions"]["next_ticket"]["criteria"] == {"211": "Free one", "212": "Other"}
+
+
+def test_closed_decision_string_in_state_merges_with_flag(monkeypatch, capsys):
+    _, out = _run(monkeypatch, capsys,
+                  ["risk", "--state", "-", "--closed-decision", "second", "--dry-run"],
+                  stdin={"closed_decisions": "first"})
+    assert json.loads(out)["state"]["closed_decisions"] == ["first", "second"]
+
+
+def test_frontier_entry_without_id_asks_human_instead_of_crashing(monkeypatch, capsys):
+    code, _ = _run(monkeypatch, capsys, ["next", "--state", "-"],
+                   stdin={"frontier": [{"title": "no id"}, {"title": "no id either"}]})
+    assert code == jev_decide.EXIT["ask_human"]
+
+
+def test_overloaded_api_is_retried(api, monkeypatch, capsys):
+    api(_http_error(529), _RISK_OK)
+    code, _ = _run(monkeypatch, capsys, ["risk", "--change", "fix a typo in README"])
+    assert code == jev_decide.EXIT["act"]
+
+
+def test_rate_limit_that_never_clears_fails_closed_on_risk(api, monkeypatch, capsys):
+    api(_http_error(429), _http_error(429), _http_error(429))
+    code, _ = _run(monkeypatch, capsys, ["risk", "--change", "fix a typo in README"])
+    assert code == jev_decide.EXIT["ask_human"]
+
+
+def test_validation_error_is_not_retried(api, monkeypatch, capsys):
+    api(_http_error(422), _RISK_OK)
+    code, _ = _run(monkeypatch, capsys, ["risk", "--change", "fix a typo in README"])
+    assert code == jev_decide.EXIT["ask_human"]
