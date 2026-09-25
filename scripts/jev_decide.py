@@ -7,11 +7,8 @@ Standard library only. Requires TYPESAFE_API_KEY in the environment.
 Usage:
   python3 scripts/jev_decide.py classify --destination "..." --ticket "..."
   python3 scripts/jev_decide.py fog      --destination "..." --question "..." --open-ticket "#14 ..."
-  python3 scripts/jev_decide.py next     --destination "..." --frontier "12=Add BM25 fallback" --frontier "15=..."
   python3 scripts/jev_decide.py resolved --ticket "..." --evidence "..."
   python3 scripts/jev_decide.py risk     --change "..." --closed-decision "..."
-  gh issue list --json number,title,labels | jq '{frontier: .}' \
-    | python3 scripts/jev_decide.py next --state -
 
 Output: JSON on stdout with `decision` = act | ask_human | fall_back_to_default.
 Exit codes: 0 act, 10 ask_human, 20 fall_back_to_default, 2 usage error.
@@ -23,7 +20,6 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import re
 import sys
 import time
 import urllib.error
@@ -33,7 +29,6 @@ from pathlib import Path
 API_URL = "https://api.typesafe.ai/v1/systemone"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 QUESTIONS_PATH = REPO_ROOT / ".claude" / "skills" / "jev-decisions" / "questions.json"
-FRONTIER_PLACEHOLDER = "{{FRONTIER}}"
 # The API docs ask callers to back off and retry on these two statuses.
 RETRY_STATUSES = {429, 529}
 RETRY_DELAYS = (2.0, 5.0)
@@ -80,43 +75,7 @@ def build_state(args: argparse.Namespace) -> dict:
         state["evidence"] = args.evidence
     if args.change:
         state["change"] = args.change
-    for item in args.frontier or []:
-        issue_id, _, summary = item.partition("=")
-        state.setdefault("frontier", []).append(
-            {"id": issue_id.strip().lstrip("#"), "summary": summary.strip(), "labels": []}
-        )
     return state
-
-
-def filter_frontier(state: dict, exclude_labels: list[str]) -> list[dict]:
-    """Drop claimed issues. Backstop: the caller should already have filtered.
-
-    Accepts our own shape ({id, summary, labels: [str]}) and `gh issue list
-    --json number,title,labels` output, where labels are {"name": ...} objects.
-    """
-    kept = []
-    for entry in state.get("frontier", []):
-        if isinstance(entry, (str, int)):
-            entry = {"id": str(entry)}
-        labels = {lab["name"] if isinstance(lab, dict) else lab for lab in entry.get("labels") or []}
-        if labels & set(exclude_labels):
-            continue
-        issue_id = str(entry.get("id", entry.get("number", ""))).lstrip("#")
-        if not issue_id:
-            raise ValueError(f"frontier entry has no id or number: {entry}")
-        kept.append({"id": issue_id,
-                     "summary": entry.get("summary") or entry.get("title") or "",
-                     "labels": sorted(labels)})
-    return kept
-
-
-def inject_frontier(questions: dict, frontier: list[dict]) -> dict:
-    criteria = {e["id"]: (e.get("summary") or f"Issue #{e['id']}") for e in frontier}
-    out = json.loads(json.dumps(questions))
-    for q in out.values():
-        if q.get("criteria") == FRONTIER_PLACEHOLDER:
-            q["criteria"] = criteria
-    return out
 
 
 def call_jev(body: dict, timeout: float) -> dict:
@@ -144,19 +103,7 @@ def call_jev(body: dict, timeout: float) -> dict:
             raise RuntimeError(f"HTTP {e.code}: {detail}") from e
 
 
-def issue_sort_key(issue_id: str):
-    m = re.search(r"\d+", issue_id)
-    return (0, int(m.group())) if m else (1, issue_id)
-
-
-def default_value(gate: dict, frontier: list[dict]):
-    d = gate.get("default")
-    if d == "lowest_issue_number":
-        return min((e["id"] for e in frontier), key=issue_sort_key) if frontier else None
-    return d
-
-
-def apply_gate(point: str, gate: dict, answers: dict, frontier: list[dict]) -> dict:
+def apply_gate(point: str, gate: dict, answers: dict) -> dict:
     kind = gate["kind"]
 
     if kind == "choice_confidence":
@@ -168,7 +115,7 @@ def apply_gate(point: str, gate: dict, answers: dict, frontier: list[dict]) -> d
         fallback = gate["on_low_confidence"]
         return with_pairing(gate, {
             "decision": fallback,
-            "value": default_value(gate, frontier) if fallback == "fall_back_to_default" else None,
+            "value": gate.get("default") if fallback == "fall_back_to_default" else None,
             "top_answer": choice,
             "reason": f"confidence {conf:.2f} < {gate['min_confidence']}"})
 
@@ -210,18 +157,15 @@ def with_pairing(gate: dict, result: dict) -> dict:
     return result
 
 
-def error_result(gate: dict, frontier: list[dict], reason: str) -> dict:
+def error_result(gate: dict, reason: str) -> dict:
     decision = gate.get("on_error", "fall_back_to_default")
-    value = default_value(gate, frontier) if decision == "fall_back_to_default" else None
-    if decision == "fall_back_to_default" and value is None:
-        # e.g. `next` failed before the frontier was known: there is no default to fall back to.
-        decision = "ask_human"
+    value = gate.get("default") if decision == "fall_back_to_default" else None
     return with_pairing(gate, {"decision": decision, "value": value, "reason": reason})
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Ask Jev a fixed wayfinder decision question.")
-    p.add_argument("point", choices=["classify", "fog", "next", "resolved", "risk"])
+    p.add_argument("point", choices=["classify", "fog", "resolved", "risk"])
     p.add_argument("--state", help="JSON object state file, or - for stdin. Flags below are merged on top.")
     p.add_argument("--destination", help="Current wayfinder:map destination.")
     p.add_argument("--notes", help="Relevant map notes.")
@@ -229,7 +173,6 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     p.add_argument("--ticket", help="Ticket title/body (classify, resolved).")
     p.add_argument("--question", help="Open question or idea (fog).")
     p.add_argument("--open-ticket", action="append", help="An open map ticket as '#id title' (fog). Repeatable.")
-    p.add_argument("--frontier", action="append", help="Frontier issue as id=summary (next). Repeatable.")
     p.add_argument("--evidence", help="Evidence of completion (resolved).")
     p.add_argument("--change", help="Proposed change (risk).")
     p.add_argument("--timeout", type=float, default=30.0)
@@ -253,30 +196,14 @@ def main(argv: list[str]) -> int:
         return decide(args, config, gate, state)
     except Exception as e:
         out = {"decision_point": args.point, "thresholds": gate}
-        out.update(error_result(gate, [], f"jev_decide failed: {type(e).__name__}: {e}"))
+        out.update(error_result(gate, f"jev_decide failed: {type(e).__name__}: {e}"))
         print(json.dumps(out, indent=2))
         return EXIT[out["decision"]]
 
 
 def decide(args: argparse.Namespace, config: dict, gate: dict, state: dict) -> int:
     questions = config["decisions"][args.point]["questions"]
-    frontier: list[dict] = []
     out: dict = {"decision_point": args.point, "thresholds": gate}
-
-    if args.point == "next":
-        frontier = filter_frontier(state, gate.get("exclude_labels", []))
-        state["frontier"] = frontier
-        if not frontier:
-            out.update({"decision": "ask_human", "value": None,
-                        "reason": "frontier is empty after excluding claimed issues"})
-            print(json.dumps(out, indent=2))
-            return EXIT["ask_human"]
-        if len(frontier) == 1:
-            out.update({"decision": "act", "value": frontier[0]["id"],
-                        "reason": "only one unclaimed frontier issue; no API call"})
-            print(json.dumps(out, indent=2))
-            return EXIT["act"]
-        questions = inject_frontier(questions, frontier)
 
     body = {"state": state, "model": resolve_model(config), "questions": questions}
     if args.dry_run:
@@ -288,9 +215,9 @@ def decide(args: argparse.Namespace, config: dict, gate: dict, state: dict) -> i
         answers = resp["answers"]
         out["model"] = resp.get("model")  # concrete version actually used - pin this
         out["answers"] = answers
-        out.update(apply_gate(args.point, gate, answers, frontier))
+        out.update(apply_gate(args.point, gate, answers))
     except (RuntimeError, OSError, KeyError, TypeError, ValueError) as e:
-        out.update(error_result(gate, frontier, f"Jev call failed: {e}"))
+        out.update(error_result(gate, f"Jev call failed: {e}"))
 
     print(json.dumps(out, indent=2))
     return EXIT[out["decision"]]
