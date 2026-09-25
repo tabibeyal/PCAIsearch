@@ -48,9 +48,9 @@ tests/             pytest suites (backend)
 
 **Stack:** FastAPI · Qdrant Cloud · fastembed (ONNX Runtime) · BM25 sparse retrieval · cross-encoder/ms-marco-MiniLM-L-6-v2 · `qwen/qwen3.8-27b` for query expansion and synthesis (via Groq's OpenAI-compatible API; override with the `EXPANSION_MODEL` and `LLM_MODEL` env vars) · Jev / TypeSafe System One for the optional scope guard and citation support check · Next.js · Tailwind CSS
 
-## Deployment
+## Configuration
 
-The frontend is on **Netlify** (`askthecanon.netlify.app`). The backend runs on **DigitalOcean App Platform** (paid, ~$7–12/month), auto-deploying from the `master` branch on push. Vectors are stored in **Qdrant Cloud** (free tier). LLM calls go to **Groq**. At startup the backend makes one test call per model and logs a warning if a model has been retired or `GROQ_API_KEY` is missing, instead of failing silently later. User feedback is stored durably in **Supabase** (free tier) — survives redeploys. The `GROQ_API_KEY`, `LLM_MODEL`, `EXPANSION_MODEL`, `SUPABASE_URL`, and `SUPABASE_KEY` env vars are set in the App Platform dashboard.
+Vectors are stored in Qdrant (local Docker or **Qdrant Cloud**). LLM calls go to **Groq**. At startup the backend makes one test call per model and logs a warning if a model has been retired or `GROQ_API_KEY` is missing, instead of failing silently later. User feedback is stored in local SQLite, or in **Supabase** when `SUPABASE_URL` and `SUPABASE_KEY` are set.
 
 Optional Jev features are turned on with env vars and need `TYPESAFE_API_KEY`; if the key is missing they stay off. If Jev is down, the app answers without the check rather than failing:
 
@@ -125,7 +125,7 @@ Open [http://localhost:3000](http://localhost:3000).
 |---|---|
 | `GET /synthesize?q=…&top_k=10` | AI answer with citations, `hallucinations`, `canonical_misses`, and `is_faithful` flag |
 | `GET /stream?q=…&top_k=10&nikayas=DN` | Streaming synthesis (SSE); same `nikayas` filter supported |
-| `POST /feedback` | Submit thumbs-up/down feedback on a synthesis answer, with optional category and notes; stored in Supabase (production) or local SQLite (dev) |
+| `POST /feedback` | Submit thumbs-up/down feedback on a synthesis answer, with optional category and notes; stored in Supabase if configured, otherwise local SQLite |
 
 Rate limits: 10 req/min for synthesis and streaming.
 
