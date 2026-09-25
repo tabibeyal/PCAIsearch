@@ -183,19 +183,21 @@ def apply_gate(point: str, gate: dict, answers: dict, frontier: list[dict]) -> d
 
     if kind == "risk":
         s = answers[gate["score_question"]]
-        level, conf = float(s.get("score", 99)), float(s.get("confidence", 0.0))
+        # The score is a probability-weighted mean, so 75% level 0 plus 25% level 3
+        # averages under 1. Gate on the chance of a high level instead.
+        probs = {int(level): float(p) for level, p in s["probabilities"].items()}
+        p_high = sum(p for level, p in probs.items() if level >= gate["min_high_level"])
+        likely = max(probs, key=probs.get)
         contra = float(answers[gate["contradiction_question"]]["noul"])
         problems = []
-        if level > gate["max_level"]:
-            problems.append(f"risk level {level:g} > {gate['max_level']}")
-        if conf < gate["min_confidence"]:
-            problems.append(f"score confidence {conf:.2f} < {gate['min_confidence']}")
+        if p_high >= gate["max_high_probability"]:
+            problems.append(f"P(level >= {gate['min_high_level']}) {p_high:.2f} >= {gate['max_high_probability']}")
         if contra >= gate["max_contradiction"]:
             problems.append(f"contradicts_decision {contra:.2f} >= {gate['max_contradiction']}")
         if problems:
-            return {"decision": gate["on_fail"], "value": level, "reason": "; ".join(problems)}
-        return {"decision": "act", "value": level,
-                "reason": f"level {level:g}, confidence {conf:.2f}, contradiction {contra:.2f}"}
+            return {"decision": gate["on_fail"], "value": likely, "reason": "; ".join(problems)}
+        return {"decision": "act", "value": likely,
+                "reason": f"P(level >= {gate['min_high_level']}) {p_high:.2f}, contradiction {contra:.2f}"}
 
     raise ValueError(f"unknown gate kind: {kind}")
 

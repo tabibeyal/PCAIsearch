@@ -14,7 +14,8 @@ _spec.loader.exec_module(jev_decide)
 _RISK_OK = {
     "model": "jev-test",
     "answers": {
-        "risk_level": {"type": "score", "score": 0.0, "confidence": 0.95},
+        "risk_level": {"type": "score", "score": 0.05, "confidence": 0.95,
+                       "probabilities": {"0": 0.95, "1": 0.05, "2": 0.0, "3": 0.0}},
         "contradicts_decision": {"type": "noul", "noul": 0.02},
     },
 }
@@ -144,3 +145,23 @@ def test_fog_sends_open_tickets_so_jev_can_spot_duplicates(monkeypatch, capsys):
     _, out = _run(monkeypatch, capsys,
                   ["fog", "--question", "Should BM25 weight titles?", "--open-ticket", "#14 Title boost", "--dry-run"])
     assert json.loads(out)["state"]["open_tickets"] == ["#14 Title boost"]
+
+
+def test_risk_gate_asks_human_when_low_mean_hides_a_destructive_tail(api, monkeypatch, capsys):
+    api({"model": "jev-test", "answers": {
+        "risk_level": {"type": "score", "score": 0.75, "confidence": 0.9,
+                       "probabilities": {"0": 0.75, "1": 0.0, "2": 0.0, "3": 0.25}},
+        "contradicts_decision": {"type": "noul", "noul": 0.02},
+    }})
+    code, _ = _run(monkeypatch, capsys, ["risk", "--change", "clean up old index files"])
+    assert code == jev_decide.EXIT["ask_human"]
+
+
+def test_risk_gate_acts_on_an_uncertain_split_between_harmless_levels(api, monkeypatch, capsys):
+    api({"model": "jev-test", "answers": {
+        "risk_level": {"type": "score", "score": 0.5, "confidence": 0.3,
+                       "probabilities": {"0": 0.5, "1": 0.5, "2": 0.0, "3": 0.0}},
+        "contradicts_decision": {"type": "noul", "noul": 0.02},
+    }})
+    code, _ = _run(monkeypatch, capsys, ["risk", "--change", "fix a typo in README"])
+    assert code == jev_decide.EXIT["act"]
